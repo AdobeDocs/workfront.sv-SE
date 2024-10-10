@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Granskare och godkännare kan läggas till i ett arbetsflöde för engångsgodk�
 Användarna kan öppna Frame.io-visningsprogrammet på följande sätt:
 
 * Workfront e-postmeddelanden
-* The Awaiting my approval widget in the new Workfront Home area
+* The My approval widget in the new Workfront Home area
   ![](assets/awaiting-my-approval.png)
 
 >[!NOTE]

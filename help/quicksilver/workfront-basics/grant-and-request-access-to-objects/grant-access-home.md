@@ -6,9 +6,9 @@ description: Användare kan begära åtkomst till objekt i Adobe Workfront. Mer 
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 1. (Villkorligt) Gör följande från den nya startdelen:
 
-   1. Gå till widgeten **Väntar på mitt godkännande** och leta reda på begäran om mer åtkomst. Klicka sedan på **Bevilja åtkomst**.
+   1. Gå till widgeten **Mitt godkännande** och leta upp begäran om mer åtkomst. Klicka sedan på **Bevilja åtkomst**.
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 

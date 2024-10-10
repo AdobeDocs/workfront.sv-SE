@@ -5,9 +5,9 @@ description: Äldre startsida tas bort från Workfront den 10/17 med Q4-versione
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ Användare kan flagga högprioriterat arbete med följande alternativ:
 
 #### Visa godkännanden som jag har skickat in
 
-Användare kan inte visa godkännanden som de har skickat in i prioriteter. Som en tillfällig lösning kan användare skapa en godkännanderapport för att visa den här informationen.
+Användare kan inte visa godkännanden som de har skickat in i prioriteter. Som en tillfällig lösning kan användare visa den här informationen i widgeten Mina godkännanden i Home med hjälp av filteralternativet Godkännanden som jag har skickat.
 
 ### Visa godkännanden och teamförfrågningar
 
 Användare kan inte interagera med godkännanden och teamförfrågningar i Prioriteringar. De kan dock hantera godkännanden och teamförfrågningar i Nytt hem med följande widgetar:
 
-* Väntar på mitt godkännande
+* Mitt godkännande
 * Alla godkännanden
 * Teamförfrågningar
 

@@ -5,9 +5,9 @@ title: Gå från äldre startsida till ny startsida
 description: Äldre startsida tas bort från Workfront den 10/17 med Q4-versionen. Den här artikeln innehåller information om vilka funktioner som kommer att vara tillgängliga i det nya hemmet samt rekommendationer om hur du flyttar användare till det nya hemmet.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 0%
 
 ---
@@ -51,12 +51,12 @@ Användare kan fortfarande delegera arbete från Nytt hem i följande widgetar:
 * Mitt arbete
 * Mina uppgifter
 * Mina problem
-* Väntar på mina godkännanden
+* Mina godkännanden
 
 Användare kan hitta arbete som delegerats till dem i följande widgetar:
 
 * Min arbetswidget använder filtret Delegerat till mig
-* Väntar på mina godkännanden med hjälp av filtret för delegerade godkännanden
+* Mina godkännanden med hjälp av filtret Delegerade godkännanden
 
 | **Äldre startsida** | **Nytt hem** |
 |------------|-----------|
@@ -72,10 +72,7 @@ Användare kan inte längre skapa en personlig uppgift på samma sätt som i den
 
 #### Visa godkännanden som jag har skickat in
 
-Användarna kan inte visa godkännanden som de har skickat in i Nytt hem. Om användare i din organisation behöver den här funktionen kan du skapa en godkännanderapport som en tillfällig lösning eller lägga upp en kommentar här i följande communityinlägg:
-
-* [Lägg till widgeten&quot;Godkännanden jag har skickat&quot; i nytt hem](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [Lägg till&quot;Godkännanden som jag har skickat&quot; i det nya startfönstret](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+Användare kan visa godkännanden som de har skickat in i Nytt hem i widgeten Mina godkännanden med hjälp av filtret Godkännanden som jag har skickat.
 
 #### Lägg till objekt i Min prioritet
 
@@ -131,7 +128,7 @@ Håll markören över arbetsobjektet för att hitta snabbåtgärdsmenyn. Listan 
 
 Användare kan fortfarande hantera godkännanden och teamförfrågningar i Nytt hem med följande widgetar:
 
-* Väntar på mitt godkännande
+* Mitt godkännande
 * Alla godkännanden
 * Teamförfrågningar
 
@@ -167,7 +164,7 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
 * **Teamförfrågningar**\
     Visar alla väntande begäranden för team som du är i sorterad efter team, samt knappar som du kan använda för att tilldela en användare en förfrågan direkt eller för att arbeta med den själv.
 
-* **Väntar på mitt godkännande**\
+* **Mitt godkännande**\
     Visar alla väntande tilldelade eller delegerade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
 
 * **Alla godkännanden**\
@@ -202,15 +199,15 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Ljus</td>
-        <td>Mitt arbete, väntar på mitt godkännande</td>
+        <td>Mitt arbete, mitt godkännande</td>
     </tr>
     <tr>
         <td>Medarbetare</td>
-        <td>Mina förfrågningar, omnämnanden, väntar på mitt godkännande, anslagstavlor</td>
+        <td>Mina förfrågningar, omnämnanden, mitt godkännande, anslagstavlor</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Väntar på mitt godkännande</td>
+        <td>Mitt godkännande</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Begäran</td>
-        <td>Mina projekt, väntar på mitt godkännande</td>
+        <td>Mina projekt, mitt godkännande</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -241,7 +238,7 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Väntar på mitt godkännande</td>
+        <td>Mitt godkännande</td>
     </tr>
 </table>
 

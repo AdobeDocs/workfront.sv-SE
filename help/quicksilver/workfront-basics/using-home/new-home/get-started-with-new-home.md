@@ -6,9 +6,9 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,8 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
 * **Teamförfrågningar**\
     Visar alla väntande begäranden för team som du är i sorterad efter team, samt knappar som du kan använda för att tilldela en användare en förfrågan direkt eller för att arbeta med den själv.
 
-* **Väntar på mitt godkännande**\
-    Visar alla väntande tilldelade eller delegerade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
+* **Mitt godkännande**\
+    Visar alla dina väntande, tilldelade, delegerade och skickade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
 
 * **Alla godkännanden**\
         Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden. <span style="color: #ff0000;">Den här funktionen är en del av en fasversion och är för närvarande endast tillgänglig för vissa kunder.</span>
@@ -85,15 +85,15 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Ljus</td>
-        <td>Mitt arbete, väntar på mitt godkännande</td>
+        <td>Mitt arbete, mitt godkännande</td>
     </tr>
     <tr>
         <td>Medarbetare</td>
-        <td>Mina förfrågningar, omnämnanden, väntar på mitt godkännande, anslagstavlor</td>
+        <td>Mina förfrågningar, omnämnanden, mitt godkännande, anslagstavlor</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Väntar på mitt godkännande</td>
+        <td>Mitt godkännande</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Begäran</td>
-        <td>Mina projekt, väntar på mitt godkännande</td>
+        <td>Mina projekt, mitt godkännande</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -124,7 +124,7 @@ Som standard innehåller startsidan några specifika widgetar baserat på din li
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Väntar på mitt godkännande</td>
+        <td>Mitt godkännande</td>
     </tr>
 </table>
 

@@ -5,9 +5,9 @@ title: Hantera ditt arbete med widgeten Mitt arbete
 description: Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Här kan du filtrera och ordna ditt arbete, logga tid, göra uppdateringar och markera arbetsobjekten som slutförda.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Håll markören över arbetsobjektet för att hitta snabbåtgärdsmenyn. Listan 
 
 Godkännanden och teamförfrågningar visas inte i widgeten Mitt arbete. Om du regelbundet arbetar med godkännanden och teamförfrågningar rekommenderar vi att du lägger till följande widgetar på din nya hemsida:
 
-* Väntar på mitt godkännande
+* Mitt godkännande
 * Alla godkännanden
 * Teamförfrågningar
 

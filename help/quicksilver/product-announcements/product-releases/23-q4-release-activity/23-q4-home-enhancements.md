@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Mer information om de widgetar som finns i Nytt hem finns i [Kom igång med nytt
 
 ## Ny startsida för Contributor: Ny startsida
 
-Ny startsida är nu standardstartsida för Contributor-/begärande-konton. Den nya standardstartsidan innehåller ett antal widgetar som är särskilt markerade för att göra det möjligt för medarbetare att hantera sitt arbete direkt. När de första besöken på sidan får medverkande instruktioner om hur de använder Nytt hem och vilka widgetar som är tillgängliga som standard i en anpassad genomgång. De här standardwidgetarna för deltagare är: Mina förfrågningar, omnämnanden, Väntar på mitt godkännande och anslagstavlor. Observera, att om en layout med en anpassad hemsida används av ett Contributor-konto, förblir den sin hemsida.
+Ny startsida är nu standardstartsida för Contributor-/begärande-konton. Den nya standardstartsidan innehåller ett antal widgetar som är särskilt markerade för att göra det möjligt för medarbetare att hantera sitt arbete direkt. När de första besöken på sidan får medverkande instruktioner om hur de använder Nytt hem och vilka widgetar som är tillgängliga som standard i en anpassad genomgång. De här standardwidgetarna för deltagare är: Mina förfrågningar, omnämnanden, Mitt godkännande och anslagstavlor. Observera, att om en layout med en anpassad hemsida används av ett Contributor-konto, förblir den sin hemsida.
 
 Mer information om hur du använder Nytt hem finns i [Kom igång med Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Ändringar i arbetsspårning i Nytt hem
 
-Baserat på användarfeedback har vi tagit bort det sidomfattande tidsintervallfiltret och sammanfattningsfältet som justerade uppgifter som förfaller och slutförs. Widgetarna Projekt, Uppgift och Utgåva har inbyggda filtreringsfunktioner som gör att du kan anpassa deras omfång individuellt. Dessutom kommer dessa widgetar nu endast att innehålla innehåll som för närvarande är aktivt baserat på status, vilket säkerställer att det arbete de spårar alltid är relevant. Vi har också begränsat vilka widgetar som visar bubblor för antal objekt till de ställen där det är mest användbart: Mitt arbete, Meningar, Väntar på mitt godkännande och Att göra-uppgifter.
+Baserat på användarfeedback har vi tagit bort det sidomfattande tidsintervallfiltret och sammanfattningsfältet som justerade uppgifter som förfaller och slutförs. Widgetarna Projekt, Uppgift och Utgåva har inbyggda filtreringsfunktioner som gör att du kan anpassa deras omfång individuellt. Dessutom kommer dessa widgetar nu endast att innehålla innehåll som för närvarande är aktivt baserat på status, vilket säkerställer att det arbete de spårar alltid är relevant. Vi har också begränsat vilka widgetar som visar bubblor för antal objekt till de ställen där det är mest användbart: Mitt arbete, omnämnanden, Mitt godkännande och Att göra-uppgifter.
 
 Mer information om att spåra arbete i Nytt hem finns i [Kom igång med nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

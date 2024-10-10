@@ -5,9 +5,9 @@ description: Prioriteringarna är en smidig, intuitiv upplevelse som är skrädd
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Du kan bädda in länkar som används ofta på arbetsobjektets informationssida.
 
 Möjligheten att granska och godkänna mediefiler finns på prioriteringsplanen.
 
-För närvarande rekommenderar vi att du använder widgetarna Väntar på mitt godkännande och Alla godkännanden i Nytt hem.
+För närvarande rekommenderar vi att du använder widgetarna Mitt godkännande och Alla godkännanden i Nytt hem.
 
 Mer information finns i [Lägg till, redigera och ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
