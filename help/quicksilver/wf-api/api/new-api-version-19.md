@@ -6,9 +6,9 @@ description: Adobe Workfront släppte API-version 19 den 6 april 2022. API-versi
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e3f50efa03a43c44e9defd0a724b0516504b0e83
+source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -384,7 +384,7 @@ Ett Parameter-objekt är ett anpassat fält.
             </ul>
           </li>
           <li>
-            <p><b>displayType</b></p><p>Följande möjliga värden har lagts till:
+            <p><b>displayType</b></p><p>Om du vill skapa ett mer användarvänligt och flexibelt system har fälttypen <b>WIDGET </b> tagits bort och delats upp i följande fälttyper:
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>Bild (BILD)</li>
@@ -444,7 +444,7 @@ Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett st
     <tr>
       <td role="rowheader">Direktfält</td>
       <td>
-            <p><b>displayType</b></p><p>Följande möjliga värden har lagts till:
+            <p><b>displayType</b></p><p>Om du vill skapa ett mer användarvänligt och flexibelt system har fälttypen <b>WIDGET </b> tagits bort och delats upp i följande fälttyper:
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>Bild (BILD)</li>
