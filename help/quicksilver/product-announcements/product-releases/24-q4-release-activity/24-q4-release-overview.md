@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättrad dokumenthantering](#document-management-enhancements)
-* [Integration enhancements](#integration-enhancements)
 * [Hemförbättringar](#home-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Förbättringar av korrektur](#proofing-enhancements)
 * [Förbättringar av rapporter och kontrollpaneler](#report-and-dashboard-enhancements)
@@ -164,6 +164,23 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
+                                <p><s>Förhandsversion: 3 oktober 2024</s></p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
+                            </li>
+                            <p><i>Den här funktionen har tillfälligt tagits bort från förhandsgranskningen.</i></p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Lägg snabbt till tidigare granskare och godkännare i nya dokumentversioner</a></p>
+                        <p>Nu kan du snabbt lägga till granskare och godkännare från tidigare dokumentversioner.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
                                 <p>Förhandsversion: 3 oktober 2024</p>
                             </li>
                             <li>
@@ -172,10 +189,56 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                         </ul>
                     </td>
                 </tr>
+           </tbody>
+</table>
+
+### Hemförbättringar
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Lägg snabbt till tidigare granskare och godkännare i nya dokumentversioner</a></p>
-                        <p>Nu kan du snabbt lägga till granskare och godkännare från tidigare dokumentversioner.</p>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Uppdateringar av widgeten Väntar på mitt godkännande i nytt hem</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>Vi har gjort följande ändringar i widgeten Väntar på mitt godkännande:</p>
+                            <ul>
+                                <li>Widgetens nya namn: Widgetens namn är nu Mitt godkännande.</li>
+                                <li>Tillagda godkännanden som jag har skickat in som ett filteralternativ: Nu kan du visa godkännanden som du har skickat in i den nya Hem-widgeten.</li>
+                            </ul>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 10 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 10 oktober 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Prioriteringar: en enklare, smidigare och intuitiv Workfront-upplevelse för uppgiftsägare</a></p>
+                        <p>Prioriteringarna ökar fokus och produktivitet och hjälper kunderna att uppnå mer på kortare tid.</p>
+                        <p>Med Prioriteringar får du:</p>
+                            <ul>
+                                <li>Hantera och prioritera rutinuppgifter: Organisera din dag eller vecka med konsoliderad navigering för bättre tydlighet.</li>
+                                <li>Större produktivitet: Kom åt projektsammanhang och utför uppgifter snabbare med färre klick.</li>
+                                <li>Personaliserade funktioner: Dra nytta av funktioner som är unika för uppgiftsägare.</li>
+                            </ul>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -226,48 +289,6 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 </tr>
            </tbody>
 </table>
-
-### Hemförbättringar
-
-<table>
-        <col style="width: 50%;" />
-        <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Funktion</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatum</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Prioriteringar: en enklare, smidigare och intuitiv Workfront-upplevelse för uppgiftsägare</a></p>
-                        <p>Prioriteringarna ökar fokus och produktivitet och hjälper kunderna att uppnå mer på kortare tid.</p>
-                        <p>Med Prioriteringar får du:</p>
-                        <ul>
-                        <li>Hantera och prioritera rutinuppgifter: Ordna dag och vecka med konsoliderad navigering för bättre tydlighet</li>
-                        <li>Större produktivitet: Kom åt projektsammanhang och utför uppgifter snabbare med färre klick</li>
-                        <li>Personaliserade funktioner: Dra nytta av unika funktioner som utformats för uppgiftsägare</li>
-                        </ul>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsversion: 3 oktober 2024</p>
-                            </li>
-                            <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-</table>
-
 
 ### Projektförbättringar
 
@@ -542,11 +563,11 @@ Det finns inga Workfront Proof-uppdateringar just nu. Det här området uppdater
 
 Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### API-version 18
+### API-version 19
 
-För API-version 18 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
+För API-version 19 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns i [Nyheter i API-version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
+Information om nyheter och uppdateringar finns i [Nyheter i API-version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

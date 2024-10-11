@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Mer information om hur du återställer ett miljökampanjpaket finns i [Återst�
 
 >[!NOTE]
 >
->Förhandsgranskningsversion: ~~12 augusti 2024~~; Produktion för snabb release: Ej tillämpligt; Produktion för kvartalsvis release: Ej tillämpligt
+>~~Förhandsversion: 12 augusti 2024~~; Produktion för snabb release: Ej tillämpligt; Produktion för kvartalsvis release: Ej tillämpligt
 >
 >_Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas i framtida versioner._
 

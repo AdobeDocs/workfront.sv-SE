@@ -4,9 +4,9 @@ description: Förbättringar av startsidan för fjärde kvartalet 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Den här sidan beskriver alla förbättringar av Home som gjorts i den fjärde utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2024 finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Uppdateringar av widgeten Väntar på mitt godkännande i nytt hem
+
+>[!NOTE]
+>
+>Förhandsversion: 10 oktober 2024; Produktionsrelease för alla kunder: 10 oktober 2024.
+
+Vi har gjort följande ändringar i widgeten Väntar på mitt godkännande:
+
+* **Widgeten har bytt namn**: Widgetens namn är nu Mitt godkännande.
+* **Tillagda godkännanden som jag har skickat in som ett filteralternativ**: Nu kan du visa godkännanden som du har skickat in i den nya startsidan med den här widgeten.
+
+Mer information finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Förenkla Workfront-upplevelsen för uppgiftsägare med prioriteringar
 
