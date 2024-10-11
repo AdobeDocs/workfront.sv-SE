@@ -7,9 +7,9 @@ description: Med Workfront Proof kan du skapa korrektur av dokument eller webbpl
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2159'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Med [!DNL Workfront Proof] kan du skapa korrektur från dokument eller webbplats
 
      Mer information om hur du delar ett korrektur finns i&quot;Lägga till användare i ett korrektur&quot; i [Dela ett korrektur inom [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Automatiserad:** Välj det här alternativet om du vill hantera granskning och godkännande av innehåll när du har komplexa granskningsprocesser, eller om du skickar innehåll för granskning till samma grupper av personer regelbundet. Med automatiserat arbetsflöde flyttas korrekturet från scen till scen tills det är slutgiltigt godkänt. De berörda användarna meddelas när de behöver göra ett godkännande.
+   * **Automatiserad:** Välj det här alternativet om du vill hantera granskning och godkännande av innehåll när du har komplexa granskningsprocesser, eller om du skickar innehåll för granskning till samma grupper av personer regelbundet. Med ett automatiserat arbetsflöde går korrekturet från scen till scen tills det är slutgiltigt godkänt. De berörda användarna meddelas när som helst om att de måste göra ett godkännande.
 
      Mer information om hur du skapar ett automatiserat arbetsflöde finns i [Konfigurera ett korrektur med ett automatiserat arbetsflöde i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
@@ -106,7 +106,7 @@ Med [!DNL Workfront Proof] kan du skapa korrektur från dokument eller webbplats
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Endast ett beslut krävs för det här beviset</td> 
+      <td role="rowheader">Endast ett beslut krävs för detta bevis</td> 
       <td> <p>När det här alternativet har valts slutförs granskningen efter det att en av beslutsfattarna har fattat sitt beslut.</p> <p>Det här alternativet är inaktiverat som standard.</p> </td> 
      </tr> 
      <tr> 
@@ -122,11 +122,11 @@ Med [!DNL Workfront Proof] kan du skapa korrektur från dokument eller webbplats
       <td> <p><strong></strong> När det här alternativet är markerat kan granskarna hämta originalfilen som korrekturet skapades från.</p> <p>När det här alternativet är avmarkerat visas inte längre ikonen Hämta.<br>Det här alternativet är aktiverat som standard.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Dela korrektur via offentlig URL eller inbäddningskod</td> 
+      <td role="rowheader">Dela korrektur via en offentlig URL eller inbäddningskod</td> 
       <td>När det här alternativet är markerat kan korrekturet delas via en offentlig URL eller inbäddningskod.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Prenumerera på korrektur via offentlig URL eller inbäddningskod</td> 
+      <td role="rowheader">Prenumerera på korrektur via en offentlig URL eller inbäddningskod</td> 
       <td> <p>När det här alternativet är markerat kan personer som inte har lagts till explicit i korrekturet prenumerera på korrekturet. Den person som prenumererar på beviset får rollen och e-postadressen som du anger i följande inställningar:</p> 
        <ul> 
         <li><strong>Prenumerantroll</strong>: Standardkorrekturrollen som tilldelas alla granskare som prenumererar på korrekturet.</li> 
@@ -199,7 +199,7 @@ Så här skapar du ett korrektur för en URL:
      </tr> 
      <tr> 
       <td role="rowheader">Interaktiv</td> 
-      <td> <p>Skapar ett korrektur som gör att granskarna kan navigera på webbplatsen, visa bilder i HTML5, Flash osv.</p> <p>För att kunna skapa ett interaktivt korrektur måste webbplatsen ha ett säkert protokoll (https). Dessutom kan webbplatser som inte kan bäddas in i en iframe inte genereras som ett interaktivt korrektur (begränsningar för inbäddning av iframe styrs av den webbplats som du försöker bädda in).</p> <p>När det inledande korrekturet har skapats kan den här inställningen inte ändras när efterföljande versioner skapas.</p> <p>Mer information om interaktiv korrektur finns i <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Skapa ett korrektur för interaktivt innehåll</a>.</p> </td> 
+      <td> <p>Skapar ett korrektur som gör att granskarna kan navigera på webbplatsen, visa bilder i HTML5, Flash osv.</p> <p>Om du vill skapa ett interaktivt korrektur måste webbplatsen ha ett säkert protokoll (https). Dessutom kan webbplatser som inte kan bäddas in i en iframe inte genereras som ett interaktivt korrektur (begränsningar för inbäddning av iframe styrs av den webbplats som du försöker bädda in).</p> <p>När det inledande korrekturet har skapats kan den här inställningen inte ändras när efterföljande versioner skapas.</p> <p>Mer information om interaktiv korrektur finns i <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Skapa ett korrektur för interaktivt innehåll</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Skärmbildupplösning</td> 

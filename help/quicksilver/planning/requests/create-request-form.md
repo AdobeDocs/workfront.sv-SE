@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -165,18 +165,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    >   Fälttypen för varje fält visas längst upp på den högra panelen när du har valt fältet i formuläret.
    >   
    >
-   >   Tabellen nedan visar namnen på fälttyperna i tabellvyn och namnen på samma fält i posttypens frågeformulär. Formaten för varje fält matchar mellan tabellvyn och förfrågningsformuläret.
-   >
-   >   | Workfront Planning, fälttyp | Formulärfälttyp för begäran |
-   >   |-------------------------------|-------------------------|
-   >   | Enkelradig text | Enkelradig text |
-   >   | Stycke | Stycke |
-   >   | Valuta, tal, procent | Enkelradig text (formaten för dessa fält förblir valuta, tal och procent) |
-   >   | Enkelval | Enkelval |
-   >   | Flera val | Flera val |
-   >   | Kryssruta | Kryssruta |
-   >   | Datum | Datum |
-   >
+   >   Fälten Valuta, Nummer och Procenttal visas som ett textfält med en rad. Fältformatet bevaras dock och värdena i dessa fält visas som värden för Valuta, Nummer och Procent.
 
 1. (Valfritt) Klicka på fliken **Innehållselement** till vänster i formuläret och lägg till något av följande element:
 

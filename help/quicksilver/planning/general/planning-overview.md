@@ -1,14 +1,14 @@
 ---
 title: Adobe Workfront Planning - översikt
-description: Adobe Workfront Planning är ett nytt erbjudande från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
+description: Adobe Workfront Planning är ytterligare en funktion från Adobe Workfront. Du kan skapa anpassningsbara arbetsytor för att definiera arbetsflöden som uppfyller behoven för varje organisationsenhet i företaget.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
 >
 >Du måste ha följande för att få tillgång till Workfront Planning:
 >
@@ -44,9 +44,9 @@ En fullständig lista över artiklar som innehåller dokumentation för Workfron
 
 ## Introduktion till Adobe Workfront Planning
 
-Adobe Workfront Planning är ett nytt erbjudande från Adobe Workfront. Syftet med Workfront Planning är att ge en heltäckande inblick i en organisations operativa information och besvara viktiga affärsfrågor i varje fas av arbetshanteringens livscykel.
+Adobe Workfront Planning är ytterligare en funktion från Adobe Workfront. Syftet med Workfront Planning är att ge en heltäckande inblick i en organisations operativa information och besvara viktiga affärsfrågor i varje fas av arbetshanteringens livscykel.
 
-Team och ledarskap behöver tydliga svar på frågor som:
+Workfront Planning kan besvara frågor som:
 
 * Hur många kampanjer anordnas i EMEA under det fjärde kvartalet?
 * Finns det någon publiköverlappning mellan samtidiga kampanjer?
@@ -92,7 +92,7 @@ Följande funktioner är för närvarande tillgängliga i Workfront Planning:
 * Anpassa layouten för en postsida
 * Dela arbetsytor
 * Visa
-* Dela vyer offentligt med externa resurser
+* Dela vyer offentligt med externa resurser, även personer som inte är Workfront-användare
 * Duplicera vyer
 * Skicka begäranden om att skapa poster
 * Exportera postinformation till Word <span class="preview">och PDF.</span>
@@ -161,11 +161,11 @@ Följande funktioner är för närvarande tillgängliga i Workfront Planning:
 
 ## Aktivera Workfront Planning för användare i din Workfront-instans
 
-När din organisation har köpt en licens för Workfront Planning måste följande finnas innan du kan komma åt Workfront Planning:
+När din organisation har köpt en licens för Workfront Planning måste du som Workfront-administratör se till att följande finns innan användarna kan komma åt Workfront Planning:
 
-* Workfront-administratören måste tilldela dig till en layoutmall som innehåller Planering på huvudmenyn. Mer information finns i [Anpassa huvudmenyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) och [Tilldela användare till en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* Tilldela användarna som behöver tillgång till Planera en layoutmall som innehåller Planering på huvudmenyn. Mer information finns i [Anpassa huvudmenyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) och [Tilldela användare till en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Din Workfront-administratör måste tilldela dig en Workfront-licens och Workfront Planning-behörighet som gör att du kan visa eller skapa objekt i Workfront Planning. Mer information om hur du beviljar åtkomst till och aktiverar andra för att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+* Tilldela användare en Workfront-licens och Workfront Planning-behörigheter som tillåter dig att antingen visa 554 timmar eller skapa objekt i Workfront Planning. Mer information om hur du beviljar åtkomst till och aktiverar andra för att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning - terminologi
 
@@ -183,7 +183,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Posttyp**: Objekttypen för Workfront Planning.
+* **Posttyp**: Namnet på objekttyperna i Workfront Planning.
 
   Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Workfront Planning.
 
@@ -298,7 +298,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  Vyer innehåller anpassade inställningar för en viss vytyp, till exempel listan med fält (kolumner), en lista med poster (rader), deras ordning (sortering), ett tillämpat eller tillämpligt filter och gruppering.
+  Vyer innehåller anpassade inställningar för en viss vytyp, till exempel listan med fält (kolumner), en lista med poster (rader), deras ordning (sortering), ett tillämpat eller tillämpligt filter och en gruppering.
 
   Här följer några vytyper som du kan använda på posttypssidan:
 
@@ -318,7 +318,7 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
 ## Hitta Adobe Workfront Planning
 
-Kontrollera att din organisation har fått tillgång till Workfront Planning och att din system- eller gruppadministratör har lagt till Planning-området på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+Om du vill hitta Adobe Planning kontrollerar du att din organisation har fått tillgång till Workfront Planning och att system- eller gruppadministratören har lagt till Planning-området på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 
 Så här hittar du Workfront Planning:
 

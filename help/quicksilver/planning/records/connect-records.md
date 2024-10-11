@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2713'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Du kan ansluta följande:
       * Portfolio
       * Program
       * Företag
-      * Grupp
+      * Grupper
 
    * Adobe Experience Manager Assets
 
@@ -122,66 +122,6 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace to connect records </p>  
-   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
-   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 +++
 
 ## Krav för att ansluta poster
@@ -210,7 +150,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 
 {{step1-to-planning}}
 
-1. Klicka på arbetsytan vars poster du vill ansluta
+1. Klicka på arbetsytan vars poster du vill ansluta.
 
    Arbetsytan öppnas och posttyperna visas som kort.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
@@ -225,7 +165,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
    * Klicka på namnet på en ansluten post i listan för att lägga till den till den valda posten. Posten läggs till automatiskt.
    * Börja skriva namnet på en post och klicka på den när den visas i listan. Posten läggs till automatiskt.
 
-1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta, och du vill lägga till den, klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i&quot;Skapa poster när du ansluter dem&quot; i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta, och du vill lägga till den, klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i avsnittet Skapa poster när du ansluter dem i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -307,11 +247,11 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
 1. (Valfritt) Om du inte kan hitta något objekt att ansluta och du vill lägga till det klickar du på **+ Lägg till** för att skapa och lägga till ett nytt projekt eller en ny portfölj.
 
-   Du kan bara lägga till projekt utan en mall eller portföljer när du kopplar dem till planeringsposter. Du kan inte lägga till nya program, användare eller företag.
+   Du kan bara lägga till projekt utan en mall eller portföljer när du kopplar dem till planeringsposter. Du kan inte lägga till nya program, grupper eller företag.
 
 1. (Valfritt) Klicka på **Visa alla** om du vill visa alla objekt som du har minst behörighet att visa.
 
-1. (Villkorligt) Om du klickade på **Visa alla** i föregående steg visas rutan **Anslut objekt** .
+   Om du klickade på **Visa alla** i föregående steg visas rutan **Anslut objekt** .
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -382,7 +322,7 @@ Så här ansluter du poster med Experience Manager-resurser:
 1. Välj en **tabellvy** på den nedrullningsbara menyn **Visa** i det övre högra hörnet på posttypssidan.
 
 1. (Valfritt) Klicka på **Ny post** om du vill lägga till nya poster till den posttyp du valde. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
-1. (Villkorligt) När du har anslutit den markerade posttypen med Experience Manager Assets går du till kolumnen för det länkade objektet och för markören över cellen som motsvarar posten som du vill länka till andra objekt från Experience Manager. Klicka sedan på ikonen **+** .
+1. (Villkorligt) När du har anslutit den markerade posttypen till Experience Manager Assets går du till kolumnen för det länkade objektet och för markören över cellen som motsvarar posten som du vill länka till andra objekt från Experience Manager. Klicka sedan på ikonen **+** .
 
    >[!TIP]
    >
@@ -473,7 +413,7 @@ Så här ansluter du poster med Experience Manager-resurser:
 1. (Villkorligt) Klicka på **Anslut** om du vill lägga till fler poster eller objekt av samma typ.
 1. Följ stegen som beskrivs i de föregående avsnitten för att ansluta poster från Workfront Planning eller objekt från Workfront eller Experience Manager Assets.
 Posterna och objekten läggs till omedelbart.
-1. (Valfritt) Hovra över det anslutna kortet för en post eller ett objekt och klicka sedan på ikonen **Koppla från post** **-** för att koppla bort den från den markerade posten.
+1. (Valfritt) Hovra över det anslutna kortet för en post eller ett objekt och klicka sedan på ikonen **Koppla från post** ![](assets/disconnect-icon-with-tooltip.png) för att koppla bort den från den markerade posten.
 
    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 

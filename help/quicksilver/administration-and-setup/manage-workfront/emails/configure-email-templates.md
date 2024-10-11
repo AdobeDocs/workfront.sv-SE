@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
 
 ---
 
+
 # Konfigurera e-postmallar
+
+<!--Audited: 10/2024-->
+
 
 Som Adobe Workfront-administratör kan du konfigurera e-postmallar som har stöd för påminnelsemeddelanden.
 
@@ -40,9 +44,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td><p>Aktuell: Planera</p>
+   <td><p>Nytt: Standard</p>
    eller
-   <p>Nytt: Standard</p></td> 
+   <p>Aktuell: Planera</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivåkonfiguration</td> 

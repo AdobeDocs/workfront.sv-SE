@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 0%
@@ -281,7 +281,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
+>Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
 >
 >Du måste ha följande för att få tillgång till Workfront Planning:
 >
