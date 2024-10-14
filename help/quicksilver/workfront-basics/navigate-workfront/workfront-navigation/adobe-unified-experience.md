@@ -6,14 +6,16 @@ description: Om du får åtkomst till [!DNL Workfront] via Adobe Experience Clou
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] för [!DNL Workfront]
+
+<!--Audited: 10/2024-->
 
 Om du får åtkomst till [!DNL Workfront] via [!DNL Adobe Experience Cloud] får du en smidig, enhetlig upplevelse för att hantera alla dina [!DNL Adobe]-program. Med en identitetshantering kan du logga in på ett och samma ställe, utan flera URL:er eller inloggnings-ID:n.
 
@@ -25,6 +27,8 @@ Om din organisation använder Adobe Unified Experience börjar den URL som du an
 | experience.adobe.com | Adobe enhetliga upplevelse |
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -38,23 +42,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td> <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
+   <p>Aktuell: [!UICONTROL Request] eller högre</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
-Organisationens instans av [!DNL Workfront] måste vara registrerad för [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
+Organisationens instans av [!DNL Workfront] måste vara registrerad för [!DNL Adobe Business Platform] eller [!DNL Adobe Admin Console].
 
 Om du har frågor om introduktion till [!DNL Adobe Admin Console] kan du läsa [[!DNL Adobe Unified Experience] Vanliga frågor](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
 
 ## Logga in på [!DNL Adobe Experience Cloud]
 
 1. Öppna ett webbläsarfönster och gå till <https://experience.adobe.com>.
-1. Skriv din e-postadress på skärmen [!UICONTROL Sign in] och klicka på **[!UICONTROL Continue]**.
+1. På skärmen [!UICONTROL **Logga in**] skriver du din e-postadress och klickar på **[!UICONTROL Continue]**.
 
    ![Logga in på [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 

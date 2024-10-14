@@ -6,7 +6,7 @@ description: Du kan dela belastningsutjämnaren med andra användare som kanske 
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
@@ -136,4 +136,4 @@ Du behöver följande åtkomst för att visa information i arbetsbelastningsutj�
 
      >[!IMPORTANT]
      >
-     >När du lägger till belastningsutjämnaren för arbetsbelastning i ett objekts anpassade avsnitt filtreras inte informationen i belastningsutjämnaren av objektet. I Utjämning av arbetsbelastning visas den information som filtrerats av de filter som ursprungligen tillämpades.
+     >När du lägger till belastningsutjämnaren för arbetsbelastning i ett objekts anpassade avsnitt filtreras inte informationen i belastningsutjämnaren av objektet. I Utjämning av arbetsbelastning visas den information som filtrerats av de filter som ursprungligen tillämpades.

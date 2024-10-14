@@ -7,9 +7,9 @@ description: Du kan använda belastningsutjämnaren för att schemalägga resurs
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -102,18 +102,18 @@ Följande avsnitt visar var du kan komma åt Utjämning av arbetsbelastning i Wo
 
 Hemteamets sida visas.
 
-    Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
-    
-    ![](assets/nwe-balancer-team-350x172.png)
-    
-    Arbetsbelastningsutjämnaren för ett team visar följande information som standard:
-    
-    * **Ej tilldelat arbete**: Objekt som tilldelats teamet och inte tilldelats användare.
-    * **Tilldelat arbete**: Alla medlemmar i teamet med alla deras uppdrag.
-    
-    >[!TIP]
-    >
-    >Teammedlemmar kan tilldelas till arbete som även är tilldelat teamet eller till arbete som är tilldelat andra team eller roller.
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
+
+![](assets/nwe-balancer-team-350x172.png)
+
+Arbetsbelastningsutjämnaren för ett team visar följande information som standard:
+
+* **Ej tilldelat arbete**: Objekt som tilldelats teamet och inte tilldelats användare.
+* **Tilldelat arbete**: Alla medlemmar i teamet med alla deras tilldelningar.
+
+  >[!TIP]
+  >
+  >Teammedlemmar kan tilldelas till arbete som även tilldelats teamet eller till arbete som tilldelats andra team eller roller.
 
 ### Åtkomst till belastningsutjämnaren för ett projekt
 

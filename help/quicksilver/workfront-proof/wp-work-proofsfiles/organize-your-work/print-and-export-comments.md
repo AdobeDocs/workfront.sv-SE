@@ -7,9 +7,9 @@ description: Kommentarerna finns i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ Kommentarssammanfattningen kan nås direkt från följande områden:
 
 ### Proof Viewer {#the-proof-viewer}
 
-Du kan skriva ut korrekturets kommentarsammanfattning, inklusive miniatyrbilder eller en fullbildsbild av korrekturet, genom att klicka på ikonen **[!UICONTROL Print]** i korrekturläsaren. (1)
+Du kan skriva ut korrekturets kommentarsammanfattning, inklusive miniatyrbilder eller en fullbildsbild av korrekturet, genom att klicka på ikonen **[!UICONTROL Print]** i korrekturläsaren.
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### Sidan med korrekturinformation {#the-proof-details-page}
 
-Du kan skriva ut korrekturets kommentarsammanfattning genom att klicka på ikonen **[!UICONTROL Print]** på sidan med korrekturinformation. (2)
+Du kan skriva ut korrekturets kommentarsammanfattning genom att klicka på ikonen **[!UICONTROL Print]** på sidan med korrekturinformation.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ Du kan skriva ut korrekturets kommentarsammanfattning genom att klicka på ikone
 
 Så här kommer du åt sidan [!UICONTROL Comments Summary] från en listvy:
 
-1. Klicka på menyn **[!UICONTROL Actions]**. (3)
-1. Välj **[!UICONTROL Print comments]**. (4)
+1. Klicka på menyn **[!UICONTROL Actions]**.
+1. Välj **[!UICONTROL Print comments]**.
 
-![List_view.png](assets/list-view-350x155.png)\
-På kommentarsammanfattningssidan har du följande utskriftsalternativ att välja mellan:
+   ![List_view.png](assets/list-view-350x155.png)
 
-* Miniatyrbildsvy (1)
-* Helsidesvy (2)
-* Skriv ut sidan (3)
-* Exportera korrekturet med kommentarer till en PDF-fil (4)
-* Exportera korrekturkommentarerna till en [!DNL Excel]-fil (5)
+   På kommentarsammanfattningssidan har du följande utskriftsalternativ att välja mellan:
+
+   * Miniatyrbildsvy (1)
+   * Helsidesvy (2)
+   * Skriv ut sidan (3)
+   * Exportera korrekturet med kommentarer till en PDF-fil (4)
+   * Exportera korrekturkommentarerna till en [!DNL Excel]-fil (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ Så här hämtar du sammanfattningen för [!DNL Excel]:
 Så här hämtar du sammanfattningen [!DNL Excel] från sidan Korrekturinformation:
 
 1. Klicka på ikonen Exportera till **[!DNL Excel]**. (2)
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exportera till PDF
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3854'
+source-wordcount: '3828'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ Så här tar du bort ett objekt från tidrapporten som har lagts till manuellt:
 
 Du kan logga projektspecifik tid i Hem.
 
-Allmän information om hur du använder området Hem finns i följande avsnitt:
+Allmän information om hur du använder Hem-området finns i [Använda Hem-området](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* Mer information om hur du använder det äldre Hem-området finns i [Använda Hem-området](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Mer information om hur du använder den nya startdelen finns i [Kom igång med nya startsidor](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Logga tid på ett arbetsobjekt från den nya hemsidan
 

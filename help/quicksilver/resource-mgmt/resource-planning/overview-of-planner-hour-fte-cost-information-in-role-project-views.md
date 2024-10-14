@@ -7,7 +7,7 @@ description: Översikt över timmar, heltidsanställda och kostnadsinformation i
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ Det här alternativet används bara när du anpassar vyn i avsnittet Visa marker
 
 >[!NOTE]
 >
->**När NET-timmar, FTE eller Kostnad visas i rött finns det inte tillräckligt med tillgänglig tid eller budget för att täcka antingen budgeterad** eller planerad tid eller kostnad som är associerad med arbetet. I det här fallet är resurserna överallokerade.
+>När NETTtimmar, FTE eller Kostnad visas i rött finns det inte tillräckligt med tillgänglig tid eller budget för att täcka antingen budgeterad eller planerad tid eller kostnad som är associerad med arbetet. I det här fallet är resurserna överallokerade.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>
