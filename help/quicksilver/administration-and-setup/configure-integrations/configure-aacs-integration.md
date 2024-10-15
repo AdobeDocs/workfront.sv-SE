@@ -6,9 +6,9 @@ description: Du kan koppla ditt arbete till ditt innehåll i  [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1650'
 ht-degree: 0%
 
 ---
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Ställa in arbetsflöden (valfritt)
 
-Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. Som Workfront-administratör kan du konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
+Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. Som Workfront-administratör kan du konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar.
 
-Arbetsflöden aktiveras och konfigureras för Adobe Experience Manager som helhet. Dessa arbetsflöden kan sedan användas på projektmallar och justeras eller anpassas på mall- eller projektnivå.
+När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
+
+Arbetsflöden aktiveras och konfigureras för Adobe Experience Manager som helhet. Dessa arbetsflöden kan sedan användas på projektmallar. De kan justeras eller anpassas på mallnivå eller på projektnivå när ett projekt skapas från den mallen.
 
 Följande arbetsflöden är tillgängliga i Adobe Experience Manager-integreringen:
 

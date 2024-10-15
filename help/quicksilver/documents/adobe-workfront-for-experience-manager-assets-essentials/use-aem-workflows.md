@@ -6,7 +6,7 @@ description: Använd arbetsflöden i integreringen med Experience Manager Assets
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 0%
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 # Använda arbetsflöden i Experience Manager Assets-integrering
 
-Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. En Workfront-administratör kan konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar. När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
+Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe Experience Manager as a Cloud Service. En Workfront-administratör kan konfigurera arbetsflöden i Workfront och sedan tilldela dem till Projektmallar.
+
+När ett projekt skapas med en projektmall som ett arbetsflöde är tilldelat till, aktiveras de åtgärder som definieras i arbetsflödet.
 
 >[!NOTE]
 >

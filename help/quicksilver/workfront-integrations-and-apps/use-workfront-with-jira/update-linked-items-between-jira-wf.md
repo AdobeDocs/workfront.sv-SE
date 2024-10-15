@@ -6,9 +6,9 @@ description: När du länkar [!DNL Jira] utgåvor till [!DNL Adobe Workfront] ak
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ I följande lista visas vilka [!DNL Workfront] fält som synkroniseras med [!DNL
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>Kommentaren läggs till på fliken <strong>[!DNL Workfront]</strong> i utgåvan [!DNL Jira]. Den har inte lagts till på fliken <strong>[!UICONTROL Comments]</strong> i utgåvan [!DNL Jira]</p> <p>Obs! När du länkar två befintliga objekt manuellt synkroniseras inte kommentarerna som lades till i [!DNL Workfront]-objektet innan det länkades till [!DNL Jira] med [!DNL Jira]-utgåvan. </p> </td> 
+   <td> <p>Kommentaren läggs till på fliken <strong>[!DNL Workfront]</strong> i utgåvan [!DNL Jira]. Den har inte lagts till på fliken <strong>[!UICONTROL Comments]</strong> i utgåvan [!DNL Jira]</p> <p>Obs! När du länkar två befintliga objekt manuellt synkroniseras inte kommentarerna som lades till i [!DNL Workfront]-objektet innan det länkades till [!DNL Jira] med [!DNL Jira]-utgåvan. </p> <p>Jira-kommentarer synkroniseras till Workfront.</td> 
   </tr> 
  </tbody> 
 </table>
