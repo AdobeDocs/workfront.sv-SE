@@ -6,9 +6,9 @@ description: Vissa funktioner skiljer sig åt mellan  [!DNL Workfront]  och Adob
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ I tabellen beskrivs några funktioner som skiljer sig åt mellan de båda upplev
 | Språkvisningsprogrammet öppnas på en ny flik | Språkvisningsprogrammet öppnas i Workfront |
 | Den URL som används för att komma åt Workfront är `experience.adobe.com` | Den URL som används för att komma åt Workfront är `(CompanyName).my.workfront.com` |
 | Datumformatet (t.ex. MM/DD/ÅÅÅÅ) baseras på språkinställningarna för enhetlig upplevelse. Om användaren inte har uppdaterat sina språkinställningar används `en-US`-inställningarna. | Datumformatet (t.ex. MM/DD/ÅÅÅ) baseras på webbläsarens inställningar |
+| Integreringen JumpSeat stöds inte | Jumpseat-integreringen stöds |
 
 {style="table-layout:auto"}
 

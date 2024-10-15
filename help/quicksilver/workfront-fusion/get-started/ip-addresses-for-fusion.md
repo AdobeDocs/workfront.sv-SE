@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,28 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront license].
 
 Om brandväggen eller e-postservern är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista för att tillåta öppen kommunikation mellan din miljö och [!DNL Adobe Workfront Fusion].
+
+## Identifiera ditt datacenter
+
+IP-adresserna varierar beroende på var data lagras.
+
+Om du kommer åt Fusion via en URL kan du leta rätt på ditt datacenter genom att undersöka URL:en.
+
+| URL | Datacenter |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | Amerikanskt datacenter |
+| `https://app-eu.workfrontfusion.com/` | EU datacenter |
+| `https://app-az.workfrontfusion.com/` | Azure datacenter |
+
+Om du öppnar Fusion via experience.adobe.com kan du kontrollera nätverksfliken i webbläsaren för att identifiera datacentret.
+
+| URL | Datacenter |
+| --- | --- |
+| Anrop till `https://fusion.adobe.com` | Amerikanskt datacenter |
+| Anrop till `https://eu.fusion.adobe.com` | EU datacenter |
+| Anrop till `https://az.fusion.adobe.com` | Azure datacenter |
+
+## IP-adresser för Workfront Fusion
 
 Lägg till följande IP-adresser i tillåtelselista för att [!DNL Workfront Fusion] ska kunna komma åt ditt system.
 
