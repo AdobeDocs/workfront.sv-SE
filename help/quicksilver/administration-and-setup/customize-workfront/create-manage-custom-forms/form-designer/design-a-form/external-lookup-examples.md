@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ I det här exemplet visas hur du anropar Workfront API och hämtar data från de
 1. Leta upp **extern sökning** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
 1. Ange fältets **etikett** och **namn**.
 1. Välj **Format** för fältet.
-1. Ange API-URL-anropet i fältet **Bas-API URL**.
+1. Ange API-anropet i fältet **Bas-API URL**.
 
-   * Du kan lägga till $$HOST för att referera till samma instans.
-   * Du kan lägga till $$QUERY om du vill filtrera resultaten baserat på en fråga i ett annat fält.
+   * Om du vill referera till samma instans av Workfront som det anpassade formuläret finns i använder du $$HOST som URL.
+   * Om du vill filtrera resultaten baserat på en fråga i ett annat fält lägger du till $$QUERY.
 
    **Exempel**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`

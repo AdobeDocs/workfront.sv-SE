@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4419'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,11 @@ Varje objekt i systemet får en unik URI som består av objekttypen och ID:t. I 
 
 Objekttypen är skiftlägeskänslig och kan vara antingen den förkortade ObjCode (till exempel proj) eller det alternativa objektnamnet (projekt).
 
-En lista över giltiga ObjCodes finns på  [API Explorer](../../wf-api/general/api-explorer.md).
+En lista över objekt, giltiga ObjCodes-fält och objektfält finns på  [API Explorer](../../wf-api/general/api-explorer.md).
+
+>[!NOTE]
+>
+>I Workfront API är ett anpassat formulär ett `Category`-objekt och ett anpassat fält är ett `Parameter`-objekt.
 
 ### Operationer
 
