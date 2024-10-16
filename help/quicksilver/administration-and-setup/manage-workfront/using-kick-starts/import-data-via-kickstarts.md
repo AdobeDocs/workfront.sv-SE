@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Så här exporterar du en snabbstartsmall:
       <td scope="col"> <p>Parameter</p> <p>Beskrivning</p><p>Parameteralternativ</p> <p>Parametergrupp</p> <p>Kategoriparameter</p> <p>Kategori</p> <p>Rapport</p> <p>Portal Tab Section</p> <p>Kontrollpanel</p> <p>Inställningar</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Rapport</p> <p>Alla rapporter i systemet är tillgängliga för export. Du kan välja upp till 100 specifika rapporter i en enda export.</p> <p>Quick-Starts stöder inte textlägesfilter. Rapporteringsfiltren måste växlas till standardläge för att exporten ska lyckas.</p> </td> 
+      <td scope="col"> <p>Rapport</p> <p>Alla rapporter i systemet är tillgängliga för export. Du kan välja upp till 100 specifika rapporter i en enda export.</p> <p>Quick-Starts stöder inte textlägesfilter eller -grupperingar. För att exporten ska lyckas måste rapportfiltren och grupperingarna växlas till standardläge.</p> </td> 
       <td scope="col">Exporterar som ZIP-fil </td> 
       <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Beskrivning</p> <p scope="col">Parameteralternativ</p> <p scope="col">Parametergrupp</p> <p scope="col">Kategoriparameter</p> <p scope="col">Kategori</p> <p scope="col">Rapport</p> <p scope="col">Inställningar</p> </td> 
      </tr> 

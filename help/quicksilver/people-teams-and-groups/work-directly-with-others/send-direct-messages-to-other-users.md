@@ -7,16 +7,16 @@ description: Med Adobe Workfront kan du snabbt och enkelt skicka meddelanden som
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Skicka direktmeddelanden till andra användare
 
-Med [!DNL Adobe Workfront] kan du snabbt och enkelt skicka meddelanden som inte är relaterade till något arbetsobjekt direkt till andra [!DNL Workfront]-användare. Meddelanden som skickas enligt beskrivningen i det här avsnittet visas på fliken [!UICONTROL Updates] på användarens hemsida och är synliga för alla användare. Mer information om uppdateringar finns i [Uppdatera arbetsobjekt och visa uppdateringar: artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+Med [!DNL Adobe Workfront] kan du snabbt och enkelt skicka meddelanden som inte är relaterade till något arbetsobjekt direkt till andra [!DNL Workfront]-användare. Meddelanden som skickas enligt beskrivningen i det här avsnittet visas på fliken [!UICONTROL Updates] på användarens profilsida och är synliga för alla användare. Mer information om uppdateringar finns i [Uppdatera arbetsobjekt och visa uppdateringar: artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 Användaren som du skickar meddelandet till får följande typer av meddelanden när du skickar ett meddelande enligt beskrivningen i det här avsnittet:
 
@@ -24,29 +24,6 @@ Användaren som du skickar meddelandet till får följande typer av meddelanden 
 * Ett e-postmeddelande
 
   Detta beror på vilka typer av e-postmeddelanden användaren har konfigurerats för att ta emot. Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [Visa och konfigurera händelsemeddelanden för en grupp](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md) och [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-## Åtkomstkrav
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>Granska eller högre</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 ## Åtkomstkrav
 
@@ -59,7 +36,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
@@ -67,7 +44,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>
    <p>Nytt: Ljus eller högre</p>
    <p>eller</p>
-   <p>Aktuell: Granska eller senare</p></td>
+   <p>Aktuell: Granska eller senare</p>
+   </td>
   </tr> 
  </tbody> 
 </table>
@@ -76,16 +54,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Skicka ett meddelande som inte hör till en arbetsuppgift till en annan användare
+## Skicka ett meddelande som inte är relaterat till ett arbetsobjekt till en annan användare från profilsidan
 
-1. Gå till startsidan för den användare som du vill skicka ett meddelande till.\
-   Du kan göra följande för att navigera till en användares hemsida:
+1. Gå till profilsidan för den användare som du vill skicka ett meddelande till.
 
-   * Klicka på användarens länkade namn så som det visas var som helst i [!DNL Workfront]-gränssnittet. Användarnamn visas i många områden i [!DNL Workfront]-gränssnittet, t.ex. i en kommentar som görs av användaren.
+   Om du vill gå till en användarprofilsida klickar du på användarens länkade namn så som det visas var som helst i [!DNL Workfront]-gränssnittet. Användarnamn visas i många områden, t.ex. i en kommentar som görs av användaren.
 
 1. Klicka i textrutefältet på fliken **[!UICONTROL Updates]**.
 
-   ![Meddelandeanvändare på fliken [!UICONTROL Updates]](assets/message-user-NWE.png)
+   ![Meddelandeanvändare på fliken [!UICONTROL Updates]](assets/send-message-to-user-on-updates-tab.png)
 
 1. Skriv ditt meddelande.
 1. (Valfritt) Klicka i fältet **[!UICONTROL Notify]** och börja sedan skriva namnet på en annan användare som du vill inkludera i det här meddelandet.
@@ -93,4 +70,19 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. (Valfritt) Välj **[!UICONTROL Private to my company]** om du bara vill att det här meddelandet ska vara synligt för andra användare i ditt företag.
 
 1. Klicka på **[!UICONTROL Update].**
-Meddelandet läggs upp högst upp i meddelandelistan på fliken **[!UICONTROL Updates]** på användarens hemsida.
+Meddelandet läggs upp högst upp i meddelandelistan på fliken **[!UICONTROL Updates]** på användarens profilsida.
+
+<!--
+## Send a message to one or more users from the User list
+
+This option is only available if you have a Standard, Plan, or Work license.
+
+{{step-1-to-users}}
+
+1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
+1. Type your message in the [!UICONTROL Send update to user] window.
+1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
+1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
+1. Click [!UICONTROL **Send**].
+   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
+-->
