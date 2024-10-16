@@ -5,15 +5,15 @@ description: Prioriteringarna är en smidig, intuitiv upplevelse som är skrädd
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
 
 
-# Kom igång med prioriteringar
+# Kom igång med [!DNL Priorities]
 
 Prioriteringarna är en smidig, intuitiv upplevelse som är skräddarsydd för uppgiftsägare. Prioriteringarna kommer att introduceras i faser, med början i arbetslistan.
 
@@ -80,6 +80,10 @@ Hitta det viktigaste arbetet med filter. Du kan filtrera uppgifter och ärenden 
     <td>Status</td>
     <td>Visar uppgifter eller problem i nya, pågående och slutförda statusar</td>
     </tr>
+     <tr>
+    <td>Mitt fokus</td>
+    <td>Visar aktiviteter eller problem med tilldelade fokusnivåer. Fokusnivåer tilldelas och hanteras av den enskilda användaren.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -88,11 +92,12 @@ Hitta det viktigaste arbetet med filter. Du kan filtrera uppgifter och ärenden 
 När du har filtrerat ditt arbete kan du gruppera objekt baserat på
 
 * Ingen
+* Mitt fokus
 * Vecka förfaller
 * Status
 * Projekt
 
-<!--For more information, see [Find and organize your work in Priorities]().-->
+Mer information finns i [Filtrera och gruppera ditt arbete i Prioriteter](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Prioritera viktiga arbetsuppgifter med Mitt fokus
 
@@ -105,7 +110,7 @@ Mitt fokus är en kolumn i arbetslistan som hjälper dig att prioritera ditt arb
 
 När du har tilldelat fokusnivåer till dina arbetsobjekt kan du sortera kolumnen så att brådskande objekt visas högst upp i arbetslistan.
 
-<!--For more information, see [Prioritize important work items with My Focus]().-->
+Mer information finns i [Prioritera viktiga arbetsobjekt](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
 
@@ -133,7 +138,7 @@ Lägg till en uppdatering för en uppgift eller ett problem för att kommunicera
 
 I uppdateringsavsnittet visas systemuppdateringar och upp till 200 av de senaste uppdateringarna som användare har gjort under de senaste 90 dagarna.
 
-<!--For more information, see [Add and view updates in Priorities]().-->
+Mer information finns i [Lägga till och visa kommentarer i prioriteter](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
 
@@ -141,7 +146,7 @@ I uppdateringsavsnittet visas systemuppdateringar och upp till 200 av de senaste
 
 Du kan logga tiden för arbetsobjekt för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
-<!--For more information, see [Log time in Priorities]().-->
+Mer information finns i [Loggtid i Prioriteter](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
 
@@ -154,7 +159,7 @@ Ladda upp filer direkt till uppgiftens eller ärendets dokumentområde utan att 
 * Lägg till ytterligare filer
 * Importera filer från sammankopplade dokumentintegreringar
 
-<!--For more information, see [Upload files in Priorities]().-->
+Mer information finns i [Överför filer i prioriteter](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
 
@@ -170,7 +175,7 @@ Du kan bädda in länkar som används ofta på arbetsobjektets informationssida.
 
 ![](assets/quick-links.png)
 
-<!--For more information, see [Add and manage quick links in Priorities]().-->
+Mer information finns i [Lägga till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Granska och godkänn resurser [!BADGE Kommer snart]{type=Informative}
 
@@ -181,9 +186,9 @@ För närvarande rekommenderar vi att du använder widgetarna Mitt godkännande 
 Mer information finns i [Lägg till, redigera och ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 
-## Använd Fånga upp mig för att se vad du missade [!BADGE Kommer snart]{type=Informative}
+## Använd [!DNL Catch me up] för att se vad du missade [!BADGE Kommer snart]{type=Informative}
 
-Använd funktionen Fånga mig upp för att se vad du missade. Jag kommer att sammanfatta uppdateringar, överförda dokument, godkännanden och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar, 7 dagar.
+Använd funktionen [!DNL Catch me up] för att se vad du missade. Jag kommer att sammanfatta uppdateringar, överförda dokument, godkännanden och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar, 7 dagar.
 
 
 ![](assets/catch-me-up.png)

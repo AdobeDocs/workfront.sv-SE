@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ac14cbb856181f2bef5ab69a9d5408ef8137190f
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '14488'
+source-wordcount: '14530'
 ht-degree: 0%
 
 ---
@@ -884,6 +884,14 @@ ht-degree: 0%
    * Prioriteringar {#priorities}
       * [Prioriteter: artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Kom igång med prioriteringar](workfront-basics/priorities/get-started-with-priorities.md)
+      * [Filtrera och gruppera ditt arbete i prioriteter](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [Anpassa kolumnerna i arbetslistan](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
+      * [Prioritera viktiga arbetsuppgifter](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
+      * [Skapa uppgifter och problem i Prioriteringar](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
+      * [Lägga till och visa uppdateringar i Prioriteringar](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
+      * [Logga tid i Prioriteter](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
+      * [Överför filer i prioriteter](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
+      * [Lägga till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * Hem {#home}
       * [Startsida](workfront-basics/using-home/home.md)
       * Nytt hem {#new-home}

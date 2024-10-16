@@ -5,9 +5,9 @@ description: Äldre startsida tas bort från Workfront den 10/17 med Q4-versione
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Tabellvyn Prioriteter visar uppgifter och ärenden som tilldelats dig eller ditt
 
 | **Filter** | **Gruppering** |
 |------------|-----------|
-| - Arbetar på <br> - Klar att starta <br> - Inte klar <br> - Begärd <br> - Klar <br> - Projekt <br> - Förfallodatum <br> - Status | - Ingen <br> - veckoslut <br> - status <br> - projekt |
+| - Arbetar på <br> - Klar att starta <br> - Inte klar <br> - Begärd <br> - Klar <br> - Projekt <br> - Förfallodatum <br> - Status <br> - Mitt fokus | - Inget <br> - Mitt fokus <br> - Vecka förfaller <br> - Status <br> - Projekt |
 
 
 **Äldre hemfilter och grupperingsalternativ är inte tillgängliga i prioriteter**
