@@ -6,16 +6,14 @@ description: Även om det inte finns någon gräns för hur många användare du
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
 # Ta bort användare från resurspooler
-
-{{preview-and-fast-release-Q424}}
 
 Även om det inte finns någon gräns för hur många användare du kan ha i en resurspool visas endast de första 2 000 användarna i listan i bokstavsordning.
 
@@ -73,15 +71,10 @@ eller\
    eller\
    Börja skriva namnet på ett företag, en jobbroll, ett team eller en grupp om du vill ta bort alla användare som är associerade med de entiteterna.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:<span>
-
    ![Ta bort användare från resurspoolen](assets/remove-users-from-resource-pool.png)
 
-   Exempelbild i produktionsmiljön:
-   ![Sök i resurspoolen](assets/search-inside-new-resource-pool-350x314.png)
-
-1. Klicka på x-ikonen på användarnivå för att ta bort en användare från resurspoolen. De tas bort från alla listor som de visas i.\
-   eller\
-   Om du vill ta bort alla användare som är associerade med en jobbroll, grupp, team eller företag klickar du på **Ta bort** på jobbrollen, gruppnivån eller företagsnivån. Detta tar bort alla användare som är associerade med den jobbrollen, gruppen, teamet eller företaget från resurspoolen.
+1. Klicka på X-ikonen på användarnivå för att ta bort en användare från resurspoolen. De tas bort från alla listor som de visas i.
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. Klicka på **Spara**.

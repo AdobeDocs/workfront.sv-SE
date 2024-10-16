@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
 source-wordcount: '5575'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Designa ett formulär med formulärdesignern
-
-{{highlighted-preview}}
 
 Du kan utforma ett anpassat formulär med formulärdesignern. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -92,7 +90,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan använda nya eller befintliga fält när du utformar ditt anpassade formulär.
 
-<span class="preview">Anpassade formulär är begränsade till 500 fält. En räknare längst ned till vänster visar hur många fält som används i formuläret och den visas alltid när du rullar i formulärdesignern.</span>
+Anpassade formulär är begränsade till 500 fält. En räknare längst ned till vänster visar hur många fält som används i formuläret, och den visas alltid när du rullar i formulärdesignern.
 
 ### Återanvända ett befintligt fält eller en befintlig widget som redan används i ett annat anpassat formulär
 

@@ -6,9 +6,9 @@ description: Resurspooler är användarsamlingar som gör det enklare att hanter
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 0%
 >id="wf_resource_pools"
 >title="Resursgrupper"
 >abstract="En resurspool är en samling användare som behövs samtidigt för att slutföra ett projekt. När du har skapat en resurspool kan du associera den med projekt och mallar."
-
-{{preview-and-fast-release-Q424}}
 
 Resurspooler är användarsamlingar som gör det enklare att hantera resurser i Adobe Workfront. Mer information om resurspooler finns i [Översikt över resurspooler](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
@@ -66,14 +64,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 {{step1-to-resourcing}}
 
 1. Klicka på **Resurspooler** i den vänstra panelen.
-
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-   <span class="preview">![Resurspooler](assets/list-of-resource-pools.png)</span>
-
-   Exempelbild i produktionsmiljön:
-   ![Resurspooler](assets/resource-pools-tab-350x198.png)
-
 1. Klicka på **Ny resurspool**.
+
+   ![Resurspooler](assets/list-of-resource-pools.png)
+
 1. Ange följande:
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Det finns ingen gräns för hur många användare du kan ha i en resurspool. Vi rekommenderar dock att du inte lägger till för många användare i en resurspool eftersom resurshantering annars kan bli en utmaning. I listan över användare visas endast de första 2 000 användarna i resurspoolen, och de visas i bokstavsordning.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-   <span class="preview">![Användare har lagts till i resurspoolen](assets/users-in-resource-pool2.png)</span>
-
-   Exempelbild i produktionsmiljön:
-   ![Användare har lagts till i resurspoolen](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![Användare har lagts till i resurspoolen](assets/users-in-resource-pool2.png)
 
 1. (Valfritt) Klicka på X-ikonen till höger om en användares namn för att ta bort en användare. Mer information om hur du tar bort användare från en resurspool finns i [Ta bort användare från resurspooler](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Valfritt) Använd alternativet **Sök** för att hitta en användare i resurspoolen.
