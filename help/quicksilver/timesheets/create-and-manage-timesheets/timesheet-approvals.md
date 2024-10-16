@@ -6,9 +6,9 @@ description: Processen att godkänna tidrapporter ger cheferna insyn i arbetstid
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -67,15 +67,20 @@ Mer information om hur du anger godkännare av tidrapporter finns i avsnittet [S
 
 ## Godkänn en tidrapport
 
-Du kan godkänna alla tidrapporter som har skickats in där du har utsetts till godkännare. När en tidrapport skickas för godkännande visas tidrapporten i området **Godkännanden** på sidan **Hem** . Mer information finns i [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md).
+Du kan godkänna alla tidrapporter som har skickats in där du har utsetts till godkännare. När en tidrapport skickas för godkännande visas tidrapporten i widgeten **Mina godkännanden** i området **Hem** . Mer information finns i [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Om Workfront-administratören har aktiverat händelsehanterarna Godkännande av tidrapport för användare och Avvisning av tidrapport för användare, meddelas du när tidrapporten har godkänts eller avvisats. Mer information om hur du aktiverar händelsemeddelanden finns i [Händelsemeddelandetyper](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Om följande meddelandeinställningar finns på plats får den användare som skickar tidrapporten för godkännande ett e-postmeddelande när en tidrapport har godkänts:
 
-Så här godkänner du en tidrapport:
+* Workfront-administratören har aktiverat tidrapportgodkännande för användare och händelsehanterare för avvisning av tidrapport. Mer information om hur du aktiverar händelsemeddelanden finns i [Händelsemeddelandetyper](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+* Min tidrapport har godkänts för personligt meddelande på användarens profilsida. Mer information finns i [Ändra dina egna e-postmeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+### Godkänn en tidrapport från området Tidrapporter
 
 {{step1-to-timesheets}}
 
 Området **Tidrapporter** öppnas.
+
+1. (Villkorligt) Om den senaste gången du öppnade öppnas klickar du på **Tillbaka till tidrapporter** i skärmens övre vänstra hörn.
 
 1. Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
 
@@ -87,11 +92,9 @@ Området **Tidrapporter** öppnas.
 
    >[!NOTE]
    >
-   >Alternativet Mina tidrapportgodkännanden visas inte längst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtret Mina tidrapportgodkännanden från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
+   >Alternativet Mina tidrapportgodkännanden visas inte längst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtret Mina tidrapportgodkännanden från antingen listkontrollerna i inställningsområdet eller från layoutmallen.
    >
-   >   
-   >   
-   >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >Mer information finns i [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -112,3 +115,21 @@ Området **Tidrapporter** öppnas.
    Om det godkänns ändras tidrapportens status till **Stängd**.
 
    Om den avvisas ändras tidrapportens status till **Avvisad**.
+
+### Godkänn en tidrapport från hemområdet
+
+{{step1-to-home}}
+
+Hemområdet öppnas.
+
+1. Kontrollera att widgeten **Mina godkännanden** har lagts till i din hemsida. Mer information finns i [Lägg till, redigera och ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+1. Hitta ett godkännande av tidrapporten i widgeten Mina godkännanden.
+1. (Valfritt) Expandera den nedrullningsbara menyn till höger om knapparna Godkänn eller Avvisa för att lägga till en kommentar om ditt beslut och klicka sedan på **Lägg till**.
+1. Klicka på någon av följande knappar för att fatta ditt beslut om godkännande:
+
+   * Godkänn
+   * Avvisa
+
+   Godkännandet tas bort från widgeten **Mina godkännanden**.
+
+

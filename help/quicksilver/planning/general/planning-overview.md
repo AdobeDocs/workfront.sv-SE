@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2100'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,9 @@ Följande funktioner är för närvarande tillgängliga i Workfront Planning:
 * Anslut poster som tillhör samma arbetsyta
 * Anslut poster som tillhör olika arbetsytor
 * Koppla samman Workfront Planning-poster med Workfront-projekt, program, portfolior, företag, grupper
-* Koppla Workfront Planning-poster till Adobe Experience Manager-resurser
+* Koppla Workfront Planning-poster till Adobe Experience Manager-resurser\
+  Du måste ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront.
+Mer information finns i [Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 * Visa postinformation på fliken Information
 * Visa postanslutningar på fliken Anslutningar
 * Anpassa layouten för en postsida
@@ -95,7 +97,7 @@ Följande funktioner är för närvarande tillgängliga i Workfront Planning:
 * Dela vyer offentligt med externa resurser, även personer som inte är Workfront-användare
 * Duplicera vyer
 * Skicka begäranden om att skapa poster
-* Exportera postinformation till Word <span class="preview">och PDF.</span>
+* Exportera postinformation till Word och PDF.
 * Lägga till kommentarer i poster
 * Få meddelanden i appen
 * Ta emot e-postmeddelanden
@@ -108,7 +110,8 @@ Följande funktioner är för närvarande tillgängliga i Workfront Planning:
 * Workfront Planning Public API
 * Adobe Workfront Planning modules for Adobe Workfront Fusion
 * Workfront Planning AI Assistant
-* Rapportering om Workfront Planning Information (Canvas Dashboard)
+* Rapportering om Workfront Planning Information
+Du kan rapportera om planeringsinformation med arbetsytans kontrollpanel. Mer information finns i [Översikt över kontrollpaneler för arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 <!--OLD: 
 
@@ -375,7 +378,7 @@ En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering 
 
 ## Ytterligare resurser för Workfront Planning
 
-* [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md): Ett index med alla artiklar som innehåller dokumentation om Workfront Planning, grupperade efter intresseområde.
+* [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md): Ett index för alla artiklar som innehåller dokumentation om Workfront Planning, grupperade efter intresseområde.
 * [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant för Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med kommandon och låta assistenten utföra arbetet åt dig.
   <!--
     >[!NOTE]

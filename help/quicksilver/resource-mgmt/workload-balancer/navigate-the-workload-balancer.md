@@ -6,9 +6,9 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4067'
 ht-degree: 0%
 
 ---
@@ -265,9 +265,9 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
      >Inställningen för att välja färgtema påverkar inte färgen på problemfälten. Problem visas alltid i ett fält med maronfärg.
 
      Välj bland följande:
-      * **Standard**: Staplarna för alla projekt och deras arbetsobjekt visas i blått.
-      * **Projekt**: Staplarna som är associerade med varje projekt och dess uppgifter ändras beroende på projektets namn. Alla aktiviteter som tillhör projektet visas i fält som matchar färgen på projektet. Projektfälten visas i en ljusare ton för att skilja dem från uppgifterna. Projektfälten innehåller också en projektikon när du väljer att inte visa allokeringar.
-      * **Projektstatus**: Staplarna som är associerade med varje projekt och dess arbetsobjekt ändras till färgen för projektets status.
+      * **Standard**: Fälten för alla projekt och deras arbetsobjekt visas i blått.
+      * **Projekt**: Fälten som är associerade med varje projekt och dess aktiviteter ändras beroende på projektets namn. Alla uppgifter som tillhör projektet visas i fält som matchar projektets färg. Projektstaplarna visas i en ljusare ton för att skilja dem från åtgärderna. Projektfälten innehåller också en projektikon när du väljer att inte visa tilldelningar.
+      * **Projektstatus**: Fälten som är associerade med varje projekt och dess arbetsobjekt ändras till färgen för projektets status.
 
         Projektstatusen är den som är associerad med projektgruppen. Om gruppen inte har gruppspecifika statusar är färgen på arbetsartikelfälten densamma som på projektstatus på systemnivå. Både systemet och anpassade statusar visas. Mer information om gruppstatus finns i [Skapa eller redigera en gruppstatus](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
@@ -323,7 +323,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
      >[!TIP]
      >
-     >Om din Workfront- eller gruppadministratör har aktiverat delegeringar i din miljö använder du fliken Uppdrag för att tilldela användare till uppgiften eller problemet. Mer information om delegering av arbete finns i [Hantera uppgifter och utfärda delegering](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Om din Workfront- eller gruppadministratör har aktiverat delegeringar i din miljö använder du fliken Uppdrag för att tilldela användare till uppgiften eller problemet. Mer information om hur du delegerar arbete finns i [Delegera uppgifter och problem](../../manage-work/delegate-work/how-to-delegate-work.md).
 
    * **Redigera allokeringar** och redigera sedan dagliga eller veckovisa allokeringar för användaren. Mer information om hur du hanterar användartilldelningar finns i [Hantera användartilldelningar i Utjämning av arbetsbelastning](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -363,12 +363,12 @@ I stället för att visa tilldelningar i dag- eller veckonummer kan du visa dem 
 
 Du kan visa mer information om aktiviteterna och problemen i Utjämning av arbetsbelastning.
 
-1. Åtkomst till Arbetsbelastningsutjämnaren i resursområdet, som beskrivs i avsnittet [Åtkomst till arbetsbelastningsutjämnaren för flera projekt i resursområdet](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
-1. Gör något av följande om du vill visa mer information på sammanfattningspanelen:
+1. Gå till Utjämning av arbetsbelastning i området Resurser, vilket beskrivs i avsnittet [Öppna Utjämning av arbetsbelastning för flera projekt i området Resurser](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Om du vill visa mer information på panelen Sammanfattning gör du något av följande:
 
-   * Klicka på fältet för en aktivitet eller ett problem för att öppna sammanfattningspanelen till höger.
-   * Klicka på ikonen **Öppna sammanfattning** ![](assets/summary-panel-icon.png) och klicka sedan på fältet för en aktivitet eller ett problem för att öppna sammanfattningspanelen.
-   * Klicka på menyn **Mer** till höger om en aktivitet eller ett problem och klicka sedan på **Öppna sammanfattning**.
+   * Klicka på fältet för en uppgift eller ett problem för att öppna sammanfattningspanelen till höger.
+   * Klicka på ikonen **Öppna sammanfattning** ![](assets/summary-panel-icon.png) och klicka sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
+   * Klicka på menyn **Mer** till höger om en uppgift eller ett problem och klicka sedan på **Öppna sammanfattning**.
 
    Information om hur du uppdaterar aktivitetsinformation i sammanfattningen i arbetsbelastningsutjämnaren finns i [Uppdatera arbetsobjekt i arbetsbelastningsutjämnaren med hjälp av sammanfattningen](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 

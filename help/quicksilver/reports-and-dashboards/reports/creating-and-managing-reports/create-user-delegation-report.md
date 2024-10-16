@@ -7,14 +7,16 @@ description: Skapa en delegeringsrapport för användare
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Skapa en delegeringsrapport för användare
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ Mer information om hur du delegerar godkännanden finns i [Delegera godkännande
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nytt: Standard </p>
+   <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -64,7 +69,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
++++
 
 ## Skapa en delegeringsrapport för användare
 
@@ -79,14 +85,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    |---|---|
    | **Från användare** | Det här är användaren som delegerar uppgifter, utgåvor och projektgodkännanden till en annan användare. |
    | **Till användare** | Det här är den användare som har delegerat uppgifter, utgåvor och projektgodkännanden till sig. |
-   | **Start** | Detta är början på frånvarotiden för användaren som har gjort delegeringarna. |
-   | **Slut** | Detta är slutet på frånvarotiden för användaren som har gjort delegeringarna. |
+   | **Startdatum** | Detta är början på frånvarotiden för användaren som har gjort delegeringarna. |
+   | **Slutdatum** | Detta är slutet på frånvarotiden för användaren som har gjort delegeringarna. |
 
    {style="table-layout:auto"}
 
 1. (Valfritt) Ändra följande i Report Builder:
 
-   * Kolumner
+   * Kolumner (vy)
    * Grupperingar
    * Filter
    * Diagram
@@ -94,7 +100,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Mer information om de här funktionerna finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. När du är klar med att skapa rapporten klickar du på **Spara + stäng**.
-
-1. Ange ett nytt namn i fältet **Rapportnamn** och klicka sedan på **Spara rapport**.
 
    Rapporten visas.

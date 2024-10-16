@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Exportera information för en post
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 Om du vill samarbeta effektivare med andra som kanske inte har ett Workfront-konto kan du exportera en posts information till en fil och dela den med dem.
@@ -28,7 +28,7 @@ Om du vill samarbeta effektivare med andra som kanske inte har ett Workfront-kon
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
-Du måste ha följande för att kunna komma åt Workfront Planning:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 * Du kan exportera en posts information till följande filformat:
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * PDF
 
 * Du kan exportera fliken Detaljer på en postsida. Du kan inte exportera fliken Anslutningar.
 
@@ -184,9 +184,9 @@ Posttypssidan öppnas och alla poster av den typen visas.
 1. Klicka på ikonen **Exportera** ![](assets/export-icon-in-record-details-page.png) antingen i förhandsgranskningen eller på postens sida och klicka sedan på något av följande:
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   En Word-fil (.docx) <span class="preview"> eller en PDF</span> hämtas och sparas på datorn.
+   En Word-fil (.docx) eller en PDF-fil hämtas och sparas på datorn.
 
    Namnet på den exporterade filen är det primära fältet i posten.
 
@@ -194,7 +194,7 @@ Posttypssidan öppnas och alla poster av den typen visas.
 
    >[!NOTE]
    >
-   >    Ytterligare information som inte visas på sidan och som bara visas när du har klickat på Visa mer på fliken Detaljer visas inte i den exporterade PDF-filen. Endast den information som visas på sidan visas i den exporterade filen.
+   >    Ytterligare information som inte visas på sidan och som bara visas när du har klickat på Visa mer i området med postinformation visas inte i den exporterade PDF-filen. Endast den information som visas på sidan visas i den exporterade filen.
 
 
 1. (Valfritt) Gå till den hämtade filen, öppna den och redigera den (om det är en Word-fil) eller dela den med andra.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Du kan få meddelanden i appen från Workfront Planning när följande scenarier
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
-Du måste ha följande för att kunna komma åt Workfront Planning:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 

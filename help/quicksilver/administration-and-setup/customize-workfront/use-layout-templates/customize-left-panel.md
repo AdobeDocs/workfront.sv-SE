@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # Anpassa den vänstra panelen med en layoutmall
+
+<!--Audited: 10/2024-->
 
 I en layoutmall kan du anpassa vad användarna ser i det vänstra panelområdet genom [!DNL Adobe Workfront].
 
@@ -68,26 +70,19 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 ## Anpassa den vänstra panelen för ett område i [!DNL Workfront]:
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]** och klicka sedan på den vänstra panelen som du vill anpassa.
+1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]** och klicka sedan på namnet på en objekttyp eller ett [!DNL Workfront]-område vars vänstra panel du vill anpassa.
 
-   >[!NOTE]
-   >
-   >Mer information om alternativet [!UICONTROL Home] i den här listrutan finns i [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] använda en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Mer information om alternativet Listor finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Objekttyperna och [!DNL Workfront] områden vars vänstra panel du kan anpassa visas i följande tabell:
 
-1. I listan **[!UICONTROL Left panel]** gör du något av följande för att avgöra vad som kommer att visas för det alternativ ([!DNL Workfront] område eller objekttyp) som du har valt i den vänstra panelen:
-
-   * Visa ![](assets/add-secondary-nav-item.png) eller dölj ![](assets/delete-secondary-nav-item.png) objekt. Objekt utan ![](assets/add-secondary-nav-item.png) eller ![](assets/delete-secondary-nav-item.png) kan inte döljas.
-
-   * Dra objekt ![](assets/move-icon---dots.png) för att ändra deras ordning på den vänstra panelen.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Alternativ</th> 
+      <th>Objekttyp eller [!DNL Workfront]-område</th> 
       <th>När användare klickar på följande..</th> 
-      <th>De ser de objekt i den vänstra panelen som du väljer bland följande:</th> 
+      <th>Avsnitt i den vänstra panelen som visas när du har visat dem i layoutmallen:</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,24 +201,38 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    *Ditt företag måste köpa ytterligare en licens för Workfront Planning för att kunna lägga till det här området i den vänstra panelen av projekt, portfolior och program. Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. Gör något av följande i listan **[!UICONTROL Left panel]** för att avgöra vad användare kommer att se i den vänstra panelen för det [!DNL Workfront] -område eller den objekttyp som du har valt:
+
+   * Klicka på ikonerna **Visa** ![](assets/add-secondary-nav-item.png) eller **Dölj** ![](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
+
+   * Dra objekt ![](assets/move-icon---dots.png) för att ändra deras ordning på den vänstra panelen.
+
    >[!NOTE]
    >
-   >De sista tre objekten i listrutan **[!UICONTROL Customize what users see]** ([!UICONTROL Lists], [!UICONTROL Home and Summary] och [!UICONTROL Branding]) används för att konfigurera andra områden än den vänstra panelen. Mer information om dem finns i följande artiklar:
+   >Följande objekt i listrutan **[!UICONTROL Customize what users see]** avser andra områden än den vänstra panelen:
+   >* [!UICONTROL Lists]
+   >* [!UICONTROL Summary panel]
+   >* [!UICONTROL Home]
+   >* [!UICONTROL Branding]
+   > 
+   >Mer information om hur du anpassar ytterligare områden finns i följande artiklar:
    >
    >* [Anpassa filter, vyer och grupperingar med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Anpassa [!UICONTROL Summary panel] med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Anpassa startsidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [Märke Adobe [!DNL Workfront] med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Valfritt) Om du vill lägga till ett vänsterpanelsobjekt som länkar till någon av organisationens kontrollpaneler klickar du på **[!UICONTROL Add custom section]**, skriver **[!UICONTROL Custom section title]** för objektet och lägger sedan till kontrollpanelen.
 
-   Instrumentpanelsobjekt visas längst ned på den vänstra panelen. Användarna ser den anpassade avsnittsrubrik som du skriver bredvid instrumentpanelsobjektet när de hovrar över den vänstra panelen.
+   Instrumentpanelsobjekt visas längst ned på den vänstra panelen. Användarna ser den anpassade avsnittsrubrik som du skriver bredvid instrumentpanelsobjektet när de för markören över det på den vänstra panelen.
 
    >[!NOTE]
    >
-   >Användarna kan lägga till anpassade kontrollpanelsobjekt på sin egen vänstra panel. När du lägger till anpassade kontrollpanelsobjekt i en layoutmall sammanfogas objekten med deras, utan att de skrivs över eller återställs. Detta gäller även om du tilldelar användare till en ny layoutmall med anpassade instrumentpanelsobjekt. Mer information om hur användare kan anpassa den vänstra panelen finns i [Skapa anpassade flikar eller avsnitt](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
-
-   Mer information om kontrollpaneler finns i [Kontrollpaneler](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   >Användarna kan lägga till anpassade kontrollpanelsobjekt på sin egen vänstra panel. När du lägger till anpassade kontrollpanelsobjekt i en layoutmall visas dina objekt förutom de objekt de lägger till, utan att de skrivs över eller återställs. Detta gäller även om du tilldelar användare till en ny layoutmall med anpassade instrumentpanelsobjekt. Mer information om hur användare kan anpassa den vänstra panelen finns i [Skapa anpassade flikar eller avsnitt](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   >Mer information om kontrollpaneler finns i [Kontrollpaneler](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Fortsätt att anpassa layoutmallen.
 
@@ -233,4 +242,4 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    >[!TIP]
    >
-   >Du kan klicka på [!UICONTROL Save] när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   >Du kan klicka på [!UICONTROL **Spara**] när som helst för att spara förloppet, vilket stänger layoutmallsredigeraren och sedan fortsätta att ändra mallen senare.

@@ -6,9 +6,9 @@ description: '[!UICONTROL Work List] i området [!UICONTROL Home] visar alla arb
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Du kan filtrera objekt i [!UICONTROL Work List] om du bara vill visa vissa typer
       <td> 
        <div> 
         <p>Visar endast arbetsobjekt som du har delegerat till en annan användare.</p> 
-        <p>Mer information om delegering av uppgifter finns i <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegera uppgifter och ärenden till en annan användare</a>.
+        <p>Mer information om delegering av uppgifter finns i <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegera uppgifter och problem</a>.
        </div> </td> 
      </tr> 
      <tr> 

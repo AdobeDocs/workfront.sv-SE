@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -193,15 +193,22 @@ Om du aktiverar inställningen **[!UICONTROL Allow users to delegate their tasks
 
 När den här inställningen är aktiverad kan användarna se följande:
 
-* Länken [!UICONTROL Delegate] i området [!UICONTROL Home]. De kan delegera godkännanden eller uppgifter och utgivningstilldelningar härifrån.
+* Länken [!UICONTROL **Delegera**] i deras [!UICONTROL My Work]-, [!UICONTROL My Tasks]- eller [!UICONTROL My Issues]-widgetar i området [!UICONTROL Home]. De kan delegera uppgifter och utgivningstilldelningar därifrån.
+
+  >[!NOTE]
+  >
+  >  Länken [!UICONTROL **Delegera godkännanden**] är alltid aktiverad i området [!UICONTROL Home].
+
 * En indikation på att en aktivitet eller ett problem har delegerats till en annan användare i området [!UICONTROL Assignments and delegations] i huvud för aktiviteten eller problemet.
+* En indikation på att en uppgift eller ett problem har delegerats till en annan användare i deras [!UICONTROL My Work]-widget i [!UICONTROL Home].
 
   Om du inaktiverar inställningen [!UICONTROL Allow users to delegate their tasks & issues] kommer delegeringarna som är schemalagda att stoppas och de delegerade användarna får ett e-postmeddelande om att delegeringen har stoppats.
 
 Mer information om hur du delegerar arbete till andra finns i följande artiklar:
 
 * [Delegera arbetsöversikt](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [Hantera delegering av uppgifter och utgåvor](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Delegera uppgifter och ärenden](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

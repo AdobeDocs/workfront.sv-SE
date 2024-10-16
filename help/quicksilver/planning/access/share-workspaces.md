@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
-
 
 # Dela arbetsytor
 
@@ -31,7 +31,7 @@ This article describes how you can share a view with others. For information abo
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
-Du måste ha följande för att kunna komma åt Workfront Planning:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 

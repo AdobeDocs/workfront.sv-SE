@@ -6,9 +6,9 @@ description: Om du skickar in tidrapporten för godkännande får din chef insyn
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> <p>Nytt: Ljus eller högre </p>
    <p>Aktuell: Granska eller senare </p>
   </tr> 
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Så här skickar du in en tidrapport för godkännande:
 
    Knappen **Skicka för godkännande** ersätts av knapparna **Godkänn**, **Avvisa** och **Återkalla**. Status för tidrapporten ändras till **Skickat**.
 
-   När tidrapporten skickas för godkännande ser godkännaren tidrapporten som listas i området **Godkännanden** på sidan **Hem**. Följande saker kan hända:
+   När tidrapporten skickas för godkännande ser godkännaren tidrapporten som listas i widgeten **Mina godkännanden** i området **Hem**. Följande saker kan hända:
 
    * Om de godkänner det ändras knappen **Återkalla** till **Öppna igen** och tidrapportens status uppdateras till **Öppna**.
    * Om de avvisar det ersätter knappen **Skicka för godkännande** knappen **Återkalla** och tidrapportens statusuppdatering **Avvisad**.

@@ -6,16 +6,16 @@ description: Genom att delegera godkännandebegäranden kan du tilldela en annan
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 # Delegera godkännandebegäran
 
-Du kan tillfälligt delegera det arbete du är tilldelad när du inte är på kontoret. Du kan delegera uppgifter och utleveranser eller delegera godkännandebegäranden. I den här artikeln beskrivs hur du delegerar godkännandebegäranden. Mer information om delegering av uppgifter och ärenden finns i [Hantera uppgifter och utfärda delegering](../../manage-work/delegate-work/how-to-delegate-work.md).
+Du kan tillfälligt delegera det arbete du är tilldelad när du inte är på kontoret. Du kan delegera uppgifter och utleveranser eller delegera godkännandebegäranden. I den här artikeln beskrivs hur du delegerar godkännandebegäranden. Mer information om delegering av uppgifter och ärenden finns i [Delegera uppgifter och ärenden](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 Du kan delegera följande typer av godkännanden, oavsett hur du tilldelades godkännandet (oavsett om det tilldelats direkt till dig, till ett team som du är medlem i eller till din jobbroll):
 

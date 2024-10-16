@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Mer information om hur en arbetsytehanterare kan skapa ett begärandeformulär o
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna komma åt Workfront Planning:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 1. Klicka på **Skicka**.
 
    Formuläret skickas och en ny post läggs till i posttypen som är kopplad till formuläret.
-
-
-
-
-

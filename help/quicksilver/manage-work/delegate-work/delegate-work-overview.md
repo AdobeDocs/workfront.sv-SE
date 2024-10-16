@@ -7,9 +7,9 @@ description: När du planerar att vara borta från kontoret under en kort period
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,18 @@ Du kan delegera följande objekt i [!DNL Adobe Workfront]:
 * Problem som du har tilldelats
 * Projekt-, uppgifts- eller utfärdandegodkännanden som tilldelats dig.
 
-Den här artikeln innehåller allmän information om delegering av uppgifter och problem.
+  >[!TIP]
+  >
+  >   Du kan inte delegera tidrapport-, dokument- eller korrekturgodkännanden.
+
+
+Den här artikeln innehåller allmän information om delegering av uppgifter och ärenden som du har tilldelats.
 
 Mer information om hur du delegerar projekt-, uppgifts- och utfärdandegodkännanden finns i [Delegera godkännandebegäran](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Mer information om hur du delegerar uppgifter och problem finns i [Delegera uppgifter och problem](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Delegera arbetsöversikt
+## Översikt över uppgifter och problem i delegering
 
 Tänk på följande när du delegerar uppgifter och ärenden:
 
@@ -62,7 +67,7 @@ Tänk på följande när du delegerar uppgifter och ärenden:
 * Om du tilldelas ytterligare uppgifter och utgåvor under den tid du har valt att delegera arbetet till andra användare, delegeras det nya tilldelade arbetet automatiskt till samma person för den tidsram du valde om uppgifts- eller utgivningsdatumen ligger inom den tidsramen.
 * Samma användare kan väljas som ombud av flera användare.
 * Delegerade uppgifter och problem visas inte i resurshanteringsverktyg, som [!UICONTROL Workload Balancer] eller [!UICONTROL Resource Planner] för de delegerade användarna.
-* Du kan visa namn på delegerade arbeten och delegater i flera områden i [!DNL Workfront]. Mer information finns i avsnittet Hitta information om delegerat arbete och delegerat arbete i artikeln [Hantera uppgift och utfärda delegering](../delegate-work/how-to-delegate-work.md).
+* Du kan visa namn på delegerade arbeten och delegater i flera områden i [!DNL Workfront]. Mer information finns i avsnittet Hitta information om delegerade arbeten och delegater i artikeln [Delegera uppgifter och problem](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]

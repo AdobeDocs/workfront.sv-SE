@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Koppla posttyper
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
-Du måste ha följande för att kunna komma åt Workfront Planning:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p> Adobe Experience Manager Assets, om du vill ansluta AEM resurser med posttyperna Planning<p>
+   <p>Du måste ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront.
+    Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
@@ -185,7 +190,8 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    * En annan posttyp från den aktuella arbetsytan
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    * En posttyp från en annan arbetsyta som konfigurerats för anslutning från andra arbetsytor. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    * **Experience Manager Assets** från avsnittet **Adobe-program**.
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. Uppdatera följande information:
 
@@ -222,7 +228,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
      Det här alternativet är endast tillgängligt när du ansluter poster från två olika arbetsytor eller en post och ett Adobe Experience Manager-resursobjekt.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **Anslutningstyp**: Välj ett av följande alternativ för att ange hur många poster de kan ansluta till och från:
 
@@ -233,7 +239,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
      Det här alternativet är endast tillgängligt när du ansluter poster från samma arbetsyta eller en post och en Workfront-objekttyp.
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      Mer information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -262,9 +268,9 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 1. (Villkorligt) Om du har valt att ansluta till Experience Manager Assets eller till posttypen Workfront Planning väljer du något av följande alternativ i området **Postutseende**:
 
-   * <span class="preview">**Namn och bild**: Både namnet och miniatyrbilden eller ikonen för de anslutna posterna visas i det anslutna postfältet. Det här är standardalternativet. </span>
-   * <span class="preview">**Namn**: Endast namnet på de anslutna posterna visas i det anslutna postfältet.</span>
-   * <span class="preview">**Bild**: Endast miniatyrbilden eller ikonen för de anslutna posterna visas i det anslutna postfältet.</span>
+   * **Namn och bild**: Både namnet och miniatyrbilden eller ikonen för de anslutna posterna visas i det anslutna postfältet. Det här är standardalternativet.
+   * **Namn**: Endast namnet på de anslutna posterna visas i det anslutna postfältet.
+   * **Bild**: Endast miniatyrbilden eller ikonen för de anslutna posterna visas i det anslutna postfältet.
 
    Poster utan miniatyrbild visar istället posttypsikonen. Ett exempel på hur de anslutna posterna visas visas i området **Postutseende**.
 
@@ -276,7 +282,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    >
    >* Det går inte att välja ett postutseende när du väljer Workfront-objekttyper.
    >
-   >* Det du väljer i utseendeområdet Post avgör hur posterna visas i anslutningar överallt i systemet, inklusive alla vyer och detaljsidor.
+   >* Det du väljer i postutseendeområdet avgör hur posterna visas i anslutningar överallt i systemet, inklusive alla vyer och informationssidor.
 
 1. Klicka på **Skapa**.
 

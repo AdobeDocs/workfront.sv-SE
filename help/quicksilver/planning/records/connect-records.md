@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2793'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Du kan ansluta följande:
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
-Du måste ha följande för att kunna komma åt Workfront Planning:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p>Adobe Experience Manager Assets, om du vill ansluta AEM resurser med planeringsposter<p>
+   <p>Du måste ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront.
+    Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
@@ -146,7 +151,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 * Postens förhandsgranskning eller sida i de anslutna postfälten på fliken Information.
 * Postens förhandsgranskning eller sida på fliken Anslutningar.
 
-### Koppla ihop Adobe Workfront Planning-poster från tabellvyn eller fliken Information på postsidan
+### Koppla ihop Adobe Workfront Planning-poster från tabellvyn eller detaljområdet
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 
    * Klicka på namnet på en ansluten post i listan för att lägga till den till den valda posten. Posten läggs till automatiskt.
    * Börja skriva namnet på en post och klicka på den när den visas i listan. Posten läggs till automatiskt.
+
+   >[!TIP]
+   >
+   >    Om bara bilden av posten markerades för att visas när posttyperna var anslutna, visas bara miniatyrbilden eller ikonen för posten i det anslutna fältet. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 
 1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta, och du vill lägga till den, klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i avsnittet Skapa poster när du ansluter dem i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 

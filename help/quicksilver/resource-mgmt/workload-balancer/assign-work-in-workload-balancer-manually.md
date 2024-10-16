@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
    >[!TIP]
    >
-   > Om din Workfront- eller gruppadministratör har aktiverat delegeringar i din miljö använder du fliken Uppdrag för att tilldela användare till uppgiften eller problemet. Använd fliken Delegeringar för att visa användare som har delegerats till arbetsposten. Mer information om delegering av arbete finns i [Hantera uppgifter och utfärda delegering](../../manage-work/delegate-work/how-to-delegate-work.md).
+   > Om din Workfront- eller gruppadministratör har aktiverat delegeringar i din miljö använder du fliken Uppdrag för att tilldela användare till uppgiften eller problemet. Använd fliken Delegeringar för att visa användare som har delegerats till arbetsposten. Mer information om hur du delegerar arbete finns i [Delegera uppgifter och problem](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 
    Detta tilldelar eller omtilldelar arbetsuppgiften till de angivna tilldelningarna.
