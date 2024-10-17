@@ -6,9 +6,9 @@ description: Du kan exportera Adobe Workfront-data från olika listor, rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,6 @@ Det finns flera begränsningar för hur rapporter visas i Workfront och hur de e
   >Om du exporterar en rapport som innehåller en samlingsreferens i en kolumn kan det resultera i ett fel, även om rapporten annars ligger inom de angivna exportgränserna. Om den refererade samlingen är för stor, kommer exportprocessen att få en timeout och resultera i ett fel.
   >
   >För att undvika det här felet bör du antingen exkludera kolumner som refererar till stora samlingar eller minska storleken på de refererade samlingarna innan du exporterar.
-  >
 
   Om rapporten innehåller fler objekt än dessa gränser visas ett felmeddelande om att exporten inte lyckas. Minska antalet objekt som visas på skärmen till ett tal som är mindre än eller lika med dessa gränser för att kunna exportera resultaten.
 
@@ -151,6 +150,14 @@ Det finns flera begränsningar för hur rapporter visas i Workfront och hur de e
 * **10 MB filstorlek:** Filstorleksgräns för exporterade rapporter som schemalagts för leverans. Om en exporterad fil som bifogas till ett e-postmeddelande är större än 5 MB, skickas en länk dit filen kan hämtas via e-post i stället för den bifogade exporterade rapporten.
 * **65,530 hyperlänkar:** Det här är en gräns som Excel har angett för dokument som innehåller fler än 65 530 hyperlänkar. Dessa dokument kan inte öppnas när de exporteras manuellt eller skickas i en levererad rapport. Observera att ett Excel-dokument kanske bara innehåller 200 rader med data, men att dokumentet inte öppnas om det finns fler än 65 530 länkar i dokumentet. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds. 
 * **256 kolumner**: Det här är en gräns som Excel har angett för dokument som innehåller fler än 256 kolumner. Dessa dokument kan inte exporteras manuellt eller skickas i en levererad rapport. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds.
+
+  >[!IMPORTANT]
+  >
+  >Om du exporterar en rapport som innehåller en rapportkolumn kan det resultera i ett fel även om rapporten annars ligger inom de angivna exportgränserna.
+  >
+  >Om du använder exportfunktionen för att dela en rapport som innehåller en rapportkolumn med andra bör du dela rapporten genom att göra den offentlig i stället. Mer information om hur du gör en rapport offentlig finns i [Dela en rapport i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  >
+  >Om du använder exportfunktionen för att utvärdera data externt rekommenderar vi att du använder Workfront Data Connect istället. Mer information finns i [Workfront Data Connect - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Om du försöker exportera data utanför gränsen kanske du inte får alla förväntade data i exporten. En ändrad rapport skapas i stället inom gränsen.
 

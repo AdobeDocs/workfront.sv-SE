@@ -6,7 +6,7 @@ description: Du kan generera en rapport genom att använda jokertecken i ställe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -78,8 +78,6 @@ Infoga ett användarbaserat jokertecken i en rapport:
 1. I rutan **Börja skriva namn ...** skriver du: `$$USER.ID` eller `$$USER.name` om du vill att rapporten ska visa information om användaren som loggar in, baserat på deras namn. Du kan infoga andra jokertecken som refererar till den inloggade användarens Group, Team, Company eller annan information.
 
    En fullständig lista över användarbaserade jokertecken finns i [Översikt över variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
 1. Klicka på **Spara + Stäng**.
 

@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Att dela en eller flera rapporter från en lista är identiskt.
 
      >[!NOTE]
      >
-     >Om rapporten har en fråga och du delar den offentligt, måste de användare som kör rapporten vara inloggade på Workfront för att kunna köra rapporten med hjälp av uppmaningen. Om de inte kan logga in på Workfront ser de rapporten utan uppmaningen. Mer information om begränsningar för delning av rapporter med uppmaningar finns i avsnittet [Begränsningar för delning av promptrapporter](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) i artikeln [Lägga till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Om rapporten har en fråga och du delar den offentligt, kommer de användare som kör rapporten via länken för offentlig delning inte att kunna köra rapporten via uppmaningen. De kommer att se rapporten utan att tillfrågas om de inte loggar in på Workfront och öppnar rapporten utan att använda länken för offentlig delning. Mer information om begränsningar för att dela rapporter med uppmaningar finns i avsnittet [Begränsningar för delning av promptrapporter](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) i artikeln [Lägga till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
    * **Gör den här synliga systemomfattande:** Välj det här alternativet så att alla i Workfront som har tillgång till rapporter kan se rapporten.
 

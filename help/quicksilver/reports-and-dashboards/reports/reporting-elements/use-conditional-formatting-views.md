@@ -6,9 +6,9 @@ description: När du delar dina rapporter med andra användare i Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Textfärg</strong></td> 
-      <td> <p>Välj den färg som texten ska visas i. Det finns 8 tillgängliga färger.</p> <p><b>ANMÄRKNING</b></p> <p> Om fältet innehåller en hyperlänk används inte textfärgmarkeringarna i det här fältet.</p> </td> 
+      <td> <p>Välj den färg som texten ska visas i med färgväljaren.</p> <p><b>ANMÄRKNING</b></p> <p> Om fältet innehåller en hyperlänk används inte textfärgmarkeringarna i det här fältet.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Textformat</strong></td> 
@@ -151,7 +151,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Bakgrund</strong></td> 
-      <td>Välj bakgrundsfärg för texten. Det finns 8 tillgängliga färger.</td> 
+      <td>Välj bakgrundsfärg för texten med färgväljaren.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Visa ikon</strong></td> 
@@ -189,6 +189,6 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
    * Lägg till kolumnregeln igen för den röda bakgrunden i sena projekt.
    * När du sparar reglerna och vyn används inte den röda bakgrunden i ett projekt som har avbrutits.
 
-1. Klicka på **Klar**.
+1. Klicka på **Spara**.
 1. Klicka på **Spara + Stäng**.\
    I rapporten ser användare ändringar i formatet om de angivna villkoren har uppfyllts.

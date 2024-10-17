@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -18,33 +18,51 @@ Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika 
 
 En lista över alla ändringar som är tillgängliga i den fjärde utgåvan av kvartal 2024 finns i [Översikt över den fjärde utgåvan av kvartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
-## Utforska och känna av uppdateringar för kontrollpaneler
-
->[!NOTE]
->
->Förhandsversion: 15 oktober; Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)
-
-Vi har gjort en mängd uppdateringar av kontrollpanelernas gränssnitt för att matcha designen i andra delar av Workfront, inklusive förbättringar av förhandsgranskningsskärmen vid utskrift av en kontrollpanel.
-
-Mer information om instrumentpaneler finns i [Skapa och hantera instrumentpaneler](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). Mer information om kalendrar finns i [Översikt över kalenderrapporter](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
-
 ## Utforska och känna av uppdateringar för rapporter
 
 >[!NOTE]
 >
->Förhandsversion: Från 12 september 2024; Produktionsrelease för alla kunder: Varierad, alla uppdateringar är tillgängliga senast 8 november 2024
+>Produktionsrelease för alla kunder: Inkrementellt från och med version 24.10 (17 oktober 2024), full tillgänglighet fram till 8 november 2024
 
 Vi har gjort en mängd uppdateringar i rapportgränssnittet för att matcha designen i andra delar av Workfront. Uppdateringarna innehåller ytterligare ändringar av olika rapporteringsfunktioner, bland annat:
 
-* En ny knapp för att ange textläge när en rapportkolumn redigeras
-* Små ändringar av funktionen för jokertecken för relativt datum och jokertecken
-* Villkorliga regler kräver inte längre att du klickar på knappen Klart
-* En utökad färgpalett för villkorsstyrda formateringsregler i rapporter
-* Ändringar i befintliga rapporter som förbättrar användningen av dem på arbetsytans kontrollpaneler
+* En utökad färgpalett har lagts till för regler för villkorsstyrd formatering i rapporter. Mer information om villkorsstyrd formatering finns i [Använda villkorsstyrd formatering i vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* En ny&quot;Redigera textläge&quot;-knapp har lagts till för att ange textläge när en kolumn redigeras i rapportbyggaren. Mer information om att redigera rapportvyer i textläge finns i [Redigera en vy i textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* En ny växlingsknapp har lagts till i rapportfiltergränssnittet för att växla mellan en datumväljare i kalendern och ett textfält med jokertecken för relativt datum när ett datumfält filtreras. Om du dessutom väljer en relativ genväg med jokertecken för datum i rapportfiltergränssnittet fylls nu de associerade jokerfälten automatiskt i baserat på dina val. Mer information om hur du använder jokertecken för relativa datum i rapportfilter finns i [Använda datumbaserade jokertecken för att generera rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+* Användarbaserade jokertecken i rapportfilter föreslår nu relevanta jokertecken för automatisk komplettering baserat på den valda fälttypen. Mer information om användarbaserade jokertecken i rapportfilter finns i [Använda användarbaserade jokertecken för att generera rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+* Rapporter med uppmaningar som delas offentligt visas nu utan uppmaningar för alla användare som kommer åt dem via länken för offentlig delning. Inloggade användare som kommer åt rapporten direkt kan fortfarande tillämpa uppmaningar. Mer information om rapportuppmaningar finns i [Lägga till en uppmaning i en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* Ändringar i befintliga rapporter som förbättrar deras kompatibilitet med Canvas Dashboards.
 
-Uppdateringarna implementeras individuellt i förhandsgranskning och produktion från och med den 12 september 2024. Alla uppdateringar kommer att vara helt implementerade för alla kunder senast 8 november 2024.
+_Uppdateringarna implementeras stegvis i produktionen från och med version 24.10 den 17 oktober 2024. Ändringarna blir tillgängliga för endast ett fåtal kunder i början och blir allt mer tillgängliga över tiden tills de är helt tillgängliga för alla kunder senast 8 november 2024._
 
-Mer information om rapportering i Workfront finns i [Kom igång med rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+## Utforska och känna av uppdateringar för kontrollpaneler
+
+>[!NOTE]
+>
+>Produktionsrelease för alla kunder: Inkrementellt från och med version 24.10 (17 oktober 2024), full tillgänglighet fram till 8 november 2024
+
+Vi har gjort en mängd uppdateringar i gränssnittet för kontrollpaneler för att matcha designen i andra delar av Workfront. Uppdateringarna innehåller ytterligare ändringar av olika kontrollpanelsfunktioner, bland annat:
+
+* Skärmen för förhandsgranskning av utskrift när en kontrollpanel skrivs ut har förbättrats. Mer information om hur du skriver ut en kontrollpanel finns i []
+
+Allmän information om instrumentpaneler finns i [Skapa och hantera instrumentpaneler](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+
+_Uppdateringarna implementeras stegvis i produktionen från och med version 24.10 den 17 oktober 2024. Ändringarna blir tillgängliga för endast ett fåtal kunder i början och blir allt mer tillgängliga över tiden tills de är helt tillgängliga för alla kunder senast 8 november 2024._
+
+## Håll utkik efter filter och vyer
+
+>[!NOTE]
+>
+>Produktionsrelease för alla kunder: Inkrementellt från och med version 24.10 (17 oktober 2024), full tillgänglighet fram till 8 november 2024
+
+Vi har gjort en mängd uppdateringar av gränssnitten för filter och vyer för att matcha designen i andra delar av Workfront. Uppdateringarna innehåller ytterligare ändringar av vyer och det äldre filtergränssnittet, bland annat:
+
+* En utökad färgpalett har lagts till för regler för villkorsstyrd formatering i rapporter. Mer information om villkorsstyrd formatering finns i [Använda villkorsstyrd formatering i vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* En ny&quot;Redigera textläge&quot;-knapp har lagts till för att aktivera textläge när du redigerar en kolumn och skapar en ny vy. Mer information om hur du redigerar vyer i textläge finns i [Redigera en vy i textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* En ny växlingsknapp har lagts till i det äldre filtergränssnittet för att växla mellan en datumväljare i kalendern och ett textfält med jokertecken för relativt datum när ett datumfält filtreras. Om du dessutom väljer en relativ genväg med jokertecken för datum i rapportfiltergränssnittet fylls nu de associerade jokerfälten automatiskt i baserat på dina val.
+* Användarbaserade jokertecken i äldre filter föreslår nu relevanta jokertecken för automatisk komplettering baserat på den valda fälttypen. Mer information om hur du använder äldre filter finns i [Skapa eller redigera filter i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
+_Uppdateringarna implementeras stegvis i produktionen från och med version 24.10 den 17 oktober 2024. Ändringarna blir tillgängliga för endast ett fåtal kunder i början och blir allt mer tillgängliga över tiden tills de är helt tillgängliga för alla kunder senast 8 november 2024._
 
 ## Look-and-feel-updates for System Preferences page
 

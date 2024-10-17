@@ -6,9 +6,9 @@ description: Du kan generera en rapport genom att använda jokertecken i ställe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,6 @@ Infoga ett datumbaserat jokertecken i en rapport:
 
 1. Gå till en rapport som du vill infoga ett datumbaserat jokertecken för.
 1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.
-
 1. Klicka på fliken **Filter**.
 1. Klicka på **Lägg till en filterregel**.
 1. Börja skriva namnet på fältet som du vill filtrera efter.\
@@ -79,7 +78,7 @@ Infoga ett datumbaserat jokertecken i en rapport:
    >
    >Du måste alltid markera filtervariabeln **Lika med** när du arbetar med jokertecken i Adobe Workfront.
 
-1. I rutan **Börja skriva namn ...** skriver du: `$$TODAY` om du vill visa information om något som inträffar samma dag som rapporten körs.
+1. Klicka på växlingsknappen **Ange relativt datum** och skriv sedan `$$TODAY` i textrutan om du vill visa information om något som inträffar samma dag som rapporten körs.
 
    eller
 
@@ -91,8 +90,6 @@ Infoga ett datumbaserat jokertecken i en rapport:
 1. (Valfritt) Om du vill visa information om något som har inträffat inom en tidsram före datumet då rapporten körs skriver du `$$TODAY-1w` om du vill visa information från föregående vecka eller `$$TODAY-2m` om du vill visa information från de senaste två månaderna. Du kan också ange tidsramar för kvartal, timmar, dagar eller år.
 
    En fullständig lista över attribut, kvalificerare och operatorer som du kan använda i datumbaserade jokertecken finns i artikeln [Översikt över variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Klicka på **Spara + Stäng**.
 

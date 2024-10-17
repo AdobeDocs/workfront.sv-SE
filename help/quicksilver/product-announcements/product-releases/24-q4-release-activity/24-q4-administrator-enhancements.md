@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Den här sidan beskriver alla administratörsförbättringar som gjorts i den fjärde utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2024 finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## Åtkomstnivå finns nu tillgänglig för miljöbefordran
+
+>[!NOTE]
+>
+>Förhandsversion: 17 oktober 2024; Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)
+
+Vi har lagt till möjligheten att inkludera åtkomstnivåer för att utöka funktionerna för miljömarknadsföring. Nu kan du konfigurera en åtkomstnivå i en sandlådemiljö och sedan höja den åtkomstnivån till din produktionsmiljö.
+
+Tidigare var åtkomstnivåer inte tillgängliga för miljöbefordran.
+
+Mer information om tillgängliga objekt för miljöbefordran finns i [Objekt som stöds för miljöbefordran](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) i artikeln Översikt över miljöbefordran.
 
 ## En räknare för anpassade formulär visar antalet fält
 

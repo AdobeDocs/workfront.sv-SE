@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Ska tillkännages</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +316,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Ska tillkännages</p>
                             </li>
                         </ul>
                     </td>

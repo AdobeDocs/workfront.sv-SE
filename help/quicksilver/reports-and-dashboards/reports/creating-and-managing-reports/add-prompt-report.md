@@ -6,9 +6,9 @@ description: Filter och uppmaningar liknar varandra i den bemärkelsen att de b�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,11 @@ Instruktioner om hur du skapar en rapport finns i [Skapa en rapport](../../../re
 1. Gå till rapporten där du vill lägga till en fråga.
 1. Expandera **Rapportåtgärder** och klicka sedan på **Redigera**.
 
-1. Klicka på **Rapportinställningar**.
-1. Klicka på **Lägg till en fråga** i området **Rapportera frågor**.\
-   ![](assets/qs-add-a-prompt-350x216.png)
+1. Klicka på knappen **Rapportinställningar**.
+1. Klicka på fliken **Rapportfrågor** och sedan på **Lägg till en fråga**.\
+   ![](assets/create-report-prompt-tab.png)
 
-1. (Villkorligt) Markera det fält som du vill att uppmaningen ska baseras på. Börja skriva namnet på fältet och klicka för att markera det när det visas i listan.\
+1. (Villkorligt) Markera det fält som du vill att uppmaningen ska baseras på. Börja skriva namnet på fältet och klicka sedan för att markera det när det visas i listan.\
    Vilka alternativ som är tillgängliga för användare som kör rapporten varierar beroende på vilket fält du väljer.\
    Om du t.ex. väljer ett datumfält som Faktiskt slutförandedatum i en aktivitetsrapport, är &quot;Faktiskt slutförandedatum&quot; namnet på uppmaningen. När du redigerar den här uppmaningen när du kör den här rapporten kan du välja bland en uppsättning modifierare för att skapa din filtersats. Den här processen är identisk med att skapa ett filter. Mer information om modifierare finns i [Filter och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -92,8 +92,9 @@ Instruktioner om hur du skapar en rapport finns i [Skapa en rapport](../../../re
    Ange följande information för den anpassade prompten: Villkoret för en anpassad prompt kan bara redigeras i textläge. Detta gör att flera villkor kan användas i ett enda fält.
 
    * **Fältnamn:** Detta är namnet på uppmaningen, som du ser den innan du kör rapporten.
-   * **Etikett:** Det här är namnet på ett av alternativen i uppmaningen, som du ser det innan du kör rapporten.
+   * **Etikett för nedrullningsbart objekt:** Det här är namnet på ett av alternativen i uppmaningen när du ser det innan du kör rapporten.
    * **Villkor:** Ange ett villkor som definierar uppmaningen.
+   * **Standard:** Du kan välja att ett objekt ska vara standardalternativ för den här uppmaningen.
 
    Använd samma syntax som du använder när du anger ett textlägesfilter och koppla programsatser till &quot;&amp;&quot;. Mer information om hur du redigerar ett filter i textläge finns i [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -128,7 +129,7 @@ Så här kör du en rapport med en fråga:
 
 1. Gå till rapporten med uppmaningen.
 
-   ![](assets/qs-prompt-drop-downs-350x229.png)
+   ![](assets/run-report-prompts.png)
 
 1. Välj ett villkor för en eller alla uppmaningar som visas på fliken **Fråga**.\
    (Valfritt) Du kan lämna uppmaningarna tomma och inte filtrera rapporten efter uppmaningsvillkoren.
@@ -145,13 +146,14 @@ Så här kör du en rapport med en fråga:
 
 >[!CAUTION]
 >
->När du delar en rekommenderad rapport utanför Workfront måste den användare som visar rapporten vara inloggad på Workfront för att köra rapporten med hjälp av uppmaningen. Om användaren som visar rapporten inte är inloggad visas alla rapportresultat utan att uppmaningen tillämpas.
+>När du delar en rekommenderad rapport kan både inloggade och ej inloggade användare som visar rapporten med hjälp av länken för offentlig delning inte köra rapporten med hjälp av dess anvisningar. I det här fallet visas rapportens resultat utan att några uppmaningar tillämpas, och den information som visas baseras i stället på användarens åtkomstnivå och behörigheter eller rapportens Kör som-användaråtkomstnivå och behörigheter, om en sådan har angetts.
 
 Följande är begränsningar när det gäller att dela rapporter från Workfront:
 
-* När du delar en rapport offentligt kan användarna inte köra rapporten genom att köra uppmaningen, såvida de inte har Workfront-inloggningsuppgifter och först loggar in för att visa rapporten i Workfront.
+* När du delar en rapport offentligt kan användare inte köra rapporten med tillämpade uppmaningar, såvida de inte har Workfront-inloggningsuppgifter, logga in först och navigera till rapporten direkt i Workfront (inte via länken för offentlig delning).
 
   Mer information om att dela rapporter finns i artikeln [Dela en rapport i Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
-* När du schemalägger en begärd rapport för leverans innehåller rapporten i e-postbilagan de data som efterfrågas. När användaren klickar på länken i e-postmeddelandet för att få åtkomst till rapporten måste han/hon logga in först för att kunna visa rapporten och köra uppmaningen själv.
+
+* När du schemalägger en begärd rapport för leverans innehåller rapporten i e-postbilagan rapportens data som inte har efterfrågats. När användaren klickar på länken i e-postmeddelandet för att få åtkomst till rapporten måste han/hon logga in först för att kunna visa rapporten och köra uppmaningen själv.
 
   Mer information om att schemalägga en levererad rapport finns i [Schemalägg en automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

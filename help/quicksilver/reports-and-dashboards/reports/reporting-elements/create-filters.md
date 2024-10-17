@@ -6,7 +6,7 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 0%
@@ -399,7 +399,7 @@ Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär
      >
      >När du ansluter en grupp med AND-programsatser med flera OR-programsatser måste du upprepa de fält som inte ändras mellan OR-programsatserna för varje grupp med programsatser.
      >
-     >![Anslutna filtersatser](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![Anslutna filtersatser](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >När du skapar ett filter för aktiviteter som innehåller ordet&quot;marknadsföring&quot; och som finns i projekt med statusen Aktuell eller Planering, måste du ha följande filterregler:
      >

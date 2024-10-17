@@ -6,9 +6,9 @@ description: 'OBS! Lägg till ett avsnitt i den här artikeln: /Content/Reports 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -97,13 +97,11 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
    >
    >Om du vill redigera en vy i textläge måste du redigera en kolumn i taget.
 
-1. Klicka på **Växla till textläge** i det övre högra hörnet av verktyget.
+1. Klicka på **Växla till textläge** i det övre högra hörnet av verktyget och klicka sedan på **Redigera textläge**.
 
    >[!NOTE]
    >
    >När du redigerar en kolumn i textläge lägger Workfront till kodraden `textmode=true` i kolumnen. Detta anger att kolumnen ändras i textläge.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    Följande tabell visar nyckelraderna i en textlägesvy:
 

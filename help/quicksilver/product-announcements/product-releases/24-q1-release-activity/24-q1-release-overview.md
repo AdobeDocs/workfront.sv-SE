@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                                 <p>Production for fast release: Med version 24.3 (mars 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för alla kunder: Med version 24.10 (oktober 2024)</p>
+                                <p>Produktion för alla kunder: Ska tillkännages</p>
                             </li>
                         </ul>
                     </td>
