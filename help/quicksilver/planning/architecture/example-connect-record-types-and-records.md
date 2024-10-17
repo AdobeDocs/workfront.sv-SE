@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ Så här gör du:
      >
      >Alternativet **Anslutningstyp** är inte tillgängligt vid anslutning av poster från olika arbetsytor eller vid anslutning av Experience Manager-resurser. Mer information finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Postutseende**: Avmarkera alternativet **Titel** om du inte vill visa produktnamn när du lägger till dem i kampanjens produktinformationsfält. Om det här alternativet är aktiverat visas både miniatyrbilden och titeln. Växlingsknappen är aktiverad som standard.
+   * **Postutseende**: Välj bland följande alternativ:
+      * **Namn och bild**: Visar namnet och miniatyrbilden eller ikonen för de anslutna posterna. Detta är markerat som standard.
+      * **Namn**: Visar bara namnet på de anslutna posterna.
+      * **Bild**: Visar endast miniatyrbilden eller ikonen för de anslutna posterna.
    * **Markera uppslagsfält**: Om du låter det här alternativet vara markerat öppnas rutan **Lägg till uppslagsfält** så att du kan länka produktfält med kampanjposttypen. Du kan klicka på **Hoppa över** om du vill hoppa över det här steget och lägga till produktfält senare.
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. (Villkorligt) Om du valde alternativet **Välj uppslagsfält** i föregående steg klickar du på ikonen **+** för fältet **Budget** i listan med fält som är associerade med posttypen **Produkt** och sedan på **Lägg till fält**. Detta skapar ett fält med namnet **Budget (från produktinformation)**, som är namnet på det länkade fältet. All information för produktbudgeten visas i det här fältet för kampanjposterna.
 

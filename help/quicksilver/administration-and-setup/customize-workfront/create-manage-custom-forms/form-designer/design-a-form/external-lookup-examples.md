@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,15 @@ I det här exemplet visas hur du anropar Workfront API och hämtar data från et
 
 ## Konfigurera ett externt sökfält för Workfront Planning API
 
-Det finns en slutpunkt i [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md) som du kan använda för att söka efter poster efter posttyp-ID med metoden Get. Du kan använda den här slutpunkten för att referera till planeringsposter i externa sökfält.
+Det finns en slutpunkt i Workfront Planning API för att söka efter poster efter posttyp-ID med metoden Get. Du kan använda den här slutpunkten för att referera till planeringsposter i externa sökfält.
 
 * **Bas-API-URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **HTTP-metod:** Hämta
 * **JSON-sökväg:** `$.records[*].data.{fieldID}`
 
   **{fieldID}** är det fält som ska visas i sökresultaten för extern sökning i det anpassade formuläret för slutanvändare.
+
+Mer information finns i [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md).
 
 ## Konfigurera ett externt sökfält för ett offentligt API
 
