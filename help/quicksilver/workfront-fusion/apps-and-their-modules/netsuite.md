@@ -9,9 +9,9 @@ description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsfl�
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,45 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 
 Du måste ha ett [!DNL NetSuite]-konto för att kunna använda [!DNL NetSuite]-moduler.
 
+## Skapa en anslutning till NetSuite
 
+Så här skapar du en anslutning för dina [!DNL NetSuite]-moduler:
+
+1. Klicka på **[!UICONTROL Add]** bredvid rutan Anslutning i modulen [!DNL NetSuite].
+
+1. Fyll i följande fält:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Ange ett namn för anslutningen.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type] </td>
+          <td>Ange om du ansluter till ett tjänstkonto eller ett personligt konto.</p>
+        </tr>
+       <tr>
+          <td role="rowheader">[!UICONTROL Account ID] </td>
+          <td>Ange ID:t för ditt NetSuite-konto.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Ange klient-ID för ditt NetSuite-konto. Detta finns i dina NetSuite-klientautentiseringsuppgifter.</p></td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Ange klienthemligheten för ditt NetSuite-konto.</p>
+        </tr>
+        </tbody>
+    </table>
+1. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
 ## [!DNL NetSuite]-moduler och deras fält
 
@@ -92,7 +130,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL NetSuite]-konto till Workfront Fusion finns i <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref"> Skapa en anslutning till [!DNL NetSuite] i en Workfront Fusion NetSuite-modul</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL NetSuite]-konto till Workfront Fusion finns i <a href="#create-a-connection-to-netsuite" class="MCXref xref"> Skapa en anslutning till [!DNL NetSuite]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
