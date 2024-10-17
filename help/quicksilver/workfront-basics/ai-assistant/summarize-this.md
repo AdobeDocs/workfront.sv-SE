@@ -5,16 +5,14 @@ description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen 
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Sammanfatta med hjälp av AI Assistant
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Workfront AI Assistant kan sammanfatta vissa objekt och ge dig en översikt över objektets avsikt eller detaljer.
 
@@ -67,8 +65,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
   Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-<div class="preview">
-
 ## Sammanfatta med knapparna Sammanfatta
 
 Följande områden har knappar som genererar sammanfattningar med hjälp av AI Assistant:
@@ -88,8 +84,6 @@ Så här använder du knappen Sammanfatta projekt eller Sammanfatta kommentarer:
 1. (Valfritt) Förfina uppmaningen för att se till att den ger dig den information du behöver.
 
    Du kan till exempel förfina uppmaningen Sammanfatta innehåll för att sammanfatta kommentarer för de senaste 14 dagarna, i stället för de senaste 7 dagarna.
-
-   </div>
 
 ## Sammanfatta ett objekt i AI Assistant
 
