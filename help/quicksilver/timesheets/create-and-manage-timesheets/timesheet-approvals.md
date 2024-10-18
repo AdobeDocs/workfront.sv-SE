@@ -6,7 +6,7 @@ description: Processen att godkänna tidrapporter ger cheferna insyn i arbetstid
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Området **Tidrapporter** öppnas.
 
 Hemområdet öppnas.
 
-1. Kontrollera att widgeten **Mina godkännanden** har lagts till i din hemsida. Mer information finns i [Lägg till, redigera och ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+1. Kontrollera att widgeten **Mina godkännanden** har lagts till i din hemsida. Mer information finns i [Lägg till, redigera och ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 1. Hitta ett godkännande av tidrapporten i widgeten Mina godkännanden.
 1. (Valfritt) Expandera den nedrullningsbara menyn till höger om knapparna Godkänn eller Avvisa för att lägga till en kommentar om ditt beslut och klicka sedan på **Lägg till**.
 1. Klicka på någon av följande knappar för att fatta ditt beslut om godkännande:

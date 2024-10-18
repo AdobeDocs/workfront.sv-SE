@@ -6,9 +6,9 @@ description: I följande meddelanden får du information om begäranden som du h
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>En personlig uppgift som jag har tilldelat någon annan har slutförts</strong> </p> <p>Ett meddelande skickas till den användare som tilldelade en ad hoc-uppgift till någon annan när uppgiften är slutförd. </p> <p>Mer information om ad hoc-åtgärder finns i <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Skapa arbetsobjekt från [!UICONTROL Home] området </a>.</p> <p>Ämnet för e-postmeddelandet är: <em>Slutförd aktivitet: &lt;Aktivitetsnamn&gt;</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt sammandrag-e-postmeddelande.</p> </p> </td> 
+   <td> <p><strong>En personlig uppgift som jag har tilldelat någon annan har slutförts</strong> </p> <p>Ett meddelande skickas till den användare som tilldelade en ad hoc-uppgift till någon annan när uppgiften är slutförd. </p> <p>Mer information om ad hoc-åtgärder finns i <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Skapa arbetsobjekt och projekt från [!UICONTROL Home] området </a>.</p> <p>Ämnet för e-postmeddelandet är: <em>Slutförd aktivitet: &lt;Aktivitetsnamn&gt;</em></p> <p> <p>Obs! Du kan inte konfigurera det här meddelandet för ett dagligt sammandrag-e-postmeddelande.</p> </p> </td> 
    <td> Aktivitetsnamn<br>Standardprojektnamn (personligt projekt för den användare som tog emot den personliga aktiviteten)<br>Referensnummer för aktivitet<br>Namn på aktivitetsägare<br>Ny aktivitetsstatus<br>Datum och tid när aktiviteten slutfördes<br>Knappen Tidigare aktivitetsstatus<br><strong>[!UICONTROL See More Details]</strong><br><br><br></td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 

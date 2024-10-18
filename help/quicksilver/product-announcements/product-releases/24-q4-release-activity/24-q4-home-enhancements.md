@@ -4,9 +4,9 @@ description: Förbättringar av startsidan för fjärde kvartalet 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Vi har gjort följande ändringar i widgeten Väntar på mitt godkännande:
 * **Tillagda godkännanden som jag har skickat in som ett filteralternativ**: Nu kan du visa godkännanden som du har skickat in i den nya startsidan med den här widgeten.
 * **Deadline**: Du kan nu se korrekturdeadline om en sådan har angetts. Om ingen deadline anges används som standard datumet då filen skapades.
 
-Mer information finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Mer information finns i [Kom igång med Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Förenkla Workfront-upplevelsen för uppgiftsägare med prioriteringar
 

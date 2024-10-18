@@ -6,9 +6,9 @@ description: Du kan visa och lägga till uppdateringar för ett arbetsobjekt i o
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--Audited: April 2024-->
 
 Du kan visa och lägga till uppdateringar för ett arbetsobjekt i [!UICONTROL Home]-området i [!DNL Adobe Workfront]. Du kan även redigera andra data som är relaterade till arbetsposten om du har tillgång till dem för att redigera dem.
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 ## Åtkomstkrav
 
@@ -53,6 +55,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 *Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Visa uppdateringar för en arbetsuppgift
 
 Du kan visa uppdateringar för alla arbetsobjekt i [!UICONTROL Work List]:
@@ -61,41 +65,60 @@ Du kan visa uppdateringar för alla arbetsobjekt i [!UICONTROL Work List]:
 1. I området **[!UICONTROL Work List]** markerar du objektet där du vill visa uppdateringar.\
    Uppdateringar visas i den högra panelen.
 
-1. (Valfritt) Om du vill filtrera systemuppdateringar så att endast användaruppdateringar visas växlar du **[!UICONTROL Show System Updates]** till Av.
 
-   ![](assets/show-system-updates-home-350x114.png)
 
-## Tillhandahålla uppdateringar för en arbetsuppgift
+## Lägga till en kommentar i en arbetsuppgift
 
 Du kan tillhandahålla uppdateringar för alla arbetsobjekt i listan [!UICONTROL Work]:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
-1. I området **[!UICONTROL Work List]** markerar du objektet där du vill göra en uppdatering.
-1. Klicka på **[!UICONTROL Update]** i den högra panelen för att visa ett textfält.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Klicka på **Anpassa** om du vill lägga till någon av följande widgetar:
 
-   ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
+   | Widget | Beskrivning |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Varumärkena | Visar alla anslagstavlor som du har skapat eller har bjudits in att använda |
+   | Mitt arbete | Visar uppgifter och ärenden som du har tilldelats |
+   | Mina projekt | Visar projekt som du äger eller projekt som du arbetar med |
+   | Mina uppgifter | Visar uppgifter som tilldelats dig |
+   | Mina problem | Visar problem som du har tilldelats |
+   | Mina förfrågningar | Visar alla begäranden som du har skickat in |
+   | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Ange din uppdatering i fältet som visas.
-1. (Valfritt) Ange någon av följande information:\
-   **[!UICONTROL Commit Date]:** Välj ett datum från datumväljaren när du bekräftar att arbetsobjektet ska slutföras.\
-   **[!UICONTROL How's it going?]:** Välj ett nytt villkor för aktiviteten eller problemet. Mer information om aktivitets- och problemvillkor finns i [Uppdatera villkor för aktiviteter och problem](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Status]:** Välj en ny status för aktiviteten eller utgåvan. Mer information om aktivitetsstatus finns i [Uppdatera aktivitetsstatus](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Mer information om status för problem finns i [Åtkomst till listan över status för systemproblem](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Completion Bar]:** Ange hur stor del av arbetet som har slutförts genom att dra förloppsindikatorn till önskad procentandel. Du kan också dubbelklicka på det avslutande fältet och ange ett procenttal som är färdigt.
+1. Leta reda på den arbetsuppgift som du vill uppdatera.
+1. Håll muspekaren över namnet och klicka sedan på **Lägg till ny uppdatering**.
+   ![](assets/add-update-on-widget.png)
+1. Börja skriva din kommentar.
+1. (Valfritt) I rutan **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, och markerar sedan användaren när den visas i listan.
+1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder i kommentaren för att förbättra innehållet.
+1. Klicka på **Skicka** för att lägga till kommentaren i arbetsposten.
 
-1. Klicka på **[!UICONTROL Update]**.
+   >[!IMPORTANT]
+   >
+   >Du kan bara redigera kommentaren inom 15 minuter från det att du skickat in den. Om du vill redigera en kommentar klickar du på menyn **Mer** i det övre högra hörnet av kommentaren och sedan på **Redigera**.
+
+Mer detaljerad information om hur du lägger till uppdateringar finns i [Lägga till en uppdatering för en arbetsuppgift](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Redigera en arbetsuppgift
 
 Du kan redigera alla fält på arbetsobjekt som du har tillgång till för redigering.
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
-1. Markera det objekt som du vill redigera i området **[!UICONTROL Work List]**.\
-   Alla fält som du har tillgång till för visning visas på den högra panelen.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Klicka på **Anpassa** om du vill lägga till någon av följande widgetar:
 
-1. Håll markören över det fält som du vill redigera i den högra panelen.\
-   Om du har behörighet att redigera fältet markeras fältet när du för muspekaren över det.
+   | Widget | Beskrivning |
+   |--------------|---------------------------------------------------------------------------------------------------|
+   | Varumärkena | Visar alla anslagstavlor som du har skapat eller har bjudits in att använda |
+   | Mitt arbete | Visar uppgifter och ärenden som du har tilldelats |
+   | Mina projekt | Visar projekt som du äger eller projekt som du arbetar med |
+   | Mina uppgifter | Visar uppgifter som tilldelats dig |
+   | Mina problem | Visar problem som du har tilldelats |
+   | Mina förfrågningar | Visar alla begäranden som du har skickat in |
+   | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-   ![](assets/home-350x123.png)
+1. Håll markören över arbetsobjektet och klicka sedan på ikonen **Sammanfattning** .
+   ![](assets/open-summary-new-home.png)
 
+1. Håll markören över det fält som du vill redigera på panelen Sammanfattning.
+Om du har behörighet att redigera fältet markeras fältet när du för muspekaren över det.
 1. Klicka på fältet som du vill redigera och gör sedan den önskade uppdateringen.
 1. Klicka utanför fältet för att spara ändringarna.

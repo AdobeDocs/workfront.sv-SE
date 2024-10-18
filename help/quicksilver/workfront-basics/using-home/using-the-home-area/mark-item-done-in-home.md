@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Markera ett objekt som färdigt i hemområdet
 description: Du kan markera en uppgift eller ett problem som Klar om du är den som tilldelats uppgiften eller utgåvan. När du markerar en uppgift eller ett problem som Klar ändras aktivitetens eller problemets status till Fullständig.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Du kan markera en uppgift eller ett problem som Klar om du är den som tilldelat
 >[!NOTE]
 >
 >Du kan inte se knappen [!UICONTROL Done] om du inte är en av de resurser som har tilldelats uppgiften eller problemet.
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 ## Åtkomstkrav
 
@@ -52,18 +54,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-## Markera en aktivitet eller ett problem som [!UICONTROL Done]
++++
 
-Det är bara användaren som är tilldelad uppgiften eller utgåvan som kan markera den som [!UICONTROL Done].
+## Markera en arbetsuppgift som Klar i widgeten Mitt arbete
 
 1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. I **[!UICONTROL Work List]** letar du reda på objekt som väntar på att bearbetas.
-1. Gör något av följande:
+1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
+1. Sök efter arbetsobjektet och klicka sedan på **[!UICONTROL Mark as Done]** på arbetsobjektet.
+Mer information om hur knappen kan visas finns i [Förstå alternativen för knappen [!UICONTROL Done]](#understand-the-options-of-the-done-button).
+   ![](assets/my-work-done.png)
 
-* Klicka på **[!UICONTROL Done]** på arbetsposten.\
-   Mer information om hur knappen kan visas finns i [Förstå alternativen för knappen [!UICONTROL Done]](#understand-the-options-of-the-done-button).
 
-* Markera det objekt som du vill markera som färdigt och klicka sedan på **[!UICONTROL Update Status]** i den högra panelen. Ändra sedan objektets status till en status som motsvarar [!UICONTROL Complete] eller [!UICONTROL Closed].
+## Markera ett arbetsobjekt som färdigt på sammanfattningspanelen
+
+Du kan markera ett arbetsobjekt som Klar i widgeten Mina uppgifter och Mina problem med hjälp av panelen Sammanfattning.
+
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgetarna **Mina uppgifter** eller **Mina problem**.
+1. Håll markören över arbetsobjektet och klicka sedan på ikonen **Sammanfattning** .
+   ![](assets/open-summary-new-home.png)
+1. Klicka på **Markera som färdig** längst upp på sammanfattningspanelen.
+
 
 ## Förstå alternativen för knappen [!UICONTROL Done]
 
@@ -81,7 +92,7 @@ Beroende på hur många statusvärden som är associerade med knappen [!UICONTRO
 
 När knappen [!UICONTROL Done] är kopplad till en status och arbetsobjektet endast är tilldelat dig, läses **[!UICONTROL Done]** in. När du klickar på den ändras aktivitetens eller problemets status till den status som är associerad med knappen [!UICONTROL Done].
 
-![Klar](assets/Done.png)
+![Klar](assets/done-button-status.png)
 
 Om du vill veta vilken status som är associerad med knappen [!UICONTROL Done] kan du kontrollera [!UICONTROL Team Settings] för ditt hemteam för avsnittet [!UICONTROL Done Button], vilket beskrivs i [Redigera teaminställningar](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
@@ -93,10 +104,6 @@ När knappen [!UICONTROL Done] är associerad med mer än en status visar knappe
 
 Mer information om hur du kan associera flera statusar med knappen [!UICONTROL Done] finns i [Konfigurera knappen [!UICONTROL Done] för aktiviteter](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) och [Konfigurera knappen [!UICONTROL Done] för problem](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
-<!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ### [!UICONTROL Done]-knapp för objekt som tilldelats flera resurser
 
 När aktiviteten eller problemet tilldelas till mer än en resurs visar knappen ordet **[!UICONTROL Done]** som följs av en nedrullningsbar meny. I den nedrullningsbara menyn kan du välja mellan **[!UICONTROL Done with my part]** (vilket gör att teammedlemmarna vet att du är klar med din del av uppgiften) eller den status som är associerad med knappen [!UICONTROL Done] (som slutför objektet). När du har valt **[!UICONTROL Done with my part]** tas arbetsobjektet bort från din arbetslista, men finns kvar i arbetslistan för de som fortfarande är tilldelade arbetsobjektet.\
@@ -106,4 +113,5 @@ Om Klar-knappen är kopplad till flera statusar visas de under **Klar med min de
 >
 >När det gäller en uppgift eller ett problem med flera tilldelningar är varje användare ansvarig för att ange att deras egen tilldelning av uppgiften eller utgåvan har slutförts. Därför måste varje tilldelad klicka på [!UICONTROL Done] för att visa att de har slutfört det arbete som tilldelats dem för artikeln.
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
+

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announ
 
 Vi har nu lagt till den nya kommentarsfunktionen i snabbåtgärdsknappen **Lägg till ny uppdatering** i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nya Hem.
 
-Mer information finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen
 

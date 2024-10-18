@@ -6,9 +6,9 @@ description: Den här sidan innehåller information om den kommande borttagninge
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vi vet dock att en sådan här förändring kan vara störande och vi vill hjäl
 
 **Vad kan jag använda istället?**
 
-* Nytt hem är redan tillgängligt som ersättning. Mer information om hur du använder nya Hem finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md). Den kan anpassas av både användare via personaliseringsalternativ och administratörer via layoutmallar.
+* Nytt hem är redan tillgängligt som ersättning. Mer information om hur du använder nya Hem finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md). Den kan anpassas av både användare via personaliseringsalternativ och administratörer via layoutmallar.
 
 * Prioriteringarna är under utveckling och kommer att fungera som en annan del av den smidigare arbetshanteringen i Adobe Workfront.
 
@@ -54,13 +54,13 @@ Vi rekommenderar administratörer:
 
 1. Tilldela om de andra användarna till den nya startsidans layout.
 
-Om du gör detta så snart som möjligt får användarna tid att anpassa sig till den nya upplevelsen och anpassa sina nya hemsidor efter sina egna behov. Se [Ta bort, lägga till och ordna om widgetar i nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) för information om hur en användare kan anpassa widgetarna på sin egen nya Hem-sida.
+Om du gör detta så snart som möjligt får användarna tid att anpassa sig till den nya upplevelsen och anpassa sina nya hemsidor efter sina egna behov. Se [Ta bort, lägga till och ordna om widgetar i nya Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) för information om hur en användare kan anpassa widgetarna på sin egen nya Hem-sida.
 
 ### Läs vad som finns i nya Home and Priority
 
 I följande artiklar finns information om vilka funktioner som är tillgängliga i nya Hem och Prioriteter:
 
-* [Gå från äldre startsida till ny startsida](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Gå från äldre startsida till prioriteter](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Följ hemupplevelsen när den utvecklas

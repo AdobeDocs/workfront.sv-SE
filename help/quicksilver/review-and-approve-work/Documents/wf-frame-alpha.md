@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,6 @@ Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla g
 
 Du kan fördjupa dig i kategorierna ovan för en mer detaljerad vy. Widgeten Alla godkännanden är tillgänglig på nya hempaneler och arbetsytans kontrollpaneler.
 
-Mer information finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Lås gransknings- och godkännandena när ett övergripande beslut har fattats
 

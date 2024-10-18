@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
 workflow-type: tm+mt
-source-wordcount: '3648'
+source-wordcount: '3650'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Tidrapporter innehåller den totala tiden för alla loggade datum. Helger inkluderas alltid, även när tidslinjeberäkningar har konfigurerats för att exkludera dem (enligt beskrivningen i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * Det maximala antalet objekt som visas i en tidrapport är 45. Om det finns fler än 45 objekt vars datum matchar tidsramen för tidrapporten visas endast de senast uppdaterade objekten.
 * Timposter som ingår i fakturerade faktureringsposter är nedtonade och kan inte redigeras i tidrapporten. Mer information finns i [Skapa faktureringsposter](../../manage-work/projects/project-finances/create-billing-records.md).
-* Personliga uppgifter visas inte som standard i tidrapporten. Personliga uppgifter visas bara i tidrapporten när de har loggat tid. När du har loggat tiden för en personlig uppgift kan du fästa uppgiften på tidrapporten och den kommer att finnas kvar på tidrapporten om den är fäst. Mer information finns i [Skapa arbetsobjekt från hemområdet](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* Personliga uppgifter visas inte som standard i tidrapporten. Personliga uppgifter visas bara i tidrapporten när de har loggat tid. När du har loggat tiden för en personlig uppgift kan du fästa uppgiften på tidrapporten och den kommer att finnas kvar på tidrapporten om den är fäst. Mer information finns i [Skapa arbetsobjekt och projekt från Hem-området](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Loggtid {#log-time-section}
 
@@ -335,7 +335,6 @@ Så här tar du bort ett objekt från tidrapporten som har lagts till manuellt:
 Du kan logga projektspecifik tid i Hem.
 
 Allmän information om hur du använder Hem-området finns i [Använda Hem-området](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
 
 <!--#### Log time on a work item from the new Home area-->
 

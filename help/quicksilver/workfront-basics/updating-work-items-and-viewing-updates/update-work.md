@@ -6,7 +6,7 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 0%
@@ -133,7 +133,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Från ett Workfront-objekt, i uppdateringsavsnittet (för projekt, uppgifter och ärenden)
    * Från hemområdet (för uppgifter och ärenden)
 
-     Mer information finns i [Hantera ditt arbete med widgeten Mitt arbete](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md).
+     Mer information finns i [Hantera ditt arbete med widgeten Mitt arbete](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
    * I panelen Sammanfattning i följande områden (för uppgifter, utgåvor och dokument):
 
       * En lista med objekt

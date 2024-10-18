@@ -5,9 +5,9 @@ description: Prioriteringarna är en smidig, intuitiv upplevelse som är skrädd
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Möjligheten att granska och godkänna mediefiler finns på prioriteringsplanen.
 
 För närvarande rekommenderar vi att du använder widgetarna Mitt godkännande och Alla godkännanden i Nytt hem.
 
-Mer information finns i [Lägg till, redigera och ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Mer information finns i [Lägga till, redigera eller ta bort widgetar i Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
 ## Använd [!DNL Catch me up] för att se vad du missade [!BADGE Kommer snart]{type=Informative}

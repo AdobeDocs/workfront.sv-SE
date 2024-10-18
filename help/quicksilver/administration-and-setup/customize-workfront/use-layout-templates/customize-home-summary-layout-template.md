@@ -1,25 +1,24 @@
 ---
-title: Anpassa hem och sammanfattning med en layoutmall
+title: Anpassa panelen Sammanfattning med en layoutmall
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i Hem och i Sammanfattning. Varje konfiguration som du gör enligt stegen nedan påverkar Hem- och Sammanfattningspanelen på samma sätt. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
+description: Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i sammanfattningen. Varje konfiguration som du gör enligt stegen nedan påverkar panelen Sammanfattning. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
+source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
-# Anpassa hem och sammanfattning med en layoutmall
+# Anpassa panelen Sammanfattning med hjälp av en layoutmall
 
-<span class="preview">Artikelns namn ändras till&quot;Anpassa panelen Sammanfattning med en layoutmall&quot; när äldre Hem tas bort från Workfront med Q4-versionen den 17 oktober. 2024.</span>
 
-Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i Hem och i Sammanfattning. Varje konfiguration som du gör enligt stegen nedan påverkar Hem- och Sammanfattningspanelen på samma sätt. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
+Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i sammanfattningen. Varje konfiguration som du gör enligt stegen nedan påverkar panelen Sammanfattning. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
 
 Du kan konfigurera
 
@@ -28,7 +27,7 @@ Du kan konfigurera
 
 Du kan också anpassa fälten som användarna ser i området Hem när användarna klickar på ett projektgodkännande, dokumentgodkännande eller godkännande av dokumentversion som de har tilldelats.
 
-Mer information om Hem-området finns i [Använda Hem-området](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -68,11 +67,11 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 +++
 
-## Anpassa hem och sammanfattning med en layoutmall
+## Anpassa panelen Sammanfattning med hjälp av en layoutmall
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Hem och sammanfattning**.
+1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Sammanfattningspanelen**.
 
 1. Klicka i listan till vänster på objekttypen (**Åtgärder**, **Problem**, **Projekt**, **Dokument** eller **Dokumentversioner**) som du vill anpassa i Hem och Sammanfattning.
 
@@ -82,23 +81,28 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
     <tbody> 
      <tr> 
       <td role="rowheader">Uppgifter</td> 
-      <td> <p>I Hem påverkar konfigurationen för den här inställningen området till höger om en uppgift när en användare klickar på uppgiften. I en lista över uppgifter påverkar den även panelen Sammanfattning som visas till höger på sidan när en användare väljer en åtgärd och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> <p>Du kan till exempel bestämma vilka fält som användare ska se i området Detaljer när användare väljer uppgifter i Hem:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>Och när de väljer en uppgift i sammanfattningen:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problem</td> 
-      <td> <p>I Hem påverkar konfigurationen för den här inställningen området till höger om ett problem när en användare klickar på problemet.</p> <p>I en lista över problem påverkar den här inställningen panelen Sammanfattning som visas på sidans högra sida när en användare väljer ett problem och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> </td> 
+      <td><p>I en lista över problem påverkar den här inställningen panelen Sammanfattning som visas på sidans högra sida när en användare väljer ett problem och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Projekt</td> 
-      <td>När en användare klickar på ett projektgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</td> 
+      <td><p>När en användare klickar på ett projektgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
+      <p>VIKTIGT: Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dokument</td> 
-      <td>När en användare klickar på ett dokumentgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</td> 
+      <td><p>När en användare klickar på ett dokumentgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
+      <p>VIKTIGT: Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dokumentversioner</td> 
-      <td>När en användare klickar på ett godkännande som tilldelats dem för en viss version av ett dokument i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</td> 
+      <td><p>När en användare klickar på ett godkännande som tilldelats dem för en viss version av ett dokument i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
+      <p>VIKTIGT: Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,7 +123,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. Upprepa steg 3-6 för att anpassa Hem- och Sammanfattningspanelen för andra objekttyper.
+1. Upprepa steg 3-6 för att anpassa panelen Sammanfattning för andra objekttyper.
 1. Klicka på **Globala inställningar**, nära det nedre vänstra hörnet, och aktivera eller inaktivera sedan något av följande alternativ för Adobe Workfront-objekt i Hem och Sammanfattning:
 
    <table style="table-layout:auto"> 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -61,5 +61,3 @@ Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla g
 * Försenade godkännanden
 
 Du kan fördjupa dig i kategorierna ovan för en mer detaljerad vy. Widgeten Alla godkännanden är tillgänglig på nya hempaneler och arbetsytans kontrollpaneler.
-
-Mer information finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

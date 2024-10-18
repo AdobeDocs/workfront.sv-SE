@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Skapa arbetsobjekt från startdelen
-description: Du kan skapa arbetsobjekt från området [!UICONTROL Home]. Du kan skapa personliga uppgifter för dig själv, begära arbete från andra användare eller lägga till uppgifter i specifika projekt.
-author: Nolan
+title: Skapa arbetsobjekt och projekt från Hem-området
+description: Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Home].
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
-# Skapa arbetsobjekt från startdelen
+# Skapa arbetsobjekt och projekt från Hem-området
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Home]. Från Hem kan du
 
-Du kan skapa arbetsobjekt från området [!UICONTROL Home]. Du kan skapa personliga uppgifter för dig själv, begära arbete från andra användare eller lägga till uppgifter i specifika projekt.
+* Skapa personliga uppgifter för dig själv
+* Skicka begäranden
+* Lägga till uppgifter och problem i specifika projekt
+* Skapa projekt från en mall, ett tomt projekt eller importera ett MS-projekt.
 
 ## Åtkomstkrav
 
@@ -51,71 +52,117 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-## Skapa en personlig uppgift
+## Skapa ett personligt att göra-objekt
 
-Du kan skapa en personlig uppgift som bara är tillgänglig för dig i området [!UICONTROL Home]:
-
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. Klicka på **[!UICONTROL New Task]** > **[!UICONTROL Personal]**.
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. Ange ett namn för aktiviteten i fältet **[!UICONTROL Name]**.
-1. (Valfritt) Klicka på **[!UICONTROL Select date]** och välj sedan det datum då uppgiften förfaller. Detta anger [!UICONTROL Planned Completion Date] för aktiviteten.\
-   Du kan ändra **[!UICONTROL Planned Completion Date]** genom att klicka på datumet i den högra panelen eller redigera **[!UICONTROL This will be done by]**-datumet direkt i uppgiften.
-
-1. Klicka på **[!UICONTROL Create]** för att spara uppgiften.\
-   Uppgiften har tilldelats dig och är tillgänglig i området [!UICONTROL Home].
-
->[!NOTE]
->
->* När du skapar en personlig uppgift lagras den i ett dolt projekt som inte är sökbart i [!UICONTROL Workfront]. Projektet heter &quot;&lt; Användarnamn > Uppgifter&quot;. &quot;Användarnamn&quot; är det fullständiga namnet på den användare som skapade uppgiften. Du kan bara komma åt det här projektet om du klickar på den personliga uppgiften i området [!UICONTROL Home], till exempel från uppgiftens vägbeskrivningar.
->
->* Till skillnad från vanliga projektuppgifter har personliga uppgifter en begränsad uppsättning fält som visas i Workfront-gränssnittet och påverkar inte tidslinjen eller förloppet för något projekt. Om du tilldelar en personlig uppgift till en annan användare, läggs alla uppgiftsfält till i en personlig uppgift, men uppgiften blir kvar i det personliga projektet för den användare som skapade uppgiften.
->
->
->* Personliga uppgifter visas bara på tidrapporter när de har loggat timmar eller när de är fästa på tidrapporten. Du kan bara fästa en personlig uppgift på en tidrapport när det finns timmar loggade för uppgiften. Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
-> 
->* Vi rekommenderar att du skapar ett projekt och flyttar alla personliga uppgifter till det om du vill göra personliga uppgifter till en del av det vanliga arbetsflödet.
->
-> ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
-
-## Begär arbete från en annan användare
-
-Du kan begära arbete från en annan användare direkt från hemområdet. När du begär arbete från en annan användare enligt beskrivningen i det här avsnittet, visas uppgiften som en begäran i användarens hemområde tills användaren klickar på **[!UICONTROL Work On It]**.
-
-Så här begär du arbete från en annan användare från området [!UICONTROL Home]:
+Du kan skapa ett personligt att göra-objekt som bara är tillgängligt för dig i [!UICONTROL Home]-området:
 
 1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. Klicka på **[!UICONTROL New Task]** och välj sedan **[!UICONTROL Request]**.
+1. (Villkorligt) Lägg till att göra-widgeten på hemskärmen. Klicka på **Anpassa** och sök efter **Att göra**.
+1. Gå till widgeten **Att göra** och klicka sedan på **Lägg till att göra**.
+1. Skriv
+1. (Valfritt) Klicka på ikonen **Datum** ![](assets/date-icon.png) för att lägga till ett förfallodatum för objektet.
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. Ange ett namn för aktiviteten i fältet **[!UICONTROL Name]**.
-1. I fältet **[!UICONTROL Assign to]** börjar du skriva namnet på den användare, det team eller den roll som du vill tilldela och klickar sedan på namnet när det visas i listrutan.
-1. I listrutan [!UICONTROL Add As] väljer du om du vill lägga till en uppgift eller ett problem.
-1. Klicka på **[!UICONTROL Select date]** och välj sedan datum och tid när uppgiften förfaller.
-1. Klicka på **[!UICONTROL Create]** för att spara uppgiften.\
-   Uppgiften visas som en arbetsförfrågan i området [!UICONTROL Home] för den användare du har angett.
 
-## Lägga till en aktivitet eller ett problem i ett projekt
+## Lägga till en uppgift i ett projekt
 
-Du kan lägga till en uppgift eller ett problem i ett befintligt projekt direkt från Hem-området:
+Du kan lägga till en uppgift i ett befintligt projekt direkt från Hem-området:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Hem**.
-1. Klicka på **[!UICONTROL New Task]** och välj sedan **[!UICONTROL Project Task]**.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Lägg till widgeten **Mina uppgifter** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina uppgifter**.
+1. Gå till widgeten **Mina uppgifter** och klicka sedan på **Nytt**.
+   ![](assets/create-new-task.png)
+1. Ange aktivitetsnamnet i dialogrutan **Ny aktivitet**.
+1. Börja skriva ett projektnamn och välj sedan namnet i listan.
+1. (Valfritt) Ange information i följande fält:
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | Fält | Instruktioner |
+   |----------|----------|
+   | **Beskrivning** | Ange en beskrivning. |
+   | **Uppdrag** | Tilldela användare. |
+   | **Varaktighet** | Ange längden. |
+   | **Planerat slutförandedatum** | Välj ett planerat slutförandedatum. |
+   | **Fler alternativ** | Välj fler alternativ för att konfigurera fler inställningar för aktiviteten. Mer information om hur du skapar uppgifter finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). |
 
-1. I fältet **[!UICONTROL Name]** anger du ett namn för aktiviteten eller problemet.
-1. I fältet **[!UICONTROL Assign to]** börjar du skriva namnet på den användare, det team eller den roll som du vill tilldela och klickar sedan på namnet när det visas i listrutan.
-1. Börja skriva namnet på det projekt där du vill skapa uppgiften eller problemet och klicka sedan på namnet när det visas i listrutan.
+1. Klicka på **Skapa uppgift**.
 
-   >[!IMPORTANT]
-   >
-   >Aktiviteten eller problemet visas bara på [!UICONTROL Work List] när projektet [!UICONTROL Status] är inställt på [!UICONTROL Current].
 
-1. (Villkorligt) Om du vill skapa ett problem väljer du **[!UICONTROL Issue]** i listrutan **[!UICONTROL Add As]**. Som standard är **[!UICONTROL Task]** markerat.
+## Lägga till en utgåva i ett projekt
 
-1. Klicka på **[!UICONTROL Select date]** och välj sedan datum och tid när uppgiften förfaller.
-1. Klicka på **[!UICONTROL Create]** för att spara uppgiften.
+Du kan lägga till ett problem i ett befintligt projekt direkt från Hem-området:
+
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Lägg till widgeten **Mina problem** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina problem**.
+1. Gå till widgeten **Mina problem** och klicka sedan på **Nytt**.
+   ![](assets/create-new-issue.png)
+1. I dialogrutan **Nytt problem** börjar du skriva ett projektnamn och väljer sedan namnet i listan.
+1. Ange ett problemnamn.
+1. (Valfritt) Ange information i följande fält:
+
+   | Fält | Instruktioner |
+   |----------|----------|
+   | **Beskrivning** | Ange en beskrivning. |
+   | **Uppdrag** | Tilldela användare. |
+   | **Prioritet** | Välj en prioritetsnivå. |
+   | **Dokument** | Överför ett dokument. |
+
+1. Klicka på **Spara nytt problem**.
+
+## Skapa en förfrågan
+
+Du kan skapa en begäran direkt från Hem-området:
+
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Lägg till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
+1. Gå till widgeten **Mina förfrågningar** och klicka sedan på **Nytt**.
+   ![](assets/create-new-request.png)
+
+1. I dialogrutan **Ny begäran** börjar du skriva namnet på begärandekön.
+1. Fyll i relevanta fält.
+1. Klicka på **Skicka**.
+
+Mer information om hur du skickar begäranden finns i [Skapa och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Skapa ett projekt
+
+Du kan skapa ett projekt direkt från Hem-området:
+
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Lägg till widgeten **Mina projekt** på startskärmen. Klicka på **Anpassa** och sök efter **Mina projekt**.
+1. Gå till widgeten **Mina projekt** och klicka sedan på **Nytt**.
+   ![](assets/create-new-project.png)
+1. Välj något av följande alternativ:
+
+   | Fält | Instruktioner |
+   |----------|----------|
+   | Från en mall | Gå till [Skapa ett projekt med en mall](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) om du vill ha detaljerade anvisningar om hur du skapar ett projekt från en mall. |
+   | Tomt projekt | Gå till [Skapa ett projekt från grunden](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) om du vill ha detaljerade anvisningar om hur du skapar ett tomt projekt. |
+   | Importera MS-projekt | Gå till [Importera ett projekt från Microsoft Project](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) om du vill ha detaljerade anvisningar om hur du importerar ett MS-projekt. |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

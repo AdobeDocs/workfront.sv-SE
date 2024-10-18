@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
+source-git-commit: c243aafc5d62fdd5ed2f209fe963e92f2548965c
 workflow-type: tm+mt
-source-wordcount: '14529'
+source-wordcount: '14514'
 ht-degree: 0%
 
 ---
@@ -894,22 +894,18 @@ ht-degree: 0%
       * [Lägga till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * Hem {#home}
       * [Startsida](workfront-basics/using-home/home.md)
-      * Nytt hem {#new-home}
-         * [Nytt hem](workfront-basics/using-home/new-home/new-home.md)
-         * [Kom igång med Nytt hem](workfront-basics/using-home/new-home/get-started-with-new-home.md)
-         * [Lägga till, redigera eller ta bort widgetar i Nytt hem](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-         * [Översikt över nya filter i widgeten Hem](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
-         * [Hantera ditt arbete med widgeten Mitt arbete](workfront-basics/using-home/new-home/my-work-widget.md)
       * Använd hemområdet {#use-home-area}
          * [Använda området Hem](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [Gå från äldre startsida till ny startsida](workfront-basics/using-home/new-home/move-to-new-home.md)
          * [Gå från äldre startsida till prioriteter](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Kom igång med Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+         * [Lägga till, redigera eller ta bort widgetar i Nytt hem](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Visa objekt i arbetslista i hemområdet](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+         * [Översikt över filter för hemwidget](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [Hantera ditt arbete med widgeten Mitt arbete](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [Prioritera arbetet i hemområdet](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [Hantera arbets- och teamförfrågningar på Hem-området](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Uppdatera eller redigera en arbetsuppgift i hemområdet](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-         * [Skapa arbetsobjekt från startdelen](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [Skapa arbetsobjekt och projekt från Hem-området](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [Logga tid på ett arbetsobjekt från hemområdet](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Markera ett objekt som färdigt i hemområdet](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Vyn Hemkalender](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)

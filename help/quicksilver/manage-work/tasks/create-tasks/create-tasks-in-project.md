@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Du kan bara skapa uppgifter i ett projekt efter att du har skapat projektet.
 
 När du har skapat ett projekt kanske du vill lägga till uppgifter och ändra dem för att ordna projektplanen. Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-Mer information om hur du skapar personliga uppgifter som inte finns i ett projekt finns i avsnittet [Skapa en personlig uppgift](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) i artikeln [Skapa arbetsobjekt från startdelen](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Mer information om hur du skapar personliga uppgifter som inte finns i ett projekt finns i avsnittet [Skapa en personlig uppgift](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) i artikeln [Skapa arbetsobjekt och projekt från Hem](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 I den här artikeln beskrivs hur du skapar åtgärder från grunden. Du kan också skapa uppgifter på följande sätt:
 

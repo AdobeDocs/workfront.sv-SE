@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Använda området Mina uppdateringar
 description: Du kan använda området [!UICONTROL My Updates] för att snabbt granska godkännanden som väntar på ditt beslut eller konversationer som du har inkluderats i.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
 
 # Använd området [!UICONTROL My Updates]
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 Du kan använda området [!UICONTROL My Updates] för att snabbt granska godkännanden som väntar på ditt beslut eller konversationer som du har inkluderats i.
 
@@ -28,6 +25,8 @@ Mer information om [!DNL Adobe Workfront] licenser finns i [[!DNL Adobe Workfron
 Om du har en annan licenstyp än Granska måste [!DNL Workfront]- eller gruppadministratören lägga till området [!UICONTROL My Updates] i layoutmallen för att kunna visa det på huvudmenyn. Mer information finns i [Anpassa [!UICONTROL Main Menu] med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -57,6 +56,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 *Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

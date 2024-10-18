@@ -4,9 +4,9 @@ description: Första kvartalet 2024, förbättringar av startsidan
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 För att göra det enklare för dig att se status för godkännanden och granskningar av projekt som du äger har vi lagt till en ny widget för väntande godkännanden i Hem. Här visas en lista över användare som har tilldelats behörighet att godkänna eller granska dokument i projekt som du äger, hur de ser på granskningen eller godkännandet och en påminnelse till granskare och godkännare att slutföra granskningen eller godkännandet.
 
-Mer information om Home-widgetar finns i [Kom igång med nya Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Administratörskontroller för nya Hem med layoutmallar
 
@@ -34,5 +33,3 @@ Mer information finns i [Anpassa nytt hem med en layoutmall](/help/quicksilver/a
 ## Snabbåtgärdsknapparna för Mitt arbete har ändrats så att de bara visas när du för musen över
 
 För att förbättra prestandan visas nu snabbåtgärdsknapparna i widgeten Mitt arbete endast när du håller muspekaren över en arbetsuppgift.
-
-Mer information om snabbåtgärdsknapparna i widgeten Mitt arbete finns i [Kom igång med nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

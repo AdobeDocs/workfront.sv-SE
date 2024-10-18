@@ -6,9 +6,9 @@ description: Godkänna arbete
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -66,68 +66,75 @@ Mer information om hur du visar objekt som väntar på godkännanden eller objek
 
 ## Godkänn arbete från startsidan
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mina godkännanden**.
+1. (Villkorligt) Klicka på listrutan **Filter** och välj sedan **Alla** för att visa godkännanden som tilldelats och delegerats till dig.
 
    >[!NOTE]
    >
-   >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
-   >
-   >   
-   >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
+   >Godkännanden som tilldelats till jobbroller eller grupper visas inte i Hem. Godkännanden som tilldelats team visas i widgeten Mina godkännanden för varje teammedlem.
 
-1. Klicka på listrutan **Filter**.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. Välj **Godkännanden**.\
-   Alla arbetsobjekt som kräver ditt godkännande visas. 
-
-   >[!NOTE]
-   >
-   >Godkännanden som tilldelats till jobbroller eller grupper visas inte i Hem. Godkännanden som tilldelats team visas i grupperingen Teambegäran i arbetslistan.
-
-1. (Valfritt) Ändra den ordning i vilken godkännanden visas, enligt beskrivningen i avsnittet Gruppera och sortera efter datum, projekt eller prioritet i artikeln [Visa objekt i arbetslistan i hemområdet](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 1. Markera objektet där du vill fatta ett beslut om godkännande.
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. Klicka på ett av de tillgängliga alternativen när du ska fatta ett beslut om godkännande på den högra panelen. Följande alternativ visas i det övre högra hörnet av sidan, beroende på vilken typ av objekt du godkänner:
 
-   * **Projekt:** Klicka på **Godkänn** eller **Avvisa**.
+   <table>
+   <tr>
+      <td>
+      <p><strong>Åtkomst</strong></p>
+      </td>
+      <td>
+      <p><strong>Arbetsobjekt</strong></p>
+      </td>
+      <td>
+      <p><strong>Dokument</strong></p>
+      </td>
+      <td>
+      <p><strong>Korrektur</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>Bidrag</li>
+      <li>Ignorera</li>
+      </ul>
+      Du kan justera åtkomstnivån i listrutan <b>Ändra åtkomst</b> om du vill.
+      </td>
+      <td>
+         <ul>
+         <li>Godkänn</li>
+         <li>Avvisa</li>
+         </ul>
+      Du kan lämna en kommentar med ditt beslut genom att klicka på listrutan i beslutsknappen.
+      </td>
+      <td>
+   Tilldelad som godkännare
+         <ul>
+         <li>Godkänn</li>
+         <li>Godkänn med ändringar</li>
+         <li>Behöver göras</li>
+         </ul>
+   Tilldelad som granskare
+         <ul>
+         <li>Slutför min granskning</li>
+         </ul>
+      Alternativen i den här kolumnen gäller endast för godkännanden av nya dokument. Godkännanden av äldre dokument visas på samma sätt som godkännanden av arbetsobjekt. 
+      </td>
+      <td>
+         <ul>
+         <li>Gå till korrektur</li>
+         </ul>
+         Du fattar ditt beslut i korrekturläsaren. Mer information om hur du granskar korrektur finns i <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Granska korrektur i Adobe Workfront</a>.
+      </td>
+   </tr>
+   </table>
 
-   * **Uppgifter:** Klicka på **Godkänn** eller **Avvisa** .
+När du har fattat ett beslut tas godkännandet bort från widgeten Mitt godkännande.
 
-   * **Problem:** Klicka på **Godkänn** eller **Avvisa** .
-
-   * **Tidrapporter:** Klicka på **Godkänn** eller **Avvisa** .
-
-   * **Dokument:** Klicka på **Godkänn**, **Avvisa** eller **Ändringar**.\
-      Tänk på följande när du visar  godkännanden:
-
-      * Bevisgodkännanden visas här när en användare delar ett korrektur med dig, vilket beskrivs i avsnittet Dela en korrekturlänk i artikeln [Dela ett korrektur i Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * Språkgodkännanden visas bara i hemmet om din Workfront-miljö är integrerad med ett Workfront Proof Premium-konto. Om du inte kan använda korrektur som beskrivs här kontaktar du Workfront-administratören.
-      * Du får ett meddelande i appen som meddelar dig om korrekturgodkännandet.\
-        Mer information om meddelanden i appen finns i [Visa och hantera meddelanden i appen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
-
-      * Namnet på den användare som begärde godkännandet visas bredvid miniatyrbilden i området Hem, med följande text:\
-        &quot;*Användare A* vill ha ditt godkännande den..&quot;
-
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
-
-        Om användarnamnet inte är tillgängligt visas följande text:\
-        &quot;En ny version av ett korrektur är klar att visas&quot;
-      * Klicka på **Gå till korrektur**, **Slutför granskning** och sedan på ett av de tillgängliga alternativen om du vill fatta ett beslut om godkännande av korrekturet. De tillgängliga alternativen vid godkännande av korrektur är: **Godkänd**, **Godkänd med ändringar**, **Ändringar krävs** och **Inte relevant**.
-
-      * När du har bestämt dig för korrekturet finns det kvar på fliken Mina godkännanden med texten &quot;Beslutsfattad&quot; tills du klickar på knappen **Uppdatera** eller tills du uppdaterar webbläsarsidan.
-
-        Mer information om hur du granskar korrektur finns i [Granska korrektur i Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-
-   * **Åtkomst:** Välj åtkomstnivå i listrutan **Ändra åtkomst** och klicka sedan på **Bevilja åtkomst**. Du kan också klicka på **Ignorera**.
 
 ## Godkänn arbete direkt från ett projekt, en uppgift eller ett ärende
 
