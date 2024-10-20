@@ -6,9 +6,9 @@ description: Du kan skapa kontrollpaneler för att snabbt komma åt information 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,13 @@ Du kan lägga till befintliga externa sidor på en kontrollpanel eller skapa en 
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Sök efter rapporter, kalendrar eller externa sidor i fältet **Sök efter namn eller typ ...** och dra dem sedan till layoutfönstret när de visas i listan.
+1. I avsnittet **Tillgängliga rapporter och kalendrar** börjar du skriva namnet på en rapport, kalender eller extern sida i sökfältet. Dra sedan rapporten, kalendern eller den externa sidan i layoutfönstret till höger.
 
    >[!NOTE]
    >
    >När du söker efter ett objekt returneras de 2 000 senast skapade rapporterna. Rapportnamn som innehåller Unicode-tecken returneras inte i sökresultaten. Det är en god vana att undvika att ta med Unicode-tecken när du namnger objekt i Workfront genom att skriva namn i stället för att kopiera och klistra in namn från en annan källa.
 
-   ![Sök efter rapporter](assets/qs-new-dashboard-ui-0722.png)
+   ![Sök efter rapporter](assets/unshimmed-dashboard-ui.png)
 
 1. (Valfritt) Klicka på **Lägg till extern sida** om du vill lägga till en ny extern sida på instrumentpanelen.
 

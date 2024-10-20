@@ -6,9 +6,9 @@ description: Syftet med kontrollpanelen är att ge snabb åtkomst till informati
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
    * **Namn**: Redigera namnet på instrumentpanelen.
    * **Beskrivning**: Ange en beskrivning för instrumentpanelen.
 
-1. I avsnittet **Tillgängliga rapporter** börjar du skriva namnet på en rapport eller en extern sida i fältet **Sök efter namn eller typ ...** och drar och släpper sedan rapporten i layoutfönstret till höger.
+1. I avsnittet **Tillgängliga rapporter och kalendrar** börjar du skriva namnet på en rapport, kalender eller extern sida i sökfältet. Dra sedan rapporten, kalendern eller den externa sidan i layoutfönstret till höger.
 
    >[!NOTE]
    >
