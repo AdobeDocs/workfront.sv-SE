@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Sammanfattningspanelen**.
 
-1. Klicka i listan till vänster på objekttypen (**Åtgärder**, **Problem**, **Projekt**, **Dokument** eller **Dokumentversioner**) som du vill anpassa i Hem och Sammanfattning.
+1. Klicka i listan till vänster på objekttypen (**Åtgärder**, **Problem**, **Projekt**, **Dokument** eller **Dokumentversioner**) som du vill anpassa på panelen Sammanfattning.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Villkorligt) Om listrutan **Ange primär åtgärd** visas (om du väljer **Åtgärder** eller **Problem** i listan till vänster) klickar du på den primära åtgärd (**Klar** eller **Status**) som du vill ska vara tillgänglig för användare i hemområdet och på sammanfattningspanelen när de visar en uppgift eller ett problem.
+1. (Villkorligt) Om listrutan **Ange primär åtgärd** visas (om du väljer **Åtgärder** eller **Problem** i listan till vänster) klickar du på den primära åtgärd (**Klar** eller **Status**) som du vill ska vara tillgänglig för användare på sammanfattningspanelen när de visar en uppgift eller ett problem.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Upprepa steg 3-6 för att anpassa panelen Sammanfattning för andra objekttyper.
-1. Klicka på **Globala inställningar**, nära det nedre vänstra hörnet, och aktivera eller inaktivera sedan något av följande alternativ för Adobe Workfront-objekt i Hem och Sammanfattning:
+1. Klicka på **Globala inställningar**, nära det nedre vänstra hörnet, och aktivera eller inaktivera sedan något av följande alternativ för Adobe Workfront-objekt i sammanfattningen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
     <tbody> 
      <tr> 
       <td role="rowheader">Visa uppdateringar för arbete</td> 
-      <td>Visar alla uppdateringar som gjorts för en vald uppgift eller ett valt problem i Hem eller Sammanfattning. Detta omfattar både systemuppdateringar och uppdateringar som görs av en användare. Användare kan fortfarande filtrera bort systemuppdateringar enligt beskrivningen i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Aktivera eller inaktivera systemuppdateringar</a> i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Uppdateringsarbete</a>.</td> 
+      <td>Visar alla uppdateringar som gjorts för en vald uppgift eller ett valt problem på panelen Sammanfattning. Detta omfattar både systemuppdateringar och uppdateringar som görs av en användare. Användare kan fortfarande filtrera bort systemuppdateringar enligt beskrivningen i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Aktivera eller inaktivera systemuppdateringar</a> i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Uppdateringsarbete</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Logga tid för arbete</td> 
@@ -140,16 +140,16 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
      </tr> 
      <tr> 
       <td role="rowheader">Visa dokument som är kopplade till arbetet</td> 
-      <td>Visar ett dokumentområde i Hem och Sammanfattning när en uppgift eller utgåva har valts, med en lista över eventuella dokument som har kopplats till uppgiften eller utgåvan. Användarna kan klicka på dokumenten för att visa dem i ett förhandsgranskningsfönster.</td> 
+      <td>Visar ett dokumentområde på panelen Sammanfattning när en uppgift eller ett problem har valts, med en lista över eventuella dokument som har kopplats till uppgiften eller problemet. Användarna kan klicka på dokumenten för att visa dem i ett förhandsgranskningsfönster.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dölj tidsstämpel</td> 
-      <td>Döljer tidsstämplar för följande datumfält i Hem och Sammanfattning:
+      <td>Döljer tidsstämplar för följande datumfält på panelen Sammanfattning:
        <ul>
         <li>Planerat slutförandedatum</li>
         <li>Bekräftelsedatum</li>
         <li>Skickat den</li>
-       </ul><p><b>OBS</b>:</p> <p> När det här alternativet är aktiverat flyttas arbetsobjekt som blivit förfallna till grupperingen Sent i hemarbetslista baserat enbart på datum, inte tid.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

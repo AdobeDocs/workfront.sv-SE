@@ -3,21 +3,21 @@ title: Anpassa nytt hem med en layoutmall
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Du kan använda en layoutmall för att konfigurera vad användarna ser när de öppnar nya Hem.
+description: Du kan använda en layoutmall för att konfigurera vad användarna ser när de öppnar Home.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
 
-# Anpassa nytt hem med en layoutmall
+# Anpassa startsidan med en layoutmall
 
-Du kan använda en layoutmall för att konfigurera vad användarna ser när de öppnar nya Hem första gången.
+Du kan använda en layoutmall för att konfigurera vad användarna ser när de först öppnar Home.
 
 Du kan konfigurera
 
@@ -33,7 +33,7 @@ Du kan konfigurera
 
 
 
-Mer information om nya Hem finns i [Kom igång med Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Mer information om startsidan finns i [Kom igång med startsidan](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -73,9 +73,9 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 +++
 
-## Anpassa nytt hem med en layoutmall
+## Anpassa startsidan med en layoutmall
 
-Så här anpassar du Nytt hem med en layoutmall:
+Så här anpassar du startsidan med en layoutmall:
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -91,13 +91,13 @@ Så här anpassar du Nytt hem med en layoutmall:
       <td role="rowheader">Design och layout</td> 
       <td>
       <p>Välj vilka widgetar som ska finnas på användarens arbetsytor, deras position och välj en bakgrund. Observera att även om användare inte kan ta bort de markerade widgetarna kan de flytta och ändra storlek på dem fritt samt lägga till ytterligare widgetar.</p>
-      <p>Den här fliken fungerar i stort sett som en liten ny hemarbetsyta. Den kan därför anpassas enligt stegen som beskrivs i <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Lägg till, redigera och ta bort widgetar i hemmet</a>. Välj widgetar och ordna arbetsytan så som du vill att den ska visas för användarna.</p>
+      <p>Den här fliken fungerar i stort sett som en liten hemarbetsyta. Därför kan den anpassas enligt stegen som beskrivs i <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Lägg till, redigera eller ta bort widgetar i hemmet</a>. Välj widgetar och ordna arbetsytan så som du vill att den ska visas för användarna.</p>
       <p>Om du vill ändra bakgrunden följer du stegen under <b>Bakgrundsanpassning</b> i <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Kom igång med Hem</a>.</p>
       <p>
 
 >[!NOTE]
 >
->Det är bara när du flyttar eller ändrar storlek på widgetar i layoutmallen som användarna inte längre behöver uppdatera sin layout på hemsidorna. Om du lägger till eller tar bort en widget kommer dock en uppdatering av användarnas sidor att utlösas.
+>Det är bara när du flyttar eller ändrar storlek på widgetar i layoutmallen som användarna inte behöver uppdatera sin layout på hemsidorna. Om du lägger till eller tar bort en widget kommer dock en uppdatering av användarnas sidor att utlösas.
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ Så här anpassar du Nytt hem med en layoutmall:
 
 >[!IMPORTANT]
 >
->Användarna måste ha minst behörigheten Skapa för vyer för att administratörskolumnen ska kunna användas korrekt på de nya hemsidorna.
+>* Alternativen Filter, Kolumner och Grupp är länkade till alternativen för listanpassning i layoutmallen. Ändringar som görs här gäller även för dessa inställningar.
+>* Användarna måste ha minst behörigheten Skapa för vyer för att administratörskolumnen ska kunna användas korrekt på hemsidorna.
 
 </p>
       <li><p><b>Ange ett standardfilter eller en standardgrupp för widgeten:</b></p>
@@ -147,4 +148,4 @@ Så här anpassar du Nytt hem med en layoutmall:
 
 >[!IMPORTANT]
 >
->Du måste uppdatera den nya hemsidan för att kunna se anpassningar från layoutmallen.
+>Du måste uppdatera hemsidan för att kunna se anpassningar från layoutmallen.
