@@ -5,9 +5,9 @@ description: Du kan använda panelen Sammanfattning för att granska och uppdate
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -187,9 +187,7 @@ Använd avsnittet [!UICONTROL Documents] i [!UICONTROL Summary] om du vill visa 
 
 Använd avsnittet [!UICONTROL Details] i [!UICONTROL Summary] om du vill visa högnivåinformation om arbetsobjekt, göra tilldelningar eller lägga till startdatum. Klicka på **[!UICONTROL See all]** om du vill gå direkt till fliken [!UICONTROL Details] för uppgiften eller problemet.
 
->[!NOTE]
->
->Fälten som visas i det här avsnittet är samma fält som visas på den högra panelen i Hem. Du kan anpassa fälten [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
 
 ![Avsnittet Information på sammanfattningspanelen](assets/summary-details-section.png)
 

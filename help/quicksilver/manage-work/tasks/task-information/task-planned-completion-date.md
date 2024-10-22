@@ -7,9 +7,9 @@ description: Det planerade slutförandedatumet för en aktivitet är det datum d
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Det planerade slutförandedatumet för en aktivitet är det datum då aktiviteten är inställd på att slutföras.
 
-Du kan antingen ange planerat slutförandedatum för en aktivitet eller låta Adobe Workfront beräkna det utifrån vissa kriterier. 
+Du kan antingen ange planerat slutförandedatum för en aktivitet eller låta Adobe Workfront beräkna det utifrån vissa kriterier.
 
-Planerade slutförandedatum för aktiviteter i ett projekt bestämmer det planerade slutförandedatumet för ett projekt när projektet schemaläggs från startdatumet. Mer information om projektets planerade slutförandedatum finns i [Ange projektets planerade slutförandedatum](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Planerade slutförandedatum för aktiviteter i ett projekt bestämmer det planerade slutförandedatumet för ett projekt när projektet schemaläggs från startdatumet. Mer information om projektets planerade slutförandedatum finns i [Ange projektets planerade slutförandedatum](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -38,19 +38,19 @@ Planerade slutförandedatum för aktiviteter i ett projekt bestämmer det planer
 
 Du måste ha behörigheterna Redigera och Hantera för aktiviteten för att kunna uppdatera aktivitetens planerade slutförandedatum.
 
-Inställningen för planerat slutförandedatum för en uppgift beror på vilken typ av uppgiftsbegränsning du tilldelar uppgiften. 
+Inställningen för planerat slutförandedatum för en uppgift beror på vilken typ av uppgiftsbegränsning du tilldelar uppgiften.
 
 Du kan ställa in det planerade slutförandedatumet manuellt i följande områden i Workfront:
 
-* I rutan Redigera uppgift när du skapar eller redigerar en uppgift. Mer information finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* I rutan Redigera uppgift när du skapar eller redigerar en uppgift. Mer information finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * I området Uppgiftsinformation. Mer information finns i [Hantera aktivitetsinformation i området Översikt över aktivitetsinformation](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
-* I området Hem om Planerat slutförandedatum visas när du visar en uppgift. Mer information finns i [Uppdatera eller redigera ett arbetsobjekt i hemområdet](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* I området Hem om det planerade slutförandedatumet visas när du visar en åtgärd på panelen Sammanfattning. Mer information finns i [Uppdatera eller redigera ett arbetsobjekt i hemområdet](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * I uppgiftshuvudet. Mer information finns i [Nya objektrubriker](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * I en uppgiftslista eller rapport när fältet Planerat slutförandedatum visas i vyn.
 
   Mer information finns i [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-Du kan ange planerat slutförandedatum manuellt när du väljer något av följande åtgärdsbegränsningar: 
+Du kan ange planerat slutförandedatum manuellt när du väljer något av följande åtgärdsbegränsningar:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -96,7 +96,7 @@ När det beräknas automatiskt av systemet kan följande påverka det planerade 
 
 * Den tid som är associerad med godkännandeinställningar om aktiviteten är associerad med ett godkännande. Mer information finns i [Konfigurera globala inställningar för godkännande](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-När detta anges automatiskt bestäms det planerade slutförandedatumet utifrån följande beräkning: 
+När detta anges automatiskt bestäms det planerade slutförandedatumet utifrån följande beräkning:
 
 ```
 Planned Completion Date = Planned Start Date + Duration
@@ -106,5 +106,5 @@ Om aktiviteten till exempel har startdatumet 16 september och varaktigheten 10 d
 
 >[!NOTE]
 >
-> Uppdateringstypen för projektet måste ställas in på Automatisk och Vid ändring eller Automatiskt för att de planerade timmarna och varaktigheten ska kunna justeras automatiskt.\
+> Uppdateringstypen för projektet måste ställas in på Automatisk och Vid ändring eller Automatiskt för att de planerade timmarna och varaktigheten ska kunna justeras automatiskt.\
 >Mer information om uppdateringstypen finns i artikeln [Välja projekttyp](../../../manage-work/projects/manage-projects/select-project-update-type.md).

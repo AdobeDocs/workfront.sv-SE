@@ -6,9 +6,9 @@ description: Du kan uppdatera procentandelen färdigt för en uppgift för att a
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 
 * **Hem**: Du kan uppdatera procentandelen färdigt för en uppgift eller ett problem från panelen Sammanfattning i Hem eller från widgeten Mitt arbete.
 
-Mer information finns i [Komma igång med nya Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Mer information finns i [Komma igång med Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Att tänka på när du uppdaterar procentandelen färdigt för en uppgift
 

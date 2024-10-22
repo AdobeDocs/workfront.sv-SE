@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!TIP]
      >
-     >Som standard visar Hem-ikonen på huvudmenyn området Mina uppdateringar för användare av granskningslicenser (i den aktuella licensplanen), såvida de inte har en layoutmall som är kopplad till deras profil som innehåller området Mina uppdateringar på huvudmenyn, utöver området Hem.
+     >Som standard visas området Mina uppdateringar i hemikonen på huvudmenyn för dem som granskar licensen (i den aktuella licensplanen), såvida de inte har en layoutmall kopplad till sin profil som innehåller området Mina uppdateringar på huvudmenyn, utöver området Hem.
 
    * Portfolio
    * Program

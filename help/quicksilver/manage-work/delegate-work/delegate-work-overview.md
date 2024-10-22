@@ -7,9 +7,9 @@ description: När du planerar att vara borta från kontoret under en kort period
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Tänk på följande när du delegerar uppgifter och ärenden:
   Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Du kan endast delegera uppgifter och utgåvor från området [!UICONTROL Home].
-* Det finns undantag för följande licenstyper:
+* När du delegerar arbete finns det undantag för följande licenstyper:
 
    * Du kan delegera arbete till granskare eller begärande, men [!DNL Workfront] rekommenderar det inte.
    * Granskare kan delegera arbete till andra. De kan inte visa arbetsobjekt i sitt [!UICONTROL Home]-område. De kan bara visa godkännanden.

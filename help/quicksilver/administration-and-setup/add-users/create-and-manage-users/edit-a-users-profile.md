@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3298'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       </li>
 
    </li> 
-       <li><b>Skicka jobb som jag själv har tilldelat mig själv till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användaren tilldelar sig ska visas direkt i listan Arbeta på hemsidan. Som standard visas allt som tilldelats en användare i listorna Ready to Start eller Not Ready (Klart att starta) i området Home (Hem).</li> 
+       <li><b>Skicka material som jag själv har tilldelat till fliken Arbeta med</b>: Den här inställningen hänvisar till en borttagen funktion från Workfront.</li> 
        <li><b>Generera automatiskt korrektur när dokument överförs</b>: Markera det här alternativet om du vill att de dokument som användaren överför ska generera ett korrektur omedelbart. </li>
        </ul> </td> 
      </tr> 
@@ -153,7 +153,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <li><b>Direktrapporter:</b> Om du har angett ett företag för användaren kan du även ange användares direktrapporter. En användare kan ha flera direktrapporter. Det här fältet visas inte om användaren inte är associerad med ett företag först.</li> 
       <li><b>Hemteam</b>: Ange hemteamet för användaren. Användare kan bara ha ett hemteam. Hemteamet är viktigt när du tilldelar en layoutmall eller när du definierar knappen Arbeta med det för uppgifter och ärenden som tilldelats användaren. </li> 
       <li><b>Andra team</b>: Användare kan tillhöra flera team. En användare kan visa arbetsobjekt som är tilldelade något av deras team i hemområdet. </li> 
-      <li> <p><b>Hemgrupp:</b> Välj en lämplig grupp att tilldela användaren till. Detta ger användaren möjlighet att komma åt objekt som delas med gruppen. Du kan också dela layoutmallar med användarens hemgrupp.</p> <p>Detta är ett obligatoriskt fält. Alla användare måste vara kopplade till en hemgrupp. Om du inte väljer någon grupp tilldelas gruppen som den nya användarens hemgrupp.</p> <p><b>OBS</b>:</p> 
+      <li> <p><b>Hemgrupp:</b> Välj en lämplig grupp att tilldela användaren till. Detta ger användaren möjlighet att komma åt objekt som delas med gruppen. Du kan också dela layoutmallar med användarens hemgrupp.</p> <p>Detta är ett obligatoriskt fält. Alla användare måste vara kopplade till en hemgrupp. Om du inte väljer någon får din hemgrupp rollen som den nya användarens hemgrupp.</p> <p><b>OBS</b>:</p> 
       <p> Du kan bara tilldela en grupp till en användare om något av följande är sant:</p>
       <ul><li>du är Workfront-administratör</li>
       <li>du är administratör för gruppen</li>

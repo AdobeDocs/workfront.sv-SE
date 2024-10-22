@@ -6,9 +6,9 @@ description: Du kan använda smarta tilldelningar för att identifiera vem som �
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,6 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
    * En aktivitets- eller utgivningsrubrik
    * Åtgärds- eller ärendesammanfattningspanelen
    * <span class="preview">En ny aktivitet</span> eller en ny utgåva när du lägger till <span class="preview">en ny aktivitet</span> eller ett problem i ett projekt
-   * Uppdragsfältet för ett objekt som visas i hemområdet
    * En uppgift eller ett problem i arbetsbelastningsutjämnaren
 
 1. Placera markören i uppdragsfältet och vänta i två sekunder.

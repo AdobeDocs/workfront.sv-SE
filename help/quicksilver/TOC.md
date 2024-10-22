@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14512'
 ht-degree: 0%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 0%
          * [Översikt över aktivitetens ursprungliga varaktighet och ursprungliga planerade timmar](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Skillnad mellan planerad varaktighet och varaktighet för uppgifter](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Skapa aktiviteter {#create-tasks}
-         * [Skapa uppgifter](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [Skapa uppgifter: artikelindex](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Skapa uppgiftsöversikt](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Skapa uppgifter i ett projekt](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Skapa underaktiviteter](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2092,7 +2092,7 @@ ht-degree: 0%
       * [Översikt över primärt fält](planning/fields/primary-field-overview.md)
    * Adobe Workfront Planeringsåtkomst {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning - åtkomstinformation: artikelindex](planning/access/access-information.md)
-      * [Åtkomstöversikt](planning/access/access-overview.md)
+      * [Åtkomstöversikt för Adobe Workfront Planning](planning/access/access-overview.md)
       * [Översikt över delningsbehörigheter i Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
       * [Översikt över licenstyper vid användning av Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Dela arbetsytor](planning/access/share-workspaces.md)

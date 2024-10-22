@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >* Ytterligare licens för Workfront Planning.
 >* Din organisations instans av Workfront måste integreras med Adobe Unified Experience.
 >
-> En fullständig lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+> En fullständig lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 
 Den här artikeln innehåller allmän information om Workfront Planning.
@@ -168,7 +168,7 @@ När din organisation har köpt en licens för Workfront Planning måste du som 
 
 * Tilldela användarna som behöver tillgång till Planera en layoutmall som innehåller Planering på huvudmenyn. Mer information finns i [Anpassa huvudmenyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) och [Tilldela användare till en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Tilldela användare en Workfront-licens och Workfront Planning-behörigheter som tillåter dig att antingen visa 554 timmar eller skapa objekt i Workfront Planning. Mer information om hur du beviljar åtkomst till och aktiverar andra för att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+* Tilldela användare en Workfront-licens och Workfront Planning-behörigheter som tillåter dig att antingen visa 554 timmar eller skapa objekt i Workfront Planning. Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront Planning finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning - terminologi
 
@@ -321,7 +321,7 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
 ## Hitta Adobe Workfront Planning
 
-Om du vill hitta Adobe Planning kontrollerar du att din organisation har fått tillgång till Workfront Planning och att system- eller gruppadministratören har lagt till Planning-området på huvudmenyn. Mer information finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+Om du vill hitta Adobe Planning kontrollerar du att din organisation har fått tillgång till Workfront Planning och att system- eller gruppadministratören har lagt till Planning-området på huvudmenyn. Mer information finns i [Åtkomstöversikt för Adobe-planering](/help/quicksilver/planning/access/access-overview.md).
 
 Så här hittar du Workfront Planning:
 

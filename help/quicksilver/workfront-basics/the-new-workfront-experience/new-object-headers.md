@@ -4,10 +4,11 @@ navigation-topic: the-new-workfront-experience
 title: Översikt över objektrubriker
 description: Du kan snabbt visa information om objekt i  [!DNL Adobe Workfront] när du granskar deras sidhuvud. Informationen i en rubrik kan innehålla objektets ägare, status eller procentandelen slutförd.
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3213'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ Så här kommer du åt ett projekts huvud:
 
    ![](assets/project-header-350x18.png)
 
-## Översikt över rubriken [!UICONTROL Home]
+<!--## [!UICONTROL Home] header overview 
 
-Följande rubriker är tillgängliga i Hem:
+The following headers are available in Home:
 
-* Aktivitet: Mer information om hur du kan använda den här rubriken finns i [Översikt över uppgiftsrubriken](#task-header-overview) i den här artikeln.
-* Problem: Mer information om hur du kan använda den här rubriken finns i [Översikt över utgåvans huvud](#issue-header-overview) i den här artikeln.
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## Anpassningsbara rubriker
 
@@ -80,8 +81,8 @@ Projekthuvudet visar som standard följande information:
    <td> <p>Texten [!UICONTROL PROJECT] visas ovanför projektnamnet i rubriken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtgärdsområdet för uppgiften</td> 
-   <td> <p>Intill projektets namn visas åtgärdsområdet.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">Projektets åtgärdsområde</td> 
+   <td> <p>Bredvid namnet på projektet visas åtgärdsområdet med alternativet <b>Dela</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -144,7 +145,7 @@ Uppgiftshuvudet innehåller som standard följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Åtgärdsområdet för uppgiften</td> 
-   <td> <p>Området [!UICONTROL actions] visas bredvid aktivitetens namn.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Om ikonen Beroende visas kan du klicka på den för att visa eventuella föregående eller efterföljande aktiviteter för uppgiften.</p> </td> 
+   <td> <p>Bredvid aktivitetens namn visas åtgärdsområdet med alternativet <b>Dela</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Om ikonen Beroende visas kan du klicka på den för att visa eventuella föregående eller efterföljande aktiviteter för uppgiften.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -207,7 +208,7 @@ Uppgiftshuvudet innehåller som standard följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Åtgärdsområdet för problemet</td> 
-   <td> <p>Området [!UICONTROL actions] visas bredvid namnet på utgåvan.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>Om ikonen [!UICONTROL Dependency] visas kan du klicka på den för att visa eventuella föregående eller efterföljande för problemet.</p>  </td> 
+   <td> <p>Bredvid namnet på problemet visas åtgärdsområdet med alternativet <b>Dela</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Om ikonen [!UICONTROL Dependency] visas kan du klicka på den för att visa eventuella föregående eller efterföljande för problemet.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -274,7 +275,7 @@ Programhuvudet visar följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Programmets verksamhetsområde</td> 
-   <td> <p>Området [!UICONTROL actions] visas bredvid namnet på programmet.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Bredvid namnet på programmet visas åtgärdsområdet med alternativet <b>Dela</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -328,8 +329,8 @@ Portföljrubriken innehåller följande information:
    <td> <p>Om portföljen inaktiveras visas texten [!UICONTROL PORTFOLIO DEACTIVATED] ovanför portföljnamnet i rubriken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Portföljens [!UICONTROL actions]-område</td> 
-   <td> <p>Området [!UICONTROL actions] visas bredvid namnet på portföljen.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">Portföljens åtgärdsområde</td> 
+   <td> <p>Området [!UICONTROL actions] visas bredvid namnet på portföljen.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
@@ -392,7 +393,7 @@ Mallhuvudet visar följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Mallens åtgärdsområde</td> 
-   <td> <p>Intill mallens namn visas åtgärdsområdet.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Intill mallens namn visas åtgärdsområdet.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Template Owner]</td> 
@@ -439,7 +440,7 @@ Malluppgiftshuvudet visar följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Åtgärdsområdet för malluppgiften</td> 
-   <td> <p>Intill malluppgiftens namn visas åtgärdsområdet.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Intill malluppgiftens namn visas åtgärdsområdet.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignments]</td> 
@@ -485,12 +486,15 @@ Faktureringsposthuvudet visar följande information:
    <td> <p>Texten [!UICONTROL BILLING RECORD] visas ovanför faktureringspostens namn i rubriken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtgärdsområdet i faktureringsposten</td> 
+   <td role="rowheader">Menyn Mer för faktureringsposten</td> 
    <td> <p>Bredvid namnet på faktureringsposten visas [!UICONTROL More]-menyn <img src="assets/more-menu.png"> där du kan välja följande alternativ:</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> Ta bort </p> </li> 
+    </ul>
+    <p><b>ANMÄRKNING</b></p>
+    <p>Menyn Mer visas inte för faktureringsposter med statusen Fakturerad. Du kan inte redigera eller ta bort fakturerade poster.</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Billing Record Total]</td> 
@@ -542,7 +546,7 @@ I användarhuvudet visas följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Användarens åtgärdsområde</td> 
-   <td> <p>Intill användarens namn visas åtgärdsområdet.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Intill användarens namn visas åtgärdsområdet.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">E-postadress</td> 
@@ -589,7 +593,7 @@ Teamhuvudet innehåller följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Teamets åtgärdsområde</td> 
-   <td> <p>Området [!UICONTROL actions] visas bredvid teamets namn.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>Bredvid teamets namn visas åtgärdsområdet.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilbilder för teammedlemmar</td> 
@@ -632,8 +636,7 @@ I iterationshuvudet visas följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Åtgärdsområdet för upprepningen</td> 
-   <td> <p>Åtgärdsområdet visas i det övre högra hörnet av sidhuvudet.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>Bredvid namnet på iterationen visas åtgärdsområdet.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Ägare</td> 
    <td>Det här är upprepningens [!UICONTROL Owner]. Du kan inte redigera [!UICONTROL Owner] i rubriken.</td> 
@@ -735,7 +738,7 @@ I dokumentrubriken visas följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Dokumentets åtgärdsområde</td> 
-   <td> <p>Intill dokumentets namn visas åtgärdsområdet.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>Intill dokumentets namn visas åtgärdsområdet.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Godkännandeområdet [!UICONTROL Decision]</td> 
@@ -773,7 +776,7 @@ Följande information visas i företagshuvudet:
    <td> <p>Texten [!UICONTROL COMPANY] visas ovanför företagsnamnet i rubriken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Företagets åtgärdsområde</td> 
+   <td role="rowheader">Företagets Mer-meny</td> 
    <td> <p>Bredvid företagets namn visas [!UICONTROL More]-menyn <img src="assets/more-menu.png"> som gör att du kan välja följande alternativ:</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
@@ -819,7 +822,7 @@ I planhuvudet visas följande information:
   </tr> 
   <tr> 
    <td role="rowheader">Planens åtgärdsområde</td> 
-   <td> <p>Bredvid namnet på planen visas åtgärdsområdet.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Bredvid namnet på planen visas åtgärdsområdet.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ytterligare planåtgärder</td> 
@@ -885,9 +888,9 @@ Målrubriken innehåller följande information:
    <td> <p>Texten [!UICONTROL GOAL] visas ovanför målnamnet i rubriken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Målets åtgärdsområde</td> 
-   <td> <p>Intill målets namn visas åtgärdsområdet.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   Du kan utföra följande åtgärder från målets åtgärdsområde:
+   <td role="rowheader">Menyn Mer om målet</td> 
+   <td> <p>Bredvid målets namn visas menyn Mer <img src="assets/more-icon.png">.</p> </p>
+   Du kan utföra följande åtgärder på menyn Mer för ett mål:
    <ul><li>[!UICONTROL Edit]</li>
    <li>[!UICONTROL Copy goal]</li>
    <li>[!UICONTROL Delete goal]</li>

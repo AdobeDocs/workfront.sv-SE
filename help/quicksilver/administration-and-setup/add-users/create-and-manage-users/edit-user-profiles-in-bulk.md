@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
        <ul> 
         <li><b>Tidszon:</b> Användarens tidszon.</li> 
         <li><b>Språk</b>: Användarens språkområde rekommenderas. Detta påverkar formatet för siffror och datum i e-postmeddelanden som kommer från Workfront.</li> 
-        <li><b>Skicka jobb som jag själv har tilldelat till fliken Arbeta med</b>: Markera det här alternativet om du vill att allt som användarna tilldelar dem ska visas direkt på fliken Arbeta med. Som standard visas allt som tilldelats en användare på fliken Arbetsbegäran.</li> 
+        <li><b>Skicka material som jag själv har tilldelat till fliken Arbeta med</b>: Den här inställningen hänvisar till en borttagen funktion från Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

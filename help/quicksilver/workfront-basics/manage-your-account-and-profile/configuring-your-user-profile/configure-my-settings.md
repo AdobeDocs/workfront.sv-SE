@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Konfigurera mina inställningar
 description: Din [!DNL Adobe Workfront] profil innehåller information om dig själv (till exempel ditt namn, e-postadress, adress, telefonnummer, titel). Den innehåller även information om din interaktion med [!DNL Workfront]  och andra användare i ditt företag.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2901'
+source-wordcount: '2894'
 ht-degree: 0%
 
 ---
@@ -345,7 +345,7 @@ Du kan ändra något av följande i det här underavsnittet:
 
 <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>Markera det här fältet om du vill visa arbete som du tilldelar dig själv direkt på fliken [!UICONTROL Working On] i stället för på fliken [!UICONTROL Work Requests].</td> 
+   <td>Det här fältet refererar till en inaktuell funktion som har tagits bort från [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) Generera korrektur automatiskt när dokument överförs</strong></td> 

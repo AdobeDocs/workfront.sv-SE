@@ -6,7 +6,7 @@ description: Det planerade slutförandedatumet för en utgåva är det datum då
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Det planerade slutförandedatumet för en utgåva är det datum då utgåvan förväntas vara slutförd.
 
-Du kan antingen ange planerat slutförandedatum för ett problem eller låta Adobe Workfront beräkna det utifrån vissa kriterier. 
+Du kan antingen ange planerat slutförandedatum för ett problem eller låta Adobe Workfront beräkna det utifrån vissa kriterier.
 
-Planerade slutförandedatum för problem påverkar inte projektets planerade slutförandedatum. Det är bara aktivitetens planerade slutförandedatum som påverkar projektets planerade slutförandedatum. Mer information om projektets planerade slutförandedatum finns i [Ange projektets planerade slutförandedatum](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Planerade slutförandedatum för problem påverkar inte projektets planerade slutförandedatum. Det är bara aktivitetens planerade slutförandedatum som påverkar projektets planerade slutförandedatum. Mer information om projektets planerade slutförandedatum finns i [Ange projektets planerade slutförandedatum](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Du måste ha behörigheten Redigera för problem och Hantera för att kunna uppd
 
 Du kan ställa in det planerade slutförandedatumet för ett problem manuellt i följande områden i Workfront:
 
-* I rutan Redigera problem eller under Ärendeinformation när du skapar eller redigerar ett problem. Mer information finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
+* I rutan Redigera problem eller under Ärendeinformation när du skapar eller redigerar ett problem. Mer information finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
 * I området Hem om det planerade slutförandedatumet visas när du visar ett problem. Mer information finns i [Uppdatera eller redigera ett arbetsobjekt i hemområdet](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * I utgåvans rubrik. Mer information finns i [Nya objektrubriker](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * I en problemlista eller rapport när fältet Planerat slutförandedatum visas i vyn.
@@ -54,13 +54,13 @@ När Workfront automatiskt beräknar det planerade slutförandedatumet för ett 
 
   Anmälningsdatumet och det planerade startdatumet ska matcha ett problem när du skapar utgåvan första gången.
 
-* Standardvaraktighet enligt konfigurationen i avsnittet Köinformation i projektet. Mer information finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Standardvaraktighet enligt konfigurationen i avsnittet Köinformation i projektet. Mer information finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
   Om standardlängden är 0 dagar matchar det planerade slutförandedatumet det planerade startdatumet för utgåvan.
 
 * Projektschema
 
-När detta anges automatiskt bestäms det planerade slutförandedatumet utifrån följande beräkning: 
+När detta anges automatiskt bestäms det planerade slutförandedatumet utifrån följande beräkning:
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ Följande situationer finns:
 >
 >Workfront tar hänsyn till schemalagda undantag som helger och helger vid beräkning av planerade slutförandedatum.
 
- 
+

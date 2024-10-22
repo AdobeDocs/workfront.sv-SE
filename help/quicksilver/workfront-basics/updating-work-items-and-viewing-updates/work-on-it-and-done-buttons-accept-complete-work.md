@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
+source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -38,19 +38,20 @@ Beroende på vilket område av Workfront du kommer åt uppgiften eller utgåvan 
   >
   >Du kan ersätta knappen Arbeta med knappen Start. Mer information om hur du ersätter knappen Arbeta på den med knappen Start finns i [Ersätta knappen Arbeta på den med knappen Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* När du har klickat på Work On It accept ändras knappen till Mark as Done (Markera som färdig) eller Done (Klar) beroende på var i Workfront du öppnar uppgiften eller problemet. Mer information om var du kan komma åt knappen Arbeta på den finns i avsnittet [Hitta knappen Arbeta på det och Klar](#locate-the-work-on-it-and-done-button) i den här artikeln.
+* När du har klickat på Work On It accept ändras knappen till Mark as done. Mer information om var du kan komma åt knappen Arbeta på den finns i avsnittet [Hitta knappen Arbeta på det och Klar](#locate-the-work-on-it-and-done-button) i den här artikeln.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* Om du inte är den enda som har tilldelats uppgiften eller utgåvan och du får tillgång till din arbetsuppgift från Arbetslista i Hem-området, ändras knappen till Klar med min del.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-## Leta reda på knappen Arbeta på och Klart {#locate-the-work-on-it-and-done-button}
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-Du kan hitta knappen Arbeta med och Klar i följande områden i Workfront:
+## Leta reda på knappen Arbeta på den och markera som färdig {#locate-the-work-on-it-and-done-button}
 
-* Hem-delen, både i Arbetslistan eller på informationspanelen
+Du kan hitta knappen Arbeta med och markera som klar i följande områden i Workfront:
+
+* Hem-området i widgeten Mitt arbete
 
   Mer information om hur du markerar ett objekt som Klar i hemområdet finns i [Markera ett objekt som Klar i hemområdet](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
@@ -58,13 +59,13 @@ Du kan hitta knappen Arbeta med och Klar i följande områden i Workfront:
 
   Mer information om objektrubrikerna finns i [Nya objektrubriker](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-* På aktivitets- eller ärendesammanfattningspanelen i en lista eller i arbetsbelastningsutjämnaren
+* På aktivitets- eller ärendesammanfattningspanelen
 
   Mer information om hur du använder panelen Sammanfattning finns i [Översikt över sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Översikt över fält som uppdateras automatiskt när du klickar på knappen Arbeta på och Klar
+## Översikt över fält som automatiskt uppdateras när du klickar på knappen Arbeta på och Markera som klar
 
-Fördelen med att använda knapparna Work On It (Arbeta på) och Done (Klar) är att du kan låta Workfront automatiskt uppdatera information om arbetsuppgiften som du har tilldelats.
+Fördelen med att använda knapparna Work On It (Arbeta på) och Mark as Done (Markera som klar) är att du kan tillåta att Workfront automatiskt uppdaterar information om arbetsuppgiften som du har tilldelats.
 
 * [Knappen Arbeta på den](#work-on-it-button)
 * [Startknapp](#start-button)
@@ -111,7 +112,11 @@ Förutom de fält som uppdateras när du klickar på knappen Work On It (Arbeta 
 
 ### Knappen Klar {#the-done-button}
 
-Om du har tillgång till redigeringsteam kan du konfigurera Klar-knappen för ett team så att de kan uppdatera uppgiften eller utfärda statusvärden när du markerar ett objekt som slutfört. När användare med det teamet som hemteam klickar på knappen Klar för sina objekt uppdateras följande fält automatiskt för en uppgift eller ett problem:
+>[!NOTE]
+>
+>Knappen Klar visas som Markera som färdig i alla områden av Workfront.
+
+Om du har tillgång till redigeringsteam kan du konfigurera Klar-knappen för ett team så att de kan uppdatera uppgiften eller utfärda statusvärden när du markerar ett objekt som slutfört. När användare med det teamet som hemteam klickar på knappen Markera som slutförd för sina objekt uppdateras följande fält automatiskt för en uppgift eller ett problem:
 
 * Status
 * Uppdateringar av tilldelningsstatus från Arbeta till Klart

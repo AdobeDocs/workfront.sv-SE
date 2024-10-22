@@ -7,9 +7,9 @@ description: När en uppgift är klar att starta lägger Adobe Workfront till en
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ När aktiviteten är klar att bearbetas ställs fältet Kan starta för aktivite
 
 Workfront söker efter följande saker innan en uppgift markeras som True för fältet Can Start:
 
-* Om aktiviteten har en överordnad kontrollerar den om värdet för Kan starta för den överordnade som är inställt på Sant. Om värdet för det överordnade objektet är Falskt får alla underaktiviteter värdet Can Start också värdet False. 
-* Den kontrollerar också om uppgiftens föregångare och deras föräldrars föregångare är fullständiga. Om de är klara anges värdet Kan starta för uppgiften till Sant. Om någon av uppgiftens föregångare eller deras överordnade föregångare inte är slutförd, eller har statusen Fullständigt väntande godkännande, anges värdet Kan starta för uppgiften till Falskt. 
+* Anger om värdet för Can Start för den överordnade har värdet True, om aktiviteten har en överordnad. Om värdet för det överordnade objektet är Falskt får alla underaktiviteter värdet Can Start också värdet False.
+* Anger om uppgiftens föregångare och deras föräldrars föregångare är fullständiga. Om de är klara anges värdet Kan starta för uppgiften till Sant. Om någon av uppgiftens föregångare eller deras överordnade föregångare inte är slutförd, eller har statusen Fullständigt väntande godkännande, anges värdet Kan starta för uppgiften till Falskt.
+* Anger om aktivitetens beroendetyp är Start-Start eller Start-Finish. Om beroendetypen är Start-Start eller Start-Finish kommer den beroende aktiviteten att ha flaggan Can start inställd på True när den överordnade aktiviteten pågår (eller när procentandelen slutfört för den överordnade aktiviteten är större än 1 %). <!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
 
   Mer information om föregående aktiviteter finns i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

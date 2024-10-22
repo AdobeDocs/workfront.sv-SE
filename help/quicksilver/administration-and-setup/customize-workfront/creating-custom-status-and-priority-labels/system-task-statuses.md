@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Följande uppgiftsstatusvärden finns i din Workfront-instans:
   <tr> 
    <td>Slutförd (obligatorisk status)</td> 
    <td> <p>Du kan markera en uppgift som slutförs manuellt när arbetet är slutfört.</p> <p>När spårningsläget för en uppgift är inställt på Komplettera automatiskt markeras aktiviteten automatiskt som Slutförd när det planerade slutförandedatumet uppnås.</p> </td> 
-   <td> <p>När en uppgift är slutförd markeras procentandelen slutförd för uppgiften som 100 %. Uppgiften tas bort från den tilldelades arbetslista i hemområdet när den är slutförd.</p> <p>När du markerar en uppgift som slutförd visas ett värde för Faktiskt slutförandedatum.</p> <p><b>Obs!</b> Om aktiviteten har ofullständiga problem och du ändrar aktivitetsstatus till Fullständig, ändras statusen automatiskt till Fullständigt - väntande problem.</p> </td> 
+   <td> <p>När en uppgift är slutförd markeras procentandelen slutförd för uppgiften som 100 %. Uppgiften tas bort från listan Mitt arbete i hemområdet för den som tilldelades när den slutfördes.</p> <p>När du markerar en uppgift som slutförd visas ett värde för Faktiskt slutförandedatum.</p> <p><b>Obs!</b> Om aktiviteten har ofullständiga problem och du ändrar aktivitetsstatus till Fullständig, ändras statusen automatiskt till Fullständigt - väntande problem.</p> </td> 
   </tr> 
  </tbody> 
 </table>

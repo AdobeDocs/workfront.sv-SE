@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '17341'
+source-wordcount: '17321'
 ht-degree: 0%
 
 ---
@@ -471,7 +471,9 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>Det finns två typer av kalendrar i [!DNL Workfront]: [!UICONTROL Home Calendar]- och kalenderrapporter.</p> <p>[!UICONTROL Home Calendar] är en personlig kalender som gör att en användare kan hantera sin arbetsbelastning mot sina tillgängliga timmar i [!DNL Workfront]. Användarna kan även integrera sina [!UICONTROL Home Calendar] med [!DNL Outlook] ([!DNL Google] och [!DNL Microsoft]-integrering som kommer). </p> <p>Mer information om [!UICONTROL Home Calendar] finns i <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] view </a>.</p> <p>En kalenderrapport är en dynamisk rapport där användare kan visa datum och annan viktig information om en händelse, inklusive förfallodatum, arbetsstatus och användaren som händelsen är tilldelad till.</p> <p> Mer information om kalenderrapporter finns i <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Översikt över kalenderrapporter</a>.</p> </td> 
+   <td> <p>I Workfront är en kalenderrapport en dynamisk rapport där användare kan visa datum och annan viktig information om en händelse, inklusive förfallodatum, arbetsstatus och användaren som händelsen är tilldelad till.</p> <p> Mer information om kalenderrapporter finns i <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Översikt över kalenderrapporter</a>.</p>
+   <p> I Workfront Planning är en kalendervy en typ av vy för en posttyp som visar poster i en kalender. Du måste ha ytterligare en licens för att få tillgång till Workfront Planning. </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
@@ -1644,7 +1646,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Profile]</td> 
-   <td>En administratörsdefinierad samling flikar och portalavsnitt som visas i [!DNL Workfront]-programmet [!UICONTROL Home] och andra instrumentpaneler.</td> 
+   <td>En administratörsdefinierad samling flikar och avsnitt som visas i [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Section]</td> 
