@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Mer information finns i avsnittet [Visa din organisations kluster och Workfront-
 
 ### IP-adresser som tillåter Kluster 1, 2, 3, 5, 7, 8 och 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-Om produktionsmiljön finns i kluster 1, 2, 3, 5 eller 7 måste du tillåta följande IP-adresser.
+Om produktionsmiljön finns i kluster 1, 2, 3, 5, 7, 8 eller 9 måste du tillåta följande IP-adresser.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -622,4 +622,4 @@ E-postmeddelanden från Workfront-programmet skickas krypterade med portarna 465
 
 ## E-postmeddelanden från Workfront Support
 
-Om du inte får e-postmeddelanden från Workfront Support måste du lägga till de Salesforce-IP-adresser och -domäner du behöver. Mer information finns i Salesforce-hjälpartikeln om IP-adresser och domäner för Salesforce som ska tillåtas.
+Om du inte får e-post från Workfront Support måste du lägga till de Salesforce IP-adresser och domäner du behöver. Mer information finns i Salesforce hjälpartiklar om Salesforce IP-adresser och domäner som ska tillåtas.
