@@ -6,9 +6,9 @@ description: Du kan se en kalendervy över uppgifter och problem som ditt team a
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ Du kan tilldela ej tilldelade artiklar, justera aktuella tilldelningar, justera 
 
 Mer information om hur du hanterar arbete som tilldelats ditt team finns i [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-![](assets/team-page-with-team-requests-and-balancer-sections-left.png)
+![Teamsida med arbetsbelastningsutjämnare](assets/team-page-workload-balancer.png)

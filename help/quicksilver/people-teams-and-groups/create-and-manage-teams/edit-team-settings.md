@@ -6,7 +6,7 @@ description: Workfront-administratörer och användare med en plan- eller arbets
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
@@ -55,11 +55,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) och välj sedan **[!UICONTROL Edit]**.
 
-   Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
+   Endast teammedlemmar med antingen en [!UICONTROL Standard], [!UICONTROL Plan] eller [!UICONTROL Work] licens kan se det här alternativet.
 
    Om du vill ha alternativet [!UICONTROL Edit] men inte ser det ber du Workfront-administratören att kontrollera att [!UICONTROL Team Settings] visas i layoutmallen för [!UICONTROL Scrum Team], [!UICONTROL Kanban Team] eller [!UICONTROL Waterfall Team].
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. I gruppinställningarna kan du göra följande typer av ändringar:
 

@@ -6,9 +6,9 @@ description: Med Adobe Workfront kan smidiga team slutföra arbetet på ett inkr
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Mer information finns i [Översikt över Agile-nedladdningsdiagram](../../agile/
 
 1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt ikon för team](assets/switch-team-icon.png) och klicka sedan på **[!UICONTROL Create new team]**.
 
-   ![Välj Skapa nytt team.](assets/create-new-team-350x198.png)
+   ![Välj Skapa nytt team](assets/create-new-team.png)
 
    Rutan Nytt team visas.
 
@@ -158,7 +158,7 @@ Du kan konvertera ett befintligt team till ett smidigt team:
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    Endast teammedlemmar med en [!UICONTROL Standard]-, [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
-   ![](assets/edit-team-settings-350x205.png)
+   ![Välj Redigera](assets/edit-team-settings.png)
 
 1. Välj **[!UICONTROL This is an Agile Team]** i avsnittet **[!UICONTROL Agile]**.
 

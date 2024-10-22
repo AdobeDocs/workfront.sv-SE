@@ -6,7 +6,7 @@ description: När du skapar ett team blir du som standard teamägare.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt ikon för team](assets/switch-team-icon.png) och klicka sedan på **[!UICONTROL Create New Team]**.
 
-   ![Välj Skapa nytt team.](assets/create-new-team-350x198.png)
+   ![Välj Skapa nytt team.](assets/create-new-team.png)
 
 1. Ange följande information i rutan **[!UICONTROL New Team]** som visas:
 

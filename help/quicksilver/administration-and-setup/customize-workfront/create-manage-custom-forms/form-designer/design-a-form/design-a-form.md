@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '5575'
+source-wordcount: '5540'
 ht-degree: 0%
 
 ---
@@ -562,9 +562,8 @@ Exempel på hur du använder det externa sökfältet för att anropa samma insta
 
 >[!NOTE]
 >
->* Externa sökfält från anpassade formulär stöds för närvarande inte i kontrollpaneler. Du kan inte redigera fältvärdet infogat och det kanske inte visas korrekt på en kontrollpanel. (Externa sökfält stöds i Canvas-kontrollpaneler.)
 >* Externa sökfält stöds inte i Outlook-plugin-programmet.
->* Externa sökfält är tillgängliga i listor, såvida inte fältet är beroende av ett annat fält.
+>* Externa sökfält är inte tillgängliga i listor när fältet är beroende av ett annat fält.
 
 Så här lägger du till en extern sökning:
 

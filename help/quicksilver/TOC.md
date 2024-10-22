@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 393405424c0ce3334304643c9474369e12417406
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14507'
 ht-degree: 0%
 
 ---
@@ -1515,7 +1515,7 @@ ht-degree: 0%
       * [Skapa och hantera Agile-team](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [Redigera teaminställningar](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
       * [Hantera vad teamet arbetar med](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-      * [Inaktivera ett team](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+      * [Inaktivera eller ta bort ett team](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
       * [Konfigurera Klar-knappen för uppgifter](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [Konfigurera Klar-knappen för problem](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
