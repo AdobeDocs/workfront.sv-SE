@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
+source-git-commit: bff394325882dae7b447c319db9cad8c196340d3
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # Översikt över rörliga objekt mellan Workfront-miljöer (miljöfrämjande)
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Med funktionen för miljöfrämjande åtgärder kan du flytta objekt från en Workfront-miljö till en annan. Du kan t.ex. skapa en mall och konfigurera den i sandlådemiljön, i vetskap om att alla tester du gör inte kommer att påverka organisationens faktiska data. När mallen har konfigurerats och testats kan du flytta den till produktionsmiljön, klar att använda.
 
@@ -98,7 +100,7 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 | Risktyp (risktyp) | Risktyp |
 | Resurspool (RSPL) | Resurspool |
 | Åtkomstnivå (ACSLVL) | Åtkomstnivå |
-| Hastighetskort (RTCRD) | Hastighetskort |
+| <span class="preview">Gradkort (RTCRD)</span> | <span class="preview">Betygskort</span> |
 
 \* Inte tillgängligt för tillfället
 
