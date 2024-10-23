@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
+source-git-commit: 5183c9ce50c043dd3053826d4942960ebcf7efbd
 workflow-type: tm+mt
-source-wordcount: '14512'
+source-wordcount: '14521'
 ht-degree: 0%
 
 ---
@@ -1933,6 +1933,7 @@ ht-degree: 0%
             * [Visa tidigare korrekturversioner i korrekturläsaren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [Ändra interaktiv korrekturupplösning i korrekturläsaren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Konfigurera inställningar för korrekturläsare](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [Granska interaktivt material med Adobe Workfront granskningsverktyg](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * Kommentera ett korrektur {#comment-on-a-proof}
             * [Kommentera korrektur: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Kommentera ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)

@@ -6,7 +6,7 @@ description: Om du inte kan öppna ett korrektur enligt beskrivningen nedan kont
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -67,7 +67,3 @@ Om du regelbundet granskar interaktivt innehåll i Desktop Proofing Viewer kan W
    >Desktop Proofing Viewer stöder inte webbplatser som kräver att du loggar in.
 
 1. Klicka på **Öppna korrektur** på skärmen som visas. 
-
- 
-
- 
