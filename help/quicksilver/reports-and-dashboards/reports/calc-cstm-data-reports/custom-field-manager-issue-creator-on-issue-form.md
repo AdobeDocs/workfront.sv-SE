@@ -7,9 +7,9 @@ description: Med hjälp av ett beräknat anpassat fält kan du visa namnet på d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ I följande steg visas hur du kan skapa ett beräkningsfält för ett eget ären
 
    Mer information om hur du skapar ett anpassat formulär och lägger till beräknade fält i det finns i följande artiklar:
 
-   * [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. Kopiera och klistra in följande textlägeskod i fältet **Beräkning** i det anpassade formuläret:

@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Knapparna Work On It (Arbeta på) och Done (Klar) är synliga för användare so
 
 * En standardlicens (ny) eller en plan- eller arbetslicens (aktuell)
 * Begränsad redigeringsåtkomst eller högre för uppgiften eller problemet
+
+>[!NOTE]
+>
+>Knappen Klar visas som Markera som färdig i alla områden av Workfront.
 
 ## Arbeta med knappnamnen och Klar
 
@@ -47,9 +51,9 @@ Beroende på vilket område av Workfront du kommer åt uppgiften eller utgåvan 
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-## Leta reda på knappen Arbeta på den och markera som färdig {#locate-the-work-on-it-and-done-button}
+## Leta reda på knappen Arbeta på och Klart {#locate-the-work-on-it-and-done-button}
 
-Du kan hitta knappen Arbeta med och markera som klar i följande områden i Workfront:
+Du kan hitta knappen Arbeta med och Klar i följande områden i Workfront:
 
 * Hem-området i widgeten Mitt arbete
 
@@ -63,9 +67,9 @@ Du kan hitta knappen Arbeta med och markera som klar i följande områden i Work
 
   Mer information om hur du använder panelen Sammanfattning finns i [Översikt över sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Översikt över fält som automatiskt uppdateras när du klickar på knappen Arbeta på och Markera som klar
+## Översikt över fält som uppdateras automatiskt när du klickar på knapparna Work On It eller Done
 
-Fördelen med att använda knapparna Work On It (Arbeta på) och Mark as Done (Markera som klar) är att du kan tillåta att Workfront automatiskt uppdaterar information om arbetsuppgiften som du har tilldelats.
+Fördelen med att använda knapparna Work On It (Arbeta på) och Done (Klar) är att du kan låta Workfront automatiskt uppdatera information om arbetsuppgiften som du har tilldelats.
 
 * [Knappen Arbeta på den](#work-on-it-button)
 * [Startknapp](#start-button)
@@ -111,10 +115,6 @@ Förutom de fält som uppdateras när du klickar på knappen Work On It (Arbeta 
 >
 
 ### Knappen Klar {#the-done-button}
-
->[!NOTE]
->
->Knappen Klar visas som Markera som färdig i alla områden av Workfront.
 
 Om du har tillgång till redigeringsteam kan du konfigurera Klar-knappen för ett team så att de kan uppdatera uppgiften eller utfärda statusvärden när du markerar ett objekt som slutfört. När användare med det teamet som hemteam klickar på knappen Markera som slutförd för sina objekt uppdateras följande fält automatiskt för en uppgift eller ett problem:
 

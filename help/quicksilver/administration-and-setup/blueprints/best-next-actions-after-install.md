@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ Genom att en ny kontrollpanel och dess rapporter introduceras kan andra befintli
 
 ### Distribuera anpassade data till relevanta formulär
 
-Vissa rapporter som ingår i en kontrollpanelsöversikt har anpassade datafält i antingen vyn, filtret eller grupperingen av rapporten. I vissa fall har designen även ett formulär som dessa fält är kopplade till. I de flesta fall används emellertid inte anpassade fält i anpassade formulär. För att kolumnerna, filtren eller grupperingarna ska fungera på rätt sätt måste dessa fält kopplas till formulär som är kopplade till en användar-, projekt-, uppgift- eller annan objektpost. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Vissa rapporter som ingår i en kontrollpanelsöversikt har anpassade datafält i antingen vyn, filtret eller grupperingen av rapporten. I vissa fall har designen även ett formulär som dessa fält är kopplade till. I de flesta fall används emellertid inte anpassade fält i anpassade formulär. För att kolumnerna, filtren eller grupperingarna ska fungera på rätt sätt måste dessa fält kopplas till formulär som är kopplade till en användar-, projekt-, uppgift- eller annan objektpost. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

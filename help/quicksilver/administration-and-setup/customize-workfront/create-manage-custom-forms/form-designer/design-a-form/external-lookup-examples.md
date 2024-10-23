@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ett fält för extern sökning i ett anpassat formulär anropar ett externt API 
 
 I den här artikeln finns exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API. Du kan också använda den externa sökningen för att kommunicera med ett externt system som Jira, Salesforce eller ServiceNow.
 
-Mer information om hur du lägger till ett externt sökfält i ett anpassat formulär och ytterligare definitioner för de externa sökningskomponenterna finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om hur du lägger till ett externt sökfält i ett anpassat formulär och ytterligare definitioner för de externa sökningskomponenterna finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Konfigurera ett externt sökfält för samma instans av Workfront
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Mer information om hur du förhandsgranskar ett anpassat formulär i formulärde
 
 Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är nu tillgängliga när du bifogar ett anpassat formulär till ett företag eller en användare. De avancerade funktionerna finns på sidorna Företagsinformation och Användarinformation, inte i dialogrutorna Redigera företag och Redigera användare. Det anpassade formuläret måste skapas i den nya formulärdesignern för att du ska kunna utnyttja dessa fälttyper.
 
-Mer information om anpassade formulärfält finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om anpassade formulärfält finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Integrering med JumpSite är nu tillgängligt för nya pakettyper
 
@@ -64,7 +64,7 @@ Inbyggda fält som används i anpassade formulär blir tillgängliga i fältbibl
 
 Den här funktionen är bara tillgänglig i betaversionen av formulärdesignern, inte i det äldre formulärverktyget.
 
-Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

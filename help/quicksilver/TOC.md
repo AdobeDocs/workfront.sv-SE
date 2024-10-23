@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5183c9ce50c043dd3053826d4942960ebcf7efbd
+source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
 workflow-type: tm+mt
-source-wordcount: '14521'
+source-wordcount: '14518'
 ht-degree: 0%
 
 ---
@@ -614,7 +614,7 @@ ht-degree: 0%
          * [Översikt över anpassade formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Designa ett anpassat formulär {#design-a-form}
             * [Designa ett formulär: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [Designa ett formulär med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [Skapa ett anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [Designa ett formulär från en kopia](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [Lägga till beräknade fält i ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Lägga till visningslogik och hoppa över logik i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)

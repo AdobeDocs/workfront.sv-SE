@@ -7,9 +7,9 @@ description: I följande beräkningsfält visas det datum då objektets status m
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Om du vill lägga till ett beräknat fält som visar ett fälts redigeringshisto
 
 1. Gå till ett anpassat formulär där du vill lägga till fältet.
 1. Klicka på **Beräknat** för att lägga till ett beräknat anpassat fält i formuläret.
-1. Ange en **etikett** för det anpassade fältet, till exempel *Anpassat fält för tidsstämpel för status*.
-1. Klicka på **Klar** och sedan på **Spara+stäng**.
+1. Ange en **etikett** för det anpassade fältet. Exempel:&quot;Status för tidsstämpelfält&quot;.
+1. Klicka på **Spara+Stäng**.
 1. Öppna det anpassade formuläret igen och välj sedan det nya **statustidsstämpelsfältet** i formuläret.
 1. Kopiera och klistra in följande beräkning för det anpassade fältet i rutan **Beräkning**:
 

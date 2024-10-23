@@ -6,9 +6,9 @@ description: Du kan referera till de anpassade formerna för ett objekt i rappor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Det anpassade formuläret måste finnas innan du kan referera till det i en rapport.
 
-Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Referera innehållet i anpassade formulär
 
@@ -61,7 +61,7 @@ Du kan referera till fält i anpassade formulär. När ett anpassat formulär ha
 >[!NOTE]
 >
 >För fält som har flera alternativ är alla alternativ tillgängliga i rapportens filter och uppmaningar, inklusive de som är dolda.\
->Mer information om hur du döljer alternativ för ett anpassat fält med flera alternativ finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>Mer information om hur du döljer alternativ från ett anpassat fält med flera alternativ finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 När du skapar rapporten använder du bara formulärets objekttyp som fältkälla och använder namnet på det anpassade fältet som fältnamn.
 

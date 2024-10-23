@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ E-postmallarna för att lägga till en godkännare till en resurs och för att l
 
 Vi har uppdaterat flikarna för Forms, Fält och Avsnitt i Konfigurera > Anpassad Forms till en mer modern design som är förenlig med andra delar av Workfront. Du kommer nu åt de tre områdena från den vänstra navigeringsmenyn. Filter, vyer och grupperingar är fortfarande tillgängliga för listorna. Den uppdaterade designen gäller för anpassade formulär, fält och avsnitt som skapats både i den nya formulärdesignern och i den gamla formulärbyggaren.
 
-Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

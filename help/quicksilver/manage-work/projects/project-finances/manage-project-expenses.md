@@ -6,9 +6,9 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Dialogrutan **Lägg till en utgift** visas.
    * **Fakturerbar:** Välj det här alternativet om du vill fakturera den här utgiften. Det är viktigt att kategorisera en utgift som fakturerbar när du skapar faktureringsposter.
    * **Återbetalningsbar:** Välj det här alternativet om utgiften behöver återbetalas. Du kan sedan markera utgiften som återbetald när utgiften har återbetalats.
 
-1. Välj ett **anpassat formulär** och ange eventuell ytterligare information som krävs. Du måste skapa ett anpassat formulär innan du kan koppla det till en utgift. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Välj ett **anpassat formulär** och ange eventuell ytterligare information som krävs. Du måste skapa ett anpassat formulär innan du kan koppla det till en utgift. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicka på **Spara ändringar**.
 

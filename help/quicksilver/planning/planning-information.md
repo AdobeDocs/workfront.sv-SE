@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som 
    * Hantera layouten för en postsida
    * Spela in kommentarer och historikavsnitt
    * Dela poster
-   * Workfront Planning-avsnitt för Workfront-objekt
+   * Hantera Workfront Planning-poster från Workfront
 
 * [Adobe Workfront Planning Requests: artikelindex](/help/quicksilver/planning/requests/requests-article-index.md) innehåller följande information:
 

@@ -6,9 +6,9 @@ description: Du kan redigera objekt textbundet när de visas i en lista eller ra
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >[!NOTE]
    >
    >Om ett anpassat fält har konfigurerats för att tillåta formatering kan du fet, kursiv eller understruken text när fältet redigeras i en uppdaterad lista.
-   >Information om hur du konfigurerar formatering för ett anpassat fält finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Mer information om hur du konfigurerar formatering för ett anpassat fält finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    >Mer information om uppdaterade listor finns i avsnittet&quot;Skillnaden mellan de uppdaterade och de äldre listorna&quot; i artikeln [Kom igång med listor i [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Tryck på [!UICONTROL Tab] för att gå till nästa redigerbara cell.

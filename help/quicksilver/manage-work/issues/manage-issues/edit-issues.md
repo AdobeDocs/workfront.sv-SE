@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2529'
+source-wordcount: '2523'
 ht-degree: 0%
 
 ---
@@ -324,13 +324,13 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. I fältet **Lägg till anpassat formulär** väljer du det eller de anpassade formulär som du vill associera med utgåvan. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Du kan lägga till upp till tio anpassade formulär i ett ärende.
+1. I fältet **Lägg till anpassat formulär** väljer du det eller de anpassade formulär som du vill associera med utgåvan. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Du kan lägga till upp till tio anpassade formulär i ett ärende.
 
 1. (Villkorligt) Om du har kopplat ett anpassat formulär till problemet kan du redigera alla fält i formuläret. Du måste ange alla obligatoriska fält innan du kan spara problemet.
 
    >[!NOTE]
    >
-   >Beroende på hur din Workfront-administratör anger behörigheter för avsnitten i ditt anpassade formulär kan inte alla visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har för själva problemet. Mer information om att ange behörigheter för avsnitt i ett anpassat formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Mer information om hur du ställer in utfärdandebehörigheter finns i [Dela ett problem](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >Beroende på hur din Workfront-administratör anger behörigheter för avsnitten i ditt anpassade formulär kan inte alla visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har för själva problemet. Mer information om att ange behörigheter för avsnitt i ett anpassat formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Mer information om hur du ställer in utfärdandebehörigheter finns i [Dela ett problem](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Klicka på **Spara** eller fortsätt redigera följande avsnitt.
 

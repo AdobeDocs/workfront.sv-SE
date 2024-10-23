@@ -7,9 +7,9 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Förutsättningar
 
-Din Workfront-administratör eller en användare med en planlicens och administrativ åtkomst till anpassade formulär måste skapa anpassade formulär i din miljö innan du kan lägga till dem i objekt. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Din Workfront-administratör eller en användare med en planlicens och administrativ åtkomst till anpassade formulär måste skapa anpassade formulär i din miljö innan du kan lägga till dem i objekt. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Lägga till ett anpassat formulär i ett objekt
 

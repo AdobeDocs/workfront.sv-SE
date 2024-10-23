@@ -6,9 +6,9 @@ description: Det här integreringsscenariot länkar ett [!DNL Adobe Workfront] p
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Du måste ha följande i [!DNL Workfront] för att kunna använda det här scena
    </tbody> 
   </table>
 
-  Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Ett projekt som har konfigurerats som en begärandekö för att hämta nya kampanjförfrågningar. Formuläret [!UICONTROL Campaign Brief] måste bifogas till dessa förfrågningar.
 

@@ -5,9 +5,9 @@ description: Du kan använda affärsärendet för att begära ett projekt och de
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Tänk på följande när du begär ett projekt via ett affärsärende:
 
    Anpassade Forms måste skapas innan de kan kopplas till projekt.
 
-   Mer information om anpassade Forms finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Mer information om anpassad Forms finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicka på **Skicka**.
 

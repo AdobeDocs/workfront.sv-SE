@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Mer information finns i [Adobe Workfront för Experience Manager Assets och Asse
 * Visa ändringshistoriken för en post
 * RTF-formatering för styckefält
 * Få åtkomst till planeringsposter från Workfront-objekt
-* Anslut planeringsposter från Workfront-objekt
+* Koppla samman planeringsposter från Workfront-objekt
 * Skapa planeringsposter genom att skicka ett begärandeformulär
 * Workfront Planning Public API
 * Adobe Workfront Planning modules for Adobe Workfront Fusion

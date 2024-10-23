@@ -8,9 +8,9 @@ description: Om användare uppdaterar anpassade fält regelbundet och du vill sa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 Om användare uppdaterar anpassade fält regelbundet och du vill samla in en logg över alla ändringar som gjorts i ett fält samt ett datum när ändringarna inträffar, kan du spara informationen i ett beräknat anpassat fält.
 
-I följande exempel visas hur du skapar beräkningsfältet *Instruktioner för redigeringshistorik* för att fånga alla ändringar som gjorts i ett textfält med en rad som kallas *Instruktioner*.
+I följande exempel visas hur du skapar beräkningsfältet Instruktioner för redigeringshistorik för att spara alla ändringar som gjorts i ett textfält med en rad som kallas Instruktioner.
 
 >[!TIP]
 >
 >Du kan följa det här exemplet för alla typer av anpassade fält, inte bara enkelradiga textfält.
 
-Detta gör följande: 
+Detta gör följande:
 
-* Begränsar fältet *Instruktioner, Redigera historik* till de senaste 2 000 tecknen för att ligga inom Workfront-databasgräns.
-* Kontrollerar om det aktuella värdet för fältet *Instruktioner* matchar framsidan av värdet *Instruktioner, Redigera historik* . Det förutsätter att det är tomt och om det inte är det gör det följande: 
+* Begränsar fältet Instruktioner för att redigera historik till de senaste 2 000 tecknen så att det ligger inom gränsen för Workfront-databasen.
+* Kontrollerar om det aktuella värdet i fältet Instruktioner matchar framsidan av värdet Instruktioner för redigeringshistorik. Det förutsätter att det är tomt och om det inte är det gör det följande:
 
-   * Om de matchar lämnas *Instruktionerna Redigera historik* som de är;
-   * Om de inte matchar ersätter den *Instruktioner/redigeringshistorik* med det senaste värdet i fältet *Instruktioner*, följt av aktuellt datum inom parentes, ett lodrätt fält och föregående *Instruktioner/redigeringshistorik* som bevarar föregående värden och datum när de angavs.
+   * Om de matchar, låter den instruktionerna Redigera historik vara som de är;
+   * Om de inte matchar ersätter den Instruktioner, Redigera historik med det senaste värdet i fältet Instruktioner, följt av aktuellt datum inom parentes, ett lodrätt fält och föregående Instruktioner, Redigera historik, som bevarar föregående värden och datum när de angavs.
 
 ## Åtkomstkrav
 
@@ -78,31 +78,30 @@ Om du vill lägga till ett beräkningsfält som visar ett fälts redigeringshist
 
 1. Så här skapar du det anpassade textfältet med en rad:
 
-   1. Klicka på **Textfält med en rad**.
-   1. Ange en **etikett** för det anpassade fältet, till exempel *Instruktioner*.
+   1. Klicka på **Enkelradig text**.
+   1. Ange en **etikett** för det anpassade fältet. Du kan t.ex. kalla det &quot;Instruktioner&quot;.
    1. Klicka på **Använd**.
 
-1. Välj **Lägg till ett fält** och välj sedan **Beräknat** för att lägga till ett beräknat anpassat fält i formuläret.
-1. Ange en **etikett** för det beräknade anpassade fältet, till exempel *Instruktioner, Redigera historik*.
+1. Klicka på **Beräknat** för att lägga till ett beräknat anpassat fält i formuläret.
+1. Ange en **etikett** för det beräknade anpassade fältet. Du kan t.ex. kalla det&quot;Instruktioner > Redigera historik&quot;.
 
-   Det här är det fält som kommer att fånga ändringar som gjorts i det första fältet som du skapade (*Instruktioner*).
+   Det här är det fält som kommer att fånga ändringar som gjorts i det första fältet som du skapade (&quot;Instruktioner&quot;).
 
-1. Klicka på **Spara + Stäng**.
+1. Klicka på **Spara och stäng**.
 1. Klicka på namnet på formuläret där du har lagt till två fält för att öppna det igen.
-1. Klicka på det beräknade anpassade fältet *Instruktioner > Redigera historik* och kopiera sedan och klistra in följande i rutan Beräkning:
-1. I fältet **Beräkning** anger du följande beräkning för ditt anpassade fält:
+1. Klicka på det beräknade anpassade fältet **Instruktioner Redigera historik** och kopiera sedan och klistra in följande i rutan **Beräkning**:
 
    ```
    LEFT(IF(LEFT({DE:Instructions Edit History},LEN(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})))={DE:Instructions},{DE:Instructions Edit History},CONCAT(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})," (",$$NOW,") | ",{DE:Instructions Edit History})),2000)
    ```
 
 1. (Rekommenderas) Klistra in samma beräkning i fältet **Instruktioner** i beräkningsfältet i formuläret.
-1. Se till att  **Text** markeras i fältet **Format** för att formatera det beräknade anpassade fältet som text.
+1. Kontrollera att **Text** är markerat i fältet **Format** för att formatera det beräknade anpassade fältet som text.
 
    Det här är standardinställningen.
 
-1. Klicka på **Spara+Stäng**.
+1. Klicka på **Spara och stäng**.
 
-   När du kopplar det anpassade formuläret till ett objekt och sedan ändrar informationen i fältet *Instruktioner* visas det senaste värdet i fältet *Instruktioner, Redigera historik, följt av det aktuella datumet inom parentes och ett lodrätt streck. Om ytterligare ändringar görs läggs de till i informationen på samma sätt.
+   När du kopplar det anpassade formuläret till ett objekt och sedan ändrar informationen i fältet **Instruktioner** visas det senaste värdet i fältet **Instruktionsredigeringshistorik** följt av det aktuella datumet inom parentes och ett lodrätt streck. Om ytterligare ändringar görs läggs de till i informationen på samma sätt.
 
-   I ovanstående beräkning kan du ersätta *Instruktioner* med det exakta namnet på det enkelradiga textfält vars historik du vill spåra och *Instruktioner Redigera historik* med det exakta namnet på det beräknade fältet.
+   I ovanstående beräkning kan du ersätta *Instruktioner* med det exakta namnet på det enkelradiga textfält vars historik du vill spåra och **Instruktioner Redigera historik** med det exakta namnet på det beräknade fältet.

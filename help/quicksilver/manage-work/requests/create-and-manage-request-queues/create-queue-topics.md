@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    * [Skapa routningsregler](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Gå till det projekt som du valde att aktivera som en kö för hjälpbegäran och där du vill skapa ett nytt köämne.\
    Mer information om hur du anger ett projekt som en kö för hjälpbegäranden finns i [Skapa en kö för begäranden](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

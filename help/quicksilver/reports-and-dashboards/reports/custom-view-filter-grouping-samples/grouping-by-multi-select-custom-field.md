@@ -7,9 +7,9 @@ description: Du kan bara gruppera efter värdet i ett anpassat fält med flera v
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Om du vill kunna gruppera efter ett anpassat fält med flera val måste du ha följande krav:
 
 * Bygg det anpassade flervalsfältet i ett anpassat formulär.\
-  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält till dem finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Koppla det anpassade formuläret till objekt.
 * Fyll det anpassade fältet för flera val med ett värde för varje objekt. 

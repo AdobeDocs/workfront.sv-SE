@@ -6,9 +6,9 @@ description: Det här integreringsscenariot länkar ett [!DNL Adobe Workfront] p
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Du måste ha följande i [!DNL Workfront] för att kunna använda det här scena
    </tbody> 
   </table>
 
-  Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Projektmallar som representerar kampanjer och andra projekt som behöver finansieras, konfigurerade med ett [!UICONTROL Budget Request]-kötema. Köämnet [!UICONTROL Budget Request] har tilldelats till det anpassade formuläret [!UICONTROL Budget Request].
 * Ett **[!UICONTROL Campaign Brief]**-formulär för projektobjektet.
@@ -141,7 +141,7 @@ Du måste ha följande i [!DNL Workfront] för att kunna använda det här scena
    </tbody> 
   </table>
 
-  Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## [!DNL Anaplan]-konfiguration förväntades
 

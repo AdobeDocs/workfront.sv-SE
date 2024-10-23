@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Innan du lägger till en användare ska du samla in informationen om användaren
 * Vilket hemteam ska den här användaren vara i? Ska personen vara i mer än ett team? Mer information om team finns i [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Vilken anpassad information behöver du associera med den här användaren?
 
-  Om information om användare hämtas i anpassade fält som du har skapat måste du ha ett anpassat formulär när du skapar en användare. Mer information om anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Om information om användare hämtas i anpassade fält som du har skapat måste du ha ett anpassat formulär när du skapar en användare. Mer information om anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Skapa en helt ny användare
 

@@ -6,9 +6,9 @@ description: Din [!DNL Adobe Workfront] profil innehåller information om dig sj
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2894'
+source-wordcount: '2891'
 ht-degree: 0%
 
 ---
@@ -524,7 +524,7 @@ Du måste ha någon av följande behörigheter eller behörigheter för att kunn
 
 Alla användare kan se anpassade formulär som har kopplats till deras profiler.
 
-Administratören för [!DNL Workfront] måste konfigurera anpassade formulär för användarobjektet för att du ska kunna koppla ett anpassat formulär till användarprofilen. Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Administratören för [!DNL Workfront] måste konfigurera anpassade formulär för användarobjektet för att du ska kunna koppla ett anpassat formulär till användarprofilen. Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Comment]
 

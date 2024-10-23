@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 307bfb397555c7f9d424e429785dae36c639756a
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Ett anpassat formulär måste vara aktivt för att kunna visas i fältet [!UICON
 
 Du kan aktivera ett anpassat formulär när du redigerar det anpassade formuläret.
 
-Mer information om hur du redigerar anpassade formulär och en lista över objekt som du kan associera dem med finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om hur du redigerar anpassade formulär och en lista över objekt som du kan associera dem med finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Företag
 

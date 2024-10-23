@@ -5,9 +5,9 @@ title: Arbeta över tidszoner
 description: Det kan vara praktiskt att förstå hur  [!DNL Adobe Workfront]  använder tidszoner för att beräkna tidsfält för objekt och tider i andra områden, som e-postmeddelanden.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Mer information finns i [Lägga till beräknade fält i ett formulär](/help/qui
 
 Om du inte vill att [!DNL Workfront] ska konvertera tider som du konfigurerar för i ett objekt för användare i olika tidszoner, kan du använda ett textfält i ett anpassat formulär som du kopplar till ett objekt, i stället för ett datumfält. På det här sättet visar tiden som du anger för alla i projektet.
 
-Om du gör detta rekommenderar vi att du påminner formulärets användare om att beräkna skillnaden mellan deras tidszon och din så att de kan avgöra när arbetet ska börja och sluta. Du kan inkludera detta i instruktionerna som du skriver för det anpassade formuläret eller i ett verktygstips för det fältet. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Om du gör detta rekommenderar vi att du påminner formulärets användare om att beräkna skillnaden mellan deras tidszon och din så att de kan avgöra när arbetet ska börja och sluta. Du kan inkludera detta i instruktionerna som du skriver för det anpassade formuläret eller i ett verktygstips för det fältet. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

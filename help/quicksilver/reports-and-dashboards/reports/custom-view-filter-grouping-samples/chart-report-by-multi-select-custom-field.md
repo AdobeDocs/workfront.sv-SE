@@ -7,9 +7,9 @@ description: Du kan bara skapa ett diagram över en rapport med ett anpassat fä
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Du kan inte skapa ett diagram i en rapport genom att referera till ett anpassat 
 Om du vill skapa ett beräknat fält som refererar till ett anpassat fält med flera val måste du ha följande krav:
 
 * Ett anpassat flervalsfält i ett anpassat formulär.\
-  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält till dem finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Ett anpassat formulär med det anpassade fältet för flera markeringar kopplat till objekt.
 * Värden för det anpassade fältet för flera markeringar för varje objekt.
@@ -95,7 +95,7 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
 1. Skapa ett eget formulär eller redigera ett befintligt.
 
-   Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Markera objektet eller objekten som du vill använda med det anpassade formuläret.
 1. Klicka på **Lägg till ett fält** och sedan på **Beräknat** för att lägga till det anpassade flervalsfältet i formuläret.

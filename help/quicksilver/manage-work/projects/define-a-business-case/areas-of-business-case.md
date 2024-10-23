@@ -6,9 +6,9 @@ description: I den här artikeln beskrivs områdena i affärsärendet för ett p
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Mer information om hur du aktiverar områden i affärsärendet finns i [Konfigur
 
 Om du vill använda ett anpassat formulär måste Workfront-administratören först skapa ett anpassat formulär.
 
-Mer information om hur du skapar ett anpassat formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om hur du skapar ett anpassat formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Du kan använda anpassade formulär för att samla in ytterligare information som inte visas i andra fält i affärsärendet.
 

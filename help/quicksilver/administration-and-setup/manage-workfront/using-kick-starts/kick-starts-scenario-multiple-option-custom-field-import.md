@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -210,7 +210,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
    Värdet för ett fält är det namn som visas i rapporter, till exempel, medan namnet visas i de anpassade formulär som är kopplade till objekt.
 
-   Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -231,7 +231,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
    * **`setParameterID`** = de alternativ som motsvarar det anpassade fältet _Varumärke_ har **`setParameterID`** 1, och de alternativ som motsvarar _Media_ har **`setParameterID`**2. `PARAM` och `POPT` blad korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
    * **`setDisplayOrder`**= Visningsordningskolumnen anger i vilken ordning alternativen visas i det anpassade fältet. Du kan börja med 1 och fortsätta i stigande ordning för alla alternativ, oavsett vilka fält de tillhör. Det viktiga här är att ha unika nummer för varje alternativ.
-   * Kolumnerna **`setLabel`** och `**setValue`** innehåller vanligtvis samma information och de bör återspegla de namn som du vill ha i Workfront-gränssnittet. Värdet för ett alternativ är det namn som visas i rapporter, till exempel, medan etiketten visas i de anpassade formerna när den kopplas till ett objekt. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Kolumnerna **`setLabel`** och `**setValue`** innehåller vanligtvis samma information och de bör återspegla de namn som du vill ha i Workfront-gränssnittet. Värdet för ett alternativ är det namn som visas i rapporter, till exempel, medan etiketten visas i de anpassade formerna när den kopplas till ett objekt. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = ange `TRUE` om du vill att något av alternativen ska vara dolt.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -296,7 +296,7 @@ När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du me
    >De nya formulären och fälten som du importerade är ännu inte sammankopplade. Formuläret importeras utan anpassade fält. Du måste lägga till fälten manuellt i det nya anpassade formuläret eller i ett annat befintligt anpassat formulär.
 
 
-   Mer information om hur du lägger till fält i anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Mer information om hur du lägger till fält i anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Villkorligt) Om importen inte lyckades får du ett felmeddelande om vad problemet är. Försök att identifiera fältet, bladet och radnumret som problemet påträffades i och korrigera informationen i Excel-filen. Försök sedan importera filen en gång till.
 
