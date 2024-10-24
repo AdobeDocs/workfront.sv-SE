@@ -4,7 +4,7 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8dba597ac5f91a88ff71f57b13b563c398ef4c9b
+source-git-commit: e2db8c095acca049be72ad26ec090867f9590c04
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 >|----|----|
 >| <ul><li>24.11 (14 november 2024)</li><li>24.12 (12 december 2024)</li><li>25.1 (15 januari 2025)</li></ul> | <ul><li>25.1 (16 januari 2025)</li></ul> |
 >
->Observera att för den sista utgåvan av varje kvartal (24.10 i kvartal) kommer användare med fast releaseschema att få releasen en dag i förtid.
+>Observera att för den sista utgåvan av varje kvartal (25.1 detta kvartal) kommer användare med fast releaseschema att få releasen en dag i förtid.
 >
 >Mer information om processen för snabb släppning finns i [Aktivera eller inaktivera processen för snabb släppning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
