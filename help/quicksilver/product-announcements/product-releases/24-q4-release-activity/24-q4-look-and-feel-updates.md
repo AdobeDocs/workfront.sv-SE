@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,12 @@ Vi har uppdaterat rapportgränssnittet så att det matchar designen för andra o
 
 * Vi har lagt till en utökad färgpalett för regler för villkorsstyrd formatering i rapporter. Mer information om villkorsstyrd formatering finns i [Använda villkorsstyrd formatering i vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 * Vi har lagt till en ny&quot;Redigera textläge&quot;-knapp som anger textläge när en kolumn redigeras i rapportbyggaren. Mer information om att redigera rapportvyer i textläge finns i [Redigera en vy i textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* Du kan inte längre redigera titeln för en rapport genom att klicka på titeln. Du kan fortfarande redigera en rapporttitel genom att klicka på Rapportåtgärder > Redigera och sedan ändra titeln. Mer information om hur du redigerar rapporter finns i [Redigera rapportinställningar](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+* Du kan inte längre skapa en gruppering genom att klicka på ett kolumnnamn i grupperingsverktyget. Du kan fortfarande skapa en gruppering baserat på en befintlig kolumn i en rapport genom att markera motsvarande fält i fältlistan Gruppera efter:. Mer information om hur du skapar grupperingar finns i [Skapa grupperingar i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * Vi har lagt till en ny växlingsknapp i rapportfiltergränssnittet för att växla mellan en datumväljare i kalendern och ett textfält med jokertecken för relativt datum när ett datumfält filtreras. Om du dessutom väljer en relativ genväg med jokertecken för datum i rapportfiltergränssnittet fylls nu de associerade jokerfälten automatiskt i baserat på dina val. Mer information om hur du använder jokertecken för relativa datum i rapportfilter finns i [Använda datumbaserade jokertecken för att generera rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 * Användarbaserade jokertecken i rapportfilter föreslår nu relevanta jokertecken för automatisk komplettering baserat på den valda fälttypen. Mer information om användarbaserade jokertecken i rapportfilter finns i [Använda användarbaserade jokertecken för att generera rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 * Rapporter med uppmaningar som delas offentligt visas nu utan uppmaningar för alla användare som kommer åt dem via länken för offentlig delning. Inloggade användare som kommer åt rapporten direkt kan fortfarande tillämpa uppmaningar. Mer information om rapportuppmaningar finns i [Lägga till en uppmaning i en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-* Ändringar i befintliga rapporter som förbättrar deras kompatibilitet med Canvas Dashboards.
+* Vi har gjort ändringar i befintliga rapporter som förbättrar deras kompatibilitet med Canvas Dashboards.
 
 _Uppdateringarna implementeras stegvis i produktionen från och med version 24.10 den 17 oktober 2024. Ändringarna blir tillgängliga för endast ett fåtal kunder i början och blir allt mer tillgängliga över tiden tills de är helt tillgängliga för alla kunder senast 8 november 2024._
 
@@ -58,9 +60,9 @@ _Uppdateringarna implementeras stegvis i produktionen från och med version 24.1
 
 Vi har uppdaterat vyerna, grupperingarna och de äldre filtergränssnitten i listor så att de matchar designen i andra delar av Workfront. Uppdateringarna innehåller ytterligare ändringar av vyer, grupperingar och äldre filter i listor:
 
-* En utökad färgpalett för regler för villkorsstyrd formatering i rapporter. Mer information om villkorsstyrd formatering finns i [Använda villkorsstyrd formatering i vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-* En ny&quot;Redigera textläge&quot;-knapp som anger textläge när du redigerar en kolumn och skapar en ny vy. Mer information om hur du redigerar vyer i textläge finns i [Redigera en vy i textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
-* En ny växla till det gamla filtergränssnittet för att växla mellan en datumväljare i kalendern och ett textfält med jokertecken för relativt datum när du filtrerar efter ett datumfält. Om du dessutom väljer en relativ genväg med jokertecken för datum i rapportfiltergränssnittet fylls nu de associerade jokerfälten automatiskt i baserat på dina val.
+* Vi har lagt till en utökad färgpalett för regler för villkorsstyrd formatering i rapporter. Mer information om villkorsstyrd formatering finns i [Använda villkorsstyrd formatering i vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* Vi har lagt till en ny&quot;Redigera textläge&quot;-knapp för att ange textläge när du redigerar en kolumn och skapar en ny vy. Mer information om hur du redigerar vyer i textläge finns i [Redigera en vy i textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* Vi har lagt till en ny växlingsknapp i det äldre filtergränssnittet för att växla mellan en datumväljare i kalendern och ett textfält med jokertecken för relativt datum när ett datumfält filtreras. Om du dessutom väljer en relativ genväg med jokertecken för datum i rapportfiltergränssnittet fylls nu de associerade jokerfälten automatiskt i baserat på dina val.
 * Användarbaserade jokertecken i äldre filter föreslår nu relevanta jokertecken för automatisk komplettering baserat på den valda fälttypen. Mer information om hur du använder äldre filter finns i [Skapa eller redigera filter i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 _Uppdateringarna implementeras stegvis i produktionen från och med version 24.10 den 17 oktober 2024. Ändringarna blir tillgängliga för endast ett fåtal kunder i början och blir allt mer tillgängliga över tiden tills de är helt tillgängliga för alla kunder senast 8 november 2024._

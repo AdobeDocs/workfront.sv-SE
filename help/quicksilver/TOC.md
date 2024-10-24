@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
+source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
 workflow-type: tm+mt
-source-wordcount: '14549'
+source-wordcount: '14559'
 ht-degree: 0%
 
 ---
@@ -423,6 +423,7 @@ ht-degree: 0%
    * Meddelanden {#announcements}
       * [Meddelanden](product-announcements/announcements/announcements.md)
       * [Schema över funktioner som inte längre stöds](product-announcements/announcements/feature-removal-timeline.md)
+      * [Avskrivningsguide för förbättrad analys](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [Guide för föråldrad hemborttagning](product-announcements/announcements/legacy-home-deprecation.md)
       * [Frågor och svar om underhållsperioden](product-announcements/announcements/maintenance-window-faq.md)
       * [Ändringar som krävs för att lägga till korrektur i tillåtelselista](product-announcements/announcements/proofhq-domain-change-workfront.md)
@@ -929,6 +930,7 @@ ht-degree: 0%
       * [Översikt över uppdateringsavsnittet](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Uppdatera arbete](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Teckengränser i fält](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+      * [Skapa personliga uppgifter](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
       * [Svara på uppdateringar](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [Svara på e-postmeddelanden](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
       * [Tagga andra för uppdateringar](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
@@ -1619,6 +1621,7 @@ ht-degree: 0%
          * [Anpassad vy, filter och gruppering av exempel: artikelindex](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapporter eller listor: visa användare som är kopplade till ett objekt](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filter: visa ofullständiga föregångare mellan projekt](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+         * [Filter: personliga uppgifter](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
          * [Filter: visa ofullständiga projektövergripande efterföljande](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
          * [Filter: visa aktuella projekt som väntar på godkännande](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
          * [Filter: visa endast objekt med godkännandestatus](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
