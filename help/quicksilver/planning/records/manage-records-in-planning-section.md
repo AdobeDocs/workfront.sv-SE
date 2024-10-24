@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -18,27 +18,16 @@ ht-degree: 0%
 
 # Hantera postanslutningar från Workfront-objekt
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 {{planning-important-intro}}
 
-Du kan visa de Workfront Planning-poster som är kopplade till Adobe Workfront-objekt i Planning-delen av ett Workfront-objekt i den vänstra panelen.
+Du kan visa Workfront Planning-poster och deras respektive poster som är kopplade till Adobe Workfront-objekt i följande områden i Workfront:
 
-<!--replace above with this: 
-
-You can display Workfront Planning records and their respective records connected to Adobe Workfront objects in the following areas in Workfront:
-
-* The Planning section of a Workfront object: Displays all record types connected to an object and their respective connected records. 
-* A Planning connection custom field: Displays one record type and its respective connected records .-->
-
-Planeringsavsnittet är tillgängligt för följande Workfront-objekt:
-
-* Projekt
-* Portfolio
-* Program
-<!--* Group
-* Company-->
-
-<!--move the above to a lower place below when releasing Planning connection custom field-->
-
+* Avsnittet Planning för ett Workfront-objekt: Visar alla posttyper som är kopplade till ett objekt och deras respektive anslutna poster.
+* <span class="preview">Ett anpassat fält för planeringsanslutning: Visar en posttyp och dess respektive anslutna poster. </span>
 
 ## Åtkomstkrav
 
@@ -102,13 +91,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <p>I Workfront: Visa eller högre behörigheter för ett projekt, en portfölj eller ett program </a> </p> 
-   <p>I Workfront Planning, Contribute eller högre behörigheter till en arbetsyta </a> </p>  
+   <p>I Workfront Planning kan du visa behörigheter till en arbetsyta om du vill visa anslutna poster eller Contribute eller högre behörigheter till en arbetsyta för att ansluta till eller koppla från poster.</a> </p>  
    <p>Systemadministratörer har behörighet till alla Workfront Planning-arbetsytor, inklusive de som de inte skapade</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn och planeringsområdet för projekt, portföljer och program. </p> Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt för Adobe-planering</a>. </p>  </p>  
+   <td> <p>Om du vill visa Planning-området eller Planning-avsnittet för ett Workfront-objekt måste alla användare, inklusive Workfront-administratörer, tilldelas en layoutmall som innehåller Planning-området på Main Menu (Huvudmeny) och Planning-området för projekt, portföljer och program. </p> Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt för Adobe-planering</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -121,8 +110,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Hantera poster i planeringsavsnittet
 
 Du kan använda Planning-avsnittet för ett Workfront-objekt för att visa alla posttyper och deras respektive poster som är kopplade till Workfront-objektet.
+Planeringsavsnittet är tillgängligt för följande Workfront-objekt:
 
-<!--move the section above starting with "The Planning section is available ..." here-->
+* Projekt
+* Portfolio
+* Program
+<!--* Group
+* Company-->
 
 ### Att tänka på när det gäller planeringsavsnittet för Workfront-objekt
 
@@ -165,7 +159,7 @@ Objektets sida öppnas i Workfront.
       * Postens namn
       * Postens miniatyrbild
       * Namnet på det anslutna postfältet så som det visas i Workfront Planning.
-   * Poster visas under deras respektive arbetsyta.
+   * Poster visas under respektive arbetsyta och posttyp.
 
    ![](assets/planning-section-on-project.png)
 
@@ -186,82 +180,79 @@ Följande saker händer:
    * Workfront-objektet läggs till i Workfront Planning-postens anslutna fält.
    * Värdena för Workfront sökfält som är kopplade till Planning-posten fylls i i Workfront Planning.
 
-<!--
+<div class="preview">
 
-## Manage records in the Planning connection field type
+## Hantera poster i fältet Planering-anslutning
 
-You can use a Planning connection custom field on a Workfront object to view one record type and its respective records connected to the Workfront object. 
+Du kan använda ett anpassat fält för planeringsanslutning på ett Workfront-objekt för att visa en posttyp och dess respektive poster som är kopplade till Workfront-objektet.
 
-You can control which Planning records display for the Workfront object when you create Planning connection custom fields. 
+Du kan styra vilka Planning-posttyper som ska visas för Workfront-objektet när du skapar anpassade fält för Planning-anslutningen.
 
-* The Planning connection field can be populated with Planning records when it is attached to forms for the following Workfront objects:
+* I fältet Planering-anslutning visas Planning-poster när en anslutning har upprättats och när fältet är kopplat till formulär för följande Workfront-objekt:
 
-   * Project
+   * Projekt
    * Portfolio
    * Program
-   * Group
-   * Company
+   * Grupp
+   * Företag
 
-For more information, see [Create a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+Mer information finns i [Skapa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-### Considerations about the Planning connection field type
+### Överväganden om typen av anslutningsfält för planering
 
-Consider the following when you view Workfront Planning records from a Planning connection field of a Workfront object: 
+Tänk på följande när du visar Workfront Planning-poster från ett Planning-anslutningsfält för ett Workfront-objekt:
 
-* You can associate only one record type with one Planning connection field.
-* Your Workfront or group administrator must add a Planning connection field on a Workfront custom form.
-* You must attach the custom form to a Workfront object that can be connected from Workfront Planning, if you have the correct access.
-* Workfront Planning record types must first be connected to Workfront object types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-* You can connect or disconnect records from the Planning connection field of a Workfront object only for objects that can have Workfront Planning connections.
-* You must have Contribute permissions for a workspace in Workfront Planning to be able to connect or disconnect records from the Planning connection field of a Workfront object.
-* You can view a Planning connection field for a Workfront object, even when there are no records connected to the object yet. 
-* You cannot edit a Planning connection field when editing Workfront objects in bulk. 
+* Du kan bara associera en posttyp med ett Planning-anslutningsfält.
+* Du måste bifoga ett anpassat formulär med ett anpassat fält för planeringsanslutning till ett Workfront-objekt som kan anslutas från Workfront Planning, om du har rätt åtkomst.
+* Workfront Planning-posttyper måste först anslutas till Workfront-objekttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Du kan ansluta till eller koppla från poster från planeringsanslutningsfältet för ett Workfront-objekt endast för objekt som kan ha Workfront Planning-anslutningar.
+* Du måste ha Contribute-behörighet för en arbetsyta i Workfront Planning för att kunna ansluta till eller koppla från poster från planeringsanslutningsfältet för ett Workfront-objekt.
+* Du kan inte redigera ett planeringsanslutningsfält när du redigerar flera Workfront-objekt samtidigt.
 
-### Manage record connections from the Planning connection field type
+### Hantera postanslutningar från anslutningstypen Planering
 
-1. Go to one of the following object types that has been connected with a Workfront Planning record type: 
+1. Gå till någon av följande objekttyper som har kopplats till en Workfront Planning-posttyp:
 
-   * Project
+   * Projekt
    * Portfolio
    * Program
-   * Company
-   * Group
+   * Företag
+   * Grupp
 
-1. Click **< Object > Details** in the left panel.
-1. (Conditional) Add a custom form with at least one Planning connection field for the object you selected, if one is not present. 
+1. Klicka på **&lt; Objekt > Detaljer** i den vänstra panelen.
+1. (Villkorligt) Lägg till ett anpassat formulär med minst ett Planning-anslutningsfält för det markerade objektet, om det inte finns något.
 
    >[!NOTE]
    >
-   >Your Workfront or group administrator must first create the form and add a Planning connection field on it before you can add it to an object. 
+   >Workfront- eller gruppadministratören måste först skapa formuläret och lägga till ett planeringsanslutningsfält innan du kan lägga till det i ett objekt.
 
 
-1. Click inside the field to add connected records.
-1. Click the downward-pointing arrow inside the field, to select records from the list. 
+1. Klicka i fältet för att lägga till kopplade poster och klicka sedan på nedåtpilen i fältet för att välja poster från listan.
 
    ![](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
-   >   You cannot add records to Planning connection fields that are associated with Workfront objects other than the object you selected. 
+   >Du kan inte lägga till poster i planeringsanslutningsfält som är kopplade till andra Workfront-objekt än det objekt som du markerade när fältet konfigurerades.
    >
-   >For example, you cannot add records to a Planning connection field created for a Portfolio connection from a Project's custom form. 
+   >Du kan till exempel inte lägga till poster i ett Planning-anslutningsfält som har skapats för en Portfolio-anslutning från ett projekts anpassade formulär.
    >
-   >There is an indication that the object of the field and the object you selected don't match.  
+   >Det finns en indikation på att objektet i fältet och det markerade objektet inte matchar.
    >
    >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
-1. Click outside the list to close it. 
+1. Klicka utanför listan för att stänga den.
 
-   The following things occur:
+   Följande saker händer:
 
-   * The records are immediately connected to the Workfront object and they display in the Planning connection field as well as the Planning section of the Workfront object. 
-   * The Workfront object is added to the Workfront Planning record's connected field. 
-   * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
-1. (Optional) Click the name of a record in the Planning connection field to open it in Workfront Planning. 
-   The record details tab opens in Workfront Planning. 
-   You can review information about the record, or navigate to the record type page. 
+   * Posterna är omedelbart kopplade till Workfront-objektet och visas i anslutningsfältet Planning samt planeringsavsnittet för Workfront-objektet.
+   * Workfront-objektet läggs till i Workfront Planning-postens anslutna fält.
+   * Värdena för Workfront sökfält som är kopplade till Planning-posten fylls i i Workfront Planning.
+1. (Valfritt) Klicka på namnet på en post i anslutningsfältet Planning för att öppna den i Workfront Planning.
+Fliken med postinformation öppnas i Workfront Planning.
+Du kan granska information om posten eller navigera till posttypssidan.
 
-1. (Optional) From the custom form in Workfront, click the **Remove** icon ![](assets/remove-icon.png) on a record to remove it from the Planning connection field and disconnect it from the Workfront object. 
-   The Workfront object is disconnected from the Planning record, and any lookup information from Workfront is removed from the record. 
+1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/remove-icon.png) för en post i det anpassade formuläret i Workfront för att ta bort den från anslutningsfältet Planning och koppla bort den från Workfront-objektet.
+Workfront-objektet kopplas bort från Planning-posten och all sökinformation från Workfront tas bort från posten.
 
--->
+</div>

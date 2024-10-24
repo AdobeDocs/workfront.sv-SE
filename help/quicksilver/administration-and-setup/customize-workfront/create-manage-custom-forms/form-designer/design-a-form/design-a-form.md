@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '5537'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
 
 # Skapa ett anpassat formulär
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Du kan utforma ett anpassat formulär med formulärdesignern i Adobe Workfront. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -85,7 +89,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * [Lägga till bilder, PDF och videoklipp](#add-images-pdfs-and-videos)
    * [Lägg till inbyggda Workfront-fält](#add-workfront-native-fields)
    * [Lägg till Adobe XD-filer](#add-adobe-xd-files)
-     <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
+   * <span class="preview">[Lägg till planeringsanslutningsfält](#add-planning-connection-fields)</span>
 
 ## Lägg till nya eller befintliga fält i det anpassade formuläret
 
@@ -903,102 +907,102 @@ Lägga till en Adobe XD-fil:
 
    Klicka på **Spara och stäng**.
 
-<!--
-### Add Planning connection fields
+<div class="preview">
+
+### Lägg till planeringsanslutningsfält
 
 >[!IMPORTANT]
 >
->The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>Informationen i det här avsnittet gäller Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
 >
->You must have the following to access Workfront Planning:
+>Du måste ha följande för att få tillgång till Workfront Planning:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>* En ny plan och licens för Workfront. Workfront Planning finns inte för tidigare Workfront-planer eller -licenser.
+>* Ytterligare licens för Workfront Planning.
+>* Din organisations instans av Workfront måste integreras med Adobe Unified Experience.
 >
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> En fullständig lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
+Du kan visa poster som är kopplade från Workfront Planning i ett anpassat fält på ett Workfront-objekt genom att lägga till ett anpassat fält för Planning-anslutningen i ett objekts anpassade formulär.
 
-You can add the Planning connection field to all objects' custom forms. However, you can display connected records only on the custom forms associated with Workfront objects that can be connected from Workfront Planning. 
+Du kan lägga till anslutningsfältet Planning i alla objekts anpassade formulär. Du kan emellertid bara visa kopplade poster i anpassade formulär som är kopplade till Workfront-objekt som kan anslutas från Workfront Planning.
 
 >[!NOTE]
 >
->Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
+>Användare som visar information i det anpassade fältet måste ha tillgång till Workfront Planning och till de arbetsytor som innehåller de posttyper som är kopplade till Workfront-objekt.
 
+Så här lägger du till ett planeringsanslutningsfält:
 
-To add a Planning connection field:
-
-1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
-1. On the right side of the screen, configure the options for the custom field:
+1. Leta upp **Planeringsanslutningen** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
+1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
-      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+      <td role="rowheader">Etikett</td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>:</p> <p>Använd inte specialtecken i den här etiketten.</p> 
+      <p>Vi rekommenderar att du väljer en etikett som du lätt kan använda för att identifiera varifrån planeringsposten kommer. Lägg till information som namnet på arbetsytan eller namnet på posttypen. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td role="rowheader">Namn</td>
+      <td> <p>(Obligatoriskt) Namnet är så som systemet identifierar fältet. När du konfigurerar fältet för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
-      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      <td role="rowheader">Instruktioner</td> 
+      <td> <p>(Rekommenderas) Ange eventuell ytterligare information om fältet. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.</p>
+      <p>Här kan du lägga till explicit information om posten och de objekt som du ansluter. </p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Object type</td> 
-      <td><p>(Required) Select a Workfront object type that is connected to a record type in Workfront Planning.</p>
-      You may select from the following object types:
-      <ul><li> Project</li>
-      <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
-       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+      <td role="rowheader">Objekttyp</td> 
+      <td><p>(Obligatoriskt) Välj en Workfront-objekttyp som är ansluten till en posttyp i Workfront Planning.</p>
+      Du kan välja mellan följande objekttyper:
+      <ul><li> Projekt</li>
+      <li> Portfolio</li><li> Program</li><li> Företag</li><li> Grupp</li></ul>
+       <p>Endast Workfront objekttyper för formulärets objekttyper är tillgängliga.</p> <p> Om exempelvis listan Objekttyper längst upp i formulärdesignern visar Projekt, kan du bara välja Projekt i det här fältet och du inte kan välja Portfolio, även om portföljer också kan kopplas till posttyper.</p>
       </td>
      </tr>
      <tr> 
       <td role="rowheader">Workspace</td> 
-      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+      <td> <p>(Obligatoriskt) Markera arbetsytan Planning där posterna som du vill visa i Workfront kommer från.</p> <p> Endast arbetsytor som är kopplade till de objekttyper som du valde i fältet Objekttyp visas. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Record Type</td> 
-      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+      <td role="rowheader">Posttyp</td> 
+      <td><p>(Obligatoriskt) Markera den Workfront Planning-posttyp som har en anslutning till Workfront-objekttypen.</p><p>Endast posttyper som har anslutningar till den objekttyp som du valde i fältet Objekttyp visas. </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+      <td role="rowheader">Anslutningsfält</td> 
+      <td><p>(Obligatoriskt) Markera anslutningsfältet mellan den markerade Planning-posttypen som du vill visa på Workfront-objekten och Workfront-objekttypen. </p> <p> <b>OBS!</b></p><p>Du kan ha flera anslutningsfält mellan samma objekt och posttyper, men du kan bara markera ett fält.</p>  </td> 
      </tr>
     </tbody> 
    </table>
 
-1. (Optional) Repeat the previous steps to add any other fields. 
+1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält.
 
-    or
+   eller
 
-    To copy a field, hover over a field, and click the copy icon.
+   Om du vill kopiera ett fält håller du pekaren över ett fält och klickar på kopieikonen.
 
-    ![copy icon](assets/copy-field.png)
+   ![kopiera ikon](assets/copy-field.png)
 
-1. To save your changes, click **Apply** and move on to another section to continue building your form.
+1. Om du vill spara ändringarna klickar du på **Använd** och går vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
-    or
+   eller
 
-    Click **Save and Close**.
+   Klicka på **Spara och stäng**.
 
-    You can now attach the form to an object connected from Workfront Planning and do one of the following:
+   Nu kan du bifoga formuläret till ett objekt som är anslutet från Workfront Planning och göra något av följande:
 
-    * View Workfront Planning record types connected to the Workfront object
-    * Connect or disconnect records from the Workfront object associated with the form. 
+   * Visa posttyper för Workfront Planning som är anslutna till Workfront-objektet, om det finns några.
+   * Koppla ihop eller koppla från poster från Workfront-objektet.
 
-    For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
--->
+</div>
 
 ## Organisera och förhandsgranska ett formulär med formulärdesignern
 
