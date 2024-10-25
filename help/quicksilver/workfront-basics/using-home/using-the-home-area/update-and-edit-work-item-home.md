@@ -6,9 +6,9 @@ description: Du kan visa och lägga till uppdateringar för ett arbetsobjekt i o
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Du kan visa uppdateringar för alla arbetsobjekt i [!UICONTROL Work List]:
 
 Du kan tillhandahålla uppdateringar för alla arbetsobjekt i listan [!UICONTROL Work]:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** om du vill lägga till någon av följande widgetar:
 
    | Widget | Beskrivning |
@@ -102,7 +102,7 @@ Mer detaljerad information om hur du lägger till uppdateringar finns i [Lägga 
 
 Du kan redigera alla fält på arbetsobjekt som du har tillgång till för redigering.
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** om du vill lägga till någon av följande widgetar:
 
    | Widget | Beskrivning |

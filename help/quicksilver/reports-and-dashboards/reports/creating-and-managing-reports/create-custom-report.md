@@ -6,7 +6,7 @@ description: Du kan ge åtkomst till den information din organisation behöver i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Skapa en anpassad rapport
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 Du kan ge åtkomst till den information din organisation behöver i Adobe Workfront genom att skapa rapporter. Du kan använda någon av de inbyggda rapporterna i Workfront eller skapa anpassade rapporter från grunden.
 
@@ -126,7 +126,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Om du vill ändra en befintlig kolumn klickar du på kolumnen, klickar på ikonen **Ta bort** ![](assets/x-icon-circled.png) till vänster om det aktuella fältet i rutan **Visa i det här kolumnfältet** i det övre vänstra hörnet i rapportverktyget och börjar skriva ett nytt fält och klickar sedan på det när det visas i listan.
+   Om du vill ändra en befintlig kolumn klickar du på kolumnen, klickar på ikonen **Ta bort** ![](assets/remove-column-icon.png) till höger om det aktuella fältet i området **Visa i det här kolumnfältet** i det övre vänstra hörnet i rapportbyggaren och börjar skriva ett nytt fält och klickar sedan på det när det visas i listan.
 
    Mer information om fälten som visas i kolumnerna finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

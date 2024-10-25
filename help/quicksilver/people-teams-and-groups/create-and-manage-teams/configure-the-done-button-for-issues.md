@@ -6,9 +6,9 @@ description: Knappen Klar kan automatiskt ange status för en uppgift eller ett 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Konfigurera knappen [!UICONTROL Done] för problem
 
 Knappen [!UICONTROL Done] kan automatiskt ange status för en aktivitet eller ett problem. Som standard markerar [!DNL Adobe Workfront] ett problem som [!UICONTROL Resolved] när en tilldelad klickar på [!UICONTROL Done] på sin arbetspost.
+
+>[!NOTE]
+>
+>Knappen Klar visas som Markera som färdig i alla områden av Workfront.
 
 ## Ökning
 

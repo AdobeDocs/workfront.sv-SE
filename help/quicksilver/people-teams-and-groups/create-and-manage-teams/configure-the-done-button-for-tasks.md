@@ -6,20 +6,24 @@ description: Knappen Klar kan automatiskt ange status för en uppgift eller ett 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Konfigurera knappen [!UICONTROL Done] för uppgifter
 
-Knappen [!UICONTROL Done] kan automatiskt ange status för en aktivitet eller ett problem. Som standard markeras en uppgift som [!UICONTROL Completed] när en tilldelad klickar på Klar på sin arbetsuppgift.[!UICONTROL Adobe Workfront]
+Knappen [!UICONTROL Done] kan automatiskt ange status för en aktivitet eller ett problem. Som standard markeras en uppgift som [!UICONTROL Completed] när en tilldelad klickar på Markera som klar på sin arbetsuppgift.[!UICONTROL Adobe Workfront]
+
+>[!NOTE]
+>
+>Knappen Klar visas som Markera som färdig i alla områden av Workfront.
 
 ## Ökning
 
-Användare med vissa behörigheter kan konfigurera knappen [!UICONTROL Done] så att den återspeglar vissa statusvärden i systemet. Det finns två olika sätt att använda knappen [!UICONTROL Done] för åtgärder i [!UICONTROL Workfront]:
+Användare med vissa behörigheter kan konfigurera knappen [!UICONTROL Done] så att den associeras med vissa statusvärden i systemet. Det finns två olika sätt att använda knappen [!UICONTROL Done] för åtgärder i [!UICONTROL Workfront]:
 
 * Om användaren har ett tilldelat Home Team kan en [!DNL Workfront]-administratör eller en användare med en [!UICONTROL Plan]-licens konfigurera knappen [!UICONTROL Done] så att den återspeglar vissa statusvärden för teammedlemmar. Se [Konfigurera knappen [!UICONTROL Done] för ett team](#configure-the-uicontrol-done-button-for-a-team) i den här artikeln.
 * Om användaren inte har någon [!UICONTROL Home Team], men har [!UICONTROL Other Teams] i sin profil, söker Workfront efter inställningen för knappen [!UICONTROL Done] i något av de team som är kopplade till användaren. Markeringen är slumpmässig och statusen som är associerad med någon av grupperna används för uppgiften.
@@ -98,7 +102,7 @@ Så här associerar du användare med ett hemteam:
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
 
 1. Klicka på **[!UICONTROL Users]** och välj sedan den eller de användare som du vill associera med ett hemteam.
-1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
+1. Klicka på menyn **[!UICONTROL More]** och sedan på **[!UICONTROL Edit]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
 1. Markera fältet **[!UICONTROL Home Team]** i avsnittet **[!UICONTROL Organization]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.

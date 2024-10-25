@@ -7,9 +7,9 @@ description: Du kan använda filter i Adobe Workfront för att minska mängden i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -71,8 +71,8 @@ Mer information om filter i listor och rapporter finns i följande artiklar:
 
 Du kan antingen använda inbyggda filter eller skapa anpassade filter i följande områden av Workfront:
 
-<!--* Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
+* Startsida\
+  Mer information finns i [Visa objekt i arbetslistan i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Området med förfrågningar. Du kan inte anpassa filter i området Förfrågningar.
 
   Mer information finns i [Leta rätt på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
