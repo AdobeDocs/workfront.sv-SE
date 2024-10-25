@@ -7,9 +7,9 @@ description: Aktivitetsfiltret returnerar ofullständiga föregångare mellan pr
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Så här använder du det här filtret:
 
-1. Gå till en lista med uppgifter.
+1. Gå till en lista med uppgifter eller en uppgiftsrapport.
 1. Välj **Nytt filter** i listrutan **Filter**.
 
-1. Klicka på **Växla till textläge**.
-1. Klistra in följande kod i området **Ange filterregler för rapporten**:
+1. (Villkorligt) Klicka på **Textläge** om du använde filtret från en lista eller på **Växla till textläge** om du använde filtret från en rapport.
+1. Klistra in följande kod i det nya området:
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. Klicka på **Spara filter**.
+1. (Villkorligt) Klicka på **Spara filter** om du har öppnat filtret från en rapport eller **Använd** och sedan **Spara som nytt** om du har öppnat filtret från en uppgiftslista.

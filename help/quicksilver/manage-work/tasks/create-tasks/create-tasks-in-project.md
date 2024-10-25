@@ -7,24 +7,41 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # Skapa uppgifter i ett projekt
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
-Du kan bara skapa uppgifter i ett projekt efter att du har skapat projektet.
+Du kan skapa uppgifter i Adobe Workfront på följande sätt:
 
-När du har skapat ett projekt kanske du vill lägga till uppgifter och ändra dem för att ordna projektplanen. Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
+* Skapa en aktivitet i ett projekt från grunden när projektet har skapats.
 
-<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
+  När du har skapat ett projekt kan du lägga till uppgifter och ändra dem för att ordna projektplanen. Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-I den här artikeln beskrivs hur du skapar åtgärder från grunden. Du kan också skapa uppgifter på följande sätt:
+* Skapa uppgifter genom att lägga till en mall i ett projekt.
+
+  Mer information finns i [Koppla en mall till ett projekt](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+
+* Skapa personliga uppgifter och flytta dem till ett projekt.
+
+  Du kan skapa personliga uppgifter genom att göra något av följande:
+
+   * Skapa en tillfällig arbetsbegäran och skicka den till en användare
+   * Skapa en att göra-uppgift i hemområdet
+
+  Mer information om hur du skapar personliga uppgifter som inte finns i ett projekt finns i [Skapa personliga uppgifter](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+
+  Du kan flytta personliga uppgifter till ett projekt och de blir arbetsuppgifter.
+
+I den här artikeln beskrivs hur du skapar uppgifter från grunden och hur du kan flytta personliga uppgifter till ett projekt.
+
+Du kan också skapa uppgifter på följande sätt:
 
 * Genom att kopiera eller duplicera befintliga uppgifter. Mer information finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * Genom att flytta uppgifter från ett projekt till ett annat. Mer information finns i [Flytta aktiviteter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
@@ -152,3 +169,21 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
          * Klicka på **Ångra** när du vill ångra den senaste ändringen eller **Avbryt** om du vill ångra alla ändringar du har gjort i uppgiftslistan.
          * Om du tidigare klickade på **Ångra** klickar du på **Gör om** för att tillämpa den senaste ändringen som du avbröt.
          * Klicka på **Spara** om du vill spara ändringarna i uppgiftslistan.
+
+## Skapa uppgifter genom att flytta en personlig uppgift till ett projekt
+
+1. (Villkorligt) Se till att du eller andra användare har skapat personliga uppgifter.
+
+   Mer information finns i [Skapa personliga uppgifter](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+1. Skapa ett personligt uppgiftsfilter och tillämpa det på en uppgiftsrapport eller uppgiftslista.
+
+   Mer information finns i [Filtrera: personliga uppgifter](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+
+   ![](assets/personal-tasks-report.png)
+1. Klicka på ett aktivitetsnamn i den personliga aktivitetsrapporten för att öppna den.
+
+   Workfront sparar personliga uppgifter i ett personligt projekt som inte finns med i listan och som alltid namnges enligt följande mönster: &quot;&lt; Användarens fullständiga namn > Uppgifter. Ett personligt projekt kan till exempel heta &quot;Rick&#39;s Tasks&quot;.
+
+1. Klicka på **Mer-menyn** ![](assets/more-icon.png) på uppgiftssidan och klicka sedan på **Flytta**. Mer information om att flytta uppgifter finns i [Flytta uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+
+   När du är klar med att flytta uppgiften visas den i det markerade projektet. Projektets tidslinje kan påverkas av tidslinjen för den nya aktiviteten.

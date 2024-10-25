@@ -6,9 +6,9 @@ description: Det planerade slutförandedatumet för en utgåva är det datum då
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Du måste ha behörigheten Redigera för problem och Hantera för att kunna uppd
 Du kan ställa in det planerade slutförandedatumet för ett problem manuellt i följande områden i Workfront:
 
 * I rutan Redigera problem eller under Ärendeinformation när du skapar eller redigerar ett problem. Mer information finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
-* I området Hem om det planerade slutförandedatumet visas när du visar ett problem. Mer information finns i [Uppdatera eller redigera ett arbetsobjekt i hemområdet](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* Under Hem om Planerat slutförandedatum visas på panelen Sammanfattning av ett problem. Mer information finns i [Uppdatera eller redigera ett arbetsobjekt i hemområdet](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * I utgåvans rubrik. Mer information finns i [Nya objektrubriker](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * I en problemlista eller rapport när fältet Planerat slutförandedatum visas i vyn.
 

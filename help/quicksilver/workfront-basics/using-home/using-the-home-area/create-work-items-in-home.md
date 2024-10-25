@@ -6,9 +6,9 @@ description: Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Ho
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa ett personligt att göra-objekt
 
-Du kan skapa ett personligt att göra-objekt som bara är tillgängligt för dig i [!UICONTROL Home]-området:
+Du kan skapa ett personligt att göra-objekt i området [!UICONTROL Home]. Att göra-objekten är personliga uppgifter som du själv skapar.
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. (Villkorligt) Lägg till att göra-widgeten på hemskärmen. Klicka på **Anpassa** och sök efter **Att göra**.
+Du och andra användare kan visa dina personliga uppgifter i en personlig uppgiftsrapport. Därifrån kan de vid behov lägga till dem i projekt.
+
+Så här skapar du ett att göra-objekt:
+
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Klicka på **Anpassa** och sedan på **Att göra-uppgifter** för att lägga till att göra-widgeten på hemskärmen.
 1. Gå till widgeten **Att göra** och klicka sedan på **Lägg till att göra**.
-1. Skriv
+1. Skriv namnet på ditt personliga att göra-objekt och klicka sedan på Enter.
 1. (Valfritt) Klicka på ikonen **Datum** ![](assets/date-icon.png) för att lägga till ett förfallodatum för objektet.
    ![](assets/my-work-to-dos.png)
-
-
+1. (Valfritt) Skapa en personlig uppgiftsrapport eller ett filter. Mer information om hur du skapar ett personligt uppgiftsfilter finns i [Filter: personlig uppgift](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+Du kan visa dina att göra-uppgifter och andra användares att göra-uppgifter i den personliga uppgiftsrapporten.
 
 ## Lägga till en uppgift i ett projekt
 
