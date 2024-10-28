@@ -2,25 +2,29 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 'Filtrera: Rapport om godkännande av korrektur för att utesluta tidigare korrekturversioner'
+title: 'Filter: Korrekturgodkännanderapport för att utelämna tidigare korrekturversioner'
 description: I en korrekturgranskningsrapport kan du använda filtret Är aktuell dokumentversion för att endast inkludera de aktuella versionerna av korrektur som väntar på ditt godkännande.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # Filter: Rapport för korrekturgodkännande om du vill utesluta tidigare korrekturversioner
 
+<!--Audited: 10/2024-->
+
 På en korrekturgodkännanderapport kan du använda filtret **Är aktuell dokumentversion** för att endast inkludera de aktuella versionerna av korrektur som väntar på ditt godkännande.
 
-Detta är användbart om du till exempel har ombetts att godkänna korrektur som har flera versioner. När du kör rapporten Korrektur på godkännande med filtret Är aktuell dokumentversion visas endast den aktuella versionen av varje korrektur som väntar på ditt godkännande, utan tidigare versioner som du inte längre behöver arbeta med. 
+Detta är användbart om du till exempel har ombetts att godkänna korrektur som har flera versioner. När du kör rapporten Korrektur på godkännande med filtret Är aktuell dokumentversion visas endast den aktuella versionen av varje korrektur som väntar på ditt godkännande, utan tidigare versioner som du inte längre behöver arbeta med.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -29,30 +33,38 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra ett filter </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filtrera korrekturgodkännanderapport för att utelämna tidigare korrekturversioner
+
+Du kan skapa ett filter för en korrekturgodkännanderapport.
 
 1. Om du redan har en rapport för korrektur av godkännande öppnar du den.
 
@@ -62,15 +74,20 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Om du vill skapa en egen korrekturgranskningsrapport klickar du på huvudmenyn ![](assets/main-menu-icon.png) och sedan på **Rapporter** ![](assets/reports-in-main-menu.png). Klicka på **Ny rapport**. Bläddra till och klicka på **Korrektur för godkännande** i listan som visas. Klicka på **Spara + stäng**, skriv ett **rapportnamn** (valfritt) och klicka sedan på **Spara rapport**.
+   Om du vill skapa en egen korrekturinställningsrapport klickar du på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig, och klickar sedan på **Rapporter** ![](assets/reports-in-main-menu.png) .
 
-1. Klicka på **Rapportera åtgärder > Redigera**.
+1. Klicka på **Ny rapport**. Listan med objekttyper visas.
+1. Klicka på **Korrektur på godkännande** i listan.
+Report builder öppnas.
 1. Klicka på **Filter** och sedan på **Lägg till en filterregel**.
 
    <!--
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tell Proof Lehi this isn't visible unless you scroll to it over on the right, not at all obvious. When on a laptop.</p>
    -->
 
-1. Klicka på **Korrektur för godkännande**.
-1. Klicka på **Är aktuell dokumentversion** i listan som visas.
-1. Klicka på **Spara + stäng** i det nedre vänstra hörnet av Adobe Workfront och klicka sedan på **Spara rapport** i den ruta som visas.
+1. Klicka i rutan **Ange filterregler för rapporten** och välj sedan **Korrektur för godkännande** i listan.
+1. Klicka på **Är aktuell dokumentversion** i listan under objektet **Korrekturgodkännande**.
+1. Välj Lika med för filtermodifieraren och välj sedan Sant.
+1. Klicka på **Spara + stäng** i det nedre vänstra hörnet av Adobe Workfront och klicka sedan på **Använd** i den ruta som visas.
+
+   I rapporten Korrektur för godkännande visas endast korrektur som är kopplade till de aktuella versionerna av ett dokument, om några korrekturgodkännanden matchar det här filtreringsvillkoret.

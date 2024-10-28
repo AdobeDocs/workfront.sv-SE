@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Gruppera en rapport efter ett anpassat fält som har flera val
+title: Gruppera en rapport efter ett anpassat fält som har valts flera gånger
 description: Du kan bara gruppera efter värdet i ett anpassat fält med flera val i en Adobe Workfront-rapport genom att använda textläge.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 # Gruppera en rapport efter ett anpassat fält som har flera val
+
+<!--Audited: 10/2024-->
 
 Du kan bara gruppera efter värdet i ett anpassat fält med flera val i en Adobe Workfront-rapport genom att använda textläge.
 
@@ -37,6 +39,8 @@ Mer information om hur du använder textläge finns i artikeln [Översikt över 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -44,28 +48,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en gruppering </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gruppera en rapport efter anpassade fält som har flera val
 
@@ -75,17 +85,17 @@ Om du vill kunna gruppera efter ett anpassat fält med flera val måste du ha f�
   Mer information om hur du skapar anpassade formulär och lägger till anpassade fält till dem finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Koppla det anpassade formuläret till objekt.
-* Fyll det anpassade fältet för flera val med ett värde för varje objekt. 
+* Fyll det anpassade fältet för flera val med ett värde för varje objekt.
 
 Så här grupperar du ett anpassat fält i en rapport efter flera val:
 
 1. Skapa en rapport eller redigera en befintlig rapport där du vill lägga till en gruppering för ett anpassat fält som består av flera val.\
    Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
+1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.
 1. Välj fliken **Grupperingar**.
 1. Klicka på **Växla till textläge**.
 
-1. Markera texten i rutan **Gruppera din rapport** och ersätt den med följande kod:
+1. Markera texten i rutan **Gruppera efter** och ersätt den med följande kod:
 
    <pre>
    group.0.displayName=Flera val, eget fältnamn
@@ -94,7 +104,7 @@ Så här grupperar du ett anpassat fält i en rapport efter flera val:
    group.0.textmode=true
    </pre>
 
-1. Ersätt&quot;Flerval anpassat fältnamn&quot; med det faktiska namnet på det anpassade fältet som det visas i Workfront.
+1. Ersätt&quot;Flerval anpassat fältnamn&quot; med det faktiska namnet på det anpassade fältet som det visas i din Workfront-instans.
 1. Klicka på **Spara och stäng**.
 
    Objekten i rapporten grupperas efter värdena i det anpassade fältet med flera val.

@@ -3,19 +3,21 @@ content-type: reference
 product-area: reporting;projects
 keywords: beräknad,aggregat,avancerad,vyer
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering'
+title: 'Gruppering: Visa resultatet av att aggregera flera beräknade värden i en gruppering'
 description: Du kan använda textläge i en kolumn för att visa en beräkning mellan två fält i vyn för en rapport eller lista. Varje rad visar beräkningen för varje objekt i rapporten eller listan.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering
+
+<!--Audited: 10/2024-->
 
 Du kan använda textläge i en kolumn för att visa en beräkning mellan två fält i vyn för en rapport eller lista. Varje rad visar beräkningen för varje objekt i rapporten eller listan.
 
@@ -25,6 +27,8 @@ Du kan visa det aggregerade värdet för flera objekt i en beräknad vy i samma 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -32,33 +36,39 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en gruppering </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa resultatet av sammanställning av flera beräknade värden i en gruppering
 
 1. Gå till en aktivitetsrapport och klicka på **Rapportåtgärder** > **Redigera**.
-1. Klicka på **Lägg till gruppering** på fliken **Grupperingar** och börja skriva **Projektnamn** i fältet **Gruppera din rapport** > **Först av**. Markera sedan grupperingen när den visas i listan.
+1. Klicka på **Lägg till gruppering** på fliken **Grupperingar** och börja skriva **Projektnamn** i fältet **Gruppera efter**. Välj sedan **Projekt > Namn** när det visas i listan.
 
 1. Klicka på **Lägg till kolumn** på fliken **Kolumner(vy)** och börja sedan skriva **Planerade timmar** i fältet **Visa i den här kolumnen**. Markera sedan den när den visas i listan.
 
@@ -66,10 +76,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >
    >Börja alltid lägga till så mycket information som du vill i standardgränssnittet innan du redigerar information i textläge. Lägg till fält som är närmast eller innehåller så mycket information som möjligt för beräkningen som du försöker göra.
 
-1. I fältet **Sammanfatta den här kolumnen med** väljer du **Summa** och klickar sedan på **Klar**.
-1. Klicka på **Växla till textläge** i den kolumn du lade till.
-1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
-1. Ersätt `valuefield `- och `aggregator.valuefield`-raderna med raderna markerade i följande textläge:
+1. I fältet **Sammanfatta den här kolumnen med** väljer du **Summa**.
+1. Klicka på **Växla till textläge** i den kolumn du lade till och klicka sedan på **Redigera textläge**.
+1. Ersätt texten i rutan med följande exempel på textläge:
 
    ```
    valueformat=compound
@@ -93,5 +102,5 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >
    >
    >Definitionen `minutesAsHoursString` för raden `aggregator.displayformat` betyder att du inte behöver dela upp varje fält med 60 som i `valueexpression` för resultaten. `aggregator.valuefield=workRequired` blir: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
-
+1. Klicka på **Klar**.
 1. Klicka på **Spara+Stäng**.
