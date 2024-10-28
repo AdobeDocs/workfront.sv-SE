@@ -6,14 +6,19 @@ description: Vi rekommenderar att du granskar allt interaktivt innehåll med Des
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # Konfigurera korrektur av interaktivt innehåll i Web Proofing Viewer
+
+>[!IMPORTANT]
+>
+>Det här är ett äldre webbläsartillägg som inte längre stöds. Vi rekommenderar att du installerar det nya webbläsartillägget i betaversionen: [Adobe Workfront Review Tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+
 
 Vi rekommenderar att du granskar allt interaktivt innehåll med Desktop Proofing Viewer. Om organisationens principer förhindrar detta kan Workfront-administratören konfigurera systemet så att det använder Web Proofing Viewer för interaktiv korrektur. Jämförande information om dessa två visningsprogram finns i [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer - översikt](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
@@ -47,5 +52,3 @@ Webbkorrekturläsaren har följande begränsningar:
 1. Klicka på **Läs in korrekturet igen** i Web Proofing Viewer.
 
 När tillägget är installerat i webbläsaren visas en statisk skärmbild av ditt innehåll varje gång du klickar på **Lägg till kommentar**. På den här skärmbilden kan du lägga till kommentarer med markeringar.
-
- 

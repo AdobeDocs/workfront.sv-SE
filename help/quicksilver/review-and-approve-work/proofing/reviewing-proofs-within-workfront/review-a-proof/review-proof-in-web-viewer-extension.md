@@ -5,9 +5,9 @@ title: Granska interaktivt innehåll i tillägget för webbkorrektur
 description: Adobe Workfront granskningsverktyg är ett webbläsartillägg som gör att du kan kontrollera interaktivt innehåll i en ZIP-fil eller med en URL.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: def2526e2e1bb83998f0adc221b3011c471f72f8
+source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Granska interaktivt material med Adobe Workfront granskningsverktyg
 
-<span class="preview">Adobe Workfront Review Tool will be available on November 1, 2024.</span>
+<span class="preview">Adobe Workfront Review Tool will be available on November 7, 2024. Det här tillägget är för närvarande i betaversion.</span>
 
-Adobe Workfront granskningsverktyg är ett webbläsartillägg som gör att du kan kontrollera interaktivt innehåll i en ZIP-fil eller med en URL. Adobe Workfront granskningsverktyg finns i följande webbläsare:
+Adobe Workfront granskningsverktyg är ett webbaserat webbläsartillägg som gör att du kan kontrollera interaktivt innehåll i en ZIP-fil eller med en URL. Adobe Workfront granskningsverktyg finns i följande webbläsare:
 
 * Firefox
 * Chrome
@@ -25,24 +25,38 @@ Adobe Workfront granskningsverktyg är ett webbläsartillägg som gör att du ka
 
 För webbplatser som förhindrar att de öppnar sin webbplats i iFrames, till exempel Figma, rekommenderar vi att du använder Desktop Proof Viewer.
 
-## Förutsättningar
 
-Om du vill använda webbgranskningsverktyget måste en Workfront-administratör inaktivera inställningen som automatiskt öppnar Desktop Proofing Viewer för interaktivt innehåll:
+## Använd Adobe Workfront granskningsverktyg som standardvisningsprogram för URL- och ZIP-korrektur
+
+Om du vill använda webbgranskningsverktyget för URL- och ZIP-korrektur måste en Workfront-administratör justera standardinställningen för interaktiva korrektur.
 
 1. Klicka på **Korrektur** på Workfront huvudmeny.
 1. Klicka på **Kontoinställningar** och sedan på fliken **Inställningar** .
 1. I avsnittet **Korrekturinställningar** letar du reda på **Desktop Proofing Viewer for Interactive proofing** och klickar på **Setup**.
-1. Välj **Inaktiverad** i listrutan.
+1. Välj **Inaktiverad** i listrutan. Interaktiva korrektur som skapats från en URL- eller ZIP-fil öppnas nu automatiskt i Adobe Workfront Review-verktyget, som är en webbaserad webbläsare.
 1. Klicka på **Spara**.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Den här ändringen gäller för alla interaktiva korrektur i förhandsgransknings- och produktionsmiljöer. Vi rekommenderar att du testar den nya upplevelsen i förhandsvisningsmiljön innan du aktiverar den i Production. Du kan enkelt växla tillbaka till Desktop Viewer genom att ändra kontoinställningen till antingen **Aktiverad för alla interaktiva korrektur** eller **Endast aktiverad för interaktiva korrektur som skapats från en URL**.
+>Den här ändringen gäller för alla interaktiva korrektur i förhandsgransknings- och produktionsmiljöer. Vi rekommenderar att du testar den nya upplevelsen i förhandsvisningsmiljön innan du aktiverar den i Production. Du kan enkelt växla tillbaka till Desktop Viewer genom att ändra kontoinställningen till **Aktiverad för alla interaktiva korrektur**.
 
+## Använd Adobe Workfront granskningsverktyg som standardvisningsprogram endast för ZIP-korrektur
+
+Om du bara vill använda webbgranskningsverktyget för ZIP-korrektur måste en Workfront-administratör justera standardinställningen för interaktiva korrektur.
+
+1. Klicka på **Korrektur** på Workfront huvudmeny.
+1. Klicka på **Kontoinställningar** och sedan på fliken **Inställningar** .
+1. I avsnittet **Korrekturinställningar** letar du reda på **Desktop Proofing Viewer for Interactive proofing** och klickar på **Setup**.
+1. Välj **Endast aktiverad för interaktiva korrektur som skapats från en URL** i listrutan. Interaktiva korrektur som skapats från en ZIP-fil öppnas nu automatiskt i Adobe Workfront Review-verktyget, som är en webbaserad webbläsare. Interaktiva korrektur som skapats från en URL-adress är fortfarande öppna i Desktop Proofing Viewer.
+1. Klicka på **Spara**.
+
+>[!NOTE]
+>
+>Den här ändringen gäller för alla interaktiva korrektur i förhandsgransknings- och produktionsmiljöer. Vi rekommenderar att du testar den nya upplevelsen i förhandsvisningsmiljön innan du aktiverar den i Production. Du kan enkelt växla tillbaka till Desktop Viewer genom att ändra kontoinställningen till **Aktiverad för alla interaktiva korrektur**.
 
 ## Installera tillägget
 
-Granskare och godkännare måste installera Adobe Workfront Review i någon av följande webbläsare:
+Granskare och godkännare måste installera Adobe Workfront granskningsverktyg. i någon av följande webbläsare:
 
 * [Firefox-tillägg](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
@@ -52,8 +66,10 @@ Granskare och godkännare måste installera Adobe Workfront Review i någon av f
 
 När du har installerat tillägget öppnas interaktiva korrektur automatiskt i Adobe Workfront granskningsverktyg.
 
+>[!IMPORTANT]
+>
+>Du måste ta bort det äldre tillägget för Web Viewer för att kunna använda verktyget Adobe Workfront Review.
 
-Inställningen för att öppna Desktop Proofing Viewer for Interactive Proofing måste vara inaktiverad för att du ska kunna använda Workfront granskningsverktyg. Mer information om hur du inaktiverar den här inställningen finns i avsnittet [Förutsättningar](#prerequisites) ovan.
 
 
 
