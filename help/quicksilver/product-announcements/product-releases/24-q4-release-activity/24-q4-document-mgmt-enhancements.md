@@ -4,9 +4,9 @@ description: Förbättringar av dokumenthanteringen i det fjärde kvartalet 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >~~Förhandsversion: 3 oktober 2024~~; Produktion för alla kunder: Med version 24.10 (17 oktober 2024)
->
->_Den här funktionen har tillfälligt tagits bort från förhandsgranskningen._
 
 Nu kan du visa ett dokuments beslutsstatus direkt i dokumentlistan.
 
