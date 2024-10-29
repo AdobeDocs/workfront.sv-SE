@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,34 @@ ht-degree: 0%
 
 Om brandväggen eller e-postservern är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista för att tillåta öppen kommunikation mellan din miljö och [!DNL Adobe Workfront Fusion].
 
-## Identifiera ditt datacenter
+Du kan lägga till alla Fusion-IP-adresser och domäner på tillåtelselista, eller så kan du hitta ditt Fusion-kluster och bara lägga till IP-adresser och domäner för det klustret.
+
+## Lägg till alla Fusion-IP-adresser och domäner
+
+Lägg till följande IP-adresser i tillåtelselista:
+
+* 52.30.133.50
+* 54.220.93.204
+* 34.254.76.122
+* 54.244.142.219
+* 52.39.217.230
+* 44.241.82.96
+* 100.20.126.137
+* 34.223.32.4
+* 52.39.176.220
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+Om din organisation använder utgående nätverksfiltrering lägger du till följande domän i tillåtelselista för att ge ditt system tillgång till Workfront Fusion.
+
+* hook.app.workfrontfusion.com
+* hook.app-eu.workfrontfusion.com
+* hook.app-az.workfrontfusion.com
+
+## Lägg endast till Fusion-IP-adresser och domäner för ditt kluster
+
+### Identifiera ditt datacenter
 
 IP-adresserna varierar beroende på var data lagras.
 
@@ -43,7 +70,7 @@ Om du öppnar Fusion via experience.adobe.com kan du kontrollera nätverksfliken
 | Anrop till `https://eu.fusion.adobe.com` | EU datacenter |
 | Anrop till `https://az.fusion.adobe.com` | Azure datacenter |
 
-## IP-adresser för Workfront Fusion
+### Lägg till IP-adresser och domäner för ditt datacenter
 
 Lägg till följande IP-adresser i tillåtelselista för att [!DNL Workfront Fusion] ska kunna komma åt ditt system.
 
