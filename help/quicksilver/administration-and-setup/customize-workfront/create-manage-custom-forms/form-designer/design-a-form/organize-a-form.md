@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
+source-git-commit: bd1635dbcd9a49969b99901faf9e3a4744241001
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,10 @@ Om du lägger till en annan objekttyp i formuläret (Portfolio, Program, Dokumen
 
 1. (Valfritt) Om du vill placera ett anpassat fält eller en widget ovanför eller under ett annat fält drar du fältet ovanför eller nedanför tills en vågrät blå linje visas mellan objekten.
 
-<div class="preview">
+1. Om du vill flytta ett anpassat fält till ett annat avsnitt i formuläret kan du dra och släppa det på plats, <span class="preview">eller klicka på ikonen **Flytta till** i fältet och markera det avsnitt som du vill flytta det till.</span>
 
-1. Om du vill flytta ett anpassat fält till ett annat avsnitt i formuläret kan du dra och släppa det på plats eller klicka på ikonen **Flytta till** i fältet och markera det avsnitt som du vill flytta det till.
-
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Flytta fält till ett avsnitt](assets/move-field-to-section.png)
-
-</div>
 
 1. Om du vill spara ändringarna klickar du på **Använd**
 
