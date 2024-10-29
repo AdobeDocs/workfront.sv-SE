@@ -7,9 +7,9 @@ description: Med Adobe Workfront kan du snabbt och enkelt skicka meddelanden som
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
+source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,8 @@ Det här alternativet är bara tillgängligt om du har en Standard-, Plan- eller
 
 1. Markera den eller de användare som du vill skicka ett meddelande till och klicka på [!UICONTROL **Skicka uppdatering till användare**].
 1. Skriv meddelandet i fönstret [!UICONTROL Send update to user].
+
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
 
    <span class="preview">![Meddelandeanvändare i fönstret Skicka uppdatering till ](assets/send-message-to-user-dialog-from-user-list.png)</span>
 
