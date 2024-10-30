@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Rapport: kombinerad vy och gruppering av aktiviteter och utgåvor'
+title: 'Rapport: Kombinerad aktivitet och problemvy och gruppering'
 description: Den här rapporten om arbetsuppgift visar både uppgifter och problem som användare har accepterat att arbeta med i en rapport. Det är bäst när det kombineras med en anpassad gruppering.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bc99e303047b989b972974b398420a9180e40874
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
 
 # Rapport: vy och gruppering av kombinerade uppgifter och utgåvor
+
+<!--Audited: 10/2024-->
 
 Den här rapporten om arbetsuppgift visar både uppgifter och problem som användare har accepterat att arbeta med i en rapport. Det är bäst när det kombineras med en anpassad gruppering.
 
@@ -22,11 +24,13 @@ Den här rapporten använder `sharecol=true` i vyn för att kombinera flera fäl
 
 >[!TIP]
 >
-> I vyn Arbetsobjekt visas endast uppgifter och ärenden som har accepterats av de användare som har tilldelats dem. Den här rapporten visar inte arbetsobjekt som inte har flyttats från listorna Arbetsbegäranden eller Gruppförfrågningar i användarens lista Arbeta på.
+>  I vyn Arbetsobjekt visas endast uppgifter och ärenden som har accepterats av de användare som har tilldelats dem. Den här rapporten visar inte arbetsobjekt som inte har flyttats från listorna Arbetsbegäranden eller Gruppförfrågningar i användarens lista Arbeta på.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -35,40 +39,47 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Bygg en rapport med en kombinerad vy och gruppering av uppgifter och utgåvor
 
 Så här skapar du en rapport med den här vyn:
 
-1. Klicka på **Rapporter** på **huvudmenyn** ![](assets/main-menu-icon.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Rapporter** .
 
-1. Klicka på **Ny rapport** och välj objektet **Arbetsobjekt** i listrutan.
+1. Klicka på **Ny rapport** > **Mer** > **Arbetsobjekt** i listrutan.
 
-1. Klicka på rubriken för den enda kolumn som visas i området **Förhandsvisa kolumn**.
+1. Klicka på rubriken för den enda kolumn som visas i området **Förhandsvisa kolumn**. Detta är kolumnen **Ext Ref**.
 1. Klicka på **Växla till textläge**.
-1. För musen över textlägesområdet och klicka på **Klicka för att redigera text**.
-1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
+1. För musen över textlägesområdet och klicka på **Redigera textläge**.
+1. Ta bort texten som du söker i textrutan och ersätt den med följande kod:
 
    ```
    column.0.description=Task or Issue 
@@ -259,8 +270,9 @@ Så här skapar du en rapport med den här vyn:
    column.15.width=1
    ```
 
+1. Klicka på **Klar**.
 1. (Valfritt) Klicka på **Grupperingar** om du vill lägga till en gruppering i rapporten.
-1. (Valfritt) Om du lägger till en gruppering klickar du på **Växla till textläge**.
+1. (Valfritt och villkorligt) Om du lägger till en gruppering klickar du på **Växla till textläge**.
 1. (Valfritt) Ersätt texten i området för grupperingsläge med följande kod:
 
    ```
@@ -273,3 +285,4 @@ Så här skapar du en rapport med den här vyn:
    Den här grupperingen grupperar alla uppgifter tillsammans och alla ärenden tillsammans.
 
 1. Klicka på **Spara + Stäng**.
+1. (Valfritt) Uppdatera rapportens namn och klicka sedan på **Använd**.

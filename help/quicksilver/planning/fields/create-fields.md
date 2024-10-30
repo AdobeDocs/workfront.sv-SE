@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 95f21f064c5298dc6d2e1c24872ee049f77c3fac
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '3612'
+source-wordcount: '3689'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 0%
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # Skapa fält
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -233,7 +238,7 @@ Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till e
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumnrubrik i en tabell.
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumnrubrik i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
 1. Klicka på **Skapa**.
 
    Det nya enradiga fältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
@@ -366,7 +371,7 @@ Nummerfälttyper samlar in information i talformat.
 
 Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**. <!--change screen shot for preview-->
 
    ![](assets/percentage-field-type.png)
 
@@ -376,9 +381,23 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
    * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa procentvärden i det här fältet. Det här alternativet är som standard avmarkerat.
 
-   >[!NOTE]
-   >
-   >    Om du väljer Tillåt negativa tal och negativa värden lagras på posterna som fältet är kopplat till, kan du inte längre avmarkera inställningen i framtiden.
+     >[!NOTE]
+     >
+     >    Om du väljer Tillåt negativa tal och negativa värden lagras på posterna som fältet är kopplat till, kan du inte längre avmarkera inställningen i framtiden.
+
+   <!--<div class="preview">  
+
+    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
+        * **Number**: The percent value displays as a number followed by the percentage sign. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+
+    >[!NOTE]
+    >
+    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
+    >* You can change the Show as selection when editing the field later. 
+    </div>-->
+
 
 1. Klicka på **Skapa**.
 

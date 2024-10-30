@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppering: redigera visningsnamnet i en gruppering'
+title: 'Gruppering: Redigera visningsnamnet i en gruppering'
 description: Du kan ändra namn på grupperingar i listor och rapporter till något som är mer välbekant för användarna.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Du kan ändra den här grupperingen i textläge om du vill visa ett namn som är
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -37,37 +39,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
 
-<p>Nytt: </p>
-   <ul>
-   <li> <p>Medarbetare som ändrar en gruppering </p></li>
-   <li><p>Standard för att ändra en rapport</p></li></ul>
-
-<p> Aktuell:</p>
-   <ul>  
-   <li><p>Begäran om att ändra en gruppering </p></li>
-   <li><p>Planera att ändra en rapport</p></li> </td> 
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Redigera visningsnamnet i en gruppering
 
@@ -76,7 +75,7 @@ Så här ändrar du visningsnamnet i en projektgruppering:
 1. Gå till en lista med projekt.
 1. Välj **Ny gruppering** i listrutan **Gruppering**.
 
-1. Klicka på **Lägg till gruppering** och börja skriva &quot;Portfolio-namn&quot; i fältet **Först av:**. Markera grupperingen när den visas i listan.
+1. Klicka på **Lägg till gruppering** och börja skriva &quot;Portfolio-namn&quot; i fältet **Gruppera efter:**. Markera grupperingen när den visas i listan.
 
 1. Klicka på **Växla till textläge**.
 1. Gör något av följande:
@@ -87,7 +86,7 @@ Så här ändrar du visningsnamnet i en projektgruppering:
      `group.0.displayname=Your Value`
 
 
-     Eller i det här fallet:
+     Lägg till exempel till följande kod för att ändra visningsnamnet till &quot;Portfolio&quot;:
 
      `group.0.displayname=Portfolio`
 
@@ -95,7 +94,7 @@ Så här ändrar du visningsnamnet i en projektgruppering:
 
      `group.0.name=Your Value`
 
-     Eller i det här fallet:
+     Lägg till exempel till följande kod för att ändra visningsnamnet till &quot;Portfolio&quot;:
 
      `group.0.name=Portfolio`
 
@@ -107,5 +106,6 @@ Så här ändrar du visningsnamnet i en projektgruppering:
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Klicka på **Klar** och sedan på **Spara gruppering**.
+1. (Valfritt) Uppdatera grupperingsnamnet och klicka sedan på **Spara gruppering**.
 
    Grupperingens standardnamn ändras enligt textlägesinformationen.

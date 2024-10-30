@@ -1,14 +1,14 @@
 ---
 title: Anslut poster
-description: När du har skapat anslutningar mellan posttyper kan du koppla enskilda poster till varandra.
+description: När du har skapat anslutningar mellan posttyper kan du koppla enskilda poster till varandra. Du kan visa information från en post i en annan post när du ansluter dem.
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 # Koppla poster
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
-Du kan ansluta Adobe Workfront Planning-poster till varandra eller till objekt från andra program.
+Du kan ansluta Adobe Workfront Planning-poster till varandra eller till objekt från andra program. Du kan visa information från en post i en annan post när du ansluter dem.
 
 I den här artikeln beskrivs hur du kan ansluta poster. Mer allmän information om att ansluta poster finns i [Översikt över anslutna poster](/help/quicksilver/planning/records/connected-records-overview.md).
 
@@ -129,11 +133,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-## Krav för att ansluta poster
+## Att tänka på vid anslutning av poster
 
-Om du vill koppla poster till andra poster eller objekt måste du ha följande:
+* Om du vill koppla poster till andra poster eller objekt måste du ha följande:
 
-* Minst en arbetsyta, posttyp och post.
+   * Minst en arbetsyta, posttyp och post.
 
   Mer information finns i följande artiklar:
 
@@ -141,7 +145,9 @@ Om du vill koppla poster till andra poster eller objekt måste du ha följande:
    * [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md)
    * [Skapa poster](/help/quicksilver/planning/records/create-records.md)
 
-* Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+* Du kan koppla en eller flera poster eller objekt till varandra. Detta beror på vilken anslutningstyp du valde när du kopplar posten eller objekttyperna. Mer information finns i [Översikt över posttyper för anslutning](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Koppla ihop poster från Workfront Planning
 
@@ -172,9 +178,10 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 
    >[!TIP]
    >
-   >    Om bara bilden av posten markerades för att visas när posttyperna var anslutna, visas bara miniatyrbilden eller ikonen för posten i det anslutna fältet. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >Om bara bilden av posten markerades för att visas när posttyperna var anslutna, visas bara miniatyrbilden eller ikonen för posten i det anslutna fältet. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >
 
-
+1. <span class="preview"> (Villkorligt) Om du valde En till många eller En till en för anslutningstypen när du anslöt posttyperna, och du försöker ansluta en post eller ett objekt som redan är anslutet någon annanstans, får du ett varningsmeddelande om att det kommer att tas bort från den ursprungliga anslutningen om du ansluter den igen. Klicka på **Anslut** för att tillåta borttagning och anslutning av posten, eller **Avbryt** för att gå tillbaka till fältet och välja en annan post.</span>
 1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta, och du vill lägga till den, klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i avsnittet Skapa poster när du ansluter dem i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]

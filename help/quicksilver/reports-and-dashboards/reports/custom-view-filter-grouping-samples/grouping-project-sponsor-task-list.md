@@ -7,9 +7,9 @@ description: Med den här uppgiftsgrupperingen kan du gruppera uppgifter efter p
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Med den här uppgiftsgrupperingen kan du gruppera uppgifter efter projektsponsor
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -29,42 +31,48 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en gruppering </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gruppera efter projektsponsorer för en uppgiftslista
 
+
 Så här använder du den här grupperingen:
 
-1. Gå till listan med uppgifter.
-1. I listrutan **Gruppering** väljer du **Ny gruppering**.
+1. Gå till en lista med uppgifter.
+1. Välj **Ny gruppering** i listrutan **Gruppering**.
 
 1. Klicka på **Växla till textläge**.
-1. Ta bort texten som visas i textredigeringsfönstret.
-1. Kopiera och klistra in följande kod i textredigeringsfönstret:
+1. Ta bort texten i området som visas och ersätt den med följande kod:
 
-   ```
-   group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string
-   ```
+   `group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string`
 
-1. Klicka på **Spara gruppering**.
+1. Klicka på **Klar**.
+1. Uppdatera grupperingsnamnet och klicka sedan på **Spara gruppering**.
+

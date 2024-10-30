@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppera: projekt efter anmälningsdatum'
+title: 'Gruppera: Projekt efter anmälningsdatum'
 description: I den här anpassade projektgrupperingen kan du visa projekt grupperade efter deras värden för anmälningsdatum.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Gruppera: projekt efter anmälningsdatum
+
+<!--Audited: 10/2024-->
 
 I den här anpassade projektgrupperingen kan du visa projekt grupperade efter deras värden för anmälningsdatum.
 
@@ -76,11 +78,14 @@ Så här använder du den här grupperingen:
 1. Ta bort texten i området **Gruppera efter**.
 1. Ersätt texten med följande kod:
 
+
+   ```
    group.0.linkedname=direct
-group.0.name=Projektpost
-group.0.valueExpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))&lt;=30,&quot;Senaste 30 dagarna&quot;,IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&amp;&amp;ABS(DATEDIFF({entryDate},$$TODAY))&lt;=60,&quot;30 -60 dagar&quot;,&quot;Äldre än 60 dagar&quot;)
-group.0.valueFormat=atDateAsMonthString
-textmode=true
+   group.0.name=Project Entry
+   group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
+   group.0.valueformat=atDateAsMonthString
+   textmode=true
+   ```
 
 1. Klicka på **Klar** > **Spara gruppering**.
 1. (Valfritt) Uppdatera grupperingens namn och klicka sedan på **Spara gruppering**.

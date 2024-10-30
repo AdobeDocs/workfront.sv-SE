@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Mer information om hur du kan ansluta poster till varandra eller till ett annat 
 
 * Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan kan se anslutningarna mellan posterna eller mellan poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
 * Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan där de anslutna posterna finns.
-* Du kan koppla en post till ett eller flera objekt från ett annat program. Mer information finns i avsnittet Anslutningstyper i artikeln [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+* Du kan ansluta en post till en eller flera objekt från ett annat program, beroende på vilken typ av anslutning du valde när du kopplade posttyperna. Mer information finns i avsnittet Anslutningstyper i artikeln [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Områden där du kan koppla poster
 
