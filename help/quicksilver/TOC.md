@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
+source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
 workflow-type: tm+mt
-source-wordcount: '14559'
+source-wordcount: '14564'
 ht-degree: 0%
 
 ---
@@ -545,6 +545,7 @@ ht-degree: 0%
          * [Tillgång till objekt och områden med nya licenser](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+         * [Jämför funktioner mellan olika licensmodeller](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * Hur åtkomstnivåer fungerar {#legacy-access-levels}
          * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
@@ -2345,7 +2346,7 @@ ht-degree: 0%
       * [[!DNL OpenAI(ChatGPT & DALL-E)] moduler](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
       * [Qualtrics-moduler](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
       * [Quickbase-moduler](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
-      * [Salesforce-moduler](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
+      * [Salesforce moduler](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
       * [Hanterade SDL-översättningsmoduler](workfront-fusion/apps-and-their-modules/sdl-managed-translation-modules.md)
       * [ServiceNow-moduler](workfront-fusion/apps-and-their-modules/servicenow-modules.md)
       * [SFTP-moduler](workfront-fusion/apps-and-their-modules/sftp.md)
@@ -2440,10 +2441,10 @@ ht-degree: 0%
       * [Hantera Adobe Workfront-meddelanden i Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
    * Adobe Workfront för Salesforce {#workfront-for-salesforce}
       * [Adobe Workfront för Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
-      * [Adobe Workfront för Salesforce - översikt](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
+      * [Adobe Workfront for Salesforce - översikt](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
       * [Installera Adobe Workfront för Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
-      * [Konfigurera Adobe Workfront-avsnittet för Salesforce-användare](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
-      * [Skicka Adobe Workfront-begäranden från Salesforce-objekt](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
+      * [Konfigurera Adobe Workfront för Salesforce-användare](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
+      * [Skicka Adobe Workfront-förfrågningar från Salesforce-objekt](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [Skapa Adobe Workfront-projekt från Salesforce-objekt](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
    * Adobe Workfront för Slack {#workfront-for-slack}
       * [Adobe Workfront för Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)

@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller 
 * [Tillgång till objekt och ytor med nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [Tillgängliga funktioner för varje objekttyp](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 * [Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+* [Jämför funktioner mellan olika licensmodeller](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
 
 ## Se även
 
