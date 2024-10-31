@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 8f8a5aea1eeecff76150b87a6e7fe38b21f7d033
+source-git-commit: 7b67358ec1d665fe2012d2c0156db3b928c48ae5
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -105,9 +105,9 @@ Mer information finns i
 
 Klicka på följande länkar för att hämta klientcertifikaten.
 
-* [Klientcertifikat - produktionsmiljö](assets/prod-environment-nov-2024.crt)
-* [Klientcertifikat - förhandsvisningsmiljö](assets/preview-environment-nov-2024.crt)
-* [Klientcertifikat - sandlådemiljö](assets/sandbox-environment-nov-2024.crt)
+* [Klientcertifikat - produktionsmiljö](assets/event_subscription_nov_2023_production.crt)
+* [Klientcertifikat - förhandsvisningsmiljö](assets/event_subscription_nov_2023_preview.crt)
+* [Klientcertifikat - sandlådemiljö](assets/event_subscription_nov_2023_sandboxes.crt)
 
 >[!NOTE]
 >
