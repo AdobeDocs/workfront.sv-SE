@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,6 @@ Beta Final-utgåvan 2018.3 innehåller följande förbättringar:
 När du konfigurerar din hemkalender så att den synkroniseras med din Outlook-kalender visas nu objekt från din hemkalender i din Outlook-kalender.
 
 Tidigare kunde du bara synkronisera objekt från din Outlook-kalender till din hemkalender.
-
-Mer information om hur du konfigurerar hemkalendern för synkronisering med Outlook finns i [Konfigurera inställningarna för hemkalendern](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Uppdateringar för att lägga till nya uppgifter i hemmet {#updates-for-adding-new-tasks-in-home}
 

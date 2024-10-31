@@ -6,9 +6,9 @@ description: Språkgodkännanden visas bara i hemmet om din Adobe Workfront-milj
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -52,26 +52,16 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
 
 ## Visa inskickade korrekturgodkännanden
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mina godkännanden**.
+1. (Villkorligt) Klicka på listrutan **Filter** och välj sedan **Godkännanden som jag har skickat** för att se de godkännanden som du har skickat in.
 
-   >[!NOTE]
-   >
-   >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
-   >
-   >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
-
-1. Gå till grupperingen **Godkännanden som jag har skickat** i området **Arbetslista**.
-
-1. Klicka på ett **korrektur**-godkännande i arbetslistan.
-
-   Då öppnas korrekturgodkännandet till höger om arbetslistan.
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    > Om du skickar ett godkännande till en gästkorrekturanvändare visas inte godkännandet hemma.
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. (Valfritt) Klicka på **Gå till korrektur** i det övre högra hörnet av den högra panelen för att starta korrekturläsaren.
 

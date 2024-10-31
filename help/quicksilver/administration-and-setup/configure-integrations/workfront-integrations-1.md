@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
     <ul> 
      <li> <p>Integrera med en webbaserad version av [!DNL Outlook] i molnbaserad [!DNL Office 365] eller [!DNL Outlook Live.] </p> </li> 
      <li> <p>Visa alla händelser från din [!DNL Outlook]-kalender och alla associerade kalendrar som du väljer, till exempel födelsedagar och helgdagar, i din [!UICONTROL Home Calendar].</p> </li> 
-    </ul> <p><b>Obs!</b>: Kalenderkonfigurationen [!UICONTROL Outlook] är helt separat från [!DNL Outlook]-tillägget ([!DNL Outlook] Integration eller [!DNL Workfront for Outlook]). Du behöver inte installera kalendern.</p> <p>Mer information finns i <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Konfigurera [!UICONTROL Home Calendar] visningsinställningar</a>.</p> </td> 
+    </ul> <p><b>Obs!</b>: Kalenderkonfigurationen [!UICONTROL Outlook] är helt separat från [!DNL Outlook]-tillägget ([!DNL Outlook] Integration eller [!DNL Workfront for Outlook]). Du behöver inte installera kalendern.</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 

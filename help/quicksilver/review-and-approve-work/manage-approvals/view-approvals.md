@@ -6,9 +6,9 @@ description: Godkännandeprocesser ger flexibilitet att skapa godkännanden i fl
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Du kan visa eller hantera godkännanden från följande områden:
 
 * I hemområdet
 
-   * Alla projekt, uppgifter, utgåvor, tidrapporter, dokument och åtkomst som väntar på ditt godkännande visas i Hem-området när du väljer att visa alla eller godkännanden.
-   * Godkännanden som du själv har skickat visas även i Hem, i avsnittet Godkännanden som jag har skickat i arbetslistan. Mer information finns i avsnittet [Granskningsarbete som du skickar in för godkännande i hemområdet](#review-work-you-submit-for-approval-in-the-home-area) i den här artikeln.
-   * Godkännanden tas bort från Hem-området när det associerade projektet, aktiviteten eller utgåvan har markerats som Löst, Spärrat, Stängt eller Avbrutet.
+   * Alla projekt, uppgifter, utgåvor, tidrapporter, dokument och åtkomst som väntar på ditt godkännande visas i widgeten Mina godkännanden i området Hem.
+   * Godkännanden som du har skickat själv visas också i widgeten Mina godkännanden i hemområdet när du väljer alternativet Godkännanden som jag har skickat. Mer information finns i avsnittet [Granskningsarbete som du skickar in för godkännande i hemområdet](#review-work-you-submit-for-approval-in-the-home-area) i den här artikeln.
+   * Godkännanden tas bort från widgeten Mina godkännanden i hemområdet när det associerade projektet, aktiviteten eller utgåvan har markerats som Löst, Spärrat, Stängt eller Avbrutet.
 
   Mer information om att använda Hem finns i [Kom igång med Hem](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
@@ -82,19 +82,10 @@ Du kan visa eller hantera godkännanden från följande områden:
 
 ## Granska material som du skickar in för godkännande på Hem-sidan {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mina godkännanden**.
+1. (Villkorligt) Klicka på listrutan **Filter** och välj sedan **Godkännanden som jag har skickat** för att se de godkännanden som du har skickat in.
 
-   >[!NOTE]
-   >
-   >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
-   >
-   >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
-
-1. Välj **Arbetslista**, klicka på listrutan **Filter** och välj **Godkännanden**.
-1. Expandera avsnittet **Godkännanden som jag har skickat** och hitta de godkännanden som du har skickat.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## Visa godkännandestatus för ett objekt
 

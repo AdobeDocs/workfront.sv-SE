@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 30b4db53220c67a3fa8fe8865329f74a80cd7343
+source-git-commit: 45fc22a324672bced5235e3bbb0fa7c662a7fed4
 workflow-type: tm+mt
-source-wordcount: '14577'
+source-wordcount: '14534'
 ht-degree: 0%
 
 ---
@@ -902,23 +902,16 @@ ht-degree: 0%
       * [Startsida](workfront-basics/using-home/home.md)
       * Använd hemområdet {#use-home-area}
          * [Använda området Hem](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [Gå från äldre startsida till prioriteter](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Kom igång med Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Lägga till, redigera eller ta bort widgetar i Nytt hem](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Visa objekt i arbetslista i hemområdet](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Översikt över filter för hemwidget](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
          * [Hantera ditt arbete med widgeten Mitt arbete](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
-         * [Prioritera arbetet i hemområdet](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [Hantera arbets- och teamförfrågningar på Hem-området](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Uppdatera eller redigera en arbetsuppgift i hemområdet](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [Skapa arbetsobjekt och projekt från Hem-området](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [Logga tid på ett arbetsobjekt från hemområdet](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Markera ett objekt som färdigt i hemområdet](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-         * [Vyn Hemkalender](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-         * [Konfigurera visningsinställningar för hemkalendern](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-         * [Startsida för granskare](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-         * [Använda vyn Hemkalender](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-         * [Visa hemkalendern](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Använda området Mina uppdateringar](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * AI-assistenten {#ai-assistant}
       * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
@@ -1037,7 +1030,6 @@ ht-degree: 0%
       * [Innovation Lab](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [Arbeta över tidszoner](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
       * [Felsökning av behörigheter i Workfront Proof Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [Dubblettgodkännandeprocesser som visas i hemarbetslistan](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Filterknappar visas inte i sidhuvuden](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [Projekt jag arbetar med har oväntade resultat](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [Flera webbläsarflikar gör att Workfront loggar ut](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)

@@ -6,9 +6,9 @@ description: Du kan dela korrekturdokument i Adobe Workfront genom att dela doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,6 @@ Mer information om objektrapporten för korrekturgodkännanden finns i avsnittet
 
 ## Godkänn ett delat korrektur
 
-När en användare lägger till dig i ett korrektur och beviljar rollen Godkännare eller rollen Granskare och godkännare med hjälp av automatiserat arbetsflöde, visas godkännandebegäran på fliken Godkännanden i Hem eller Min arbetsyta. Sedan kan du titta på beviset och godkänna det direkt från Workfront.
+När en användare lägger till dig i ett korrektur och beviljar rollen Godkännare eller rollen Granskare och godkännare med hjälp av automatiserat arbetsflöde, visas godkännandebegäran i widgeten Mina godkännanden i hemområdet. Sedan kan du titta på beviset och godkänna det direkt från Workfront.
 
-Mer information om hur du fattar beslut om godkännande på arbetsytan Mitt arbete finns i [Godkänn arbete på startsidan](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) eller [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) i [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Information om hur du fattar beslut om godkännande från widgeten Mina godkännanden finns i [Godkänn arbete från Hem](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) eller [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) i [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md).

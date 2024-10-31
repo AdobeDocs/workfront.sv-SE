@@ -6,7 +6,7 @@ description: Du kan använda området [!UICONTROL My Updates] för att snabbt gr
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -146,8 +146,6 @@ Du måste ha följande innan du börjar:
 1. (Valfritt) Klicka på **[!UICONTROL Ignore]** för att rensa åtkomstbegäran från din godkännandelista utan att bevilja den.
 1. Klicka på **[!UICONTROL Delegate my approvals]** om du vill delegera de godkännanden som skickas till dig om du inte kan fatta några beslut om godkännande under en tid. Mer information om delegering av godkännanden finns i [Delegera godkännandebegäran](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Bläddra till området **[!UICONTROL Mentions]** under dina godkännanden. Här kan du visa alla objekt där du har inkluderats i en konversation.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

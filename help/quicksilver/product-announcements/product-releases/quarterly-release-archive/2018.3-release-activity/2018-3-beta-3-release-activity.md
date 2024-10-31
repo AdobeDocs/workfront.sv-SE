@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,6 @@ Vi har tagit bort all betataggar i Hem-området. Alla layoutmallar används nu s
 Med sorteringsalternativet Min prioritet kan du nu prioritera alla arbetsobjekt i din arbetslista som är viktiga för dig.
 
 Tidigare kunde du bara prioritera uppgifter och ärenden på arbetsytan Mitt arbete.
-
-Mer information finns i [Prioritera arbete i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ## Uppdatera roller i användarprofilen som gruppadministratör {#update-roles-in-the-user-profile-as-a-group-administrator}
 

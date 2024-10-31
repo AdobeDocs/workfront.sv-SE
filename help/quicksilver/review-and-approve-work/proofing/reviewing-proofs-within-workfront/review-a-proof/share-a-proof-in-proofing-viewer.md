@@ -6,9 +6,9 @@ description: Du kan dela ett korrektur från korrekturläsaren om delning har ak
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Om korrekturet har ett automatiserat arbetsflöde kan du lägga till användaren
 Som standard lägger användare du till följande i korrekturet:
 
 * Få ett e-postmeddelande med en länk till korrekturet.
-* Kan fatta beslut om godkännande av korrekturet från Hem eller Min arbetsyta, enligt beskrivningen i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Kan fatta beslut om godkännande av korrekturet från Hem-området, enligt beskrivningen i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * Du behöver inte aktivera korrektur för att kunna granska korrekturet.
 
 När Automatiserat arbetsflöde är aktiverat och du lägger till en användare till korrekturet som inte har språkkontroll aktiverat i Workfront, skapas en ny fas i det automatiserade arbetsflödet. Användaren som du lägger till läggs automatiskt till på den nya scenen när han/hon visar korrekturet för första gången. Mer information finns i [Översikt över automatiserat arbetsflöde](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
