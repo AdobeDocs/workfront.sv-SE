@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,12 @@ ht-degree: 0%
 # Skapa och hantera ett begärandeformulär i Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -140,33 +141,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!IMPORTANT]
      >
-     >   Fält av följande typer visas inte i begärandeformuläret:
+     > Beroende på vilken miljö du använder för att skapa ett begärandeformulär finns följande scenarier:
+     >
+     >* Fält av följande typer visas inte i begärandeformuläret <span class="preview"> i förhandsgransknings- </span> eller produktionsmiljöerna:
      >
      >    * Personer (inklusive Skapad av och Senast ändrad av)
-     >    * Kopplade fält (inkluderar anslutningar till Workfront och Experience Manager-resurser)
-     >    * Anslutna sökfält
      >    * Formel
      >    * Skapad den
      >    * Senast ändrat den
+     >    * Kopplade fält eller sökfält för Workfront-objekt
+     >    * Kopplade sökfält för Workfront Planning-poster
+     >* Fält av följande typer visas inte i begärandeformuläret i produktionsmiljön. <span class="preview">De visas i förhandsvisningsmiljön:</span>
+     >    * <span class="preview"> Workfront Planning-poster har kopplade fält (inklusive anslutningar med Workfront- och Experience Manager-resurser) </span>
 
-     <!--replace the above with this: 
-
-            >[!IMPORTANT]
-            >
-            > Depending on what environment you use to create a request form, the following scenarios exist:
-            >
-            >* Fields of the following types do not display in the request form in the Preview or Production environments: 
-            >
-            >    * People (includes Created by and Last modified by)
-            >    * Formula
-            >    * Created date
-            >    * Last modified date
-            >    * Workfront object connected fields
-            >    * Workfront objects connected lookup fields
-            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
-            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
-            >    * <span class="preview">Planning records' connected lookup fields</span>
-      -->
 
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
    * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är inte tillgänglig än. Det går inte att redigera konfigurationen och värdet för ämnesfältet.
