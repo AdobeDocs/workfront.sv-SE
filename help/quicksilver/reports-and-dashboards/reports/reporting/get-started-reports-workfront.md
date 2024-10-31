@@ -7,9 +7,9 @@ description: Rapporterna ger insyn i vad som händer med användare och arbete. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ Du kan förbättra dina rapporter genom att lägga till följande element:
 
 När du skapar en rapport kan du ändra dessa element individuellt i rapportverktyget.
 
-Ett annat sätt att göra informationen i dina rapporter mer relevant är genom att använda villkorsstyrd formatering i dina vyer.\
-Mer information om villkorsstyrd formatering finns i [Använda villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Ett annat sätt att göra informationen i dina rapporter mer relevant är genom att använda villkorsstyrd formatering i dina vyer. Mer information om villkorsstyrd formatering finns i [Använda villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Systemrapporter
 
@@ -81,17 +80,20 @@ Utöver systemrapporterna som Workfront tillhandahåller kan du skapa egna anpas
 Om du vill skapa en rapport kan du göra något av följande:
 
 * Skapa en helt ny rapport.
-* Kopiera en befintlig rapport.\
+* Kopiera en befintlig rapport.
+
   Du måste ha minst behörigheten Visa för att kunna kopiera en rapport som har skapats av någon annan. Mer information om hur du kopierar en rapport finns i [Skapa en kopia av en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Mer information om hur du skapar rapporter finns i [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Krav för att skapa rapporter {#prerequisites-for-creating-reports}
 
-* Du måste ha en planlicens (aktuella licenser) eller en standardlicens (nya licenser) för att kunna skapa egna rapporter.\
+* Du måste ha en planlicens (aktuella licenser) eller en standardlicens (nya licenser) för att kunna skapa egna rapporter.
+
   Information om Workfront licenstyper finns i [Licensöversikt](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) för aktuella licenser och [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) för nya licenser.
 
-* Din Workfront-administratör måste ge dig åtkomst till Redigera rapporter på din åtkomstnivå.\
+* Din Workfront-administratör måste ge dig åtkomst till Redigera rapporter på din åtkomstnivå.
+
   Information om hur du beviljar åtkomst till redigeringsrapporter finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Din Workfront-administratör måste ge dig åtkomst till Redigera filter, Vyer och grupperingar på din åtkomstnivå.
@@ -109,7 +111,7 @@ Information om hur du kopierar rapporter finns i [Skapa en kopia av en rapport](
 
 Du kan se vem som äger en rapport genom att granska fältet **Anges av**.
 
-![Anges av fält](assets/nwe-entered-by-350x218.png)
+![Anges av fält](assets/unshimmed-entered-by.png)
 
 ### Skapa rapporter i verktyget {#create-reports-in-the-builder-interface}
 
