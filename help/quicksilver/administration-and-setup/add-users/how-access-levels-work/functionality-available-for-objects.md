@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: a01ca10fdd4e8faaefcac861c9d64843b71ed9c8
+source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 >[!NOTE]
 >
 >* I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den nya Workfront-planmodellen. Information om vilka funktioner som är tillgängliga i den aktuella plansmodellen finns i [Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
-> * En lista över funktioner som är tillgängliga för de olika planerna i den nya avtalsmodellen finns i [Priser och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+>* En lista över funktioner som är tillgängliga för de olika planerna i den nya avtalsmodellen finns i [Priser och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekt
 
