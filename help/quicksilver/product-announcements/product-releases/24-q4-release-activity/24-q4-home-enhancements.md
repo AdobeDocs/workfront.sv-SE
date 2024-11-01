@@ -4,9 +4,9 @@ description: Förbättringar av startsidan för fjärde kvartalet 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,16 @@ Mer information finns i [Kom igång med prioriteringar](/help/quicksilver/workfr
 
 Vi kommer officiellt att ta bort den gamla hemupplevelsen med version 24.10.
 
-Med den här ändringen får du följande områden i layoutmallen nya namn:
+Med den här ändringen påverkas följande områden:
+
+**Layoutmall**
 
 * Området _Hem_ får det nya namnet _Hem_.
 * Området _Hem och Sammanfattning_ får ett nytt namn till _panelen Sammanfattning_. Anpassningarna i det här området gäller fortfarande för panelen Sammanfattning i nya Hem. Mer information finns i [Anpassa hem och sammanfattning med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+**Hantera godkännanden**
+
+* Du kommer inte längre att kunna återkalla, påminna eller ta bort användare från skickade godkännanden i Hem-området. I stället kan du hantera detta med själva godkännandet.
 
 Vi rekommenderar att du börjar använda nya Home, som även i fortsättningen kommer att utökas med ytterligare funktioner innan borttagningen. Mer information om övergången, inklusive råd om vad användare och administratörer kan göra för att förbereda, finns i [Föråldrad startsida](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 

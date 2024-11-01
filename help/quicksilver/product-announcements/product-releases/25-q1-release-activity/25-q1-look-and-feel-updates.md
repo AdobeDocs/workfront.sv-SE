@@ -4,9 +4,9 @@ description: Uppdateringar som både ser ut och känns under den första release
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ En lista över alla ändringar som är tillgängliga i den första utgåvan av k
 
 Vi har uppgraderat Workfront navigeringsfält för att förbättra dess prestanda. Ändringarna är minimala.
 
-Den mest märkbara förändringen är att listrutorna Favoriter och Senaste inte längre har en stängningsknapp. Du kan bara klicka utanför skärmen eller trycka på ESC på tangentbordet för att stänga den.
+De viktigaste ändringarna är följande:
+
+* Listrutorna Favoriter och Senaste har inte längre någon stängningsknapp. Du kan bara klicka utanför skärmen eller trycka på ESC på tangentbordet för att stänga den.
+* Du kan inte längre ordna fästa sidor genom att dra och släppa dem. Det finns i stället en listruta med knappar som gör att du kan flytta dina fästa sidor.
 
 ## Sök i och redigera uppdatering för Skicka-uppdatering till användarfönstret
 
