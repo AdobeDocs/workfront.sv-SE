@@ -7,9 +7,9 @@ description: Lär dig hur du lägger till en utlösarmodul så att scenariot reg
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Du måste skapa scenariot som beskrivs i [Skapa ett grundläggande scenario](/he
 1. Välj **Bevakade poster**.
 1. Se till att modulen använder samma anslutning som resten av modulerna i scenariot.
 1. Välj **Endast nya poster** i fältet Filter.
+1. Välj **Utgåva** i fältet Posttyp.
 1. I rutan Utdata väljer du `ID`, `Name` och `Project ID`.
 1. Klicka på **OK** om du vill spara modulinställningarna.
 
