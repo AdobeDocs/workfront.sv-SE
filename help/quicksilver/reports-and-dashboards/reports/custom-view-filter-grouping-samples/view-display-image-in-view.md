@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: visa en bild i stället för en sträng i en kolumn'
+title: 'Visa: Visa en bild i stället för en sträng i en kolumn'
 description: Du kan ersätta namnet på ett objekt i en vy med en bild i textläge. Du kan också lägga till en länk till bilden som kan öppna det objekt den ersätter.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Visa: visa en bild i stället för en sträng i en kolumn
+
+<!--Audited: 11/2024-->
 
 Du kan ersätta namnet på ett objekt i en vy med en bild i textläge. Du kan också lägga till en länk till bilden som kan öppna det objekt den ersätter.
 
@@ -26,6 +28,8 @@ Du kan ersätta namnet på ett objekt i en vy med en bild i textläge. Du kan oc
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -33,28 +37,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exempel: Ersätt namnet på ett projekt i en projektvy med en bild:
 
@@ -79,59 +89,26 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 1. Gå till ett projekt, klicka på menyn **Mer** ![](assets/more-icon-45x33.png) bredvid namnet på projektet och klicka sedan på **Redigera**.
 
 1. Lägg till länken till bilden i fältet **URL**.
-1. Navigera till en projektvy i en lista eller rapport och anpassa vyn.
+1. Gå till en projektvy i en lista med projekt.
+1. Klicka på listrutan **Visa** och sedan på **Ny vy**.
 1. Klicka på kolumnrubriken för **Projektnamn** och klicka sedan på **Växla till textläge**.
 
 1. Lägg till följande kod i kolumnen till den befintliga koden:
 
    ```
    displayname=Link Project
-   ```
-
-   ```
    image.name=Link Project
-   ```
-
-   ```
    image.valuefield=URL
-   ```
-
-   ```
    link.linkproperty.0.name=projectID
-   ```
-
-   ```
    link.linkproperty.0.value=ID
-   ```
-
-   ```
    link.lookup=link.edit
-   ```
-
-   ```
    link.page=/view
-   ```
-
-   ```
    link.valuefield=objCode
-   ```
-
-   ```
    link.valueformat=val
-   ```
-
-   ```
    textmode=true
-   ```
-
-   ```
    type=image
-   ```
-
-   ```
    valueformat=
    ```
 
-   Bilden du valde ersätter projektnamnet i projektvyn och bilden är en länk till projektet.
-
-1. Klicka på **Spara vy**.
+1. Klicka på **Klar** > **Spara vy**.
+Bilden du valde ersätter projektnamnet i projektvyn och bilden är en länk till projektet.

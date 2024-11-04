@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa och gruppera: visa projekt, faktisk varaktighet aggregerat med medelvärdet i en gruppering'
+title: 'Visa och gruppera: Visa projektets faktiska varaktighet aggregerad med genomsnittet i en gruppering'
 description: Du kan lägga till följande kolumn i en projektrapport om du vill visa den faktiska varaktigheten som ett genomsnitt i en gruppering.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # Visa och gruppera: visa projekt, faktisk varaktighet aggregerat med medelvärdet i en gruppering
 
-Du kan lägga till följande kolumn i en projektrapport om du vill visa den faktiska varaktigheten som ett genomsnitt i en gruppering.
+<!--Audited: 11/2024-->
+
+Du kan lägga till följande kolumn i en projektvy om du vill visa aggregerad faktisk varaktighet som ett genomsnitt i en gruppering.
 
 ![project_with_aggregate_actual_duration_in_grouping_view.png](assets/project-with-aggregate-actual-duration-in-grouping-view-350x65.png)
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -29,43 +33,65 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Visa projektets faktiska varaktighet aggregerad av medelvärdet i en gruppering
++++
+
+## Visa projektets faktiska varaktighet aggregerad med medelvärdet i en gruppering
 
 Så här lägger du till den här kolumnen i en projektvy:
 
-1. (Rekommenderas) För bästa resultat och för att se det aggregerade genomsnittliga värdet för Faktisk varaktighet måste du lägga till en gruppering i projektlistan eller -rapporten.\
+1. Gå till en projektlista.
+1. (Obligatoriskt) Om du vill visa det aggregerade genomsnittliga värdet för projektets faktiska varaktighet måste du lägga till en gruppering i projektlistan.\
    Mer information om hur du skapar grupperingar finns i artikeln [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-
-1. Gå till en befintlig projektvy.
-1. Expandera listrutan Visa och välj **Anpassa vy**.
+1. Expandera den nedrullningsbara menyn **Visa** och välj **Anpassa vy**.
 1. Klicka på **Lägg till kolumn**.
-1. Klicka på **Växla till textläge**.
-1. För musen över **Visa i den här kolumnen** och klicka på **Klicka för att redigera text**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
+1. Ta bort all text i rutan **Redigera textläge** och ersätt den med följande kod:
 
-1. Ta bort all text i rutan Textläge och ersätt den med följande kod:
-   <pre>aggregator.displayformat=compound <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualDuration <br>aggregator.valueField=actualDurationMinutes <br>aggregator.valueFormat=val <br>displayname=Project Actual Durationunitfield=durationUnit.Unit value <br> linkedname=project <br>namekey=actualDuration <br>namekeyargkey=actualDuration <br>querysort=actualDurationMinutes <br>textmode=true <br>valuefield=actualDurationMinutes <br>valueFormat=compound#M:D <br>viewalias=actualDuration<br></pre>
+   ```
+   aggregator.displayformat=compound 
+   aggregator.function=AVG 
+   aggregator.namekey=view.relatedcolumn 
+   aggregator.namekeyargkey=actualduration 
+   aggregator.valuefield=actualDurationMinutes 
+   aggregator.valueformat=val 
+   displayname=Project Actual Duration 
+   durationunitfield=durationUnit.value 
+   linkedname=project 
+   namekey=actualduration 
+   namekeyargkey=actualduration 
+   querysort=actualDurationMinutes 
+   textmode=true 
+   valuefield=actualDurationMinutes 
+   valueformat=compound#M:D 
+   viewalias=actualduration
+   ```
 
-1. Klicka på **Spara vy**.
+1. Klicka på **Klar** och sedan på **Spara vy**.
+1. (Valfritt) Uppdatera vynamnet och klicka sedan på **Spara vy**.

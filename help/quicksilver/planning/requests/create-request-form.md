@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -139,20 +139,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Postfält som är tillgängliga i tabellvyn för den valda posttypen. <!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > Beroende på vilken miljö du använder för att skapa ett begärandeformulär finns följande scenarier:
-     >
-     >* Fält av följande typer visas inte i begärandeformuläret <span class="preview"> i förhandsgransknings- </span> eller produktionsmiljöerna:
-     >
-     >    * Personer (inklusive Skapad av och Senast ändrad av)
-     >    * Formel
-     >    * Skapad den
-     >    * Senast ändrat den
-     >    * Kopplade fält eller sökfält för Workfront-objekt
-     >    * Kopplade sökfält för Workfront Planning-poster
-     >* Fält av följande typer visas inte i begärandeformuläret i produktionsmiljön. <span class="preview">De visas i förhandsvisningsmiljön:</span>
-     >    * <span class="preview"> Workfront Planning-poster har kopplade fält (inklusive anslutningar med Workfront- och Experience Manager-resurser) </span>
+   >[!IMPORTANT]
+   >
+   > Beroende på vilken miljö du använder för att skapa ett begärandeformulär finns följande scenarier:
+   >
+   >* Fält av följande typer visas inte i begärandeformuläret <span class="preview"> i förhandsgransknings- </span> eller produktionsmiljöerna:
+   >
+   >    * Personer (inklusive Skapad av och Senast ändrad av)
+   >    * Formel
+   >    * Skapad den
+   >    * Senast ändrat den
+   >    * Kopplade fält eller sökfält för Workfront-objekt
+   >    * Kopplade sökfält för Workfront Planning-poster
+   >* Fält av följande typer visas inte i begärandeformuläret i produktionsmiljön. <span class="preview">De visas i förhandsvisningsmiljön:</span>
+   >    * <span class="preview"> Workfront Planning records&#39; connected fields </span>
 
 
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.

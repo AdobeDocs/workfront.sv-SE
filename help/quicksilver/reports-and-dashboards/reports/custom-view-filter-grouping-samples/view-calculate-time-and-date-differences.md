@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: beräkna tid- och datumskillnader'
+title: 'Visa: Beräkna skillnader i tid och datum'
 description: Lär dig att beräkna tid- och datumskillnader.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # Visa: beräkna tid- och datumskillnader
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet
 
 1. Klicka på **Lägg till kolumn** och börja skriva &quot;Planerat slutförandedatum&quot; i fältet **Visa i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka på **Lägg till kolumn** och sedan på **Växla till textläge**.
-
-1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
-1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med någon av följande koder:
+1. Klicka på **Lägg till kolumn** och sedan på **Växla till textläge** > **Redigera textläge**.
+1. Ta bort den text du söker i rutan **Redigera textläge** och ersätt den med någon av följande koder:
 
    * Så här visar du skillnaden mellan projektets planerade slutförandedatum och aktivitetens datum:
 
@@ -131,4 +129,4 @@ Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Klicka på **Spara** och sedan på **Spara vy**.
+1. Klicka på **Klar** och sedan på **Spara vy**.
