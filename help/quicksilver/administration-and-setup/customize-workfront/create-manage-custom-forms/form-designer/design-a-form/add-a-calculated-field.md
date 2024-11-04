@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 81b003607634f39fbe2dd0ad076f88ce86d275cb
+source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 0%
@@ -23,31 +23,19 @@ Ett beräknat anpassat fält kan innehålla:
 
 * En enkel referens till ett enda inbyggt fält.
 
-<div style="padding-left: 2em">
-
->[!BEGINSHADEBOX]
-
-**Exempel:** Om du vill beräkna intäkterna från projekt och aktiviteter kan du skapa ett beräknat anpassat fält som innehåller det inbyggda fältet Faktisk omsättning. När någon kopplar det anpassade formuläret till ett projekt eller en uppgift visas intäkterna för projektet eller uppgiften i fältet.
-
->[!ENDSHADEBOX]
-
-</div>
+  >[!INFO]
+  >
+  >**Exempel:** Om du vill beräkna intäkterna från projekt och aktiviteter kan du skapa ett beräknat anpassat fält som innehåller det inbyggda fältet Faktisk omsättning. När någon kopplar det anpassade formuläret till ett projekt eller en uppgift visas intäkterna för projektet eller uppgiften i fältet.
 
 * Ett uttryck som refererar till ett eller flera fält. Dessa kan vara anpassade fält, andra beräknade anpassade fält och inbyggda fält.
 
-<div style="padding-left: 2em">
-
->[!BEGINSHADEBOX]
-
-**Exempel:** Om du vill beräkna vinsten som genereras av projekt och aktiviteter kan du skapa ett beräknat anpassat fält med namnet Vinst som innehåller ett matematiskt uttryck som subtraherar kostnaden från intäkterna.
-
-För att göra detta kan du använda det matematiska uttrycket SUB (subtrahera) med de inbyggda Workfront-fälten Faktisk kostnad och Faktisk omsättning.
-
-I stegen nedan kan du se hur du skapar ett uttryck som det här exemplet.
-
->[!ENDSHADEBOX]
-
-</div>
+  >[!INFO]
+  >
+  >**Exempel:** Om du vill beräkna vinsten som genereras av projekt och aktiviteter kan du skapa ett beräknat anpassat fält med namnet Vinst som innehåller ett matematiskt uttryck som subtraherar kostnaden från intäkterna.
+  >
+  >För att göra detta kan du använda det matematiska uttrycket SUB (subtrahera) med de inbyggda Workfront-fälten Faktisk kostnad och Faktisk omsättning.
+  >
+  >I stegen nedan kan du se hur du skapar ett uttryck som det här exemplet.
 
 >[!NOTE]
 >
