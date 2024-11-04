@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 Som Adobe Workfront-administratör kan du använda dataexporteraren Quick-Starts för att exportera data från Workfront. Du kan använda den i andra program när du har exporterat den.
 
@@ -334,11 +336,15 @@ Följande begränsningar gäller vid export av data via direktstart (data export
 
    Du kan inte exportera matrisrapporter. Mer information om matrisrapporter finns i [Skapa en matrisrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Quick-Starts stöder inte textlägesfilter. Rapporteringsfiltren måste växlas till standardläge för att exporten ska lyckas.
+   Quick-Starts stöder inte textlägesfilter eller -grupperingar. För att exporten ska lyckas måste rapportfiltren och grupperingarna växlas till standardläge.
 
-   Du kan välja upp till 100 instrumentpaneler och 100 rapporter i en enda export.
+   Du kan välja upp till 100 kontrollpaneler och 100 rapporter i en enda export.
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Kickstarta export](assets/kickstart-export-spreadsheet-options.png)
+
+   Exempelbild i produktionsmiljön:
+   ![Kickstarta export](assets/kickstart-export-350x381.png)
 
    Du kan exportera flera objekt samtidigt.
 
@@ -346,4 +352,3 @@ Följande begränsningar gäller vid export av data via direktstart (data export
 
    För stora exporter arbetar Workfront i bakgrunden för att skapa Excel-filen och ger dig ett varningsmeddelande om fördröjningen. Snabbstartfilen skickas med e-post till dig när nedladdningen är klar.
 
-   ![](assets/large-kick-start-file-warning-350x65.png)

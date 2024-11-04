@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2172'
 ht-degree: 0%
 
 ---
 
 # Scenario för att komma igång: Importera anpassade fält med flera alternativ till Workfront
+
+{{highlighted-preview}}
 
 Du kan importera anpassade fält med flera alternativ i Adobe Workfront med funktionen Snabbstart.
 
@@ -86,23 +88,23 @@ Så här exporterar du befintliga data från Workfront:
 
 1. Expandera **System** på den vänstra menyn och klicka sedan på **Exportera data (snabbstart)**.
 
-   ![](assets/export-data-kick-starts-link-in-setup.png)
-
 1. Välj **Anpassade data** i avsnittet **Vad som ska inkluderas**.
 
-   ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   Exempelbild i förhandsvisningsmiljön:
+   ![Välj anpassade data](assets/kickstarts-select-existing-data.png)
+
+   Exempelbild i produktionsmiljön:
+   ![Välj anpassade data](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Välj filen **.xlsx** i avsnittet **Hämtningsformat**.
 
    >[!TIP]
    >
-   >    Beroende på hur mycket anpassade data du har i systemet kan det ta lång tid.
+   >Beroende på hur mycket anpassade data du har i systemet kan det ta lång tid.
 
-   ![](assets/download-button-for-kick-starts.png)
+1. Klicka på **Hämta**. En .xlsx-fil laddas ned till datorn. Navigera till den och öppna den.
 
-1. Klicka på **Hämta**. En .xlsx-fil laddas ned till datorn. Navigera till och öppna den.
-
-   ![](assets/existing-data-excel-parameter-sheet.png)
+   ![Exporterade data i Excel](assets/existing-data-excel-parameter-sheet.png)
 
 1. Granska den hämtade filen och notera följande:
 
@@ -126,9 +128,10 @@ När du har läst in information om befintliga anpassade fält i systemet kan du
 
 1. Klicka på **Importera data (snabbstart)**.
 
-   ![](assets/import-data-kick-starts-link-in-setup.png)
+1. Markera kryssrutan **Anpassade data** i området **Hämta ett tomt snabbstartkalkylblad** och klicka på **Hämta**.
 
-1. I området **Hämta ett tomt snabbstartskalkylblad** markerar du kryssrutan **Anpassade data** och klickar på **Hämta**.
+   Exempelbild i förhandsvisningsmiljön:
+   ![Välj anpassade data](assets/kickstarts-select-existing-data.png)
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -280,7 +283,7 @@ När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du me
 
 1. Klicka på **Välj Arkiv** under avsnittet **Överför data med snabbstartskalkylblad**.
 
-1. Bläddra efter det Excel-kalkylblad du har förberett på datorn och markera det när du hittar det.  När filen känns igen av Workfront blir knappen Överför blå.
+1. Bläddra efter det Excel-kalkylblad du har förberett på datorn och markera det när du hittar det. När Workfront känner igen filen blir knappen Överför blå.
 1. Klicka på **Överför.**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
