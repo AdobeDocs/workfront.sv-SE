@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Så här exporterar du befintliga data från Workfront:
 
 1. Välj **Anpassade data** i avsnittet **Vad som ska inkluderas**.
 
-   Exempelbild i förhandsvisningsmiljön:
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Välj anpassade data](assets/kickstarts-select-existing-data.png)
 
    Exempelbild i produktionsmiljön:
@@ -130,10 +130,11 @@ När du har läst in information om befintliga anpassade fält i systemet kan du
 
 1. Markera kryssrutan **Anpassade data** i området **Hämta ett tomt snabbstartkalkylblad** och klicka på **Hämta**.
 
-   Exempelbild i förhandsvisningsmiljön:
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Välj anpassade data](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   Exempelbild i produktionsmiljön:
+   ![Välj anpassade data](assets/blank-custom-data-option-checked-kick-starts.png)
 
    En tom fil som startar snabbt laddas ned till datorn.
 
@@ -182,7 +183,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
      >[!TIP]
      >
-     >    Om en rad representerar ett befintligt fält som redan finns i Workfront anger du **`isNew`** = **`FALSE`**.
+     >Om en rad representerar ett befintligt fält som redan finns i Workfront anger du **`isNew`** = **`FALSE`**.
 
    * **`ID`** = måste vara ett unikt nummer för varje rad som representerar ett nytt fält. Du kan använda valfritt nummer som börjar med 1, förutsatt att varje nytt fält har ett unikt nummer.
    * **`setDataType`** = För varje rad som representerar ett nytt fält anger du den datatyp som fältet stöder. Datatypen måste anges så som den skulle visas i databasen. Välj bland följande datatyper:
