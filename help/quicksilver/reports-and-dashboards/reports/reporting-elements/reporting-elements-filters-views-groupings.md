@@ -6,24 +6,22 @@ description: De huvudelement som varje lista och rapport måste ha i Workfront �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Rapportelement: filter, vyer och grupperingar
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 Det finns flera element som gör det möjligt att skapa en lista eller rapport i Adobe Workfront. De huvudelement som varje lista och rapport måste ha är ett filter, en vy och en gruppering. Varje element innehåller olika information i alla rapporter.
 
@@ -56,11 +54,10 @@ Vissa filterattribut är:
 
   Mer information om filter finns i artikeln [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Filterikon](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## Vyer
 
-Genom att definiera vyn för en rapport definierar du vilken information du vill ta med i rapporten. Precis som för alla rapportelement baseras vyerna på en objekttyp.\
+Genom att definiera vyn för en rapport definierar du vilken information du vill ta med i rapporten. Precis som för alla rapportelement baseras vyerna på en objekttyp.
+
 En vy för en uppgiftsrapport kan t.ex. visa Förfallodatum, innehålla ekonomisk information som Kostnad eller användas för att visa information om tilldelningar och leveransdatum. Vyer kan användas för att ge olika detaljer om data i rapporten.
 
 Vissa visningsattribut är:

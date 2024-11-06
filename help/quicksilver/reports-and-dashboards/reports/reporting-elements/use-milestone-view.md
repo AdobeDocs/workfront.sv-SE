@@ -6,7 +6,7 @@ description: Du kan använda vyn Milstolpe på en projektlista eller rapport.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Använda vyn Milstolpe
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Du kan använda vyn Milstolpe på en projektlista eller rapport.
 
@@ -42,8 +42,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
    <td> 
-   <p>Nytt: Standard</p>
-   <p>Aktuell: Arbete eller högre </p> </td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Arbeta eller högre</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 

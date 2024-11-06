@@ -6,14 +6,16 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera vyer i Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 Du kan anpassa vilken typ av information som visas på skärmen med hjälp av vyer. Du kan använda flera typer av vyer i Adobe Workfront.
 
@@ -30,25 +32,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Medarbetare eller högre</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Begäran eller senare</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att skapa en vy i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att skapa en vy i en rapport</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Hantera behörigheter till en rapport för att skapa eller redigera en vy i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader"><strong>Objektbehörigheter*</strong></td> 
+   <td> <p>Hantera behörigheter till en rapport för att skapa eller redigera en vy i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,10 +77,11 @@ Hur du skapar eller anpassar en vy varierar beroende på om du skapar eller anpa
 Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapade tidigare.
 
 1. Klicka på listrutan **Visa** i en lista där du vill skapa eller anpassa en vy.
-1. (Valfritt) Om du vill anpassa en befintlig vy väljer du den standardvy som du vill anpassa.\
-   Standardvyer är tillgängliga för alla typer av listor i Workfront, till exempel rapporter, projektlistor och uppgiftslistor.
-1. Klicka på listrutan **Visa** och sedan på **Anpassa vy** eller **Ny vy**.\
-   Dialogrutan **Anpassa vy** visas.
+
+1. Klicka på knappen **+ Ny vy** för att skapa en ny vy.
+eller
+Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
+Dialogrutan **Anpassa vy** visas.
 
 1. Gör något av följande i avsnittet **Förhandsvisa kolumn**:
 
@@ -121,7 +135,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Kolumnregler</strong></td> 
-           <td><p>Klicka på <strong>Lägg till en regel för den här kolumnen</strong> för att definiera en regel för kolumnen. När du har lagt till en regel kan du definiera fält- och textformat för hur fält som matchar den regeln visas. Klicka på <strong>Lägg till regel</strong> när du har definierat regeln.</p></td> 
+           <td><p>Klicka på <strong>+ Lägg till en regel för den här kolumnen </strong> för att definiera en regel för kolumnen. När du har lagt till en regel kan du definiera fält- och textformat för hur fält som matchar den regeln visas. Klicka på <strong>Lägg till regel</strong> när du har definierat regeln.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ Så här skapar eller anpassar du en Agile-vy:
     </tbody> 
    </table>
 
-1. I avsnittet **Agile** i området **Ytterligare fält** klickar du på **Lägg till fält** och markerar sedan det fält som du vill lägga till i artikelkort. (Detta är samma fält som du kan lägga till när du skapar en anpassad vy eller skapar kolumner för en rapport.)\
+1. Klicka på **Lägg till fält** i området **Ytterligare fält** och markera sedan det fält som du vill lägga till i artikelkort. (Detta är samma fält som du kan lägga till när du skapar en anpassad vy eller skapar kolumner för en rapport.)\
    Upprepa den här processen om du vill lägga till upp till tre ytterligare fält till artikelkorten.\
    När du lägger till fält i artikelkort är fälten skrivskyddade och visas endast när fältet fylls i.
 

@@ -6,16 +6,16 @@ description: Du kan begränsa mängden information som visas på skärmen i en l
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera filter i Adobe Workfront
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 Du kan begränsa mängden information som visas på skärmen i en lista med objekt med ett filter. Du kan definiera vissa villkor baserat på viss information om ett objekt och bara visa de objekt som uppfyller dessa villkor.
 
@@ -47,42 +47,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Nytt: Medarbetare eller högre</p>
-
-eller
-
-<p>Aktuell: Begäran eller senare</p>
-
-<p><b>OBS!</b></p>
-
-Om du vill redigera ett filter i en rapport måste du ha följande licens:
-
-<p>Nytt: Standard</p>
-
-eller
-
-<p>Aktuell: Planera</p>
-
-</td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Medarbetare som ändrar ett filter</p></li>
+         <li><p>Standard för att ändra ett filter i en rapport</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Begäran om att ändra ett filter</p></li>
+         <li><p>Planera att ändra ett filter i en rapport</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
    <td> <ul><li><p>Redigera åtkomst till filter, vyer och grupperingar</p></li></ul>
-    <p><b>OBS!</b></p>
-   Om du vill redigera ett filter i en rapport måste du ha följande åtkomstnivåkonfiguration förutom Redigera åtkomst till filter, vyer och grupperingar:
 
-<ul><li><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></li></ul>
+Om du vill redigera ett filter i en rapport måste du ha följande åtkomstnivåkonfiguration förutom Redigera åtkomst till filter, vyer och grupperingar:
 
-<p><b>OBS!</b></p> <p> Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+<ul><li><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Hantera behörigheter till ett filter</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader"><strong>Objektbehörigheter*</strong></td> 
+   <td> <p>Hantera behörigheter till ett filter</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -369,19 +363,17 @@ Du kan skapa äldre filter i listor och rapporter på följande sätt:
 Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär som när du skapar ett filter från början eller från ett befintligt filter.
 
 1. Gå till en lista eller rapport som innehåller filtret som du vill anpassa.
-1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png), klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Gå tillbaka till äldre filter**.
 
    >[!TIP]
    >
    >Rapportskaparen måste tillåta att filter kan redigeras för att visa listrutan Filter i en rapport. Standardfiltret Rapport används som standard på en rapport. Standardfiltret för rapporten kan bara anpassas när du redigerar rapporten.
 
-   ![Listrutan Filter](assets/filter-drop-down-expanded-nwe.png)
-
-1. Klicka på **Nytt filter** överst i filterlistan.
+1. Klicka på **+ Nytt filter** överst i filterlistan.
 
    eller
 
-   Håll pekaren över det filter som du vill ändra och klicka på ikonen **Redigera** ![](assets/edit-icon.png) .
+   Håll pekaren över det filter som du vill ändra och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
    Verktyget för att anpassa filtret startas.
 
@@ -423,7 +415,7 @@ Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär
 
    eller
 
-   Klicka på **Spara som nytt filter** om du vill skapa ett filter från det markerade filtret.
+   Klicka på **Spara som nytt filter** om du vill skapa ett nytt filter från det markerade.
 
    Det nya filtret visas i filterlistan och tillämpas automatiskt på den lista eller rapport som du har valt.
 

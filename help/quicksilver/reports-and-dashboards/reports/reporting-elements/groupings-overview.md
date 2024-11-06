@@ -7,18 +7,18 @@ description: Du kan lägga till grupperingar för att hantera layouten för info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Översikt över grupperingar i Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 Du kan lägga till grupperingar för att hantera layouten för informationen i rapporter och listor.
 
@@ -32,13 +32,13 @@ Du kan lägga till grupperingar i rapporter på följande sätt:
 
   Mer information om hur du skapar en gruppering från grunden finns i [Skapa grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-Som standard visas grupperingar i en grå eller blå markering i rapporten eller listan. Resultatet av rapporten eller listan visas under den enskilda grupperingen, utan någon högdager.
+Som standard visas grupperingar i en grå markering i rapporten eller listan. Resultatet av rapporten eller listan visas under den enskilda grupperingen, utan någon högdager.
+
+![Exempel på grupperingar](assets/grouping-example-blue.png)
 
 Du kan lägga till upp till tre grupperingar i en rapport. Du kan ordna information med upp till fyra grupperingar genom att skapa en matrisrapport. Mer information om matrisrapporter finns i [Skapa en matrisrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-I en standardgrupperingsrapport är den första grupperingen en mörkare färg, den andra och den tredje grupperingen ljusare. Du kan inte anpassa färgen på högdagern för din gruppering eller teckensnittet för grupperingsnamnet. Siffran inom parentes efter grupperingens namn representerar antalet resultat under den grupperingen. Om rapporten omfattar flera sidor måste du visa *Alla* resultaten i rapporten eller listan för att få en korrekt räkning för resultaten under varje gruppering.
-
-![Exempelgruppering](assets/grouping-example-blue.png)
+Siffran inom parentes efter grupperingens namn representerar antalet resultat under den grupperingen. Om rapporten omfattar flera sidor måste du visa *Alla* resultaten i rapporten eller listan för att få en korrekt räkning för resultaten under varje gruppering.
 
 Tänk på följande när du arbetar med grupperingar:
 

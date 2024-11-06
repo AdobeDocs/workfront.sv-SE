@@ -6,14 +6,16 @@ description: Läs den här artikeln om du vill veta mer om riktlinjer för kolum
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
 # Ändra kolumnbredd och -ordning
+
+<!-- Audited: 11/2024 -->
 
 Nedan följer riktlinjer för hur kolumnbredder fungerar i Adobe Workfront:
 
@@ -36,6 +38,8 @@ Nedan följer riktlinjer för hur kolumnbredder fungerar i Adobe Workfront:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Begäran eller senare </p> </td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Medarbetare eller högre</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Begäran eller senare</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera vyn i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera vyn i en rapport</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Hantera behörigheter till en rapport för att redigera en vy i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter till en rapport för att redigera en vy i en rapport</p> <p>Hantera behörigheter till en vy för att redigera den</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ändra kolumnbredd och -ordning
 
@@ -113,17 +128,13 @@ Mer information om hur du exporterar data från listor och rapporter finns i art
 #### Ändra storlek på kolumner tillfälligt {#resize-columns-temporarily}
 
 1. Gå till listan som du vill ändra.
-1. Dra en kolumns kant tills kolumnen når önskad storlek.\
+1. Dra i kanten på en kolumnrubrik tills kolumnen når önskad storlek.\
    ![](assets/column-resize-350x124.png)
 
 #### Ordna om kolumner tillfälligt {#reorder-columns-temporarily}
 
 1. Gå till listan som du vill ändra.
-1. Klicka på en kolumn som du vill flytta till en annan plats för att välja kolumnen.
-1. Dra kolumnen till rätt plats.
-1. Släpp kolumnen på platsen för att flytta den.
-
-   ![](assets/column-reorder-350x118.png)
+1. Klicka och dra den kolumnrubrik som du vill flytta till önskad plats.
 
 >[!TIP]
 >

@@ -7,7 +7,7 @@ description: Du kan använda filter i Adobe Workfront för att minska mängden i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Översikt över filter
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 Du kan använda filter i Adobe Workfront för att minska mängden information som visas på skärmen i listor, rapporter eller andra områden.
 
@@ -71,13 +71,16 @@ Mer information om filter i listor och rapporter finns i följande artiklar:
 
 Du kan antingen använda inbyggda filter eller skapa anpassade filter i följande områden av Workfront:
 
-* Startsida\
+* Startsida
+
   Mer information finns i [Visa objekt i arbetslistan i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
 * Området med förfrågningar. Du kan inte anpassa filter i området Förfrågningar.
 
   Mer information finns i [Leta rätt på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-* Resursplanering\
+* Resursplanering
+
   Mer information finns i artikeln [Filtrera information i resursplaneraren](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Användningsrapport
@@ -104,9 +107,7 @@ Du kan antingen använda inbyggda filter eller skapa anpassade filter i följand
   >
   >Du kan inte anpassa filter i Scenarioplanen.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   Du kan använda inbyggda filter för planer, initiativ eller projekt, och du kan anpassa projektfilter i Scenarioplanen.
 
