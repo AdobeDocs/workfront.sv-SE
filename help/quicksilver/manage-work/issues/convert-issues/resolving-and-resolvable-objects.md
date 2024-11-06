@@ -7,7 +7,7 @@ description: Ett upplösningsbart objekt är ett problem vars upplösning är kn
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 0%
@@ -228,7 +228,7 @@ Tabellen nedan visar vilka fält du kan visa och i vilka vyer du kan visa dem:
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Ursprungligt utfärdningsnamn, ursprungligt utgivningsdatum, upphovsmannens namn</strong>: Visar namnet och startdatumet för det ursprungliga utgivningsnumret samt namnet på den användare som skapade utgivningen i en anpassad textvy.<br>Mer information om hur du skapar en anpassad textvy för ett projekt, en aktivitetsrapport eller en lista med information om det ursprungliga problemet finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visa: visa information om det ursprungliga problemet i uppgifts- och projektlistor</a>.<br></td> 
+   <td><strong>Ursprungligt utfärdningsnamn, ursprungligt utgivningsdatum, upphovsmannens namn</strong>: Visar namnet och startdatumet för det ursprungliga utgivningsnumret samt namnet på den användare som skapade utgivningen i en anpassad textvy.<br>Mer information om hur du skapar en anpassad textvy för ett projekt, en aktivitetsrapport eller en lista med information om det ursprungliga problemet finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visa: visa information om det ursprungliga problemet i uppgifts- eller projektlistor</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

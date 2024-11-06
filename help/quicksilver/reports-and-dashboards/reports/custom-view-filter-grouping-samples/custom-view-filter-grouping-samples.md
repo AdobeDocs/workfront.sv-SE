@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -47,7 +47,7 @@ I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar s
 * [Visa: information om kombinerade aktiviteter och ärenden i en timlista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [Visa: visa en bild i stället för en sträng i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Visa: visningsobjekt som inte ingår i standardgränssnittet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Visa: visa information om ursprungligt problem i uppgifts- och projektlistor](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [Visa: visa information om ursprungligt problem i uppgifts- eller projektlistor](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [Visa: visa Program- och Portfolio-information i en uppgiftsvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [Visa: visa indrag för aktiviteter i en uppgiftslista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [Visa: dokumentrapport med länk till ett korrektur](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)

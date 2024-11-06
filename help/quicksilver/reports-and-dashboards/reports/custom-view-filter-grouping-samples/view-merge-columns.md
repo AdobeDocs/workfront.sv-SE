@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: sammanfoga information från flera kolumner i en delad kolumn'
+title: 'Visa: Sammanfoga information från flera kolumner i en delad kolumn'
 description: Du kan sammanfoga informationen som visas i flera separata kolumner och visa den i en delad kolumn.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Visa: sammanfoga information från flera kolumner i en delad kolumn
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Du kan sammanfoga informationen som visas i flera separata kolumner och visa den i en delad kolumn.
 
@@ -94,7 +94,10 @@ Du kan sammanfoga data från flera separata kolumner så att de visas i en kolum
 
 Så här sammanfogar du data från två kolumner utan radbrytning:
 
-1. Lägg till följande text i den första kolumnen som du vill sammanfoga i textläge för en vy:
+1. Gå till en lista med objekt.
+1. Välj en vy i listrutan **Visa** och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) för att redigera vyn.
+1. Gå till den första kolumnen som du vill sammanfoga och klicka sedan på **Växla till textläge** > **Redigera textläge**.
+1. Lägg till följande text i den första kolumnen som du vill sammanfoga:
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ Så här sammanfogar du data från två kolumner utan radbrytning:
 
    Om du delar mer än en kolumn måste du lägga till kolumnnumret på de kodrader som innehåller delningsinformationen för varje kolumn.
 
-   **Exempel:** Följande är textlägeskoden för en sammanfogad kolumn som innehåller tre separata kolumner, med början från den andra kolumnen i listan. De sammanfogade värdena är Projektnamn, Planerat startdatum och Projektägarens namn och det finns ingen brytning mellan de tre värdena:
 
-   `column.1.valuefield=name`
+   **EXEMPEL:** Följande är textlägeskoden för en sammanfogad kolumn som innehåller tre separata kolumner, med början från den andra kolumnen i listan. De sammanfogade värdena är Projektnamn, Planerat startdatum och Projektägarens namn och det finns ingen brytning mellan de tre värdena:
 
-   `column.1.valueformat=HTML`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.sharecol=true`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.2.valuefield=plannedStartDate`
 
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. Klicka på **Spara** och sedan på **Spara vy**.
+1. Klicka på **Klar** och sedan på **Spara vy**.
 
 ## Sammanfoga data från två kolumner med en radbrytning
 
 Gör följande för att sammanfoga data från flera kolumner så att de visas i en gemensam kolumn med en radbrytning mellan värdena från varje kolumn:
 
+1. Gå till en lista med objekt.
+1. Välj en vy i listrutan **Visa** och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) för att redigera vyn.
 1. Lägg till en tredje kolumn mellan de två kolumner som du vill sammanfoga.
 
    >[!TIP]
@@ -137,18 +139,16 @@ Gör följande för att sammanfoga data från flera kolumner så att de visas i 
    >* Kolumnerna som du vill sammanfoga måste ligga intill varandra.
    >* Du måste klicka på den första kolumnen som du vill sammanfoga.
 
-1. Klicka på **Växla till textläge** och lägg till följande kod i den mittersta kolumnen som du lade till i steg 1:
+1. Klicka på **Växla till textläge** > **Redigera textläge** och lägg till följande kod i den mittersta kolumnen som du lade till i steg 1:
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. Klicka på den första kolumnen och klicka på **Växla till textläge** och lägg sedan till följande text i kolumnen:
+1. Klicka på den första kolumnen och klicka på **Växla till textläge** > **Redigera textläge** och lägg sedan till följande text i kolumnen:
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ Gör följande för att sammanfoga data från flera kolumner så att de visas i 
 
    Om du delar mer än en kolumn måste du lägga till kolumnnumret i kodraderna som innehåller delningsinformationen.
 
-   **Exempel:** Följande är textlägeskoden för en delad kolumn som innehåller Projektnamn, Planerat startdatum och Projektägarens namn med en radbrytning. Den delade kolumnen är den andra kolumnen i en projektvy.
+   **EXEMPEL:** Följande är textlägeskoden för en delad kolumn som innehåller Projektnamn, Planerat startdatum och Projektägarens namn med en radbrytning. Den delade kolumnen är den andra kolumnen i en projektvy.
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. Klicka på **Spara** och sedan på **Spara vy**.
+1. Klicka på **Klar** och sedan på **Spara vy**.

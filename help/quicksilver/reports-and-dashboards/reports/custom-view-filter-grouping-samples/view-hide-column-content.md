@@ -2,23 +2,25 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: dölj innehållet i en kolumn'
+title: 'Visa: Dölj innehållet i en kolumn'
 description: Du kanske vill dölja information i kolumnen för en vy. Du kan göra detta genom att ändra kolumnens textläge.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # Visa: dölj innehållet i en kolumn
 
+<!--Audited: 11/2024-->
+
 Du kanske vill dölja information i kolumnen för en vy. Du kan göra detta genom att ändra kolumnens textläge.
 
->[!TIP]
+>[!NOTE]
 >
 >* Du kan använda dolda kolumner för att sortera efter ett visst objekt som du inte vill visa i vyn.\
 >  Du kan till exempel sortera efter Uppgiftsnummer i en uppgiftsvy och dölja informationen om Uppgiftsnummer i vyn. I det här fallet kan objektet som refereras i kolumnen sortera vyn, men informationen om objektet visas inte i vyn.
@@ -27,6 +29,8 @@ Du kanske vill dölja information i kolumnen för en vy. Du kan göra detta geno
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -34,28 +38,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt:<ul><li>Medarbetare som ändrar en vy</li><li>Standard för att ändra en rapport</li></ul></p><p>eller</p>Aktuell:<ul><li>Begäran om att ändra en vy</li><li>Planera att ändra en rapport</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exempel: Sortera och dölja kolumnen Aktivitetsnummer i en uppgiftsvy:
 
@@ -64,28 +67,25 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 1. Klicka på **Lägg till kolumn** och börja skriva &quot;Aktivitetsnummer&quot; i fältet **Visa i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka på **Växla till textläge**.
-1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
-1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
-
-   <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueFormat=int<br><strong>width=0</strong></pre>De viktiga ändringarna i koden som gör kolumnen dold är:
+1. Klicka på **Växla till textläge** och sedan på **Redigera text**.
+1. Ta bort den text du söker i rutan **Redigera textläge** och ersätt den med följande kod:
 
    ```
-   displayname
+   displayname=
+   linkedname=direct
+   querysort=taskNumber
+   sortOrder=1
+   sortType=asc
+   textmode=true
+   value=
+   valueformat=int
+   width=0
    ```
 
-   den här raden måste vara tom.
+   De viktiga ändringarna i koden som gör kolumnen dold är:
 
-   ```
-   valuefield
-   ```
+   * `displayname=`: Den här raden måste vara tom.
+   * `valuefield=`: Detta har ersatts med `value` och måste vara tomt.
+   * `width=`: Beroende på fältet måste värdet vara **0** eller **1**.
 
-   Detta har ersatts med *value* och måste vara tomt.
-
-   ```
-   width
-   ```
-
-   : Beroende på fältet måste värdet vara *0* eller *1*.
-
-1. Klicka på **Spara** och sedan på **Spara vy**.
+1. Klicka på **Klar** och sedan på **Spara vy**.

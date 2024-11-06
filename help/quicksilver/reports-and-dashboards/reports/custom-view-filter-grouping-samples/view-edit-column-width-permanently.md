@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: redigera bredden på en kolumn permanent'
+title: 'Visa: Redigera bredden på en kolumn permanent'
 description: Du kan tillfälligt ändra kolumnbredden genom att dra och släppa marginalerna så att de matchar den önskade bredden. Mer information finns i Ändra kolumnbredd och -ordning.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # Visa: redigera bredden på en kolumn permanent
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 Du kan tillfälligt ändra kolumnbredden genom att dra och släppa marginalerna så att de matchar den önskade bredden. Mer information finns i [Ändra kolumnbredd och ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
@@ -73,7 +73,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Klicka på kolumnrubriken för en befintlig kolumn.
 
 1. Klicka på **Växla till textläge**.
-1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Klicka på **Redigera textläge**.T
 1. Lägg till följande kod i textläget för kolumnen:
 
    ```
@@ -83,6 +83,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    För raden **width** anger du ett tal (i pixlar) som representerar hur bred du vill att kolumnen ska visas i vyn.
 
-1. Klicka på **Spara** och sedan på **Spara vy**.
+1. Klicka på **Klar** och sedan på **Spara vy**.
 
 

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: visningsobjekt som inte ingår i standardgränssnittet'
+title: 'Visa: Visa objekt som inte ingår i standardgränssnittet'
 description: Du kan visa objekt som inte ingår i standardlägesgränssnittet i en vy. Du kan bara göra detta genom att referera till dem via textläge.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Du kan bestämma vilka fält som kan inkluderas i en vy på något av följande 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -37,28 +39,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exempel: lägg till kolumnen Portfolio ägarnamn i en projektvy
 
@@ -67,17 +75,14 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 1. Klicka på **Lägg till kolumn** och börja sedan skriva &quot;Portfolio Owner ID&quot; i fältet **Show i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka på **Växla till textläge**.
-1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. Ersätt raden `valuefield` (`valuefield=portfolio:ownerID`) med följande rad:
 
-   ```
-   valuefield=portfolio:owner:name
-   ```
+   `valuefield=portfolio:owner:name`
 
    eller
 
-   Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
+   Ta bort den text du söker i rutan **Redigera textläge** och ersätt den med följande kod:
 
    ```
    valuefield=portfolio:owner:name
@@ -93,4 +98,4 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >
    >Ersätt alltid `ID` med `:name` på raden `valuefield` om du vill ersätta ett fält `ID` med fältet `name` i textläge.
 
-1. Klicka på **Spara** och sedan på **Spara vy**.
+1. Klicka på **Klar** och sedan på **Spara vy**.

@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: visa relationen överordnad-underordnad i en uppgift genom att dra in uppgifterna'
+title: 'Visa: Visa den överordnade-underordnade relationen i en aktivitet genom att dra in uppgifter'
 description: Du kan behålla skillnaden mellan överordnade och underordnade relationer i en exporterad uppgiftslista genom att lägga till en anpassad vy i uppgiftslistan och se till att den här vyn är markerad innan du exporterar listan.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # Visa: visa relationen överordnad-underordnad i en uppgift genom att dra in uppgifterna
 
+<!--Audited: 11/2024-->
+
 Du kan behålla skillnaden mellan överordnade och underordnade relationer i en exporterad uppgiftslista genom att lägga till en anpassad vy i uppgiftslistan och se till att den här vyn är markerad innan du exporterar listan.
 
 ![](assets/parent-child-indented-custom-view-350x94.png)
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -29,43 +33,51 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p> Aktuell: 
+   <ul>
+   <li>Begäran om att ändra en vy</li> 
+   <li>Planera att ändra en rapport</li>
+   </ul>
+     </p>
+     <p> Nytt: 
+   <ul>
+   <li>Medarbetare som ändrar en vy</li> 
+   <li>Standard för att ändra en rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa relationen överordnad-underordnad i en uppgift genom att dra in uppgifterna
 
 1. Gå till projektet med uppgiftslistan som du vill exportera.
 1. Klicka på listrutan **Visa** och välj **Ny vy**.
-
-1. Namnge filtret i skärmens övre vänstra hörn.
 1. Klicka i kolumnrubriken **Aktivitetsnamn**.
-
 1. Välj **Växla till textläge** i det övre högra hörnet.
-1. Klicka någonstans i textrutan för att redigera text och ta bort all befintlig text.
+1. Klicka på **Redigera textläge** och ta bort all befintlig text.
 1. Klistra in följande text:
 
 
-```
+   ```
    displayname=
    linkedname=direct
    namekey=name
@@ -73,7 +85,6 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    textmode=true
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
    valueformat=HTML
-```
+   ```
 
-1. Klicka på **Spara**.
-1. Klicka på **Spara vy**.
+1. Klicka på **Klar** > **Spara vy**.

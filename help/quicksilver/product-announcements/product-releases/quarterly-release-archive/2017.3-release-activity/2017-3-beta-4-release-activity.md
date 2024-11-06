@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -151,7 +151,7 @@ Den här informationen kan visas i en uppgifts- eller projektrapport eller i en 
 
 Före den här ändringen kunde du inte rapportera om den här informationen.
 
-Mer information om hur du skapar den anpassade textlägesvyn som hämtar information från det ursprungliga problemet finns i [Visa information om ursprungliga problem i uppgifts- och projektlistor](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Mer information om hur du skapar den anpassade textlägesvyn som hämtar information från det ursprungliga problemet finns i [Visa information om ursprungliga problem i uppgifts- eller projektlistor](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Filtersystemsuppdateringar i uppdateringsströmmen är nu beständiga över objekt {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

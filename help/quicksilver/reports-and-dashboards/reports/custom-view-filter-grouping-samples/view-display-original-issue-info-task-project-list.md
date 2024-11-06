@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: visa information om ursprunglig utgåva i uppgifts- och projektlistor'
+title: 'Visa: Visa information om ursprungligt problem i Aktivitets- eller projektlistor'
 description: Du kan visa information från den ursprungliga utgåvan i en vy över uppgifts- och projektlistor efter att utgåvan har konverterats till aktiviteterna och projekten i listan.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# Visa: visa information om ursprunglig utgåva i uppgifts- och projektlistor
+# Visa: visa information om ursprungligt problem i uppgifts- eller projektlistor
 
 Du kan visa följande information från den ursprungliga utgåvan i en vy över uppgifts- och projektlistor efter att utgåvan har konverterats till aktiviteterna och projekten i listan:
 

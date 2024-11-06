@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: lista över projektanvändare med jobbroller'
+title: 'Visa: Lista med projektanvändare med jobbroller'
 description: Du kan använda den här vyn i en projektlista eller rapport om du vill visa en lista över användare som är kopplade till projektet, samt en lista över de jobbroller de utför i projektet.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Visa: lista över projektanvändare med jobbroller
+
+<!--Audited: 11/2024-->
 
 Du kan använda den här vyn i en projektlista eller rapport om du vill visa en lista över användare som är kopplade till projektet, samt en lista över de jobbroller de utför i projektet.
 
@@ -28,6 +30,8 @@ Informationen i den här rapporten finns även i området Personer i projektet.
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -35,38 +39,75 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p> Aktuell: 
+   <ul>
+   <li>Begäran om att ändra en vy</li> 
+   <li>Planera att ändra en rapport</li>
+   </ul>
+     </p>
+     <p> Nytt: 
+   <ul>
+   <li>Medarbetare som ändrar en vy</li> 
+   <li>Standard för att ändra en rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Visa en lista över projektanvändare med jobbroller
 
 1. Gå till en lista med projekt.
 1. Välj **Ny vy** i listrutan **Visa**.
-
 1. Ta bort alla kolumner utom en i området **Förhandsvisa kolumn**.
-1. Klicka på rubriken för den återstående kolumnen och klicka sedan på **Växla till textläge**.
-1. För musen över textlägesområdet och klicka på **Klicka för att redigera text**.
-1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
-   <pre>column.0.link.valueFormat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.section=0<br>column.0.shortview=false<br>column.0.qch=10 0<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=200<br>column.1.displayname=Project Users<br>column.1.listdelimiter=&lt;br&gt;<br>column.1.listmethod=nested(projectUsers).lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression={user}.{name}<br>column.1.valueformat=HTML<br>column.2.displayname=Project Roles<br>column.2.listdelimiter=&lt;br&gt;<br>column.2.listmethod=nested(projectUserRoles).lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={role}.{name}<br>column.2.valueformat=HTML</pre>
+1. Klicka på rubriken för den återstående kolumnen och klicka sedan på **Växla till textläge** > **Redigera textläge**.
+1. Ta bort den text du söker i rutan **Redigera textläge** och ersätt den med följande kod:
 
-1. Klicka på **Spara vy**.
+   ```
+   column.0.link.valueformat=val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.section=0
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=200
+   column.1.displayname=Project Users
+   column.1.listdelimiter=<br>
+   column.1.listmethod=nested(projectUsers).lists
+   column.1.textmode=true
+   column.1.type=iterate
+   column.1.valueexpression={user}.{name}
+   column.1.valueformat=HTML
+   column.2.displayname=Project Roles
+   column.2.listdelimiter=<br>
+   column.2.listmethod=nested(projectUserRoles).lists
+   column.2.textmode=true
+   column.2.type=iterate
+   column.2.valueexpression={role}.{name}
+   column.2.valueformat=HTML
+   ```
+
+1. Klicka på **Klar** > **Spara vy**.

@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 0%
@@ -1658,7 +1658,7 @@ ht-degree: 0%
          * [Visa: information om kombinerade uppgifter och utgåvor i en timlista](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [Visa: visa en bild i stället för en sträng i en kolumn](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [Visa: visningsobjekt som inte ingår i standardgränssnittet](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-         * [Visa: visa information om ursprunglig utgåva i uppgifts- och projektlistor](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+         * [Visa: visa information om ursprungligt problem i uppgifts- eller projektlistor](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
          * [Visa: visa Program- och Portfolio-information i en uppgiftsvy](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [Visa: visa indrag för uppgifter i en uppgiftslista](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [Visa: visa relationen överordnad-underordnad i en uppgift genom att dra in uppgifterna](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
