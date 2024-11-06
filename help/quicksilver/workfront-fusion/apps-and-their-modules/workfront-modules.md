@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
+source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
 workflow-type: tm+mt
-source-wordcount: '6123'
+source-wordcount: '6299'
 ht-degree: 0%
 
 ---
@@ -631,7 +631,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Välj den åtgärd som du vill att modulen ska utföra.</p> <p>Du kan behöva fylla i ytterligare fält, beroende på vilken [!UICONTROL Record Type] och [!UICONTROL Action] du väljer. Vissa kombinationer av dessa två inställningar kan endast kräva ett post-ID, medan andra (till exempel Projekt för <strong>[!UICONTROL Record Type]</strong> och [!UICONTROL Attach Template] för <strong>[!UICONTROL Action]</strong>) kräver ytterligare information (till exempel ett objekt-ID och ett mall-ID).</p> <p>Mer information om enskilda fält finns i <a href="http://developer.workfront.com/">dokumentationen för Workfront-utvecklare</a>. <p><strong>Obs!</strong> Utvecklarens dokumentationswebbplats innehåller endast information via API-version 14, men innehåller fortfarande värdefull information för API-anrop. </p> 
+   <td> <p>Välj den åtgärd som du vill att modulen ska utföra.</p> <p>Du kan behöva fylla i ytterligare fält, beroende på vilken [!UICONTROL Record Type] och [!UICONTROL Action] du väljer. Vissa kombinationer av dessa två inställningar kan endast kräva ett post-ID, medan andra (till exempel Projekt för <strong>[!UICONTROL Record Type]</strong> och [!UICONTROL Attach Template] för <strong>[!UICONTROL Action]</strong>) kräver ytterligare information (till exempel ett objekt-ID och ett mall-ID).</p><p>Tillgängliga alternativ för vissa åtgärder finns i <a href="#misc-action-options" class="MCXref xref">Alternativ för andra åtgärder</a> i den här artikeln.</p> <p>Mer information om enskilda fält finns i <a href="http://developer.workfront.com/">dokumentationen för Workfront-utvecklare</a>. <p><strong>Obs!</strong> Utvecklarens dokumentationswebbplats innehåller endast information via API-version 14, men innehåller fortfarande värdefull information för API-anrop. </p> 
     <ol> 
      <li value="1"> <p>Välj posttyp i den vänstra navigeringen på dokumentationssidan för [!DNL Workfront]-utvecklare. Följande typer har egna sidor:</p> 
       <ul> 
@@ -653,6 +653,156 @@ När du konfigurerar den här modulen visas följande fält.
 </table>
 
 Visa en lista över de [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] objekttyper som är tillgängliga för varje  [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+
+#### Alternativ för diverse åtgärder
+
+##### Uppgift
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Åtgärd</th> 
+   <th>Alternativ</th> 
+  </tr> 
+  <tr> 
+   <td>Kopiera</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearConstraints</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Raderar ekonomiska data</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Rensar påminnelsemeddelanden</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Flytta</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearDocuments</li>
+   <li>clearConstraints</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Raderar ekonomiska data</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Rensar påminnelsemeddelanden</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Problem
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Åtgärd</th> 
+   <th>Alternativ</th> 
+  </tr> 
+  <tr> 
+   <td>Kopiera</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearPermissions</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Konvertera till uppgift</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Behåll det ursprungliga problemet och knyt lösningen till den här uppgiften</p></li>
+   <li>preservePrimaryContact<p>Tillåt åtkomst till den primära kontakten för den här aktiviteten</p></li>
+   <li>preserveCompletionDate<p>Behåll det planerade slutförandedatumet för problemet</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Konvertera till projekt</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Behåll det ursprungliga problemet och knyt lösningen till den här uppgiften</p></li>
+   <li>preservePrimaryContact<p>Tillåt åtkomst till den primära kontakten för den här aktiviteten</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### Projekt
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Åtgärd</th> 
+   <th>Alternativ</th> 
+  </tr> 
+  <tr> 
+   <td>Kopiera</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Raderar ekonomiska data</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Rensar påminnelsemeddelanden</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Bifoga mall/Spara som mall</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearBillingRates</li>
+   <li>clearConstraints</li>
+   <li>clearDeliverables<p>Rensar mål</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Raderar ekonomiska data</p></li>
+   <li>clearHourTypes</li>
+   <li>clearIssueSetup<p>Rensar köegenskaper och inställningar för utleveranser</p></li>
+   <li>clearPredecessors</li>
+   <li>clearRisks</li>
+   <li>clearSharingOptions</li>
+   <li>clearTimedNotifications<p>Rensar påminnelsemeddelanden</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -929,7 +1079,8 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
  </tbody> 
 </table>
-++
+
++++
 
 +++ **[!UICONTROL Search (Legacy)]**
 
