@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3655'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Ljus eller högre för att logga timmar i ett projekt, en uppgift, ett ärende eller allmänna timmar på en tidrapport</p>
+   <td> <p>Nytt:</p>
+   <ul><li><p> Ljus eller högre för att logga timmar för en aktivitet, ett problem eller allmänna timmar på en tidrapport</p>
+   <li><p>Standard för att logga timmar i projekt</p></li></ul>
+   <p>
    <p>Aktuell: 
    <ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li>
    <li>Arbeta eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul> </td> 

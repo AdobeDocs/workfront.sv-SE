@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: överföringssökväg för utgåvor'
+title: 'Visa: Sökväg för att skicka för problem'
 description: Du kan visa den sökväg genom vilken ett problem har skickats in i en problemrapport. Sökvägen anger kön, ämnesgrupp och köämne där problemet ursprungligen skickades.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
 # Visa: överföringssökväg för problem
 
+<!--Audited: 11/2024-->
+
 Du kan visa den sökväg genom vilken ett problem har skickats in i en problemrapport. Sökvägen anger kön, ämnesgrupp och köämne där problemet ursprungligen skickades.
 
 ![issue_submit_path.png](assets/issue-submission-path-350x66.png)
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -29,28 +33,39 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p> Aktuell: 
+   <ul>
+   <li>Begäran om att ändra en vy</li> 
+   <li>Planera att ändra en rapport</li>
+   </ul>
+     </p>
+     <p> Nytt: 
+   <ul>
+   <li>Medarbetare som ändrar en vy</li> 
+   <li>Standard för att ändra en rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>   
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa överföringssökvägen för utgåvor
 
@@ -58,10 +73,15 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 1. Välj **Ny vy** i listrutan **Visa**.
 
 1. Klicka på **Lägg till kolumn** i området **Förhandsvisa kolumn**.
+1. Klicka på den nya kolumnens rubrik och klicka sedan på **Växla till textläge** > **Redigera textläge**.
+1. Ta bort den text du söker i rutan **Redigera textläge** och ersätt den med följande kod:
 
-1. Klicka på den nya kolumnens rubrik och klicka sedan på **Växla till textläge**.
-1. För musen över textlägesområdet och klicka på **Klicka för att redigera text**.
-1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
-   <pre>displayname= Issue Path<br>linkedname=direct <br>namekey=displayQueueBreadcrumb <br>valueField=displayQueueBreadcrumb <br>valueFormat=HTML<br></pre>
+   ```
+   displayname= Issue Path
+   linkedname=direct
+   namekey=displayQueueBreadcrumb
+   valuefield=displayQueueBreadcrumb
+   valueformat=HTML
+   ```
 
-1. Klicka på **Spara vy**.
+1. Klicka på **Klar** > **Spara vy**.
