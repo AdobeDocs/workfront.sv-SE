@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 0%
 >
 >En fullständig lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 >En översikt över Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
 
 I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i utgåvan 2025 av första kvartalet.
 
@@ -33,6 +32,24 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nya visningstyper för procenttypsfält i tabellvyn
+
+>[!NOTE]
+>
+>Förhandsversion: 7 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis version: Med version 25.1 (januari 2025)
+
+Om du vill göra det enklare att läsa tal i tabellvyn kan du nu välja mellan följande alternativ för att ändra hur ett procenttypsfält visas i tabellvyn:
+
+* Nummer
+* Liggande
+* Cirkel
+
+Den här visningstypen stöds bara i tabellvyn.
+
+Före den här förbättringen kunde du bara visa procentvärden som tal.
+
+Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Anslutningsfält stöds nu i förfrågningsformulär
 

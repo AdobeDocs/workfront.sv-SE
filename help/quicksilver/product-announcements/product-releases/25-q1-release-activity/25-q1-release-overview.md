@@ -4,9 +4,9 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -33,128 +33,243 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 
 ## Adobe Workfront-förbättringar
 
-* [Administratörsförbättringar](#administrator-enhancements)
-  <!--* [Boards enhancements](#boards-enhancements)-->
+* [Administratörsförbättringar](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [Förbättrad dokumenthantering](#document-management-enhancements)
+* [Hemförbättringar](#home-enhancements)
+* [Förbättringar av korrektur](#proofing-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <p><span class="bold">Funktion</span>
-                    </p>
-                </td>
-                <td>
-                    <p><span class="bold">Releasedatum</span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Ikonen <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"Flytta till" har lagts till i anpassade fält </a></p>
-                    <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
-                </td>
-                <td><p><b>Tillgängligt på följande datum:</b></p>
-                    <ul>
-                        <li>
-                            <p>Förhandsversion: 29 oktober 2024</p>
-                        </li>
-                        <li>
-                            <p>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</p>
-                        </li>
-                        <li>
-                            <p>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Funktion</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Releasedatum</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ikonen <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"Flytta till" har lagts till i anpassade fält </a></p>
+                <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
+            </td>
+            <td><p><b>Tillgängligt på följande datum:</b></p>
+                <ul>
+                    <li>
+                        <p>Förhandsversion: 29 oktober 2024</p>
+                    </li>
+                    <li>
+                        <p>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</p>
+                    </li>
+                    <li>
+                        <p>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 <!--### Boards enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <p><span class="bold">Feature</span>
-                    </p>
-                </td>
-                <td>
-                    <p><span class="bold">Release dates</span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
-                    <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
-                </td>
-                <td><p><b>Available on these dates:</b></p>
-                    <ul>
-                        <li>
-                            <p>Preview release: October 31, 2024</p>
-                        </li>
-                        <li>
-                            <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                        </li>
-                        <li>
-                            <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Feature</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Release dates</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
+                <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            </td>
+            <td><p><b>Available on these dates:</b></p>
+                <ul>
+                    <li>
+                        <p>Preview release: October 31, 2024</p>
+                    </li>
+                    <li>
+                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
+                    </li>
+                    <li>
+                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>-->
+
+### Förbättrad dokumenthantering
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Funktion</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Releasedatum</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny återkallad status tillgänglig för dokumentversioner som godkänts</a></p>
+                <p>När en ny version läggs till i ett dokument med enastående godkännanden visas nu godkännandena i den tidigare versionen som Återkallade. Den föregående godkännandeprocessen avslutas, även om vissa deltagare ännu inte har fattat något beslut.</p>
+            </td>
+            <td><p><b>Tillgängligt på följande datum:</b></p>
+                <ul>
+                    <li>
+                        <p>Förhandsversion: 7 november 2024</p>
+                    </li>
+                    <li>
+                        <p>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</p>
+                    </li>
+                    <li>
+                        <p>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+### Hemförbättringar
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Funktion</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Releasedatum</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa projektinformation i prioriteter</a></p>
+                <p>Nu kan du visa projektinformation och kommentarer från arbetslistan i Prioriteringar.</p>
+            </td>
+            <td><p><b>Tillgängligt på följande datum:</b></p>
+                <ul>
+                    <li>
+                        <p>Förhandsversion: 6 november 2024</p>
+                    </li>
+                    <li>
+                        <p>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</p>
+                    </li>
+                    <li>
+                        <p>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+## Förbättringar av korrektur
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Funktion</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Releasedatum</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Nytt webbläsartillägg för interaktiv granskning finns i beta</a></p>
+                [!BADGE In production ]{type=Informative}
+                <p>Vi introducerar ett nytt webbläsartillägg, Adobe Workfront granskningsverktyg, som ersätter det äldre webbläsartillägget för granskning av interaktivt ZIP-innehåll. Det nya granskningsverktyget i Adobe Workfront har stöd för granskning av ZIP-innehåll i alla vanliga webbläsare.</p>
+                <p>Det äldre webbläsartillägget tas bort den 28 februari 2025.</p>
+            </td>
+            <td><p><b>Tillgängligt på följande datum:</b></p>
+                <ul>
+                    <li>
+                        <p>Förhandsversion: 7 november 2024</p>
+                    </li>
+                    <li>
+                        <p class="preview">Produktionsrelease för alla kunder: 7 november 2024</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ### Andra förbättringar
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-assistenten kan nu arbeta med projekt, uppgifter och problem</a></p>
-                    <p>För att göra det enklare att hantera dina arbetsuppgifter i Workfront har vi uppdaterat AI Assistant för att arbeta med projekt, uppgifter och problem. Nu kan AI Assistant hitta projekt, uppgifter och problem baserat på kriterier som du anger, till exempel"Hitta mina uppgifter som ska utföras den här veckan".</p>
-                </td>
-                <td><p><b>Tillgängligt på följande datum:</b></p>
-                    <ul>
-                        <li>
-                            <p>Förhandsversion: 31 oktober 2024</p>
-                        </li>
-                        <li>
-                            <p>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</p>
-                        </li>
-                        <li>
-                            <p>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under första kvartalet 2025-tidsramen</a></p>
-                    <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för första kvartalet 2025. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
-                </td>
-                <td><p><b>Tillgängligt på följande datum:</b></p>
-                    <ul>
-                        <li>
-                            <p>Förhandsgranskningsversion: Under den första kvartersreleasen 2025</p>
-                        </li>
-                        <li>
-                            <p><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>                            
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-assistenten kan nu arbeta med projekt, uppgifter och problem</a></p>
+                <p>För att göra det enklare att hantera dina arbetsuppgifter i Workfront har vi uppdaterat AI Assistant för att arbeta med projekt, uppgifter och problem. Nu kan AI Assistant hitta projekt, uppgifter och problem baserat på kriterier som du anger, till exempel"Hitta mina uppgifter som ska utföras den här veckan".</p>
+            </td>
+            <td><p><b>Tillgängligt på följande datum:</b></p>
+                <ul>
+                    <li>
+                        <p>Förhandsversion: 31 oktober 2024</p>
+                    </li>
+                    <li>
+                        <p>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</p>
+                    </li>
+                    <li>
+                        <p>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under första kvartalet 2025-tidsramen</a></p>
+                <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för första kvartalet 2025. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
+            </td>
+            <td><p><b>Tillgängligt på följande datum:</b></p>
+                <ul>
+                    <li>
+                        <p>Förhandsgranskningsversion: Under den första kvartersreleasen 2025</p>
+                    </li>
+                    <li>
+                        <p><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></p>
+                    </li>
+                </ul>
+            </td>
+        </tr>                            
+    </tbody>
 </table>
 
 <!--
