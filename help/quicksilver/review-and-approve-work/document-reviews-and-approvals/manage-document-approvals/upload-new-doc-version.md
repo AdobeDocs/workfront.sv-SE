@@ -5,9 +5,9 @@ title: Överför en ny dokumentversion och begär godkännande
 description: Du kan överföra en ny dokumentversion och begära godkännande från andra användare i Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 66aa4c29743c031b1aff3b67364ff95f2b810ef8
+source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Om ett dokument har markerats behöver arbete i en tidigare granskning, kan du överföra en ny version till originaldokumentet och starta en ny godkännandeomgång.
 
 Om den nya versionens filnamn skiljer sig från den tidigare versionens filnamn visas dokumentet med det nya filnamnet i Workfront.
+
+När en ny version läggs till i ett dokument med enastående godkännanden visas godkännandet för den föregående versionen som Återkallat. Den föregående godkännandeprocessen avslutas, även om vissa deltagare ännu inte har fattat något beslut.
 
 ## Åtkomstkrav
 
