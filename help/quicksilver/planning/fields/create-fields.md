@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
+source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
 workflow-type: tm+mt
 source-wordcount: '3847'
 ht-degree: 0%
@@ -334,7 +334,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
       * **Lång**: 16 maj 2023
       * **Europeisk**: 16/05/2023
       * **ISO**: 2023-05-16
-   * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. <!--update this setting name - submitted bug for it to be changed-->
+      * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. <!--update this setting name - submitted bug for it to be changed-->
 
      Välj bland följande alternativ:
 
@@ -610,6 +610,7 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
       * **Lång**: 16 maj 2023
       * **Europeisk**: 16/05/2023
       * **ISO**: 2023-05-16
+
    * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. <!--submitted a UI text change for this - check the UI-->
 
      Välj bland följande alternativ:
