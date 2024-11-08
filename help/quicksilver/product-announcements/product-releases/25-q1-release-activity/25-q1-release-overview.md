@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny återkallad status tillgänglig för dokumentversioner som godkänts</a></p>
-                <p>När en ny version läggs till i ett dokument med enastående godkännanden visas nu godkännandena i den tidigare versionen som Återkallade. Den föregående godkännandeprocessen avslutas, även om vissa deltagare ännu inte har fattat något beslut.</p>
+                <p>När en ny version läggs till i ett dokument med väntande godkännanden visas nu godkännandet för den tidigare versionen som "Återkallad", vilket anger att den tidigare godkännandeprocessen har stängts på grund av att den nya versionen har lagts till.</p>
             </td>
             <td><p><b>Tillgängligt på följande datum:</b></p>
                 <ul>

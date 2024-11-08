@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 413099ef0ad1cb430e3d0cbdd8f613bd8f579a44
+source-git-commit: 974af7c2dd4a54deb176aa647c033439def2ff0e
 workflow-type: tm+mt
-source-wordcount: '14567'
+source-wordcount: '14576'
 ht-degree: 0%
 
 ---
@@ -896,6 +896,7 @@ ht-degree: 0%
       * [Prioriteter: artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Prioriteringar: kommande releaser](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Kom igång med prioriteringar](workfront-basics/priorities/get-started-with-priorities.md)
+      * [Visa projekt- och uppgiftsinformation i listan Prioriteter](workfront-basics/priorities/view-task-project-details.md)
       * [Filtrera och gruppera ditt arbete i prioriteter](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [Anpassa kolumnerna i arbetslistan](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Prioritera viktiga arbetsuppgifter](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)

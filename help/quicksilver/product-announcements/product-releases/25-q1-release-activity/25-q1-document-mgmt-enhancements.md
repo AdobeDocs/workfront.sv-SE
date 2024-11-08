@@ -4,9 +4,10 @@ description: Förbättringar av dokumenthanteringen i det första kvartalet 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -27,4 +28,6 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >
 >Förhandsversion: 7 november 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
-När en ny version läggs till i ett dokument med enastående godkännanden visas nu godkännandena i den tidigare versionen som Återkallade. Den föregående godkännandeprocessen avslutas, även om vissa deltagare ännu inte har fattat något beslut.
+När en ny version läggs till i ett dokument med väntande godkännanden visas nu godkännandet för den tidigare versionen som &quot;Återkallad&quot;, vilket anger att den tidigare godkännandeprocessen har stängts på grund av att den nya versionen har lagts till.
+
+Mer information finns i [Överföra en ny dokumentversion och begära ett godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
