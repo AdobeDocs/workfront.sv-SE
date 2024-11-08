@@ -4,9 +4,10 @@ description: Uppdateringar som både ser ut och känns under den första release
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -49,19 +50,6 @@ Mer information om valutakurser finns i [Konfigurera valutakurser](/help/quicksi
 Vi har uppdaterat sidan Exportera data (Spark-Starts) i inställningsområdet med en modernare design som överensstämmer med andra delar av Workfront.
 
 Mer information finns i [Exportera data från Workfront via Quick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
-
-## Få en bättre överblick över uppdateringarna i Workfront navigeringsfält
-
->[!NOTE]
->
->Produktionsrelease för alla kunder: Före version 24.11 (14 november 2024)
-
-Vi har uppgraderat Workfront navigeringsfält för att förbättra dess prestanda. Ändringarna är minimala.
-
-De viktigaste ändringarna är följande:
-
-* Listrutorna Favoriter och Senaste har inte längre någon stängningsknapp. Du kan bara klicka utanför skärmen eller trycka på ESC på tangentbordet för att stänga den.
-* Du kan inte längre ordna fästa sidor genom att dra och släppa dem. Det finns i stället en listruta med knappar som gör att du kan flytta dina fästa sidor.
 
 ## Sök i och redigera uppdatering för Skicka-uppdatering till användarfönstret
 
