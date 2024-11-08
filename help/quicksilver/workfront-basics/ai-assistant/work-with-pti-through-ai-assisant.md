@@ -4,9 +4,10 @@ content-type: reference
 description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen Sammanfatta.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 0eeee68c45003525b9593ce985729f7aa12189cf
+exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -31,27 +32,29 @@ AI Assistant kan hjälpa dig att hitta projekt, uppgifter och problem i Workfron
 1. Visa svaret på AI-assistentpanelen.
 1. (Valfritt) Om du vill gå till arbetsposten klickar du på länken på AI-assistentpanelen.
 
-## Skapa en arbetsuppgift
+<!--
 
-1. Klicka på ikonen **AI-assistenten** ![AI-assistenten](assets/ai-assistant-icon.png) i skärmens övre högra hörn.
-1. Ange en fråga som
+## Create a work item
 
-   * Skapa projektet &quot;Spring campaign&quot;
-   * Lägg till utgåvan &quot;UI Bug&quot; i projektet &quot;New UI&quot;
-   * Skapa&quot;fotofotograferingsuppgift&quot; i projektet&quot;Vårkampanj&quot;
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. Enter a prompt such as 
 
-1. Kontrollera AI Assistant-svaret för att se till att det vidtar önskade åtgärder
-1. (Villkorligt) Om svaret beskriver den korrekta åtgärden klickar du på **Ja**.
+   * Create project "Spring campaign"
+   * Add issue "UI Bug" to project "New UI" 
+   * Create "photoshoot" task in project "Spring campaign"
 
-   Det kan ta en stund att skapa objektet i AI Assistant, beroende på hur stor eller komplex frågan är och hur många poster den behöver söka i.
-1. (Villkorligt) Om du vill avbryta skapandet av det nya objektet klickar du på **Nej**.
-1. (Valfritt) Om du vill gå till arbetsposten klickar du på länken på AI-assistentpanelen.
+1. Check the AI Assistant response to ensure that it is taking the desired action
+1. (Conditional) If the response describes the correct action, click **Yes**.
+
+   AI Assistant may take a few moments to create the item, depending on how large or complex the prompt is and how many records it needs to search.
+1. (Conditional) To cancel the creation of the new item, click **No**.
+1. (Optional) To go to the work item, click the link in the AI Assistant panel.
 
 >[!NOTE]
 >
->Vi rekommenderar att du kontrollerar att det nya objektet har skapats som förväntat.
+>We recommend checking the new item to ensure that it was created as expected.
 
-
+-->
 
 <!--
 
