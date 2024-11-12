@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '14576'
+source-wordcount: '14583'
 ht-degree: 0%
 
 ---
@@ -2125,6 +2125,7 @@ ht-degree: 0%
       * [Hantera postsidans layout](planning/records/manage-the-record-page.md)
       * [Hantera poster i Planning-delen av Adobe Workfront-objekt](planning/records/manage-records-in-planning-section.md)
       * [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md)
+      * [Skapa objekt med automatisering av Workfront Planning Record](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront Planning-begäranden {#adobe-workfront-planning-requests}
       * [Adobe Workfront Planning Requests: artikelindex](planning/requests/requests-article-index.md)
       * [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](planning/requests/create-request-form.md)

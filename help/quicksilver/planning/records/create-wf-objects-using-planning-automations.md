@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 
-# Skapa Workfront-objekt med Workfront Planning Record Automations
+# Skapa objekt med automatisering av Workfront Planning Record
 
-Du kan konfigurera automatisering i Workfront Planning som, när den aktiveras, skapar objekt i Workfront.
+Du kan konfigurera automatisering i Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller Workfront Planning.
 
-Du aktiverar automatiseringen i poster. Objektet i Workfront är anslutet till Planning-posten där du aktiverade automatiseringen.
+Du aktiverar automatiseringen i poster. Objektet som skapas är anslutet till Planning-posten där du aktiverade automatiseringen.
 
 Du kan till exempel skapa en automatisering som tar en Workfront Planning-kampanj och skapar ett projekt i Workfront för att spåra kampanjens utveckling. Projektet skulle kopplas till Workfront Planning Campaign.
 
@@ -26,7 +26,7 @@ Mer information om anslutna poster finns i [Översikt över anslutna poster](/he
 
 ## Konfigurera automatisering i Workfront Planning
 
-Du måste konfigurera en automatisering i Workfront Planning innan du kan använda den för att skapa Workfront-objekt.
+Du måste konfigurera en automatisering i Workfront Planning innan du kan använda den för att skapa objekt.
 
 1. Klicka på menyn **Mer** ![](assets/more-menu.png) och välj **Automationer**.
 
@@ -44,14 +44,14 @@ Du måste konfigurera en automatisering i Workfront Planning innan du kan använ
    * Program
    * Grupp
 
-1. Välj ett postfält i fältet **Markera det fält som ska användas i projektnamnet**. Det nya projektet i Workfront får fältets innehåll som namn.
-1. I fältet **Markera fältet för att länka tillbaka det skapade projektet** markerar du ett postfält. Det nya projektet i Workfront visas i det här fältet när du visar posten i Workfront Planning.
+1. Välj ett postfält i fältet **Markera det fält som ska användas i projektnamnet**. Det nya objektet får fältets innehåll som namn.
+1. I fältet **Markera fältet för att länka tillbaka det skapade projektet** markerar du ett postfält. Det nya objektet visas i det här fältet när du visar posten i Workfront Planning.
 1. Välj andra alternativ som är tillgängliga för den typ av objekt som du skapar.
 1. Klicka på **Skapa**
 
 Automatiseringen visas i listan över automatiseringar och finns tillgänglig för arkivering.
 
-## Skapa ett Workfront-objekt med Workfront Planning Automation
+## Skapa ett objekt med en Workfront Planning Automation
 
 1. Öppna den posttypssida som innehåller de poster du vill använda för att skapa Workfront-objekt i Workfront Planning.
 1. Markera en eller flera poster.
