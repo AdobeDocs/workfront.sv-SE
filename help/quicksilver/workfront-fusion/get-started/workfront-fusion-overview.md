@@ -8,7 +8,7 @@ description: Rollen för  [!DNL Adobe Workfront Fusion] är att automatisera pro
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 6c55cb0ad06e25f9ab3b7c483aada91c701f56f1
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -78,7 +78,9 @@ När du börjar arbeta med Workfront Fusion kan du få hjälp med följande resu
 
 * Utbildningsresurser för Workfront Fusion finns i [Workfront Fusion Training Overview](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
+
 * Mer information om scenarier finns i [Översikt över scenarier](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
+
 
 * Information om hur du börjar skapa metodscenarier finns i [Skapa metodscenarier](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
