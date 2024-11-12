@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Anpassad Forms</strong> </td> 
-      <td>Välj de anpassade formulär som du vill associera med köavsnittet. Du måste skapa anpassade formulär för problem innan du kan koppla dem till köämnen. Mer information om hur du skapar anpassade formulär finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Designa ett formulär med formulärdesignern</a>.</td> 
+      <td>Välj de anpassade formulär som du vill associera med köavsnittet. Du måste skapa anpassade formulär för problem innan du kan koppla dem till köämnen. Mer information om hur du skapar anpassade formulär finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standardgodkännande</strong></td> 

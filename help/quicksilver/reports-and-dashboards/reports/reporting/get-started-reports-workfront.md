@@ -7,9 +7,9 @@ description: Rapporterna ger insyn i vad som händer med användare och arbete. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '3296'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -325,7 +325,7 @@ Följande termer används som referens för Workfront-rapporter:
   </tr> 
   <tr> 
    <td>Fält</td> 
-   <td> <p>Hänvisar till objektens attribut. "Status" är till exempel ett fält för Projekt, Åtgärder eller Problem. "Portfolio Manager" är ett fält för objektet Portfolio.</p> <p>Du kan också ha anpassade fält som du skapar själv och lägger till i anpassade formulär.<br>Mer information om hur du skapar anpassade formulär finns i artikeln <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Designa ett formulär med formulärdesignern</a>.</p> </td> 
+   <td> <p>Hänvisar till objektens attribut. "Status" är till exempel ett fält för Projekt, Åtgärder eller Problem. "Portfolio Manager" är ett fält för objektet Portfolio.</p> <p>Du kan också ha anpassade fält som du skapar själv och lägger till i anpassade formulär.<br>Mer information om hur du skapar anpassade formulär finns i artikeln <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Fältnamn </td> 

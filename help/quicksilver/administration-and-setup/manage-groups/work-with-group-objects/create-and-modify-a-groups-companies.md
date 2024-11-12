@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr>
      <tr> 
       <td role="rowheader">Anpassat Forms-avsnitt</td> 
-      <td> <p>Om det finns fält som du vill lägga till i ditt företag som inte är tillgängliga i Workfront kan du skapa ett anpassat formulär och associera det med ditt företag. Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan. Endast aktiva företag visas i listrutan. Mer information om hur du skapar anpassade formulär finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Designa ett formulär med formulärdesignern</a>. </p> </td> 
+      <td> <p>Om det finns fält som du vill lägga till i ditt företag som inte är tillgängliga i Workfront kan du skapa ett anpassat formulär och associera det med ditt företag. Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan. Endast aktiva företag visas i listrutan. Mer information om hur du skapar anpassade formulär finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>

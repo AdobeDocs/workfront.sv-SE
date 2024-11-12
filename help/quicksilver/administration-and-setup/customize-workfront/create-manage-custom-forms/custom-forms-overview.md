@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Du kan lägga till följande typer av anpassade fält i ett anpassat formulär i
 * Stycke
 * Text med formatering
 * Listruta med ett val
-* Flervalsmeny
+* Listruta för flera val
 * Extern sökning
 * Ursprunglig fältreferens
 * Typeahead

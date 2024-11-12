@@ -5,9 +5,9 @@ description: Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -622,7 +622,7 @@ I följande tabell visas några av skillnaderna mellan de äldre och uppdaterade
   </tr> 
   <tr> 
    <td>Du kan inte infoga redigering av anpassade fält med formatering av formaterad text.</td> 
-   <td> <p>Text i anpassade fält med formatering kan konfigureras för fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Designa ett formulär med formulärdesignern</a>.</p> </td> 
+   <td> <p>Text i anpassade fält med formatering kan konfigureras för fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär/a&gt;.</p> </td> 
   </tr> 
   <tr> 
    <td>Villkorsstyrd formatering kan ändra textfärgen på länkar i en lista</td> 

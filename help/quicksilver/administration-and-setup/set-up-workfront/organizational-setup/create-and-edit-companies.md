@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Så här lägger du till eller redigerar ett företag:
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] section</td> 
-      <td> <p>Om det finns fält som du vill lägga till i ditt företag som inte är tillgängliga i [!DNL Workfront] kan du skapa ett anpassat formulär och associera det med ditt företag. </p> <p>Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan. Endast aktiva anpassade formulär visas på menyn.</p> <p><strong>Obs!</strong> Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är bara tillgängliga när du öppnar företagsposten på informationssidan, inte i dialogrutan Redigera företag. (I listan över företag klickar du på företagsnamnet för att öppna informationen.)</p> <p> Mer information om hur du skapar anpassade formulär finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Designa ett formulär med formulärdesignern</a>. </p> </td>
+      <td> <p>Om det finns fält som du vill lägga till i ditt företag som inte är tillgängliga i [!DNL Workfront] kan du skapa ett anpassat formulär och associera det med ditt företag. </p> <p>Du kan bifoga det här formuläret till ditt företag genom att välja det i listrutan. Endast aktiva anpassade formulär visas på menyn.</p> <p><strong>Obs!</strong> Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är bara tillgängliga när du öppnar företagsposten på informationssidan, inte i dialogrutan Redigera företag. (I listan över företag klickar du på företagsnamnet för att öppna informationen.)</p> <p> Mer information om hur du skapar anpassade formulär finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>
