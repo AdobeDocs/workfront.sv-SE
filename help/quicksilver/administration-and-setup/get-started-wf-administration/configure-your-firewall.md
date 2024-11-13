@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
+source-git-commit: df3885233140c5d0af542c8999226f7934c1329f
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -216,6 +216,12 @@ Om produktionsmiljön finns i kluster 6 lägger du till följande IP-adresser.
   </tr> 
  </tbody> 
 </table>
+
+### IP-adresser som tillåter kluster 10
+
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
 
 ### IP-adresser som tillåter en testenhet
 
