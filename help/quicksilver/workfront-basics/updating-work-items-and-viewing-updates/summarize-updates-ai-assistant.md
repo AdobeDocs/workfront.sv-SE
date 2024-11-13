@@ -5,9 +5,10 @@ title: Sammanfatta uppdateringar med AI Assistant
 description: Uppdateringarna är av ett objekt och innehåller en knapp som använder AI Assistant för att sammanfatta uppdateringar.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 Workfront AI Assistant kan sammanfatta innehållet i uppdateringsströmmen så att du snabbt kan förstå kommentarerna och diskussionerna kring ett Workfront-objekt.
 
 Du kan använda knappen Sammanfatta innehåll för att generera en sammanfattning eller skriva en uppmaning i AI Assistant.
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
   Mer information finns i [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
-<div class="preview">
-
 ## Sammanfatta med knappen Sammanfatta innehåll
 
 1. Navigera till den uppdateringsström som du vill sammanfatta.
@@ -75,8 +72,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. (Valfritt) Förfina uppmaningen för att se till att den ger dig den information du behöver.
 
    Du kan till exempel förfina uppmaningen Sammanfatta innehåll för att sammanfatta kommentarer för de senaste 14 dagarna, i stället för de senaste 7 dagarna.
-
-   </div>
 
 ## Sammanfatta ett objekt i AI Assistant
 
@@ -92,4 +87,3 @@ Så här visar du en sammanfattning av ett objekt:
    Det kan ta en stund innan AI Assistant genererar sammanfattningen, beroende på hur stort eller komplext objektet är.
 
 1. Visa AI-sammanfattningen på AI-assistentpanelen.
-

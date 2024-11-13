@@ -5,9 +5,10 @@ title: Sammanfatta projekt med AI Assistant
 description: Projekthuvudet innehåller en knapp som använder AI Assistant för att sammanfatta projekt.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,6 @@ ht-degree: 0%
 Workfront AI Assistant kan sammanfatta projekt så att du snabbt kan förstå projektinformation, t.ex. syfte och status, ge exempel på uppgifter som är slutförda och som fortfarande väntar samt ge ytterligare information och anteckningar.
 
 Du kan använda knappen Projektsammanfattning för att generera en sammanfattning eller skriva en uppmaning i AI Assistant.
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 >[!NOTE]
 >
@@ -69,8 +68,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 
 
-<div class="preview">
-
 ## Sammanfatta med knappen Projektsammanfattning
 
 1. Navigera till den uppdateringsström som du vill sammanfatta.
@@ -82,8 +79,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Visa AI-sammanfattningen på AI-assistentpanelen.
 1. (Valfritt) Förfina uppmaningen för att se till att den ger dig den information du behöver.
-
-   </div>
 
 ## Sammanfatta ett objekt i AI Assistant
 
@@ -99,4 +94,3 @@ Så här visar du en sammanfattning av ett objekt:
    Det kan ta en stund innan AI Assistant genererar sammanfattningen, beroende på hur stort eller komplext objektet är.
 
 1. Visa AI-sammanfattningen på AI-assistentpanelen.
-
