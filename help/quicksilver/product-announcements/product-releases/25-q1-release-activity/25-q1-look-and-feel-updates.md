@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ ht-degree: 0%
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den första utgåvan, kvartal 2025.
 
 En lista över alla ändringar som är tillgängliga i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Håll utkik efter uppdateringar för dokumentintegreringar
+
+>[!NOTE]
+>
+>Förhandsversion: 14 november 2024; Produktionsrelease för alla kunder: 14 november 2024
+
+Vi har gjort prestandauppgraderingar till den del av installationsprogrammet där du konfigurerar anpassade integreringar: Inställningar > Dokument > Anpassad integrering. Uppgraderingen innehåller små visuella förändringar av området. Ingen funktionalitet har ändrats.
+
+## Se och ta del av uppdateringar för sidorna Företagsmedlemmar och Faktureringsavgifter
+
+>[!NOTE]
+>
+>Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis version: Med version 25.1 (januari 2025)
+
+Vi har uppdaterat sidorna Företagsmedlemmar och Företagets faktureringstaxor med en modernare design som överensstämmer med andra delar av Workfront. Företagsmedlemskap nås via Inställningar > Företag > Välj ett företagsnamn > välj Företagsmedlemmar i den vänstra panelen. Företagets faktureringstariffer nås via Inställningar > Företag > Välj ett företagsnamn > välj Faktureringstariffer i den vänstra panelen.
+
+Mer information finns i [Skapa och redigera företag](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) och [Hantera företagsmedlemskap](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Uppdateringar av utseende och känsla för de viktigaste och sekundära navigeringsområdena
 

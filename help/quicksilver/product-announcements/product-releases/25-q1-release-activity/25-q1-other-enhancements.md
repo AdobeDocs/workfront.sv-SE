@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar som gjorts i den första utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Avsnitt i ett anpassat formulär kan nu komprimeras och utökas
+
+>[!NOTE]
+>
+>Förhandsversion: 11 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+
+När ett anpassat formulär med flera avsnitt är kopplat till ett objekt kan du nu komprimera och expandera alla avsnitt utom standardavsnittet högst upp i formuläret. Administratören kan även se den här funktionen när formuläret förhandsgranskas i formulärdesignern.
+
+Mer information om hur du lägger till ett avsnitt i ett anpassat formulär finns i [Ordna och förhandsgranska ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## AI Assistant kan nu arbeta med projekt, uppgifter och problem
 

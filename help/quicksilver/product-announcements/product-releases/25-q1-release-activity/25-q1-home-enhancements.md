@@ -4,9 +4,10 @@ description: Första kvartalet 2025, hemförbättringar
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2517e07cacf9563ca3927db0ba3415f81ab41526
+exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,21 @@ Den här sidan beskriver alla förbättringar av Home som gjorts i första utgå
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Uppdaterade alternativ i kolumnen Mitt fokus i Prioriteringar
+
+>[!NOTE]
+>
+>Förhandsversion: 14 november 2024; Produktionsrelease för alla kunder: 14 november 2024
+
+Vi har uppdaterat alternativen i kolumnen Mitt fokus så att du kan prioritera och sortera ditt arbete på ett mer intuitivt sätt. De nya etiketterna innehåller
+
+* Urgent
+* Hög
+* Normal
+* Låg
+
+Den här förändringen gör det enklare att visa och ordna material baserat på hur snabbt det är. Mer information finns i [Prioritera viktiga arbetsobjekt](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+
 ## Visa projektinformation i Prioriteringar
 
 >[!NOTE]
@@ -25,4 +41,4 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Nu kan du visa projektinformation och kommentarer från arbetslistan i Prioriteringar.
 
-<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
+Mer information finns i [Visa projekt- och uppgiftsinformation i prioritetsarbetslistan](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
