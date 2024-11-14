@@ -9,9 +9,9 @@ description: Med Adobe Authenticator-modulen kan du ansluta till alla Adobe-prod
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -178,15 +178,16 @@ Så här skapar du en anslutning:
 
 1. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
-## Modul
+## Moduler
+
+* [Göra ett anpassat API-anrop](#make-a-custom-api-call)
+* [Göra ett anpassat API-anrop (äldre)](#make-a-custom-api-call-legacy)
 
 ### Göra ett anpassat API-anrop
 
-Med den här åtgärdsmodulen kan du anropa valfritt Adobe-API.
+Med den här åtgärdsmodulen kan du anropa valfritt Adobe-API. Det stöder stora filer i stället för brödtext.
 
->[!TIP]
->
->Du måste ange hela URL:en för det API som du vill ansluta till. Den här modulen accepterar inte relativa URL:er.
+Denna modul gjordes tillgänglig den 14 november 2024. Alla Adobe Authenticator > Gör ett anpassat API-anrop som har konfigurerats före detta datum hanterar inte stora filer och betraktas nu som en anpassad API-anropsmodul (äldre).
 
 <table>
   <col/>
@@ -198,10 +199,83 @@ Med den här åtgärdsmodulen kan du anropa valfritt Adobe-API.
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>Ange bas-URL:en för den API-punkt som du vill ansluta till.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Ange hela URL:en för den API-punkt som du vill ansluta till.</p>
+        <p>Ange sökvägen i förhållande till bas-URL:en.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt.</p>
+        <p>Exempel: <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion lägger automatiskt till auktoriseringsrubriker.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td>
+        <p>Ange frågesträngen för begäran.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body Type]</td>
+   <td> Välj innehållstyp för denna API-begäran:
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>Raw</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fields]  </td>
+      <td>
+        <p>För varje fil som du vill lägga till i APU-begäran klickar du på <b>Lägg till objekt</b> och anger texten i filen (för rådata), eller anger nyckeln <code>uploadedFile</code> och mappar filens data.</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### Göra ett anpassat API-anrop (äldre)
+
+Med den här åtgärdsmodulen kan du anropa valfritt Adobe-API.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>Instruktioner om hur du skapar en anslutning till modulen Adobe Authenticator finns i <a href="#create-a-connection" class="MCXref xref" >Skapa en anslutning</a> i den här artikeln.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>Ange bas-URL:en för den API-punkt som du vill ansluta till.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>Ange sökvägen i förhållande till bas-URL:en.</p>
       </td>
     </tr>
     <tr>
