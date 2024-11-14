@@ -5,19 +5,48 @@ description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen 
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Använd AI-assistenten för att arbeta med projekt, uppgifter och ärenden
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt i förhandsgranskningsmiljön för alla kunder och i produktionsmiljön för kunder som har aktiverat månatliga releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 AI Assistant kan hjälpa dig att hitta projekt, uppgifter och problem i Workfront.
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Inte tillgänglig</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Inte tillgänglig</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Hitta arbetsobjekt
 
