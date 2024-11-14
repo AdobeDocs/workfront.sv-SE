@@ -5,13 +5,13 @@ description: Visa information om kommande prioriteringsreleaser
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Prioriteringar: kommande releaser
 
@@ -21,8 +21,8 @@ Vi är glada över att kunna visa vad vi har kommit för prioriteringar. Använd
   <tr>
     <td><strong>Kommande</strong>
     <ul>
-    <li><strong>Åtkomst till projektinformation från arbetslistan</strong>: Fliken Projektinformation visar projektinformation, kommentarer och dokument.</li>
-   <li><strong>Visa dokument på fliken Dokument</strong>: På fliken Dokument kan du visa dokument som överförts till aktiviteter och ärenden. Du kan förhandsgranska och lämna kommentarer om ett dokument. </li>
+
+<li><strong>Visa dokument på fliken Dokument</strong>: På fliken Dokument kan du visa dokument som överförts till aktiviteter och ärenden. Du kan förhandsgranska och lämna kommentarer om ett dokument. </li>
     </ul>
     </td>
   </tr>
