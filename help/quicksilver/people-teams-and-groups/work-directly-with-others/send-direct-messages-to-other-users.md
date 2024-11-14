@@ -7,7 +7,7 @@ description: Med Adobe Workfront kan du snabbt och enkelt skicka meddelanden som
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
+source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Skicka direktmeddelanden till andra användare
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 Med [!DNL Adobe Workfront] kan du snabbt och enkelt skicka meddelanden som inte är relaterade till något arbetsobjekt direkt till andra [!DNL Workfront]-användare. Meddelanden som skickas enligt beskrivningen i det här avsnittet visas på fliken [!UICONTROL Updates] på användarens profilsida och är synliga för alla användare. Mer information om uppdateringar finns i [Uppdatera arbetsobjekt och visa uppdateringar: artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
