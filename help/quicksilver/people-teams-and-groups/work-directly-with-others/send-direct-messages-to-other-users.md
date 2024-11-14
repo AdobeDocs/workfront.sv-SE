@@ -7,9 +7,9 @@ description: Med Adobe Workfront kan du snabbt och enkelt skicka meddelanden som
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -44,10 +44,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Ljus eller högre</p>
-   <p>eller</p>
-   <p>Aktuell: Granska eller senare</p>
-   </td>
+   <p>Om du vill skicka ett meddelande från användarens profilsida måste du ha:<br>
+   Nytt: Ljus eller högre <br>
+   eller <br>
+   Aktuell: Granska eller senare</p>
+   <p>Om du vill skicka ett meddelande från användarlistan måste du ha:<br>
+   Nytt: Standard <br>
+   eller <br>
+   Aktuell: Arbete eller högre</p></td>
   </tr> 
  </tbody> 
 </table>
