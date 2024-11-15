@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: Ändra hur en lista visas
 description: I  [!DNL Adobe Workfront] kan du anpassa hur en lista visas för dig. Andra användare som visar listan kan inte se dina ändringar.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
 
 # Ändra hur en lista visas
+
+<!--Audited: 11/2024-->
 
 I [!DNL Adobe Workfront] kan du anpassa hur en lista visas för dig. Andra användare som visar listan kan inte se dina ändringar.
 
@@ -32,6 +34,8 @@ Mer information om hur du ändrar informationen som visas i listan finns i [Rapp
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare eller högre </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran eller senare</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL View] behörighet till området som listan finns i</p> <p>Om du till exempel vill ändra vyn för ett projekt behöver du [!UICONTROL View] åtkomst till Projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL View] behörighet till området som listan finns i</p> <p>Om du till exempel vill ändra vyn för ett projekt behöver du [!UICONTROL View] åtkomst till Projekt.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL View] eller högre behörigheter för vyn som används i listan</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>[!UICONTROL View] eller högre behörigheter för vyn som används i listan</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Ändra hur en lista visas
++++
+
+## Ändra en lista
 
 1. Gå till listan i [!DNL Workfront] som du vill ändra.
 
@@ -101,7 +114,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Om du vill ändra ordningen på kolumnerna i en lista för du musen över en kolumnrubrik för att visa handverktyget och drar sedan kolumnen dit du vill att den ska visas.
 
-   Kolumnens position sparas tills du uppdaterar sidan.\
+   Kolumnens position sparas tills du uppdaterar sidan.
+
    Mer information om hur du anpassar bredden och ordningen på kolumnerna i en lista finns i artikeln [Ändra kolumnbredd och ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 1. Om du vill justera sorteringsordningen för en lista klickar du på en kolumnrubrik för att markera den, trycker sedan på och håller ned CMD-tangenten (på [!DNL Mac]) eller CTRL-tangenten (på [!DNL Windows]) på tangentbordet och väljer upp till två ytterligare kolumnrubriker för att sortera efter dem.

@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: Kom igång med listor i  [!DNL Adobe Workfront]
 description: Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få information om dem, t.ex. start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
 # Kom igång med listor i [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få information om dem, som start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
 
@@ -29,6 +31,8 @@ Nedan följer några egenskaper för listor i [!DNL Workfront]:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -36,25 +40,64 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare eller högre </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran eller senare</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL View] eller bättre åtkomst till filter, vyer, grupperingar</p> <P>För objekt i området [!UICONTROL Setup] behöver du administrativ åtkomst för objektet eller åtkomstnivån [!UICONTROL System Administrator].</P> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL View] eller högre behörigheter med åtkomst till delning</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td>
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa eller högre behörigheter för ett filter, en vy eller en gruppering med åtkomst till delning </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL View] or higher access to filters, views, groupings</p> <P>For items in the [!UICONTROL Setup] area, you need administrative access for the item or the [!UICONTROL System Administrator] access level.</P> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL View] or higher permissions with access to share</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## Objektlistor
 
@@ -315,19 +358,23 @@ Du kan slutföra följande åtgärder i en lista:
  <tbody> 
   <tr> 
    <td><strong>Inline-redigering</strong> </td> 
-   <td> <p>Redigera objekt och deras information direkt i listan.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Redigera objekt i en lista i [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Redigera objekt och deras information direkt i listan.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Redigera objekt i en lista i [!DNL Adobe Workfront]</a>.</p> 
+   <p><b>OBS!</b></p>
+   <p>Inline-redigering är inte möjligt i en gruppering.</p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Uppdatera med [!UICONTROL Summary]</strong> </td> 
-   <td> <p>Uppdatera aktiviteter och problem på projektnivå med panelen [!UICONTROL Summary].</p> <p>Tips! Sammanfattningen är inte tillgänglig för alla objekt och är inte tillgänglig i Aktivitets- eller problemrapporter.</p> <p>Mer information finns i <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Sammanfattningsöversikt</a>.</p> </td> 
+   <td> <p>Uppdatera aktiviteter och problem på projektnivå med panelen [!UICONTROL Summary].</p> <p><b>TIPS:</b></p> <p>Sammanfattningen är inte tillgänglig för alla objekt och är inte tillgänglig i uppgifts- eller problemrapporter.</p> <p>Mer information finns i <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Sammanfattningsöversikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Anpassa listvisning</strong> </td> 
-   <td> <p>Anpassa utseendet på en lista, kolumnordning, sorteringsordning för objekt eller antal objekt som visas.</p> <p>Obs! Ändringar som du gör i antalet objekt som ska visas på en sida återställs när du loggar ut från [!DNL Workfront] eller stänger webbläsaren. Ändringarna kan också ångras efter 8 timmar.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Ändra hur en lista visas</a>.</p> </td> 
+   <td> <p>Anpassa utseendet på en lista, kolumnordning, sorteringsordning för objekt eller antal objekt som visas.</p> <p><b>OBS!</b></p> <p>Ändringar som du gör i antalet objekt som ska visas på en sida återställs när du loggar ut från [!DNL Workfront] eller stänger webbläsaren. Ändringarna kan också ångras efter 8 timmar.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Ändra hur en lista visas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Snabbfilter</strong> </td> 
-   <td> <p>Använd ett snabbfilter för att bara hitta objekt som är viktiga för dig så att du snabbt kan granska, uppdatera eller dela dem med andra.</p> <p>Viktigt: Du kan söka efter objekt som innehåller ett sökord med hjälp av snabbfiltret, oavsett om objektet är synligt på skärmen eller kommer att visas när du bläddrar längst ned på sidan. När du använder webbläsarens sökfunktioner kan du bara hitta objekt som redan är synliga på skärmen. Om listan innehåller flera sidor söker snabbfiltren bara efter objekten på den aktuella sidan.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Använda snabbfiltret i en lista</a>.</p> </td> 
+   <td> <p>Använd ett snabbfilter för att bara hitta objekt som är viktiga för dig så att du snabbt kan granska, uppdatera eller dela dem med andra.</p> <p><b>VIKTIGT!</b></p> <p> Du kan söka efter objekt som innehåller ett sökord med hjälp av snabbfiltret, oavsett om det objektet visas på skärmen eller visas när du rullar längst ned på sidan. När du använder webbläsarens sökfunktioner kan du bara hitta objekt som redan är synliga på skärmen. Om listan innehåller flera sidor söker snabbfiltren bara efter objekten på den aktuella sidan.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Använda snabbfiltret i en lista</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Exportera</strong> </td> 
@@ -443,7 +490,7 @@ I följande tabell visas många av de ikoner som är tillgängliga i verktygsfä
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>Visa eller dölj rutan [!UICONTROL Summary] för det markerade objektet.</p> <p>Detta är endast tillgängligt för uppgifter och ärenden.</p> <p>Mer information om panelen [!UICONTROL Summary] i den nya [!DNL Adobe Workfront]-upplevelsen finns i <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Sammanfattningsöversikt</a>.</p> </td> 
+   <td> <p>Visa eller dölj rutan [!UICONTROL Summary] för det markerade objektet.</p> <p>Detta är endast tillgängligt för uppgifter och ärenden.</p> <p>Mer information om panelen [!UICONTROL Summary] finns i <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Sammanfattningsöversikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -583,13 +630,6 @@ Det finns två typer av listor i [!DNL Workfront]:
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-Båda listtyperna visas i [!DNL Adobe Workfront].
-
-Alla listor och rapporter i [!DNL Adobe Workfront] uppdateras, förutom följande:
-
-* Listor i området [!UICONTROL Setup]
-* Listor i området [!UICONTROL Reports]
-
 I följande tabell visas några av skillnaderna mellan de äldre och uppdaterade listorna i [!DNL Workfront]:
 
 <!--
@@ -604,16 +644,7 @@ I följande tabell visas några av skillnaderna mellan de äldre och uppdaterade
    <td><b>Äldre listor</b></td> 
    <td><b>Uppdaterade listor</b></td> 
   </tr> 
-  <tr> 
-   <td> <p>Äldre teckensnitt, kolumnrubriker, blått grupperingsfärgschema</p> </td> 
-   <td> <p>Uppdaterade teckensnitt, kolumnrubriker, grå grupperingsfärgschema</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Långsammare redigering</p> </td> 
-   <td> <p>Snabbare redigering</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Visa <strong>100</strong> objekt som standard</p> </td> 
+  <td> <p>Visa <strong>100</strong> objekt som standard</p> </td> 
    <td> <p>Visa <strong>alla</strong> eller upp till <strong>2000</strong> objekt som standard</p> </td> 
   </tr> 
   <tr> 
@@ -622,7 +653,7 @@ I följande tabell visas några av skillnaderna mellan de äldre och uppdaterade
   </tr> 
   <tr> 
    <td>Du kan inte infoga redigering av anpassade fält med formatering av formaterad text.</td> 
-   <td> <p>Text i anpassade fält med formatering kan konfigureras för fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär/a&gt;.</p> </td> 
+   <td> <p>Text i anpassade fält med formatering kan konfigureras för fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Skapa ett anpassat formulär</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Villkorsstyrd formatering kan ändra textfärgen på länkar i en lista</td> 

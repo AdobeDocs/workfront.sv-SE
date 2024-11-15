@@ -3,22 +3,26 @@ navigation-topic: use-lists
 title: Exportera en lista
 description: Du kan exportera en lista med objekt från Adobe Workfront. När objektlistan i Workfront innehåller fler än 2 000 objekt är det enda sättet att granska alla objekt i listan på en sida att exportera listan.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # Exportera en lista
 
+<!--Audited: 11/2024-->
+
 Du kan exportera en lista med objekt från [!DNL Adobe Workfront]. När listan med objekt i [!DNL Workfront] innehåller fler än 2 000 objekt är det enda sättet att granska alla objekt i listan på en sida att exportera listan.
 
 Mer information om exportformat och begränsningar finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -27,31 +31,40 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare eller högre </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran eller senare</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL View] behörighet till området som listan finns i</p> <p>Om du till exempel vill exportera ett projekts uppgiftslista behöver du [!UICONTROL View] åtkomst till Projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst till området som listan finns i</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL View]</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>[!UICONTROL View] behörigheter till objektet som listan finns i</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exportera en lista
 
 1. Gå till en lista med objekt.
-1. (Valfritt) Markera de filter, vyer och grupperingar som du vill använda i listan innan du exporterar.\
-   Mer information om filter, vyer och grupperingar finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+1. (Valfritt) Markera de filter, vyer och grupperingar som du vill använda i listan innan du exporterar.
+Mer information om filter, vyer och grupperingar finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Valfritt) Om du bara vill exportera vissa objekt i en lista markerar du alla objekt i listan som du vill ha med i den exporterade filen.
 
@@ -69,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![select_all_projects_with_highlight_1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Klicka på **[!UICONTROL Export]** ![Exportera](assets/export.png).
+1. Klicka på ikonen **[!UICONTROL Export]** ![Exportera](assets/export.png).
 
 1. Välj bland följande format:
 
@@ -80,5 +93,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      En kopia av listan exporteras till något av dessa format och sparas på datorn.
 
-1. (Valfritt) Öppna den exporterade listan med lämpligt program.\
-   Alla objekt i listan visas i den exporterade filen, oavsett om de visas på skärmen i webbprogrammet eller inte.
+1. (Valfritt) Öppna den exporterade listan med lämpligt program.
+Alla objekt i listan visas i den exporterade filen, oavsett om de visas på skärmen i webbprogrammet eller inte.

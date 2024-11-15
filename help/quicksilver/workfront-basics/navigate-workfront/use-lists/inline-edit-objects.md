@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Redigera objekt i en lista i  [!DNL Adobe Workfront]
+title: Inline Edit Items in a List in [!DNL Adobe Workfront]
 description: Du kan redigera objekt textbundet när de visas i en lista eller rapport. När du redigerar informationen om objekt som visas i en lista eller rapport uppdateras objektet omedelbart.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
 
 # Redigera objekt i en lista i [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 Du kan redigera objekt textbundet när de visas i en lista eller rapport. När du redigerar informationen om objekt som visas i en lista eller rapport uppdateras objektet omedelbart.
 
@@ -24,14 +26,18 @@ Mer information om listor finns i [Kom igång med listor i [!DNL Adobe Workfront
 De flesta objekt som visas i listor eller rapporter går att redigera i [!DNL Adobe Workfront], men det finns vissa begränsningar, som:
 
 * Du kan inte redigera beräknade fält eller [!DNL Workfront] inbyggda fält som är beräkningar.
-* Du kan bara redigera fält som är direkt kopplade till objekten i listan. Du kan inte redigera fält som tillhör objekt som är kopplade till objekten i listan.\
-   Du kan till exempel redigera status för en uppgift i en uppgiftsrapport, men du kan inte redigera namnet på projektet som uppgiften är kopplad till i samma rapport. Du kan bara redigera namnet på projektet i en projektrapport.
-* Du kan inte infoga redigeringsfält när vyn för en lista inte visar standardvalutan.\
-   Mer information om hur du visar standardvalutan finns i avsnittet [Redigera rapporter med unika valutor](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) i artikeln [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* Du kan bara redigera fält som är direkt kopplade till objekten i listan. Du kan inte redigera fält som tillhör objekt som är kopplade till objekten i listan.
+
+  Du kan till exempel redigera status för en uppgift i en uppgiftsrapport, men du kan inte redigera namnet på projektet som uppgiften är kopplad till i samma rapport. Du kan bara redigera namnet på projektet i en projektrapport.
+* Du kan inte infoga redigeringsfält när vyn för en lista inte visar standardvalutan.
+
+  Mer information om hur du visar standardvalutan finns i avsnittet [Redigera rapporter med unika valutor](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) i artikeln [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 * Du kan inte redigera flaggor och ikoner som visas i en lista.
 * Du kan inte infoga redigeringsrapportfält som har hämtats från andra rapporter.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -40,25 +46,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare eller högre </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran eller senare</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Edit] behörighet till området som listan finns i</p> <p>Om du till exempel vill kunna infoga redigeringsåtgärder i ett projekt behöver du [!UICONTROL Edit] åtkomst till projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] behörighet till området som listan finns i</p> <p>Om du till exempel vill kunna infoga redigeringsåtgärder i ett projekt behöver du [!UICONTROL Edit] åtkomst till projekt.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL Manage]</p> <p>Du måste också ha behörighet att redigera vissa fält, t.ex. anpassade fält, status.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>[!UICONTROL Manage]</p> <p>Du måste också ha behörighet att redigera vissa fält, t.ex. anpassade fält, status.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Redigera objekt textbundet
 
@@ -72,13 +87,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Om du har flera sidor kan du söka efter ett objekt med:
    >
-   >   
-   >   
-   >   * **Sidnumrering**: Klicka på bakåt- och framåtpilarna för att navigera mellan sidorna.\
+   >   * **Sidnumrering**: Klicka på bakåt- och framåtpilarna för att navigera mellan sidorna.
    >     Området [!UICONTROL pagination] är placerat längst ned till höger i listan och är fortfarande fäst när du bläddrar igenom listan.
-   >   * **Snabbfilter**: Klicka på filterikonen eller skriv Alt+F för att öppna snabbfiltret och ange sedan text för att endast visa objekt som innehåller den angivna texten.\
+   >   * **Snabbfilter**: Klicka på filterikonen eller skriv Alt+F för att öppna snabbfiltret och ange sedan text för att endast visa objekt som innehåller den angivna texten.
    >     Snabbfiltret finns i listverktygsfältet. Mer information finns i [Använda snabbfiltret i en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
-
 
    Om fältet kan redigeras blir fältet och alla andra fält som visas i listan redigerbara celler.
 

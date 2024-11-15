@@ -3,18 +3,20 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visa: användarens personliga tid är ledig'
-description: 'Visa: användarens personliga tid är ledig'
-author: Lisa and Nolan
+description: 'Visa: Personlig tid för användare avaktiverad'
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # Visa: användarens personliga ledig tid
+
+<!--Audited: 11/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
@@ -24,6 +26,8 @@ Du kan skapa en&quot;Time Off&quot;-rapport för att fånga användarnas tid av 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -31,33 +35,43 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran om att ändra en vy </p>
-   <p>Planera att ändra en rapport</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p> Aktuell: 
+   <ul>
+   <li>Begäran om att ändra en vy</li> 
+   <li>Planera att ändra en rapport</li>
+   </ul>
+     </p>
+     <p> Nytt: 
+   <ul>
+   <li>Medarbetare som ändrar en vy</li> 
+   <li>Standard för att ändra en rapport</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr>  
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa användarens personliga tid ledig
 
 1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter > Ny rapport**.
-
 1. I listrutan väljer du **Tid av**.
 1. Klicka på **Spara + Stäng**.
 

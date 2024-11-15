@@ -1,22 +1,20 @@
 ---
 navigation-topic: use-lists
-title: Använda snabbfiltret på en lista
+title: Använda snabbfiltret i en lista
 description: Du kan använda snabbfiltret i en lista med objekt för att bara hitta objekt som är viktiga för dig, så att du snabbt kan granska, uppdatera eller dela dem med andra.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
 
 # Använda snabbfiltret på en lista
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 Du kan använda snabbfiltret i en lista med objekt för att bara hitta objekt som är viktiga för dig, så att du snabbt kan granska, uppdatera eller dela dem med andra.
 
@@ -35,6 +33,7 @@ Du kan använda tillfälliga snabbfilter i alla listor, förutom följande:
 * Området [!UICONTROL Reports]
 * Dokumentlistor och rapporter
 * Flera [!UICONTROL Setup] områden
+
   >[!NOTE]
   >
   >Snabbfilter är tillgängliga i följande konfigurationsområden: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates] och [!UICONTROL Custom Forms].
@@ -52,6 +51,8 @@ Tänk på följande när du använder snabbfilter på en lista:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -59,25 +60,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] plan*</b></td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] licens*</b></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare eller högre </p></li>
+   </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran eller senare</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Konfigurationer på åtkomstnivå*</b></td> 
-   <td> <p>Visa åtkomst till området som listan finns i</p> <p>Om du till exempel vill använda ett snabbfilter på ett projekt behöver du [!UICONTROL View] åtkomst till Projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst till området som listan finns i</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Objektbehörigheter</b></td> 
-   <td> <p>[!UICONTROL View]</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>[!UICONTROL View] behörigheter till objektet som listan finns i</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Använda ett snabbfilter på en lista
 
@@ -109,7 +120,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. Markera alla eller flera av objekten i listan och klicka sedan på **[!UICONTROL Edit]** om du vill redigera objekten gruppvis.
    1. När du är klar med redigeringarna klickar du på **[!UICONTROL Save Changes]**.
 
-1. (Valfritt) Om du vill exportera de objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på **[!UICONTROL Export]**.
+1. (Valfritt) Om du vill exportera de objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på ikonen **[!UICONTROL Export]** ![](assets/export.png) .
 
    ![select_all_projects_with_highlight_1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -118,6 +129,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >Endast de objekt du hittade i snabbfiltersökningen exporteras till den markerade filen. Om du inte markerar några objekt innan du exporterar listan exporteras den fullständiga, ofiltrerade listan.\
    >Mer information finns i [Exportera en lista](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Valfritt) Om du vill ta bort de filtrerade resultaten klickar du på ikonen **[!UICONTROL Quick Filter]** i fönstrets övre högra hörn.\
-   eller\
-   Uppdatera sidan.
+1. (Valfritt) Om du vill ta bort de filtrerade resultaten klickar du på ikonen **[!UICONTROL Quick Filter]** i fönstrets övre högra hörn.
+eller
+Uppdatera sidan.

@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Diagrama en rapport med ett anpassat fält som har flera val
+title: Schemalägg en rapport med ett anpassat fält som har valts flera gånger
 description: Du kan bara skapa ett diagram över en rapport med ett anpassat fält som består av flera val efter att du har skapat ytterligare ett beräkningsfält som fångar de val som har valts i det anpassade fältet som består av flera val.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
 
 # Diagrama en rapport med ett anpassat fält som har flera val
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ Men om det inte går att ha separata fält för varje alternativ i ett flervalsf
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>Nytt:</p>
+   <ul><li><p>Medarbetare som ändrar ett filter </p></li>
+   <li><p>Standard för att ändra en rapport</p></li> </ul>
+
+<p>Aktuell:</p>
+   <ul><li><p>Begäran om att ändra ett filter </p></li>
+   <li><p>Planera att ändra en rapport</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -102,7 +115,7 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
 1. I rutan **Etikett** ger du det nya beräknade fältet ett namn som anger att det refererar till det anpassade fältet för flera val.
 
-   Exempel: &quot;Beräknat flervalsfält.&quot;
+   Exempel: &quot;Beräknat flervalsfält&quot;.
 
 1. Ange följande kod i rutan **Beräkning**:
 
@@ -114,12 +127,12 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Valfritt) Om det anpassade fältet för flera val redan finns i det här formuläret och om formuläret redan är kopplat till objekt, aktiverar du alternativet **Uppdatera tidigare beräkningar (i bakgrunden)**.
+1. (Valfritt) Om det anpassade fältet för flera val redan finns i det här formuläret och om formuläret redan är kopplat till objekt, aktiverar du alternativet **Använd för befintliga beräkningar**.
 
    Detta garanterar att det nya beräknade fältet automatiskt fylls i med värdet från det anpassade fältet som består av flera val när det läggs till i de formulär som redan är kopplade till objekten.
 
-1. Klicka på **Klar**.
-1. Klicka på **Spara + Stäng**.
+1. Klicka på **Använd**.
+1. Klicka på **Spara och stäng**.
 
    Det beräknade anpassade fältet läggs till i det anpassade formuläret och om formuläret är kopplat till objekt fylls fältet i med information från det anpassade fältet som består av flera val.
 
@@ -142,9 +155,9 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
    Välj till exempel ett **kolumndiagram**.
    <br>Mer information om hur du lägger till ett diagram i en rapport finns i avsnittet <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Lägg till ett diagram i en rapport</a> i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Skapa en anpassad rapport</a>.
-1. I fältet **Nedre (X) axel** markerar du det <strong>beräknade flervalsfältet</strong> som ska visas i diagrammet.
+1. Markera det <strong>beräknade flervalsfältet </strong> som ska visas i diagrammet i fältet **Nedre (X) axel**.
 1. Klicka på <strong>Spara + Stäng</strong>.
 
-   Rapporten visar resultaten grupperade efter det beräknade flervalsfältet i ett diagram.
+   I rapporten visas resultaten grupperade efter fältet Beräknat flerval i ett diagram.
 
    ![](assets/chart-multi-select-field-column-chart-example.png)
