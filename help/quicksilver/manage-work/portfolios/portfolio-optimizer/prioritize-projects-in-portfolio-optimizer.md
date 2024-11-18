@@ -6,9 +6,9 @@ description: Du kan prioritera dina projekt i Portfolio Optimizer för att fasts
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörighet till projekten</p>  </td> 
+   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörighet till projekten</p> 
+   <p>Du måste ha behörigheten Hantera för alla projekt i listan för att kunna använda <b>Ange projektprioritet</b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

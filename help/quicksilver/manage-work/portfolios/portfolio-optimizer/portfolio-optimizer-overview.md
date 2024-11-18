@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio Optimizer] är det verktyg som används för
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,9 @@ Följande ikoner och alternativ är tillgängliga för [!UICONTROL Portfolio Opt
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[!UICONTROL Set project priority]</td> 
-   <td>Använd den här ikonen när du vill spara projektordningen utifrån deras prioritet. </td> 
+   <td><p>Använd den här ikonen när du vill spara projektordningen utifrån deras prioritet.</p>
+   <p>Du måste ha behörigheten Hantera för alla projekt i listan för att kunna använda <b>Ange projektprioritet</b></p>.
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 

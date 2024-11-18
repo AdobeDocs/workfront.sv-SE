@@ -6,9 +6,9 @@ description: Du kan använda [!UICONTROL Portfolio Optimizer] för att prioriter
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörighet till projekten</p>  </td> 
+   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörighet till projekten</p> 
+   <p>Du måste ha behörigheten Hantera för alla projekt i listan för att kunna använda <b>Ange projektprioritet</b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ikonen **[!UICONTROL Optimize]** .
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+
    Kategorierna som ett projekt kan poängsättas med visas till vänster om ikonen [!UICONTROL Optimize].
 
 1. Använd skjutcirkeln för att ändra optimeringen av någon av följande kategorier:
@@ -78,9 +81,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. När rätt vikter har angetts för kolumnen **[!UICONTROL Score]** klickar du på rubriken för kolumnen **[!UICONTROL Score]** för att sortera efter den här kolumnen. Det projekt som har högst poäng visas högst upp i listan.
 
-1. (Valfritt) Dra och släpp projekt i den ordning du prioriterar.\
-   Detta ändrar ordningen för projekten i [!UICONTROL Portfolio Optimizer].
-1. (Valfritt) Klicka på **[!UICONTROL Set Priority]** om du vill spara den nya prioriteten för projekten.\
+1. (Valfritt) Dra och släpp projekt i den ordning du prioriterar.
+Detta ändrar ordningen för projekten i [!UICONTROL Portfolio Optimizer].
+1. (Valfritt) Klicka på **[!UICONTROL Set Priority]** om du vill spara den nya prioriteten för projekten.
+
+   >[!NOTE]
+   >
+   >   Du måste ha behörigheten Hantera för alla projekt i listan för att kunna använda **Ange projektprioritet**.
+
    Mer information om hur du prioriterar projekt i [!UICONTROL Portfolio Optimizer] finns i artikeln [Prioritera projekt i [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Klicka på **[!UICONTROL Save]** om du vill spara [!UICONTROL Portfolio Optimizer].
