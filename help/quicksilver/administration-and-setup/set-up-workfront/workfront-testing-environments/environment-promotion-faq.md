@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
+source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Ja. Du kan till exempel befordra från Sandox till Production eller från Produc
 
 Nej, delning stöds inte för närvarande.
 
-## När blir en återställningsfunktion tillgänglig?
+## Är paketåterställning tillgängligt?
 
 ### Svar
 
-Återställning är en topprioritering och är under utveckling. Vi räknar med att släppa återställningsfunktionen i tredje eller fjärde kvartalet 2024.
+Paketåterställningen är tillgänglig för det senaste paketet inom 24 timmar efter paketinstallationen.
 
 ## Finns det något alternativ för att hoppa över befordran av enskilda komponenter? Var alternativen `Use Existing`, `Overwrite` och `Save with a new Name` finns, kan `Skip` läggas till så att du kan hoppa över befordran av enskilda parametrar?
 
