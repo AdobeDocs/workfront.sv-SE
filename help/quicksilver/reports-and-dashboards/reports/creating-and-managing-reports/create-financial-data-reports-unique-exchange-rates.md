@@ -6,14 +6,16 @@ description: Om flera valutakurser har konfigurerats i Adobe Workfront kan du an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
 
 # Skapa rapporter om finansiella data med unika valutakurser
+
+<!-- Audited: 11/2024 -->
 
 Om flera valutakurser har konfigurerats i Adobe Workfront kan du ange ekonomiska värden i rapporter och listor som ska visas i en annan valuta än standardvalutan.
 
@@ -27,6 +29,8 @@ Om det finns projekt med en enda valuta i rapporten visas summorna i grupperinga
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Objektbehörigheter*</td> 
+   <td> <p>Hantera behörigheter i en rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -125,8 +140,6 @@ Så här visar du två projekt med anpassade valutor i en rapport:
 1. Klicka på **Spara + Stäng**.
 
    Summan av den **faktiska kostnaden** visas i grupperingen med systemets standardvaluta, oavsett vilken valuta projekten i rapporten har.
-
-   ![Valutan visas i gruppering](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
    Om de två projekten har olika valutor, visas systemets standardvaluta även i rapportens gruppering.
 

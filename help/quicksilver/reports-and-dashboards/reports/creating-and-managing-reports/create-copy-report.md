@@ -7,18 +7,22 @@ description: Du kan skapa en kopia av alla rapporter som du har tillgång till. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
 
 # Skapa en kopia av en rapport
 
+<!-- Audited: 11/2024 -->
+
 Du kan skapa en kopia av alla rapporter som du har tillgång till. Du kan antingen skapa en exakt kopia av en anpassad rapport eller spara en ny version av en standardrapport. När du har kopierat en rapport blir du ägare till den kopierade rapporten och den visas i delen Mina rapporter.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -32,29 +36,40 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter till en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Objektbehörigheter*</td> 
+   <td><p>Visa behörigheter till en rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa en exakt kopia av en rapport
 
-Om du vill skapa en kopia av en rapport som du är ägare av gör du följande:
+Om du vill skapa en kopia av en anpassad rapport gör du följande:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Reports]**.
 
-1. Klicka på **Rapporter** och sedan på **Alla rapporter**.
-1. Öppna en rapport.
+1. Klicka på **Alla rapporter** och öppna sedan en rapport.
+
 1. Klicka på **Rapportera åtgärder** och sedan på **Kopiera**.
 
    >[!TIP]
@@ -62,15 +77,11 @@ Om du vill skapa en kopia av en rapport som du är ägare av gör du följande:
    >Om rapporten är en standardrapport visas inte alternativet Kopiera på menyn Rapporteringsåtgärder.\
    >Mer information om hur du skapar en kopia av en standardrapport finns i [Skapa en ny version av en rapport](#create-a-new-version-of-a-report).
 
-   ![Kopiera rapport](assets/nwe-fulllistofreportactions-2022.png)
+   ![Kopiera rapport](assets/unshimmed-report-actions-copy.png)
 
-   En kopia av den ursprungliga rapporten skapas med standardnamnet *Kopia av [namnet på den ursprungliga rapporten]*. Rapporten&quot;Slutförda uppgifter i Q4&quot; skulle till exempel ha&quot;Kopia av slutförda uppgifter i Q4&quot; som namn.
+   En kopia av den ursprungliga rapporten skapas med standardnamnet _[Namnet på den ursprungliga rapporten] (kopia)_. En kopia av rapporten&quot;Kvarvarande aktiviteter under det fjärde kvartalet&quot; får till exempel namnet&quot;Kvarvarande aktiviteter under det fjärde kvartalet (kopia)&quot;.
 
-1. (Valfritt) Om du vill byta namn på rapporten börjar du skriva ett nytt namn.
-
-   >[!TIP]
-   >
-   >Om du avmarkerar titeln innan du skriver det nya namnet markerar du rapportrubriken, tar bort namnet och anger det nya namnet.
+1. (Valfritt) Om du vill byta namn på rapporten klickar du på **Rapportåtgärder** och sedan på **Redigera**. Skriv ett nytt namn i textrutan i det övre vänstra hörnet och klicka sedan på **Spara + stäng** när du är klar.
 
 1. (Valfritt) Om du vill dela den nya versionen av rapporten med andra användare klickar du på **Rapportera åtgärder** och sedan på **Dela**.
 
@@ -84,6 +95,7 @@ Om du vill skapa en kopia av en rapport som du är ägare av gör du följande:
    Så här tar du bort den ursprungliga rapporten:
 
    1. Navigera till rapporten.
+
    1. Klicka på **Rapportera åtgärder** och sedan på **Ta bort**.
 
    1. Klicka på **Ja, ta bort den** för att bekräfta att du vill ta bort rapporten.
@@ -98,7 +110,7 @@ Om du vill skapa en kopia av en standardrapport gör du följande:
 1. Klicka på namnet på en standardrapport för att öppna den.
 1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.
 
-   ![Redigera rapport](assets/nwe-reportactionsfordefaultreport-2022.png)
+   ![Redigera rapport](assets/unshimmed-report-actions-default-report.png)
 
 1. Gör de ändringar du behöver på följande flikar i rapporten:
 
@@ -112,6 +124,6 @@ Om du vill skapa en kopia av en standardrapport gör du följande:
 1. Klicka på **Klar**.
 1. Klicka på **Spara som ny rapport**.
 
-   ![](assets/nwe-save-as-new-report-350x220.png)
+   ![](assets/unshimmed-save-as-new-report.png)
 
 1. (Valfritt) Om du vill dela den nya versionen av rapporten med andra användare klickar du på **Rapportera åtgärder** och sedan på **Dela**.
