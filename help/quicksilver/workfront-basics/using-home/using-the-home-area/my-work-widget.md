@@ -5,13 +5,13 @@ title: Hantera ditt arbete med widgeten Mitt arbete
 description: Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Här kan du filtrera och ordna ditt arbete, logga tid, göra uppdateringar och markera arbetsobjekten som slutförda.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Hantera ditt arbete med widgeten Mitt arbete
 
@@ -157,7 +157,7 @@ Du kan öppna panelen Sammanfattning för att snabbt uppdatera information i en 
 * Lägg till en uppdatering
 * Navigera till dokumentområdet för att överföra ett dokument
 * Visa information om arbetsuppgift och uppdatera anpassade fält
-Workfront-administratörer kan anpassa vilka fält som ska visas i sammanfattningen i layoutmallen. Mer information finns i [Anpassa hem och sammanfattning med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Workfront-administratörer kan anpassa vilka fält som ska visas i sammanfattningen i layoutmallen. Mer information finns i [Anpassa panelen Sammanfattning med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Ändra arbetsuppgiftens status
 * Visa underaktiviteter
 * Loggtid
@@ -190,7 +190,3 @@ Godkännanden och teamförfrågningar visas inte i widgeten Mitt arbete. Om du r
 * Teamförfrågningar
 
 Mer information om hur du lägger till widgetar på din nya hemsida finns i [Lägg till, redigera eller ta bort widgetar i Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
-
-
-

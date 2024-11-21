@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
+source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
 workflow-type: tm+mt
-source-wordcount: '14607'
+source-wordcount: '14611'
 ht-degree: 0%
 
 ---
@@ -612,7 +612,7 @@ ht-degree: 0%
          * [Anpassa objektrubriker med hjälp av en layoutmall](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Anpassa den vänstra panelen](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [Anpassa detaljvyn](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-         * [Anpassa hem och sammanfattning](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Anpassa panelen Sammanfattning med hjälp av en layoutmall](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [Anpassa nytt hem](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Anpassa fästa sidor](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Anpassa filter, vyer, grupperingar](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)

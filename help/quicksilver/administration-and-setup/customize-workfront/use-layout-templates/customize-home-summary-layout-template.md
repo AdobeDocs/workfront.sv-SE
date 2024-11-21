@@ -8,17 +8,23 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Anpassa panelen Sammanfattning med hjälp av en layoutmall
 
+<!--Audited: 11/2024-->
 
-Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i sammanfattningen. Varje konfiguration som du gör enligt stegen nedan påverkar panelen Sammanfattning. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
+Du kan använda en layoutmall för att konfigurera vad användare ser på panelen Sammanfattning när de klickar på en uppgift eller ett problem. Varje konfiguration som du gör enligt stegen nedan påverkar panelen Sammanfattning. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
 
 Du kan konfigurera
 
@@ -73,7 +79,9 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Sammanfattningspanelen**.
 
-1. Klicka i listan till vänster på objekttypen (**Åtgärder**, **Problem**, **Projekt**, **Dokument** eller **Dokumentversioner**) som du vill anpassa på panelen Sammanfattning.
+1. I listan som visas under klickar du på den objekttyp som du vill anpassa panelen Sammanfattning för.
+
+   Tabellen nedan förklarar vad du kan anpassa för varje objekt
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,7 +89,9 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
     <tbody> 
      <tr> 
       <td role="rowheader">Uppgifter</td> 
-      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>I en lista med uppgifter påverkar den här inställningen panelen Sammanfattning som visas på sidans högra sida när en användare väljer en åtgärd och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p>
+
+   <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problem</td> 
@@ -89,19 +99,24 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
      </tr> 
      <tr> 
       <td role="rowheader">Projekt</td> 
-      <td><p>När en användare klickar på ett projektgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
-      <p>VIKTIGT: Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p></td> 
+      <td><ul><li><p>När en användare klickar på ett projektgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
+      <p><b>VIKTIGT!</b> </p><p>Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p></li>
+      <li><span class="preview"><p>Det här området har tagits bort från förhandsvisningsmiljön.</p></li></span></ul> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dokument</td> 
-      <td><p>När en användare klickar på ett dokumentgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
-      <p>VIKTIGT: Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p>
+      <td>
+     <ul><li><p>När en användare klickar på ett dokumentgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
+      <p><b>VIKTIGT!</b> </p><p> Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p></li>
+      <li><span class="preview"><p>Det här området har tagits bort från förhandsvisningsmiljön.</p></li></span></ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dokumentversioner</td> 
-      <td><p>När en användare klickar på ett godkännande som tilldelats dem för en viss version av ett dokument i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
-      <p>VIKTIGT: Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p>
+      <td><ul><li><p>När en användare klickar på ett godkännande som tilldelats dem för en viss version av ett dokument i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
+      <p><p><b>VIKTIGT!</b></p> Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p></li>
+      <li><span class="preview"><p>Det här området har tagits bort från förhandsvisningsmiljön.</p></li></span></ul>
       </td> 
      </tr> 
     </tbody> 
@@ -113,15 +128,15 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. (Villkorligt) Om du klickade på Åtgärder eller Problem i föregående steg väljer du den kategori av uppgift eller problem som du vill anpassa.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
 
 1. (Villkorligt) Om listrutan **Ange primär åtgärd** visas (om du väljer **Åtgärder** eller **Problem** i listan till vänster) klickar du på den primära åtgärd (**Klar** eller **Status**) som du vill ska vara tillgänglig för användare på sammanfattningspanelen när de visar en uppgift eller ett problem.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
 
 1. Lägg till ![](assets/add-item-plus-in-circle-blue.png) eller dölj ![](assets/close-or-hide---x.png) fält för den valda objekttypen.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
 
 1. Upprepa steg 3-6 för att anpassa panelen Sammanfattning för andra objekttyper.
 1. Klicka på **Globala inställningar**, nära det nedre vänstra hörnet, och aktivera eller inaktivera sedan något av följande alternativ för Adobe Workfront-objekt i sammanfattningen:
