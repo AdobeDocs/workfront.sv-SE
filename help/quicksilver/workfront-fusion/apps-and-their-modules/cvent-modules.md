@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Cvent]-konto för att kunna använda [!DNL Cvent]-moduler.
+
+## Information om klient-API
+
+Händelsekopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> V200611.ASMX </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.7.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Cvent] till [!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
 

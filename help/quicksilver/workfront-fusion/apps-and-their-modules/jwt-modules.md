@@ -8,9 +8,9 @@ description: Appen  [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] innehåller e
 author: Becky
 feature: Workfront Fusion
 exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
-source-git-commit: 2fbf38c3c35761c52416966fb6a4ab032190e04b
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## API-information för JWT
+
+JWT-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+   <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.1.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## JWT-modulen och dess fält
 

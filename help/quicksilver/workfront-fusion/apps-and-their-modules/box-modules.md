@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,30 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Box]-konto för att kunna använda [!DNL Box]-moduler.
+
+## API-information för Box
+
+Box-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://api.box.com/2.0
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v2.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v3.0.3</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Box]-moduler och deras fält
 

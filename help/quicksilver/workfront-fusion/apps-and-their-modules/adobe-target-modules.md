@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,21 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 Innan du kan använda [!DNL Adobe Target]-anslutningen måste du se till att följande krav uppfylls:
 
 * Du måste ha ett aktivt [!DNL Adobe Target]-konto.
+
+## Adobe Target API-information
+
+Adobe Target Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.7.33</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning till [!DNL Adobe Target]
 

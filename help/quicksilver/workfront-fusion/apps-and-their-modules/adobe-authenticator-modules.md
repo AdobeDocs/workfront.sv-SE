@@ -9,9 +9,9 @@ description: Med Adobe Authenticator-modulen kan du ansluta till alla Adobe-prod
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,21 @@ En lista över tillgängliga Adobe-API:er finns i [Adobe API:er](https://develop
    * Lägg till API i ett befintligt projekt.
 
   Mer information om hur du skapar eller lägger till ett API i ett projekt på Adobe Developer Console finns i [Skapa ett projekt](https://developer.adobe.com/dep/guides/dev-console/create-project/) i dokumentationen för Adobe.
+
+## Adobe Authenticator API-information
+
+Adobe Authenticator Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning
 

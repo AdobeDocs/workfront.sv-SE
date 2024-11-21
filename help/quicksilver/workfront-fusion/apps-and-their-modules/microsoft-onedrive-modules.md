@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3281'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 Du måste ha ett [!DNL Microsoft OneDrive]-konto för att kunna använda [!DNL OneDrive]-moduler.
 
 
+
+## OneDrive API-information
+
+OneDrive-anslutningen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://graph.microsoft.com/v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## Ansluter tjänsten [!DNL OneDrive] till [!DNL Workfront Fusion]

@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1357'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!UICONTROL Widen]-konto för att kunna använda [!UICONTROL Widen]-moduler.
+
+## Bredd API-information
+
+För Widen-anslutningen används följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.10.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Widen] till [!DNL Workfront Fusion] {#connect-widen-to-workfront-fusion}
 

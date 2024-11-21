@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2266'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL SharePoint]-konto för att kunna använda [!DNL SharePoint]-moduler.
+
+## SharePoint API-information
+
+SharePoint Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.14.2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL SharePoint] till [!DNL Workfront Fusion] {#connect-sharepoint-to-workfront-fusion}
 

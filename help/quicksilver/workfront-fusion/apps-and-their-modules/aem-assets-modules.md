@@ -10,9 +10,9 @@ description: Med  [!DNL Adobe Experience Manager Assets] connector for [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,21 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 * Ditt Adobe Experience Manager-konto måste ha skrivbehörighet.
 
   Instruktioner om hur du lägger till skrivbehörigheter till ditt Adobe Experience Manager tekniska konto finns i [Tjänstens autentiseringsuppgifter](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) i Adobe Experience Manager-dokumentationen.
+
+## Adobe Experience Manager Assets API-information
+
+Adobe Experience Manager Assets Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.8.61</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 

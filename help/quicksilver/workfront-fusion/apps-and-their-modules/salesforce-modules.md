@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: Salesforce-moduler
+title: Salesforce moduler
 description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder Salesforce och ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2453'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Salesforce]-konto för att kunna använda [!DNL Salesforce]-moduler.
+
+## Salesforce API-information
+
+Salesforce Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> {{connection.instanceUrl}}</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v46.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.15.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Om att söka efter [!DNL Salesforce] objekt
 

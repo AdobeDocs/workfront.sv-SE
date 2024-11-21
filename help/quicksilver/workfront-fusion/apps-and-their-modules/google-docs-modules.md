@@ -9,9 +9,9 @@ description: Med Adobe Workfront Fusion [!DNL Google Docs] -modulerna kan du öv
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3321'
+source-wordcount: '3341'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett Google-konto för att kunna använda [!DNL Google Docs]-moduler.
+
+## API-information för Google Docs
+
+Google Docs Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://docs.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.4.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Docs]-moduler och deras fält
 

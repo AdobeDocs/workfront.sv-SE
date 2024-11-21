@@ -9,9 +9,9 @@ description: Med  [!DNL Adobe Workfront Fusion Adobe Creative Cloud] biblioteksm
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!UICONTROL Adobe Creative Cloud]-konto för att kunna använda [!DNL Adobe Creative Cloud Libraries]-moduler.
+
+## API-information för Adobe Creative Cloud Libraries
+
+Adobe Creative Cloud Libraries-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td>https://cc-libraries.adobe.io/api/v1</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.1.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Adobe Creative Cloud Libraries]-moduler och deras fält
 

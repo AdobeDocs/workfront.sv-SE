@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,21 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Datadog]-konto för att kunna använda [!DNL Datadog]-moduler.
+
+## API-information för data
+
+Datadoggkopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>1.0.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Datadog] till [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
 

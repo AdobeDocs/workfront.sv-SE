@@ -8,9 +8,9 @@ description: Du kan använda textanalysverktyget för att tolka text som ska anv
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,21 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## API-information för textparser
+
+Textparserkopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Text parser]-moduler och deras fält
 
@@ -180,7 +195,7 @@ En diskussion om reguljära uttryck ligger utanför den här artikelns räckvidd
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Aktivera det här alternativet för att säkerställa att perioden (.) matchar radmatningstecken (<code>\n</code>).</td> 
+   <td>Aktivera det här alternativet om du vill kontrollera att punkten (.) matchar radmatningstecken (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -223,7 +238,7 @@ Söker efter ett angivet värde eller reguljärt uttryck i den angivna texten oc
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>Aktivera det här alternativet för att säkerställa att perioden (.) matchar radmatningstecken (<code>\n</code>).</td> 
+   <td>Aktivera det här alternativet om du vill kontrollera att punkten (.) matchar radmatningstecken (<code>\n</code>).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 

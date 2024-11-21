@@ -9,9 +9,9 @@ description: Med  [!DNL Adobe Workfront Fusion] Figma-modulen kan du hämta list
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Figma]-konto för att kunna använda [!DNL Figma]-moduler.
+
+## Information om Figma API
+
+Figma-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://api.figma.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.8.25</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Figma]-moduler och deras fält
 

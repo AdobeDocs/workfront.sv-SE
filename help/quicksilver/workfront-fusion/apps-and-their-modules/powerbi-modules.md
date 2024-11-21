@@ -10,9 +10,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2081'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 &#42;&#42;Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+
+## Microsoft Power BI API-information
+
+Microsoft Power BI-kontakten använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://api.powerbi.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.0.2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Power BI]-moduler och deras fält
 

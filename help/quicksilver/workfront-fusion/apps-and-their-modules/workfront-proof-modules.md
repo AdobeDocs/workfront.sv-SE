@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 74aba3bbb0a6aface10559bf84fe3467c5469714
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Information om Workfront Proof
+
+Workfront Proof Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v21.3.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.8.92</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Workfront Proof] till [!DNL Workfront Fusion]
 

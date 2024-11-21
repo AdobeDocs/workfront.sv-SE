@@ -9,9 +9,9 @@ description: Modulerna  [!DNL Adobe Workfront Fusion Google Drive] gör att du k
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2484'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## API-information för Google Drive
+
+Google Drive-anslutningen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ Alla exempel på den här sidan visar den okodade parametern `<q>q</q>`, där `t
   <pre>fullText innehåller '"hello world"'fullText innehåller '"hello_world"'</pre>
 * Sök efter filer med en fråga som innehåller tecknet &quot;\&quot; (t.ex. &quot;\authors&quot;)
   <pre>fullText innehåller \\authors</pre>
-* Sök efter filer som kan skrivas av användaren &quot;test@example.org&quot;
+* Sök efter filer som kan skrivas av användaren `test@example.org`
   <pre>test@example.org i [!DNL writers]</pre>
 * Sök efter ID `1234567` i samlingen `parents`. Detta söker efter alla filer och mappar som finns direkt i den mapp vars ID är `1234567`.
   <pre>1234567 tum [!UICONTROL parents]</pre>
 * Sök efter alias-ID:t `appDataFolder` i samlingen `parents`. Detta söker efter alla filer och mappar som finns direkt under mappen [Application Data](https://developers.google.com/drive/api/v2/appdata).
   <pre>appDataFolder i parent</pre>
-* Sök efter filer som kan skrivas av användarna &quot;test@example.org&quot; och &quot;test2@example.org&quot;
+* Sök efter filer som kan skrivas av användarna `test@example.org` och `test2@example.org`
   <pre>test@example.org i skribenter och test2@example.org i skribenter</pre>
 * Sök efter filer som innehåller texten &quot;important&quot; och som finns i papperskorgen
   <pre>fullText innehåller 'important' och trashed = true</pre>

@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3303'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Google]-konto för att kunna använda [!DNL Google Calendar]-moduler.
+
+## API-information för Google Calendar
+
+Google Calendar-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://www.googleapis.com/calendar/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v5.4.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Calendar]-moduler och deras fält
 

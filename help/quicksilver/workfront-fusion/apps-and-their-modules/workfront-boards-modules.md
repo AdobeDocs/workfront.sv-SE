@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Boards-kontakten för att automatis
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2451'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,21 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha konfigurerat en anslagstavla i Adobe Workfront innan du kan ansluta till den.
+
+## API-information för Adobe Workfront Books
+
+Adobe Workfront Boards-anslutningen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning till Workfront Boards
 

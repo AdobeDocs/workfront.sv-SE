@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 86be8b6e1c21f3fd5f5b66afa3bf930d6bafbd63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2842'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 >Dropbox måste godkänna program med fler än 50 användare.
 >
 >Mer information finns i Utvecklarhandbok för Dropbox.
+
+## API-information för Dropbox
+
+Kopplingen Dropbox använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://api.dropboxapi.com/2    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> 2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td><ul><li><p>Dropbox</p><p>v5.3.9</p></li><li><p>Dropbox Business</p><p>v1.0.12</p></li></ul></td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## Skapa en anslutning till [!DNL Dropbox]

@@ -10,9 +10,9 @@ description: Med  [!DNL Adobe Experience Manager Forms] connector for [!DNL Adob
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,21 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 * Du måste ha ett [!DNL Adobe Experience Manager Forms]-konto för att kunna använda den här modulen.
+
+## Adobe Experience Manager Assets API-information
+
+Adobe Experience Manager Assets Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.2.27</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning till Adobe Experience Manager Forms
 

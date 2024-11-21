@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 74aba3bbb0a6aface10559bf84fe3467c5469714
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Microsoft Office 365 Email]-konto för att kunna använda [!DNL Microsoft Office 365 Email]-moduler.
+
+## Information om e-post-API för Microsoft Office 365
+
+E-postkopplingen för Microsoft Office 365 använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v2.6.5</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 

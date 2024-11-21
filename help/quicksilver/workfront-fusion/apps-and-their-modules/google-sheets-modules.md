@@ -9,9 +9,9 @@ description: För att kunna använda  [!DNL Google Sheets] med [!DNL Adobe Workf
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '3498'
+source-wordcount: '3521'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!UICONTROL Google]-konto för att kunna använda [!UICONTROL Google Sheets]-moduler.
+
+## API-information för Google Sheets
+
+Kopplingen Google Sheets använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Utlösare
 
@@ -720,7 +743,7 @@ Använd modulen [!UICONTROL Search Rows (Advanced)] och använd den här formeln
    * Namnet på funktionen måste motsvara det namn du angav i steg 9.
    * Ersätt URL:en med webboks-URL:en som du kopierade i steg 2.
 
-     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;webkrok du har kopierat&gt;");</pre><pre>}</pre>
 
 1. Tryck på **[!UICONTROL Ctrl+S]** för att spara skriptfilen, ange ett projektnamn och klicka på **[!UICONTROL OK]**.
 

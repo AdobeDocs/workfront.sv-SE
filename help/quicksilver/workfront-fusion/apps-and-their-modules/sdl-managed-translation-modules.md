@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du ansluta ditt SD
 author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Information om hanterat översättnings-API för SDL
+
+SDL Managed Translation Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td>https://languagecloud.sdl.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.4.26</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL SDL Managed Translation] moduler
 

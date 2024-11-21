@@ -9,9 +9,9 @@ description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsfl�
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL NetSuite]-konto för att kunna använda [!DNL NetSuite]-moduler.
+
+## API-information för NetSuite
+
+NetSuite-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning till NetSuite
 

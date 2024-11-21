@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,21 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL DocuSign]-konto för att kunna använda [!DNL DocuSign]-moduler.
+
+## API-information för DocuSign
+
+DocuSign-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>1.18.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL DocuSign] till [!DNL Workfront Fusion] {#connect-docusign-to-workfront-fusion}
 

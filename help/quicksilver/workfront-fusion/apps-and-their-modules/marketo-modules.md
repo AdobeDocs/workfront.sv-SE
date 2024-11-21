@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Marketo]-konto för att kunna använda [!DNL Marketo]-moduler.
+
+## Marketo API-information
+
+Marketo Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.14.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Marketo] till Workfront Fusion {#connect-marketo-to-workfront-fusion}
 

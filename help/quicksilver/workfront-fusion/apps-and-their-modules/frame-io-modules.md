@@ -9,9 +9,9 @@ description: Kontot  [!DNL Adobe Workfront Fusion Frame].io modules enable you t
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1969'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Om du vill använda [!DNL Frame.io] moduler måste du ha ett [!DNL Frame.io]-konto
+
+## API-information för Frame.io
+
+För Frame.io-kopplingen används följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://api.frame.io/v2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.0.76</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Frame.io] till [!UICONTROL Adobe Workfront Fusion]
 

@@ -9,9 +9,9 @@ description: Med Adobe Workfront Fusion Google Presentations-modulerna kan du sk
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,29 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Google]-konto för att kunna använda [!DNL Google Slides]-moduler.
+
+## API-information för Google-bilder
+
+Google Slides-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://slides.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.5.9</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Slides]-moduler och deras fält
 
@@ -249,7 +272,7 @@ Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Emai
    <td> <p>Lägg till värdena:</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>: Ange den tagg som du vill ersätta i presentationen. Exempel: <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>: Ange det värde som den befintliga taggen ska ersättas med. Om en sträng till exempel <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong>: Ange det värde som den befintliga taggen ska ersättas med. Om en sträng till exempel <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name&#125;&#125;</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
    

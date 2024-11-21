@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2486'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,29 @@ I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som anv�
   </tr> 
  </tbody> 
 </table>
+
+## API-information för CloudConvert
+
+CloudConvert-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td> https://api.cloudconvert.com/v2/</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v2.14.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
 

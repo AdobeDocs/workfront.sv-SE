@@ -9,9 +9,9 @@ description: Med  [!DNL Adobe Workfront Fusion AWS] S3-modulerna kan du utföra 
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Amazon Web Service]-konto för att kunna använda [!UICONTROL AWS S3]-moduler.
+
+## API-information för AWS S3
+
+AWS S3-anslutningen har följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.5.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL AWS] till [!DNL Workfront Fusion] {#connect-aws-to-workfront-fusion}
 

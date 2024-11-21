@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3222'
+source-wordcount: '3241'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 Om du vill skapa en OAuth Server-till-server måste du lägga till Adobe PDF Services-API:t i Adobe Developers Console. När du lägger till API:t väljer du alternativet OAuth Server-till-server.
 
 Instruktioner finns i [Lägg till API i projekt med OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) i utvecklardokumentationen för Adobe.
+
+## API-information för Adobe PDF Services
+
+Adobe PDF Services Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td>https://pdf-services-stage.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v2.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning till [!DNL Adobe PDF Services]
 

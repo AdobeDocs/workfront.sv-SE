@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,21 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 Innan du kan använda [!DNL Adobe Firefly]-anslutningen måste du se till att följande krav uppfylls:
 
 * Du måste ha ett aktivt [!DNL Adobe Firefly]-konto.
+
+## Adobe Campaign API-information
+
+Adobe Campaign Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.4.24</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning till [!DNL Adobe Firefly]
 

@@ -9,9 +9,9 @@ description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsfl�
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Om du vill använda [!DNL OpenAI (ChatGPT & DALL-E)]-moduler måste du ha ett [!DNL OpenAI]-konto, inklusive en API-nyckel och ett organisations-ID.
+
+## API-information för OpenAI (ChatGPT och DALL-E)
+
+För OpenAI-anslutningen (ChatGPT och DALL-E) används följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.1.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Ansluter [!DNL OpenAI (ChatGPT & DALL-E)] till [!DNL Workfront Fusion]
 
@@ -330,6 +349,7 @@ I den här modulen visas och beskrivs de olika modeller som finns i OpenAI API:t
     <li><p><b>Hämta modell </b></p><p>Ange eller mappa ID:t för modellen som du vill hämta. </p></li>
    </ul>
  </td> 
+  </tr>
  </tbody> 
 </table>
 

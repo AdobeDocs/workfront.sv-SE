@@ -9,9 +9,9 @@ description: Med  [!DNL Adobe Campaign] modulerna kan du starta ett [!DNL Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,21 @@ Du måste lägga till Fusion-IP-adresserna till [!DNL Adobe Campaign].
 
 * Instruktioner om hur du lägger till IP-adresser i Campaign-tillåtelselista finns i [Lägga till IP-adresser i tillåtelselista](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) i Adobe Campaign-dokumentationen.
 * En lista över IP-adresser som ska läggas till i tillåtelselista finns i [IP-adresser för åtkomst till Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
+
+## Adobe Campaign API-information
+
+Adobe Campaign Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.7.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Adobe Campaign] till [!DNL Adobe Workfront Fusion]
 

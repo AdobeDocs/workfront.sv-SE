@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Slack]-konto för att kunna använda [!DNL Slack]-moduler.
+
+## API-information för Slack
+
+Kopplingen Slack använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td>{{ifempty(parameters.domain, 'https://slack.com/api/')}}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v4.0.15</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Slack]-moduler och deras fält
 

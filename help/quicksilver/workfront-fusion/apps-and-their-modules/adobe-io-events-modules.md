@@ -9,9 +9,9 @@ description: Med Adobe I/O Events-modulen kan du starta ett Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Innan du kan använda Adobe I/O Events-kopplingen måste du se till att följande krav uppfylls:
 
 * Du måste ha ett aktivt Adobe-konto.
+
+## API-information för händelser i Adobe I/O
+
+I Adobe I/O Events-kopplingen används följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td>https://api.adobe.io/events</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.6.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning till Adobe I/O-händelser
 

@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,37 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Om du vill använda [!DNL Jira] moduler måste du ha ett [!DNL Jira]-konto.
+
+## Jira API-information
+
+Jira-anslutningen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"></td> 
+   <td> Jira Cloud</td> 
+   <td> Jira Server</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersion</td> 
+   <td> 2</td> 
+   <td> 2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersionAgile</td> 
+   <td> 1,0 </td> 
+   <td> 1,0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>1.7.29</td> 
+   <td>1.0.19</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]
 

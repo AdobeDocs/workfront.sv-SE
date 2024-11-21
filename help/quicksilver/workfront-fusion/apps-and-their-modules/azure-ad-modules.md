@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: ac966231-251e-44de-be61-00afa5ece3fd
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 ## Förutsättningar
 
 Du måste ha ett [!DNL Azure Active Directory]-konto för att kunna använda [!DNL Azure Active Directory]-moduler.
+
+## API-information för [!DNL Azure Active Directory]
+
+Azure Active Directory-kopplingen använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.4.5</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## [!DNL Azure Active Directory]-moduler och deras fält
 

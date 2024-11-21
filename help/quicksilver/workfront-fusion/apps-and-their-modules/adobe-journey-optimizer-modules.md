@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3247'
+source-wordcount: '3266'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,25 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 Innan du kan använda [!DNL Adobe Journey Optimizer]-anslutningen måste du se till att följande krav uppfylls:
 
 * Du måste ha ett aktivt [!DNL Adobe Journey Optimizer]-konto.
+
+## Adobe Journey Optimizer API-information
+
+Adobe Journey Optimizer Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td>{connection.url}</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Skapa en anslutning till Adobe Journey Optimizer
 

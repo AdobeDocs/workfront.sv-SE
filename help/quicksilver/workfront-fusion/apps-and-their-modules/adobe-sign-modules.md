@@ -9,9 +9,9 @@ description: Med  [!DNL Adobe Acrobat Sign] modulerna kan du starta ett [!DNL Ad
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '5473'
+source-wordcount: '5489'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,26 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## API-information för [!DNL Adobe Acrobat Sign]
+
+Adobe Acrobat Sign Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API-version</td> 
+   <td> v6 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.35.1</td> 
+  </tr>
+ </tbody> 
+</table>
+
 
 ## [!DNL Adobe Acrobat Sign] rekommendationer för anslutningsanvändning
 

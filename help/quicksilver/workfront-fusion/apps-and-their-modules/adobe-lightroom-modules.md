@@ -9,9 +9,9 @@ description: Med Adobe Lightroom-modulerna kan du starta ett Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1928'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,26 @@ Innan du kan använda [!DNL Adobe Lightroom]-anslutningen måste du se till att 
 
 * Du måste ha ett aktivt [!DNL Adobe Lightroom]-konto.
 
-## Skapa en anslutning till Adobe Lightroom
+## Adobe Lightroom API-information
+
+Adobe Lightroom Connector använder följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Bas-URL</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API-tagg</td> 
+   <td>v1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 
