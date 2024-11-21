@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,10 @@ ht-degree: 0%
 
 # Adobe Workfront Planning AI Assistant - översikt
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
--->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -66,14 +65,12 @@ Du kan nu använda AI-assistenten för att utföra följande åtgärder:
 * Återställ poster som du just har tagit bort
 
 
-<!-- ## Locate the AI Assistant in Workfront Planning
+## Hitta AI-assistenten i Workfront Planning
 
-You can locate the AI Assistant in the following areas of Workfront Planning:
+AI-assistenten finns i följande områden i Workfront Planning:
 
-* The main navigation bar, in the upper-right corner of the screen.
-* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
-
--->
+* Huvudnavigeringsfältet i skärmens övre högra hörn.
+* <span class="preview">I informationsdelen för en post efter att du öppnat posten i förhandsgranskningen eller efter att du öppnat postens sida.</span>
 
 ## Gå till AI-assistenten i Planning Area
 
@@ -87,7 +84,7 @@ You can locate the AI Assistant in the following areas of Workfront Planning:
 
 1. (Valfritt) Klicka på en **post** för att öppna postens **informationssida**.
 
-1. Klicka på ikonen **AI-assistenten** i det övre högra hörnet av skärmen i det globala navigeringsfältet <!--or in the upper-right corner of the record's preview or page.-->
+1. Klicka på ikonen **AI Assistant** i det övre högra hörnet av skärmen i det globala navigeringsfältet <span class="preview"> eller i det övre högra hörnet av postens förhandsgranskning eller sida.</span>
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
