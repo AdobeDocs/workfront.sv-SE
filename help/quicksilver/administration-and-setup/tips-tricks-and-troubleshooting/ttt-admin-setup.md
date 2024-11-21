@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 806a4c4835e47da4fbbdb28ec0c35c990f70239e
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Hämtar historiska data från [!DNL Adobe Workfront]: pros and cons](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
 * [Spara en e-postrubrikfil](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [Delning visar mer än en behörighet](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
-* [Oautentiserad e-post accepteras inte på grund av domänens DMARC-princip](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+* [Oautentiserad e-post accepteras inte på grund av domänens DMARC-policy](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+* [Workfront: ZScalar-inställningar kan ge sämre prestanda](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)

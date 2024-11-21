@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 7f9e9a255e6abefe20ebf018cff82ccc3e4cbe20
+source-git-commit: 347c1484ce24b8aeb3d1e12c35a19afbb937803c
 workflow-type: tm+mt
-source-wordcount: '14590'
+source-wordcount: '14597'
 ht-degree: 0%
 
 ---
@@ -855,6 +855,7 @@ ht-degree: 0%
       * [Spara en e-postrubrikfil](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [Delning visar mer än en behörighet](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [Oautentiserad e-post accepteras inte](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+        [Workfront: ZScalar-inställningar kan ge sämre prestanda](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
       * [Användarautentiseringsuppgifter jämfört med SAML-autentiseringsuppgifter](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Uppdatera alternativ för automatisk uppgradering på åtkomstnivåer](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Grundläggande om Adobe Workfront {#basics}
