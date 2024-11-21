@@ -9,7 +9,7 @@ description: Kontot  [!DNL Adobe Workfront Fusion Frame].io modules enable you t
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1969'
 ht-degree: 0%

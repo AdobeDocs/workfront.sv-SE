@@ -9,7 +9,7 @@ description: Med FTP-moduler kan du övervaka filändringar i en vald mapp, öve
 author: Becky
 feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%

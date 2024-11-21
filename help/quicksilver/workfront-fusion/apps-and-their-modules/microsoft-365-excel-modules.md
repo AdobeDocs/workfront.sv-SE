@@ -9,7 +9,7 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2374'
 ht-degree: 0%

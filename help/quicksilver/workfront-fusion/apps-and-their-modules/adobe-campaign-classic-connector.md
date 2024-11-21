@@ -9,7 +9,7 @@ description: Med  [!DNL Adobe Campaign] modulerna kan du starta ett [!DNL Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%

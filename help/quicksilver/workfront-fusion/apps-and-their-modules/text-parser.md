@@ -8,7 +8,7 @@ description: Du kan använda textanalysverktyget för att tolka text som ska anv
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 0%

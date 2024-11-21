@@ -8,7 +8,7 @@ description: I ett Adobe Workfront Fusion-scenario kan du använda modulen matem
 author: Becky
 feature: Workfront Fusion
 exl-id: 677d722f-3a9f-498e-939a-1cfe8e943fb6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%

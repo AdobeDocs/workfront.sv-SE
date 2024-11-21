@@ -9,7 +9,7 @@ description: Du kan använda Mutual TLS i dina Adobe Workfront Fusion HTTP-modul
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%

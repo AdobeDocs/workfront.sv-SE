@@ -8,7 +8,7 @@ description: Med Adobe Workfront Fusion Image-modulerna kan du hämta informatio
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%

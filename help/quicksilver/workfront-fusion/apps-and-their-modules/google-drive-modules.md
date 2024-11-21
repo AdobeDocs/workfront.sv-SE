@@ -9,7 +9,7 @@ description: Modulerna  [!DNL Adobe Workfront Fusion Google Drive] gör att du k
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2484'
 ht-degree: 0%

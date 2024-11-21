@@ -9,7 +9,7 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du ansluta ditt e-
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 0%
@@ -375,7 +375,7 @@ Markerar ett e-postmeddelande eller ett utkast i en markerad mapp som läst geno
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Ange e-post-UID för e-postmeddelandet som du vill markera som läst.</p> <p>Du kan hämta UID för e-postmeddelandet med modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Ange e-postadressen till UID-postmeddelandet som du vill markera som läst.</p> <p>Du kan hämta UID för e-postmeddelandet genom att använda modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -398,7 +398,7 @@ Markerar ett e-postmeddelande eller ett utkast i en markerad mapp som oläst gen
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Ange e-post-UID för e-postmeddelandet som du vill markera som oläst.</p> <p>Du kan hämta UID för e-postmeddelandet med modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Ange e-postadressen till UID-postmeddelandet som du vill markera som oläst.</p> <p>Du kan hämta UID för e-postmeddelandet genom att använda modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -425,7 +425,7 @@ Flyttar ett valt e-postmeddelande eller ett utkast till en markerad mapp.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Ange e-post-UID för e-postmeddelandet som du vill flytta till målmappen.</p> <p>Du kan hämta UID för e-postmeddelandet med modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Ange e-postadressen till UID-postmeddelandet som du vill flytta till målmappen.</p> <p>Du kan hämta UID för e-postmeddelandet genom att använda modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,7 +452,7 @@ Kopierar ett e-postmeddelande eller ett utkast till en markerad mapp.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Ange e-post-UID för e-postmeddelandet som du vill kopiera till målmappen.</p> <p>Du kan hämta UID för e-postmeddelandet med modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Ange e-postadressen till UID-postmeddelandet som du vill kopiera till målmappen.</p> <p>Du kan hämta UID för e-postmeddelandet genom att använda modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,7 +475,7 @@ Tar bort ett e-postmeddelande eller ett utkast från den markerade mappen.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Ange e-post-UID för e-postmeddelandet som du vill ta bort.</p> <p>Du kan hämta UID för e-postmeddelandet med modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email].</p> </td> 
+   <td> <p>Ange e-postadressen till UID-postmeddelandet som du vill ta bort.</p> <p>Du kan hämta UID för e-postmeddelandet genom att använda modulen [!UICONTROL Email] &gt;[!UICONTROL Watch Email] eller [!UICONTROL Search Email] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Expunge]</td> 

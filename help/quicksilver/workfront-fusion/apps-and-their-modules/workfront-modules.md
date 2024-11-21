@@ -9,7 +9,7 @@ description: Du kan anv√§nda Adobe Workfront Fusion Adobe Workfront-kontakten f√
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '6299'
 ht-degree: 0%

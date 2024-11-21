@@ -10,7 +10,7 @@ description: Med  [!DNL Adobe Experience Manager Forms] connector for [!DNL Adob
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 1%

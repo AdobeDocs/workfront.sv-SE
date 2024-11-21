@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 9664c4f1-6467-45c9-8b9e-5a41d0e9ccb9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%

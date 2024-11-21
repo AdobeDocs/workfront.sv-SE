@@ -8,7 +8,7 @@ description: När du skapar eller redigerar ett scenario kan du konfigurera inst
 author: Becky
 feature: Workfront Fusion
 exl-id: 0f315192-c15e-48e8-a5b6-827c300f0e5c
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%

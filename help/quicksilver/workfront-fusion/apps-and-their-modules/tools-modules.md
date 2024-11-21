@@ -8,7 +8,7 @@ description: Avsnittet  [!DNL Adobe Workfront Fusion Tools] innehåller flera an
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1975'
 ht-degree: 0%

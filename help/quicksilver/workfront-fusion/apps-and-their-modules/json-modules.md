@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion JSON-appen innehåller moduler som bearbetar
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Om JSON-strängfältet innehåller en samling `{ ... }` är utdata ett enda pake
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Om JSON-strängfältet innehåller arrayen `[ ... ]` är utdata en serie paket. 
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -248,26 +248,25 @@ Den här åtgärdsmodulen omvandlar ett objekt till en json-sträng.
 >
 **Exempel:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Klicka på **[!UICONTROL Save]**. Fältet [!UICONTROL Specification] i datastrukturen innehåller nu den genererade strukturen.
 1. Ändra namnet på datastrukturen till något mer specifikt och klicka på **[!UICONTROL Save]**. Ett fält som motsvarar rotarrayattributet visas som ett mappningsbart fält i JSON-modulens inställningar.

@@ -9,7 +9,7 @@ description: Med  [!DNL Adobe Workfront Fusion] Figma-modulen kan du hämta list
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
