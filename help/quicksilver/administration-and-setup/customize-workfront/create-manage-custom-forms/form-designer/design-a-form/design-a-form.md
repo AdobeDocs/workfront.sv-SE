@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6537'
 ht-degree: 0%
 
 ---
@@ -263,6 +263,10 @@ Lägga till ett textfält:
     <td> Om du vill använda en hyperlänk i den beskrivande texten lägger du till den här. Den beskrivande texten visas som en länk på objekt som formuläret är kopplat till.</td>
     <td><ul><li>Beskrivning</li></ul></td>
     </tr>
+    <tr> 
+      <td role="rowheader">Gör ett obligatoriskt fält</td>
+      <td><p>Välj det här alternativet om du vill att fältet ska vara obligatoriskt för att användaren ska kunna fylla i det anpassade formuläret.</p></td>
+    </tr> 
    </table>
 
 1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält eller widgetar.
@@ -837,6 +841,27 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
       <td role="rowheader">Referensfält</td> 
       <td><p>(Obligatoriskt) Välj ett internt Workfront-fält.<p><p>Endast inbyggda fält för formulärets objekt är tillgängliga. Om t.ex. listan Objekttyper längst upp i formulärdesignern visar Projekt, kan du välja inbyggda fält för projekt, men inte fält som är specifika för uppgifter.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Lägg till filter</span></td>
+      <td><span class="preview"><p>Lägg till ett filter för referensfältet för att begränsa listan med objekt som användare kan välja mellan när de använder fältet. </p> <p>Du kan till exempel begränsa ett fält så att användarnamn bara kan väljas om de uppfyller följande villkor:</p> 
+       <ul>
+        <li>De tillhör en grupp eller grupper som du anger</li> 
+        <li>De är kopplade till en roll eller jobbtitel som du anger</li> 
+        <li>De tillhör samma grupp som den person som använder fältet</li> 
+       </ul>
+       <p>Du måste definiera filtret för det referensfält som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Redigera ett filter i textläge</a>.</p>
+       <p><b>OBS</b>:
+       <ul> 
+        <li>Filteralternativet är bara tillgängligt när du refererar till ett inbyggt typsnittsfält, till exempel Portfolio, Företag eller Ägare.</li>
+        <li>Om du redigerar ett befintligt anpassat formulär tas inga objekt (utanför filteromfånget) som användare redan har lagt till med fältet bort när du lägger till ett filter i ett internt fält.</li> 
+        <li>Filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett internt fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
+        </ul></p></span></td> 
+      <td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Gör ett obligatoriskt fält</td>
+      <td><p>Välj det här alternativet om du vill att fältet ska vara obligatoriskt för att användaren ska kunna fylla i det anpassade formuläret.</p></td>
+     </tr> 
      <tr> 
       <td role="rowheader">Storlek</td> 
       <td>(Valfritt) Ändra fältets visningsstorlek efter behov.</td> 

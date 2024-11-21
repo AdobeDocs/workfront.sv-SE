@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 0%
@@ -136,11 +136,11 @@ IF(
 
      <span class="preview">Du kan inkludera en statisk URL-adress i felmeddelandet om du vill länka till dokumentation eller andra användbara sidor för att vägleda användaren om hur de kan ändra sin åtgärd inom regelbegränsningen.</span>
 
-     <span class="preview">I det här exemplet kommer &quot;Läs mer&quot; att länka till URL:en. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` URL:en måste vara inom parentes, men länktext inom parentes krävs inte. Du kan visa den fullständiga URL:en och den blir klickbar.</span>
+     <span class="preview">I det här exemplet kommer &quot;Läs mer&quot; att länka till URL:en. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL:en måste vara inom parentes, men länktext inom parentes krävs inte. Du kan visa den fullständiga URL:en och den blir klickbar.</span>
 
    ![Dialogrutan Lägg till affärsregel](assets/add-business-rule-dialog-no-ai-button.png)
 
-   Det här exemplet är en affärsregel för utgifter. Om den aktuella månaden är juni får användarna inte skapa nya utgifter, och det förklaras i meddelandet.
+   Det här exemplet är en affärsregel för projekt. Om den aktuella månaden är november får användarna inte skapa nya projekt, och meddelandet förklarar detta.
 
    Mer exempel på affärsregler finns i [Scenarier för affärsregler](#scenarios-for-business-rules) i den här artikeln.
 
