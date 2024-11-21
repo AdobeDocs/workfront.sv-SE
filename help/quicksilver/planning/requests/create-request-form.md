@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront Planning*</p></td>
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td>
    <td>
 <p>Alla </p>  
 <p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </td>
@@ -205,7 +205,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Alla som har Contribute eller senare åtkomst till arbetsytan
    * Alla med länken
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >När du väljer **Vem som helst med länken** kan vem som helst få åtkomst till formuläret och skicka en ny post, även personer utanför organisationen som inte har något Workfront-konto.
 

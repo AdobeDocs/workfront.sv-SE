@@ -6,9 +6,9 @@ description: Du kan uppdatera implementeringsdatumet för en uppgift eller ett �
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,9 @@ Du kan uppdatera implementeringsdatumet för en uppgift eller ett ärende som du
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för aktiviteten eller problemet</p> </td> 
+   <td> <p>Hantera behörigheter för aktiviteten eller problemet</p>
+   <p> Du måste ha tilldelats uppgiften eller utgåvan för att kunna uppdatera implementeringsdatumet </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

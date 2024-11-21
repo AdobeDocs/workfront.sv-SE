@@ -5,9 +5,9 @@ title: Arbeta över tidszoner
 description: Det kan vara praktiskt att förstå hur  [!DNL Adobe Workfront]  använder tidszoner för att beräkna tidsfält för objekt och tider i andra områden, som e-postmeddelanden.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,13 @@ ht-degree: 0%
 # Arbeta över tidszoner
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Det kan vara praktiskt att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna följande:
 
@@ -91,20 +98,37 @@ Du kan hjälpa användare att arbeta enklare i flera tidszoner på flera sätt:
 
   Det här schemat kan skilja sig från ett projektschema. När någon skapar en uppgift i projektet och ännu inte har tilldelat någon till den, används till exempel projektschemat. När en användare tilldelas till uppgiften används användarens schema.
 
-  Om flera användare tilldelas till en uppgift använder systemet något av följande, som konfigurerats i projektinställningarna för hela systemet:
+  Om flera användare tilldelas till en uppgift använder systemet något av följande, enligt inställningarna för projekt på system- eller gruppnivå:
 
    * Tidszonen för schemat för aktivitetens primära ägare
    * Tidszonen för schemat för projektet.
 
-  Detta kan få aktivitetsdatum att ändras.
+<!--
+   <div class="preview">
 
-  **Exempel:** En EST-användare tilldelas en endagsuppgift som schemaläggs att starta kl. 9.00 PST, vilket är kl. 16.00 EST. Eftersom EST-användaren endast har två återstående arbetstimmar för dagen, sträcker sig slutdatumet för uppgiften med cirka 6 timmar till nästa arbetsdag.
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  Mer information om området [!UICONTROL Project Preferences] i [!UICONTROL Setup] finns i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  Instruktioner om hur du tilldelar ett schema till ett projekt eller en användare finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   </div>
+-->
 
-  Mer information om hur den tidszon som har konfigurerats i schemat påverkar distributionen av [!UICONTROL Planned Hours] i [!UICONTROL Workload Balancer] finns i [Hantera användarallokeringar i [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Detta kan få aktivitetsdatum att ändras.
+
+>[!BEGINSHADEBOX]
+
+**EXEMPEL:**
+En EST-användare tilldelas en endagsuppgift som schemaläggs att starta kl. 9.00 PST, vilket är kl. 19.00 EST. Eftersom EST-användaren endast har två återstående arbetstimmar för dagen, sträcker sig slutdatumet för uppgiften med cirka 6 timmar till nästa arbetsdag.
+
+
+>[!ENDSHADEBOX]
+
+Mer information om området [!UICONTROL Project Preferences] i [!UICONTROL Setup] finns i [Konfigurera systemomfattande projektinställningar](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+Instruktioner om hur du tilldelar ett schema till ett projekt eller en användare finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+Mer information om hur den tidszon som har konfigurerats i schemat påverkar distributionen av [!UICONTROL Planned Hours] i [!UICONTROL Workload Balancer] finns i [Hantera användarallokeringar i [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Använd beräkningstidsfält i ett anpassat formulär {#use-calculated-time-fields-in-a-custom-form}

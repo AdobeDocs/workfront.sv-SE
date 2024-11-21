@@ -6,15 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
 
 # Adobe Workfront Planning AI Assistant - översikt
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -59,9 +65,21 @@ Du kan nu använda AI-assistenten för att utföra följande åtgärder:
 * Ta bort poster
 * Återställ poster som du just har tagit bort
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## Gå till AI-assistenten i Planning Area
 
-1. Logga in på Workfront och gå till **Planering**.
+1. Logga in på Workfront och klicka sedan på ikonen **Huvudmeny** ![](assets/dots-main-menu.png) i skärmens övre högra hörn eller på ikonen **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig.
+
+. Klicka på **Planering**. Planeringsområdet öppnas.
 
 1. Klicka på ett **arbetsytekort**.
 
@@ -69,7 +87,7 @@ Du kan nu använda AI-assistenten för att utföra följande åtgärder:
 
 1. (Valfritt) Klicka på en **post** för att öppna postens **informationssida**.
 
-1. Klicka på ikonen **AI-assistenten** i det övre högra hörnet av skärmen i det globala navigeringsfältet.
+1. Klicka på ikonen **AI-assistenten** i det övre högra hörnet av skärmen i det globala navigeringsfältet <!--or in the upper-right corner of the record's preview or page.-->
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -87,3 +105,6 @@ Du kan nu använda AI-assistenten för att utföra följande åtgärder:
    En visuell indikator visas medan AI-assistenten bearbetar kommandon och anger förväntad svarstid.
 
    När du har fått ett svar följer du länkarna eller ser ändringarna till vänster.
+
+
+

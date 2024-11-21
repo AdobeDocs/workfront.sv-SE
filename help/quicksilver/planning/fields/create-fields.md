@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
+source-wordcount: '4129'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
    <td> 
 <p>Alla </p> 
 <p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
@@ -206,6 +206,9 @@ OLD:
    Håll markören över en kolumnrubrik, klicka på den nedåtriktade pilen efter fältnamnet och klicka sedan på **Infoga vänster** eller **Infoga höger** för att lägga till det nya fältet.
 1. På fliken **Nytt fält** söker du efter en fälttyp i rutan **Fälttyp** eller väljer någon av följande fälttyper:
 
+   På fliken **Nytt fält** söker du efter en fälttyp i rutan **Fälttyp** <!--using any related keyword--> eller väljer en av fälttyperna som listas nedan.
+
+
    * [Enkelradig text](#single-line-text)
    * [Stycke](#paragraph)
    * [Flera val](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    Du kan inte ändra fälttypen när du har sparat den.
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Fortsätt med att lägga till varje fält enligt beskrivningen i avsnitten nedan.
 

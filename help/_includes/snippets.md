@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
@@ -276,7 +276,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
    Startsidan för Workfront Planning öppnas.
 
-1. (Valfritt och villkorligt) Om du är Workfront-administratör klickar du på följande flikar:
+1. (Valfritt och villkorligt) Om du är Workfront-administratör klickar du på någon av följande flikar:
 
    * **Mina arbetsytor**: Visar arbetsytor som du har skapat.
    * **Andra arbetsytor**: Visar alla arbetsytor i Workfront Planning, inklusive de som delas med dig.
@@ -291,8 +291,8 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 >
 >Du måste ha följande för att få tillgång till Workfront Planning:
 >
->* En ny plan och licens för Workfront. Workfront Planning finns inte för tidigare Workfront-planer eller -licenser.
->* Ytterligare licens för Workfront Planning.
+>* Ett nytt Workfront-paket och en ny licens. Workfront Planning är inte tillgängligt för tidigare Workfront-paket eller licenser.
+>* Ett Workfront Planning-paket.
 >* Din organisations instans av Workfront måste integreras med Adobe Unified Experience.
 >
 > En fullständig lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).

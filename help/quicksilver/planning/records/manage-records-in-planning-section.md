@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront Planning*</p></td>
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td>
    <td>
 <p>Alla</p>
 <p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p>

@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront Planning*</p></td>
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td>
    <td>
 <p>Något av följande Workfront Planning-planer:</p>
 <ul><li>Planering</li>

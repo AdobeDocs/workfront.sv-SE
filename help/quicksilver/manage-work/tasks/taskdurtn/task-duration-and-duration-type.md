@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 0%
 # Översikt över aktivitetsvaraktighet och varaktighetstyp
 
 <!-- Audited: 12/2023 -->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+-->
 
 Aktivitetens varaktighet är skillnaden mellan det planerade slutförandedatumet och det planerade startdatumet för aktiviteten. Varaktighet anger den tidsram som är tillgänglig för uppgiften att slutföras.
 
@@ -31,7 +38,30 @@ Om aktivitetens faktiska start- och slutförandedatum ligger utanför schemat f�
 
 Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront:
 
-* Om uppgiften tilldelas till en användare av Workfront, använder någon av följande scheman, i exakt den här ordningen för att beräkna varaktigheten:
+<!--
+<div class="preview">
+* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+
+  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
+
+   1. Workfront takes into account the user's schedule. 
+   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
+   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * In the Preview environment:
+
+      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
+
+          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+      1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
+
+      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
+
+</div>
+-->
+
+* Om uppgiften har tilldelats en användare använder Workfront ett av följande scheman, i exakt den här ordningen för att beräkna varaktigheten:
 
    1. Workfront tar hänsyn till användarens schema.
    1. Om användaren inte är kopplad till ett schema, tar Workfront hänsyn till projektets tidsplan.
@@ -41,7 +71,9 @@ Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront
 
    1. Workfront tar hänsyn till antingen projektplanen eller den primära uppdragstagarens tidsplan.
 
-  Din Workfront-administratör avgör vilket schema Workfront använder när en uppgift tilldelas flera användare. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Din Workfront- eller gruppadministratör avgör vilket schema Workfront använder när en uppgift tilldelas flera användare. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   1. Om den primära tilldelaren eller projektet inte har något schema använder Workfront standardschemat.
 
   Stegen liknar det första scenariot efter att du har förstått vilket schema Workfront använder för att beräkna varaktighet.
 
