@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar som gjorts i den första utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Uppdatera hur flyttade eller borttagna resurser i länkade mappar hanteras
+
+>[!NOTE]
+>
+>Förhandsversion: 21 november 2024; Produktionsrelease för alla kunder: 5 december 2024
+
+Vi har ändrat det sätt på vilket flyttade och borttagna resurser hanteras när vi använder Adobe Workfront-integreringen med Experience Manager Assets och Assets Essentials:
+
+* Borttagna resurser: När en resurs tas bort inuti en länkad mapp i Assets eller Assets Essentials behålls den borttagna resursen i området Projektdokument.
+* Flyttade resurser: När en resurs flyttas utanför en länkad mapp i Assets eller Assets Essentials behålls den flyttade resursen i området Projektdokument.
 
 ## Avsnitt i ett anpassat formulär kan nu komprimeras och utökas
 

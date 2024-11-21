@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 * [Förbättrad dokumenthantering](#document-management-enhancements)
 * [Hemförbättringar](#home-enhancements)
 * [Förbättringar av korrektur](#proofing-enhancements)
+* [Förbättringar av rapporter och kontrollpaneler](#report-and-dashboard-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -52,6 +53,54 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         </td>
         <td>
             <p><span class="bold">Releasedatum</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Inställning för att använda projekt eller användarschema för uppgifter med enkel tilldelning</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Som system- eller gruppadministratör har du nu en ny inställning som anger om Workfront ska använda projektets eller användarens schema för att beräkna tidslinjen för projektet när du tilldelar en användare till en aktivitet och både projektet och användaren är associerade med ett schema.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 21 november 2024</li>
+                <li>Produktion för snabb lansering: Med version 24.12 (december 2024)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Affärsreglerna stöder nu hyperlänkar</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Nu kan du inkludera hyperlänkar i det anpassade felmeddelandet för en affärsregel, som vägleder användaren om hur de kan ändra sin åtgärd inom regelbegränsningen. Den statiska URL:en kan länka till dokumentation eller andra sidor som skulle vara till hjälp för användaren.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 21 november 2024</li>
+                <li>Produktion för snabb lansering: Med version 24.12 (december 2024)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Det finns nu möjlighet att filtrera på inbyggda typsnittsfält</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>När du lägger till en intern fältreferens i ett anpassat formulär och den refererar till ett typsnittsfält (till exempel Portfolio, Företag eller Ägare), är nu ett filteralternativ tillgängligt. Med filtret kan du begränsa vilka objekt som användare kan välja när de använder fältet. Det här anpassade filtret fungerar på samma sätt som ett filter i ett anpassat typsnittsfält, där textläget används för att definiera filtret.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 21 november 2024</li>
+                <li>Produktion för snabb lansering: Med version 24.12 (december 2024)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -122,6 +171,22 @@ Den här sidan innehåller information om de funktioner som ingår i den första
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Redigera flera dokument samtidigt</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Nu kan du redigera flera dokument samtidigt. Du kan redigera beskrivningarna och uppdatera anpassade formulär.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 21 november 2024</li>
+                <li>Produktion för snabb lansering: Med version 24.12 (december 2024)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ny återkallad status tillgänglig för godkännande av dokumentversioner</a></p>
             [!BADGE In production for Fast Release ]{type=Positive}
             <p>När en ny version läggs till i ett dokument med väntande godkännanden visas nu godkännandet för den tidigare versionen som "Återkallad", vilket anger att den tidigare godkännandeprocessen har stängts på grund av att den nya versionen har lagts till.</p>
@@ -133,6 +198,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 <li>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</li>
                 <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
             </ul>
+            <p><i>Den här funktionen ingår i en fasad version och är endast tillgänglig för vissa kunder.</i></p>
         </td>
     </tr>
 </tbody>
@@ -225,12 +291,62 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 </tbody>
 </table>
 
+## Förbättringar av rapporter och kontrollpaneler
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Funktion</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatum</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Knapp för att skapa konto för förstagångsläsare för dataanslutning</a></p>
+            <p>Administratörer som använder Data Connect för första gången har nu möjlighet att skapa ett nytt läsarkonto för Snowflake genom att klicka på en enda knapp. Processen tar några minuter, men kräver ingen ytterligare åtgärd.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 14 november 2024</li>
+                <li><span class="preview">Produktionsrelease för alla kunder: 14 november 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
 ### Andra förbättringar
 
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Uppdatera hur flyttade eller borttagna resurser i länkade mappar hanteras</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Vi har ändrat det sätt på vilket flyttade och borttagna resurser hanteras när vi använder Adobe Workfront-integreringen med Experience Manager Assets och Assets Essentials:</p>
+            <ul>
+                <li>Borttagna resurser: När en resurs tas bort inuti en länkad mapp i Assets eller Assets Essentials behålls den borttagna resursen i området Projektdokument.</li>
+                <li>Flyttade resurser: När en resurs flyttas utanför en länkad mapp i Assets eller Assets Essentials behålls den flyttade resursen i området Projektdokument.</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 21 november 2024</li>
+                <li><span class="preview">Produktionsrelease för alla kunder: 5 december 2024</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">

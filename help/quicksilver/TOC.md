@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
+source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
 workflow-type: tm+mt
-source-wordcount: '14597'
+source-wordcount: '14607'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 0%
          * [2025 Q1 Förbättrad dokumenthantering](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
          * [2025 Q1 Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
          * [Förbättringar av korrektur för 2025 Q1](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
+         * [Förbättringar av Q1-rapporten och Dashboard 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
          * [Andra förbättringar under den första kvartersversionen 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Uppdateringar av utseende och känsla under 2025 års Q1-release](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * 2024 Q4-utgåvan {#release-24-q4}
@@ -1768,7 +1769,7 @@ ht-degree: 0%
       * [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect - översikt](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [Skapa ett läsarkonto](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Skapa ett läsarkonto eller en anslutning för Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Upprätta en anslutning till Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect-dataordlista](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Exempel på Workfront Data Connect-frågor](reports-and-dashboards/data-lake/basic-query-examples.md)

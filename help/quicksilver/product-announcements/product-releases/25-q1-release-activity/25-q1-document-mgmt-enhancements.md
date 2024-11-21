@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,19 @@ Den här sidan beskriver alla förbättringar av dokumenthanteringen som gjorts 
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Redigera flera dokument samtidigt
+
+>[!NOTE]
+>
+>Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+
+Nu kan du redigera flera dokument samtidigt. Du kan redigera beskrivningarna och uppdatera anpassade formulär.
+
+<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
+
 >[!IMPORTANT]
 >
->Funktionerna på den här sidan är en del av en fasad version och är endast tillgängliga för specifika kunder.
+>De funktioner som listas nedan är en del av en fasversion och är endast tillgängliga för specifika kunder.
 
 ## Ny återkallad status tillgänglig för godkännande av dokumentversioner
 

@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -32,6 +33,29 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Adobe AI Assistant finns i informationsområdet
+
+>[!NOTE]
+>
+>Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+
+För att göra det enklare för dig att utföra arbetet har vi lagt till Adobe AI Assistant på en posts förhandsgranskning av information eller postens sida. Du kan använda AI-assistenten i en postsida för att uppdatera information om posten.
+
+Mer information finns i [Översikt över Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+## Ny upplevelse när du lägger till en miniatyrbild och en omslagsbild på en postsida
+
+>[!NOTE]
+>
+>Förhandsversion: 20 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+
+När du öppnar en posts förhandsgranskning eller sida och posten inte har någon miniatyrbild eller omslagsbild, måste du nu hålla markören över området ovanför postens namn i rubriken för att se alternativen för att lägga till ett omslag och en miniatyrbild till posten. Före den här förbättringen visas de tomma platshållarbilderna för miniatyrbilden och omslaget ovanför postens namn.
+
+Mer information finns i följande artiklar:
+
+* [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Nya visningstyper för procenttypsfält i tabellvyn
 

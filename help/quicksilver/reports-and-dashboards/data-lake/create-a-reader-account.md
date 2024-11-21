@@ -2,21 +2,23 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Skapa ett läsarkonto (tjänstkonto) för Snowflake
+title: Skapa ett läsarkonto för Snowflake
 description: För att få åtkomst till data i Data Connect måste du först skapa ett läsarkonto i Snowflake.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Skapa ett läsarkonto (tjänstkonto) för Snowflake
+# Skapa ett läsarkonto eller en anslutning för Snowflake
 
-För att få åtkomst till data i Data Connect måste du först skapa ett Snowflake-läsarkonto (eller tjänstkonto) för varje ny anslutning. När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på sidan **Dataåtkomst** (**Huvudmeny** > **Inställningar** > **System** > **Dataåtkomst**) på fliken **Befintliga anslutningar** .
+För att få åtkomst till data i Data Connect måste du först skapa ett läsarkonto (eller tjänstkonto) för din organisation och sedan skapa en ny anslutning för varje användare eller verktyg som du vill ha åtkomst till Data Connect.
+
+När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på sidan **Dataanslutning** (**Huvudmeny** > **Inställningar** > **System** > **Dataanslutning**) på fliken **Befintliga anslutningar** .
 
 Mer information om hur du använder en nyligen skapad anslutning med en extern produkt finns i [Upprätta en anslutning till Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
@@ -61,15 +63,35 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa ett läsarkonto
 
+Du måste skapa ett nytt läsarkonto för Snowflake för din organisation innan du kan börja skapa anslutningar.
+
+>[!IMPORTANT]
+>
+>Denna process får endast utföras en gång per organisation. Om knappen **Skapa Reader-konto** inte finns på den plats som beskrivs nedan har ditt läsarkonto redan skapats.
+
+Så här skapar du ett läsarkonto:
+
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera**.
 
-1. Klicka på **System** > **Dataåtkomst** i den vänstra panelen.
+1. Klicka på **System** > **Dataanslutning** i den vänstra panelen.
+
+1. Klicka på knappen **Skapa Reader-konto** för att börja skapa din organisations läsarkonto. Processen är automatisk, men kan ta några minuter att slutföra.
+
+1. När det är klart visas ett dialogrutefönster där det förklaras att ditt läsarkonto nu är aktivt. Uppdatera webbläsarsidan för att få åtkomst till knappen **Skapa ny anslutning**.
+
+Dialogrutan ![Reader har skapats](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+
+## Skapa en anslutning
+
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera**.
+
+1. Klicka på **System** > **Dataanslutning** i den vänstra panelen.
 
 1. Klicka på **Skapa ny anslutning**
 
 1. I fönstret som visas anger du ett namn för anslutningen i **Anslutningsreferensbeskrivning** och ett användarnamn i **Anslutningsanvändare**. Klicka sedan på **Skapa anslutning**.
 
-   ![Skapa läsarkonto](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+   ![Skapa ny anslutning](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
 1. Ett **standardlösenord** genereras, liksom en URL där dina data kan visas via Snowflake. Du måste använda lösenordet tillsammans med det användarnamn du valde för att logga in på Snowflake för första gången, så se till att du sparar information om det samt URL:en. Markera kryssrutan som hävdar att du har gjort det och klicka sedan på **Stäng**.
 

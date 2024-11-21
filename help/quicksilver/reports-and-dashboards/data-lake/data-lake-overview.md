@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 1713a5855b8798d888866447338291975ff69cb7
+source-git-commit: fec9f895113600ff6ccc795a94019a473793a226
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Workfront Data Connect ger oöverträffad åtkomst till Workfront-data med hjälp av Snowflake-teknik, vilket gör att du kan besvara affärskritiska frågor och mäta värdet av dina processer. Tack vare den här funktionen kan företagskunder förhöra sina data med datavisualiseringsverktyg direkt från Workfront datalager eller exportera Workfront-data till ett kundägt datalager.
 
-Abonnenterna kan koppla samman sina valfria affärsinformationsverktyg (Tableau, Power BI, Domo, Looker osv.) till Data Connect för att skapa datavisualiseringar med följande datatyper:
+Prenumeranter kan koppla sitt valfria affärsinformationsverktyg (Tableau, Power BI, Domo, Looker, etc.) till Data Connect för att skapa datavisualiseringar med följande typer av data:
 
 * Låg latens, aktuella lägesdata
 * Ändra händelseposter för jämförelser mellan tidpunkt
@@ -29,7 +29,7 @@ Abonnenterna kan koppla samman sina valfria affärsinformationsverktyg (Tableau,
 
 Mer information om Data Connect finns i följande artiklar:
 
-* [Skapa ett läsarkonto (tjänstkonto) för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Skapa ett läsarkonto eller en anslutning för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Upprätta en anslutning till Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect-dataordlista](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Exempel på Workfront Data Connect-frågor](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
