@@ -73,7 +73,7 @@ AWS S3-anslutningen har följande:
  <tbody> 
   <tr> 
    <td role="rowheader">Bas-URL</td> 
-   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.&lbrace;&lbrace;parameter.region&rbrace;&rbrace;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tagg</td> 
