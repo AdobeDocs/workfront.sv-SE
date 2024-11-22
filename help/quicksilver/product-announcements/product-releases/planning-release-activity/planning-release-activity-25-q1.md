@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,21 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Återställ borttagna poster
+
+>[!NOTE]
+>
+>Förhandsversion: 22 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+
+När poster har tagits bort flyttas de nu tillfälligt till en nyligen borttagen behållare i 30 dagar. Du kan komma åt den nyligen borttagna behållaren från posttypens sida och den innehåller bara poster av en viss typ.
+
+Workspace-hanterare kan återställa poster från papperskorgen i upp till 30 dagar efter att de tagits bort. Anslutna poster och deras fältinformation återställs också.
+
+Det gick inte att återställa borttagna poster innan den här förbättringen utfördes.
+
+Mer information finns i [Återställ borttagna poster](/help/quicksilver/planning/records/records-information.md).
 
 ## Adobe AI Assistant finns i informationsområdet
 

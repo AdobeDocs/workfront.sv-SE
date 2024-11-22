@@ -1,14 +1,14 @@
 ---
 title: Ta bort poster
-description: Du kan ta bort poster som du eller någon annan användare har skapat. Du kan inte återställa borttagna poster.
+description: Du kan ta bort poster som du eller någon annan användare har skapat.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 0%
 
 # Ta bort poster
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
-Du kan ta bort poster som inte längre är relevanta i Adobe Workfront Planning.
+Du kan ta bort poster som inte längre är relevanta i Adobe Workfront Planning. <span class="preview">Du kan återställa borttagna poster i 30 dagar efter att de tagits bort. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
 
 ## Åtkomstkrav
 
@@ -156,10 +162,9 @@ OLD
 ## Att tänka på när du tar bort poster
 
 * Du kan ta bort poster som du eller någon annan användare har skapat.
-* Du kan inte återställa borttagna poster. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* Du kan inte återställa borttagna poster i produktionsmiljön. <span class="preview">Du kan återställa borttagna poster i förhandsgranskningsmiljön.</span>
 * Om de borttagna posterna är länkade till andra poster tas de länkade posterna inte bort, men informationen från den borttagna posten tas också bort.
-* Du kan inte ta bort flera poster samtidigt. <!--this will probably change-->
-* Du kan inte ta bort poster från tidslinjevyn.
+* Du kan inte ta bort poster från tidslinjen eller kalendervyer.
 
 ## Ta bort poster
 
@@ -192,7 +197,10 @@ Du kan ta bort en post från följande områden:
 1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-Posten tas bort och kan inte återställas.
+Posten tas bort.
+1. (Valfritt och villkorligt) Om du tar bort posten i förhandsvisningsmiljön går du till postsidans tabellvy och klickar på ikonen **Ångra** ![](assets/undo-icon.png) i vyns övre högra hörn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
+
+Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ### Ta bort en post från posttyptabellvyn
 
@@ -211,15 +219,22 @@ Posten tas bort och kan inte återställas.
 1. Gör något av följande:
 
    * Högerklicka på en postrad och klicka sedan på **Ta bort**.
-   * Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**
+   * Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) för att öppna rutan med postens detaljerade information, och klicka på **Mer** ![](assets/more-menu.png) till höger om postnamnet och sedan på **Ta bort**.
 
-   Posten tas bort och kan inte återställas.
+   Posten tas bort.
 
-1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om borttagning av en post:
+1. (Valfritt) Gör något av följande om du vill ångra eller göra om borttagning av en post:
 
-   * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
-   * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
+   * <span class="preview">Klicka på ikonen **Ångra** ![](assets/undo-icon.png) och sedan på **Senast borttagna** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Använd följande kortkommandon för att ångra eller göra om borttagning av en post:
+
+      * CTRL + Z ( ⌘ + Z för Mac) för att ångra borttagning av en post
+      * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om radering av post
+
+
+
+

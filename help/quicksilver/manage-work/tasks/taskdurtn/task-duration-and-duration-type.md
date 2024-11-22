@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,13 @@ En uppgifts varaktighetstyp identifierar relationen mellan antalet resurser som 
 
 Om aktivitetens faktiska start- och slutförandedatum ligger utanför schemat för projektet, den primära tilldelaren eller standardschemat, är aktivitetens varaktighet noll.
 
-**Exempel:** Om du har ett schema som börjar kl. 9.00 och slutar kl. 12.00 och en aktivitet som schemaläggs att starta kl. 2:00 och avslutas kl. 17.00, är aktivitetens varaktighet noll.
+>[!BEGINSHADEBOX]
+
+**EXEMPEL**
+Om du har ett schema som börjar kl. 9.00 och slutar kl. 12.00 och en aktivitet som schemaläggs att starta kl. 2:00 och avslutas kl. 17:00, är aktivitetens varaktighet noll.
+
+
+>[!ENDSHADEBOX]
 
 Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront:
 
@@ -70,6 +76,14 @@ Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront
 >[!NOTE]
 >
 >När hänsyn tas till den primära tilldelades tid för ett projekt kan aktivitetens planerade datum ändras, men aktivitetens varaktighet är densamma. Mer information om hur du tar hänsyn till den primära tilldelningens tid när du planerar ett projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+## Den ursprungliga varaktigheten för en överordnad aktivitet
+
+Ursprunglig varaktighet för en aktivitet är den varaktighet en aktivitet hade innan den blev en överordnad aktivitet, i minuter.
+
+När en aktivitet blir överordnad, kommer varaktigheten mellan det planerade startdatumet för den tidigaste underordnade och det planerade slutförandedatumet för den senaste underordnade aktiviteten att räknas upp till den överordnade aktiviteten och bli varaktigheten för den överordnade aktiviteten. Detta ersätter varaktigheten för den ursprungliga aktiviteten.
+
+Mer information finns i [Översikt över aktivitetens ursprungliga varaktighet och ursprungliga planerade timmar](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Tidsenheter för aktivitetsvaraktighet
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
+source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
 workflow-type: tm+mt
-source-wordcount: '14611'
+source-wordcount: '14614'
 ht-degree: 0%
 
 ---
@@ -2119,6 +2119,7 @@ ht-degree: 0%
       * [Koppla poster](planning/records/connect-records.md)
       * [Redigera poster](planning/records/edit-records.md)
       * [Ta bort poster](planning/records/delete-records.md)
+      * [Återställ borttagna poster](planning/records/restore-deleted-records.md)
       * [Dela poster](planning/records/share-records.md)
       * [Duplicera poster](planning/records/copy-or-duplicate-records.md)
       * [Hantera postkommentarer](planning/records/manage-record-comments.md)
