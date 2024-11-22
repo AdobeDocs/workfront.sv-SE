@@ -7,9 +7,9 @@ description: Du kan skapa en mapp som är länkad till Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 96830bad7480a99ca8f318dbd791ebcaceddd01e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Skapa en mapp länkad till Experience Manager Assets eller Assets Essentials
 
 Du kan skapa en mapp som är länkad till Experience Manager Assets eller Assets Essentials i Workfront. Eftersom mappen är länkad visas alla resurser som läggs till i mappen automatiskt i både Workfront och Experience Manager. Du behöver inte skicka resursen manuellt om den finns i en länkad mapp.
+
+Om en resurs tas bort eller flyttas från en länkad mapp i Experience Manager Assets eller Assets Essentials, sparar Workfront en kopia av resursen i området Projekt > Dokument.
 
 
 ## Åtkomstkrav

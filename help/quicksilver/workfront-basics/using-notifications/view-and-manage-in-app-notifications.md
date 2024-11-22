@@ -5,9 +5,9 @@ description: "Meddelanden i appen håller dig informerad om två typer av inform
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Den numrerade ikonen i det övre högra hörnet av [!DNL Workfront] visar antale
 
    ![Senaste olästa meddelanden](assets/qs-notifications-350x330.png)
 
-   Upp till 80 meddelanden visas i en rullningsbar lista. Om du vill se mer kan du klicka **[!UICONTROL All notifications]** längst ned i listan för att visa upp till 100 meddelanden. Meddelanden tas automatiskt bort efter 30 dagar.
+   Numerikonen visar en rullningsbar lista med upp till 80 meddelanden. Om du vill se mer kan du klicka **[!UICONTROL All notifications]** längst ned i listan för att visa upp till 500 meddelanden. Meddelanden tas automatiskt bort efter 30 dagar.
 
    Längst ned i varje meddelande visas [!UICONTROL notification type] och en motsvarande identifieringsikon. De här hjälper dig att identifiera vad som hände med det angivna [!DNL Workfront]-objektet och varna dig om du har ett åtgärdsobjekt:
 

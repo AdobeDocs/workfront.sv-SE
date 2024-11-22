@@ -4,9 +4,10 @@ description: Förbättringar av startsidan för fjärde kvartalet 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -63,12 +64,18 @@ Med den här ändringen påverkas följande områden:
 
 * Området _Hem_ får det nya namnet _Hem_.
 * Området _Hem och Sammanfattning_ får ett nytt namn till _panelen Sammanfattning_. Anpassningarna i det här området gäller fortfarande för panelen Sammanfattning i nya Hem. Mer information finns i [Anpassa hem och sammanfattning med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Följande flikar kommer att tas bort från panelen Hem och Sammanfattning:
+   * Projekt
+   * Dokument
+   * Dokumentversioner
+
+Obs! Dokument- och dokumentversionerna gäller endast för äldre hemanvändare. De gjorde att du inte kunde anpassa Sammanfattning i området Dokument.
 
 **Hantera godkännanden**
 
 * Du kommer inte längre att kunna återkalla, påminna eller ta bort användare från skickade godkännanden i Hem-området. I stället kan du hantera detta med själva godkännandet.
 
-Vi rekommenderar att du börjar använda nya Home, som även i fortsättningen kommer att utökas med ytterligare funktioner innan borttagningen. Mer information om övergången, inklusive råd om vad användare och administratörer kan göra för att förbereda, finns i [Föråldrad startsida](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Vi rekommenderar att du börjar använda nya Home, som även i fortsättningen kommer att utökas med ytterligare funktioner innan borttagningen.
 
 >[!NOTE]
 >

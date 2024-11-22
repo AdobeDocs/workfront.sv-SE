@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
+source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -561,7 +561,7 @@ Följande funktioner kommer snart att tas bort från Workfront:
 
 #### Borttagning av den gamla hemupplevelsen med 24.10
 
-Vi kommer officiellt att ta bort den gamla hemupplevelsen med version 24.10. Vi rekommenderar att du börjar använda nya Home, som även i fortsättningen kommer att utökas med ytterligare funktioner innan borttagningen. Mer information om övergången, inklusive råd om vad användare och administratörer kan göra för att förbereda, finns i [Föråldrad startsida](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Vi kommer officiellt att ta bort den gamla hemupplevelsen med version 24.10. Vi rekommenderar att du börjar använda nya Home, som även i fortsättningen kommer att utökas med ytterligare funktioner innan borttagningen.
 
 ## Meddelanden
 

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 0%
 Här följer några meddelanden som du kanske vill känna till:
 
 <!--* [Enhanced Analytics deprecation guide](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)-->
-* [Guide för föråldrad hemborttagning](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)
 * [Frågor och svar om underhållsperioden](../../product-announcements/announcements/maintenance-window-faq.md)
 * [Avbeställ utskick från meddelandecentret](unsubscribe-from-ac-messages.md)
 * [Ändringar som krävs för att lägga till korrektur i tillåtelselista](proofhq-domain-change-workfront.md)

@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
+source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
 workflow-type: tm+mt
 source-wordcount: '14611'
 ht-degree: 0%
@@ -432,7 +432,6 @@ ht-degree: 0%
       * [Meddelanden](product-announcements/announcements/announcements.md)
       * [Schema över funktioner som inte längre stöds](product-announcements/announcements/feature-removal-timeline.md)
       * [Avskrivningsguide för förbättrad analys](product-announcements/announcements/enhanced-analytics-deprecation.md)
-      * [Guide för föråldrad hemborttagning](product-announcements/announcements/legacy-home-deprecation.md)
       * [Frågor och svar om underhållsperioden](product-announcements/announcements/maintenance-window-faq.md)
       * [Ändringar som krävs för att lägga till korrektur i tillåtelselista](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Avbeställ utskick från meddelandecentret i den nya Adobe Workfront-upplevelsen](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -1163,6 +1162,7 @@ ht-degree: 0%
       * [Kontrollera dokumentlagringsgränser](documents/managing-documents/check-document-storage.md)
       * [Ta bort dokument](documents/managing-documents/delete-documents.md)
       * [Klistra in bilder från Urklipp](documents/managing-documents/paste-image-clipboard.md)
+      * [Redigera flera dokument samtidigt](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [AddBuilder i Workfront Document Details](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Ordna dokument {#organize-documents}
       * [Ordna dokument](documents/organizing-documents/organize-documents.md)
