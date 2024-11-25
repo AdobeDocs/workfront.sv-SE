@@ -9,7 +9,7 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: a4c9f4cd4f28c28222826187a68ca4122eec1a8f
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -293,7 +293,7 @@ Den här åtgärdsmodulen genererar en bild som baseras på en fråga som du ang
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presets]</td> 
-   <td>Om du vill använda ett förinställt format klickar du på Lägg till objekt och anger eller mappar det format som du vill använda.<p>En lista med förinställda format finns i <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Bildmodellformat</a> i utvecklardokumentationen för Adobe.</td> 
+   <td>Om du vill använda ett förinställt format klickar du på Lägg till objekt och anger eller mappar det format som du vill använda.<p>En lista med förinställda format finns i <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >Bildmodellformat</a> i utvecklardokumentationen för Adobe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Negative prompt]</td> 
