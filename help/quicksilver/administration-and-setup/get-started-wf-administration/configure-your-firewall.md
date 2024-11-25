@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: df3885233140c5d0af542c8999226f7934c1329f
+source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1643'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,7 @@ Mer information finns i avsnittet [Visa din organisations kluster och Workfront-
 * [IP-adresser som tillåter kluster 1, 2, 3, 5, 7, 8 och 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-adresser som tillåter kluster 4](#ip-addresses-to-allow-for-cluster-4)
 * [IP-adresser som tillåter kluster 6](#ip-addresses-to-allow-for-cluster-6)
+* [IP-adresser som tillåter kluster 10](#ip-addresses-to-allow-for-cluster-10)
 * [IP-adresser som tillåter en testenhet](#IP%20Addre2)
 * [IP-adresser som ska tillåtas vid implementering av händelseprenumerationer](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [IP-adresser som tillåter utökad autentisering](#ip-addresses-to-allow-for-enhanced-authentication)
