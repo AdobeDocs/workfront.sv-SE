@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 27158301e491d4ff45ce7987a81f841fb4525b2a
+source-git-commit: f8ea4a1c40cd3fc4664a5a3b1c3a900e874d78b1
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,48 @@ ht-degree: 0%
 Rollen för [!DNL Adobe Workfront Fusion] är att automatisera dina processer så att du kan koncentrera dig på nya uppgifter i stället för att upprepa samma uppgifter om och om igen. Det fungerar genom att länka åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar data automatiskt. Scenariot du skapar letar efter data i en app eller tjänst och bearbetar data för att ge det resultat du vill ha.
 
 Ett scenario består av en serie moduler som anger hur data ska omvandlas i en app eller överföras mellan program och webbtjänster.
+
+## Översikt över scenarioelement
+
+Ett scenario består av olika element. Om du förstår terminologin för dessa element blir det enklare att använda dokumentationen.
+
+### Scenario
+
+Ett **scenario** är en användarskapad serie med automatiska steg som skapats för att flytta och ändra data. Termen scenario avser hela gruppen med anslutna steg.
+
+![Scenario](assets/entire-scenario-scenario.png)
+
+### Utlösare
+
+Ett scenario börjar med en **utlösare**. Utlösaren söker efter nya och uppdaterade data och startar scenariot när vissa villkor som har konfigurerats i modulen tillämpas. Utlösare kan konfigureras för att starta ett scenario enligt ett schema (avsökning) eller när dataändringar sker (direkt).
+
+![Utlösare](assets/scenario-trigger.png)
+
+### Modul
+
+Utlösaren följs av ett antal **moduler**. En modul representerar ett steg i ett scenario som utför en viss åtgärd. Moduler är konfigurerade och sammankopplade för att skapa scenarier.
+
+![Modul](assets/scenario-module.png)
+
+### Flöde
+
+Ett scenario kan delas upp i **vägar**. En väg är en del av scenariot som kan användas eller inte för ett givet datapaket. Rutorna konfigureras med hjälp av en routermodul och filter.
+
+![Routning](assets/scenario-route.png)
+
+### Scenariosegment
+
+Ett scenariesegment är ett avsnitt i ett scenario som består av en serie sammanhängande moduler som alla ansluter till samma program. Scenariosegment representerar ofta ett kort arbetsflöde i programmet.
+
+![Scenariosegment](assets/scenario-segment.png)
+
+### Koppling
+
+En koppling är en uppsättning moduler för ett visst program. Workfront Fusion har kopplingar till många vanliga arbetsapplikationer, som Workfront, Salesforce och Jira, samt generiska anslutningar som kan användas för alla webbtjänster.
+
+![Anslutningar](assets/scenario-connectors.png)
+
+
 
 ## Exempel: Automatiserar processer i [!DNL Adobe Workfront]
 
