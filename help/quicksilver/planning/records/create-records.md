@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Skapa poster
+
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -28,6 +32,8 @@ Du kan skapa poster genom att göra något av följande:
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
 * [Skapa dem genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
+* <span class="preview">[Skapa poster vid import av posttyper från en CSV- eller Excel-fil](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
 
@@ -270,3 +276,13 @@ Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workf
 Både Workfront-användare och användare utanför din organisation kan skicka begäranden till posttyperna Planning och skapa poster, om de har en länk till förfrågningsformuläret.
 
 Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
+
+<div class="preview">
+
+## Skapa poster när du importerar posttyper från en CSV- eller Excel-fil
+
+Du kan importera poster när du importerar posttyper med hjälp av en CSV- eller Excel-fil.
+
+Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+
+</div>

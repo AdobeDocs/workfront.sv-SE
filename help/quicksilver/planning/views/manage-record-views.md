@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
 
 
 # Hantera postvyer
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -218,6 +223,9 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Sök efter specifika poster | ✓ | ✓ |
 | Dela vyn med andra | ✓ | ✓ | ✓ |
 | Öppna postens sida från vyn | ✓ | ✓ |    |
+| Visa poster per år och kvartal |           | ✓ |    |
+| Visa poster per månad |           | ✓ | ✓ |
+| <span class="preview">Visa poster efter vecka</span> |           |               | ✓ |
 
 
 ## Skapa eller redigera vyer {#create-or-edit-views}

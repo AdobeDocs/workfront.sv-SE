@@ -6,16 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
+
 # Skicka Adobe Workfront Planning-begäranden för att skapa poster
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,17 +117,21 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
 * Formuläret för begäran måste delas med en länk på ett sätt som gör att du kan komma åt det. Följande scenarier finns:
 
-   * Om du har ett Workfront-konto har länken bara delats med interna personer och du har tillgång till arbetsytan. Personer utanför Workfront kan inte komma åt en länk som delas internt.
+   * Om du har ett Workfront-konto har länken bara delats med interna medarbetare och du har tillgång till arbetsytan med högre eller högre behörighet. Personer utanför Workfront kan inte komma åt en länk som delas internt.
    * Om du inte har något Workfront-konto har länken delats med externa personer. Workfront-användare kan även komma åt en länk som delas med externa personer.
 
 * Länken till formuläret får inte upphöra att gälla.
 
 ## Att tänka på när du skickar begäranden till Workfront Planning
 
-* Du kan inte komma åt förfrågningsformulären för Workfront Planning-begäranden utan en specifik länk till formulären.
+* Du kan bara få åtkomst till ett begärandeformulär för Workfront Planning-begäranden från en specifik länk till formuläret.
 * Du kan inte redigera en begäran efter att du har skickat den till Workfront Planning.
-* Varje skickad begäran skapar en post för den posttyp som är associerad med det formulär som du använder.
+* Varje skickad begäran skapar en post för den posttyp som är associerad med formuläret som du använder <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->
 * Poster som skapas genom att frågeformulär skickas kan inte skiljas från poster som läggs till med någon annan metod. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+* <span class="preview">Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront </span>.
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## Skicka en begäran till Workfront Planning
 
@@ -132,8 +141,35 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
    >[!TIP]
    >
-   >   Om fältet **Ämne** är tillgängligt kanske det inte visas i Workfront Planning. Vi rekommenderar att du uppdaterar så många fält i din begäran som möjligt för att göra den nya posten identifierbar när den läggs till i posttypen.
+   >   Om fältet **Ämne** är tillgängligt visas det inte i Workfront Planning när begäran har skickats.
+   >
+   >Vi rekommenderar att du uppdaterar så många fält i din begäran som möjligt för att göra den nya posten identifierbar när den läggs till i posttypen i Workfront Planning.
 
 1. Klicka på **Skicka**.
 
-   Formuläret skickas och en ny post läggs till i posttypen som är kopplad till formuläret.
+   Ditt formulär skickas och följande saker händer:
+
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->En ny post läggs till i posttypen som är kopplad till formuläret.
+
+
+   * <!--If the request form was not associated with an approval, the--> <span class="preview"> Begäran läggs till i avsnittet Skickat i området Workfront-förfrågningar och en ny post läggs till på posttypssidan.</span>
+
+     ![](assets/planning-tab-in-requests.png)
+
+     >[!IMPORTANT]
+     >
+     ><span class="preview">Alla användare som har tillgång till minst en arbetsyta kan visa fliken Planering i området Begäranden. Du kan bara visa de begäranden som du har skickat. Workfront-administratörer kan visa alla begäranden i systemet. </span> <!--ensure this is correct; asking team in slack-->
+
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   -->
+
+
+

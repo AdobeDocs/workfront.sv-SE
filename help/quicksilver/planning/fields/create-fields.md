@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4287'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,9 @@ Du kan skapa fält på följande sätt i Workfront Planning:
 * Genom att ansluta posttyper
 * Genom att skapa en posttyp
 * Skapa en arbetsyta från en mall
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">Genom att importera posttyper med en Excel- eller CSV-fil</span>
+* <span class="preview">Genom att importera kopior av befintliga Workfront-fält</span>
+
 
 Mer information om Workfront Planning-fält finns i [Fältöversikt](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -178,6 +180,8 @@ OLD:
 ## Skapa fält från grunden {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
       * **Lång**: 16 maj 2023
       * **Europeisk**: 16/05/2023
       * **ISO**: 2023-05-16
-      * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. <!--update this setting name - submitted bug for it to be changed-->
+      * **Inkludera tid**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. Du kan inte inkludera en tid efter att du har skyddat fältet.
 
      Välj bland följande alternativ:
 
@@ -467,6 +471,12 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    ![](assets/description-of-formula-expression.png)
 
    Mer information om vilka uttryck som stöds finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
+
+
+   >[!TIP]
+   >
+   ><span class="preview">Du får ett varningsmeddelande när du redigerar eller skapar ett formelfält som kan orsaka en cirkelreferens till sig själv eller delade fält. Du kan inte spara ett formelfält som antingen refererar till sig själv eller till artiklar som refereras i beräkningen.  </span>
+
 
 1. Lägg till fältnamn som de visas i Workfront Planning för att referera till dem i en formel.
 
@@ -647,3 +657,21 @@ När du skapar en posttyp skapas även flera fält som är kopplade till den nya
 I Adobe Workfront Planning skapas fält för posttyper när du skapar en arbetsyta från en mall.
 
 Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+<div class="preview">
+
+## Skapa fält när du importerar posttyper från en CSV- eller Excel-fil
+
+Du kan importera fält när du importerar posttyper med hjälp av en CSV- eller Excel-fil.
+
+Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Skapa fält genom att importera dem från Workfront
+
+Du kan importera kopior av befintliga Workfront-fält. När du importerar fält från Workfront skapas en kopia av varje fält för en posttyp av Workfront Planning.
+
+När du har kopierat fälten är fälten oberoende av varandra och de utbyter inte information.
+
+Mer information finns i [Importera fält från Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
+</div>

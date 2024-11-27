@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -145,14 +145,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >* Fält av följande typer visas inte i begärandeformuläret <span class="preview"> i förhandsgransknings- </span> eller produktionsmiljöerna:
    >
-   >    * Personer (inklusive Skapad av och Senast ändrad av)
+   >    * Skapad av och senast ändrad av
    >    * Formel
-   >    * Skapad den
-   >    * Senast ändrat den
-   >    * Kopplade fält eller sökfält för Workfront-objekt
-   >    * Kopplade sökfält för Workfront Planning-poster
+   >    * Skapad den och senast ändrad den
+   >    * Workfront-objektens sökfält
+   >    * Sökfält för Workfront Planning-anslutna poster
+   >    * AEM Assets-anslutna fält
    >* Fält av följande typer visas inte i begärandeformuläret i produktionsmiljön. <span class="preview">De visas i förhandsvisningsmiljön:</span>
    >    * <span class="preview"> Workfront Planning records&#39; connected fields </span>
+   >    * <span class="preview">Personer </span>
+   >    * <span class="preview">Workfront-objektens anslutna fält</span>
+   >    * <span class="preview">AEM Assets-anslutna fält </span>
+
 
 
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
@@ -208,7 +212,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >[!WARNING]
    >
    >
-   >När du väljer **Vem som helst med länken** kan vem som helst få åtkomst till formuläret och skicka en ny post, även personer utanför organisationen som inte har något Workfront-konto.
+   >* När du väljer **Vem som helst med länken** kan vem som helst få åtkomst till formuläret och skicka en ny post, även personer utanför organisationen som inte har något Workfront-konto.
+   >
+   > * <span class="preview">Ett formulär som innehåller följande fälttyper kan inte delas offentligt:</span>
+   >
+   >     * <span class="preview">Formel</span>
+   >     * <span class="preview">Workfront- eller AEM Assets-anslutningar</span>
+   >     * <span class="preview">Uppslagsfält</span>
+   >     * <span class="preview">Personer</span>
+   >
 
 1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. Användarna får ett felmeddelande när länken upphör att gälla och du måste uppdatera länkdatumet innan de kan komma åt formuläret igen.
 

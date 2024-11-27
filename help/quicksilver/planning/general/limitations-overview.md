@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Översikt över begränsningar för Adobe Workfront Planning-objekt
+
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -40,6 +44,9 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Storlek på fil som du kan importera via API för en posttypstabell | 1,5 MB |
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
 | Antal vyer som en användare kan skapa för en posttyp | 100 |
+| Storlek på Excel-fil som du kan importera för att skapa posttyper | 5 MB |
+| <span class="preview">Antal rader som du kan importera i en CSV- eller Excel-fil för att skapa posttyper</span> | 10 000 |
+| <span class="preview">Antal kolumner som du kan importera i en CSV- eller Excel-fil för att skapa posttyper</span> | 500 |
 
 *Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.
 
@@ -47,7 +54,7 @@ Information om priser och paketering för Workfront Planning finns i [Adobe Work
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
+
 **This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
 

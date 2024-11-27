@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
+source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1747'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,115 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Importera befintliga Workfront-fält till posttyper för Workfront Planning
+
+>[!NOTE]
+>
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+
+När du lägger till fält i en posttyp kan du nu välja att importera befintliga anpassade eller inbyggda Workfront-fält och associera dem med den posttyp som du har valt.
+
+Före den här förbättringen var du tvungen att skapa alla fält manuellt och associera dem med posttyper.
+
+Beräknade fält stöds inte för närvarande.
+
+Mer information finns i [Importera fält från Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+
+## Skapa posttyper, poster och fält genom att importera en CSV- eller Excel-fil
+
+>[!NOTE]
+>
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+
+Nu kan du importera nya posttyper genom att importera en CSV- eller Excel-fil.
+
+Följande information importeras:
+
+* Namnet på bladet eller filen importeras som posttypsnamn.
+
+* Den första raden i varje kolumn importeras som ett nytt fält. Du kan ha upp till 500 fält i varje importerat blad.
+
+* Varje rad importeras som en ny post. Du kan ha upp till 10 000 poster i varje ark.
+
+Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Undvik cirkelreferenser i formler
+
+>[!NOTE]
+>
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+
+Vi har introducerat ett varningsmeddelande när vi redigerar eller skapar ett formelfält som kan skapa en cirkelreferens till sig själv eller delade fält. Du kan inte spara ett formelfält som antingen refererar till sig själv eller till artiklar som refereras i beräkningen.
+
+Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
+
+## Lägga till sidor i en kopplad vy på en postsida för att visa kopplade poster i en tabellvy
+
+>[!NOTE]
+>
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+
+Du kan lägga till sidor i en posts informationsområde för att visa kopplade poster i en tabellvy. Du kan lägga till en sida per ansluten post.
+
+De tillagda sidorna är skrivskyddade.
+
+Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Fliken Ny planering i avsnittet Skickat i området Begäranden
+
+>[!NOTE]
+>
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+
+Nu finns Workfront Planning-begäranden under Skickat i området Begäranden i Workfront. I avsnittet Skickat visas nu två flikar: förfrågningar som skickats in i Workfront på fliken Workfront och förfrågningar som skickats in med ett Workfront Planning-begärandeformulär på fliken Planning.
+
+Du måste använda en länk till förfrågningsformuläret för att kunna lägga till förfrågningar till en posttyp i Workfront Planning. En Workfront Planning-begäran från Workfront Request-området kommer att skickas in senare.
+
+Din organisation måste köpa ett Workfront Planning-paket innan du kan använda fliken Planering i området Begäranden.
+
+Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Ytterligare fälttyper stöds nu i förfrågningsformulär
+
+>[!NOTE]
+>
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+
+Du kan nu lägga till följande fälttyper i ett formulär för posttypsbegäran i Workfront Planning:
+
+* Folk
+* Workfront-anslutningar
+
+Före den här förbättringen kunde dessa typer av fält inte läggas till i förfrågningsformulär i Workfront Planning.
+
+Mer information finns i Skapa och hantera ett begärandeformulär i Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md).
+
+## Begränsa offentlig delning av begärandeformulär som innehåller vissa fälttyper
+
+>[!NOTE]
+>
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+
+Du kan inte längre dela ett begärandeformulär offentligt om formuläret innehåller någon av följande fälttyper:
+
+* Formel
+* Anslutningar
+* Sökfält
+* Folk
+
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
+## Visa poster i kalendervyn efter vecka
+
+>[!NOTE]
+>
+>Förhandsversion: 26 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+
+Nu kan du visa poster i kalendervyn efter vecka. Före den här förbättringen kunde du bara visa kalendervyn per månad.
+
+Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Återställ borttagna poster
 

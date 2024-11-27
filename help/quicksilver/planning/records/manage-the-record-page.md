@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
 
 
 # Hantera postsidans layout
+
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ Följande saker händer:
    Den nya positionen för fältet uppdateras både i förhandsvisningen och på sidan med alla poster av samma typ för alla användare som visar posterna.
 
    Alla ändringar av layouten för postförhandsgranskningen eller sidan sparas automatiskt.
+
+<span class="preview">
+
+## Lägga till en sida för kopplad vy på en postsida
+
+Du kan lägga till en sida för kopplad vy på en postsida.
+
+Det går inte att lägga till en sida för kopplad vy i en posts förhandsvisningsområde.
+
+På sidor i den anslutna vyn visas en kopplad postsida i tabellvyn. Tabellvyn är skrivskyddad.
+
+Du kan lägga till en sida för kopplad vy per kopplad posttyp.  <!--edit this when we can remove fields from this page-->
+
+Så här lägger du till en sida för kopplad vy:
+
+1. I en postsidvy klickar du på namnet på en post för att öppna den. Klicka sedan på ikonen Öppna i ny flik ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
+1. Klicka på **Lägg till sida** > **Ansluten vy**.
+1. Lägg till **sidnamnet** och klicka sedan på **Skapa**.
+
+   En extra sida läggs till på postens sida på en ny flik.
+1. Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
+Tabellvyn för den posttyp du valde visas och de kopplade posterna visas i tabellvyn.
+Tabellvyn är skrivskyddad.
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Valfritt) Dubbelklicka på flikens namn
+
+   eller
+
+   Håll pekaren över flikens namn, klicka sedan på **Mer** ![](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
+1. (Valfritt) Använd valfritt vyelement i verktygsfältet för att hantera tabellvyn. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

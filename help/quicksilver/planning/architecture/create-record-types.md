@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 <!--this is linked to the UI in an empty workspace screen-->
 
 # Skapa posttyper
+
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -95,64 +99,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 +++
 
 
-<!--
-OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td> Adobe Workfront
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Current: Plan</p>
-   Or
-   <p>New: Standard </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
 ## Att tänka på när du skapar posttyper
 
 * Du kan skapa posttyper på en arbetsyta på följande sätt:
@@ -162,15 +108,12 @@ OLD:
 
         Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-     <!--* When you import them using an Excel or CSV file. 
+      * <span class="preview">När du importerar dem med en Excel- eller CSV-fil. </span>
 
-            >[!IMPORTANT]
-            >
-            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
+     >[!TIP]
+     >
+     ><span class="preview">När du importerar en posttyp från en Excel- eller CSV-fil kan även poster och fält importeras.</span>
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
-        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-        For information about connecting objects with records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
    * Manuellt:
 
       * Från scratch.
@@ -204,7 +147,7 @@ Mer information om vilka posttyper som ingår i varje mall finns i [Lista över 
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
-1. Klicka på **Lägg till posttyp**.
+1. Klicka på **Lägg till posttyp** och sedan på <span class="preview">**Nytt**</span>.
 
    Rutan Lägg till posttyp öppnas.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -232,8 +175,6 @@ Beskrivning av posttypen visas på kortet.
    ![](assets/operational-record-type-blank.png)
 
    Posttypssidan visas som standard i tabellvyn. Kolumnerna i tabellen är fält som är kopplade till den nya posttypen. Varje rad är en unik post som du måste lägga till.
-
-   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    Som standard visas följande fält i tabellvykolumnerna för en operativ posttyp:
 
@@ -267,69 +208,76 @@ Beskrivning av posttypen visas på kortet.
    * [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md)
 
-<!--
-## Create record types by importing an Excel or CSV file
+<div class="preview">
 
->[!IMPORTANT]
->
->This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
+## Skapa posttyper genom att importera en Excel- eller CSV-fil
 
-Consider the following when importing record types using an Excel or CSV file: 
+Tänk på följande när du importerar posttyper med en Excel- eller CSV-fil:
 
-* Each sheet of the Excel file becomes a record type. 
-* The columns of each sheet become the fields associated with each record type. 
-* Fields are unique for their respective record types. 
-* Each row in each sheet becomes a unique record associated with its respective record type. 
-* Each sheet of the Excel file should not exceed the following: 
-    * 50,000 rows
-    * 500 columns
-* The Excel file should not be larger than 5MB.
-* Empty sheets are not supported. 
+* Varje blad i Excel-filen blir en posttyp. Kalkylbladets namn blir posttypens namn.
+* Om det bara finns ett blad, eller om du importerar en CSV-fil, får filen namnet som posttyp.
+* Kolumnrubrikerna i varje blad blir de fält som är kopplade till varje posttyp.
+* Fält är unika för respektive posttyp.
+* Varje rad i varje blad blir en unik post som är kopplad till respektive posttyp.
+* Varje blad i Excel-filen får inte överskrida följande:
+   * 10 000 rader
+   * 500 kolumner
+* Excel-filen får inte vara större än 5 MB.
+* Tomma blad stöds inte.
 
-To import record types using an Excel file: 
+Så här importerar du posttyper med en Excel- eller CSV-fil:
 
 {{step1-to-planning}}
 
-1. Click the workspace where you want to create record types, 
+1. Klicka på arbetsytan där du vill skapa posttyper,
 
-    Or
+   eller
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
-1. Click **Add record type**. 
-1. Click **Excel/CSV**.
-1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
-1. Click **Review your data**.
-    
-    The Preview and edit box displays with the following information: 
+   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
+1. Klicka på **Lägg till posttyp**.
+1. Klicka på **Från fil**.
+1. Dra och släpp en Excel- eller CSV-fil som tidigare sparats på datorn eller klicka på **Välj en CSV- eller Excel-fil** om du vill bläddra efter en.
+1. Klicka på **Förhandsgranska och redigera**.
 
-    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
-    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
-    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
+   Rutan **Förhandsgranska och redigera** visas med följande information:
 
-    ![](assets/preview-and-edit-box.png)
+   * Namnen på arken eller de framtida posttyperna visas på den vänstra panelen. I Workfront Planning väljs en ikon och en färg för varje ny posttyp som standard.
+   * Den första arks- eller posttypen markeras och namnen på de fält som är kopplade till den visas som kolumnrubriker. Som standard väljs typen för varje fält.
+   * Varje rad representerar en ny post. Endast de första 10 posterna visas i rutan Förhandsgranska och redigera.
 
-1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+   ![](assets/preview-and-edit-box.png)
 
-    >[!NOTE]
-    >
-    >    Sheets that are empty are not supported and are dimmed. 
+1. (Valfritt) Klicka på namnet på varje blad i den vänstra panelen för att granska informationen som det innehåller.
 
+   >[!NOTE]
+   >
+   >Blad som är tomma stöds inte och är nedtonade.
 
-1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+1. (Valfritt) Avmarkera de blad som du inte vill importera från den vänstra panelen.
 
-    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
-    Sheets you deselected display with a gray background. 
+   Blad som du avmarkerat visas med grå bakgrund.
 
-1. Click **Import** when you are ready to import your file. 
+1. (Valfritt) Klicka på den nedåtriktade pilen till höger om kolumnrubriken om du vill göra något av följande:
 
-    The following information imports in to Workfront Planning:
+   * Byt namn på ett av fälten
+   * Ändra **fälttypen**
+   * Uppdatera fältet **Beskrivning**
 
-    * New record types
-    * New fields associated with each record type
-    * New records associated with each record type
+1. (Villkorligt) När du har uppdaterat informationen om fältet klickar du på **Spara**.
 
-    You can start managing fields and records on the record types pages. 
-    
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+1. Klicka på **Importera** när du är klar att importera filen.
+
+   Följande information importeras till Workfront Planning:
+
+   * Nya posttyper
+   * Nya fält som är associerade med varje posttyp
+   * Nya poster associerade med varje posttyp
+
+   Du kan börja hantera fält och poster på posttypssidorna.
+
+   Alla som har tillgång till Workfront Planning kan nu visa och redigera de importerade posttyperna och deras information.
+
+</div>
 

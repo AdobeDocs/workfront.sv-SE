@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
 
 # Hantera kalendervyn
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -179,7 +183,16 @@ Så här hanterar du en kalendervy:
    * Klicka på **Idag** om du vill centrera kalendern till dagens datum.
    * Välj något av följande alternativ på den nedrullningsbara menyn för tidsram för att uppdatera tidsstegen:
 
-      * Månad
+      * **Månad**: Posterna visas i en månadskalender.
+
+     <div class="preview">
+
+      * **Vecka**: Posterna visas i följande områden:
+
+         * Poster som sträcker sig över flera dagar visas högst upp i kalendern.
+         * Poster som varar en dag eller mindre visas i den nedre halvan av kalendervyn. Om du valde att visa timmen för Start- och slutdatum visas posten vid lämplig tidpunkt under dagen då den inträffar.
+     </div>
+
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)
    * [Inställningar](#edit-the-calendar-view-settings)
