@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -61,57 +61,59 @@ Nedan följer några av de viktigaste funktionerna:
 * Anpassa arbetsflödena helt och hållet, från att bestämma vilka objekttyper (eller posttyper) organisationen använder till att konfigurera hur dessa objekt länkar till varandra.
 * Länka till objekttyper från andra system och skapa ett sammanhängande ramverk för alla era processer.
 
-## Workfront Planning-funktioner
+<!--
+## Currently available Workfront Planning features
+(*****for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section*****)
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
+(*****at GA: update the link below to the new place for release notes *****)
 
-<!--at GA: update the link below to the new place for release notes-->
+For information about new features and when they are released, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md). 
 
-Information om nya funktioner och när de släpps finns i [Adobe Workfront Planning Release Activity för 2024](/help/quicksilver/planning/general/release-activity.md).
+The following features are currently available in Workfront Planning:
 
-Följande funktioner är för närvarande tillgängliga i Workfront Planning:
-
-* Skapa arbetsytor
-* Skapa posttyper
-* Skapa anpassade postfält\
-  <!--* Import record types and fields using an Excel or CSV file-->
-
-* Visa poster i en tabellvy
-* Visa poster i en tidslinjevy
-* Visa poster i en kalendervy
-* Filtrera, sortera och gruppera poster i en tabellvy
-* Filtrera, gruppera och färgkoda poster i tidslinjevyn
-* Filtrera poster i kalendervyn
-* Söka efter poster i tabell- och tidslinjevyer
-* Anslut poster som tillhör samma arbetsyta
-* Anslut poster som tillhör olika arbetsytor
-* Koppla samman Workfront Planning-poster med Workfront-projekt, program, portfolior, företag, grupper
-* Koppla Workfront Planning-poster till Adobe Experience Manager-resurser\
-  Du måste ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront.
-Mer information finns i [Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
-* Visa postinformation på fliken Information
-* Visa postanslutningar på fliken Anslutningar
-* Anpassa layouten för en postsida
-* Dela arbetsytor
-* Visa
-* Dela vyer offentligt med externa resurser, även personer som inte är Workfront-användare
-* Duplicera vyer
-* Skicka begäranden om att skapa poster
-* Exportera postinformation till Word och PDF.
-* Lägga till kommentarer i poster
-* Få meddelanden i appen
-* Ta emot e-postmeddelanden
-* Lägga till miniatyrbilder och försättsblad i poster
-* Visa ändringshistoriken för en post
-* RTF-formatering för styckefält
-* Få åtkomst till planeringsposter från Workfront-objekt
-* Koppla samman planeringsposter från Workfront-objekt
-* Skapa planeringsposter genom att skicka ett begärandeformulär
-* Workfront Planning Public API
-* Adobe Workfront Planning modules for Adobe Workfront Fusion
+* Create workspaces             
+* Create record types             
+* Create record custom fields             
+(************ * Import record types and fields using an Excel or CSV file*****)
+          
+* Display records in a table view            
+* Display records in a timeline view            
+* Display records in a calendar view            
+* Filter, sort, and group records in a table view
+* Filter, group, and color code records in the timeline view
+* Filter records in the calendar view 
+* Search for records in the table and timeline views             
+* Connect records that belong to the same workspace  
+* Connect records that belong to different workspaces   
+* Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups             
+* Connect Workfront Planning records to Adobe Experience Manager assets          
+    You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md). 
+* View record information in the Details tab
+* View record connections in the Connections tab
+* Customize the layout of a record's page             
+* Share workspaces             
+* Share views             
+* Share views publicly with any external resource, even people who are not Workfront users         
+* Duplicate views             
+* Submit requests to create records            
+* Export record details to Word and PDF.
+* Add comments to records             
+* Receive in-app notifications             
+* Receive email notifications             
+* Add thumbnails and cover pages to records             
+* View the history of changes on a record             
+* Rich Text formatting for Paragraph fields             
+* Access Planning records from Workfront objects             
+* Connect and disconnect Planning records from Workfront objects 
+* Create Planning records by submitting a request form            
+* Workfront Planning public API             
+* Adobe Workfront Planning modules for Adobe Workfront Fusion             
 * Workfront Planning AI Assistant
-* Rapportering om Workfront Planning Information
-Du kan rapportera om planeringsinformation med arbetsytans kontrollpanel. Mer information finns i [Översikt över kontrollpaneler för arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* Reporting on Workfront Planning information
+    You can report on Planning information using the Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md). 
+
+-->
 
 <!--OLD: 
 
@@ -325,7 +327,7 @@ Om du vill hitta Adobe Planning kontrollerar du att din organisation har fått t
 
 Så här hittar du Workfront Planning:
 
-1. Logga in på Adobe Workfront.
+1. Logga in på Workfront.
 
 {{step1-click-main-menu}}
 

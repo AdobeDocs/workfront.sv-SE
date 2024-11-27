@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 0%
@@ -668,7 +668,9 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 
 ## Skapa fält genom att importera dem från Workfront
 
-Du kan importera kopior av befintliga Workfront-fält. När du importerar fält från Workfront skapas en kopia av varje fält för en posttyp av Workfront Planning.
+Du kan importera kopior av befintliga Workfront-fält.
+
+När du importerar fält från Workfront skapas en kopia av varje fält för en posttyp av Workfront Planning.
 
 När du har kopierat fälten är fälten oberoende av varandra och de utbyter inte information.
 

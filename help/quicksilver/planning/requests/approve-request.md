@@ -3,9 +3,9 @@ title: Godkänn en begäran
 description: När en användare skickar en begäran till ett begärandeformulär som är kopplat till ett godkännande i Adobe Workfront Planning får godkännarna ett meddelande och ett e-postmeddelande om det väntande godkännandet. De måste godkänna begäran innan Workfront Planning skapar ett objekt.
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Vi rekommenderar att du också ser följande artiklar:
 Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront med en av följande begärandestatusar:
 
 * **Väntande granskning**: Den här statusen visas när ingen av godkännarna har öppnat begäranobjektet.
-* **Under granskning**: Statusen ändras till **Under granskning** när minst en godkännare öppnar begäranobjektet.
+* **Under granskning**: Statusen ändras till **Under granskning** när minst en godkännare öppnar begäranobjektet. Status för begäran förblir **Under granskning** tills alla godkännare har godkänt begäran.
 * **Godkänd**: När en godkännare godkänner begäranobjektet blir deras individuella status
 * **Godkänd**, men den övergripande statusen för begärandeobjektet är **Under granskning** tills alla godkännare har fattat sina beslut.
 * **Slutförd**: Om alla godkännare godkänner begäranobjektet ändras dess status till **Slutförd** eller om begäran inte behövde något godkännande.
@@ -152,7 +152,13 @@ Så här godkänner du en begäran:
 
 1. Gör något av följande:
 
-   * Från din **huvudmeny** ![](assets/dots-menu.png) i skärmens övre högra hörn, eller från **huvudmenyn** ![](assets/lines-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Begäranden** > **Skickade** > **Planering** och sedan på begäran med statusen **I granskning**. <!--did they change this to Pending approval; logged  a bug-->
+   * Om du har tillgång till Workfront Planning klickar du på **Huvudmeny** ![](assets/dots-menu.png) i skärmens övre högra hörn, eller på **Huvudmeny** ![](assets/lines-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och sedan på **Begäranden** > **Skickat** > **Planering**. Klicka sedan på begäran med statusen **}Under granskning**. <!--did they change this to Pending approval; logged  a bug-->
+
+     >[!TIP]
+     >
+     >    Om du inte har tillgång till Workfront Planning kan du bara godkänna en begäran med dina aviseringar.
+
+
    * Gå till området **Notifications** i skärmens övre högra hörn och klicka på meddelandet om en begäran som väntar på ditt godkännande för att öppna begäran.
    * Gå till e-postmeddelandet i ditt e-postmeddelande som meddelar dig om en begäran som väntar på ditt godkännande och klicka sedan för att öppna begäran. <!--add the name of the button here, from the email-->
 
@@ -162,5 +168,5 @@ Så här godkänner du en begäran:
 1. (Valfritt) Klicka på ikonen **Godkännanden** ![](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande: <!--did they fix the button and removed the &??-->
 
-   * **Godkänn**: Godkänn begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret.
-   * **Avvisa**: Om du vill avvisa begäran. Ingen post skapas för den posttyp som är associerad med begärandeformuläret. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **Godkänn**: Detta godkänner begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret.
+   * **Avvisa**: Detta avvisar begäran. Ingen post skapas för den posttyp som är associerad med begärandeformuläret. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

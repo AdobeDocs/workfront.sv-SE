@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,14 @@ När du uppdaterar varaktigheten för uppgifter i en lista kan du använda följ
 
 {style="table-layout:auto"}
 
-**Exempel:** Om du vill ange att varaktigheten för en aktivitet är 3 Förfluten dag skriver du &quot;3 ED&quot; i fältet Varaktighet i en uppgiftslista.  Du kan också välja önskat alternativ för Tidsenhet för varaktighet i den nedrullningsbara menyn när du redigerar en uppgift eller i delen Aktivitetsinformation. Mer information om hur du redigerar uppgifter finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**EXEMPEL**
+
+Om du vill ange att varaktigheten för en uppgift är 3 Förfluten dag skriver du&quot;3 ED&quot; i fältet Varaktighet i en uppgiftslista.  Du kan också välja önskat alternativ för Tidsenhet för varaktighet i den nedrullningsbara menyn när du redigerar en uppgift eller i delen Aktivitetsinformation. Mer information om hur du redigerar uppgifter finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,8 +124,8 @@ När du uppdaterar varaktigheten för uppgifter i en lista kan du använda följ
 Tänk på följande när du anger varaktigheten för en uppgift:
 
 * Förfluten tid är en tidsenhet för en uppgifts varaktighet. Det är tiden mellan det planerade startdatumet och det planerade slutförandedatumet för en aktivitet som omfattar helger, helger och ledig tid. Med andra ord är förfluten tid en del av kalenderdagarna.
-* Med normal tid räknas helger, helger och ledig tid som undantag från uppgiftens varaktighet.
-
+* Dagar representerar de arbetsdagar som är definierade i systemet och kan konfigureras under Konfigurera. I de flesta fall består en dag av 8 timmar.
+* Vanlig tid (dagar eller arbetsdagar) tar hänsyn till helger, helger och ledig tid och utesluter dem från uppgiftens varaktighet.
 * När du anger varaktigheten för en uppgift i veckor, beräknas varaktigheten i dagar och timmar i Workfront baserat på de inställningar för Normal arbetsdag per vecka och Normal timmar per arbetsdag som du har angett av Workfront-administratören under Projektinställningar i Konfigurera.
 * Workfront använder standardlängden på fyra veckor i en månad vid beräkning av varaktighet i månader.
 

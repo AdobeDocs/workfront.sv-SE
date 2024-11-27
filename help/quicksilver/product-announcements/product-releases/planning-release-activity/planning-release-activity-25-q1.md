@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: d27c25e4eedb6b4df67d23b997fdf1222b95da57
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning efter 
 >
 >Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
-När du lägger till fält i en posttyp kan du nu välja att importera befintliga anpassade eller inbyggda Workfront-fält och associera dem med den posttyp som du har valt.
+När du lägger till fält i en posttyp kan du nu välja att importera befintliga anpassade eller inbyggda Workfront-fält och associera dem med den posttyp som du har valt. Om du importerar befintliga fält skapas en kopia av Workfront-fälten i Workfront Planning. De kopierade fälten är oberoende av originalversionerna.
 
 Före den här förbättringen var du tvungen att skapa alla fält manuellt och associera dem med posttyper.
 
@@ -89,13 +89,16 @@ De tillagda sidorna är skrivskyddade.
 
 Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-## Fliken Ny planering i avsnittet Skickat i området Begäranden
+## Nya Workfront- och planeringsflikar i avsnittet Skickat i området Begäranden
 
 >[!NOTE]
 >
 >Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
-Nu finns Workfront Planning-begäranden under Skickat i området Begäranden i Workfront. I avsnittet Skickat visas nu två flikar: förfrågningar som skickats in i Workfront på fliken Workfront och förfrågningar som skickats in med ett Workfront Planning-begärandeformulär på fliken Planning.
+Nu finns Workfront Planning-begäranden under Skickat i området Begäranden i Workfront. I avsnittet Skickat visas nu följande flikar:
+
+* Workfront: Visar begäranden som skickats in i Workfront.
+* Planering: Visar begäranden som har skickats in i ett Workfront Planning-begärandeformulär.
 
 Du måste använda en länk till förfrågningsformuläret för att kunna lägga till förfrågningar till en posttyp i Workfront Planning. En Workfront Planning-begäran från Workfront Request-området kommer att skickas in senare.
 
@@ -127,7 +130,7 @@ Mer information finns i Skapa och hantera ett begärandeformulär i Adobe Workfr
 Du kan inte längre dela ett begärandeformulär offentligt om formuläret innehåller någon av följande fälttyper:
 
 * Formel
-* Anslutningar
+* Workfront- och AEM Assets-anslutningar
 * Sökfält
 * Folk
 
