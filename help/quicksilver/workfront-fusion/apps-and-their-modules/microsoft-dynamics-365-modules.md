@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden s
 >[!NOTE]
 >
 >[!DNL Microsoft Dynamics 365]-anslutningen stöder inte [!DNL Dynamics Finance and Operations].
+>
+>Mer information om Microsoft Dynamics 365, finans- och driftmoduler, finns i [[!DNL Microsoft Dynamics 365 Finance and Operations modules]](/help/quicksilver/workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md).
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 

@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 352eaa63638504d0114803fbca640a8eb2745d57
+source-git-commit: 84246c2720e54e270de217167e88e803a92fdafc
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Marketo] moduler](../../workfront-fusion/apps-and-their-modules/marketo-modules.md)
 * [Matematik](../../workfront-fusion/apps-and-their-modules/math-module.md)
 * [[!DNL Microsoft Dynamics 365] moduler](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+* [[!DNL Microsoft Dynamics 365 Finance and Operations] moduler](../../workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
 * [[!DNL Microsoft Office 365 Calendar]](../../workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
 * [[!DNL Microsoft Office 365 Email]](../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
 * [[!DNL Microsoft Office 365 Excel] moduler](../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)

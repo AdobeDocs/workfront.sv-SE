@@ -9,7 +9,7 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '6299'
 ht-degree: 0%
@@ -824,18 +824,15 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-
-<td> <p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Workfront] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+    <td> <p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Workfront] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Record Type]</td>
-
-<td>Välj den [!DNL Workfront]-objekttyp som du vill att modulen ska läsa.</td> 
+     <td>Välj den [!DNL Workfront]-objekttyp som du vill att modulen ska läsa.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Outputs]</td>
-
-<td> <p>Välj den information som du vill inkludera i utdatapaketet för den här modulen.</p> </td> 
+     <td> <p>Välj den information som du vill inkludera i utdatapaketet för den här modulen.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL References]</td>

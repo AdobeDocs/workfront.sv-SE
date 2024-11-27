@@ -9,7 +9,7 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '3266'
 ht-degree: 0%
@@ -128,15 +128,15 @@ Du kan skapa en anslutning i alla Adobe Journey Optimizer-moduler.
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Ange din [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Ange din [!DNL Adobe] [!UICONTROL Organization ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!DNL Adobe] [!UICONTROL Organization ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Sandbox Name]</td>

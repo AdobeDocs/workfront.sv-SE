@@ -9,7 +9,7 @@ description: Med Adobe Photoshop-modulerna kan du starta ett Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '3706'
 ht-degree: 0%
@@ -115,19 +115,19 @@ Så här skapar du en anslutning för dina [!DNL Adobe Photoshop]-moduler:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Ange din [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Ange din [!DNL Adobe] [!UICONTROL Technical account ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!DNL Adobe] [!UICONTROL Technical account ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Ange din [!DNL Adobe] [!UICONTROL Organization ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!DNL Adobe] [!UICONTROL Organization ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>

@@ -9,9 +9,9 @@ description: Med Adobe Lightroom-modulerna kan du starta ett Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,7 @@ Innan du kan använda [!DNL Adobe Lightroom]-anslutningen måste du se till att 
 
 * Du måste ha ett aktivt [!DNL Adobe Lightroom]-konto.
 
+
 ## Adobe Lightroom API-information
 
 Adobe Lightroom Connector använder följande:
@@ -90,7 +91,46 @@ Adobe Lightroom Connector använder följande:
  </tbody> 
  </table>
 
-<!--## Create a connection to Adobe Lightroom-->
+## Skapa en anslutning till Adobe Lightroom
+
+Så här skapar du en anslutning för dina [!DNL Adobe Lightroom]-moduler:
+
+1. Klicka på **[!UICONTROL Add]** bredvid rutan Anslutning.
+
+1. Fyll i följande fält:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Ange ett namn för anslutningen.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Ange om du ansluter till en produktionsmiljö eller icke-produktionsmiljö.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Ange om du ansluter till ett tjänstkonto eller ett personligt konto.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Ange din [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        </tr>
+      </tbody>
+    </table>
+
+1. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
 
 

@@ -9,7 +9,7 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: a4c9f4cd4f28c28222826187a68ca4122eec1a8f
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -114,11 +114,11 @@ Så här skapar du en anslutning för dina [!DNL Adobe Firefly]-moduler:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Ange din [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console].</td>
         </tr>
       </tbody>
     </table>

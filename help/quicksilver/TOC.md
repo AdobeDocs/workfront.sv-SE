@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '14614'
+source-wordcount: '14642'
 ht-degree: 0%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 0%
          * [21.1 Andra förbättringar](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Versionsaktivitet för Adobe Workfront Fusion {#fusion-release}
          * [Versionsaktivitet för Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Versionsaktivitet för Workfront Fusion: 25 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Versionsaktivitet för Workfront Fusion: 11 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
          * [Versionsaktivitet för Workfront Fusion: 4 november 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Versionsaktivitet för Workfront Fusion: 21 oktober 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
@@ -1844,6 +1845,7 @@ ht-degree: 0%
       * [Resurs- och dokumentgranskning och godkännande: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Översikt över dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Skapa en rapportkontrollpanel för granskning och godkännande](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Konfigurera och hantera tillgångs- och dokumentgodkännanden {#manage-asset-review-and-approval}
          * [Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Skapa en begäran om dokumentgranskning eller godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -2339,6 +2341,7 @@ ht-degree: 0%
       * [Marketo moduler](workfront-fusion/apps-and-their-modules/marketo-modules.md)
       * [Matematik](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Microsoft Dynamics 365-moduler](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+      * [Microsoft Dynamics 365-modulerna Ekonomi och drift](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
       * [Microsoft Office 365-kalender](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Microsoft Office 365-e-post](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
       * [Microsoft Office 365 Excel-moduler](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
@@ -2798,6 +2801,7 @@ ht-degree: 0%
       * [Kodexempel](proofhq-api/general/code-samples.md)
       * [Vanliga frågor om SOAP API](proofhq-api/general/soap-api-faqs.md)
 * [Dolt testdokument](hidden-test.md)
+* [Första utgåvan, kvartal 2025, översikt - test](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
 
 
 <!--
