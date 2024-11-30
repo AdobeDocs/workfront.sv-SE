@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -469,7 +469,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                             <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Endast tillgängligt för organisationer som har en av de nya Adobe Workfront-planerna. Data Connect ingår i Ultimate-planen eller kan köpas som tillägg till Prime- och Select-planerna.</i></p>
+                    <p><i>Endast tillgängligt för organisationer som har en av de nya Adobe Workfront-planerna. Data Connect ingår i Ultimate-planen och kommer att finnas tillgängligt för köp som tillägg till Prime- och Select-planerna under första halvåret 2025.</i></p>
                 </td>
             </tr>
         </tbody>

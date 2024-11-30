@@ -6,14 +6,16 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
 # Dela en rapport i Adobe Workfront
+
+<!-- Audited: 11/2024 -->
 
 Din Adobe Workfront-administratör ger användarna åtkomst till att visa eller redigera rapporter när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till problem finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna dela objekt:
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Du måste ha följande för att kunna dela objekt:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+      <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Ljus eller högre</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Granska eller högre</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller högre till rapporter, instrumentpaneler, kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst eller högre till rapporter, instrumentpaneler, kalendrar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter eller högre för rapporten</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter eller högre för rapporten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när det gäller att dela rapporter
 
@@ -79,7 +94,7 @@ Att dela en eller flera rapporter från en lista är identiskt.
 
    Klicka på namnet på en rapport och klicka sedan på **Rapportåtgärder >***Delning**.
 
-   ![](assets/qs-report-actions-sharing.png)
+   ![](assets/unshimmed-report-actions-sharing.png)
 
 1. I rutan som visas i fältet **Lägg till personer, team, roller, grupper eller företag ...** börjar du skriva namnet på användaren, teamet, jobbrollen, gruppen eller företaget som du vill dela rapporten med och trycker sedan på **Retur** när namnet visas.
 
@@ -91,7 +106,7 @@ Att dela en eller flera rapporter från en lista är identiskt.
     <tbody> 
      <tr> 
       <td role="rowheader">Se det</td> 
-      <td> <p>Gör att mottagaren kan visa rapporten i området <strong>Rapporter</strong> <img src="assets/reports-in-main-menu.png"> och köra den.</p> <p>Du kan klicka på <strong>Avancerade inställningar</strong> för att ange om du vill att användaren eller användarna ska kunna <strong>dela</strong> det med någon i systemet.</p> </td> 
+      <td> <p>Gör att mottagaren kan visa rapporten i området <strong>Rapporter</strong> och köra den.</p> <p>Du kan klicka på <strong>Avancerade inställningar</strong> för att ange om du vill att användaren eller användarna ska kunna <strong>dela</strong> det med någon i systemet.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hantera det</td> 
@@ -101,9 +116,15 @@ Att dela en eller flera rapporter från en lista är identiskt.
    </table>
 
 1. (Valfritt) Upprepa de två föregående stegen för att lägga till andra namn i listan och konfigurera deras alternativ.
-1. (Valfritt) Klicka på ikonen **Kugghjul** ![](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och välj sedan ett av följande alternativ:
+1. (Valfritt) Klicka på listrutan **Endast inbjudna personer har åtkomst** i delningsrutan och välj sedan mellan följande alternativ:
 
-   * **Gör detta offentligt för externa användare:** Välj det här alternativet om du vill generera en URL som kan delas med andra. Alla som har URL-adressen kan komma åt rapporten utan att ha någon Adobe Workfront-licens.
+   * **Endast inbjudna personer kan komma åt** Välj det här alternativet så att endast användare som har beviljats åtkomst till rapporten kan visa den.
+
+   * **Alla i systemet kan visa** Välj det här alternativet så att alla i Workfront som har åtkomst till rapporter kan visa rapporten.
+
+1. (Valfritt) Klicka på ikonen **Kugghjul** ![](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och välj sedan eventuellt följande alternativ:
+
+   * **Gör detta offentligt för externa användare** Välj det här alternativet om du vill generera en URL som kan delas med andra. Alla som har URL-adressen kan komma åt rapporten utan att ha någon Adobe Workfront-licens.
 
      >[!CAUTION]
      >
@@ -112,7 +133,5 @@ Att dela en eller flera rapporter från en lista är identiskt.
      >[!NOTE]
      >
      >Om rapporten har en fråga och du delar den offentligt, kommer de användare som kör rapporten via länken för offentlig delning inte att kunna köra rapporten via uppmaningen. De kommer att se rapporten utan att tillfrågas om de inte loggar in på Workfront och öppnar rapporten utan att använda länken för offentlig delning. Mer information om begränsningar för att dela rapporter med uppmaningar finns i avsnittet [Begränsningar för delning av promptrapporter](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) i artikeln [Lägga till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
-
-   * **Gör den här synliga systemomfattande:** Välj det här alternativet så att alla i Workfront som har tillgång till rapporter kan se rapporten.
 
 1. Klicka på **Spara**.

@@ -6,14 +6,16 @@ description: Som standard kan användare bara se de objekt i en rapport som de h
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
 
 # Kör och leverera en rapport med åtkomsträttigheter för en annan användare
+
+<!-- Audited: 11/2024 -->
 
 Som standard kan användare bara se de objekt i en rapport som de har behörighet att visa.
 
@@ -28,6 +30,8 @@ Om du kör en rapport med åtkomsträttigheter för en annan användare som har 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -40,20 +44,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter till en rapport (för att visa den levererade rapporten)</p> <p>Hantera behörigheter till en rapport (för att köra rapporten)</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter till en rapport (för att visa den levererade rapporten)</p><p>Hantera behörigheter till en rapport (för att köra rapporten)</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa en rapport med åtkomsträttigheter för en annan användare
 
@@ -63,7 +78,7 @@ De användare som får åtkomst till rapporten måste ha minst behörigheten Vis
 
 Så här kör du en rapport med åtkomsträttigheter för en annan användare:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Reports]**.
 
 1. Markera den rapport som du vill visa med en annan användares åtkomsträttigheter.
 1. Klicka på **Rapportåtgärder** och sedan på **Redigera**.
@@ -71,7 +86,7 @@ Så här kör du en rapport med åtkomsträttigheter för en annan användare:
 1. Klicka på **Rapportinställningar**.
 
 1. I fältet **Kör den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som och markerar den när du ser den i listan.\
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +116,7 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
 1. Klicka på **Skicka rapport**.
 
 1. I fältet **Leverera den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som när den levereras i ett e-postmeddelande och markerar den när du ser den i listan. Standardvärdet är namnet på den användare som skapar rapporten.\
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,8 +126,8 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel (.xlsx)
+   * Excel
+   * Excel (.xlsx)
    * TSV
 
 1. Klicka på **Skicka nu** för att skicka det direkt.\
@@ -138,20 +153,22 @@ Du kan till exempel lägga till något av följande i en rapport med en Source-k
 * Kolumnerna Projektnamn eller Aktivitetsnamn i en problemrapport.
 * En kolumn som använder textlägesuttryck som refererar till alla tre objekten. Följande är ett exempel för en timrapport:
 
-  `displayname=Custom Source`
-
-  `linkedname=opTask`
-
-  `namekey=view.relatedcolumn`
-
-  `namekeyargkey.0=opTask`
-
-  `namekeyargkey.1=name`
-
-  `textmode=true`
-
-  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
-
-  `valueformat=HTML`
+  ```
+  displayname=Custom Source
+  
+  linkedname=opTask
+  
+  namekey=view.relatedcolumn
+  
+  namekeyargkey.0=opTask
+  
+  namekeyargkey.1=name
+  
+  textmode=true
+  
+  valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
+  
+  valueformat=HTML
+  ```
 
   Mer information om visningslägen för text finns i [Redigera en vy i textläge](../text-mode/edit-text-mode-in-view.md).
