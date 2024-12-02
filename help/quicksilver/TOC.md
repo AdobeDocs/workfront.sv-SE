@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
+source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
 workflow-type: tm+mt
-source-wordcount: '14647'
+source-wordcount: '14666'
 ht-degree: 0%
 
 ---
@@ -2240,6 +2240,7 @@ ht-degree: 0%
       * [Lägga till en användare i en organisation i Adobe Workfront Fusion](workfront-fusion/organizations/add-user-to-an-organization.md)
       * [Hantera användare i Adobe Workfront Fusion](workfront-fusion/organizations/manage-fusion-users.md)
       * [Organisationsroller i Adobe Workfront Fusion](workfront-fusion/organizations/organization-roles.md)
+      * [Visa aktivitetsloggar för en organisation i Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/organizations/view-activity-logs-for-an-org.md)
    * Scenarier i Adobe Workfront Fusion {#scenarios-in-fusion}
       * [Scenarier i Adobe Workfront Fusion](workfront-fusion/scenarios/scenarios.md)
       * [Adobe Workfront Fusion - översikt](workfront-fusion/scenarios/scenario-overview.md)
@@ -2258,6 +2259,7 @@ ht-degree: 0%
       * [Lägga till ett filter i ett scenario i Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [Felsöka scenarier med Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [Generera ett scenariosegment med AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+      * [Kör Scenario Scoring Expert i Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
       * Adobe Workfront Fusion-scenariomallar {#fusion-scenario-templates}
          * [Scenariomallar](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [Översikt över mallar för [!DNL Fusion]](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
