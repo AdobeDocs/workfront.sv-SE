@@ -6,7 +6,7 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 0%
@@ -166,6 +166,7 @@ Mer information om objekts hierarki och inbördes beroende i Workfront finns i a
 Om du ger en grupp med användare behörigheten Hantera för ett objekt, och du ger en enskild användare i gruppen behörigheten Visa för samma objekt, har användaren den högsta behörighetsnivån (Hantera) som ges via gruppmedlemskapet för objektet. 
 
 Om du vill ge lägre behörigheter till en användare som redan är en del av en organisationsenhet (Grupp, Team, Jobbroll eller Företag) med en högre behörighetsnivå, måste du ta bort behörigheterna från organisationsenheten och lägga till användare individuellt med en lägre behörighetsnivå.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

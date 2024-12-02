@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -40,6 +40,7 @@ Kunderna måste se till att alla slutpunkter som förbrukar utgående meddelande
 * En prenumerations-URL är **fryst** om den har fler än 2 000 efterföljande fel och den senaste åtgärden inträffade för över 72 timmar sedan ELLER om den har 50 000 efterföljande fel under någon tidsram.
 * En **inaktiverad**-prenumerations-URL fortsätter att försöka leverera var 10:e minut och återaktiveras med en lyckad leverans.
 * En **fryst**-prenumerations-URL försöker aldrig levereras om den inte aktiveras manuellt genom att en API-begäran görs.
+
 
 
 
