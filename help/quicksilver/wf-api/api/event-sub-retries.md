@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -24,45 +24,54 @@ Vissa integreringar kan acceptera leveransfel och sedan släppa meddelandet och 
 
 Eftersom kunderna utnyttjar Workfront-plattformen som en viktig del i sitt dagliga kunskapsarbete, erbjuder Workfront ramverk för händelseteckning en mekanism som säkerställer att alla meddelanden skickas så långt det går.
 
-Händelseutlösta utgående meddelanden som inte kan levereras till kundens slutpunkter skickas igen tills leveransen har slutförts i upp till 48 timmar. Under denna tid sker återförsök med en stegvis reducerad frekvens tills leveransen är framgångsrik eller tills 48 timmar har gått.
+Händelseutlösta utgående meddelanden som inte kan levereras till kundens slutpunkter skickas igen tills leveransen har slutförts i upp till 48 timmar. Under denna tid sker försök stegvis med ökad frekvens tills leveransen är klar eller tills 11 försök har gjorts.
+
+Formeln för dessa försök är:
+
+`((2^attempt) - 1) * 84800ms`
+
+Det första återförsöket görs efter 1,5 minuter, det andra efter nästan 5 minuter och det elfte efter cirka 48 timmar.
 
 Kunderna måste se till att alla slutpunkter som förbrukar utgående meddelanden från Workfront Event Subscriptions är inställda på att returnera ett 200-nivåsvarsmeddelande till Workfront när leveransen är klar.
 
-## Hantering av misslyckade händelser utlösta utgående meddelanden
+## Inaktiverade och frysta prenumerationsregler
 
-I följande flödesschema visas strategin för att försöka skicka meddelanden igen med Workfront Event Subscription (Händelseprenumerationer):
+* En prenumerations-URL är **inaktiverad** om den har en felfrekvens på över 70 % med över 100 försök ELLER om den har 2 000 efterföljande fel
+* En prenumerations-URL är **fryst** om den har fler än 2 000 efterföljande fel och den senaste åtgärden inträffade för över 72 timmar sedan ELLER om den har 50 000 efterföljande fel under någon tidsram.
+* En **inaktiverad**-prenumerations-URL fortsätter att försöka leverera var 10:e minut och återaktiveras med en lyckad leverans.
+* En **fryst**-prenumerations-URL försöker aldrig levereras om den inte aktiveras manuellt genom att en API-begäran görs.
+
+
+
+<!--
+
+## Handling Failed Event-Triggered Outbound Messages
+
+The following flowchart shows the strategy for reattempting message deliveries with Workfront Event Subscriptions:
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
-Följande förklaringar motsvarar de steg som beskrivs i flödesdiagrammet:
+The following explanations correspond with the steps depicted in the flowchart:
 
-1. Meddelandet kan inte levereras.
-1. Information om misslyckad meddelandeleverans loggas.
+1. Message fails to be delivered. 
+1. Message delivery failure information is logged.
 
-   Alla misslyckade försök att leverera ett meddelande loggas så att felsökning kan utföras för att fastställa grundorsaken till ett visst fel eller en serie fel.
+   All failed attempts to deliver a message are logged so that debugging may be performed to determine the root cause of a given failure or series of failures. 
 
-1. URL-fel har ökat.
-1. Antalet meddelandeförsök ökar.
-1. Beräkna fördröjningen tills meddelandets leverans försöker igen.
-1. Meddelandet placeras i kön för nya meddelandeförsök.
+1. URL failures incremented. 
+1. Message attempt count is incremented. 
+1. Calculate the delay until this message's delivery will be attempted again. 
+1. Message is placed onto the message retry queue.
 
-   Som framgår av det föregående flödesdiagrammet är den meddelandekö som används för att bearbeta leveransförsök för meddelanden en separat kö än den som bearbetar det ursprungliga leveransförsöket för varje meddelande. Detta gör att det nästan hela realtidsflödet av meddelanden kan fortsätta utan hinder av att delmängder av meddelanden misslyckas.
+   As shown in the preceding flowchart, the message queue used for processing message delivery retries is a separate queue from the one that processes the initial delivery attempt for each message. This allows the near real-time flow of messages to continue unimpeded by the failure of any subset of messages. 
 
-1. URL-kretsens status utvärderas. Något av följande inträffar:
+1. URL circuit status is evaluated. One of the following occurs:
 
-   * Om kretsen är öppen och inte tillåter leveranser just nu, startar du om processen i steg 5.
-   * Om kretsen är halvöppen betyder det att kretsen är öppen, men att det finns tillräckligt med tid för att kunna testa URL:en för att se om problemet med att leverera till den har lösts.
-   * Om gränsen för meddelandeleverans har nåtts (48 timmar efter återförsök) tas meddelandet bort
+   * If the circuit is open and not allowing deliveries at this time, restart the process at step 5.
+   * If the circuit is half-open, this implies that our circuit is currently open, but enough time has passed to allow testing of the URL to see if the problem with delivering to it has been resolved.
+   * If the message delivery attempt limits have been reached (48 hours of retrying) then the message is dropped
 
-1. Om webbadresskretsen är stängd och leveranserna tillåts, försök leverera meddelandet. Om leveransen misslyckas startas meddelandet om i steg 1
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1 
 
-1. Om webbadresskretsen är stängd och leveranserna tillåts, försök leverera meddelandet. Om leveransen misslyckas startas meddelandet om i steg 1.
-
-   <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront disables Event Subscriptions when both of the following criteria are met:
-   <ul>
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Event Subscription has failed 1000 delivery attempts consecutively</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">48 hours have passed since the last successful delivery</li>
-   </ul></li>
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1.
    -->
