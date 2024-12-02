@@ -5,13 +5,13 @@ title: Granska interaktivt innehåll i tillägget för webbkorrektur
 description: Adobe Workfront granskningsverktyg är ett webbläsartillägg som gör att du kan kontrollera interaktivt innehåll i en ZIP-fil eller med en URL.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # Granska interaktivt material med Adobe Workfront granskningsverktyg
 
@@ -23,7 +23,11 @@ Adobe Workfront granskningsverktyg är ett webbaserat webbläsartillägg som gö
 * Chrome
 * Edge
 
-För webbplatser som förhindrar att de öppnar sin webbplats i iFrames, till exempel Figma, rekommenderar vi att du använder Desktop Proof Viewer.
+Vi rekommenderar att du använder Desktop Proofing Viewer om innehållet du behöver granska finns på en webbplats som
+
+* Kräver SSO-autentisering
+* Förhindrar att deras webbplats öppnas i iFrames, t.ex. Figma
+
 
 
 ## Använd Adobe Workfront granskningsverktyg som standardvisningsprogram för URL- och ZIP-korrektur
@@ -69,7 +73,3 @@ När du har installerat tillägget öppnas interaktiva korrektur automatiskt i A
 >[!IMPORTANT]
 >
 >Du måste ta bort det äldre tillägget för Web Viewer för att kunna använda verktyget Adobe Workfront Review.
-
-
-
-

@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1154'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>Område</td>
@@ -89,7 +90,6 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
             <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
         </td>
         <td>29 oktober 2024</td>
@@ -173,8 +173,6 @@ Den här sidan innehåller information om de funktioner som ingår i den första
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
             <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
         </td>
         <td>29 oktober 2024</td>
