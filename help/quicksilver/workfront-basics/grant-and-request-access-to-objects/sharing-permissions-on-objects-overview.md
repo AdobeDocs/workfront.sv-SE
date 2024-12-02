@@ -6,9 +6,9 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ Följande tabell visar behörighetsnivån som du kan välja när du delar ett ob
     <ul> 
      <li><p>Visa objektet</p></li> 
      <li><p>Lägga till dokument i objektet</p></li> 
+     <li><p>Lägg till problem i objektet (om det är en uppgift eller ett projekt)</p></li> 
      <li><p>Visa ekonomisk information om objektet</p></li> 
      <li> <p>Dela objektet<br></p> <p>När du delar objektet kan du ge andra användare samma behörighetsnivå som du bara har på objektet, inte en högre nivå.</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ Följande tabell visar behörighetsnivån som du kan välja när du delar ett ob
     <ul> 
      <li>Alla åtgärder som ingår i behörigheten Visa.</li> 
      <li>Lägg till utgifter i den</li> 
-     <li>Lägg till problem i den (om det är en uppgift eller ett projekt)</li> 
      <li>Lägg till uppgifter i den (om det är ett projekt)</li> 
      <li>Redigera anpassad Forms</li> 
      <li>Loggtimmar för objektet</li> 
