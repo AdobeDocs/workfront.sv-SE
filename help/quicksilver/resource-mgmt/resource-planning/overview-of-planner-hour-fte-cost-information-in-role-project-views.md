@@ -7,9 +7,9 @@ description: Översikt över timmar, heltidsanställda och kostnadsinformation i
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3086'
 ht-degree: 0%
 
 ---
@@ -217,12 +217,6 @@ Tänk på följande när du visar Planerade timmar:
 
 Tänk på följande när du arbetar med budgeterade timmar:
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * Du kan bara budgetera resurser när du har behörigheten Redigera för Resurshantering och Ekonomi och Hantera ekonomi för projekten.
 
   Mer information om åtkomsten som krävs för budgetresurser finns i artikeln [Åtkomst krävs för att budgetera resurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
@@ -232,15 +226,23 @@ Tänk på följande när du arbetar med budgeterade timmar:
   Mer information om projekt- och rollalternativ finns i avsnittet [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna för resursplaneraren](#Budget) i den här artikeln.
 
 * Den minsta tidsperioden du kan budgetera timmar, heltidsekvivalenter eller Kostnad för är en vecka. Du kan inte budgetera timmar, heltidsekvivalenter eller kostnad för en dag.
-* Budgeterade timmar fördelas jämnt till varje dag under varaktigheten för uppgifter, för varje resurs som tilldelats dem. Aktivitetens varaktighet baseras på planerade start- och slutförandedatum för aktiviteten och omfattar alla kalenderdagar inom den tidsperioden.\
-  Workfront tar hänsyn till schemat för användaren eller projektet när budgeterade timmar fördelas till användare eller projekt. I det här fallet fördelas budgeterade timmar jämnt till varje dag under varaktigheten för uppgifter exklusive helger, men inklusive undantag för tid och schema.\
+* Budgeterade timmar fördelas jämnt till varje dag under varaktigheten för uppgifter, för varje resurs som tilldelats dem. Aktivitetens varaktighet baseras på planerade start- och slutförandedatum för aktiviteten och omfattar alla kalenderdagar inom den tidsperioden.
+
+  Workfront tar hänsyn till schemat för användaren eller projektet när budgeterade timmar fördelas till användare eller projekt. I det här fallet fördelas budgeterade timmar jämnt till varje dag under varaktigheten för uppgifter exklusive helger, men inklusive undantag för tid och schema.
+
   Om du till exempel visar resursplaneraren efter vecka och har uppgifter som sträcker sig över flera veckor, beror antalet budgeterade timmar per vecka på hur många dagar inom den veckan som ingår i aktivitetens varaktighet. Veckoslutsdagar exkluderas från denna distribution. Detta fungerar på liknande sätt när resursplaneraren visas efter månad eller kvartal och när uppgifterna sträcker sig över flera månader eller kvartal.
 
-* Du kan rapportera om budgeterade timmar genom att välja Budgeterad timme som rapportobjekt för en ny rapport.\
-  Mer information om vilka objekt du kan rapportera om i Workfront finns i avsnittet&quot;Rapport om objekt&quot; i artikeln [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+* Du kan rapportera om budgeterade timmar genom att välja Budgeterad timme som rapportobjekt för en ny rapport.
+
+  Mer information om vilka objekt du kan rapportera om i Workfront finns i avsnittet&quot;Rapport om objekt&quot; i artikeln [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
   Mer information om hur du skapar en budgeterad timrapport finns i artikeln [Rapport: Budgeterad timme](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * Timmar som tidigare budgeterats för användare som senare inaktiverades visas inte.
+
+  Observera att Budgeterad arbetskostnad för ett projekt fortfarande innehåller budgeterade timmar för användare som inaktiverades i resursplaneraren.
+
+  Exempel: Om en roll tilldelas två användare och budgeterade timmar läggs till (20 timmar per användare, totalt 40 timmar), och summan ställs in manuellt för rollen, kommer deras timmar inte längre att beaktas i beräkningen om en av användarna inaktiveras i resursplaneraren (vilket innebär att det totala antalet är 20 timmar). Projektbudgeteringen behåller emellertid den manuellt angivna summan för rollen, så att den inaktiverade användarens timmar fortfarande inkluderas i beräkningen (återstår vid 40 timmar).
 
 ### Kolumnen VAR (varians) {#the-var-variance-column}
 
