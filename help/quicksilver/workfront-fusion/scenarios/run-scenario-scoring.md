@@ -2,16 +2,14 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Kör scenariobedömningsexperten
-description: Hantera låsta scenarier i  [!DNL Adobe Workfront Fusion]
+title: Kör Scenario Scoring Expert i Adobe Workfront Fusion
+description: Scenariobedömningsexperten kan hjälpa dig att se till att ditt scenario är konfigurerat på ett sätt som följer bästa praxis. Den kontrollerar ditt scenario och ger rekommendationer om dess struktur och organisation.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
+source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---

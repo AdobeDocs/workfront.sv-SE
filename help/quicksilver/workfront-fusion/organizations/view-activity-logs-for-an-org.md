@@ -7,12 +7,10 @@ title: Visa aktivitetsloggar för en organisation i Adobe Workfront Fusion
 description: Du kan visa en logg med aktiviteter, som att skapa eller aktivera scenarier för din organisation.
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: ff455b5da1db6a4edb9f6de5d9ff50a7658f91bb
+source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -25,42 +23,47 @@ Du kan visa en logg med aktiviteter, som att skapa ett scenario eller bjuda in e
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
-<table style="table-layout:auto">  
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td> <p>Nytt: Ultimate</p> <p>eller</p> <p>Aktuell: Inte tillgänglig</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: Inte tillgänglig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
-  <td>
-   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
+   <td>
+   <p>Aktuell: Inga [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
-   </td>  
+   <p>Äldre: Alla </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
-   <p>eller</p>
-   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Nytt: [!DNL Workfront Fusion] ingår i Ultimate Workfront-planen.</p> <p>eller</p>
+   <p>Aktuell: Inte tillgänglig</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
+
+
 
 ## Visa aktivitetsloggar
 
