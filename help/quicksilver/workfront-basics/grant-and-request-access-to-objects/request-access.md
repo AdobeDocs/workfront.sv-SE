@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Begär åtkomst till objekt
 description: Din synlighet för objekt i Adobe Workfront beror på din åtkomst till den typen av objekt samt dina behörigheter för ett enskilt objekt.
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
 
 # Begär åtkomst till objekt
+
+{{preview-fast-release-general}}
 
 Din synlighet för objekt i Adobe Workfront beror på din åtkomst till den typen av objekt samt dina behörigheter för ett enskilt objekt.
 
@@ -92,14 +94,18 @@ Så här begär du inledande åtkomst till ett objekt:
 1. Klicka på **Begär åtkomst**.\
    Dialogrutan **Begär åtkomst** visas.
 
-1. (Villkorligt) Om fler än en användare har behörighet att ge dig ytterligare åtkomst visas en nedrullningspil bredvid användarens namn.
-1. Välj den användare i listrutan som du vill ska få din åtkomstbegäran.\
+1. (Villkorligt) Om fler än en användare har behörighet att ge dig ytterligare åtkomst visas en nedrullningspil bredvid användarens namn. Välj den användare i listrutan som ska få din åtkomstbegäran.
+
    Endast tio användare visas i listrutan. Listan sorteras i bokstavsordning.\
    Mer information om ordningen för användarna i den här nedrullningsbara menyn finns i [Hierarki i listrutorna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Välj den typ av åtkomst du begär i listrutan.
 1. (Valfritt) I fältet **P.S.** anger du en anteckning till användaren om varför du behöver ytterligare åtkomst.
 
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Dialogrutan Begär åtkomst](assets/request-access-to-project.png)
+
+   Exempelbild i produktionsmiljön:
    ![](assets/request-access-dialog-350x314.png)
 
 Om du inte har åtkomstnivåbehörighet för ett objekt och du försöker få åtkomst till det från en länk, visas en skärm som talar om för dig att du ska kontakta Workfront-administratören.
@@ -115,7 +121,7 @@ Så här begär du ytterligare åtkomst till ett objekt som du redan har begrän
 
 1. Klicka på menyn **Mer** till höger om projektnamnet och klicka sedan på **Begär mer åtkomst**.
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![Begär mer åtkomst](assets/more-menu-request-more-access.png)
 
 1. (Villkorligt) Om fler än en användare har behörighet att ge dig ytterligare åtkomst visas en nedrullningspil bredvid användarens namn.
 1. Välj den användare i listrutan som du vill ska få din åtkomstbegäran.\
@@ -124,7 +130,12 @@ Så här begär du ytterligare åtkomst till ett objekt som du redan har begrän
 
 1. Välj den åtkomstnivå du begär i listrutan.
 1. (Valfritt) I fältet **P.S.** anger du en anteckning om varför du behöver ytterligare åtkomst.
-1. Klicka på **Begär åtkomst**.\
+1. Klicka på **Begär åtkomst**.
+
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Dialogrutan Begär åtkomst](assets/request-access-to-project.png)
+
+   Exempelbild i produktionsmiljön:
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarki för de nedrullningsbara menyerna Begär åtkomst och Begär mer åtkomst {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
