@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1388'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 
 ### Administratörsförbättringar
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 </tbody>
 </table>
 
+### Förbättrad dokumenthantering
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Funktion</span></p>
+        </td>
+        <td>Förhandsgranska</td>
+        <td>Snabb release</td>
+        <td>kvartalsvis</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Inställning för att använda projekt eller användarschema för uppgifter med enkel tilldelning</a></p>
+            <p>Som system- eller gruppadministratör har du nu en ny inställning som anger om Workfront ska använda projektets eller användarens schema för att beräkna tidslinjen för projektet när du tilldelar en användare till en aktivitet och både projektet och användaren är associerade med ett schema.</p>
+        </td>
+        <td><p>16 nov 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td>Dec 2024</td>
+        <td>25,1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Affärsreglerna stöder nu hyperlänkar</a></p>
+            <p>Nu kan du inkludera hyperlänkar i det anpassade felmeddelandet för en affärsregel, som vägleder användaren om hur de kan ändra sin åtgärd inom regelbegränsningen. Den statiska URL:en kan länka till dokumentation eller andra sidor som skulle vara till hjälp för användaren.</p>
+        </td>
+        <td>14 nov </td>
+        <td><p>14 nov</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+        <td><p>14 nov</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
+            <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
+        </td>
+        <td>29 oktober</td>
+          <td><p>December 2024</p><p> [!BADGE In production for Fast Release ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE In production]{type=Positive}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [Adobe Workfront Planning First Quarter 2025, versionsaktivitet](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+
+Det finns inga uppdateringar för följande i den här versionen:
+
 * Scenarioplan
 * Korrektur
 * Mål
