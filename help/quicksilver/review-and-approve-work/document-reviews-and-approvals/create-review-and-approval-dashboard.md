@@ -5,12 +5,10 @@ title: Skapa en kontrollpanel för granskning och godkännande
 description: Du kan granska godkännandevärden på arbetsytans kontrollpaneler.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
+source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
@@ -48,10 +46,9 @@ Du kan visa högnivåinformation om dokumentgodkännanden med nyckeltal och diag
 
 ### KPI:er
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>Data för godkännande av nya dokument uppdateras för närvarande under kvällarna i USA:s bergstidszon. Realtidsuppdateringar planeras och kommer snart.
 
 ![KPI-exempel](assets/kpi-dashboard.png)
 
@@ -132,6 +129,10 @@ Du kan visa högnivåinformation om dokumentgodkännanden med nyckeltal och diag
 
 ### Diagram
 
+>[!IMPORTANT]
+>
+>Data för godkännande av nya dokument uppdateras för närvarande under kvällarna i USA:s bergstidszon. Realtidsuppdateringar planeras och kommer snart.
+
 ![Diagramexempel](assets/chart-dashboard.png)
 
 #### Godkännanden per beslutsstapeldiagram
@@ -178,6 +179,10 @@ Du kan visa högnivåinformation om dokumentgodkännanden med nyckeltal och diag
 1. Klicka på **Klar** i skärmens övre högra hörn.
 
 ## Lägg in detaljerad gransknings- och godkännandeinformation i tabeller
+
+>[!IMPORTANT]
+>
+>Data för godkännande av nya dokument uppdateras för närvarande under kvällarna i USA:s bergstidszon. Realtidsuppdateringar planeras och kommer snart.
 
 ![tabellexempel](assets/table-dashboard.png)
 
