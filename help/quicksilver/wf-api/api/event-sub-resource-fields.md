@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # Resursfält för händelseprenumeration
 
 Resursfält för händelseprenumeration representerar utlösare för händelser som resulterar i att en händelseprenumeration skickar ett utgående meddelande till en konfigurerad slutpunkt. När ett resursfält redigeras utlöses en UPDATE-händelse.
+
+Observera att data kan filtreras med kapslad filtrering. Mer information finns i [Använda kapslade filter](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) i artikeln Event Subscription API.
 
 I följande tabell visas de fält som är tillgängliga för händelseprenumerationsresurser:
 
