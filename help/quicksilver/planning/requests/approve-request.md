@@ -3,9 +3,9 @@ title: Godkänn en begäran
 description: När en användare skickar en begäran till ett begärandeformulär som är kopplat till ett godkännande i Adobe Workfront Planning får godkännarna ett meddelande och ett e-postmeddelande om det väntande godkännandet. De måste godkänna begäran innan Workfront Planning skapar ett objekt.
 hide: true
 hidefromTOC: true
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Skickade begäranden visas på fliken Planering i avsnittet Skickat i området B
 * **Godkänd**: När en godkännare godkänner begäranobjektet blir deras individuella status
 * **Godkänd**, men den övergripande statusen för begärandeobjektet är **Under granskning** tills alla godkännare har fattat sina beslut.
 * **Slutförd**: Om alla godkännare godkänner begäranobjektet ändras dess status till **Slutförd** eller om begäran inte behövde något godkännande.
-* **Avvisad**: Om någon godkännare avvisar begärandeobjektet blir statusen **Avvisad**.
+* **Avvisad**: Om någon godkännare avvisar begärandeobjektet blir statusen **Avvisad**. Ingen post skapas och en ny begäran måste skickas för att posten ska kunna skapas.
 
 ## Åtkomstkrav
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 0%
@@ -298,6 +298,16 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
    **Sorteringsalternativ A-Z** om du vill att valen automatiskt ska visas i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Valfritt) Om du vill ta bort ett alternativ klickar du på ikonen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
+
+   <!--
+    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+        <span class="preview">Or</span>
+
+        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+        </span>
+    1. <span class="preview:>Click outside the color box to close it. </span>     
+    -->
 1. Klicka på **Skapa**.
 
    Det nya flervalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
@@ -320,6 +330,16 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 1. (Valfritt) Dra och släpp varje alternativ manuellt i önskad ordning eller markera alternativet **Sorteringsalternativ A-Z** om du vill att valen automatiskt ska visas i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Valfritt) Om du vill ta bort ett alternativ klickar du på ikonen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
+
+   <!--
+        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+            <span class="preview">Or</span>
+
+            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+            </span>
+        1. <span class="preview:>Click outside the color box to close it. </span>     
+        -->
 1. Klicka på **Skapa**.
 
    Det nya envalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.

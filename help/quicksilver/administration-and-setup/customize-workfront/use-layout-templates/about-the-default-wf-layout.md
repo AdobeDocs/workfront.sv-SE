@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,459 @@ Information om hur en Workfront-administratör kan ändra en användares standar
 >
 >Användarna kan ändra sin egen layout genom att redigera sina användarprofilsinställningar. Mer information finns i avsnittet [Inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) i [Konfigurera mina inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-## Standardlayouter för varje åtkomstnivå
+## Standardmenyalternativ för varje licenstyp
 
-Varje användares standardlayout beror på åtkomstnivån. Vissa användare kanske inte ser vissa områden på huvudmenyn eller vissa alternativ på den vänstra panelen, beroende på vilken åtkomstnivå de har tilldelats.
+Varje användares standardlayout beror på licenstypen. Vissa användare kanske inte ser vissa områden på huvudmenyn eller vissa alternativ på den vänstra panelen, beroende på vilken licenstyp de har tilldelats.
 
-I följande tabell visas standardlandningsområdet och vilka vänsterpanelsobjekt som visas för varje åtkomstnivå:
+Det finns två typer av licenser som din organisation kan tilldela:
+
+* Nya licenser
+* Aktuella licenser
+
+<!--rename the above if we change Current to Legacy-->
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+### Standardhuvudmeny för aktuella licenstyper
+
+I följande tabell visas standardalternativen för Huvudmeny och vad som visas i den vänstra panelen för varje aktuell licenstyp:
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:bold">Område</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Vänster panelobjekt</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Systemadministratör</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Planering</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Arbetare</span></th>
+    <th class="tg-1wig">Granskare</th>
+    <th class="tg-1wig">Begärande</th>
+    <th class="tg-1wig">Extern användare</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Startsida</td>
+    <td class="tg-0lax">Hem<br>Prioriteter</td>
+    <td class="tg-0lax">✔ (standardstartsida)</td>
+    <td class="tg-0lax">✔ (standardstartsida)</td>
+    <td class="tg-0lax">✔ (standardstartsida)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Projekt</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ </td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Portfolio</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Program</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Rapporter</td>
+    <td class="tg-0lax">Mina rapporter<br>Delade med mig<br>Alla rapporter</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (Delas med mig och Alla rapporter i den vänstra panelen)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (Delas med mig och Alla rapporter i den vänstra panelen)</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Kontrollpaneler</td>
+    <td class="tg-0lax">Mina instrumentpaneler<br>Delade instrumentpaneler<br>Alla instrumentpaneler<br>Kontrollpaneler på arbetsytan*</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Kalendrar</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Resurser</td>
+    <td class="tg-0lax">Planering<br>Utjämning av arbetsbelastning<br>Användning<br>Resurspooler</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (Planering- och resurspooler i den vänstra panelen)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Team</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Användare</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Begäranden</td>
+    <td class="tg-0lax"><br>Utkast har skickats</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Tidrapporter</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Dokument</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mallar</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Analyser</td>
+    <td class="tg-0lax">Arbeta<br>Personer</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Scenarier</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Varumärkena</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Utkast</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (Installationsfunktioner)</td>
+    <td class="tg-0lax">✔ (endast funktioner för begäran)</td>
+    <td class="tg-0lax">✔ (endast funktioner för begäran)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Prioriteringar</td>
+    <td class="tg-0lax">Hem<br>Prioriteter</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Inställningar</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (begränsad funktionalitet)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mina uppdateringar</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (standardstartsida)</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+
+</tbody></table>
+
+*Du måste vara registrerad i betaversionen av Canvas Dashboards för att kunna se det här området. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+### Standardhuvudmeny för nya licenstyper
+
+I följande tabell visas standardalternativen för Huvudmeny och vad som visas i den vänstra panelen för varje ny licenstyp:
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-fymr">Område</th>
+    <th class="tg-fymr">Vänster panelobjekt</th>
+    <th class="tg-fymr">Systemadministratör</th>
+    <th class="tg-fymr">Standard</th>
+    <th class="tg-fymr">Ljus</th>
+    <th class="tg-fymr">Medarbetare</th>
+    <th class="tg-fymr">Extern användare</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Startsida</td>
+    <td class="tg-0pky">Hem<br>Prioriteter</td>
+    <td class="tg-0pky">✔ (standardstartsida)</td>
+    <td class="tg-0pky">✔ (standardstartsida)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (standardstartsida)</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Projekt</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ </td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Portfolio</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Program</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Rapporter</td>
+    <td class="tg-0pky">Mina rapporter<br>Delade med mig<br>Alla rapporter</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (Delas med mig och alla rapporter i den vänstra panelen)</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Kontrollpaneler</td>
+    <td class="tg-0pky">Mina instrumentpaneler<br>Delade instrumentpaneler<br>Alla instrumentpaneler<br>Kontrollpaneler på arbetsytan*</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Kalendrar</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Resurser</td>
+    <td class="tg-0pky">Planering<br>Utjämning av arbetsbelastning<br>Användning<br>Resurspooler</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Team</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Användare</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Begäranden</td>
+    <td class="tg-0pky"><br>Utkast har skickats</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Tidrapporter</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Dokument</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Mallar</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Analyser</td>
+    <td class="tg-0pky">Arbeta<br>Personer</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Scenarier</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Varumärkena</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Utkast</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (Installationsfunktioner)</td>
+    <td class="tg-0pky">✔ (endast funktioner för begäran)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Prioriteringar</td>
+    <td class="tg-0pky">Hem<br>Prioriteter</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Inställningar</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔ (begränsad funktionalitet)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Mina uppdateringar</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (standardstartsida)</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody></table>
+
+*Du måste vara registrerad i betaversionen av Canvas Dashboards för att kunna se det här området. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+<!--
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,114 +491,104 @@ I följande tabell visas standardlandningsområdet och vilka vänsterpanelsobjek
  <col> 
  <thead> 
   <tr> 
-   <th>Område</th> 
-   <th> Vänster panelobjekt </th> 
-   <th> Systemadministratör</th> 
-   <th> Planering </th> 
-   <th>Arbetare</th> 
-   <th>Granskare</th> 
-   <th>Begärande</th> 
-   <th>Extern användare</th> 
+   <th>Area</th> 
+   <th> Left panel items </th> 
+   <th> System Administrator</th> 
+   <th> Planner </th> 
+   <th>Worker</th> 
+   <th>Reviewer</th> 
+   <th>Requestor</th> 
+   <th>External User</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td rowspan="2"><strong>Projekt</strong> </td> 
-   <td><strong>Projekt</strong> </td> 
-   <td>✔ <br> (standardlandningsområde)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br> (standardlandningsområde)</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td rowspan="2"><strong>Projects</strong> </td> 
+   <td><strong>Projects</strong> </td> 
+   <td>✔ <br>(Default landing area)</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br>(Default landing area)</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Portfolio</strong> </td> 
+   <td><strong>Portfolios</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Rapportering</strong> </td> 
-   <td><strong>Rapporter</strong> </td> 
+   <td rowspan="3"><strong>Reporting</strong> </td> 
+   <td><strong>Reports</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Instrumentpaneler</strong> </p> </td> 
+   <td> <p><strong>Dashboards</strong> </p> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Kalendrar</strong> </td> 
+   <td><strong>Calendars</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>Personer</strong> (har bytt namn till <strong>Team</strong> för användare med en arbetslicens)</td> 
-   <td><strong>Team</strong> </td> 
+   <td rowspan="5"><strong>People</strong> (renamed to <strong>Teams</strong> for users with a Work license)</td> 
+   <td><strong>Teams</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Personer</strong> </td> 
+   <td><strong>People</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> <!--
-   <tr> 
-    <td><strong>Legacy Resource Planning</strong> </td> 
-    <td>✔ </td> 
-    <td>✔ </td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-   </tr>
-  --> 
-  <tr> 
-   <td><strong>Planerar</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Schemaläggning</strong> </td> 
+   <td><strong>Planning</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Begäranden</strong> </td> 
-   <td>Ny begäran </td> 
+   <td><strong>Scheduling</strong> </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td rowspan="3"><strong>Requests</strong> </td> 
+   <td>New Request </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -159,16 +597,16 @@ I följande tabell visas standardlandningsområdet och vilka vänsterpanelsobjek
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td><strong>Begäranden som jag har skickat in</strong> </td> 
+   <td><strong>Requests I've Submitted</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br> (standardlandningsområde)</td> 
-   <td>✔ <br> (standardlandningsområde)</td> 
+   <td>✔ <br>(Default landing area)</td> 
+   <td>✔ <br>(Default landing area)</td> 
   </tr> 
   <tr> 
-   <td><strong>Alla begäranden</strong> </td> 
+   <td><strong>All Requests</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -177,52 +615,53 @@ I följande tabell visas standardlandningsområdet och vilka vänsterpanelsobjek
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Tidrapport</strong> </td> 
-   <td><strong>Mina tidrapporter</strong> </td> 
+   <td rowspan="3"><strong>Timesheet</strong> </td> 
+   <td><strong>My Timesheets</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Tidrapporter som jag godkänner</strong> </td> 
+   <td><strong>Timesheets I Approve</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Alla tidrapporter</strong> </td> 
+   <td><strong>All Timesheets</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Dokument</strong> </td> 
-   <td> </td> 
+   <td><strong>Documents</strong> </td> 
+   <td>&nbsp;</td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><strong>Konfigurera</strong> </td> 
-   <td> </td> 
+   <td><strong>Setup</strong> </td> 
+   <td>&nbsp;</td> 
    <td>✔ </td> 
-   <td>Begränsad funktionalitet</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>Limited Functionality</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
+-->

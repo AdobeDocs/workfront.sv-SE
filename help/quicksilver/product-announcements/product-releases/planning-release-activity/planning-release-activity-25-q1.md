@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Vi har introducerat ett varningsmeddelande när vi redigerar eller skapar ett fo
 
 Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
-## Lägga till sidor i en kopplad vy på en postsida för att visa kopplade poster i en tabellvy
+## Lägga till sidor i anslutningsvyn på en postsida för att visa kopplade poster i en tabellvy
 
 >[!NOTE]
 >

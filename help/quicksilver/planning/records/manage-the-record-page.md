@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -256,23 +256,29 @@ Följande saker händer:
 
 <span class="preview">
 
-## Lägga till en sida för kopplad vy på en postsida
+## Lägga till en sida i Anslutningsvyn på en postsida
 
-Du kan lägga till en sida för kopplad vy på en postsida.
+Tänk på följande när du lägger till en anslutningsvy på en postsida:
 
-Det går inte att lägga till en sida för kopplad vy i en posts förhandsvisningsområde.
+* Du kan lägga till en sida i Anslutningsvyn på en postsida.
 
-På sidor i den anslutna vyn visas en kopplad postsida i tabellvyn. Tabellvyn är skrivskyddad.
+* Du kan inte lägga till en sida i Anslutningsvyn i en posts förhandsvisningsområde.
 
-Du kan lägga till en sida för kopplad vy per kopplad posttyp.  <!--edit this when we can remove fields from this page-->
+* På sidor i anslutningsvyn visas en kopplad postsida i tabellvyn. Tabellvyn är skrivskyddad.
 
-Så här lägger du till en sida för kopplad vy:
+* Du kan lägga till en sida i Anslutningsvyn för varje ansluten posttyp.  <!--edit this when we can remove fields from this page-->
 
-1. I en postsidvy klickar du på namnet på en post för att öppna den. Klicka sedan på ikonen Öppna i ny flik ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
-1. Klicka på **Lägg till sida** > **Ansluten vy**.
-1. Lägg till **sidnamnet** och klicka sedan på **Skapa**.
+* När du har lagt till en sida i Anslutningsvyn på en postsida visas sidan från postens förhandsvisningsområde.
 
-   En extra sida läggs till på postens sida på en ny flik.
+Så här lägger du till en sida i Anslutningsvyn:
+
+1. I en postsidvy klickar du på namnet på en post för att öppna den. Klicka sedan på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
+1. Klicka på **Lägg till sida** > **Anslutningsvy**.
+
+   ![](assets/add-connection-view-page-modal.png)
+1. Lägg till **sidnamnet**, klicka på **Anslutningsvyn** och klicka sedan på **Skapa**.
+
+   En ny flik läggs till på postens sida.
 1. Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
 Tabellvyn för den posttyp du valde visas och de kopplade posterna visas i tabellvyn.
 Tabellvyn är skrivskyddad.
@@ -284,6 +290,7 @@ Tabellvyn är skrivskyddad.
 
    Håll pekaren över flikens namn, klicka sedan på **Mer** ![](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
 1. (Valfritt) Använd valfritt vyelement i verktygsfältet för att hantera tabellvyn. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+1. (Valfritt) Håll pekaren över flikens namn, klicka sedan på **Mer** ![](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort den till den nya fliken Ansluten vy.
 
 </span>
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * .docx Word
    * PDF
 
-* Du kan exportera fliken Detaljer på en postsida.
+* Du kan bara exportera fliken Detaljer för en posts sida eller förhandsvisningsområde.
 
 * Den exporterade filen bevarar postsidans layout, inklusive miniatyrbilderna och omslagsbilderna.
 
