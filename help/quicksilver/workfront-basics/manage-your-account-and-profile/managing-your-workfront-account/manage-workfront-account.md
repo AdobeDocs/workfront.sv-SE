@@ -4,11 +4,11 @@ product-area: user-management
 navigation-topic: manage-your-account-and-profile
 title: Hantera ditt [!DNL Adobe Workfront] konto
 description: Läs de här artiklarna om du vill veta mer om hur du hanterar ditt [!DNL Workfront] konto.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: f442a681-39fa-499c-8b1f-95d50424f539
-source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Konfigurera ledig tid
 description: Det är viktigt att ange i Adobe Workfront när en godkänd tid är ledig, eftersom detta påverkar ditt schema och påverkar de planerade datumen för slutförande av de uppgifter du har tilldelats.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%

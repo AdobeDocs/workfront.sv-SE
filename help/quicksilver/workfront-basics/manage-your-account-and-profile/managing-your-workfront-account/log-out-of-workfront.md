@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Logga ut från  [!DNL Adobe Workfront]
 description: Av säkerhetsskäl är det viktigt att du loggar ut från  [!DNL Adobe Workfront] regelbundet. Som standard loggar  [!DNL Workfront] automatiskt ut användare efter 8 timmars inaktivitet.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

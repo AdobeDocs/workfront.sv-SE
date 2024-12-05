@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Återställ lösenordet
 description: Du kan återställa ditt [!DNL Adobe Workfront] lösenord. Som en viktig säkerhetsåtgärd rekommenderar vi att du gör detta regelbundet.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%

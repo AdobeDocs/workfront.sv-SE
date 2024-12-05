@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Skapa anpassade avsnitt
 description: Den information du ser i  [!DNL Workfront] webbprogrammet visas ofta som standard i avsnitten i den vänstra panelen. Varje avsnitt innehåller olika information om ett  [!DNL Workfront] område eller objekt.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
