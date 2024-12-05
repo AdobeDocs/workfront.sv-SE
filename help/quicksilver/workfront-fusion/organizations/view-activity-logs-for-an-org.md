@@ -8,9 +8,9 @@ description: Du kan visa en logg med aktiviteter, som att skapa eller aktivera s
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,14 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <p>Äldre: Alla </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste vara en Fusion-administratör för att kunna använda aktivitetsloggen.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Nytt: [!DNL Workfront Fusion] ingår i Ultimate Workfront-planen.</p> <p>eller</p>
-   <p>Aktuell: Inte tillgänglig</p>
+   <p>Den här funktionen är bara tillgänglig för organisationer med Ultimate Workfront-planen, som innehåller [!DNL Workfront Fusion]. Inga ytterligare inköp krävs.</p>
    </td> 
   </tr>
  </tbody> 

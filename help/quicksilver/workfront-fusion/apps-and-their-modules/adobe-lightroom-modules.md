@@ -9,7 +9,7 @@ description: Med Adobe Lightroom-modulerna kan du starta ett Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
 source-wordcount: '2016'
 ht-degree: 0%
@@ -18,7 +18,6 @@ ht-degree: 0%
 
 # [!DNL Adobe Lightroom] moduler
 
-<!--Add Connection info-->
 
 I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Lightroom] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
