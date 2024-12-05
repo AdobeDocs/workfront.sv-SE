@@ -6,9 +6,9 @@ description: Filter och uppmaningar liknar varandra i den bemärkelsen att de b�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -172,3 +172,5 @@ Följande är begränsningar när det gäller att dela rapporter från Workfront
 * När du schemalägger en begärd rapport för leverans innehåller rapporten i e-postbilagan rapportens data som inte har efterfrågats. När användaren klickar på länken i e-postmeddelandet för att få åtkomst till rapporten måste han/hon logga in först för att kunna visa rapporten och köra uppmaningen själv.
 
   Mer information om att schemalägga en levererad rapport finns i [Schemalägg en automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+* När du kör en rapport med en datumbaserad prompt filtreras rapportresultaten baserat på webbläsarens tidszonsinställningar. Detta kan orsaka små avvikelser i de datumintervall som visas i en begärd rapport för datum som ligger i början eller slutet av en månad. Om inställningarna för tidszonen i webbläsaren är knutna till en viss plats, kommer variationer i den platsens lokala tid (som att anpassa till sommartid) också att beaktas i de datum som visas för en rapport som visas. Detta kan leda till små datumintervallavvikelser mellan användare i samma tidszon men med olika platsinställningar.

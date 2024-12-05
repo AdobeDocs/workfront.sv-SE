@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Den här sidan beskriver alla förbättringar av Home som gjorts i första utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Navigera till informationssidan för ett projekt från Prioriteringar
+
+>[!NOTE]
+>
+>Förhandsversion: 5 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+
+Du kan nu navigera direkt till ett projekt i Workfront från listan Prioriteter.
+
+Mer information finns i [Visa projekt- och uppgiftsinformation i prioritetsarbetslistan](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
 ## Uppdaterade alternativ i kolumnen Mitt fokus i Prioriteringar
 

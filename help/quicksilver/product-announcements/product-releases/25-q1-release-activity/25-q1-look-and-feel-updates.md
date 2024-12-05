@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den första utgåvan, kvartal 2025.
 
 En lista över alla ändringar som är tillgängliga i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Uppdaterad upplevelse på sidan för molnleverantörer i inställningsområdet
+
+>[!NOTE]
+>
+>Förhandsversion: 5 december 2024; Produktionsrelease för alla kunder: Med version 24.12 (12 december 2024)
+
+För att förbättra prestandan har vi gjort visuella uppdateringar på sidan för molnleverantörer under Konfigurera.
+
+En liten funktionalitetsändring gjordes för den tysta integreringen. I stället för att ange Klient-ID och Klienthemlighet direkt på sidan Cloud Providers (Molnleverantörer) måste du klicka på ikonen Edit (Redigera) för att göra fälten synliga.
+
+## Sök efter och känner igen uppdateringar för dialogrutan Begär åtkomst
+
+>[!NOTE]
+>
+>Förhandsversion: 28 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+
+Dialogrutan för att begära åtkomst till objekt har uppdaterats till en modernare design som är konsekvent med andra delar av Workfront. Den här dialogrutan är tillgänglig när du begär åtkomst till projekt, uppgifter, utgåvor, program, portföljer, mallar och malluppgifter.
+
+Mer information finns i [Begär åtkomst till objekt](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Håll utkik efter uppdateringar för dokumentintegreringar
 
@@ -30,7 +50,7 @@ Vi har gjort prestandauppgraderingar till den del av installationsprogrammet dä
 
 >[!NOTE]
 >
->Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis version: Med version 25.1 (januari 2025)
+>Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Vi har uppdaterat sidorna Företagsmedlemmar och Företagets faktureringstaxor med en modernare design som överensstämmer med andra delar av Workfront. Företagsmedlemskap nås via Inställningar > Företag > Välj ett företagsnamn > välj Företagsmedlemmar i den vänstra panelen. Företagets faktureringstariffer nås via Inställningar > Företag > Välj ett företagsnamn > välj Faktureringstariffer i den vänstra panelen.
 
@@ -53,7 +73,7 @@ De viktigaste ändringarna är följande:
 
 >[!NOTE]
 >
->Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis version: Med version 25.1 (januari 2025)
+>Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Vi introducerar ett nytt listformat i Workfront Setup och kurslistan är den första sidan där det här tabellformatet används. Funktionen för att lägga till nya valutakurser och söka efter valutakurser har inte ändrats.
 
@@ -63,7 +83,7 @@ Mer information om valutakurser finns i [Konfigurera valutakurser](/help/quicksi
 
 >[!NOTE]
 >
->Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis version: Med version 25.1 (januari 2025)
+>Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Vi har uppdaterat sidan Exportera data (Spark-Starts) i inställningsområdet med en modernare design som överensstämmer med andra delar av Workfront.
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1920'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,31 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Intelligent sökning vid sökning efter fälttyp
+
+>[!NOTE]
+>
+>Förhandsversion: 5 december 2024; Produktionsrelease för alla kunder: 5 december 2024
+
+Vi har lagt till intelligenta sökfunktioner när vi letar efter en fälttyp i Workfront Planning. Du kan nu söka efter fälttyper när du skriver ett nyckelord. Om du till exempel skriver &quot;Price&quot; hittas fälttyperna Number och Currency. Före den här förbättringen kunde du bara söka efter det faktiska fälttypsnamnet.
+
+Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
+
+## Anpassad färgväljare för färgkodade alternativ för envalsfält eller flervalsfält
+
+>[!NOTE]
+>
+>Förhandsversion: 5 december 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+
+Nu kan du göra egna färgval när du skapar eller redigerar ett enskilt eller flervalsfält. När du skapar eller redigerar fält med färgkodade alternativ öppnas en färgväljarruta när du klickar på färgikonen. Du kan välja mellan fördefinierade färger eller skapa egna med hjälp av hexadecimala koder eller ett färgspektrum.
+
+Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Importera befintliga Workfront-fält till posttyper för Workfront Planning
 
 >[!NOTE]
 >
->Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 När du lägger till fält i en posttyp kan du nu välja att importera befintliga anpassade eller inbyggda Workfront-fält och associera dem med den posttyp som du har valt. Om du importerar befintliga fält skapas en kopia av Workfront-fälten i Workfront Planning. De kopierade fälten är oberoende av originalversionerna.
 
@@ -53,7 +72,7 @@ Mer information finns i [Importera fält från Adobe Workfront](/help/quicksilve
 
 >[!NOTE]
 >
->Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Nu kan du importera nya posttyper genom att importera en CSV- eller Excel-fil.
 
@@ -71,7 +90,7 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 
 >[!NOTE]
 >
->Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Vi har introducerat ett varningsmeddelande när vi redigerar eller skapar ett formelfält som kan skapa en cirkelreferens till sig själv eller delade fält. Du kan inte spara ett formelfält som antingen refererar till sig själv eller till artiklar som refereras i beräkningen.
 
@@ -81,7 +100,7 @@ Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-f
 
 >[!NOTE]
 >
->Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Du kan lägga till sidor i en posts informationsområde för att visa kopplade poster i en tabellvy. Du kan lägga till en sida per ansluten post.
 
@@ -93,7 +112,7 @@ Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/r
 
 >[!NOTE]
 >
->Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Nu finns Workfront Planning-begäranden under Skickat i området Begäranden i Workfront. I avsnittet Skickat visas nu följande flikar:
 
@@ -110,7 +129,7 @@ Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att sk
 
 >[!NOTE]
 >
->Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Du kan nu lägga till följande fälttyper i ett formulär för posttypsbegäran i Workfront Planning:
 
@@ -125,7 +144,7 @@ Mer information finns i Skapa och hantera ett begärandeformulär i Adobe Workfr
 
 >[!NOTE]
 >
->Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+>Förhandsversion: 27 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Du kan inte längre dela ett begärandeformulär offentligt om formuläret innehåller någon av följande fälttyper:
 
@@ -141,7 +160,7 @@ Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workf
 
 >[!NOTE]
 >
->Förhandsversion: 26 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+>Förhandsversion: 26 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Nu kan du visa poster i kalendervyn efter vecka. Före den här förbättringen kunde du bara visa kalendervyn per månad.
 
@@ -151,7 +170,7 @@ Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/m
 
 >[!NOTE]
 >
->Förhandsversion: 22 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+>Förhandsversion: 22 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 När poster har tagits bort flyttas de nu tillfälligt till en nyligen borttagen behållare i 30 dagar. Du kan komma åt den nyligen borttagna behållaren från posttypens sida och den innehåller bara poster av en viss typ.
 
@@ -165,7 +184,7 @@ Mer information finns i [Återställ borttagna poster](/help/quicksilver/plannin
 
 >[!NOTE]
 >
->Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+>Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 För att göra det enklare för dig att utföra arbetet har vi lagt till Adobe AI Assistant på en posts förhandsgranskning av information eller postens sida. Du kan använda AI-assistenten i en postsida för att uppdatera information om posten.
 
@@ -175,7 +194,7 @@ Mer information finns i [Översikt över Adobe Workfront Planning AI Assistant](
 
 >[!NOTE]
 >
->Förhandsversion: 20 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis release: Med version 25.1 (januari 2025)
+>Förhandsversion: 20 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 När du öppnar en posts förhandsgranskning eller sida och posten inte har någon miniatyrbild eller omslagsbild, måste du nu hålla markören över området ovanför postens namn i rubriken för att se alternativen för att lägga till ett omslag och en miniatyrbild till posten. Före den här förbättringen visas de tomma platshållarbilderna för miniatyrbilden och omslaget ovanför postens namn.
 
@@ -188,7 +207,7 @@ Mer information finns i följande artiklar:
 
 >[!NOTE]
 >
->Förhandsversion: 7 november 2024; Produktion för snabb release: Med version 24.12 (december 2024); Produktion för kvartalsvis version: Med version 25.1 (januari 2025)
+>Förhandsversion: 7 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
 
 Om du vill göra det enklare att läsa tal i tabellvyn kan du nu välja mellan följande alternativ för att ändra hur ett procenttypsfält visas i tabellvyn:
 
