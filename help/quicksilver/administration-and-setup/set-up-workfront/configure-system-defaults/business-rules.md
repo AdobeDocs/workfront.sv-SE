@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,10 @@ Mer information om användarbaserade jokertecken finns i [Använda användarbase
 
 Mer information om datumbaserade jokertecken finns i [Generera rapporter med datumbaserade jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-Ett API-jokertecken finns också i affärsreglerna. Du kan använda `$$ISAPI` för att utlösa regeln endast i gränssnittet eller endast i API:t.
+Ett API-jokertecken finns också i affärsreglerna. Använd `$$ISAPI` för att utlösa regeln endast i API:t. Använd `!$$ISAPI` om du bara vill framtvinga regeln i användargränssnittet och tillåta användare att kringgå regeln via API:t.
+
+* Den här regeln förhindrar till exempel användare från att redigera slutförda projekt via API:t. Om jokertecknet inte användes skulle regeln blockera åtgärden både i användargränssnittet och i API:t.
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 Jokertecknen `$$BEFORE_STATE` och `$$AFTER_STATE` används i uttryck för att komma åt objektets fältvärden före och efter redigeringar.
 

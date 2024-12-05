@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '6524'
+source-wordcount: '6522'
 ht-degree: 0%
 
 ---
@@ -750,7 +750,7 @@ Så här lägger du till bilder, PDF eller videofilmer:
 
    Klicka på **Spara och stäng**.
 
-#### Lägga till en bild eller video i ett anpassat formulär från området Dokument{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Lägga till en video i ett anpassat formulär från området Dokument{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
