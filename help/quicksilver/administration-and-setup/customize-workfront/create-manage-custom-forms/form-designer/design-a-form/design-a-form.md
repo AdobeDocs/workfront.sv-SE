@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 0%
 
 ---
@@ -750,11 +750,11 @@ Så här lägger du till bilder, PDF eller videofilmer:
 
    Klicka på **Spara och stäng**.
 
-#### Lägga till en videowidget i ett anpassat formulär från området Dokument{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Lägga till en bild eller video i ett anpassat formulär från området Dokument{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->När du lägger till en video i ett anpassat formulär på det här sättet gäller endast de behörigheter som angetts för det anpassade formuläret för videon när användarna öppnar formuläret för ett objekt, inte de behörigheter som angetts för videon i området Dokument.
+>När du lägger till en video i ett anpassat formulär på det här sättet används de behörigheter som anges i området Dokument på videon när användare öppnar formuläret för ett objekt.
 
 1. Gå till videon i området Dokument och generera ett korrektur för den, enligt beskrivningen i [Skapa ett interaktivt korrektur för en webbplats eller annat webbinnehåll](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Öppna beviset.
