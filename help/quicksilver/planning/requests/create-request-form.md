@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -131,7 +131,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klicka på **Skapa**. Formuläret för förfrågan för den valda posttypen öppnas.
+1. Klicka på **Skapa**. Formuläret för förfrågan för den valda posttypen öppnas <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -156,7 +156,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >    * <span class="preview">Personer </span>
    >    * <span class="preview">Workfront-objektens anslutna fält</span>
    >    * <span class="preview">AEM Assets-anslutna fält </span>
-
 
 
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
@@ -190,6 +189,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Mer information om hur du skapar ett anpassat formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa hur formuläret kommer att visas för andra användare när de kommer att använda det för att skicka en ny post.
+
+   <!--
+   <div class="preview">
+   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
+      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   </div>
+   -->
+
 1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 1. Klicka på **Publish** för att publicera formuläret och få en unik länk till det.
 

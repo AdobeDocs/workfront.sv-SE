@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
+source-wordcount: '4370'
 ht-degree: 0%
 
 ---
@@ -210,7 +210,12 @@ OLD:
    Håll markören över en kolumnrubrik, klicka på den nedåtriktade pilen efter fältnamnet och klicka sedan på **Infoga vänster** eller **Infoga höger** för att lägga till det nya fältet.
 1. På fliken **Nytt fält** söker du efter en fälttyp i rutan **Fälttyp** eller väljer någon av följande fälttyper:
 
-   På fliken **Nytt fält** söker du efter en fälttyp i rutan **Fälttyp** <!--using any related keyword--> eller väljer en av fälttyperna som listas nedan.
+   På fliken **Nytt fält** kan du söka efter en fälttyp i rutan **Fälttyp** med hjälp av ett relaterat nyckelord, eller välja bland de fälttyper som listas nedan.
+
+   >[!TIP]
+   >
+   >    Du kan skriva &quot;Budget&quot; och fälttyperna &quot;Number&quot; och &quot;Currency&quot; i en kort lista.
+
 
 
    * [Enkelradig text](#single-line-text)
@@ -299,15 +304,13 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 1. (Valfritt) Om du vill ta bort ett alternativ klickar du på ikonen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview">Klicka på **Färgrutor** för att välja en fördefinierad färg</span>
 
-        <span class="preview">Or</span>
+   <span class="preview">eller</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview">Klicka på **Egen** om du vill välja en egen färg med hjälp av en färgväljare eller en hexadecimal kod.
+   </span>
+1. Klicka utanför färgrutan för att stänga den.
 1. Klicka på **Skapa**.
 
    Det nya flervalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
@@ -330,16 +333,13 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 1. (Valfritt) Dra och släpp varje alternativ manuellt i önskad ordning eller markera alternativet **Sorteringsalternativ A-Z** om du vill att valen automatiskt ska visas i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Valfritt) Om du vill ta bort ett alternativ klickar du på ikonen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
+1. <span class="preview">Klicka på **Färgrutor** för att välja en fördefinierad färg</span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">eller</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview">Klicka på **Egen** om du vill välja en egen färg med hjälp av en färgväljare eller en hexadecimal kod.
+   </span>
+1. Klicka utanför färgrutan för att stänga den.
 1. Klicka på **Skapa**.
 
    Det nya envalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.

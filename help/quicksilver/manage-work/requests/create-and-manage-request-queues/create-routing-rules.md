@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Skapa routningsregler
-description: Routningsregler styr vad Adobe Workfront gör med problem när de skickas till en frågekö. Mer information om hur du skapar begärandeköer finns i Skapa en begärandekö.
-author: Lisa
+description: Routningsregler styr vad Adobe Workfront gör med problem när de skickas till en frågekö.
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -27,73 +27,42 @@ Routningsregler skickar problem till specifika användare eller jobbroller som �
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<!--drafted - replace the table at P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>
-    <p>Nytt: Standard</p>
-    <p>eller</p>
-    <p>Aktuell: Planera</p></td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Ny licens: Standard </p> 
+   eller
+   <p>Aktuell licens: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td>
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p> Hantera behörigheter för projektet</p> </td>
+   <td> <p> Hantera behörigheter för projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Skapa en hanteringsregel
 
-1. Gå till det projekt där du vill lägga till routningsreglerna för dina begäranden.
+1. Gå till det projekt där du vill lägga till routningsregler för dina begäranden.
 1. Klicka på **Routningsregler** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Routningsregler**.
-1. Klicka på **Ny routningsregel** för att lägga till den nya regeln.
+1. Klicka på **Ny routningsregel** för att lägga till den nya regeln. Rutan **Ny routningsregel** öppnas.
+
+   ![Ny ruta för routningsregel](assets/new-routing-rule-box.png)
 1. Ange följande information för hanteringsregeln:
 
    <table style="table-layout:auto"> 
@@ -136,8 +105,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >*Om en användare, en jobbroll eller ett team inaktiveras efter att de har associerats med en routningsregel dirigeras förfrågningarna vidare till dem. Du måste regelbundet inventera alla routningsregler och ersätta inaktiverade tilldelningar med aktiva.
 
    När du dirigerar ett problem till ett projekt får användare med behörigheter för det aktuella projektet de behörigheter som angetts för det projektet. Mer information om hur du ställer in behörigheter för projekt finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-
-   ![Ny ruta för routningsregel](assets/new-routing-rule-box.png)
 
 1. Klicka på **Spara**.
 
