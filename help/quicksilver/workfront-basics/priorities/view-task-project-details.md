@@ -5,13 +5,13 @@ description: Du kan visa projekt- och uppgiftsinformation i prioriteringslistan.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
-
 
 # Visa projekt- och uppgiftsinformation i listan Prioriteter
 
@@ -67,8 +67,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Visa och lägga till kommentarer i projektet
    * Loggtid
    * Lägga till en fil
+   * <span class="preview">Gå direkt till projektet</span>
 
-   ![projektinformation](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## Visa aktivitetsinformation
 
@@ -83,4 +84,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Lägga till en fil
    * Lägga till snabblänkar
 
-   ![aktivitetsinformation](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
