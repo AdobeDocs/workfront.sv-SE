@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Tack vare att du känner till Workfront-schemat kan du förstå de databasrelati
 För att Workfront on demand-system ska fungera på ett konsekvent sätt begränsar Workfront API-trådar samtidigt. Detta skyddsräcke förhindrar systemproblem som orsakas av felaktiga API-anrop. Sandlådemiljön har samma samtidiga API-trådgräns, vilket gör att kunder och partner kan testa API-anrop korrekt innan kod släpps i produktionen.
 
 I produktions-, förhandsgransknings- och testmiljöer har slutanvändarförfrågningar en maximal URI-längd på 8 892 byte eftersom de dirigeras via Workfront CDN (Akamai). Denna gräns gäller endast URI:er som dirigeras genom CDN.
-
->[!NOTE]
->
->denna gräns gäller inte för sandlådemiljöer eftersom sandlådemiljöer inte dirigeras via CDN.
 
 ### Ansvarsfriskrivning
 
@@ -110,14 +106,6 @@ Följande är ett exempel på en begäranderubrik:
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### Begär parameterautentisering
-
-Du kan autentisera genom att skicka en request-parameter med namnet sessionID, vilket visas i följande exempel: 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### Cookie-baserad autentisering
