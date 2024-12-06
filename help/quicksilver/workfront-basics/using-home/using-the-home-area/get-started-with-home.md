@@ -6,9 +6,9 @@ description: Home hjälper dig att hantera ditt arbete. Du kan anpassa det här 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -148,32 +148,6 @@ Du kan lägga till lite personlig överstrålning på hemsidan genom att välja 
    Panelen Anpassa öppnas.
 
 1. I avsnittet **Bakgrund** på panelen **Anpassa** klickar du på den färg du vill använda som bakgrund i hemmet. Du kan också klicka på **Ingen** om du vill ta bort bakgrunden.
-
-## Återgå till den aktuella hemupplevelsen
-
-Om du föredrar den befintliga hemupplevelsen kan du stänga av den nya hemupplevelsen.
-
-Så här återgår du till den aktuella hemupplevelsen:
-
-1. Gå till hemsidan genom att göra något av följande:
-
-   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront ](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
-   * Klicka på ikonen **Huvudmeny** i det övre högra hörnet av skärmen eller på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Hem** .
-
-1. Klicka på knappen **Gå tillbaka till den aktuella knappen Hem** längst ned till höger på sidan.
-
-   ![Gå tillbaka till den aktuella hemknappen](assets/customize-button.png)
-
-   Ett bekräftelsefönster visas.
-
-1. Ta en kort undersökning om din upplevelse av nya Hem eller klicka på **Gå tillbaka till aktuell Hem** för att återgå till den aktuella Hem-upplevelsen.
-
->[!NOTE]
->
-> Systemadministratörer kan inaktivera det nya hemmet som standard för sina användare. Mer information om hur du ändrar standardgränssnittet för Hem för användare i ett system finns i [Konfigurera systeminställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
-
-
 
 
 

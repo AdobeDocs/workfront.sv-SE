@@ -7,9 +7,9 @@ description: E-postmeddelanden som genererats från Workfront Proof informerar m
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1876'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Du kan konfigurera korrekturinställningar för korrektur som du skapar.
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]**.
+1. Klicka på din profilbild i det övre högra hörnet och klicka sedan på **[!UICONTROL Personal settings]**.
 
 1. Klicka på fliken **[!UICONTROL Proofing defaults]**.
 1. Klicka på **[!UICONTROL Default email notification settings]** för att expandera den.
@@ -163,7 +163,7 @@ Du kan ändra e-postaviseringar för en viss mottagare i en gruppåtgärd.
 
 Om du är [!DNL Workfront Proof]-administratör kan du ange standardvärden för korrektur för användare i ditt konto.
 
-1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Account settings]**.
+1. Klicka på **[!UICONTROL Account settings]** högst upp på skärmen.
 
 1. Öppna fliken **[!UICONTROL Users]**.
 1. Öppna **[!UICONTROL  More]**-menyn ![More_button_small.png](assets/more-button-small.png) till höger om användarens namn.
