@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>Område</td>
@@ -247,7 +247,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             Inställning för att använda projekt eller användarschema för uppgifter med enkel tilldelning</a></p>
             <p>Som system- eller gruppadministratör har du nu en ny inställning som anger om Workfront ska använda projektets eller användarens schema för att beräkna tidslinjen för projektet när du tilldelar en användare till en aktivitet och både projektet och användaren är associerade med ett schema.</p>
         </td>
-        <td><p>16 nov 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>16 nov 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td>Dec 2024</td>
         <td>25,1</td>
     </tr>     
@@ -284,8 +284,8 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
         </td>
         <td>29 oktober</td>
-          <td><p>December 2024</p><p> [!BADGE In production for Fast Release ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE In production]{type=Positive}</p></td>
+          <td><p>December 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
+        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
