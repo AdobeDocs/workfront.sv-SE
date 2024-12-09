@@ -6,9 +6,9 @@ description: För att effektivt hitta arbetsobjekt och fokusera på de användar
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -179,8 +179,6 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 
 1. Klicka på **Nytt filter.**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. Så här skapar du ett filter:
 
    1. Välj ett fältnamn i den första listrutan eller klicka på **Bläddra i fält** för att börja skriva namnet på ett fält som inte visas som standard.
@@ -198,7 +196,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
       >Du kan välja ett fält i följande avsnitt:
       >
       >* **Senaste markeringar**: de fält som du nyligen har filtrerat efter.
-      >* **Föreslagna fält**: de fält som används oftast.
+      >* **Föreslagen**: de fält som används oftast.
 
 
    1. Välj en modifierare i den andra listrutan. Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -206,13 +204,13 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 
       >[!NOTE]
       >
-      > När du vill visa arbetsobjekt från en viss portfölj kan du använda följande filter:&quot;Portfolio name contains marketing&quot;. Här visas arbetsuppgifter som tillhör en portfölj som innehåller&quot;marknadsföring&quot; i namnet.
+      > När du vill visa arbetsobjekt från en viss portfölj kan du använda följande filter: &quot;Portfolio ID är lika med &lt; namnet på portföljen >&quot;.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
-      >Om du vill exkludera projekt med statusen Spärrat måste du använda följande filter: &quot;Projekt: Status är inte lika med Spärrat&quot;. Detta förhindrar att arbetsobjekt från projekt som är parkerade visas i arbetsbelastningsutjämnaren.
+      >Om du vill utesluta projekt med statusen Spärrad måste du använda följande filter: &quot;Projekt: Status är inte lika med Spärrad&quot;. Detta förhindrar att arbetsobjekt från projekt som är parkerade visas i arbetsbelastningsutjämnaren.
+      >
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/delete.png) om du vill ta bort ett filtervillkor.
 
@@ -240,8 +238,8 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
    >
    >När du klickar på **Avbryt** kommer du tillbaka till filterbyggområdet.
 
-1. Välj **Namnlöst filter** och ange namnet på det nya filtret i stället.
-1. Välj en ikon för det nya filtret i listrutan **Ikon** .
+1. Klicka i fältet **Namnlöst filter** och ange namnet på det nya filtret.
+1. (Valfritt) Välj en ikon för det nya filtret i listrutan **Ikon** .
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 

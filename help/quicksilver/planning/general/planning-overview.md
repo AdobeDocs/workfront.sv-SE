@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1805'
 ht-degree: 0%
 
 ---
@@ -166,15 +166,15 @@ The following features are currently available in Workfront Planning:
 
 ## Aktivera Workfront Planning för användare i din Workfront-instans
 
-När din organisation har köpt en licens för Workfront Planning måste du som Workfront-administratör se till att följande finns innan användarna kan komma åt Workfront Planning:
+När din organisation har köpt ett Workfront Planning-paket måste du som Workfront-administratör se till att följande finns innan användarna kan komma åt Workfront Planning:
 
 * Tilldela användarna som behöver tillgång till Planera en layoutmall som innehåller Planering på huvudmenyn. Mer information finns i [Anpassa huvudmenyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) och [Tilldela användare till en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Tilldela användare en Workfront-licens och Workfront Planning-behörigheter som tillåter dig att antingen visa 554 timmar eller skapa objekt i Workfront Planning. Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront Planning finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+* Tilldela användare en Workfront-licens och Workfront Planning-behörigheter som gör att de kan visa eller skapa objekt i Workfront Planning. Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront Planning finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning - terminologi
 
-Även om Workfront Planning är en del av Workfront innehåller den egna koncept och terminologi. Se till att du känner till de nya koncepten innan du börjar konfigurera Workfront Planning för din organisation.
+Även om Workfront Planning är en del av Workfront innehåller den egna koncept och terminologi. Se till att du känner till dessa koncept innan du börjar konfigurera Workfront Planning för din organisation.
 
 Ramverket för Workfront Planning är helt anpassningsbart. Du kan skapa alla posttyper, deras attribut och alla fält som är kopplade till dem för att passa din organisations behov.
 
@@ -189,6 +189,8 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
   Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 * **Posttyp**: Namnet på objekttyperna i Workfront Planning.
+
+  Posttyper fyller i arbetsytor.
 
   Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Workfront Planning.
 

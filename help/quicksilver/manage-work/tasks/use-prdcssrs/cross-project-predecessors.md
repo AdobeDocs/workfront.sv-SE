@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Skapa föregångare mellan projekt
+title: Skapa projektövergripande föregångare
 description: En föregångare för flera projekt är en uppgift som en annan aktivitet (som kallas efterföljande aktivitet) i ett annat projekt är beroende av. Föregående är den uppgift som får prioritet framför den beroende (efterföljande) uppgiften. Du kan till exempel skapa ett beroende som kräver att föregående aktivitet markeras med Slutför innan den beroende aktiviteten kan starta.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Skapa föregångare mellan projekt
 
-<!--Audited: 12/2023-->
+<!--Audited: 12/2024-->
 
 En föregångare mellan projekt är en uppgift som en annan aktivitet (som kallas efterföljande aktivitet) i ett annat projekt är beroende av. Föregående är den uppgift som får prioritet framför den beroende (efterföljande) uppgiften. Du kan till exempel skapa ett beroende som kräver att föregående aktivitet markeras med Slutför innan den beroende aktiviteten kan starta.
 
@@ -72,12 +72,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en föregångare för flera projekt
 
 1. Gå till den uppgift som ska vara din efterföljare (beroende uppgift).
-1. Klicka på **Föregående** i den vänstra panelen.
+1. Klicka på **Föregående** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
+
+   >[!TIP]
+   >
+   >   Din Workfront- eller gruppadministratör kan ta bort avsnittet **Föregående** eller andra avsnitt från den vänstra panelen.
+
 1. Klicka på **Lägg till föregående.**
 1. I fältet **Överordnat projekt** börjar du skriva namnet på projektet som innehåller aktiviteten som du vill ska vara föregående till den aktuella aktiviteten.
 1. Klicka på namnet när det visas i listrutan.
 1. I fältet **Uppgifter** börjar du skriva namnet på den uppgift som du vill ska vara föregående till den aktuella uppgiften.
 1. Ange följande information för att definiera relationen mellan föregående och beroende uppgift:
+
 
    * **Beroendetyp:** Välj relationen som du vill att föregående aktivitet ska ha med den beroende aktiviteten. Standardrelationen är &quot;Slutför-Start&quot;, vilket innebär att föregående aktivitet måste slutföras innan den beroende aktiviteten kan startas. Mer information om de olika beroendetyperna finns i [Översikt över aktivitetsberoendetyperna](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 

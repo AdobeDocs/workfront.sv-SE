@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -76,14 +76,6 @@ Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront
 >[!NOTE]
 >
 >När hänsyn tas till den primära tilldelades tid för ett projekt kan aktivitetens planerade datum ändras, men aktivitetens varaktighet är densamma. Mer information om hur du tar hänsyn till den primära tilldelningens tid när du planerar ett projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
-## Den ursprungliga varaktigheten för en överordnad aktivitet
-
-Ursprunglig varaktighet för en aktivitet är den varaktighet en aktivitet hade innan den blev en överordnad aktivitet, i minuter.
-
-När en aktivitet blir överordnad, kommer varaktigheten mellan det planerade startdatumet för den tidigaste underordnade och det planerade slutförandedatumet för den senaste underordnade aktiviteten att räknas upp till den överordnade aktiviteten och bli varaktigheten för den överordnade aktiviteten. Detta ersätter varaktigheten för den ursprungliga aktiviteten.
-
-Mer information finns i [Översikt över aktivitetens ursprungliga varaktighet och ursprungliga planerade timmar](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Tidsenheter för aktivitetsvaraktighet
 
@@ -181,6 +173,27 @@ Varaktighetstyp hjälper dig att svara på följande frågor:
 ## De nya aktiviteternas varaktighetstyp
 
 Den nya aktivitetens varaktighetstyp matchar den varaktighetstyp som är inställd i systemet. Standardtypen för varaktighet är Beräknad tilldelning. Workfront-administratören eller en gruppadministratör kan uppdatera standardvaraktighetstypen för ditt system eller för gruppen som är kopplad till projektet. Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+## Den ursprungliga varaktigheten för en överordnad aktivitet
+
+Ursprunglig varaktighet för en aktivitet är den varaktighet en aktivitet hade innan den blev en överordnad aktivitet, i minuter.
+
+När en aktivitet blir överordnad, kommer varaktigheten mellan det planerade startdatumet för den tidigaste underordnade och det planerade slutförandedatumet för den senaste underordnade aktiviteten att räknas upp till den överordnade aktiviteten och bli varaktigheten för den överordnade aktiviteten. Detta ersätter varaktigheten för den ursprungliga aktiviteten.
+
+När underordnade använder varaktighetsenheten för Förflutna dagar och deras överordnade använder tidsenheten för dagar, kan det finnas skillnader i hur Workfront beräknar varaktigheten för den överordnade aktiviteten.
+
+Tänk på följande:
+
+* Längdenheten Förflutna dagar representerar kalenderdagar, som alltid består av 24 timmar per dag.
+* Längdenhetens dagar representerar arbetsdagen som är definierad i systemet och kan konfigureras. I de flesta fall består den av 8 timmar per dag.
+* Följande formel används för att beräkna varaktigheten för den överordnade aktiviteten:
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* När du beräknar varaktigheten för den överordnade aktiviteten beräknar systemet först varaktigheten med formeln ovan och tillämpar sedan schemat.
+
+
+Mer information finns i [Översikt över aktivitetens ursprungliga varaktighet och ursprungliga planerade timmar](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Ändra varaktighetstypen för en aktivitet
 

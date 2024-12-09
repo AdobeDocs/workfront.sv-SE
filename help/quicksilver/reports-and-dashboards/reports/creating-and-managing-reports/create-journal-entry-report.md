@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,7 @@ Den här informationen kan användas för att hjälpa till med revision och för
 
    Mer information om hur du lägger till kolumner finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till filterregeln **Fältnamn** > **Lika med** > **status**.
+1. Klicka på **Lägg till en filterregel** på fliken **Filter** och lägg sedan till filterregeln **Fältnamn** > **Lika med** > **status**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
@@ -339,7 +339,7 @@ Så här ser du när en uppgift eller ett problem togs bort:
 1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till följande filter:
 
    * **Ändra typ** > **Lika med** > **Ta bort**
-   * **Projekt-ID** > **Lika med** > **`<project>`**
+   * **Projekt-ID** > **Lika med** > **&lt; projektnamn >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
    Report builder läses in.
 
-1. Lägg till följande kolumner på fliken **Kolumner (Visa)**:
+1. Se till att du har gjort det på fliken **Kolumner (Visa)** eller klicka på **Lägg till kolumn** för att lägga till följande kolumner:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -440,15 +440,15 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
    Mer information om hur du lägger till kolumner finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till följande filter:
+1. Klicka på **Lägg till en filterregel** på fliken **Filter** och lägg sedan till följande filter:
 
    * **Fältnamn för journalpost** > **Innehåller** > **DE**
 
      >[!TIP]
      >
-     >Om du vill begränsa den här rapporten till specifika anpassade fält lägger du till filterregeln **Fältnamn för journalpost** > **Lika med** > **`<custom field>`**.
+     >Om du vill begränsa den här rapporten till specifika anpassade fält lägger du till filterregeln **Fältnamn för journalpost** > **Lika med** > **&lt; namn på anpassat fält>**.
 
-   * **Projekt-ID** > **Lika med** > **`<project>`**
+   * **Projekt-ID** > **Lika med** > **&lt; projekt >**.
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -546,10 +546,10 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
 
    Mer information om hur du lägger till kolumner finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till följande:
+1. Klicka på **Lägg till en filterregel** på fliken **Filter** och lägg sedan till följande:
 
    * **Fältnamn** > **Lika med** > **Datum**
-   * **Projekt-ID** > **Lika med** > **`<project>`**
+   * **Projekt-ID** > **Lika med** > **&lt; projektnamn >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ Du kan ställa in journalanmälningsrapporten för att visa hur många gånger p
 1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till följande:
 
    * **Fältnamn** > **Lika med** > **ownerID**
-   * **Projekt-ID** > **Lika med** > **`<project name>`**
+   * **Projekt-ID** > **Lika med** > **&lt; projektnamn >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ Du kan ställa in journalanmälningsrapporten för att visa hur många gånger p
 
 1. Klicka på **Spara + Stäng**.
 
-   Din nya rapport läses in.
+   Den nya journalpostrapporten visas.
