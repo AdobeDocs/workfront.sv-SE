@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
+source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 0%
 
 ---
 
@@ -33,92 +33,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 >Mer information om processen för snabb släppning finns i [Aktivera eller inaktivera processen för snabb släppning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
-## Adobe Workfront-förbättringar
-
-
-<table>
-<col style="width: 20%;" />
-<col style="width: 75%;" />
-<tbody>
-    <tr>
-    <td>Område</td>
-        <td>
-            <p><span class="bold">Funktion</span></p>
-        </td>
-        <td>Förhandsgranska</td>
-        <td>Snabb release</td>
-        <td>kvartalsvis</td>
-    </tr>
-    <tr>
-     <td>Administratör och installation</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Inställning för att använda projekt eller användarschema för uppgifter med enkel tilldelning</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>Som system- eller gruppadministratör har du nu en ny inställning som anger om Workfront ska använda projektets eller användarens schema för att beräkna tidslinjen för projektet när du tilldelar en användare till en aktivitet och både projektet och användaren är associerade med ett schema.</p>
-        </td>
-        <td>21 november 2024</td>
-        <td>December 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-     <td>Administratör och installation</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Affärsreglerna stöder nu hyperlänkar</a></p>
-            [!BADGE Out of cycle]{type=Wartion}
-            <p>Nu kan du inkludera hyperlänkar i det anpassade felmeddelandet för en affärsregel, som vägleder användaren om hur de kan ändra sin åtgärd inom regelbegränsningen. Den statiska URL:en kan länka till dokumentation eller andra sidor som skulle vara till hjälp för användaren.</p>
-        </td>
-        <td>14 november 2024</td>
-        <td>14 november 2024</td>
-        <td>14 november 2024</td>
-    </tr>    
-    <tr>
-     <td>Administratör och installation</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Det finns nu möjlighet att filtrera på inbyggda typsnittsfält</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
-            <p>När du lägger till en intern fältreferens i ett anpassat formulär och den refererar till ett typsnittsfält (till exempel Portfolio, Företag eller Ägare), är nu ett filteralternativ tillgängligt. Med filtret kan du begränsa vilka objekt som användare kan välja när de använder fältet. Det här anpassade filtret fungerar på samma sätt som ett filter i ett anpassat typsnittsfält, där textläget används för att definiera filtret.</p>
-        </td>
-        <td>21 nov</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-     <td>Administratör och installation</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
-            <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
-        </td>
-        <td>29 oktober 2024</td>
-          <td>December 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Workfront-förbättringar
-
-
-
-
-
 
 
 * [Administratörsförbättringar](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
@@ -127,7 +42,10 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 ### Administratörsförbättringar
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -163,91 +81,25 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Det finns nu möjlighet att filtrera på inbyggda typsnittsfält</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
             <p>När du lägger till en intern fältreferens i ett anpassat formulär och den refererar till ett typsnittsfält (till exempel Portfolio, Företag eller Ägare), är nu ett filteralternativ tillgängligt. Med filtret kan du begränsa vilka objekt som användare kan välja när de använder fältet. Det här anpassade filtret fungerar på samma sätt som ett filter i ett anpassat typsnittsfält, där textläget används för att definiera filtret.</p>
         </td>
         <td>21 nov</td>
         <td>25,12</td>
         <td>25,1</td>
     </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
-        </td>
-        <td>29 oktober 2024</td>
-          <td>December 2024</td>
-        <td>25,1</td>
-    </tr>
+
 </tbody>
 </table>
+
 
 ### Förbättrad dokumenthantering
 
 
 <table>
-<col style="width: 50%;" />
-<tbody>
-    <tr>
-        <td>
-            <p><span class="bold">Funktion</span></p>
-        </td>
-        <td>Förhandsgranska</td>
-        <td>Snabb release</td>
-        <td>kvartalsvis</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Inställning för att använda projekt eller användarschema för uppgifter med enkel tilldelning</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>Som system- eller gruppadministratör har du nu en ny inställning som anger om Workfront ska använda projektets eller användarens schema för att beräkna tidslinjen för projektet när du tilldelar en användare till en aktivitet och både projektet och användaren är associerade med ett schema.</p>
-        </td>
-        <td>21 november 2024</td>
-        <td>December 2024</td>
-        <td>25,1</td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Affärsreglerna stöder nu hyperlänkar</a></p>
-            [!BADGE New in Preview ]{type=Wartion}
-            <p>Nu kan du inkludera hyperlänkar i det anpassade felmeddelandet för en affärsregel, som vägleder användaren om hur de kan ändra sin åtgärd inom regelbegränsningen. Den statiska URL:en kan länka till dokumentation eller andra sidor som skulle vara till hjälp för användaren.</p>
-        </td>
-        <td>14 november 2024</td>
-        <td>14 november 2024</td>
-        <td>14 november 2024</td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Det finns nu möjlighet att filtrera på inbyggda typsnittsfält</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
-            <p>När du lägger till en intern fältreferens i ett anpassat formulär och den refererar till ett typsnittsfält (till exempel Portfolio, Företag eller Ägare), är nu ett filteralternativ tillgängligt. Med filtret kan du begränsa vilka objekt som användare kan välja när de använder fältet. Det här anpassade filtret fungerar på samma sätt som ett filter i ett anpassat typsnittsfält, där textläget används för att definiera filtret.</p>
-        </td>
-        <td>21 nov</td>
-        <td>25,12</td>
-        <td>25,1</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
-            <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
-        </td>
-        <td>29 oktober 2024</td>
-          <td>December 2024</td>
-        <td>25,1</td>
-    </tr>
-</tbody>
-</table>
-
-### Förbättrad dokumenthantering
-
-
-<table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -264,8 +116,8 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p>Som system- eller gruppadministratör har du nu en ny inställning som anger om Workfront ska använda projektets eller användarens schema för att beräkna tidslinjen för projektet när du tilldelar en användare till en aktivitet och både projektet och användaren är associerade med ett schema.</p>
         </td>
         <td><p>16 nov 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
-        <td>Dec 2024</td>
-        <td>25,1</td>
+        <td><p>24,12</p></td>
+        <td><p>25,1</p></td>
     </tr>     
     <tr>
         <td>
@@ -273,9 +125,9 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             Affärsreglerna stöder nu hyperlänkar</a></p>
             <p>Nu kan du inkludera hyperlänkar i det anpassade felmeddelandet för en affärsregel, som vägleder användaren om hur de kan ändra sin åtgärd inom regelbegränsningen. Den statiska URL:en kan länka till dokumentation eller andra sidor som skulle vara till hjälp för användaren.</p>
         </td>
-        <td>14 nov </td>
-        <td><p>14 nov</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
-        <td><p>14 nov</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+        <td><p>14 nov</p> </td>
+        <td><p>Dec 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25,1</p> </td>
     </tr>    
     <tr>
         <td>
@@ -283,9 +135,29 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
             <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
         </td>
-        <td>29 oktober</td>
-          <td><p>December 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
-        <td>25,1<p> [!BADGE Production]{type=Positive}</p></td>
+        <td><p>dec 5</p></td>
+          <td><p>15 dec</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>15 dec</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Out-of-cycle ]{type=Wartion}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
+            <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
+        </td>
+        <td><p>dec 5</p><p>[!BADGE Out-of-cycle ]{type=Wartion}</p></td>
+          <td><p>15 dec</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>15 dec</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
+            <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
+        </td>
+        <td><p>1 nov</p></td>
+          <td><p>24,11</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25,1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
