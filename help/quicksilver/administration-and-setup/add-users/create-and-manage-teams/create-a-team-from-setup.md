@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,7 @@ Som Adobe Workfront-administratör kan du skapa ett team under Konfigurera. Mer 
 >[!NOTE]
 >
 >* En gruppadministratör kan skapa ett team för en grupp som de administrerar under Konfigurera. Mer information finns i [Skapa och ändra en grupps team](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* En användare med en planlicens kan också skapa ett team från området Personer. Mer information finns i [Skapa ett team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
->
+>* En användare med en Standard- eller Plan-licens kan också skapa ett team från Teams-området. Mer information finns i [Skapa ett team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Åtkomstkrav
 

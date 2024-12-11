@@ -6,9 +6,9 @@ description: Din synlighet för objekt i Adobe Workfront beror på din åtkomst 
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
+source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -108,10 +108,12 @@ Så här begär du inledande åtkomst till ett objekt:
    Exempelbild i produktionsmiljön:
    ![](assets/request-access-dialog-350x314.png)
 
-Om du inte har åtkomstnivåbehörighet för ett objekt och du försöker få åtkomst till det från en länk, visas en skärm som talar om för dig att du ska kontakta Workfront-administratören.
+<!--
+If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
 
-Om du t.ex. inte har portföljåtkomst, men fått en länk till en portfölj, visas följande meddelande:\
+For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
+-->
 
 ### Begär ytterligare åtkomst {#request-additional-access}
 
