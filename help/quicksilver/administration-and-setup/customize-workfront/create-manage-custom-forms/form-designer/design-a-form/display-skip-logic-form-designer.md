@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,7 @@ Välj ett fält med den logik som används för att visa de befintliga logikregl
 * Om du vill lägga till visningslogik i ett anpassat fält, en widget eller en avsnittsbrytning måste minst ett flervalsfält (alternativknappar, listrutor eller kryssrutor) placeras före det i formuläret.
 Mer information om anpassade fält och widgetar i anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Du kan inte lägga till hopplogik i en widget eller avsnittsbrytning. Du kan bara lägga till den i ett flervalsfält (alternativknappar, listrutor eller kryssrutor).
+* Du kan inte använda visnings- eller hopplogik för alternativ i ett fält med flera alternativ. Du kan t.ex. inte begränsa visningen av alternativen för en listruta, en kryssrutegrupp eller ett alternativknappsfält baserat på hur ett annat fält visas eller hoppar över.
 * Du kan lägga till både visningslogik och hopplogik i ett anpassat fält om allt av följande gäller för det anpassade fältet:
 
    * Det är ett flervalsfält (alternativknappar, listrutor eller kryssrutor)

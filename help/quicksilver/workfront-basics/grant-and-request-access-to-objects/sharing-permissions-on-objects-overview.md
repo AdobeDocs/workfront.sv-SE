@@ -6,9 +6,9 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,13 @@ Du kan dela följande objekt i Workfront med andra användare:
   >
   >* [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md)
   >* [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+* Workfront skickar meddelanden till användare när du delar ett objekt med dem. Meddelanden skickas när båda dessa inställningar är aktiverade:
+
+   * E-postmeddelandena **Objektresurs för användare** och **Objektresurs för team** aktiveras i inställningsområdet av en system- eller gruppadministratör. Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   * **Någon delar ett objekt med mig** och **Någon delar ett objekt med mitt team**-meddelanden aktiveras på användarens profilsida. Mer information finns i [Ändra dina egna e-postmeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+  Inställningarna på system- eller gruppnivå måste aktiveras först innan du kan aktivera meddelandeinställningarna för användaren.
 
 ## Delningsbegränsningar
 
