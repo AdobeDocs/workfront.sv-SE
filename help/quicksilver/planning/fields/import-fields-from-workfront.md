@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ Alla andra Workfront-fälttyper stöds inte i Workfront Planning.
 1. Klicka på **+** och sedan på **Lägg till fält**.
 Fälten läggs till i tabellvyn och på posternas informationssidor.
 
+   >[!IMPORTANT]
+   >
+   >    Det finns en gräns på 500 fält för valfri posttyp. De befintliga fälten tillsammans med de importerade fälten bidrar till den här gränsen.
+
+   De tillagda fälten är kopior av Workfront-fälten och är inte längre kopplade till originalfälten i Workfront.

@@ -6,9 +6,9 @@ description: Som Adobe Workfront-administratör kan du ge användare åtkomst ti
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
   Information om hur du hanterar åtkomsten till malluppgifter och problem i projektet baserat på en användares behörigheter till projektet finns i avsnittet [Åtkomst](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) i artikeln [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 * Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Du kan inte dela malluppgifter individuellt. När du delar en mall delas även malluppgifterna. När du delar projektet från mallen delas även de framtida projektuppgifterna.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

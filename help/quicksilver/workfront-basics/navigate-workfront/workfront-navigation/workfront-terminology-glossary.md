@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '17303'
+source-wordcount: '17355'
 ht-degree: 0%
 
 ---
@@ -812,7 +812,15 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Document Version]</td> 
    <td> <p>Varje gång samma dokument överförs till samma objekt tilldelas det ett versionsnummer. Användare kan visa och ändra flera alternativ för en tidigare version av ett dokument.</p> <p>Mer information finns i <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Hantera dokumentversioner</a>.</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Due Date]</td> 
+   <td> <p>Det datum då en uppgift eller ett problem ska slutföras. Förfallodatumet för en aktivitet eller utgåva är samma datum som det planerade slutförandedatumet.</p>
+    <p>Aktiviteten och utleverans av förfallodatum visas i uppgiftslistor och utgivningslistor och rapporter.</p> 
+    <p>Se även Planerat slutförandedatum i den här tabellen. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration]</td> 
    <td> <p>Fönstret med den tid som tilldelats för slutförande av ett aktivitetsproblem, eller projekt (som bestäms av antalet dagar mellan [!UICONTROL Planned Start] och det planerade slutförandet).</p> 

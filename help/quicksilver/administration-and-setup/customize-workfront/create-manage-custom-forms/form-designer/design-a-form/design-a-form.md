@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: '6534'
 ht-degree: 0%
 
 ---
@@ -328,7 +328,7 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     </tr>
     <tr> 
      <td role="rowheader">Etikett</td> 
-     <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
+     <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: </p> <p>Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
      <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
@@ -411,13 +411,18 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     <li> <p><strong>Ta bort alternativ</strong>: Ta bort alternativet från fältet.</p> <p><b>VARNING</b>: Om du har aktuella objekt som använder det här alternativet ska du inte ta bort det från fältet. Om du tar bort den går historikdata förlorade. Välj i stället alternativet att dölja det, vilket förhindrar att användarna väljer det i framtiden.</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol>
+
+   <p><b>OBS!</b></p>
+    <p>Det finns ingen gräns för hur många alternativ du kan välja. </p>    
+    </td> 
     <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
     <li>Listruta med ett val</li>
     <li>Listruta för flera val</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -227,6 +227,6 @@ Tänk på följande när du arbetar med filter i kalendervyn:
 
 ### Redigera inställningar för kalendervyn
 
-Att redigera kalendervyinställningarna är detsamma som att redigera inställningarna för en tidslinjevy.
+Att redigera kalendervyinställningarna liknar att redigera inställningarna för en tidslinjevy.
 
 Mer information finns i avsnittet Redigera tidslinjevisningsinställningar i artikeln [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
