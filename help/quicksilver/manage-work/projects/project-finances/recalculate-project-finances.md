@@ -6,7 +6,7 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
+source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 Ekonomer beräknas för ett projekt i takt med att förändringar sker i de timmar som är registrerade för projektet eller i de satser som används för att beräkna kostnader och intäkter.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,6 +46,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Att tänka på när det gäller att beräkna ekonomi i Adobe Workfront
@@ -58,13 +64,11 @@ När hastigheten för en användare eller roll ändras under ett projekts livsl�
 * När ändringen görs används den uppdaterade tariffen från och med den tidpunkten när timmar loggas och den ekonomiska informationen beräknas. Om du ändrar hastigheten påverkas inte hur saker och ting beräknades innan ändringen gjordes. För alla befintliga loggade timmar används den gamla kursen för att beräkna ekonomisk information.
 * Du kan tvinga Adobe Workfront att använda den nya avgiften retroaktivt för alla timmar som har loggats hittills genom att använda alternativet Beräkna om finansiering. Detta tvingar Workfront att retroaktivt beräkna alla tidigare angivna timmar, planerade kostnader och intäkter i enlighet med den nya tariffinformationen.
 
-Rapporttypen Project (Financial Data) beräknas inte automatiskt om innan data läses in. Om du vill uppdatera data i den här rapporttypen måste du manuellt beräkna om ekonomin för enskilda projekt.
+Rapporttypen Project (Financial Data) utför inte automatiskt en omberäkning av dina ekonomiska data. Om du vill uppdatera data i den här rapporttypen måste du manuellt beräkna om ekonomin för enskilda projekt.
 
 >[!CAUTION]
 >
 >Innan du manuellt beräknar om ekonomin för ett visst projekt kanske du vill bevara alla ekonomiska data som redan har beräknats till en tidigare sats. Vi rekommenderar att du endast använder alternativet Beräkna om ekonomi när du är säker på att du inte gör ändringar i befintlig information, eller bara när sådana ändringar är önskade.
->
->Observera att när du kör en Project-rapport (Finance Data) görs en omberäkning av dina finansiella data, och därför bör du ta samma hänsyn innan du kör rapporten.
 
 ## Bevara ekonomiska data för uppgifter med befintliga timmar {#preserve-financial-data-for-tasks-with-existing-hours}
 
