@@ -5,13 +5,13 @@ description: Prioriteringarna är en smidig, intuitiv upplevelse som är skrädd
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
-
 
 # Kom igång med [!DNL Priorities]
 
@@ -91,7 +91,6 @@ Hitta det viktigaste arbetet med filter. Du kan filtrera uppgifter och ärenden 
 
 När du har filtrerat ditt arbete kan du gruppera objekt baserat på
 
-* Ingen
 * Mitt fokus
 * Vecka förfaller
 * Status
@@ -104,15 +103,16 @@ Mer information finns i [Filtrera och gruppera ditt arbete i Prioriteter](/help/
 Mitt fokus är en kolumn i arbetslistan som hjälper dig att prioritera ditt arbete. Värdet My Focus (Mitt fokus) är personligt och påverkar inte projekt, uppgifter eller data. Du kan använda följande fokusnivåer:
 
 * Urgent
-* Primär
-* Sekundär
+* Hög
 * Normal (standard)
+* Låg
 
 När du har tilldelat fokusnivåer till dina arbetsobjekt kan du sortera kolumnen så att brådskande objekt visas högst upp i arbetslistan.
 
 Mer information finns i [Prioritera viktiga arbetsobjekt](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### Använd kalendervyn [!BADGE Kommer snart]{type=Informative}
 
@@ -141,6 +141,7 @@ I uppdateringsavsnittet visas systemuppdateringar och upp till 200 av de senaste
 Mer information finns i [Lägga till och visa kommentarer i prioriteter](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Loggtid
 
@@ -149,6 +150,7 @@ Du kan logga tiden för arbetsobjekt för att ange hur många timmar du ska arbe
 Mer information finns i [Loggtid i Prioriteter](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Överför filer
 
@@ -162,6 +164,7 @@ Ladda upp filer direkt till uppgiftens eller ärendets dokumentområde utan att 
 Mer information finns i [Överför filer i prioriteter](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Visa dokument [!BADGE Kommer snart]{type=Informative}
 
@@ -197,5 +200,3 @@ Använd funktionen [!DNL Catch me up] för att se vad du missade. Jag kommer att
 
 * Workfront-administratörer kan för närvarande inte anpassa prioriteringar med hjälp av layoutmallen.
 * Att komma åt uppgifter i prioriteter är tillgängligt på flera flikar. Vi planerar att lägga till fler flikar i framtiden, som dokument, underaktiviteter, godkännanden osv. Meddela oss om att du behöver dessa objekt genom att skicka feedback med knappen **Ge feedback** .
-
-

@@ -5,13 +5,13 @@ description: Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ang
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 410963f404aa496b2ac4aa43098917d03fc1ca75
+exl-id: 5457f516-c213-4b82-b033-bc8db943a217
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
 
 ---
-
 
 # Logga tid i Prioriteter
 
@@ -61,6 +61,7 @@ Du kan logga tiden direkt från arbetslistan:
 
 1. Håll muspekaren över namnet och klicka sedan på **Loggtid**.
    ![](assets/log-time.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Välj lämplig timtyp i listrutan **Timtyp**. Timtyper är tillgängliga beroende på vad som har definierats på system-, projekt- och användarnivå, vilket beskrivs i Definiera timtyper och tillgänglighet.
 
 1. (Villkorligt) Om din Workfront- eller gruppadministratör har aktiverat inställningen Tilldela jobbroller till timposter manuellt, väljer du en jobbroll i listrutan. Den roll som anges när du tilldelas arbetsuppgiften visas som standard. Om du inte har tilldelats någon roll för objektet visas din primära roll som standard. Om du inte har tilldelats någon primär roll visas ingen jobbroll.
@@ -83,4 +84,3 @@ Du kan logga tid i en enskild arbetsuppgift:
 1. Ange den tidpunkt du vill logga och klicka sedan på **Loggtid**.
 
    ![](assets/log-time-dialog.png)
-

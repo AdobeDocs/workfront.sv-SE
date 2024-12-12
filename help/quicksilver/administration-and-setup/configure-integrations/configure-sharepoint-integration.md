@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
+source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 0%
@@ -176,7 +176,7 @@ Om du konfigurerar om den gamla [!DNL SharePoint]-integreringen kan dina använd
 1. Klicka på **[!UICONTROL Save]**.
 1. Välj **[!UICONTROL Documents]** i den vänstra navigeringen och välj sedan **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Markera bockmarkeringen till vänster om listan för alla befintliga integreringar och välj sedan **[!UICONTROL Disable]**.
-   ![](assets/disable-old-sharepoint.png)
+
 
 
 ### Konfigurera klienthemligheten för fortsatt åtkomst till den gamla integreringen [!DNL SharePoint]

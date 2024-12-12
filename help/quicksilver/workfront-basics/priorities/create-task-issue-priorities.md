@@ -5,13 +5,13 @@ description: Du kan skapa nya uppgifter och ärenden direkt från Prioriteringar
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en ny uppgift eller ett nytt problem i Prioritet
 
@@ -69,6 +69,7 @@ Så här skapar du en uppgift eller ett problem i ett projekt:
 
 1. Klicka på **Skapa ny** i det övre högra hörnet.
    ![](assets/create-new.png)
+&lt;!—new screen for prod ![](assets/create-new--.png)—>
 1. Ange följande information:
 
    | Fält | Instruktioner |
@@ -81,4 +82,3 @@ Så här skapar du en uppgift eller ett problem i ett projekt:
    | Förfallodatum (valfritt) | Välj ett förfallodatum. |
 
 1. Klicka på **Skapa**.
-

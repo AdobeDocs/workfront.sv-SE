@@ -5,13 +5,13 @@ description: Du kan lägga till en uppdatering för en uppgift eller ett problem
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # Lägga till och visa kommentarer i Prioriteringar
 
@@ -65,6 +65,7 @@ Du kan lägga till en kommentar från arbetslistan:
 1. Leta reda på den arbetsuppgift som du vill uppdatera.
 1. Håll muspekaren över namnet och klicka sedan på **Lägg till ny uppdatering**.
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Börja skriva din kommentar.
 1. (Valfritt) I rutan **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, och markerar sedan användaren när den visas i listan.
 1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder i kommentaren för att förbättra innehållet.

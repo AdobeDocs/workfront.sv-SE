@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
+source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Lägga till en fil
    * <span class="preview">Gå direkt till projektet</span>
 
-<!-- ![project details](assets/project-details.png)-->
+   ![projektinformation](assets/project-details.png)
+   <!--new screen for prod ![](assets/project-details-new.png)-->
 
 ## Visa aktivitetsinformation
 
@@ -84,4 +85,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Lägga till en fil
    * Lägga till snabblänkar
 
-   <!-- ![task details](assets/task-details.png)-->
+   ![aktivitetsinformation](assets/task-details.png)
+   <!--new screen for prod ![](assets/task-details-new.png)-->
