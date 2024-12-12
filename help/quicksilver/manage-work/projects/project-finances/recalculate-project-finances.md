@@ -6,7 +6,7 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 854844b0cb0207085a99403cf8b76573838feb41
+source-git-commit: 946b2697d8988fae252a13d982c9aa6685961d43
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -46,11 +46,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Att tänka på när det gäller att beräkna ekonomi i Adobe Workfront
 
