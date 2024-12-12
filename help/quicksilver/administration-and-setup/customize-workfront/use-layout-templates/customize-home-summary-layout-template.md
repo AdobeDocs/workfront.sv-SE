@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -97,34 +97,38 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
       <td role="rowheader">Problem</td> 
       <td><p>I en lista över problem påverkar den här inställningen panelen Sammanfattning som visas på sidans högra sida när en användare väljer ett problem och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Projekt</td> 
-      <td><ul><li><p>När en användare klickar på ett projektgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
-      <p><b>VIKTIGT!</b> </p><p>Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p></li>
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Dokument</td> 
+      <td role="rowheader">Documents</td> 
       <td>
-     <ul><li><p>När en användare klickar på ett dokumentgodkännande som tilldelats dem i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
-      <p><b>VIKTIGT!</b> </p><p> Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p></li>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Dokumentversioner</td> 
-      <td><ul><li><p>När en användare klickar på ett godkännande som tilldelats dem för en viss version av ett dokument i Hem, påverkar konfigurationen för den här inställningen området till höger om godkännandet.</p>
-      <p><p><b>VIKTIGT!</b></p> Det här är en inaktuell funktion. Alla ändringar du gör i det här området är relaterade till en funktion som Workfront har tagit bort. Det här alternativet tas bort från Workfront med en senare underhållsuppdatering.</p></li>
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
 
-   >[!IMPORTANT]
-   >
-   >Om en uppgift inte har tilldelats kan användaren som är tilldelad layoutmallen inte se fältanpassningarna i Sammanfattning.
+
+>[!IMPORTANT]
+>
+>Om en uppgift inte har tilldelats kan användaren som är tilldelad layoutmallen inte se fältanpassningarna i Sammanfattning.
 
 1. (Villkorligt) Om du klickade på Åtgärder eller Problem i föregående steg väljer du den kategori av uppgift eller problem som du vill anpassa.
 
