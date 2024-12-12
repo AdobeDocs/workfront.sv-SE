@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: financials
 title: Beräkna uppskattning vid slutförande
 description: Uppskattningen vid slutförande (Estiate at Completion, EAC) är en prestandamätning som representerar den beräknade totala kostnaden för ditt projekt eller din uppgift när den är klar.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Med den här inställningen kan du definiera hur EAC-värdet ska beräknas. 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -33,27 +35,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Ljus eller högre</p>
+   <p>eller</p>
+   <p>Aktuell: Granska eller senare</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt och finansiella data</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Visa åtkomst till projekt och finansiella data</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter för projektet med behörighet att visa ekonomi</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td>Visa eller högre behörigheter för projektet med behörighet att visa ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Definiera hur EAC ska beräknas
 

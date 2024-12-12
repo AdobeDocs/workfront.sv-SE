@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Beräkna potentiella riskkostnader
 description: I den potentiella riskkostnaden för ett projekt beaktas de potentiella kostnaderna för projektriskerna och sannolikheten för att de uppstår.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 
 Tänk på följande när du ser över den potentiella riskkostnaden för ett projekt:
 
-* Den planerade riskkostnaden för ett projekt är identisk med den potentiella riskkostnaden. 
-* Den potentiella riskkostnaden ingår inte i den planerade kostnaden för ett projekt. Den används i stället för att fastställa dess nettovärde. .
+* Den planerade riskkostnaden för ett projekt är identisk med den potentiella riskkostnaden.
+* Den potentiella riskkostnaden ingår inte i den planerade kostnaden för ett projekt. Den används i stället för att fastställa dess nettovärde.
 
 ## Hitta den potentiella riskkostnaden för ett projekt
 

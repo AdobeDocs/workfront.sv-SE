@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Beräkna nettovärde
 description: Nettovärdet för ett projekt är det sammanlagda förväntade värdet av projektet efter att man har beräknat dess nytta och tagit bort kostnaderna.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Beräkna nettovärde
 
-Nettovärdet för ett projekt är det sammanlagda förväntade värdet av projektet efter att man har beräknat dess nytta och tagit bort kostnaderna. 
+Nettovärdet för ett projekt är det sammanlagda förväntade värdet av projektet efter att man har beräknat dess nytta och tagit bort kostnaderna.
 
 ## Översikt över projektets nettovärde
 
-Adobe Workfront beräknar nettovärdet för ett projekt med följande formel: 
+Adobe Workfront beräknar nettovärdet för ett projekt med följande formel:
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

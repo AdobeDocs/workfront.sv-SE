@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: financials
 title: Hantera information i projektfinansieringsdelen
-description: Hantera information i projektfinansieringsdelen
-author: Alina
+description: Du kan visa eller redigera den ekonomiska informationen för ett projekt genom att gå till området Ekonomi i avsnittet Projektinformation.
+author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Du kan visa eller redigera den ekonomiska informationen för ett projekt genom a
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -30,26 +32,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td>
+   <td>
+   <p>Nytt: Ljus eller högre</p>
+   <p>eller</p>
+   <p>Aktuell: Granska eller senare</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomst till projekt och finansiella data</p> <p>Redigera åtkomst till projekt och finansiella data för att redigera finansiell information om projektet</p> <p><b>ANMÄRKNING</b></p>
-   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller öka åtkomst till projekt och finansiella data</p> <p>Redigera åtkomst till projekt och finansiella data för att redigera finansiell information om projektet</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter till ett projekt eller högre som innehåller Visa finansiella behörigheter</p> <p>Hantera behörigheter till projektet som innehåller Hantera finans för att redigera finansiell information för projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter till ett projekt eller högre som innehåller Visa finansiella behörigheter</p> <p>Hantera behörigheter till projektet som innehåller Hantera finans för att redigera finansiell information för projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Översikt över finanssektorn
 

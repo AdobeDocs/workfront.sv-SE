@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: financials
 title: Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt
 description: Du kan använda faktureringstariffer för att beräkna intäkterna från dina projekt när du multiplicerar dem med timmarna som har ägnats åt projektet. Mer information om faktureringstariffer och intäkter finns i artikeln Översikt över fakturering och intäkter.
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%

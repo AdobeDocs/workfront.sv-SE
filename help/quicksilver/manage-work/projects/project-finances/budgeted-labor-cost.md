@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: Förstå budgeterad arbetskostnad och budgeterade timmar för projekt
 description: Förstå budgeterad arbetskostnad och budgeterade timmar för projekt
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
