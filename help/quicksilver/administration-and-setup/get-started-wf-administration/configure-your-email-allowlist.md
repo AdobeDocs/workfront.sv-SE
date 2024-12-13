@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Andra tillåtelselista
 
-Om din organisation har Enterprise-planen kan du konfigurera en Adobe Workfront IP-tillåtelselista som begränsar åtkomsten till Workfront till 45 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront-programmet. Mer information finns i [Begränsa åtkomst till Adobe Workfront via IP-adress](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+Om din organisation har Enterprise-planen kan du konfigurera en Adobe Workfront IP-tillåtelselista som begränsar åtkomsten till Workfront till 75 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront-programmet. Mer information finns i [Begränsa åtkomst till Adobe Workfront via IP-adress](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 Om din brandvägg eller e-postserver är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista. Detta öppnar för kommunikation mellan din miljö och Adobe Workfront-servrarna. Mer information om detta finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

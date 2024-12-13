@@ -3,12 +3,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: security
 title: Begränsa åtkomst till Adobe Workfront via IP-adress
-description: Du kan konfigurera en Adobe Workfront IP tillåtelselista som begränsar åtkomsten till Workfront till 45 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront-programmet.
+description: Du kan konfigurera en Adobe Workfront IP tillåtelselista som begränsar åtkomsten till Workfront till 75 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront-programmet.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Begränsa åtkomst till Adobe Workfront via IP-adress
 
-Du kan konfigurera en Adobe Workfront IP tillåtelselista som begränsar åtkomsten till Workfront till 45 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront-programmet.
+Du kan konfigurera en Adobe Workfront IP tillåtelselista som begränsar åtkomsten till Workfront till 75 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront-programmet.
 
 Dessa IP-adresser eller IP-adressintervall ska anges av nätverksadministratören.
 
@@ -77,6 +77,6 @@ När du har lagt till IP-adresser i Workfront tillåtslista kan bara de IP-adres
 1. Klicka på **Lägg till IP-intervall** och ange IP-adressen eller det intervall med IP-adresser som du vill ska kunna komma åt Workfront.
 1. (Valfritt) Upprepa föregående steg om du vill lägga till ytterligare IP-adresser eller IP-adressintervall.
 
-   Du kan lägga till upp till 45 adresser eller intervall.
+   Du kan lägga till upp till 75 adresser eller intervall.
 
 1. Klicka på **Spara.**
