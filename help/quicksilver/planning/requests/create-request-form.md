@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -126,12 +126,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
 1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Skapa begärandeformulär**.
-1. Uppdatera namnet på förfrågningsformuläret. Som standard är formulärets namn **Namnlöst begärandeformulär**. <!--check this; you logged a bug to rename it to this but was it fixed?-->
+1. Uppdatera namnet på förfrågningsformuläret. Som standard är formulärets namn **Namnlöst formulär**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Valfritt) Lägg till en **beskrivning** för begärandeformuläret.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klicka på **Skapa**. Formuläret för förfrågan för den valda posttypen öppnas <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->.
+1. Klicka på **Skapa**. Formuläret för förfrågan för den valda posttypen öppnas <span class="preview"> på fliken Formulär </span>.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -159,7 +159,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
-   * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är inte tillgänglig än. Det går inte att redigera konfigurationen och värdet för ämnesfältet.
+   * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är ännu inte tillgänglig i produktionsmiljön. <span class="preview">Den är tillgänglig i förhandsvisningsmiljön.</span> Det går inte att redigera konfigurationen och värdet för ämnesfältet.
+
+     >[!TIP]
+     >
+     >Fältet **Ämne** kräver ett värde när det är synligt i begärandeformuläret. Du kan dock ta bort fältet **Ämne** om det behövs, och den som beställer kan inte se det i formuläret.
+
    * Alla fält som är associerade med posttypen.
 
      Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
@@ -190,14 +195,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa hur formuläret kommer att visas för andra användare när de kommer att använda det för att skicka en ny post.
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. 
+   <div class="preview">(Valfritt) Klicka på fliken **Konfiguration** och lägg sedan till minst en användare i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * När du associerar ett begärandeformulär med godkännare måste alla nya begäranden först godkännas av alla godkännare innan de genererar en ny post.
+   * Du kan lägga till en eller flera godkännare i ett begärandeformulär.
+   * Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte.
+   * Alla godkännare måste fatta ett beslut innan en begäran godkänns eller avslås.
+
+     Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
 
 1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 1. Klicka på **Publish** för att publicera formuläret och få en unik länk till det.
@@ -231,7 +241,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >     * <span class="preview">Personer</span>
    >
 
-1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. Användarna får ett felmeddelande när länken upphör att gälla och du måste uppdatera länkdatumet innan de kan komma åt formuläret igen.
+1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. Användarna får ett felmeddelande när länken har upphört att gälla och du måste uppdatera länkdatumet och generera en ny länk som de kan dela innan de kan komma åt formuläret igen.
 
    Du kan välja framtida datum inom 180 dagar från dagens datum.
 
@@ -241,7 +251,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Mer information om hur du skapar poster med hjälp av en länk till ett begärandeformulär finns i [Skicka Adobe Workfront Planning-begäranden](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klicka på **Spara** längst ned till höger på skärmen för att spara formuläret.
+1. Klicka på **Spara** i det nedre högra hörnet på fliken **Formulär** för att spara formuläret.
 1. Klicka på vänsterpilen till vänster om formulärets namn i rubriken för att stänga formuläret.
 
    Posttypssidan öppnas.

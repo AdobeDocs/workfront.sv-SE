@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 # Skicka Adobe Workfront Planning-begäranden för att skapa poster
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+<!--take Preview and Prod references out when releasing to Prod all-->
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -125,11 +126,11 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
 * Du kan bara få åtkomst till ett begärandeformulär för Workfront Planning-begäranden från en specifik länk till formuläret.
 * Du kan inte redigera en begäran efter att du har skickat den till Workfront Planning.
-* Varje skickad begäran skapar en post för den posttyp som är associerad med formuläret som du använder <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->
+* Varje skickad begäran skapar en post för den posttyp som är associerad med formuläret som du använder <span class="preview">om formuläret inte är associerat med ett godkännande, eller om godkännandet har beviljats av alla godkännare.</span>
 * Poster som skapas genom att frågeformulär skickas kan inte skiljas från poster som läggs till med någon annan metod. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 * <span class="preview">Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront </span>.
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
 ## Skicka en begäran till Workfront Planning
@@ -148,27 +149,26 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
    Ditt formulär skickas och följande saker händer:
 
-   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->En ny post läggs till i posttypen som är kopplad till formuläret.
+   * Om begärandeformuläret inte var associerat med ett godkännande, eller <span class="preview">om godkännandet beviljades av alla godkännare,</span> läggs en ny post till i posttypen som är associerad med formuläret.
 
-
-   * <!--If the request form was not associated with an approval, the--> <span class="preview"> Begäran läggs till i avsnittet Skickat i området Workfront-förfrågningar och en ny post läggs till på posttypssidan.</span>
+   * Om begärandeformuläret inte var associerat med ett godkännande läggs <span class="preview">-begäran till på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar och en ny post läggs till på posttypsidan.</span>
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview">Alla användare som har tillgång till minst en arbetsyta kan visa fliken Planering i området Begäranden. Du kan bara visa de begäranden som du har skickat. Workfront-administratörer kan visa alla begäranden i systemet. </span> <!--ensure this is correct; asking team in slack-->
+     ><span class="preview">Alla användare som har tillgång till minst en arbetsyta kan visa fliken Planering i området Begäranden. Du kan bara visa de förfrågningar som du eller någon annan har skickat till arbetsytorna som du har minst behörighet att visa. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet. </span> <!--ensure this is correct; asking team in slack-->
 
-   <!--
-   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+   * <span class="preview">Om begärandeformuläret associerades med ett godkännande sparas begäran tillfälligt på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar. Ingen post skapas för den posttyp som är associerad med begärandeformuläret.</span>
 
-      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
-   -->
-   <!--
+     <span class="preview">Mer information finns i [Lägga till ett godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
+   * <span class="preview">Du får ett meddelande i appen och ett e-postmeddelande om att begäran har skickats eller skickats för granskning.</span>
+   * <span class="preview">Om begärandeformuläret associerades med ett godkännande får godkännarna ett meddelande i appen och ett e-postmeddelande för att granska och godkänna begäran.</span>
 
-   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
-   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
-   -->
+     >[!NOTE]
+     >
+     ><span class="preview">E-postmeddelanden och meddelanden i appen visas bara när din organisations instans av Workfront är registrerad på Adobe Unified Experience.</span>
+
 
 
 

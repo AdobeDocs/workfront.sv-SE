@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 
 # Hantera e-postmeddelanden om Adobe Workfront Planning
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -25,6 +29,14 @@ Du kan få e-postmeddelanden från Workfront Planning när följande scenarier f
   Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
 * Någon ber om din behörighet att komma åt en vy eller arbetsyta
 * Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--Isk confirmed that there is nno email for denying access but did not test-->
+
+<div class="preview">
+
+* Du skickar en Workfront Planning-förfrågan. Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* Någon godkänner eller avvisar en Workfront Planning-begäran som du har skickat in. Mer information finns i [Godkänn en begäran i Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
+* Statusen ändras till en Workfront Planning-förfrågan som du har skickat in.
+
+</div>
 
 
 ## Åtkomstkrav
@@ -155,11 +167,11 @@ OLD:
 
 ## Hantera e-postmeddelanden när någon taggar dig i en kommentar
 
-1. (Villkorligt) När någon taggar dig i en kommentar för en post, går du till e-postmeddelandet som informerar dig om taggen och kommentaren. E-postmeddelandets avsändare är Adobe Experience Cloud.
+1. (Villkorligt och valfritt) När någon taggar dig i en kommentar för en post går du till e-postmeddelandet som informerar dig om taggen och kommentaren. E-postmeddelandets avsändare är Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
-1. Klicka på meddelandet i rutan **Workfront**.
+1. (Valfritt) Klicka på meddelandet i rutan **Workfront** i e-postmeddelandet.
 
    Sidan med postinformation öppnas i Workfront. Du kan uppdatera posten eller svara på kommentaren.
 
@@ -168,8 +180,27 @@ Sidan **Meddelanden** öppnas i Adobe Experience Cloud. Alla meddelanden från a
 
 ## Hantera e-postmeddelanden när du begär och beviljar behörigheter
 
-Du får e-postmeddelanden när någon begär eller ger dig behörighet till en vy eller arbetsyta.
+1. (Villkorligt och valfritt) När någon har begärt eller gett dig behörighet att komma åt en vy eller en arbetsyta går du till det e-postmeddelande som informerar dig om behörighetsbegäran. E-postmeddelandets avsändare är Adobe Experience Cloud.
+
+1. (Valfritt) Klicka på meddelandet i rutan **Workfront** i e-postmeddelandet.
+
+   Sidan med postinformation öppnas i Workfront. Du kan uppdatera posten eller svara på kommentaren.
+
+1. (Villkorligt) Om det är tillgängligt klickar du på **Visa alla meddelanden**.
+Sidan **Meddelanden** öppnas i Adobe Experience Cloud. Alla meddelanden från alla Adobe Experience Cloud-program visas.
+
 
 Mer information om att begära, bevilja eller neka behörigheter för en vy eller arbetsyta finns i [Begär behörigheter för en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
 
 Information om hur du hanterar dina Workfront Planning-meddelanden finns i [Hantera aviseringsinställningar för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Hantera e-postmeddelanden om att skicka, godkänna eller avslå Workfront Planning-begäranden
+
+1. (Valfritt) Gå till e-postmeddelandet som Workfront skickar till dig
+när du har skickat en begäran eller efter att en begäran som du har skickat har godkänts eller avvisats. E-postmeddelandets avsändare är Adobe Workfornt.
+
+1. (Valfritt) Klicka på **Öppna begäran**. Detta öppnar förfrågan i Workfront Planning.
+
+1. Klicka på ikonen **Notifications** ![](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn för att komma åt sidan **Notifications** .
+
+   Information om hur du hanterar dina Workfront Planning-meddelanden finns i [Hantera aviseringsinställningar för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

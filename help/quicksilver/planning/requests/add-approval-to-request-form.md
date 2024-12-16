@@ -1,30 +1,19 @@
 ---
-title: Lägga till ett godkännande i ett begärandeformulär
+title: Lägga till ett godkännande i ett begärandeformulär i Adobe Workfront Planning
 description: Du kan lägga till en godkännandeprocess i ett Adobe Workfront Planning-begärandeformulär, för att initiera ett godkännande för varje skickad begäran, innan den skapar en post.
-hide: true
-hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
 
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-# Lägga till ett godkännande i ett begärandeformulär
+# Lägga till ett godkännande i ett begärandeformulär i Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -127,6 +116,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Du kan lägga till en eller flera godkännare i ett begärandeformulär. Du kan bara lägga till användare som godkännare.
 * När du lägger till flera godkännare i ett begärandeformulär måste alla godkännare acceptera begäran innan en post skapas i Workfront Planning.
+* Om alla godkännare godkänner begäran skapas en post för den posttyp som är associerad med förfrågningsformuläret.
+* Om minst en godkännare avvisar begäran och alla andra godkänner den, skapas en begäran för området Förfrågningar i Workfront, men ingen post skapas för den posttyp som är associerad med förfrågningsformuläret.
 * Det är valfritt att lägga till godkännanden i ett begärandeformulär. Workfront Planning skapar omedelbart en post när en begäran skickas, om begärandeformuläret inte är kopplat till ett godkännande.
 
 ## Lägga till ett godkännande i ett begärandeformulär
@@ -143,16 +134,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Börja skriva namnet på en godkännare och markera det sedan när det visas i listan.
 
-   >[!TIP]
+   <!--most of the Note below is duplicated in the Create a request form article-->
+
+   >[!NOTE]
    >
-   >    Om du lägger till fler än en godkännare måste alla godkännare godkänna begäran innan Workfront Planning skapar en post.
+   >
+   >* Du kan lägga till en eller flera godkännare i ett begärandeformulär.
+   >
+   >* Om du lägger till fler än en godkännare måste alla godkännare godkänna begäran innan Workfront Planning skapar en post.
+   >
+   >* Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
+   >
+   >* Alla godkännare måste fatta ett beslut innan en begäran godkänns eller avslås.
+
 
 1. (Valfritt) Klicka på **Publish** om du aldrig har delat begärandeformuläret tidigare
 
    eller
 
    Klicka på **Dela** för att dela formuläret och sedan på **Kopiera länk**.
-1. (Valfritt) När en användare har använt länken som du delar och skickar en begäran, skickar Workfront Planning ett meddelande om godkännande och ett e-postmeddelande till godkännarna.
+1. (Valfritt) När en användare har använt länken som du delar och skickar en begäran skickar Workfront Planning ett meddelande om godkännande i appen och ett e-postmeddelande till godkännarna.
+
+   >[!NOTE]
+   >
+   >   Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
+
 
    Mer information om hur du godkänner begäranden finns i [Godkänn en begäran](/help/quicksilver/planning/requests/approve-request.md).
 

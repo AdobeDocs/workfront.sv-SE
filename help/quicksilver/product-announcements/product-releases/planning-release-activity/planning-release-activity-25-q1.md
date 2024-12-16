@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,42 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Konfigurera godkännanden för Workfront Planning-begäranden
+
+>[!NOTE]
+>
+>Förhandsversion: 16 december 2024; Produktionsrelease för alla kunder: 16 januari 2025
+
+Du kan nu associera ett godkännande med ett Workfront Planning-begärandeformulär. Du kan bara lägga till användare som godkännare av en begäran. När begäran har skickats skickas den först till alla godkännare för att godkänna den innan en post skapas.
+
+Mer information finns i [Lägga till ett godkännande i ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+
+## Meddelanden om inskickning av begäranden, godkännanden och statusändringar
+
+>[!NOTE]
+>
+>Förhandsversion: 16 december 2024; Produktionsrelease för alla kunder: 16 januari 2025
+
+Du får nu ett meddelande i appen samt ett e-postmeddelande om följande åtgärder när du har skickat in en begäran i Workfront Planning:
+
+* En begärande får ett meddelande om att en begäran har skickats
+
+* En begärande får ett meddelande om att en begäran har godkänts eller avvisats
+
+* En godkännare får ett meddelande om att en begäran har skickats till dem för godkännande.
+
+>[!NOTE]
+>
+>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
+
+Mer information om hur du skickar eller godkänner begäranden finns i följande artiklar:
+
+* [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [Godkänn en begäran i Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
 ## Intelligent sökning vid sökning efter fälttyp
 
@@ -138,7 +174,7 @@ Du kan nu lägga till följande fälttyper i ett formulär för posttypsbegäran
 
 Före den här förbättringen kunde dessa typer av fält inte läggas till i förfrågningsformulär i Workfront Planning.
 
-Mer information finns i Skapa och hantera ett begärandeformulär i Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md).
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Begränsa offentlig delning av begärandeformulär som innehåller vissa fälttyper
 

@@ -1,33 +1,19 @@
 ---
-title: Godkänn en begäran
+title: Godkänn en begäran i Adobe Workfront Planning
 description: När en användare skickar en begäran till ett begärandeformulär som är kopplat till ett godkännande i Adobe Workfront Planning får godkännarna ett meddelande och ett e-postmeddelande om det väntande godkännandet. De måste godkänna begäran innan Workfront Planning skapar ett objekt.
-hide: true
-hidefromTOC: true
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 
-<!--
-
----
-title: Approve a Request
-description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
----
-
--->
-
-
-# Godkänn en begäran
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Godkänn en begäran i Adobe Workfront Planning
 
 <!--take Preview and Production references at Production time-->
 
@@ -54,9 +40,8 @@ Vi rekommenderar att du också ser följande artiklar:
 Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront med en av följande begärandestatusar:
 
 * **Väntande granskning**: Den här statusen visas när ingen av godkännarna har öppnat begäranobjektet.
-* **Under granskning**: Statusen ändras till **Under granskning** när minst en godkännare öppnar begäranobjektet. Status för begäran förblir **Under granskning** tills alla godkännare har godkänt begäran.
-* **Godkänd**: När en godkännare godkänner begäranobjektet blir deras individuella status
-* **Godkänd**, men den övergripande statusen för begärandeobjektet är **Under granskning** tills alla godkännare har fattat sina beslut.
+* **Under granskning**: Statusen **Väntande granskning** ändras till **Under granskning** när minst en godkännare öppnar begäranobjektet. Status för begäran förblir **Under granskning** tills alla godkännare har godkänt begäran.
+* **Godkänd**: När en godkännare godkänner begäranobjektet blir deras individuella status **Godkänd**, men den övergripande statusen för begäranobjektet förblir **Under granskning** tills alla godkännare har fattat sina beslut. När alla godkännare godkänner en begäran blir förfrågansstatusen **Godkänd**.
 * **Slutförd**: Om alla godkännare godkänner begäranobjektet ändras dess status till **Slutförd** eller om begäran inte behövde något godkännande.
 * **Avvisad**: Om någon godkännare avvisar begärandeobjektet blir statusen **Avvisad**. Ingen post skapas och en ny begäran måste skickas för att posten ska kunna skapas.
 
@@ -148,25 +133,39 @@ Godkännare får följande meddelanden om en begäran som väntar på deras godk
 * Ett meddelande i appen
 * Ett e-postmeddelande
 
+>[!NOTE]
+>
+>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
+
 Så här godkänner du en begäran:
 
 1. Gör något av följande:
 
-   * Om du har tillgång till Workfront Planning klickar du på **Huvudmeny** ![](assets/dots-menu.png) i skärmens övre högra hörn, eller på **Huvudmeny** ![](assets/lines-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och sedan på **Begäranden** > **Skickat** > **Planering**. Klicka sedan på begäran med statusen **}Under granskning**. <!--did they change this to Pending approval; logged  a bug-->
+   * Om du har tillgång till Workfront Planning och kan visa minst en arbetsyta klickar du på **Huvudmeny** ![](assets/dots-menu.png) i skärmens övre högra hörn, eller på **Huvudmeny** ![](assets/lines-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klickar sedan på **Begäranden** > **Skickat** > **Planering** och sedan på begäran med statusen **Väntande granskning** eller **Under granskning** .
 
      >[!TIP]
      >
-     >    Om du inte har tillgång till Workfront Planning kan du bara godkänna en begäran med dina aviseringar.
+     >Om du inte har tillgång till Workfront Planning, eller om du inte har åtkomst till att visa några arbetsytor, kan du bara få åtkomst till en begäran om att godkänna den via e-post eller meddelanden i appen.
 
-
-   * Gå till området **Notifications** i skärmens övre högra hörn och klicka på meddelandet om en begäran som väntar på ditt godkännande för att öppna begäran.
-   * Gå till e-postmeddelandet i ditt e-postmeddelande som meddelar dig om en begäran som väntar på ditt godkännande och klicka sedan för att öppna begäran. <!--add the name of the button here, from the email-->
+   * Klicka på **områdesikonen** ![](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn och klicka på meddelandet om en begäran som väntar på ditt godkännande för att öppna begäran.
+   * Gå till e-postmeddelandet i ditt e-postmeddelande som meddelar dig om en begäran som väntar på ditt godkännande och klicka sedan på **Öppna begäran** för att öppna begäran. <!--add the name of the button here, from the email-->
 
    Förfrågningssidan öppnas i skrivskyddat läge.
 
    ![](assets/read-only-reqeust-page-in-review-status.png)
+
 1. (Valfritt) Klicka på ikonen **Godkännanden** ![](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande: <!--did they fix the button and removed the &??-->
 
-   * **Godkänn**: Detta godkänner begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret.
-   * **Avvisa**: Detta avvisar begäran. Ingen post skapas för den posttyp som är associerad med begärandeformuläret. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
+   * **Godkänn**: Detta godkänner begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret efter att alla godkännare har godkänt begäran.
+   * **Avvisa**: Detta avvisar begäran, även om du är den enda godkännaren som avvisar den. Ingen post skapas för den posttyp som är associerad med begärandeformuläret.
+
+   Användaren som skickade begäran får ett e-postmeddelande och i ett program-meddelanden när deras begäran har godkänts eller avvisats.
+
+   Status för begäran ändras till följande, beroende på beslutet om godkännande:
+
+   * **Slutförd**: Begäran har godkänts.
+   * **Avvisad**: Begäran nekades.
+
+   Begäran finns kvar på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
+

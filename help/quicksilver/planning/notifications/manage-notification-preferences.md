@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 
 # Hantera aviseringsinställningar för Adobe Workfront Planning
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -23,6 +27,14 @@ Du kan få meddelanden i programmet eller via e-post när följande åtgärder i
 * Någon lägger till dig i en kommentar på postsidan
 * Någon ber om behörighet att komma åt en vy eller arbetsyta
 * Någon ger dig behörighet att komma åt en vy eller arbetsyta <!--I could not test this but Isk confirmed-->
+
+<div class="preview">
+
+* Du skickar en Workfront Planning-förfrågan.
+* Någon godkänner eller avvisar en Workfront Planning-begäran som du har skickat in.
+* Statusen ändras till en Workfront Planning-förfrågan som du har skickat in.
+
+</div>
 
 ## Åtkomstkrav
 
@@ -172,7 +184,12 @@ Avmarkera de meddelanden som du vill sluta ta emot.
 1. Följande meddelanden är tillgängliga för Workfront:
 
    * **Meningar**: Du får ett meddelande när någon taggar dig i en kommentar i Workfront Planning
-   * **Begäranden**: Du får ett meddelande när någon begär eller ger dig behörighet till ett Workfront Planning-objekt
+   * **Begäranden**: Du får ett meddelande när någon har gjort något av följande:
+
+      * Begär eller ger dig behörighet till ett Workfront Planning-objekt
+      * <span class="preview">Du har skickat in en Workfront Planning-begäran</span>
+      * <span class="preview">Status för en Workfront Planning-begäran som du har skickat in ändringar för</span>
+      * <span class="preview">Begäranden, beviljanden eller avvisar ett godkännande av en Workfront Planning-begäran</span>
 
    Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
