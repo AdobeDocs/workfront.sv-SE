@@ -7,7 +7,7 @@ description: Om du har planen Select eller Premium kan du tillhandahålla enkel 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -59,12 +59,12 @@ Det här är länken till din SSO-server (till exempel **https://sso.mycompany.c
 1. Ange **inloggnings-URL** (3).
 Det här är den URL som kommer att anropas för att dirigera om användarna till din identitetsleverantör.
 
-1. Det här är inte en faktisk URL som du anger i webbläsaren, utan en slutpunkt som bearbetar den information som vi skickar för att visa inloggningsskärmen.
+   Det här är inte en faktisk URL som du anger i webbläsaren, utan en slutpunkt som bearbetar den information som vi skickar för att visa inloggningsskärmen.
 
-Ange **Logout URL** (4).
+1. Ange **Logout URL** (4).
 Detta är den URL som du kommer att returnera till efter att du loggat ut, till exempel
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. Ange **certifikatets fingeravtryck** (5).
 1. SHA1-fingeravtryck för SAML-certifikatet som tillhandahålls av din SAML-identitetsleverantör.
