@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Mer information finns i [Skapa och redigera företag](/help/quicksilver/administ
 
 >[!NOTE]
 >
->Förhandsversion: 6 november 2024; Produktionsrelease för alla kunder: 6 november 2024
+>Förhandsgranskningsversion: 12 december 2024 togs bort tillfälligt; återsläppt till produktion för alla kunder: 17 december 2024
 
 Vi har uppgraderat Workfront huvudsakliga navigerings- och sekundärnavigeringsområden för att förbättra prestandan. Ändringarna är minimala.
 
