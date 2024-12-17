@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Marknadsföring över domäner stöds inte för närvarande. Du måste uppgrader
 
 Nej. Miljökampanj är tillgänglig för både IMS-aktiverade och icke-IMS Workfront-instanser.
 
-## Hur kan vi ta reda på om vår Workfront-instans finns på en Prime- eller Ultimate-licens?
+## Hur kan vi ta reda på om Workfront finns i en licens för Prime eller Ultimate?
 
 ### Svar
 
@@ -68,7 +68,6 @@ Paketåterställningen är tillgänglig för det senaste paketet inom 24 timmar 
 ## Finns det något alternativ för att hoppa över befordran av enskilda komponenter? Var alternativen `Use Existing`, `Overwrite` och `Save with a new Name` finns, kan `Skip` läggas till så att du kan hoppa över befordran av enskilda parametrar?
 
 ### Svar
-
 
 * &quot;Använd befintlig&quot; är detsamma som att&quot;hoppa över&quot; eller ignorera distributionen, eftersom den mappar till det befintliga objektet i målmiljön och inte gör några ändringar.
 * Om du vill hoppa över objekt rekommenderar vi att du tar bort
