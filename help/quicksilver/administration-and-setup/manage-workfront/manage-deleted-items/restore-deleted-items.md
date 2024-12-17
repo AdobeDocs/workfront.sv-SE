@@ -8,7 +8,7 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 0%
@@ -137,7 +137,7 @@ När du återställer ett projekt, en uppgift eller ett problem återställs int
 
 * Lösa objekt
 
-  Ett matchande objekt är ett konverterat fel som har konfigurerats med alternativet **Behåll det ursprungliga felet och koppla dess upplösning till det här** &lt;**projektet** eller **aktiviteten)**>. Om du tar bort det överordnade projektet eller den överordnade aktiviteten identifieras problemet inte längre som ett matchande objekt eftersom det inte längre finns någon länk som ansluter det till projektet eller aktiviteten. Om du återställer den överordnade länken återställs inte länken.
+  Ett matchande objekt är ett konverterat fel som har konfigurerats med alternativet **Behåll det ursprungliga felet och koppla dess upplösning till det här** &lt;**(projekt** eller **aktivitet)**>. Om du tar bort det överordnade projektet eller den överordnade aktiviteten identifieras problemet inte längre som ett matchande objekt eftersom det inte längre finns någon länk som ansluter det till projektet eller aktiviteten. Om du återställer den överordnade länken återställs inte länken.
 
   Mer information om hur en Workfront-administratör eller gruppadministratör konfigurerar problem så att de matchar matchande objekt när de konverteras finns i [Konfigurera inställningar för systemomfattande åtgärder och problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) och [Konfigurera inställningar för aktiviteter och problem för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 

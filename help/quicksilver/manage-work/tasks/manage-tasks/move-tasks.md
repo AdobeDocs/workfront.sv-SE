@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Flytta uppgifter
+title: Flytta aktiviteter
 description: Du kan flytta uppgifter till olika projekt eller till olika överordnade uppgifter i Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
 
 # Flytta uppgifter
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Du kan flytta uppgifter i Adobe Workfront mellan följande objekt:
 
@@ -27,6 +36,8 @@ Du kan flytta en enstaka uppgift, eller flera uppgifter åt gången, från en li
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra åtgärderna i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -34,29 +45,29 @@ Du måste ha följande åtkomst för att kunna utföra åtgärderna i den här a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> <p>Ny plan: Standard </p> 
  <p>eller</p>  
 <p>Aktuell plan: Arbete eller högre </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för uppgifter</p> <p>Contribute eller högre behörigheter för projektet med möjlighet att lägga till uppgifter</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för uppgifter</p> <p>Contribute eller högre behörigheter för projektet med möjlighet att lägga till uppgifter</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du flyttar uppgifter
 
@@ -75,6 +86,14 @@ Tänk på följande när du flyttar en uppgift:
 Följande objekt flyttas inte med uppgiften som standard:
 
 * Milstolpar
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## Flytta aktiviteter i en lista
 
@@ -100,7 +119,7 @@ Följande objekt flyttas inte med uppgiften som standard:
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
-   Rutan Flytta uppgift visas
+   Rutan **Flytta aktivitet** visas
 
 1. Fortsätt med att flytta aktiviteten enligt beskrivningen i avsnittet [Flytta en aktivitet på aktivitetsnivå](#move-a-task-at-the-task-level) i den här artikeln med början från steg 4.
 

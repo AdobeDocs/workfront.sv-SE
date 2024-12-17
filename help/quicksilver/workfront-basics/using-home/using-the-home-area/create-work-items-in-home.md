@@ -1,21 +1,23 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Skapa arbetsobjekt och projekt från Hem-området
+title: Skapa arbetsobjekt och projekt från hemområdet
 description: Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Home].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # Skapa arbetsobjekt och projekt från Hem-området
 
-Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Home]. Från Hem kan du
+Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Home].
+
+Från Hem kan du
 
 * Skapa personliga uppgifter för dig själv
 * Skicka begäranden
@@ -23,6 +25,8 @@ Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Home]. Från He
 * Skapa projekt från en mall, ett tomt projekt eller importera ett MS-projekt.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -52,16 +56,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Skapa ett personligt att göra-objekt
 
-Du kan skapa ett personligt att göra-objekt i området [!UICONTROL Home]. Att göra-objekten är personliga uppgifter som du själv skapar.
+Du kan skapa ett personligt att göra-objekt i Att göra-widgeten i området [!UICONTROL Home]. Att göra-objekten är personliga uppgifter som du själv skapar.
 
 Du och andra användare kan visa dina personliga uppgifter i en personlig uppgiftsrapport. Därifrån kan de vid behov lägga till dem i projekt.
+
+>[!TIP]
+>
+>Arbetsobjekt som du skickar till andra användare eller till dig själv från användarprofilsidan visas också i Att göra-widgeten i hemområdet för användaren. Mer information finns i [Skapa personliga uppgifter](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
+
 
 Så här skapar du ett att göra-objekt:
 
 1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
-1. (Villkorligt) Klicka på **Anpassa** och sedan på **Att göra-uppgifter** för att lägga till att göra-widgeten på hemskärmen.
+1. (Villkorligt) Klicka på **Anpassa** och sedan på **Att göra** för att lägga till Att göra-widgeten på hemskärmen.
 1. Gå till widgeten **Att göra** och klicka sedan på **Lägg till att göra**.
 1. Skriv namnet på ditt personliga att göra-objekt och klicka sedan på Enter.
 1. (Valfritt) Klicka på ikonen **Datum** ![](assets/date-icon.png) för att lägga till ett förfallodatum för objektet.

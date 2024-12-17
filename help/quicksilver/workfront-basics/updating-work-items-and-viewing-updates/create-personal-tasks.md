@@ -2,28 +2,28 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Skapa personliga uppgifter
-description: Personliga uppgifter är tillfälliga arbetsförfrågningar som du skickar till en användare, eller att göra-uppgifter som du själv skapar i hemområdet. Workfront sparar tillfälliga arbetsförfrågningar och gör objekt som personliga uppgifter.
+description: Personliga uppgifter är tillfälliga arbetsförfrågningar som du skickar till en användare, till dig själv eller att göra-uppgifter som du skapar själv i hemområdet. Workfront sparar tillfälliga arbetsförfrågningar och gör objekt som personliga uppgifter.
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
-
 
 # Skapa personliga uppgifter
 
 <!--Audited: 10/2024-->
 
-Personliga uppgifter är tillfälliga arbetsförfrågningar som du skickar till en användare, eller att göra-uppgifter som du själv skapar i hemområdet.
+Personliga uppgifter är tillfälliga arbetsförfrågningar som du skickar till en användare eller skickar till eller lägger till själv.
 
-Workfront sparar tillfälliga arbetsförfrågningar och gör objekt som personliga uppgifter.
+Adobe Workfront sparar tillfälliga arbetsförfrågningar och gör objekt som personliga uppgifter.
 
-Som standard har alla användare i Workfront ett projekt som heter&quot;&lt; Deras fullständiga namn >&#39;s Tasks&quot;. Exempel: &quot;Rick Kuvec&#39;s Tasks&quot;.
+Som standard har alla användare i Workfront ett personligt projekt som heter &quot;&lt; Användarens fullständiga namn>&#39;s Tasks&quot;. Exempel: &quot;Svensson Svensson&#39;s Tasks&quot;.
 
-Det här projektet visas inte i sökningar och är dolt. Alla personliga uppgifter lagras i det här projektet.
+Det personliga projektet för varje användare visas inte i sökningar och är dolt. Alla personliga uppgifter lagras i det här projektet.
 
 Du kan flytta personliga uppgifter till ett projekt om det behövs.
 
@@ -33,10 +33,12 @@ Du kan skapa personliga uppgifter på följande sätt:
 
   Mer information finns i [Skapa arbetsobjekt och projekt från startdelen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-* Skapa en personlig arbetsförfrågan till en annan användare
-* Skapa en personlig arbetsförfrågan för din användare
+* Skapa och skicka en personlig arbetsförfrågan till en annan användare från användarprofilsidan
+* Skapa och skicka en personlig arbetsförfrågan till dig själv från din profilsida
 
-I den här artikeln beskrivs hur du skapar en personlig arbetsförfrågan för en användare.
+I den här artikeln beskrivs hur du kan skapa en personlig arbetsförfrågan för en användare eller för dig själv från sidan med användarprofiler.
+
+Oavsett hur du lägger till en personlig uppgift kan du hitta den i samma delar av Workfront. Mer information finns i avsnittet [Leta reda på personlig uppgift](#locate-personal-tasks) i den här artikeln.
 
 ## Åtkomstkrav
 
@@ -57,9 +59,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
    <td> 
-   <p>Aktuell: Planerar att skicka begäranden till andra användare. Alla användare kan skapa egna arbetsförfrågningar.</p>
    <p>Nytt: Standard för att skicka begäranden till andra användare. Alla användare kan skapa egna arbetsförfrågningar.</p> 
-   </td> 
+   <p>Aktuell: Planerar att skicka begäranden till andra användare. Alla användare kan skapa egna arbetsförfrågningar.</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
@@ -98,19 +100,17 @@ Rutan **Skicka en arbetsförfrågan** till användaren visas.
 
 1. Klicka på **Skicka begäran** för att spara arbetsbegäran.
 
-   Arbetsbegäran sparas som en personlig uppgift i Workfront och läggs till i din To do-widget i hemområdet.
+   Arbetsbegäran sparas som en personlig uppgift i Workfront och läggs till i användarens Att göra-widget i hemområdet. Om du skickar en arbetsförfrågan till dig själv visas den i din Att göra-widget i Hem.
 
-   <!--this last step will need to be updated when they fix this functionality and the work requests you create for others actually go to their To do widget instead of yours-->
 
 ## Hitta personliga uppgifter
 
 Du kan hitta personliga uppgifter i följande områden:
 
-* The To do widget in the Home area. Mer information finns i [Skapa arbetsobjekt och projekt från startdelen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* The To-dos widget in the Home area of the user the personal request was sent to.
 
-* En personlig uppgiftsrapport eller -lista. Du kan skapa och använda ett personligt uppgiftsfilter på en aktivitetsrapport eller -lista. Mer information finns i [Filtrera: personliga uppgifter](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+  Mer information finns i [Skapa arbetsobjekt och projekt från startdelen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
+* En personlig uppgiftsrapport eller -lista. Du kan skapa och använda ett personligt uppgiftsfilter på en aktivitetsrapport eller -lista om du bara vill visa personliga uppgifter och exkludera projektuppgifter.
 
-
-
-
+  Mer information finns i [Filtrera: personliga uppgifter](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).

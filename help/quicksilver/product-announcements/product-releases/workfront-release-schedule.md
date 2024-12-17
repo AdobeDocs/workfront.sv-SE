@@ -8,9 +8,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Månads- och kvartalsvisa releaser planeras vara tillgängliga torsdagen den and
 
 Utgåvor äger vanligtvis rum cirka 8-10 amerikanska Mountain Time kvällen före utgivningsdatumet.
 
-I nästa version blir funktionerna i Förhandsgranska tillgängliga i produktionsmiljön. I vissa fall görs dock funktionerna tillgängliga i produktionsmiljön utanför en schemalagd release. Dessa ändringar finns kvar i förhandsgranskningen i minst två veckor för att ge dig tillräckligt med tid att bekanta dig med ändringarna. Dessa ändringar kommuniceras också via meddelandecentret när de läggs till i förhandsvisningen.
+I nästa version blir funktionerna i Förhandsgranska tillgängliga i produktionsmiljön. I vissa fall görs dock funktionerna tillgängliga i produktionsmiljön utanför en schemalagd release. Dessa ändringar är vanligtvis kvar i förhandsgranskningen i minst två veckor för att ge dig tillräckligt med tid för att lära dig ändringarna.
 
 Mer information om kvartalsvisa och snabba versionsprocesser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 

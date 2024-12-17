@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
 
 # Bevilja användaren fullständig administrativ åtkomst
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Nytt: Standard</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information finns i <a href="#" class="MCXref xref selected">Bevilja en användare fullständig administrativ åtkomst</a>.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör. </td> 
   </tr> 
  </tbody> 
 </table>
 
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Ge fullständig systemadministratörsåtkomst till en enskild användare
@@ -64,11 +68,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 {{step-1-to-users}}
 
 1. Klicka på namnet på den användare som du vill ge administratörsbehörighet till.
-1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om användarnamnet och klicka sedan på **Redigera**.
 
-1. Klicka på **Åtkomst** i rutan **Redigera person** som visas.
-
-1. Välj åtkomstnivån **Systemadministratör** i listrutan **åtkomstnivå**.
+   Rutan **Redigera person** visas.
+1. Klicka på **Åtkomst** i den vänstra panelen.
+1. Välj åtkomstnivån **Systemadministratör** i listrutan **Åtkomstnivå**.
 
    Beroende på ändringar som gjorts i systemet kan namnet på den här åtkomstnivån ha ändrats.
 
@@ -78,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Åtkomst för en Workfront-administratör jämfört med åtkomst för en Plan-användare med administratörsbehörighet  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-De två tabellerna nedan visar skillnaden mellan en användares åtkomstbehörighet med en Workfront-administratörsbehörighet och en användares åtkomstnivå med en avtalslicens med vissa administrativa rättigheter.
+De två tabellerna nedan visar skillnaden mellan en användares åtkomstbehörighet med Workfront-systemadministratörsbehörighet och en användares åtkomstnivå med en avtalslicens med vissa administrativa rättigheter.
 
 Workfront-administratörer kan visa alla objekt i systemet (oavsett vem som skapade dem), skapa nya och ändra eller ta bort befintliga. De har fullständig åtkomst till alla objekt i systemet.
 

@@ -6,9 +6,10 @@ title: 'Filter: Personliga uppgifter'
 description: Aktivitetsfiltret returnerar tillfälliga arbetsbegäranden som skickas till en användare eller att göra-objekt som lagts till av användare i hemområdet. Personliga uppgifter är inte kopplade till ett projekt, men de kan flyttas till ett projekt om det behövs.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Aktivitetsfiltret returnerar tillfälliga arbetsbegäranden som skickas till en användare eller att göra-objekt som lagts till av användare i hemområdet.
+Aktivitetsfiltret returnerar tillfälliga arbetsbegäranden som skickas till en användare, eller att göra-objekt som lagts till av användare i deras Att göra-widget i hemområdet.
 
 Ad hoc-arbetsbegäranden och att göra-objekt sparas i Adobe Workfront som personliga uppgifter.
 
-Personliga uppgifter är inte kopplade till ett projekt, men de kan flyttas till ett projekt om det behövs.
+Personliga uppgifter är inte kopplade till ett projekt, men de kan flyttas till ett projekt om det behövs. Mer information finns i [Skapa personliga uppgifter](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
 ![](assets/personal-tasks-report.png)
 
@@ -75,7 +76,7 @@ Så här skapar du det här filtret:
 1. (Villkorligt) Välj följande filtervillkor:
 
    * Från ett listfilter: **Aktivitet** > **Personligt** **Är sant**
-   * Från ett rapportfilter: **Aktivitet** > **Personligt** > **Lika med** > **Sant**.
+   * Från ett rapportfilter: **Aktivitet** > **Personligt** > **Lika (skiftlägeskänsligt)** > **Sant**.
 1. Spara filtret.
 
    I listan visas endast personliga uppgifter som inte finns i några projekt.
