@@ -6,16 +6,20 @@ description: Personer måste läggas till i styrelsen som medlemmar innan de kan
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Lägga till eller ta bort medlemmar från en anslagstavla
 
+{{highlighted-preview}}
+
 Personer och team måste läggas till i styrelsen som medlemmar innan de kan se styrelsen.
+
+Den som har skapat en styrelse är som standard ägare. Styrelseledamot är den enda person som kan ta bort eller uppdatera brädans filter på panelen Konfigurera. <span class="preview">Det är bara en systemadministratör eller den aktuella kortägaren som kan ändra kortets ägare.</span>
 
 ## Åtkomstkrav
 
@@ -80,3 +84,23 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >[!NOTE]
    >
    >Du kan inte ta bort styrelsens ägare.
+
+<div class="preview">
+
+## Ändra styrelsens ägare
+
+>[!NOTE]
+>
+>Det är bara en systemadministratör eller den aktuella styrelseledamöten som kan ändra styrelsens ägare. En styrelse kan bara ha en ägare.
+
+1. Gå till styrelsen.
+1. Klicka på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon-spectrum.png) bredvid kortnamnet och välj sedan **[!UICONTROL Change board owner]**.
+1. I dialogrutan Ändra ägare av rityta söker du efter och väljer den användare som du vill göra ägare till.
+
+   Du kan inte söka efter användare som redan är medlemmar i styrelsen. Om du vill göra en befintlig medlem till ägare måste du först ta bort dem från styrelsen. Om en användare blir styrelsemedlem läggs de till i styrelsen.
+
+   Endast en användare kan vara styrelsemedlemmar. Ett team kan inte vara ägare.
+
+1. Klicka på [!UICONTROL **Uppdatera**].
+
+</div>
