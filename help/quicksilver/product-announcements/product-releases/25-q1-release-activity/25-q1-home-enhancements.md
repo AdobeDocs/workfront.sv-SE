@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,58 @@ ht-degree: 0%
 Den här sidan beskriver alla förbättringar av Home som gjorts i första utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+<!--## Catch up on work in Priorities
+
+>[!NOTE]
+>
+>Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>
+>_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+
+You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+
+Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+
+## Visa ändringar direkt på detaljsidan i Prioriteter
+
+>[!NOTE]
+>
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+
+Du kan nu visa uppdateringar i realtid på informationssidan för en uppgift eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.
+
+Mer information finns i [Visa projekt- och uppgiftsinformation i prioritetsarbetslistan](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Överför och visa dokument och korrektur i prioriteter
+
+>[!NOTE]
+>
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+
+Nu kan du interagera med dokument och korrektur för uppgifter och ärenden. På fliken Nya dokument kan du
+
+* Överföra ett dokument
+* Skapa ett korrektur
+* Starta korrekturläsaren
+* Och mer
+
+<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+
+## Kalendervyn är nu tillgänglig i Prioriteringar
+
+>[!NOTE]
+>
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+
+Håll ordning på ditt material med en tydlig, visuell månadskalender. Med Prioritetskalendern kan du
+
+* Använd filter för att hitta ditt material
+* Visa fält som status och fokusnivå
+* Använd färger för snabb prioritering
+* Och mer
 
 ## Uppdateringar i prioriteringslistan
 

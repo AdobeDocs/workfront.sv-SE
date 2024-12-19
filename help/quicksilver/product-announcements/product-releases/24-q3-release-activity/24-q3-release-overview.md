@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
-                        <p><i>Endast tillgängligt för organisationer med den nya Ultimate-planen.</i></p>
+                        <p><i>Gäller endast för organisationer som har den nya Ultimate-planen.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -295,10 +295,8 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                             <li>
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
-                            <li>
-                                <p>Produktionsrelease för alla kunder: Ska tillkännages</p>
-                            </li>
                         </ul>
+                    <p><i>Den här funktionen kommer att tas bort från förhandsgranskningen den 19 december 2024 och från produktionen med den snabba versionen den 25.1 (januari 2025).</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -315,10 +313,8 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                             <li>
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
-                            <li>
-                                <p>Produktionsrelease för alla kunder: Ska tillkännages</p>
-                            </li>
                         </ul>
+                    <p><i>Den här funktionen kommer att tas bort från förhandsgranskningen den 19 december 2024 och från produktionen med den snabba versionen den 25.1 (januari 2025).</i></p>
                     </td>
                  </tr>
            </tbody>

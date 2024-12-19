@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -340,10 +340,8 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                         <li>
                             <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                         </li>
-                        <li>
-                            <p>Produktionsrelease för alla kunder: Ska tillkännages</p>
-                        </li>
                     </ul>
+                <p><i>Den här funktionen kommer att tas bort från förhandsgranskningen den 19 december 2024 och från produktionen med den snabba versionen den 25.1 (januari 2025).</i></p>
                 </td>
             </tr>
             <tr>
@@ -360,10 +358,8 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                         <li>
                             <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                         </li>
-                        <li>
-                            <p>Produktionsrelease för alla kunder: Ska tillkännages</p>
-                        </li>
                     </ul>
+                <p><i>Den här funktionen kommer att tas bort från förhandsgranskningen den 19 december 2024 och från produktionen med den snabba versionen den 25.1 (januari 2025).</i></p>
                 </td>
             </tr>
         </tbody>
@@ -469,7 +465,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                             <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Endast tillgängligt för organisationer som har en av de nya Adobe Workfront-planerna. Data Connect ingår i Ultimate-planen och kommer att finnas tillgängligt för köp som tillägg till Prime- och Select-planerna under första halvåret 2025.</i></p>
+                    <p><i>Endast tillgängligt för organisationer som har en av de nya Adobe Workfront-planerna. Data Connect ingår i Ultimate-planen och kan köpas som tillägg till Prime- och Select-planerna under första halvåret 2025.</i></p>
                 </td>
             </tr>
         </tbody>

@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
@@ -355,17 +355,14 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                         <ul>
                             <li>
                                 <p>Förhandsversion: 21 december 2023</p>
-                                <p>Obs! Den här funktionen kommer att finnas kvar i förhandsgranskningen till version 24.4.</p>
                             </li>
                             <li>
                                 <p>Production for fast release: Med version 24.3 (mars 2024)</p>
                             </li>
-                            <li>
-                                <p>Produktion för alla kunder: Ska tillkännages</p>
-                            </li>
                         </ul>
+                    <p><i>Den här funktionen kommer att tas bort från förhandsgranskningen den 19 december 2024 och från produktionen med den snabba versionen den 25.1 (januari 2025).</i></p>
                     </td>
-                    </tr>
+                </tr>
            </tbody>
         </table>
 
