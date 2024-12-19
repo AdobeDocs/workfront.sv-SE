@@ -6,9 +6,10 @@ title: Använd cURL för att lägga till en HTTP-modul
 description: Du kan klistra in en cURL-begäran i ditt scenario, så skapar Fusion en HTTP-modul som konfigurerats från cURL-begäran.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -69,10 +70,6 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 Så här skapar du en HTTP-modul med cURL:
 
 1. Skapa texten i cURL-begäran utanför Fusion, till exempel i en textredigerare.
-
-   >[!IMPORTANT]
-   >
-   >Om du använder Fusion på en Windows-dator får din cURL-begäran inte innehålla radbrytningar.
 1. Kopiera cURL-begäran till Urklipp.
 1. Klicka på fliken **[!UICONTROL Scenario]** i den vänstra panelen.
 1. Välj det scenario där du vill skapa modulen.
@@ -89,10 +86,6 @@ Så här skapar du en HTTP-modul med cURL:
 
 ## Felsökning
 
-Om din cURL inte klistras in i ditt scenario kontrollerar du följande:
-
-* Kontrollera webbläsarens inställningar för att se till att inklistring från Urklipp är aktiverad.
-* Om du kör Windows bör du kontrollera att cURL-begäran inte innehåller radbrytningar.
-
+Om din cURL inte klistras in i ditt scenario kontrollerar du webbläsarinställningarna för att vara säker på att inklistring från Urklipp är aktiverad.
 
 
