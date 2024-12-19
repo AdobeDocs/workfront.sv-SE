@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
+source-git-commit: 7a6a34ee5b4986137a04d654cf58bfa5f2465715
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -244,22 +244,23 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 
 1. (Valfritt) Klicka på **Tillbaka till standard** om du vill återställa markeringen.
 
-### Filtrera arbetet med smarta filter
+<!--### Filter your work with Smart filters
 
-Använd naturligt språk för att snabbt filtrera arbetet.
+Use natural language to filter quickly filter work.
 
 {{step1-to-priorities}}
 
-1. Klicka på **Filter** i det övre vänstra hörnet i arbetslistan.
-1. Klicka på **Smarta filter**.
-1. Skriv hur du vill filtrera materialet.
+1. Click **Filters** in the top left of the worklist.
+1. Click **Smart filters**. 
+1. Type how you want to filter your work. 
 
-   Du kan skriva saker som
+    You can type things like
 
-   * Visa mig sena uppgifter
-   * Visa mina topprioriteringar
-   * Visa arbete som förfaller idag
+    * Show me late tasks
+    * Show my top priorities
+    * Show work due today
 
+-->
 
 ### Gruppera ditt arbete
 
