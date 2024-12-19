@@ -6,18 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
+source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Visa projekt- och uppgiftsinformation i listan Prioriteter
+# Visa projekt- och uppgiftsinformation i Prioriteringar
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
-Du kan visa projekt- och uppgiftsinformation i prioriteringslistan.
+Du kan visa projekt-, uppgifts- och utleveransinformation i prioriteringslistan.
 
 ## Åtkomstkrav
 
@@ -57,7 +57,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-## Visa projektinformation
+## Visa information på sidopanelen för arbetslistor
+
+### Visa projektinformation
 
 {{step1-to-priorities}}
 
@@ -72,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![projektinformation](assets/project-details.png)
    <!--new screen for prod ![](assets/project-details-new.png)-->
 
-## Visa aktivitetsinformation
+### Visa aktivitetsinformation
 
 {{step1-to-priorities}}
 
@@ -80,10 +82,47 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Aktiviteten är markerad som standard. Här kan du
    * Visa och redigera projektinformation och beskrivning
    * Visa och lägga till kommentarer i projektet
-   * Visa och lägga till dokument
+   * <span class="preview">Visa och lägga till dokument</span>
+   * <span class="preview">Skapa ett bevis</span>
    * Loggtid
    * Lägga till en fil
    * Lägga till snabblänkar
 
    ![aktivitetsinformation](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
+
+### Visa utleveransinformation
+
+{{step1-to-priorities}}
+
+1. Håll markören över arbetsnamnet i arbetslistan och klicka sedan på ikonen **Sammanfattning** ![öppna sammanfattningsikonen](assets/summary-icon.png).
+1. Utgåva är valt som standard. Här kan du
+   * Visa och redigera projektinformation och beskrivning
+   * Visa och lägga till kommentarer i projektet
+* <span class="preview">Visa och lägga till dokument</span>
+* <span class="preview">Skapa ett bevis</span>
+   * Loggtid
+   * Lägga till en fil
+   * Lägga till snabblänkar
+
+  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+
+## Visa information på detaljsidan
+
+<span class="preview">Du kan visa uppdateringar i realtid på informationssidan för en aktivitet eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.</span>
+
+## Visa information om arbetsuppgift
+
+{{step1-to-priorities}}
+
+1. Klicka på arbetsobjektets namn i arbetslistan. På sidan Detaljer kan du
+
+* Visa och redigera projektinformation och beskrivning
+* Visa och lägga till kommentarer i projektet
+* <span class="preview">Visa och lägga till dokument</span>
+* <span class="preview">Skapa ett bevis</span>
+* Loggtid
+* Lägga till en fil
+* Lägga till snabblänkar
+
+<!-- screenshot for prod-->

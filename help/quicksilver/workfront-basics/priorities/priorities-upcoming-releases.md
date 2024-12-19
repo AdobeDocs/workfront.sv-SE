@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
-source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
+source-git-commit: 220702225d4f7986b93a43ccc4c33160f7463619
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Prioriteringar: kommande releaser
 
 Vi är glada över att kunna visa vad vi har kommit för prioriteringar. Använd knappen Feedback i området Prioriteter i Workfront för att berätta vad du vill se härnäst!
+
+
 
 <table>
   <tr>
@@ -37,6 +39,25 @@ Vi är glada över att kunna visa vad vi har kommit för prioriteringar. Använd
 </table>
 
 
+
 >[!IMPORTANT]
 >
 >Objekt som anges i den här tabellen är planerade men inte garanterade.
+
+
+
+
+<!--
+
+<table>
+  <tr>
+    <td><strong>Upcoming</strong>
+   <p>More upcoming features will be added soon</p>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Planned</strong>
+<p>More planned features will be added soon</p>
+    </td>
+  </tr>
+</table> -->

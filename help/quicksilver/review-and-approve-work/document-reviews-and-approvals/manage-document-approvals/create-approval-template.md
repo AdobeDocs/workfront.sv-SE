@@ -6,7 +6,7 @@ description: Du kan skapa godkännandemallar för att effektivisera godkännande
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: a077266bf91beca1fb6a7a841220f11ebd6687ea
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Skapa en godkännandemall för resurser och dokument
 
-I området Workfront Setup kan användare med en standardlicens skapa återanvändbara godkännandemallar. När du har skapat mallar för godkännande kan du använda dem på resurser i dokumentområdet för ett projekt, en uppgift eller en utgåva.
+I Workfront Setup kan användare med en standardlicens skapa återanvändbara godkännandemallar. När du har skapat mallar för godkännande kan du använda dem på resurser i dokumentområdet för ett projekt, en uppgift eller en utgåva.
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    | Mallnamn | Börja skriva ett namn för mallen. |
    |----------------------------|---|
-   | **(Valfritt) Tidsram** | Ange tidsramen i dagar. Tidsgränsen för godkännande beräknas från det här fältet när mallen tillämpas på en resurs. |
+   | **(Valfritt) Tidsram** | Ange tidsramen i dagar. Tidsgränsen för godkännande beräknas från det här fältet när mallen tillämpas på en tillgång. |
    | **Lägg till godkännare eller granskare** | Börja skriva namnet på användare eller team och ange dem sedan som granskare eller godkännare. |
 
 1. Klicka på **Spara**.

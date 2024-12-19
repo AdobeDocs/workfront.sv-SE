@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -172,13 +172,14 @@ Om du vill expandera eller komprimera alla avsnitt öppnar du **Grupp** och klic
 
 ## Filtrera och gruppera ditt arbete med prioritet i förhandsgranskningen
 
-### Filtrera ditt arbete
+### Filtrera arbetet med standardfilter
 
 Du kan filtrera uppgifter och ärenden som tilldelats dig.
 
 {{step1-to-priorities}}
 
 1. Klicka på **Filter** i det övre vänstra hörnet i arbetslistan.
+1. klicka på **Standardfilter**.
 1. Markera ett eller flera filter om du vill begränsa arbetsobjekten.
    ![](assets/filter-new.png)
 
@@ -243,6 +244,23 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 
 1. (Valfritt) Klicka på **Tillbaka till standard** om du vill återställa markeringen.
 
+### Filtrera arbetet med smarta filter
+
+Använd naturligt språk för att snabbt filtrera arbetet.
+
+{{step1-to-priorities}}
+
+1. Klicka på **Filter** i det övre vänstra hörnet i arbetslistan.
+1. Klicka på **Smarta filter**.
+1. Skriv hur du vill filtrera materialet.
+
+   Du kan skriva saker som
+
+   * Visa mig sena uppgifter
+   * Visa mina topprioriteringar
+   * Visa arbete som förfaller idag
+
+
 ### Gruppera ditt arbete
 
 {{step1-to-priorities}}
@@ -261,6 +279,8 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 | Status | Detta grupperar objekt efter följande statusar: Nytt, Pågår, Fullständigt. <br>Obs! Du kan inte använda anpassade statusvärden i prioriteter just nu. |
 
 +++
+
+
 
 ### Sortera materialet
 

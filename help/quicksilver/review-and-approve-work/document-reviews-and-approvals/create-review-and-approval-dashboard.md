@@ -6,9 +6,9 @@ description: Du kan granska godkännandevärden på arbetsytans kontrollpaneler.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
+source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,6 @@ När du har skapat en kontrollpanel kan du börja lägga till KPI:er, diagram oc
 Du kan visa högnivåinformation om dokumentgodkännanden med nyckeltal och diagram. Det finns för närvarande ingen detaljinformation i betaversionen.
 
 ### KPI:er
-
->[!IMPORTANT]
->
->Data för godkännande av nya dokument uppdateras för närvarande under kvällarna i USA:s bergstidszon. Realtidsuppdateringar planeras och kommer snart.
 
 ![KPI-exempel](assets/kpi-dashboard.png)
 
@@ -129,10 +125,6 @@ Du kan visa högnivåinformation om dokumentgodkännanden med nyckeltal och diag
 
 ### Diagram
 
->[!IMPORTANT]
->
->Data för godkännande av nya dokument uppdateras för närvarande under kvällarna i USA:s bergstidszon. Realtidsuppdateringar planeras och kommer snart.
-
 ![Diagramexempel](assets/chart-dashboard.png)
 
 #### Godkännanden per beslutsstapeldiagram
@@ -179,10 +171,6 @@ Du kan visa högnivåinformation om dokumentgodkännanden med nyckeltal och diag
 1. Klicka på **Klar** i skärmens övre högra hörn.
 
 ## Lägg in detaljerad gransknings- och godkännandeinformation i tabeller
-
->[!IMPORTANT]
->
->Data för godkännande av nya dokument uppdateras för närvarande under kvällarna i USA:s bergstidszon. Realtidsuppdateringar planeras och kommer snart.
 
 ![tabellexempel](assets/table-dashboard.png)
 

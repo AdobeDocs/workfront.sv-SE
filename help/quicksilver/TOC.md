@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 30f94553172113df71c7a5aa965d24d17fd449a1
+source-git-commit: 8706a099b3f8111d78c3625ac1fce02cfbe07452
 workflow-type: tm+mt
-source-wordcount: '14728'
+source-wordcount: '14733'
 ht-degree: 0%
 
 ---
@@ -904,7 +904,7 @@ ht-degree: 0%
       * [Prioriteter: artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Prioriteringar: kommande releaser](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Kom igång med prioriteringar](workfront-basics/priorities/get-started-with-priorities.md)
-      * [Visa projekt- och uppgiftsinformation i listan Prioriteter](workfront-basics/priorities/view-task-project-details.md)
+      * [Visa projekt- och uppgiftsinformation i Prioriteringar](workfront-basics/priorities/view-task-project-details.md)
       * [Filtrera och gruppera ditt arbete i prioriteter](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [Anpassa kolumnerna i arbetslistan](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Prioritera viktiga arbetsuppgifter](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -913,6 +913,7 @@ ht-degree: 0%
       * [Logga tid i Prioriteter](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [Överför filer i prioriteter](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [Lägga till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+      * [Ladda upp dokument och skapa korrektur i prioriteter](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
    * Hem {#home}
       * [Startsida](workfront-basics/using-home/home.md)
       * Använd hemområdet {#use-home-area}

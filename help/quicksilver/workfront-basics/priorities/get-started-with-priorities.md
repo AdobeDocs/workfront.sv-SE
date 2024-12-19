@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
+source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I Prioriteringar kan du filtrera och gruppera ditt arbete så att du kan hantera
 
 ### Hitta ditt material med filter
 
-Hitta det viktigaste arbetet med filter. Du kan filtrera uppgifter och ärenden som tilldelats dig på följande sätt:
+Hitta det viktigaste arbetet med filter. <span class="preview">Du kan använda ett naturligt språk för att hitta arbete med det smarta filtret</span> eller så kan du använda standardfiltret för att hitta uppgifter och ärenden som tilldelats dig:
 
 <table>
   <tbody>
@@ -166,11 +166,6 @@ Mer information finns i [Överför filer i prioriteter](/help/quicksilver/workfr
 ![](assets/upload-file.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
-### Visa dokument [!BADGE Kommer snart]{type=Informative}
-
-På fliken Dokument kan du visa alla filer som hör till ett arbetsobjekt. Du kan filtrera dokument efter namn, filtyp eller person och sortera efter namn och överföringsdatum.
-
-Du kan också öppna dokumentet eller korrekturet.
 
 ### Lägga till snabblänkar
 
@@ -180,21 +175,33 @@ Du kan bädda in länkar som används ofta på arbetsobjektets informationssida.
 
 Mer information finns i [Lägga till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Granska och godkänn resurser [!BADGE Kommer snart]{type=Informative}
+### Visa dokument [!BADGE Tillgängliga i förhandsgranskning]{type=Informative}
 
-Möjligheten att granska och godkänna mediefiler finns på prioriteringsplanen.
+På fliken Dokument kan du visa alla filer som hör till ett arbetsobjekt. Du kan filtrera dokument efter namn, filtyp eller person och sortera efter namn och överföringsdatum.
 
-För närvarande rekommenderar vi att du använder widgetarna Mitt godkännande och Alla godkännanden i Nytt hem.
+Du kan också öppna dokumentet eller korrekturet.
 
-Mer information finns i [Lägga till, redigera eller ta bort widgetar i Hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+### Granska och godkänn resurser [!BADGE Tillgängliga i förhandsgranskning]{type=Informative}
+
+På fliken Dokument kan du
+
+* Skapa enkla eller avancerade korrektur
+* Starta korrekturläsaren för att lämna kommentarer och fatta beslut
 
 
 ## Använd [!DNL Catch me up] för att se vad du missade [!BADGE Kommer snart]{type=Informative}
 
 Använd funktionen [!DNL Catch me up] för att se vad du missade. Jag kommer att sammanfatta uppdateringar, överförda dokument, godkännanden och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar, 7 dagar.
 
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
+
+<!--need new screen for prod-->
+
+## Visa uppdateringar i realtid på detaljsidan [!BADGE Tillgänglig i förhandsgranskning]{type=Informative}
+
+Du kan visa uppdateringar i realtid på informationssidan för en uppgift eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.
 
 ## Överväganden
 
