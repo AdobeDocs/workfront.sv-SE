@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
 
 # Konfigurera inställningar för aktiviteter och utgåvor för en grupp
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Om grupper i din organisation måste konfigurera en uppgift eller en utgåva oberoende av hur den är konfigurerad på systemnivå, kan en Adobe Workfront-administratör låsa upp inställningen. Som gruppadministratör kan du sedan konfigurera inställningen för gruppen så att den påverkar alla uppgifter eller problem som är kopplade till gruppen.
 
@@ -91,10 +95,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * [Nya aktivitetsstandardvärden](#new-task-defaults)
    * [Problem](#issues)
    * [Borttagning](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[Flytta](#move)</span>
    * [Faktiska datum](#actual-dates)
+   * [Delegering](#delegation)
    * [Åtkomst](#access)
 
 ### Nya standardinställningar för aktivitet {#new-task-defaults}
@@ -181,31 +184,27 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Flytta
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">Tillåt användare att flytta uppgifter och problem med loggade timmar</td> 
+      <td> <p> Här kan du avgöra om du tillåter flyttning av uppgifter eller problem där timmar loggas. Det här alternativet är markerat som standard.</p> 
+       <p>Tänk på följande:</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> När det är markerat kan du flytta uppgifter och ärenden som har loggats. Timmarna rör sig också med uppgifterna eller problemen. </li>
+      <li>När du avmarkerar det här alternativet får du en varning när du flyttar en uppgift eller ett problem med loggade timmar. Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar flyttas. Det går inte att flytta uppgifter eller ärenden som har loggade timmar. </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### Faktiska datum {#actual-dates}
 
@@ -255,6 +254,28 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### Delegering
+
+Om du aktiverar inställningen **[!UICONTROL Allow users to delegate their tasks and issues]** kan alla användare i gruppen tillfälligt delegera sitt arbete till andra.
+
+När den här inställningen är aktiverad kan gruppanvändarna se följande:
+
+* Länken [!UICONTROL **Delegera**] i deras [!UICONTROL My Work]-, [!UICONTROL My Tasks]- eller [!UICONTROL My Issues]-widgetar i området [!UICONTROL Home]. De kan delegera uppgifter och utgivningstilldelningar därifrån.
+
+  >[!NOTE]
+  >
+  >  Länken [!UICONTROL **Delegera godkännanden**] är alltid aktiverad i området [!UICONTROL Home].
+
+* En indikation på att en aktivitet eller ett problem har delegerats till en annan användare i området [!UICONTROL Assignments and delegations] i huvud för aktiviteten eller problemet.
+* En indikation på att en uppgift eller ett problem har delegerats till en annan användare i deras [!UICONTROL My Work]-widget i [!UICONTROL Home].
+
+  Om du inaktiverar inställningen [!UICONTROL Allow users to delegate their tasks and issues] kommer delegeringarna som är schemalagda att stoppas och de delegerade användarna får ett e-postmeddelande om att delegeringen har stoppats.
+
+Mer information om hur du delegerar arbete till andra finns i följande artiklar:
+
+* [Delegera arbetsöversikt](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Delegera uppgifter och ärenden](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### Åtkomst {#access}
 

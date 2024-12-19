@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1927'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,10 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 Som [!DNL Adobe Workfront]-administratör kan du konfigurera systemomfattande inställningar för uppgifter och problem. De här inställningarna påverkar hur dina användare skapar uppgifter och problem i [!DNL Workfront].
 
@@ -76,9 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [[!UICONTROL New Task Defaults]](#new-task-defaults)
    * [[!UICONTROL Issues]](#issues)
    * [[!UICONTROL Deletion]](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[Flytta](#move)</span>
    * [[!UICONTROL Actual Dates]](#actual-dates)
    * [[!UICONTROL Delegation]](#delegation)
    * [[!UICONTROL Access]](#access)
@@ -159,7 +155,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ### [!UICONTROL Deletion] {#deletion}
 
-**[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Gör att du kan avgöra om du tillåter att uppgifter eller problem tas bort där timmar loggas. Det här alternativet är markerat som standard.
+**[!UICONTROL Allow users to delete tasks and issues with logged hours]**: Gör att du kan avgöra om du tillåter att uppgifter eller problem tas bort där timmar loggas. Det här alternativet är markerat som standard.
 
 >[!TIP]
 >
@@ -173,21 +169,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * När du avmarkerar det här alternativet får du en varning när du tar bort en uppgift eller ett problem med loggade timmar, eller när du tar bort ett projekt med timmar som loggats för dess uppgifter eller problem. Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar tas bort. Det går inte att ta bort aktiviteter, utgåvor eller projekt som har timmar loggade för uppgifter och utgåvor.
 
-<!--*****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### Flytta
 
-**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Gör att du kan avgöra om du tillåter flyttning av uppgifter eller problem där timmar loggas. Det här alternativet är markerat som standard.
 
-* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+* När det är markerat kan du flytta uppgifter och ärenden som har loggats. Timmarna rör sig också med uppgifterna eller problemen.
 
-* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+* När du avmarkerar det här alternativet får du en varning när du flyttar en uppgift eller ett problem med loggade timmar. Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar flyttas. Det går inte att flytta uppgifter eller ärenden som har loggade timmar.
 
 </div>
-
--->
 
 ### [!UICONTROL Actual Dates] {#actual-dates}
 
@@ -216,7 +208,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ### Delegering
 
-Om du aktiverar inställningen **[!UICONTROL Allow users to delegate their tasks & issues]** kan alla användare tillfälligt delegera sitt arbete till andra.
+Om du aktiverar inställningen **[!UICONTROL Allow users to delegate their tasks and issues]** kan alla användare i systemet tillfälligt delegera sitt arbete till andra.
 
 När den här inställningen är aktiverad kan användarna se följande:
 
@@ -229,7 +221,7 @@ När den här inställningen är aktiverad kan användarna se följande:
 * En indikation på att en aktivitet eller ett problem har delegerats till en annan användare i området [!UICONTROL Assignments and delegations] i huvud för aktiviteten eller problemet.
 * En indikation på att en uppgift eller ett problem har delegerats till en annan användare i deras [!UICONTROL My Work]-widget i [!UICONTROL Home].
 
-  Om du inaktiverar inställningen [!UICONTROL Allow users to delegate their tasks & issues] kommer delegeringarna som är schemalagda att stoppas och de delegerade användarna får ett e-postmeddelande om att delegeringen har stoppats.
+  Om du inaktiverar inställningen [!UICONTROL Allow users to delegate their tasks and issues] kommer delegeringarna som är schemalagda att stoppas och de delegerade användarna får ett e-postmeddelande om att delegeringen har stoppats.
 
 Mer information om hur du delegerar arbete till andra finns i följande artiklar:
 
