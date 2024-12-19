@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 84246c2720e54e270de217167e88e803a92fdafc
+source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Bildmoduler](../../workfront-fusion/apps-and-their-modules/image-module.md)
 * [[!DNL Jira] Programvarumoduler](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [[!UICONTROL JSON] moduler](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+* [modulen [!UICONTROL JSONata]](../../workfront-fusion/apps-and-their-modules/jsonata-module.md)
 * [modulen [!UICONTROL JWT]](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
 * [[!DNL MariaDB] moduler](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)
 * [[!UICONTROL Markdown] moduler](../../workfront-fusion/apps-and-their-modules/markdown-modules.md)

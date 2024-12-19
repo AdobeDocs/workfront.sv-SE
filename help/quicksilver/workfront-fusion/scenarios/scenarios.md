@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
+source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Uppdatera en modul till en ny version i ett [!DNL Adobe Workfront Fusion] scenario](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Visa och hantera låsta scenarier i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Kör Scenario Scoring Expert i Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
-
+* [Använd cURL för att lägga till en HTTP-modul](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
 
 
 
