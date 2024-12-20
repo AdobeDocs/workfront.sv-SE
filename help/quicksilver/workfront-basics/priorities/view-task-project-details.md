@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Visa projekt- och uppgiftsinformation i listan Prioriteter
+title: Visa information om projekt och arbetsobjekt i listan Prioriteter
 description: Du kan visa projekt- och uppgiftsinformation i prioriteringslistan.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Visa projekt- och uppgiftsinformation i Prioriteringar
+# Visa projekt- och arbetsuppgiftsinfo i Prioriteringar
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
@@ -80,13 +80,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Håll markören över arbetsnamnet i arbetslistan och klicka sedan på ikonen **Sammanfattning** ![öppna sammanfattningsikonen](assets/summary-icon.png).
 1. Aktiviteten är markerad som standard. Här kan du
-   * Visa och redigera projektinformation och beskrivning
+   * Visa och redigera projekt- och uppgiftsinformation och beskrivning
    * Visa och lägga till kommentarer i projektet
    * <span class="preview">Visa och lägga till dokument</span>
    * <span class="preview">Skapa ett bevis</span>
    * Loggtid
    * Lägga till en fil
    * Lägga till snabblänkar
+
 
    ![aktivitetsinformation](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Håll markören över arbetsnamnet i arbetslistan och klicka sedan på ikonen **Sammanfattning** ![öppna sammanfattningsikonen](assets/summary-icon.png).
 1. Utgåva är valt som standard. Här kan du
-   * Visa och redigera projektinformation och beskrivning
+   * Visa och redigera projekt- och ärendeinformation och beskrivning
    * Visa och lägga till kommentarer i projektet
 * <span class="preview">Visa och lägga till dokument</span>
 * <span class="preview">Skapa ett bevis</span>

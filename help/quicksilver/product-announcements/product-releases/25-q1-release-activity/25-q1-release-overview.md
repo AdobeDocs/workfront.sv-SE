@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Överför och visa dokument och korrektur i prioriteter</a></p>
-            <p>Nu kan du interagera med dokument och korrektur för uppgifter och ärenden. På fliken Nya dokument kan du</p>
+            <p>Nu kan du interagera med dokument och korrektur för uppgifter och utgåvor i arbetslistan och kalendern. På fliken Nya dokument kan du</p>
             <ul>
                 <li>Överföra ett dokument</li>
                 <li>Skapa ett korrektur</li>
@@ -287,11 +287,11 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Kalendervyn är nu tillgänglig i Prioriteringar</a></p>
-            <p>Håll ordning på ditt material med en tydlig, visuell månadskalender. Med Prioritetskalendern kan du</p>
+            <p>Du kan spåra ditt arbete med en tydlig, visuell månadskalender. Med Prioritetskalendern kan du</p>
             <ul>
                 <li>Använd filter för att hitta ditt material</li>
-                <li>Visa fält som status och fokusnivå</li>
-                <li>Använd färger för snabb prioritering</li>
+                <li>Använd anpassade fält som status och fokusnivå för att identifiera högprioriterat arbete</li>
+                <li>Använd färger för snabb sortering</li>
                 <li>Och mer</li>
             </ul>
         </td>
