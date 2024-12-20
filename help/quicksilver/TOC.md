@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
 workflow-type: tm+mt
-source-wordcount: '14741'
+source-wordcount: '14747'
 ht-degree: 0%
 
 ---
@@ -1850,7 +1850,8 @@ ht-degree: 0%
       * [Återkalla inskickade godkännanden](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * Resurs- och dokumentgranskning och godkännande {#document-reviews-and-approvals}
       * [Resurs- och dokumentgranskning och godkännande: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [Översikt över dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [Översikt över godkännande av tillgångar och dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [Översikt över godkännande av nya dokument](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * Konfigurera och hantera tillgångs- och dokumentgodkännanden {#manage-asset-review-and-approval}
          * [Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)

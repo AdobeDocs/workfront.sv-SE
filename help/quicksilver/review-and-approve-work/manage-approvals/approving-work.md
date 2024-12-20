@@ -6,7 +6,7 @@ description: Godkänna arbete
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
+source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -168,7 +168,7 @@ Så här godkänner du arbete direkt från ett projekt, en uppgift eller en utg�
 1. Klicka på **Godkänn** eller **Avvisa**, beroende på om du vill godkänna eller avvisa godkännandeprocessen.\
    Godkännandefasen som väntar på godkännande har nu godkänts och godkännandeprocessen går vidare till nästa steg. Statusen godkänns när alla faser har godkänts.
 
-## Godkänn ett dokument direkt från ett dokument 
+## Godkänn ett dokument direkt från ett dokument
 
 1. Gå till dokumentområdet som innehåller dokumentet som kräver ditt godkännande.
 1. Markera dokumentet och klicka sedan på **Godkänn**, **Ändringar** eller **Avvisa**.\

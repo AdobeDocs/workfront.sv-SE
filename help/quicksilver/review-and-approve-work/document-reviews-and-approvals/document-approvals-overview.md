@@ -6,7 +6,7 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
+source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
