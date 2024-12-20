@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Den här sidan beskriver alla förbättringar av Home som gjorts i första utgå
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
-<!--## Catch up on work in Priorities
+## Fånga upp arbetet i prioriteringar
 
 >[!NOTE]
 >
->Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Förhandsversion: 20 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
 >
->_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+>_Den här funktionen är bara tillgänglig för kunder som använder AI Assistant på en enhetlig Adobe-upplevelse._
 
-You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+Du kan använda Fånga upp mig för att minska tiden när du söker information om aktiva projekt.
 
-Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+Med Workfront AI Assistant kan jag göra en sammanfattning av uppdateringar, överförda dokument och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar eller 7 dagar.
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ## Visa ändringar direkt på detaljsidan i Prioriteter
 

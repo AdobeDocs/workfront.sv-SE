@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Mer information finns i [Prioritera viktiga arbetsobjekt](/help/quicksilver/work
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Använd kalendervyn [!BADGE Kommer snart]{type=Informative}
+### Använd kalendervyn [!BADGE Tillgänglig i förhandsvisning]{type=Informative}
 
 I kalendervyn visas dina uppgifter och problem. Du kan välja mellan en dag-, vecka- eller månadsvy. Du kan även filtrera objekt på ungefär samma sätt som i arbetslistan.
 
@@ -190,11 +190,11 @@ På fliken Dokument kan du
 * Starta korrekturläsaren för att lämna kommentarer och fatta beslut
 
 
-## Använd [!DNL Catch me up] för att se vad du missade [!BADGE Kommer snart]{type=Informative}
+## Använd [!DNL Catch me up] för att se vad du missade [!BADGE Tillgängligt i förhandsgranskningen]{type=Informative}
 
 Använd funktionen [!DNL Catch me up] för att se vad du missade. Jag kommer att sammanfatta uppdateringar, överförda dokument, godkännanden och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar, 7 dagar.
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
 

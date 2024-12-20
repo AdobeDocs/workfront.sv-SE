@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2380'
 ht-degree: 0%
 
 ---
@@ -234,21 +234,21 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><span class="bold">Releasedatum</span></p>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Catch up on work in Priorities</a></p>
-            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
-            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+            Fånga upp arbetet i prioriteringar</a></p>
+            <p>Du kan använda Fånga upp mig för att minska tiden när du söker information om aktiva projekt.</p>
+            <p>Med Workfront AI Assistant kan jag göra en sammanfattning av uppdateringar, överförda dokument och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar eller 7 dagar.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
-                <li>Preview release: December 20, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Förhandsversion: 20 december 2024</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
