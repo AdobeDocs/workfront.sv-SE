@@ -7,9 +7,9 @@ description: Du kan integrera [!DNL Adobe Workfront] med tredjepartsprogram. Des
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
    <td role="rowheader">Microsoft-kalendrar (Office 365/Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>Integrera med en webbaserad version av Outlook i molnbaserade Office 365 eller Outlook Live. </p> </li> 
-     <li> <p>Visa alla händelser från din [!DNL Outlook]-kalender och alla associerade kalendrar som du väljer, till exempel födelsedagar och helgdagar, i din hemkalender.</p>  <p>Obs! Outlook-kalenderkonfigurationen är helt separat från Outlook-tillägget (Outlook-integrering eller Workfront för Outlook). Du behöver inte installera kalendern.</p></li> 
+     <li> <p>Integrera med en webbaserad version av Outlook i molnbaserade Office 365 eller Outlook Live. </p>
     </ul> </td> 
   </tr> 
   <tr> 
