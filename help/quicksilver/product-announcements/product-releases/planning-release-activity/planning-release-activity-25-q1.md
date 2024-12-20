@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,18 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Anslutningsfält med Adobe Experience Manager-resurser stöds nu i förfrågningsformulär
+
+>[!NOTE]
+>
+>Förhandsversion: 20 december 2024; Produktionsrelease för alla kunder: 16 januari 2025
+
+Nu kan du lägga till anslutningsfält med AEM resurser i ett formulär för posttypsbegäran i Workfront Planning.
+
+Före den här förbättringen kunde dessa typer av fält inte läggas till i begärandeformulär.
+
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Konfigurera godkännanden för Workfront Planning-begäranden
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -150,13 +150,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >    * Skapad den och senast ändrad den
    >    * Workfront-objektens sökfält
    >    * Sökfält för Workfront Planning-anslutna poster
-   >    * AEM Assets-anslutna fält
    >* Fält av följande typer visas inte i begärandeformuläret i produktionsmiljön. <span class="preview">De visas i förhandsvisningsmiljön:</span>
    >    * <span class="preview"> Workfront Planning records&#39; connected fields </span>
    >    * <span class="preview">Personer </span>
    >    * <span class="preview">Workfront-objektens anslutna fält</span>
    >    * <span class="preview">AEM Assets-anslutna fält </span>
-
 
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
    * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är ännu inte tillgänglig i produktionsmiljön. <span class="preview">Den är tillgänglig i förhandsvisningsmiljön.</span> Det går inte att redigera konfigurationen och värdet för ämnesfältet.

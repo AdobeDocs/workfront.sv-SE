@@ -6,14 +6,16 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4070'
 ht-degree: 0%
 
 ---
 
 # Navigera till arbetsbelastningsutjämnaren
+
+<!--Audited: 12/2024-->
 
 Använd Utjämning av arbetsbelastning i Adobe Workfront för att tilldela användare arbete baserat på deras tillgänglighet. I den här artikeln beskrivs hur du kan använda inställningar och alternativ för att navigera i arbetsbelastningsutjämnaren och visa den information som är relevant för dig. Ytterligare artiklar som visas här beskriver hur du kan använda belastningsutjämnaren för att hantera dina resurser och deras allokering till arbete.
 
@@ -36,7 +38,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td><p>Nytt: Standard</p>
        <p>eller</p>
        <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
@@ -60,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -229,7 +231,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
 1. Klicka på den **nedåtriktade pilen** till vänster om området Ej tilldelat eller Tilldelad om du vill komprimera alla objekt under projektnamnen (i området Ej tilldelat) och under användarnamnen (i området Tilldelad).
 
-1. Dra och släpp **separationslinjen** mellan den vänstra panelen och tidslinjeområdet för att justera storleken på den vänstra panelen.
+1. Håll pekaren över och dra och släpp **separationslinjen** mellan den vänstra panelen och tidslinjeområdet för att justera storleken på den vänstra panelen.
 
    ![Separationslinje](assets/wb-adjust-panel-size.png)
 

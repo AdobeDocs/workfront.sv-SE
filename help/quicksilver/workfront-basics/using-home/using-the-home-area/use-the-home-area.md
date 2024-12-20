@@ -1,22 +1,24 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: Använda området Hem
+title: 'Använd området Hem: Artikelindex'
 description: Läs de här artiklarna för att lära dig hur du använder hemområdet i Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-# Använda området Hem
+# Använda Hem-området: artikelindex
 
-Det här avsnittet innehåller följande artiklar:
+<!--Audited: 12/2024-->
+
+Läs de här artiklarna för att lära dig hur du använder hemområdet i Adobe Workfront.
 
 * [Kom igång med [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [Lägga till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)

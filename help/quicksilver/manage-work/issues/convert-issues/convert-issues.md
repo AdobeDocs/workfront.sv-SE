@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,11 @@ Mer information om hur du konverterar problem till projekt finns i [Konvertera e
 
    * Under konverteringen kan du få frågan om du vill behålla problemet och dess lösning knuten till det projekt eller den uppgift du håller på att skapa.
    * Om du behåller problemet uppdateras status och procent färdigt för projektet eller uppgiften automatiskt, och procentandelen färdigt för problemet när något ändras i projektet, uppgiften eller utgåvan eller när Workfront beräknar om tidslinjen.
+
+  >[!NOTE]
+  >
+  >   När status för utgåvan har stängts (till följd av att aktiviteten eller projektet har stängts) förblir utgåvan stängd, oavsett vilken status aktiviteten eller projektet ändras till efter att de har stängts.
+
 
 * När du konverterar ett problem till en uppgift eller ett projekt tas problemet bort från startdelen för den användare som är tilldelad problemet.
 

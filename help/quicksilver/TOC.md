@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
+source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
 workflow-type: tm+mt
-source-wordcount: '14747'
+source-wordcount: '14757'
 ht-degree: 0%
 
 ---
@@ -918,7 +918,7 @@ ht-degree: 0%
    * Hem {#home}
       * [Startsida](workfront-basics/using-home/home.md)
       * Använd hemområdet {#use-home-area}
-         * [Använda området Hem](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+         * [Använda Hem-området: artikelindex](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Kom igång med Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Lägga till, redigera eller ta bort widgetar i Nytt hem](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Visa objekt i arbetslista i hemområdet](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -1038,7 +1038,7 @@ ht-degree: 0%
          * [Tips, tricks och felsökning för Adobe Workfront mobilappar](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Felmeddelande i Adobe Workfront Mobile App: &quot;Ditt konto är inte API-aktiverat.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Tips, tricks och felsökning för Adobe Workfront Basics {#tips-tricks-for-basics}
-      * [Tips, tricks och felsökning för Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+      * [Tips, tricks och felsökning för Adobe Workfront: artikelindex](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [En snabbguide till hur du hittar hjälp i Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Ändra datumformat i Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
       * [Kontakta kundsupport](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -1049,7 +1049,8 @@ ht-degree: 0%
       * [Felsökning av behörigheter i Workfront Proof Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [Filterknappar visas inte i sidhuvuden](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [Projekt jag arbetar med har oväntade resultat](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-      * [Flera webbläsarflikar gör att Workfront loggar ut](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [Flera webbläsarflikar gör att Workfront loggar ut](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [Dela objekt utan att generera meddelanden](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Översikt över styrelser](agile/boards-overview.md)

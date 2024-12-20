@@ -6,14 +6,16 @@ description: Läs den här artikeln för att lära dig hur du loggar in på Work
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Logga in på [!DNL Adobe Workfront]
+
+<!--Audited: 2024-->
 
 {{important-not-on-aec}}
 
@@ -33,6 +35,8 @@ Du behöver följande information för att logga in på [!DNL Adobe Workfront]:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -42,17 +46,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td> 
+   <p>Nytt: [!UICONTROL Contributor] eller senare</p>
+   <p>Aktuell: [!UICONTROL Request] eller högre</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Logga in på [!DNL Workfront] utan enkel inloggning
 
