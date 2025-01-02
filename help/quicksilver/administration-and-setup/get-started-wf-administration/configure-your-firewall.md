@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,6 @@ Mer information finns i avsnittet [Visa din organisations kluster och Workfront-
 * [IP-adresser som tillåter kluster 10](#ip-addresses-to-allow-for-cluster-10)
 * [IP-adresser som tillåter en testenhet](#IP%20Addre2)
 * [IP-adresser som ska tillåtas vid implementering av händelseprenumerationer](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [IP-adresser som tillåter utökad autentisering](#ip-addresses-to-allow-for-enhanced-authentication)
 * [IP-adresser att lägga till för åtkomst till Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [IP-adresser att lägga till för att använda Workfront för Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [URL:er att lägga till för alla kluster med Workfront](#urls-to-add-for-all-clusters-workfront)
@@ -289,70 +288,6 @@ För alla miljöer lägger du till följande IP-adresser för att ta emot nyttol
  </tbody> 
 </table>
 
-### IP-adresser som tillåter utökad autentisering {#ip-addresses-to-allow-for-enhanced-authentication}
-
-Lägg till följande IP-adresser om du vill använda förbättrad autentisering för Förhandsgranska eller Produktion.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Om miljön finns i kluster 1, 2, 3, 5, 7, 8 eller 9</td> 
-   <td> 
-    <ul> 
-     <li>35.167.74.121</li> 
-     <li>35.166.202.113</li> 
-     <li>35.160.3.103</li> 
-     <li>54.183.64.135</li> 
-     <li>54.67.77.38</li> 
-     <li>54.67.15.170</li> 
-     <li>54.183.204.205</li> 
-     <li>35.171.156.124</li> 
-     <li>18.233.90.226</li> 
-     <li>3.211.189.167</li> 
-     <li>18.232.225.224</li> 
-     <li>34.233.19.82</li> 
-     <li>52.204.128.250</li> 
-     <li>3.132.201.78</li> 
-     <li>3.19.44.88</li> 
-     <li>3.20.244.231</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Om miljön finns i kluster 4</td> 
-   <td> 
-    <ul> 
-     <li>52.28.56.226</li> 
-     <li>52.28.45.240</li> 
-     <li>52.16.224.164</li> 
-     <li>52.16.193.66</li> 
-     <li>34.253.4.94</li> 
-     <li>52.50.106.250</li> 
-     <li>52.211.56.181</li> 
-     <li>52.213.38.246</li> 
-     <li>52.213.74.69</li> 
-     <li>52.213.216.142</li> 
-     <li>35.156.51.163</li> 
-     <li>35.157.221.52</li> 
-     <li>52.28.184.187</li> 
-     <li>52.28.212.16</li> 
-     <li>52.29.176.99</li> 
-     <li>52.57.230.214</li> 
-     <li>54.76.184.103</li> 
-     <li>52.210.122.50</li> 
-     <li>52.208.95.174</li> 
-     <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34.254.76.122</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### IP-adresser att lägga till för åtkomst till Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 Lägg till följande IP-adresser i tillåtelselista för att Workfront Fusion ska kunna komma åt ditt system.
@@ -394,7 +329,7 @@ Lägg till följande IP-adresser i tillåtelselista för att Workfront Fusion sk
  </tbody> 
 </table>
 
-Om din organisation använder utgående nätverksfiltrering lägger du till följande domän i tillåtelselista för att ge ditt system tillgång till Workfront Fusion.
+Om din organisation använder utgående nätverksfiltrering lägger du till följande domän i tillåtelselista för att ge ditt system tillgång till Workfront Fusion. Dessa URL:er används för webhooks i Fusion.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -485,9 +420,12 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
 * auth.split.io
 * rum-http-intake.logs.datadoghq.com
 * mfe.static.workfront.com
-* https://app.pendo.io/
-* https://cdn.pendo.io/
+* fonts.gstatic.com
+* dpm.demdex.net
+* storage.googleapis.com
+* *.aptrinsic.com
 * *.static.workfront.com
+
 
   Det här är en statisk domän som expanderar alla följande domäner. Du kan lägga till de enskilda domänerna om du vill:
 
@@ -496,6 +434,29 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
    * mfe-preview-c.static.workfront.com
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
+
+Om din organisation använder Adobe Unified Experience används följande domäner. Dessa domäner täcks av `*.adobe.com`, men kan läggas till om så önskas.
+
+* &lt;your domain>.my.workfront.adobe.com
+* &lt;your domain>.preview.workfront.adobe.com
+* &lt;your domain>.sb01.workfront.adobe.com
+* &lt;your domain>.sb02.workfront.adobe.com
+
+
+För Workfront Fusion lägger du till följande domäner:
+
+* För en organisation som inte finns i Adobe Unified Experience:
+   * app.workfrontfusion.com (US AWS)
+   * app-eu.workfrontfusion.com (EU AWS)
+   * app-az.workfrontfusion.com (US Azure)
+
+* För en organisation som arbetar med enhetlig upplevelse i Adobe
+(De här domänerna täcks av `*.adobe.com`, men kan läggas till om så önskas.)
+
+   * fusion.adobe.com
+   * app-eu.fusion.adobe.com
+   * app-az.fusion.adobe.com
+
 
 
 ## URL:er att lägga till för alla kluster med Workfront {#urls-to-add-for-all-clusters-workfront}
