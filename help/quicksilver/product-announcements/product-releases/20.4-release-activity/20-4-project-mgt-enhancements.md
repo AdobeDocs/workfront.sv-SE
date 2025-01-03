@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ För att spara tid och öka förståelsen för ett projekts övergripande hälsa
 
 Du kan göra markeringar i diagrammen för att visa olika aspekter av uppgifter och problem i ett projekt och klicka på vissa element för att visa aktivitetsinformation.
 
-Den här funktionen ingår nu i [Grundläggande om planering, del 3-inlärningsväg](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) på Workfront One.
+<!--This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One. -->
 
 ## Nytt för administratörer: Tilldela en företagsledare till en grupp
 
