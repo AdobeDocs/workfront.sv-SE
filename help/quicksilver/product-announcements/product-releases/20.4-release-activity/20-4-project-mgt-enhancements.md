@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Det nya fältet Business Leader kan användas i rapportfilter, vyer och grupperi
 
 Mer information finns i [Översikt över företagsledare](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Nytt för administratörer: Associera portföljer, program och företag med grupper
 
@@ -83,7 +83,7 @@ Du kan t.ex. lista alla organisationens portföljer i en rapport och titta i kol
 
 Mer information finns i avsnittet Om att associera en grupp med ett objekt i artikeln [Översikt över grupper](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Nytt för administratörer: Administratörer för en grupp som tilldelats ett företag kan hantera företaget
 
@@ -93,7 +93,7 @@ Mer information finns i [Skapa och redigera företag](../../../administration-an
 
 Mer information om administrativ åtkomst till företag finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Ersätta knappen Work On It (Arbeta på) med en Start-knapp
 
@@ -103,7 +103,7 @@ Uppdaterades den 24 september: När du klickat på Starta uppgift eller Starta u
 
 Mer information om hur du konfigurerar det här alternativet finns i [Ersätt knappen Arbeta på med en Start-knapp](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Den här funktionen ingår nu i [Grundläggande kursväg för arbetare](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) och [Grundläggande för administratörer, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Tillåt flera utkast för ett köämne
 
@@ -121,7 +121,7 @@ När du tilldelar ett team till en grupp kan dess gruppadministratörer hantera 
 
 Mer information finns i [Skapa ett team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Med nya fält kan du rapportera data för en grupp på den översta nivån och alla dess undergrupper
 
