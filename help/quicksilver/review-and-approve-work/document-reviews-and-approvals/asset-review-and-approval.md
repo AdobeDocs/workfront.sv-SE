@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Översikt över godkännande av tillgångar och dokument
+title: Tillgänglig funktionalitet för granskning och godkännande av material och dokument
 description: Översikt över de system som finns för granskning och godkännande i Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# Översikt över godkännande av tillgångar och dokument
+# Tillgänglig funktionalitet för granskning och godkännande av material och dokument
 
 Det finns för närvarande tre olika system i Workfront för granskning och godkännande av tillgångar och dokument:
 
@@ -85,4 +85,6 @@ Funktioner för korrektur:
 
 * Använd grundläggande eller automatiserade arbetsflöden
 
-
+<!--
+## Upcoming deprecations
+-->
