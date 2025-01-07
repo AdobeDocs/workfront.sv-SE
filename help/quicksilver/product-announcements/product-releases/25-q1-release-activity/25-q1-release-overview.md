@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2478'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,34 @@ Den här sidan innehåller information om de funktioner som ingår i den första
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           Jämför objekt mellan miljöer för att förbättra miljön</a></p>
+            <p>För att det ska bli enklare att avgöra vilket objekt som ska ingå i ett miljöbefordringspaket har vi lagt till möjligheten att jämföra objekt i olika miljöer. Du kan sedan lägga till objekt i ett paket direkt från jämförelsen.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsgranskningsversion: 6 januari 2024</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Fler tillgängliga objekt för miljöbefordran</a></p>
+            <p>Vi har lagt till fler objekt för att utöka funktionerna för miljöbefordran.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsgranskningsversion: 6 januari 2024</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Förhindra att uppgifter flyttas när loggade timmar finns</a></p>
             <p>Eftersom flyttningar av uppgifter eller problem som har loggade timmar ibland kan orsaka problem med regelefterlevnad eller revision, har vi lagt till en inställning under Inställningar för Aktivitet och problem i installationsprogrammet som gör att du kan förhindra användare från att flytta uppgifter och problem om det finns timmar inloggade.</p>
         </td>
@@ -71,7 +99,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">

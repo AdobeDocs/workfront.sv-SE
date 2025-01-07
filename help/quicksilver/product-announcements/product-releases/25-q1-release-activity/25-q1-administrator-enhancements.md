@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,34 @@ ht-degree: 0%
 Den här sidan beskriver alla administratörsförbättringar som gjorts i den första utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Jämför objekt mellan miljöer för att förbättra miljön
+
+>[!NOTE]
+>
+>Förhandsversion: 6 januari 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+
+För att det ska bli enklare att avgöra vilket objekt som ska ingå i ett miljöbefordringspaket har vi lagt till möjligheten att jämföra objekt i olika miljöer. Nu kan du välja objekttyper och miljöer. Workfront genererar en lista med objekt av den typen, oavsett om de finns i målmiljön eller inte och om det objektet skiljer sig åt mellan källmiljön och målmiljön. Du kan sedan lägga till objekt i ett paket direkt från den här listan.
+
+Om en användare tidigare ville jämföra objekt mellan miljöer måste de kontrollera objekten manuellt.
+
+Mer information finns i [Jämför objekt mellan miljöer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+
+## Fler tillgängliga objekt för miljöbefordran
+
+>[!NOTE]
+>
+>Förhandsversion: 6 januari 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+
+Vi har lagt till fler objekt för att utöka funktionerna för miljöbefordran. Nu kan du lägga till följande objekt i ett miljöhöjdspaket:
+
+* Platser
+* Klassificeringskort
+* Uppdrag
+
+Tidigare var dessa objekt inte tillgängliga för miljöbefordran.
+
+Mer information om tillgängliga objekt för miljöbefordran finns i [Objekt som stöds för miljöbefordran](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) i artikeln Översikt över miljöbefordran.
 
 ## Förhindra att uppgifter flyttas när loggade timmar finns
 
