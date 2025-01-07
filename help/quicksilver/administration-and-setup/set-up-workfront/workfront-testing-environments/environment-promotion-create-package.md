@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -105,3 +105,15 @@ Ett paket måste ha statusen `DRAFT` för att kunna redigeras. Om du vill flytta
 1. Installera paketet genom att klicka på **Installera** längst upp till höger på skärmen.
 
    Instruktioner om hur du installerar ett paket finns i [Installera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+
+## Skapa ett paket från en objektjämförelse
+
+Du kan skapa ett paket direkt från en objektjämförelse.
+
+1. Skapa en objektjämförelse enligt beskrivningen i [Jämför objekt mellan miljöer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+1. I den genererade jämförelsen markerar du de objekt som du vill inkludera i paketet.
+1. Klicka på **Skapa paket** i skärmens övre högra hörn.
+1. Ange ett namn och en beskrivning för paketet.
+1. Klicka på **Skapa paket** i fönstret Skapa paket.
+
+   Paketet genereras.
