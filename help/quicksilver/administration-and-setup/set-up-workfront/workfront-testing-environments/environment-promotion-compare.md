@@ -8,9 +8,9 @@ description: Du kan jämföra objekt mellan olika miljöer för att se till att 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,12 @@ I detta exempel:
 * Den tredje raden visar ett objekt som inte finns i målmiljön.
 
 >[!ENDSHADEBOX]
+
+Så här visar du specifika objektskillnader:
+
+1. Klicka på förstoringsglasikonen ![](assets/compare-icon.png) på raden för det objektet.
+
+   Ett fönster öppnas med alla objektets fält. skillnaderna markeras med rött.
 
 ## Skapa ett paket från en objektjämförelse
 
