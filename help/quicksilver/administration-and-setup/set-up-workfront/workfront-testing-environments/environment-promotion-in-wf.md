@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,7 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 | Resurspool (RSPL) | Resurspool |
 | Åtkomstnivå (ACSLVL) | Åtkomstnivå |
 | <span class="preview">Gradkort (RTCRD)</span> | <span class="preview">Betygskort</span> |
+| <span class="preview">Plats/klassificerare (CLSF)</span> | <span class="preview">Plats/klassificerare</span> |
 
 \* Inte tillgängligt för tillfället
 
