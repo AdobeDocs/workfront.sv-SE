@@ -6,9 +6,9 @@ description: Du kan välja bland ett antal widgetar för att anpassa innehållet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ Du kan använda filter på följande widgetar för att söka efter och ordna arb
 * [Mina problem](#my-issues)
 * [Mitt arbete](#my-work)
 * [Mina godkännanden](#my-approvals)
+
+>[!IMPORTANT]
+>
+>* Om du vill visa uppgifter och problem i Home-widgetarna måste det överordnade projektet ha statusen Aktuell eller en status som motsvarar aktuell.
+>* Projekt måste också ha statusen Aktuell eller en status som är lika med aktuell att visa.
 
 ## Mina projekt
 

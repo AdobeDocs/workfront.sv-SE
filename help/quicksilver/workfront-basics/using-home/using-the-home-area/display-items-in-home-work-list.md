@@ -6,9 +6,9 @@ description: Varje widget innehåller en egen arbetslista. Arbetslister visar al
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 <!-- Audited: 1/2024 -->
 
 Varje widget innehåller en egen arbetslista. Arbetslister visar alla arbetsobjekt som är tilldelade dig. Du kan styra vilka objekt som ska visas i [!UICONTROL worklist] genom att använda filter och grupperingar.
+
+>[!IMPORTANT]
+>
+>* Om du vill visa uppgifter och problem i Home-widgetarna måste det överordnade projektet ha statusen Aktuell eller en status som motsvarar aktuell.
+>* Projekt måste också ha statusen Aktuell eller en status som är lika med aktuell att visa i Hem.
 
 ## Åtkomstkrav
 

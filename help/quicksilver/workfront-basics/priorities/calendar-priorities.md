@@ -5,13 +5,13 @@ description: Spåra arbetet med en tydlig, visuell kalender.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
-
 
 # Hantera ditt arbete i Prioritetskalendern
 
@@ -22,6 +22,11 @@ Håll ordning på ditt material med en tydlig, visuell kalender. Med Prioritetsk
 * Använd filter för att hitta ditt material
 * Använd anpassade fält som status och fokusnivå för att identifiera högprioriterat arbete
 * Använd färger för snabb sortering
+
+>[!IMPORTANT]
+>
+>Projekt måste ha statusen Aktuell eller en status som är lika med aktuell för att kunna visa projekt samt deras underordnade uppgifter och ärenden.
+
 
 ## Åtkomstkrav
 
@@ -154,4 +159,3 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. På fliken **Färg** väljer du hur du vill att dina arbetsobjekt ska visas. Om du till exempel väljer Projekt visas dina arbetsobjekt i enlighet med den färg som tilldelats projektet i arbetslistan.
    ![exempelfärgprojekt](assets/sample-calendar-projects.png)
-

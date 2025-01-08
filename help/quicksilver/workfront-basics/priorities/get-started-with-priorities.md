@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: da688217a1240b74667f31d20e086164e1536576
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I Prioriteringar kan du filtrera och gruppera ditt arbete så att du kan hantera
 
 ### Hitta ditt material med filter
 
-Hitta det viktigaste arbetet med filter. <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+Hitta det viktigaste arbetet med filter. <span class="preview">Du kan använda ett naturligt språk för att hitta arbete med det smarta filtret</span>, eller
 Du kan använda filtret Standard för att hitta uppgifter och ärenden som du har tilldelats:
 
 <table>

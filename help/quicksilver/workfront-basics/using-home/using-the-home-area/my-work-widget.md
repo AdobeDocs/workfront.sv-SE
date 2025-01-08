@@ -6,9 +6,9 @@ description: Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Hantera ditt arbete med widgeten Mitt arbete
 
 Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Här kan du filtrera och ordna ditt arbete, logga tid, göra uppdateringar och markera arbetsobjekten som slutförda.
+
+>[!IMPORTANT]
+>
+>Om du vill visa uppgifter och ärenden i widgeten Mitt arbete måste det överordnade projektet ha statusen Aktuell eller en status som motsvarar aktuell.
 
 ## Åtkomstkrav
 
