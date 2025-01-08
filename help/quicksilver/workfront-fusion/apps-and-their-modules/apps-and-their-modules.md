@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,7 @@ Det här avsnittet innehåller följande artiklar:
 * [[!DNL Adobe PDF Services] moduler](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Photoshop] moduler](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target] moduler](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+* [[!DNL Adobe User Management] moduler](../../workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md)
 * [[!DNL Airtable] moduler](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)
 * [[!DNL Allocadia] moduler](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md)
 * [[!DNL Anaplan] Moduler](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)
