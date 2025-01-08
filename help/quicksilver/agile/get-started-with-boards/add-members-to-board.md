@@ -6,9 +6,9 @@ description: Personer måste läggas till i styrelsen som medlemmar innan de kan
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 >[!NOTE]
 >
 >Det är bara en systemadministratör eller den aktuella styrelseledamöten som kan ändra styrelsens ägare. En styrelse kan bara ha en ägare.
+>
+>Möjligheten att ändra styrelsens ägare finns på grundbräden, retrospektiva och Kanban-tavlor, men inte dynamiska.
 
 1. Gå till styrelsen.
 1. Klicka på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon-spectrum.png) bredvid kortnamnet och välj sedan **[!UICONTROL Change board owner]**.
