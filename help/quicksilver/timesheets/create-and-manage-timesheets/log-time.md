@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '3655'
+source-wordcount: '3846'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,10 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--remove all preview and production references from this article with 23.3 release-->
+<!--remove all preview and production references if any-->
+<!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder.</span>
 
 Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
@@ -490,23 +486,74 @@ Du kan redigera följande element för en timinmatning när du redigerar en timi
 * Antal timmar
 * Timtyp
 * Jobbroll som är associerad med timinmatningen
+* Beskrivning av timinmatningen
 
-Beroende på vilken typ av timposter du redigerar är följande fält tillgängliga för redigering:
+Beroende på vilken typ av timposter du redigerar kan du redigera följande fält i en timlista eller rapport:
 
 * När du redigerar projektspecifika timmar:
 
-   * Du kan redigera antalet timmar.
-   * Du kan bara ändra timtypen till projektspecifika typer.
-   * Du kan bara ändra timjobbrolltilldelningen om den aktiverades i inställningarna. Mer information finns i [Konfigurera tidrapport och timinställningar](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+   * Antal timmar
+   * Timtyp. Du kan bara ändra timtypen till projektspecifika typer.
+   * Jobbrolltilldelning. Du kan bara ändra jobbrolltilldelningen om den aktiverades i installationsprogrammet. Mer information finns i [Konfigurera tidrapport och timinställningar](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+   * Beskrivning av timposten.
+
+<div class="preview">
+
+![](assets/edit-hour-box-project-hour-type.png)
+
+</div>
 
 * När du redigerar allmänna timmar:
 
-   * Du kan redigera antalet timmar.
-   * Du kan bara ändra timtypen till allmänna typer.
-   * Du kan inte ändra timjobbrolltilldelningen eftersom allmänna timmar inte kan associeras med roller.
+   * Antalet timmar.
+   * Timtyp. Du kan bara ändra timtypen till allmänna typer.
+   * Beskrivning av timposten.
+
+>[!TIP]
+>
+> Du kan inte ändra timjobbrolltilldelningen eftersom allmänna timmar inte kan associeras med roller.
+
+<!--update the screen shot at production - we should not see the job role field for general hours-->
+
+![](assets/edit-hour-box-general-overhead-hour-type.png)
+
 
 * När du redigerar en blandning av allmänna och projektspecifika timmar, gruppvis:
 
-   * Du kan redigera antalet timmar.
-   * Du kan inte ändra timtyp eftersom allmänna timtyper inte kan ändras till projektspecifika typer och projektspecifika timtyper inte kan ändras till allmänna typer.
-   * Du kan inte ändra jobbrolltilldelningen eftersom allmänna timmar inte kan associeras med roller.
+   * Antalet timmar.
+   * Beskrivning av timposten.
+
+>[!TIP]
+>
+>* Du kan inte ändra timtyp eftersom allmänna timtyper inte kan ändras till projektspecifika typer och projektspecifika timtyper inte kan ändras till allmänna typer.
+>* Du kan inte ändra jobbrolltilldelningen eftersom allmänna timmar inte kan associeras med roller.
+
+
+<!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
+
+![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+
+Så här redigerar du timtyper i en timrapport eller timlista:
+
+1. Gå till en timlista eller rapport.
+1. Klicka i rutan till vänster om en eller flera timposter för att markera dem.
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) högst upp i listan.
+
+   Rutan **Redigera timme** eller **Redigera timmar** öppnas.
+1. Uppdatera följande tillgängliga fält:
+
+   * Timmar. Detta är ett obligatoriskt fält.
+   * Timtyp. Detta är ett obligatoriskt fält.
+   * Jobbroll
+   * Beskrivning
+
+   >[!TIP]
+   >
+   >   Alla fält är inte tillgängliga, beroende på vilken timtyp som är associerad med de valda timposterna.
+
+1. Klicka på **Spara <span class="preview">ändringar</span>**.
+
+   Informationen om timinmatning uppdateras.
+Om du har markerat mer än en timmes inmatning och ändrat fältet Timmar, fördelas samma antal timmar till alla valda timinmatningar. De ursprungliga timmarna ersätts med det nya värdet för alla valda timtransaktioner.
+
+

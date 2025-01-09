@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Ämnesgrupper är associerade med frågeköer. De gör att du kan placera dina begärandeköer i flera kategorier, beroende på vilken typ av begäran det är.
+Ämnesgrupper är associerade med frågeköer. Du kan placera dina frågeköer i flera kategorier, beroende på vilken typ av begäranden det gäller, genom att använda ämnesgrupper.
 
 ## Åtkomstkrav
 
@@ -64,12 +64,12 @@ Om du till exempel har en frågekö för marknadsföringsförfrågningar kan du 
 
 Mer information om hur du skapar frågeköer finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
->[!TIP]
->
->* Du kan skapa upp till 10 nivåer med ämnesgrupper i en begärandekö.
->* Det finns ingen gräns för hur många köämnen som kan kopplas till en ämnesgrupp.
->* Ämnesgrupper är ett objekt som kan rapporteras.
->
+Tänk på följande när du arbetar med ämnesgrupper:
+
+* Du kan skapa upp till 10 nivåer med ämnesgrupper i en begärandekö.
+* Det finns ingen gräns för hur många köämnen som kan kopplas till en ämnesgrupp.
+* Ämnesgrupper är ett objekt som kan rapporteras.
+* Du kan inte flytta ämnesgrupper från ett projekt till ett annat.
 
 ## Skapa ämnesgrupper
 

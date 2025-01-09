@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -139,33 +139,40 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Postfält som är tillgängliga i tabellvyn för den valda posttypen. <!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > Beroende på vilken miljö du använder för att skapa ett begärandeformulär finns följande scenarier:
-   >
-   >* Fält av följande typer visas inte i begärandeformuläret <span class="preview"> i förhandsgransknings- </span> eller produktionsmiljöerna:
-   >
-   >    * Skapad av och senast ändrad av
-   >    * Formel
-   >    * Skapad den och senast ändrad den
-   >    * Workfront-objektens sökfält
-   >    * Sökfält för Workfront Planning-anslutna poster
-   >* Fält av följande typer visas inte i begärandeformuläret i produktionsmiljön. <span class="preview">De visas i förhandsvisningsmiljön:</span>
-   >    * <span class="preview"> Workfront Planning records&#39; connected fields </span>
-   >    * <span class="preview">Personer </span>
-   >    * <span class="preview">Workfront-objektens anslutna fält</span>
-   >    * <span class="preview">AEM Assets-anslutna fält </span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
-   * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är ännu inte tillgänglig i produktionsmiljön. <span class="preview">Den är tillgänglig i förhandsvisningsmiljön.</span> Det går inte att redigera konfigurationen och värdet för ämnesfältet.
+>[!IMPORTANT]
+>
+> Beroende på vilken miljö du använder för att skapa ett begärandeformulär finns följande scenarier:
+>
+>* Fält av följande typer visas inte i begärandeformuläret i produktionsmiljön:
+>
+>    * Skapad av och senast ändrad av
+>    * Skapad den och senast ändrad den
+>    * Formel
+>    * Folk
+>    * Workfront-anslutna fält
+>    * Workfront-objektens sökfält
+>    * Kopplade fält för Workfront Planning-poster
+>    * Sökfält för Workfront Planning-anslutna poster
+>    * AEM Assets-anslutningsfält
+>* Fält av följande typer visas inte i begärandeformuläret i <span class="preview">förhandsgranskningsmiljön:</span>
+>    * <span class="preview"> Skapad av och senast ändrad av </span>
+>    * <span class="preview">Skapad och senast ändrad </span>
+>    * <span class="preview">Formel</span>
+>    * <span class="preview"> Workfront-objektets sökfält </span>
+>    * <span class="preview">Sökfält för Workfront Planning-anslutna poster </span>
 
-     >[!TIP]
-     >
-     >Fältet **Ämne** kräver ett värde när det är synligt i begärandeformuläret. Du kan dock ta bort fältet **Ämne** om det behövs, och den som beställer kan inte se det i formuläret.
+* **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
+* Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är ännu inte tillgänglig i produktionsmiljön. <span class="preview">Den är tillgänglig i förhandsvisningsmiljön.</span> Det går inte att redigera konfigurationen och värdet för ämnesfältet.
 
-   * Alla fält som är associerade med posttypen.
+  >[!TIP]
+  >
+  >Fältet **Ämne** kräver ett värde när det är synligt i begärandeformuläret. Du kan dock ta bort fältet **Ämne** om det behövs, och den som beställer kan inte se det i formuläret.
 
-     Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
+* Alla fält som är associerade med posttypen.
+
+  Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
 
 1. (Valfritt) Håll markören över fält i formuläret som du vill ta bort och klicka sedan på ikonen **x** för att ta bort dem. De läggs till på fliken **Fält** till vänster om formuläret.
 
@@ -233,9 +240,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    > * <span class="preview">Ett formulär som innehåller följande fälttyper kan inte delas offentligt:</span>
    >
-   >     * <span class="preview">Formel</span>
    >     * <span class="preview">Workfront- eller AEM Assets-anslutningar</span>
-   >     * <span class="preview">Uppslagsfält</span>
    >     * <span class="preview">Personer</span>
    >
 

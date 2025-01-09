@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -149,9 +149,10 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
    Ditt formulär skickas och följande saker händer:
 
-   * Om begärandeformuläret inte var associerat med ett godkännande, eller <span class="preview">om godkännandet beviljades av alla godkännare,</span> läggs en ny post till i posttypen som är associerad med formuläret.
+   * Om begärandeformuläret inte var associerat med ett godkännande läggs begäran till på fliken <span class="preview">Planering i avsnittet Skickat i området Workfront-förfrågningar </span> och en ny post läggs till i posttypen som är associerad med formuläret.
 
-   * Om begärandeformuläret inte var associerat med ett godkännande läggs <span class="preview">-begäran till på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar och en ny post läggs till på posttypsidan.</span>
+   * Om begärandeformuläret associerades med ett godkännande läggs <span class="preview">-begäran till på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar. En ny post läggs bara till på posttypsidan efter att alla godkännare har godkänt den.</span>
+     <span class="preview">Mer information finns i [Lägga till ett godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
      >
      ><span class="preview">Alla användare som har tillgång till minst en arbetsyta kan visa fliken Planering i området Begäranden. Du kan bara visa de förfrågningar som du eller någon annan har skickat till arbetsytorna som du har minst behörighet att visa. Workfront-administratörer kan visa alla begäranden som skickas till valfri arbetsyta i systemet. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Om begärandeformuläret associerades med ett godkännande sparas begäran tillfälligt på fliken Planering i avsnittet Skickat i området Workfront-förfrågningar. Ingen post skapas för den posttyp som är associerad med begärandeformuläret.</span>
-
-     <span class="preview">Mer information finns i [Lägga till ett godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
    * <span class="preview">Du får ett meddelande i appen och ett e-postmeddelande om att begäran har skickats eller skickats för granskning.</span>
    * <span class="preview">Om begärandeformuläret associerades med ett godkännande får godkännarna ett meddelande i appen och ett e-postmeddelande för att granska och godkänna begäran.</span>
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
        <p>Tänk på följande:</p> 
         <ul> 
          <li> När det är markerat kan du flytta uppgifter och ärenden som har loggats. Timmarna rör sig också med uppgifterna eller problemen. </li>
-      <li>När du avmarkerar det här alternativet får du en varning när du flyttar en uppgift eller ett problem med loggade timmar. Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar flyttas. Det går inte att flytta uppgifter eller ärenden som har loggade timmar. </li></ul>
+      <li>När du avmarkerar det här alternativet får du en varning när du flyttar en uppgift eller ett problem med loggade timmar. Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar flyttas. Det går inte att flytta uppgifter eller ärenden som har loggade timmar till ett annat projekt. Du kan flytta uppgifter med loggade timmar inom samma projekt, även om det här alternativet är avmarkerat.  </li></ul>
       </td> 
      </tr> 
     </tbody> 
