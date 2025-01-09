@@ -6,18 +6,22 @@ description: Du kan kopiera en kontrollpanel och allt dess innehåll (rapporter,
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
 # Kopiera en kontrollpanel
 
+<!-- Audited: 1/2025 -->
+
 Du kan kopiera en kontrollpanel och allt dess innehåll (rapporter, kalendrar och externa sidor). När du kopierar innehållet på en kontrollpanel kan du välja att behålla dem så som de visas på den ursprungliga kontrollpanelen, eller skapa nya objekt som är kopior av dem på den ursprungliga kontrollpanelen. Du kan också välja att inte överföra eller kopiera objekt på den nya instrumentpanelen.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -31,18 +35,31 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Plan </p> </td> 
+    <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Visa åtkomst till en instrumentpanel</p> <p>Du får Hantera-åtkomst till den kopierade instrumentpanelen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa åtkomst till en instrumentpanel</p> <p>Du får Hantera-åtkomst till den kopierade instrumentpanelen</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -52,7 +69,7 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
 
 ## Kopiera en kontrollpanel
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Kontrollpaneler**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Dashboards]**.
 
 1. Markera den instrumentpanel som du vill kopiera och klicka sedan på **Kopiera** ![](assets/copy-icon.png).\
    eller\

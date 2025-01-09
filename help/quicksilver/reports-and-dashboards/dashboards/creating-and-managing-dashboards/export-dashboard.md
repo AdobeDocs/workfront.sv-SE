@@ -6,14 +6,16 @@ description: Du kan exportera en kontrollpanel till en PDF-fil med de utskriftsa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '372'
 ht-degree: 3%
 
 ---
 
 # Exportera en kontrollpanel
+
+<!-- Audited: 1/2025 -->
 
 Du kan exportera en kontrollpanel till en PDF-fil med de utskriftsalternativ som är tillgängliga i webbläsaren.
 
@@ -24,6 +26,8 @@ Du kan exportera en kontrollpanel till en PDF-fil med de utskriftsalternativ som
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande:
 
 <table style="table-layout:auto"> 
@@ -31,25 +35,36 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+    <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Arbeta eller högre</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Visa behörigheter på kontrollpanelen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter på kontrollpanelen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -60,13 +75,13 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
 ## Exportera en kontrollpanel till en pdf-fil:
 
 1. Gå till den kontrollpanel som du vill exportera.
-1. Klicka på **Instrumentpanelsåtgärder** och välj sedan **Skriv ut**.
+1. Klicka på **Instrumentpanelsåtgärder** och välj sedan **Förhandsgranska utskrift**.
 
    ![](assets/dashboard-actions-print-350x254.png)
 
-   Dialogrutan Skriv ut öppnas.
+   Fönstret Förhandsgranska utskrift öppnas.
 
-1. Beroende på webbläsaren väljer du lämpliga utskriftsalternativ för att slutföra PDF-filen. filexport:
+1. Klicka på **Skriv ut** och välj sedan lämpliga utskriftsalternativ baserade på webbläsaren för att slutföra PDF-filen. filexport:
 
    <table style="table-layout:auto"> 
     <col> 

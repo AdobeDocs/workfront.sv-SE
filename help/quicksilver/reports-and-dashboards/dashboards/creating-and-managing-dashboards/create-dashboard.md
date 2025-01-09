@@ -6,16 +6,16 @@ description: Du kan skapa kontrollpaneler för att snabbt komma åt information 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # Skapa en instrumentpanel
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 Du kan skapa kontrollpaneler för att snabbt komma åt information i Adobe Workfront. Upp till 25 rapporter, kalendrar och externa sidor kan läggas till på kontrollpaneler som du kan dela med andra för optimalt samarbete.
 
@@ -38,7 +38,7 @@ Du måste ha följande:
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-licens*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront-licens</strong></p> </td> 
    <td> <p>Aktuell: Planera </p>
    eller
    <p>Nytt: Standard </p> </td> 
@@ -54,7 +54,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

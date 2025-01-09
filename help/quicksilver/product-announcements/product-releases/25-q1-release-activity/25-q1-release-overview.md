@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '2478'
+source-wordcount: '2527'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 19 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -112,7 +112,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 21 november 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.12 (12 december 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>     
@@ -128,7 +128,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 21 november 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.12 (12 december 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -143,7 +143,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 21 november 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.12 (12 december 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -159,7 +159,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 29 oktober 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -185,13 +185,13 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ändra ägare till en styrelse</a></p>
             <p>Den som har skapat en styrelse är som standard ägare. Styrelseledamot är den enda person som kan ta bort eller uppdatera brädans filter på panelen Konfigurera.</p>
-            <p>Funktioner har lagts till så att Workfront systemadministratörer kan ändra ägare till en styrelse. Den nuvarande ägaren av en styrelse kan också ändra ägaren till den specifika styrelsen.</p>
+            <p>Funktioner har lagts till så att Workfront systemadministratörer kan ändra ägare till en styrelse. Den nuvarande ägaren av en styrelse kan också ändra ägaren till den specifika styrelsen. Den här funktionaliteten finns för enkla, retrospektiva och Kanban-tavlor, men inte dynamiska.</p>
         </td>
         <td>
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 18 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -224,7 +224,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 21 november 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.12 (12 december 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -240,7 +240,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 7 november 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
             <p><i>Den här funktionen ingår i en fasad version och är endast tillgänglig för vissa kunder.</i></p>
         </td>
@@ -265,6 +265,25 @@ Den här sidan innehåller information om de funktioner som ingår i den första
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Använd smarta filter för att hitta ditt material i prioriteter</a></p>
+            <p>Använd naturligt språk för att snabbt filtrera arbetet i prioriteringslistan. Du kan skriva saker som </p>
+            <ul>
+                <li>Visa mig sena uppgifter</li>
+                <li>Visa uppgifter som förfaller den här veckan</li>
+                <li>Visa topprioriteringar</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsgranskningsversion: 9 januari 2025</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Fånga upp arbetet i prioriteringar</a></p>
             <p>Du kan använda Fånga upp mig för att minska tiden när du söker information om aktiva projekt.</p>
             <p>Med Workfront AI Assistant kan jag göra en sammanfattning av uppdateringar, överförda dokument och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar eller 7 dagar.</p>
@@ -273,7 +292,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 20 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -287,7 +306,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 19 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -307,7 +326,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 19 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -327,7 +346,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 19 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -341,7 +360,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 12 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -355,7 +374,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 5 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -392,7 +411,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 6 november 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -423,7 +442,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 19 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -487,7 +506,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 16 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -533,7 +552,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 19 december 2024</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -577,7 +596,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 11 november 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.12 (12 december 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>
@@ -593,7 +612,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             <ul>
                 <li>Förhandsversion: 31 oktober 2024</li>
                 <li>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
             </ul>
         </td>
     </tr>

@@ -7,20 +7,22 @@ description: Du kan hantera hur rapporter som läggs till på kontrollpaneler vi
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # Förstå hur rapporter visas på en kontrollpanel
 
+<!-- Audited: 1/2025 -->
+
 Du kan hantera hur rapporter som läggs till på kontrollpaneler visas på kontrollpanelerna.
 
 Mer information om hur du redigerar layouten för rapporter på en kontrollpanel finns i [Skapa en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-Du kan välja vilka rapportkolumner som ska visas på en kontrollpanel när du skapar en rapport. Om du alltid vill visa alla kolumner i rapporten på en kontrollpanel måste du ange det för varje kolumn när du skapar rapporten.
+Du kan välja vilka rapportkolumner som ska visas på en kontrollpanel när du skapar eller redigerar en rapport genom att klicka på [!UICONTROL **Avancerade alternativ**] i [!UICONTROL **Kolumninställningar**]. Om du vill visa alla kolumner i rapporten på en kontrollpanel måste du ange det för varje kolumn i rapporten.
 
 Mer information om hur du väljer vilka kolumner i en rapport som ska visas på en kontrollpanel finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

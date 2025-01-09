@@ -6,16 +6,16 @@ description: Du kan bädda in en extern webbsida i en instrumentpanel för att g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
 
 # Bädda in en extern webbsida i en instrumentpanel
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 Du kan bädda in en extern webbsida i en instrumentpanel för att ge åtkomst till relaterad information från andra system eller från Adobe Workfront.
 
@@ -64,10 +64,17 @@ Du måste ha följande:
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Aktuell: Planera </p>
-   eller
-   <p>Nytt: Standard </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
@@ -75,12 +82,12 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> </td> 
+   <td> <p>Redigera åtkomst till kontrollpanelen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -162,7 +169,7 @@ Så här uppdaterar du informationen för en extern sida som används i en kontr
 
    Rutan **Information om instrumentpanelen** öppnas.
 
-1. I området **Välj layout/Lägg till rapporter/Lägg till kalendrar** i rutan **Information om instrumentpanelen** letar du reda på den externa sida som du vill uppdatera, håller pekaren över den och klickar på ikonen **Redigera** .\
+1. I området **Välj layout/Lägg till rapporter** i rutan **Information om kontrollpanelen** letar du reda på den externa sida som du vill uppdatera, håller pekaren över den och klickar på ikonen **Redigera** .\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Uppdatera fälten som du vill ändra i rutan **Redigera extern sida** och klicka sedan på **Spara**.
@@ -175,7 +182,7 @@ Du kan visa alla externa sidor i Workfront i en extern sidrapport.
 
 {{step1-to-reports}}
 
-1. Klicka på **Ny rapport** > välj **Extern sida**.
+1. Klicka på **Ny rapport** > välj **Externt avsnitt**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,8 +190,7 @@ Du kan visa alla externa sidor i Workfront i en extern sidrapport.
 
    Mer information finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Klicka på **Spara+Stäng**.
+1. Klicka på **Spara + Stäng**.
 
-   I den nya rapporten kan du visa namnet och URL:en som är kopplade till de externa sidorna i systemet.
+   I den nya rapporten kan du visa namnet och URL:en som är kopplade till externa sidor i systemet.
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

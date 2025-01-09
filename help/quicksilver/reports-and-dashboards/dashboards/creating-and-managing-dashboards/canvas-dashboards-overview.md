@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,7 @@ ht-degree: 0%
 
 # Översikt över kontrollpaneler på arbetsytan
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 Canvas Dashboards, en funktion som för närvarande är under utveckling för Dashboards, erbjuder ett nytt alternativ för att skapa effektiva kontrollpaneler i Workfront. Arbetsytans kontrollpaneler gör det enkelt att ta med visualiseringar av arbetsytan i befintliga rapporter, vilket ger större flexibilitet och nya layoutalternativ.
@@ -81,6 +82,7 @@ Ett nytt alternativ för Canvas Dashboards på den vänstra panelen på den befi
 1. Börja skriva in namnet på rapporten som du vill visa i fältet **Sök efter rapport**. När du ser rapporten i listan klickar du på ikonen **Listrapport** eller **Diagramrapport** bredvid namnet för att visa informationen från rapporten i det format du valt.
 
 >[!WARNING]
+>
 > Det går för närvarande att lägga till flera widgetar som visar information från samma rapport, men vi rekommenderar att du bara visar varje rapport en gång eftersom det kan påverka kontrollpanelens prestanda.
 
 ### Redigera en widget på en arbetsytans kontrollpanel

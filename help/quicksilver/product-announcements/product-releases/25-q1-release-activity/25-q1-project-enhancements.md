@@ -4,9 +4,10 @@ description: Förbättringar av projekt för det första kvartalet 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 
 En funktion som har funnits i förhandsvisningsmiljön sedan december 2023 och i den snabba produktionsmiljön sedan mars 2024 har nu tagits bort. Funktionerna lade till mer relevanta förslag på smarta uppdrag när uppgifter tilldelas.
 

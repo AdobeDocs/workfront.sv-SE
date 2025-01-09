@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 16 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 16 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 
 För att behålla kontrollpanelens prestanda har vi implementerat en gräns för det totala antalet rapporter, externa sidor eller kalendrar som kan placeras på en kontrollpanel. När du skapar en ny kontrollpanel kan högst 25 objekt läggas till.
 

@@ -6,14 +6,16 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # Dela en kontrollpanel
+
+<!-- Audited: 1/2025 -->
 
 Din Adobe Workfront-administratör ger användarna åtkomst till att visa eller redigera kontrollpaneler när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till problem finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna dela objekt:
 
 <table style="table-layout:auto"> 
@@ -34,25 +38,36 @@ Du måste ha följande för att kunna dela objekt:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+    <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Ljus eller högre</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Granska eller högre</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Visa åtkomst eller högre till rapporter, instrumentpaneler, kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>Visa åtkomst eller högre till rapporter, instrumentpaneler, kalendrar</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Visa behörigheter eller högre på kontrollpanelen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter eller högre på kontrollpanelen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -83,11 +98,11 @@ Att dela en eller flera kontrollpaneler från en lista är identiskt.
 
    eller
 
-   Klicka på namnet på en instrumentpanel och klicka sedan på **Instrumentpanelsåtgärder >****Delning**.
+   Klicka på namnet på en instrumentpanel och klicka sedan på **Instrumentpanelsåtgärder** > **Delning**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. I fältet **Lägg till personer, team, roller, grupper eller företag ...** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela instrumentpanelen med och klickar sedan på namnet i listrutan.
-1. (Valfritt) Om du vill att instrumentpanelen ska vara tillgänglig för alla användare i systemet klickar du på ikonen **Inställningar** i det övre högra hörnet av delningsdialogrutan och väljer sedan **Gör den synlig i hela systemet**.
+1. I fältet **Lägg till personer, team, roller, grupper eller företag** börjar du skriva namnet på användaren, teamet, rollen, gruppen eller företaget som du vill dela instrumentpanelen med och klickar sedan på namnet när det visas i listrutan.
+1. (Valfritt) Om du vill att instrumentpanelen ska vara tillgänglig för alla användare i systemet klickar du på listrutan **Endast inbjudna personer har åtkomst** i delningsdialogrutan och väljer sedan **Alla i systemet kan visa**.
 
 1. Klicka på **Spara**.

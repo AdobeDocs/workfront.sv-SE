@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,35 @@ Den här sidan beskriver alla förbättringar av Home som gjorts i första utgå
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Översikt över förbättringar av prioriteringar
+
+I videon nedan ser du de nya funktionerna som lagts till i Prioriteringar under det här kvartalet.
+
+[Förbättringar av prioriteter - översiktsvideo](https://video.tv.adobe.com/v/3442750/){target=_blank}
+
+I videon [Prioritetsförbättringar ](#priorities-enhancements-demo-video) nedan visas de funktioner som ingår i den här översikten.
+
+## Använd smarta filter för att hitta ditt material i prioriteter
+
+>[!NOTE]
+>
+>Förhandsversion: 9 januari 2025; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
+
+Använd naturligt språk för att snabbt filtrera arbetet i prioriteringslistan. Du kan skriva saker som
+
+* Visa mig sena uppgifter
+* Visa uppgifter som förfaller den här veckan
+* Visa topprioriteringar
+
+Endast tillgängligt för IMS-aktiverade instanser.
+
+Mer information finns i [Filtrera och gruppera ditt arbete med prioritet](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
 ## Fånga upp arbetet i prioriteringar
 
 >[!NOTE]
 >
->Förhandsversion: 20 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 20 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 >
 >_Den här funktionen är bara tillgänglig för kunder som använder AI Assistant på en enhetlig Adobe-upplevelse._
 
@@ -36,7 +60,7 @@ Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksil
 
 >[!NOTE]
 >
->Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 
 Du kan nu visa uppdateringar i realtid på informationssidan för en uppgift eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.
 
@@ -46,7 +70,7 @@ Mer information finns i [Visa projekt- och uppgiftsinformation i prioritetsarbet
 
 >[!NOTE]
 >
->Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 
 Nu kan du interagera med dokument och korrektur för uppgifter och utgåvor i arbetslistan och kalendern. På fliken Nya dokument kan du
 
@@ -61,7 +85,7 @@ Mer information finns i [Överför dokument och skapa korrektur i prioriteter](/
 
 >[!NOTE]
 >
->Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 
 Nu kan du spåra ditt arbete med en tydlig, visuell kalender. Med Prioritetskalendern kan du
 
@@ -76,7 +100,7 @@ Mer information finns i [Hantera ditt arbete i prioriteringskalendern](/help/qui
 
 >[!NOTE]
 >
->Förhandsversion: 12 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 12 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 
 Vi har uppdaterat prioriteringslistan för att förbättra funktionerna och anpassa dem till andra områden i programmet.
 
@@ -106,7 +130,7 @@ Mer information finns i [Filtrera och gruppera ditt arbete med prioritet](/help/
 
 >[!NOTE]
 >
->Förhandsversion: 5 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 5 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 
 Du kan nu navigera direkt till ett projekt i Workfront från listan Prioriteter.
 
@@ -131,8 +155,14 @@ Den här förändringen gör det enklare att visa och ordna material baserat på
 
 >[!NOTE]
 >
->Förhandsversion: 6 november 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 6 november 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Nu kan du visa projektinformation och kommentarer från arbetslistan i Prioriteringar.
 
 Mer information finns i [Visa projekt- och uppgiftsinformation i prioritetsarbetslistan](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Prioriterade förbättringar - demovideo
+
+Se videon nedan för en detaljerad demonstration av de nya funktionerna som lagts till i Prioriteringar det här kvartalet.
+
+[Prioriterade förbättringar - demovideo](https://video.tv.adobe.com/v/3442751/){target=_blank}

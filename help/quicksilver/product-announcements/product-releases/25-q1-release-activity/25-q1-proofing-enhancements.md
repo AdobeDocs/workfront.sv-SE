@@ -4,7 +4,8 @@ description: Förbättringar av korrektur för första kvartalet 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 30 augusti 2024; Produktionsrelease för alla kunder: 30 augusti 2024.
+>Förhandsversion: 7 november 2024; Produktionsrelease för alla kunder: 7 november 2024.
 
 Vi introducerar ett nytt webbläsartillägg, Adobe Workfront granskningsverktyg, som ersätter det äldre webbläsartillägget för granskning av interaktivt ZIP-innehåll. Det äldre webbläsartillägget tas bort den 28 februari 2025.
 

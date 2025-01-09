@@ -7,16 +7,16 @@ description: Syftet med en kontrollpanel är att ge snabb åtkomst till informat
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
 
 # Kom igång med instrumentpaneler
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 Syftet med en kontrollpanel är att ge snabb åtkomst till information som kommer från flera rapporter. Först kan du samla information i rapporter och sedan montera flera rapporter på kontrollpaneler för att göra informationen enklare att komma åt.
 
@@ -38,7 +38,16 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront-licens</strong></p> </td> 
-   <td> <p>Nytt: Medarbetare eller högre</p><p>eller</p><p>Aktuell: Granska eller senare</p> </td> 
+      <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Medarbetare eller högre</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Granska eller högre</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Åtkomstnivå</strong> </td> 
@@ -51,7 +60,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

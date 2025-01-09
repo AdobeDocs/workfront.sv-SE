@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Mer information om tillgängliga objekt för miljöbefordran finns i [Objekt som
 
 >[!NOTE]
 >
->Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
 
 Eftersom flyttningar av uppgifter eller problem som har loggade timmar ibland kan orsaka problem med regelefterlevnad eller revision, har vi lagt till en inställning under Inställningar för Aktivitet och problem i installationsprogrammet som gör att du kan förhindra användare från att flytta uppgifter och problem om det finns timmar inloggade. Före den här förbättringen kunde användare flytta uppgifter och problem till andra projekt, även om timmar var inloggade.
 
@@ -60,7 +60,7 @@ Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hel
 
 >[!NOTE]
 >
->Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Som system- eller gruppadministratör har du nu en ny inställning som anger om Workfront ska använda projektets eller användarens schema för att beräkna tidslinjen för projektet när du tilldelar en användare till en aktivitet och både projektet och användaren är associerade med ett schema. Före den här förbättringen fanns den här inställningen för fleranvändartilldelningar. Inställningen är nu tillgänglig för enanvändartilldelningar av uppgifter.
 
@@ -70,7 +70,7 @@ Mer information finns i [Konfigurera systemomfattande projektinställningar](/he
 
 >[!NOTE]
 >
->Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Nu kan du inkludera hyperlänkar i det anpassade felmeddelandet för en affärsregel, som vägleder användaren om hur de kan ändra sin åtgärd inom regelbegränsningen. Den statiska URL:en kan länka till dokumentation eller andra sidor som skulle vara till hjälp för användaren.
 
@@ -80,7 +80,7 @@ Mer information finns i [Skapa och redigera affärsregler](/help/quicksilver/adm
 
 >[!NOTE]
 >
->Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 När du lägger till en intern fältreferens i ett anpassat formulär och den refererar till ett typsnittsfält (till exempel Portfolio, Företag eller Ägare), är nu ett filteralternativ tillgängligt. Med filtret kan du begränsa vilka objekt som användare kan välja när de använder fältet. Det här anpassade filtret fungerar på samma sätt som ett filter i ett anpassat typsnittsfält, där textläget används för att definiera filtret.
 
@@ -90,7 +90,7 @@ Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/adminis
 
 >[!NOTE]
 >
->Förhandsversion: 29 oktober 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 29 oktober 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En&quot;flytta till&quot;-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.
 

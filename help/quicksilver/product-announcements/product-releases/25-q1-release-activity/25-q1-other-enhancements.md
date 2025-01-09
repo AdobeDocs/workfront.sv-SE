@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Vi har ändrat det sätt på vilket flyttade och borttagna resurser hanteras nä
 
 >[!NOTE]
 >
->Förhandsversion: 11 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 11 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 När ett anpassat formulär med flera avsnitt är kopplat till ett objekt kan du nu komprimera och expandera alla avsnitt utom standardavsnittet högst upp i formuläret. Administratören kan även se den här funktionen när formuläret förhandsgranskas i formulärdesignern.
 
@@ -43,7 +43,7 @@ Mer information om hur du lägger till ett avsnitt i ett anpassat formulär finn
 
 >[!NOTE]
 >
->Förhandsversion: 31 oktober 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 31 oktober 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 För att göra det enklare att hantera dina arbetsuppgifter i Workfront har vi uppdaterat AI Assistant för att arbeta med projekt, uppgifter och problem. Nu kan AI Assistant hitta projekt, uppgifter och problem baserat på kriterier som du anger, till exempel&quot;Hitta mina uppgifter som ska utföras den här veckan&quot;.
 Tidigare kunde AI Assistant inte arbeta direkt med projekt, uppgifter och problem.

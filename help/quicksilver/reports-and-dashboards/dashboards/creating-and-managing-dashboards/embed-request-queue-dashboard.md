@@ -6,22 +6,26 @@ description: Du kan bädda in en ny begärandekö i en instrumentpanel för att 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
 
 # Bädda in en begärandekö i en kontrollpanel
 
-Du kan bädda in en ny begärandekö i en instrumentpanel för att ge dina användare direktåtkomst till begärandekön, utan att behöva gå till området Begäranden. 
+<!-- Audited: 1/2025 -->
+
+Du kan bädda in en ny begärandekö i en instrumentpanel för att ge dina användare direktåtkomst till begärandekön, utan att behöva gå till området Begäranden.
 
 Om du till exempel har en begärandekö som är öppen för hela organisationen, som en helpdesk-kö eller en PTO-begärandekö som alla måste ha tillgång till regelbundet, kan det vara praktiskt att infoga begärandekön direkt i någon av deras instrumentpaneler för snabb och enkel åtkomst. Du konfigurerar detta på ungefär samma sätt som när du skapar en extern sida på en kontrollpanel.
 
 Först måste du hämta en URL till begärandekön. För det andra kan du bädda in URL-adressen i en kontrollpanel genom att lägga till en extern sida.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -30,31 +34,43 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Hantera behörigheter på kontrollpanelen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter på kontrollpanelen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
 Båda följande måste skapas innan du kan bädda in en begärandekö i en kontrollpanel:
 
 * **Kontrollpanelen**: Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
 * **Begärandekön**: Mer information om hur du skapar begärandeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Hämta URL:en för begärandekön {#obtain-the-url-of-the-request-queue}
@@ -62,7 +78,9 @@ Båda följande måste skapas innan du kan bädda in en begärandekö i en kontr
 Du kan hämta URL:en för en begärandekö på flera sätt, beroende på vilken del av begärandekön som du vill visa för användarna när de öppnar den från en kontrollpanel.
 
 * [Hämta en länk till ett specifikt köämne med möjlighet att ändra begärandetypen](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+
 * [Hämta en länk till en begärandekö och möjlighet att ändra begärandetypen](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+
 * [Hämta en länk till en begärandekö utan möjlighet att ändra begärandetypen](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### Hämta en länk till ett specifikt köämne med möjlighet att ändra begärandetypen {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -139,8 +157,11 @@ När du delar en länk till en förvald frågetyp väljs begärandetypen för an
 Du kan bädda in en länk till begärandekön eller till ett köämne som kapslats under en begärandekö i en kontrollpanel för att ge användarna direkt åtkomst till inskrivna begäranden.
 
 1. Hämta en URL för begärandekön med någon av metoderna som beskrivs i avsnittet [Hämta URL:en för begärandekön](#obtain-the-url-of-the-request-queue) i den här artikeln.
+
 1. Klicka på **Huvudmenyn** > **Kontrollpaneler** > **Ny kontrollpanel**.
+
 1. Ange ett **namn** för instrumentpanelen. Detta är ett obligatoriskt fält.
+
 1. Klicka på **Lägg till extern sida**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
@@ -150,35 +171,20 @@ Du kan bädda in en länk till begärandekön eller till ett köämne som kapsla
    * **Namn**: Ange namnet på begärandekön så som du vill att den ska visas på instrumentpanelen. Detta är ett obligatoriskt fält.
 
    * **Beskrivning**: Ange en beskrivning av att den här externa sidan visas. Detta är inte ett obligatoriskt fält och det är endast viktigt för rapportering. Den visas inte på kontrollpanelen.
-   * **URL**: klistra in den URL som du fick med någon av metoderna som beskrivs i steg 1.
 
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <MadCap:conditionalText data-mc-conditions="">   
-     (NOTE: ensure this stays accurate)   
-     </MadCap:conditionalText>   
-     </MadCap:conditionalText>   
-     -->
+   * **URL**: klistra in den URL som du fick med någon av metoderna som beskrivs i steg 1.
 
    * **Höjd**: Ange den externa sidans höjd. Detta anger hur mycket utrymme den externa sidan som innehåller begärandekön upptar på instrumentpanelen. Detta är ett obligatoriskt fält och standardvärdet är 500.
 
 1. Klicka på **Spara**.
-1. Klicka på **Spara + Stäng**. 
+
+1. Klicka på **Spara + Stäng**.
 
    Begärandekön visas som en separat kontrollpanelskomponent på kontrollpanelen.
 
-   ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
+1. (Valfritt) Klicka på **Instrumentpanelsåtgärder** och **Redigera** om du vill lägga till rapporter, kalendrar eller ytterligare externa sidor på samma instrumentpanel.
 
-1. (Valfritt) Klicka på **Instrumentpanelsåtgärder** och **Redigera** om du vill lägga till rapporter, kalendrar eller ytterligare externa sidor på samma instrumentpanel.\
    Mer information om hur du lägger till komponenter på en kontrollpanel finns i [Skapa en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-
- 
-
- 
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
--->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

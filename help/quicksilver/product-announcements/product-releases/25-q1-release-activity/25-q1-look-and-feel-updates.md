@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ En liten funktionalitetsändring gjordes för den tysta integreringen. I ställe
 
 >[!NOTE]
 >
->Förhandsversion: 28 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 28 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Dialogrutan för att begära åtkomst till objekt har uppdaterats till en modernare design som är konsekvent med andra delar av Workfront. Den här dialogrutan är tillgänglig när du begär åtkomst till projekt, uppgifter, utgåvor, program, portföljer, mallar och malluppgifter.
 
@@ -50,7 +50,7 @@ Vi har gjort prestandauppgraderingar till den del av installationsprogrammet dä
 
 >[!NOTE]
 >
->Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Vi har uppdaterat sidorna Företagsmedlemmar och Företagets faktureringstaxor med en modernare design som överensstämmer med andra delar av Workfront. Företagsmedlemskap nås via Inställningar > Företag > Välj ett företagsnamn > välj Företagsmedlemmar i den vänstra panelen. Företagets faktureringstariffer nås via Inställningar > Företag > Välj ett företagsnamn > välj Faktureringstariffer i den vänstra panelen.
 
@@ -73,7 +73,7 @@ De viktigaste ändringarna är följande:
 
 >[!NOTE]
 >
->Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Vi introducerar ett nytt listformat i Workfront Setup och kurslistan är den första sidan där det här tabellformatet används. Funktionen för att lägga till nya valutakurser och söka efter valutakurser har inte ändrats.
 
@@ -83,7 +83,7 @@ Mer information om valutakurser finns i [Konfigurera valutakurser](/help/quicksi
 
 >[!NOTE]
 >
->Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 4 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Vi har uppdaterat sidan Exportera data (Spark-Starts) i inställningsområdet med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -93,7 +93,7 @@ Mer information finns i [Exportera data från Workfront via Quick-Starts](/help/
 
 >[!NOTE]
 >
->Förhandsversion: 24 oktober 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 24 oktober 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Användarfönstret Skicka-uppdateringen har uppdaterats till en modernare design som är konsekvent med andra delar av Workfront.
 

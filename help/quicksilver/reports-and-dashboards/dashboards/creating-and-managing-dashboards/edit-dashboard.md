@@ -6,14 +6,16 @@ description: Syftet med kontrollpanelen är att ge snabb åtkomst till informati
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
 # Redigera en kontrollpanel
+
+<!-- Audited: 1/2025 -->
 
 Syftet med kontrollpanelen är att ge snabb åtkomst till information. Du kan fylla en kontrollpanel med följande objekt i Adobe Workfront:
 
@@ -33,6 +35,8 @@ När du delar en kontrollpanel med användare delas även alla rapporter och ext
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande:
 
 <table style="table-layout:auto"> 
@@ -40,25 +44,36 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Hantera behörigheter på kontrollpanelen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter på kontrollpanelen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -71,7 +86,7 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
 1. Gå till den instrumentpanel som du vill redigera.
 1. Klicka på **Instrumentpanelsåtgärder** och sedan på **Redigera**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

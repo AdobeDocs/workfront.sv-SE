@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 21 november 2024; Produktion för snabb release: Med version 24.12 (12 december 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 Nu kan du redigera flera dokument samtidigt. Du kan redigera beskrivningarna och uppdatera anpassade formulär.
 
@@ -36,7 +36,7 @@ Nu kan du redigera flera dokument samtidigt. Du kan redigera beskrivningarna och
 
 >[!NOTE]
 >
->Förhandsversion: 7 november 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (januari 2025)
+>Förhandsversion: 7 november 2024; Produktion för snabb release: Med version 24.11 (14 november 2024); Produktion för kvartalsvis publicering: Med version 25.1 (16 januari 2025)
 
 När en ny version läggs till i ett dokument med väntande godkännanden visas nu godkännandet för den tidigare versionen som &quot;Återkallad&quot;, vilket anger att den tidigare godkännandeprocessen har stängts på grund av att den nya versionen har lagts till.
 

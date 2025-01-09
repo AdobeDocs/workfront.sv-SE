@@ -4,9 +4,10 @@ description: Förbättringar av första kvarteret 2025-kort
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Den som har skapat en styrelse är som standard ägare. Styrelseledamot är den enda person som kan ta bort eller uppdatera brädans filter på panelen Konfigurera.
 
-Funktioner har lagts till så att Workfront systemadministratörer kan ändra ägare till en styrelse. Den nuvarande ägaren av en styrelse kan också ändra ägaren till den specifika styrelsen.
+Funktioner har lagts till så att Workfront systemadministratörer kan ändra ägare till en styrelse. Den nuvarande ägaren av en styrelse kan också ändra ägaren till den specifika styrelsen. Den här funktionaliteten finns för enkla, retrospektiva och Kanban-tavlor, men inte dynamiska.
 
 Tidigare gick det inte att ändra styrelsens ägare utan ingripande i bakänden.
 
