@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ Leta efter följande scenarier och använd den rekommenderade lösningen:
 * Händelserna kanske inte genererar ditt sätt att tänka. Se till att ni inte gör antaganden om hur och när händelser ska och ska utlösas. Du kan till exempel tro att en uppdatering av ett dokument för en uppgift genererar en aktivitetsuppdateringshändelse, men i stället genereras en dokumentskapningshändelse eller en dokumentuppdateringshändelse.
 * Din prenumeration kanske inte konfigureras som du förväntar dig. Du kan skapa händelseprenumerationer i olika miljöer och förvänta dig att de överförs på samma sätt som andra Workfront-data gör. Händelseprenumerationsdata är dock inte konfigurerade för kopiering eller befordran till andra miljöer. Kontrollera att du skickar API-begäranden till rätt miljö och att prenumerationerna i den miljön är konfigurerade som förväntat.
 * Nyttolasten togs inte emot eftersom den nödvändiga IP-adressen för Workfront inte har lagts till i tillåtelselista på brandväggen. Händelseprenumerationshändelser skickas endast från ett fåtal IP-adresser. Kontrollera att målnätverket har alla IP-undantag som krävs för att ta emot nyttolaster från Workfront Event Subscriptions.
+* Nyttolasten togs inte emot eftersom den var över 1 MB. Händelseprenumerationsmeddelanden eller -objekt får inte vara större än 1 MB.
 
 ## Varför tar det för lång tid för mina meddelanden att nå min slutpunkt?
 
