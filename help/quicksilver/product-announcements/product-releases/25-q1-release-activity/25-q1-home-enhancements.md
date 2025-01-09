@@ -1,28 +1,26 @@
 ---
 title: Första kvartalet 2025, hemförbättringar
-description: Första kvartalet 2025, hemförbättringar
+description: Prioriterade förbättringar för första kvartalet 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
-# Första kvartalet 2025, hemförbättringar
+# Prioriterade förbättringar för första kvartalet 2025
 
-Den här sidan beskriver alla förbättringar av Home som gjorts i första utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
+Den här sidan beskriver alla prioriterade förbättringar som gjorts i den första utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Översikt över förbättringar av prioriteringar
 
-I videon nedan ser du de nya funktionerna som lagts till i Prioriteringar under det här kvartalet.
-
-[Förbättringar av prioriteter - översiktsvideo](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 I videon [Prioritetsförbättringar ](#priorities-enhancements-demo-video) nedan visas de funktioner som ingår i den här översikten.
 
@@ -165,4 +163,6 @@ Mer information finns i [Visa projekt- och uppgiftsinformation i prioritetsarbet
 
 Se videon nedan för en detaljerad demonstration av de nya funktionerna som lagts till i Prioriteringar det här kvartalet.
 
-[Prioriterade förbättringar - demovideo](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+

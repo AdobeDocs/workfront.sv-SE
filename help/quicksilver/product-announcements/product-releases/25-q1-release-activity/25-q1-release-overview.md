@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
 source-wordcount: '2527'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättringar av anslagstavlor](#boards-enhancements)
 * [Förbättrad dokumenthantering](#document-management-enhancements)
-* [Hemförbättringar](#home-enhancements)
+* [Prioriterade förbättringar](#priorities-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Förbättringar av korrektur](#proofing-enhancements)
 * [Förbättringar av rapporter och kontrollpaneler](#report-and-dashboard-enhancements)
@@ -248,7 +248,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 </tbody>
 </table>
 
-### Hemförbättringar
+### Prioriterade förbättringar
 
 <table>
 <col style="width: 50%;" />
