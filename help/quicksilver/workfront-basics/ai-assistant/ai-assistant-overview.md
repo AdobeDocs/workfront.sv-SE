@@ -5,9 +5,9 @@ description: Översikt över AI Assistant
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
+source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -100,12 +100,12 @@ AI Assistant har för närvarande följande funktioner:
 
   Mer information finns i [Generera eller ändra beräknade fältformler med AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-<!--<div class="preview">
-* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+<div class="preview">
+* Sammanfatta uppdateringar, överförda dokument och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar, 7 dagar i prioritetsordning.
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>-->
+</div>
 
 ## Objekttyper tillgängliga för AI Assistant
 
