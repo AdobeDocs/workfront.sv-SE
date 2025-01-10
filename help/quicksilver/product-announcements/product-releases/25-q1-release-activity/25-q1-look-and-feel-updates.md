@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,19 @@ ht-degree: 0%
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den första utgåvan, kvartal 2025.
 
 En lista över alla ändringar som är tillgängliga i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+
+## Utforska och känna av uppdateringar för redigering av timbidrag från en timlista eller rapport
+
+>[!NOTE]
+>
+>Förhandsversion: 9 januari 2025; Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)
+
+Vi har uppdaterat utseendet och känslan i timrutan Redigera, när vi redigerar timmar från en timlista eller rapport för att matcha designen i andra delar av Workfront.
+
+Mer information finns i [Loggtid](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+
 
 ## Uppdaterad upplevelse på sidan för molnleverantörer i inställningsområdet
 
