@@ -7,9 +7,9 @@ description: Det är viktigt att ange i Adobe Workfront när en godkänd tid är
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Konfigurera personlig tid av i [!DNL Workfront]
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>Om du använder Adobe Unified Experience kan du komma åt din Workfront-profil genom att klicka på Adobe-kontomenyn (din profilbild) i det övre navigeringsområdet och sedan välja Workfront-profil.
+>
+>![arbetsprofil](assets/aue-profile.png)
+
 
 1. Klicka på **[!UICONTROL Time Off]** i den vänstra panelen.
 1. Välj önskat datum för din personliga ledig tid.
