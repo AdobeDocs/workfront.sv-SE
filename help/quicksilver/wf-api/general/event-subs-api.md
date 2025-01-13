@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
+source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2198'
 ht-degree: 0%
 
 ---
@@ -653,7 +653,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 
 ### Använda kapslade filter
 
-Händelseprenumeration stöder filtrering i kapslade händelsefält med hjälp av nyckelordet `fieldValue.fields`.
+Händelseabonnemang stöder filtrering i kapslade fält med händelser genom att använda kapslade fältnamn. Om du till exempel vill filtrera ett meddelande där `newState.data.customField1 = 'myCustomeFieldValue'` kan du skapa följande prenumeration med filter:
 
 ```
 {
@@ -665,25 +665,11 @@ Händelseprenumeration stöder filtrering i kapslade händelsefält med hjälp a
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
 }
 ```
 
