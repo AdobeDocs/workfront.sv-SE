@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -148,9 +148,11 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
 
 >[!NOTE]
 >
->Användare med en Light-licens eller en Contributor-licens har begränsade delningsmöjligheter. Mer information finns i [Licensöversikt](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>* Användare med en Light-licens eller en Contributor-licens har begränsade delningsmöjligheter. Mer information finns i [Licensöversikt](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
->Externa användare kan inte söka efter objekt i Workfront. De kan visa dokument och kalendrar som delas med dem. De kan också se vilka användare som delar objekt med dem.
+>* Externa användare kan inte söka efter objekt i Workfront. De kan visa dokument och kalendrar som delas med dem. De kan också se vilka användare som delar objekt med dem.
+>
+>* Contributor-användare och externa användare kan inte se innehåll som är delat i hela systemet.  Den måste delas med dem uttryckligen.
 
 Du hittar detaljerad information om vilka åtkomstnivåer som tillåts för varje objekt och område i följande artiklar:
 
