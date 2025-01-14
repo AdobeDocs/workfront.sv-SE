@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -382,16 +382,26 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
    1. Skriv eller klistra in länktexten under **Text som ska visas**.
    1. Klicka på **Spara**.
 
-1. (Valfritt) Gör något av följande om du vill bifoga en bild till uppdateringen:
+1. (Valfritt) Koppla en bild till en uppdatering.
+
+   >[!WARNING]
+   >
+   >Du kan inte bifoga en bild till uppdateringsområdet för följande objekt:
+   >
+   >* Mål
+   >* Ad hoc-kort i styrelser
+   >* Poster i Workfront Planning. Mer information finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   Gör något av följande om du vill bifoga en bild till din uppdatering:
 
    * Spara bilden på datorn och dra och släpp den i området Ny kommentar.
    * Kopiera en skärmbild från datorn och klistra sedan in den i kommentaren.
    * Klicka på ikonen **Lägg till bild** ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**VIKTIGT**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
    * Team
    * Mall
    * Malluppgift
-   * Ad hoc-kort
+   * Ad hoc-kort i styrelsen
 
 Mer information om användar- och systemuppdateringar och hur de visas i uppdateringsavsnittet för Workfront-objekt finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

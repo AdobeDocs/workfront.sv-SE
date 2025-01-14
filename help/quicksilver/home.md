@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Adobe Workfront]-dokumentation'
+title: Dokumentation för [!DNL Adobe Workfront]
 description: Dokumentation för  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
  </td>
     <td>
         <ul>
-        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Kom igång med Workfront</a></li>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Grundläggande om Adobe Workfront: artikelindex</a></li>
         <li><a href="/help/quicksilver/manage-work/manage-work.md">Kom igång med att hantera arbetet</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Kom igång med rapporter och kontrollpaneler</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Kom igång med textläge</a></li>

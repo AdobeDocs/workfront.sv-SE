@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -38,15 +38,13 @@ Du kan dela följande objekt:
 
    * Du kan dela arbetsytor med personer i din organisation.
    * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna.
-
-     När du delar en arbetsyta delas inte vyerna. Vyer delas separat.
+   * När du delar en arbetsyta delas inte vyerna. Vyer delas separat.
 
 * Vyer
 
    * Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor.
    * När du delar en vy delas alla vyelement, inklusive filter, gruppering, sortering och inställningar.
-
-     När du delar en vy delas inte de poster som visas i vyn. Posterna måste delas med arbetsytor som delar dem.
+   * När du delar en vy delas inte de poster som visas i vyn. Posterna måste delas med arbetsytor som delar dem.
    * Du kan dela en vy offentligt med personer utanför organisationen när du genererar en offentlig länk för en vy.Personer som öppnar postsidan från en offentlig länk kan visa alla poster och deras fält, inklusive anslutna poster och fält.
 
   Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).

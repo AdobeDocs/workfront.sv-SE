@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '14782'
+source-wordcount: '14784'
 ht-degree: 0%
 
 ---
@@ -867,7 +867,7 @@ ht-degree: 0%
       * [Användarautentiseringsuppgifter jämfört med SAML-autentiseringsuppgifter](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Uppdatera alternativ för automatisk uppgradering på åtkomstnivåer](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Grundläggande om Adobe Workfront {#basics}
-   * [Grundläggande om Adobe Workfront](workfront-basics/workfront-basics.md)
+   * [Grundläggande om Adobe Workfront: artikelindex](workfront-basics/workfront-basics.md)
    * [Ordlista för Adobe Workfront-terminologi](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Krav för Adobe Workfront webbläsare](workfront-basics/workfront-browser-requirements.md)
    * [Språk som stöds i Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)

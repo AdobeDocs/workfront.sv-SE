@@ -3,9 +3,9 @@ filename: wf-kb
 title: Workfront kunskapsbas
 recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 # Workfront kunskapsbas
 
 * [Administration och konfiguration](administration-and-setup/administration-and-setup.md)
-* [Grundläggande om Adobe Workfront](workfront-basics/workfront-basics.md)
+* [Grundläggande om Adobe Workfront: artikelindex](workfront-basics/workfront-basics.md)
 * [Personer, team och grupper](people-teams-and-groups/people-teams-and-groups.md)
 * [Hantera resurser](resource-mgmt/manage-resources.md)
 * [Agile](agile/agile.md)

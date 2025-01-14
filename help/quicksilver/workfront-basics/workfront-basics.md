@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Grundläggande om Adobe Workfront
-description: Granska dessa områden för att få en förståelse för grunderna i Adobe Workfront.
+title: 'Grundläggande om Adobe Workfront: artikelindex'
+description: Granska dessa områden för att få en förståelse för grunderna i Adobe Workfront och lär dig hur du utför grundläggande funktioner, som att använda området Hem eller Prioriteter, hantera din kontoprofil, använda AI Assistant eller förstå vad webbläsarkraven och vilka språk som stöds är. Läs Workfront Glossary om du vill veta mer om vanliga termer i Workfront.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 14%
+source-wordcount: '192'
+ht-degree: 0%
 
 ---
 
-# Grundläggande om Adobe Workfront
+# Grundläggande om Adobe Workfront: artikelindex
+
+<!--Audited: 01/2025-->
+
+Granska dessa områden för att få en förståelse för grunderna i Adobe Workfront och lär dig hur du utför grundläggande funktioner, som att använda området Hem eller Prioriteter, hantera din kontoprofil, använda AI Assistant eller förstå vad webbläsarkraven och vilka språk som stöds är. Läs Workfront Glossary om du vill veta mer om vanliga termer i Workfront.
 
 Det här avsnittet innehåller följande underavsnitt:
 

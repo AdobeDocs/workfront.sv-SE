@@ -2,22 +2,22 @@
 product-area: projects
 navigation-topic: create-tasks
 title: Skapa underaktiviteter
-description: I Workfront kan uppgifter ha överordnade och underordnade relationer. Underordnade uppgifter kallas underaktiviteter. Du kan skapa underuppgifter i uppgiftslistan genom att göra en huvuduppgift till en underuppgift. Du kan också göra en underuppgift till en huvuduppgift.
+description: I Adobe Workfront kan uppgifter ha överordnade och underordnade relationer. Underordnade uppgifter kallas underaktiviteter. Du kan skapa underuppgifter i uppgiftslistan genom att göra en huvuduppgift till en underuppgift. Du kan också göra en underuppgift till en huvuduppgift.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 # Skapa underaktiviteter
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 01/2025 -->
 
-I Workfront kan uppgifter ha överordnade och underordnade relationer. Underordnade uppgifter kallas underaktiviteter. Du kan skapa underuppgifter i uppgiftslistan genom att göra en huvuduppgift till en underuppgift. Du kan också göra en underuppgift till en huvuduppgift.
+I Adobe Workfront kan uppgifter ha överordnade och underordnade relationer. Underordnade uppgifter kallas underaktiviteter. Du kan skapa underuppgifter i uppgiftslistan genom att göra en huvuduppgift till en underuppgift. Du kan också göra en underuppgift till en huvuduppgift.
 
 ## Åtkomstkrav
 
@@ -62,7 +62,7 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 
 1. Gå till det projekt där du vill skapa underaktiviteter.
 1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
-1. (Villkorligt) Om den uppgift som du vill göra till den underordnade uppgiften inte redan finns direkt under den uppgift som du vill göra till överordnad drar du den till lämplig plats i uppgiftslistan.
+1. (Villkorligt) Om den uppgift som du vill göra till den underordnade uppgiften inte redan finns direkt under den uppgift som du vill göra till överordnad, drar och släpper du den till rätt plats i uppgiftslistan.
 1. Markera den uppgift som du vill göra en underuppgift och gör något av följande:
 
    * Klicka på ikonen **Indrag** ![](assets/indent-icon-nwe-33x29.png) för att göra den markerade aktiviteten till en underaktivitet för aktiviteten direkt ovanför den.
@@ -70,7 +70,7 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 
      >[!TIP]
      >
-     >Kortkommandon fungerar inte när du redigerar uppgifter i en infogad redigering. I det här fallet använder du ikonen Indrag ![](assets/cs1.png) för att skapa underaktiviteter.
+     >Kortkommandon fungerar inte när du redigerar uppgifter i en infogad redigering. I det här fallet använder du ikonen Indrag ![](assets/indent-icon-nwe-33x29.png) för att skapa underaktiviteter.
 
    * Dra och släpp uppgiften över den uppgift som du vill ange som överordnad uppgift.
 
@@ -80,15 +80,19 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 
 ### Skapa underaktiviteter från aktivitetsavsnittet Underaktiviteter {#create-subtasks-from-the-task-subtasks-section}
 
+>[!NOTE]
+>
+>Din Workfront- eller gruppadministratör kan dölja underaktivitetsavsnittet i din miljö.
+
 1. Gå till det projekt där du vill skapa underaktiviteter.
 1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
 1. Klicka på namnet på den uppgift där du vill skapa en underuppgift.
-1. Klicka på avsnittet **Underaktiviteter** i den vänstra panelen.
+1. Klicka på avsnittet **Underaktiviteter** i den vänstra panelen, om det finns några.
 1. Klicka på **Ny aktivitet.**
 
    Följ stegen i följande artikel för att fortsätta skapa underaktiviteten: [Skapa aktiviteter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Klicka på **Spara uppgift.**
+1. Klicka på **Skapa uppgift.**
 
 ## Göra en underaktivitet till en huvuduppgift
 

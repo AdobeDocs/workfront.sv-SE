@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -147,14 +147,14 @@ Posttypssidan öppnas och alla poster av den typen visas.
 
    >[!TIP]
    >
-   >Om du navigerar bort från kommentarsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Alla bilder som läggs till i kommentaren sparas också i utkastet. Utkast sparas i 7 dagar efter vilka de tas bort och kan inte återställas. Kommentarerna är bara synliga för användaren som skriver dem.
+   >Om du navigerar bort från kommentarsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
    * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
 1. (Valfritt och villkorligt) Om din Workfront-instans är en del av Adobe Unified Experience lägger du till **@** följt av namnet på en användare som ska tagga någon i uppdateringen. Mer information finns i avsnittet [Att tänka på när du kommenterar en post](#considerations-about-commenting-on-a-record) i den här artikeln.
 
-1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet.
+1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner eller länkar till uppdateringen för att förbättra innehållet.
 
 1. Fortsätt lägga till kommentarer i posten.
 

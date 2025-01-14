@@ -7,9 +7,9 @@ description: Ett upplösningsbart objekt är ett problem vars upplösning är kn
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### Synkronisera statusar när det lösta objektet är problem {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-Om en utgåva manuellt är kopplad till en annan utgåva, utlöser den andra utgåvans status (Resolving Object) en statusändring för den första utgåvan (Resolvable Object). Status för den första utgåvan matchar status som den andra utgåvan har ändrats till. Detta gäller både standardstatus och anpassad utgivningsstatus.
+När en utgåva manuellt är kopplad till en annan utgåva utlöser den andra utgåvans status (Resolving Object) en statusändring för den första utgåvan (Resolvable Object). Status för den första utgåvan matchar status som den andra utgåvan har ändrats till. Detta gäller både standardstatus och anpassad utgivningsstatus.
 
 ### Synkronisera statusar när det upplösta objektet är en uppgift eller ett projekt {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 När ett problem är det löstagbara objektet för en aktivitet eller ett projekt, ändrar aktiviteternas status och projekten status på problemet. Standardstatusvärden aktiveras annorlunda än anpassade statusvärden, i det här fallet.
+
+När projektets anpassade status är lika med en standardstatus som inte utlöser någon ändring av utgivningsstatusen, utlöser den ingen statusändring för utleveransen.
 
 * [Synkronisera standardstatusen för det matchande objektet med standardstatusen för det matchningsbara objektet](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synkronisera det upplösta objektets anpassade status med det upplösta objektets anpassade status](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

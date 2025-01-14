@@ -7,14 +7,16 @@ description: Poängen Portfolio Optimizer finns i Portfolio Optimizer. Den visas
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
 
 ---
 
-# Översikt över bakgrundsmusiken för [!UICONTROL Portfolio Optimizer]
+# Översikt över poängen [!UICONTROL Portfolio Optimizer]
+
+<!--Audited: 01/2025-->
 
 Du hittar [!UICONTROL Portfolio Optimizer]-poängen i [!UICONTROL Portfolio Optimizer]. Den visas i kolumnen **[!UICONTROL Score]** för varje projekt. Detta representerar ett poängtal för varje projekt i portföljen.
 
@@ -26,7 +28,8 @@ Mer information om hur [!DNL Adobe Workfront] använder projektbakgrundsmusik oc
 
 Det finns en skillnad mellan justeringspoängen och portföljoptimeringspoängen för ett projekt.
 
-Justeringspoängen för ett projekt beräknas utifrån de poäng som erhålls när styrkortet har fyllts i. Poängen används sedan för att fastställa poängen för portföljjusteringen. Justeringspoängen visas i procent.\
+Justeringspoängen för ett projekt beräknas utifrån de poäng som erhålls när styrkortet har fyllts i. Poängen används sedan för att fastställa poängen för portföljjusteringen. Justeringspoängen visas i procent.
+
 Justeringspoängen för ett projekt visas i kolumnen **[!UICONTROL Alignment]** i [!UICONTROL Portfolio Optimizer] eller i fältet [!UICONTROL Alignment] i [!UICONTROL Business Case Summary].
 
 ![](assets/business-case-summary-aligned-field-highlighted.png)
@@ -68,7 +71,13 @@ Så här tar du reda på rangordningen för ett projekt:
 
 Algoritmen för beräkning av poängen tar hänsyn till de värden som anges i projektens affärsfall och de vikter de har. Det ger varje projekt i optimeraren en poäng och normaliserar poängen så att det alltid finns ett projekt med poängen 100. Detta ger det bästa projektet en hög poäng.
 
-**Exempel:** Om du t.ex. gör [!UICONTROL higher alignment] till den enda faktorn att tänka på får projektet med den högsta justeringen poängen 100.
+>[!BEGINSHADEBOX]
+
+**EXEMPEL**
+
+Om du t.ex. gör [!UICONTROL higher alignment] till den enda faktorn att tänka på får projektet med den högsta justeringen poängen 100.
+
+>[!ENDSHADEBOX]
 
 Följande kriterier kan användas för att göra ett projekt poäng:
 

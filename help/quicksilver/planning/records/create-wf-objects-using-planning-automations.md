@@ -4,16 +4,16 @@ description: Du kan konfigurera automatisering i Workfront Planning som, när de
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
 
 # Skapa objekt med automatisering av Adobe Workfront Planning Record
 
-<!--add screen shots when UI is finalized-->
+<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 <!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
 feature: Workfront Planning
@@ -22,6 +22,8 @@ author: Alina, Becky
 recommendations: noDisplay, noCatalog
 
 -->
+
+<!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
 Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller Workfront Planning.
 
@@ -108,8 +110,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Att tänka på när du skapar objekt och poster med hjälp av en automatisering
 
 * Det nya objektet eller postnamnet är samma som det postnamn som du skapade det från.
-* Om den post som du använder automatiseringen för redan har objekt av samma typ kopplade i det fält som du väljer att lägga till nya objekt, läggs de nya objekten till i anslutningsfältet och befintliga objekt förblir också kopplade.
-
+* Om den post som du använder automatiseringen för redan har objekt av samma typ kopplade i det fält som du väljer att lägga till nya objekt i, läggs de nya objekten till i anslutningsfältet och befintliga objekt förblir också kopplade.
 
 ## Konfigurera automatisering i Workfront Planning
 
@@ -124,11 +125,17 @@ Du måste konfigurera en automatisering i Workfront Planning innan du kan använ
 
    En lista över tillgängliga automatiseringar öppnas.
 
-1. Klicka på **Ny automatisering** i skärmens övre högra hörn.
+1. Klicka på **Ny automatisering** i skärmens övre högra hörn. Rutan **Ny automatisering** öppnas.
 1. Uppdatera följande fält:
 
-   * **Knapptext**: Ange den text som du vill ska visas på automatiseringsknappen. Användare klickar på den här knappen när de använder automatiseringen för att skapa ett Workfront-objekt.
-   * **Knappikon**: Välj en ikon för knappen. En ikon är markerad som standard.
+   * Ersätt **Namnlös automatisering** med texten som du vill ska visas på automatiseringsknappen. Användare klickar på den här knappen när de använder automatiseringen för att skapa ett Workfront-objekt.
+   * **Beskrivning**: Lägg till en beskrivning för att identifiera syftet med automatiseringen.
+
+1. Uppdatera följande fält i avsnittet **Utlösare** på informationssidan för automatiseringen:
+
+   * **Utlösare**: Välj den åtgärd som ska utlösa automatiseringen. Välj till exempel **Knapp klicka**. <!--update this step with a list of all possible triggers; right not only Button click is available-->
+
+1. Uppdatera följande fält i avsnittet **Åtgärder**:
    * **Objekttyp**: Markera det objekt som du vill att automatiseringen ska skapa. Detta är ett obligatoriskt fält.
 
      Du kan skapa följande objekt från Workfront Planning-poster:
@@ -160,10 +167,17 @@ Du måste konfigurera en automatisering i Workfront Planning innan du kan använ
       * **Mappningsfält**: Välj fält från den posttyp som automatiseringen skapas för för att mappa dem till fälten för den anslutna posttypen.
       * **Till anslutet postfält**: Välj fält från den anslutna posten som motsvarar fälten från den posttyp som du skapar automatiseringen för.
 1. (Valfritt och villkorligt) Om du inte har något anslutningsfält för en Workfront-objekttyp klickar du på ikonen **Skapa ett anslutningsfält** ![](assets/create-a-connection-field-icon.png) för att lägga till ett fält.
-1. (Valfritt och villkorligt) Om du har valt att lägga till en post klickar du på **Lägg till** i området **Mappa anslutna fält** för att lägga till och mappa ytterligare fält.
-1. Klicka på **Skapa**
+1. (Valfritt och villkorligt) Om du har valt att lägga till en post klickar du på **Lägg till** i området **Mappningsfält** för att lägga till och mappa ytterligare fält. Välj sedan ett fält att **Överför från** och ett fält att **Överför till** för att ange vilket fält från den ursprungligen markerade posten som ska visas i vilket fält i den anslutna posten.
+1. Klicka på **Spara**.
 
-Automatiseringen visas i listan över automatiseringar och finns tillgänglig för arkivering.
+   Automatiseringen visas i listan över automatiseringar och finns tillgänglig för arkivering.
+1. (Valfritt) Gör så här om du vill redigera, inaktivera eller ta bort en automatisering:
+
+   I listan över automatiseringar håller du muspekaren över namnet på en sparad automatisering, klickar på menyn **Mer** ![](assets/more-menu.png) och väljer sedan ett av följande alternativ:
+
+   * **Redigera**: Uppdatera information om och konfigurera fält i automatiseringen.
+   * **Inaktivera**: Automatiseringen visas inte som ett alternativ i verktygsfältet i posternas tabellvy och användarna kan inte längre använda den för att skapa poster eller objekt. Om du vill göra den tillgänglig igen klickar du på menyn **Mer** ![](assets/more-menu.png) igen och sedan på **Aktivera**.
+   * **Ta bort**: Automatiseringen tas bort och kan inte återställas. Poster som har skapats med automatiseringen är fortfarande kopplade till den post som ursprungligen valdes.
 
 ## Skapa ett objekt med en Workfront Planning Automation
 
