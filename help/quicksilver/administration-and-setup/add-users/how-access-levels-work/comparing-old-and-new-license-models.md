@@ -9,9 +9,10 @@ description: Se en jämförelse av funktioner som är tillgängliga för olika l
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f2a1d4240f6ddef12daaa352bc46b72199aa21d7
+exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
+source-git-commit: dd6ff5927aaa4f8f2d41d0f2950d98ea32517ff9
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -24,15 +25,15 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
  <col> 
  <col> 
  <col> 
- <!--col> 
- <col> -->
+ <col> 
+ <col>
  <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="3">[!UICONTROL Legacy]</th> 
+   <th colspan="5">[!UICONTROL Legacy]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL New]</th> 
@@ -44,8 +45,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <th>[!UICONTROL Planner]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+  <th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL Light]</th> 
    <th>[!UICONTROL Contributor]</th> 
@@ -57,8 +58,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td>✓</td> 
-   <td></td> -->
+  <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -68,8 +69,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -79,8 +80,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td>✓</td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -90,8 +91,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -101,8 +102,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -112,8 +113,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -123,8 +124,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -134,8 +135,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -145,8 +146,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -156,8 +157,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -167,8 +168,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -178,8 +179,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -189,8 +190,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -200,8 +201,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -211,8 +212,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -222,8 +223,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -233,8 +234,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -244,8 +245,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -254,8 +255,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -265,8 +266,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -276,8 +277,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -287,8 +288,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -298,8 +299,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -309,8 +310,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -320,8 +321,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -331,8 +332,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -342,8 +343,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -353,8 +354,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -364,8 +365,8 @@ Tabellen visar vilka funktioner som är tillgängliga för licenser i den gamla 
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
