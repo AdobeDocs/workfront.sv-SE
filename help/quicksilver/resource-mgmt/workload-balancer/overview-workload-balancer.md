@@ -7,7 +7,7 @@ description: När projektledare har planerat arbetet i projekt genom att skapa u
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Tänk på följande fördelar när du använder arbetsbelastningsutjämnaren:
 
 * Cheferna kan fatta vältajmade personalbeslut genom öppenhet och insyn i hur de använder sina anställda.
 * Teammedlemmarna drar nytta av bättre samarbete eftersom de alla kan se vad deras medarbetare arbetar med vid en viss tidpunkt. Mer information om den åtkomst som behövs för att visa eller hantera resurser i arbetsbelastningsutjämnaren finns i [Åtkomst som behövs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Dela den med alla som inte har tillgång till resursområdet genom att bädda in en länk till den på en anpassad flik. Mer information finns i [Dela arbetsbelastningsutjämnaren med en länk](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* Dela den med alla som inte har Resourcing på huvudmenyn genom att bädda in en länk till den på en anpassad flik. Mer information finns i [Dela arbetsbelastningsutjämnaren med en länk](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 * Visualisera och hantera människors arbetsbelastning och efterfrågan i en vy på global nivå, projekt- eller teamnivå, beroende på din roll. När du hanterar projekt omfattar detta inte bara resurstilldelning för projektet, utan även visualisering av resursallokeringen från Adobe Workfront Scenario Planner. Anställda använder Workfront Scenario Planner för att hantera jobbfärdigheter i hela organisationen. Scenarioplaneraren är bara tillgänglig i den nya Adobe Workfront-upplevelsen.
 
   >[!NOTE]

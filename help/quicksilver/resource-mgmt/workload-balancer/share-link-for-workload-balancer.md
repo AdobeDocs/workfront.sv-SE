@@ -6,16 +6,16 @@ description: Du kan dela belastningsutjämnaren med andra användare som kanske 
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
 # Dela arbetsbelastningsutjämnaren med en länk
 
-Du kan dela belastningsutjämnaren med andra användare som kanske inte har resursområdet tillgängligt. Mer information om hur du använder arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Du kan dela belastningsutjämnaren med andra användare som kanske inte har resursområdet tillgängligt på huvudmenyn. Mer information om hur du använder arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Åtkomstkrav
 
