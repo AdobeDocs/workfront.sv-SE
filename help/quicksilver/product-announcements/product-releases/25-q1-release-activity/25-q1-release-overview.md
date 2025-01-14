@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: a91ca50cacb1f48d49fd70e9612297438bbddd83
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -455,6 +455,30 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tr>
+        <td>
+            <p><span class="bold">Funktion</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Releasedatum</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Uppgradering av Desktop Proofing Viewer</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>Vi har uppdaterat Desktop Viewer med den senaste versionen av Electron 3.3.0 som använder Chromium 130.0.6723.152. </p>
+            <p>Senaste version: 2.1.44 </p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsgranskningsversion: 2 januari 2024</li>
+                <li><span class="preview">Produktionsrelease för alla kunder: 9 januari 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><span class="bold">Funktion</span></p>
