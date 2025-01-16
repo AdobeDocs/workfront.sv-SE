@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om datastrukturen och inneh�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '4294'
+source-wordcount: '4609'
 ht-degree: 0%
 
 ---
@@ -177,23 +177,47 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>BOOKNG | Bokning</td>
         <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
         <td>BOOKINGID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOID POBJID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Icke-arbetskategoritabell stöds inte för närvarande<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>ID:t för objektet som identifieras i OBJOBJCODE-fältet<br>PROJECTS_CURRENT | PROJECTID <br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | AKTIVITET     <br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>ID för objektet som identifieras i TOPOBJCODE-fältet</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Icke-arbetskategoritabell stöds inte för närvarande<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>ID:t för objektet som identifieras i OBJOBJCODE-fältet<br>PROJECTS_CURRENT | PROJECTID <br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>ID för objektet som identifieras i TOPOBJCODE-fältet</td>
+    </tr>
+    <tr>
+        <td>Affärsprofil</td>
+        <td>Affärsprofil</td>
+        <td>BSNPRF | BusinessProfile</td>
+        <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
+        <td>ACCESSLEVELID<br>BUSINESSPROFILEID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>ACCESSLEVELS_CURRENT | ACCESSLEVELID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
+    </tr>
+    <tr>
+        <td>Affärsregel</td>
+        <td>Affärsregel</td>
+        <td>BSNRUL | Affärsregel</td>
+        <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
+        <td>BUSINESSRULEID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
     </tr>
     <tr>
         <td>Kategori</td>
         <td>Eget formulär</td>
         <td>CTGY | Kategori</td>
         <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
-        <td>CATEGORYID (self)<br>ENTEREDBYID<br>GROUPID <br>LASTUPDATEDBYID <br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID <br>USERS_CURRENT | USERID <br>Inte en relation; används för interna programsyften</td>
+        <td>CATEGORYID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
     </tr>
     <tr>
         <td>Kategoriparameter</td>
         <td>Anpassade formulärfält</td>
         <td>CTGYPA | Kategoriparameter</td>
         <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
-        <td>CATEGORIESPARAMETERID (self)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID    <br>SYSID</td>
+        <td>CATEGORIESPARAMETERID (self)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID<br>SYSID</td>
         <td>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>Parameter Group-tabellen stöds inte just nu<br>PARAMETERS_CURRENT | PARAMETERID    <br> Inte en relation, används för interna programsyften</td>
+    </tr>
+    <tr>
+        <td>Klassificerare</td>
+        <td>Plats</td>
+        <td>CLSF | Plats</td>
+        <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
+        <td>CLASSIFIERID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>PARENTID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>Inte en relation; används för interna programsyften</td>
     </tr>
     <tr>
         <td>Företag</td>
@@ -368,8 +392,16 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>Icke-arbetsrelaterad resurs</td>
         <td>NLBR | Icke-arbetsrelaterad resurs</td>
         <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
-        <td>CATEGORYID<br>NONLABORRESOURCEID (self)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID <br>SYSID  </td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID <br> GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID <br>Icke-arbetsrelaterad resurskategoritabell stöds inte för närvarande <br>Inte en relation, används för interna programsyften    </td>
+        <td>CATEGORYID<br>NONLABORRESOURCEID (self)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Resurskategoritabellen för icke-arbetsplats stöds inte för närvarande<br>Inte en relation; används för interna programsyften</td>
+    </tr>
+    <tr>
+        <td>Resurskategori för icke-arbetsplats</td>
+        <td>Resurskategori för icke-arbetsplats</td>
+        <td>NLBRY | Resurskategori utanför arbetsplats</td>
+        <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
+        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID (self)<br>PRIVATERATECARDID<br>SCHEDULEID<br>SYSID</td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Self<br>RATECARD_CURRENT | RATECARDID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
     </tr>
     <tr>
         <td>Ledig dag</td>
@@ -492,6 +524,22 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>Inte en Workfront-relation; används för integrering med externa system<br>Styrkortstabellen stöds inte för närvarande<br>APPROPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>Styrkortstabell stöds inte för närvarande<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONEPATH_CURRENT | MILESTONEPATHID<br>USER_CURRENT | USERID<br>Pop Account table not supported current<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>Self<br>Ködefinitionstabellen stöds inte för närvarande<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | SCHEDULEID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID<br>TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
+        <td>Projektteamanvändare</td>
+        <td>Projektteamanvändare</td>
+        <td>PRTU | Projektanvändare</td>
+        <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
+        <td>PROJECTID<br>PROJECTSUSERID (self)<br>SYSID<br>TMPUSERID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>Not a relationship; used for internal application purpose<br>TEMPLATES_CURRENT | TEMPLATEID<br>USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
+        <td>Användarroll för projektteam</td>
+        <td>Användarroll för projektteam</td>
+        <td>PTEAM | ProjektAnvändarroll</td>
+        <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
+        <td>PROJECTID<br>PROJECTSUSERSROLEID (self)<br>ROLEID<br>SYSID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
         <td>RateCard</td>
         <td>Hastighetskort</td>
         <td>RTCRD |Betygskort</td>
@@ -504,16 +552,40 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>Rapportmapp</td>
         <td>RPTFDR | Rapportmapp</td>
         <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
-        <td>RAPPORTFOLDERID (self) <br>SYSID  </td>
-        <td>Själv <br>Inte en relation, används för interna programsyften  </td>
+        <td>RAPPORTFOLDERID (self)<br>SYSID</td>
+        <td>Självständig<br>Inte en relation, används för interna programsyften</td>
+    </tr>
+    <tr>
+        <td>Rapportvy - statistikantal</td>
+        <td>Rapportvy - statistikantal</td>
+        <td>PLSVST | PortalSectionStatisticInfo</td>
+        <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
+        <td>RAPPORTERA<br>RAPPORTVIEWSTATISTICCOUNTID (self)<br>SYSID</td>
+        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID<br>Self<br>Inte en relation; används för interna programsyften</td>
+    </tr>
+    <tr>
+        <td>Rapporteringsskyldiga budgeterade timmar</td>
+        <td>Rapporteringsskyldiga budgeterade timmar</td>
+        <td>RPBGHR | Budgeterad timme</td>
+        <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
+        <td>PROJECTID<br>REPORTABLEBUDGETEDHOURID (self)<br>ROLEID<br>SYSID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Reserverad tid</td>
         <td>(Personligt) Tid av</td>
         <td>RESVT | Tid av</td>
         <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
-        <td>RESERVEDTIMEID (self) <br>SYSID<br>TASKID<br>USERID  </td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | USERID  </td>
+        <td>RESERVEDTIMEID (self)<br>SYSID<br>TASKID<br>USERID</td>
+        <td>Självständig<br>Inte en relation, används för interna programsyften<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
+        <td>Resurshanteraren</td>
+        <td>Resurshanteraren</td>
+        <td>RESMGR | Resurshanteraren</td>
+        <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
+        <td>ID (self)<br>PROJECTID<br>RESOURCEMANAGERID<br>SYSID<br>TEMPLATEID</td>
+        <td>Self<br>PROJECTS_CURRENT | PROJECTID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften<br>TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
         <td>Resurspool</td>
@@ -528,8 +600,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>RTF-anteckning</td>
         <td>RHNOTE | RTF-anteckning</td>
         <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
-        <td>RICHTEXTNOTEID (self) <br>SYSID  </td>
-        <td>Själv <br>Inte en relation, används för interna programsyften  </td>
+        <td>RICHTEXTNOTEID (self)<br>SYSID</td>
+        <td>Självständig<br>Inte en relation, används för interna programsyften</td>
     </tr>
     <tr>
         <td>Parametervärde för RTF</td>
@@ -722,6 +794,14 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
         <td>GRUPPID <br>SYSID<br>USERID <br>USERSGROUPID (self)</td>
         <td>GROUPS_CURRENT | GROUPID <br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID <br>Self</td>
+    </tr>
+    <tr>
+        <td>Användarplats</td>
+        <td>Användarplats</td>
+        <td>USRLOC | UserLocation</td>
+        <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
+        <td>CLASSIFIERID<br>SYSID<br>USERID<br>USERLOCATIONID (self)</td>
+        <td>CLASSIFIER_CURRENT | CLASSIFIERID<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID<br>Self</td>
     </tr>
     <tr>
         <td>Användarroll</td>

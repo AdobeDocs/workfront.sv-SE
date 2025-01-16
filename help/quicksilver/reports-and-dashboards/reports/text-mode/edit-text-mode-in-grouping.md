@@ -1,23 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Redigera textläge i en gruppering
-description: 'OBS! Gör alla FVG-artiklar likadana för redigering i textläge)'
+title: Redigera en gruppering i textläge
+description: OBS! Gör alla FVG-artiklar likadana för redigering i textläge)
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
 
-# Redigera textläge i en gruppering
+# Redigera en gruppering i textläge
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 Du kan redigera en gruppering i en lista eller rapport i textläge för att komma åt fält som inte är tillgängliga i standardgränssnittet och skapa mer komplexa grupperingar.
 
@@ -27,32 +25,45 @@ Du kan redigera en gruppering i en lista eller rapport i textläge för att komm
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera grupper i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera grupper i en rapport</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter till en rapport för att redigera grupperingar i en rapport</p> <p>Hantera behörigheter för en gruppering för att redigera den</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter till en rapport för att redigera grupperingar i en rapport</p> <p>Hantera behörigheter för en gruppering för att redigera den</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -64,7 +75,7 @@ Mer information finns i:
 * [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Anpassad vy, filter och gruppering av exempel: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Redigera textläge i en gruppering
+## Redigera en gruppering i textläge
 
 Att redigera en gruppering i textläge är identiskt för rapporter och listor. Åtkomsten till grupperingen från en rapport eller från en lista skiljer sig åt.
 
@@ -83,7 +94,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 
       Grupperingsverktyget öppnas.
 
-1. Klicka på **Lägg till gruppering** för att lägga till grupperingarna och klicka sedan på **Växla till textläge** i det övre högra hörnet av verktyget.
+1. Klicka på **Lägg till gruppering** för att lägga till grupperingarna, klicka på **Växla till textläge** i det övre högra hörnet av verktyget och klicka sedan på **Redigera textläge**.
 
    >[!TIP]
    >

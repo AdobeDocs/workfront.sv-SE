@@ -6,20 +6,16 @@ description: Du kan redigera ett filter i en lista eller rapport i textläge fö
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Redigera ett filter i textläge
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 Du kan redigera ett filter i en lista eller rapport i textläge för att komma åt fält som inte är tillgängliga i standardgränssnittet och skapa mer komplexa filter.
 
@@ -29,7 +25,7 @@ Fler exempel på textläge finns i avsnittet [Exempel på anpassade filter](../c
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-    <p>eller</p>
-    <p>Aktuell: Planera</p> </td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -56,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,12 +87,20 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 
 1. Gör något av följande:
 
-   1. Gå till rapporten och klicka sedan på **Rapportåtgärder** > **Redigera** > fliken **Filter** för att få åtkomst till filtret från en rapport.
-   1. Om du vill komma åt filtret från en lista går du till listan och från menyn **Filter**, håller pekaren över filtret som du vill ändra och klickar på ikonen **Redigera** ![](assets/edit-icon.png) .
+   Om du vill komma åt filtret från en lista går du till listan, klickar på ikonen **Filter** , håller pekaren över filtret på sidopanelen **Filter** som du vill ändra och klickar på ikonen **Redigera** ![](assets/edit-icon.png) . Ditt valda filter visas antingen på sidopanelen **Filter** eller så öppnas det äldre filterverktyget.
 
-      Filterverktyget öppnas.
+   ELLER
 
-1. Klicka på **Lägg till en filterregel** för att börja lägga till villkoren för filtret och klicka sedan på **Textläge** eller **Växla till textläge** till höger om verktyget.
+   Gå till rapporten och klicka sedan på **Rapportåtgärder** > **Redigera** > fliken **Filter** för att få åtkomst till filtret från en rapport.
+
+1. Gör något av följande:
+
+   Om du använder sidopanelen **Filter** i en lista klickar du på **Textläge**.
+
+   ELLER
+
+   Om du använder det äldre filterverktyget eller i en rapport klickar du på **Lägg till en filterregel** för att börja lägga till villkoren för filtret. Klicka sedan på **Växla till textläge** och **Redigera textläge** till höger om verktyget.
+
 1. Lägg till filtersatser i textläge. Varje filterprogramsats kan innehålla följande rader och ytterligare information:
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Klicka på **Avsluta textläge** eller **Klar** om du vill spara textlägesändringarna och fortsätta redigera rapporten eller filtret.
+1. Klicka på **Använd** eller **Klar** om du vill spara textlägesändringarna och fortsätta redigera rapporten eller filtret.
 1. Klicka på **Spara + stäng** om du vill spara rapporten eller på **Spara filter** om du vill spara filtret i listan.
 
 

@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -28,7 +28,6 @@ En lista över alla ändringar som är tillgängliga i den första utgåvan av k
 Vi har uppdaterat utseendet och känslan i timrutan Redigera, när vi redigerar timmar från en timlista eller rapport för att matcha designen i andra delar av Workfront.
 
 Mer information finns i [Loggtid](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
-
 
 
 ## Uppdaterad upplevelse på sidan för molnleverantörer i inställningsområdet

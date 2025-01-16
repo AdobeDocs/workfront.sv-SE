@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,31 @@ ht-degree: 0%
 Den här sidan beskriver alla rapport- och kontrollpanelsförbättringar som gjorts i den första utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Nya entiteter tillgängliga i Data Connect
+
+>[!NOTE]
+>
+>Förhandsversion: 15 januari 2025; Produktionsrelease för alla kunder: 15 januari 2025
+
+Vi har lagt till stöd för följande enheter i Data Connect:
+
+* Projektteamanvändare
+* Användarroll för projektteam
+* Rapporteringsskyldiga budgeterade timmar
+* Rapportvy - statistikantal
+* Resurshanteraren
+* RTF-anteckning
+
+Vi har också lagt till stöd för följande byråspecifika enheter:
+
+* Affärsprofil
+* Affärsregel
+* Plats
+* Resurskategori för icke-arbetsplats
+* Användarplats
+
+Mer information finns i [Workfront Data Connect-dataordlista](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
 
 ## Gräns för 25 rapporter, externa sidor eller kalendrar i kontrollpaneler
 

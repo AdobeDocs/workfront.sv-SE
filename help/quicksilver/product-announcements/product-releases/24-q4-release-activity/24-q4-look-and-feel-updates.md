@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga i den fjärde utgåvan av k
 
 >[!NOTE]
 >
->Produktionsrelease för alla kunder: Inkrementellt från och med version 24.10 (17 oktober 2024), full tillgänglighet fram till 8 november 2024
+>Produktionsrelease för alla kunder: från och med version 24.10 (17 oktober 2024)
 
 Vi har uppdaterat rapportgränssnittet så att det matchar designen för andra områden i Workfront. Uppdateringarna innehåller ytterligare ändringar av rapporteringsfunktionerna:
 

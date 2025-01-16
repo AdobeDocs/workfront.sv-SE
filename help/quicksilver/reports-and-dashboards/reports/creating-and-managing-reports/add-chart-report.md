@@ -6,7 +6,7 @@ description: Du kan förbättra dina rapporter genom att lägga till ett diagram
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >[!TIP]
    >
    >* Du kan bara lägga till ett diagram i en rapport när rapportresultaten grupperas.
-   >* Grupperingar i textläge stöds inte i diagram. Mer information om grupperingar i textläge finns i [Redigera textläge i en gruppering](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
+   >* Grupperingar i textläge stöds inte i diagram. Mer information om grupperingar i textläge finns i [Redigera en gruppering i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Om du lägger till en enda gruppering som representerar ett mätvärde, visas alla diagram utom ett cirkeldiagram som gruppering med samma färg.
 
    Mer information om hur du skapar grupperingar finns i [Skapa grupperingar i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).

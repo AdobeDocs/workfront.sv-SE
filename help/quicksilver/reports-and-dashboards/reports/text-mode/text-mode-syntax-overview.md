@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Översikt över syntaxen i textläge
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 Du kan använda textlägesgränssnittet för att skapa mer komplexa vyer, filter, grupperingar och anpassade uppmaningar i listor och rapporter. Genom att använda textläge kan du komma åt fält och deras attribut som inte är tillgängliga i standardlägesgränssnittet.
 
@@ -29,7 +29,7 @@ Mer information om hur du skapar rapporter i textläge, inklusive klasser, video
 ## Att tänka på när det gäller syntax i textläge
 
 * Du måste förstå Adobe Workfront-syntax innan du kan börja skapa rapportelement i textläge. Workfront-syntaxen för textläge är unik för det här programmet och har unika egenskaper som du måste känna till.
-* Innan du börjar använda textläge i dina rapporter rekommenderar vi att du går igenom våra lektioner för avancerad rapportering för att få en bättre förståelse för vårt textläge. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Innan du börjar använda textläge i dina rapporter rekommenderar vi att du går igenom våra lektioner för avancerad rapportering för att få en bättre förståelse för vårt textläge.
 * Du kan anpassa vyer, filter och grupperingar med hjälp av standardlägesgränssnittet. Du kan dock endast skapa anpassade uppmaningar i textläge.
 
 ## Allmänna riktlinjer för att skapa rapportelement i textläge
@@ -44,13 +44,11 @@ Nedan följer några vanliga riktlinjer när du skapar ett rapporterings- eller 
 
   **Exempel:** Du kan visa Portfolio-ägarens namn eller GUID i en uppgiftsvy:
 
-
   `valuefield=project:portfolio:ownerID`
 
   Du kan inte gruppera, filtrera eller fråga efter Portfolio-ägaren i en uppgiftsvy:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   I de här exemplen är Portfolio ägar-ID tre objekt från listans objekt.
 
@@ -90,7 +88,7 @@ Följande likheter finns mellan syntaxen för uppsättningarna med rapportelemen
   Mer information om kodraderna för vyer och grupperingar när du skapar dem i textläge finns i:
 
    * [Redigera en vy i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Redigera textläge i en gruppering](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Redigera en gruppering i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Kod- och syntaxraderna är desamma för filter och anpassade uppmaningar.
 

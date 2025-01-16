@@ -6,20 +6,16 @@ description: 'OBS! Lägg till ett avsnitt i den här artikeln: /Content/Reports 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
 # Redigera en vy i textläge
 
-<!--Audited: 01/2024-->
-
-<!--
-<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
--->
+<!-- Audited: 1/2025 -->
 
 Du kan redigera en vy i en lista eller rapport i textläge för att komma åt fält som inte är tillgängliga i standardgränssnittet och skapa mer komplexa vyer.
 
@@ -27,23 +23,31 @@ Du kan redigera en vy i en lista eller rapport i textläge för att komma åt f�
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard </p>
-   <p>Aktuell: Planera </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera rapportelement i en rapport</p> </td> 
   </tr> 
   <tr> 
@@ -53,8 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +73,7 @@ Mer information finns i:
 
 ## Redigera textläge i en vy
 
-Att redigera en vy i textläge är identiskt för rapporter och listor. Åtkomsten till vyn från en rapport eller från en lista skiljer sig åt.
+Att redigera en vy i textläge är identiskt för rapporter och listor. Åtkomsten till vyn från en rapport eller från en lista skiljer sig åt.
 
 >[!TIP]
 >

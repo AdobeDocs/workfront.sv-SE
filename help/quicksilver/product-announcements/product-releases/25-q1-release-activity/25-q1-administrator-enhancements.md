@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,25 @@ Den här sidan beskriver alla administratörsförbättringar som gjorts i den f�
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den första utgåvan av kvartal 2025 finns i [Översikt över utgåvan första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Affärsregler stöds nu för fler objekt
+
+>[!NOTE]
+>
+>Förhandsversion: 16 januari 2025; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>
+>_Endast tillgängligt för organisationer i Ultimate-planen._
+
+Nu kan du skapa affärsregler och tillämpa validering på ytterligare objekt: Företag, Iteration, Resurskategori som inte är arbetsplats, Jobbroll, Användare, Tilldelning, Resurspool, Tid av, Dokument och Timme.
+
+Följande objekt stöddes redan för affärsregler: Projekt, Aktivitet, Begäran, Portfolio, Program, Utgift, Faktureringspost, Grupp, Risk och Klassificeringskort.
+
+Mer information finns i [Skapa och redigera affärsregler](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
 ## Jämför objekt mellan miljöer för att förbättra miljön
 
 >[!NOTE]
 >
->Förhandsversion: 6 januari 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 6 januari 2025; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
 
 För att det ska bli enklare att avgöra vilket objekt som ska ingå i ett miljöbefordringspaket har vi lagt till möjligheten att jämföra objekt i olika miljöer. Nu kan du välja objekttyper och miljöer. Workfront genererar en lista med objekt av den typen, oavsett om de finns i målmiljön eller inte och om det objektet skiljer sig åt mellan källmiljön och målmiljön. Du kan sedan lägga till objekt i ett paket direkt från den här listan.
 
@@ -34,7 +48,7 @@ Mer information finns i [Jämför objekt mellan miljöer](/help/quicksilver/admi
 
 >[!NOTE]
 >
->Förhandsversion: 6 januari 2024; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
+>Förhandsversion: 6 januari 2025; Produktionsrelease för alla kunder: Med version 25.1 (januari 2025)
 
 Vi har lagt till fler objekt för att utöka funktionerna för miljöbefordran. Nu kan du lägga till följande objekt i ett miljöhöjdspaket:
 
@@ -46,7 +60,7 @@ Tidigare var dessa objekt inte tillgängliga för miljöbefordran.
 
 Mer information om tillgängliga objekt för miljöbefordran finns i [Objekt som stöds för miljöbefordran](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) i artikeln Översikt över miljöbefordran.
 
-## Förhindra att uppgifter flyttas när loggade timmar finns
+## Förhindra att uppgifter flyttas när det finns timmar loggade
 
 >[!NOTE]
 >

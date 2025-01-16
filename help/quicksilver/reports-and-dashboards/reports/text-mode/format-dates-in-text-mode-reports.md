@@ -6,7 +6,7 @@ description: Datum kan konfigureras för visning i en mängd olika format i rapp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Formatera datum i textlägesrapporter
+
+<!-- Audited: 1/2025 -->
 
 Datum kan konfigureras för visning i en mängd olika format i rapporter och listor i Adobe Workfront. Om du vill skapa ett datumformat måste du ändra raden `valueformat` i textlägeskoden i kolumnen.
 
@@ -33,13 +35,7 @@ valuefield=plannedCompletionDate
 
 Mer information om hur du använder villkorsstyrd formatering i Workfront-rapporter och -listor i textläge finns i [Använda villkorsstyrd formatering i textläge](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-Du kan formatera datum med följande
-
-```
-valueformat
-```
-
- värden för textläge:
+Du kan formatera datum med följande `valueformat`-textlägesvärden:
 
 | **Format** | Exempel  | ***värdeformat=*** |
 |---|---|---|

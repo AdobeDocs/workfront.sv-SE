@@ -6,20 +6,16 @@ description: Använda villkorsstyrd formatering i textläge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1682'
 ht-degree: 0%
 
 ---
 
 # Använda villkorsstyrd formatering i textläge
 
-<!--Audited: 01/2024-->
-
-<!--
-(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
--->
+<!--Audited: 01/2025-->
 
 Standardgränssnittsverktyget ger stor flexibilitet när det gäller att skapa rapportelement som uppfyller organisationens behov.
 
@@ -30,7 +26,7 @@ Mer information om hur du använder villkorsstyrd formatering i en vy finns i [A
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +38,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard </p> 
-   <p>eller</p>
-   <p>Aktuell: Planera</p> 
-   </td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera vyer i en rapport</p> </td> 
   </tr> 
   <tr> 
@@ -58,10 +60,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Villkorsstyrd formatering i textläge
 
@@ -122,126 +123,11 @@ Datum kan konfigureras för visning i olika format.
 
 Mer information finns i [Formatera datum i textlägesrapporter](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above)</p>
-<p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
-<pre>valueformat= [new date format]</pre>
-<p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
-<pre>valueformat=atDate<br>valuefield=projectedCompletionDate </pre>
-<p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
-<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
-<p>You can format dates using the following <code>valueformat</code> text mode values:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Format</strong> </th>
-<th scope="col">Example </th>
-<th scope="col"><em><strong>valueformat=</strong></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>atDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY Time</td>
-<td>10/11/18 12:00pm</td>
-<td><pre>longAtDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>shortAtDate</pre> </td>
-</tr>
-<tr>
-<td>Mth, DD, YR</td>
-<td>Oct, 11, 2018</td>
-<td><pre>mediumAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR</td>
-<td>Mon, Oct, 11, 2018</td>
-<td><pre>partialAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR Time</td>
-<td>Mon, Oct, 11, 2018 12:00 pm</td>
-<td><pre>fullAtDate</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
-
 #### Formatera tal {#format-numbers}
 
 Du kan formatera numeriska värden för att visa information som bäst passar dina rapporteringsbehov.
 
 Mer information finns i [Formatera tal, valuta och procentvärden i textlägesrapporter](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the <strong>valueformat</strong> line of your column.</p> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above) </p>
-<p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
-<p>You can format numbers using the following values for the <code>valueformat</code> line of your column:</p>
-<table border="2" cellspacing="15" cellpadding="1">
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Example</strong> </th>
-<th scope="col"><em><code>valueformat=</code></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1234</td>
-<td><pre>doubleAsString</pre> or <pre>int</pre></td>
-</tr>
-<tr>
-<td>1,234</td>
-<td><pre>doubleAsInt</pre> </td>
-</tr>
-<tr>
-<td>$1,234</td>
-<td><pre>currencyStringCurrencyRounded</pre> </td>
-</tr>
-<tr>
-<td>1234.56</td>
-<td><pre>doubleAsDouble</pre> </td>
-</tr>
-<tr>
-<td>$1,234.56</td>
-<td><pre>currencyStringCurrency</pre> </td>
-</tr>
-<tr>
-<td>12%</td>
-<td><pre>doubleAsPercentRounded</pre> </td>
-</tr>
-<tr>
-<td>12.34%</td>
-<td><pre>doubleAsPercent</pre> </td>
-</tr>
-<tr>
-<td>(1,234.56)</td>
-<td><pre>doubleAsFinancial</pre> </td>
-</tr>
-<tr>
-<td>(1,234)</td>
-<td><pre>doubleAsFiancialRounded</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
 
 ### Kolumnregler {#column-rules}
 
@@ -303,9 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Även om den här programsatsen kan användas för en företagsnamnkolumn, kan den även användas för andra kolumner i rapporten. Grön text visas bara om projektet har ett associerat företag. Kom ihåg enheten `[field name]`, `[value]` och `[qualifier]` oavsett om konditioneringen visas i kolumnen eller inte.
 >* När du arbetar med kvalificerare rekommenderar vi att du använder `cicontains` i stället för `equal`. Som standard söker `equal` efter ID-nummer. Med kvalificeraren `cicontains` kan du komma åt objekt efter deras namn.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
+
+![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Oavsett om Textfärg, Justering, Teckensnittsformat eller Bakgrundsfärg används i ett textläge används samma programsats (se ovan).
 
@@ -410,14 +297,13 @@ styledef.case.0.comparison.truetext=not today
 >
 >Raderna som börjar med `case.0.` använder falljämförelser till att identifiera textanvändning. Raderna som börjar med `styledef.case.0.` är tidiga villkorsstyrda formateringssatser där vi identifierar textanvändning via uttrycket `truetext`. Ange `truetext` till ett värde i stället för att lämna det tomt.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
+![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png)
+![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Använda radformat {#apply-row-formats}
 
 Om du vill använda ett villkor för hela raden använder du följande kod tillsammans med kolumnkoden:
-
 
 ```
 styledef.case.0.comparison.icon=false
@@ -443,7 +329,6 @@ row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
 row.0.styledef.case.0.comparison.truetext=
 ```
 
-
 #### Använd bilder {#apply-images}
 
 På samma sätt som för formatering med text kan bilder användas för att visa information i rapporter. Workfront har ett antal inbyggda bilder för att förmedla visuell information i en rapportinställning. Om du vill använda bilder i den villkorliga formateringsinställningen krävs följande programsats:
@@ -460,7 +345,6 @@ image.case.0.comparison.truetext=
 
 Om du till exempel har en projektrapport vill du skapa en kolumn där du vill visa ett urholkat ansikte för varje planerat slutförandedatum som inte är lika med dagens datum. Använd följande textlägeskod för att lägga till ikonen i kolumnen:
 
-
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
 image.case.0.comparison.lefttext=plannedCompletionDate
@@ -475,9 +359,9 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >Observera att uttrycket `icon=true` används i programsatsen. Den här programsatsen skiljer sig också från andra villkorliga formateringssatser eftersom den inte använder formatet `style.def`, utan snarare ett unikt bildformat.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
+![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png)
+![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 Om du vill använda de bilder som är tillgängliga använder du följande kod och värden:
 
