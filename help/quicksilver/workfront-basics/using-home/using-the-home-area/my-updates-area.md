@@ -6,9 +6,9 @@ description: Du kan använda området [!UICONTROL My Updates] för att snabbt gr
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Använd området [!UICONTROL My Updates]
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Du kan använda området [!UICONTROL My Updates] för att snabbt granska godkännanden som väntar på ditt beslut eller konversationer som du har inkluderats i.
@@ -82,11 +82,7 @@ Du måste ha följande innan du börjar:
 
    Godkännanden och åtkomstbegäranden som tilldelats dig visas på den första halvan av sidan under **Mina uppdateringar**.
 
-   <div class="preview">
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-
-   </div>
 
 1. (Valfritt) Bläddra längst ned i området [!UICONTROL **Mina uppdateringar**] och klicka på högerpilen för att visa fler godkännanden som visas på ytterligare sidor.
 
@@ -168,12 +164,8 @@ Du måste ha följande innan du börjar:
 
      Mer information om hur du svarar på uppdateringar finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-     <span class="preview">När du är klar med att lägga till svaret klickar du på **[!UICONTROL Submit]**.</span>
-
-     <div class="preview">
+     När du är klar med att lägga till svaret klickar du på **[!UICONTROL Submit]**.
 
      ![](assets/reply-in-the-my-updates-area.png)
-
-     </div>
 
 1. (Valfritt) Klicka på **[!UICONTROL Pin current page]** om du vill fästa området [!UICONTROL My Updates] i den övre navigeringen.

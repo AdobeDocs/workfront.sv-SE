@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1429'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klicka på **Skapa**. Formuläret för förfrågan för den valda posttypen öppnas <span class="preview"> på fliken Formulär </span>.
+1. Klicka på **Skapa**. Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Postfält som är tillgängliga i tabellvyn för den valda posttypen. <!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> Beroende på vilken miljö du använder för att skapa ett begärandeformulär finns följande scenarier:
->
->* Fält av följande typer visas inte i begärandeformuläret i produktionsmiljön:
->
->    * Skapad av och senast ändrad av
->    * Skapad den och senast ändrad den
->    * Formel
->    * Folk
->    * Workfront-anslutna fält
->    * Workfront-objektens sökfält
->    * Kopplade fält för Workfront Planning-poster
->    * Sökfält för Workfront Planning-anslutna poster
->    * AEM Assets-anslutningsfält
->* Fält av följande typer visas inte i begärandeformuläret i <span class="preview">förhandsgranskningsmiljön:</span>
->    * <span class="preview"> Skapad av och senast ändrad av </span>
->    * <span class="preview">Skapad och senast ändrad </span>
->    * <span class="preview">Formel</span>
->    * <span class="preview"> Workfront-objektets sökfält </span>
->    * <span class="preview">Sökfält för Workfront Planning-anslutna poster </span>
+   >[!IMPORTANT]
+   >
+   >Fält av följande typer visas inte i begärandeformuläret:
+   >
+   >* Skapad av och senast ändrad av
+   >* Skapad den och senast ändrad den
+   >* Formel
+   >* Workfront-objektens sökfält
+   >* Sökfält för Workfront Planning-anslutna poster
+   >
 
-* **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
-* Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är ännu inte tillgänglig i produktionsmiljön. <span class="preview">Den är tillgänglig i förhandsvisningsmiljön.</span> Det går inte att redigera konfigurationen och värdet för ämnesfältet.
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >Fältet **Ämne** kräver ett värde när det är synligt i begärandeformuläret. Du kan dock ta bort fältet **Ämne** om det behövs, och den som beställer kan inte se det i formuläret.
+   * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
+   * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Det går inte att redigera konfigurationen och värdet för ämnesfältet.
 
-* Alla fält som är associerade med posttypen.
+     >[!TIP]
+     >
+     >Fältet **Ämne** kräver ett värde när det är synligt i begärandeformuläret. Du kan dock ta bort fältet **Ämne** om det behövs, och den som beställer kan inte se det i formuläret när de skickar begäran.
 
-  Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
+   * Alla fält som är associerade med posttypen.
+
+     Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
 
 1. (Valfritt) Håll markören över fält i formuläret som du vill ta bort och klicka sedan på ikonen **x** för att ta bort dem. De läggs till på fliken **Fält** till vänster om formuläret.
 
@@ -200,8 +206,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa hur formuläret kommer att visas för andra användare när de kommer att använda det för att skicka en ny post.
 
-1. 
-   <div class="preview">(Valfritt) Klicka på fliken **Konfiguration** och lägg sedan till minst en användare i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
+1. (Valfritt) Klicka på fliken **Konfiguration** och lägg sedan till minst en användare i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte.
    * Alla godkännare måste fatta ett beslut innan en begäran godkänns eller avslås.
 
-     Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
+     Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 1. Klicka på **Publish** för att publicera formuläret och få en unik länk till det.
@@ -235,20 +240,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!WARNING]
    >
-   >
    >* När du väljer **Vem som helst med länken** kan vem som helst få åtkomst till formuläret och skicka en ny post, även personer utanför organisationen som inte har något Workfront-konto.
    >
-   > * <span class="preview">Ett formulär som innehåller följande fälttyper kan inte delas offentligt:</span>
+   > * Ett formulär som innehåller följande fälttyper kan inte delas offentligt:
    >
-   >     * <span class="preview">Workfront- eller AEM Assets-anslutningar</span>
-   >     * <span class="preview">Personer</span>
+   >     * Workfront- eller AEM Assets-anslutningar
+   >     * Folk
    >
 
 1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. Användarna får ett felmeddelande när länken har upphört att gälla och du måste uppdatera länkdatumet och generera en ny länk som de kan dela innan de kan komma åt formuläret igen.
 
    Du kan välja framtida datum inom 180 dagar från dagens datum.
 
-1. Klicka på **Spara och kopiera länken** för att spara delningsinformationen för formuläret.
+1. Klicka på **Spara och kopiera länken** för att spara delningsinformationen för formuläret. Om formuläret har sparats tidigare klickar du på **Kopiera länk**.
 
    Alternativen för formulärdelning sparas och länken kopieras till Urklipp. Nu kan du dela den med andra.
 
@@ -260,7 +264,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Posttypssidan öppnas.
 1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
    * Klicka på **Uppdatera begärandeformuläret** om du vill göra några ändringar i begärandeformuläret.
-   * Klicka på **Kopiera länk till begärandeformuläret** om du vill dela länken till formuläret med andra.
+   * Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
 
    >[!TIP]
    >

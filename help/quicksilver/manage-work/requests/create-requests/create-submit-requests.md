@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,12 @@ Planerat arbete representeras i Adobe Workfront av projekt och uppgifter. Du kan
 När du har skapat en begäran i en begärandekö kan du antingen tilldela den för slutförande eller konvertera den till en uppgift eller ett projekt.\
 Mer information om hur du konverterar problem till en uppgift eller ett projekt finns i artikeln [Översikt över hur du konverterar problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Du kan skapa en begäran på följande sätt:
+Du kan skapa en Workfront-begäran på följande sätt:
 
 * Från början enligt beskrivningen i den här artikeln.
 * Från utkast. Mer information finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * Från en befintlig begäran genom att kopiera och skicka en kopia. Mer information finns i [Kopiera och skicka begäranden](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* Skapa poster i Workfront Planning från ett Workfront Planning-formulär. Din organisation måste köpa ett Workfront Planning-paket. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Åtkomstkrav
 
@@ -342,8 +343,19 @@ Du kan skicka in begäranden med alla program som har integrerats med Workfront:
 * Du kan skapa en anpassad integrering mellan Workfront och ett annat program som gör att du kan skicka begäranden till Workfront från det andra programmet.\
   Mer information om anpassade Workfront-integreringar finns i artikeln [Adobe Workfront-integreringar](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
-* Du kan skicka begäranden från Salesforce om du har installerat Workfront-appen för Salesforce.\
+* Du kan skicka in förfrågningar från Salesforce om du har installerat Workfront-appen för Salesforce.\
   Mer information om hur du skickar begäranden från Salesforce med vår Workfront-app för Salesforce finns i artikeln [Skicka Adobe Workfront-begäranden från Salesforce-objekt](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+
+## Skapa begäranden med hjälp av ett Workfront Planning-formulär
+
+Du kan lägga till en begäran med hjälp av ett Workfront Planning-formulär. Om du lägger till Workfront Planning-begäranden kan Planning-poster skapas, om begärandeformuläret har godkänts eller om det inte kräver godkännande.
+
+Din organisation måste köpa ett Workfront Planning-paket för att kunna skicka in planeringsförfrågningar.
+
+Mer information finns i följande artiklar:
+
+* [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Sök efter skickade begäranden
 

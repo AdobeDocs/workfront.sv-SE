@@ -6,9 +6,9 @@ description: I Adobe Workfront kan uppgifter ha överordnade och underordnade re
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du kan skapa underaktiviteter från uppgiftslistan eller underaktivitetsavsnitte
 
 >[!NOTE]
 >
->Din Workfront- eller gruppadministratör kan dölja underaktivitetsavsnittet i din miljö.
+>Din Workfront- eller gruppadministratör kan ta bort underuppgiftsavsnittet i din miljö med hjälp av en layoutmall.
 
 1. Gå till det projekt där du vill skapa underaktiviteter.
 1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.

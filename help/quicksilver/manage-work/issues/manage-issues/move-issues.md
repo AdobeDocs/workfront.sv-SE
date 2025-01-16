@@ -6,9 +6,9 @@ description: Du kan flytta problem mellan projekt och uppgifter.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 12/2024-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Du kan flytta problem mellan följande objekt:
 
@@ -72,15 +72,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Tänk på följande när du flyttar problem som innehåller dokument eller är kopplade till en begärandekö:
 
+* Din system- eller gruppadministratör kan hindra dig från att flytta problem som har loggade timmar, beroende på hur de konfigurerar Tillåt användare att flytta uppgifter och problem med loggade timmar i inställningsområdet. Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * **När ett problem är kopplat till en frågekö:** När du flyttar ett problem till ett annat objekt och problemet är kopplat till en frågekö, är det flyttade problemet inte längre kopplat till den ursprungliga kön som det första problemet kom från.
 * **När ett dokument är kopplat till utgåvan:** När du flyttar en utgåva till ett annat objekt och utgåvan har ett dokument kopplat till sig, flyttas även dokumentets versioner och korrektur till den nya utgåvan. Alla godkännanden som är kopplade till dokumentet flyttas inte.
 * **När ett problem är länkat till ett dokument eller en mapp:** När du flyttar ett ärende som har dokument eller mappar länkade till en tredjepartstjänst som Google Drive, flyttas länkarna till dokumenten med problemet.
-
-<div class="preview">
-
-* Din system- eller gruppadministratör kan hindra dig från att flytta problem som har loggade timmar, beroende på hur de konfigurerar Tillåt användare att flytta uppgifter och problem med loggade timmar i inställningsområdet. Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
 
 ## Flytta problem i en lista
 
@@ -103,9 +99,9 @@ Du kan flytta en eller flera utgåvor från en lista med utgåvor eller från en
 
 Du kan flytta ett problem när du visar det.
 
-### Flytta ett enstaka problem i förhandsvisningsmiljön
+### Flytta ett enstaka ärende
 
-1. Gå till ett problem som du vill kopiera, klicka på menyn **Mer** ![](assets/more-icon.png) till höger om problemnamnet och välj sedan **Flytta** till.
+1. Gå till ett problem som du vill flytta, klicka på menyn **Mer** ![](assets/more-icon.png) till höger om problemnamnet och klicka sedan på **Flytta till**.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

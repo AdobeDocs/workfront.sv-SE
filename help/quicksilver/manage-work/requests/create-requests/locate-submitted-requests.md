@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,19 @@ ht-degree: 0%
 
 Du kan hitta följande typer av förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har börjat skicka men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
-* **Skickat avsnitt**: Alla förfrågningar som du eller någon annan har skickat och du har tillgång till åtminstone Visa.
-* **Utkastavsnitt** : Alla begäranden som du har startat men aldrig slutfört och du har aldrig skickat in. Mer information om utkastbegäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* Fliken **Workfront** i området Begäranden i Workfront: Leta upp förfrågningar som skickats till Workfront-köer i följande avsnitt:
+   * **Skickat avsnitt**: Alla förfrågningar som du eller någon annan har skickat och du har tillgång till åtminstone Visa.
+   * **Utkastavsnitt** : Alla begäranden som du har startat men aldrig slutfört och du har aldrig skickat in. Mer information om utkastbegäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
   >Du kan bara visa dina egna utkastbegäranden.
+
+* Fliken **Planering** i området Begäranden i Workfront: Leta upp begäranden som skickats till formulär för Workfront Planning-begäran. Din organisation måste köpa ett Workfront Planning-paket. Mer information finns i följande artiklar:
+
+   * [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+   * [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## Åtkomstkrav
 
@@ -70,6 +77,7 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
 
 {{step1-to-requests}}
 
+1. (Villkorligt) Om din organisation har köpt ett Workfront Planning-paket klickar du på fliken **Workfront** för att visa Workfront-begäranden.
 1. Klicka på **Skickat** i den vänstra panelen för att visa alla skickade begäranden.
 
    Du kan visa upp till 2 000 förfrågningar och de kan visas på flera sidor.
@@ -191,6 +199,12 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
    -->
 
 1. Klicka på **Utkast** för att visa alla utkast. Workfront sparar ett obegränsat antal utkast för varje begärandekö i den här mappen. När du anger en ny begäran för ett köämne som redan har ett utkast, uppmanas du att använda ett befintligt utkast. Mer information finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+1. (Valfritt och villkorligt) Om din organisation har köpt ett Workfront Planning-paket klickar du på fliken **Planning** och sedan på **Skickat** i den vänstra panelen för att visa Workfront Planning-begäranden.
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
  
 

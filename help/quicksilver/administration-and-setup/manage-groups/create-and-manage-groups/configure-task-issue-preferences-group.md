@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
 
 # Konfigurera inställningar för aktiviteter och utgåvor för en grupp
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Om grupper i din organisation måste konfigurera en uppgift eller en utgåva oberoende av hur den är konfigurerad på systemnivå, kan en Adobe Workfront-administratör låsa upp inställningen. Som gruppadministratör kan du sedan konfigurera inställningen för gruppen så att den påverkar alla uppgifter eller problem som är kopplade till gruppen.
 
@@ -95,7 +95,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * [Nya aktivitetsstandardvärden](#new-task-defaults)
    * [Problem](#issues)
    * [Borttagning](#deletion)
-   * <span class="preview">[Flytta](#move)</span>
+   * [Flytta](#move)
    * [Faktiska datum](#actual-dates)
    * [Delegering](#delegation)
    * [Åtkomst](#access)
@@ -184,8 +184,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    </table>
 
 
-<div class="preview">
-
 ### Flytta
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### Faktiska datum {#actual-dates}
 

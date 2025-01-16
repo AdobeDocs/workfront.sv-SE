@@ -7,9 +7,9 @@ description: Ett upplösningsbart objekt är ett problem vars upplösning är kn
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ När en utgåva manuellt är kopplad till en annan utgåva utlöser den andra ut
 
 När ett problem är det löstagbara objektet för en aktivitet eller ett projekt, ändrar aktiviteternas status och projekten status på problemet. Standardstatusvärden aktiveras annorlunda än anpassade statusvärden, i det här fallet.
 
-När projektets anpassade status är lika med en standardstatus som inte utlöser någon ändring av utgivningsstatusen, utlöser den ingen statusändring för utleveransen.
+När ett projekts anpassade status motsvarar en standardstatus som inte utlöser någon ändring av utgivningsstatusen, utlöser inte ändringen av projektstatus någon statusändring för problemet.
 
 * [Synkronisera standardstatusen för det matchande objektet med standardstatusen för det matchningsbara objektet](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synkronisera det upplösta objektets anpassade status med det upplösta objektets anpassade status](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

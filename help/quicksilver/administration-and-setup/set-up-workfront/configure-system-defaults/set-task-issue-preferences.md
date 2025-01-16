@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Som [!DNL Adobe Workfront]-administratör kan du konfigurera systemomfattande inställningar för uppgifter och problem. De här inställningarna påverkar hur dina användare skapar uppgifter och problem i [!DNL Workfront].
@@ -74,15 +74,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [[!UICONTROL New Task Defaults]](#new-task-defaults)
    * [[!UICONTROL Issues]](#issues)
    * [[!UICONTROL Deletion]](#deletion)
-   * <span class="preview">[Flytta](#move)</span>
+   * [Flytta](#move)
    * [[!UICONTROL Actual Dates]](#actual-dates)
    * [[!UICONTROL Delegation]](#delegation)
    * [[!UICONTROL Access]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL New Task Defaults] {#new-task-defaults}
@@ -169,8 +164,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * När du avmarkerar det här alternativet får du en varning när du tar bort en uppgift eller ett problem med loggade timmar, eller när du tar bort ett projekt med timmar som loggats för dess uppgifter eller problem. Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar tas bort. Det går inte att ta bort aktiviteter, utgåvor eller projekt som har timmar loggade för uppgifter och utgåvor.
 
-<div class="preview">
-
 ### Flytta
 
 **[!UICONTROL Allow users to move tasks and issues with logged hours]**: Gör att du kan avgöra om du tillåter flyttning av uppgifter eller problem där timmar loggas. Det här alternativet är markerat som standard.
@@ -178,8 +171,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * När det är markerat kan du flytta uppgifter och ärenden som har loggats. Timmarna rör sig också med uppgifterna eller problemen.
 
 * När du avmarkerar det här alternativet får du en varning när du flyttar en uppgift eller ett problem med loggade timmar till ett annat projekt. Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar flyttas. Det går inte att flytta uppgifter eller ärenden som har loggade timmar. Du kan flytta uppgifter inom samma projekt, även när det här alternativet är avmarkerat.
-
-</div>
 
 ### [!UICONTROL Actual Dates] {#actual-dates}
 

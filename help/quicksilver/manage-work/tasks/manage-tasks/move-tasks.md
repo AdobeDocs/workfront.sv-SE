@@ -6,9 +6,9 @@ description: Du kan flytta uppgifter till olika projekt eller till olika överor
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--Audited: 12/2024-->
 
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Du kan flytta uppgifter i Adobe Workfront mellan följande objekt:
@@ -72,6 +72,8 @@ Du måste ha följande åtkomst för att kunna utföra åtgärderna i den här a
 
 Tänk på följande när du flyttar en uppgift:
 
+* Din system- eller gruppadministratör kan hindra dig från att flytta uppgifter som har loggade timmar, beroende på hur de konfigurerar Tillåt användare att flytta uppgifter och problem med loggade timmar i inställningsområdet. Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * När du flyttar en uppgift från ett projekt till ett annat kan uppgiftsdatumen beräknas om. Omberäkningen tar hänsyn till den tidsplan som det nya projektet använder och projektets Schedule From-information.
 
 * Du kan välja att flytta vissa objekt som är kopplade till uppgiften till den flyttade aktiviteten under den flyttade processen. Som standard överförs dock följande objekt till den flyttade aktiviteten:
@@ -82,16 +84,9 @@ Tänk på följande när du flyttar en uppgift:
    * Anpassade formulär och anpassad fältinformation
    * Underaktiviteter
 
-Följande objekt flyttas inte med uppgiften som standard:
+* Följande objekt flyttas inte med uppgiften som standard:
 
-* Milstolpar
-
-<div class="preview">
-
-* Din system- eller gruppadministratör kan hindra dig från att flytta uppgifter som har loggade timmar, beroende på hur de konfigurerar Tillåt användare att flytta uppgifter och problem med loggade timmar i inställningsområdet. Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
-
+   * Milstolpar
 
 ## Flytta aktiviteter i en lista
 
