@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
+source-git-commit: 38541313ae1c2b330bf4bad994bee43ee6e84227
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera affärsregler
-
-{{preview-fast-release-general}}
 
 Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Affärsreglerna bidrar till att förbättra datakvaliteten och effektiviteten genom att förhindra åtgärder som kan äventyra dataintegriteten.
 
@@ -137,9 +135,9 @@ IF(
    * Eftersom objektet och åtgärden redan är definierade, tar du inte med dem i formeln.
    * Det anpassade felmeddelandet visas för användaren när de utlöser affärsregeln. Den ska innehålla tydliga instruktioner om vad som gick fel och hur problemet ska åtgärdas.
 
-     <span class="preview">Du kan inkludera en statisk URL-adress i felmeddelandet om du vill länka till dokumentation eller andra användbara sidor för att vägleda användaren om hur de kan ändra sin åtgärd inom regelbegränsningen.</span>
+     Du kan inkludera en statisk URL-adress i felmeddelandet, för att länka till dokumentation eller andra användbara sidor som hjälper användaren hur de ändrar sin åtgärd inom regelbegränsningen.
 
-     <span class="preview">I det här exemplet kommer &quot;Läs mer&quot; att länka till URL:en. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL:en måste vara inom parentes, men länktext inom parentes krävs inte. Du kan visa den fullständiga URL:en och den blir klickbar.</span>
+     I det här exemplet kommer &quot;Läs mer&quot; att länka till webbadressen. `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL:en måste vara inom parentes, men länktext inom parentes krävs inte. Du kan visa den fullständiga URL:en och det blir en klickbar länk.
 
    ![Dialogrutan Lägg till affärsregel](assets/add-business-rule-dialog-no-ai-button.png)
 

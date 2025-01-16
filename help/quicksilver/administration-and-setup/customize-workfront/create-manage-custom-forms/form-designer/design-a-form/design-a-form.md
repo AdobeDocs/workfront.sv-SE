@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 0%
 
 ---
 
 # Skapa ett anpassat formulär
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Du kan utforma ett anpassat formulär med formulärdesignern i Adobe Workfront. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -847,8 +843,8 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
       <td><p>(Obligatoriskt) Välj ett internt Workfront-fält.<p><p>Endast inbyggda fält för formulärets objekt är tillgängliga. Om t.ex. listan Objekttyper längst upp i formulärdesignern visar Projekt, kan du välja inbyggda fält för projekt, men inte fält som är specifika för uppgifter.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Lägg till filter</span></td>
-      <td><span class="preview"><p>Lägg till ett filter för referensfältet för att begränsa listan med objekt som användare kan välja mellan när de använder fältet. </p> <p>Du kan till exempel begränsa ett fält så att användarnamn bara kan väljas om de uppfyller följande villkor:</p> 
+      <td role="rowheader">Lägg till filter</td>
+      <td><p>Lägg till ett filter för referensfältet för att begränsa listan med objekt som användare kan välja mellan när de använder fältet. </p> <p>Du kan till exempel begränsa ett fält så att användarnamn bara kan väljas om de uppfyller följande villkor:</p> 
        <ul>
         <li>De tillhör en grupp eller grupper som du anger</li> 
         <li>De är kopplade till en roll eller jobbtitel som du anger</li> 
@@ -860,7 +856,7 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
         <li>Filteralternativet är bara tillgängligt när du refererar till ett inbyggt typsnittsfält, till exempel Portfolio, Företag eller Ägare.</li>
         <li>Om du redigerar ett befintligt anpassat formulär tas inga objekt (utanför filteromfånget) som användare redan har lagt till med fältet bort när du lägger till ett filter i ett internt fält.</li> 
         <li>Filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett internt fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ Lägga till en Adobe XD-fil:
    eller
 
    Klicka på **Spara och stäng**.
-
-<div class="preview">
 
 ### Lägg till planeringsanslutningsfält
 
@@ -1031,8 +1025,6 @@ Så här lägger du till ett planeringsanslutningsfält:
    * Koppla ihop eller koppla från poster från Workfront-objektet.
 
    Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## Organisera och förhandsgranska ett formulär med formulärdesignern
 

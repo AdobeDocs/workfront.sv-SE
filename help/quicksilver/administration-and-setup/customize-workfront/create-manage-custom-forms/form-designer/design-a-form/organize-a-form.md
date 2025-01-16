@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # Ordna och förhandsgranska ett formulär
-
-{{preview-fast-release-general}}
 
 Du kan ordna ett anpassat formulär med formulärdesignern och förhandsgranska det för att kontrollera att det är korrekt konfigurerat.
 
@@ -160,9 +158,8 @@ Om du lägger till en annan objekttyp i formuläret (Portfolio, Program, Dokumen
 
 1. (Valfritt) Om du vill placera ett anpassat fält eller en widget ovanför eller under ett annat fält drar du fältet ovanför eller nedanför tills en vågrät blå linje visas mellan objekten.
 
-1. Om du vill flytta ett anpassat fält till ett annat avsnitt i formuläret kan du dra och släppa det på plats, <span class="preview">eller klicka på ikonen **Flytta till** i fältet och markera det avsnitt som du vill flytta det till.</span>
+1. Om du vill flytta ett anpassat fält till ett annat avsnitt i formuläret kan du dra och släppa det på plats eller klicka på ikonen **Flytta till** i fältet och markera det avsnitt som du vill flytta det till.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Flytta fält till ett avsnitt](assets/move-field-to-section.png)
 
 1. Om du vill spara ändringarna klickar du på **Använd**

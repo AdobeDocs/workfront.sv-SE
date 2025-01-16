@@ -6,7 +6,7 @@ description: Personer måste läggas till i styrelsen som medlemmar innan de kan
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Lägga till eller ta bort medlemmar från en anslagstavla
 
-{{highlighted-preview}}
-
 Personer och team måste läggas till i styrelsen som medlemmar innan de kan se styrelsen.
 
-Den som har skapat en styrelse är som standard ägare. Styrelseledamot är den enda person som kan ta bort eller uppdatera brädans filter på panelen Konfigurera. <span class="preview">Det är bara en systemadministratör eller den aktuella kortägaren som kan ändra kortets ägare.</span>
+Den som har skapat en styrelse är som standard ägare. Styrelseledamot är den enda person som kan ta bort eller uppdatera brädans filter på panelen Konfigurera. Det är bara en systemadministratör eller den aktuella styrelseledamöten som kan ändra styrelsens ägare.
 
 ## Åtkomstkrav
 
@@ -85,8 +83,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Du kan inte ta bort styrelsens ägare.
 
-<div class="preview">
-
 ## Ändra styrelsens ägare
 
 >[!NOTE]
@@ -104,5 +100,3 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Endast en användare kan vara styrelsemedlemmar. Ett team kan inte vara ägare.
 
 1. Klicka på [!UICONTROL **Uppdatera**].
-
-</div>

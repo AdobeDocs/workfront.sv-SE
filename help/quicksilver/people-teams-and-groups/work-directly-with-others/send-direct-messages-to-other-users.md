@@ -7,16 +7,14 @@ description: Med Adobe Workfront kan du snabbt och enkelt skicka meddelanden som
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # Skicka direktmeddelanden till andra användare
-
-{{preview-fast-release-general}}
 
 Med [!DNL Adobe Workfront] kan du snabbt och enkelt skicka meddelanden som inte är relaterade till något arbetsobjekt direkt till andra [!DNL Workfront]-användare. Meddelanden som skickas enligt beskrivningen i det här avsnittet visas på fliken [!UICONTROL Updates] på användarens profilsida och är synliga för alla användare. Mer information om uppdateringar finns i [Uppdatera arbetsobjekt och visa uppdateringar: artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -87,9 +85,7 @@ Det här alternativet är bara tillgängligt om du har en Standard-, Plan- eller
 1. Markera den eller de användare som du vill skicka ett meddelande till och klicka på [!UICONTROL **Skicka uppdatering till användare**].
 1. Skriv meddelandet i fönstret [!UICONTROL Send update to user].
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-
-   <span class="preview">![Meddelandeanvändare i fönstret Skicka uppdatering till ](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   ![Meddelandeanvändare i fönstret Skicka uppdatering till ](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. (Valfritt) Sök efter ytterligare användare som du vill tagga i meddelandet. Du behöver inte tagga de användare som du redan har valt i användarlistan.
 1. (Valfritt) Välj **[!UICONTROL Private to my company]** om du bara vill att det här meddelandet ska vara synligt för andra användare i ditt företag.
