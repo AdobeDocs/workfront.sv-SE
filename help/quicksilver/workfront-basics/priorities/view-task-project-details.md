@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # Visa projekt- och arbetsuppgiftsinfo i Prioriteringar
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan visa projekt-, uppgifts- och utleveransinformation i prioriteringslistan.
 
@@ -76,8 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Lägga till en fil
    * <span class="preview">Gå direkt till projektet</span>
 
-   ![projektinformation](assets/project-details.png)
-   <!--new screen for prod ![](assets/project-details-new.png)-->
+   ![projektinformation](assets/project-details-new.png)
 
 ### Visa aktivitetsinformation
 
@@ -87,35 +84,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Aktiviteten är markerad som standard. Här kan du
    * Visa och redigera projekt- och uppgiftsinformation och beskrivning
    * Visa och lägga till kommentarer i projektet
-   * <span class="preview">Visa och lägga till dokument</span>
-   * <span class="preview">Skapa ett bevis</span>
+   * Visa och lägga till dokument
+   * Skapa ett korrektur
    * Loggtid
    * Lägga till en fil
    * Lägga till snabblänkar
 
 
-   ![aktivitetsinformation](assets/task-details.png)
-   <!--new screen for prod ![](assets/task-details-new.png)-->
+   ![aktivitetsinformation](assets/task-details-new.png)
 
 ### Visa utleveransinformation
 
 {{step1-to-priorities}}
 
 1. Håll markören över arbetsnamnet i arbetslistan och klicka sedan på ikonen **Sammanfattning** ![öppna sammanfattningsikonen](assets/summary-icon.png).
+
 1. Utgåva är valt som standard. Här kan du
    * Visa och redigera projekt- och ärendeinformation och beskrivning
    * Visa och lägga till kommentarer i projektet
-* <span class="preview">Visa och lägga till dokument</span>
-* <span class="preview">Skapa ett bevis</span>
-   * Loggtid
-   * Lägga till en fil
-   * Lägga till snabblänkar
+   * Visa och lägga till dokument
+   * Skapa ett korrektur
+      * Loggtid
+      * Lägga till en fil
+      * Lägga till snabblänkar
 
-  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+   ![probleminformation](assets/issue-details.png)
 
 ## Visa information på detaljsidan
 
-<span class="preview">Du kan visa uppdateringar i realtid på informationssidan för en aktivitet eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.</span>
+Du kan visa uppdateringar i realtid på informationssidan för en uppgift eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.
 
 ## Visa information om arbetsuppgift
 
@@ -125,8 +122,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Visa och redigera projektinformation och beskrivning
 * Visa och lägga till kommentarer i projektet
-* <span class="preview">Visa och lägga till dokument</span>
-* <span class="preview">Skapa ett bevis</span>
+* Visa och lägga till dokument
+* Skapa ett korrektur
 * Loggtid
 * Lägga till en fil
 * Lägga till snabblänkar

@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
 
 # Filtrera och gruppera ditt arbete med prioritet
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan använda filter för att hitta det du söker efter och sedan använda en gruppering för att ordna det.
 
@@ -57,122 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-## Filtrera och gruppera ditt arbete med produktionsprioriteringar
-
-### Filtrera ditt arbete
-
-Du kan filtrera uppgifter och ärenden som tilldelats dig.
-
-{{step1-to-priorities}}
-
-1. Klicka på **Filter** längst upp till höger i arbetslistan.
-1. Markera ett eller flera filter om du vill begränsa arbetsobjekten.
-   ![](assets/filters.png)
-
-+++Expandera för att se detaljerad information om tillgängliga filter
-<table>
-  <tbody>
-   <tr>
-   <th>Filter</th>
-   <th>Beskrivning</th>
-   </tr>
-    <tr>
-      <td>Att arbeta med den</td>
-      <td>Visar objekt som du arbetar med</td>
-    </tr>
-    <tr>
-      <td>Klar att börja</td>
-      <td>Visar objekt med 
-      <ul>
-      <li>Inga ofullständiga föregångare eller aktivitetsbegränsningar</li>
-      <p>och</p>
-      <li>Det planerade startdatumet har passerat eller är upp till två veckor i framtiden</li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Inte klar</td>
-      <td>Visar objekt som har
-       <ul>
-      <li>Ofullständiga föregående aktiviteter eller aktivitetsbegränsningar som förhindrar att objektet bearbetas</li>
-      <p>eller</p>
-      <li>Det planerade startdatumet är mer än två veckor i framtiden</li>
-      </ul>
-       </td>
-    </tr>
-    <tr>
-      <td>Begärd</td>
-      <td>Visar problem som du inte har börjat arbeta med</td>
-    </tr>
-      <td>Klar</td>
-      <td>Visar det arbete som utförts de senaste två veckorna. Det här filteralternativet inkluderar inte godkännanden.</td>
-    </tr>
-    <tr>
-    <td>Projekt</td>
-    <td>Visar projekt som innehåller uppgifter eller ärenden som du har tilldelats</td>
-    </tr>
-    <tr>
-    <td>Förfallodatum</td>
-    <td>Visar arbete efter planerat slutförandedatum</td>
-    </tr>
-    <tr>
-    <td>Status</td>
-    <td>Visar uppgifter eller problem i nya, pågående och slutförda statusar</td>
-    </tr>
-    <tr>
-    <td>Mitt fokus</td>
-    <td>Visar aktiviteter eller problem med tilldelade fokusnivåer. Fokusnivåer tilldelas och hanteras av den enskilda användaren.</td>
-    </tr>
-  </tbody>
-</table>
-
-+++
-
-1. (Valfritt) Klicka på **Tillbaka till standard** om du vill återställa markeringen.
-
-### Gruppera ditt arbete
-
-{{step1-to-priorities}}
-
-1. Klicka på **Grupper** överst till höger i arbetslistan.
-1. Välj en grupp för att ordna din arbetslista
-   ![](assets/groups.png)
-
-+++Expandera för att se detaljerad information om tillgängliga grupper
-
-| Grupp | Beskrivning |
-|-----------|-------------|
-| Ingen | Detta tar bort grupperingar från arbetslistan. |
-| Mitt fokus | Detta grupperar objekt baserat på den fokusnivå som du tilldelar. |
-| Vecka förfaller | Den här gruppen objekt baserat på vilken vecka de förfaller. Förfallodatum avgörs av planerat slutförandedatum. |
-| Status | Detta grupperar objekt efter följande statusar: Nytt, Pågår, Fullständigt. <br>Obs! Du kan inte använda anpassade statusvärden i prioriteter just nu. |
-| Projekt | Detta grupperar objekt efter projekt. |
-
-+++
-
-### Sortera materialet
-
-Om du vill sortera ditt arbete öppnar du **Gruppera** och klickar på **Sortera stigande** eller **Sortera fallande**.
-
-![](assets/expand-sort-groups.png)
-
->[!IMPORTANT]
->
->Sorteringsalternativet är inte tillgängligt för tillfället om du har använt en grupp.
-
-
-
-### Expandera eller komprimera alla avsnitt
-
-Om du vill expandera eller komprimera alla avsnitt öppnar du **Grupp** och klickar på **Expandera alla** eller **Komprimera alla**.
-
-![](assets/expand-sort-groups.png)
-
-<div class="preview">
-
-## Filtrera och gruppera ditt arbete med prioritet i förhandsgranskningen
-
-### Filtrera arbetet med standardfilter
+## Filtrera arbetet med standardfilter
 
 Du kan filtrera uppgifter och ärenden som tilldelats dig.
 
@@ -244,9 +127,7 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 
 1. (Valfritt) Klicka på **Tillbaka till standard** om du vill återställa markeringen.
 
-<div class="preview">
-
-### Filtrera arbetet med smarta filter
+## Filtrera arbetet med smarta filter
 
 Använd naturligt språk för att snabbt filtrera arbetet. Din Workfront-instans måste finnas på en ny Workfront-plan och aktiveras på Adobe Unified Experience. Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
@@ -264,7 +145,7 @@ Använd naturligt språk för att snabbt filtrera arbetet. Din Workfront-instans
 
 </div>
 
-### Gruppera ditt arbete
+## Gruppera ditt arbete
 
 {{step1-to-priorities}}
 
@@ -283,28 +164,30 @@ Använd naturligt språk för att snabbt filtrera arbetet. Din Workfront-instans
 
 +++
 
+### Dra och släpp arbetsobjekt vid gruppering efter Min prioritet eller Status
 
+Du kan dra och släppa enskilda arbetsobjekt mellan kategorier när du grupperar efter Min prioritet eller Status.
 
-### Sortera materialet
+1. Gruppera ditt arbete efter **status** eller **Min prioritet**.
+2. Håll markören över arbetsobjektet för att hitta flyttningsikonen och dra den till önskad kategori.
+   ![dra-ikon](assets/drag-and-drop.png)
 
-**Sortera i grupper**
+## Sortera materialet
+
+### Sortera i grupper
 
 Om du vill sortera ditt arbete i en grupp öppnar du **Grupp** och klickar på **Sortera stigande** eller **Sortera fallande**.
 
 ![](assets/sort-in-groups.png)
 
-**Sortera kolumner**
+### Sortera kolumner
 
 Om du vill sortera enskilda kolumner går du till kolumnen och klickar på nedpilen.
 
 ![nedpil i kolumn](assets/sort-columns.png)
-
-
 
 ### Expandera eller komprimera alla gruppavsnitt
 
 Om du vill expandera eller komprimera alla gruppavsnitt öppnar du **Grupp** och klickar på **Expandera alla** eller **Komprimera alla**.
 
 ![](assets/expand-collapse-groups.png)
-
-</div>

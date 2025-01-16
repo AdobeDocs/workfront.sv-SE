@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -31,8 +31,7 @@ Du kan använda kolumnen Mitt fokus för att prioritera ditt arbete. Kolumnen Mi
    | **Normal** | Normal är för rutinmässiga arbetsobjekt som du kommer att arbeta med när både brådskande och högprioriterade objekt har slutförts. Det här är standardinställningen för uppgifter och ärenden. |
    | **Låg** | Låg är för arbetsobjekt som inte behöver åtgärdas omedelbart och kan fördröjas tills alla högprioriterade arbetsobjekt är klara. |
 
-   ![](assets/my-focus.png)
-   <!--new screen for prod ![](assets/my-focus-new.png)-->
+   ![](assets/my-focus-new.png)
 
    >[!TIP]
    >

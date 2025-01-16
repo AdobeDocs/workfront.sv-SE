@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Lägga till och visa uppdateringar i Prioriteringar](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
 * [Logga tid i Prioriteter](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
 * [Överför filer i prioriteter](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
-* [Lägg till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
-  <!--* [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)-->
+* [Lägga till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+* [Fånga upp arbetet i prioriteringar](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
 * [Ladda upp dokument och skapa korrektur i prioriteter](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
 * [Hantera ditt arbete i Prioritetskalendern](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)

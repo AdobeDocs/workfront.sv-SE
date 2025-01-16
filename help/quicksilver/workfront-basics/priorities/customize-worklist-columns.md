@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Anpassa kolumnerna i listan Prioriteter
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan anpassa kolumnerna i arbetslistan under Prioriteter så att de passar ditt sätt att arbeta.
 
@@ -87,9 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på ikonen **Mer** ![](assets/more-icon.png) och välj **Återställ kolumnbredder**.
    ![](assets/columns.png)
 
-<div class="preview">
-
-## Anpassa kolumnerna i listan Prioriteter i Förhandsgranska
+## Anpassa kolumnerna i listan Prioriteter
 
 ### Aktivera eller inaktivera kolumner
 
@@ -110,6 +106,3 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 >[!NOTE]
 >
 >Kolumnen Namn är fast och kan inte flyttas.
-
-
-</div>

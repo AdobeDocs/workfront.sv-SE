@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -53,8 +53,7 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
 {{step1-to-priorities}}
 
 1. Håll muspekaren över namnet och klicka sedan på **Överför**.
-   ![](assets/upload-file.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. (Valfritt) Välj en mapp.
 1. Dra och släpp filen eller Cmd/Ctrl + V för att klistra in från Urklipp
 eller

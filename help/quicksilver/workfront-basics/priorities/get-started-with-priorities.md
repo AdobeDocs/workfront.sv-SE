@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I Prioriteringar kan du filtrera och gruppera ditt arbete så att du kan hantera
 
 ### Hitta ditt material med filter
 
-Hitta det viktigaste arbetet med filter. <span class="preview">Du kan använda ett naturligt språk för att hitta arbete med det smarta filtret</span>, eller
+Hitta det viktigaste arbetet med filter. Du kan använda ett naturligt språk för att söka efter arbete med det smarta filtret, eller
 Du kan använda filtret Standard för att hitta uppgifter och ärenden som du har tilldelats:
 
 <table>
@@ -112,10 +112,9 @@ När du har tilldelat fokusnivåer till dina arbetsobjekt kan du sortera kolumne
 
 Mer information finns i [Prioritera viktiga arbetsobjekt](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### Använd kalendervyn [!BADGE Tillgänglig i förhandsvisning]{type=Informative}
+### Använda kalendervyn
 
 I kalendervyn visas dina uppgifter och problem. Du kan välja mellan en dag-, vecka- eller månadsvy. Du kan även filtrera objekt på ungefär samma sätt som i arbetslistan.
 
@@ -141,8 +140,7 @@ I uppdateringsavsnittet visas systemuppdateringar och upp till 200 av de senaste
 
 Mer information finns i [Lägga till och visa kommentarer i prioriteter](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Loggtid
 
@@ -150,8 +148,7 @@ Du kan logga tiden för arbetsobjekt för att ange hur många timmar du ska arbe
 
 Mer information finns i [Loggtid i Prioriteter](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Överför filer
 
@@ -164,8 +161,7 @@ Ladda upp filer direkt till uppgiftens eller ärendets dokumentområde utan att 
 
 Mer information finns i [Överför filer i prioriteter](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### Lägga till snabblänkar
@@ -176,13 +172,13 @@ Du kan bädda in länkar som används ofta på arbetsobjektets informationssida.
 
 Mer information finns i [Lägga till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Visa dokument [!BADGE Tillgängliga i förhandsgranskning]{type=Informative}
+### Visa dokument
 
 På fliken Dokument kan du visa alla filer som hör till ett arbetsobjekt. Du kan filtrera dokument efter namn, filtyp eller person och sortera efter namn och överföringsdatum.
 
 Du kan också öppna dokumentet eller korrekturet.
 
-### Granska och godkänn resurser [!BADGE Tillgängliga i förhandsgranskning]{type=Informative}
+### Granska och godkänn resurser
 
 På fliken Dokument kan du
 
@@ -190,7 +186,7 @@ På fliken Dokument kan du
 * Starta korrekturläsaren för att lämna kommentarer och fatta beslut
 
 
-## Använd [!DNL Catch me up] för att se vad du missade [!BADGE Tillgängligt i förhandsgranskningen]{type=Informative}
+## Använd [!DNL Catch me up] för att se vad du missade
 
 Använd funktionen [!DNL Catch me up] för att se vad du missade. Jag kommer att sammanfatta uppdateringar, överförda dokument, godkännanden och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar, 7 dagar.
 
@@ -200,7 +196,7 @@ Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksil
 
 <!--need new screen for prod-->
 
-## Visa uppdateringar i realtid på detaljsidan [!BADGE Tillgänglig i förhandsgranskning]{type=Informative}
+## Visa uppdateringar i realtid på detaljsidan
 
 Du kan visa uppdateringar i realtid på informationssidan för en uppgift eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.
 

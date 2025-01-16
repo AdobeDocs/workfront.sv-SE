@@ -5,17 +5,15 @@ description: Fånga upp mig
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-
 # Fånga upp arbetet i prioriteringar
-
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Med hjälp av Workfront AI Assistant kan jag nu sammanfatta uppdateringar, överförda dokument och andra viktiga ändringar i dina projekt inom följande tidsramar: dygnet runt, tre dagar, sju dagar, vilket minskar tiden för att söka efter information om aktiva projekt.
 
