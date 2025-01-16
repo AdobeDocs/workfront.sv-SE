@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Lägga till en omslagsbild till en post
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -148,7 +148,7 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
 
    ![](assets/details-page.png)
 
-1. Klicka på **Lägg till omslag** i produktionsmiljön <span class="preview"> eller hovra över utrymmet ovanför postens namn i postens förhandsgranskning eller på sidan **Lägg till omslag** i förhandsgranskningsmiljön</span>.
+1. Håll markören över utrymmet ovanför postens namn på sidan för förhandsgranskning eller information av poster och klicka sedan på **Lägg till omslag**.
 
    eller
 
@@ -167,7 +167,7 @@ Rutan **Postomslag** öppnas på fliken **Överför** .
 
 1. Klicka på **Använd bild**.
 
-   Bilden överförs högst upp i postens förhandsgranskning eller sida och ändringarna sparas automatiskt.
+   Bilden överförs högst upp på sidan för förhandsgranskning av post eller information och ändringarna sparas automatiskt.
 
    ![](assets/record-page-with-cover-image.png)
 

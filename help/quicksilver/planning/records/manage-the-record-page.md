@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -254,8 +254,6 @@ Följande saker händer:
 
    Alla ändringar av layouten för postförhandsgranskningen eller sidan sparas automatiskt.
 
-<span class="preview">
-
 ## Lägga till en sida i Anslutningsvyn på en postsida
 
 Tänk på följande när du lägger till en anslutningsvy på en postsida:
@@ -292,7 +290,7 @@ Tabellvyn är skrivskyddad.
 1. (Valfritt) Använd valfritt vyelement i verktygsfältet för att hantera tabellvyn. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 1. (Valfritt) Håll pekaren över flikens namn, klicka sedan på **Mer** ![](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort den till den nya fliken Ansluten vy.
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

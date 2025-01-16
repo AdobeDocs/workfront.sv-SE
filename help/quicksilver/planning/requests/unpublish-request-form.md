@@ -5,22 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
-
 
 # Avpublicera ett begärandeformulär i Adobe Workfront Planning
 
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -157,4 +157,4 @@ När ett begärandeformulär blir irrelevant och du inte längre vill att någon
 
    Alla poster som tidigare lagts till med hjälp av frågeformuläret finns kvar på posttypssidan.
 
-   <span class="preview">Alla begäranden som tidigare lagts till finns kvar i området Begäranden i Workfront på fliken Planering.</span>
+   Alla tidigare tillagda begäranden finns kvar i området Begäranden i Workfront på fliken Planering.

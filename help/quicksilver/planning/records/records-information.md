@@ -1,14 +1,14 @@
 ---
-title: "Poster: artikelindex"
+title: 'Poster: Artikelindex'
 description: När du har skapat posttyper i Adobe Workfront Planning kan du skapa enskilda poster av dessa typer. I följande artiklar beskrivs hur du kan skapa och hantera poster och deras information i Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Poster: artikelindex
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ I följande artiklar beskrivs hur du kan skapa och hantera poster och deras info
 * [Skapa poster](/help/quicksilver/planning/records/create-records.md)
 * [Redigera poster](/help/quicksilver/planning/records/edit-records.md)
 * [Ta bort poster](/help/quicksilver/planning/records/delete-records.md)
-* <span class="preview">[Återställ borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md)</span>
+* [Återställ borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md)
 * [Dela poster](/help/quicksilver/planning/records/share-records.md)
 * [Översikt över anslutna poster](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Koppla poster](/help/quicksilver/planning/records/connect-records.md)

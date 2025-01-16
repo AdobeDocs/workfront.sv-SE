@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2928'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Koppla poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -181,7 +181,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
    >Om bara bilden av posten markerades för att visas när posttyperna var anslutna, visas bara miniatyrbilden eller ikonen för posten i det anslutna fältet. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
    >
 
-1. <span class="preview"> (Villkorligt) Om du valde En till många eller En till en för anslutningstypen när du anslöt posttyperna, och du försöker ansluta en post eller ett objekt som redan är anslutet någon annanstans, får du ett varningsmeddelande om att det kommer att tas bort från den ursprungliga anslutningen om du ansluter den igen. Klicka på **Anslut** för att tillåta borttagning och anslutning av posten, eller **Avbryt** för att gå tillbaka till fältet och välja en annan post.</span>
+1. (Villkorligt) Om du valde En till många eller En till en för anslutningstypen när du anslöt posttyperna, och du försöker ansluta en post eller ett objekt som redan är anslutet någon annanstans, får du ett varningsmeddelande om att anslutningen tar bort den från den ursprungliga anslutningen igen. Klicka på **Anslut** för att tillåta borttagning och anslutning av posten, eller **Avbryt** för att gå tillbaka till fältet och välja en annan post.
 1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta, och du vill lägga till den, klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i avsnittet Skapa poster när du ansluter dem i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]

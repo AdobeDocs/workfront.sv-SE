@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Översikt över begränsningar för Adobe Workfront Planning-objekt
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,8 +45,8 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
 | Antal vyer som en användare kan skapa för en posttyp | 100 |
 | Storlek på Excel-fil som du kan importera för att skapa posttyper | 5 MB |
-| <span class="preview">Antal rader som du kan importera i en CSV- eller Excel-fil för att skapa posttyper</span> | 10 000 |
-| <span class="preview">Antal kolumner som du kan importera i en CSV- eller Excel-fil för att skapa posttyper</span> | 500 |
+| Antal rader som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 10 000 |
+| Antal kolumner som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 500 |
 
 *Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.
 

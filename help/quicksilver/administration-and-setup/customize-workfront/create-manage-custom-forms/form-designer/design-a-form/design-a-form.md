@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
 source-wordcount: '6474'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * [Lägga till bilder, PDF och videoklipp](#add-images-pdfs-and-videos)
    * [Lägg till inbyggda Workfront-fält](#add-workfront-native-fields)
    * [Lägg till Adobe XD-filer](#add-adobe-xd-files)
-   * <span class="preview">[Lägg till planeringsanslutningsfält](#add-planning-connection-fields)</span>
+   * [Lägg till planeringsanslutningsfält](#add-planning-connection-fields)
 
 ## Lägg till nya eller befintliga fält i det anpassade formuläret
 

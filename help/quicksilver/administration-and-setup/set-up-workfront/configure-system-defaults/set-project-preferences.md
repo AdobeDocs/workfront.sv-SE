@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2217'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Som [!DNL Adobe Workfront]-administratör kan du konfigurera standardinställningarna för alla projekt som skapas i hela systemet. Inställningarna påverkar projekt, uppgifter och problembeteende.
@@ -217,8 +217,8 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
 
 </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="preview">När en användare tilldelas till en aktivitet ska du använda schemat för ...</span></p> </td> 
-   <td> <div class="preview">
+   <td role="rowheader"> <p>När en användare tilldelas till en aktivitet ska du använda schemat för ...</p> </td> 
+   <td> 
 <p>Om ett projekt inte har tilldelats ett schema, eller om användarna som är tilldelade till dess aktiviteter inte har tilldelats ett schema, använder [!DNL Workfront] systemets standardschema för att beräkna tidslinjen för aktiviteterna.</p>
 
 <p>Om du tilldelar en användare till en aktivitet i ett projekt och både projektet och användaren som är tilldelad till aktiviteterna har associerade scheman, använder [!UICONTROL Workfront] följande scheman:</p> 
@@ -226,7 +226,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] använder schemat för den tilldelade användaren i aktiviteten för att beräkna tidslinjer.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] använder schemat för projektet för att beräkna aktivitetens tidslinje.</li> 
     </ul> <p>Mer information om scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Skapa ett schema</a>.</p>
-</div></td> 
+</td> 
   </tr>
 
 <tr data-mc-conditions=""> 

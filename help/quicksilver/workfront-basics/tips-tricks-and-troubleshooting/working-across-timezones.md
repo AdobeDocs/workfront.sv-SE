@@ -5,9 +5,9 @@ title: Arbeta över tidszoner
 description: Det kan vara praktiskt att förstå hur  [!DNL Adobe Workfront]  använder tidszoner för att beräkna tidsfält för objekt och tider i andra områden, som e-postmeddelanden.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Det kan vara praktiskt att förstå hur [!DNL Adobe Workfront] använder tidszoner för att beräkna följande:
 
@@ -100,14 +100,10 @@ Du kan hjälpa användare att arbeta enklare i flera tidszoner på flera sätt:
    * Tidszonen för schemat för aktivitetens primära ägare
    * Tidszonen för schemat för projektet.
 
-  <div class="preview">
-
   Om en användare tilldelas till en uppgift använder systemet något av följande, enligt inställningarna i projekt som omfattar hela systemet eller hela gruppen:
 
    * Tidszonen för schemat för uppgiftens tilldelande
    * Tidszonen för schemat för projektet.
-
-  </div>
 
   Detta kan få aktivitetsdatum att ändras.
 

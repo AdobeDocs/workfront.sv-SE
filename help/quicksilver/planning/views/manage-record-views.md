@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hantera postvyer
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 {{planning-important-intro}}
@@ -225,7 +225,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Öppna postens sida från vyn | ✓ | ✓ |    |
 | Visa poster per år och kvartal |           | ✓ |    |
 | Visa poster per månad |           | ✓ | ✓ |
-| <span class="preview">Visa poster efter vecka</span> |           |               | ✓ |
+| Visa poster per vecka |           |               | ✓ |
 
 
 ## Skapa eller redigera vyer {#create-or-edit-views}

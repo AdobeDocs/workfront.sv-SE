@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Skapa posttyper
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -108,11 +108,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
         Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * <span class="preview">När du importerar dem med en Excel- eller CSV-fil. </span>
+      * När du importerar dem med en Excel- eller CSV-fil.
 
      >[!TIP]
      >
-     ><span class="preview">När du importerar en posttyp från en Excel- eller CSV-fil kan även poster och fält importeras.</span>
+     >När du importerar en posttyp från en Excel- eller CSV-fil kan du även importera poster och fält.
 
    * Manuellt:
 
@@ -147,7 +147,7 @@ Mer information om vilka posttyper som ingår i varje mall finns i [Lista över 
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
-1. Klicka på **Lägg till posttyp** och sedan på <span class="preview">**Nytt**</span>.
+1. Klicka på **Lägg till posttyp** och sedan på **Nytt**.
 
    Rutan Lägg till posttyp öppnas.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -207,8 +207,6 @@ Beskrivning av posttypen visas på kortet.
    * [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## Skapa posttyper genom att importera en Excel- eller CSV-fil
 
@@ -278,6 +276,3 @@ Så här importerar du posttyper med en Excel- eller CSV-fil:
    Du kan börja hantera fält och poster på posttypssidorna.
 
    Alla som har tillgång till Workfront Planning kan nu visa och redigera de importerade posttyperna och deras information.
-
-</div>
-

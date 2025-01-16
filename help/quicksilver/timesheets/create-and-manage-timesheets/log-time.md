@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3822'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder.</span>
 
 Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
@@ -497,11 +495,8 @@ Beroende på vilken typ av timposter du redigerar kan du redigera följande fäl
    * Jobbrolltilldelning. Du kan bara ändra jobbrolltilldelningen om den aktiverades i installationsprogrammet. Mer information finns i [Konfigurera tidrapport och timinställningar](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
    * Beskrivning av timposten.
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * När du redigerar allmänna timmar:
 
@@ -551,7 +546,7 @@ Så här redigerar du timtyper i en timrapport eller timlista:
    >
    >   Alla fält är inte tillgängliga, beroende på vilken timtyp som är associerad med de valda timposterna.
 
-1. Klicka på **Spara <span class="preview">ändringar</span>**.
+1. Klicka på **Spara ändringar**.
 
    Informationen om timinmatning uppdateras.
 Om du har markerat mer än en timmes inmatning och ändrat fältet Timmar, fördelas samma antal timmar till alla valda timinmatningar. De ursprungliga timmarna ersätts med det nya värdet för alla valda timtransaktioner.

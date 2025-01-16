@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Du kan definiera din arbetsvecka med hjälp av scheman och associera ett schema med en användare eller ett projekt. Detta gör att [!DNL Adobe Workfront] kan beräkna tidslinjer och användartillgänglighet. Instruktioner finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -66,16 +66,12 @@ Om en uppgift har tilldelats en användare som är kopplad till ett schema och f
 Den ordning i vilken tidsplanerna används av systemet när det finns fler än ett:
 
 
-* När en användare tilldelas till en uppgift finns följande scenarier, beroende på vilken miljö du använder:
+* När en användare tilldelas till en uppgift använder [!DNL Workfront] någon av följande scheman, enligt definitionen i [!UICONTROL Project Preferences]-området i [!UICONTROL Setup]:
 
-   * I produktionsmiljön använder [!DNL Workfront] användarens schema för att beräkna aktivitetens tidslinje. Detta inkluderar även användarens personliga tid. Projektets schema ignoreras.
+   * Schemat för den användare som är tilldelad uppgiften
+   * Det schema som är associerat med projektet.
 
      Mer information om personlig tid finns i [Konfigurera personlig tid ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-   * <span class="preview">I förhandsvisningsmiljön använder [!DNL Workfront] något av följande scheman, enligt definitionen i [!UICONTROL Project Preferences]-området i [!UICONTROL Setup]:</span>
-
-      * <span class="preview">Schemat för användaren som är tilldelad till aktiviteten </span>
-      * <span class="preview">Det schema som är associerat med projektet.</span>
 
 * När flera användare har tilldelats en uppgift och användarna har olika scheman under aktivitetens tidsram, använder [!DNL Workfront] någon av följande scheman, enligt definitionen i [!UICONTROL Project Preferences]-området i [!UICONTROL Setup]:
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2819'
+source-wordcount: '2759'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 # Konfigurera projektinställningar för en grupp
 
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Om du är gruppadministratör och en Adobe Workfront-administratör låser upp en projektinställning för alla grupper i systemet kan du konfigurera den inställningen så att den påverkar alla efterföljande projekt som gruppen skapar.
 
@@ -217,14 +217,14 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
     </ul> <p>Mer information om scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Skapa ett schema</a>.</p> </td> 
   </tr> 
  <tr> 
-   <td role="rowheader"> <p><span class="preview"><strong>När en användare tilldelas till en aktivitet ska du använda schemat för ...</strong></span> </p> </td> 
-   <td> <div class="preview"><p>Om ett projekt inte har tilldelats ett schema, eller om användarna som är tilldelade till dess aktiviteter inte har tilldelats ett schema, använder [!DNL Workfront] systemets standardschema för att beräkna tidslinjen för aktiviteterna.</p>
+   <td role="rowheader"> <p><strong>När en användare tilldelas till en aktivitet ska du använda schemat för ...</strong> </p> </td> 
+   <td> <p>Om ett projekt inte har tilldelats ett schema, eller om användarna som är tilldelade till dess aktiviteter inte har tilldelats ett schema, använder [!DNL Workfront] systemets standardschema för att beräkna tidslinjen för aktiviteterna.</p>
 
 <p>Om du tilldelar en användare till en aktivitet i ett projekt och både projektet och användaren har ett associerat schema, använder [!UICONTROL Workfront] följande scheman:</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>: Schemat för den tilldelade användaren i aktiviteten för att beräkna tidslinjer.</li> 
      <li><strong>[!UICONTROL Project]</strong>: Schemat för projektet för att beräkna tidslinjen för aktiviteten.</li> 
-    </ul> <p>Mer information om scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Skapa ett schema</a>.</p></div></td> 
+    </ul> <p>Mer information om scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Skapa ett schema</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Beräkningar av tidslinje </p> </td> 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '4370'
+source-wordcount: '4310'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 # Skapa fält
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 {{planning-important-intro}}
@@ -39,9 +39,8 @@ Du kan skapa fält på följande sätt i Workfront Planning:
 * Genom att ansluta posttyper
 * Genom att skapa en posttyp
 * Skapa en arbetsyta från en mall
-* <span class="preview">Genom att importera posttyper med en Excel- eller CSV-fil</span>
-* <span class="preview">Genom att importera kopior av befintliga Workfront-fält</span>
-
+* Importera posttyper med en Excel- eller CSV-fil
+* Genom att importera kopior av befintliga Workfront-fält
 
 Mer information om Workfront Planning-fält finns i [Fältöversikt](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -253,7 +252,7 @@ Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till e
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumnrubrik i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumnrubrik i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
    Det nya enradiga fältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
@@ -279,7 +278,7 @@ Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar 
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
    Det nya styckefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
@@ -296,7 +295,7 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Alternativ**: De alternativ som användare kan välja när fältet uppdateras. Du kan använda både siffror och bokstäver som namn på varje val.
 1. Klicka på **Lägg till alternativ** om du vill lägga till fler alternativ. Det finns ingen gräns för hur många alternativ du kan lägga till i ett flervalsfält.
 1. (Valfritt) Dra och släpp varje alternativ manuellt i önskad ordning, eller välj
@@ -304,12 +303,11 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 1. (Valfritt) Om du vill ta bort ett alternativ klickar du på ikonen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
 
-1. <span class="preview">Klicka på **Färgrutor** för att välja en fördefinierad färg</span>
+1. Klicka på **Färgrutor** för att välja en fördefinierad färg
 
-   <span class="preview">eller</span>
+   eller
 
-   <span class="preview">Klicka på **Egen** om du vill välja en egen färg med hjälp av en färgväljare eller en hexadecimal kod.
-   </span>
+   Klicka på **Egen** om du vill välja en egen färg med hjälp av en färgväljare eller en hexadecimal kod.
 1. Klicka utanför färgrutan för att stänga den.
 1. Klicka på **Skapa**.
 
@@ -326,19 +324,19 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Alternativ**: De alternativ som är tillgängliga att välja på den nedrullningsbara menyn när fältet har sparats. Du kan ha både siffror och bokstäver för namnet på varje val.
 
 1. Klicka på **Lägg till alternativ** om du vill lägga till fler alternativ. Det finns ingen gräns för hur många alternativ du kan lägga till i ett envalsfält.
 1. (Valfritt) Dra och släpp varje alternativ manuellt i önskad ordning eller markera alternativet **Sorteringsalternativ A-Z** om du vill att valen automatiskt ska visas i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Valfritt) Om du vill ta bort ett alternativ klickar du på ikonen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
-1. <span class="preview">Klicka på **Färgrutor** för att välja en fördefinierad färg</span>
+1. Klicka på **Färgrutor** för att välja en fördefinierad färg
 
-   <span class="preview">eller</span>
+   eller
 
-   <span class="preview">Klicka på **Egen** om du vill välja en egen färg med hjälp av en färgväljare eller en hexadecimal kod.
-   </span>
+   Klicka på **Egen** om du vill välja en egen färg med hjälp av en färgväljare eller en hexadecimal kod.
+
 1. Klicka utanför färgrutan för att stänga den.
 1. Klicka på **Skapa**.
 
@@ -355,7 +353,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Den typ av datumformat som du vill visa i det här fältet. <!--update this casing - submitted bug for it-->
 
      Välj bland följande format:
@@ -385,7 +383,7 @@ Nummerfälttyper samlar in information i talformat.
 1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
    * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa tal i det här fältet. Det här alternativet är som standard avmarkerat.
 
@@ -401,21 +399,19 @@ Nummerfälttyper samlar in information i talformat.
 
 Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**. <!--change screen shot for preview-->
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
 
    ![](assets/percentage-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
    * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa procentvärden i det här fältet. Det här alternativet är som standard avmarkerat.
 
      >[!NOTE]
      >
      >Om du väljer Tillåt negativa tal och negativa värden lagras på posterna som fältet är kopplat till, kan du inte längre avmarkera inställningen i framtiden.
-
-   <div class="preview">
 
    * **Visa som**: Välj hur du vill att procentvärdena ska visas i tabellvyn i den nedrullningsbara menyn. Välj bland följande alternativ:
       * **Number**: Procentvärdet visas som ett tal följt av procenttecknet.
@@ -426,7 +422,6 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
    >
    >* Den markering du gör i fältet Visa som gäller endast det procentvärde som är synligt i tabellvyn. Procentvärdet för fältet visas som ett tal följt av procenttecknet överallt i Workfront Planning. Detta gäller även för fältet av procenttyp när det visas som ett uppslagsfält i andra posters tabellvyer.
    >* Du kan ändra Visa som markering när du redigerar fältet senare.
-   </div>
 
 1. Klicka på **Skapa**.
 
@@ -442,7 +437,7 @@ Valutafälttyper samlar in information i ett talformat som föregås av en valut
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Valuta**: Den typ av valuta som du vill visa i det här fältet. Detta är en lista över valutor enligt ISO (International Organization of Standardization).
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
    * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa valutavärden i det här fältet. Det här alternativet är som standard avmarkerat.
@@ -465,7 +460,7 @@ Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en p
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
    Det nya kryssrutefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
@@ -483,7 +478,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Ange ett namn för det nya fältet.
-   * **Beskrivning**: Lägg till information om det nya fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Lägg till information om det nya fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Formel**: Börja skriva minst ett tecken för att komma åt ett uttryck och markera det sedan när det visas i listan.
 
 1. Klicka på det markerade uttrycket för att visa definitionen och dess formatering.
@@ -495,7 +490,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 
    >[!TIP]
    >
-   ><span class="preview">Du får ett varningsmeddelande när du redigerar eller skapar ett formelfält som kan orsaka en cirkelreferens till sig själv eller delade fält. Du kan inte spara ett formelfält som antingen refererar till sig själv eller till artiklar som refereras i beräkningen.  </span>
+   >Du får ett varningsmeddelande när du redigerar eller skapar ett formelfält som kan orsaka en cirkelreferens till sig själv eller delade fält. Du kan inte spara ett formelfält som antingen refererar till sig själv eller till artiklar som refereras i beräkningen.
 
 
 1. Lägg till fältnamn som de visas i Workfront Planning för att referera till dem i en formel.
@@ -545,7 +540,7 @@ Du kan använda fälttypen Personer för att lägga till en användare <!--, job
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Tillåt flera värden**: Välj det här alternativet om du vill tillåta användare att lägga till fler än en användare i det här fältet. Det här alternativet är som standard avmarkerat.
 
    >[!NOTE]
@@ -567,7 +562,7 @@ Du kan använda fälttypen Skapad av för att lägga till användaren som skapad
 1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 
 1. Klicka på **Skapa**.
 
@@ -587,7 +582,7 @@ Du kan använda fälttypen Skapat för att lägga till datumet då posten skapad
 1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Välj bland följande format:
 
       * **Språk**: Matchar språkområdet i webbläsaren.
@@ -618,7 +613,7 @@ Du kan använda fälttypen Senast ändrad av för att lägga till användaren so
 1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 
 1. Klicka på **Skapa**.
 
@@ -638,7 +633,7 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
 1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell, eller <span class="preview"> när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.</span>
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Välj bland följande format:
 
       * **Språk**: Matchar språkområdet i webbläsaren.
@@ -678,7 +673,7 @@ I Adobe Workfront Planning skapas fält för posttyper när du skapar en arbetsy
 
 Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-<div class="preview">
+
 
 ## Skapa fält när du importerar posttyper från en CSV- eller Excel-fil
 
@@ -696,4 +691,4 @@ När du har kopierat fälten är fälten oberoende av varandra och de utbyter in
 
 Mer information finns i [Importera fält från Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
-</div>
+

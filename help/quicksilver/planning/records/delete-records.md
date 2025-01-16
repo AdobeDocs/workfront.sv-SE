@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--take Preview and Production references out at release-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
-Du kan ta bort poster som inte längre är relevanta i Adobe Workfront Planning. <span class="preview">Du kan återställa borttagna poster i 30 dagar efter att de tagits bort. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+Du kan ta bort poster som inte längre är relevanta i Adobe Workfront Planning. Du kan återställa borttagna poster i 30 dagar efter att de tagits bort. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ## Åtkomstkrav
 
@@ -96,73 +96,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-
-<!--
-
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p>
-   </td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Att tänka på när du tar bort poster
 
 * Du kan ta bort poster som du eller någon annan användare har skapat.
-* Du kan inte återställa borttagna poster i produktionsmiljön. <span class="preview">Du kan återställa borttagna poster i förhandsgranskningsmiljön.</span>
+* Du kan inte återställa borttagna poster i produktionsmiljön. Du kan återställa borttagna poster i förhandsgranskningsmiljön.
 * Om de borttagna posterna är länkade till andra poster tas de länkade posterna inte bort, men informationen från den borttagna posten tas också bort.
 * Du kan inte ta bort poster från tidslinjen eller kalendervyer.
 
@@ -229,7 +166,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 
 1. (Valfritt) Gör något av följande om du vill ångra eller göra om borttagning av en post:
 
-   * <span class="preview">Klicka på ikonen **Ångra** ![](assets/undo-icon.png) och sedan på **Senast borttagna** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Klicka på ikonen **Ångra** ![](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Använd följande kortkommandon för att ångra eller göra om borttagning av en post:
 
       * CTRL + Z ( ⌘ + Z för Mac) för att ångra borttagning av en post

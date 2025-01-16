@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Koppla posttyper
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -248,7 +248,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!NOTE]
      >
-     ><span class="preview"> Om du väljer En till många eller En till en för anslutningstypen och senare vill ansluta en post eller ett objekt som redan är anslutet någon annanstans får du en varning om att anslutningen tar bort den från den ursprungliga anslutningen. Du kan tillåta borttagning eller välja en annan post.</span>
+     > Om du väljer En till många eller En till en för anslutningstypen och senare vill ansluta en post eller ett objekt som redan är anslutet någon annanstans får du en varning om att anslutningen tar bort den från den ursprungliga anslutningen. Du kan tillåta borttagning eller välja en annan post.
 
    * **Välj uppslagsfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på posten som du länkar från. Detta är markerat som standard.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Importera fält från Adobe Workfront
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -116,11 +116,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Tilldelning
    * Timme
    * Faktureringspost
-     <!--Available only to Preview, but might not come to Prod:* Rate card-->
+     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * Utgift
    * Upprepning
-     <!--* Non-labor resource-->
-     <!--* Non-labour resource category-->
+     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Fälten i Workfront kanske inte behåller sin fälttyp när de har importerats till Workfront Planning.
 
   Tabellen nedan visar Workfront-fälttyper och deras motsvarande Workfront Planning-fälttyp.

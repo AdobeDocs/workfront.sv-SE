@@ -6,9 +6,9 @@ description: Du kan använda smarta tilldelningar för att identifiera vem som �
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som bara är tillgängliga i produktionsmiljön för kunder som har aktiverat snabba versioner.</span>
+<span class="preview">Den markerade informationen på den här sidan refererar till funktioner som bara är tillgängliga i förhandsvisningsmiljön.</span>
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> Den här funktionen kommer att tas bort från produktionsmiljön för kunder som aktiverade en snabb version med version 25.1 i januari 2025. Mer information om version 25.1 finns i [Översikt över utgåvan för första kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 Du kan använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet.
 
 Smarta uppdrag är förslag för användare, roller eller team som Adobe Workfront presenterar för dig när du tilldelar resurser till arbetsobjekt. Workfront baserar sina förslag på en algoritm som avgör vilken resurs som passar bäst för jobbet.
 
-<span class="preview">Det finns två separata algoritmer i Workfront som beräknar smarta tilldelningar som fungerar på olika sätt för uppgifter och för utgåvor.</span>
+<!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
 Mer information om villkoren som används för att fastställa smarta tilldelningar finns i [Översikt över smarta tilldelningar](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -75,24 +75,22 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
    * En uppgiftslista eller utgivningslista eller rapport
    * En aktivitets- eller utgivningsrubrik
    * Åtgärds- eller ärendesammanfattningspanelen
-   * <span class="preview">En ny aktivitet</span> eller en ny utgåva när du lägger till <span class="preview">en ny aktivitet</span> eller ett problem i ett projekt
    * En uppgift eller ett problem i arbetsbelastningsutjämnaren
+     <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
 1. Placera markören i uppdragsfältet och vänta i två sekunder.
 
-   För problem visas de smarta tilldelningarna i följande avsnitt:
+   <!--For issues, the smart assignments display in the following sections: 
+      * **Users and teams**
+      * **Job roles**
+        ![](assets/smart-assignments-issue-header.png)-->
 
-   * **Användare och team**
-   * **Jobbroller**
+   Smarta tilldelningar visas i följande avsnitt:<!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 
-   ![](assets/smart-assignments-issue-header.png)
+   <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
+   * **Användare och team**, **Jobbroller** eller <span class="preview">**Betygsätt jobbroller**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   För uppgifter visas de smarta tilldelningarna i följande avsnitt, beroende på vilken fas av algoritmens beräkning som identifierar tilldelningarna:
-
-   * <span class="preview">**Föreslagna tilldelningar**: Visar tilldelningar som identifieras i den första fasen i den smarta tilldelningsalgoritmen för aktiviteten.</span>
-   * **Användare och team**, **Jobbroller** eller <span class="preview">**Betygsätt jobbroller för kort**</span>: Tilldelningar som identifieras i den andra fasen av den smarta tilldelningens algoritmberäkning.
-
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Fältöversikt
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,39 +45,43 @@ Du kan lägga till nya fält i Adobe Workfront Planning som återspeglar organis
 
    * Manuellt:
 
-      * Genom att lägga till kolumner i tabellvyn på en posttypssida. Kolumnerna i tabellen är de fält som är associerade med posttypen. De är samma fält som visas på en postsida.
+      * När du lägger till kolumner i tabellvyn på en posttypssida. Kolumnerna i tabellen är de fält som är associerade med posttypen. De är samma fält som visas på en postsida.
 
         Du kan inte skapa fält från postens sida.
 
-      * Genom att ansluta posttyper. Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två posttyper, eller en posttyp och en objekttyp från andra program.
+      * När du ansluter posttyper. Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två posttyper, eller en posttyp och en objekttyp från andra program.
 
         Mer information om att ansluta posttyper finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * <span class="preview">Genom att importera befintliga fält från Workfront. </span>
-        <span class="preview">Mer information finns i [Importera fält från Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).</span>
+      * När du importerar befintliga fält från Workfront.
 
-      * <span class="preview">Genom att importera posttyper med en Excel- eller CSV-fil. </span>
+        Mer information finns i [Importera fält från Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
-        <span class="preview">Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).</span>
 
    * Automatiskt:
 
-     Följande är standardfält som skapas som standard för varje ny posttyp:
+      * När du skapar en posttyp:
 
-      * Namn
-      * Beskrivning
-      * Startdatum
-      * Slutdatum
-      * Status. Standardvärdena för poststatus är:
-         * Utveckling
-         * Planerad
-         * Aktiv
-         * Slutförd
-         * Parkerad
+         * Namn
+         * Beskrivning
+         * Startdatum
+         * Slutdatum
+         * Status. Standardvärdena för poststatus är:
+            * Utveckling
+            * Planerad
+            * Aktiv
+            * Slutförd
+            * Parkerad
 
         Du kan lägga till fler värden eller byta namn på de befintliga.
 
-     I Workfront Planning skapas fält för posttyper när du skapar en arbetsyta från en mall. Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+      * När du skapar en arbetsyta från en mall.
+
+        Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+      * När du importerar posttyper med en Excel- eller CSV-fil.
+
+        Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Workfront planeringsfält är inte tillgängliga från Workfront.
 

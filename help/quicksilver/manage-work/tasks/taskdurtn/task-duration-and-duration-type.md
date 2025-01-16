@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Aktivitetens varaktighet är skillnaden mellan det planerade slutförandedatumet och det planerade startdatumet för aktiviteten. Varaktighet anger den tidsram som är tillgänglig för uppgiften att slutföras.
 
@@ -41,17 +41,7 @@ Om du har ett schema som börjar kl. 9.00 och slutar kl. 12.00 och en aktivitet 
 
 Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront:
 
-* Om en användare tilldelas uppgiften finns följande scenarier beroende på vilken miljö du använder:
-
-   * I produktionsmiljön använder Workfront en av följande scheman, i den här exakta ordningen för beräkning av varaktighet:
-
-   1. Workfront tar hänsyn till användarens schema.
-   1. Om användaren inte är kopplad till ett schema, tar Workfront hänsyn till projektets tidsplan.
-   1. Om projektet inte är kopplat till ett schema, tar Workfront hänsyn till systemets standardschema. Mer information om scheman finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-<div class="preview">
-
-* I förhandsvisningsmiljön:
+* Om uppgiften har tilldelats en användare:
 
    1. Workfront tar hänsyn till antingen schemat för projektet eller den användare som tilldelats uppgiften.
 
@@ -60,8 +50,6 @@ Följande två scenarier gäller vid beräkning av varaktighet i Adobe Workfront
    1. Om användaren eller projektet inte har något schema använder Workfront standardschemat.
 
       Stegen liknar det första scenariot efter att du har förstått vilket schema Workfront använder för att beräkna varaktighet.
-
-</div>
 
 * Om uppgiften har tilldelats flera användare:
 

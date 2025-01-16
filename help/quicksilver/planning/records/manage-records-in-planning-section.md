@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 # Hantera postanslutningar från Workfront-objekt
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
 Du kan visa Workfront Planning-poster och deras respektive poster som är kopplade till Adobe Workfront-objekt i följande områden i Workfront:
 
 * Avsnittet Planning för ett Workfront-objekt: Visar alla posttyper som är kopplade till ett objekt och deras respektive anslutna poster.
-* <span class="preview">Ett anpassat fält för planeringsanslutning: Visar en posttyp och dess respektive anslutna poster. </span>
+* Ett anpassat fält för planeringsanslutning: Visar en posttyp och dess respektive kopplade poster.
 
 ## Åtkomstkrav
 
@@ -180,8 +180,6 @@ Följande saker händer:
    * Workfront-objektet läggs till i Workfront Planning-postens anslutna fält.
    * Värdena för Workfront sökfält som är kopplade till Planning-posten fylls i i Workfront Planning.
 
-<div class="preview">
-
 ## Hantera poster i fältet Planering-anslutning
 
 Du kan använda ett anpassat fält för planeringsanslutning på ett Workfront-objekt för att visa en posttyp och dess respektive poster som är kopplade till Workfront-objektet.
@@ -254,5 +252,3 @@ Du kan granska information om posten eller navigera till posttypssidan.
 
 1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/remove-icon.png) för en post i det anpassade formuläret i Workfront för att ta bort den från anslutningsfältet Planning och koppla bort den från Workfront-objektet.
 Workfront-objektet kopplas bort från Planning-posten och all sökinformation från Workfront tas bort från posten.
-
-</div>

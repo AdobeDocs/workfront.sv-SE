@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Lägga till en miniatyrbild i en post
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -184,11 +184,7 @@ Du kan lägga till en miniatyrbild på följande sätt:
 
    Postens informationssida öppnas.
 
-1. (Villkorligt) Håll markören över miniatyrbilden eller ikonen ![](assets/record-thumbnail-icon-on-details-page.png) i postförhandsgranskningen eller på sidan **Mer** ![](assets/more-menu.png) > **Redigera miniatyrbild** i produktionsmiljön
-
-   eller
-
-   <span class="preview">Håll markören över utrymmet ovanför postnamnet och klicka sedan på **Lägg till miniatyrbild** eller **Redigera miniatyrbild** i förhandsvisningsmiljön.</span>
+1. (Villkorligt) Håll markören över miniatyrbilden eller ikonen ![](assets/record-thumbnail-icon-on-details-page.png) på sidan för förhandsgranskning eller information av poster, håll markören över utrymmet ovanför postens namn och klicka sedan på **Lägg till miniatyrbild** eller **Redigera miniatyrbild** .
 
    Fliken **Överför** öppnas som standard i rutan **Spela in miniatyrbild**.
 
