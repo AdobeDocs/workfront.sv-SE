@@ -5,18 +5,14 @@ description: Översikt över AI Assistant
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # Översikt över AI Assistant
-
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt i förhandsgranskningsmiljön för alla kunder och i produktionsmiljön för kunder som har aktiverat månatliga releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Workfront AI Assistant hjälper dig att slutföra ditt arbete genom att erbjuda information och förslag i appen i en konversation på ett naturligt språk. AI Assistant kan ge dig en smidigare arbetsupplevelse genom att
 
@@ -84,13 +80,9 @@ AI Assistant har för närvarande följande funktioner:
 
   Mer information finns i [Få hjälp från AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
-<div class="preview">
-
 * Hitta specifika objekt i Workfront.
 
   Mer information finns i [Använd AI-assistenten för att arbeta med projekt, uppgifter och problem](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
-
-</div>
 
 * Generera eller förfina formler för beräknade anpassade fält.
 
@@ -100,12 +92,10 @@ AI Assistant har för närvarande följande funktioner:
 
   Mer information finns i [Generera eller ändra beräknade fältformler med AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-<div class="preview">
 * Sammanfatta uppdateringar, överförda dokument och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar, 7 dagar i prioritetsordning.
 
 Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>
 
 ## Objekttyper tillgängliga för AI Assistant
 
