@@ -6,9 +6,9 @@ description: Du kan visa kalenderrapporter och händelseinformation som du har s
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
+source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -56,21 +56,23 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Visa en kalenderrapport
 
-{{step1-to-calendars}}
+<!--{{step1-to-calendars}}-->
 
-Beroende på din åtkomstnivå kan följande kalendrar visas:
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Calendars]**.
 
-* Din [!DNL Adobe Workfront]-standardkalender
+   Beroende på din åtkomstnivå kan följande kalendrar visas:
 
-  Workfront skapar en kalender för dig baserat på de projekt, uppgifter och utgåvor som har tilldelats dig eller som har tilldelats team, grupper eller roller som du har tilldelats.
+   * Din [!DNL Adobe Workfront]-standardkalender
 
-* Kalendrar som du har skapat
+     Workfront skapar en kalender för dig baserat på de projekt, uppgifter och utgåvor som har tilldelats dig eller som har tilldelats team, grupper eller roller som du har tilldelats.
 
-  Mer information om hur du skapar kalendrar finns i [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+   * Kalendrar som du har skapat
 
-* Kalendrar som andra användare har delat med dig
+     Mer information om hur du skapar kalendrar finns i [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-  Mer information om att dela kalendrar finns i [[!UICONTROL Share a calendar]-rapporten](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   * Kalendrar som andra användare har delat med dig
+
+     Mer information om att dela kalendrar finns i [[!UICONTROL Share a calendar]-rapporten](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Villkorligt) Klicka på listrutan **[!UICONTROL View]** och välj sedan den kalendervaraktighet som du vill visa.
    ![Kalenderns varaktighet](assets/view-menu-calendar-report-350x189.png)
