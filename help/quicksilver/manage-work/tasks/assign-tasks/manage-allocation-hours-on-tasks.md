@@ -3,10 +3,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Hantera användar- och rollallokeringstimmar för uppgifter
 description: När du tilldelar användare eller roller till en uppgift, tilldelas de ett visst antal timmar för att slutföra uppgiften. Du kan manuellt ändra hur många timmar varje användare eller jobbroll tilldelas när de tilldelas till en uppgift när uppgiftens varaktighetstyp är Enkel.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
