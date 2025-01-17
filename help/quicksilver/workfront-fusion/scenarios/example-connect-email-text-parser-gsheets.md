@@ -2,19 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 'Exempel på ett Adobe Workfront Fusion-scenario: Koppla e-post, Textparser och Google Sheets'
-description: Med det här scenariot kan du skapa en logg över alla e-postmeddelanden och tagga dem för ytterligare åtgärder i ett kalkylblad. Den hämtar e-postinnehåll i två separata tabeller i ett kalkylblad med Reguljära uttryck (Regex) som sökmönster. Det första mönstret söker efter en fras och det andra söker efter samma fras och en e-postadress.
+title: 'Exempel på Adobe Workfront Fusion-scenarier: Koppla ihop e-post, Textparser och Google Sheets'
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
 
 # Exempel på [!DNL Adobe Workfront Fusion]-scenario: Anslut e-post, [!UICONTROL Text Parser] och [!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>Den här artikeln kommer att tas bort inom den närmaste framtiden.
 
 Med det här scenariot kan du skapa en logg över alla e-postmeddelanden och tagga dem för ytterligare åtgärder i ett kalkylblad. Den hämtar e-postinnehåll i två separata tabeller i ett kalkylblad med Reguljära uttryck (Regex) som sökmönster. Det första mönstret söker efter en fras och det andra söker efter samma fras och en e-postadress.
 

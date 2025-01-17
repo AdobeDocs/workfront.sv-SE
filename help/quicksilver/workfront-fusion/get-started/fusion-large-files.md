@@ -3,18 +3,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Arbeta med stora filer i Adobe Workfront Fusion
-description: Stöd för stora filer finns för närvarande för Workfront- och HTTP-anslutningar.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
 # Arbeta med stora filer i Adobe Workfront Fusion
+
+
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Arbeta med stora filer](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 >[!IMPORTANT]
 >

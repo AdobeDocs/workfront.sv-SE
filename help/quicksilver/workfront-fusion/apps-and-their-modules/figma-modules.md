@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Figma-moduler
-description: Med  [!DNL Adobe Workfront Fusion] Figma-modulen kan du hämta listor med kommentarer, filer, filversioner eller projekt. Du kan också publicera en kommentar eller ringa ett anrop till Figma API.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2069'
 ht-degree: 0%
 
 ---
 
 # [!DNL Figma] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Figma-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/figma-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Figma] kan du hämta listor med kommentarer, filer, filversioner eller projekt. Du kan också publicera en kommentar eller ringa ett anrop till [!DNL Figma]-API:t.
 

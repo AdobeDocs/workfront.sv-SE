@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Försök att hantera fel igen i  [!DNL Adobe Workfront Fusion]
-description: I vissa fall kan det vara bra att köra en felande modul ett par gånger om det finns en möjlighet att orsaken till felet kan passera över tiden.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
 
 # Försök igen med felhantering i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Konfigurera `retry` felhanteringslösning](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/retry.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I vissa fall kan det vara bra att köra en felande modul igen om det finns en möjlighet att orsaken till felet kan passera över tiden.
 

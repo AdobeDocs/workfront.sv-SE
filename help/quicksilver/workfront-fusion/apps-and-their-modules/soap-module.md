@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: SOAP
-description: Du kan använda modulen SOAP för att ansluta till SOAP API:er i Adobe Workfront Fusion.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # modulen [!UICONTROL SOAP]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [SOAP modul](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/soap-module.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Du kan använda modulen [!UICONTROL SOAP] för att ansluta till [!UICONTROL SOAP] API:er i [!UICONTROL Adobe Workfront Fusion].
 

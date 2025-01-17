@@ -5,13 +5,13 @@ product-area: workfront-integrations;agile-and-teams;user-management
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Google Team Drive-moduler
-description: Med modulerna  [!DNL Adobe Workfront Fusion Google Team Drive] kan du övervaka, överföra, uppdatera, kopiera, ta bort eller hämta filer och skapa mappar på din [!DNL Google Shared] enhet.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,18 @@ ht-degree: 0%
 # [!DNL Google Team Drive] moduler
 
 Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] kan du övervaka, överföra, uppdatera, kopiera, ta bort eller hämta filer och skapa mappar i [!DNL Google Shared Drive].
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Google Team Drive-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-team-drive-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Om du vill använda [!DNL Google Team Drive] med [!DNL Adobe Workfront Fusion] måste du ha ett [!DNL Google Workspace]-konto. Om du inte har något kan du skapa ett [!DNL Google Workspace]-konto på [[!DNL Google Workspace] registreringswebbplatsen](https://workspace.google.com/business/signup/welcome).
 

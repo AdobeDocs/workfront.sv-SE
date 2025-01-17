@@ -3,18 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Lägga till en användare i en organisation i Adobe Workfront Fusion
-description: Du kan lägga till användare i organisationer i Adobe Workfront Fusion.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
 
 # Lägga till en användare i en organisation eller ett team i Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Den här artikeln kommer att tas bort inom en snar framtid eftersom alla organisationer flyttas till Adobe Admin Console.
 
 >[!IMPORTANT]
 >

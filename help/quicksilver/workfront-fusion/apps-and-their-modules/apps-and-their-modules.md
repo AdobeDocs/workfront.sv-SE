@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: workfront-fusion-2-0
 title: Program och deras moduler
-description: Adobe Workfront Fusion erbjuder för närvarande dedikerade anslutningar för programmen i den här listan. Om det program du vill arbeta med inte finns med i listan kan du ansluta till det med hjälp av HTTP-, SOAP- eller JSON-modulerna.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
 # Program och deras moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Fusion-program och deras modulreferenser: artikelindex](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 >[!IMPORTANT]
 >

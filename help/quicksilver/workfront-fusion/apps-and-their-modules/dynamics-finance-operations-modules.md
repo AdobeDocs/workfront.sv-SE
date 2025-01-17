@@ -5,17 +5,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Microsoft Dynamics 365 - ekonomi- och driftmoduler
-description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder Microsoft Dynamics 365 Finance och Operations samt ansluta det till flera tredjepartsprogram och -tjänster.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 130437dd44db5db2a94914fb0e42fd35a7c14291
+exl-id: 19b00ee8-dc05-4cde-9a76-d857090fa543
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Dynamics 365 Finance and Operations modules]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Microsoft Dynamics 365 - ekonomi- och driftmoduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dynamics-finance-operations-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Microsoft Dynamics 365] samt ansluta det till flera tredjepartsprogram och -tjänster.
 

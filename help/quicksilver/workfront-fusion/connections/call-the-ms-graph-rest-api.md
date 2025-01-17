@@ -1,17 +1,29 @@
 ---
 title: Anropa MS Graph REST API via  [!DNL Adobe Workfront Fusion] HTTP &gt; Gör en OAuth 2.0-begärandemodul
-description: Anropa MS Graph REST API via  [!DNL Adobe Workfront Fusion] HTTP &gt; Gör en OAuth 2.0-begärandemodul
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 1%
+source-wordcount: '502'
+ht-degree: 0%
 
 ---
 
 # Anropa [!UICONTROL  MS Graph REST API] via modulen [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Anropa MS Graph REST API](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/call-the-ms-graph-rest-api.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 <!-- Audited: 3/2024-->
 

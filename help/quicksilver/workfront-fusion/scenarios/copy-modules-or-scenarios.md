@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Kopiera moduler eller scenarier i  [!DNL Adobe Workfront Fusion]
-description: Kopiera moduler eller scenarier i  [!DNL Adobe Workfront Fusion]
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 24e77a56-d676-4cf1-a801-1c328ffd0c4e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # Kopiera moduler eller scenarier i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Kopiera moduler eller scenarier](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/copy-modules-or-scenarios.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Du kan kopiera moduler, grupper av moduler eller hela scenarier i [!DNL Adobe Workfront Fusion]. Med den här funktionen kan du återanvända scenarier eller delar av scenarier utan att behöva skapa dem igen
 

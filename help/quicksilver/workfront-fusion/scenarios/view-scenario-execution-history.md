@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Visa ett scenario i Adobe Workfront Fusion
-description: Du kan visa information om alla körningar för ett scenario eller söka efter specifika data i alla körningar i scenariot.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
 # Visa ett scenario i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Visa körningshistorik för ett scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-scenario-execution-history.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Du kan visa information om händelser eller körningar i ett scenario eller söka efter specifika data i alla körningar i scenariot.
 

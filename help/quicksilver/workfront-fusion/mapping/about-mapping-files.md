@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Om att mappa filer i  [!DNL Adobe Workfront Fusion]
-description: Vissa moduler kan bearbeta filer. Dessa moduler kan antingen returnera en utdatafil som ska skickas för vidare bearbetning eller kräva att en fil skickas till dem för bearbetning. Innan dessa moduler kan användas tillsammans för att bearbeta filer måste de mappas till varandra.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9ed5f176-86d8-4139-b582-c2f58aaed8d4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Om att mappa filer i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Mappa en fil mellan moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-files.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Vissa moduler kan bearbeta filer. Dessa moduler kan antingen returnera en utdatafil som ska skickas för vidare bearbetning eller kräva att en fil skickas till dem för bearbetning. Innan dessa moduler kan användas tillsammans för att bearbeta filer måste de mappas till varandra.
 

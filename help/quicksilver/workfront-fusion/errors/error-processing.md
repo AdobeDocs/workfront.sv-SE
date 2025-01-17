@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Fel vid bearbetning i  [!DNL Adobe Workfront Fusion]
-description: Ibland kan ett fel inträffa när ett scenario körs. Detta händer vanligtvis om en tjänst inte är tillgänglig på grund av ett fel med anslutningen till en tjänst eller om en validering misslyckas. I den här artikeln beskrivs de vanligaste felen som kan uppstå.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
 
 # Fel vid bearbetning i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Feltyper](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/error-processing.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Ibland kan ett fel inträffa när ett scenario körs. Detta händer vanligtvis om en tjänst inte är tillgänglig på grund av ett fel med anslutningen till en tjänst eller om en validering misslyckas. I den här artikeln beskrivs de vanligaste felen som kan uppstå.
 

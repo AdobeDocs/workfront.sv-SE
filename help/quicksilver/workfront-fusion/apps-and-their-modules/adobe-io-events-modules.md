@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Adobe I/O Events-moduler
-description: Med Adobe I/O Events-modulen kan du starta ett Adobe Workfront Fusion-scenario baserat på händelser i dina Adobe-program.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Adobe I/O Events-moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Adobe I/O Events-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-io-events-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med Adobe I/O Events-modulen kan du starta ett Adobe Workfront Fusion-scenario baserat på händelser i Adobe-konton och -tjänster som inte har någon särskild Workfront Fusion-anslutning.
 

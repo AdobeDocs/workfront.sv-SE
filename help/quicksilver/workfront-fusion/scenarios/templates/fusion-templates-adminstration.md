@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Administrera Adobe Workfront Fusion Templates
-description: Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra de här åtgärderna från sidan [!UICONTROL Templates] i området  [!DNL Adobe Workfront Fusion Administration] .
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
+source-git-commit: 8163f9f12bb27bbc8adfde34fc1e1f0f8c8be7f9
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
 # Administrering av [!DNL Adobe Workfront Fusion] mallar
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artiklarna:
+>
+>* [Godkänn eller avböj mallar för fliken Offentligt](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [Redigera mallar](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra dessa åtgärder från sidan [!UICONTROL Templates] i området [!DNL Adobe Workfront Fusion Administration].
 

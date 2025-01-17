@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Anslut [!DNL Adobe Workfront Fusion] till en webbtjänst som använder API-tokenauktorisering
-description: Vissa tjänster tillåter inte integreringslösningar som  [!DNL Adobe Workfront Fusion]  för att skapa en app som du enkelt kan använda i ditt scenario.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
 
 # Anslut [!DNL Adobe Workfront Fusion] till en webbtjänst som använder API-tokenauktorisering
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Anslut Adobe Workfront Fusion till en webbtjänst som använder API-tokenauktorisering](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Vissa tjänster tillåter inte integreringslösningar som [!DNL Adobe Workfront Fusion] att skapa en app som du enkelt kan använda i ditt scenario.
 

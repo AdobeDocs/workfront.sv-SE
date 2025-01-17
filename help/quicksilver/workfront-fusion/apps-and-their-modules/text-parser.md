@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Textparser
-description: Du kan använda textanalysverktyget för att tolka text som ska användas i andra  [!DNL Adobe Workfront Fusion] scenariomoduler. Textparsern kräver ingen anslutning.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Text parser]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Textparser](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/text-parser.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Du kan använda [!UICONTROL Text parser tool] för att tolka text för användning i andra [!DNL Adobe Workfront Fusion] scenariomoduler. [!UICONTROL Text parser] kräver ingen anslutning.
 

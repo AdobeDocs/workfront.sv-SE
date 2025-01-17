@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: connections-annd-webhooks
 title: Skapa en anslutning till  [!DNL Adobe Workfront Fusion]  - grundläggande instruktioner
-description: Många [!DNL Adobe Workfront Fusion] anslutningar kräver ingen anpassad konfiguration när en anslutning skapas. I den här artikeln beskrivs standardprocessen för att skapa anslutningar.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Skapa en anslutning - grundläggande instruktioner](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-fusion-general.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 ## Åtkomstkrav
 

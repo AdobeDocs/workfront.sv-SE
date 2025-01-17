@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Skapa ett scenario för praktikintegrering i Adobe Workfront Fusion
-description: I den här artikeln beskrivs hur du skapar ett integreringsscenario med Adobe Workfront Fusion. Integreringsscenarier kopplar samman olika appar så att data kan flöda genom olika program.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2062'
 ht-degree: 0%
 
 ---
 
 # Skapa ett scenario för praktikintegrering i Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Arbetsflöde för att skapa ett scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I den här artikeln beskrivs hur du skapar ett integreringsscenario med Adobe Workfront Fusion. Integreringsscenarier kopplar samman olika appar så att data kan flöda genom olika program.
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: XML
-description: Med XML-appen kan du tolka en XML-formaterad text via XML-modulen &gt; Tolka XML och konvertera den till ett paket för att göra data tillgängliga för andra moduler. Du kan också konvertera ett paket till en XML-formaterad text via XML-&stämpeln;gt; Skapa XML-modul
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3459e930-8156-4171-8920-34f4e07bc530
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1310'
 ht-degree: 1%
 
 ---
 
 # XML
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [XML](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/xml-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med appen [!UICONTROL XML] kan du analysera en XML-formaterad text via modulen [!UICONTROL XML] > [!UICONTROL Parse XML] och konvertera den till ett paket för att göra data tillgängliga för andra moduler. Du kan också konvertera ett paket till en XML-formaterad text via modulen [!UICONTROL XML] > [!UICONTROL Create XML]
 

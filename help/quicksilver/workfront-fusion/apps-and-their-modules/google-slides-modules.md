@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Google Presentationsmoduler
-description: Med Adobe Workfront Fusion Google Presentations-modulerna kan du skapa, uppdatera, lista och/eller ta bort presentationer och ladda upp bilder till presentationer i ditt Google Presentationer.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Slides] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Moduler för Google-bilder](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-slides-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Google Slides] kan du skapa, uppdatera, lista och/eller ta bort presentationer och överföra bilder till presentationer i ditt [!DNL Google Slides]-konto.
 

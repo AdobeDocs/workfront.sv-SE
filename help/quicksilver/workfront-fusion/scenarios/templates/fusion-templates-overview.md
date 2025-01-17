@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Översikt över mallar i Adobe Workfront Fusion
-description: Med funktionen Workfront Fusion-mallar kan du skapa och använda befintliga mallar som utgångspunkt för dina [!DNL Workfront Fusion] scenarier.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Översikt över mallar för [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Visa, redigera och ta bort mallar](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med mallfunktionen [!DNL Workfront Fusion] kan du skapa och använda befintliga mallar som utgångspunkt för dina [!DNL Workfront Fusion]-scenarier. Mallar är vanliga användningsområden som du kan konfigurera och ändra för att tillgodose organisationens behov och specifika användningsfall.
 

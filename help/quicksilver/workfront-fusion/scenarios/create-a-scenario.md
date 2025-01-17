@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Skapa ett scenario i Adobe Workfront Fusion
-description: Följande uppgifter förklarar hur du skapar ett  [!DNL Adobe Workfront Fusion] scenario.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
 
 # Skapa ett scenario i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Arbetsflöde för att skapa ett scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Följande uppgifter förklarar hur du skapar ett [!DNL Adobe Workfront Fusion]-scenario.
 
@@ -57,7 +69,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
     <tr>  
       <td>Produkt</td>  
       <td> 
-        Nytt: Välj eller Prime Workfront-plan: Din organisation måste köpa Adobe Workfront Fusion.<br>
+        Nytt: Välj eller Prime Workfront Plan: Din organisation måste köpa Adobe Workfront Fusion.<br>
         Ultimate Workfront Plan: Workfront Fusion ingår.<br>
         Eller<br>
         Aktuell: Din organisation måste köpa Adobe Workfront Fusion.

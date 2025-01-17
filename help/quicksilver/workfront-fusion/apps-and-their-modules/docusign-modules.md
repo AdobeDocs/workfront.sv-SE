@@ -1,18 +1,30 @@
 ---
 title: DocuSign-moduler
-description: Med modulerna  [!DNL Adobe Workfront Fusion DocuSign] kan du övervaka och hämta kuvertstatus, söka efter och hämta kuvert eller hämta och skicka ett dokument för signering på ditt [!DNL DocuSign] konto.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
 
 # DocuSign-moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [DocuSign-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/docusign-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med modulerna [!DNL Adobe Workfront Fusion] [!DNL DocuSign] kan du övervaka och hämta kuvertstatus, söka efter och hämta kuvert eller hämta och skicka ett dokument för signering på ditt [!DNL DocuSign]-konto.
 

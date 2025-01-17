@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: http-modules
 title: HTTP&gt; Gör en begärandemodul
-description: Adobe Workfront Fusion HTTP&gt; Make a request module är en universell modul som gör att du kan konfigurera en HTTP-begäran och skicka den till en server. Det mottagna HTTP-svaret finns sedan i utdatapaketet.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7857c395-ce84-480e-8fa2-065035ac5b95
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL HTTP] >[!UICONTROL Make a request]-modul
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [HTTP >Gör en begärandemodul](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-request.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 >[!NOTE]
 >

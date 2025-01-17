@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Ta emot en webkrok från en webbtjänst
-description: Om en webbtjänst inte är implementerad som en app i  [!DNL Adobe Workfront Fusion], men den har stöd för att skicka webbhooks, kan du lägga till tjänsten i ett scenario med hjälp av den anpassade webbkrokmodulen som en direktutlösare.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1a67dbf-c245-4936-9dcc-3fdbfc6ee3b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Ta emot en webkrok från en webbtjänst
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Konfigurera en webkrok för en webbtjänst utan anslutning](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Om en webbtjänst inte är implementerad som en app i [!DNL Adobe Workfront Fusion], men den har stöd för att skicka webbhooks, kan du lägga till tjänsten i ett scenario med hjälp av den anpassade webbkrokmodulen som en direktutlösare.
 

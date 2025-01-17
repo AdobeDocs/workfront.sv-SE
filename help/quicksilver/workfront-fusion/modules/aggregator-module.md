@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Aggregator-modulen i Adobe Workfront Fusion
-description: En aggregeringsmodul är en typ av modul som utformats för att sammanfoga flera datapaket till ett enda paket.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Aggregator]-modulen i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Aggregatormodul](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/aggregator-module.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 En aggregeringsmodul är en typ av modul som utformats för att sammanfoga flera datapaket till ett enda paket.
 

@@ -3,18 +3,31 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Adobe Unified Experience for Workfront Fusion
-description: Genom att använda Workfront Fusion via Adobe Experience Cloud får du en smidig, enhetlig upplevelse för att hantera alla dina Adobe-applikationer.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] för [!DNL Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artiklarna:
+>
+>* [Ändra profilinställningar](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>* [Ange alternativ för teammeddelanden](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Om du får åtkomst till [!DNL Workfront Fusion] via [!DNL Adobe Experience Cloud] får du en smidig, enhetlig upplevelse för att hantera alla dina [!DNL Adobe]-program. Med en identitetshantering kan du logga in på ett och samma ställe, utan flera URL:er eller inloggnings-ID:n.
 
@@ -108,7 +121,7 @@ Du hittar dina meddelanden och meddelanden i meddelandeområdet i det enhetliga 
 
 Om du vill visa dina meddelanden klickar du på meddelandeikonen ![Notifications (Meddelanden)](assets/notifications-icon.png) i skärmens övre högra hörn. En röd punkt på meddelandeikonen anger att du har olästa meddelanden eller meddelanden.
 
-Instruktioner om hur du konfigurerar meddelanden i Adobe Experience Cloud finns i [Meddelandekonfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) i dokumentationen för Adobe.
+Instruktioner om hur du konfigurerar meddelanden i Adobe Experience Cloud finns i [Meddelandekonfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) i dokumentationen för Adobe.
 
 Observera följande vid konfiguration:
 

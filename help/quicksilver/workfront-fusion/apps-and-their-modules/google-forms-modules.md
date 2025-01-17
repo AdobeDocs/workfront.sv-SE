@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Google Forms
-description: Med modulerna  [!DNL Adobe Workfront Fusion Google Forms] kan du övervaka, välja, lägga till, uppdatera eller ta bort svar på din Google Forms.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Forms] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Google Forms-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-forms-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Google Forms] kan du övervaka, välja, lägga till, uppdatera eller ta bort svar på [!DNL Google Forms].
 
@@ -69,9 +81,9 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 
 Du måste ha ett [!DNL Google]-konto för att kunna använda [!DNL Google Forms]-moduler.
 
-## API-information för Google Forms
+## Google Forms API-information
 
-Google Forms-anslutningen använder följande:
+Google Forms Connector använder följande:
 
 <table style="table-layout:auto"> 
  <col> 

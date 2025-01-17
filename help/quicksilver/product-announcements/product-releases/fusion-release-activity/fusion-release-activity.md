@@ -9,16 +9,28 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 6470ea408bfd354707387f7916edb08b4879168c
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Översikt över publiceringsaktiviteten för Adobe Workfront Fusion
 
-Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlöst så att du kan koncentrera dig på nya uppgifter istället för att upprepa samma uppgifter om och om igen.
+
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Aktivitetsöversikt för Adobe Workfront Fusion ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Den här artikeln uppdateras inte längre och kommer att tas bort inom en nära framtid.Adobe Workfront Fusion kopplar ihop dina program och webbtjänster sömlöst så att du kan koncentrera dig på nya uppgifter i stället för att upprepa samma uppgifter om och om igen.
 
 Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 

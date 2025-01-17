@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: http-modules
 title: HTTP-&stämpel;gt; Skapa en modul för auktoriseringsbegäran för klientcertifikat
-description: Med den här  [!DNL Adobe Workfront Fusion] modulen kan du konfigurera en HTTP-begäran med HTTP-klientcertifikatautentisering och skicka den till en server. Det mottagna HTTP-svaret finns sedan i utdatapaketet.
+description: ADOBE WORKFRONT Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
 # HTTP >[!UICONTROL Make a Client Certificate Authorization request]-modul
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [HTTP > Gör en begäran om klientcertifikatautentisering](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-client-cert-auth-request.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 >[!NOTE]
 >

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: JSON-moduler
-description: Adobe Workfront Fusion JSON-appen innehåller moduler som bearbetar data i JSON-format så att Adobe Workfront Fusion kan arbeta vidare med datainnehållet eller skapa nytt JSON-innehåll.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL JSON] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [JSON-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/json-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Appen [!DNL Adobe Workfront Fusion] [!UICONTROL JSON] innehåller moduler som bearbetar data i JSON-format så att [!DNL Adobe Workfront Fusion] kan arbeta vidare med datainnehållet eller skapa nytt JSON-innehåll.
 
@@ -88,7 +100,7 @@ Om JSON-strängfältet innehåller en samling `{ ... }` är utdata ett enda pake
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +120,7 @@ Om JSON-strängfältet innehåller arrayen `[ ... ]` är utdata en serie paket. 
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -248,26 +260,25 @@ Den här åtgärdsmodulen omvandlar ett objekt till en json-sträng.
 >
 **Exempel:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Klicka på **[!UICONTROL Save]**. Fältet [!UICONTROL Specification] i datastrukturen innehåller nu den genererade strukturen.
 1. Ändra namnet på datastrukturen till något mer specifikt och klicka på **[!UICONTROL Save]**. Ett fält som motsvarar rotarrayattributet visas som ett mappningsbart fält i JSON-modulens inställningar.

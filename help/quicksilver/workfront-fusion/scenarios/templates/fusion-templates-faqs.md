@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion-mallar - frågor och svar
-description: I den här artikeln behandlas vanliga frågor om  [!DNL Adobe Workfront Fusion scenario] mallar.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] mallar, frågor och svar
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Adobe Workfront Fusion-mallar - frågor och svar](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/fusion-templates-faqs.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 ## Åtkomstkrav
 

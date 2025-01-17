@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Publish och dela [!DNL Adobe Workfront Fusion] mallar
-description: När du skapar en mall blir mallen tillgänglig för alla dina teammedlemmar. Om du vill dela mallen med någon utanför ditt team måste du först publicera den.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # Publish och dela [!DNL Adobe Workfront Fusion] mallar
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Publish och dela mallar](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/publish-and-share-fusion-templates.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 När du skapar en mall blir mallen tillgänglig för alla dina teammedlemmar. Om du vill dela mallen med någon utanför ditt team måste du först publicera den.
 

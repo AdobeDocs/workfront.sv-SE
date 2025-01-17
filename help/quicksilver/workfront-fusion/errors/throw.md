@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Felhantering av fel i Adobe Workfront Fusion
-description: I vissa fall kanske du vill stoppa scenariokörningen följt av återställnings- eller implementeringsfasen eller stoppa bearbetningen av en väg och eventuellt lagra den i kön för Visa och lösa ofullständiga körningar i Adobe Workfront Fusion.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Felhantering av utlösta fel i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Konfigurera `throw` fellösning](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/throw.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I vissa fall kanske du vill stoppa scenariokörningen följt av fasen [Återställning](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) eller [Verkställ](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) eller stoppa bearbetningen av en väg och eventuellt lagra den i kön med ofullständiga körningar.
 

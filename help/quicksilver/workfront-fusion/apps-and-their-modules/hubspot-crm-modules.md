@@ -1,17 +1,29 @@
 ---
 title: HubSpot CRM-moduler
-description: Med  [!DNL Adobe Workfront Fusion] HubSpot CRM-modulerna kan du övervaka händelser, poster, kontakter, ärenden, fil- och formuläröverföringar eller skapa, hämta, uppdatera och ta bort poster, kontakter, ärenden, händelser eller filer i ditt [!DNL HubSpot CRM] konto.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '5654'
+source-wordcount: '5697'
 ht-degree: 0%
 
 ---
 
 # [!DNL HubSpot CRM] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [HubSpot CRM-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/hubspot-crm-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Modulerna [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] gör att du kan övervaka händelser, poster, kontakter, ärenden, fil- och formuläröverföringar eller skapa, hämta, uppdatera och ta bort poster, kontakter, ärenden, händelser eller filer i ditt [!DNL HubSpot CRM]-konto.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Video om Fusion Basics
-description: Video om Fusion Basics
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7ba95790-1255-4a3e-ba7b-8dc73001b583
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion - videoöversikt
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Videoöversikter](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/fusion-basics-videos.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Dessa videoklipp är tillgängliga för att hjälpa dig att bekanta dig med en del av funktionaliteten i Adobe Workfront Fusion.
 

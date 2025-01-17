@@ -3,18 +3,22 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Navigera i det nya användargränssnittet i Workfront Fusion
-description: Workfront Fusion har uppdaterat användargränssnittet för användare som inte har åtkomst till Fusion via Adobe Experience Cloud. Nu matchar deras upplevelse Fusion bättre på Adobe Experience Cloud.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Navigera i nya Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Den här artikeln kommer att tas bort inom den närmaste framtiden.
 
 Workfront Fusion har uppdaterats för användare som inte har tillgång till Fusion via Adobe Experience Cloud. Det nya användargränssnittet i Fusion ger en smidigare upplevelse med andra Adobe-produkter och underlättar övergången för dina användare till Adobe Experience Cloud.
 

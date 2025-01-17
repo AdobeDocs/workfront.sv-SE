@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud Libraries-moduler
-description: Med  [!DNL Adobe Workfront Fusion Adobe Creative Cloud] biblioteksmodulerna kan du starta ett scenario när ett element eller bibliotek skapas eller uppdateras. Du kan också överföra, hämta, arkivera eller lista element, eller ringa ett anrop till  [!DNL Adobe Creative Cloud Libraries] API:t.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
 
 # Moduler för Adobe Creative Cloud Libraries
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Moduler för Adobe Creative Cloud Libraries](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/creative-cloud-libraries-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] kan du starta ett scenario när ett element eller bibliotek skapas eller uppdateras. Du kan också överföra, hämta, arkivera eller lista element, eller ringa ett anrop till [!DNL Adobe Creative Cloud Libraries]-API:t.
 

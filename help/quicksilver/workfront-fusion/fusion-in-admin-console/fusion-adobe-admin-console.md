@@ -4,18 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: fusion-in-admin-console
 title: Plattformsbaserade administrationsskillnader (Adobe Workfront Fusion/Adobe Business Platform)
-description: Som Adobe Workfront Fusion-administratör skiljer sig dina administrativa ansvar och procedurer åt beroende på om din organisation har anslutit sig till Adobe Business Platform eller inte. I den här artikeln listas de procedurer som måste hanteras på olika sätt och länkar till instruktioner för processer i både Workfront Fusion och Adobe Admin Console.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # Plattformsbaserade administrationsskillnader ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Admin Console])
+
+>[!IMPORTANT]
+>
+>Den här artikeln kommer att tas bort inom en snar framtid eftersom alla organisationer flyttas till Adobe Admin Console.
 
 Om din organisation har anslutit sig till [!DNL Adobe Admin Console] använder dina användare [!DNL Adobe Admin Console] för att få åtkomst till [!DNL Adobe Workfront Fusion]. Detta innebär att
 

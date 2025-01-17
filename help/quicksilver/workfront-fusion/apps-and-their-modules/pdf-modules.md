@@ -1,18 +1,30 @@
 ---
 title: Adobe PDF Services
-description: Adobe PDF Services
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3312'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe PDF Services]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Adobe PDF-tjänster](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/pdf-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services] kan du extrahera data från en PDF-fil eller generera en ny PDF-fil från data som du anger. Dessutom kan du konvertera en mängd olika filtyper till PDF eller PDF till andra filtyper. Med PDF Services kan du även kombinera, komprimera och läsa metadata för en PDF-fil samt styra lösenordsskyddet för filen.
 

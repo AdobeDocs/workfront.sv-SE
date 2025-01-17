@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: HTTP-förfrågningsmetoder i  [!DNL Adobe Workfront Fusion]
-description: När du konfigurerar ett API-anrop i en modul måste du fylla i fältet för metoden för HTTP-begäran.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
 # HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [HTTP-förfrågningsmetoder](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/http-request-methods.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 När du konfigurerar ett API-anrop i en modul måste du fylla i fältet för metoden för HTTP-begäran.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenariokörning, cykler och faser i  [!DNL Adobe Workfront Fusion]
-description: I den här artikeln beskrivs händelser som inträffar när ett  [!DNL Adobe Workfront Fusion] scenario körs, till exempel initiering, åtgärder, implementeringar och återställningar.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
 # Scenariokörning, cykler och faser i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Scenariokörning, cykler och faser](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-cycles-phases.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 [!DNL Adobe Workfront Fusion] är ett transaktionssystem som liknar relationsdatabaser. Varje scenariokörning börjar med initieringsfasen, fortsätter med minst en cykel bestående av operations- och implementerings-/återställningsfaserna och avslutas med slutförandefasen:
 

@@ -4,21 +4,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Fel i Adobe Workfront Fusion
-description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 4ce5ccc67a1f9cb32e07d956746a7d0d7c7ccbe1
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
 # Fel i Adobe Workfront Fusion
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artiklarna:
+>
+>* [Konfigurera felhantering: artikelindex](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/config-error-handling-toc.html)
+>* [Felreferenser: artikelindex](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/errors-toc.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 >
 >[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront license].
 

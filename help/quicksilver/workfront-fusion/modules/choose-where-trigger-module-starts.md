@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Välja var en utlösarmodul ska börja i Adobe Workfront Fusion
-description: Vissa utlösarmoduler låter dig välja det första paket från vilket du vill att hämtningen av paket ska starta.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Välj var en utlösarmodul ska börja i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Välj var en utlösarmodul ska starta](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/choose-where-trigger-module-starts.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Vissa utlösarmoduler låter dig välja det första paket från vilket du vill att hämtningen av paket ska starta.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Hantera låsta scenarier i  [!DNL Adobe Workfront Fusion]
-description: Hantera låsta scenarier i  [!DNL Adobe Workfront Fusion]
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Hantera låsta scenarier i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Hantera låsta scenarier](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-manage-locked-scenario.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I vissa fall kan ett scenario vara tillfälligt låst i [!DNL Workfront Fusion]. Låsta körningar låses upp automatiskt inom 2-4 timmar. Du kan även låsa upp scenarier manuellt.
 

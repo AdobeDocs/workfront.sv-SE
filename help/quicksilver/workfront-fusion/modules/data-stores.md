@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Datalager i  [!DNL Adobe Workfront Fusion]
-description: Ett datalager, som liknar en databas eller en enkel tabell, kan lagra data från scenarier, vilket gör det möjligt att överföra data mellan enskilda scenarier eller scenariokörningar. Du kan använda ett datalager för att lagra nya data från olika system under synkroniseringen.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 00a969175626d27b70d516921097725fdf818799
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
 # Datalager i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Skapa och hantera datalager](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Ett datalager, som liknar en databas eller en enkel tabell, kan lagra data från scenarier, vilket gör det möjligt att överföra data mellan enskilda scenarier eller scenariokörningar. Du kan använda ett datalager för att lagra nya data från olika system under synkroniseringen.
 
@@ -80,7 +92,7 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 
 Om din organisation använder den nya Workfront-planmodellen (Select-, Prime- och Ultimate-paket) påverkar din organisations plan storleken och antalet datalager som är tillgängliga i Fusion-instansen.
 
-### Ultimat plan
+### Ultimate
 
 Fusion-instanser i Ultimate-paketet tar emot:
 
@@ -89,7 +101,7 @@ Fusion-instanser i Ultimate-paketet tar emot:
 
 ### Select- och Prime-planer
 
-Fusion-instanser på Select- eller Prime-paketen tar emot:—>
+Fusion-instanser på Select- eller Prime-paket tar emot:—>
 
 * 100 MB för de första 500 kB-åtgärderna.
 

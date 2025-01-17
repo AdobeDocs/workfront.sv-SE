@@ -4,13 +4,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Webhooks
-description: En webkrok är ett HTTP-anrop som aktiveras av en händelse. Du kan använda webhooks för att aktivera snabbutlösarmoduler. Alla program som är anslutna till Internet och som tillåter HTTP-begäranden kan skicka webbböcker till Adobe Workfront Fusion.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,19 @@ ht-degree: 0%
 # Webhooks
 
 
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artiklarna:
+>
+>* [Webhooks](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/webhooks-updated.html)
+>* [Konfigurera en webkrok för en webbtjänst utan anslutning](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 <!--This information moved to the webhooks article in the create scenarios folders in the new repo-->
 

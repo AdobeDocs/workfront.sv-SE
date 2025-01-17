@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Arkivera moduler
-description: I ett [!DNL Adobe Workfront Fusion] scenario kan du ansluta ett arkiv, till exempel en zippad fil, till flera tredjepartsprogram och -tjänster. Du kan till exempel konfigurera ett scenario som
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Archive] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Arkivera moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/archive-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I ett [!DNL Adobe Workfront Fusion]-scenario kan du använda ett arkiv, t.ex. en zippad fil, i ditt scenario, så att du kan använda det i dina automatiseringar eller integreringar.
 

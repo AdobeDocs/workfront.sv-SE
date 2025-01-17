@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Mappa objekt med funktioner i  [!DNL Adobe Workfront Fusion]
-description: När du mappar objekt kan du använda funktioner för att skapa enkla eller komplexa formler.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Mappa objekt med funktioner i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Mappa ett objekt med funktioner](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-using-functions.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 När du mappar objekt kan du använda funktioner för att skapa enkla eller komplexa formler. De funktioner som är tillgängliga i [!DNL Adobe Workfront Fusion] liknar funktioner i Excel och i vissa programmeringsspråk:
 

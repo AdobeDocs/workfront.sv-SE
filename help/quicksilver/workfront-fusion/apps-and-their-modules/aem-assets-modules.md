@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets moduler
-description: Med  [!DNL Adobe Experience Manager Assets] connector for [!DNL Adobe Workfront Fusion] kan du skapa, överföra och uppdatera resurser samt kopiera eller flytta mappar och resurser.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Adobe Experience Manager Assets-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-assets-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med [!DNL Adobe Experience Manager Assets]-kopplingen för [!DNL Adobe Workfront Fusion] kan du skapa, överföra och uppdatera resurser samt kopiera eller flytta mappar och resurser.
 

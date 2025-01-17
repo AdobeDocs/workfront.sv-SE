@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Organisationsroller i  [!DNL Adobe Workfront Fusion]
-description: Den här artikeln innehåller information om åtkomst och behörigheter för rollerna i  [!DNL Adobe] Workfront Fusion.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Organisations- och teamroller i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Organisations- och teamroller](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/licenses-and-roles/organization-roles.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I den här artikeln beskrivs åtkomst och funktionalitet som är tillgängliga för de olika team- och organisationsrollerna i [!DNL Workfront Fusion].
 

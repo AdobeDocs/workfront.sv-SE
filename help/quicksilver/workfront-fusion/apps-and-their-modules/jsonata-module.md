@@ -1,16 +1,29 @@
 ---
 title: JSONata-moduler
-description: Adobe Workfront Fusion JSONata-kontakten innehåller en modul som bearbetar data i JSON-format så att Adobe Workfront Fusion kan arbeta vidare med datainnehållet.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b7a6ecd9089c3a5517c56b849b860d57a900dade
+exl-id: 5fd835a2-04cd-427c-a99f-985a99ecef0d
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL JSONata] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [JSONata-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/jsonata-module.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med [!DNL Adobe Workfront Fusion] [!UICONTROL JSONata]-kopplingen kan du fråga JSON-objekt. Den här modulen kräver ingen anslutning.
 

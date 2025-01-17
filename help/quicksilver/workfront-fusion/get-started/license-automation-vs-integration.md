@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion-licenser
-description: Adobe Workfront Fusion har två olika licenser som avgör vilken funktionalitet du har tillgång till. Din organisation valde en av dessa licenser när den köpte Workfront Fusion.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 1b90566477eb57b97f3484ed7f0eeed5c88c495f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] licenser
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 [!DNL Workfront Fusion] har två licensieringsmodeller, en ny operationsbaserad modell och en äldre anslutningsbaserad modell.
 
@@ -23,7 +35,7 @@ ht-degree: 0%
 
 Den nya licensieringsmodellen för [!DNL Workfront Fusion] baseras på antalet åtgärder som din organisation använder. I den här modellen har alla organisationer tillgång till samma funktioner.
 
-Om din organisation har en Workfront Ultimate-plan ingår din Fusion-instans i din plan och du får ett obegränsat antal Fusion-åtgärder per månad. Om din organisation har en Workfront Prime- eller Select-plan kan Fusion köpas och priset baseras på antalet åtgärder som utförs under en månad.
+Om din organisation har en Workfront Ultimate-plan ingår din Fusion-instans i din plan och du kan använda ett obegränsat antal Fusion-operationer per månad. Om din organisation har en Workfront Prime- eller Select-plan kan Fusion köpas och priset baseras på antalet åtgärder som utförs under en månad.
 
 Mer information om vad som räknas som en åtgärd under den nya licensieringsmodellen finns i [Åtgärder i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
 

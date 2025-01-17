@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Skapa ett scenario för övningsautomatisering i  [!DNL Adobe Workfront Fusion]
-description: I den här artikeln beskrivs hur du skapar ett automatiseringsscenario med Adobe Workfront Fusion. Automatiseringsscenarier automatiserar Workfront-processer, inklusive datamanipulering och -omvandling. Det här exemplet tar dig genom processen att skapa ett scenario som söker efter ett projekt och sedan returnerar alla uppgifter som är kopplade till det projektet.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
 
 # Skapa ett scenario för övningsautomatisering i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Arbetsflöde för att skapa ett scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Automatiseringsscenarier automatiserar Workfront-processer, inklusive datamanipulering och -omvandling. I den här artikeln beskrivs hur du skapar ett scenario som söker efter ett projekt och sedan returnerar alla uppgifter som är kopplade till det projektet.
 
@@ -56,7 +68,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
     <tr>  
       <td>Produkt</td>  
       <td> 
-        Nytt: Välj eller Prime Workfront-plan: Din organisation måste köpa Adobe Workfront Fusion.<br>
+        Nytt: Välj eller Prime Workfront Plan: Din organisation måste köpa Adobe Workfront Fusion.<br>
         Ultimate Workfront Plan: Workfront Fusion ingår.<br>
         Eller<br>
         Aktuell: Din organisation måste köpa Adobe Workfront Fusion.

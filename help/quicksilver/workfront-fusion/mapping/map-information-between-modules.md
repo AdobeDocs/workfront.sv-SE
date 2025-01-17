@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Mappa information från en modul till en annan i  [!DNL Adobe Workfront Fusion]
-description: Mappning är processen att tilldela en moduls utdata, strukturerade till objekt, till en annan moduls indatafält.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
 
 # Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Mappa information från en modul till en annan](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-data-from-one-to-another.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Mappning är processen att tilldela en moduls utdata, strukturerade till objekt, till en annan moduls indatafält.
 

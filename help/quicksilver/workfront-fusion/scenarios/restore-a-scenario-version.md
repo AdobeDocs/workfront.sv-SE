@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Återställ en scenarioversion i  [!DNL Adobe Workfront Fusion]
-description: Du kan återställa en tidigare version av ett scenario. På så sätt kan du göra ändringar i ett scenario och sedan enkelt återställa dessa ändringar om du föredrar den tidigare funktionen.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8885fe4e-a9ae-4cfa-895f-68a2f8228034
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
 # Återställ en scenarioversion i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Återställ en scenarioversion](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/restore-a-scenario-version.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 ## Åtkomstkrav
 

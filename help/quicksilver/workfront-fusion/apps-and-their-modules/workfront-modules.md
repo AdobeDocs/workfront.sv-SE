@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront moduler
-description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten för att automatisera processerna i Workfront. Om du har en Workfront Fusion for Work Automation- och Integration-licens kan du också använda den för att ansluta till program och tjänster från tredje part.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '6299'
+source-wordcount: '6333'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Adobe Workfront-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Du kan använda [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront]-anslutningen för att automatisera dina processer i [!DNL Workfront]. Om du har en [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]-licens kan du även använda den för att ansluta till appar och tjänster från tredje part.
 

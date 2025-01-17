@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Körningsflöde för scenarier i Adobe Workfront Fusion
-description: I den här artikeln beskrivs hur ett scenario körs och hur data flödar genom det. Där förklaras också var du kan hitta information om bearbetade data och hur du läser dem.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Scenariokörningsflöde i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Körningsflöde för scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I den här artikeln beskrivs hur ett scenario körs och hur data flödar genom det. Där förklaras också var du kan hitta information om bearbetade data och hur du läser dem.
 

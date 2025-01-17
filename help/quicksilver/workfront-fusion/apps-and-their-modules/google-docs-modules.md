@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Google Docs-moduler
-description: Med Adobe Workfront Fusion [!DNL Google Docs] -modulerna kan du övervaka, skapa, redigera och hämta dokument i dina [!DNL Google Docs] och [!DNL Google Docs] (för [!DNL Google Workspace] användare).
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3396'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Docs] moduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Google Docs-moduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-docs-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Google Docs] kan du övervaka, skapa, redigera och hämta dokument i dina [!DNL Google Docs]- och [!DNL Google Docs]-dokument (för [!DNL Google Workspace] användare).
 
@@ -69,7 +81,7 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 
 Du måste ha ett Google-konto för att kunna använda [!DNL Google Docs]-moduler.
 
-## API-information för Google Docs
+## Google Docs API-information
 
 Google Docs Connector använder följande:
 

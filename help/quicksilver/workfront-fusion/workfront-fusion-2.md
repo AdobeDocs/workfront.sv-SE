@@ -4,25 +4,37 @@ product-area: workfront-integrations
 keywords: fusion
 navigation-topic: workfront-fusion-navigation-topic
 title: Adobe Workfront Fusion
-description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Workfront Fusion-dokumentation](https://experienceleague.adobe.com/docs/workfront-fusion/using/home.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
+
 >[!NOTE]
 >
 >[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront]-licens.
 
-Utbildningsmaterial om [!DNL Adobe Workfront Fusion] finns i [Workfront Fusion - översikt](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html?lang=en).
+Utbildningsmaterial om [!DNL Adobe Workfront Fusion] finns i [Workfront Fusion - översikt](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html).
 
 Mer information om de senaste förbättringarna av Workfront Fusion finns i [[!DNL Adobe Workfront Fusion] versionsaktivitet](../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 

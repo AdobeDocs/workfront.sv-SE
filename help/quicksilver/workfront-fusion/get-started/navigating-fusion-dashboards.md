@@ -3,17 +3,29 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Navigera i kontrollpaneler i Workfront Fusion
-description: Läs mer om paneler i Workfront Fusion
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 9f7597103e06f3f273dc400440ffa5db6742427b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
 # Navigera i kontrollpaneler i Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Navigera i Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/navigate-workfront-fusion.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 När du loggar in på Workfront Fusion dirigeras du till din organisations kontrollpanel. Därifrån kan du navigera till olika delar av Fusion genom att klicka på områdena i den vänstra navigeringen.
 

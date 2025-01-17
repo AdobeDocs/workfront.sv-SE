@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: E-postmoduler
-description: I ett [!DNL Adobe Workfront Fusion] scenario kan du ansluta ditt e-postkonto till flera tredjepartsprogram och -tjänster. På så sätt kan du hämta e-postmeddelanden via IMAP, skicka e-postmeddelanden via SMTP, skapa nya utkast, flytta och kopiera e-postmeddelanden från en mapp till en annan, markera e-postmeddelanden som lästa eller olästa samt ta bort e-post.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2129'
 ht-degree: 0%
 
 ---
 
 # E-postmoduler
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [E-postmoduler](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/email-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 I ett [!DNL Adobe Workfront Fusion]-scenario kan du ansluta ditt e-postkonto till flera tredjepartsprogram och -tjänster. På så sätt kan du hämta e-post via IMAP, skicka e-postmeddelanden via SMTP, skapa nya utkast, flytta och kopiera e-postmeddelanden från en mapp till en annan, markera e-postmeddelanden som lästa eller olästa samt ta bort e-postmeddelanden.
 

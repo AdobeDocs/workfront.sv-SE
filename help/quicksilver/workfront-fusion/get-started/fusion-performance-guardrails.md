@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: scenario,prestanda
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion - prestandaräknare
-description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] prestandaräkrar
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Adobe Workfront Fusion - prestandaskydd](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-performance-guardrails.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 >[!NOTE]
 >
@@ -50,7 +62,7 @@ Automatisering av arbete kräver snabb bearbetning, så [!DNL Adobe Workfront Fu
 ## Filer
 
 * Fusions totala bearbetningskapacitet för filer är **1 GB**. Gränsen baseras på en total minneskostnad. Alla operationer bidrar till den kostnaden. Om en fil på 400 MB laddas ned och överförs blir den totala kostnaden för filkapaciteten 800 MB.
-* Organisationer som har Workfront Ultimate-planen har tillgång till mer än 1 GB filbearbetning. Fusion-plattformen har stöd för enskilda filer upp till 15 GB för en enda åtgärd (t.ex. överföringsfil), men det finns andra faktorer som påverkar dataöverföringen. Storleksgränsen för en åtgärd beror på hur web service Fusion ansluts till. Dataöverföring är den totala bearbetningen för en enskild körning. Detta innebär att flera åtgärder i en enda körning bidrar till den totala dataöverföringen. Fusion bearbetar filer tills körningsgränsen på 40 minuter är nådd.
+* Organisationer som har Workfront Ultimate-plan har tillgång till mer än 1 GB filbearbetning. Fusion-plattformen har stöd för enskilda filer upp till 15 GB för en enda åtgärd (t.ex. överföringsfil), men det finns andra faktorer som påverkar dataöverföringen. Storleksgränsen för en åtgärd beror på hur web service Fusion ansluts till. Dataöverföring är den totala bearbetningen för en enskild körning. Detta innebär att flera åtgärder i en enda körning bidrar till den totala dataöverföringen. Fusion bearbetar filer tills körningsgränsen på 40 minuter är nådd.
 
   Mer information finns i [Arbeta med stora filer i Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md).
 

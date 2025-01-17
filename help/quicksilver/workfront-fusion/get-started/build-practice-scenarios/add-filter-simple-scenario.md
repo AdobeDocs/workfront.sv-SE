@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Lägga till ett filter i ett grundscenario
-description: Med filter kan du kontrollera att ditt scenario bara utvecklas om vissa villkor uppfylls.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: b43355ed-9329-4080-8e61-7177eb580994
-source-git-commit: 1a405d38968922388589ddb3f2979b4e59cd50b8
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
 # Lägg till ett filter i ett grundläggande scenario i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Lägg till ett filter i ett grundscenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-filter-basic-scenario.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med filter kan du kontrollera att ditt scenario bara utvecklas om vissa villkor uppfylls.
 

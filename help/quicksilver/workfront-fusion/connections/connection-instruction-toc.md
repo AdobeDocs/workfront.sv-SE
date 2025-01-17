@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: connections-annd-webhooks
 title: Skapa anslutningar i  [!DNL Adobe Workfront Fusion]
-description: En anslutning måste uppfylla de krav som anges i API:t för det program eller den webbtjänst den ansluter till. Instruktionerna för hur du konfigurerar en anslutning varierar därför beroende på programmet eller webbtjänsten. Den här artikeln kan hjälpa dig att identifiera och hitta instruktionerna för att ansluta [!DNL Adobe Workfront Fusion] till den app eller webbtjänst du valt.
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # Skapa anslutningar i [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Anslut till program: artikelindex](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-apps-toc.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 <!-- Audited: 3/2024-->
 

@@ -1,18 +1,30 @@
 ---
 title: Krypterare
-description: Med Adobe Workfront Fusion Encryptor-modulerna kan du kryptera alla textdata. De stöder för närvarande meddelandekryptering via AES256 och PGP (OpenPGP).
+description: Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats. Den här artikeln har tagits bort, men innehåller en länk till den nya artikeln som innehåller den här funktionen.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 9664c4f1-6467-45c9-8b9e-5a41d0e9ccb9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
 # Krypterare
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion-dokumentationen har flyttats till en ny plats.
+>
+>Informationen i den här artikeln finns nu i artikeln:
+>
+>* [Kryptor](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/encryptor-modules.html)
+>
+>Uppdatera eventuella bokmärken.
+>
+>Artikeln uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
 Med modulerna [!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] kan du kryptera textdata. De stöder för närvarande meddelandekryptering via AES256 och PGP ([!UICONTROL OpenPGP]).
 
