@@ -99,7 +99,7 @@ Salesforce Connector använder följande:
  <tbody> 
   <tr> 
    <td role="rowheader">Bas-URL</td> 
-   <td> {{connection.instanceUrl}}</td>
+   <td> &lbrace;&lbrace;connection.instanceUrl&rbrace;&rbrace;</td>
   </tr> 
   <tr> 
    <td role="rowheader">API-version</td> 

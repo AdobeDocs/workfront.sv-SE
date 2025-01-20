@@ -89,7 +89,7 @@ Qualtrics-kopplingen använder följande:
  <tbody> 
   <tr> 
    <td role="rowheader">Bas-URL</td> 
-   <td> https://{{connection.dataCenterCode}}.qualtrics.com/API/v3 </td> 
+   <td> https://&lbrace;&lbrace;connection.dataCenterCode&rbrace;&rbrace;.qualtrics.com/API/v3 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API-version</td> 
