@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -44,15 +44,6 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ## Rapporter och kontrollpaneler
 
-### Textläge för filter och grupperingar
-
-**Förhandsversion: 9 januari 2025; Produktionsversion: från 9 januari 2025**
-
-Vi har lagt till en ny knapp för att redigera textläge och spärra/knip i följande områden:
-
-* Äldre filter
-* Grupperingar
-
 ### Uppdaterade godkännanderapporter med ny formatering
 
 **Förhandsversion: 16 januari 2025; Produktionsversion: TBD**
@@ -64,3 +55,12 @@ Gränssnittet i följande godkännanderapporter har uppdaterats:
 * Rapport om godkännandeprocess
 
 Dessa uppdateringar innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
+
+### Textläge för filter och grupperingar
+
+**Förhandsversion: 9 januari 2025; Produktionsversion: från 9 januari 2025**
+
+Vi har lagt till en ny knapp för att redigera textläge och spärra/knip i följande områden:
+
+* Äldre filter
+* Grupperingar

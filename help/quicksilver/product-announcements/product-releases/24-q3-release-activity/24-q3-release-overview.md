@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                         </ul>
-                    <p><i>Den här funktionen kommer att tas bort från förhandsgranskningen den 19 december 2024 och från produktionen med den snabba versionen den 25.1 (januari 2025).</i></p>
+                    <p><i>Den här funktionen har tagits bort från Förhandsgranska och snabb produktion.</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -314,7 +314,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                         </ul>
-                    <p><i>Den här funktionen kommer att tas bort från förhandsgranskningen den 19 december 2024 och från produktionen med den snabba versionen den 25.1 (januari 2025).</i></p>
+                    <p><i>Den här funktionen har tagits bort från Förhandsgranska och snabb produktion.</i></p>
                     </td>
                  </tr>
            </tbody>

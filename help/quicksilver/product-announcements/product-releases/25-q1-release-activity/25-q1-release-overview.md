@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2781'
 ht-degree: 0%
 
 ---
@@ -614,6 +614,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Uppdaterad kommentarsfunktion i widgeten Mentions i området Home och My Updates</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Vi uppdaterar kommentarsfunktionerna i widgeten Meningar i Hem och i avsnittet Meningar i området Mina uppdateringar. Nu finns samma upplevelse i uppdateringsområdet för de flesta Workfront-objekt även i widgeten Mentions och i avsnittet Mentions i Mina uppdateringar.</p>
         </td>
         <td>
