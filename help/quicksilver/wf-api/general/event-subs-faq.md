@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Kontakta Workfront support. Mer information om hur du kontaktar supporten finns 
 
 ## Vilka olika typer av autentisering kan jag använda med Workfront Event Subscriptions?
 
-Du kan använda vilken autentisering som helst som använder en innehavartoken. Fältet **authToken** för en prenumeration är en sträng som representerar en OAuth2-bearer-token som används för att autentisera med den URL som anges i fältet **url**. Teoretiskt kan detta tokenvärde vara vad som helst så länge målslutpunkten är medveten om hur kodningen ska hanteras, vilket är **utf-8**.
+Du kan använda vilken autentisering som helst som använder en innehavartoken. Fältet **authToken** för en prenumeration är en sträng som representerar en OAuth2-bearer-token som används för att autentisera med den URL som anges i fältet **url**. Teoretiskt kan detta tokenvärde vara vad som helst under 255 tecken så länge målslutpunkten är medveten om hur kodningen ska hanteras, som är **utf-8**.
 
 ## Hur länge ska det vara innan jag får min händelsenyttolast från Workfront Event Subscriptions?
 
