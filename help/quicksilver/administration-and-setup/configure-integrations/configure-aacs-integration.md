@@ -6,9 +6,9 @@ description: Du kan koppla ditt arbete till ditt innehåll i  [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -254,6 +254,8 @@ Följande arbetsflöden är tillgängliga i Adobe Experience Manager-integrering
 * [Publish-material som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Skapa länkade Adobe Experience Manager-mappar
+
+Du kan skapa upp till 100 länkade mappar per mappträd.
 
 1. Växla **[!UICONTROL Create Linked folder]** på.
 1. Ange ett namn för den länkade mapp som du skapar.

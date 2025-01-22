@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Godkännanden av nya dokument innebär en helt ny utformning av den befintliga g
 
 * Beslutsknappar för dokumentgodkännande är inte tillgängliga i korrekturläsaren. Beslut kan fattas i dokumentsammanfattningen, Workfront hemwidgetar eller på sidan Dokumentinformation.
 * Deltagare i dokumentgodkännande visas i dokumentsammanfattningen, inte på fliken för korrekturarbetsflöde.
-* Nya dokumentgodkännanden stöds inte i det aktuella rapportverktyget. Widgeten Alla godkännanden som finns på nya hempaneler och arbetsytor innehåller följande information om nya dokumentgodkännanden:
+* Nya dokumentgodkännanden stöds inte i det aktuella rapportverktyget.
+
+  Du kan gå med i den nya betaversionen av kontrollpaneler på arbetsytan för att [skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), eller så kan du använda widgeten Alla godkännanden som finns i den nya arbetsytans kontrollpanel med följande information om nya dokumentgodkännanden:
 
    * Godkännanden genom beslut
    * Genomsnittlig godkännandetid
