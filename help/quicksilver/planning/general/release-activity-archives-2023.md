@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2985'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Produktion: 21 december 2023
 >
 >Man måste köpa Adobe Workfront Fusion för att kunna bygga anslutningar med Adobe Workfront Planning.
 >
->Mer information finns i [Adobe Workfront Fusion - översikt](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Mer information finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunktionerna. Med den nya Fusion-anslutningen kan du
 
@@ -105,7 +105,7 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunkti
 
 * Utlösa ett scenario när en ändring görs i planeringsfunktionerna
 
-Mer information finns i [Planeringsmoduler för Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+Mer information finns i [Planeringsmoduler för Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Vecka 11 december 2023
 

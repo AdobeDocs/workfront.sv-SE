@@ -3,9 +3,9 @@ title: Dokumentation för [!DNL Adobe Workfront]
 description: Dokumentation för  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
 
 * [Första utgåvan, kvartal 2025, översikt](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [Fjärde kvartersversionen 2024 - översikt](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning First Quarter 2025 - versionsaktivitet](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 >[!TAB 2025-utgåvor]
@@ -37,7 +37,7 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
 * [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fjärde kvartersversionen 2024 - översikt](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Versionsaktivitet för Adobe Workfront Planning Four Quarter 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB Betas]
@@ -65,7 +65,7 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Kom igång med Workfront Administration</a></li>
-    <li><a href="/help/quicksilver/workfront-fusion/get-started/get-started.md">Kom igång med Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Kom igång med Workfront Fusion</li>
     </ul>
  </td>
     <td>

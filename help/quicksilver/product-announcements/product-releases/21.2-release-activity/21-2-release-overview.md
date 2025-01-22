@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '5544'
+source-wordcount: '5545'
 ht-degree: 0%
 
 ---
@@ -442,7 +442,7 @@ Nya funktioner i Workfront Scenario Planner i version 21.2. Mer information om d
 
 ## Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 21.2. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 21.2. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API-version 13
 

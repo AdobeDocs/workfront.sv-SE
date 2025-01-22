@@ -6,9 +6,9 @@ description: Det här integreringsscenariot delar information om faktiska timmar
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-&#42;&#42;Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Starthändelse
 

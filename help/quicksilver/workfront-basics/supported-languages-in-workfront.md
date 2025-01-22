@@ -6,9 +6,9 @@ description: Du kan ändra vilket språk som används för att visa Adobe Workfr
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ För närvarande stöder Workfront Fusion endast engelska.
 * Workfront Fusion stöder inte användning av icke-engelska texttecken i fält som användaren anger.
 
 Företaget måste köpa en Workfront Fusion-licens för att få tillgång till Workfront Fusion.\
-Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Ändra språk
 

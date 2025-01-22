@@ -6,9 +6,9 @@ description: Det här integrationsscenariot delar förlopp, status och viktig sc
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-&#42;&#42;Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Starthändelse
 

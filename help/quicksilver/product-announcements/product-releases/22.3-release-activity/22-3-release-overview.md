@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3220'
+source-wordcount: '3221'
 ht-degree: 0%
 
 ---
@@ -498,7 +498,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
 
 ## Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.3-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.3-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Förbättringar av WorkfrontScenarioplanering
 

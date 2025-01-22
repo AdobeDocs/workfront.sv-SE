@@ -5,9 +5,9 @@ title: Snabbguide till hur du hittar hjälp i  [!DNL Adobe Workfront]
 description: Snabbguide till hur du hittar hjälp i  [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Följande resurser kan hjälpa dig att lära dig mer om API:t [!DNL Workfront] o
 | [[!DNL Adobe Workfront] integreringar](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Du kan integrera [!DNL Workfront] med tredjepartsprogram. Integreringar kan utöka verktyget för [!DNL Workfront] och anpassa det efter organisationens behov. I den här kunskapsbasartikeln beskrivs vilka integreringsalternativ du kan använda och du får en poäng i nästa riktning. |
 |---|---|
 | [[!DNL Workfront] inbyggda integreringar](https://www.workfront.com/integrations) | Workfront kostnadsfria inbyggda integreringar gör att du och ditt team smidigt kan gå över till Workfront-plattformen samtidigt som samma arbetsflöden och processer bibehålls. |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Ansluter [!DNL Workfront] till över 100 program, vilket gör det enkelt att automatisera verksamhetskritiska processer utan kod. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Ansluter [!DNL Workfront] till över 100 program, vilket gör det enkelt att automatisera verksamhetskritiska processer utan kod. |
 
 {style="table-layout:auto"}
 

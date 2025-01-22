@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3271'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
@@ -666,17 +666,17 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3.</p>
     &lt;td>&lt;p>&lt;b>Tillgängligt på följande datum:&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>Förhandsgranskningsversion:&amp;#160;Under 2.4-releasetidringen&lt;br />&lt;/p>
+    &lt;p>Förhandsgranskningsversion:&amp;#GenStudio for Performance Marketers&amp;Under tidsramen för version 2.4&lt;br />&lt;/p>
     &lt;/li>
-    &lt;li>{7>
-    }&lt;p>Produktionsrelease:&amp;#160;TBD&lt;/p>
+    &lt;li>
+    &lt;p>Produktionsrelease:&amp;#GenStudio for Performance Marketers&amp;TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref &quot; xrefformat=&quot;{para}&quot;>Utökad teambeskrivning&lt;/a>&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{1 {para}&quot;>Utökad teambeskrivning&lt;/a>&lt;/p>
     &lt;p>I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på beskrivningen för att visa den i ett popup-fönster. Alla URL:er i beskrivningen går att klicka på i popup-fönstret, och du kan klicka i beskrivningstexten för att redigera den (om du har tillgång till redigering av gruppinställningarna).&lt;/p>
     &lt;p>Tidigare var bläddring genom beskrivningen i ett smalt område det enda sättet att se allt innehåll.&lt;/p>
 <p>Den här förbättringen av beskrivningen gäller både rörliga och icke-rörliga team.</p>
@@ -710,7 +710,7 @@ Med denna uppgradering stöder Desktop Proofing Viewer Chrome version 98 för b�
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.4-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.4-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av WorkfrontScenarioplanering
 

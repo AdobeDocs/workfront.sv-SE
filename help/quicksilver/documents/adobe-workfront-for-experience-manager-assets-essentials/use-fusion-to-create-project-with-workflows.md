@@ -6,9 +6,9 @@ description: Om du skapar ett projekt via Workfront Fusion och vill inkludera Ad
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Du måste ha följande:
      <p>Nytt:</p>
      <ul>
        <li>
-         <p>Select eller Prime Workfront Plan: Din organisation måste köpa Adobe Workfront Fusion.</p>
+         <p>Select or Prime Workfront Plan: Din organisation måste köpa Adobe Workfront Fusion.</p>
        </li>
        <li> 
          <p>Ultimate Workfront Plan: Workfront Fusion ingår.</p>
@@ -93,7 +93,7 @@ Om du vill skapa ett projekt som innehåller Adobe Experience Manager-arbetsflö
 1. Lägg till modulen **Workfront** > **Div åtgärd** i ditt scenario.
 1. I fältet **Anslutning** väljer du den Workfront-anslutning som ansluter till kontot som den här modulen ska använda.
 
-   Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
+   Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
 
    Instruktioner om hur du skapar klient-ID och klienthemlighet som du måste skapa en anslutning finns i [Skapa ett OAuth-program](#create-an-oauth-application) i den här artikeln.
 
@@ -175,4 +175,4 @@ Du måste konfigurera ett OAuth-program i Workfront för den här modulens anslu
 
 Du använder detta klient-ID och klienthemlighet när du konfigurerar modulens anslutning i Fusion.
 
-Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
+Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.

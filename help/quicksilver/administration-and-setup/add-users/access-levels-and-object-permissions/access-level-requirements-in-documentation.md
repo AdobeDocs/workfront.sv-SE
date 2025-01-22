@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <ul><li>Aktuell: Den aktuella licensmodellen baseras på antalet utförda åtgärder och har inga begränsningar för vilka åtgärder en organisation kan utföra. </li>
    <li>Äldre: Äldre licenser baseras på om det går att ansluta till program från tredje part eller om scenarierna bara används för Workfront-automatisering. </li>
    </ul>
-   Mer information om Fusion-licensiering finns i <a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Workfront Fusion-licenser</a>.
+   Mer information om Fusion-licensiering finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-licenser</a>.
    </td> 
   </tr> 
  </tbody> 
