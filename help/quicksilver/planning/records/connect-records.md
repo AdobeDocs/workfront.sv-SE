@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -228,7 +228,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 
    Observera att det **Campaign**-länkade postfältet visar namnen på de kampanjer som du länkade till produkter på sidan Produkttyp. Om du uppdaterar Campaign-informationen uppdateras automatiskt det Campaign-länkade postfältet för produktposttypen.
 
-### Koppla Adobe Workfront Planning-poster till Workfront-objekt från tabellvyn eller fliken Information på postsidan
+### Koppla Adobe Workfront Planning-poster till Workfront-objekt från tabellvyn eller informationssidan för en post
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
 1. (Valfritt) Om du inte kan hitta något objekt att ansluta och du vill lägga till det klickar du på **+ Lägg till** för att skapa och lägga till ett nytt projekt eller en ny portfölj.
 
-   Du kan bara lägga till projekt utan en mall eller portföljer när du kopplar dem till planeringsposter. Du kan inte lägga till nya program, grupper eller företag.
+   Mer information finns i [Skapa Workfront-objekt från Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. (Valfritt) Klicka på **Visa alla** om du vill visa alla objekt som du har minst behörighet att visa.
 

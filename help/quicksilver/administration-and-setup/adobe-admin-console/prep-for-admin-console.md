@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,6 @@ För att din organisation ska kunna migrera till Adobe Admin Console måste du u
 
 När Adobe Admin Console har konfigurerats med Workfront kan du använda det för att skapa systemadministratörer för Workfront.
 
-Mer information finns i [Hantera systemadministratörer i Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Mer information finns i [Hantera användare i Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 En lista med andra åtgärder som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

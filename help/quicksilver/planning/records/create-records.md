@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Skapa poster
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Du kan skapa poster genom att göra något av följande:
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
 * [Skapa dem genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Skapa poster vid import av posttyper från en CSV- eller Excel-fil](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+* [Skapa poster när du importerar posttyper från en CSV- eller Excel-fil](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
@@ -233,34 +233,46 @@ Mer information om att duplicera poster finns i [Duplicera poster](/help/quicksi
 
 ## Skapa poster när du kopplar dem
 
-Du kan skapa poster eller Workfront-objekt när du kopplar dem från andra poster.
+Du kan skapa följande objekttyper när du kopplar dem från andra poster:
 
-Du måste ha följande innan du kan lägga till nya poster eller Workfront-objekt genom att koppla dem från befintliga poster:
+* Workfront Planning - poster
+* Workfront-objekt
 
-* Anslutna posttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Anslutna poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
-* Rätt åtkomst och behörigheter i Workfront Planning och Workfront, enligt beskrivningen i avsnittet [Åtkomstkrav](#access-requirements) i den här artikeln.
+I det här avsnittet beskrivs hur du skapar Workfront Planning-poster när du kopplar dem från andra poster.
 
 >[!NOTE]
 >
 >Att skapa Workfront-projekt och portföljer när du kopplar dem till Workfront Planning-poster liknar att skapa Planning-poster när du kopplar dem från andra poster.
+>
+>Mer information om hur du skapar Workfront-objekt från Workfront Planning finns i [Skapa Workfront-objekt från Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+Du måste ha följande innan du kan lägga till nya poster genom att koppla dem från befintliga poster:
+
+* Anslutna posttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Poster.
+* Rätt åtkomst och behörigheter i Workfront Planning och Workfront, enligt beskrivningen i avsnittet [Åtkomstkrav](#access-requirements) i den här artikeln.
 
 Så här skapar du poster när du kopplar dem från andra poster:
 
-1. Börja ansluta Workfront Planning-poster enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
-1. (Villkorligt) Om du inte kan hitta en post när du försöker lägga till den från det anslutna postfältet för en annan post söker du efter en post och klickar sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter från.
+1. Börja ansluta Workfront Planning-poster enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md). Du kan koppla poster från ett anslutningsfält i följande områden i Workfront Planning:
+
+   * Tabellvyn
+   * Informationssidan eller förhandsvisningsrutan för en post
+
+1. (Villkorligt) Om du inte kan hitta en post när du försöker lägga till den från det anslutna postfältet för en annan post söker du efter en post och klickar sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter till. Exempel:&quot;Lägg till varumärken&quot; när du lägger till ett varumärke i en befintlig kampanj.
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Posten skapas och läggs till i det anslutna postfältet.
 
-   >[!IMPORTANT]
-   >
-   >* Du kan bara skapa projekt och portföljer i Workfront när du kopplar dem från en post.
-   >
-   >* Du kan inte skapa program, grupper eller företag när du kopplar dem från en post i Workfront Planning.
-   >
-   >* Du kan inte skapa ett projekt från en mall när du skapar projekt genom att koppla dem från en post. Du måste manuellt lägga till uppgifter och projektinformation eller en mall i det nya projektet när du har lagt till den i posten.
+   <!--
+    >[!IMPORTANT]
+    >
+    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
+    >
+    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
+    >
+    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
 
 1. (Valfritt) Gå till tabellvyn för den posttyp vars post du skapade. En ny post visas på den sista raden i vyn.
 1. (Valfritt) Börja lägga till information för den nya posten i tabellvyn
@@ -277,12 +289,9 @@ Både Workfront-användare och användare utanför din organisation kan skicka b
 
 Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
-<div class="preview">
-
 ## Skapa poster när du importerar posttyper från en CSV- eller Excel-fil
 
 Du kan importera poster när du importerar posttyper med hjälp av en CSV- eller Excel-fil.
 
 Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
-</div>

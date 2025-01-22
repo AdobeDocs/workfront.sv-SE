@@ -6,20 +6,22 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
 
 # Skapa ett projekt
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
--->
+<!--remove Preview and Production references-->
 
 <!-- Audited: 12/2023 -->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Projekt representerar en stor mängd arbete som behöver utföras i Adobe Workfront.
 
@@ -121,13 +123,13 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 
   Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md). Mer information om hur du skapar projekt från publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera projekt i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Lägg till projekt när du kopplar dem från en posttyp i Workfront Planning. Du kan bara skapa projekt utan mallar från Workfront Planning.
+* Lägg till projekt när du kopplar dem från en posttyp i Workfront Planning. I produktionsmiljön kan du bara skapa projekt utan mallar från Workfront Planning. <span class="preview">Du kan skapa projekt med hjälp av en mall i förhandsvisningsmiljön.</span>
 
   Du måste ha en ny Workfront-licens och en extra Workfront Planning-licens för Workfront Planning.
 
   Mer information om åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 
-  Mer information om hur du skapar projekt genom att lägga till dem i poster finns i avsnittet&quot;Skapa poster när du ansluter dem&quot; i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+  Mer information om hur du skapar projekt genom att lägga till dem i poster finns i avsnittet Skapa projekt när du ansluter dem med poster från Workfront Planning i artikeln [Skapa Workfront-objekt från Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Förutsättningar
 
