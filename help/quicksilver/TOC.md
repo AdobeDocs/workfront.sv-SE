@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '14788'
+source-wordcount: '14778'
 ht-degree: 0%
 
 ---
@@ -2270,7 +2270,6 @@ ht-degree: 0%
       * [Visa ett scenarios körningshistorik i Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Visa och lösa ofullständiga körningar i Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [Visa och hantera låsta scenarier i [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
-      * [Uppdatera en modul till en ny version i ett [!DNL Adobe Workfront Fusion] scenario](workfront-fusion/scenarios/update-module-to-new-version.md)
       * [Schemalägg ett scenario i Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Aktivera eller inaktivera ett scenario i Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Lägga till ett filter i ett scenario i Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)

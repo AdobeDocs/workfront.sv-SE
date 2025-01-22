@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Det här avsnittet innehåller följande artiklar:
 * [Exempel på [!DNL Adobe Workfront Fusion]-scenario: Anslut e-post, [!UICONTROL Text Parser] och  [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Återställ en scenarioversion i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Kopiera moduler eller scenarier i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [Uppdatera en modul till en ny version i ett [!DNL Adobe Workfront Fusion] scenario](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [Visa och hantera låsta scenarier i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Kör Scenario Scoring Expert i Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
 * [Använd cURL för att lägga till en HTTP-modul](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
