@@ -4,9 +4,10 @@ description: Den här sidan innehåller information om de funktioner som ingår 
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
+source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -46,15 +47,15 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            AI Assistant kan nu arbeta med projekt, uppgifter och problem</a></p>
-            <p>För att göra det enklare att hantera dina arbetsuppgifter i Workfront har vi uppdaterat AI Assistant för att arbeta med projekt, uppgifter och problem. Nu kan AI Assistant hitta projekt, uppgifter och problem baserat på kriterier som du anger.</p>
+            Representera Adobe Admin Console användarändringar som"System" i Workfront uppdateringsfeed</a></p>
+            <p>När administratören för Adobe Admin Console nu gör en ändring i användarinformationen för en Workfront-användare, registrerar Workfront denna ändring på fliken Systemaktivitet i användarens uppdateringsområde som tillhör "System". Detta avser Adobe Admin Console-administratören.</p>
         </td>
         <td>
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
-                <li>Förhandsversion: 31 oktober 2024</li>
-                <li>Produktion för snabb lansering: Med version 24.11 (14 november 2024)</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.1 (16 januari 2025)</li>
+                <li>Förhandsversion: 23 januari 2025</li>
+                <li>Produktion för snabb lansering: Med version 25.2 (februari 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.4 (april 2025)</li>
             </ul>
         </td>
     </tr>
