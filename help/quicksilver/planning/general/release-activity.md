@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '7488'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,9 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
->[!IMPORTANT]
->
-><span class="preview">I den här artikeln listas de funktioner som släpptes i den tidiga fasen av Workfront Planning, 2024, före den allmänna tillgänglighetsversionen den 28 augusti 2024.</span>
->
->Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
->
->Du måste köpa en Workfront Planning-plan, förutom en Workfront-plan, för att kunna komma åt och använda Workfront Planning-funktioner.
->
->En fullständig lista över krav för åtkomst till Workfront Planning finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
->En översikt över Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
->
+I den här artikeln listas de funktioner som lanserades i början av Workfront Planning, 2024, före den allmänna tillgänglighetsutgåvan den 28 augusti 2024.
 
-Mer information om Workfront Planning finns i följande artiklar:
-
-* [Planeringsaktivitet för Adobe Workfront 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) för funktioner som släpptes under betaversionen under 2023.
-* [Aktivitet för lansering av Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) för funktioner som för närvarande släpps på Workfront Planning, efter att det blev allmänt tillgängligt den 28 augusti 2024.
+En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Tidslinjen i Workfront Planning
 

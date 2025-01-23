@@ -3,13 +3,11 @@ title: Gränssnittsuppdateringar
 description: På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Workfront för att förbättra användarupplevelsen och göra den enhetlig med andra Adobe-program.
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -28,7 +26,7 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ### Gränssnittsuppdatering för dialogrutan Lägg till Sharepoint
 
-**Förhandsversion: 16 januari 2025; Produktionsversion: TBD**
+**Förhandsversion: 16 januari 2025; Produktionsversion: ska tillkännages**
 
 Vi har uppdaterat dialogrutan Lägg till SharePoint i Inställningar > Dokument > Sharepoint-integrering med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -36,7 +34,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ### Gränssnittsuppdatering för området Godkännanden i Inställningar
 
-**Förhandsversion: 16 januari 2025; Produktionsversion: TBD**
+**Förhandsversion: 16 januari 2025; Produktionsversion: ska tillkännages**
 
 Vi har uppdaterat listorna Projekt, Uppgift och Utfärda godkännanden i Konfigurera > Processer > Godkännanden med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -44,9 +42,19 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ## Rapporter och kontrollpaneler
 
+### Uppdaterad upprepningsrapport med ny formatering
+
+**Förhandsversion: 17 januari 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat Iteration-rapporten med en modernare design som överensstämmer med andra delar av Workfront.
+
+Den här uppdateringen innehåller visuella ändringar av rapporten. Ingen funktionalitet har ändrats.
+
+Om du vill skapa en iterationsrapport går du till Rapporter > Ny rapport > Intervtion.
+
 ### Uppdaterade godkännanderapporter med ny formatering
 
-**Förhandsversion: 16 januari 2025; Produktionsversion: TBD**
+**Förhandsversion: 16 januari 2025; Produktionsversion: ska tillkännages**
 
 Gränssnittet i följande godkännanderapporter har uppdaterats:
 
