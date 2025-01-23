@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
+source-wordcount: '2879'
 ht-degree: 0%
 
 ---
 
 # Hantera tabellvyn
+
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -397,13 +401,22 @@ Så här lägger du till ett filter i en tabellvy:
 1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett filtreringsalternativ och upprepa stegen ovan. Antalet filter som används visas till vänster om filterikonen.
 1. Klicka på följande operatorer för att ange hur filtervillkoren ska kopplas och användas:
 
-   * **Och**: Alla angivna villkor måste vara uppfyllda.
-   * **Eller**: Alla angivna villkor måste vara uppfyllda. Det här är standardalternativet.
+   * **AND**: Alla angivna villkor måste uppfyllas.
+   * **OR**: Alla angivna villkor måste vara uppfyllda. Det här är standardalternativet.
+
+   <div class="preview">
+
+   1. (Valfritt) Lägg till ytterligare **AND**- eller **OR**-operatorer mellan flera villkorsgrupperingar.
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    Postlistan filtreras automatiskt.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Valfritt) Klicka på **Filter** och sedan på ikonen **x** för att ta bort ett filter. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Valfritt) Klicka på ikonen **x** för att ta bort ett filtervillkor.
+1. (Valfritt) Klicka på **Filter** för att stänga filterrutan. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Lägg till grupperingar {#add-groupings}
 

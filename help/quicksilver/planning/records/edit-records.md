@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Redigera poster
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -243,6 +243,16 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
      ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
+   <div class="preview">
+
+   * Kopiera en eller flera celler från en extern källa (till exempel en Excel-fil) och klistra sedan in dem i någon av följande fälttyper:
+
+      * Workfront Planning-anslutningsfält.
+      * Personfält. Endast fält med ett värde stöds.
+
+     Du kan inte kopiera information från en extern källa och klistra in den i andra fälttyper, inklusive anslutningsfält för Workfront eller AEM Assets.
+   </div>
+
    >[!NOTE]
    >
    >Tänk på följande:
@@ -254,8 +264,7 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
    >* Du kan inte kopiera och klistra in fältvärden på postsidan. Den här funktionen stöds bara i tabellvyn för en posttyp.
    >* Du kan inte kopiera och klistra in fältvärden för följande fälttyper:
    >
-   >
-   >    * Länkade fält (eller uppslagsfält) som skapas genom att koppla posttyper. Du kan kopiera och klistra in länkade postfält. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Uppslagsfält som skapas när posttyper ansluts. Du kan kopiera och klistra in länkade postfält. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Fält av följande typer: Skapad av, Skapad, Senast ändrad av, Senast ändrad
 
 1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om redigering eller kopiering och inklistring av postinformation:
