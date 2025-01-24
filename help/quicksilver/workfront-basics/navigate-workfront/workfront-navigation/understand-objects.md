@@ -1,14 +1,14 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: "[!DNL Adobe Workfront] objekt - översikt"
-description: "Den information du visar i  [!DNL Adobe Workfront]  representeras av objekt som lagras i  [!DNL Workfront] databasen. Objekten är vad som driver informationen i  [!DNL Workfront]. Läs mer om dessa objekt i den här artikeln."
+title: Översikt över [!DNL Adobe Workfront] objekt
+description: Den information du visar i  [!DNL Adobe Workfront]  representeras av objekt som lagras i  [!DNL Workfront] databasen. Objekten är vad som driver informationen i  [!DNL Workfront]. Läs mer om dessa objekt i den här artikeln.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2133'
 ht-degree: 0%
 
 ---
@@ -283,7 +283,7 @@ Du kan rapportera följande objekt när du använder rapportverktyget i webbprog
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]
 * [!UICONTROL Journal Entry]
-   * Du kan rapportera om spårade systemuppdateringar i [!UICONTROL Updates]-området med objekt som uppgifter, projekt, problem osv. Mer information finns i [Rapport om [!UICONTROL Updates] området ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * Du kan rapportera om spårade systemuppdateringar i [!UICONTROL Updates]-området med objekt som uppgifter, projekt, problem osv. Mer information finns i [Rapport om uppdateringsområdet med en journalpostrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layout Template]
 * [!UICONTROL Milestone]

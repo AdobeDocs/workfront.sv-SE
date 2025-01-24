@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '17356'
+source-wordcount: '17362'
 ht-degree: 0%
 
 ---
@@ -1168,7 +1168,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Journal Entry]</p> </td> 
-   <td> <p>Ett objekt som kan rapporteras och som ger dig information om systemuppdateringar för spårade fält som visas i området [!UICONTROL Updates] med projekt, uppgifter, problem och andra objekt.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Rapport om [!UICONTROL Updates]-området</a>.</p> </td> 
+   <td> <p>Ett objekt som kan rapporteras och som ger dig information om systemuppdateringar för spårade fält som visas i området [!UICONTROL Updates] med projekt, uppgifter, problem och andra objekt.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Rapport om uppdateringar med en journalpostrapport</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban Flag]</td> 

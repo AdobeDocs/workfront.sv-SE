@@ -1,18 +1,18 @@
 ---
-title: Rapport om uppdateringsområdet
+title: Rapport om uppdateringsområdet med en journalpostrapport
 description: Journalanmälningsrapporten innehåller systemuppdateringar från uppdateringsområdet för projekt, uppgifter, utgåvor och andra objekt som tidigare bara var tillgängliga via Adobe Workfront API. Även om det här är en avancerad rapport som är avsedd för specifika användningsområden, är det lättare för dig att rapportera om projektaktiviteter och systemuppdateringar i Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
 
-# Rapport om uppdateringsområdet
+# Rapport om uppdateringsområdet med en journalpost
 
 <!-- Audited: 11/2024 -->
 

@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -80,5 +80,5 @@ Du kan till exempel konfigurera den här rapporten så att den visar aktivitet r
 
 Tidigare kunde du bara rapportera om systemuppdateringar via Workfront API.
 
-Mer information om den här rapporten och vad du kan använda den för finns i [Rapport om uppdateringsområdet](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Mer information om den här rapporten och vad du kan använda den för finns i [Rapport om uppdateringsområdet med en journalrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

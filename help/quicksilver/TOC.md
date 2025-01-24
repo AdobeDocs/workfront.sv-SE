@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '13008'
+source-wordcount: '13013'
 ht-degree: 0%
 
 ---
@@ -1538,7 +1538,7 @@ ht-degree: 0%
          * [Skapa rapporter om finansiella data med unika valutakurser](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
          * [Redigera rapportinställningar](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
          * [Ändra rapportens ägare](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-         * [Rapport om uppdateringsområdet](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+         * [Rapport om uppdateringsområdet med en journalpost](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [Skapa en delegeringsrapport för användare](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
       * Beräknade anpassade data i rapporter {#calculated-custom-data}
          * [Beräknade anpassade data i rapporter](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
