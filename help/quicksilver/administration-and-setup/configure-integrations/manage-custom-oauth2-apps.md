@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ Mer information finns i [Skapa OAuth2-program för [!DNL Workfront] integreringa
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL System]** i den vänstra navigeringspanelen och välj sedan **[!UICONTROL OAuth Applications]**.
-1. Klicka på ** **.
 1. Hovra över programmet och klicka på **[!UICONTROL Delete]** ![](assets/delete.png) när det visas längst till höger.
 
 ## Hantera klienthemligheter i OAuth2-program

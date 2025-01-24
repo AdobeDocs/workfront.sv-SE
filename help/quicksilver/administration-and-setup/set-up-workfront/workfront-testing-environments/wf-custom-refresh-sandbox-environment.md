@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ Så här kommer du åt din anpassade uppdateringssandlåda via en URL:
 
 1. Navigera till den här URL:en om du bara har en anpassad uppdateringssandlåda:
 
-   https://companyname.sb01.workfront.com (gammal URL:https://cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com` (gammal URL:`https://cr1.attasksandbox.com/`.)
 
    Eller om du har två anpassade uppdateringssandlådor, utöver URL:erna ovan, kan du även gå till följande URL för att komma åt din andra anpassade uppdateringssandlåda:
 
-   https://companyname.sb02.workfront.com (gammal URL :https://cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com` (gammal URL:`https://cr2.attasksandbox.com/`)
 
 1. På inloggningsskärmen loggar du in med dina anpassade autentiseringsuppgifter för uppdateringssandlådan.
 1. Dina autentiseringsuppgifter för anpassade uppdateringssandlådor är desamma som dina produktionsuppgifter, såvida du inte har ändrat dina produktionsuppgifter sedan din anpassade uppdateringssandlåda senast uppdaterades. Inloggningarna synkroniseras bara när en uppdatering görs. De synkroniseras inte automatiskt.
@@ -137,15 +137,15 @@ Så här kommer du åt din anpassade uppdateringssandlåda via en URL:
 
 1. Navigera till den här URL:en om du bara har en anpassad uppdateringssandlåda:
 
-   https://companyname.sb01.workfront.com (gammal URL: :https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (gammal URL:`https://cr3.attasksandbox.com`)
 
    eller
 
    Gå till någon av dessa URL:er om du har två anpassade uppdateringssandlådor:
 
-   https://companyname.sb01.workfront.com (gammal URL: :https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (gammal URL:`https://cr3.attasksandbox.com`)
 
-   https://companyname.sb02.workfront.com (gammal URL: :https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com` (gammal URL:`https://cr4.attasksandbox.com`)
 
 1. På inloggningsskärmen loggar du in med dina anpassade autentiseringsuppgifter för uppdateringssandlådan.
 
