@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -246,13 +246,6 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL Business Cases] {#business-cases}
 
 Du kan skapa ett affärsärende för nyskapade projekt i hela systemet för att skicka projektförfrågningar. Du kan definiera inställningar för att avgöra vilka områden som visas i formuläret **[!UICONTROL Business Case]**. Vi rekommenderar att du aktiverar dessa alternativ så att andra verktyg, som [!UICONTROL Portfolio Optimizer], uppdateras korrekt. Mer information om vad varje fält visar finns i [Definiera ett affärsfall: artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
@@ -279,11 +272,12 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
    <td> <p>Fastställ reglerna för din organisation (eller grupp, om du konfigurerar projektinställningar för en grupp) vad som ska hända med uppgifter, ärenden, dokument och andra objekt i ett projekt när projektstatusen har markerats som <strong>[!UICONTROL Complete]</strong>, <strong>[!UICONTROL Dead]</strong> eller är <strong>[!UICONTROL Pending Approval]</strong>.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Add and edit tasks]</strong> Tillåter användare att:
+     <li><strong>[!UICONTROL Add and edit tasks:]</strong> Tillåter användare att:
       <ul>
-       <li>Redigera aktiviteter i ett projekt när projektet har markerats som [!UICONTROL Complete], [!UICONTROL Dead] eller är [!UICONTROL Pending Approval]. Detta inkluderar att lägga till timmar och ändra utgiftsposter för en aktivitet.</li>
+       <li><p>Redigera aktiviteter i ett projekt när projektet har markerats som [!UICONTROL Complete], [!UICONTROL Dead] eller är [!UICONTROL Pending Approval].</p>
+           <p>Obs! Även om det här alternativet inte är markerat kan användare lägga till och redigera utgiftsposter. Loggningstiden har en separat inställning. Information om hur du tillåter eller förhindrar användare att logga in på projekt med statusen Fullständigt eller Dölj finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Konfigurera tidrapport och timinställningar</a>.</p></li>
        <li>Lägg till uppgifter i ett projekt.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Add and edit issues]</strong>: Tillåter användare att:
       <ul>
        <li>Redigera problem i ett projekt efter att projektet har markerats som [!UICONTROL Complete], [!UICONTROL Dead] eller [!UICONTROL Pending Approval].</li>
