@@ -6,16 +6,16 @@ description: Du kan skapa komplexa textlägesfilter med EXISTS-satser. Den här 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2668'
 ht-degree: 0%
 
 ---
 
 # Skapa komplexa textlägesfilter med EXISTS-satser
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 01/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -92,7 +92,7 @@ Tänk på följande regler när du använder EXISTS-programsatser i ett filter:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,12 +104,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p> </td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera filter i en rapport</p></td> 
   </tr> 
   <tr> 
@@ -119,7 +126,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -156,14 +163,14 @@ Så här skapar du ett filter som sträcker sig över flera nivåer i objekthier
    Skapa till exempel ett Issue-filter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka på **Växla till textläge**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. Klistra in följande formelexempel i textlägesgränssnittet för det nya filtret och ersätt exempeltexten med rätt objekt och fält:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
-
-   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
 
    Ett exempel på hur du använder fälten som vi har identifierat här ovan finns i avsnittet [Exempel 1: Filter för utgåvor efter Portfolio-ägarnamn](#example-1-filter-for-issues-by-portfolio-owner-name) i den här artikeln.
 
@@ -204,12 +211,14 @@ Så här skapar du ett filter som refererar till saknade objekt:
    Skapa till exempel ett parameterfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka på **Växla till textläge**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. (Villkorligt) Om du filtrerar efter objekt som saknas, klistrar du in följande formelexempel i det nya filtrets textlägesgränssnitt och ersätter exempeltexten med rätt objekt och fält:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    Ett exempel på rapportering om anpassade fält som inte är kopplade till anpassade Forms finns i avsnittet [Exempel 2: Filter för saknade objekt: anpassade fält som inte finns i anpassade formulär](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) i den här artikeln.
 
@@ -228,22 +237,22 @@ Så här filtrerar du utleveranser efter Portfolio ägarnamn:
 1. Skapa ett problemfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka på **Växla till textläge**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. Se följande allmänna kod:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
-
-   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
 
 1. Klistra in följande kod i området **Ange filterregler för rapporten** för att ersätta den generiska koden ovan:
 
-   `EXISTS:A:$$OBJCODE=PROJ`
-
-   `EXISTS:A:ID=FIELD:projectID`
-
-   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
+   ```
+   EXISTS:A:$$OBJCODE=PROJ
+   EXISTS:A:ID=FIELD:projectID
+   EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221
+   ```
 
    >[!NOTE]
    >
@@ -270,20 +279,22 @@ Så här filtrerar du efter anpassade fält som inte är kopplade till ett anpas
 1. Skapa en parameter eller ett anpassat fältfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka på **Växla till textläge**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. Se följande allmänna kod:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
 1. Klistra in följande kod i området **Ange filterregler för rapporten** för att ersätta den generiska koden ovan:
 
-   `EXISTS:A:$$OBJCODE=CTGYPA`
-
-   `EXISTS:A:parameterID=FIELD:ID`
-
-   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=CTGYPA
+   EXISTS:A:parameterID=FIELD:ID
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    >[!NOTE]
    >
@@ -305,16 +316,25 @@ Så här filtrerar du efter användare som inte loggade in tid under den senaste
 1. Skapa ett användarfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka på **Växla till textläge**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. Se följande allmänna kod:
 
-   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
-
-   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
 1. Klistra in följande kod i området **Ange filterregler för rapporten** för att ersätta den generiska koden ovan:
 
-   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   ```
+   EXISTS:A:$$OBJCODE=HOUR
+   EXISTS:A:ownerID=FIELD:ID
+   EXISTS:A:entryDate=$$TODAYb-1w
+   EXISTS:A:entryDate_Range=$$TODAYe-1w
+   EXISTS:A:entryDate_Mod=between
+   EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   ```
 
    >[!NOTE]
    >
@@ -343,16 +363,18 @@ Så här filtrerar du uppgifter efter Portfolio ägarens namn och Portfolio just
 1. Skapa ett uppgiftsfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka på **Växla till textläge**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. Klistra in följande kod i området **Ange filterregler för rapporten**:
 
-   `EXISTS:A:$$OBJCODE=PROJ`
-   `EXISTS:A:ID=FIELD:projectID`
-   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
-   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
-   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
-   `AND:A:EXISTS:A:ID=FIELD:projectID`
-   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
+   ```
+   EXISTS:A:$$OBJCODE=PROJ
+   EXISTS:A:ID=FIELD:projectID
+   EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f
+   AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS
+   AND:A:EXISTS:A:$$OBJCODE=PROJ
+   AND:A:EXISTS:A:ID=FIELD:projectID
+   AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad
+   ```
 
    >[!NOTE]
    >

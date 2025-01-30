@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,31 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 
 ## Adobe Workfront-förbättringar
 
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Andra förbättringar](#other-enhancements)
+
+### Administratörsförbättringar
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Representera Adobe Admin Console användarändringar som"System" i Workfront uppdateringsfeed</a></p>
+            <p>När administratören för Adobe Admin Console nu gör en ändring i användarinformationen för en Workfront-användare, registrerar Workfront denna ändring på fliken Systemaktivitet i användarens uppdateringsområde som tillhör "System". Detta avser Adobe Admin Console-administratören.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 30 januari 2025</li>
+                <li><span class="preview">Produktionsrelease för alla kunder: 30 januari 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
 
 ### Andra förbättringar
 
@@ -61,18 +85,18 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     </tr>
     <!--<tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: Throughout the First Quarter 2025 release timeframe</li>
+                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
                 <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>-->                            
+    </tr>-->
 </tbody>
 </table>
 
@@ -86,7 +110,7 @@ The following functionality is soon to be removed from Workfront:
 
 ### Modernisering av gränssnitt
 
-Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra användarupplevelsen och sammanföra det med andra Adobe-program. Dessa ändringar släpps utanför standardreleaseplanen. En lista över de här ändringarna finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra användarupplevelsen och sammanföra det med andra Adobe-program. Dessa ändringar släpps utanför standardreleaseplanen. En lista över de här ändringarna finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ### Workfront Fusion-förbättringar
 

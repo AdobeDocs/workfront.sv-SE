@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ Om du vill visa den här sidan går du till Inställningar > Grupper > Välj en 
 
 Uppdateringen innehåller mindre visuella ändringar av området. Ingen funktionalitet har ändrats.
 
-
 ### Gränssnittsuppdateringar för fliken Påminnelsemeddelanden i installationsprogrammet
 
 **Förhandsversion: 23 januari 2025; Produktionsversion: ska tillkännages**
@@ -99,9 +98,21 @@ Vi har uppdaterat listorna Projekt, Uppgift och Utfärda godkännanden i Konfigu
 
 Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
 
+## Agile
+
+### Gränssnittsuppdatering för Iterations-listan
+
+**Förhandsversion: 23 januari 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat listan Teams > Iterations med en modernare design som överensstämmer med andra delar av Workfront.
+
+Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
+
+Om du vill visa den här ändringen går du till Team > Välj ett team > Iterations.
+
 ## Rapporter och kontrollpaneler
 
-## Uppdaterade e-postrapporter med ny formatering
+### Uppdaterade e-postrapporter med ny formatering
 
 **Förhandsversion: 23 januari 2025; Produktionsversion: ska tillkännages**
 
@@ -114,7 +125,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ### Uppdaterad upprepningsrapport med ny formatering
 
-**Förhandsversion: 17 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 17 januari 2025; Produktionsversion: Från 20 januari 2025**
 
 Vi har uppdaterat Iteration-rapporten med en modernare design som överensstämmer med andra delar av Workfront.
 

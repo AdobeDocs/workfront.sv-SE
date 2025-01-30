@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,42 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Funktioner som lagts till i formelfält
+
+>[!NOTE]
+>
+>Förhandsversion: 30 januari 2025; Produktionsrelease för alla kunder: 30 januari 2025
+
+Följande uttryck är nu tillgängliga i Workfront formelfält: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Definitioner och exempel på varje uttryck finns i formelredigeraren.
+
+Mer information finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
+
+<!--## Real-time presence indicators in a record's details preview or page
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
+
+The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+## Dela Workfront Planning-objekt med team, jobbroller och företag
+
+>[!NOTE]
+>
+>Förhandsversion: 30 januari 2025; Produktion för snabb release: Med version 25.2 (februari 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+Nu kan du dela vyer och arbetsytor med team, jobbroller och företag i Workfront Planning. Före den här förbättringen kan du dela vyer och arbetsytor med användare och grupper.
+
+Mer information finns i följande artiklar:
+
+[Visa](/help/quicksilver/planning/access/share-views.md)
+
+[Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
 
 ## Kopiering och inklistring av extern text stöds nu för anslutningar och personfält
 

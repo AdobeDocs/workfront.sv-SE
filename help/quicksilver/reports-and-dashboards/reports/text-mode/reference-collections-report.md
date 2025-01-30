@@ -6,14 +6,16 @@ description: Referenssamlingar i en rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
 
 # Referenssamlingar i en rapport
+
+<!-- Audited: 1/2025 -->
 
 Om du skapar en rapport i Adobe Workfront kan du visa en uppsättning objekt, deras respektive fält eller länkade objekt i en lista, ett rutnät eller ett diagramformat.
 
@@ -23,32 +25,41 @@ Mer information om hur du skapar en rapport i Workfront finns i [Skapa en anpass
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Hantera behörigheter för en vy, ett filter eller en gruppering </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p> <p>Hantera behörigheter för en vy, ett filter eller en gruppering </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,8 +139,9 @@ Du kan till exempel visa uppgifter eller utleverans i en projektrapport genom at
 
 I samlingsvyn kan du visa information om uppgifter och utgåvor, t.ex. namn, datum, primära tilldelningar, procent färdigt osv.
 
-Vyn visar uppgifter eller ärenden i ett listformat, där varje rad i listan representerar information om en uppgift eller ett problem. Listan med uppgifter eller problem och fälten för dem visas på samma rad som projektet som uppgifterna eller problemen tillhör.\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+Vyn visar uppgifter eller ärenden i ett listformat, där varje rad i listan representerar information om en uppgift eller ett problem. Listan med uppgifter eller problem och fälten för dem visas på samma rad som projektet som uppgifterna eller problemen tillhör.
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Lägg till en samlingskolumn i en rapportvy](#add-a-collection-column-in-a-report-view)
 * [Förstå raderna i en samlingsvy i textläge](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ Så här lägger du till en samlingskolumn i en rapportvy:
 1. Markera rapportens objekt.
 1. Gå bort från rapporten och använd [API Explorer](../../../wf-api/general/api-explorer.md) för att avgöra vilka samlingar som är tillgängliga för det objekt som du har valt för rapporten.
 
-   Mer information om hur du markerar objektet i din samling finns i avsnittet [Sök efter samlingsobjekt och deras fält i API-utforskaren](#find-collection-objects-and-their-fields-in-the-api-explorer) i den här artikeln.\
+   Mer information om hur du markerar objektet i din samling finns i avsnittet [Sök efter samlingsobjekt och deras fält i API-utforskaren](#find-collection-objects-and-their-fields-in-the-api-explorer) i den här artikeln.
+
    Notera namnet på objektet för samlingen.
 
 1. Använd [API-utforskaren](../../../wf-api/general/api-explorer.md) och gå till listan med fält för objektet som du vill visa i samlingen.
@@ -155,7 +168,7 @@ Så här lägger du till en samlingskolumn i en rapportvy:
 
 1. Gå tillbaka till rapporten och klicka på **Lägg till kolumn** på fliken **Kolumner (vy)**.
 1. Klicka på **Växla till textläge**.
-1. För musen över dialogrutan och klicka på **Klicka för att redigera text**.
+1. Klicka på **Redigera textläge**.
 1. Markera all text i dialogrutan **Textläge** och ta bort den. Klistra sedan in följande kod om du refererar till ett fält i samlingsobjektet:
 
    ```
@@ -223,7 +236,7 @@ Så här lägger du till en samlingskolumn i en rapportvy:
 
 1. Följande kolumn visas i projektrapporten med alla uppgifter i varje projekt tillsammans med de primära tilldelningarna:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Klicka på **Spara**.
 1. (Valfritt) Fortsätt redigera rapporten.
@@ -311,7 +324,7 @@ Så här lägger du till en referens till en samling i ett rapportfilter:
 
    Anteckna det fält som du vill visa i samlingen.
 
-1. Gå tillbaka till rapporten och klicka på **Växla till textläge** på fliken **Filter**.
+1. Gå tillbaka till rapporten och klicka på **Växla till textläge** på fliken **Filter** och sedan på **Redigera textläge**.
 
 1. Klistra in följande kod i området **Ange filterregler för rapporten**:
 
@@ -337,7 +350,7 @@ Så här lägger du till en referens till en samling i ett rapportfilter:
 
    Den här rapporten visar endast projekt som har minst en aktivitet med ordet&quot;marknadsföring&quot; i namnet.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Använd följande kod om du vill filtrera efter namnet på ett problem:
 
@@ -391,7 +404,7 @@ Så här lägger du till en referens till en samling i den anpassade uppmaningen
    ```
 
 1. (Valfritt) Ange om det här alternativet visas som standard i uppmaningen.
-1. Ersätt **samlingsobjektnamnet** med namnet på samlingsobjektet så som det visas i [API-utforskaren](../../../wf-api/general/api-explorer.md). Det här värdet är vanligtvis samlingsobjektets plural-form.
+1. Ersätt **samlingsobjektnamnet** med namnet på samlingsobjektet så som det visas i [API-utforskaren](../../../wf-api/general/api-explorer.md). Det här värdet är vanligtvis samlingsobjektets plural-form.
 1. Ersätt **samlingsobjektfältet** med namnet på fältet för samlingsobjektet så som det visas i [API-utforskaren](../../../wf-api/general/api-explorer.md).
 1. Ersätt **samlingsobjektvärdet** med värdet för samlingsobjektet så som det visas i Workfront.
 
@@ -399,7 +412,7 @@ Så här lägger du till en referens till en samling i den anpassade uppmaningen
 
 1. Ersätt värdet **för modifieraren** med en giltig modifierare.
 
-   En lista med modifierare finns på  [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   En lista med modifierare finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Exempel:** Om du till exempel vill skapa en projektrapport med en anpassad fråga där du bara vill visa projekt som har minst en aktivitet tilldelad till en viss användare använder du koden nedan:
 
@@ -423,7 +436,7 @@ Så här lägger du till en referens till en samling i den anpassade uppmaningen
 
    >[!NOTE]
    >
-   >Observera att du måste använda **issues** som samlingsobjektsnamn. API Explorer  har för närvarande inget samlingsobjektsnamn för utgåvor.
+   >Observera att du måste använda **issues** som samlingsobjektsnamn. API Explorer har för närvarande inget samlingsobjektsnamn för problem.
 
 1. Klicka på **Klar**.
 1. (Valfritt) Fortsätt redigera rapporten.
