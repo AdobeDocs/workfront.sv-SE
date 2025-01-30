@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -161,7 +161,11 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
    Postens förhandsgranskning öppnas i vyn.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png)  
+
+    </div>-->
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
@@ -240,13 +244,21 @@ Följande saker händer:
 
    Postens förhandsgranskning öppnas i vyn.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
    Fliken **Detaljer** i posten öppnas som standard.
 
+   <!--<div class="preview">
+
    ![](assets/details-page.png)
+
+   </div>-->
 
 1. Klicka på ikonen **** till vänster om fältnamnet på fliken **Detaljer** på fliken Detaljer![](assets/grab-icon.png) och dra och släpp den på önskad plats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 

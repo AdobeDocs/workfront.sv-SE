@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
 # Dela arbetsytor
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -173,9 +177,13 @@ Så här delar du en arbetsyta med andra:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. I fältet **Bevilja arbetsyteåtkomst till** börjar du skriva namnet på en användare eller grupp och klickar sedan på den när den visas i listan.
+1. I fältet **Bevilja arbetsyteåtkomst till** börjar du skriva namnet på en användare, grupp, <span class="preview">team, företag eller jobbroll</span> och klickar sedan på det när det visas i listan.
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. Välj någon av följande behörighetsnivåer i listrutan:
    * Visa
@@ -221,7 +229,7 @@ Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på me
 {{step1-to-planning}}
 
 1. Öppna arbetsytan som du vill ta bort behörigheter till och klicka sedan på **Dela** i skärmens övre högra hörn.
-1. Klicka på listrutan till höger om ett användar- eller gruppnamn och klicka sedan på **Ta bort**.
+1. Klicka på listrutan till höger om namnet på en enhet som du delar arbetsytan med och klicka sedan på **Ta bort**.
 1. Klicka på **Spara**.
 
-   Användaren eller användarna som tillhör gruppen som tagits bort har inte längre åtkomst till arbetsytan eller dess objekt.
+   De borttagna användarna har inte längre åtkomst till arbetsytan eller dess objekt.
