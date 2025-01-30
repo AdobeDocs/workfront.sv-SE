@@ -6,14 +6,16 @@ description: Spårningsläget för en aktivitet avgör hur aktivitetens förlopp
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
 # Ange spårningsläge för uppgifter
+
+<!--Audited: 01/2025-->
 
 Spårningsläget för en aktivitet avgör hur aktivitetens förloppsstatus uppdateras i Adobe Workfront.
 
@@ -21,28 +23,58 @@ Mer information om spårningsläge för uppgifter finns i [Översikt över spår
 
 ## Åtkomstkrav
 
-<!--drafted for P&P - replace the table:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Nytt: Standard</p> 
+   eller
+   <p>Aktuell: Arbete eller högre</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till uppgifter </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Hantera behörigheter för en uppgift</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--old: 
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan/td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks </p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
+   <td> <p>Edit access to Tasks </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -50,34 +82,10 @@ Mer information om spårningsläge för uppgifter finns i [Översikt över spår
   </tr> 
  </tbody> 
 </table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
 -->
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>*</td> 
-   <td> <p>Arbeta eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter </p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för en uppgift</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
 ## Ange spårningsläge för uppgifter
 

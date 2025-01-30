@@ -5,14 +5,16 @@ description: Som en del av resursplaneringen kan du använda resursplaneraren p�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Budgetresurser i affärsärendet med resursplaneraren
+
+<!--Audited: 01/2025-->
 
 Som en del av resursplaneringen kan du använda resursplaneraren på projektnivå för att budgetera de jobbroller som krävs för att slutföra arbetet i ett projekt när du skapar affärsplanen.
 
@@ -26,37 +28,47 @@ Du kan också budgetera resurser i ett affärsfall med hjälp av Adobe Workfront
 
 ## Åtkomstkrav
 
-Du måste ha följande:
+Du måste ha följande för att kunna utföra stegen i den här artikeln:
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
-   <td> <p>Pro eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Prime eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>*</td> 
-   <td> <p>Granska eller högre</p> <p>Viktigt: Du måste ha en planlicens för att kunna ändra resursbudgeteringsinformationen. </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Nytt: Ljus eller högre</p>
+   <p>Aktuell: Granska eller senare</p>
+
+<p><b>VIKTIGT!</b></p> 
+   <p>Nytt: Du måste ha en standardlicens för att kunna ändra resursbudgeteringsinformationen. </p> 
+   <p>Aktuell: Du måste ha en planlicens för att kunna ändra resursbudgeteringsinformationen. </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till följande: </p> 
     <ul> 
      <li> <p>Projekt</p> </li> 
      <li> <p>Resurshantering</p> </li> 
      <li> <p>Finansiella data</p> </li> 
-    </ul> <p>Mer information om den åtkomst som krävs för att budgetera resurser finns också i <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Åtkomst krävs för att budgetera resurser i Adobe Workfront</a>.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Adobe Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

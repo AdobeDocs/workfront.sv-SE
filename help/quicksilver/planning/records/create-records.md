@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,9 @@ Så här skapar du poster när du kopplar dem från andra poster:
    * Tabellvyn
    * Informationssidan eller förhandsvisningsrutan för en post
 
-1. (Villkorligt) Om du inte kan hitta en post när du försöker lägga till den från det anslutna postfältet för en annan post söker du efter en post och klickar sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter till. Exempel:&quot;Lägg till varumärken&quot; när du lägger till ett varumärke i en befintlig kampanj.
+1. (Villkorligt) Om du inte kan hitta en post när du försöker lägga till den från det anslutna postfältet för en annan post söker du efter en post och klickar sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter till. Exempel:&quot;Lägg till varumärken&quot; när du lägger till ett varumärke i en befintlig kampanj. Namnet som du skrev följer även knappen Lägg till.
+
+   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 

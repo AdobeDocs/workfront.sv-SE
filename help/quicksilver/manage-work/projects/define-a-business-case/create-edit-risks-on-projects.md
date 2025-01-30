@@ -6,14 +6,16 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera risker i projekt
+
+<!--Audited: 01/2025-->
 
 Risker är tänkbara händelser eller faktorer som förhindrar att ett projekt slutförs i tid eller inom budgeten. Risker kan registreras som en del av skapandet av ett projekts affärsfall eller genom att använda fliken Risker. Risker skapas endast i ett projekt. Du kan inte associera risker med uppgifter eller ärenden.
 
@@ -27,30 +29,35 @@ Risker kan kopplas till kostnad, men den faktiska riskkostnaden påverkar inte p
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Nytt: Standard </p>
+   <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt och finansiella data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt och finansiella data</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p> Hantera behörigheter som innehåller Hantera finansiering för det projekt som du vill skapa eller redigera risker för </p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> </td> 
+   <td> <p> Hantera behörigheter som innehåller Hantera finansiering för det projekt som du vill skapa eller redigera risker för </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa och redigera risker i affärsärendet
 
