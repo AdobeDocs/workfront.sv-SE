@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 
 ## Adobe Workfront-förbättringar
 
-* [Administratörsförbättringar](#administrator-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [Andra förbättringar](#other-enhancements)
 
-### Administratörsförbättringar
+<!--### Administrator enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Representera Adobe Admin Console användarändringar som"System" i Workfront uppdateringsfeed</a></p>
-            <p>När administratören för Adobe Admin Console nu gör en ändring i användarinformationen för en Workfront-användare, registrerar Workfront denna ändring på fliken Systemaktivitet i användarens uppdateringsområde som tillhör "System". Detta avser Adobe Admin Console-administratören.</p>
+            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
+            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
-            <p><b>Tillgängligt på följande datum:</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Förhandsversion: 30 januari 2025</li>
-                <li><span class="preview">Produktionsrelease för alla kunder: 30 januari 2025</span></li>
+                <li>Preview release: January 30, 2025</li>
+                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>
+</table>-->
 
 ### Andra förbättringar
 
