@@ -7,9 +7,9 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,13 @@ Du kan skapa ett anpassat datum- eller tidsfält med följande uttryck:
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>ADDHOUR</strong> </td> 
+   <td> <p>Lägger till antalet timmar till datumet och formateras enligt följande:</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>Obs! Den här funktionen stöds inte i Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong>RENSA</strong> </td> 
    <td> <p>Rensar tidsdelen av ett datum och formateras enligt följande. I det här exemplet är datumet startdatum för ett arbetsobjekt.</p>
@@ -378,6 +385,42 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong>ARRAY</strong> </td> 
+   <td> <p>Konverterar en sträng till en array. Avgränsaren kan vara vilken sträng som helst.</p> 
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYLENGTH</strong> </td> 
+   <td> <p>Returnerar antalet element i arrayen och formateras enligt följande:</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>Returnerar elementet vid det angivna talet i arrayen. Om indexvärdet ligger utanför intervallet returneras tomt.</p> 
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Ordnar arrayelementen i stigande ordning och konverterar dem till det första elementets typ.</p>
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Till exempel blir ["-12.6", -13.0] ["-12.6", "-13"].</p>
+   <p>Obs! Den här funktionen stöds inte i Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Ordnar arrayelementen i fallande ordning och konverterar dem till det första elementets typ.</p>
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Till exempel blir ["-12.6", -13.0] ["-13", "-12.6"].</p>
+   <p>Obs! Den här funktionen stöds inte i Workfront Planning.</p></td> 
+  </tr>
+  <tr>   
    <td><strong>ÄRENDE</strong> </td> 
    <td> <p>Används med andra uttryck för att välja ett värde från en lista baserat på ett indexvärde. </p>
    <p>Ett indexvärde är ett fält eller en funktion som returnerar ett numeriskt värde (vanligtvis i ett känt intervall).</p> 
@@ -413,6 +456,13 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong>FORMAT</strong> </td> 
+   <td><p>Returnerar formaterad text. Färgalternativen är $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE och de andra formateringsalternativen är $$BOLD, $$ITALIC, $$UNDERLINE. Endast ett färgalternativ kan användas per funktion, tillsammans med upp till tre andra formateringsalternativ. Om inget färgalternativ anges används systemets standardfärg.</p>
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>Obs! Den här funktionen stöds inte i Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
    <td> <p>Utvärderar ett villkor som du anger och returnerar värdet för trueExpression om det är true, eller värdet för falseExpression om det är false.</p>
@@ -504,18 +554,16 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
    <td> <p>Konverterar ett tal till en sträng och formateras enligt följande:</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>Sorterar en lista med strängar i stigande ordning och formateras enligt följande:</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> Sorterar en lista med strängar i fallande ordning och formateras enligt följande:</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
@@ -523,6 +571,13 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>VÄXLA</strong> </td> 
+   <td> <p>Utvärderar uttrycket mot en lista med värden och returnerar resultatet som motsvarar det första matchande värdet.</p>
+   <p>Uttrycket formateras enligt följande:</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>Den här funktionen stöds inte i Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
    <td> <p>Tar bort mellanrum från början och slutet av en sträng och formateras enligt följande:</p>
