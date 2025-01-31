@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0db9128c2ba679fca4f3540d804b0239077a85d6
+source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
 workflow-type: tm+mt
-source-wordcount: '13013'
+source-wordcount: '13017'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 0%
       * [Adobe Workfront-releaseschema och -process](product-announcements/product-releases/workfront-release-schedule.md)
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * 2025 Q2-utgåvan {#release-25-q2}
-         * [2025 Q2 - versionsöversikt](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)<!--* [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)-->
+         * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
+         * [2025 Q2 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [Andra förbättringar under den andra kvartersutgåvan 2025 ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)<!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
       * 2025 Q1 version {#release-25-q1}
          * [2025 Q1 - versionsöversikt](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)

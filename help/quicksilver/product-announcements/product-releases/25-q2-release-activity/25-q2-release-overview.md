@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
+source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 
 ## Adobe Workfront-förbättringar
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
-<!--### Administrator enhancements
+### Administratörsförbättringar
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            Uttryck som lagts till i beräknade anpassade fält</a></p>
+            <p>Följande uttryck är nu tillgängliga i Workfront beräknade anpassade fält: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT och ADDHOUR. Definitioner och exempel på varje uttryck finns i beräkningsredigeraren och på Experience League.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
-                <li>Preview release: January 30, 2025</li>
-                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
+                <li>Förhandsgranskningsversion: 31 januari 2025</li>
+                <li><span class="preview">Produktionsrelease för alla kunder: 31 januari 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>-->
+</table>
 
 ### Andra förbättringar
 
