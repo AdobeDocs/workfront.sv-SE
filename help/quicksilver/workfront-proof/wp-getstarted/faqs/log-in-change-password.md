@@ -8,7 +8,7 @@ description: Workfront Proof-administratören kan skapa anpassade varumärken f�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -22,6 +22,7 @@ ht-degree: 0%
 >Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Loggar in
+
 
 1. Gå till [inloggningssidan](https://app.proofhq.com/login).
 
@@ -45,6 +46,7 @@ För [!UICONTROL Enterprise]- och [!UICONTROL Unlimited]-planer erbjuder vi enke
 ## När du har glömt lösenordet {#when-you-forget-your-password}
 
 Om du glömmer ditt lösenord kan du få ett e-postmeddelande om att du har återställt det från [!DNL Workfront Proof].
+
 
 1. Gå till [inloggningssidan](https://app.proofhq.com/login).
 

@@ -6,9 +6,9 @@ description: Varje widget innehåller en egen arbetslista. Arbetslister visar al
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,40 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Krav för arbetsuppgifter som ska visas i arbetslistan
+
+Det finns inbyggda krav för vilka arbetsobjekt visas i en viss widgetarbetslista. Arbetsobjekten måste uppfylla dessa krav för att kunna visas i arbetslistorna för följande widget.
+
+### Widgeten Mina uppgifter
+
+Aktiviteter måste uppfylla följande krav för att kunna visas i widgeten Mina uppgifter:
+
+* Aktivitetsstatusen är inte lika med Fullständig.
+* Den inloggade användaren måste tilldelas uppgiften.
+* Aktivitetsstatusen är inte lika med Klar.
+* Det projekt som aktiviteten tillhör måste ha en status som motsvarar aktuell.
+
+
+### Widgeten Mina problem
+
+Problem måste uppfylla följande krav för att visas i widgeten Mina problem:
+
+* Den inloggade användaren måste tilldelas utgåvan.
+* Utfärdandestatusen är inte lika med Fullständig.
+* Det finns inget olöst objekt kopplat till problemet.
+* Utgivningsstatusen är inte lika med Klar.
+* Det projekt som utgåvan tillhör måste ha en status som motsvarar aktuell.
+
+### Min teamwidget
+
+Team-förfrågningar måste uppfylla följande krav för att visas i My Teams-widgeten:
+
+* Den inloggade användaren tillhör det team som arbetsuppgiften är tilldelad.
+* Arbetsuppgiftens status är inte lika med Fullständig.
+* Arbetsuppgiften har ingen bifogad godkännandeprocess.
+* Arbetsuppgiften är inte en återkommande uppgift.
+* Det projekt som arbetsuppgiften tillhör måste ha en status som motsvarar aktuell.
 
 ## Filtrera ditt arbete
 
