@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -181,18 +181,16 @@ OLD:
 
 Adobe Workfront Planning-formelfält har stöd för de flesta uttryck från Workfront beräkningsfält.
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>Följande Workfront-uttryck stöds inte för Workfront Planning-formelfält:
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* SWITCH
+>* VÄXLA
 >* FORMAT
--->
+
 
 En fullständig lista över Workfront-uttryck finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
@@ -211,21 +209,6 @@ Dessutom stöder vi följande uttryck för formelfält för Workfront Planning. 
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>ARRAY</strong> </td>
-   <td> <p>Konverterar en sträng till en array. Avgränsaren kan vara vilken sträng som helst.</p>
-   <p>Uttrycket formateras på följande sätt:</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>Returnerar elementet vid det angivna talet i arrayen. Om indexvärdet ligger utanför intervallet returneras tomt.</p>
-   <p>Uttrycket formateras på följande sätt:</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Returnerar sammanfogad sträng med avgränsare.</p> <p>Uttrycket formateras på följande sätt:
@@ -233,14 +216,7 @@ Dessutom stöder vi följande uttryck för formelfält för Workfront Planning. 
 <code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>ARRAYLENGTH</strong> </td>
-   <td> <p>Returnerar antalet element i arrayen och formateras enligt följande:</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Returnerar en array med unika värden.</p> <p>Uttrycket formateras på följande sätt:
 

@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >     eller
 >        
 >   * Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna.
->       Mer information finns i [Adobe Workfront priser och paketering](https://www.workfront.com/plans).
+>      
 >      
 >* För aktuell plan och licensstruktur:
 >    
