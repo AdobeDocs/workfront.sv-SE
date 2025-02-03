@@ -3,9 +3,9 @@ title: Dokumentation för [!DNL Adobe Workfront]
 description: Dokumentation för  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 1343695894b22e3d820e2abaf0c377f72d39aab1
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
 
 >[!TAB Senaste versionen]
 
+* [Andra utgåvan, kvartal 2025, översikt](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [Första utgåvan, kvartal 2025, översikt](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [Fjärde kvartersversionen 2024 - översikt](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
