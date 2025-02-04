@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ Vi har uppdaterat listorna Projekt, Uppgift och Utfärda godkännanden i Konfigu
 Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
 
 ## Agile
+
+## Gränssnittsuppdatering för Teams > Backlog
+
+**Förhandsversion: 23 januari 2025; Produktionsversion: Från och med 13 februari 2025**
+
+Vi har uppdaterat Teams > Backlog-området med en modernare design som är förenlig med andra delar av Workfront.
+
+Uppdateringen innehåller följande ändringar:
+
+* Visuella förbättringar på fliken Artiklar och Problem samt dialogrutan Brytningsartikel
+* En ny dialogruta för verktyget Planera iterering
 
 ### Gränssnittsuppdatering för Iterations-listan
 

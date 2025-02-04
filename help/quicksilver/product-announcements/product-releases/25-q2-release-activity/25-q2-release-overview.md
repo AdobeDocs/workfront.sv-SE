@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
+source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -83,20 +83,20 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
             </ul>
         </td>
     </tr>
-    <tr>
+    <!--<tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Uppdateringar av utseende och känsla under andra kvartalet 2025</a></p>
-            <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för andra kvartalet 2025. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
+            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
         </td>
         <td>
-            <p><b>Tillgängligt på följande datum:</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Förhandsgranskningsversion: Under den andra kvartersutgåvan 2025</li>
-                <li><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></li>
+                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
+                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>
+    </tr>-->
 </tbody>
 </table>
 
