@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1741'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,6 @@ Den här åtkomstnivån är kopplad till Light-licensen och är utformad för an
 * Visa instrumentpaneler och rapporter
 * Spåra tid och godkänn tidrapporter
 * Skapa och hantera problem
-* Gör uppdateringar på jobbet
 
 Användare med åtkomstnivån Light:
 
