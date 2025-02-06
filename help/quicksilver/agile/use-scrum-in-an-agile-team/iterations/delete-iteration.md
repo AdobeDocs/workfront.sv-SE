@@ -6,9 +6,9 @@ description: Du kan ta bort en iteration för ditt mobila team om det inte läng
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -57,4 +57,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj **[!UICONTROL Iterations]** i den vänstra panelen.
-1. Markera den iteration som du vill ta bort och klicka sedan på **[!UICONTROL Delete]**.
+1. Markera den iteration som du vill ta bort och klicka sedan på ikonen [!UICONTROL **Ta bort**] ![Ta bort](assets/delete-icon.png) .

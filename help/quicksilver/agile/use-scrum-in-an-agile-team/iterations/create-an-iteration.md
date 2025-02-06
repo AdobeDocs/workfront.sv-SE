@@ -6,9 +6,9 @@ description: Iterationer är en nyckelkomponent för Scrum-team när det gäller
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,19 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Lägga till en upprepning
 
-Använd funktionen [!UICONTROL Add Iteration] för att snabbt skapa en iteration och lägga till uppgifter och problem senare.
+Du kan lägga till en iteration i listan för att snabbt skapa en iteration och lägga till uppgifter och problem senare.
 
 {{step1-to-team}}
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Klicka på **[!UICONTROL Add Iteration]** på fliken **[!UICONTROL Iterations]**.
-   ![](assets/add-iteration-adobe-350x275.png)
+1. Klicka på **[!UICONTROL Add iteration]** på fliken **[!UICONTROL Iterations]**.
+
+   ![Klicka på Lägg till upprepning](assets/click-add-iteration.png)
 
 1. Ange följande:
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ Använd funktionen [!UICONTROL Add Iteration] för att snabbt skapa en iteration
     </tbody> 
    </table>
 
-1. Klicka på **[!UICONTROL Submit]**. Nu när du har skapat en upprepning måste du lägga till artiklar. Mer information finns i [Lägga till artiklar i en befintlig iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. Klicka på **[!UICONTROL Add iteration]**. Nu när du har skapat en upprepning måste du lägga till artiklar. Mer information finns i [Lägga till artiklar i en befintlig iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Planera en iteration på fliken [!UICONTROL Backlog]
 

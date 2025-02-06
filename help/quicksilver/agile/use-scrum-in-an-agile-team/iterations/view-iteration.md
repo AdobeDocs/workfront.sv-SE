@@ -6,7 +6,7 @@ description: Du kan visa alla iterationer för ett visst team eller så kan du v
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
 
-   ![Iterationslista](assets/view-iteration-NWE.png)
+   ![Iterationslista](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
