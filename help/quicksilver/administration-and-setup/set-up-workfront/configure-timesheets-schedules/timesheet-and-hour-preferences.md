@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. (Valfritt) I sökrutan **Systemtidrapporter och timinställningar** börjar du skriva namnet på en grupp och markerar den när den visas i listan.
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![Sök efter gruppruta](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    Sidan Inställningar för tidrapport och timmar uppdateras med inställningarna för den valda gruppen. Inställningarna på systemnivå måste vara olåsta för att du ska kunna ändra inställningarna på gruppnivå. Mer information finns i avsnittet [Lås upp tidrapport och timinställningar för grupper](#unlock-timesheet-and-hour-preferences-for-groups) i den här artikeln.
 
@@ -212,8 +212,8 @@ Så här låser du upp en projektinställning så att grupper kan konfigurera de
 
 1. Gör något av följande:
 
-   * Om du vill att gruppadministratörer ska kunna konfigurera en inställning för sina grupper klickar du på **låset** för att låsa upp den. ![](assets/unlock-toggle-button.png)
-   * Om du vill att alla grupper ska använda din konfiguration för en inställning måste du se till att växlingen är låst ![](assets/locked-preference-toggle.png) (detta är standardinställningen).
+   * Om du vill att gruppadministratörer ska kunna konfigurera en inställning för sina grupper klickar du på **upplåsningsomkopplaren** ![upplåsningsomkopplaren](assets/unlock-toggle-button.png) för att låsa upp den.
+   * Om du vill att alla grupper ska använda din konfiguration för en inställning, kontrollerar du att växlingen är låst ![Inställningen är låst](assets/locked-preference-toggle.png) (detta är standardinställningen).
 
      >[!IMPORTANT]
      >

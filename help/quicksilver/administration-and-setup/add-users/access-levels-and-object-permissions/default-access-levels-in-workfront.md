@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1715'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Den inbyggda åtkomstnivån för systemadministratörer är kopplad till avtalsl
 
 Användare med åtkomstnivån Systemadministratör kan göra allt i Workfront. De kan visa och redigera alla Workfront-objekt och all information som andra användare har angett i Workfront.
 
-De har också fullständig åtkomst till inställningsområdet, där de kan ändra alla inställningar på systemnivå. Och de kan komma åt alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om de är tillgängliga.
+De har också fullständig åtkomst till inställningsområdet, där de kan ändra alla inställningar på systemnivå. De har även åtkomst till alla områden på huvudmenyn ![Huvudmenyikonen](assets/main-menu-icon.png) eller huvudmenyikonen ![Huvudmeny](assets/main-menu-icon.png), om den är tillgänglig.
 
 Mer information finns i [Bevilja en användare fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -86,7 +86,7 @@ Planneråtkomstnivån är även kopplad till avtalslicensen och är utformad fö
 * Alla som ansvarar för planering, skapande och hantering av uppgifter, projekt, portfolior och program
 * Alla som ansvarar för att tilldela arbete (uppgifter och ärenden) till andra användare
 * Användare som skapar rapporter och som godkänner tidrapporter, arbetsuppgifter och dokument
-* Användare som behöver åtkomst till alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om sådana finns
+* Användare som behöver åtkomst till alla områden på huvudmenyn ![Ikon för huvudmeny](assets/main-menu-icon.png) eller huvudmeny ![ikon för huvudmeny](assets/main-menu-icon.png), om den är tillgänglig
 
 Du kan skapa en anpassad version av den inbyggda åtkomstnivån för planeraren och fastställa hur mycket åtkomst den tillåter för de olika Workfront-objekttyperna. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -122,7 +122,7 @@ Användare med den här åtkomstnivån:
 * Kan godkänna arbete och dokument, men inte tidrapporter
 * Kan få åtkomst till och dela rapporter
 * Kan kommunicera med andra användare i systemet
-* Det går inte att komma åt alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om den är tillgänglig, och deras användarområde heter Teams. I Teams-området kan användare med den här åtkomstnivån bara visa team som de tillhör, tillsammans med arbetet som tilldelats dessa team.
+* Det går inte att komma åt alla områden på huvudmenyn ![Huvudmenyikon](assets/main-menu-icon.png) eller huvudmenyikonen ![Huvudmeny](assets/main-menu-icon.png), om den är tillgänglig, och deras&quot;Användare&quot;-område heter Teams. I Teams-området kan användare med den här åtkomstnivån bara visa team som de tillhör, tillsammans med arbetet som tilldelats dessa team.
 * Har begränsad möjlighet att skapa objekt - de kan inte skapa projekt, portfolior, program eller rapporter.
 
 Du kan skapa en anpassad version av den inbyggda åtkomstnivån för Worker och bestämma hur mycket åtkomst den tillåter för de olika Workfront-objekttyperna. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -158,7 +158,7 @@ En berörd part med denna åtkomstnivå kan till exempel logga in på Workfront 
 Användare med åtkomstnivån Reviewer:
 
 * Det går inte att tilldela arbetsobjekt eller godkänna tidrapporter
-* Kan komma åt områdena Begäranden och dokument på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om det är tillgängligt
+* Kan komma åt områdena Begäranden och dokument på huvudmenyn ![Ikon för huvudmeny](assets/main-menu-icon.png) eller huvudmeny ![Ikon för huvudmeny](assets/main-menu-icon.png), om sådana finns
 * Har begränsad möjlighet att skapa objekt - de kan inte skapa projekt, portfolior, program eller rapporter.
 
 Du kan skapa en anpassad version av den inbyggda åtkomstnivån i Reviewer och bestämma hur mycket åtkomst den tillåter för de olika Workfront-objekttyperna. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -285,7 +285,7 @@ Användare med den här åtkomstnivån:
 * Kan överföra och godkänna dokument
 * Kan granska status för de utgåvor som de har skickat in
 * Det går inte att tilldela arbetsobjekt
-* Kan bara komma åt begäranden från området Begäranden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om det är tillgängligt. Mer information om begärandeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Det går bara att komma åt begäranden från området Förfrågningar på huvudmenyn ![Ikon för huvudmeny](assets/main-menu-icon.png) eller huvudmenyikon ![Huvudmeny](assets/main-menu-icon.png), om den är tillgänglig. Mer information om begärandeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Du kan skapa en anpassad version av den inbyggda åtkomstnivån för den begärande och fastställa hur mycket åtkomst den tillåter för de olika Workfront-objekttyperna. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

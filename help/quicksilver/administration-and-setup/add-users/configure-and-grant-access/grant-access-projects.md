@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Konfigurera användaråtkomst till projekt med en anpassad åtkomstnivå
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Projekt och välj sedan de funktioner som du vill ge under **Finjustera inställningarna**.
+1. Klicka på kugghjulsikonen ![Kugghjulsinställningar](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Projekt och välj sedan de funktioner som du vill ge under **Finjustera dina inställningar**.
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![Finjustera inställningarna för kopiering av projekt](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

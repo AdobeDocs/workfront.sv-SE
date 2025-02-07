@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Klicka på **Status** i den vänstra panelen.
 1. Håll markören över den status som du vill ta bort i listan med statusar som visas och klicka sedan på **Ta bort** när den visas längst till höger.
 
-   ![](assets/hover-click-delete.jpg)
+   ![Ta bort](assets/hover-click-delete.jpg)
 
 1. I den ruta som visas väljer du en status för att ange en ersättningsstatus för objekt (projekt, uppgifter, utgåvor och godkännandeprocesser) som använder den status som du håller på att ta bort.
 

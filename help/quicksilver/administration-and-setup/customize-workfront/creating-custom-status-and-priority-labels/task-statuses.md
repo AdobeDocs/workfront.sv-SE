@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Mer information om hur du redigerar systemstatus eller skapar nya anpassade stat
 
    De uppgiftsstatusvärden som är tillgängliga i Workfront visas på den här fliken.
 
-   ![](assets/task-status.png)
+   ![Aktivitetsstatus](assets/task-status.png)
 
    Mer information om de inbyggda aktivitetsstatusarna finns i [Systemuppgiftsstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 

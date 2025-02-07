@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -226,11 +226,11 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
  </tbody> 
 </table>
 
-&#42; I gruppadministratörens åtkomstnivå måste **Redigera** väljas för inställningen **Användare**, med **Användaradministratör (gruppanvändare)** markerad under **Finjustera inställningarna** ![](assets/gear-icon-in-access-levels.png). Mer information finns i avsnittet [Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) i artikeln [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; I gruppadministratörens åtkomstnivå måste **Redigera** väljas för inställningen **Användare**, med **Användaradministratör (gruppanvändare)** markerat under **Finjustera inställningarna** ![Finjustera inställningarna](assets/gear-icon-in-access-levels.png). Mer information finns i avsnittet [Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) i artikeln [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; I gruppadministratörens åtkomstnivå måste åtkomsten till den här åtgärden vara aktiverad. Mer information finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Följande aktiviteter ingår i Avancerade företagskontroller och är inte tillgängliga för Select-planen. Det är bara organisationer som har köpt Prime- eller Ultimate-planerna som har tillgång till dessa funktioner.  Mer information om prenumerationer finns på sidan [Priser och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html). (För organisationer som använder äldre planer visas aktiviteterna för grupp- och undergruppsadministratörer i tabellen ovan.)
+&#42;&#42;&#42; Följande aktiviteter ingår i Avancerade företagskontroller och är inte tillgängliga för Select-planen. Det är bara organisationer som har köpt Prime- eller Ultimate-planer som har tillgång till dessa funktioner.  Mer information om prenumerationer finns på sidan [Priser och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html). (För organisationer som använder äldre planer visas aktiviteterna för grupp- och undergruppsadministratörer i tabellen ovan.)
 
 * Konfigurera projekt-, uppgifts- och utgivningsinställningar på gruppnivå
 * Konfigurera tidrapport och timinställningar på gruppnivå

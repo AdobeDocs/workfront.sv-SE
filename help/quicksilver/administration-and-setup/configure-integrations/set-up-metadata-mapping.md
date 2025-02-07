@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Innan du kan mappa fält för metadatamappningsprocessen måste du aktivera prog
 
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]** i den vänstra panelen.
 
-   ![](assets/metadata-mapping.png)
+   ![Metadatamappning](assets/metadata-mapping.png)
 
 1. I rutan **[!UICONTROL Select Source Field for Mapping]** börjar du skriva namnet på det Workfront-fält som du vill mappa till [!DNL Workfront DAM] och markerar det sedan när du ser det i listan.
 1. I rutan **[!UICONTROL Select Target Field for Mapping]** markerar du det fält som du vill fylla i med informationen i det markerade [!DNL Workfront]-fältet.

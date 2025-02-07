@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Medverkande på den nya licensmodellen måste ha tilldelats ett alternativ för 
 
 Så här visar du vilka åtkomstnivåer som har tilldelats som alternativ för automatisk uppgradering:
 <!--
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png.png). -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png). -->
 
 1. Klicka på **Åtkomstnivåer** i den högra panelen.
 
@@ -42,6 +42,6 @@ Så här visar du vilka åtkomstnivåer som har tilldelats som alternativ för a
 
 Så här tilldelar du ett nytt alternativ för automatisk uppgradering till en åtkomstnivå:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
 
 1. Klicka på **Åtkomstnivåer** i den högra panelen.

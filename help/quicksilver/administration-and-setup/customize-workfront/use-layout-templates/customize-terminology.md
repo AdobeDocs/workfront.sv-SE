@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 1. Klicka på **Ange terminologi** i det övre högra hörnet på sidan.
 1. Gör något av följande:
 
-   * Om du vill använda en alternativ term som tillhandahålls av Workfront klickar du på nedpilen ![](assets/dropdown-arrow.png) bredvid etiketten och sedan på den alternativa etiketten som du vill använda i listrutan.
+   * Om du vill använda en alternativ term som tillhandahålls av Workfront klickar du på nedpilen ![nedpilen](assets/dropdown-arrow.png) bredvid etiketten och klickar sedan på den alternativa etiketten som du vill använda i listrutan.
 
      >[!NOTE]
      >

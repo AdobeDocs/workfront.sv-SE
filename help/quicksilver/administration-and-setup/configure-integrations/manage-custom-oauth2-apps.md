@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Mer information finns i [Skapa OAuth2-program för [!DNL Workfront] integreringa
 
 1. Klicka på **[!UICONTROL System]** i den vänstra navigeringspanelen och välj sedan **[!UICONTROL OAuth Applications]**.
 1. Klicka på **[!UICONTROL Create app integration]**.
-1. Hovra över programmet och klicka på **[!UICONTROL Edit]** ![](assets/edit-icon.png) när det visas längst till höger.
+1. Hovra över programmet och klicka på ikonen **[!UICONTROL Edit]** ![Redigera](assets/edit-icon.png) när den visas längst till höger.
 1. (Valfritt) Redigera information om programmet.
 
    Fälten för OAuth2- och JWT-program finns i [Skapa OAuth2-program för [!DNL Workfront] integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md).
@@ -87,7 +87,7 @@ Mer information finns i [Skapa OAuth2-program för [!DNL Workfront] integreringa
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL System]** i den vänstra navigeringspanelen och välj sedan **[!UICONTROL OAuth Applications]**.
-1. Hovra över programmet och klicka på **[!UICONTROL Delete]** ![](assets/delete.png) när det visas längst till höger.
+1. Hovra över programmet och klicka på **[!UICONTROL Delete]** ![Ta bort](assets/delete.png) när det visas längst till höger.
 
 ## Hantera klienthemligheter i OAuth2-program
 
@@ -143,4 +143,4 @@ Mer information finns i [Skapa OAuth2-program för [!DNL Workfront] integreringa
 1. Klicka på **[!UICONTROL Create app integration]**.
 1. Håll pekaren över programmet och klicka på ikonen **[!UICONTROL Edit]** när den visas längst till höger.
 1. Leta reda på den klienthemlighet som du vill ta bort.
-1. Klicka på ikonen **[!UICONTROL Delete]** ![](assets/delete.png) bredvid Klienthemligheten.
+1. Klicka på ikonen **[!UICONTROL Delete]** ![Ta bort](assets/delete.png) intill klienthemligheten.

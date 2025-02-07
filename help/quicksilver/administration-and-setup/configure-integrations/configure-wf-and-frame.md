@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,9 @@ Så här aktiverar du användare av Frame.io:
 
 {{step-1-to-users}}
 
-1. Markera en eller flera användare och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Markera en eller flera användare och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
 1. Aktivera kryssrutan Lägg till i projekt i Frame.io i åtkomstavsnittet och välj sedan **Yes** i listrutan.
-   ![](assets/add-to-frame-project.png)
+   ![Lägg till i bildruteprojekt](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >

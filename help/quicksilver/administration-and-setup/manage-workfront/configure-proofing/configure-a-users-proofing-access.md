@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Om användarna i din organisation föredrar att använda Desktop Proofing Viewer
 
 1. I Workfront klickar du på Workfront Proof-ikonen i det globala navigeringsfältet för att komma åt Workfront Proof.
 
-   ![](assets/proof-access-proofhq-350x39.png)
+   ![Korrekturikon](assets/proof-access-proofhq-350x39.png)
 
 1. Klicka på **Kontoinställningar** i det övre högra hörnet av Workfront Proof och klicka sedan på fliken **Inställningar** .
 

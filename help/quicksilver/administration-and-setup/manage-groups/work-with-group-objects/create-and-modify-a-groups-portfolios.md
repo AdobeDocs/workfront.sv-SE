@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill skapa, visa eller arbeta med portföljer för.
 1. Klicka på **Portfolio** i den vänstra panelen för att visa de portföljer som är kopplade till gruppen (och eventuella undergrupper under den).

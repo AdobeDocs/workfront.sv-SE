@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
+source-wordcount: '6492'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Klicka på **Nytt anpassat formulär.**
 1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Välj objekttyp](assets/choose-object-type.jpg)
 
 1. Skriv den anpassade formulärtiteln i området **Titel krävs**.
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![](assets/add-objects-icon.png) efter **objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) efter **objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
    Du kan också klicka på X för en objekttyp för att ta bort den från formuläret.
 
@@ -179,7 +179,7 @@ Lägga till ett textfält:
    * Text med formatering
    * Beskrivning
 
-   ![](assets/drag-field-to-section.png)
+   ![Dra fält till avsnitt](assets/drag-field-to-section.png)
 
 1. Till höger på skärmen konfigurerar du de alternativ som är tillgängliga för den typ av anpassat fält som du lägger till:
 
@@ -464,7 +464,7 @@ Så här lägger du till texthuvud- och datumfält:
    * Typeahead
    * Datum
 
-   ![](assets/drag-field-to-section.png)
+   ![Dra fält till avsnitt](assets/drag-field-to-section.png)
 
 1. Till höger på skärmen konfigurerar du de alternativ som är tillgängliga för den typ av anpassat fält som du lägger till:
 
@@ -698,7 +698,7 @@ Så här lägger du till bilder, PDF eller videofilmer:
    * PDF
    * Video
 
-   ![](assets/drag-field-to-section.png)
+   ![Dra fält till avsnitt](assets/drag-field-to-section.png)
 
 1. Ange eller redigera någon av följande egenskaper för widgeten:
 

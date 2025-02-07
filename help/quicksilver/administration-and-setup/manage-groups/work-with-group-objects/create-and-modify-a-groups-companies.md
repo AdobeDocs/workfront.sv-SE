@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill skapa eller ändra företag för.
 1. Klicka på **Företag** i den vänstra panelen för att visa en lista över de företag som är associerade med gruppen och eventuella undergrupper som den har.
@@ -86,8 +86,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >
    >Om du har administrativ åtkomst till företag på din åtkomstnivå kan du även klicka på Lägg till fler företag längst ned i listan. Då läggs en rad till där du snabbt kan konfigurera det nya företaget.
 
-1. (Valfritt) Om du vill redigera eller ta bort företag markerar du minst ett företag och använder sedan verktygsfältsknapparna för att redigera ![](assets/edit-icon.png) eller ta bort ![](assets/delete.png) det.
+1. (Valfritt) Om du vill redigera eller ta bort företag markerar du minst ett företag och använder sedan verktygsfältsknapparna för att redigera ![redigeringsikonen](assets/edit-icon.png) eller tar bort ![ikonen Ta bort](assets/delete.png) den.
 
    Mer information om hur du redigerar ett företag finns i avsnittet [Skapa eller redigera ett företag i Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) i artikeln [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Valfritt) Om du vill exportera listan med företag klickar du på ikonen Exportera ![](assets/export.png) och väljer sedan det filformat som du vill använda för den exporterade listan.
+1. (Valfritt) Om du vill exportera listan med företag klickar du på ikonen Exportera ![ikonen Exportera](assets/export.png) och väljer sedan det filformat som du vill använda för den exporterade listan.

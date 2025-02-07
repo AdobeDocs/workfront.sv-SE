@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Som Workfront-administratör kan du ändra ordningen för projekt-, uppgifts- oc
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![Status](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Som standard visas statusvärden i följande ordning:
 1. Klicka på **Projektinställningar > Status** i den vänstra panelen.
 1. (Villkorligt) Om du ändrar ordning på statusarna för en grupp börjar du skriva namnet på gruppen i rutan i det övre högra hörnet och klickar sedan på namnet när det visas.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Systemstatus](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Ovanför statuslistan som visas klickar du på fliken **Projekt** eller **Åtgärder** .
 
@@ -137,12 +137,12 @@ Som standard visas statusvärden i följande ordning:
 
 ## Ändra ordning på statusvärden för utgåvor
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
 
 1. Klicka på **Projektinställningar > Status.**
 1. (Villkorligt) Om du ändrar ordning på statusarna för en grupp börjar du skriva namnet på gruppen i rutan i det övre högra hörnet och klickar sedan på namnet när det visas.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![Utfärdandestatus för gruppen](assets/issue-statuses-group-name.png)
 
 1. Klicka på fliken **Problem**.
 1. (Valfritt) Välj en problemtyp (**Felrapport**, **Ändra ordning**, **Problem** eller **Begäran**).

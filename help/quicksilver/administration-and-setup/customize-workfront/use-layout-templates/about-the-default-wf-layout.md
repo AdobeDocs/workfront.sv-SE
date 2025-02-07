@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
 # Om Adobe Workfront standardlayout
 
-Standardlayouten är placeringen av huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om den är tillgänglig, den vänstra panelen och vyerna, grupperingarna och filtren innan en Adobe Workfront-administratör gör några ändringar med hjälp av en layoutmall.
+Standardlayouten är placeringen av huvudmenyikonen ![Huvudmeny](assets/main-menu-icon.png) eller huvudmenyikonen ![Huvudmeny](assets/main-menu-icon.png) (om den är tillgänglig), den vänstra panelen och vyerna, grupperingarna och filtren innan en Adobe Workfront-administratör gör några ändringar med hjälp av en layoutmall.
 
 Information om hur en Workfront-administratör kan ändra en användares standardlayout genom att tilldela användaren en layoutmall finns i [Tilldela användare till en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 

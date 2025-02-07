@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Som Adobe Workfront-administratör eller gruppadministratör kan du använda en 
 >
 >Det går för närvarande att anpassa objektrubriker för projekt, uppgifter och ärenden.
 
-![](assets/object-header-fields.png)
+![Objektrubrikfält](assets/object-header-fields.png)
 
 Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -80,7 +80,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![Objektrubrikfält döljer och flyttar ikoner](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. Du kan ha upp till fem fält i ett objekts sidhuvud.
 Om du redan har markerat fem fält måste du ta bort ett fält innan du kan lägga till ett nytt.
@@ -95,7 +95,7 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
    >* När du lägger till fältet &quot;Löst av&quot; i huvudet på ett problem, ändras fältet till &quot;Lösa problem, Aktivitet eller Projekt&quot;, när det finns ett matchande objekt kopplat till problemet.
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![Lägg till fält i rubrik](assets/add-field-to-header-in-lt-list.png)
 
 
 1. (Valfritt) Dra och släpp fält som lagts till i en annan ordning.

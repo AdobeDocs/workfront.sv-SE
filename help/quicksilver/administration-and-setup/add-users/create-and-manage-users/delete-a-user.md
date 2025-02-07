@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Du kan ta bort användare en åt gången permanent eller ta bort flera användar
 
 {{step-1-to-users}}
 
-1. Markera minst en användare som du vill ta bort, klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Ta bort**.
+1. Markera minst en användare som du vill ta bort, klicka på Mer-menyn ![Mer-ikon](assets/more-icon.png) och klicka sedan på **Ta bort**.
 1. I rutan som visas klickar du på **Ta bort** för att bekräfta borttagningen.
 
    Processen att ta bort användare körs som en bakgrundsprocess, så du kan fortsätta använda Workfront när användaren eller användarna tas bort.

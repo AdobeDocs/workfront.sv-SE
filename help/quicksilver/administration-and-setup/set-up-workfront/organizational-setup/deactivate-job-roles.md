@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Vi rekommenderar att du gör följande innan du inaktiverar en oanvänd jobbroll
 1. Klicka på namnet på den jobbroll som du vill inaktivera.
 1. Välj **[!UICONTROL No]** i listrutan **[!UICONTROL Is Active]**.
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Inaktivera jobbroll](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 

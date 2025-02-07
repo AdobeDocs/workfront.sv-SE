@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Om en uppgift till exempel tilldelas på fredag och har en varaktighet på 3 förflutna dagar, är aktivitetens slutförandedatum inställt på måndag (förutsatt att lördag och söndag är en helg). Om aktiviteten har en varaktighet på 3 dagar (inte förfluten), är datumet för aktivitetens slutförande inställt på onsdag.
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![Tidsintervall](assets/time-increments-for-automatic-reminder.png)
 
 1. Klicka på **Spara**.
 

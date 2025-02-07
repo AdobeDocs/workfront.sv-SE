@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Du kan lägga till ytterligare objekttyper i formuläret så att det kan kopplas
 
 1. Klicka på plustecknet + efter **Objekttyper** längst upp i formuläret och välj sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
-   ![](assets/add-new-object.png)
+   ![Lägg till nytt objekt](assets/add-new-object.png)
 
 1. Klicka på **Spara och stäng**.
 
@@ -98,7 +98,7 @@ Så här tar du bort en objekttyp:
 1. Markera det anpassade formulär som du vill redigera och klicka sedan på ikonen ![Redigera](assets/edit-icon2.png).
 1. Klicka på X på någon av de **objekttyper** som du vill ta bort från formuläret.
 
-   ![](assets/delete-object-types.png)
+   ![Ta bort objekttyper](assets/delete-object-types.png)
 
 1. (Valfritt) Upprepa föregående steg för andra objekttyper som du vill ta bort från formuläret.
 1. Klicka på **Använd** och sedan på **Spara och stäng**.

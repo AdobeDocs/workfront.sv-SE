@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Förhandsvisningsmiljön är idealisk för att köra utbildningar, testa nya fun
 >
 >Namnet på miljön som du använder (förhandsversion) och den officiella versionen av koden visas på banderollen. Klicka på **[!UICONTROL See what's new]** om du vill ha information om den versionen.
 >
->![](assets/preview-banner-nwe-350x161.png)
+>![Förhandsgranska banderoll](assets/preview-banner-nwe-350x161.png)
 
 ## Åtkomst till sandlådan Förhandsgranska
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Välj fliken för objekttypen (**Projekt**, **Aktivitet** eller **Problem**) där villkoret som du vill ta bort finns.
 
-1. Håll pekaren över det villkor som du vill ta bort och klicka sedan på ikonen **Ta bort** ![](assets/delete.png) som visas längst till höger.
+1. Håll pekaren över villkoret som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort](assets/delete.png) som visas längst till höger.
 1. Klicka på **Ta bort villkor** i bekräftelsemeddelandet som visas.
 
 1. I rutan **Ta bort villkor** som visas väljer du ett nytt villkor i listrutan för alla projekt som använder villkoret som du tar bort.

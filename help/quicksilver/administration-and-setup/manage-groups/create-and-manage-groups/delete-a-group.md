@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
-1. Markera gruppen som du vill ta bort och klicka sedan på ikonen Ta bort ![](assets/delete.png).
+1. Markera gruppen som du vill ta bort och klicka sedan på ikonen Ta bort ![Ta bort](assets/delete.png).
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. I rutan **Ta bort grupp** som visas börjar du skriva och markerar sedan namnet på gruppen där du vill flytta medlemmarna, arbetsobjekten och undergrupperna i gruppen som du vill ta bort.
 
-   Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen ![](assets/info-icon.png) som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.
+   Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen ![informationsikonen](assets/info-icon.png) som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.
 
 1. Klicka på **Ta bort dem**.

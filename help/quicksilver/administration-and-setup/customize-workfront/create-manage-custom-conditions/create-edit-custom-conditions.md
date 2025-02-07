@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Om du vill redigera ett befintligt villkor håller du pekaren över villkoret som du vill redigera och klickar sedan på ikonen **Redigera** som visas längst till höger.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![Anpassat villkor](assets/custom-condition-edit-nwe.jpg)
 
 1. Konfigurera ditt anpassade tillstånd med följande alternativ:
 
@@ -110,21 +110,21 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Du kan standardisera villkorsterminologi och färger för alla tre objekttyperna. Det gör du genom att kopiera villkorsnamnet och färghexkoden från en flik (Projekt, Aktivitet, Utgåva) till motsvarande villkor på de två andra flikarna.
 
-1. (Valfritt) Dra ![](assets/move-icon---dots.png) vilket villkor som helst till en ny plats för att ändra ordningen på listan.
+1. (Valfritt) Dra ikonen ![Flytta](assets/move-icon---dots.png) om det finns ett villkor till en ny plats om du vill ändra ordningen på listan.
 
    Detta ändrar den ordning i vilken villkoren visas i projekt, uppgifter och ärenden:
 
    * När en användare redigerar ett projekt
 
-     ![](assets/change-condition-edit-project.png)
+     ![Ändra villkor vid redigering av projekt](assets/change-condition-edit-project.png)
 
    * När en användare ändrar villkoret för en uppgift eller ett problem på fliken Uppdateringar:
 
-     ![](assets/change-condition-update-comment.png)
+     ![Ändra villkor vid uppdatering av kommentar](assets/change-condition-update-comment.png)
 
    * När en användare ändrar villkoret för en uppgift eller ett problem i en listvy:
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![Ändra villkor i listan](assets/change-conditions-list-dropdown-only.png)
 
 1. Klicka på **Spara**.
 

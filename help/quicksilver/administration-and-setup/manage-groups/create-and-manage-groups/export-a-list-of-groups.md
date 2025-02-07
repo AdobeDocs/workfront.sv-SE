@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -58,14 +58,14 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
-1. Om du vill exportera hela gruppen med grupper som du hanterar klickar du på ikonen Exportera ![](assets/export.png).
+1. Om du vill exportera hela gruppen med grupper som du hanterar klickar du på ikonen Exportera ![ikonen Exportera](assets/export.png).
 
    eller
 
-   Om du vill exportera några av de grupper som du hanterar markerar du de grupperna och klickar sedan på ikonen Exportera ![](assets/export.png).
+   Om du vill exportera några av de grupper som du hanterar markerar du de grupperna och klickar sedan på ikonen Exportera ![ikonen Exportera](assets/export.png).
 
 1. Välj det filformat som du vill använda för den exporterade listan.

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Om du aktiverar alternativet **Tillåt inbäddning av Workfront i en iframe** inaktiveras alternativet **Tillåt SAML 2.0-autentisering i Office 365-tillägg** och aktiveras.
    >
-   >![](assets/if-you-enable.png)
+   >![Tillåt inbäddningsalternativ](assets/if-you-enable.png)
    >
 
 1. Klicka på **Spara**.

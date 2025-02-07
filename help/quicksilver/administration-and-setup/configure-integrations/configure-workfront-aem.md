@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Mer information om [!DNL Workfront] behörigheter finns i [Skapa eller ändra an
 
 1. Klicka på fliken **[!UICONTROL Groups]**.
 
-   ![](assets/groupstab.png)
+   ![Fliken Grupper](assets/groupstab.png)
 
 1. Se till att användaren tillhör minst en [!DNL Workfront]-grupp som har åtkomstnivåer som innehåller behörigheterna [!UICONTROL Create] och [!UICONTROL Delete].
 

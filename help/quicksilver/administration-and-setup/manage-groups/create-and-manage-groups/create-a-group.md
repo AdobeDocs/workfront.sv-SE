@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1656'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Du måste vara Workfront-administratör för att kunna skapa en högnivågrupp.
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
 1. Ovanför listan med grupper klickar du på **Ny grupp**.
 
@@ -141,11 +141,11 @@ Så här skapar du en ny grupp på den översta nivån genom att kopiera en grup
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
-1. Markera gruppen som du vill kopiera och klicka sedan på ikonen Kopiera ![](assets/copy-icon.png).
+1. Markera gruppen som du vill kopiera och klicka sedan på ikonen Kopiera ![Kopiera](assets/copy-icon.png).
 1. Skriv ett **gruppnamn** för den kopierade gruppen i rutan **Kopiera grupp**.
 
 1. Ange följande information:

@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Du måste aktivera meddelanden under Konfigurera i Workfront innan användare ka
 
 1. Klicka på **E-post** > **Meddelanden**.
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![Meddelandeområdet under e-postinställningarna](assets/notifications-area-under-setup-emails.png)
 
 
 1. Kontrollera att fliken **Händelsemeddelanden** är öppen.
@@ -88,7 +88,7 @@ Du måste aktivera meddelanden under Konfigurera i Workfront innan användare ka
 
    Mer information om hur du anpassar ämnesraderna i e-postmeddelanden finns i [Anpassa e-postämnen för händelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Valfritt) Om du vill låsa upp konfigurationen för ett e-postmeddelande så att gruppadministratörer kan konfigurera den separat för sina grupper klickar du på knappen ![](assets/lock-toggle-button.png) till höger om meddelandet för att växla till den olåsta positionen ![](assets/unlock-toggle-button.png).
+1. (Valfritt) Om du vill låsa upp konfigurationen för ett e-postmeddelande så att gruppadministratörer kan konfigurera den separat för sina grupper klickar du på knappen ![Lås ](assets/lock-toggle-button.png) till höger om meddelandet för att växla till den olåsta positionen ![Lås upp ](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

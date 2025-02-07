@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Som Adobe Workfront-administratör kan du använda en layoutmall för att avgöra vilken information som visas när en användare klickar på detaljikonen ![](assets/project-details-icon.png) i den vänstra panelen när han eller hon visar en uppgift, ett problem, ett dokument, ett program eller en portfölj.
+Som Adobe Workfront-administratör kan du använda en layoutmall för att avgöra vilken information som visas när en användare klickar på ikonen ![Detaljer](assets/project-details-icon.png) i den vänstra panelen när han eller hon visar en uppgift, ett problem, ett dokument, ett program eller en portfölj.
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ De ändringar du gör i detaljvyn för ett objekt avgör också tillgänglighete
 
 * Skapa objekt-rutor, till exempel Skapa uppgift
 
-  ![](assets/new-task-dialog.png)
+  ![Dialogrutan Ny uppgift](assets/new-task-dialog.png)
 
 
 * skärmar för&quot;Redigera objekt&quot; när du redigerar ett objekt, t.ex. Redigera aktivitet, Redigera problem och Redigera projekt
 
-  ![](assets/edit-task-screen.png)
+  ![Redigera aktivitetsskärmen](assets/edit-task-screen.png)
 
 
 * &quot;Redigera objekt&quot; skärmar när flera objekt redigeras samtidigt. För närvarande stöds detta för att redigera flera projekt samtidigt.
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![Anpassa redigeringsprojekt](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Sammanfattningspanelen ![](assets/summary-panel-icon.png) för listor med uppgifter och problem
+* Panelen Sammanfattning ![Panelen Sammanfattning](assets/summary-panel-icon.png) innehåller listor med uppgifter och problem
 
-  ![](assets/summary-area.png)
+  ![Sammanfattningsområde](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 ## Anpassa det som användarna ser i detaljvyn
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka på nedpilen ![](assets/dropdown-arrow-12x12.png) under **Anpassa det som visas för användarna** och klicka sedan på **Projekt**, **Aktivitet**, **Problem**, **Program** eller **Portfolio.**
+1. Klicka på nedpilen ![nedpilen](assets/dropdown-arrow-12x12.png) under **Anpassa det som visas för användarna** och klicka sedan på **Projekt**, **Aktivitet**, **Problem**, **Program** eller **Portfolio.**
 <!--
 , or billing record
 -->
 
 1. I avsnittet **Detaljer** gör du något av följande för att anpassa vad användarna ser i detaljvyn:
 
-   * Dra avsnittshuvuden ![](assets/move-icon---dots.png) för att ändra deras ordning.
+   * Dra en avsnittsrubrik ![Flytta ikon](assets/move-icon---dots.png) om du vill ändra ordningen.
    * Aktivera eller inaktivera alternativ under de olika områdena (till exempel **Översikt**, **Ekonomi** och **Anpassad Forms**) för att visa eller dölja dem.
 
      Om du döljer alla fält i ett av dessa avsnitt, döljs hela avsnittet.

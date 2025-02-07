@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Området [!UICONTROL Updates] innehåller följande typer av uppdateringar:
 
   Mer information om hur du konfigurerar användaruppdateringar finns i [Konfigurera inställningar för användaruppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
-  ![](assets/updates-qs-350x125.png)
+  ![Uppdateringar](assets/updates-qs-350x125.png)
 
 * **Systemuppdateringar:** Automatiskt utförd av systemet. En systemuppdatering innehåller en kort anteckning som beskriver vilken typ av ändring som har gjorts för objektet. Systemuppdateringar visas i systemaktiviteten och på flikarna Alla i uppdateringsavsnittet för ett objekt.
 
   Mer information om systemuppdateringsfeeds och hur du aktiverar dem finns i [Konfigurera systemuppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  ![](assets/system-updates-example-unified-stream.png)
+  ![Exempel på systemuppdateringar](assets/system-updates-example-unified-stream.png)
 
 
   <!--

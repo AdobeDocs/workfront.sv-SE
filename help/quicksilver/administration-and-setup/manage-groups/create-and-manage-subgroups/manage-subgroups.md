@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
@@ -153,9 +153,9 @@ Du kan göra en undergrupp till en grupp på den översta nivån genom att ta bo
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
-1. Markera den överordnade gruppen för gruppen som du vill skapa en grupp på den översta nivån och klicka sedan på redigeringsikonen ![](assets/edit-icon.png).
+1. Markera den överordnade gruppen för gruppen som du vill skapa en grupp på den översta nivån och klicka sedan på ikonen Redigera ![ikonen Redigera](assets/edit-icon.png) .
 1. I rutan **Redigera grupp** som visas, under **Gruppmedlemmar och gruppadministratörer**, börjar du skriva namnet på den undergrupp som du vill skapa en grupp på översta nivån och klickar sedan på krysset till höger om namnet när det visas.
 1. Klicka på **Spara**.
 

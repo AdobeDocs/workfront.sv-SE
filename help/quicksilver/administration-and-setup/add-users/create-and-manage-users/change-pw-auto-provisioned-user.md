@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Du får ett svar som liknar följande:
 
-   ![](assets/get-guid.png)
+   ![Hämta GUID](assets/get-guid.png)
 
    Returvärdet för &quot;username&quot; är användarens GUID.
 
@@ -98,7 +98,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Kontrollera att användarens e-postadress är korrekt i rutan **Din e-postadress för inloggning** och klicka sedan på **Uppdatera konto**.
 
-   ![](assets/guidusername-350x272.png)
+   ![Användarnamn](assets/guidusername-350x272.png)
 
    Användarnamnet ändras till e-postadressen för Workfront.
 
@@ -106,7 +106,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 >
 >Så här söker du efter en användares ID:
 >
->1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+>1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Användare** ![Användare](assets/users-icon-in-main-menu.png) .
 >
 >1. Markera användaren.
 >

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Du kan lägga till fält som du vill att [!DNL Workfront] ska spåra för en vis
 >
 >Du kan spåra upp till 300 inbyggda och anpassade fält i uppdateringsflödena. Om du spårar det maximala antalet fält och vill spåra fler fält som inte visas på underfliken [!UICONTROL All Fields] måste du först ta bort några av de spårade fälten för att kunna spåra nya fält. Mer information om hur du tar bort fält från uppdateringsfälten finns i [Ta bort fält som du inte vill spåra](#remove-fields-that-you-don-t-want-tracked).
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 
 1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** i panelen till vänster.
 
@@ -111,7 +111,7 @@ Du kan lägga till fält som du vill att [!DNL Workfront] ska spåra för en vis
 
 Du kan ta bort fält som du inte vill att systemet ska spåra för en viss typ av objekt genom [!DNL Workfront]-gränssnittet.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 
 1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 
@@ -198,7 +198,7 @@ Du kan till exempel låta [!DNL Workfront] spela in en uppdatering varje gång e
 
 Så här konfigurerar du vilka åtgärder du vill att [!DNL Workfront] ska spåra:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 
 1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 

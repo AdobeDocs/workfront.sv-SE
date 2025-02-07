@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Om ett projekts villkorstyp är inställd på Status i stället för Manuell, visar Adobe Workfront automatiskt ett av tre inbyggda standardvillkor i projektet (På mål, Vid risk eller I problem) när det fortskrider, vilket förklaras i [Översikt över projektvillkor och villkorstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-![](assets/condition-in-project-header-nwe.png)
+![Villkor i projektrubriken](assets/condition-in-project-header-nwe.png)
 
 Du kan ange anpassade villkor som standardvillkor i stället för att använda dessa tre inbyggda standardvillkor. Du kan till exempel ändra standardvillkoret På mål så att det visas som Spärra/knip i alla projekt.
 

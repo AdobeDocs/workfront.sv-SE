@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan skapa ett anpassat formulär som användare kan bifoga till ett Adobe Wor
 
 Du kan t.ex. bifoga ett anpassat formulär med namnet&quot;Marketing Content Research&quot; till ett projekt så att användare i projektet kan begära marknadsföringsinnehåll för projektet:
 
-![](assets/see-image-details-page.png)
+![Informationssida](assets/see-image-details-page.png)
 
 ## Skapa ett eget formulär
 

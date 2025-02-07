@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Felmeddelande: SAML 2.0-fel: Primär statuskod"
+title: 'Felmeddelande: SAML 2.0-fel: Primär statuskod'
 description: Du kan inte upprätta en anslutning till ADFS.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Välj **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** i den vänstra rutan.
 
 1. Högerklicka på förlitande part-förtroendet som är relaterat till [!DNL Adobe Workfront] och välj sedan **[!UICONTROL Properties]**.
-1. Klicka på fliken **[!UICONTROL Advanced]** och välj sedan **[!UICONTROL SHA-1]** i listrutan **[!UICONTROL Secure hash algorithm]**.\
-   ![](assets/1-350x287.png)
+1. Klicka på fliken **[!UICONTROL Advanced]** och välj sedan **[!UICONTROL SHA-1]** i listrutan **[!UICONTROL Secure hash algorithm]**.
+   ![SHA-1](assets/1-350x287.png)
 
 ## Orsak 2: ADFS-signeringscertifikatet upphör snart att gälla och har ersatts med ett nytt certifikat med överlappande datum
 

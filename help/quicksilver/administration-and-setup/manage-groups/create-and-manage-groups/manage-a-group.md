@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Utan att lämna huvudsidan i en grupp som du visar kan du snabbt redigera, kopie
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
-1. Markera gruppen och klicka sedan på ikonen Redigera ![](assets/edit-icon.png), Kopiera ![](assets/copy-icon.png) eller Ta bort ![](assets/delete.png) .
+1. Markera gruppen och klicka sedan på ikonen Redigera ![Redigera](assets/edit-icon.png), Kopiera ![Kopiera](assets/copy-icon.png) eller Ta bort ![Ta bort](assets/delete.png) .
 
    Om du behöver information om hur du använder rutan som visas kan du läsa något av följande:
 

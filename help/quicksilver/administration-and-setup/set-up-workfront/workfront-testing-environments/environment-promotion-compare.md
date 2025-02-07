@@ -8,9 +8,10 @@ description: Du kan jämföra objekt mellan olika miljöer för att se till att 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ I detta exempel:
 
 Så här visar du specifika objektskillnader:
 
-1. Klicka på förstoringsglasikonen ![](assets/compare-icon.png) på raden för det objektet.
+1. Klicka på förstoringsglasikonen ![Jämförelseikonen](assets/compare-icon.png) på raden för det objektet.
 
    Ett fönster öppnas med alla objektets fält. skillnaderna markeras med rött.
 

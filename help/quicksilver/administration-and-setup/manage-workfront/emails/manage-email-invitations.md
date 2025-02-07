@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,9 @@ Generera e-postinbjudningar till befintliga oregistrerade användare manuellt:
 
 1. Välj den användare som visar etiketten **Oregistrerad** efter sitt namn.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![Oregistrerad](assets/unreg-user-qs-350x221.png)
 
-1. Klicka på ikonen Mer ![](assets/more-icon.png) och sedan på **Påminn användare om att registrera**.
+1. Klicka på ikonen Mer ![Mer](assets/more-icon.png) och klicka sedan på **Påminn användare för att registrera**.
 
    En e-postinbjudan skickas till den nya användaren med en ny länk som denne kan använda för att skapa sitt Workfront-lösenord.
 

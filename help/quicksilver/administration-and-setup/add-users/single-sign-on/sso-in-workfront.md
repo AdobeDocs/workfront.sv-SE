@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Om du vill använda SSO-funktionen i Workfront måste din organisation konfigure
 
 Med federerade lösningar kan användarna logga in på alla sina program genom att ange sitt användarnamn och lösenord i en central inloggningsportal.
 
-![](assets/overview-sso-wf-fed-only.png)
+![enkel inloggning (SSO) federerad](assets/overview-sso-wf-fed-only.png)
 
 
 ## Konfigurera brandväggen

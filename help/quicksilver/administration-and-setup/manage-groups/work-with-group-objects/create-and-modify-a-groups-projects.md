@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill skapa, visa eller arbeta med projekt för.
-1. Klicka på **Projekt** ![](assets/projects-in-main-menu.png) i den vänstra panelen för att visa en lista över de projekt som är associerade med gruppen.
+1. Klicka på **Projekt** ![Projekt på huvudmenyn](assets/projects-in-main-menu.png) i den vänstra panelen om du vill visa en lista över de projekt som är associerade med gruppen.
 
 1. Gör något av följande:
 

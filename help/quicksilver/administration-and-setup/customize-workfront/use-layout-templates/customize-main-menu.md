@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!NOTE]
      >
-     >Endast användare med en planlicens (i den aktuella licensmodellen) eller användare med en standardlicens (i den nya licensmodellen) kan se området Användare ![](assets/users-icon-in-main-menu.png) på huvudmenyn.
+     >Endast användare med en planlicens (i den aktuella licensmodellen) eller användare med en standardlicens (i den nya licensmodellen) kan se ikonen ![Användare](assets/users-icon-in-main-menu.png) i huvudmenyn i området Användare.
 
    * Begäranden
    * Tidrapporter
@@ -123,9 +123,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gör något av följande:
 
-   * Dölj ![](assets/remove-icon---x-in-circle.png) **aktiva objekt** som du inte vill visa
-   * Visa ![](assets/add-icon-plus-in-circle.png) **Tillgängliga objekt** som du vill visa på huvudmenyn.
-   * Dra ![](assets/move-icon---dots.png) **aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
+   * Dölj ![Dölj ikon](assets/remove-icon---x-in-circle.png) **Aktiva objekt** som du inte vill visa
+   * Visa ![Visa ikon](assets/add-icon-plus-in-circle.png) **Tillgängliga objekt** som du vill visa på huvudmenyn.
+   * Dra ikonen ![Dra ](assets/move-icon---dots.png) **aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
 
 1. Klicka på **Klar**.
 

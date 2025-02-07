@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2159'
 ht-degree: 0%
 
 ---
@@ -82,13 +82,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill konfigurera olåsta uppgifter och utgivningsinställningar för.
 1. På sidan som visas för gruppen klickar du på **Inställningar för aktivitet och problem** på den vänstra panelen.
 1. På den sida som visas fortsätter du med något av de fem avsnitten som visas nedan för att konfigurera inställningarna för områdena Ny åtgärdsstandard, Problem, Borttagning, Faktiska datum och Åtkomst. Klicka sedan på **Spara**.
 
-   Om du hovrar över låsikonen ![](assets/lock-toggle-button-dimmed.png) för en inställning som du måste konfigurera och ett verktygstips visas som anger att den är låst, kan du be Workfront-administratören att låsa upp den för alla grupper i organisationen.
+   Om du håller pekaren över låsikonen ![Lås-ikonen](assets/lock-toggle-button-dimmed.png) för en inställning som du måste konfigurera och ett verktygstips visas som anger att den är låst, kan du be Workfront-administratören att låsa upp den för alla grupper i organisationen.
 
    När den är olåst kan du och andra gruppadministratörer konfigurera den separat för dina egna grupper. Du kan även låsa den för gruppen och alla undergrupper under gruppen.
 

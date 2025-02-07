@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på namnet på gruppen för att öppna sidan.
 
-1. Klicka på menyn Mer ![](assets/more-icon.png) bredvid namnet på gruppen och klicka sedan på **Inaktivera** eller **Återaktivera**.
+1. Klicka på Mer-menyn ![Mer-ikonen](assets/more-icon.png) bredvid namnet på gruppen och klicka sedan på **Inaktivera** eller **Återaktivera**.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Tänk på följande när det gäller en grupp som du inaktiverar genom att inakt
 
   Mer information om hur du återaktiverar en undergrupp i den här situationen finns i [Om att återaktivera en undergrupp under en inaktiv överordnad grupp](#about-reactivating-a-subgroup-below-an-inactive-parent-group) i den här artikeln.
 
-* När du går till gruppområdet i installationsprogrammet kan du bara se aktiva grupper i listan eftersom Active är standardfiltret ![](assets/filter-nwepng.png) för den. Om du vill se alla grupper som du hanterar, inklusive de inaktiva, kan du använda filtret Alla. Eller använd filtret Inaktiv för att endast visa de inaktiva.
+* När du går till gruppområdet i installationsprogrammet kan du bara se aktiva grupper i listan eftersom Aktiv är standardfilterikonen ![Filter](assets/filter-nwepng.png) för den. Om du vill se alla grupper som du hanterar, inklusive de inaktiva, kan du använda filtret Alla. Eller använd filtret Inaktiv för att endast visa de inaktiva.
 
   Mer information om filter i listor finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

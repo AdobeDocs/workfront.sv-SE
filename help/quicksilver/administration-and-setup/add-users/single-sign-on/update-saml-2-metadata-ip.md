@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Som standard är ADFS konfigurerat att automatiskt söka efter uppdateringar av 
 1. Markera förlitande part-förtroendet som du tidigare konfigurerat för användning med Workfront och klicka sedan på **Uppdatera från federationsmetadata** på den högra panelen.
 1. (Villkorligt) Om det här alternativet är nedtonat (vilket innebär att förlitande part-förtroendet tidigare har konfigurerats med en metadatafil) fyller du i följande.
 
-   1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+   1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
 
    1. Klicka på **System** > **enkel inloggning (SSO)**.
 

@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,sparkstart,kickstarter,sparkstarter
 navigation-topic: use-kick-starts
-title: "Kickstartscenario: Förberedelse för enkel projekt- och uppgiftsimport"
+title: 'Snabb start av scenario: Förberedelse för enkel projekt- och uppgiftsimport'
 description: Beskriver i detalj de tillgängliga inställningarna och kontrollerna för ett grundläggande projekt- och uppgiftsimport med hjälp av metoden Snabbstart.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -277,10 +277,10 @@ Gå till Startsidan. Markera objekten Företag, Grupp, Projekt, Aktivitet och An
 
 Öppna filen Workfront.xlsx som du just laddat ned. Gå till PROJ-projektbladet.
 
-![](assets/im2.png)
+![PROJ-projektuppsättning](assets/im2.png)
 Om du inte redan har skapat projekt i Workfront ska det vara tomt.
 
-![](assets/im10.png)
+![Tomt projektblad](assets/im10.png)
 
 Ange värden för följande projektfält:
 
@@ -305,7 +305,7 @@ Ange planerat startdatum för varje projekt i kolumnen setPlannedStartDate.
 * **Ange annan nödvändig information.**
 Fyll i annan information, till exempel en beskrivning eller aktuell status, efter behov. Leta upp grupp-ID:n för varje projekt på GROUP Group-bladet och ange dem i kolumnen setGroupID för respektive projekt. Leta upp företags-ID för projekten på CMPY Company-bladet och ange det i kolumnen setCompanyID. Leta upp användar-ID för varje projektägare på användarbladet för ANVÄNDARE och ange det i kolumnen setOwnerID. Leta upp användar-ID för varje projektsponsor på användarbladet för ANVÄNDARE och ange det i kolumnen setSponsorID.
 
-![](assets/im9.png)
+![Ange värden](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Du kan lägga till information om aktiviteterna i projektet när du importerar p
 
 Om du inte redan har skapat uppgifter i Workfront ska det här bladet vara tomt.
 
-![](assets/im8.png)
+![Aktivitetsblad](assets/im8.png)
 
-![](assets/im7.png)
+![Tomt aktivitetsblad](assets/im7.png)
 
-![](assets/im6.png)
+![Kolumner i uppgiftsblad](assets/im6.png)
 
 Det enklaste sättet att mappa uppgifter är ett projekt i taget (särskilt när uppgifterna är desamma i varje projekt). Du kan sedan kopiera uppgiftsplanen för det första projektet och göra små justeringar av uppgiftsplanen för efterföljande projekt. De återstående stegen förutsätter att du skapar uppgifter för bara projektet Implementera Workfront. Enligt scenariot kommer du att importera 9 uppgifter per projekt, så skriv in TRUE i raderna 3 till 11 för kolumnen isNew.
 
@@ -364,7 +364,7 @@ Ange varaktigheten för varje uppgift genom att ange antal timmar, dagar, veckor
 * Ange heltalsåtergivningen av procentandelen färdig i fältet setPercentComplete för varje uppgift. Värdet ska inte innehålla procentsymbolen (%).
 * Ta med en beskrivning och annan information för varje uppgift som du skapar, efter behov.
 
-  ![](assets/im5.png)
+  ![Lägg till information](assets/im5.png)
 
 * Kolumnerna setPlannedStartDate och setTaskConstraint används inte för att skapa tidslinjen för det här projektet eftersom vi förlitar oss på predecessor-relationer. Du kan ange ett datum för varje uppgift i stället. Om du gör det måste du också ange en giltig aktivitetsbegränsning i kolumnen setTaskConstraint. Granska uppgiftsbegränsningen och relaterade artiklar för mer information om giltiga värden för det här fältet.
 

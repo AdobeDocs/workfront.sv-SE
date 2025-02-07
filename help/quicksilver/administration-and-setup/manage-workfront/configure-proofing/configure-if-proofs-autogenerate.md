@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Konfigurera om korrektur ska genereras automatiskt
 description: Du kan konfigurera om systemet automatiskt ska generera korrektur när användare du anger att de ska lägga till dokument i Workfront. Den här inställningen är inaktiverad som standard.
 author: Courtney
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -45,17 +45,17 @@ Du måste ha följande:
 
 ## Konfigurera om korrektur ska genereras automatiskt för en enskild användare
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![Användare](assets/users-icon-in-main-menu.png) .
 1. Välj en användare med språkbehörighet och klicka sedan på **Redigera**.
 1. Aktivera eller inaktivera kryssrutan **Generera korrektur automatiskt när dokument överförs** i avsnittet **Inställningar**.
 
-   ![](assets/autogenerate-proofs-350x216.png)
+   ![Generera korrektur automatiskt](assets/autogenerate-proofs-350x216.png)
 
 1. Klicka på **Spara ändringar**.
 
 ## Konfigurera om korrektur ska genereras automatiskt för flera användare
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Användare** ![Användare](assets/users-icon-in-main-menu.png) .
 1. Markera användare med språkbehörighet och klicka sedan på **Redigera**.
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ Du måste ha följande:
 
 1. Aktivera kryssrutan **Generera korrektur automatiskt när dokument överförs** i avsnittet **Inställningar** och markera sedan **Ja** eller **Nej**.
 
-   ![](assets/autogenerate-proofs-bulk-350x285.png)
+   ![Generera korrektur automatiskt gruppvis](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. Klicka på **Spara ändringar**.
 

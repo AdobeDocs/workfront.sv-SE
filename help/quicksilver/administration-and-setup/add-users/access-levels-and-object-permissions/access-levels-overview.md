@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Var och en av de sex inbyggda åtkomstnivåerna är kopplad till en av de fem Wo
 
 Extern är en obetald licens som främst är avsedd för dokumentutbyte med medarbetare som inte använder Workfront.
 
-![](assets/access-levels-and-licenses-old.png)
+![Äldre åtkomstnivåer och licenser](assets/access-levels-and-licenses-old.png)
 
 Mer information om ämnen som rör åtkomstnivåer finns i följande artiklar:
 

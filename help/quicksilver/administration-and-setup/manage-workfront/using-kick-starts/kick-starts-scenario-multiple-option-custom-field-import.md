@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
    >
    >Mer information om namnen på objekten i Workfront-databasen finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![Blad som ingår i dataexport](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Kontrollera att följande information är korrekt formaterad:
@@ -206,7 +206,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
    Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![Parameterblad fyllt i](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Markera bladet **`POPT Parameter Options`** och lägg till information om alternativen för varje anpassat fält i följande obligatoriska kolumner:
 
@@ -228,7 +228,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
    * Kolumnerna **`setLabel`** och `**setValue`** innehåller vanligtvis samma information och de bör återspegla de namn som du vill ha i Workfront-gränssnittet. Värdet för ett alternativ är det namn som visas i rapporter, till exempel, medan etiketten visas i de anpassade formerna när den kopplas till ett objekt. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = ange `TRUE` om du vill att något av alternativen ska vara dolt.
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![Parameterblad fyllt i](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (Valfritt) Om du även vill skapa ett anpassat formulär där du senare kan lägga till de nya fälten, markerar du bladet **`CTGY Category`** och uppdaterar följande obligatoriska kolumner för den anpassade formulärinformationen:
@@ -239,7 +239,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
    Om du vill ta reda på `ID` för en grupp kan du antingen skapa en grupprapport och lägga till fältet `ID` i vyn, eller navigera till en grupp och hitta gruppens URL. Grupp-ID:t finns i URL:en för gruppens sida. Om URL:en för gruppen till exempel är `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` är grupp-ID:t `575b000800467a6f66e747932c807464`.
 
-   * **`setCatObjCode` **= Det här är objektkoden för den objekttyp som du vill att formuläret ska skapas för. Ange en kod bland följande alternativ:
+   * **`setCatObjCode`**= Det här är objektkoden för den objekttyp som du vill att formuläret ska skapas för. Ange en kod bland följande alternativ:
       * **`CMPY`** för företag
       * **`TASK`** för aktivitet
       * **`PROJ`** för projekt
@@ -259,7 +259,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
    * **`setName`** = det här är namnet på det anpassade formuläret som du vill att det ska visas i Workfront-gränssnittet.
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![Kategoriblad fyllt i](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Spara kalkylbladet som en .xls- eller .xlsx-fil på datorn. Excel-kalkylbladet är ifyllt och kan nu importeras till Workfront.
 
@@ -277,11 +277,11 @@ När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du me
 1. Bläddra efter det Excel-kalkylblad du har förberett på datorn och markera det när du hittar det. När Workfront känner igen filen blir knappen Överför blå.
 1. Klicka på **Överför.**
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![Filen har markerats och knappen ](assets/kick-start-file-selected-and-upload-blue-button.png) har överförts
 
 1. Ett meddelande om att importen lyckades visas. Beroende på hur mycket information du importerar kan det här steget ta några sekunder till en minut.
 
-   ![](assets/kick-start-successful.png)
+   ![Snabbstart lyckades](assets/kick-start-successful.png)
 
    De nya anpassade fälten och formulären finns nu i Workfront. Du hittar dem under Anpassad Forms i Konfigurera.
 
@@ -294,7 +294,7 @@ När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du me
 
 1. (Villkorligt) Om importen inte lyckades får du ett felmeddelande om vad problemet är. Försök att identifiera fältet, bladet och radnumret som problemet påträffades i och korrigera informationen i Excel-filen. Försök sedan importera filen en gång till.
 
-   ![](assets/kick-start-error.png)
+   ![Snabbstartfel](assets/kick-start-error.png)
 
 1. (Villkorligt) Beroende på vad problemet är kan viss information redan ha importerats, vilket anges i felmeddelandet. Du måste göra något av följande innan du kan importera bladet igen:
 

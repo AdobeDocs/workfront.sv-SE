@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Fyll i följande avsnitt för att aktivera autentisering till Workfront webbprog
 
 1. Klicka på **Testa anslutning**. Om du har ställt in rätt bör du se en sida som liknar den som visas nedan:
 
-   ![](assets/success-saml-2.png)
+   ![Meddelande om att SAML 2 lyckades](assets/success-saml-2.png)
 
    >[!NOTE]
    >

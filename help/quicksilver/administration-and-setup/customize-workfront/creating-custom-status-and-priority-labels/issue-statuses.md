@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Så här får du åtkomst till utgivningsstatus på systemnivå:
 
 1. Klicka på fliken **Problem** om du vill visa status för utgåvor som är tillgängliga i Workfront.
 
-   ![](assets/issue-status.png)
+   ![Ärendestatus](assets/issue-status.png)
 
 ## Status för systemutleverans
 

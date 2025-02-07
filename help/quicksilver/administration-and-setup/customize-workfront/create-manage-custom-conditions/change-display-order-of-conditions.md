@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ Du kan ändra den ordning i vilken villkoren visas i projekt, uppgifter och äre
 
 * När en användare redigerar ett projekt
 
-  ![](assets/change-condition-edit-project.png)
+  ![Ändra villkor vid redigering av projekt](assets/change-condition-edit-project.png)
 
 * När en användare ändrar villkoret för en uppgift eller ett problem
 
-  ![](assets/change-conditions-list-dropdown-only.png)
+  ![Ändra villkor i listan](assets/change-conditions-list-dropdown-only.png)
 
 ## Åtkomstkrav
 
@@ -68,7 +68,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Välj fliken **Projekt**,**Åtgärder** eller **Problem**.
 
-1. Dra ![](assets/move-icon---dots.png) villkor om du vill ändra deras ordning.
+1. Dra ![Flytta ikon](assets/move-icon---dots.png) för att ändra ordningen.
 
    Den nya ordern sparas automatiskt.
 

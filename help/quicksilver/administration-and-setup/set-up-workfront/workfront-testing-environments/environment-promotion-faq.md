@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Nej. Miljökampanj är tillgänglig för både IMS-aktiverade och icke-IMS Workf
    1. Klicka på **System** i den vänstra panelen
    1. Om du vill visa din Workfront-plan väljer du **licenser**.
 Din plan visas i det övre högra hörnet på sidan.
-      ![](assets/locate-plan.png)
+      ![Hitta plan](assets/locate-plan.png)
 
   eller
 * Kontakta din Workfront-kontorepresentant.

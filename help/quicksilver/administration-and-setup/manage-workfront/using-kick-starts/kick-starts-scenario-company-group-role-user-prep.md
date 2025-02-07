@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,sparkstart,kickstarter,sparkstarter
 navigation-topic: use-kick-starts
-title: "Kickstartscenario: Förberedelser för företag, grupp, roll och användare har startats"
+title: 'Scenario med snabb start: Förberedelser för företag, grupper, roller och användare har startats'
 description: När du börjar implementera Adobe Workfront, i stället för att ange data manuellt, kan du importera kundlistan, interna avdelningar, jobbroller och användarinformation.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -183,69 +183,69 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 1. Gå till&quot;CMPY Company&quot;.
 
-   Den ska vara tom om inte företagen redan finns i systemet. ![](assets/cmpysheet-350x16.png)
+   Den ska vara tom om inte företagen redan finns i systemet. ![Företagsblad](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![Företag-ID](assets/companyid--1--350x78.png)
 
 1. Ange TRUE i kolumnen **isNew**.
 1. Upprepa den här åtgärden för varje företag som läggs till. (I det här exemplet slutför du den här åtgärden för raderna 3-6 eftersom fyra företag läggs till.)
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![Företaget är nytt](assets/cmpyisnew-350x86.png)
 
 1. Ange ett unikt ID.
 
    Detta måste göras för varje rad för ID-kolumnen. Heltal som börjar vid 1 fungerar bra när du skapar nya poster.
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![Företaget är nytt](assets/cmpyisnew-350x86.png)
 
 1. Ange ett namn.
 
    Ange namnen på varje kund i kolumnen **setName**.
 
-   ![](assets/companyid-350x78.png)
+   ![Företag-ID](assets/companyid-350x78.png)
 
 1. Gå till GROUP Group-arket.
 
    Om du inte redan har skapat grupper i Workfront ska det här bladet endast visa standardgruppen som har etablerats med alla Workfront-konton.
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ![Gruppblad](assets/groupsheet-350x15.png) ![Tomt gruppblad](assets/emptygroupsheet-350x85.png)
 
 1. Ange kolumnen **isNew**.Enligt scenariot importeras fyra grupper, så ange TRUE i raderna 4 till 7 för kolumnen &#39;isNew&#39;.
 1. Ange ett unikt ID.
 
    Detta måste göras för varje rad för ID-kolumnen. Heltal som börjar vid 1 fungerar bra när du skapar nya poster.
 
-   ![](assets/groupids-350x85.png)
+   ![Grupp-ID](assets/groupids-350x85.png)
 
 1. Ange ett namn.
 
    Ange namnen på varje avdelning i kolumnen **setName**.
 
-   ![](assets/groupnames-350x85.png)
+   ![Gruppnamn](assets/groupnames-350x85.png)
 
    Ange rollinformation. Gå till ROLLrollbladet.
 
 1. Om du inte redan har skapat eller tagit bort roller i ditt konto, ska det här bladet innehålla 8 roller som har tilldelats med alla Workfront-konton.
 
-   ![](assets/groupnames-350x85.png)
+   ![Gruppnamn](assets/groupnames-350x85.png)
 
 1. Ange programsatsen True.
 
    Sju jobbroller importeras, ange TRUE i raderna 12 till 18 för kolumnen &#39;isNew&#39;.
 
-   ![](assets/roleisnew-350x104.png)
+   ![Rollen är ny](assets/roleisnew-350x104.png)
 
 1. Ange ett unikt ID.
 
    Detta måste göras för varje rad för ID-kolumnen. Heltal som börjar vid 1 fungerar bra när du skapar nya poster.
 
-   ![](assets/usersheet-350x16.png)
+   ![Användarblad](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![Rollen är ny](assets/roleisnew--1--350x104.png)
 
 1. Ange ett namn för varje roll genom att skriva in den i kolumnen setName.
 
-   ![](assets/roleisnew-350x104.png)
+   ![Rollen är ny](assets/roleisnew-350x104.png)
 
 1. Ange ytterligare information efter behov.
 
@@ -255,23 +255,23 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
    Om du inte redan har skapat användare i ditt konto ska det här bladet endast visa den Admin User som har etablerats med alla Workfront-konton.
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ![Rollnamn](assets/rolenames-350x104.png) ![Tomt användarblad](assets/emptyusersheet-350x52.png)
 
 1. Ange True-värdet genom att ange TRUE i raderna 4 till 9 för kolumnen &#39;isNew&#39; eftersom 6 användare importeras.
 
-   ![](assets/userisnew-350x52.png)
+   ![Användaren är ny](assets/userisnew-350x52.png)
 
 1. Ange ett unikt ID genom att ange ett unikt ID i varje rad för ID-kolumnen. Vanligtvis fungerar heltal med början vid 1 bra för nya poster.
 
-   ![](assets/userisnew-350x52.png)
+   ![Användaren är ny](assets/userisnew-350x52.png)
 
 1. Ange namnen för varje användare i kolumnerna setFirstName och setLastName.
 
-   ![](assets/usernames-350x52.png)
+   ![Användarnamn](assets/usernames-350x52.png)
 
 1. Ange detaljvärden genom att ange värden i kolumnerna setEmail, setPassword och setUsername.
 
-   ![](assets/usercredentials-350x52.png)
+   ![Användarautentiseringsuppgifter](assets/usercredentials-350x52.png)
 
 1. Ange åtkomstnivåvärden.
 
@@ -279,13 +279,13 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
    Upprepa det här steget för varje användare och åtkomstnivå.
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![Kopiera åtkomstnivå-ID](assets/copyalid-350x171.png) ![Klistra in åtkomstnivå-ID](assets/pastealid-350x59.png)
 
 1. Ange hemgruppsinformation.
 
    Enligt scenariot tillhör Chris Manning marknadsföringsgruppen. På GROUP Group-bladet letar du reda på ID:t för marknadsföringsgruppen, kopierar det till Urklipp och klistrar in det i kolumnen **setHomeGroupID** på raden Chris i användarbladet. &#x200B;Upprepa det här steget för varje användare och grupptilldelning.
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![Kopiera grupp-ID](assets/copygroupid-1-350x133.png) ![Klistra in grupp-ID](assets/pastegroupid-350x59.png)
 
 1. Ange företagsinformation.
 
@@ -293,17 +293,17 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
    Upprepa det här steget för varje användare och grupptilldelning.
 
-   ![](assets/companyid--1--350x78.png)
+   ![Företag-ID](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![Klistra in företags-ID](assets/pastecompanyid-350x84.png)
 
 1. Ange information om jobbroll.
 
    Enligt scenariot har Chris Manning rollen Business Analyst. På ROLE Role-bladet letar du reda på ID:t för Business Analyst-rollen, kopierar det till Urklipp och klistrar in det i kolumnen setRoleID på raden Chris på användarbladet. &#x200B;Upprepa det här steget för varje användare och grupptilldelning.
 
-   ![](assets/copyroleid-350x149.png)
+   ![Kopiera roll-ID](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![Klistra in roll-ID](assets/pasteroleid-350x95.png)
 
 1. Fyll i annan användarinformation efter behov och spara sedan filen.
 1. Importera Excel-filen.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ Som Workfront-administratör kan du märka Workfront med logotyper på följande
 
 * Inloggningsskärm
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Varumärke på inloggningsskärmen](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Övre navigeringsområde
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Märke i den övre navigeringen](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Huvudmeny
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  ![Märke på huvudmenyn](assets/brand-main-menu-adobe.jpg)
 
 Du kan också ändra bakgrundsbilden och färgen på inloggningsskärmen:
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+![Banderoll på inloggningsskärmen](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >

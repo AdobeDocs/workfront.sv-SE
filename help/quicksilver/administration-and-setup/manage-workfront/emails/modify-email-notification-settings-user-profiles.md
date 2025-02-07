@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Så här ändrar du e-postmeddelandeinställningar för flera användare:
 
 1. Expandera en kategori om du vill visa meddelandeinställningar för den kategorin.
 
-   Om minst en användare har valts där meddelandena inte matchar meddelandena för de andra valda användarna, innehåller kategorikryssrutan för det meddelandet en vågrät rad ![](assets/straight-line-instead-of-checkmark.jpg) i stället för en bockmarkering.
+   Om minst en användare har valts där meddelandena inte matchar meddelandena för de andra valda användarna, innehåller kategorikryssrutan för meddelandet en vågrät rad ![Rad i stället för en bock](assets/straight-line-instead-of-checkmark.jpg).
 
 
 1. Klicka på de meddelanden som du vill att användarna ska få dagligen eller omedelbart, eller rensa de meddelanden som du vill att de ska sluta ta emot.
@@ -80,7 +80,7 @@ Så här ändrar du e-postmeddelandeinställningar för flera användare:
 
 1. Om du valde att meddelanden skulle skickas som en daglig sammanfattning, markerar du den tid på dagen som du vill att sammanfattningen ska levereras högst upp i avsnittet **Notifications** i menyn **Email Daily Digest efter** .
 
-   ![](assets/daily-digest-time.png)
+   ![Daglig sammanfattningstid](assets/daily-digest-time.png)
 
    Den dagliga sammandraget innehåller händelser som uppfyller kriterierna i meddelandena 24 timmar före den valda tiden. Användarna får ett e-postmeddelande med dagliga sammandrag för varje meddelandetyp.
 

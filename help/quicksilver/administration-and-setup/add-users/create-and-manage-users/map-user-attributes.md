@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
 ### Mappa användarattribut i den klassiska upplevelsen
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
 
 1. Klicka på **System** > **enkel inloggning (SSO)**.
 
@@ -85,7 +85,7 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
 1. Klicka på **Mappa användarattribut**.
 
-   ![](assets/map-user-attributes.png)
+   ![Mappa användarattribut](assets/map-user-attributes.png)
 
 1. I den rad med alternativ som visas mappar du de attribut du behöver för dina Workfront-användare.
 
@@ -123,7 +123,7 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
    1. I listrutan väljer du den attributmodifierare som du vill använda.
    1. I de två fälten till höger anger du värdet för katalogattributet och det värde som du vill ersätta det med.
 
-      ![](assets/rule-fields.png)
+      ![Regelfält](assets/rule-fields.png)
 
    Du kan klicka på **Lägg till regel** om du vill lägga till fler regler i attributet.
 
@@ -132,7 +132,7 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
 ### Mappa användarattribut i Adobe enhetliga upplevelse
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-left.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-left.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
 
 1. Klicka på **System** > **enkel inloggning (SSO)**.
 

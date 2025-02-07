@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Så här inaktiverar du en användare:
 
 {{step-1-to-users}}
 
-1. Markera en användare, klicka på ikonen **Mer** ![](assets/more-icon.png) och klicka sedan på **Inaktivera**.
+1. Markera en användare, klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Inaktivera**.
 
 1. Klicka på **Inaktivera** i rutan som visas.
 
@@ -118,7 +118,7 @@ Så här schemalägger du en användare för inaktivering:
 
    (Valfritt) Välj flera användare för att schemalägga att de ska inaktiveras gruppvis.
 
-1. Klicka på ikonen Redigera ![](assets/edit-icon.png).
+1. Klicka på ikonen Redigera ![Ikonen Redigera](assets/edit-icon.png).
 1. I rutan Redigera användare som visas klickar du på **Resursplanering** för att gå till det området.
 1. Aktivera alternativet **Schemalägg inaktivering**.
 
@@ -139,7 +139,7 @@ Vi rekommenderar att du skapar en rapport för användare som du har schemalagt 
 
 {{step-1-to-users}}
 
-1. Markera en användare, klicka på ikonen Mer ![](assets/more-icon.png) och sedan på **Aktivera**.
+1. Markera en användare, klicka på ikonen Mer ![Mer](assets/more-icon.png) och klicka sedan på **Aktivera**.
 
 1. Tilldela en ny **åtkomstnivå** i listrutan och klicka sedan på **Återaktivera**.
 <!--

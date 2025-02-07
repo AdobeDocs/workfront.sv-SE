@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1130'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Så här skapar du en ny användare genom att kopiera en befintlig:
 
 {{step-1-to-users}}
 
-1. Markera användaren som du vill kopiera och klicka sedan på ikonen Kopiera ![](assets/copy-icon.png).
+1. Markera användaren som du vill kopiera och klicka sedan på ikonen Kopiera ![Kopiera](assets/copy-icon.png).
 1. I rutan **Kopiera användare** som visas redigerar du de fält som är tillgängliga för den nya användaren.
 
    Mer information om alla fält som är associerade med en användare finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

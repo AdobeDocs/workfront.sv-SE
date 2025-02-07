@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på **E-post** > **Meddelanden**> **E-postmallar** i den vänstra panelen.
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![Fliken E-postmallar](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klicka på **Ny e-postmall**.
 
@@ -239,7 +239,7 @@ Ett projekt som du hanterar har blivit försenat
 
 Detta skapar ett e-postmeddelande som liknar följande:
 
-![](assets/project-became-late-email.png)
+![Projektet blev försenat e-postmeddelande](assets/project-became-late-email.png)
 
 #### Påminnelse om aktivitet eller problem att starta {#task-or-issue-about-to-start-reminder-example}
 

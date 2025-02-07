@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Gör något av följande på sidan som visas för en inställning som är olåst på systemnivå eller för en grupp ovanför gruppen:
 
-   * Om du vill att administratörer för grupper under gruppen ska kunna konfigurera en inställning för sina grupper, låser du upp den ![](assets/unlock-toggle-button.png).
-   * Om du vill att alla grupper under din konfiguration ska använda din inställning måste du se till att den är låst ![](assets/lock-toggle-button.png).
+   * Om du vill att administratörer för grupper under gruppen ska kunna konfigurera en inställning för sina grupper, låser du upp den ![Lås upp växel](assets/unlock-toggle-button.png).
+   * Om du vill att alla grupper under din konfiguration ska använda din inställning, måste du se till att den är låst ![Lås växel](assets/lock-toggle-button.png).
 
      >[!IMPORTANT]
      >

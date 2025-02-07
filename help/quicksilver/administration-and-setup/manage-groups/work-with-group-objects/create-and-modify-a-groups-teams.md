@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill skapa eller ändra team för.
-1. Klicka på **Team** ![](assets/teams.png) i den vänstra panelen för att visa vilka team som är associerade med gruppen och med eventuella undergrupper.
+1. Klicka på **Team** ![Teams](assets/teams.png) i den vänstra panelen för att lista de team som är associerade med gruppen och med eventuella undergrupper.
 
 1. Gör något av följande:
 
@@ -100,7 +100,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       </tbody> 
      </table>
 
-   * **Redigera team**: Välj minst ett team, klicka på **ikonen** Redigera ![](assets/edit-icon.png) och använd sedan följande alternativ för att konfigurera det:
+   * **Redigera team**: Välj minst ett team, klicka på **ikonen** Redigera ![ikonen Redigera](assets/edit-icon.png) och använd sedan följande alternativ för att konfigurera den:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       </tbody> 
      </table>
 
-   * **Ta bort team**: Välj minst ett team och klicka sedan på ikonen Ta bort ![](assets/delete.png) .
-   * **Exportera listan med team**: Klicka på **Exportera** ![](assets/export.png) och välj sedan det filformat som du vill använda för den exporterade listan.
+   * **Ta bort team**: Markera minst ett team och klicka sedan på ikonen Ta bort ![Ta bort](assets/delete.png).
+   * **Exportera listan med team**: Klicka på **Exportera** ![Ikonen Exportera](assets/export.png) och välj sedan det filformat som du vill använda för den exporterade listan.

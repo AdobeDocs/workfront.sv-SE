@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Som [!DNL Workfront]-administratör har du åtkomst till din anpassade uppdateri
 
 Så här kommer du åt din anpassade uppdateringssandlåda:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 
 1. Klicka på **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 

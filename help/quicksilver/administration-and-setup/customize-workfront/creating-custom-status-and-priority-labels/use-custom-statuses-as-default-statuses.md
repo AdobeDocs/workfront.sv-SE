@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Om du är gruppadministratör läser du [Ange en status som standardstatus för 
 
 Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras för den (Felrapport, Ändra ordning, Problem och Begäran). I den utgivningsstatus som visas nedan kan statusen Återöppnad inte användas som standardstatus eftersom typen Ändra ordning inte har valts:
 
-![](assets/all-4-issue-types-enabled.png)
+![Alla problemtyper är aktiverade](assets/all-4-issue-types-enabled.png)
 
 ## Ange en anpassad status som standardstatus
 
@@ -101,6 +101,6 @@ Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras
    >Om du anger anpassad status för en grupp och sedan tilldelar projektet till en annan grupp, läses projektstatusen in igen och kan ändras.
 
    1. Gå till det projekt där du vill använda den anpassade statusen.
-   1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.
+   1. Klicka på Mer-menyn ![Mer-ikonen](assets/more-icon.png) och sedan på **Redigera**.
    1. I rutan **Redigera projekt** som visas i fältet **Grupp** under **Projektassociation** markerar du gruppen där statusen finns.
    1. Klicka på **Spara ändringar**.

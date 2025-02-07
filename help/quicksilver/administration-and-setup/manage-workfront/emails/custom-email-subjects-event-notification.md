@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Vissa händelsemeddelanden har flera ämnesrader, beroende på vilka objekt de u
 
 &quot;Någon inkluderar mig till exempel i en dirigerad uppdatering&quot; har två olika ämnesrader: den första för uppgifter, ärenden, malluppgifter och dokument (kallas även &quot;referenceObject&quot;) och den andra för objekt som tillåter användare att göra kommentarer, som portfölj, program och så vidare (kallas även &quot;topReferenceObject&quot;).
 
-![](assets/Ev-not-mult-subj-lines.png)
+![Händelsen innehåller inte flera ämnesrader](assets/Ev-not-mult-subj-lines.png)
 
 Om en användare ingår i en konversation om uppgiften, utgåvan, malluppgiften eller dokumentet, genereras ett e-postmeddelande med den första ämnesraden. Ämnesraden innehåller &quot;referenceObject:name&quot; och systemet definierar objektet och visar lämpligt namn i ämnesfältet. Ämnesraden i e-postmeddelandet ser ut ungefär så här:&quot;Kommentar till uppgift 123 i projekt ABC.&quot;
 
@@ -96,6 +96,6 @@ Vissa händelsemeddelanden har också flera e-postämnen som beskriver de olika 
 
 Att begära att ett dokument ska läggas till i ett problem är till exempel en händelse som kan utlösa två olika e-postmeddelanden: en för när dokumentet läggs till och en för när dokumentet redigeras.
 
-![](assets/ev-not-mult-subj-lines-diff-actions.png)
+![Olika händelseåtgärder](assets/ev-not-mult-subj-lines-diff-actions.png)
 
 Om du vill redigera ämnesraderna i e-postmeddelanden och lägga till ytterligare fält på någon av ämnesraderna läser du [Anpassa ämnesrader i e-postmeddelanden för händelsemeddelanden](#customize-email-subject-lines-for-event-notifications) i den här artikeln.

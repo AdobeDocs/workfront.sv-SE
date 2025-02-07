@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Ange ett namn för det anpassade kvartalet, till exempel&quot;Räkenskapskvot 1 2021&quot;.
 1. Välj start- och slutdatum för det anpassade kvartalet.
 
-   ![](assets/custom-quarters-nwe.png)
+   ![Anpassade kvartal](assets/custom-quarters-nwe.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Add Custom Quarter]** om du vill lägga till ytterligare anpassade kvartal i systemet.
 1. (Valfritt) Skapa ett rapportelement som refererar till räkenskapskvartalen.
 
    **Exempel:** Skapa ett filter för en [!UICONTROL project]-lista och inkludera planerat slutförandedatum för ett projekt som refererar till anpassade kvartal.
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Projektfilter med anpassade kvartal](assets/example-of-project-filter-with-custom-quarters.png)
 
    Referenserna till &quot;Detta kvartal&quot;, &quot;Nästa kvartal&quot; och &quot;Sista kvartalet&quot; ersätts med nya referenser till de anpassade kvartalen.
 

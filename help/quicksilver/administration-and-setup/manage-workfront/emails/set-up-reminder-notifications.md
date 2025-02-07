@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1232'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
 
 1. Klicka på **E-post** > **Meddelanden** > **Påminnelsemeddelanden**.
 
-   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![Fliken Påminnelsemeddelanden](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. Klicka på **Nytt påminnelsemeddelande**.
 
@@ -176,4 +176,4 @@ Så här aktiverar du ett påminnelsemeddelande manuellt:
 
    De användare som anges i påminnelsemeddelandet får ett e-postmeddelande.
 
-![](assets/reminder-test.png)
+![Påminnelseaviseringstest](assets/reminder-test.png)

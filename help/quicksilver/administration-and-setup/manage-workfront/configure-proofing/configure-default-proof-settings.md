@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -125,15 +125,15 @@ Så här konfigurerar du korrekturbeslut:
       >
       >Behåll logiken för ett beslut när du byter namn på det. Det gick till exempel att ändra standardbeslutet Avvisat till *Ny version krävs*, men det bör inte ändras till *Skicka till skrivare*.
 
-      ![](assets/rename-decision-350x109.png)
+      ![Byt namn på beslut](assets/rename-decision-350x109.png)
 
    1. **Ordna om beslutsordningen**: Dra beslutsrutorna i den ordning som du vill att de ska visas i korrekturläsaren.
 
-      ![](assets/move-decision-350x110.png)
+      ![Flyttningsbeslut](assets/move-decision-350x110.png)
 
    1. **Dölj ett beslut**: Håll markören över beslutsrutan och klicka på Dölj-ikonen i det övre högra hörnet.
 
-      ![](assets/hide-decision-350x109.png)
+      ![Dölj beslut](assets/hide-decision-350x109.png)
 
 1. (Valfritt) Om du vill gå tillbaka till standardinställningarna för Workfront klickar du på **Återställ standardvärden**.
 1. Klicka på **Spara**.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Du kan också ha en annan beräkning för samma fält i det nya formuläret. Om 
 >
 >Ändringar i beräknade uttryck kan göra att fältvärdet för objekt blir inaktuellt. Gör något av följande om du alltid vill se den aktuella beräkningen i dessa fält:
 >
->* När du har sparat ett objekt där du har redigerat data i ett kopplat anpassat formulär, klickar du på ikonen Mer ![](assets/more-icon.png) på objektets huvudsida och beräknar om anpassade uttryck.
+>* När du har sparat ett objekt där du har redigerat data i ett kopplat anpassat formulär, klickar du på ikonen Mer ![Mer](assets/more-icon.png) på objektets huvudsida och beräknar om anpassade uttryck.
 >* Markera alternativet Beräkna om anpassade uttryck när du redigerar flera objekt samtidigt.
 >* Välj alternativet Uppdatera tidigare beräkningar när du redigerar ett beräknat anpassat fält i ett anpassat formulär.
 
@@ -104,7 +104,7 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
 
 1. Klicka på **Fältbibliotek** på skärmens övre vänstra sida.
 
-   ![](assets/field-library.png)
+   ![Fältbibliotek](assets/field-library.png)
 
 1. Använd sökrutan eller utöka avsnittet **Beräknad** för att hitta det beräknade fält du behöver och dra sedan fältet där du vill att det ska visas i det anpassade formuläret.
 
@@ -142,7 +142,7 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
 
 1. Leta upp **Beräknat** till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
-   ![](assets/drag-field-to-section.png)
+   ![Dra fält till avsnitt](assets/drag-field-to-section.png)
 
 1. Till höger på skärmen konfigurerar du de alternativ som är tillgängliga för den typ av anpassat fält som du lägger till:
 
@@ -296,14 +296,14 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
       >Du kan göra något av följande för att få hjälp med beräkningen:
       > 
       >* Hovra över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en Lär dig mer-länk till mer information i artikeln [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![Hjälptext för uttryck](assets/hover-expression-help-text.jpg)
       >* Använd färgkodningen för att identifiera de komponenter du har lagt till. Uttryck visas i blått och fält visas i grönt.
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  ![Färger för fältuttryck](assets/colors-fields-expressions.jpg)
       >* Hitta beräkningsfel, markerade i rosa allt eftersom. Du kan hovra över ett markerat fel om du vill visa en kort beskrivning av orsaken.
-      >  ![](assets/error-help.png)
+      >  ![Felhjälp](assets/error-help.png)
       >* Förhandsgranska resultatet för ett befintligt Workfront-objekt i området under beräkningen.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![Förhandsgranska beräkning](assets/preview-calc.jpg)
       >* Referensuttryck i en lång beräkning med hjälp av radnumren som visas till vänster.
 
 +++

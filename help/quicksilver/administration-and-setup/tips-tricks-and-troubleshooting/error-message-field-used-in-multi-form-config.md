@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Felmeddelande: Det finns ett litet problem. Det fältet används i en flerformulärskonfiguration"
+title: 'Felmeddelande: Det finns ett litet problem. Det fältet används i en flerformulärskonfiguration'
 description: När du ändrar en beräkning i ett beräknat anpassat fält i ett anpassat formulär och ett felmeddelande anger att fältet används i en flerformulärskonfiguration, måste du ersätta fältet med ett nytt fält som innehåller den beräkning som du vill använda.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ I den här artikeln beskrivs hur du hittar objektet och sedan löser problemet p
 
    **Exempel:** Fält 1 i formulär 1 = Ja, fält 2 i formulär 2 = Ja, fält 3 i formulär 3 = Ja. Det betyder&quot;Det beräknade anpassade fältet finns i formulär 1&quot; eller&quot;Det beräknade anpassade fältet finns i formulär 2&quot; och så vidare.
 
-1. Klicka på **[!UICONTROL Advanced Search]** i **[!UICONTROL Search icon]** ![](assets/search-icon.png) i skärmens övre högra hörn.
+1. Klicka på **[!UICONTROL Advanced Search]** i **[!UICONTROL Search icon]** ![sökikonen](assets/search-icon.png) i skärmens övre högra hörn.
 1. Klicka på objektet för det anpassade formuläret (till exempel Problem), klicka på **[!UICONTROL Filter your results]** och sedan på **[!UICONTROL Add a filter]**.
 1. Börja skriva namnet på ett kryssrutefält i fältet **[!UICONTROL Start typing field name]** och markera det när det visas i listan. Markera sedan **[!UICONTROL Equal]** och skriv **[!UICONTROL Yes]** (utan citattecken) i följande ruta.
 

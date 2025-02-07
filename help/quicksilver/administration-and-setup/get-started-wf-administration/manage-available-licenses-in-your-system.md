@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 >2. Systemadministratörer kan endast se det totala antalet licenser som används i alla hemgrupper.
 >3. Gruppadministratörer har inte tillgång till licenssidan alls.
 >
->För Prime- och Ultimate-planerna:
+>För Prime och Ultimate:
 >
 >1. Systemadministratörer kan lägga till hemgrupper på sidan Licenser för att visa användningen av licenser i dessa grupper, och de kan också ange licensbegränsningar.
 >2. Gruppadministratörer har tillgång till sidan Licenser och kan visa hur licenserna i de grupper de hanterar har utnyttjats och som har lagts till på sidan Licenser av systemadministratörer.
@@ -186,7 +186,7 @@ Så här anger du det maximala antalet licenser för en hemgrupp:
 1. I kolumnen **Max** i gruppen klickar du på det värde som du vill ange ett maxvärde för.
 1. Ange det maximala antalet och tryck sedan på Retur.
 
-   ![](assets/updated-max.png)
+   ![Maximalt antal licenser för gruppen](assets/updated-max.png)
 
    >[!NOTE]
    >

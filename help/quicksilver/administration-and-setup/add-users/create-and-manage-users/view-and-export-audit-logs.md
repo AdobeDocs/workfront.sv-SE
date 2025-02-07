@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Alternativen i listrutan Åtgärdstyp varierar beroende på vilken granskningslogg som har valts.
 
-   ![](assets/audit-logs.jpg)
+   ![Granskningsloggar](assets/audit-logs.jpg)
 
 1. Klicka på **Använd**.
 1. (Valfritt) Klicka på **Rensa filter** om du vill återställa ändringar som gjorts i filtren.

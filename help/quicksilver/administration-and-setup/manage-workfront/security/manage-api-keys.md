@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
    1. Expandera **System** och klicka sedan på **Enkel inloggning (SSO)**.
    1. I fältet **Typ** väljer du den typ av enkel inloggning som din organisation använder.
    1. När typen är markerad rullar du nedåt och avmarkerar kryssrutan **Aktivera**.
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![Aktivera enkel inloggning](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Klicka på **Spara**.
 
 
@@ -187,7 +187,7 @@ Hämta ett giltigt X.509-certifikat från en betrodd certifikatutfärdare (till 
 
 När du har fått X.509-certifikatet från din certifikatutfärdare måste du överföra det till Workfront.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
 
 1. Expandera **System** och klicka sedan på **Kundinformation**.
 

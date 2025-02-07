@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Instruktioner om hur du låser eller låser upp ett projekt, en uppgift eller en
 
 1. Gör något av följande:
 
-   * Om du vill att gruppadministratörer ska kunna konfigurera en inställning för sina grupper låser du upp den ![](assets/unlock-toggle-button.png).
+   * Om du vill att gruppadministratörer ska kunna konfigurera en inställning för sina grupper låser du upp den ![Lås upp växel](assets/unlock-toggle-button.png).
    * Om du vill att alla grupper ska använda din konfiguration för en inställning måste du se till att den är låst (detta är standardinställningen).
 
      >[!IMPORTANT]

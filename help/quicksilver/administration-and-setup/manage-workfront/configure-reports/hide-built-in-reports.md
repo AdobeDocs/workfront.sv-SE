@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Välj åtkomstnivån som du vill dölja inbyggda rapporter för och klicka sedan på **Redigera**.
 1. För objektet **Rapporter** klickar du på ikonen **Inställningar** bredvid den högsta tillgängliga åtkomstnivån och avmarkerar sedan **Visa inbyggda rapporter**.
 
-   ![](assets/edit-access-level.png)
+   ![Redigera åtkomstnivå](assets/edit-access-level.png)
 
 1. Klicka på **Spara**.

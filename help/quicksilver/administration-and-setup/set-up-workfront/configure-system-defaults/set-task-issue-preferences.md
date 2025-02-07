@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1886'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Så här låser eller låser du upp en uppgift eller en utgåva så att grupper 
 
 1. Gör något av följande:
 
-   * Om du vill att administratörer för grupper under gruppen ska kunna konfigurera en inställning för sina grupper, låser du upp den ![](assets/unlock-toggle-button.png).
+   * Om du vill att administratörer för grupper under gruppen ska kunna konfigurera en inställning för sina grupper, låser du upp den ![Lås upp växel](assets/unlock-toggle-button.png).
    * Om du vill att din grupp och alla grupper under den ska använda din konfiguration för en inställning kontrollerar du att den är låst (detta är standardinställningen).
 
      >[!IMPORTANT]

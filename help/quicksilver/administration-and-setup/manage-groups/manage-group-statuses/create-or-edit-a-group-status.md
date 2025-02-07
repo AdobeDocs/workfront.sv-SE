@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen där du vill skapa eller anpassa statusvärden.
 1. Klicka på **Status** i den vänstra panelen.
@@ -87,7 +87,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. (Villkorligt) Om statusen är ett problem kontrollerar du att **Huvudlista** är markerad.
 
-   ![](assets/master-list.png)
+   ![Huvudlista](assets/master-list.png)
 
    Mer information om hur du anpassar de andra problemtyperna (felrapport, Ändra ordning, Problem, Begäran) finns i [Anpassa standardproblemtyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -97,7 +97,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Om du vill redigera en befintlig status för du musen över den status du vill redigera och klickar sedan på alternativet **Redigera** som visas längst till höger.
 
-   ![](assets/group-statuses-edit.jpg)
+   ![Gruppstatus](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >Du kan bara redigera en status för din grupp om:
@@ -173,11 +173,11 @@ Om du är gruppadministratör (eller Workfront-administratör) kan du skapa en a
 1. I rutan i det övre högra hörnet tar du bort **Systemstatus**, börjar skriva namnet på en grupp där du vill dölja statusen och klickar sedan på namnet när det visas.
 1. Håll markören över den status som du vill dölja för gruppen och klicka sedan på **Redigera** när den visas.
 
-   ![](assets/hover-click-edit.jpg)
+   ![Redigera status](assets/hover-click-edit.jpg)
 
 1. Aktivera alternativet **Dölj status** som visas.
 
-   ![](assets/hide-group-status.png)
+   ![Dölj status](assets/hide-group-status.png)
 
 1. Klicka på **Spara**.
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Du kan börja förbereda din importfil genom att skapa en rapport över alla anv
    | ID | ID:t är Workfront alfanumeriska GUID. |
    | SSO-användarnamn | Genom att lägga till SSO-användarnamnsfältet försäkrar du dig om att inga användarnamn skrivs över med importen. Det här fältet ska vara tomt för alla användare, om dina användare ännu inte har uppdaterats för enkel inloggning. |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Användare med SSO-användarnamn men ingen åtkomst](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Spara rapporten.
 1. Klicka på **Exportera** överst i rapporten och exportera rapporten till Excel.
@@ -112,7 +112,7 @@ Du kan börja förbereda din importfil genom att skapa en rapport över alla anv
    * Den andra kolumnen måste innehålla SSO-användarnamnet, som det visas i SSO-systemet.
    * Kolumnerna får inte ha några rubriker och det får inte finnas några tomma rader överst i namnlistan.
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Uppdatera CSV-fil för användare](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Spara rapporten som en CSV- eller TSV-fil på datorn.
 
@@ -145,6 +145,6 @@ Instruktioner om hur du skapar en användarrapport som innehåller SSO-användar
 1. Kontrollera att värdena för kolumnen SSO-användarnamn matchar SSO-användarnamnet på SSO-servern.
 1. Om kolumnen SSO-användarnamn är tom uppdaterar du användarnas SSO-användarnamn.
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![Användare med SSO-fält](assets/users-with-sso-field-updated.png)
 
    Instruktioner om hur du uppdaterar användare för enkel inloggning finns i [Uppdatera dina användare för enkel inloggning](#update-your-users-for-sso).

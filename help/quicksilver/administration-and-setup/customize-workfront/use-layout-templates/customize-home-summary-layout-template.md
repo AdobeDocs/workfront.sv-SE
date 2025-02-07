@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Sammanfattningspanelen**.
+1. Klicka på nedpilen ![nedpilen](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **sammanfattningspanelen**.
 
 1. I listan som visas under klickar du på den objekttyp som du vill anpassa panelen Sammanfattning för.
 
@@ -132,15 +132,15 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. (Villkorligt) Om du klickade på Åtgärder eller Problem i föregående steg väljer du den kategori av uppgift eller problem som du vill anpassa.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![Välj en kategori att anpassa](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Villkorligt) Om listrutan **Ange primär åtgärd** visas (om du väljer **Åtgärder** eller **Problem** i listan till vänster) klickar du på den primära åtgärd (**Klar** eller **Status**) som du vill ska vara tillgänglig för användare på sammanfattningspanelen när de visar en uppgift eller ett problem.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![Ange primär åtgärd](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Lägg till ![](assets/add-item-plus-in-circle-blue.png) eller dölj ![](assets/close-or-hide---x.png) fält för den valda objekttypen.
+1. Lägg till ![Lägg till objekt](assets/add-item-plus-in-circle-blue.png) eller dölj ![Dölj objektfält](assets/close-or-hide---x.png) för den valda objekttypen.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![Lägg till och dölj fält](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Upprepa steg 3-6 för att anpassa panelen Sammanfattning för andra objekttyper.
 1. Klicka på **Globala inställningar**, nära det nedre vänstra hörnet, och aktivera eller inaktivera sedan något av följande alternativ för Adobe Workfront-objekt i sammanfattningen:

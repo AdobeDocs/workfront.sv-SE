@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Workfront-administratören avgör vilken åtkomstnivå varje användare sk
 Användarna får även åtkomst till enskilda objekt när andra användare delar och ger vissa behörigheter för dessa objekt.
 
 
-![](assets/security-model-hierachy.png)
+![Säkerhetsmodellhierarki](assets/security-model-hierachy.png)
 
 Om din åtkomstnivå till exempel anger att du kan skapa uppgifter, men de behörigheter du får i ett visst projekt inte tillåter att du lägger till uppgifter i det, kan du inte lägga till uppgifter i projektet trots att du kan skapa uppgifter någon annanstans i Workfront.
 

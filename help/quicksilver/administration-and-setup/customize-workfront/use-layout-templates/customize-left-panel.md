@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ I en layoutmall kan du anpassa vad användarna ser i det vänstra panelområdet 
 
 Du kan till exempel ta reda på vilket av följande objekt som visas i den vänstra panelen när du visar en uppgift:
 
-![](assets/left-panel-adobe-branding.png)
+![Panelen Vänster profilering](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 ## Anpassa den vänstra panelen för ett område i [!DNL Workfront]:
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]** och klicka sedan på namnet på en objekttyp eller ett [!DNL Workfront]-område vars vänstra panel du vill anpassa.
+1. Klicka på nedpilen ![nedpilen](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]** och klicka sedan på namnet på en objekttyp eller ett [!DNL Workfront] -område vars vänstra panel du vill anpassa.
 
    Objekttyperna och [!DNL Workfront] områden vars vänstra panel du kan anpassa visas i följande tabell:
 
@@ -204,9 +204,9 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Gör något av följande i listan **[!UICONTROL Left panel]** för att avgöra vad användare kommer att se i den vänstra panelen för det [!DNL Workfront] -område eller den objekttyp som du har valt:
 
-   * Klicka på ikonerna **Visa** ![](assets/add-secondary-nav-item.png) eller **Dölj** ![](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
+   * Klicka på ikonerna **Visa** ![Visa ](assets/add-secondary-nav-item.png) eller **Dölj** ![Dölj ikon](assets/delete-secondary-nav-item.png) om du vill visa eller dölja avsnitt i den vänstra panelen. Du kan inte dölja objekt som inte har en **Visa**- eller **Dölj**-ikon.
 
-   * Dra objekt ![](assets/move-icon---dots.png) för att ändra deras ordning på den vänstra panelen.
+   * Dra objekt ![Flytta ikon](assets/move-icon---dots.png) om du vill ändra deras ordning på den vänstra panelen.
 
    >[!NOTE]
    >

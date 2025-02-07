@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Som Workfront Proof-administratör kan du ändra en mall för automatiserat arbe
     </tbody> 
    </table>
 
-1. I avsnittet **Arbetsflöde** ändrar du namnet på en scen och expanderar dess inställningar ![](assets/arrow-button.png) för att göra nödvändiga ändringar:
+1. I avsnittet **Arbetsflöde** ändrar du namnet på en scen och expanderar dess inställningar ![Utöka-knappen](assets/arrow-button.png) för att göra nödvändiga ändringar:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ Som Workfront Proof-administratör kan du ändra en mall för automatiserat arbe
 
    Om du inte behöver visa diagrammet kan du klicka på **Dölj diagram**.
 
-1. Om du vill ta bort en användare klickar du på knappen Mer ![](assets/more-icon.png) till höger i avsnittet **Delad med** och sedan på **Ta bort**.
+1. Om du vill ta bort en användare klickar du på ikonen Mer ![Mer](assets/more-icon.png) till höger i avsnittet **Delad med** och sedan på **Ta bort**.
 
 ## Skapa mallgrupper för automatiserat arbetsflöde {#create-automated-workflow-template-groups}
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -72,13 +72,13 @@ När du skapar en anpassad status för hela organisationen kan du konfigurera de
 
 1. (Villkorligt) Om du skapar eller redigerar en status som ska användas i hela systemet måste du se till att **Systemstatus** är markerat i rutan i det övre högra hörnet.
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Systemstatus](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    eller
 
    Om statusen är för en grupp eller undergrupp börjar du skriva namnet på gruppen i det övre högra hörnet och markerar den när den visas.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Systemstatus för gruppen](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Välj fliken för den objekttyp (**Projekt**, **Åtgärder** eller **Problem**) som du vill associera med statusen.
 
@@ -88,7 +88,7 @@ När du skapar en anpassad status för hela organisationen kan du konfigurera de
 
    Om du redigerar en befintlig status håller du pekaren över den och klickar sedan på ikonen **Redigera** som visas längst till höger.
 
-   ![](assets/custom-status-edit.png)
+   ![Redigera anpassad status](assets/custom-status-edit.png)
 
 1. Konfigurera statusen med följande alternativ:
 

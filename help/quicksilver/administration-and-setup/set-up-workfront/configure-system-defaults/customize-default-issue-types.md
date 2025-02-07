@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Om du har [!DNL Adobe Workfront] [!UICONTROL administrator]-åtkomst finns det f
 * **[!UICONTROL Issue]** Ett objekt i [!DNL Workfront] som kommunicerar oplanerat arbete, ett problem som uppstår eller något som måste lösas för att en uppgift ska kunna fortsätta.
 * **[!UICONTROL Request]** En problemtyp som gäller för en frågekö där användare gör förfrågningar i Workfront.
 
-![](assets/default-issue-types.png)
+![Standardproblemtyper](assets/default-issue-types.png)
 
 ## Anpassa en problemtyp
 
@@ -86,8 +86,8 @@ Så här anpassar du en problemtyp:
 1. Klicka på fliken **[!UICONTROL Issues]**.
 1. Gör något av följande:
 
-   * Håll muspekaren över den problemtyp som du vill anpassa, klicka på [!UICONTROL Edit]-ikonen ![](assets/edit-icon.png) som visas längst till höger och skriv ett nytt namn för problemtypen.
+   * Håll muspekaren över den problemtyp som du vill anpassa och klicka på ikonen [!UICONTROL Edit] ![Redigera](assets/edit-icon.png) som visas längst till höger. Skriv sedan ett nytt namn för problemtypen.
 
-     ![](assets/customize-issue-type.png)
+     ![Anpassa problemtyp](assets/customize-issue-type.png)
 
    * Klicka på en [!UICONTROL issue type] om du vill visa de associerade statusarna, dra sedan handtagen som visas när du hovrar över dem och släpp dem i den ordning som du vill att de ska visas i den nedrullningsbara menyn **[!UICONTROL Status]** för dina användares problem.

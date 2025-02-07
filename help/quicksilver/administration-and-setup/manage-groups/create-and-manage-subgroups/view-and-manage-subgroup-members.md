@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -73,16 +73,16 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Gör något av följande:
 
-   * Välj en medlem i listan och klicka sedan på Redigera ![](assets/edit-icon.png) för att ändra den personens användarprofil.
+   * Markera en medlem i listan och klicka sedan på Redigera ![redigeringsikon](assets/edit-icon.png) för att ändra den personens användarprofil.
 
      Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eller [Redigera användarprofiler gruppvis](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Markera ett valfritt antal medlemmar i listan och klicka sedan på Uppdatera ![](assets/comment-icon.png) för att lägga till en kommentar i deras användarprofiler.
+   * Markera ett valfritt antal medlemmar i listan och klicka sedan på ikonen Uppdatera ![kommentar](assets/comment-icon.png) för att lägga till en kommentar i användarprofilerna.
 
      Användaren eller användarna får ett meddelande i appen samt ett e-postmeddelande med din kommentar. Kommentaren visas i området Uppdateringar i användarens profil.
 
-   * Välj ett valfritt antal medlemmar i listan och klicka sedan på Inaktivera ![](assets/deactivate-user.png) eller Aktivera ![](assets/activate-user.png).
+   * Markera ett valfritt antal medlemmar i listan och klicka sedan på Inaktivera ![användare](assets/deactivate-user.png) eller Aktivera ![användare](assets/activate-user.png).
 
      Mer information finns i [Inaktivera eller återaktivera en användare](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-   * Exportera ![](assets/export.png) till listan med medlemmar.
+   * Exportera ![Exportera](assets/export.png) listan med medlemmar.

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Du kan enkelt vidarebefordra meddelanden som du får från Workfront till använ
 
 1. Gå till sidan Meddelanden genom att klicka på ikonen **Meddelande** i det övre högra hörnet av Workfront-gränssnittet och sedan på **Alla meddelanden**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Alla meddelanden](assets/announcement-access-350x212.png)
 
 1. Markera meddelandet som du vill vidarebefordra på sidan **Meddelanden**.
 1. Klicka på **Vidarebefordra**.
@@ -79,7 +79,7 @@ Du kan enkelt vidarebefordra meddelanden som du får från Workfront till använ
 
 1. Gå till sidan Meddelanden genom att klicka på ikonen **Meddelande** i det övre högra hörnet av Workfront-gränssnittet och sedan på **Alla meddelanden**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Alla meddelanden](assets/announcement-access-350x212.png)
 
 1. Klicka på **Nytt meddelande på sidan** Meddelanden **.**
 

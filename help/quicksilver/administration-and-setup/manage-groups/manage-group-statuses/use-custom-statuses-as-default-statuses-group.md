@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras för den (Felrapport, Ändra ordning, Problem och Begäran). I den utgivningsstatus som visas nedan kan statusen Återöppnad inte användas som standardstatus eftersom typen Ändra ordning inte har valts:
 
-![](assets/all-4-issue-types-enabled.png)
+![Alla problemtyper är aktiverade](assets/all-4-issue-types-enabled.png)
 
 ## Ange en anpassad status som standardstatus för en grupp
 
 {{step-1-to-setup}}
 
-1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen och klicka sedan på namnet på gruppen där du vill skapa eller anpassa statusvärden.
-1. Klicka på **Status** ![](assets/gear-icon-settings.png) i den vänstra panelen.
+1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen och klicka sedan på namnet på gruppen där du vill skapa eller anpassa statusvärden.
+1. Klicka på ikonen **Status** ![Inställningar för stödraster](assets/gear-icon-settings.png) i den vänstra panelen.
 1. Öppna fliken **Projekt**, **Åtgärder** eller **Problem**, beroende på vilken typ av status du vill ange som standardstatus.
 1. Klicka på **Ange standardstatus** i det övre högra hörnet.
 1. I listrutan som visas, bredvid den status där du vill ange standardstatus, väljer du den standardstatus du vill ange.
@@ -90,7 +90,7 @@ Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras
    >Om du tilldelar projektet till en annan grupp läses projektstatusen in igen och kan ändras.
 
    1. Gå till det projekt där du vill använda den anpassade statusen.
-   1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.
+   1. Klicka på Mer-menyn ![Mer-ikonen](assets/more-icon.png) och sedan på **Redigera**.
    1. I rutan **Redigera projekt** som visas i fältet **Grupp** under **Projektassociation** markerar du gruppen som den anpassade statusen är associerad med.
 
    1. Klicka på **Spara ändringar**.
@@ -109,4 +109,4 @@ Om du döljer en standardstatus (genom att aktivera alternativet Dölj status f�
 
 Om det inte finns någon tillgänglig status av motsvarande typ visas statustypen som **Dold** och är inte tillgänglig för arbetsobjekt.
 
-![](assets/when-hide-default-status-no-equivalent.png)
+![Ingen tillgänglig status](assets/when-hide-default-status-no-equivalent.png)

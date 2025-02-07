@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Du måste ha följande:
 
    Om du redigerar en godkännandeprocess på gruppnivå gör du följande:
 
-   1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
+   1. Klicka på ikonen **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
    1. Klicka på namnet på gruppen som du vill visa eller hantera gruppgodkännandeprocesser för.
    1. Klicka på **Godkännanden** i den vänstra panelen. Du kan behöva klicka på **Visa fler** först.
 
@@ -80,7 +80,7 @@ Du måste ha följande:
 
 1. Välj den godkännandeprocess som du vill redigera och klicka sedan på **Redigera** överst i listan. Rutan Redigera godkännandeprocess visas.
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![Redigera godkännandeprocess](assets/edit-approval-process-global-area-new.png)
 
 1. Ange följande information i rutan som visas:
 

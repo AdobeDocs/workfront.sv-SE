@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Så här anpassar du namnen på begärandetyperna:
 1. Klicka på fliken **[!UICONTROL Issues]**.
 1. Överst på fliken **[!UICONTROL Issues]** håller du muspekaren över namnet på en frågetyp och klickar sedan på ikonen **[!UICONTROL Edit]** som visas.
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![Redigera begärandetypens namn](assets/edit-request-type-name-nwe.png)
 
 1. Skriv ett nytt namn i rutan som visas och tryck sedan på **[!UICONTROL Enter]**.
 

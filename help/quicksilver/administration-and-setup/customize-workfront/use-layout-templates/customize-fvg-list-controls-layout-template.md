@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Som Adobe Workfront-administratör kan du använda en layoutmall för att ange vilka listkontroller som ska visas i listrutorna Filter, Visa och Gruppering. De här menyerna visas ovanför listor i hela Workfront, t.ex. en lista med uppgifter för ett projekt:
 
-![](assets/filter-view-grouping-layout-templates.png)
+![Grupperingslayoutmallar i filtervyn](assets/filter-view-grouping-layout-templates.png)
 
 Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,25 +62,25 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 ## Anpassa kontrollerna i listorna Filter, Visa och Gruppera:
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka på nedpilen ![](assets/down-arrow-blue.png) under **Anpassa det som visas för användarna** och klicka sedan på **Listor** i den nedrullningsbara meny som visas.
+1. Klicka på nedpilen ![Nedåtpil](assets/down-arrow-blue.png) under **Anpassa det som visas för användarna** och klicka sedan på **Listor** i listrutan som visas.
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![Anpassa det som användarna ser](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. Klicka på nedåtpilen ![](assets/down-arrow-blue.png) under **Välj en lista att anpassa** och välj sedan den typ av Workfront-objekt som du vill anpassa listkontrollerna för Filter, Visa och Gruppering för.
+1. Klicka på nedåtpilen ![nedåtpilen](assets/down-arrow-blue.png) under **Välj en lista att anpassa** och välj sedan den typ av Workfront-objekt som du vill anpassa listkontrollerna för Filter, Visa och Gruppering för.
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![Välj en lista att anpassa](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >Om du väljer Projekt som listan som ska anpassas och sedan inaktiverar Projekt som jag är på eller Projekt som jag äger i filteravsnittet, kommer användarna inte längre att se eller kunna använda det filtret:
    >
-   >* I listan med filter som visas när de klickar på filterikonen ![](assets/filter-nwepng.png) ovanför en lista:
+   >* I listan med filter som visas när de klickar på filterikonen ![Filterikon](assets/filter-nwepng.png) ovanför en lista:
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![Inaktivera filter](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* I huvudet i rubriken Projekt:
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![Inaktivera filterknapp](assets/disable-filter-pills.png)
 
 1. (Valfritt) Om du vill ändra standardfilter, -vy eller -gruppering för layoutmallen håller du muspekaren över filtret, vyn eller grupperingen och klickar sedan på **Ange som standard**.
 

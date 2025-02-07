@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -546,7 +546,7 @@ Endast användare med en planlicens kan ha fullständig åtkomst till [utvalda o
 | Lägg till eller redigera jobbrollinformation för planer och initiativ &#42; | ✓ | ✓ | ✓ |   |   |
 | Lägg till eller redigera kostnadsinformation om planer och initiativ &#42; | ✓ | ✓ | ✓ |   |   |
 | Ta bort planer och initiativ | ✓ | ✓ | ✓ |   |   |
-| Visa scenarier på huvudmenyn ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
+| Visa scenarier på huvudmenyn ![Ikon för scenarioplanering](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | Visa planer och initiativ som användaren har skapat&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

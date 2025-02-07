@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på **Processer** > **Godkännanden**.
 
-1. Klicka på ikonen **Inställningar** ![](assets/gear-icon-settings.png) bredvid namnet på området **Godkännanden** .
+1. Klicka på ikonen **Inställningar** ![Skärminställningar](assets/gear-icon-settings.png) bredvid namnet på området **Godkännanden** .
 
 1. Ange följande information i rutan **Godkännandeinställningar** som visas:
 

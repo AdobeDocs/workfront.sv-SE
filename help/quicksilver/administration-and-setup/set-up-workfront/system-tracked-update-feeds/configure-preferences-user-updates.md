@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Som standard kan användare inte lägga till bilder i uppdateringar. När du akt
 >* Bilder är tillgängliga via fliken [!UICONTROL Updates] för ett objekt och är även tillgängliga i området [!UICONTROL Documents] under [!UICONTROL Main Menu].
 >
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
 1. Välj **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** i den vänstra panelen.
 1. Välj fliken **[!UICONTROL Preferences]**.
 

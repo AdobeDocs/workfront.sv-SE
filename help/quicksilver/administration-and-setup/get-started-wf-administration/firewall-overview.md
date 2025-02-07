@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -105,10 +105,10 @@ Ge nätverksadministratören följande information:
 
    Klustret visas uppe till höger i avsnittet **Grundläggande information**.
 
-   ![](assets/locate-cluster.png)
+   ![Hitta kluster](assets/locate-cluster.png)
 
 1. Om du vill visa din Workfront-plan väljer du **licenser**.
 
    Din plan visas i det övre högra hörnet på sidan.
 
-   ![](assets/locate-plan.png)
+   ![Hitta plan](assets/locate-plan.png)

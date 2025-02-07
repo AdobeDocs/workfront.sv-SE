@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >* Om du är gruppadministratör kan du bara logga in som användare i de grupper som du hanterar. Behörigheten Användaradministratör (gruppanvändare) måste även aktiveras på din åtkomstnivå:
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![Gruppadministratörsanvändare](assets/group-admin-user.png)
    >   
    >  Den här inställningen är inaktiverad som standard. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
@@ -153,7 +153,7 @@ Om du till exempel kommenterar ett objekt när du är inloggad som en annan anv�
 ### Visa granskningsinformation {#view-audit-information}
 
 1. Logga in på Workfront som Workfront-administratör eller gruppadministratör.
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
 
 1. Klicka på **Logga in som** och klicka sedan på fliken **Åtkomstlogg**.
 
