@@ -1,0 +1,247 @@
+---
+content-type: api
+navigation-topic: general-api
+title: Evenemangsprenumerationsversion
+description: API för händelseprenumeration
+author: Becky
+feature: Workfront API
+role: Developer
+source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 0%
+
+---
+
+
+# Evenemangsprenumeration
+
+Workfront har två versioner av abonnemang. I den här artikeln beskrivs skillnaderna mellan dem.
+
+Detta är ingen ändring av Workfront API, utan snarare en ändring av funktionen för händelseprenumeration.
+
+Möjligheten att uppgradera eller nedgradera abonnemang säkerställer att när händelsestrukturen ändras bryts inte befintliga prenumerationer, vilket gör att du kan testa och uppgradera till den nya versionen utan avbrott i din Event-prenumeration.
+
+>[!IMPORTANT]
+>
+>Följande versioner kommer att påverka versionshantering av händelseprenumerationer:
+>
+>* **25.2 utgåva** (10 april 2025): Alla nya prenumerationer som skapas efter version 25.2 skapas som version 2.
+>* **25.3 utgåva** (17 juli 2025): Prenumerationer kan inte längre nedgraderas till version 1 efter version 25.3.
+
+## Ändringar mellan version 1 och version 2
+
+Följande ändringar har gjorts för händelseprenumerationer version 2
+
+
+### Allmänna ändringar
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <p><b>Påverkade fält</b></p> </th> 
+   <th> <p><b>Version 1 (beteendet Föregående)</b></p> </th> 
+   <th> <p><b>Version 2 (Ändra)</b></p> </th> 
+   <th> <p><b>Åtgärd för reparation</b></p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Parametervärden</p> </td> 
+   <td> <p>För alla objekt som skapats från en mall som innehåller ett anpassat formulär, skickades en <code>CREATE</code>-händelse och sedan skickades en <code>UPDATE</code> med parametervärdena (inklusive beräknade fält och deras värden).    </p> </td> 
+   <td> <p>Endast en <code>CREATE</code>-händelse skickas, som innehåller parametervärden inklusive beräknade fält.</p> </td> 
+   <td> <p>Om du har ett filter för <code>UPDATE</code>-händelser med parametervärden (inklusive beräknade anpassade fält) och förväntas ta emot den efter en <code>CREATE</code> -objekthändelse som innehåller parametervärden, får du inte längre den <code>UPDATE</code> -händelsen. Om du vill se parametervärden när du skapar objekt måste du skapa ytterligare en <code>CREATE</code>-prenumeration.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Flervalsfält</p> </td> 
+   <td> <p>För alla typer av händelser som innehåller en ändring i ett flervalsfält konverteras det till och skickas som en sträng om fältet bara innehåller ett värde. Annars skickas den som en array. </p><p>Exempel:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> konverteras och skickas som <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> skickas som <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Oavsett hur många värden som finns i arrayen skickas den som en array. </p><p>Exempel:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> skickas som <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> skickas som <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Om du har en prenumeration med ett filter i ett flervalsfält, och värdet som en sträng, måste du skapa en ny prenumeration med samma filter som har värdet som en array. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Objektspecifika ändringar
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <b>Objektkod</b> </th> 
+   <th> <b>Påverkade fält</b> </th> 
+   <th> <b>Version 1 (Föregående beteende)</b></th> 
+   <th> <b>Version 2 (Ändra)</b> </th> 
+   <th> <b>Reparationsåtgärd</b> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <th rowspan="1">ASSGN</th> 
+   <td>
+    <ul>
+     <li><code>projectID</code></li>
+     <li><code>taskID</code></li>
+     <li><code>opTaskID</code></li>
+     <li><code>customerID</code></li>
+    </ul> 
+   </td> 
+   <td>När det här objektet uppdaterades visade <code>UPDATE</code>-händelsen ibland felaktigt att de påverkade fälten ändras från <code>null</code> till <code>ID value</code>.</td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för de påverkade fälten.</td> 
+   <td>Ingen. Om du har ett filter för de berörda fälten får du bara en <code>UPDATE</code>-händelse om dessa fält har ändrats, inte om något annat värde har ändrats.
+   </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">DOCU</th> 
+   <td>
+    <ul>
+     <li><code>referenceObjID</code></li>
+    </ul> 
+   </td> 
+   <td>När ett parametervärde uppdaterades för det här objektet visade händelsen <code>UPDATE</code> felaktigt ändringen av det påverkade fältet från <code>null</code> till <code>object id</code>. </td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för de påverkade fälten.</td> 
+   <td>Ingen. Om du har ett filter för de berörda fälten får du bara en <code>UPDATE</code>-händelse om dessa fält har ändrats, inte om något annat värde har ändrats.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>groups</code></li>
+    </ul> 
+   </td> 
+   <td>När ett dokument togs bort visade <code>DELETE</code>-händelsen felaktigt det påverkade fältet som en tom array i det föregående läget.    </td> 
+   <td>Händelsen <code>DELETE</code> visar korrekt det påverkade fältet i det föregående läget.</td> 
+   <td>Ingen. <code>DELETE</code>-händelsen kommer fortfarande att skickas, men nu visas korrekta data för det påverkade fältet. 
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="1">DOCV</th> 
+  <td>
+    <ul>
+     <li><code>proofDecision</code></li>
+     <li><code>proofName</code></li>
+     <li><code>proofProgress</code></li>
+    </ul> 
+   </td> 
+   <td>När det här objektet uppdaterades skickas två <code>UPDATE</code>-händelser. Den första innehöll inte de påverkade fälten medan den andra händelsen utfördes.</td> 
+   <td>Alla fältuppdateringar, inklusive de påverkade fälten, finns endast i en <code>UPDATE</code>-händelse och en andra onödig händelse skickas inte.     </td> 
+   <td>Ingen. Om du har ett filter för de fält som påverkas levereras händelserna i den första händelsen. 
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">EXPNS</th> 
+  <td>
+    <ul>
+     <li><code>topReferenceObjCode</code></li>
+     <li><code>referenceObjectName</code></li>
+    </ul> 
+   </td> 
+   <td>När ett parametervärde uppdaterades för en utgift visade händelsen <code>UPDATE</code> felaktigt ändringen av topReferenceObjCode från <code>EXPNS</code> till <code>PROJ</code> och <code>referenceObjectName</code> ändrades från <code>null</code> till <code>string value of project name</code>.      </td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för de påverkade fälten.</td> 
+   <td>Ingen. Om du har ett filter för de berörda fälten får du bara en <code>UPDATE</code>-händelse om dessa fält har ändrats, inte om något annat värde har ändrats.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>topReferenceObjCode</code></li>
+     <li><code>referenceObjectName</code></li>
+    </ul> 
+   </td> 
+   <td>När ett utgiftsobjekt togs bort skickades en <code>UPDATE</code>-händelse som ändrade de berörda fälten till null innan <code>DELETE</code>-händelsen skickades.    </td> 
+   <td>Den extra <code>UPDATE</code>-händelsen skickas inte. Händelsen <code>DELETE</code> har rätt värden för de påverkade fälten i det föregående läget. </td> 
+   <td>Om du har ett filter för de fält som påverkas av <code>UPDATE</code>-händelser och förväntas ta emot det när objektet tas bort, får du inte längre den <code>UPDATE</code> -händelsen. Om du vill se de här fälten när objektet tas bort måste du skapa ytterligare en <code>DELETE</code>-prenumeration.
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="1">TIMME</th> 
+  <td>
+    <ul>
+     <li><code>projectID </code></li>
+     <li><code>taskID </code></li>
+     <li><code>roleID</code></li>
+     <li><code>timesheetID</code></li>
+     <li><code>hourTypeID </code></li>
+     <li><code>projectOverheadID</code></li>
+     <li><code>referenceObjID</code></li>
+     <li><code>referenceObjCode</code></li>
+     <li><code>securityRootID</code></li>
+    </ul> 
+   </td> 
+   <td>När det här objektet togs bort visade <code>DELETE</code>-händelsen felaktigt de påverkade fälten som <code>null</code> i det föregående läget. </td> 
+   <td>Händelsen <code>DELETE</code> visar de fält som påverkas i det föregående läget.</td> 
+   <td>Ingen. Händelsen <code>DELETE</code> skickas fortfarande, men nu visas korrekta data för de påverkade fälten. </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">OPTASK</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>När ett parametervärde uppdaterades för det här objektet visade händelsen <code>UPDATE</code> felaktigt ändringen av det påverkade fältet från <code>null</code> till <code>ID value</code>. </td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för det påverkade fältet.</td> 
+   <td>Ingen. Om du har ett filter för det påverkade fältet får du bara en <code>UPDATE</code>-händelse om fältet faktiskt har ändrats, inte om något annat parametervärde har ändrats.
+</td> 
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>resolveProjectID</code></li>
+     <li><code>resolveTaskID</code></li>
+     <li><code>resolvingObjID</code></li>
+    </ul> 
+   </td> 
+   <td>När det här objektet uppdaterades visade <code>UPDATE</code>-händelsen ibland felaktigt att de påverkade fälten ändras från <code>null</code> till <code>ID value</code>.</td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för de påverkade fälten.    </td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">PROJ</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   <td>När ett parametervärde uppdaterades för det här objektet visade händelsen <code>UPDATE</code> felaktigt ändringen av det påverkade fältet från <code>null</code> till <code>ID value</code>. </td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för det påverkade fältet.</td> 
+   <td>Ingen. Om du har ett filter för det påverkade fältet får du bara en <code>UPDATE</code>-händelse om fältet faktiskt har ändrats, inte om något annat parametervärde har ändrats.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>När det här objektet uppdaterades visade <code>UPDATE</code>-händelsen ibland felaktigt att de påverkade fälten ändras från <code>null</code> till <code>ID value</code>.</td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för det påverkade fältet.</td> 
+   <td>Ingen. Om du har ett filter för det påverkade fältet får du bara en <code>UPDATE</code>-händelse om fältet faktiskt har ändrats, inte om något annat parametervärde har ändrats.
+  </tr> 
+  <tr> 
+   <th rowspan="2">UPPGIFT</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>När ett parametervärde uppdaterades för det här objektet visade händelsen <code>UPDATE</code> felaktigt ändringen av det påverkade fältet från <code>null</code> till <code>ID value</code>. </td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för det påverkade fältet.</td> 
+   <td>Ingen. Om du har ett filter för det påverkade fältet får du bara en <code>UPDATE</code>-händelse om fältet faktiskt har ändrats, inte om något annat parametervärde har ändrats.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>När det här objektet uppdaterades visade <code>UPDATE</code>-händelsen ibland felaktigt att de påverkade fälten ändras från <code>null</code> till <code>ID value</code>.</td> 
+   <td>Alla <code>UPDATE</code>-händelser visar rätt värde för det påverkade fältet.</td> 
+   <td>Ingen. Om du har ett filter för det påverkade fältet får du bara en <code>UPDATE</code>-händelse om fältet faktiskt har ändrats, inte om något annat parametervärde har ändrats.
+ </tbody> 
+</table>

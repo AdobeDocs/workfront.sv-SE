@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2362'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 {{highlighted-preview}}
 -->
 
-När en åtgärd inträffar för ett Adobe Workfront-objekt som stöds av händelseprenumerationer, kan du konfigurera Workfront att skicka ett svar till önskad slutpunkt. Detta innebär att tredjepartsprogram kan ta emot uppdateringar från Workfront-interaktioner via Workfront API så snart de har släppts. Normalt kan du förvänta dig att få webkrokmeddelanden på mindre än 5 sekunder från det att dataändringen loggas. I genomsnitt får kunderna webkrokmeddelanden på mindre än en sekund från den dataändring som loggas.  
+När en åtgärd inträffar för ett Adobe Workfront-objekt som stöds av händelseprenumerationer, kan du konfigurera Workfront att skicka ett svar till önskad slutpunkt. Detta innebär att tredjepartsprogram kan ta emot uppdateringar från Workfront-interaktioner via Workfront API så snart de har släppts. Normalt kan du förvänta dig att få webkrokmeddelanden på mindre än 5 sekunder från det att dataändringen loggas. I genomsnitt får kunderna webkrokmeddelanden på mindre än en sekund från den dataändring som loggas.
 
 För att kunna ta emot händelseprenumerationsnyttolaster via din brandvägg måste du lägga till följande IP-adresser i tillåtelselista:
 
@@ -74,7 +74,7 @@ Följande Workfront-objekt stöds av händelseprenumerationer.
 
 En lista över fält som stöds av händelseprenumerationsobjekt finns i [Resursfält för händelseprenumerationer](../../wf-api/api/event-sub-resource-fields.md).
 
-## Autentisering av händelseabonnemang
+## Autentisering av händelseprenumeration
 
 Om du vill skapa, fråga efter eller ta bort en händelseprenumeration behöver din Workfront-användare följande:
 
@@ -110,7 +110,7 @@ Prenumerationsresursen innehåller följande fält.
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Företag </td> 
+        <td scope="col">Företag </td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ Prenumerationsresursen innehåller följande fält.
        </tr> 
        <tr> 
         <td scope="col"><p>Dokument</p></td> 
-        <td scope="col">DOCU </td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Utgift</p></td> 
@@ -193,7 +193,7 @@ Prenumerationsresursen innehåller följande fält.
    * **String** - Ett värde som representerar den typ av händelse som objektet prenumererar på. De tillgängliga händelsetyperna är:
 
       * SKAPA
-      * DELETE 
+      * DELETE
       * UPPDATERA
 
 * url (obligatoriskt)
@@ -202,7 +202,7 @@ Prenumerationsresursen innehåller följande fält.
 
 * authToken (obligatoriskt)
 
-   * **String** - Bearer-token för OAuth2 används för att autentisera med den URL som anges i URL-fältet. 
+   * **String** - Bearer-token för OAuth2 används för att autentisera med den URL som anges i URL-fältet.
 
 ## Skapa API-begäranden för händelseprenumeration
 
@@ -210,14 +210,14 @@ När du har försäkrat dig om att användaren har administratörsåtkomst och s
 
 Använd följande syntax för att skapa URL:en.
 
-**Begär URL:**
+**Begär URL**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Begäranrubriker:**
+**Begär rubriker**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,6 +253,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**Exempel på svarstext**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | Svarskod | Beskrivning |
 |---|---|
 | 201 (skapad) | Evenemangsprenumerationen har skapats. |
@@ -264,7 +273,7 @@ Om du skickar en prenumerationsresurs som innehåll för en begäran (med inneh�
 
 >[!NOTE]
 >
-> Svarshuvudet &quot;Location&quot; innehåller URI:n för den nyligen skapade händelsprenumerationen.
+> Svarshuvudet &quot;Location&quot; innehåller URI:n för den nyligen skapade händelsprenumerationen.
 
 **Exempel på svarshuvuden:**
 
@@ -288,7 +297,7 @@ Du kan fråga alla händelseprenumerationer för en kund eller använda följand
 
 Syntaxen för att ange alla händelseprenumerationer för en viss kund är följande:
 
-**Begär URL:**
+**Begär URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Svarskoder:**
+**Svarskoder**
 
 | Svarskod | Beskrivning |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (Ej tillåtet) | Användaren, som matchar angivet sessions-ID, har inte administratörsåtkomst. |
 
 
-**Exempel på svarshuvuden:**
+**Exempel på svarshuvuden**
 
 | Svarshuvud | Exempel |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Överföringskodning | `→chunked` |
 
 
-**Exempel på svarstext:**
+**Exempel på brödtext för svar**
 
 ```
 {
@@ -368,7 +377,7 @@ Plats
 
 Du kan fråga efter händelseprenumerationer med hjälp av händelseprenumerationens ID. Syntaxen för att ange händelseprenumerationer är följande:
 
-**Begär URL:**
+**Begär URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ Du kan fråga efter händelseprenumerationer med hjälp av händelseprenumeratio
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Begäranrubriker:**
+**Begäranrubriker**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Svarskoder:**
+**Svarskoder**
 
 | Svarskod | Beskrivning |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (Ej tillåtet) | Användaren, som matchar angivet sessions-ID, har inte administratörsåtkomst. |
 
 
-**Exempel på svarstext:**
+**Exempel på brödtext för svar**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## Versionshantering för händelseteckning
+
+Workfront har två versioner av abonnemang.
+
+Möjligheten att uppgradera eller nedgradera abonnemang säkerställer att befintliga prenumerationer inte bryts när händelsestrukturen ändras, vilket gör att du kan testa och uppgradera till den nya versionen utan avbrott i prenumerationen.
+
+Mer information om versionshantering av händelseprenumerationer, inklusive specifika skillnader mellan version och viktiga datum, finns i [Version av händelseprenumerationer](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+### Ändring av prenumeration
+
+Syntaxen för begäran om att ändra versionen för en prenumeration är:
+
+**Begär URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**Exempeltext för begäran**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**Exempeltext för svar (200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**Möjliga svarskoder**
+
+* 200
+* 400
+* 404
+
+
+### Ändring av flera prenumerationsversioner
+
+Den här slutpunkten ändrar versionen av flera prenumerationer, i en lista över prenumerationer eller med alla kundens prenumerationsflagga.
+
+Syntaxen för begäran om att ändra versionen för en prenumeration är:
+
+**Begär URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**Exempel på frågetexter**
+
+* Begär brödtext för lista över prenumerationer
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* Begär brödtext för alla kundens prenumerationer
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**Exempeltext för svar (200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**Möjliga svarskoder**
+
+* 200
+* 400
 
 ## Filtrering av händelseprenumeration
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Svarskod</p> </th> 
-   <th> Beskrivning</th> 
+   <th> Beskrivning</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Svarskod</p> </th> 
-   <th> Beskrivning</th> 
+   <th> Beskrivning</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### Exempel på brödtext i svar
 
