@@ -6,7 +6,7 @@ description: Översikt över rapportleverans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -43,11 +43,11 @@ Tänk på följande när du planerar leveransrapporter:
 
 Det finns flera storleksbegränsningar som påverkar hur rapporter visas i Workfront och hur de exporteras via manuell export, en levererad rapport eller via API:t:
 
-* **5 MB filstorlek:** Filstorleksgräns för exporterade rapporter som schemalagts för leverans. Om en exporterad fil som bifogas till ett e-postmeddelande är större än 5 MB, skickas en länk dit filen kan hämtas via e-post i stället för den bifogade exporterade rapporten.
+* **10 MB filstorlek:** Filstorleksgräns för exporterade rapporter som schemalagts för leverans. Om en exporterad fil som bifogas till ett e-postmeddelande är större än 5 MB, skickas en länk dit filen kan hämtas via e-post i stället för den bifogade exporterade rapporten.
 
   >[!NOTE]
   >
-  >Excel .xlsx-filer som är större än 5 MB genererar inte något e-postmeddelande. Du kan exportera rapporten manuellt till det här formatet. Mer information om att exportera rapporter finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Excel.xlsx-filer som är större än 10 MB genererar inget e-postmeddelande. Du kan exportera rapporten manuellt till det här formatet. Mer information om att exportera rapporter finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50 000 rader:** Antalet rader med data som tillåts i en rapportexport för pdf- och tabbavgränsade filer.
 
