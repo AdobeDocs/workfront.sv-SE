@@ -7,9 +7,9 @@ description: Du kan hantera, dela och visa information om de filer (inte korrekt
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -25,28 +25,28 @@ Du kan hantera, dela och visa information om de filer (inte korrektur) som över
 1. Klicka på nedpilen till höger om **[!UICONTROL Views]** i den vänstra navigeringspanelen och klicka sedan på **[!UICONTROL Files]** i listrutan.
 
 1. Klicka på knappen **[!UICONTROL More]** för filen och klicka sedan på **[!UICONTROL View file details]** på menyn som visas.\
-   ![](assets/click-more-then-view-file-details.png)\
+   ![Visa filinformation](assets/click-more-then-view-file-details.png)\
    Du kan visa och redigera information om filen i det fönster som visas. Du kan till exempel ändra filnamnet högst upp i fönstret, [!DNL Workfront Proof] **Mapp** som lagrar filen och **Ägare** för filen.\
-   ![](assets/file-details-page-350x129.png)
+   ![Filinformation](assets/file-details-page-350x129.png)
 
 1. (Valfritt) Om du har redigeringsbehörighet för filen använder du åtgärdsknapparna i det övre högra hörnet för att hantera och dela filen:
 
 * **[!UICONTROL Tags]**. Hantera taggar som används i filen.\
-   ![](assets/tags-button.png)\
+   ![Knappen Taggar](assets/tags-button.png)\
    Under åtgärdsknapparna kan du visa alla taggar som har tillämpats på filen. Du kan ta bort en oönskad tagg genom att klicka på x:et bredvid den.\
-   ![](assets/view-file-tags-350x64.png)
+   ![Visa filtaggar](assets/view-file-tags-350x64.png)
 
 * **[!UICONTROL Move to]**. Ordna dina filer i mappar. Du kan flytta en fil mellan befintliga mappar eller placera dem i en ny mapp.\
-   ![](assets/folder-button.png)
+   ![Mappknapp](assets/folder-button.png)
 
 * **[!UICONTROL Share]**. Dela filer med andra. [!DNL Workfront Proof] skickar ett e-postmeddelande med ett anpassat meddelande och hämtar länkar till mottagarna.\
-   ![](assets/share-button.png)
+   ![Knappen Dela](assets/share-button.png)
 
 * **[!UICONTROL Trash]**. Du kan ta bort filen genom att flytta den till papperskorgen. Observera att filen kommer att räknas in i lagringsgränsen tills papperskorgen töms (se [Återställ och Töm papperskorgen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)).\
-   ![](assets/trash-button.png)
+   ![Papperskorgsknappen](assets/trash-button.png)
 
 * **[!UICONTROL More]**. I den här listrutan kan du klicka på **[!UICONTROL Convert to proof]** för att skapa ett korrektur för en fil (se [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). Filen måste uppfylla våra filtypskrav för korrektur (se [Översikt över filtyper och storleksbegränsningar som stöds](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)). Om namnet på filen matchar namnet på ett befintligt korrektur visar [!DNL Workfront Proof] ett meddelande med en länk som gör att du kan konvertera filen till en **[!UICONTROL New version]** av det korrekturet (se ).\
-   ![](assets/more-button-text-version.png)
+   ![Knappen Mer](assets/more-button-text-version.png)
 
   >[!TIP]
   >
@@ -58,7 +58,7 @@ Du kan hantera, dela och visa information om de filer (inte korrektur) som över
 
    Du kan **[!UICONTROL Message]** eller **[!UICONTROL Remove]** en användare med ikonen **[!UICONTROL More]** till höger.
 
-   ![](assets/message-and-remove.png)
+   ![Meddelande och ta bort](assets/message-and-remove.png)
 
    Om du väljer att skicka ett meddelande till en av dessa användare visas sidan **[!DNL Message all]**, där du kan skicka flera meddelanden samtidigt.
 

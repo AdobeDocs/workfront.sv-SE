@@ -7,9 +7,9 @@ description: En av fördelarna med att ordna dina projekt och korrektur i mappar
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du kan enkelt hantera dina filer från sidan [!UICONTROL Folder details].
    * Se namnet på mappens **skapare**.
 
 1. (Valfritt) Om du vill ändra information som är kopplad till ett objekt i mappen klickar du på ikonen **[!UICONTROL More]** till höger om objektet och använder sedan något av de alternativ som visas.\
-   ![](assets/more-button-small.png)\
+   ![Mer-menyn](assets/more-button-small.png)\
    Vilka alternativ som visas beror på om objektet är ett korrektur eller en fil.
 
    * **[!UICONTROL View proof details]** eller **[!UICONTROL View file details]**: Öppnar sidan Korrekturinformation eller Filinformation. Mer information finns i [Hantera filer i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) eller [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
@@ -111,9 +111,9 @@ Du kan enkelt hantera dina filer från sidan [!UICONTROL Folder details].
 1. (Valfritt) Klicka på **[!UICONTROL Activity]** om du vill visa alla åtgärder som har utförts i mappen i kronologisk ordning.
 1. (Valfritt) Klicka i avsnittet **[!UICONTROL Messages]** om du vill visa meddelanden som har skickats till användare i mappen.\
    När du hovrar över ett meddelande kan du klicka på ikonen **i** till höger för att visa hela meddelandet.\
-   ![](assets/messages-1-350x74.png)\
+   ![Meddelanden](assets/messages-1-350x74.png)\
    Ett popup-fönster med hela e-postmeddelandet visas:\
-   ![](assets/messages-2-350x252.png)
+   ![Popup-meddelande](assets/messages-2-350x252.png)
 
 ## Hantera undermappar
 

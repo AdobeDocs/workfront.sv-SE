@@ -7,9 +7,9 @@ description: Visualisering av projekttreemap är en vy över timmar - eller daga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Visualisering av projekttreemap är en vy över timmar - eller dagar - som har arbetats i ett visst tidsfönster jämfört med andra arbetsinsatser i storlek. Detta hjälper er att förstå hur mycket tid folk har ägnat åt ett projekt.
 
-![](assets/project-treemap-350x126.png){width="700"}
+![Projekttreemap](assets/project-treemap-350x126.png){width="700"}
 
 ## Åtkomstkrav
 
@@ -71,22 +71,22 @@ Visualiseringen av projekttreemap består av:
 
 * **Mindre, ljusblå rutor**: Projekt som har färre timmar - eller dagar - visas som mindre rutor med ljusblå färg.
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![Mindre ruta](assets/project-treemap-smaller-box.png)
 
 * **Större, mörkblå rutor**: Projekt som har fler timmar - eller dagar - visas som större rutor med en mörkblå färg.
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![Större ruta](assets/project-treemap-larger-box-350x205.png)
 
 * **Blå rutor i Medium-storlek**: Projekt som hamnar mellan de två kategorierna visas som medelstora rutor med en blå nyans mellan de mörkblå och ljusblå färgerna. Det finns tre möjliga nyanser av blått för de medelstora rutorna.
 
 Förklaringen till höger visar en uppdelning av slutförda timmar för varje blå nyans. Den här teckenförklaringen är dynamisk och uppdateras utifrån data.
 
-![](assets/project-treemap-hours-completed.png)
+![Trädkartimmar har slutförts](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >Om du tittar på Project treemap-visualisering efter varaktighet i stället för efter planerade timmar, visar den här förklaringen en uppdelning av antalet dagar som har bearbetats för varje ton med blått.\
->![](assets/project-treemap-days-worked.png)>
+>![Trädkartsdagar arbetade](assets/project-treemap-days-worked.png)>
 
 Om du ser den här informationen blir det lättare att avgöra:
 
@@ -99,10 +99,10 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
 ## Visa visualisering av projekttreemap
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
+1. Klicka på ikonen Huvudmeny ![Huvudmeny](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Välj datumintervall](assets/filters-select-date-range-350x344.png)
 
    Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -125,7 +125,7 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
    Alla andra visualiseringar på sidan uppdateras så att de matchar sidans val.
 
-   ![](assets/pagination-350x118.png)
+   ![Sidnumrering](assets/pagination-350x118.png)
 
 1. (Valfritt) Ändra vyn från **planerade timmar** till **varaktighet**.
 
@@ -133,7 +133,7 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
 1. Håll muspekaren över ett projekt för att se projektvillkoren, liksom antalet totala planerade timmar, antalet slutförda timmar och det genomsnittliga antalet timmar som har ägnats åt projektet per dag.
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![Information om Treemap-projekt](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
    >* **Planerad tidsram**: Antal dagar som planeras för att slutföra projektet.
    >* **Antal arbetsdagar**: Den planerade varaktigheten för varje aktivitet som har slutförts inom det datumintervall som har valts överst, dividerat med antalet timmar per dag.
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![Trädkartans varaktighet](assets/duration-treemap-350x159.png)
    >
    >Mer information om varaktighet finns i avsnittet Varaktighet i [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![Exportera ](assets/export.png) i det övre högra hörnet av visualiseringen och väljer exportformat:
 
    * **Diagram (PNG)**
    * **Datatabell (XSLX)**

@@ -7,9 +7,9 @@ description: Med Workfront Proof kan du skapa korrektur av dokument eller webbpl
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Med [!DNL Workfront Proof] kan du skapa korrektur från dokument eller webbplats
 
    Mer information om korrekturwebbplatser finns i [Skapa ett korrektur för en URL](#generate-a-proof-for-a-url).
 
-   ![](assets/proof-website-350x65.png)
+   ![Korrekturwebbplats](assets/proof-website-350x65.png)
 
 1. (Valfritt) Ändra filnamnen för överförda filer:
 

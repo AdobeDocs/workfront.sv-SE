@@ -7,9 +7,9 @@ description: Du kan visa jämförelser sida vid sida av två korrektur. Det kan 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Du kan visa jämförelser sida vid sida av två korrektur. Det kan vara två ver
 1. Öppna korrekturet med flera versioner som du vill jämföra.
 1. Klicka på korrekturets namn i det övre vänstra hörnet i det korrekturläsare som visas. Klicka sedan på ikonen **Jämför** bredvid den version du vill öppna och jämföra i listan över versioner som visas.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![Jämför korrektur och välj version](assets/compare-proofs-choose-version-350x115.jpg)
 
    Språkversionerna visas sida vid sida, med den nyare versionen till vänster.
 

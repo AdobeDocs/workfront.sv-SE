@@ -7,9 +7,9 @@ description: I [!DNL Workfront] Korrektur kan du använda mappar för att gruppe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ Som granskare kan du arbeta med flera korrektur i en mapp utan att lämna korrek
 
      När du jämför korrektur och vill växla till ett nytt korrektur, antingen till vänster eller till höger om korrekturläsaren, klickar du på knappen [!UICONTROL Compare] ovanför korrekturet.
 
-     ![](assets/mceclip0-350x126.png)
+     ![Jämför](assets/mceclip0-350x126.png)

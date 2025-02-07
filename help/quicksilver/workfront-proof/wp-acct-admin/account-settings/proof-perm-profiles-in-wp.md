@@ -8,9 +8,9 @@ description: Som Workfront-administratör eller Workfront Proof-administratör k
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1918'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ I följande tabell visas de behörigheter som är tillgängliga för respektive 
 | **Egna objekt** |  |  |  |  | **Andra användares objekt** |  |  | **Admin** | **Fakturering** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **Lägg till** | **Visa** | **Redigera** | **Ta bort** | **Visa** | **Redigera** | **Ta bort** | **Redigera och ta bort** | **Redigera** |
-| Faktureringsadministratör | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
-| Administratör | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
-| Supervisor | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
-| Manager | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |   |   |   |
-| Observer |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| Besökare |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Faktureringsadministratör | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) |
+| Administratör | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) |   |
+| Supervisor | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) |   |   |
+| Manager | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) | ![Markering](assets/cleaner2.png) |   |   |   |   |   |
+| Observer |   | ![Markering](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Besökare |   | ![Markering](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -66,35 +66,35 @@ I följande avsnitt beskrivs varje profil och de behörigheter som är associera
 
 Faktureringsadministratörer har åtkomst till [kontoinställningarna på  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] faktureringssidan](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) och har följande behörigheter:
 
-![](assets/cleaner2.png)Kan generera korrektur, överföra filer och skapa mappar. Mer information finns i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Skapa mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Markering](assets/cleaner2.png)Kan generera korrektur, överföra filer och skapa mappar. Mer information finns i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Skapa mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Kan visa, redigera och ta bort egna korrektur och filer som de skapar.
+![Markering](assets/cleaner2.png)Kan visa, redigera och ta bort egna korrektur och filer som de skapar.
 
-![](assets/cleaner2.png)Kan visa, redigera och ta bort korrektur och filer som skapats av alla användare i organisationen.
+![Markering](assets/cleaner2.png)Kan visa, redigera och ta bort korrektur och filer som skapats av alla användare i organisationen.
 
-![](assets/cleaner2.png)Kan ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Markering](assets/cleaner2.png)Kan ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Har redigeringsbehörighet för alla korrektur som skapats i kontot.
+![Markering](assets/cleaner2.png)Har redigeringsbehörighet för alla korrektur som har skapats i kontot.
 
-![](assets/cleaner2.png)Kan anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Markering](assets/cleaner2.png)Kan anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Kan komma åt faktureringssidan och redigera faktureringsinformationen. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] Faktureringssidan](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Markering](assets/cleaner2.png)Kan komma åt faktureringssidan och redigera faktureringsinformationen. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] Faktureringssidan](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-![](assets/cleaner2.png)Kan komma åt sidan Kontoinställningar och redigera kontoinformationen. Mer information finns i [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Markera](assets/cleaner2.png)Kan komma åt sidan Kontoinställningar och redigera kontoinformationen. Mer information finns i [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Kan tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Markering](assets/cleaner2.png)Kan tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)Kan lägga till, redigera och ta bort användare.
+![Markera](assets/cleaner2.png)Kan lägga till, redigera och ta bort användare.
 
-![](assets/cleaner2.png)Kan skapa grupper och lägga till nya kontakter.
+![Markera](assets/cleaner2.png)Kan skapa grupper och lägga till nya kontakter.
 
-![](assets/cleaner2.png)Kan ta bort kontakter.
+![Markering](assets/cleaner2.png)Kan ta bort kontakter.
 
-![](assets/cleaner2.png)Kan redigera korrektur om det inte finns några svar på dem.
+![Markering](assets/cleaner2.png)Kan redigera korrektur om det inte finns några svar på dem.
 
-![](assets/no2.png)Det går inte att redigera korrektursvar.
+![Rött X](assets/no2.png)Det går inte att redigera korrektursvar.
 
-![](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rött X](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
 Mer information om kontoinställningar finns i [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
@@ -104,127 +104,127 @@ Information om fakturering finns på [Faktureringssidan [!DNL Workfront Proof] F
 
 Administratörer har åtkomst till [kontoinställningar](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)och har följande behörigheter:
 
-![](assets/cleaner2.png)Kan skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Skapa mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Markera](assets/cleaner2.png)Kan skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Skapa mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Kan visa, redigera och ta bort korrektur och filer som de har skapat.
+![Markering](assets/cleaner2.png)Kan visa, redigera och ta bort korrektur och filer som de har skapat.
 
-![](assets/cleaner2.png)Kan visa, redigera och ta bort korrektur och filer som skapats av alla användare i organisationen.
+![Markering](assets/cleaner2.png)Kan visa, redigera och ta bort korrektur och filer som skapats av alla användare i organisationen.
 
-![](assets/cleaner2.png)Kan ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Markering](assets/cleaner2.png)Kan ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Har redigeringsbehörighet för alla korrektur som skapats i kontot.
+![Markering](assets/cleaner2.png)Har redigeringsbehörighet för alla korrektur som har skapats i kontot.
 
-![](assets/cleaner2.png)Kan anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Markering](assets/cleaner2.png)Kan anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Kan komma åt sidan Kontoinställningar och redigera kontoinformationen. Mer information finns i [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Markera](assets/cleaner2.png)Kan komma åt sidan Kontoinställningar och redigera kontoinformationen. Mer information finns i [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Kan tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Markering](assets/cleaner2.png)Kan tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)Kan lägga till, redigera och ta bort användare.
+![Markera](assets/cleaner2.png)Kan lägga till, redigera och ta bort användare.
 
-![](assets/cleaner2.png)Kan skapa grupper och lägga till nya kontakter.
+![Markera](assets/cleaner2.png)Kan skapa grupper och lägga till nya kontakter.
 
-![](assets/cleaner2.png)Kan ta bort kontakter.
+![Markering](assets/cleaner2.png)Kan ta bort kontakter.
 
-![](assets/cleaner2.png)Kan redigera korrektur om det inte finns några svar på dem.
+![Markering](assets/cleaner2.png)Kan redigera korrektur om det inte finns några svar på dem.
 
-![](assets/no2.png)Det går inte att redigera korrektursvar.
+![Rött X](assets/no2.png)Det går inte att redigera korrektursvar.
 
-![](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rött X](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Det går inte att komma åt sidan Fakturering eller redigera faktureringsinformationen. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] Faktureringssidan](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Rött X](assets/no2.png)Kan inte komma åt sidan Fakturering eller redigera faktureringsinformationen. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] Faktureringssidan](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Supervisor {#supervisor}
 
 Tillsynsmannen har följande behörigheter:
 
-![](assets/cleaner2.png)Kan skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Skapa mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Markera](assets/cleaner2.png)Kan skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Skapa mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Kan visa, redigera och ta bort egna korrektur och filer som de har skapat.
+![Markering](assets/cleaner2.png)Kan visa, redigera och ta bort egna korrektur och filer som de har skapat.
 
-![](assets/cleaner2.png)Kan visa, redigera och ta bort korrektur och filer som skapats av alla användare i organisationen.
+![Markering](assets/cleaner2.png)Kan visa, redigera och ta bort korrektur och filer som skapats av alla användare i organisationen.
 
-![](assets/cleaner2.png)Kan ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Markering](assets/cleaner2.png)Kan ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Har redigeringsbehörighet för alla korrektur som skapats i kontot.
+![Markering](assets/cleaner2.png)Har redigeringsbehörighet för alla korrektur som har skapats i kontot.
 
-![](assets/cleaner2.png)Kan anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Markering](assets/cleaner2.png)Kan anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Kan skapa grupper och lägga till nya kontakter.
+![Markera](assets/cleaner2.png)Kan skapa grupper och lägga till nya kontakter.
 
-![](assets/cleaner2.png)Kan ta bort kontakter.
+![Markering](assets/cleaner2.png)Kan ta bort kontakter.
 
-![](assets/cleaner2.png)Kan redigera korrektur om det inte finns några svar på dem.
+![Markering](assets/cleaner2.png)Kan redigera korrektur om det inte finns några svar på dem.
 
-![](assets/no2.png)Det går inte att redigera korrektursvar.
+![Rött X](assets/no2.png)Det går inte att redigera korrektursvar.
 
-![](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+![Rött X](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![](assets/no2.png)Det går inte att komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
+![Röd X](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
 
-![](assets/no2.png)Kan inte tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rött X](assets/no2.png)Kan inte tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 ### Manager {#manager}
 
 Chefer har följande behörigheter:
 
-![](assets/cleaner2.png)Kan skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Skapa mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Markera](assets/cleaner2.png)Kan skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) och [Skapa mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Kan visa, redigera och ta bort egna korrektur och filer som de skapar eller äger.
+![Markering](assets/cleaner2.png)Kan visa, redigera och ta bort egna korrektur och filer som de skapar eller äger.
 
-![](assets/cleaner2.png)Kan visa, granska och godkänna korrektur för andra användare som delas med dem (skrivskyddad behörighet till allt i en delad mapp). Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Markera](assets/cleaner2.png)Kan visa, granska och godkänna korrektur för andra användare som delas med dem (skrivskyddad behörighet till allt i en delad mapp). Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Kan skapa grupper och lägga till en ny kontakt.
+![Markera](assets/cleaner2.png)Kan skapa grupper och lägga till en ny kontakt.
 
-![](assets/no2.png)Det går inte att visa, redigera eller ta bort korrektur och filer som skapats av andra användare i organisationen.
+![Röda X](assets/no2.png)Det går inte att visa, redigera eller ta bort korrektur och filer som skapats av andra användare i organisationen.
 
-![](assets/no2.png)Det går inte att redigera korrektur eller svar.
+![Rött X](assets/no2.png)Det går inte att redigera korrektur eller svar.
 
-![](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rött X](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Det går inte att ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rött X](assets/no2.png)Det går inte att ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Det går inte att komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Det går inte att ange som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rött X](assets/no2.png)kan inte anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Kan inte tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rött X](assets/no2.png)Kan inte tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
+![Röd X](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
 
-![](assets/no2.png)Det går inte att ta bort kontakter.
+![Rött X](assets/no2.png)Det går inte att ta bort kontakter.
 
 ### Observer {#observer}
 
 Observatörer har följande behörigheter:
 
-![](assets/cleaner2.png)Kan visa, granska och godkänna korrektur för andra användare som delas med dem (skrivskyddad behörighet till allt i en delad mapp). Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Markera](assets/cleaner2.png)Kan visa, granska och godkänna korrektur för andra användare som delas med dem (skrivskyddad behörighet till allt i en delad mapp). Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Kan visa filer som delas med dem.
+![Markering](assets/cleaner2.png)Kan visa filer som delas med dem.
 
-![](assets/cleaner2.png) Kan visa kontakter och grupper
+![Markering](assets/cleaner2.png) Kan visa kontakter och grupper
 
-![](assets/no2.png)Det går inte att skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![Röd X](assets/no2.png)Det går inte att skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Det går inte att visa, redigera eller ta bort korrektur och filer som skapats av andra användare i organisationen.
+![Röda X](assets/no2.png)Det går inte att visa, redigera eller ta bort korrektur och filer som skapats av andra användare i organisationen.
 
-![](assets/no2.png)Det går inte att redigera korrektur eller svar.
+![Rött X](assets/no2.png)Det går inte att redigera korrektur eller svar.
 
-![](assets/no2.png)Det går inte att ta bort objekt som har skapats i organisationen.
+![Rött X](assets/no2.png)Det går inte att ta bort objekt som har skapats i organisationen.
 
-![](assets/no2.png)Det går inte att komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Det går inte att ange som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rött X](assets/no2.png)kan inte anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Kan inte tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rött X](assets/no2.png)Kan inte tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
+![Röd X](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
 
-![](assets/no2.png)Det går inte att skapa grupper eller lägga till nya kontakter.
+![Röd X](assets/no2.png)Det går inte att skapa grupper eller lägga till nya kontakter.
 
-![](assets/no2.png)Det går inte att ta bort kontakter.
+![Rött X](assets/no2.png)Det går inte att ta bort kontakter.
 
 >[!NOTE]
 >
@@ -238,31 +238,31 @@ Observatörer har följande behörigheter:
 
 Besökarna har följande behörigheter:
 
-![](assets/cleaner2.png)Kan visa, granska och godkänna korrektur för andra användare som delas med dem (skrivskyddad behörighet till allt i en delad mapp). Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Markera](assets/cleaner2.png)Kan visa, granska och godkänna korrektur för andra användare som delas med dem (skrivskyddad behörighet till allt i en delad mapp). Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Kan visa filer som delas med dem.
+![Markering](assets/cleaner2.png)Kan visa filer som delas med dem.
 
-![](assets/no2.png) Kan inte visa kontakter och grupper
+![Rött X](assets/no2.png) Kan inte visa kontakter och grupper
 
-![](assets/no2.png)Det går inte att skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![Röd X](assets/no2.png)Det går inte att skapa korrektur, överföra filer och skapa mappar. Mer information finns i [Överför filer och webbinnehåll till [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Det går inte att visa, redigera eller ta bort korrektur och filer som skapats av andra användare i organisationen.
+![Röda X](assets/no2.png)Det går inte att visa, redigera eller ta bort korrektur och filer som skapats av andra användare i organisationen.
 
-![](assets/no2.png)Det går inte att redigera korrektur eller svar.
+![Rött X](assets/no2.png)Det går inte att redigera korrektur eller svar.
 
-![](assets/no2.png)Det går inte att ta bort objekt som har skapats i organisationen.
+![Rött X](assets/no2.png)Det går inte att ta bort objekt som har skapats i organisationen.
 
-![](assets/no2.png)Det går inte att komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Det går inte att ange som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rött X](assets/no2.png)kan inte anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Kan inte tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rött X](assets/no2.png)Kan inte tömma papperskorgen. Mer information finns i [Återställa och tömma papperskorgen i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
+![Röd X](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
 
-![](assets/no2.png)Det går inte att skapa grupper eller lägga till nya kontakter.
+![Röd X](assets/no2.png)Det går inte att skapa grupper eller lägga till nya kontakter.
 
-![](assets/no2.png)Det går inte att ta bort kontakter.
+![Rött X](assets/no2.png)Det går inte att ta bort kontakter.
 
 >[!NOTE]
 >
@@ -276,15 +276,15 @@ Besökarna har följande behörigheter:
 
 Gästprofilen används för att ge åtkomst till korrektur för granskare som inte har ett eget Workfront Proof-konto. Gäster kan komma åt korrektur som delas med dem direkt via sina personliga e-postmeddelanden.
 
-![](assets/cleaner2.png)Kan visa, granska och godkänna korrektur som delas med dem.
+![Markering](assets/cleaner2.png)Kan visa, granska och godkänna korrektur som delas med dem.
 
-![](assets/cleaner2.png)Kan visa filer som delas med dem.
+![Markering](assets/cleaner2.png)Kan visa filer som delas med dem.
 
-![](assets/no2.png)Det går inte att komma åt instrumentpanelen.
+![Rött X](assets/no2.png)Kan inte komma åt instrumentpanelen.
 
-![](assets/no2.png)Det går inte att dela mappar med dem. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rött X](assets/no2.png)Det går inte att dela mappar med dem. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Det går inte att lägga till som författare eller moderatorer till korrektur. Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Rött X](assets/no2.png)kan inte läggas till som författare eller moderatorer i korrektur. Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
@@ -300,11 +300,11 @@ Administratörer och faktureringsadministratörer kan redigera behörighetsprofi
 
    * Gå till sidan **[!UICONTROL Contacts]**.
 
-1. Klicka på det användarnamn vars behörigheter du vill redigera. ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. Klicka på det användarnamn vars behörigheter du vill redigera. ![Välj användare](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
 1. Klicka på listrutan **[!UICONTROL Permissions profile]** och välj en ny behörighetsprofil. :
 
-   ![Screenshot_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
+   ![Behörighetsprofil](assets/screenshot-2018-03-30-14-18-03a.png)
 
    Behörighetsprofiler är Administratör, Ansvarig, Hanterare och Observer.
 

@@ -7,9 +7,9 @@ description: På sidan Korrekturinformation kan du hantera ett befintligt korrek
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Information om hur du hanterar automatiska arbetsflödeskorrektur finns i [Hante
 ## Öppna sidan med korrekturinformation från korrekturläsaren
 
 1. Om det vänstra verktygsfältet inte visas klickar du på ikonen **[!UICONTROL Menu]** i det övre vänstra hörnet.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menyn för korrekturläsare](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. För musen över det vänstra verktygsfältet och klicka sedan på **[!UICONTROL Proof details]**.\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![Information om korrekturläsare](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

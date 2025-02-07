@@ -7,9 +7,9 @@ description: I  [!DNL Workfront Proof] finns korrektur i olika lägen. Dessa lä
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -71,14 +71,14 @@ Mer information om hur du visar en lista med alla korrektur i ett visst läge, t
 
 1. På **[!UICONTROL Dashboard]** klickar du på pilen **[!UICONTROL Expand]** bredvid korrekturet som du vill visa eller ändra läget för.
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![Utöka](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    Avsnittet **[!UICONTROL Workflow process]** visas.
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![Arbetsflödesprocess](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. Visa **[!UICONTROL State]** i **[!UICONTROL Workflow process]**.
 
 1. (Valfritt) Om du vill ändra läge för muspekaren över den aktuella **[!UICONTROL State]**, klickar på listrutan och väljer sedan ett nytt läge.
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![Nytt läge](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

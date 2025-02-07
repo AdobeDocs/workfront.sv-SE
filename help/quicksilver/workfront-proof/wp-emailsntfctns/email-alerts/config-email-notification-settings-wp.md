@@ -7,9 +7,9 @@ description: E-postmeddelanden som genererats från Workfront Proof informerar m
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Du kan konfigurera korrekturinställningar för korrektur som du skapar.
 Du kan ändra e-postaviseringar för en viss mottagare i en gruppåtgärd.
 
 1. Klicka på **[!UICONTROL Contacts]** i den vänstra navigeringspanelen.
-1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-button-small.png) för mottagaren och klicka sedan på **[!UICONTROL View member details]** i listrutan.
+1. Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-button-small.png) för mottagaren och klicka sedan på **[!UICONTROL View member details]** i listrutan.
 
 1. Öppna avsnittet **[!UICONTROL Shared items]**.
 1. Markera kryssrutan till vänster om varje objekt som du vill ändra e-postaviseringen för.

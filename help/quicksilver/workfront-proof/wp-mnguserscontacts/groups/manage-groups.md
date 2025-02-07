@@ -7,9 +7,9 @@ description: Som  [!DNL Workfront Proof] administratör kan du hantera dina offe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ På sidan [!UICONTROL Groups] kan du:
       * Privata grupper visas bara för de som skapat dem.
       * Ta bort de markerade grupperna.
 
-        ![](assets/trash-button.png)
+        ![Ta bort ikon](assets/trash-button.png)
    * Du kan utföra åtgärder på grupper även på varje grupp separat från deras egna **[!UICONTROL More]**-meny (tre punkter):
 
-     ![](assets/more-button-small.png)
+     ![Mer-menyn](assets/more-button-small.png)
 
       * Visa gruppinformation.
 
@@ -102,7 +102,7 @@ På sidan som visas kan du visa alla personer som för närvarande finns i grupp
 
 1. Markera kryssrutorna intill namnet eller namnen på de kontakter som du vill lägga till i en grupp.
 1. Klicka på knappen **[!UICONTROL Add to group]**.
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![Lägg till i grupp](assets/screenshot-2018-04-06-15-27-17.png)
 Dialogrutan **[!UICONTROL Add to group]** visas.
 
 1. I avsnittet **[!UICONTROL People]**:

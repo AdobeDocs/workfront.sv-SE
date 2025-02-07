@@ -7,9 +7,9 @@ description: I flygplansvisualiseringen visas hur många projekt (inom de filter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 I flygplansvisualiseringen visas hur många projekt (inom de filtervillkor som tillämpats) som har varit under drift, vilka villkorsändringar som har gjorts under projektens livslängd och hur nära dessa projekt har uppfyllt de planerade tidsfristerna.
 
-![](assets/flight-plan-350x132.png)
+![Flygplan](assets/flight-plan-350x132.png)
 
 ## Åtkomstkrav
 
@@ -67,11 +67,11 @@ I Flight-planvisualiseringen visas följande projektinformation:
 
 * **Planerad varaktighet**: Den vågräta blå linjen representerar den planerade längden på projektet, med trianglarna i vardera ände av raden som anger startdatum och slutdatum.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![Planerad varaktighet](assets/planned-duration-line-350x37.png)
 
 * **Faktisk varaktighet**: Den tjocka, färgade linjen under den planerade längden representerar projektets faktiska längd. Linjens färg ändras beroende på projektets skick vid den aktuella tidpunkten under projektets livstid.
 
-  ![](assets/actual-duration-line.png)
+  ![Faktisk varaktighet](assets/actual-duration-line.png)
 
 * **Faktiskt villkor**: Den tjocka, färgade linjen visar också villkoret för ett projekt vid olika tidpunkter. Linjens färg ändras beroende på projektets skick:
 
@@ -79,7 +79,7 @@ I Flight-planvisualiseringen visas följande projektinformation:
    * **Orange**: Riskerar
    * **Röd**: I problem
 
-  ![](assets/actual-condition-color.png)
+  ![Faktiskt villkor](assets/actual-condition-color.png)
 
 Genom att hovra över en projektrad i visualiseringen av flygplanen kan du visa information om projektets planerade tidsram, det aktuella projektvillkoret och, om tillämpligt, det anpassade villkoret. Om du vill få en mer detaljerad bild av vad som kan ha påverkat varaktighet eller villkor kan du titta på de andra visualiseringarna i området Förbättrad analys.
 
@@ -95,10 +95,10 @@ Mer information om hur du får bäst data för den här visualiseringen finns i 
 
 ## Visa visualisering av flygplan
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Välj datumintervall](assets/filters-select-date-range-350x344.png)
 
    Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -112,7 +112,7 @@ Mer information om hur du får bäst data för den här visualiseringen finns i 
 
    Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Tidsbildrutefilter](assets/timeframe-filter-350x220.png)
 
 1. (Valfritt) Om du vill ändra hur projekten sorteras klickar du på menyn **Sortera efter** i det övre högra hörnet i visualiseringen av flygplanen och väljer sedan ett nytt sorteringsalternativ:
 
@@ -127,7 +127,7 @@ Mer information om hur du får bäst data för den här visualiseringen finns i 
 
    Alla andra visualiseringar på sidan uppdateras så att de matchar sidans val.
 
-   ![](assets/pagination-350x118.png)
+   ![Sidnumrering](assets/pagination-350x118.png)
 
 1. Håll pekaren över diagrammet i projektfältet om du vill visa den blå datumraden samt följande information:
 
@@ -135,9 +135,9 @@ Mer information om hur du får bäst data för den här visualiseringen finns i 
    * Aktuellt villkor
    * Anpassat villkor (om tillämpligt)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![Diagram över projektfält](assets/project-bar-graph-350x143.png)
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![Exportera ](assets/export.png) i det övre högra hörnet av visualiseringen och väljer exportformat:
 
    * **Diagram (PNG)**
    * **Datatabell (XSLX)**

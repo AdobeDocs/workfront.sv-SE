@@ -7,9 +7,9 @@ description: Förbättrad analys är ett kraftfullt verktyg i Adobe Workfront me
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Förbättrade analysfunktioner kan hjälpa er att identifiera:
 * Hur ofta användare utför specifika åtgärder under ett projekt
 * Projektförloppet samt de enskilda uppgifterna i ett projekt
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![Analyser](assets/nwe-full-screen-analytics-350x222.png)
 
 Om du vill visa användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys kan du läsa [Förbättrade inlärningsvägar för analyser](https://one.workfront.com/s/enhanced-analytics-program).
 

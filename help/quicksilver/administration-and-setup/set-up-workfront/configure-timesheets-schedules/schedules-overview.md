@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Den ordning i vilken tidsplanerna används av systemet när det finns fler än e
 * Om användaren som är tilldelad till aktiviteten inte har något schema, eller om aktiviteten bara är tilldelad till en jobbroll, ett team eller inte är tilldelad, använder [!DNL Workfront] projektschemat för tidslinjeberäkningar.
 * Om användaren som är tilldelad till aktiviteten inte har något schema, eller om aktiviteten bara är tilldelad till en jobbroll, ett team eller inte är tilldelad och projektet inte har något schema, använder [!DNL Workfront] schemat i det system som är angivet som standardschema för tidslinjeberäkningar.
 
-  ![](assets/default-schedule.png)
+  ![Standardschema](assets/default-schedule.png)
 
 ## Collaboration i [!DNL Workfront] över tidszoner
 

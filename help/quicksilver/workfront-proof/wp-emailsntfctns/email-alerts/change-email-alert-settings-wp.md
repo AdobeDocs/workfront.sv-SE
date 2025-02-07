@@ -7,9 +7,9 @@ description: Du kan också ändra de  [!DNL Workfront Proof] e-postaviseringar d
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan också ändra de [!DNL Workfront Proof] e-postaviseringar du får för et
 
 ## Ändra e-postaviseringar för granskarna på ett korrektur
 
-1. Klicka på menyn **[!UICONTROL More]** till höger om korrekturet i valfri listvy. ![](assets/more-button-small.png)
+1. Klicka på menyn **[!UICONTROL More]** till höger om korrekturet i valfri listvy. ![Mer-menyn](assets/more-button-small.png)
 
 1. Klicka på **[!UICONTROL View proof details]**.
 1. På sidan **[!UICONTROL Proof details]** öppnar du listrutan [!UICONTROL email alert] för en granskare och väljer sedan den nya inställningen.

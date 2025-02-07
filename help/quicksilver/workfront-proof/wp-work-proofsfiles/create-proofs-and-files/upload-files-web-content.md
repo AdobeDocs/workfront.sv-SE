@@ -7,9 +7,9 @@ description: Du kan överföra filer till  [!DNL Workfront Proof]  utan att skap
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du kan också använda [!DNL Workfront Proof] som molnlagring för filer utan at
 Så här överför du en fil till [!DNL Workfront Proof]:
 
 1. Klicka på nedpilen på knappen **[!UICONTROL New proof]** i det övre vänstra hörnet av [!DNL Workfront Proof] och klicka sedan på **[!UICONTROL Upload file]** på den meny som visas.\
-   ![](assets/new-proof-button-menu.png)
+   ![Knappen Nytt korrektur](assets/new-proof-button-menu.png)
 
 1. Sidan **[!DNL New File]** visas.
 1. Gör något av följande för att ladda upp eller lägga till innehåll som du behöver korrekturgranska:

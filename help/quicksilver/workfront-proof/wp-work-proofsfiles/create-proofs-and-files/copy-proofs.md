@@ -7,9 +7,9 @@ description: Granskare med redigeringsbehörighet för ett korrektur kan skapa e
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Granskarna som fanns på det ursprungliga korrekturet visas automatiskt i avsnit
 1. Gå till någon av **[!UICONTROL Views]**-sidorna enligt beskrivningen i [Hantera objekt på vysidan i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Öppna **[!UICONTROL More]**-menyn för korrekturet.\
-   ![](assets/more-button-small.png)
+   ![Mer-menyn](assets/more-button-small.png)
 
 1. Välj **[!UICONTROL Copy]** i listrutan.
 1. På sidan **[!UICONTROL Copy proof]** som visas anger du om du vill skapa kopian som en ny version av det befintliga korrekturet eller som ett nytt korrektur.\
@@ -77,7 +77,7 @@ Så här kopierar du befintliga korrekturinställningar för ett nytt korrektur:
 1. Gå till någon av **[!UICONTROL Views]**-sidorna enligt beskrivningen i [Hantera objekt på vysidan i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Öppna **[!UICONTROL More]**-menyn för korrekturet.\
-   ![](assets/more-button-small.png)
+   ![Mer-menyn](assets/more-button-small.png)
 
 1. Välj **[!UICONTROL View proof details]** i listrutan.
 1. Klicka på **[!UICONTROL More]**.\

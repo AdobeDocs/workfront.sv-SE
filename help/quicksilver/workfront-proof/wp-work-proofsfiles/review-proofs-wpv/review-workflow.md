@@ -7,9 +7,9 @@ description: På arbetsflödespanelen visas arbetsflödet för ditt korrektur s�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Så här öppnar du panelen [!UICONTROL Workflow]:
 
    Panelen **[!UICONTROL Workflow]** visas.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![Panelen Arbetsflöde](assets/workflow-panel-350x115.png)
 
    Varje avsnitt på arbetsflödespanelen visar förloppet och statusen för korrektur, faser och granskare.
 

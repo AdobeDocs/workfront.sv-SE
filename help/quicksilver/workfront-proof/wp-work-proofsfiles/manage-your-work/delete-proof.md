@@ -7,9 +7,9 @@ description: Användare som har redigeringsbehörighet för ett korrektur kan ta
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Mer information om papperskorgen finns i [Återställa och tömma papperskorgen 
 ## Ta bort ett korrektur
 
 1. Klicka på menyn **[!UICONTROL More]** till höger om korrekturet i valfri listvy.\
-   ![](assets/more-button-small.png)
+   ![Mer-menyn](assets/more-button-small.png)
 
 1. Klicka på **[!UICONTROL View proof details]** i listrutan som visas.
 1. Klicka på knappen **[!UICONTROL Delete]** i sidans övre högra hörn.

@@ -7,9 +7,9 @@ description: Flera granskare kan granska ett korrektur samtidigt. När du gransk
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ Du kan se närvaroindikatorer när andra granskare har samma korrektur öppet, o
 
 1. (Valfritt) För musen över en närvaroindikator för att visa användarens namn.
 
-   ![](assets/proof-presence.png)
+   ![Bevis för närvaro](assets/proof-presence.png)

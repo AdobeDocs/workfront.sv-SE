@@ -7,9 +7,9 @@ description: Du kan skapa anpassade vyer av dina filer och korrektur för att li
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Så här skapar du en anpassad vy:
 
    * Så här skapar du en ny anpassad vy baserad på en befintlig standardvy: Välj den befintliga standardvyn som du vill använda som bas för den nya anpassade vyn i listrutan. Klicka på ikonen **[!UICONTROL View Settings]** och sedan på **[!UICONTROL Copy]** för att visa en ny anpassad vy.
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![Ikon för anpassad vy](assets/proof-custom-view-icon.png)
 
    * Så här skapar du en ny anpassad vy från grunden: Klicka på ikonen **[!UICONTROL New View]**.
-   * ![](assets/proof-newview.png)
+   * ![Ny vy](assets/proof-newview.png)
 
 1. Ange följande information i avsnittet **[!UICONTROL Details]**:
 
@@ -59,7 +59,7 @@ Så här skapar du en anpassad vy:
 1. I avsnittet **[!UICONTROL Columns]** anger du vilka kolumner du vill ta med i den anpassade vyn.
 
    1. Klicka på högerpilen.
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![Högerpil](assets/proof-view-rightarrow.png)
 
    1. Dubbelklicka på namnet på den markerade kolumnen.
    1. Du måste markera minst en kolumn och en kolumn kan bara läggas till en gång.
@@ -215,7 +215,7 @@ Så här skapar du en anpassad vy:
 1. Om du vill ta med alla objekt i den anpassade vyn hoppar du över avsnittet **[!UICONTROL Filters]**.
 1. Tillgängliga filter:
 
-   * **Fält:** Markera fältet för det här filtret (Kommentarer är standardfältet.) Fältlistan innehåller alla standardfält (som på fliken [!UICONTROL Columns]). Listan är inte begränsad till de kolumner som du har markerat för visning.
+   * **Fält:** Markera fältet för det här filtret (Kommentarer är standardfältet.) Fältlistan innehåller alla standardfält (som på fliken [!UICONTROL Columns] ). Listan är inte begränsad till de kolumner som du har markerat för visning.
    * **Operator:** Vilka operatorer som är tillgängliga för filtret beror på vilken typ av fält du har valt. Välj en operator som visar relationen mellan fältet och värdefältet. Du kommer att fylla i dessa uppgifter senare.
    * **Värde:** Markera eller ange ditt valda värde i det här fältet, enligt fältet och den operator som du valde. Beroende på vilken operator du väljer kan det finnas ett värdefält eller två eller inga. Se exemplen nedan.
    * **Filter tillämpas med följande logik:** Filtervillkor mellan olika fält använder operatorn AND. Flera filtervillkor som använder samma fält använder operatorn OR för samma fält.
@@ -274,10 +274,10 @@ Du kan enkelt redigera en anpassad vy. Så här redigerar du en anpassad vy:
 
 1. Klicka på knappen [!UICONTROL Views] (1)
 1. Välj den vy som du vill redigera i listrutan.\
-   ![](assets/proof-view-edit.png)
+   ![Redigera vy](assets/proof-view-edit.png)
 
 1. Klicka på knappen **[!UICONTROL View Options]** och sedan på **[!UICONTROL Edit view]**.\
-   ![](assets/proof-view-options.png)\
+   ![Visningsalternativ](assets/proof-view-options.png)\
    Sidan Redigera anpassad vy visas.
 
 1. Klicka på menyn [!UICONTROL Actions]. (3)\
@@ -312,7 +312,7 @@ Så här kopierar du en anpassad vy:
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. På sidan Kopiera anpassad vy fylls alla ursprungliga inställningar i. Ändra den anpassade vyn efter ditt val och klicka på knappen **[!UICONTROL Copy view]**. Du kommer nu till den nya vyn omedelbart.\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![Kopiera anpassad vy](assets/copy-custom-view-page-350x542.png)
 
 ## Dela anpassade vyer
 

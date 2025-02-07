@@ -8,9 +8,9 @@ description: Instrumentpanelen är den första sida som visas när du loggar in 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Kontrollpanelen innehåller följande:
 >
 >Vilka menyer och länkar du kan visa och använda på din Dashboard beror på din användarprofil och behörighet.
 
-![](assets/dashboard-350x495.png)
+![Instrumentpanel](assets/dashboard-350x495.png)
 
 Du kan märka ditt konto och visa din egen organisations logotyp, färger, anpassade länkar med mera. Mer information finns i [Varumärket  [!DNL Workfront Proof] platsen](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
 
@@ -49,7 +49,7 @@ Om du inte märker ut ditt konto visas logotypen [!DNL Workfront Proof] och stan
 
 ## Sidhuvudsmenyn
 
-![](assets/header-menu-350x150.png)
+![Huvudmeny](assets/header-menu-350x150.png)
 
 ### Användarnamnet
 
@@ -97,7 +97,7 @@ Klicka här för att logga ut från ditt konto.
    * Ny användare (12)
    * Ny grupp (13)
 
-![](assets/new-proof-350x256.png)
+![Nytt korrektur](assets/new-proof-350x256.png)
 
 ## Kontrollpanelmenyn
 
@@ -116,7 +116,7 @@ Med menyn [!UICONTROL Edit tags] (1) kan du:
 * Skapa nya taggar
 * Hantera taggar (2)
 
-![](assets/edit-tags-350x204.png)
+![Redigera taggar](assets/edit-tags-350x204.png)
 
 ## Flytta till
 
@@ -126,7 +126,7 @@ Med den här funktionen kan du flytta korrektur och filer till en av dina mappar
 1. Klicka på **[!UICONTROL Move to]** (3) och välj den relevanta mappen (4).
 1. Klicka på **[!UICONTROL Save]** (5).
 
-   ![](assets/move-to-350x297.png)
+   ![Flytta till](assets/move-to-350x297.png)
 
 ### Fler åtgärder
 
@@ -138,7 +138,7 @@ På menyn [!UICONTROL More actions] (6) kan du utföra följande åtgärder:
 * Oarkivera (endast korrektur)
 * Ändra ägare
 
-![](assets/more-actions-350x303.png)
+![Fler åtgärder](assets/more-actions-350x303.png)
 
 ### Ta bort
 
@@ -146,11 +146,11 @@ Så här tar du bort objekt:
 
 1. Markera kryssrutan till vänster om objekten och klicka på **[!UICONTROL Delete]** (7).
 
-![](assets/delete-350x109.png)
+![Ta bort ikon](assets/delete-350x109.png)
 
 1. På bekräftelseskärmen som visas kontrollerar du informationen och bekräftar genom att klicka på **[!UICONTROL Yes]** (8).
 
-![](assets/deleteing-items-350x237.png)
+![Tar bort objekt](assets/deleteing-items-350x237.png)
 
 ### Sidofältet
 
@@ -168,7 +168,7 @@ Sidlisten har länkar till följande sidor:
 * Andra organisationers mappar (10) (där du kan hitta objekt som andra organisationer delar med dig)
 * Taggar (11)
 
-![](assets/sidebar-350x426.png)
+![Sidofältet](assets/sidebar-350x426.png)
 
 Sidofältet beskrivs mer ingående på hjälpsidan för sidofältet.
 
@@ -181,7 +181,7 @@ Avsnittet [!UICONTROL Welcome] har följande användbara länkar:
 * Kontaktuppgifter till supporten (3)
 * Länk &quot;Visa inte välkomstavsnittet igen&quot; (4)
 
-![](assets/welcome-350x73.png)
+![Välkommen](assets/welcome-350x73.png)
 
 ### Ökning
 
@@ -197,7 +197,7 @@ I översiktsavsnittet visas även förfiltrerad information. Dessa är:
 * Korrektur att hantera - totalt antal aktiva korrektur som du äger och som har delegerats till dig
 * Språkversioner som väntar på beslut - totalt antal aktiva korrektur som kräver dina beslut
 
-  ![](assets/dashboard-overview-350x169.png)
+  ![Kontrollpanel - översikt](assets/dashboard-overview-350x169.png)
 
 Här ser du direkt hur många korrektur som kräver omedelbara åtgärder från dig eller granskarna:
 
@@ -237,7 +237,7 @@ Så här öppnar du sidan Korrekturinformation:
 1. Klicka på menyn **[!UICONTROL Actions]** (1) till höger om korrekturnamnet.
 1. Välj **[!UICONTROL View proof details]** (2) på menyn.
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![Senaste objekt](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Senaste aktivitet
 
@@ -258,4 +258,4 @@ Gå till sidan med korrekturinformation för det korrekturet:
 1. Klicka på menyn **[!UICONTROL Actions]** (1).
 1. Välj **[!UICONTROL View proof details]** (2) i listrutan.
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![Senaste aktivitet](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

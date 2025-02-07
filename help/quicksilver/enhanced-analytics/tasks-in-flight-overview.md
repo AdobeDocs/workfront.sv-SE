@@ -7,9 +7,9 @@ description: Aktiviteter vid flygvisualisering visar hur många uppgifter (inom 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Aktiviteter vid flygvisualisering visar hur många uppgifter (inom de filtervillkor som tillämpas) som pågår för ett projekt, hur många procent av arbetet som har slutförts för varje uppgift och hur enligt tidsplanen uppgifterna utförs.
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+![Uppgifter under flygning](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## Åtkomstkrav
 
@@ -59,15 +59,15 @@ Aktiviteter i visualisering av färdplan visar följande aktivitetsinformation:
 
 * **Planerad aktivitetslängd**: Längden på ett aktivitetsfält anger planerad varaktighet, baserat på aktivitetens startdatum och slutförandedatum.
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![Uppgifter under flygtid](assets/tasks-in-flight-duration-350x80.png)
 
 * **Arbetsinsatsen har slutförts**: Den mörkblå färgen i ett aktivitetsfält anger mängden arbete som har slutförts för en aktivitet. Den här procentandelen för slutförande visas till höger om aktivitetsfältet.
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![Uppgifter i flygande mörkblått](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **Återstående arbetsinsats**: Den ljusblå färgen i ett aktivitetsfält anger mängden arbete som behöver slutföras för en aktivitet.
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![Aktiviteter i flygljus blått](assets/tasks-in-flight-light-blue-350x35.png)
 
 Den här informationen kan hjälpa dig att avgöra:
 
@@ -80,10 +80,10 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
 ## Visa uppgifter i flygvisualisering
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
+1. Klicka på ikonen Huvudmeny ![Huvudmeny](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Välj datumintervall](assets/filters-select-date-range-350x344.png)
 
    Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -113,7 +113,7 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
    Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Tidsbildrutefilter](assets/timeframe-filter-350x220.png)
 
 1. (Valfritt) Om du vill ändra hur uppgifterna sorteras klickar du på menyn **Sortera efter** och väljer sedan ett nytt sorteringsalternativ:
 
@@ -125,13 +125,13 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
 1. Granska förloppet för uppgifter i det valda projektet och hovra sedan över en viss uppgift för att se antalet planerade timmar, planerat förfallodatum och slutförandeprocenten.
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   ![Uppgifter i flyginformation](assets/tasks-in-flight-task-details-350x242.png)
 
 1. Klicka på en uppgift för att öppna uppgiften Detaljer till höger på skärmen, där du kan se mer information om uppgiften, visa eller ange uppdateringar eller göra ändringar i uppgiften.
 
-   ![](assets/task-details-qs-350x675.png)
+   ![Uppgiftsinformation](assets/task-details-qs-350x675.png)
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![Exportera ](assets/export.png) i det övre högra hörnet av visualiseringen och väljer exportformat:
 
    * **Diagram (PNG)**
    * **Datatabell (XSLX)**

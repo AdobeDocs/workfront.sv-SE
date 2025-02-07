@@ -7,9 +7,9 @@ description: Om du har redigeringsbehörighet för ett korrektur kan du enkelt d
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du kan lägga till granskare i ett korrektur när du skapar ett nytt korrektur e
 ## Lägga till granskare i ett befintligt korrektur
 
 1. Klicka på knappen **[!UICONTROL More]** till höger om korrekturet på kontrollpanelen eller i valfri listvy.\
-   ![](assets/more-button-small.png)
+   ![Mer-menyn](assets/more-button-small.png)
 
 1. Klicka på **[!UICONTROL Share]** i listrutan.
 1. På sidan **[!UICONTROL Share this version]** som visas lägger du till granskare genom att lägga till deras e-postadresser.\

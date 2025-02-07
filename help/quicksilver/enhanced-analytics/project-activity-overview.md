@@ -7,9 +7,9 @@ description: I projektaktivitetsvisualiseringen visas en sammanställd vy över 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -68,15 +68,15 @@ Projektaktiviteter visas i olika färger för att sammanfatta specifika händels
 
 * **Användare som är inloggade**: lila rutor visar att personer som tilldelats projektet är inloggade den dagen. En mörkare ton anger att fler personer loggar in.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Användare som är inloggade](assets/project-activity-users-logged-in.png)
 
 * **Statusändring för aktivitet**: Rutor för rosa visar att personer har ändrat status för en aktivitet för projektet den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Aktivitetsstatusändring](assets/project-activity-task-status-changes.png)
 
 * **Aktiviteter slutförda**: Blå rutor visar att personer har slutfört en aktivitet för projektet. En mörkare ton anger att fler uppgifter slutförs.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Aktiviteter har slutförts](assets/project-activity-tasks-completed.png)
 
 När du hovrar över en ruta visas det exakta antalet gånger som åtgärden har slutförts under en viss dag. Du kan välja ett projekt om du vill se en beskrivning av aktiviteterna för varje enskild deltagare i projektet.
 
@@ -90,10 +90,10 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
 ## Visa projektaktivitetsvisualisering
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
+1. Klicka på ikonen Huvudmeny ![Huvudmeny](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Välj datumintervall](assets/filters-select-date-range-350x344.png)
 
    Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -111,7 +111,7 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
    Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Tidsbildrutefilter](assets/timeframe-filter-350x220.png)
 
 1. (Valfritt) Om du vill ändra hur projekten sorteras klickar du på menyn **Sortera efter** och väljer sedan ett nytt sorteringsalternativ:
 
@@ -126,7 +126,7 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
    Alla andra visualiseringar på sidan uppdateras så att de matchar sidans val.
 
-   ![](assets/pagination-350x118.png)
+   ![Sidnumrering](assets/pagination-350x118.png)
 
 1. Klicka på ett projekt i visualiseringen för att se mer information om projektet.
 
@@ -134,9 +134,9 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
 1. För musen över en ruta för att se vilket datum användaren slutförde en åtgärd samt hur många gånger åtgärden slutfördes för den dagen.
 
-   ![](assets/project-activity-activity-pop-up-350x137.png)
+   ![Aktivitets-popup](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![Exportera ](assets/export.png) i det övre högra hörnet av visualiseringen och väljer exportformat:
 
    * **Diagram (PNG)**
    * **Datatabell (XSLX)**

@@ -7,9 +7,9 @@ description: I Activity by team-visualisering visas aktiviteter som inträffar u
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ I Activity by team-visualisering visas aktiviteter som inträffar under en viss 
 >Visualiseringen av projektaktiviteten liknar den här visualiseringen, men den visar aktivitet baserat på personer som har tilldelats till projekt i stället för personer som har tilldelats till ett hemteam.\
 >Mer information om visualisering av projektaktivitet finns i [Visa visualisering av projektaktivitet i Förbättrad analys](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png){width="700"}
+![Aktivitet per team](assets/activity-by-team-350x113.png){width="700"}
 
 ## Åtkomstkrav
 
@@ -75,15 +75,15 @@ De olika aktiviteterna visas i olika färger för att sammanfatta specifika hän
 
 * **Användare som är inloggade**: lila rutor visar att personer i hemteamet är inloggade den dagen. En mörkare ton anger att fler personer loggar in.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Användare som är inloggade](assets/project-activity-users-logged-in.png)
 
 * **Statusändring för aktivitet**: Rutor för rosa visar att personer i hemteamet ändrade status för en uppgift den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Aktivitetsstatus ändras](assets/project-activity-task-status-changes.png)
 
 * **Aktiviteter slutförda**: Blå rutor visar att personer i hemteamet slutförde en uppgift den dagen. En mörkare ton anger att fler uppgifter slutförs.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Aktiviteter har slutförts](assets/project-activity-tasks-completed.png)
 
 När du hovrar över en ruta visas det exakta antalet gånger som åtgärden har slutförts under en viss dag. Du kan välja ett team för att se en beskrivning av dessa aktiviteter för varje person i hemteamet.
 
@@ -97,14 +97,14 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
 ## Visa Aktivitet efter teamvisualisering
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
+1. Klicka på ikonen Huvudmeny ![Huvudmeny](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
 1. Välj **Personer** i den vänstra panelen.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Området Personer](assets/people-area-cropped-qs-350x276.png)
 
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Välj datumintervall](assets/filters-select-date-range-350x344.png)
 
    Mer information om hur du använder datumintervallfiltret finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -118,7 +118,7 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
    Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Tidsbildrutefilter](assets/timeframe-filter-350x220.png)
 
 1. Klicka på ett teamnamn
 
@@ -140,9 +140,9 @@ Om du vill lära dig hur du får bästa möjliga data för den här visualiserin
 
    Mörkare färger anger högre aktivitet.
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   ![Aktivitet per team](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen Exportera ![](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen Exportera ![på ikonen Exportera](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
 
    * **Diagram (PNG)**
    * **Datatabell (XSLX)**
