@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
+source-git-commit: 36ec1b2e8bdd499718c1a46d2549b46ddce3b4aa
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration och installation
+
+### Gränssnittsuppdatering för inställningar för godkännandeprocess i installationsprogrammet
+
+**Förhandsversion: 6 februari 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat dialogrutan Godkännandeinställningar med en modernare design som överensstämmer med andra delar av Workfront.
+
+Om du vill visa inställningarna går du till Inställningar > Inställningar > Godkännanden > Välj inställningsikonen längst upp på sidan.
 
 ### Gränssnittsuppdatering för området Godkännanden i Inställningar > Grupper
 
@@ -110,7 +118,17 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ## Agile
 
-## Gränssnittsuppdatering för Teams > Backlog
+### Lägg till artiklar och ärenden i en iteration
+
+**Förhandsversion: 6 februari 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat dialogrutan Lägg till artikel och Lägg till med en modernare design som överensstämmer med andra delar av Workfront.
+
+Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
+
+Om du vill visa den här ändringen går du till Team > Välj ett team > Iterations > Välj en upprepning och klickar sedan på **Ny artikel** eller **Nytt problem**.
+
+### Gränssnittsuppdatering för Teams > Backlog
 
 **Förhandsversion: 23 januari 2025; Produktionsversion: Från och med 13 februari 2025**
 
@@ -123,7 +141,7 @@ Uppdateringen innehåller följande ändringar:
 
 ### Gränssnittsuppdatering för Iterations-listan
 
-**Förhandsversion: 23 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 23 januari 2025; Produktionsversion: Från 3 februari 2025**
 
 Vi har uppdaterat listan Teams > Iterations med en modernare design som överensstämmer med andra delar av Workfront.
 
