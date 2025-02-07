@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Vissa objekt i Adobe Workfront tillåter lagring av text med formatering av form
 
 Ett anpassat fält med formatering av formaterad text kallas **Fält med formaterad text** och kan ha följande värden kopplade till sig:
 
-![](assets/rich-text-example-350x158.png)
+![Exempel på RTF](assets/rich-text-example-350x158.png)
 
 **Exempel:** En grundläggande begäran om GET för att hämta värdet för det anpassade formulärfältet **Fält med RTF-text**:
 
@@ -48,7 +48,7 @@ Ett block är ett JSON-objekt som representerar en enda rad med formaterad text.
 
 **Exempel:** Här mappas varje textrad från ett anpassat fält till ett blockelement i arrayblocken
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![RTF-mappning](assets/copy-of-rich-text-mapping-350x159.png)
 
 Eftersom varje blockelement också är ett JSON-objekt består varje block av elementen: **key**, **text**, **type**, **depth**, **inlineStyleRanges**, **entityRanges** och **data**. Var och en av dessa element fungerar enligt följande:
 
@@ -61,7 +61,7 @@ Eftersom varje blockelement också är ett JSON-objekt består varje block av el
 
 **Exempel:** Här är en inlineStyleRanges-array som beskriver varje format på teckennivå. I det här fallet användes formatet **Fet** för 9 tecken (längd: 9) med början från index 0 (förskjutning: 0):
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![RTF-mappning](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 Om flera typer av formatering har använts på en rad kopplas formaten till ytterligare element i arrayen** inlineStyleRanges**.
 

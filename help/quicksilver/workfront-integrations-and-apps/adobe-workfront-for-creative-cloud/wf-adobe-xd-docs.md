@@ -6,9 +6,9 @@ description: Du kan överföra ritytorna som dokument för snabb granskning och 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -65,10 +65,10 @@ Instruktioner finns i [Installera [!DNL Adobe Workfront for XD]](/help/quicksilv
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/menu-350x440.png)
+   ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till den arbetsuppgift där du vill överföra ett dokument.
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Markera den rityta som du vill överföra.
@@ -113,10 +113,10 @@ Instruktioner finns i [Installera [!DNL Adobe Workfront for XD]](/help/quicksilv
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/menu-350x440.png)
+   ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till den arbetsuppgift där du vill överföra ett dokument.
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på dokumentet som du vill lägga till en ny version i.
 1. Klicka på **[!UICONTROL New version]** längst ned i plugin-programmet.

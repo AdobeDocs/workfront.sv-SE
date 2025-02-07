@@ -6,9 +6,9 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv 
 
 1. Klicka på **[!UICONTROL Plugins]** > **[!UICONTROL Plugins Panel]** på den översta menyn.
 
-   ![](assets/plugins-panel-ps.png)
+   ![Panelen Plugins](assets/plugins-panel-ps.png)
 
 1. I **[!UICONTROL Plugins Panel]** väljer du fliken **[!UICONTROL Plugins]** och söker efter **[!UICONTROL Workfront for Adobe Photoshop]**.
 
@@ -107,7 +107,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv 
    >[!TIP]
    >
    >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
-   >![](assets/domain-350x50.png)
+   >![Hitta domän](assets/domain-350x50.png)
    >
    > * Om din Workfront-instans är integrerad med Experience Cloud ber du din administratör att ge dig den Workfront-domän som finns under Product > Workfront i Admin Console.
 

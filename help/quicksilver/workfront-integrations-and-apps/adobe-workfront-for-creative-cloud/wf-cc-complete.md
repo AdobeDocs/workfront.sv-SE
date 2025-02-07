@@ -6,9 +6,9 @@ description: Du kan vara kvar i Adobe Creative Cloud-programmen och slutföra ar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, l
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Välj den uppgift eller det problem som du vill markera som slutförd i **[!UICONTROL Work List]**.
 1. Klicka på **[!UICONTROL Done]**.  Om du är den enda användaren som är tilldelad den här uppgiften eller utgåvan markeras objektet [!UICONTROL Complete] eller [!UICONTROL Resolved] i [!DNL Workfront].
@@ -75,6 +75,6 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, l
    >[!NOTE]
    >
    >Om arbetsposten har föregångare är knappen Klar grå tills dessa föregångare har markerats som slutförda. Om du vill visa föregående aktiviteter i [!DNL Workfront] klickar du på aktivitetsnamnet.
-   >![](assets/navigate-to-workfront.png)
+   >![Navigera till Workfront](assets/navigate-to-workfront.png)
 
-<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
+<!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

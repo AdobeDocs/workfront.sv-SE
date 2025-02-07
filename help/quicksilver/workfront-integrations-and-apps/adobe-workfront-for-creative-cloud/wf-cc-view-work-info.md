@@ -6,9 +6,9 @@ description: Du kan visa information om projekt, uppgifter, problem och dokument
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Markera den arbetsuppgift som du vill visa.
 
@@ -74,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Details]** ![](assets/details.png) i navigeringsfältet för att visa:
+1. Klicka på ikonen **[!UICONTROL Details]** ![Detaljer](assets/details.png) i navigeringsfältet för att visa:
 
    * [!UICONTROL Description]
    * [!UICONTROL Planned Completion Date]
@@ -87,7 +87,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Markera den arbetsuppgift som du vill visa.
 
@@ -95,7 +95,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett dokument för att visa:
+1. Klicka på ikonen **[!UICONTROL Document]** ![ Dokument ](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett dokument för att visa:
 
    * [!UICONTROL Description]
    * [!UICONTROL File Type]
@@ -108,7 +108,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Markera den arbetsuppgift som du vill visa.
 
@@ -116,7 +116,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
+1. Klicka på ikonen **[!UICONTROL Document]** ![ Dokument ](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
 
 1. Klicka på pilikonen i det övre högra hörnet av miniatyrbilden för att öppna korrekturinformationen i [!DNL Workfront].
 
@@ -126,7 +126,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Markera den arbetsuppgift som du vill visa.
 
@@ -134,17 +134,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
+1. Klicka på ikonen **[!UICONTROL Document]** ![ Dokument ](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
 
 1. Rulla längst ned för att visa korrekturets aktuella status. Mer information om skickade, öppnade, kommentarer, beslut (SOCD) finns i [Översikt över dokumentinformation](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
-![](assets/proof-status.png)
+![Korrekturstatus](assets/proof-status.png)
 
 ## Visa underaktiviteter och ärenden
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Markera den arbetsuppgift som du vill visa.
 
@@ -152,9 +152,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Issue]** ![](assets/issues.png) eller **Underaktivitet** ![](assets/subtasks.png) .
+1. Klicka på ikonen **[!UICONTROL Issue]** ![Problem ](assets/issues.png) eller **Underaktivitet** ![Underaktivitet](assets/subtasks.png).
 
-1. Markera uppgiften eller problemet och klicka sedan på ikonen **[!UICONTROL Details]** ![](assets/details.png) i navigeringsfältet för att visa:
+1. Markera uppgiften eller problemet och klicka sedan på ikonen **[!UICONTROL Details]** ![Detaljer](assets/details.png) i navigeringsfältet för att visa:
 
    * [!UICONTROL Planned Completion Date]
    * [!UICONTROL Status]

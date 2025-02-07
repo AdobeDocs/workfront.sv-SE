@@ -6,9 +6,9 @@ description: Du kan överföra ritytorna som korrektur direkt till Adobe Workfro
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/menu-350x440.png)
+   ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till arbetsuppgiften där du vill överföra ett statiskt korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Markera de ritytor som du vill överföra.
@@ -108,7 +108,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Valfritt) Skriv en kommentar i området **[!UICONTROL Updates]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Korrektur för godkännanden i XD](assets/proof-approvals-xd-350x396.png)
 
 1. Välj exportformat i listrutan **[!UICONTROL Asset Type]**.
 
@@ -117,7 +117,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Valfritt) Ge PDF ett namn.
 
-   ![](assets/pdf-options.png)
+   ![Alternativ för PDF](assets/pdf-options.png)
 
 1. Klicka på **[!UICONTROL Upload]**.\
    Dokumentet visas i området [!UICONTROL Documents] i plugin-programmet och skrivbordsappen.
@@ -149,10 +149,10 @@ Du kan skapa ett interaktivt korrektur för ritytorna med plugin-programmet [!DN
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/menu-350x440.png)
+   ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till arbetsuppgiften där du vill ladda upp ett interaktivt korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Aktivera **[!UICONTROL Create a Proof]**.
@@ -184,10 +184,10 @@ Du kan skapa ett interaktivt korrektur för ritytorna med plugin-programmet [!DN
 
 1. (Valfritt) Skriv en kommentar i området **[!UICONTROL Updates]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Korrektur för godkännanden i XD](assets/proof-approvals-xd-350x396.png)
 
 1. I listrutan **[!UICONTROL Asset Type]** väljer du länken som du nyss skapade på fliken **Delade länkar**. Mer information finns i [Skapa en interaktiv länk för ritytan](#create-an-interactive-link-for-your-artboard).\
-   ![](assets/shared-links-xd-350x870.png)
+   ![Delade länkar i XD](assets/shared-links-xd-350x870.png)
 
 1. Klicka på **[!UICONTROL Upload]**.
 
@@ -203,10 +203,10 @@ Du kan överföra en ny version av ett korrektur. Plugin-programmet kommer ihåg
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/menu-350x440.png)
+   ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till den arbetsuppgift som du behöver överföra ett dokument till.
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New Version]** längst ned i plugin-programmet.
 1. Aktivera **[!UICONTROL Create a Proof]**.
@@ -243,17 +243,17 @@ Du kan överföra en ny version av ett korrektur. Plugin-programmet kommer ihåg
 
 1. Välj exportformat i listrutan **[!UICONTROL Asset Type]**.
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![Skapa ett korrektur i XD](assets/create-a-proof-xd-350x202.png)
 
 1. (Valfritt) Skriv en kommentar i området **[!UICONTROL Updates]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Korrektur för godkännanden i XD](assets/proof-approvals-xd-350x396.png)
 
 1. (Valfritt) Om du väljer PDF som resurstyp och har markerat mer än en rityta väljer du om du vill exportera ritytorna som **[!UICONTROL Single PDF file]s** eller **M[!UICONTROL ultiple PDF files]**.
 
 1. (Valfritt) Ge PDF ett namn.
 
-   ![](assets/pdf-options.png)
+   Alternativ för PDF
 
 1. Klicka på **[!UICONTROL Upload]**.\
    Dokumentet visas i området [!UICONTROL Documents] i plugin-programmet och skrivbordsappen.

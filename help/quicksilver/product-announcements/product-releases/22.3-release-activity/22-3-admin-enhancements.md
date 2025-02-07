@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Mer information finns i [Konfigurera systemomfattande projektinställningar](/he
 
 ## Inaktivera en grupp från gruppsidan
 
-Nyligen har vi lagt till möjligheten att inaktivera och återaktivera grupper. För att göra den åtgärden snabbare och enklare har vi lagt till den på en grupps sida. När du har klickat på en grupps namn för att gå till dess sida kan du nu välja menyn Mer ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) bredvid gruppens namn och sedan välja Inaktivera eller Återaktivera.
+Nyligen har vi lagt till möjligheten att inaktivera och återaktivera grupper. För att göra den åtgärden snabbare och enklare har vi lagt till den på en grupps sida. När du har klickat på en grupps namn för att gå till dess sida kan du nu markera ikonen Mer ![Huvudmeny](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) bredvid gruppens namn och sedan välja Inaktivera eller Återaktivera.
 
 Tidigare kunde du bara inaktivera eller återaktivera en grupp med kryssrutan Är aktiv på detaljsidan.
 

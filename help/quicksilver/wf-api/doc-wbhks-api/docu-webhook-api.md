@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3627'
 ht-degree: 0%
 
 ---
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (Releasedatum - TBD) Den här slutpunkten gör att en Workfront-användare (eller kanske en automatiserad arbetsflödeshändelse) kan utföra en åtgärd i det externa systemet. Slutpunkten /customAction accepterar en name-parameter, som gör att webkrok-providern kan implementera flera anpassade åtgärder.
 
 Webbholleverantören registrerar anpassade åtgärder med Workfront genom att inkludera åtgärderna i svaret /serviceInfo under customActions. Workfront läser in den här listan när du konfigurerar eller uppdaterar webkrokprovidern under Inställningar > Dokument > Anpassade integreringar.\
-![](assets/mceclip0-350x262.png)
+![Utför en anpassad åtgärd](assets/mceclip0-350x262.png)
 
 Användarna kan aktivera den anpassade åtgärden genom att markera avsnittet under Dokumentåtgärder\
-![](assets/mceclip1-350x95.png)
+![Utlös anpassade åtgärder](assets/mceclip1-350x95.png)
 
 **URL**
 

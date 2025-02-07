@@ -6,9 +6,9 @@ description: Med  [!DNL Adobe Workfront] [!DNL Outlook]-tillägget kan du utför
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Du kan hämta Workfront-tillägget för Outlook från [Microsoft Store](https://
 
 ### [!DNL Workfront] för [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. I [!DNL Outlook 365] klickar du på ikonen **[!UICONTROL Browse Add-ins]** ![](assets/outlook-add-in-26x26.png) längst upp i Office 365-gränssnittet och sedan på **[!UICONTROL Manage add-ins]**.
+1. I [!DNL Outlook 365] klickar du på ikonen **[!UICONTROL Browse Add-ins]** ![Bläddra bland tillägg](assets/outlook-add-in-26x26.png) högst upp i Office 365-gränssnittet och sedan på **[!UICONTROL Manage add-ins]**.
 
 1. Sök efter **[!DNL Workfront]** i rutan **[!UICONTROL Search add-ins]** och tryck sedan på [!UICONTROL Enter].
 
@@ -121,7 +121,7 @@ Du kan hämta Workfront-tillägget för Outlook från [Microsoft Store](https://
 ### [!DNL Workfront] för [!DNL Outlook] på webben {#workfront-for-outlook-on-the-web}
 
 1. Öppna [!DNL Microsoft Outlook] i en webbläsare.
-1. Klicka på ikonen **[!UICONTROL Browse]-tillägg** ![](assets/outlook-add-in-web-version-20x20.png).
+1. Klicka på ikonen **[!UICONTROL Browse]-tillägg** ![Bläddra bland tillägg](assets/outlook-add-in-web-version-20x20.png).
 
    Information om hur du hittar ikonen finns i [Använda tillägg i [!DNL Outlook]  på webben](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) i Microsoft-dokumentationen.
 

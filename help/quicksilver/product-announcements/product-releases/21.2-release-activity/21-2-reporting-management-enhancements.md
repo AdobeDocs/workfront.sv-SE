@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ För att matcha det moderna utseendet i andra områden i den nya Workfront-upple
 
 Mer information om tilldelningar i listor finns i [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md) eller [Tilldela ärenden](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![Uppdragsuppdateringar](assets/assignments-updates-350x193.png)
 
 ## Nytt utseende och känsla för typsnittsfält i uppdaterade listor och rapporter
 
@@ -64,7 +64,7 @@ För att matcha det moderna utseendet i andra områden i den nya Workfront-upple
 
 Mer information om uppdaterade listor finns i avsnittet [Skillnaden mellan de uppdaterade och äldre listorna](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) i artikeln [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![Typhead-fält](assets/typeahead-updates-350x336.png)
 
 ## Rapport om systemuppdateringar
 

@@ -6,9 +6,9 @@ description: Du kan få meddelanden från  [!DNL Adobe Workfront] om objekt som 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Så här hanterar du [!DNL Workfront]-meddelanden som du kan ta emot i [!DNL Mic
 1. Klicka på [!DNL Workfront] i listan som visas.
 1. Välj fliken **[!UICONTROL Settings]**.
 
-   ![](assets/ms-teams-settings-tab-350x552.png)
+   ![Inställningsfliken för MS Teams](assets/ms-teams-settings-tab-350x552.png)
 
 1. Inaktivera alla meddelanden som du inte vill ta emot. Du kan aktivera eller inaktivera grupper av meddelanden, till exempel informations- eller godkännandemeddelanden, eller så kan du hantera meddelanden individuellt.
 

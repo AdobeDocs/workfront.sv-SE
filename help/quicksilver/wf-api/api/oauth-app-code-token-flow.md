@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Tredjepartsprogrammet kan kräva konfiguration. Följande tabell innehåller inf
 
 ## Ställ in auktoriseringskodflöde
 
-![](assets/oauth-2-authorization-code-flow.png)
+![OAuth-kodflöde](assets/oauth-2-authorization-code-flow.png)
 
 Så här loggar du in användare med OAuth2:
 
@@ -93,7 +93,7 @@ Så här loggar du in användare med OAuth2:
 
    Om användaren redan är inloggad på Workfront i samma webbläsare, eller loggar in på Workfront utan fel, dirigeras användaren om till godkännandeskärmen:
 
-   ![](assets/consent-screen-350x227.png)
+   ![Skärmen för samtycke](assets/consent-screen-350x227.png)
 
 1. Om användaren tillåter åtkomst omdirigeras sidan till `redirect_url`. Omdirigeringen måste innehålla följande frågeparametrar:
 
@@ -172,7 +172,7 @@ Så här loggar du in användare med OAuth2:
 
 ## Konfigurera åtkomsttoken för uppdatering
 
-![](assets/refresh-access-token-flow-350x142.png)
+![Uppdatera åtkomsttoken](assets/refresh-access-token-flow-350x142.png)
 
 För att uppdatera access_token måste vi göra ett POST-anrop till tokenslutpunkten igen. Den här gången skickar vi en annan formulärdata enligt följande:
 

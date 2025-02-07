@@ -6,7 +6,7 @@ description: Vi gör två ändringar av det sätt på vilket Adobe Workfront ski
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Vi gör två ändringar av det sätt på vilket Adobe Workfront skickar och tar 
 
 ## Utgående e-post från Workfront
 
-I ett försök att öka den framgångsrika leveransen av e-postmeddelanden kommer vi att eliminera förfalskning av e-postmeddelanden, som ofta taggas som skräppost (se Spefofing av e-post). Alla e-postmeddelanden från Workfront skickas från notifications@my.workfront.com, både automatiska varningar och kommunikation mellan användare. Ett exempelmejl från Joan Harris kommer att se ut så här i ditt mejlområde:
+I ett försök att öka den framgångsrika leveransen av e-postmeddelanden kommer vi att eliminera förfalskning av e-postmeddelanden, som ofta taggas som skräppost (se Spefofing av e-post). Alla e-postmeddelanden från Workfront skickas från `notifications@my.workfront.com`, både automatiska varningar och kommunikation mellan användare. Ett exempelmejl från Joan Harris kommer att se ut så här i ditt mejlområde:
 
-![](assets/noreply.png)
+![Exempel på e-post](assets/noreply.png)
 
-*Vi rekommenderar att du kontaktar IT-teamet* för att se till att e-post från notifications@my.workfront.com inte blockeras för inkommande e-post till ditt system. Du kan också referera till [Konfigurera brandväggens tillåtelselista](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) för information om vilka IP-adresser som vår trafik och e-post kommer från.
+*Vi rekommenderar att du kontaktar IT-teamet* för att se till att e-post från `notifications@my.workfront.com` inte blockeras för inkommande e-post till ditt system. Du kan också referera till [Konfigurera brandväggens tillåtelselista](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) för information om vilka IP-adresser som vår trafik och e-post kommer från.
 
 ## Inkommande e-postsvar till meddelanden (POP-svar)
 

@@ -6,9 +6,9 @@ description: I version 20.3 (som ska lanseras i augusti 2020) går Adobe Workfro
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ I version 20.3 (som ska lanseras i augusti 2020) går Adobe Workfront över till
 
 Du kommer åt den här funktionen genom att logga in som systemadministratör och gå till Konfigurera > E-post > Konfigurera. Här visas en skärmbild som visar funktionen:
 
-![](assets/email-server-settings-350x226.png)
+![Inställningar för e-postserver](assets/email-server-settings-350x226.png)
 
 Inställningen som är markerad på den här skärmbilden ändras automatiskt till att använda alternativet Workfront Mail Server i version 20.3.
 

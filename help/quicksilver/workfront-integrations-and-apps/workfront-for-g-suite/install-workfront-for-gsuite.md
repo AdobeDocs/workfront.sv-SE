@@ -7,9 +7,9 @@ description: Du kan installera tillägget  [!DNL Adobe Workfront] för Google Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Klicka på plustecknet i sidofältet för [!DNL Google Workspace] tillägg längst till höger i en [!DNL Google Workspace]-app ([!DNL Gmail], [!DNL Google Calendar] eller [!DNL Google Drive]). Sök efter *[!DNL Workfront for Google Workspace]* och klicka sedan på appobjektet [!DNL Workfront for Google Workspace] som visas.
 
 1. Klicka på **[!UICONTROL Install]** och följ sedan anvisningarna som visas.
-1. (Villkorligt) Uppdatera sidan om du inte ser ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan, i appen [!DNL Google Workspace].
+1. (Villkorligt) Uppdatera sidan om du inte ser ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för tillägg [!DNL Google Workspace] längst till höger på sidan, i appen [!DNL Google Workspace].
 
 Mer information om inloggning finns i [Logga in och ut från  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

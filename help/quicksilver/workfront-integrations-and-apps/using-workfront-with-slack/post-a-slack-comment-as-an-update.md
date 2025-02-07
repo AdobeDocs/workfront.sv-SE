@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Post en Slack-kommentar som en uppdatering
+title: Posta en Slack-kommentar som en uppdatering
 description: Du kan lägga till en Slack-kommentar som en uppdatering av ett visst projekt, en viss uppgift eller ett visst problem i Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ Innan du kan publicera en [!DNL Slack]-kommentar som en uppdatering måste du
 
    När en kommentar kom från [!DNL Slack] visas meddelandet [!UICONTROL Posted from [!DNL Slack]] i [!DNL Workfront].
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![Uppdateringen har publicerats från Slack](assets/slack-update-posted-from-slack-350x112.png)

@@ -2,14 +2,14 @@
 content-type: overview
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: Adobe Workfront för Salesforce - översikt
-description: Du kan installera  [!DNL Adobe Workfront] för Salesforce så att dina Salesforce-användare kan skicka  [!DNL Workfront] förfrågningar och automatiskt skapa projekt utan att någonsin behöva lämna Salesforce.
+title: Adobe Workfront for Salesforce - översikt
+description: Du kan installera [!DNL Adobe Workfront] för Salesforce så att dina Salesforce-användare kan skicka [!DNL Workfront] förfrågningar och automatiskt skapa projekt utan att behöva lämna Salesforce.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Tänk på följande när du arbetar med [!DNL Workfront] för [!DNL Salesforce]:
    * Projektets huvud eller en utgåva.
 
      Systemadministratören eller gruppadministratören måste lägga till fältet [!UICONTROL Integrations] i layoutmallen för att kunna visa länken [!UICONTROL Go to Salesforce] i projektet eller utgåvans huvud.
-   * Panelen [!DNL Summary] för ett problem när du väljer problemet i en lista, efter att du klickat på [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) i listans verktygsfält.
+   * Panelen [!DNL Summary] för ett problem när du markerar problemet i en lista, efter att du klickat på [!UICONTROL Open Summary] ![ikonen för panelen Sammanfattning](assets/summary-panel-icon.png) i listans verktygsfält.
 
      >[!NOTE]
      >

@@ -6,9 +6,9 @@ description: Efter installation av [!DNL Adobe Workfront] för [!DNL Salesforce]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Om du vill skicka en [!DNL Workfront]-begäran från en [!DNL Salesforce]-affär
 
    >[!NOTE]
    >
-   >Begäranden som skickas till den här begärandekön i webbprogrammet visas inte i den här listan i Salesforce.
+   >Begäranden som skickas till den här begärandekön i webbprogrammet visas inte i listan i Salesforce.
 
    ![salesforce_submit_requests.png](assets/salesforce-submitted-requests-350x58.png)
 
@@ -107,8 +107,8 @@ Om du vill skicka en [!DNL Workfront]-begäran från en [!DNL Salesforce]-affär
 1. (Valfritt) Klicka på **[!UICONTROL Go to [!DNL Salesforce]]** om du vill komma åt affärsmöjligheten eller kontot där utgåvan kom från följande områden i Workfront:
 
    * I avsnittet [!UICONTROL Details] av problemet
-   * När du markerar problemet i en lista på panelen Sammanfattning ska du klicka på [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) i listans verktygsfält.
-   * I utgåvans rubrik, när fältet [!UICONTROL Integrations] är tillgängligt. Din system- eller gruppadministratör måste lägga till fältet [!UICONTROL Integrations] i din layoutmall för att kunna visa länken Gå till Salesforce i utgåvans huvud. Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+   * När du markerar problemet i en lista på panelen Sammanfattning ska du klicka på [!UICONTROL Open Summary] ![ikonen för panelen Sammanfattning](assets/summary-panel-icon.png) i listans verktygsfält.
+   * I utgåvans rubrik, när fältet [!UICONTROL Integrations] är tillgängligt. Systemet eller gruppadministratören måste lägga till fältet [!UICONTROL Integrations] i layoutmallen för att kunna visa länken Gå till Salesforce i utgåvans huvud. Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]
    >

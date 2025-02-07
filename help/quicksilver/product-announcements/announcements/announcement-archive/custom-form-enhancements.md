@@ -4,9 +4,9 @@ description: Följande viktiga förbättringar har gjorts för hantering av anpa
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ Följande viktiga förbättringar har gjorts för hantering av anpassade formul�
 
 Du kan bädda in bilder i dina anpassade formulär. På så sätt kan du kommunicera med anpassade formuläranvändare på ett mer interaktivt och visuellt sätt. Fler widgettyper kommer snart.
 
-![](assets/image-in-custom-form.png)
+![Bild i anpassat formulär](assets/image-in-custom-form.png)
 
 När ett anpassat formulär som innehåller en widget är kopplat till ett objekt kan användare som arbetar med objektet se det i följande områden:
 
 * Objektets detaljområde (t.ex. för ett projekt, området Projektinformation) &#x200B;
 
-  ![](assets/see-image-details-page.png)
+  ![Bildinformation](assets/see-image-details-page.png)
 
 * Rutan Redigera för objektet, om det har det nya Adobe Workfront-gränssnittet (t.ex. &#x200B; Redigera projekt och Redigera uppgift)
 
-  ![](assets/image-see-in-edit.png)
+  ![Bildredigering](assets/image-see-in-edit.png)
 
 Användarna kan för närvarande inte se widgeten i följande områden: &#x200B;
 
@@ -42,11 +42,11 @@ Användarna kan för närvarande inte se widgeten i följande områden: &#x200B;
 
 Du kan koppla flera objekttyper till ett nytt anpassat formulär:
 
-![](assets/new-custom-form-object-types.png)
+![Anpassade formulärobjekttyper](assets/new-custom-form-object-types.png)
 
 Eller ett befintligt anpassat formulär:
 
-![](assets/add-object-type-existing-form.png)
+![Lägg till objekttyp i formulär](assets/add-object-type-existing-form.png)
 
 På så sätt kan du skapa ett anpassat formulär som kan användas i projekt, uppgifter, utgåvor och andra typer av objekt som kan användas i anpassade formulär.
 
@@ -76,11 +76,11 @@ Tänk på följande när du skapar eller redigerar ett anpassat formulär med fl
 
 Den uppsättning behörighetsalternativ för avsnittsbrytning som är tillgängliga för objekttyperna Utgåva, Aktivitet, Projekt och Användare har ett mer behörighetsalternativ än den uppsättning behörighetsalternativ som finns för alla andra objekttyper: Begränsad redigering.
 
-![](assets/section-break-permissions-limited-edit.png)
+![Avsnittsbrytning med begränsad redigering](assets/section-break-permissions-limited-edit.png)
 
 De avsnittsbrytningsbehörigheter som är tillgängliga för alla andra objekttyper (Portfolio, Dokument, Program, Utgift, Företag, Iteration, Faktureringspost och Grupp) innehåller inte Begränsad redigering:
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![Avsnittsbrytning utan begränsad redigering](assets/section-break-permissions-no-limited-edit.png)
 
 I ett anpassat formulär som är associerat med objekttyper från båda dessa grupper använder systemet en gemensam uppsättning avsnittsbrytningsbehörigheter som fungerar för alla objekttyper. I stället för att använda behörighetsalternativet Begränsad redigering ersätter den här gemensamma uppsättningen behörighetsalternativet Redigera för behörighetsalternativet Begränsad redigering. Alternativet Redigera är kompatibelt med alla objekttyper.
 

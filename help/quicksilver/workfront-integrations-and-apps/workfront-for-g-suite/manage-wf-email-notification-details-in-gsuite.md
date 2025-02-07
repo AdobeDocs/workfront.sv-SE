@@ -7,9 +7,9 @@ description: När du öppnar ett e-postmeddelande som har skickats från Adobe [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Innan du kan hantera meddelandeinformation från [!DNL Google Workspace] måste 
 
 ## Hantera meddelandeinformation för [!DNL Adobe Workfront] från [!DNL Google Workspace]
 
-1. Om panelen [!DNL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om panelen [!DNL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Öppna ett [!DNL Workfront]-meddelande i [!DNL Google Workspace].
 1. Klicka på **[!UICONTROL View all updates]** om den visas nära panelens övre del.
 1. Klicka på **[!UICONTROL Details]**.

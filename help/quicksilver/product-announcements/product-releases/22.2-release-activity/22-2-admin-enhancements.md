@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Tidigare var anpassade formulär helt textbaserade.
 
 ## Nya standardkonfigurationer för åtkomstnivå
 
-För att bättre passa behoven hos de flesta administratörer som skapar nya åtkomstnivåer har vi ändrat standardkonfigurationen för alternativen&quot;Finjustera dina inställningar&quot; nedan. Dessa visas när du klickar på kugghjulsikonen ![](assets/gear-icon-in-access-levels.png) på en redigeringsknapp.
+För att bättre passa behoven hos de flesta administratörer som skapar nya åtkomstnivåer har vi ändrat standardkonfigurationen för alternativen&quot;Finjustera dina inställningar&quot; nedan. Dessa visas när du klickar på kugghjulsikonen ![Åtkomstnivåkugghjulsikonen](assets/gear-icon-in-access-levels.png) på en redigeringsknapp.
 
 Alla dessa ändringar inaktiverar ett alternativ som tidigare var aktiverat som standard. Om detta inte passar organisationens behov kan du aktivera dem när du skapar en ny åtkomstnivå eller när som helst senare.
 
@@ -100,7 +100,7 @@ När du installerar en plan visar ett meddelande nu de specifika objekt (t.ex. r
 
 Mer information finns i [Installera en plan](../../../administration-and-setup/blueprints/blueprints-install.md).
 
-![](assets/blueprints-installation-history-350x95.png)
+![Installationshistorik för utkast](assets/blueprints-installation-history-350x95.png)
 
 ## En varning visas nu när du installerar en plan för endast förhandsgranskning i produktionen
 

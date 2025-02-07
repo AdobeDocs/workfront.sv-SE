@@ -7,9 +7,9 @@ description: Du kan konvertera en extern e-postadress (som inte har genererats a
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ Innan du kan skapa ett problem från [!DNL Google Workspace] måste du
 
 ## Skapa ett [!DNL Adobe Workfront]-problem i [!DNL Google Workspace] med e-postinnehåll
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Öppna e-postmeddelandet i [!DNL Google Workspace] och klicka på ett alternativ i [!DNL Workfront for Google Workspace] för att konvertera e-postmeddelandet till ett nytt [!DNL Workfront]-problem.
 
-   ![](assets/convert-email-task-issue-update.png)
+   ![Konvertera e-post](assets/convert-email-task-issue-update.png)
 
 1. Om du vill bifoga utgåvan till ett överordnat projekt klickar du på **[!UICONTROL Project name]**, börjar skriva namnet på projektet där du vill ha utgåvan och klickar sedan på projektnamnet när det visas i listan nedan.
 1. Gör någon av dessa ändringar:

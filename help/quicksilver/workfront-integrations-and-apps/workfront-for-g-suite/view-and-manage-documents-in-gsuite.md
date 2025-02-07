@@ -7,9 +7,9 @@ description: Du kan visa och hantera dokument som är kopplade till ett [!DNL Ad
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Innan du kan visa eller hantera [!DNL Workfront] dokument i [!DNL Google Workspa
 
 ## Visa och hantera [!DNL Workfront] dokument i [!DNL Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Gå till aktiviteten [!DNL Workfront] eller problemet i [!DNL Google Workspace], enligt beskrivningen i [Åtkomst [!DNL Adobe Workfront] [!UICONTROL Home] från  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 1. Klicka på **[!UICONTROL Documents]**.
 
@@ -68,11 +68,11 @@ Innan du kan visa eller hantera [!DNL Workfront] dokument i [!DNL Google Workspa
 
    Om du behöver information om att skicka uppdateringar eller svar läser du [Uppdatera ett [!DNL Adobe Workfront] objekt från [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** ![](assets/download-icon.png) om du vill hämta ett dokument i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** ![Hämta ](assets/download-icon.png) om du vill hämta ett dokument i listan.
 
    eller
 
-   Om dokumentet sparas på en molnenhet klickar du på ikonen **[!UICONTROL Open]** ![](assets/open-icon.png) .
+   Om dokumentet har sparats på en molnenhet klickar du på ikonen **[!UICONTROL Open]** ![Öppna ](assets/open-icon.png) .
 
 1. Klicka på **[!UICONTROL View in Workfront]** för att gå till dokumentinformationssidan för dokumentet i [!DNL Workfront].
 

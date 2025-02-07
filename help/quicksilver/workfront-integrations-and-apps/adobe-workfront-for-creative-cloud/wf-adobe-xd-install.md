@@ -6,9 +6,9 @@ description: Du kan installera plugin-programmet Adobe Workfront for XD från Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for XD] själv från [
 
 1. Klicka på ikonen **Plugins** längst ned till vänster.
 
-![](assets/xd-plugin-window-350x620.png)
+![XD plug-in-fönster](assets/xd-plugin-window-350x620.png)
 
 1. I **[!UICONTROL Plugins Panel]** söker du efter **[!UICONTROL Adobe Workfront for XD]**.
 
@@ -103,7 +103,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for XD] själv från [
    >[!TIP]
    >
    >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
-   >![](assets/domain-350x50.png)
+   >![Hitta domän](assets/domain-350x50.png)
    >
    > * Om din Workfront-instans är integrerad med Experience Cloud ber du din administratör att ge dig den Workfront-domän som finns under Product > Workfront i Admin Console.
 

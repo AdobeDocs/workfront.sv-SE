@@ -6,9 +6,9 @@ description: Du kan länka [!DNL Jira] ärenden till [!DNL Adobe Workfront] uppg
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Så här länkar du automatiskt en [!DNL Workfront]-aktivitet till ett [!DNL Jir
 
    Mer information om åtkomst till aktiviteter finns i [Bevilja åtkomst till aktiviteter](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-1. Gå till ett projekt och välj **[!UICONTROL Tasks]** ![](assets/tasks-icon-in-left-panel-14x14.png) i den vänstra panelen.
+1. Gå till ett projekt och välj **[!UICONTROL Tasks]** ![Aktivitetsikonen](assets/tasks-icon-in-left-panel-14x14.png) i den vänstra panelen.
 
 1. Klicka på **[!UICONTROL New Task]**
 

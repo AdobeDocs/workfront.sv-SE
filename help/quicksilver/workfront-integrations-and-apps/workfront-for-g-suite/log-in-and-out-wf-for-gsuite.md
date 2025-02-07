@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs hur du loggar in i eller ut ur  [!DNL 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Innan du kan logga in eller ut från [!DNL Workfront for Google Workspace] måst
 
 ## Logga in på [!DNL Adobe Workfront for Google Workspace]
 
-1. Klicka på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger om [!DNL Gmail], [!DNL Google Calendar] eller [!DNL Google Drive].
+1. Klicka på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger om [!DNL Gmail], [!DNL Google Calendar] eller [!DNL Google Drive].
 
    Om du precis har installerat tillägget [!DNL Workfront for Google Workspace] och du inte kan se den här ikonen kan du försöka med att uppdatera webbläsarsidan.
 
@@ -66,7 +66,7 @@ Innan du kan logga in eller ut från [!DNL Workfront for Google Workspace] måst
 
 ## Logga ut från [!DNL Workfront for Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Klicka på ikonen **[!UICONTROL More actions]** längst upp på panelen [!DNL Workfront for Google Workspace].
 
 1. Klicka på **[!UICONTROL Logout]** på menyn som visas.

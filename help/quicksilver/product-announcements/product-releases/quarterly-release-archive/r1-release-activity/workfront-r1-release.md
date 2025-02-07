@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Direkt integrering med Outlook 365 gör att du kan eliminera dubblettarbete när
 
 Mer information finns i:  [Funktioner som blev tillgängliga i förhandsvisning 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
-![](assets/mceclip0-350x218.png)\
+![Hantera arbete från e-post](assets/mceclip0-350x218.png)\
 **Håll projekten i schack och budgeten**
 Hantera era resurser och hur de används, håll koll på projekten och håll budgeten med den nya användningsrapporten. Se planerade kontra faktiska timmar per projekt och roll och jämför resurser och avdelningar regelbundet.
 
 Mer information finns i:  [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-![](assets/mceclip1-350x169.png)\
+![Håll projekten på rätt spår](assets/mceclip1-350x169.png)\
 **Anpassa terminologi och meddelanden**
 Gör Workfront mer relevant för teamet genom att utnyttja den anpassade terminologinställningen för att ändra termer som&quot;Portfolio&quot; eller&quot;Projekt&quot; så att de passar ditt språk oavsett bransch. Dessutom kan varje användare nu anpassa de typer av meddelanden som de får genom att reglera deras ordningsfrekvens.
 
@@ -51,7 +51,7 @@ Med nya statusikoner får du ut mer av dina milstolperapporter. Dessutom kan du 
 
 Mer information finns i:  [R1 Preview 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
-![](assets/mceclip3-350x122.png)
+![Vyn Milstolpe](assets/mceclip3-350x122.png)
 
 **Workfront papperskorgen**
 Med den nya Workfront papperskorgen kan du återställa projekt, uppgifter, problem och alla relaterade dokument, formulär och uppdateringar inom 30 dagar efter borttagningen.
@@ -60,13 +60,13 @@ Mer information finns i:  [R1 Preview 1 and 2](../../../../product-announcement
 
 ### FÖRBÄTTRINGAR AV PROFHQ {#proofhq-enhancements}
 
-![](assets/mceclip4-350x201.png)\
+![Förbättringar av Korrektur för högdagrar](assets/mceclip4-350x201.png)\
 **Korrektursökning och sökning**
 Med den nya sökfunktionen i ProofHQ kan du snabbt och enkelt söka efter och hitta alla förekomster av ett ord eller en fras direkt i korrekturet när du granskar. Detta gäller alla textbaserade dokument, inklusive PDF- och Microsoft Word-filer.
 
 Mer information finns i:  [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
-![](assets/mceclip5-350x226.png)\
+![Korrekt sökning och sökning](assets/mceclip5-350x226.png)\
 **Visuell rapportering och förbättrade anpassade vyer**
 Nya rapporteringsmått i ProofHQ gör att du kan spåra vändningstid, sena procentsatser, antal kommentarer och tid till första aktiviteten. Nya anpassade vyer skapar avancerad filterlogik så att du får exakt de data du behöver, precis när du behöver dem.
 
@@ -77,7 +77,7 @@ ProofHQ gör nu att du kan testa nya funktioner i en förhandsvisningsmiljö inn
 
 ## WORKFRONT DAM-FÖRBÄTTRINGAR {#workfront-dam-enhancements}
 
-![](assets/mceclip6-350x195.png)\
+![Workfront DAM-förbättringar](assets/mceclip6-350x195.png)\
 **DAM-inbäddade länkar**
 För marknadsföringsteam som behöver ett bättre sätt att hantera, publicera och spåra användningen av digitala resurser på externa plattformar har funktionen för inbäddade länkar den kontroll ni behöver för att hantera processen med att dela rätt innehåll vid rätt tidpunkt.
 

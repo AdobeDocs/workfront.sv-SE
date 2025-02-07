@@ -6,9 +6,9 @@ description: Du kan logga tid för projekt, uppgifter och problem som du arbetar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -68,16 +68,16 @@ Så här loggar du tid med Workfront-plugin-programmet:
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. I **[!UICONTROL Work List]** väljer du det arbetsobjekt du vill logga in på.
 1. Klicka på **[!UICONTROL Time]** i navigeringsfältet.
 
-   ![](assets/log-time-350x337.png)
+   ![Loggtid](assets/log-time-350x337.png)
 
 1. (Valfritt) Välj **[!UICONTROL Hour Type]** i listrutan.
 1. Ange tiden i timmar för den dag du behöver.
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![Loggtimmar](assets/copy-of-log-hours-350x236.png)
 
 1. Klicka på **[!UICONTROL Submit]**.

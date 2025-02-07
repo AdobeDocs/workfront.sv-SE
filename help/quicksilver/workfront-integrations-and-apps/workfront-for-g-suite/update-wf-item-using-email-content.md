@@ -7,9 +7,9 @@ description: Du kan uppdatera ett befintligt projekt, en uppgift eller ett probl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Innan du kan uppdatera ett [!DNL Workfront]-objekt med e-postinnehåll från [!D
 
 ## Uppdatera ett [!DNL Workfront]-objekt med e-postinnehåll från [!DNL Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på Workfront-ikonen ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på Workfront-ikonen ![ Workfront-ikonen ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
 1. Öppna e-postmeddelandet i [!DNL Google Workspace] och klicka på **[!UICONTROL Post as a new update]** på panelen [!DNL Google Workspace].
 1. Klicka på listrutepilen under **[!UICONTROL Type]** och klicka sedan på den typ av objekt där du vill lägga till uppdateringen.
 1. Klicka på alternativet **[!UICONTROL Search for]**, börja skriva namnet på objektet där du vill lägga till uppdateringen och markera sedan objektet när det visas i listan nedan.

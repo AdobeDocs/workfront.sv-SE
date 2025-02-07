@@ -6,9 +6,9 @@ description: Du kan installera  [!DNL Adobe Workfront for design and video]  fr�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
    >
    >Om du använder Premiere Pro måste du ha ett projekt öppet för att få tillgång till den här menyn.
 
-   ![](assets/adobe-workfront-menu.png)
+   ![Workfront-menyn](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -121,7 +121,7 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
    >[!TIP]
    >
    >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
-   >![](assets/domain-350x50.png)
+   >![Hitta domän](assets/domain-350x50.png)
    >
    > * Om din Workfront-instans är integrerad med Experience Cloud ber du din administratör att ge dig den Workfront-domän som finns under Product > Workfront i Admin Console.
 

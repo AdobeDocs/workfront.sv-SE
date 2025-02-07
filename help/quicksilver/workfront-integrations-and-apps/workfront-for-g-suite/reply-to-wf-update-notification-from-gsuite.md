@@ -7,9 +7,9 @@ description: När du får ett meddelande om en uppdatering i  [!DNL Adobe] [!DNL
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Innan du kan skapa en [!DNL Workfront]-uppgift i [!DNL Google Workspace] måste 
 
 ## Svara på ett uppdateringsmeddelande från [!DNL Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Öppna e-postmeddelandet [!DNL Workfront] som innehåller uppdateringen.
 1. Långt ned på panelen [!UICONTROL Workfront for Google Workspace] klickar du på **[!UICONTROL Post a comment]** och skriver in ditt svar.
 1. (Valfritt) Om du vill meddela vissa användare om ditt svar klickar du på **[!DNL Notify people and teams]**, börjar skriva ett namn och klickar sedan på namnet när det visas i listrutan.

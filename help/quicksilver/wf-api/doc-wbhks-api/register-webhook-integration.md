@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,7 @@ Adobe Workfront-administratörer kan lägga till en anpassad webbkrokintegrering
 
 Om du vill lägga till en integrering klickar du på **Lägg till anpassad integrering**.
 
-![](assets/webhooks-integration-350x230.png)
-
-![](assets/webhooks-integration-2-350x220.png)
+![Lägg till anpassad integrering](assets/webhooks-integration-2-350x220.png)
 
 ## Tillgängliga fält
 

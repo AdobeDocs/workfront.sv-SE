@@ -7,9 +7,9 @@ description: Du kan konvertera ett externt e-postmeddelande (som inte har genere
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Innan du kan skapa en [!DNL Workfront]-uppgift i [!DNL Google Workspace] måste 
 
 ## Skapa en [!DNL Adobe Workfront]-uppgift i [!DNL Google Workspace] med e-postinnehåll
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Öppna e-postmeddelandet i [!DNL Google Workspace] och klicka på ett alternativ i [!DNL Workfront for Google Workspace] för att konvertera e-postmeddelandet till en ny [!DNL Workfront]-åtgärd.
 
 1. Välj ett **[!UICONTROL Create new]**-alternativ för att ange om aktiviteten ska vara en del av ett projekt eller en personlig uppgift som är oberoende av ett projekt.

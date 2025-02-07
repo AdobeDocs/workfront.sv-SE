@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ När du använder API:t Adobe Workfront Core är API Explorer ett äldre referen
 ## Öppna API Explorer:
 
 1. Använd en webbläsare för att navigera till [API-utforskaren](https://developer.adobe.com/workfront/api-explorer/)\
-   ![](assets/mceclip1-350x149.png)
+   ![Navigera till API-utforskaren](assets/mceclip1-350x149.png)
 
 1. I det övre högra hörnet av API-utforskaren väljer du önskad **API-version** för Workfront. Som standard markeras den senaste versionen automatiskt
 1. Fältet **Filter** kan användas för att filtrera objekten listade efter namn och kommer att trunkera listan med objekt som visas i enlighet med detta:
 
-   ![](assets/mceclip2-350x147.png)
+   ![API Explorer-fält](assets/mceclip2-350x147.png)
 
    * **Fält**: Tillgängliga fält i det angivna objektet.
    * **Referenser**: Tillgängliga referensvariabler för det angivna objektet. En referens är ett alias för en variabel. När en referens har initierats kan den användas omväxlande med variabelnamnet. En referens använder initierat minne.
@@ -36,7 +36,7 @@ När du använder API:t Adobe Workfront Core är API Explorer ett äldre referen
    * **Åtgärder**: Funktioner som stöds för objektet. Åtgärder kan vara enkla eller komplexa procedurer som körs mot en resurs eller uppsättning resurser. En viss åtgärd kan också påverka relaterade resurser.
 
 1. Öppna en flik och klicka sedan på objekt-ID:t för att visa tillämpliga variabler.\
-   ![](assets/approval-350x89.png)\
+   ![Visa variabler](assets/approval-350x89.png)\
    Beroende på vilket objekt som valts kan följande variabler användas:
 
    | Variabel | Definition |

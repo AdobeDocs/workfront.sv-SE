@@ -2,14 +2,14 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 'Aktivitet i Adobe Workfront Goals version 21.1: Week of November 16, 2020'
+title: 'Aktivitet för Adobe Workfront Goals version 21.1: 16 november 2020'
 description: Den här sidan beskriver alla förbättringar som gjorts i version 21.1 för Adobe Workfront Goals till förhandsvisningsmiljön den 30 november 2020. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön under det första kvartalet av 21.1.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 9596ff23-6dd7-4608-9655-410482d56663
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ För att undvika förvirring om att visa en tom flik har vi tagit bort fliken&qu
 
 Mer information om vilken information som visas i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-![](assets/goals-page-with-no-my-teams-tab-350x114.png)
+![Målsida](assets/goals-page-with-no-my-teams-tab-350x114.png)

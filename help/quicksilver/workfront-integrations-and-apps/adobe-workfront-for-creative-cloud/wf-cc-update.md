@@ -6,9 +6,9 @@ description: Du kan uppdatera ditt material med Adobe Workfront plugin.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -86,11 +86,11 @@ Så här skickar du en uppdatering:
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. I **[!UICONTROL Work List]** väljer du den arbetsuppgift som du vill publicera en uppdatering på.
 1. Klicka på **[!UICONTROL Update]** i navigeringsfältet.\
-   ![](assets/photoshop-update-350x295.png)
+   ![Photoshop-uppdatering](assets/photoshop-update-350x295.png)
 
 1. Klicka på **[!UICONTROL New Update]**.
 1. Skriv in uppdateringen.

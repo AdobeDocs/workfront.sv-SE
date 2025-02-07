@@ -6,9 +6,9 @@ description: Du kan ladda upp ritytorna som dokument för snabb granskning och g
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -64,16 +64,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till den arbetsuppgift där du vill överföra ett dokument.
-1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. (Valfritt) Skriv en kommentar i området **[!UICONTROL Updates]**.
 1. Välj **[!UICONTROL Asset Type]** i listrutan.
 1. Öppna dialogrutan **[!UICONTROL Set Export File Settings]** och konfigurera önskade exportalternativ baserat på den resurstyp som valts ovan.
 
-   ![](assets/file-export-settings.png)
+   ![Filexportinställningar](assets/file-export-settings.png)
 1. Klicka på **[!UICONTROL Upload]**.
 Dokumentet visas i området [!UICONTROL Documents] i plugin-programmet och skrivbordsappen.

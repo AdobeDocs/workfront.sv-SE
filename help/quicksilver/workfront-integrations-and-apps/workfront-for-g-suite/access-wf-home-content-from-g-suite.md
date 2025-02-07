@@ -7,9 +7,9 @@ description: Du kan komma åt ditt [!DNL Adobe Workfront] Home-innehåll, inklus
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -53,26 +53,26 @@ Innan du kan komma åt [!UICONTROL Home]-innehåll från [!DNL Google Workspace]
 ## Åtkomst till [!DNL Workfront] [!UICONTROL Home] från [!DNL Google Workspace]
 
 1. Kontrollera att du är inloggad på [!DNL Workfront].
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Om du ser en vänsterpil högst upp i [!DNL Workfront] för [!DNL Google Workspace] klickar du på pilen för att gå till området [!UICONTROL Home].
 
-1. Klicka på pilen ![](assets/dropdown-arrow.png) i området **[!UICONTROL Sort by]** och klicka sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du söker.
+1. Klicka på den expanderade pilen ![Expandera pil](assets/dropdown-arrow.png) i området **[!UICONTROL Sort by]** och klicka sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du söker.
 
    När du sorterar efter **[!UICONTROL Commit date]** eller **[!UICONTROL Planned completion]** datum är de äldsta arbetsobjekten högst upp.
 
    När du sorterar efter **[!UICONTROL Project]** visas arbetsobjekt i ordningen för deras överordnade projekt, i bokstavsordning från A till Z. Arbetsobjekt utan ett överordnat projekt visas under **[!UICONTROL No Project]**.
 
-1. Klicka på den expanderade pilen ![](assets/dropdown-arrow.png) för den gruppering som du vill visa.
+1. Klicka på den expanderade pilen ![Expandera pil](assets/dropdown-arrow.png) för den gruppering som du vill visa.
 
    Antalet objekt i varje grupp visas inom parentes. När du klickar på pilen [!UICONTROL expand] visas alla arbetsobjekt i gruppen.
 
    Arbetsobjekt visas enligt följande:
 
-   * ![](assets/task-icon.png) **Aktiviteter** visar det överordnade projektnamnet, aktivitetsnamnet och planerat slutdatum.
+   * ![Aktivitetsikonen](assets/task-icon.png) **Aktiviteter** visar det överordnade projektnamnet, aktivitetsnamnet och planerat slutförandedatum.
 
-   * ![](assets/issue-icon.png) **Utgåvor** visar det överordnade projektets namn, utgivningsnamn och planerat slutdatum.
+   * ![Utfärdningsikonen](assets/issue-icon.png) **Problem** visar det överordnade projektnamnet, namnet på utgåvan och datumet för det planerade slutförandet.
 
-   * ![](assets/document-icon.png) **Godkännanden** visar den begärandes namn, dokumentnamn och överföringsdatum.
+   * ![Dokumentikonen](assets/document-icon.png) **Godkännanden** visar den sökandes namn, dokumentnamn och överföringsdatum.
    * **Åtkomstbegäranden** visar den begärandes namn, objektnamn och överföringsdatum. Ikonen för objekttypen visas till vänster.
 
 1. Klicka var som helst på en arbetsuppgift för att se information, uppdateringar och dokument.
