@@ -7,14 +7,16 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: e608cf5bdb0227ea5b8d3109db411e98145aaa38
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # Dela ett program
+
+{{highlighted-preview}}
 
 Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redigera program när du tilldelar din åtkomstnivå. Du måste ha en planlicens för att kunna redigera ett program. Mer information finns i [Bevilja åtkomst till program](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -39,6 +41,9 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 * Du kan bara bevilja behörigheterna Visa eller Hantera för program.
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+
+  <span class="preview">I förhandsgranskning:
+  ![](assets/program-permissions.png)
 
 * När du delar ett program ärver användarna som standard samma behörigheter till alla underordnade objekt som är associerade med programmet.
 

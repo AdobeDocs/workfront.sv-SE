@@ -5,14 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 # Dela en portfölj
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera portföljer när du tilldelar din åtkomstnivå. Du måste ha en planlicens för att kunna redigera en portfölj. Mer information finns i [Bevilja åtkomst till portföljer](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -31,31 +33,34 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 * Skaparen av en portfölj har som standard behörigheten Hantera.
 * Du kan dela en portfölj individuellt eller dela flera portföljer samtidigt. Att dela en portfölj är detsamma som att dela andra objekt i Workfront. Mer information finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Du kan bara bevilja behörigheterna Visa eller Hantera på Portfolio.
+* Du kan bara bevilja behörigheterna Visa eller Hantera för portföljer.
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
+  <span class="preview">I förhandsgranskning:
+  ![](assets/share-portfolio.png)
+</span>
 * När du delar en portfölj ärver användarna som standard samma behörigheter till alla underordnade objekt som är kopplade till portföljen.
 
-  Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Du kan ta bort ärvda behörigheter från Portfolio. Mer information om hur du tar bort behörigheter från objekt finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-## Portfolio behörigheter
+## Portfolio-behörigheter
 
-I följande tabell visas vilka behörigheter du kan ge användare när de får visa eller hantera en Portfolio:
+Tabellen nedan visar vilka behörigheter du kan ge användare när de får visa eller hantera en Portfolio:
 
 | **Åtgärder** | **Hantera** | **Visa** |
 |---|---|---|
-| Redigera information om Portfolio | ✓ |   |
-| Visa en Portfolio | ✓ | ✓ |
+| Redigera Portfolio-information | ✓ |   |
+| Se en Portfolio | ✓ | ✓ |
 | Ta bort en Portfolio | ✓ |   |
 | Bifoga ett eget formulär | ✓ |   |
 | Redigera ett anpassat fält | ✓ |   |
 | Lägg till eller ta bort ett program&#42; | ✓ |   |
 | Lägg till eller ta bort ett projekt&#42; | ✓ |   |
 | Godkänn ett projekt | ✓ |   |
-| Optimering för Portfolio &#42; | ✓ |   |
+| Portfolio-optimering&#42; | ✓ |   |
 | Lägg till en dokumentmapp &#42; | ✓ | ✓ |
 | Lägga till ett dokument | ✓ | ✓ |
 | Uppdateringar/kommentarer | ✓ | ✓ |

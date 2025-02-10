@@ -6,7 +6,7 @@ description: Du kan dela en mapp och dess innehåll från området Dokument.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -133,6 +133,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Om du ändrar dig kan du klicka på **Ta bort systemomfattande åtkomst** (standardalternativet).
 
+<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
+
 ## Hur användare får åtkomst till innehållet i en mapp som delas med dem
 
 <!--
@@ -160,7 +162,7 @@ Mer information om hur du kör en rapport finns i avsnittet [Rapport om objekt](
 När du delar ett objekt som har en dokumentmapp får mottagarna även åtkomst till mappen:
 
 * Om du ger mottagarna åtkomst till det överordnade objektet Visa har de åtkomst till mappen.
-* Om du ger mottagarna Contribute- eller Manage-åtkomst till det överordnade objektet har de Hantera-åtkomst till mappen.
+* Om du ger mottagarna Contribute eller Hantera åtkomst till det överordnade objektet har de Hantera-åtkomst till mappen.
 * Om du ger en typ av åtkomst (Visa, Contribute eller Hantera) till det överordnade objektet, och en annan typ till mappen, har mottagarna den högsta av dessa två typer av åtkomst till dokument i mappen
 
   Om du till exempel delar det överordnade objektet med behörigheten Visa och mappen med behörigheten Hantera, har mottagarna behörigheten Hantera för dokumenten i mappen.

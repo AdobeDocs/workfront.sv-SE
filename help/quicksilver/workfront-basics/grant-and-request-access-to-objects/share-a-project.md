@@ -6,20 +6,22 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
 
 # Dela ett projekt i Adobe Workfront
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
+
 <!-- Audited: 1/2024 -->
 
 Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redigera projekt när du tilldelar din åtkomstnivå. Mer information finns i [Bevilja åtkomst till projekt](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Förutom den åtkomstnivå som användarna har beviljats kan du även ge dem behörighet att visa, Contribute eller Hantera specifika projekt som du har tillgång till för delning.
+Förutom den åtkomstnivå som användarna har beviljats kan du även ge dem behörighet att visa, Contribute eller hantera specifika projekt som du har tillgång till för delning.
 
 Behörigheterna är specifika för ett objekt i Workfront och definierar vilka åtgärder man kan vidta för det objektet.
 
@@ -29,7 +31,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * Som standard har den som skapat ett projekt behörighet att hantera projektet och anges även som projektägare. Om projektet har tilldelats en annan ägare har den användaren även behörighet att hantera projektet. När den som skapat projektet (eller ägaren) delar projektet med andra användare, ger de användarna vissa behörigheter för att styra vad de kan göra när de arbetar med projektet.
 
-  Om en projektägare inte har någon planeringslicens har de dock inte fullständig åtkomst för att hantera projektet. Endast en användare med en planlicens kan ha behörighet att hantera ett projekt. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Om en projektägare inte har någon plan- eller standardlicens har de dock inte fullständig åtkomst för att hantera projektet. Endast en användare med en plan- eller standardlicens kan ha behörighet att hantera ett projekt. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Du kan dela projekt individuellt eller dela flera i taget. Delningsprojekt är identiska med att dela andra objekt. Mer information om objektdelning i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Du kan ge följande behörigheter till ett projekt:
@@ -39,6 +41,10 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
    * Contribute
 
      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+
+     <span class="preview">I förhandsgranskning:
+     ![](assets/project-permissions.png)
+  </span>
 
 * När du delar ett projekt ärver alla uppgifter, utgåvor och dokument samma behörigheter, om inget annat anges.
 
@@ -65,7 +71,7 @@ Du kan dela ett projekt på följande sätt:
 * Gör något av följande automatiskt:
 
    * Placera ett projekt i ett **Portfolio** eller **Program** som redan delas med andra. Användarna får samma behörigheter till projektet som de har för portföljen eller programmet.\
-     Mer information om hur du lägger till ett projekt i ett **Portfolio** finns i [Lägga till projekt i en portfölj](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+     Mer information om hur du lägger till ett projekt i en **Portfolio** finns i [Lägga till projekt i en portfölj](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
      Mer information om hur du lägger till ett projekt i ett **program** finns i [Lägga till ett projekt i ett program](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
      Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
@@ -104,7 +110,7 @@ Du kan dela ett projekt på följande sätt:
 
 ## Begränsningar för olika licenstyper
 
-* Användare med en Worker-licens har inte behörighet att hantera projekt. För arbetare är Contribute högsta delningsbehörighet.
+* Användare med en Worker-licens har inte behörighet att hantera projekt. För arbetare är den högsta delningsbehörigheten Contribute.
 * Användare med en Request-licens kan visa projektinformation, men har begränsad projektåtkomst.
 * Ett undantag till att ändra status för ett projekt inträffar när en användare med behörigheterna Visa eller Contribute också inkluderas i en godkännandeprocess. De kan godkänna projektet, vilket ändrar projektets status, men statusen är fördefinierad för godkännande eller för avvisning.
 * För att kunna kopiera ett projekt måste användaren också ha tillgång till dem för att kunna skapa projekt på åtkomstnivå.
