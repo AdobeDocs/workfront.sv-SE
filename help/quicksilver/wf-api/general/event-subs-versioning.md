@@ -6,21 +6,23 @@ description: API för händelseprenumeration
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
-
-# Evenemangsprenumeration
+# Versionshantering för händelseteckning
 
 Workfront har två versioner av abonnemang. I den här artikeln beskrivs skillnaderna mellan dem.
 
-Detta är ingen ändring av Workfront API, utan snarare en ändring av funktionen för händelseprenumeration.
+Den nya versionen är inte en ändring av Workfront API, utan snarare en ändring av prenumerationsfunktionen för evenemang.
 
-Möjligheten att uppgradera eller nedgradera abonnemang säkerställer att när händelsestrukturen ändras bryts inte befintliga prenumerationer, vilket gör att du kan testa och uppgradera till den nya versionen utan avbrott i din Event-prenumeration.
+Möjligheten att uppgradera eller nedgradera abonnemang säkerställer att befintliga prenumerationer inte bryts när händelsestrukturen ändras, vilket gör att du kan testa och uppgradera till den nya versionen utan avbrott i prenumerationen.
+
+Mer information om slutpunkterna som används för att uppgradera eller nedgradera händelseprenumerationer finns i [Versionsinformation om händelseprenumerationer](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) i artikeln Event-prenumerations-API.
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ Följande ändringar har gjorts för händelseprenumerationer version 2
 
 
 ### Allmänna ändringar
-
 
 
 <table style="table-layout:auto"> 
