@@ -6,7 +6,7 @@ description: Du kan dela en mapp och dess innehåll från området Dokument.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -132,8 +132,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. (Valfritt) Om du vill att alla i systemet ska kunna visa mappen och dess innehåll klickar du på kugghjulsikonen ![](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och sedan på **Gör den synlig i hela systemet.**
 
    Om du ändrar dig kan du klicka på **Ta bort systemomfattande åtkomst** (standardalternativet).
-
-<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## Hur användare får åtkomst till innehållet i en mapp som delas med dem
 

@@ -6,16 +6,14 @@ description: Som Adobe Workfront-administratör kan du ge användare åtkomst ti
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
 # Dela en mall
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Som Adobe Workfront-administratör kan du ge användare åtkomst till att visa eller redigera mallar när du tilldelar deras åtkomstnivå. En användare måste ha en planlicens för att få tillgång till redigeringsmallar.
 
@@ -42,13 +40,12 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
      Du kan tilldela följande behörigheter till en mall:
 
       * Visa
+
+        ![](assets/view-on-template-262x221.png)
+
       * Hantera
 
-        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
-
-     <span class="preview">I förhandsgranskning:
-     ![](assets/template-permissions.png)
-  </span>
+        ![](assets/manage-on-template-225x280.png)
 
    * Framtida projekt som skapas med mallen. Du kan ge samma behörighetsnivåer för projekt som skapats från en mall som för ett enskilt projekt. 
 

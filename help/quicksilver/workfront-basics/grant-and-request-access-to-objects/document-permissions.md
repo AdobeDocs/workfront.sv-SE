@@ -7,16 +7,14 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
 # Dela ett dokument
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Din Adobe Workfront-administratör ger användare åtkomst att visa eller redigera dokument när de tilldelar åtkomstnivåer, enligt beskrivningen i [Bevilja åtkomst till dokument](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -41,10 +39,6 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
    * Visa
    * Hantera
-
-  <span class="preview">I förhandsgranskning:
-  ![](assets/document-permissions.png)
-</span>
 
 * Du kan också dela ett dokument offentligt eller i hela systemet.
 
