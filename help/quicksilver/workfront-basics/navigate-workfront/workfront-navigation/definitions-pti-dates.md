@@ -6,9 +6,9 @@ description: Den här artikeln innehåller definitioner för de vanligaste datum
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,9 @@ Mer information finns i [Översikt över projektet [!UICONTROL Actual Start Date
 >
 >[!UICONTROL Must Start On]-aktiviteten eller begränsningarna Fasta datum påverkar [!UICONTROL Planned Start Date] för en aktivitet, inte [!UICONTROL Actual Start Date]. Detta uppdaterar [!UICONTROL Planned Start Date] till ett datum som du anger. [!UICONTROL Actual Start Date] uppdateras oberoende av [!UICONTROL Planned Start Date], vilket beskrivs ovan.
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![Faktiskt startdatum för redigeringsaktivitet](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![Faktiskt startdatum för aktiviteten](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL Actual Completion Date]
 
@@ -68,7 +68,7 @@ Du kan ange manuellt när arbetet har slutförts för en uppgift eller ett probl
 
 Mer information finns i [Översikt över projektet [!UICONTROL Actual Completion Date]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![Faktiskt slutförandedatum i informationen](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## Slutförandedatum för godkännandesökväg
 
@@ -152,7 +152,7 @@ Mer information finns i avsnittet [Planerat slutförandedatum](#planned-completi
 
 [!UICONTROL Entry Date] påverkar inte tidslinjen för projekt, aktiviteter eller problem, men det är viktigt för spårnings- och rapportsyften. [!DNL Workfront] genererar automatiskt [!UICONTROL Entry Date] när objektet skapas och du kan inte redigera det manuellt.
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![Anmälningsdatum i aktivitetsinformation](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## Beräknat förfallodatum
 
@@ -184,7 +184,7 @@ Detta är en manuell uppskattning som inte tar hänsyn till hur arbetsuppgiftern
 
 Det fasta slutdatumet för ett projekt visas både i projektets Business Case-avsnitt och i projektlistor och rapporter.
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![Fast slutdatum](assets/fixed-end-date-business-case-highlight.png)
 
 ## Fast startdatum
 
@@ -194,7 +194,7 @@ Detta är en manuell uppskattning som inte tar hänsyn till hur arbetsuppgiftern
 
 Det fasta startdatumet för ett projekt visas både i projektets Business Case-avsnitt och i projektlistor och rapporter.
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![Fast startdatum](assets/fixed-start-date-business-case-highlight.png)
 
 ## Leveransdatum
 
@@ -252,9 +252,9 @@ Mer information finns i följande artiklar:
 * [Ange projektet [!UICONTROL Planned Completion Date]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Översikt över utgåvan [!UICONTROL Planned Completion Date]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![Planerat kompileringsdatum i huvudet](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![Planerat slutförandedatum i uppgiftslistan](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## Planerad datumjustering
@@ -277,9 +277,9 @@ Beroende på [!UICONTROL Task Constraint] kanske du inte kan redigera [!UICONTRO
 
 Mer information finns i [Översikt över projektet [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![Planerat startdatum för redigeringsaktiviteten](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![Planerar startdatum i uppgiftslistan](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL Projected Completion Date]
 
@@ -289,7 +289,7 @@ Om allt blir jämnt och som planerat ska [!UICONTROL Projected Completion date] 
 
 Mer information finns i [Översikt över [!UICONTROL Projected Completion Date] för projekt, uppgifter och problem](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![Planerat slutförandedatum](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL Projected Start Date]
 
@@ -305,19 +305,19 @@ För en aktivitet kan en [!UICONTROL Projected Start Date] också skilja sig fr�
 
 Mer information finns i [Översikt över projektet [!UICONTROL Projected Start Date]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![Planerat startdatum](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
-## Slack
+## Slack Date
 
 Uppgifter kan ibland börja och slutföras sent utan att det påverkar projektets slutförandedatum.
 
-I Slack-datumet visas det exakta datumet när en åtgärd definitivt kan påverka projektets slutförandedatum.
+I Slack Date visas det exakta datumet då en åtgärd definitivt kan påverka projektets slutförandedatum.
 
-Mer information om Slack för datum för en uppgift finns i [Översikt över aktivitetsdatum i Slack](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
+Mer information om Slack Datum för en uppgift finns i [Aktivitetens Slack datumöversikt](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
 
-Datum för aktiviteten Slack visas i uppgiftslistor och rapporter.
+Uppgiftsdatum i Slack visas i uppgiftslistor och rapporter.
 
 ## Starta den
 

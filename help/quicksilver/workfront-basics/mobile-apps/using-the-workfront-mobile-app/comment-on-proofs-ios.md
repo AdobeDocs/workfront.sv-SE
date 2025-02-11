@@ -6,9 +6,9 @@ description: Du kan granska och lösa befintliga kommentarer i ett korrektur och
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ I listan [!UICONTROL comment] kan du utföra olika åtgärder, som att lösa en 
 
    Det här alternativet är bara tillgängligt när du har markerat olästa kommentarer.
 
-1. Om du vill ta bort de markerade kommentarerna väljer du ikonen **[!UICONTROL Delete]** ![](assets/delete-30x28.png) i det nedre verktygsfältet. Välj sedan **[!UICONTROL Delete]** i bekräftelsemeddelandet för att permanent ta bort kommentaren.
+1. Om du vill ta bort de markerade kommentarerna väljer du ikonen **[!UICONTROL Delete]** ![Ta bort](assets/delete-30x28.png) i det nedre verktygsfältet. Välj sedan **[!UICONTROL Delete]** i bekräftelsemeddelandet för att permanent ta bort kommentaren.
 
 ## Kommentera ett korrektur
 
@@ -82,7 +82,7 @@ Du kan associera dina korrekturkommentarer med ett visst område i dokumentet. A
 
    ![Inställningar för ritverktyget](assets/ios-drawingtoolsettings-350x359.png)
 
-1. Draw formen på korrekturdokumentet. Välj ikonen **[!UICONTROL Undo]** ![Ångra](assets/android-undo-icon-30x31.png) om du vill ångra teckningen.
+1. Rita formen på korrekturdokumentet. Välj ikonen **[!UICONTROL Undo]** ![Ångra](assets/android-undo-icon-30x31.png) om du vill ångra teckningen.
 1. (Villkorligt) Markera formen och välj **[!UICONTROL Settings]** om du vill redigera forminställningarna eller **[!UICONTROL Remove]** om du vill ta bort formen.
 
    ![Ritmenyn](assets/ios-drawing-settingsremove-350x190.png)

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -48,17 +48,17 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, l
 
 ## Återställ en användares lösenord i en eAuth-aktiverad miljö
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront] och klicka sedan på **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront] och klicka sedan på **[!UICONTROL Users]** ![ikonen Användare](assets/users-icon-in-main-menu.png) .
 
-   ![](assets/main-menu-options-350x481.png)
+   ![Huvudmenyalternativ](assets/main-menu-options-350x481.png)
 
 1. Markera **[!UICONTROL User]** som kräver en lösenordsåterställning.
-   ![](assets/100520classicnweselectuser-350x105.png)
+   ![Markera användaren](assets/100520classicnweselectuser-350x105.png)
 
 1. Klicka på knappen **[!UICONTROL More]** som visas när du har valt önskat **[!UICONTROL User]** och välj alternativet **[!UICONTROL Send Forgot Password Email]** i listrutan.
 
-   ![](assets/100520classicnwesendemail-350x134.png)
+   ![Skicka e-post om glömt lösenord](assets/100520classicnwesendemail-350x134.png)
 
 När du har valt alternativet **[!UICONTROL Send Forgot Password Email]** skickas ett e-postmeddelande till den valda användaren med instruktioner om att ändra sitt eget lösenord.
 
-![](assets/pwresetemail-resized-350x461.png)
+![Återställ e-post](assets/pwresetemail-resized-350x461.png)

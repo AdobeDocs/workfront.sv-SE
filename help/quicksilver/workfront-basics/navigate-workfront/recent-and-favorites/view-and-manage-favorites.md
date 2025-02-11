@@ -6,9 +6,9 @@ description: Med Favoriter-menyn kan du snabbt komma åt objekt. Objekten finns 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Så här visar du ett objekt som du tidigare har lagt till som favorit:
 
-1. Klicka på ikonen **[!UICONTROL Favorites]** ![](assets/favorites-icon.png) i det övre högra hörnet på en [!DNL Adobe Workfront]-sida.
+1. Klicka på ikonen **[!UICONTROL Favorites]** ![Favoriter](assets/favorites-icon.png) i det övre högra hörnet på en [!DNL Adobe Workfront]-sida.
 
 1. Klicka på det objekt du vill visa i listan [!UICONTROL Favorites].
 
@@ -69,7 +69,7 @@ Du kan lägga till senaste objekt eller den aktuella sidan på menyn [!UICONTROL
 ### Lägg till det aktuella objektet som en favorit
 
 1. Gå till sidan som du vill lägga till som favorit.
-1. Klicka på ikonen **[!DNL Favorites]** ![](assets/favorites-icon.png) i det övre högra hörnet på en [!DNL Workfront]-sida och klicka sedan på **[!UICONTROL Add Current Page]**.
+1. Klicka på ikonen **[!DNL Favorites]** ![Favoriter](assets/favorites-icon.png) i det övre högra hörnet på en [!DNL Workfront]-sida och klicka sedan på **[!UICONTROL Add Current Page]**.
 
    ![Lägg till aktuell sida i favoriter](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -77,19 +77,19 @@ Du kan lägga till senaste objekt eller den aktuella sidan på menyn [!UICONTROL
 
    eller
 
-   Klicka på ikonen **[!UICONTROL Favorites]** ![](assets/favorites-icon.png) till höger om objektnamnet.
+   Klicka på ikonen **[!UICONTROL Favorites]** ![Favoriter](assets/favorites-icon.png) till höger om objektnamnet.
 
    >[!NOTE]
    >
    >Om du klickar på ikonen **[!UICONTROL Favorites]** för ett objekt som du redan har lagt till som favorit tas objektet bort från menyn [!UICONTROL Favorites].\
-   >![](assets/nwe-remove-from-favorites-350x52.png)
+   >![Ta bort från favoriter](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Ta bort ett objekt från menyn [!UICONTROL Favorites]
 
-1. Klicka på ikonen **[!UICONTROL Favorites]** ![](assets/favorites-icon.png) i det övre högra hörnet på en [!DNL Workfront]-sida.
+1. Klicka på ikonen **[!UICONTROL Favorites]** ![Favoriter](assets/favorites-icon.png) i det övre högra hörnet på en [!DNL Workfront]-sida.
 
 1. Håll markören över det objekt som du vill ta bort som favorit och klicka sedan på **X** bredvid det.
 
    eller
 
-   Om du är på sidan som du vill ta bort som favorit klickar du på ikonen **[!UICONTROL Favorites]** ![](assets/favorites-icon.png) bredvid objektnamnet för att ta bort den från Favoriter-menyn.
+   Om du är på sidan som du vill ta bort som favorit klickar du på ikonen **[!UICONTROL Favorites]** ![Favoriter](assets/favorites-icon.png) bredvid objektnamnet för att ta bort den från Favoriter-menyn.

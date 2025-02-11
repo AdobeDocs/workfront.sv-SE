@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] identifieras objekt som objekt. Objekten 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Referensnummer visas som standard för uppgifter och ärenden. Du kan också enk
 
 Referensnummer visas som standard när du visar en uppgift eller ett problem.  Om du vill visa referensnumret klickar du på **[!UICONTROL Task Details]** eller **[!UICONTROL Issue Details]** i den vänstra panelen och letar sedan upp avsnittet **[!UICONTROL Basic Information]** i översikten.
 
-![](assets/reference-number-nwe-350x184.png)
+![Referensnummer](assets/reference-number-nwe-350x184.png)
 
 ### Visa referensnummer för andra objekt
 

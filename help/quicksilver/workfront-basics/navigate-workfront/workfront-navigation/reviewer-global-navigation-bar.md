@@ -6,9 +6,9 @@ description: Huvudmenyn ändras med den åtkomstnivå som du har tilldelats av d
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Följande områden ingår i standardlayouten för en [!UICONTROL Reviewer]:
 * **[!UICONTROL Blueprints]**: Granska befintliga utkast i systemet och begär att en ska installeras, om [!DNL Workfront] -administratören konfigurerade begärandekön för utkast. Mer information finns i [Översikt över utkast](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![Öppna mina uppdateringar från huvudmenyn](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## Anpassa din standardinställning för [!UICONTROL Main Menu]
 

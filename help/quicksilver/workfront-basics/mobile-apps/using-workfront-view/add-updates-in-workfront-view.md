@@ -7,9 +7,9 @@ description: Du kan granska och lägga till uppdateringar i projekt som du grans
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst i [!DNL Workfront] för att kunna utföra stegen
 
 1. Skriv in en uppdatering.
 1. (Valfritt) Inkludera andra i uppdateringen genom att trycka på ikonen [!UICONTROL people] och ange namnet på en annan användare.\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![Uppdateringar i mobilappen](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. Tryck på **[!UICONTROL Post]**.\
    Uppdateringen visas i projektet i widgeten **[!UICONTROL Updates]**.

@@ -5,9 +5,9 @@ description: Du kan enkelt hitta objekt i [!DNL Adobe Workfront] genom att söka
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1597'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Du kan enkelt hitta objekt i [!DNL Adobe Workfront] genom att söka efter dem n�
 
 Du kan se rutan [!UICONTROL Search] i det övre högra hörnet på en sida i [!DNL Workfront].
 
-![](assets/search-globalnavigationbar-350x62.png)
+![Ikonen Sök i navigeringsfältet](assets/search-globalnavigationbar-350x62.png)
 
 Du måste ha behörighet att visa ett objekt innan du kan hitta det i en sökning. Därför varierar sökresultaten från användare till användare.
 
@@ -69,7 +69,7 @@ Du kan söka efter följande objekt i Workfront:
 * Användare
 * Mallar
 * Dokument
-* Portfolio
+* Portföljer
 * Program
 * Kontrollpaneler
 * Företag
@@ -185,15 +185,15 @@ Du kan göra en grundläggande sökning på något av följande sätt:
 
 Så här utför du en grundläggande sökning:
 
-1. Klicka på förstoringsglaset ![](assets/search-icon.png) i det övre högra hörnet på sidan. Du kan också skriva **[!UICONTROL ALT + /]** eller **[!UICONTROL Option + /]** för att öppna menyn [!UICONTROL Search].
+1. Klicka på förstoringsglaset ![Sökikonen](assets/search-icon.png) i det övre högra hörnet på sidan. Du kan också skriva **[!UICONTROL ALT + /]** eller **[!UICONTROL Option + /]** för att öppna menyn [!UICONTROL Search].
 
 1. (Valfritt) Om du vill söka efter ett specifikt objekt klickar du på den nedrullningsbara menyn **[!UICONTROL All]** och markerar det objekt som du vill söka efter.
 
-   ![](assets/search-objecttype.png)
+   ![Sök efter objekttyp](assets/search-objecttype.png)
 
 1. I rutan **[!UICONTROL Search]** börjar du skriva den information du söker efter.\
    Mer information om vilka fält som söks igenom i [!DNL Workfront] finns i [Förstå sökning](#understand-search).\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![Listrutan Sök](assets/qs-search-drop-down-highlighted-350x234.png)\
    När du börjar skriva i sökfältet gör [!DNL Workfront] rekommendationer baserat på din visningshistorik och det nyckelord du söker efter markeras med blått.
 
 1. Om det objekt du söker efter visas på menyn [!UICONTROL typeahead] klickar du på det.
@@ -232,7 +232,7 @@ Så här förfinar du en sökning:
 1. Klicka i något av de tillgängliga fälten för att förkorta resultatlistan.\
    De markeringar du gör markeras med blått och de fältvärden du inte markerar döljs.\
    När du har valt varje nytt värde uppdateras resultatet till höger dynamiskt.\
-   ![](assets/qs-refine-search-350x175.png)
+   ![Förfina sökning](assets/qs-refine-search-350x175.png)
 
 1. (Valfritt) Klicka på de markerade värdena för att avmarkera dem och visa alla värden för varje fält igen.
 
@@ -253,16 +253,16 @@ Den här typen av sökning är användbar när du inte kommer ihåg ett nyckelor
 
 Så här utför du en avancerad sökning:
 
-1. Klicka på ikonen **[!UICONTROL Search]** ![](assets/search-icon.png) i det övre högra hörnet på en sida i [!DNL Workfront]. Menyn [!DNL Search] visas.
+1. Klicka på ikonen **[!UICONTROL Search]** ![Sök ](assets/search-icon.png) i det övre högra hörnet på en sida i [!DNL Workfront]. Menyn [!DNL Search] visas.
 
 1. Klicka på **[!UICONTROL Advanced Search]** längst ned på menyn [!UICONTROL Search].\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![Avancerad sökning](assets/qs-advanced-search-350x224.png)\
    Sidan [!UICONTROL Advanced Search] öppnas från höger och täcker det mesta av föregående sida.
 
 1. Välj den typ av objekt du söker efter.\
    **[!UICONTROL Projects]** är markerat som standard.
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Avancerade sökobjekt](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. (Valfritt) Skriv ett nyckelord i fältet högst upp i listan.
 1. (Valfritt) Klicka på **[!UICONTROL Filter your results]** om du vill filtrera sökresultaten baserat på specifika fälttyper och välj sedan ett fält i listan. Välj ett värde för fältet om det behövs.\

@@ -6,9 +6,9 @@ description: Den information du visar i  [!DNL Adobe Workfront]  representeras a
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2217'
 ht-degree: 0%
 
 ---
@@ -161,21 +161,21 @@ Här följer en lista med objekt och motsvarande ikoner för dem i Workfront.
 
 | **Objekt** | **Ikon** | **Anpassningsbart objektnamn** |
 |---|---|---|
-| [!UICONTROL Company] | ![](assets/company-icon-nwe.png), ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL Dashboard] | ![](assets/dashboard-icon-nwe.png), ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL Goal] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL Group] | ![](assets/groups-icon-nwe.png), ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Issue] | ![](assets/issue-icon-nwe.png), ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Job Role] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL Plan] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png), ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL Program] | ![](assets/program-icon-nwe.png), ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL Project] | ![](assets/project-icon-nwe.png), ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL Report] | ![](assets/report-icon-nwe.png), ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL Task] | ![](assets/task-icon-new.png), ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png), ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL Template] | ![](assets/template-icon-nwe.png), ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL User] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL Company] | ![Företagsikon](assets/company-icon-nwe.png) , ![Företagsikon blå](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL Dashboard] | ![Instrumentpanelsikon](assets/dashboard-icon-nwe.png) , ![Instrumentpanelsikon blå](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL Goal] | ![Målikon](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL Group] | ![Grupper, ikon](assets/groups-icon-nwe.png) , ![Gruppikon](assets/nwe-group-icon.png) |  |
+| [!UICONTROL Issue] | ![Issue icon](assets/issue-icon-nwe.png) , ![Issue icon pink](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL Job Role] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![Jobbrollsikon](assets/job-role-nwe-no-color.png), ![Jobbrollsikonfärg](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Plan] | ![Planera, ikon](assets/plan-icon.png), ![Planera, blå](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) , ![Portfolio-ikon blå](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL Program] | ![Programikon](assets/program-icon-nwe.png) , ![Programikon orange](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL Project] | ![Projektikon](assets/project-icon-nwe.png) , ![Projektikon lila](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL Report] | ![Ikonen Rapport](assets/report-icon-nwe.png) , ![ikonen Rapport grön](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL Task] | ![Aktivitetsikonen](assets/task-icon-new.png) , ![Aktivitetsikonen grön](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL Team] | ![Team-ikon](assets/team-icon-nwe.png), ![Team-ikon, rund](assets/team-icon-nwe-color.png) , ![Teams-ikon](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL Template] | ![Mallikon](assets/template-icon-nwe.png) , ![Mallikon grön](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL User] | ![Användarikon grå](assets/users-icon-gray.png) , ![Användarikon blå](assets/user-icon-blue.png) , ![användarikon med initialer](assets/user-icon-initials.png) , ![Avatar](assets/user-avatar.png) , ![Användarikon, huvudmeny](assets/user-main-menu-area.png) |  |
 
 ## Referensnummer för objekt
 

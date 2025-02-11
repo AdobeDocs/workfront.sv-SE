@@ -5,9 +5,9 @@ description: Du kan använda snabbfiltret i en lista med objekt för att bara hi
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Använda ett snabbfilter på en lista
 
-1. Gå till en lista eller rapport som stöder snabbfilter och klicka sedan på **[!UICONTROL Quick Filter]-ikonen** ![](assets/qs-quick-filter-icon.png) i verktygsfältet.
+1. Gå till en lista eller rapport som stöder snabbfilter och klicka sedan på **[!UICONTROL Quick Filter]-ikonen** ![Snabbfilterikonen](assets/qs-quick-filter-icon.png) i verktygsfältet.
 
    eller
 
@@ -120,7 +120,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. Markera alla eller flera av objekten i listan och klicka sedan på **[!UICONTROL Edit]** om du vill redigera objekten gruppvis.
    1. När du är klar med redigeringarna klickar du på **[!UICONTROL Save Changes]**.
 
-1. (Valfritt) Om du vill exportera de objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på ikonen **[!UICONTROL Export]** ![](assets/export.png) .
+1. (Valfritt) Om du vill exportera objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på ikonen **[!UICONTROL Export]** ![Exportera ](assets/export.png) .
 
    ![select_all_projects_with_highlight_1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

@@ -6,9 +6,9 @@ description: Av säkerhetsskäl är det viktigt att du loggar ut från  [!DNL Ad
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -58,5 +58,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Logga ut från ditt [!DNL Workfront]-konto
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Logout]** ![](assets/logout-icon.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Logout]** ![Utloggningsikonen](assets/logout-icon.png).
 1. Du kommer nu tillbaka till inloggningssidan där du kan ange ditt användarnamn och lösenord igen.

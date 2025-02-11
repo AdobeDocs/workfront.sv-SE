@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Enhetlig Adobe-upplevelse för  [!DNL Workfront]
+title: Adobe Unified Experience för [!DNL Workfront]
 description: Om du får åtkomst till [!DNL Workfront] via Adobe Experience Cloud får du en smidig, enhetlig upplevelse för att hantera alla dina Adobe-program.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Om din organisation använder Adobe Unified Experience börjar den URL som du an
 | URL | Adobe Experience |
 |------------|------------|
 | (CompanyName).my.workfront.com | Workfront |
-| experience.adobe.com | Adobe enhetliga upplevelse |
+| experience.adobe.com | Adobe Unified Experience |
 
 ## Åtkomstkrav
 
@@ -85,7 +85,7 @@ När du har loggat in på [!DNL Adobe Experience Cloud] kan du visa alla [!DNL W
 
 ## Navigera [!DNL Workfront]
 
-Använd ikonen [!UICONTROL Main Menu] ![](assets/main-menu-icon-left-nav.png) till vänster om navigeringsfältet [!DNL Workfront] för att navigera till de sidor du har tillgång till. Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
+Använd ikonen [!UICONTROL Main Menu] ![Huvudmeny ](assets/main-menu-icon-left-nav.png) till vänster om navigeringsfältet i [!DNL Workfront] för att navigera till sidor som du har tillgång till. Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
 
 * **Layoutmallskonfigurationer**: Information om hur en [!DNL Workfront] -administratör kan ändra [!UICONTROL Main Menu] från en layoutmall finns i [Anpassa [!UICONTROL Main Menu] med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Licenstyp**: Information om standardkonfigurationerna för olika licenstyper finns i [Förstå navigeringen för en [!UICONTROL Review]-licensanvändare](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) eller [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
@@ -94,7 +94,7 @@ Använd ikonen [!UICONTROL Main Menu] ![](assets/main-menu-icon-left-nav.png) ti
 
 ## Få åtkomst till din profil och dina inställningar
 
-Du kommer åt din profil och dina inställningsalternativ genom att klicka på Adobe-kontomenyn (din profilbild) i det övre navigeringsområdet.
+Du kommer åt din profil och dina inställningar genom att klicka på Adobe-kontomenyn (din profilbild) i det övre navigeringsområdet.
 
 ![Profil-menyn](assets/aec-profile-picture-menu.png)
 
@@ -102,7 +102,7 @@ Med den här menyn kan du:
 
 * Välj **[!UICONTROL Dark theme]**-formatering för [!DNL Adobe Experience Cloud].
 * Ange **[!UICONTROL Preferences]** för [!DNL Adobe Experience Cloud], inklusive inställningar för primärt och sekundärt språk.
-* Få åtkomst till din **[!UICONTROL [!DNL Workfront] Profile]**. När du är med i profilen klickar du på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) och väljer **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* Få åtkomst till din **[!UICONTROL [!DNL Workfront] Profile]**. När du är med i profilen klickar du på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon.png) och väljer **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** av Adobe Experience Cloud.
 
 ## Hantera ditt lösenord
@@ -117,7 +117,7 @@ Om din organisation använder ett separat program för att hantera lösenord än
 
 Om ditt lösenord hanteras av [!DNL Adobe] kan du ändra lösenordet i ditt Adobe-konto.
 
-[I den här artikeln kan du ändra ditt Adobe-lösenord.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Kontakta administratören om du vill ha mer information om hur du ändrar ditt lösenord.
 

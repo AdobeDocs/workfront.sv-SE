@@ -5,9 +5,9 @@ description: Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -331,7 +331,7 @@ Här följer några element i en lista:
 
 Dessa element visas som standard överst i varje lista. De är kladdiga och rör sig inte när du bläddrar igenom listan. För musen över ikonen för varje element för att identifiera dem.
 
-![](assets/nwe-list-elements.png)
+![Listelement](assets/nwe-list-elements.png)
 
 Du kan anpassa listelement i följande områden och dela dem med andra användare:
 
@@ -525,7 +525,7 @@ I följande tabell beskrivs likheterna och skillnaderna mellan listor och rappor
  <tbody> 
   <tr> 
    <td> <p>Alla kan skapa dem</p> </td> 
-   <td><span>✓*</span> </td> 
+   <td><span> ✓*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -624,11 +624,11 @@ Det finns två typer av listor i [!DNL Workfront]:
 
 * Äldre listor
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![Blåa grupperingar](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Uppdaterade listor
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![Grå grupperingar](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 I följande tabell visas några av skillnaderna mellan de äldre och uppdaterade listorna i [!DNL Workfront]:
 

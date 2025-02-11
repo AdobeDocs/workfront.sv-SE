@@ -6,9 +6,9 @@ description: Läs den här artikeln om du vill bli iOS betatestare för  [!DNL A
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du måste ha appen [!DNL Workfront] och appen [!DNL TestFlight] installerade på
 
 Du kan också skanna QR-koden nedan för att registrera dig för betaversionen och hämta appen:
 
-![](assets/ios-qr-code-350x397.png)
+![iOS QR-kod](assets/ios-qr-code-350x397.png)
 
 ## Berätta för oss hur vi gör
 

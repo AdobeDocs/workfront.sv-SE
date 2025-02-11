@@ -5,9 +5,9 @@ description: I  [!DNL Adobe Workfront] kan du anpassa hur en lista visas för di
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Valfritt och villkorligt) Om du vill visa ett visst antal objekt på skärmen klickar du på den nedrullningsbara menyn **[!UICONTROL Showing]** i skärmens nedre högra hörn och väljer sedan att visa **100**-, **250**-, **500**-, **[!UICONTROL All]**- eller **2000** -objekt.
 
-   ![](assets/list-number-page-350x119.png)
+   ![Listnummer på sidan](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

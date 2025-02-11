@@ -6,9 +6,9 @@ description: Du kan återställa ditt [!DNL Adobe Workfront] lösenord. Som en v
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -50,15 +50,15 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan el
 
 ## Återställ ditt lösenord i [!DNL Adobe Workfront]
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ditt användarnamn bredvid din profilbild.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ditt användarnamn bredvid din profilbild.
 
    ![Öppna huvudmenyn och välj ditt användarnamn.](assets/main-menu-options-350x481.png)
 
-1. Klicka på **[!UICONTROL More menu]** ![](assets/more-icon.png) och sedan på **[!UICONTROL Edit]**.
+1. Klicka på ikonen **[!UICONTROL More menu]** ![Mer](assets/more-icon.png) och sedan på **[!UICONTROL Edit]**.
 
 1. Klicka på **[!UICONTROL Reset Password]** i rutan **[!UICONTROL Edit Person]** som visas under **[!UICONTROL Personal Info]**.
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![Redigera person](assets/edit-person-box-350x196.jpg)
 
    Om din organisation har integrerat [!DNL Workfront] med en SSO-lösning kan du omdirigeras till om du vill återställa dina lösenord via SSO-systemet när du klickar på **[!UICONTROL Reset Password]**. Detta återställer ditt SSO-lösenord, vilket påverkar inloggningen till alla dina andra program i organisationen.
 

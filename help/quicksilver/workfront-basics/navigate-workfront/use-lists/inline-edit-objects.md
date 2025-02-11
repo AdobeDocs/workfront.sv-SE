@@ -6,9 +6,9 @@ description: Du kan redigera objekt textbundet när de visas i en lista eller ra
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Om fältet kan redigeras blir fältet och alla andra fält som visas i listan redigerbara celler.
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![Redigerbara celler](assets/nwe-editable-cells-350x131.png)
 
 1. Redigera informationen i cellen och tryck sedan på [!UICONTROL Enter].
 

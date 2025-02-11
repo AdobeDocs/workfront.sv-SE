@@ -6,9 +6,9 @@ description: Du kan ändra vilket språk som används för att visa Adobe Workfr
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du kan kontraktera en tredje part om du vill att Workfront gränssnitt och utgå
 >   * Projektnamn
 >   * Uppgiftsnamn
 >   * Ärendenamn
->   * Portfolio
+>   * Portfolio names
 >   * Programnamn
 >   * Godkännandenamn
 >   * Beskrivning
@@ -98,7 +98,7 @@ Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt]
 Du kan ändra det språk som används för att visa Workfront och det språk som används i utgående e-postmeddelanden genom att ändra följande inställningar:
 
 * Språket i webbläsaren (för användare som inte använder IMS)
-* Det primära och sekundära språket i din AEM (för användare på IMS)
+* Det primära och sekundära språket i din AEM-profil (för användare med IMS)
 * Inställningarna för kundinformation och användarens e-postadress i ditt Workfront-konto.
 
 För att se alla tillgängliga översättningar för ditt valda språk bör både Workfront nationella inställningar och webbläsarens nationella inställningar anges till samma språk.
@@ -138,7 +138,7 @@ När du ändrar Workfront standardspråk för e-post ändrar du det språk, datu
 Så här ändrar du Workfront standardspråk för e-post:
 
 1. Logga in på Workfront som Workfront-administratör.
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png).
 
 1. Klicka på **System** > **Kundinformation.**
 

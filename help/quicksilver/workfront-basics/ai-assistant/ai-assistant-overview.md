@@ -5,9 +5,9 @@ description: Översikt över AI Assistant
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ AI Assistant har för närvarande följande funktioner:
 
   Mer information finns i [Sammanfatta med hjälp av AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
-* Tillhandahåller instruktioner eller referensinformation som hämtas från Workfront dokumentation om Adobe Experience League.
+* Tillhandahålla instruktioner eller referensinformation som hämtats från Workfront dokumentation om Adobe Experience League.
 
   Mer information finns i [Få hjälp från AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -103,7 +103,7 @@ Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksil
 
 AI-assistenten kan fråga efter data som är kopplade till följande objekttyper om användaren har de giltiga behörigheterna i Workfront:
 
-* Portfolio
+* Portföljer
 * Program
 * Projekt
 * Uppgifter
@@ -115,7 +115,7 @@ AI-assistenten kan fråga efter data som är kopplade till följande objekttyper
 
 ## Access AI Assistant
 
-1. Klicka på AI Assistant-ikonen ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) överst på en Workfront-sida.
+1. Klicka på AI Assistant-ikonen ![AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) överst på en Workfront-sida.
 1. Skriv din fråga eller fråga i panelen till höger på skärmen.
 
    Om du inte kan skriva på den här panelen har din organisation inget signerat Adobe Gen AI-avtal.
@@ -131,11 +131,11 @@ Om en användare försöker använda AI Assistant när Adobe Gen AI-avtalet inte
 * Användare: Användare informeras om att AI Assistant inte har aktiverats för organisationen och att de kan kontakta sin Workfront-administratör för att begära det för sin organisation.
 * Administratörer: Administratörer informeras om att det inte finns något signerat Adobe Gen AI-avtal och kan begära att en kopia av avtalet skickas för signering.
 
-Så här begär du AI-avtalet för Adobe Gen:
+Så här begär du avtalet för Adobe Gen AI:
 
-1. Som Workfront-administratör klickar du på AI Assistant-ikonen ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Som Workfront-administratör klickar du på ikonen för AI-assistenten ![AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) .
 1. Börja skriva på AI-assistentpanelen.
-1. När Adobe Gen AI-avtalsmeddelandet visas klickar du på **Granska avtal**.
-1. Ange namn och e-postadress för den person i organisationen som ska signera avtalet för Adobe Gen AI.
+1. När meddelandet Adobe Gen AI-avtal visas klickar du på **Granska avtal**.
+1. Ange namn och e-postadress för den person i organisationen som ska signera Adobe Gen AI-avtalet.
 
    Avtalet skickas till den här personen för signering. När det har signerats och returnerats aktiveras AI Assistant för din organisation.

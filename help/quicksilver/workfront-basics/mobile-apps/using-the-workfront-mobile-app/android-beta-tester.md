@@ -6,9 +6,9 @@ description: Läs den här artikeln om du vill bli Android betatestare för  [!D
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Du måste installera appen [!DNL Workfront] innan du går med i betaversionen.
 
 1. När förloppet är klart får du en bekräftelse på att du nu är en betaanvändare.\
    Ordet [!UICONTROL Beta] visas efter appens namn i [!DNL Play Store], vilket anger att du använder betaversionen av appen.\
-   ![](assets/android-beta-tester-adobe-350x468.png)
+   ![Android betatestare](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR-kod
 
 Du kan också skanna QR-koden nedan för att registrera dig för betaversionen och hämta appen:
 
-![](assets/android-qr-code-350x409.png)
+![Android QR-kod](assets/android-qr-code-350x409.png)
 
 ## Berätta för oss hur vi gör
 

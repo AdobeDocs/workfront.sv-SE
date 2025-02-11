@@ -6,9 +6,9 @@ description: Avsnittet [!UICONTROL My Work] i området [!UICONTROL Home] visar d
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Avsnittet [!UICONTROL My Work] i området [!UICONTROL Home] visar dina aktivitet
 >
 >[!UICONTROL My Work] i mobilappen är skild från [!UICONTROL My Work] i skrivbordsversionen av [!UICONTROL Adobe Workfront].
 
-![](assets/home-myworksection-338x379.png)
+![Mitt arbete](assets/home-myworksection-338x379.png)
 
 ## Anpassa avsnittet [!UICONTROL My Work]
 
@@ -36,4 +36,4 @@ Du kan välja vilka menyalternativ som ska visas i [!UICONTROL My Work] och änd
    >
    >Menyobjektet [!UICONTROL Tasks and Issues] visas alltid och du kan inte dölja det.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![Mobilinställningar](assets/mobile-settings-338x366.png)
