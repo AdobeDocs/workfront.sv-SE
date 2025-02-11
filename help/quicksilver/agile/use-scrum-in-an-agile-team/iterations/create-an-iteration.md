@@ -6,9 +6,9 @@ description: Iterationer är en nyckelkomponent för Scrum-team när det gäller
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,6 @@ När du lägger till en uppgift som en artikel i en iteration används begränsn
 
 [!UICONTROL Iteration End Date] minus (-) [!UICONTROL Task Duration] är lika med (=) [!UICONTROL Task Planned Start Date]
 
-[!UICONTROL Project End Date] används i stället för   om projektets startdatum är efter upprepningens startdatum och projektets slutdatum är efter upprepningens slutdatum.
+[!UICONTROL Project End Date] används i stället för Iteration-slutdatumet om projektets startdatum är efter upprepningens startdatum och projektets slutdatum är efter upprepningens slutdatum.
 
 Du kan konfigurera enskilda Scrum-team så att de använder projektdatum som standard, i stället för upprepningsdatum. Mer information finns i avsnittet [Konfigurera hur datum ska användas när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) i artikeln [Konfigurera repet](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

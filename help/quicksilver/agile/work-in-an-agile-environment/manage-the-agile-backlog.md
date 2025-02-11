@@ -6,9 +6,9 @@ description: Uppgifter och ärenden kan tilldelas ett smidigt team och läggas t
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Du kan skapa nya artiklar i eftersläpningen genom att skapa artikeln direkt fr�
 
 ### Skapa en artikel från eftersläpningen {#create-a-story-from-the-backlog}
 
-När du skapar en artikel från en eftersläpning skapas artikeln som en uppgift eller ett problem i ett projekt. Du kan inte skapa en artikel utifrån eftersläpningen som ett problem.
+När du skapar en artikel från en eftersläpning skapas artikeln som en uppgift eller ett problem i ett projekt.
 
 Så här skapar du en artikel från en eftersläpning:
 
@@ -189,11 +189,11 @@ Uppgiften eller utgåvan är nu tillgänglig i teamets eftersläpning.
 
 ## Flytta artiklar till eller från eftersläpningen
 
-* [Flytta artiklar från eftersläpningen till en iteration eller + board](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Flytta artiklar från eftersläpningen till en iteration eller anslagstavla](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Flytta befintliga artiklar till eftersläpningen](#move-existing-stories-to-the-backlog)
 * [Exportera artiklar från eftersläpningen](#export-stories-from-the-backlog)
 
-### Flytta artiklar från eftersläpningen till en iteration eller + board
+### Flytta artiklar från eftersläpningen till en iteration eller anslagstavla
 
 1. Gå till eftersläpningen i det flexibla teamet.
 1. Markera de artiklar som du vill flytta till en iteration eller en kanban-panel och klicka sedan på **[!UICONTROL More]** > **[!UICONTROL Move to]**.
