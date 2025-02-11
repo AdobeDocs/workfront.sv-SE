@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c67affb14c237f8e4a6cf8a44c707a5ab5893364
+source-git-commit: 7a2549e0d523f211ee13bf13fdc9a54aa7cf4572
 workflow-type: tm+mt
-source-wordcount: '13028'
+source-wordcount: '13030'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ ht-degree: 0%
          * [Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [TLS 1.2 krävs i Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Outlook 365-tillägget är nu tillgängligt](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
-         * [Ersättning av verktyg baserade på Flash i Adobe Workfront](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+         * [Ersättning av Flash-baserade verktyg i Adobe Workfront](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
          * [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)
          * [Nya IP-adresser för Adobe Workfront e-post med version 21.1](product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
          * [Sofing av e-post och borttagning av POP-svar](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
@@ -732,7 +732,7 @@ ht-degree: 0%
    * Konfigurera integreringar {#configure-integrations}
       * [Konfigurera integreringar](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integreringar](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Konfigurera Experience Manager Assets as a Cloud Service-integrering](administration-and-setup/configure-integrations/configure-aacs-integration.md)
+      * [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Konfigurera integreringen av Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Konfigurera Workfront med Adobe Experience Manager äldre anslutning](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Ge användarna tillgång till mobilappen](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
@@ -805,8 +805,8 @@ ht-degree: 0%
          * [Exportera en lista](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [Redigera objekt i en lista i Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [Ändra hur en lista visas](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
-      * [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
-      * [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
+      * [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+      * [Vanliga frågor om Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [Översikt över det övre navigeringsfältet](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
       * [Navigering till vänster i Adobe Workfront](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
       * [Sammanfattning](workfront-basics/the-new-workfront-experience/summary-overview.md)
@@ -1100,29 +1100,29 @@ ht-degree: 0%
    * Workfront- och Experience Manager Assets-integreringar {#wf-aem-integrations}
       * [Workfront- och Experience Manager Assets-integreringar](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront för Experience Manager förbättrad anslutning {#wf-aem-enhanced-connector}
-         * [Workfront för Experience Manager förbättrad anslutning](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
-         * [Översikt över den förbättrade anslutningen Workfront för Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-         * [Översikt över metadata för anslutning i Workfront för Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+         * [Workfront for Experience Manager förbättrad anslutning](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
+         * [Översikt över den förbättrade anslutningen Workfront for Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
+         * [Översikt över metadata för Workfront för Experience Manager med utökad anslutning](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
          * [Länka resurser och mappar med den förbättrade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
          * [Skicka ett dokument med den utökade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [Korrektur för en länkad resurs med den utökade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [Visa eller hämta en länkad resurs med den förbättrade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Adobe Workfront för Experience Manager Assets och Assets Essentials {#wf-aem-essentials}
-         * [Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+         * [Adobe Workfront for Experience Manager Assets and Assets Essentials: artikelindex](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Översikt över Adobe Experience Manager Assets integreringar](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Länka resurser och mappar från Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Visa mappade metadata för Experience Manager Assets eller Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [Visa eller hämta en länkad resurs från Experience Manager Assets eller Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
          * [Skicka ett dokument till Experience Manager Assets eller Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Korrektur för en länkad resurs för Experience Manager Assets eller Grundläggande om tillgångar](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-         * [Skapa en mapp länkad till Experience Manager Assets eller Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
-         * [Bryt länken till eller ta bort resurser och mappar från Experience Manager Assets eller Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
+         * [Skapa en mapp som är länkad till Experience Manager Assets eller Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Bryta länken till eller ta bort resurser och mappar från Experience Manager Assets eller Resurser Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Använd arbetsflöden i integreringen med Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Använd Workfront Fusion för att konvertera ett Workfront-problem till ett projekt som innehåller Adobe Experience Manager-arbetsflöden](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Felsök Adobe Experience Manager-integreringen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrera från tidigare eller förbättrade anslutningar {#migrate-from-legacy-enhanced-connectors}
       * [Migrera från tidigare eller förbättrade anslutningar](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migrera från den gamla eller förbättrade kontakten till Workfront för as a Cloud Service integration med Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migrera från den gamla eller förbättrade kopplingen till as a Cloud Service-integrering med Workfront för Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migrera från den gamla anslutningen till den förbättrade anslutningen](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Avinstallera Workfront med Adobe Experience Manager äldre anslutning](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Avinstallera Workfront med Adobe Experience Manager förbättrad anslutning](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -1393,13 +1393,13 @@ ht-degree: 0%
          * [Uppdatera information i Gantt-schema för uppgiftslista](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [Nivåresurser i Gantt-schemat](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [Exportera Gantt-schemat till PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * Hantering av Portfolio {#portfolio-management}
-      * [hantering av Portfolio](manage-work/portfolios/portfolio-management-overview.md)
-      * Översikt över Portfolio i Adobe Workfront {#portfolio-overview-in-adobe-workfront}
-         * [Portfolio](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+   * Portfolio Management {#portfolio-management}
+      * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
+      * Portfolio - översikt i Adobe Workfront {#portfolio-overview-in-adobe-workfront}
+         * [Portföljer](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navigera i en portfölj](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
-         * [Portfolio Management overview](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Översikt över Portfolio i Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [Portfolio Management - översikt](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
+         * [Portfolio - översikt i Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Skapa och hantera portföljer {#create-and-manage-portfolios}
          * [Skapa och hantera portföljer](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Skapa en portfölj](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
@@ -1419,9 +1419,9 @@ ht-degree: 0%
       * Hantera projekt i Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
          * [Hantera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Portfolio Optimizer - översikt](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-         * [Leta reda på optimeraren för Portfolio](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
-         * [Översikt över Portfolio Optimizer-poängen](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-         * [Prioritera projekt i Portfolio-optimering](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+         * [Hitta Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+         * [Översikt över Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
+         * [Prioritera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [Optimera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Beräkna risk till nettovärde i en portfölj](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * Begäranden {#requests}
@@ -1566,7 +1566,7 @@ ht-degree: 0%
          * [Filter: visa rapporter som är schemalagda för leverans](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
          * [Filter: visa objekt efter status med samma namn när statusvärdena är kopplade till olika grupper](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
          * [Gruppera en rapport efter ett anpassat fält som har flera val](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-         * [Gruppering: Aktivitetsgruppering på fyra nivåer för Portfolio, programägare, projektägare och projektstatus](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+         * [Gruppering: Aktivitetsgruppering på fyra nivåer för Portfolio-ägare, programägare, projektägare och projektstatus](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
          * [Gruppering: lägga till en fjärde gruppering i en lista](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
          * [Gruppera: ordna listresultat med ett beräknat värde som är gemensamt för alla objekt i grupperingen](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
          * [Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
@@ -1698,7 +1698,7 @@ ht-degree: 0%
       * [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect - översikt](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [Skapa ett läsarkonto eller en anslutning för Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Skapa ett läsarkonto eller en anslutning till Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Upprätta en anslutning till Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect-dataordlista](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Exempel på Workfront Data Connect-frågor](reports-and-dashboards/data-lake/basic-query-examples.md)
@@ -1755,7 +1755,7 @@ ht-degree: 0%
       * [Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Granska och godkänn arbetet {#review-and-approve-work}
    * [Granska och godkänn arbetet](review-and-approve-work/review-and-approve-work.md)
-   * [Alpha - dokumentgodkännanden](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Alpha-program - dokumentgodkännanden](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Begränsat dokument och bevisbeslut för obetalda användare - översikt](review-and-approve-work/proof-doc-decision-limits.md)
    * Arbetsgodkännanden {#work-approvals}
       * [Arbetsgodkännanden](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2092,7 +2092,7 @@ ht-degree: 0%
          * [Installera och öppna Adobe Workfront för Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Installera och öppna Adobe Workfront för XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [Installera och öppna [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
-      * Hantera arbete med Adobe Workfront-plugin-programmet för Creative Cloud-program {#manage-wf-cc}
+      * Hantera arbete med Adobe Workfront-plugin för Creative Cloud-program {#manage-wf-cc}
          * [Hantera arbetet med Adobe Workfront plugin för Creative Cloud-program](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Hitta ditt material med Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
          * [Visa information om arbetsuppgift med Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
@@ -2102,16 +2102,16 @@ ht-degree: 0%
          * [Hantera [!DNL Adobe Workfront] meddelanden från Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Överför dokument och korrektur med Adobe Workfront-plugin-programmet för Creative Cloud-program {#upload-docs-proofs-wf-cc}
          * [Överför dokument och korrektur från  [!DNL Adobe Workfront plugin] till  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
-         * [Ladda upp dokument och korrektur med Adobe Workfront plugin för Creative Cloud-program](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+         * [Ladda upp dokument och korrektur med Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Ladda upp korrektur från Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Ladda upp dokument från Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
-         * [Överför XD ritytor som korrektur till Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
-         * [Överföra XD ritytor som dokument till Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-         * [Överför korrektur från InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
-         * [Överför dokument från InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+         * [Ladda upp ritytor från XD som korrektur till Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+         * [Överföra ritytor från XD som dokument till Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+         * [Ladda upp korrektur från InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
+         * [Ladda upp dokument från InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [Överför korrektur från  [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [Överför dokument från  [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
-      * Workfront-tillägg för Illustrator och InDesignen {#workfront-for-illustrator-indesign}
+      * Workfront-tillägg för Illustrator och InDesign {#workfront-for-illustrator-indesign}
          * [Använda Workfront-tillägget för Illustrator och InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront för Jira {#workfront-for-jira}
       * [Adobe Workfront för Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
@@ -2149,12 +2149,12 @@ ht-degree: 0%
       * [Aktivera Outlook för Office för Adobe Workfront och SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
    * Adobe Workfront för Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
-      * [Adobe Workfront for Microsoft Teams Overview](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
+      * [Adobe Workfront for Microsoft Teams - översikt](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Installera Adobe Workfront för Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Öppna Adobe Workfront från Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Söka efter och dela Adobe Workfront-objekt i Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
       * [Skapa Adobe Workfront-uppgifter från Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
-      * [Skicka in Adobe Workfront-begäranden från Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
+      * [Skicka in Adobe Workfront-förfrågningar från Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [Hantera Adobe Workfront-meddelanden i Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
    * Adobe Workfront för Salesforce {#workfront-for-salesforce}
       * [Adobe Workfront för Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
@@ -2166,13 +2166,13 @@ ht-degree: 0%
    * Adobe Workfront för Slack {#workfront-for-slack}
       * [Adobe Workfront för Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Konfigurera Adobe Workfront för Slack](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
-      * [Få tillgång till dina favoriter och senaste objekt från Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-      * [Hantera ditt arbete och dina godkännanden från Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+      * [Få tillgång till dina favoriter och nyligen använda objekt från Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
+      * [Hantera ditt material och godkännanden från Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
       * [Skapa uppgifter och ärenden från Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
       * [Sök efter Adobe Workfront-objekt från Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Åtkomst till Adobe Workfront-objekt från en delad länk i Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
-      * [Få tillgång till Adobe Workfront från Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Posta en Slack-kommentar som en uppdatering](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Öppna Adobe Workfront från Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+      * [Publicera en Slack-kommentar som en uppdatering](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Få Adobe Workfront-meddelanden i Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront med Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront med Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2460,6 +2460,7 @@ ht-degree: 0%
       * [Synkronisera data för program och tjänster med API:t](wf-api/general/api-sync-data.md)
       * [Inaktivera en användare via API](wf-api/general/deactivate-user-api.md)
    * Händelseprenumerationer {#event-subscriptions}
+      * [Evenemangsprenumerationer](wf-api/api/event-subscriptions.md)
       * [API för händelseprenumeration](wf-api/general/event-subs-api.md)
       * [Bästa praxis för händelseteckning](wf-api/general/event-sub-best-practice.md)
       * [Leveranskrav för evenemangsprenumeration](wf-api/general/setup-event-sub-endpoint.md)

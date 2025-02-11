@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Adobe Workfront Planning har gränser för hur många objekt du kan skapa i din instans. Objektbegränsningar finns för att förbättra produktprestanda och förbättra din upplevelse av Workfront Planning.
 
-I följande tabell visas gränserna för hur många objekt du kan skapa i Workfront Planning. Begränsningarna kan komma att ändras när vi går vidare till nästa utvecklingsfas.
+I följande tabell visas gränserna för hur många objekt du kan skapa i Workfront Planning. Begränsningarna kan komma att ändras.
 
 | Adobe Workfront Planning-objekt | Gräns |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -34,7 +34,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Antal posttyper för en arbetsyta | 1 000 (inkluderar posttyper från alla avsnitt och de som skapas när en arbetsytemall används) |
 | Antal poster för en posttyp | 25 000 |
 | Antal poster för en arbetsyta | 25 000 för kunder med Planning <br> 500 000 för kunder med Planning Plus |
-| Antal poster för en instans av Workfront Planning | 500 000 för kunder med Planning-planen <br>2 miljoner för kunder med Planning Plus |
+| Antal poster för en instans av Workfront Planning | 500 000 för kunder med Planning <br>2 miljoner för kunder med Planning Plus |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält med en rad | 1 000 tecken |
 | Antal tecken för ett styckefält | 10 000 tecken |

@@ -7,7 +7,7 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
+source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 0%
@@ -132,11 +132,11 @@ Du kan skapa ett anpassat datum- eller tidsfält med följande uttryck:
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDHOUR</strong> </td> 
+   <td><strong>ADDHOURS</strong> </td> 
    <td> <p>Lägger till antalet timmar till datumet och formateras enligt följande:</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>Obs! Den här funktionen stöds inte i Workfront Planning.</p></td> 
+   <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
   </tr>
   <tr> 
    <td><strong>RENSA</strong> </td> 
@@ -410,7 +410,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
    <p>Uttrycket formateras på följande sätt:</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>Till exempel blir ["-12.6", -13.0] ["-12.6", "-13"].</p>
-   <p>Obs! Den här funktionen stöds inte i Workfront Planning.</p></td> 
+   <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -418,7 +418,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
    <p>Uttrycket formateras på följande sätt:</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>Till exempel blir ["-12.6", -13.0] ["-13", "-12.6"].</p>
-   <p>Obs! Den här funktionen stöds inte i Workfront Planning.</p></td> 
+   <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
   </tr>
   <tr>   
    <td><strong>ÄRENDE</strong> </td> 
@@ -461,7 +461,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
    <td><p>Returnerar formaterad text. Färgalternativen är $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE och de andra formateringsalternativen är $$BOLD, $$ITALIC, $$UNDERLINE. Endast ett färgalternativ kan användas per funktion, tillsammans med upp till tre andra formateringsalternativ. Om inget färgalternativ anges används systemets standardfärg.</p>
    <p>Uttrycket formateras på följande sätt:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>Obs! Den här funktionen stöds inte i Workfront Planning.</p></td> 
+   <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -576,7 +576,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
    <td> <p>Utvärderar uttrycket mot en lista med värden och returnerar resultatet som motsvarar det första matchande värdet.</p>
    <p>Uttrycket formateras enligt följande:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Den här funktionen stöds inte i Workfront Planning.</p></td> 
+   <p>Det här uttrycket stöds inte i Workfront Planning.</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
