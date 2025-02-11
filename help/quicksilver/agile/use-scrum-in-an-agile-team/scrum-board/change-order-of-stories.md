@@ -6,16 +6,18 @@ description: Den ordning i vilken artiklarna visas på artikelpanelen anger inte
 author: Lisa
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Ändra ordningen på artiklarna på [!UICONTROL Scrum]-tavlan
 
-Den ordning i vilken artiklarna visas på artikelpanelen anger inte prioritet. Det kan dock påverka den upplevda prioriteten genom att göra artiklarna mer synliga. Som standard visas artiklar i alfabetisk ordning i varje statuskolumn på artikelpanelen. (Artiklar med simbanor visas högst upp i artikelbordet, och artiklar utan simbanor visas separat under alla simbanor.)
+Den ordning i vilken artiklarna visas på artikelpanelen anger inte prioritet. Det kan dock påverka den upplevda prioriteten genom att göra artiklarna mer synliga. Prioriteten definieras i eftersläpningen och när artiklar läggs till i artikelpanelen har de inte en fast prioritet eftersom de kommer att bearbetas under upprepningens tidsram. Om artiklar återställs till eftersläpningen kan du ordna om dem där för att visa prioriteten.
+
+Som standard visas artiklar i alfabetisk ordning i varje statuskolumn på artikelpanelen. Artiklar med simbanor visas högst upp på artikelbordet, och artiklar utan simbanor visas separat under alla simbanor.
 
 När du sorterar om kolumner på artikelpanelen sparas alla ändringar du gör i upprepningen eller projektet, så ändringarna behålls nästa gång du eller någon annan användare visar artikelpanelen. (Ändringar som du gör återställs inte när du rensar webbläsarens cache.)
 
