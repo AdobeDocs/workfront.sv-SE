@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
   >[!NOTE]
   >
-  >   Endast användare från kunder som har gått med i Adobe Unified Experience får både ett meddelande i appen och ett e-postmeddelande. Information om hur du avgör om ditt företag använder Adobe Unified Experience finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Endast användare som har anslutit sig till Adobe Unified Experience får både ett meddelande i appen och ett e-postmeddelande. Information om hur du avgör om ditt företag använder Adobe Unified Experience finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Workfront Planning:
 
@@ -143,7 +143,7 @@ Posttypssidan öppnas och alla poster av den typen visas.
 
 1. Börja skriva en kommentar i rutan **Ny kommentar**.
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![Tom kommentarsruta på post](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -152,7 +152,7 @@ Posttypssidan öppnas och alla poster av den typen visas.
 1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
    * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
-1. (Valfritt och villkorligt) Om din Workfront-instans är en del av Adobe Unified Experience lägger du till **@** följt av namnet på en användare som ska tagga någon i uppdateringen. Mer information finns i avsnittet [Att tänka på när du kommenterar en post](#considerations-about-commenting-on-a-record) i den här artikeln.
+1. (Valfritt och villkorligt) Om din Workfront-instans ingår i Adobe Unified Experience lägger du till **@** följt av namnet på en användare som ska tagga någon i uppdateringen. Mer information finns i avsnittet [Att tänka på när du kommenterar en post](#considerations-about-commenting-on-a-record) i den här artikeln.
 
 1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner eller länkar till uppdateringen för att förbättra innehållet.
 

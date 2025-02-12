@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Svara på en kommentar i uppdateringsavsnittet för ett objekt liknar svaret fö
 1. (Valfritt) Om du vill ta med text från en tidigare uppdatering i ditt svar klickar du på menyn **Mer** i det övre högra hörnet av kommentaren som du vill svara på och sedan på **Offertsvar** . Texten från föregående uppdatering visas i indataområdet, markerat med en lodrät grå linje.
 1. Klicka på **Svara**.
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![Svara för att uppdatera tom ruta](assets/reply-to-update-empty-box.png)
 
    Du kan se de användare som aktivt deltar i konversationen längst ned i rutan **Lägg till svar..** och du kan lägga till fler eller ta bort de som inte längre är relevanta. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får ett meddelande varje gång en uppdatering eller ett svar görs för objektet. Du kan också tagga fler användare så att de inkluderas i ditt svar.  Mer information om hur du taggar fler användare finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -115,7 +115,7 @@ Svara på en kommentar i uppdateringsavsnittet för ett objekt liknar svaret fö
 
 1. Klicka på **Skicka** för att spara svaret.
 
-1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren som du vill svara på om du vill ha fler alternativ för att hantera svaret. Mer information finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) i det övre högra hörnet av kommentaren som du vill svara på om du vill ha fler alternativ för att hantera svaret. Mer information finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

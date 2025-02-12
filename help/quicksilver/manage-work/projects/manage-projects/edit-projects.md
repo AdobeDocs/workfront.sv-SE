@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
+source-wordcount: '7694'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
 1. (Valfritt) Klicka på **Projekt jag är på** eller **Projekt jag äger** i det övre högra hörnet för att visa projekt där du är ägare eller projekt där du är en del av projektteamet.
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![Projekt på mina egna knappar](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
 1. (Valfritt) Om du vill redigera begränsad information om ett projekt klickar du på **Projektinformation** i den vänstra panelen. Om du vill redigera all information om projektet går du vidare till steg 5. <!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![Projektinformation utökad](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,32 +118,32 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på den **högerriktade pilen** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Projektinformation finns i följande artiklar:
 
       * [Hantera information i projektöversiktsområdet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Ökning
       * Namnet på ett eller flera anpassade formulär
 
-      PDF-filen hämtas till datorn.
+      PDF-filen hämtas till din dator.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Markera en ruta för att exportera information om problem med exportknappen](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Om du vill ha information om de fält som visas i avsnittet Projektinformation fortsätter du redigera projektet i rutan Redigera projekt enligt beskrivningen nedan.
-1. Om du vill redigera all information om projektet klickar du på menyn **Mer** ![](assets/qs-more-menu.png) bredvid namnet på projektet och sedan på **Redigera**.
+1. Om du vill redigera all information om projektet klickar du på menyn **Mer** ![Mer](assets/qs-more-menu.png) bredvid namnet på projektet och sedan på **Redigera**.
 
    eller
 
-   Välj ett eller flera projekt i en lista med projekt och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) längst upp i listan.
+   Välj ett eller flera projekt i en lista med projekt och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) längst upp i listan.
 
    Mer information om att redigera flera projekt samtidigt finns i avsnittet [Redigera projekt i grupp](#edit-projects-in-bulk) i den här artikeln.
 
@@ -167,6 +169,9 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
    * [Aktivitetsinställningar](#task-settings)
    * [Utgivningsinställningar](#issue-settings)
    * [Åtkomst](#access)
+   * [Länkade mappar](#linked-folders-conditional-availability) (villkorlig tillgänglighet)
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Projektnamn** i den vänstra panelen.
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![Projektnamnområde i rutan Redigera projekt](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. Uppdatera namnet på projektet.
 
@@ -188,7 +193,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Översikt** i den vänstra panelen.
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![Översiktsområdet i redigeringsrutan för projekt](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. Uppdatera följande information om projektet:
 
@@ -242,14 +247,14 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Ange Portfolio som projektet tillhör. Du måste skapa en Portfolio innan den visas i listrutan. Endast aktiva portföljer kan associeras med ett projekt. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.
+         <td>Ange en Portfolio som projektet tillhör. Du måste skapa en Portfolio innan den visas i listrutan. Endast aktiva portföljer kan associeras med ett projekt. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.
          <p><b>ANMÄRKNING</b></p>
          <p>Du måste ha behörigheten Hantera för portföljen för att kunna lägga till eller ta bort den i projektet.</p>
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Program</strong></td> 
-         <td> <p>Om du har valt ett Portfolio för projektet anger du ett program för projektet. Vissa Portfolio har kanske inga program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program kan associeras med ett projekt. </p> <p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p> 
+         <td> <p>Om du har valt en Portfolio för projektet anger du ett program för projektet. Vissa portföljer kanske inte har program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program kan associeras med ett projekt. </p> <p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p> 
       <p><b>ANMÄRKNING</b></p>
          <p>Du måste ha behörigheten Hantera för programmet för att kunna lägga till eller ta bort det i projektet.</p>   
       </td> 
@@ -334,7 +339,7 @@ Så här redigerar du information i anpassade formulär när du redigerar ett pr
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Egen Forms** i den vänstra panelen.
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Cusrom-formulär i rutan Redigera projekt](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Klicka på rutan **Lägg till anpassat formulär** och välj ett formulär från listan som du vill bifoga till projektet. Som standard visas de första 40 formulären i alfabetisk ordning. Om du inte ser formuläret i listan börjar du skriva dess namn och markerar det när det visas i listan.
 
@@ -369,7 +374,7 @@ Så här redigerar du fält i finanssektorn:
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Ekonomi** i den vänstra panelen.
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![Ekonomi i redigeringsrutan för projekt](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. Uppdatera följande ekonomiska information för projektet:
 
@@ -399,7 +404,7 @@ Så här redigerar du fält i finanssektorn:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Planerad förmån</strong> </td> 
-      <td> <p>Uppskatta den planerade fördelen med projektet. Detta används i affärsscenariot för projektet och i Portfolio Optimizer. Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p> <p>Mer information finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio-optimering</a> .<br></p> </td> 
+      <td> <p>Uppskatta den planerade fördelen med projektet. Detta används i affärsscenariot för projektet och i Portfolio Optimizer. Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p> <p>Mer information finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio Optimizer</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Faktisk förmån</strong> </td> 
@@ -427,7 +432,7 @@ Så här redigerar du fält i finanssektorn:
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Projektinställningar** i den vänstra panelen.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Området med projektinställningar i redigeringsrutan för projekt](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Uppdatera följande information:
 
@@ -551,7 +556,7 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Aktivitetsinställningar** i den vänstra panelen.
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![Aktivitetsinställningar i rutan Redigera projekt](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. I rutan **Standardprocess för godkännande av aktivitet** väljer du den process för godkännande av uppgift som du vill associera med alla nya uppgifter när du lägger till dem i projektet.
 
@@ -565,7 +570,7 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
 1. I rutan **Standardinställd anpassad Forms** väljer du det eller de anpassade formulär som du vill associera med alla nya uppgifter när du lägger till dem i projektet. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Du kan associera upp till tio anpassade formulär med en uppgift.
 1. (Valfritt) Välj **Använd arbetsinsats för att automatiskt beräkna timmar för planerad aktivitet** om du vill aktivera hantering av aktivitetsinsats genom att använda Arbetsinsats i stället för Planerade timmar.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Arbetsinsats i rutan Redigera projekt](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Villkorligt och valfritt) Om du valde Använd arbetsinsats för att automatiskt beräkna planerade timmar för en uppgift klickar du på listrutan för varje nivå av arbetsinsats och väljer en procentsats för varje nivå. Följande procentvärden är standardvärden:
 
@@ -590,7 +595,7 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Utfallsinställningar** i den vänstra panelen.
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![Utgivningsinställningar i rutan Redigera projekt](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (Valfritt) Avmarkera alternativet **Tillåt användare att lägga till infogade utgåvor**. Det är markerat som standard.
 
@@ -622,7 +627,7 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
 1. Klicka på **Åtkomst** i den vänstra panelen.
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![Åtkomstområde i rutan Redigera projekt](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. Ange följande **Access**-information för projektet:
 
@@ -632,23 +637,23 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>När någon tilldelas till en uppgift</strong></td> 
-      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till en aktivitet. Användaren som tilldelats en uppgift får automatiskt den här åtkomsten till uppgiften.</p></td> 
+      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till en uppgift. Användaren som tilldelats en uppgift får automatiskt den här åtkomsten till uppgiften.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Ge även åtkomst till projektet</strong></td> 
-      <td><p>Välj mellan <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en uppgift får automatiskt tillgång till projektet.<br></p></td> 
+      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en uppgift får automatiskt tillgång till projektet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>När någon har tilldelats ett problem</strong></td> 
-      <td><p>Välj mellan <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till ett problem. Användaren som tilldelats en utgåva får automatiskt den här åtkomsten till utgåvan. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a>.<br></p></td> 
+      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till ett problem. Användaren som tilldelats en utgåva får automatiskt den här åtkomsten till utgåvan. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Ge även åtkomst till projektet</strong></td> 
-      <td><p>Välj mellan <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en utgåva får automatiskt även den här åtkomsten till projektet.<br></p></td> 
+      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en utgåva får automatiskt även den här åtkomsten till projektet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>När någon skickar en begäran: Ge dem åtkomst</strong></td> 
-      <td><p>Välj <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till begäran. När projektet också är en begärandekö och en användare skickar en begäran till projektet, får de åtkomst till den begäran de skickade. Mer information om hur du konfigurerar ett projekt som en begärandekö finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>.<br></p></td> 
+      <td><p>Välj mellan <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till begäran. När projektet också är en begärandekö och en användare skickar en begäran till projektet, får de åtkomst till den begäran de skickade. Mer information om hur du konfigurerar ett projekt som en begärandekö finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Personer från samma företag ärver samma behörigheter för alla begäranden.</strong></td> 
@@ -663,7 +668,7 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
 
 1. Klicka på **Spara**.
 
-### Länkade mappar
+### Länkade mappar (villkorlig tillgänglighet) {#linked-folders}
 
 Med funktionen för länkade mappar skapas automatiskt mappar i Adobe Experience Manager Assets och mapparna kopplas till Workfront.
 
@@ -673,11 +678,28 @@ Det här avsnittet visas bara om följande gäller:
 * Din organisation har aktiverat och konfigurerat en integrering med Adobe Experience Manager
 * Mallen som används för att skapa projektet har aktiverat och konfigurerat länkade mappar.
 
-Instruktioner om hur du redigerar länkade mappar finns i [Redigera arbetsflödesvärden i ett projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) i artikeln Använda arbetsflöden i Experience Manager Assets-integreringen.
+Instruktioner om hur du redigerar länkade mappar finns i [Redigera arbetsflödesvärden i ett projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) i artikeln [Använda arbetsflöden i Experience Manager Assets-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 >[!NOTE]
 >
 >Eftersom länkade mappar skapas när projektet skapas är det ineffektivt att redigera arbetsflödet för länkade mappar i ett befintligt projekt. Redigera dessa värden när du skapar en projektfunktion som förväntat.
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## Redigera ett projekt i projekthuvudet (begränsat)
 
@@ -685,7 +707,7 @@ Du kan redigera en begränsad mängd information i projekthuvudet.
 
 Systemadministratören eller gruppadministratören kan anpassa fälten som visas i projekthuvudet.
 
-![](assets/project-header-350x18.png)
+![Projekthuvud](assets/project-header-350x18.png)
 
 Följande fält inkluderas som standard i projekthuvudet.
 
@@ -719,21 +741,21 @@ Tänk på följande när du redigerar flera projekt samtidigt:
 
 * När du väljer projekt som har olika värden för samma fält visas indikatorn &quot;Flera värden&quot; i rutan Redigera projekt. Fält som är kryssrutor, alternativknappar och växlar har en &quot;Multiple values&quot;-indikator bredvid sig.
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![Indikator för flera värden för datum i rutan Redigera projekt gruppvis](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Förutom indikatorn för flera värden visas fält med flera alternativ på något av följande sätt om de valda alternativen är olika i minst ett av de markerade projekten:
 
    * Kryssrutefält har en rad i stället för en kryssruta för alternativet som är markerat för vissa men inte för alla markerade projekt.
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![Kryssrutor för flera värdesindikator i rutan Redigera projekt gruppvis](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Växla mellan fälten för olika typer visas nedtonade, med alternativet aktiverat i mitten för vissa men inte för alla markerade projekt.
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![Flera värden är markerade i gruppredigeringsprojekt](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Fält av alternativknappstyp som har vissa alternativ markerade men inte alla, visar alla alternativknappar som tomma.
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![Flera värden indikerar alternativknappar för massredigering av projektruta](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * När du uppdaterar ett alternativ i ett fält med flera alternativ (t.ex. ett fält som visas som en uppsättning med växlar eller kryssrutor) måste alla andra alternativ matcha de markerade projekten.
 
@@ -748,10 +770,10 @@ Så här redigerar du flera projekt samtidigt:
 {{step1-to-projects}}
 
 1. Markera flera projekt i listan.
-1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) högst upp i listan.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) högst upp i listan.
 Dialogrutan **Redigera projekt** öppnas.
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![Redigera projekt i gruppmodala](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Beroende på hur Workfront-administratören eller gruppadministratören ändrade din layoutmall kan områdena i den vänstra panelen i rutan Redigera projekt eller fält som listas i dessa områden ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
@@ -765,7 +787,7 @@ Beroende på hur Workfront-administratören eller gruppadministratören ändrade
 
    De anpassade formulär som är kopplade till alla markerade projekt visas i underavsnittet **Anpassade formulär** i området **Anpassade Forms**.
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![Anpassade formulär som är gemensamma för massredigeringsprojekt](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -774,7 +796,7 @@ Beroende på hur Workfront-administratören eller gruppadministratören ändrade
 1. Börja skriva namnet på ett anpassat formulär i fältet **Lägg till anpassat formulär**.
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Forms har redan bifogat en indikator i gruppredigeringsprojekt](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    De anpassade formulär som redan är kopplade till de valda projekten visas i underavsnittet **Bifogade formulär** i fältet **Lägg till anpassat formulär**.
 
@@ -802,9 +824,10 @@ Mer information om hur du redigerar området Aktivitetsinställningar finns i av
 Mer information om hur du redigerar området för probleminställningar finns i avsnittet [Ärendeinställningar](#issue-settings) i den här artikeln.
 1. Klicka på **Åtkomst** om du vill redigera åtkomstinställningarna för alla markerade projekt.
 Mer information om hur du redigerar åtkomstområdet finns i avsnittet [Åtkomst](#access) i den här artikeln.
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. (Valfritt) Om du vill ta bort någon av informationen som du har lagt till i rutan Redigera projekt håller du pekaren över ett redigerat fält och klickar sedan på ikonen **x** till det övre högra hörnet av fältet.
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![Ignorera ikonen för fältredigeringsprojekt i grupp](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Valfritt) Klicka på **Avbryt** längst ned på sidan **Redigera projekt** för att ta bort alla ändringar som gjorts i alla projekt.
 1. Klicka på **Spara**.
