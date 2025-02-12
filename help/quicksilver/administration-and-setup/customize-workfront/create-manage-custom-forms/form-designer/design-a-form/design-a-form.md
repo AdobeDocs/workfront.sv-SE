@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '6492'
+source-wordcount: '6493'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan utforma ett anpassat formulär med formulärdesignern i Adobe Workfront. 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * [Lägga till alternativknappar, kryssrutegrupper och listrutor](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Lägg till rubriker och datumfält](#add-typeahead-and-date-fields)
    * [Lägg till externa sökfält](#add-external-lookup-fields)
-   * [Lägga till bilder, PDF och videoklipp](#add-images-pdfs-and-videos)
+   * [Lägga till bilder, PDF-filer och videor](#add-images-pdfs-and-videos)
    * [Lägg till inbyggda Workfront-fält](#add-workfront-native-fields)
    * [Lägg till Adobe XD-filer](#add-adobe-xd-files)
    * [Lägg till planeringsanslutningsfält](#add-planning-connection-fields)
@@ -513,7 +513,7 @@ Så här lägger du till texthuvud- och datumfält:
       <td role="rowheader">Refererad objekttyp</td> 
       <td> <p>Markera den objekttyp som du vill associera med fältet.</p> <p>När du har klickat på Använd eller Spara+Stäng kan du inte ändra fälttypen.</p> <p><b>OBS</b>:   
         <ul> 
-         <li>Om Workfront-administratören har anpassat namnet på Portfolio, Program eller Projekt i Workfront användargränssnitt, visas Workfront-standardnamnet för objektet i den här listrutan, inte det anpassade namnet. Kontakta Workfront-administratören om du behöver hjälp med detta.<br></li> 
+         <li>Om Workfront-administratören har anpassat namnet på portföljer, program eller projekt i Workfront användargränssnitt, visas Workfront-standardnamnet för objektet i den här listrutan, inte det anpassade namnet. Kontakta Workfront-administratören om du behöver hjälp med detta.<br></li> 
          <li>Följande objekttyper stöds i iOS och Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project och Template.</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -668,9 +668,9 @@ Så här lägger du till en extern sökning:
 >* Väntetid mellan återförsök: 500 ms
 >* Förväntad svarsstatus: 2xx
 
-### Lägga till bilder, PDF och videoklipp
+### Lägga till bilder, PDF-filer och videor
 
-Du kan lägga till bilder, PDF och videoklipp i ett anpassat formulär. Användare som arbetar med det objekt som det anpassade formuläret är kopplat till kan endast se bild, PDF eller video i följande områden:
+Du kan lägga till bilder, PDF-filer och videoklipp i ett anpassat formulär. Användare som arbetar med det objekt som det anpassade formuläret är kopplat till kan endast se bilden, PDF eller videon i följande områden:
 
 * Objektets detaljområde (t.ex. området Projektinformation för ett projekt)
 * Rutan Redigera för objektet, om det har det nya Adobe Workfront-gränssnittet (t.ex. rutorna Redigera projekt och Redigera uppgift)
@@ -685,12 +685,12 @@ The Workfront Mobile app -->
 +++ **Utöka för att visa beskrivningar av tillgängliga fält**
 
 * **Bild**: Tillåter användare att lägga till bildfiler.
-* **PDF**: Tillåter användare att lägga till PDF
+* **PDF**: Tillåter användare att lägga till PDF-filer
 * **Videor**: Tillåter användare att lägga till videofiler.
 
 +++
 
-Så här lägger du till bilder, PDF eller videofilmer:
+Så här lägger du till bilder, PDF-filer eller videofilmer:
 
 1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
@@ -853,7 +853,7 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
        <p>Du måste definiera filtret för det referensfält som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Redigera ett filter i textläge</a>.</p>
        <p><b>OBS</b>:
        <ul> 
-        <li>Filteralternativet är bara tillgängligt när du refererar till ett inbyggt typsnittsfält, till exempel Portfolio, Företag eller Ägare.</li>
+        <li>Filteralternativet är bara tillgängligt när du refererar till ett inbyggt typsnittsfält, som Portfolio, Company eller Owner.</li>
         <li>Om du redigerar ett befintligt anpassat formulär tas inga objekt (utanför filteromfånget) som användare redan har lagt till med fältet bort när du lägger till ett filter i ett internt fält.</li> 
         <li>Filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett internt fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
         </ul></p></td> 
@@ -903,7 +903,7 @@ Lägga till en Adobe XD-fil:
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>(Obligatoriskt) Skriv eller klistra in en giltig XD prototyplänk.</p> 
+      <td> <p>(Obligatoriskt) Skriv eller klistra in en giltig XD-prototyplänk.</p> 
       <p>Obs! Inställningen Länkåtkomst på fliken Dela i Adobe XD måste vara inställd på Vem som helst med länken. Annars kan användarna inte visa prototypen. 
    </td> 
      </tr> 
@@ -987,7 +987,7 @@ Så här lägger du till ett planeringsanslutningsfält:
       Du kan välja mellan följande objekttyper:
       <ul><li> Projekt</li>
       <li> Portfolio</li><li> Program</li><li> Företag</li><li> Grupp</li></ul>
-       <p>Endast Workfront objekttyper för formulärets objekttyper är tillgängliga.</p> <p> Om exempelvis listan Objekttyper längst upp i formulärdesignern visar Projekt, kan du bara välja Projekt i det här fältet och du inte kan välja Portfolio, även om portföljer också kan kopplas till posttyper.</p>
+       <p>Endast Workfront objekttyper för formulärets objekttyper är tillgängliga.</p> <p> Om t.ex. listan Objekttyper längst upp i formulärdesignern visar Projekt, kan du bara välja Projekt i det här fältet och du kan inte välja Portföljer, även om portföljer också kan kopplas till posttyper.</p>
       </td>
      </tr>
      <tr> 

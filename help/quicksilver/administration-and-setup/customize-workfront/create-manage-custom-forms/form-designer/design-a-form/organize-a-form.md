@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan ordna ett anpassat formulär med formulärdesignern och förhandsgranska 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,15 +133,15 @@ Mer information om anpassade fält och widgetar i anpassade formulär finns i [S
 
 Behörigheten för begränsad redigering för anpassade formuläravsnittsbrytningar är bara tillgänglig för objekttyperna Projekt, Aktivitet, Utgåva och Användare.
 
-Om du lägger till en annan objekttyp i formuläret (Portfolio, Program, Dokument, Företag, Faktureringspost, Iteration, Expense eller Grupp) i ett anpassat formulär med en avsnittsbrytning som är konfigurerad med behörigheten Begränsad redigering, uppmanas du att växla till behörigheten Redigera, som är kompatibel med både den objekttypen och de befintliga objekttyperna i formuläret.
+Om du lägger till en av de andra objekttyperna i formuläret (Portfolio, Program, Dokument, Företag, Faktureringspost, Iteration, Expense eller Grupp) i ett anpassat formulär med en avsnittsbrytning som är konfigurerad med behörigheten Begränsad redigering, uppmanas du att växla till behörigheten Redigera, som är kompatibel med både den objekttypen och de befintliga objekttyperna i formuläret.
 
 >[!INFO]
 >
 >**Exempel:** I ett anpassat formulär som är associerat med projektobjekttypen konfigureras en avsnittsbrytning med behörigheten Begränsad redigering.
 >
->Du lägger till objekttypen Portfolio i formuläret, vilket innebär att behörighetsalternativet Begränsad redigering inte längre är tillgängligt för avsnittsbrytningen i formuläret.
+>Du lägger till Portfolio-objekttypen i formuläret, vilket innebär att behörighetsalternativet Begränsad redigering inte längre är tillgängligt för avsnittsbrytningen i formuläret.
 >
->Ett meddelande på skärmen uppmanar dig att växla till behörigheten Redigera, som är den lägsta behörighetsnivån som är kompatibel med både objekttypen och objekttypen Portfolio.
+>Ett meddelande på skärmen uppmanar dig att växla till behörigheten Redigera, som är den lägsta behörighetsnivån som är kompatibel med både objekttypen och Portfolio-objekttypen.
 
 
 ## Placera anpassade fält och widgetar i ett anpassat formulär

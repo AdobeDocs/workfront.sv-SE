@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Mer information om användare som uppdaterar sina egna profiler finns i [Konfigu
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +100,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
         <p>Om du är gruppadministratör och har behörigheten Användaradministratör (alla användare) aktiverad på din åtkomstnivå kan du redigera &lt;SSO-konfiguration&gt;-fälten för alla användare.</p> </li> 
         <li><b>Jobbinformation:</b> Information om jobbet, t.ex. jobbtiteln (i fältet <b>Titel</b>) och vilket expertområde användaren ansvarar för (i fältet <b>Tala med mig om</b>).</li> 
         <li><p><b>Kontaktinformation</b>: Användarens telefonnummer (i telefonnumret <b>Ext).</b> och <b>Mobile number</b> (fält) och adress (i fälten <b>Address, City, State, Postal Code, Country</b> ).</p>
-        <p>Om användaren har aktiverats för Unified User Management (UUM) eller Adobe Identity Management System (IMS), godtar fältet <b>Country</b> i avsnittet Kontaktinformation bara landskodsvärden (till exempel US, GB, IN).</p></li>
+        <p>Om användaren har aktiverats för Unified User Management (UUM) eller Adobe Identity Management System (IMS), godtar fältet <b>Country</b> i avsnittet Kontaktinformation bara landskodsvärden (till exempel USA, GB, IN).</p></li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -110,7 +110,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <li> <p><b>Tidszon:</b> Användarens tidszon.</p> <p>Mer information om hur du kan hjälpa användare att samarbeta i Workfront över tidszoner finns i <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeta över tidszoner</a>.</p> </li>
 
    <li><p><b>Språk för e-post</b>: Användarens rekommenderade e-postspråk. Detta påverkar formatet för siffror och datum i e-postmeddelanden som kommer från Workfront till den här användaren.</p>
-      <p><b>Obs!</b> När din organisation använder Adobe Unified Experience lagras användarens språkinställningar i Adobe-profilen och e-postspråket används inte. Mer information om hur du får åtkomst till de här inställningarna finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
+      <p><b>Obs!</b> När din organisation använder Adobe Unified Experience lagras användarens språkinställningar i sin Adobe-profil och e-postspråkinställningen används inte. Mer information om hur du använder de här inställningarna finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
 
    <li><b>Ta emot e-postmeddelanden från den här testmiljön</b>: Markera det här alternativet om du vill ta emot e-postmeddelanden från miljön som du är inloggad i.
       <p><b>ANMÄRKNING</b></p>
