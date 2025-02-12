@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Skapa en portfölj
-description: Ett Portfolio är en samling projekt som konkurrerar om samma resurser, budget och tidsplan. Projekten i Portfolio är tillräckligt lika så att de skulle använda samma resurspool och mätas mot samma styrkort.
+description: En Portfolio är en samling projekt som konkurrerar om samma resurser, budget och tidsplan. Projekten i en Portfolio är tillräckligt lika så att de skulle använda samma resurspool och mätas mot samma styrkort.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 7/2024-->
 
-Ett Portfolio är en samling projekt som konkurrerar om samma resurser, budget och tidsplan. Projekten i Portfolio är tillräckligt lika så att de skulle använda samma resurspool och mätas mot samma styrkort.
+En Portfolio är en samling projekt som konkurrerar om samma resurser, budget och tidsplan. Projekten i en Portfolio är tillräckligt lika så att de skulle använda samma resurspool och mätas mot samma styrkort.
 
-Du kan använda Portfolio för att gruppera projekt som tillhör samma produktlinjer, avdelningar, avdelningar, företag eller andra affärsenheter.
+Du kan använda portföljer för att gruppera projekt som tillhör samma produktlinjer, avdelningar, avdelningar, företag eller andra affärsenheter.
 
 ## Åtkomstkrav
 
@@ -40,7 +40,7 @@ Du kan använda Portfolio för att gruppera projekt som tillhör samma produktli
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till Portfolio</p>  </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till portföljer</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,7 +57,7 @@ Du kan använda Portfolio för att gruppera projekt som tillhör samma produktli
 
 Du kan skapa portföljer i Workfront på något av följande sätt:
 
-* Skapa en portfölj från början i området Portfolio på huvudmenyn. I den här artikeln beskrivs hur du kan skapa en portfölj från grunden.
+* Skapa en portfölj från början i portföljområdet på huvudmenyn. I den här artikeln beskrivs hur du kan skapa en portfölj från grunden.
 
 * Importera en portfölj med hjälp av snabbstarter.
 
@@ -86,7 +86,7 @@ Du kan skapa portföljer i Workfront på något av följande sätt:
 
 1. (Valfritt) Klicka på namnet under **[!UICONTROL Portfolio Manager]** i sidhuvudet högst upp på sidan om du vill tilldela en annan portföljförvaltare.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolio-hanterarnamn](assets/portfolio-manager-name-350x51.jpg)
 
    Som skapare av portföljen tilldelas du som standard som portföljförvaltare.
 
@@ -125,7 +125,7 @@ Du kan skapa portföljer i Workfront på något av följande sätt:
 
 1. (Valfritt) Klicka på **[!UICONTROL Projects]** i den vänstra panelen och sedan på **[!UICONTROL Add Projects]** för att lägga till projekt i portföljen.
 
-   Mer information om hur du lägger till projekt i en Portfolio finns i [Lägg till projekt i en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+   Mer information om hur du lägger till projekt i en Portfolio finns i [Lägga till projekt i en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -2,14 +2,14 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Översikt över Portfolio Optimizer-poängen
-description: Poängen Portfolio Optimizer finns i Portfolio Optimizer. Den visas i kolumnen [!UICONTROL Score] för varje projekt. Detta representerar ett poängtal för varje projekt i portföljen.
+title: Översikt över Portfolio Optimizer Score
+description: Du hittar poängen för Portfolio Optimizer i Portfolio Optimizer. Den visas i kolumnen [!UICONTROL Score] för varje projekt. Detta representerar ett poängtal för varje projekt i portföljen.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Du hittar [!UICONTROL Portfolio Optimizer]-poängen i [!UICONTROL Portfolio Opti
 
 Mer information om hur du hittar [!UICONTROL Portfolio Optimizer] finns i artikeln [[!UICONTROL Portfolio Optimizer] overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-Mer information om hur [!DNL Adobe Workfront] använder projektbakgrundsmusik och annan projektinformation för att optimera projekt i [!UICONTROL Portfolio Optimizer] finns i [Optimera projekt i Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+Mer information om hur [!DNL Adobe Workfront] använder projektbakgrundsmusik och annan projektinformation för att optimera projekt i [!UICONTROL Portfolio Optimizer] finns i [Optimera projekt i Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
 ## Skillnad mellan [!UICONTROL Alignment Score] och [!UICONTROL Portfolio Optimizer Score]
 
@@ -32,9 +32,9 @@ Justeringspoängen för ett projekt beräknas utifrån de poäng som erhålls n�
 
 Justeringspoängen för ett projekt visas i kolumnen **[!UICONTROL Alignment]** i [!UICONTROL Portfolio Optimizer] eller i fältet [!UICONTROL Alignment] i [!UICONTROL Business Case Summary].
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![Sammanfattning av affärsfall](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![Projektjusteringspoäng](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 Mer information om hur du genererar justeringspoäng för ett projekt finns i artikeln [Använda ett styrkort för ett projekt och generera en justeringspoäng](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
@@ -44,7 +44,7 @@ Mer information om hur du genererar justeringspoäng för ett projekt finns i ar
 >
 >Ett projekt kan bara poängsättas i [!UICONTROL Portfolio Optimizer] om dess affärsärende har slutförts. Mer information om hur du slutför ett affärsärende finns i artikeln [[!UICONTROL Create a Business Case] för ett projekt ](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![Projektpoäng](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 Poängen för varje projekt beräknas utifrån vikten av följande kategorier:
 
@@ -87,7 +87,7 @@ Följande kriterier kan användas för att göra ett projekt poäng:
 * [!UICONTROL Risk to Benefit]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![Alternativ för glidande värde](assets/optimizer-sliding-value-options-350x77.png)
 
 Mer information om hur du optimerar projekt i portföljen finns i [Optimera projekt i [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 

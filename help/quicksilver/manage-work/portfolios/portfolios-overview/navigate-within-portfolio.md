@@ -6,9 +6,9 @@ description: Navigera i en portfölj
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p>  </td> 
+   <td> <p>[!UICONTROL Edit] tillgång till projekt och portföljer</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -60,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Navigera i en portfölj
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
 
 1. Klicka på [!UICONTROL Portfolios].
 1. Välj följande i listrutan **[!UICONTROL Filter]**:
@@ -68,8 +68,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * **[!UICONTROL Portfolios I Own]**: Innehåller en lista över portföljer som du har utsetts till [!UICONTROL Portfolio Manager] för.
    * **[!UICONTROL All]**: Inkluderar alla portföljer som du har åtminstone åtkomst till Visa för.
 
-     Mer information om åtkomst till Portfolio finns i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
-Mer information om behörigheter till Portfolio finns i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+     Mer information om åtkomst till portföljer finns i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Mer information om behörigheter till portföljer finns i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Mer information om hur du lägger till nya portföljer finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -109,17 +109,17 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
 1. (Valfritt) Klicka på **[!UICONTROL Portfolio Optimization]** i den vänstra panelen för att optimera portföljens prestanda.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio-optimering med projekt](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
    >Ditt företag måste ha en [!UICONTROL Business]-plan eller en senare [!DNL Workfront]-plan för att få tillgång till [!UICONTROL Portfolio Optimizer].
 
-   Mer information om hur du använder Optimera för Portfolio finns i avsnittet [Hantera projekt i Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
+   Mer information om hur du använder Portfolio Optimizer finns i avsnittet [Hantera projekt i Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att bifoga dokument till portföljen.
 1. (Valfritt) Klicka på **[!UICONTROL Updates]** i den vänstra panelen för att lägga till kommentarer i portföljens uppdateringsström. Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Valfritt) Klicka på **[!UICONTROL More]-menyn** ![](assets/qs-more-icon-on-an-object.png) om du vill göra något av följande:
+1. (Valfritt) Klicka på **[!UICONTROL More]-menyn** ![Mer-menyn](assets/qs-more-icon-on-an-object.png) om du vill göra något av följande:
 
    * Inaktivera portföljen. När en portfölj inaktiveras kan du inte längre koppla den till projekt på projektnivå.
    * Ta bort portföljen.
@@ -130,4 +130,4 @@ Mer information om program finns i avsnittet [Skapa och hantera program](../../.
 
    * Dela portföljen med andra användare.
 
-1. (Valfritt) Klicka på ikonen **Stjärna** ![](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.
+1. (Valfritt) Klicka på ikonen **Stjärna** ![Stjärna ](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.

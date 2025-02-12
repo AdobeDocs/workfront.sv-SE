@@ -6,9 +6,9 @@ description: Gantt-scheman i Adobe Workfront ger en visuell representation av ti
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,9 @@ Så här kommer du åt uppgiftslistan [!UICONTROL Gantt Chart] för ett projekt 
    * En aktivitet eller malluppgift och klicka sedan på [!UICONTROL **Underaktiviteter**] i den vänstra panelen.
    * En uppgiftsrapport
 
-1. Klicka på ikonen [!UICONTROL **Gantt**] ![](assets/gantt-icon-nwe.png) högst upp i uppgiftslistan.
+1. Klicka på ikonen [!UICONTROL **Gantt**] ![Gantt](assets/gantt-icon-nwe.png) högst upp i uppgiftslistan.
 
-   ![](assets/task-list-gantt.png)
+   ![Gantt för uppgiftslista](assets/task-list-gantt.png)
 
    Uppgiftslistan [!UICONTROL Gantt Chart] öppnas till höger om uppgiftslistan.
 
@@ -114,7 +114,7 @@ Så här kommer du åt projektlistan [!UICONTROL Gantt Chart]:
 
 1. Klicka på ikonen [!UICONTROL **Gantt**] längst upp i projektlistan.
 
-   ![](assets/project-list-gantt.png)
+   ![Projektlista - Gantt](assets/project-list-gantt.png)
 
    Projektlistan [!UICONTROL Gantt Chart] öppnas.
 

@@ -6,9 +6,9 @@ description: I Gantt-schemat för uppgiftslistan visas information om aktivitete
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 1. Gå till det projekt som du vill ändra.
 1. Klicka på **[!UICONTROL Tasks]** i den vänstra panelen.
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![Aktivitetsområdet](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. Klicka på ikonen **[!UICONTROL Gantt chart]**.
 
@@ -73,7 +73,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Plan mode]** och välj **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manuell inställning har aktiverats](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Håll pekaren över tidslinjen för en uppgift och dra tidslinjen till ett annat datum.
 1. Släpp indikatorn när du har nått rätt nya slutförandedatum för uppgiften.
@@ -103,7 +103,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Plan mode]** och välj **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manuell inställning har aktiverats](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Om du vill skapa en föregående relation klickar du på startpunkten för en uppgift och drar den till slutpunkten för uppgiften.
 1. Om du vill ta bort en föregående relation klickar du på en föregående rad som ansluter två åtgärder för att markera den och trycker sedan på **[!UICONTROL Delete]** på tangentbordet.\
@@ -135,7 +135,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Plan mode]** och välj **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manuell inställning har aktiverats](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Håll muspekaren över mitten av uppgiften och leta upp pilen som löper i flera riktningar.
 1. Klicka och dra aktiviteten till önskat datum.

@@ -6,9 +6,9 @@ description: Ändra användartilldelningar för flera utgåvor i en lista
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Allmän information om hur du tilldelar problem finns i [Översikt över hur du 
 
 >[!NOTE]
 >
->Du måste ha minst Contribute-behörighet för ett problem för att kunna göra tilldelningar av problemet.
+>Du måste ha minst Contribute-behörighet för ett problem för att kunna göra tilldelningar av det.
 
 ## Åtkomstkrav
 
@@ -54,7 +54,7 @@ Allmän information om hur du tilldelar problem finns i [Översikt över hur du 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter eller högre till det projekt eller den uppgift där problemet finns, när flera utgåvor tilldelas.</p>  </td> 
+   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter eller högre till det projekt eller den uppgift där problemet finns, när du tilldelar flera utgåvor.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ Allmän information om hur du tilldelar problem finns i [Översikt över hur du 
    1. Börja skriva namnet på den användare eller roll som du vill filtrera efter och klicka sedan på namnet när det visas i listrutan.
    1. Klicka på **Spara filter.**
 
-1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![](assets/qs-edit-icon.png) .
+1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) .
 
    **Redigera problem** visas. De redigerade objekten visas i det övre vänstra hörnet på sidan.
 
 1. Gå till avsnittet **Uppdrag** och välj sedan **Tilldelad**.
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Uppdragsområde](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. Gör något av följande:
 

@@ -6,9 +6,9 @@ description: Om du måste göra mer för att slutföra ett problem efter att utg
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter för utgåvan</p> <p>Contribute behörigheter till projektet</p> <p>Du får behörigheten Hantera för uppgiften när problemet har konverterats</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter för utgåvan</p> <p>Contribute-behörigheter till projektet</p> <p>Du får behörigheten Hantera för uppgiften när problemet har konverterats</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på det problem du vill konvertera för att gå till problemets startsida.
 1. Klicka på menyn [!UICONTROL **Mer**] i problemet och sedan på [!UICONTROL **Konvertera till aktivitet**].
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menyn Mer om problem](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Uppdatera aktivitetsnamnet i avsnittet [!UICONTROL Task Name]. Som standard får aktiviteten samma namn som den ursprungliga utgåvan.
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![Konvertera till aktivitetsruta](assets/convert-to-task-box-nwe.png)
 
 1. Klicka på [!UICONTROL **Målprojekt**] och börja sedan skriva namnet på projektet där du vill placera den nya aktiviteten i fältet [!UICONTROL **Målprojekt**] och markera den när den visas i listan. Utgåvans projekt är valt som standard.
 

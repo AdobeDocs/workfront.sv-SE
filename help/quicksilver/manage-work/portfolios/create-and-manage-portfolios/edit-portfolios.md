@@ -1,14 +1,14 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Redigera Portfolio
+title: Redigera portföljer
 description: Du kan redigera information om portföljer som du har skapat eller som andra användare har skapat om de har delat dem med dig. I den här artikeln beskrivs hur du kan söka efter, söka efter och redigera en portfölj, om du har behörighet att göra det.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller redigera port
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till Portfolio</p>  </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till portföljer</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -59,7 +59,7 @@ Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller redigera port
 1. Klicka på namnet på en portfölj för att öppna den.
 1. (Valfritt) Om du vill redigera begränsad information om portföljen klickar du på **[!UICONTROL Portfolio Details]** i den vänstra panelen.
 
-   ![](assets/portfolio-details-tab-nwe-350x163.png)
+   ![Fliken Portfolio-information](assets/portfolio-details-tab-nwe-350x163.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -72,18 +72,18 @@ Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller redigera port
    Så här redigerar du information i avsnittet [!UICONTROL Details]:
 
    1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse All]** i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på den **högerriktade pilen** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Om du vill ha information om de fält som visas i avsnittet [!UICONTROL Portfolio Details] kan du fortsätta redigera portföljen i rutan [!UICONTROL Edit Portfolio] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till portföljen börjar du skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]**, markerar det när det visas i listan och klickar sedan på **[!UICONTROL Save Changes]**.
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Ökning
       * Namnet på ett eller flera anpassade formulär
 
-      PDF-filen hämtas till datorn.
+      PDF-filen hämtas till din dator.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Exportera portföljinformation](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -100,14 +100,14 @@ Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller redigera port
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * Gå till en lista med portföljer och välj en eller flera portföljer som du vill redigera. Klicka sedan på ikonen **[!UICONTROL Edit]** ![](assets/edit-icon.png) högst upp i listan.
+   * Gå till en lista med portföljer och välj en eller flera portföljer som du vill redigera. Klicka sedan på ikonen **[!UICONTROL Edit]** ![Redigera](assets/edit-icon.png) högst upp i listan.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
    Dialogrutan **[!UICONTROL Edit Portfolio]** visas.
 
-   ![](assets/edit-portfolio-box-classic-350x224.png)
+   ![Redigera portföljruta](assets/edit-portfolio-box-classic-350x224.png)
 
    Alla portföljfält är tillgängliga i rutan [!UICONTROL Edit Portfolio] och grupperas efter de områden som visas i den vänstra panelen.
 
@@ -155,7 +155,7 @@ Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller redigera port
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
-      <td> <p>Välj det justeringskort som du vill använda i listrutan. Ett styrkort används för att mäta hur väl ett projekt överensstämmer med de fastställda kriterierna för ett Portfolio som ofta återspeglar en organisations uppdrag, värderingar och strategiska mål. Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Använda ett styrkort i ett projekt och generera ett justeringsresultat</a> och <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Skapa ett styrkort</a>.</p> </td> 
+      <td> <p>Välj det justeringskort som du vill använda i listrutan. Ett styrkort används för att mäta hur väl ett projekt överensstämmer med de fastställda kriterierna för en Portfolio som ofta återspeglar en organisations uppdrag, värderingar och strategiska mål. Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Använda ett styrkort i ett projekt och generera ett justeringsresultat</a> och <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Skapa ett styrkort</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
@@ -184,7 +184,7 @@ Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller redigera port
 1. Börja redigera en portfölj enligt beskrivningen ovan.
 1. Klicka på **[!UICONTROL Comment]**.
 
-   ![](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![Redigera portföljkommentarsruta](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. Lägg till en kommentar i fältet **[!UICONTROL Post an update to the portfolio]**.
 1. (Valfritt) Klicka på ikonen **[!UICONTROL People]** för att lägga till en användare eller ett team i kommentaren.

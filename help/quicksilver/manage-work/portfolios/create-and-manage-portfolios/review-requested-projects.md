@@ -6,9 +6,9 @@ description: Projektbegäranden visas som projekt med statusen [!UICONTROL Reque
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL View] behörighet eller högre till Portfolio</p> <p>[!UICONTROL Edit] behörighet till projekt</p>  </td> 
+   <td> <p>[!UICONTROL View] åtkomst eller senare till portföljer</p> <p>[!UICONTROL Edit] behörighet till projekt</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -77,7 +77,7 @@ Mer information om hur du godkänner projektbegäranden genom att skapa en proje
 
    >[!TIP]
    >
-   > Förutom statusen **[!UICONTROL Requested]** måste projekt associeras med det markerade Portfolio som ska visas i den här listan.
+   > Förutom statusen **[!UICONTROL Requested]** måste projekt associeras med den valda Portfolio som ska visas i den här listan.
 
 1. Klicka på namnet på ett projekt i listan för att öppna det.
 1. Klicka på **[!UICONTROL Project Details]** i den vänstra panelen.
@@ -99,7 +99,7 @@ Mer information om hur du godkänner projektbegäranden genom att skapa en proje
 
    * Ändra status för projektet till någon annan status i listrutan **[!UICONTROL Status]**.
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![Ändra projektstatus i listrutan](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

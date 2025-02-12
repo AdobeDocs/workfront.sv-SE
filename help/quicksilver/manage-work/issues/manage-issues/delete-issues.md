@@ -6,9 +6,9 @@ description: Du kan ta bort problem eller förfrågningar i Adobe Workfront om d
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute eller högre behörighet för projektet eller uppgiften</p> <p> Mer information om att bevilja behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a></p> </td> 
+   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute eller högre behörighet för projektet eller aktiviteten</p> <p> Mer information om att bevilja behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ Beroende på hur din Workfront- eller gruppadministratör konfigurerar inställn
 1. Klicka på **Projekt**.
 1. Klicka på projektnamnet som innehåller de problem som du vill ta bort.
 1. Klicka på **Problem** i den vänstra panelen.
-1. Markera ett problem och klicka sedan på ikonen **Ta bort** ![](assets/delete.png) högst upp i listan.
+1. Markera ett problem och klicka sedan på ikonen **Ta bort** ![Ta bort](assets/delete.png) överst i listan.
 
 1. Om borttagning tillåts klickar du på **Ja och tar bort den**.\
    Din Workfront-administratör kanske inte tillåter borttagning av problem där timmar är loggade.\
@@ -123,12 +123,12 @@ Beroende på hur din Workfront- eller gruppadministratör konfigurerar inställn
 1. Klicka på projektnamnet som innehåller problemet som du vill ta bort.
 1. Klicka på **Problem** i den vänstra panelen.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Ärendeikon](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Klicka på namnet på det problem som du vill ta bort.
 1. Klicka på menyn **Mer** till höger om problemets namn.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menyn Mer om problem](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klicka på **Ta bort problem**.
 1. Om borttagning tillåts klickar du på **Ja och tar bort den**.

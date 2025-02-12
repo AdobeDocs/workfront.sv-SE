@@ -6,9 +6,9 @@ description: Du kan ta bort ett projekt från en portfölj och associera det med
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Du kan också ta bort projekt från en portfölj som också tar bort dem från [
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>[!UICONTROL Edit] behörighet till Portfolio</p>  </td> 
+   <td> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>[!UICONTROL Edit] åtkomst till portföljer</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,12 +56,12 @@ Du kan också ta bort projekt från en portfölj som också tar bort dem från [
 
 ## Ta bort ett projekt från en portfölj
 
-1. Gå till Portfolio och klicka på **[!UICONTROL Projects]** i den vänstra panelen.
+1. Gå till en Portfolio och klicka på **[!UICONTROL Projects]** i den vänstra panelen.
 1. Välj det projekt som ska tas bort. 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![Knappen Ta bort projekt](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Klicka på **[!UICONTROL Remove Projects]**.
-1. Klicka på **[!UICONTROL Delete]** om du vill ta bort projektet från [!DNL Workfront] eller **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** om du vill ta bort det från den markerade Portfolio.
+1. Klicka på **[!UICONTROL Delete]** om du vill ta bort projektet från [!DNL Workfront] eller **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** om du vill ta bort det från den valda Portfolio-filen.
 
 1. (Valfritt och villkorligt) Hitta det projekt som du har tagit bort från portföljen och koppla det till en annan portfölj. Mer information om hur du associerar projekt med portföljer finns i [Lägga till projekt i en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).

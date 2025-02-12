@@ -5,9 +5,9 @@ description: Aktivitetslistan Gantt Chart och Project list Gantt Chart innehåll
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Så här visar du uppgifter i ett projekt från en lista med projekt:
 
    En lista med projekt visas.
 
-1. Klicka på ikonen **[!UICONTROL Gantt chart]** ![](assets/gantt-icon-nwe.png) i skärmens övre högra hörn.
+1. Klicka på ikonen **[!UICONTROL Gantt chart]** ![Gantt ](assets/gantt-icon-nwe.png) i skärmens övre högra hörn.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ Du kan justera tidsperioden som visas på [!UICONTROL Gantt Chart] om du vill vi
 
 1. Klicka på listrutan för tidsbildrutor i [!UICONTROL Gantt Chart].
 
-   ![](assets/timeline-options.png)
+   ![Tidslinjealternativ](assets/timeline-options.png)
 
 1. Välj en tidsram bland följande tillgängliga alternativ:
 
@@ -156,7 +156,7 @@ Filter och grupperingar som du tillämpar på listan återspeglas både i projek
    Grupperingar som du tillämpar på listan återspeglas på [!UICONTROL Gantt Chart].\
    Mer information om hur du använder en gruppering finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Vyer visas inte på [!UICONTROL Gantt Chart]. När du exporterar [!UICONTROL Gantt Chart] (enligt beskrivningen i [ Exportera [!UICONTROL Gantt Chart] till PDF ](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) exporteras uppgiftslistan förutom [!UICONTROL Gantt chart], med den aktuella vyn tillämpad på listan.
+Vyer visas inte på [!UICONTROL Gantt Chart]. När du exporterar [!UICONTROL Gantt Chart] (enligt beskrivningen i [ Exportera [!UICONTROL Gantt Chart] till PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) exporteras uppgiftslistan förutom [!UICONTROL Gantt chart], med den aktuella vyn tillämpad på listan.
 
 ## Konfigurera visningsalternativ
 

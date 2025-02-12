@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Att tilldela ärenden och uppgifter är detsamma som i Adobe Workfront. Allmän 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p> Visa behörigheter eller högre för det projekt eller den uppgift där problemet finns, när du tilldelar ett problem</p><p>Contribute-behörigheter eller högre till det projekt eller den uppgift där problemet finns, när flera utgåvor tilldelas.</p> </td> 
+   <td> <p>Hantera behörigheter för problemet</p> <p> Visa behörigheter eller högre för det projekt eller den uppgift där problemet finns, när du tilldelar ett problem</p><p>Contribute-behörigheter eller högre till det projekt eller den uppgift där problemet finns, när du tilldelar flera utgåvor.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ Så här tilldelar du utgåvor i en lista:
 
    * Klicka i fälten **Tilldelad till** eller **Tilldelad** och börja skriva namnet på en aktiv användare som du vill tilldela utgåvan och klicka sedan på den när den visas i listan.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![Tilldelad till fält](assets/assigned-to-field-task-list-nwe.png)
 
    * Klicka i fältet **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller aktivt team som du vill tilldela utgåvan. Klicka sedan på den när den visas i listan.
 
@@ -181,7 +181,7 @@ Så här tilldelar du utgåvor i en lista:
    >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Villkorligt) När den visas i fältet Uppdrag klickar du på ikonen **Personer** ![](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Villkorligt) När den visas i fältet Uppdrag klickar du på ikonen **Personer** ![Personer](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ Så här tilldelar du utgåvor i en lista:
 
 1. Gå till en lista över problem som du vill tilldela gruppvis.
 1. Markera flera problem i listan.
-1. Klicka på ikonen **Redigera** ![](assets/qs-edit-icon.png).
+1. Klicka på ikonen **Redigera** ![Redigera](assets/qs-edit-icon.png).
 
    Dialogrutan **Redigera problem** öppnas.
 

@@ -6,9 +6,9 @@ description: Du kan använda [!UICONTROL Portfolio Optimizer] för att prioriter
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p> </td> 
+   <td> <p>[!UICONTROL Edit] tillgång till projekt och portföljer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörighet till projekten</p> 
+   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörigheter för projekten</p> 
    <p>Du måste ha behörigheten Hantera för alla projekt i listan för att kunna använda <b>Ange projektprioritet</b>.</p>
     </td> 
   </tr> 
@@ -55,13 +55,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Optimera projekt i Portfolio Optimizer
 
-1. Öppna ett Portfolio och klicka sedan på **[!UICONTROL Portfolio Optimization]** i den vänstra panelen.
+1. Öppna en Portfolio och klicka sedan på **[!UICONTROL Portfolio Optimization]** i den vänstra panelen.
 
    [!UICONTROL Portfolio Optimizer] visas.
 
 1. Klicka på ikonen **[!UICONTROL Optimize]** .
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)
+   ![Ikonen Optimera](assets/optimize-icon-portfolio-optimizer.png)
 
    Kategorierna som ett projekt kan poängsättas med visas till vänster om ikonen [!UICONTROL Optimize].
 

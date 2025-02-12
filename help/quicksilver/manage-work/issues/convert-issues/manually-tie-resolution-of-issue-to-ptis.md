@@ -6,9 +6,9 @@ description: Du kan koppla en problemlösning manuellt till en lösning på ett 
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Innan du börjar måste du:
 1. Navigera till ett problem vars lösning du vill koppla till en lösning på ett annat problem eller till lösningen av en uppgift eller ett projekt.
 1. Klicka på **Utleveransinformation** i den vänstra panelen och utöka området **Översikt**.
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![Ikon för probleminformation](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Klicka på fältet **Löst av** och välj bland följande typer av matchande objekt:
 

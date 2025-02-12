@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ To create an issue on a task or a project:
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-   ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
+   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
    * If there is only one Queue Topic set on the project, it is displayed automatically.
    * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
@@ -163,7 +163,7 @@ Så här skapar du ett problem för en aktivitet eller ett projekt:
 1. Klicka på **Nytt problem** högst upp i listan över utgåvor.
 Rutan Nytt problem visas.
 
-   ![](assets/new-issue-box-matches-new-request-ui.png)
+   ![Ny utgåva](assets/new-issue-box-matches-new-request-ui.png)
 
 1. (Villkorligt) Om den som skapat projektet har skapat köämnen eller ämnesgrupper i projektet läggs de till i det nya utgivningsformuläret. Ange **ämnesgruppen** eller **köämnet** för det nya problemet. Ämnesgrupper och Köämnen har namn som är anpassade efter din miljö.\
    Mer information om hur du skapar ämnesgrupper finns i [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Mer information om hur du skapar köämnen finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -231,7 +231,7 @@ Så här skapar du interna utgåvor:
    >
    >Det här alternativet är nedtonat om inställningen Tillåt användare att lägga till interna utgåvor är avmarkerad i rutan Redigera projekt. Mer information finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![Knappen Lägg till fler problem](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. Börja skriva namnet på problemet i fältet Namn och fortsätt sedan att lägga till mer information om problemet.
 

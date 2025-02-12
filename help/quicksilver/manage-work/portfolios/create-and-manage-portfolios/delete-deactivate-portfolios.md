@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Ta bort och inaktivera portföljer
-description: Portfolio är samlingar av projekt eller program i Adobe Workfront. Du kan ta bort eller inaktivera en portfölj om du upptäcker att den inte är relevant för ditt system.
+description: Portföljer är samlingar av projekt eller program i Adobe Workfront. Du kan ta bort eller inaktivera en portfölj om du upptäcker att den inte är relevant för ditt system.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 2/2024-->
 
-Portfolio är samlingar av projekt eller program i [!DNL Adobe Workfront]. Du kan ta bort eller inaktivera en portfölj om du upptäcker att den inte är relevant för ditt system.
+Portföljer är samlingar av projekt eller program i [!DNL Adobe Workfront]. Du kan ta bort eller inaktivera en portfölj om du upptäcker att den inte är relevant för ditt system.
 
 Vi rekommenderar att du inaktiverar en portfölj som inte längre behöver kopplas till framtida projekt i stället för att ta bort den, för att behålla den historiska informationen om de projekt som för närvarande är kopplade till portföljen och dess program.
 
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p>  </td> 
+   <td> <p>[!UICONTROL Edit] tillgång till projekt och portföljer</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -81,12 +81,12 @@ När du inaktiverar en portfölj kan du fortfarande komma åt den från området
 
 1. Klicka på **[!UICONTROL Portfolios]** .
 1. Klicka på namnet på portföljen.
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
 
 ## Ta bort en portfölj
 
 {{step1-click-main-menu}}
 
 1. Klicka på **[!UICONTROL Portfolios]** .
-1. Markera portföljen och klicka sedan på **[!UICONTROL Delete]** &#x200B; ikonen [!UICONTROL Delete] ![](assets/delete.png) .
+1. Markera portföljen och klicka sedan på **[!UICONTROL Delete]** &#x200B; ikonen [!UICONTROL Delete] ![Ta bort ](assets/delete.png) .
 1. Bekräfta genom att klicka på **[!UICONTROL Yes, Delete It]**.

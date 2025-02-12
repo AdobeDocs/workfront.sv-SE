@@ -1,14 +1,14 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Leta reda på optimeraren för Portfolio
+title: Hitta Portfolio Optimizer
 description: Du kan hitta [!UICONTROL Portfolio Optimizer] när du öppnar en portfölj.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till Portfolio och projekt</p>  </td>
+   <td> <p>[!UICONTROL Edit] tillgång till portföljer och projekt</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -63,4 +63,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    [!UICONTROL Portfolio Optimizer] visas.
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio-optimering](assets/nwe-portfolio-optimizer-350x83.png)

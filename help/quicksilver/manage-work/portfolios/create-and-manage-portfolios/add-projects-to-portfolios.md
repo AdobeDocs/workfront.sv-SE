@@ -6,9 +6,9 @@ description: Vi rekommenderar att du lägger till projekt i portföljer när du 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Tänk på följande när du lägger till projekt i portföljer:
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] access Portfolio</p> <p>[!UICONTROL Edit] behörighet till projekt</p> </td> 
+   <td> <p>[!UICONTROL Edit] få tillgång till portföljer</p> <p>[!UICONTROL Edit] behörighet till projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -61,7 +61,7 @@ Tänk på följande när du lägger till projekt i portföljer:
 
 1. Gå till en portfölj och klicka sedan på **[!UICONTROL Projects]** i den vänstra panelen.
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio med projekt](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Klicka på **[!UICONTROL New Project]** och välj en metod för att lägga till ett projekt.
 
@@ -98,11 +98,11 @@ Tänk på följande när du lägger till projekt i portföljer:
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![Listrutan Nytt projekt](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Villkorligt) Om du valde att lägga till ett befintligt projekt börjar du skriva namnet på ett projekt i rutan **[!UICONTROL Add Projects]** och klickar sedan på dem när de visas i listan. Du kan lägga till flera projekt samtidigt.
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![Lägg till befintligt projekt](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. Klicka på **[!UICONTROL Add Projects]**.
 

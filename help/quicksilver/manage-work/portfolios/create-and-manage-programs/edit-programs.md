@@ -6,9 +6,9 @@ description: Du kan redigera information om program som du har skapat eller som 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Om du vill redigera all information om programmet går du till steg 4.
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![Programinformation med anpassat formuläravsnitt](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,30 +81,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Så här redigerar du information i avsnittet [!UICONTROL Details]:
 
    1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse All]** i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på den **högerriktade pilen** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Om du vill ha information om de fält som visas i avsnittet [!UICONTROL Program Details] kan du fortsätta redigera programmet i rutan [!UICONTROL Edit Program] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till programmet börjar du skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]**, markerar det när det visas i listan och klickar sedan på **[!UICONTROL Save Changes]**.
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * [!UICONTROL Overview]
       * Namnet på ett eller flera anpassade formulär
 
-      PDF-filen hämtas till datorn.
+      PDF-filen hämtas till din dator.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Exportera portföljinformation](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Om du vill redigera all information om ett eller flera program gör du något av följande:
 
-   * Klicka på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) bredvid programnamnet och &#x200B;**[!UICONTROL Edit].**
-   * Gå till en lista över program och välj ett eller flera program som du vill redigera. Klicka sedan på ikonen **[!UICONTROL Edit]** ![](assets/edit-icon.png) högst upp i listan.
+   * Klicka på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon.png) bredvid programnamnet och &#x200B;**[!UICONTROL Edit].**
+   * Gå till en lista över program och välj ett eller flera program som du vill redigera. Klicka sedan på ikonen **[!UICONTROL Edit]** ![Redigera](assets/edit-icon.png) högst upp i listan.
 
    Dialogrutan **[!UICONTROL Edit Program]** visas.
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![Redigera programruta](assets/edit-program-box-nwe-350x236.png)
 
    Alla programfält är tillgängliga i rutan [!UICONTROL Edit Program] och grupperas efter de områden som visas i den vänstra panelen.
 
@@ -177,7 +177,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Börja redigera ett program enligt beskrivningen ovan.
 1. Klicka på **[!UICONTROL Comment]**.
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![Rutan Kommentar i redigeringsprogramrutan](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. Lägg till en kommentar i fältet **[!UICONTROL Post an update to the program]**.
 1. (Valfritt) Klicka på ikonen **[!UICONTROL People]** för att lägga till en användare eller ett team i kommentaren.

@@ -1,14 +1,14 @@
 ---
-title: Prioritera projekt i Portfolio-optimering
+title: Prioritera projekt i Portfolio Optimizer
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 description: Du kan prioritera dina projekt i Portfolio Optimizer för att fastställa i vilken ordning de ska slutföras.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ Du kan prioritera dina projekt i [!UICONTROL Portfolio Optimizer] för att fasts
 
 Tänk på följande när du använder [!UICONTROL Portfolio Optimizer]:
 
-* Projekten högst upp i [!UICONTROL Portfolio Optimizer] anses viktigare än de som listas längst ned. Du måste slutföra projekten efter deras prioritet i [!UICONTROL Portfolio Optimizer] för att Portfolio ska kunna optimeras.
+* Projekten högst upp i [!UICONTROL Portfolio Optimizer] anses viktigare än de som listas längst ned. Du måste slutföra projekten i prioritetsordning i [!UICONTROL Portfolio Optimizer] för att Portfolio ska kunna optimeras.
 * Prioriteten för projekt i [!UICONTROL Portfolio Optimizer] är inte relaterad till fältet [!UICONTROL Priority] på fliken [!UICONTROL Project Details] i ett projekt.
 
   Fältet [!UICONTROL Priority] på fliken [!UICONTROL Project Details] är en visuell flagga som du anger manuellt för att förstå hur viktigt ett projekt ska vara.
 
-* Prioriteten för projekt i Portfolio-optimering visas i [!DNL Resource Planner], om den är aktiverad där. I [!DNL Resource Planner] får projekt resurser i den ordning de har [!UICONTROL Resource Planner] och inte i den ordning de har [!UICONTROL Portfolio Priority].
+* Prioriteten för projekt i Portfolio Optimizer visas i [!DNL Resource Planner], om den är aktiverad där. I [!DNL Resource Planner] får projekt resurser i den ordning de har [!UICONTROL Resource Planner] och inte i den ordning de har [!UICONTROL Portfolio Priority].
 
   Mer information om hur du prioriterar projekt i [!UICONTROL Resource Planner] finns i artikeln [Prioritera projekt i [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
@@ -51,11 +51,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p></td> 
+   <td> <p>[!UICONTROL Edit] tillgång till projekt och portföljer</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörighet till projekten</p> 
+   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörigheter för projekten</p> 
    <p>Du måste ha behörigheten Hantera för alla projekt i listan för att kunna använda <b>Ange projektprioritet</b>.</p>
     </td> 
   </tr> 
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ändra prioritet för projekten i [!UICONTROL Portfolio Optimizer]
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
 1. Klicka på **[!UICONTROL Portfolios]**.
 1. (Valfritt) Välj rätt filter i listrutan **[!UICONTROL Filter]** för att visa rätt lista över portföljer.
@@ -76,7 +76,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **[!UICONTROL Portfolio Optimization]** i den vänstra panelen.
 1. I området [!UICONTROL project optization] ändrar du prioriteten för dina projekt genom att dra projekten i prioritetsordning och sedan släppa till önskad visningsposition.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio-optimering med projekt](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Klicka på **[!UICONTROL Set Priority]** i projektoptimeringsområdet när du är klar med att ordna om dina projekt. Projekten får ett nytt nummer baserat på den nya ordern.
 

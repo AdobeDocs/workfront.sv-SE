@@ -6,9 +6,9 @@ description: Information om hur du jämnar ut resurser i Gantt-schemat.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Tänk på följande när du utjämnar resurser i ett projekt:
 * Föregående relationer har företräde framför resursutjämning.
 * **[!UICONTROL Resource Leveling]** måste anges till **[!UICONTROL Manual]** för projektet för att justera utjämningen i [!UICONTROL Gantt chart]. Om du har behörigheten Hantera för projektet kan du låta systemet automatiskt nivåindela resurser genom att justera den här inställningen för projektet och välja **[!UICONTROL Automatic]** i stället för **[!UICONTROL Manual]** i rutan **[!UICONTROL Edit Project]**.
 
-  ![](assets/resource-leveling-mode-350x177.png)
+  ![Resursutjämningsläge](assets/resource-leveling-mode-350x177.png)
 
 * Som projektägare, eller tilldelad uppgift, kan du ange en nivåfördröjning för en aktivitet för att ange att det finns en stor risk att aktiviteten behöver extra tid. Mer information om hur du lägger till en nivåfördröjning för en aktivitet finns i [Uppdatera aktivitetens nivåfördröjning](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -83,7 +83,7 @@ Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut dina 
    >
    >Du kan inte nivåindela resurser i [!UICONTROL Gantt Chart] när alternativet [!UICONTROL Autosave] är aktiverat.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manuell inställning har aktiverats](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Klicka på listrutan **[!UICONTROL Level Resources]**.
 

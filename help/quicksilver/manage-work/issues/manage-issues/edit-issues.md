@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2551'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute behörighet till ett problem för att redigera följande fält i området Detaljer: </p>
+   <td> <p>Contribute-behörighet för ett problem om du vill redigera följande fält i området Detaljer: </p>
    <ul>
    <li>Beskrivning</li>
    <li>Status</li>
@@ -74,7 +74,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. (Valfritt) Klicka på **Åtgärder** och sedan på namnet på en uppgift för att öppna uppgiften.
 1. Klicka på **Problem** i den vänstra panelen.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Ärendeikon](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Valfritt) Om du vill redigera begränsad information om ett problem klickar du på **Ärendeinformation** i den vänstra panelen.
 
@@ -85,17 +85,17 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    Så här redigerar du information i detaljavsnittet:
 
    1. (Valfritt) Klicka på ikonen **Komprimera alla** i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på den **högerriktade pilen** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
-   1. (Valfritt) Klicka på ikonen **Exportera** ![](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Ökning
       * Namnet på ett eller flera anpassade formulär
 
-      PDF-filen hämtas till datorn.
+      PDF-filen hämtas till din dator.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Exportera probleminformation](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -134,7 +134,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Börja redigera ett problem enligt beskrivningen ovan.
 1. Klicka på **Ärendenamn**.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![Utgåvans namnavsnitt](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Uppdatera fältet **Utgivningsnamn**.
 1. Klicka på **Spara** eller fortsätt redigera följande avsnitt.
@@ -144,7 +144,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Börja redigera ett problem enligt beskrivningen ovan.
 1. Klicka på **Översikt**.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![Översiktsavsnittet Problem](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Uppdatera eller granska något av fälten i följande tabell:
 
@@ -271,7 +271,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Börja redigera problemet enligt beskrivningen ovan.
 1. Klicka på **Uppdrag** i den vänstra panelen.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![Utfärda tilldelningsavsnitt](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Klicka på **Sök efter personer, roller och team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
 
@@ -322,7 +322,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Börja redigera ett problem enligt beskrivningen ovan.
 1. Klicka på **Anpassad Forms**.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![Utfärda eget formuläravsnitt](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. I fältet **Lägg till anpassat formulär** väljer du det eller de anpassade formulär som du vill associera med utgåvan. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Du kan lägga till upp till tio anpassade formulär i ett ärende.
 
@@ -339,7 +339,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Börja redigera ett problem enligt beskrivningen ovan.
 1. Klicka på **Inställningar**.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![Utfärdningsinställningsikon](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Uppdatera följande information:
 
@@ -383,7 +383,7 @@ Du kan redigera en begränsad mängd information i utgåvans huvud.
 
 Systemadministratören eller gruppadministratören kan anpassa fälten i utgåvans huvud. Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![](assets/issue-header-350x19.png)
+![Ärenderubrik](assets/issue-header-350x19.png)
 
 Följande fält inkluderas som standard i utgåvans rubrik:
 

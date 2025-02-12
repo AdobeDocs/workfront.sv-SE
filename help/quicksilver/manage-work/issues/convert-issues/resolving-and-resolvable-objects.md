@@ -7,9 +7,9 @@ description: Ett upplösningsbart objekt är ett problem vars upplösning är kn
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 0%
 
 ---
@@ -79,10 +79,10 @@ Beroende på hur Workfront eller gruppadministratören har konfigurerat inställ
 Följande scenarier finns:
 
 * Om Workfront- eller gruppadministratören har **Behåll det ursprungliga problemet och koppla dess upplösning till aktiviteten** och **Behåll det ursprungliga problemet och koppla dess upplösning till det valda projektet** och **Tillåt att de här inställningarna ändras vid konvertering** avmarkerat, kommer du inte att kunna ändra de här inställningarna när du konverterar problem till aktiviteter eller projekt.\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![Området med problem med projektinställningar](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Om Workfront- eller gruppadministratören har **Behåll det ursprungliga problemet och koppla dess upplösning till aktiviteten** och **Behåll det ursprungliga problemet och koppla dess upplösning till projektet**, antingen markerat eller omarkerat, och **Tillåt att dessa inställningar ändras när konverteringen** väljs, kan du ändra de här inställningarna när du konverterar problem till aktiviteter eller projekt.\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![Alternativ för att behålla utgåva](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Mer information om hur du konverterar problem till aktiviteter och projekt finns i [Översikt över hur du konverterar problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -202,7 +202,7 @@ Att hitta det matchande objektet är identiskt för uppgifter och projekt.
 
 I en lista med problem kan du identifiera problem som är märkta som att lösa objekt via statusikoner genom att leta upp den här ikonen i kolumnerna **Statusikoner** eller **Flaggor** :
 
-![](assets/ro1.png)
+![Löser objekt](assets/ro1.png)
 
 ## Visa information om objekt som kan lösas och lösas i en rapport
 

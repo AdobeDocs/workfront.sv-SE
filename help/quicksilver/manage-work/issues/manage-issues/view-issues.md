@@ -6,9 +6,9 @@ description: Du kan visa problem som är kopplade till ett projekt, en uppgift e
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Du kan lägga till ikoner i vyn för ett projekt, en uppgiftsrapport eller en li
 
 Så här lägger du till ikoner som visar om ett projekt har problem i en projektrapport:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 1. Klicka på **Rapportering** > **Ny rapport** > **Projektrapport**.
 1. I fältet **Visa i den här kolumnen** börjar du skriva **Statusikoner** och markerar den när den visas i listan.
 

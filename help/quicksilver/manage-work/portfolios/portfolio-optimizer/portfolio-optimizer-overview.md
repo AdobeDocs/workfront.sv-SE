@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio Optimizer] är det verktyg som används för
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1333'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!UICONTROL Portfolio Optimizer] är det verktyg som används för projektutvärdering och jämförelse. Gransknings- och jämförelseprocessen för [!UICONTROL Business Case]-värden för projekt som tilldelats en portfölj är hur en portföljförvaltare kan prioritera projekt och generera det högsta värdet för en organisation.
 
-![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![Portfolio-optimering med projekt](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 Syftet med [!UICONTROL portfolio optimizer] är att tillhandahålla ett gränssnitt genom vilket en portföljförvaltare, styrkommitté eller produktledning kan visa sammanfattande information om varje projekts affärsmodell. Projekten kan sedan prioriteras enligt strategiska värden och mål, eller enligt deras övergripande poäng.
 
@@ -49,7 +49,7 @@ Tänk på följande när du arbetar med ekonomi i [!UICONTROL Portfolio Optimize
 
 Du kan visa ekonomisk information i följande områden av [!UICONTROL Portfolio Optimizer]:
 
-* **[!UICONTROL Portfolio Header]**: I det här området visas ekonomisk information som samlats in från alla projekt i portföljen. Den visas på alla flikar i objektet Portfolio.
+* **[!UICONTROL Portfolio Header]**: I det här området visas ekonomisk information som samlats in från alla projekt i portföljen. Den visas på alla flikar i Portfolio-objektet.
 * **[!UICONTROL Portfolio Finances for Selected Projects]**: I det här området visas ekonomisk information som samlats in från de projekt som har valts i [!UICONTROL Portfolio Optimizer]. Du kan lägga till eller ta bort projekt och förstå hur detta påverkar portföljens ekonomi genom att visa informationen i det här området.
 * **[!UICONTROL Projects Finances]**: I det här området visas den ekonomiska informationen för varje projekt i [!UICONTROL Portfolio Optimizer].
 
@@ -62,7 +62,7 @@ Följande ekonomiska fält visas i [!UICONTROL Portfolio Optimizer]:
 
 #### Portfolio header {#portfolio-header}
 
-![](assets/portfolio-header-nwe-350x14.png)
+![Portfolio header](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] beräknar de ekonomiska fälten i portföljrubriken med hjälp av information från projekt med statusvärden som bara motsvarar [!UICONTROL Approved] eller [!UICONTROL Current].
 
@@ -86,7 +86,7 @@ Följande ekonomiska fält visas i [!UICONTROL Portfolio Optimizer]:
   </tr> 
   <tr> 
    <td>Räntabilitet (för portfölj)</td> 
-   <td> <p>[!UICONTROL Return on Investment] (ROI) för portföljen beräknas genom att ta hänsyn till totalt [!UICONTROL Benefit] för [!UICONTROL Portfolio] och totalt [!UICONTROL Budgeted Costs] för projekten. Detta visas från alla flikar i en portfölj.</p> <p>Portfolio ROI-värdet beräknas med följande formel:</p> <p><em>Portfolio ROI = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100</em> </p> <p>Mer information om hur avkastningen beräknas för ett projekt finns i artikeln <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Beräkna avkastning på investering (ROI)</a>.</p> </td> 
+   <td> <p>[!UICONTROL Return on Investment] (ROI) för portföljen beräknas genom att ta hänsyn till totalt [!UICONTROL Benefit] för [!UICONTROL Portfolio] och totalt [!UICONTROL Budgeted Costs] för projekten. Detta visas från alla flikar i en portfölj.</p> <p>Portfolio avkastningsvärde beräknas med följande formel:</p> <p><em>Portfolio ROI = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100</em> </p> <p>Mer information om hur avkastningen beräknas för ett projekt finns i artikeln <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Beräkna avkastning på investering (ROI)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aligned] eller [!UICONTROL Alignment Score] </td> 
@@ -101,7 +101,7 @@ Följande ekonomiska fält visas i [!UICONTROL Portfolio Optimizer]:
 
 #### Portfolio finanser för utvalda projekt {#portfolio-finances-for-selected-projects}
 
-![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![Portfolio finanser](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -128,7 +128,7 @@ Följande ekonomiska fält visas i [!UICONTROL Portfolio Optimizer]:
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>Den återstående budgeten efter alla [!UICONTROL Budgeted Costs] för alla projekt i portföljen har dragits av från portföljens budget.</p> <p>[!UICONTROL Remaining Portfolio Budget] beräknas med följande formel:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - totalt [!UICONTROL Budgeted Cost] för alla Portfolio-projekt </em> </p> <p>Den totala [!UICONTROL Budgeted Cost] för alla projekt i portföljen visas i indikatorfältet i budgetfältet. </p> <p>Mer information om hur du spårar kostnader för ett projekt finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
+   <td> <p>Den återstående budgeten efter alla [!UICONTROL Budgeted Costs] för alla projekt i portföljen har dragits av från portföljens budget.</p> <p>[!UICONTROL Remaining Portfolio Budget] beräknas med följande formel:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Totalt [!UICONTROL Budgeted Cost] för alla Portfolio-projekt </em> </p> <p>Den totala [!UICONTROL Budgeted Cost] för alla projekt i portföljen visas i indikatorfältet i budgetfältet. </p> <p>Mer information om hur du spårar kostnader för ett projekt finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 
@@ -161,7 +161,7 @@ Följande ikoner och alternativ är tillgängliga för [!UICONTROL Portfolio Opt
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Ikon i Portfolio-optimering</strong></td> 
+   <td><strong>Ikon i Portfolio Optimizer</strong></td> 
    <td><strong>Namn</strong></td> 
    <td><strong>Funktion</strong></td> 
   </tr> 

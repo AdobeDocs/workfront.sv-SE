@@ -6,9 +6,9 @@ description: Konvertera ett problem till ett projekt i Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -69,12 +69,12 @@ Du kan konvertera en utgåva till ett tomt projekt.
 1. Gå till ett projekt och klicka på **[!UICONTROL Issues]** i den vänstra panelen.
 1. Gör något av följande i listan med problem som visas:
 
-   * Om du vill konvertera ett ärende till ett tomt projekt klickar du på problemets namn, klickar på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) till höger om problemets namn och sedan på **[!UICONTROL Convert to a blank project]**.
+   * Om du vill konvertera ett problem till ett tomt projekt klickar du på problemets namn, **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon.png) till höger om problemets namn och sedan på **[!UICONTROL Convert to a blank project]**.
 
 
      eller
 
-     Välj problemet i listan med problem, klicka på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) högst upp i listan och klicka sedan på **[!UICONTROL Convert to a blank project]**.
+     Välj problemet i listan med problem, klicka på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon.png) överst i listan och klicka sedan på **[!UICONTROL Convert to a blank project]**.
 
      >[!IMPORTANT]
      >
@@ -122,7 +122,7 @@ Du kan konvertera en utgåva till ett tomt projekt.
    * Granska de anpassade formulären som är kopplade till problemet. De kommer att överföras till det nya projektet om de också är skräddarsydda projektformulär.
    * Lägga till fler anpassade formulär
    * Kontrollera att alla obligatoriska fält har giltig information.
-   * Ordna om de anpassade formulären genom att dra dem ![](assets/drag-object-icon.png) dit du vill ha dem.
+   * Ordna om de anpassade formulären genom att dra dem ![Dra ikonen](assets/drag-object-icon.png) där du vill ha dem.
    * Klicka på ikonen **x** till höger om ett formulär som du inte vill överföra till projektet. Detta tar bort formuläret från projektet.
    * Om det behövs kan du överföra anpassad formulärinformation från ärendet till projektet.
 
@@ -153,7 +153,7 @@ Du kan konvertera en utgåva till ett tomt projekt.
 Du kan konvertera ett ärende till ett projekt med hjälp av en mall.
 
 1. Gå till ett projekt och klicka på **[!UICONTROL Issues]** i den vänstra panelen.
-1. I listan med problem som visas klickar du på problemets namn, klickar på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) till höger om problemets namn, sedan på **Konvertera till projekt från mall** och börjar skriva namnet på en mall i rutan **Sökmall**. Klicka sedan på mallens namn när den visas i listan. Fortsätt med steg 3.
+1. Klicka på problemets namn i listan med problem som visas, klicka på menyn **[!UICONTROL More]** ![Mer](assets/more-icon.png) till höger om problemets namn, klicka sedan på **Konvertera till projekt från mall** och börja skriva namnet på en mall i rutan **Sökmall**. Klicka sedan på mallens namn när den visas i listan. Fortsätt med steg 3.
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ Du kan konvertera ett ärende till ett projekt med hjälp av en mall.
 
    Rutan Nytt projekt från mall visas.
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![Nytt projekt från mall](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ Du kan konvertera ett ärende till ett projekt med hjälp av en mall.
    * Antalet uppgifter i mallen
    * Namnen på de anpassade mallformulären
 
-1. (Valfritt) För musen över namnet på en mall och klicka på ikonen **Favoriter** ![](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
+1. (Valfritt) För musen över namnet på en mall och klicka på ikonen **Favoriter** ![Favoriter](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ Du kan konvertera ett ärende till ett projekt med hjälp av en mall.
 
    Rutan [!UICONTROL Convert to Project] öppnas.
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![Konvertera till projekt](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. Om ett fält redan är ifyllt i mallen fylls fältet i automatiskt i rutan [!UICONTROL Convert to project]. Du kan redigera de förifyllda värdena så att de bättre matchar ditt projekt. Mer information finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -230,7 +230,7 @@ Du kan konvertera ett ärende till ett projekt med hjälp av en mall.
       * Granska de anpassade formulär som är kopplade till mallen. De kommer att gå över till det nya projektet.
       * Granska de anpassade formulären som är kopplade till problemet. De överförs till projektet om de också är projektformulär.
       * Kontrollera att alla obligatoriska fält har giltig information.
-      * Ordna om de anpassade formulären genom att dra dem ![](assets/drag-object-icon.png) dit du vill ha dem.
+      * Ordna om de anpassade formulären genom att dra dem ![Dra ikonen](assets/drag-object-icon.png) där du vill ha dem.
       * Klicka på ikonen **x** till höger om ett formulär som du inte vill överföra till projektet.
       * Om det behövs kan du överföra anpassad formulärinformation från ärendet till projektet.
 

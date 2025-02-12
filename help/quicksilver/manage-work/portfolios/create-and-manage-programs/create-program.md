@@ -6,9 +6,9 @@ description: Ett program representerar en samling projekt som delar en gemensam 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Programmen utgör en underindelning av portföljer och får inte finnas utanför
 
 Du kan skapa program för att ordna dina portföljer när de blir för stora.
 
-Du kan till exempel ha ett räkenskapsår för marknadsföring 2024 Portfolio som innehåller alla dina Marketing Division-projekt. Du kan överväga att ordna dina projekt ytterligare i räkenskapskvartal och lägga till räkenskapskvartal 1-4 2024-program under räkenskapsåret 2024 Portfolio.
+Du kan t.ex. ha ett räkenskapsår för marknadsföring 2024 Portfolio som innehåller alla marknadsföringsavdelningens projekt. Du kan överväga att ordna dina projekt ytterligare i räkenskapskvartal och lägga till räkenskapskvartal 1-4 2024 i Marketing Fiscal Year 2024 Portfolio.
 
 ## Åtkomstkrav
 
@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till Portfolio och program </p>  </td> 
+   <td> <p>[!UICONTROL Edit] tillgång till portföljer och program </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -80,7 +80,7 @@ Du kan skapa ett program i Workfront på något av följande sätt:
 
       1. Klicka på **[!UICONTROL Programs]** på huvudmenyn.
       1. Klicka på **[!UICONTROL New Program]**.
-      1. Skriv namnet på en befintlig Portfolio i fältet **[!UICONTROL Select Portfolio]** i rutan som visas.
+      1. I rutan som visas skriver du namnet på en befintlig Portfolio i fältet **[!UICONTROL Select Portfolio]**.
       1. Skriv namnet på det nya programmet i fältet **[!UICONTROL Name]**.
       1. Klicka på **[!UICONTROL Save]**.
    * Skapa ett program från området [!UICONTROL Portfolios]:
@@ -146,7 +146,7 @@ Du kan ange följande information:
    Mer information om hur du lägger till projekt i program finns i [Lägga till ett projekt i ett program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Klicka på **[!UICONTROL Save Changes]**.
-1. (Valfritt) Klicka på **[!UICONTROL More menu]** ![](assets/more-icon.png) bredvid programnamnet och klicka på **[!UICONTROL Deactivate Program]**.
+1. (Valfritt) Klicka på menyn **[!UICONTROL More menu]** ![Mer](assets/more-icon.png) bredvid programnamnet och klicka på **[!UICONTROL Deactivate Program]**.
 
    När du inaktiverar ett program visas det inte längre i en lista över program när användare försöker lägga till det i ett projekt. Du kan fortfarande komma åt programmet från området [!UICONTROL Programs].
 

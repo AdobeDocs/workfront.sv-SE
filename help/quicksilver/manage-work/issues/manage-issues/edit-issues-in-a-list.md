@@ -6,9 +6,9 @@ description: Du kan redigera ett enskilt problem eller redigera problem i en pro
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Så här infogar du redigering av en utgåva:
 1. Gå till en lista med problem i ett projekt eller en uppgift.
 1. Klicka i ett fält som du har behörighet att uppdatera manuellt. Fältet kan redigeras och du kan göra ändringarna.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![Redigera infogade problem](assets/edit-issues-inline-350x34.png)
 
 1. Tryck på Retur när du vill acceptera ändringarna. Ändringarna sparas omedelbart.
 
@@ -76,9 +76,9 @@ Så här infogar du redigering av en utgåva:
 1. Gå till en lista med problem i ett projekt eller en uppgift.
 1. Gör något av följande
 
-   * Markera problemet i listan och klicka sedan på ikonen Redigera ![](assets/qs-edit-icon.png) i verktygsfältet.
-   * Klicka på menyn **Mer** ![](assets/more-icon-task-list.png) till höger om problemnamnet och klicka sedan på **Öppna på en ny flik**. Då öppnas sidan med problem på en ny flik. Klicka på **Mer** > **Redigera** på sidan Problem.
-   * Klicka på menyn **Mer** ![](assets/more-icon-task-list.png) till höger om problemnamnet och klicka sedan på **Redigera**.
+   * Markera problemet i listan och klicka sedan på Redigera-ikonen ![Redigera-ikonen](assets/qs-edit-icon.png) i verktygsfältet.
+   * Klicka på **Mer-menyn** ![Mer-menyn](assets/more-icon-task-list.png) till höger om problemnamnet och klicka sedan på **Öppna på en ny flik**. Då öppnas sidan med problem på en ny flik. Klicka på **Mer** > **Redigera** på sidan Problem.
+   * Klicka på **Mer-menyn** ![Mer-menyn](assets/more-icon-task-list.png) till höger om problemnamnet och klicka sedan på **Redigera**.
 
      Alla dessa åtgärder öppnar rutan Redigera problem.
 
@@ -93,7 +93,7 @@ Du kan redigera ett problem i en lista med hjälp av Sammanfattning.
 
    Listan med problem i projektet visas.
 
-1. Markera ett problem som du vill redigera och klicka sedan på ikonen **Öppna sammanfattning** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) i det övre högra hörnet av problemlistan.
+1. Markera ett problem som du vill redigera och klicka sedan på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-open-summary-icon-in-new-toolbar-small.png) i det övre högra hörnet av problemlistan.
 
    **Sammanfattningen** öppnas.
 
@@ -119,7 +119,7 @@ Så här redigerar du flera problem samtidigt:
 1. Klicka på ett projektnamn för att komma åt projektet.
 1. Klicka på **Problem** i den vänstra panelen.
 1. Markera flera problem i listan.
-1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png).
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
 
    Dialogrutan **Redigera problem** öppnas.
 

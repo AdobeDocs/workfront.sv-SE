@@ -6,9 +6,9 @@ description: Du kan definiera en prioritet för ett problem för att ange hur vi
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ I följande tabell kan du se hur varje standardprioritetsetikett och dess motsva
 
 1. Klicka på fältet **Prioritet** i området **Grundläggande information**.
 
-   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Ärendeprioritet](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. Välj ett värde för fältet **Prioritet**.
 

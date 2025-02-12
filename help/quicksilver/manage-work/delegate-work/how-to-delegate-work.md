@@ -6,9 +6,9 @@ description: Du kan tillfälligt delegera det arbete du är tilldelad när du in
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
 
 1. Klicka på [!UICONTROL **Delegera**] i det övre vänstra hörnet av widgetarna [!UICONTROL **Mitt arbete**], [!UICONTROL **Mina uppgifter**] eller [!UICONTROL **Mina problem**].
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![Knappen Delegera](assets/delegate-button-on-my-work-widget.png)
 
 1. Uppdatera följande:
 
@@ -133,7 +133,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
      >
      >Om du låter fältet Slutdatum vara tomt och alternativet Inget slutdatum inte är markerat, ställs delegeringen bara in för den aktuella dagen.
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![Delegeringsrutan utökad](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Klicka på [!UICONTROL **Spara**].
@@ -158,7 +158,7 @@ Så här delegerar du dina uppgifter och utgåvor till andra:
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![Redigera delegeringsknapp](assets/edit-delegation-button-on-my-work-widget.png)
 
    * Om dina händelsemeddelanden och dina personliga meddelanden är aktiverade får du också en e-postbekräftelse från din delegering.
 
@@ -179,7 +179,7 @@ Du kan låta en delegering förfalla, om du har valt ett slutdatum, eller så ka
    >
    >    Du kan bara redigera slutdatumet för en delegering om delegeringen redan har startats.
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![Stoppa delegering](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (Villkorligt) Klicka på [!UICONTROL **Spara**] för att spara de nya delegeringsdatumen
 
@@ -213,11 +213,11 @@ Du kommer åt rutan [!UICONTROL Assignments] i följande områden:
 
   Fältet [!UICONTROL Assignments] i aktivitets- eller utgivningsrubriken ändras till [!UICONTROL Assignments and delegations].
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![Panelen Uppdrag och delegater i uppgiftshuvudet](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * [!UICONTROL Workload Balancer] när uppgifter eller problem tilldelas manuellt
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![Panelen Uppdrag och delegeringar på Balancer](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ Om en aktivitet eller ett problem har delegerats och underfliken [!UICONTROL Del
    * [!UICONTROL **Delegerad till mig**]: för att visa uppgifter och ärenden som delegerats till dig av en annan användare.
    * [!UICONTROL **Delegerad av mig**]: för att visa uppgifter och utgåvor som du delegerat till andra användare.
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![Filtret Delegerade aktiviteter och ärenden](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. (Valfritt) Klicka på listrutan [!UICONTROL **Sortera**] om du vill sortera listan efter följande villkor:
    * [!UICONTROL Due Date]. Detta är standardalternativet för sortering.

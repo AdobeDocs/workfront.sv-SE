@@ -6,9 +6,9 @@ description: Du kan flytta problem mellan projekt och uppgifter.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter till det objekt där du flyttar problemet med möjligheten att lägga till problem.</td> 
+   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter för det objekt där du flyttar problemet med möjligheten att lägga till problem.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ Du kan flytta en eller flera utgåvor från en lista med utgåvor eller från en
 1. Om du valde att gå till ett projekt klickar du på **Problem** i den vänstra panelen.
 1. Markera det eller de problem som du vill flytta och klicka på menyn **Mer** överst i problemlistan och klicka sedan på **Flytta till**.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![Kopiera och flytta till länkar](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. Fortsätt med att flytta problemen enligt beskrivningen i avsnittet [Flytta ett enskilt problem](#move-a-single-issue) med början från steg 2.
 
@@ -101,13 +101,13 @@ Du kan flytta ett problem när du visar det.
 
 ### Flytta ett enstaka ärende
 
-1. Gå till ett problem som du vill flytta, klicka på menyn **Mer** ![](assets/more-icon.png) till höger om problemnamnet och klicka sedan på **Flytta till**.
+1. Gå till ett problem som du vill flytta, klicka på menyn **Mer** ![Mer](assets/more-icon.png) till höger om problemets namn och klicka sedan på **Flytta till**.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![Flytta på problemnivå](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    Rutan **Flytta problem** visas.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![Flytta utgåva](assets/move-issue-box-nwe-350x280.png)
 
 1. I avsnittet **Välj målprojekt** anger du namnet på det projekt där du vill flytta problemen. Namnet på det aktuella projektet visas som standard.
 
@@ -118,7 +118,7 @@ Du kan flytta ett problem när du visar det.
 1. (Villkorligt) Klicka på **Begär åtkomst** om du inte har åtkomst att flytta ärenden till projektet.
 1. (Villkorligt) Fortsätt att flytta problemet i det valda målprojektet utan att begära åtkomst om du har åtkomst till att lägga till problem i någon av åtgärderna i målprojektet.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![Flytta problem och begär åtkomst](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

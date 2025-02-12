@@ -1,13 +1,13 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: Exportera Gantt-schemat till PDF
-description: Du kan exportera Gantt-diagrammet till PDF. När du har exporterat Gantt-diagrammet till PDF kan du skriva ut eller bifoga det i ett e-postmeddelande och dela det med andra användare.
+description: Du kan exportera Gantt-schemat till en PDF. När du har exporterat Gantt-diagrammet till PDF kan du skriva ut eller bifoga det i ett e-postmeddelande och dela det med andra användare.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!--Audited: 09/2024-->
 
-Du kan exportera [!UICONTROL Gantt chart] till PDF.
+Du kan exportera [!UICONTROL Gantt chart] till en PDF.
 
-När du har exporterat [!UICONTROL Gantt chart] till PDF kan du skriva ut eller bifoga den i ett e-postmeddelande och dela den med andra användare.
+När du har exporterat [!UICONTROL Gantt chart] till PDF kan du skriva ut eller bifoga den till ett e-postmeddelande och dela den med andra användare.
 
 ## Åtkomstkrav
 
@@ -75,7 +75,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
    * Välj alternativet **Växla till beräknade datum** om du vill visa Planerade datum i stället för Planerade datum. Som standard visas planerade datum.
 
-   * Klicka på ikonen **Inställningar** ![](assets/settings-icon.png) i det övre högra hörnet av Gantt-diagrammet och välj vilken information du vill visa i Gantt-diagrammet. När du har valt det här alternativet inkluderas den här informationen i den exporterade Gantt PDF-filen.
+   * Klicka på ikonen **Inställningar** ![Inställningar](assets/settings-icon.png) i det övre högra hörnet av Gantt-diagrammet och välj vilken information du vill visa i Gantt-diagrammet. När du har valt det här alternativet inkluderas den här informationen i den exporterade Gantt PDF-filen.
 
      Välj bland följande alternativ:
 
@@ -103,13 +103,13 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
      Hur tidsperioden visas i exportfilen beror på om du väljer **[!UICONTROL What I see]** eller **[!UICONTROL Multiple pages]** i ett senare steg.
 
-1. (Valfritt) Om du bara vill ta med vissa uppgifter i det exporterade PDF markerar du de uppgifter som du vill ta med.
+1. (Valfritt) Om du bara vill ta med vissa uppgifter i den exporterade PDF-filen markerar du de uppgifter som du vill ta med.
 
-   Om du inte markerar några uppgifter inkluderas alla uppgifter i det exporterade PDF.
+   Om du inte markerar några uppgifter inkluderas alla uppgifter i den exporterade PDF-filen.
 
    Om du till exempel visar [!UICONTROL Gantt chart] för ett projekt som innehåller 50 uppgifter, men bara vill visa 10 uppgifter för den exporterade [!UICONTROL Gantt chart], markerar du de 10 uppgifter som du vill visa.
 
-1. Klicka på skrivarikonen ![](assets/printer-icon.png) i det övre högra hörnet av Gantt-diagrammet.
+1. Klicka på skrivarikonen ![Skrivarikon](assets/printer-icon.png) i det övre högra hörnet av Gantt-diagrammet.
 Dialogrutan **[!UICONTROL Export to PDF]** visas.
 
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
@@ -118,7 +118,7 @@ Dialogrutan **[!UICONTROL Export to PDF]** visas.
 
    * **[!UICONTROL What I see]:** Exporterar alla aktiviteter (inklusive alla underaktiviteter) som visas på skärmen innan upp till 500 objekt exporteras. (Detta är inte vad som visas i avsnittet **[!UICONTROL Preview]**. Avsnittet [!UICONTROL Preview] innehåller bara exempeldata.)
 
-     Underaktiviteter tas med i det exporterade PDF även om den överordnade aktiviteten är komprimerad och underaktiviteterna inte visas. Om du bara vill ta med överordnade uppgifter markerar du de överordnade uppgifter som du vill ta med och låter alla underaktiviteter vara omarkerade.
+     Underaktiviteter inkluderas i den exporterade PDF-filen även om den överordnade uppgiften är komprimerad och underaktiviteterna inte visas. Om du bara vill ta med överordnade uppgifter markerar du de överordnade uppgifter som du vill ta med och låter alla underaktiviteter vara omarkerade.
 
      >[!TIP]
      >
@@ -151,7 +151,7 @@ Du kan välja mellan följande alternativ:
    * **[!UICONTROL A3]** (endast tillgängligt för vissa språk)
    * **[!UICONTROL A4]**
 1. I avsnittet **[!UICONTROL Page Orientation]** väljer du om du vill att PDF ska exporteras i liggande eller stående orientering.
-1. Välj **[!UICONTROL Show Legend]** om du vill inkludera förklaringen i den exporterade PDF.
+1. Välj **[!UICONTROL Show Legend]** om du vill inkludera förklaringen i din exporterade PDF.
 1. Klicka på **[!UICONTROL Export]**.
 
    PDF-filen för [!UICONTROL Gantt chart] skapas och hämtas till datorn.
