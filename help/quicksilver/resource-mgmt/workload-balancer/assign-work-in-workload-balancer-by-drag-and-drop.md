@@ -6,9 +6,9 @@ description: Du kan tilldela arbetsobjekt med Adobe Workfront Workload Balancer 
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
+   <td>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,13 +76,13 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
 
    Gå till området **Tilldelad arbetsplats** och expandera namnet på en användare för att visa de arbetsobjekt som har tilldelats dem, om du vill tilldela om deras objekt.
 
-1. (Villkorligt) Klicka på ikonen **Visa alla användare** ![](assets/show-all-users-icon-project-workload-balancer.png) i arbetsbelastningsutjämnaren för ett projekt om du vill visa alla Workfront-användare.
+1. (Villkorligt) Klicka på ikonen **Visa alla användare** ![Visa alla användare](assets/show-all-users-icon-project-workload-balancer.png) i Utjämning av arbetsbelastning för ett projekt om du vill visa alla Workfront-användare.
 
    Detta visar alla användare som du har åtkomst till för att visa.
 
    De användare som också är en del av projektteamet och redan är tilldelade till objekt i projektet har en projektikon till höger om sitt namn på den tilldelade arbetsytan.
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![Användare i projektet](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
@@ -100,7 +100,7 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
    >
    >De planerade timmarna för den användare som du hovrar över uppdateras i realtid med antalet planerade timmar per dag från arbetsuppgiften, för att visa vilken effekt det kan ha om ett nytt objekt läggs till i den totala allokeringen.
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![Släpp objekt som tilldelas](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. När du är klar släpper du den valda arbetsposten på samma rad som användarens namn i det tilldelade området. Artikeln tilldelas och de tilldelade planerade timmarna uppdateras för användaren med de nya timmarna från arbetsuppgiften.
 
@@ -118,7 +118,7 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
 
 
 1. (Valfritt) Klicka på fältet för ett arbetsobjekt under namnet på en användare i området Tilldelat arbete och dra det sedan över området Ej tilldelat arbete för att ta bort tilldelningen. Artikeln har inte tilldelats från användaren, men den kan fortfarande tilldelas en jobbroll. I så fall visas den i området Ej tilldelat arbete. Om objektet är tilldelat en annan användare finns det kvar i området Tilldelad arbetsyta under namnet på den användare som fortfarande är tilldelad.
-1. (Valfritt) Klicka på ikonen **Visa allokeringar** ![](assets/show-allocations-icon-small.png) och sedan på menyn **Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
+1. (Valfritt) Klicka på ikonen **Visa allokeringar** ![Visa allokeringar](assets/show-allocations-icon-small.png) och klicka sedan på menyn **Mer** ![Mer](assets/qs-more-menu.png) > **Redigera allokeringar** .
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

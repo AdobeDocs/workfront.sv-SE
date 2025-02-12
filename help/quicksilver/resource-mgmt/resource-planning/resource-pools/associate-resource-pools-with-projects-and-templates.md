@@ -6,9 +6,9 @@ description: Resurspooler är användarsamlingar som hjälper dig att hantera re
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -80,14 +80,14 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan associera resurspooler med en mall på samma sätt som du associerar resurspooler med ett projekt. I den här artikeln beskrivs hur du kan associera resurspooler med projekt.
 
-1. Gå till ett projekt och klicka på ikonen **Mer** ![](assets/more-icon.png)bredvid projektnamnet och klicka sedan på **Redigera**.
+1. Gå till ett projekt och klicka på ikonen **Mer** ![Mer](assets/more-icon.png)bredvid projektnamnet och klicka sedan på **Redigera**.
 
 1. Klicka på **Projektinställningar**.
 
 1. Börja skriva namnet på en resurspool i fältet **Resurspooler** och markera den i listan när den visas.\
    Du kan associera flera resurspooler med ett projekt eller en mall.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Projektinställningar](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Klicka på **Spara**.
 
@@ -104,7 +104,7 @@ Du kan associera resurspooler med mallar på samma sätt som du associerar resur
 Så här associerar du resurspooler med flera projekt samtidigt:
 
 1. Gå till en lista med projekt.
-1. Markera flera projekt och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) längst upp i listan.
+1. Markera flera projekt och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) längst upp i listan.
 
 1. Klicka på **Inställningar**.
 1. Börja skriva namnet på en resurspool i fältet **Resurspooler** och markera den i listan när den visas.\

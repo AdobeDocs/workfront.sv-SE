@@ -6,9 +6,9 @@ description: Adobe Workfront kan generera en unik URL för användarvyn i resurs
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Workfront kan generera en unik URL för användarvyn i resursplaneraren som du kan bädda in som en extern sida på en kontrollpanel, eller öppna separat på en ny flik i webbläsaren. Detta är praktiskt när du delar resursplaneringsinformation med användare som kanske inte har direkt åtkomst till resursområdet.
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![Användarvy med länk](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## Åtkomstkrav
 

@@ -6,9 +6,9 @@ description: Du kan budgetera resurser i Adobe Workfront Resursplanering med pro
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Mer information om åtkomsten som krävs för budgetresurser finns i artikeln [�
 
 Om du vill budgetera allokeringar i resursplaneraren i rollvyn***:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
 1. Klicka på **Resurs**.
 1. **Planeraren** visas som standard.
@@ -225,7 +225,7 @@ Mer information om hur du förstår resursbudgeteringsområdet för affärsären
 
 Du kan budgetera allokeringar för dina resurser i grupp när du använder snabblänkar. Snabblänkarna är bara tillgängliga för projekt- och rollvyerna.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![Automatiska budgeteringsalternativ](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ description: Som resurshanterare kan du tilldela användare arbete och hantera d
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
@@ -191,11 +191,11 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
    >
    >Du kan endast ändra användartilldelningar för uppgifter och ärenden. Du kan inte ändra användarallokeringar för projekt.
 
-1. (Valfritt) Klicka på ikonen **Visa allokeringar** ![](assets/show-allocations-icon-small.png) om du vill visa allokeringar för alla arbetsobjekt.
+1. (Valfritt) Klicka på ikonen **Visa allokeringar** ![Visa allokeringar](assets/show-allocations-icon-small.png) om du vill visa allokeringar för alla arbetsobjekt.
 
    Namnet på aktiviteterna och projekten ersätts med användarens tilldelning för uppgiften eller projektet.
 
-1. (Valfritt) Klicka på ikonen **Inställningar** ![](assets/gear-icon-settings.png) och välj något av följande alternativ:
+1. (Valfritt) Klicka på ikonen **Inställningar** ![Inställningar](assets/gear-icon-settings.png) och välj något av följande alternativ:
 
    1. **Inkludera timmar från utleveranser**. På så sätt kan du hantera utleveransallokeringar utöver uppgiftsallokeringar.
    1. **Visa slutfört arbete**. Här visas artiklar som har slutförts och schemalagts under tidslinjen som du hanterar allokeringar för.
@@ -212,7 +212,7 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
       >
       >Workfront-administratören bestämmer vilket schema som ska användas i hela systemet för att beräkna användarens kapacitet i området Resurshantering i installationsprogrammet. Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Klicka på **Mer**-menyn ![](assets/qs-more-menu.png) för ett arbetsobjekt och klicka sedan på **Redigera allokeringar**.
+1. Klicka på menyn **Mer** ![Mer ](assets/qs-more-menu.png) för ett arbetsobjekt och klicka sedan på **Redigera allokeringar**.
 
    ![Mer meny för arbetsobjekt](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
 
    Allokeringsrutorna kan redigeras.
 
-1. Klicka i rutan för varje dag-, vecko- eller månadstilldelning för att manuellt uppdatera timtals- eller procentvärdet som du vill att användaren ska tilldelas för varje dag, vecka eller månad. Klicka sedan på ikonen **Spara** ![](assets/checkmark-icon.png) .
+1. Klicka i rutan för varje dag-, vecko- eller månadstilldelning för att manuellt uppdatera timtals- eller procentvärdet som du vill att användaren ska tilldelas för varje dag, vecka eller månad. Klicka sedan på ikonen **Spara** ![Spara](assets/checkmark-icon.png) .
 
    >[!TIP]
    >
-   >Klicka på ikonen **Avbryt** ![](assets/cancel-allocations-wb.png) för att ta bort de allokeringar du justerat.
+   >Klicka på ikonen **Avbryt** ![Avbryt ](assets/cancel-allocations-wb.png) om du vill ta bort de allokeringar du har justerat.
 
    ![Spara eller avbryt justerade allokeringar](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

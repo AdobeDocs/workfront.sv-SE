@@ -6,9 +6,9 @@ description: Med hjälp av filter kan du ändra vilken information som visas i r
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2390'
 ht-degree: 0%
 
 ---
@@ -129,11 +129,11 @@ Första gången du öppnar resursplaneraren används som standard <strong>standa
    ![filter_icon.png](assets/filter-icon.png)
 eller
 Expandera listrutan **Filter** och klicka på **Lägg till nytt filter** .
-   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+   ![Listrutan Filter](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Om du vill skapa ett filter med hjälp av de inbyggda villkoren anger du något av följande fält:
 
-   * **Portfolio**: Börja skriva namnet på portföljen som innehåller den information du vill inkludera i resursplaneraren och klicka sedan på namnet när den visas i listan.\
+   * **Portfolio**: Börja skriva namnet på portföljen som innehåller den information du vill inkludera i resursplaneraren och klicka sedan på namnet när det visas i listan.\
      Upprepa den här processen om du vill inkludera information från flera portföljer.
 
    * **Projektstatus**: Expandera den nedrullningsbara menyn Projektstatus och välj en eller flera projektstatusar som är tillgängliga i listan.
@@ -214,7 +214,7 @@ Du kan ändra namnet på ett filter utan att ändra villkoren för det. Vi rekom
 1. Expandera den nedrullningsbara menyn **Filter**. Leta reda på filtret som du vill byta namn på och hovra över namnet.
 1. Välj ikonen **Byt namn på filter** bredvid filtrets namn.
 
-   ![](assets/rp-filter-options-edit-350x154.png)
+   ![Redigera filteralternativ](assets/rp-filter-options-edit-350x154.png)
 
 1. Ange ett nytt namn för filtret i rutan **Filternamn**.
 1. Klicka på **Spara**.\
@@ -253,7 +253,7 @@ Du kan duplicera ett befintligt filter. De ursprungliga filtervillkoren är desa
 1. Håll pekaren över namnet på ett sparat filter som du vill duplicera.
 1. Klicka på ikonen **Duplicera** .
 
-   ![](assets/rp-filter-options---duplicate-350x154.png)\
+   ![Duplicera filter](assets/rp-filter-options---duplicate-350x154.png)\
    Rutan Duplicera filter visas.
 
 1. I fältet **Filternamn** anger du ett nytt namn för det duplicerade filtret.\
@@ -280,7 +280,7 @@ Ta bort ett filter:
 1. Leta reda på filtret som du vill ta bort och hovra över namnet.
 1. Markera ikonen **Ta bort filter** bredvid filtrets namn.
 
-   ![](assets/rp-filter-options---delete-350x154.png)
+   ![Ta bort filter](assets/rp-filter-options---delete-350x154.png)
 
 1. Klicka på **Ta bort** i dialogrutan **Ta bort filter**.
 
@@ -303,13 +303,13 @@ Mer information om att duplicera filter finns i avsnittet [Duplicera ett filter]
 1. Leta reda på filtret som du vill dela och hovra över namnet.
 1. Välj ikonen **Dela filter** bredvid filtrets namn.
 
-   ![](assets/rp-filter-options---share-350x154.png)
+   ![Delningsfilter](assets/rp-filter-options---share-350x154.png)
 
    Dialogrutan Filteråtkomst visas.
 
 1. (Valfritt) Om du vill göra filtret tillgängligt för alla resursplaneringsanvändare klickar du på ikonen **Inställningar** och väljer sedan **Gör det synligt i hela systemet**.
 
-   ![](assets/make-this-visible-system-wide-350x119.png)
+   ![Gör synlig för hela systemet](assets/make-this-visible-system-wide-350x119.png)
 
 1. I rutan **Ge resursplaneringsfiltret åtkomst till:** börjar du skriva namnen på de användare, team, roller, grupper eller företag som du vill dela filtret med.
 1. Välj bland följande behörighetsnivåer:
@@ -321,10 +321,10 @@ Mer information om att duplicera filter finns i avsnittet [Duplicera ett filter]
 
 1. (Valfritt) Klicka på **Avancerade inställningar** om du vill lägga till behörigheter för varje nivå genom att markera dem eller ta bort behörigheter för varje nivå genom att avmarkera dem.
 
-   ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
+   ![Delningsfilter](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. Klicka på **Spara**.
 
    Filtret delas med de enheter som du har markerat och visas i området **Delat med mig**.
 
-   ![](assets/rp-shared-with-me-area.png)
+   ![Delad med mig](assets/rp-shared-with-me-area.png)

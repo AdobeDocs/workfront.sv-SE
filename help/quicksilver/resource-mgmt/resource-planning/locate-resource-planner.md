@@ -6,9 +6,9 @@ description: Du kan använda Resursplanering för att hantera tilldelningen av r
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Så här öppnar du planeringsavsnittet i resursområdet:
 
 Planeraren visas som standard.  Mer information om budgeteringsresurser i resursplaneraren finns i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![Resursplanering som standard](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Klicka på **Resurspooler** i den vänstra panelen.
 Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
@@ -105,6 +105,6 @@ När du använder Resursplanering för ett projekt representerar resursernas all
    >
    >Du kan bara lägga till en resurspool i området Resursbudgetering i affärsärendet när projektet inte har några associerade resurspooler. När projektet redan har en resurspool visas användarna i poolen och deras jobbroller som standard i området Resursbudgetering.
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Resursbudgetering](assets/resource-budgeting-area-on-project-350x70.png)
 
    Mer information om budgeteringsresurser för ett projekt finns i artikeln [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

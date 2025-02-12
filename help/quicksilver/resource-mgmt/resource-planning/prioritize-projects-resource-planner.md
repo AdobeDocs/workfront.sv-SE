@@ -6,9 +6,9 @@ description: Projekt listas i prioritetsordning i resursplaneraren med det vikti
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Så här redigerar du projektplaneringsprioriteten:
 1. Gå till **Resursplaneraren**.
 
 1. Klicka i fältet till vänster om det projektnamn som innehåller ett nummer, ange ett nummer för att ändra planeringsprioritet och tryck sedan på Retur.\
-   ![](assets/mceclip4.png)\
+   ![Ändra planeringsprioritet](assets/mceclip4.png)\
    eller\
    Håll markören över namnet på projektet och klicka på indikatorn till vänster om projektnamnet. Dra den och släpp den på rätt plats för att ändra prioriteten.
 
@@ -106,25 +106,25 @@ Så här redigerar du projektplaneringsprioriteten:
 1. Klicka på **Spara**.\
    Ordningen på projekten ändras enligt dina val och detta blir din anpassade projektprioritet i resursplaneraren. Andra användare kan inte se din prioritetsordning för projekten i resursplaneraren, även om de kanske kan visa samma projekt i sina resursplanerare.
 
-## Ordna projekt enligt Portfolio Prioritet i resursplaneraren
+## Ordna projekt enligt deras Portfolio-prioritet i resursplaneraren
 
 >[!IMPORTANT]
 >
->Ditt företag måste ha en Business-plan eller en senare Workfront-plan för att kunna prioritera projekt i Portfolio Optimizer.
+>Företaget måste ha en Business-plan eller en senare Workfront-plan för att kunna prioritera projekt i Portfolio Optimizer.
 >
 >Mer information om Workfront-planer finns i [Våra planer](https://www.workfront.com/plans).
 >
->Mer information om hur du prioriterar projekt i Portfolio-optimering finns i [Prioritera projekt i Portfolio-optimering](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+>Mer information om hur du prioriterar projekt i Portfolio Optimizer finns i [Prioritera projekt i Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Öppna **Resursplaneraren** i **projektvyn**.
 1. Klicka på ikonen **Inställningar** .
-1. Aktivera inställningen **Visa Portfolio-prioritet** för att visa projektprioriteter enligt Portfolio som de är tilldelade till. Projektens prioritet enligt portföljerna visas bredvid resursplaneringsprioriteten. Den här inställningen är inaktiverad som standard.
+1. Aktivera inställningen **Visa Portfolio-prioriteringar** för att visa projektprioriteter enligt den Portfolio som de är tilldelade till. Projektens prioritet enligt portföljerna visas bredvid resursplaneringsprioriteten. Den här inställningen är inaktiverad som standard.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolio prioritet](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Projektens portföljprioriteringar visas endast i projektvyn i resursplaneraren.
 
@@ -136,13 +136,13 @@ Så här redigerar du projektplaneringsprioriteten:
    1. Planerat startdatum
    1. Projektnamn
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![Portfolio-prioritet beställd](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Klicka på **Spara**.
 
 ## Effekten av ändring av projektplaneringsprioriteten på tillgängliga användartimmar
 
-Projektplaneringsprioriteten påverkar användarnas tillgängliga timmar. De användare som är associerade med projektet med den högsta prioriteten visar sin fulla tillgänglighet för kolumnen Tillgängliga timmar (AVL) för det här projektet enligt sina scheman.
+Projektplaneringsprioriteten påverkar användarnas tillgängliga timmar. De användare som är associerade med projektet med den högsta prioriteten visar sin fulla tillgänglighet för kolumnen Tillgängliga timmar (AVL) för det här projektet, enligt sina scheman.
 
 Samma användare som är associerade med det andra projektet i prioritetsordning kommer att visa värdet Tillgängliga timmar, vilket är skillnaden mellan deras totala antal tillgängliga timmar och det som redan har budgeterats för det första projektet i kolumnen Budgeterade timmar osv. Mer information om budgeteringsresurser i resursplaneraren finns i [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 

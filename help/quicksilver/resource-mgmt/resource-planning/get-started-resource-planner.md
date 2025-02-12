@@ -7,9 +7,9 @@ description: Du kan beräkna och budgetera allokeringen av dina resurser till de
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Om du vill använda resursplaneraren för att budgetera dina resurser måste du 
 >Om något av följande villkor saknas kanske en del av informationen om allokeringen eller tillgängligheten för resurserna saknas eller har ett nollvärde.\
 >Om du vill ha mer information om varför fält saknar data eller har noll värden håller du pekaren över fälten.
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![Inga användare med den här rollen](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Se till att följande installations- och utgivningsinställningar finns innan du
 
 Du måste förstå hur din instans av Workfront beräknar användartillgänglighet enligt inställningarna för resurshantering i ditt system. Workfront kan beräkna användartillgängligheten med hjälp av användarens schema så som det definieras på sidan Användarprofil eller med datorns standardschema.
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![Hanteringsinställningar](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Din Workfront-administratör konfigurerar inställningarna för resurshantering.
 

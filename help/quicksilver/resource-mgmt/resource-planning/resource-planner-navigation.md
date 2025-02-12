@@ -7,9 +7,9 @@ description: Genom att använda Adobe Workfront Resursplanering kan du enkelt f�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Genom att använda Adobe Workfront Resursplanering kan du enkelt förstå tillg�
 
 Du måste uppfylla kraven för att kunna använda resursplaneraren fullt ut. Mer information om resursplaneraren finns i [Översikt över resursplaneraren](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![Resursplanering](assets/rp-project-view-all-functionality-350x117.png)
 
 I följande avsnitt beskrivs alla områden i resursplaneraren.
 
 ## Tidslinje för projekt
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![Tidslinjekalender](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ Så här navigerar du på tidslinjen:
 
 ## Projekt/roll/Val av användarvy
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![Visa efter projekt, roll eller användare](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 Du kan ändra vyn i resursplaneraren beroende på hur du vill att informationen ska visas.
 
@@ -194,7 +194,7 @@ Tänk på följande när du väljer användarvyn i resursplaneraren:
    * När du har behörighet att visa projekten, men inte några uppgifter eller problem i projekten, visas projektnamnet och aktiviteterna och problemen listas under avsnittet **Ej tillgängliga objekt**.\
      Mer information om behörigheter i Workfront finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![Otillgängliga objekt](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Tänk på följande när du väljer användarvyn i resursplaneraren:
 
 ## Projektnamn
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![Projektnamn](assets/project-name-highlighted-resource-planner-350x445.png)
 
 Följande projekt visas i resursplaneraren:
 
@@ -232,13 +232,13 @@ Följande projekt visas i resursplaneraren:
 
 Projekt listas i prioritetsordning i resursplaneraren med det viktigaste projektet överst. Prioriteten anges med ett nummer framför projektnamnet.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![Projektplaneringsprioritet](assets/rp-planner-priority-highlighted-350x186.png)
 
 Du kan även aktivera en inställning för att visa projektprioriteter utifrån deras portföljer när de är kopplade till en portfölj. Mer information om att prioritera projekt och visa portföljprioriteringar i resursplaneraren finns i [Prioritera projekt i resursplaneraren](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Namn på jobbroll
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![Jobbrollnamn](assets/role-highlighted-resource-planner-350x243.png)
 
 Följande kategorier av jobbroller visas i resursplaneraren:
 
@@ -254,7 +254,7 @@ Följande kategorier av jobbroller visas i resursplaneraren:
 
 ## Användarnamn
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![Användarnamn](assets/user-highlighted-resource-planner-350x272.png)
 
 De användare som visas i projekt- och rollvyerna i resursplaneraren tillhör de resurspooler som är associerade med projekten.\
 Mer information om hur du fyller i resurspooler med användare finns i [Associera resurspooler med användare](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
@@ -310,11 +310,11 @@ Så här aktiverar du inställningar i resursplaneraren:
 1. Öppna resursplaneraren.
 1. Klicka på ikonen **Inställningar** .
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![Ikon för inställningar för resursplanering](assets/rp-settings-icon-edit-1.png)
 
    Rutan Resursplaneringsinställningar visas.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![Resursplaneringsinställningar](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. Aktivera inställningen **Inkludera timmar från problem** om du vill visa Planerade timmar från problem i resursplaneraren. Den här inställningen är inaktiverad som standard.
 
@@ -327,7 +327,7 @@ Så här aktiverar du inställningar i resursplaneraren:
      >
      >**När de planerade start- och slutförandedatumen för utgåvan ligger utanför tidslinjen för projektet visas de planerade timmarna för utgåvan enligt datumet för utgåvan. Om projekttidslinjen till exempel är mellan januari och mars, men tidslinjen för problemen är i augusti, visas de planerade timmarna för utgåvorna under tidsperioden augusti.**
 
-1. (Villkorligt och valfritt) Om du har valt projektvyn aktiverar du inställningen Visa Portfolio-prioriteter så att projektprioriteterna visas enligt Portfolio. Projektens prioritet enligt portföljerna visas bredvid resursplaneringsprioriteten. Den här inställningen är inaktiverad som standard.
+1. (Villkorligt och valfritt) Om du har valt projektvyn aktiverar du inställningen Visa Portfolio-prioritet för att visa projektprioriteringarna enligt den Portfolio som de har tilldelats. Projektens prioritet enligt portföljerna visas bredvid resursplaneringsprioriteten. Den här inställningen är inaktiverad som standard.
 
    Mer information om hur du prioriterar projekt i resursplaneraren finns i [Prioritera projekt i resursplaneraren](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
@@ -348,7 +348,7 @@ Så här visar du resursplaneraren i helskärmsläge:
 
 ## Exportalternativ
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![Knappen Exportera](assets/export-button-highlighted-resource-planner-350x92.png)
 
 Du kan exportera information till en Excel-fil (.xlsx) från valfri vy i resursplaneraren.\
 Mer information om att exportera information från resursplaneraren finns i [Exportera information från resursplaneraren](../../resource-mgmt/resource-planning/export-resource-planner.md).

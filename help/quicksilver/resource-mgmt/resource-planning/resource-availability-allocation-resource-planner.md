@@ -6,9 +6,9 @@ description: Du kan visa tillgängligheten för dina resurser och mängden plane
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Tänk på följande när du ändrar vyn till Resursplanering:
 
 1. (Villkorligt) Om du valde **Anpassa** anger du alternativ i rutan **Anpassa visade mätvärden** för att konfigurera din anpassade vy.
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![Anpassa visningsrutan](assets/planner-customize-view-box-350x114.png)
 
 1. I kolumnen **Vytyp** till vänster väljer du en av följande vyer:
 
@@ -189,7 +189,7 @@ Tänk på följande när du ändrar vyn till Resursplanering:
    >
    >Du kan bara ha en anpassad vy.
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![Listrutan Planeringstimmar](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## Visa användarallokeringsdiagrammet
 

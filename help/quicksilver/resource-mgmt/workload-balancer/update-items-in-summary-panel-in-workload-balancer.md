@@ -6,9 +6,9 @@ description: Du kan öppna panelen Sammanfattning i Utjämning av arbetsbelastni
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>Contribute behörigheter eller högre för projekt, uppgifter och ärenden</td> 
+   <td>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden</td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,11 +78,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    eller
 
-   Klicka på ikonen **Öppna sammanfattning** ![](assets/summary-panel-icon.png) och klicka sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
+   Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/summary-panel-icon.png) och klicka sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
 
    eller
 
-   Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om en uppgift eller ett problem och klicka sedan på **Öppna sammanfattning**.
+   Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) till höger om en uppgift eller ett problem och klicka sedan på **Öppna sammanfattning**.
 
    Panelen Sammanfattning öppnas till höger.
 
@@ -97,4 +97,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Mer information om hur du uppdaterar information med Sammanfattning finns i [Sammanfattningsöversikt](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Villkorligt) Om du öppnade något av avsnitten i arbetsobjektet klickar du på webbläsarens **Tillbaka** för att återgå till arbetsbelastningsutjämnaren.
-1. Klicka på ikonen **Stäng** ![](assets/close-icon.png) i det övre högra hörnet av sammanfattningen för att stänga den.
+1. Klicka på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av sammanfattningen för att stänga den.

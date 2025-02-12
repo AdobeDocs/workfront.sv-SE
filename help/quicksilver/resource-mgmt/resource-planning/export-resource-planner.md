@@ -6,9 +6,9 @@ description: Du kan exportera information från valfri vy i resursplaneraren til
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Dialogrutan Exportalternativ visas.
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![Exportalternativ](assets/rp-export-options-box-350x421.png)
 
 1. Ange följande information:\
    **Startdatum**: Startdatum för exporten. Den exporterade filen innehåller information om allokering och tillgänglighet från och med den första veckodagen som innehåller den dag du anger här.\

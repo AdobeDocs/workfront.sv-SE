@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
+   <td>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
    Gå till området **Tilldelad arbetsplats** och expandera namnet på en användare för att visa de arbetsobjekt som har tilldelats dem, om du vill tilldela om deras objekt.
 
-1. Klicka på menyn **Mer** ![](assets/qs-more-menu.png) till vänster om namnet på ett arbetsobjekt och klicka sedan på **Tilldela det här till**.
+1. Klicka på **Mer-menyn** ![Mer-menyn](assets/qs-more-menu.png) till vänster om namnet på ett arbetsobjekt och klicka sedan på **Tilldela det här till**.
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![Tilldela detta till](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
    > Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![Avancerade tilldelningar](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
      Mer information om hur du gör avancerade uppdrag finns i [Skapa avancerade uppdrag](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Valfritt) Klicka på ikonen **Visa allokeringar** ![](assets/show-allocations-icon-small.png) och sedan på menyn **Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
+1. (Valfritt) Klicka på ikonen **Visa allokeringar** ![Visa allokeringar](assets/show-allocations-icon-small.png) och klicka sedan på menyn **Mer** ![Mer](assets/qs-more-menu.png) > **Redigera allokeringar** .
 
    eller
 

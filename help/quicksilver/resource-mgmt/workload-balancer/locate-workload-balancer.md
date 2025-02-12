@@ -7,9 +7,9 @@ description: Du kan använda belastningsutjämnaren för att schemalägga resurs
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Följande avsnitt visar var du kan komma åt Utjämning av arbetsbelastning i Wo
 
 1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
 
-   ![](assets/nwe-balancer-global.png)
+   ![Utjämnare för arbetsbelastning](assets/nwe-balancer-global.png)
 
    I Utjämning av arbetsbelastning visas följande som standard i området Resurser:
 
@@ -104,7 +104,7 @@ Hemteamets sida visas.
 
 1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![Utjämning av arbetsbelastning för team](assets/nwe-balancer-team-350x172.png)
 
    Arbetsbelastningsutjämnaren för ett team visar följande information som standard:
 
@@ -124,7 +124,7 @@ Hemteamets sida visas.
 
    Utjämning av arbetsbelastning för projektet visas.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![Utjämning av arbetsbelastning för projekt](assets/nwe-balancer-project-350x152.png)
 
    I arbetsbelastningsutjämnaren för ett projekt visas följande som standard:
 

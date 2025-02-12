@@ -6,9 +6,9 @@ description: Om du upptäcker att det finns överbeläggningar av dina resurser 
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Tidslinjen för projektallokering visas.\
    Tidsperioden där timmarna för närvarande budgeteras är orange om det finns en budgeteringskonflikt och blå om det inte finns några konflikter.
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![Justera budgeteringsdatum](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. Dra och släpp den markerade tidsramen till en annan tidpunkt för att förstå var det inte finns några budgeteringskonflikter för det valda projektet. När du hittar en tidsram där nettovärdet är positivt ändras den markerade tidsramen till blå.
 1. Klicka på&quot;x&quot; i det övre högra hörnet av tidslinjen för projekttilldelning för att stänga den.

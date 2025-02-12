@@ -6,9 +6,9 @@ description: För att effektivt hitta arbetsobjekt och fokusera på de användar
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2518'
 ht-degree: 0%
 
 ---
@@ -160,11 +160,11 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete** .
+1. Klicka på ikonen **Filter** ![Filterikon](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete** .
 
    Filterverktygslådan visas till höger. Namnet på området som du skapar filtret för visas i rutans sidhuvud.
 
-   ![](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
+   ![Filterlista](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
 
 1. (Valfritt och villkorligt) Om du använder Utjämning av arbetsbelastning i området Resurser kan det fördefinierade standardfiltret redan användas på området Tilldelat arbete. Du kan redigera och spara en kopia av standardfiltret.
 
@@ -189,7 +189,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 
    1. (Villkorligt) Om du klickade på **Bläddra bland fält** skriver du namnet på ett fält i fältet **Sök** och markerar det när det visas i listan.
 
-      ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
+      ![Sök efter ett fält](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
       >[!TIP]
       >
@@ -204,15 +204,15 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 
       >[!NOTE]
       >
-      > När du vill visa arbetsobjekt från en viss portfölj kan du använda följande filter: &quot;Portfolio ID är lika med &lt; namnet på portföljen >&quot;.
+      > När du vill visa arbetsobjekt från en viss portfölj kan du använda följande filter:&quot;Portfolio ID är lika med &lt; namnet på portföljen >.&quot;
       >
-      >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+      >![Programsatsen Portfolio-namnfilter](assets/portfolio-name-filter-statement-wb-350x262.png)
       >
       >Om du vill utesluta projekt med statusen Spärrad måste du använda följande filter: &quot;Projekt: Status är inte lika med Spärrad&quot;. Detta förhindrar att arbetsobjekt från projekt som är parkerade visas i arbetsbelastningsutjämnaren.
       >
-      >![](assets/project-status-filter-statement-wb.png)
+      >![Filtersats för projektstatus](assets/project-status-filter-statement-wb.png)
 
-   1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/delete.png) om du vill ta bort ett filtervillkor.
+   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort ett filtervillkor.
 
 1. (Valfritt) Klicka på **Lägg till filter** för att lägga till ytterligare filtervillkor och upprepa sedan åtgärderna från steg 4.
 
@@ -232,7 +232,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 
 1. Klicka på **Spara som ny** om du vill spara filtret för framtida bruk.
 
-   ![](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
+   ![Filtrera Spara som](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 1. Klicka i fältet **Namnlöst filter** och ange namnet på det nya filtret.
 1. (Valfritt) Välj en ikon för det nya filtret i listrutan **Ikon** .
 
-   ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
+   ![Välj ikon](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
 1. (Valfritt) Lägg till en beskrivning av filtret för att ange vad som är unikt med det. Beskrivningen visas under filternamnet i filterlistan.
 1. Klicka på **Spara**.
@@ -250,9 +250,9 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
 
    Mer information om hur du använder sparade filter finns i avsnittet [Ta bort ett sparat filter i Utjämning av arbetsbelastning](#delete-a-saved-filter-in-the-workload-balancer) i den här artikeln.
 
-1. (Villkorligt) För musen över **filterikonen** ![](assets/filter-icon.png) i det övre högra hörnet av **Ej tilldelat arbete** eller **Tilldelat arbete** om du vill visa ett verktygstips med namnet eller antalet filter som används.
+1. (Villkorligt) För musen över **Filterikonen** ![Filterikonen](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete** för att visa ett verktygstips med namnet eller antalet filter som används.
 
-   ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
+   ![Filterikon med namnet på filter](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
 ## Duplicera ett filter
 
@@ -262,13 +262,13 @@ Du kan duplicera och redigera ett filter för att skapa ett nytt.
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete** .
+1. Klicka på ikonen **Filter** ![Filterikon](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete** .
 
    Rutan för filterverktyget visas till höger. Namnet på området som du skapar filtret för visas i rutans sidhuvud.
 
-1. För musen över ett befintligt filter, klicka på menyn **Mer** ![](assets/more-menu.png) och klicka sedan på **Duplicera**.
+1. För musen över ett befintligt filter, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Duplicera**.
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Filtrera fler menyalternativ](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -301,18 +301,18 @@ Du kan redigera ett sparat filter i Utjämning av arbetsbelastning.
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat** eller **Tilldelat arbete** .\
+1. Klicka på **Filterikonen** ![Filterikonen](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat** eller **Tilldelat arbete** .\
    Filterverktyget visas till höger.
 
-1. För musen över det filter som du vill redigera och klicka sedan på **Redigera** ![](assets/wb-edit-filter-icon.png) .
+1. För musen över det filter du vill redigera och klicka sedan på ikonen **Redigera** ![Redigera filter](assets/wb-edit-filter-icon.png) .
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Menyn Filtrera mer](assets/filter-more-menu-options-wb.png)
 
 1. Gör något av följande:
 
    * Ändra någon av filtersatserna
    * Klicka på **Lägg till filter** för att lägga till nya filtersatser
-   * Klicka på ikonen **Ta bort** ![](assets/delete.png) om du vill ta bort befintliga filtersatser.
+   * Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort befintliga filtersatser.
 
 1. (Valfritt) Klicka på **Använd**.
 
@@ -337,11 +337,11 @@ Tänk på följande innan du tar bort ett filter:
 >När du tar bort ett filter som delas med andra tas det också bort för dem.
 
 1. Gå till Utjämning av arbetsbelastning
-1. Klicka på ikonen **Filter** ![](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete**.\
+1. Klicka på ikonen **Filter** ![Filterikon](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete** .\
    Filterverktygslådan visas till höger.
 
-1. För musen över ett filter, klicka sedan på menyn **Mer** ![](assets/more-menu.png) och klicka på **Ta bort**.
-   ![](assets/filter-more-menu-options-wb.png)
+1. För musen över ett filter, klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Ta bort**.
+   ![Menyn Filtrera mer](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -365,12 +365,12 @@ Tänk på följande när du delar filter i Utjämning av arbetsbelastning:
 Dela ett filter:
 
 1. Gå till Utjämning av arbetsbelastning
-1. Klicka på ikonen **Filter** ![](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete**.\
+1. Klicka på ikonen **Filter** ![Filterikon](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat arbete** eller **Tilldelat arbete** .\
    Filterverktygslådan visas till höger.
 
-1. För musen över ett filter och klicka sedan på menyn **Mer** ![](assets/more-menu.png) och på **Dela.**
+1. För musen över ett filter och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Dela.**
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Menyn Filtrera mer](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -388,7 +388,7 @@ Dela ett filter:
 
 1. (Valfritt) Klicka på högerpilen bredvid namnet på en enhet för att redigera deras behörigheter till filtret och aktivera sedan antingen alternativet **Visa** eller **Hantera**.
 
-   ![](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
+   ![Filterbehörigheter](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
 
 1. (Valfritt) Aktivera eller inaktivera ytterligare behörigheter för en enhet genom att göra något av följande:
 
@@ -404,7 +404,7 @@ Dela ett filter:
 
    Filtren som du delade visas i området **Delade med mig** i filterrutan.
 
-   ![](assets/new-filters-shared-with-me-area-wb-350x236.png)
+   ![Delad med mig](assets/new-filters-shared-with-me-area-wb-350x236.png)
 
 <!--   
 
@@ -415,8 +415,8 @@ You can mark a filter as a favorite for quicker access to it.
 The filters that you mark as a favorite do not count towards your system Favorites list. There is no limit for how many filters you can favorite. 
 
 1. Go to the Workload Balancer
-1. Click the **Filter** icon ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
-1. Mouse over a filter, then click the **Favorite** ![](assets/favorites-icon-small.png). 
+1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
+1. Mouse over a filter, then click the **Favorite** ![Favorites icon](assets/favorites-icon-small.png). 
 (NOTE: insert screen shot here with Favorite as part of this menu - same as above ones but with Favorite)
 1. The filter is listed in the **Favorited** section inside the filter panel. 
 1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters

@@ -6,9 +6,9 @@ description: Du kan tilldela resurser till flera uppgifter och flera problem sam
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
+   <td>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
-1. Klicka på **Masstilldelningar** ![](assets/bulk-assignments-wb.png) överst i arbetsbelastningsutjämnaren.
+1. Klicka på **Masstilldelningar** ![Masstilldelningar](assets/bulk-assignments-wb.png) överst i arbetsbelastningsutjämnaren.
 
    Panelen Grupptilldelning öppnas till höger om Utjämning av arbetsbelastning.
 
@@ -99,7 +99,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Projektnamnet är markerat som standard när du öppnar arbetsbelastningsutjämnaren för ett projekt.
 
-   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![Projektnamn i grupptilldelningar](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Valfritt) Klicka på **Välj projektuppgifter** för att välja den eller de uppgifter som du vill tilldela till. Välj sedan aktiviteter efter namn (standardalternativet) eller Status i listrutan **Aktivitet: Namn** och använd filtermodifierarna för att söka efter specifika uppgifter.
 
@@ -109,13 +109,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Du kan inte välja uppgifter med statusen Slutför.
 
-   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![Aktivitetsstatus i grupptilldelningar](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
    >[!TIP]
    >
    >Lämna det här valet tomt om du vill göra grupptilldelningar för både ärenden och uppgifter.
 
-1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/delete.png) bredvid ett av de valda villkoren
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort](assets/delete.png) bredvid ett av de valda villkoren
 
    eller
 
@@ -149,7 +149,7 @@ Så här tilldelar du en användare till arbetsuppgifter som tidigare tilldelats
 
 1. Klicka på listrutepilen i fältet **Rolltilldelning** och välj en roll i en lista. Endast roller som för närvarande är tilldelade i de angivna projekten visas. Detta är ett obligatoriskt fält.
 
-   ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   ![Rolltilldelning](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
 1. Klicka på listrutepilen i fältet **Användare som ska tilldelas** för att välja från en lista med föreslagna användare eller för att ange en annan användares namn.
 
@@ -176,7 +176,7 @@ Så här tilldelar du en användare till arbetsuppgifter som tidigare tilldelats
 
    Du får en bekräftelse på hur många arbetsobjekt som har ersatts med den valda rollen.
 
-   ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![Bekräftelse av grupptilldelning](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### Ersätt användare {#replace-user}
 
@@ -194,13 +194,13 @@ Så här ersätter du en användare med en annan användare:
 1. Börja tilldela arbetsobjekt i arbetsbelastningsutjämnaren enligt beskrivningen ovan och välj **Ersätt**.
 1. Klicka på listrutepilen i fältet **Aktuellt tilldelad användare** och välj en användare i en lista. Endast användare som för närvarande är tilldelade till ofullständiga arbetsobjekt i de angivna projekten visas. Detta är ett obligatoriskt fält.
 
-   ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+   ![Ersätt användare](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
 1. I fältet **Användare som ska tilldelas** klickar du på listrutepilen för att välja från en lista med föreslagna användare eller för att ange ett annat användarnamn. Användare som visas i listan matchar som standard villkoren för smarta uppdrag. Mer information finns i [Översikt över smarta uppdrag](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront visar en anteckning om hur många objekt den aktuella tilldelade användaren ska ersätta den andra användaren och vilka roller de ska ersätta.
 
-   ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+   ![Bekräftelse om att användare har ersatts gruppvis](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
 1. Klicka på **Ersätt**.
 
@@ -227,11 +227,11 @@ Så här tar du bort tilldelningen för en användare från arbetsobjekt i de ma
 
 1. Klicka på listrutepilen i fältet **Användare för att ta bort tilldelning** och välj en användare i en lista. Endast användare som för närvarande är tilldelade till ofullständiga arbetsobjekt i de angivna projekten visas. Detta är ett obligatoriskt fält.
 
-   ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![Ta bort användartilldelning](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
    Workfront visar en anteckning om antalet objekt där den aktuella tilldelade användaren inte kommer att tilldelas.
 
-   ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
+   ![Bekräftelse för massborttagning av tilldelning](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. Klicka på **Ta bort tilldelning**.\
    Du får en bekräftelse på antalet arbetsobjekt där den angivna användaren togs bort.
