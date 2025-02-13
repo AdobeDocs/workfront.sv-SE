@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -175,15 +175,11 @@ Så här delar du en arbetsyta med andra:
 
 1. Öppna arbetsytan som du vill dela och klicka sedan på **Dela** i skärmens övre högra hörn.
 
-   ![](assets/share-button-on-workspace-top-right.png)
+   ![Knappen Dela på arbetsytan längst upp till höger](assets/share-button-on-workspace-top-right.png)
 
-1. I fältet **Bevilja arbetsyteåtkomst till** börjar du skriva namnet på en användare, grupp, <span class="preview">team, företag eller jobbroll</span> och klickar sedan på det när det visas i listan.
+1. I fältet **Bevilja åtkomst till den här arbetsytan** börjar du skriva namnet på en användare, grupp, <span class="preview">team, företag eller jobbroll</span> och klickar sedan på den när den visas i listan.
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![Dela användargränssnitt med grupper](assets/sharing-ui-with-groups.png)
 
 1. Välj någon av följande behörighetsnivåer i listrutan:
    * Visa
@@ -202,16 +198,16 @@ Användare som har åtkomst till en länk till en arbetsyta som de inte har beh�
 1. (Villkorligt) Om du är chef för en arbetsyta kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
    * Ett meddelande i appen
-     ![](assets/in-app-notification-for-access-request.png)
+     ![Meddelande i programmet om åtkomstbegäran](assets/in-app-notification-for-access-request.png)
    * Ett e-postmeddelande
-     ![](assets/email-notification-for-access-request.png)
+     ![E-postmeddelande om åtkomstbegäran](assets/email-notification-for-access-request.png)
 1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
 eller
 Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på meddelandet i listan.
 
    Rutan **Väntande åtkomstbegäranden** visas.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![Godkännanderuta för meddelandelista](assets/notifications-list-approval-box.png)
 
 1. (Valfritt) För den användare vars behörigheter du vill godkänna väljer du något av följande alternativ på den nedrullningsbara menyn till höger om användarens namn:
    * **Visa**

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '7694'
+source-wordcount: '7828'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -170,7 +170,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
    * [Utgivningsinställningar](#issue-settings)
    * [Åtkomst](#access)
    * [Länkade mappar](#linked-folders-conditional-availability) (villkorlig tillgänglighet)
-     <!--* <span class="preview">[Comment](#comment)</span>-->
+   * <span class="preview">[Kommentar](#comment)</span>
 
 
    >[!NOTE]
@@ -684,22 +684,19 @@ Instruktioner om hur du redigerar länkade mappar finns i [Redigera arbetsflöde
 >
 >Eftersom länkade mappar skapas när projektet skapas är det ineffektivt att redigera arbetsflödet för länkade mappar i ett befintligt projekt. Redigera dessa värden när du skapar en projektfunktion som förväntat.
 
-<!--
 <div class="preview">
 
-### Comment
+### Kommentar
 
-1. Begin editing your project as described above.
-1. Click **Comment** in the left panel.
+1. Börja redigera ditt projekt enligt beskrivningen ovan.
+1. Klicka på **Kommentar** i den vänstra panelen.
 
    ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
 
-1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Click **Save**. 
+1. Lägg till en kommentar i det tillgängliga utrymmet. Workfront lägger till kommentaren under Uppdateringar i projektet. Mer information om hur du uppdaterar arbete finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Klicka på **Spara**.
 
 </div>
-
--->
 
 ## Redigera ett projekt i projekthuvudet (begränsat)
 
@@ -824,7 +821,7 @@ Mer information om hur du redigerar området Aktivitetsinställningar finns i av
 Mer information om hur du redigerar området för probleminställningar finns i avsnittet [Ärendeinställningar](#issue-settings) i den här artikeln.
 1. Klicka på **Åtkomst** om du vill redigera åtkomstinställningarna för alla markerade projekt.
 Mer information om hur du redigerar åtkomstområdet finns i avsnittet [Åtkomst](#access) i den här artikeln.
-   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
+1. <span class="preview">Klicka på **Kommentar** och lägg sedan till en kommentar i det angivna utrymmet. Workfront lägger till kommentaren i området **Uppdateringar** i varje projekt. Mer information om att uppdatera arbete finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
 1. (Valfritt) Om du vill ta bort någon av informationen som du har lagt till i rutan Redigera projekt håller du pekaren över ett redigerat fält och klickar sedan på ikonen **x** till det övre högra hörnet av fältet.
 
    ![Ignorera ikonen för fältredigeringsprojekt i grupp](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)

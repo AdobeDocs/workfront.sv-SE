@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1583'
 ht-degree: 0%
 
 ---
@@ -200,9 +200,9 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
 
    Då öppnas posttypssidan.
 
-1. Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
+1. Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![Fler menyer för vyer utökade med delningsalternativ](assets/more-menu-for-views-expanded-with-share-option.png)
 
    Fliken **Intern delning** bör vara markerad som standard.
 
@@ -211,13 +211,9 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
    * **Endast inbjudna personer har åtkomst till**: Du måste ange användare, grupper, <span class="preview">team, företag eller jobbroll</span> som du vill dela vyn med. Det här är standardalternativet.
    * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytor kan komma åt vyn.
 
-1. I fältet **Bevilja åtkomst till** kan du börja skriva namnet på en användare, en grupp, <span class="preview">team, företag eller jobbroll</span> och sedan klicka på den när den visas i listan.
+1. I fältet **Bevilja åtkomst till den här vyn** börjar du skriva namnet på en användare, en grupp, <span class="preview">team, företag eller jobbroll</span> och klickar sedan på den när den visas i listan.
 
-   <div class="preview">
-
-   ![](assets/sharing-a-view-ui-with-groups.png)
-
-   </div>
+   ![Dela en vy med grupper](assets/sharing-a-view-ui-with-groups.png)
 
 1. Välj någon av följande behörighetsnivåer i listrutan:
    * Visa
@@ -230,7 +226,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
 1. Klicka på **Kopiera länk** för att kopiera en länk till vyn till Urklipp.
 1. Klicka på **Spara**.
 
-   Vyn uppdateras med en personikon ![](assets/view-shared-with-others-people-icon.png) som anger att vyn nu delas med andra användare.
+   Vyn uppdateras med en personikon ![Vyn som delas med andra ikoner](assets/view-shared-with-others-people-icon.png) för att ange att vyn nu delas med andra användare.
 
    >[!TIP]
    >
@@ -255,25 +251,25 @@ Så här delar du en vy offentligt i Workfront Planning:
 
    Då öppnas posttypssidan.
 
-1. Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
+1. Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![Fler menyer för vyer utökade med delningsalternativ](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. Klicka på **Offentlig delning**.
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![Fliken Dela offentligt för vyer](assets/public-sharing-tab-for-views.png)
 
 1. Aktivera inställningen **Skapa offentlig länk**.
 
    En länk blir tillgänglig. Det här är en offentlig länk. När de delas kan alla som har länken, även personer utanför organisationen, få åtkomst till posttypssidan och visa poster och fält på sidan.
 
-1. Klicka på ikonen **Kopiera länk** ![](assets/copy-link-view.png) för att kopiera länken till Urklipp.
+1. Klicka på ikonen **Kopiera länk** ![Kopiera länkvy](assets/copy-link-view.png) för att kopiera länken till Urklipp.
 
 1. Ange ett datum manuellt eller använd kalendern i fältet **Länkens förfallodatum** för att välja ett förfallodatum för den offentliga länken. Postsidvyn är inte tillgänglig efter det valda datumet.
 
 1. Klicka på **Spara**.
 
-   Vyn uppdateras med den globala ikonen ![](assets/public-shared-view-icon-highlighted.png) som anger att vyn delas offentligt.
+   Vyn uppdateras med den globala ikonen ![Offentlig delad vy markerad](assets/public-shared-view-icon-highlighted.png) för att visa att vyn delas offentligt.
 
    >[!TIP]
    >
@@ -289,16 +285,16 @@ Användare som har åtkomst till en länk till en vy som de inte har behörighet
 1. (Villkorligt) Om du är vyhanterare kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
    * Ett meddelande i appen
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![Meddelande i appen om åtkomstbegäran för vyn](assets/in-app-notification-for-access-request-for-view.png)
    * Ett e-postmeddelande
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![Meddelande i appen om åtkomstbegäran för vyn](assets/in-app-notification-for-access-request-for-view.png)
 1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
 eller
 Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på meddelandet i listan.
 
    Rutan **Väntande åtkomstbegäranden** visas.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![Godkännanderuta för meddelandelista](assets/notifications-list-approval-box.png)
 1. (Valfritt) För den användare vars behörigheter du vill godkänna väljer du något av följande alternativ på den nedrullningsbara menyn till höger om användarens namn:
    * **Visa**
    * **Hantera**
@@ -312,7 +308,7 @@ Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på me
 {{step1-to-planning}}
 
 1. Öppna arbetsytan vars vy du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
-1. Håll muspekaren över fliknamnet för den vy du vill ta bort delning från och klicka på menyn **Mer** ![](assets/more-menu.png) och sedan på **Dela**.
+1. Håll muspekaren över fliknamnet för den vy du vill ta bort delning från och klicka på menyn **Mer** ![Mer](assets/more-menu.png) och sedan på **Dela**.
 1. Så här tar du bort den interna delningen av en vy:
 
    1. Kontrollera att fliken **Intern delning** är markerad.
