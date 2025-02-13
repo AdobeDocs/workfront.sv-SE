@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adobe Workfront Planning AI Assistant - översikt
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -45,6 +45,8 @@ Användarens kommandon och AI:ns körning av dessa kommandon fungerar tillsamman
 
 * Du kan använda kommandon för att ångra åtgärder. Du kan t.ex. skriva &quot;Ångra den senaste ändringen&quot; för att ångra ändringen.
 
+* <span class="preview"> När du skapar, uppdaterar eller tar bort ett objekt med hjälp av AI Assistant, visas de tänkta åtgärderna och en bekräftelse begärs. Du kan sedan bekräfta eller avbryta åtgärderna. </span>
+
 ## Funktioner som är tillgängliga för AI-assistenten
 
 AI Assistant finns för närvarande i Planning-delen av Workfront för följande sidor:
@@ -59,7 +61,7 @@ Du kan nu använda AI-assistenten för att utföra följande åtgärder:
 * Skapa poster. Ett ID med en länk till den nya posten visas när posten har skapats. Du kan ange de fält som du vill uppdatera när du skapar, t.ex. datum eller beskrivning.
 * Skapa poster baserat på ett dokument som du överför. Workfront stöder följande dokumentformat för AI-assistenten:
 
-  .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt och de flesta bildformat
+  PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT och de flesta bildformat
 * Uppdatera fält för de poster som visas på skärmen
 * Ta bort poster
 * Återställ poster som du just har tagit bort
