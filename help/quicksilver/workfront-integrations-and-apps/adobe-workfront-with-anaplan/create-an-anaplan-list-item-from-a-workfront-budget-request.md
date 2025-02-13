@@ -6,9 +6,9 @@ description: Det här integreringsscenariot länkar ett [!DNL Adobe Workfront] p
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Detta scenario är schemalagt att köras var 15:e minut.
 
 Du måste ha följande i [!DNL Workfront] för att kunna använda det här scenariot:
 
-* En användarprofil i [!DNL Workfront] med namnet *[!UICONTROL *[!DNL Anaplan] Integration]** som har systemadministratörsbehörighet.
+* En användarprofil i [!DNL Workfront] med namnet **[!DNL Anaplan]Integration** som har systemadministratörsbehörighet.
 
   Mer information om hur du skapar en användare i [!DNL Workfront] finns i [Lägg till användare](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
