@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -113,11 +113,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader">Logga ut användare automatiskt efter</td> 
-      <td> Här kan du ange när en användare loggas ut från Workfront efter en viss inaktivitetsperiod. Som standard loggas användare ut efter 8 timmars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p> </td> 
+      <td> Här kan du ange när en användare loggas ut från Workfront efter en viss inaktivitetsperiod. Som standard loggas användare ut efter 8 timmars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p> <p>Den här inställningen är inte tillgänglig för organisationer som har migrerats till Adobe IMS.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Logga ut användare automatiskt efter </td> 
-      <td>Här kan du ange när en användare är utloggad från Workfront-programmet, efter en tids inaktivitet. Som standard loggas användare ut efter 7 dagars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p></td> 
+      <td>Här kan du ange när en användare är utloggad från Workfront-programmet, efter en tids inaktivitet. Som standard loggas användare ut efter 7 dagars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p> <p>Den här inställningen är inte tillgänglig för organisationer som har migrerats till Adobe IMS.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anpassad hjälp-URL</td> 
