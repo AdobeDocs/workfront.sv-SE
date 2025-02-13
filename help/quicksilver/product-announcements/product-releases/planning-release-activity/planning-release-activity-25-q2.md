@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Granska och bekräfta åtgärder som vidtagits av AI Assistant
+
+>[!NOTE]
+>
+>Förhandsversion: 13 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+För att göra det enklare att se till att AI Assistant vidtar de åtgärder du vill kan du nu granska och bekräfta åtgärderna innan de utförs. När du nu anger en uppmaning som utför en åtgärd som att skapa, uppdatera eller ta bort en post, visas de åtgärder som ska utföras i AI Assistant och du uppmanas bekräfta att de är de rätta åtgärderna.
+
+Tidigare var det här bekräftelsesteget inte tillgängligt.
 
 ## Funktioner som lagts till i formelfält
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->Förhandsversion: 30 januari 2025; Produktion för snabb release: Med version 25.2 (februari 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+>Förhandsversion: 30 januari 2025; Produktion för snabb release: Med version 25.2 (13 februari 2025); Produktion för kvartalsvis publicering: Med version 25.4 (april 2025)
 
 Nu kan du dela vyer och arbetsytor med team, jobbroller och företag i Workfront Planning. Före den här förbättringen kan du dela vyer och arbetsytor med användare och grupper.
 
@@ -62,7 +72,7 @@ Mer information finns i följande artiklar:
 
 >[!NOTE]
 >
->Förhandsversion: 23 januari 2025; Produktion för snabb release: Med version 25.2 (februari 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+>Förhandsversion: 23 januari 2025; Produktion för snabb release: Med version 25.2 (13 februari 2025); Produktion för kvartalsvis publicering: Med version 25.4 (april 2025)
 
 Nu kan du kopiera text från en extern källa till Workfront och klistra in den i ett fält som är anslutet till Workfront Planning eller i ett fält av typen Personer. Den här förbättringen är tillgänglig när du redigerar poster i tabellvyn.  Texten måste matcha en befintlig användare (för fält av typen Personer) eller en befintlig post eller ett befintligt objekt (för en ansluten post). Du kan kopiera och klistra in flera värden för flera fält och uppdatera poster samtidigt.
 
@@ -74,7 +84,7 @@ Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edi
 
 >[!NOTE]
 >
->Förhandsversion: 23 januari 2025; Produktion för snabb release: Med version 25.2 (februari 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+>Förhandsversion: 23 januari 2025; Produktion för snabb release: Med version 25.2 (13 februari 2025); Produktion för kvartalsvis publicering: Med version 25.4 (april 2025)
 
 I den här versionen har vi uppdaterat filterverktyget i Workfront Planning så att det går att använda flernivåfilter.
 
@@ -92,7 +102,7 @@ Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/man
 
 >[!NOTE]
 >
->Förhandsversion: 22 januari 2025; Produktion för snabb release: Med version 25.2 (februari 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+>Förhandsversion: 22 januari 2025; Produktion för snabb release: Med version 25.2 (13 februari 2025); Produktion för kvartalsvis publicering: Med version 25.4 (april 2025)
 
 Nu kan du skapa projekt med en mall medan du kopplar projekt till befintliga poster.
 
@@ -106,7 +116,7 @@ Mer information finns i [Skapa Workfront-objekt från Workfront Planning](/help/
 
 >[!NOTE]
 >
->Förhandsversion: 22 januari 2025; Produktion för snabb release: Med version 25.2 (februari 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+>Förhandsversion: 22 januari 2025; Produktion för snabb release: Med version 25.2 (13 februari 2025); Produktion för kvartalsvis publicering: Med version 25.4 (april 2025)
 
 För att du ska få bättre synlighet när du spelar in titlar på sidhuvudet på visningssidan har vi förbättrat för att ge titlarna mer utrymme, förhindra överlappning och hantera trunkering på ett smidigt sätt.
 

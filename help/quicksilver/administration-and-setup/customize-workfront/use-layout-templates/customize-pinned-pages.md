@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ När du har konfigurerat en layoutmall måste du tilldela den till användare f�
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td><p>Nytt: Standard</p>
-  <p> Aktuell: Planera</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -57,7 +64,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +84,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
       * Mål
       * Startsida
       * Mina uppdateringar
-      * Portfolio
+      * Portföljer
       * Program
       * Projekt
       * Rapporter
@@ -91,23 +98,28 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
       * Utkast
       * Planering
 
-   >[!IMPORTANT]
-   >
-   >För att visa områdena Scenarier, Mål och Planning krävs ytterligare licenser.
-   >
-   >* Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
-   >
-   >* Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
-   >
-   >* Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+     >[!IMPORTANT]
+     >
+     >För att visa mål-, scenario- och planeringsområdena krävs ytterligare licenser.
+     >
+     >* Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >
+     >* Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+     >
+     >* Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-   * Klicka på **Lägg till en instrumentpanel**, skriv en beskrivande **anpassad avsnittsrubrik** och lägg till instrumentpanelen.
+   * Klicka på **Lägg till en instrumentpanel**
+      * Skriv ett beskrivande namn i fältet <!--**Quick link name**-->**Eget namn**
+      * Välj en instrumentpanel i fältet **Lägg till en instrumentpanel** <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
+      * Klicka på **Lägg till**.
 
 1. Upprepa föregående steg om du vill fästa andra sidor.
 
-1. (Valfritt) Om du vill byta namn på ett häftstift håller du pekaren över stiftet, klickar på pilen bredvid nålnamnet och väljer **Byt namn på häftstiftet**. Skriv det nya stiftnamnet och klicka på bockmarkeringsikonen eller tryck på Retur.
+1. (Valfritt) Om du vill flytta ett häftstift håller du pekaren över stiftet och klickar på ikonen Mer ![Mer](assets/more-icon.png) bredvid nålnamnet. Klicka sedan på **Flytta åt vänster** eller **Flytta åt höger** om du vill flytta stiftet i vald riktning eller på **Flytta längst fram** om du vill flytta stiftet till den vänstra positionen.
 
-   Ett litet popup-fönster visas i flera sekunder efter att du har klickat på bockmarkeringen eller tryckt på Retur, så att du kan ångra ändringen av nålens namn innan det sparas.
+1. (Valfritt) Om du vill byta namn på ett häftstift håller du pekaren över stiftet och klickar på ikonen Mer ![Mer](assets/more-icon.png) bredvid nålnamnet. Klicka sedan på **Byt namn på häftstiftet**. Ange ett nytt namn och klicka sedan på **Spara**.
+
+1. (Valfritt) Om du vill ta bort ett häftstift håller du pekaren över stiftet och klickar på ikonen Mer ![Mer](assets/more-icon.png) bredvid nålnamnet. Klicka sedan på **Ta bort häftstift**.
 
 1. Fortsätt att anpassa layoutmallen.
 

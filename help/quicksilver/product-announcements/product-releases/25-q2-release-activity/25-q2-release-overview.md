@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 
 | Månadsrelease | Kvartalsvis utgivning |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (februari 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (april 2025)</li></ul> | <ul><li>25.4 (april 2025)</li></ul> |
+| <ul><li>25.2 (13 februari 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (april 2025)</li></ul> | <ul><li>25.4 (april 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -37,6 +37,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 ## Adobe Workfront-förbättringar
 
 * [Administratörsförbättringar](#administrator-enhancements)
+* [Projektförbättringar](#project-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -49,13 +50,39 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Uttryck som lagts till i beräknade anpassade fält</a></p>
-            <p>Följande uttryck är nu tillgängliga i Workfront beräknade anpassade fält: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT och ADDHOUR. Definitioner och exempel på varje uttryck finns i beräkningsredigeraren och på Experience League.</p>
+            [!BADGE In production ]{type=Informative}
+            <p>Följande uttryck är nu tillgängliga i Workfront beräknade anpassade fält: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT och ADDHOUR. Definitioner och exempel på varje uttryck finns i beräkningsredigeraren och i Experience League.</p>
         </td>
         <td>
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsgranskningsversion: 31 januari 2025</li>
                 <li><span class="preview">Produktionsrelease för alla kunder: 31 januari 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Projektförbättringar
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Lägga till en kommentar i projekt när du redigerar dem i rutan Redigera projekt</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Nu kan du lägga till en kommentar i ett projekt när du redigerar det i rutan Redigera projekt. Du kan också lägga till en kommentar i flera projekt samtidigt när du redigerar dem i grupp. Före den här uppdateringen fanns inte den här funktionen när du redigerade projekt.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 13 februari 2025</li>
+                <li>Produktion för snabb lansering: Med version 25.3 (mars 2025)</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.4 (april 2025)</li>
             </ul>
         </td>
     </tr>                          
@@ -72,39 +99,44 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Representera Adobe Admin Console användarändringar som"System" i Workfront uppdateringsfeed</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>När administratören för Adobe Admin Console nu gör en ändring i användarinformationen för en Workfront-användare, registrerar Workfront denna ändring på fliken Systemaktivitet i användarens uppdateringsområde som tillhör "System". Detta avser Adobe Admin Console-administratören.</p>
         </td>
         <td>
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 23 januari 2025</li>
-                <li>Produktion för snabb lansering: Med version 25.2 (februari 2025)</li>
+                <li>Produktion för snabb lansering: Med version 25.2 (13 februari 2025)</li>
                 <li>Produktionsrelease för alla kunder: Med version 25.4 (april 2025)</li>
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            Uppdateringar av utseende och känsla under andra kvartalet 2025</a></p>
+            <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för andra kvartalet 2025. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
-                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <li>Förhandsgranskningsversion: Under den andra kvartersutgåvan 2025</li>
+                <li><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>
 
-<!--
-### Functionality soon to be removed from Workfront
+### Funktioner som snart ska tas bort från Workfront
 
-The following functionality is soon to be removed from Workfront:
--->
+Följande funktioner kommer snart att tas bort från Workfront:
+
+#### Vi tar bort den äldre Agile-vyn i ett projekt
+
+Den äldre Agile-vyn i ett projekt kommer att tas bort från Workfront med version 25.3 den 13 mars 2025. Du kan fortfarande visa dina uppgifter i en Agile-vy i ett projekt genom att klicka på ikonen för anslagstavlor.
+
+Mer information om hur du använder vyn Agile finns i [Hantera ett projekt i vyn Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Meddelanden
 
@@ -154,4 +186,4 @@ Mer information om underhållsuppdateringar som gjordes under andra kvartersvers
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
