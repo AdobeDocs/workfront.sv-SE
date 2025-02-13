@@ -2,20 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Installera och öppna [!DNL Adobe Workfront for design and video]
-description: Du kan installera  [!DNL Adobe Workfront for design and video]  från Adobe Marketplace.
+description: Du kan installera [!DNL Adobe Workfront for design and video]  från Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
 
 # Installera och öppna [!DNL Adobe Workfront for design and video]
 
-Du kan installera [!DNL Adobe Workfront for design and video] från [!DNL Adobe Marketplace]. Detta plugin-program har stöd för följande Creative Cloud-program:
+Du kan installera [!DNL Adobe Workfront for design and video] från [!DNL Adobe Marketplace]. Detta plugin-program stöder följande Creative Cloud-program:
 
 {{cc-plugin-app-list}}
 
@@ -92,7 +92,7 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
 
 ## Öppna [!DNL Adobe Workfront for design and video]
 
-1. Öppna det plugin-program för Creative Cloud som du vill använda.
+1. Öppna det Creative Cloud-plugin som du vill använda.
 
 1. Skapa ett nytt projekt eller öppna ett befintligt.
 
@@ -107,7 +107,7 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
 
    >[!TIP]
    >
-   >Om du inte ser [!DNL Adobe Workfront for design and video] när du har öppnat den från menyn Tillägg kan det finnas bakom appen Creative Cloud. Försök att minimera appen för att hitta plugin-programmet.
+   >Om du inte ser [!DNL Adobe Workfront for design and video] när du har öppnat den från menyn Tillägg kan det finnas bakom Creative Cloud-appen. Försök att minimera appen för att hitta plugin-programmet.
 
 1. Fortsätt till följande avsnitt för information om hur du loggar in på [!DNL Adobe Workfront for design and video].
 
@@ -123,7 +123,7 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
    >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
    >![Hitta domän](assets/domain-350x50.png)
    >
-   > * Om din Workfront-instans är integrerad med Experience Cloud ber du din administratör att ge dig den Workfront-domän som finns under Product > Workfront i Admin Console.
+   > * Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
 
 1. Ange dina [!DNL Workfront]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 
@@ -141,3 +141,25 @@ Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL
 1. Klicka på **[!UICONTROL Allow Access]** för att slutföra inloggningen.
 1. Gå tillbaka till [!DNL Adobe Photoshop] för att se ditt arbete.
 
+### Felsökning av inloggningsfel
+
+Felet **&quot;Något gick fel&quot; visas när du försöker logga in**
+
+
+Du kan inte använda en URL som börjar med `experience.adobe.com` för att logga in i plugin-programmet.
+
+![inloggningsfel](assets/plugin-log-in-error.png) ![domän](assets/incorrect-domain.png)
+
+
+För att åtgärda problemet
+
+1. Ta bort mappen som lagrar domänen för plugin-programmet.
+
+   >[!TIP]
+   >
+   >Gå till Finder på en Mac och tryck på **Kommando+Skift+.** om du vill visa dolda mappar går du till **/Users//Library/Application Support** och tar sedan bort mappen **Workfront**.
+
+
+1. Gå tillbaka till plugin-programmet och ange din Workfront-domän. Domänen måste vara `company-name.my.workfront.com` och inte `experience.adobe.com`.
+
+   Om du vill [hitta din Workfront-domän](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) om du använder Adobe Unified Experience går du till Konfigurera, Kundinformation.

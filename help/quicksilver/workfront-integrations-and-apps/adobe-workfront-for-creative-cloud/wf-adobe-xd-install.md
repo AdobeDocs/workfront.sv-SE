@@ -6,9 +6,9 @@ description: Du kan installera plugin-programmet Adobe Workfront for XD från Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Om du är [!DNL Adobe Admin Console]-administratör kan du inkludera plugin-prog
 
 Du kan installera plugin-programmet [!DNL Adobe Workfront for XD] själv från [!DNL Adobe Exchange].
 
-1. Gå till installationssidan [Adobe Workfront för XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) på Adobe Exchange.
+1. Gå till installationssidan för [Adobe Workfront för XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) på Adobe Exchange.
 1. Klicka på **Öppna [!DNL Adobe Creative Cloud] skrivbordsapp** i den dialogruta som visas.
 1. När plugin-hanteraren för [!DNL Adobe XD] öppnas klickar du på **[!UICONTROL Install]**.
 1. Läs informationen i dialogrutan och klicka sedan på **[!UICONTROL OK]**.
@@ -105,7 +105,7 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for XD] själv från [
    >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
    >![Hitta domän](assets/domain-350x50.png)
    >
-   > * Om din Workfront-instans är integrerad med Experience Cloud ber du din administratör att ge dig den Workfront-domän som finns under Product > Workfront i Admin Console.
+   > * Om din Workfront-instans är integrerad med Experience Cloud ber du administratören att ge dig den Workfront-domän som finns under Produkt > Workfront i Admin Console.
 
 1. Ange dina [!DNL Workfront]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!DNL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 
@@ -122,4 +122,20 @@ Du kan installera plugin-programmet [!DNL Adobe Workfront for XD] själv från [
 
 1. Klicka på **[!UICONTROL Allow Access]** för att slutföra inloggningen och gå tillbaka till [!DNL Adobe XD] för att se ditt arbete.
 
- 
+### Felsöka inloggningsfel
+
+Felet **&quot;Något gick fel&quot; visas när du försöker logga in**
+
+
+Du kan inte använda en URL som börjar med `experience.adobe.com` för att logga in i plugin-programmet.
+
+![inloggningsfel](assets/plugin-log-in-error.png) ![domän](assets/incorrect-domain.png)
+
+
+För att åtgärda problemet
+
+1. Avinstallera och installera om plugin-programmet Adobe Workfront for XD för att rensa domänen och felet.
+
+1. Ange din Workfront-domän. Domänen måste vara `company-name.my.workfront.com` och inte `experience.adobe.com`.
+
+Om du är med i Adobe Unified Experience kan du hitta din Workfront-domän på

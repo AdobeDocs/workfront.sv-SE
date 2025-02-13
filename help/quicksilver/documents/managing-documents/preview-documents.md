@@ -6,9 +6,9 @@ description: Du kan förhandsgranska ett dokument i området Dokument. Detta är
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,20 @@ Du måste ha följande:
 
 ## Förhandsgranska ett dokument
 
+Du kan förhandsgranska ett dokument i Workfront.
+
 1. Håll markören över raden som innehåller dokumentet i en dokumentlista och klicka sedan på **Dokumentinformation**.
 1. Klicka på dokumentets miniatyrbild på sidan som visas.
 
    * Om du inte har förberett dokumentet för granskning visas det på en ny webbläsarflik.
    * Om du har förberett dokumentet för granskning öppnas korrekturläsaren för att visa det.
+
+Följande filformat kan inte visas i förhandsvisningsfönstret:
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* PDF
