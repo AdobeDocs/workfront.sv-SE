@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,22 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ## Administration och installation
 
+### Gränssnittsuppdatering för anpassning av händelseaviseringsämnen
+
+**Förhandsversion: 13 februari 2025; börjar veckan 13 februari 2025**
+
+Vi har uppdaterat ämnesdialogrutan för händelsemeddelanden med en modernare design som är i linje med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Inställningar > E-post > Meddelanden > Händelsemeddelanden > Klicka på ett händelsemeddelande.
+
+### Gränssnittsuppdatering för Teams-området
+
+**Förhandsversion: 13 februari 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat Teams-området med en modernare design som överensstämmer med andra delar av Workfront.
+
+Om du vill visa inställningarna går du till Inställningar > Team.
+
 ### Gränssnittsuppdatering för inställningar för godkännandeprocess i installationsprogrammet
 
 **Förhandsversion: 6 februari 2025; Produktionsversion: ska tillkännages**
@@ -34,7 +50,7 @@ Om du vill visa inställningarna går du till Inställningar > Inställningar > 
 
 ### Gränssnittsuppdatering för området Godkännanden i Inställningar > Grupper
 
-**Förhandsversion: 30 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 30 januari 2025; Produktionsversion: Från 6 februari 2025**
 
 Vi har uppdaterat listorna Projekt, Uppgift och Utfärda godkännanden i Konfigurera > Grupper > Godkännanden med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -44,7 +60,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ### Gränssnittsuppdatering för sidan Korrekturroller i installationsprogrammet
 
-**Förhandsversion: 23 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 23 januari 2025; Produktionsversion: Från 30 januari 2025**
 
 Vi har uppdaterat utseendet på sidan Proof roles med en modernare design som är i linje med andra delar av Workfront.
 
@@ -72,7 +88,7 @@ Om du vill visa den här sidan går du till Inställningar > E-post > Meddelande
 
 ### Gränssnittsuppdatering för sidan E-postinbjudningar i installationsprogrammet
 
-**Förhandsversion: 23 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 23 januari 2025; Produktionsversion: Från 30 januari 2025**
 
 Vi har uppdaterat sidan för e-postinbjudningar med en modernare design som är konsekvent med andra delar av Workfront.
 
@@ -82,7 +98,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ### Gränssnittsuppdateringar för sidan Händelsemeddelanden i en grupp
 
-**Förhandsversion: 23 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsgranskningsversion: 23 januari 2025; börjar veckan 30 januari 2025**
 
 Vi har uppdaterat sidan med händelsemeddelanden i en grupp med en modernare design som är förenlig med andra delar av Workfront.
 
@@ -102,7 +118,7 @@ Om du vill visa den här sidan går du till Inställningar > E-post > Meddelande
 
 ### Gränssnittsuppdatering för dialogrutan Lägg till Sharepoint
 
-**Förhandsversion: 16 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsgranskningsversion: 16 januari 2025; börjar veckan den 30 januari 2025**
 
 Vi har uppdaterat dialogrutan Lägg till SharePoint i Inställningar > Dokument > Sharepoint-integrering med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -118,6 +134,14 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ## Agile
 
+### Gränssnittsuppdatering för Iterations - översikt
+
+**Förhandsversion: 13 februari 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat översiktssidan för Iterations med en modernare design som överensstämmer med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Teams > Choose a team > Iterations > Choose an iteration > Overview.
+
 ### Lägg till artiklar och ärenden i en iteration
 
 **Förhandsversion: 6 februari 2025; Produktionsversion: ska tillkännages**
@@ -126,7 +150,7 @@ Vi har uppdaterat dialogrutan Lägg till artikel och Lägg till med en modernare
 
 Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
 
-Om du vill visa den här ändringen går du till Team > Välj ett team > Iterations > Välj en upprepning och klickar sedan på **Ny artikel** eller **Nytt problem**.
+Om du vill visa den här ändringen går du till Teams > Choose a team > Iterations > Choose an iteration och klickar sedan på **New story** eller **New issue**.
 
 ### Gränssnittsuppdatering för Teams > Backlog
 
@@ -151,7 +175,7 @@ Om du vill visa den här ändringen går du till Team > Välj ett team > Iterati
 
 ### Lägg till artiklar och problem från eftersläpning
 
-**Förhandsversion: 30 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 30 januari 2025; Från 6 februari 2025**
 
 Vi har uppdaterat dialogrutan Lägg till artikel och Lägg till med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -159,11 +183,21 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersläpning och klickar sedan på **Ny artikel** eller **Nytt problem**.
 
+## Dokument
+
+### Gränssnittsuppdatering för Godkännandeområdet i ett dokument
+
+**Förhandsversion: 13 februari 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat godkännandeområdet i ett dokument med en modernare design som är förenlig med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till ett dokument > Klicka på Dokumentinformation > Godkännanden.
+
 ## Rapporter och kontrollpaneler
 
 ### Uppdaterad teamrapport med ny formatering
 
-**Förhandsversion: 30 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 30 januari 2025; Från 6 februari 2025**
 
 Vi har uppdaterat teamrapporten med en modernare design som är i linje med andra delar av Workfront.
 
@@ -174,7 +208,7 @@ Om du vill skapa en teamrapport går du till Rapporter > Ny rapport > Team.
 
 ### Uppdaterade e-postrapporter med ny formatering
 
-**Förhandsversion: 23 januari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 23 januari 2025; Produktionsversion: Från 6 februari 2025**
 
 Gränssnittet i följande e-postrapporter har uppdaterats:
 
