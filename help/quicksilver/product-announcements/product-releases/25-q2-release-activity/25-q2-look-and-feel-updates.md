@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -24,7 +24,9 @@ En lista över alla ändringar som är tillgängliga i den andra utgåvan av kva
 >
 >Förhandsversion: 13 februari 2025; Produktionsrelease för alla kunder: 13 februari 2025
 
-E-postmeddelanden som rör att lägga till eller dela dokument har inte längre någon miniatyrbild i e-postbrödtexten. Vissa kunder kommer också att se den gamla uppgiften och e-postmeddelandet om tilldelning, som endast visar den tilldelades avatar.
+E-postmeddelanden som rör att lägga till eller dela dokument har inte längre någon miniatyrbild i e-postbrödtexten.
+
+Vissa kunder kommer också att se den gamla uppgiften och e-postmeddelandet om tilldelning, som endast visar den tilldelades avatar.
 
 Dessa ändringar är tillfälliga när vi undersöker e-postförseningar.
 
