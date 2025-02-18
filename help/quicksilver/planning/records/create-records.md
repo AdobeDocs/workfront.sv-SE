@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ Du kan skapa poster genom att göra något av följande:
 * [Kopiera och klistra in en lista med poster från en extern lista](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
-* [Skapa dem genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Skapa poster genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Skapa poster när du importerar posttyper från en CSV- eller Excel-fil](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+
+<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
 
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
@@ -137,9 +139,9 @@ Alla poster av den valda typen visas i vyn.
       * Klicka på **Ny post** i den sista raden i tabellen
 
       * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Då läggs en tom rad till under den post du börjar från.
-      * Håll markören över en posts primära fält, klicka på menyn **Mer** ![](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.
+      * Håll markören över en posts primära fält, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.
 
-     ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![Lägger till en ny kampanj i tabellraden](assets/adding-a-new-campaign-in-table-row.png)
 
    * Från alla vyer:
 
@@ -162,14 +164,14 @@ Alla poster av den valda typen visas i vyn.
 
    eller
 
-   Klicka på den nya postens namn eller på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn. En förhandsgranskning med postens detaljerade information öppnas i tabellen.
+   Klicka på den nya postens namn eller på ikonen **Öppna detaljer** ![Öppna informationsikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn. En förhandsgranskning med postens detaljerade information öppnas i tabellen.
 
    >[!TIP]
    >
    >Du kan bara komma åt ikonen **Öppna detaljer** från postens namnfält när fältet Namn är ett primärt fält.
 
 1. Börja redigera postens information i postens förhandsgranskning. Workfront sparar automatiskt ändringarna.
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Valfritt) Använd följande kortkommandon om du vill ångra eller göra om tillägg av nya poster eller deras information när du lägger till dem i tabellvyn:
 
@@ -263,7 +265,7 @@ Så här skapar du poster när du kopplar dem från andra poster:
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-   ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![Lägg till knapp för att skapa poster i kontextmarkerad](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Posten skapas och läggs till i det anslutna postfältet.
 
@@ -297,3 +299,17 @@ Du kan importera poster när du importerar posttyper med hjälp av en CSV- eller
 
 Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
+<!--
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
+-->

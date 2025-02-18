@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Antal arbetsytor för en Workfront-instans | obegränsat* |
 | Antal avsnitt för en arbetsyta | 50 |
-| Antal posttyper för en arbetsyta | 1 000 (inkluderar posttyper från alla avsnitt och de som skapas när en arbetsytemall används) |
+| Antal posttyper för en arbetsyta | 100 (inkluderar posttyper från alla avsnitt och de som skapas när du använder en arbetsytemall) |
 | Antal poster för en posttyp | 25 000 |
 | Antal poster för en arbetsyta | 25 000 för kunder med Planning <br> 500 000 för kunder med Planning Plus |
 | Antal poster för en instans av Workfront Planning | 500 000 för kunder med Planning <br>2 miljoner för kunder med Planning Plus |
