@@ -7,9 +7,9 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2433'
 ht-degree: 0%
 
 ---
@@ -458,7 +458,8 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
   </tr> 
   <tr> 
    <td><strong>FORMAT</strong> </td> 
-   <td><p>Returnerar formaterad text. Färgalternativen är $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE och de andra formateringsalternativen är $$BOLD, $$ITALIC, $$UNDERLINE. Endast ett färgalternativ kan användas per funktion, tillsammans med upp till tre andra formateringsalternativ. Om inget färgalternativ anges används systemets standardfärg.</p>
+   <td><p>Returnerar formaterad text. Endast de parameteralternativ som anges här tillåts med FORMAT.</p>
+   <p>Färgalternativen är $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE och de andra formateringsalternativen är $$BOLD, $$ITALIC, $$UNDERLINE. Endast ett färgalternativ tillåts, tillsammans med upp till tre andra formateringsalternativ. Om inget färgalternativ anges används systemets standardfärg.</p>
    <p>Uttrycket formateras på följande sätt:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
