@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
     <tbody> 
      <tr> 
       <td role="rowheader">Se det</td> 
-      <td> <p>Möjlighet att visa och fylla i det anpassade formuläret på objekt.</p> <p><b>OBS!</b>: För användare med Light- och Contributor-licenser (eller Work-, Review- och Request-licenser) är detta det högsta tillgängliga alternativet.</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
+      <td> <p>Med det här alternativet kan du visa och fylla i det anpassade formuläret på objekt. På objektnivå måste användarna också ha åtminstone Contribute-åtkomst med den avancerade inställningen <strong>Redigera anpassat formulär</strong> aktiverad. Om formuläret till exempel är kopplat till ett projekt måste användarna ha Contribute-åtkomst till projektet, annars kan de inte fylla i formuläret.</p>
+
+   <p><b>OBS!</b>: För användare med Light- och Contributor-licenser (eller Work-, Review- och Request-licenser) är detta det högsta tillgängliga alternativet.</p>
+
+   <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
        <ul> 
         <li><strong>Koppla till anpassade data</strong>: Möjlighet att bifoga det anpassade formuläret till projekt, aktiviteter och ärenden som de har hanteringsåtkomst för</li> 
         <li> <p><strong>Dela</strong>: Möjlighet att dela det anpassade formuläret med andra i systemet</p> <p>Användare med en Light- eller Contributor-licens (eller Work-, Review- eller Request-licens) kan endast dela anpassade formulär via API:t eller en anpassad formulärrapport.</p> </li>
@@ -85,7 +89,7 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
      </tr> 
      <tr> 
       <td role="rowheader">Hantera det</td> 
-      <td> <p>Endast tillgängligt för användare med Standard- eller Plan-licens. </p> <p>Förutom att kunna lägga till formuläret i objekt som de har tillgång till för redigering kan användarna även redigera det anpassade formuläret fullständigt, inklusive lägga till, redigera och ta bort fält.</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
+      <td> <p>Det här alternativet är endast tillgängligt för användare som har en Standard- eller Plan-licens. </p> <p>Förutom att kunna lägga till formuläret i objekt som de har tillgång till för redigering kan användarna även redigera det anpassade formuläret fullständigt, inklusive lägga till, redigera och ta bort fält.</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
        <ul> 
         <li> <p><strong>Koppla till anpassade data</strong>: Möjlighet att bifoga det anpassade formuläret till projekt, aktiviteter och ärenden som de har hanteringsåtkomst för</p> </li> 
         <li><strong>Ta bort</strong>: Ta bort det anpassade formuläret från systemet</li> 
@@ -127,7 +131,9 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
     <tbody> 
      <tr> 
       <td role="rowheader">Se det</td> 
-      <td> <p>Möjlighet att visa och fylla i det anpassade formuläret på objekt.</p> <p><b>OBS!</b>: För användare med Light- och Contributor-licenser (eller Work-, Review- och Request-licenser) är detta det högsta tillgängliga alternativet.</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
+      <td> <p>Med det här alternativet kan du visa och fylla i det anpassade formuläret på objekt. På objektnivå måste användarna också ha åtminstone Contribute-åtkomst med den avancerade inställningen <strong>Redigera anpassat formulär</strong> aktiverad. Om formuläret till exempel är kopplat till ett projekt måste användarna ha Contribute-åtkomst till projektet, annars kan de inte fylla i formuläret.</p>
+
+   <p><b>OBS!</b>: För användare med Light- och Contributor-licenser (eller Work-, Review- och Request-licenser) är detta det högsta tillgängliga alternativet.</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
        <ul> 
         <li><strong>Koppla till anpassade data</strong>: Möjlighet att bifoga det anpassade formuläret till projekt, aktiviteter och ärenden som de har hanteringsåtkomst för</li> 
         <li> <p><strong>Dela</strong>: Möjlighet att dela det anpassade formuläret med andra i systemet</p> <p>Användare med en Light- eller Contributor-licens (eller Work-, Review- eller Request-licens) kan endast dela anpassade formulär via API:t eller en anpassad formulärrapport.</p> </li>
@@ -135,7 +141,7 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
      </tr> 
      <tr> 
       <td role="rowheader">Hantera det</td> 
-      <td> <p>Endast tillgängligt för användare med Standard- eller Plan-licens. </p> <p>Förutom att kunna lägga till formuläret i objekt som de har tillgång till för redigering kan användarna även redigera det anpassade formuläret fullständigt, inklusive lägga till, redigera och ta bort fält.</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
+      <td> <p>Det här alternativet är endast tillgängligt för användare som har en Standard- eller Plan-licens. </p> <p>Förutom att kunna lägga till formuläret i objekt som de har tillgång till för redigering kan användarna även redigera det anpassade formuläret fullständigt, inklusive lägga till, redigera och ta bort fält.</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
        <ul> 
         <li> <p><strong>Koppla till anpassade data</strong>: Möjlighet att bifoga det anpassade formuläret till projekt, aktiviteter och ärenden som de har hanteringsåtkomst för</p> </li> 
         <li><strong>Ta bort</strong>: Ta bort det anpassade formuläret från systemet</li> 
