@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,6 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
    * [Aktivitetsinställningar](#task-settings)
    * [Utgivningsinställningar](#issue-settings)
    * [Åtkomst](#access)
-   * [Länkade mappar](#linked-folders-conditional-availability) (villkorlig tillgänglighet)
    * <span class="preview">[Kommentar](#comment)</span>
 
 
@@ -667,22 +666,6 @@ Mer information om hur de här inställningarna påverkar hur du skapar nya uppg
    </table>
 
 1. Klicka på **Spara**.
-
-### Länkade mappar (villkorlig tillgänglighet) {#linked-folders}
-
-Med funktionen för länkade mappar skapas automatiskt mappar i Adobe Experience Manager Assets och mapparna kopplas till Workfront.
-
-Det här avsnittet visas bara om följande gäller:
-
-* Din organisation har migrerats till Adobe Admin Console
-* Din organisation har aktiverat och konfigurerat en integrering med Adobe Experience Manager
-* Mallen som används för att skapa projektet har aktiverat och konfigurerat länkade mappar.
-
-Instruktioner om hur du redigerar länkade mappar finns i [Redigera arbetsflödesvärden i ett projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) i artikeln [Använda arbetsflöden i Experience Manager Assets-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
->[!NOTE]
->
->Eftersom länkade mappar skapas när projektet skapas är det ineffektivt att redigera arbetsflödet för länkade mappar i ett befintligt projekt. Redigera dessa värden när du skapar en projektfunktion som förväntat.
 
 <div class="preview">
 

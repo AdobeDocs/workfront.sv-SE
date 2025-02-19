@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
   <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Visa eller ge senare åtkomst till projekt, program och Portfolio</p>  
+   <td> <p>Visa eller öka åtkomsten till projekt, program och portföljer</p>  
 </td>
   </tr>
 <tr>
@@ -97,7 +97,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Om du vill visa Planning-området eller Planning-avsnittet för ett Workfront-objekt måste alla användare, inklusive Workfront-administratörer, tilldelas en layoutmall som innehåller Planning-området på Main Menu (Huvudmeny) och Planning-området för projekt, portföljer och program. </p> Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt för Adobe-planering</a>. </p>  </p>  
+   <td> <p>Om du vill visa Planning-området eller Planning-avsnittet för ett Workfront-objekt måste alla användare, inklusive Workfront-administratörer, tilldelas en layoutmall som innehåller Planning-området på Main Menu (Huvudmeny) och Planning-området för projekt, portföljer och program. </p> Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt för Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
    * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.
    * Värdena för Workfront sökfält som är kopplade till Planning-posten tas också bort.
-1. Klicka på **Anslut** för att ansluta fler poster för de anslutna posttyperna. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+1. Klicka på **Anslut** för att ansluta fler poster för de anslutna posttyperna.
+
+   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+1. (Valfritt) Om du inte kan hitta någon post att ansluta och du vill lägga till den klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i avsnittet Skapa poster när du ansluter dem från andra poster i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    Följande saker händer:
 
@@ -233,7 +236,7 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
    >
    >Du kan inte lägga till poster i planeringsanslutningsfält som är kopplade till andra Workfront-objekt än det objekt som du markerade när fältet konfigurerades.
    >
-   >Du kan till exempel inte lägga till poster i ett Planning-anslutningsfält som har skapats för en Portfolio-anslutning från ett projekts anpassade formulär.
+   >Du kan till exempel inte lägga till poster i ett planeringsanslutningsfält som skapats för en Portfolio-anslutning från ett anpassat projektformulär.
    >
    >Det finns en indikation på att objektet i fältet och det markerade objektet inte matchar.
    >

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -256,10 +256,16 @@ Du måste ha följande innan du kan lägga till nya poster genom att koppla dem 
 
 Så här skapar du poster när du kopplar dem från andra poster:
 
-1. Börja ansluta Workfront Planning-poster enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md). Du kan koppla poster från ett anslutningsfält i följande områden i Workfront Planning:
+1. Börja ansluta Workfront Planning-poster enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md). Du kan koppla poster från följande områden:
 
-   * Tabellvyn
-   * Informationssidan eller förhandsvisningsrutan för en post
+   * Ett anslutningsfält i följande områden av Workfront Planning:
+
+      * Tabellvyn
+      * Informationssidan eller förhandsvisningsrutan för en post
+
+   * Ett anslutningsfält i planeringsavsnittet för ett projekt, en portfölj eller ett program i Workfront.
+
+     Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 1. (Villkorligt) Om du inte kan hitta en post när du försöker lägga till den från det anslutna postfältet för en annan post söker du efter en post och klickar sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter till. Exempel:&quot;Lägg till varumärken&quot; när du lägger till ett varumärke i en befintlig kampanj. Namnet som du skrev följer även knappen Lägg till.
 

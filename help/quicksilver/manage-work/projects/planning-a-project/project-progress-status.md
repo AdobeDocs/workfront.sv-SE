@@ -7,9 +7,9 @@ description: Adobe Workfront fastställer ett projekts förloppsstatus genom att
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Följande är statusvärdena för projekt i Workfront:
   </tr> 
   <tr> 
    <td>Risk</td> 
-   <td> Ett projekts förloppsstatus är <strong>Vid risk</strong> om <strong>alla</strong> av följande är sanna:<ul><li>Både beräknade och planerade slutförandedatum finns i framtiden</li><li> Både beräknade och planerade slutförandedatum är senare än det planerade slutförandedatumet</li><li> Det beräknade slutförandedatumet är senare än det planerade slutförandedatumet</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> Ett projekts förloppsstatus är <strong>Vid risk</strong> om <strong>alla</strong> av följande är sanna:<ul><li>Både beräknade och planerade slutförandedatum finns i framtiden</li><li> Det beräknade slutförandedatumet är senare än både det planerade slutförandedatumet och det planerade slutförandedatumet </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>Bakom</td> 

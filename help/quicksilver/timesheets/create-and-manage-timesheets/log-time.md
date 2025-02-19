@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '3824'
+source-wordcount: '3822'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa eller öka åtkomsten till den typ av arbetspost som du loggar tid för </p> <p>Du behöver till exempel Visa åtkomst till Problem för att kunna logga tid för problem</p> </td> 
+   <td> <p>Redigera åtkomst till den typ av arbetspost som du loggar tid för </p> <p>Du behöver till exempel Redigera-åtkomst till Problem för att kunna logga tid för problem</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 

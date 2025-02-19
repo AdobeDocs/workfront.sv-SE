@@ -4,9 +4,9 @@ description: Du kan konfigurera automatisering i Adobe Workfront Planning som, n
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller poster i Workfront Planning när de aktiveras från en Planning-post. De skapade objekten eller posterna ansluts automatiskt till de poster som du aktiverar automatiseringen från.
 
-Du kan konfigurera och aktivera automatiseringen på postens sida i Workfront Planning. Det anslutna objektet som skapas placeras i det anslutna fältet för den posttyp som du kör automatiseringen från.
+Du kan konfigurera och aktivera automatiseringen på posttypens sida i Workfront Planning. Det anslutna objektet som skapas placeras i det anslutna fältet för den posttyp som du kör automatiseringen från.
 
 Du kan till exempel skapa en automatisering som tar en Workfront Planning-kampanj och skapar ett projekt i Workfront för att spåra kampanjens utveckling. Projektet kopplas till Workfront Planning Campingkampanj i fältet Connected Project i kampanjen.
 
@@ -116,8 +116,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du skapar objekt och poster med hjälp av en automatisering
 
-* För nya Workfront-objekt är det nya objektnamnet detsamma som det postnamn som du skapade det från.
-* För nya planeringsposter kan du ange vilket ursprungligt postfält som ska användas för att fastställa den nya postens namn.
+* Det nya objektet eller postnamnet är samma som det postnamn som du skapade det från.
 * Nya objekt eller poster åsidosätter inte befintliga objekt i samma fält. Om samma automatisering aktiveras flera gånger för samma poster läggs nya objekt eller poster i samma kopplade fält i den ursprungliga posten till, förutom de som skapades tidigare.
 * I automatiseringen läggs ytterligare objekt bara till i många till många eller ett till många anslutningstypsfält. I alla andra fall skapar automatiseringen objektet, men det kopplas inte till den ursprungliga post som automatiseringen utlöses från.
 
@@ -227,7 +226,7 @@ Sidan med information om automatisering öppnas.
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
+You can configure and activate the automation in the record type's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
 
 For example, you could create an automation that takes a Workfront Planning campaign and creates a project in Workfront to track that campaign's progress. The project would be connected to the Workfront Planning campaign in the Connected Project field on the campaign.
 
@@ -309,10 +308,10 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about creating objects and records using an automation
 
-* For new Workfront objects, the new object name is the same as the record name from which you create it. 
-* For new Planning records, you can indicate what original record field should be used to determine the new record's name. 
+* The new object or record name is the same as the record name from which you create it. 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
-* The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. 
+
+(************hide this for now: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. ***************)
 
 ## Configure an automation in Workfront Planning
 
@@ -437,7 +436,7 @@ You must configure an automation for a record type in Workfront Planning before 
 
 ## Use a Workfront Planning automation to create an object or a record
 
-1. In Workfront Planning, open the record type page that contains the automation you want to use to autoamtically create and connect records or objects. 
+1. In Workfront Planning, open the record type page that contains the automation you want to use to automatically create and connect records or objects. 
 1. Open the table view. 
 1. Select one or more records.
    

@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '4720'
+source-wordcount: '4809'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Objektbehörigheter</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-behörigheter till en mall för att redigera den på fliken Mallinformation</p> </li> 
+     <li> <p>Contribute-behörigheter för en mall som du kan redigera på fliken Mallinformation</p> </li> 
      <li> <p>Hantera behörigheter för en mall för att redigera den i rutan Redigera mall</p> </li> 
    </td> 
   </tr> 
@@ -592,6 +592,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * [Aktivitetsinställningar](#task-settings)
    * [Utgivningsinställningar](#issue-settings)
    * [Åtkomst](#access-preview)
+   * [Länkade mappar](#linked-folders-conditional-availability) (villkorlig tillgänglighet)
 
 
 ### Mallnamn{#template-name}
@@ -658,11 +659,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td><p>Ange ett Portfolio för de projekt som skapas från den här mallen. Du måste skapa en Portfolio innan den visas i listrutan. </p><p>Endast aktiva portföljer visas i listan. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.</p></td> 
+         <td><p>Ange en Portfolio för de projekt som skapas från den här mallen. Du måste skapa en Portfolio innan den visas i listrutan. </p><p>Endast aktiva portföljer visas i listan. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Program</strong></td> 
-         <td><p>Om du har valt ett Portfolio för mallen anger du ett <strong>program</strong> för det framtida projektet. Vissa Portfolio har kanske inga program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program visas i listan.</p><p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p></td> 
+         <td><p>Om du har valt en Portfolio för mallen anger du ett <strong>program</strong> för det framtida projektet. Vissa portföljer kanske inte har program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program visas i listan.</p><p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Grupp</strong></td> 
@@ -737,7 +738,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    </tr> 
          <tr> 
          <td role="rowheader"><strong>Planerad förmån</strong></td> 
-         <td><p>Ange den planerade fördelen för de projekt som skapas från den här mallen. Den planerade förmånen används i projektens och Portfolio-optimerarens affärssituation. </p><p>Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p><p>Mer information om hur du använder Optimera för Portfolio finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio-optimering</a> </p></td> 
+         <td><p>Ange den planerade fördelen för de projekt som skapas från den här mallen. Den planerade förmånen används i projektens och Portfolio Optimizters affärsfall. </p><p>Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p><p>Mer information om hur du använder Portfolio Optimizer finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio Optimizer</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Fast kostnad</strong></td> 
@@ -991,23 +992,23 @@ Genom att redigera probleminställningarna kan du hindra användare från att l�
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>När någon tilldelas till en uppgift</strong> </td> 
-         <td> <p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till en aktivitet. Användaren som tilldelats en uppgift får automatiskt den här åtkomsten till uppgiften. </p> </td> 
+         <td> <p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till en uppgift. Användaren som tilldelats en uppgift får automatiskt den här åtkomsten till uppgiften. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Bevilja även åtkomst till projektet</strong> </td> 
-         <td> <p> Välj mellan <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en uppgift får automatiskt tillgång till projektet. </p> </td> 
+         <td> <p> Välj från <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en uppgift får automatiskt tillgång till projektet. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>När någon har tilldelats ett problem</strong> </td> 
-         <td> <p>Välj mellan <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till ett problem. Användaren som tilldelats en utgåva får automatiskt den här åtkomsten till utgåvan. </p> </td> 
+         <td> <p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till ett problem. Användaren som tilldelats en utgåva får automatiskt den här åtkomsten till utgåvan. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Bevilja även åtkomst till projektet</strong> </td> 
-         <td> <p> Välj mellan <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en utgåva får automatiskt även den här åtkomsten till projektet. </p> </td> 
+         <td> <p> Välj från <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en utgåva får automatiskt även den här åtkomsten till projektet. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>När någon skickar en begäran: Ge dem åtkomst</strong> </td> 
-         <td> <p> Välj <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till begäran. När de skickar in en begäran till projektet får de denna åtkomst till den begäran de skickade. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a>.</p> </td> 
+         <td> <p> Välj mellan <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till begäran. När de skickar in en begäran till projektet får de denna åtkomst till den begäran de skickade. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Personer från samma företag ärver samma behörigheter för alla begäranden</strong> </td> 
@@ -1030,6 +1031,23 @@ Genom att redigera probleminställningarna kan du hindra användare från att l�
 
    När du nu använder den här mallen för att skapa ett projekt överförs alla dessa inställningar till det nya projektet.
 
+
+### Länkade mappar (villkorlig tillgänglighet) {#linked-folders}
+
+Med funktionen för länkade mappar skapas automatiskt mappar i Adobe Experience Manager Assets och mapparna kopplas till Workfront.
+
+Det här avsnittet visas bara om följande gäller:
+
+* Din organisation har migrerats till Adobe Admin Console
+* Din organisation har aktiverat och konfigurerat en integrering med Adobe Experience Manager
+* Mallen har aktiverat och konfigurerat länkade mappar.
+
+Instruktioner om hur du redigerar länkade mappar finns i [Redigera arbetsflödesvärden i ett projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) i artikeln [Använda arbetsflöden i Experience Manager Assets-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## Redigera flera mallar samtidigt
 
