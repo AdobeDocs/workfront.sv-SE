@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs hur du kan hantera e-postmeddelanden i
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Administratören för Adobe [!DNL Workfront] konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Din Adobe [!DNL Workfront]-administratör konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 Gruppadministratören kan också konfigurera vilka meddelanden som är aktiverade för dig och användarna i [!UICONTROL Home Group]. Om [!UICONTROL Home Group] är en undergrupp får du meddelanden som är aktiverade för den översta gruppen ovanför gruppen.
 
@@ -67,13 +67,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step1-click-profile-pic}}
 
-1. Klicka på ikonen **[!UICONTROL More]** ![](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
 
 1. Gå till avsnittet **[!UICONTROL Notifications]** i rutan **[!UICONTROL Edit Person]** som visas.
 
 1. Klicka på en kategori om du vill visa meddelandeinställningarna för den kategorin.
 
-   ![](assets/my-profile-notifications.png)
+   ![Mina profilmeddelanden](assets/my-profile-notifications.png)
 
 1. Markera eller avmarkera kryssrutorna till höger för att ange om du vill få meddelanden varje dag, direkt eller båda.
 
@@ -90,13 +90,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Om du har valt att skicka meddelanden som dagliga sammandrag, markerar du den tid på dagen som du vill ta emot det högst upp i avsnittet **[!UICONTROL Notifications]** på menyn **[!UICONTROL Email Daily Digest after]**.
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![Daglig sammandrag väljer tid på dagen](assets/digest-time-stamp-my-settings-350x78.png)
 
    Den dagliga sammandraget innehåller händelser som uppfyller kriterierna i meddelandena 24 timmar före den valda tiden. Du får ett e-postmeddelande med en daglig sammanfattning för varje typ av meddelande.\
    Den dagliga sammandraget kan komma fram efter den tid du väljer, beroende på hur många e-postmeddelanden som står i kö för leverans i systemet. Den angivna tiden är din lokala tid enligt inställningarna i webbläsaren.
 
 1. (Villkorligt och valfritt) Aktivera inställningen **[!UICONTROL Receive emails from this test environment]** för att ta emot e-postmeddelanden när du ändrar inställningarna för e-postmeddelanden i förhandsvisningsmiljön. E-postmeddelanden genereras inte automatiskt från förhandsvisningsmiljön.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![Ta emot e-postmeddelanden från sandlådan](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Klicka på **[!UICONTROL Save Changes]**.

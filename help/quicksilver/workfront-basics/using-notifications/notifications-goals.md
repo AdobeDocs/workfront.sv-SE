@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Meddelanden: mål'
-description: 'Meddelanden: mål'
+title: 'Meddelanden: Mål'
+description: 'Meddelanden: Mål'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Användaren vars [!DNL Goals] meddelanden uppdateras måste ha följande:
 
 Meddelandena i följande tabell varnar dig om händelser som inträffar i [!DNL Workfront Goals], t.ex. någon som tilldelar dig ett mål, resultat eller en aktivitet eller någon som gör en uppdatering av ett mål, resultat eller en aktivitet som du äger. Mer information om hur du konfigurerar vilka meddelanden du får finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/goals-notifications-preferences-350x114.png)
+![Meddelandeinställningar](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >

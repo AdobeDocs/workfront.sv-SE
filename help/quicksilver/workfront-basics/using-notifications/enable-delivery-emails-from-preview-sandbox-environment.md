@@ -5,9 +5,9 @@ description: Om du vill få e-postmeddelanden från förhandsgranskningssandlåd
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   För flera användare: Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).  Markera sedan flera användare och klicka på **[!UICONTROL Edit]**.
+   För flera användare: Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **[!UICONTROL Users]** ![användarikon](assets/users-icon-in-main-menu.png).  Markera sedan flera användare och klicka på **[!UICONTROL Edit]**.
 
 1. Klicka på **[!UICONTROL Preferences]**.
 1. Välj **[!UICONTROL Receive emails from this test environment]**.

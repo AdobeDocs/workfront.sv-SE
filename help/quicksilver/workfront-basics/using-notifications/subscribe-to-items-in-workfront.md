@@ -5,9 +5,9 @@ description: Adobe Workfront skickar meddelanden om objekt som du har tilldelats
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -75,12 +75,12 @@ Så här prenumererar du på ett problem:
    >
    >Om du vill prenumerera på projekt kan du göra något av följande:
    >
-   >* Gå till det projekt du vill prenumerera på, klicka på ikonen **[!UICONTROL More]** ![](assets/qs-more-menu.png) till höger om projektnamnet och sedan på **[!UICONTROL Subscribe]**.
-   >* Gå till en projektlista eller rapport och välj ett projekt, klicka på ikonen **[!UICONTROL More]** ![](assets/qs-more-menu.png) högst upp i listan och klicka sedan på **[!UICONTROL Subscribe]**. Det här är bara tillgängligt i en lista med projekt.
+   >* Gå till det projekt du vill prenumerera på, klicka på **[!UICONTROL More]**-ikonen ![Mer-menyn](assets/qs-more-menu.png) till höger om projektnamnet och sedan på **[!UICONTROL Subscribe]**.
+   >* Gå till en projektlista eller rapport och välj ett projekt, klicka på **[!UICONTROL More]**-ikonen ![Mer-menyn](assets/qs-more-menu.png) överst i listan och klicka sedan på **[!UICONTROL Subscribe]**. Det här är bara tillgängligt i en lista med projekt.
 
-1. Klicka på **[!UICONTROL More]** ![](assets/more-icon.png) och sedan på **[!UICONTROL Subscribe]**.
+1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png) och sedan på **[!UICONTROL Subscribe]**.
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![Prenumerera på ett arbetsobjekt](assets/subscribe-to-a-work-item-350x258.png)
 
    En bock visas på klockan och numret bredvid den uppdateras för att lägga till dig i antalet prenumererade användare.
 
@@ -102,12 +102,12 @@ Så här säger du upp prenumerationen på ett ärende:
    >
    >Om du vill avbryta prenumerationen på projekt kan du göra något av följande:
    >
-   >* Gå till det projekt du vill avbryta prenumerationen på och klicka på ikonen **[!UICONTROL More]** ![](assets/qs-more-menu.png) till höger om projektnamnet. Klicka sedan på **[!UICONTROL Unsubscribe]**.
-   >* Gå till en projektlista eller rapport och välj ett projekt, klicka på ikonen **[!UICONTROL More]** ![](assets/qs-more-menu.png) högst upp i listan och klicka sedan på **[!UICONTROL Unsubscribe]**. Det här är bara tillgängligt i en lista med projekt.
+   >* Gå till det projekt du vill avbryta prenumerationen på och klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/qs-more-menu.png) till höger om projektnamnet. Klicka sedan på **[!UICONTROL Unsubscribe]**.
+   >* Gå till en projektlista eller rapport och välj ett projekt, klicka på ikonen **[!UICONTROL More]** ![Mer](assets/qs-more-menu.png) högst upp i listan och klicka sedan på **[!UICONTROL Unsubscribe]**. Det här är bara tillgängligt i en lista med projekt.
 
-1. Klicka på **[!UICONTROL More]** ![](assets/more-icon.png) och sedan på **[!UICONTROL Unsubscribe]**.
+1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png) och sedan på **[!UICONTROL Unsubscribe]**.
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![Avbeställ en arbetsuppgift](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. Du kan också avbryta prenumerationen på ett objekt som du prenumererar på genom att klicka på länken [!UICONTROL Unsubscribe] i prenumerationens e-postmeddelande.
 
@@ -136,7 +136,7 @@ Alla prenumeranter får [!UICONTROL View] behörighet till det prenumererade obj
    >   
    >* Gå till en projektlista eller rapport och välj ett projekt.
 
-1. Klicka på **[!UICONTROL More]** ![](assets/more-icon.png).
+1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png).
 1. Klicka på nummerbubblan bredvid länken **[!UICONTROL Subscribe]**.
 1. I rutan som visas börjar du skriva namnet på användaren i rutan **[!UICONTROL Subscribe others]** och väljer sedan användaren bland de alternativ som visas.
 
@@ -159,7 +159,7 @@ När någon lägger till en kommentar på fliken [!UICONTROL Updates] för objek
    >   
    >* Gå till en projektlista eller rapport och välj ett projekt.
 
-1. Klicka på **[!UICONTROL More]** ![](assets/more-icon.png).
+1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png).
 1. Klicka på nummerbubblan bredvid länken **[!UICONTROL Subscribe]** eller **[!UICONTROL Unsubscribe]**.
 1. På sidan **[!UICONTROL Subscribers]** som visas klickar du på X bredvid namnet på den användare som du vill avbryta prenumerationen på.
 
@@ -175,7 +175,7 @@ När någon lägger till en kommentar på fliken [!UICONTROL Updates] för objek
 
 Du får ett meddelande i appen omedelbart efter att någon har skrivit in en kommentar om ett objekt som du prenumererar på.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![I appmeddelande](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 Mer information finns i [Visa och hantera meddelanden i programmet](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

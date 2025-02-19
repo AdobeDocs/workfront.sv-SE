@@ -1,13 +1,13 @@
 ---
 navigation-topic: notifications
 title: Visa och hantera meddelanden i appen
-description: "Meddelanden i appen håller dig informerad om två typer av information: meddelanden om meddelanden och meddelanden om arbetsobjekt. De är tillgängliga både från webbprogrammet och mobilprogrammet."
+description: 'Meddelanden i appen håller dig informerad om två typer av information: meddelanden och meddelanden om arbetsobjekt. De är tillgängliga både från webbprogrammet och mobilprogrammet.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Den numrerade ikonen i det övre högra hörnet av [!DNL Workfront] visar antale
 >
 >Du kan visa alla meddelanden i appen både från webbprogrammet och mobilprogrammet. Endast vissa av dessa meddelanden skickas som push-meddelanden i mobilprogrammet. Mer information om meddelanden i mobilappen finns i [[!DNL Adobe Workfront] för iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) och [[!DNL Adobe Workfront] för Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
-1. Klicka på den numrerade ikonen ![](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
+1. Klicka på den numrerade ikonen ![Notifications (Meddelanden)](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
 
    De senaste olästa meddelandena visas under den numrerade ikonen, med den senaste längst upp.
 
@@ -67,7 +67,7 @@ Den numrerade ikonen i det övre högra hörnet av [!DNL Workfront] visar antale
 
    Längst ned i varje meddelande visas [!UICONTROL notification type] och en motsvarande identifieringsikon. De här hjälper dig att identifiera vad som hände med det angivna [!DNL Workfront]-objektet och varna dig om du har ett åtgärdsobjekt:
 
-   * Meddelandemeddelanden indikeras av ikonen [!UICONTROL announcements]. ![](assets/announcement.png)
+   * Meddelandemeddelanden indikeras av ikonen [!UICONTROL announcements]. ![Anteckningsikon](assets/announcement.png)
 
    * Alla andra meddelanden indikeras av ikoner som föreslår vilken typ av arbetsuppgift de är kopplade till.
 
@@ -80,21 +80,21 @@ Ikonen till höger om den blå punkten visar något av följande:
 
 1. (Valfritt) Om du vill visa datumet när du fick ett meddelande håller du musen över indikatorn för dag eller tid i det övre högra hörnet av meddelandet.
 
-   ![](assets/hoveroverdate-350x437.png)
+   ![Hovra över datum](assets/hoveroverdate-350x437.png)
 
 1. Klicka på meddelandet som du vill visa:
 
    * Om meddelandet som du klickar på gäller ett arbetsobjekt, öppnas det associerade [!DNL Workfront]-objektet och det fullständiga meddelandet visas på fliken **[!UICONTROL Updates]**. Du kan **[!UICONTROL Start a new update area]** eller **[!UICONTROL Type a reply]**.
 
-     ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
+     ![Uppdatera eller svara](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
-   * Om meddelandet som du klickar på gäller ett meddelande ![](assets/announcement.png) visas sidan **[!UICONTROL Announcements]** med alla meddelanden. Meddelandet som du klickade på markeras till vänster och meddelandet visas till höger.
+   * Om det meddelande du klickar på är för ett meddelande ![Meddelandeikon](assets/announcement.png) visas sidan **[!UICONTROL Announcements]** med alla meddelanden. Meddelandet som du klickade på markeras till vänster och meddelandet visas till höger.
 
-     ![](assets/announcements-page-qs-350x210.png)
+     ![Sidan Meddelanden](assets/announcements-page-qs-350x210.png)
 
 1. (Valfritt) Hämta eventuella bilagor i meddelandet eller hämta alla bilagor som en ZIP-fil.
 
-   ![](assets/download-attachments-350x106.png)
+   ![Hämta bifogade filer](assets/download-attachments-350x106.png)
 
 ## Bekräfta meddelanden
 
@@ -111,7 +111,7 @@ Om du klickar på den numrerade ikonen för att öppna meddelandelistan bekräft
 
 Så här bekräftar du ett meddelande och tar bort det från meddelandelistan:
 
-1. Klicka på den numrerade ikonen ![](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
+1. Klicka på den numrerade ikonen ![Notifications (Meddelanden)](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
 1. Gör något av följande:
 
    * Klicka på den blå punkten i det övre vänstra hörnet av meddelandet.
@@ -123,7 +123,7 @@ Så här bekräftar du ett meddelande och tar bort det från meddelandelistan:
 
 Så här visar du meddelanden som du redan har bekräftat:
 
-1. Klicka på den numrerade ikonen ![](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
+1. Klicka på den numrerade ikonen ![Notifications (Meddelanden)](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
 1. Klicka på **[!UICONTROL All Notifications]** i det nedre högra hörnet i listan över meddelanden.
 1. Bläddra nedåt på sidan **[!UICONTROL Notifications]** som visas för att visa dina tidigare meddelanden.
 1. (Valfritt) Om du vill få tillbaka ett bekräftat meddelande till din lista över meddelanden klickar du på den blå cirkeln bredvid meddelandet.
@@ -139,7 +139,7 @@ Du kan dock ta bort ett meddelande. Du kan även komma åt ett meddelande som du
 
 ### Ta bort ett meddelande
 
-1. Klicka på den numrerade ikonen ![](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
+1. Klicka på den numrerade ikonen ![Notifications (Meddelanden)](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
 1. Klicka på **[!UICONTROL Announcements]** eller **[!UICONTROL View All Announcements]**.
 
 1. På sidan **[!DNL Announcements]** som visas klickar du på meddelandet som du vill ta bort i listan till vänster och sedan på **[!UICONTROL Delete]** i det övre högra hörnet på sidan.
@@ -148,7 +148,7 @@ Du kan dock ta bort ett meddelande. Du kan även komma åt ett meddelande som du
 
 Du kan komma åt ett meddelande som du har tagit bort under de senaste 30 dagarna.
 
-1. Klicka på den numrerade ikonen ![](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
+1. Klicka på den numrerade ikonen ![Notifications (Meddelanden)](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna din lista över meddelanden.
 1. Klicka på **[!UICONTROL Announcements]** eller **[!UICONTROL View All Announcements]**.
 
 1. Klicka på **[!UICONTROL Deleted]** på sidan **[!UICONTROL Announcements]** som visas.
