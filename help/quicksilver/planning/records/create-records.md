@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Skapa poster
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -33,8 +33,7 @@ Du kan skapa poster genom att göra något av följande:
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
 * [Skapa poster genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Skapa poster när du importerar posttyper från en CSV- eller Excel-fil](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-
-<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
+* <span class="preview">[Skapa poster med automatisering](#create-records-by-using-automations)</span>
 
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
@@ -246,7 +245,7 @@ I det här avsnittet beskrivs hur du skapar Workfront Planning-poster när du ko
 >
 >Att skapa Workfront-projekt och portföljer när du kopplar dem till Workfront Planning-poster liknar att skapa Planning-poster när du kopplar dem från andra poster.
 >
->Mer information om hur du skapar Workfront-objekt från Workfront Planning finns i [Skapa Workfront-objekt från Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+>Mer information om hur du skapar Workfront-objekt från Workfront Planning finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
 
 Du måste ha följande innan du kan lägga till nya poster genom att koppla dem från befintliga poster:
 
@@ -267,7 +266,10 @@ Så här skapar du poster när du kopplar dem från andra poster:
 
      Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-1. (Villkorligt) Om du inte kan hitta en post när du försöker lägga till den från det anslutna postfältet för en annan post söker du efter en post och klickar sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter till. Exempel:&quot;Lägg till varumärken&quot; när du lägger till ett varumärke i en befintlig kampanj. Namnet som du skrev följer även knappen Lägg till.
+1. (Villkorligt) Om du inte kan hitta en post när du försöker ansluta den <span class="preview">klickar du på **+ Lägg till**</span>
+
+   eller
+Börja skriva ett namn och klicka sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter till. Exempel:&quot;Lägg till varumärken&quot; när du lägger till ett varumärke i en befintlig kampanj. Namnet som du skrev följer även knappen Lägg till.
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
@@ -275,14 +277,12 @@ Så här skapar du poster när du kopplar dem från andra poster:
 
    Posten skapas och läggs till i det anslutna postfältet.
 
-   <!--
-    >[!IMPORTANT]
-    >
-    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
-    >
-    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
-    >
-    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
+   >[!IMPORTANT]
+   >
+   >* Du kan bara skapa projekt, portföljer och program i Workfront när du kopplar dem från en post.
+   >
+   >* Du kan inte skapa grupper eller företag när du kopplar dem från en post i Workfront Planning.
+   > 
 
 1. (Valfritt) Gå till tabellvyn för den posttyp vars post du skapade. En ny post visas på den sista raden i vyn.
 1. (Valfritt) Börja lägga till information för den nya posten i tabellvyn
@@ -305,17 +305,16 @@ Du kan importera poster när du importerar posttyper med hjälp av en CSV- eller
 
 Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<!--
 <div class="preview">
 
-## Create records by using automations
+## Skapa poster med hjälp av automatisering
 
-You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+Du kan konfigurera automatisering i Workfront Planning som, när den aktiveras, skapar poster när de aktiveras från en Planning-post. De skapade posterna kopplas automatiskt till de poster som du aktiverar automatiseringen från.
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+Du kan konfigurera och aktivera automatiseringen på postens sida i Workfront Planning. Den anslutna post som skapas placeras i det anslutna fältet för den posttyp som du kör automatiseringen från.
 
-For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 </div>
 
--->
+

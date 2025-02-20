@@ -6,14 +6,13 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2156'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Redigera poster
 
@@ -296,11 +295,11 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen i tabellvyn. Postens förhandsgranskning öppnas i vyn.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![](assets/details-box.png) 
+   ![](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Valfritt) Klicka på menyn **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
 
@@ -321,17 +320,17 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    Workfront sparar automatiskt ändringarna.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Valfritt) Klicka på **realtidsindikatorn** ![](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens förhandsvisningsruta och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   I det här området visas namnen på och avatarerna för alla användare som använder posten samtidigt.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   När inställningen är inaktiverad visas avatarerna och namnen i realtidsindikatorområdet, och fälten som redigeras markeras inte. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (Valfritt) Klicka på menyn **Exportera** ![](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -358,8 +357,6 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
      ![](assets/contextual-menu-for-record-row.png)
 
      Postsidan öppnas.
-
-     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -391,17 +388,17 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    Workfront sparar automatiskt ändringarna.
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Valfritt) Klicka på **realtidsindikatorn** ![](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens sida och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   I det här området visas namnen på och avatarerna för alla användare som använder posten samtidigt.
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   När inställningen är inaktiverad visas avatarerna och namnen i realtidsindikatorområdet, och fälten som redigeras markeras inte. </span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. (Valfritt) Klicka på menyn **Exportera** ![](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
 

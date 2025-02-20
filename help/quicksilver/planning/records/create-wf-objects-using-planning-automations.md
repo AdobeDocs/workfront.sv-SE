@@ -3,10 +3,14 @@ title: Skapa Workfront-objekt med hjälp av Adobe Workfront Planning Record Auto
 description: Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller poster i Workfront Planning. Objekten och posterna som skapas kopplas automatiskt till befintliga planeringsposter. I den här artikeln beskrivs hur du kan hantera automatiseringar, inklusive hur du redigerar, inaktiverar, tar bort och utlöser dem för att skapa objekt och poster.
 hide: true
 hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina, Becky
+recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -14,23 +18,16 @@ ht-degree: 0%
 # Skapa objekt med automatisering av Adobe Workfront Planning Record
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
-<!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
-feature: Workfront Planning
-role: User, Admin
-author: Alina, Becky
-recommendations: noDisplay, noCatalog
-
--->
-
+<!--you might need to add something about notifications and emails?!-->
 <!--add a new section to this article to mention a new way to create objects: help/quicksilver/planning/records/create-records.md-->
 <!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller poster i Workfront Planning när de aktiveras från en Planning-post. De skapade objekten eller posterna ansluts automatiskt till de poster som du aktiverar automatiseringen från.
 
@@ -116,9 +113,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du skapar objekt och poster med hjälp av en automatisering
 
-* Det nya objektet eller postnamnet är samma som det postnamn som du skapade det från.
-* Nya objekt eller poster åsidosätter inte befintliga objekt i samma fält. Om samma automatisering aktiveras flera gånger för samma poster läggs nya objekt eller poster i samma kopplade fält i den ursprungliga posten till, förutom de som skapades tidigare.
-* I automatiseringen läggs ytterligare objekt bara till i många till många eller ett till många anslutningstypsfält. I alla andra fall skapar automatiseringen objektet, men det kopplas inte till den ursprungliga post som automatiseringen utlöses från.
+* Namnet på objektet eller posten som skapas av en automatisering är detsamma som det postnamn som du skapade det från.
+* Nya objekt eller poster åsidosätter inte befintliga objekt i samma fält. Om samma automatisering aktiveras flera gånger för samma post läggs nya objekt eller poster i samma kopplade fält i den ursprungliga posten till, förutom de som skapades tidigare.
+
+<!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 ## Konfigurera automatisering i Workfront Planning
 
@@ -143,64 +141,107 @@ Sidan med information om automatisering öppnas.
 
 1. Uppdatera följande fält i avsnittet **Utlösare** på informationssidan för automatiseringen:
 
-   * **Utlösare**: Välj den åtgärd som ska utlösa automatiseringen. Välj till exempel **Knapp klicka**. <!--update this step with a list of all possible triggers; right not only Button click is available-->
+   * **Utlösare**: Välj den åtgärd som ska utlösa automatiseringen. Välj till exempel **Knapp klicka**. <!--update this step with a list of all possible triggers; right now only Button click is available-->
 
 1. Uppdatera följande fält i avsnittet **Åtgärder**: <!--submitted bugs for these fields - see if they need changing here-->
-   * **Objekttyp**: Markera det objekt som du vill att automatiseringen ska skapa. Detta är ett obligatoriskt fält.
+   * **Åtgärder**: Välj den åtgärd som du vill att Workfront ska utföra när automatiseringen aktiveras. Detta är ett obligatoriskt fält.
+Välj någon av följande åtgärder:
 
-     Du kan skapa följande objekt från Workfront Planning-poster:
-
-      * Projekt
-      * Portfolio
-      * Program
-      * Grupp
-      * Post
+      * Skapa grupp
+      * Skapa program
+      * Skapa portfölj
+      * Skapa projekt
+      * Skapa post
 
      >[!TIP]
      >
-     >När du har sparat automatiseringen kan du inte längre ändra objekttypen i det här fältet.
+     >När du har sparat automatiseringen kan du inte längre ändra åtgärden som är vald i det här fältet.
 
-1. (Villkorligt) Beroende på vilken typ av objekt du vill skapa uppdaterar du följande fält:
+1. (Villkorligt) Beroende på vilken åtgärd du valde kan du uppdatera följande fält:
 
-
-   * **Projekt**:
+   * **Skapa projekt**:
       * **Anslutet fält där objektet skapas**: Det här är det anslutna fältet som det nya projektet ska visas i. Detta är ett obligatoriskt fält.
-      * **Mall som projektet ska skapas från**: Välj en projektmall som Workfront ska använda för att skapa projektet.
-   * **Portfolio**:
+      * **Projektmall**: Välj en projektmall som Workfront ska använda för att skapa projektet.
+   * **Skapa portfölj**:
       * **Anslutet fält där objektet skapas**: Det här är det anslutna fältet där den nya portföljen visas. Detta är ett obligatoriskt fält.
       * **Anpassat formulär att koppla till den nya portföljen**: Välj ett anpassat formulär att koppla till den nya portföljen. Du måste skapa ett anpassat portföljformulär innan du kan markera det.
-   * **Program**:
+   * **Skapa program**:
       * **Anslutet fält där objektet skapas**: Det här är det anslutna fältet som det nya programmet visas i. Detta är ett obligatoriskt fält.
       * **Programportfölj**: Välj en portfölj där det nya programmet ska läggas till. Detta är ett obligatoriskt fält.
       * **Anpassat formulär att koppla till det nya programmet**: Välj ett anpassat formulär att koppla till det nya programmet. Du måste skapa ett anpassat programformulär innan du kan markera det.
-   * **Grupp**:
+   * **Skapa grupp**:
       * **Anslutet fält där objektet skapas**: Det här är det anslutna fältet där den nya gruppen visas. Detta är ett obligatoriskt fält.
       * **Anpassat formulär att koppla till den nya gruppen**: Välj ett anpassat formulär att koppla till det nya programmet. Du måste skapa ett anpassat programformulär innan du kan markera det.
-   * **Post**:
-      * **Ansluten posttyp**: Välj den posttyp som du vill skapa.
-      * **Anslutet fält där posten skapas**: Det här är det anslutna fältet där den nya posten visas. Detta är ett obligatoriskt fält. <!--this might need revision as right now it shows the field on the connected record table where the current record will display; submitted a bug to correct this label-->
+   * **Skapa post**:
+      * **Posttyp**: Välj den posttyp som du vill skapa.
+
+     Underavsnittet **Inställningar** visas. Uppdatera följande fält i underavsnittet **Inställningar**:
+
+      * **Fält på den anslutna posttypen där den aktuella posten visas**: Det här är det anslutna fältet på den posttyp som valts för åtgärden där den aktuella posten visas.
+
+     Om du till exempel skapar en automatisering för kampanjer att koppla ihop produktposter från, är det här det anslutna fältet på produktposttypen där kampanjerna visas, efter att produkterna har skapats med automatiseringen.
+
+     Detta är ett obligatoriskt fält.
+
+     <!--submitted a change in functionality and UI text for this - revise??-->
       * **Mappa fält**
          * **Överför från**: Välj fält från den posttyp som automatiseringen skapas för för att mappa dem till fälten för den anslutna posttypen.
-      * **Överför till**: Välj fält från den nyligen skapade posten som ska innehålla information från den post som du kör automatiseringen från.
+         * **Överför till**: Välj fält från den nyligen skapade posten som ska innehålla information från den post som du kör automatiseringen från.
+
+     >[!TIP]
+     >
+     >Fälttyperna från den ursprungliga posttypen måste matcha fälttyperna från den nyligen skapade posttypen.
+
 1. (Valfritt och villkorligt) Om du har valt att skapa en post klickar du på **Lägg till fält** för att mappa ytterligare uppslagsfält från en post till en annan.
-1. (Valfritt och villkorligt) Om du inte har något anslutningsfält för en Workfront-objekttyp klickar du på ikonen **Skapa ett anslutningsfält** ![Skapa en ikon för anslutningsfält](assets/create-a-connection-field-icon.png) för att lägga till ett fält.
+1. (Villkorligt) Om du har valt att skapa en post och det inte finns några anslutningsfält mellan den ursprungliga posttypen och den posttyp som har valts i området **Åtgärder**, klickar du på frågeteckenikonen till höger om **Fält på den anslutna posttyp där den aktuella posten visas** och klickar sedan på ikonen **Lägg till** ![Skapa en ikon för ett anslutningsfält](assets/create-a-connection-field-icon.png) .
+
+   Det nya fältet skapas automatiskt för den posttyp du valde i området **Åtgärder** och får namnet **Ansluten post**.
+
+   Ett anslutet fält för den valda posttypen skapas också på den ursprungliga posttypen från vilken du konfigurerar automatiseringen.
+1. (Valfritt och villkorligt) Om du har valt att skapa ett Workfront-objekt och inte har något anslutningsfält för den valda Workfront-objekttypen klickar du på frågeteckenikonen till höger om fältet **Ansluten där fältet &lt; Workfront-objekttyp > skapas** och sedan på ikonen **Lägg till** ![Skapa ett anslutningsfält](assets/create-a-connection-field-icon.png) för att lägga till ett anslutningsfält.
+
+   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    Det nya fältet skapas automatiskt och får namnet **Ansluten &lt; Workfront-objektnamn >**. När ett portföljanslutet fält skapas för posten får det till exempel namnet&quot;Ansluten portfölj&quot;.
 
 1. Klicka på **Spara** i det övre högra hörnet på sidan med automatiseringsinformation.
 
    Automatiseringen visas i listan över automatiseringar och finns tillgänglig för arkivering.
-1. (Valfritt) Gör så här om du vill redigera, inaktivera eller ta bort en automatisering:
+
+## Hantera befintliga automatiseringar
+
+{{step1-to-planning}}
+
+1. Klicka på ett posttypskort och klicka sedan på namnet på en post.
+
+   Posttypssidan öppnas.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Hantera automatisering**.
+
+   En lista över tillgängliga automatiseringar för den valda posttypen öppnas.
+
+1. (Valfritt) Gör något av följande om du vill redigera, inaktivera eller ta bort en automatisering:
 
    1. Håll markören över namnet på en sparad automatisering i listan över automatiseringar och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png).
 
    1. Klicka på **Redigera** för att uppdatera information om och konfigurera fält i automatiseringen.
-   1. Klicka på **Inaktivera** om du vill ta bort automatiseringen från tabellvyn och hindra användare från att använda den för att skapa poster eller objekt. Om du vill göra den tillgänglig igen klickar du på menyn **Mer** ![Mer](assets/more-menu.png) igen och sedan på **Aktivera**.
-   1. Klicka på **Ta bort** om du vill ta bort automatiseringen. En borttagen automatisering kan inte återställas. Poster som har skapats med automatiseringen är fortfarande kopplade till den post som ursprungligen valdes.
+
+      >[!TIP]
+      >
+      >   Du kan inte ändra åtgärden som du ursprungligen valde för en automatisering.
+
+
+   1. Klicka på **Inaktivera** om du vill ta bort automatiseringen från postens tabellvy och hindra användare från att använda den för att skapa poster eller objekt.
+
+   Poster som har skapats med en inaktiverad automatisering är fortfarande kopplade till den post som ursprungligen valdes.
+
+   Om du vill göra den tillgänglig igen klickar du på menyn **Mer** ![Mer](assets/more-menu.png) igen och sedan på **Aktivera**.
+   1. Klicka på **Ta bort** om du vill ta bort automatiseringen. En borttagen automatisering kan inte återställas.
+
+   Poster som har skapats med en borttagen automatisering är fortfarande kopplade till den post som ursprungligen valdes.
 
 ## Skapa ett objekt eller en post med en Workfront Planning Automation
 
-1. Öppna den posttypssida som innehåller de poster du vill använda för att skapa Workfront-objekt eller Planning-poster i Workfront Planning.
+1. I Workfront Planning öppnar du den posttypssida som innehåller den automatisering som du vill använda för att automatiskt skapa och koppla poster eller objekt.
 1. Öppna tabellvyn.
 1. Markera en eller flera poster.
 
@@ -209,20 +250,21 @@ Sidan med information om automatisering öppnas.
 
    ![Automatiseringsknappen](assets/automation-custom-button.png)
 
-   Ett bekräftelsemeddelande visas längst ned på skärmen om automatiseringen lyckades skapa ett objekt eller en post.
+   Följande saker händer:
 
-   Det nya objektet visas i det anslutna fältet som du angav i inställningarna för knappen för automatisering. Du kan behöva uppdatera sidan innan du kan visa det nya objektet.
+   * Ett bekräftelsemeddelande visas längst ned på skärmen om automatiseringen lyckades skapa ett objekt eller en post.
+
+   * Det nya objektet visas i det anslutna fältet som du angav i inställningarna för knappen för automatisering. Du kan behöva uppdatera sidan innan du kan visa det nya objektet.
+
+   * Den post som du utlöser automatiseringen från läggs till i det anslutna fältet för den nya posten.
 
    >[!NOTE]
    >
-   >Vi rekommenderar att du kontrollerar att objektet har skapats och anslutits som förväntat.
+   >Vi rekommenderar att du kontrollerar att objekten eller posterna har skapats och anslutits som förväntat.
 
 1. (Valfritt) Klicka på det nya objektet i det anslutna fältet. Objektsidan öppnas och du kan göra ytterligare ändringar i det nya objektet.
 
-<!--you might need to add something about notifications and emails?!-->
-
-
-<!--****************************************FUTURE ARTICLE AFTER THE RELEASE TO PREVIEW ON FEBRUARY 20:*****************************************************  
+<!--ORIGINAL AUTOMATION FUNCTIONALITY - BEFORE FEB. 20, 2025
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
@@ -309,13 +351,12 @@ You must have the following access to perform the steps in this article:
 ## Considerations about creating objects and records using an automation
 
 * The new object or record name is the same as the record name from which you create it. 
-* New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
-
-(************hide this for now: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. ***************)
+* New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same records adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
+* The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. 
 
 ## Configure an automation in Workfront Planning
 
-You must configure an automation for a record type in Workfront Planning before you can use it to create objects.
+You must configure an automation for a record type in Workfront Planning, before you can use it to create objects.
 
 {{step1-to-planning}}
 
@@ -336,107 +377,64 @@ You must configure an automation for a record type in Workfront Planning before 
 
 1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **Trigger**: Select the action that will trigger the automation. For example, select **Button click**. *************update this step with a list of all possible triggers; right now only Button click is available*********
+   * **Trigger**: Select the action that will trigger the automation. For example, select **Button click**. (********update this step with a list of all possible triggers; right not only Button click is available***********)
 
-1. Update the following fields in the **Actions** section: **********submitted bugs for these fields - see if they need changing here***********
-   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
-   Select one of the following actions: 
+1. Update the following fields in the **Actions** section: <********submitted bugs for these fields - see if they need changing here*********)
+   * **Object type**: Select the object that you want the automation to create. This is a required field.
+      
+      You can create the following objects from Workfront Planning records: 
 
-      * Create group
-      * Create program
-      * Create portfolio
-      * Create project
-      * Create record
+      * Project
+      * Portfolio
+      * Program
+      * Group
+      * Record
 
       >[!TIP]
       >
-      >After you saved the automation, you can no longer change the action selected in this field.
+      >After you saved the automation, you can no longer change the object type in this field.
 
-1. (Conditional) Depending on what action you selected, update the following fields:
+1. (Conditional) Depending on what type of object you want to create, update the following fields:
 
-   * **Create project**: 
+
+   * **Project**: 
       * **Connected field where the object is created**: This is the connected field where the new project will display. This is a required field. 
-      * **Project template**: Select a project template that Workfront will use to create the project.  
-   * **Create portfolio**:
+      * **Template from which to create the project**: Select a project template that Workfront will use to create the project.  
+   * **Portfolio**:
       * **Connected field where the object is created**: This is the connected field where the new portfolio will display. This is a required field.
       * **Custom form to attach to the new portfolio**: Select a custom form to attach to the new portfolio. You must create a portfolio custom form before you can select it. 
-   * **Create program**: 
+   * **Program**: 
       * **Connected field where the object is created**: This is the connected field where the new program will display. This is a required field.
       * **Program portfolio**: Select a portfolio where the new program will be added. This is a required field.
       * **Custom form to attach to the new program**: Select a custom form to attach to the new program. You must create a program custom form before you can select it. 
-   * **Create group**:
+   * **Group**:
       * **Connected field where the object is created**: This is the connected field where the new group will display. This is a required field.
       * **Custom form to attach to the new group**: Select a custom form to attach to the new program. You must create a program custom form before you can select it. 
-   * **Create record**: 
-      * **Record type**: Select the record type you want to create. 
-
-      The **Settings** sub-section displays. Update the following fields in the **Settings** sub-section: 
-
-      * **Field on the connected record type where the current record will show**: This is the connected field on the record type selected for the action where the current record will display. 
-      
-      For example, if you are creating an automation for campaigns to connect Product records from, this is the connected field on the Product record type where the campaigns will display, after the products are created using the automation. 
-      
-      This is a required field. 
-      
-      ******submitted a change in functionality and UI text for this - revise?? *******
+   * **Record**: 
+      * **Connected record type**: Select the record type you want to create. 
+      * **Connected field where the record is created**: This is the connected field where the new record will display. This is a required field. (******this might need revision as right now it shows the field on the connected record table where the current record will display; submitted a bug to correct this label*********)
       * **Map fields**
          * **Transfer from**: Select fields from the record type the automation is created for to map them to the fields of the connected record type. 
       * **Transfer to**: Select fields from the newly created record that will populate with information from the record you are running the automation from. 
-
-      >[!TIP]
-      >
-      >The field types from the original record type must match the field types from the newly created record type.
-
 1. (Optional and conditional) If you selected to create a record, click **Add fields** to map additional lookup fields from one record to another.
-1. (Conditional) If you selected to create a record and there are no connection fields between the original record type and the record type selected in the **Actions** area, click the question mark icon to the right of the **Field on the connected record type where the current record will show** field, then click the **Add** icon ![Create a connection field icon](assets/create-a-connection-field-icon.png) to add a connection field. 
-
-   The new field is automatically created for the record type you selected in the **Actions** area, and named **Connected Record**. 
-   
-   A connected field for the selected record type is also created on the original record type from where you are configuring the automation. 
-1. (Optional and conditional) If you selected to create a Workfront object and don't have a connection field for the selected Workfront object type, click the question mark icon to the right of the **Connected field where the < Workfront object type name > is created** field, and click the **Add** icon ![Create a connection field icon](assets/create-a-connection-field-icon.png) to add a connection field. 
-
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+1. (Optional and conditional) If you don't have a connection field for a Workfront object type, click the **Create a connection field** icon ![Create a connection field icon](assets/create-a-connection-field-icon.png) to add a field.
 
    The new field is automatically created and named **Connected < Workfront object name >**. For example, when a portfolio connected field is created for the record, it is named "Connected portfolio." 
 
 1. Click **Save** in the upper-right corner of the automation details page. 
 
    The automation displays on the list of automations, and is available to use in records.
-
-## Manage existing automations
-
-{{step1-to-planning}}
-
-1. Click a record type card, then click the name of a record. 
-
-   The record type page opens. 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Manage automations**. 
-
-   The list of available automations for the selected record type opens.
-
-1. (Optional) To edit, disable, or delete an automation, do one of the following:
+1. (Optional) To edit, disable, or delete an automation, do the following:
 
    1. From the list of automations, hover over the name of a saved automation, then click the **More** menu ![More menu](assets/more-menu.png).
 
    1. Click **Edit** to update information about and configure fields on the automation.
-
-      >[!TIP]
-      >
-      >   You cannot change the action you originally selected for an automation. 
-   
-
-   1. Click **Disable** to remove the automation from the record's table view and prevent users from using it to create records or objects. 
-
-   Records that have been created using a disabled automation remain connected to the record originally selected.
-   
-   To make it available again, click the **More** menu ![More menu](assets/more-menu.png) again, then click **Activate**.
-   1. Click **Delete** to delete the automation. A deleted automation cannot be recovered. 
-   
-   Records that have been created using a deleted automation remain connected to the record originally selected.  
+   1. Click **Disable** to remove the automation from the table view and prevent users from using it to create records or objects. To make it available again, click the **More** menu ![More menu](assets/more-menu.png) again, then click **Activate**.
+   1. Click **Delete** to delete the automation. A deleted automation cannot be recovered. Records that have been created using the automation remain connected to the record originally selected.  
 
 ## Use a Workfront Planning automation to create an object or a record
 
-1. In Workfront Planning, open the record type page that contains the automation you want to use to automatically create and connect records or objects. 
+1. In Workfront Planning, open the record type page that contains the records you want to use to create Workfront objects or Planning records. 
 1. Open the table view. 
 1. Select one or more records.
    
@@ -445,20 +443,15 @@ You must configure an automation for a record type in Workfront Planning before 
 
    ![Automation button](assets/automation-custom-button.png)
 
-   The following things occur: 
+   A confirmation message displays at the bottom of the screen, if the automation successfully created an object or a record. 
 
-   * A confirmation message displays at the bottom of the screen, if the automation successfully created an object or a record. 
-
-   * The new object displays in the connected field you indicated in the setup of the automation button. You might need to refresh your page before viewing the new object. 
-
-   * The record you are triggering the automation from is added to the connected field of the new record.
+   The new object displays in the connected field you indicated in the setup of the automation button. You might need to refresh your page before viewing the new object. 
 
    >[!NOTE]
    >
-   >We recommend checking that the objects or records were created and the connected as expected.
+   >We recommend checking that the object was created and connected as expected.
 
 1. (Optional) Click the new object in the connected field. The object page opens and you can make additional changes to the new object. 
 
-***********you might need to add something about notifications and emails?!*************
-
 -->
+

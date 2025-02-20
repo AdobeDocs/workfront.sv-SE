@@ -6,9 +6,9 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 
   Mer information om hur du importerar projekt med hjälp av snabbstartsfunktioner finns i [Snabbstartscenario: enkla projekt- och uppgiftsimportförberedelser](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish är ett initiativ från ett scenario i Adobe Workfront Scenario Planner.
+* Publicera ett projekt från ett scenario i Adobe Workfront Scenario Planner.
 
   Scenarioplaneraren kräver något av följande:
 
@@ -129,7 +129,7 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 
   Mer information om åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 
-  Mer information om hur du skapar projekt genom att lägga till dem i poster finns i avsnittet Skapa projekt när du ansluter dem med poster från Workfront Planning i artikeln [Skapa Workfront-objekt från Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  Mer information om hur du skapar projekt genom att lägga till dem i poster finns i avsnittet Skapa projekt när du ansluter dem med poster från Workfront Planning i artikeln [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Förutsättningar
 

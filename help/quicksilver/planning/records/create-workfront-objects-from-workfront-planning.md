@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Skapa Workfront-objekt från Workfront Planning <!--as you connect them to records-->
+# Skapa Workfront-objekt från Workfront Planning när du kopplar dem till poster
 
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
@@ -26,41 +26,29 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-<!--
-You can create Adobe Workfront objects from Workfront Planning in the following ways: 
+Du kan skapa Adobe Workfront-objekt från Workfront Planning på följande sätt:
 
-* As you try to connect Workfront objects from Planning records
+* Koppla Workfront-objekt från planeringsposter
 
-    This article describes how to create Workfront objects from Workfront Planning as you try to connect them from Planning records. 
-* <span class="preview">When you use automations from a record's page.</span> 
+  I den här artikeln beskrivs hur du skapar Workfront-objekt från Workfront Planning när du kopplar dem från Planning-poster.
+* <span class="preview">När du använder automatisering från en postsida.</span>
 
-    For information about creating Workfront objects using automations, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
--->
+  <span class="preview">Mer information om hur du skapar Workfront-objekt med automatisering finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). </span>
 
 Du kan skapa följande typer av Workfront-objekt från Workfront Planning när du ansluter en Workfront Planning-post med följande Workfront-objekttyper:
 
 * Projekt
 * Portföljer
-  <!--* <span class="preview">Programs</span>-->
+* <span class="preview">Program</span>
 
 >[!IMPORTANT]
 >
->* Du kan bara skapa projekt och portföljer i Workfront när du kopplar dem från en post.
+>* Du kan bara skapa projekt, portföljer och <span class="preview">program</span> i Workfront när du kopplar dem från en post.
 >
->* Du kan inte skapa program, grupper eller företag när du kopplar dem från en post i Workfront Planning.
+>* Du kan inte skapa grupper eller företag när du kopplar dem från en post i Workfront Planning.
 >
 
-<!--replace the IMPORTANT above with this when we release programs: 
-
->[!IMPORTANT]
->
->* You can create only projects, portfolios, and <span class="preview">programs</span> in Workfront when connecting them from a record. 
->
->* You cannot create groups or companies when connecting them from a record in Workfront Planning. 
->
--->
-
-Du kan ansluta projekt och portföljer <!--<span class="preview"> and programs </span>--> från ett anslutningsfält i följande områden i Workfront Planning:
+Du kan ansluta projekt, portföljer, <span class="preview"> och program </span> från ett anslutningsfält i följande områden i Workfront Planning:
 
 * Registervyn för en posttyp
 * Sidan Detaljer eller förhandsvisningsrutan för en post
@@ -145,7 +133,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du måste ha följande innan du kan lägga till nya projekt eller portföljer genom att koppla dem från befintliga poster:
 
-* Posttyper som är kopplade till Workfront-projekt eller portföljer <!--or <span class="preview">programs</span>-->. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Posttyper som är kopplade till Workfront-projekt, portföljer eller <span class="preview">program</span>. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Poster. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 * Rätt åtkomst och behörigheter i Workfront Planning och Workfront, enligt beskrivningen i avsnittet [Åtkomstkrav](#access-requirements) i den här artikeln.
 
@@ -155,7 +143,11 @@ Så här skapar du projekt när du kopplar dem från andra poster:
 
 1. Gå till informationssidan för en post eller till posttypens tabell och börja ansluta Workfront Planning-poster med Workfront-projekt, enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
-1. (Villkorligt) <!--<span class="preview">Click **Add project**</span> Or Start typing the name of a project, then click **Add project** if you cannot find it.--> Om du inte kan hitta ett projekt när du försöker lägga till det från det anslutna postfältet i en annan post lägger du till ett namn och klickar sedan på **Lägg till projekt**. Knappen Lägg till följs av det projektnamn du skrev in.
+1. (Villkorligt) <span class="preview">Klicka på **Lägg till projekt**</span>
+eller
+Börja skriva namnet på ett projekt och klicka sedan på **Lägg till projekt** om du inte hittar det.
+
+   Om du inte kan hitta ett projekt när du försöker lägga till det från det anslutna postfältet för en annan post lägger du till ett namn och klickar sedan på **Lägg till projekt**. Knappen Lägg till följs av det projektnamn du skrev in.
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
@@ -180,7 +172,11 @@ Så här skapar du portföljer när du kopplar dem från Planning records:
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. (Villkorligt) <!--<span class="preview">Click **Add portfolio**</span> Or Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it.--> Om du inte kan hitta en portfölj när du försöker lägga till den från det anslutna postfältet för en annan post lägger du till ett namn och klickar sedan på **Lägg till portfölj**. Knappen Lägg till följs också av det portföljnamn du skrev in.
+1. (Villkorligt) <span class="preview">Klicka på **Lägg till portfölj**</span>
+
+   eller
+
+   Börja skriva namnet på en portfölj och klicka sedan på **Lägg till portfölj** om du inte hittar den.—> Om du inte kan hitta en portfölj när du försöker lägga till den från det anslutna postfältet för en annan post lägger du till ett namn och klickar sedan på **Lägg till portfölj**. Knappen Lägg till följs också av det portföljnamn du skrev in.
 
    ![Lägg till portfölj när du ansluter den från ett anslutningsfält](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -188,36 +184,33 @@ Så här skapar du portföljer när du kopplar dem från Planning records:
 
 1. (Valfritt) Klicka på namnet på den nya portföljen från Workfront Planning för att öppna portföljens sida i Workfront och göra ytterligare uppdateringar av portföljen.
 
-<!--
-
 <div class="preview">
 
-## Create programs as you connect them with records from Workfront Planning
+## Skapa program när du kopplar ihop dem med poster från Workfront Planning
 
-To create programs as you are connecting them from Planning records: 
+Så här skapar du program när du kopplar dem från planeringsposter:
 
-1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. Gå till informationssidan för en post eller till posttypens tabell och börja ansluta Workfront Planning-poster med Workfront-portföljer, enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
-    ******** at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed." ***********
-    
-1. Click **Add program** 
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
-    Or 
-    
-    Start typing the name of a program, then click **Add program** if you cannot find it. The Add button is followed by the program name you typed. 
+1. Klicka på **Lägg till program**
 
-    ![Add Workfront program when connecting it from connection field](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+   eller
 
-    The **Create program** box opens.
+   Börja skriva namnet på ett program och klicka sedan på **Lägg till program** om du inte hittar det. Knappen Lägg till följs av det programnamn som du skrev in.
 
-1. Update the **Program name**. This is a required field.
-1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
-1. Click **Create**.
+   ![Lägg till Workfront-program när du ansluter det från anslutningsfältet](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 
-    The program is created and added to the connection field of the record you selected. 
+   Rutan **Skapa program** öppnas.
 
-1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+1. Uppdatera **programnamnet**. Detta är ett obligatoriskt fält.
+1. Välj en **Portfolio** i listrutan eller börja skriva namnet på en portfölj och markera den när den visas i listan. Detta är ett obligatoriskt fält.
+1. Klicka på **Skapa**.
+
+   Programmet skapas och läggs till i anslutningsfältet för den post du har valt.
+
+1. (Valfritt) Klicka på namnet på det nya programmet från Workfront Planning för att öppna programmets sida i Workfront och göra ytterligare uppdateringar.
 
 </div>
 
--->

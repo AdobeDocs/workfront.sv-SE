@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Koppla poster
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning-objekt</p>   
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning-objekt</p> 
+   <p>Visa eller högre behörigheter för de objekttyper som du vill länka från Workfront.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 1. (Valfritt) Lägg till poster till den posttyp du valde genom att lägga till en ny rad i tabellen. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 1. (Villkorligt) När du har kopplat den valda posttypen till en annan posttyp går du till det anslutna fältet för en post och klickar inuti fältet eller klickar på **Anslut** för att lägga till posten.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Koppla andra poster i tabellvyn](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Gör något av följande:
 
@@ -182,7 +183,13 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
    >
 
 1. (Villkorligt) Om du valde En till många eller En till en för anslutningstypen när du anslöt posttyperna, och du försöker ansluta en post eller ett objekt som redan är anslutet någon annanstans, får du ett varningsmeddelande om att anslutningen tar bort den från den ursprungliga anslutningen igen. Klicka på **Anslut** för att tillåta borttagning och anslutning av posten, eller **Avbryt** för att gå tillbaka till fältet och välja en annan post.
-1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta, och du vill lägga till den, klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i avsnittet Skapa poster när du ansluter dem från andra poster i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+1. (Valfritt) Om du inte kan hitta något objekt att ansluta och du vill lägga till det <span class="preview">klickar du på **+ Lägg till**</span>
+
+   eller
+
+   Börja skriva ett namn för objektet och klicka sedan på **+ Lägg till** för att skapa och lägga till det.
+
+   Mer information finns i avsnittet Skapa poster när du ansluter dem från andra poster i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
 1. (Villkorligt) När du har anslutit den valda posttypen till en Workfront-objekttyp går du till det anslutna fältet på en post och antingen klickar på fältet eller klickar på **Anslut** för att lägga till Workfront-objekt.
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![Anslut projekt i tabellvy](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. Gör något av följande:
 
@@ -262,7 +269,11 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
    >
    >Du kan öppna en postsida från vyn, dubbelklicka på det länkade postfältet eller klicka på **Anslut** i fältet för att lägga till objekt från den anslutna objekttypen.
 
-1. (Valfritt) Om du inte kan hitta något objekt att ansluta och du vill lägga till det klickar du på **+ Lägg till** för att skapa och lägga till ett nytt projekt eller en ny portfölj.
+1. (Valfritt) Om du inte kan hitta något objekt att ansluta och du vill lägga till det <span class="preview">klickar du på **+ Lägg till**</span>
+
+   eller
+
+   Börja skriva ett namn för objektet och klicka sedan på **+ Lägg till** för att skapa och lägga till ett nytt projekt, en ny portfölj eller ett nytt program.
 
    Mer information finns i [Skapa Workfront-objekt från Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
@@ -415,7 +426,7 @@ Så här ansluter du poster med Experience Manager-resurser:
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
 1. Klicka på fliken **Anslutningar** på postens förhandsgranskning eller sida.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Fliken Anslutningar på posten i Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
    Alla post- eller objekttyper som är länkade till den valda posttypen visas som avsnitt. Kopplade poster eller objekt visas under sina post- eller objekttyper på kort.
 
@@ -428,7 +439,13 @@ Så här ansluter du poster med Experience Manager-resurser:
 1. (Valfritt) Klicka på nedåtpilen till vänster om ett avsnitt för att komprimera det.
 
 1. (Villkorligt) Klicka på **Anslut** om du vill lägga till fler poster eller objekt av samma typ.
-1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta, och du vill lägga till den, klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i avsnittet Skapa poster när du ansluter dem från andra poster i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta och du vill lägga till den <span class="preview">klickar du på **+ Lägg till**</span>
+
+   eller
+
+   Börja skriva ett namn för objektet och klicka sedan på **+ Lägg till** för att skapa och lägga till det i posten.
+
+   Mer information finns i avsnittet Skapa poster när du ansluter dem från andra poster i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 1. Följ stegen som beskrivs i de föregående avsnitten för att ansluta poster från Workfront Planning eller objekt från Workfront eller Experience Manager Assets.
 Posterna och objekten läggs till omedelbart.
 1. (Valfritt) Hovra över det anslutna kortet för en post eller ett objekt och klicka sedan på ikonen **Koppla från post** ![](assets/disconnect-icon-with-tooltip.png) för att koppla bort den från den markerade posten.
