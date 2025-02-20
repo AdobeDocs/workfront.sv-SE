@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Som Adobe-administratör kan du skapa Adobe Workfront-systemadministratörer med Adobe Admin Console. Konsolen är en central plats för att hantera Adobe i hela organisationen. Mer information finns i [Översikt över Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+Som Adobe-administratör kan du skapa Adobe Workfront-systemadministratörer med Adobe Admin Console. Konsolen är en central plats för att hantera Adobe-berättiganden i hela organisationen. Mer information finns i [Admin Console-översikt](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande med en inbjudan till konsolen.
 
-1. Om du inte har använt Adobe tidigare och du har fått ett e-postmeddelande om att du nu har administratörsbehörighet för att hantera program och tjänster för Adobe i din organisation klickar du på knappen i e-postmeddelandet för att skapa ett Adobe-konto och öppna Admin Console.
+1. Om du inte har använt Adobe tidigare och du har fått ett e-postmeddelande om att du nu har administratörsbehörighet för att hantera Adobe program och tjänster för din organisation klickar du på knappen i e-postmeddelandet för att skapa ett Adobe-konto och öppna Admin Console.
 
    eller
 
@@ -77,7 +77,7 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
-* Användaren **Hemgrupp** bestäms utifrån den användare som skapade dem. Det går inte att anpassa inifrån Admin Console.
+* Användaren **Hemgrupp** bestäms utifrån den användare som skapade dem. Detta går inte att anpassa inifrån Admin Console.
 * Åtkomstnivån för Workfront-systemadministratören kan bara redigeras inifrån Adobe Admin Console.
 
   <!--
@@ -86,7 +86,7 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
   
   -->
 
-* Om du vill ändra en användares åtkomst från systemadministratören till någon annan åtkomstnivå måste du först gå via Admin Console.
+* Om du vill ändra en användares åtkomst från systemadministratören till någon annan åtkomstnivå måste du först göra det via Admin Console.
 
   <!--
    This is not clear
@@ -97,6 +97,8 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
   >[!IMPORTANT]
   >
   >Gör inga ändringar i själva produktprofilen.
+
+* Adobe Admin Console-administratörer kan ställa in automatiska tilldelningsregler för att automatisera processen att tilldela Adobe-produkter till användare i organisationen. Mer information och instruktioner finns i [Hantera automatiska tilldelningsregler](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) i Adobe-dokumentationen.
 
 ## Gå till användar- och administratörsområdet för din Production-instans av Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
@@ -183,9 +185,9 @@ Du måste lägga till en användare i din Production-instans av Workfront innan 
 
    >[!NOTE]
    >
-   >För nya användare av Adobe skickar Admin Console ett e-postmeddelande med en inbjudan om att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-program.
+   >För nya Adobe-användare skickar Admin Console ett e-postmeddelande med en inbjudan om att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-program.
    >
-   >För användare som redan har Adobe kan användaren få ett e-postmeddelande om att Workfront är tillgängligt eller inte. Detta är en inställning som styrs av Adobe-administratören för produkten. Din Adobe-administratör kan vara en annan person än Workfront-administratören.
+   >För befintliga Adobe-användare kan det hända att användaren inte får något e-postmeddelande om att Workfront är tillgängligt. Detta är en inställning som styrs av Adobe-administratören för produkten. Din Adobe-administratör kan vara en annan person än Workfront-administratören.
 
 ### Skapa användare i Workfront och godkänn dem för Adobe Admin Console
 
