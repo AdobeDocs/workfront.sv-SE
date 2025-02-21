@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
+source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
   >
   >Gör inga ändringar i själva produktprofilen.
 
-* Adobe Admin Console-administratörer kan ställa in automatiska tilldelningsregler för att automatisera processen att tilldela Adobe-produkter till användare i organisationen. Mer information och instruktioner finns i [Hantera automatiska tilldelningsregler](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) i Adobe-dokumentationen.
+* Adobe Admin Console-administratörer kan ställa in automatiska tilldelningsregler för att automatisera processen att tilldela Adobe-produkter till användare i organisationen. Din organisation måste migreras till Adobe Unified Experience för att kunna använda den här funktionen. Mer information och instruktioner finns i [Hantera automatiska tilldelningsregler](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) i Adobe-dokumentationen.
 
 ## Gå till användar- och administratörsområdet för din Production-instans av Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
