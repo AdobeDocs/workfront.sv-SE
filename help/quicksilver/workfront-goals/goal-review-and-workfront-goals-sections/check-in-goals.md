@@ -6,9 +6,9 @@ description: Ni måste regelbundet se över era mål och uppdatera deras framste
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -135,7 +135,7 @@ When you check in on a goal at the goal level, you can update the progress of th
 
 For information about how to update additional information about results and activities, see [Edit results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -160,7 +160,7 @@ For information about how to update additional information about results and act
 
 1. Click **Check in**.
 
-   ![](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
+   ![Check in link](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
 
    The progress of results and activities becomes editable.
 
@@ -197,7 +197,7 @@ You can use the Check-in section to check in on goals when you want to quickly p
 
 When you check in on a goal in the Check-in section, you can update the progress of the results and activities that are assigned only to you. You cannot update the progress of results and activities that are assigned to other users in this section.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -210,11 +210,11 @@ When you check in on a goal in the Check-in section, you can update the progress
 
    (Conditional) If you are in the Goal List, Goal Alignment, or Pulse sections, click the **Check in** button in the upper-right of the screen. This opens the Check-in section.
 
-   ![](assets/check-in-button-highlighted-350x102.png)
+   ![Check in button](assets/check-in-button-highlighted-350x102.png)
 
    Goals display in a list and results and activities are listed under each goal.
 
-   ![](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
+   ![Check in page](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
 
 1. (Optional) Click **Show all results**, **Show all activities**, or **Show all aligned goals** to the far right of the goal name to display all results, activities, and aligned goals of a goal whose progress you want to update.
 
@@ -244,7 +244,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Så här uppdaterar du förloppet för mål:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -269,7 +269,7 @@ Så här uppdaterar du förloppet för mål:
 
 1. Om du vill uppdatera förloppet för ett resultat eller en aktivitet klickar du på värdet i kolumnen **Faktiskt förlopp** för resultatet eller aktiviteten och skriver ett tal för att uppdatera värdet. Tryck sedan på Retur.
 
-   ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![Faktisk status](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    Förloppsindikatorn för förloppsindikatorn i kolumnen Förlopp och förloppet för målet i målhuvudet uppdateras omedelbart.
 

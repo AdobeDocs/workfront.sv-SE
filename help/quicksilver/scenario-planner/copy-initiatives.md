@@ -6,9 +6,9 @@ description: Du kan skapa initiativ genom att kopiera befintliga initiativ. Du k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Du kan skapa initiativ genom att kopiera befintliga initiativ. Du kan kopiera in
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ En lista över planer visas.
 1. Klicka på namnet på en plan för att öppna den och leta sedan reda på initiativen som du vill kopiera.
 1. Markera rutan till vänster om det eller de initiativ du vill kopiera och klicka sedan på **[!UICONTROL Copy]** på menyn som visas längst ned i planen.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Kopiera initiativ](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] kopierar initiativen omedelbart och placerar dem under det senast valda initiativet.
 

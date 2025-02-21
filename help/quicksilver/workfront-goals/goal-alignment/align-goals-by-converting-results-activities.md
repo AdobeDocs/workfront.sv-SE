@@ -6,9 +6,9 @@ description: Du kan justera två mål manuellt eller konvertera resultaten och a
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Mer information om att manuellt justera två mål finns i [Justera mål genom at
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -109,9 +109,9 @@ Tänk på följande när du konverterar resultat och aktiviteter till mål:
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ Tänk på följande när du konverterar resultat och aktiviteter till mål:
 
 1. Gå till ett mål som har ett resultat eller en aktivitet som du vill konvertera till ett mål.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen på målsidan.
-1. Välj ett resultat eller en aktivitet i listan med förloppsindikatorer och klicka sedan på ikonen **Konvertera till mål** ![](assets/convert-to-goal-icon-unshimmed.png) längst upp i förloppsindikatorlistan. Rutan Konvertera till mål öppnas.
+1. Välj ett resultat eller en aktivitet i listan med förloppsindikatorer och klicka sedan på ikonen **Konvertera till mål** ![Konvertera till mål](assets/convert-to-goal-icon-unshimmed.png) högst upp i förloppsindikatorlistan. Rutan Konvertera till mål öppnas.
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![Konvertera till målruta](assets/convert-to-goal-box-unshimmed.png)
 1. Uppdatera följande information:
    * **Målnamn**: Som standard har det nya målet samma namn som det ursprungliga resultatet eller den ursprungliga aktiviteten.
    * **Period**: Som standard är det nya målets period det aktuella kvartalet. Du kan välja inställningen **Aktivera anpassade datum** för att definiera en anpassad tidsperiod för det nya målet.

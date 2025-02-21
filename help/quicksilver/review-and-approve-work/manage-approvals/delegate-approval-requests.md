@@ -6,9 +6,9 @@ description: Genom att delegera godkännandebegäranden kan du tilldela en annan
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Tänk på följande när du delegerar godkännanden:
 
 Så här delegerar du godkännanden till en annan användare:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mina godkännanden**.
 1. Gå till widgeten Mina godkännanden och klicka sedan på **Delegera mina godkännanden**.
 
@@ -112,7 +112,7 @@ Så här delegerar du godkännanden till en annan användare:
    >
    >Workfront-administratörer kan inaktivera godkännandedelegeringar från inställningsområdet. Om godkännandedelegeringar är inaktiverade visas inte knappen Delegera godkännanden.
 
-   ![](assets/delegate-approvals-home.png)
+   ![Delegera godkännanden hemma](assets/delegate-approvals-home.png)
 
 1. Ange följande information i avsnittet Delegera mina godkännanden:
 
@@ -144,11 +144,11 @@ Så här delegerar du godkännanden till en annan användare:
 
 ## Uppdatera eller stoppa en godkännandedelegering {#update-or-stop-an-approval-delegation}
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mina godkännanden**.
 
 1. Gå till widgeten Mina godkännanden och klicka sedan på **Redigera delegering**.
-   ![](assets/edit-delegations.png)
+   ![Redigera delegeringar](assets/edit-delegations.png)
 <!--
    Or
 
@@ -170,7 +170,7 @@ Du kan bara visa följande typer av godkännandedelegeringar i widgeten Mina god
 
 Så här visar du delegerade godkännanden:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mina godkännanden**.
 1. I widgeten **Mina godkännanden** klickar du på listrutan **Filter** och sedan på **Delegerade godkännanden**.\
    Alla godkännanden som delegerats till dig visas i listan.

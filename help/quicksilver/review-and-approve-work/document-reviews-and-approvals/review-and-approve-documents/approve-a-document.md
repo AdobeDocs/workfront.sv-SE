@@ -6,9 +6,9 @@ description: Om du tilldelas som godkännare för ett dokument finns det flera s
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Godkänn ett dokument från startsidan
 
-1. Klicka på ikonen **Hem** ![](../assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Hem** ![Hem](../assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    >
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](../assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på ikonen **Huvudmeny** ![Huvudmeny](../assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
 1. Klicka på **Filter** längst upp till vänster på sidan och kontrollera att **Godkännanden** är markerat.
 
@@ -103,7 +103,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Om den aktuella versionen av dokumentet har ett väntande godkännande visas beslutsmenyerna i det övre högra hörnet på sidan. Om andra versioner av dokumentet har väntande godkännanden visas en röd punkt på den nedrullningsbara versionsmenyn.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klicka på något av följande två godkännandealternativ i det övre högra hörnet på sidan:
@@ -127,7 +127,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Om den aktuella versionen av dokumentet har ett väntande godkännande visas beslutsmenyknapparna i det övre högra hörnet av dokumentsammanfattningsrutan. Om andra versioner av dokumentet har väntande godkännanden för dig visar versionsmenyn en röd punkt.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klicka på ett av följande två godkännandealternativ i det övre högra hörnet av rutan Dokumentsammanfattning:

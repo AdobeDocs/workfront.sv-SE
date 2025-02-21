@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,19 @@ Så här associerar du en befintlig global godkännandeprocess med en projekt-, 
 
    Du kan behöva klicka på **Visa mer** och sedan på **Godkännanden**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Avsnittet Godkännanden för aktiviteten](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![Använd befintliga eller skapa godkännanden för enstaka användning](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    Den valda godkännandeprocessen visas.
 
 1. Expandera listrutan **Använd befintlig** och välj en befintlig godkännandeprocess.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Godkännandemenyn](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    Den valda godkännandeprocessen visas.
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![Befintligt godkännande kopplat till aktivitet](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. Klicka på **Spara**.
 1. (Valfritt) Klicka på Redigera godkännandeprocess om du vill ändra det befintliga godkännande som du har kopplat till objektet. Detta ändrar den globala godkännandeprocessen till en enda godkännandeprocess. Mer information finns i avsnittet [Ändra en global godkännandeprocess för ett specifikt objekt](#modify-a-global-approval-process-for-use-on-a-specific-object) i den här artikeln.
@@ -168,7 +168,7 @@ Så här ändrar du en godkännandeprocess som redan är kopplad till ett objekt
    >
    >Kontrollera att du klickar på **Spara** när du lägger till godkännandet.
 
-1. När den globala godkännandeprocessen har lagts till klickar du på ikonen **Redigera**![](assets/edit-icon.png) i det övre högra hörnet på godkännandesidan. Den här åtgärden omvandlar den globala godkännandeprocessen eller godkännandeprocessen på gruppnivå till en enda godkännandeprocess.
+1. När den globala godkännandeprocessen har lagts till klickar du på ikonen **Redigera**![Redigera](assets/edit-icon.png) i det övre högra hörnet av godkännandesidan. Den här åtgärden omvandlar den globala godkännandeprocessen eller godkännandeprocessen på gruppnivå till en enda godkännandeprocess.
 1. Gör eventuella ändringar i den befintliga godkännandeprocessen. Mer information finns i avsnittet [Associera en godkännandeprocess för enstaka användning med en projekt-, uppgifts-, utgåva-, mall- eller malluppgift](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) i den här artikeln.
 1. Klicka på **Spara** och klicka sedan på **Spara** igen för att bekräfta att du vill konvertera den globala godkännandeprocessen till en godkännandeprocess som bara är tillgänglig för det här objektet.
 
@@ -193,11 +193,11 @@ Så här skapar du en godkännandeprocess för en enstaka användning:
 
    Du kan behöva klicka på **Visa fler** > **Godkännanden**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Avsnittet Godkännanden för aktiviteten](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klicka på **Skapa för engångsbruk**.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Godkännandemenyn](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. Slutför stegen som börjar med steg 6 i avsnittet Skapa en global godkännandeprocess på systemnivå eller gruppnivå för arbetsobjekt i artikeln [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -232,12 +232,12 @@ Så här tar du bort eller tar bort en godkännandeprocess från en arbetsuppgif
 
    Du kan behöva klicka på **Visa fler** > **Godkännanden**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Avsnittet Godkännanden för aktiviteten](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klicka på en av följande ikoner i det övre högra hörnet av avsnittet Godkännanden, beroende på vilken typ av godkännande som är associerat med objektet:
 
-   * **Ta bort** ikon ![](assets/remove-icon---x-in-circle.png) för globala godkännanden eller godkännanden på gruppnivå.
-   * **Ta bort** ikon ![](assets/delete.png) för enanvändargodkännanden.
+   * **Ikonen** Ta bort ![ikon](assets/remove-icon---x-in-circle.png) för globala godkännanden eller godkännanden på gruppnivå.
+   * **Ikonen** Ta bort ![ikonen ](assets/delete.png) för engångsgodkännanden.
 
 1. Bekräfta genom att klicka på **Ta bort** eller **Ta bort**.
 

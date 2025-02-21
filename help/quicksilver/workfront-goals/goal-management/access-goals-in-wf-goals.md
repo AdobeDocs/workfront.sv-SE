@@ -6,9 +6,9 @@ description: I den här artikeln beskrivs hur du kan hitta och hantera mål i Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den 
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -85,7 +85,7 @@ Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den 
 
 ## Öppna Workfront-mål
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Accessing goals differs depending on what environment you use.
 
 To access an individual goal in the Production environment:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
      (!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,11 +155,11 @@ Så här kommer du åt ett enskilt mål:
 
 1. Klicka på ikonen **Huvudmeny** i det övre högra hörnet av Workfront och klicka sedan på **Mål** .
 Mållistan visas som standard.
-   ![](assets/goal-list-unshimmed.png)
+   ![Mållista](assets/goal-list-unshimmed.png)
 1. Klicka på namnet på ett mål i listan.
 Målets sida visas.
-   ![](assets/goal-page-unshimmed.png)
-1. Klicka på **Mer**-menyn ![](assets/more-icon.png) till höger om målnamnet om du vill redigera eller dela målet ytterligare.
+   ![Målsida](assets/goal-page-unshimmed.png)
+1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) till höger om målnamnet om du vill redigera eller dela målet ytterligare.
 1. Klicka på **Målinformation** i den vänstra panelen för att redigera information om målet. Mer information finns i [Uppdatera mål i avsnittet Målinformation i Adobe Workfront-mål](../goal-management/update-goals-in-goal-details-panel.md).
 
 

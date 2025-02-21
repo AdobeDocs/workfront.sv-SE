@@ -6,9 +6,9 @@ description: Du kan uppdatera information för enskilda mål genom att gå till 
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -98,7 +98,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 ### Update goals in the Goal Details panel in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -108,7 +108,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 1. Click the name of a goal in the Goal List, then click the name of a goal.
 
    This opens the Goal Details panel on the right.
-   ![](assets/goal-details-summary-tab-350x294.png)
+   ![Goal details summary](assets/goal-details-summary-tab-350x294.png)
 
    >[!TIP]
    >
@@ -120,7 +120,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
    >The Check-in and Pulse sections have been removed from the Preview environment.
    >
 
-1. On the Summary tab, click the **More icon** ![](assets/more-icon.png), then click any of the following options:
+1. On the Summary tab, click the **More icon** ![More icon](assets/more-icon.png), then click any of the following options:
 
    1. **Edit**. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
    1. **Copy**. For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
@@ -159,7 +159,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Click the **Updates** tab. Here, you can view goal comments and review the entire editing history of the goal, activities, and results, to understand who changed what and when.
 
-   ![](assets/goal-details-updates-tab-350x280.png)
+   ![Goal details updates](assets/goal-details-updates-tab-350x280.png)
 
 1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
 
@@ -171,7 +171,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. (Optional) Click **Details** under a progress or an editing history update to display additional information about the update.
 
-   ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
+   ![Details in update tab](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
 
 -->
 
@@ -181,9 +181,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    Då öppnas avsnittet **Målinformation** till vänster.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Målsida](assets/goal-page-unshimmed.png)
 
-1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet och klicka sedan på **Redigera alla** eller **Översikt**
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet och klicka sedan på **Redigera alla** eller **Översikt**
 
    eller
 

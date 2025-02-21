@@ -8,9 +8,9 @@ description: Du kan koppla projekt till mål för att ange hur målet fortskride
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -112,7 +112,7 @@ Du måste ha följande:
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * När du tar bort ett projekt som är kopplat till ett mål tas även projektet bort från målet.
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Lägg till projekt i mål
 
-1. Klicka på **huvudmenyn** ![](assets/main-menu-icon.png) (gör ett utkast för Shell: eller klicka på **huvudmenyn** ![](assets/three-line-main-menu-icon.png) i det övre vänstra hörnet, om det är tillgängligt.) och sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) (utkast för Shell: eller klicka på **Huvudmeny** ![Huvudmenyrader](assets/three-line-main-menu-icon.png) i det övre vänstra hörnet, om det är tillgängligt.) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
 1. Klicka på **Lägg till befintligt projekt** i den nedrullningsbara menyn **Ny förloppsindikator**.
 
    Rutan Lägg till projekt i mål visas.
 1. (Valfritt) Uppdatera **vyn**, **filtret** eller **grupperingen** genom att klicka på respektive ikoner i det övre högra hörnet av listan för att ändra hur projektlistan visas.
-1. (Valfritt) Klicka på ikonen **Sök** ![](assets/search-icon.png) och börja skriva namnet på ett projekt för att snabbt hitta det i listan.
+1. (Valfritt) Klicka på ikonen **Sök** ![Sök](assets/search-icon.png) och börja skriva namnet på ett projekt för att snabbt hitta det i listan.
 1. Markera de projekt som du vill lägga till i målet och klicka sedan på **Lägg till**.
 
    De valda projekten läggs till i målet och visas i avsnittet med förloppsindikatorer på målsidan, under grupperingen **Projekt**.

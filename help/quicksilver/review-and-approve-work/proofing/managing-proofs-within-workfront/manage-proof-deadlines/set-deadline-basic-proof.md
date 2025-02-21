@@ -7,9 +7,9 @@ description: Du kan ange en enda deadline för ett grundläggande korrektur när
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **Korrektur**.
 1. Välj **Ingen tidsgräns** i området **Arbetsflöde**.
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![Ingen deadline](assets/no-deadline-basic-proof-350x70.png)
 
 1. Välj ett datum och ange en tid. Klicka sedan var som helst på skärmen.
 1. Välj om du vill meddela granskarna den nya tidsgränsen.

@@ -7,9 +7,9 @@ description: När Adobe Workfront-administratören har gett dig rätt åtkomst t
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -121,9 +121,9 @@ Editing results differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
 1. Click **Results**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
-   ![](assets/results-gear-icon-options-350x85.png)
+   ![Results gear icon](assets/results-gear-icon-options-350x85.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -139,14 +139,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Klicka på **Huvudmenyn** ![](assets/main-menu-icon.png) och sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
-1. Välj ett resultat i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Välj ett resultat i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
 
    Rutan Redigera resultat öppnas.
 
-   ![](assets/edit-result-box-unshimmed.png)
+   ![rutan Redigera resultat](assets/edit-result-box-unshimmed.png)
 
 1. Redigera följande information:
    * **Resultatnamn**: Resultatets namn. Använd ett beskrivande namn som visar vilket resultat du behöver uppnå för att slutföra målet.
@@ -170,9 +170,9 @@ Editing activities differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
 1. Click **Activities**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
-   ![](assets/activities-gear-icon-options-350x84.png)
+   ![Activities gear icon](assets/activities-gear-icon-options-350x84.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -184,14 +184,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Klicka på **Huvudmenyn** ![](assets/main-menu-icon.png) och sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
-1. Välj en aktivitet i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Välj en aktivitet i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
    Rutan Redigera aktivitet öppnas.
 
-   ![](assets/edit-activity-box-unshimmed.png)
+   ![rutan Redigera aktivitet](assets/edit-activity-box-unshimmed.png)
 
 1. Redigera följande information:
    * **Aktivitetsnamn**: Namnet på aktiviteten. Använd ett beskrivande namn som visar vilken aktivitet du bör utföra för att ange att målet har slutförts.

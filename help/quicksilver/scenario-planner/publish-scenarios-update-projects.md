@@ -7,9 +7,9 @@ description: Du kan skapa projekt från befintliga initiativ och uppdatera proje
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Publicering av ett scenario från [!DNL Adobe Workfront Scenario Planner] ger f�
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -97,7 +97,7 @@ Innan du börjar:
 
 
 
-## Publish-initiativ
+## Publicera initiativ
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Innan du börjar:
 
 {{step1-to-scenario-planner}}
 
-1. (Valfritt och villkorligt) Om du vill publicera från en befintlig plan klickar du på ikonen **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) i planens övre högra hörn och väljer något av följande alternativ:
+1. (Valfritt och villkorligt) Om du vill publicera från en befintlig plan klickar du på **[!UICONTROL Filter]**-ikonen ![Filterikonen](assets/filter-nwepng.png) i planens övre högra hörn och väljer något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,9 +126,9 @@ Innan du börjar:
     </tbody> 
    </table>
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![Alternativ i listrutan Filter](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![](assets/search-icon.png) och börja skriva namnet på en plan för att snabbt hitta den i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![sök](assets/search-icon.png) och börja skriva namnet på en plan för att snabbt hitta den i listan.
 1. (Villkorligt) Skapa en plan om du vill publicera från en ny plan.
 
    Mer information om hur du skapar planer finns i [Skapa och redigera planer i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) .
@@ -142,21 +142,21 @@ Innan du börjar:
    Mer information om hur du skapar initiativ finns i [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Klicka på **[!UICONTROL Save plan]**.
-1. Välj det scenario som du vill publicera i listrutan **[!UICONTROL Initial scenario]** och klicka sedan på **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png) i det övre högra hörnet.
+1. Välj det scenario som du vill publicera i listrutan **[!UICONTROL Initial scenario]** och klicka sedan på **[!UICONTROL Go to Publish]** ![Gå till publicering](assets/go-to-publish-button-icon.png) i det övre högra hörnet.
 
    eller
 
-   Klicka på **[!UICONTROL Compare scenarios]**, håll muspekaren över det scenario-kort som du vill publicera från och klicka sedan på **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png).
+   Klicka på **[!UICONTROL Compare scenarios]**, hovra över det scenariokort som du vill publicera från och klicka sedan på **[!UICONTROL Go to Publish]** ![Gå till publicering](assets/go-to-publish-button-icon.png).
 
-   Sidan [!UICONTROL Publish initiatives] visas med en lista över alla initiativ i scenariot. Om någon av initiativen har publicerats tidigare visas projektikonen ![](assets/project-icon-sp.png) efter deras namn och datumet **[!UICONTROL Last published]** fylls i i listan.
+   Sidan [!UICONTROL Publish initiatives] visas med en lista över alla initiativ i scenariot. Om någon av initiativen har publicerats tidigare visas projektikonen ![Projektikon](assets/project-icon-sp.png) efter deras namn och datumet **[!UICONTROL Last published]** i listan.
 
    >[!TIP]
    >
-   >Initiativ som har skapats genom att projekt har importerats visas också med projektikonen ![](assets/project-icon-sp.png) till höger om namnet
+   >Initiativ som har skapats genom import av projekt visas också med projektikonen ![Projektikon](assets/project-icon-sp.png) till höger om namnet
 
-   ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
+   ![Projektikon och det senast publicerade datumet](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. (Valfritt och villkorligt) Om du vill publicera från en befintlig plan klickar du på ikonen **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) i planens övre högra hörn och väljer något av följande alternativ:
+1. (Valfritt och villkorligt) Om du vill publicera från en befintlig plan klickar du på **[!UICONTROL Filter]**-ikonen ![Filterikonen](assets/filter-nwepng.png) i planens övre högra hörn och väljer något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -177,9 +177,9 @@ Innan du börjar:
     </tbody> 
    </table>
 
-   ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
+   ![Initiativfilter](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![ Sök ](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
 1. Välj en eller flera initiativ att publicera och skapa eller uppdatera projekt från dem och klicka sedan på **[!UICONTROL Publish initiatives]**.
 
    Detta skapar ett nytt projekt från varje vald initiativ eller uppdaterar befintliga kopplade projekt, om de publicerade initiativen redan var kopplade till ett projekt.
@@ -193,17 +193,17 @@ Innan du börjar:
    * Om du har publicerat ett initiativ klickar du på **[!UICONTROL See associated project]** för att öppna projektet som har skapats eller uppdaterats från det.
    * Om du har publicerat mer än ett initiativ klickar du på **[!UICONTROL See associated projects]** för att öppna en lista över projekt som publicerats från initiativ. [!DNL Workfront] använder filtret [!DNL Scenario Planner] Projekt på listan med projekt som standard. De senast publicerade projekten visas högst upp i listan.
 
-     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![Scenarioplanering efter publiceringsinitiativ](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Gå till följande områden om du vill se information om projektet:
 
    * **Avsnittet [!UICONTROL Updates]**: En uppdatering publiceras som anger att projektet skapades eller uppdaterades från initiativet. Uppdateringen innehåller namnet på det initiativ som skapade eller uppdaterade projektet och det länkade namnet på den plan som innehåller initiativet. Du kan klicka på namnet på planen i uppdateringen för att öppna planen i [!DNL Scenario Planner].
 
-     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![Uppdatera bekräftelse av publiceringsström](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
    * **Området [!UICONTROL Overview] i [!UICONTROL Project Details] avsnittet**: Ett nytt [!DNL Scenario Planner]-avsnitt skapas i det här området som innehåller information från det länkade initiativet.
 
-     ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![Scenarioplanering för projektinformation](assets/scenario-planner-on-project-details-350x135.png)
 
      Följande initialinformation publiceras i området [!DNL Scenario Planner] i avsnittet [!UICONTROL Project Details]:
 
@@ -257,7 +257,7 @@ Innan du börjar:
 
      Mer information finns i [Översikt över att stämma av resursallokeringar mellan projekt och initiativ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-     ![](assets/role-allocation-panel-350x174.png)
+     ![Rollallokeringspanelen](assets/role-allocation-panel-350x174.png)
 
      Ändringar av datum eller resurser för projektet påverkar inte motsvarande initiativ eller något av de områden i projektet som innehåller initiativinformation.
 
@@ -265,7 +265,7 @@ Innan du börjar:
 
      Mer information finns i [Budgetresurser i [!UICONTROL Business Case] med  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-     ![](assets/sp-in-business-case-selected-350x110.png)
+     ![Scenarioplanering i affärsfall](assets/sp-in-business-case-selected-350x110.png)
 
 1. (Valfritt) Granska följande information i [!DNL Scenario Planner] när du har publicerat ett scenario:
 
@@ -274,11 +274,11 @@ Innan du börjar:
    * Alternativet [!UICONTROL Go to Publish] tas bort från alla andra scenarier efter att minst ett initiativ har publicerats från ett scenario.
    * En grön indikator visas bredvid de publicerade initialernas projektikoner i planen.
 
-     ![](assets/indicator-for-published-initiative-icon-350x119.png)
+     ![Indikator för publicerat initiativ](assets/indicator-for-published-initiative-icon-350x119.png)
 
    * En grön&quot;publicerad&quot; indikator visas högst upp i scenariot och på scenariokortet och fältet Publicerad fylls i på scenariokortet som anger antalet initiativ i scenariot som har publicerats.
 
-     ![](assets/published-scenario-highlighted-350x632.png)
+     ![Publicerat scenario](assets/published-scenario-highlighted-350x632.png)
 
      >[!TIP]
      >

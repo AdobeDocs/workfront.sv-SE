@@ -7,9 +7,9 @@ description: Adobe Workfront-mål innehåller en uppsättning fördefinierade h�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >* För den nya planen och licensstrukturen:
 >
->   * Den ultimata Workfront-planen
+>   * Ultimate Workfront-planen
 >    
 >* För aktuell plan och licensstruktur:
 >
@@ -140,4 +140,4 @@ A personal goal is a goal where you are designated as the owner.
 
 När händelsen som definieras av det meddelande du aktiverat inträffar, får du ett e-postmeddelande som beskriver händelsen. Följande är ett exempel på ett e-postmeddelande som meddelar dig om att du är tilldelad som ägare av ett nytt mål:
 
-![](assets/wf-align-notification-email-350x164.png)
+![Målmeddelande via e-post](assets/wf-align-notification-email-350x164.png)

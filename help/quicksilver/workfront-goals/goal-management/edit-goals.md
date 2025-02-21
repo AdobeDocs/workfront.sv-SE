@@ -6,9 +6,9 @@ description: Du kan redigera befintliga mål när som helst under en viss period
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Mål**.\
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Mål**.\
    En lista med mål visas.
 1. Klicka på ett mål.\
    Målsidan visas.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Målsida](assets/goal-page-unshimmed.png)
 
 1. Gör något av följande om du vill redigera information för målet:
    * Klicka på fält som visas i målhuvudet för att uppdatera dem. Alla fält i rubriken kan inte redigeras.
-   * Klicka på ikonen **Mer** ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Redigera**.
-   * Klicka på **Målinformation** i den vänstra panelen och klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet. Klicka sedan på **Redigera alla**. Börja uppdatera fält i delen Målinformation.
+   * Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Redigera**.
+   * Klicka på **Målinformation** i den vänstra panelen och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet. Klicka sedan på **Redigera alla**. Börja uppdatera fält i delen Målinformation.
 
      >[!IMPORTANT]
      >

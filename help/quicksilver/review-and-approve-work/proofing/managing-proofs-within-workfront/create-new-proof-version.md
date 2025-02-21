@@ -6,9 +6,9 @@ description: Det kan vara en stor utmaning att hantera feedback i flera versione
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Så här skapar du en ny version av ett korrektur:
 
    Markera den rad där korrekturet visas, klicka på **Lägg till ny** > **Version** och klicka sedan på det alternativ du vill använda för att lägga till den nya versionen av korrekturet.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Lägg till ny version](assets/add-new-version-350x185.png)
 
 ## Skapa en ny version av ett korrektur från korrekturläsaren (endast Workfront Proof)
 
@@ -130,7 +130,7 @@ Så här skapar du en ny version av ett korrektur i Workfront Proof:
 
    >[!NOTE]
    >
-   >Det går bara att dra och släppa i webbläsare som stöder HTML5. Detta utesluter Internet Explorer 7 till 9 och Safari.
+   >Dra och släpp är bara tillgängligt i webbläsare som har fullt stöd för HTML5. Detta utesluter Internet Explorer 7 till 9 och Safari.
 
 1. Under **Arbetsflöde** gör du någon av följande ändringar för att ange granskarna för den här versionen av korrekturet.
 

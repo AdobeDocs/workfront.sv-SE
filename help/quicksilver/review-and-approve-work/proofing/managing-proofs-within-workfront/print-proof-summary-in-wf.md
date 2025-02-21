@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Skriva ut en korrektursammanfattning i Adobe Workfront
-description: Du kan skriva ut en korrektursammanfattning, spara den som PDF eller exportera den som en XLS-fil eller PDF-fil som är optimerad för Adobe Reader.
+description: Du kan skriva ut en korrektursammanfattning, spara den som en PDF eller exportera den som en XLS-fil eller PDF-fil som är optimerad för Adobe Reader.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
 
 # Skriva ut en korrektursammanfattning i Adobe Workfront
 
-Du kan skriva ut en korrektursammanfattning, spara den som PDF eller exportera den som en XLS-fil eller PDF-fil som är optimerad för Adobe Reader.
+Du kan skriva ut en korrektursammanfattning, spara den som en PDF eller exportera den som en XLS-fil eller PDF-fil som är optimerad för Adobe Reader.
 
 ## Åtkomstkrav
 
@@ -65,7 +65,7 @@ Du kan skriva ut en korrektursammanfattning direkt från dokumentlistan.
 
    eller
 
-   När du visar korrekturet i korrekturläsaren klickar du på ikonen **Skriv ut** ![](assets/print-icon-in-pv.png) i det vänstra verktygsfältet. (Om det vänstra verktygsfältet inte visas klickar du på menyikonen ![](assets/menu-icon-in-pv.png) i det övre vänstra hörnet i korrekturläsaren.)
+   Klicka på ikonen **Skriv ut**![Skriv ut](assets/print-icon-in-pv.png) i det vänstra verktygsfältet när du visar korrekturläsaren. (Om det vänstra verktygsfältet inte visas klickar du på menyikonen ![Menyikon](assets/menu-icon-in-pv.png) i det övre vänstra hörnet i korrekturläsaren.)
 
 1. Använd något av följande alternativ:
 
@@ -114,7 +114,7 @@ Du kan skriva ut en korrektursammanfattning direkt från dokumentlistan.
 
    eller
 
-   Om du vill spara sammanfattningen som en PDF-fil klickar du på menyn **Mål**, klickar på **Spara som PDF** och sedan på **Spara**.
+   Om du vill spara sammanfattningen som en PDF-fil klickar du på menyn **Mål** , klickar på **Spara som PDF** och sedan på **Spara**.
 
 ## Exportera en korrektursammanfattning som XLS eller PDF
 
@@ -126,8 +126,8 @@ Du kan exportera en korrektursammanfattning för statiskt innehåll som en XLS-f
 
 1. Klicka på ikonen XLS eller PDF i det övre högra hörnet av sidan.
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![XLS PDF, ikon](assets/xls-pdf-icons-350x136.png)
 
 När den exporterade filen är klar får du ett e-postmeddelande där du kan hämta filen.
 
-Om du har exporterat sammanfattningen som en PDF-fil visas kommentarer på korrekturet i läsaren för PDF. Om en kommentar har flera kopplade markeringar visas kommentaren flera gånger i kommentarlistan (en gång för varje markering).
+Om du har exporterat sammanfattningen som en PDF-fil visas kommentarer på korrekturet i PDF Reader. Om en kommentar har flera kopplade markeringar visas kommentaren flera gånger i kommentarlistan (en gång för varje markering).

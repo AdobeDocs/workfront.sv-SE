@@ -6,9 +6,9 @@ description: Du kan generera ett nytt statiskt korrektur eller en ny version av 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Om du vill skapa ett statiskt bevis måste webbplatsen vara tillgänglig för al
 
    Alternativen för att konfigurera korrekturet för webbplatsen visas.
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![Interaktivt korrektur](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Valfritt) Om du vill ändra namnet på korrekturet från webbplatsens URL till något annat anger du ett **korrekturnamn.**
 1. Kontrollera att **Skärmbilden** för hämtning är markerad och använd något av följande alternativ:

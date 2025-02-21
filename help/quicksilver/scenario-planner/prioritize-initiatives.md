@@ -6,9 +6,9 @@ description: Det är viktigt att prioritera initiativ eftersom initiativen får 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Mer information om hur du skapar initiativ finns i [Skapa och redigera initiativ
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -92,7 +92,7 @@ En lista över planer visas.
 
      Workfront visar antalet valda initiativ.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![Flervalsinitiativ nummer](assets/multi-select-initiative-number.png)
 
    * Klicka på rutan **[!UICONTROL Prioritize]** längst ned i planen och välj sedan bland följande alternativ:
 
@@ -100,7 +100,7 @@ En lista över planer visas.
       * **[!UICONTROL Bottom]**: Flyttar de valda initiativen längst ned i initieringslistan. De valda initiativen listas sist i planen.
       * **[!UICONTROL Select a number]**: Flyttar de valda initiativen efter det initiativ du anger här.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![Prioritera initiativ](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] placerar omedelbart de valda initiativen där du anger detta och antalet alla initiativ uppdateras därefter.
 

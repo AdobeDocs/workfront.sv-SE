@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront-administratörer initierar integreringen av Workfront och Frame.io gen
 
 >[!IMPORTANT]
 >
->Den här funktionen kommer snart. För närvarande läggs Frame.io-konton till manuellt av Workfront-teamet. Kontakta din kontorepresentant på Adobe om du behöver hjälp.
+>Den här funktionen kommer snart. För närvarande läggs Frame.io-konton till manuellt av Workfront-teamet. Kontakta din Adobe-kontorepresentant om du behöver hjälp.
 
 <!--For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -54,7 +54,7 @@ När en användare har markerats som en Frame.io-användare i Workfront och läg
 
 Mer information finns i [Konfigurera  [!DNL Workfront] och [!DNL Frame.io] integreringen](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
-![](assets/Frame-enabled-user.png)
+![Användare med bildruta aktiverad](assets/Frame-enabled-user.png)
 
 
 ### Skapa ett projekt som är kopplat till Frame.io
@@ -114,7 +114,7 @@ Granskare och godkännare kan läggas till i ett arbetsflöde för engångsgodk�
   Mer information finns i [Skapa en godkännandemall](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 
-![](assets/assign-template.png)
+![Tilldela mall](assets/assign-template.png)
 
 
 #### Öppna Frame.io-visningsprogrammet
@@ -123,7 +123,7 @@ Användarna kan öppna Frame.io-visningsprogrammet på följande sätt:
 
 * Workfront e-postmeddelanden
 * The My approval widget in the new Workfront Home area
-  ![](assets/awaiting-my-approval.png)
+  ![Väntar på mitt godkännande](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Granskarna kan markera sin granskning som komplett inuti Frame.io-visningsprogra
 
 Mer information om beslut i Workfront finns i [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-![](assets/frame-viewer-and-decision.png)
+![Bildrutevisningsprogram och -beslut](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 Projektsamordnare kan övervaka förloppet för alla pågående godkännanden i Workfront Home-området med följande widget:
 
 * **Alla godkännanden**: Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden.
-  ![](assets/all-approvals.png)
+  ![Alla godkännanden](assets/all-approvals.png)

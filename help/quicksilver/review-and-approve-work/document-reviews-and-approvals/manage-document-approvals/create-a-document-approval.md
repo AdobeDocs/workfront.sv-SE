@@ -6,9 +6,9 @@ description: Du kan begära godkännande från andra användare för ett dokumen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, portföljer, program, rapporter, instrumentpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en dokumentgranskning eller godkännandebegäran från dokumentsidan
 
 1. Håll muspekaren över dokumentet och klicka sedan på Dokumentinformation.
-   ![](assets/doc-details.png)
+   ![Dokumentinformation](assets/doc-details.png)
 
 
 1. I närheten av dokumentnamnet väljer du den version av dokumentet som du vill skapa ett godkännande för i listrutan. Den senaste versionen väljs som standard.
@@ -71,7 +71,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Lägg till godkännare och deadline](assets/add-approver-and-deadline.png)
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 
@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning och klicka sedan på **Lägg till**.
 
-![](assets/doc-summary-add-approvers.png)
+![Lägg till godkännare i dokumentsammanfattning](assets/doc-summary-add-approvers.png)
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
@@ -93,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Lägg till godkännare och deadline](assets/add-approver-and-deadline.png)
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 
@@ -111,5 +111,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 1. Bläddra nedåt till avsnittet **Godkännanden** och klicka sedan på **Lägg till**.
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![Lägg till godkännare i dokumentsammanfattning](assets/doc-summary-add-approvers.png)
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Lägg till godkännare och deadline](assets/add-approver-and-deadline.png)
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 
 ## Skapa en gransknings- eller godkännandebegäran från sidan Dokumentinformation
 
 1. Håll markören över dokumentet och klicka sedan på **Dokumentinformation**.
-   ![](assets/doc-details.png)
+   ![Dokumentinformation](assets/doc-details.png)
 
 1. I närheten av dokumentnamnet väljer du den version av dokumentet som du vill skapa ett godkännande för. Den senaste versionen är markerad som standard.
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Lägg till godkännare och deadline](assets/add-approver-and-deadline.png)
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 
@@ -110,5 +110,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

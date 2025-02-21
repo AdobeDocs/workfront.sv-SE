@@ -6,9 +6,9 @@ description: Du kan ta bort initiativ för en plan som du har skapat eller för 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan ta bort initiativ för en plan som du har skapat eller för en plan som n
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ En lista över planer visas.
 1. Klicka på namnet på en plan för att öppna den och leta sedan reda på det initiativ du vill ta bort.
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL More menu]** ![](assets/more-menu.png) till höger om företagsnamnet och klicka sedan på **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+   * Klicka på **[!UICONTROL More menu]** ![Mer-menyn](assets/more-menu.png) till höger om företagsnamnet och klicka sedan på **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    * Markera rutan till vänster om initiativet, klicka sedan på **[!UICONTROL Delete]** på den flytande menyn som visas längst ned i planen och klicka sedan på **[!UICONTROL Yes, delete it]**.
 
@@ -107,7 +107,7 @@ En lista över planer visas.
 1. Klicka på namnet på en plan för att öppna den och leta sedan reda på det initiativ du vill ta bort.
 1. Markera rutorna till vänster om de initiativ som du vill ta bort, klicka sedan på **[!UICONTROL Delete]** på menyn som visas längst ned i planen och klicka sedan på **[!UICONTROL Yes, delete them]**.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Hantera initieringsmeny](assets/bottom-manage-initiative-menu-350x45.png)
 
    Initiativen och deras jobbroll och kostnadsinformation tas bort från planen.
 

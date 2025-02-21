@@ -6,9 +6,9 @@ description: Du kan återkalla följande objekt som skickats in för godkännand
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -69,14 +69,14 @@ Om du återkallar ett godkännande som är associerat med projektets inledande s
 
 Så här återkallar du ett projektgodkännande som du har skickat:
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Hem** ![Hem](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
    >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
 1. Gå till grupperingen **Godkännanden som jag har skickat** i området **Arbetslista**.
 
@@ -84,7 +84,7 @@ Så här återkallar du ett projektgodkännande som du har skickat:
 
    Då öppnas projektet till höger om arbetslistan.
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![Projektet väntar på godkännande](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Klicka på **Återkalla** i det övre högra hörnet av den högra panelen.
 
@@ -100,14 +100,14 @@ Om du återkallar ett godkännande som är associerat med aktivitetens inledande
 
 Så här återkallar du ett aktivitetsgodkännande som du har skickat:
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Hem** ![Hem](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
    >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
 1. Gå till grupperingen **Godkännanden som jag har skickat** i området **Arbetslista**.
 
@@ -115,7 +115,7 @@ Så här återkallar du ett aktivitetsgodkännande som du har skickat:
 
    Då öppnas uppgiften till höger om arbetslistan.
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![Aktivitet väntar på godkännande](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Klicka på **Återkalla** i det övre högra hörnet av den högra panelen.
 
@@ -129,14 +129,14 @@ Om du återkallar ett godkännande som är associerat med den inledande statusen
 >
 >Du kan koppla den första statusen för en utgåva till en godkännandeprocess med hjälp av en mall. Mer information om hur du skapar en begärandekö finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Hem** ![Hem](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
    >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
 1. Gå till grupperingen **Godkännanden som jag har skickat** i området **Arbetslista**.
 
@@ -144,7 +144,7 @@ Om du återkallar ett godkännande som är associerat med den inledande statusen
 
    Detta öppnar problemet till höger om arbetslistan.
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![Utfärdar väntande godkännande](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Klicka på **Återkalla** i det övre högra hörnet av den högra panelen.
 
@@ -152,14 +152,14 @@ Om du återkallar ett godkännande som är associerat med den inledande statusen
 
 När du återkallar ett tidrapportgodkännande återgår tidrapporten till den status den hade innan den skickades för godkännande.
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Hem** ![Hem](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
    >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
 1. Gå till grupperingen **Godkännanden som jag har skickat** i området **Arbetslista**.
 
@@ -167,7 +167,7 @@ När du återkallar ett tidrapportgodkännande återgår tidrapporten till den s
 
    Då öppnas tidrapporten till höger om arbetslistan.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![Tidrapport väntar på godkännande](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Klicka på **Återkalla** i det övre högra hörnet av den högra panelen.
 
@@ -175,14 +175,14 @@ När du återkallar ett tidrapportgodkännande återgår tidrapporten till den s
 
 Om du vill återkalla ett dokumentgodkännande måste du ta bort en eller alla användare från godkännandet manuellt.
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Hem** ![Hem](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
    >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
 1. Gå till grupperingen **Godkännanden som jag har skickat** i området **Arbetslista**.
 
@@ -199,14 +199,14 @@ Om du vill återkalla ett dokumentgodkännande måste du ta bort en eller alla a
 
 ## Åtkomstbegäranden
 
-1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Hem** ![Hem](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
    >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
 1. Gå till grupperingen **Godkännanden som jag har skickat** i området **Arbetslista**.
 
@@ -214,6 +214,6 @@ Om du vill återkalla ett dokumentgodkännande måste du ta bort en eller alla a
 
    Då öppnas åtkomstbegäran till höger om arbetslistan.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![Begäran om åtkomst väntar på godkännande](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Klicka på **Återkalla** i det övre högra hörnet av den högra panelen.

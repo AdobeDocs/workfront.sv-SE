@@ -6,9 +6,9 @@ description: Du kan visa mål som du eller någon annan har lagt till i Adobe Wo
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -128,7 +128,7 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
 
 1. Klicka på **Filter** i det övre högra hörnet av listan.
 
-   ![](assets/filter-icon-and-label.png)
+   ![Filterikon](assets/filter-icon-and-label.png)
 
    Som standard använder Workfront filtret **Alla** som visar alla mål i systemet.
 
@@ -172,7 +172,7 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
       </tbody> 
      </table>
 
-   * Håll muspekaren över namnet på ett filter och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) bredvid namnet för att anpassa det, lägga till specifika namn på användare, team, grupper eller namnet på din organisation, och markera det sedan när de visas i listan.
+   * Håll muspekaren över namnet på ett filter och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) bredvid namnet för att anpassa den och lägga till specifika namn på användare, team, grupper eller namnet på din organisation. Markera sedan den när de visas i listan.
 
    * Klicka på **Nytt filter** för att skapa ett nytt filter och välj sedan bland följande alternativ för att anpassa det nya filtret:
 
@@ -249,11 +249,11 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
 
 1. (Valfritt och villkorligt) När du visar mål i avsnittet Måljustering klickar du på **Visa dem** om du vill visa de filtrerade målen.
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![Visa länkar för filtrerade objekt](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    Filternamnet visas med en gul kontur som anger att det ignoreras.
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![Filtrera gula konturer](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Valfritt och villkorligt) Klicka på **Använd om filter** om du vill använda filtret och utesluta objekt som du visade i föregående steg.

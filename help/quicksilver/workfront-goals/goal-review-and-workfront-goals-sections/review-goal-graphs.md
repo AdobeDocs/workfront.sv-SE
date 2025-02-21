@@ -6,9 +6,9 @@ description: Du kan visa den övergripande statusen för dina mål och deras utv
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -113,7 +113,7 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
 
 ## Granska målförloppet i diagram
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
 
 1. Klicka på **Diagram** på den vänstra panelen.
 
-   ![](assets/graphs-in-left-panel.png)
+   ![Diagram i den vänstra panelen](assets/graphs-in-left-panel.png)
 
    Avsnittet Diagram visas.
 
@@ -141,7 +141,7 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
 
 1. Granska informationen i tabellen nedan när du granskar målhälsodiagrammet.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![Mätgraf](assets/gauge-graph-wf-align-350x230.png)
 
    | Totalt antal mål | Siffran längst ned i diagrammet anger antalet mål i den valda perioden, i alla statusvärden som du har valt. |
    |---|---|
@@ -151,7 +151,7 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
 
 1. Granska informationen i tabellen nedan när du granskar statusdiagrammet för mål.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![Linjediagram](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

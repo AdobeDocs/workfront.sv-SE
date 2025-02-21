@@ -6,9 +6,9 @@ description: Använd delen Måljustering för att visa en helhetsbild av måljus
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ eller
 <td>
 <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
 <p>eller</p>
 <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -137,11 +137,11 @@ eller
 
    Mål som är justerade mot andra mål visar antalet justerade mål under målkortet.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Pilen för justeringsdiagram](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. Klicka på ikonen **nedåtriktad pil** under ett mål om du vill expandera och visa de underordnade målen ytterligare.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Pilen för justeringsdiagram](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ eller
 
 1. (Villkorligt) Om det aktuella filtret utesluter några av de mål som ingår i en justering visas ett varningsmeddelande som anger att inte alla mål visas.
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![Överordnat mål exkluderat](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. Klicka på **Visa dem** för att visa de mål som för närvarande är eliminerade av filtret.
 
@@ -158,14 +158,14 @@ eller
    * Kopplade mål som tidigare tagits bort av filtret visas nu i justeringsdiagrammet.
    * Filtret i det övre högra hörnet markeras med gult för att ange att det för närvarande inte används.
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![Yellow filter highlight](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      En länk för återanvändning av filter visas till vänster om filternamnet.
 
 1. (Valfritt) Klicka på **Använd om filter** om du vill återgå till det ursprungliga resultatet och visa målhierarkin.
 1. (Valfritt) Håll muspekaren över förloppsindikatorn för att förstå var målförloppet ska vara för den aktuella dagen.
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![Mus över justeringsdiagram](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    Följande information visas:
 

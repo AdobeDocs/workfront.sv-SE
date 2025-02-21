@@ -6,9 +6,9 @@ description: Som granskare kan du förhandsgranska ett dokument som har skickats
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -94,5 +94,5 @@ Add once functionality is added
 
 1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **uppdateringsavsnitt**. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till avsnittet **Versioner** i rutan Dokumentsammanfattning och sedan klicka på ikonen Mer ![](../assets/more-icon.png) bredvid den version du vill granska och välja **Hämta** eller **Förhandsgranska** .
+1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till avsnittet **Versioner** i rutan Dokumentsammanfattning och sedan klicka på ikonen Mer ![Mer](../assets/more-icon.png) bredvid den version du vill granska och välja **Hämta** eller **Förhandsgranska** .
 1. Om du vill registrera att du har slutfört granskningen klickar du på **Slutför granskning**.

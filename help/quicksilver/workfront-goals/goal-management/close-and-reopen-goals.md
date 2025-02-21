@@ -6,9 +6,9 @@ description: Du kan stänga ett mål när du vill ange att du har slutfört det 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -111,7 +111,7 @@ Closing goals differs depending on what environment you use.
 
 ### Close goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -128,7 +128,7 @@ Closing goals differs depending on what environment you use.
 
 1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -137,13 +137,13 @@ Closing goals differs depending on what environment you use.
    >If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.
    >
    >
-   >![](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
+   >![Closing goals with active aligned goals](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
    >
 
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    Mållistan öppnas.
 
@@ -157,17 +157,17 @@ Closing goals differs depending on what environment you use.
 
    Målsidan öppnas.
 
-   ![](assets/goal-page-unshimmed.png)
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Stäng**.
+   ![Målsida](assets/goal-page-unshimmed.png)
+1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Stäng**.
 
    Målet stängs och du får en bekräftelse i skärmens övre högra hörn.
 
-   ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![Slutbekräftelse för mål](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. (Valfritt) Klicka på **Lägg till slutkommentarer** i bekräftelserutan om du vill lägga till kommentarer om det här målet och varför du måste stänga det.
 1. Lägg till slutkommentarer och klicka sedan på **Lägg till anteckningar**.
 
-   ![](assets/add-closing-notes-box-unshimmed.png)
+   ![Lägg till slutkommentarsruta](assets/add-closing-notes-box-unshimmed.png)
 
    Kommentarerna visas i målinformationsavsnittet på målsidan i området Stäng anteckningar.
 
@@ -185,7 +185,7 @@ Reopening goals differs depending on what environment you use.
 
 ### Reopen goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -201,7 +201,7 @@ Reopening goals differs depending on what environment you use.
 
    This opens the Goal Details panel on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
    This reopens the goal and places it in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
@@ -209,7 +209,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png)> **Mål** i det övre högra hörnet.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png)> **Mål** i det övre högra hörnet.
 
    Mållistan öppnas.
 
@@ -222,7 +222,7 @@ Reopening goals differs depending on what environment you use.
 1. Klicka på namnet på ett stängt mål.
 
    Målsidan öppnas.
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om målnamnet och **Öppna igen** > **Öppna igen**.
+1. Klicka på ikonen **Mer** meny ![Mer](assets/more-icon.png) till höger om målnamnet och **Öppna** igen > **Öppna igen**.
 
    Följande saker händer:
    * Målet är nu öppet och har statusen Aktiv.

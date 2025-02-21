@@ -6,9 +6,9 @@ description: Med ett grundläggande arbetsflöde kan du skicka flera granskare t
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1858'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Välj **Grundläggande** i avsnittet Arbetsflödestyp.
 1. Ange vilka användare du vill lägga till och välj sedan en korrekturroll.
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![Nya korrekturroller](assets/new-proof---roles-350x213.png)
 
 1. I följande tabell visas varje roll och de rättigheter som är kopplade till den.
 
@@ -193,7 +193,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td> <p><strong>Moderator</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
-      <td> <p><strong>✓</strong> </p> </td> 
+      <td> <p><strong> ✓</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> <p> </p> </td> 
@@ -347,6 +347,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. När korrekturet har skapats klickar du på **Öppna korrektur** för att starta korrekturläsaren.
 
-   ![](assets/open-proof-350x132.png)
+   ![Öppna korrektur](assets/open-proof-350x132.png)
 
    Användare som inte har språkkontroll aktiverat på sitt konto kan fortfarande visa dokumentet och kommentera korrekturet.

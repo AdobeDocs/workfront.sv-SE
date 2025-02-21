@@ -7,9 +7,9 @@ description: Som affärschef kan du använda Adobe Workfront Scenario Planner f�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Tänk på följande när du skapar planer:
 
 Du kan granska allmän information om jobbroller för planer som anger antalet lediga roller som är tillgängliga för planen samt mängden jobbroller som krävs för att initiativen ska slutföras. Du kan visa den här informationen i rutan [!UICONTROL Job Roles] i planens huvud.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![Jobbrollruta i plan](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 Du kan visa följande i rutan Jobbroll:
 
@@ -78,7 +78,7 @@ Mer information om hur du får åtkomst till en plan och visar detaljerad inform
 
 Du kan granska ekonomisk information om en plan, särskilt dess planerade budget, hur den budgeten används och vad planens nettovärde är. Nettovärdet för en plan baseras på nettovärdet av dess initiativ. Du kan visa den här informationen i rutorna [!UICONTROL Financial] och [!UICONTROL Summary] i planens sidhuvud.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![Rutor för budget och nettovärde](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 Du kan visa följande i rutorna [!UICONTROL Financial] och [!UICONTROL Summary] i planen:
 

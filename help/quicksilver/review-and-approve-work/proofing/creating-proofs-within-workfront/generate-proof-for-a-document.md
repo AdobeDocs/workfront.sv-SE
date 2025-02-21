@@ -6,9 +6,9 @@ description: Du kan generera ett korrektur för ett dokument när du överför d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa ett nytt korrektur.
 1. Klicka på fliken **Dokument**.
-1. Klicka på Dokument ![](assets/document-icon.png) i den vänstra panelen.
+1. Klicka på ikonen ![Dokument](assets/document-icon.png) i den vänstra panelen.
 1. Klicka på **Lägg till ny** och sedan på **Korrektur** på den meny som visas.
 
    >[!TIP]

@@ -6,9 +6,9 @@ description: Du kan mäta ett område inom ett korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
 1. (Valfritt) Klicka på **Måttmarkeringsfärg** för att utöka färgalternativen. Klicka sedan på en färg och **Opacitet** som är enkla att se på korrekturet.\
-   ![](assets/selection-color-350x330.png)
+   ![Markeringsfärg](assets/selection-color-350x330.png)
 
    Standardmåttets färg är röd.
 
@@ -70,7 +70,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Alternativen för måttenheter är bara tillgängliga för korrektur som skapats från PDF.
+   >Måttenhetsalternativen är bara tillgängliga för korrektur som skapats från en PDF.
 
 1. Dra mätfönstret till det område av korrekturet som du vill mäta.
 
@@ -79,7 +79,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Dra i hörnen eller kanterna på mätfönstret för att ändra storlek på det.
 1. (Valfritt) Om du vill att mätområdet ska ha exakt storlek skriver du **Markeringsstorlek** -värden.
 1. (Valfritt) Om du behöver mäta en viss procentandel inom ett område markerar du rutan Beräkna procentvärde. En ny ruta visas där du kan justera den\
-   ![](assets/calculate-percentage-350x230.png)
+   ![Beräkna procent](assets/calculate-percentage-350x230.png)
 
 1. Klicka på ikonen **Mät ett område** högst upp i korrekturläsaren för att stänga verktyget när du är klar.
 

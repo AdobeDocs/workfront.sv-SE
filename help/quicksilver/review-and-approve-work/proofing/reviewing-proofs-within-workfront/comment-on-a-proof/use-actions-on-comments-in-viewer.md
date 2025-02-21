@@ -6,9 +6,9 @@ description: Du kan använda åtgärder för att hålla reda på vad som behöve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Så här använder du en åtgärd på en befintlig kommentar i korrekturläsaren
 
    * Klicka på flaggikonen i kommentarens nedre högra hörn och klicka sedan på önskad åtgärd i listrutan.
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![Åtgärdsflaggikon](assets/actions-flag-icon-350x198.png)
 
    * Klicka på ikonen **Mer** (tre vågräta punkter i kommentaren) och klicka sedan på den åtgärd som du vill använda i den nedre delen av listrutan som visas.
 

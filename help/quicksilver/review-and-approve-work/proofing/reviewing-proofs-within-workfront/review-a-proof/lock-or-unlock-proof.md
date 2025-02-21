@@ -6,9 +6,9 @@ description: Du kan låsa och låsa upp ett korrektur manuellt när som helst un
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ Lås ett korrektur:
 
    eller
 
-   Om du vill öppna ett korrektur för en tidigare version av dokumentet klickar du på ikonen Mer ![](assets/more-icon.png) för den versionen i Sammanfattning och sedan på **Öppna korrektur**.
+   Om du vill öppna ett korrektur för en tidigare version av dokumentet klickar du på ikonen Mer ![Mer](assets/more-icon.png) för den versionen i Sammanfattning och sedan på **Öppna korrektur**.
 
    Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klicka på ikonen **Lås** ![](assets/unlock-proof-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Lås** ![Lås ](assets/unlock-proof-icon.png) i den vänstra panelen.
 
-   ![](assets/lock-proof-350x277.png)
+   ![Lås korrektur](assets/lock-proof-350x277.png)
 
 ## Lås upp ett korrektur
 
@@ -79,10 +79,10 @@ Lås upp ett korrektur:
 
    eller
 
-   Om du vill öppna ett korrektur för en tidigare version av dokumentet klickar du på ikonen Mer ![](assets/more-icon.png) för den versionen i Sammanfattning och sedan på **Öppna korrektur**.
+   Om du vill öppna ett korrektur för en tidigare version av dokumentet klickar du på ikonen Mer ![Mer](assets/more-icon.png) för den versionen i Sammanfattning och sedan på **Öppna korrektur**.
 
    Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klicka på ikonen **Lås upp** ![](assets/unlock-proof-icon.png) i den vänstra panelen och klicka sedan på **Ja, lås upp**.
+1. Klicka på ikonen **Lås upp** ![Lås upp](assets/unlock-proof-icon.png) i den vänstra panelen och klicka sedan på **Ja, lås upp**.
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![Lås upp korrektur](assets/copy-of-unlock-proof-350x279.png)

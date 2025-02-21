@@ -7,9 +7,9 @@ description: När ni planerar företagets långsiktiga strategi finns det mycket
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ När ni planerar företagets långsiktiga strategi finns det mycket information 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ Ett scenario är en kopia av en plan. Du kan skapa så många scenarier du behö
 
 1. Klicka på nedåtpilen bredvid ett befintligt scenario och klicka sedan på ikonen **[!UICONTROL Copy]** .
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Kopiera scenario](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Detta skapar ett nytt scenario med samma information som det kopierade scenariot. Det får automatiskt namnet [!UICONTROL Scenario 2] om det är det andra scenariot i din plan, [!UICONTROL Scenario 3] om det är det tredje och så vidare. Du kan inte byta namn på dina scenarier. Det finns ingen gräns för hur många kopior du kan göra.
 
@@ -116,7 +116,7 @@ När du har skapat dina scenarier kan du jämföra dem för att hitta det bästa
 
    Alla befintliga scenarier för planen visas sida vid sida i kortformat. Det inledande scenariot visas alltid först och är statiskt.
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![Senariokort](assets/scenario-cards-overlapping-350x166.png)
 
 1. (Valfritt) Bläddra till höger om du vill visa alla scenariokort.
 
@@ -174,7 +174,7 @@ När du har skapat dina scenarier kan du jämföra dem för att hitta det bästa
    >När informationen skiljer sig mellan det inledande scenariot och ytterligare scenarier visas en upp- eller nedpil bredvid värdet som ändrats för att ange en ökning eller minskning av det värdet, jämfört med det ursprungliga scenariot.
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![Pilar på scenariokort](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >Till exempel budgeten, antalet jobbroller och antalet initiativ kan ändras från ett scenario till ett annat.
 
@@ -188,9 +188,9 @@ När du har skapat dina scenarier kan du jämföra dem för att hitta det bästa
 
    Klicka på beskrivningsfältet för att uppdatera det och klicka sedan var som helst på skärmen för att spara ändringarna.
 
-1. (Valfritt) Klicka på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) för att **[!UICONTROL Copy]** eller **[!UICONTROL Delete]** för scenariot.
+1. (Valfritt) Klicka på **[!UICONTROL More]**-menyn ![Mer-ikon](assets/more-icon.png) för att **[!UICONTROL Copy]** eller **[!UICONTROL Delete]** scenariot.
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Kopiera eller ta bort scenario](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    När du kopierar ett scenario visas det automatiskt på kortsidan och får ett nytt namn enligt följande mönster: [!UICONTROL Scenario] `<next number in order>`.
 

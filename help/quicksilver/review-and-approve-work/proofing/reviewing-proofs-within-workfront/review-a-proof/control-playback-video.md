@@ -6,9 +6,9 @@ description: Lär dig hur du styr uppspelningen i ett videokorrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Om du vill ha en mer detaljerad bild av videoklippet kan du manuellt granska vid
 
 1. Klicka på pilarna **Framåt** och **Bakåt** längst ned i korrekturläsaren för att granska videon bildruta för bildruta.
 
-   ![](assets/frame-.png)
+   ![Ram](assets/frame-.png)
 
 ## Ändra uppspelningsvolym
 
@@ -82,7 +82,7 @@ Du kan styra volymen i videouppspelningen.
 
 1. I det nedre högra hörnet av korrekturläsaren för du musen över ikonen **Volym** och drar sedan reglaget för att välja en ny volym.
 
-   ![](assets/phq-viewer-volume.png)
+   ![Volym](assets/phq-viewer-volume.png)
 
    eller
 

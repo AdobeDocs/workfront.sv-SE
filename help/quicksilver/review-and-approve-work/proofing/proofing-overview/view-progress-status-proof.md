@@ -6,9 +6,9 @@ description: Du kan visa information om hur ett korrektur fortskrider genom gran
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Du kan visa information om hur ett korrektur fortskrider genom granskningsproces
 
 Förloppet för korrektur anger det arbete som utförts med ett korrektur från det att du skickar beviset till mottagarna till den tidpunkt då de fattar ett beslut om beviset. Förloppsikonerna, S, O, C och D, visas bredvid korrekturnamnet och ger information om korrekturets förlopp.
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Redigera befintligt förlopp som en del av redigeringen](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ Förloppsikonerna kan visas i följande färger för att visa viss information o
 
 Korrekturstatusen visar statusen för de beslut som krävs för beviset. Bevisets status styrs av deltagaren i det värsta fallet. Anta till exempel att det finns tre beslut för korrekturet: två har statusen **Godkänd** och en har statusen **Avvisad**. Det värsta fallet-beslutet av **Avvisad** överstyr de andra besluten och korrekturets totala status visas som **Avvisad**. 
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Bevis redigering av befintlig förlopp](assets/proof-edit-existing-progress-350x62.png)
 
 Standardstatusalternativen är följande:
 

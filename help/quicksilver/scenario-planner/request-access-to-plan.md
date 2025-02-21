@@ -7,9 +7,9 @@ description: Du kan begära åtkomst till en plan i Adobe Workfront Scenarioplan
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Du kan begära åtkomst till en plan i [!DNL Adobe Workfront Scenario Planner] n
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -80,7 +80,7 @@ Så här begär du behörigheter:
 
 1. Klicka på en länk till en plan.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![Begär åtkomst till planen](assets/request-access-to-plan-350x277.png)
 
 1. Ange vilken behörighetsnivå du vill bevilja i listrutan **[!UICONTROL Request access to]**. Välj bland följande:
 
@@ -98,11 +98,11 @@ Så här begär du behörigheter:
    Följande händer:
 
    * [!DNL Workfront] skickar ett e-postmeddelande till planägaren, där de kan bevilja de begärda behörigheterna.\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![Begär e-postmeddelande om åtkomst](assets/request-access-to-plan-email-350x156.png)
 
    * När planägaren har beviljat de begärda behörigheterna får du ett e-postmeddelande om att behörigheterna har beviljats om administratören för [!DNL Workfront] har objektresursen till användarmeddelandet aktiverat i ditt system och du aktiverar e-postmeddelandet för [!UICONTROL Someone shares an object with me] i din profil.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![Åtkomst beviljad e-post](assets/access-granted-to-plan-email-350x172.png)
 
    * Du kan också bevilja behörigheter till planer från området [!UICONTROL Home] och från mobilappen [!DNL Workfront].
 

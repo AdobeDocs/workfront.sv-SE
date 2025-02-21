@@ -7,9 +7,9 @@ description: Verksamheter mäter hur ett mål utvecklas. Utan associerade result
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Klicka på **Huvudmenyn** ![](assets/main-menu-icon.png) och sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
 1. Klicka på **Skapa aktivitet** i listrutan Ny förloppsindikator.
 
    Rutan Ny aktivitet öppnas.
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![Ny aktivitetsruta](assets/new-activity-box-unshimmed.png)
 
 1. Ange ett namn för aktiviteten i fältet för aktivitetsnamn. Detta är ett obligatoriskt fält.
 1. (Valfritt) Ta bort ditt namn från fältet **Aktivitetsägare** om du vill tilldela aktiviteten till en annan användare. Som standard är du ägare av en aktivitet som du skapar.

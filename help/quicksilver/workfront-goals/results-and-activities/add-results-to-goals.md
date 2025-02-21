@@ -7,9 +7,9 @@ description: Resultaten mäter förloppet för ett mål. Om du inte kopplar resu
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -102,7 +102,7 @@ Adding results to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
 
-   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+   ![Add result inside goal](assets/add-result-inside-goal-details-highlighted-350x145.png)
 
 1. Start typing the result you want to achieve in the **Result** field. This is the name of the result and it displays wherever the goal displays. 
 1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the **Owner** field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
@@ -113,7 +113,7 @@ Adding results to goals differs depending on which environment you use.
 
 1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
-   ![](assets/results-value-initial-target-boxes-350x49.png)
+   ![Results value](assets/results-value-initial-target-boxes-350x49.png)
 
    Select from the following options:
 
@@ -137,7 +137,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Klicka på huvudmenyn ![](assets/main-menu-icon.png) och sedan på **Mål**.
+1. Klicka på ikonen Huvudmeny ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Mål**.
 
 1. Öppna målsidan genom att klicka på namnet på ett mål i **mållistan**.
 1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
@@ -145,7 +145,7 @@ Adding results to goals differs depending on which environment you use.
 
    Rutan Nytt resultat öppnas.
 
-   ![](assets/new-result-box-unshimmed.png)
+   ![Ny resultatruta](assets/new-result-box-unshimmed.png)
 
 1. Ange ett namn för resultatet i fältet **Resultatnamn**. Detta är ett obligatoriskt fält.
 1. (Valfritt) Ta bort ditt namn från fältet **Resultatägare** om du vill tilldela resultatet till en annan användare. Som standard är du ägare av en aktivitet som du skapar.

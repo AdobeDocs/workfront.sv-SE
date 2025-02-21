@@ -6,9 +6,9 @@ description: När du skapar ett mål sparar Adobe Workfront Goals det med status
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -116,8 +116,8 @@ Du kan aktivera mål som du har skapat eller mål som du har behörighet att han
 
 1. Gå till ett mål som du vill aktivera. Målsidan öppnas.
 
-1. Klicka på menyn **Mer** ![](../goal-management/assets/more-icon.png) till höger om målnamnet och klicka sedan på **Aktivera**.
+1. Klicka på ikonen **Mer** ![Mer](../goal-management/assets/more-icon.png) till höger om målnamnet och klicka sedan på **Aktivera**.
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![Mer meny utökad](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    Målstatusen ändras till Aktiv. Du kan nu följa förloppet för målet och se hur målet visas i incheckningsavsnittet. Du kan även se det i diagramavsnitten i Workfront-mål

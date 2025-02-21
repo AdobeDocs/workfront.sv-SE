@@ -6,9 +6,9 @@ description: Du kan generera ett nytt interaktivt korrektur eller en ny version 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på den URL som du har lagt till.
 
-   ![](assets/click-url-350x137.png)
+   ![Klicka på URL](assets/click-url-350x137.png)
 
 1. (Valfritt) Om du vill ändra namnet på korrekturet från webbplatsens URL till något annat anger du ett **korrekturnamn**.
 1. Välj **Interaktiv** och klicka sedan på **Klar**.

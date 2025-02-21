@@ -7,9 +7,9 @@ description: Adobe Workfront-administratören måste se till att vissa villkor u
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Som Workfront-administratör kan du granska antalet licenser för Workfront Goal
 
 Din Workfront- eller gruppadministratör måste tilldela dig en layoutmall som innehåller området Mål på huvudmenyn så att du kan komma åt Workfront mål.
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![Layoutmall](assets/layout-template-align-highlighted-350x220.png)
 
 Din Workfront-administratör eller gruppadministratör kan även lägga till följande i din layoutmall så att du enkelt kan komma åt Workfront-mål:
 

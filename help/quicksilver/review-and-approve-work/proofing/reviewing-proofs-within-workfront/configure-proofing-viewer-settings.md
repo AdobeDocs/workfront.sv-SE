@@ -6,9 +6,9 @@ description: Du kan konfigurera inställningar för både Web Proofing Viewer oc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ Så här konfigurerar du visningsinställningar för språkkontroll:
 1. Öppna Web Proofing Viewer eller Desktop Proofing Viewer på något av följande sätt:
 
    * Om du har korrektur i Adobe Workfront går du till en dokumentlista som innehåller ett korrektur som du vill visa, för muspekaren över dokumentet och klickar sedan på **Öppna korrektur**.
-   * Om du använder Workfront Proof klickar du på ikonen **Gå till korrektur** för korrekturet på kontrollpanelen eller en visningslista ![](assets/go-to-proof-blue-icon.png) .
+   * Om du använder Workfront Proof klickar du på ikonen **Gå till korrektur** för korrekturet på kontrollpanelen eller en visningslista ![Gå till korrektur](assets/go-to-proof-blue-icon.png).
 
 1. Om det vänstra verktygsfältet inte visas klickar du på ikonen **Meny** som finns i det övre vänstra hörnet i Web Proofing Viewer.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![Menyikon](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Klicka på ikonen **Inställningar** ![](assets/settings-icon-in-pv.png) i det vänstra verktygsfältet.
+1. Klicka på ikonen **Inställningar** ![Inställningar](assets/settings-icon-in-pv.png) i det vänstra verktygsfältet.
 
 1. Konfigurera någon av följande **inställningar** som visas.
 

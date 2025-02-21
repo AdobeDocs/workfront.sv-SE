@@ -6,9 +6,9 @@ description: När satsningarna hamnar i konflikt med varandra konkurrerar de om 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2119'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Detta kan inträffa i följande fall:
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -103,7 +103,7 @@ Detta kan inträffa i följande fall:
 
 1. Kontrollera att **[!UICONTROL Show conflicts]** är aktiverat. Den är aktiverad som standard.
 
-   ![](assets/show-scenarios-toggle-on.png)
+   ![Växla mellan att visa scenarier](assets/show-scenarios-toggle-on.png)
 
    I det första motstridiga initiativet visas de månader som har röda konflikter och en varningsikon visas bredvid initieringsnamnet.
 
@@ -111,13 +111,13 @@ Detta kan inträffa i följande fall:
 
    När en konflikt uppstår i ett projekt innebär det att antalet jobbroller för minst en specifik roll, de kostnader som uppstått eller båda överstiger antalet jobbroller eller den budget som definierats för planen för en viss månad.
 
-   ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   ![Initiativ i en plan med konflikt](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
 1. Gör något av följande om du vill veta mer om de konflikter som kan uppstå:
 
    * Håll muspekaren över varningsikonen bredvid initialnamnet för att se om du har en jobbroll eller en budgetkonflikt.
 
-     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![Konflikt i budgetjobbroll](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
      Beroende på om du har övertilldelat roller eller överskattat kostnaderna för ditt initiativ kan du se något av följande alternativ när du håller pekaren över varningsikonen:
 
@@ -127,7 +127,7 @@ Detta kan inträffa i följande fall:
 
    * När du visar planen per månad håller du över en månad i tidslinjen för planen för att visa de resurser som krävs för den månaden och om månadskonflikterna är människor eller kostnadsrelaterade.
 
-     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![Information om konflikter på månadstidslinjen](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      Granska följande månadsinformation på plannivå:
 
@@ -140,7 +140,7 @@ Detta kan inträffa i följande fall:
 
    * Håll muspekaren över ett dokuments röda fält i en månad för att visa ytterligare informationsruta om konflikten som inträffar den månaden.
 
-     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![Information om konflikter på initieringstidslinjen](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      Granska följande fält i den extra informationsrutan på initialnivå:
 
@@ -181,7 +181,7 @@ Detta kan inträffa i följande fall:
 
    * Klicka på varningsikonen bredvid initieringens namn.
    * Klicka på ett initiativ.
-   * Klicka på ikonen **[!UICONTROL More]** ![](assets/more-icon.png) till höger om initieringens namn och klicka sedan på **[!UICONTROL Edit]**.
+   * Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) till höger om initieringens namn och klicka sedan på **[!UICONTROL Edit]**.
 
      Panelen Initiativinformation visas till höger.
 
@@ -192,11 +192,11 @@ Detta kan inträffa i följande fall:
 
 1. (Villkorligt) För initiativ som har jobbrollskonflikter går du till avsnittet **[!UICONTROL Required Job Roles]** för att visa alla jobbroller som krävs för ditt initiativ. Identifiera vilka jobbroller som kan bli överallokerade. Granska antalet heltidsanställda eller timmar som behövs för varje jobbroll för varje månad i initiativet. Rutan med antalet heltidsanställda eller timmar för månader med överbeläggningar visas i en röd ram.
 
-   ![](assets/details-panel-overallocated-roles-350x275.png)
+   ![Överallokerade roller](assets/details-panel-overallocated-roles-350x275.png)
 
 1. (Valfritt) Klicka på högerpilen bredvid månaderna på initieringens tidslinje för att se vilka ytterligare månader som står i konflikt med jobbrollerna.
 
-   ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![Högerfel i informationsrutan](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Show details]** under jobbrollen som visar en konflikt för att se var konflikterna förekommer och för att markera de månader som står i konflikt i planens diagramområde. Ytterligare information visas för varje jobbroll.
 
@@ -225,12 +225,12 @@ Detta kan inträffa i följande fall:
    >
    >I planens diagram visar de månader där jobbrollerna fördelas namn och antal roller som behövs för varje initiativ där de behövs. Du måste välja vyn [!UICONTROL Month] för att kunna se namnet på jobbrollerna
 
-   ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![Jobbroller i konflikt](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
 1. Gör något av följande för att lösa jobbrollskonflikter:
 
    * Justera manuellt antalet jobbroller för varje månad i initiativet till ett lägre antal.
-   * Håll muspekaren över namnet på jobbrollen och klicka på ikonen **[!UICONTROL delete]** ![](assets/delete.png) för att ta bort jobbrollen från initiativet.
+   * Håll muspekaren över namnet på jobbrollen och klicka på ikonen **[!UICONTROL delete]** ![Ta bort ikon](assets/delete.png) för att ta bort jobbrollen från initiativet.
    * Välj **[!UICONTROL Add roles to the scenario's available resources]** och klicka sedan på **[!UICONTROL Apply]**.
 
      Det här lägger till antalet saknade FTE:er eller timmar för jobbroller i scenariots [!UICONTROL Available]-fält.
@@ -239,7 +239,7 @@ Detta kan inträffa i följande fall:
      >
      >De roller du lägger till för att lösa konflikterna ändrar jobbrollerna [!UICONTROL Available] för det valda scenariot och inte för alla scenarier i planen.
 
-     En uppåtriktad grön pil ![](assets/upward-green-arrow.png) visas för månaden i tidslinjen i planen för att ange att fler resurser har lagts till i planen den månaden. Du måste markera vyn [!UICONTROL Month] för att kunna se den här indikatorn.
+     En uppåtriktad grön pil ![Uppåtriktad grön pil](assets/upward-green-arrow.png) visas för månaden i tidslinjen för planen för att ange att fler resurser har lagts till i planen den månaden. Du måste markera vyn [!UICONTROL Month] för att kunna se den här indikatorn.
 
    * (Villkorligt) Stäng panelen Detaljer och ge initiativet en högre prioritet att ta emot budgetresurser från planen först, om det är möjligt. Mer information om att uppdatera prioritet för initiativ finns i [Uppdatera prioritet för initiativ i scenarioplanen](../scenario-planner/prioritize-initiatives.md).
 
@@ -248,7 +248,7 @@ Detta kan inträffa i följande fall:
 1. (Villkorligt) För initiativ med kostnadskonflikter går du till avsnittet **[!UICONTROL Costs]** i panelen Initiativinformation och granskar kostnaderna för varje månad som initieringens varaktighet varar. Identifiera vilka månader som kanske inte har tillräckligt med pengar i planens budget för att täcka kostnaderna för det valda initiativet. Rutan med otillräcklig budget visas i en röd ram.
 1. (Valfritt) Klicka på den högerriktade pilen bredvid månaderna i tidslinjen för initiativet för att se ytterligare månader som inte har tillräcklig budget för att täcka kostnaderna.
 
-   ![](assets/details-panel-insufficient-costs-350x239.png)
+   ![Pil för otillräckliga kostnader](assets/details-panel-insufficient-costs-350x239.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Show details]** under kostnadsinformationen för att se var konflikten förekommer och för att markera de månader som står i konflikt i planens diagram. Följande ytterligare fält visas för varje typ av kostnad:
 
@@ -275,7 +275,7 @@ Detta kan inträffa i följande fall:
    >
    >I planens diagram visar de månader där kostnaderna är otillräckliga namn och antal roller som fortfarande behövs för initiativet. Du måste välja månadsvyn för att visa kostnadsbeloppen.
 
-   ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![Konfliktkostnader](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >

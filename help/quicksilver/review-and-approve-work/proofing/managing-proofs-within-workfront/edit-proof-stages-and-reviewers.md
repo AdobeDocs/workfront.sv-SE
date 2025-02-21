@@ -6,9 +6,9 @@ description: Lär dig redigera korrekturfaser och granskare.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Redigera information om granskare
 
 1. Håll markören över korrekturet i Workfront och klicka sedan på **Korrekturinformation** för att öppna sidan Korrekturinformation.
-1. I avsnittet **Arbetsflöde** klickar du på menyn **Mer** ![](assets/more-button-small.png) till höger om granskarens namn och sedan på **Redigera** i listrutan som visas.
+1. Klicka på menyn **Mer** ![Mer](assets/more-button-small.png) till höger om granskarens namn i avsnittet **Arbetsflöde** och klicka sedan på **Redigera** i listrutan som visas.
 
 1. I rutan **Redigera granskare** som visas kan du redigera följande information:
 

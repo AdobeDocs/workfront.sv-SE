@@ -6,9 +6,9 @@ description: När du börjar arbeta med ett mål och det blir irrelevant i din o
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -122,16 +122,16 @@ Deactivating goals differs depending on which environment you use.
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Deactivate**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Deactivate**.
 
-   ![](assets/deactivate-goal-highlighted.png)
+   ![Deactivate goal](assets/deactivate-goal-highlighted.png)
 
    The goal status changes to Inactive. 
 
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
 
    Mållistan visas.
 
@@ -146,9 +146,9 @@ Deactivating goals differs depending on which environment you use.
 
    Målsidan öppnas.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Målsida](assets/goal-page-unshimmed.png)
 
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Inaktivera**.
+1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Inaktivera**.
 
 1. Målet inaktiveras och dess status blir Inaktiv.
 
@@ -179,23 +179,23 @@ Deleting  goals differs depending on which environment you use.
 
    The Goal Details panel opens on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Delete**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Delete**.
 
-   ![](assets/delete-goal-highlighted.png)
+   ![Delete goal](assets/delete-goal-highlighted.png)
 
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen Huvudmeny ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
 
    Mållistan visas.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Klicka på namnet på ett mål. Målsidan öppnas.
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om målnamnet, klicka på **Ta bort mål** och sedan på **Ta bort**.
+1. Klicka på ikonen **Mer** meny ![Mer](assets/more-icon.png) till höger om målnamnet, klicka på **Ta bort mål** och sedan på **Ta bort**.
 
    Målet och dess aktiviteter och resultat tas också bort och kan inte återställas. Projekt som var associerade med målet eller de underordnade målen tas inte bort.
 

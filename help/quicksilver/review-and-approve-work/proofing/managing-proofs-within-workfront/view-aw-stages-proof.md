@@ -6,9 +6,9 @@ description: Du kan enkelt spåra förloppet för ett korrektur som konfigurerat
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -69,24 +69,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Raderna mellan faserna visar beroendena mellan faserna. Linjerna som leder till inaktiva stadier prickas tills scenen aktiveras.
 
-   Du kan hålla markören över en scen i diagrammet för att visa dess förlopp. Om scenen inte är aktiv och du har redigeringsbehörighet på scenen kan du starta scenen genom att klicka på knappen Aktivera scen ![](assets/activate-stage-btn.png). Om scenen är aktiv och du har redigeringsbehörighet på scenen kan du låsa den. ![](assets/lock-stage-btn.png) Mer information om förloppsindikatorn (S, O, C, D) finns i  [ Visa förlopp och status för ett korrektur i Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) .
+   Du kan hålla markören över en scen i diagrammet för att visa dess förlopp. Om scenen inte är aktiv och du har redigeringsbehörighet på scenen, kan du klicka på knappen Aktivera fas ![Aktivera fas](assets/activate-stage-btn.png) för att starta scenen. Om scenen är aktiv och du har redigeringsbehörighet på scenen kan du låsa den. ![Lås scen](assets/lock-stage-btn.png) Mer information om förloppsindikatorn (S, O, C, D) finns i  [Visa förlopp och status för ett korrektur i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Visa en scen
 
 1. I en dokumentlista som innehåller dokumentet för du muspekaren över raden som innehåller dokumentet och klickar sedan på **Korrekturarbetsflöde**.
 1. Klicka på den scen du vill visa i diagrammet.
 
-   ![](assets/view-stage-diagram-350x204.png)
+   ![Visa scendiagram](assets/view-stage-diagram-350x204.png)
 
 1. Om du vill expandera informationen för en scen klickar du på pilen under dess namn.
 
-   ![](assets/stage-details-caret-350x167.png)
+   ![Sceninformation](assets/stage-details-caret-350x167.png)
 
 ## Visa alla faser
 
 Så här visar du alla faser i ett automatiserat arbetsflöde:
 
-1. Klicka på knappen Ändra vy längst upp på sidan ![](assets/change-view-btn.png) och klicka sedan på **Visa alla faser**.
+1. Klicka på knappen Ändra vy längst upp på sidan ![Ändra vy](assets/change-view-btn.png) och klicka sedan på **Visa alla faser**.
 
    Alla steg i det automatiserade arbetsflödet visas i avsnittet, men informationen är dold.
 
@@ -96,5 +96,5 @@ Så här visar du alla faser i ett automatiserat arbetsflöde:
 
 Så här visar du alla faser i ditt automatiserade arbetsflöde med utökad information:
 
-1. Klicka på knappen Ändra vy längst upp på sidan ![](assets/change-view-btn.png) och klicka sedan på **Visa alla faser i detalj**.
+1. Klicka på knappen Ändra vy längst upp på sidan ![Ändra vy](assets/change-view-btn.png) och klicka sedan på **Visa alla faser i detalj**.
 1. Om du vill visa information om en scen klickar du på nedpilen under namnet.

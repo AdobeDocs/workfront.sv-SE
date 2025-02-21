@@ -6,9 +6,9 @@ description: Du kan överföra en ny dokumentversion och begära godkännande fr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
 
 1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning och klicka sedan på **Lägg till**.
 
-![](assets/doc-summary-add-approvers.png)
+![Lägg till godkännare i dokumentsammanfattning](assets/doc-summary-add-approvers.png)
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
@@ -89,4 +89,4 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
 
 1. Om du vill lägga till nya godkännare och granskare klickar du på **Granskare** eller **Godkännare** och börjar skriva in användaren eller teamet.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Lägg till godkännare och deadline](assets/add-approver-and-deadline.png)

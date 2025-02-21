@@ -6,9 +6,9 @@ description: Du kan visa och svara på korrekturkommentarer som gjorts av andra 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Så här visar du kommentarer i korrekturläsaren:
 I Workfront kan du visa korrekturkommentarer utan att starta korrekturläsaren.
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Klicka på raden som innehåller dokumentet och klicka sedan på ikonen **Sammanfattning** ![](assets/summary-panel-icon.png) till höger på sidan.\
+1. Klicka på raden som innehåller dokumentet och klicka sedan på ikonen **Sammanfattning** ![Sammanfattning](assets/summary-panel-icon.png) till höger på sidan.\
    Kommentarerna visas i uppdateringsavsnittet i dokumentsammanfattningen.
 
 ## Markera alla kommentarer som lästa
@@ -96,7 +96,7 @@ Som granskare av ett korrektur kan du snabbt markera alla kommentarer som lästa
 
 1. Ovanför kommentarlistan klickar du på ikonen **Mer** och sedan på **Markera alla som lästa**.
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![Markera alla som lästa](assets/mceclip8-350x173.png)
 
 ## Svara på korrekturkommentarer från korrekturläsaren
 

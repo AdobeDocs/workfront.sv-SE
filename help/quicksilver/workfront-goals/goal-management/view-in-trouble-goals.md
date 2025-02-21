@@ -6,9 +6,9 @@ description: Det finns risk för att mål med statusvärdet"Progress of In" inte
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -82,7 +82,7 @@ Du måste ha följande:
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Recommendations för att förhindra att mål når en utveckling i In-Trouble
+## Rekommendationer för att förhindra att mål når en utveckling i In-PROBLEM
 
 Innan målen når upp till en utveckling av I Problem kan du övervaka dem ofta och justera deras framsteg när de når en riskutveckling. Mål som riskerar att hamna i trubbel. Mer information om målförloppet finns i [Översikt över målförloppet och målvillkoret i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
@@ -97,7 +97,7 @@ Du kan se målen i alla delar av Workfront mål. Mer information om avsnitten o
 
 I den här artikeln beskrivs hur du granskar mål i mållistan.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ I den här artikeln beskrivs hur du granskar mål i mållistan.
 
 1. Håll pekaren över förloppsindikatorn för att se hur stor den faktiska förloppsprocenten är och vad det förväntade värdet är för den aktuella dagen.
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![Allmän förloppshovringsinformation](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Valfritt) Använd filtren för att hitta mål som tillhör en viss ägare.
 
@@ -134,7 +134,7 @@ I den här artikeln beskrivs hur du granskar mål i mållistan.
 
    Mer information om att uppdatera resultat och aktiviteter finns i [Uppdatera målförloppet i Adobe Workfront-mål](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![Faktisk status](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

@@ -6,9 +6,9 @@ description: Under gransknings- och godkännandeprocessen kan du skicka ett medd
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -61,15 +61,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Sök efter dokumentet för det korrektur som innehåller de användare som du vill skicka ett meddelande till.
 1. Håll muspekaren över dokumentet och klicka sedan på **Korrektur**.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![Språkarbetsflöde](assets/proof-workflow-doc-list-350x92.png)
 
 1. Om du vill skicka ett meddelande till alla användare på scenen klickar du på menyn **Mer** på scenen och väljer **Meddelande alla**.
 
-   ![](assets/message-stage-350x122.png)
+   ![Meddelande på scen](assets/message-stage-350x122.png)
 
 1. Om du vill skicka ett meddelande till en enskild användare klickar du på menyn **Mer** bredvid användaren och väljer **Meddelande**.
 
-   ![](assets/message-user-350x121.png)
+   ![Meddelandeanvändare](assets/message-user-350x121.png)
 
 1. Ange följande information i avsnittet **Meddelandeinformation**:
 

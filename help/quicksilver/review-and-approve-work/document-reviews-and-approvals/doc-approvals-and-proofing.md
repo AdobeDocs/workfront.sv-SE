@@ -6,9 +6,9 @@ description: Du kan använda godkännanden av nya dokument med korrektur.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du kan välja att tilldela granskare, godkännare eller en blandning av båda:
 Så här tilldelar du deltagare:
 
 1. Markera dokumentet som du överförde och öppna dokumentsammanfattningen.
-   ![](assets/open-doc-summary.png)
+   ![Öppna dokumentsammanfattning](assets/open-doc-summary.png)
 
 1. Bläddra ned till avsnittet Godkännanden och klicka sedan på **Lägg till**.
 
@@ -62,7 +62,7 @@ Så här tilldelar du deltagare:
 
 1. Om du vill lägga till en granskare klickar du på knappen Granskare och börjar skriva in ett användar- eller teamnamn.
 
-   ![](assets/add-approvers.png)
+   ![Lägg till godkännare](assets/add-approvers.png)
 
 1. När du har lagt till alla granskare och godkännare klickar du på **Skicka begäran**. Deltagare meddelas via e-post.
 
@@ -77,7 +77,7 @@ Lägga till en ny version:
 1. När dokumentet har överförts markerar du dokumentet och klickar sedan på **Skapa korrektur** > **Enkelt korrektur**.
 
 1. Markera dokumentet igen och öppna dokumentsammanfattningen.
-   ![](assets/open-doc-summary.png)
+   ![Öppna dokumentsammanfattning](assets/open-doc-summary.png)
 
 1. Bläddra ned till avsnittet Godkännanden och klicka sedan på **Lägg till**.
 
@@ -89,7 +89,7 @@ Lägga till en ny version:
 
 1. Om du vill lägga till en granskare klickar du på knappen Granskare och börjar skriva in ett användar- eller teamnamn, <span class="preview"> eller väljer en granskare från den tidigare versionen. </span>
 
-   ![](assets/add-approvers.png)
+   ![Lägg till godkännare](assets/add-approvers.png)
 
 1. När du har lagt till alla granskare och godkännare klickar du på **Skicka begäran**. Deltagare meddelas via e-post.
 

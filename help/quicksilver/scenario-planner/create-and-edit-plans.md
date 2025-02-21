@@ -6,9 +6,9 @@ description: Du kan skapa planer som en del av att använda Workfront Scenariopl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du kan skapa planer som en del av att använda [!DNL Workfront Scenario Planner]
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -89,7 +89,7 @@ Så här skapar eller redigerar du en plan:
 
 En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scenario Planner].
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![Filter ](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
 
    | Filter | Beskrivning |
    |---|---|
@@ -97,9 +97,9 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
    | [!UICONTROL My plans] | Visar planer som du har skapat. |
    | [!UICONTROL Shared with me] | Visar planer som delas med dig. |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![Listrutealternativ för planfilter](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![](assets/search-icon.png) för att skriva ett nyckelord och snabbt hitta en plan i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![ Sök ](assets/search-icon.png) om du vill skriva ett nyckelord och snabbt hitta en plan i listan.
 
 1. Klicka på namnet på en befintlig plan för att redigera den och fortsätt med steg 7.
 
@@ -115,11 +115,11 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![Knappen Ny plan](assets/new-plan-button.png)
 
    Rutan [!UICONTROL New Plan] visas.
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![Ny planruta](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. (Villkorligt) Ange följande information när du skapar en ny plan:
 
@@ -172,7 +172,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 
 1. (Valfritt) I listrutan Tidslinje väljer du ett av alternativen i följande tabell för att ändra hur du visar tidslinjen för planen.
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![Månad-listrutan](assets/month-dropdown-with-all-options.png)
 
    | Nedrullningsbart menyalternativ | Beskrivning |
    |---|---|
@@ -183,7 +183,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 1. (Valfritt) Bläddra från vänster till höger för att visa hela planens varaktighet.
 1. (Valfritt) Klicka på indikatorraden **[!UICONTROL Today]** om du vill återgå till den aktuella dagen.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Aktuell indikator](assets/today-indicator-350x160.png)
 
 1. Klicka på rutan **[!UICONTROL Job Roles]** i planens huvud för att lägga till jobbroller som är tillgängliga för att genomföra planen.
 
@@ -193,7 +193,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
    >
    >Rollallokeringsenheten (FTE eller timmar) som [!DNL Workfront] använder för den här planen visas inom parentes i rutans rubrik.
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![Lägger till personer i planen](assets/adding-people-to-plan-350x206.png)
 
 1. Klicka på fältet **[!UICONTROL Start typing job role]** och välj en roll i listan eller börja skriva namnet på en aktiv jobbroll.
 
@@ -239,12 +239,12 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
     </tbody> 
    </table>
 
-1. (Valfritt) Håll muspekaren över namnet på en jobbroll eller klicka på fliken efter att du har uppdaterat rollinformationen och klicka sedan på **[!UICONTROL trash can icon]** ![](assets/delete.png) för att ta bort den från planen.
+1. (Valfritt) Håll muspekaren över namnet på en jobbroll eller klicka på fliken efter att du har uppdaterat rollinformationen och klicka sedan på ikonen **[!UICONTROL trash can icon]** ![Ta bort](assets/delete.png) för att ta bort den från planen.
 1. Klicka på **[!UICONTROL Job role distribution]**.
 
    Panelen Jobbrollsfördelning visas för alla månader under scenariot.
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![Månadsdistribution av jobbroll](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. Skriv namnet på en jobbroll som du vill lägga till den i planen i **[!UICONTROL Start typing job role field]** och klicka sedan på Enter när den visas i listan. Detta lägger till jobbrollen i kolumnen [!UICONTROL Job Roles].
 1. Uppdatera eller granska följande information för varje månad i scenariot:
@@ -334,13 +334,13 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 
 1. Klicka på **[!UICONTROL Advanced]** för att visa den månatliga budgetfördelningen. De årliga och månadsvisa budgetarna är alltid avrundade tal. När budgetbeloppet inte kan fördelas jämnt på alla månader inom ett år på grund av decimaler visas en **[!UICONTROL Remaining]**-indikator under den årliga budgetfördelningen.
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![Avancerade och återstående länkar](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. Justera månadsbudgeten manuellt för att eliminera de belopp som överskrider gränsen.
 
    När summan av alla månadsbudgetbelopp är större än den årliga budgeten visas en **[!UICONTROL Exceeding]**-varningsindikator under den årliga budgetfördelningen. Justera månadsbudgetbeloppen manuellt tills de är lika med eller lägre än den tillgängliga budgeten för planen.
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![Budgetvarning överskrids](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. Inaktivera inställningen **[!UICONTROL Include people costs]** för att exkludera kostnader som är associerade med jobbroller från att räknas mot planens totala kostnad. Fasta kostnader räknas alltid in i planens totala kostnad. Den här inställningen är aktiverad som standard och påverkar alla scenarier i planen.
 1. Klicka var som helst utanför rutan [!UICONTROL Financial] för att stänga den. Informationen som du angav sparas automatiskt.
@@ -360,6 +360,6 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 
    Din plan skapas eller uppdateras.
 
-1. (Valfritt) Klicka på **[!UICONTROL Favorites icon]** ![](assets/favorites-icon-small.png) till höger om plannamnet för att lägga till planen i din favoritlista.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Favorites icon]** ![Favoriter](assets/favorites-icon-small.png) till höger om plannamnet för att lägga till planen i din favoritlista.
 
 1. (Valfritt) Kopiera URL:en för planen och skicka den till andra användare som kan behöva granska eller uppdatera den. De måste ha minst [!UICONTROL View] åtkomst på åtkomstnivån för att kunna visa planen. De måste ha [!UICONTROL Edit]-åtkomst för att kunna redigera det. Om de måste granska ekonomisk information om planen, som budgetar, kostnader och jobbrollstariffer, måste de också ha tillgång till [!UICONTROL Financial Data] på sin åtkomstnivå. Mer information om åtkomsten som krävs för [!DNL Scenario Planner] finns i [Åtkomst som behövs för att använda  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).

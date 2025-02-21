@@ -6,9 +6,9 @@ description: Godkänna arbete
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Mer information om hur du visar objekt som väntar på godkännanden eller objek
 
 ## Godkänn arbete från startsidan
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mina godkännanden**.
 1. (Villkorligt) Klicka på listrutan **Filter** och välj sedan **Alla** för att visa godkännanden som tilldelats och delegerats till dig.
 
@@ -77,7 +77,7 @@ Mer information om hur du visar objekt som väntar på godkännanden eller objek
 
 1. Markera objektet där du vill fatta ett beslut om godkännande.
 
-   ![](assets/my-approvals-widget.png)
+   ![Widgeten Mina godkännanden](assets/my-approvals-widget.png)
 
 1. Klicka på ett av de tillgängliga alternativen när du ska fatta ett beslut om godkännande på den högra panelen. Följande alternativ visas i det övre högra hörnet av sidan, beroende på vilken typ av objekt du godkänner:
 
@@ -146,7 +146,7 @@ Så här godkänner du arbete direkt från ett projekt, en uppgift eller en utg�
 
    Godkännandeinformation om den aktuella godkännandeprocessen för ett projekt, en uppgift eller ett problem visas i artikelhuvudet.
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![Aktuell godkännandeprocess i projekthuvudet](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    Följande godkännandeinformation finns:
 
@@ -172,8 +172,8 @@ Så här godkänner du arbete direkt från ett projekt, en uppgift eller en utg�
 
 1. Gå till dokumentområdet som innehåller dokumentet som kräver ditt godkännande.
 1. Markera dokumentet och klicka sedan på **Godkänn**, **Ändringar** eller **Avvisa**.\
-   ![](assets/approval-approve-document-350x215.png)\
-   ![](assets/document-approval-350x199.png)
+   ![Godkänn dokument](assets/approval-approve-document-350x215.png)\
+   ![Godkännande av dokument](assets/document-approval-350x199.png)
 
 1. (Valfritt) Om ett korrektur har skapats för dokumentet kan du godkänna dokumentet i korrekturgränssnittet, vilket beskrivs i [Godkänn ett dokument från ett korrektur](#approve-a-document-from-a-proof).
 
@@ -185,7 +185,7 @@ Beroende på dina meddelandeinställningar kan du få e-postmeddelanden som medd
 1. Gör något av följande för att granska dokumentet:
 
    * Visa metadata om dokumentet.
-   * Om du har skapat ett korrektur för granskning av dokumentet med markeringar och kommentarer klickar du på **Öppna korrektur** ![](assets/open-proof-icon-qs.png) i det övre högra hörnet och granskar korrekturet.
+   * Om ett korrektur har skapats för granskning av dokumentet med markeringar och kommentarer klickar du på **Öppna korrektur** ![Öppna korrektur](assets/open-proof-icon-qs.png) i det övre högra hörnet och granskar korrekturet.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

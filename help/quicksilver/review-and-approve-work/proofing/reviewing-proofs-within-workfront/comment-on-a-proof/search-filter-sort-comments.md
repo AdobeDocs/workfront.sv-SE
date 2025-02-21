@@ -6,9 +6,9 @@ description: Du kan söka efter, filtrera och sortera korrekturrundor för att e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ När du sorterar kommentarlistan sparas det sorteringsalternativ du väljer näs
 1. Om kommentarsområdet inte är öppet klickar du på **Visa kommentarer** i det övre högra hörnet.
 
 1. Klicka på sorteringsmenyn för att öppna den.
-1. ![](assets/mceclip3.png)
+1. ![Sorteringsmenyn](assets/mceclip3.png)
 
 1. Välj något av följande sorteringsalternativ:
 

@@ -6,9 +6,9 @@ description: När du kommenterar ett korrektur i korrekturläsaren kan du tagga 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Så här taggar du någon och delar ett korrektur i en kommentar:
 1. Slutför kommentaren och klicka sedan på **Publicera**.
 1. (Villkorligt) Om du taggar någon som inte redan har lagts till i korrekturet anger du en inställning för **korrekturroll** och **e-postaviseringar** för varje användare som visas i rutan som visas. Klicka sedan på **Lägg till personer och skicka kommentar**.
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![Lägg till personer i bevis](assets/add-people-to-proof-350x220.png)
 
    Mer information om korrekturroller finns i . Mer information om korrekturmeddelanden via e-post finns i avsnittet i artikeln [Konfigurera e-postaviseringsinställningar i Workfront Proof](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 

@@ -6,9 +6,9 @@ description: Du kan ta bort planer som du har skapat. Du kan inte ta bort planer
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan ta bort planer som du har skapat. Du kan inte ta bort planer som delas me
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -90,7 +90,7 @@ Så här tar du bort en plan:
 En lista över planer visas.
 
 1. Klicka på namnet på en plan för att öppna den.
-1. Klicka på **[!UICONTROL More menu]** ![](assets/more-menu.png) till höger om plannamnet och klicka sedan på **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+1. Klicka på menyn **[!UICONTROL More menu]** ![Mer](assets/more-menu.png) till höger om plannamnet och klicka sedan på **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    Planen tas bort och du återgår till listan över planer.
 
@@ -114,7 +114,7 @@ Så här tar du bort ett scenario:
    Som standard visas det inledande scenariot.
 
 1. Klicka på **[!UICONTROL Compare scenarios]**.
-1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) i det övre högra hörnet av scenariokortet och klicka sedan på **[!UICONTROL Delete]**.
+1. Klicka på menyn **[!UICONTROL More]** ![Mer](assets/more-menu.png) i det övre högra hörnet av scenariokortet och klicka sedan på **[!UICONTROL Delete]**.
 
    Scenariot tas bort.
 

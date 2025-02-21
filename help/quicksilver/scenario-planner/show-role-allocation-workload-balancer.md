@@ -6,9 +6,9 @@ description: När du har kopplat projekt och initiativ kan du hantera deras resu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Allmän information om hur du förenar resurser mellan projekt och initiativ, in
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -87,12 +87,12 @@ Om ditt företag har köpt en [!DNL Workfront Scenario Planner]-licens kan du st
 
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Month]** om du vill visa arbetsbelastningsutjämnaren per månad, klicka på listrutan bredvid en månad i tidslinjen ![](assets/drop-down-next-to-month-month-view-wb.png) och klicka sedan på **[!UICONTROL More]**.
-   * Klicka på ikonen **[!UICONTROL Show role allocation]** ![](assets/show-role-allocation-icon.png) i det övre högra hörnet av verktygsfältet.
+   * Klicka på **[!UICONTROL Month]** om du vill visa belastningsutjämnaren för arbetsbelastning per månad, klicka på listrutan bredvid en månad i tidslinjen ![bredvid månaden](assets/drop-down-next-to-month-month-view-wb.png) och klicka sedan på **[!UICONTROL More]**.
+   * Klicka på ikonen **[!UICONTROL Show role allocation]** ![Visa rolltilldelning](assets/show-role-allocation-icon.png) i det övre högra hörnet av verktygsfältet.
 
    Panelen [!UICONTROL Role Allocation] visas.
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![Rollallokeringspanelen](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ Om ditt företag har köpt en [!DNL Workfront Scenario Planner]-licens kan du st
 
 1. (Valfritt) Klicka på listruteikonen för att utöka en av månaderna på panelen [!UICONTROL Role Allocation] eller på tidslinjen i [!UICONTROL Workload Balancer].
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Utöka månad i rollallokeringspanelen](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    Samma typ av information som visas i området [!UICONTROL Project Totals] visas också för varje månad.
 

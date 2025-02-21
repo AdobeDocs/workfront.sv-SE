@@ -6,9 +6,9 @@ description: När du har kopplat projekt och initiativ kan du hantera deras resu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Allmän information om hur du förenar resurser mellan projekt och initiativ, in
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -79,7 +79,7 @@ Om ditt företag har köpt en [!DNL Workfront Scenario Planner]-licens kan du st
 
 1. Gå till det projekt där du vill granska fördelningen av jobbroller för projektet samt för det associerade initiativet.
 1. Klicka på **[!UICONTROL Tasks]** i den vänstra panelen.
-1. Klicka på ikonen **[!UICONTROL Show role allocation]** ![](assets/show-role-allocation-icon.png) i det övre högra hörnet av verktygsfältet.
+1. Klicka på ikonen **[!UICONTROL Show role allocation]** ![Visa rolltilldelning](assets/show-role-allocation-icon.png) i det övre högra hörnet av verktygsfältet.
 
    Panelen [!UICONTROL Role Allocation] visas.
 

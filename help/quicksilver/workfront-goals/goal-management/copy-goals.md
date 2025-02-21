@@ -6,9 +6,9 @@ description: Du kan kopiera mål i Adobe Workfront-mål för att skapa ett mål.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du måste ha följande:
  <td>
  <p> Nytt produktkrav, något av följande: </p>
 <ul>
-<li>A Select- eller Prime Adobe Workfront-plan och ytterligare licens för Adobe Workfront Goals.</li>
+<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
 <li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
  <p>eller</p>
  <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
@@ -117,7 +117,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -177,9 +177,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. Gå till ett mål och klicka på menyn **Mer** ![](assets/more-icon.png) och klicka sedan på **Kopiera mål**.
+1. Gå till ett mål och klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) och klicka sedan på **Kopiera mål**.
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![Kopiera målruta](assets/copy-goal-box-unshimmed.png)
 
 1. Uppdatera följande information för det kopierade målet:
    * **Målnamn**: Det nya målets namn. Standardnamnet för det kopierade målet är &quot;Kopia av &lt;ursprungligt mål>&quot;.

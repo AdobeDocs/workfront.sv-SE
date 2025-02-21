@@ -6,9 +6,9 @@ description: Målutvecklingen styrs av förloppsindikatorer som aktiviteter, res
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ När du har aktiverat ett mål börjar Workfront Target beräkna dess förlopp o
 | Förväntad procent slutfört | Hur mycket av målet som ska vara slutfört i tid ska vara slutfört. Workfront Target beräknar detta värde genom att titta på målets varaktighet och den aktuella tidpunkten. Målet ska visa det här värdet vid den aktuella tidpunkten om det skulle slutföras i tid. |
 | Förlopp | En etikett som anger om målet är på väg att slutföras i tid eller om det är i fara eller om det är i problem att inte slutföras. |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![I problem](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Om den förväntade andelen slutförd till exempel är 53 % vid den aktuella tid
 
 I följande diagram visas förhållandet mellan villkorsetiketterna och förloppsprocenten:
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![Statusetiketter för förlopp har diagram](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 Tabellen nedan visar målvillkorsetiketterna och målförloppsprocenten som är associerade med varje etikett.
 

@@ -6,9 +6,9 @@ description: När du använder Adobe Workfront Scenarioplan kan du skapa initiat
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ När du använder [!UICONTROL Adobe Workfront Scenario Planner] kan du skapa ini
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -102,7 +102,7 @@ Så här skapar du helt nya initiativ:
 1. (Valfritt) Dra i slutet av initiativfältet för att förlänga det till mer än en månad och släpp det där du vill att initialets slutmånad ska vara.
 1. (Valfritt och villkorligt) Om initiativets längd är kortare än planens drar och släpper du det i en annan position på tidslinjen i planen för att flytta det till en annan tidsram.
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![Flytta initiativ på tidslinjen](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ Så här skapar du helt nya initiativ:
 1. (Valfritt) Rulla från vänster till höger för att se hela tiden för initiativet.
 1. (Valfritt) Klicka på indikatorraden **[!UICONTROL Today]** om du vill återgå till det aktuella datumet.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Aktuell indikator](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ Så här skapar du helt nya initiativ:
 
 1. Klicka på ett initiativ. Panelen Initiativinformation öppnas till höger.
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![Panelen Initiativinformation](assets/initiative-details-panel-multiple-months-350x626.png)
 
    Ange eller granska följande information:
 
@@ -196,7 +196,7 @@ Så här skapar du helt nya initiativ:
    >
    >Om du redan har definierat antalet jobbroller och budgeten för din plan, antalet jobbroller och kostnaderna för det initiativ du redigerar och för alla initiativ ovan, och alla överstiger de belopp som du har angett för planen, kan [!DNL Workfront] upptäcka att du inte har tillräckligt med resurser för att slutföra initiativet. [!DNL Workfront] markerar detta som en konflikt när det försöker genomföra det här initiativet och visar det som ett rött fält. Alla initiativ som följer det motstridiga initiativet visas i röd bakgrund. Du kan behöva justera en del av behoven i dina satsningar, från den första som inte har tillräckliga resurser. Mer information om hur du justerar initiativ som står i konflikt finns i [Lös initialkonflikter i  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. (Valfritt) Hovra över namnet på en jobbroll och klicka sedan på **[!UICONTROL trash can icon]** ![](assets/delete.png) för att ta bort den från initiativet.
+1. (Valfritt) Hovra över namnet på en jobbroll och klicka sedan på ikonen **[!UICONTROL trash can icon]** ![Ta bort](assets/delete.png) för att ta bort den från initiativet.
 
 1. (Villkorligt) Klicka på **[!UICONTROL Apply]** om du har gjort ändringar i initiativet.
 

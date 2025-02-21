@@ -7,9 +7,9 @@ description: Du kan använda korrekturläsaren för att jämföra två olika kor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -68,13 +68,13 @@ Du kan jämföra två korrektur i en enda dokumentlista, t.ex. på fliken Dokume
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![Jämför korrektur](assets/compare-proofs-select-docs-350x138.jpg)
 
    Båda korrektur visas i korrekturläsaren sida vid sida. Du kan granska varje dokument medan du jämför dem.
 
    Med separata vägbeskrivningar ovanför varje korrektur kan du visa och gå till arbetsuppgiften som är kopplad till korrekturet:
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![Jämför korrektur av vägbeskrivningar](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    Information om de verktyg du kan använda för att jämföra de två korrekturen finns i  [Använd jämförelseverktygen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) i [Jämför korrektur i korrekturläsaren](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

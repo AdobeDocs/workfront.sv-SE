@@ -7,9 +7,9 @@ description: Du kan få tillgång till listor med mål eller enskilda mål och h
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >* För den nya planen och licensstrukturen:
 >
->   * Den ultimata Workfront-planen
+>   * Ultimate Workfront-planen
 >    
 >* För aktuell plan och licensstruktur:
 >
@@ -56,7 +56,7 @@ Du kan använda mållistan för att granska mål som tillhör dig, dina team, gr
 
 Mer information om hur du navigerar i mållistan och hanterar mål finns i [Hantera mål i mållistan över Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/goal-list-unshimmed.png)
+![Mållista](assets/goal-list-unshimmed.png)
 
 Använd mållistan för att göra följande:
 
@@ -78,7 +78,7 @@ Du kan använda avsnittet Diagram för att få en helhetsbild av hälsotillstån
 
 Mer information om hur du använder diagramavsnittet finns i [Granska diagram för att förstå målförloppstrender i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-![](assets/graphs-section-unshimmed.png)
+![Diagramavsnitt](assets/graphs-section-unshimmed.png)
 
 Använd avsnittet Diagram för att göra följande:
 
@@ -97,7 +97,7 @@ Mer information om hur du justerar mål finns i följande artiklar:
 * [Justera mål genom att ansluta dem i Adobe Workfront-mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Justera mål genom att konvertera resultat och aktiviteter till mål](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![Måljusteringsavsnitt](assets/goal-alignment-section-unshimmed.png)
 
 Använd avsnittet Måljustering för att göra följande:
 
@@ -118,7 +118,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -149,7 +149,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

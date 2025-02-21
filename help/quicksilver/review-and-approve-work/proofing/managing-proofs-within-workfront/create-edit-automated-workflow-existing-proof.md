@@ -6,9 +6,9 @@ description: Automatiska arbetsflöden gör det enklare att hantera granskningsp
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Om du granskar korrekturet i korrekturläsaren klickar du på **Arbetsflöde** ![](assets/workflow-icon-proofing-viewer.png) i den vänstra panelen och sedan på ikonen Redigera ![](assets/edit-icon-proofing-viewer.png) för att öppna inställningarna för det automatiserade arbetsflödet för korrekturet.
+   Om du granskar korrekturet i korrekturläsaren klickar du på ikonen **Arbetsflöde** ![Arbetsflöde](assets/workflow-icon-proofing-viewer.png) i den vänstra panelen och sedan på ikonen Redigera ![Redigera](assets/edit-icon-proofing-viewer.png) för att öppna inställningarna för det automatiserade arbetsflödet för korrekturet.
 
 1. (Villkorligt) Om korrekturet för närvarande använder ett grundläggande arbetsflöde (utan stadier) klickar du på **Konvertera till automatiserat arbetsflöde** på skärmen som visas.
 
@@ -155,7 +155,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    När du lägger till faser i det automatiserade arbetsflödet visas ett diagramformulär på skärmen som representerar dem:
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![Arbetsflödesdiagram](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. När du är klar med att lägga till faser klickar du på **Klar**.
 

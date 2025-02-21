@@ -6,9 +6,9 @@ description: Du kan markera kommentarer som lösts efter att de har adresserats.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Markera kommentaren.
 1. Klicka på bockmarkeringsikonen i kommentarens nedre högra hörn. En grön bockmarkering visas i det övre vänstra hörnet av kommentaren och en&quot;Trådlöst&quot; etikett och ett meddelande visas under den. Användaren som skickade kommentaren får ett e-postmeddelande om att kommentaren löstes.
 
-   ![](assets/resolve-comment-350x247.png)
+   ![Lös kommentar](assets/resolve-comment-350x247.png)
 
 ## Öppna en löst kommentar igen
 
@@ -74,4 +74,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Markera kommentaren.
 1. Klicka på den gröna bockmarkeringsikonen i det nedre högra hörnet av kommentaren (till höger om knappen **Svara**). Kryssmarkeringen i kommentarens övre vänstra hörn försvinner och etiketten&quot;Tråden öppnas igen&quot; visas under den. Användaren som skickade kommentaren får ett e-postmeddelande om att kommentaren öppnades igen.
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![Öppna löst kommentaren igen](assets/reopen-resolved-comment-350x334.png)

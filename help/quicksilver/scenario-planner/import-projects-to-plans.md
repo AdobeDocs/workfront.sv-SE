@@ -6,9 +6,9 @@ description: Du kan importera befintliga projekt till en plan. De importerade pr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du kan importera befintliga projekt till en plan. De importerade projekten omvan
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -118,7 +118,7 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
      <ul> 
       <li> <p>Om en användare som har tilldelats en aktivitet eller ett problem har ändrat sin roll efter att de har markerat sin tilldelning som [!UICONTROL Done], importerar [!DNL Workfront] till initiativet som användaren fullgjorde innan han/hon markerade tilldelningen som [!UICONTROL Done].</p> </li> 
       <li> <p>Om en användare som har tilldelats en aktivitet eller en utgåva ändrade rollen under projektets livstid, men deras tilldelning för aktiviteten eller utgåvan inte är markerad som [!UICONTROL Done] när du importerar projektet, importerar [!DNL Workfront] bara den aktuella rollen för den tilldelade användaren. </p> </li> 
-     </ul> <p>Mer information om status för ett uppdrag finns i Tilldelningsstatus i <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Ordlista i Adobe [!DNL Workfront] -terminologi</a>. </p> </p> </td> 
+     </ul> <p>Mer information om status för ett uppdrag finns i Tilldelningsstatus i <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Ordlista för Adobe [!DNL Workfront] terminologi</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Projekt [!UICONTROL Planned Hours] som är associerat med jobbroller som har tilldelats aktiviteter eller ärenden</td> 
@@ -164,7 +164,7 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
 
    Rutan [!UICONTROL Import Projects] visas. Projekt som har datum inkluderade i tidsramen för din plan visas i en lista.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![Importera projekt](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Valfritt) Klicka på **[!UICONTROL Filter icon]** ![](assets/filter-nwepng.png) och välj ett tillgängligt filter i listan för att minska antalet projekt i listan. Som standard filtreras projektlistan efter användarens aktuella projektfilter i en lista med projekt.
+1. (Valfritt) Klicka på **[!UICONTROL Filter icon]** ![Filterikonen](assets/filter-nwepng.png) och välj ett tillgängligt filter i listan för att minska antalet projekt i listan. Som standard filtreras projektlistan efter användarens aktuella projektfilter i en lista med projekt.
 
-1. (Valfritt) Klicka på **[!UICONTROL Search icon]** ![](assets/search-icon.png) och lägg till ett nyckelord som visas i valfritt fält på skärmen. Objekten som innehåller sökordet visas automatiskt i listan och alla objekt döljs.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search icon]** ![Sök](assets/search-icon.png) och lägg till ett nyckelord som visas i valfritt fält på skärmen. Objekten som innehåller sökordet visas automatiskt i listan och alla objekt döljs.
 
 1. (Villkorligt) Klicka på **[!UICONTROL X icon]** för att ta bort sökningen och visa alla projekt.
 1. Välj upp till 100 projekt och klicka på **[!UICONTROL Import]**.
@@ -185,10 +185,10 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
 
    Observera följande:
 
-   * En projektikon ![](assets/project-icon-sp.png) visas till höger om företagsnamnet.
+   * En projektikon ![Projektikonen](assets/project-icon-sp.png) visas till höger om företagsnamnet.
    * Om projekttidslinjen överskrider planens varaktighet, avslutas aktivitetsfältet med en spetsig marginal till vänster (när startdatumet är tidigare än planens datum) eller till höger (när slutdatumet är senare än planens datum).
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![Projektfältet är tidigare än startdatumet](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * Antalet månader och jobbroller har uppdaterats för att matcha projektets.
 
@@ -198,7 +198,7 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
 
 1. Klicka på den stapel som representerar det nya initiativet för att öppna panelen med information om initiativ till höger.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![Initiativvaraktighet](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    Granska följande information i området **[!UICONTROL Initiative Duration]**:
 
@@ -234,4 +234,4 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
 1. (Valfritt) Om du vill uppdatera ändringarna du gör i det projekt som det har importerats från tillbaka till publicerar du projektet från planen. Mer information om publiceringsplaner finns i [Uppdatera eller skapa projekt genom att publicera initiativen i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 1. (Valfritt) Klicka på projektikonen för att komma åt det länkade projektet.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![Projektikon på initiativ](assets/project-icon-on-initiative-highlighted-350x49.png)

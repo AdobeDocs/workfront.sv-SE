@@ -6,9 +6,9 @@ description: Ett automatiserat arbetsflöde gör det enklare att hantera granskn
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
       Förutom alternativen **Vid korrekturskapande**, **På ett visst datum och en viss tid** eller **Manuellt** kan du välja ett alternativ som är beroende av vad som inträffade i föregående steg:
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![Aktivera scenalternativ](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Om du har valt ett alternativ för att aktivera fas som är beroende av vad som inträffade i föregående steg, använder du de alternativ som visas för att konfigurera aktiveringsinställningen.
 
@@ -149,7 +149,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    När du lägger till faser i det automatiserade arbetsflödet visas ett diagramformulär på skärmen som representerar dem:
 
-   ![](assets/stages-diagram-350x213.png)
+   ![Deldiagram](assets/stages-diagram-350x213.png)
 
 1. Fortsätt med [Konfigurera e-postinställningar för korrekturet](#configure-email-settings-for-the-proof) nedan.
 
@@ -230,6 +230,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. När korrekturet har skapats klickar du på **Öppna korrektur** för att starta korrekturläsaren.
 
-   ![](assets/open-proof-350x132.png)
+   ![Öppna korrektur](assets/open-proof-350x132.png)
 
    Användare som inte har språkkontroll aktiverat på sitt konto kan fortfarande visa dokumentet och kommentera korrekturet [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

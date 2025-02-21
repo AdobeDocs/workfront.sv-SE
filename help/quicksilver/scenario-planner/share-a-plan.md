@@ -7,9 +7,9 @@ description: Du kan dela en plan som du har skapat i Adobe Workfront Scenariopla
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Du kan dela en plan i [!DNL Adobe Workfront Scenario Planner] med andra använda
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select- eller Workfront Prime-planer. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
@@ -119,7 +119,7 @@ I följande tabell visas de behörigheter som du kan ge när du delar en plan. M
   <tr> 
    <td>Visa scenarier</td> 
    <td>✓</td> 
-   <td><span style="font-weight: normal;">✓</span> </td> 
+   <td><span style="font-weight: normal;"> ✓</span> </td> 
   </tr> 
   <tr> 
    <td>Visa jobbroller</td> 
@@ -157,7 +157,7 @@ I följande tabell visas de behörigheter som du kan ge när du delar en plan. M
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Publish-scenarier*</td> 
+   <td>Publicera scenarier**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -186,7 +186,7 @@ Mer information om projektbehörigheter finns i [Dela ett projekt i [!DNL Adobe 
    >
    >Du kan dela en plan genom att klicka på de avatarer för användare som planen delas med i det övre högra hörnet av planhuvudet.
 
-1. (Villkorligt) Om du öppnade en plan klickar du på ikonen **[!UICONTROL More]** ![](assets/more-icon.png) till höger om namnet [!UICONTROL Plan] och sedan på **[!UICONTROL Share]**
+1. (Villkorligt) Om du öppnade en plan klickar du på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) till höger om namnet på [!UICONTROL Plan] och sedan på **[!UICONTROL Share]**
 
    eller
 

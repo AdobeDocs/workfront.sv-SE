@@ -6,9 +6,9 @@ description: Lär dig att snabbt hitta text i ett korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Öppna det korrektur som du vill söka i.
 1. Klicka på ikonen **Sök efter dokument** i verktygsfältet ovanför korrekturet.
 
-   ![](assets/search-document-icon-search-in-proof-350x129.png)
+   ![Sök efter dokument](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. Börja skriva texten som du vill söka efter.
 

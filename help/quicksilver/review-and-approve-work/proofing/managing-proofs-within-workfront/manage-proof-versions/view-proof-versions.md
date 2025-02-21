@@ -6,9 +6,9 @@ description: Du kan visa tidigare versioner av ett korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Gå till dokumentlistan och välj korrekturet.
 1. Bläddra i sammanfattningen till vyn **Alla versioner**. Här kan du se alla versioner av korrekturet.
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![Kopia av versioner](assets/copy-of-versions-350x173.png)
 
 ## Förhandsgranska en tidigare korrekturversion
 
@@ -64,7 +64,7 @@ Filer som inte kan förhandsgranskas (till exempel XLSX och DOC) hämtas.
 1. Gå till dokumentlistan och välj ett korrektur.
 1. Bläddra nedåt till **Versioner** i Sammanfattning, klicka på menyn **Mer** och välj sedan **Förhandsgranska**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![Korrekturversioner i sammanfattning](assets/proof-versions-in-summary-350x167.png)
 
 ## Visa en tidigare korrekturversion
 
@@ -74,4 +74,4 @@ Alla användare i Workfront som har behörighet att visa dokumentet kan visa tid
 1. Hitta det bevis du behöver.
 1. Bläddra nedåt till **Versioner** i Sammanfattning, klicka på menyn **Mer** och välj sedan **Öppna korrektur**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![Korrekturversioner i sammanfattning](assets/proof-versions-in-summary-350x167.png)

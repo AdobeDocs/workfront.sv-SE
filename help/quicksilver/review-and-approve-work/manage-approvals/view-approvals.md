@@ -6,9 +6,9 @@ description: Godkännandeprocesser ger flexibilitet att skapa godkännanden i fl
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du kan visa eller hantera godkännanden från följande områden:
 
 ## Granska material som du skickar in för godkännande på Hem-sidan {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mina godkännanden**.
 1. (Villkorligt) Klicka på listrutan **Filter** och välj sedan **Godkännanden som jag har skickat** för att se de godkännanden som du har skickat in.
 
@@ -133,6 +133,6 @@ Så här ser du det aktuella läget för var en uppgift eller en utgåva befinne
 
    På fliken Godkännanden visas fullständig information om alla tidigare godkännandesökvägar och steg. Du kan se exakt vem som har fattat ett beslut om godkännandet eller om godkännandet har ställts in för ett team, en jobbroll eller en användare.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![Fliken Godkännanden utökad](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    Mer information om hur du skapar en godkännandeprocess finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
