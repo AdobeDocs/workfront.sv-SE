@@ -6,9 +6,9 @@ description: När du har tilldelats ett korrektur för godkännande visas det i 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Du har samma åtkomst till granskning och godkännande av korrektur som i [!DNL 
 1. Välj **[!UICONTROL Go to Proof]** på informationssidan.
 
    ![Korrekturaktivitet](assets/mobile-prooftask1-338x516.png)
+
+   >[!NOTE]
+   >
+   >Det går inte att öppna videokorrektur i mobilappen.
 
 1. Granska dokumentkorrekturet.
 1. (Valfritt) Välj ![[!UICONTROL Single Page icon]](assets/mobile-proofpagingicon1-25x36.png) längst upp till höger i dokumentet om du vill växla från enkelsidig vy till kontinuerlig vy. Välj ![[!UICONTROL Continuous Page icon]](assets/mobile-proofpagingicon2-25x25.png) om du vill växla tillbaka till vyn för en sida.

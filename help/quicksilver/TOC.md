@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
 workflow-type: tm+mt
-source-wordcount: '13034'
+source-wordcount: '13007'
 ht-degree: 0%
 
 ---
@@ -1487,10 +1487,10 @@ ht-degree: 0%
       * Rapporttyper för kontrollpanelen på arbetsytan {#report-types}
          * [Översikt över rapporttyper i kontrollpanelen för arbetsyta](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Lägga till en befintlig rapport på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-         * [Skapa en KPI-rapport på en Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Skapa en diagramrapport på en Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Skapa en tabellrapport på en Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Lägg till en rapport om väntande godkännanden på en Canvas-kontrollpanel](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * Rapporter {#reports}
       * [Rapporter](reports-and-dashboards/reports/reports-overview.md)
       * Grundläggande om rapportering {#report-basics}
@@ -2062,7 +2062,7 @@ ht-degree: 0%
       * [Hantera postsidans layout](planning/records/manage-the-record-page.md)
       * [Hantera poster i Planning-delen av Adobe Workfront-objekt](planning/records/manage-records-in-planning-section.md)
       * [Exportera information för en post](planning/records/export-the-record-page.md)
-      * [Skapa Workfront-objekt från Workfront Planning](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [Skapa Workfront-objekt från Workfront Planning när du kopplar dem till poster](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Skapa objekt med automatisering av Workfront Planning Record](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront Planning-begäranden {#adobe-workfront-planning-requests}
       * [Adobe Workfront Planning-begäranden: artikelindex](planning/requests/requests-article-index.md)

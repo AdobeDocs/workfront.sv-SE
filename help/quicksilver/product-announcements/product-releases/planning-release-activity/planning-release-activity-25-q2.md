@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,56 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nytt uttryck har lagts till i formelfält
+
+>[!NOTE]
+>
+>Förhandsversion: 20 februari 2025; Produktionsrelease för alla kunder: 20 februari 2025
+
+Vi har lagt till JSONELEMENT-uttrycket i formelfält. Det här uttrycket returnerar data från JSON med angiven JSONPath.
+
+Mer information finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Visningsindikatorer i realtid i en posts förhandsgranskning av detaljer eller sida
+
+>[!NOTE]
+>
+>Förhandsversion: 20 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+För att förstå vilken information som redigeras av andra användare när de arbetar på en posts förhandsgransknings- eller informationssida har vi introducerat närvaroindikatorer i realtid för det här området av Workfront Planning.
+
+Fältet som en annan användare redigerar markeras nu och andra användares kommentarer visas i det övre högra hörnet på förhandsvisnings- eller informationssidan.
+
+Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+
+## Förbättringar för att skapa Workfront-objekt när de ansluts till planeringsposter
+
+>[!NOTE]
+>
+>Förhandsversion: 20 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+Nu kan du enkelt skapa projekt, portfolior och program när du kopplar dem till en post från ett befintligt anslutningsfält.
+
+Följande funktioner är tillgängliga med den här förbättringen:
+
+* En beständig Lägg till-knapp vid anslutning till en Planning-post för ett Workfront-projekt, en portfölj eller en annan Planning-post
+
+* Möjlighet att lägga till program och associera dem med en portfölj med en beständig Lägg till-knapp i ett anslutningsfält.
+
+Mer information finns i [Skapa Workfront-objekt från Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+## Konfigurera automatisering för att skapa objekt och poster baserat på en befintlig post
+
+>[!NOTE]
+>
+>Förhandsversion: 20 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+Som arbetsytehanterare kan du nu konfigurera anpassade automatiseringar för en posttyp för att automatiskt skapa antingen ett anslutet Workfront-objekt eller en planeringspost.
+
+De skapade objekten eller posterna är omedelbart anslutna till den post där automatiseringen konfigureras och aktiveras.
+
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Granska och bekräfta åtgärder som vidtagits av AI Assistant
 
@@ -41,18 +91,6 @@ Tidigare var det här bekräftelsesteget inte tillgängligt.
 Följande uttryck är nu tillgängliga i Workfront formelfält: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Definitioner och exempel på varje uttryck finns i formelredigeraren.
 
 Mer information finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## Dela Workfront Planning-objekt med team, jobbroller och företag
 

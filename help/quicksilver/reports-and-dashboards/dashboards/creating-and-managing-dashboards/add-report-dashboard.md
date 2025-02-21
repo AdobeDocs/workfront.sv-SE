@@ -6,9 +6,9 @@ description: Du kan lägga till en rapport på en ny eller befintlig kontrollpan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-Du kan lägga till en rapport på en ny eller befintlig kontrollpanel direkt från en rapport. Du kan också lägga till en befintlig rapport på en kontrollpanel, enligt beskrivningen i [Skapa en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Du kan lägga till en rapport på en ny eller befintlig kontrollpanel direkt från en rapport. Du kan också lägga till en befintlig rapport på en kontrollpanel, enligt beskrivningen i [Skapa en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). Observera att det finns högst 25 rapporter, kalendrar eller externa sidor som kan läggas till på en enda kontrollpanel.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Du måste skapa en rapport innan du kan lägga till den på en kontrollpanel.
 
-Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Mer information om hur du skapar en rapport finns i [Skapa en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Lägga till en rapport på en befintlig instrumentpanel
 

@@ -6,9 +6,9 @@ description: Du kan ändra en befintlig kalender genom att lägga till eller ta 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step1-to-calendars}}
 
-1. (Valfritt) Om du vill ändra namnet på kalenderrapporten klickar du på fältet [!UICONTROL calendar name] och gör sedan önskade ändringar.
+1. (Valfritt) Om du vill ändra namnet på kalenderrapporten klickar du på fältet [!UICONTROL calendar name] och gör sedan önskade ändringar. Vi rekommenderar att du endast använder UTF-8-tecken för att undvika kompatibilitetsproblem.
+
    ![Ändra rapportnamn](assets/titlechange-250x230.png)
-Om du har delat kalenderrapporten med andra användare eller team uppdateras det ändrade kalendernamnet automatiskt i deras kalendervy.
+
+   Om du har delat kalenderrapporten med andra användare eller team uppdateras det ändrade kalendernamnet automatiskt i deras kalendervy.
 
 1. (Valfritt) Så här lägger du till ett projekt i kalenderrapporten:
 

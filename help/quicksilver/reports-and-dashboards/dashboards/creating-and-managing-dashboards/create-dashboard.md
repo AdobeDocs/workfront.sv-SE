@@ -6,9 +6,9 @@ description: Du kan skapa kontrollpaneler för att snabbt komma åt information 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Du kan lägga till befintliga externa sidor på en kontrollpanel eller skapa en 
     <tbody>
      <tr>
       <td role="rowheader"><strong>Namn</strong></td>
-      <td><p>Det här är namnet på instrumentpanelen.</p><p>Om du inte anger något namn blir namnet på den första rapporten på kontrollpanelen som standard kontrollpanelens namn.</p></td>
+      <td><p>Det här är namnet på instrumentpanelen. Vi rekommenderar att du endast använder UTF-8-tecken för att undvika kompatibilitetsproblem.</p><p>Om du inte anger något namn blir namnet på den första rapporten på kontrollpanelen som standard kontrollpanelens namn.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Beskrivning (valfritt)</strong></td>

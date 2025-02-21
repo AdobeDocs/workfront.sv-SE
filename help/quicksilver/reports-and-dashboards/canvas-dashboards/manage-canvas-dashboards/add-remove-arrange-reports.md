@@ -6,9 +6,9 @@ description: När du har skapat en Canvas Dashboard kan du lägga till rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. I fönstret **Lägg till rapport** som visas klickar du på **Lägg till** under den typ av rapport som du vill lägga till på arbetsytans kontrollpanel.
 
-1. Fortsätt att konfigurera rapporten baserat på den typ av rapport du har valt. Mer information om hur du konfigurerar de olika rapporttyperna finns i [Rapporttyper för arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). Om du stänger fönstret innan du slutför konfigurationen kommer en tom rapport fortfarande att läggas till på arbetsytans kontrollpanel. Du kan slutföra konfigurationen senare genom att klicka på knappen **Konfiguration** i mitten av den tomma rapporten.
+1. Fortsätt att konfigurera rapporten baserat på den typ av rapport du har valt. <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).--> Om du stänger fönstret innan du slutför installationen läggs en tom rapport till på arbetsytans kontrollpanel. Du kan slutföra konfigurationen senare genom att klicka på knappen **Konfiguration** i mitten av den tomma rapporten.
 
 ## Flytta eller ändra storlek på rapporter på en arbetsytans kontrollpanel
 
