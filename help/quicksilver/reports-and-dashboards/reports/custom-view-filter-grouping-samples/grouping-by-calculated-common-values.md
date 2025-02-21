@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppering: Organisera listresultat med ett beräknat värde gemensamt för alla objekt i grupperingen'
+title: 'Gruppering: Organisera listresultat med ett beräknat värde som är gemensamt för alla objekt i grupperingen'
 description: Du kanske vill visa dina uppgifter grupperade efter Procent färdigt i intervallet 0-25, 26-50, 51-75, 75-99 och 100. Du kan skapa en gruppering i textläge för att göra detta.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Du kanske vill visa dina uppgifter grupperade efter Procent färdigt i intervallet 0-25, 26-50, 51-75, 75-99 och 100. Du kan skapa en gruppering i textläge för att göra detta.
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![Gruppering efter beräknat värde](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Åtkomstkrav
 

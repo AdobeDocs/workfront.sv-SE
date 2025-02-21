@@ -6,9 +6,9 @@ description: Du kan använda vyn Milstolpe på en projektlista eller rapport.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -126,16 +126,16 @@ När du visar en projektlista eller en projektrapport i vyn Milstolpe är följa
 * **Ikoner för aktivitetsstatus:** En statusikon visas bredvid varje projekt och uppgift i vyn Milstolpe.
 
    * I tid\
-     ![](assets/gantt-ontime.png)
+     ![Ikon i tid](assets/gantt-ontime.png)
 
    * Bakom\
-     ![](assets/gantt-behind.png)
+     ![Bakom-ikon](assets/gantt-behind.png)
 
    * Risk\
-     ![](assets/gantt-atrisk.png)
+     ![Riskikon](assets/gantt-atrisk.png)
 
    * Sena\
-     ![](assets/gantt-late.png)
+     ![Sena ikonen](assets/gantt-late.png)
 
   Du kan inaktivera att dessa statusikoner visas, vilket beskrivs i avsnittet [Konfigurera vilken information som ska visas i vyn Milstolpe](#configure-what-information-displays-in-the-milestone-view) i den här artikeln.\
   Mer information om respektive statustyp finns i artikeln [Översikt över status för aktivitetsstatus](../../../manage-work/tasks/task-information/task-progress-status.md).
@@ -183,7 +183,7 @@ Så här konfigurerar du om projektstatusikoner och procent slutförda projekt s
 {{step1-to-projects}}
 
 1. Klicka på listrutan **Visa** och sedan på **Milstolpe**.\
-   Om du visar en lista med projekt inuti ett Portfolio eller ett program väljer du underfliken **Milstolpe**.
+   Om du visar en lista med projekt i en Portfolio eller ett program väljer du underfliken **Milstolpe**.
 
 1. Klicka på **Alternativ** i det övre högra hörnet i vyn Milstolpe.\
    ![millestone_view_options.png](assets/milestone-view-options-350x141.png)

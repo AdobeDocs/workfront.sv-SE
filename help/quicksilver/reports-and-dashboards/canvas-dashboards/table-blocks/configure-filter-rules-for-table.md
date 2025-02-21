@@ -4,9 +4,9 @@ description: Filtrera en tabell i rapportarbetsytan
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -46,19 +46,19 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Konfigurera filterregler för en tabell
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 
 1. Klicka på **Ny rapport**.
 
    eller
 
-   Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
+   Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![Mer ](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
 
 1. Om du vill gruppera rader i en ny tabell drar eller dubbelklickar du på ett tabellblock på arbetsytan.
 
    eller
 
-   Om du vill gruppera rader i en befintlig tabell klickar du på ikonen **Redigera** ![](assets/edit-icon.png) i tabellhuvudet.
+   Om du vill gruppera rader i en befintlig tabell klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i tabellhuvudet.
 
 1. I den högra panelen letar du reda på det fält som du vill filtrera tabellen efter och drar det sedan till filteravsnittet.
 

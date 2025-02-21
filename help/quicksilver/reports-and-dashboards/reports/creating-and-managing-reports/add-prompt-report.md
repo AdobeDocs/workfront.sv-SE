@@ -6,9 +6,9 @@ description: Filter och uppmaningar liknar varandra i den bemärkelsen att de b�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Instruktioner om hur du skapar en rapport finns i [Skapa en rapport](../../../re
 
 1. Klicka på knappen **Rapportinställningar**.
 1. Klicka på fliken **Rapportfrågor** och sedan på **Lägg till en fråga**.\
-   ![](assets/create-report-prompt-tab.png)
+   ![Fliken Rapportera uppmaningar](assets/create-report-prompt-tab.png)
 
 1. (Villkorligt) Markera det fält som du vill att uppmaningen ska baseras på. Börja skriva namnet på fältet och klicka sedan för att markera det när det visas i listan.\
    Vilka alternativ som är tillgängliga för användare som kör rapporten varierar beroende på vilket fält du väljer.\
@@ -144,7 +144,7 @@ Så här kör du en rapport med en fråga:
 
 1. Gå till rapporten med uppmaningen.
 
-   ![](assets/run-report-prompts.png)
+   ![Kör rapportuppmaningar](assets/run-report-prompts.png)
 
 1. Välj ett villkor för en eller alla uppmaningar som visas på fliken **Fråga**.\
    (Valfritt) Du kan lämna uppmaningarna tomma och inte filtrera rapporten efter uppmaningsvillkoren.

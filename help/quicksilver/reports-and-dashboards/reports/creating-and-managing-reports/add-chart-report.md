@@ -6,9 +6,9 @@ description: Du kan förbättra dina rapporter genom att lägga till ett diagram
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,11 @@ Så här lägger du till ett **bubbeldiagram** i rapporten:
 
    Om du till exempel har valt **Projektnamn** i en aktivitetsrapport kan du lägga till **Aktivitetsstatus** som **Bubbelfärg**-fält.
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![Aktivitetsstatus som bubbelfärg](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    Om du däremot valde **Aktivitetsstatus** för fältet **Bubbles** kan du inte välja ett **Bubbelfärg** -fält. Du kan inte heller välja **Projektnamn** för fältet **Bubbelfärg**, även om du väljer **Projektnamn** för fältet **Bubbles** .
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![Kan inte välja bubbelfärg](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. Klicka på **Spara + Stäng** för att spara ändringarna i gränssnittsverktyget.
 
@@ -304,7 +304,7 @@ Så här anpassar du diagramfärger:
 
 1. Klicka på **Egna färger** när det här fältet är tillgängligt.\
    Dialogrutan Egna färger visas.\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![Egna färger i diagram](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

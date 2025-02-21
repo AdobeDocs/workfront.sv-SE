@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Att dela en eller flera rapporter från en lista är identiskt.
 
    * **Alla i systemet kan visa** Välj det här alternativet så att alla i Workfront som har åtkomst till rapporter kan visa rapporten.
 
-1. (Valfritt) Klicka på ikonen **Kugghjul** ![](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och välj sedan eventuellt följande alternativ:
+1. (Valfritt) Klicka på ikonen **Kugghjulet** ![Inställningar för kugghjulsikonen](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och välj sedan eventuellt följande alternativ:
 
    * **Gör detta offentligt för externa användare** Välj det här alternativet om du vill generera en URL som kan delas med andra. Alla som har URL-adressen kan komma åt rapporten utan att ha någon Adobe Workfront-licens.
 

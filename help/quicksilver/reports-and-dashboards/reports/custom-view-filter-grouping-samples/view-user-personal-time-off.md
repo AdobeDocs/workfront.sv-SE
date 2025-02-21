@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: användarens personliga tid är ledig'
-description: 'Visa: Personlig tid för användare avaktiverad'
+title: 'Visa: användarens personliga ledig tid'
+description: 'Visa: Personlig tid avaktiverad för användare'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Visa användarens personliga tid ledig
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter > Ny rapport**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter > Ny rapport**.
 1. I listrutan väljer du **Tid av**.
 1. Klicka på **Spara + Stäng**.
 

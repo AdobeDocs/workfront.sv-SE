@@ -4,9 +4,9 @@ description: Skapa en rapport i Reporting Canvas
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 >
 >Alla ändringar sparas automatiskt när du skapar och redigerar blocken i rapporten.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 1. Klicka på **Ny rapport**.
 1. Skriv ett namn på rapporten i det övre vänstra hörnet av arbetsytan.
 
-   Du kan när som helst ändra namnet på rapporten genom att klicka på ikonen **Redigera** ![](assets/edit-icon.png) bredvid dess namn.
+   Du kan när som helst ändra namnet på rapporten genom att klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) bredvid namnet.
 
 1. Dra blocken som du vill lägga till från skärmens högra sida till arbetsytan.
 

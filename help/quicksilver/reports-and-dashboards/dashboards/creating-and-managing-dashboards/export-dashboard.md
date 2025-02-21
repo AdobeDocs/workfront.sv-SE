@@ -6,9 +6,9 @@ description: Du kan exportera en kontrollpanel till en PDF-fil med de utskriftsa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 3%
 
 ---
@@ -77,7 +77,7 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
 1. Gå till den kontrollpanel som du vill exportera.
 1. Klicka på **Instrumentpanelsåtgärder** och välj sedan **Förhandsgranska utskrift**.
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![Förhandsgranskning av instrumentpanelsutskrift](assets/dashboard-actions-print-350x254.png)
 
    Fönstret Förhandsgranska utskrift öppnas.
 
@@ -105,7 +105,7 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
      </tr> 
      <tr> 
       <td>Internet Explorer, Microsoft Edge och Mozilla Firefox</td> 
-      <td> <p>Obs! Om du använder Internet Explorer version 11 kanske du inte kan använda funktionen Skriv ut till PDF utan att installera ett plugin-program från en annan leverantör.</p> 
+      <td> <p>Obs! Om du använder Internet Explorer version 11 kanske du inte kan använda funktionen Skriv ut till PDF utan att installera ett plugin-program från tredje part.</p> 
        <ol> 
         <li value="1">I fältet <strong>Skrivare</strong> eller <strong>Välj skrivare</strong> väljer du <strong>Microsoft Skriv ut till PDF</strong> och ändrar sedan eventuella andra utskriftsalternativ som du vill ändra.</li> 
         <li value="2">Klicka på <strong>Skriv ut</strong>.</li> 

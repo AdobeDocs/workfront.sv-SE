@@ -7,9 +7,9 @@ description: Du kan använda uppgiftsfiltren nedan för att visa arbetsuppgifter
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan använda följande filter på en uppgiftsrapport om du vill visa uppgifter utan underordnade. De kan ha egna föräldrar och barn till andra uppgifter.
 
-1. Klicka på **Rapporter** på **huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt.  .
+1. Klicka på **Rapporter** i det övre högra hörnet av **Huvudmeny** ![Huvudmeny-ikonen](assets/main-menu-icon.png) eller på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om sådana finns.Rapporter.
 
 1. Klicka på **Ny rapport**.
 1. Välj en **aktivitetsrapport**.
@@ -79,7 +79,7 @@ Du kan använda följande filter på en uppgiftsrapport om du vill visa uppgifte
 1. I raden **Börja skriva fältnamn ...** börjar du skriva **Antal underordnade** och klickar sedan på **Aktivitet > Antal underordnade** när den visas i listan.
 
 1. Välj **Lika (skiftlägeskänslig)** som modifierare och ange sedan **0** som antal underordnade.\
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![Överordnat aktivitetsfilter](assets/parent-task-filter-from-the-ui-350x76.png)
 
    eller
 
@@ -99,7 +99,7 @@ Du kan använda följande filter på en uppgiftsrapport om du vill visa uppgifte
 
 Du kan använda följande filter på en uppgiftsrapport för att visa uppgifter med överordnade, vilket innebär att de är underordnade uppgifter. Dessa åtgärder kan dock även ha egna underordnade eftersom filtret inte utesluter deras underordnade. Underordnade uppgifter som också är överordnade för andra uppgifter betraktas inte som arbetsuppgifter.
 
-1. Klicka på **Rapporter** på **huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt.  .
+1. Klicka på **Rapporter** i det övre högra hörnet av **Huvudmeny** ![Huvudmeny-ikonen](assets/main-menu-icon.png) eller på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om sådana finns.Rapporter.
 
 1. Klicka på **Ny rapport**.
 1. Välj en **aktivitetsrapport**.
@@ -108,7 +108,7 @@ Du kan använda följande filter på en uppgiftsrapport för att visa uppgifter 
 1. I raden **Börja skriva fältnamn ...** börjar du skriva **Överordnat ID** och väljer sedan **Aktivitet >> Överordnat ID** när det visas i listan.
 1. Välj **Är inte tom** som modifierare.
 
-   ![](assets/filter-parent-id-not-blank-350x100.png)
+   ![Överordnat ID är inte tomt](assets/filter-parent-id-not-blank-350x100.png)
 
    eller
 
@@ -124,7 +124,7 @@ Du kan använda följande filter på en uppgiftsrapport för att visa uppgifter 
 
 Du kan använda följande filter på en uppgiftsrapport om du vill visa fristående arbetsuppgifter. De här uppgifterna har ingen överordnad och har inga egna underordnade.
 
-1. Klicka på **Rapporter** på **huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt.  .
+1. Klicka på **Rapporter** i det övre högra hörnet av **Huvudmeny** ![Huvudmeny-ikonen](assets/main-menu-icon.png) eller på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om sådana finns.Rapporter.
 
 1. Klicka på **Ny rapport**.
 1. Välj en **aktivitetsrapport**.
@@ -136,7 +136,7 @@ Du kan använda följande filter på en uppgiftsrapport om du vill visa friståe
 1. I **Börja skriva fältnamn ...** rad börja skriva **Överordnat ID** och välj sedan **Aktivitet >> Överordnat ID** i listan.
 1. Välj **Är tom** som modifierare.
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![Överordnat ID är tomt och inga underordnade ](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    eller
 

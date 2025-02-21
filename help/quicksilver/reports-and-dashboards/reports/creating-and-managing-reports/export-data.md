@@ -6,7 +6,7 @@ description: Du kan exportera Adobe Workfront-data från olika listor, rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -190,14 +190,14 @@ Om du har frågor eller funderingar kring din begränsning kan du kontakta Workf
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    eller
 
    Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon-nwe.png) och välj sedan ett format.
 
-   Vilka alternativ som är tillgängliga för export till PDF beror på språkinställningarna i användarinställningarna för Workfront:
+   Vilka alternativ som är tillgängliga för PDF-export beror på språkinställningarna i användarinställningarna för Workfront:
 
    * Nordamerika - brev (standard), juridisk information, redovisning, A4
 
@@ -249,7 +249,7 @@ När du exporterar en lista med uppgifter eller problem kan **filnamnet** vara n
    * **The_project_name_the_task_name_Exported_Tasks**(*i PDF, Excel, Excel (.xlsx) eller tabbavgränsade format)*
    * **The_project_name_the_task_name_Exported_Issues**(*i PDF, Excel, Excel (.xlsx) eller tabbavgränsade format)*
 
-När du exporterar en lista med andra objekt från ett projekt till en PDF-fil, anger det exporterade dokumentets filnamn vilken typ av objekt du har exporterat.\
+När du exporterar en lista med andra objekt från ett projekt till en PDF-fil anger det exporterade dokumentets filnamn vilken typ av objekt du har exporterat.\
 Filnamnet kan till exempel vara:
 
 * *Exported_Users*, vid export av fliken Personer i projektet (*i PDF, Excel, Excel (.xlsx) eller tabbavgränsade format)*
@@ -263,21 +263,21 @@ När du exporterar en rapport blir den exporterade rapportens filnamn:
 
 ### Titlar {#titles}
 
-När du exporterar en lista med objekt kommer bara filen i PDF-format att ha en rubrik. Om du exporterar en lista eller en rapport till Excel, Excel (.xlsx) eller tabbavgränsad format har filen ingen rubrik.
+När du exporterar en lista med objekt kommer endast filen i PDF-format att ha en rubrik. Om du exporterar en lista eller en rapport till Excel, Excel (.xlsx) eller tabbavgränsad format har filen ingen rubrik.
 
 #### Titlar för exporterade listor {#titles-for-exported-lists}
 
-När du exporterar uppgiftslistor och utleveranslistor i ett projekt till en PDF-fil är det exporterade dokumentets titel något av följande:
+När du exporterar en uppgifts- och utgivningslista i ett projekt till en PDF-fil är titeln för det exporterade dokumentet något av följande:
 
 * *Projektnamn - Exporterade aktiviteter*
 * *Projektnamn - Exporterade problem*
 
-När du exporterar uppgiftslistor och utleveranslistor i en uppgift till en PDF-fil är rutan i det exporterade dokumentet något av följande:
+När du exporterar en uppgiftslista och en utgivningslista i en uppgift till en PDF-fil, är rutan i det exporterade dokumentet något av följande:
 
 * *Projektnamn - Aktivitetsnamn - Exporterade aktiviteter*
 * *Projektnamn - Aktivitetsnamn - Exporterade problem*
 
-När du exporterar en lista med andra objekt från ett projekt till en PDF-fil, anger det exporterade dokumentets namn vilken typ av objekt du har exporterat.\
+När du exporterar en lista med andra objekt från ett projekt till en PDF-fil anger det exporterade dokumentets namn vilken typ av objekt du har exporterat.\
 Titeln kan till exempel vara:
 
 * *Exporterade användare*, när du exporterar fliken Personer i projektet.

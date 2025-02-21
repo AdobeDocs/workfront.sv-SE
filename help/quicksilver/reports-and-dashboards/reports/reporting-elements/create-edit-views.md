@@ -6,9 +6,9 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Dialogrutan **Anpassa vy** visas.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Etikett för anpassad kolumn</strong></td> 
-           <td><p>Ange en anpassad etikett för kolumnen. Den här etiketten ersätter standardetiketten.</p></td> 
+           <td><p>Ange en anpassad etikett för kolumnen. Den här etiketten ersätter standardetiketten. Vi rekommenderar att du endast använder UTF-8-tecken för att undvika kompatibilitetsproblem.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Fältformat</strong></td> 
@@ -179,7 +179,7 @@ Så här skapar eller anpassar du en Agile-vy:
       Du kan inte anpassa Agile-standardvyn.
 
    1. Klicka på listrutan **Visa** igen och klicka sedan på **Anpassa vy**.\
-      ![](assets/view-agile-customize.png)
+      ![Anpassa vy](assets/view-agile-customize.png)
 
 1. (Villkorligt) Klicka på **Ny vy** om du vill skapa en ny Agilvy.\
    Dialogrutan **Anpassa flexibel vy** visas.

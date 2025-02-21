@@ -6,9 +6,9 @@ description: Visa rapportanvändning
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Visa användningsinformation för rapporter i Visa en rapportlista
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
 
 1. Klicka på listrutan **Visa** i listan med rapporter.
 1. (Valfritt) Markera vyn **Rapportanvändning** om du vill visa den vanligaste informationen om rapportanvändning.\
@@ -97,7 +97,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Filtrera en rapportlista efter användningsinformation {#filter-a-report-list-by-usage-information}
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
 1. Klicka på listrutan **Filter** i rapportlistan.
 1. Klicka på **Nytt filter** och sedan på **Lägg till en filterregel**.
 1. Börja skriva något av följande fält och markera dem när de visas i listan under objektet **Rapport** för att lägga till dem som en ny filterregel:
@@ -112,7 +112,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * **Senast visat den**: Visar datumet då rapporten senast visades
 
 1. Välj en modifierare för fältet och ange sedan ett värde när du uppmanas till det.\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![Rapportera användningsfilterstatistik](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Klicka på **Spara filter**.\
    Här visas en lista med rapporter som uppfyller användningsinformationen som du har definierat.\

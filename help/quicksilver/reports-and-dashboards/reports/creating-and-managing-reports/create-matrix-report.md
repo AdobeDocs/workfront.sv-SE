@@ -6,9 +6,9 @@ description: Matrisrapporter visar sammanfattningsinformation i ett aggregerat t
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ Du kan skapa en matrisrapport för alla rapporter som innehåller 2 eller fler g
 
 Du vill till exempel skapa en timrapport som visar de timmar som loggats under en 3-månadersperiod, och du vill att rapporten ska vara ordnad efter vem som angav timmarna samt efter månad och vecka.
 
-![](assets/report-matrix-overview-350x123.png)
+![Översikt över rapportmatrisen](assets/report-matrix-overview-350x123.png)
 
 ## Hur data visas i en matrisrapport
 
 Informationen i matrisrapporten visas alltid som ett numeriskt värde. I de flesta fall är kolumner som innehåller ett numeriskt värde bäst för visning i en matrisrapport (till exempel loggade timmar och verkliga kostnader).
 
 Andra kolumner (till exempel Status) kan dock fortfarande visas i matrisrapporten enligt följande bild:\
-![](assets/report-matrix-status-350x73.png)
+![Matrisstatus](assets/report-matrix-status-350x73.png)
 
 ## Åtkomstkrav
 
@@ -91,7 +91,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       >
       >Om det här alternativet inte är markerat visas inte informationen från kolumnen korrekt i matrisrapporten.
 
-      ![](assets/qs-report-matrix-summarized-350x392.png)
+      ![Matris summerad](assets/qs-report-matrix-summarized-350x392.png)
 
    1. Upprepa den här processen för varje kolumn på fliken Kolumner (Visa) och klicka sedan på **Klar**.
 
@@ -105,10 +105,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. Identifiera kolumngrupperingen i avsnittet **Kolumngrupperingar** som upprättar tabellens lodräta grupperingar.
    1. (Valfritt) Om du vill lägga till ytterligare en kolumngruppering klickar du på **Lägg till sekundär kolumngruppering**.
    1. (Villkorligt) Om du lägger till en gruppering efter datum anger du även om resultaten grupperas efter dag, vecka, månad, kvartal eller år.\
-      ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![Alternativ för gruppering efter datum](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. (Villkorligt) Om du har valt att gruppera efter datum och att visa resultat efter kvartal, till exempel, anger du om du vill visa kvartal utan data genom att markera kryssrutan **Visa kvartal utan resultat**.\
-      ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![Visa kvartal utan resultat](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >

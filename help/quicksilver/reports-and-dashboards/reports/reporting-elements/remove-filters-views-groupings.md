@@ -6,9 +6,9 @@ description: Du kan ta bort ett filter, en vy eller en gruppering från listor o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Följande scenarier gäller när du tar bort ett filter, en vy eller en grupperi
 ### Ta bort ett filter, en vy eller en gruppering med det äldre verktyget
 
 1. Gå till en lista med objekt eller en rapport.
-1. (Villkorligt) Klicka på ikonen **Filter**, **Visa** eller **Gruppering** i en lista och för sedan pekaren över det filter, den vy eller den gruppering som du vill ta bort, klicka på ikonen **Mer** ![](assets/more-icon.png) och sedan på **Ta bort**. Filtret, vyn eller grupperingen tas bort.
+1. (Villkorligt) Klicka på ikonen **Filter**, **Visa** eller **Gruppering** i en lista, hovra sedan över filtret, vyn eller grupperingen som du vill ta bort, klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och sedan på ikonen **Ta bort** . Filtret, vyn eller grupperingen tas bort.
 1. (Villkorligt) Klicka på listrutan **Gruppering**, **Filter** eller **Visa** och välj **Ta bort gruppering**, **Ta bort filter** eller **Ta bort vy** i en rapport.
 
    Dialogrutan **Mina grupperingar**, **Mina filter** eller **Mina vyer** visas.

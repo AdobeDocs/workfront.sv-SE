@@ -4,9 +4,9 @@ description: Lägga till eller redigera ett visualiseringsblock i rapportarbetsy
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,12 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 >
 >Alla ändringar sparas automatiskt när du skapar och redigerar blocken i rapporten.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 1. Klicka på **Ny rapport** och skapa sedan en rapport med tabeller som innehåller data, enligt beskrivningen i [Skapa en rapport i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) och [Lägg till eller redigera ett tabellblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    eller
 
-   I en befintlig rapport med tabeller som innehåller data klickar du på ikonen **Mer meny** ![](assets/more-icon.png) i rapporthuvudet och väljer sedan **Redigera**.
+   I en befintlig rapport med tabeller som innehåller data klickar du på ikonen **Mer meny** ![Mer ](assets/more-icon.png) i rapportrubriken och väljer sedan **Redigera**.
 
 1. Till höger på skärmen, under **Lägg till ett block**, antingen:
 
@@ -57,7 +57,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 1. (Villkorligt) Om rapporten innehåller mer än en tabell väljer du källtabellen för visualiseringen i rutan **Bygg din visualisering** som visas.
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![Markera tabell vid visualisering](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 1. Välj den typ av visualisering som du vill lägga till.
 
-   ![](assets/select-vis-type-350x205.png)
+   ![Välj visualiseringstyp](assets/select-vis-type-350x205.png)
 
    Din visualisering visas som representerar data i den tabell som du har valt.
 

@@ -7,9 +7,9 @@ description: 'Rapport: Budgeterad timme'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ När du vill dela information om budgeterad timme med andra användare som inte 
 >
 >Budgeterade timmar uppdateras normalt varje timme (det kan ta max tre timmar) i Adobe Workfront-databasen. Om du uppdaterar rapporten uppdateras inte timinformationen i den. Du kan visa den tid som gått sedan den senaste uppdateringen i det övre högra hörnet i varje rapport för budgeterad timme. När du uppdaterar rapporten uppdateras bara informationen i den när det har gått mer än en timme sedan den senaste uppdateringen.
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![Tidssynkroniseringsvarning för budgeterad timrapport](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Åtkomstkrav
 
@@ -72,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Bygg en budgeterad timrapport
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Rapporter** .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det finns några, och klicka sedan på **Rapporter**.
 
 1. Klicka på **Ny rapport** > **Mer** > **Budgeterad timme**.
 

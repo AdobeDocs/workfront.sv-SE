@@ -7,9 +7,9 @@ description: Lär dig att beräkna tid- och datumskillnader.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan till exempel beräkna skillnaden mellan Planerat slutförandedatum och Faktiskt slutförandedatum för en aktivitet.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![Visa datumskillnad](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Gå till en lista med uppgifter.
 1. Klicka på **Ny vy** i listrutan **Visa**.
@@ -100,7 +100,7 @@ Du kan till exempel beräkna skillnaden mellan Planerat slutförandedatum och Fa
 En lista över objekt och deras överordnade objekt finns i avsnittet Förstå det inbördes beroendet och objekthierarkin i [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet för en aktivitet och det planerade slutförandedatumet för den överordnade aktiviteten, eller för projektet som aktiviteten är på.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![Visa datumskillnad för planerat slutförande](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Gå till en lista med uppgifter.
 1. Klicka på **Ny vy** i listrutan **Visa**.

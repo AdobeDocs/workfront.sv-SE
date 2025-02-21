@@ -7,9 +7,9 @@ description: Vanliga frågor och svar om rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Mer information om hur du ändrar filter och grupperingar finns i artiklarna [Ö
 ### Svar
 
 Rapporten eller kalendern kan ha en jokerteckensfiltervariabel som pekar på användaren som är inloggad. I det här fallet visar rapporten information baserat på den användare som är inloggad. Justera filtret för att ta bort jokertecknet som pekar på den inloggade användaren.\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![Filter-variabel för användar-ID](assets/qs--user.id-filter-variable-350x79.png)
 
 En fullständig lista med användarbaserade översikt över jokerteckenfiltervariabler finns i [Översikt över jokerteckensfiltervariabler](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -122,7 +122,7 @@ Om du vill visa alla uppgifter eller ärenden som du har tilldelats, oavsett om 
 1. Välj modifieraren **Lika med**.
 1. Börja skriva *$$USER.ID* i textrutan och välj den i listrutan som visas.\
    På så sätt ser du alla uppgifter och problem som har tilldelats den inloggade användaren. Du kan ersätta jokertecknet med ett specifikt användarnamn.\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![Uppgifter tilldelade mig](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. Klicka på **Spara + Stäng**.
 
@@ -143,7 +143,7 @@ Det finns dock några saker som kan förhindra att länkarna visas:
 * Om du har använt en **Visa** på de här listorna som har en annan valuta än projektets standardvaluta, visas inte länkarna. Ändra **Visa** till **Projektets ursprungliga valuta** och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
   Mer information om hur du ändrar valutan i din vy finns i [Skapa ekonomiska datarapporter med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![](assets/nwe-project-original-currency-350x229.png)
+![Projektvaluta](assets/nwe-project-original-currency-350x229.png)
 
 ## Uppdateras informationen i min rapport eller instrumentpanel automatiskt?
 

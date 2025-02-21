@@ -6,9 +6,9 @@ description: Du kan filtrera en rapport efter tidsramen för ett datum som finns
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -70,14 +70,14 @@ Mer information om hur du skapar rapporter finns i [Skapa en rapport](../../../r
 
 ## Filtrera en rapport efter tidsramen för ett datum {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Rapportering**.
 
 1. Klicka på **Ny rapport** och välj sedan önskad rapporttyp.\
    Välj till exempel **Timrapport**.
 
 1. Välj fliken **Filter**.
 1. Klicka på **Lägg till en filterregel** och välj sedan **Timinmatningsdatum**.\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![Filtrerar timrapport efter tidsram](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Välj något av följande alternativ i den nedrullningsbara menyn:
 

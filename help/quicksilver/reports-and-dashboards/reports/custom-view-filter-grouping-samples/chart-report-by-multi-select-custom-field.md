@@ -7,9 +7,9 @@ description: Du kan bara skapa ett diagram över en rapport med ett anpassat fä
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
 1. Ersätt&quot;Flervalsfält&quot; med det faktiska namnet på det anpassade fältet med flera val, så som det visas i Workfront.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![Beräknat anpassat flervalsfält](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. (Valfritt) Om det anpassade fältet för flera val redan finns i det här formuläret och om formuläret redan är kopplat till objekt, aktiverar du alternativet **Använd för befintliga beräkningar**.
 
@@ -140,11 +140,11 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
 1. (Valfritt) Om du vill vara säker på att alla beräknade fält som du vill diagramma efter fylls i med värden, går du till fliken Detaljer i rapporten och markerar alla objekt som innehåller det anpassade formuläret med både det anpassade fältet för flera val och det beräknade anpassade fältet. Klicka sedan på **Redigera**.
 1. (Valfritt och villkorligt) Markera fältet **Beräkna om anpassade uttryck** och klicka sedan på **Spara ändringar**.\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![Beräkna om anpassade uttryck](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Det här alternativet har tagits bort från gruppredigering.  Du kan fortfarande beräkna om uttryck för flera projekt samtidigt genom att klicka på ikonen **Mer** ![](assets/more-icon-45x33.png) högst upp i en projektlista och sedan **Beräkna om uttryck**.
+   >Det här alternativet har tagits bort från gruppredigering.  Du kan fortfarande beräkna om uttryck för flera projekt samtidigt genom att klicka på ikonen **Mer** ![Mer](assets/more-icon-45x33.png) högst upp i en projektlista och sedan **Beräkna om uttryck**.
 
 1. Gå till rapporten där du vill lägga till diagrammet för det beräknade fältet som refererar till det anpassade fältet för flera val.
 1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.
@@ -160,4 +160,4 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
    I rapporten visas resultaten grupperade efter fältet Beräknat flerval i ett diagram.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![Flervalsfält i diagram](assets/chart-multi-select-field-column-chart-example.png)

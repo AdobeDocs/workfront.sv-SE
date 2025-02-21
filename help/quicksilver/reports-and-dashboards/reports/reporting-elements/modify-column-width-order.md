@@ -6,9 +6,9 @@ description: Läs den här artikeln om du vill veta mer om riktlinjer för kolum
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Mer information om hur du exporterar data från listor och rapporter finns i art
 
 1. Gå till listan som du vill ändra.
 1. Dra i kanten på en kolumnrubrik tills kolumnen når önskad storlek.\
-   ![](assets/column-resize-350x124.png)
+   ![Ändra storlek på kolumn](assets/column-resize-350x124.png)
 
 #### Ordna om kolumner tillfälligt {#reorder-columns-temporarily}
 

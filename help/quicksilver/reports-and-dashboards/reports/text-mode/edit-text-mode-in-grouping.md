@@ -6,9 +6,9 @@ description: Du kan redigera en gruppering i en lista eller rapport i textläge 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 1. Gör något av följande:
 
    1. Om du vill komma åt grupperingen från en rapport går du till rapporten och klickar sedan på **Rapportåtgärder** > **Redigera** > fliken **Grupperingar**.
-   1. Om du vill komma åt grupperingen från en lista går du till listan och från listrutan **Gruppering**, för musen över den gruppering som du vill ändra och klickar på ikonen **Redigera** ![](assets/edit-icon.png) .
+   1. Om du vill komma åt grupperingen från en lista går du till listan och från listrutan **Gruppering**, för musen över den gruppering som du vill ändra och klickar på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
 
       Grupperingsverktyget öppnas.
 
@@ -194,7 +194,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
        <ol> 
         <li value="1"> <p> Om namnet på fältet som du visar är en fras i stället för ett enda substantiv, måste du använda kamelversionssyntax för <code>valuefield</code>. Koden är till exempel för det planerade startdatumet för en åtgärd:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Om du vill visa ett anpassat fält är värdet <code>valuefield</code> fältets faktiska namn, som du ser det i gränssnittet. För ett anpassat fält med namnet "Mer information" är koden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Om du vill gruppera efter objekt som är relaterade till andra objekt med kodraden <code>valuefield</code> avgränsas objektnamnen och attributen av kolon.</p> <p>En gruppering efter Portfolio-namn för en uppgiftslista har till exempel följande värde för värdefältraden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Detta anger att du kan komma åt nästa relaterade objekt (projekt) från rapportens (uppgiftens) objekt. Därifrån kan du komma åt följande relaterade objekt från projektet (portföljen) och sedan portföljens namn (namnet).</p> </li> 
+        <li value="3"> <p>Om du vill gruppera efter objekt som är relaterade till andra objekt med kodraden <code>valuefield</code> avgränsas objektnamnen och attributen av kolon.</p> <p>En gruppering efter Portfolio Name för en uppgiftslista har till exempel följande värde för värdefältraden:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Detta anger att du kan komma åt nästa relaterade objekt (projekt) från rapportens (uppgiftens) objekt. Därifrån kan du komma åt följande relaterade objekt från projektet (portföljen) och sedan portföljens namn (namnet).</p> </li> 
        </ol> <p>Mer information om hur objekt ansluter till varandra finns i avsnittet <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Objektens inbördes beroende och hierarki</a> i <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Förstå objekt i Adobe Workfront</a>.</p> <p>Obs! Om du väljer ett fält i textläge som inte är giltigt i standardgränssnittet och växlar till standardgränssnittet, tas grupperingen bort.</p> </td> 
      </tr> 
      <tr> 

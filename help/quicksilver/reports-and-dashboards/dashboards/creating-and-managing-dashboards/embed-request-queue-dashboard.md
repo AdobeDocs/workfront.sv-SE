@@ -6,9 +6,9 @@ description: Du kan bädda in en ny begärandekö i en instrumentpanel för att 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Användarna kan ändra typ av begäran eller välja ett annat ämne om de behöv
 
    Då kopieras länken till begärandekön eller köämnet när du visar den på skärmen. Användare kan uppdatera frågetypen eller någon av de ämnesgrupper och köämnen som är tillgängliga.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![Begärandekö med resurssökväg](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Hämta en länk till en begärandekö och möjlighet att ändra begärandetypen {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ När du delar en länk till en frågetyp väljs begärandetypen för användaren
 
    Användarna kan välja vilken ämnesgrupp eller kö de vill ha eller välja en annan typ av begäran.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![URL för begärandekö](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Hämta en länk till en begärandekö utan möjlighet att ändra begärandetypen {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ När du delar en länk till en förvald frågetyp väljs begärandetypen för an
 
    Användarna kan välja vilken ämnesgrupp eller vilket ämne i kön de vill för den valda begärandetypen. Användare kan inte välja en annan typ av begäran.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![Begär kökod](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Bädda in en begärandekö i en kontrollpanel
 
@@ -164,7 +164,7 @@ Du kan bädda in en länk till begärandekön eller till ett köämne som kapsla
 
 1. Klicka på **Lägg till extern sida**.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![Extern sida](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Redigera följande fält i rutan **Lägg till extern sida**:
 

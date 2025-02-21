@@ -6,9 +6,9 @@ description: Du kan referera till de anpassade formerna för ett objekt i rappor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ När du skapar rapporten använder du bara formulärets objekttyp som fältkäll
 
 Du kan till exempel ha ett anpassat formulär tillämpat på alla projekt som innehåller det anpassade fältet **Konsult**. Om du vill skapa en rapport med en lista över alla projekt där Olivia Kim är konsult använder du objekttypen **Projekt** som fältkälla och använder **Konsult** som fältnamn. Ange filterkvalificeraren till **Lika med** och skriv Olivia Kim.
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![Konsultfilter](assets/qs-consultant-filter-example-350x126.png)
 
 Mer information om hur du skapar en rapport finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -111,13 +111,13 @@ Så här visar du alla anpassade formulär som är kopplade till ett objekt:
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. På fliken **Kolumner** expanderar du objekttypen som det anpassade formulär som du vill referera till används på och klickar sedan på **Kategorinamn**.\
    Om du till exempel vill visa alla anpassade formulär som är associerade med en uppgift expanderar du fältkällan **Aktivitet** och klickar sedan på fältnamnet **Kategorinamn**.\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![Kategorinamnkolumn](assets/qs-category-name-column-350x267.png)
 
 Så här visar du endast det primära anpassade formuläret som är associerat med objektet:
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Expandera fältkällan **Kategori** på fliken **Kolumner** och klicka sedan på fältnamnet **Namn**.\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![Kategorinamn](assets/qs-category-name-column-2-350x248.png)
 
 ### Referera anpassade formulär i ett rapportfilter {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ Så här filtrerar du alla anpassade formulär som är associerade med objekttyp
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Expandera **Kategorier** på fliken **Filter** och klicka sedan på **Namn**.\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![Kategorinamnfilter](assets/qs-categories-name-filter-350x311.png)
 
 1. Välj den villkorskvalificerare som du vill använda:
 
@@ -150,7 +150,7 @@ Om du bara vill filtrera det primära anpassade formuläret som är associerat m
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Expandera fältkällan **Kategori** på fliken **Filter** och klicka sedan på fältnamnet **Namn**.\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![Kategorinamnsfilter](assets/qs-category-name-filter-350x437.png)
 
 1. Välj den villkorskvalificerare som du vill använda:
 
@@ -175,4 +175,4 @@ Om du bara vill filtrera det primära anpassade formuläret som är associerat m
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Expandera **Kategori** på fliken **Grupperingar** och klicka sedan på **Namn**.\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![Gruppering av kategorinamn](assets/qs-category-name-grouping-350x373.png)

@@ -4,9 +4,9 @@ description: Konfigurera en kolumnvisualisering i rapportarbetsytan
 hidefromtoc: true
 hide: true
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 1. Börja med att lägga till ett visualiseringsblock med visualiseringstypen **Kolumn** i en rapport, vilket förklaras i [Lägg till eller redigera ett visualiseringsblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Klicka på ikonen Redigera visualisering ![](assets/edit-icon.png) i det övre högra hörnet av visualiseringen och gör sedan något av följande.
+1. Klicka på ikonen Redigera visualisering ![Ikonen Redigera](assets/edit-icon.png) i det övre högra hörnet av visualiseringen och gör sedan något av följande.
 
    1. På fliken **Inställningar**:
 

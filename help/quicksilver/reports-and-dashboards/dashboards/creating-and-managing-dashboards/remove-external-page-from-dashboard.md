@@ -6,9 +6,9 @@ description: Du kan ta bort en extern sida från en kontrollpanel om den inte l�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Klicka på **Instrumentpanelsåtgärder** och sedan på **Redigera**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Redigera instrumentpanel](assets/unshimmed-edit-dashboard.png)
 
-1. På skärmens högra sida letar du reda på den externa sida som du vill ta bort och klickar på ikonen **Ta bort** ![](assets/delete.png) .
+1. På skärmens högra sida letar du reda på den externa sida som du vill ta bort och klickar på ikonen **Ta bort** ![Ta bort](assets/delete.png) .
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![Ta bort ikonen för extern sida i kontrollpanelen](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Klicka på **Spara + stäng** i det nedre vänstra hörnet.
 

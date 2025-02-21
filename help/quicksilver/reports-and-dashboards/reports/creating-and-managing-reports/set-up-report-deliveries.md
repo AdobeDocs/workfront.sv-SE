@@ -6,9 +6,9 @@ description: Översikt över rapportleverans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Mer information om ämnesraden i det levererade rapportmeddelandet finns i [Boka
 
 Den bifogade rapportens namn är: *The_Name_Of_The_Report* följt av det exporterade filformatet.
 
-Om du har schemalagt att den levererade rapporten ska formateras som en PDF eller HTML, kommer rapportens namn att vara:
+Om du har schemalagt att den levererade rapporten ska formateras som en PDF- eller HTML-fil kommer rapportens titel att vara:
 
 *Rapportens namn.*
 
@@ -141,7 +141,7 @@ Rapporter som schemalagts för leverans i Excel-, Excel- (.xlsx) eller TSV-forma
 
 >[!NOTE]
 >
->Om rapporten innehåller en beskrivning inkluderas den i den exporterade filen, om filen är formaterad som PDF eller HTML.
+>Om rapporten innehåller en beskrivning inkluderas den i den exporterade filen, om filen är formaterad som en PDF- eller HTML-fil.
 
 ### Tidsstämplar {#timestamps}
 
@@ -167,14 +167,14 @@ Du får alltid fliken Detaljer i en rapport när en rapport skickas eller schema
 
 Om rapporten har särskild formatering i webbprogrammet bör den levereras med den speciella formateringen när flikarna Detaljer och Matris visas endast för PDF- och Excel-filer.
 
-Rapportens filter, vy eller gruppering ingår inte i den levererade filen. Beskrivningen av rapporten inkluderas bara när du skickar rapporten som en PDF-fil.
+Rapportens filter, vy eller gruppering ingår inte i den levererade filen. Rapportbeskrivningen inkluderas bara när du skickar rapporten som en PDF-fil.
 
 Mer information om hur du tar emot rapporter med en specialvy finns i artikeln [Rapporter med en specialvy](#reports-with-a-special-view).\
 Mer information om hur du väljer standardfliken för en rapport och om specialformatering finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Länkar {#links}
 
-När du skickar en rapport från Workfront till PDF eller Excel förblir eventuella arbetslänkar som finns i originaldokumentet aktiva i den skickade filen. Länkarna kan peka på alla objekt i Workfront som stöder länkning.
+När du skickar en rapport från Workfront till PDF- eller Excel-format förblir alla arbetslänkar som finns i originaldokumentet aktiva i den skickade filen. Länkarna kan peka på alla objekt i Workfront som stöder länkning.
 
 Namnet på rapporten i e-postmeddelandet är också en länk.
 
@@ -189,7 +189,7 @@ Du kan se om en rapport har konfigurerats för leverans genom att skapa följand
 
 * **Ett filter** för rapportobjektet: Skapa ett filter i en lista med rapporter eller i en rapport om rapporter med följande uttryck: *ID för schemalagd rapport är inte tomt*.\
   Detta visar endast rapporter som har schemalagts i listan eller rapporten.\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![Schemalagt rapportfilter](assets/qs-scheduled-report-filter-350x101.png)\
   Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Mer information om hur du skapar en rapport om rapporter finns i [Skapa en rapport om rapportaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

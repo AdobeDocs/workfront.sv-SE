@@ -6,9 +6,9 @@ description: Du kan redigera ett filter i en lista eller rapport i textläge fö
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 
 1. Gör något av följande:
 
-   Om du vill komma åt filtret från en lista går du till listan, klickar på ikonen **Filter** , håller pekaren över filtret på sidopanelen **Filter** som du vill ändra och klickar på ikonen **Redigera** ![](assets/edit-icon.png) . Ditt valda filter visas antingen på sidopanelen **Filter** eller så öppnas det äldre filterverktyget.
+   Om du vill komma åt filtret från en lista går du till listan, klickar på ikonen **Filter** , håller pekaren över filtret på sidopanelen **Filter** som du vill ändra och klickar på ikonen **Redigera** ![Redigera](assets/edit-icon.png) . Ditt valda filter visas antingen på sidopanelen **Filter** eller så öppnas det äldre filterverktyget.
 
    ELLER
 

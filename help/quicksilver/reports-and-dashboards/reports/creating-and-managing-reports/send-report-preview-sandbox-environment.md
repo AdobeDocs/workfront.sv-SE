@@ -6,9 +6,9 @@ description: Informationen på den här sidan hänvisar till funktioner som bara
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Huruvida en levererad rapport skapas eller inte i förhandsvisningsmiljön beror
 
 Mer information om hur du aktiverar e-postmeddelanden från sandlådemiljön finns i [Aktivera leverans av e-postmeddelanden från sandlådemiljön för förhandsgranskning](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Ta emot e-post från sandlådealternativet](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Schemaläggningsrapporter för leverans i förhandsvisningsmiljön är identiska med schemaläggningsrapporter i produktionsmiljön. Mer information om att schemalägga en leveransrapport finns i [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -100,7 +100,7 @@ Huruvida en levererad rapport skapas eller inte i sandlådan för anpassad uppda
 
 Information om hur du aktiverar e-postmeddelanden från förhandsvisningsmiljön finns i avsnittet [Visa och ändra inställningarna för e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) i artikeln [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Ta emot e-post från sandlådealternativet](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Schemaläggningsrapporter för leverans i sandlådemiljön för anpassad uppdatering är identiska med schemaläggningsrapporter i produktionsmiljön. Mer information om att schemalägga en leveransrapport finns i [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 

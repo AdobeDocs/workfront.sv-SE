@@ -7,9 +7,9 @@ description: Du kan ersätta namnet på ett objekt i en vy med en bild i textlä
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan ersätta namnet på ett objekt i en vy med en bild i textläge. Du kan oc
 >
 >Bilderna visas i sin faktiska upplösning, så försök använda små bilder.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![Ersätt projektnamn med bild och länk](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Åtkomstkrav
 
@@ -86,7 +86,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. Högerklicka och välj **Kopiera bildplats** eller **Hämta länk**, beroende på webbläsaren. Nu har du URL-adressen för den specifika bilden och kan klistra in den från Urklipp.
    1. Se till att alla med den länken har behörighet att visa bilden genom att bara gå till länken och de behöver ingen inloggning för att komma åt den.
 
-1. Gå till ett projekt, klicka på menyn **Mer** ![](assets/more-icon-45x33.png) bredvid namnet på projektet och klicka sedan på **Redigera**.
+1. Gå till ett projekt, klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon-45x33.png) bredvid namnet på projektet och klicka sedan på **Redigera**.
 
 1. Lägg till länken till bilden i fältet **URL**.
 1. Gå till en projektvy i en lista med projekt.

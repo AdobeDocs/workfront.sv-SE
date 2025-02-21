@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Ett nytt alternativ för Canvas Dashboards på den vänstra panelen på den befi
 
 1. Klicka på listrutan **Anpassa det som användarna ser** och klicka sedan på **Kontrollpaneler**.
 
-1. Klicka på ikonen ![](assets/delete-secondary-nav-item.png) bredvid **Arbetsytans kontrollpaneler** i listan **Vänster panel** som visas nedan. Ikonen ändras till ![](assets/add-secondary-nav-item.png) för att visa att den nu visas i den vänstra panelen i instrumentpaneler.
+1. Klicka på ikonen ![Ta bort sekundärt navigeringsobjekt](assets/delete-secondary-nav-item.png) bredvid **Arbetsytans kontrollpaneler** i listan **Vänster panel** som visas nedan. Ikonen ändras till ![Lägg till sekundärt navigeringsobjekt](assets/add-secondary-nav-item.png) för att visa att det nu visas i den vänstra panelen för instrumentpaneler.
 
 1. Klicka på **Spara** längst ned på skärmen.
 
@@ -49,7 +49,7 @@ Ett nytt alternativ för Canvas Dashboards på den vänstra panelen på den befi
 
 1. Kontrollera att du har aktiverat alternativet Kontrollpaneler på arbetsytan i layoutmallen. Mer information finns i **Lägga till kontrollpaneler på kontrollpanelmenyn** ovan.
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png) och sedan på **Kontrollpaneler**.
+1. Klicka på ikonen Huvudmeny ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Kontrollpaneler**.
 
 1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
 

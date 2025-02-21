@@ -6,9 +6,9 @@ description: Du kan använda villkorsstyrd formatering för att jämföra två o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Så här jämför du det planerade startdatumet och det faktiska startdatumet f�
 1. Ange jämförelsevillkoren med hjälp av befintliga värden som finns i verktyget och ange villkorsstyrd formatering.\
    Vi vill t.ex. markera uppgifter där det faktiska startdatumet är senare än ( eller större än) det planerade startdatumet. Markera modifieringen Större än och välj ett faktiskt datum i datumfältet.
 
-   ![](assets/cond-format-1-350x84.png)
+   ![Villkorsstyrd formatering för faktiskt startdatum](assets/cond-format-1-350x84.png)
 
 1. (Valfritt) Välj **Använd på hela raden** om du vill använda formateringen på hela raden.
 1. Klicka på **Spara**.
@@ -104,7 +104,7 @@ Så här jämför du det planerade startdatumet och det faktiska startdatumet f�
 
 1. Kontrollera att kodraden `righttext` matchar satsen i kodraden `rightmethod`.
 
-   ![](assets/cond-format-2-350x171.png)
+   ![Villkorsstyrd formatering](assets/cond-format-2-350x171.png)
 
 1. Klicka på **Spara**.
 1. Klicka på **Spara + Stäng**.

@@ -7,9 +7,9 @@ description: Du kan bara gruppera efter värdet i ett anpassat fält med flera v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Så här grupperar du ett anpassat fält i en rapport efter flera val:
    <pre>
    group.0.displayName=Flera val, eget fältnamn
    group.0.valueexpression={DE:Multi-select Custom Field Name}
-   group.0.valueFormat=HTML
+   group.0.valueformat=HTML
    group.0.textmode=true
    </pre>
 
@@ -109,7 +109,7 @@ Så här grupperar du ett anpassat fält i en rapport efter flera val:
 
    Objekten i rapporten grupperas efter värdena i det anpassade fältet med flera val.
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![Gruppera mitt flervalsfält](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    Namnet på rapportens grupperingar är namnen på det anpassade fältet med flera val följt av de värden som är markerade i fältet.
 

@@ -4,9 +4,9 @@ description: Konfigurera cirkelvisualisering i rapportarbetsytan
 hidefromtoc: true
 hide: true
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 1. Börja med att lägga till ett visualiseringsblock med visualiseringstypen **Cirkel** i en rapport, vilket förklaras i [Lägg till eller redigera ett visualiseringsblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Klicka på ikonen Redigera visualisering ![](assets/edit-icon.png) i det övre högra hörnet av visualiseringen och gör sedan något av följande.
+1. Klicka på ikonen Redigera visualisering ![Ikonen Redigera](assets/edit-icon.png) i det övre högra hörnet av visualiseringen och gör sedan något av följande.
 
    1. På fliken **Inställningar**:
 

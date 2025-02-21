@@ -6,9 +6,9 @@ description: Du kan kopiera en kontrollpanel och allt dess innehåll (rapporter,
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Dashboards]**.
 
-1. Markera den instrumentpanel som du vill kopiera och klicka sedan på **Kopiera** ![](assets/copy-icon.png).\
+1. Markera den kontrollpanel som du vill kopiera och klicka sedan på ikonen **Kopiera** ![Kopiera](assets/copy-icon.png).\
    eller\
    Öppna den instrumentpanel som du vill kopiera och klicka sedan på **Instrumentpanelsåtgärder** > **Kopiera**.\
    Dialogrutan Kopiera kontrollpanel visas. Alla objekt på den ursprungliga instrumentpanelen visas.

@@ -4,9 +4,9 @@ description: Exportera en rapport i Reporting Canvas
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 ## Exportera en rapport
 
 1. Navigera till rapporten som du vill exportera.
-1. Klicka på ikonen **Mer** ![](assets/more-icon-27x15.png) i rapportrubriken, klicka på **Exportera** och välj sedan det filformat som du vill skapa.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon-27x15.png) i rapportrubriken, klicka på **Exportera** och välj sedan det filformat som du vill skapa.
 
    >[!NOTE]
    >

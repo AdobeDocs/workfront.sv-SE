@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Rapporter eller listor: visa användare som är associerade med ett objekt'
+title: 'Rapporter eller listor: visa användare som är kopplade till ett objekt'
 description: Du kan visa användare, jobbroller och team som är kopplade till objekt i rapporter eller listor samt referera till dem i filter. Du kan inte gruppera efter användare, jobbroller eller team som är kopplade till objekt.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,8 @@ Du kan visa eller filtrera efter användare, jobbroller eller team som är koppl
    <td>Du kan visa och filtrera efter alla användare, jobbroller och team som har tilldelats ett problem i en problemrapport.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Portfolio</td> 
-   <td>Du kan visa alla användare och de jobbroller de har i projektet i en projektrapport och gruppera rapporten av Portfolio. Du kan inte filtrera efter användare eller deras associerade jobbroller i en projektrapport.</td> 
+   <td role="rowheader">Portföljer</td> 
+   <td>Du kan visa alla användare och de jobbroller de har i projektet i en projektrapport och gruppera rapporten från Portfolio. Du kan inte filtrera efter användare eller deras associerade jobbroller i en projektrapport.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Program</td> 
@@ -55,7 +55,7 @@ Du kan visa eller filtrera efter användare, jobbroller eller team som är koppl
 
 Du kan visa alla användare som är kopplade till projektet i vyn för en projektlista eller rapport. Detta inkluderar alla användare som listas i avsnittet Personer i projektet. I en projektrapport kan du även visa de roller som de är associerade med när de tilldelas aktiviteter eller ärenden i projektet.
 
-![](assets/project-with-user-and-role-information-report-350x100.png)
+![Projekt med användar- och rollinformation](assets/project-with-user-and-role-information-report-350x100.png)
 
 Mer information om hur du skapar en projektrapport för att visa alla användare och deras roller i projektet finns i [Visa: lista över projektanvändare med jobbroller](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
@@ -65,7 +65,7 @@ Du kan inte filtrera efter användare eller jobbroller som är kopplade till pro
 
 Du kan visa alla användare, roller eller team som tilldelats en uppgift i vyn för en uppgiftslista eller rapport genom att lägga till fältet Uppdrag i vyn.
 
-![](assets/assignments-field-task-view-350x124.png)
+![Uppdragsfält](assets/assignments-field-task-view-350x124.png)
 
 Du kan filtrera efter användare, jobbroller eller team som tilldelats uppgifter genom att referera till följande fält i ett uppgiftsfilter:
 
@@ -73,7 +73,7 @@ Du kan filtrera efter användare, jobbroller eller team som tilldelats uppgifter
 * Tilldelningsroller
 * Team
 
-![](assets/assignment-users-roles-task-filter-350x334.png)
+![Tilldelningsanvändare och roller i aktivitetsfiltret](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## Visa alla användare, jobbroller eller team som har tilldelats ett ärende
 
@@ -87,7 +87,7 @@ Du kan filtrera efter användare, jobbroller eller team som har tilldelats ären
 
 ## Visa alla användare och jobbroller som är kopplade till en portfölj
 
-Du kan visa alla användare och roller som är kopplade till en portfölj genom att visa dem i en projektrapport och sedan gruppera rapporten efter Portfolio.
+Du kan visa alla användare och roller som är kopplade till en portfölj genom att visa dem i en projektrapport och sedan gruppera rapporten i Portfolio.
 
 Mer information om hur du skapar en projektrapport för att visa alla användare och deras roller i projektet finns i [Visa: lista över projektanvändare med jobbroller](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 

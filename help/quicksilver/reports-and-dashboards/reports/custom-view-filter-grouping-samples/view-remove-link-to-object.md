@@ -7,9 +7,9 @@ description: Vissa objekt som du visar i en vy länkar till objektets detaljsida
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    eller
 
-   Klicka på ikonen **Redigera** ![](assets/edit-icon.png)
+   Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png)
 
    Om du vill redigera en befintlig vy markerar du vyn.
 

@@ -4,9 +4,9 @@ description: Med webbinnehållsblock kan du visa information från externa webbp
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Lägga till eller redigera ett webbinnehållsblock
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 1. Klicka på **Ny rapport**.
 
    eller
 
-   Gå till en befintlig rapport, klicka på ikonen **Mer** ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
+   Gå till en befintlig rapport, klicka på ikonen **Mer** ![Mer](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
 
 1. Till höger på skärmen, under **Lägg till ett block**, antingen:
 
@@ -41,9 +41,9 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
    >Du kan ändra storleken på blocket efter att det har placerats genom att dra i hörnhandtagen.
 
 1. Klicka på **Namnlöst webbinnehåll** i blockhuvudet och skriv en rubrik för blocket.
-1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i blockhuvudet.
+1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i blockhuvudet.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![Ikonen Redigera i blockhuvudet](assets/web-content-block-header-350x76.png)
 
 1. I panelen **Inställningar** som öppnas anger du den fullständiga URL-adressen för sidan som du vill visa (inklusive &quot;https://&quot;) i fältet **URL**.
 

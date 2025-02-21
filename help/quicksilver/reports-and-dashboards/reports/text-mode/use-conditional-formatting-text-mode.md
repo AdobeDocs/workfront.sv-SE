@@ -6,9 +6,9 @@ description: Använda villkorsstyrd formatering i textläge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -189,10 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Även om den här programsatsen kan användas för en företagsnamnkolumn, kan den även användas för andra kolumner i rapporten. Grön text visas bara om projektet har ett associerat företag. Kom ihåg enheten `[field name]`, `[value]` och `[qualifier]` oavsett om konditioneringen visas i kolumnen eller inte.
 >* När du arbetar med kvalificerare rekommenderar vi att du använder `cicontains` i stället för `equal`. Som standard söker `equal` efter ID-nummer. Med kvalificeraren `cicontains` kan du komma åt objekt efter deras namn.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![Exempel på textläge](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![Exempelresultat för textläge](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Oavsett om Textfärg, Justering, Teckensnittsformat eller Bakgrundsfärg används i ett textläge används samma programsats (se ovan).
 
@@ -297,9 +297,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >Raderna som börjar med `case.0.` använder falljämförelser till att identifiera textanvändning. Raderna som börjar med `styledef.case.0.` är tidiga villkorsstyrda formateringssatser där vi identifierar textanvändning via uttrycket `truetext`. Ange `truetext` till ett värde i stället för att lämna det tomt.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![Använd textexempel](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![Använd textresultat](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Använda radformat {#apply-row-formats}
 
@@ -359,30 +359,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >Observera att uttrycket `icon=true` används i programsatsen. Den här programsatsen skiljer sig också från andra villkorliga formateringssatser eftersom den inte använder formatet `style.def`, utan snarare ett unikt bildformat.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![Ikontextläge](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![Ikontextläge - resultat](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 Om du vill använda de bilder som är tillgängliga använder du följande kod och värden:
 
 | **Ikon** | **Rad: image.case.0.comparison.truetext=** |
 |---|---|
-| Frown Face ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Glad yta ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Blå flagga ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Grön flagga ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Röd flagga ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Gul flagga ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Svart cirkel ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Blå cirkel ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| Grå cirkel ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| Grön cirkel ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| Orange cirkel ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| Rosa cirkel ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Lila cirkel ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Röd cirkel ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| Vit cirkel ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| Gul cirkel ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| Frown Face ![Frown face](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Glad ansikte ![Grattis!](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Blå flagga ![Blå flagga](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Grön flagga ![Grön flagga](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Röd flagga ![Röd flagga](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Gul flagga ![Gul flagga](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Svart cirkel ![Svart cirkel](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Blå cirkel ![Blå cirkel](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| Grå cirkel ![Grå cirkel](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Grön cirkel ![Grön cirkel](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| Orange cirkel ![Orange cirkel](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| Rosa cirkel ![Rosa cirkel](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Lila cirkel ![Lila cirkel](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Röd cirkel ![Röd cirkel](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| Vit cirkel ![Vit cirkel](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| Gul cirkel ![Gul cirkel](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 

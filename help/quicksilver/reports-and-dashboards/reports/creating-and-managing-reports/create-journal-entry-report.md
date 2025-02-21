@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2778'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Den här informationen kan användas för att hjälpa till med revision och för
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Välj journalpost](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
@@ -255,7 +255,7 @@ Den här informationen kan användas för att hjälpa till med revision och för
 
 1. Klicka på **Lägg till en filterregel** på fliken **Filter** och lägg sedan till filterregeln **Fältnamn** > **Lika med** > **status**.
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![Statusfilter för journalpost](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ Så här ser du när en uppgift eller ett problem togs bort:
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Välj journalpost](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
@@ -342,7 +342,7 @@ Så här ser du när en uppgift eller ett problem togs bort:
    * **Projekt-ID** > **Lika med** > **&lt; projektnamn >**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -379,7 +379,7 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Välj journalpost](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
@@ -450,7 +450,7 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
    * **Projekt-ID** > **Lika med** > **&lt; projekt >**.
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![Anpassat formulärändringsfilter](assets/qs-custom-form-changes-filter-350x92.png)
 
    Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -481,7 +481,7 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Välj journalpost](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
@@ -551,7 +551,7 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
    * **Fältnamn** > **Lika med** > **Datum**
    * **Projekt-ID** > **Lika med** > **&lt; projektnamn >**.
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Ändringsfilter för planerat slutförandedatum](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -582,7 +582,7 @@ Du kan ställa in journalanmälningsrapporten för att visa hur många gånger p
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Välj journalpost](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
@@ -640,7 +640,7 @@ Du kan ställa in journalanmälningsrapporten för att visa hur många gånger p
    * **Fältnamn** > **Lika med** > **ownerID**
    * **Projekt-ID** > **Lika med** > **&lt; projektnamn >**.
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![Filter för ägarändring](assets/qs-owner-changes-filter-350x94.png)
 
    Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

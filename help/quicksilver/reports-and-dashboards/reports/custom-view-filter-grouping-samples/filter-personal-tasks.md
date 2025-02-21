@@ -7,9 +7,9 @@ description: Aktivitetsfiltret returnerar tillfälliga arbetsbegäranden som ski
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Ad hoc-arbetsbegäranden och att göra-objekt sparas i Adobe Workfront som perso
 
 Personliga uppgifter är inte kopplade till ett projekt, men de kan flyttas till ett projekt om det behövs. Mer information finns i [Skapa personliga uppgifter](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
-![](assets/personal-tasks-report.png)
+![Rapport om personliga uppgifter](assets/personal-tasks-report.png)
 
 ## Åtkomstkrav
 

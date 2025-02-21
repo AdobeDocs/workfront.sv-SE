@@ -6,9 +6,9 @@ description: Adobe Workfront har en omfattande lista över inbyggda rapporter so
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2970'
 ht-degree: 0%
 
 ---
@@ -82,20 +82,20 @@ Följande rapporter innehåller Workfront-paketet. Rapporterna är tillgängliga
  </thead> 
  <tbody> 
   <tr> 
-   <td>Faktisk kostnad per program för Portfolio</td> 
-   <td>En projektrapport som visar projektens planerade kostnad och faktiska kostnad. Rapporten grupperas efter programnamn, visas med Portfolio Name och innehåller ett diagram.</td> 
+   <td>Faktisk Portfolio-kostnad per program</td> 
+   <td>En projektrapport som visar projektens planerade kostnad och faktiska kostnad. Rapporten grupperas efter programnamn, vilket efterfrågas av Portfolio Name, och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Faktisk Portfolio kostnad per projekt</td> 
-   <td>En projektrapport som visar projektens planerade kostnad och faktiska kostnad. Rapporten grupperas efter projektnamn, visas med namnet på Portfolio och innehåller ett diagram.</td> 
+   <td>Faktisk Portfolio-kostnad per projekt</td> 
+   <td>En projektrapport som visar projektens planerade kostnad och faktiska kostnad. Rapporten grupperas efter projektnamn, som efterfrågas av Portfolio Name, och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
    <td>Faktisk omsättning för Portfolio per program</td> 
-   <td>En projektrapport som visar projektens planerade intäkter och faktiska intäkter. Rapporten grupperas efter programnamn, visas med Portfolio Name och innehåller ett diagram.</td> 
+   <td>En projektrapport som visar projektens planerade intäkter och faktiska intäkter. Rapporten grupperas efter programnamn, vilket efterfrågas av Portfolio Name, och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Faktisk omsättning för Portfolio per projekt</td> 
-   <td>En projektrapport som visar projektens planerade intäkter och faktiska intäkter. Rapporten grupperas efter projektnamn, visas med namnet på Portfolio och innehåller ett diagram.</td> 
+   <td>Faktisk Portfolio-intäkt per projekt</td> 
+   <td>En projektrapport som visar projektens planerade intäkter och faktiska intäkter. Rapporten grupperas efter projektnamn, som efterfrågas av Portfolio Name, och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
    <td>Faktisk intäkt per företag</td> 
@@ -162,19 +162,19 @@ Följande rapporter innehåller Workfront-paketet. Rapporterna är tillgängliga
    <td>En matrisproblemrapport som visar status för problem i aktuella projekt och projektnamnet. Rapporten grupperas efter projektnamn och status för problemen.</td> 
   </tr> 
   <tr> 
-   <td>Arbete kontra utgift per Portfolio</td> 
+   <td>Arbete kontra utgifter från Portfolio</td> 
    <td>En projektrapport som visar projektens Planerad arbetskostnad, Faktisk arbetskostnad, Planerad utgiftskostnad och Faktisk utgiftskostnad. Rapporten grupperas efter Portfolio Name och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
    <td>Arbete kontra kostnader per program</td> 
-   <td>En projektrapport som visar projektens Planerad arbetskostnad, Faktisk arbetskostnad, Planerad utgiftskostnad och Faktisk utgiftskostnad. Rapporten är grupperad efter namn på Portfolio och programnamn och innehåller ett diagram.</td> 
+   <td>En projektrapport som visar projektens Planerad arbetskostnad, Faktisk arbetskostnad, Planerad utgiftskostnad och Faktisk utgiftskostnad. Rapporten grupperas efter Portfolio namn och programnamn och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Månadskostnad Portfolio jämfört med Faktisk per projekt</td> 
+   <td>Månadskostnad för Portfolio jämfört med Faktisk per projekt</td> 
    <td>En matrisprojektrapport (ekonomiska data) som visar datum för allokering, total planerad kostnad, total faktisk kostnad och total kostnadsvariation för projekten. Rapporten grupperas efter projektnamn, kvartal och månad för allokeringsdatumet.</td> 
   </tr> 
   <tr> 
-   <td>Planerade intäkter per månad Portfolio kontra faktiska intäkter per projekt</td> 
+   <td>Månadsplanerade intäkter för Portfolio kontra faktiska intäkter per projekt</td> 
    <td>En matrisprojektrapport (ekonomiska data) som visar projektens fördelningsdatum, totala planerade intäkter, totala faktiska intäkter och totala intäktsvariation. Rapporten grupperas efter projektnamn, kvartal och månad för allokeringsdatumet.</td> 
   </tr> 
   <tr> 
@@ -198,8 +198,8 @@ Följande rapporter innehåller Workfront-paketet. Rapporterna är tillgängliga
    <td>En problemrapport som visar ofullständiga problem som tilldelats den användare som är inloggad. Rapporten innehåller följande fält: Source-namn, Ärendetyp, Primär tilldelad, Införseldatum, Status och Prioritet för problemen.</td> 
   </tr> 
   <tr> 
-   <td>Min Portfolio</td> 
-   <td>En Portfolio-rapport som visar aktiv Portfolio där den inloggade användaren är Portfolio Manager.</td> 
+   <td>Mina portföljer</td> 
+   <td>En Portfolio-rapport som visar aktiva portföljer där den inloggade användaren är Portfolio Manager.</td> 
   </tr> 
   <tr> 
    <td>Mina program</td> 
@@ -242,7 +242,7 @@ Följande rapporter innehåller Workfront-paketet. Rapporterna är tillgängliga
    <td>En tidrapportrapport som visar öppna tidrapporter. Rapporten innehåller följande fält: Datumintervall, Ägare, Totalt antal timmar, Övertid, Godkännarens namn, Status för tidrapporterna. Rapporten visas av: Startdatum för tidrapport, Slutdatum för tidrapport, Godkännarnamn för tidrapport och Användarnamn.</td> 
   </tr> 
   <tr> 
-   <td>Över budgetprojekt per Portfolio</td> 
+   <td>Över budgeterade projekt per Portfolio</td> 
    <td>En projektrapport som visar projektens planerade kostnad och faktiska kostnad. Rapporten grupperas efter Portfolio Name.</td> 
   </tr> 
   <tr> 
@@ -250,20 +250,20 @@ Följande rapporter innehåller Workfront-paketet. Rapporterna är tillgängliga
    <td>En projektrapport som visar projektens planerade kostnad och faktiska kostnad. Rapporten visas av Portfolio Name, grupperad efter Program Name, och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Planerad kostnad för Portfolio per projekt</td> 
-   <td>En projektrapport som visar projektens planerade kostnad och faktiska kostnad. Rapporten visas av Portfolio Name, grupperad efter projektnamn, och innehåller ett diagram.</td> 
+   <td>Planerad Portfolio-kostnad per projekt</td> 
+   <td>En projektrapport som visar projektens planerade kostnad och faktiska kostnad. Rapporten visas av Portfolio Name, grupperad efter Project Name, och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
    <td>Planerade Portfolio-intäkter per program</td> 
    <td>En projektrapport som visar projektens planerade intäkter och faktiska intäkter. Rapporten visas av Portfolio Name, grupperad efter Program Name, och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Planerade intäkter för Portfolio per projekt</td> 
-   <td>En projektrapport som visar projektens planerade intäkter och faktiska intäkter. Rapporten visas av Portfolio Name, grupperad efter projektnamn, och innehåller ett diagram.</td> 
+   <td>Planerade Portfolio-intäkter per projekt</td> 
+   <td>En projektrapport som visar projektens planerade intäkter och faktiska intäkter. Rapporten visas av Portfolio Name, grupperad efter Project Name, och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Planerade kontra faktiska kostnader per Portfolio</td> 
-   <td>En projektrapport som visar planerad kostnad och faktisk kostnad för projekten per Portfolio. Rapporten grupperas efter Portfolio Name och innehåller ett diagram.</td> 
+   <td>Planerade kontra faktiska kostnader av Portfolio</td> 
+   <td>En projektrapport som visar planerad kostnad och faktisk kostnad för projekt av Portfolio. Rapporten grupperas efter Portfolio Name och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
    <td>Planerade kontra faktiska kostnader per program</td> 
@@ -278,32 +278,32 @@ Följande rapporter innehåller Workfront-paketet. Rapporterna är tillgängliga
    <td>En projektrapport som visar projektens planerade intäkter och faktiska intäkter. Rapporten grupperas efter programnamn och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Portfolio kostnad grupperade efter program och månad</td> 
-   <td>En matrisprojektrapport som visar projektens Planerad kostnad, Budgeterad kostnad och Faktisk kostnad. Rapporten grupperas efter Portfolio namn, programnamn och månad för det planerade startdatumet för projekten.</td> 
+   <td>Portfolio-kostnader grupperade efter program och månad</td> 
+   <td>En matrisprojektrapport som visar projektens Planerad kostnad, Budgeterad kostnad och Faktisk kostnad. Rapporten grupperas efter Portfolio namn, programnamn och månaden för det planerade startdatumet för projekten.</td> 
   </tr> 
   <tr> 
-   <td>Portfolio-projekt efter status grupperade efter program</td> 
+   <td>Portfolio-projekt efter status grupperat efter program</td> 
    <td>En projektrapport som visar status för projekten. Rapporten grupperas efter programnamn och projektstatus och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
    <td>Portfolio-projekt grupperade efter status och Portfolio</td> 
-   <td>En projektrapport som visar Portfolio namn och status för projekten. Rapporten grupperas efter Portfolio namn och status för projekten och innehåller ett diagram.</td> 
+   <td>En projektrapport som visar Portfolio-namn och status för projekten. Rapporten grupperas efter Portfolio-namn och projektstatus och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Inkomster från Portfolio per program</td> 
-   <td>En projektrapport som visar Portfolio namn, programnamn, planerade intäkter och faktiska intäkter för projekten. Rapporten grupperas efter namn på Portfolio och programnamn och innehåller ett diagram.</td> 
+   <td>Portfolio intäkt per program</td> 
+   <td>En projektrapport som visar Portfolio namn, programnamn, planerade intäkter och faktiska intäkter för projekten. Rapporten grupperas efter Portfolio-namn och programnamn och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
-   <td>Portfolio Inkomster grupperade efter program och månad</td> 
-   <td>En matrisprojektrapport som visar Planerad intäkt, Faktisk intäkt, Namn på Portfolio och Programnamn. Rapporten grupperas efter Portfolio namn, programnamn och månad för det planerade startdatumet för projekten.</td> 
+   <td>Portfolio Intäkter grupperade efter program och månad</td> 
+   <td>En matrisprojektrapport som visar Planerad intäkt, Faktisk intäkt, Portfolio namn och Programnamn. Rapporten grupperas efter Portfolio namn, programnamn och månad för det planerade startdatumet för projekten.</td> 
   </tr> 
   <tr> 
    <td>Projektkostnader och intäkter per aktivitetsstatus</td> 
    <td>En matrisaktivitetsrapport som visar aktiviteternas Planerad kostnad, Faktisk kostnad, Planerad intäkt, Faktisk intäkt och Projektnamn. Rapporten grupperas efter projektnamn och status för aktiviteterna.</td> 
   </tr> 
   <tr> 
-   <td>Projektkostnader kontra intäkter per Portfolio</td> 
-   <td>En projektrapport som visar Portfolio namn, faktisk kostnad och faktisk intäkt för projekten. Rapporten grupperas efter Portfolio Name och innehåller ett diagram.</td> 
+   <td>Projektkostnader kontra intäkter från Portfolio</td> 
+   <td>En projektrapport som visar Portfolio-namn, faktisk kostnad och faktisk intäkt för projekten. Rapporten grupperas efter Portfolio Name och innehåller ett diagram.</td> 
   </tr> 
   <tr> 
    <td>Projektutgifter per månad och kvartal</td> 
@@ -383,7 +383,7 @@ Följande rapporter innehåller Workfront-paketet. Rapporterna är tillgängliga
 1. Välj **Global ID** under objektet **Rapport**.
 
 1. Välj **Är inte tom** i listrutan för filtermodifieraren.\
-   ![](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![Filtret Globalt ID för systemrapporter](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Klicka på **Spara filter**.\
    I rapportlistan visas endast inbyggda rapporter.\

@@ -6,9 +6,9 @@ description: Du kan ge åtkomst till den information din organisation behöver i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -24,41 +24,40 @@ Mer information om inbyggda rapporter finns i [Använda inbyggda Adobe Workfront
 
 Mer information om hur du skapar en rapport genom att kopiera den finns i [Skapa en kopia av en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Mer information om hur du skapar och hanterar rapporter, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League webbplats.
+Mer information om hur du skapar och hanterar rapporter, inklusive klasser, videoklipp och självstudiekurser, finns i avsnittet Lär dig på Adobe Experience League-webbplatsen.
 
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Nytt: Standard </p>
    eller
    <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p><b>ANMÄRKNING</b></p>
-   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Du får behörigheten Hantera för de rapporter du skapar.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Du får behörigheten Hantera för de rapporter du skapar.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,11 +71,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Mer information om tillgängliga objektrapporter finns i avsnittet [Rapport om objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![Välj ny rapport](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >Du kan också skapa en rapport genom att skapa en kopia av en befintlig rapport. Mer information finns i [Skapa en kopia av en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+1. (Valfritt) Om du vill redigera titeln för den nya rapporten anger du önskad rapportrubrik i textfältet i det övre vänstra hörnet av rapportverktyget. Vi rekommenderar att du endast använder UTF-8-tecken för att undvika kompatibilitetsproblem.
 
 1. Lägg till följande i rapporten i Report Builder:
 
@@ -126,11 +127,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Om du vill ändra en befintlig kolumn klickar du på kolumnen, klickar på ikonen **Ta bort** ![](assets/remove-column-icon.png) till höger om det aktuella fältet i området **Visa i det här kolumnfältet** i det övre vänstra hörnet i rapportbyggaren och börjar skriva ett nytt fält och klickar sedan på det när det visas i listan.
+   Om du vill ändra en befintlig kolumn klickar du på kolumnen, klickar på ikonen **Ta bort** ![Ta bort kolumn-ikonen](assets/remove-column-icon.png) till höger om det aktuella fältet i området **Visa i det här kolumnfältet** i det övre vänstra hörnet i rapportverktyget och börjar skriva ett nytt fält och klickar sedan på det när det visas i listan.
 
    Mer information om fälten som visas i kolumnerna finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![Lägg till kolumntyphuvud](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Valfritt) I området **Kolumninställningar** väljer du **Sortera efter den här kolumnen** för att sortera värdena i kolumnen i stigande alfabetisk ordning och anger sedan om listan ska använda den här kolumnen som första sortering.
 
@@ -202,7 +203,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Välj **Använd en befintlig gruppering** om du vill välja en befintlig gruppering när den visas i listan.
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![Lägg till gruppering](assets/nwe-add-grouping-350x230.png)
 
 1. Börja skriva det fält som du vill lägga till som en gruppering. Om fältet är tillgängligt fylls det i för varje objekt där det kan kopplas. Klicka på fältets namn för att lägga till det i den grupperingen.
 1. (Valfritt) Du kan välja att skapa en gruppering i textläge genom att klicka på **Växla till textläge**. Mer information om hur du använder textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
@@ -234,7 +235,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    eller\
    Välj **Använd ett befintligt filter** om du vill använda ett befintligt filter.
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![Lägg till ett filter](assets/nwe-add-a-filter-350x93.png)
 
 1. Om du klickade på **Lägg till en filterregel** börjar du skriva det fält som du vill lägga till som ett filter. Om fältet är tillgängligt fylls det i för varje objekt där det kan kopplas. Klicka på namnet på fältet för att lägga till det i det filtret.\
    Använd filtermodifierare för att skapa filtret. Mer information om filtermodifierare finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -254,7 +255,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Börja skapa en rapport enligt beskrivningen i avsnittet [Skapa en rapport](#create-a-report) i den här artikeln.
 1. Välj fliken **Diagram** i Report Builder och välj sedan den typ av diagram som du vill lägga till.
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![Lägg till ett diagram](assets/nwe-add-a-chart-350x247.png)
 
    Mer information om hur du skapar ett diagram i en rapport finns i [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: Visa information om program och Portfolio i en uppgiftsvy'
+title: 'Visa: Visa program- och Portfolio-information i en uppgiftsvy'
 description: I den här uppgiftsvyn visas programmet och Portfolio som är associerade med aktivitetens projekt. Den här informationen är inte tillgänglig i Report Builder när en uppgiftsvy skapas. Den här informationen är bara tillgänglig i textläge.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 I den här uppgiftsvyn visas programmet och Portfolio som är associerade med aktivitetens projekt. Den här informationen är inte tillgänglig i Report Builder när en uppgiftsvy skapas. Den här informationen är bara tillgänglig i textläge.
 
-Vyn innehåller även länkar till projekt, program och Portfolio från en uppgiftslista.
+Vyn innehåller även länkar till Project, Program och Portfolio från en uppgiftslista.
 
-![](assets/view--program-and-portfolio-350x116.png)
+![Visa program och portfölj](assets/view--program-and-portfolio-350x116.png)
 
 ## Åtkomstkrav
 

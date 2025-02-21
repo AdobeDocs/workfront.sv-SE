@@ -4,9 +4,9 @@ description: Konfigurera en tabellkolumn i rapportarbetsytan
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Ändra kolumner i en tabell
 
-1. Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
-1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) på tabellrubriken i rapporten.
+1. Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![Mer ](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
+1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) på tabellrubriken i rapporten.
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Ikonen Redigera i tabellrubriken](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

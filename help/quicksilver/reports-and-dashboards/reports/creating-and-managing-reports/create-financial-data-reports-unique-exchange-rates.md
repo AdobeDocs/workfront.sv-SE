@@ -6,9 +6,9 @@ description: Om flera valutakurser har konfigurerats i Adobe Workfront kan du an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ Så här visar du två projekt med anpassade valutor i en rapport:
 
 1. Skapa två projekt med olika valutor.
 
-   ![](assets/qs-currency-350x217.png)
+   ![Valuta](assets/qs-currency-350x217.png)
 
 1. Logga timmar i båda projekten.
 
    Mer information om loggningstid finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Rapportering**.
 1. Klicka på **Ny rapport** och sedan på **Projektrapport**.
 1. Lägg till en **faktisk kostnad**-kolumn på fliken **Kolumner (Visa)** och sammanfatta den med **Summa**.
 
@@ -182,6 +182,6 @@ Så här redigerar du ett ekonomiskt fält i en rapport:
 1. Klicka på **Rapportinställningar**.
 1. Klicka på listrutan **Standardvaluta** och välj sedan **Projektets ursprungliga valuta**.
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![Standardvaluta](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Klicka på **Klar**.

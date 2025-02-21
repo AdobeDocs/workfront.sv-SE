@@ -6,9 +6,9 @@ description: Som standard kan användare bara se de objekt i en rapport som de h
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Så här kör du en rapport med åtkomsträttigheter för en annan användare:
 1. Klicka på **Rapportinställningar**.
 
 1. I fältet **Kör den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som och markerar den när du ser den i listan.\
-   ![](assets/unshimmed-access-rights-of.png)
+   ![Kör med åtkomsträttigheterna ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Du kan konfigurera rapporter som ska levereras som bilagor till ett e-postmeddel
 
 Så här skickar du en rapport med åtkomsträttigheter för en annan användare:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
 
 1. Välj den rapport som du vill leverera med en annan användares åtkomstbehörighet.
 1. Klicka på rapportens namn för att markera den.
@@ -116,7 +116,7 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
 1. Klicka på **Skicka rapport**.
 
 1. I fältet **Leverera den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som när den levereras i ett e-postmeddelande och markerar den när du ser den i listan. Standardvärdet är namnet på den användare som skapar rapporten.\
-   ![](assets/unshimmed-send-report-access-rights-of.png)
+   ![En rapport har skickats med åtkomsträttigheterna ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

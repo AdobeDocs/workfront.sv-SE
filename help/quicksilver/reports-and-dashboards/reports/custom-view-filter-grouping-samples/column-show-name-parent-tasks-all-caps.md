@@ -7,9 +7,9 @@ description: Du kan lägga till den här kolumnen i en uppgiftsvy om du vill vis
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Du kan lägga till den här kolumnen i en uppgiftsvy om du vill visa namnet på den överordnade uppgiften med versaler.
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+![Kolumn med överordnad aktivitet i endast versaler](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Åtkomstkrav
 
@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Så här skapar du den här kolumnen i en uppgiftsvy:
 
 1. Gå till en lista med uppgifter.
-1. Välj en vy i listrutan **Visa** och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Välj en vy i listrutan **Visa** och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 eller\
    Välj **Ny vy** i listrutan **Visa**.
 

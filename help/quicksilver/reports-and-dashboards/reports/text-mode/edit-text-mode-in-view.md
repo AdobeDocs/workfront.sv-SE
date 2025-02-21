@@ -6,9 +6,9 @@ description: Du kan redigera en vy i en lista eller rapport i textläge för att
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 1. Gör något av följande:
 
    1. Gå till rapporten och klicka sedan på **Rapportåtgärder** > **Redigera** > **Kolumner (vy)** för att få åtkomst till vyn från en rapport.
-   1. Om du vill få åtkomst till vyn från en lista går du till listan och från listrutan **Visa** håller du musen över den vy du vill ändra och klickar på ikonen **Redigera** ![](assets/edit-icon.png) .
+   1. Om du vill få åtkomst till vyn från en lista går du till listan och från listrutan **Visa** håller du musen över den vy du vill ändra och klickar på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
       Vyverktyget öppnas.
 

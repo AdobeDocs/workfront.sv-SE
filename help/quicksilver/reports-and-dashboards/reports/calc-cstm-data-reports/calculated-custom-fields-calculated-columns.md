@@ -7,9 +7,9 @@ description: Om du vill samla flera fält i Adobe Workfront och visa det sammanl
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Mer information om syntaxen som du måste använda i en beräknad anpassad kolum
 
 ## Åtgärder som utlöser uppdateringen av ett beräknat anpassat fält
 
-* På ett objekts huvudsida klickar du på ikonen Mer ![](assets/more-icon.png) och sedan på **Beräkna om uttryck**
+* På ett objekts huvudsida klickar du på ikonen Mer ![Mer](assets/more-icon.png) och sedan på **Beräkna om uttryck**
 
 * Redigera flera objekt gruppvis när **Beräkna om anpassade uttryck** är aktiverat
 * Redigera ett anpassat formulär när **Uppdatera tidigare beräkningar** är aktiverat för det beräknade anpassade fältet

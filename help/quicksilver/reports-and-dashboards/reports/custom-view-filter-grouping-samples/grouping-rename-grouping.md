@@ -7,9 +7,9 @@ description: Du kan ändra namn på grupperingar i listor och rapporter till nå
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 Du kan byta namn på grupperingar till något som är mer välbekant för användarna.
 
-Om du till exempel använder standardgrupperingen för Portfolio-namn på en lista med projekt, visas grupperingens namn som *Portfolio: Namn:`<name of portfolio>`*.
+Om du till exempel använder standardgrupperingen för Portfolio-namn på en lista med projekt visas grupperingens namn som *Portfolio: Namn:`<name of portfolio>`*.
 
-![](assets/grouping-unedited-name-350x167.png)
+![Gruppering efter oredigerat namn](assets/grouping-unedited-name-350x167.png)
 
 Du kan ändra den här grupperingen i textläge om du vill visa ett namn som är enklare att läsa.
 
-![](assets/grouping-edited-name-350x160.png)
+![Gruppera efter redigerat namn](assets/grouping-edited-name-350x160.png)
 
 ## Åtkomstkrav
 
@@ -75,7 +75,7 @@ Så här ändrar du visningsnamnet i en projektgruppering:
 1. Gå till en lista med projekt.
 1. Välj **Ny gruppering** i listrutan **Gruppering**.
 
-1. Klicka på **Lägg till gruppering** och börja skriva &quot;Portfolio-namn&quot; i fältet **Gruppera efter:**. Markera grupperingen när den visas i listan.
+1. Klicka på **Lägg till gruppering** och börja skriva &quot;Portfolio-namn&quot; i fältet **Gruppera efter:**. Markera sedan grupperingen när den visas i listan.
 
 1. Klicka på **Växla till textläge**.
 1. Gör något av följande:
@@ -86,7 +86,7 @@ Så här ändrar du visningsnamnet i en projektgruppering:
      `group.0.displayname=Your Value`
 
 
-     Lägg till exempel till följande kod för att ändra visningsnamnet till &quot;Portfolio&quot;:
+     Lägg till exempel till följande kod för att ändra visningsnamnet till&quot;Portfolio&quot;:
 
      `group.0.displayname=Portfolio`
 
@@ -94,7 +94,7 @@ Så här ändrar du visningsnamnet i en projektgruppering:
 
      `group.0.name=Your Value`
 
-     Lägg till exempel till följande kod för att ändra visningsnamnet till &quot;Portfolio&quot;:
+     Lägg till exempel till följande kod för att ändra visningsnamnet till&quot;Portfolio&quot;:
 
      `group.0.name=Portfolio`
 
@@ -103,7 +103,7 @@ Så här ändrar du visningsnamnet i en projektgruppering:
      >Du kan också lämna `group.0.name=`- och `group.0.displayname=`-raderna tomma. I så fall visar grupperingen det värde som du grupperar efter.
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![Gruppering efter redigerat namn utan namn](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Klicka på **Klar** och sedan på **Spara gruppering**.
 1. (Valfritt) Uppdatera grupperingsnamnet och klicka sedan på **Spara gruppering**.

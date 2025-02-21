@@ -6,9 +6,9 @@ description: Du kan använda rapporter i Adobe Workfront för att granska eller 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Så här får du åtkomst till rapporter som du har skapat eller som har delats med dig eller delats offentligt:
 
-1. Klicka på **Rapporter** på **huvudmenyn** ![](assets/main-menu-icon.png).
+1. Klicka på **Rapporter** på **Huvudmenyn** ![Huvudmenyikonen](assets/main-menu-icon.png).
 
 1. Klicka på något av följande alternativ, beroende på vilken rapport du vill visa:
 
@@ -67,10 +67,10 @@ Du kan använda mappar för att ordna de rapporter som du skapar. Du kan inte or
 
 ### Skapa en ny mapp för rapporter {#create-a-new-folder-for-reports}
 
-1. Klicka på **Rapporter** på **huvudmenyn** ![](assets/main-menu-icon.png).
+1. Klicka på **Rapporter** på **Huvudmenyn** ![Huvudmenyikonen](assets/main-menu-icon.png).
 
 1. Klicka på ikonen **Ny mapp** .\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![Ikon för ny mapp](assets/nwe-new-folder-350x346.png)
 
 1. Ange ett namn för den nya mappen och tryck sedan på Retur.
 1. Lägg till rapporter i den nya mappen från mappen **Mina rapporter**.\
@@ -82,7 +82,7 @@ Du kan använda mappar för att ordna de rapporter som du skapar. Du kan inte or
 
 ### Lägga till rapporter i en mapp {#add-reports-to-a-folder}
 
-1. Klicka på **Rapporter** på **huvudmenyn** ![](assets/main-menu-icon.png).
+1. Klicka på **Rapporter** på **Huvudmenyn** ![Huvudmenyikonen](assets/main-menu-icon.png).
 
 1. Klicka på **Mina rapporter**.\
    eller\
@@ -94,4 +94,4 @@ Du kan använda mappar för att ordna de rapporter som du skapar. Du kan inte or
    >
    >Du kan bara flytta rapporter från mappen **Mina rapporter** till andra mappar som är kapslade under **Mina rapporter**. Du kan inte flytta rapporter från eller till mappen **Delade med mig** eller **Alla rapporter** till eller från andra mappar.
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![Dra rapporten till mappen](assets/nwe-drag-report-to-folder-350x292.png)

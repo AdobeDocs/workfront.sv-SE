@@ -2,14 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 'Filter: Korrekturgodkännanderapport för att utelämna tidigare korrekturversioner'
+title: 'Filter: Korrekturgodkännanderapport som utelämnar tidigare korrekturversioner'
 description: I en korrekturgranskningsrapport kan du använda filtret Är aktuell dokumentversion för att endast inkludera de aktuella versionerna av korrektur som väntar på ditt godkännande.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Du kan skapa ett filter för en korrekturgodkännanderapport.
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Om du vill skapa en egen korrekturinställningsrapport klickar du på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig, och klickar sedan på **Rapporter** ![](assets/reports-in-main-menu.png) .
+   Om du vill skapa en egen korrekturinställningsrapport klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om en sådan finns, och klickar sedan på ikonen **Rapporter** ![Rapporter](assets/reports-in-main-menu.png) .
 
 1. Klicka på **Ny rapport**. Listan med objekttyper visas.
 1. Klicka på **Korrektur på godkännande** i listan.

@@ -7,9 +7,9 @@ description: Aktivitetsvyn liknar vyn Alla datum som finns i ditt Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Den här vyn representerar ett exempel på beräknade kolumner, där du kan häm
 
 Mer information om hur du använder beräkningar i en vy finns i avsnittet [Översikt över vanliga användningsområden för textläge](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) i  [Översikt över vanliga användningsområden för textläge](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![](assets/view-task-with-all-dates-variance.png)
+![Visa aktivitet med alla datum](assets/view-task-with-all-dates-variance.png)
 
 ## Åtkomstkrav
 

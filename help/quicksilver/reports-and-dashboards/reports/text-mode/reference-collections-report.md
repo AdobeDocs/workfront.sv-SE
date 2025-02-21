@@ -6,9 +6,9 @@ description: Referenssamlingar i en rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Vyn visar uppgifter eller ärenden i ett listformat, där varje rad i listan rep
 
 Så här lägger du till en samlingskolumn i en rapportvy:
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport**.
 1. Markera rapportens objekt.
 1. Gå bort från rapporten och använd [API Explorer](../../../wf-api/general/api-explorer.md) för att avgöra vilka samlingar som är tillgängliga för det objekt som du har valt för rapporten.
@@ -236,7 +236,7 @@ Så här lägger du till en samlingskolumn i en rapportvy:
 
 1. Följande kolumn visas i projektrapporten med alla uppgifter i varje projekt tillsammans med de primära tilldelningarna:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![Projektrapport med uppgift och tilldelad samling](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Klicka på **Spara**.
 1. (Valfritt) Fortsätt redigera rapporten.
@@ -309,7 +309,7 @@ Du kan t.ex. filtrera efter uppgifter eller ärenden i en projektrapport genom a
 
 Så här lägger du till en referens till en samling i ett rapportfilter:
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport**.
 1. Markera rapportens objekt.
 1. Gå bort från rapporten och använd [API Explorer](../../../wf-api/general/api-explorer.md) för att avgöra vilka samlingar som är tillgängliga för det objekt som du har valt för rapporten.
@@ -350,7 +350,7 @@ Så här lägger du till en referens till en samling i ett rapportfilter:
 
    Den här rapporten visar endast projekt som har minst en aktivitet med ordet&quot;marknadsföring&quot; i namnet.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Marknadsföring av endast aktiviteter i projektet](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Använd följande kod om du vill filtrera efter namnet på ett problem:
 
@@ -386,7 +386,7 @@ Mer information om hur du skapar en filtersats med en samlingsreferens finns i a
 
 Så här lägger du till en referens till en samling i den anpassade uppmaningen för en rapport:
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport**.
 1. Markera rapportens objekt.
 1. Skapa ett filter med en samlingsreferens enligt beskrivningen i avsnittet [Referera en samling i filtret för en rapport](#reference-a-collection-in-the-filter-of-a-report) i den här artikeln.

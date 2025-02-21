@@ -6,9 +6,9 @@ description: Du kan bädda in en extern webbsida i en instrumentpanel för att g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 >[!IMPORTANT]
 >
 >* Av säkerhetsskäl kan du på vissa webbplatser inte bädda in webbsidor som en iframe. Om den webbsida som du vill bädda in i en instrumentpanel inte tillåter detta visas inte sidan i instrumentpanelen. Du kan dock fortfarande komma åt den externa sidan genom att klicka på instrumentpanelens namn.\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![Tom rapport för extern sida](assets/qs-empty-external-page-report-350x165.png)\
 >Om du vill tillåta inbäddning för en webbplats som du äger kan du tillsammans med webbadministratören justera inställningen **X-Frame-Options** . Mer information finns i [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -118,7 +118,7 @@ eller\
 
 1. Klicka på **Lägg till extern sida** under området **Välj layout/Lägg till rapporter/Lägg till kalendrar**.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![Lägg till extern sida](assets/qs-add-external-page-350x239.png)
 
    Rutan **Lägg till extern sida** visas.
 
@@ -132,7 +132,7 @@ eller\
 
       * En https (krypterad) URL till en webbsida.\
         Endast https-sidor (krypterade) läses in med URL-adressen.\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![Dialogrutan Lägg till extern sida](assets/add-external-page-dialog-qs-350x247.png)
 
       * En mall-URL som innehåller sessionsinformation för en specifik webbplats.\
         Till exempel: *https://localhost/?session={!$$SESSION}*
@@ -170,10 +170,10 @@ Så här uppdaterar du informationen för en extern sida som används i en kontr
    Rutan **Information om instrumentpanelen** öppnas.
 
 1. I området **Välj layout/Lägg till rapporter** i rutan **Information om kontrollpanelen** letar du reda på den externa sida som du vill uppdatera, håller pekaren över den och klickar på ikonen **Redigera** .\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![Redigera extern sida infogat](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Uppdatera fälten som du vill ändra i rutan **Redigera extern sida** och klicka sedan på **Spara**.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Klicka på **Spara + Stäng**.
 
 ## Visa externa sidor i en rapport
@@ -184,7 +184,7 @@ Du kan visa alla externa sidor i Workfront i en extern sidrapport.
 
 1. Klicka på **Ny rapport** > välj **Externt avsnitt**.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![Externt avsnitt](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Valfritt) Uppdatera rapportens flikar Visa, Filter eller Grupperingar.
 

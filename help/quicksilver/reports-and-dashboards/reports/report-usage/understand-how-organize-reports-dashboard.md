@@ -7,9 +7,9 @@ description: Du kan se om en rapport har lagts till på en kontrollpanel i Adobe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Så här skapar du en vy med instrumentpanelsinformation för en rapportlista:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
 1. Klicka på listrutan **Visa** i listan med rapporter.
 1. Klicka på **Ny vy**.
 1. Klicka på **Lägg till kolumn**.
@@ -77,13 +77,13 @@ Så här skapar du en vy med instrumentpanelsinformation för en rapportlista:
 
 1. Klicka på **Spara vy**.\
    Kontrollpanelerna som en rapport visas på i kolumnen Kontrollpaneler i rapportlistan.\
-   ![](assets/qs-dashboards-in-report-view.png)
+   ![Kontrollpaneler i rapport](assets/qs-dashboards-in-report-view.png)
 
 ## Filtrera en rapportlista efter instrumentpanelsinformation
 
 Så här filtrerar du en lista över rapporter efter instrumentpanelsinformation:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
 
 1. Klicka på listrutan **Filter** i rapportlistan.
 1. Klicka på **Nytt filter** och sedan på **Lägg till en filterregel**.
@@ -93,7 +93,7 @@ Så här filtrerar du en lista över rapporter efter instrumentpanelsinformation
 1. Välj **Namn** under objektet **Kontrollpaneler**.
 
 1. Välj **Lika med** i listrutan för modifiering och börja sedan skriva namnet på den instrumentpanel som du vill filtrera efter. Du kan välja flera kontrollpaneler för filtret.\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![Kontrollpaneler i rapportfilter](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. Klicka på **Spara + Stäng**.\
    Här visas en lista med rapporter som bara visas på de angivna instrumentpanelerna.\

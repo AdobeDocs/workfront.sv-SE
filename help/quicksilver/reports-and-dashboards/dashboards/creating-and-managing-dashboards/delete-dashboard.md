@@ -6,9 +6,9 @@ description: Om du inte längre använder en kontrollpanel kan du ta bort den fr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Så här tar du bort en kontrollpanel:
 1. Gå till den instrumentpanel som du vill redigera.
 1. Klicka på **Instrumentpanelsåtgärder** och sedan på **Ta bort**.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![Ta bort instrumentpanel](assets/unshimmed-delete-dashboard.png)
 
 1. Bekräfta att du vill ta bort instrumentpanelen genom att klicka på **Ja och sedan ta bort den.**
 Kontrollpanelen tas bort från Workfront.
@@ -84,9 +84,9 @@ Om du tar bort flera kontrollpaneler kan du ta bort kontrollpanelerna från inst
 Så här tar du bort flera instrumentpaneler:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Dashboards]**.
-1. Markera varje instrumentpanel i listan som du vill ta bort och klicka sedan på **Ta bort** ![](assets/delete.png).
+1. Markera varje instrumentpanel i listan som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort](assets/delete.png) .
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![Ta bort instrumentpanel](assets/unshimmed-delete-dashboard-list.png)
 
 1. Bekräfta att du vill ta bort instrumentpanelen genom att klicka på **Ja och sedan ta bort den.**
 Kontrollpanelen tas bort från Workfront.

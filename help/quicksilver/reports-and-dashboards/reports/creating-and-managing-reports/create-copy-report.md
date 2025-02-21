@@ -7,9 +7,9 @@ description: Du kan skapa en kopia av alla rapporter som du har tillgång till. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Om du vill skapa en kopia av en anpassad rapport gör du följande:
 
 Om du vill skapa en kopia av en standardrapport gör du följande:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
 1. Klicka på **Rapporter** och sedan på **Alla rapporter**.
 1. Klicka på namnet på en standardrapport för att öppna den.
@@ -124,6 +124,6 @@ Om du vill skapa en kopia av en standardrapport gör du följande:
 1. Klicka på **Klar**.
 1. Klicka på **Spara som ny rapport**.
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![Spara som ny rapport](assets/unshimmed-save-as-new-report.png)
 
 1. (Valfritt) Om du vill dela den nya versionen av rapporten med andra användare klickar du på **Rapportera åtgärder** och sedan på **Dela**.

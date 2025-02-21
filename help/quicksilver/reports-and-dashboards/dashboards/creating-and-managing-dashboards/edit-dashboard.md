@@ -6,9 +6,9 @@ description: Syftet med kontrollpanelen är att ge snabb åtkomst till informati
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
 1. Gå till den instrumentpanel som du vill redigera.
 1. Klicka på **Instrumentpanelsåtgärder** och sedan på **Redigera**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Redigera instrumentpanel](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >
