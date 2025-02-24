@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 | Team (TEAM) | Grupp<br> |
 | Företag (CMPY) | Företag<br>Åsidosätt frekvens<br>kategori<br>kategoriparameter<br>parameter<br>parametergrupp<br>parameter <br>kategorivisningslogik<br>grupp |
 | Portfolio (PORT) | Portfolio<br>Program<br>Grupp<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
-| Program (PRGM) | Program<br>Portfolio<br>Grupp<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
+| Program (PRGM) | Program<br>Portfolio<br>Group<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
 
 ### Andra konfigurationsobjekt
 
@@ -100,6 +100,7 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 | Åtkomstnivå (ACSLVL) | Åtkomstnivå |
 | Hastighetskort (RTCRD) | Hastighetskort |
 | Plats/klassificerare (CLSF) | Plats/klassificerare |
+| Affärsregler (BSNRUL) | Affärsregler |
 
 \* Inte tillgängligt för tillfället
 
