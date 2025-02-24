@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -132,9 +132,9 @@ Du kan lägga till en miniatyrbild på följande sätt:
 
    Då öppnas posttypssidan.
 1. Välj en tabellvy i listrutan **Visa**. Alla poster av den typ som du har markerat visas i en tabell.
-1. Håll markören över informationen för det primära fältet, klicka på menyn **Mer** ![](assets/more-menu.png) och sedan på **Miniatyrbild**.
+1. Håll markören över informationen för det primära fältet, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Miniatyrbild**.
 
-   ![](assets/record-more-menu-expanded.png)
+   ![Menyn Spela in fler utökad](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ Du kan lägga till en miniatyrbild på följande sätt:
 1. Öppna en post genom att klicka på den i valfri vy.
 
    Förhandsvisningsrutan med information visas.
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flik](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet.
 
    Postens informationssida öppnas.
 
-1. (Villkorligt) Håll markören över miniatyrbilden eller ikonen ![](assets/record-thumbnail-icon-on-details-page.png) på sidan för förhandsgranskning eller information av poster, håll markören över utrymmet ovanför postens namn och klicka sedan på **Lägg till miniatyrbild** eller **Redigera miniatyrbild** .
+1. (Villkorligt) Håll markören över miniatyrbilden eller ikonen ![Postminiatyrbildikonen på informationssidan](assets/record-thumbnail-icon-on-details-page.png) på sidan för förhandsgranskning av post eller på informationssidan, hovra över utrymmet ovanför postnamnet och klicka sedan på **Lägg till miniatyrbild** eller **Redigera miniatyrbild** .
 
    Fliken **Överför** öppnas som standard i rutan **Spela in miniatyrbild**.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![Spela in miniatyrruta för överföring](assets/record-thumbnail-box-for-upload.png)
 
 1. Dra och släpp en fil som du vill lägga till som miniatyrbild
 
@@ -197,12 +197,12 @@ Du kan lägga till en miniatyrbild på följande sätt:
    Klicka på **Bläddra bland bilder** och bläddra sedan efter en bildfil som du vill lägga till. Filen måste sparas på datorn.
 
 1. (Valfritt) När bilden har överförts i rutan **Spela in miniatyrbild** använder du storleksförändringsverktyget för att beskära och ändra storlek på bilden.
-1. (Valfritt) Klicka på ikonen **Överför ny bild** ![](assets/upload-new-image-icon.png) om du vill överföra en annan bild.
+1. (Valfritt) Klicka på ikonen **Överför ny bild** ![Överför ny bild](assets/upload-new-image-icon.png) om du vill överföra en annan bild.
 1. (Valfritt) Klicka på fliken **Galleri** och sedan på en bild. Det går inte att ändra bildgalleriet.
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![Spela in miniatyrruta för galleri](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Valfritt) Om du vill ta bort miniatyrbilden innan den sparas klickar du på ikonen **Ta bort** ![](assets/remove-image-icon.png) till höger om bilden.
+1. (Valfritt) Om du vill ta bort miniatyrbilden innan den sparas klickar du på ikonen **Ta bort** ![Ta bort bildikonen](assets/remove-image-icon.png) till höger om bilden.
 
 1. Klicka på **Använd bild** om du vill lägga till bilden som en miniatyrbild.
 Då stängs rutan **Spela in miniatyrbild**.
@@ -212,7 +212,7 @@ Miniatyrbilden visas i områden i Workfront Planning där posten visas.
    >
    >   Du måste aktivera fältet Miniatyrbilder i tabellvyn om du vill visa miniatyrbilder i den här vyn. Det är inaktiverat som standard.
 
-1. (Valfritt) Om du vill ta bort miniatyrbilden när den har sparats klickar du på en post i valfri vy för att öppna informationssidan, håller pekaren över miniatyrbilden och klickar på **Mer**-menyn ![](assets/more-menu.png)> **Ta bort**-ikonen ![](assets/remove-image-icon.png) . Miniatyrbilden tas bort.
+1. (Valfritt) Om du vill ta bort miniatyrbilden när den har sparats klickar du på en post i valfri vy för att öppna informationssidan, håller pekaren över miniatyrbilden och klickar på **Mer**-menyn ![Mer-menyikonen](assets/more-menu.png)> **Ta bort** -ikonen ![Ta bort-ikonen](assets/remove-image-icon.png) . Miniatyrbilden tas bort.
 
 
 

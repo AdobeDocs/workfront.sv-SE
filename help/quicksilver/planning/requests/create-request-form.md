@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >    * Workfront Planning connected records' lookup fields
    >    * AEM Assets connection fields-->
 
-   * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
+   * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Alla postfält visas i området **Standardavsnitt**.
    * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Det går inte att redigera konfigurationen och värdet för ämnesfältet.
 
      >[!TIP]
@@ -183,6 +183,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. (Valfritt) Håll markören över fält i formuläret som du vill ta bort och klicka sedan på ikonen **x** för att ta bort dem. De läggs till på fliken **Fält** till vänster om formuläret.
 
    Ta till exempel bort fältet **Ämne** eftersom det inte visas i Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. (Valfritt) Så här tar du bort **standardavsnittet** från formuläret:
+
+   1. Ta bort alla fält från standardavsnittet.
+   1. Klicka på **Innehållselement** och lägg till ett nytt avsnitt och lägg sedan till ett namn för avsnittet.
+   1. Lägg till fält i det nya avsnittet.
+   1. Klicka på ikonen **x** för att ta bort **standardavsnittet**.
 1. Klicka på ett fält och använd sedan kontrollerna på den högra panelen i formuläret för att definiera deras storlek eller någon av följande information:
 
    * **Etikett**: Det här är namnet på fältet som det kommer att visas i begärandeformuläret. Detta ändrar inte postfältets namn.
@@ -220,11 +226,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
-1. Klicka på **Publish** för att publicera formuläret och få en unik länk till det.
+1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
    Följande saker händer:
 
-   * Knappen **Publish** har tagits bort.
+   * Knappen **Publicera** har tagits bort.
    * Knappen **Avpublicera** läggs till i formuläret. Om du klickar på den går det inte att komma åt formuläret.
    * En **Dela**-knapp läggs till i formuläret.
 
