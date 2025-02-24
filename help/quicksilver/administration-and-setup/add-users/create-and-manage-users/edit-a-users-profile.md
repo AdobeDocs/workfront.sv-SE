@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td> 
        <ul> 
         <li><p><b>Förnamn</b></p></li>
-        <li><p><b>Efternamn</b></p></li> 
-        <li> <p><b>E-postadress:</b> E-postadressen för en användare är även användarens användarnamn i Workfront. Fältet är skiftlägeskänsligt och måste vara unikt. Om någon användare försöker lägga till en icke-unik e-postadress tre gånger i ett 10-minutersfönster visas ett reCAPTCHA-svar.</p> <p> Välj inställningen <b>Jag är inte en robot</b> innan du kan fortsätta.</p><p>Om du använder e-postadressen tillåtelselista och anger en e-postdomän som inte finns med i listan får användaren inga e-postmeddelanden. Mer information om tillåtelselista finns i <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Konfigurera din e-postadress med tillåtelselista</a>.</p> </li> 
+        <li><p><b>Efternamn</b></p><p><b>OBS!</b></p><p>När du redigerar ett användarnamn i Workfront redigeras inte användarens namn i Adobe Admin Console.</p></li> 
+        <li> <p><b>E-postadress:</b> E-postadressen för en användare är även användarens användarnamn i Workfront. Fältet är skiftlägeskänsligt och måste vara unikt. Om någon användare försöker lägga till en icke-unik e-postadress tre gånger i ett 10-minutersfönster visas ett reCAPTCHA-svar.</p> <p> Välj inställningen <b>Jag är inte en robot</b> innan du kan fortsätta.</p><p>Om du använder e-postadressen tillåtelselista och anger en e-postdomän som inte finns med i listan får användaren inga e-postmeddelanden. Mer information om tillåtelselista finns i <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Konfigurera din e-postadress med tillåtelselista</a>.</p><p>Om din organisation har migrerats till Adobe Admin Console kan du inte redigera en användares e-postadress i Workfront. Användarens e-postadress anges i Adobe Admin Console. </li> 
         <li> <p><b>Återställ lösenord</b>: Klicka på den här länken om du vill återställa användarens lösenord. Du måste ange ditt eget lösenord innan du kan återställa en annan användares lösenord.</p> <p>Om du vill återställa en annan användares lösenord måste du vara Workfront-administratör eller gruppadministratör.</p> <p><b>OBS</b>:  
           <ul> 
            <li> <p>Om du är gruppadministratör kan du bara återställa lösenord för användare i de grupper där du är utsedd till administratör. Behörigheten Användaradministratör (gruppanvändare) måste även aktiveras på din åtkomstnivå:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Den här inställningen är inaktiverad som standard. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </li> 
