@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Som Adobe Workfront-administratör kan du skapa milstolpar som sedan kan användas i alla projekt i systemet. De ändringar du gör i milstolpbanorna i det här området påverkar hela Workfront-systemet.
 
@@ -116,3 +120,38 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
    Din milstolpe-väg är klar att kopplas till ett projekt.
 
    Mer information om hur du associerar milstolpar till projekt och milstolpar till aktiviteter finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+
+
+## Visa information om milstolpens sökväg i en rapport
+
+Du kan visa information om en milstolpe-sökväg i en projektrapport.
+
+Du måste associera en milstolpe-sökväg med ett projekt innan du kan se informationen om projektet i en projektrapport.
+
+Mer information om hur du associerar milstolpbanor till projekt finns i [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+{{step1-to-reports}}
+
+1. Klicka på **Ny rapport** och sedan på **Projekt**.
+1. Klicka på **Lägg till kolumn**.
+1. I **Visa i den här kolumnen** börjar du skriva **Milstolpens sökväg** och klickar sedan på **Milstolpens sökvägsnamn** när den visas.
+1. (Valfritt) Klicka på **Filter** och lägg till följande filter i rapporten: **Sökväg till projektmilstolpe är inte tom**.
+
+   Filtret ser till att du bara visar projekt som är kopplade till en milstolpe-sökväg i rapporten.
+
+1. Klicka på **Spara + Stäng**.
+1. Lägg till ett namn för rapporten och klicka sedan på **Använd**.
+
+   Projektrapporten visas. De milstolpesökvägar som är associerade med varje projekt visas i den sista kolumnen i rapporten.
+1. Klicka på namnet på en milstolpe-sökväg i rapportens sista kolumn.
+
+   Detaljerna för milstolpens bana visas. Information om varje milstolpe visas också.
+
+   ![Sökvägsinformation för milstolpe från projektrapport](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. (Valfritt) Klicka på **Tillbaka** om du vill gå tillbaka till projektrapporten.
+
+
+

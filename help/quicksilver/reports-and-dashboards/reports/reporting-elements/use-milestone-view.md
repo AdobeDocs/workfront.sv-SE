@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Använda vyn Milstolpe
-description: Du kan använda vyn Milstolpe på en projektlista eller rapport.
+description: Du kan använda vyn Milstolpe på en projektlista eller rapport. Du kan använda vyn Milstolpe för att visa alla milstolpar som är kopplade till uppgifter i de projekt som du visar.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-Du kan använda vyn Milstolpe på en projektlista eller rapport.
+Du kan använda vyn Milstolpe på en projektlista eller rapport. Du kan använda vyn Milstolpe för att visa alla milstolpar som är kopplade till uppgifter i de projekt som du visar.
 
-Innan du kan använda milstolpevyn måste milstolpar konfigureras, milstolpbanor måste läggas till i projekt och milstolpar måste kopplas till aktiviteter, vilket beskrivs i artiklarna [Skapa en milstolpssökväg](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) och [Koppla milstolpar till aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Innan du kan använda milstolpevyn måste följande element finnas:
+
+* Sökvägar för milstolpar har konfigurerats. Mer information finns i [Skapa en milstolpe-sökväg](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Milstolpesökvägar som behövs läggs till i projekt. Mer information finns i [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+* Milstolpar är associerade med uppgifter. Mer information finns i [Associera milstolpar med uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 Vyn Milstolpe är tillgänglig när du visar en projektlista eller en projektrapport. I följande avsnitt beskrivs hur du visar och använder milstolpevyn.
 

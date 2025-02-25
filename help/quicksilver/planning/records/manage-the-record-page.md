@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
 source-wordcount: '1772'
 ht-degree: 0%
@@ -295,7 +295,7 @@ Så här lägger du till en sida i Anslutningsvyn:
 Tabellvyn för den posttyp du valde visas och de kopplade posterna visas i tabellvyn.
 Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
 
    Tabellvyn är skrivskyddad.
 
@@ -313,7 +313,7 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
    * Sortera
    * Gruppering
 
-   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
    Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
