@@ -1487,10 +1487,12 @@ ht-degree: 0%
       * Rapporttyper för kontrollpanelen på arbetsytan {#report-types}
          * [Översikt över rapporttyper i kontrollpanelen för arbetsyta](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Lägga till en befintlig rapport på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
+<!--
+         * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+-->
    * Rapporter {#reports}
       * [Rapporter](reports-and-dashboards/reports/reports-overview.md)
       * Grundläggande om rapportering {#report-basics}
