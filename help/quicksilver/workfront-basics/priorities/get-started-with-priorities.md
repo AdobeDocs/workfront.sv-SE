@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Prioriteringar ger
 * Hantera och prioritera rutinuppgifter: Ordna dag och vecka med konsoliderad navigering för bättre tydlighet
 * Större produktivitet: Kom åt projektsammanhang och utför uppgifter snabbare med färre klick
 * Personaliserade funktioner: Dra nytta av unika funktioner som utformats för uppgiftsägare
+
+Prioriteringarna Worklist och Calendar visar arbetsobjekt som du har tilldelats. Du kan inte se arbetsobjekt som tilldelats ditt team.
 
 ## Hitta och ordna ditt material
 

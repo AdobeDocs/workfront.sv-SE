@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Filtrera och gruppera ditt arbete med prioritet
 
 Du kan använda filter för att hitta det du söker efter och sedan använda en gruppering för att ordna det.
+
+Prioriteter visar arbetsuppgifter som tilldelats dig. Du kan inte se arbetsobjekt som tilldelats ditt team i listan Prioriteter.
 
 ## Åtkomstkrav
 
@@ -129,7 +131,7 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 
 ## Filtrera arbetet med smarta filter
 
-Använd naturligt språk för att snabbt filtrera arbetet. Din Workfront-instans måste finnas på en ny Workfront-plan och aktiveras på Adobe Unified Experience. Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Använd naturligt språk för att snabbt filtrera arbetet. Din Workfront-instans måste finnas på en ny Workfront-plan och vara aktiverad på Adobe Unified Experience. Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-priorities}}
 

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
    <td> 
    <p>Aktuell: Begär eller högre för begäranden; Granska eller högre för problem; Arbeta eller högre för uppgifter</p>
-   <p>Nytt: Medarbetare eller högre för begäranden, ljus eller högre för problem <!--and documents-->: Standardaktiviteter eller högre</p> 
+   <p>Nytt: Medarbetare eller senare för begäranden; Ljus eller högre för problem och dokument: Standard eller högre uppgifter</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa uppgifter eller problem i Prioriteringar
 
-Du kan skapa en uppgift eller ett problem i ett projekt.
+Du kan skapa en uppgift eller ett problem i ett projekt. Prioriteter visar arbetsuppgifter som tilldelats dig. Du kan inte se arbetsobjekt som tilldelats ditt team i listan Prioriteter.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Så här skapar du en uppgift eller ett problem i ett projekt:
 
 1. Klicka på **Skapa ny** i det övre högra hörnet.
    ![](assets/create-new.png)
-&lt;!—new screen for prod ![](assets/create-new--.png)—>
+ny skärm för prod ![](assets/create-new--.png)
 1. Ange följande information:
 
    | Fält | Instruktioner |
