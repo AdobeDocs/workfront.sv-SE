@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: Visa rapporter schemalagda för leverans'
+title: 'Filter: Visa rapporter som schemalagts för leverans'
 description: Det här rapportfiltret visar alla rapporter som schemalagts att levereras automatiskt i Adobe Workfront. Den används bäst med standardvyn.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -65,8 +65,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Så här använder du det här filtret:
 
 1. Gå till en lista med rapporter.
+
 1. Välj **Nytt filter** i listrutan **Filter**.
 
 1. Klicka på **Växla till textläge**.
-1. I området **Ange filterregler för rapporten** kopierar och klistrar du in följande kod: `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+
+1. Kopiera och klistra in följande kod i området **Ange filterregler för rapporten**:
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
 1. Klicka på **Spara filter**.

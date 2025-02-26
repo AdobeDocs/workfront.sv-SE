@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -104,8 +104,8 @@ Du kan dela ett projekt på följande sätt:
 
 ## Begränsningar för olika licenstyper
 
-* Användare med en Worker-licens har inte behörighet att hantera projekt. För arbetare är den högsta delningsbehörigheten Contribute.
-* Användare med en Request-licens kan visa projektinformation, men har begränsad projektåtkomst.
+* Användare med en Light-licens och lägre (eller Work-licens och lägre för den gamla licensmodellen) har inte behörighet att hantera projekt. För dessa användare är den högsta delningsbehörigheten Contribute.
+* Användare med en Contributor-licens (eller Begär licens för den gamla licensmodellen) kan visa projektinformation, men har begränsad projektåtkomst.
 * Ett undantag till att ändra status för ett projekt inträffar när en användare med behörigheterna Visa eller Contribute också inkluderas i en godkännandeprocess. De kan godkänna projektet, vilket ändrar projektets status, men statusen är fördefinierad för godkännande eller för avvisning.
 * För att kunna kopiera ett projekt måste användaren också ha tillgång till dem för att kunna skapa projekt på åtkomstnivå.
 

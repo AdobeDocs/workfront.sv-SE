@@ -6,9 +6,9 @@ description: Adobe Workfront har en omfattande lista över inbyggda rapporter so
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: '2986'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront har en omfattande lista med inbyggda rapporter som du kan använda.
 
-Workfront-administratörer kan dölja inbyggda rapporter så att användare inte har tillgång till dem.
-
-Mer information om hur du döljer inbyggda rapporter finns i [Dölj inbyggda rapporter](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Workfront-administratörer kan dölja inbyggda rapporter så att användare inte har tillgång till dem. Mer information om hur du döljer inbyggda rapporter finns i [Dölj inbyggda rapporter](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Åtkomstkrav
 
@@ -67,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Översikt över inbyggda rapporter {#overview-of-built-in-reports}
 
-Du kan anpassa en inbyggd rapport och spara den som en ny rapport. Mer information om hur du anpassar inbyggda rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Du kan skapa en kopia av en inbyggd rapport och spara den som en ny rapport. Mer information om hur du skapar kopior av inbyggda rapporter finns i [Skapa en ny version av en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) i artikeln [Skapa en kopia av en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Följande rapporter innehåller Workfront-paketet. Rapporterna är tillgängliga för alla användare som har minst behörighet att visa inbyggda rapporter på åtkomstnivå.
 

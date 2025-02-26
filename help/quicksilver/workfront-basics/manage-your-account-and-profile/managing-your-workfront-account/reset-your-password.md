@@ -6,9 +6,9 @@ description: Du kan återställa ditt [!DNL Adobe Workfront] lösenord. Som en v
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Du kan återställa ditt [!DNL Adobe Workfront]-lösenord. Som en viktig säkerh
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +38,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td> 
+      <p>Nytt:</p>
+         <ul>
+         <li><p>Medarbetare eller högre</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Begäran eller senare</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Återställ ditt lösenord i [!DNL Adobe Workfront]
 

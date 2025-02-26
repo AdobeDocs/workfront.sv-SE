@@ -7,9 +7,9 @@ description: Du kanske vill dölja information i kolumnen för en vy. Du kan gö
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Du kanske vill dölja information i kolumnen för en vy. Du kan göra detta geno
 >* Du kan använda dolda kolumner för att sortera efter ett visst objekt som du inte vill visa i vyn.\
 >  Du kan till exempel sortera efter Uppgiftsnummer i en uppgiftsvy och dölja informationen om Uppgiftsnummer i vyn. I det här fallet kan objektet som refereras i kolumnen sortera vyn, men informationen om objektet visas inte i vyn.
 >* När du döljer en kolumn bör du tänka på att informationen i kolumnen är dold, men kolumnen finns fortfarande i vyn.
->
 
 ## Åtkomstkrav
 
@@ -43,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt:<ul><li>Medarbetare som ändrar en vy</li><li>Standard för att ändra en rapport</li></ul></p><p>eller</p>Aktuell:<ul><li>Begäran om att ändra en vy</li><li>Planera att ändra en rapport</li></ul></p> </td> 
+   <td> <p>Nytt:<ul><li>Medarbetare som ändrar en vy</li><li>Standard för att ändra en rapport</li></ul></p><p>Aktuell:<ul><li>Begäran om att ändra en vy</li><li>Planera att ändra en rapport</li></ul></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -67,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **Lägg till kolumn** och börja skriva &quot;Aktivitetsnummer&quot; i fältet **Visa i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka på **Växla till textläge** och sedan på **Redigera text**.
+1. Klicka på **Växla till textläge** och sedan på **Redigera textläge**.
 1. Ta bort den text du söker i rutan **Redigera textläge** och ersätt den med följande kod:
 
    ```
@@ -85,7 +84,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    De viktiga ändringarna i koden som gör kolumnen dold är:
 
    * `displayname=`: Den här raden måste vara tom.
-   * `valuefield=`: Detta har ersatts med `value` och måste vara tomt.
+   * `valuefield=`: Den här raden måste ersättas med `value=`, som måste vara tom.
    * `width=`: Beroende på fältet måste värdet vara **0** eller **1**.
 
 1. Klicka på **Klar** och sedan på **Spara vy**.

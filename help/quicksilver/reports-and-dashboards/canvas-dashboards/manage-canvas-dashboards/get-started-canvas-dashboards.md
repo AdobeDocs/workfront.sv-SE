@@ -6,9 +6,9 @@ description: Grundläggande anvisningar för hur du använder Canvas-kontrollpan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Med arbetsytans kontrollpaneler kan du enkelt visualisera dina Adobe Workfront-d
 
 ## Förutsättningar
 
-* Du måste ha en planlicens (aktuella licenser) eller standardlicens (nya licenser) för att kunna skapa en Canvas Dashboard.\
-  Information om Workfront licenstyper finns i [Licensöversikt](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) för aktuella licenser och [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) för nya licenser.
+* Din organisation måste vara en del av den stängda betaversionen av Canvas Dashboards. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-* Din Workfront-administratör måste ge dig tillgång till Redigera kontrollpaneler på din åtkomstnivå för att skapa eller redigera en Canvas-kontrollpanel.\
-  Information om hur du beviljar redigeringsåtkomst för instrumentpaneler finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* Du måste ha en planlicens (aktuella licenser) eller standardlicens (nya licenser) för att kunna skapa en Canvas Dashboard. Mer information om Workfront licenstyper finns i [Licensöversikt](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) eller [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+* Din Workfront-administratör måste ge dig redigeringsåtkomst till instrumentpaneler på din åtkomstnivå för att skapa eller redigera en Canvas Dashboard. Information om hur du beviljar redigeringsåtkomst finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Navigera till en arbetsytans kontrollpanel
 

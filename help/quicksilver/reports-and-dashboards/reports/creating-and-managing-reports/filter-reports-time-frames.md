@@ -6,9 +6,9 @@ description: Du kan filtrera en rapport efter tidsramen för ett datum som finns
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -129,11 +129,11 @@ Mer information om hur du skapar rapporter finns i [Skapa en rapport](../../../r
 
 ## Inbyggda modifierare för tidsramar {#built-in-time-frame-modifiers}
 
-Adobe Workfront har inbyggda modifierare för tidsramar som du kan använda utan att definiera ett visst datum. 
+Adobe Workfront har inbyggda modifierare för tidsramar som du kan använda utan att definiera ett visst datum.
 
-Dessa modifierare är tillgängliga för alla datumfält i ett filter eller en uppmaning i en rapport. 
+Dessa modifierare är tillgängliga för alla datumfält i ett filter eller en uppmaning i en rapport.
 
-Mer information om hur du filtrerar en rapport efter en tidsram som är associerad med ett datum finns i  [Filtrera en rapport efter tidsramen för ett datum](#filter-a-report-by-the-time-frame-of-a-date).
+Mer information om hur du filtrerar en rapport efter en tidsram som är associerad med ett datum finns i avsnittet ovan [Filtrera en rapport efter tidsramen för ett datum](#filter-a-report-by-the-time-frame-of-a-date).
 
 Om du till exempel skapar en timrapport och vill visa timmar som anges i en viss tidsram kan du välja bland följande inbyggda alternativ för tidsramsfilter:
 
