@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -125,10 +125,11 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 ## Att tänka på när du skickar begäranden till Workfront Planning
 
 * Du kan bara få åtkomst till ett begärandeformulär för Workfront Planning-begäranden från en specifik länk till formuläret.
-* Du kan inte redigera en begäran efter att du har skickat den till Workfront Planning.
-* Varje skickad begäran skapar en post för den posttyp som är associerad med det formulär du använder om formuläret inte är associerat med ett godkännande, eller om godkännandet har beviljats av alla godkännare.
+* Du kan inte redigera en begäran i Workfront när du har skickat den till Workfront Planning.
+* Varje skickad begäran skapar en post för den posttyp som är kopplad till det formulär du använder, om formuläret inte är kopplat till ett godkännande, eller om godkännandet har beviljats av alla godkännare.
 * Poster som skapas genom att frågeformulär skickas kan inte skiljas från poster som läggs till med någon annan metod. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 * Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
+* Det finns begränsningar i hur vissa fälttyper visas i ett begärandeformulär eller på sidan med information om förfrågan när ett formulär har skickats. Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -153,9 +154,14 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
    >[!TIP]
    >
-   >   This setting is available only when your company has purchased a Workfront Planning package. 
+   >This setting is available only when the following are in place:
+   >
+   >* Your company has purchased a Workfront Planning package. 
+   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
+   >* You have access to view at least one workspace. 
+   >
 
-1. Click **New request**. (********* update scree shot at release ********)
+1. Click **New request**. (********* update screen shot at release ********)
 
    ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
@@ -197,16 +203,25 @@ Submitting requests to Workfront Planning differs depending on what environment 
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request. 
+1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+
+   The request details page opens. 
+
+   ![Request details page](assets/request-details-page.png)
+
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
-   The record's page opens. 
+   The record's page opens in Workfront Planning. 
 
    >[!TIP]
    >
    >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+
+1. (Optional) Click the name of the **Record type**. 
+
+   The record type page opens in Workfront Planning. 
 
 </div>
 
@@ -247,16 +262,25 @@ Submitting requests to Workfront Planning differs depending on what environment 
      >
      >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
-1. (Valfritt) Klicka på fliken **Planering** i området Begäranden för att visa din begäran.
+1. (Valfritt) Klicka på fliken **Planering** i området Begäranden för att visa din begäran och klicka sedan på namnet på begäran.
+
+   Sidan med information om förfrågan öppnas.
+
+   ![Sidan Begär information](assets/request-details-page.png)
+
 1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på postens namn i fältet **Post**.
 
-   Postens sida öppnas.
+   Postens sida öppnas i Workfront Planning.
 
    >[!TIP]
    >
    >* Om postnamnet inte har lagts till i begärandeformuläret visas postens namn i fältet Post i begäran som **Namnlöst**.
    >
    >* Om begärandeformuläret är kopplat till ett godkännande måste det godkännas innan du kan få åtkomst till posten från begärandesidan.
+
+1. (Valfritt) Klicka på namnet på **posttypen**.
+
+   Posttypssidan öppnas i Workfront Planning.
 
 
 

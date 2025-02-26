@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,49 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
+## Begränsningar för fält- och värdesvisning i begärandeformulär
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* Du kan inte lägga till fält av följande typer i ett begärandeformulär:
+
+   * Skapad av och senast ändrad av
+   * Skapad den och senast ändrad den
+   * Formel. Formelfält stöds i förhandsvisningsmiljön.
+   * Workfront-objektens sökfält
+   * Sökfält för Workfront Planning-anslutna poster
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* Skillnad mellan hur fältformat visas i formulärbyggaren och hur värdena formateras på posten eller på sidan med information om begäran:
+
+   * Fälten Valuta, Nummer och Procent visas som ett textfält med en rad i formulärbyggaren.
+
+     Fältformatet bevaras dock och värdena för talen i dessa fält visas som valutavärden, tal och procentvärden för posttypen och på sidan med information om begäran.
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## Skapa ett begärandeformulär för en posttyp
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Formuläret innehåller som standard följande information:
 
    * Postfält som är tillgängliga i tabellvyn för den valda posttypen. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >Fält av följande typer visas inte i begärandeformuläret:
-   >
-   >* Skapad av och senast ändrad av
-   >* Skapad den och senast ändrad den
-   >* Formel
-   >* Workfront-objektens sökfält
-   >* Sökfält för Workfront Planning-anslutna poster
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Alla postfält visas i området **Standardavsnitt**.
    * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Det går inte att redigera konfigurationen och värdet för ämnesfältet.
@@ -196,12 +211,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * **Gör ett obligatoriskt fält**: När du väljer det här alternativet måste fältet ha ett värde. Annars kan formuläret inte skickas.
    * **Lägg till logik**: Definiera vilka villkor som måste uppfyllas för att fältet ska kunna visas eller döljas.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   Fälttypen för varje fält visas längst upp på den högra panelen när du har valt fältet i formuläret.
-   >   
-   >
-   >   Fälten Valuta, Nummer och Procenttal visas som ett textfält med en rad. Fältformatet bevaras dock och värdena i dessa fält visas som värden för Valuta, Nummer och Procent.
+   >     
 
 1. (Valfritt) Klicka på fliken **Innehållselement** till vänster i formuläret och lägg till något av följande element:
 
