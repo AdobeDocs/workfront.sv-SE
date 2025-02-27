@@ -6,14 +6,16 @@ description: Du kan ändra en befintlig kalender genom att lägga till eller ta 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Redigera en befintlig kalenderrapport
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan ändra en befintlig kalender genom att lägga till eller ta bort en länk till ett projekt. Du kan också ändra kalendergrupperingar som är kopplade till en kalenderrapport.
 
@@ -58,7 +60,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Redigera en befintlig kalenderrapport
+## Redigera en befintlig kalenderrapport i produktion
 
 {{step1-to-calendars}}
 
@@ -87,3 +89,34 @@ Objekt från projektet och tillhörande uppgifter och utgåvor läggs till i kal
       * [Använd [!UICONTROL Planned Dates] i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Använd [!UICONTROL Projected Dates] i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Använd anpassade datumfält i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+<div class="preview">
+
+## Redigera en befintlig kalenderrapport i Förhandsgranska
+
+{{step1-to-calendars}}
+
+1. (Valfritt) Om du vill ändra namnet på kalenderrapporten klickar du på menyn **Mer** och väljer **Redigera**.
+   ![fler meny](assets/new-more-menu-calendar.png)
+Om du har delat kalenderrapporten med andra användare eller team uppdateras det ändrade kalendernamnet automatiskt i deras kalendervy.
+
+1. (Valfritt) Så här lägger du till ett projekt i kalenderrapporten:
+   1. Klicka på **[!UICONTROL Add to Calendar].**
+   1. Börja skriva namnet på ett projekt som du vill lägga till kalenderhändelser från och klicka sedan på namnet när det visas i listrutan.
+   1. Klicka på **Lägg till**.
+      ![lägg till ett projekt i en kalender](assets/add-a-calendar-project.png)
+
+
+1. (Valfritt) Så här lägger du till en kalendergrupp eller ändrar en befintlig kalendergrupp:
+   1. Klicka på menyn **Mer** bredvid projektnamnet och klicka sedan på **Redigera**.
+      ![redigera projekt i kalender](assets/edit-project-in-calendar.png)e
+
+   1. Välj hur du vill gruppera dina objekt:
+
+      * [Använd [!UICONTROL Planned Dates] i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Använd [!UICONTROL Projected Dates] i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [Använd anpassade datumfält i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+      </div>

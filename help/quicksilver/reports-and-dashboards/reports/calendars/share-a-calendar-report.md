@@ -6,14 +6,16 @@ description: Du kan dela en kalender med andra användare och göra den tillgän
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # Dela en kalenderrapport
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan dela en kalender med andra användare och du kan göra den tillgänglig för allmänheten, så att någon utan en [!DNL Adobe Workfront]-licens kan visa den.
 
@@ -63,6 +65,8 @@ Kalendrar som har delats med dig visas med en asterisk (&#42;) bredvid kalendern
 Så här delar du en kalender i [!DNL Workfront]:
 
 1. Gå till kalendern som du vill dela.
+1. <span class="preview">Klicka på menyn **Mer** bredvid kalendernamnet i förhandsgranskningen och klicka sedan på **Dela**.
+   ![kalendermer meny](assets/more-menu-calendar.png)</span>
 1. Klicka på **[!UICONTROL Calendar Actions]** och sedan på **[!UICONTROL Sharing]**.
 
 1. I fältet **[!UICONTROL Give Calendar access to]** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela kalendern med och klickar sedan på namnet när det visas i listrutan.\
@@ -74,10 +78,12 @@ Så här delar du en kalender i [!DNL Workfront]:
    * **[!UICONTROL View]:** Användare kan granska och dela kalendern.
 
      ![Dela kalender med Visa åtkomst](assets/calendar-share-view-permissions-350x249.png)
+     <!--![Share calendar with view access](assets/view-calendar.png)-->
 
    * **[!UICONTROL Manage]:** Användare har fullständig åtkomst till kalendern, minus administrativa behörigheter, som ges på åtkomstnivån, plus alla visningsbehörigheter.
 
      ![Dela kalendern med Hantera åtkomst](assets/calendar-share-manage-permissions-350x241.png)
+     <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
      >
@@ -98,9 +104,12 @@ Du kan göra en kalender offentlig och dela en länk med personer som inte har n
 
 1. Gå till kalendern som du vill dela.
 1. Klicka på **[!UICONTROL Calendar Actions]** och sedan på **[!UICONTROL Sharing]**.
+1. <span class="preview">Klicka på menyn **Mer** bredvid kalendernamnet i förhandsgranskningen.
+   ![kalendermer meny](assets/more-menu-calendar.png)</span>
 
 1. Klicka på kugghjulsikonen och sedan på **[!UICONTROL Make this public to external users]**.
 1. Klicka på **[!UICONTROL Copy link]**.
+1. <span class="preview">Klicka på **Kopiera offentlig länk** i förhandsgranskningen.</span>
 1. Klicka på **[!UICONTROL Save]**.
 
 ## Dela en kalender med en privat länk
@@ -108,8 +117,9 @@ Du kan göra en kalender offentlig och dela en länk med personer som inte har n
 Du kan dela en privat kalenderlänk med [!DNL Workfront] användare. Användarna måste logga in för att kunna visa kalendern när de använder länken.
 
 1. Gå till kalendern som du vill dela.
+1. <span class="preview">Klicka på menyn **Mer** bredvid kalendernamnet i förhandsgranskningen och klicka sedan på **[!UICONTROL Get Sharable Link]**.
+   ![kalendermer meny](assets/more-menu-calendar.png)</span>
 1. Klicka på **[!UICONTROL Calendar Actions]** och sedan på **[!UICONTROL Get Sharable Link]**.
-
 1. Klicka på **[!UICONTROL Copy Link]**.
 
    >[!NOTE]

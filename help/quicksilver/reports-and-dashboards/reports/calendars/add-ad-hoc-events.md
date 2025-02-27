@@ -6,14 +6,16 @@ description: Du kan lägga till ad hoc-händelser i en kalender. En ad hoc-händ
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Lägga till ad hoc-händelser i en kalenderrapport
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan lägga till ad hoc-händelser i en kalender. En ad hoc-händelse fungerar bara som en påminnelse i kalendern och är inte kopplad till ett projekt, en aktivitet eller ett problem.
 
@@ -54,7 +56,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Lägga till ad hoc-händelser i en kalenderrapport
+## Lägga till ad hoc-händelser i en kalenderrapport i produktionen
 
 1. Gå till det datum du vill lägga till en ad hoc-händelse i kalendern och klicka sedan på datumet [!UICONTROL starting] för din händelse.
 1. Ange händelsens namn och, om så önskas, välj en färg för händelsen.
@@ -72,3 +74,16 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    1. Klicka på händelsen i kalendern för att öppna informationssidan för händelsen.
    1. Klicka på papperskorgsikonen och sedan på **[!UICONTROL Yes, Delete it]**.
+
+<div class="preview">
+
+## Lägga till ad hoc-händelser i en kalenderrapport i förhandsgranskningen
+
+1. Gå till den kalender som du vill lägga till en ad hoc-händelse i.
+1. Klicka på **Lägg till** överst i kalendern.
+1. **Namn** händelsen i sidopanelen till höger.
+1. Välj en färg för händelsen.
+1. Välj om händelsen ska sträcka sig över flera dagar.
+1. Ange eller välj ett datum med hjälp av kalenderikonen.
+
+</div>
