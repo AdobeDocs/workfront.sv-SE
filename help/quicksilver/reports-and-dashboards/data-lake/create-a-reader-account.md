@@ -3,20 +3,20 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Skapa ett läsarkonto för Snowflake
-description: För att få åtkomst till data i Data Connect måste du först skapa ett läsarkonto i Snowflake.
+description: För att få åtkomst till Data Connect-data måste du först skapa ett Snowflake-läsarkonto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
-# Skapa ett läsarkonto eller en anslutning för Snowflake
+# Skapa ett läsarkonto eller en anslutning till Snowflake
 
-För att få åtkomst till data i Data Connect måste du först skapa ett läsarkonto (eller tjänstkonto) för din organisation och sedan skapa en ny anslutning för varje användare eller verktyg som du vill ha åtkomst till Data Connect.
+För att få tillgång till data i Data Connect måste du först skapa ett Snowflake-läsarkonto (eller tjänstkonto) för din organisation och sedan skapa en ny anslutning för varje användare eller verktyg som du vill ha tillgång till med Data Connect.
 
 När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på sidan **Dataanslutning** (**Huvudmeny** > **Inställningar** > **System** > **Dataanslutning**) på fliken **Befintliga anslutningar** .
 
@@ -38,17 +38,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>Kan köpas som tillägg till följande planer:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Välj</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect är inte tillgängligt för tidigare Workfront-planer.</p> 
-   </td> </td> 
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -63,7 +63,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa ett läsarkonto
 
-Du måste skapa ett nytt läsarkonto för Snowflake för din organisation innan du kan börja skapa anslutningar.
+Du måste skapa ett nytt Snowflake Reader-konto för din organisation innan du kan börja skapa anslutningar.
 
 >[!IMPORTANT]
 >
@@ -79,7 +79,7 @@ Så här skapar du ett läsarkonto:
 
 1. När det är klart visas ett dialogrutefönster där det förklaras att ditt läsarkonto nu är aktivt. Uppdatera webbläsarsidan för att få åtkomst till knappen **Skapa ny anslutning**.
 
-Dialogrutan ![Reader har skapats](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+![Dialogrutan för att skapa Reader-konto](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
 ## Skapa en anslutning
 

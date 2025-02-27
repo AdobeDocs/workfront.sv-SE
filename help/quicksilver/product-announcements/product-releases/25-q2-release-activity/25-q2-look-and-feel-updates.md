@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den andra utgåvan, kvartal 2025.
 
 En lista över alla ändringar som är tillgängliga i den andra utgåvan av kvartal 2025 finns i [Översikt över den andra utgåvan av kvartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Uppdatera Workfront Calendar
+
+>[!NOTE]
+>
+>Förhandsversion: 27 februari 2025; Produktionsrelease för alla kunder: Med version 25.3 (mars 2025)
+
+Vi har uppdaterat utseendet och känslan i Workfront Calendar till en modern design som överensstämmer med andra delar av Workfront. Det finns små skillnader i funktionalitet jämfört med den aktuella Workfront-kalendern:
+
+* Så här lägger du till ad hoc-objekt i kalendern
+* Så här skapar och byter du namn på kalendern
+* Kalenderåtgärderna har flyttats till en Mer-meny bredvid kalendernamnet
+* En ny sidopanel för att visa kalenderinformation
+* Och mer
+
+Mer information finns i artiklarna [Kalendrar](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
 
 ## Tillfälliga ändringar i e-postmeddelanden
 

@@ -6,9 +6,10 @@ title: Visa användningsstatistik för Workfront Data Connect
 description: På fliken Workfront Data Connect Metrics kan du visa organisationens användningsstatistik utifrån både månatlig beräkningstid och antalet utförda frågor.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -33,17 +34,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>Kan köpas som tillägg till följande planer:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Välj</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect är inte tillgängligt för tidigare Workfront-planer.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 

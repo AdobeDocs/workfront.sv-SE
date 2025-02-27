@@ -7,9 +7,9 @@ description: Med Workfront Data Connect kan ni använda företagets Workfront-da
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ De flesta produkter kräver följande information om din datasjön för att uppr
 | Schema | `WF` |
 | Roll | `READER_ROLE` |
 | Användarnamn | Användarnamnet som valdes när anslutningen skapades (finns på sidan **Data Connect** i Workfront*) |
-| Lösenord | Lösenordet som väljs vid första inloggningen från Snowflake* |
+| Lösenord | Lösenordet som väljs vid första inloggning från Snowflake* |
 
-*Information om var du hittar sidan **Dataanslutning** som innehåller dina anslutningar finns i [Skapa ett läsarkonto eller en anslutning för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Information om var du hittar sidan **Data Connect** som innehåller dina anslutningar finns i [Skapa ett läsarkonto eller en anslutning för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
@@ -55,19 +55,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Adobe Workfront</td> 
    <td><p>Ingår i följande planer:</p>
     <ul>
-        <li>Ultimate</li> 
+        <li><p>Ultimate</p></li> 
     </ul>    
-   <p>Kan köpas som tillägg till följande planer:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Välj</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect är inte tillgängligt för tidigare Workfront-planer.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
