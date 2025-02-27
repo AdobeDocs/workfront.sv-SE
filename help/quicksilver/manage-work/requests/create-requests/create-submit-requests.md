@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2740'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 </div>
 -->
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Planerat arbete representeras i Adobe Workfront av projekt och uppgifter. Du kan dock arbeta i en miljö där oplanerat arbete, i form av förfrågningar, kan komma in när som helst. Workfront tillhandahåller ett arbetsflöde för den här typen av miljö genom att använda frågeköer.
 
 När du har skapat en begäran i en begärandekö kan du antingen tilldela den för slutförande eller konvertera den till en uppgift eller ett projekt.\
@@ -35,7 +39,14 @@ Du kan skapa en Workfront-begäran på följande sätt:
 * Från början enligt beskrivningen i den här artikeln.
 * Från utkast. Mer information finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * Från en befintlig begäran genom att kopiera och skicka en kopia. Mer information finns i [Kopiera och skicka begäranden](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
-* Skapa poster i Workfront Planning från ett Workfront Planning-formulär. Din organisation måste köpa ett Workfront Planning-paket. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
+
+Du kan skapa en ny Workfront Planning-begäran om du vill skapa poster i Workfront Planning på följande sätt:
+
+* Från en länk till ett begärandeformulär för Workfront Planning.
+
+* <span class="preview">Från ett begärandeformulär för Workfront Planning i området Begäranden i Workfront. </span>
+
+  Din organisation måste köpa ett Workfront Planning-paket. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Åtkomstkrav
 
@@ -113,14 +124,35 @@ Så här skapar du en begäran i Workfront webbprogram:
 
 {{step1-to-requests}}
 
+1. <span class="preview"> (Valfritt och villkorligt) Välj inställningen **Byt till ny upplevelse** i skärmens övre högra hörn om följande saker gäller för din organisation och din Workfront-instans: </span>
+
+   * <span class="preview">Din organisation har köpt ett Workfront-paket</span>
+   * <span class="preview">Din organisation har anslutit sig till Adobe Unified Experience.
+   * <span class="preview">Administratören har gett dig åtkomst till Workfront Planning</span>
+   * <span class="preview">Du har minst behörighet att visa en Workfront Planning-arbetsyta</span>
+
+   Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
+
 1. Klicka på **Ny begäran** i det övre högra hörnet på sidan.
 
    >[!TIP]
    >
-   >* Du kan öppna alternativet Ny begäran från vilket avsnitt som helst i området Begäranden.
-   >* Alternativet Ny begäran är nedtonat när du inte har åtkomst till att skapa problem.
+   >* Du kommer åt alternativet Ny begäran från vilket avsnitt som helst i området Begäranden.
+   >* Alternativet Ny begäran är nedtonat när du inte har behörighet att skapa problem.
 
-1. (Villkorligt) Klicka i fältet **Typ av begäran** och gör något av följande:
+   Rutan **Ny begäran** öppnas.
+
+1. <span class="preview">(Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning visas följande i rutan **Ny begäran**:</span>
+
+   * <span class="preview">De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste. </span>
+   * <span class="preview">50 ytterligare begärandeköer för Workfront och planeringsförfrågningsformulär visas i alfabetisk ordning i avsnittet **Alla förfrågningsformulär** . Du kan söka efter en begärandekö som inte visas som standard. </span>
+
+   ![Ny begäranderuta med ett enhetligt arbetsflöde för planering av begäranden](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
+
+   <span class="preview">Klicka på ett av kökorten för Workfront-begäranden eller sök efter ett och klicka sedan på det när det visas i listan. </span>
+1. (Villkorligt) <span class="preview">Om du växlade till den nya funktionen som inkluderar Workfront Planning väljer du ämnesgrupper och köämnen och fortsätter att uppdatera formuläret</span>
+
+   Annars klickar du i fältet **Typ av begäran** och gör något av följande:
 
    * I avsnittet **Senaste sökvägar** väljer du en sökväg som du nyligen använde för att öppna en frågekö. En sökväg innehåller begärandekön, ämnesgrupperna och det köämne som du skickade till nyligen. De sista tre banorna visas som standard.
 
@@ -301,6 +333,8 @@ Så här skapar du en begäran i Workfront webbprogram:
 
    När du skickar begäran tas utkastet automatiskt bort och kan inte återställas.
 
+   Skickade begäranden visas i avsnittet **Skickade** i området Begäranden. <span class="preview">Om du använder den nya upplevelsen som innehåller Workfront Planning, visas förfrågningar som skickats från Workfront på fliken **Workfront** i området Förfrågningar. </span>
+
    Mer information om hur du hanterar inkommande begäranden finns i artikeln [Hantera arbets- och teamförfrågningar](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
    Mer information om hur du söker efter skickade eller skrivna begäranden finns i [Leta reda på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -317,7 +351,7 @@ Brödtexten i e-postmeddelandet läggs till som begärandebeskrivning.
 
 >[!NOTE]
 >
->HTML-formatering tas bort när begäran kommer in i Workfront, men signaturer och befintligt svarstrådsinnehåll tas inte bort och visas i begärandebeskrivningen.
+>HTML-formatering tas bort när begäran kommer in i Workfront, men signaturer och befintligt svarstrådinnehåll tas inte bort och visas i begärandebeskrivningen.
 
 Mer information om hur du aktiverar en begärandekö för att ta emot begäranden via e-post finns i [Ge användare behörighet att skicka ett problem via e-post till ett begärandeköprojekt](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
@@ -348,7 +382,7 @@ Du kan skicka in begäranden med alla program som har integrerats med Workfront:
 
 ## Skapa begäranden med hjälp av ett Workfront Planning-formulär
 
-Du kan lägga till en begäran med hjälp av ett Workfront Planning-formulär. Om du lägger till Workfront Planning-begäranden kan Planning-poster skapas, om begärandeformuläret har godkänts eller om det inte kräver godkännande.
+Du kan lägga till en Workfront Planning-begäran med ett Planning-begärandeformulär. Om du lägger till Workfront Planning-begäranden kan Planning-poster skapas, om begärandeformuläret har godkänts eller om det inte kräver godkännande.
 
 Din organisation måste köpa ett Workfront Planning-paket för att kunna skicka in planeringsförfrågningar.
 

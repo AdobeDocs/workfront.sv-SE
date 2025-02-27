@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3249'
 ht-degree: 0%
 
 ---
@@ -155,8 +155,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan koppla poster från Workfront Planning i följande områden i en Planning-post:
 
 * De kopplade postfälten i tabellvyn.
-* Postens förhandsgranskning eller sida i de anslutna postfälten på fliken Information.
-* Postens förhandsgranskning eller sida på fliken Anslutningar.
+* Postens förhandsvisningsruta eller sida i de kopplade postfälten på fliken Information.
+* Postens förhandsvisningsruta eller sida på fliken Anslutningar.
+* <span class="preview">Postens sida på fliken Anslutningsvy.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Koppla ihop Workfront Planning-poster från tabellvyn eller detaljområdet för en post
 
@@ -462,3 +463,25 @@ Du måste ha följande för att kunna ansluta Workfront Planning-poster från Wo
 * Din Workfront- eller gruppadministratör måste lägga till planeringsavsnittet i Workfront-projekt, portföljer och program i din layoutmall.
 
 Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+<div class="preview">
+
+## Koppla poster från fliken Anslutningsvy på informationssidan för en post
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. Gå till en vy av en posttyp som har kopplats till andra typer av Planning-poster eller objekttyper från andra program.
+1. Följ stegen som beskrivs i de föregående underavsnitten för att hitta en post i vyn som du vill koppla till andra poster eller objekt.
+1. Klicka på namnet på en post.
+
+   Förhandsgranskningssidan öppnas.
+1. Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
+1. Klicka på en befintlig flik i Anslutningsvyn på postens förhandsgranskning eller sida. Du måste först skapa en sida i Anslutningsvyn. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   En sida med kopplad posttyp visas i tabellvyn.
+1. Klicka på **Anslut** för att lägga till eller ta bort poster.
+
+   ![Knappen Anslut är markerad på fliken med information om den anslutna posten](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (Valfritt) Om du inte kan hitta någon ansluten post klickar du på **+ Lägg till** för att skapa och ansluta den.
+
+</div>

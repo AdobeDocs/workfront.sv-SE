@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,10 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Begränsningar för fält- och värdesvisning i begärandeformulär
 
-<!--
+Det finns begränsningar i hur vissa fält visas i begärandeformuläret och hur deras värden senare visas på posterna eller på sidan med information om begäran när du har skickat en begäran.
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+Mer information om hur du skickar begäranden om Workfront Planning finns i [Skicka begäranden om Adobe Workfront Planning för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* Följande är begränsningar för hur vissa fält visas i begärandeformulär, poster som skapats av ett begärandeformulär eller på sidan med information om begäran:
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * Du kan inte lägga till fält av följande typer i ett begärandeformulär:
 
-* Du kan inte lägga till fält av följande typer i ett begärandeformulär:
+      * Skapad av och senast ändrad av
+      * Skapad den och senast ändrad den
+      * Formel. <span class="preview">Formelfält stöds i förhandsvisningsmiljön.</span>
+      * Workfront-objektens sökfält
+      * Sökfält för Workfront Planning-anslutna poster
 
-   * Skapad av och senast ändrad av
-   * Skapad den och senast ändrad den
-   * Formel. Formelfält stöds i förhandsvisningsmiljön.
-   * Workfront-objektens sökfält
-   * Sökfält för Workfront Planning-anslutna poster
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* Skillnad mellan hur fältformat visas i formulärbyggaren och hur värdena formateras på posten eller på sidan med information om begäran:
+* Följande är skillnader mellan hur fältformat visas i formulärbyggaren och hur fältvärdena formateras på posten eller på sidan med information om begäran:
 
    * Fälten Valuta, Nummer och Procent visas som ett textfält med en rad i formulärbyggaren.
 
      Fältformatet bevaras dock och värdena för talen i dessa fält visas som valutavärden, tal och procentvärden för posttypen och på sidan med information om begäran.
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* Här nedan beskrivs hur vissa fältvärden visas i begärandeformulär och sidorna med förfrågningsinformation:
+
+   * Specialformatering för valutafält, tal och procent bevaras inte. Decimalprecisionen bevaras t.ex. inte för dessa fälts värden i dessa områden.
+   * Värden för personfält visas som ID.
+   * Formelfält som inte refererar till andra fält eller beräkningar visar inga värden. Ett fält med formeln `STRING` visar till exempel ett N/A-värde.
+   * Formelfält som refererar till valutafält visar värden utan redovisning för valutakurser.
+   * Värdena för styckefält som innehåller specialformatering visar ett N/A-värde i begärandeformuläret och de visar html-taggar i stället för formaterad text på sidan med information om begäran.
+
+</div>
 
 ## Skapa ett begärandeformulär för en posttyp
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Skapa begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Skapa begärandeformulär**.
 1. Uppdatera namnet på förfrågningsformuläret. Som standard är formulärets namn **Namnlöst formulär**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Valfritt) Lägg till en **beskrivning** för begärandeformuläret.
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Klicka på **Skapa**. Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![Formulärredigeringsläge för kampanjförfrågningar](assets/campaigns-request-form-edit-mode.png)
 
    Formuläret innehåller som standard följande information:
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Valfritt) Håll markören över fält i formuläret som du vill ta bort och klicka sedan på ikonen **x** för att ta bort dem. De läggs till på fliken **Fält** till vänster om formuläret.
 
-   Ta till exempel bort fältet **Ämne** eftersom det inte visas i Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+   Ta till exempel bort fältet **Ämne** eftersom det inte visas i Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
+
 1. (Valfritt) Så här tar du bort **standardavsnittet** från formuläret:
 
    1. Ta bort alla fält från standardavsnittet.
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Valfritt) Klicka på fliken **Konfiguration** och lägg sedan till minst en användare i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
 
-   ![](assets/configuration-tab.png)
+   ![Fliken Konfiguration](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
    Följande saker händer:
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Klicka på **Dela** om du vill dela formuläret med andra.
 
-   ![](assets/share-box-for-request-form.png)
+   ![Delningsruta för begärandeformulär](assets/share-box-for-request-form.png)
 
 1. Välj bland följande alternativ för att ange vilka typer av användare som har åtkomst till det här formuläret:
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* När du väljer **Vem som helst med länken** kan vem som helst få åtkomst till formuläret och skicka en ny post, även personer utanför organisationen som inte har något Workfront-konto.
    >
-   > * Ett formulär som innehåller följande fälttyper kan inte delas offentligt:
+   >* Ett formulär som innehåller följande fälttyper kan inte delas offentligt:
    >
    >     * Workfront- eller AEM Assets-anslutningar
    >     * Folk
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    Du kan välja framtida datum inom 180 dagar från dagens datum.
 
-1. Klicka på **Spara och kopiera länken** för att spara delningsinformationen för formuläret. Om formuläret har sparats tidigare klickar du på **Kopiera länk**.
+   >[!TIP]
+   >
+   ><span class="preview">När delningsdatumet har gått ut är förfrågningsformuläret inte längre tillgängligt i området Begäranden i Workfront.</span>
+
+
+1. <span class="preview">(Valfritt)</span> Klicka på **Spara och kopiera länken** för att spara delningsinformationen för formuläret. Om formuläret har sparats tidigare klickar du på **Kopiera länk**.
 
    Alternativen för formulärdelning sparas och länken kopieras till Urklipp. Nu kan du dela den med andra.
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. Klicka på vänsterpilen till vänster om formulärets namn i rubriken för att stänga formuläret.
 
    Posttypssidan öppnas.
-1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
    * Klicka på **Uppdatera begärandeformuläret** om du vill göra några ändringar i begärandeformuläret.
    * Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
+   * <span class= "preview"> Gå till området **Begäranden** i Workfront och hitta det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).</span>
 
    >[!TIP]
    >
    >Det finns en indikation på att länken delas offentligt när så är fallet.
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![Publict delad länk till formulär på posttypsmenyn](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

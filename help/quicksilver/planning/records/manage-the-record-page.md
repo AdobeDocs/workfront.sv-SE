@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
    Postens förhandsgranskning öppnas i vyn.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![Informationsruta](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postförhandsvisningen för att öppna postens sida på en ny flik.
 
@@ -244,23 +244,29 @@ Följande saker händer:
 
    Postens förhandsgranskning öppnas i vyn.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![Informationsruta](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna informationsrutan i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
    Fliken **Detaljer** i posten öppnas som standard.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![Informationssida](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+
+   >[!TIP]
+   >
+   >Du kan dra och släppa fält till ett annat avsnitt.
+   >Du måste ha minst ett fält i ett avsnitt.
+   >
 
    Den nya positionen för fältet uppdateras både i förhandsvisningen och på sidan med alla poster av samma typ för alla användare som visar posterna.
 
@@ -295,23 +301,29 @@ Så här lägger du till en sida i Anslutningsvyn:
 Tabellvyn för den posttyp du valde visas och de kopplade posterna visas i tabellvyn.
 Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview">När du öppnar Workfront Planning från förhandsvisningsmiljön visas de första fem fälten från den anslutna posttabellen som standard. Inga sökfält visas som standard.</span>
 
    Tabellvyn är skrivskyddad.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![Målgruppsansluten tabellvy under kampanjinformation](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. (Valfritt) Dubbelklicka på flikens namn
 
    eller
 
    Håll muspekaren över flikens namn, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
-1. (Valfritt) Använd något av följande vyelement i verktygsfältet för att hantera tabellvyn
+1. (Valfritt) Använd något av följande vyelement i verktygsfältet för att hantera tabellvyn:
 
    * Filter
    * Sortera
    * Gruppering
+   * <span class="preview">Fält, för att visa, dölja eller ordna om fält</span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
    >
    >   Du kan inte göra något av följande i tabellvyn på fliken för en ansluten post:
    >
-   >   * Dölj fält
+   >   * Dölj eller ordna om fält. <span class="preview">Du kan dölja och ordna om fält i förhandsvisningsmiljön.</span>
    >   * Skapa, redigera eller ta bort fält
-   >   * Ordna om fält
    >
-1. (Valfritt) Håll pekaren över namnet på fliken och klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png). Klicka sedan på **Ta bort** för att ta bort från den nya fliken Ansluten vy.
+
+1. <span class="preview">Klicka på **Anslut** för att lägga till eller ta bort poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md)</span>
+1. (Valfritt) Håll pekaren över namnet på fliken Anslutningsvy, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort från den nya fliken Ansluten vy.
+
+
 
 
 <!--
