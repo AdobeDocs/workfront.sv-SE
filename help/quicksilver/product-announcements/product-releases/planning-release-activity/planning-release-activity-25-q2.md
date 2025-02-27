@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Visa postnamnet på en informationssida i en Workfront Planning-begäran på fliken Webbläsare
+
+>[!NOTE]
+>
+>Förhandsversion: 27 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+Vi har uppdaterat hur informationssidan för en Workfront Planning-begäran visas i webbläsaren. Nu visas namnet på den post som skapades av begäran som webbläsarflikens namn. Före den här förbättringen visades&quot;Workfront&quot; på webbläsarfliken.
+
+## Enhetligt arbetsflöde för begäran om Workfront och planering
+
+>[!NOTE]
+>
+>Förhandsversion: 27 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+Nu kan du skicka både Workfront- och Workfront Planning-begäranden i området Begäranden på huvudmenyn.
+
+Följande funktioner är nu tillgängliga med den här uppdateringen:
+
+* En ny växel bredvid knappen Ny begäran aktiverar den här funktionen i området Begäranden. Genom att avmarkera alternativet kan du bara skicka Workfront-begäranden.
+
+* Du kan hitta både Workfront begärandeköer och Workfront Planning-förfrågningsformulär i ett enda sökbart område.
+
+* De sex senaste förfrågningarna visas först i det enhetliga sökbara området.
+
+Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Formelfält stöds nu i förfrågningsformulär
+
+>[!NOTE]
+>
+>Förhandsversion: 27 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+Nu kan du lägga till formelfält i ett formulär för posttypsbegäran i Workfront Planning.
+
+Före den här förbättringen kunde dessa typer av fält inte läggas till i begärandeformulär.
+
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Uppdateringar av en posts anslutningsvysida
+
+>[!NOTE]
+>
+>Förhandsversion: 27 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+Vi har uppdaterat anslutningsvyn för en postsida med följande funktioner:
+
+* Som standard visas bara de första 5 fälten i den anslutna posten i tabellvyn. Före den här uppdateringen visas alla fält.
+
+* Nu kan du dölja kolumner i den anslutna postens tabellvy.
+
+* Du kan ordna om kolumner med hjälp av ikonen Fält i tabellens verktygsfält.
+
+* Du kan ansluta och koppla från poster.
+
+Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Nytt uttryck har lagts till i formelfält
 
