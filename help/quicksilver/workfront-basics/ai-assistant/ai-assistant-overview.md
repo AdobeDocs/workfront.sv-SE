@@ -5,9 +5,9 @@ description: Översikt över AI Assistant
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -139,3 +139,30 @@ Så här begär du avtalet för Adobe Gen AI:
 1. Ange namn och e-postadress för den person i organisationen som ska signera Adobe Gen AI-avtalet.
 
    Avtalet skickas till den här personen för signering. När det har signerats och returnerats aktiveras AI Assistant för din organisation.
+
+## Tips för att skapa uppmaningar i AI Assistant
+
+Använd följande nyckelord i dina uppmaningar för att ge kontext och hjälp med att hitta rätt information. Nyckelord är inte skiftlägeskänsliga.
+
+Inkludera frasen `using (keyword)` när du anger din fråga.
+
+| Nyckelord | Effekt |
+|---|---|
+| `workfront` | Interagera med Workfront. |
+| `planning ` | Interagerar med Workfront Planning. |
+| `help` | Returnerar information från Experience League-dokumentation. |
+| `formula` | Kontrollerar och returnerar formler för användning i Planning, Setup eller anpassade formulär. |
+| `health` | Kontrollerar projektets hälsa med Project Health Advisor. |
+| `summarize` | Sammanfattar objekt, t.ex. när du överför en fil eller sammanfattar ett projekt. |
+
+>[!NOTE]
+>
+> Alla nyckelord är inte tillgängliga i alla områden.
+>
+>* Nyckelordet `formula` är bara tillgängligt i Planning, Setup och Custom Form Builder.
+>* Nyckelordet `planning` är bara tillgängligt från Workfront Planning.
+
+
+
+
+
