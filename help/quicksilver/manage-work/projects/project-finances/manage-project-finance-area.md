@@ -6,9 +6,9 @@ description: Du kan visa eller redigera den ekonomiska informationen för ett pr
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,9 @@ Tänk på följande när du visar eller redigerar information på finansområdet
 
 1. Gå till ett projekt.
 1. Klicka på **Projektinformation** i den vänstra panelen.
-1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av informationsavsnittet och klicka sedan på **Ekonomi**.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi**.
 
-   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Ekonomområde i detaljvyn](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -156,14 +156,14 @@ Så här redigerar du information på underfliken Projektfinansiering:
    >Du måste ha behörigheten Hantera för projektet för att kunna utföra följande steg. Vi rekommenderar också att endast projektägaren ska göra ändringar på projektets finansunderflik.
 
 1. Klicka på **Projektinformation** i den vänstra panelen.
-1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi** . Då öppnas finansdelen för redigering.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi** . Då öppnas finansdelen för redigering.
 1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka på **+Lägg till** för att lägga till information i ett tomt fält.
 
    >[!TIP]
    >
    >Fält är inte tillgängliga för redigering om de beräknas automatiskt av Workfront eller om du inte har redigeringsbehörighet för dem.
 
-   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![Redigera ekonomiområde](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. Uppdatera något av fälten nedan.
 
