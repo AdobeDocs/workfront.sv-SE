@@ -6,9 +6,9 @@ description: Du kan skapa och ta bort mallar under Mallar. När du skapar en ny 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Du kan inte redigera aktiviteter direkt från det här Gantt-diagrammet.
 
-1. Om du vill lägga till information i den nya mallen klickar du på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera**.
+1. Om du vill lägga till information i den nya mallen klickar du på ikonen **Mer** ![Mer](assets/more-icon.png) och sedan på **Redigera**.
 
    Mer information om hur du redigerar en mall finns i [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
