@@ -6,9 +6,9 @@ description: Du kan utse resurshanterare för ett projekt för att ange vem som 
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,7 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
 ## Ange resurshanterare för en mall
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
 1. Klicka på **Mallar**.
 
