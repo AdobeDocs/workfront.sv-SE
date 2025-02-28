@@ -6,9 +6,9 @@ description: När arbetsuppgifter och ärenden tilldelas till dig visas de i wid
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Contribute behörigheter eller högre för de uppgifter och problem du behöver arbeta med</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter eller högre för de uppgifter och ärenden du behöver arbeta med</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,10 +63,10 @@ I den här artikeln beskrivs hur du använder filtren i området [!UICONTROL Hom
 
 Så här visar du ett arbetsobjekt i widgeten Mitt arbete:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
 
-1. Klicka på ikonen **Filter** ![](assets/filter-nwepng.png) i det övre vänstra hörnet i widgetens arbetslista.
+1. Klicka på ikonen **Filter** ![Filtrera ](assets/filter-nwepng.png) i det övre vänstra hörnet i widgetens arbetslista.
 
 1. Klicka på något eller båda av följande alternativ för uppgifter:
 
@@ -89,12 +89,12 @@ Du kan komma åt en begäran som tilldelats ditt team direkt från widgeten för
 
 Så här får du åtkomst till en teamförfrågan:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Gruppförfrågningar**.
 
    Widgeten visar gruppförfrågningar under grupperingar. Widgeten **[!UICONTROL Team Requests]** visar och visar alla förfrågningar som tilldelats till det team du är i. Mer information om hur du arbetar med teamförfrågningar finns i [Hantera arbets- och teamförfrågningar](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   ![](assets/team-request-widget.png)
+   ![Widget för gruppförfrågningar](assets/team-request-widget.png)
 
 ## Arbeta med en arbetsuppgift i widgeten Mitt arbete
 
@@ -102,13 +102,13 @@ När du klickar på knappen [!UICONTROL Work On It] anger du för den användare
 
 Så här arbetar du med en arbetsuppgift:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
 
 1. I området **[!UICONTROL worklist]** i widgeten väljer du den förfrågan du vill arbeta med och klickar sedan på **[!UICONTROL Work On It]**.
 1. Håll markören över arbetsobjektet och klicka sedan på ikonen **Sammanfattning** för att visa information om arbetsobjektet.
 
-   ![](assets/open-summary-new-home.png)
+   ![Öppna sammanfattning](assets/open-summary-new-home.png)
 
 
 ## Ta bort en arbetsuppgift
@@ -117,20 +117,20 @@ Om du bestämmer dig för att du inte ska arbeta med arbetsuppgiften kan du ta b
 
 Så här tar du bort en arbetsuppgift:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
 
 1. Håll markören över arbetsobjektet i widgetens arbetslista och klicka sedan på ikonen **Sammanfattning** för att visa information om arbetsobjektet.
-   ![](assets/open-summary-new-home.png)
+   ![Öppna sammanfattning](assets/open-summary-new-home.png)
 1. i avsnittet **Uppdrag** tar du bort ditt namn.
-   ![](assets/remove-assignment.png)
+   ![Ta bort tilldelning](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -148,7 +148,7 @@ Så här tar du bort en arbetsuppgift:
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 
