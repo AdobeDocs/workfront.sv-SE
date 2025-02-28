@@ -7,9 +7,9 @@ description: Det finns flera sätt att använda prioriteringar för projekt och 
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Följande prioriteter kan användas för att rangordna projekt i Adobe Workfront
 
 * **Prioriteten för ett projekt i Portfolio Optimizer**, om projektet är associerat med en portfölj:
 
-  Mer information om prioriteten för ett projekt i Portfolio-optimering finns i artikeln [Prioritera projekt i Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Mer information om prioriteten för ett projekt i Portfolio Optimizer finns i artikeln [Prioritera projekt i Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 * **Prioriteten för ett projekt i resursplaneraren**: Du kan prioritera projekt manuellt i resursplaneraren för att ange vilka projekt som ska få resurser först.
 
@@ -104,7 +104,7 @@ Tänk på följande när du väljer en prioritet för dina projekt:
 
   Mer information om hur du skapar prioriteringar i Workfront finns i artikeln [Skapa och anpassa prioriteringar](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-* När du uppdaterar fältet Prioritet för ett projekt överförs den här prioriteten inte till Portfolio-optimering eller Resursplanering. Projektets prioritetsfält är bara en manuell flagga som du placerar i projektet för att ange dess betydelse för andra användare.
+* När du uppdaterar fältet Prioritet för ett projekt överförs den här prioriteten inte till Portfolio Optimizer eller Resursplanering. Projektets prioritetsfält är bara en manuell flagga som du placerar i projektet för att ange dess betydelse för andra användare.
 * Ett projekts prioritetsvärde används främst för rapportering.
 
   Du kan till exempel söka efter alla projekt som har prioritetsvärdet Urgent när du använder det här fältet i ett projektfilter.
@@ -119,7 +119,7 @@ Tänk på följande när du väljer en prioritet för dina projekt:
 
 1. Gå till det projekt vars prioritet du vill uppdatera.
 1. Klicka på **Projektinformation** i den vänstra panelen.
-1. Klicka på ikonen **Redigera** ![](assets/qs-edit-icon.png) i det övre högra hörnet av området Projektinformation och klicka sedan på **Översikt**.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/qs-edit-icon.png) i det övre högra hörnet av området Projektinformation och klicka sedan på **Översikt**.
 
 1. Välj bland följande alternativ i fältet **Prioritet**:
 
