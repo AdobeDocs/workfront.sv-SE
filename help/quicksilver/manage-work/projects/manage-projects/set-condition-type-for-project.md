@@ -6,9 +6,9 @@ description: Som projektledare kan du bestämma hur ett projekts villkor ska ber
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Gå till det projekt som du vill uppdatera villkorstypen för.
 1. Gör något av följande:
 
-   * Klicka på menyn **Mer** ![](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Redigera**.
+   * Klicka på menyn **Mer** ![Mer meny](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Redigera**.
    * Klicka på **Projektinformation** i den vänstra panelen.
 
    ![](assets/update-condition-type-nwe-350x108.png)
