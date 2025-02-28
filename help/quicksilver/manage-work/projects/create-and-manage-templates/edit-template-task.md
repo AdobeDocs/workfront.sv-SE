@@ -7,9 +7,9 @@ description: När du har skapat en mall kan du redigera information om malluppgi
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2420'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter </td> 
-   <td> <p>Hantera behörigheter för en mall. </p> <p>Contribute eller högre behörigheter för malluppgiften.</p> </td> 
+   <td> <p>Hantera behörigheter för en mall. </p> <p>Contribute eller högre behörigheter för mallaktiviteten.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 1. Klicka på namnet på en malluppgift i listan för att öppna malluppgiften.
 1. (Valfritt) Om du vill redigera flera malluppgifter samtidigt markerar du flera malluppgifter och klickar sedan på **Redigera** överst i malllistan.
 1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
-1. (Valfritt) Klicka på ikonen **Komprimera alla** ![](assets/collapse-all-icon.png) om du vill komprimera alla områden.
-1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![](assets/edit-icon.png) och väljer sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
+1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
    * Ökning
    * Anpassad Forms
@@ -96,7 +96,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    >
    >Om du vill ha information om alla fält som visas i området Detaljer kan du fortsätta redigera alla fält med rutan Redigera malluppgift, som beskrivs nedan.
 
-1. (Villkorligt) Om du vill redigera all information om mallaktiviteten klickar du på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på mallaktiviteten och sedan på **Redigera**.
+1. (Villkorligt) Om du vill redigera all information om mallaktiviteten klickar du på ikonen **Mer** ![Mer](assets/qs-more-icon-on-an-object.png) bredvid namnet på mallaktiviteten och sedan på **Redigera**.
 
    Rutan **Redigera mallaktivitet** visas.
 
@@ -104,7 +104,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    >
    >Du kan också välja en malluppgift i en lista och sedan klicka på Redigera för att öppna rutan Redigera malluppgift.
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![Redigera malluppgift](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. Det kan vara bra att ange information i följande avsnitt:
 
@@ -268,7 +268,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 1. Börja redigera en malluppgift enligt beskrivningen ovan.
 1. Klicka på **Inställningar**.
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![Redigera inställningar för mallaktivitet](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. Uppdatera något av följande:
 
