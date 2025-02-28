@@ -6,9 +6,9 @@ description: Du kan visa och lägga till uppdateringar för ett arbetsobjekt i o
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Contribute behörigheter eller högre för de uppgifter och problem som du behöver arbeta med</p> </td> 
+   <td> <p>Contribute-behörigheter eller högre för de uppgifter och problem som du behöver arbeta med</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -104,13 +104,13 @@ Du kan redigera arbetsobjekt i följande widgetar i Hem-området:
 
 Du kan tillhandahålla uppdateringar för alla arbetsobjekt i [!UICONTROL My Work]-widgeten:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten [!UICONTROL **Mitt arbete**].
 
 1. Leta reda på det arbetsobjekt som du vill uppdatera i widgeten [!UICONTROL **Mitt arbete**].
 1. Håll muspekaren över namnet och klicka sedan på ikonen **Lägg till ny uppdatering** .
 
-   ![](assets/add-update-on-widget.png)
+   ![Lägg till uppdatering i widget](assets/add-update-on-widget.png)
 
 1. Börja skriva din kommentar.
 1. (Valfritt) I rutan **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, och markerar sedan användaren när den visas i listan.
@@ -132,7 +132,7 @@ Du kan tillhandahålla uppdateringar för alla arbetsobjekt i [!UICONTROL My Wor
 
 1. Klicka på **Svara**.
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![Svara för att kommentera](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Börja skriva din kommentar.
 1. (Valfritt) I rutan **Tagga personer** börjar du skriva namnet på en användare eller ett team som du vill ta med i kommentaren och markerar det sedan när det visas i listan.
@@ -149,11 +149,11 @@ Du kan tillhandahålla uppdateringar för alla arbetsobjekt i [!UICONTROL My Wor
 
 Du kan redigera alla fält på arbetsobjekt som du har tillgång till för redigering.
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
 
 1. Håll markören över arbetsobjektet och klicka sedan på ikonen **Sammanfattning** .
-   ![](assets/open-summary-new-home.png)
+   ![Öppna sammanfattning](assets/open-summary-new-home.png)
 
 1. Håll markören över det fält som du vill redigera på panelen Sammanfattning.
 Om du har behörighet att redigera fältet markeras fältet när du för muspekaren över det.
