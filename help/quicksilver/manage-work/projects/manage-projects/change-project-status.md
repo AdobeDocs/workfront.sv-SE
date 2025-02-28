@@ -6,9 +6,9 @@ description: Du kan uppdatera status för ett projekt manuellt till en annan sta
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -67,10 +67,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Gå till det projekt vars status du vill uppdatera.
 1. Klicka på statusnamnet i fältet **Status** i projektrubriken och välj sedan en ny status.
 
-   ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![Ändra projektstatus](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    eller
 
-   Klicka på **Mer**-menyn ![](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
+   Klicka på menyn **Mer** ![Mer ](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
 
    Projektstatusen uppdateras till den valda statusen.
