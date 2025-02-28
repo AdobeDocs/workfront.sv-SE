@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Skapa ett affärsärende för ett projekt
-description: Du kan använda affärsärendet för att begära ett projekt och definiera syfte, budget och den potentiella fördelen för projektet. Projektledaren eller projektsponsorn använder informationen från affärsärendet för att analysera och prioritera projektet innan de godkänner det.
+description: Du kan använda affärsärendet för att begära ett projekt och definiera syfte, budget och den potentiella fördelen för projektet. Portfolio-chefen eller projektsponsorn använder informationen från affärsärendet för att analysera och prioritera projektet innan de godkänner det.
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
 # Skapa ett affärsärende för ett projekt
 
-Du kan använda affärsärendet för att begära ett projekt och definiera syfte, budget och den potentiella fördelen för projektet. Projektledaren eller projektsponsorn använder informationen från affärsärendet för att analysera och prioritera projektet innan de godkänner det.
+Du kan använda affärsärendet för att begära ett projekt och definiera syfte, budget och den potentiella fördelen för projektet. Portfolio-chefen eller projektsponsorn använder informationen från affärsärendet för att analysera och prioritera projektet innan de godkänner det.
 
 ## Åtkomstkrav
 
@@ -54,13 +54,13 @@ Tänk på följande när du begär ett projekt via ett affärsärende:
 
   Mer information om områden i affärsärendet finns i artikeln [Översikt över områden i affärsärendet](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-* Du måste fylla i alla områden i affärsärendet utom målområdet om du vill att ditt projekt ska få en poäng i Portfolio-optimering. Det är valfritt att slutföra målområdet. Projektet får en bakgrundsmusik i Portfolio Optimizer även om detta område inte är färdigt.
+* Du måste fylla i alla delar av affärsärendet utom målområdet om du vill att ditt projekt ska få en poäng i Portfolio Optimizer. Det är valfritt att slutföra målområdet. Projektet får en bakgrundsmusik i Portfolio Optimizer även om detta område inte är färdigt.
 
-  Mer information om hur du arbetar med styrkort och med Portfolio-optimering finns i artikeln [Använda ett styrkort i ett projekt och generera ett justeringsresultat](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Mer information om hur du arbetar med styrkort och med Portfolio Optimizer finns i artikeln [Använda ett styrkort i ett projekt och generera ett justeringsresultat](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 ## Skapa ett affärsärende
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Projekt**.
 1. Klicka på **Nytt projekt** och välj **Begär projekt**.\
    Som standard placeras projektet i statusen **Idea**.
 
@@ -69,7 +69,7 @@ Tänk på följande när du begär ett projekt via ett affärsärende:
    >Om Idea-statusen har tagits bort i din Workfront-instans placeras projektet i standardstatus för nya projekt enligt definitionen i området Projektinställningar. Mer information om hur du ställer in projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. Ange ett namn för projektet och tryck sedan på Retur.
-1. (Valfritt) Klicka på ikonen **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Bifoga mall** för att skapa projektets arbetsgruppsstruktur.
+1. (Valfritt) Klicka på ikonen **Mer** ![Mer](assets/qs-more-icon-on-an-object.png) och sedan på **Koppla mall** för att skapa projektets arbetsgruppsstruktur.
 
    eller
 
