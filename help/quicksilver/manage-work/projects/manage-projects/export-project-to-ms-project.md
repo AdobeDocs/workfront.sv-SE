@@ -6,9 +6,9 @@ description: Du kan exportera Adobe Workfront-projekt till Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,15 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Du kan exportera ett projekt från Workfront från projektsidan eller från en projektlista eller rapport.
 
-1. Gå till projektet som du vill exportera och klicka på ikonen **Mer** ![](assets/qs-more-menu.png) till höger om projektnamnet
+1. Gå till projektet som du vill exportera och klicka på ikonen **Mer** ![Mer meny](assets/qs-more-menu.png) till höger om projektnamnet
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Fler listrutor](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen Mer ![](assets/qs-more-menu.png) högst upp i listan.
+   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen Mer ![Mer](assets/qs-more-menu.png) överst i listan.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Mer meny utökad](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Klicka på **Exportera MS-projekt**.
 
