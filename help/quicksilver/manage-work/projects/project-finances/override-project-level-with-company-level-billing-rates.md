@@ -6,9 +6,9 @@ description: Åsidosätt faktureringstariffer på projektnivå med faktureringst
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ När ett företag är associerat med ett projekt och det här alternativet är a
 När en användare manuellt beräknar om budgeten för projektet tillämpas eventuella ändringar av faktureringstarifferna på företagsnivå. Historiska intäktsberäkningar åsidosätts också såvida de inte markeras som fakturerade.
 
 1. Gå till ett projekt.
-1. Klicka på **Mer**-menyn ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på projektet i sidhuvudet och klicka sedan på **Redigera**.
+1. Klicka på menyn **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) bredvid namnet på projektet i sidhuvudet och klicka sedan på **Redigera**.
 1. I avsnittet **Ekonomi** aktiverar du alternativet **Tillåt faktureringstariffer på företagsnivå för att åsidosätta faktureringstariffer på projektnivå**.
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ När du har aktiverat alternativet för åsidosättning av faktureringsräntor p
    * Ett projekt:
 
       1. Gå till det projekt där du aktiverade åsidosättning av faktureringstariffer på företagsnivå.
-      1. Klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) bredvid projektnamnet i rubriken och klicka sedan på **Beräkna om ekonomi**.
+      1. Klicka på menyn **Mer** ![Mer](assets/qs-more-icon-on-an-object.png) bredvid projektnamnet i rubriken och klicka sedan på **Beräkna om ekonomi**.
