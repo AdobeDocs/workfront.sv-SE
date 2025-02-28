@@ -6,9 +6,9 @@ description: Du kan dela en mall med användare eller definiera hur projekt som 
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,10 @@ Du kan dela dina mallar med andra användare genom att använda malldelning. Den
 
 Så här delar du en mall:
 
-1. Klicka på **Mallar** på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) .
+1. Klicka på **Mallar** från ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png).
 
 1. Gör något av följande:\
-   Klicka på namnet på en mall för att öppna den, klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Malldelning**.
+   Klicka på namnet på en mall för att öppna den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Malldelning**.
 
    eller
 
@@ -100,7 +100,7 @@ Med Projektdelning för mallar kan du definiera vem som har behörighet för de 
 Så här delar du framtida projekt som skapats från en mall med användare:
 
 1. Gör något av följande:\
-   Klicka på namnet på en mall för att öppna den, klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Malldelning**.
+   Klicka på namnet på en mall för att öppna den, klicka sedan på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Malldelning**.
 
    ![Dela projekt från mall](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -119,7 +119,7 @@ Så här delar du framtida projekt som skapats från en mall med användare:
    * **Ingen åtkomst**: Du kan ange vilka användare som inte har åtkomst till mallen.\
      Det här alternativet är endast tillgängligt när du delar projekt gruppvis från mallar. 
    * **Visa**: Användare med den här behörigheten kan visa projekt som skapats från mallen.
-   * **Contribute**: Användare med de här behörigheterna kan bidra till projekt som skapas från mallen 
+   * **Contribute**: Användare med dessa behörigheter kan bidra till projekt som skapas från mallen 
    * **Hantera**: Användare med de här behörigheterna kan hantera eller ta bort projekt som skapats från den här mallen.
 
 1. (Valfritt) Klicka på ikonen **Alternativ** för att göra projekten tillgängliga i hela systemet.
