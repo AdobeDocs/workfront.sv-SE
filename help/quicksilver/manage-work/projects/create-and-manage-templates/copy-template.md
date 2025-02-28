@@ -6,9 +6,9 @@ description: I stället för att skapa en ny projektmall från grunden kan du ko
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Följande objekt kopieras alltid från ett befintligt projekt till ett nytt:
 * Egna formulär
 * Risker
 * Information om köinställningar
-* Portfolio och programmet
+* Portfolio och Program
 * Godkännanden
 * Dokument
 * Dagarna för de ursprungliga malluppgifterna överförs till den nya mallen. Du måste ändra mallens start- eller slutförandedag (beroende på schemaläge) för att uppdatera de dagar som malluppgifterna gäller, om det behövs.
@@ -69,7 +69,7 @@ Följande objekt kopieras aldrig från ett befintligt projekt till ett nytt:
 ## Kopiera en mall
 
 1. Gå till mallen som du vill kopiera.
-1. Klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Kopiera**.
+1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och klicka sedan på **Kopiera**.
 1. Ange ett namn för mallen i fältet **Nytt mallnamn**.
 
    Som standard är det nya namnet **Kopia av `<original template name>`.**
