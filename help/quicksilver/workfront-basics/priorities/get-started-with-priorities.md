@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ När du har tilldelat fokusnivåer till dina arbetsobjekt kan du sortera kolumne
 
 Mer information finns i [Prioritera viktiga arbetsobjekt](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/worklist.png)
+![Arbetslista](assets/worklist.png)
 
 ### Använda kalendervyn
 
@@ -142,7 +142,7 @@ I uppdateringsavsnittet visas systemuppdateringar och upp till 200 av de senaste
 
 Mer information finns i [Lägga till och visa kommentarer i prioriteter](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/update-log-upload.png)
+![Uppdatering, loggtid och överföring](assets/update-log-upload.png)
 
 ### Loggtid
 
@@ -150,7 +150,7 @@ Du kan logga tiden för arbetsobjekt för att ange hur många timmar du ska arbe
 
 Mer information finns i [Loggtid i Prioriteter](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/update-log-upload.png)
+![Uppdatering, loggtid och överföring](assets/update-log-upload.png)
 
 ### Överför filer
 
@@ -163,14 +163,14 @@ Ladda upp filer direkt till uppgiftens eller ärendets dokumentområde utan att 
 
 Mer information finns i [Överför filer i prioriteter](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/update-log-upload.png)
+![Uppdatering, loggtid och överföring](assets/update-log-upload.png)
 
 
 ### Lägga till snabblänkar
 
 Du kan bädda in länkar som används ofta på arbetsobjektets informationssida. Snabblänkar gör att du snabbt kan besöka eller kopiera länken.
 
-![](assets/quick-links.png)
+![Snabblänkar](assets/quick-links.png)
 
 Mer information finns i [Lägga till och hantera snabblänkar i prioriteter](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
@@ -194,7 +194,7 @@ Använd funktionen [!DNL Catch me up] för att se vad du missade. Jag kommer att
 
 Mer information finns i [Kom igång med arbetet i Prioriteringar](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-![](assets/catch-me-up.png)
+![Fånga mig](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
