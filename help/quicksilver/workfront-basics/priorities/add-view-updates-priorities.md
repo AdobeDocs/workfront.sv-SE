@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -66,8 +66,8 @@ Du kan lägga till en kommentar från arbetslistan:
 
 1. Leta reda på den arbetsuppgift som du vill uppdatera.
 1. Håll muspekaren över namnet och klicka sedan på **Lägg till ny uppdatering**.
-   ![](assets/add-update.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![Lägg till ny uppdatering](assets/add-update.png)
+   <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. Börja skriva din kommentar.
 1. (Valfritt) I rutan **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, och markerar sedan användaren när den visas i listan.
 1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder i kommentaren för att förbättra innehållet.
@@ -90,7 +90,7 @@ Du kan lägga till kommentarer och visa kommentarer och systemuppdateringar i en
 1. (Valfritt) Använd fliken **Kommentarer** om du vill uppdatera andra för arbetsposten.
 1. (Valfritt) Använd fliken **Systemaktivitet** för att visa systemaktiviteten som är relaterad till arbetsposten.
 1. (Valfritt) Om du vill lägga till en kommentar går du till fliken **Kommentar** och börjar skriva i rutan Ny kommentar. Klicka på **Skicka** när du är klar.
-   ![](assets/updates-area-in-overview.png)
+   ![Uppdateringsområde](assets/updates-area-in-overview.png)
 
 ## Svara på en kommentar
 
@@ -101,7 +101,7 @@ Du kan svara på en kommentar i en arbetsuppgift:
 1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. Gå till området **Uppdateringar** längst ned till höger på skärmen.
 1. På fliken **Kommentarer** letar du reda på kommentaren som du vill svara på och klickar sedan på **Svara**.
-1. (Villkorligt) Om du vill svara för att hämta innehållet i ett meddelande till ditt svar klickar du på menyikonen **Mer** ![](assets/more-icon.png) bredvid meddelandets brödtext och väljer **Offertsvar**.
+1. (Villkorligt) Om du vill svara och hämta innehållet i ett meddelande till ditt svar klickar du på menyikonen **Mer** ![Mer meny](assets/more-icon.png) bredvid meddelandets brödtext och väljer **Citatsvar**.
 
 1. Skriv ditt svar och klicka sedan på **Skicka**.
 
@@ -109,4 +109,4 @@ Du kan svara på en kommentar i en arbetsuppgift:
    >
    >Du kan bara redigera kommentaren inom 15 minuter från det att du skickat in den. Om du vill redigera en kommentar klickar du på menyn Mer i det övre högra hörnet av kommentaren och sedan på Redigera.
 
-   ![](assets/reply-to-comment.png)
+   ![Svara på kommentar](assets/reply-to-comment.png)
