@@ -6,9 +6,9 @@ description: I den här artikeln beskrivs områdena i affärsärendet för ett p
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Avsnittet Projektinformation i affärsärendet innehåller grundläggande inform
 
   Överväg att lägga till någon annan än projektägaren som projektsponsor. Sponsorn får sitt godkännande av affärsärendet. 
 
-* **Portfolio**: Ange ett Portfolio för projektet. Du måste skapa Portfolio och placera det med statusen **Aktiv** innan det är tillgängligt att välja i den här listrutan.
+* **Portfolio**: Ange en Portfolio för projektet. Du måste skapa Portfolio och placera det med statusen **Aktiv** innan det är tillgängligt att välja i den här listrutan.
 
   Mer information om portföljer finns i [Översikt över Portfolio i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-  Mer information om hur du skapar Portfolio finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  Mer information om hur du skapar portföljer finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 * **Planerad förmån**: Uppskattar vilken ekonomisk förmån som planeras för din organisation när det här projektet har slutförts. Det kan vara vilket valutabelopp som helst och måste vara ett positivt värde. Till exempel $10 000.
 * **Status**: Som standard är status för en projektförfrågan inställd på **Idea**.
@@ -81,7 +81,7 @@ Mål definierar målen för projektet. Det här området är aktiverat som stand
 >
 >Du kan skapa strategiska mål för din organisation som inte är kopplade till ett projekts enskilda affärsärende. Du måste ha tillgång till Adobe Workfront-mål för att kunna skapa strategiska mål. Sedan kan du koppla dem till projekt utanför deras affärsärenden. Mer information om hur du skapar mål med hjälp av Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-Det är valfritt att definiera målen för projektet så att det får en poäng i Portfolio-optimering. Det här avsnittet är det enda valfria avsnittet i affärsärendet. Alla andra avsnitt av affärsärendet måste slutföras innan projektet kan hanteras i Portfolio Optimizer. Du kan ange en prioritetsnivå för ett mål när du skapar målet.
+Att definiera målen är valfritt för att projektet ska få en poäng i Portfolio Optimizer. Det här avsnittet är det enda valfria avsnittet i affärsärendet. Alla andra avsnitt i affärsärendet måste slutföras innan projektet kan hanteras i Portfolio Optimizer. Du kan ange en prioritetsnivå för ett mål när du skapar målet.
 
 Mer information om mål finns i  [Skapa affärsärenden](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
@@ -115,7 +115,7 @@ De timmar som har budgeterats för resurserna i projektet visas i området Resur
 
 Mer information om budgeteringsresurser för projektet i affärsärendet finns i [Budgetresurser i affärsärendet](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![Resursbudgetering för affärsärende](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 Tänk på följande när du visar avsnittet Resursbudgetering i affärsärendet:
 
@@ -125,7 +125,7 @@ Tänk på följande när du visar avsnittet Resursbudgetering i affärsärendet:
 
      Mer information finns i [Budgetresurser i affärsärendet med hjälp av resursplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-   * Scenarioplaneraren, om ditt företag har köpt en ytterligare licens för Adobe Scenario Planner
+   * Scenarioplaneraren, om ditt företag har köpt ytterligare en licens för Adobe Scenario Planner
 
      Mer information finns i [Budgetresurser i affärsärendet med scenarioplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
@@ -149,7 +149,7 @@ Tänk på följande när du visar avsnittet Resursbudgetering i affärsärendet:
 
 ## Risker
 
-Risker är faktorer som kan förhindra att ett projekt slutförs i tid eller i budgeten. Det är viktigt att du definierar dessa faktorer för att projektledaren eller projektsponsorn ska kunna fatta ett väl underbyggt beslut om projektgodkännandet. Det här området är aktiverat som standard i affärsärendet, men Workfront-administratören kan välja att inte visa det.
+Risker är faktorer som kan förhindra att ett projekt slutförs i tid eller i budgeten. Det är viktigt att du definierar dessa faktorer för att Portfolio-chefen eller projektsponsorn ska kunna fatta ett väl underbyggt beslut om godkännandet av projektet. Det här området är aktiverat som standard i affärsärendet, men Workfront-administratören kan välja att inte visa det.
 
 Du kan koppla en potentiell kostnad till de risker du definierar om de ska inträffa. Kostnaden för riskerna i ett projekt påverkar projektets nettovärde. 
 
