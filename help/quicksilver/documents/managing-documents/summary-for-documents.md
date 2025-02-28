@@ -7,9 +7,9 @@ description: Med Sammanfattning kan du interagera med viktig information direkt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,11 @@ Du måste ha följande:
 ## Öppna sammanfattningsvyn
 
 1. Gå till området **Dokument** och markera ett objekt i listan.
-1. Klicka på ikonen **Öppna sammanfattning** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png).
 
    När du har öppnat sammanfattningen förblir den öppen när du klickar på andra dokument och är öppen tills du stänger den manuellt.
 
-   ![](assets/summary-details-350x585.png)
+   ![Sammanfattningsinformation](assets/summary-details-350x585.png)
 
 ## Information
 
@@ -69,19 +69,19 @@ Använd detaljavsnittet för att visa översiktsinformation på hög nivå och i
 * [Översikt](#overview)
 * [Anpassad Forms](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![Dokumentsammanfattningsinformation](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Ökning {#overview}
 
 Expandera avsnittet Översikt om du vill visa eller ladda ned en miniatyrbild, öppna ett korrektur, uppdatera den grundläggande beskrivningen, checka ut dokumentet med mera.
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Översikt över dokumentsammanfattning](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Anpassad Forms {#custom-forms}
 
 Använd sektionen Anpassad Forms för att lägga till, redigera eller visa anpassade formulär som är kopplade till dokumentet. Börja skriva namnet på det anpassade formuläret för att lägga till det i dokumentet. Mer information finns i [Lägga till eller redigera ett anpassat formulär i ett dokument](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![Lägg till ett anpassat formulär i dokumentsammanfattning](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Uppdateringar
 
@@ -98,7 +98,7 @@ Bevisgodkännanden måste läggas till i korrekturarbetsflödet. Mer information
 * [Godkänner arbete](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Begär dokumentgodkännanden](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Godkännanden av dokumentsammanfattning](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versioner
 
@@ -110,4 +110,4 @@ Använd avsnittet Versioner om du vill visa antalet versioner som skapats för e
 * Gå till Dokumentinformation
 * Ta bort ett korrektur eller dokument
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Dokumentsammanfattningsversioner](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
