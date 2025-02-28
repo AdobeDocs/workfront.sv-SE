@@ -7,9 +7,9 @@ description: Förstå budgeterad arbetskostnad och budgeterade timmar för proje
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Om användare är associerade med jobbrollerna i projektet och deras timmar är 
 
 * [!UICONTROL **Budgeterad arbetskostnad**]: Resursbudgeteringsområdet för affärsärendet under deras respektive roller.
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![Budgeterad arbetskostnad i affärsärende](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]: Resursplaneraren visar information i projekt- och rollvyn utifrån kostnad.
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![Budgeterad arbetskostnad i resursplaner](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 Användarna visas i området Resursbudgetering i affärsärendet under sina respektive roller eller i Resursplaneraren om de uppfyller följande krav:
 
