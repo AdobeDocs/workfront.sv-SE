@@ -6,9 +6,9 @@ description: En kalenderrapport är en dynamisk rapport som ger en visuell repre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c88c8dc7431f3bc711ae1942df12925fafa7eff0
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -205,7 +205,6 @@ När du har ställt in hur du vill att objekten ska visas måste du lägga till 
    * **[!UICONTROL Tasks]**
    * **[!UICONTROL Projects]**
    * **[!UICONTROL Issues]**
-   * **Tid av**
 
 1. Klicka på **[!UICONTROL Add Tasks]**, **[!UICONTROL Add Projects]**, **[!UICONTROL Add Issues]** eller **Tid av** beroende på vilken objekttyp du lägger till i kalendern.
 

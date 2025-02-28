@@ -6,9 +6,9 @@ description: En kalenderrapport är en dynamisk rapport som ger en visuell repre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Ställ in artikelgruppen
+## Ställ in artikelgruppen i produktion
 
 Du kan välja hur du vill att gruppen med objekt ska visas i din kalender.
 
@@ -118,7 +118,7 @@ Klicka på **[!UICONTROL + New Calendar]** och ange kalendernamnet.
 
 1. Fortsätt till följande avsnitt.
 
-## Lägga till objekt i objektgruppen
+## Lägga till objekt i gruppen med objekt i produktion
 
 När du har ställt in hur du vill att objekten ska visas måste du lägga till de objekt som du vill se i kalendern i grupperingen.
 
@@ -146,3 +146,97 @@ När du har ställt in hur du vill att objekten ska visas måste du lägga till 
    >Om standardetikettalternativen inte är tillgängliga för ett visst objekt visas objektnamnet i stället. När etiketten Överordnad aktivitet är markerad och det inte finns någon överordnad aktivitet kopplad till objektet, visar [!DNL Adobe Workfront] objektnamnet som du visar i kalendern.
 
 1. Klicka på **[!UICONTROL Save]**.
+
+<div class="preview">
+
+## Ställa in en grupp med objekt i förhandsgranskning
+
+Du kan välja hur du vill att gruppen med objekt ska visas i din kalender.
+
+{{step1-to-calendars}}
+
+1. Välj den kalender som du vill lägga till en ny grupp med objekt, klicka på menyn Mer och sedan **Redigera**.
+eller
+Klicka på **[!UICONTROL + New Calendar]**, ange projektnamnet och klicka sedan på **[!UICONTROL Add advanced items]**.
+
+   >[!NOTE]
+   >
+   >Du måste ha [!UICONTROL Edit] åtkomst till [!UICONTROL Reports], [!UICONTROL Dashboards] och [!UICONTROL Calendars] på din åtkomstnivå för att skapa en kalenderrapport.
+
+1. Klicka på **[!UICONTROL Add to Calendar]** till vänster och sedan på **[!UICONTROL Add advanced items]**.
+
+1. Ange följande:
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Name this group of items]</strong></td>
+      <td>Ange ett namn för gruppen med objekt.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
+      <td>Välj en färg för gruppen med objekt. Alla objekt visas i den valda färgen i kalenderrapporten.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
+      <td><p>Välj <strong>[!UICONTROL Projected dates]</strong>. Mer information om planerade datum finns i </p>
+       <ul>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Översikt över projektets planerade startdatum</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Översikt över planerat slutförandedatum för projekt, uppgifter och ärenden</a><br></li>
+       </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL On the calendar, show]</strong></td>
+      <td><p>Välj hur du vill att datumen ska visas:</p>
+       <ul>
+        <li><strong>[!UICONTROL Start Date Only]</strong>: I kalendern visas objektet på ett enda datum.</li>
+        <li><strong>[!UICONTROL End Date Only]</strong>: I kalendern visas objektet på ett enda datum.</li>
+        <li><strong>[!UICONTROL Duration] (från början till slut)</strong>: I kalendern visas objektet över ett antal dagar.</li>
+       </ul></td>
+     </tr>
+     <tr data-mc-conditions="">
+      <td role="rowheader"><strong>[!UICONTROL Switch to Actual Dates when available]</strong></td>
+      <td><p>Kalendern växlar automatiskt till faktiska datum när de är tillgängliga. <br>Välj <strong>[!UICONTROL Yes]</strong> eller <strong>[!UICONTROL No]</strong> om du vill växla till faktiska datum när det är tillgängligt. Mer information om faktiska datum finns i</p>
+       <ul>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Översikt över projektets faktiska startdatum </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Översikt över projektets faktiska slutförandedatum </a></li>
+       </ul></td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Fortsätt till följande avsnitt.
+
+## Lägga till objekt i objektgruppen i förhandsgranskningen
+
+När du har ställt in hur du vill att objekten ska visas måste du lägga till de objekt som du vill se i kalendern i grupperingen.
+
+1. I avsnittet **[!UICONTROL What would you like to add to the calendar?]** väljer du
+
+   * **[!UICONTROL Tasks]**
+   * **[!UICONTROL Projects]**
+   * **[!UICONTROL Issues]**
+   * **[!UICONTROL Time Off]**
+1. Klicka på **[!UICONTROL Add Tasks]**, **[!UICONTROL Add Projects]** eller **[!UICONTROL Add Issues]**, beroende på vilken objekttyp du lägger till i kalendern.
+
+1. I listrutan börjar du skriva fältnamnet och väljer sedan fältkällan för objektet som du vill visa i kalendern (till exempel **[!UICONTROL Late Tasks]**).
+1. Ange en villkorssats för kalendergrupperingen.
+
+
+   ![Välj objekt för kalendern](assets/calendar-field-name.png)
+Mer information om hur du ställer in villkor finns i [Filter och villkorsmodifierare ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) .
+
+1. (Valfritt) Ange ytterligare objekt för kalendergrupperingen genom att upprepa steg 1-4.
+1. I fältet **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** väljer du hur objekten i den här kalendergruppen ska märkas i kalendern.
+
+   >[!NOTE]
+   >
+   >Om standardetikettalternativen inte är tillgängliga för ett visst objekt visas objektnamnet i stället. Om etiketten [!UICONTROL Parent Task] till exempel är markerad och det inte finns någon överordnad aktivitet kopplad till objektet, visar [!DNL Adobe Workfront] objektnamnet som du visar i kalendern.
+
+   ![ange aktivitetsetiketter](assets/set-task-labels.png)
+
+1. Klicka på **[!UICONTROL Save]**.
+
+</div>
