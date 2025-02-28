@@ -7,9 +7,9 @@ description: Nettovärdet för ett projekt är det sammanlagda förväntade vär
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -48,15 +48,15 @@ Nettovärdet för ett projekt finns i följande områden i Workfront:
 * Under Affärsärendesammanfattning \
   Mer information om området Affärsärendesammanfattning finns i avsnittet &quot;Förstå ärendesammanfattningen&quot; i artikeln [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![Nettovärde i affärsärende](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* I Portfolio-optimering om projektet är kopplat till en portfölj
+* I Portfolio Optimizer om projektet är kopplat till en portfölj
 
   >[!TIP]
   >
   >Summan av alla projektets nettovärden är portföljens nettovärde.
 
-  Mer information om optimering av Portfolio finns i [Översikt över optimering av Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Mer information om Portfolio Optimizer finns i [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * I fältet Nettovärde för projekt i följande listor och rapporter:
 
