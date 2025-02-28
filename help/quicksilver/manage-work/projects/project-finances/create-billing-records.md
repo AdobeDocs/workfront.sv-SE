@@ -5,9 +5,9 @@ description: Förutom att ställa in intäkter och spåra utgifter kan du skapa 
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ När du har skapat en faktureringspost och inkluderat timmar, utgifter och intä
 
    eller
 
-   Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet och redigera sedan information i alla tillgängliga fält.
+   Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet och redigera sedan information i alla tillgängliga fält.
 
    Uppdatera följande:
 
