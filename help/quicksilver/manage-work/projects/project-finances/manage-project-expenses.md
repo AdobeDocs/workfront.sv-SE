@@ -6,9 +6,9 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td>Contribute eller högre behörighet till projektet med behörighet att visa eller hantera ekonomi</td> 
+   <td>Contribute eller högre behörigheter för projektet med behörighet att visa eller hantera ekonomi</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ Dialogrutan **Lägg till en utgift** visas.
    * **Faktiskt belopp:** Det belopp som den faktiska kostnaden för utgiften uppgår till.\
      Detta påverkar projektets faktiska kostnad.
 
-   * **Planerat datum:** Det förväntade datumet för utgiften. Du kan skriva datumet i fältet med formatet *mm/dd/åå* eller klicka på kalenderikonen  ![](assets/calendar-icon.png) och välj datumet dynamiskt.
+   * **Planerat datum:** Det förväntade datumet för utgiften. Du kan skriva datumet i fältet med formatet *mm/dd/åå* eller klicka på kalenderikonen  ![Kalenderikon](assets/calendar-icon.png) och välj datumet dynamiskt.
 
    * **Betalningsdatum:** Datumet då utgiften betalades.
    * **Fakturerbar:** Välj det här alternativet om du vill fakturera den här utgiften. Det är viktigt att kategorisera en utgift som fakturerbar när du skapar faktureringsposter.
