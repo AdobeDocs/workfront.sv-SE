@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Innan du börjar måste du
 
-* Installera den utökade Workfront för Experience Manager-anslutningen
+* Installera den utökade Workfront for Experience Manager-kontakten
 
 ## Länka en resurs från Experience Manager Assets
 
@@ -84,7 +84,7 @@ Så här länkar du en resurs till Experience Manager Assets:
 
 1. Välj de resurser du vill ha.
 
-   ![](assets/select-an-asset.png)
+   ![Välj en resurs](assets/select-an-asset.png)
 
 1. Klicka på **Länk**.
 
@@ -103,7 +103,7 @@ Länka en mapp till Experience Manager Assets:
 
 1. Markera de mappar du vill använda.
 
-   ![](assets/select-a-folder.png)
+   ![Välj en mapp](assets/select-a-folder.png)
 
 1. Klicka på **Länk**.
 
@@ -127,6 +127,6 @@ Så här länkar du en ny version från Experience Manager Assets:
 
 1. Välj den resurs du vill använda.
 
-   ![](assets/select-an-asset.png)
+   ![Välj en resurs](assets/select-an-asset.png)
 
 1. Klicka på **Länk**.
