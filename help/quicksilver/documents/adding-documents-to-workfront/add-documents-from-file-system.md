@@ -6,9 +6,9 @@ description: Du kan lägga till dokument i projekt, uppgifter eller problem i fl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Så här lägger du till ett dokument:
 1. Gå till projektet, uppgiften eller utgåvan där du vill lägga till ett nytt dokument.
 1. Klicka på fliken **Dokument** och klicka sedan på listrutan **Lägg till ny** .
 
-   ![](assets/add-new-doc.png)
+   ![Lägg till nytt dokument](assets/add-new-doc.png)
 
 1. Beroende på vilken typ av dokument du vill lägga till gör du något av följande:
 
