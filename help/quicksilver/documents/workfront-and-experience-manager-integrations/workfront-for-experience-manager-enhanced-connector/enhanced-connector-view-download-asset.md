@@ -6,9 +6,9 @@ description: Du kan visa eller hämta en resurs i Adobe Workfront som är länka
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande:
 
 Innan du börjar måste du
 
-* Installera den utökade Workfront för Experience Manager-anslutningen
+* Installera den utökade Workfront for Experience Manager-kontakten
 
 ## Visa eller hämta en länkad resurs från Experience Manager Assets
 
@@ -62,4 +62,4 @@ Innan du börjar måste du
 1. Markera dokumentet i dokumentlistan.
 1. Håll markören över miniatyrbilden längst upp i dokumentsammanfattningen till höger och välj **Förhandsgranska** eller **Hämta**.
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![Förhandsgranska eller hämta](assets/view-or-download-enhanced-connector-350x123.png)
