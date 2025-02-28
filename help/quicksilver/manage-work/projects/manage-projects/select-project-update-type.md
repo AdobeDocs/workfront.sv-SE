@@ -6,9 +6,9 @@ description: Genom att välja en uppdateringstyp för ett projekt kan du styra h
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 När uppgifterna uppdateras uppdateras deras överordnade objekt (överordnade uppgifter eller projektet) vid den tidpunkt som anges av uppdateringstypen.  Så här anger du en uppdateringstyp för projektet:
 
 1. Gå till det projekt vars uppdateringstyp du vill ange.
-1. Klicka på menyn Mer ![](assets/more-icon.png) bredvid namnet på projektet och klicka sedan på **Redigera** .
+1. Klicka på Mer-menyn ![Mer-ikonen](assets/more-icon.png) bredvid namnet på projektet och klicka sedan på **Redigera** .
 
 1. Klicka på **Projekt** **Inställningar**.
 
