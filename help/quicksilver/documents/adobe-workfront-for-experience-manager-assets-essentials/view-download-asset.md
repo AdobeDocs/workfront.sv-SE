@@ -6,9 +6,9 @@ description: Du kan visa eller hämta en resurs i Adobe Workfront som är länka
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du måste ha följande:
 
 Innan du börjar,
 
-* Din Workfront-administratör måste konfigurera en integrering med Experience Manager. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera Experience Manager Assets Essentials-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Din Workfront-administratör måste konfigurera en Experience Manager-integrering. Mer information finns i [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen med Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Visa eller hämta en länkad resurs
 
@@ -66,4 +66,4 @@ Innan du börjar,
 1. Markera dokumentet i dokumentlistan.
 1. Håll markören över miniatyrbilden längst upp i dokumentsammanfattningen till höger och välj **Förhandsgranska** eller **Hämta**.
 
-   ![](assets/preview-or-download-350x107.png)
+   ![Förhandsgranska eller ladda ned](assets/preview-or-download-350x107.png)
