@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande:
 
 1. Klicka på **Utvecklare** > **Lägg till utvecklare** i avsnittet Användare.
 
-   ![](assets/manage-users-admin-console.png)
+   ![Hantera utvecklare i Admin Console](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Du måste ha följande:
 
 1. Lägg till nödvändiga produkter i utvecklarprofilen och klicka på **Spara**.
 
-![](assets/add-developer.png)
+![Lägg till utvecklare](assets/add-developer.png)
 
 ## Få tillgång till AppBuilder
 
@@ -72,7 +72,7 @@ Om AppBuilder är korrekt konfigurerat bör du se&quot;Skapa projekt från mall&
    >
    >Om du inte ser det här alternativet är du felkonfigurerad i Admin Console och har inte tillgång till App Builder-katalogen. Det här alternativet visas bara när du har tillgång till AppBuilder.
 
-   ![](assets/create-from-template.png)
+   ![Skapa projekt från mall](assets/create-from-template.png)
 
 1. Välj **App Builder**.
 
@@ -89,7 +89,7 @@ Om AppBuilder är korrekt konfigurerat bör du se&quot;Skapa projekt från mall&
 
 ## Adobe IO (aio) CLI
 
-Adobe tillhandahåller en CLI med öppen källkod som kan användas för att skapa App Builder-program. Dokumentation finns här: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) och Adobe App Builder-instruktioner [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe tillhandahåller en CLI med öppen källkod som kan användas för att skapa App Builder-program. Dokumentation finns här: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) samt Adobe App Builder-instruktioner [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installation
    1. Om du vill installera verktyget kör du: `npm install -g @adobe/aio-cli ` (kontrollera att du är på nod v18 först).
@@ -102,20 +102,20 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
 
 1. Konfigurationsval
    1. Fortsätt med att välja organisation och projekt bland de tillgängliga alternativen.\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+      ![Välj organisation](assets/select-org.png)
+      ![Välj projekt](assets/select-project.png)
 
 1. Välja och konfigurera mallar
    1. Bläddra bland alla tillgängliga mallar och välj mallen **@adobe/aem-cf-editor-ui-ext-tpl** för projektet.
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+      ![Sökmall](assets/search-template.png)
+      ![Välj mall](assets/select-template.png)
 
 1. Definiera tillägget
    1. Ge tillägget ett namn.
    1. Ge en beskrivande sammanfattning av tilläggets funktioner.
    1. Välj ett ursprungligt versionsnummer att börja med.
    1. Bekräfta slutförande genom att välja **Jag är klar**.
-      ![](assets/define-extension.png)
+      ![Definiera tillägg](assets/define-extension.png)
 
 1. Navigera till din projektmapp
    1. Åtkomst till src-mappen
@@ -308,7 +308,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
           export default Review;
       ```
 
-## Publish-program
+## Publicera program
 
 >[!IMPORTANT]
 >
@@ -326,12 +326,12 @@ För att ett gästprogram ska kunna läsas in i Workfront måste programmet skic
 1. Hitta det projekt som du använde för att skapa AppBuilder-programmet.
 
 1. Välj Production Workspace.
-   ![](assets/find-application.png)
+   ![Välj arbetsyta för produktion](assets/find-application.png)
 
 1. Skicka in programmet för privat granskning (du får varningar om att vi inte publicerar på marknadsplatsen för apputbyte, vilket är bra).
 
 1. Fyll i formuläret (titel, beskrivning, ikon och anteckning till granskare).
-   ![](assets/submission-details.png)
+   ![Fyll i formulär för privat granskning](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
@@ -344,11 +344,11 @@ För att ett gästprogram ska kunna läsas in i Workfront måste programmet skic
 1. Klicka på **Hantera** > **Experience Cloud-program**. Du bör se de skickade apparna med alternativ för att godkänna/avvisa.
 När de publicerade programtilläggen har godkänts bör de automatiskt läsas in i din Workfront-miljö.
 
-   ![](assets/approve-submission.png)
+   ![Godkänd sändning](assets/approve-submission.png)
 
 ## Ytterligare hjälp
 
-Adobe har bra dokumentation om hur du kommer igång med att skapa appar för AppBuilder och få dem att användas.
+Adobe har massor av dokumentation om hur du kommer igång med att skapa appar för AppBuilder och få dem att användas.
 
 Här är några praktiska länkar:
 
@@ -362,7 +362,7 @@ Här är några praktiska länkar:
 
 När du utvecklar ditt App Builder-program för Workfront kanske du behöver testa din app i Workfront utan att publicera den. Som tur är har vi en lösning för detta.
 
-I din App Builder-app kan du initiera `aio app run` för lokal utveckling. Detta ger dig en URL, vanligtvis något som `https://localhost:9080`. Du kan också köra `aio app deploy` för att hämta en statisk Adobe-domän. Observera dessa URL:er för framtida bruk.
+I din App Builder-app kan du initiera `aio app run` för lokal utveckling. Detta ger dig en URL, vanligtvis något som `https://localhost:9080`. Du kan också köra `aio app deploy` för att erhålla en statisk Adobe-domän. Observera dessa URL:er för framtida bruk.
 
 Gå sedan till den specifika dokumentinformationssida som du vill utveckla för i webbläsaren. Öppna utvecklarverktygen och gå till Lokal lagring för antingen workfront.com eller workfront.adobe.com. Här måste du lägga till en post. Använd `appBuilderDocDetailsOverride` som nyckel och den tidigare angivna URL:en för appbyggaren som värde.
 
