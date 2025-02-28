@@ -6,9 +6,9 @@ description: Du kan använda mallar som ett ramverk för att skapa projekt i Ado
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -65,14 +65,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till projekt och mallar</p>
 
-<p>redigera åtkomst till Portfolio och program, om mallen du använder innehåller Portfolio och ett program</p>
+<p>redigera åtkomst till portföljer och program om mallen du använder innehåller en Portfolio och ett program</p>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa behörigheter till en mall</p> 
-  <p>Om mallen du använder innehåller ett Portfolio och ett program måste du ha behörigheten Hantera för portföljen och programmet för att skapa projektet </p> 
+  <p>Om mallen du använder innehåller en Portfolio och ett program måste du ha behörigheten Hantera för portföljen och programmet för att skapa projektet </p> 
    <p>När du skapar ett projekt får du automatiskt behörigheten Hantera för projektet.</p></td> 
   </tr> 
  </tbody> 
@@ -97,13 +97,13 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
 
      >[!TIP]
      >
-     >När du skapar ett projekt med hjälp av en mall från en portfölj uppdateras fältet Portfolio i det nya projektet till att visa den portfölj som du valde att skapa projektet från. Detta skriver över Portfolio-fältet i mallen, om det har angetts.
+     >När du skapar ett projekt med hjälp av en mall från en portfölj uppdateras fältet Portfolio för det nya projektet till att visa den portfölj som du valde att skapa projektet från. Detta skriver över Portfolio-fältet i mallen, om det har angetts.
 
    * Gå till ett program och expandera sedan **Nytt projekt**.
 
      >[!TIP]
      >
-     >När du skapar ett projekt med hjälp av en mall från ett program uppdateras fältet Program för de nya projekten så att det program du valde att skapa projektet från visas. Fältet Portfolio i mallen uppdateras för att visa portföljen för det program du valde att skapa projektet från. Fälten Program och Portfolio i mallen skrivs över, om de har angetts.
+     >När du skapar ett projekt med hjälp av en mall från ett program uppdateras fältet Program för de nya projekten så att det program du valde att skapa projektet från visas. Portfolio-fältet i mallen uppdateras för att visa portföljen för det program du valde att skapa projektet från. Detta skriver över fälten Program och Portfolio i mallen, om de anges.
 
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
@@ -137,7 +137,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
       * Antalet uppgifter i mallen
       * Namnen på de anpassade mallformulären
 
-   1. (Valfritt) Hovra över namnet på en mall i den vänstra rutan och klicka på ikonen **Favoriter** **** ![](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
+   1. (Valfritt) Hovra över namnet på en mall i den vänstra rutan och klicka på ikonen **Favoriter** **** ![Favoriter](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
 
       eller
 
@@ -175,7 +175,7 @@ I stället för att börja i området Projekt kan du skapa ett projekt från en 
 {{step1-to-templates}}
 
 1. Klicka på namnet på en mall som du vill använda.
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Skapa projekt**.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och sedan på **Skapa projekt**.
 
    ![Skapa projekt från mall](assets/project-sharing-on-template.png)
 
