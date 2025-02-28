@@ -6,9 +6,9 @@ description: Dokument kan ordnas i mappar. Du kan skapa personliga mappar i ditt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öp
 
 1. Klicka på visningsalternativen ovanför den högra panelen för att ändra hur dokumenten visas.
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![Alternativ för dokumentvy](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Skapa mappar och undermappar
 
