@@ -6,9 +6,9 @@ description: Du kan hantera flera versioner av ett dokument i Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ Du måste ha följande:
 
 1. Långt upp på sidan Dokumentinformation klickar du på listrutan bredvid namnet och sedan på namnet på den version som du vill visa och hantera.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Versionslistrutan i dokumentinformationen](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Förutom att visa information om versionen kan du göra ändringar i versionen, till exempel namn, metadata och korrekturinställningar (om det är ett dokumentkorrektur).
 
 ## Ladda ned en enda dokumentversion
 
-1. Klicka på menyn Mer ![](assets/more-icon.png) till höger om versionen under **Versioner** i Sammanfattning och klicka sedan på **Hämta** i listrutan som visas.
+1. Klicka på menyn Mer ![Mer](assets/more-icon.png) till höger om versionen under **Versioner** i Sammanfattning och klicka sedan på **Hämta** i listrutan som visas.
 
-   ![](assets/more-versions-350x143.png)
+   ![Hämta ett enstaka dokument](assets/more-versions-350x143.png)
 
 ## Hämta alla versioner av ett dokument
 
@@ -105,4 +105,4 @@ Så här tar du bort en dokumentversion:
 
    Om dokumentet är länkat till en extern källa tas länken bort och dokumentet är inte längre tillgängligt via Workfront.
 
-   ![](assets/more-versions-350x143.png)
+   ![ta bort dokumentversion](assets/more-versions-350x143.png)
