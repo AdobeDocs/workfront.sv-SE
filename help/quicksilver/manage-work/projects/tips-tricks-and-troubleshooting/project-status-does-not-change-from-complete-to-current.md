@@ -7,9 +7,9 @@ description: (Även om detta kan läggas till som vanliga frågor har jag lämna
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Om ett projekts slutföringsläge är inställt på Manuellt kan projektstatus �
 Så här uppdaterar du ett projekts slutföringsläge till Manuellt:
 
 1. Gå till det projekt som du vill uppdatera.
-1. Klicka på ikonen **Mer** ![](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.
 1. Klicka på **Projekt** **Inställningar**.
 
 1. Leta upp listrutan **Slutförandeläge** och välj **Manuell**.
