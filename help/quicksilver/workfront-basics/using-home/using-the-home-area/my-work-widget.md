@@ -6,9 +6,9 @@ description: Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>  
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Contribute behörigheter eller högre för de uppgifter och problem som du behöver arbeta med</p>  </td> 
+   <td> <p>Contribute-behörigheter eller högre för de uppgifter och problem som du behöver arbeta med</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan finjustera filtren Mitt arbete för att fokusera på specifika objekt i din lista över arbeten:
 
-![](assets/filter-my-work-widget.png)
+![filtret Mitt arbete](assets/filter-my-work-widget.png)
 
 ### Filterinformation
 
@@ -135,7 +135,7 @@ För förfallna objekt visas en varningsikon bredvid datumet. Workfront använde
 >Om du vill skapa en lista som visar alla förfallna objekt högst upp i widgeten Mitt arbete sorterar du efter förfallodatum och tillämpar ingen gruppering.
 
 
-![](assets/sort-my-work-widget.png)
+![Sortera i widgeten Mitt arbete](assets/sort-my-work-widget.png)
 
 ### Grupp
 
@@ -151,7 +151,7 @@ Förfallodatumet bestäms av det planerade slutförandedatumet.
 >När du tillämpar en gruppering bestäms ordningen i grupperingen av det du väljer på menyn Sortera.
 
 
-![](assets/group-my-work-widget.png)
+![Gruppera i widgeten Mitt arbete](assets/group-my-work-widget.png)
 
 ## Uppdatera information om arbetsuppgift i sammanfattningen
 
@@ -167,7 +167,7 @@ Workfront-administratörer kan anpassa vilka fält som ska visas i sammanfattnin
 * Loggtid
 * Visa bifogade godkännandeprocesser
 
-Håll markören över arbetsobjektet och klicka sedan på ikonen **Sammanfattning** ![](assets/open-summary-new-home.png) för att öppna sammanfattningen.
+Håll markören över arbetsobjektet och klicka sedan på ikonen **Sammanfattning** ![Sammanfattning](assets/open-summary-new-home.png) för att öppna sammanfattningen.
 
 Mer information om hur du använder panelen Sammanfattning finns i [Översikt över sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -182,7 +182,7 @@ Du kan använda snabbåtgärdsmenyn för att
 
 Håll markören över arbetsobjektet för att hitta snabbåtgärdsmenyn. Listan med snabbåtgärder visas nära knappen **Arbeta med den** eller **Klar**.
 
-![](assets/quick-actions-new-home.png)
+![Snabbåtgärdsmeny](assets/quick-actions-new-home.png)
 
 
 ## Visa godkännanden och teamförfrågningar
