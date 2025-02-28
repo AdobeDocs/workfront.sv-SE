@@ -6,9 +6,9 @@ description: Varje widget innehåller en egen arbetslista. Arbetslister visar al
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Contribute behörigheter eller högre för de uppgifter och problem som du behöver arbeta med</p>  </td> 
+   <td> <p>Contribute-behörigheter eller högre för de uppgifter och problem som du behöver arbeta med</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Du kan filtrera objekt i [!UICONTROL Worklist] för en widget så att endast vis
 
 Så här filtrerar du ditt arbete:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** om du vill lägga till någon av följande widgetar:
 
    | Widget | Beskrivning |
@@ -117,12 +117,12 @@ Så här filtrerar du ditt arbete:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Filter** ![](assets/filter-nwepng.png) i det övre högra hörnet av widgetens arbetslista.
+1. Klicka på ikonen **Filter** ![Filtrera ](assets/filter-nwepng.png) i det övre högra hörnet av widgetens arbetslista.
 1. Välj ett **föreslaget**-filter eller ett filter som du har skapat.
 Mer information om föreslagna filter finns i [Översikt över filter för hemwidget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Valfritt) Aktivera **Staplingsfilter** om du vill välja flera filteralternativ.
 
-   ![](assets/my-task-filter-open.png)
+   ![Filtret Min aktivitet är öppet](assets/my-task-filter-open.png)
 
 
 ## Gruppera ditt arbete
@@ -131,7 +131,7 @@ Du kan gruppera widgeten [!UICONTROL worklist] för att ordna dina arbetsobjekt.
 
 Så här grupperar du din arbetslista:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** om du vill lägga till någon av följande widgetar:
 
    | Widget | Beskrivning |
@@ -144,16 +144,16 @@ Så här grupperar du din arbetslista:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Grupp** ![](assets/group-icon.png) i det övre högra hörnet av widgetens arbetslista.
+1. Klicka på ikonen **Grupp** ![Gruppera ](assets/group-icon.png) i det övre högra hörnet av widgetens arbetslista.
 1. Välj en **föreslagen** gruppering eller en gruppering som du har skapat.
-   ![](assets/grouping-expanded.png)
+   ![Gruppering utökad](assets/grouping-expanded.png)
 
 
 ## Anpassa kolumner för arbetslistor
 
 Du kan välja vilka kolumner som ska visas i widgetens arbetslista:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** om du vill lägga till någon av följande widgetar:
 
    | Widget | Beskrivning |
@@ -166,10 +166,10 @@ Du kan välja vilka kolumner som ska visas i widgetens arbetslista:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Kolumn** ![](assets/column-icon.png) i det övre högra hörnet av widgetens arbetslista.
+1. Klicka på ikonen **Kolumn** ![Kolumn ](assets/column-icon.png) i det övre högra hörnet i widgetens arbetslista.
 1. Aktivera och inaktivera kolumnerna beroende på dina inställningar.
-1. (Valfritt) Klicka på ikonen **Dra** ![](assets/drag-icon.png) om du vill ändra ordning på kolumnerna.
-   ![](assets/columns-expanded.png)
+1. (Valfritt) Klicka på ikonen **Dra** ![Dra ikonen ](assets/drag-icon.png) för att ändra ordning på kolumnerna.
+   ![Kolumner utökade](assets/columns-expanded.png)
 
 
 ## Visa sena artiklar
