@@ -7,9 +7,9 @@ description: På sidan Dokumentinformation kan du visa, kommunicera och hantera 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ På sidan Dokumentinformation kan du visa, kommunicera och hantera egenskaperna 
 
 1. Håll markören över dokumentet och klicka sedan på **Dokumentinformation**.
 
-   ![](assets/document-details-350x179.png)
+   ![Dokumentinformation](assets/document-details-350x179.png)
 
 ## Utför grundläggande åtgärder för dokument och korrektur
 
@@ -37,7 +37,7 @@ Du kan utföra följande åtgärder för både dokument och korrektur på sidan 
 * Redigera dokumentbeskrivningen
 * Checka in eller checka ut ett dokument
 
-Du kan dessutom använda ikonen Mer ![](assets/more-icon.png) bredvid dokumentnamnet för att utföra följande åtgärder:
+Du kan dessutom använda ikonen Mer ![Mer ](assets/more-icon.png) bredvid dokumentnamnet för att utföra följande åtgärder:
 
 * Dela
 * Flytta
