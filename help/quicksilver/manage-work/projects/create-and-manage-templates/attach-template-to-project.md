@@ -6,9 +6,9 @@ description: Du kan bifoga en mall till ett projekt antingen under den inledande
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ Du måste ha följande för att kunna utföra de steg som beskrivs i den här ar
 
 Du kan bifoga en mall till ett projekt i Workfront från projektsidan eller från en projektlista eller rapport.
 
-1. Gå till projektet där du vill bifoga en mall och klicka på ikonen **Mer** ![](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet
+1. Gå till projektet där du vill bifoga en mall och klicka på ikonen **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Fler listrutor](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![](assets/qs-more-icon-on-an-object.png) längst upp i listan.
+   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer](assets/qs-more-icon-on-an-object.png) högst upp i listan.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Mer meny utökad](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. Klicka på **Bifoga mall**.
@@ -106,16 +106,16 @@ Du kan bifoga en mall till ett projekt i Workfront från projektsidan eller frå
    * Totalt antal uppgifter
    * Namn på kopplade anpassade formulär
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![Koppla mallruta](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Valfritt) Klicka på ikonen **Favoriter** ![](assets/favorites-icon-small.png) till vänster om mallnamnet för att markera det som en favorit. Detta flyttar mallen i favoritlistan.
+1. (Valfritt) Klicka på ikonen **Favoriter** ![Favoriter](assets/favorites-icon-small.png) till vänster om mallnamnet för att markera det som en favorit. Detta flyttar mallen i favoritlistan.
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   ![Ikonen Favoriter i malllistan](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (Valfritt) Klicka på ikonen **Favoriter** ![](assets/favorites-icon-selected.png) igen för att ta bort den från favoritlistan.
+1. (Valfritt) Klicka på ikonen **Favoriter** ![Favoriter](assets/favorites-icon-selected.png) igen för att ta bort den från favoritlistan.
 1. Klicka på **Anpassa och bifoga**.
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![Koppla mall](assets/attach-template-large-box-nwe-350x262.png)
 
 1. Uppdatera informationen i följande avsnitt innan du bifogar mallen (eller klicka på **Koppla mall** när som helst):
 
@@ -193,6 +193,6 @@ Så här förstår du vilken mall som används i ett projekt:
 1. Klicka på **Projektinformation** i den vänstra panelen.
 1. Hitta namnet på mallen som är kopplad till projektet i fältet **Mall** längst ned i avsnittet **Översikt** under **Projektrelationer** .
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![Mallinformation i projekt](assets/nwe-template-info-on-project-350x356.png)
 
 
