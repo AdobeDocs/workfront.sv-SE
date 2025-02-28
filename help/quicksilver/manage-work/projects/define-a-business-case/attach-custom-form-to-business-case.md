@@ -5,9 +5,9 @@ description: Anpassade Forms används för att samla in information som inte vis
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ Så här bifogar du ett anpassat formulär:
 
 1. I avsnittet **Eget formulär** väljer du det anpassade formulär som du vill bifoga i listrutan.
 
-   ![](assets/custom-forms-drop-down-menu.png)
+   ![Listrutan Anpassade formulär](assets/custom-forms-drop-down-menu.png)
 
 1. (Valfritt) Välj **Redigera anpassat formulär**.\
-   ![](assets/acf1-350x122.png)
+   ![Redigera eget formulär](assets/acf1-350x122.png)
 
 1. (Valfritt) Ange information i fälten i det anpassade formuläret och klicka sedan på **Spara** .
