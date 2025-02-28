@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Skapa mål för affärsärenden
-description: Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål för att definiera målen för ett projekt. Mål för affärsärenden används för att kommunicera till Portfolio-förvaltaren eller projektsponsorn i syfte att slutföra ett projekt.
+description: Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål för att definiera målen för ett projekt. Mål för affärsärenden används för att kommunicera till Portfolio-chefen eller projektsponsorn i syfte att slutföra ett projekt.
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Skapa mål för affärsärenden
 
-Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål för att definiera målen för ett projekt. Mål för affärsärenden används för att kommunicera till Portfolio-förvaltaren eller projektsponsorn i syfte att slutföra ett projekt.
+Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål för att definiera målen för ett projekt. Mål för affärsärenden används för att kommunicera till Portfolio-chefen eller projektsponsorn i syfte att slutföra ett projekt.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,7 +31,7 @@ Tänk på följande när du skapar affärsmål för dina projekt:
 
 * Mål är inte ett obligatoriskt avsnitt i ett projekts affärsfall.
 
-  Ett projekt kan få poäng som ska prioriteras i Portfolio-optimering, även om målavsnittet i affärsärendet inte har definierats.
+  Ett projekt kan få poäng som ska prioriteras i Portfolio Optimizer, även om målavsnittet i affärsärendet inte är definierat.
 
   Mer information om poängen i Portfolio Optimizer finns i [Använda ett styrkort i ett projekt och generera ett justeringsresultat](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
@@ -75,7 +75,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Affärsärendet visas.
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![Information om affärsfall](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. Klicka på **Redigera mål** i avsnittet **Mål**.
 
@@ -88,7 +88,7 @@ Välj prioritetsnivå i listrutan **Prioritet**:
    * Låg
    * Lägsta
 
-     ![](assets/g1-350x76.png)
+     Viktighet (assets/g1-350x76.png)
 
      Du kan inte anpassa prioritetsnivåerna för mål.
 
