@@ -6,9 +6,9 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -204,7 +204,7 @@ Tänk på följande:
 
    Mer information om hur du lägger till uppgifter i ett projekt finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Redigera projektinformationen genom att klicka på menyn **Mer** och sedan **Redigera** ![](assets/qs-edit-icon.png) bredvid namnet på projektet.
+1. Redigera projektinformationen genom att klicka på menyn **Mer** och sedan på **Redigera** ![Redigera-ikonen](assets/qs-edit-icon.png) bredvid namnet på projektet.
 
    Dialogrutan **Redigera projekt** öppnas.
 
