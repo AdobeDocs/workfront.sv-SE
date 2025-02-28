@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,8 @@ Så här skapar du en uppgift eller ett problem i ett projekt:
 {{step1-to-priorities}}
 
 1. Klicka på **Skapa ny** i det övre högra hörnet.
-   ![](assets/create-new.png)
-ny skärm för prod ![](assets/create-new--.png)
+   ![Skapa ny](assets/create-new.png)
+ny skärm för prod ![Skapa ny (produktion)](assets/create-new--.png)
 1. Ange följande information:
 
    | Fält | Instruktioner |
