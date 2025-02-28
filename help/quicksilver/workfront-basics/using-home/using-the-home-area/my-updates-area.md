@@ -6,9 +6,9 @@ description: Du kan använda området [!UICONTROL My Updates] för att snabbt gr
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -76,13 +76,13 @@ Du måste ha följande innan du börjar:
 
 1. Klicka på **[!UICONTROL My Updates]** i **[!UICONTROL Main Menu]**.
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![Mina uppdateringar på huvudmenyn](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    Området [!UICONTROL My Updates] öppnas.
 
    Godkännanden och åtkomstbegäranden som tilldelats dig visas på den första halvan av sidan under **Mina uppdateringar**.
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![Mina uppdateringar omnämns för granskare](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Valfritt) Bläddra längst ned i området [!UICONTROL **Mina uppdateringar**] och klicka på högerpilen för att visa fler godkännanden som visas på ytterligare sidor.
 
@@ -90,9 +90,9 @@ Du måste ha följande innan du börjar:
    >
    >De första fem godkännandena eller förfrågningarna om åtkomst visas som standard. Återstående godkännanden visas på ytterligare sidor. Du kan visa högst 2 000 godkännanden i området [!UICONTROL My Updates].
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![Sidnumrering för Mina uppdateringar](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Valfritt) Expandera den nedrullningsbara menyn **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) i det övre högra hörnet av avsnittet **[!UICONTROL My Updates]** och välj något av följande:
+1. (Valfritt) Expandera den nedrullningsbara menyn **[!UICONTROL Filter]** ![Filterikon](assets/filter-nwepng.png) i det övre högra hörnet av avsnittet **[!UICONTROL My Updates]** och välj något av följande:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ Du måste ha följande innan du börjar:
 
 1. Så här godkänner eller avvisar du ett objekt eller föreslår ändringar i ett dokument innan du godkänner:
 
-   1. (Valfritt) Klicka på listrutan **** ![](assets/down-arrow-blue.png) bredvid ditt godkännandebeslut (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**,**[!UICONTROL Reject]**) och lägg till en kommentar. Klicka sedan på **[!UICONTROL Add]**.
+   1. (Valfritt) Klicka på ikonen **listruta** ![listruta](assets/down-arrow-blue.png) bredvid ditt godkännandebeslut (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**,**[!UICONTROL Reject]**) och lägg till en kommentar. Klicka sedan på **[!UICONTROL Add]**.
 
       eller
 
       Klicka på **[!UICONTROL Skip]** om du inte vill ange en kommentar.
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![Beslutsknappar för godkännande med kommentarruta](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -136,7 +136,7 @@ Du måste ha följande innan du börjar:
       >Om du inte vill lägga till en kommentar till ditt beslut kan du klicka på knappen **[!UICONTROL Approve]**, **[!UICONTROL Reject]** eller **[!UICONTROL Changes]** så beviljas godkännandebeslutet omedelbart.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![Beslutsknappar för godkännande](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >Mer information om hur du godkänner arbete finns i [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
@@ -146,7 +146,7 @@ Du måste ha följande innan du börjar:
 
    Expandera den nedrullningsbara menyn **[!UICONTROL Change access]** om du vill ändra den begärda åtkomsten innan du beviljar den.
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![Ändra åtkomstknapp](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Ignore]** för att rensa åtkomstbegäran från din godkännandelista utan att bevilja den.
 1. Klicka på **[!UICONTROL Delegate my approvals]** om du vill delegera de godkännanden som skickas till dig om du inte kan fatta några beslut om godkännande under en tid. Mer information om delegering av godkännanden finns i [Delegera godkännandebegäran](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
@@ -166,6 +166,6 @@ Du måste ha följande innan du börjar:
 
      När du är klar med att lägga till svaret klickar du på **[!UICONTROL Submit]**.
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![Svara i området Mina uppdateringar](assets/reply-in-the-my-updates-area.png)
 
 1. (Valfritt) Klicka på **[!UICONTROL Pin current page]** om du vill fästa området [!UICONTROL My Updates] i den övre navigeringen.
