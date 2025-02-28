@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 {{step1-to-priorities}}
 
 1. Klicka på **Kolumner** till höger på skärmen.
-   ![](assets/columns.png)
+   ![Kolumner](assets/columns.png)
 1. Använd reglagen för att aktivera eller inaktivera kolumner i arbetslistan.
 
 ### Ändra ordning på kolumnerna
@@ -77,15 +77,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på **Kolumner** till höger på skärmen.
 1. Klicka på ikonen **Dra** och flytta kolumnen till önskad plats. Flyttar automatiskt kolumnuppdateringar i arbetslistan.
-   ![](assets/reorder-columns.png)
+   ![Ändra ordning på kolumner](assets/reorder-columns.png)
 
 ### Återställ kolumnbredder
 
 {{step1-to-priorities}}
 
 1. Klicka på **Kolumner** till höger på skärmen.
-1. Klicka på ikonen **Mer** ![](assets/more-icon.png) och välj **Återställ kolumnbredder**.
-   ![](assets/columns.png)
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och välj **Återställ kolumnbredder**.
+   ![Kolumner](assets/columns.png)
 
 ## Anpassa kolumnerna i listan Prioriteter
 
@@ -94,7 +94,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 {{step1-to-priorities}}
 
 1. Klicka på **Kolumner** till vänster på skärmen.
-   ![](assets/columns-new.png)
+   ![Kolumner](assets/columns-new.png)
 1. Använd reglagen för att aktivera eller inaktivera kolumner i arbetslistan.
 
 ### Ändra ordning på kolumnerna
@@ -103,7 +103,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på **Kolumner** till vänster på skärmen.
 1. Klicka på ikonen **Dra** och flytta kolumnen till önskad plats. Flyttar automatiskt kolumnuppdateringar i arbetslistan.
-   ![](assets/reorder-columns-new.png)
+   ![Ändra ordning på kolumner](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
