@@ -2,20 +2,20 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Länka resurser och mappar från Experience Manager Assets eller Assets Essentials
-description: Du kan länka en resurs eller mapp från Experience Manager Assets eller Assets Essentials till ett Adobe Workfront-objekt som stöder dokument. Assets som skickas från Assets Essentials kan inte räknas in i din totala dokumentlagring i Workfront. Dokument som överförts och skickats från Workfront till Assets Essentials räknas i stället in i det totala lagringsutrymmet.
+description: Du kan länka en resurs eller mapp från Experience Manager Assets eller Assets Essentials till ett Adobe Workfront-objekt som stöder dokument. Assets som skickas från Assets Essentials räknas inte in i ditt totala dokumentlagringsutrymme i Workfront. Dokument som överförs och skickas från Workfront till Assets Essentials räknas in i det totala lagringsutrymmet.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
 # Länka resurser och mappar från Experience Manager Assets eller Assets Essentials
 
-Du kan länka en resurs eller mapp från Experience Manager Assets eller Assets Essentials till ett Adobe Workfront-objekt som stöder dokument. Assets som skickas från Assets Essentials kan inte räknas in i din totala dokumentlagring i Workfront. Dokument som överförts och skickats från Workfront till Assets Essentials räknas i stället in i det totala lagringsutrymmet.
+Du kan länka en resurs eller mapp från Experience Manager Assets eller Assets Essentials till ett Adobe Workfront-objekt som stöder dokument. Assets som skickas från Assets Essentials räknas inte in i ditt totala dokumentlagringsutrymme i Workfront. Dokument som överförs och skickas från Workfront till Assets Essentials räknas in i det totala lagringsutrymmet.
 
 Metadatafält mappas först när du skickar en resurs från Workfront till Experience Manager Assets eller Assets Essentials. Om Workfront-administratören har aktiverat synkronisering av objektmetadata, förblir fälten aktuella om de ändras i något av programmen.
 
@@ -42,7 +42,7 @@ Du måste ha följande:
    <td>Du måste ha Experience Manager as a Cloud Service eller Assets Essentials, och du måste läggas till i produkten som användare i Admin Console.</td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Experience Manager behörigheter</td> 
+    <td role="rowheader">Experience Manager-behörigheter</td> 
     <td>Du måste ha skrivåtkomst till mappen.</td> 
    </tr>
   <tr> 
@@ -64,7 +64,7 @@ Du måste ha följande:
 
 Innan du börjar,
 
-* Din Workfront-administratör måste konfigurera en integrering med Experience Manager. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera Experience Manager Assets Essentials-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Din Workfront-administratör måste konfigurera en Experience Manager-integrering. Mer information finns i [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen med Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Länka en resurs från Experience Manager Assets eller Assets Essentials
 
@@ -78,11 +78,11 @@ Du kan länka en resurs från Experience Manager Assets eller Assets Essentials 
 
    >[!NOTE]
    >
-   >Workfront-administratören kan välja vilket namn som helst för integreringen, så det får inte uttryckligen innehålla Assets eller Assets Essentials.
+   >Workfront-administratören kan välja vilket namn som helst för den här integreringen, så den får inte särskilt nämna Assets eller Assets Essentials.
 
 1. Välj de resurser du vill ha.
 
-   ![](assets/select-an-asset.png)
+   ![Välj en resurs](assets/select-an-asset.png)
 
 1. Klicka på **Markera**.
 
@@ -99,13 +99,13 @@ Behörigheter att visa enskilda resurser i en mapp kräver Experience Manager As
 
 1. Markera de mappar du vill använda.
 
-   ![](assets/select-a-folder.png)
+   ![Välj en mapp](assets/select-a-folder.png)
 
 1. Klicka på **Markera**.
 
 ## Länka en ny version från Experience Manager Assets eller Assets Essentials
 
-Du kan hämta en ny resurs från Assets Essentials och lägga till den i en befintlig resurs som en ny version. Om dokumentet redan är länkat och en ny version har lagts till i Assets Essentials, visas den nya versionen automatiskt i Workfront.
+Du kan hämta en ny resurs från Resurser Essentials och lägga till den i en befintlig resurs som en ny version. Om dokumentet redan är länkat och en ny version läggs till i Resurser Essentials, visas den nya versionen automatiskt i Workfront.
 
 Så här länkar du en ny version från Assets Essentials:
 
@@ -119,7 +119,7 @@ Så här länkar du en ny version från Assets Essentials:
 
 1. Välj den resurs du vill använda.
 
-   ![](assets/select-an-asset.png)
+   ![Välj en resurs](assets/select-an-asset.png)
 
 1. Klicka på **Markera**.
 
