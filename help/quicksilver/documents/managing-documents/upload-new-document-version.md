@@ -6,9 +6,9 @@ description: Du kan lägga till en ny version av ett dokument som du tidigare ha
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Du måste ha följande:
 1. Gå till området Dokument där dokumentet överförs.
 1. Dra den nya versionen av dokumentet från skrivbordet eller en separat webbläsarflik över den befintliga versionen i Workfront.
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
+   ![Dra och släpp dokumentversion](assets/drag-drop-doc-qs-350x145.png)
 
    När du drar den nya versionen kan du hålla muspekaren över en Workfront-dokumentmapp för att öppna den. Du kan sedan rulla uppåt och nedåt genom att dra filerna till skärmens övre eller nedre del.
 
@@ -80,6 +80,6 @@ Du måste ha följande:
 1. Markera dokumentet där du vill lägga till en ny version.
 1. Klicka på **Lägg till ny** > **Version**.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Lägg till ny version](assets/add-new-version-350x185.png)
 
 1. Välj vilken typ av dokument du vill överföra och följ sedan anvisningarna.
