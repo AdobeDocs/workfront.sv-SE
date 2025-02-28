@@ -6,9 +6,9 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -149,15 +149,15 @@ Du kan beräkna om ekonomin för projekt i Workfront från projektsidan eller fr
 
 Du kan beräkna om ekonomin samtidigt som du redigerar dem i grupp. Mer information finns i avsnittet [Beräkna finanser manuellt i bulk](#manually-recalculate-finances-in-bulk) i den här artikeln.
 
-1. Gå till projektet där du vill beräkna om ekonomin och klicka på ikonen **Mer** ![](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet.
+1. Gå till projektet där du vill beräkna om ekonomin och klicka på ikonen **Mer** ![Mer meny](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Fler listrutor på projektnivå](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett eller flera projekt. Klicka sedan på ikonen **Mer** ![](assets/qs-more-icon-on-an-object.png) längst upp i listan.
+   Gå till en projektlista eller rapport och välj ett eller flera projekt och klicka sedan på ikonen **Mer** ![Mer-menyn](assets/qs-more-icon-on-an-object.png) överst i listan.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Beräkna om uttryck](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ Du kan manuellt beräkna om ekonomin för flera projekt genom att redigera dem i
 Så här beräknar du om ekonomin för flera projekt manuellt:
 
 1. Gå till en lista med projekt.
-1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![](assets/qs-more-icon-on-an-object.png) längst upp i listan.
+1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) överst i listan.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Beräkna om uttryck](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ Följande åtgärder utlöser en ekonomisk omberäkning av projekt i Workfront:
 >
 >När du ändrar projektstatus beräknas endast de planerade värdena om.
 
-Du kan även beräkna om ekonomi manuellt på **Mer**-menyn ![](assets/qs-more-menu.png) på projektnivå genom att klicka på **Beräkna om ekonomi**.
+Du kan även beräkna om ekonomi manuellt på menyn **Mer** ![Mer](assets/qs-more-menu.png) på projektnivå genom att klicka på **Beräkna om ekonomi**.
