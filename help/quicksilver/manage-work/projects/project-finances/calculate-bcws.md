@@ -7,9 +7,9 @@ description: BCWS (Budgeted Cost of Work Scheduled) kallas även för Planerat v
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Du kan konfigurera om BCWS ska beräknas i timmar eller kostnader genom att konf
 1. Gå till ett projekt och klicka på **Projektinformation** i den vänstra panelen.
 1. I området **Ekonomi** letar du reda på fältet **Resultatindexmetod** och dubbelklickar på det för att redigera det.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM-alternativ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Välj bland följande alternativ:
 
@@ -126,7 +126,7 @@ Du kan visa värdet för Budgeterad kostnad för arbete som schemalagts i en rap
 1. Klicka på **Lägg till kolumn**.
 1. I **Visa i den här kolumnen:** börjar du skriva **BCWS** och klickar för att markera det när det visas i listan.
 
-   ![](assets/bcws-in-project-view.png)
+   ![BCWS i projektvyn](assets/bcws-in-project-view.png)
 
 1. Klicka på **Spara vy**.
 1. Fältet **BCWS** visas i vyn.
