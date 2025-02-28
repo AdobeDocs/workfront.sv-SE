@@ -6,9 +6,9 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Så här skapar eller redigerar du en risk i ett affärsärende:
 
    * **Korrigeringskostnad**: ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
 
-   ![](assets/crp1-350x117.png)
+   ![Risker](assets/crp1-350x117.png)
 
 1. (Valfritt) Klicka på **Lägg till ytterligare risk** om du vill lägga till ytterligare risker.
 1. Klicka på **Spara**.
