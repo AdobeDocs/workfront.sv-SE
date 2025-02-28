@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Du kan kopiera ett projekt i stället för att skapa ett från början. Du kan b
 >* Mall
 >* Risker
 >* Information om köinställningar
->* Portfolio och programmet
+>* Portfolio och Program
 >* Styrkort
 >* Standardinformation för uppgift (Standardprocess för godkännande av uppgift, Anpassad Forms för standarduppgift)
 >
@@ -112,15 +112,15 @@ När du kopierar ett projekt kopieras även viss information från det ursprungl
 
 Kopiera ett projekt:
 
-1. Gå till projektet som du vill kopiera och klicka på ikonen **Mer** ![](assets/qs-more-menu.png) till höger om projektnamnet
+1. Gå till projektet som du vill kopiera och klicka på ikonen **Mer** ![Mer meny](assets/qs-more-menu.png) till höger om projektnamnet
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Fler listrutor](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![](assets/qs-more-menu.png) längst upp i listan.
+   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![Mer meny](assets/qs-more-menu.png) överst i listan.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Mer meny utökad](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Klicka på **Kopiera**.
 
@@ -128,7 +128,7 @@ Kopiera ett projekt:
 
    Som standard är det nya namnet **Kopia av `<Original project name>`.**
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![Kopiera projektruta](assets/copy-project-box-nwe-350x276.png)
 
 1. Välj **Status** för det nya projektet.
 
