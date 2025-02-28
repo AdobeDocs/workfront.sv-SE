@@ -6,9 +6,9 @@ description: Genom att beräkna om tidslinjer kan cheferna se hur olika faktorer
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -174,13 +174,13 @@ Som projektägare kan du manuellt beräkna om tidslinjerna för enskilda projekt
 
 Du kan beräkna om tidslinjen för ett projekt i Workfront från projektsidan eller från en projektlista eller rapport.
 
-1. Gå till projektet som du vill beräkna om tidslinjen för och klicka på ikonen **Mer** ![](assets/qs-more-menu.png) till vänster om projektnamnet
+1. Gå till projektet som du vill beräkna om tidslinjen för och klicka på ikonen **Mer** ![Mer meny](assets/qs-more-menu.png) till vänster om projektnamnet
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Fler listrutor](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett eller flera projekt. Klicka sedan på ikonen **Mer** ![](assets/qs-more-menu.png) längst upp i listan.
+   Gå till en projektlista eller rapport och välj ett eller flera projekt och klicka sedan på ikonen **Mer** ![Mer-menyn](assets/qs-more-menu.png) överst i listan.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
