@@ -7,9 +7,9 @@ description: BCWP (Budgeted Cost of Work Performed) kallas även för Earned Val
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Du kan konfigurera om BCWP ska beräknas i timmar eller kostnader genom att konf
 1. Gå till ett projekt och expandera **Projektinformation** i den vänstra panelen.
 1. I området **Ekonomi** letar du reda på fältet **Resultatindexmetod** och dubbelklickar för att redigera det.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM-alternativ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Välj bland följande alternativ:
 
@@ -125,7 +125,7 @@ Du kan visa värdet för Budgeterad kostnad för arbete som utförts i en rappor
 1. Klicka på **Lägg till kolumn**.
 1. I **Visa i den här kolumnen:** börjar du skriva **BCWP** och klickar för att markera fältet när det visas i listan.
 
-   ![](assets/bcwp-project-view.png)
+   ![BCWP i projektvyn](assets/bcwp-project-view.png)
 
 1. Klicka på **Spara vy**.
 1. BCWP-fältet visas i vyn.
