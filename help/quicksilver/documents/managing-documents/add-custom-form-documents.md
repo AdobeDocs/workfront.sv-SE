@@ -6,9 +6,9 @@ description: Du kan lägga till ett anpassat formulär i ett dokument eller i en
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Så här lägger du till ett anpassat formulär i ett dokument:
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka på ikonen **Sammanfattning** ![](assets/summary-panel-icon.png) och leta upp avsnittet **Information**.
+1. Klicka på ikonen **Sammanfattning** ![Sammanfattning](assets/summary-panel-icon.png) och leta sedan upp avsnittet **Information**.
 1. I rutan **Lägg till anpassat formulär** börjar du skriva och väljer ett anpassat formulär. Formuläret sparas automatiskt i dokumentet.
 
    >[!NOTE]
@@ -73,8 +73,8 @@ Så här lägger du till ett anpassat formulär i ett dokument:
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka på ikonen **Sammanfattning** ![](assets/summary-panel-icon.png) och leta sedan upp avsnittet **Detaljer** uppe.
+1. Klicka på ikonen **Sammanfattning** ![Sammanfattning](assets/summary-panel-icon.png) och leta sedan upp avsnittet **Detaljer** uppe.
 1. Klicka på **Redigera** i det övre högra hörnet och utöka sedan det önskade formuläret.
 1. Gör de ändringar du behöver och klicka sedan på **Spara**.
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![Redigera eget formulär](assets/edit-custom-form-350x265.png)
