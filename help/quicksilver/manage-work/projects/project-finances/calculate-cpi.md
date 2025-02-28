@@ -7,9 +7,9 @@ description: Kostnadsprestandaindexet (CPI) beskriver förhållandet på projekt
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -200,4 +200,4 @@ Du kan visa CPI för ett projekt eller en uppgift i ett projekt, en uppgiftslist
 
    Processorn visas i fältet **CPI/SPI/CSI**.
 
-   ![](assets/cpi-on-project-nwe.png)
+   ![CPI i projekt](assets/cpi-on-project-nwe.png)
