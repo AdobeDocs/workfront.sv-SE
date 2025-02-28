@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Om du väljer att skapa projektet från grunden, lägger Workfront automatiskt t
 
 Fortsätt till nästa avsnitt.
 
-![](assets/template-group.png)
+![Mallgrupp](assets/template-group.png)
 
 ### Lägga till uppgifter och tilldela Frame.io-aktiverade användare
 
@@ -105,7 +105,7 @@ Fortsätt till nästa avsnitt.
    eller
 
    Klicka på **Ny mallaktivitet** om du vill lägga till en aktivitet i taget och konfigurera ytterligare inställningar.
-   ![](assets/add-tasks-to-template.png)
+   ![Lägg till uppgifter i mallen](assets/add-tasks-to-template.png)
 1. Lägg till ett aktivitetsnamn.
 1. Tilldela användare eller team i området **Uppdrag**. Om du tilldelar en Frame.io-aktiverad användare, antingen individuellt eller i ett team, får de medarbetaråtkomst till Frame.io-projektet och meddelas via e-post om uppgiften i Frame.io-projektet. Från det mejlet kan de gå med i Frame.io-projektet och börja arbeta.
 1. Upprepa steg 1 och 2 efter behov.
@@ -133,7 +133,7 @@ När du har skapat en mall kan du använda den för att skapa projekt.
 1. Klicka på **Nytt projekt från mall**.
 1. Använd sökrutan och börja skriva namnet på den mall du behöver.
 1. Markera mallnamnet och klicka sedan på **Använd mall**.
-   ![](assets/find-your-template.png)
+   ![Hitta mallen](assets/find-your-template.png)
 1. Justera eventuella projektinställningar efter behov och klicka sedan på **Skapa projekt**.
 1. Klicka på **Dokument** i den vänstra panelen.
 1. Använd den enkelriktade synkroniseringsmappen för att automatiskt dela kreativt material med Frame.io. [!BADGE Kommer snart]{type=Informative}
@@ -176,7 +176,7 @@ Fortsätt till nästa avsnitt.
    eller
 
    Klicka på **Ny aktivitet** om du vill lägga till en aktivitet i taget och konfigurera ytterligare inställningar.
-   ![](assets/add-project-tasks.png)
+   ![Ny aktivitet](assets/add-project-tasks.png)
 1. Lägg till ett aktivitetsnamn.
 1. Tilldela användare eller team i området **Uppdrag**. Om du tilldelar en Frame.io-aktiverad användare, antingen individuellt eller i ett team, får de medarbetaråtkomst till Frame.io-projektet och meddelas via e-post om uppgiften i Frame.io-projektet. Från det mejlet kan de gå med i Frame.io-projektet och börja arbeta.
 1. Upprepa steg 1 och 2 efter behov.
