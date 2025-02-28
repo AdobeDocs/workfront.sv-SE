@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li>
-   <li><p> Adobe Experience Manager Assets, om du vill ansluta AEM resurser med posttyperna Planning<p>
+   <li><p> Adobe Experience Manager Assets, om du vill koppla AEM-resurser till posttyperna Planning<p>
    <p>Du måste ha en Adobe Experience Manager Assets-licens och en integrering mellan AEM Assets och Workfront.
     Mer information finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex</a>. </p>
    </li>
@@ -201,14 +201,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >Om du inte har andra posttyper i den valda arbetsytan visas inte arbetsyteavsnittet.
 
 
-   * En posttyp från en annan arbetsyta som konfigurerats för anslutning från andra arbetsytor. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * En posttyp från en annan arbetsyta som konfigurerats för anslutning från andra arbetsytor.
 
      >[!TIP]
      >
-     >Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
+     >Inställningen **Anslut från andra arbetsytor** måste aktiveras för en posttyp på fliken **Avancerade inställningar** i rutan **Redigera posttyp** för att en posttyp ska kunna nås från andra arbetsytor. Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
+     > ![Fliken Redigera posttypsruta för avancerade inställningar](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * Ett **projekt, Portfolio, program, företag** eller **grupp** från avsnittet **Workfront-objekttyper**.
 

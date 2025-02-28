@@ -6,9 +6,9 @@ description: 'Meddelanden: Mål'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Du kan aktivera e-postmeddelanden för händelser som inträffar i [!DNL Adobe W
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -55,18 +57,12 @@ Du måste ha följande:
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Förutsättningar
 
-Användaren vars [!DNL Goals] meddelanden uppdateras måste ha följande:
+* Användaren vars [!DNL Goals]-meddelanden du vill uppdatera måste ha en layoutmall som innehåller området [!DNL Goals] i [!UICONTROL Main Menu].
 
-* En layoutmall som innehåller området [!DNL Goals] i [!UICONTROL Main Menu].
-* Åtkomst till den nya [!DNL Adobe Workfront]-upplevelsen.
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: we need this here because you can see these notifications from Classic)
-  </MadCap:conditionalText>
-  -->
 
 ## [!DNL Goals] meddelanden i området [!UICONTROL user profile]
 

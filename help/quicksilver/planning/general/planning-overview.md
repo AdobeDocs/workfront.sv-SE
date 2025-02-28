@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
 >
->Du måste ha följande för att få tillgång till Workfront Planning:
+>Du måste ha följande för att få tillgång till alla funktioner i Workfront Planning:
 >
 >* Ett nytt Workfront-paket och en ny licens. Workfront Planning är inte tillgängligt för tidigare Workfront-paket eller licenser.
 >* Ett Workfront Planning-paket.
@@ -170,7 +170,7 @@ När din organisation har köpt ett Workfront Planning-paket måste du som Workf
 
 * Tilldela användarna som behöver tillgång till Planera en layoutmall som innehåller Planering på huvudmenyn. Mer information finns i [Anpassa huvudmenyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) och [Tilldela användare till en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Tilldela användare en Workfront-licens och Workfront Planning-behörigheter som gör att de kan visa eller skapa objekt i Workfront Planning. Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront Planning finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+* Tilldela användare en Workfront-licens och Workfront Planning-behörigheter som gör att de kan visa eller skapa objekt i Workfront Planning. Mer information om hur du beviljar åtkomst till och aktiverar andra för att använda Workfront Planning finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning - terminologi
 
@@ -272,7 +272,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
    * En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.
    * En posttyp och en Adobe Experience Manager-resurs eller mapp.
 
-     Du måste ha en Adobe Experience Manager-licens för att kunna länka posttyper med Experience Manager-objekt.
+     Du måste ha en Adobe Experience Manager-licens för att länka posttyper med Experience Manager-objekt.
 
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
@@ -325,7 +325,7 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
 ## Hitta Adobe Workfront Planning
 
-Om du vill hitta Adobe Planning kontrollerar du att din organisation har fått tillgång till Workfront Planning och att system- eller gruppadministratören har lagt till Planning-området på huvudmenyn. Mer information finns i [Åtkomstöversikt för Adobe-planering](/help/quicksilver/planning/access/access-overview.md).
+Om du vill hitta Adobe Planning kontrollerar du att din organisation har fått tillgång till Workfront Planning och att din system- eller gruppadministratör har lagt till Planning-området på huvudmenyn. Mer information finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 Så här hittar du Workfront Planning:
 

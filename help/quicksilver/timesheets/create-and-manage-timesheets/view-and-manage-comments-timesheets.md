@@ -6,9 +6,9 @@ description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrappor
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Du kan kommentera följande objekt i en tidrapport:
 * På tidrapporten
 * På timposterna
 * På ett enskilt objekt, som en uppgift eller ett problem
+
+Du kan visa uppdateringar från en tidrapport eller från enskilda timposter i en anteckningsrapport. Mer information finns i [Visa alla uppdateringar i en anteckningsrapport](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
 
 ## Åtkomstkrav
 
@@ -73,7 +75,7 @@ Området **Tidrapporter** öppnas.
 1. Klicka på **Visa kommentarer** i det övre högra hörnet av tidrapporten.
 Kommentarerna visas under objektet där timinmatningen och kommentaren loggades.
 
-   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![Kommentarer utökade under uppgifter omdesignade tidrapporter](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## Kommentera i en tidrapport {#make-comments-on-a-timesheet}
@@ -86,7 +88,7 @@ Kommentarerna visas under objektet där timinmatningen och kommentaren loggades.
 
 Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripande tidrapporten liknar kommentarer i andra objekt.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om den är tillgänglig.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Rader på huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om den är tillgänglig.
 
 1. Klicka på **Tidrapporter**.
 1. Gå till tidrapporten där du vill göra en kommentar.
@@ -113,7 +115,7 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
 
 ### Kommentera en enskild timpost i en tidrapport {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
 1. Klicka på **Tidrapporter**.
 1. Gå till den tidrapport där du vill kommentera och klicka på **Tidrapport** i den vänstra panelen.
@@ -128,11 +130,11 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
 
    * Skriv en ny kommentar och klicka på **Klar**.
    * Redigera en befintlig kommentar och klicka på **Klar** eller klicka på **Avbryt** för att ignorera ändringarna.
-   * Klicka på ikonen **Ta bort** ![](assets/delete.png) om du vill ta bort en sparad kommentar.
+   * Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort en sparad kommentar.
 
      En blå markör visas i det övre högra hörnet av timpostrutan för att ange att kommentarer har loggats med tidsangivelsen.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Kommentarsknappen i timloggen har omdesignats för tidrapport](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,7 +154,7 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
 
 Du kan bara kommentera uppgifter och ärenden i en tidrapport. Du kan inte kommentera projekt eller allmän tid.
 
-1. Klicka på ikonen [!UICONTROL **Huvudmeny**] ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen [!UICONTROL **Huvudmeny**] ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 1. Klicka på [!UICONTROL **Tidrapporter**].
 1. Gå till den tidrapport där du vill kommentera och klicka på [!UICONTROL **Tidrapport**] i den vänstra panelen.
 1. Klicka på raden för en aktivitet eller ett problem och klicka sedan på [!UICONTROL **Öppna sammanfattning**].

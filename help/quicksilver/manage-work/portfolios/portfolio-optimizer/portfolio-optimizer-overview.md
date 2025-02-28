@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio Optimizer] är det verktyg som används för
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Följande ekonomiska fält visas i [!UICONTROL Portfolio Optimizer]:
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>Den återstående budgeten efter alla [!UICONTROL Budgeted Costs] för alla projekt i portföljen har dragits av från portföljens budget.</p> <p>[!UICONTROL Remaining Portfolio Budget] beräknas med följande formel:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Totalt [!UICONTROL Budgeted Cost] för alla Portfolio-projekt </em> </p> <p>Den totala [!UICONTROL Budgeted Cost] för alla projekt i portföljen visas i indikatorfältet i budgetfältet. </p> <p>Mer information om hur du spårar kostnader för ett projekt finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
+   <td> <p>Den återstående budgeten efter [!UICONTROL Total Cost] för alla projekt i portföljen har subtraherats från portföljens budget.</p> <p>[!UICONTROL Remaining Portfolio Budget] beräknas med följande formel:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Totalt [!UICONTROL Budgeted Cost] för alla Portfolio-projekt </em> </p> <p>Portföljbudgeten är en manuell post i budgetfältet i Portfolio Optimizer. </p> <p>Mer information om hur du spårar kostnader för ett projekt finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 

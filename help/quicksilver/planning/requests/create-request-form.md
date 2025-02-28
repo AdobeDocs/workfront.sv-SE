@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -280,6 +280,9 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
    * Klicka på **Uppdatera begärandeformuläret** om du vill göra några ändringar i begärandeformuläret.
    * Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
+
+   eller
+
    * <span class= "preview"> Gå till området **Begäranden** i Workfront och hitta det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).</span>
 
    >[!TIP]
