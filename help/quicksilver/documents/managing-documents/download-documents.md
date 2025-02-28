@@ -6,9 +6,9 @@ description: Du kan ladda ned dokument från Adobe Workfront individuellt eller 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka på ikonen **Hämta markerade** ![](assets/download-icon.png) .
+1. Klicka på ikonen **Hämta markerade** ![Hämta markerade](assets/download-icon.png).
 
 ## Hämta flera dokument samtidigt
 
@@ -66,9 +66,9 @@ Du kan hämta flera dokument samtidigt. 
 
    >[!NOTE]
    >
-   >Dokument som är länkade till Workfront från Box, Dropbox, Google Drive och så vidare kan inte hämtas samtidigt.
+   >Dokument som är länkade till Workfront från Box, Dropbox, Google Drive o.s.v. kan inte laddas ned satsvis.
 
 1. (Valfritt) Markera de mappar som innehåller de dokument du vill hämta i listan med mappar.
-1. Klicka på ikonen Hämta markerade ![](assets/download-icon.png).
+1. Klicka på ikonen Hämta markerade ![Ikonen Hämta markerade](assets/download-icon.png).
 
    Mappar hämtas som ZIP-filer och begränsas till 4 GB.
