@@ -6,9 +6,9 @@ description: Du kan checka ut ett dokument för att förhindra att andra använd
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ Om du har behörighet att hantera ett dokument kan du checka ut det för att fö
 
    Mer information om hur du lägger till dokument finns i [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-1. Klicka på ikonen **Checka ut** ![](assets/check-out-25x23.png) .
+1. Klicka på ikonen **Checka ut** ![Checka ut](assets/check-out-25x23.png).
 
-1. En låsikon ![](assets/lock-icon-locked-qs.png) visas till höger om dokumentnamnet. Dokumentet förblir utcheckat när du har loggat ut från Workfront.
+1. En låsikon ![Lås-ikon](assets/lock-icon-locked-qs.png) visas till höger om dokumentnamnet. Dokumentet förblir utcheckat när du har loggat ut från Workfront.
 1. Endast den användare som checkade ut dokumentet eller Workfront-administratören kan checka in dokumentet.
 
 ## Hantera utcheckade dokument
@@ -103,6 +103,6 @@ Så här checkar du in ett dokument:
 
 1. Gå till det område där dokumentet är lagrat och markera dokumentet. 
 
-   En låsikon ![](assets/lock-icon-locked-qs.png) visas till höger om dokumentnamnet.
+   En låsikon ![Lås-ikon](assets/lock-icon-locked-qs.png) visas till höger om dokumentnamnet.
 
-1. Klicka på ikonen **Checka in** ![](assets/check-in-25x22.png) .
+1. Klicka på ikonen **Checka in** ![Checka in](assets/check-in-25x22.png).
