@@ -7,9 +7,10 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ På grund av begränsad användning och begränsad funktionalitet kommer den fö
 
 **När?**
 
-* Med version 25.2 (februari 2025)
+* Veckan den 26 maj
 
 **Vad kan jag använda istället?**
 
@@ -40,7 +41,7 @@ För att minimera störningar för dig och din organisation har vi gett rekommen
 
 Vår första rekommendation är att se till att din organisation har tillgång till Workfront Data Connect och att bekanta sig med användningen så snart som möjligt. Mer information om funktionerna i Data Connect och hur du börjar använda det finns i [Workfront Data Connect - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-Data Connect ingår i den nya Ultimate-planen och kan köpas som tillägg till de nya Select- och Prime-planerna. Observera att Data Connect inte är tillgängligt för organisationer som har äldre Workfront-planer. Kontakta din Workfront-kontorepresentant för att ta reda på vilken plan din organisation har och hur du köper Data Connect.
+Data Connect ingår i den nya Ultimate-planen <!--, and can be purchased as an add-on to the new Select and Prime plans-->. Observera att Data Connect inte är tillgängligt för organisationer som har äldre Workfront-planer. Kontakta din Workfront-kontorepresentant för att ta reda på vilken plan din organisation har och hur du köper Data Connect.
 
 ### Replikera förbättrade analysvisualiseringar
 
@@ -59,6 +60,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->

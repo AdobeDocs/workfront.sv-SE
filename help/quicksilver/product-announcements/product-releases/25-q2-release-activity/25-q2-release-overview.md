@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,6 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Lägga till en kommentar i projekt när du redigerar dem i rutan Redigera projekt</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Nu kan du lägga till en kommentar i ett projekt när du redigerar det i rutan Redigera projekt. Du kan också lägga till en kommentar i flera projekt samtidigt när du redigerar dem i grupp. Före den här uppdateringen fanns inte den här funktionen när du redigerade projekt.</p>
         </td>
         <td>

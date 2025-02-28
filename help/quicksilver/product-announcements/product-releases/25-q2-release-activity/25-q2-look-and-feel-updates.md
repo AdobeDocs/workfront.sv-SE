@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,18 @@ Vi har uppdaterat utseendet och känslan i Workfront Calendar till en modern des
 * Och mer
 
 Mer information finns i artiklarna [Kalendrar](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
+
+## Uppdaterad vy över en projektmilstolpe i en projektvy
+
+>[!NOTE]
+>
+>Förhandsversion: 27 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+
+När du får åtkomst till milstolpen från en projektlista eller rapport har sidan med information om milstolpar nu ett nytt utseende och en ny känsla. Du måste lägga till fältet Sökväg för milstolpe i vyn för listan eller rapporten för att kunna komma åt informationssidan för milstolpens sökväg.
+
+I den här uppdateringen har vi även lagt till information om färger och färgkoder för varje milstolpe.
+
+Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Tillfälliga ändringar i e-postmeddelanden
 
