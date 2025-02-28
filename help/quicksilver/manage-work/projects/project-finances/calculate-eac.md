@@ -7,9 +7,9 @@ description: Uppskattningen vid slutförande (Estiate at Completion, EAC) är en
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat k
 
    EAC-värdet visas i fältet **Uppskattning vid slutförande**.
 
-   ![](assets/eac-highlighted-on-project-350x112.png)
+   ![EAC i projekt](assets/eac-highlighted-on-project-350x112.png)
