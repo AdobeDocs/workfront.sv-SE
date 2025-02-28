@@ -6,9 +6,9 @@ description: En användare som hanterar behörigheter för ett dokument kan flyt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Du måste ha följande:
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka på ikonen **Flytta** ![](assets/move-document--25x19.png).
+1. Klicka på ikonen **Flytta** ![Flytta](assets/move-document--25x19.png).
 1. I listrutan i rutan som visas klickar du på **Problem**, **Projekt** eller **Aktivitet** för att ange vilken typ av objekt du vill flytta dokumentet till. 
 
 1. Skriv namnet på **Utgåva**, **Projekt** eller **Aktivitet** i textrutan.
