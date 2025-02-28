@@ -5,9 +5,9 @@ description: När du har slutfört och skickat in affärsärendet för en projek
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Tänk på följande när du godkänner ett affärsärende för ett projekt:
 * Du måste manuellt gå till de enskilda projekt som behöver godkännas av ett affärsärende för att se att de väntar på godkännande. Det finns ingen meddelandefunktion i Workfront som varnar någon om att han eller hon måste godkänna ett projekts affärsfall.
 * Du kan hitta projekt som väntar på godkännande av affärsärendet antingen genom att skapa en projektrapport eller genom att öppna portföljen som de är kopplade till.
 
-  Mer information om Portfolio finns i artikeln [Portfolio overview i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Mer information om portföljer finns i artikeln [Portfolio - översikt i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Godkänn affärsärendet genom att skapa en projektrapport
 
@@ -86,7 +86,7 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
 
 1. (Valfritt) Klicka på **Lägg till en annan filterregel**.
 
-   Du kan lägga till ytterligare filter om du bara vill visa projekt där du är projektägare, projektsponsor eller Portfolio-ägare.
+   Du kan lägga till ytterligare filter om du bara vill visa projekt där du är projektägare, projektsponsor eller Portfolio ägare.
 
    Du kan till exempel använda följande filtersatser:
 
@@ -106,7 +106,7 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   för att visa var du har utsetts till Portfolio Manager.
+   för att visa var du är utsedd till Portfolio Manager.
 
 1. Klicka på **Spara+Stäng**.
 
@@ -116,7 +116,7 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
 1. Klicka på **Affärsfall** i den vänstra panelen.
 1. Klicka på **Godkänn** eller **Avvisa** i området Sammanfattning av affärsärenden för att godkänna eller avvisa affärsärendet.
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![Affärsärende](assets/business-case-summary-with-rp-information--1-.png)
 
    Projektstatusen ändras till **Godkänd** om affärsärendet har godkänts.
 
