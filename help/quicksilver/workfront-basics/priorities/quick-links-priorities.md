@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **Lägg till länk** i avsnittet **Snabblänkar**.
 1. Klistra in URL:en i rutan **Lägg till länk**.
 1. Klicka på **Spara**.
-   ![](assets/add-link.png)
+   ![Lägg till länk](assets/add-link.png)
 
 ## Kopiera en snabblänk till Urklipp
 
@@ -73,8 +73,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
 1. I avsnittet **Snabblänkar** hittar du länken som du vill kopiera.
-1. Klicka på ikonen Kopiera ![](assets/copy-icon.png).
-   ![](assets/copy-link.png)
+1. Klicka på ikonen Kopiera ![ikonen Kopiera](assets/copy-icon.png).
+   ![Kopiera länk](assets/copy-link.png)
 
 ## Öppna en snabblänk
 
@@ -83,7 +83,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
 1. I avsnittet **Snabblänkar** hittar du länken som du vill öppna.
 1. Klicka på länken. Länken öppnas på en ny flik.
-   ![](assets/open-link.png)
+   ![Öppna länk](assets/open-link.png)
 
 ## Ta bort snabblänkar
 
@@ -91,5 +91,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
 1. Klicka på **Redigera detaljer** i skärmens övre högra hörn.
-   ![](assets/edit-details.png)
-1. Leta reda på länken som du vill ta bort och klicka sedan på ikonen Ta bort ![](assets/delete-icon.png).
+   ![Redigera information](assets/edit-details.png)
+1. Leta reda på länken som du vill ta bort och klicka sedan på ikonen Ta bort ![ikonen Ta bort](assets/delete-icon.png).
