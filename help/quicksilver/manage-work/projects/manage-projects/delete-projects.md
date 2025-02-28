@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan ta bort projekt från en lista med projekt.
 
 1. Gå till en lista med projekt eller en projektrapport.
-1. Markera det eller de projekt som du vill ta bort och klicka sedan på ikonen **Ta bort** ![](assets/delete-icon.png) högst upp i listan.
+1. Markera det eller de projekt som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort](assets/delete-icon.png) längst upp i listan.
 
 1. Klicka på **Ja, ta bort** för att bekräfta borttagningen.
 
@@ -144,9 +144,9 @@ Du kan ta bort projekt från en lista med projekt.
 ## Ta bort ett projekt på projektnivå
 
 1. Gå till det projekt som du vill ta bort.
-1. Klicka på ikonen **Mer** ![](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Ta bort projekt**.
+1. Klicka på ikonen **Mer** ![Mer meny](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Ta bort projekt**.
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![Mer meny utökad](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. Klicka på **Ja, ta bort den**.
 
