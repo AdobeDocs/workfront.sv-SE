@@ -6,9 +6,9 @@ description: Du kan visa rollallokering för alla jobbroller som har tilldelats 
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Du måste ha följande:
 
 ## Visa projektplanerade timmar i panelen Rollallokering
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Projekt**.
 1. Klicka på namnet på ett projekt för att komma åt det. Sidan Projekt öppnas.
 1. Klicka på något av följande i den vänstra panelen:
 
