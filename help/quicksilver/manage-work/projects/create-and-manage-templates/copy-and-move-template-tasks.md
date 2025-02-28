@@ -6,9 +6,9 @@ description: Du kan kopiera eller flytta en malluppgift till samma mall eller ti
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,9 @@ Du kan kopiera en enstaka malluppgift eller flera malluppgifter samtidigt.
 1. Gör något av följande:
    * Klicka på namnet på en malluppgift för att öppna den.
    * Markera en eller flera malluppgifter i listan.
-1. (Villkorligt) Klicka på menyn **Mer** ![](assets/more-icon.png) längst upp i uppgiftslistan i mallen eller till höger om namnet på mallaktiviteten om du öppnade uppgiften. Klicka sedan på **Kopiera till** eller **Kopiera**, beroende på var du öppnar alternativet Kopiera från.
+1. (Villkorligt) Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) överst i uppgiftslistan i mallen eller till höger om namnet på mallaktiviteten om du öppnade uppgiften. Klicka sedan på **Kopiera till** eller **Kopiera**, beroende på var du använder alternativet Kopiera från.
 Rutan Kopiera malluppgift öppnas.
-   ![](assets/copy-template-task-box-unshimmed.png)
+   ![Åtgärdsrutan Kopiera mall](assets/copy-template-task-box-unshimmed.png)
 1. (Valfritt) Byt namn på mallaktiviteten i fältet **Malluppgiftsnamn**.
 
    >[!TIP]
@@ -210,9 +210,9 @@ Du kan flytta en malluppgift till en annan malluppgift i samma mall eller till e
 1. Gör något av följande:
    * Klicka på namnet på en malluppgift för att öppna den.
    * Markera en eller flera malluppgifter i listan.
-1. (Villkorligt) Klicka på **Mer**-menyn ![](assets/more-icon.png) högst upp i malluppgiftslistan eller till höger om malluppgiftens namn om du öppnade uppgiften. Klicka sedan på **Flytta till** eller **Flytta**, beroende på var du använder alternativet Flytta från.
+1. (Villkorligt) Klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon.png) högst upp i listan över malluppgifter eller till höger om malluppgiftens namn om du öppnade uppgiften. Klicka sedan på **Flytta till** eller **Flytta**, beroende på var du använder alternativet Flytta från.
 Rutan Flytta malluppgift öppnas.
-   ![](assets/move-template-task-box-unshimmed.png)
+   ![Åtgärdsrutan Flytta mall](assets/move-template-task-box-unshimmed.png)
 
 1. (Valfritt) Byt namn på mallaktiviteten i fältet **Malluppgiftsnamn**.
 
