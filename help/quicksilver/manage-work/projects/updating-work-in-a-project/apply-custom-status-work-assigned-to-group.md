@@ -6,9 +6,9 @@ description: Om ett projekt är associerat med en grupp kan du använda både sy
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 När du uppdaterar gruppen för ett projekt ändras alternativen som är tillgängliga för status för uppgifter, utgåvor eller projektet så att de matchar gruppen.
 
 1. Gå till ett projekt eller skapa ett nytt projekt, enligt beskrivningen i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
-1. Klicka på ikonen **Mer** ![](assets/more-icon.png) och sedan på **Redigera**.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Redigera**.
 
 1. Markera gruppen i listrutan **Grupp** i rutan **Redigera projekt** , som visas längst ned i avsnittet **Översikt** .
 
