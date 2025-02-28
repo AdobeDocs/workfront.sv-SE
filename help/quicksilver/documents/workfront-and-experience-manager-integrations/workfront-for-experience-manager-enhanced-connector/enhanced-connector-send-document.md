@@ -6,9 +6,9 @@ description: Du kan skicka dokument från Workfront till Experience Manager Asse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Innan du börjar måste du
 
-* Installera den utökade Workfront för Experience Manager-anslutningen.
+* Installera den utökade anslutningen för Workfront for Experience Manager.
 
 ## Skicka ett dokument till Experience Manager Assets
 
@@ -69,7 +69,7 @@ Skicka ett dokument:
    >
    >Valfritt namn kan väljas för denna integration, så det får inte uttryckligen nämnas Experience Manager Assets.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Skicka till](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Välj vart du vill att resursen ska gå och klicka sedan på **Välj mapp**.
 1. Klicka på **Spara** när du har hittat önskat mål.
@@ -87,6 +87,6 @@ Så här skickar du den senaste versionen:
    >
    >Valfritt namn kan väljas för denna integration, så det får inte uttryckligen nämnas Experience Manager Assets.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Skicka till](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klicka på **Spara**. Den nya versionen sparas på samma plats som den tidigare versionen.
