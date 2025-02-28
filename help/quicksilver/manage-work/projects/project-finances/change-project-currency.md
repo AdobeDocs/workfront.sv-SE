@@ -6,9 +6,9 @@ description: Som projektledare kan du konfigurera ett projekt så att det använ
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Klicka på **Projektinformation** i den vänstra panelen och gå sedan till området **Ekonomi**.
 1. Klicka på **Lägg till** i fältet **Valuta** och välj den valuta som du vill använda som standardvaluta för projektet. Alla valutor som din Workfront-administratör anger för din Workfront-instans visas.
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![Valuta i projekt](assets/currency-on-project-expanded-nwe.png)
 
 1. (Villkorligt) Om du väljer en annan valuta än standardvalutan som är inställd för ditt Workfront-system anger du kursen för den valda valutan, i förhållande till den valuta som är inställd som basvaluta i systemet.
 1. Klicka på **Spara ändringar**.
