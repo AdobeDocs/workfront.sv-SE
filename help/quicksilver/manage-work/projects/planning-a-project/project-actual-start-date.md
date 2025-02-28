@@ -7,9 +7,9 @@ description: Projekt, uppgifter och ärenden har ett faktiskt startdatum i Adobe
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Du kan hitta det faktiska startdatumet för ett projekt i följande områden:
 
 Så här hittar du det faktiska startdatumet i avsnittet Detaljer i projektet:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Projekt**.
 1. Klicka på det projekt som du vill visa det faktiska startdatumet för.
 1. Klicka på **Projektinformation** i den vänstra panelen och gå sedan till avsnittet **Översikt**.
 
