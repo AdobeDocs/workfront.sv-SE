@@ -6,9 +6,9 @@ description: Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Ho
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -71,12 +71,12 @@ Du och andra användare kan visa dina personliga uppgifter i en personlig uppgif
 
 Så här skapar du ett att göra-objekt:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** och sedan på **Att göra** för att lägga till Att göra-widgeten på hemskärmen.
 1. Gå till widgeten **Att göra** och klicka sedan på **Lägg till att göra**.
 1. Skriv namnet på ditt personliga att göra-objekt och klicka sedan på Enter.
-1. (Valfritt) Klicka på ikonen **Datum** ![](assets/date-icon.png) för att lägga till ett förfallodatum för objektet.
-   ![](assets/my-work-to-dos.png)
+1. (Valfritt) Klicka på ikonen **Datum** ![Datum](assets/date-icon.png) för att lägga till ett förfallodatum för objektet.
+   ![Mina arbetsuppgifter](assets/my-work-to-dos.png)
 1. (Valfritt) Skapa en personlig uppgiftsrapport eller ett filter. Mer information om hur du skapar ett personligt uppgiftsfilter finns i [Filter: personlig uppgift](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Du kan visa dina att göra-uppgifter och andra användares att göra-uppgifter i den personliga uppgiftsrapporten.
 
@@ -84,10 +84,10 @@ Du kan visa dina att göra-uppgifter och andra användares att göra-uppgifter i
 
 Du kan lägga till en uppgift i ett befintligt projekt direkt från Hem-området:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Lägg till widgeten **Mina uppgifter** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina uppgifter**.
 1. Gå till widgeten **Mina uppgifter** och klicka sedan på **Nytt**.
-   ![](assets/create-new-task.png)
+   ![Skapa ny uppgift](assets/create-new-task.png)
 1. Ange aktivitetsnamnet i dialogrutan **Ny aktivitet**.
 1. Börja skriva ett projektnamn och välj sedan namnet i listan.
 1. (Valfritt) Ange information i följande fält:
@@ -107,10 +107,10 @@ Du kan lägga till en uppgift i ett befintligt projekt direkt från Hem-området
 
 Du kan lägga till ett problem i ett befintligt projekt direkt från Hem-området:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Lägg till widgeten **Mina problem** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina problem**.
 1. Gå till widgeten **Mina problem** och klicka sedan på **Nytt**.
-   ![](assets/create-new-issue.png)
+   ![Skapa nytt problem](assets/create-new-issue.png)
 1. I dialogrutan **Nytt problem** börjar du skriva ett projektnamn och väljer sedan namnet i listan.
 1. Ange ett problemnamn.
 1. (Valfritt) Ange information i följande fält:
@@ -128,10 +128,10 @@ Du kan lägga till ett problem i ett befintligt projekt direkt från Hem-område
 
 Du kan skapa en begäran direkt från Hem-området:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Lägg till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
 1. Gå till widgeten **Mina förfrågningar** och klicka sedan på **Nytt**.
-   ![](assets/create-new-request.png)
+   ![Skapa ny begäran](assets/create-new-request.png)
 
 1. I dialogrutan **Ny begäran** börjar du skriva namnet på begärandekön.
 1. Fyll i relevanta fält.
@@ -143,10 +143,10 @@ Mer information om hur du skickar begäranden finns i [Skapa och skicka begäran
 
 Du kan skapa ett projekt direkt från Hem-området:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Lägg till widgeten **Mina projekt** på startskärmen. Klicka på **Anpassa** och sök efter **Mina projekt**.
 1. Gå till widgeten **Mina projekt** och klicka sedan på **Nytt**.
-   ![](assets/create-new-project.png)
+   ![Skapa nytt projekt](assets/create-new-project.png)
 1. Välj något av följande alternativ:
 
    | Fält | Instruktioner |
@@ -161,7 +161,7 @@ Du kan skapa ett projekt direkt från Hem-området:
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -171,13 +171,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
