@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -63,13 +63,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Översikt**. Då öppnas området Översikt för redigering.
+   Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Översikt**. Då öppnas området Översikt för redigering.
 
    >[!NOTE]
    >
    >Beroende på hur din Workfront-administratör har konfigurerat layoutmallen kanske inte översiktsavsnittet visas först, och då komprimeras det. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Villkorligt) Om det finns ett specifikt fält som behöver uppdateras i ett projekt men inte visas i det här avsnittet, klickar du på menyn **Mer** ![](assets/more-icon.png) bredvid projektnamnet och **Redigera** om du vill visa fler projektfält.
+1. (Villkorligt) Om det finns ett specifikt fält som behöver uppdateras i ett projekt men inte visas i det här avsnittet, klickar du på **Mer-menyn** ![Mer-ikonen](assets/more-icon.png) bredvid projektnamnet och **Redigera** om du vill visa fler projektfält.
 
    Mer information om hur du redigerar projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
