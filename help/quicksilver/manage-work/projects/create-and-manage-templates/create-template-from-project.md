@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa mall från projekt
 
 1. Gå till det projekt som du vill spara som en mall.
-1. Klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Spara som mall**.
+1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Spara som mall**.
 1. Ange följande information för mallen:
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på **Hantera Forms** om du vill ta bort eller ordna om formulären. Mer information om hur du tar bort och ändrar ordning på anpassade formulär i mallen finns i [Anpassade formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Spara som mall, första steget](assets/save-as-template-first-step-350x159.png)
 
 1. Klicka på **Nästa steg.**
 1. I avsnittet **Alternativ** markerar du kryssrutan bredvid eventuell information som du vill ta bort från mallen.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Alternativ för Spara som mall](assets/save-as-template-options-step-350x109.png)
 
 1. Klicka på **Nästa steg.**
 1. I avsnittet **Uteslut** väljer du de uppgifter du vill utesluta från projektet.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Spara som mall exkludera](assets/save-as-template-exclude-350x205.png)
 
 1. Klicka på **Slutför och spara mall.**
 
