@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,11 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 
 ## Filtrera arbetet med smarta filter
 
-Använd naturligt språk för att snabbt filtrera arbetet. Din Workfront-instans måste finnas på en ny Workfront-plan och vara aktiverad på Adobe Unified Experience. Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Använd naturligt språk för att snabbt filtrera arbetet.
+
+>[!NOTE]
+>
+>Den här funktionen är endast tillgänglig för kunder som har en enhetlig Adobe Experience med hjälp av AI Assistant. Mer information om AI-assistenten finns i [Översikt över AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
