@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '4809'
+source-wordcount: '4854'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -84,7 +84,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -105,7 +105,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
 
-   ![](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
+   ![Edit template overview](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
 
 1. Update the following fields:
 
@@ -204,7 +204,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
+   ![Edit template finance](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
 
 1. Update the following fields:
 
@@ -250,7 +250,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
+   ![Edit template portfolio](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -283,7 +283,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
+   ![Edit template settings](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 
@@ -411,7 +411,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
 
-   ![](assets/edit-template-access-with-tasks-and-issues-350x241.png)
+   ![Edit template access](assets/edit-template-access-with-tasks-and-issues-350x241.png)
 
    The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -488,7 +488,7 @@ For information about how these settings affect creating new tasks, see [Create 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Tasks**.
 
-   ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
+   ![Edit template tasks](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
@@ -516,7 +516,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Issues**.
 
-   ![](assets/edit-template-box-with-issues-nwe-350x171.png)
+   ![Edit template issues](assets/edit-template-box-with-issues-nwe-350x171.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -565,7 +565,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Gå till mallen som du vill redigera.
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen och går sedan till de områden som visas i den vänstra panelen för att redigera information för varje område.
-1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![](assets/edit-icon.png) och väljer sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
    * Ökning
    * Anpassad Forms
@@ -578,7 +578,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >Om du vill ha information om alla fält som visas i området Detaljer kan du fortsätta redigera alla fält med rutan Redigera mall nedan.
 
-1. (Villkorligt) Om du vill redigera all information om mallen klickar du på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på mallen och sedan på **Redigera**.
+1. (Villkorligt) Om du vill redigera all information om mallen klickar du på ikonen **Mer** ![Mer](assets/qs-more-icon-on-an-object.png) bredvid mallens namn och sedan på **Redigera**.
 
    Rutan **Redigera mall** öppnas. Avsnitten i den här rutan innehåller samma fält som finns i avsnittet Mallinformation.
 
@@ -612,7 +612,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Översikt** i rutan **Redigera mall**.
 
-   ![](assets/edit-template-box-overview-section.png)
+   ![Redigera mallruta](assets/edit-template-box-overview-section.png)
 
 1. Uppdatera följande fält:
 
@@ -710,7 +710,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Ekonomi** i rutan **Redigera mall**.
 
-   ![](assets/edit-template-box-finance-section.png)
+   ![Redigera ekonomi för mallrutor](assets/edit-template-box-finance-section.png)
 
 1. Uppdatera följande fält:
 
@@ -766,7 +766,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Anpassad Forms** i rutan **Redigera mall**.
 
-   ![](assets/edit-template-box-custom-forms-section.png)
+   ![Redigera anpassade formulär i mallruta](assets/edit-template-box-custom-forms-section.png)
 
    Namnen på de anpassade formulär som redan är kopplade till mallen visas på den vänstra panelen.
 
@@ -793,7 +793,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Projektinställningar** i rutan **Redigera mall**.
 
-   ![](assets/edit-template-box-project-settings-section.png)
+   ![Redigera mallruteinställningar](assets/edit-template-box-project-settings-section.png)
 
 1. Uppdatera följande fält:
 
@@ -925,7 +925,7 @@ Mer information om hur de här inställningarna påverkar skapandet av nya uppgi
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Uppgiftsinställningar** i rutan **Redigera mall**.
 
-   ![](assets/edit-template-box-tax-settings-section.png)
+   ![Redigera aktivitetsinställningar för mallruta](assets/edit-template-box-tax-settings-section.png)
 
 1. I rutan **Standardprocess för godkännande av aktivitet** väljer du den godkännandeprocess som du vill associera med alla nya uppgifter när du lägger till dem i ett projekt som skapats från den här mallen. Du måste skapa en godkännandeprocess för uppgifter innan du kan koppla den till uppgifter. Endast aktiva godkännandeprocesser visas i listan. Mer information om hur du skapar godkännandeprocesser finns i [Skapa godkännandeprocesser](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. I rutan **Anpassad Forms** för standarduppgift väljer du det eller de anpassade formulär som du vill associera med alla nya uppgifter när du lägger till dem i ett projekt som skapats från den här mallen. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Du kan associera upp till tio anpassade formulär med en uppgift.
@@ -953,7 +953,7 @@ Genom att redigera probleminställningarna kan du hindra användare från att l�
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Utgivningsinställningar** i rutan **Redigera mall**.
 
-   ![](assets/edit-template-box-issue-settings-section.png)
+   ![Redigera inställningar för mallruteproblem](assets/edit-template-box-issue-settings-section.png)
 
 1. (Valfritt) Avmarkera alternativet **Tillåt användare att lägga till infogade utgåvor**. Den är aktiverad som standard.
 
@@ -980,7 +980,7 @@ Genom att redigera probleminställningarna kan du hindra användare från att l�
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Åtkomst** i rutan **Redigera mall**.
 
-   ![](assets/edit-template-box-access-section.png)
+   ![Redigera åtkomst till mallruta](assets/edit-template-box-access-section.png)
 
    Den åtkomst du anger för mallen blir åtkomsten för användare som är kopplade till projektet när mallen används för att skapa ett projekt.
 
@@ -1055,7 +1055,7 @@ Du kan redigera flera mallar samtidigt och uppdatera all information om dem.
 
 Så här redigerar du flera mallar samtidigt:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
 1. Klicka på **Mallar**.
 1. Markera flera mallar i listan.
@@ -1063,7 +1063,7 @@ Så här redigerar du flera mallar samtidigt:
 
    Dialogrutan **Redigera mallar** öppnas.
 
-   ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![Redigera mallar](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Klicka på avsnitten till vänster om du vill redigera alla valda mallar.
 
@@ -1130,12 +1130,12 @@ Inaktiverade mallar påverkar inte befintliga projekt som skapats med dem.
 
 Så här inaktiverar du en mall:
 
-1. Gå till en aktiv mall, klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) bredvid mallnamnet och klicka sedan på **Inaktivera**.
+1. Gå till en aktiv mall och klicka sedan på menyn **Mer** ![Mer-ikon](assets/qs-more-icon-on-an-object.png) bredvid mallnamnet och klicka sedan på **Inaktivera**.
 
-   ![](assets/deactivate-template-link-in-more-menu.png)
+   ![Inaktivera mall](assets/deactivate-template-link-in-more-menu.png)
 
    Mallen är inte längre aktiv och användarna kan inte längre hitta den för att skapa projekt utifrån den.
-1. (Valfritt) Om du vill aktivera mallen klickar du på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) bredvid mallnamnet och sedan på **Aktivera**.
+1. (Valfritt) Om du vill aktivera mallen klickar du på menyn **Mer** ![Mer ikon](assets/qs-more-icon-on-an-object.png) bredvid mallnamnet och sedan på **Aktivera**.
 
    Mallen är nu aktiv och kan bifogas till projekt eller användas för att skapa projekt.
 
