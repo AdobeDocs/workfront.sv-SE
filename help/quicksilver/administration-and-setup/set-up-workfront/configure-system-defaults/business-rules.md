@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 0%
@@ -75,7 +75,10 @@ Mer information om datumbaserade jokertecken finns i [Generera rapporter med dat
 Ett API-jokertecken finns också i affärsreglerna. Använd `$$ISAPI` för att utlösa regeln endast i API:t. Använd `!$$ISAPI` om du bara vill framtvinga regeln i användargränssnittet och tillåta användare att kringgå regeln via API:t.
 
 * Den här regeln förhindrar till exempel användare från att redigera slutförda projekt via API:t. Om jokertecknet inte användes skulle regeln blockera åtgärden både i användargränssnittet och i API:t.
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 Jokertecknen `$$BEFORE_STATE` och `$$AFTER_STATE` används i uttryck för att komma åt objektets fältvärden före och efter redigeringar.
 
@@ -85,8 +88,17 @@ Jokertecknen `$$BEFORE_STATE` och `$$AFTER_STATE` används i uttryck för att ko
 
 Några enkla affärsregelscenarier är:
 
-* Användare kan inte lägga till nya utgifter under den sista veckan i februari. Den här formeln kan anges som: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Användare kan inte redigera projektnamnet för ett projekt med statusen Fullständigt. Den här formeln kan anges som: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* Användare kan inte lägga till nya utgifter under den sista veckan i februari. Denna formel kan anges som:
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* Användare kan inte redigera projektnamnet för ett projekt med statusen Fullständigt. Denna formel kan anges som:
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 Ett scenario med kapslade IF-satser är:
 
