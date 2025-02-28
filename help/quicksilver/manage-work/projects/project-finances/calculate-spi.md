@@ -7,9 +7,9 @@ description: Schemalägg prestandaindex (SPI) beskriver förhållandet mellan de
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Om du till exempel har ett projekt med en aktivitet och aktiviteten har 10 plane
 
    1. Klicka på **Uppgiftsinformation** i den vänstra panelen och visa sedan området **Ekonomi**.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![SPI i projekt](assets/spi-on-project-nwe.png)
 
 1. Hitta fältet **CPI/SPI/CSI**.
