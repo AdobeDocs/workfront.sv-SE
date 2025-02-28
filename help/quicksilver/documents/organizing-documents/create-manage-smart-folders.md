@@ -6,9 +6,9 @@ description: Smarta mappar används för att hantera dokument utanför ett proje
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra vyn använder du visningsalternativen i det övre högra hörnet.
 
-![](assets/screenshot-2016-07-07-12.46.54.png)
+![Redigera smart mapp](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Skapa en smart mapp 
 
@@ -68,11 +68,11 @@ Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra v
 ## Redigera en smart mapp 
 
 1. Gå till området **Dokument** som innehåller den smarta mappen som du vill redigera.
-1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
+1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![Mer ](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
 1. Klicka på **Redigera**.
 
    Dialogrutan **Redigera smart mapp** visas.\
-   ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
+   ![Redigera smart mapp](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. Gör ändringarna och klicka sedan på **Spara mapp**.
 
