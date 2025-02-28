@@ -6,9 +6,9 @@ description: Spara ett projekt som en mallSpara som mall på projektnivå, så a
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Spara ett projekt som en mall
 
 1. Gå till det projekt som du vill spara som en mall.
-1. Klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Spara som mall**.
+1. Klicka på **Mer**-menyn ![Mer-ikonen](assets/qs-more-icon-on-an-object.png) och sedan på **Spara som mall**.
 1. Ange följande information för mallen:
 
    <table style="table-layout:auto"> 
