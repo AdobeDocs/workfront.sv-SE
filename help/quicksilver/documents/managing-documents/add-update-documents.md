@@ -6,9 +6,9 @@ description: Du kan lägga till eller svara på uppdateringar av ett dokument f�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Du måste ha följande:
 1. Gå till objektet som innehåller dokumentet och välj sedan **Dokument** i den vänstra panelen.
 1. Hitta det dokument du behöver och gör något av följande:
 
-   * Klicka på dokumentet i listan, klicka på ikonen **Öppna sammanfattning** ![](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet och lägg sedan till en ny kommentar, eller klicka på **Svara** om du vill lägga till ett svar i en befintlig kommentar. Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
+   * Klicka på dokumentet i listan, klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet och lägg sedan till en ny kommentar eller klicka på **Svar** om du vill lägga till ett svar i en befintlig kommentar. Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
    * Håll markören över dokumentet, klicka på **Dokumentinformation** och sedan på **Uppdateringar** i den vänstra panelen.
 Mer information om hur du lägger till uppdateringar till objekt finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
