@@ -6,9 +6,9 @@ description: Du kan markera en uppgift eller ett problem som Klar om du är den 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Contribute behörigheter eller högre för de uppgifter och problem du behöver arbeta med</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter eller högre för de uppgifter och ärenden du behöver arbeta med</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,21 +58,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Markera en arbetsuppgift som Klar i widgeten Mitt arbete
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
 1. Sök efter arbetsobjektet och klicka sedan på **[!UICONTROL Mark as Done]** på arbetsobjektet.
 Mer information om hur knappen kan visas finns i [Förstå alternativen för knappen [!UICONTROL Done]](#understand-the-options-of-the-done-button).
-   ![](assets/my-work-done.png)
+   ![Märk mitt arbete som färdigt](assets/my-work-done.png)
 
 
 ## Markera ett arbetsobjekt som färdigt på sammanfattningspanelen
 
 Du kan markera ett arbetsobjekt som Klar i widgeten Mina uppgifter och Mina problem med hjälp av panelen Sammanfattning.
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgetarna **Mina uppgifter** eller **Mina problem**.
 1. Håll markören över arbetsobjektet och klicka sedan på ikonen **Sammanfattning** .
-   ![](assets/open-summary-new-home.png)
+   ![Öppna sammanfattning](assets/open-summary-new-home.png)
 1. Klicka på **Markera som färdig** längst upp på sammanfattningspanelen.
 
 
@@ -113,5 +113,5 @@ Om Klar-knappen är kopplad till flera statusar visas de under **Klar med min de
 >
 >När det gäller en uppgift eller ett problem med flera tilldelningar är varje användare ansvarig för att ange att deras egen tilldelning av uppgiften eller utgåvan har slutförts. Därför måste varje tilldelad klicka på [!UICONTROL Done] för att visa att de har slutfört det arbete som tilldelats dem för artikeln.
 
-![](assets/done-with-my-part.png)
+![Klar med min del](assets/done-with-my-part.png)
 
