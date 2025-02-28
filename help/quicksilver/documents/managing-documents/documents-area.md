@@ -7,9 +7,9 @@ description: Under Dokument kan du ordna, hantera och visa metadata för dokumen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Under Dokument kan du ordna, hantera och visa metadata för dokument som överförts till Adobe Workfront. Du kan också se bevisbeslutet.
 
-![](assets/documents-area-v2-350x199.png)
+![Dokumentområde](assets/documents-area-v2-350x199.png)
 
 Det finns två typer av dokumentområden. Funktionerna är desamma för båda:
 
-* **Dokumentområde i ett program, en portfölj, ett projekt, en aktivitet eller ett ärende:** Visar alla dokument som du har tillgång till för ett visst projekt, en viss aktivitet eller ett visst problem. Om du vill komma åt det här området klickar du på **Dokument** ![](assets/document-icon-12x14.png) i den vänstra panelen när du visar ett projekt, en uppgift eller ett problem.
+* **Dokumentområde i ett program, en portfölj, ett projekt, en aktivitet eller ett ärende:** Visar alla dokument som du har tillgång till för ett visst projekt, en viss aktivitet eller ett visst problem. Om du vill komma åt det här området klickar du på ikonen **Dokument** ![Dokument](assets/document-icon-12x14.png) i den vänstra panelen när du visar ett projekt, en uppgift eller ett problem.
 
-* **Området Globala dokument:** Visar alla dokument som du har tillgång till i Workfront. Klicka på **Dokument** ![](assets/document-icon.png) på huvudmenyn ![](assets/main-menu-icon.png) om du vill komma åt det här området.
+* **Området Globala dokument:** Visar alla dokument som du har tillgång till i Workfront. Om du vill komma åt det här området klickar du på ikonen **Dokument** ![Dokument](assets/document-icon.png) på huvudmenyn ![Huvudmeny-ikon](assets/main-menu-icon.png).
 
 Mer information om hur du överför dokument till Workfront finns i [Lägga till dokument till Adobe Workfront från ditt filsystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -44,7 +44,7 @@ Om korrektur är inställt för dokumentet innehåller avsnittet Detaljer inform
 
 Du kan klicka på rubriken Detaljer för att gå till hela dokumentinformationsdelen när du behöver all information om ett dokument.
 
-![](assets/documents-area-v2-350x199.png)
+![Dokumentområde](assets/documents-area-v2-350x199.png)
 
 Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
 
@@ -52,7 +52,7 @@ Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversi
 
 När du har fattat ett korrekturbeslut visas det i dokumentlistan.
 
-![](assets/proof-decision---doc-list-350x168.png)
+![Bekräftelsebeslut i dokumentlistan](assets/proof-decision---doc-list-350x168.png)
 
 ## Mappar
 
