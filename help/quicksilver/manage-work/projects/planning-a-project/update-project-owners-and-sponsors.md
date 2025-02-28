@@ -6,9 +6,9 @@ description: När du skapar ett projekt i Adobe Workfront anges du automatiskt s
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ När du lägger till en användare som projektägare i ett projekt får de autom
 
 1. Gå till det projekt som du vill uppdatera.
 1. Klicka på **Projektinformation** i den vänstra panelen.
-1. Klicka på ikonen **Redigera** ![](assets/qs-edit-icon.png) i det övre högra hörnet av området Projektinformation och klicka sedan på **Översikt**.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/qs-edit-icon.png) i det övre högra hörnet av området Projektinformation och klicka sedan på **Översikt**.
 
 1. Ange namnet på en användare för fältet **Projektägare**.
 
@@ -121,7 +121,7 @@ När du lägger till en användare som projektsponsor för ett projekt får de a
 
 1. Gå till det projekt som du vill uppdatera.
 1. Klicka på **Projektinformation** i den vänstra panelen.
-1. Klicka på ikonen **Redigera** ![](assets/qs-edit-icon.png) i det övre högra hörnet av området Projektinformation och klicka sedan på **Översikt**.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/qs-edit-icon.png) i det övre högra hörnet av området Projektinformation och klicka sedan på **Översikt**.
 
 1. Ange namnet på en användare för fältet **Projektsponsor**.
 
