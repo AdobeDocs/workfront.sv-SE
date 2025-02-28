@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Du måste manuellt ange planerat slutförandedatum för ett projekt när du sche
 
 Så här schemalägger du ett projekt från Slutförandedatum:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
 
 1. Klicka på **Nytt projekt** och sedan på **Nytt projekt**.
 
@@ -117,7 +117,7 @@ Det planerade slutförandedatumet för ett projekt beräknas automatiskt av Work
 
 Så här schemalägger du ett projekt från startdatum:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
 
 1. Klicka på **Nytt projekt** och sedan på **Nytt projekt**.
 
