@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Du kan inte se arbetsobjek
    | **Normal** | Normal är för rutinmässiga arbetsobjekt som du kommer att arbeta med när både brådskande och högprioriterade objekt har slutförts. Det här är standardinställningen för uppgifter och ärenden. |
    | **Låg** | Låg är för arbetsobjekt som inte behöver åtgärdas omedelbart och kan fördröjas tills alla högprioriterade arbetsobjekt är klara. |
 
-   ![](assets/my-focus-new.png)
+   ![Mitt fokus](assets/my-focus-new.png)
 
    >[!TIP]
    >
