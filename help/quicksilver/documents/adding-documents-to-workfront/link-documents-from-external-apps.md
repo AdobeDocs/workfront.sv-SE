@@ -6,9 +6,9 @@ description: Du kan länka dokument och mappar till Adobe Workfront från extern
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2620'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Du kan länka dokument till Workfront från ett externt program som Google och M
 
 >[!IMPORTANT]
 >
->Dropbox lagrar dokument baserat på filsökvägen. Därför går det inte att komma åt en fil som är länkad från Dropbox om den flyttas, byter namn eller tas bort.
+>Dropbox lagrar dokument baserat på filsökvägen. Det innebär att om en fil som är länkad från Dropbox flyttas, byter namn eller tas bort blir den inte tillgänglig i Workfront.
 
 1. Gå till området **Dokument** i Workfront där du vill ha dokumentet.
 1. Klicka på **Lägg till ny** och klicka sedan på den externa dokumentleverantören där du vill länka dokument till Workfront.
@@ -248,7 +248,7 @@ Användare utan Workfront-åtkomst kan se dokumentet i det externa programmet om
 1. Markera ett dokument som har överförts till Workfront.
 1. Klicka på **Mer** >**Skicka till** och välj sedan den molnleverantör som du vill lagra det länkade dokumentet hos.
 
-   Du kan också använda Mer-menyn ![](assets/more-icon.png) på sidan Dokumentinformation för att göra detta.
+   Du kan också använda menyn Mer ![Mer](assets/more-icon.png) på sidan Dokumentinformation för att göra detta.
 
 1. Markera den mapp i providerns program där du vill lagra dokumentet.
 
@@ -278,7 +278,7 @@ När du synkroniserar mappinnehåll från ett externt dokumentprogram använder 
 
 ### Länka en eller flera externa mappar {#link-one-or-more-external-folders}
 
-1. Gå till det område i Workfront där du vill ha mappen och klicka sedan på **Dokument** ![](assets/document-icon.png) i den vänstra panelen.
+1. Gå till det område i Workfront där du vill ha mappen och klicka sedan på ikonen **Dokument** ![Dokument](assets/document-icon.png) i den vänstra panelen.
 
 1. Klicka på **Lägg till ny** och klicka sedan på den externa dokumentleverantör som du vill länka en mapp från till Workfront.
 1. (Villkorligt) Om du ännu inte har auktoriserat den externa tjänsten anger du dina inloggningsuppgifter för den externa leverantören och klickar sedan på **Logga in**.
@@ -301,9 +301,9 @@ När du synkroniserar mappinnehåll från ett externt dokumentprogram använder 
 
    I Workfront visas molnleverantörens logotyp bredvid mappen, vilket anger att den är länkad till den externa molnleverantören.
 
-1. (Valfritt) Om du vill byta namn på mappen så att mappnamnet i Workfront skiljer sig från mappnamnet i det externa dokumentprogrammet, markerar du mappen i avsnittet **Mappar**, klickar på menyn Mer ![](assets/more-icon.png) som visas bredvid mappnamnet och klickar sedan på **Byt namn** .
+1. (Valfritt) Om du vill byta namn på mappen så att mappnamnet i Workfront skiljer sig från mappnamnet i det externa dokumentprogrammet, markerar du mappen i avsnittet **Mappar**, klickar på menyn Mer ![Mer](assets/more-icon.png) som visas bredvid mappnamnet och klickar sedan på **Byt namn**.
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![Byt namn på mapp](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Det här ändrar inte namnet på mappen i det externa programmet.
 
@@ -317,7 +317,7 @@ Du kan skapa en ny mapp i en befintlig länkad mapp. Du kan också dra en annan 
 
    Om du vill dra en befintlig mapp till en befintlig länkad mapp går du till området Dokument där du vill ha undermappen och drar den till den länkade mappen.
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![Dra till den länkade mappen](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >
