@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 1. Klicka på **Filter** i det övre vänstra hörnet i arbetslistan.
 1. klicka på **Standardfilter**.
 1. Markera ett eller flera filter om du vill begränsa arbetsobjekten.
-   ![](assets/filter-new.png)
+   ![Filter](assets/filter-new.png)
 
 +++Expandera för att se detaljerad information om tillgängliga filter
 <table>
@@ -157,7 +157,7 @@ Använd naturligt språk för att snabbt filtrera arbetet.
 
 1. Klicka på **Grupper** längst upp till vänster i arbetslistan.
 1. Välj en grupp för att ordna din arbetslista
-   ![](assets/groups-new.png)
+   ![Grupper](assets/groups-new.png)
 
 +++Expandera för att se detaljerad information om tillgängliga grupper
 
@@ -184,7 +184,7 @@ Du kan dra och släppa enskilda arbetsobjekt mellan kategorier när du grupperar
 
 Om du vill sortera ditt arbete i en grupp öppnar du **Grupp** och klickar på **Sortera stigande** eller **Sortera fallande**.
 
-![](assets/sort-in-groups.png)
+![Sortera i grupper](assets/sort-in-groups.png)
 
 ### Sortera kolumner
 
@@ -196,4 +196,4 @@ Om du vill sortera enskilda kolumner går du till kolumnen och klickar på nedpi
 
 Om du vill expandera eller komprimera alla gruppavsnitt öppnar du **Grupp** och klickar på **Expandera alla** eller **Komprimera alla**.
 
-![](assets/expand-collapse-groups.png)
+![Expandera eller komprimera grupper](assets/expand-collapse-groups.png)
