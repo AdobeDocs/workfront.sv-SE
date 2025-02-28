@@ -6,9 +6,9 @@ description: Du kan begära att ett projekt ska godkännas innan du börjar arbe
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ När du fyller i affärsärendet och skickar in projektet för godkännande slut
 Du kan begära ett projekt när du lägger till ett nytt projekt i följande områden i Adobe Workfront:
 
 * I området Projekt
-* I området Projekt på en Portfolio
+* Under Projekt i en Portfolio
 * Under Projekt i ett program
 * När du är gruppadministratör i området Grupper för gruppen med projektet.
 
@@ -70,14 +70,14 @@ Du kan begära ett projekt när du lägger till ett nytt projekt i följande omr
 
 1. Gör något av följande:
 
-   * Klicka på **huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klicka på **Projekt** och expandera sedan **Nytt projekt**.
+   * Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet eller på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klicka på **Projekt** och expandera sedan **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
    * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Klicka på **Begär projekt**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Listrutan Nytt projekt](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Gör något av följande:
 
@@ -89,4 +89,4 @@ Du kan begära ett projekt när du lägger till ett nytt projekt i följande omr
 
      Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md) eller [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Det projekt som du begär har statusen **Begärd** och visas på fliken **Begärda projekt** på Portfolio, om du har associerat det med Portfolio. En portföljförvaltare kan nu granska den och antingen godkänna den eller avvisa den. I så fall ändras projektets status till antingen **Godkänd** eller **Avvisad**.
+   Det projekt som du begär har statusen **Begärd** och visas på fliken **Begärda projekt** på en Portfolio, om du har associerat det med en Portfolio. En portföljförvaltare kan nu granska den och antingen godkänna den eller avvisa den. I så fall ändras projektets status till antingen **Godkänd** eller **Avvisad**.
