@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ## Administration och installation
 
+### Gränssnittsuppdatering för meddelandecenter
+
+**Förhandsversion: 27 februari 2025; ska tillkännages**
+
+Vi har uppdaterat vårt meddelandecenter med en modernare design som är i linje med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till ikonen Meddelanden i det övre högra hörnet och väljer Alla meddelanden.
+
 ### Gränssnittsuppdatering för anpassning av händelseaviseringsämnen
 
 **Förhandsversion: 13 februari 2025; börjar veckan 13 februari 2025**
@@ -34,7 +42,7 @@ Om du vill visa den här ändringen går du till Inställningar > E-post > Medde
 
 ### Gränssnittsuppdatering för Teams-området
 
-**Förhandsversion: 13 februari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 13 februari 2025; Produktionsversion: Från och med 20 februari 2025**
 
 Vi har uppdaterat Teams-området med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -136,7 +144,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ### Gränssnittsuppdatering för Iterations - översikt
 
-**Förhandsversion: 13 februari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 13 februari 2025; Produktionsversion: Från och med 20 februari 2025**
 
 Vi har uppdaterat översiktssidan för Iterations med en modernare design som överensstämmer med andra delar av Workfront.
 
