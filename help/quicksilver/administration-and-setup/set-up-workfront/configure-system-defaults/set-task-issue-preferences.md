@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>Beräknar planerade och faktiska intäktsuppskattningar för en aktivitet. När <strong>[!UICONTROL Revenue Type]</strong> är inställt på <strong>[!UICONTROL Not Billable]</strong> genereras ingen intäktsuppskattning för aktiviteten av planerade timmar och registrerade timmar, och arbetet med aktiviteten bidrar inte till intäkten på projektnivå.</p> </td> 
+    <td> <p>Beräknar planerade och faktiska intäktsuppskattningar för en aktivitet. När <strong>[!UICONTROL Revenue Type]</strong> är inställt på <strong>[!UICONTROL Not Billable]</strong> genereras ingen intäktsuppskattning för aktiviteten av planerade timmar och registrerade timmar, och arbetet med aktiviteten bidrar inte till intäkten på projektnivå.</p>
+         <p>Mer information om olika intäktstyper finns i <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Översikt över fakturering och intäkt</a>.</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
