@@ -5,7 +5,7 @@ title: 'Felsökning: outlookIdentityToken-fel vid användning av Workfront för 
 description: Om du får ett OutlookIdentityToken-fel när du använder Workfront för Outlook måste du aktivera Microsoft 365-token för din organisation.
 author: Becky
 feature: Workfront Integrations and Apps
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: 571ed00f44322d73183323c4d4154284cd028301
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -25,4 +25,4 @@ För att åtgärda det här felet måste du aktivera Microsoft 365-token för di
 
 Instruktioner om hur du aktiverar tidigare Microsoft 365-token finns i [Aktivera eller inaktivera tidigare Exchange Online-token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/turn-exchange-tokens-on-off) i Microsoft-dokumentationen.
 
-Mer information om inloggningstoken finns i [Kan jag aktivera gamla token för Exchange Online igen?](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) i Microsoft-dokumentationen.
+Mer information om äldre token finns i [Kan jag aktivera gamla token i Exchange Online igen?](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) i Microsoft-dokumentationen.
