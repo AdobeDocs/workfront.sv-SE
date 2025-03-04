@@ -5,9 +5,9 @@ description: Som en del av resursplaneringen kan du använda resursplaneraren p�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ Så här använder du resurspooler och budgetprojektresurser i affärsärendet f
 
    * Välj Resursplanering i fältet **Välj vilka timmar som ska användas för att beräkna den budgeterade arbetskostnaden för projektet** och klicka sedan på **Välj > Redigera resursbudgetering**.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![Affärsärende i resursplaneraren](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * Om scenarioplanen har valts för budgeteringsresurser för projektet klickar du på **Ändra** > **Redigera resursbudgetering**.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![Affärsfall i scenarioplanering](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    Detta använder projektets budgeterade timmar för att beräkna den budgeterade arbetskostnaden för projektet.
 

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ Den nya versionen är inte en ändring av Workfront API, utan snarare en ändrin
 
 Möjligheten att uppgradera eller nedgradera abonnemang säkerställer att befintliga prenumerationer inte bryts när händelsestrukturen ändras, vilket gör att du kan testa och uppgradera till den nya versionen utan avbrott i prenumerationen.
 
+
+När du uppgraderar eller nedgraderar din eventprenumeration till en annan version får du dubbletthändelser för varje eventleverans i fem minuter efter att versionen ändrats. Dubbletterna innehåller en av alla händelseprenumerationer, version 1 och version 2. Detta säkerställer att du inte missar några händelser på grund av att du har ändrat versionen av en händelseprenumeration.
+
 Mer information om slutpunkterna som används för att uppgradera eller nedgradera händelseprenumerationer finns i [Versionsinformation om händelseprenumerationer](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) i artikeln Event-prenumerations-API.
 
 >[!IMPORTANT]
@@ -30,6 +33,7 @@ Mer information om slutpunkterna som används för att uppgradera eller nedgrade
 >
 >* **25.2 utgåva** (10 april 2025): Alla nya prenumerationer som skapas efter version 25.2 skapas som version 2.
 >* **25.3 utgåva** (17 juli 2025): Prenumerationer kan inte längre nedgraderas till version 1 efter version 25.3.
+>* **1 september 2025**: Alla återstående prenumerationer på version 1 migreras till version 2.
 
 ## Ändringar mellan version 1 och version 2
 

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 193a1ecafb5dd919a2fa760ce5ab2a9903881900
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2407'
 ht-degree: 0%
 
 ---
@@ -350,6 +350,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -422,6 +424,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -449,6 +453,10 @@ Möjligheten att uppgradera eller nedgradera abonnemang säkerställer att befin
 Mer information om versionshantering av händelseprenumerationer, inklusive specifika skillnader mellan version och viktiga datum, finns i [Version av händelseprenumerationer](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 ### Ändring av prenumeration
+
+>[!NOTE]
+>
+>När du uppgraderar eller nedgraderar din eventprenumeration till en annan version får du dubbletthändelser för varje eventleverans i fem minuter efter att versionen ändrats. Dubbletterna innehåller en av alla händelseprenumerationer, version 1 och version 2. Detta säkerställer att du inte missar några händelser på grund av att du har ändrat versionen av en händelseprenumeration.
 
 Syntaxen för begäran om att ändra versionen för en prenumeration är:
 
