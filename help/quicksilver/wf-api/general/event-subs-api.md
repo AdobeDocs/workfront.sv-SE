@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 0%
@@ -452,11 +452,11 @@ Möjligheten att uppgradera eller nedgradera abonnemang säkerställer att befin
 
 Mer information om versionshantering av händelseprenumerationer, inklusive specifika skillnader mellan version och viktiga datum, finns i [Version av händelseprenumerationer](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-### Ändring av prenumeration
-
 >[!NOTE]
 >
 >När du uppgraderar eller nedgraderar din eventprenumeration till en annan version får du dubbletthändelser för varje eventleverans i fem minuter efter att versionen ändrats. Dubbletterna innehåller en av alla händelseprenumerationer, version 1 och version 2. Detta säkerställer att du inte missar några händelser på grund av att du har ändrat versionen av en händelseprenumeration.
+
+### Ändring av prenumeration
 
 Syntaxen för begäran om att ändra versionen för en prenumeration är:
 
