@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,11 @@ Du kan koppla poster till andra poster eller till objekt från andra program i f
    * De kopplade postfälten i tabellvyn för en posttyp i Planning.
    * Postens förhandsgranskning eller sida i de anslutna postfälten på fliken Information.
    * Postens förhandsgranskning eller sida på fliken Anslutningar.
+   * <span class="preview">Postens sida på fliken Anslutningsvy i en ansluten post.</span>
 
-* Du kan koppla Workfront-objekt till Workfront Planning-poster i följande områden:
+* Du kan ansluta Workfront-objekt till Workfront Planning-poster i följande områden i Workfront:
 
-   * Under Planning för ett Workfront-objekt.
-   * <span class="preview">Från ett Planning-anslutningsfält på ett Workfront-objekts anpassade formulär. </span>
+   * Planeringsdelen av ett Workfront-objekt.
+   * <span class="preview">Ett planeringsanslutningsfält i ett anpassat Workfront-objekts formulär. </span>
 
   Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

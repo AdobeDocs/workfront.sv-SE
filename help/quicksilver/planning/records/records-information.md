@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -27,6 +27,7 @@ När du har skapat posttyper i Adobe Workfront Planning kan du skapa enskilda po
 I följande artiklar beskrivs hur du kan skapa och hantera poster och deras information i Adobe Workfront Planning:
 
 * [Skapa poster](/help/quicksilver/planning/records/create-records.md)
+  <!--* <span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>-->
 * [Skapa Workfront-objekt från Workfront Planning när du kopplar dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Skapa objekt med automatisering av Adobe Workfront Planning Record](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Redigera poster](/help/quicksilver/planning/records/edit-records.md)

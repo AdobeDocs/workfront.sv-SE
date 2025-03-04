@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
+source-wordcount: '13041'
 ht-degree: 0%
 
 ---
@@ -2017,6 +2017,7 @@ ht-degree: 0%
       * [Skapa arbetsytor](planning/architecture/create-workspaces.md)
       * [Översikt över posttyper](planning/architecture/overview-of-record-types.md)
       * [Skapa posttyper](planning/architecture/create-record-types.md)
+      * [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](planning/architecture/import-file-to-create-record-types.md)
       * [Översikt över posttyper för anslutning](planning/architecture/connect-record-types-overview.md)
       * [Koppla posttyper](planning/architecture/connect-record-types.md)
       * [Redigera posttyper](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 0%
    * Adobe Workfront Planning-poster {#adobe-workfront-planning-records}
       * [Poster: artikelindex](planning/records/records-information.md)
       * [Skapa poster](planning/records/create-records.md)
+      * [Skapa poster genom att importera information från en CSV- eller Excel-fil](planning/records/import-file-to-create-records.md)
       * [Översikt över anslutna poster](planning/records/connected-records-overview.md)
       * [Koppla poster](planning/records/connect-records.md)
       * [Redigera poster](planning/records/edit-records.md)

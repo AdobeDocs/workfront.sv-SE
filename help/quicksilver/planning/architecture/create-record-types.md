@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-
 ## Att tänka på när du skapar posttyper
 
 * Du kan skapa posttyper på en arbetsyta på följande sätt:
@@ -108,11 +107,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
         Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * När du importerar dem med en Excel- eller CSV-fil.
+      * När du importerar dem med en CSV- eller Excel-fil.
 
      >[!TIP]
      >
-     >När du importerar en posttyp från en Excel- eller CSV-fil kan du även importera poster och fält.
+     >När du importerar en posttyp från en CSV- eller Excel-fil kan du även importera poster och fält.
 
    * Manuellt:
 
@@ -152,7 +151,7 @@ Mer information om vilka posttyper som ingår i varje mall finns i [Lista över 
    Rutan Lägg till posttyp öppnas.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-   ![](assets/add-record-type-box-with-appearance-options.png)
+   ![Lägg till posttypsruta med utseendealternativ](assets/add-record-type-box-with-appearance-options.png)
 
 1. Uppdatera följande information:
 
@@ -167,12 +166,12 @@ Mer information om vilka posttyper som ingår i varje mall finns i [Lista över 
    Posttypkortet läggs till i avsnittet och på den arbetsyta som du har valt.
 Beskrivning av posttypen visas på kortet.
 
-   ![](assets/record-type-card-with-description.png)
+   ![Posttypkort med beskrivning](assets/record-type-card-with-description.png)
 
-1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** för att ändra information om posttypen.
+1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer meny](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** för att ändra information om posttypen.
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
-   ![](assets/operational-record-type-blank.png)
+   ![Posttypen för operativt ](assets/operational-record-type-blank.png) är tom
 
    Posttypssidan visas som standard i tabellvyn. Kolumnerna i tabellen är fält som är kopplade till den nya posttypen. Varje rad är en unik post som du måste lägga till.
 
@@ -188,7 +187,7 @@ Beskrivning av posttypen visas på kortet.
 
    eller
 
-   Klicka på ikonen **Mer** ![](assets/more-menu.png) till höger om posttypens namn och klicka på **Redigera** för att byta namn på den eller ändra informationen om den. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Klicka på ikonen **Mer** ![Mer meny](assets/more-menu.png) till höger om posttypens namn och klicka på **Redigera** för att byta namn på den eller ändra informationen om den. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Valfritt) Klicka på **+ Ny post** om du vill lägga till poster av den valda posttypen. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 1. (Valfritt) Klicka på ikonen **+** i tabellens övre högra hörn för att lägga till fler fält i posttypen.
@@ -208,71 +207,14 @@ Beskrivning av posttypen visas på kortet.
    * [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Skapa posttyper genom att importera en Excel- eller CSV-fil
+## Skapa posttyper genom att importera information från en CSV- eller Excel-fil
 
-Tänk på följande när du importerar posttyper med en Excel- eller CSV-fil:
+Du kan importera följande när du importerar information från en CSV- eller Excel-fil:
 
-* Varje blad i Excel-filen blir en posttyp. Kalkylbladets namn blir posttypens namn.
-* Om det bara finns ett blad, eller om du importerar en CSV-fil, får filen namnet som posttyp.
-* Kolumnrubrikerna i varje blad blir de fält som är kopplade till varje posttyp.
-* Fält är unika för respektive posttyp.
-* Varje rad i varje blad blir en unik post som är kopplad till respektive posttyp.
-* Varje blad i Excel-filen får inte överskrida följande:
-   * 10 000 rader
-   * 500 kolumner
-* Excel-filen får inte vara större än 5 MB.
-* Tomma blad stöds inte.
+* Posttyper
+* Poster
+* Postfält
 
-Så här importerar du posttyper med en Excel- eller CSV-fil:
+Mer information finns i [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-{{step1-to-planning}}
 
-1. Klicka på arbetsytan där du vill skapa posttyper,
-
-   eller
-
-   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
-1. Klicka på **Lägg till posttyp**.
-1. Klicka på **Från fil**.
-1. Dra och släpp en Excel- eller CSV-fil som tidigare sparats på datorn eller klicka på **Välj en CSV- eller Excel-fil** om du vill bläddra efter en.
-1. Klicka på **Förhandsgranska och redigera**.
-
-   Rutan **Förhandsgranska och redigera** visas med följande information:
-
-   * Namnen på arken eller de framtida posttyperna visas på den vänstra panelen. I Workfront Planning väljs en ikon och en färg för varje ny posttyp som standard.
-   * Den första arks- eller posttypen markeras och namnen på de fält som är kopplade till den visas som kolumnrubriker. Som standard väljs typen för varje fält.
-   * Varje rad representerar en ny post. Endast de första 10 posterna visas i rutan Förhandsgranska och redigera.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Valfritt) Klicka på namnet på varje blad i den vänstra panelen för att granska informationen som det innehåller.
-
-   >[!NOTE]
-   >
-   >Blad som är tomma stöds inte och är nedtonade.
-
-1. (Valfritt) Avmarkera de blad som du inte vill importera från den vänstra panelen.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Blad som du avmarkerat visas med grå bakgrund.
-
-1. (Valfritt) Klicka på den nedåtriktade pilen till höger om kolumnrubriken om du vill göra något av följande:
-
-   * Byt namn på ett av fälten
-   * Ändra **fälttypen**
-   * Uppdatera fältet **Beskrivning**
-
-1. (Villkorligt) När du har uppdaterat informationen om fältet klickar du på **Spara**.
-
-1. Klicka på **Importera** när du är klar att importera filen.
-
-   Följande information importeras till Workfront Planning:
-
-   * Nya posttyper
-   * Nya fält som är associerade med varje posttyp
-   * Nya poster associerade med varje posttyp
-
-   Du kan börja hantera fält och poster på posttypssidorna.
-
-   Alla som har tillgång till Workfront Planning kan nu visa och redigera de importerade posttyperna och deras information.

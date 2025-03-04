@@ -1,14 +1,14 @@
 ---
-title: "Arkitektur: Artikelindex"
+title: 'Arkitektur: Artikelindex'
 description: I följande artiklar beskrivs hur du konfigurerar arkitekturen för Adobe Workfront Planning. Som en del av den här konfigurationen får du lära dig hur du skapar arbetsytor, posttyper och anpassade fält för att mappa de arbetsflöden du vill hantera i Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ I artiklarna i följande avsnitt beskrivs hur du kan konfigurera arbetsytorna i 
 * [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Översikt över posttyper](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)

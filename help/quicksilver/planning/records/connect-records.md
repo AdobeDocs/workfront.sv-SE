@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3332'
 ht-degree: 0%
 
 ---
@@ -200,13 +200,13 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
    >eller
    >Klicka på **Anslut poster** (om fältet är tomt) om du vill lägga till poster från den anslutna posten eller objekttypen.
    >
-   >![](assets/connect-records-from-record-page-field.png)
+   >![Koppla poster från postsidfält](assets/connect-records-from-record-page-field.png)
 
 1. (Valfritt) Klicka på **Visa alla** om du vill visa alla poster.
 
 1. (Villkorligt) Om du klickade på **Visa alla** i föregående steg visas rutan **Anslut objekt** .
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![Register för anslutna objekt för poster](assets/connected-objects-table-for-records.png)
 
 1. Börja skriva namnet på en post i sökrutan och markera den när den visas i listan
 
@@ -282,7 +282,7 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
    Om du klickade på **Visa alla** i föregående steg visas rutan **Anslut objekt** .
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+   ![Markera projekt i rutan Koppla objekt](assets/connect-objects-box-to-select-projects.png)
 
 1. Börja skriva namnet på ett Workfront-objekt i sökrutan och markera det sedan när det visas i listan
 
@@ -359,7 +359,7 @@ Så här ansluter du poster med Experience Manager-resurser:
 
    Rutan **Välj Assets** visas. <!--we might change this to Connect assets-->
 
-   ![](assets/select-assets-box-for-aem-record-connections.png)
+   ![Markera resurslådan för AEM-postanslutningar](assets/select-assets-box-for-aem-record-connections.png)
 
 1. Klicka för att välja någon av följande typer av resurser:
 
@@ -389,7 +389,7 @@ Så här ansluter du poster med Experience Manager-resurser:
 
 1. (Valfritt) Gå till den posttyp som du länkade till Experience Manager Assets från och klicka på namnet på en resurs i det länkade postfältet. Information om resursen visas i ett popup-fönster i Experience Manager.
 
-   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+   ![Popup-fönstret Resurser med AEM-information och miniatyrbild](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
    Följande fält visas för en bildfil:
 
@@ -403,7 +403,7 @@ Så här ansluter du poster med Experience Manager-resurser:
    * Skapad den
    * Ändrat den
 
-1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![](assets/open-asset-icon.png) för att öppna resursen.
+1. (Valfritt) Om du vill öppna Experience Manager resurspostsida i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på ikonen **Öppna i AEM** ![Öppna resurs i AEM-ikon ](assets/open-asset-icon.png) för att öppna resursen.
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 
@@ -424,7 +424,7 @@ Så här ansluter du poster med Experience Manager-resurser:
 1. Klicka på namnet på en post.
 
    Förhandsgranskningssidan öppnas.
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
 1. Klicka på fliken **Anslutningar** på postens förhandsgranskning eller sida.
 
    ![Fliken Anslutningar på posten i Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -449,24 +449,15 @@ Så här ansluter du poster med Experience Manager-resurser:
    Mer information finns i avsnittet Skapa poster när du ansluter dem från andra poster i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 1. Följ stegen som beskrivs i de föregående avsnitten för att ansluta poster från Workfront Planning eller objekt från Workfront eller Experience Manager Assets.
 Posterna och objekten läggs till omedelbart.
-1. (Valfritt) Hovra över det anslutna kortet för en post eller ett objekt och klicka sedan på ikonen **Koppla från post** ![](assets/disconnect-icon-with-tooltip.png) för att koppla bort den från den markerade posten.
+1. (Valfritt) Hovra över det anslutna kortet för en post eller ett objekt och klicka sedan på ikonen **Koppla från post** ![Koppla från post](assets/disconnect-icon-with-tooltip.png) för att koppla från den markerade posten.
 
-   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![Ikonen Koppla från post med verktygstipset på fliken Anslutningar](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    Posten kopplas omedelbart bort från alla områden i Workfront Planning eller från andra program där den kan visas som ansluten. Alla värden för sökfält tas också bort.
 
-## Koppla ihop poster från Workfront-objekt
-
-Du måste ha följande för att kunna ansluta Workfront Planning-poster från Workfront-objekt:
-
-* Anslutningar mellan posttyper och Workfront-objekttyper som har upprättats i Workfront Planning.
-* Din Workfront- eller gruppadministratör måste lägga till planeringsavsnittet i Workfront-projekt, portföljer och program i din layoutmall.
-
-Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-
 <div class="preview">
 
-## Koppla poster från fliken Anslutningsvy på informationssidan för en post
+### Koppla poster från fliken Anslutningsvy på informationssidan för en post
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -485,3 +476,22 @@ Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfro
 1. (Valfritt) Om du inte kan hitta någon ansluten post klickar du på **+ Lägg till** för att skapa och ansluta den.
 
 </div>
+
+## Koppla ihop poster från Workfront-objekt
+
+Du måste ha följande för att kunna ansluta Workfront Planning-poster från Workfront-objekt:
+
+* Anslutningar mellan posttyper och Workfront-objekttyper som har upprättats i Workfront Planning.
+* Din Workfront- eller gruppadministratör måste lägga till något av följande till en Workfront-objekttyp:
+
+   * Avsnittet Planering för Workfront-projekt, portföljer och program i layoutmallen.
+
+   * Det anpassade fältet Planning ansluter till ett anpassat formulär för något av följande objekt:
+
+      * Projekt
+      * Portfolio
+      * Program
+      * Grupp
+      * Företag
+
+  Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
