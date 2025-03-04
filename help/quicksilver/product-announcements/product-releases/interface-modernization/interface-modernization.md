@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,14 @@ Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersl
 Vi har uppdaterat godkännandeområdet i ett dokument med en modernare design som är förenlig med andra delar av Workfront.
 
 Om du vill visa den här ändringen går du till ett dokument > Klicka på Dokumentinformation > Godkännanden.
+
+### Gränssnittsuppdatering för redigering av smarta mappar
+
+**Förhandsversion: 27 januari 2025; Produktionsversion: Från 3 februari 2025**
+
+Vi har uppdaterat redigeringsdialogrutan för smarta mappar med en modernare design som överensstämmer med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Dokument > Klicka på menyn Mer bredvid namnet på det smarta filtret > Klicka på Redigera.
 
 ## Rapporter och kontrollpaneler
 
