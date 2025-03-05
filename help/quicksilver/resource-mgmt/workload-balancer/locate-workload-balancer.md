@@ -7,9 +7,9 @@ description: Du kan använda belastningsutjämnaren för att schemalägga resurs
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,8 @@ Följande avsnitt visar var du kan komma åt Utjämning av arbetsbelastning i Wo
      Vi rekommenderar att du använder filter när du visar användare i området Tilldelat arbete. Mer information finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Åtkomst till belastningsutjämnaren för ett team
+
+Mer information om team i Workfront finns i [Teams overview](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 {{step1-to-team}}
 
