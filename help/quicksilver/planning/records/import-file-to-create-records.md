@@ -3,13 +3,13 @@ title: Skapa poster genom att importera information från en CSV- eller Excel-fi
 description: Poster är enskilda instanser av posttyper, som är objekttyper i Adobe Workfront Planning. I Workfront Planning kan du skapa poster genom att importera information från en CSV- eller Excel-fil.
 hide: true
 hidefromtoc: true
-source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
-
 
 <!-- add the following in the metadata when live:
 
@@ -82,12 +82,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p> 
-   <p>Redigera åtkomst i Workfront för de objekttyper som du vill skapa (projekt och portföljer) när du kopplar posterna till dem. </p>  
+   <p>Redigera åtkomst i Workfront för de objekttyper som du vill skapa (projekt, program och portföljer) när du kopplar posterna till dem. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td> <p>Hantera behörigheter för den arbetsyta som du vill lägga till poster i. </p>  
+   <td> <p>Contribute eller högre behörigheter på arbetsytan som du vill lägga till poster i. </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
    </td> 
@@ -103,23 +103,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-## Att tänka på när du importerar posttyper med hjälp av en Excel- eller CSV-fil
+## Att tänka på när du importerar poster med hjälp av en Excel- eller CSV-fil
 
 * Kolumnrubrikerna i varje blad blir de fält som är kopplade till poster.
 * Varje rad i varje blad blir en unik post som kopplas till.
 * Om Excel-filen innehåller mer än ett blad importeras endast den information från ett blad som du väljer under importen.
 * Filen får inte överskrida följande:
-   * 10 000 rader
+   * 25 000 rader
    * 500 kolumner
 * Filen får inte vara större än 5 MB.
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
-   * Sök efter fält för anslutna poster eller anslutna Workfront-objekt
+   * Anslutningar och sökfält för anslutna poster <!--or connected Workfront objects-->
    * Formelfält
    * Skapad den, skapad av
    * Senast ändrat den
    * Folk
-* Om ett fält med flera eller enstaka val importeras och det har fler alternativ än ett liknande fält i Planering, skapas de ytterligare alternativen under importen.
+   * Om ett fält med flera eller enstaka val importeras och det har fler alternativ än ett liknande fält i Planering, skapas de ytterligare alternativen under importen. Endast användare med behörigheten Hantera på arbetsytan kan importera nya alternativ.
 
 ## Skapa poster genom att importera en CSV- eller Excel-fil
 
@@ -144,11 +144,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Varje rad representerar en ny post. Endast de första 10 posterna visas i rutan Förhandsgranska och redigera.
 
-1. (Valfritt) Välj **Skapa saknade alternativ** i skärmens nedre vänstra hörn. När det här alternativet är aktiverat läggs de saknade alternativen för ett- och flervalsfält till.
+1. (Valfritt och villkorligt) Om du har behörigheten Hantera på arbetsytan väljer du **Skapa saknade alternativ** i skärmens nedre vänstra hörn. När det här alternativet är aktiverat läggs de saknade alternativen för ett- och flervalsfält till.
 
-   Om den valda posttypen till exempel har ett statusfält med en enda markering med alternativen Nytt, Pågår och Stängt och ett statusfält som importerats från en fil också har alternativet Håll kvar, läggs statusalternativet till
+>[!NOTE]
+>
+>Om den valda posttypen till exempel har ett statusfält med en enda markering där alternativen Nytt, Pågår och Stängt och ett statusfält som importeras från en fil också har ett alternativ för Håll kvar-status, läggs statusalternativet Vid parkering också till.
+>
+>Om du inte har behörigheten Hantera på arbetsytan kan du importera poster, men de ytterligare alternativen skapas inte. Du får i stället följande meddelande i det övre högra hörnet av karta över planeringsfälten till kolumnrubrikrutan: **De alternativ som inte finns i anslutning, envalsfält eller flervalsfält läggs inte till**.
 
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+    &lt;!- när vi lägger till anslutna poster och informationsikonen i verktyget ändras, lägger du även till dessa objekt i det här steget—>
 
 1. Klicka på **Importera**.
 

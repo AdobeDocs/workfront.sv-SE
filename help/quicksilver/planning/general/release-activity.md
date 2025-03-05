@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 0%
 
 ---
@@ -268,7 +268,7 @@ Nu kan du skapa följande när du ansluter poster:
 
 * Workfront Planning - poster
 * Workfront Projects utan mall
-* Workfront Portfolio
+* Workfront Portfolios
 
 Du kan inte skapa andra anslutna Workfront-objekt eller Experience Manager-resurser när du ansluter dem till en post.
 
@@ -563,7 +563,7 @@ Produktion: 21 juni 2024
 
 Förhandsgranska: Ska bestämmas
 
-Vi har ändrat vilka typer av användare som kan ha fullständig åtkomst till arbetsytor. Nu kan bara användare med Standard- eller Plan-licens ha Hantera-behörighet till arbetsytor. Åtkomsten till posttyper, poster och fält ärvs från en arbetsyta. Alla andra användare har skrivskyddad åtkomst till arbetsytor och deras objekttyper. Innan den här uppdateringen kunde användare med Light- och Worker-licens få Contribute-behörigheter till arbetsytorna.
+Vi har ändrat vilka typer av användare som kan ha fullständig åtkomst till arbetsytor. Nu kan bara användare med Standard- eller Plan-licens ha Hantera-behörighet till arbetsytor. Åtkomsten till posttyper, poster och fält ärvs från en arbetsyta. Alla andra användare har skrivskyddad åtkomst till arbetsytor och deras objekttyper. Före den här uppdateringen kunde användare med Light- och Worker-licens få Contribute-behörigheter till arbetsytorna.
 
 Mer information finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -715,7 +715,7 @@ Följande åtgärder är tillgängliga under Planning i Workfront:
 
 * Öppna förhandsgranskningsrutan eller -sidan med information om du vill visa mer information om de anslutna posterna
 
-Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Vecka 13 maj 2024
 
@@ -800,7 +800,7 @@ Produktion: 8 maj 2024
 
 Förhandsgranska: För att bestämma
 
-Om du är kund i Adobe Unified Experience och någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen och ett e-postmeddelande om kommentaren. Du kan hantera dina meddelandeinställningar under Inställningar i din Adobe Experience Cloud-profil. Mer information finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Om du är Adobe Unified Experience-kund och någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen och ett e-postmeddelande om kommentaren. Du kan hantera dina meddelandeinställningar under Inställningar i din Adobe Experience Cloud-profil. Mer information finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Mer information om Workfront planeringsmeddelanden finns i [Adobe Workfront Planning-meddelanden: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 
@@ -1101,7 +1101,7 @@ Följande är de högsta behörighetsnivåerna som användare kan få baserat p�
 
 * Användare med en planlicens (eller standardlicens, i den nya licensmodellen) kan skapa och hantera arbetsytor, posttyper och poster.
 
-* Användare med en arbetslicens (eller Light, i den nya licensmodellen) kan visa och bidra till en arbetsyta som delas med dem, samt till den arbetsytans posttyper och poster.  Användare av Work- (eller Light-)-licensen kan också skapa, redigera och ta bort poster i arbetsytor där de har tillgång till Contribute.
+* Användare med en arbetslicens (eller Light, i den nya licensmodellen) kan visa och bidra till en arbetsyta som delas med dem, samt till den arbetsytans posttyper och poster.  Användare med arbetslicens (eller ljus-) kan också skapa, redigera och ta bort poster på arbetsytor där de har Contribute-åtkomst.
 
 * Användare med en licens för Granska eller Begärande (eller Medarbetare, i den nya licensmodellen) kan bara visa de arbetsytor som delas med dem, samt posttyperna och posterna för dessa arbetsytor. De kan inte skapa, redigera eller ta bort posttyper eller poster.
 
@@ -1237,7 +1237,7 @@ Följande behörighetsnivåer gäller för arbetsytor:
 
 * Visa: Användare kan visa arbetsytor som delas med dem. De kan även visa posttyper och poster från den delade arbetsytan.
 
-* Contribute: Användare kan skapa, redigera eller ta bort poster på arbetsytan som delas med dem.  De kan inte skapa eller redigera posttyper eller arbetsytor som delas med dem.
+* Contribute: Användare kan skapa, redigera och ta bort poster på den arbetsyta som delas med dem.  De kan inte skapa eller redigera posttyper eller arbetsytor som delas med dem.
 
 * Hantera: Användare kan skapa, redigera och ta bort arbetsytor, posttyper, poster och fält på arbetsytor som delas med dem.
 
@@ -1246,7 +1246,7 @@ Följande behörighetsnivåer gäller för postvyer:
 * Visa: Användare kan välja vyn i listrutan Visa på en posttypsida.
 * Hantera: Användare kan redigera, dela och ta bort vyn.
 
-Mer information finns i [Åtkomstöversikt för Adobe-planering](/help/quicksilver/planning/access/access-overview.md) och [Översikt över delningsbehörigheter i Adobe Workfront-planeringsfunktioner](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Mer information finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md) och [Översikt över delningsbehörigheter i Adobe Workfront Planning-funktioner](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Ny formelfältstyp
 

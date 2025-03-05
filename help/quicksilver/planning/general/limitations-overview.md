@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
 | Antal vyer som en användare kan skapa för en posttyp | 100 |
 | Storlek på Excel-fil som du kan importera för att skapa posttyper | 5 MB |
-| Antal rader som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 10 000 |
+| Antal rader som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 25 000 |
 | Antal kolumner som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 500 |
 
 *Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.

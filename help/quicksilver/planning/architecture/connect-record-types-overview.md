@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Tänk på följande när det gäller att ansluta posttyper:
    * Adobe Workfront:
 
       * Projekt
-      * Portfolio
+      * Portföljer
       * Program
       * Företag
       * Grupper
@@ -60,7 +60,7 @@ Tänk på följande när det gäller att ansluta posttyper:
      >
      >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
      >
-     >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Om du har frågor om introduktion till Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * När du har skapat poster för de anslutna posttyperna kan du länka dem till varandra via det anslutna postfältet.  Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
@@ -74,7 +74,7 @@ Tänk på följande när det gäller att ansluta posttyper:
 
       * Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i det andra programmets objekttyp.
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
-      * Planeringsposter visas på Workfront-objektets planeringflik. Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+      * Planeringsposter visas på Workfront-objektets planeringflik. Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * <span class="preview">Du kan skapa ett anpassat fält för planeringsanslutning och bifoga det till ett anpassat Workfront-objekts formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). </span>
       * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 

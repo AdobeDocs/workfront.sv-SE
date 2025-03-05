@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,16 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan visa Workfront Planning-poster och deras respektive poster som är kopplade till Adobe Workfront-objekt i följande områden i Workfront:
+Du kan visa Workfront Planning-poster i Workfront i följande områden av objekten som är kopplade till dem:
 
 * Avsnittet Planning för ett Workfront-objekt: Visar alla posttyper som är kopplade till ett objekt och deras respektive anslutna poster.
 * Ett anpassat fält för planeringsanslutning: Visar en posttyp och dess respektive kopplade poster.
+
+<!--replace the last sentence above with this: 
+
+Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
+
+-->
 
 ## Åtkomstkrav
 
@@ -85,6 +91,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr>
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
    <td> <p>Visa eller öka åtkomsten till projekt, program och portföljer</p>  
+   <p>Det finns ingen åtkomstnivåkonfiguration för Workfront Planning. </p>
 </td>
   </tr>
 <tr>
@@ -203,11 +210,19 @@ Mer information finns i [Skapa ett formulär](/help/quicksilver/administration-a
 
 Tänk på följande när du visar Workfront Planning-poster från ett Planning-anslutningsfält för ett Workfront-objekt:
 
-* Du kan bara associera en posttyp med ett Planning-anslutningsfält.
-* Du måste bifoga ett anpassat formulär med ett anpassat fält för planeringsanslutning till ett Workfront-objekt som kan anslutas från Workfront Planning, om du har rätt åtkomst.
-* Workfront Planning-posttyper måste först anslutas till Workfront-objekttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Du kan ansluta till eller koppla från poster från planeringsanslutningsfältet för ett Workfront-objekt endast för objekt som kan ha Workfront Planning-anslutningar.
+<!--
+* A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
+
+   * If only the primary field of the connected record is selected, as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
+-->
+* Du kan bara associera en posttyp med ett Planning-anslutningsfält. Det finns ingen gräns för hur många planeringsanslutningsfält du har i ett formulär.
+* Du måste ha korrekt åtkomst och behörighet till objektet, posten och Workfront Planning för att kunna koppla ett anpassat formulär med ett anpassat fält för planeringsanslutning till ett Workfront-objekt.
 * Du måste ha Contribute-behörighet för en arbetsyta i Workfront Planning för att kunna ansluta till eller koppla från poster från planeringsanslutningsfältet för ett Workfront-objekt.
+* Workfront Planning-posttyper måste först anslutas till Workfront-objekttyper. Mer information finns i [Koppla samman posttyper](/help/quicksilver/planning/architecture/connect-record-types.md). Detta gör att Workfront Planning-posterna kan nås från Workfront.
+* Du kan ansluta till eller koppla från poster från planeringsanslutningsfältet för ett Workfront-objekt endast för objekt som kan ha Workfront Planning-anslutningar.
+
+  Du kan till exempel koppla ett anpassat formulär med ett Planning-anslutningsfält till aktiviteter, men du kan inte koppla Workfront Planning-objekt till aktiviteter.
 * Du kan inte redigera ett planeringsanslutningsfält när du redigerar flera Workfront-objekt samtidigt.
 
 ### Hantera postanslutningar från anslutningstypen Planering
@@ -249,9 +264,15 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
    * Posterna är omedelbart kopplade till Workfront-objektet och visas i anslutningsfältet Planning samt planeringsavsnittet för Workfront-objektet.
    * Workfront-objektet läggs till i Workfront Planning-postens anslutna fält.
    * Värdena för Workfront sökfält som är kopplade till Planning-posten fylls i i Workfront Planning.
-1. (Valfritt) Klicka på namnet på en post i anslutningsfältet Planning för att öppna den i Workfront Planning.
-Fliken med postinformation öppnas i Workfront Planning.
-Du kan granska information om posten eller navigera till posttypssidan.
+   <!--* <span class="preview">If any record lookup fields were added when the custom form was set up, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
+   
+      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)-->
+
+1. (Valfritt) Klicka på namnet på en post <!--<span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span>--> i anslutningsfältet Planning för att öppna den i Workfront Planning.
+Förhandsgranskningsrutan med information om Workfront Planning-posten öppnas.
+Du kan granska eller redigera information om posten eller klicka på ikonen **Öppna på en ny flik** ![Öppna posten på en ny flik](assets/open-details-in-a-new-tab-icon.png) för att öppna sidan med postinformation.
 
 1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/remove-icon.png) för en post i det anpassade formuläret i Workfront för att ta bort den från anslutningsfältet Planning och koppla bort den från Workfront-objektet.
 Workfront-objektet kopplas bort från Planning-posten och all sökinformation från Workfront tas bort från posten.
+
+1. Klicka på **Spara ändringar** om du vill spara det anpassade formuläret och alla andra ändringar du har gjort i Workfront-objektet.

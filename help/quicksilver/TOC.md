@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '13041'
+source-wordcount: '13037'
 ht-degree: 0%
 
 ---
@@ -2059,7 +2059,7 @@ ht-degree: 0%
       * [Lägga till en miniatyrbild i en post](planning/records/add-thumbnails-to-records.md)
       * [Lägga till en omslagsbild till en post](planning/records/add-a-cover-image-to-a-record.md)
       * [Hantera postsidans layout](planning/records/manage-the-record-page.md)
-      * [Hantera poster i Planning-delen av Adobe Workfront-objekt](planning/records/manage-records-in-planning-section.md)
+      * [Hantera postanslutningar från Workfront-objekt](planning/records/manage-records-in-planning-section.md)
       * [Exportera information för en post](planning/records/export-the-record-page.md)
       * [Skapa Workfront-objekt från Workfront Planning när du kopplar dem till poster](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Skapa objekt med automatisering av Workfront Planning Record](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)

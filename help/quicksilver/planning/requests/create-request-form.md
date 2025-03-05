@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    * Värden för personfält visas som ID.
    * Formelfält som inte refererar till andra fält eller beräkningar visar inga värden. Ett fält med formeln `STRING` visar till exempel ett N/A-värde.
    * Formelfält som refererar till valutafält visar värden utan redovisning för valutakurser.
-   * Värdena för styckefält som innehåller specialformatering visar ett N/A-värde i begärandeformuläret och de visar html-taggar i stället för formaterad text på sidan med information om begäran.
+   * Värdena i styckefälten visar ett N/A-värde i begärandeformuläret och de visar html-taggar i stället för formaterad text på sidan med information om begäran.
 
 </div>
 
