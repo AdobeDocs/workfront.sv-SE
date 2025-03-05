@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -223,10 +223,18 @@ Godkänna en användare:
    Avvisade användare tas automatiskt bort från Workfront.
 
 
+## Redigera befintliga användare i Adobe Admin Console
 
+Du kan redigera följande användarinformation i Adobe Admin Console:
 
+* Användargrupper och produkter som är kopplade till användaren
+* Administrativa rättigheter
+* Land
 
+Mer information om hur du redigerar en enskild användare i Adobe Admin Console finns i [Redigera användarinformation](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) i artikeln Hantera användare individuellt i Adobe-dokumentationen.
 
+Mer information om gruppredigering av användare i Adobe Admin Console finns i
+[Redigera användarinformation](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) i artikeln Hantera flera användare i Adobe-dokumentationen.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
