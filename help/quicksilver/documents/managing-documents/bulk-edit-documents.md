@@ -7,17 +7,17 @@ description: Du kan redigera flera dokument samtidigt i området Dokument.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c1f829eb29d8cd13524814d98ed353add15e881
+exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Redigera flera dokument samtidigt
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan redigera beskrivningen, lägga till anpassade formulär och redigera anpassade formulär i flera dokument samtidigt.
 
@@ -97,4 +97,33 @@ Så här redigerar du flera dokument:
     </table>
 1. Klicka på **Spara**.
 
+<span class="preview">
 
+## Redigera flera dokument samtidigt i en dokumentrapport
+
+1. Navigera till en befintlig dokumentrapport.
+eller
+Skapa en dokumentrapport enligt beskrivningen i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Markera de dokument som du vill redigera.
+1. Klicka på ikonen Redigera ![redigera](assets/edit-icon.png).
+   ![redigera ikonens plats på sidan](assets/edit-multiple-documents.png)
+1. (Valfritt) Lägg till eller redigera **beskrivningen**. Om beskrivningen för varje dokument är annorlunda visas _Flera värden_ i beskrivningsrutan. Du kan lägga till samma beskrivning för alla dokument, men du kan inte redigera enskilda dokumentbeskrivningar när du redigerar flera.
+1. Gör följande ändringar med anpassade formulär:
+
+   <table>
+    <tr>
+    <td><strong>Lägg till formulär</strong></td>
+    <td>I rutan <strong>Lägg till anpassat formulär</strong> kan du välja mellan bifogade formulär och formulär som ska läggas till. Bifogade formulär finns i vissa av de markerade dokumenten, men inte i alla. Ett formulär som bifogas till alla markerade dokument visas automatiskt i redigeringsfönstret.  </td>
+    </tr>
+    <tr>
+    <td><strong>Redigera formulär</strong></td>
+    <td>Redigera eventuella kopplade anpassade formulär. Den information du ändrar skriver över befintlig information om enskilda dokument. Fält med olika värden i olika dokument visas som"Flera värden". </td>
+    </tr>
+    <tr>
+    <td><strong>Ordna om formulär</strong></td>
+    <td>Klicka och dra det anpassade formuläret för att ordna om det.</td>
+    </tr>
+    </table>
+1. Klicka på **Spara**.
+
+</span>

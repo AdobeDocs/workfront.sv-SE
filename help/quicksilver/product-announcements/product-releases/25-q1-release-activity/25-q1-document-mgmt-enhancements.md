@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Nu kan du redigera flera dokument samtidigt. Du kan redigera beskrivningarna och uppdatera anpassade formulär.
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->De funktioner som listas nedan är en del av en fasversion och är endast tillgängliga för specifika kunder.
+Mer information finns i [Redigera flera dokument samtidigt](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
 
 ## Ny återkallad status tillgänglig för godkännande av dokumentversioner
 
