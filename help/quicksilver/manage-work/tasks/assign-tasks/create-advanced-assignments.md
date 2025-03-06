@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 07/2024-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
-
-Du kan hantera uppgifter eller ärenden med hjälp av Avancerade uppdrag.
+Du kan hantera uppgifter och ärenden med hjälp av avancerade uppdrag.
 
 Du kan justera följande uppdragsinformation när du gör avancerade uppdrag:
 
@@ -72,7 +66,7 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörighet för en uppgift eller ett problem</p>  </td> 
+   <td> <p>Contribute eller högre behörighet för en uppgift eller ett ärende</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +96,7 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
 
    <span class="preview">![Klicka på Avancerat](assets/assignments-box-in-task-header.png)</span>
 
-1. I fältet **Sök efter personer, roller och team** börjar du skriva namnet på en användare, roll eller team och klickar sedan på namnet i listrutan.
+1. I fältet **Sök efter personer, roller och team** börjar du skriva namnet på en användare, roll eller team och klickar sedan på namnet när det visas i listrutan.
 
    >[!NOTE]
    >
@@ -140,10 +134,6 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
      >Beroende på hur din Workfront-administratör eller gruppadministratör konfigurerar dina projektinställningar kan Workfront använda schemat för aktivitetsägaren för att beräkna tidslinjen för uppgiften när du har flera användare tilldelade till uppgiften. Mer information om tilldelning av flera uppgifter finns i avsnittet Tilldela flera användare till en uppgift i artikeln [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Allokeringar** : När varaktighetstypen för en aktivitet är Enkel anger du antalet timmar som varje användare eller jobbroll ska tilldelas till aktiviteten. Summan av alla tilldelade timmar för varje användare är lika med talet i fältet **Planerade timmar** längst ned i kolumnen Allokeringar. I alla andra fall anger du hur många procent av tiden (eller allokeringen) som du vill att den som ska tilldelas ska lösa uppgiften eller problemet.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
