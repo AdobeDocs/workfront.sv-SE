@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '4310'
+source-wordcount: '4336'
 ht-degree: 0%
 
 ---
@@ -533,6 +533,10 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 ### Folk
 
 Du kan använda fälttypen Personer för att lägga till en användare <!--, job role, or team--> i en post. Det här är ett type-ahead-fält och du kan bara lägga till användare <!--, roles, or teams--> som redan finns i din Workfront-instans.
+
+>[!TIP]
+>
+>När du lägger till namnet på en användare i ett personfält visas namnet på användaren och den primära jobbrollen i fältet.
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Personer**.
 

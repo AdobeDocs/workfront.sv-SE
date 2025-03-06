@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
 * Ett Planning-anslutningsfält visas på följande sätt i ett Workfront-objekts anpassade formulär, efter det att Planning-poster har anslutits till Workfront-objektet:
 
    * Om endast det primära fältet för den anslutna posten är markerat visas anslutningsfältet Planering som ett fält med flera värden, om anslutningen tillåter att flera poster länkas. Mer information finns i [Översikt över posttyper för anslutning](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">Om ytterligare sökfält från den anslutna posten har valts visas anslutningsfältet Planering som en tabell. Upp till 7 fält kan väljas för anslutningsfältet Planning. Tabellvyn är skrivskyddad.  </span>
+   * <span class="preview">Om din Workfront- eller gruppadministratör har lagt till ytterligare sökfält från den anslutna posten i det anpassade formuläret visas fältet Planering-anslutning som en tabell. Upp till 7 fält kan väljas för anslutningsfältet Planning. Tabellvyn är skrivskyddad.  </span>
 
 * Du kan bara associera en posttyp med ett Planning-anslutningsfält. Det finns ingen gräns för hur många planeringsanslutningsfält du har i ett formulär.
 * Du måste ha korrekt åtkomst och behörighet till objektet, posten och Workfront Planning för att kunna koppla ett anpassat formulär med ett anpassat fält för planeringsanslutning till ett Workfront-objekt.

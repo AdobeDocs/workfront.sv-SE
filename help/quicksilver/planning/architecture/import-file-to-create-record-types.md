@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * 500 kolumner
 * Filen får inte vara större än 5 MB.
 * Tomma blad stöds inte.
+* Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
+   * Anslutningar och sökfält för anslutna poster <!--or connected Workfront objects-->
+   * Formelfält
+   * Skapad den, skapad av
+   * Senast ändrat den
+   * Folk
 
 Så här importerar du posttyper med en Excel- eller CSV-fil:
 

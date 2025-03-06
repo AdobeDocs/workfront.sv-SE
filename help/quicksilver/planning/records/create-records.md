@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,7 @@ Du kan skapa poster genom att göra något av följande:
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
 * [Skapa poster genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Skapa poster när du importerar posttyper från en CSV- eller Excel-fil](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[Skapa poster genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* <span class="preview">[Skapa poster genom att importera information från en CSV- eller Excel-fil](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
 * <span class="preview">[Skapa poster med automatisering](#create-records-by-using-automations)</span>
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
@@ -305,7 +304,7 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 
 <div class="preview">
 
-## Skapa poster när du importerar poster från en CSV- eller Excel-fil
+## Skapa poster genom att importera poster från en CSV- eller Excel-fil
 
 Du kan importera poster för befintliga posttyper när du importerar information från en CSV- eller Excel-fil.
 

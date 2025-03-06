@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Lägg till uppslagsfält för anslutna poster i Planning-anslutningsfält i anpassade Workfront-formulär
+## Lägg till sökfält från anslutna poster i Planning-anslutningsfälten i Workfront anpassade formulär
 
 >[!NOTE]
 >

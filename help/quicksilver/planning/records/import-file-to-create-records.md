@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -148,9 +148,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Om du inte har behörigheten Hantera på arbetsytan kan du importera poster, men de ytterligare alternativen skapas inte. Du får i stället följande meddelande i det övre högra hörnet av karta över planeringsfälten till kolumnrubrikrutan: **De alternativ som inte finns i anslutning, envalsfält eller flervalsfält läggs inte till**.
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. Klicka på **Importera**.
 
    Följande information importeras till Workfront Planning:
@@ -162,3 +159,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Du kan börja hantera fält och poster på posttypssidan.
 
    Alla som har tillgång till Workfront Planning och arbetsytan kan nu visa och redigera importerade poster och deras information.
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->
