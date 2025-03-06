@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 0%
 
 ---
@@ -277,9 +277,9 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster av dessa typer till varandra. Anslutningen mellan posterna visas som ett länkat postfält.
+  När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster eller objekt av dessa typer till varandra. Anslutningen mellan posterna visas som ett anslutet postfält eller en anslutning.
 
-* **Länkade fält** (eller sökfält): När du har upprättat anslutningen mellan två posttyper och länkat enskilda poster tillsammans, kan du referera till de länkade posternas fält i den post du ansluter från.
+* **Sök efter fält** (eller länkade fält): När du har upprättat anslutningen mellan två posttyper och kopplar ihop enskilda poster kan du referera till fälten från de anslutna posterna från den post du ansluter från.
 
   Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objekttyp kan du visa budgetfältet för anslutna projekt på kampanjposterna.
 

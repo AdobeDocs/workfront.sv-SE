@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1858'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Du kan skapa poster genom att göra något av följande:
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
 * [Skapa poster genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Skapa poster när du importerar posttyper från en CSV- eller Excel-fil](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[Skapa poster genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * <span class="preview">[Skapa poster med automatisering](#create-records-by-using-automations)</span>
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
@@ -271,8 +271,6 @@ Så här skapar du poster när du kopplar dem från andra poster:
    eller
 Börja skriva ett namn och klicka sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter till. Exempel:&quot;Lägg till varumärken&quot; när du lägger till ett varumärke i en befintlig kampanj. Namnet som du skrev följer även knappen Lägg till.
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![Lägg till knapp för att skapa poster i kontextmarkerad](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Posten skapas och läggs till i det anslutna postfältet.
@@ -305,18 +303,15 @@ Du kan importera poster när du importerar posttyper med hjälp av en CSV- eller
 
 Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## Skapa poster när du importerar poster från en CSV- eller Excel-fil
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+Du kan importera poster för befintliga posttyper när du importerar information från en CSV- eller Excel-fil.
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+Mer information finns i [Skapa poster genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 

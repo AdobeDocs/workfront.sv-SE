@@ -1,22 +1,18 @@
 ---
 title: Skapa poster genom att importera information från en CSV- eller Excel-fil
 description: Poster är enskilda instanser av posttyper, som är objekttyper i Adobe Workfront Planning. I Workfront Planning kan du skapa poster genom att importera information från en CSV- eller Excel-fil.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-<!-- add the following in the metadata when live:
-
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog-->
 
 # Skapa poster genom att importera information från en CSV- eller Excel-fil
 
@@ -125,14 +121,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-1. Klicka på arbetsytan där du vill skapa posttyper,
+1. Klicka på arbetsytan där du vill skapa poster,
 
    eller
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. Klicka på kortet för den posttyp där du vill importera posterna.
 1. Klicka på **Ny post** i skärmens övre högra hörn.
-1. Klicka på **Överför från fil** och sedan på **Fortsätt**.
+1. Klicka på **Överför från fil** och sedan på **Fortsätt**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Dra och släpp en Excel- eller CSV-fil som tidigare sparats på datorn eller klicka på **Välj en CSV- eller Excel-fil** om du vill bläddra efter en.
 1. Klicka på **Förhandsgranska och redigera**.
 1. (Villkorligt) Om den importerade filen har fler än ett ark markerar du alternativknappen för det blad du vill importera i rutan **Markera ett ark som ska importeras** och klickar sedan på **Nästa**. I annat fall fortsätter du till nästa steg.
@@ -146,14 +142,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Valfritt och villkorligt) Om du har behörigheten Hantera på arbetsytan väljer du **Skapa saknade alternativ** i skärmens nedre vänstra hörn. När det här alternativet är aktiverat läggs de saknade alternativen för ett- och flervalsfält till.
 
->[!NOTE]
->
->Om den valda posttypen till exempel har ett statusfält med en enda markering där alternativen Nytt, Pågår och Stängt och ett statusfält som importeras från en fil också har ett alternativ för Håll kvar-status, läggs statusalternativet Vid parkering också till.
->
->Om du inte har behörigheten Hantera på arbetsytan kan du importera poster, men de ytterligare alternativen skapas inte. Du får i stället följande meddelande i det övre högra hörnet av karta över planeringsfälten till kolumnrubrikrutan: **De alternativ som inte finns i anslutning, envalsfält eller flervalsfält läggs inte till**.
+   >[!NOTE]
+   >
+   >Om den valda posttypen till exempel har ett statusfält med en enda markering där alternativen Nytt, Pågår och Stängt och ett statusfält som importeras från en fil också har ett alternativ för Håll kvar-status, läggs statusalternativet Vid parkering också till.
+   >
+   >Om du inte har behörigheten Hantera på arbetsytan kan du importera poster, men de ytterligare alternativen skapas inte. Du får i stället följande meddelande i det övre högra hörnet av karta över planeringsfälten till kolumnrubrikrutan: **De alternativ som inte finns i anslutning, envalsfält eller flervalsfält läggs inte till**.
 
 
-    &lt;!- när vi lägger till anslutna poster och informationsikonen i verktyget ändras, lägger du även till dessa objekt i det här steget—>
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
 
 1. Klicka på **Importera**.
 
@@ -161,7 +157,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Nya poster som visas längst ned i tabellvyn för den valda posttypen.
    * Nya fältvärden för befintliga fält som är associerade med varje post.
-   * Nya alternativ för ett flervalsfält eller envalsfält som inte fanns i Planning.
+   * Nya alternativ för ett flervalsfält eller envalsfält som inte fanns i Planning.  <!--when we add connected records - add those here too-->
 
    Du kan börja hantera fält och poster på posttypssidan.
 

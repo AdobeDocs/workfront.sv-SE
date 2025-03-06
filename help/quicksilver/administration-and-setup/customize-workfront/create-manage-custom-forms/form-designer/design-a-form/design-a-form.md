@@ -8,21 +8,19 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '6493'
+source-wordcount: '6615'
 ht-degree: 0%
 
 ---
 
 # Skapa ett anpassat formulär
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
--->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Du kan utforma ett anpassat formulär med formulärdesignern i Adobe Workfront. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -1009,19 +1007,14 @@ Så här lägger du till ett planeringsanslutningsfält:
       <td role="rowheader">Anslutningsfält</td> 
       <td><p>(Obligatoriskt) Markera anslutningsfältet mellan den markerade Planning-posttypen som du vill visa på Workfront-objekten och Workfront-objekttypen. </p> <p> <b>OBS!</b></p><p>Du kan ha flera anslutningsfält mellan samma objekt och posttyper, men du kan bara markera ett fält.</p>  </td> 
      </tr>
-    </tbody> 
+
+<tr> 
+      <td role="rowheader"><span class="preview">Posttypfält</span></td> 
+      <td><p><span class="preview">(Valfritt) Välj upp till 7 uppslagsfält från den anslutna posttypen som ska visas i det anpassade formuläret. Det primära fältet är markerat som standard och kan inte redigeras. </span></p> <span class="preview"><p> Den anslutna postens fält som du väljer visas i en tabellvy i det anpassade formuläret. När formuläret bifogas till ett Workfront-objekt är tabellvyn skrivskyddad. </span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+      </tbody> 
    </table>
-
-
-   <!--
-
-    Add this to the table - one more row at the bottom at release time: 
-
-    <span class="preview">Record type fields</span>
-      
-    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
-    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
-    -->
 
 1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält.
 
