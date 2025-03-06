@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader">Visa endast företag, grupper och team som de tillhör</td> 
-      <td>Tillåter användare att endast visa och dela objekt med företag, grupper och team som de tillhör.<p><strong>OBS!</strong>: Användare med beställarlicenser kan inte visa företag som de inte tillhör, även om det här alternativet har valts.</td> 
+      <td>Tillåter användare att endast visa och dela objekt med företag, grupper och team som de tillhör.<p><strong>Obs!</strong>: Användare med beställar- eller medverkarlicenser kan inte visa företag som de inte tillhör, även om det här alternativet har valts.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt aldrig synlighet för planerade timmar eller faktiska timmar</td> 
