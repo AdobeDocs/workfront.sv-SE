@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,29 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Lägg till uppslagsfält för anslutna poster i Planning-anslutningsfält i anpassade Workfront-formulär
+
+>[!NOTE]
+>
+>Förhandsgranskning: 6 mars 2025; Produktion för snabb release: 13 mars 2025; Produktion för alla kunder: 10 april 2025
+
+För att enkelt komma åt all information från anslutna poster från Workfront-objekt har vi lagt till de anslutna posternas sökfält i anslutningsfälten för Planning i Workfront.
+
+Du kan lägga till upp till sju uppslagsfält i en post som är ansluten till ett Workfront-objekt i det anpassade fältet för planeringsanslutning. Som en del av den här förbättringen kan du nu visa de anslutna posterna och deras fält i ett lättläst tabellformat i den anpassade formen av ett Workfront-objekt.
+
+Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Importera poster med en CSV- eller Excel-fil
+
+>[!NOTE]
+>
+>Förhandsversion: 6 mars 2025; Produktion för alla kunder: 10 april 2025
+
+Nu kan du importera poster med hjälp av ett CSV- eller Excel-kalkylblad från en posttyps sida.
+Före den här förbättringen kunde du bara importera poster när du skapade posttyper. Med den här uppdateringen kan du importera poster till befintliga posttyper.
+
+Mer information finns i [Skapa poster genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
 ## Visa postnamnet på en informationssida i en Workfront Planning-begäran på fliken Webbläsare
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: d603edee0099b6ce3e4f8d3414d1b31f94209196
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar som gjorts i den andra utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2025 finns i [Översikt över den andra utgåvan av kvartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Uppgradera till den nya prenumerationsversionen med versionsuppgraderingsslutpunkter
+
+>[!NOTE]
+>
+>Produktion för alla kunder: 6 mars 2025
+
+Workfront har nu versioner av eventprenumerationer. Den nya versionen är inte en ändring av Workfront API, utan snarare en ändring av prenumerationsfunktionen för evenemang.
+
+Möjligheten att uppgradera eller nedgradera abonnemang säkerställer att befintliga prenumerationer inte bryts när händelsestrukturen ändras, vilket gör att du kan testa och uppgradera till den nya versionen utan avbrott i prenumerationen.
+
+Mer information om skillnaderna mellan de två versionerna finns i artikeln [Versionsinformation för händelseprenumeration](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+Mer information om slutpunkterna som används för att uppgradera eller nedgradera en händelseprenumeration mellan olika versioner finns i avsnittet [Version av händelseprenumeration](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) i artikeln Prenumerations-API.
 
 ## Representera Adobe Admin Console användarändringar som&quot;System&quot; i Workfront uppdateringsfeed
 
