@@ -4,9 +4,9 @@ description: Andra kvartalet 2025 - projektförbättringar
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 6 februari 2025; Production All customer: 13 mars 2025
+>Förhandsversion: 6 februari 2025; Produktion för alla kunder: 13 mars 2025
 
 Nu kan du redigera flera dokument samtidigt i en dokumentrapport. Du kan redigera beskrivningarna och uppdatera anpassade formulär.
 
