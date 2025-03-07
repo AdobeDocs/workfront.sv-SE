@@ -7,14 +7,19 @@ description: Förbättrad analys är ett kraftfullt verktyg i Adobe Workfront me
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
 # Förbättrad analys - översikt
+
+>[!IMPORTANT]
+>
+>Förbättrad analys kommer att tas bort från Workfront den 26 maj. Workfront Data Connect är en ny alternativ lösning som kan användas för att replikera de utökade analyser du använder just nu. <br>Mer information finns i guiden [Borttagning av utökad analys](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
 
 Förbättrad analys är ett kraftfullt verktyg i Adobe Workfront med färdiga visualiseringar som gör att du kan titta på projektdata och identifiera trender med planering och slutförande. Denna insikt i era projekt hjälper er att hantera ert nuvarande arbete och gör det möjligt att planera mer korrekt för framtida arbete.
 

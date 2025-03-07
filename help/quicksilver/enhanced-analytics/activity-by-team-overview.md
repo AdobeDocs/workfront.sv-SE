@@ -7,14 +7,20 @@ description: I Activity by team-visualisering visas aktiviteter som inträffar u
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
 # Visa aktivitetsbaserad teamvisualisering i Förbättrad analys
+
+>[!IMPORTANT]
+>
+>Förbättrad analys kommer att tas bort från Workfront den 26 maj. Workfront Data Connect är en ny alternativ lösning som kan användas för att replikera de utökade analyser du använder just nu. <br>Mer information finns i guiden [Borttagning av utökad analys](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
+
 
 <!-- Audited: 12/2023 -->
 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, t.ex. hierarkin för grupper ovanför den och namnen på dess administratörer.
 
 
-## Viktigt att notera för Admin Console introduktion {#important-admin-console-onboard}
+## Viktig information om Admin Console introduktion {#important-admin-console-onboard}
 
 >[!IMPORTANT]
 >
@@ -171,8 +171,8 @@ Så här konfigurerar du länkade mappar:
 
 Du måste installera rätt plugin-program för det Adobe Creative Cloud-program du använder:
 * För Photoshop, se [Installera Adobe Workfront för Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* XD finns i [Installera Adobe Workfront för XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* Mer InDesign, Illustrator, Premiere Pro och After Effects finns i [Installera Adobe Workfront för design och video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* För XD, se [Installera Adobe Workfront för XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* För InDesign, Illustrator, Premiere Pro och After Effects, se [Installera Adobe Workfront för design och video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## CC-programlista {#cc-app-list}
 
@@ -315,7 +315,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 <!-- Manage Work -->
 
-## Steg 1 - Gå till Portfolio - {#step1-to-portfolios}
+## Steg 1 - Gå till portföljer - {#step1-to-portfolios}
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Portfolios]**.
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

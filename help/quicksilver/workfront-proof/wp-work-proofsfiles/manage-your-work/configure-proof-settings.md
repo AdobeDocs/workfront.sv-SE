@@ -7,7 +7,7 @@ description: Du kan konfigurera ett korrektur som du skapar eller redigerar i ko
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -113,11 +113,12 @@ Om du aktiverar prenumeration på korrekturet kan personer som inte har lagts ti
 
 Om Prenumeration har aktiverats för ett korrektur aktiveras fälten nedan:
 
-* **[!UICONTROL Subscriber validation required]** - Prenumeranten måste klicka på en länk i ett e-postmeddelande för att få tillgång till ett korrektur\
+* **[!UICONTROL Subscriber role]** - Det här är standardkorrekturrollen som tilldelas alla granskare som prenumererar på korrekturet.
+* **[!UICONTROL Email alert settings for subscribers]** - Det här är standardmeddelandet som tilldelas alla granskare som prenumererar på korrekturet.
+* **[!UICONTROL Proof access via email link required for]** - Prenumeranten måste klicka på en länk i ett e-postmeddelande för att få tillgång till ett korrektur\
    Om du väljer det här alternativet får den som prenumererar inte omedelbar åtkomst till korrekturet, utan en länk till korrekturet i ett e-postmeddelande. Syftet med prenumerantvalidering är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till.
 
-* **[!UICONTROL Default role for new subscribers]** - Det här är standardkorrekturrollen som tilldelas alla granskare som prenumererar på korrekturet.
-* **[!UICONTROL Default email alert for new subscribers]** - Det här är standardmeddelandet som tilldelas alla granskare som prenumererar på korrekturet.
+
 
 Se även [Prenumerera på ett korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
 

@@ -7,14 +7,19 @@ description: I flygplansvisualiseringen visas hur många projekt (inom de filter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Visa flygplansvisualisering i Förbättrad analys
+
+>[!IMPORTANT]
+>
+>Förbättrad analys kommer att tas bort från Workfront den 26 maj. Workfront Data Connect är en ny alternativ lösning som kan användas för att replikera de utökade analyser du använder just nu. <br>Mer information finns i guiden [Borttagning av utökad analys](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
 
 I flygplansvisualiseringen visas hur många projekt (inom de filtervillkor som tillämpats) som har varit under drift, vilka villkorsändringar som har gjorts under projektens livslängd och hur nära dessa projekt har uppfyllt de planerade tidsfristerna.
 

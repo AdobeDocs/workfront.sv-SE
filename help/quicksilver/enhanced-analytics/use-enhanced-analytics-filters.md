@@ -6,14 +6,19 @@ description: Filtren i området Förbättrad analys i Adobe Workfront hjälper d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # Använda filter i Förbättrad analys
+
+>[!IMPORTANT]
+>
+>Förbättrad analys kommer att tas bort från Workfront den 26 maj. Workfront Data Connect är en ny alternativ lösning som kan användas för att replikera de utökade analyser du använder just nu. <br>Mer information finns i guiden [Borttagning av utökad analys](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
 
 <!-- Audited: 12/2023 -->
 
@@ -52,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa åtkomst till projekt</p> <p>Du måste också ha Visa-åtkomst till Uppgifter, Portfolio och Användare för att kunna se specifika filteralternativ för projektfält.</p> <p>Obs! Om begränsningar har valts i avsnittet <strong>Ange ytterligare begränsningar</strong> i dialogrutan Redigera åtkomstnivå kanske du inte ser all information i filtren eller på sidan Förbättrad analys efter att filtret har tillämpats.</p> </td> 
+   <td> <p>Visa åtkomst till projekt</p> <p>Du måste också ha Visa-åtkomst till uppgifter, portföljer och användare för att kunna se specifika filteralternativ för projektfält.</p> <p>Obs! Om begränsningar har valts i avsnittet <strong>Ange ytterligare begränsningar</strong> i dialogrutan Redigera åtkomstnivå kanske du inte ser all information i filtren eller på sidan Förbättrad analys efter att filtret har tillämpats.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Objektbehörigheter </p> </td> 

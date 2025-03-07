@@ -7,9 +7,9 @@ description: Högst upp på skärmen i området Förbättrad analys visas fyra n
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Du måste ha en affärsplan eller en senare för att kunna använda den här funktionen.\
->Mer information om olika tillgängliga planer finns i [Adobe Workfront-planer](https://www.workfront.com/plans).
+>Förbättrad analys kommer att tas bort från Workfront den 26 maj. Workfront Data Connect är en ny alternativ lösning som kan användas för att replikera de utökade analyser du använder just nu. <br>Mer information finns i guiden [Borttagning av utökad analys](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
+
+Du måste ha en affärsplan eller en senare för att kunna använda den här funktionen.\
+Mer information om olika tillgängliga planer finns i [Adobe Workfront-planer](https://www.workfront.com/plans).
 
 Högst upp på skärmen i området Förbättrad analys visas fyra nyckeltal (KPI). Med hjälp av dessa mätvärden kan du snabbt förstå hur lång tid det tar, hur stora projekten är och hur många projekt som slutförs inom en viss tidsram. Dessa siffror är inte begränsade till det maximala antalet 50 projekt som visas för visualiseringarna på den här sidan. I stället baseras dessa data på alla projekt som gäller för ett angivet filter, och dessa värden justeras om du ändrar det valda datumintervallet eller något av filtren.
 
