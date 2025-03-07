@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 0%
@@ -221,3 +221,6 @@ Om du ger en Standard- eller Planering-användare administrativ åtkomst till jo
 Om du senare inaktiverar administrativ åtkomst till jobbroller för användaren, visas jobbrollerna fortfarande för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad.
 
 Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i [Bevilja åtkomst till ekonomiska data](grant-access-financial.md).
+
+
+
