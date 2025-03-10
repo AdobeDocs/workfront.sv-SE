@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ Vi har uppdaterat listorna Projekt, Uppgift och Utfärda godkännanden i Konfigu
 Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
 
 ## Agile
+
+### Gränssnittsuppdateringar för teamförfrågningar
+
+**Förhandsversion: 6 mars 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat sidan Team Requests med en modernare design som är i linje med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Teams > Choose a team > Team Requests.
 
 ### Gränssnittsuppdatering för Iterations - översikt
 
