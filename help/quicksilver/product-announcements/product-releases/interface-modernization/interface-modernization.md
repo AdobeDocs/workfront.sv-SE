@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Om du vill visa inställningarna går du till Inställningar > Inställningar > 
 
 Vi har uppdaterat listorna Projekt, Uppgift och Utfärda godkännanden i Konfigurera > Grupper > Godkännanden med en modernare design som överensstämmer med andra delar av Workfront.
 
-Om du vill visa den här ändringen går du till Inställningar > Grupper > Godkännanden.
+Om du vill visa den här ändringen går du till Konfigurera > Grupper > Välj en grupp > Godkännanden.
 
 Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
 
