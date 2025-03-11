@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2635'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Mer information om postvyer finns i [Hantera postvyer](/help/quicksilver/plannin
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
++++ Expandera för att visa åtkomstkrav..
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 

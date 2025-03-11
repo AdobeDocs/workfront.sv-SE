@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
-+++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
++++ Expandera för att visa åtkomstkrav..
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -86,7 +86,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Contribute eller högre behörighet till en arbetsyta </p>  
+   <td>   <p>Contribute eller högre behörighet till en arbetsyta <!--<span class="preview">and record type</span>-->  </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
   </tr> 
 <tr> 

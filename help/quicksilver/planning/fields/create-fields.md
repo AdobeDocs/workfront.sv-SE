@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '4336'
+source-wordcount: '4333'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Mer information om Workfront Planning-fält finns i [Fältöversikt](/help/quick
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
++++ Expandera för att visa åtkomstkrav..
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -100,7 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
+   <td>   <p>Hantera behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p> </td> 
   </tr> 
 <tr> 

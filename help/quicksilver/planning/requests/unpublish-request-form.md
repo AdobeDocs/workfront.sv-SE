@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <ul>
-   <li><p>Hantera behörigheter till en arbetsyta</p></li>
+   <li><p>Hantera behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p></li>
     </ul>
    <p>Information om delningsbehörigheter för Workfront Planning-objekt finns i  
@@ -149,7 +149,7 @@ När ett begärandeformulär blir irrelevant och du inte längre vill att någon
 
    En bekräftelse visas längst ned på skärmen som meddelar att formuläret har avpublicerats.
 
-   Knappen **Avpublicera** ändras till **Publish**.
+   Knappen **Avpublicera** ändras till **Publicera**.
 
 1. Klicka på **Spara**.
 

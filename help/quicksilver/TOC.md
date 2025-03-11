@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
+source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
 workflow-type: tm+mt
-source-wordcount: '13063'
+source-wordcount: '13066'
 ht-degree: 0%
 
 ---
@@ -2049,6 +2049,7 @@ ht-degree: 0%
       * [Översikt över delningsbehörigheter i Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
       * [Översikt över licenstyper vid användning av Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Dela arbetsytor](planning/access/share-workspaces.md)
+      * [Dela posttyper](planning/access/share-record-types.md)
       * [Visa](planning/access/share-views.md)
       * [Begära behörigheter till en vy eller arbetsyta](planning/access/request-permissions.md)
    * Adobe Workfront Planning-poster {#adobe-workfront-planning-records}

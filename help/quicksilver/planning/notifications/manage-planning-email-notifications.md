@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du kan få e-postmeddelanden från Workfront Planning när följande scenarier f
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
++++ Expandera för att visa åtkomstkrav..
 
 <table style="table-layout:auto"> 
 <col> 

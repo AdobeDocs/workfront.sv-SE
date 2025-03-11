@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '2879'
+source-wordcount: '2876'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Mer information om postvyer och hur du hanterar dem finns i [Hantera postvyer](/
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
++++ Expandera för att visa åtkomstkrav..
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 

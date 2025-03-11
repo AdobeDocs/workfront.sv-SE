@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr>
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
-   <p>Visa eller högre behörigheter för en arbetsyta om du är Workfront-användare</p> 
+   <p>Visa eller högre behörigheter för en arbetsyta <!--<span class="preview">and record type</span>-->, om du är en Workfront-användare</p> 
   </td>
   </tr>
 <tr>

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <ul>
-   <li><p>Hantera behörigheter till en arbetsyta</p></li>
+   <li><p>Hantera behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p></li>
     </ul>
    <p>Information om delningsbehörigheter för Workfront Planning-objekt finns i  

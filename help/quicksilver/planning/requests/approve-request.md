@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -105,7 +105,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <ul>
-   <li><p>Hantera behörigheter till en arbetsyta</p></li>
+   <li><p>Hantera behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p></li>
     </ul>
    <p>Information om delningsbehörigheter för Workfront Planning-objekt finns i  
@@ -135,7 +135,7 @@ Godkännare får följande meddelanden om en begäran som väntar på deras godk
 
 >[!NOTE]
 >
->Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
+>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
 
 Så här godkänner du en begäran:
 

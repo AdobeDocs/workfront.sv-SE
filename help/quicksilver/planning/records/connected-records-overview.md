@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Mer information om hur du kan ansluta poster till varandra eller till ett annat 
 
   Värdena för sökfälten fyller i den Workfront Planning-post som du länkar från automatiskt när de har uppdaterats på den ursprungliga posten eller objektet.
 
-* Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan kan se anslutningarna mellan posterna eller mellan poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
-* Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan där de anslutna posterna finns.
+* Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan <!--<span class="preview">and record type</span>--> kan se anslutningarna som du gör mellan poster eller mellan poster och andra programs objekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
+* Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan <!--<span class="preview">and record type</span>--> där de anslutna posterna finns.
 * Du kan ansluta en post till en eller flera objekt från ett annat program, beroende på vilken typ av anslutning du valde när du kopplade posttyperna. Mer information finns i avsnittet Anslutningstyper i artikeln [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Områden där du kan koppla poster

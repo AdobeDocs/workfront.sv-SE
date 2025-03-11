@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 # Översikt över delningsbehörigheter i Adobe Workfront Planning
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
+
 {{planning-important-intro}}
 
 Du kan dela eller ta bort behörigheter till en Adobe Workfront Planning-arbetsyta eller -vy.
 
 I den här artikeln beskrivs behörighetsnivåerna för Workfront Planning-objekt.
-
-Mer information om hur du delar arbetsytor och vyer finns i följande artiklar:
-
-* [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [Visa](/help/quicksilver/planning/access/share-views.md)
 
 ## Objekt som du kan dela i Adobe Workfront Planning
 
@@ -39,6 +39,22 @@ Du kan dela följande objekt:
    * Du kan dela arbetsytor med personer i din organisation.
    * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna.
    * När du delar en arbetsyta delas inte vyerna. Vyer delas separat.
+
+  Mer information finns i [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
 
 * Vyer
 
@@ -53,6 +69,14 @@ Internt kan du dela en arbetsyta eller vy med följande Workfront-enheter:
 
 * Användare
 * Grupper
+
+<div class="preview">
+
+* Team
+* Företag
+* Jobbroller
+
+</div>
 
 ## Att tänka på när du delar objekt i Adobe Workfront Planning
 
@@ -78,7 +102,7 @@ Tabellerna i följande avsnitt visar vilken behörighetsnivå du kan välja när
 >
 >Alla användare kan inte ha de behörighetsnivåer som beskrivs nedan. Användarens individuella licens avgör vilken behörighetsnivå de kan få för Workfront Planning-objekt.
 >
->Endast användare med standardlicens (eller standardlicens) kan ha Contribute- eller Hantera-behörighet till arbetsytor och Hantera-behörighet till vyer.
+>Endast standardlicensanvändare (eller plananvändare) kan ha behörighet att hantera arbetsytor och behörigheter att hantera vyer i Contribute eller Hantera.
 > 
 >Användare med alla andra licenstyper kan ha behörigheten Visa på arbetsytor och vyer.
 >
@@ -105,7 +129,7 @@ Följande behörighetsnivåer gäller för arbetsytor:
 
 ### Posttypbehörigheter
 
-Posttypsbehörigheter ärvs när du ger behörighet till arbetsytan.
+<!--In the Production environment,--> Posttypsbehörigheter ärvs alltid när du ger behörighet till arbetsytan.
 
 Följande behörighetsnivåer gäller för posttyper:
 
@@ -116,6 +140,27 @@ Följande behörighetsnivåer gäller för posttyper:
 | Ta bort | ✓ |            |       |
 | Redigera | ✓ |            |       |
 | Visa | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### Spela in behörigheter
 

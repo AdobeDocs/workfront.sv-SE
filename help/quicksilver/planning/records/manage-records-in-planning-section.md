@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Du kan visa Workfront Planning-poster i Workfront i följande områden av objekt
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
++++ Expandera för att visa åtkomstkrav..
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -92,7 +92,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <p>I Workfront: Visa eller högre behörigheter för ett projekt, en portfölj eller ett program </a> </p> 
-   <p>I Workfront Planning kan du visa behörigheter till en arbetsyta om du vill visa anslutna poster eller Contribute eller högre behörigheter till en arbetsyta för att ansluta till eller koppla från poster.</a> </p>  
+   <p>I Workfront Planning:
+   <ul><li>
+   Visa behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> för att visa alla anslutna poster </li>
+   eller
+   <li> Contribute eller högre behörighet till en arbetsyta <!--<span class="preview">and record type</span>--> för att ansluta till eller koppla från poster</a></li></ul> </p>  
    <p>Systemadministratörer har behörighet till alla Workfront Planning-arbetsytor, inklusive de som de inte skapade</p> 
   </td>
   </tr>

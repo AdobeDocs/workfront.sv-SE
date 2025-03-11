@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Dela poster
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ Du kan dela en Adobe Workfront Planning-post på följande sätt:
 
 * Kopiera en länk till postens sida när du visar poster i posttypens tabellvy.
 
-* Du kan dela alla poster på en arbetsyta med andra användare genom att dela arbetsytan. Mer information finns i [Dela en arbetsyta](/help/quicksilver/planning/access/share-workspaces.md).
+* Du kan dela alla poster på en arbetsyta med andra användare genom att dela arbetsytan <!--<span class="preview">and record type</span>-->. Mer information finns i [Dela en arbetsyta](/help/quicksilver/planning/access/share-workspaces.md).
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 I den här artikeln beskrivs hur du kan kopiera en länk till en posts sida från en posttyps tabellvy.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
++++ Expandera för att visa åtkomstkrav..
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -88,8 +107,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>  <p>Visa eller högre behörigheter på en arbetsyta för att dela en post med hjälp av en länk </p>
-   <p>Hantera behörigheter till en arbetsyta för att dela poster på arbetsytan som posten tillhör </p>
+   <td>  <p>Visa eller högre behörigheter på en arbetsyta för att dela <!--<span class="preview">and record type</span>--> en post med hjälp av en länk </p>
+   <p>Hantera behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> för att dela posterna på arbetsytan </p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
   </tr> 
 <tr> 

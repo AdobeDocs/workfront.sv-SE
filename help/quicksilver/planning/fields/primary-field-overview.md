@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -15,6 +15,10 @@ ht-degree: 0%
 
 
 # Översikt över primärt fält
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,4 +53,4 @@ Mer information om hur du anger ett fält som primärt fält finns i [Hantera ta
 * Om du ändrar det primära fältet i tabellvyn påverkas vyn för alla andra användare som väljer det.
 * Om du ändrar det primära fältet i en tabellvy påverkas alla tabellvyer av posttypen.
 * Värdet i det primära fältet är alltid länkat till postens sida.
-* Om du har Contribute eller högre behörighet till en arbetsyta kan du redigera värdet för primära fält, förutom formelfält. Formler är beräkningar som uppdateras automatiskt.
+* Om du har Contribute eller högre behörighet för en arbetsyta <!--<span class="preview">and record type</span>--> kan du redigera värdet för primära fält, förutom för formelfält. Formler är beräkningar som uppdateras automatiskt.
