@@ -1,14 +1,14 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Hantera användar- eller rollallokeringsprocent för uppgifter
+title: Hantera användar- eller rollallokeringsprocent för aktiviteter
 description: Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att arbeta med en aktivitet på en dag. Det är procentandelen av en arbetsdag (enligt användaren eller projektschemat) som en resurs tilldelas under aktivitetens varaktighet.
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -34,7 +36,7 @@ Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Nytt: Standard</p> 
    <p>Aktuell: Arbete eller högre</p> </td> 
   </tr> 
@@ -44,12 +46,12 @@ Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörighet till uppgiften</p> <p>Redigera behörigheter för att uppdatera allokeringsprocent i rutan Redigera uppgift</p>  </td> 
+   <td> <p>Contribute eller högre behörigheter för aktiviteten</p> <p>Redigera behörigheter för att uppdatera allokeringsprocent i rutan Redigera uppgift</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

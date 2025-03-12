@@ -2,12 +2,12 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Översikt över ändring av uppgiftstilldelningar
+title: Översikt över ändring av aktivitetstilldelningar
 description: Du kan tilldela uppgifter till eller ta bort tilldelning från användare, team eller jobbroller. Du kan tilldela flera resurser samtidigt, eller bara en resurs. Du kan tilldela en uppgift åt gången eller flera uppgifter samtidigt.
 author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%

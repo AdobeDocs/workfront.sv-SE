@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2012'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Utöver den här artikeln rekommenderar vi att du läser följande artiklar för
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -69,7 +71,7 @@ Utöver den här artikeln rekommenderar vi att du läser följande artiklar för
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Nytt: Standard</p>
    <p>Aktuell: Arbete eller högre</p>
    </td> 
@@ -80,13 +82,13 @@ Utöver den här artikeln rekommenderar vi att du läser följande artiklar för
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> </td> 
+   <td>Contribute eller högre behörigheter för aktiviteten</td> 
   </tr> 
  </tbody> 
 </table>
 
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Överväganden för flera tilldelningar till jobbroller, team och användare

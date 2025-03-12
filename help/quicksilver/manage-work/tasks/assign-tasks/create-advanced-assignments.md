@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Du kan justera följande uppdragsinformation när du gör avancerade uppdrag:
 
 ## Områden i Adobe Workfront där du kan göra avancerade uppdrag
 
-I den här artikeln beskrivs hur du får åtkomst till avancerade tilldelningar i uppgiftens eller ärendets huvud.
+I den här artikeln beskrivs hur du får åtkomst till avancerade uppdrag i uppgiftens eller problemets huvud.
 
 Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
 
@@ -47,6 +47,8 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,7 +58,7 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Nytt: Standard</p>
     <p>Aktuell: Arbete eller högre</p> </td> 
   </tr> 
@@ -71,7 +73,7 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,18 +85,17 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
    >[!TIP]
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan om två eller flera personer har tilldelats. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på ikonen **Personer** för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![Klicka på ikonen Personer](assets/nwe-advanced-assignments-350x55.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 
    eller
 
-   Klicka på uppdragsnamnet om uppgiften eller utgåvan redan har tilldelats.
+   Klicka på ett av de tilldelade namnen om uppgiften eller utgåvan redan har tilldelats.
 
 1. Klicka på **Avancerat**.
 
-   <span class="preview">![Klicka på Avancerat](assets/assignments-box-in-task-header.png)</span>
+   ![Klicka på Avancerat](assets/assignments-box-in-task-header.png)
 
 1. I fältet **Sök efter personer, roller och team** börjar du skriva namnet på en användare, roll eller team och klickar sedan på namnet när det visas i listrutan.
 
@@ -102,7 +103,7 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
    >
    >Om användarens namn innehåller ett specialtecken måste du inkludera specialtecknet i sökfältet.
 
-1. (Valfritt) Fortsätt lägga till tilldelningar i rutan **Sök efter personer, roller eller team** om du vill lägga till flera resurser för aktiviteten eller problemet.
+1. (Valfritt) Fortsätt lägga till tilldelningar i rutan **Sök efter personer, roller och team** om du vill lägga till flera resurser för aktiviteten eller problemet.
 
    >[!TIP]
    >
@@ -114,11 +115,10 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
    >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+   >* Om en användare, en jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
    >   
    >   * Tilldela om arbetsuppgiften till aktiva resurser.
    >   * Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -133,7 +133,7 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
      >
      >Beroende på hur din Workfront-administratör eller gruppadministratör konfigurerar dina projektinställningar kan Workfront använda schemat för aktivitetsägaren för att beräkna tidslinjen för uppgiften när du har flera användare tilldelade till uppgiften. Mer information om tilldelning av flera uppgifter finns i avsnittet Tilldela flera användare till en uppgift i artikeln [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Allokeringar** : När varaktighetstypen för en aktivitet är Enkel anger du antalet timmar som varje användare eller jobbroll ska tilldelas till aktiviteten. Summan av alla tilldelade timmar för varje användare är lika med talet i fältet **Planerade timmar** längst ned i kolumnen Allokeringar. I alla andra fall anger du hur många procent av tiden (eller allokeringen) som du vill att den som ska tilldelas ska lösa uppgiften eller problemet.
+   * **Allokeringar**: När varaktighetstypen för en aktivitet är Enkel anger du antalet timmar som varje användare eller jobbroll ska tilldelas till aktiviteten. Summan av alla tilldelade timmar för varje användare är lika med talet i fältet **Planerade timmar** längst ned i kolumnen Allokeringar. I alla andra fall anger du hur många procent av tiden (eller allokeringen) som du vill att den som ska tilldelas ska lösa uppgiften eller problemet.
 
      >[!TIP]
      >   
@@ -141,7 +141,7 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
      >   * Du kan inte ändra tilldelningar manuellt för utleveranser.
      >   * Du kan inte ändra allokeringar för team som tilldelats aktiviteter manuellt.
 
-   * **Tilldelningens roll:** Välj den roll som användaren ska använda när den här tilldelningen utförs.  Användarens primära roll visas som standard. Klicka i rutan Tilldelningens roll för att välja en annan roll.  När du tilldelar uppgiften eller utgåvan till en roll först, och sedan lägger till en användare som kan slutföra rollen som ett andra uppdrag, filtreras listan med föreslagna användare för de användare som kan uppfylla de roller som redan tilldelats uppgiften och utgåvan.
+   * **Tilldelningens roll:** Välj den roll som användaren ska använda när den här tilldelningen utförs.  Användarens primära roll visas som standard. Klicka i rutan **Tilldelningens roll** för att välja en annan roll. När du tilldelar uppgiften eller utgåvan till en roll först, och sedan lägger till en användare som kan slutföra rollen som ett andra uppdrag, filtreras listan med föreslagna användare för de användare som kan uppfylla de roller som redan tilldelats uppgiften och utgåvan.
 
      ![Tilldelningens roll](assets/advanced-assignments-select-role.png)
 
@@ -160,6 +160,5 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
      Mer information finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). När du redigerar uppdragsinformation gruppvis visas en liknande dialogruta där du kan tilldela användare, timmar, tilldelning och aktivitetsägare.
 
    * **Planerade timmar**: Uppdatera antalet planerade timmar när varaktighetstypen är Beräknad tilldelning eller Enkel. Allokeringsprocenten eller timmarna för varje resurs fördelas jämnt som ett resultat. Workfront beräknar de planerade timmarna när varaktighetstypen är Beräknad arbetstid eller Anläggningsstyrd. Mer information finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
 
 1. Klicka på **Spara**.

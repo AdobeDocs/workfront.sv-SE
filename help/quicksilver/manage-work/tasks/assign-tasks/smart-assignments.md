@@ -7,9 +7,9 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -51,23 +51,23 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
 * En problemlista eller rapport i uppdragskolumnen
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![Uppdragskolumn för utleveranslista](assets/smart-assignments-issue-list.png)
 
 * En uppgiftslista eller rapport i uppdragskolumnen
 
-  ![](assets/smart-assignments-task-list.png)
+  ![Uppgiftslistans uppdragskolumn](assets/smart-assignments-task-list.png)
 
 * En uppgiftsrubrik i uppdragsfältet
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![Uppgiftshuvudfältet Uppdrag](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * En ärenderubrik i uppdragsfältet
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![Fältet Utleverans av huvudtilldelningar](assets/smart-assignments-issue-header.png)
 
 * Åtgärdens eller ärendets sammanfattningspanel i uppdragsområdet
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![Uppdragsområdet på sammanfattningspanelen](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
 * Utjämning av arbetsbelastning i området Tilldelad den här till när du tilldelar en uppgift eller ett problem
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![Området för tilldelningar av belastningsutjämnare](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Kriterier för smarta tilldelningar
 
@@ -153,7 +152,7 @@ De identifierade tilldelningarna listas i avsnitten **Användare och team**, **J
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![Exempel på smart tilldelning](assets/smart-assignments-issue-header.png)
 
 Användare rekommenderas i listrutan Smarta tilldelningar baserat på en kombination av följande kriterier (listas i ordning från viktigaste till minst viktiga):
 
