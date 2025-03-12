@@ -6,9 +6,9 @@ description: Du kan lägga till artiklar i en iteration på flera olika sätt.
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Du kan lägga till vilken uppgift eller vilket problem som helst i en iteration 
 eller
 Gå till det projekt, den rapport eller den kontrollpanel som innehåller uppgiften eller problemet som du vill lägga till i en iteration. Välj sedan en eller flera uppgifter eller problem.
 
-1. Klicka på **[!UICONTROL More]** ![](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
+1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
 Du kan inte tilldela uppgifter eller ärenden som tilldelats icke-flexibla team.
 
 1. I rutan **[!UICONTROL Add To]** börjar du skriva namnet på iterationen och markerar den när den visas i listan.

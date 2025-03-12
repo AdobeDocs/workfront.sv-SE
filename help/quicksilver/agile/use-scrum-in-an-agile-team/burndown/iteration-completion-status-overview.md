@@ -7,9 +7,9 @@ description: Fyllningsinformationen som beskrivs i den här artikeln visas ovanf
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Fyllningsinformationen som beskrivs i den här artikeln visas ovanför nedladdni
 
 Slutförandeprocent för en iteration:
 
-![](assets/burndown-percentcomplete-350x47.png)
+![Panelen för upprepningsinformation](assets/burndown-percentcomplete-350x47.png)
 
 Den här informationen anger slutstatus för upprepningen för den dag som är markerad i nedladdningsschemat. Som standard visas slutförandestatusen baserat på den aktuella dagens datum.
 

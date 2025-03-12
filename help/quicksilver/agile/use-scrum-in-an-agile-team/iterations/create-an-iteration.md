@@ -6,9 +6,9 @@ description: Iterationer är en nyckelkomponent för Scrum-team när det gäller
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,14 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Välj **[!UICONTROL Backlog]** på den vänstra panelen. Klicka sedan på **[!UICONTROL Plan Iteration]**.
+1. Välj **[!UICONTROL Backlog]** på den vänstra panelen.
+
+1. Välj minst ett arbetsobjekt på fliken **Artiklar** eller **Problem** och klicka sedan på **[!UICONTROL Plan Iteration]**.
+
+>[!NOTE]
+>
+> Du kan inte växla mellan artiklarna eller frågorna när du planerar en upprepning på fliken Eftersläpning. Du kan lägga till befintliga artiklar eller utgåvor när upprepningen har skapats. Mer information finns i [Flytta artiklar från en eftersläpning till en upprepning eller anslagstavla](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+
 
 1. Ange följande information:
 

@@ -6,7 +6,7 @@ description: Du kan skapa en flexibel artikel om en iteration på olika sätt. N
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
    1. Klicka på namnet på den specifika upprepning där du vill skapa en artikel.
 
-   ![Lägg till ny artikel i iteration](assets/iteration-add-story.png)
+   ![Lägg till ny artikel i iteration](assets/iteration-stories-list.png)
 
 1. Klicka på **[!UICONTROL New Story].**
 1. Ange följande information:

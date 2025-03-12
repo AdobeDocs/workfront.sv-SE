@@ -6,9 +6,9 @@ description: Du kan ändra storlek på eller komprimera nedtoningsdiagrammet fö
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Gå till den iteration som innehåller det nedladdningsdiagram som du vill ändra storlek på.
 1. Håll markören över den nedersta linjen i nedladdningsdiagrammet och dra diagrammet till önskad storlek.
-   ![](assets/burndown-resize.png)
+   ![Ändra storlek på nedladdningsschemat](assets/burndown-resize.png)
 
 ## Komprimera nedladdningsschemat
 

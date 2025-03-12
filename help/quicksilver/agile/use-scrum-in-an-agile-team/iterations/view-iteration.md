@@ -6,7 +6,7 @@ description: Du kan visa alla iterationer för ett visst team eller så kan du v
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. (Valfritt) Klicka på namnet på den specifika iteration som du vill visa.
 Artikeln för upprepning visas.
 
-   ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list.png)

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '13066'
+source-wordcount: '13072'
 ht-degree: 0%
 
 ---
@@ -849,6 +849,7 @@ ht-degree: 0%
          * [Hantera arbets- och teamförfrågningar på Hem-området](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Uppdatera eller redigera en arbetsuppgift i hemområdet](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [Skapa arbetsobjekt och projekt från Hem-området](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [Skapa och hantera personliga uppgifter](workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
          * [Logga tid på ett arbetsobjekt från hemområdet](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Markera ett objekt som färdigt i hemområdet](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Använda området Mina uppdateringar](workfront-basics/using-home/using-the-home-area/my-updates-area.md)

@@ -6,9 +6,9 @@ description: När du visar en artikelruta på Kanban-tavlan kan du redigera text
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Gå till anslagstavlan för [!UICONTROL Kanban].
 1. Expandera artikelrutan om du vill visa alla fält som är kopplade till artikeln.
 
-   ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![Artikelkort](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (Valfritt) Om du vill redigera ett fält klickar du på fältet och gör sedan eventuella ändringar.
 Du måste ha [!UICONTROL Edit] rättigheter till aktiviteten eller utgåvan för att kunna redigera artikelrutan.

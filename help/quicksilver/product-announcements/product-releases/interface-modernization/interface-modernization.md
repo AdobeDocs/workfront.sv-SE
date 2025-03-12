@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration och installation
+
++++Expandera för att visa uppdateringar av gränssnittet Administration och Konfigurera
 
 ### Gränssnittsuppdatering för meddelandecenter
 
@@ -140,7 +142,11 @@ Vi har uppdaterat listorna Projekt, Uppgift och Utfärda godkännanden i Konfigu
 
 Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
 
++++
+
 ## Agile
+
++++Expandera för att visa uppdateringar av gränssnittet i Agile
 
 ### Gränssnittsuppdateringar för teamförfrågningar
 
@@ -177,7 +183,8 @@ Vi har uppdaterat Teams > Backlog-området med en modernare design som är före
 Uppdateringen innehåller följande ändringar:
 
 * Visuella förbättringar på fliken Artiklar och Problem samt dialogrutan Brytningsartikel
-* En ny dialogruta för verktyget Planera iterering
+* En ny dialogruta för verktyget Planera iterering. Du måste välja en artikel eller ett problem för att knappen Planera iterering ska visas.
+* Du kan inte längre växla mellan fliken Artiklar och Problem när du planerar en iteration. Du kan lägga till artiklar eller problem från fliken Eftersläpning när upprepningen har skapats.
 
 ### Gränssnittsuppdatering för Iterations-listan
 
@@ -199,7 +206,11 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersläpning och klickar sedan på **Ny artikel** eller **Nytt problem**.
 
++++
+
 ## Dokument
+
++++Expandera för att visa uppdateringar av dokumentgränssnittet
 
 ### Gränssnittsuppdatering för Godkännandeområdet i ett dokument
 
@@ -217,7 +228,11 @@ Vi har uppdaterat redigeringsdialogrutan för smarta mappar med en modernare des
 
 Om du vill visa den här ändringen går du till Dokument > Klicka på menyn Mer bredvid namnet på det smarta filtret > Klicka på Redigera.
 
++++
+
 ## Rapporter och kontrollpaneler
+
++++Expandera för att visa uppdateringar av gränssnittet Rapporter och Kontrollpaneler
 
 ### Uppdaterad teamrapport med ny formatering
 
@@ -271,3 +286,5 @@ Vi har lagt till en ny knapp för att redigera textläge och spärra/knip i föl
 
 * Äldre filter
 * Grupperingar
+
++++

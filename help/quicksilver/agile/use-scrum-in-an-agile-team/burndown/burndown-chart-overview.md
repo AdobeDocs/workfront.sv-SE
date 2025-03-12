@@ -7,9 +7,9 @@ description: Nedbrytningsdiagrammet ger en visuell representation av hur artikla
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ Nedladdningsschemat innehåller följande visuella indikatorer:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Idealisk nedladdningsränta - början"> </td> 
    <td> <p>Idealisk nedbränningsgrad baserad på när iterationen påbörjades.</p> <p>Den här raden visas inte om upprepningens omfattning aldrig ändras (timmar eller punkter läggs aldrig till eller tas bort).</p> <p>Den här raden visas som platt när arbete utförs en ledig dag. Mer information finns i <a title="Använda Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Hur dagar kvar påverkar nedladdningsschemat</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="Idealisk nedladdningsgrad för artiklar och uppgifter"> </td> 
    <td> <p>Idealisk nedladdningsfrekvens baserad på aktuella artiklar eller uppgifter.</p> <p>Den aktuella idealiska nedladdningsfrekvensen (helblå linje) skiljer sig från den ursprungliga idealiska nedladdningsfrekvensen (prickad blå linje) när timmar eller punkter läggs till eller tas bort från iterationen efter att iterationen påbörjats.</p> <p>Den här raden visas som platt när arbete utförs en ledig dag.</p> <p>Mer information finns i <a title="Använda Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Hur dagar kvar påverkar nedladdningsschemat</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Faktisk nedbränningsgrad i rött"> </td> 
    <td> <p>Faktisk nedladdningsfrekvens visas i rött när nedladdningsfrekvensen är lägre än den ideala (fler punkter eller timmar återstår per dag än den idealiska nedladdningsberäkningen).</p> <p>Följande formel används för att beräkna den faktiska nedladdningsgraden:</p> <p>[SUM(Point or Hour Value of In-Progress Work * Percent Complete) + Point or Hour Value of Completed Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Faktisk nedbränningsgrad i grönt"> </td> 
    <td> <p>Faktisk nedbränningsgrad visas i grönt när nedladdningsgraden är lika med eller bättre än det ideala (lika med eller färre punkter återstår per dag än den ideala nedladdningsberäkningen).</p> <p>Följande formel används för att beräkna den faktiska nedladdningsgraden:</p> <p>[SUM(Point or Hour Value of In-Progress Work * Percent Complete) + Point or Hour Value of Completed Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Ändring i omfång"> </td> 
    <td> <p>Omfattningsändring (timmar eller punkter läggs till eller tas bort från iterationen).</p> <p>Omfångsändringar visas alltid som en lodrät linje mitt på dagen. Dessutom visas en blå punkt mitt under en dag när en omfångsändring har inträffat.</p> <p>Den lodräta axeln i nedladdningsdiagrammet visar artikelpunkterna eller timmarna.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Ändra i datumintervall"> </td> 
    <td> <p>Ändring i datumintervall (upprepningens varaktighet ökas eller minskas).</p> <p>En blå punkt visas mitt i en dag där upprepningens varaktighet ändrades.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Punktdiagram för nedbränt arbete"> </td> 
    <td> <p>En grön eller röd punkt visas i den faktiska nedladdningshastigheten när arbete bränns ned. (När den faktiska nedbränningsgraden den dagen är röd är punkten röd. När den faktiska nedladdningsfrekvensen den dagen är grön är punkten grön.)</p> <p>Arbetet bränns ned när något av följande inträffar:</p> 
     <ul> 
      <li> [!UICONTROL Percent Complete] utökas i artikeln.<br>[!UICONTROL Percent Complete] ökas när: 

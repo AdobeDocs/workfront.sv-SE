@@ -6,9 +6,9 @@ description: Agile iterations består av tre områden - slutförandestatus, nedl
 author: Lisa
 feature: Agile
 exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Agile iterations består av tre områden: slutförandestatus, nedladdning och artikeltavlan.
 
-![](assets/agile-iteration-with-callouts.png)
+![Iterationsvy](assets/agile-iteration-with-callouts.png)
 
 Mer information om nedladdningsschemat och status för slutförande finns i avsnittet [[!UICONTROL Burndown]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 

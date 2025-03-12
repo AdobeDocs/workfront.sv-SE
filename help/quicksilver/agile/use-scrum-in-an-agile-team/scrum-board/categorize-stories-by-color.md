@@ -6,9 +6,9 @@ description: Standardfärgassociationen för Scrum board-artiklar varierar beroe
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ Om de flexibla gruppinställningarna har konfigurerats så att alternativet [!UI
 1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
 1. Håll pekaren över den färgade banderollen högst upp i artikelrutan.
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![artikelkort](assets/agile-story-color1-nwe-350x140.png)
 
 1. Klicka på **[!UICONTROL Change color]** och välj önskad färg.
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![välj färg](assets/agile-story-color2-nwe-350x138.png)
