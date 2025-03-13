@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -97,19 +97,15 @@ Att exportera information från detaljavsnittet för ett objekt är identiskt f�
    >
    >Följande scenarier kan finnas:
    >
-   >   
-   >   
    >   * När gruppadministratören eller Workfront-administratören avmarkerar alla fält i översiktsområdet och objektet har anpassade formulär bifogade, visas inte översiktsavsnittet.
    >   * När en gruppadministratör eller Workfront-administratör avmarkerar alla fält i området Översikt och objektet inte har några anpassade formulär bifogade visas inte listrutan Exportera.
    >   * När objektet inte har några anpassade formulär kan du bara exportera området Översikt.
-   >   * Anpassade fält som ligger bakom logik och inte är synliga i formuläret exporteras inte. Mer information om hur du lägger till logik i ett anpassat formulär finns i [Lägga till visningslogik och hoppa över logik i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-   >   
-   >
+   >   * Anpassade fält som ligger bakom logik och inte är synliga i formuläret exporteras inte. Mer information om hur du lägger till logik i ett anpassat formulär finns i [Lägga till logiska regler i anpassade formulär och fält](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
-   En PDF-fil skapas och hämtas till din dator. Filen PDF innehåller följande information:
+   En PDF-fil skapas och hämtas till din dator. PDF-filen innehåller följande information:
 
    * Namnet på objektet som formuläret är kopplat till
    * Namnet på den användare som exporterade PDF
-   * Datum och tid då PDF producerades
+   * Datum och tid då PDF skapades
    * Namnet på de formulär som du exporterade
    * Information från de fält som fyllts i i formuläret
