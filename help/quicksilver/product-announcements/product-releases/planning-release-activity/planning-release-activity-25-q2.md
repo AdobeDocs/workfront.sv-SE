@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,31 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Konfigurera och hantera flera förfrågningsformulär från en posttyp
+
+>[!NOTE]
+>
+>Förhandsgranska: 13 mars 2025; Produktion för alla kunder: 10 april 2025
+
+Vi introducerar nu möjligheten att skapa och hantera fler än ett formulär för en posttyp, så att du kan anpassa dina förfrågningsformulär för olika intressenter från olika områden i organisationen. Före den här förbättringen kunde du bara skapa ett formulär för en posttyp.
+
+Alla förfrågningar som skickas med de olika formulären kan skapa poster för den valda posttypen. Du kan nu ha flera formulär för begäran inställda för samma posttyp. Formulären listas i en ny vy för begärandeformulärstabell på posttypen. När du hanterar förfrågningsformulär kan du nu redigera, publicera, dela, kopiera eller ta bort ett begärandeformulär från listan med förfrågningsformulär på posttypen.
+
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Enkel åtkomst till publicerade förfrågningsformulär på posttypssidan
+
+>[!NOTE]
+>
+>Förhandsgranska: 13 mars 2025; Produktion för alla kunder: 10 april 2025
+
+Nu kan du få åtkomst till förfrågningsformulär via knappen Ny post i det övre högra hörnet på posttypens sida. För användare med behörigheten Visa på arbetsytan visas den nya posten som en begärandepostknapp.
+
+Förutom att du kan skapa poster manuellt eller genom att importera en CSV- eller Excel-fil, kan du nu även skapa poster från ett begärandeformulär från posttypssidan.
+Före den här förbättringen kunde du skapa poster med hjälp av ett begärandeformulär som endast innehåller en direktlänk till ett formulär eller från området Begäranden i Workfront.
+
+Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
 ## Lägg till sökfält från anslutna poster i Planning-anslutningsfälten i Workfront anpassade formulär
 

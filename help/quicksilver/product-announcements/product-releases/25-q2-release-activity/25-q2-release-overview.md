@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 
 | Månadsrelease | Kvartalsvis utgivning |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (13 februari 2025)</li><li>25.3 (mars 2025)</li><li>25.4 (april 2025)</li></ul> | <ul><li>25.4 (april 2025)</li></ul> |
+| <ul><li>25.2 (13 februari 2025)</li><li>25.3 (13 mars 2025)</li><li>25.4 (10 april 2025)</li></ul> | <ul><li>25.4 (10 april 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Förbättringar av logiken i anpassade formulär</a></p>
+            <p>Logikverktyget för anpassade formulär har ett uppdaterat gränssnitt som ger dig mer utrymme för att skapa logikregler. Den nya designen kan enklare hantera ytterligare logiktyper som kan läggas till i framtiden.</p><p>Förutom de aktuella alternativen för visning och hopplogik finns även valideringslogik tillgänglig.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsgranskningsversion: 31 januari 2025</li>
+                <li><span class="preview">Produktionsrelease för alla kunder: 31 januari 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Redigera flera dokument samtidigt i en dokumentrapport </a></p>
+            Redigera flera dokument samtidigt i en dokumentrapport </a></p>[!BADGE In production ]{type=Informative}
             <p>Nu kan du redigera flera dokument samtidigt i en dokumentrapport. Du kan redigera beskrivningarna och uppdatera anpassade formulär.</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Lägga till en kommentar i projekt när du redigerar dem i rutan Redigera projekt</a></p>
+            Lägg till en kommentar i projekt när du redigerar dem i rutan Redigera projekt </a>[!BADGE In production for Fast Release]{type=Positive}</p>
             <p>Nu kan du lägga till en kommentar i ett projekt när du redigerar det i rutan Redigera projekt. Du kan också lägga till en kommentar i flera projekt samtidigt när du redigerar dem i grupp. Före den här uppdateringen fanns inte den här funktionen när du redigerade projekt.</p>
         </td>
         <td>

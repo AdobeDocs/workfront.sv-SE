@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
+source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,38 @@ Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika 
 
 En lista över alla ändringar som är tillgängliga i den andra utgåvan av kvartal 2025 finns i [Översikt över den andra utgåvan av kvartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Avatarer visas inte längre i vissa e-postmeddelanden
+
+>[!NOTE]
+>
+>Förhandsversion: 13 mars 2025; Produktionsrelease för alla kunder: 13 mars 2025
+
+
+Avatars visas inte längre i följande e-postmeddelanden:
+
+* Alla meddelanden om kommunikationshändelser
+* Nya tilldelningsmeddelanden
+* Meddelande om slutförande av alla föregående aktiviteter
+
+<!--
+
+## Look and feel updates to a Milestone Path list 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+
+We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+-->
+
 ## Uppdatera Workfront Calendar
 
 >[!NOTE]
 >
->Förhandsversion: 27 februari 2025; Produktionsrelease för alla kunder: Med version 25.3 (mars 2025)
+>Förhandsversion: 27 februari 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
 
 Vi har uppdaterat utseendet och känslan i Workfront Calendar till en modern design som överensstämmer med andra delar av Workfront. Det finns små skillnader i funktionalitet jämfört med den aktuella Workfront-kalendern:
 
@@ -38,7 +65,7 @@ Mer information finns i artiklarna [Kalendrar](/help/quicksilver/reports-and-das
 
 >[!NOTE]
 >
->Förhandsversion: 27 februari 2025; Produktion för snabb release: Med version 25.3 (mars 2025); Produktion för kvartalsvis version: Med version 25.4 (april 2025)
+>Förhandsversion: 13 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
 
 När du får åtkomst till milstolpen från en projektlista eller rapport har sidan med information om milstolpar nu ett nytt utseende och en ny känsla. Du måste lägga till fältet Sökväg för milstolpe i vyn för listan eller rapporten för att kunna komma åt informationssidan för milstolpens sökväg.
 
@@ -62,7 +89,7 @@ Dessa ändringar är tillfälliga när vi undersöker e-postförseningar.
 
 >[!NOTE]
 >
->Förhandsversion: 13 februari 2025; Produktionsrelease för alla kunder: Med version 25.3 (mars 2025)
+>Förhandsversion: 13 februari 2025; Produktionsrelease för alla kunder: Med version 25.3 (13 mars 2025)
 
 Vi har uppdaterat utseendet och känslan i Dela-dialogen till en modern design som överensstämmer med andra delar av Workfront. Det finns små visuella skillnader, bland annat:
 
