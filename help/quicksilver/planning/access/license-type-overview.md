@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -39,41 +39,41 @@ Om du ger en användare behörighet till en arbetsyta får den även behörighet
 
 Du måste ge användarna separata behörigheter för vyer, utöver de som de har för arbetsytor, för att kunna komma åt och hantera vyer.
 
+<!--
 
 <div class="preview">
 
-Tänk på följande när du arbetar med behörigheter för posttyper:
+Consider the following when working with record type permissions: 
 
-* Användare ärver automatiskt behörigheter för posttyp från arbetsytor.
-* När en användare har behörigheten Hantera på en arbetsyta kan de inte ha en lägre behörighet till posttypen.
-* Användare kan inte ha större behörighet för en posttyp än de har för arbetsytan som posttypen tillhör.
+* Users automatically inherit record type permissions from workspaces. 
+* When a user has Manage permissions to a workspace, they cannot have a lesser access to record type. 
+* Users cannot have greater permissions to a record type than they have for the workspace the record type belongs to.
 
 </div>
+-->
 
 | Adobe Workfront licenstyp* | Högsta tillåtna behörighet i Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Användare kan hantera arbetsytorna <span class="preview">, posttyper, </span> och vyer. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster, fält och vyer.</p> <br> <p>Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade.</p> |
+| Standard | <p>Användare kan hantera arbetsytorna <!--<span class="preview">, record types, </span> --> och vyer. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster, fält och vyer.</p> <br> <p>Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade.</p> |
 | Ljus eller Medarbetare | <p>Användarna kan visa de arbetsytor som delas med dem samt posttyper, poster och fält för dessa arbetsytor.</p> <br> <p>Användarna kan visa de vyer som delas med dem, men de kan inte skapa egna. </p><br> <p>Användare kan inte skapa, redigera eller ta bort arbetsytor, posttyper, poster eller fält.</p> |
 
 *Workfront Planning finns inte för tidigare Workfront-licenser.
 Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--OLD 
+### Licenstyper och behörigheter till arbetsytor
 
-| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|New: Standard <br> or <br>Current: Plan                    | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
-| New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+<!--should we add "record types" in the title above and to this section?-->
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
--->
+Endast användare med en standardlicens kan ha Contribute- eller Hantera-behörigheter för arbetsytorna <!--<span class="preview">and record types</span>-->. Behörigheterna Contribute och Hantera för arbetsytorna <!--<span class="preview">and record types</span>--> överförs också till posttyper, poster och fält.
 
-### Licenstyper och behörigheter för arbetsytan
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
 
-Endast användare med en standardlicens kan ha Contribute- eller Hantera-behörigheter för arbetsytorna <span class="preview">och posttyperna</span>. Användare med alla andra licenstyper kan ha behörigheten Visa på arbetsytorna <span class="preview"> och posttyperna </span> som delas med dem.
+Användare med alla andra licenstyper kan ha behörigheten Visa på arbetsytorna <!--<span class="preview"> and record types </span> --> som delas med dem, samt till deras posttyper, poster och fält.
 
-Systemadministratörer kan visa alla arbetsytor i systemet, även de som de inte skapade.
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
+
+Systemadministratörer kan visa alla arbetsytor i systemet, inklusive de som de inte skapade.
 
 <!--does the shot below need to be replaced for record types??-->
 
@@ -88,7 +88,7 @@ Systemadministratörer kan visa alla arbetsytor i systemet, även de som de inte
 >![Behörigheter är nedtonade för medverkande användare på arbetsytan](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
-### Licenstyper och visningsbehörigheter
+### Licenstyper och behörigheter till vyer
 
 Endast användare med en standardlicens kan ha behörigheten Hantera för att visa. Användare med alla andra licenstyper kan ha behörigheten Visa för vyer som delas med dem.
 

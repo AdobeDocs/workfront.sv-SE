@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ I Adobe Workfront Planning är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
-* [Lägga till poster från posttypsidan i tabellvyn](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Skapa poster genom att lägga till dem textbundet från registervyn för posttyp](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[Skapa poster med knappen Ny post eller Begär post från valfri posttypsvy](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [Kopiera och klistra in en lista med poster från en extern lista](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td> <p>Contribute eller högre behörigheter på arbetsytan <!--<span class="preview">and record type</span>--> där du vill lägga till poster. </p>  
+   <td> <p>Contribute eller högre behörigheter på arbetsytan <!--<span class="preview">and record type</span>--> där du vill lägga till poster. </p>
+   <p><span class="preview">Visa eller högre behörigheter på arbetsytan <!--<span class="preview">and record type</span>--> för att skapa poster med hjälp av knappen Begär post på postsidan</span></p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
    </td> 
@@ -113,9 +115,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-## Skapa poster genom att lägga till dem till en posttyp i en posttypstabell
+## Skapa poster genom att lägga till dem textbundet från registervyn för posttyp
 
-Du kan skapa poster i tabellvyn för en posttypssida.
+Du kan skapa poster i tabellvyn för en posttypsida när du lägger till dem textbundet.
 
 Mer information om hur du redigerar postinformation finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
@@ -128,27 +130,28 @@ Mer information om hur du redigerar postinformation finns i [Redigera poster](/h
 1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
-Alla poster av den valda typen visas i vyn.
+Poster av den valda typen visas i vyn.
 
-1. (Villkorligt) Beroende på vilken vy du visar gör du något av följande:
+1. (Villkorligt) Gör något av följande i tabellvyn:
 
-   * Från tabellvyn:
+   * Klicka på **Ny post** i den sista raden i tabellen
 
-      * Klicka på **Ny post** i den sista raden i tabellen
+   * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Då läggs en tom rad till under den post du börjar från.
+   * Håll markören över en posts primära fält, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.
 
-      * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Då läggs en tom rad till under den post du börjar från.
-      * Håll markören över en posts primära fält, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.
+   ![Lägger till en ny kampanj i tabellraden](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![Lägger till en ny kampanj i tabellraden](assets/adding-a-new-campaign-in-table-row.png)
+   Workfront överför automatiskt en miniatyrbild till varje ny post. Du kan ändra dessa bilder senare. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-   * Från alla vyer:
+   En ny post läggs till i tabellen.
 
-      * Klicka på **Ny post** i det övre högra hörnet på sidan. Förhandsgranskningsrutan för posten öppnas.
+1. Klicka på den nya postens primära fält
 
-     Workfront överför automatiskt en miniatyrbild och en omslagsbild till varje ny post. Du kan ändra dessa bilder senare. Mer information finns i följande artiklar:
+   eller
 
-      * [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   Klicka på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) till vänster om postnamnet.
+
+   Förhandsvisningsrutan öppnas i tabellen.
 
 1. Börja skriva information om den nya posten i de fält som visas i förhandsvisningsrutan.
 
@@ -158,23 +161,94 @@ Alla poster av den valda typen visas i vyn.
    >
    >  * Fält som refererar till andra posttyper eller beräknade fält är skrivskyddade fält.
 
-1. (Villkorligt) När du lägger till poster i tabellen fortsätter du att lägga till information på varje rad och klickar sedan på **Retur** på tangentbordet för att spara ändringarna.
+1. (Villkorligt) När du lägger till poster i tabellen fortsätter du att lägga till information på varje rad innan du öppnar postens förhandsvisningsruta. Klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
 
    eller
 
-   Klicka på den nya postens namn eller på ikonen **Öppna detaljer** ![Öppna informationsikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn. En förhandsgranskning med postens detaljerade information öppnas i tabellen.
+   Klicka på den nya postens namn eller på ikonen **Öppna detaljer** ![Öppna informationsikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn för att öppna förhandsvisningsrutan och redigera postens information i informationsområdet.
 
    >[!TIP]
    >
    >Du kan bara komma åt ikonen **Öppna detaljer** från postens namnfält när fältet Namn är ett primärt fält.
 
-1. Börja redigera postens information i postens förhandsgranskning. Workfront sparar automatiskt ändringarna.
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+1. (Valfritt) I postens förhandsvisningsruta klickar du på ikonen **Öppna på ny flik** ![Öppna detaljer i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
-1. (Valfritt) Använd följande kortkommandon om du vill ångra eller göra om tillägg av nya poster eller deras information när du lägger till dem i tabellvyn:
+   Workfront sparar automatiskt ändringarna.
+
+1. (Valfritt) Stäng förhandsvisningsrutan eller klicka på bakåtpilen till vänster om postens namn om du öppnade postens sida.
+
+1. (Valfritt) I tabellvyn använder du följande kortkommandon för att ångra eller göra om tillägg av nya poster eller deras information när du lägger till dem i tabellvyn:
 
    * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
+
+<div class="preview">
+
+## Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst
+
+Användare med behörigheten Visa på arbetsytan <!--<span class="preview">and record type</span>--> kan bara skapa poster med hjälp av knappen Begär post på posttypsidan.
+
+Användare med Contribute- och Manage-behörighet till arbetsytan <!--<span class="preview">and record type</span>--> kan skapa poster med knappen Ny post på posttypssidan.
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>En arbetsytehanterare måste skapa ett begärandeformulär för posttypen för att användare med behörigheten Visa ska kunna lägga till poster med hjälp av ett begärandeformulär. Annars kan inte användare med behörigheten Visa skapa poster.
+
+{{step1-to-planning}}
+
+1. Klicka på arbetsytan där du vill lägga till poster.
+
+   Arbetsytan öppnas och posttyperna visas som kort.
+
+1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
+Alla poster av den valda typen visas i vyn.
+
+1. Klicka i valfri vy på följande i skärmens övre högra hörn, beroende på arbetsytans <!--<span class="preview">and record type</span>--> behörigheter:
+
+   * Klicka på **Ny post** om du har Contribute eller högre behörighet på arbetsytan <!--<span class="preview">and record type</span>-->
+
+     eller
+
+   * Klicka på **Begär post** om du har behörigheten Visa på arbetsytan <!--<span class="preview">and record type</span>-->.
+
+1. (Villkorligt) Gör följande om du klickade på **Ny post**:
+
+   1. Klicka på något av följande sätt för att skapa en post och klicka sedan på **Fortsätt**:
+
+      * **Lägg till manuellt**. Postens förhandsvisningsruta öppnas.\
+        Lägg till information om posten, enligt beskrivningen i avsnittet [Skapa poster genom att lägga till dem textbundet från posttyptabellvyn](#create-records-by-adding-them-inline-from-the-record-type-table-view) i den här artikeln, med början från steg 6. <!--insure this stays accurate-->
+      * **Överför från fil**
+Lägg till poster enligt beskrivningen i artikeln [Skapa poster genom att importera information från en CSV- eller Excel-fil ](/help/quicksilver/planning/records/import-file-to-create-records.md), med början i steg 6. <!--ensure this stays accurate-->
+      * **Skicka en begäran**
+Formuläret med förfrågningar av posttyp öppnas.
+
+        En arbetsytehanterare måste skapa ett begärandeformulär för att kunna lägga till en post med hjälp av ett begärandeformulär.
+
+        >[!TIP]
+        >
+        >Vissa posttyper kan ha flera formulär. Klicka på en för att öppna den.
+
+        Lägg till posten enligt beskrivningen i artikeln [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md), med början i steg 6. <!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. (Villkorligt) Gör följande om du klickade på **Begär post**:
+
+   1. (Villkorligt) Om posttypen har fler än ett begärandeformulär klickar du på ett för att välja det.
+   2. Fortsätt lägga till information i formuläret för att skapa posten, så som beskrivs i artikeln [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md), med början från steg 6. <!--ensure this stays accurate-->
+
+1. (Villkorligt) Granska de nya posterna.
+
+   Beroende på hur du väljer att lägga till posten kan följande saker hända:
+
+   * En ny post läggs till posttypen, såvida du inte väljer att lägga till den med ett begärandeformulär med en godkännandeprocess. Godkännandet måste beviljas av alla godkännare innan posten skapas.
+   * Flera poster läggs till posttypen om du har lagt till poster med hjälp av ett CSV- eller Excel-kalkylblad.
+   * En ny begäran läggs till på fliken Planering i området Workfront-förfrågningar om du lade till den genom att skicka ett begärandeformulär.
+
+</div>
 
 <!-- this is not possible anymore: 
 

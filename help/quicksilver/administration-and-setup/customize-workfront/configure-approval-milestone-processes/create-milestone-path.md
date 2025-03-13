@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -115,26 +115,28 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
    </table>
 
 1. Klicka på **Lägg till milstolpe** och fortsätt att lägga till milstolpar efter behov tills sökvägen är slutförd.
+
 1. Klicka på **Skapa milstolpe-sökväg** om du vill spara ändringarna.
 
    Din milstolpe-väg är klar att kopplas till ett projekt.
 
    Mer information om hur du associerar milstolpar till projekt och milstolpar till aktiviteter finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">(Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil: </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Tabbavgränsad
 
-   </div>
--->
+1. <span class="preview">(Valfritt) Välj en milstolpe i milstolplistan och klicka sedan på ikonen **Redigera** ![Redigera-ikon](assets/edit-icon.png) för att redigera information om milstolpe. </span>
+1. <span class="preview">(Valfritt) Markera en milstolpe i milstolpelistan och klicka sedan på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) för att ta bort den. </span>
+1. <span class="preview">Klicka på **Ja, ta bort den**. </span>
+   <span class="preview">Milstolpen tas bort och kan inte återställas. All projektinformation som är associerad med milstolpen och all aktivitetsinformation som är associerad med milstolpbanorna tas också bort. </span>
+
+
+<div class="preview">
 
 ## Visa information om milstolpens sökväg i en rapport
 
@@ -171,9 +173,8 @@ Mer information om hur du associerar milstolpbanor till projekt finns i [Rediger
    * Bangrupper för milstolpe
    * Ikoner för milstolpe, beskrivningar, färger och färger
 
-   </div>
-
 1. (Valfritt) Klicka på **Tillbaka** om du vill gå tillbaka till projektrapporten.
 
+</div>
 
 

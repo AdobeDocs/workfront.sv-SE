@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-När någon delar en länk till ett begärandeformulär med dig från en posttypsida i Adobe Workfront Planning, kan du lägga till en begäran om att skapa poster för den posttyp som är associerad med förfrågningsformuläret.
+När en arbetsytehanterare har skapat ett begärandeformulär för en posttyp i Adobe Workfront Planning kan du använda formuläret för att skicka begäranden som skapar poster för den posttyp som är associerad med formuläret.
+
+Du kan skicka in en begäran om Workfront Planning från följande områden:
+
+* Från området Begäranden i Workfront, eller från en direktlänk till formuläret. I den här artikeln beskrivs hur du kan skicka en begäran om att lägga till nya poster till en posttyp från området Begäranden i Workfront, eller från en delad länk.
+* <span class="preview">Från posttypssidan när du lägger till eller begär en ny post. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
 
 Workfront-användare och externa användare kan skicka förfrågningar till posttyperna Planning och skapa poster. <!--double check on the external users-->
-
-I den här artikeln beskrivs hur du kan skicka en begäran om att lägga till nya poster i en posttyp.
 
 Mer information om hur en arbetsytehanterare kan skapa ett begärandeformulär och associera det med en posttyp finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -113,34 +116,41 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 * Följande måste finnas i Workfront Planning:
 
    * En arbetsyta
-   * En posttyp som är associerad med ett begärandeformulär. Mer information finns i [Skapa ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+   * En posttyp.
+   * Ett begärandeformulär som är associerat med en posttyp.
 
-* Formuläret för begäran måste delas med en länk på ett sätt som gör att du kan komma åt det. Följande scenarier finns:
+     Mer information finns i [Skapa ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-   * Om du har ett Workfront-konto har länken bara delats med interna medarbetare och du har tillgång till arbetsytan med högre eller högre behörighet. Personer utanför Workfront kan inte komma åt en länk som delas internt.
-   * Om du inte har något Workfront-konto har länken delats med externa personer. Workfront-användare kan även komma åt en länk som delas med externa personer.
+* Ansökningsformuläret måste delas på ett sätt som du kan komma åt. Följande scenarier finns:
+
+   * Internt måste formuläret delas med användare som har behörigheten Visa eller högre till arbetsytan.
+
+     Workfront-användare kan antingen komma åt formuläret via länken <span class="preview">eller hitta förfrågningsformuläret i området Begäranden i Workfront.</span>
+
+   * Om du inte har något Workfront-konto har en länk till formuläret delats med externa personer.
+
+     Workfront-användare kan även komma åt en länk som delas med externa personer.
 
 * Länken till formuläret får inte upphöra att gälla.
 
 ## Att tänka på när du skickar begäranden till Workfront Planning
 
-* Du kan bara få åtkomst till ett begärandeformulär för Workfront Planning-begäranden från en specifik länk till formuläret.
-* Du kan inte redigera en begäran i Workfront när du har skickat den till Workfront Planning.
+* Du kan inte redigera en begäran i Workfront efter att du har skickat den.
 * Varje skickad begäran skapar en post för den posttyp som är kopplad till det formulär du använder, om formuläret inte är kopplat till ett godkännande, eller om godkännandet har beviljats av alla godkännare.
-* Poster som skapas genom att frågeformulär skickas kan inte skiljas från poster som läggs till med någon annan metod. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+* Poster som skapas genom att skicka frågeformulär kan inte skiljas från poster som läggs till med någon annan metod i Workfront Planning.
+
+  Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 * Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
-* Det finns begränsningar i hur vissa fälttyper visas i ett begärandeformulär eller på sidan med information om förfrågan när ett formulär har skickats. Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Det finns begränsningar i hur vissa fälttyper visas i ett begärandeformulär eller på sidan med information om förfrågan när ett formulär har skickats.
+
+  Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Skicka en begäran till Workfront Planning
-
-Hur du skickar begäranden till Workfront Planning varierar beroende på vilken miljö du använder.
-
 <div class="preview">
 
-### Skicka en begäran till Workfront Planning i förhandsvisningsmiljön
+## Skicka en begäran till Workfront Planning under Begäranden i Workfront
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
    >[!TIP]
    >
-   >* Om postnamnet inte har lagts till i begärandeformuläret visas postens namn i fältet Post i begäran som **Namnlöst**.
+   >* Om postens primära fält inte har uppdaterats i begärandeformuläret visas postens namn i postfältet i begäran som **Namnlöst**.
    >
    >* Om begärandeformuläret är kopplat till ett godkännande måste det godkännas innan du kan få åtkomst till posten från begärandesidan.
 
@@ -224,7 +234,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
 </div>
 
-### Skicka en begäran till Workfront Planning i produktionsmiljön
+## Skicka en begäran till Workfront Planning från en delad länk till ett begärandeformulär
 
 1. Gå till länken som delas med dig från en Workfront Planning-posttyp.
 

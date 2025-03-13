@@ -3,13 +3,13 @@ title: Dela posttyper
 description: Du kan dela en posttyp med andra för att säkerställa samarbete när du använder Adobe Workfront Planning.
 hide: true
 hidefromtoc: true
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+exl-id: bf49db73-09f1-417e-836b-16c6062740d4
+source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
-
 
 <!-- add these to metadata on release:
 
@@ -30,8 +30,9 @@ Du kan dela en posttyp med andra för att säkerställa samarbete när du arbeta
 
 >[!IMPORTANT]
 >
->* Om du ger behörigheter till en arbetsyta får användarna samma behörigheter som posttyperna på arbetsytan.
->* Om du ger behörigheter till posttypen kan användarna få mindre behörigheter och inte högre behörigheter som de redan har från arbetsytan.
+>* Om du ger behörigheter till en arbetsyta får användarna som standard samma behörigheter som posttyperna på arbetsytan.
+>* Du kan justera behörigheter för enskilda posttyper.
+>* Du kan inte ge personer bättre åtkomst till en posttyp jämfört med den åtkomst de har till arbetsytan.
 > Mer information finns i avsnittet [Att tänka på när du delar posttyper](#considerations-when-sharing-record-types) i den här artikeln.
 
 ## Åtkomstkrav
@@ -117,18 +118,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Användare ärver automatiskt behörigheter för posttyp från arbetsytan.
 * Manuellt kan du ge användare behörigheten Visa för en posttyp eller ta bort de ärvda behörigheterna från arbetsytan.
 
-* Användare som läggs till i posttypen som inte har arbetsytebehörigheter läggs automatiskt till i arbetsytedelning med behörigheten Visa.
+* Användare som läggs till i rutan för posttypdelning och som inte har arbetsytebehörigheter läggs automatiskt till i arbetsytedelning med behörigheten Visa.
 
   Om du vill ge en användare som inte har behörighet för arbetsytan högre än behörigheten Visa till en posttyp, måste du först dela arbetsytan med honom/henne. Om du bara delar posttypen kan de bara få behörigheterna Visa till posttypen och de läggs även till på arbetsytan med behörigheten Visa. När du ger dem behörighet till posttypen finns det en indikation i delningsrutan om att de också läggs till på arbetsytan.
 
 * Du kan inte ge någon högre behörighet till posttypen än de har på en arbetsyta.
 
-  Du kan till exempel inte ge någon behörigheten Visa till en arbetsyta och Hantera behörigheter till en posttyp.
+  Du kan till exempel inte ge någon behörigheten Visa till en arbetsyta och Hantera till en posttyp.
 
 
 ## Dela behörigheter till en posttyp
 
-Du kan dela posttyper som du har skapat eller posttyper som du har behörigheten Hantera för med användare, grupper, team, företag och jobbroller i Workfront Planning.
+Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har behörigheten Hantera på arbetsytan.
 
 {{step1-to-planning}}
 
@@ -145,7 +146,7 @@ Du kan dela posttyper som du har skapat eller posttyper som du har behörigheten
 1. (Valfritt) Välj bland följande alternativ i området **Vem har åtkomst**: <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
 
    * **Endast inbjudna personer har åtkomst till**: Du måste ange användare, grupper, team, företag eller jobbroller som du vill dela vyn med.
-   * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytan kan komma åt vyn. Det här är standardalternativet.
+   * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytan kan komma åt vyn. Det här är standardalternativet. <!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
 
 1. (Valfritt) Expandera alternativet **Ärvda behörigheter** om du vill visa användare, team, grupper, företag eller jobbroller som ärver behörigheter från arbetsytan.
 
@@ -157,7 +158,7 @@ Du kan dela posttyper som du har skapat eller posttyper som du har behörigheten
 
    1. Inaktivera ärvda behörigheter.
    1. I fältet **Bevilja åtkomst till den här posttypen** lägger du till de användare, team, grupper, företag eller jobbroller som du vill ge en annan behörighetsnivå till.
-1. Välj en behörighetsnivå.
+   1. Välj en behörighetsnivå.
 
    >[!IMPORTANT]
    >
@@ -207,6 +208,8 @@ Users who access a link to a record type to which they do not have permissions c
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 ## Ta bort behörigheter till en posttyp
+
+<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 {{step1-to-planning}}
 

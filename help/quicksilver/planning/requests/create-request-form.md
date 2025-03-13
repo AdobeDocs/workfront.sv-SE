@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Skapa begärandeformulär**.
+1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Skapa begärandeformulär** <span class="preview"> eller **Hantera begärandeformulär** om du redan har ett formulär och vill skapa fler</span>.
 1. Uppdatera namnet på förfrågningsformuläret. Som standard är formulärets namn **Namnlöst formulär**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Valfritt) Lägg till en **beskrivning** för begärandeformuläret.
 
@@ -258,7 +258,14 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    >     * Folk
    >
 
-1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. Användarna får ett felmeddelande när länken har upphört att gälla och du måste uppdatera länkdatumet och generera en ny länk som de kan dela innan de kan komma åt formuläret igen.
+1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >Det finns en indikation på att länken delas offentligt när så är fallet.
+   >![Publict delad länk till formulär på posttypsmenyn](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   Användarna får ett felmeddelande när länken har upphört att gälla och du måste uppdatera länkdatumet och generera en ny länk som de kan dela innan de kan komma åt formuläret igen.
 
    Du kan välja framtida datum inom 180 dagar från dagens datum.
 
@@ -274,18 +281,31 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    Mer information om hur du skapar poster med hjälp av en länk till ett begärandeformulär finns i [Skicka Adobe Workfront Planning-begäranden](/help/quicksilver/planning/requests/submit-requests.md).
 
 1. Klicka på **Spara** i det nedre högra hörnet på fliken **Formulär** för att spara formuläret.
+
 1. Klicka på vänsterpilen till vänster om formulärets namn i rubriken för att stänga formuläret.
 
-   Posttypssidan öppnas.
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+   <span class="preview">Tabellvyn **Begär formulär** öppnas och formuläret läggs till i den.</span>
+
+1. <span class="preview">(Valfritt) Hovra över namnet på ett begärandeformulär i tabellvyn, klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) till höger om formulärnamnet och klicka på något av följande:</span>
+
+   * <span class="preview">**Redigera formulär**: Klicka här om du vill redigera information i formuläret ytterligare. </span>
+   * <span class="preview"> **Avpublicera**: Klicka här för att avpublicera formuläret som tar bort det från området med förfrågningar i Workfront. </span>
+   * <span class="preview">**Dela**: Klicka här för att ändra vem som har åtkomst till formuläret. </span>
+   * <span class="preview">**Kopiera länk**: Klicka här om du snabbt vill kopiera länken för begärandeformuläret utan att öppna formuläret. </span>
+   * <span class="preview">**Ta bort**: Klicka här för att ta bort formuläret. Alla förfrågningar och poster som lagts till med formuläret tas inte bort. Formuläret kan inte återskapas. </span>
+
+   ![Mer meny i begärandeformulär från listan över begärandeformulär](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+
+1. <span class= "preview">Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.   </span>
+
+   <span class= "preview">Posttypssidan öppnas. </span>
+1. (Valfritt och villkorligt) I produktionsmiljön klickar du på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
    * Klicka på **Uppdatera begärandeformuläret** om du vill göra några ändringar i begärandeformuläret.
    * Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
 
-   eller
+1. <span class="preview">(valfritt och villkorligt) Klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn i huvudet i förhandsvisningsmiljön och klicka sedan på **Hantera förfrågningsformulär**. </span>
 
-   * <span class= "preview"> Gå till området **Begäranden** i Workfront och hitta det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).</span>
-
-   >[!TIP]
-   >
-   >Det finns en indikation på att länken delas offentligt när så är fallet.
-   >![Publict delad länk till formulär på posttypsmenyn](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   <span class="preview">Då öppnas tabellvyn Begär formulär. </span>
+1. <span class="preview">Klicka på ett begärandeformulär för att öppna och redigera det.</span>
+1. <span class= "preview">(Valfritt) Gå till området **Begäranden** i Workfront och leta reda på det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).</span>
