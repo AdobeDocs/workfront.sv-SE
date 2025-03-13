@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,15 @@ Avatars visas inte längre i följande e-postmeddelanden:
 * Nya tilldelningsmeddelanden
 * Meddelande om slutförande av alla föregående aktiviteter
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## Utforska och känna av uppdateringar i en lista över milstolpe-sökvägar
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>Förhandsversion: 6 mars 2025; Produktionsrelease för alla kunder: 10 april 2025
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+Vi har uppdaterat utseendet och känslan för listan Sökväg för milstolpe i Konfigurera-området så att den matchar designen för andra delar av Workfront.
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Uppdatera Workfront Calendar
 
@@ -89,7 +85,7 @@ Dessa ändringar är tillfälliga när vi undersöker e-postförseningar.
 
 >[!NOTE]
 >
->Förhandsversion: 13 februari 2025; Produktionsrelease för alla kunder: Med version 25.3 (13 mars 2025)
+>Förhandsversion: 13 februari 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
 
 Vi har uppdaterat utseendet och känslan i Dela-dialogen till en modern design som överensstämmer med andra delar av Workfront. Det finns små visuella skillnader, bland annat:
 
