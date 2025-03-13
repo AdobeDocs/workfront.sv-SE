@@ -6,9 +6,9 @@ description: Iterationer är en nyckelkomponent för Scrum-team när det gäller
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -103,11 +103,11 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
 
 1. Välj **[!UICONTROL Backlog]** på den vänstra panelen.
 
-1. Välj minst ett arbetsobjekt på fliken **Artiklar** eller **Problem** och klicka sedan på **[!UICONTROL Plan Iteration]**.
+1. På fliken **Artiklar** eller **Problem** markerar du arbetsobjekten som du vill lägga till i iterationen och klickar sedan på **[!UICONTROL Plan Iteration]**.
 
 >[!NOTE]
 >
-> Du kan inte växla mellan artiklarna eller frågorna när du planerar en upprepning på fliken Eftersläpning. Du kan lägga till befintliga artiklar eller utgåvor när upprepningen har skapats. Mer information finns i [Flytta artiklar från en eftersläpning till en upprepning eller anslagstavla](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+> Du kan inte växla mellan fliken Artiklar eller Problem eller lägga till fler uppgifter när du planerar en upprepning på fliken Eftersläpning. Du kan lägga till befintliga artiklar eller utgåvor när upprepningen har skapats. Mer information finns i [Lägga till uppgifter eller problem i en befintlig iteration på fliken Eftersläpning](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) nedan.
 
 
 1. Ange följande information:
@@ -143,19 +143,20 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
     </tbody> 
    </table>
 
-1. (Valfritt) Välj artiklar om du vill lägga till dem i iterationen nu eller hoppa över det här steget och lägga till artiklar i en iteration vid ett senare tillfälle. Artikeln högst upp i efterloggen har högre prioritet. Artiklar markeras med grönt när de passar in i kapaciteten. De markeras med rött om de inte gör det.
-Du kan lägga till både uppgifter och ärenden i en enda iteration:
+1. Klicka på **[!UICONTROL Save].** iterationen skapas.
 
-   * **Om du vill lägga till uppgifter i iterationen:** På fliken **[!UICONTROL Backlog]** kontrollerar du att fliken **[!UICONTROL Stories]** är markerad (den här fliken är markerad som standard när du visar eftersläpningen). Markera de artiklar som du vill lägga till i iterationen.
+## Lägga till uppgifter eller problem i en befintlig iteration på fliken Eftersläpning
 
-     När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+1. Klicka på fliken **Artiklar** eller **Problem** på fliken **Backlog** .
 
-   * **Om du vill lägga till problem i iterationen:** Klicka på fliken **[!UICONTROL Backlog]** på fliken **[!UICONTROL Issues]**. Markera de problem som du vill lägga till i iterationen.
+1. Markera de artiklar eller utgåvor som du vill lägga till i iterationen. Artikeln högst upp i efterloggen har högre prioritet.
 
-1. Klicka på **[!UICONTROL Save].**
-iterationen skapas.
+   ![flytta ett arbetsobjekt](assets/move-to-iteration.png)
 
-1. (Valfritt) Mer information om hur du lägger till artiklar i en befintlig iteration finns i [Lägga till artiklar i en befintlig iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   >[!NOTE]
+   >
+   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+
 
 ## Förstå hur startdatum för aktiviteter beräknas när de läggs till i en iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 

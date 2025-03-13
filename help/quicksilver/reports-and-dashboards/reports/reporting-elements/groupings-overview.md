@@ -7,9 +7,9 @@ description: Du kan lägga till grupperingar för att hantera layouten för info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,17 @@ Du kan hantera rapportinformation ytterligare när du använder grupperingar gen
 
 Du kan sammanställa de data som visas i rapporten på grupperingsraden genom att sammanfatta värdena i varje kolumn i rapporten. Mer information om att sammanfatta kolumndata i en gruppering finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
+
 >[!NOTE]
 >
->Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
+>Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i >grupperingar:
 >
->* Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
->* Faktiska timmar sammanställer värdena för de huvudsakliga överordnade och de fristående aktiviteterna. De sammanställer inte siffrorna för de överordnade aktiviteternas överordnade eller underordnade aktiviteternas överordnade uppgifter.
+>* Alla sifferfält, valutafält och datumfält, utom Faktiska timmar, sammanställer värden endast för underordnade uppgifter och fristående uppgifter. De sammanställer inte värden för överordnade uppgifter eller överordnade uppgifter. Om du samlar i nummerfält, valutafält och datumfält i en lista som bara innehåller överordnade uppgifter visas inte ett aggregerat värde i grupperingsfältet.
+>
+>* Aggregerade värden för faktiska timmar för huvuduppgifter och fristående uppgifter. De sammanställer inte siffrorna för underordnade uppgifter eller överordnade uppgifter. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter.
+
 
 ### Sortera efter en gruppering {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ Hur du tar bort en gruppering beror på om du först skapade grupperingen eller 
 * **Om grupperingen delades med dig och du tar bort den** tas grupperingen bara bort åt dig. Den användare som ursprungligen skapade den och alla andra användare som den har delats med har fortfarande åtkomst till grupperingen.
 
 Mer information om hur du tar bort en gruppering finns i artikeln [Ta bort filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->
