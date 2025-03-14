@@ -6,14 +6,19 @@ description: Du kan visa hur dina resurser används i användningsrapporten.
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '7252'
+source-wordcount: '7283'
 ht-degree: 0%
 
 ---
 
-# Visa information om resursutnyttjande
+# Visa information om resursutnyttjande {#view-resource-utilization-information}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-utilization"
+>title="Användningsrapport"
+>abstract="Med användningsrapporten kan du visa förloppet, kostnaden eller intäkterna för ett projekt, program eller en portfölj i en enda rapport. Du kan också jämföra intäkter med kostnad."
 
 <!-- Audited: 01/2024 -->
 
@@ -65,7 +70,7 @@ Du måste ha följande för att få tillgång till användningsrapporten:
     <ul> 
      <li> <p>Resurshantering </p> </li> 
      <li> <p>Projekt</p> </li> 
-     <li> <p>Portfolio</p> </li> 
+     <li> <p>Portföljer</p> </li> 
      <li> <p>Program</p> </li> 
      <li> <p>Finansiella data, om du vill visa information efter kostnad</p> </li> 
     </ul> </td> 
@@ -475,7 +480,7 @@ Du måste ange ett eller flera projekt i filtret innan du kör användningsrappo
 
      {{step1-to-utilization-report}}
 
-      1. Klicka på **Visa**>**Portfolio**.
+      1. Klicka på **Visa**>**Portföljer**.
       1. Tillämpa ett filter på användningsrapporten och klicka sedan på **Kör**.\
          Du måste ange en eller flera portföljer i filtret innan du kör användningsrapporten. Mer information om hur du filtrerar användningsrapporten finns i [Filtrera användningsinformation](#filter-utilization-information) i den här artikeln.\
          Användningsinformation visas för enskilda projekt, program och portföljer (projekten grupperas i respektive tillhörande program och programmen grupperas i respektive associerad portfölj).
@@ -516,7 +521,7 @@ Se [Spåra förlopp, kostnad och intäkter med användningsrapporten](#track-pro
 1. (Villkorligt) Om du vill ändra ett befintligt filter klickar du på listrutan **Filter** och väljer sedan det filter som du vill ändra.
 1. Ange följande information för att skapa eller ändra filtret:
 
-   * **Portfolio:** Börja skriva namnet på portföljen som innehåller den information du vill inkludera i användningsrapporten och klicka sedan på namnet när det visas i listrutan\
+   * **Portföljer:** Börja skriva namnet på portföljen som innehåller den information du vill inkludera i användningsrapporten och klicka sedan på namnet när det visas i listrutan.\
      Upprepa den här processen om du vill inkludera information från flera portföljer i användningsrapporten.\
      Om du vill inkludera alla portföljer från systemet i filtret klickar du på **Lägg till alla**. (Det här alternativet är endast tillgängligt om du har färre än 10 portföljer i systemet.)
 
@@ -630,7 +635,7 @@ Se [Spåra förlopp, kostnad och intäkter med användningsrapporten](#track-pro
 
 ## Exportera användningsinformation
 
-Du kan exportera användningsinformation för ett projekt, ett program eller en portfölj från Workfront. Information kan bara exporteras i formaten XLSX, TSV och PDF.
+Du kan exportera användningsinformation för ett projekt, ett program eller en portfölj från Workfront. Information kan bara exporteras i XLSX-, TSV- och PDF-format.
 
 När negativa tal visas i Microsoft Excel visas de inom parentes.
 
@@ -668,7 +673,7 @@ Se [Spåra förlopp, kostnad och intäkter med användningsrapporten](#track-pro
 
    Användningsrapporten visas i en diagramvy.
 
-1. (Valfritt) Konfigurera diagrammet för att visa projekt, program eller Portfolio genom att välja lämpligt alternativ i listrutan **Visa**.
+1. (Valfritt) Konfigurera diagrammet för att visa projekt, program eller portföljer genom att välja lämpligt alternativ i listrutan **Visa**.
 1. (Valfritt) Hovra över en viss tidpunkt i rapporten för att visa data för den tidpunkten.
 
    ![Hovra över en datapunkt](assets/utilization-chart-hover.png)

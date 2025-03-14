@@ -7,14 +7,19 @@ description: När projektledare har planerat arbetet i projekt genom att skapa u
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
 
-# Översikt över belastningsutjämnare
+# Översikt över belastningsutjämnare {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="Utjämning av arbetsbelastning"
+>abstract="Projektägare och teamchefer kan använda Utjämning av arbetsbelastning för att tilldela användare arbetsobjekt."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
@@ -30,7 +35,7 @@ När projektledare har planerat arbetet i projekt genom att skapa uppgifter och 
 
 I den här artikeln beskrivs det allmänna syftet med Utjämning av arbetsbelastning och några av de bästa sätten att konfigurera projekt och resurser så att de kan användas.
 
-Gå till sidan [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) om du vill se videosjälvstudiekurser om arbetsbelastningsutjämnaren. Välj **Hantera resurser** > **Utjämning av arbetsbelastning** på den vänstra menyn och välj en självstudiekurs.
+Gå till sidan [Workfront-självstudiekurser](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) om du vill se videosjälvstudiekurser för belastningsutjämnaren. Välj **Hantera resurser** > **Utjämning av arbetsbelastning** på den vänstra menyn och välj en självstudiekurs.
 
 ## Leta reda på arbetsbelastningsutjämnaren
 
