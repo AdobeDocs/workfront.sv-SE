@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,8 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Skapa begärandeformulär** <span class="preview"> eller **Hantera begärandeformulär** om du redan har ett formulär och vill skapa fler</span>.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Skapa begärandeformulär** <span class="preview"> eller **Hantera begärandeformulär** om du redan har ett formulär och vill skapa fler</span>.
+1. <span class="preview">(Villkorligt) Om du vill lägga till ett annat formulär klickar du på **Nytt begärandeformulär**</span>.
 1. Uppdatera namnet på förfrågningsformuläret. Som standard är formulärets namn **Namnlöst formulär**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Valfritt) Lägg till en **beskrivning** för begärandeformuläret.
 
@@ -271,7 +272,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
    >[!TIP]
    >
-   ><span class="preview">När delningsdatumet har gått ut är förfrågningsformuläret inte längre tillgängligt i området Begäranden i Workfront.</span>
+   ><span class="preview">När delningsdatumet har gått ut är förfrågningsformuläret inte längre tillgängligt i området Begäranden i Workfront och länkarna som delas med andra användare är inte längre tillgängliga.</span>
 
 
 1. <span class="preview">(Valfritt)</span> Klicka på **Spara och kopiera länken** för att spara delningsinformationen för formuläret. Om formuläret har sparats tidigare klickar du på **Kopiera länk**.
@@ -300,12 +301,20 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 1. <span class= "preview">Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.   </span>
 
    <span class= "preview">Posttypssidan öppnas. </span>
-1. (Valfritt och villkorligt) I produktionsmiljön klickar du på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
-   * Klicka på **Uppdatera begärandeformuläret** om du vill göra några ändringar i begärandeformuläret.
-   * Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
+1. (Valfritt och villkorligt) Om du vill redigera ett befintligt formulär gör du något av följande, beroende på vilken miljö du använder:
 
-1. <span class="preview">(valfritt och villkorligt) Klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn i huvudet i förhandsvisningsmiljön och klicka sedan på **Hantera förfrågningsformulär**. </span>
+   * Från produktionsmiljön:
 
-   <span class="preview">Då öppnas tabellvyn Begär formulär. </span>
-1. <span class="preview">Klicka på ett begärandeformulär för att öppna och redigera det.</span>
-1. <span class= "preview">(Valfritt) Gå till området **Begäranden** i Workfront och leta reda på det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).</span>
+      1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+
+      1. Klicka på **Uppdatera begärandeformuläret** om du vill göra några ändringar i begärandeformuläret.
+      1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
+
+   * <span class="preview">Från förhandsvisningsmiljön:
+
+      1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och klicka sedan på **Hantera förfrågningsformulär**. </span>
+
+         <span class="preview">Då öppnas tabellvyn Begär formulär. </span>
+
+      1. <span class="preview">Klicka på ett begärandeformulär för att öppna och redigera det.</span>
+      1. <span class= "preview">(Valfritt) Gå till området **Begäranden** i Workfront och leta reda på det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).</span>

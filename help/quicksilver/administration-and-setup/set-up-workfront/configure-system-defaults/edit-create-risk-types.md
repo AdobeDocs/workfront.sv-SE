@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 1%
+source-wordcount: '550'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,17 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Du kan lägga till risker i ett projekt i planeringsfasen för att identifiera potentiella hinder innan du godkänner något arbete. Risker är tänkbara händelser som kan förhindra att projektet slutförs i tid eller inom budgeten.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+Adobe Workfront har ett antal standardrisktyper som du kan koppla till projekt i planeringsfasen för att identifiera potentiella hinder innan du godkänner något arbete.
+
+Risker är tänkbara händelser som kan förhindra att projektet slutförs i tid eller inom budgeten.
+
+Förutom standardrisktyperna kan du lägga till nya risktyper som återspeglar organisationens behov.
+
+Du kan koppla risktyper till projektrisker för att identifiera vilken typ av risk ett projekt kan stöta på.
 
 ## Åtkomstkrav
 
@@ -55,14 +65,23 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Risktyper
 
-Risktyper är etiketter som du kan använda för att kategorisera risker i rapporteringssyfte. De skapas i området **[!UICONTROL Setup]** av administratören för [!DNL Adobe Workfront]. När risktyper har etablerats i ditt **[!UICONTROL Setup]**-område är de universella för ditt system. Alla projektägare kan använda samma risktyper för sina projekt.
+Risktyper är etiketter som du kan använda för att kategorisera risker i rapporteringssyfte.
+
+Som [!DNL Workfront]-administratör kan du skapa [!UICONTROL Risk Types] under [!UICONTROL **Konfigurera**].
+
+Efter att risktyperna har ställts in är de universella för ditt system.
+
+Alla projektägare kan använda samma risktyper för sina projekt.
 
 ## Redigera och skapa risktyper
 
-Vissa risktyper finns redan i [!DNL Workfront] som standard. För att tillgodose organisationens behov kan du antingen redigera befintliga risktyper eller skapa nya risktyper.
+Vissa risktyper finns redan i [!DNL Workfront] som standard.
+
+
+Du kan göra följande för att öka antalet risktyper i din Workfront-instans:
 
 * [Redigera befintliga risktyper](#edit-existing-risk-types)
-* [Skapa nya risktyper](#create-new-risk-types)
+* [Skapa risktyper](#create-risk-types)
 
 ### Redigera befintliga risktyper {#edit-existing-risk-types}
 
@@ -70,33 +89,61 @@ Vissa risktyper finns redan i [!DNL Workfront] som standard. För att tillgodose
 
 1. Klicka på **[!UICONTROL Risk Types]**.
 1. Välj den risktyp som du vill redigera.
-1. Klicka på **[!UICONTROL Edit]**.
+1. Klicka på ikonen **[!UICONTROL Edit]** ![Redigera](assets/edit-icon.png).
+
+   Rutan [!UICONTROL **Redigera risktyp**] öppnas. <!--add screen shot-->
+
+   >[!TIP]
+   >
+   >   Du kan redigera risktypsinformation infogat när du dubbelklickar på Namn eller Beskrivning för en risktyp i listan.
+
 1. (Valfritt) Ändra namn och beskrivning av risktypen.
+
 
    Det finns en teckengräns på 50 tecken för fälten **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 
 1. Klicka på **[!UICONTROL Save Changes].**
 
-### Skapa nya risktyper {#create-new-risk-types}
+1. (Valfritt) Om du vill ta bort en risktyp markerar du den i listan, klickar på ikonen [!UICONTROL **Ta bort**] ![Ta bort ](assets/delete.png) och sedan på [!UICONTROL **Ja, ta bort den**] . Risktypen tas bort och kan inte återfås.
 
-Du kan skapa nya risktyper, utöver standardrisktyperna, för att återspegla organisationens behov.
+1. (Valfritt) Om du vill exportera en lista med risktyper klickar du på ikonen [!UICONTROL **Exportera**] ![Exportera ](assets/export-icon.png) . Du kan exportera till följande filtyper:
 
-Så här skapar du en ny risktyp:
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * Tabbavgränsad
+
+   >[!TIP]
+   >
+   >   Du kan först välja ett begränsat antal risktyper och sedan exportera dem för en mindre lista.
+
+
+### Skapa risktyper {#create-risk-types}
+
+Du kan skapa risktyper, förutom de som är standard.
 
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Risk Types]**.
-1. Klicka på **[!UICONTROL New Risk Type]**.
+1. Klicka på **[!UICONTROL New Risk Type]** för att öppna rutan [!UICONTROL **Ny risktyp**]
+
+   eller
+
+   Klicka på [!UICONTROL **Lägg till fler risktyper**] i det nedre vänstra hörnet av listan över risktyper om du vill lägga till risktyper. <!--add screen shot-->
 1. Ange **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för risktypen.
 
    Det finns en teckengräns på 50 tecken för fälten **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 
-1. Klicka på **[!UICONTROL Create Risk Type]**. Om du använde infogad redigering för att lägga till din risktyp klickar du på **[!UICONTROL Enter]** när du är klar.
+1. Klicka på **[!UICONTROL Create Risk Type]**,
 
-   >[!NOTE]
+   Om du använde infogad redigering för att lägga till din risktyp klickar du på **[!UICONTROL Enter]** när du är klar.
+
+   >[!TIP]
    >
-   >Om du behöver redigera en anpassad risktyp läser du avsnittet [[!UICONTROL Edit existing] risktyper ](#edit-existing-risk-types) i den här artikeln.
+   >Om du vill redigera en anpassad risktyp läser du avsnittet [[!UICONTROL Edit existing] risktyper ](#edit-existing-risk-types) i den här artikeln.
 
 ## Bifoga risker med risktyper i projekt
 
-Risktyper kan användas för märkning av risker som läggs till i dina projekt. Mer information om hur du lägger till risker i projekt finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+Du kan använda risktyper för att märka risker som lagts till i dina projekt.
+
+Mer information om hur du lägger till risker i projekt finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
