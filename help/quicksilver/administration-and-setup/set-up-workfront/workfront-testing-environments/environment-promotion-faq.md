@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Följande frågor ställs ofta om miljökampanjer:
 
 Marknadsföring över domäner stöds inte för närvarande. Du måste uppgradera mellan miljöer i samma domän.
 
-## Är Adobe Business Platform/IMS en förutsättning för miljöfrämjande åtgärder?
+## Är Adobe Business Platform/IMS en förutsättning för miljömarknadsföring?
 
 ### Svar
 
@@ -70,5 +70,4 @@ Paketåterställningen är tillgänglig för det senaste paketet inom 24 timmar 
 ### Svar
 
 * &quot;Använd befintlig&quot; är detsamma som att&quot;hoppa över&quot; eller ignorera distributionen, eftersom den mappar till det befintliga objektet i målmiljön och inte gör några ändringar.
-* Om du vill hoppa över objekt rekommenderar vi att du tar bort
-objekt som du inte vill installera från erbjudandepaketet eller från källmiljön direkt. När du har tagit bort objekten sätter du ihop paketet igen.
+* Om du vill hoppa över objekt rekommenderar vi att du tar bort objekt som du inte vill installera från erbjudandepaketet eller från källmiljön direkt. När du har tagit bort objekten sätter du ihop paketet igen.
