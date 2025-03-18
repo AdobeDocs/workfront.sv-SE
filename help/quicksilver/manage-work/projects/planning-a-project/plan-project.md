@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Planera en projektöversikt
-description: Planera en projektöversikt
+title: Planera ett projekt - översikt
+description: Ta reda på vad ett projekt är, hur du skapar omfång och struktur samt viktiga koncept som scheman, tidslinjer samt start- och slutdatum.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-Ett projekt är en stor arbetsuppgift i Adobe Workfront. Du kan dela upp ett projekt i uppgifter som är mindre arbetsobjekt, som uppgifter. Uppgifter kan tilldelas användare eller team som ansvarar för att de slutförs. När alla användare har slutfört sina uppgifter blir projektet också färdigt.
+Ett projekt är en stor arbetsuppgift i Adobe Workfront. Du kan dela upp ett projekt i uppgifter som är mindre arbetsobjekt. Uppgifter kan tilldelas användare eller team som ansvarar för att de slutförs. När alla användare har slutfört sina uppgifter blir projektet också färdigt.
 
 Förutom att planera dina uppgifter i ett projekt, finns det många andra detaljer att tänka på. Det finns många projektdelar som behöver uppmärksammas, från att fastställa de ekonomiska effekterna till att överväga resurstillgänglighet.
 
