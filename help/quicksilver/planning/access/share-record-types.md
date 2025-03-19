@@ -4,7 +4,7 @@ description: Du kan dela en posttyp med andra för att säkerställa samarbete n
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # Dela posttyper
 
@@ -196,6 +198,25 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
 
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
 
+## Ta bort behörigheter till en posttyp
+
+{{step1-to-planning}}
+
+1. Öppna arbetsytan vars posttyper du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
+
+1. Klicka på **Dela** i det övre högra hörnet av posttypen på fliken i valfri vy.
+
+   Rutan **Dela** öppnas.
+1. Hitta den användare, grupp, team, företag eller jobbroll vars behörigheter du vill ta bort, utöka den nedrullningsbara menyn Behörigheter till höger om namnet och klicka sedan på **Ta bort**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![Ta bort alternativ i listrutan för posttypsdelning](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Klicka på **Spara**.
+
+   Personer har inte längre åtkomst till posttypen. De kan fortfarande ha behörigheter till arbetsytan, såvida du inte också tar bort dem från arbetsytebehörigheterna.
+
+   Användarna som har tagits bort från vyn får inget meddelande om att de inte längre har åtkomst till den.
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## Ta bort behörigheter till en posttyp
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. Öppna arbetsytan vars posttyper du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
-
-1. Klicka på **Dela** i det övre högra hörnet av posttypen på fliken i valfri vy.
-
-   Rutan **Dela** öppnas.
-1. Hitta den användare, grupp, team, företag eller jobbroll vars behörigheter du vill ta bort, utöka den nedrullningsbara menyn Behörigheter till höger om namnet och klicka sedan på **Ta bort**. <!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![Ta bort alternativ i listrutan för posttypsdelning](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. Klicka på **Spara**.
-
-   Personer har inte längre åtkomst till posttypen. De kan fortfarande ha behörigheter till arbetsytan, såvida du inte också tar bort dem från arbetsytebehörigheterna.
-
-   Användarna som har tagits bort från vyn får inget meddelande om att de inte längre har åtkomst till den.
 

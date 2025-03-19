@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
+source-wordcount: '4611'
 ht-degree: 0%
 
 ---
@@ -231,7 +231,8 @@ OLD:
    * [Skapad av](#created-by)
    * [Skapad den](#created-date)
    * [Senast ändrad av](#last-modified-by)
-   * [Senast ändrat den](#last-modified-date)
+   * [Senaste ändringsdatum](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till e
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Enkelradig text**.
 
-   ![](assets/single-line-text-field-type.png)
+   ![Typ av textfält med en rad](assets/single-line-text-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Stycke**.
 
-   ![](assets/paragraph-field-type.png)
+   ![Typ av styckefält](assets/paragraph-field-type.png)
 
 
 1. Lägg till följande information på fliken **Nytt fält**:
@@ -290,7 +291,7 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Flera val**.
 
-   ![](assets/multi-select-field-type.png)
+   ![Flervalsfälttyp](assets/multi-select-field-type.png)
 
 
 1. Lägg till följande information på fliken **Nytt fält**:
@@ -319,7 +320,7 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Enkelval**.
 
-   ![](assets/single-select-field-type.png)
+   ![Fälttyp för enval](assets/single-select-field-type.png)
 
 
 1. Lägg till följande information på fliken **Nytt fält**:
@@ -348,7 +349,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Datum**.
 
-   ![](assets/date-field-type.png)
+   ![Datumfältstyp](assets/date-field-type.png)
 
 
 1. Lägg till följande information på fliken **Nytt fält**:
@@ -377,9 +378,17 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
 
 Nummerfälttyper samlar in information i talformat.
 
+>[!TIP]
+>
+>Nummerfält visas som en typ av enradigt textfält i en formulärbyggare för begäran.
+>
+>Fältformatet bevaras dock och värdena i dessa fält visas som siffror efter att begäran har skickats, på posttypen och på sidan med information om begäran.
+>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Number**.
 
-   ![](assets/number-field-type.png)
+   ![Nummerfältstyp](assets/number-field-type.png)
 1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
@@ -399,9 +408,17 @@ Nummerfälttyper samlar in information i talformat.
 
 Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 
+>[!TIP]
+>
+>Procentfält visas som en enkelradig textfälttyp i ett formulärbyggare för begäran.
+>
+>Fältformatet bevaras dock och värdena för dessa fält visas som procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
+>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
 
-   ![](assets/percentage-field-type.png)
+   ![Procentfälttyp](assets/percentage-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
@@ -431,9 +448,16 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 
 Valutafälttyper samlar in information i ett talformat som föregås av en valutasymbol.
 
+>[!TIP]
+>
+>Valutafält visas som en enkelradig textfälttyp i en formulärbyggare för begäran.
+>
+>Fältformatet bevaras dock och värdena i dessa fält visas som valuta efter att begäran har skickats, på posttypen och på sidan med information om begäran.
+>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Valuta**.
 
-   ![](assets/currency-field-type.png)
+   ![Valutafälttyp](assets/currency-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -456,7 +480,7 @@ Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en p
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Kryssruta**.
 
-   ![](assets/checkbox-field-type.png)
+   ![Fälttyp för kryssruta](assets/checkbox-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -473,7 +497,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Formel**.
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![Nytt formelfält med lista över uttryck](assets/new-formula-field-with-list-of-expressions.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
 
@@ -483,7 +507,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 
 1. Klicka på det markerade uttrycket för att visa definitionen och dess formatering.
 
-   ![](assets/description-of-formula-expression.png)
+   ![Beskrivning av formeluttryck](assets/description-of-formula-expression.png)
 
    Mer information om vilka uttryck som stöds finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
 
@@ -501,7 +525,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. I fältet **Format** väljer du bland följande alternativ för att identifiera formatet på resultatet som visas i formeltypsfältet:
@@ -516,7 +540,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
      >
      >Vi rekommenderar taggar för fält som visar arrayer. I det här fallet visas varje arraymedlem som en separat tagg.
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![lista med formelfältformat med markerad tagg](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **Datum**: Resultatet av formelfältet visas som ett datum.
 
@@ -536,11 +560,15 @@ Du kan använda fälttypen Personer för att lägga till en användare <!--, job
 
 >[!TIP]
 >
->När du lägger till namnet på en användare i ett personfält visas namnet på användaren och den primära jobbrollen i fältet.
+>* När du lägger till namnet på en användare i ett personfält visas namnet på användaren och den primära jobbrollen i fältet.
+>
+>* Personfält visas som en referens (eller anslutningstyp) i en formulärbyggare för begäran.
+>
+>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Personer**.
 
-   ![](assets/people-field-type.png)
+   ![Fälttyp för personer](assets/people-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
@@ -561,7 +589,7 @@ Du kan använda fälttypen Skapad av för att lägga till användaren som skapad
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Skapad av**.
 
-   ![](assets/created-by-field-type.png)
+   ![Skapad av fälttyp](assets/created-by-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
 
@@ -579,7 +607,7 @@ Du kan använda fälttypen Skapat för att lägga till datumet då posten skapad
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Skapad**.
 
-   ![](assets/created-date-field-type.png)
+   ![Skapad datumfältstyp](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -612,7 +640,7 @@ Du kan använda fälttypen Senast ändrad av för att lägga till användaren so
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Senast ändrad av**.
 
-   ![](assets/last-modified-by-field-type.png)
+   ![Senast ändrad av fälttyp](assets/last-modified-by-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
 
@@ -630,7 +658,7 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Skapad**.
 
-   ![](assets/last-modified-date-field-type.png)
+   ![Fälttypen Senaste ändringsdatum](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -656,6 +684,52 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
 1. Klicka på **Skapa**.
 
    Det nya fältet Senast ändrad datumtyp läggs till som en kolumn till posttypen och dess värden är förifyllda med datumet (eller datum och tid) när posten senast ändrades.
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## Skapa fält genom att ansluta posttyper
 
