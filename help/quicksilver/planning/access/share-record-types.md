@@ -4,7 +4,7 @@ description: Du kan dela en posttyp med andra för att säkerställa samarbete n
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    Personer har inte längre åtkomst till posttypen. De kan fortfarande ha behörigheter till arbetsytan, såvida du inte också tar bort dem från arbetsytebehörigheterna.
 
    Användarna som har tagits bort från vyn får inget meddelande om att de inte längre har åtkomst till den.
+
