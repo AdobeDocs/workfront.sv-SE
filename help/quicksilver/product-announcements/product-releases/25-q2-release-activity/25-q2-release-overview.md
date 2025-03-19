@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,12 @@ Följande funktioner kommer snart att tas bort från Workfront:
 Den äldre Agile-vyn i ett projekt kommer att tas bort från Workfront med version 25.3 den 13 mars 2025. Du kan fortfarande visa dina uppgifter i en Agile-vy i ett projekt genom att klicka på ikonen för anslagstavlor.
 
 Mer information om hur du använder vyn Agile finns i [Hantera ett projekt i vyn Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+#### Förbättrad borttagning av analysfunktioner
+
+På grund av låg och minskad användning har vi beslutat att ta bort den förbättrade analysprodukten från maj 25, 2025.
+Vi rekommenderar att du byter ut din Data Connect-produkt. Med Data Connect kan ni skapa liknande anpassningsbara visualiseringar med de affärsinformationsverktyg ni föredrar.
+Mer information om den här borttagningen finns i [stödguiden för utökad analys](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Meddelanden
 
