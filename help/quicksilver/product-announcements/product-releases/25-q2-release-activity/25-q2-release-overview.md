@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: eb51a0b5f726105d7d25a358fc3546f7a2f27d89
+source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
