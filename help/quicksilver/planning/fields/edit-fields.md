@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan redigera fältinställningarna för fält som redan har skapats i Adobe Workfront Planning.
+Du kan redigera inställningarna för befintliga fält i Adobe Workfront Planning.
 
 Mer information om hur du skapar Adobe Workfront Planning-fält finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -99,72 +99,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 +++
 
 
-<!--
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Att tänka på när du redigerar fältinställningar
 
 Du måste tänka på följande innan du gör ändringar i ett fälts konfiguration:
 
-* Du kan redigera fält som du har skapat eller fält som har skapats av andra användare, om du har behörigheten Hantera på arbetsytan som fälten tillhör.
-* Du kan redigera ett fält i posttyptabellen.
+* Du kan bara redigera fältinställningar från posttyptabellen.
 * Du kan inte redigera ett fält på postsidan eller i någon annan vy utanför tabellvyn.
 * Du kan inte redigera fälttypen efter att fältet har sparats.
 * Du kan inte avmarkera inställningen Tillåt negativa tal som tidigare var markerad, för fältet Nummer, Procent eller Valuta om det redan finns negativa värden lagrade på posterna som den är kopplad till.
@@ -181,6 +120,12 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
   >Det finns ingen varning eller indikation om att denna dataförlust kan inträffa när du ändrar fältkonfigurationen.
   >
   >Det finns inget meddelande till andra användare om att fältkonfigurationen har ändrats.
+
+* Du kan inte redigera befintliga uppslagsfält från anslutna poster.
+
+<!--replace he last bullet with thsi: 
+
+* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -207,7 +152,7 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
 
    Dubbelklicka på fältets kolumnrubrik.
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![Pilmeny efter fältets namn i tabellhuvudet markerat](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. Uppdatera information om fältet och klicka på **Spara**. <!--insert screen shot when finalized-->
 

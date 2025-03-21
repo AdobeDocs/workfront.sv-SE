@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Så här gör du:
       * **Bild**: Visar endast miniatyrbilden eller ikonen för de anslutna posterna.
    * **Markera uppslagsfält**: Om du låter det här alternativet vara markerat öppnas rutan **Lägg till uppslagsfält** så att du kan länka produktfält med kampanjposttypen. Du kan klicka på **Hoppa över** om du vill hoppa över det här steget och lägga till produktfält senare.
 
-     ![](assets/new-connection-with-product-record-type.png)
+     ![Ny anslutning med produktposttyp](assets/new-connection-with-product-record-type.png)
 
 1. (Villkorligt) Om du valde alternativet **Välj uppslagsfält** i föregående steg klickar du på ikonen **+** för fältet **Budget** i listan med fält som är associerade med posttypen **Produkt** och sedan på **Lägg till fält**. Detta skapar ett fält med namnet **Budget (från produktinformation)**, som är namnet på det länkade fältet. All information för produktbudgeten visas i det här fältet för kampanjposterna.
 
-   ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
+   ![Lägg till fält för budgetfält för anslutning med posttyp](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
    >[!TIP]
    >
@@ -84,17 +84,17 @@ Så här gör du:
 
       * **Kampanj**: Detta indikerar att produktposttypen är länkad från posttypen Campaign.
 
-     ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+     ![Exempel på relationsfält för kampanjinformation från produktpostregister](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    Länkade postfält föregås av relationsikonen ![](assets/relationship-field-icon.png).
+   >    Länkade postfält föregås av relationsikonen ![Ikonen för relationsfältet](assets/relationship-field-icon.png).
 
 1. Skapa en kampanj genom att lägga till en ny rad i posttypssidans tabell från posttypvyn **Campaign** .
 
 1. Dubbelklicka i kolumnen **Produktinformation** för den nya kampanjen.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Ansluta andra poster till en mindre ruta i tabellvyn](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Gör något av följande:
 
@@ -104,7 +104,7 @@ Så här gör du:
 
 1. (Villkorligt) Om du klickade på **Visa alla** i föregående steg visas rutan **Anslut objekt** .
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![Register för anslutna objekt för poster](assets/connected-objects-table-for-records.png)
 
 1. Börja skriva namnet på en produkt i sökrutan och markera den sedan när den visas i listan
 
@@ -120,7 +120,7 @@ Så här gör du:
    * Fältet **Produktinformation** fylls i för Campaign-posten med de valda produkterna.
    * **Fältet Budget (från produktinformation)** fylls i med budgetvärdet för varje vald produkt, eller med summan av alla budgetar för de valda produkterna (om du valde SUM för aggregatorn).
 
-   ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![Exempel på produktinformation och budgetrelationsfält för kampanjpostregister](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Så här gör du:
    * **Länka endast objekt som matchar det här villkoret**: Välj ett anpassat formulär i listrutan **Eget formulär**. Endast projekt som är kopplade till de angivna formulären är tillgängliga för att kopplas till kampanjer. Du kan välja flera formulär.
    * **Markera uppslagsfält**: Om du låter det här alternativet vara markerat öppnas rutan **Lägg till uppslagsfält** så att du kan länka projektfält med kampanjposttypen. Du kan klicka på **Hoppa över** om du vill hoppa över det här steget och lägga till projektfält senare.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![Ny anslutningsflik med Workfront-alternativ](assets/new-connection-tab-with-workfront-option.png)
 
 1. (Villkorligt) Om du valde alternativet **Välj uppslagsfält** i föregående steg klickar du på ikonen **+** för fältet **Planerad intäkt** i listan med fält som är associerade med objekttypen **och sedan på** Lägg till fält **.** Detta skapar ett fält med namnet **Planerad intäkt (från projektinformation)**, som är namnet på det länkade fältet. All information från fältet Planerad intäkt för projekt visas automatiskt i det här fältet för kampanjposterna.
 
@@ -169,7 +169,7 @@ Så här gör du:
    >
    > Om du väljer **Ingen**, i stället för **SUM**, visas de enskilda planerade intäkterna avgränsade med kommatecken.
 
-   ![](assets/add-planned-revenue-project-field-to-new-connection.png)
+   ![Lägg till projektfältet Planerad intäkt till ny anslutning](assets/add-planned-revenue-project-field-to-new-connection.png)
 
    Detta genererar följande fält:
 
@@ -180,13 +180,13 @@ Så här gör du:
 
    >[!TIP]
    >
-   >    Länkade objektfält föregås av relationsikonen ![](assets/relationship-field-icon.png).
+   >    Länkade objektfält föregås av relationsikonen ![Ikonen för relationsfältet](assets/relationship-field-icon.png).
 
 1. Skapa en kampanj genom att lägga till en ny rad i tabellen från posttypsvyn **Campaign** .
 
 1. Dubbelklicka i kolumnen med projektinformation** i den nya kampanjen.
 
-   ![](assets/connect-projects-smaller-box-in-table.png)
+   ![Koppla projekt till mindre rutor i tabellen](assets/connect-projects-smaller-box-in-table.png)
 
 1. Gör något av följande:
 
@@ -196,7 +196,7 @@ Så här gör du:
 
 1. (Villkorligt) Om du klickade på **Visa alla** i föregående steg visas rutan **Anslut objekt** .
 
-   ![](assets/connect-projects-larger-box.png)
+   ![Anslut projekt till större ruta](assets/connect-projects-larger-box.png)
 
 1. Börja skriva namnet på ett projekt i sökrutan och markera det sedan när det visas i listan
 
@@ -214,7 +214,7 @@ Så här gör du:
       * Fältet **Projektinformation** fylls i för Campaign-posten med de valda projekten.
       * Fältet **Planerad intäkt (från produktinformation)** fylls i med budgetvärdet för varje vald produkt. Det här är ett skrivskyddat fält.
 
-   ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![Fältet Projektlänkat och Planerad intäkt i kampanjtabellen är markerade](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

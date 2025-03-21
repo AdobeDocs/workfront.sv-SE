@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2522'
 ht-degree: 0%
 
 ---
 
 # Redigera problem
 
+<!--Audited: 03/2025-->
+
 Du kan redigera information om problem som du har skapat eller som andra användare har skapat om de delat problemen med dig.
 
 Du kan redigera en enstaka utgåva eller redigera utgåvor i en lista. Mer information om hur du redigerar problem i en lista finns i [Redigera problem i en lista](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -30,19 +34,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> <p>Granska eller högre licens för att redigera problem i avsnittet Problem i en uppgift eller ett projekt</p> </td> 
+   <td> <p>Ny licens:</p>
+   <ul><li>Medarbetare eller högre</li>
+   <li>Ljus eller högre för att redigera problem i avsnittet Problem i en uppgift eller ett projekt</li></ul>
+   <p>Aktuell licens:</p>
+  <ul><li>Begäran eller senare</li> <li>Granska eller högre för att redigera problem i avsnittet Problem i en uppgift eller ett projekt</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till problem</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till problem</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Contribute-behörighet för ett problem om du vill redigera följande fält i området Detaljer: </p>
@@ -56,7 +62,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Begränsningar vid redigering av problem
 
@@ -254,14 +262,9 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
       <tr> 
       <td role="rowheader">Den här lösningen</td> 
       <td>Det länkade namnet på det problem som slutförs när det problem som du försöker få åtkomst till är löst.  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. Klicka på **Spara** eller fortsätt redigera följande avsnitt.

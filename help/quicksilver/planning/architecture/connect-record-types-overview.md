@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Tänk på följande när det gäller att ansluta posttyper:
      >
      >Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i sökfälten, oavsett deras behörigheter eller åtkomstnivå i programmet för de länkade objekttyperna eller deras behörigheter i andra arbetsytor.
 
-     Länkade postfält föregås av en relationsikon ![](assets/relationship-field-icon.png).
+     Länkade postfält föregås av en relationsikon ![Ikon för relationsfält](assets/relationship-field-icon.png).
 
      Länkade fält föregås av en ikon som anger fälttypen. Länkade (eller uppslag) fält föregås av ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
 
@@ -118,7 +118,7 @@ Beroende på hur många poster du kan lägga till i ett anslutet postfält kan d
 
 ### Anslutningstyp för många-till-många
 
-![](assets/many-to-many-connection-picker.png)
+![Många till många anslutningsväljare](assets/many-to-many-connection-picker.png)
 
 När du skapar en många-till-många-anslutning mellan posttyper kan du sedan välja flera poster i anslutningsfältet från båda posttyperna.
 
@@ -130,7 +130,7 @@ När du väljer den här anslutningstypen kan du inte ändra anslutningstypen ef
 
 ### Anslutningstyp en till många
 
-![](assets/one-to-many-connection-picker.png)
+![En till många anslutningsväljare](assets/one-to-many-connection-picker.png)
 
 
 När du skapar en en en-till-många-anslutning mellan posttyper kan du sedan markera flera poster i anslutningsfältet i den aktuella posttypen, men det motsvarande anslutningsfältet i den posttyp som du ansluter till tillåter bara att du väljer en post. Det anslutna postfältet som skapas automatiskt för den andra posttypen ställs automatiskt in på en många-till-ett-relationstyp.
@@ -143,7 +143,7 @@ När du väljer den här anslutningstypen kan du senare bara ändra den till en 
 
 ### Anslutningstyp för många-till-ett
 
-![](assets/many-to-one-connection-picker.png)
+![Många till en anslutningsväljare](assets/many-to-one-connection-picker.png)
 
 
 När du skapar en många-till-en-anslutning mellan posttyper kan du sedan koppla varje post i den aktuella posttypen med endast en post från den anslutna posttypen. Det anslutna postfältet som skapas automatiskt för den andra posttypen ställs automatiskt in på en 1:N-relationstyp.
@@ -156,7 +156,7 @@ När du väljer den här anslutningstypen kan du senare bara ändra den till en 
 
 ### En-till-en-anslutningstyp
 
-![](assets/one-to-one-connection-picker.png)
+![En till en anslutningsväljare](assets/one-to-one-connection-picker.png)
 
 När du skapar en en en-till-en-anslutning mellan posttyper kan du i båda posttyperna koppla varje post endast till en post från den andra posttypen.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,15 @@ OLD:
    Arbetsytans sida öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll muspekaren över kortet för en posttyp och klicka på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Redigera**
+   * Håll muspekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Redigera**
 eller
-   * Klicka på ett posttypskort för att öppna posttypssidan, klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Redigera**.
+   * Klicka på ett posttypskort för att öppna posttypssidan, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Redigera**.
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
 1. I rutan **Redigera posttyp** öppnas fliken **Utseende** som standard.
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![Redigera flik för posttypsrutans utseende ](assets/edit-record-type-box-appearance-tab.png)
 
    Uppdatera följande information på fliken **Utseende**:
 
@@ -179,7 +179,7 @@ eller
 
 1. (Villkorligt) Om du är systemadministratör klickar du på fliken **Avancerade inställningar** i rutan **Redigera posttyp** .
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Fliken Redigera posttypsruta för avancerade inställningar](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. (Villkorligt) Som systemadministratör uppdaterar du följande information på fliken **Avancerade inställningar**:
 
@@ -189,10 +189,10 @@ eller
 
 1. Klicka på **Spara**.
 
-   Posttypkortet på arbetsytan visar en anslutningsikon ![](assets/connect-from-other-workspaces-icon.png) i det övre högra hörnet för att ange att posten nu är tillgänglig från andra arbetsytor.
+   Posttypkortet på arbetsytan visar en anslutningsikon ![Anslut från andra arbetsytor-ikon](assets/connect-from-other-workspaces-icon.png) i det övre högra hörnet för att ange att posten nu är tillgänglig från andra arbetsytor.
 
 1. (Valfritt) Klicka på posttypskortet i arbetsytan för att öppna posttypens sida och byt sedan namn på posttypen i rubriken.
 
 1. (Valfritt) Om du vill redigera en annan posttyp expanderar du den nedåtriktade pilen till höger om ett posttypsnamn, söker efter en posttyp och markerar den när den visas i listan.
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![Listrutan Posttyp på posttypssidan med sökrutan](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

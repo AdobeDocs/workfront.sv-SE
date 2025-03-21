@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -172,12 +172,12 @@ OLD:
 1. (Valfritt) Klicka på **Visa färre** om du vill begränsa antalet arbetsytor som visas på skärmen.
 1. Gör något av följande om du vill ta bort en arbetsyta:
 
-   * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![](assets/more-menu.png) i kortets övre högra hörn
+   * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
 eller
-   * Klicka på ett arbetsytekort för att öppna arbetsytan och klicka sedan på menyn **Mer** ![](assets/more-menu.png) till höger om arbetsytans namn.
+   * Klicka på ett arbetsytekort för att öppna arbetsytan och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) till höger om arbetsytans namn.
 1. Klicka på **Ta bort**.
 
-   ![](assets/permanently-delete-workspace-confirmation.png)
+   ![Bekräftelse av borttagning av arbetsyta permanent](assets/permanently-delete-workspace-confirmation.png)
 
 1. Skriv **delete** i det angivna utrymmet och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 

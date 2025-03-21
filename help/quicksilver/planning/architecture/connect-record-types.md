@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2407'
 ht-degree: 0%
 
 ---
@@ -187,13 +187,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Klicka på ikonen **+** i tabellvyns övre högra hörn och klicka sedan på fliken **Ny anslutning** .
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Ny anslutningsflik med alternativ för Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. I fältet **Posttyp** söker du efter en posttyp eller väljer något av följande:
 
    * En annan posttyp från den aktuella arbetsytan
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Många till många anslutningsväljare](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Ny anslutning som tillåter flera poster, ruta](assets/new-connection-allow-multiple-records-box.png)
 
    * Ett **projekt, Portfolio, program, företag** eller **grupp** från avsnittet **Workfront-objekttyper**.
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Val av projektanslutning för Workfront](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets** från avsnittet **Adobe-program**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![Val av AEM Assets-anslutning](assets/aem-assets-connection-selection.png)
 
 1. Uppdatera följande information:
 
@@ -233,7 +233,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      Det här alternativet är endast tillgängligt när du ansluter poster från två olika arbetsytor eller en post och ett Adobe Experience Manager-resursobjekt.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Ny anslutning som tillåter flera poster, ruta](assets/new-connection-allow-multiple-records-box.png)
 
    * **Anslutningstyp**: Välj ett av följande alternativ för att ange hur många poster de kan ansluta till och från:
 
@@ -244,7 +244,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      Det här alternativet är endast tillgängligt när du ansluter poster från samma arbetsyta eller en post och en Workfront-objekttyp.
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Många till många anslutningsväljare](assets/many-to-many-connection-picker.png)
 
      Mer information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -303,7 +303,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Klicka på ikonen **-** för att ta bort fält från området **Markerade fält**
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![Lägg till sökfält för en annan posttypsruta](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    Värdena för de anslutna fälten fylls i automatiskt när du länkar poster eller objekt.
 
@@ -328,7 +328,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >    Du måste välja ett aggregeringsvärde när du lägger till sökdatumfält om du vill att fälten ska vara tillgängliga för att lägga till som start- och slutdatum för tidslinjen och kalendervyer. Du kan till exempel välja MAX eller MIN-aggregering för ett datumsökningsfält.
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![Listrutan Aggregator för det länkade nummerfältet](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 
@@ -385,7 +385,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * **Redigera fält**: Uppdatera informationen för fältet **Namn** och **Beskrivning**.
    * **Redigera sökfält**: Lägg till eller ta bort fält för den länkade posten.
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![Listrutan Redigera fält och uppslagsfält i tabellkolumnen](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    Följ instruktionerna i steg 16-17 ovan för att lägga till eller ta bort uppslagsfält. <!--ensure these step numbers stay accurate-->
 

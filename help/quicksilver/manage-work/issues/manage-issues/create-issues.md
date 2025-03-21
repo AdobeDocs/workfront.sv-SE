@@ -8,14 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
 
 # Skapa problem
+
+<!--Audited: 03/2025-->
 
 <!--
 
@@ -46,25 +48,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller senare om du vill lägga till problem i ett projekt eller en uppgift</p> <p>Begär eller högre för att lägga till problem som begäranden med hjälp av en frågekö.</p> </td> 
+   <td> <p>Ny licens:</p>
+   <ul><li>Medarbetare eller högre</li>
+   <li>Ljus eller högre för att redigera problem i avsnittet Problem i en uppgift eller ett projekt</li></ul>
+   <p>Aktuell licens:</p>
+  <ul><li>Begäran eller senare</li> <li>Granska eller högre för att redigera problem i avsnittet Problem i en uppgift eller ett projekt</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till problem</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter med möjlighet att lägga till problem i den uppgift eller det projekt där du skapade problemet</p> <p> Mer information om att bevilja behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörigheter med möjlighet att lägga till problem i den uppgift eller det projekt där du skapade problemet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,76 +87,30 @@ När du har rätt behörighet och behörighet kan du skapa problem i ett projekt
 
 ## Förbered formuläret för nytt problem
 
-Organisationen bör ha en väldefinierad process för när och hur ett problem ska registreras. När du konfigurerar den här processen är det första steget att skapa det formulär som behövs för att skicka in ett ärende. Oavsett om du vill tillåta att utgåvor läggs till direkt i uppgifter och projekt, eller om du har frågeköer där utgåvor skickas, kan du definiera vilka Workfront-fält och vilka anpassade fält som är tillgängliga för användare när de skickar nya utgåvor och måste fyllas i. Formuläret Nytt problem kan innehålla viktig information som kan vara till hjälp när du snabbt vill lösa problemet.
+Organisationen bör ha en väldefinierad process för när och hur ett problem ska registreras. När du konfigurerar den här processen är det första steget att skapa det formulär som behövs för att skicka in ett ärende.
 
-Fälten för de nya problemen i ett projekt definieras i avsnittet Köinformation i projektet där problemen loggas. Mer information om hur du konfigurerar avsnittet Köinformation i projektet finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Användare kan lägga till problem i ett projekt på följande sätt:
+
+* Lägg till dem direkt i uppgifter och projekt.
+* Skicka dem till en begärandekö.
+
+Formuläret Nytt problem kan innehålla viktig information som kan vara till hjälp när du snabbt vill lösa problemet.
+
+Du kan konfigurera formuläret Nytt problem så att det innehåller följande information när användare lägger till problem i projektet eller dess uppgifter:
+
+* Anpassade fält
+* Godkännanden
+* Uppdrag (hanteringsregler)
+
+Fälten för nya utgåvor eller förfrågningar definieras i avsnittet Köinformation i projektet där problemen loggas.
+
+Mer information om hur du konfigurerar avsnittet Köinformation i projektet finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Mer information om hur du skapar problem genom att skicka dem till en begärandekö finns i avsnittet [Skapa problem genom att ange en ny begäran](#create-issues-by-entering-a-new-request) i den här artikeln.
 
 ## Skapa problem i en uppgift eller ett projekt med knappen Nytt problem
 
 När du har definierat fälten för ett nytt utgivningsformulär i ditt projekt kan du börja skapa problem.
-
-<!-- OLD UI: redesigned on Oct 26, 2023:
-
-Creating issues differs depending on which environment you choose to create the issue. 
-
-### Create issues on a task or project using the New Issue button in the Production environment
-
-To create an issue on a task or a project:
-
-1. Go to a project where you want to create the issue. 
-1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
-1. Click the **Issues** section.
-
-   
-1. Click **New Issue**.
-
-  
-
-1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
-   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
-
-   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
-
-   * If there is only one Queue Topic set on the project, it is displayed automatically.
-   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
-
-1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
-
-   * Bug Report
-   * Change Order
-   * Issue
-   * Request  
-     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
-
-   >[!TIP]
-   >
-   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
-   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
-
-
-1. Add a name for the new issue in the **Issue Name** field. 
-1. Continue specifying the fields available in the **New Issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
-
-   >[!IMPORTANT]
-   >
-   >Not all the issue-related fields are available in the New Issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
-
-
-1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
-   Or  
-   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, after the default Workfront fields.
-
-   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-
-1. Click **Save New Issue.**
-
-Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
--->
 
 Så här skapar du ett problem för en aktivitet eller ett projekt:
 
@@ -247,7 +207,7 @@ Så här skapar du interna utgåvor:
 
 ## Skapa problem genom att ange en ny begäran {#create-issues-by-entering-a-new-request}
 
-Du kan ange projekt som mottagare för att ta emot ärenden. Den här typen av projekt kallas frågeköer i Workfront. Du kan öppna Begäranköer via området Förfrågningar på huvudmenyn.
+Du kan ange projekt som mottagare för att ta emot ärenden. Den här typen av projekt kallas frågeköer i Workfront. Du kan öppna Begärandeköer från området Förfrågningar på huvudmenyn.
 
 >[!TIP]
 >

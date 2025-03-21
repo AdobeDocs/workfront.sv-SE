@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ När någon delar en länk till en arbetsyta eller en vy där du inte har tillg�
 
    En **Du har inte åtkomst**-sida visas som informerar dig om att du inte har åtkomst till vyn eller arbetsytan.
 
-   ![](assets/request-access-to-view.png)
+   ![Begär åtkomst för visning](assets/request-access-to-view.png)
 
 1. (Villkorligt) Om den delade länken är för en vy för en arbetsyta där du har åtkomst klickar du på **Öppna med befintlig vy**. Om du har behörighet att komma åt arbetsytan öppnas posttypssidan i standardvyn.
 
@@ -126,8 +126,8 @@ När någon delar en länk till en arbetsyta eller en vy där du inte har tillg�
 
    Alla användare med behörigheten Hantera för vyn eller arbetsytan får följande meddelanden om åtkomstbegäran:
    * Ett meddelande i appen
-     ![](assets/in-app-notification-for-access-request.png)
+     ![Meddelande i programmet om åtkomstbegäran](assets/in-app-notification-for-access-request.png)
    * Ett e-postmeddelande
-     ![](assets/email-notification-for-access-request.png)
+     ![E-postmeddelande om åtkomstbegäran](assets/email-notification-for-access-request.png)
 
 1. (Villkorligt) När arbetsytehanteraren ger dig behörighet till vyn eller arbetsytan får du ett e-postmeddelande och ett meddelande i appen med en bekräftelse på att behörighet har beviljats. <!--check this - I was not able to test this, but Isk confirmed.-->

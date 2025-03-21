@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
 # Redigera och skapa risktyper
+
+<!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -46,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
    <td><p>Nytt: [!UICONTROL Standard]</p>
    eller
    <p>Aktuell: [!UICONTROL Plan]</p>
@@ -59,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,10 +97,9 @@ Du kan göra följande för att öka antalet risktyper i din Workfront-instans:
 
    >[!TIP]
    >
-   >   Du kan redigera risktypsinformation infogat när du dubbelklickar på Namn eller Beskrivning för en risktyp i listan.
+   >   Du kan redigera risktypsinformation infogat när du dubbelklickar på Namn eller Beskrivning för en risktyp i en lista över risktyper.
 
 1. (Valfritt) Ändra namn och beskrivning av risktypen.
-
 
    Det finns en teckengräns på 50 tecken för fälten **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 
@@ -130,7 +131,7 @@ Du kan skapa risktyper, förutom de som är standard.
    eller
 
    Klicka på [!UICONTROL **Lägg till fler risktyper**] i det nedre vänstra hörnet av listan över risktyper om du vill lägga till risktyper. <!--add screen shot-->
-1. Ange **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för risktypen.
+1. Lägg till **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för risktypen.
 
    Det finns en teckengräns på 50 tecken för fälten **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 

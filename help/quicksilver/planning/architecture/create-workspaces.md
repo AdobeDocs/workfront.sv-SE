@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
 
    Det finns en indikation på vilka operativa posttyper, taxonomier och hur många fält som är associerade med varje mall.
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![Förhandsgranska en arbetsytemall](assets/previewing-a-workspace-template.png)
 
    Mer information om mallar för arbetsytan i Workfront Planning finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
 
@@ -201,7 +201,7 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
 
    eller
 
-   Håll namnet på ett avsnitt, klicka på menyn **Mer** ![](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn på avsnittet.
+   Håll namnet på ett avsnitt, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn på avsnittet.
 
    >[!TIP]
    >

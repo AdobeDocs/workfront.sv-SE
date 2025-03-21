@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 0%
 
 ---
@@ -1106,9 +1106,16 @@ Att lägga till följande objekt i en mall är detsamma som att lägga till dem 
 
   Mer information om hur du lägger till utgifter finns i [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
+* Köinformation
+
+  Mer information om hur du lägger till köinformation i ett projekt eller en mall finns i [Skapa en frågekö](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 * Ämnesgrupper och Köämnen
 
-  Mer information om hur du lägger till ämnesgrupper och ämnen i kön till ett projekt eller en mall finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Mer information om hur du lägger till ämnesgrupper och ämnen i kön till ett projekt eller en mall finns i följande artiklar:
+
+   * [Skapa ämnesgrupper](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Skapa köämnen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Du kan lägga till följande objekt till uppgifterna i mallen:
 

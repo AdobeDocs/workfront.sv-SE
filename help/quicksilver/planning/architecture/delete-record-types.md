@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -186,9 +186,9 @@ OLD:
 1. Gör något av följande:
 
    * Håll markören över posttypkortet, klicka på menyn **Mer** och sedan på **Ta bort**.
-   * Klicka på kortet för den posttyp som du vill ta bort, och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn på posttypssidan. Klicka sedan på **Ta bort**.
+   * Klicka på kortet för den posttyp som du vill ta bort och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn på posttypssidan och klicka sedan på **Ta bort**.
 
-   ![](assets/permanently-delete-record-type-confirmation.png)
+   ![Ta bort posttypsbekräftelse permanent](assets/permanently-delete-record-type-confirmation.png)
 
 1. Skriv **delete** i bekräftelserutan och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 

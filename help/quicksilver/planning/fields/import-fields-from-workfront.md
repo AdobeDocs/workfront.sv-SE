@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -169,11 +169,11 @@ Alla andra Workfront-fälttyper stöds inte i Workfront Planning.
    Håll markören över en kolumnrubrik, klicka på den nedåtriktade pilen efter fältnamnet och klicka sedan på **Infoga vänster** eller **Infoga höger** för att lägga till det nya fältet.
 1. Klicka på **Lägg till befintlig** i det nedre högra hörnet på fliken **Nytt fält**. <!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![Lägg till befintliga fält från Workfront modal](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Börja skriva namnet på ett befintligt Workfront-fält i sökområdet och klicka sedan på **+** när det visas i listan.
 1. (Valfritt) Skriv ett annat fält och klicka sedan på **+** när det visas i listan.
-1. (Valfritt) Klicka på ikonen **Filter** ![](assets/filters-in-import-fields-icon.png) och uppdatera sedan ett eller båda av följande fält:
+1. (Valfritt) Klicka på ikonen **Filter** ![Filter i importfältikonen](assets/filters-in-import-fields-icon.png) och uppdatera sedan ett eller båda av följande fält:
 
    * Objekttyp: Markera en Workfront-objekttyp vars fält du vill importera.
    * Anpassat formulär: Välj ett eller flera anpassade formulär från Workfront. Du kan välja ett anpassat formulär utan att först markera en objekttyp.

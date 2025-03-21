@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
-
 
 # Arbetsytor - översikt
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 En arbetsyta är en samling posttyper som används av en organisationsenhet och den representerar enhetens arbetslivscykel och processer. Du kan anpassa arbetsytorna helt i Adobe Workfront Planning.
 
 
-![](assets/workspaces-landing-page-admin-account.png)
+![Administrationskonto för startsida för arbetsytor](assets/workspaces-landing-page-admin-account.png)
 
 ## Att tänka på när det gäller arbetsytor
 
@@ -56,6 +56,3 @@ En arbetsyta är en samling posttyper som används av en organisationsenhet och 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Det finns begränsningar för hur många arbetsyteobjekt du kan skapa i Workfront Planning. Mer information finns i [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md).
-
-
-
