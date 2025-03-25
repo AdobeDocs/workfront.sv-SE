@@ -6,9 +6,9 @@ description: Du kan återställa ditt [!DNL Adobe Workfront] lösenord. Som en v
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: 00930d520a6421a33ebe7c4842b59b9df514080b
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -77,10 +77,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Skriv ditt gamla lösenord och skriv sedan det nya lösenordet två gånger.
 
-   Lösenordet måste innehålla minst 8 tecken och innehålla två <!--of each-->av följande typer av tecken:
+   Lösenordet måste innehålla minst 8 tecken och innehålla två av följande typer av tecken:
 
-   <!--* Uppercase letters
-   * Lowercase letters-->
+   * Versaler
+   * Gemener
    * Bokstäver
    * Nummer
    * Specialtecken (som ! @ # $ %)
