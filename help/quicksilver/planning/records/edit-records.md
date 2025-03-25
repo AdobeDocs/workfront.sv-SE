@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
 1. Klicka inuti en post för att börja redigera information om den infogade posten.
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![Redigera postens styckefält med formateringstabellvy](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
    * Lägga till en punktlista
    * Lägga till en numrerad lista
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![RTF-verktygsfält i styckefält](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (Valfritt) Dubbelklicka på ett kopplat postfält för att lägga till kopplade poster eller objekt till en annan post. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 1. Tryck på **Enter** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. En **sparad**-indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
@@ -240,7 +240,7 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
    * Kopiera informationen från en cell, markera flera celler och klistra in samma information i flera celler. Du kan markera flera celler och klistra in samma information i flera celler från närliggande rader och kolumner.
    * Markera det nedre högra hörnet i en befintlig cell som innehåller den information som du vill kopiera och dra och släpp den sedan över de angränsande cellerna där du vill klistra in samma information. Alla celler måste innehålla samma typ av information.
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![Dra i det nedre högra hörnet för att kopiera och klistra in i tabellvy](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    eller
 
-   Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen i tabellvyn. Postens förhandsgranskning öppnas i vyn.
+   I tabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljer i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen. Postens förhandsgranskning öppnas i vyn.
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![Informationsruta](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
 1. (Valfritt) Klicka på **Lägg till omslag** om du vill lägga till en omslagsbild i posten. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Valfritt) Håll pekaren över miniatyrbildikonen och klicka sedan på **Mer** ![](assets/more-menu.png) > **Redigera miniatyrbild** för att lägga till en miniatyrbild. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Valfritt) Håll pekaren över miniatyrbildikonen och klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) > **Redigera miniatyrbild** för att lägga till en miniatyrbild. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront sparar automatiskt ändringarna.
 
-1. <span class="preview"> (Valfritt) Klicka på **realtidsindikatorn** ![](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens förhandsvisningsruta och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
+1. <span class="preview"> (Valfritt) Klicka på **realtidsindikatorn** ![Realtidsindikatorikonen](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens förhandsvisningsruta och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
 
    I det här området visas namnen på och avatarerna för alla användare som använder posten samtidigt.
 
@@ -328,13 +328,13 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Indikatorn för heltidsvisning expanderade postförhandsgranskning](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Valfritt) Klicka på menyn **Exportera** ![](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Valfritt) Klicka på **Exportera**-menyn ![Exportikonen på postinformationssidan](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens sidavsnitt](#edit-a-record-from-the-records-page) i den här artikeln.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens sidavsnitt](#edit-a-record-from-the-records-page) i den här artikeln.
 
 ### Redigera en post från postens sida
 
@@ -350,15 +350,15 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
 1. Gör något av följande:
 
-   * Från vilken vy som helst öppnar du postens förhandsgranskning enligt beskrivningen i [Redigera en post från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln och klickar sedan på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
+   * Från vilken vy som helst öppnar du postens förhandsgranskning enligt beskrivningen i [Redigera en post från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln och klickar sedan på ikonen **Öppna i ny flik** ![Öppna information i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
-   * I vyn **Tabell** för du muspekaren över namnet på en post, klickar på menyn **Mer** ![](assets/more-menu.png) och sedan på **Visa**
+   * I vyn **Tabell** för du muspekaren över namnet på en post, klickar på menyn **Mer** ![Mer](assets/more-menu.png) och sedan på **Visa**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Sammanhangsbaserad meny för postrad](assets/contextual-menu-for-record-row.png)
 
      Postsidan öppnas.
 
-     ![](assets/details-page.png)
+     ![Informationssida](assets/details-page.png)
 
 1. (Valfritt) Klicka på menyn **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
 
@@ -378,17 +378,17 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    eller
 
-   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Valfritt) Hovra över en befintlig miniatyrbild eller ikonen **miniatyrbild** ![](assets/record-thumbnail-icon-on-details-page.png) och klicka sedan på menyn **Mer** ![](assets/more-menu.png) > **Redigera miniatyrbild** för att lägga till en miniatyrbild för posten.
+1. (Valfritt) Hovra över en befintlig miniatyrbild eller ikonen **miniatyrbild** ![Spela in miniatyrbildikon på informationssidan](assets/record-thumbnail-icon-on-details-page.png) och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) > **Redigera miniatyrbild** för att lägga till en miniatyrbild för posten.
 
    Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront sparar automatiskt ändringarna.
 
-1. <span class="preview"> (Valfritt) Klicka på **realtidsindikatorn** ![](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens sida och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
+1. <span class="preview"> (Valfritt) Klicka på **realtidsindikatorn** ![Realtidsindikatorikonen](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens sida och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
 
    I det här området visas namnen på och avatarerna för alla användare som använder posten samtidigt.
 
@@ -396,11 +396,11 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Realtidsindikator - ruta för förhandsgranskning av utökad post](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Valfritt) Klicka på menyn **Exportera** ![](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Valfritt) Klicka på **Exportera**-menyn ![Exportikonen på postinformationssidan](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Redigera en post från ett Workfront-objekt i planeringsavsnittet

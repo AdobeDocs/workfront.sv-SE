@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ Du kan inte ändra status för ett projekt till slutfört om du har något av f�
 
 Om slutförandeläget är inställt på Automatiskt för projektet, när alla uppgifter och ärenden är slutförda, ändras projektets status automatiskt till Fullständigt och du kan inte ändra den till någon annan status. Slutförandeläget för projektet måste anges till Manuellt för att ett fullständigt projekt ska kunna ändras till Aktuell. Mer information finns i [Projektstatus ändras inte från Fullständigt till Aktuellt](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
-## Varför kan jag inte lägga till ett projekt i en Portfolio trots att jag har rätt behörighet att göra det?
+## Varför kan jag inte lägga till ett projekt i en Portfolio, även om jag har rätt behörighet att göra det?
 
 Även om jag har rätt behörigheter saknas knappen Lägg till projekt på fliken Projekt i Portfolio.
 
 ### Svar
 
-Detta orsakas av att Portfolio-statusen är inaktiv. Så här ändrar du status för Portfolio:
+Detta beror på att Portfolio-statusen är inaktiv. Så här ändrar du status för Portfolio:
 
-1. Klicka på **Information om Portfolio > Översikt**.
+1. Klicka på **Portfolio Details > Overview**.
 1. Ändra **status** till **Aktiv.**
 
 1. Klicka på **Spara**.\
@@ -99,6 +99,6 @@ Följande är budgetstatus:
 
 Adobe Workfront-administratören har begränsat dig till att endast visa företag, grupper och team som du tillhör på din åtkomstnivå för . Teamet du letar efter är inte ett av de team du tillhör.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![Visa endast team, grupper och företag som de tillhör](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 Mer information om hur du gör det möjligt för en användare att visa alla team i systemet finns i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

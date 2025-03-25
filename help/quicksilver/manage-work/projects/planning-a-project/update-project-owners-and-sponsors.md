@@ -6,9 +6,9 @@ description: När du skapar ett projekt i Adobe Workfront anges du automatiskt s
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ När du lägger till en användare som projektägare i ett projekt får de autom
 
    Projektägaren uppdateras i projekthuvudet och i området Projektinformation.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![Ägaren av projektintressenter har markerats](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Uppdatera projektsponsorn för ett projekt
 
@@ -131,4 +131,4 @@ När du lägger till en användare som projektsponsor för ett projekt får de a
 
    Projektsponsorn uppdateras i området Projektinformation.
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![Sponsorn för projektintressenter har markerats](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

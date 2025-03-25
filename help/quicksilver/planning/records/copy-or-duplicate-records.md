@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -175,13 +175,13 @@ Alla poster av den valda typen visas i vyn.
 
 1. Gör något av följande:
 
-   * Håll muspekaren över namnet på en post och klicka sedan på menyn **Mer** bredvid postnamnet. Klicka sedan på ikonen **Duplicera** ![](assets/duplicate-icon-gray.png) .
+   * Håll muspekaren över namnet på en post och klicka sedan på menyn **Mer** bredvid postnamnet. Klicka sedan på ikonen **Duplicera** ![Duplicera, grå](assets/duplicate-icon-gray.png) .
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     ![Mer meny från post i tabellvy](assets/more-menu-from-record-in-table-view.png)
 
-   * Markera en post och klicka sedan på ikonen **Duplicera** ![](assets/duplicate-icon-white-and-blue.png) i verktygsfältet längst ned på sidan.
+   * Markera en post och klicka sedan på ikonen **Duplicera** ![Duplicera (vit och blå)](assets/duplicate-icon-white-and-blue.png) i verktygsfältet längst ned på sidan.
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![Duplicera ikon i verktygsfältet i tabellvyn](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    En identisk post med samma namn skapas under den ursprungliga posten. Alla fält i den nya posten fylls i med samma information som i den ursprungliga posten.
 

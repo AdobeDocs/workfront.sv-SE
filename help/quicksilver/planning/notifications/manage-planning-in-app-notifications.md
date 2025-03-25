@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -160,9 +160,9 @@ OLD:
 
 ## Hantera meddelanden i appen när någon taggar dig i en kommentar
 
-1. (Villkorligt) När någon har taggat dig i en kommentar för en post går du till ikonen **Notifications** ![](assets/experience-cloud-notifications-icon.png) i appen i Adobe Experience Cloud.
+1. (Villkorligt) När någon taggar dig i en kommentar för en post går du till ikonen **Notifications** ![Experience cloud notifications ](assets/experience-cloud-notifications-icon.png) i Adobe Experience Cloud.
 
-   ![](assets/in-app-notification-example.png)
+   ![Exempel på meddelanden i programmet](assets/in-app-notification-example.png)
 
 1. Klicka på meddelandet.
 

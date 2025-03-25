@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -114,14 +114,14 @@ Posttypssidan öppnas och alla poster av den typen visas.
 1. Klicka i valfri vy på namnet på en post.
 
    Postens sida öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
-1. Klicka på ikonen **Visa historik** ![](assets/show-history-icon.png). Alla ändringar som görs i postens fält visas på den högra panelen, med början från den senaste.
-1. (Valfritt) Klicka på ikonen **Dölj historik** ![](assets/hide-history-icon.png) för att stänga den högra panelen.
+1. Klicka på ikonen **Visa historik** ![Visa historik](assets/show-history-icon.png). Alla ändringar som görs i postens fält visas på den högra panelen, med början från den senaste.
+1. (Valfritt) Klicka på ikonen **Dölj historik** ![Dölj historik](assets/hide-history-icon.png) för att stänga den högra panelen.
 
 ## Överväganden om historikavsnittet
 
 Du kan granska ändringarna som gjorts för postfält i historikavsnittet på den högra panelen på en postsida.
 
-![](assets/history-area-in-comments.png)
+![Historikområde i kommentarer](assets/history-area-in-comments.png)
 
 * Workfront Planning registrerar följande information i historikavsnittet:
 

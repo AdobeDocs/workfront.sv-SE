@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -252,7 +252,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    En ny flik skapas med den valda vyn.
 
-   Beroende på skärmens bredd kan ytterligare vyer visas på menyn **Mer** ![](assets/more-menu.png).
+   Beroende på skärmens bredd kan ytterligare vyer visas på menyn **Mer** ![Mer](assets/more-menu.png).
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 >I annat fall är tidslinjen och kalenderalternativen nedtonade.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Villkorligt) Klicka på **Nästa** när du skapar en tidslinje eller kalendervy.
 
@@ -285,10 +285,10 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 1. Klicka på **Skapa**.
 
    Vyn visas som en ny flik. Vyer visas i den kronologiska ordning som de skapades eller delades med dig.
-1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
+1. (Valfritt) Klicka på **Mer**-menyn ![Fler vyer med nedåtriktade ikoner](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
 
    Ytterligare vyer visas på menyn **Mer** efter fliken för den senaste vyn. Siffran bredvid menyn **Mer** visar antalet ytterligare vyer.
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
 
    eller
 
@@ -315,7 +315,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Håll markören över ett av vynamnen på fliken Visa, klicka sedan på **Mer** ![](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
+1. Håll markören över ett av vynamnen på fliken Visa, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
 Först kan du behöva klicka på **Mer** till vänster om den sista fliken för att hitta vyn som du vill ta bort.
 
 1. Bekräfta genom att klicka på **Ta bort**. <!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ Delningsbehörigheterna för den ursprungliga vyn överförs inte till den dupli
    Posttypssidan öppnas.
 Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Håll pekaren över fliken för den vy du vill duplicera och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Duplicera**.
+1. Håll pekaren över fliken för den vy du vill duplicera och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Duplicera**.
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![Visa mer meny med duplicerat alternativ](assets/view-more-menu-with-duplicate-option.png)
 
 
    Vyn är duplicerad och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.
@@ -362,13 +362,13 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
 1. (Villkorligt) Om andra användare redigerar poster av den markerade typen samtidigt visas deras avatarer i vyns övre högra hörn.
 1. Klicka på listrutan intill avatarerna och välj **Visa medarbetare**. Växlingsknappen är markerad som standard.
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![Visa medarbetare växla mellan markerade](assets/show-collaborators-toggle-selected.png)
 
 1. (Villkorligt) Öppna en tabellvy och det fält som någon annan redigerar markeras i den färg som motsvarar konturen för avataren i tabellvyn.
 
    Om avatarens högdagerfärg är grå redigerade användaren inte posten för mer än 30 sekunder sedan.
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![Tabellfält för realtidsindikator och avataranslutning](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

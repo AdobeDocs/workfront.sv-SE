@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Återställ borttagna poster
 
 1. Gå till posttypssidan där du har tagit bort poster.
-1. Klicka på ikonen **Ångra** ![](assets/undo-icon.png) i det övre högra hörnet av en posttypssidvy och klicka sedan på **Senast borttagen**.
+1. Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) i det övre högra hörnet av en sidvy för en posttyp och klicka sedan på **Senast borttagen**.
 
    Rutan **Nyligen borttagen** visas.
 
-   ![](assets/recently-deleted-box.png)
+   ![Rutan har nyligen tagits bort](assets/recently-deleted-box.png)
 
 1. Markera de poster som du vill ta bort och klicka sedan på **Återställ** > **Återställ**. Du kan markera flera poster.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 * **Workspace**: En samling posttyper som definierar den operativa livscykeln för en viss organisation. En arbetsyta är en arbetsyta i en organisationsenhet.
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![Marknadsföringsarbetsyta med startsida för posttyptaxonomier](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -202,7 +202,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 * **Post**: En instans av en posttyp.
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![Poster markerade i listan över kampanjposttyper](assets/records-highlighted-in-campaign-record-type-list.png)
 
   När du har lagt till en posttyp på en arbetsyta kan du börja lägga till poster av den typen på posttypens sida.
 
@@ -212,7 +212,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 * **Workspace-mall**: Du kan skapa en arbetsyta med fördefinierade mallar. Du kan använda de fördefinierade posttyperna och fälten som finns i en mall eller lägga till egna.
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![Sidan Arbetsytor med mallminiatyrer](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning innehåller följande mallar:
 
@@ -226,7 +226,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 * **Fält**: Fält är attribut som du kan lägga till i posttyper. Fält innehåller information om posttypen. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![Listruta med postfält](assets/drop-down-list-of-record-fields.png)
 
   Att tänka på när det gäller postfält:
 
@@ -274,7 +274,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
      Du måste ha en Adobe Experience Manager-licens för att länka posttyper med Experience Manager-objekt.
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Ny anslutningsflik med alternativ för Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster eller objekt av dessa typer till varandra. Anslutningen mellan posterna visas som ett anslutet postfält eller en anslutning.
@@ -283,7 +283,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objekttyp kan du visa budgetfältet för anslutna projekt på kampanjposterna.
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![Lägg till uppslagsfältruta](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 * **Vyer**: Poster visas under respektive posttypssida i olika typer av vyer.
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)
 
   Vyer innehåller anpassade inställningar för en viss vytyp, till exempel listan med fält (kolumner), en lista med poster (rader), deras ordning (sortering), ett tillämpat eller tillämpligt filter och en gruppering.
 
@@ -311,14 +311,14 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
    * **Tabellvy**: Visar poster och deras fält, inklusive anslutna fält och uppslagsfält, i ett tabellformat. Raderna i tabellen är de enskilda posterna och kolumnerna är postfälten. Tabellvyn är standardvy.
 
-     ![](assets/table-view-example.png)
+     ![Exempel på tabellvy](assets/table-view-example.png)
 
    * **Tidslinjevy**: Visar poster som har minst två datumtypsfält på en kronologisk tidslinje. Du kan visa upp till 5 anslutna posttyper och deras poster i tidslinjevyn.
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![Gruppering används i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)
 
    * **Kalendervy**: Visar poster som har minst två datumtypsfält i ett kalenderformat.
-     ![](assets/calendar-view-example.png)
+     ![Exempel på kalendervy](assets/calendar-view-example.png)
 
 
 Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
@@ -333,11 +333,11 @@ Så här hittar du Workfront Planning:
 
 {{step1-click-main-menu}}
 
-1. Klicka på **Planering** ![](assets/planning-icon.png).
+1. Klicka på **Planering** ![Planeringsikonen](assets/planning-icon.png).
 
    Huvudsidan för Workfront Planning öppnas.
 
-   ![](assets/planning-landing-page-admin.png)
+   ![Administratör för landningssida för planering](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

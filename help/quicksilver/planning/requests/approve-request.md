@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -141,20 +141,20 @@ Så här godkänner du en begäran:
 
 1. Gör något av följande:
 
-   * Om du har tillgång till Workfront Planning och kan visa minst en arbetsyta klickar du på **Huvudmeny** ![](assets/dots-menu.png) i skärmens övre högra hörn, eller på **Huvudmeny** ![](assets/lines-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klickar sedan på **Begäranden** > **Skickat** > **Planering** och sedan på begäran med statusen **Väntande granskning** eller **Under granskning** .
+   * Om du har tillgång till Workfront Planning och kan visa minst en arbetsyta klickar du på **Huvudmeny** ![Huvudmeny för punkter](assets/dots-menu.png) i skärmens övre högra hörn, eller på **Huvudmeny** ![Huvudmenyn för rader](assets/lines-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klickar sedan på **Förfrågningar** > **Skickade** > **Planera** och klicka på begäran med statusen **Väntande granskning** eller **Under granskning** .
 
      >[!TIP]
      >
      >Om du inte har tillgång till Workfront Planning, eller om du inte har åtkomst till att visa några arbetsytor, kan du bara få åtkomst till en begäran om att godkänna den via e-post eller meddelanden i appen.
 
-   * Klicka på **områdesikonen** ![](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn och klicka på meddelandet om en begäran som väntar på ditt godkännande för att öppna begäran.
+   * Klicka på ikonen för området **Meddelanden** ![Meddelanden i det enhetliga gränssnittet](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn och klicka på meddelandet om en begäran som väntar på ditt godkännande för att öppna begäran.
    * Gå till e-postmeddelandet i ditt e-postmeddelande som meddelar dig om en begäran som väntar på ditt godkännande och klicka sedan på **Öppna begäran** för att öppna begäran. <!--add the name of the button here, from the email-->
 
    Förfrågningssidan öppnas i skrivskyddat läge.
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![Skrivskyddad begärandesida med granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (Valfritt) Klicka på ikonen **Godkännanden** ![](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
+1. (Valfritt) Klicka på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande: <!--did they fix the button and removed the &??-->
 
    * **Godkänn**: Detta godkänner begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret efter att alla godkännare har godkänt begäran.

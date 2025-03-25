@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -196,9 +196,9 @@ Arbetsytan som du senast öppnade öppnas.
 
    eller
 
-   Håll markören över en posts namn, klicka på menyn **Mer** ![](assets/more-menu.png) och klicka sedan på **Kopiera länk**.
+   Håll markören över en posts namn, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Kopiera länk**.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![Sammanhangsbaserad meny för postrad](assets/contextual-menu-for-record-row.png)
 
    Länken kopieras till Urklipp.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -169,13 +169,13 @@ OLD:
 ## Hantera meddelandeinställningar
 
 1. Logga in på Workfront med dina Adobe Experience Cloud-uppgifter.
-1. Klicka på ikonen **kontomeny** ![](assets/account-menu-icon-on-experience-cloud.png) i skärmens övre högra hörn och klicka sedan på **Inställningar**.
+1. Klicka på ikonen **kontomeny** ![Konto-meny på Experience Cloud](assets/account-menu-icon-on-experience-cloud.png) i skärmens övre högra hörn och klicka sedan på **Inställningar**.
 1. Klicka på **Workfront** under avsnittet **Meddelanden**.
 1. Markera de meddelanden som du vill ta emot.
 eller
 Avmarkera de meddelanden som du vill sluta ta emot.
 
-   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   ![Adobe Experience Cloud-meddelandepanel för Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Följande meddelanden är tillgängliga för Workfront:
 
    * **Meningar**: Du får ett meddelande när någon taggar dig i en kommentar i Workfront Planning

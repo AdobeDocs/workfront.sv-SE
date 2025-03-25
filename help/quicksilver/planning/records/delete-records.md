@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -124,18 +124,18 @@ Du kan ta bort en post från följande områden:
 1. Gör något av följande:
 
    * Klicka på en posts namn i en tabellvy.
-   * Håll markören över namnet på en post i tabellvyn, klicka på menyn **Mer** ![](assets/more-menu.png) och sedan på **Visa**
+   * Håll markören över namnet på en post i tabellvyn, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Visa**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Sammanhangsbaserad meny för postrad](assets/contextual-menu-for-record-row.png)
    * Klicka på ett postfält i en tidslinjevy.
 
    Postsidan öppnas.
 
-1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![Fler menyalternativ från postinformationssidan](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Posten tas bort.
-1. (Valfritt och villkorligt) Om du tar bort posten i förhandsvisningsmiljön går du till postsidans tabellvy och klickar på ikonen **Ångra** ![](assets/undo-icon.png) i vyns övre högra hörn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
+1. (Valfritt och villkorligt) Om du tar bort posten i förhandsvisningsmiljön går du till postsidans tabellvy och klickar på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) i vyns övre högra hörn. Klicka sedan på **Senast borttagen** för att återställa de borttagna posterna.
 
 Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -156,17 +156,17 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 1. Gör något av följande:
 
    * Högerklicka på en postrad och klicka sedan på **Ta bort**.
-   * Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
+   * Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**.
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Sammanhangsbaserad meny för postrad](assets/contextual-menu-for-record-row.png)
 
-   * Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) för att öppna rutan med postens detaljerade information, och klicka på **Mer** ![](assets/more-menu.png) till höger om postnamnet och sedan på **Ta bort**.
+   * Klicka på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) för att öppna rutan med postens detaljerade information. Klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) till höger om postnamnet och sedan på **Ta bort**.
 
    Posten tas bort.
 
 1. (Valfritt) Gör något av följande om du vill ångra eller göra om borttagning av en post:
 
-   * Klicka på ikonen **Ångra** ![](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Klicka på ikonen **Ångra** ![Ångra ](assets/undo-icon.png) och sedan på **Senast borttagen** för att återställa de borttagna posterna. Mer information om hur du återställer borttagna poster finns i [Återställa borttagna poster](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Använd följande kortkommandon för att ångra eller göra om borttagning av en post:
 
       * CTRL + Z ( ⌘ + Z för Mac) för att ångra borttagning av en post

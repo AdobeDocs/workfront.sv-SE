@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Så här ändrar du delningen av ett begärandeformulär:
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Uppdatera begärandeformuläret**.
+1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Uppdatera begärandeformuläret**.
 1. Klicka på **Dela** i skärmens övre högra hörn och uppdatera delningsalternativen. Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Valfritt) Klicka på **Kopiera länk** om du har ändrat delningen av begärandeformuläret och vill dela det med den nya gruppen med personer med en ny länk.
 
@@ -142,10 +142,10 @@ När ett begärandeformulär blir irrelevant och du inte längre vill att någon
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Uppdatera begärandeformuläret**.
+1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Uppdatera begärandeformuläret**.
 1. Klicka på **Avpublicera** i det övre högra hörnet.
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![Avpubliceringsknappen är markerad](assets/unpublish-button-highlighted.png)
 
    En bekräftelse visas längst ned på skärmen som meddelar att formuläret har avpublicerats.
 

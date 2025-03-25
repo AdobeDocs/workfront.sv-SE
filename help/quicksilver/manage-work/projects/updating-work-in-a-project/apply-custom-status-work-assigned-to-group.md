@@ -6,9 +6,9 @@ description: Om ett projekt är associerat med en grupp kan du använda både sy
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ När du uppdaterar gruppen för ett projekt ändras alternativen som är tillgä
    >Om du väljer en annan grupp i den nedrullningsbara menyn **Grupp** ändras de anpassade statusarna på menyn **Status** automatiskt så att de korrelerar med den nya gruppen.
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Listrutan Status utökad med anpassade statusvärden för projektet](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Välj status för projektet. De anpassade statusvärden som du skapade och tillämpade på den gruppen visas i listan.

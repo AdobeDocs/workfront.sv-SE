@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2932'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Så här hanterar du en tabellvy:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/table-view-example.png)
+   ![Exempel på tabellvy](assets/table-view-example.png)
 
 1. (Valfritt) Klicka på **Radhöjd** och välj sedan bland följande alternativ för att ändra höjden på tabellraderna:
    * Kort
@@ -209,7 +209,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    * Klicka på **Fält** i tabellens verktygsfält, dra och släpp fälten i önskad ordning och klicka sedan utanför rutan **Fältens synlighet och ordning** för att stänga den.
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Fältinställningstabellens verktygsfält utökat](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 1. (Valfritt) Håll markören över ett fältnamn i kolumnrubriken för ett fält som inte visas i den första kolumnen i tabellen, klicka på nedåtpilen till höger om fältnamnet och klicka sedan på **Ange som primärt fält**.
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![Ange som primärt fält i tabellvyn](assets/set-as-primary-field-option-table-view.png)
 
 1. Bekräfta genom att klicka på **Ange fält**.
 
@@ -253,9 +253,9 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Sökruta med resultatblå kontur i tabellvyn](assets/search-box-with-results-blue-outline-table-view.png)
 
       Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
 
@@ -284,7 +284,7 @@ Du kan ha upp till 50 000 poster (eller rader) för posttypen S.
 
    Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp **handtagsikonen** ![](assets/handle-icon.png) till vänster om posten för att ordna om raderna.
+1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp ikonen **handle** ![Handle icon](assets/handle-icon.png) till vänster om posten för att ändra ordning på raderna.
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ Så här lägger du till ett filter i en tabellvy:
 
    * Välj ett värde för det markerade fältet.
 
-   ![](assets/filter-ui-table-view.png)
+   ![Filtrera gränssnittstabellvy](assets/filter-ui-table-view.png)
 
    Det finns ingen gräns för hur många filtreringsvillkor du kan lägga till.
 
@@ -408,7 +408,7 @@ Så här lägger du till ett filter i en tabellvy:
 
    1. (Valfritt) Lägg till ytterligare **AND**- eller **OR**-operatorer mellan flera villkorsgrupperingar.
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![Filter med flera nivåer i vyer](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ Så här lägger du till en gruppering:
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klicka på **Gruppering** i tabellvyns övre högra hörn.
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![Gruppera gränssnittstabellvy med länkade fält](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält**, sök efter ett annat fält och klicka sedan på det när det visas i listan.
 
@@ -456,7 +456,7 @@ Så här lägger du till en gruppering:
 
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
 
 1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
@@ -499,7 +499,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på ikonen **Sortera** ![](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![Sortera ](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 
@@ -523,7 +523,7 @@ Så här sorterar du <!--ungrouped (add this when sorting for groupings will be 
 
 1. Klicka utanför rutan **Sortera poster efter** för att stänga den.
 
-   ![](assets/sorting-in-table-view.png)
+   ![Sortering i tabellvy](assets/sorting-in-table-view.png)
 
    Den information som visas i tabellen sorteras efter de valda villkoren.
 

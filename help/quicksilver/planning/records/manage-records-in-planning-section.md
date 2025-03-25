@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 0%
 
 ---
@@ -166,12 +166,12 @@ Objektets sida öppnas i Workfront.
       * Namnet på det anslutna postfältet så som det visas i Workfront Planning.
    * Poster visas under respektive arbetsyta och posttyp.
 
-   ![](assets/planning-section-on-project.png)
+   ![Planeringsavsnitt i projekt](assets/planning-section-on-project.png)
 
 1. (Valfritt) Klicka på **Visa alla anslutningar** om du vill visa alla anslutna posttyper, inklusive de utan anslutna poster. Som standard visas inte posttyper utan kopplade poster.
 1. Klicka på ett postkort om du vill visa mer information om posten. Postens förhandsvisningsruta visas.
 1. (Valfritt) Börja ändra fält i postens förhandsvisningsruta. Ändringarna sparas automatiskt.
-1. (Valfritt) Klicka på ikonen **Öppna på en ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida. Postens informationssida öppnas i Workfront Planning.
+1. (Valfritt) Klicka på ikonen **Öppna på en ny flik** ![Öppna detaljer på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida. Postens informationssida öppnas i Workfront Planning.
 1. (Valfritt) Hovra över ett postkort, klicka på ikonen för att koppla från post **-** och klicka sedan på **Koppla från**.
 Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
@@ -242,7 +242,7 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
 
 1. Klicka i fältet för att lägga till kopplade poster och klicka sedan på nedåtpilen i fältet för att välja poster från listan.
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![Planerar anslutningsfält i projekt med en postlista öppen](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
    >
    >Det finns en indikation på att objektet i fältet och det markerade objektet inte matchar.
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![Varning om ett objekt som inte stöds i fältet Planning Connection i formuläret](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
 1. Klicka utanför listan för att stänga den.
 
@@ -263,13 +263,13 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
    * Värdena för Workfront sökfält som är kopplade till Planning-posten fylls i i Workfront Planning.
    * <span class="preview">Om din Workfront- eller gruppadministratör lade till postsökningsfält när de skapade det anpassade formuläret fylls postens sökfält i automatiskt i i en tabellvy. Tabellvyn i planeringsanslutningsfältet är skrivskyddad</span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![Planerar anslutningsfält med register i anpassat formulär för projektinformation](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. (Valfritt) Klicka på namnet på en post <span class="preview"> eller hovra över namnet på posten i tabellen och klicka sedan på ikonen **Öppna post** ![Ikonen Öppna post i det anpassade formuläret Planning-anslutning ](assets/open-record-icon-on-planning-connection-custom-form.png)</span> i fältet Planning-anslutning för att öppna den i Workfront Planning.
 Förhandsgranskningsrutan med information om Workfront Planning-posten öppnas.
 1. Granska eller redigera information om posten eller klicka på ikonen **Öppna på en ny flik** ![Öppna posten på en ny flik](assets/open-details-in-a-new-tab-icon.png) för att öppna sidan med postinformation.
 
-1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/remove-icon.png) för en post i det anpassade formuläret i Workfront för att ta bort den från anslutningsfältet Planning och koppla bort den från Workfront-objektet.
+1. (Valfritt) I det anpassade formuläret i Workfront klickar du på ikonen **Ta bort** ![Ta bort ikon](assets/remove-icon.png) för en post för att ta bort den från anslutningsfältet för planering och koppla bort den från Workfront-objektet.
 Workfront-objektet kopplas bort från Planning-posten och all sökinformation från Workfront tas bort från posten.
 
 1. Klicka på **Spara ändringar** om du vill spara det anpassade formuläret och alla andra ändringar du har gjort i Workfront-objektet.

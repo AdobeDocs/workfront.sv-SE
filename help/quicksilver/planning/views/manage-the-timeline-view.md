@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Så här hanterar du en tidslinjevy:
 1. Gå till den posttypssida som du vill visa tidslinjen för.
 1. Skapa en tidslinjevy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/timeline-view-example.png)
+   ![Exempel på tidslinjevy](assets/timeline-view-example.png)
 
    Posterna som är associerade med den posttyp du valde visas som staplar på en tidslinje och sorteras som standard i kronologisk ordning efter startdatum.
 
@@ -205,9 +205,9 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)
 
       Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
 
@@ -281,7 +281,7 @@ Så här lägger du till en gruppering i tidslinjevyn:
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klicka på **Gruppering** i det övre högra hörnet av tidslinjevyn.
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![Gruppera vyn för användargränssnittets tidslinje med länkade fält](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält**, sök efter ett annat fält och klicka sedan på det när det visas i listan.
 
@@ -295,7 +295,7 @@ Så här lägger du till en gruppering i tidslinjevyn:
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![Grupperingen tillämpas i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)
 
 1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
@@ -347,11 +347,11 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    En förhandsvisning av hur staplarna kommer att se ut på tidslinjen visas till höger.
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![Spela in tidslinjeinställningar för informationspanelen med förhandsgranskning](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. Klicka på **Färg** i den vänstra panelen om du vill anpassa färgerna för posterna och grupperingarna i tidslinjen.
 
-   ![](assets/color-tab-timeline-view.png)
+   ![Tidslinjevy på fliken Färg](assets/color-tab-timeline-view.png)
 
 1. (Villkorlig och valfri) Om du har lagt till en gruppering i tidslinjevyn väljer du bland följande alternativ för att ange en färg för grupperingen i avsnittet **Ange grupperingsfärg**:
 
@@ -382,7 +382,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
 1. (Villkorligt) Om du valde **Fältvärden** för postfärgerna väljer du ett fält i listrutan **Matcha postfärgen till**.
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![Listruta för fältväljare i tidslinjevyn](assets/field-selector-drop-down-menu-timeline-view.png)
 
    Endast fält med färgkodade alternativ visas i listrutan.
 
@@ -424,7 +424,7 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
 1. (Villkorligt) Om du visar tidslinjevyn i standardläge klickar du på **Brytning**.
 1. Expandera rutan **Markera en länkad posttyp** och välj en ansluten posttyp. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![Brytningsväljaren och knappen i tidslinjevyn](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
    En högerpil visas på den markerade postens fält på tidslinjen, om de är kopplade till andra poster.
 1. Klicka på högerpilen om du vill expandera en posttyp och visa anslutningarna.
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![Kampanjer uppdelade efter program i tidslinjevyn](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till fler anslutna poster.
 

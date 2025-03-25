@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ AI-assistenten finns i följande områden i Workfront Planning:
 
 ## Gå till AI-assistenten i Planning Area
 
-1. Logga in på Workfront och klicka sedan på ikonen **Huvudmeny** ![](assets/dots-main-menu.png) i skärmens övre högra hörn eller på ikonen **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig.
+1. Logga in på Workfront och klicka sedan på ikonen **Huvudmeny** ![Huvudmeny](assets/dots-main-menu.png) i skärmens övre högra hörn eller på ikonen **Huvudmeny** ![Linjernas huvudmeny](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig.
 
 . Klicka på **Planering**. Planeringsområdet öppnas.
 
@@ -88,11 +88,11 @@ AI-assistenten finns i följande områden i Workfront Planning:
 
 1. Klicka på ikonen **AI Assistant** i det övre högra hörnet av skärmen i det globala navigeringsfältet eller i det övre högra hörnet av postens förhandsgranskning eller sida.
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![AI Assistant-ikon](assets/ai-assistant-icon-highlighted.png)
 
 1. Börja skriva kommandon för AI-assistenten och klicka sedan på Enter när du är klar.
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![AI-assistentpanelen med tom kommandoruta](assets/ai-assistant-panel-with-empty-command-box.png)
 
    Du kan t.ex. skriva något av följande:
 

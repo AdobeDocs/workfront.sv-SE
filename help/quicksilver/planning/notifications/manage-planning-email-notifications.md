@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ OLD:
 
 1. (Villkorligt och valfritt) När någon taggar dig i en kommentar för en post går du till e-postmeddelandet som informerar dig om taggen och kommentaren. E-postmeddelandets avsändare är Adobe Experience Cloud.
 
-   ![](assets/email-notification-example.png)
+   ![Exempel på e-postmeddelanden](assets/email-notification-example.png)
 
 1. (Valfritt) Klicka på meddelandet i rutan **Workfront** i e-postmeddelandet.
 
@@ -195,6 +195,6 @@ när du har skickat en begäran eller efter att en begäran som du har skickat h
 
 1. (Valfritt) Klicka på **Öppna begäran**. Detta öppnar förfrågan i Workfront Planning.
 
-1. Klicka på ikonen **Notifications** ![](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn för att komma åt sidan **Notifications** .
+1. Klicka på ikonen **Notifications** ![Notifications Area icon Unified Shell](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn för att komma åt sidan **Notifications** .
 
    Information om hur du hanterar dina Workfront Planning-meddelanden finns i [Hantera aviseringsinställningar för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

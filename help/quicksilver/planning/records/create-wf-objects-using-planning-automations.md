@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
@@ -200,7 +200,7 @@ Välj någon av följande åtgärder:
    Ett anslutet fält för den valda posttypen skapas också på den ursprungliga posttypen från vilken du konfigurerar automatiseringen.
 1. (Valfritt och villkorligt) Om du har valt att skapa ett Workfront-objekt och inte har något anslutningsfält för den valda Workfront-objekttypen klickar du på frågeteckenikonen till höger om fältet **Ansluten där fältet &lt; Workfront-objekttyp > skapas** och sedan på ikonen **Lägg till** ![Skapa ett anslutningsfält](assets/create-a-connection-field-icon.png) för att lägga till ett anslutningsfält.
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![Frågeteckenikon för att lägga till anslutna fält i automatiseringar med Workfront](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    Det nya fältet skapas automatiskt och får namnet **Ansluten &lt; Workfront-objektnamn >**. När ett portföljanslutet fält skapas för posten får det till exempel namnet&quot;Ansluten portfölj&quot;.
 

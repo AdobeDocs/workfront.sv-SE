@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ Posttypssidan öppnas och alla poster av den typen visas.
 
    Postens förhandsvisningsruta öppnas.
 
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
 
 1. Välj fliken **Detaljer**. Fliken Detaljer ska öppnas som standard.
 
-1. Klicka på menyn **Exportera** ![](assets/export-icon-in-record-details-page.png) i förhandsgranskningen eller på postens sida och klicka sedan på något av följande:
+1. Klicka på **Exportera**-menyn ![Exportikonen på postinformationssidan](assets/export-icon-in-record-details-page.png) antingen i förhandsgranskningen eller på postens sida och klicka sedan på något av följande:
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ Posttypssidan öppnas och alla poster av den typen visas.
 
    Namnet på den exporterade filen är det primära fältet i posten.
 
-   ![](assets/exported-word-file.png)
+   ![Exporterad ordfil](assets/exported-word-file.png)
 
    >[!NOTE]
    >

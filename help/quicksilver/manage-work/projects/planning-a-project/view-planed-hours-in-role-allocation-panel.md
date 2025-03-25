@@ -6,9 +6,9 @@ description: Du kan visa rollallokering för alla jobbroller som har tilldelats 
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -107,11 +107,11 @@ Du måste ha följande:
    * **Uppgifter**
    * **Utjämnare för arbetsbelastning**
 
-1. Klicka på ikonen **Visa rolltilldelning** ![](assets/show-role-allocation-icon.png) .
+1. Klicka på ikonen **Visa rolltilldelning** ![Visa rollallokeringsikon](assets/show-role-allocation-icon.png).
 
    Panelen Rolltilldelning visas.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![Rollallokeringspanelen med endast planerade timmar](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Granska följande information på panelen **Rollallokering**:
 
