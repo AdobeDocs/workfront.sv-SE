@@ -6,9 +6,9 @@ description: När du har tilldelats ett korrektur för godkännande visas det i 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Du har samma åtkomst till granskning och godkännande av korrektur som i [!DNL 
 
    >[!NOTE]
    >
-   >Det går inte att öppna videokorrektur i mobilappen.
+   >Videokorrektur kan bara öppnas i iOS mobilapp. Den här funktionen är inte tillgänglig för Android ännu.
 
 1. Granska dokumentkorrekturet.
 1. (Valfritt) Välj ![[!UICONTROL Single Page icon]](assets/mobile-proofpagingicon1-25x36.png) längst upp till höger i dokumentet om du vill växla från enkelsidig vy till kontinuerlig vy. Välj ![[!UICONTROL Continuous Page icon]](assets/mobile-proofpagingicon2-25x25.png) om du vill växla tillbaka till vyn för en sida.
