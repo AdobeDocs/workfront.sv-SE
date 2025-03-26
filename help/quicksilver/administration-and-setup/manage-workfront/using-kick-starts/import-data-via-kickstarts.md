@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2773'
 ht-degree: 0%
 
 ---
@@ -361,6 +361,10 @@ Varje rad i tabellen motsvarar ett unikt objekt.
    * Om du behöver lägga till flera datavärden i det anpassade fältet (t.ex. alternativknappar, kryssrutor eller listor), ska du separera värdena med hjälp av den anpassade datamängdsavgränsaren | i det lodräta fältet, som finns på fliken Inställningar.
 
      **Exempel:** Skriv A|D under kolumnen DE:Departments för att fylla i avdelning A och avdelning D i ditt anpassade formulär.
+
+     >[!NOTE]
+     >
+     >Använd bara avgränsaren &quot;|&quot; för att separera anpassade fältvärden. Du kan inte använda den i någon av de andra kalkylbladskolumnerna, inklusive **setCategoryID**.
 
 ### Inkludera datum  {#include-dates}
 

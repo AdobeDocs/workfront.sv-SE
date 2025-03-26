@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Som Adobe Workfront-administratör kan du tilldela en layoutmall som du har skapat till användare, jobbroller, team eller grupper som behöver använda den.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td><p>Nytt: Standard</p>
   <p> Aktuell: Planera</p>
    </td> 
@@ -57,7 +57,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,8 +110,8 @@ Användaren kan dock bara se en layoutmall åt gången. Mallen som är synlig av
 
 ## Ett stort antal användare som tilldelats en layoutmall
 
-Om du redigerar en layoutmall som har tilldelats fler än 2 000 användare och gör ändringar i den, behålls endast de första 2 000 användarna i layoutmallen och du ser ändringarna du gjort. Layoutmallen tas bort från alla andra.
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 Om du har fler än 2 000 användare att tilldela till en layoutmall rekommenderar vi att du gör något av följande:
 
 * Organisera användarna i grupper eller team och tilldela layoutmallen till dessa grupper eller team. Mer information finns i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) och [Skapa och hantera team](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
