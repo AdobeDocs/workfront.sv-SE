@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättrad dokumenthantering](#document-management-enhancements)
+* [Mobilförbättringar](#mobile-enhancements)
 * [Projektförbättringar](#project-enhancements)
+* [Rapportförbättringar](#reporting-enhacements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -73,7 +75,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsgranskningsversion: 31 januari 2025</li>
-                <li><span class="preview">Produktionsrelease för alla kunder: 31 januari 2025</span></li>
+                <span class="preview"><li>Produktionsrelease för alla kunder: 31 januari 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -86,6 +88,20 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<!--    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>    -->                      
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -97,7 +113,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 20 mars 2025</li>
-                <li><span class="preview">Produktionsrelease för alla kunder: 20 mars 2025</span></li>
+                <span class="preview"><li>Produktionsrelease för alla kunder: 20 mars 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -111,7 +127,39 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 6 februari 2025</li>
-                <li><span class="preview">Produktionsrelease för alla kunder: 13 mars 2025</span></li>
+                <span class="preview"><li>Produktionsrelease för alla kunder: 13 mars 2025</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Mobilförbättringar
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Förbättringar av korrektur i mobilappen (endast iOS)</a>[!BADGE In production ]{type=Informative}</p>
+            <p>Det finns flera förbättringar för korrekturfunktioner i Adobe Workfront mobilapp:
+            <ul>
+            <li>Nu kan du öppna en korrekturfil från ditt mobila e-postprogram från en länk som delats med dig. Tidigare stöddes inte länkar från e-postmeddelanden och du var tvungen att hämta korrektur från Workfront mobilapp.</li>
+            <li>Multimediekortfiler stöds nu i mobilappen.</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsgranskningsversion: Ej tillämpligt</li>
+                <span class="preview"><li>Produktionsrelease för alla kunder: 12 mars 2025</li> 
+            </ul>
+            <p><b>Finns i följande miljöer:</b></p>
+            <ul>
+                <li>iOS mobilapp</li>
             </ul>
         </td>
     </tr>                          
@@ -142,6 +190,48 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 </tbody>
 </table>
 
+### Rapporteringsförbättringar
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Dokumentgodkännande och beslutsdata är nu tillgängliga i Data Connect</a>[!BADGE In production ]{type=Informative}</p>
+            <p>Du kan nu komma åt data för dokumentgodkännanden och -beslut i Data Connect. Den här datauppsättningen överbryggar dokumentgodkännanden från Workfront korrekturfunktioner och Frame.io-godkännanden som sker i Workfront-dokument. Du kan nu illustrera cykeltid, antal cykler och tidslinjepåverkan för sena godkännanden genom dina BI-visualiseringar.</p>
+        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 25 mars 2025</li>
+                <li>Produktionsrelease för alla kunder: 25 mars 2025</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar i Workfront Calendar</a></p>
+            <p>Vi har uppdaterat utseendet och känslan i Workfront Calendar till en modern design som överensstämmer med andra delar av Workfront. Det finns små skillnader i funktionalitet jämfört med den aktuella Workfront-kalendern:
+            <ul>
+            <li>Så här lägger du till ad hoc-objekt i kalendern</li>
+            <li>Så här skapar och byter du namn på kalendern</li>
+            <li>Kalenderåtgärderna har flyttats till en Mer-meny bredvid kalendernamnet</li>
+            <li>En ny sidopanel för att visa kalenderinformation</li>
+            <li>Och mer</li>
+            <ul>        </td>
+        <td>
+            <p><b>Tillgängligt på följande datum:</b></p>
+            <ul>
+                <li>Förhandsversion: 27 februari 2025</li>
+                <li>Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Andra förbättringar
 
 <table>
@@ -158,7 +248,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
         <td>
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
-                <li><span class="preview">Produktionsrelease för alla kunder: 6 mars 2025</span></li>
+                <span class="preview"><li>Produktionsrelease för alla kunder: 6 mars 2025</li></span>
             </ul>
         </td>
     </tr>
@@ -188,7 +278,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsgranskningsversion: Under den andra kvartersutgåvan 2025</li>
-                <li><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></li>
+                <span class="preview"><li>Produktionsrelease: Granska versionsinformationen för specifika datum</li></span>
             </ul>
         </td>
     </tr>
@@ -198,6 +288,13 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 ### Funktioner som snart ska tas bort från Workfront
 
 Följande funktioner kommer snart att tas bort från Workfront:
+
+#### API-version 2-15 är borttagen
+
+I takt med att vi fortsätter att förbättra Workfront-plattformen är det viktigt att våra API:er är uppdaterade. Detta ger optimala prestanda och säkerhet samt stöder nya funktioner. Därför ersätter vi Workfront API-versionerna 2-15.
+
+* **September 2025**: API-versionerna 2-14, som för närvarande inte stöds, kommer att bli inaktuella. Efter detta datum är dessa versioner inte längre tillgängliga.
+* **December 2025**: API-version 15 kommer att bli inaktuell.
 
 #### Vi tar bort den äldre Agile-vyn i ett projekt
 

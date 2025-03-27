@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,45 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Länk till Visa ny begäran efter att den har skickats
+
+>[!NOTE]
+>
+>Förhandsgranska: 27 mars 2025; Produktion för alla kunder: 10 april 2025
+
+Nu kan du öppna en ny begäran direkt när du har skickat in den från följande områden:
+
+* begärandeformuläret efter åtkomst från en delad länk
+* posttypssidan från knapparna Ny post eller Begär post
+* området Begäranden på huvudmenyn
+
+Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Skapa flera objekt från en post med automatisering
+
+>[!NOTE]
+>
+>Förhandsgranska: 27 mars 2025; Produktion för alla kunder: 10 april 2025
+
+Nu kan du skapa flera projekt från samma Workfront Planning-post när du använder automatisering i Workfront Planning. Du kan skapa flera projekt och basera skapandet av varje projekt på värdena i ett enskilt- eller flervalsfält när du utlöser en automatisering. Du kan bara använda den här funktionen för att skapa projekt.  Du kan inte utlösa några andra ändringar eller skapa andra typer av objekt med automatisering i Planning.
+
+
+Före den här förbättringen kunde du bara skapa ett projekt varje gång du skulle utlösa en automatisering som konfigurerats för projekt.
+
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+## Ändra namn på sökfält
+
+>[!NOTE]
+>
+>Förhandsgranska: 27 mars 2025; Produktion för alla kunder: 10 april 2025
+
+Du kan nu uppdatera information om uppslagsfält efter att de har lagts till i en ansluten posts tabell.
+
+Före den här förbättringen kunde du inte redigera befintliga uppslagsfält.
+
+Mer information finns i [Redigera fält](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Konfigurera och hantera flera förfrågningsformulär från en posttyp
 

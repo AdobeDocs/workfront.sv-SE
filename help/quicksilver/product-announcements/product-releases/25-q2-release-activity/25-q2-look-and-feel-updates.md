@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
+source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,62 @@ ht-degree: 0%
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den andra utgåvan, kvartal 2025.
 
 En lista över alla ändringar som är tillgängliga i den andra utgåvan av kvartal 2025 finns i [Översikt över den andra utgåvan av kvartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+<!--
+
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+-->
+
+## Utforska och känna av uppdateringar i dialogrutorna Utgiftstyper
+
+>[!NOTE]
+>
+>Förhandsversion: 27 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
+
+Vi har uppdaterat utseendet på dialogrutorna för att lägga till och redigera utgiftstyper under Konfigurera, så att de matchar designen i andra delar av Workfront.
+
+Mer information finns i [Skapa anpassade utgiftstyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
+## Utforska och känna av uppdateringar för rutan Redigera risktyp
+
+>[!NOTE]
+>
+>Förhandsversion: 27 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
+
+Vi har uppdaterat utseendet och känslan i rutan Redigera risktyp när du uppdaterar en befintlig risktyp under Konfigurera i Workfront. Den nya designen matchar nu andra delar av Workfront.
+
+Mer information finns i [Redigera och skapa risktyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Utforska och känna av uppdateringar för rutan Ny risktyp
+
+>[!NOTE]
+>
+>Förhandsversion: 27 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
+
+Vi har uppdaterat utseendet på rutan Ny risktyp när du lägger till en ny risktyp under Konfigurera i Workfront. Den nya designen matchar nu andra delar av Workfront.
+
+Mer information finns i [Redigera och skapa risktyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Leta upp och känna av uppdateringar i området Köinformation i ett projekt
+
+>[!NOTE]
+>
+>Förhandsversion: 27 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
+
+Vi har uppdaterat utseendet på området Köinformation i ett projekt så att det matchar designen i andra delar av Workfront.
+
+Med den här uppdateringen har utseendet på området Köinformation i en mall inte ändrats.
+
+Mer information finns i [Skapa en frågekö](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Avatarer visas inte längre i vissa e-postmeddelanden
 
@@ -35,27 +91,11 @@ Avatars visas inte längre i följande e-postmeddelanden:
 
 >[!NOTE]
 >
->Förhandsversion: 6 mars 2025; Produktionsrelease för alla kunder: 10 april 2025
+>Förhandsversion: 6 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
 
 Vi har uppdaterat utseendet och känslan för listan Sökväg för milstolpe i Konfigurera-området så att den matchar designen för andra delar av Workfront.
 
 Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
-## Uppdatera Workfront Calendar
-
->[!NOTE]
->
->Förhandsversion: 27 februari 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
-
-Vi har uppdaterat utseendet och känslan i Workfront Calendar till en modern design som överensstämmer med andra delar av Workfront. Det finns små skillnader i funktionalitet jämfört med den aktuella Workfront-kalendern:
-
-* Så här lägger du till ad hoc-objekt i kalendern
-* Så här skapar och byter du namn på kalendern
-* Kalenderåtgärderna har flyttats till en Mer-meny bredvid kalendernamnet
-* En ny sidopanel för att visa kalenderinformation
-* Och mer
-
-Mer information finns i artiklarna [Kalendrar](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
 
 ## Uppdaterad vy över en projektmilstolpe i en projektvy
 

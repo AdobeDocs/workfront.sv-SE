@@ -6,7 +6,8 @@ description: Adobe Workfront släppte API-version 19 den 6 april 2022. API-versi
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -308,7 +309,7 @@ Ett Timobjekt representerar en timme som loggas av en användare på en tidrappo
           <li><p><b>refuseringKommentar</b></li>
           <li><p><b>submitByID</b></li>
           </ul>
-          <p>Följande ändringar gjordes i fältet <b>hours</b>.</p>
+          <p>Följande ändringar har gjorts i fältet <b>hours</b>.</p>
           <ul> 
           <li> Borttagen validerare <b>GREATER_THAN</b></li>
           <li> Valideraren <b>NOT_EQUAL</b> har lagts till</li>
@@ -437,7 +438,7 @@ Ett rollobjekt (jobbroll) representerar en funktionskapacitet eller en kompetens
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett styrkort. Dessa frågor avgörs vanligtvis av Portfolio-förvaltaren och deras svar gör det möjligt för förvaltaren att förstå hur väl ett projekt passar ihop med portföljens mål.
+Ett ScoreCardQuestion-objekt representerar en fråga som har lagts till i ett styrkort. Dessa frågor avgörs vanligtvis av Portfolio-chefen och deras svar gör det möjligt för den som ansvarar för ledningen att förstå hur väl ett projekt passar in i portfolions mål.
 
 <table>
   <tbody>
@@ -522,5 +523,3 @@ Ett Timesheet-objekt representerar ett virtuellt tidkort som gör att användare
       </td>
   </tbody>
 </table>
-
-

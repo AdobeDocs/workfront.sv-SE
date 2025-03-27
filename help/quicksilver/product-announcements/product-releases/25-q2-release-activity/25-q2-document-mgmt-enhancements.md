@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: 35aa30973b5f942d3b22ad9f9338a509827f4656
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,28 @@ ht-degree: 0%
 Den här sidan beskriver alla förbättringar av dokumenthanteringen som gjorts i den andra utgåvan av kvartalet 2025 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2025 finns i [Översikt över den andra utgåvan av kvartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+>[!IMPORTANT]
+>
+>Funktionerna på den här sidan är en del av en fasad version och är endast tillgängliga för specifika kunder.
+
+<!--
+
+## New document approval decision buttons available in proofing viewer
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.
+
+Previously, you had to exit the proofing viewer to make a decision.
+
+Approvals created before this release will not display the buttons in proofing viewer.
+
+For more information, see [Use new document approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+
+-->
 
 ## Uppdatering för Desktop Proofing Viewer
 
