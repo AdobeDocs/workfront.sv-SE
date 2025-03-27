@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 {{step1-to-priorities}}
 
 1. Klicka på **Filter** i det övre vänstra hörnet i arbetslistan.
-1. klicka på **Standardfilter**.
+1. Klicka på **Standardfilter**.
 1. Markera ett eller flera filter om du vill begränsa arbetsobjekten.
    ![Filter](assets/filter-new.png)
 
@@ -93,8 +93,9 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
       <td>Inte klar</td>
       <td>Visar objekt som har
        <ul>
-      <li>Ofullständiga föregående aktiviteter eller aktivitetsbegränsningar som förhindrar att objektet bearbetas</li>
+      <li>Ofullständiga föregående aktiviteter eller aktivitetsbegränsningar som förhindrar att objektet bearbetas</li></ul>
       <p>eller</p>
+      <ul>
       <li>Det planerade startdatumet är mer än två veckor i framtiden</li>
       </ul>
        </td>
@@ -143,7 +144,7 @@ Använd naturligt språk för att snabbt filtrera arbetet.
 1. Klicka på **Smarta filter**.
 1. Skriv hur du vill filtrera materialet.
 
-   Du kan skriva saker som
+   Du kan skriva saker som:
 
    * Visa mig sena uppgifter
    * Visa mina topprioriteringar
