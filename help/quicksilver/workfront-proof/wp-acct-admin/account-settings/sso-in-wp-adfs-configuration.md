@@ -7,7 +7,7 @@ description: Om du är administratör på AD-servern kan du installera och konfi
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Om du är administratör på AD-servern kan du installera och konfigurera AD FS.
 
 ## Installera och konfigurera AD FS
 
-1. Hämta [AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909) till datorn.
+1. Hämta Microsoft AD FS 2.0 till datorn.
 1. Öppna den hämtade filen AdfsSetup.exe för att starta installationsguiden för ADFS (Active Directory Federation Services).
 1. På skärmen Serverroll väljer du ett av alternativen (du behöver minst en federationsserver).
 1. Om du inte vill visa IIS på AD-servern för Internet (portarna 80 och 443 för HTTP och HTTPS), kan du först konfigurera en federationsserver bakom brandväggen och sedan skapa en andra federationsserverproxy som skickar begäranden genom brandväggen till federationsservern.

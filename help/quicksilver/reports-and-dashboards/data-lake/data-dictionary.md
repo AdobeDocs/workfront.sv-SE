@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om datastrukturen och inneh�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
 workflow-type: tm+mt
-source-wordcount: '4609'
+source-wordcount: '4719'
 ht-degree: 0%
 
 ---
@@ -495,7 +495,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>Portfolio</td>
         <td>Portfolio</td>
         <td>PORT | Portfolio</td>
-        <td>PORTFOLIO_CURRENT<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+        <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
         <td>ALIGNMENTSCORECARDID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID</td>
         <td>Styrkortstabellen stöds inte för närvarande<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
     </tr>
@@ -723,12 +723,28 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>PREDECESSORID<br>SLUTFÖRSORID <br>TEMPLATEPREDECESSORID (self)<br>SYSID</td>
         <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>Egen<br>Inte en relation; används för interna programsyften</td>
     </tr>
+       <tr>
+        <td>Tidsfördelad KPI-valuta (begränsad kundtillgänglighet)</td>
+        <td>Tidsfasad KPI</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
+        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
+    </tr>
+        <tr>
+        <td>Tidsfasad KPI-varaktighet (begränsad kundtillgänglighet)</td>
+        <td>Tidsfasad KPI</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDDURATIONID (self)<br>USEUSEID RID</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GRUPPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifierar KPI-postens ämne<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
+    </tr>
     <tr>
         <td>Tidrapport</td>
         <td>Tidrapport</td>
-        <td>TSTIPSE | Tidrapport</td>
-        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID (self)<br>USEUSEID RID</td>
         <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
     </tr>
     <tr>
@@ -737,7 +753,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <td>TSPRO | Tidrapportprofil</td>
         <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
         <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID (self)</td>
-        <td>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID <br>GROUPS_CURRENT | GROUPID<br>Inte en relation; används för interna programsyften<br>Själv</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GRUPPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifierar KPI-postens ämne<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Gränssnittsfilter</td>
