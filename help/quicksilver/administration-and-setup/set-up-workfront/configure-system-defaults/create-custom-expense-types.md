@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 1%
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 # Skapa anpassade utgiftstyper
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -57,7 +59,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Standardutgiftstyper
 
-Utgiftstyperna som finns i [!DNL Workfront] kan inte tas bort eller redigeras med följande:
+Standardutgiftstyperna i [!DNL Workfront] som inte kan tas bort eller redigeras är följande:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Consulting]
@@ -71,8 +73,8 @@ Utgiftstyperna som finns i [!DNL Workfront] kan inte tas bort eller redigeras me
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Expense Types]**.
-1. Klicka på **[!UICONTROL New Expense Type]**.
-1. Ange följande information i rutan **[!UICONTROL New Expense Type]** som visas:
+1. Klicka på **[!UICONTROL New expense type]**.
+1. Ange följande information i dialogrutan **[!UICONTROL New Expense Type]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +108,8 @@ Utgiftstyperna som finns i [!DNL Workfront] kan inte tas bort eller redigeras me
     </tbody> 
    </table>
 
-1. Klicka på **[!UICONTROL Create Expense Type]**.\
+1. Klicka på **Skapa utgiftstyp** <span class="preview"> eller **[!UICONTROL Save]**.</span>
+
    Utgiftstypen är nu tillgänglig så att användare kan associera den med sina utgifter för projekt och uppgifter.
 
 ## Ändra anpassade utgiftstyper
@@ -118,7 +121,8 @@ Utgiftstyperna som finns i [!DNL Workfront] kan inte tas bort eller redigeras me
 
    Dialogrutan **[!UICONTROL Edit Expense Type]** visas.
 
-1. Gör önskade ändringar och klicka sedan på **[!UICONTROL Save Changes]**.\
+1. Gör önskade ändringar och klicka sedan på **Spara ändringar** <span class="preview"> eller **[!UICONTROL Save]**.</span>
+
    Utgiftstypen är nu tillgänglig så att användare kan associera den med sina utgifter för projekt och uppgifter.
 
 Mer information om hur du använder utgifter och hur de kan påverka kostnaden för ett projekt finns i artikeln [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
