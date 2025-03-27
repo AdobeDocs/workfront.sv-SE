@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
+source-git-commit: 8e90b7c3bcc75be75ccec7ae5ee8e0d88b190426
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 
 ### Administratörsförbättringar
 
-Månadsutgåvor: 14 november 12 december. 15 januari | Kvartalsvis utgivning: januari
 <table style="table-layout:auto">
   <tbody>
     <tr>
@@ -60,7 +59,7 @@ Månadsutgåvor: 14 november 12 december. 15 januari | Kvartalsvis utgivning: ja
         </td>
         <td>21 november 2024</td>
         <td>December 2024</td>
-        <td>Januar 2024 (25.1)</td>
+        <td>Januar 2024</td>
     </tr>     
     <tr>
         <td>
@@ -88,11 +87,13 @@ Månadsutgåvor: 14 november 12 december. 15 januari | Kvartalsvis utgivning: ja
 
 
 
-<!--
-### Functionality soon to be removed from Workfront
 
-The following functionality is soon to be removed from Workfront:
--->
+### Funktioner som snart ska tas bort från Workfront
+
+Följande funktioner kommer snart att tas bort från Workfront:
+
+* Förbättrad analys
+
 
 ## Versionsinformation för andra områden
 
