@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '2197'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -36,6 +36,15 @@ Du kan konfigurera och aktivera automatiseringen på posttypens sida i Workfront
 Du kan till exempel skapa en automatisering som tar en Workfront Planning-kampanj och skapar ett projekt i Workfront för att spåra kampanjens utveckling. Projektet kopplas till Workfront Planning Campingkampanj i fältet Connected Project i kampanjen.
 
 Mer information om anslutna poster finns i [Översikt över anslutna poster](/help/quicksilver/planning/records/connected-records-overview.md).
+
+Du kan skapa följande med automatisering i Workfront Planning:
+
+* Ett <span class="preview">eller flera</span> projekt
+* En grupp
+* Ett program
+* En portfölj
+* Ett projekt
+* En post
 
 ## Åtkomstkrav
 
@@ -89,14 +98,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p> 
-   <p>Redigera åtkomst i Workfront för de objekttyper som du vill skapa (projekt, portföljer, program). </p>  
+   <p>Redigera åtkomst med Skapa objekt i Workfront för de objekttyper som du vill skapa (projekt, portfolior, program). </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td> <p>Contribute eller högre behörigheter på arbetsytan <!--<span class="preview">and record type</span>--> där du vill skapa objekt. </p>  
+   <td> <p>Hantera behörigheter på arbetsytan för att skapa automatisering. </p>
+   <p>Contribute eller högre behörigheter till arbetsytan <!--<span class="preview">and to the record type</span>--> där du vill skapa objekt med hjälp av befintliga automatiseringar. </p>  
+   <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (program eller projekt).</p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
-   <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
    </td> 
   </tr> 
 <tr> 
@@ -113,7 +123,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du skapar objekt och poster med hjälp av en automatisering
 
-* Namnet på objektet eller posten som skapas av en automatisering är detsamma som det postnamn som du skapade det från.
+* Namnet på det objekt eller den post som skapas av en automatisering är samma som det postnamn som du skapar objektet från när du skapar ett enskilt objekt.
+
+<div class="preview">
+
+* När du skapar flera projekt får de automatiskt följande namn:
+
+  `[ Name of the record ] Name of the field choice`
+
+  Mer information finns i avsnittet [Använd en Workfront Planning Automation för att skapa ett objekt eller en post](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) i den här artikeln.
+
+</div>
+
 * Nya objekt eller poster åsidosätter inte befintliga objekt i samma fält. Om samma automatisering aktiveras flera gånger för samma post läggs nya objekt eller poster i samma kopplade fält i den ursprungliga posten till, förutom de som skapades tidigare.
 
 <!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
@@ -147,11 +168,13 @@ Sidan med information om automatisering öppnas.
    * **Åtgärder**: Välj den åtgärd som du vill att Workfront ska utföra när automatiseringen aktiveras. Detta är ett obligatoriskt fält.
 Välj någon av följande åtgärder:
 
-      * Skapa grupp
-      * Skapa program
-      * Skapa portfölj
+      * <span class="preview">Skapa flera projekt</span>
+      * <span class="preview">Skapa ett enskilt projekt</span>
       * Skapa projekt
       * Skapa post
+      * Skapa program
+      * Skapa portfölj
+      * Skapa grupp
 
      >[!TIP]
      >
@@ -159,50 +182,81 @@ Välj någon av följande åtgärder:
 
 1. (Villkorligt) Beroende på vilken åtgärd du valde kan du uppdatera följande fält:
 
-   * **Skapa projekt**:
-      * **Anslutet fält där objektet skapas**: Det här är det anslutna fältet som det nya projektet ska visas i. Detta är ett obligatoriskt fält.
+   * **Skapa <span class="preview">ett enskilt</span> projekt**: <!--replace to the left: Create a single project-->
+      * **Anslutet fält där projektet skapas**: Det här är det anslutna fältet som det nya projektet ska visas i. Detta är ett obligatoriskt fält.
       * **Projektmall**: Välj en projektmall som Workfront ska använda för att skapa projektet.
+
+   <div class="preview">
+
+   * Skapa flera projekt:
+      * **Anslutet fält där projektet skapas**: Det här är det anslutna fältet som det nya projektet ska visas i. Detta är ett obligatoriskt fält.
+      * **Fält vars val skapar posterna**: Välj ett fält med flera eller enstaka val från den valda posttypen. Workfront skapar ett projekt för varje fältval som är markerat på den post från vilken du utlöser automatiseringen.
+
+     >[!TIP]
+     >
+     >Ett projekt skapas bara för de alternativ som är markerade i flervalsfältet eller envalsfältet i den post som du kör automatiseringen från, och inte för alla möjliga val för det fältet.
+     >
+
+      * **Använd samma mall**: Välj det här alternativet om du vill använda samma mall för varje nytt projekt. Om alternativet är avmarkerat väljer du en **projektmall** för varje fältval.
+      * **Projektmall**: Om du valde alternativet **Använd samma mall** väljer du en projektmall som Workfront ska använda för att skapa projekten.
+
+   </div>
+
    * **Skapa portfölj**:
-      * **Anslutet fält där objektet skapas**: Det här är det anslutna fältet där den nya portföljen visas. Detta är ett obligatoriskt fält.
+      * **Anslutet fält där portföljen skapas**: Det här är det anslutna fältet där den nya portföljen visas. Detta är ett obligatoriskt fält.
       * **Anpassat formulär att koppla till den nya portföljen**: Välj ett anpassat formulär att koppla till den nya portföljen. Du måste skapa ett anpassat portföljformulär innan du kan markera det.
    * **Skapa program**:
-      * **Anslutet fält där objektet skapas**: Det här är det anslutna fältet som det nya programmet visas i. Detta är ett obligatoriskt fält.
+      * **Anslutet fält där programmet skapas**: Det här är det anslutna fältet som det nya programmet visas i. Detta är ett obligatoriskt fält.
       * **Programportfölj**: Välj en portfölj där det nya programmet ska läggas till. Detta är ett obligatoriskt fält.
       * **Anpassat formulär att koppla till det nya programmet**: Välj ett anpassat formulär att koppla till det nya programmet. Du måste skapa ett anpassat programformulär innan du kan markera det.
    * **Skapa grupp**:
-      * **Anslutet fält där objektet skapas**: Det här är det anslutna fältet där den nya gruppen visas. Detta är ett obligatoriskt fält.
+      * **Anslutet fält där gruppen skapas**: Det här är det anslutna fältet där den nya gruppen visas. Detta är ett obligatoriskt fält.
       * **Anpassat formulär att koppla till den nya gruppen**: Välj ett anpassat formulär att koppla till det nya programmet. Du måste skapa ett anpassat programformulär innan du kan markera det.
    * **Skapa post**:
       * **Posttyp**: Välj den posttyp som du vill skapa.
 
-     Underavsnittet **Inställningar** visas. Uppdatera följande fält i underavsnittet **Inställningar**:
+        Underavsnittet **Inställningar** visas. Uppdatera följande fält i underavsnittet **Inställningar**:
 
-      * **Fält på den anslutna posttypen där den aktuella posten visas**: Det här är det anslutna fältet på den posttyp som valts för åtgärden där den aktuella posten visas.
+         * **Fält på den anslutna posttypen där den aktuella posten visas**: Det här är det anslutna fältet på den posttyp som valts för åtgärden där den aktuella posten visas.
 
-     Om du till exempel skapar en automatisering för kampanjer att koppla ihop produktposter från, är det här det anslutna fältet på produktposttypen där kampanjerna visas, efter att produkterna har skapats med automatiseringen.
+        Om du till exempel skapar en automatisering för kampanjer att koppla ihop produktposter från, är det här det anslutna fältet på produktposttypen där kampanjerna visas, efter att produkterna har skapats med automatiseringen.
 
-     Detta är ett obligatoriskt fält.
+        Detta är ett obligatoriskt fält.
 
-     <!--submitted a change in functionality and UI text for this - revise??-->
-      * **Mappa fält**
+        <!--submitted a change in functionality and UI text for this - revise??-->
+Uppdatera följande information i området **Kartfält**:
+
          * **Överför från**: Välj fält från den posttyp som automatiseringen skapas för för att mappa dem till fälten för den anslutna posttypen.
          * **Överför till**: Välj fält från den nyligen skapade posten som ska innehålla information från den post som du kör automatiseringen från.
 
-     >[!TIP]
-     >
-     >Fälttyperna från den ursprungliga posttypen måste matcha fälttyperna från den nyligen skapade posttypen.
+        >[!TIP]
+        >
+        >* Fälttyperna från den ursprungliga posttypen måste matcha fälttyperna från den nyligen skapade posttypen.
+        >* Om du inte väljer några fält blir namnen på de nya posterna **Namnlös post**.
 
 1. (Valfritt och villkorligt) Om du har valt att skapa en post klickar du på **Lägg till fält** för att mappa ytterligare uppslagsfält från en post till en annan.
-1. (Villkorligt) Om du har valt att skapa en post och det inte finns några anslutningsfält mellan den ursprungliga posttypen och den posttyp som har valts i området **Åtgärder**, klickar du på frågeteckenikonen till höger om **Fält på den anslutna posttyp där den aktuella posten visas** och klickar sedan på ikonen **Lägg till** ![Skapa en ikon för ett anslutningsfält](assets/create-a-connection-field-icon.png) .
+1. (Villkorligt) Om det inte finns några anslutningsfält mellan den ursprungliga posttypen och den posttyp som har valts i fältet **Posttyp** klickar du på **Lägg till anslutet fält**.
 
-   Det nya fältet skapas automatiskt för den posttyp du valde i området **Åtgärder** och får namnet **Ansluten post**.
+   ![Automatisering för att skapa en post](assets/automation-setup-create-record.png)
 
-   Ett anslutet fält för den valda posttypen skapas också på den ursprungliga posttypen från vilken du konfigurerar automatiseringen.
-1. (Valfritt och villkorligt) Om du har valt att skapa ett Workfront-objekt och inte har något anslutningsfält för den valda Workfront-objekttypen klickar du på frågeteckenikonen till höger om fältet **Ansluten där fältet &lt; Workfront-objekttyp > skapas** och sedan på ikonen **Lägg till** ![Skapa ett anslutningsfält](assets/create-a-connection-field-icon.png) för att lägga till ett anslutningsfält.
+   Följande två fält skapas:
 
-   ![Frågeteckenikon för att lägga till anslutna fält i automatiseringar med Workfront](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   * Ett nytt anslutningsfält med namnet **Ansluten post** skapas för den posttyp som du angav i fältet **Posttyp**.
+   * Ett nytt anslutningsfält med samma namn som det som anges i fältet **Posttyp** skapas för den posttyp som du konfigurerar automatiseringen för.
 
-   Det nya fältet skapas automatiskt och får namnet **Ansluten &lt; Workfront-objektnamn >**. När ett portföljanslutet fält skapas för posten får det till exempel namnet&quot;Ansluten portfölj&quot;.
+     Om du till exempel konfigurerar en automatisering för kampanjer att automatiskt skapa en annan posttyp som heter Varumärke och du klickar på **Lägg till anslutet fält** skapas följande fält:
+
+      * Anslutningsfältet **Ansluten post** skapas för posttypen **Varumärken**.
+      * Anslutningsfältet **Varumärken** skapas för posttypen **Kampanjer**.
+
+1. (Valfritt) Om det inte finns några anslutningsfält mellan den ursprungliga posttypen och det Workfront-objekt som är markerat i åtgärdsområdet klickar du på **Lägg till anslutet fält**.
+
+   ![Automatisering för att skapa flera projekt](assets/automation-setup-create-multiple-projects.png)
+
+   Följande skapas:
+
+   * Ett nytt anslutningsfält med namnet **Ansluten &lt; namnet på Workfront-objektet >** skapas för den posttyp som du bygger automatiseringen för. Ett **anslutet projekt**-fält skapas till exempel för den posttyp som du bygger automatiseringen för när du väljer att skapa projekt automatiskt.
+   * Ett nytt posttypskort läggs till i Planning-delen av ett Workfront-projekt i Workfront med namnet på den posttyp som du konfigurerar automatiseringen för.
 
 1. Klicka på **Spara** i det övre högra hörnet på sidan med automatiseringsinformation.
 
@@ -223,21 +277,24 @@ Välj någon av följande åtgärder:
 
    1. Håll markören över namnet på en sparad automatisering i listan över automatiseringar och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png).
 
-   1. Klicka på **Redigera** för att uppdatera information om och konfigurera fält i automatiseringen.
+   1. Klicka på **Redigera** för att uppdatera följande information:
 
-      >[!TIP]
-      >
-      >   Du kan inte ändra åtgärden som du ursprungligen valde för en automatisering.
+      * Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om automatiseringsnamnet och klicka sedan på **Redigera** för att ändra namnet på automatiseringen.
+      * Alla fält i automatiseringen, förutom fältet **Åtgärder**.
+
+        >[!TIP]
+        >
+        >Du kan inte ändra åtgärden som du ursprungligen valde för en automatisering.
 
 
    1. Klicka på **Inaktivera** om du vill ta bort automatiseringen från postens tabellvy och hindra användare från att använda den för att skapa poster eller objekt.
 
-   Poster som har skapats med en inaktiverad automatisering är fortfarande kopplade till den post som ursprungligen valdes.
+      Poster som har skapats med en inaktiverad automatisering är fortfarande kopplade till den post som ursprungligen valdes.
 
-   Om du vill göra den tillgänglig igen klickar du på menyn **Mer** ![Mer](assets/more-menu.png) igen och sedan på **Aktivera**.
+      Om du vill göra den tillgänglig igen klickar du på menyn **Mer** ![Mer](assets/more-menu.png) igen och sedan på **Aktivera**.
    1. Klicka på **Ta bort** om du vill ta bort automatiseringen. En borttagen automatisering kan inte återställas.
 
-   Poster som har skapats med en borttagen automatisering är fortfarande kopplade till den post som ursprungligen valdes.
+      Poster som har skapats med en borttagen automatisering är fortfarande kopplade till den post som ursprungligen valdes.
 
 ## Skapa ett objekt eller en post med en Workfront Planning Automation
 
@@ -254,7 +311,17 @@ Välj någon av följande åtgärder:
 
    * Ett bekräftelsemeddelande visas längst ned på skärmen om automatiseringen lyckades skapa ett objekt eller en post.
 
-   * Det nya objektet visas i det anslutna fältet som du angav i inställningarna för knappen för automatisering. Du kan behöva uppdatera sidan innan du kan visa det nya objektet.
+   * Det nya objektet visas i det anslutna fältet som anges i inställningarna för knappen för automatisering. Du kan behöva uppdatera sidan innan du kan visa det nya objektet. Det nya objektet har samma namn som den ursprungliga posten.
+
+   <div class="preview">
+
+   * Om flera projekt har skapats baserat på val av flera- eller enkelvalsfält får projekten automatiskt ett namn enligt följande mönster:
+
+     `[ Name of the record ] Name of the field choice`
+
+     Om en kampanj med namnet `Summer breeze` genererade ett projekt från ett fältval av `EMEA` får projektet namnet `[ Summer breeze ] EMEA`.
+
+   </div>
 
    * Den post som du utlöser automatiseringen från läggs till i det anslutna fältet för den nya posten.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ När en arbetsytehanterare har skapat ett begärandeformulär för en posttyp i 
 
 Du kan skicka in en begäran om Workfront Planning från följande områden:
 
-* Från området Begäranden i Workfront, eller från en direktlänk till formuläret. I den här artikeln beskrivs hur du kan skicka en begäran om att lägga till nya poster till en posttyp från området Begäranden i Workfront, eller från en delad länk.
+* Under Begäranden i Workfront.
+* Från en direktlänk till det begärandeformulär som delats.
+
+  I den här artikeln beskrivs hur du kan skicka en begäran om att lägga till nya poster till en posttyp från området Begäranden i Workfront, eller från en delad länk.
 * <span class="preview">Från posttypssidan när du lägger till eller begär en ny post. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
 
 Workfront-användare och externa användare kan skicka förfrågningar till posttyperna Planning och skapa poster. <!--double check on the external users-->
@@ -212,6 +215,8 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
      >
      >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
+   1. (Valfritt) Klicka på **Visa din begäran** i bekräftelsemeddelandet om du vill öppna begäran eller klicka på ikonen **X** om du vill stänga bekräftelsen.
+
 1. (Valfritt) Klicka på fliken **Planering** i området Begäranden för att visa din begäran och klicka sedan på namnet på begäran.
 
    Sidan med information om förfrågan öppnas.
@@ -269,7 +274,13 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
      >
      >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
-1. (Valfritt) Klicka på fliken **Planering** i området Begäranden för att visa din begäran och klicka sedan på namnet på begäran.
+1. <span class="preview">(valfritt) Klicka på **Visa din begäran** för att öppna begäran i Workfront.</span>
+
+   eller
+
+   <span class="preview">Klicka på [Skicka en ny begäran](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) om du vill öppna begärandeformuläret och lägga till en ny begäran. </span>
+
+1. (Valfritt) Klicka på **Huvudmeny** > **Förfrågningar** > fliken **Planering** för att visa din förfrågan och klicka sedan på namnet på förfrågan.
 
    Sidan med information om förfrågan öppnas.
 

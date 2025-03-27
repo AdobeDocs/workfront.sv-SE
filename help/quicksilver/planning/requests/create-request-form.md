@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -178,9 +178,11 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Alla postfält visas i området **Standardavsnitt**.
    * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Det går inte att redigera konfigurationen och värdet för ämnesfältet.
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >Fältet **Ämne** kräver ett värde när det är synligt i begärandeformuläret. Du kan dock ta bort fältet **Ämne** om det behövs, och den som beställer kan inte se det i formuläret när de skickar begäran.
+     >* Fältet **Ämne** kräver ett värde när det är synligt i begärandeformuläret. Du kan dock ta bort fältet **Ämne** om det behövs, och den som beställer kan inte se det i formuläret när de skickar begäran.
+     >* När ämnesfältet saknas i ett begärandeformulär men det finns ett namnfält för den framtida postens namn, tilldelas namnet på begäran automatiskt samma namn som den skapade posten.
+     >* När både ämnes- och namnfälten saknas i formuläret för begäran namnges begäran med följande mönster: `< Record name > request form < Entry date of the request >`. Posten heter **Namnlös**.
 
    * Alla fält som är associerade med posttypen.
 
