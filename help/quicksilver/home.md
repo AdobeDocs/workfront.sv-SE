@@ -3,9 +3,9 @@ title: Dokumentation för [!DNL Adobe Workfront]
 description: Dokumentation för  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 1343695894b22e3d820e2abaf0c377f72d39aab1
+source-git-commit: 51060703d0194ea8aea933e31690f3fb6fff29b2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,14 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
 * [Första utgåvan, kvartal 2025, översikt](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [Fjärde kvartersversionen 2024 - översikt](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Planning Second Quarter, 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront Planning First Quarter 2025 - versionsaktivitet](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 >[!TAB 2025-utgåvor]
 
+* [Andra utgåvan, kvartal 2025, översikt](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [Första utgåvan, kvartal 2025, översikt](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Adobe Workfront Planning Second Quarter, 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront Planning First Quarter 2025 - versionsaktivitet](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 
