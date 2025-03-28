@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,16 @@ Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika 
 
 En lista över alla ändringar som är tillgängliga i den andra utgåvan av kvartal 2025 finns i [Översikt över den andra utgåvan av kvartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## Uppdaterad erfarenhet i området Åtkomstnivåer i installationsprogrammet
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>Förhandsversion: 27 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+För att förbättra prestandan har vi gjort visuella uppdateringar i området Åtkomstnivåer i installationsprogrammet.
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+En liten funktionalitetsändring har gjorts i listan Åtkomstnivåer. Om du vill kopiera, redigera eller ta bort en åtkomstnivå markerar du nivån och klickar på lämplig ikon.
 
--->
 
 ## Utforska och känna av uppdateringar i dialogrutorna Utgiftstyper
 
