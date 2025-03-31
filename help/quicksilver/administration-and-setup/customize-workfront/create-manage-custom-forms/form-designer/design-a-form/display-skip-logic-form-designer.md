@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ Valideringslogiken byggs med formler och du kan göra logiken så enkel eller ko
 
 Om fältet med den logik som används uppfyller de definierade valideringsvillkoren när en användare fyller i det anpassade formuläret, markeras fältet och felmeddelandet visas.
 
-Du kan använda valideringslogik för följande fälttyper: nedrullningsbar text, alternativknapp, kryssruta, skrivhuvud, enkelradstext, stycketext, datumfält, text med formatering och beräknade fält.
+Du kan använda valideringslogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, alternativknappar, kryssrutegrupp och skrivhuvud.
 
 ### Exempel
 
