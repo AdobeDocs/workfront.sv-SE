@@ -6,9 +6,9 @@ description: Du kan använda rapporter i Adobe Workfront för att granska eller 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -88,10 +88,15 @@ Du kan använda mappar för att ordna de rapporter som du skapar. Du kan inte or
    eller\
    Klicka på en mapp som är kapslad i mappen **Mina rapporter**.
 
-1. Dra en rapport från rapportlistan till den mapp där du vill ha den och släpp den när du når mappen.
+1. Markera rapporten och klicka sedan på mappikonen ![Mappikon](assets/folder-icon.png) överst i listan.
+
+1. Välj den mapp som du vill lägga till rapporten i.
+
+   ![Välj en mapp att flytta rapporten till](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >Du kan bara flytta rapporter från mappen **Mina rapporter** till andra mappar som är kapslade under **Mina rapporter**. Du kan inte flytta rapporter från eller till mappen **Delade med mig** eller **Alla rapporter** till eller från andra mappar.
 
-   ![Dra rapporten till mappen](assets/nwe-drag-report-to-folder-350x292.png)
+
+
