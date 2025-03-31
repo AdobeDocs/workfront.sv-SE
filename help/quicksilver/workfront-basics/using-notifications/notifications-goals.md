@@ -6,9 +6,9 @@ description: 'Meddelanden: Mål'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -97,15 +97,19 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
    <td> <p>Namnet på personen som lämnade kommentaren</p> <p>Målets period </p> <p>Målets namn</p> <p>Texten i kommentaren</p> <p>Knappen <strong>[!UICONTROL Open in web app]</strong> som öppnar panelen [!UICONTROL Goal Details]</p> <p>Knappen <strong>[!UICONTROL Change Notifications Settings]</strong> som gör att du kan hantera dina meddelanden.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Någon gillade min kommentar på ett mål</strong></td> 
-   <td> <p>Namnet på den person som gillade kommentaren</p> <p>Målets period </p> <p>Målets namn</p> <p>Texten i kommentaren </p> <p>Knappen <strong>[!UICONTROL Open in web app]</strong> som öppnar panelen [!UICONTROL Goal Details]</p> <p>Knappen <strong>[!UICONTROL Change Notifications Settings]</strong> som gör att du kan hantera dina meddelanden.</p> </td> 
+  </tbody> 
+</table>
+
+<!--these were removed at some point: 
+
+   <td><strong>Someone liked my comment on a Goal</strong></td> 
+   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Någon tyckte om en uppdatering för mitt mål</strong></td> 
-   <td> <p>Du får ett e-postmeddelande när någon gillar en kommentar som du har gjort på ett mål eller när du uppdaterar förloppet för dina resultat eller aktiviteter på målet. </p> <p>Namnet på den person som gillade uppdateringen</p> <p>Målets period </p> <p>Målets namn</p> <p>Knappen <strong>[!UICONTROL Open in web app]</strong> som öppnar panelen [!UICONTROL Goal Details]</p> <p>Knappen <strong>[!UICONTROL Change Notifications Settings]</strong> som gör att du kan hantera dina meddelanden.</p> </td> 
+   <td><strong>Someone liked an update on my Goal</strong></td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
- </tbody> 
-</table>
+ -->
 
 <!--
 NOTE FOR NAME OF GOAL IN LAST TABLE CELL: check this. Is this true? Didn't triggger when this was written; add anything else? Maybe the type of the update is mentioned?!

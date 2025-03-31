@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,14 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >
 >Förhandsgranska: 27 mars 2025; Produktion för alla kunder: 10 april 2025
 
-Nu kan du öppna en ny begäran direkt när du har skickat in den från följande områden:
+Vi har förbättrat ditt sätt att komma åt en begäran som du skickar in i Workfront Planning.
+Vi har lagt till länken&quot;Visa din begäran&quot; som du kan använda för att navigera till informationssidan för den förfrågan du just skickade.
 
-* begärandeformuläret efter åtkomst från en delad länk
-* posttypssidan från knapparna Ny post eller Begär post
-* området Begäranden på huvudmenyn
+Den nya länken är tillgänglig när du har skickat in en begäran från följande områden:
+
+* Från en delad länk
+* Från knappen Ny post eller Begär post på posttypsidan
+* Från området Begäranden när du har aktiverat den nya funktionen för att skicka begäranden.
 
 Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
