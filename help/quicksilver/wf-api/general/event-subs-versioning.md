@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -250,3 +250,10 @@ Följande ändringar har gjorts för händelseprenumerationer version 2:
    <td>Ingen. Om du har ett filter för det påverkade fältet får du bara en <code>UPDATE</code>-händelse om fältet faktiskt har ändrats, inte om något annat parametervärde har ändrats.
  </tbody> 
 </table>
+
+
+## Uppdatera händelseteckningsversion i ett Workfront Fusion-scenario
+
+Workfront Fusion använder händelseprenumerationer för att hålla utkik efter förändringar i Workfront för att utlösa scenarier. Du kan uppdatera den händelseprenumerationsversion som Fusion använder direkt i ett scenario med hjälp av modulen Workfront > Update Events Payload Version.
+
+Instruktioner om hur du använder den här modulen finns i [Workfront-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) i dokumentationen för Workfront Fusion.
