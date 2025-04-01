@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Granska problematiska mål i Adobe Workfront-mål
+title: Granska problem i Adobe Workfront-mål
 description: Det finns risk för att mål med statusvärdet"Progress of In" inte kan nås, och de representeras av en röd förloppsindikator i Adobe Workfront-målen. Du bör granska dina mål ofta och förstå varför framstegen släpar efter.
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Granska problematiska mål i Adobe Workfront-mål
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -22,6 +24,8 @@ ht-degree: 0%
 Mål med ett förlopp för In-problem riskerar att inte uppnås och representeras av en röd förloppsindikator i Adobe Workfront-målen. Du bör granska dina mål ofta och förstå varför framstegen släpar efter. Mer information om målförloppet finns i [Översikt över målförloppet och målvillkoret i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -52,12 +56,9 @@ Du måste ha följande:
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Nytt produktkrav, något av följande: </p>
-<ul>
-<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
-<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
- <p>eller</p>
- <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+  <p> Nytt produktkrav: Workfront</p>
+  eller
+  <p>Aktuellt produktkrav: Förutom en Workfront-licens måste du köpa en licens för Adobe Workfront Goals. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Åtkomstnivå</td>
@@ -81,6 +82,8 @@ Du måste ha följande:
 </table>
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Rekommendationer för att förhindra att mål når en utveckling i In-PROBLEM
 

@@ -6,14 +6,16 @@ description: Du kan stänga ett mål när du vill ange att du har slutfört det 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
 # Stäng och öppna mål igen i Adobe Workfront-mål
+
+<!--Audited for P&P only: 4/2025-->
 
 Du kan stänga ett mål när du vill ange följande:
 
@@ -23,6 +25,8 @@ Du kan stänga ett mål när du vill ange följande:
 Du kan öppna mål som har stängts igen när de blir relevanta igen.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -54,12 +58,9 @@ Du måste ha följande:
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Nytt produktkrav, något av följande: </p>
-<ul>
-<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
-<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
+  <p> Nytt produktkrav: Workfront</p>
  <p>eller</p>
- <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+  <p>Aktuellt produktkrav: Förutom en Workfront-licens måste du köpa en licens för Adobe Workfront Goals. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
  </tr>
  <td role="rowheader">Åtkomstnivå</td>
  <td> <p>Redigera åtkomst till mål</p> </td>
@@ -82,6 +83,8 @@ Du måste ha följande:
 </table>
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Överväganden när mål stängs eller öppnas igen
 

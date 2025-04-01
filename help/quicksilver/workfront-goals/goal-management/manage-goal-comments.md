@@ -6,16 +6,16 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # Hantera målkommentarer i Adobe Workfront-mål
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Nytt produktkrav: Om du har en Select- eller Prime Adobe Workfront-plan måste du också köpa ytterligare en Adobe Workfront Goals-licens. Workfront-mål ingår i Ultimate Workfront-planen.</p>
+ <p> Nytt produktkrav: Workfront</p>
  eller
- <p>Aktuellt produktkrav: Du måste köpa ytterligare en licens för Adobe Workfront Goals för att få tillgång till de funktioner som beskrivs i den här artikeln. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+ <p>Aktuellt produktkrav: Förutom en Workfront-licens måste du köpa en licens för Adobe Workfront Goals. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Åtkomstnivåkonfiguration</td>

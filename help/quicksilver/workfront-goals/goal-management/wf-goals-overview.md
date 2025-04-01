@@ -7,7 +7,7 @@ description: Workfront-mål hjälper er att definiera, kommunicera och uppnå st
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -16,13 +16,15 @@ ht-degree: 0%
 
 # Översikt över Adobe Workfront-mål
 
+<!--Audited: 4/2025-->
+
 >[!IMPORTANT]
 >
 >Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 >
 >* För den nya planen och licensstrukturen:
 >
->   * Den ultimata Workfront-planen
+>   * Ultimate Workfront-planen
 >    
 >* För aktuell plan och licensstruktur:
 >

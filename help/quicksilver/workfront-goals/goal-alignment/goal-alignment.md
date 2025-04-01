@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Läs följande artiklar för att få en förståelse för hur du anpassar mål i Workfront-mål.
-description: Läs om hur du anpassar mål i Adobe Workfront i följande artiklar.
+title: 'Måljustering i Adobe Workfront-mål: Artikelindex'
+description: Att se till att alla era mål på alla nivåer är anpassade efter varandra och efter den övergripande strategin är ett viktigt steg i er organisations framgång. Läs om hur du anpassar mål i Adobe Workfront i följande artiklar.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Måljustering i Adobe Workfront-mål
+# Måljustering i Adobe Workfront-mål: artikelindex
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 0%
 >* För den nya planen och licensstrukturen:
 >    
 >   * En Ultimate-plan
->        
->     eller
->        
->   * Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna.
->      
 >      
 >* För aktuell plan och licensstruktur:
 >    

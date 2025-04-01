@@ -1,26 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Få åtkomst till och öppna mål i Adobe Workfront-mål
+title: Åtkomst och öppna mål i Adobe Workfront-mål
 description: I den här artikeln beskrivs hur du kan hitta och hantera mål i Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 # Få åtkomst till och öppna mål i Adobe Workfront-mål
 
+<!--Audited P&P only: 4/2025-->
+
 I den här artikeln beskrivs hur du kan hitta och hantera strategiska mål i Adobe Workfront.
 
 
 ## Åtkomstkrav
 
-Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,18 +53,12 @@ Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den 
   <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Nytt produktkrav, något av följande: </p>
-<ul>
-<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
-<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
- <p>eller</p>
- <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+ <p> Nytt produktkrav: Workfront</p>
+<p>eller</p>
+ <p>Aktuellt produktkrav: Förutom en Workfront-licens måste du köpa en licens för Adobe Workfront Goals. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
  </tr>
- <tr>
- <td role="rowheader">Åtkomstnivå</td>
- <td> <p>Redigera åtkomst till mål</p> </td>
- </tr>
-  <tr> 
+
+<tr> 
    <td role="rowheader">Åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till mål</p> </td> 
   </tr> 
@@ -82,6 +80,8 @@ Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den 
 </table>
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Öppna Workfront-mål
 

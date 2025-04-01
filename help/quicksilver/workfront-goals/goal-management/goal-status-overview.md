@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Översikt över målstatus i Adobe Workfront-mål
+title: Översikt över målstatus i Adobe Workfront mål
 description: Målstatus anger om ett mål är aktivt och om det håller på att spelas in, eller om det är inaktivt, utformat eller redan har uppnåtts.
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -16,13 +16,15 @@ ht-degree: 0%
 
 # Översikt över målstatus i Adobe Workfront-mål
 
+<!--Audited: 4/2025-->
+
 >[!IMPORTANT]
 >
 >Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 >
 >* För den nya planen och licensstrukturen:
 >
->   * Den ultimata Workfront-planen
+>   * Ultimate Workfront-planen
 >    
 >* För aktuell plan och licensstruktur:
 >

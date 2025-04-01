@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Målhantering i Adobe Workfront-mål
-description: Läs följande artiklar och lär dig var du börjar med Workfront-mål, hur viktigt det är att använda mål, hur du skapar, redigerar, kommenterar och hanterar mål samt hur du filtrerar och skriver ut målinformation
+title: 'Målhantering i Adobe Workfront-mål: Artikelindex'
+description: Läs följande artiklar och lär dig var du börjar med Workfront-mål, hur viktigt det är att använda mål, hur du skapar, redigerar, kommenterar och hanterar mål samt hur du filtrerar och skriver ut målinformation.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Målhantering i Adobe Workfront-mål
+# Målhantering i Adobe Workfront-mål: artikelindex
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -32,10 +34,10 @@ ht-degree: 0%
 >
 >*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 >
-
-Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
-
-Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+>
+>Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Läs följande artiklar för att lära dig var du börjar med Workfront-mål, hur viktigt det är att använda mål, hur du skapar, redigerar, kommenterar och hanterar mål samt hur du filtrerar och skriver ut målinformation:
 

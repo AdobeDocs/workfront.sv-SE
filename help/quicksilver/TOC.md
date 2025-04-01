@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
+source-git-commit: bbbb3f7895256e2f5341e6e9fd76c4fccbd15db0
 workflow-type: tm+mt
-source-wordcount: '13110'
+source-wordcount: '13116'
 ht-degree: 0%
 
 ---
@@ -1971,10 +1971,10 @@ ht-degree: 0%
    * [Visa rolltilldelning för projekt och initiativ i uppgiftslistan](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [Visa rolltilldelning för projekt och initiativ i Utjämning av arbetsbelastning](scenario-planner/show-role-allocation-workload-balancer.md)
 * Adobe Workfront-mål {#adobe-workfront-goals}
-   * [Adobe Workfront-mål](workfront-goals/workfront-goals.md)
+   * [Adobe Workfront-mål: artikelindex](workfront-goals/workfront-goals.md)
    * [Översikt över Adobe Workfront-mål](workfront-goals/goal-management/wf-goals-overview.md)
    * Målhantering i Adobe Workfront-mål {#goal-management}
-      * [Målhantering i Adobe Workfront-mål](workfront-goals/goal-management/goal-management.md)
+      * [Målhantering i Adobe Workfront-mål: artikelindex](workfront-goals/goal-management/goal-management.md)
       * [Kom igång med Adobe Workfront-mål](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Få åtkomst till och öppna mål i Adobe Workfront-mål](workfront-goals/goal-management/access-goals-in-wf-goals.md)
       * [Krav för att använda Workfront-mål](workfront-goals/goal-management/access-needed-for-wf-goals.md)
@@ -1991,7 +1991,7 @@ ht-degree: 0%
       * [Uppdatera mål i avsnittet Målinformation i Adobe Workfront-mål](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Granska problematiska mål i Adobe Workfront-mål](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Måljustering i Adobe Workfront-mål {#goal-alignment}
-      * [Måljustering i Adobe Workfront-mål](workfront-goals/goal-alignment/goal-alignment.md)
+      * [Måljustering i Adobe Workfront-mål: artikelindex](workfront-goals/goal-alignment/goal-alignment.md)
       * [Justera mål genom att koppla dem till Adobe Workfront mål](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [Justera mål genom att konvertera resultat och aktiviteter till mål](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Översikt över måljustering i Adobe Workfront-mål](workfront-goals/goal-alignment/goal-alignment-overview.md)

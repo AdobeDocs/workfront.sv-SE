@@ -3,23 +3,22 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Krav för att använda Workfront-mål
-description: Adobe Workfront-administratören måste se till att vissa villkor uppfylls innan du kan komma åt Adobe Workfront mål.
+description: Adobe Workfront-administratören måste se till att vissa villkor uppfylls innan du kan komma åt Adobe Workfront mål. Läs den här artikeln om åtkomstkraven, behörigheterna och layoutkraven för att få tillgång till Workfront-målen.
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # Krav för att använda Workfront-mål
 
-Adobe Workfront-administratören måste se till att alla följande villkor uppfylls innan du kan komma åt Adobe Workfront mål:
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+Adobe Workfront-administratören måste se till att alla följande villkor uppfylls innan du kan komma åt Adobe Workfront mål:
 
 * Din organisation måste köpa rätt licens för Workfront Goals. Mer information finns i avsnittet [Få åtkomst till Workfront-målorganisation](#obtain-workfront-goals-organization-access) i den här artikeln.
 
@@ -48,9 +47,9 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 
 Beroende på vilken Workfront-plan ditt företag är baserat på finns följande scenarier:
 
-* Om ditt företag har en ny Workfront-plan måste du ha en Ultimate Workfront-plan. Workfront-mål ingår endast i den här planen.
+* **En ny Workfront-plan**: Du måste ha en Ultimate Workfront-plan. Workfront-mål ingår endast i den här planen.
 
-* Om ditt företag har den aktuella Workfront-planen måste din organisation köpa ytterligare en licens, utöver Workfront-licensen, för att dina användare ska kunna komma åt Workfront mål.
+* **En aktuell Workfront-plan**: Din organisation måste köpa ytterligare en licens utöver Workfront-licensen.
 
   När organisationen har köpt den extra licensen aktiverar Workfront Workfront Goals för ditt konto. Kontakta din kontoansvarige på Workfront om du vill ha information om hur du köper en licens för Workfront Goals.
 
@@ -60,13 +59,13 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 Beroende på vilken Workfront-plan ditt företag är baserat på finns följande scenarier:
 
-* Om ditt företag har den nya åtkomstnivåmodellen måste din Workfront-administratör ge dig någon av följande Workfront-licenstyper för att få åtkomst till Workfront-mål:
+* **Den nya åtkomstnivåmodellen**: Din Workfront-administratör måste ge dig en av följande Workfront-licenstyper för att få åtkomst till Workfront-mål:
 
    * Medarbetare
    * Ljus
    * Standard
 
-* Om ditt företag har den nuvarande åtkomstnivåmodellen måste din Workfront-administratör ge dig någon av följande Workfront-licenstyper för att få åtkomst till Workfront-mål:
+* **Den aktuella åtkomstnivåmodellen**: Din Workfront-administratör måste ge dig en av följande Workfront-licenstyper för att få åtkomst till Workfront-mål:
 
    * Plan
    * Arbete

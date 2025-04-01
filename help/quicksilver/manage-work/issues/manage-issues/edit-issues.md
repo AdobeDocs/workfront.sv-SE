@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -243,15 +243,15 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
       <td role="rowheader">Löst av</td> 
       <td> <p>Detta visar om problemet har lösts av ett annat objekt. Du kan välja om problemet ska lösas av en aktivitet, ett projekt eller något annat problem i listrutan och sedan börja skriva namnet på uppgiften, projektet eller problemet som ska lösa problemet. Markera den när den visas i listan.</p>
 
-   <b>OBS!</b>
+   <b>ANTECKNINGAR</b>
 
-   När du väljer ett objekt som ska lösa ett problem länkas problemstatusen till det objekt som ska lösas och kan inte ändras i det här problemet. Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.
+   <ul><li>När du väljer ett objekt som ska lösa ett problem länkas problemstatusen till det objekt som ska lösas och kan inte ändras i det här problemet. Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</li>
 
-   <b>TIPS</b>
+   <li>När du ansluter ett problem som ska lösas av en annan uppgift, ett problem eller ett projekt, överförs ingen information från problemet till det objekt som löser problemet (uppgiften, problemet eller projektet som listas i fältet Löst av). </li>
 
-   När system- eller gruppadministratören lägger till fältet&quot;Löst av&quot; i ett anpassat felhuvud, ändras fältet till&quot;Lösa problem&quot;,&quot;Lös aktivitet&quot; eller&quot;Lösa projekt&quot; när det finns ett matchande objekt som är kopplat till problemet.
+   <li>När system- eller gruppadministratören lägger till fältet"Löst av" i ett anpassat felhuvud, ändras fältet till"Lösa problem","Lös aktivitet" eller"Lösa projekt" när det finns ett matchande objekt som är kopplat till problemet.
 
-   Du kan inte redigera det här fältet när det visas i utgåvans huvud. Mer information om hur du anpassar felhuvuden finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Anpassa objekthuvuden med en layoutmall </a>
+   Du kan inte redigera det här fältet när det visas i utgåvans huvud. Mer information om hur du anpassar felhuvuden finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Anpassa objekthuvuden med en layoutmall </a></li></ul>
    </td> 
      </tr>
 

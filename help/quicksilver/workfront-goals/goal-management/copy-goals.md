@@ -6,18 +6,22 @@ description: Du kan kopiera mål i Adobe Workfront-mål för att skapa ett mål.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
 # Kopiera mål i Adobe Workfront-mål
 
+<!--Audited for P&P only: 4/2025-->
+
 Du kan kopiera mål i Adobe Workfront-mål för att skapa ett mål. En del av den ursprungliga målinformationen överförs till det nya målet.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -36,7 +40,7 @@ Du måste ha följande:
 <p>För aktuell plan och licensstruktur: 
 <ul><li> En Pro eller högre </li>
   <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <tr>
@@ -49,12 +53,9 @@ Du måste ha följande:
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Nytt produktkrav, något av följande: </p>
-<ul>
-<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
-<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
+  <p> Nytt produktkrav: Workfront</p>
  <p>eller</p>
- <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+  <p>Aktuellt produktkrav: Förutom en Workfront-licens måste du köpa en licens för Adobe Workfront Goals. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Åtkomstnivå</td>
@@ -78,6 +79,8 @@ Du måste ha följande:
 </table>
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du kopierar mål
 

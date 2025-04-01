@@ -6,18 +6,22 @@ description: När du börjar arbeta med ett mål och det blir irrelevant i din o
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
 # Ta bort och inaktivera mål i Adobe Workfront-mål
 
+<!--Audited for P&P only: 4/2025-->
+
 När du börjar arbeta med ett mål och det blir irrelevant i din organisation rekommenderar vi att du inaktiverar det i stället för att ta bort det. När du inaktiverar ett mål behålls den historiska informationen och du kan återaktivera den vid ett senare tillfälle. Det kan dock finnas tillfällen då det kan vara bra att ta bort ett mål så att mållistan hålls korrekt.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -36,27 +40,25 @@ Du måste ha följande:
 <p>För aktuell plan och licensstruktur: 
 <ul><li> En Pro eller högre </li>
   <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licens*</td>
  <td>
  <p>Ny licens: Medarbetare eller högre</p>
  eller
- <p>Aktuell licens: Begär eller högre</p> </td>
+ <p>Aktuell licens: Begär eller högre</p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Nytt produktkrav, något av följande: </p>
-<ul>
-<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
-<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
+  <p> Nytt produktkrav: Workfront</p>
  <p>eller</p>
- <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+  <p>Aktuellt produktkrav: Förutom en Workfront-licens måste du köpa en licens för Adobe Workfront Goals. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>Åtkomstnivå</p></td>
+ <td role="rowheader">Åtkomstnivå</td>
  <td> <p>Redigera åtkomst till mål</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -68,7 +70,7 @@ Du måste ha följande:
   <p>Mer information om delningsmål finns i <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Dela ett mål i Workfront-mål</a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Layoutmall</p></td>
    <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller området Mål på huvudmenyn. </p>  
 </td>
@@ -77,6 +79,8 @@ Du måste ha följande:
 </table>
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Inaktivera mål
 

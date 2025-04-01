@@ -2,10 +2,9 @@
 title: Kom igång med Adobe Workfront-mål
 description: Workfront-mål hjälper er att definiera, kommunicera och uppnå strategiska resultat genom att koppla ihop strategi för att genomföra arbetet och leverera det.
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 0%
@@ -14,13 +13,15 @@ ht-degree: 0%
 
 # Kom igång med Adobe Workfront-mål
 
+<!--Audited for P&P only: 4/2025-->
+
 >[!IMPORTANT]
 >
 >Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 >
 >* För den nya planen och licensstrukturen:
 >
->   * Den ultimata Workfront-planen
+>   * Ultimate Workfront-planen
 >    
 >* För aktuell plan och licensstruktur:
 >

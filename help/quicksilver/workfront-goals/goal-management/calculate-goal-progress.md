@@ -1,38 +1,39 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Översikt över målets förlopp och villkor i Adobe Workfront-mål
+title: Översikt över målstatus och villkor i Adobe Workfront-mål
 description: Målutvecklingen styrs av förloppsindikatorer som aktiviteter, resultat eller barnmål. Målvillkoret avgörs av målets förlopp vid den aktuella tidpunkten.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
 
 # Översikt över målets förlopp och villkor i Adobe Workfront-mål
 
-Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+<!--Audited for P&P only: 4/2025-->
 
-* För den nya planen och licensstrukturen:
-
-   * En Ultimate-plan
-
-     eller
-
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna.
-
-* För aktuell plan och licensstruktur:
-
-   * En Pro eller högre
-   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
-
-Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
-
-Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>
+>
+>* För den nya planen och licensstrukturen:
+>
+>   * En Ultimate-plan
+>    
+>* För aktuell plan och licensstruktur:
+>
+>   * En Pro eller högre
+>   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+>
+> Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+>
+>Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront beräknar automatiskt målutvecklingen baserat på förloppet för sina förloppsindikatorer.
 

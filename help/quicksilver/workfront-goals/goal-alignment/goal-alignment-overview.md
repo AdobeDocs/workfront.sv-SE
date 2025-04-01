@@ -7,7 +7,7 @@ description: Målanpassningen säkerställer att alla i organisationen är på s
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -16,13 +16,15 @@ ht-degree: 0%
 
 # Översikt över måljustering i Adobe Workfront-mål
 
+<!--Audited P&P only: 4/2025-->
+
 >[!IMPORTANT]
 >
 >Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 >
 >* För den nya planen och licensstrukturen:
 >
->   * Den ultimata Workfront-planen
+>   * Ultimate Workfront-planen
 >    
 >* För aktuell plan och licensstruktur:
 >
@@ -36,7 +38,7 @@ ht-degree: 0%
 
 Målanpassning är en viktig del av målhanteringen. Ni kan se till att alla i organisationen är på samma sida om vad som måste göras för att driva strategin framåt genom att anpassa deras mål till varandra och till de organisatoriska målen för team, grupper och företaget.
 
-Efter att de högsta målen för företag, team eller grupper har fastställts och granskats måste direktrapporter och teammedlemmar sedan skapa mer fokuserade mål som överlappar den högsta nivån. Omfattningen av dessa mål bör vara mer smal och ta hänsyn till den person som har utsetts till ansvarig för målet och deras omfattning. Målet bör svara på frågan om vad de och deras team måste uppnå för att uppnå det överordnade mål som det är anpassat till.
+När de högsta målen för företag, team eller grupper har fastställts och granskats måste direktrapporter och teammedlemmar sedan skapa mer fokuserade mål som överlappar den högsta nivån. Omfattningen av dessa mål bör vara mer smal och ta hänsyn till den person som har utsetts till ansvarig för målet och deras omfattning. Målet bör svara på frågan om vad de och deras team måste uppnå för att uppnå det överordnade mål som det är anpassat till.
 
 Mer information om de effektivaste strategierna när du justerar mål finns i [Kom igång med Adobe Workfront-mål](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
