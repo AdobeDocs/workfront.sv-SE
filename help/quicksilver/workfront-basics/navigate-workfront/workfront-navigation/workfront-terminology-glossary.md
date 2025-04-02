@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '17362'
+source-wordcount: '17424'
 ht-degree: 0%
 
 ---
@@ -299,8 +299,18 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Breakdown]</td> 
+   <td> <p>I Workfront Planning kan du visa anslutna poster i en posts tidslinjevy med hjälp av funktionen Uppdelning. </p>
+   <p>Genom att dela upp poster efter deras anslutningar kan du visa tidslinjerna för andra anslutna poster och förstå hur de kan påverka posternas prestanda och deadlines. </p>
+   <p>Kopplade poster visas kapslade under respektive post. </p>
+   <p>Mer information finns i <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Hantera tidslinjevyn</a>. </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet. </p>
    <p> Det här fältet är fortfarande synligt i [!UICONTROL project] rapporter och listor.</p>  </td> 
@@ -1116,7 +1126,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Last Published Date]</td> 
-   <td> <p>Ett fält i en [!UICONTROL Initiative]-, [!UICONTROL Initiative Job Role]- och [!UICONTROL Project]-rapport som visar datumet då ett planinitiativ senast publicerades i ett projekt. Du kan publicera initiativ för att skapa projekt eller för att uppdatera projekt som är kopplade till initiativen.</p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt [!DNL Scenario Planner]</a>. </p> <p><span>Mer information om publiceringsinitiativ finns i </span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publish-scenarier för att skapa och uppdatera projekt i [!DNL Workfront Scenario Planner]</a>. Det här fältet visas inte i din [!DNL Workfront]-instans om inte företaget har köpt en [!DNL Workfront Scenario Planner]-licens.</p> </td> 
+   <td> <p>Ett fält i en [!UICONTROL Initiative]-, [!UICONTROL Initiative Job Role]- och [!UICONTROL Project]-rapport som visar datumet då ett planinitiativ senast publicerades i ett projekt. Du kan publicera initiativ för att skapa projekt eller för att uppdatera projekt som är kopplade till initiativen.</p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt [!DNL Scenario Planner]</a>. </p> <p><span>Mer information om publiceringsinitiativ finns i </span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publicera scenarier för att skapa och uppdatera projekt i [!DNL Workfront Scenario Planner]</a>. Det här fältet visas inte i din [!DNL Workfront]-instans om inte företaget har köpt en [!DNL Workfront Scenario Planner]-licens.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Inline Search]</td> 
@@ -1663,7 +1673,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>En samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp Portfolio i Program och associera projekten med Program innan de läggs till i Portfolio.</p> <p>Mer information om portföljer finns i <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Översikt över Portfolio i [!DNL Adobe Workfront]</a>.</p> 
+   <td> <p>En samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp portföljer i Program och associera projekten med Program innan de läggs till i en Portfolio.</p> <p>Mer information om portföljer finns i <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Översikt över Portfolio i [!DNL Adobe Workfront]</a>.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
@@ -2096,7 +2106,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Slack Date]</td> 
-   <td>I en uppgiftsvy eller rapport visar [!UICONTROL Slack Date] det exakta datumet när en aktivitet definitivt kan påverka [!UICONTROL Completion Date] för projektet. Mer information om [!UICONTROL Slack Date] för en aktivitet finns i <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Översikt över aktivitetsdatum i Slack </a>.</td> 
+   <td>I en uppgiftsvy eller rapport visar [!UICONTROL Slack Date] det exakta datumet när en aktivitet definitivt kan påverka [!UICONTROL Completion Date] för projektet. Mer information om [!UICONTROL Slack Date] för en aktivitet finns i <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Aktivitets-Slack datumöversikt</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Smart Assignments]</td> 

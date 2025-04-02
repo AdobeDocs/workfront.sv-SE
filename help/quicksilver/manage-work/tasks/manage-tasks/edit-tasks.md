@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Redigera uppgifter
-description: Du kan redigera information om åtgärder som du har skapat eller om du har Contribute- eller Hantera-behörighet för. I den här artikeln beskrivs hur du kan söka efter, söka efter och redigera en uppgift, om du har behörighet att göra det.
+description: Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera. I den här artikeln beskrivs hur du kan söka efter, söka efter och redigera en uppgift, om du har behörighet att göra det.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3706'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 -->
 
 
-Du kan redigera information om åtgärder som du har skapat eller om du har Contribute- eller Hantera-behörighet för.
+Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
 
 ## Åtkomstkrav
 
@@ -54,7 +54,7 @@ Du kan redigera information om åtgärder som du har skapat eller om du har Cont
    <td role="rowheader">Objektbehörigheter</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-behörigheter till en uppgift för att redigera följande information i området Uppgiftsinformation: </p>
+     <li> <p>Contribute-behörigheter för en uppgift om du vill redigera följande information i området Uppgiftsinformation: </p>
      <ul>
      <li>Beskrivning</li>
      <li>Status</li>
@@ -63,7 +63,7 @@ Du kan redigera information om åtgärder som du har skapat eller om du har Cont
      <li> <p>Hantera behörigheter för en uppgift för att redigera all information i området Detaljer och i rutan Redigera uppgift</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Contribute eller högre behörighet till projektet</p> </li> 
+     <li> <p>Contribute eller högre behörighet för projektet</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Tänk på följande när du redigerar uppgifter:
 * När du uppdaterar uppgifter utlöses meddelanden för projekt som har statusen Aktuell. För att undvika förvirring för användare som är tilldelade till aktiviteterna bör du begränsa redigeringsuppgifterna så mycket som möjligt när projektet har statusen Aktuell.
 * Du kan inte redigera uppgifter som ingår i en godkännandeprocess. Du kan bara logga tid eller uppdatera status för en aktivitet i en godkännandeprocess.
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![Redigera aktivitet med godkännandeprocess](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * Du kan bara redigera och lägga till dokument i uppgifter i ett projekt som har statusen Fullständigt, Dölj eller Väntar på godkännande när Workfront-administratören eller en gruppadministratör har aktiverat den här funktionen i området Projektinställningar. Mer information om hur du anger projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -151,7 +151,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       * Ökning
       * Namnet på ett eller flera anpassade formulär
 
-      PDF-filen hämtas till datorn.
+      PDF-filen hämtas till din dator.
 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
@@ -223,8 +223,11 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       <td role="rowheader">Status</td> 
       <td> <p>Välj status för uppgiften som anger i vilket utvecklingsstadium uppgiften befinner sig.</p> <p><b>TIPS</b>
 
-   Du kan uppdatera aktivitetsstatus i uppgiftshuvudet. </p> </td>
-   </tr> 
+   Du kan uppdatera aktivitetsstatus i uppgiftshuvudet. </p>
+
+   <p>Din Workfront- eller gruppadministratör kan anpassa namnen på uppgiftsstatusvärdena. Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">Skapa eller redigera en status</a>. 
+      </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Prioritet</td> 
       <td> <p>Det här är en visuell flagga som gör att du kan prioritera dina uppgifter. </p> <p>Välj bland följande alternativ: </p> 

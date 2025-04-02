@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2684'
 ht-degree: 0%
 
 ---
@@ -394,7 +394,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    Posterna visas i tidslinjevyn med de specifikationer som du har valt.
 
-### Använd funktionen Delning för att visa anslutna poster i tidslinjevyn
+### Dela upp kopplade poster i tidslinjevyn
 
 Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen Uppdelning. Genom att dela upp poster efter deras anslutningar kan du visa tidslinjerna för andra anslutna poster och förstå hur de kan påverka posternas prestanda och deadlines.
 
@@ -418,7 +418,7 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
 * Start- och slutdatumen för de posttyper som du vill visa i tidslinjevyn måste anges i kronologisk ordning. Om en post till exempel har startdatumet 31 januari och slutdatumet 1 januari visas den inte i tidslinjevyn. Mer information finns i avsnittet [Hantera en tidslinjevy](#manage-a-timeline-view) i den här artikeln.
 * Det finns en gräns på 5 posttyper som du kan inkludera i en posts uppdelning.
 
-#### Dela upp kopplade poster i tidslinjevyn
+#### Dela upp anslutna poster
 
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Villkorligt) Om du visar tidslinjevyn i standardläge klickar du på **Brytning**.
