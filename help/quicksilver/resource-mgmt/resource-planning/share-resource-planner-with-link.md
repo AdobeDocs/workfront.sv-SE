@@ -6,9 +6,9 @@ description: Adobe Workfront kan generera en unik URL för användarvyn i resurs
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-
 Tänk på följande när du genererar den unika URL:en för användarvyn i resursplaneraren:
 
 * Du kan bara hämta en unik URL-adress för användarvyn. Alternativet att generera URL:en finns inte i projekt- eller rollvyerna.
@@ -80,18 +79,18 @@ Så här får du en unik URL-adress i användarvyn för resursplaneraren och del
    * Kvartal
 
 1. (Valfritt) Välj om du vill visa informationen med **FTE** eller **Timmar**.\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![Välj FTE eller Timmar](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Valfritt) Använd filter i resursplaneraren.\
    Mer information om hur du använder filter finns i [Filterinformation i resursplaneraren](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
 
 1. Klicka på ikonen **hyperlänk** .\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![Hyperlänkikon och URL](assets/rp-generate-url-from-link-icon.png)
 
 1. Klicka på **Kopiera URL**.\
    Detta kopierar den unika URL:en för resursplaneraren i användarvyn till Urklipp.
 
-1. (Valfritt) Gör något av följande:  
+1. (Valfritt) Gör något av följande:
 
    * Klistra in URL:en i ett annat program för att skicka den till en annan användare.\
      Användaren måste vara inloggad på Workfront för att kunna visa resursplaneraren i användarvyn.
@@ -114,4 +113,4 @@ Så här får du en unik URL-adress i användarvyn för resursplaneraren och del
    Mer information om hur du lägger till kontrollpaneler i en layoutmall finns i [Skapa och hantera layoutmallar](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) .\
    Mer information om att dela instrumentpaneler finns i [Dela en instrumentpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) .\
    När du visar den delade URL:en kan användarna se informationen med de inställningar som du ursprungligen tillämpade på resursplaneraren. De måste vara inloggade på Workfront för att kunna visa den delade URL:en.\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![Exempel på instrumentpanel med resursplanering visas](assets/user-view-dashoard-from-unique-url-350x85.png)
