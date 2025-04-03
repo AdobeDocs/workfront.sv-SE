@@ -3,17 +3,19 @@ product-area: requests
 navigation-topic: create-requests
 title: Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt
 description: Du kan konfigurera ett projekt så att användare kan lägga till problem i projektet via e-post.
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -55,9 +57,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Förutsättningar
 
-Följande krav krävs för att konfigurera ett projekt så att användare kan lägga till problem i projektet via e-post.
-
-Dessa villkor måste vara uppfyllda innan den här funktionen aktiveras:
+Följande villkor krävs för att konfigurera ett projekt så att användare kan lägga till problem i projektet via e-post:
 
 * Användare som skickar e-postmeddelanden till det här kontot måste vara aktiva användare med en licens för Workfront.
 * Användare som skickar e-postmeddelanden till det här kontot måste ha behörigheten Lägg till problem i projektet.
@@ -79,7 +79,7 @@ Dessa villkor måste vara uppfyllda innan den här funktionen aktiveras:
 
 1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
 1. Klicka på **Köinformation** i den vänstra panelen. Du kan behöva klicka på **Visa fler** först.
-1. I området **Kötyp** väljer du **Publish som kö för hjälpbegäran**.
+1. I området **Kötyp** väljer du **Publicera som kö för hjälpbegäran**.
 
 1. Bläddra ned till området **Inställningar för e-postkö** och välj sedan **Aktivera inmatning av begäran via e-post**.
 

@@ -8,14 +8,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
 
 # Ange projektplanerat slutförandedatum
+
+<!-- Audited: 4/2025 -->
 
 Planerat slutförandedatum för ett projekt är det datum då projektet är inställt på att slutföras.
 
@@ -56,6 +58,8 @@ Det planerade slutförandedatumet för ett projekt kan anges manuellt eller auto
 </table>
 -->
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>
+   Nytt: Standard
+
+eller
+
+Aktuell: Planera </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
 
 Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
@@ -83,7 +94,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ange manuellt planerat slutförandedatum för ett projekt
 
@@ -96,15 +109,17 @@ Du måste manuellt ange planerat slutförandedatum för ett projekt när du sche
 
 Så här schemalägger du ett projekt från Slutförandedatum:
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
+{{step1-to-projects}}
 
-1. Klicka på **Nytt projekt** och sedan på **Nytt projekt**.
+1. Klicka på **Nytt projekt** och välj sedan **Nytt projekt** i listrutan som visas.
 
    Mer information om hur du skapar projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Välj **Projektinformation** i den vänstra panelen och klicka sedan på ikonen **Redigera projekt** i det övre högra hörnet.
+1. Välj **Projektinformation** i den vänstra panelen.
 
-1. Välj **Slutförandedatum** i fältet **Schemaläge**.
+1. Klicka på ikonen **Redigera projekt** ![Redigera ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
+
+1. Klicka på fältet **Schemaläge** i avsnittet **Projektdatum** och välj sedan **Slutförandedatum**.
 
 1. Ange **Planerat slutförandedatum** för projektet.
 1. Klicka på **Spara ändringar**.
@@ -117,15 +132,17 @@ Det planerade slutförandedatumet för ett projekt beräknas automatiskt av Work
 
 Så här schemalägger du ett projekt från startdatum:
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
+{{step1-to-projects}}
 
-1. Klicka på **Nytt projekt** och sedan på **Nytt projekt**.
+1. Klicka på **Nytt projekt** och välj sedan **Nytt projekt** i listrutan som visas.
 
    Mer information om hur du skapar projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Välj **Projektinformation** i den vänstra panelen och klicka sedan på ikonen **Redigera projekt** i det övre högra hörnet.
+1. Välj **Projektinformation** i den vänstra panelen.
 
-1. Välj **Startdatum** i fältet **Schemaläge**.
+1. Klicka på ikonen **Redigera projekt** ![Redigera ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
+
+1. Klicka på fältet **Schemaläge** i avsnittet **Projektdatum** och välj sedan **Startdatum**.
 
 1. Ange projektets **planerade startdatum**.
 1. Klicka på **Spara ändringar**.
