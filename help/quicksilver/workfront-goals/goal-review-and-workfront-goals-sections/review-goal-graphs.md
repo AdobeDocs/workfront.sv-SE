@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Granska diagram för att förstå målutvecklingstrender i Adobe Workfront-mål
+title: Granska diagram för att förstå målförloppstrender i Adobe Workfront-mål
 description: Du kan visa den övergripande statusen för dina mål och deras utvecklingstrend i tid i avsnittet Diagram för Adobe Workfront-mål. Diagrammen i det här avsnittet bryter inte ned förloppet för varje mål utan ger dig i stället en helhetsbild av alla målens förloppsstatus samt deras förloppstrend under en angiven period.
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 # Granska diagram för att förstå målutvecklingstrender i Adobe Workfront-mål
 
-<!-- drafted mostly for P&P release-->
+<!--Audited for P&P only: 4/2025-->
 
 Du kan visa den övergripande statusen för dina mål och deras utvecklingstrend i tid i avsnittet Diagram för Adobe Workfront-mål. Diagrammen i det här avsnittet bryter inte ned förloppet för varje mål utan ger dig i stället en helhetsbild av alla målens förloppsstatus samt deras förloppstrend under en angiven period.
 
@@ -25,7 +25,9 @@ Du kan visa den övergripande statusen för dina mål och deras utvecklingstrend
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskrivs i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande:
 
 <table style="table-layout:auto">
 <col>
@@ -42,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 <p>För aktuell plan och licensstruktur: 
 <ul><li> En Pro eller högre </li>
   <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licens*</td>
@@ -54,12 +56,9 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Nytt produktkrav, något av följande: </p>
-<ul>
-<li>A Select- eller Prime Adobe Workfront-plan och en extra licens för Adobe Workfront Goals.</li>
-<li>En Ultimate Workfront-plan som innehåller Workfront-mål som standard. </li></ul>
- <p>eller</p>
- <p>Aktuellt produktkrav: En Workfront-plan och ytterligare licens för Adobe Workfront-mål. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
+    <p> Nytt produktkrav: Workfront</p>
+    eller
+    <p>Aktuellt produktkrav: Förutom en Workfront-licens måste du köpa en licens för Adobe Workfront Goals. </p> <p>Mer information finns i <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Krav för att använda Workfront-mål</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Åtkomstnivå</p></td>
@@ -83,6 +82,8 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 </table>
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Typer av diagram i Workfront-mål
 

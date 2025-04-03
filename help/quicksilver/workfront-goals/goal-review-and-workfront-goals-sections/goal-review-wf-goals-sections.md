@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Målgranskning och avsnitten om Adobe Workfront-mål
+title: 'Målgranskning och Adobe Workfront målavsnitt: Artikelindex'
 description: Lär dig mer om hur du granskar mål och vilka avsnitt där du kan hantera mål i Adobe Workfront i följande artiklar.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# Målgranskning och avsnitten om Adobe Workfront-mål
+# Målgranskning och avsnitten Adobe Workfront-mål: artikelindex
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,7 +24,7 @@ ht-degree: 0%
 >
 >* För den nya planen och licensstrukturen:
 >
->   * Den ultimata Workfront-planen
+>   * Ultimate Workfront-planen
 >    
 >* För aktuell plan och licensstruktur:
 >

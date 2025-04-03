@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1892'
 ht-degree: 0%
 
 ---
@@ -214,6 +214,8 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
      >[!NOTE]
      >
      >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
+     >
+     >Det finns en länk till begäran i e-postbekräftelsen eller godkännandemeddelandet.
 
    1. (Valfritt) Klicka på **Visa din begäran** i bekräftelsemeddelandet om du vill öppna begäran eller klicka på ikonen **X** om du vill stänga bekräftelsen.
 
