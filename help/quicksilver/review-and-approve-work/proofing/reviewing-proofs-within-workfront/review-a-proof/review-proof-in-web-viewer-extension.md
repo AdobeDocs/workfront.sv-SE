@@ -6,9 +6,9 @@ description: Adobe Workfront granskningsverktyg är ett webbläsartillägg som g
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,37 @@ Adobe Workfront granskningsverktyg är ett webbaserat webbläsartillägg som gö
 Vi rekommenderar att du använder Desktop Proofing Viewer om innehållet du behöver granska finns på en webbplats som
 
 * Kräver SSO-autentisering
-* Förhindrar att deras webbplats öppnas i iFrames, t.ex. Figma
+* Förhindrar att deras plats öppnas i iFrames, t.ex. Figma
 
 
+## Installera tillägget
 
-## Använd Adobe Workfront granskningsverktyg som standardvisningsprogram för URL- och ZIP-korrektur
+### Förutsättningar
+
+* Du måste ta bort det äldre tillägget för Web Viewer för att kunna använda verktyget Adobe Workfront Review.
+
+### Installera tillägget
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+Granskare och godkännare måste installera Adobe Workfront granskningsverktyg. i någon av följande webbläsare:
+
+* [Firefox-tillägg](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Chrome-tillägg](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+För att interaktiva korrektur ska kunna öppnas automatiskt i Adobe Workfront granskningsverktyg måste en Workfront-administratör uppdatera korrekturinställningarna på arbetsytan enligt beskrivningen i avsnitten nedan.
+
+## Uppdatera standardvärden för Workfront-korrektur
+
+### Använd Adobe Workfront granskningsverktyg som standardvisningsprogram för URL- och ZIP-korrektur
 
 Om du vill använda webbgranskningsverktyget för URL- och ZIP-korrektur måste en Workfront-administratör justera standardinställningen för interaktiva korrektur.
 
@@ -43,9 +69,9 @@ Om du vill använda webbgranskningsverktyget för URL- och ZIP-korrektur måste 
 
 >[!NOTE]
 >
->Den här ändringen gäller för alla interaktiva korrektur i förhandsgransknings- och produktionsmiljöer. Vi rekommenderar att du testar den nya upplevelsen i förhandsvisningsmiljön innan du aktiverar den i Production. Du kan enkelt växla tillbaka till Desktop Viewer genom att ändra kontoinställningen till **Aktiverad för alla interaktiva korrektur**.
+>Den här ändringen gäller för alla interaktiva korrektur i din Workfront-instans. Vi rekommenderar att du testar den nya upplevelsen i förhandsvisningsmiljön innan du aktiverar den i Production. Du kan enkelt växla tillbaka till Desktop Viewer genom att ändra kontoinställningen **Desktop Proofing Viewer for Interactive proofing** tillbaka till **Aktiverad för alla interaktiva korrektur**.
 
-## Använd Adobe Workfront granskningsverktyg som standardvisningsprogram endast för ZIP-korrektur
+### Använd Adobe Workfront granskningsverktyg som standardvisningsprogram endast för ZIP-korrektur
 
 Om du bara vill använda webbgranskningsverktyget för ZIP-korrektur måste en Workfront-administratör justera standardinställningen för interaktiva korrektur.
 
@@ -57,20 +83,7 @@ Om du bara vill använda webbgranskningsverktyget för ZIP-korrektur måste en W
 
 >[!NOTE]
 >
->Den här ändringen gäller för alla interaktiva korrektur i förhandsgransknings- och produktionsmiljöer. Vi rekommenderar att du testar den nya upplevelsen i förhandsvisningsmiljön innan du aktiverar den i Production. Du kan enkelt växla tillbaka till Desktop Viewer genom att ändra kontoinställningen till **Aktiverad för alla interaktiva korrektur**.
+>Den här ändringen gäller för alla ZIP-korrektur i din Workfront-instans. Vi rekommenderar att du testar den nya upplevelsen i förhandsvisningsmiljön innan du aktiverar den i Production. Du kan enkelt växla tillbaka till Desktop Viewer genom att ändra kontoinställningen **Desktop Proofing Viewer for Interactive proofing** tillbaka till **Aktiverad för alla interaktiva korrektur**.
 
-## Installera tillägget
 
-Granskare och godkännare måste installera Adobe Workfront granskningsverktyg. i någon av följande webbläsare:
 
-* [Firefox-tillägg](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Chrome-tillägg](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-När du har installerat tillägget öppnas interaktiva korrektur automatiskt i Adobe Workfront granskningsverktyg.
-
->[!IMPORTANT]
->
->Du måste ta bort det äldre tillägget för Web Viewer för att kunna använda verktyget Adobe Workfront Review.

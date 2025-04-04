@@ -6,16 +6,22 @@ description: Handläggningsbeslut och dokumentbeslut är begränsade för alla o
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Begränsat dokument och bevisbeslut för obetalda användare - översikt
 
-Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser för nya planer. Mer information finns i [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser för nya planer. När du tilldelas som godkännare för ett dokument eller ett korrektur måste du fatta ett beslut om att flytta gransknings- och godkännandeprocessen framåt.
+
+Följande beslutsalternativ räknas in i månadsgränsen:
+
+* Godkänn
+* Godkänn med ändringar
+* Behöver göras
 
 Begränsningar som återställs per användare och månad. Beslutsgränsen för respektive licens varierar beroende på vilken plan du har:
 
@@ -61,6 +67,8 @@ Begränsningar som återställs per användare och månad. Beslutsgränsen för 
    </td>
   </tr>
 </table>
+
+Mer information finns i [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 ## Externa användare
 
