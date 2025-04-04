@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -298,9 +298,11 @@ I takt med att vi fortsätter att förbättra Workfront-plattformen är det vikt
 
 #### Vi tar bort den äldre Agile-vyn i ett projekt
 
-Den äldre Agile-vyn i ett projekt kommer att tas bort från Workfront med version 25.3 den 13 mars 2025. Du kan fortfarande visa dina uppgifter i en Agile-vy i ett projekt genom att klicka på ikonen för anslagstavlor.
+Den äldre Agile-vyn i ett projekt kommer att tas bort från Workfront med version 25.3 den 13 mars 2025. Du kan fortfarande visa dina uppgifter i en Agile-vy i ett projekt genom att klicka på ikonen för anslagstavlor. De befintliga flexibla verktygen är fortfarande tillgängliga i Teams-området.
 
-Mer information om hur du använder vyn Agile finns i [Hantera ett projekt i vyn Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Bilden nedan visar det äldre flexibla alternativet som kommer att tas bort:
+![gammal länk för flexibel vy](assets/project-agile-board-view.png)
+
 
 #### Förbättrad borttagning av analysfunktioner
 
