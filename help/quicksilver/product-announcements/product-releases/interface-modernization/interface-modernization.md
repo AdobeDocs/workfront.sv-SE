@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -212,11 +212,23 @@ Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersl
 
 +++Expandera för att visa uppdateringar av dokumentgränssnittet
 
+### Gränssnittsuppdateringar av delningssidan för externa dokument
+
+**Förhandsversion: 3 april 2025; Produktionsversion: Från och med 10 april 2025**
+
+Vi har uppdaterat sidan som externa användare ser när ett dokument delas med dem. Från den här sidan kan externa användare
+
+* Ladda ned dokumentet
+* Fatta ett beslut om godkännande
+* Öppna korrekturläsaren
+
+Uppdateringen innehåller en modernare design som är förenlig med andra delar av Workfront.
+
 ### Gränssnittsuppdatering för Godkännandeområdet i ett dokument
 
 **Förhandsversion: 13 februari 2025; Produktionsversion: Från och med 27 februari 2025**
 
-Vi har uppdaterat godkännandeområdet i ett dokument med en modernare design som är förenlig med andra delar av Workfront.
+Vi har uppdaterat godkännandeområdet för ett dokument med en modernare design som är förenlig med andra delar av Workfront.
 
 Om du vill visa den här ändringen går du till ett dokument > Klicka på Dokumentinformation > Godkännanden.
 
