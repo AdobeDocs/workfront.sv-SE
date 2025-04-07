@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -66,8 +66,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Objekten sorteras som standard efter återställningsdatum.
 
-1. Klicka på fliken **Projekt**, **Åtgärder**, **Problem** eller **Dokument**, beroende på vilken typ av objekt som återställdes.
+1. Klicka på fliken **Projekt**, **Åtgärder**, **Problem**, **Dokument** eller **Mallar**, beroende på vilken typ av objekt som återställdes.
 
 1. Klicka på det länkade namnet på objektet som du vill visa.
 
-   Projektet, uppgiften, utgåvan eller dokumentet visas.
+   Projektet, uppgiften, utgåvan, dokumentet eller mallen visas.
