@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 16c1cb48fcbd771cbc5e01c53c43009be64a9d8c
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Du kan lägga till ett nytt anpassat fält eller en ny widget direkt från fältområdet i Workfront, utan att öppna ett anpassat formulär för att skapa fältet.
 
 Du kan också redigera egenskaperna för ett anpassat fält, en avsnittsbrytning eller en widget som används i anpassade formulär. Dessa innehåller objektets etikett, namn, instruktioner och så vidare.
+
+Om du tar bort ett anpassat fält från ett anpassat formulär finns det fortfarande i alla andra formulär som det har lagts till i, och du kan redigera det i ett formulär eller i området Fält. Mer information om hur du tar bort ett fält finns i [Ta bort ett eget fält eller en anpassad widget från systemet](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
 Mer information om anpassade fält och widgetar i anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -80,3 +82,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. När du är klar klickar du på **Redigera**.
+
