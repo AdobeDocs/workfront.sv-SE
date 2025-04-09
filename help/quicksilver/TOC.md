@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
+source-git-commit: 43e58f4495cc970b1d0f49dd4ce38fd8b1ef61e4
 workflow-type: tm+mt
 source-wordcount: '13116'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 # Användarhandbok om Workfront {#using}
 
 * [Workfront-dokumentation](home.md)
-* Produktmeddelanden {#product-announcements}
+* Produktmeddelanden
    * [Produktmeddelanden](product-announcements/product-announcements.md)
-   * Produktreleaser {#product-releases}
+   * Produktreleaser
       * [Produktreleaser - översikt](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront-releaseschema och -process](product-announcements/product-releases/workfront-release-schedule.md)
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
-      * 2025 Q2-utgåvan {#release-25-q2}
+      * 2025 Q2-utgåvan
          * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025 Q2 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [2025 Q2 Förbättrad dokumenthantering](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
@@ -28,7 +28,7 @@ ht-degree: 0%
          * [Förbättringar av 2025 Q2-rapportering](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [Andra förbättringar under den andra kvartersversionen 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [Uppdateringar av utseende och känsla under 2025 års Q2-utgåva](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
-      * 2025 Q1-utgåvan {#release-25-q1}
+      * 2025 Q1-utgåvan
          * [2025 Q1 - versionsöversikt](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025 Q1 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
          * [Förbättringar av 2025 Q1-kort](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)
@@ -40,7 +40,7 @@ ht-degree: 0%
          * [2025 Q1 Update stream enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md)
          * [Andra förbättringar under den första kvartersversionen 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [Uppdateringar av utseende och känsla under 2025 års Q1-release](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
-      * 2024 Q4 Release {#release-24-q4}
+      * 2024 Q4 Release
          * [2024 Q4 Release - översikt](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024 Q4 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024 Q4 Förbättrad dokumenthantering](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md)
@@ -51,7 +51,7 @@ ht-degree: 0%
          * [Förbättringar av Q4-rapporten och Dashboard 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
          * [Andra förbättringar under den fjärde kvartersversionen 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 2024 års Q4-release](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
-      * 2024 Q3-utgåvan {#release-24-q3}
+      * 2024 Q3-utgåvan
          * [2024 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [2024 Q3 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [Förbättringar av den ekonomiska förvaltningen under det tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
@@ -61,7 +61,7 @@ ht-degree: 0%
          * [Förbättrad resurshantering 2024 Q3](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [Andra förbättringar under 2024 års Q3-utgåva](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 2024 års Q3-release](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
-      * 2024 Q2-utgåvan {#release-24-q2}
+      * 2024 Q2-utgåvan
          * [2024 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024 Q2 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [2024 Q2 Förbättrad dokumenthantering](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
@@ -71,7 +71,7 @@ ht-degree: 0%
          * [2024 Q2 Resurshanteringsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024 Q2 Update stream enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 2024 års Q2-release](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
-      * 2024 Q1-utgåvan {#release-24-q1}
+      * 2024 Q1-utgåvan
          * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [2024 Q1 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
          * [Förbättrad dokumenthantering 2024 Q1](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
@@ -80,7 +80,7 @@ ht-degree: 0%
          * [2024 Q1-integreringsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
          * [2024 Q1 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
          * [2024 Q1 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-      * 2023 Q4-utgåvan {#release-23-q4}
+      * 2023 Q4-utgåvan
          * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023 Q4 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
          * [Förbättringar av 2023 Q4-kort](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
@@ -90,7 +90,7 @@ ht-degree: 0%
          * [2023 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
          * [2023 Q4 Andra förbättringar](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 2023 Q4-releasen](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
-      * 23.3 Utgåva {#release-23-3}
+      * 23.3 Utgåva
          * [23.3 Versionsöversikt](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 Förbättringar av administratören](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3 Agile-förbättringar](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
@@ -100,7 +100,7 @@ ht-degree: 0%
          * [23.3 Mobilförbättringar](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
          * [23.3 Andra förbättringar](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Utforma och känna av uppdateringar under 23.3-releasetidningen](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
-      * 23.2 Utgåva {#release-23-2}
+      * 23.2 Utgåva
          * [23.2 Versionsöversikt](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Administratörsförbättringar](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Agile-förbättringar](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
@@ -110,14 +110,14 @@ ht-degree: 0%
          * [23.2 Mobilförbättringar](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
          * [23.2 Andra förbättringar](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Utforma och känna av uppdateringar under 23.2-releasetidningen](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
-      * 23.1 Utgåva {#release-23-1}
+      * 23.1 Utgåva
          * [23.1 Versionsöversikt](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
          * [23.1 Förbättringar av projekt- och resurshantering](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
          * [23.1 Agile-förbättringar](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
          * [23.1 Mobilförbättringar](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
          * [23.1 Andra förbättringar](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 23.1-releasetidningen](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
-      * 22.4 Utgåva {#release-22-4}
+      * 22.4 Utgåva
          * [22.4 Versionsöversikt](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
          * [22.4 Förbättringar av administratören](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
          * [2.4 Projektförbättringar](product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)
@@ -125,7 +125,7 @@ ht-degree: 0%
          * [22.4 Förbättrad resurshantering](product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md)
          * [22.4 Andra förbättringar](product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md)
          * [22.4 Uppdateringar av utseende och känsla](product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md)
-      * 22.3 Utgåva {#release-22-3}
+      * 22.3 Utgåva
          * [22.3 Versionsöversikt](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [2.3 Administratörsförbättringar](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [2.3 Integration enhancements](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
@@ -135,7 +135,7 @@ ht-degree: 0%
          * [2.3 Förbättrad resurshantering](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
          * [2.3 Förbättrade rapporter](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [Se och känna av uppdateringar under tidsramen för version 22.3](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
-      * 22.2 Utgåva {#release-22-2}
+      * 22.2 Utgåva
          * [22.2 Versionsöversikt](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
          * [2.2 Administratörsförbättringar](product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md)
          * [2.2 Projektförbättringar](product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md)
@@ -145,7 +145,7 @@ ht-degree: 0%
          * [2.2 Integration enhancements](product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md)
          * [22.2 Andra förbättringar](product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 22.2-versionen](product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md)
-      * 22.1 Utgåva {#release-22-1}
+      * 22.1 Utgåva
          * [2.1 Versionsöversikt](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
          * [2.1 Förbättringar av administratören](product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md)
          * [2.1 Projektförbättringar](product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md)
@@ -154,7 +154,7 @@ ht-degree: 0%
          * [2.1 Förbättrad korrekturläsning](product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md)
          * [22.1 Andra förbättringar](product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md)
          * [22.1 Mobilförbättringar](product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md)
-      * 21.4 Utgåva {#release-21-4}
+      * 21.4 Utgåva
          * [21.4 Versionsöversikt](product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)
          * [21.4 Administratörsförbättringar](product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md)
          * [21.4 Agile-förbättringar](product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md)
@@ -166,7 +166,7 @@ ht-degree: 0%
          * [21.4 Integration enhancements](product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md)
          * [21.4 Mobilförbättringar](product-announcements/product-releases/21.4-release-activity/21-4-mobile-enhancements.md)
          * [21.4 Andra förbättringar](product-announcements/product-releases/21.4-release-activity/21-4-other-enhancements.md)
-      * 21.3 Utgåva {#release-21-3}
+      * 21.3 Utgåva
          * [21.3 Versionsöversikt](product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)
          * [21.3 Administratörsförbättringar](product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md)
          * [21.3 Projektförbättringar](product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md)
@@ -174,7 +174,7 @@ ht-degree: 0%
          * [21.3 Förbättrade begäranden](product-announcements/product-releases/21.3-release-activity/21-3-requests-enhancements.md)
          * [21.3 Förbättringar av korrektur](product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md)
          * [21.3 Andra förbättringar](product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md)
-      * 21.2 Utgåva {#release-21-2}
+      * 21.2 Utgåva
          * [21.2 Versionsöversikt](product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)
          * [21.2 Administratörsförbättringar](product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md)
          * [21.2 Projektförbättringar](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
@@ -185,7 +185,7 @@ ht-degree: 0%
          * [21.2 Integration enhancements](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 Andra förbättringar](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
          * [21.2 Mobilförbättringar](product-announcements/product-releases/21.2-release-activity/21-2-mobile-enhancements.md)
-      * 21.1 Utgåva {#release-21-1}
+      * 21.1 Utgåva
          * [21.1 - versionsöversikt](product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)
          * [21.1 Förbättringar av administratörer](product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md)
          * [21.1 Förbättrad resurshantering](product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md)
@@ -194,35 +194,35 @@ ht-degree: 0%
          * [21.1 Integration enhancements](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
          * [21.1 Mobilförbättringar](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Andra förbättringar](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
-      * Adobe Workfront Planning - lanseringsaktivitet{#planning-release-activity}
+      * Adobe Workfront Planning - lanseringsaktivitet
          * [Adobe Workfront Planning - lanseringsaktivitet](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
          * [Andra utgåvan för kvartal 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Första utgåvan av kvartal 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Versionsaktivitet fjärde kvartalet 2024 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
-      * Versionsaktivitet för Adobe Workfront Scenario Planner {#scenario-planner-release}
+      * Versionsaktivitet för Adobe Workfront Scenario Planner
          * [Versionsaktivitet för Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Adobe Workfront Scenario Planner med version 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
          * [Adobe Workfront Scenario Planner med version 21.2](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
          * [Adobe Workfront Scenario Planner med version 21.1](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
          * [Workfront Scenario Planner med version 20.4 - 14 oktober 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
          * [Workfront Scenario Planner med version 20.3 - 14 augusti 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
-      * Aktivitet för att frisläppa Adobe Workfront-mål {#goals-release}
+      * Aktivitet för att frisläppa Adobe Workfront-mål
          * [Aktivitet för att frisläppa Adobe Workfront-mål](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * Mål med version 23.3 {#goals-23-3}
+         * Mål med version 23.3
             * [Adobe Workfront Goals with the 23.3 release](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
             * [Aktivitet för Adobe Workfront Goals version 23.3: 1 maj 2023](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
-         * Mål med version 23.2 {#goals-23-2}
+         * Mål med version 23.2
             * [Adobe Workfront Goals with the 23.2 release](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Adobe Workfront Goals 23.2 release activity: Week of March 20, 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
-         * Mål med version 23.1 {#goals-23-1}
+         * Mål med version 23.1
             * [Adobe Workfront Goals with the 23.1 release](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Adobe Workfront Goals 23.1 release activity: Week of December 5, 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
-         * Mål med version 21.2 {#goals-21-2}
+         * Mål med version 21.2
             * [Adobe Workfront Goals with the 21.2 release](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
             * [Aktivitet för Adobe Workfront Goals version 21.2: 19 april 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
             * [Aktivitet för Adobe Workfront Target 21.2: Vecka den 5 april 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
             * [Adobe Workfront Goals 21.2 release activity: Week of 15 februari 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
-         * Mål med version 21.1 {#goals-21-1}
+         * Mål med version 21.1
             * [Adobe Workfront Goals with the 21.1 release](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
             * [Adobe Workfront Goals 21.1 release activity: Week of January 11, 2021](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
             * [Adobe Workfront Goals 21.1 release activity: Week of December 14, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
@@ -230,19 +230,19 @@ ht-degree: 0%
             * [Aktivitet för Adobe Workfront Goals version 21.1: 16 november 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
          * [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront-mål med version 20.3 - 14 augusti 2020](product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)
-      * Versionsaktivitet för Workfront Proof {#proof-release}
-         * Korrektur med version 23.3 {#proof-23-3-release}
+      * Versionsaktivitet för Workfront Proof
+         * Korrektur med version 23.3
             * [Adobe Workfront Proof med version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
             * [Versionsaktivitet för Adobe Workfront Proof 23.3: 17 juli 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Versionsaktivitet för Adobe Workfront Proof 23.3: 5 juni 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3-utgåvan: 8 maj 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Versionsaktivitet för Workfront Proof: 17 maj 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Versionsaktivitet för Workfront Proof: 29 november 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      * Modernisering av gränssnitt {#interface-modernization}
+      * Modernisering av gränssnitt
          * [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
-      * Kvartalsvis publiceringsarkiv {#quarterly-release}
+      * Kvartalsvis publiceringsarkiv
          * [Kvartalsvis publiceringsarkiv](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
-         * 20.4-utgåvan {#release-20-4}
+         * 20.4-utgåvan
             * [20.4 versionsöversikt](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 Förbättrad projektledning](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
             * [20. 4 Förbättringar av analyser](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
@@ -250,7 +250,7 @@ ht-degree: 0%
             * [20.4 Förbättrade korrektur](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4 Förbättringar av mobiler och integrering](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
             * [20.4 Andra förbättringar](product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md)
-         * 20.3-utgåvan {#release-20-3}
+         * 20.3-utgåvan
             * [20.3 versionsöversikt](product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
             * [20.3 Förbättrad resurshantering](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
             * [20.3 Förbättringar av analysen](product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md)
@@ -259,14 +259,14 @@ ht-degree: 0%
             * [20.3 Agile-förbättringar](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
             * [20.3 Integration- och mobilförbättringar](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 andra förbättringar](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
-         * 20.2-utgåvan {#release-20-2}
+         * 20.2-utgåvan
             * [Översikt över version 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
             * [Förbättringar av 2020.2 för mobila enheter](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
             * [2020.2 andra förbättringar](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
             * [2020.2 Projektförbättringar](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
             * [Förbättringar av 2020.2-korrektur](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
             * [2020.2 Resurshanteringsförbättringar: Arbetsbelastningsutjämnaren](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
-         * 20.1-utgåvan {#release-20-1}
+         * 20.1-utgåvan
             * [Översikt över version 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [Förbättringar av 2020.1-listan](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [2020.1 Mobilförbättringar](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
@@ -275,20 +275,20 @@ ht-degree: 0%
             * [Förbättringar av 2020.1-språkkontroll](product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md)
             * [2020.1 Förbättrad resurshantering](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [Andra Workfront Classic-funktioner som lanserades i Production före version 2020.1](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
-         * 2019.4-utgåvan {#release-19-4}
+         * 2019.4-utgåvan
             * [Översikt över version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
             * [2019.4 Listförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
             * [2019.4 Mobilförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
             * [2019.4 andra förbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
             * [2019.4 Resurshanteringsförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
             * [Andra Workfront Classic-funktioner som lanserades i Production före version 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
-         * 2019.3-utgåvan {#release-19-3}
+         * 2019.3-utgåvan
             * [Aktivitetsöversikt för 2019.3-utgåvan](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3 Förbättringar av resursplanering](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
             * [2019.3 hemförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-home-enhancements.md)
             * [2019.3-integrering och mobilförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md)
             * [2019.3 Projektförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md)
-         * 2019.2-utgåvan {#release-19-2}
+         * 2019.2-utgåvan
             * [Aktivitetsöversikt för 2019.2-utgåvan](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)
             * [2019.2-administratörsförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-administrator-enhancements.md)
             * [2019.2 Agile-förbättringar](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-agile-enhancements.md)
@@ -296,14 +296,14 @@ ht-degree: 0%
             * [2019.2 Projektförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md)
             * [Förbättringar av korrektur för 2019.2](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-proofing-enhancements.md)
             * [2019.2 Resurshanteringsförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md)
-         * 2019.1-utgåvan {#release-19-1}
+         * 2019.1-utgåvan
             * [Versionsaktivitet 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity.md)
             * [Aktivitetsöversikt för 2019.1-utgåvan](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
             * [2019.1 Förbättringar av mobiler och integrering](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)
             * [2019.1 Projektförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
             * [Förbättringar av 2019.1-språkkontroll](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
             * [2019.1 Resurshanteringsförbättringar](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-         * 2018.3-utgåvan {#release-18-3}
+         * 2018.3-utgåvan
             * [Versionsaktivitet 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [Aktivitetsöversikt för version 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
             * [2018.3 Beta 1 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
@@ -312,7 +312,7 @@ ht-degree: 0%
             * [2018.3 Beta 4 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
             * [2018.3 Beta 5 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
             * [2018.3 Beta Final](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
-         * 2018.2-utgåvan {#release-18-2}
+         * 2018.2-utgåvan
             * [Versionsaktivitet 2018.2](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [Aktivitetsöversikt för 2018.2-utgåvan](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
             * [2018.2 Beta 1 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
@@ -321,7 +321,7 @@ ht-degree: 0%
             * [2018.2 Beta 4 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
             * [2018.2 Beta 5 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
             * [2018.2 Beta Final Release Activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
-         * 2018.1-utgåvan {#release-18-1}
+         * 2018.1-utgåvan
             * [Versionsaktivitet 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [Aktivitetsöversikt för 2018.1-utgåvan](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
             * [2018.1 Beta 1 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
@@ -329,7 +329,7 @@ ht-degree: 0%
             * [2018.1 Beta 3 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
             * [2018.1 Beta 4 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
             * [2018.1 Beta Final Release Activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
-         * 2017.3-utgåvan {#release-17-3}
+         * 2017.3-utgåvan
             * [Versionsaktivitet 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [Aktivitetsöversikt för 2017.3-utgåvan](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
             * [2017.3 Beta 1 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
@@ -338,7 +338,7 @@ ht-degree: 0%
             * [2017.3 Beta 4 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
             * [2017.3 Beta Final Release Activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [2017.3-utgåvan, webbinarier](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
-         * 2017.2-utgåvan {#release-17-2}
+         * 2017.2-utgåvan
             * [Versionsaktivitet 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [Aktivitetsöversikt för 2017.2-utgåvan](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
             * [2017.2 Beta 1 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
@@ -346,7 +346,7 @@ ht-degree: 0%
             * [2017.2 Beta 3 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
             * [2017.2 Beta Final](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [2017.2-utgåvan, webbinarier](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
-         * Workfront R1 {#r1-release}
+         * Workfront R1
             * [Workfront R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
             * [Aktivitetsöversikt för R1-release](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
             * [Funktioner som blev tillgängliga i förhandsgranskningen 2016](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
@@ -356,14 +356,14 @@ ht-degree: 0%
             * [R1 Preview 4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
             * [R1 Preview 5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
             * [Webbseminarier om R1-versionen](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-   * Meddelanden {#announcements}
+   * Meddelanden
       * [Meddelanden](product-announcements/announcements/announcements.md)
       * [Schema över funktioner som inte längre stöds](product-announcements/announcements/feature-removal-timeline.md)
       * [Avskrivningsguide för förbättrad analys](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [Frågor och svar om underhållsperioden](product-announcements/announcements/maintenance-window-faq.md)
       * [Ändringar som krävs för att lägga till korrektur i tillåtelselista](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Avbeställ utskick från meddelandecentret i den nya Adobe Workfront-upplevelsen](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * Meddelandearkiv {#announcement-archive}
+      * Meddelandearkiv
          * [Meddelandearkiv](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Förbättringar av anpassade formulär](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
@@ -375,20 +375,20 @@ ht-degree: 0%
          * [Sofing av e-post och borttagning av POP-svar](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [Kunder som använder kluster 1, 2 och 3 måste uppdatera alla IP-block i tillåtelselista för att förhindra blockering av Adobe Workfront tjänster](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [Ta bort anpassad SMTP som ett alternativ för utgående e-post](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * Beta {#beta}
+   * Beta
       * [Beta](product-announcements/betas/betas.md)
-      * Betaversion av Canvas Dashboards {#canvas-dashboards-beta}
+      * Betaversion av Canvas Dashboards
          * [Betaversionsinformation för Canvas Dashboards](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Betaversion av Reporting Canvas](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Betaversion av kontrollpaneler på arbetsytan: frisläppningsaktivitet](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
-      * Ny kommentarsfunktion - beta {#new-commenting-experience-beta}
+      * Ny kommentarsfunktion - beta
          * [Ny information om betaupplevelser vid kommentering](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Ny kommentarsfunktion](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Ny aktivitet för att frisläppa kommentarer](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nya vanliga frågor och svar om kommenteringsupplevelser](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-* Administration och konfiguration {#administration-and-setup}
+* Administration och konfiguration
    * [Administration och inställning: artikelindex](administration-and-setup/administration-and-setup.md)
-   * Kom igång med administration {#get-started-administration}
+   * Kom igång med administration
       * [Kom igång med administration: artikelindex](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Översikt över hur du definierar mål för implementeringen av Adobe Workfront](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [Hantera tillgängliga licenser i ditt system](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
@@ -399,9 +399,9 @@ ht-degree: 0%
       * [Skicka meddelanden](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [Krav för webbläsaren](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [Plattformsbaserade skillnader](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-   * Konfigurera Workfront {#set-up-wf}
+   * Konfigurera Workfront
       * [Konfigurera](administration-and-setup/set-up-workfront/set-up-workfront.md)
-      * Konfigurera systemstandardinställningar {#configure-system-defaults}
+      * Konfigurera systemstandardinställningar
          * [Konfigurera standardinställningar](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Konfigurera projektinställningar](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [Konfigurera inställningar för aktivitet och problem](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
@@ -419,14 +419,14 @@ ht-degree: 0%
          * [Skapa och redigera affärsregler](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Konfigurera platser](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-      * Konfigurera scheman och tidrapportinställningar {#configure-timesheets-schedules}
+      * Konfigurera scheman och tidrapportinställningar
          * [Konfigurera scheman och tidrapportinställningar](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Översikt över scheman](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
          * [Konfigurera loggtidstyper](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
          * [Inställningar för tidrapport och timme](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
          * [Hantera timtyper](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
          * [Skapa ett schema](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-      * Organisationsinställningar {#organization-setup}
+      * Organisationsinställningar
          * [Organisationsinställningar](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
          * [Hantera företag](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [Hantera företagsmedlemskap](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
@@ -436,12 +436,12 @@ ht-degree: 0%
          * [Ta bort jobbroller](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [Inaktivera jobbroller](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Åsidosätt faktureringstariffer för jobbroller](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-      * Systemspårade uppdateringsflöden {#system-tracked-updates}
+      * Systemspårade uppdateringsflöden
          * [Systemspårade uppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
          * [Systemspårade uppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [Konfigurera systemuppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [Konfigurera inställningar för användaruppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
-      * Adobe Workfront testmiljöer {#testing-environments}
+      * Adobe Workfront testmiljöer
          * [Testmiljöer](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [Förhandsgranska sandlådemiljö](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [Anpassad miljö för uppdatering av sandlådan](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
@@ -454,9 +454,9 @@ ht-degree: 0%
          * [Vanliga frågor om miljökampanjer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
          * [Felsökning av miljökampanjer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
-   * Användarhantering {#add-users}
+   * Användarhantering
       * [Användarhantering: artikelindex](administration-and-setup/add-users/add-users.md)
-      * Skapa och hantera användare {#create-manage-users}
+      * Skapa och hantera användare
          * [Skapa och hantera användare: artikelindex](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Lägg till användare](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [Importera användare](administration-and-setup/add-users/create-and-manage-users/import-users.md)
@@ -474,7 +474,7 @@ ht-degree: 0%
          * [Visa och exportera granskningsloggar](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Visa inloggningsinformation för användare](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Hantera användare i Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Så här fungerar nya åtkomstnivåer {#access-levels}
+      * Så här fungerar nya åtkomstnivåer
          * [Så här fungerar nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [Översikt över nya åtkomstnivåer](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [Översikt över nya licenser](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
@@ -483,7 +483,7 @@ ht-degree: 0%
          * [Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Jämför funktioner mellan olika licensmodeller](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Hur åtkomstnivåer fungerar {#legacy-access-levels}
+      * Hur åtkomstnivåer fungerar
          * [Hur åtkomstnivåer fungerar](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [Åtkomstöversikt](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
          * [Översikt över licenser](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
@@ -493,7 +493,7 @@ ht-degree: 0%
          * [Konfigurerbar åtkomst för varje objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
          * [Inbyggda åtkomstnivåer](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
          * [Visa användarnas åtkomstnivåer och licenser](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-      * Konfigurera åtkomst till Workfront {#configure-access}
+      * Konfigurera åtkomst till Workfront
          * [Konfigurera åtkomst](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Skapa eller ändra anpassade åtkomstnivåer](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
          * [Bevilja administrativ åtkomst](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
@@ -513,7 +513,7 @@ ht-degree: 0%
          * [Bevilja åtkomst till scenarioplan](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [Bevilja åtkomst till resurshantering](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Ge åtkomst till Workfront mål](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Enkel inloggning i Workfront {#sso}
+      * Enkel inloggning i Workfront
          * [Enkel inloggning: artikelindex](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Översikt över enkel inloggning](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [Uppdatera användare för enkel inloggning](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
@@ -522,17 +522,17 @@ ht-degree: 0%
          * [Konfigurera Adobe Workfront med SAML 2.0 med ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
          * [Aktivera Outlook för Workfront och SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
          * [Inaktivera enkel inloggning](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-      * Skapa och hantera team {#create-manage-teams}
+      * Skapa och hantera team
          * [Hantera team](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
          * [Skapa ett team](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
          * [Redigera inställningar för ett team](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
-   * Anpassa Adobe Workfront {#customize}
+   * Anpassa Adobe Workfront
       * [Anpassa Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-      * Anpassade varumärken i Adobe Workfront {#custom-branding}
+      * Anpassade varumärken i Adobe Workfront
          * [Anpassat varumärke](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [Varumärk din instans](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
          * [Konfigurera en anpassad hjälp-URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
-      * Layoutmallar {#layout-templates}
+      * Layoutmallar
          * [Layoutmallar](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Standardlayout för Workfront](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
          * [Skapa och hantera layoutmallar](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
@@ -552,10 +552,10 @@ ht-degree: 0%
          * [Tilldela användare till layoutmallar](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [Kopiera en layoutmall](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [Ta bort klassiska layoutmallar med ett API-anrop](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
-      * Egna formulär {#custom-forms}
+      * Egna formulär
          * [Anpassade formulär: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Översikt över anpassade formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * Utforma ett anpassat formulär {#design-a-form}
+         * Utforma ett anpassat formulär
             * [Designa ett formulär: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
             * [Skapa ett anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [Skapa ett formulär från en kopia](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
@@ -563,7 +563,7 @@ ht-degree: 0%
             * [Lägga till logiska regler i anpassade formulär och fält](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [Ordna och förhandsgranska ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
-         * Hantera anpassade formulär {#manage-custom-forms}
+         * Hantera anpassade formulär
             * [Hantera anpassade formulär och fält: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [Lägga till eller ta bort objekttyper från ett befintligt anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
             * [Byta namn på ett anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
@@ -579,7 +579,7 @@ ht-degree: 0%
             * [Ta bort ett anpassat fält eller en anpassad widget från systemet](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [Ta bort ett anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [RTF-fältslagring i API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-      * Status och prioritetsetiketter {#statuses-priority-labels}
+      * Status och prioritetsetiketter
          * [Skapa anpassade statusvärden och prioritetsetiketter](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Översikt över status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [Visa alla projektstatusvärden](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
@@ -595,23 +595,23 @@ ht-degree: 0%
          * [Visa väntande objekt med en viss status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
          * [Skapa och anpassa prioriteringar](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [Skapa och anpassa utgåvans allvarlighetsgrad](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
-      * Godkännandeprocesser och milstolpesidor {#approvals-milestones}
+      * Godkännandeprocesser och milstolpesidor
          * [Godkännandeprocesser och milstolpar](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
          * [Skapa en godkännandeprocess](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
          * [Redigera en godkännandeprocess](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
          * [Globala inställningar för godkännandeprocess](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
          * [Hur ändringar påverkar tilldelade godkännandeprocesser](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
          * [Skapa en milstolpe-bana](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
-      * Skapa och hantera anpassade villkor {#custom-conditions}
+      * Skapa och hantera anpassade villkor
          * [Anpassade villkor](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [Skapa eller redigera ett villkor](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
          * [Ändra visningsordning för villkor](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
          * [Ange ett villkor som standard för projekt](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
          * [Ange ett villkor som standard för uppgifter och ärenden](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
          * [Ta bort ett anpassat villkor](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
-   * Hantera Adobe Workfront {#manage-wf}
+   * Hantera Adobe Workfront
       * [Hantera Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-      * Konfigurera korrekturfunktioner {#configure-proofing}
+      * Konfigurera korrekturfunktioner
          * [Konfigurera korrektur](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
          * [Korrekturinställningar](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
          * [Användarsynkronisering mellan Workfront och Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
@@ -623,10 +623,10 @@ ht-degree: 0%
          * [Konfigurera en användares språkkontroll](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
          * [Korrekturdelning](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
          * [Automatiserade arbetsflödesmallar](administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
-      * Konfigurera rapporter {#configure-reports}
+      * Konfigurera rapporter
          * [Konfigurera rapporter](administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
          * [Dölj rapporter](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
-      * E-post {#emails}
+      * E-post
          * [E-post](administration-and-setup/manage-workfront/emails/emails.md)
          * [E-postmeddelanden: artikelindex](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Konfigurera händelsemeddelanden](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
@@ -639,7 +639,7 @@ ht-degree: 0%
          * [E-postmallar](administration-and-setup/manage-workfront/emails/configure-email-templates.md)
          * [Mejl från Workfront](administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
          * [Skicka inbjudningar till nya användare via e-post](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
-      * Säkerhet {#security}
+      * Säkerhet
          * [Säkerhet](administration-and-setup/manage-workfront/security/security.md)
          * [Konfigurera systeminställningar](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [Lösenord för autentisering](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
@@ -653,19 +653,19 @@ ht-degree: 0%
          * [Integritetspolicy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [Översikt över utökad autentisering](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
          * [Uppdatera SAML 2.0-metadata i din IDP med förbättrad autentisering](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
-      * Växelkurser {#exchange-rates}
+      * Växelkurser
          * [Växelkurser](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [Ställ in valutakurser](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-      * Hantera borttagna objekt {#manage-deleted-items}
+      * Hantera borttagna objekt
          * [Hantera borttagna objekt](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [Återställ borttagna objekt](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [Visa återställda objekt](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [Hur borttagna objekt påverkar timmar](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Återställ enskilda underordnade objekt](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-      * Diagnostik {#diagnostics}
+      * Diagnostik
          * [Diagnostik](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [Använd diagnostik för att aktivera automatisering](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
-      * Spark-Starts {#kick-starts}
+      * Spark-Starts
          * [Spark-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
          * [Exportera Workfront-data via snabbstart](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
          * [Importera data med en snabbstartsmall](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
@@ -674,14 +674,14 @@ ht-degree: 0%
          * [Scenario för att komma igång: Importera anpassade fält med flera alternativ till Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
          * [Fäststartscenario: Objektimport](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
          * [Snabbstart - frågor och svar](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
-   * Hantera grupper {#manage-groups}
+   * Hantera grupper
       * [Hantera grupper](administration-and-setup/manage-groups/manage-groups.md)
-      * Grupper {#groups}
+      * Grupper
          * [Grupper: artikelindex](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
          * [Översikt över grupper](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [Översikt över undergrupper](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [Översikt över hemgrupper](administration-and-setup/manage-groups/groups-overview/home-groups.md)
-      * Skapa och hantera grupper {#create-manage-groups}
+      * Skapa och hantera grupper
          * [Skapa och hantera grupper](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
          * [Skapa en grupp](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
          * [Hantera en grupp](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
@@ -698,18 +698,18 @@ ht-degree: 0%
          * [Inaktivera eller återaktivera en grupp](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
          * [Ta bort en grupp](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
          * [Exportera en lista med grupper](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
-      * Skapa och hantera undergrupper {#create-manage-subgroups}
+      * Skapa och hantera undergrupper
          * [Skapa och hantera undergrupper](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
          * [Skapa en undergrupp](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
          * [Hantera en undergrupp](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
          * [Visa och hantera undergruppsmedlemmar](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
-      * Grupproller {#group-roles}
+      * Grupproller
          * [Grupproller](administration-and-setup/manage-groups/group-roles/group-roles.md)
          * [Gruppadministratörer](administration-and-setup/manage-groups/group-roles/group-administrators.md)
          * [Tilldela en gruppadministratör](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [Gruppadministratörsfunktioner](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [Översikt över företagsledare](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
-      * Hantera gruppstatus {#group-statuses}
+      * Hantera gruppstatus
          * [Hantera gruppstatus](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
          * [Skapa eller redigera en gruppstatus](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
          * [Ordna om gruppstatus](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
@@ -719,7 +719,7 @@ ht-degree: 0%
          * [Ta bort en gruppstatus](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
          * [Flyttade och borttagna gruppstatusar](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
          * [Flyttade och kopierade gruppstatusar](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-      * Arbeta med en grupps objekt {#group-objects}
+      * Arbeta med en grupps objekt
          * [Hantera gruppobjekt](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [Hantera gruppföretag](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [Hantera grupplayoutmallar](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
@@ -733,7 +733,7 @@ ht-degree: 0%
          * [Hantera gruppprojektmallar](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [Hantera en grupps borttagna objekt](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [Hantera en grupps återställda objekt](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
-   * Konfigurera integreringar {#configure-integrations}
+   * Konfigurera integreringar
       * [Konfigurera integreringar](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integreringar](administration-and-setup/configure-integrations/workfront-integrations-1.md)
       * [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](administration-and-setup/configure-integrations/configure-aacs-integration.md)
@@ -749,7 +749,7 @@ ht-degree: 0%
       * [Skapa OAuth2-program för Workfront-integreringar](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Visa och hantera anpassade OAuth2-program](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Konfigurera JumpSeat-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-   * Utkast {#blueprints}
+   * Utkast
       * [Utkast](administration-and-setup/blueprints/blueprints.md)
       * [Översikt över utkast](administration-and-setup/blueprints/blueprints-overview.md)
       * [Konfigurera åtkomst till ritningar](administration-and-setup/blueprints/configure-access-to-blueprints.md)
@@ -757,11 +757,11 @@ ht-degree: 0%
       * [Konfigurera en plan](administration-and-setup/blueprints/configure-template-package.md)
       * [Åtgärder som ska vidtas efter installation av en plan](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [Lista över tillgängliga ritningar](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * Administration i Adobe Admin Console {#admin-in-admin-console}
+   * Administration i Adobe Admin Console
       * [Workfront Administration i Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Förbered för Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
       * [Om Workfront-migrering till Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
-   * Tips, tricks och felsökning för administration och konfiguration {#admin-setup-tips}
+   * Tips, tricks och felsökning för administration och konfiguration
       * [Tips, tricks och felsökning](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Gruppadministratörer måste ha högre åtkomst än de som de hanterar](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
       * [Aktiva och inaktiverade objekt](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
@@ -787,22 +787,22 @@ ht-degree: 0%
       * [Workfront: ZScaler-inställningar kan ge sämre prestanda](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [Användarautentiseringsuppgifter jämfört med SAML-autentiseringsuppgifter](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Uppdatera alternativ för automatisk uppgradering på åtkomstnivåer](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
-* Grundläggande om Adobe Workfront {#basics}
+* Grundläggande om Adobe Workfront
    * [Grundläggande om Adobe Workfront: artikelindex](workfront-basics/workfront-basics.md)
    * [Ordlista för Adobe Workfront-terminologi](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Krav för Adobe Workfront webbläsare](workfront-basics/workfront-browser-requirements.md)
    * [Språk som stöds i Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
-   * Navigera i Adobe Workfront {#navigate}
+   * Navigera i Adobe Workfront
       * [Navigera i Adobe Workfront: artikelindex](workfront-basics/navigate-workfront/navigate-workfront.md)
-      * Adobe Workfront Search {#search}
+      * Adobe Workfront Search
          * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
          * [Sök i Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
          * [Använd referensnumret för objekt](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
-      * Nyheter och favoriter i Adobe Workfront {#recents-and-favorites}
+      * Nyheter och favoriter i Adobe Workfront
          * [Nyheter och favoriter i Adobe Workfront](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
          * [Visa och hantera favoriter](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
          * [Visa senaste artiklar](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
-      * Listor i Adobe Workfront {#lists-in-adobe-workfront}
+      * Listor i Adobe Workfront
          * [Listor i Adobe Workfront](workfront-basics/navigate-workfront/use-lists/lists.md)
          * [Kom igång med listor i Adobe Workfront](workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
          * [Använda snabbfiltret på en lista](workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
@@ -823,7 +823,7 @@ ht-degree: 0%
       * [Förstå navigeringen för en arbetslicensanvändare](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Förstå navigeringen för en användare med en granskningslicens](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Översikt över Project-, Task- och Issue-datum i Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
-   * Prioriteringar {#priorities}
+   * Prioriteringar
       * [Prioriteter: artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Prioriteringar: kommande releaser](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Kom igång med prioriteringar](workfront-basics/priorities/get-started-with-priorities.md)
@@ -839,9 +839,9 @@ ht-degree: 0%
       * [Fånga upp arbetet i prioriteringar](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [Ladda upp dokument och skapa korrektur i prioriteter](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [Hantera ditt arbete i Prioritetskalendern](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
-   * Startsida {#home}
+   * Startsida
       * [Startsida](workfront-basics/using-home/home.md)
-      * Använda området Hem {#use-home-area}
+      * Använda området Hem
          * [Använda Hem-området: artikelindex](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Kom igång med Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Lägga till, redigera eller ta bort widgetar i Nytt hem](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
@@ -855,7 +855,7 @@ ht-degree: 0%
          * [Logga tid på ett arbetsobjekt från hemområdet](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Markera ett objekt som färdigt i hemområdet](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Använda området Mina uppdateringar](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * AI Assistant {#ai-assistant}
+   * AI Assistant
       * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [Översikt över AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Sammanfatta med hjälp av AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
@@ -863,7 +863,7 @@ ht-degree: 0%
       * [Ändra beräknade fältformler med AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [Använd AI-assistenten för att arbeta med projekt, uppgifter och ärenden](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
-   * Uppdatera arbetsuppgifter och visa uppdateringar {#update-work-items-view-updates}
+   * Uppdatera arbetsuppgifter och visa uppdateringar
       * [Uppdatera arbetsposter och visa uppdateringar: artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Översikt över uppdateringsavsnittet](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Uppdatera arbete](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
@@ -875,13 +875,13 @@ ht-degree: 0%
       * [Visa alla uppdateringar i en anteckningsrapport](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Översikt över knappen Arbeta på den och Klar](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
       * [Sammanfatta uppdateringar med AI Assistant](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
-   * Arbeta med anpassade formulär {#work-with-custom-forms}
+   * Arbeta med anpassade formulär
       * [Arbeta med anpassade formulär](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Lägga till ett anpassat formulär i ett objekt](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
       * [Redigera information i anpassade formulärfält](workfront-basics/work-with-custom-forms/edit-custom-forms.md)
       * [Exportera anpassade formulär och objektinformation](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
       * [Hantera anpassade formulär som är kopplade till objekt](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
-   * Använd meddelanden {#use-notifications}
+   * Använd meddelanden
       * [Använd meddelanden: artikelindex](workfront-basics/using-notifications/use-notifications.md)
       * [Översikt över meddelanden](workfront-basics/using-notifications/wf-notifications.md)
       * [Ändra dina egna e-postmeddelanden](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
@@ -902,7 +902,7 @@ ht-degree: 0%
       * [Meddelanden: Information om arbete som tilldelats mig](workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
       * [Meddelanden: Övrig information](workfront-basics/using-notifications/notifications-misc-information.md)
       * [Meddelanden: Begäranden jag gjort](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
-   * Bevilja och begär behörigheter för objekt {#grant-request-object-permissions}
+   * Bevilja och begär behörigheter för objekt
       * [Bevilja och begär behörigheter för objekt](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [Översikt över delningsbehörigheter för objekt](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [Bevilja åtkomst till objekt i Hem-området](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
@@ -920,13 +920,13 @@ ht-degree: 0%
       * [Dela en dokumentmapp](workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
       * [Dela rapporter, kontrollpaneler och kalendrar](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
       * [Ta bort behörigheter från objekt](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-   * Hantera konto och profil {#manage-account-profile}
+   * Hantera konto och profil
       * [Hantera konto och profil](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-      * Konfigurera din användarprofil {#configure-user-profile}
+      * Konfigurera din användarprofil
          * [Konfigurera din användarprofil](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [Konfigurera mina inställningar](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
          * [Konfigurera ledig tid](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * Hantera ditt Adobe Workfront-konto {#manage-workfront-account}
+      * Hantera ditt Adobe Workfront-konto
          * [Hantera ditt Adobe Workfront-konto](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Logga in på Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Logga ut från Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
@@ -934,9 +934,9 @@ ht-degree: 0%
          * [Ta emot e-postinbjudningar och skapa ett lösenord för Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [Skapa ett konto i [!DNL Adobe Workfront] som en extern användare](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [Återställ lösenordet](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
-   * Mobilappar {#mobile-apps}
+   * Mobilappar
       * [Mobilappar](workfront-basics/mobile-apps/mobile-apps.md)
-      * Använda Adobe Workfront mobilappar {#use-workfront-mobile-app}
+      * Använda Adobe Workfront mobilappar
          * [Använda Adobe Workfront mobilapp](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [Adobe Workfront för Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
          * [Bli betatestare av Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
@@ -952,17 +952,17 @@ ht-degree: 0%
          * [Adobe Workfront för hantering av mobila enheter (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Konfigurera Adobe Workfront för MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
          * [Godkännanden i Adobe Workfront mobilapp](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-      * Använd Adobe Workfront View {#use-workfront-view}
+      * Använd Adobe Workfront View
          * [Använd Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
          * [Kom igång med Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
          * [Visa projekt i Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
          * [Filtrera projektlistor i Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
          * [Uppdatera widgetar i projektinformationsvyn](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
          * [Lägga till uppdateringar i Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
-      * Tips, tricks och felsökning för Adobe Workfront mobilappar {#tips-tricks-for-mobile-apps}
+      * Tips, tricks och felsökning för Adobe Workfront mobilappar
          * [Tips, tricks och felsökning för Adobe Workfront mobilappar](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Felmeddelande i Adobe Workfront Mobile App: &quot;Ditt konto är inte API-aktiverat.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-   * Tips, tricks och felsökning för Adobe Workfront Basics {#tips-tricks-for-basics}
+   * Tips, tricks och felsökning för Adobe Workfront Basics
       * [Tips, tricks och felsökning för Adobe Workfront: artikelindex](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [En snabbguide till hur du hittar hjälp i Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Ändra datumformat i Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
@@ -976,10 +976,10 @@ ht-degree: 0%
       * [Projekt jag arbetar med har oväntade resultat](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [Flera webbläsarflikar gör att Workfront loggar ut](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
       * [Dela objekt utan att generera meddelanden](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
-* Agile {#agile}
+* Agile
    * [Agile](agile/agile.md)
    * [Översikt över styrelser](agile/boards-overview.md)
-   * Kom igång med anslagstavlor i Adobe Workfront {#boards-in-workfront}
+   * Kom igång med anslagstavlor i Adobe Workfront
       * [Kom igång med anslagstavlor: artikelindex](agile/get-started-with-boards/get-started-with-boards.md)
       * [Workfront Boards - videodemonstrationer](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Anmäl dig till tidig funktion](agile/get-started-with-boards/boards-early-feature-opt-in.md)
@@ -1000,7 +1000,7 @@ ht-degree: 0%
       * [Filtrera och söka på en anslagstavla](agile/get-started-with-boards/filter-search-in-board.md)
       * [Lägg till taggar](agile/get-started-with-boards/add-tags.md)
       * [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * Använd flexibla planeringsverktyg i ritytor {#agile-planning-boards}
+   * Använd flexibla planeringsverktyg i ritytor
       * [Översikt över flexibla planeringsverktyg](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Hantera PIA-gränsen (Work In Progress) direkt](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Lägga till en inloppskolumn på en anslagstavla](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
@@ -1013,12 +1013,12 @@ ht-degree: 0%
       * [Konfigurera eftersläpningen på en arbetsyta](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [Granska iterationsmått](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [Agile - översikt](agile/agile-overview.md)
-   * Kom igång smidigt med Adobe Workfront {#agile-in-workfront}
+   * Kom igång smidigt med Adobe Workfront
       * [Kom igång smidigt med Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
       * [Skapa ett smidigt team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Konfigurera Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Konfigurera Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * Kanban i ett rörligt team {#kanban}
+   * Kanban i ett rörligt team
       * [Kanban i ett rörligt team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban - översikt](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [Lägg till en underaktivitet i en befintlig artikel på Kanban-tavlan](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
@@ -1033,16 +1033,16 @@ ht-degree: 0%
       * [Använd flaggor på artiklar på Kanban-tavlan](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [Lägg till eftersläpning till Kanban-tavlan](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [Ta bort artikel från Kanban-tavlan](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * Scrum in a agile team {#scrum}
+   * Scrum in a agile team
       * [Scrum in a agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      * Burndown {#burndown}
+      * Burndown
          * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Översikt över Agile-nedladdningsdiagram](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
          * [Statusöversikt för Iteration-slutförande](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [Ändra storlek på och komprimera nedtoningsdiagrammet](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [Synkronisera data i nedladdningsbart diagram](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
          * [Använd ett alternativt teamschema för nedladdningsscheman](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
-      * Iterationer {#iterations}
+      * Iterationer
          * [Iterationer](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Översikt över iterationer](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [Skapa en iteration](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
@@ -1050,7 +1050,7 @@ ht-degree: 0%
          * [Lägga till artiklar i en befintlig upprepning](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Visa en upprepning](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Ta bort en iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-      * Scrum board {#scrum-board}
+      * Scrum board
          * [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [Översikt över Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
          * [Lägga till en underuppgift i en befintlig artikel på Urvalsritytan](agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
@@ -1062,23 +1062,23 @@ ht-degree: 0%
          * [Hantera artiklar och problem på Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
          * [Uppdatera status för artiklar och underaktiviteter på Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
          * [Visa och redigera artikelinformation på Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
-   * Arbeta i en flexibel miljö {#work-in-agile-environment}
+   * Arbeta i en flexibel miljö
       * [Arbeta i en flexibel miljö](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
       * [Skapa en flexibel artikel](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [Hantera den flexibla eftersläpningen](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [Flytta en flexibel artikel](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * Tips, tricks och felsökning {#tips-tricks-agile}
+   * Tips, tricks och felsökning
       * [Tips, tricks och felsökning](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Anpassade statusvärden som inte visas på den mobila artikelpanelen](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
-* Dokument {#documents}
+* Dokument
    * [Dokument: artikelindex](documents/documents-overview.md)
-   * Lägg till nya dokument i Adobe Workfront {#add-new-documents-to-workfront}
+   * Lägg till nya dokument i Adobe Workfront
       * [Lägg till nya dokument i Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [Lägga till dokument i Adobe Workfront från filsystemet](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [Länka dokument från externa program](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [Ta bort länkar mellan Adobe Workfront och externa dokumentlagringsleverantörer](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
       * [Begär ett dokument](documents/adding-documents-to-workfront/request-a-document.md)
-   * Hantera dokument {#manage-documents}
+   * Hantera dokument
       * [Hantera dokument](documents/managing-documents/manage-documents.md)
       * [Området Dokument](documents/managing-documents/documents-area.md)
       * [Översikt över dokumentinformation](documents/managing-documents/document-details-overview.md)
@@ -1099,13 +1099,13 @@ ht-degree: 0%
       * [Klistra in bilder från Urklipp](documents/managing-documents/paste-image-clipboard.md)
       * [Redigera flera dokument samtidigt](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [AddBuilder i Workfront Document Details](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
-   * Ordna dokument {#organize-documents}
+   * Ordna dokument
       * [Ordna dokument](documents/organizing-documents/organize-documents.md)
       * [Skapa dokumentmappar](documents/organizing-documents/create-documents-folder.md)
       * [Skapa och hantera smarta mappar](documents/organizing-documents/create-manage-smart-folders.md)
-   * Workfront- och Experience Manager Assets-integreringar {#wf-aem-integrations}
+   * Workfront- och Experience Manager Assets-integreringar
       * [Workfront- och Experience Manager Assets-integreringar](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-      * Workfront for Experience Manager förbättrad anslutning {#wf-aem-enhanced-connector}
+      * Workfront for Experience Manager förbättrad anslutning
          * [Workfront for Experience Manager förbättrad anslutning](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
          * [Översikt över den förbättrade anslutningen Workfront for Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
          * [Översikt över metadata för Workfront för Experience Manager med utökad anslutning](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
@@ -1113,7 +1113,7 @@ ht-degree: 0%
          * [Skicka ett dokument med den utökade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [Korrektur för en länkad resurs med den utökade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [Visa eller hämta en länkad resurs med den förbättrade kopplingen](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      * Adobe Workfront för Experience Manager Assets och Assets Essentials {#wf-aem-essentials}
+      * Adobe Workfront för Experience Manager Assets och Assets Essentials
          * [Adobe Workfront for Experience Manager Assets and Assets Essentials: artikelindex](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Översikt över Adobe Experience Manager Assets integreringar](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Länka resurser och mappar från Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
@@ -1126,18 +1126,18 @@ ht-degree: 0%
          * [Använd arbetsflöden i integreringen med Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Använd Workfront Fusion för att konvertera ett Workfront-problem till ett projekt som innehåller Adobe Experience Manager-arbetsflöden](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Felsök Adobe Experience Manager-integreringen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
-   * Migrera från tidigare eller förbättrade anslutningar {#migrate-from-legacy-enhanced-connectors}
+   * Migrera från tidigare eller förbättrade anslutningar
       * [Migrera från tidigare eller förbättrade anslutningar](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migrera från den gamla eller förbättrade kopplingen till as a Cloud Service-integrering med Workfront för Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migrera från den gamla anslutningen till den förbättrade anslutningen](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Avinstallera Workfront med Adobe Experience Manager äldre anslutning](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Avinstallera Workfront med Adobe Experience Manager förbättrad anslutning](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
       * [Migrera länkade mappar och dokument](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
-* Hantera arbete {#manage-work}
+* Hantera arbete
    * [Hantera arbete](manage-work/manage-work.md)
-   * Projekt {#projects}
+   * Projekt
       * [Projekt: artikelindex](manage-work/projects/projects-overview.md)
-      * Planera ett projekt {#plan-a-project}
+      * Planera ett projekt
          * [Planera ett projekt: artikelindex](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [Planera en projektöversikt](manage-work/projects/planning-a-project/plan-project.md)
          * [Bestämma struktur för arbetsfördelning i ett projekt](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
@@ -1158,14 +1158,14 @@ ht-degree: 0%
          * [Översikt över planerat slutförandedatum för projekt, uppgifter och ärenden](manage-work/projects/planning-a-project/project-projected-completion-date.md)
          * [Översikt över status för projektförlopp](manage-work/projects/planning-a-project/project-progress-status.md)
          * [Översikt över projektets planerade startdatum](manage-work/projects/planning-a-project/project-projected-start-date.md)
-      * Skapa projekt {#create-projects}
+      * Skapa projekt
          * [Skapa projekt: artikelindex](manage-work/projects/create-projects/create-projects-overview.md)
          * [Skapa ett projekt](manage-work/projects/create-projects/create-project.md)
          * [Begär ett projekt](manage-work/projects/create-projects/request-project.md)
          * [Skapa ett projekt med en mall](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importera ett projekt från Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Skapa projektbaslinjer](manage-work/projects/create-projects/create-baselines.md)
-      * Uppdatera arbete i ett projekt {#update-work-on-a-project}
+      * Uppdatera arbete i ett projekt
          * [Uppdatera arbete i ett projekt: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Tillämpa statusvärden på arbete som är associerat med en grupp](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [Uppdatera aktivitetsstatus](manage-work/projects/updating-work-in-a-project/update-task-status.md)
@@ -1176,7 +1176,7 @@ ht-degree: 0%
          * [Interaktion mellan implementeringsdatumet och det planerade slutförandedatumet](manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
          * [Uppdatera villkor för aktiviteter och ärenden](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [Uppdatera villkor för ett projekt](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-      * Hantera projekt {#manage-projects}
+      * Hantera projekt
          * [Hantera projekt: artikelindex](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [Redigera projekt](manage-work/projects/manage-projects/edit-projects.md)
          * [Kopiera ett projekt](manage-work/projects/manage-projects/copy-project.md)
@@ -1199,7 +1199,7 @@ ht-degree: 0%
          * [Översikt över projektstatistik](manage-work/projects/manage-projects/project-metrics.md)
          * [Översikt över projektbegränsningar](manage-work/projects/manage-projects/project-maximums.md)
          * [Sammanfatta uppdateringar med AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
-      * Skapa och hantera projektmallar {#create-and-manage-project-templates}
+      * Skapa och hantera projektmallar
          * [Skapa och hantera projektmallar: artikelindex](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Översikt över projektmallen](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [Skapa en projektmall](manage-work/projects/create-and-manage-templates/create-template.md)
@@ -1216,7 +1216,7 @@ ht-degree: 0%
          * [Ta bort mallinformation från ett projekt](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
          * [Översikt över start- och slutförandedagar i en mall](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Översikt över att bifoga en mall till ett projekt](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
-      * Definiera ett affärsärende {#define-business-case}
+      * Definiera ett affärsärende
          * [Definiera ett affärsärende: artikelindex](manage-work/projects/define-a-business-case/define-business-case.md)
          * [Översikt över affärsområdet](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Skapa ett affärsärende för ett projekt](manage-work/projects/define-a-business-case/create-business-case.md)
@@ -1230,7 +1230,7 @@ ht-degree: 0%
          * [Bifoga ett anpassat formulär till ett affärsärende](manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
          * [Skapa och redigera risker i projekt](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [Exportera affärsfallet för ett projekt](manage-work/projects/define-a-business-case/export-business-case.md)
-      * Projektets finanser {#project-finances}
+      * Projektets finanser
          * [Projektekonomi: artikelindex](manage-work/projects/project-finances/project-finances-overview.md)
          * [Projektfinansieringsfält](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [Beräkna om projektekonomi](manage-work/projects/project-finances/recalculate-project-finances.md)
@@ -1259,15 +1259,15 @@ ht-degree: 0%
          * [Beräkna budgeterad kostnad för schemalagt arbete (BCWS)](manage-work/projects/project-finances/calculate-bcws.md)
          * [Förstå budgeterad arbetskostnad och budgeterade timmar för projekt](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [Beräkna planerad arbetskostnad](manage-work/projects/project-finances/planned-labor-cost.md)
-      * Tips, tricks och felsökning för projekt {#tips-tricks-troubleshooting-for-projects}
+      * Tips, tricks och felsökning för projekt
          * [Tips, tricks och felsökning: artikelindex](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [Vanliga frågor om projekt](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [Projektstatus ändras inte från Fullständigt till Aktuell](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [Beräkningsexempel - Beräkna EAC som en sammanslagning av uppgifter](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [Beräkningsexempel - beräkna EAC på projektnivå](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
-   * Uppgifter {#tasks}
+   * Uppgifter
       * [Uppgifter: artikelindex](manage-work/tasks/tasks-overview.md)
-      * Uppgiftsinformation {#task-information}
+      * Uppgiftsinformation
          * [Uppgiftsinformation](manage-work/tasks/task-information/task-information.md)
          * [Översikt över uppgifter](manage-work/tasks/task-information/tasks-overview.md)
          * [Visa faktiska timmar](manage-work/tasks/task-information/actual-hours.md)
@@ -1288,13 +1288,13 @@ ht-degree: 0%
          * [Översikt över planerade och beräknade datum](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [Översikt över aktivitetens ursprungliga varaktighet och ursprungliga planerade timmar](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Skillnad mellan planerad varaktighet och varaktighet för uppgifter](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-      * Skapa uppgifter {#create-tasks}
+      * Skapa uppgifter
          * [Skapa uppgifter: artikelindex](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [Skapa uppgiftsöversikt](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [Skapa uppgifter i ett projekt](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [Skapa underaktiviteter](manage-work/tasks/create-tasks/create-subtasks.md)
          * [Skapa återkommande uppgifter](manage-work/tasks/create-tasks/create-recurring-tasks.md)
-      * Tilldela uppgifter {#assign-tasks}
+      * Tilldela uppgifter
          * [Tilldela uppgifter](manage-work/tasks/assign-tasks/assign-tasks-1.md)
          * [Tilldela uppgifter](manage-work/tasks/assign-tasks/assign-tasks.md)
          * [Skapa avancerade uppdrag](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -1304,7 +1304,7 @@ ht-degree: 0%
          * [Hantera användar- eller rollallokeringsprocent för uppgifter](manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)
          * [Hantera användar- och rollallokeringstimmar för uppgifter](manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
          * [Gör smarta uppdrag](manage-work/tasks/assign-tasks/make-smart-assignments.md)
-      * Hantera uppgifter {#manage-tasks}
+      * Hantera uppgifter
          * [Hantera uppgifter](manage-work/tasks/manage-tasks/manage-tasks.md)
          * [Redigera uppgifter](manage-work/tasks/manage-tasks/edit-tasks.md)
          * [Redigera uppgifter i en lista](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
@@ -1318,7 +1318,7 @@ ht-degree: 0%
          * [Översikt över projektets kritiska sökväg](manage-work/tasks/manage-tasks/critical-path.md)
          * [Koppla milstolpar till uppgifter](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [Konvertera en uppgift till ett projekt](manage-work/tasks/manage-tasks/convert-task-to-project.md)
-      * Aktivitetsbegränsningar {#task-constraints}
+      * Aktivitetsbegränsningar
          * [Aktivitetsbegränsningar: artikelindex](manage-work/tasks/task-constraints/task-constraints.md)
          * [Översikt över uppgiftsbegränsning](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [Översikt över aktivitetsbegränsning: Starta inte senare än](manage-work/tasks/task-constraints/start-no-later-than.md)
@@ -1333,7 +1333,7 @@ ht-degree: 0%
          * [Översikt över uppgiftsbegränsning: Så snart som möjligt](manage-work/tasks/task-constraints/as-soon-as-possible.md)
          * [Översikt över aktivitetsbegränsning: Så sent som möjligt](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [Uppdatera aktivitetsbegränsningen för en uppgift](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
-      * Typ av aktivitetsvaraktighet och varaktighet {#task-duration-and-duration-types}
+      * Typ av aktivitetsvaraktighet och varaktighet
          * [Typer av varaktighet och varaktighet för aktivitet: artikelindex](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [Översikt över aktivitetsvaraktighet och varaktighetstyp](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [Översikt över varaktighetstyp: Beräknat uppdrag](manage-work/tasks/taskdurtn/calculated-assignment.md)
@@ -1343,7 +1343,7 @@ ht-degree: 0%
          * [Uppdatera varaktighetstypen för en aktivitet](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
          * [Uppdatera planerade timmar och varaktighet för en aktivitet med enkel varaktighetstyp](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Varaktighetstyper i Adobe Workfront och Microsoft Project](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
-      * Använd föregående aktiviteter {#use-task-predecessors}
+      * Använd föregående aktiviteter
          * [Använd föregående aktiviteter](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [Översikt över föregående aktiviteter](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [Skapa en föregående relation i uppgiftslistan](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
@@ -1354,13 +1354,13 @@ ht-degree: 0%
          * [Tvinga föregående](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
          * [Översikt över fördröjningstyper](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [Översikt över uppgiftsberoendeloop](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-      * Tips, tricks och felsökning för uppgifter {#tips-tricks-and-troubleshooting-for-tasks}
+      * Tips, tricks och felsökning för uppgifter
          * [Tips, tricks och felsökning för uppgifter](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
          * [Vanliga frågor och svar om uppgifter](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [Den planerade varaktigheten matchar inte den planerade varaktigheten](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
-   * Problem {#issues}
+   * Problem
       * [Problem](manage-work/issues/issues-overview.md)
-      * Konvertera problem {#convert-issues}
+      * Konvertera problem
          * [Konvertera problem](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Översikt över konverteringsproblem i Adobe Workfront](manage-work/issues/convert-issues/convert-issues.md)
          * [Konvertera ett problem till ett projekt i Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-project.md)
@@ -1368,14 +1368,14 @@ ht-degree: 0%
          * [Översikt över objekt som kan lösas och lösas](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [Bryt länken till problem från deras lösta objekt](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [Koppla lösningen av ett problem manuellt till andra problem, uppgifter eller projekt](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
-      * Ärendeinformation {#issue-information}
+      * Ärendeinformation
          * [Ärendeinformation](manage-work/issues/issue-information/issue-info-overview.md)
          * [Översikt över problemvaraktighet](manage-work/issues/issue-information/issue-duration.md)
          * [Uppdatera prioritet för utgåva](manage-work/issues/issue-information/update-issue-priority.md)
          * [Uppdatera allvarlighetsgrad för utgåva](manage-work/issues/issue-information/update-issue-severity.md)
          * [Översikt över det planerade slutförandedatumet för problemet](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [Använd&quot;opTask&quot; och&quot;issue&quot; när du refererar till problem](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
-      * Hantera problem {#manage-issues}
+      * Hantera problem
          * [Hantera problem](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [Skapa problem](manage-work/issues/manage-issues/create-issues.md)
          * [Tilldela ärenden](manage-work/issues/manage-issues/assign-issues.md)
@@ -1388,10 +1388,10 @@ ht-degree: 0%
          * [Översikt över ändring av utgivningstilldelningar](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [Ändra användartilldelningar för flera utgåvor i en lista](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Uppdatera automatiskt utskicksstatus från Väntar på feedback till Pågår](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-   * Gantt-schemat {#the-gantt-chart}
-      * Gantt-schemat {#the-gantt-chart}
+   * Gantt-schemat
+      * Gantt-schemat
       * [Gantt-schemat](manage-work/gantt-chart/the-gantt-chart.md)
-      * Översikt över Gantt-schema {#gantt-chart-overview}
+      * Översikt över Gantt-schema
          * [Översikt över Gantt-schema](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
          * [Kom igång med Gantt-schemat](manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
          * [Konfigurera hur information visas i Gantt-schemat](manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
@@ -1399,14 +1399,14 @@ ht-degree: 0%
          * [Uppdatera information i Gantt-schema för uppgiftslista](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [Nivåresurser i Gantt-schemat](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [Exportera Gantt-schemat till PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * Portfolio Management {#portfolio-management}
+   * Portfolio Management
       * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
-      * Portfolio - översikt i Adobe Workfront {#portfolio-overview-in-adobe-workfront}
+      * Portfolio - översikt i Adobe Workfront
          * [Portföljer](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navigera i en portfölj](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Portfolio Management - översikt](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
          * [Portfolio - översikt i Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
-      * Skapa och hantera portföljer {#create-and-manage-portfolios}
+      * Skapa och hantera portföljer
          * [Skapa och hantera portföljer](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Skapa en portfölj](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [Ta bort och inaktivera portföljer](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
@@ -1414,7 +1414,7 @@ ht-degree: 0%
          * [Lägga till projekt i en portfölj](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
          * [Ta bort ett projekt från en portfölj](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [Granska begärda projekt](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
-      * Skapa och hantera program {#create-and-manage-programs}
+      * Skapa och hantera program
          * [Programöversikt i  [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [Skapa och hantera program](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [Skapa ett program](manage-work/portfolios/create-and-manage-programs/create-program.md)
@@ -1422,7 +1422,7 @@ ht-degree: 0%
          * [Lägg till ett befintligt program i en portfölj](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [Lägga till ett projekt i ett program](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [Ta bort ett projekt från ett program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * Hantera projekt i Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
+      * Hantera projekt i Portfolio Optimizer
          * [Hantera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Portfolio Optimizer - översikt](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [Hitta Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
@@ -1430,9 +1430,9 @@ ht-degree: 0%
          * [Prioritera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [Optimera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Beräkna risk till nettovärde i en portfölj](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * Begäranden {#requests}
+   * Begäranden
       * [Begäranden](manage-work/requests/requests-overview.md)
-      * Skapa och hantera frågeköer {#create-and-manage-request-queues}
+      * Skapa och hantera frågeköer
          * [Skapa och hantera frågeköer](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [Skapa en begärandekö](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
          * [Ge åtkomst till begärandeköer](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
@@ -1440,7 +1440,7 @@ ht-degree: 0%
          * [Skapa köämnen](manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
          * [Skapa routningsregler](manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
          * [Definiera frågetyper för ett projekt](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-      * Skapa förfrågningar {#create-requests}
+      * Skapa förfrågningar
          * [Skapa förfrågningar](manage-work/requests/create-requests/create-requests.md)
          * [Skapa och skicka begäranden](manage-work/requests/create-requests/create-submit-requests.md)
          * [Skapa begäranden från utkast](manage-work/requests/create-requests/create-requests-from-drafts.md)
@@ -1449,13 +1449,13 @@ ht-degree: 0%
          * [Dela en länk till en begärandekö](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [Ta bort ett begärandeutkast](manage-work/requests/create-requests/delete-request-draft.md)
          * [Kopiera och skicka begäranden](manage-work/requests/create-requests/copy-and-submit-requests.md)
-   * Delegera arbete {#delegate-work}
+   * Delegera arbete
       * [Delegera arbete](manage-work/delegate-work/delegate-work.md)
       * [Översikt över uppgifter och problem i delegering](manage-work/delegate-work/delegate-work-overview.md)
       * [Delegera uppgifter och ärenden](manage-work/delegate-work/how-to-delegate-work.md)
-* Team och grupper {#teams-groups}
+* Team och grupper
    * [Team och grupper](people-teams-and-groups/people-teams-and-groups.md)
-   * Skapa och hantera team {#create-manage-teams}
+   * Skapa och hantera team
       * [Skapa och hantera team](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [Översikt över team](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
       * [Skapa ett team](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
@@ -1466,39 +1466,39 @@ ht-degree: 0%
       * [Konfigurera Klar-knappen för uppgifter](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [Konfigurera Klar-knappen för problem](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
-   * Arbeta direkt med andra {#work-with-others}
+   * Arbeta direkt med andra
       * [Arbeta direkt med andra](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
       * [Skicka direktmeddelanden till andra användare](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
       * [Visa organisationsschemat](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
-   * Arbeta med grupper och team {#work-with-groups-teams}
+   * Arbeta med grupper och team
       * [Arbeta med grupper och team](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
       * [Grupper kontra team i Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
-   * Arbeta med teamförfrågningar {#work-with-team-requests}
+   * Arbeta med teamförfrågningar
       * [Arbeta med teamförfrågningar](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [Översikt över gruppförfrågningar](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
       * [Hantera arbets- och teamförfrågningar](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-   * Tips, tricks och felsökning för team och grupper {#tips-tricks-people-teams-groups}
+   * Tips, tricks och felsökning för team och grupper
       * [Tips, tricks och felsökning för team och grupper](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Användarnamnet används redan](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Rapportering {#reporting}
+* Rapportering
    * [Rapporter och kontrollpaneler: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Kontrollpaneler på arbetsytan {#canvas-dashboards}
+   * Kontrollpaneler på arbetsytan
       * [Kontrollpaneler på arbetsytan](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * Hantera Canvas-instrumentpaneler {#manage-canvas-dashboards}
+      * Hantera Canvas-instrumentpaneler
          * [Hantera Canvas-instrumentpaneler](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Kom igång med Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [Lägga till, ta bort eller ordna rapporter på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [Dela en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * Rapporttyper för kontrollpanelen Canvas {#report-types}
+      * Rapporttyper för kontrollpanelen Canvas
          * [Översikt över rapporttyper i kontrollpanelen för arbetsyta](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Lägga till en befintlig rapport på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-   * Rapporter {#reports}
+   * Rapporter
       * [Rapporter](reports-and-dashboards/reports/reports-overview.md)
-      * Grundläggande om rapportering {#report-basics}
+      * Grundläggande om rapportering
          * [Grundläggande om rapportering: artikelindex](reports-and-dashboards/reports/reporting/reporting-basics.md)
          * [Kom igång med rapporter](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [Spara standardrapporter som nya rapporter](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
-      * Rapporteringselement {#report-elements}
+      * Rapporteringselement
          * [Översikt över rapportelement](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [Rapportelement: filter, vyer och grupperingar](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
          * [Översikt över filter](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
@@ -1517,12 +1517,12 @@ ht-degree: 0%
          * [Ta bort filter, vyer och grupperingar](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [Använda vyn Milstolpe](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [Ändra kolumnbredd och -ordning](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
-      * Använd inbyggda rapporter {#built-in-reports}
+      * Använd inbyggda rapporter
          * [Använd inbyggda rapporter](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
          * [Inbyggda statusikoner i vyer](reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
          * [Använd inbyggda rapporter från Adobe Workfront](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
          * [Översikt över resursanvändningsrapporten](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-      * Skapa och hantera rapporter {#create-manage-reports}
+      * Skapa och hantera rapporter
          * [Skapa och hantera rapporter](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
          * [Skapa en rapport](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
          * [Skapa en anpassad rapport](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
@@ -1544,7 +1544,7 @@ ht-degree: 0%
          * [Ändra rapportens ägare](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
          * [Rapport om uppdateringsområdet med en journalpost](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [Skapa en delegeringsrapport för användare](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
-      * Beräknade anpassade data i rapporter {#calculated-custom-data}
+      * Beräknade anpassade data i rapporter
          * [Beräknade anpassade data i rapporter](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
          * [Översikt över beräknade datauttryck](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
          * [Beräknade anpassade fält kontra beräknade kolumner](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
@@ -1553,7 +1553,7 @@ ht-degree: 0%
          * [Exempel på beräknat anpassat fält: visa hanteraren för den som skapat ett ärende i det anpassade formuläret](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
          * [Exempel på beräknat anpassat fält: visa en tidsstämpel för status i ett anpassat formulär](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [Exempel på beräknat anpassat fält: visa ett fälts redigeringshistorik](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-      * Exempel på anpassad vy, filter och gruppering {#custom-view-samples}
+      * Exempel på anpassad vy, filter och gruppering
          * [Anpassad vy, filter och gruppering av exempel: artikelindex](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapporter eller listor: visa användare som är kopplade till ett objekt](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filter: visa ofullständiga föregångare mellan projekt](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
@@ -1627,7 +1627,7 @@ ht-degree: 0%
          * [Visa: användarroll i procent av FTE-tillgänglighet](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
          * [Visa: användarens personliga ledig tid](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [Diagrama en rapport med ett anpassat fält som har flera val](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
-      * Resurser för textläge {#text-mode}
+      * Resurser för textläge
          * [Resurser för textläge: artikelindex](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
          * [Översikt över textläge](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
          * [Översikt över vanliga användningsområden för textläge](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
@@ -1642,13 +1642,13 @@ ht-degree: 0%
          * [Referenssamlingar i en rapport](reports-and-dashboards/reports/text-mode/reference-collections-report.md)
          * [Skapa OR-satser i textlägesfilter](reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
          * [Skapa komplexa textlägesfilter med EXISTS-satser](reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-      * Översikt över rapportanvändning {#report-usage-overview}
+      * Översikt över rapportanvändning
          * [Översikt över rapportanvändning](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [Få åtkomst till och ordna rapporter](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
          * [Skapa en rapport om rapporteringsaktiviteter](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [Förstå hur du organiserar rapporter på en kontrollpanel](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Visa rapportanvändning](reports-and-dashboards/reports/report-usage/view-report-usage.md)
-      * Kalendrar {#calendars}
+      * Kalendrar
          * [Kalendrar: artikelindex](reports-and-dashboards/reports/calendars/calendars.md)
          * [Översikt över kalenderrapporter](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [Använd anpassade datumfält i en kalenderrapport](reports-and-dashboards/reports/calendars/use-custom-dates.md)
@@ -1660,20 +1660,20 @@ ht-degree: 0%
          * [Ta bort en kalenderrapport](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
          * [Kopiera en kalenderrapport](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
          * [Lägga till ad hoc-händelser i en kalenderrapport](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
-      * Tips, tricks och felsökning för rapporter {#troubleshooting-tips-tricks-reports}
+      * Tips, tricks och felsökning för rapporter
          * [Tips, tricks och felsökning för rapporter](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
          * [Vanliga frågor och svar om rapporter](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
          * [Felmeddelande i kalendern: &quot;Den här kalendern har visningsrättigheter för en inaktiverad användare.&quot;](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
          * [Felmeddelande när en rapport körs:&quot;Du är inte inloggad.&quot;](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
          * [Inline-redigeringsdatum flyttar visningen av kalendern utanför rutan](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
          * [Data från delade kolumner visas inte i instrumentpanelsrapporter](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
-   * Kontrollpaneler {#dashboards}
+   * Kontrollpaneler
       * [Kontrollpaneler](reports-and-dashboards/dashboards/dashboards-overview.md)
-      * Förstå instrumentpaneler {#understand-dashboards}
+      * Förstå instrumentpaneler
          * [Förstå instrumentpaneler](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [Kom igång med instrumentpaneler](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [Förstå hur rapporter visas på en kontrollpanel](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * Skapa och hantera instrumentpaneler {#create-dashboards}
+      * Skapa och hantera instrumentpaneler
          * [Skapa och hantera instrumentpaneler](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [Skapa en instrumentpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [Lägga till en rapport på en instrumentpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1687,7 +1687,7 @@ ht-degree: 0%
          * [Dela en kontrollpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Ta bort en extern sida från en kontrollpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Översikt över kontrollpaneler på arbetsytan](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * Förbättrad analys {#enhanced-analytics}
+   * Förbättrad analys
       * [Förbättrad analys](enhanced-analytics/enhanced-analytics.md)
       * [Förbättrad analys - översikt](enhanced-analytics/enhanced-analytics-overview.md)
       * [Använda filter i Förbättrad analys](enhanced-analytics/use-enhanced-analytics-filters.md)
@@ -1698,7 +1698,7 @@ ht-degree: 0%
       * [Visa projektaktivitetsvisualisering i Förbättrad analys](enhanced-analytics/project-activity-overview.md)
       * [Visa projekttreemap-visualisering i Förbättrad analys](enhanced-analytics/project-treemap-overview.md)
       * [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront Data Connect {#data-lake}
+   * Workfront Data Connect
       * [Workfront Data Connect - översikt](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Skapa ett läsarkonto eller en anslutning till Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Upprätta en anslutning till Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
@@ -1706,25 +1706,25 @@ ht-degree: 0%
       * [datordlistetest](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Exempel på Workfront Data Connect-frågor](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Visa användningsstatistik för Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * Förbättrade analysfrågor{#enhanced-analytics-queries}
+      * Förbättrade analysfrågor
          * [Förbättrade analysfrågor](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI-frågor](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Flightplansfrågor](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Projektaktivitetsfrågor](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [Frågor om projekttreemap](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Aktivitet per teamfrågor](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
-      * Tips, tricks och felsökning för Data Connect{#troubleshooting-data-connect}
+      * Tips, tricks och felsökning för Data Connect
          * [Tips, tricks och felsökning för Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
          * [Det går inte att upprätta en anslutning](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI-verktyget kan inte ansluta med det angivna lösenordet](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
-* Hantera resurser {#manage-resources}
+* Hantera resurser
    * [Hantera resurser](resource-mgmt/manage-resources.md)
-   * Resurshantering {#resource-management}
+   * Resurshantering
       * [Resurshantering](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Kom igång med resurshantering](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-   * Resursplanering i Adobe Workfront {#resource-planning-in-adobe-workfront}
+   * Resursplanering i Adobe Workfront
       * [Resursplanering: artikelindex](resource-mgmt/resource-planning/resource-planning-overview.md)
-      * Resursgrupper {#resource-pools}
+      * Resursgrupper
          * [Resursgrupper](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [Översikt över resurspooler](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
          * [Skapa resursgrupper](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
@@ -1749,10 +1749,10 @@ ht-degree: 0%
       * [Exportera information från resursplaneraren](resource-mgmt/resource-planning/export-resource-planner.md)
       * [Rapport om budgeterade timmar för resursplanering](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Resursplanering - visningsbegränsningar](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * Resursanvändning {#resource-utilization}
+   * Resursanvändning
       * [Resursanvändning](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Visa information om resursutnyttjande](resource-mgmt/resource-utilization/view-utilization-information.md)
-   * Utjämning av arbetsbelastning {#the-workload-balancer}
+   * Utjämning av arbetsbelastning
       * [Utjämning av arbetsbelastning: artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
       * [Översikt över belastningsutjämnare](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
@@ -1767,11 +1767,11 @@ ht-degree: 0%
       * [Navigera till arbetsbelastningsutjämnaren](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
       * [Dela arbetsbelastningsutjämnaren med en länk](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
       * [Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-* Granska och godkänn arbetet {#review-and-approve-work}
+* Granska och godkänn arbetet
    * [Granska och godkänn arbetet](review-and-approve-work/review-and-approve-work.md)
    * [Alpha-program - dokumentgodkännanden](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Begränsat dokument och bevisbeslut för obetalda användare - översikt](review-and-approve-work/proof-doc-decision-limits.md)
-   * Arbetsgodkännanden {#work-approvals}
+   * Arbetsgodkännanden
       * [Arbetsgodkännanden](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Översikt över godkännandeprocessen](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
       * [Begär dokumentgodkännanden](review-and-approve-work/manage-approvals/request-document-approvals.md)
@@ -1783,12 +1783,12 @@ ht-degree: 0%
       * [Delegera godkännandebegäran](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associera en ny eller befintlig godkännandeprocess med arbete](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Återkalla inskickade godkännanden](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Granskning och godkännande av material och dokument {#document-reviews-and-approvals}
+   * Granskning och godkännande av material och dokument
       * [Resurs- och dokumentgranskning och godkännande: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Tillgänglig funktionalitet för granskning och godkännande av material och dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Översikt över enhetliga godkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * Ställ in och hantera godkännande av tillgångar och dokument {#manage-asset-review-and-approval}
+      * Ställ in och hantera godkännande av tillgångar och dokument
          * [Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Skapa en begäran om dokumentgranskning eller godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Lägga till ytterligare granskare eller godkännare till en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1797,13 +1797,13 @@ ht-degree: 0%
          * [Använd enhetliga godkännanden och korrektur tillsammans](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Överför en ny dokumentversion och begär godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [Skapa en rapportkontrollpanel för granskning och godkännande](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
-      * Granska och godkänn resurser och dokument {#review-and-approve-documents}
+      * Granska och godkänn resurser och dokument
          * [Granska och godkänna dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-   * Korrektur {#proofing}
+   * Korrektur
       * [Korrektur: artikelindex](review-and-approve-work/proofing/proofing.md)
-      * Korrektur - översikt {#proofing-overview}
+      * Korrektur - översikt
          * [Språköversikt: artikelindex](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Översikt över behörighetsprofiler för korrektur](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [Översikt över profilroller](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
@@ -1816,7 +1816,7 @@ ht-degree: 0%
          * [Översikt över korrektur av säkerhet](review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
          * [Översikt över korrektur och status](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer - översikt](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
-      * Skapa korrektur {#create-proofs}
+      * Skapa korrektur
          * [Skapa korrektur: artikelindex](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Konfigurera standardinställningar för personligt korrektur](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Skapa ett korrektur för flera sidor](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
@@ -1826,9 +1826,9 @@ ht-degree: 0%
          * [Skapa ett korrektur för ett dokument](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-      * Hantera korrektur i Adobe Workfront {#manage-proofs-in-workfront}
+      * Hantera korrektur i Adobe Workfront
          * [Hantera korrektur i Adobe Workfront: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-         * Hantera korrektur {#manage-proofs}
+         * Hantera korrektur
             * [Hantera korrektur: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [Redigera korrekturinställningar](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Skriva ut en korrektursammanfattning i Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
@@ -1837,27 +1837,27 @@ ht-degree: 0%
             * [Visa aktivitet på ett korrektur i Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [Använd rapporten för godkännande av korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Öppna Workfront Proof från Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-         * Hantera korrekturversioner {#manage-proof-versions}
+         * Hantera korrekturversioner
             * [Hantera korrekturversioner: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Skapa en ny version av ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Visa korrekturversioner](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Visa och hantera information om korrekturversioner](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [Hämta korrekturversioner](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
-         * Hantera korrekturgranskare {#manage-proof-reviewers}
+         * Hantera korrekturgranskare
             * [Hantera korrekturgranskare: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [Konfigurera åtkomst- och prenumerationsinställningar för ett bevis](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Dela ett korrektur i Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [Skicka e-postmeddelanden till granskare vid korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
-         * Hantera korrekturmeddelanden {#manage-proof-notifications}
+         * Hantera korrekturmeddelanden
             * [Hantera korrekturmeddelanden: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [Hantera meddelanden för korrekturkommentarer och beslut](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
-         * Hantera korrekturtider {#manage-proof-deadlines}
+         * Hantera korrekturtider
             * [Hantera korrekturtider: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [Ange en tidsgräns för ett befintligt grundläggande korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [Lägga till, redigera eller ta bort en deadline för en fas](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [Ange deadlines för enskilda granskare](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [Ta bort enskilda deadlines för granskare](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
-         * Hantera automatiska korrektur {#manage-automated-proofs}
+         * Hantera automatiska korrektur
             * [Hantera automatiska korrektur: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [Visa automatiska arbetsflödesfaser i ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [Visa aktiva faser i ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
@@ -1865,16 +1865,16 @@ ht-degree: 0%
             * [Redigera korrekturfaser och granskare](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
             * [Konvertera ett grundläggande arbetsflöde till ett automatiserat arbetsflöde vid ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [Lägga till faser och användare i ett automatiserat arbetsflöde vid ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
-      * Använda Desktop Proofing Viewer {#use-the-desktop-proofing-viewer}
+      * Använda Desktop Proofing Viewer
          * [Använda Desktop Proofing Viewer: artikelindex](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [Installera Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [Uppdatera Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Öppna korrektur i Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Granska icke-interaktivt innehåll i Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Frågor och svar - Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
-      * Granska korrektur i Adobe Workfront {#review-proofs-in-workfront}
+      * Granska korrektur i Adobe Workfront
          * [Granska korrektur i Adobe Workfront: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * Granska ett korrektur {#review-a-proof}
+         * Granska ett korrektur
             * [Granska ett korrektur: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Visa innehåll i ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Mäta ett område inom ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
@@ -1892,7 +1892,7 @@ ht-degree: 0%
             * [Ändra interaktiv korrekturupplösning i korrekturläsaren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Konfigurera inställningar för korrekturläsare](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
             * [Granska interaktivt material med Adobe Workfront granskningsverktyg](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
-         * Kommentera ett korrektur {#comment-on-a-proof}
+         * Kommentera ett korrektur
             * [Kommentera korrektur: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Kommentera ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [Visa och svara på korrekturkommentarer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
@@ -1902,12 +1902,12 @@ ht-degree: 0%
             * [Ta bort korrekturkommentarer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
             * [Använda funktionsmakron för korrekturkommentarer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [Tagga användare för att dela ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
-         * Fatta ett beslut om ett bevis {#make-decision-on-proof}
+         * Fatta ett beslut om ett bevis
             * [Fatta ett beslut om ett korrektur: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Godkänn ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Fatta ett beslut om ett korrektur i korrekturläsaren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Ändra ett befintligt beslut om ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
-      * Tips, tricks och felsökning för korrektur i Adobe Workfront {#ttt-proofing-in-workfront}
+      * Tips, tricks och felsökning för korrektur i Adobe Workfront
          * [Tips, tricks och felsökning för korrektur i Adobe Workfront: artikelindex](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Visa en lista över användare som har en korrekturlicens i Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Redigera fältet Korrekturbehörighetsprofil i flera](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
@@ -1915,16 +1915,16 @@ ht-degree: 0%
          * [Vanliga frågor: korrektur vid migrering från Adobe Workfront - USA till EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [Dokumentnamnet har ändrats efter överföringen och innehåller ett ogiltigt tecken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Korrektur för PowerPoint med inbäddad video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
-   * Tips, tricks och felsökning för godkännanden {#ttt-approvals}
+   * Tips, tricks och felsökning för godkännanden
       * [Tips, tricks och felsökning för godkännanden: artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visa antalet korrektur- och dokumentbeslut för alla användare](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
-* Tidrapporter {#timesheets}
+* Tidrapporter
    * [Tidrapporter: artikelindex](timesheets/timesheets-all.md)
-   * Information om tidrapport {#details}
+   * Information om tidrapport
       * [Information om tidrapport: artikelindex](timesheets/timesheets/timesheets.md)
       * [Översikt över tidrapporter](timesheets/timesheets/timesheets-overview.md)
       * [Översikt över tidrapportslayout](timesheets/timesheets/timesheet-layout.md)
-   * Skapa och hantera tidrapporter {#create-and-manage-timesheets-in-adobe-workfront}
+   * Skapa och hantera tidrapporter
       * [Skapa och hantera tidrapporter: artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Skapa, redigera och tilldela tidrapportprofiler](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definiera timtyper och tillgänglighet](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
@@ -1939,16 +1939,16 @@ ht-degree: 0%
       * [Ta bort tidrapporter i Adobe Workfront](timesheets/create-and-manage-timesheets/delete-timesheets.md)
       * [Generera tidrapporter manuellt](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Exportera en lista med tidrapporter](timesheets/create-and-manage-timesheets/export-timesheets.md)
-   * Konfigurera hur tid ska loggas {#configure-timesheet-preferences}
+   * Konfigurera hur tid ska loggas
       * [Konfigurera hur tid loggas: artikelindex](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Konfigurera om tid är inloggad i timmar eller dagar](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-   * Tips, tricks och felsökning för tidrapporter {#tips-tricks-troubleshooting-for-timesheets}
+   * Tips, tricks och felsökning för tidrapporter
       * [Tips, tricks och felsökning: artikelindex](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [Korrigera arbetsveckans startdag för tidrapporter](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [Förhindra att åtgärden Beräkna om finanser påverkar historiska timmar när priserna ändras](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Spåra timnoteringar med Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [Det går inte att logga tid för framtida datum](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
-* Adobe Workfront Scenario Planner {#scenario-planner}
+* Adobe Workfront Scenario Planner
    * [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
    * [Kom igång med scenarioplanen](scenario-planner/get-started-with-scenario-planning.md)
    * [Översikt över scenarioplanen](scenario-planner/scenario-planner-overview.md)
@@ -1970,10 +1970,10 @@ ht-degree: 0%
    * [Dela en plan i scenarioplanen](scenario-planner/share-a-plan.md)
    * [Visa rolltilldelning för projekt och initiativ i uppgiftslistan](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [Visa rolltilldelning för projekt och initiativ i Utjämning av arbetsbelastning](scenario-planner/show-role-allocation-workload-balancer.md)
-* Adobe Workfront-mål {#adobe-workfront-goals}
+* Adobe Workfront-mål
    * [Adobe Workfront-mål: artikelindex](workfront-goals/workfront-goals.md)
    * [Översikt över Adobe Workfront-mål](workfront-goals/goal-management/wf-goals-overview.md)
-   * Målhantering i Adobe Workfront-mål {#goal-management}
+   * Målhantering i Adobe Workfront-mål
       * [Målhantering i Adobe Workfront-mål: artikelindex](workfront-goals/goal-management/goal-management.md)
       * [Kom igång med Adobe Workfront-mål](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Få åtkomst till och öppna mål i Adobe Workfront-mål](workfront-goals/goal-management/access-goals-in-wf-goals.md)
@@ -1990,20 +1990,20 @@ ht-degree: 0%
       * [Hantera målkommentarer i Adobe Workfront-mål](workfront-goals/goal-management/manage-goal-comments.md)
       * [Uppdatera mål i avsnittet Målinformation i Adobe Workfront-mål](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Granska problematiska mål i Adobe Workfront-mål](workfront-goals/goal-management/view-in-trouble-goals.md)
-   * Måljustering i Adobe Workfront-mål {#goal-alignment}
+   * Måljustering i Adobe Workfront-mål
       * [Måljustering i Adobe Workfront-mål: artikelindex](workfront-goals/goal-alignment/goal-alignment.md)
       * [Justera mål genom att koppla dem till Adobe Workfront mål](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [Justera mål genom att konvertera resultat och aktiviteter till mål](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Översikt över måljustering i Adobe Workfront-mål](workfront-goals/goal-alignment/goal-alignment-overview.md)
       * [Navigera i avsnittet Måljustering i Adobe Workfront-mål](workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
       * [Ta bort måljustering i Adobe Workfront-mål](workfront-goals/goal-alignment/remove-goal-alignment.md)
-   * Målgranskning och avsnitten om Adobe Workfront-mål {#goal-review-and-adobe-workfront-goals-sections}
+   * Målgranskning och avsnitten om Adobe Workfront-mål
       * [Målgranskning och avsnitten om Adobe Workfront-mål](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
       * [Översikt över avsnitten om Adobe Workfront-mål](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
       * [Uppdatera målstatus i Adobe Workfront-mål](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Hantera mål i mållistan för Adobe Workfront mål](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Granska diagram för att förstå målutvecklingstrender i Adobe Workfront-mål](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-   * Resultat och aktiviteter i Adobe Workfront mål {#results-activities-adobe-workfront-goals}
+   * Resultat och aktiviteter i Adobe Workfront mål
       * [Resultat och aktiviteter i Adobe Workfront mål](workfront-goals/results-and-activities/results-and-activities.md)
       * [Lägga till aktiviteter i mål i Adobe Workfront](workfront-goals/results-and-activities/add-activities-to-goals.md)
       * [Lägga till resultat i mål i Adobe Workfront](workfront-goals/results-and-activities/add-results-to-goals.md)
@@ -2011,14 +2011,14 @@ ht-degree: 0%
       * [Redigera resultat och aktiviteter i Adobe Workfront-mål](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Kom igång med resultat och aktiviteter i Adobe Workfront-mål](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
       * [Ta bort förloppsindikatorer från mål i Adobe Workfront](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
-   * Inställningar för Adobe Workfront-mål {#adobe-workfront-goal-settings}
+   * Inställningar för Adobe Workfront-mål
       * [Inställningar för Adobe Workfront-mål](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Anpassa Adobe Workfront-målterminologi](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Dela ett mål i Workfront-mål](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Aktivera meddelanden om Adobe Workfront-mål](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront Planning {#adobe-workfront-planning}
+* Adobe Workfront Planning
    * [Adobe Workfront Planning: artikelindex](planning/planning-information.md)
-   * Adobe Workfront Planning - allmän information {#adobe-workfront-planning-general-information}
+   * Adobe Workfront Planning - allmän information
       * [Adobe Workfront Planning - allmän information: artikelindex](planning/general/planning-general-article-index.md)
       * [Adobe Workfront Planning - översikt](planning/general/planning-overview.md)
       * [Adobe Workfront Planning - bästa praxis](planning/general/planning-best-practices.md)
@@ -2027,7 +2027,7 @@ ht-degree: 0%
       * [Adobe Workfront Planning Release Activity för 2024](planning/general/release-activity.md)
       * [Adobe Workfront Planning Release Activity för 2023](planning/general/release-activity-archives-2023.md)
       * [Översikt över begränsningar för Adobe Workfront Planning-objekt](planning/general/limitations-overview.md)
-   * Adobe Workfront Planning - arkitektur {#adobe-workfront-planning-architecture}
+   * Adobe Workfront Planning - arkitektur
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
       * [Arbetsytor - översikt](planning/architecture/workspaces-overview.md)
       * [Skapa arbetsytor](planning/architecture/create-workspaces.md)
@@ -2042,7 +2042,7 @@ ht-degree: 0%
       * [Ta bort posttyper](planning/architecture/delete-record-types.md)
       * [Exempel på att ansluta posttyper och poster](planning/architecture/example-connect-record-types-and-records.md)
       * [Lista över arbetsytemallar](planning/architecture/workspace-templates.md)
-   * Adobe Workfront Planning fields {#adobe-workfront-planning-fields}
+   * Adobe Workfront Planning fields
       * [Fält: artikelindex](planning/fields/fields-information.md)
       * [Översikt över fält](planning/fields/fields-overview.md)
       * [Skapa fält](planning/fields/create-fields.md)
@@ -2051,7 +2051,7 @@ ht-degree: 0%
       * [Översikt över formelfält](planning/fields/formula-fields.md)
       * [Importera fält från Adobe Workfront](planning/fields/import-fields-from-workfront.md)
       * [Översikt över primärt fält](planning/fields/primary-field-overview.md)
-   * Åtkomst till Adobe Workfront Planning {#adobe-workfront-planning-access}
+   * Åtkomst till Adobe Workfront Planning
       * [Adobe Workfront Planning - åtkomstinformation: artikelindex](planning/access/access-information.md)
       * [Åtkomstöversikt för Adobe Workfront Planning](planning/access/access-overview.md)
       * [Översikt över delningsbehörigheter i Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
@@ -2060,7 +2060,7 @@ ht-degree: 0%
       * [Dela posttyper](planning/access/share-record-types.md)
       * [Visa](planning/access/share-views.md)
       * [Begära behörigheter till en vy eller arbetsyta](planning/access/request-permissions.md)
-   * Adobe Workfront Planning - poster {#adobe-workfront-planning-records}
+   * Adobe Workfront Planning - poster
       * [Poster: artikelindex](planning/records/records-information.md)
       * [Skapa poster](planning/records/create-records.md)
       * [Skapa poster genom att importera information från en CSV- eller Excel-fil](planning/records/import-file-to-create-records.md)
@@ -2080,36 +2080,36 @@ ht-degree: 0%
       * [Exportera information för en post](planning/records/export-the-record-page.md)
       * [Skapa Workfront-objekt från Workfront Planning när du kopplar dem till poster](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Skapa objekt med automatisering av Workfront Planning Record](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-   * Begäranden om Adobe Workfront Planning {#adobe-workfront-planning-requests}
+   * Begäranden om Adobe Workfront Planning
       * [Adobe Workfront Planning-begäranden: artikelindex](planning/requests/requests-article-index.md)
       * [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](planning/requests/create-request-form.md)
       * [Skicka Adobe Workfront Planning-begäranden för att skapa poster](planning/requests/submit-requests.md)
       * [Avpublicera ett begärandeformulär i Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
       * [Lägga till ett godkännande i ett begärandeformulär i Adobe Workfront Planning](planning/requests/add-approval-to-request-form.md)
       * [Godkänn en begäran i Adobe Workfront Planning](planning/requests/approve-request.md)
-   * Adobe Workfront Planeringsvyer {#adobe-workfront-planning-views}
+   * Adobe Workfront Planeringsvyer
       * [Vyer: artikelindex](planning/views/views-information.md)
       * [Hantera postvyer](planning/views/manage-record-views.md)
       * [Hantera tabellvyn](planning/views/manage-the-table-view.md)
       * [Hantera tidslinjevyn](planning/views/manage-the-timeline-view.md)
       * [Hantera kalendervyn](planning/views/manage-the-calendar-view.md)
-   * Adobe Workfront Planning-meddelanden {#adobe-workfront-planning-notifications}
+   * Adobe Workfront Planning-meddelanden
       * [Adobe Workfront Planning-meddelanden: Artikelindex](planning/notifications/notifications-information.md)
       * [Hantera aviseringsinställningar för Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
       * [Hantera e-postmeddelanden om Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
       * [Hantera meddelanden i appen för Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
-* Adobe Workfront Integrations {#adobe-workfront-integrations}
+* Adobe Workfront Integrations
    * [Adobe Workfront-integreringar](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront inbyggda integreringsöversikt](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Integreringsmetoder i Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Adobe Workfront för Creative Cloud {#workfront-for-creative-cloud}
+   * Adobe Workfront för Creative Cloud
       * [Adobe Workfront för Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * Installera Adobe Workfront-plugin-programmet för Creative Cloud-program {#install-wf-cc}
+      * Installera Adobe Workfront-plugin-programmet för Creative Cloud-program
          * [Installera Adobe Workfront för Creative Cloud-program](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Installera och öppna Adobe Workfront för Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Installera och öppna Adobe Workfront för XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [Installera och öppna [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
-      * Hantera arbetet med Adobe Workfront plugin för Creative Cloud-program {#manage-wf-cc}
+      * Hantera arbetet med Adobe Workfront plugin för Creative Cloud-program
          * [Hantera arbetet med Adobe Workfront plugin för Creative Cloud-program](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Hitta ditt material med Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
          * [Visa information om arbetsuppgift med Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
@@ -2117,7 +2117,7 @@ ht-degree: 0%
          * [Markera arbetsobjekt som slutförda med Adobe Workfront-plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Loggtid med Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
          * [Hantera [!DNL Adobe Workfront] meddelanden från Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
-      * Ladda upp dokument och korrektur med Adobe Workfront plugin for Creative Cloud Applications {#upload-docs-proofs-wf-cc}
+      * Ladda upp dokument och korrektur med Adobe Workfront plugin for Creative Cloud Applications
          * [Överför dokument och korrektur från  [!DNL Adobe Workfront plugin] till  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Ladda upp dokument och korrektur med Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Ladda upp korrektur från Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
@@ -2128,16 +2128,16 @@ ht-degree: 0%
          * [Ladda upp dokument från InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [Överför korrektur från  [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [Överför dokument från  [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
-      * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
+      * Workfront Extension for Illustrator and InDesign
          * [Använda Workfront-tillägget för Illustrator och InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
-   * Adobe Workfront för Jira {#workfront-for-jira}
+   * Adobe Workfront för Jira
       * [Adobe Workfront för Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
       * [Installera Adobe Workfront för Jira](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
       * [Konfigurera Adobe Workfront för Jira](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
       * [Länka objekt mellan Adobe Workfront och Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [Uppdatera länkade objekt mellan Jira och Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [Visa aktivitetsloggen för Jira](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * Adobe Workfront för Google Workspace {#workfront-for-g-suite}
+   * Adobe Workfront för Google Workspace
       * [Adobe Workfront för Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [Installera Adobe Workfront för Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [Sekretess och behörigheter i Workfront för Google Workspace](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
@@ -2153,7 +2153,7 @@ ht-degree: 0%
       * [Skapa en Adobe Workfront-uppgift i Google Workspace med e-postinnehåll](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
       * [Skapa ett Adobe Workfront-problem i Google Workspace med e-postinnehåll](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
       * [Uppdatera ett Adobe Workfront-objekt från G Suite med e-postinnehåll](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
-   * Adobe Workfront för Outlook {#workfront-for-outlook}
+   * Adobe Workfront för Outlook
       * [Adobe Workfront för Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Konfigurera Adobe Workfront för Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
       * [Behörighetsnivåer för Workfront för Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
@@ -2165,7 +2165,7 @@ ht-degree: 0%
       * [Visa ytterligare information om Adobe Workfront för Outlook och logga ut](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Aktivera Outlook för Office för Adobe Workfront och SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
       * [Felsökning: outlookIdentityToken-fel vid användning av Workfront för Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
-   * Adobe Workfront för Microsoft Teams {#workfront-for-microsoft-teams}
+   * Adobe Workfront för Microsoft Teams
       * [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Adobe Workfront for Microsoft Teams - översikt](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Installera Adobe Workfront för Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
@@ -2174,14 +2174,14 @@ ht-degree: 0%
       * [Skapa Adobe Workfront-uppgifter från Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [Skicka in Adobe Workfront-förfrågningar från Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [Hantera Adobe Workfront-meddelanden i Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
-   * Adobe Workfront för Salesforce {#workfront-for-salesforce}
+   * Adobe Workfront för Salesforce
       * [Adobe Workfront för Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
       * [Adobe Workfront for Salesforce - översikt](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
       * [Installera Adobe Workfront för Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
       * [Konfigurera Adobe Workfront för Salesforce-användare](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
       * [Skicka Adobe Workfront-förfrågningar från Salesforce-objekt](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [Skapa Adobe Workfront-projekt från Salesforce-objekt](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * Adobe Workfront för Slack {#workfront-for-slack}
+   * Adobe Workfront för Slack
       * [Adobe Workfront för Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Konfigurera Adobe Workfront för Slack](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [Få tillgång till dina favoriter och nyligen använda objekt från Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
@@ -2192,7 +2192,7 @@ ht-degree: 0%
       * [Öppna Adobe Workfront från Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
       * [Publicera en Slack-kommentar som en uppdatering](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Få Adobe Workfront-meddelanden i Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
-   * Adobe Workfront med Anaplan {#workfront-with-anaplan}
+   * Adobe Workfront med Anaplan
       * [Adobe Workfront med Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
       * [Vanliga frågor om integrering av Adobe Workfront med Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
       * [Skicka Adobe Workfront-projektuppdateringar till ett listobjekt i Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
@@ -2202,51 +2202,51 @@ ht-degree: 0%
       * [Använda en Anaplan-budgettilldelning i ett Adobe Workfront-projekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Skapa ett listobjekt för en Anaplan från en Adobe Workfront-kampanjbegäran](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Använda en Anaplan-budgettilldelning på en Adobe Workfront-kampanjbegäran eller ett kampanjprojekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront Proof {#workfront-proof}
+* Workfront Proof
    * [Workfront Proof: artikelindex](workfront-proof/workfront-proof.md)
-   * Kom igång med Workfront Proof {#get-started-wf-proof}
+   * Kom igång med Workfront Proof
       * [Komma igång med Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-      * Exempel på arbetsflöden {#workflow-examples}
+      * Exempel på arbetsflöden
          * [Exempel på arbetsflöden](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
          * [Grundläggande korrekturprocess i Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
          * [Intern och extern granskning i Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
          * [Arbeta med designers och projektledare i Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
          * [Arbeta med frilansare i Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
-      * Personliga inställningar i Workfront Proof {#personal-settings-in-wf-proof}
+      * Personliga inställningar i Workfront Proof
          * [Personliga inställningar i Workfront Proof](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
          * [Ange tillfälliga korrekturägare i Workfront Proof](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
          * [Integreringar - användarinställningar](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
-      * Systeminformation i Workfront Proof {#system-info-wf-proof}
+      * Systeminformation i Workfront Proof
          * [Systeminformation i Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
          * [Testmiljö för förhandsgranskning av sandlådor - Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Språkinställningar i Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
          * [Kodekar i Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * WORKFRONT PROOF FAQ {#wf-proof-faq}
+      * WORKFRONT PROOF FAQ
          * [Workfront Proof - Frågor och svar](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [Frågor och svar - Skapa och dela korrektur och filer](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [Frågor och svar - Granska korrektur](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
          * [Frågor och svar - Workfront Proof-konto](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
          * [Logga in och ändra ditt lösenord och din e-postadress för Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
          * [Ange tidszoner i Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
-   * Arbeta med korrektur och filer i Workfront Proof {#work-with-proofs-in-wf-proof}
+   * Arbeta med korrektur och filer i Workfront Proof
       * [Arbeta med korrektur och filer i Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
-      * Automatiserat arbetsflöde i Workfront Proof {#automated-workflow-in-wf-proof}
+      * Automatiserat arbetsflöde i Workfront Proof
          * [Automatiserat arbetsflöde i Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
          * [Ställ in ett korrektur med ett automatiserat arbetsflöde i Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
          * [Hantera ett korrektur konfigurerat med ett automatiserat arbetsflöde i Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
-      * Grundfunktioner i Workfront Proof {#basic-features-in-wf-proof}
+      * Grundfunktioner i Workfront Proof
          * [Grundfunktioner i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
          * [Kontrollpanelen i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
          * [Sidlayout på fliken Vyer i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
          * [Söka i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
          * [Förstå Workfront Proof aktivitetsgranskningsspår](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
-      * Skapa korrektur och filer {#create-proofs-and-files}
+      * Skapa korrektur och filer
          * [Skapa korrektur och filer](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
          * [Överför filer och webbinnehåll till Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
          * [Generera korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
          * [Kopiera korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
          * [Dropzone](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
-      * Hantera ditt arbete {#manage-your-work}
+      * Hantera ditt arbete
          * [Hantera ditt arbete](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
          * [Hantera filer i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
          * [Hantera objekt på vysidan i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
@@ -2260,7 +2260,7 @@ ht-degree: 0%
          * [Ta bort ett korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
          * [Återställ och tömma papperskorgen i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
          * [Kör rapporter i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
-      * Ordna ditt arbete {#organize-your-work}
+      * Ordna ditt arbete
          * [Ordna ditt arbete](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
          * [Mappar i Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
          * [Skapa mappar i Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
@@ -2272,11 +2272,11 @@ ht-degree: 0%
          * [Arkivera i Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
          * [Säkerhetskopiera dina Workfront Proof-data](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [Skriv ut och exportera kommentarer i Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-      * Granska korrektur i Desktop Proofing Viewer {#review-proofs-in-viewer}
+      * Granska korrektur i Desktop Proofing Viewer
          * [Granska korrektur i Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [Förstå Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
          * [Konfigurera hur hyperlänkar öppnas i Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-      * Granska korrektur i webbkorrekturläsaren {#review-proofs-web-proofing-viewer}
+      * Granska korrektur i webbkorrekturläsaren
          * [Granska korrektur i webbkorrekturläsaren](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
          * [Öppna ett korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
          * [Granska ett arbetsflöde i korrekturläsaren](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
@@ -2288,7 +2288,7 @@ ht-degree: 0%
          * [Hämta ett korrektur i korrekturläsaren](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
          * [Kortkommandon i Workfront Proof korrekturläsare](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [Äldre korrekturläsare borttagen](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-      * Dela korrektur och filer {#share-proofs-and-files}
+      * Dela korrektur och filer
          * [Dela korrektur och filer](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [Dela ett korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
          * [Dela korrekturlänkar i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
@@ -2299,9 +2299,9 @@ ht-degree: 0%
          * [Skapa ett Mini-korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
          * [Bädda in ett minikorrektur](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
          * [Hantera korrekturroller i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
-   * Workfront Proof kontoadministration {#wf-proof-account-admin}
+   * Workfront Proof kontoadministration
       * [Workfront Proof kontoadministration](workfront-proof/wp-acct-admin/wp-account-admin.md)
-      * Kontoinställningar i Workfront Proof {#account-settings-in-wf-proof}
+      * Kontoinställningar i Workfront Proof
          * [Kontoinställningar i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
          * [Hantera Workfront Proof-användare](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
          * [Konfigurera en användares behörighetsprofil för korrektur i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
@@ -2318,123 +2318,123 @@ ht-degree: 0%
          * [Visa historiken för ditt företags Workfront Proof-administratörskonto](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
          * [Kontrollera din Workfront Proof-lagring](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
          * [Begär en ny säkerhetskopiering av data i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
-      * Varumärkning av Workfront Proof {#branding-wf-proof}
+      * Varumärkning av Workfront Proof
          * [Varumärkning av Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
          * [Varumärk Workfront Proof webbplats](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
          * [Varumärk Workfront Proof webbplats - avancerad](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-      * Hantera säkerhet {#manage-security}
+      * Hantera säkerhet
          * [Hantera säkerhet](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
          * [Säkerhetsbevis i Workfront Proof](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
          * [Enkel inloggning i Workfront Proof](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
          * [Elektroniska signaturer i Workfront Proof](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
-      * Partnerkonton i Workfront Proof {#partner-accounts-in-wf-proof}
+      * Partnerkonton i Workfront Proof
          * [Partnerkonton i Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
          * [Hantera en partnerrelation mellan Workfront Proof-konton](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
          * [Dela objekt med en partner i Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
-      * Satellitkonton i Workfront Proof {#satellite-accounts-in-wf-proof}
+      * Satellitkonton i Workfront Proof
          * [Satellitkonton i Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
          * [Satellitkonton i Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
          * [Konfigurera ett satellitkonto i Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
          * [Hantera ett satellitkonto i Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-      * Tips, tricks och felsökning för kontoadministration i Workfront Proof {#ttt-wf-proof-account-admin}
+      * Tips, tricks och felsökning för kontoadministration i Workfront Proof
          * [Tips, tricks och felsökning för kontoadministration i Workfront Proof](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
          * [Vanliga frågor: Migrering mellan Workfront Proof - USA och EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-   * Faktureringsinställningar för Workfront Proof {#wf-proof-billing-settings}
+   * Faktureringsinställningar för Workfront Proof
       * [Faktureringsinställningar för Workfront Proof](workfront-proof/wp-billingsettings/wp-billing-settings.md)
-      * Hantera din fakturering {#manage-billing}
+      * Hantera din fakturering
          * [Hantera din fakturering](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
          * [Faktureringssidan för Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
          * [Välja betalningsmetod i Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
          * [Hämtar din Workfront Proof-faktura](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
          * [Stäng ditt Workfront Proof-konto](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-   * Korrekturmeddelanden och påminnelser {#proof-notifications-and-reminders}
+   * Korrekturmeddelanden och påminnelser
       * [Korrekturmeddelanden och påminnelser](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
-      * Undvik skräppostfilter {#avoid-spam-filters}
+      * Undvik skräppostfilter
          * [Undvik skräppostfilter](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [Konfigurera skräppostinställningar för vanliga e-postklienter](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
          * [Konfigurera Workfront Proof e-postmeddelanden för att undvika skräppostfilter](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
          * [Workfront Proof SPF-poster](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
-      * Skicka meddelanden till granskare {#send-messages-to-reviewers}
+      * Skicka meddelanden till granskare
          * [Skicka meddelanden till granskare](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
          * [Påminn en granskare om tilldelningar i Workfront Proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
          * [Skicka en påminnelse till granskarna om ett korrektur](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
-      * Korrekturmeddelanden och påminnelser {#proof-notifications-and-reminders}
+      * Korrekturmeddelanden och påminnelser
          * [Korrekturmeddelanden och påminnelser](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
          * [Sena korrekturrundor via e-post](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
          * [Nytt korrekturmeddelande](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
          * [E-postmeddelandet Ny version](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
          * [E-postmeddelande om korrekturet](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-   * E-postaviseringar {#email-alerts}
+   * E-postaviseringar
       * [E-postaviseringar](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
       * [Konfigurera e-postmeddelandeinställningar i Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
       * [Ändra e-postaviseringsinställningar för ett korrektur i Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
-   * Hantera användare och kontakter i Workfront Proof {#managing-users-in-wf-proof}
+   * Hantera användare och kontakter i Workfront Proof
       * [Hantera användare och kontakter i Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      * Användare {#users}
+      * Användare
          * [Användare](workfront-proof/wp-mnguserscontacts/users/users.md)
          * [Skapa användare med Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-users.md)
          * [Konfigurera användarinformation med Workfront Proof](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [Skapa och hantera anpassade profiler med Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
          * [Flytta användare mellan konton med Workfront Proof](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
-      * Grupper {#groups}
+      * Grupper
          * [Grupper](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [Lägg till grupper i ett korrektur](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [Skapa korrekturgrupper med Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
          * [Gör grupper privata med Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
          * [Hantera grupper med Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
-      * Kontakter {#contacts}
+      * Kontakter
          * [Kontakter](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
          * [Lägg till en gäst i Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [Hantera dina kontakter i Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [Förstå användare, medlemmar och gäster i Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
-      * Tips, tricks och felsökning för Workfront Proof-användare och -kontakter {#ttt-wf-proof-users-and-contacts}
+      * Tips, tricks och felsökning för Workfront Proof-användare och -kontakter
          * [Tips, tricks och felsökning för Workfront Proof-användare och -kontakter](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [Redigera användarens övriga grupper gruppvis](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
-   * Workfront Proof Mobile {#wf-proof-mobile}
+   * Workfront Proof Mobile
       * [Workfront Proof Mobile](workfront-proof/wp-mobile/wp-mobile.md)
-      * Workfront Proof mobilappar {#wf-proof-mobile-apps}
+      * Workfront Proof mobilappar
          * [Workfront Proof mobilappar](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
          * [Workfront Proof mobilapp](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
          * [Workfront Proof mobilapp för surfplattor](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
-      * Tips, tricks och felsökning för Workfront Proof mobilapp {#ttt-wf-proof-mobile-apps}
+      * Tips, tricks och felsökning för Workfront Proof mobilapp
          * [Tips, tricks och felsökning för Workfront Proof mobilapp](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * [Det går inte att logga in på Workfront Proof Mobile App](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
-   * Workfront Proof teknikhörn {#wf-proof-tech-corner}
+   * Workfront Proof teknikhörn
       * [Workfront Proof teknikhörn](workfront-proof/wp-tech-corner/tech-corner.md)
-      * Korrekturtyper {#proof-types}
+      * Korrekturtyper
          * [Korrekturtyper](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
          * [Skapa ett statiskt korrektur av en webbplats med Workfront Proof](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-      * Felsökning i Workfront Proof {#troubleshooting-wf-proof}
+      * Felsökning i Workfront Proof
          * [Felsökning i Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [Felsökning - skadat gränssnittsteckensnitt i korrekturläsare på Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Förstå hur cache och cookies påverkar Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Snabba upp problem i Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
          * [Felsökning - Workfront Proof korrekturläsare](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-   * Workfront Proof-integreringar {#wf-proof-integrations}
+   * Workfront Proof-integreringar
       * [Workfront Proof-integreringar](workfront-proof/wp-integrations/wp-integrations.md)
-      * WORKFRONT PROOF API {#wf-proof-api}
+      * WORKFRONT PROOF API
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box {#box}
+      * Box
          * [Box](workfront-proof/wp-integrations/box/box.md)
          * [Introduktion till integrering av Workfront Proof och Box](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Skapa ett korrektur via ditt Box-konto](workfront-proof/wp-integrations/box/create-proof-box-account.md)
          * [Synkronisera rutmappar med Workfront Proof](workfront-proof/wp-integrations/box/sycn-box-folder.md)
          * [Visa originalkorrekturfilen i rutan](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
-      * Basecamp {#basecamp}
+      * Basecamp
          * [Basecamp](workfront-proof/wp-integrations/basecamp/basecamp.md)
          * [Lägga till ett korrektur i ett basgruppsprojekt](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
          * [Integrera Workfront Proof med Basecamp](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
          * [Granska ett korrektur i basstämpel](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
          * [Förstå integreringen av basecamp med Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
-      * Klassisk basstämpel {#basecamp-classic}
+      * Klassisk basstämpel
          * [Klassisk basstämpel](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
          * [Lägga till ett korrektur i ett Classic-projekt](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
          * [Integrera Workfront Proof med Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
          * [Granska ett korrektur i Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-* ADOBE WORKFRONT API {#adobe-workfront-api}
+* ADOBE WORKFRONT API
    * [WORKFRONT API](wf-api/workfront-api.md)
-   * API Notes {#api-notes}
+   * API Notes
       * [API Notes](wf-api/api/api.md)
       * [Överföra filer via API](wf-api/api/uploading-files-api.md)
       * [Stöd för JSONP upphör](wf-api/api/ending-support-jsonp.md)
@@ -2468,7 +2468,7 @@ ht-degree: 0%
       * [Uppdateringar av API-version 8](wf-api/api/new-api-version-8-updates.md)
       * [Nyheter i API Version 7](wf-api/api/new-api-version-7.md)
       * [Nyheter i API-version 6](wf-api/api/new-api-version-6.md)
-   * Allmän API-information {#api-general-information}
+   * Allmän API-information
       * [Allmän API-information](wf-api/general/api-general.md)
       * [Grunderna i API](wf-api/general/api-basics.md)
       * [API Explorer](wf-api/general/api-explorer.md)
@@ -2477,7 +2477,7 @@ ht-degree: 0%
       * [API-exempelskript](wf-api/general/api-example-scripts.md)
       * [Synkronisera data för program och tjänster med API:t](wf-api/general/api-sync-data.md)
       * [Inaktivera en användare via API](wf-api/general/deactivate-user-api.md)
-   * Evenemangsprenumerationer {#event-subscriptions}
+   * Evenemangsprenumerationer
       * [Evenemangsprenumerationer](wf-api/api/event-subscriptions.md)
       * [API för händelseprenumeration](wf-api/general/event-subs-api.md)
       * [Bästa praxis för händelseteckning](wf-api/general/event-sub-best-practice.md)
@@ -2486,7 +2486,7 @@ ht-degree: 0%
       * [Versionshantering för händelseteckning](/help/quicksilver/wf-api/general/event-subs-versioning.md)
       * [Utgående meddelandeformat för händelseprenumerationer](wf-api/api/message-format-event-subs.md)
       * [Frågor och svar - Evenemangsprenumerationer](wf-api/general/event-subs-faq.md)
-   * Document Webhooks API {#document-webhooks-api}
+   * Document Webhooks API
       * [API-artiklar för webbhotell för dokument](wf-api/doc-wbhks-api/document-webhooks-api.md)
       * [Webbhooks - översikt](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [Registrera en webbkrosintegrering](wf-api/doc-wbhks-api/register-webhook-integration.md)
@@ -2506,10 +2506,10 @@ ht-degree: 0%
       * [Document Webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
       * [Testa webkrockanslutningar](wf-api/doc-wbhks-api/test-webhook-connections.md)
       * [Felhantering av webhooks i dokument](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-   * Workfront objektbeskrivningar {#workfrtont-object-descriptions}
+   * Workfront objektbeskrivningar
       * [Workfront objektbeskrivningar](wf-api/wf-objects/workfront-objects.md)
       * [Kategori](wf-api/wf-objects/category.md)
-   * Tips, tricks och felsökning för Adobe Workfront API {#tips-troubleshooting-apis}
+   * Tips, tricks och felsökning för Adobe Workfront API
       * [Tips, tricks och felsökning för Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
       * [Domänformat för Adobe Workfront API-anrop](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API-fel: &quot;Fjärrservern returnerade ett fel: (400) Ogiltig begäran&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
@@ -2521,9 +2521,9 @@ ht-degree: 0%
       * [Hämta valutainformation för ett projekt när valutan är null (inte tilldelad)](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [API:t för att lägga till en länkad mapp stöds inte](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
       * [Åtgärden moveToFolder för dokumentet fungerar inte](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
-* ProofHQ API {#proofhqpapi}
+* ProofHQ API
    * [ProofHQ API](proofhq-api/proofhq-api.md)
-   * Allmänt {#general}
+   * Allmänt
       * [Allmänt](proofhq-api/general/general.md)
       * [Ökning](proofhq-api/general/overview.md)
       * [Kodexempel](proofhq-api/general/code-samples.md)

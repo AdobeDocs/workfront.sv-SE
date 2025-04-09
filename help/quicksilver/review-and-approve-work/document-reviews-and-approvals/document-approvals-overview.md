@@ -6,7 +6,7 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Enhetliga godkännanden är en helt ny utformning av den befintliga godkännande
 
 **Skillnader jämfört med godkännanden för äldre dokument**
 
-Med enhetliga godkännanden kan ni
+Med enhetliga godkännanden kan man
 
 * Lägg till granskare förutom godkännare
 * Utse ett helt Workfront-team som granskare eller godkännare
@@ -46,7 +46,7 @@ Med enhetliga godkännanden kan ni
 * Skapa och återanvänd godkännandemallar
 * Använd nya versioner för
 * Visa flera viktiga resultatindikatorer för dina godkännanden i Workfront Home widgets
-* Använd kontrollpanelerna på arbetsytan för att visa rapportinformation om enhetliga godkännanden
+* Använd paneler på arbetsytan för att visa rapportinformation om enhetliga godkännanden
 
 ## Använda enhetliga godkännanden
 
@@ -59,20 +59,20 @@ För användare som vill granska eller godkänna dokument som de har tagit emot 
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
 * **Deltagande av intressenter**\
-    Enhetliga godkännanden gör det möjligt att inkludera både enskilda medarbetare och hela team i godkännandeprocessen. Genom att underlätta detta bredare deltagande kan man säkerställa ett heltäckande engagemang från intressenternas sida och främja en mer välinformerad och samverkande beslutsmiljö.
+    Med enhetliga godkännanden kan både enskilda medarbetare och hela team inkluderas i godkännandeprocessen. Genom att underlätta detta bredare deltagande kan man säkerställa ett heltäckande engagemang från intressenternas sida och främja en mer välinformerad och samverkande beslutsmiljö.
 
 * **Differentierade gransknings- och godkännanderoller**\
      Enhetliga godkännanden är utformade för att känna igen och respektera de olika rollerna i godkännandeprocessen. Genom att ge möjlighet att identifiera och utse granskare - användare som får meddelande om att lämna feedback men som inte har befogenhet att fatta beslut - förbättras kvaliteten på feedback samtidigt som den slutliga godkännandemyndigheten förblir tydlig.
 
 * **Versionsspecifika godkännanden**\
-    Dokumentutvecklingens repetitiva natur leder ofta till flera versioner av samma dokument. Enhetliga godkännanden anpassar sig till denna verklighet genom att tillhandahålla unika godkännandekedjor för varje version av ett dokument. På så sätt kan användare ladda upp en ny version och lägga till nya godkännare eller granskare efter behov, vilket säkerställer att feedback och godkännande är specifika för dokumentversionen och eliminerar eventuella förvirringar.
+    Dokumentutvecklingens repetitiva natur leder ofta till flera versioner av samma dokument. Enhetliga godkännanden anpassar sig efter denna verklighet genom att tillhandahålla unika godkännandekedjor för varje version av ett dokument. På så sätt kan användare ladda upp en ny version och lägga till nya godkännare eller granskare efter behov, vilket säkerställer att feedback och godkännande är specifika för dokumentversionen och eliminerar eventuella förvirringar.
 
 * **Granskningsspår**\
     Med enhetliga godkännanden upprätthålls en verifieringskedja över alla godkännandeaktiviteter i aktivitetsströmmen, vilket ger en värdefull resurs för framtida referens och efterlevnad.
 
 ## Versionsplan
 
-Vi gör enhetliga godkännanden tillgängliga för användare under flera versioner. Förutom att lägga till nya funktioner kommer vi också att utöka antalet konton för vilka enhetliga godkännanden är tillgängliga i varje release.
+Vi gör enhetliga godkännanden tillgängliga för användare i flera versioner. Förutom att lägga till nya funktioner kommer vi också att utöka antalet konton för vilka enhetliga godkännanden är tillgängliga i varje release.
 
 Om ni vill ha enhetliga godkännanden aktiverade i er produktionsmiljö kontaktar ni er Customer Success eller Strategic Account Manager.
 

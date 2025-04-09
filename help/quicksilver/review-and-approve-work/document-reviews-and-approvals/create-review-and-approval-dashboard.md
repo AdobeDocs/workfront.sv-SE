@@ -6,7 +6,7 @@ description: Du kan granska godkännandevärden på arbetsytans kontrollpaneler.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '1987'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Skapa en rapportkontrollpanel för granskning och godkännande
 
-Du kan skapa en rapportkontrollpanel i kontrollpanelerna på arbetsytan för att visa både högnivåinformation och detaljerad information om granskningar och godkännanden med en enhetlig godkännandefunktion.
+Du kan skapa en rapportkontrollpanel i kontrollpanelerna på arbetsytan för att visa både högnivåinformation och detaljerad information om granskningar och godkännanden med funktionen för enhetliga godkännanden.
 
 >[!IMPORTANT]
 >
->Den här funktionaliteten är endast tillgänglig för kunder som använder en enhetlig godkännandetjänst och som är inskrivna i Canvas Dashboards beta.
+>Den här funktionen är endast tillgänglig för kunder som använder tjänsten för enhetliga godkännanden och som är inskrivna i Canvas Dashboards beta.
 
 
 ![exempelinstrumentpanel](assets/whole-dashboard.png)
