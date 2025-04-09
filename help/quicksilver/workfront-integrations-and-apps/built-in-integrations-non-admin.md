@@ -7,9 +7,9 @@ description: Du kan integrera [!DNL Adobe Workfront] med tredjepartsprogram. Des
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>OBS!</b>: Från och med den 1 juli 2025 tar Microsoft bort stöd för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt. </p> </td> 
    <td> 
     <ul> 
      <li>Hämta [!DNL Workfront] meddelanden i [!DNL Microsoft Teams] </li> 

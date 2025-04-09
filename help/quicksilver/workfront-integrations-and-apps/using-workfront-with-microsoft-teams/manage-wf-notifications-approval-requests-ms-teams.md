@@ -6,9 +6,9 @@ description: Du kan få meddelanden från  [!DNL Adobe Workfront] om objekt som 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
+>Från och med den 1 juli 2025 tar Microsoft bort stödet för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt.
 
 Du kan få meddelanden från [!DNL Adobe Workfront] om objekt som du måste godkänna, uppdrag som du har fått eller kommentarer och ändringar i objekt som du är kopplad till.
 
@@ -28,7 +28,7 @@ De här meddelandena innehåller [!DNL Workfront] åtgärder som du kan vidta in
 >[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Om du vill använda [!DNL Adobe Workfront for Microsoft Teams integration] måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 
-## Åtkomstkrav
+## Krav för åtkomst
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -114,7 +114,7 @@ Du får godkännandemeddelanden när du ombeds godkänna ett objekt, som en uppg
 * **[!UICONTROL Approve]**: Klicka för att godkänna objektet.
 * **[!UICONTROL Change]**: Klicka för att godkänna objektet med ändringar.
 * **[!UICONTROL Reject]**: Klicka för att avvisa objektet.
-* **[!UICONTROL Comment]**: Klicka för att göra en kommentar. Din kommentar visas också i [!DNL Workfront] som en uppdatering av objektet som meddelandet gäller.
+* **[!UICONTROL Comment]**: Klicka för att kommentera. Din kommentar visas också som [!DNL Workfront] en uppdatering av det objekt som notifieringen handlar om.
 * **[!UICONTROL Go to Proof]**: Klicka för att öppna korrekturet. Du kan sedan fatta ett beslut direkt i beviset. Mer information finns i [Ta beslut om ett korrektur i korrekturläsaren](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
@@ -214,7 +214,7 @@ Du får godkännandemeddelanden när du ombeds godkänna ett objekt, som en uppg
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">En begäran om dokumentgodkännande som du har begärt har godkänts</td> 
+   <td role="rowheader">En begäran om godkännande av dokument som du har begärt godkänns</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -256,9 +256,9 @@ Du får tilldelningsmeddelanden när du, eller ett team du är på, tilldelas en
 * **[!UICONTROL View in [!DNL Workfront]]**: Välj det här alternativet om du vill visa den tilldelade utgåvan eller uppgiften i Workfront, som öppnar en ny flik.
 * **[!UICONTROL Start]**: Klicka för att börja arbeta med objektet. Ett kort meddelande visas som bekräftar att ett nytt objekt har lagts till i din arbetslista.
 * **[!UICONTROL Comment]**: Klicka för att kommentera objektet. Din kommentar visas också i objektets uppdateringsström i Workfront.
-* **[!UICONTROL Status]**: Klicka och välj sedan den nya statusen för arbetsobjektet i listrutan.
+* **[!UICONTROL Status]**: Klicka på och välj sedan den nya statusen för arbetsobjektet i den nedrullningsbara menyn.
 
-#### Tillgängliga åtgärder för specifika tilldelningsmeddelanden:
+#### Åtgärder som är tillgängliga för specifika tilldelningsmeddelanden:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -267,7 +267,7 @@ Du får tilldelningsmeddelanden när du, eller ett team du är på, tilldelas en
  <col> 
  <thead> 
   <tr> 
-   <th>Meddelande</th> 
+   <th>Anmälan</th> 
    <th>[!UICONTROL Start]</th> 
    <th>[!UICONTROL Comment]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
@@ -275,7 +275,7 @@ Du får tilldelningsmeddelanden när du, eller ett team du är på, tilldelas en
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Du har tilldelats en uppgift</td> 
+   <td role="rowheader">Du är tilldelad en uppgift</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -317,14 +317,14 @@ Du får ett kommunikationsmeddelande när någon kommenterar ett objekt som du �
  <col> 
  <thead> 
   <tr> 
-   <th>Meddelande</th> 
+   <th>Anmälan</th> 
    <th>[!UICONTROL Reply]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">En kommentar har lagts till på din begäran</td> 
+   <td role="rowheader">En kommentar publiceras på din begäran</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -344,7 +344,7 @@ Du får ett kommunikationsmeddelande när någon kommenterar ett objekt som du �
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Någon kommenterar i en tidrapport som du godkänner</td> 
+   <td role="rowheader">Någon kommenterar en tidrapport som du godkänner</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -374,7 +374,7 @@ Du får ett informationsmeddelande när det finns en uppdatering av ett objekt s
 * **Visa i Workfront**: Välj det här alternativet om du vill visa kommentaren och objektet i Workfront, som öppnas på en ny flik.
 * **[!UICONTROL Status]**: Klicka och välj sedan den nya statusen för objektet i listrutan.
 
-#### Tillgängliga åtgärder för specifika informationsmeddelanden:
+#### Åtgärder som är tillgängliga för meddelanden om särskild information:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -382,19 +382,19 @@ Du får ett informationsmeddelande när det finns en uppdatering av ett objekt s
  <col> 
  <thead> 
   <tr> 
-   <th>Meddelande</th> 
+   <th>Anmälan</th> 
    <th>[!UICONTROL Reply]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">En uppdatering görs av en aktivitet, ett problem eller ett projekt som du prenumererar på</td> 
+   <td role="rowheader">En uppdatering görs av en uppgift, ett ärende eller ett projekt som du prenumererar på</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Någon inkluderar dig i en dirigerad uppdatering</td> 
+   <td role="rowheader">Någon inkluderar dig i en riktad uppdatering</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -408,7 +408,7 @@ Du får ett informationsmeddelande när det finns en uppdatering av ett objekt s
 
 ### Meddelanden om datumändring {#date-change-notifications}
 
-Du får ett meddelande om datumändring när datumet ändras för en arbetsuppgift som du har tilldelats. Du kan utföra följande åtgärder från meddelandet om datumändring.
+Du får ett meddelande om datumändring när datumet ändras för en arbetsuppgift som du har tilldelats. Från och med datumet för ändringsmeddelandet kan du utföra följande åtgärder.
 
 * **[!UICONTROL Comment]**: Klicka för att kommentera objektet. Din kommentar visas också i objektets uppdateringsström i Workfront.
 * **[!UICONTROL Status]**: Klicka och välj sedan den nya statusen för arbetsobjektet i listrutan.
@@ -419,14 +419,14 @@ Du får ett meddelande om datumändring när datumet ändras för en arbetsuppgi
  <col> 
  <thead> 
   <tr> 
-   <th>Meddelande</th> 
+   <th>Anmälan</th> 
    <th> <p>[!UICONTROL Comment]</p> </th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Förfallodatumet ändras för en uppgift som du har tilldelats till</td> 
+   <td role="rowheader">Förfallodatumet ändras för en uppgift som du har tilldelats</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

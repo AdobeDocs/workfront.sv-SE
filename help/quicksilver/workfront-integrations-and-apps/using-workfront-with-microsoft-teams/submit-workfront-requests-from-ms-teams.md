@@ -2,13 +2,13 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Skicka [!DNL Adobe Workfront] förfrågningar från [!DNL Microsoft] team
-description: När teamägaren har installerat Adobe Workfront för Microsoft Teams kan du skicka in Workfront-begäranden från ditt Microsoft Teams-konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om hur du installerar Workfront för Microsoft Teams finns i Installera Workfront för Microsoft Teams.
+description: När teamägaren har installerat Adobe Workfront för Microsoft Teams kan du skicka in Workfront-förfrågningar från ditt Microsoft Teams-konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om hur du installerar Workfront för Microsoft Teams finns i Installera Workfront för Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
+>Från och med den 1 juli 2025 tar Microsoft bort stödet för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt.
 
 När teamägaren har installerat [!DNL Adobe Workfront for Microsoft Teams] kan du skicka [!DNL Workfront] förfrågningar från ditt [!DNL Microsoft Teams]-konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om hur du installerar [!DNL Workfront for Microsoft Teams] finns i [Installera [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 

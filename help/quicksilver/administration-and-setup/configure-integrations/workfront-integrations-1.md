@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
       <li>Koppla smidigt samman flera Experience Manager Assets-arkiv med en Workfront-miljö eller flera Workfront-miljöer till en Experience Manager Assets-databas över olika företags-ID:n</li></ul>
      <p>Mer information och instruktioner finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Översikt över Adobe Experience Manager Assets-integreringar</a></p> 
      </td>
-   <td><ul><li>Workfront måste finnas i Admin Console med ett tilldelat organisations-ID.</li><li>Workfront och Experience Manager Assets eller Assets Essentials måste tilldelas som produkt till användaren som konfigurerar integreringen.</li></ul></td>   <td> </td> 
+   <td><ul><li>Workfront måste finnas i en Admin Console med ett tilldelat organisations-ID.</li><li>Workfront och Experience Manager Assets eller Assets Essentials måste tilldelas som produkt till användaren som konfigurerar integreringen.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -229,7 +229,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <li>Sök efter [!DNL Workfront] projekt, uppgifter och ärenden </li> 
      <li>Skapa [!DNL Workfront] personliga uppgifter </li> 
      <li>Skicka [!DNL Workfront] förfrågningar </li> 
-    </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: artikelindex</a>.</p> </td> 
+    </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: artikelindex</a>.</p><p><b>OBS!</b>: Från och med den 1 juli 2025 tar Microsoft bort stöd för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt. </p></td> 
    <td> 
     <ul> 
      <li>Varje team i organisationen måste installera integreringen om mer än ett team vill använda den</li> 
@@ -276,7 +276,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Slack] administratören måste tillåta att alla Slack-användare kan installera [!DNL Workfront for Slack]</li> 
+     <li>[!DNL Slack] administratören måste tillåta alla Slack-användare att installera [!DNL Workfront for Slack]</li> 
      <li>[!DNL Slack] användare måste ha en [!DNL Workfront]-licens </li> 
     </ul> </td> 
    <td> 
@@ -310,7 +310,7 @@ Med [!DNL Workfront] kan du utnyttja andra inbyggda integreringar och integrerad
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (kräver [!DNL Workfront Fusion])
 
-Tack vare integreringen mellan Workfront och Experience Manager Assets eller Assets Essentials kan företag förbättra innehållets hastighet och time-to-market genom att knyta ihop arbete och hantering av digitala resurser.
+Integrationen mellan Workfront och Experience Manager Assets eller Assets Essentials gör att företag kan förbättra innehållets hastighet och time-to-market genom att knyta ihop arbete och hantering av digitala resurser.
 
 Mer information finns i [Översikt över integreringar för Adobe Workfront för Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 

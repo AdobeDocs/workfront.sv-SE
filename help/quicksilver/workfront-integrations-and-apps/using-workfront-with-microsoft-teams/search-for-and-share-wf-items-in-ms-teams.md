@@ -6,9 +6,9 @@ description: Du kan söka efter [!DNL Workfront] objekt i alla [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
+>Från och med den 1 juli 2025 tar Microsoft bort stödet för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt.
 
 Du kan söka efter [!DNL Workfront] objekt i valfri [!DNL Adobe Workfront]-kanal i [!DNL Microsoft Teams] och dela dessa objekt med medlemmar i dina team.
 
