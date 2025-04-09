@@ -7,9 +7,9 @@ description: Kommentarerna finns i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,19 @@ Du kan skriva ut korrekturets kommentarsammanfattning, inklusive miniatyrbilder 
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
+Du öppnar korrekturläsaren genom att klicka på knappen **Gå till korrektur** på sidan med korrekturinformation.
+
 ### Sidan med korrekturinformation {#the-proof-details-page}
 
-Du kan skriva ut korrekturets kommentarsammanfattning genom att klicka på ikonen **[!UICONTROL Print]** på sidan med korrekturinformation.
+Du kan skriva ut korrekturens kommentarsammanfattning genom att klicka på ikonen **[!UICONTROL Print]** på sidan Korrekturinformation.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
+Om du vill få åtkomst till sidan med korrekturinformation för ett visst korrektur klickar du på korrekturets namn i listvyn.
+
 ### Menyn [!DNL Proof]-åtgärder {#the-proof-actions-menu}
 
-Du kan skriva ut korrekturets kommentarsammanfattning genom att klicka på ikonen **[!UICONTROL Print]** på menyn [!UICONTROL Proof actions].
+Du kan skriva ut korrekturens kommentarsammanfattning genom att klicka på ikonen **[!UICONTROL Print]** på menyn [!UICONTROL Proof actions].
 
 Så här kommer du åt sidan [!UICONTROL Comments Summary] från en listvy:
 
@@ -51,7 +55,7 @@ Så här kommer du åt sidan [!UICONTROL Comments Summary] från en listvy:
 
    ![List_view.png](assets/list-view-350x155.png)
 
-   På kommentarsammanfattningssidan har du följande utskriftsalternativ att välja mellan:
+   På sidan Sammanfattning av kommentarer väljer du bland följande utskriftsalternativ:
 
    * Miniatyrbildsvy (1)
    * Helsidesvy (2)
@@ -63,9 +67,9 @@ Så här kommer du åt sidan [!UICONTROL Comments Summary] från en listvy:
 
 ### Miniatyrbildsvisning
 
-I miniatyrbildsvyn visas varje kommentar i ordning, tillsammans med den fullständiga tråden för varje kommentar. Du kan också sortera kommentarer och se miniatyrbilden för varje kommentar med tillagda markeringar.
+I miniatyrbildsvyn visas varje kommentar i ordning med den fullständiga tråden för varje kommentar. Du kan också sortera kommentarer och se miniatyrbilden för varje kommentar med tillagda markeringar.
 
-Om du vill skriva ut miniatyrbildsvyn klickar du på ikonen **[!UICONTROL Printer]** längst upp till höger på sidan och väljer något av följande:
+Om du vill skriva ut miniatyrbildsvyn klickar du på ikonen **[!UICONTROL Printer]** i det övre högra hörnet på sidan och väljer något av följande:
 
 * Sortera efter kommentar-ID eller sida (1)
 * Miniatyrbild för varje kommentar med tillagda markeringar (2)
@@ -74,38 +78,36 @@ Om du vill skriva ut miniatyrbildsvyn klickar du på ikonen **[!UICONTROL Printe
 
 ### Helsidesvy
 
-I helsidesvyn visas varje sida i tur och ordning, tillsammans med kommentarerna på den sidan och ett häftstift som anger var kommentarmarkeringen för kommentaren finns på sidan.
+I helsidesvyn visas varje sida i ordning med kommentarerna på den sidan och ett häftstift som anger var kommentaren finns.
 
-Om du vill skriva ut helsidesvyn klickar du på ikonen **[!UICONTROL Printer]** längst upp till höger på sidan.
+Om du vill skriva ut helsidesvyn klickar du på ikonen **[!UICONTROL Printer]** i det övre högra hörnet på sidan.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
 ## Exportera en [!DNL Excel]-sammanfattning
 
-Så här hämtar du sammanfattningen för [!DNL Excel]:
+Så här exporterar du sammanfattningen [!DNL Excel] från menyn Korrekturåtgärder:
 
-1. Öppna korrekturens åtgärdsmeny till höger om korrekturet och klicka sedan på **[!UICONTROL [!DNL Excel] summary]**. (1)\
-   ![Excel_summary.png](assets/excel-summary-350x450.png)
+1. Klicka på ikonen **Åtgärder** till höger om korrekturet och välj sedan **[!UICONTROL [!DNL Excel] summary]**.
+   ![Exportera Excel-sammanfattning](assets/excel-summary-option.png)
 
 Så här hämtar du sammanfattningen [!DNL Excel] från sidan Korrekturinformation:
 
-1. Klicka på ikonen Exportera till **[!DNL Excel]**. (2)
+1. Klicka på knappen **Mer** och välj sedan **Exportera till Excel**.
 
-   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+   ![Alternativet Exportera till Excel](assets/Export-to-excel-option.png)
 
 ## Exportera till PDF
 
-Om du vill exportera ett korrektur till PDF, tillsammans med alla markeringar och kommentarer, följer du dessa steg:
-
-1. Gå till **[!UICONTROL Views]** till vänster på skärmen.
-1. Klicka på ikonen **[!UICONTROL More]** bredvid ett korrektur och klicka sedan på **[!UICONTROL Print comments]**.
-
-1. Klicka på ikonen Exportera till PDF i det övre högra hörnet på sidan.
-
-   När PDF är klart får du ett mejl med en nedladdningslänk.
-
-Alla kommentarer visas i PDF. Om en kommentar har flera kopplade markeringar visas kommentaren flera gånger i kommentarlistan (en gång för varje markering).
+När du exporterar till en PDF-fil visas alla kommentarer i PDF Reader. Om en kommentar har flera kopplade markeringar visas kommentaren flera gånger i kommentarlistan (en gång för varje markering).
 
 >[!IMPORTANT]
 >
 >Funktionen Exportera till PDF är bara tillgänglig för statiska filer.
+
+Så här exporterar du ett korrektur med markeringar och kommentarer till PDF:
+
+1. Klicka på **[!UICONTROL Views]** till vänster på skärmen.
+1. Klicka på knappen **[!UICONTROL More]** i linje med det specifika korrekturet och välj sedan **[!UICONTROL Print comments]**.
+
+1. Klicka på knappen **Exportera till PDF** längst upp till höger på sidan. PDF börjar ladda ned och mejlas till dig när allt är klart.
