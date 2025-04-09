@@ -7,9 +7,9 @@ description: Kommentarerna finns i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: e72fe6861b26caa2f9e3ff64e36b871528619f5a
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,8 @@ Så här hämtar du sammanfattningen [!DNL Excel] från sidan Korrekturinformati
 
 1. Klicka på knappen **Mer** och välj sedan **Exportera till Excel**.
 
-   ![Alternativet Exportera till Excel](assets/Export-to-excel-option.png)
+   <!--
+   ![Export to Excel option](assets/export-to-excel-option.png) -->
 
 ## Exportera till PDF
 
