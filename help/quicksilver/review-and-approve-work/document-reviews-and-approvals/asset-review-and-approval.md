@@ -6,9 +6,9 @@ description: Översikt över de system som finns för granskning och godkännand
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Det finns för närvarande tre olika system i Workfront för granskning och godk
 
 * [Godkännanden av äldre dokument](#legacy-document-approvals)
 
-* [Godkännanden av nya dokument](#new-document-approvals)
+* [Enhetliga godkännanden](#new-document-approvals)
 
 * [Bevis på godkännanden](#proof-approvals)
 
 ## Godkännanden av äldre dokument
 
-Äldre dokumentgodkännanden kommer att tas bort från Workfront 2025. Det nya dokumentgodkännandesystemet har utformats för att ersätta godkännanden av äldre dokument.
+Äldre dokumentgodkännanden kommer att tas bort från Workfront 2025. Det enhetliga godkännandesystemet har utformats för att ersätta godkännanden av äldre dokument.
 
 Viktiga funktioner för godkännande av äldre dokument:
 
@@ -36,13 +36,13 @@ Viktiga funktioner för godkännande av äldre dokument:
 
 Mer information finns i [Godkännande av äldre dokument](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
-## Godkännanden av nya dokument
+## Enhetliga godkännanden
 
-Godkännanden av nya dokument innebär en omformning av det äldre godkännandesystemet. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden.
+Enhetliga godkännanden är en omarbetning av det äldre godkännandesystemet. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden.
 
-Mer detaljerad information om godkännande av nya dokument finns i [Översikt över godkännande av nya dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Mer detaljerad information om enhetliga godkännanden finns i [Översikt över enhetliga godkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Viktiga funktioner för godkännande av nya dokument:
+Viktiga funktioner för enhetliga godkännanden:
 
 * Lägg till användare och team som godkännare och granskare
 
@@ -51,11 +51,11 @@ Viktiga funktioner för godkännande av nya dokument:
 * Skapa och använda mallar
 
 * Granska och kommentera i korrekturläsaren
-Mer information om hur du använder korrekturläsaren finns i [Använda nya dokumentgodkännanden och korrektur tillsammans](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Mer information om hur du använder korrekturläsaren finns i [Använda enhetliga godkännanden och korrektur tillsammans](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Visa flera viktiga resultatindikatorer för dina godkännanden i Workfront Home widgets
 
-* Använd Canvas Dashboards, som för närvarande är betaversioner, för att visa rapportinformation om godkännanden av nya dokument
+* Använd Canvas Dashboards, som för närvarande är betaversioner, för att visa rapportinformation om enhetliga godkännanden
 Mer information om rapportering finns i [Skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
 * Fatta beslut i korrekturläsaren [!BADGE Kommer snart]{type=Informative}

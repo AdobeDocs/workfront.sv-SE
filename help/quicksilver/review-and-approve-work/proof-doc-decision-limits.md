@@ -6,10 +6,10 @@ description: Handläggningsbeslut och dokumentbeslut är begränsade för alla o
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 2%
 
 ---
 
@@ -17,11 +17,47 @@ ht-degree: 0%
 
 Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser för nya planer. När du tilldelas som godkännare för ett dokument eller ett korrektur måste du fatta ett beslut om att flytta gransknings- och godkännandeprocessen framåt.
 
-Följande beslutsalternativ räknas in i månadsgränsen:
+Följande beslutstyper räknas in i månadsgränsen:
 
-* Godkänn
-* Godkänn med ändringar
-* Behöver göras
+<table>
+  <tr>
+
+<td><strong>Godkännanden av äldre dokument</strong> 
+   </td>
+   <td><strong>Enhetliga godkännanden</strong> 
+   </td>
+   <td><strong>Korrektur för godkännanden</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>Godkänn</li>
+    <li>Godkänn med ändringar</li>
+     <li>Avvisa</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Godkänn</li>
+    <li>Godkänn med ändringar</li>
+     <li>Behöver göras</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Godkänn</li>
+    <li>Godkänn med ändringar</li>
+     <li>Ändringar krävs</li>
+   </ul>
+   <p><strong>Obs!</strong>: Korrekturgodkännanden kan ha anpassade beslutsetiketter</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## Gränser
 
 Begränsningar som återställs per användare och månad. Beslutsgränsen för respektive licens varierar beroende på vilken plan du har:
 

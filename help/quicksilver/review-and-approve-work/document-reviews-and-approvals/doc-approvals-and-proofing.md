@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Använd godkännanden och korrektur av nya dokument tillsammans
-description: Du kan använda godkännanden av nya dokument med korrektur.
+title: Använd enhetliga godkännanden och korrektur tillsammans
+description: Ni kan använda enhetliga godkännanden med korrektur.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Använd godkännanden och korrektur av nya dokument tillsammans
+# Använd enhetliga godkännanden och korrektur tillsammans
 
-Godkännanden av nya dokument i Workfront innehåller en ny uppsättning funktioner som hjälper dig att granska och godkänna dokument. Du kan använda arbetsflödet för godkännande av nya dokument med det befintliga korrekturläsaren för att lägga till kommentarer och markeringar i dokument som granskas.
+Enhetliga godkännanden i Workfront innehåller en ny uppsättning funktioner som hjälper dig att granska och godkänna dokument. Du kan använda ett enhetligt arbetsflöde för godkännanden med det befintliga korrekturläsaren för att lägga till kommentarer och markeringar i dokument som granskas.
 
-Det finns några viktiga skillnader i arbetsflödet när du använder godkännanden av nya dokument och korrektur tillsammans:
+Det finns några viktiga skillnader i arbetsflödet när enhetliga godkännanden och korrektur används tillsammans:
 
 * Beslutsknappar visas inte i korrekturläsaren
 
