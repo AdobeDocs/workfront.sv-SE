@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
+source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Förbättringar av logiken i anpassade formulär</a></p>
+            Förbättringar av logiken i anpassade formulär</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Logikverktyget för anpassade formulär har ett uppdaterat gränssnitt som ger dig mer utrymme för att skapa logikregler. Den nya designen kan enklare hantera ytterligare logiktyper som kan läggas till i framtiden.</p><p>Förutom de aktuella alternativen för visning och hopplogik finns även valideringslogik tillgänglig.</p>
         </td>
         <td>
@@ -88,20 +88,20 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            New document approval decision buttons available in proofing viewer</a></p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            Nya beslutsknappar för dokumentgodkännande finns i korrekturläsaren</a></p>
+            <p>De nya beslutsknapparna för dokumentgodkännande visas nu i korrekturläsaren. När du skapar ett enkelt korrektur och sedan lägger till godkännare och granskare från dokumentsammanfattningen kan de nu fatta sitt beslut direkt i korrekturläsaren.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>Förhandsversion: 9 april 2025</li>
+                <li>Produktionsrelease för ett begränsat antal kunder: Med version 25.4 (april 2025)</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>                        
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -143,7 +143,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Förbättringar av korrektur i mobilappen (endast iOS)</a>[!BADGE In production ]{type=Informative}</p>
+            Förbättringar av korrektur i mobilappen (endast iOS)</a><p>[!BADGE In production ]{type=Informative}</p></p>
             <p>Det finns flera förbättringar för korrekturfunktioner i Adobe Workfront mobilapp:
             <ul>
             <li>Nu kan du öppna en korrekturfil från ditt mobila e-postprogram från en länk som delats med dig. Tidigare stöddes inte länkar från e-postmeddelanden och du var tvungen att hämta korrektur från Workfront mobilapp.</li>
@@ -175,7 +175,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Lägg till en kommentar i projekt när du redigerar dem i rutan Redigera projekt </a>[!BADGE In production for Fast Release]{type=Positive}</p>
+            Lägga till en kommentar i projekt när du redigerar dem i rutan Redigera projekt</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>Nu kan du lägga till en kommentar i ett projekt när du redigerar det i rutan Redigera projekt. Du kan också lägga till en kommentar i flera projekt samtidigt när du redigerar dem i grupp. Före den här uppdateringen fanns inte den här funktionen när du redigerade projekt.</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Dokumentgodkännande och beslutsdata är nu tillgängliga i Data Connect</a>[!BADGE In production ]{type=Informative}</p>
+            Dokumentgodkännande och beslutsdata finns nu tillgängliga i Data Connect</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>Du kan nu komma åt data för dokumentgodkännanden och -beslut i Data Connect. Den här datauppsättningen överbryggar dokumentgodkännanden från Workfront korrekturfunktioner och Frame.io-godkännanden som sker i Workfront-dokument. Du kan nu illustrera cykeltid, antal cykler och tidslinjepåverkan för sena godkännanden genom dina BI-visualiseringar.</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar i Workfront Calendar</a></p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar i Workfront Calendar</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Vi har uppdaterat utseendet och känslan i Workfront Calendar till en modern design som överensstämmer med andra delar av Workfront. Det finns små skillnader i funktionalitet jämfört med den aktuella Workfront-kalendern:
             <ul>
             <li>Så här lägger du till ad hoc-objekt i kalendern</li>
@@ -255,9 +255,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Representera Adobe Admin Console användarändringar som"System" i Workfront uppdateringsfeed</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
-            <p>När administratören för Adobe Admin Console nu gör en ändring i användarinformationen för en Workfront-användare, registrerar Workfront denna ändring på fliken Systemaktivitet i användarens uppdateringsområde som tillhör "System". Detta avser Adobe Admin Console-administratören.</p>
+            Representera Adobe Admin Console användarändringar som"System" i Workfront uppdateringsfeed</a></p><p>[!BADGE In production ]{type=Informative}</p><p>När administratören för Adobe Admin Console nu gör en ändring i användarinformationen för en Workfront-användare, registrerar Workfront denna ändring på fliken Systemaktivitet i användarens uppdateringsområde som tillhör "System". Detta avser Adobe Admin Console-administratören.</p>
         </td>
         <td>
             <p><b>Tillgängligt på följande datum:</b></p>
