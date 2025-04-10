@@ -6,9 +6,9 @@ description: Användare kan begära åtkomst till objekt i Adobe Workfront. Mer 
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra h
 
    1. Gå till widgeten **Mina godkännanden** och leta upp begäran om mer åtkomst. Klicka sedan på **Bevilja åtkomst**.
 
-      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![Godkänn en begäran](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. (Valfritt) Om du vill ge en annan åtkomstnivå än den som begärts klickar du på listrutan till vänster om knappen Bevilja åtkomst och väljer den nya åtkomsten. Klicka sedan på **Bevilja åtkomst**.
 
@@ -89,29 +89,11 @@ Du kan konfigurera om du ska få e-postmeddelanden för åtkomstbegäranden. Wor
 1. Gå till din användarprofil genom att göra något av följande:
 
    * Klicka på **Huvudmenyn** ![](assets/dots-main-menu.png) i skärmens övre högra hörn och klicka sedan på ditt namn.
-   * Klicka på Adobe **Huvudmenyn** ![](assets/adobe-blue-main-menu.png) i det övre högra hörnet, om det är tillgängligt, och klicka sedan på **Workfront-profil**.
+   * Klicka på Adobe **huvudmeny** ![profilikon](assets/adobe-blue-main-menu.png) i det övre högra hörnet, om den är tillgänglig, och klicka sedan på **Workfront-profil**.
 
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om ditt namn i sidhuvudet och klicka sedan på **Redigera**.
+1. Klicka på ikonen **Mer** meny ![Mer](assets/more-icon.png) till höger om ditt namn i sidhuvudet och klicka sedan på **Redigera**.
 1. Klicka på **Meddelanden** och markera eller avmarkera **Någon begär åtkomst från mig** i avsnittet **Åtgärd krävs**, beroende på om du vill få e-postmeddelanden när en annan användare begär åtkomst från dig eller inte.
 
    Du kan aktivera ett dagligt eller omedelbart meddelande.
 
 1. Klicka på **Spara ändringar**.
-
-<!--1. (Conditional) From the legacy Home area, do the following: 
-   
-   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
-
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   The request displays on the right of the Work List. 
-
-   1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
-
-   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
-   A message appears confirming access was granted.  
-   
-   1. (Optional) Click **Ignore** to deny access.  
-   A message appears confirming access was ignored.-->

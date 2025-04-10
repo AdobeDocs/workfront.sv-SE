@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * Som standard har den som skapat ett projekt behörighet att hantera projektet och anges även som projektägare. Om projektet har tilldelats en annan ägare har den användaren även behörighet att hantera projektet. När den som skapat projektet (eller ägaren) delar projektet med andra användare, ger de användarna vissa behörigheter för att styra vad de kan göra när de arbetar med projektet.
 
-  Om en projektägare inte har någon planeringslicens har de dock inte fullständig åtkomst för att hantera projektet. Endast en användare med en planlicens kan ha behörighet att hantera ett projekt. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Om en projektägare inte har någon plan- eller standardlicens har de dock inte fullständig åtkomst för att hantera projektet. Endast en användare med en plan- eller standardlicens kan ha behörighet att hantera ett projekt. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Du kan dela projekt individuellt eller dela flera i taget. Delningsprojekt är identiska med att dela andra objekt. Mer information om objektdelning i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Du kan ge följande behörigheter till ett projekt:
@@ -37,8 +37,6 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
    * Visa
    * Hantera
    * Contribute
-
-     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * När du delar ett projekt ärver alla uppgifter, utgåvor och dokument samma behörigheter, om inget annat anges.
 
@@ -104,8 +102,8 @@ Du kan dela ett projekt på följande sätt:
 
 ## Begränsningar för olika licenstyper
 
-* Användare med en Light-licens och lägre (eller Work-licens och lägre för den gamla licensmodellen) har inte behörighet att hantera projekt. För dessa användare är den högsta delningsbehörigheten Contribute.
-* Användare med en Contributor-licens (eller Begär licens för den gamla licensmodellen) kan visa projektinformation, men har begränsad projektåtkomst.
+* Användare med en Worker-licens har inte behörighet att hantera projekt. För arbetare är den högsta delningsbehörigheten Contribute.
+* Användare med en Request-licens kan visa projektinformation, men har begränsad projektåtkomst.
 * Ett undantag till att ändra status för ett projekt inträffar när en användare med behörigheterna Visa eller Contribute också inkluderas i en godkännandeprocess. De kan godkänna projektet, vilket ändrar projektets status, men statusen är fördefinierad för godkännande eller för avvisning.
 * För att kunna kopiera ett projekt måste användaren också ha tillgång till dem för att kunna skapa projekt på åtkomstnivå.
 

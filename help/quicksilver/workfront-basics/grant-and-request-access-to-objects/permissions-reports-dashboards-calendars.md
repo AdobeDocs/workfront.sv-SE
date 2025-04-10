@@ -7,7 +7,7 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -54,12 +54,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 * Du kan ge följande behörigheter till rapporter, instrumentpaneler och kalendrar:
 
    * Visa
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * Hantera
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * När du delar en kontrollpanel har användarna behörigheten Visa som standard för alla rapporter, kalendrar och externa sidor på kontrollpanelen.
 * Användare med en begärandelicens kan inte visa en systemomfattande rapport. En rapport måste delas med de begärande individuellt om de behöver visa den.

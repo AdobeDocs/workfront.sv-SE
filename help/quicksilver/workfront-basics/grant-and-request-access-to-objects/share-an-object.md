@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -193,9 +193,7 @@ Du måste ha följande för att kunna dela objekt:
 
    ![](assets/share-a-document-350x160.png)
 
-1. I fältet **Ge &lt; Objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet när det visas i listrutan.
-
-   ![](assets/portfolio-access-box.png)
+1. I fältet **Ge [objektnamn] åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet när det visas i listrutan.
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ Du måste ha följande för att kunna dela objekt:
 
 1. (Valfritt) Upprepa steg 3 för varje användare, team, roll eller grupp som du vill ge åtkomst till objektet.
 
-1. Ange behörigheter för varje användare, team, roll, grupp eller företag som du har lagt till i steg 3 genom att klicka på listrutan och sedan välja den behörighetsnivå som du vill bevilja.
+1. Ange behörigheter för varje användare, team, roll, grupp eller företag som du har lagt till i steg 3.
 
    Information om hur du tar bort behörigheter från ett objekt finns i [Ta bort behörigheter från objekt](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -218,24 +216,24 @@ Du måste ha följande för att kunna dela objekt:
      >
      >Workfront-administratören eller objektskaparen kan ta bort behörigheter från dessa entiteter.
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för objektet.
 
-1. (Valfritt) Klicka på **Avancerade inställningar** om du vill konfigurera specifika behörigheter för objektet.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Behörigheterna Visa och Hantera har olika avancerade alternativ beroende på det markerade objektet.\
    Mer information om behörighetsnivåer finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på ikonen **Kugga** ![](assets/gear-icon-settings-with-dn-arrow.jpg) och sedan på **Gör det synligt i hela systemet** i listrutan.
+1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på **Vem har åtkomst** i listrutan och väljer **Alla i systemet kan visa**.
 
    Alla användare kan se objektet baserat på de behörigheter som du anger.
 
-1. (Valfritt) Om du vill göra objektet offentligt klickar du på **Gör det offentligt för externa användare**.
+1. (Valfritt) Om du vill göra objektet offentligt klickar du på kugghjulet och aktiverar sedan **Gör det offentligt för externa användare**.
 
    >[!TIP]
    >
    >Det här alternativet är inte tillgängligt för alla objekt.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. (Villkorligt) Om du har gjort objektet offentligt för externa användare klickar du på **kopiera länken** och distribuerar sedan länken till externa användare.
 
@@ -261,7 +259,6 @@ Du måste ha följande för att kunna dela objekt:
 
 1. I rutan **Redigera &lt; Objektnamn > åtkomst för** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objekten med och klickar sedan på namnet när det visas i listrutan.
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ Du måste ha följande för att kunna dela objekt:
 
 1. (Valfritt) Upprepa steg 3 för varje användare, team, roll eller grupp som du vill ge åtkomst till objekten.
 
-1. Ange behörigheter för varje användare, team, roll, grupp eller företag som du har lagt till i steg 3 genom att klicka på listrutan till höger om namnet och sedan välja den behörighetsnivå som du vill bevilja.
+1. Ange behörigheter för varje användare, team, roll, grupp eller företag som du lade till i steg.
 
    Information om hur du tar bort behörigheter från ett objekt finns i [Ta bort behörigheter från objekt](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    Följande alternativ är tillgängliga:
 
@@ -299,12 +295,12 @@ Du måste ha följande för att kunna dela objekt:
      >
      >Workfront-administratören eller objektskaparen kan ta bort behörigheter från dessa entiteter.
 
-1. (Valfritt) Klicka på **Avancerade inställningar** om du vill konfigurera specifika behörigheter för objektet.
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för objektet.
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Det finns olika avancerade alternativ för Visa, Hantera och Contribute beroende på vilket objekt som är markerat.\
    Mer information om behörighetsnivåer finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på ikonen **Kugga** ![](assets/gear-icon-settings-with-dn-arrow.jpg) och sedan på **Gör det synligt i hela systemet** i listrutan.
 

@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -32,12 +32,10 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 * Du kan dela en portfölj individuellt eller dela flera portföljer samtidigt. Att dela en portfölj är detsamma som att dela andra objekt i Workfront. Mer information finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Du kan bara bevilja behörigheterna Visa eller Hantera för portföljer.
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
-
+</span>
 * När du delar en portfölj ärver användarna som standard samma behörigheter till alla underordnade objekt som är kopplade till portföljen.
 
-  Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Du kan ta bort ärvda behörigheter från Portfolio. Mer information om hur du tar bort behörigheter från objekt finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 

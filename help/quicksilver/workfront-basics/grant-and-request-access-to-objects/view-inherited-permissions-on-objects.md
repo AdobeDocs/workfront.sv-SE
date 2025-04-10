@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe 
 </table>
 -->
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande:
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ Du måste ha följande:
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Visa ärvda behörigheter för ett objekt
 

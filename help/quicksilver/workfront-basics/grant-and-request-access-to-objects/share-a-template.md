@@ -6,7 +6,7 @@ description: Som Adobe Workfront-administratör kan du ge användare åtkomst ti
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -40,12 +40,7 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
      Du kan tilldela följande behörigheter till en mall:
 
       * Visa
-
-        ![](assets/view-on-template-262x221.png)
-
       * Hantera
-
-        ![](assets/manage-on-template-225x280.png)
 
    * Framtida projekt som skapas med mallen. Du kan ge samma behörighetsnivåer för projekt som skapats från en mall som för ett enskilt projekt. 
 

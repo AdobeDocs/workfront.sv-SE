@@ -6,16 +6,14 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa ell
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
 # Dela ekonomiska behörigheter för ett objekt
-
-{{highlighted-preview}}
 
 Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera ekonomiska data när du tilldelar åtkomstnivån. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -54,6 +52,8 @@ Mer information om vad användare på varje åtkomstnivå kan göra med ekonomis
  </tbody> 
 </table>
 -->
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 Du måste ha följande för att kunna dela finansiell information om objekt:
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ Du måste ha följande för att kunna dela finansiell information om objekt:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Dela ett objekt och bevilja ekonomiska behörigheter
 
 Tänk på följande när du tilldelar ekonomiska behörigheter till objekt:
 
-* Du kan bevilja ekonomiska behörigheter för projekt, aktiviteter, utgåvor, <span class="preview">och betygskort</span>.
+* Du kan bevilja ekonomiska behörigheter för projekt, uppgifter och ärenden.
 * Behörigheter kan ärvas: om du har behörigheten Visa finansiering för ett projekt ärver du automatiskt behörigheten Visa ekonomi för aktiviteterna och problemen i projektet.
 
 Så här tilldelar du ekonomiska behörigheter till ett objekt:
@@ -104,8 +106,6 @@ Så här tilldelar du ekonomiska behörigheter till ett objekt:
    * **Visa det**
    * **Bidra till det**
    * **Hantera det**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. Klicka på **Avancerade inställningar** i samma nedrullningsbara meny och gör sedan något av följande:
 
@@ -156,18 +156,6 @@ Följande tabell visar vilka ekonomiska behörigheter användare får när du ge
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">Hantera tariffkort</span></td> 
-   <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">Visa tariffkort</span></td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td> ✓</td> 
-  </tr>
   <tr> 
    <td>Visa information efter kostnad i Resursplaneringsverktygen</td> 
    <td>✓</td> 

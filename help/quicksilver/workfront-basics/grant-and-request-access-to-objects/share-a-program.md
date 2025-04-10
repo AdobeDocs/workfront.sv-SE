@@ -7,7 +7,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -15,6 +15,7 @@ ht-degree: 0%
 ---
 
 # Dela ett program
+
 
 Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redigera program när du tilldelar din åtkomstnivå. Du måste ha en planlicens för att kunna redigera ett program. Mer information finns i [Bevilja åtkomst till program](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -36,9 +37,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
   Mer information om objektdelning i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Du kan bara bevilja behörigheterna Visa eller Hantera för program.
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+* Du kan bara ge behörigheterna Visa eller Hantera för program:
 
 * När du delar ett program ärver användarna som standard samma behörigheter till alla underordnade objekt som är associerade med programmet.
 
@@ -65,4 +64,6 @@ I följande tabell visas vilka behörigheter du kan ge användarna när de får 
 | Dela | ✓ | ✓ |
 | Dela hela systemet |   | ✓ |
 
-*Dessa behörigheter styrs av åtkomstnivån och behörigheterna för andra objekt, som projekt. 
+*Dessa behörigheter styrs av åtkomstnivån och behörigheterna för andra objekt, som projekt.
+
+

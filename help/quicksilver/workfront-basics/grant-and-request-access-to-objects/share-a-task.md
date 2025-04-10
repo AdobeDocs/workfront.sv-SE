@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa ell
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -33,9 +33,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
    * Visa
    * Hantera
-   * Contribute\
-     ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
+   * Contribute
 * När du delar en uppgift ärver användarna som standard samma behörigheter för alla underordnade objekt som är kopplade till uppgiften. De ärver till exempel samma behörigheter för de underordnade uppgifterna, utgåvorna och dokumenten som är kopplade till uppgiften.\
   Mer information om objekthierarkin i Workfront finns i  [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

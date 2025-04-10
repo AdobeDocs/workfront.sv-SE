@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst att vis
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Din Adobe Workfront-administratör ger användarna åtkomst att visa eller redigera problem när de tilldelar åtkomstnivåer. Mer information om att bevilja åtkomst till problem finns i [Bevilja åtkomst till problem](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Förutom den åtkomstnivå som användare har beviljats kan du även ge dem behörighet att visa, Contribute eller hantera specifika problem som du har åtkomst till att dela. Mer information om åtkomstnivåer och behörigheter finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Förutom den åtkomstnivå som användarna har beviljats kan du även ge dem behörighet att visa, Contribute eller hantera specifika problem som du har åtkomst till att dela. Mer information om åtkomstnivåer och behörigheter finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Behörigheterna är specifika för ett objekt i Workfront och definierar vilka åtgärder man kan vidta för det objektet.
 
@@ -34,15 +34,8 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 * Du kan ge följande behörigheter till en utgåva: 
 
    * Visa
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
+   * Contribute
    * Hantera
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
-   * Contribute\
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * När du delar ett problem ärver alla dokument som är bifogade problemet samma behörigheter.
 
@@ -134,7 +127,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 ## Utfärda behörigheter
 
-I följande tabell visas vilka behörigheter du kan ge användare när de får visa, Contribute eller hantera ett problem:
+Följande tabell visar vilka behörigheter du kan ge användare när de tillåts att visa, Contribute eller hantera ett problem:
 
 <table style="table-layout:auto"> 
  <col> 
