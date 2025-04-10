@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Skapa poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ I Adobe Workfront Planning är en post en instans av en posttyp.
 Du kan skapa poster genom att göra något av följande:
 
 * [Skapa poster genom att lägga till dem textbundet från registervyn för posttyp](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[Skapa poster med knappen Ny post eller Begär post från valfri posttypsvy](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Kopiera och klistra in en lista med poster från en extern lista](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
 * [Skapa poster genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Skapa poster genom att importera information från en CSV- eller Excel-fil](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[Skapa poster med automatisering](#create-records-by-using-automations)</span>
+* [Skapa poster genom att importera information från en CSV- eller Excel-fil](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Skapa poster med hjälp av automatisering](#create-records-by-using-automations)
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
 
@@ -99,7 +99,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td> <p>Contribute eller högre behörigheter på arbetsytan <!--<span class="preview">and record type</span>--> där du vill lägga till poster. </p>
-   <p><span class="preview">Visa eller högre behörigheter på arbetsytan <!--<span class="preview">and record type</span>--> för att skapa poster med hjälp av knappen Begär post på postsidan</span></p>
+   <p>Visa eller högre behörigheter på arbetsytan <!--<span class="preview">and record type</span>--> för att skapa poster med hjälp av knappen Begär post på postsidan</p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
    </td> 
@@ -182,8 +182,6 @@ Poster av den valda typen visas i vyn.
    * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
 
-<div class="preview">
-
 ## Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst
 
 Användare med behörigheten Visa på arbetsytan <!--<span class="preview">and record type</span>--> kan bara skapa poster med hjälp av knappen Begär post på posttypsidan.
@@ -247,8 +245,6 @@ Formuläret med förfrågningar av posttyp öppnas.
    * En ny post läggs till posttypen, såvida du inte väljer att lägga till den med ett begärandeformulär med en godkännandeprocess. Godkännandet måste beviljas av alla godkännare innan posten skapas.
    * Flera poster läggs till posttypen om du har lagt till poster med hjälp av ett CSV- eller Excel-kalkylblad.
    * En ny begäran läggs till på fliken Planering i området Workfront-förfrågningar om du lade till den genom att skicka ett begärandeformulär.
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ Så här skapar du poster när du kopplar dem från andra poster:
 
      Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-1. (Villkorligt) Om du inte kan hitta en post när du försöker ansluta den <span class="preview">klickar du på **+ Lägg till**</span>
+1. (Villkorligt) Om du inte kan hitta en post när du försöker ansluta den klickar du på **+ Lägg till**
 
    eller
 Börja skriva ett namn och klicka sedan på **+ Lägg till**. Knappen **+ Lägg till** följs av namnet på den posttyp som du ansluter till. Exempel:&quot;Lägg till varumärken&quot; när du lägger till ett varumärke i en befintlig kampanj. Namnet som du skrev följer även knappen Lägg till.
@@ -376,17 +372,11 @@ Du kan importera poster när du importerar posttyper med hjälp av en CSV- eller
 
 Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<div class="preview">
-
 ## Skapa poster genom att importera poster från en CSV- eller Excel-fil
 
 Du kan importera poster för befintliga posttyper när du importerar information från en CSV- eller Excel-fil.
 
 Mer information finns i [Skapa poster genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/records/import-file-to-create-records.md).
-
-</div>
-
-<div class="preview">
 
 ## Skapa poster med hjälp av automatisering
 
@@ -396,6 +386,5 @@ Du kan konfigurera och aktivera automatiseringen på postens sida i Workfront Pl
 
 Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-</div>
 
 

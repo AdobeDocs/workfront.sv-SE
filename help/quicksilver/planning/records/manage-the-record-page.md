@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1853'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -161,11 +161,7 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
    Postens förhandsgranskning öppnas i vyn.
 
-   <div class="preview">
-
    ![Informationsruta](assets/details-box.png)
-
-   </div>
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postförhandsvisningen för att öppna postens sida på en ny flik.
 
@@ -244,21 +240,13 @@ Följande saker händer:
 
    Postens förhandsgranskning öppnas i vyn.
 
-   <div class="preview">
-
    ![Informationsruta](assets/details-box.png)
-
-   </div>
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna informationsrutan i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
    Fliken **Detaljer** i posten öppnas som standard.
 
-   <div class="preview">
-
    ![Informationssida](assets/details-page.png)
-
-   </div>
 
 1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
@@ -301,17 +289,13 @@ Så här lägger du till en sida i Anslutningsvyn:
 Tabellvyn för den posttyp du valde visas och de kopplade posterna visas i tabellvyn.
 Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik.
 
-   <span class="preview">När du öppnar Workfront Planning från förhandsvisningsmiljön visas de första fem fälten från den anslutna posttabellen som standard. Inga sökfält visas som standard.</span>
+   När du öppnar Workfront Planning från förhandsvisningsmiljön visas de första fem fälten från den anslutna posttabellen som standard. Inga sökfält visas som standard. 0
 
    Tabellvyn är skrivskyddad.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   <div class="preview">
-
    ![Målgruppsansluten tabellvy under kampanjinformation](assets/audience-connected-table-view-under-campaign-details-page.png)
-
-   </div>
 
 1. (Valfritt) Dubbelklicka på flikens namn
 
@@ -323,7 +307,7 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
    * Filter
    * Sortera
    * Gruppering
-   * <span class="preview">Fält, för att visa, dölja eller ordna om fält</span>
+   * Fält, för att visa, dölja eller ordna om fält
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -333,11 +317,11 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
    >
    >   Du kan inte göra något av följande i tabellvyn på fliken för en ansluten post:
    >
-   >   * Dölj eller ordna om fält. <span class="preview">Du kan dölja och ordna om fält i förhandsvisningsmiljön.</span>
+   >   * Dölj eller ordna om fält. Du kan dölja och ordna om fält i förhandsvisningsmiljön.
    >   * Skapa, redigera eller ta bort fält
    >
 
-1. <span class="preview">Klicka på **Anslut** för att lägga till eller ta bort poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md)</span>
+1. Klicka på **Anslut** för att lägga till eller ta bort poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md)
 1. (Valfritt) Håll pekaren över namnet på fliken Anslutningsvy, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort från den nya fliken Ansluten vy.
 
 

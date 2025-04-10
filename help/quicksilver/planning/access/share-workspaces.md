@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
 
 # Dela arbetsytor
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Att tänka på när du delar arbetsytor
 
 * Allmän information om delning av objekt i Workfront Planning finns även i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-* Du kan dela arbetsytor med användare, <span class="preview"> team, roller, grupper eller företag </span> i din organisation.
+* Du kan dela arbetsytor med användare, team, roller, grupper eller företag i din organisation.
 * Du kan inte dela arbetsytor med användare utanför organisationen.
 * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna.
 * När du delar en arbetsyta delas inte vyerna. Du måste dela vyer separat.
@@ -133,7 +133,7 @@ Så här delar du en arbetsyta med andra:
 
    ![Knappen Dela på arbetsytan längst upp till höger](assets/share-button-on-workspace-top-right.png)
 
-1. I fältet **Bevilja åtkomst till den här arbetsytan** börjar du skriva namnet på en användare, grupp, <span class="preview">team, företag eller jobbroll</span> och klickar sedan på den när den visas i listan.
+1. I fältet **Bevilja åtkomst till den här arbetsytan** börjar du skriva namnet på en användare, grupp, team, företag eller jobbroll och klickar sedan på den när den visas i listan.
 
    ![Dela användargränssnitt med grupper](assets/sharing-ui-with-groups.png)
 

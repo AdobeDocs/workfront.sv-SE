@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2872'
 ht-degree: 0%
 
 ---
 
 # Hantera tabellvyn
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -404,13 +404,9 @@ Så här lägger du till ett filter i en tabellvy:
    * **AND**: Alla angivna villkor måste uppfyllas.
    * **OR**: Alla angivna villkor måste vara uppfyllda. Det här är standardalternativet.
 
-   <div class="preview">
-
    1. (Valfritt) Lägg till ytterligare **AND**- eller **OR**-operatorer mellan flera villkorsgrupperingar.
 
       ![Filter med flera nivåer i vyer](assets/multi-tiered-filters-in-views.png)
-
-   </div>
 
    Postlistan filtreras automatiskt.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -545,3 +541,4 @@ Avatarerna för andra användare som redigerar postinformation samtidigt som du 
 När du visar tabellvyn kan du även visa vilket fält en annan användare redigerar när du visar posten.
 
 Mer information finns i avsnittet&quot;Aktivera indikator för närvaro i realtid&quot; i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+

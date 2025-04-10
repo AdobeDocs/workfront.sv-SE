@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Du kan skicka in en begäran om Workfront Planning från följande områden:
 * Från en direktlänk till det begärandeformulär som delats.
 
   I den här artikeln beskrivs hur du kan skicka en begäran om att lägga till nya poster till en posttyp från området Begäranden i Workfront, eller från en delad länk.
-* <span class="preview">Från posttypssidan när du lägger till eller begär en ny post. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
+* Från posttypssidan när du lägger till eller begär en ny post. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
 Workfront-användare och externa användare kan skicka förfrågningar till posttyperna Planning och skapa poster. <!--double check on the external users-->
 
@@ -128,7 +128,7 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
    * Internt måste formuläret delas med användare som har behörigheten Visa eller högre till arbetsytan.
 
-     Workfront-användare kan antingen komma åt formuläret via länken <span class="preview">eller hitta förfrågningsformuläret i området Begäranden i Workfront.</span>
+     Workfront-användare kan antingen öppna formuläret via en länk eller hitta förfrågningsformuläret i området Begäranden i Workfront.
 
    * Om du inte har något Workfront-konto har en länk till formuläret delats med externa personer.
 
@@ -150,8 +150,6 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## Skicka en begäran till Workfront Planning under Begäranden i Workfront
 
@@ -239,8 +237,6 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
    Posttypssidan öppnas i Workfront Planning.
 
-</div>
-
 ## Skicka en begäran till Workfront Planning från en delad länk till ett begärandeformulär
 
 1. Gå till länken som delas med dig från en Workfront Planning-posttyp.
@@ -276,11 +272,11 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
      >
      >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
 
-1. <span class="preview">(valfritt) Klicka på **Visa din begäran** för att öppna begäran i Workfront.</span>
+1. (Valfritt) Klicka på **Visa din begäran** för att öppna begäran i Workfront.
 
-   eller
+   <!--Or-->
 
-   <span class="preview">Klicka på [Skicka en ny begäran](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) om du vill öppna begärandeformuläret och lägga till en ny begäran. </span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. (Valfritt) Klicka på **Huvudmeny** > **Förfrågningar** > fliken **Planering** för att visa din förfrågan och klicka sedan på namnet på förfrågan.
 

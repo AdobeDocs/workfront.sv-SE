@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Visa
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ Du kan dela en vy med andra för att säkerställa samarbete när du arbetar med
 
 Du kan dela en vy med följande enheter:
 
-* Internt, med Workfront-användare, grupper, <span class="preview">team, företag och jobbroller</span>
+* Internt, med Workfront användare, grupper, team, företag och arbetsroller
 * Offentligt, med användare utanför Workfront
 
 <!--
@@ -129,7 +129,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Dela behörigheter till en vy internt
 
-Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera till med användare, grupper, <span class="preview">team, företag och jobbroller</span> i Workfront Planning.
+Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera med användare, grupper, team, företag och jobbroller i Workfront Planning.
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
 
 1. (Valfritt) Välj bland följande alternativ i området **Vem har åtkomst**:
 
-   * **Endast inbjudna personer har åtkomst till**: Du måste ange användare, grupper, <span class="preview">team, företag eller jobbroll</span> som du vill dela vyn med. Det här är standardalternativet.
+   * **Endast inbjudna personer har åtkomst till**: Du måste ange användare, grupper, team, företag eller jobbroll som du vill dela vyn med. Det här är standardalternativet.
    * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytor kan komma åt vyn.
 
-1. I fältet **Bevilja åtkomst till den här vyn** börjar du skriva namnet på en användare, en grupp, <span class="preview">team, företag eller jobbroll</span> och klickar sedan på den när den visas i listan.
+1. I fältet **Bevilja åtkomst till den här vyn** börjar du skriva namnet på en användare, en grupp, ett team, företag eller en jobbroll och klickar sedan på den när den visas i listan.
 
    ![Dela en vy med grupper](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på me
 1. Så här tar du bort den interna delningen av en vy:
 
    1. Kontrollera att fliken **Intern delning** är markerad.
-   1. Sök efter användaren, gruppen, <span class="preview">teamet, företaget eller jobbrollen</span> som du vill ta bort, utöka listrutan Behörigheter till höger om namnet på enheten som du delar vyn med och klicka sedan på **Ta bort**.
+   1. Hitta den användare, grupp, team, företag eller jobbroll du vill ta bort, utöka listrutan Behörigheter till höger om namnet på den enhet du delar vyn med och klicka sedan på **Ta bort**.
 
 1. Så här tar du bort den offentliga delningen av en vy:
 

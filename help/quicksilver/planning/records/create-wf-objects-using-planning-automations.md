@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller poster i Workfront Planning när de aktiveras från en Planning-post. De skapade objekten eller posterna ansluts automatiskt till de poster som du aktiverar automatiseringen från.
 
@@ -37,7 +37,7 @@ Mer information om anslutna poster finns i [Översikt över anslutna poster](/he
 
 Du kan skapa följande med automatisering i Workfront Planning:
 
-* Ett <span class="preview">eller flera</span> projekt
+* Ett eller flera projekt
 * En grupp
 * Ett program
 * En portfölj
@@ -123,15 +123,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Namnet på det objekt eller den post som skapas av en automatisering är samma som det postnamn som du skapar objektet från när du skapar ett enskilt objekt.
 
-<div class="preview">
-
 * När du skapar flera projekt får de automatiskt följande namn:
 
   `[ Name of the record ] Name of the field choice`
 
   Mer information finns i avsnittet [Använd en Workfront Planning Automation för att skapa ett objekt eller en post](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) i den här artikeln.
-
-</div>
 
 * Nya objekt eller poster åsidosätter inte befintliga objekt i samma fält. Om samma automatisering aktiveras flera gånger för samma post läggs nya objekt eller poster i samma kopplade fält i den ursprungliga posten till, förutom de som skapades tidigare.
 
@@ -166,8 +162,8 @@ Sidan med information om automatisering öppnas.
    * **Åtgärder**: Välj den åtgärd som du vill att Workfront ska utföra när automatiseringen aktiveras. Detta är ett obligatoriskt fält.
 Välj någon av följande åtgärder:
 
-      * <span class="preview">Skapa flera projekt</span>
-      * <span class="preview">Skapa ett enskilt projekt</span>
+      * Skapa flera projekt
+      * Skapa ett projekt
       * Skapa projekt
       * Skapa post
       * Skapa program
@@ -180,11 +176,9 @@ Välj någon av följande åtgärder:
 
 1. (Villkorligt) Beroende på vilken åtgärd du valde kan du uppdatera följande fält:
 
-   * **Skapa <span class="preview">ett enskilt</span> projekt**: <!--replace to the left: Create a single project-->
+   * **Skapa ett enskilt projekt**: <!--replace to the left: Create a single project-->
       * **Anslutet fält där projektet skapas**: Det här är det anslutna fältet som det nya projektet ska visas i. Detta är ett obligatoriskt fält.
       * **Projektmall**: Välj en projektmall som Workfront ska använda för att skapa projektet.
-
-   <div class="preview">
 
    * Skapa flera projekt:
       * **Anslutet fält där projektet skapas**: Det här är det anslutna fältet som det nya projektet ska visas i. Detta är ett obligatoriskt fält.
@@ -197,8 +191,6 @@ Välj någon av följande åtgärder:
 
       * **Använd samma mall**: Välj det här alternativet om du vill använda samma mall för varje nytt projekt. Om alternativet är avmarkerat väljer du en **projektmall** för varje fältval.
       * **Projektmall**: Om du valde alternativet **Använd samma mall** väljer du en projektmall som Workfront ska använda för att skapa projekten.
-
-   </div>
 
    * **Skapa portfölj**:
       * **Anslutet fält där portföljen skapas**: Det här är det anslutna fältet där den nya portföljen visas. Detta är ett obligatoriskt fält.
@@ -311,15 +303,11 @@ Uppdatera följande information i området **Kartfält**:
 
    * Det nya objektet visas i det anslutna fältet som anges i inställningarna för knappen för automatisering. Du kan behöva uppdatera sidan innan du kan visa det nya objektet. Det nya objektet har samma namn som den ursprungliga posten.
 
-   <div class="preview">
-
    * Om flera projekt har skapats baserat på val av flera- eller enkelvalsfält får projekten automatiskt ett namn enligt följande mönster:
 
      `[ Name of the record ] Name of the field choice`
 
      Om en kampanj med namnet `Summer breeze` genererade ett projekt från ett fältval av `EMEA` får projektet namnet `[ Summer breeze ] EMEA`.
-
-   </div>
 
    * Den post som du utlöser automatiseringen från läggs till i det anslutna fältet för den nya posten.
 

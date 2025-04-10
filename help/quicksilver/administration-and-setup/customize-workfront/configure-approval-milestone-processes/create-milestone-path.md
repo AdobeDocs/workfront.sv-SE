@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Som Adobe Workfront-administratör kan du skapa milstolpar som sedan kan användas i alla projekt i systemet. De ändringar du gör i milstolpbanorna i det här området påverkar hela Workfront-systemet.
 
@@ -123,20 +123,18 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
    Mer information om hur du associerar milstolpar till projekt och milstolpar till aktiviteter finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 
-1. <span class="preview">(Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil: </span>
+1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Tabbavgränsad
 
-1. <span class="preview">(Valfritt) Välj en milstolpe i milstolplistan och klicka sedan på ikonen **Redigera** ![Redigera-ikon](assets/edit-icon.png) för att redigera information om milstolpe. </span>
-1. <span class="preview">(Valfritt) Markera en milstolpe i milstolpelistan och klicka sedan på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) för att ta bort den. </span>
-1. <span class="preview">Klicka på **Ja, ta bort den**. </span>
-   <span class="preview">Milstolpen tas bort och kan inte återställas. All projektinformation som är associerad med milstolpen och all aktivitetsinformation som är associerad med milstolpbanorna tas också bort. </span>
+1. (Valfritt) Markera en milstolpe i milstolpelistan och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att redigera informationen om milstolpen.
+1. (Valfritt) Markera en milstolpe i milstolpelistan och klicka sedan på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) för att ta bort den.
+1. Klicka på **Ja, ta bort den**.
+Milstolpen tas bort och kan inte återställas. All projektinformation som är associerad med milstolpen och all aktivitetsinformation som är associerad med milstolpbanorna tas också bort.
 
-
-<div class="preview">
 
 ## Visa information om milstolpens sökväg i en rapport
 
@@ -163,8 +161,6 @@ Mer information om hur du associerar milstolpbanor till projekt finns i [Rediger
 
    Detaljerna för milstolpens bana visas.
 
-   <div class="preview">
-
    ![Sökvägsinformation för milstolpe från projektrapport](assets/milestone-details-from-project-report.png)
 
    Sidan med information om milstolpens sökväg innehåller följande information:
@@ -175,6 +171,5 @@ Mer information om hur du associerar milstolpbanor till projekt finns i [Rediger
 
 1. (Valfritt) Klicka på **Tillbaka** om du vill gå tillbaka till projektrapporten.
 
-</div>
 
 

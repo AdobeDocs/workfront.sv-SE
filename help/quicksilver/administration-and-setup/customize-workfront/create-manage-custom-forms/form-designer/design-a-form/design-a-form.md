@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '6615'
+source-wordcount: '6555'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 # Skapa ett anpassat formulär
 
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 Du kan utforma ett anpassat formulär med formulärdesignern i Adobe Workfront. Du kan koppla anpassade formulär till olika Workfront-objekt för att samla in data om dessa objekt.
 
@@ -1009,8 +1009,8 @@ Så här lägger du till ett planeringsanslutningsfält:
      </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">Posttypfält</span></td> 
-      <td><p><span class="preview">(Valfritt) Välj upp till 7 uppslagsfält från den anslutna posttypen som ska visas i det anpassade formuläret. Det primära fältet är markerat som standard och kan inte redigeras. </span></p> <span class="preview"><p> Den anslutna postens fält som du väljer visas i en tabellvy i det anpassade formuläret. När formuläret bifogas till ett Workfront-objekt är tabellvyn skrivskyddad. </span></p>  
+      <td role="rowheader">Posttypfält</td> 
+      <td><p>(Valfritt) Välj upp till 7 uppslagsfält från den anslutna posttypen som ska visas i det anpassade formuläret. Det primära fältet är markerat som standard och kan inte redigeras. </p> <p> Den anslutna postens fält som du väljer visas i en tabellvy i det anpassade formuläret. När formuläret bifogas till ett Workfront-objekt är tabellvyn skrivskyddad. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
       </tbody> 

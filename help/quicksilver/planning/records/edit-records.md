@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Redigera poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -242,7 +242,6 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
      ![Dra i det nedre högra hörnet för att kopiera och klistra in i tabellvy](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * Kopiera en eller flera celler från en extern källa (till exempel en Excel-fil) och klistra sedan in dem i någon av följande fälttyper:
 
@@ -250,7 +249,6 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
       * Personfält. Endast fält med ett värde stöds.
 
      Du kan inte kopiera information från en extern källa och klistra in den i andra fälttyper, inklusive anslutningsfält för Workfront eller AEM Assets.
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    I tabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljer i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen. Postens förhandsgranskning öppnas i vyn.
 
-   <div class="preview">
-
    ![Informationsruta](assets/details-box.png)
-
-   </div>
 
 1. (Valfritt) Klicka på menyn **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
 
@@ -320,17 +314,13 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    Workfront sparar automatiskt ändringarna.
 
-1. <span class="preview"> (Valfritt) Klicka på **realtidsindikatorn** ![Realtidsindikatorikonen](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens förhandsvisningsruta och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
+1. (Valfritt) Klicka på **realtidsindikatorn** ![Realtidsindikatorikonen](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens förhandsvisningsruta och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
 
    I det här området visas namnen på och avatarerna för alla användare som använder posten samtidigt.
 
-   När inställningen är inaktiverad visas avatarerna och namnen i realtidsindikatorområdet, och fälten som redigeras markeras inte. </span>
-
-   <div class="preview">
+   När inställningen är inaktiverad visas avatarerna och namnen i realtidsindikatorområdet, och fälten som redigeras markeras inte.
 
    ![Indikatorn för heltidsvisning expanderade postförhandsgranskning](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Valfritt) Klicka på **Exportera**-menyn ![Exportikonen på postinformationssidan](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -388,17 +378,13 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
    Workfront sparar automatiskt ändringarna.
 
-1. <span class="preview"> (Valfritt) Klicka på **realtidsindikatorn** ![Realtidsindikatorikonen](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens sida och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
+1. (Valfritt) Klicka på **realtidsindikatorn** ![Realtidsindikatorikonen](assets/real-time-indicator-icon.png) i det övre högra hörnet av postens sida och aktivera sedan inställningen **Visa medarbetare** för att markera de fält som redigeras av andra i realtid.
 
    I det här området visas namnen på och avatarerna för alla användare som använder posten samtidigt.
 
-   När inställningen är inaktiverad visas avatarerna och namnen i realtidsindikatorområdet, och fälten som redigeras markeras inte. </span>
-
-   <div class="preview">
+   När inställningen är inaktiverad visas avatarerna och namnen i realtidsindikatorområdet, och fälten som redigeras markeras inte.
 
    ![Realtidsindikator - ruta för förhandsgranskning av utökad post](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Valfritt) Klicka på **Exportera**-menyn ![Exportikonen på postinformationssidan](assets/export-icon-in-record-details-page.png) om du vill exportera postens information. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
 

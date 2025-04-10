@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Redigera fältinställningar
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -121,8 +121,7 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
   >
   >Det finns inget meddelande till andra användare om att fältkonfigurationen har ändrats.
 
-* I produktionsmiljön kan du inte redigera befintliga uppslagsfält.
-  <span class="preview">I förhandsvisningsmiljön kan du redigera befintliga uppslagsfält från anslutna poster.</span>
+* Du kan redigera befintliga uppslagsfält från anslutna poster.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
