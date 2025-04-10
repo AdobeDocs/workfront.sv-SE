@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,29 @@ IF(
 
    ![Markera ett objekt](assets/object-for-business-rule3.png)
 
-1. Skriv **namnet** för affärsregeln.
+   Du kan tillämpa affärsregler på följande objekt:
+
+   * Projekt
+   * Uppgift
+   * Problem/förfrågan
+   * Portfolio
+   * Dokument
+   * Program
+   * Utgift
+   * Användare
+   * Företag
+   * Upprepning
+   * Faktureringspost
+   * Grupp
+   * risk
+   * Tilldelning
+   * Jobbroll
+   * Resurspool
+   * Tid av
+   * Timme
+   * Mall
+
+1. Skriv **Namn** för affärsregeln i dialogrutan Regelbyggaren.
 1. I fältet **Är aktiv** väljer du om regeln ska vara aktiv när du sparar den.
 
    Om du väljer **Nej** sparas regeln som inaktiv och du kan aktivera den senare.
