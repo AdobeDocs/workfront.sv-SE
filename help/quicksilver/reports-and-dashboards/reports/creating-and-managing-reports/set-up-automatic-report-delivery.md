@@ -3,19 +3,19 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Schemalägg automatisk rapportleverans
 description: Schemalägg automatisk rapportleverans
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
 # Schemalägg automatisk rapportleverans
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -36,24 +36,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
       <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+      <p>Nytt: Standard</p>
+      <p>eller</p>
+
+<p>Aktuell: Planera</p>
+
+</td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,24 +70,24 @@ Innan du börjar måste du skapa en rapport. Mer information om hur du skapar ra
 
 ## Boka en rapportleverans
 
-Så här schemalägger du en rapport för automatisk leverans eller redigerar eller tar bort en befintlig rapportleverans: &#x200B;
 
-1. Gå till en rapport som du vill schemalägga för leverans.
+Så här schemalägger du en rapport för automatisk leverans: &#x200B;
 
-   >[!NOTE]
-   >
-   >Rapportleveranser innehåller inga uppmaningar. Om du vill begränsa datamängden i en rapport rekommenderar vi att du tillämpar filter på rapporten som du vill skicka.
+{{step1-to-reports}}
 
-1. Klicka på **Rapportera åtgärder** och sedan på **Skicka rapport**.
+>[!NOTE]
+>
+>Rapportleveranser innehåller inga uppmaningar. Om du vill begränsa datamängden i en rapport rekommenderar vi att du tillämpar filter på rapporten som du vill skicka.
 
-   Dialogrutan **Skicka rapport** visas.
+1. Välj en rapport på sidan **Rapporter**.
+1. Klicka på **Rapportåtgärder** överst på skärmen och sedan på **Skicka rapport** i listrutan som visas. Dialogrutan **Skicka rapport** visas.
 
    >[!TIP]
    >
    >Om du vill skicka en rapport manuellt vid en viss tidpunkt går du till rapporten och klickar sedan på **Rapportåtgärder** > **Skicka rapport** > **Skicka nu**.
 
 1. Välj fliken **Upprepade leveranser**.
-1. (Villkorligt) Om du vill ändra en befintlig upprepande rapportleverans väljer du rapportleveransen i avsnittet **Upprepade leveranser**.
+1. (Villkorligt) Om du vill ändra en befintlig upprepande rapportleverans markerar du rapportleveransen i avsnittet **Upprepade leveranser** till höger i dialogrutan.
 1. Ange följande information:
 
    <table style="table-layout:auto"> 
@@ -103,7 +100,7 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
         <ul> 
          <li>Om din organisation begränsar Workfront-meddelanden till specifika e-postdomäner kanske du bara kan skicka rapporter till e-postadresser som listas i e-posttillåtelselista.<p>Information om hur en Workfront-administratör uppdaterar e-postmeddelandet tillåtelselista finns i avsnittet <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurera e-posttillåtelselista</a>.</p></li> 
          <li> <p>Om du lägger till ett stort antal användare som mottagare kan leveransen misslyckas. Om leveransfel uppstår kan du schemalägga flera rapportleveranser med mindre grupper av användare.</p> </li> 
-        </ul> </p> </td> 
+        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>E-postämne</p> </td> 
@@ -115,14 +112,14 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Leverera den här rapporten med åtkomsträttigheter för</p> </td> 
-      <td> <p>Börja skriva namnet på en användare som har åtkomst till rapporten och klicka sedan på namnet när det visas i listrutan. Användare som tar emot rapporten får samma åtkomstnivå till rapporten som den användare du anger här.<br> Mer information finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Kör och leverera en rapport med åtkomsträttigheter för en annan användare</a>.</p> <p>Obs! Det här fältet stöder inte jokertecken. Om du till exempel använder jokertecknet $$User.ID körs inte rapporten med åtkomsträttigheterna för den användare som tar emot rapporten.</p> </td> 
+      <td> <p>Börja skriva namnet på en användare som har åtkomst till rapporten och klicka sedan på namnet när det visas i listrutan. Användare som tar emot rapporten får samma åtkomstnivå till rapporten som den användare du anger här.<br> Mer information finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Kör och leverera en rapport med åtkomsträttigheter för en annan användare</a>.</p> <p>Obs! Det här fältet stöder inte jokertecken. Om du till exempel använder jokertecknet <em>$$User.ID</em> körs inte rapporten med åtkomsträttigheterna för den användare som tar emot rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Format</p> </td> 
       <td> <p>Välj det format som du vill ha för den levererade rapporten:</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>Om du väljer det här alternativet kan du formatera utdata med de ytterligare alternativen <strong>Pappersstorlek</strong> och <strong>Orientering</strong> som visas.</p> </li> 
+        <li> <p>PDF</p> <p>Om du väljer PDF kan du formatera utdata med de ytterligare alternativen <strong>Pappersstorlek</strong> och <strong>Orientering</strong> som visas.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
@@ -170,9 +167,7 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
     </tbody> 
    </table>
 
-1. Klicka på **Spara** för att spara rapportleveransen.
-
-   Rapporten visas i avsnittet **Upprepade leveranser** (i dialogrutan **Skicka rapport**) och skickas vid den schemalagda tidpunkten.
+1. Klicka på **Spara** för att spara rapportleveransen. Rapporten visas i avsnittet **Upprepade leveranser** i dialogrutan **Skicka rapport** och skickas vid den schemalagda tidpunkten.
 
    Mer information om storleksbegränsningar som kan påverka rapportleveransen finns i avsnitten [Rapportleveransbegränsningar](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) och [Exportbegränsningar](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
@@ -182,10 +177,21 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
 >
 >Om du använder en schemalagd rapportleverans för att analysera Workfront-data via ett BI-verktyg rekommenderar vi att du använder Workfront Data Connect istället. Mer information finns i [Workfront Data Connect - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-1. (Valfritt) Så här tar du bort en schemalagd leverans:
+## Ta bort en schemalagd rapportleverans
 
-   1. Klicka på den schemalagda leveransen på panelen **Upprepade leveranser** och klicka sedan på **Ta bort**.
-   1. Bekräfta genom att klicka på **Ta bort**.
+Så här tar du bort en schemalagd rapportleverans: &#x200B;
+
+{{step1-to-reports}}
+
+1. Välj en rapport på sidan **Rapporter**.
+
+1. Klicka på **Rapportåtgärder** överst på skärmen och sedan på **Skicka rapport** i listrutan som visas. Dialogrutan **Skicka rapport** visas.
+
+1. Välj fliken **Upprepade leveranser**.
+1. Klicka på den schemalagda leveransen som du vill ta bort i avsnittet **Upprepade leveranser** till höger i dialogrutan.
+1. Klicka på **Ta bort** i detaljavsnittet **Upprepade leveranser**.
+
+1. Bekräfta genom att klicka på **Ta bort**.
 
 <!--## Video walk-through
 

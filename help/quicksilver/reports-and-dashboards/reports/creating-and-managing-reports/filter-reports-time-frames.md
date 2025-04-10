@@ -3,19 +3,19 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Filtrera rapporter efter tidsramar
 description: Du kan filtrera en rapport efter tidsramen för ett datum som finns i ett objekt. Du kan t.ex. filtrera en timrapport för en viss tidsram när timmarna angavs.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
 
 # Filtrera rapporter efter tidsramar
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 Du kan filtrera en rapport efter tidsramen för ett datum som finns i ett objekt. Du kan t.ex. filtrera en timrapport för en viss tidsram när timmarna angavs.
 
@@ -30,25 +30,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
       <td> 
-      <p>Nytt:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Nytt: Standard</p>
+       <p> eller</p>
+      <p>Aktuell: Planera</p>
    </td>
 
 </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p></td> 
   </tr> 
   <tr> 
@@ -58,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,18 +63,20 @@ Rapporten måste skapas innan du kan filtrera resultaten.
 
 Mer information om hur du skapar rapporter finns i [Skapa en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Filtrera en rapport efter tidsramen för ett datum {#filter-a-report-by-the-time-frame-of-a-date}
+## Filtrera en rapport efter tidsramen för ett datum {#filter-a-report-by-the-timeframe-of-a-date}
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Rapportering**.
+{{step1-to-reports}}
 
-1. Klicka på **Ny rapport** och välj sedan önskad rapporttyp.\
-   Välj till exempel **Timrapport**.
+1. Klicka på **Ny rapport** i det övre vänstra hörnet och välj sedan den typ av rapport som du vill skapa.
 
-1. Välj fliken **Filter**.
-1. Klicka på **Lägg till en filterregel** och välj sedan **Timinmatningsdatum**.\
+1. Välj fliken **Filter** på sidan **Ny rapport**.
+
+1. Klicka på **Lägg till en filterregel** och **Välj ett fält**.
+
+1. I dialogrutan **Välj ett fält** väljer du **Timme** och sedan **Postdatum**.
    ![Filtrerar timrapport efter tidsram](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
-1. Välj något av följande alternativ i den nedrullningsbara menyn:
+1. Välj något av följande alternativ i listrutan som visas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,54 +85,58 @@ Mer information om hur du skapar rapporter finns i [Skapa en rapport](../../../r
      <tr> 
       <td role="rowheader">Likvärdigt (skiftlägeskänsligt)</td> 
       <td>När du har valt den här modifieraren anger du datumet då timmarna angavs.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Inte lika med (skiftlägeskänslig)</td> 
-      <td>När du har valt den här modifieraren anger du datumet när timmarna angavs, så att det datumet inte tas med i rapporten. Rapporten visar timmar som loggats in på alla datum, förväntat för det datum du angav.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Null</td> 
-      <td>Välj den här modifieraren om du bara vill visa timmar där transaktionsdatumet saknas.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Inte null</td> 
-      <td>Välj den här modifieraren om du bara vill visa timmar där bokföringsdatumet har ett värde.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Mellan</td> 
-      <td>När du har valt den här modifieraren anger du ett datumintervall när timmarna angavs. Rapporten visar antal timmar som angetts mellan de angivna datumen.</td> 
-     </tr> 
-     <tr> 
+      <td>När du har valt den här modifieraren anger du datumet när timmarna angavs för att utesluta det här datumet från rapporten. Rapporten visar timmar som loggats in på alla datum, förväntat för det datum du angav.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Mindre än</td> 
-      <td>När du har valt den här modifieraren anger du ett datum före vilket timmarna angavs. I rapporten visas timmar som angetts före det angivna datumet och inte det angivna datumet.</td> 
-     </tr> 
-     <tr> 
+      <td>När du har valt den här modifieraren anger du ett datum före vilket timmarna angavs. Rapporten visar timmar som angetts före det angivna datumet, exklusive det angivna datumet.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Mindre än lika med</td> 
       <td>När du har valt den här modifieraren anger du ett datum före vilket timmarna angavs. Rapporten visar timmar som angetts före det angivna datumet, inklusive det angivna datumet.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Större än</td> 
-      <td>När du har valt den här modifieraren anger du ett datum efter vilket timmarna angavs. I rapporten visas timmar som angetts efter det angivna datumet och inte det angivna datumet.</td> 
-     </tr> 
-     <tr> 
+      <td>När du har valt den här modifieraren anger du ett datum efter vilket timmarna angavs. Rapporten visar timmar som angetts efter det angivna datumet, exklusive det angivna datumet.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Större än lika</td> 
-      <td> <p>När du har valt den här modifieraren anger du ett datum efter vilket timmarna angavs. Rapporten visar timmar som angetts efter det angivna datumet, inklusive det angivna datumet.</p> <p>Välj någon av de inbyggda modifieringarna för tidsbildrutor, vilket beskrivs i <a href="#built-in-time-frame-modifiers" class="MCXref xref">Inbyggda modifierare för tidsbildrutor</a>.</p> </td> 
-     </tr> 
-    </tbody> 
+      <td> När du har valt den här modifieraren anger du ett datum efter vilket timmarna angavs. Rapporten visar timmar som angetts efter det angivna datumet, inklusive det angivna datumet. </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Mellan</td> 
+      <td>När du har valt den här modifieraren anger du ett datumintervall när timmarna angavs. Rapporten visar antal timmar som angetts mellan de angivna datumen.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Null</td> 
+      <td>Välj den här modifieraren om du bara vill visa timmar där transaktionsdatumet saknas.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Inte null</td> 
+      <td>Välj den här modifieraren om du bara vill visa timmar där bokföringsdatumet har ett värde.</td> 
+     </tr>
+
+   </tbody> 
    </table>
 
-1. Dessa modifierare är tillgängliga för alla datumfält i ett filter eller en uppmaning i en rapport.
 1. Klicka på **Spara + Stäng**.
 
-## Inbyggda modifierare för tidsramar {#built-in-time-frame-modifiers}
+## Inbyggda tidsramsmodifierare {#built-in-timeframe-modifiers}
 
-Adobe Workfront har inbyggda modifierare för tidsramar som du kan använda utan att definiera ett visst datum.
+Adobe Workfront har inbyggda tidsramsmodifierare som du kan använda utan att definiera ett visst datum. Dessa modifierare är tillgängliga för alla datumfält i ett filter eller en uppmaning i en rapport.
 
-Dessa modifierare är tillgängliga för alla datumfält i ett filter eller en uppmaning i en rapport.
-
-Mer information om hur du filtrerar en rapport efter en tidsram som är associerad med ett datum finns i avsnittet ovan [Filtrera en rapport efter tidsramen för ett datum](#filter-a-report-by-the-time-frame-of-a-date).
-
-Om du till exempel skapar en timrapport och vill visa timmar som anges i en viss tidsram kan du välja bland följande inbyggda alternativ för tidsramsfilter:
+Om du till exempel skapar en timrapport och vill visa timmar som angetts under en viss tidsram kan du välja bland följande inbyggda alternativ för tidsramsfilter:
 
 <table style="table-layout:auto"> 
  <col> 

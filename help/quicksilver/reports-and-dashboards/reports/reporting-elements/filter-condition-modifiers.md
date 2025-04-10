@@ -6,9 +6,9 @@ description: Med filter- och villkorsmodifierarna kan du skapa filter och skapa 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Vissa modifierare är inbyggda och du kan välja dem från en nedrullningsbar me
 
 Mer information om textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-En lista med inbyggda modifierare för tidsramar finns i artikeln [Filtrera rapporter efter tidsramar](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+En lista med inbyggda modifierare för tidsramar finns i artikeln [Filtrera rapporter efter tidsramar](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 Du kan använda följande villkorsmodifierare i filter och villkorsstyrda formateringssatser:
 

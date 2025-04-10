@@ -6,7 +6,7 @@ description: Du kan flytta en flexibel artikel till en annan upprepning (för Sc
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 164e98e8cc6995387be1e830787cb258f127bd70
+source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%

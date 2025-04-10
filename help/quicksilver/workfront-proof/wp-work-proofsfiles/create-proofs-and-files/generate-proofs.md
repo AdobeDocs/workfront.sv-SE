@@ -7,7 +7,7 @@ description: Med Workfront Proof kan du skapa korrektur av dokument eller webbpl
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 0%
