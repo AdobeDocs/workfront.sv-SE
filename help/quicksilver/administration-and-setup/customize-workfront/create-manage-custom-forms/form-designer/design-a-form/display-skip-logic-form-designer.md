@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
 
 # Lägga till logiska regler i anpassade formulär och fält
-
-{{highlighted-preview}}
 
 Med logiska regler kan du anpassa fälten i formuläret ytterligare.
 
@@ -115,13 +113,7 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
 1. Välj fliken **Visning** i logikverktyget.
 1. Klicka på **Lägg till visningsregel**.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-
    ![Visa logikverktyget](assets/simple-display-logic1-val-only-in-menu.png)
-
-   Exempelbild i produktionsmiljön:
-
-   ![Visa logikverktyget](assets/custom-form-logic-builder-display-blank.png)
 
 1. Följ stegen nedan för att skapa logiksatsen i verktyget.
 
@@ -130,17 +122,11 @@ Visningslogik definierar vilka anpassade fält som visas i formuläret när anv�
    1. Det tredje alternativet är **Markerat** eller **Inte markerat**. Om du väljer **Markerad** innebär det att målfältet visas när värdet är markerat. Om du väljer **Inte markerad** innebär det att målfältet visas när något annat värde är markerat i definieringsfältet.
    1. Om du vill lägga till en **And**-regel i logiksatsen klickar du på **Lägg till regel** direkt under den regel du just skapade. Följ samma instruktioner för att skapa regeln. Alla And-regler måste uppfyllas för att målfältet ska visas.
 
-      <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-
       ![Visa logikverktyget](assets/simple-display-logic2.png)
-
-      Exempelbild i produktionsmiljön:
-
-      ![Visa logikverktyget](assets/custom-form-logic-builder-display1.png)
 
    1. Om du vill lägga till en **eller**-regel i logiksatsen klickar du på **Lägg till regel** i slutet av logikverktyget. Klicka sedan på **Lägg till regel** i Eller-området och följ samma instruktioner för att skapa regeln. När en eller-regel är uppfylld visas målfältet.
 
-1. Klicka på **Spara** <span class="preview"> eller **Använd**</span> när du är klar med att skapa logiksatsen.
+1. Klicka på **Använd** när du är klar med att skapa logiksatsen.
 
    Ikonerna för visningslogik läggs till i målfältet och i definitionsfältet i formulärdesignern.
 
@@ -212,14 +198,7 @@ Hopplogik definierar anpassade formulärfält som hoppas över när användaren 
 1. Välj fliken **Hoppa över** i logikverktyget.
 1. Klicka på **Lägg till överhoppningsregel**.
 
-
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-
    ![Hoppa över logikbyggaren](assets/skip-logic1-val-only-in-menu.png)
-
-   Exempelbild i produktionsmiljön:
-
-   ![Hoppa över logikbyggaren](assets/custom-form-logic-builder-skip-blank.png)
 
 1. Följ stegen nedan för att skapa logiksatsen i verktyget.
 
@@ -228,21 +207,13 @@ Hopplogik definierar anpassade formulärfält som hoppas över när användaren 
    1. Det andra alternativet är **Markerat** eller **Inte markerat**. Om du väljer **Markerad** innebär det att när värdet är markerat visas målfältet och fälten däremellan hoppas över. Om du väljer **Inte markerad** innebär det att när något annat värde är markerat i definieringsfältet visas målfältet och fälten däremellan hoppas över.
    1. Det tredje alternativet är målfältet eller var du vill hoppa till. Välj ett fältnamn eller **Slut på formulär**. Du kan behöva klicka på ordet&quot;tom&quot; innan du väljer ett alternativ.
 
-      <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-
       ![Hoppa över logikbyggaren](assets/skip-logic2.png)
-
-      Exempelbild i produktionsmiljön:
-
-      ![Hoppa över logikbyggaren](assets/custom-form-logic-builder-skip1.png)
 
    1. Om du vill lägga till en **eller**-regel i logiksatsen klickar du på **Lägg till regel** i slutet av logikverktyget. Välj sedan de alternativ som följer samma anvisningar för att skapa regeln. När en **eller**-regel är uppfylld visas målfältet.
 
-1. Klicka på **Spara** <span class="preview"> eller **Använd**</span> när du är klar med att skapa logiksatsen.
+1. Klicka på **Använd** när du är klar med att skapa logiksatsen.
 
    Ikonerna för hopplogik läggs till i målfältet och definieringsfältet i formulärdesignern.
-
-<div class="preview">
 
 ## Lägga till valideringslogik i ett anpassat formulär
 
@@ -250,7 +221,7 @@ Valideringslogiken byggs med formler och du kan göra logiken så enkel eller ko
 
 Om fältet med den logik som används uppfyller de definierade valideringsvillkoren när en användare fyller i det anpassade formuläret, markeras fältet och felmeddelandet visas.
 
-Du kan använda valideringslogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, alternativknappar, kryssrutegrupp och skrivhuvud.
+Du kan använda valideringslogik för följande fälttyper: enkelradstext, stycke, envalslistruta, flervalslistruta, extern sökning, typsnitt, datum, kryssrutegrupp och alternativknappar.
 
 ### Exempel
 
@@ -287,14 +258,14 @@ Ett ytterligare exempel för validering baserad på andra fält är ett fält f�
 
    Logiken tillämpas på fältet i formulärdesignern.
 
-</div>
-
 <!--
 <div class="preview">
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
