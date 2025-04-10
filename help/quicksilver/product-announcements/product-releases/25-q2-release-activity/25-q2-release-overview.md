@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
+source-git-commit: 75ff6f954c1a53a36d64c4f428097fe9a0c4b053
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
                 <li>Förhandsversion: 27 februari 2025</li>
-                <li>Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)</li>
+                <li>Den här funktionen kommer att lanseras i tre faser: Från och med version 25.4 (10 april 2025) och slutförs 17 april 2024</li>
             </ul>
         </td>
     </tr>                          
