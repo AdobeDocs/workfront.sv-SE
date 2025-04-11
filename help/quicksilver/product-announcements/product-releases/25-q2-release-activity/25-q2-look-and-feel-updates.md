@@ -1,22 +1,49 @@
 ---
-title: Uppdateringar som både ser ut och känns under andra kvartersutgåvan 2025
-description: Uppdateringar som både ser ut och känns under andra kvartersutgåvan 2025
+title: Utseende-och-känsla-uppdateringar under tidsramen för lansering under andra kvartalet 2025
+description: Utseende-och-känsla-uppdateringar under tidsramen för lansering under andra kvartalet 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
 
-# Uppdateringar som både ser ut och känns under andra kvartalet 2025-utgåvan
+# Utseende-och-känsla-uppdateringar under tidsramen för lanseringen under andra kvartalet 2025
 
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den andra utgåvan, kvartal 2025.
 
 En lista över alla ändringar som är tillgängliga i den andra utgåvan av kvartal 2025 finns i [Översikt över den andra utgåvan av kvartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Uppdatering av utseendet och känslan i dialogrutan för dokumentintegrering i Google Drive
+
+>[!NOTE]
+>
+>Förhandsversion: 26 mars 2025; Produktionsversion för alla kunder: Med version 25.4 (10 april 2025)
+
+Vi har uppdaterat utseendet när du använder Google Drive-dokumentintegreringen för att skapa en ny version av ett dokument. Den här uppdateringen gör att dialogrutan Version > från Google Drive blir paritet med dialogrutan Lägg till ny > från Google Drive.
+
+Tidigare kunde du välja mellan Min enhet eller en delad enhet om ditt konto var kopplat till en sådan. Nu går dialogrutan direkt till området Min enhet på din Google Drive.
+
++++ Expandera om du vill visa den här ändringen
+
+<table>
+ <thead>
+    <tr>
+        <th>Föregående</th>
+        <th>Nytt</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="lägg till dokument med Google Drive-integrering"></td>
+         <td><img src="assets/new-add.png" alt="lägg till dokument med Google Drive-integrering"></td>
+    </tr>
+</table>
+
++++
 
 ## Uppdaterad erfarenhet i området Åtkomstnivåer i installationsprogrammet
 
@@ -35,11 +62,11 @@ En liten funktionalitetsändring har gjorts i listan Åtkomstnivåer. Om du vill
 >
 >Förhandsversion: 27 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
 
-Vi har uppdaterat utseendet på dialogrutorna för att lägga till och redigera utgiftstyper under Konfigurera, så att de matchar designen i andra delar av Workfront.
+Vi har uppdaterat utseendet och känslan i dialogrutorna för att lägga till och redigera utgiftstyper i området Inställningar så att de matchar designen för andra områden i Workfront.
 
 Mer information finns i [Skapa anpassade utgiftstyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
-## Utforska och känna av uppdateringar för rutan Redigera risktyp
+## Look-and-feel-uppdateringar för rutan Redigera risktyp
 
 >[!NOTE]
 >
@@ -49,13 +76,13 @@ Vi har uppdaterat utseendet och känslan i rutan Redigera risktyp när du uppdat
 
 Mer information finns i [Redigera och skapa risktyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-## Utforska och känna av uppdateringar för rutan Ny risktyp
+## Utseende-och-känsla-uppdateringar för rutan Ny risktyp
 
 >[!NOTE]
 >
->Förhandsversion: 27 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
+>Förhandsversion: 27 mars 2025; Produktionsversion för alla kunder: Med version 25.4 (10 april 2025)
 
-Vi har uppdaterat utseendet på rutan Ny risktyp när du lägger till en ny risktyp under Konfigurera i Workfront. Den nya designen matchar nu andra delar av Workfront.
+Vi har uppdaterat utseendet och känslan i rutan Ny risktyp när du lägger till en ny risktyp i området Inställningar i Workfront. Den nya designen matchar nu andra delar av Workfront.
 
 Mer information finns i [Redigera och skapa risktyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
@@ -84,7 +111,7 @@ Avatars visas inte längre i följande e-postmeddelanden:
 * Nya tilldelningsmeddelanden
 * Meddelande om slutförande av alla föregående aktiviteter
 
-## Utforska och känna av uppdateringar i en lista över milstolpe-sökvägar
+## Utseende- och känslouppdateringar av en milstolpeslista
 
 >[!NOTE]
 >
@@ -98,7 +125,7 @@ Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administ
 
 >[!NOTE]
 >
->Förhandsversion: 13 mars 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
+>Förhandsversion: 13 mars 2025; Produktionsversion för alla kunder: Med version 25.4 (10 april 2025)
 
 När du får åtkomst till milstolpen från en projektlista eller rapport har sidan med information om milstolpar nu ett nytt utseende och en ny känsla. Du måste lägga till fältet Sökväg för milstolpe i vyn för listan eller rapporten för att kunna komma åt informationssidan för milstolpens sökväg.
 
@@ -124,7 +151,7 @@ Dessa ändringar är tillfälliga när vi undersöker e-postförseningar.
 >
 >Förhandsversion: 13 februari 2025; Produktionsrelease för alla kunder: Med version 25.4 (10 april 2025)
 
-Vi har uppdaterat utseendet och känslan i Dela-dialogen till en modern design som överensstämmer med andra delar av Workfront. Det finns små visuella skillnader, bland annat:
+Vi har uppdaterat utseendet och känslan i dialogrutan Dela till en modern design som stämmer överens med andra delar av Workfront. Det finns små visuella skillnader, bland annat:
 
 * Alternativet &quot;Synlig i hela systemet&quot; visar nu &quot;Alla i systemet kan visa&quot;. Det här alternativet fungerar fortfarande som det gjorde tidigare.
 * Det finns en ny ikon för att komma åt avancerade delningsinställningar.

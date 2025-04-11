@@ -3,25 +3,23 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Skapa anpassade utgiftstyper
-description: Som  [!DNL Adobe Workfront] administratör kan du skapa anpassade utgiftstyper för att definiera och spåra utgifter som är kopplade till dina aktiviteter och projekt. Utgifter är icke-arbetskostnader som kan kopplas till uppgifter eller projekt.
+description: Som [!DNL Adobe Workfront] administratör kan du skapa anpassade utgiftstyper för att definiera och spåra de utgifter som är kopplade till dina uppgifter och projekt. Utgifter är icke-arbetskostnader som kan associeras med uppgifter eller projekt.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: '366'
+ht-degree: 1%
 
 ---
 
 # Skapa anpassade utgiftstyper
 
-{{highlighted-preview}}
-
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Som [!DNL Adobe Workfront]-administratör kan du skapa anpassade utgiftstyper för att definiera och spåra utgifter som är kopplade till dina aktiviteter och projekt. Utgifter är icke-arbetskostnader som kan kopplas till uppgifter eller projekt.
+Som [!DNL Adobe Workfront] administratör kan du skapa anpassade utgiftstyper för att definiera och spåra de utgifter som är kopplade till dina uppgifter och projekt. Utgifter är icke-arbetskostnader som kan associeras med uppgifter eller projekt.
 
 Du kan redigera eller ta bort alla utgiftstyper som du skapar. Du kan inte ta bort eller redigera de inbyggda [!DNL Workfront] utgiftstyperna.
 
@@ -41,9 +39,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: [!UICONTROL Standard]</p>
-   eller
-   <p>Aktuell: [!UICONTROL Plan]</p>
+   <td><p>Ny: [!UICONTROL Standard]</p>
+   Eller
+   <p>Ström: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +72,7 @@ Standardutgiftstyperna i [!DNL Workfront] som inte kan tas bort eller redigeras 
 
 1. Klicka på **[!UICONTROL Expense Types]**.
 1. Klicka på **[!UICONTROL New expense type]**.
-1. Ange följande information i dialogrutan **[!UICONTROL New Expense Type]**:
+1. **[!UICONTROL New Expense Type]** I dialogrutan anger du följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -86,11 +84,11 @@ Standardutgiftstyperna i [!DNL Workfront] som inte kan tas bort eller redigeras 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Ange en beskrivning för utgiften.</td> 
+      <td>Ange en beskrivning av utgiften.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Calculated Unit]</td> 
-      <td> <p>Välj måttenhet för utgiftstypen i listrutan.</p> <p>Följande måttenhet är tillgänglig:</p> 
+      <td> <p>Välj måttenhet för din utgiftstyp i listrutan.</p> <p>Följande måttenhet är tillgänglig:</p> 
        <ul> 
         <li>Miljö</li> 
         <li>Kilometer</li> 
@@ -98,17 +96,17 @@ Standardutgiftstyperna i [!DNL Workfront] som inte kan tas bort eller redigeras 
         <li>Dollar</li> 
         <li>Dollar</li> 
         <li>Dag</li> 
-        <li>Annat - Om du väljer det här alternativet uppmanas du att ange namnet på din måttenhet och att definiera måttenheten som något som är bekant för din organisation.</li> 
+        <li>Annat – Om du väljer det här alternativet uppmanas du att namnge din måttenhet och definiera måttenheten som något som är bekant för din organisation.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Hastighet</td> 
-      <td> <p>Ange priset per enhet. Det här är ett valutaformaterat fält och representerar kostnaden för varje enhet som har upprättats i fältet <strong>[!UICONTROL Calculated Unit]</strong>. </p> <p>Frekvensen kan innehålla ett numeriskt värde med upp till 4 siffror efter decimaltalet. Exempel: 1.0375</p> </td> 
+      <td role="rowheader">Taxera</td> 
+      <td> <p>Ange priset per enhet. Det här är ett valutaformaterat fält och representerar kostnaden för varje enhet som anges i <strong>[!UICONTROL Calculated Unit]</strong> fältet. </p> <p>Hastigheten kan innehålla ett numeriskt värde med upp till 4 siffror efter decimaltecknet. Exempel: 1.0375</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka på **Skapa utgiftstyp** <span class="preview"> eller **[!UICONTROL Save]**.</span>
+1. Klicka på **[!UICONTROL Save]**.
 
    Utgiftstypen är nu tillgänglig så att användare kan associera den med sina utgifter för projekt och uppgifter.
 
@@ -121,8 +119,8 @@ Standardutgiftstyperna i [!DNL Workfront] som inte kan tas bort eller redigeras 
 
    Dialogrutan **[!UICONTROL Edit Expense Type]** visas.
 
-1. Gör önskade ändringar och klicka sedan på **Spara ändringar** <span class="preview"> eller **[!UICONTROL Save]**.</span>
+1. Gör önskade ändringar och klicka sedan på **[!UICONTROL Save]**.
 
-   Utgiftstypen är nu tillgänglig så att användare kan associera den med sina utgifter för projekt och uppgifter.
+   Utgiftstypen är nu tillgänglig för användare att koppla den till sina utgifter för projekt och uppgifter.
 
 Mer information om hur du använder utgifter och hur de kan påverka kostnaden för ett projekt finns i artikeln [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
