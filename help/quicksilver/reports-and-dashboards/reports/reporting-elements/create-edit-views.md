@@ -6,9 +6,9 @@ description: Du kan anpassa vilken typ av information som visas på skärmen med
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -89,31 +89,46 @@ Dialogrutan **Anpassa vy** visas.
    * Lägg till en kolumn genom att klicka på **Lägg till kolumn**, börja skriva namnet på kolumnen som du vill lägga till och klicka sedan på den när den visas i listrutan.
    * Justera den ordning som kolumnerna visas i genom att dra kolumnrubriken till en ny plats.
 
-      * (Valfritt) I området **Kolumninställningar** klickar du på listrutan **Sammanfatta den här kolumnen med** och väljer sedan ett av de tillgängliga alternativen för att sammanfatta informationen. När du väljer det här alternativet sammanställs informationen i kolumnen i rapportens grupperingar.\
-        För datumfält kan du sammanfatta värdena med följande alternativ:
+   * Klicka på **Sammanfatta den här kolumnen med** i området **Kolumninställningar** och välj hur du vill att data ska visas i kolumnen:
 
-         * Maximal
-         * Minimum
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>Datumfält</strong></td> 
+           <td><ul>
+           <li>Maximal</li>
+         <li>Minimum</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>Valutafält</strong></td> 
+           <td><ul>
+           <li>Antal</li>
+         <li>Summa</li>
+           <li>Genomsnittlig</li>
+         <li>Maximym</li>
+           <li>Minimum</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>Sträng- och booleska fält</strong></td> 
+           <td><ul><li>Antal</li></ul>
+           <p>Obs! Workfront rekommenderar vanligtvis inte att du sammanfattar ett booleskt fält utifrån antal eftersom värdet alltid är true/false.</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        För tal- och valutafält kan du sammanfatta värdena med följande alternativ:
-
-         * Antal
-         * Summa
-         * Genomsnittlig
-         * Maximal
-         * Minimum
-
-        >[!NOTE]
-        >
-        >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
-        >   
-        >   * Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
-        >   * Faktiska timmar sammanställer värdena för de huvudsakliga överordnade och de fristående aktiviteterna. De sammanställer inte siffrorna för de överordnade aktiviteternas överordnade eller underordnade aktiviteternas överordnade uppgifter.
-        >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter.
-        >   
-        >
-
-        Mer information om hur du använder grupperingar i en rapport finns i artikeln [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >[!NOTE]
+     >
+     >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du sammanfattar värden för följande fält i grupperingar:
+     >   
+     > * Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
+     > * Faktiska timmar sammanställer värdena för de huvudsakliga överordnade och de fristående aktiviteterna. De sammanställer inte siffrorna för de överordnade aktiviteternas överordnade eller underordnade aktiviteternas överordnade uppgifter.
+     > * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter.
+     >
+     >Mer information om hur du använder grupperingar i en rapport finns i artikeln [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Valfritt) Klicka på **Avancerade alternativ** för att ange följande information för kolumnen:
 

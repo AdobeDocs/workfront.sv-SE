@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Redigera flera dokument samtidigt
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan redigera beskrivningen, lägga till anpassade formulär och redigera anpassade formulär i flera dokument samtidigt.
 
@@ -97,7 +95,6 @@ Så här redigerar du flera dokument:
     </table>
 1. Klicka på **Spara**.
 
-<span class="preview">
 
 ## Redigera flera dokument samtidigt i en dokumentrapport
 
@@ -125,5 +122,3 @@ Skapa en dokumentrapport enligt beskrivningen i [Skapa en anpassad rapport](/hel
     </tr>
     </table>
 1. Klicka på **Spara**.
-
-</span>
