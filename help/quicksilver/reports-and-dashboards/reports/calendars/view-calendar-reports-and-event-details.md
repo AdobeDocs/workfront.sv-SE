@@ -6,9 +6,9 @@ description: Du kan visa kalenderrapporter och händelseinformation som du har s
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,6 @@ Du kan välja bland följande kalenderrapportvyer:
    * **[!UICONTROL Week]**: Visar en vecka i kalendern
    * **[!UICONTROL Gantt]**: Visar en kontinuerlig vy av kalendern
 
-     Kalenderrapport ![[!UICONTROL Gantt]](assets/gantt-calendar-report.png)
-
      Du kan se fler händelser i en [!UICONTROL Gantt]-vy genom att rulla nedåt eller åt sidan. En inläsningssymbol visas när data fylls i för vyn.
 
    >[!NOTE]
@@ -118,16 +116,5 @@ Du kan göra händelserna synliga igen genom att välja [!UICONTROL project] - e
 
 Du kan se information om en händelse i en kalender, både för aktuella och tidigare händelser.
 
-1. Gå till händelsen som du vill veta informationen om och klicka sedan på händelsen.
-En informationssida för händelsen öppnas.
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. (Valfritt) Om du vill visa mer information om objektet:
-
-   1. Håll muspekaren över namnet på projektet, aktiviteten eller utgåvan.
-
-      En informationssida öppnas för objektet.
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. (Valfritt) Om du vill öppna det associerade projektet, aktiviteten eller utgåvan klickar du på objektets titel.
-   1. (Valfritt) Om du vill stänga alla öppna informationssidor klickar du var som helst utanför sidan med händelseinformation.
+1. Gå till händelsen som du vill veta informationen om och klicka sedan på händelsen. Detaljerna öppnas i en panel till höger.
+1. (Valfritt) Om du vill öppna det associerade projektet, aktiviteten eller utgåvan klickar du på objektets titel.
