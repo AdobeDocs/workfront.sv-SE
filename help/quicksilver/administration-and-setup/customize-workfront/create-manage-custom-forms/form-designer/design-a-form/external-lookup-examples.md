@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan använda den externa sökningen för att hämta data från din Workfront-
 
 ### Använd inbyggda Workfront-fältvärden i den externa sökningen
 
-I det här exemplet visas hur du anropar Workfront API och hämtar data från det befintliga statusfrågefältet till det externa sökfältet.
+I det här exemplet visas hur du anropar Workfront API och fyller i en lista med projekt i ett externt sökfält, filtrerat efter status med hjälp av värdet i det anpassade fältet&quot;Statusfråga&quot; och ett sökord via $$QUERY.
 
 1. Öppna det anpassade formuläret.
 1. Leta upp **extern sökning** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
@@ -37,17 +37,17 @@ I det här exemplet visas hur du anropar Workfront API och hämtar data från de
 1. Välj **Format** för fältet.
 1. Ange API-anropet i fältet **Bas-API URL**.
 
-   * Om du vill referera till samma instans av Workfront som det anpassade formuläret finns i använder du $$HOST som URL.
-   * Om du vill filtrera resultaten baserat på en fråga i ett annat fält lägger du till $$QUERY.
+   * Använd $$HOST för att referera till samma instans av Workfront där det anpassade formuläret finns.
+   * Använd $$QUERY för att dynamiskt filtrera resultaten baserat på användarindata.
 
-   **Exempel**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **Exempel på API-anrop**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. Granska **beroendena** för fälten som det här sökfältet refererar till i API:t.
+1. Granska **beroendena** för fälten som refereras i API-anropet.
 
-   Ett beroendefält kan vara vilket anpassat eller inbyggt fält som helst som finns på objektets informationssida.
+   Ett beroendefält kan vara vilket anpassat eller inbyggt fält som helst tillgängligt för objektet. När du t.ex. skapar ett anpassat formulär för grupper som innehåller ett externt uppslagsfält, kan beroendefält innehålla alla fält som är tillgängliga för en grupp.
 
-   I det här exemplet ersätts `{DE:StatusQuery}` med värdet för det anpassade statusfrågefältet.
+   I det här exemplet ersätts `{DE:Status Query}` dynamiskt med värdet för det anpassade statusfrågefältet för den aktuella gruppen. När formuläret är kopplat till grupp A ersätts `{DE:Status Query}` med det värde som angetts i fältet&quot;Statusfråga&quot; för den gruppen.
 
 1. Välj **HTTP-metod**.
 
