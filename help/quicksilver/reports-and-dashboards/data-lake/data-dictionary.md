@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om datastrukturen och inneh�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
+source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
 workflow-type: tm+mt
-source-wordcount: '4719'
+source-wordcount: '7843'
 ht-degree: 0%
 
 ---
@@ -63,801 +63,8008 @@ Det finns ett antal datumobjekt som ger information om när specifika händelser
 
 Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnittet och API:t) med deras motsvarande namn i Data Connect.
 
+### Åtkomstnivå
+
 <table>
-  <thead>
-    <tr>
-        <th>Workfront entitetsnamn</th>
-        <th>Gränssnittsreferenser</th>
-        <th>API-referens | Etikett</th>
-        <th>Data Lake-tabeller</th>
-        <th>Relationsfält</th>
-        <th>Relationstabell och fält</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td>Åtkomstnivå</td>
-        <td>Åtkomstnivå</td>
-        <td>ACSLVL | Åtkomstnivå</td>
-        <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
-        <td>ACCESSLEVELID (self)<br>APPGLOBALID<br>LASTUPDATEDBYID<br>LEGACYACCESSLEVELID<br>OBJID<br>SYSID</td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften<br>USER_CURRENT | USERID<br>Inte en relation; används för interna programsyften<br>ID:t för objektet som identifieras i OBJCODE-fältet<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Åtkomstregel</td>
-        <td>Dela</td>
-        <td>ACSRUL | Dela</td>
-        <td>ACCESSREGLER_CURRENT<br>ACCESSREGLER_DAILY_HISTORY<br>ACCESSREGLER_EVENT</td>
-        <td>ACCESSORID <br>ACCESSRULEID (self) <br>ANCESTORID <br>LASTUPDATEDBYID <br>SECURITYOBJID <br>SYSID</td>
-        <td>ID för objektet som identifieras i ACCESSOROBJCODE-fältet<br>Self<br>ID för objektet som identifieras i ANCESTOROBJCODE-fältet<br>USERS_CURRENT | USERID<br>ID:t för objektet som identifieras i fältet SECURITYOBJCODE <br>Inte en relation, används i interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Godkännandesökväg</td>
-        <td>Godkännandesökväg</td>
-        <td>ARVPTH | Godkännande</td>
-        <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
-        <td>APPROVALPATHID (self) <br>APPROVALPROCESSID <br>ENTEREDBYID <br>GLOBALPATHID <br>LASTUPDATEDBYID <br>SYSID</td>
-        <td>Self<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Godkännandeprocess</td>
-        <td>Godkännandeprocess</td>
-        <td>ARVPRC | Godkännandeprocess</td>
-        <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
-        <td>APPROVALPROCESSID (self) <br>ENTEREDBYID <br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Godkännandesteg</td>
-        <td>Godkännandesteg</td>
-        <td>ARVSTP | Godkännandefas</td>
-        <td>APPROVALSTEPS_CURRENT<br>APPROVALSTEPS_DAILY_HISTORY<br>APPROVALSTEPS_EVENT</td>
-        <td>GODKÄNNANDEPATHID <br>APPROVALSTEPID (self) <br>SYSID</td>
-        <td>APPROVALPATHS_CURRENT | APPROVALPATHID<br>Self<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Godkännarstatus</td>
-        <td>Godkännarstatus</td>
-        <td>ARVSTS | Godkännarstatus</td>
-        <td>APPROVERSTATUSES_CURRENT<br>APPROVERSTATUSES_DAILY_HISTORY<br>APPROVERSTATUSES_EVENT</td>
-        <td>APPROVERSTATUSID (self)<br>APPROVABLEOBJID<br>APPROVALSTEPID<br>APPROVEDBYID <br>DELEGATEUSERID<br>LASTUPDATEDBYID <br>OPTASKID<br>OVERRIDDENUSERID<br>PROJECTID<br>STEPAPPROVERID<br>SYSID<br> <br>TASKIDWILDCARDUSERID</td>
-        <td>Själv<br>ID för objektet som identifieras i fältet APPROVABLEOBJCODE <br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID <br>OPTASKS_CURRENT | OPTASKID<br>USERS_CURRENT | USERID<br>PROJECTS_CURRENT | PROJECTID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Tilldelning</td>
-        <td>Tilldelning</td>
-        <td>ASSGN | Tilldelning</td>
-        <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
-        <td>ASSIGNEDBYID<br>ASSIGNEDTOID<br>ASSIGNMENTID (self)<br>CATEGORYID<br>CLASSIFIERID<br>OPTASKID<br>PRIVATERATECARDID<br>PROJECTID<br>ROLEID<br>TASKID<br>TEAMID</td>
-        <td>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>Klassificeringstabellen stöds inte för närvarande<br>OPTASK_CURRENT | OPTASKID<br>RATECARD_CURRENT | RATECARDID<br>PROJECT_CURRENT | PROJECTID<br>ROLE_CURRENT | ROLEID<br>TASK_CURRENT | TASKID<br>TEAM_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>Väntar på godkännanden</td>
-        <td>Väntar på godkännanden</td>
-        <td>AWAPVL | Väntar på godkännande</td>
-        <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
-        <td>ACCESSREQUESTID<br>APPROVABLEID <br>APPROVERID <br>AWAITINGAPPROVALID (self) <br>DOCUMENTID <br>DOCUMENTVERSIONID<br>OPTASKID <br>PROJECTID <br>ROLEID <br>SUBMITTEDBYID <br>SYSID<br>TASKSKD ID <br> TEAMID <br>TIMESHEETID<br>USERID</td>
-        <td>Åtkomstbegärandetabellen stöds inte för närvarande<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID<br>self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>DOCUMENTVERSIONS_CURRENT | DOCUMENTVERSIONID<br>OPTASKS_CURRENT | OPTASKID<br>PROJECTS_CURRENT | PROJECTID<br>ROLES_CURRENT | ROLEID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | TASKID<br>TEAMS_CURRENT | TEAMID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Baslinje</td>
-        <td>Baslinje</td>
-        <td>BLIN | Baslinje</td>
-        <td>BASELINES_CURRENT<br>BASELINES_DAILY_HISTORY<br>BASELINES_EVENT</td>
-        <td>BASELINEID (self)<br>EXCHANGERATEID <br>PROJECTID <br>SYSID</td>
-        <td>Self<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>PROJECTS_CURRENT | PROJECTID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Originalaktivitet</td>
-        <td>Originalaktivitet</td>
-        <td>BSTSK | Originalaktivitet</td>
-        <td>BASELINETASKS_CURRENT<br>BASELINETASKS_DAILY_HISTORY<br>BASELINETASKS_EVENT</td>
-        <td>BASELINEID<br>BASELINETASKID (self) <br>EXCHANGERATEID <br>PROJECTID <br>SYSID<br>TASKID</td>
-        <td>BASELINES_CURRENT | BASELINEID<br>Self<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>PROJECTS_CURRENT | PROJECTID<br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | AKTIVITET</td>
-    </tr>
-    <tr>
-        <td>Faktureringstakt</td>
-        <td>Klassificera eller åsidosätt hastighet</td>
-        <td>KURS | Faktureringstakt</td>
-        <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
-        <td>TILLDELA<br>CLASSIFIERID<br>EXCHANGERATEID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID <br>RATECARDID<br>RATEID (self)<br>ROLEID <br>SOURCERATECARDID  <br>SYSID <br>TEMPLATEID<br>USERID</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>Klassificeringstabellen stöds inte för närvarande<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>Kategoritabellen för icke-arbetsplats stöds inte för närvarande<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>ID för objektet som identifieras i OBJCODE-fältet<br>PROJECTS_CURRENT | PROJECTID <br>RATECARD_CURRENT | RATECARDID<br>Self<br>ROLES_CURRENT | ROLEID <br>RATECARD_CURRENT | RATECARDID <br>Inte en relation, används för interna programsyften <br>TEMPLATES_CURRNT | TEMPLATEID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Faktureringspost</td>
-        <td>Faktureringspost</td>
-        <td>BILL | Faktureringspost</td>
-        <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
-        <td>BILLINGRECORDID (self)<br>CATEGORYID<br>EXCHANGERATEID <br>INVOICEID <br>LASTUPDATEDBYID <br>PROJECTID <br>SYSID</td>
-        <td>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br> Fakturatabellen stöds inte för närvarande <br>USERS_CURRENT | USERID <br> PROJECTS_CURRENT | PROJECTID   <br>Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Bokning</td>
-        <td>Bokning</td>
-        <td>BOOKNG | Bokning</td>
-        <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
-        <td>BOOKINGID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOID POBJID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Icke-arbetskategoritabell stöds inte för närvarande<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>ID:t för objektet som identifieras i OBJOBJCODE-fältet<br>PROJECTS_CURRENT | PROJECTID <br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>ID för objektet som identifieras i TOPOBJCODE-fältet</td>
-    </tr>
-    <tr>
-        <td>Affärsprofil</td>
-        <td>Affärsprofil</td>
-        <td>BSNPRF | BusinessProfile</td>
-        <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
-        <td>ACCESSLEVELID<br>BUSINESSPROFILEID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>ACCESSLEVELS_CURRENT | ACCESSLEVELID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Affärsregel</td>
-        <td>Affärsregel</td>
-        <td>BSNRUL | Affärsregel</td>
-        <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
-        <td>BUSINESSRULEID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Kategori</td>
-        <td>Eget formulär</td>
-        <td>CTGY | Kategori</td>
-        <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
-        <td>CATEGORYID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Kategoriparameter</td>
-        <td>Anpassade formulärfält</td>
-        <td>CTGYPA | Kategoriparameter</td>
-        <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
-        <td>CATEGORIESPARAMETERID (self)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID<br>SYSID</td>
-        <td>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>Parameter Group-tabellen stöds inte just nu<br>PARAMETERS_CURRENT | PARAMETERID    <br> Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Klassificerare</td>
-        <td>Plats</td>
-        <td>CLSF | Plats</td>
-        <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
-        <td>CLASSIFIERID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>PARENTID<br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Företag</td>
-        <td>Företag</td>
-        <td>CMPY | Företag</td>
-        <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
-        <td>CATEGORYID<br>COMPANYID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>PRIVATERATECARDID<br>SYSID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID <br> GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID <br> RATECARD_CURRENT | RATECARDID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Anpassat kvartal</td>
-        <td>Anpassat kvartal</td>
-        <td>CSTQRT | Anpassat kvartal</td>
-        <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
-        <td>ANPASSAD KARTERID (self) <br>SYSID</td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>CustomEnum</td>
-        <td>Villkor, Prioritet, Allvarlighetsgrad, Status</td>
-        <td>CSTEM | Anpassad uppräkning</td>
-        <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT<br>* Posttypen identifieras med egenskapen enumClass. Följande typer förväntas:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TAUS SK</td>
-        <td>ENTEREDBYID<br>GRUPPID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID</td>
-    </tr>
-    <tr>
-        <td>Dokument</td>
-        <td>Dokument</td>
-        <td>DOCU | Dokument</td>
-        <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
-        <td>CATEGORYID<br>CHECKEDOUTBYID<br>DOCUMENTID<br>DOCUMENTREQUESTID<br>EXCHANGERATEID<br>ITERATIONID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNEUID RID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>RELEASEVERSIONID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID<br>USERID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>Self<br>Tabellen för dokumentbegäran stöds inte just nu<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>Variabel beroende på DOCOBJCODE-värde<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>PORTFOLIO_CURRENT | PORTFOLIOID <br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>Versionsversionstabellen stöds inte för närvarande<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>Variabel beroende på TOPOBJCODE-värdet<br>USER_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Godkännande av dokument</td>
-        <td>Godkännande av dokument</td>
-        <td>DOCAPL | Godkännande av dokument</td>
-        <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
-        <td>APPROVERID<br>DOCAPPROVALID (self)<br>DOCUMENTID<br>NOTEID<br>REQUESTORID<br>SYSID</td>
-        <td>USERS_CURRENT | USERID <br>Self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID <br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Dokumentmapp</td>
-        <td>Dokumentmapp</td>
-        <td>DOCFLD | DocsFolders</td>
-        <td>DOCFOLDERS_CURRENT<br>DOCFOLDERS_DAILY_HISTORY<br>DOCFOLDERS_EVENT</td>
-        <td>DOCFOLDERID (self)<br>ENTEREDBYID<br>ISSUEID<br>ITERATIONID    <br>LINKEDFOLDERID<br>PARENTID<br>PORTFOLIOID <br> PROGRAMID    <br>PROJECTID<br>SYSID<br>TASKID     <br>TEMPLATEID<br>TEMPLATETASKID<br>USERID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>OPTASKS_CURRENT | OPTASKID<br>ITERATIONS_CURRENT | ITERATIONID<br>LINKEDFOLDERS_CURRENT | LINKEDFOLDERID<br>DOCFOLDERS_CURRENT | DOCFOLDERID<br>PORTFOLIO_CURRENT | PORTFOLIOID <br>PROGRAM_CURRENT | PROGRAMID    <br> PROJECTS_CURRENT | PROJECTID <br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | AKTIVITET     <br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>DokumentAngeMetadata</td>
-        <td>Dokumentets metadata</td>
-        <td>DOCMET | DocumentProviderMetadata</td>
-        <td>DOCPROVIDERMETA_CURRENT<br>DOCPROVIDERMETA_DAILY_HISTORY<br>DOCPROVIDERMETA_EVENT</td>
-        <td>DOCPROVIDERMETAID (self) <br>SYSID</td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>DocumentProvider</td>
-        <td>Dokumentleverantör</td>
-        <td>DOCPRO | Dokumentleverantör</td>
-        <td>DOCPROVIDERS_CURRENT<br>DOCPROVIDERS_DAILY_HISTORY<br>DOCPROVIDERS_EVENT</td>
-        <td>DOCPROVIDERCONFIGID<br>DOCPROVIDERID (self)<br>OWNERID    <br>SYSID</td>
-        <td>DOCPROVIDERCONFIG_CURRENT | DOCPROVIDERCONFIGID<br>Self<br>USERS_CURRENT | USERID    <br> Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Dokumentproviderkonfiguration</td>
-        <td>Dokumentproviderkonfiguration</td>
-        <td>DOCCFG | Dokumentproviderkonfiguration</td>
-        <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
-        <td>DOCPROVIDERCONFIGID (self)<br>SYSID</td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>DocumentVersion</td>
-        <td>Dokumentversion</td>
-        <td>DOCV | Dokumentversion</td>
-        <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
-        <td>DOCUMENTID<br>DOCUMENTPROVIDERID<br>DOCUMENTVERSIONID<br>ENTEREDBYID<br>EXTERNALSTORAGEID<br>PROOFAPPROVALSTATUSID<br>PROOFEDBYUSERID<br>PROOFID<br>PROOFOWNERID<br>PROOFSTAGRIDPROOTAGD EID</td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>DOCPROVIDERS_CURRENT | DOCUMENTPROVIDERID<br>self<br>USER_CURRENT | USERID<br>Externt ID<br>Statustabellen för korrektur av godkännande stöds inte för närvarande<br>USER_CURRENT | USERID<br>Korrekturtabell stöds inte för närvarande<br>USER_CURRENT | USERID<br>Korrektur för scentabell stöds inte för närvarande</td>
-    </tr>
-    <tr>
-        <td>Växelkurs</td>
-        <td>Växelkurs</td>
-        <td>EXRATERA | Växelkurs</td>
-        <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
-        <td>EXCHANGERATEID (self)<br>PROJECTID<br>SYSID <br>TEMPLATEID  </td>
-        <td>Self<br>PROJECTS_CURRENT | PROJECTID <br>Inte en relation; används för interna programsyften <br>TEMPLATES_CURRENT | TEMPLATEID  </td>
-    </tr>
-    <tr>
-        <td>Utgift</td>
-        <td>Utgift</td>
-        <td>EXPNS | Utgift</td>
-        <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
-        <td>BILLINGRECORDID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID <br>EXPENSEID (self) <br>EXPENSETYPEID <br>LASTUPDATEDBYID <br>OBJID <br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATETETETETETE ID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br> Self <br> EXPENSETYPES_CURRENT | EXPENSETYPEID <br>USERS_CURRENT | USERID <br> ID för objektet som identifieras i OBJCODE-fältet <br> PROJECTS_CURRENT | PROJECTID <br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>ID för objektet som identifieras i TOPOBJCODE-fältet</td>
-    </tr>
-    <tr>
-        <td>Utgiftstyp</td>
-        <td>Utgiftstyp</td>
-        <td>EXPTYP | Utgiftstyp</td>
-        <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
-        <td>APPGLOBALID<br>EXPENSETYPEID (self)<br>OBJID <br>SYSID  </td>
-        <td>Inte en relation; används för interna programsyften<br>Self<br>ID för objektet som identifieras i OBJCODE-fältet <br>Inte en relation; används för interna programsyften  </td>
-    </tr>
-    <tr>
-        <td>Grupp</td>
-        <td>Grupp</td>
-        <td>GRUPP | Grupp</td>
-        <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
-        <td>BUSINESSLEADERID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LAYOUTTEMPLATEID<br>PARENTID<br>ROOTID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>Self<br>Layoutmallstabellen stöds inte<br>GROUP_CURRENT | GROUPID<br>GROUP_CURRENT | GROUPID<br>UITEMPLATES_CURRENT | UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Timme</td>
-        <td>Timme</td>
-        <td>TIMME | Timme</td>
-        <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
-        <td>APPROVEDBYID<br>BILLINGRECORDID<br>CATEGORYID<br>CLASSIFIERID<br>DUPID<br>EXCHANGERATEID<br>EXTERNALTIMESHEETID<br>HOURID<br>HOURTYPEID<br>LASTUPDATEDBYID<br>OPTASKIDID<br>IDID 10}OWNERID<br>PROJECTID<br>PROJECTOVERHEADID<br>ROLEID<br>TASKID<br>TIMESHEETID</td>
-        <td>USER_CURRENT | USERID<br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | CATEGORYID<br>Klassificeringstabellen stöds inte för närvarande<br>Inte en relation; används för interna programsyften<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>Inte en Workfront-relation; används för integrering med externa system<br>Self<br>HOURTYPE_CURRENT | HOURTYPEID<br>USER_CURRENT | USERID<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>PROJECT_CURRENT | PROJECTID<br>Inte en relation, används för interna programsyften <br>ROLE_CURRENT | ROLEID<br>TASK_CURRENT | TASKID<br>TIMESHEET_CURRENT | TIDSPEL</td>
-    </tr>
-    <tr>
-        <td>Timtyp</td>
-        <td>Timtyp</td>
-        <td>TID | Timtyp</td>
-        <td>HOURTYPES_CURRENT</td>
-        <td>APPGLOBALID<br>HOURTYPEID<br>OBJID</td>
-        <td>Inte en relation; används för interna programsyften<br>Själf<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Upprepning</td>
-        <td>Upprepning</td>
-        <td>ITRN | Upprepning</td>
-        <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>ITERATIONID (self)<br>LASTUPDATEDBYID<br>OWNERID<br>SYSID<br>TEAMID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID <br>self<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>Inte en relation; används för interna programsyften<br>TEAMS_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>Journalpost</td>
-        <td>Journalpost</td>
-        <td>JRNLE | Journalpost</td>
-        <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
-        <td>APPROVERSTATUSID<br>ASSIGNMENTID<br>AUDITRECORDID<br>BASELINEID <br>BILLINGRECORDID<br>COMPANYID <br>DOCUMENTID <br>DOCUMENTSHAREID <br>EDITEDBYID<br>EXPENSEID<br>HOURID<br> INITIATIVEID<br>JOURNALENTRIEID (self)<br>OBJID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>SUBOBJID<br>SUBSCRIBEID<br>SYSID<br>TA. SKID<br>TEMPLATEID<br>TIMESHEETID<br>TOPOBJID<br>USERID</td>
-        <td>APPROVERSTATUSES_CURRENT | APPROVERSTATUSID<br>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>Register för granskningspost stöds inte just nu<br>BASELINES_CURRENT | BASELINEID <br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENTS_CURRENT | DOCUMENTID <br> Dokumentdelningstabellen stöds inte för närvarande <br>USERS_CURRENT | USERID<br>EXPENSES_CURRENT | UTGITAD<br>HOURS_CURRENT | HOURID<br>Initiative table not supported current<br>Self<br>The ID of the object identify in the OBJCODE field<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID <br>ID:t för objektet som identifieras i SUBOBJCODE-fältet<br>Prenumerationstabellen stöds inte för närvarande<br>Inte en relation, används för interna programsyften<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>ID:t för objektet som identifieras i TOPOBJCODE-fältet<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>LinkedFolder</td>
-        <td>LinkedFolder</td>
-        <td>LNKFDR | LinkedFolder</td>
-        <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
-        <td>DOCUMENTPROVIDERID<br>EXTERNALSTORAGEID<br>FOLDERID<br>LINKEDBYID<br>LINKEDFOLDERID (self)<br>SYSID</td>
-        <td>DOCPROVIDERS_CURRENT | DOCPROVIDERID<br>Externt ID<br>DOCFOLDERS_CURRENT | DOCFOLDERID<br>USERS_CURRENT | USERID <br>Self<br>Not a relationship; used for internal application purposes  </td>
-    </tr>
-    <tr>
-        <td>Milstolpe</td>
-        <td>Milstolpe</td>
-        <td>MILE | Milstolpe</td>
-        <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
-        <td>LASTUPDATEDBYID<br>MILESTONEID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT | USERID<br>Self<br>MILESTONEPATH_CURRENT | MILESTONEID</td>
-    </tr>
-    <tr>
-        <td>MilstolpePath</td>
-        <td>Sökväg för milstolpe</td>
-        <td>MPATH | Sökväg för milstolpe</td>
-        <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
-        <td>ENTEREDBYID<br>LASTUPDATEDBYID<br>MILESTONEPATHID</td>
-        <td>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>NonLaborResource</td>
-        <td>Icke-arbetsrelaterad resurs</td>
-        <td>NLBR | Icke-arbetsrelaterad resurs</td>
-        <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
-        <td>CATEGORYID<br>NONLABORRESOURCEID (self)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Resurskategoritabellen för icke-arbetsplats stöds inte för närvarande<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Resurskategori för icke-arbetsplats</td>
-        <td>Resurskategori för icke-arbetsplats</td>
-        <td>NLBRY | Resurskategori utanför arbetsplats</td>
-        <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID (self)<br>PRIVATERATECARDID<br>SCHEDULEID<br>SYSID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Self<br>RATECARD_CURRENT | RATECARDID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Ledig dag</td>
-        <td>Schemaundantag</td>
-        <td>NONWKD | Ledig arbetsdag</td>
-        <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
-        <td>NONWORKDAYID (self)<br>OBJID <br>SCHEDULEID <br>SYSID <br>USERID  </td>
-        <td>Själv<br>ID för objektet som identifieras i OBJCODE-fältet <br>SCHEDULES_CURRENT | SCHEDULEID <br>Inte en relation; används för interna programsyften <br>USERS_CURRENT | USERID  </td>
-    </tr>
-    <tr>
-        <td>Anteckning</td>
-        <td>Anteckning</td>
-        <td>ANMÄRKNING | Anteckning</td>
-        <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
-        <td>ATTACHDOCUMENTID<br>ATTACHOBJID<br>ATTACHOPTASKID<br>ATTACHWORKID<br>ATTACHWORKUSERID<br>AUDITRECORDID<br>COMPANYID<br>DOCUMENTID<br>EXTERNALSERVICEID<br>ITERATIONID<br>NOTEID{NOTEID 10}OBJID<br>OPTASKID<br>OWNERID<br>PARENTENDORSEMENTID<br>PARENTJOURNALENTRYID<br>PARENTNOTEID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>PROJECTID OFACTIONID<br>PROOFID<br>RICHTEXTNOTEID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TREADID<br>TIMESHEETID<br>TOPOBJID<br>USERID<br></td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>Variabel beroende på ATTACHOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>WORKITEMS_CURRENT<br>USER_CURRENT | USERID<br>Registret Granskningspost stöds inte för närvarande<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENT_CURRENT | DOCUMENTID<br>Inte en Workfront-relation; används för integration med externa system<br>ITERATIONS_CURRENT | ITERATIONID<br>Self<br>Variabel beroende på NOTEOBJCODE<br>OPTASK_CURRENT | OPTASKID <br>USER_CURRENT | USERID<br>Bekräftelsetabellen stöds inte för närvarande<br>JOURNALENTRIES_CURRENT | JOURNALENTRYID<br>NOTE_CURRENT | NOTEID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAM_CURRENT | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>Korrekturåtgärdstabellen stöds inte för närvarande<br>Korrekturtabellen stöds inte för närvarande<br>RESERVEDTEXTNOTES_CURRENT | RICHTEXTNOTEID<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>NOTE_CURRENT | NOTEID<br>TIMESHEET_CURRENT | TIMESHEETID<br>Variabel beroende på TOPOBJCODE<br>USER_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Objektintegrering</td>
-        <td>Objektintegrering</td>
-        <td>OBJEKT | ObjectIntegration</td>
-        <td>OBJECTINTEGRATION_CURRENT<br>OBJECTINTEGRATION_DAILY_HISTORY<br>OBJECTINTEGRATION_EVENT</td>
-        <td>LINKEDOBJECTID<br>OBJECTINTEGRATIONID   (self)<br>OBJID <br>SYSID  </td>
-        <td>ID:t för objektet som identifieras i fältet LINKEDOBJECTCODE <br>Self<br>ID:t för objektet som identifieras i fältet OBJCODE <br>Inte en relation, används i interna programsyften  </td>
-    </tr>
-    <tr>
-        <td>Objektkategori</td>
-        <td>Objektkategorier</td>
-        <td>OBJCAT | Objektkategori</td>
-        <td>OBJECTSCATEGORIES_CURRENT<br>OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
-        <td>CATEGORYID<br>OBJECTSCATEGORYID (self)<br>OBJID <br>SYSID  </td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>ID:t för objektet som identifieras i OBJCODE-fältet <br>Inte en relation; används för interna programsyften  </td>
-    </tr>
-    <tr>
-        <td>OpTask</td>
-        <td>Problem, begäran</td>
-        <td>OPTASK | Problem</td>
-        <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>CATEGORYID<br>CURRENTAPPROVALSTEPID<br>ENTEREDBYID<br>EXCHANGERATEID<br>ITERATIONID<br>KANBANBOARDID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDUD ATEDBYID<br>OPTASKID<br>OWNERID<br>PROJECTID<br>QUEUEDEFID<br>QUEUETOPICID<br>RESOLVEOPTASKID<br>RESOLVEPROJECTID<br>RESOLVETASKID<br>RESOLVINGOB. JID<br>ROLEID<br>SOURCEOBJID<br>SOURCETASKID<br>SUBMITTEDBYID<br>TEAMID</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USER_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USER_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>Kanban Board-tabellen stöds inte just nu<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>USER_CURRENT | USERID<br>PROJECT_CURRENT | PROJECTID<br>Tabellen Ködefinition stöds inte för närvarande<br>Tabellen Köämne stöds inte för närvarande<br>OPTASK_CURRENT | OPTASKID<br>PROJECT_CURRENT | PROJECTID<br>TASK_CURRENT | TASKID<br>Variabel beroende på RESOLVINGOBJCODE<br>ROLE_CURRENT | ROLEID<br>Variabel beroende på SOURCEOBJCODE<br>TASK_CURRENT | TASKID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID</td>
-    </tr>
-    <tr>
-        <td>Parameter</td>
-        <td>Anpassat fält</td>
-        <td>PARAM | Parameter</td>
-        <td>PARAMETERS_CURRENT<br>PARAMETERS_DAILY_HISTORY<br>PARAMETERS_EVENT</td>
-        <td>LASTUPDATEDBYID<br>PARAMETERFILTERID<br>PARAMETERID (self)<br>SYSID  </td>
-        <td>USERS_CURRENT | USERID<br>Parameter Filter-tabellen stöds inte för närvarande<br>Self<br>Inte en relation; används för interna programsyften  </td>
-    </tr>
-    <tr>
-        <td>Parameteralternativ</td>
-        <td>Parameteralternativ</td>
-        <td>POPT | Parameteralternativ</td>
-        <td>PARAMETEROPTIONS_CURRENT<br>PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
-        <td>PARAMETERID<br>PARAMETEROPTIONID (self) <br>SYSID  </td>
-        <td>PARAMETERS_CURRENT | PARAMETERID <br>Egen <br>Inte en relation; används för interna programsyften  </td>
-    </tr>
-    <tr>
-        <td>Portalavsnitt</td>
-        <td>Rapport</td>
-        <td>PTLSEC | Rapport</td>
-        <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID<br>FILTERID<br>GROUPBYID<br>LASTUPDATEDBYID<br>LASTVIEWEDBYID<br>OBJID<br>PORTALSECTIONID (self)<br>PREFERENCEID<br>PUBLICRUNASUSERID<br>REPORTFOLDERID <br>RUNASUSERID<br>SCHEDULEDREPORTID<br>SYSID<br>VISA</td>
-        <td>Inte en relation; används för interna programsyften <br>USERS_CURRENT | USERID <br> UIFILTERS_CURRENT | FILTERID<br>UIGROUPBYS_CURRENT | GROUPBYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>ID:t för objektet som identifieras i fältet OBJOBJCODE <br>Self<br>PREFERENCES_CURRENT | PREFERENCEID<br>USERS_CURRENT | USERID <br>REPORTFOLDERS_CURRENT | RAPPORTFOLDERID<br>USERS_CURRENT | USERID  <br>Schemalagd rapporttabell stöds inte för närvarande<br>Inte en relation, används för interna programsyften <br>UIVIEWS_CURRENT | VISA</td>
-    </tr>
-    <tr>
-        <td>Portal Tab</td>
-        <td>Kontrollpanel</td>
-        <td>PTLTAB | Kontrollpanel</td>
-        <td>PORTALTABS_CURRENT<br>PORTALTABS_DAILY_HISTORY<br>PORTALTABS_EVENT</td>
-        <td>DOCID<br>LASTUPDATEDBYID<br>PORTALPROFILEID<br>PORTALTABID (self)<br>SYSID<br>USERID</td>
-        <td>Inte en relation; används för interna programsyften <br>USERS_CURRENT | USERID <br>Portal Profile table will not supported <br>Self<br>Not a relationship; used for internal application purposes <br>USERS_CURRENT | USERID  </td>
-    </tr>
-    <tr>
-        <td>Portal Tab Section</td>
-        <td>Instrumentpanelsavsnitt</td>
-        <td>PRTBSC | Portal Tab Section</td>
-        <td>PORTALTABSPORTALSECTIONS_CURRENT<br>PORTALTABSPORTALSECTIONS_DAILY_HISTORY<br>PORTALTABSPORTALSECTIONS_EVENT</td>
-        <td>CALENDARPORTALSECTIONID<br>EXTERNALSECTIONID<br>INTERNALSECTIONID <br>PORTALSECTIONOBJID <br>PORTALTABID<br>PORTALTABID SECTIONID (self)<br>SYSID</td>
-        <td>Kalenderportalavsnittet stöds inte för närvarande<br>Den externa avsnittstabellen stöds inte för närvarande<br>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br> ID:t för objektet som identifieras i fältet PORTALSECTIONOBJCODE <br>PORTALTABS_CURRENT | PORTALTABID<br>Self<br>Not a relationship; used for internal application purposes</td>
-    </tr>
-    <tr>
-        <td>PortalSectionLastViewer</td>
-        <td>Rapportera senaste visningsprogram</td>
-        <td>PLSLSV | PortalSectionLastViewer</td>
-        <td>REPORTLASTVIEWERS_CURRENT<br>REPORTLASTVIEWERS_DAILY_HISTORY<br>REPORTLASTVIEWERS_EVENT</td>
-        <td>RAPPORTERA<br>RAPPORTLASTVIEWERID (self)<br>SYSID<br>VIEWERID</td>
-        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID <br>REPORTLASTVIEWERID (self)<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID  </td>
-    </tr>
-    <tr>
-        <td>Portfolio</td>
-        <td>Portfolio</td>
-        <td>PORT | Portfolio</td>
-        <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
-        <td>ALIGNMENTSCORECARDID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID</td>
-        <td>Styrkortstabellen stöds inte för närvarande<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Inställningar</td>
-        <td>Visa, Filtrera, Gruppera, Rapportdefinition</td>
-        <td>PROSET | Inställningar</td>
-        <td>PREFERENCES_CURRENT<br>PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
-        <td>APPGLOBALID<br>PREFERENCEID (self) <br>SYSID  </td>
-        <td>Inte en relation; används för interna programsyften<br>Själv <br>Inte en relation; används för interna programsyften  </td>
-    </tr>
-    <tr>
-        <td>Program</td>
-        <td>Program</td>
-        <td>PRGM | Program</td>
-        <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Projekt</td>
-        <td>Projekt</td>
-        <td>PROJ | Projekt</td>
-        <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
-        <td>AEMNATIVEFOLDERTREESREFID<br>ALIGNMENTSCORECARDID<br>APPROVALPROCESSID<br>ATTACHEDRATECARDID<br>CATEGORYID<br>COMPANYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIGINATORID<br>CURRENTAPPROVALSTEPID<br>DELIVERABLESCORECARDID<br>ENTEREDBYID<br>GROUPID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEPATHID<br>OWNERID<br> POPACCOUNTID<br>PORTFOLIOID<br>PRIVATERATECARDID<br>PROGRAMID<br>PROJECTID<br>QUEUEDEFID<br>REJECTIONISSUEID<br>RESOURCEPOOLID<br>SCHEDULEID<br>SPONSORID<br> 26}SUBMITTEDBYID<br>TEAMID<br>TEMPLATEID</td>
-        <td>Inte en Workfront-relation; används för integrering med externa system<br>Styrkortstabellen stöds inte för närvarande<br>APPROPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>Styrkortstabell stöds inte för närvarande<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONEPATH_CURRENT | MILESTONEPATHID<br>USER_CURRENT | USERID<br>Pop Account table not supported current<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>Self<br>Ködefinitionstabellen stöds inte för närvarande<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | SCHEDULEID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID<br>TEMPLATES_CURRENT | TEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Projektteamanvändare</td>
-        <td>Projektteamanvändare</td>
-        <td>PRTU | Projektanvändare</td>
-        <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
-        <td>PROJECTID<br>PROJECTSUSERID (self)<br>SYSID<br>TMPUSERID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>Not a relationship; used for internal application purpose<br>TEMPLATES_CURRENT | TEMPLATEID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Användarroll för projektteam</td>
-        <td>Användarroll för projektteam</td>
-        <td>PTEAM | ProjektAnvändarroll</td>
-        <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
-        <td>PROJECTID<br>PROJECTSUSERSROLEID (self)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>RateCard</td>
-        <td>Hastighetskort</td>
-        <td>RTCRD |Betygskort</td>
-        <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
-        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID <br>RATECARDID (self) <br>SECURITYROOTID <br>SOURCEID<br>SYSID</td>
-        <td>CATEGORYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID    <br>Själv<br>ID:t för objektet som identifieras i fältet SECURITYOBJCODE <br>ID:t för objektet som identifieras i fältet SOURCEOBJCODE<br>Inte en relation; används i interna programsyften  </td>
-    </tr>
-    <tr>
-        <td>Rapportmapp</td>
-        <td>Rapportmapp</td>
-        <td>RPTFDR | Rapportmapp</td>
-        <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
-        <td>RAPPORTFOLDERID (self)<br>SYSID</td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Rapportvy - statistikantal</td>
-        <td>Rapportvy - statistikantal</td>
-        <td>PLSVST | PortalSectionStatisticInfo</td>
-        <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
-        <td>RAPPORTERA<br>RAPPORTVIEWSTATISTICCOUNTID (self)<br>SYSID</td>
-        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID<br>Self<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Rapporteringsskyldiga budgeterade timmar</td>
-        <td>Rapporteringsskyldiga budgeterade timmar</td>
-        <td>RPBGHR | Budgeterad timme</td>
-        <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
-        <td>PROJECTID<br>REPORTABLEBUDGETEDHOURID (self)<br>ROLEID<br>SYSID<br>USERID</td>
-        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Reserverad tid</td>
-        <td>(Personligt) Tid av</td>
-        <td>RESVT | Tid av</td>
-        <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
-        <td>RESERVEDTIMEID (self)<br>SYSID<br>TASKID<br>USERID</td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Resurshanteraren</td>
-        <td>Resurshanteraren</td>
-        <td>RESMGR | Resurshanteraren</td>
-        <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
-        <td>ID (self)<br>PROJECTID<br>RESOURCEMANAGERID<br>SYSID<br>TEMPLATEID</td>
-        <td>Self<br>PROJECTS_CURRENT | PROJECTID<br>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften<br>TEMPLATES_CURRENT | TEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Resurspool</td>
-        <td>Resurspool</td>
-        <td>RSPL | Resurspool</td>
-        <td>RSRCPOOLS_CURRENT<br>RSRCPOOLS_DAILY_HISTORY<br>RSRCPOOLS_EVENT</td>
-        <td>ENTEREDBYID<br>LASTUPDATEDBYID <br>RESOURCEPOOLID (self)<br>SYSID  </td>
-        <td>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br>Self<br>Not a relationship; used for internal application purposes  </td>
-    </tr>
-    <tr>
-        <td>RTF-anteckning</td>
-        <td>RTF-anteckning</td>
-        <td>RHNOTE | RTF-anteckning</td>
-        <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
-        <td>RICHTEXTNOTEID (self)<br>SYSID</td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Parametervärde för RTF</td>
-        <td>Parametervärde för RTF</td>
-        <td>RCHVAL | RichTextParameterValue</td>
-        <td>RICHTEXTPARAMETERVALUES_CURRENT<br>RICHTEXTPARAMETERVALUES_DAILY_HISTORY<br>RICHTEXTPARAMETERVALUES_EVENT</td>
-        <td>PARAMETERVALUEID<br>RICHTEXTPARAMETERVALUID (self) <br>SYSID  </td>
-        <td>Parametervärdestabellen stöds inte för närvarande<br>Själf <br>Inte en relation; används för interna programsyften  </td>
-    </tr>
-    <tr>
-        <td>risk</td>
-        <td>risk</td>
-        <td>RISK | risk</td>
-        <td>RISKS_CURRENT<br>RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
-        <td>ENTEREDBYID<br>EXCHANGERATEID<br>LASTUPDATEDBYID <br>PROJECTID <br>RISKID (self)<br>RISKTYPEID<br>SYSID<br>TEMPLATEID</td>
-        <td>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>USERS_CURRENT | USERID <br> PROJECTS_CURRENT | PROJECTID   <br> Self<br> RISKTYPES_CURRENT | RISKTYPEID<br>Inte en relation; används för interna programsyften<br>TEMPLATES_CURRENT | TEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Risktyp</td>
-        <td>Risktyp</td>
-        <td>RSKTYP | Risktyp</td>
-        <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
-        <td>RISKTYPEID<br>SYSID</td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Roll</td>
-        <td>Jobbroll</td>
-        <td>ROLE | Jobbroll</td>
-        <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
-        <td>ENTEREDBYID<br>LAYOUTTEMPLATEID<br>PRIVATERATECARDID<br>ROLEID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>Layoutmallstabellen stöds inte<br>RATECARD_CURRENT | RATECARDID<br>Self<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Schema</td>
-        <td>Schema</td>
-        <td>SCHED | Schema</td>
-        <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID<br>HOMEGROUPID<br>SCHEDULEID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>GROUP_CURRENT | GROUPID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Steggodkännare</td>
-        <td>Steggodkännare</td>
-        <td>SPAPVR | Scengodkännare</td>
-        <td>STEPAPPROVERS_CURRENT<br>STEPAPPROVERS_DAILY_HISTORY<br>STEPAPPROVERS_EVENT</td>
-        <td>APPROVALSTEPID<br>ROLEID<br>STEPAPPROVERID (self)<br>SYSID <br>TEAMID<br>USERID</td>
-        <td>APPROVALSTEPS_CURRENT | GODKÄNN<br>ROLES_CURRENT | ROLEID<br>Self<br>Not a relationship; used for internal application purpose <br>TEAMS_CURRENT | TEAMID<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Uppgift</td>
-        <td>Uppgift</td>
-        <td>UPPGIFT | Uppgift</td>
-        <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>BILLINGRECORDID<br>CATEGORYID<br>CONVERTEDOPTASKID<br>CONVERTEDOPTASKORIGINATORID<br>CURRENTAPPROVALSTEPID<br>ENTEREDBYID<br>EXCHANGERATEID<br>GROUPUPID ID<br>ITERATIONID<br>KANBANBOARDID<br>LASTCONDITIONNOTEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEID<br>PARENTID<br>PROJECTID<br>RECURRENCERULEID<br> 18}REJECTIONISSUEID<br>RESERVEDTIMEID<br>ROLEID<br>SUBMITTEDBYID<br>TASKID<br>TEAMID<br>TEMPLATETASKID</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USER_CURRENT | USERID<br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>CATEGORIES_CURRENT | CATEGORYID<br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>USER_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>GROUP_CURRENT | GROUPID<br>ITERATIONS_CURRENT | ITERATIONID<br>Tabellen för kanban-tavlan stöds inte för närvarande<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONE_CURRENT | MILESTONEID<br>TASK_CURRENT | TASKID<br>PROJECT_CURRENT | PROJECTID<br>Upprepningsregeltabellen stöds inte för närvarande<br>OPTASK_CURRENT | OPTASKID<br>RESERVEDTIMES_CURRENT | RESERVEDTIMEID<br>ROLE_CURRENT | ROLEID<br>USER_CURRENT | USERID<br>Self<br>TEAM_CURRENT | TEAMID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID</td>
-    </tr>
-    <tr>
-        <td>Aktivitetsföregångare</td>
-        <td>Föregående</td>
-        <td>PRED | Föregående</td>
-        <td>PREDECESSORS_CURRENT<br>PREDECESSORS_DAILY_HISTORY<br>PREDECESSORS_EVENT</td>
-        <td>ID (self)<br>PREDECESSORID<br>SUCCESSORID <br>SYSID</td>
-        <td>Egendom<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID <br>Inte en relation; används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Team</td>
-        <td>Team</td>
-        <td>TEAMOB | Team</td>
-        <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID<br>LAYOUTTEMPLATEID<br>MYWORKVIEWID<br>OWNERID<br>REQUESTSVIEWID<br>SCHEDULEID<br>TEAMID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>Layoutmallstabellen stöds inte<br>UIVIEWS_CURRENT | UIVIEWID<br>USER_CURRENT | USERID<br>UIVIEWS_CURRENT | UIVIEWID<br>SCHEDULE_CURRENT | SCHEDULEID<br>Self<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
-    </tr>
-    <tr>
-        <td>Teammedlem</td>
-        <td>Andra team, teammedlem</td>
-        <td>TEAMMB | Teammedlem</td>
-        <td>TEAMMEMBERS_CURRENT<br>TEAMMEMBERS_DAILY_HISTORY<br>TEAMMEMBERS_EVENT</td>
-        <td>SYSID <br>TEAMID<br>TEAMMEMBERID (self)<br>USERID</td>
-        <td>Inte en relation; används för interna programsyften <br>TEAMS_CURRENT | TEAMID<br>Self<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>TeamMemberRole</td>
-        <td>Teammedlemsroll</td>
-        <td>TEAMMR | Teammedlemsroll</td>
-        <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
-        <td>ROLEID <br>TEAMID<br>TEAMMEMBERROLEID (self)<br>USERID</td>
-        <td>ROLES_CURRENT | ROLEID <br>TEAMS_CURRENT | TEAMID<br>Self<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Mall</td>
-        <td>Mall</td>
-        <td>TMPL | Mall</td>
-        <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
-        <td>APPROVALPROCESSID<br>CATEGORYID<br>COMPANYID <br>DELIVERABLESCORECARDID <br>ENTEREDBYID<br>GROUPID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEPATHID <br>OWNERID <br>PRIVATERATECARARID DID<br>PROGRAMID<br>QUEUEDEFID<br>SCHEDULEID <br>SYSID <br>TEAMID<br>TEMPLATEID (self)</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID   <br>DELIVERABLESCORECARDID <br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID<br>MILESTONEPATH_CURRENT | MILESTONEPATHID <br>USERS_CURRENT | USERID <br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>Ködefinitionstabellen stöds inte för närvarande<br>SCHEDULES_CURRENT | SCHEDULEID <br>Inte en relation, används för interna programsyften <br>TEAMS_CURRENT | TEAMID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Malltilldelning</td>
-        <td>Malltilldelning</td>
-        <td>TASSGN | Malltilldelning</td>
-        <td>TEMPLATEASSIGNMENTS_CURRENT<br>TEMPLATEASSIGNMENTS_DAILY_HISTORY<br>TEMPLATEASSIGNMENTS_EVENT</td>
-        <td>ASSIGNEDTOID<br>CATEGORYID<br>LASTUPDATEDBYID<br>OBJID<br>ROLEID<br>SYSID<br>TEAMID<br>TEAMTIMELINEABLEID<br>TEMPLATEASSIGNMENTID (self)<br>TEMPLATETASKID</td>
-        <td>USERS_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>ID:t för objektet som identifieras i OBJCODE-fältet<br>ROLES_CURRENT | ROLEID<br>Inte en relation; används för interna programsyften<br>TEAMS_CURRENT | TEAMID<br>Tidslinjerbar tabell för team stöds inte för närvarande<br>Self<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID</td>
-    </tr>
-    <tr>
-        <td>Malluppgift</td>
-        <td>Malluppgift</td>
-        <td>TTSK | Malluppgift</td>
-        <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
-        <td>APPROVALPROCESSID<br>ASSIGNEDTOID<br>CATEGORYID<br>ENTEREDBYID<br>EXCHANGERATEID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>MILESTONEID<br>PARENTID<br>RECURRENCERULEID<br>ROLEID<br>SYSID<br>TEAMID<br>TEAMTIMELINEABLEID<br>TEMPLATEID<br>TEMPLATETASKID (self)</td>
-        <td>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>USERS_CURRENT | USERID<br>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID<br>MILESTONE_CURRENT | MILESTONEID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>Upprepningsregeltabellen stöds inte just nu<br>ROLES_CURRENT | ROLEID<br>Inte en relation; används för interna programsyften<br>TEAMS_CURRENT | TEAMID<br>Tidslinjerbar tabell för team stöds inte för närvarande<br>TEMPLATES_CURRENT | TEMPLATEID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Föregångare för mallaktivitet</td>
-        <td>Mallföregångare</td>
-        <td>TPRED | Föregående</td>
-        <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
-        <td>PREDECESSORID<br>SLUTFÖRSORID <br>TEMPLATEPREDECESSORID (self)<br>SYSID</td>
-        <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>Egen<br>Inte en relation; används för interna programsyften</td>
-    </tr>
-       <tr>
-        <td>Tidsfördelad KPI-valuta (begränsad kundtillgänglighet)</td>
-        <td>Tidsfasad KPI</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
-        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
-    </tr>
+    <thead>
         <tr>
-        <td>Tidsfasad KPI-varaktighet (begränsad kundtillgänglighet)</td>
-        <td>Tidsfasad KPI</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
-        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDDURATIONID (self)<br>USEUSEID RID</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GRUPPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifierar KPI-postens ämne<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Tidrapport</td>
-        <td>Tidrapport</td>
-        <td>TMPH | TimePhasedKPI</td>
-        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
-        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID (self)<br>USEUSEID RID</td>
-        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Tidrapportprofil</td>
-        <td>Tidrapportprofil</td>
-        <td>TSPRO | Tidrapportprofil</td>
-        <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
-        <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID (self)</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GRUPPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifierar KPI-postens ämne<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
-    </tr>
-    <tr>
-        <td>Gränssnittsfilter</td>
-        <td>Filter</td>
-        <td>UIFT | Filter</td>
-        <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIFILTERID (self)</td>
-        <td>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br> ID:t för objektet som identifieras i OBJCODE-fältet <br>PREFERENCES_CURRENT | PREFERENCEID<br>Inte en relation; används för interna programsyften <br>Själv</td>
-    </tr>
-    <tr>
-        <td>Gränssnittsgrupp efter</td>
-        <td>Gruppering</td>
-        <td>UIGB | Gruppering</td>
-        <td>UIGROUPBYS_CURRENT<br>UIGROUPBYS_DAILY_HISTORY<br>UIGROUPBYS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID <br>LASTUPDATEDBYID <br>SYSID <br>UITEMPLATEID (self)</td>
-        <td>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GRUPPID <br>USERS_CURRENT | USERID <br>Inte en relation; används för interna programsyften <br>Själv</td>
-    </tr>
-    <tr>
-        <td>Användargränssnittsmall</td>
-        <td>Layoutmall</td>
-        <td>UITMPL | Layoutmall</td>
-        <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIGROUPBYID (self)</td>
-        <td>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br> ID:t för objektet som identifieras i OBJCODE-fältet <br>PREFERENCES_CURRENT | PREFERENCEID<br>Inte en relation; används för interna programsyften <br>Själv</td>
-    </tr>
-    <tr>
-        <td>Gränssnittsvy</td>
-        <td>Visa</td>
-        <td>UIVIEW | Visa</td>
-        <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
-        <td>APPGLOBALID<br>ENTEREDBYID <br>LASTUPDATEDBYID <br>OBJID<br>PREFERENCEID<br>SYSID <br>UIVIEWID (self)</td>
-        <td>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID <br> ID:t för objektet som identifieras i OBJCODE-fältet <br>PREFERENCES_CURRENT | PREFERENCEID<br>Inte en relation; används för interna programsyften <br>Själv</td>
-    </tr>
-    <tr>
-        <td>Användare</td>
-        <td>Användare</td>
-        <td>ANVÄNDARE | Användare</td>
-        <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
-        <td>ACCESSLEVELID<br>CATEGORYID<br>COMPANYID<br>DEFAULTHOURTYPEID<br>DELEGATIONTOID<br>EAUTHUSERID<br>ENTEREDBYID<br>HOMEGROUPID<br>HOMETEAMID<br>LASTENTEREDNOTEID<br>LASTUPDAID TEDBYID<br>LATESTUPDATENOTEID<br>LAYOUTTEMPLATEID<br>MANAGERID<br>PORTALPROFILEID<br>PREFUID<br>PRIVATERATECARDID<br>RESOURCEPOOLID<br>ROLEID<br>SCHEDULEID<br>TIMESHEETPROFILEID<br>UITEMPLATEID<br>USERID<br>UUMUSERID</td>
-        <td>ACCESSLEVELS_CURRENT |ACCESSLEVELID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>HOURTYPE_CURRENT | HOURTYPEID<br>USER_CURRENT | USERID<br>Inte en relation; används för interna programsyften<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>TEAM_CURRENT | TEAMID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>Layoutmallstabellen stöds inte<br>USER_CURRENT | USERID<br>Portal Profile table will not be supported<br>Not a relationship; used for internal application purpose<br>RATECARD_CURRENT | RATECARDID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>ROLE_CURRENT | ROLEID<br>SCHEDULE_CURRENT | SCHEDULEID<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>UITEMPLATES_CURRENT |UITEMPLATEID<br>Egen<br>Inte en relation, används för interna programsyften</td>
-    </tr>
-    <tr>
-        <td>Användardelegering</td>
-        <td>Användardelegering</td>
-        <td>USRDEL | Användardelegering</td>
-        <td>USERDELEGATIONS_CURRENT<br>USERDELEGATIONS_DAILY_HISTORY<br>USERDELEGATIONS_EVENT</td>
-        <td>FROMUSERID<br>SYSID <br>TOUSERID <br>USERDELEGATIONID (self)</td>
-        <td>USERS_CURRENT | USERID<br>Inte en relation; används för interna programsyften <br>USERS_CURRENT | USERID <br>Self</td>
-    </tr>
-    <tr>
-        <td>Användargrupp</td>
-        <td>Andra grupper</td>
-        <td>USRGPS | Användargrupp</td>
-        <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
-        <td>GRUPPID <br>SYSID<br>USERID <br>USERSGROUPID (self)</td>
-        <td>GROUPS_CURRENT | GROUPID <br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID <br>Self</td>
-    </tr>
-    <tr>
-        <td>Användarplats</td>
-        <td>Användarplats</td>
-        <td>USRLOC | UserLocation</td>
-        <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
-        <td>CLASSIFIERID<br>SYSID<br>USERID<br>USERLOCATIONID (self)</td>
-        <td>CLASSIFIER_CURRENT | CLASSIFIERID<br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID<br>Self</td>
-    </tr>
-    <tr>
-        <td>Användarroll</td>
-        <td>Andra roller</td>
-        <td>USRROL | Användarroll</td>
-        <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
-        <td>ROLEID <br>SYSID<br>USERID    <br>USERROLESETID<br>USERSROLEID (self)</td>
-        <td>ROLES_CURRENT | ROLEID <br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID    <br> USERROLESET_CURRENT | USERROLESETID<br>Self</td>
-    </tr>
-    <tr>
-        <td>UserPrefValue</td>
-        <td>UserPrefValue</td>
-        <td>USERPF | Användarinställningar</td>
-        <td>USERPREFVALUES_CURRENT<br>USERPREFVALUES_DAILY_HISTORY<br>USERPREFVALUES_EVENT</td>
-        <td>SYSID    <br>USERID <br>USERPREFVALUEID (self)</td>
-        <td>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID    <br>Själv</td>
-    </tr>
-    <tr>
-        <td>UserRoleSet</td>
-        <td>UserRoleSet</td>
-        <td>URSET | UserRoleSet</td>
-        <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
-        <td>PRIMARYROLEID <br>SYSID<br>USERID    <br>USERROLESETID (self)</td>
-        <td>ROLES_CURRENT | ROLEID <br>Inte en relation; används för interna programsyften<br>USERS_CURRENT | USERID <br>Self</td>
-    </tr>
-    <tr>
-        <td>UsersDecision</td>
-        <td>Användarbeslut</td>
-        <td>USRDEC | Användarbeslut</td>
-        <td>USERSBESLUT_CURRENT<br>USERSBESLUT_DAILY_HISTORY<br>USERSBESLUT_EVENT</td>
-        <td>USERDECIONID (self)<br>SYSID <br>USERID  </td>
-        <td>Självständig<br>Inte en relation, används för interna programsyften <br>USERS_CURRENT | USERID </td>
-    </tr>
-    <tr>
-        <td>WorkItem</td>
-        <td>Arbetsobjekt</td>
-        <td>WRKITM | WorkItem</td>
-        <td>WORKITEMS_CURRENT<br>WORKITEMS_DAILY_HISTORY<br>WORKITEMS_EVENT</td>
-        <td>TILLDELA <br>OBJID<br>OPTASKID    <br> PROJECTID <br>SYSID<br> - AKTIVITET    <br>USERID <br>WORKITEM (self)</td>
-        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID <br>ID för objektet som identifieras i OBJOBJCODE-fältet<br>OPTASK_CURRENT | OPTASKID    <br> PROJECTS_CURRENT | PROJECTID <br>Inte en relation; används för interna programsyften<br>TASKS_CURRENT | AKTIVITET    <br>USERS_CURRENT | USERID    <br>Själv </td>
-    </tr>
-  </tbody>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Åtkomstnivå</td>
+            <td>Åtkomstnivå</td>
+            <td>ACSLVL</td>
+            <td>Åtkomstnivå</td>
+            <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LEGACYACCESSLEVELID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Åtkomstregel
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Åtkomstregel</td>
+            <td>Dela</td>
+            <td>ACSRUL</td>
+            <td>Dela</td>
+            <td>ACCESSREGLER_CURRENT<br>ACCESSREGLER_DAILY_HISTORY<br>ACCESSREGLER_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSORID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på ACCESSOROBJCODE</td>
+             <td>Primärnyckeln/ID för objektet som identifieras i fältet ACCESSOROBJCODE</td>
+        </tr>
+        <tr>
+             <td>ACCESSRULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ANCESTORID</td>
+             <td>PK</td>
+             <td>Variabel, baserad på ANCESTOROBJCODE</td>
+             <td>Primärnyckeln/ID för objektet som identifieras i fältet ANCESTOROBJCODE</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SECURITYOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på SECURITYOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet SECURITYOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Godkännandesökväg
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Godkännandesökväg</td>
+            <td>Godkännandesökväg</td>
+            <td>ARVPTH</td>
+            <td>Godkännande</td>
+            <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TYPGODKÄNNANDEPATID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GODKÄNNANDEPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>GODKÄNNANDEPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GLOBALPATHID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Godkännandeprocess
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Godkännandeprocess</td>
+            <td>Godkännandeprocess</td>
+            <td>ARVPRC</td>
+            <td>Godkännandeprocess</td>
+            <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNANDEPROCESSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Godkännandesteg
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Godkännandesteg</td>
+            <td>Godkännandesteg</td>
+            <td>ARVSTP</td>
+            <td>Godkännandefas</td>
+            <td>APPROVALSTEPS_CURRENT<br>APPROVALSTEPS_DAILY_HISTORY<br>APPROVALSTEPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TYPGODKÄNNANDEPATID</td>
+             <td>FK</td>
+             <td>APPROVALPATHS_CURRENT</td>
+             <td>TYPGODKÄNNANDEPATID</td>
+        </tr>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Godkännarstatus
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Godkännarstatus</td>
+            <td>Godkännarstatus</td>
+            <td>ARVSTS</td>
+            <td>Godkännarstatus</td>
+            <td>APPROVERSTATUSES_CURRENT<br>APPROVERSTATUSES_DAILY_HISTORY<br>APPROVERSTATUSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNARSTATUSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>APPROVABLEOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på APPROVABLEOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet APPROVABLEOBJCODE</td>
+        </tr>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>GODKÄND</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>DELEGATEUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OVERRIDDENUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>STEPAPPROVERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSYID</td>
+             <td>-</td>
+             <td colspan="2">Inte ett förhållande; Används för interna applikationer</td>
+        </tr>
+        <tr>
+             <td>TASKID TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>WILDCARDUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tilldelning
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tilldelning</td>
+            <td>Tilldelning</td>
+            <td>ASSGN</td>
+            <td>Tilldelning</td>
+            <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>TILLDELNING</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Väntar på godkännanden
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Väntar på godkännanden</td>
+            <td>Väntar på godkännanden</td>
+            <td>AWAPVL</td>
+            <td>Väntar på godkännanden</td>
+            <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ÅTKOMSTBEGÄRAN</td>
+             <td>-</td>
+             <td colspan="2">Åtkomstbegärandetabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>TYPGODKÄNNANDE</td>
+             <td>FK</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>GODKÄNNANDE</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>AWAITINGAPPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTVERSIONID</td>
+             <td>FK</td>
+             <td>DOCUMENTVERSIONS_CURRENT</td>
+             <td>DOCUMENTVERSIONID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TIDSPEL</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIDSPEL</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Baslinje
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Baslinje</td>
+            <td>Baslinje</td>
+            <td>BLIN</td>
+            <td>Baslinje</td>
+            <td>BASELINES_CURRENT<br>BASELINES_DAILY_HISTORY<br>BASELINES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BASELINEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Originalaktivitet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Originalaktivitet</td>
+            <td>Originalaktivitet</td>
+            <td>BSTSK</td>
+            <td>Originalaktivitet</td>
+            <td>BASELINETASKS_CURRENT<br>BASELINETASKS_DAILY_HISTORY<br>BASELINETASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BASELINEID</td>
+             <td>FK</td>
+             <td>BASELINES_CURRENT</td>
+             <td>BASELINEID</td>
+        </tr>
+        <tr>
+             <td>BASELINETASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+    </tbody>
+</table>
+
+### Faktureringstakt
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Faktureringstakt</td>
+            <td>Klassificera eller åsidosätt hastighet</td>
+            <td>KURS</td>
+            <td>Faktureringstakt</td>
+            <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TILLDELNING</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TILLDELNING</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>FK</td>
+             <td>NONLABORRESOURCES_CURRENT</td>
+             <td>NONLABORRESOURCEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>RATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SOURCERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRNT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Faktureringspost
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Faktureringspost</td>
+            <td>Faktureringspost</td>
+            <td>BILL</td>
+            <td>Faktureringspost</td>
+            <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>INVOICEID</td>
+             <td>-</td>
+             <td colspan="2">Fakturatabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Bokning
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Bokning</td>
+            <td>Bokning</td>
+            <td>BOOKNG</td>
+            <td>Bokning</td>
+            <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BOOKINGID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>FK</td>
+             <td>NONLABORRESOURCES_CURRENT</td>
+             <td>NONLABORRESOURCEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på TOPOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i TOPOBJCODE-fältet</td>
+        </tr>
+    </tbody>
+</table>
+
+### Affärsprofil
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Affärsprofil</td>
+            <td>Affärsprofil</td>
+            <td>BSNPRF</td>
+            <td>BusinessProfile</td>
+            <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>FK</td>
+             <td>ACCESSLEVELS_CURRENT</td>
+             <td>ACCESSLEVELID</td>
+        </tr>
+        <tr>
+             <td>BUSINESSPROFILEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Affärsregel
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Affärsregel</td>
+            <td>Affärsregel</td>
+            <td>BSNRUL</td>
+            <td>Affärsregel</td>
+            <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BUSINESSRULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Kategori
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Kategori</td>
+            <td>Eget formulär</td>
+            <td>CTGY</td>
+            <td>Kategori</td>
+            <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Kategoriparameter
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Kategoriparameter</td>
+            <td>Anpassade formulärfält</td>
+            <td>CTGYPA</td>
+            <td>Kategoriparameter</td>
+            <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>KATEGORIESPARAMETERIER</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERGROUPID</td>
+             <td>FK</td>
+             <td>PARAMETERGROUPS_CURRENT</td>
+             <td>PARAMETERGROUPID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERID</td>
+             <td>FK</td>
+             <td>PARAMETERS_CURRENT</td>
+             <td>PARAMETERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Klassificerare
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Klassificerare</td>
+            <td>Plats</td>
+            <td>CLSF</td>
+            <td>Plats</td>
+            <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Företag
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Företag</td>
+            <td>Företag</td>
+            <td>CMPY</td>
+            <td>Företag</td>
+            <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Anpassat kvartal
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Anpassat kvartal</td>
+            <td>Anpassat kvartal</td>
+            <td>CSTQRT</td>
+            <td>Anpassat kvartal</td>
+            <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CUSTOMQUARTERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Anpassad uppräkning
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>CustomEnum</td>
+            <td>Villkor, Prioritet, Allvarlighetsgrad, Status</td>
+            <td>CSTEM</td>
+            <td>Anpassad uppräkning</td>
+            <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ANPASSAD</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+<div>* Posttypen identifieras med egenskapen enumClass. Följande typer förväntas:<br>
+<ul><li>CONDITION_OPTASK</li>
+<li>CONDITION_PROJ</li>
+<li>CONDITION_TASK</li>
+<li>PRIORITY_OPTASK</li>
+<li>PRIORITY_PROJ</li>
+<li>PRIORITY_TASK</li>
+<li>SEVERITY_OPTASK</li>
+<li>STATUS_OPTASK</li>
+<li>STATUS_PROJ</li>
+<li>STATUS_TASK</li></ul></div>
+
+### Dokument
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Utsikt över Data Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dokument</td>
+            <td>Dokument</td>
+            <td>DOCU</td>
+            <td>Dokument</td>
+            <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CHECKEDOUTBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTREQUESTID</td>
+             <td>-</td>
+             <td colspan="2">Dokumentbegärandetabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RELEASEVERSIONID</td>
+             <td>-</td>
+             <td colspan="2">Versionsversionstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på TOPOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i TOPOBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Godkännande av dokument
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Godkännande av dokument</td>
+            <td>Godkännande av dokument</td>
+            <td>DOCAPL</td>
+            <td>Godkännande av dokument</td>
+            <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNANDE</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>DOCAPPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>BEGÄRAN</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dokumentmapp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dokumentmapp</td>
+            <td>Dokumentmapp</td>
+            <td>DOCFLD</td>
+            <td>DocsFolders</td>
+            <td>DOCFOLDERS_CURRENT<br>DOCFOLDERS_DAILY_HISTORY<br>DOCFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROBLEM</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>LINKEDFOLDERID</td>
+             <td>FK</td>
+             <td>LINKEDFOLDERS_CURRENT</td>
+             <td>LINKEDFOLDERID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>DOCFOLDERS_CURRENT</td>
+             <td>DOCFOLDERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Metadata för dokumentleverantör
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Metadata för dokumentleverantör</td>
+            <td>Metadata för dokumentleverantör</td>
+            <td>DOCMET</td>
+            <td>DocumentProviderMetadata</td>
+            <td>DOCPROVIDERMETA_CURRENT<br>DOCPROVIDERMETA_DAILY_HISTORY<br>DOCPROVIDERMETA_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERMETAID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dokumentleverantör
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dokumentleverantör</td>
+            <td>Dokumentleverantör</td>
+            <td>DOCPRO</td>
+            <td>Dokumentleverantör</td>
+            <td>DOCPROVIDERS_CURRENT<br>DOCPROVIDERS_DAILY_HISTORY<br>DOCPROVIDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERCONFIGID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERCONFIG_CURRENT</td>
+             <td>DOCPROVIDERCONFIGID</td>
+        </tr>
+        <tr>
+             <td>DOCPROVIDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dokumentproviderkonfiguration
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dokumentproviderkonfiguration</td>
+            <td>Dokumentproviderkonfiguration</td>
+            <td>DOCCFG</td>
+            <td>Dokumentproviderkonfiguration</td>
+            <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCPROVIDERCONFIGID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dokumentversion
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dokumentversion</td>
+            <td>Dokumentversion</td>
+            <td>DOCV</td>
+            <td>Dokumentversion</td>
+            <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTPROVIDERID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERS_CURRENT</td>
+             <td>DOCUMENTPROVIDERID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTVERSIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSTORAGEID</td>
+             <td>-</td>
+             <td colspan="2">Det externa ID:t i det externa lagringssystemet</td>
+        </tr>
+        <tr>
+             <td>PROOFAPPROVALSTATUSID</td>
+             <td>-</td>
+             <td colspan="2">Registret för godkännandestatus stöds för närvarande inte</td>
+        </tr>
+        <tr>
+             <td>PROOFEDBYUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROOFID</td>
+             <td>-</td>
+             <td colspan="2">Korrekturtabell stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>PROOFOWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROOFSTAGEID</td>
+             <td>FK</td>
+             <td>-</td>
+             <td colspan="2">Korrekturstegstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Växelkurs
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Växelkurs</td>
+            <td>Växelkurs</td>
+            <td>EXRATERA</td>
+            <td>Växelkurs</td>
+            <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Utgift
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Utgift</td>
+            <td>Utgift</td>
+            <td>EXPNS</td>
+            <td>Utgift</td>
+            <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>UTGIFTSKOSTNAD</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>EXPENSETYPEID</td>
+             <td>FK</td>
+             <td>EXPENSETYPES_CURRENT</td>
+             <td>EXPENSETYPEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på TOPBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i TOPBJCODE-fältet</td>
+        </tr>
+    </tbody>
+</table>
+
+### Utgiftstyp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Utgiftstyp</td>
+            <td>Utgiftstyp</td>
+            <td>EXPTYP</td>
+            <td>Utgiftstyp</td>
+            <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>EXPENSETYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Grupp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Grupp</td>
+            <td>Grupp</td>
+            <td>GRUPP</td>
+            <td>Grupp</td>
+            <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>BUSINESSLEADERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>ROOTID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Timme
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Timme</td>
+            <td>Timme</td>
+            <td>TIMME</td>
+            <td>Timme</td>
+            <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄND</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>DUPID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALTIMESHEETID</td>
+             <td>-</td>
+             <td colspan="2">Inte en Workfront-relation, används för integration med externa system
+Själv</td>
+        </tr>
+        <tr>
+             <td>HOURID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>HOURTYPEID</td>
+             <td>FK</td>
+             <td>HOURTYPES_CURRENT</td>
+             <td>HOURTYPEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTOVERHEADID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TIDSPEL</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIDSPEL</td>
+        </tr>
+    </tbody>
+</table>
+
+### Timtyp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Timtyp</td>
+            <td>Timtyp</td>
+            <td>TID</td>
+            <td>Timtyp</td>
+            <td>HOURTYPES_CURRENT<br>HOURTYPES_DAILY_HISTORY<br>HOURTYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>HOURTYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Upprepning
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Upprepning</td>
+            <td>Upprepning</td>
+            <td>ITRN</td>
+            <td>Upprepning</td>
+            <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Journalpost
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Journalpost</td>
+            <td>Journalpost</td>
+            <td>JRNLE</td>
+            <td>Journalpost</td>
+            <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNARSTATUSID</td>
+             <td>FK</td>
+             <td>APPROVERSTATUSES_CURRENT</td>
+             <td>GODKÄNNARSTATUSID</td>
+        </tr>
+        <tr>
+             <td>TILLDELNING</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TILLDELNING</td>
+        </tr>
+        <tr>
+             <td>AUDITRECORDID</td>
+             <td>-</td>
+             <td colspan="2">Registret för granskningsposter stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>BASELINEID</td>
+             <td>FK</td>
+             <td>BASELINES_CURRENT</td>
+             <td>BASELINEID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTSHAREID</td>
+             <td>-</td>
+             <td colspan="2">Dokumentdelningstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>EDITEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>UTGIFTSKOSTNAD</td>
+             <td>FK</td>
+             <td>EXPENSES_CURRENT</td>
+             <td>UTGIFTSKOSTNAD</td>
+        </tr>
+        <tr>
+             <td>HOURID</td>
+             <td>FK</td>
+             <td>HOURS_CURRENT</td>
+             <td>HOURID</td>
+        </tr>
+        <tr>
+             <td>INITIATIVEID</td>
+             <td>-</td>
+             <td colspan="2">Initiativtabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>JOURNALENTRIESID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SUBOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på SUBBOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet SUBOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SUBSCRIBEID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TIDSPEL</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIDSPEL</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på TOPOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i TOPOBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Länkad mapp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Länkad mapp</td>
+            <td>Länkad mapp</td>
+            <td>LNKFDR</td>
+            <td>LinkedFolder</td>
+            <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCUMENTPROVIDERID</td>
+             <td>FK</td>
+             <td>DOCPROVIDERS_CURRENT</td>
+             <td>DOCUMENTPROVIDERID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSTORAGEID</td>
+             <td>-</td>
+             <td colspan="2">Det externa ID:t i det externa lagringssystemet</td>
+        </tr>
+        <tr>
+             <td>FOLDERID</td>
+             <td>FK</td>
+             <td>DOCFOLDERS_CURRENT</td>
+             <td>FOLDERID</td>
+        </tr>
+        <tr>
+             <td>LINKEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LINKEDFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Milstolpe
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Milstolpe</td>
+            <td>Milstolpe</td>
+            <td>MILE</td>
+            <td>Milstolpe</td>
+            <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Sökväg för milstolpe
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Sökväg för milstolpe</td>
+            <td>Sökväg för milstolpe</td>
+            <td>MPATH</td>
+            <td>Sökväg för milstolpe</td>
+            <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Resurs vid annat än arbete
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Resurs vid annat än arbete</td>
+            <td>Icke-arbetsrelaterad resurs</td>
+            <td>NLBR</td>
+            <td>Icke-arbetsrelaterad resurs</td>
+            <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>NONLABORRESOURCECATEGORYID</td>
+             <td>FK</td>
+             <td>NLBRCATEGORIES_CURRENT</td>
+             <td>NLBRCATEGORYID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Resurskategori för icke-arbetsplats
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Resurskategori för icke-arbetsplats</td>
+            <td>Resurskategori för icke-arbetsplats</td>
+            <td>NLBRY</td>
+            <td>Resurskategori utanför arbetsplats</td>
+            <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>NLBRCATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Ledig dag
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Ledig dag</td>
+            <td>Schemaundantag</td>
+            <td>NONWKD</td>
+            <td>Ledig arbetsdag</td>
+            <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>NONWORKDAYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Anteckning
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Anteckning</td>
+            <td>Anteckning</td>
+            <td>ANMÄRKNING</td>
+            <td>Anteckning</td>
+            <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHDOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>ATTACHOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på ATTACHOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE ATTACHOBJCODE</td>
+        </tr>
+        <tr>
+             <td>ATTACHOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>ATTACHWORKID</td>
+             <td>FK</td>
+             <td>WORKITEMS_CURRENT</td>
+             <td>WORKITEM-ID</td>
+        </tr>
+        <tr>
+             <td>ATTACHWORKUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>AUDITRECORDID</td>
+             <td>-</td>
+             <td colspan="2">Registret Granskningspost stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DOCUMENTID</td>
+             <td>FK</td>
+             <td>DOCUMENTS_CURRENT</td>
+             <td>DOCUMENTID</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSERVICEID</td>
+             <td>-</td>
+             <td colspan="2">Inte en Workfront-relation, används för integration med externa system</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>NOTEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på NOTEOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i NOTEOBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PARENTENDORSEMENTID</td>
+             <td>-</td>
+             <td colspan="2">Bekräftelsetabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>PARENTJOURNALENTRYID</td>
+             <td>FK</td>
+             <td>JOURNALENTRIES_CURRENT</td>
+             <td>JOURNALENTRYID</td>
+        </tr>
+        <tr>
+             <td>PARENTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROOFACTIONID</td>
+             <td>-</td>
+             <td colspan="2">Korrekturåtgärdstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>PROOFID</td>
+             <td>-</td>
+             <td colspan="2">Korrekturtabell stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>RICHTEXTNOTEID</td>
+             <td>FK</td>
+             <td>RESERVEDTEXTNOTES_CURRENT</td>
+             <td>RICHTEXTNOTEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TREADID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>TIDSPEL</td>
+             <td>FK</td>
+             <td>TIMESHEETS_CURRENT</td>
+             <td>TIDSPEL</td>
+        </tr>
+        <tr>
+             <td>TOPOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på TOPOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i TOPOBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>ANVÄNDAR-ID</td>
+        </tr>
+
+
+    
+</table>
+
+### Integrering av objekt
+
+<table>
+    <thead>
+        <tr>
+            <th>Namn på Workfront-entitet</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Objektintegrering</td>
+            <td>Objektintegrering</td>
+            <td>OBJEKT</td>
+            <td>ObjectIntegration</td>
+            <td>OBJECTINTEGRATION_CURRENT<br>OBJECTINTEGRATION_DAILY_HISTORY<br>OBJECTINTEGRATION_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LINKEDOBJECTID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på LINKEDOBJECTCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet LINKEDOBJECTCODE</td>
+        </tr>
+        <tr>
+             <td>OBJECTINTEGRATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+
+    &lt;/tbody>
+</table>
+
+### Objektkategori
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Objektkategori</td>
+            <td>Objektkategorier</td>
+            <td>OBJCAT</td>
+            <td>Objektkategori</td>
+            <td>OBJECTSCATEGORIES_CURRENT<br>OBJECTSCATEGORIES_DAILY_HISTORY<br>OBJECTSCATEGORIES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>OBJECTSCATEGORYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### OpTask / Issue
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>OpTask</td>
+            <td>Problem, begäran</td>
+            <td>OPTASK</td>
+            <td>Problem</td>
+            <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNANDEPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>GODKÄNNANDEPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>KANBANBOARDID</td>
+             <td>-</td>
+             <td colspan="2">Kanban-tavlan stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">Ködefinitionstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>QUEUETOPICID</td>
+             <td>-</td>
+             <td colspan="2">Tabellen Köämne stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>RESOLVEOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESOLVEPROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RESOLVETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>RESOLVINGOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på RESOLVINGOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet RESLVINGOBJCODE</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SOURCEOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på SOURCEOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet SOURCEOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Parameter
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Parameter</td>
+            <td>Anpassat fält</td>
+            <td>PARAM</td>
+            <td>Parameter</td>
+            <td>PARAMETERS_CURRENT<br>PARAMETERS_DAILY_HISTORY<br>PARAMETERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERFILTERID</td>
+             <td>-</td>
+             <td colspan="2">Parameterfiltertabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>PARAMETERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Parametergrupp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Parametergrupp</td>
+            <td>Formuläravsnitt</td>
+            <td>PARAM</td>
+            <td>Parametergrupp</td>
+            <td>PARAMETERGROUPS_CURRENT<br>PARAMETERGROUPS_DAILY_HISTORY<br>PARAMETERGROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PARAMETERGROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Parameteralternativ
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Parameteralternativ</td>
+            <td>Parameteralternativ</td>
+            <td>POPT</td>
+            <td>Parameteralternativ</td>
+            <td>PARAMETEROPTIONS_CURRENT<br>PARAMETEROPTIONS_DAILY_HISTORY<br>PARAMETEROPTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PARAMETERID</td>
+             <td>FK</td>
+             <td>PARAMETERS_CURRENT</td>
+             <td>PARAMETERID</td>
+        </tr>
+        <tr>
+             <td>PARAMETEROPTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Portalavsnitt/rapport
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Portalavsnitt</td>
+            <td>Rapport</td>
+            <td>PTLSEC</td>
+            <td>Rapport</td>
+            <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>FILTERID</td>
+             <td>FK</td>
+             <td>UIFILTERS_CURRENT</td>
+             <td>FILTERID</td>
+        </tr>
+        <tr>
+             <td>GROUPBYID</td>
+             <td>FK</td>
+             <td>UIGROUPBYS_CURRENT</td>
+             <td>GROUPBYID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTVIEWEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>PORTALSECTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>PUBLICRUNASUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>RAPPORTFOLDERID</td>
+             <td>FK</td>
+             <td>REPORTFOLDERS_CURRENT</td>
+             <td>RAPPORTFOLDERID</td>
+        </tr>
+        <tr>
+             <td>RUNASUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEDREPORTID</td>
+             <td>-</td>
+             <td colspan="2">Schemalagd rapporttabell stöds för närvarande inte</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>VISA</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>VISA</td>
+        </tr>
+    </tbody>
+</table>
+
+### Fliken Portal/Dashboard
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Portal Tab</td>
+            <td>Kontrollpanel</td>
+            <td>PTLTAB</td>
+            <td>Kontrollpanel</td>
+            <td>PORTALTABS_CURRENT<br>PORTALTABS_DAILY_HISTORY<br>PORTALTABS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>DOCID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTALPROFILEID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>PORTALTABID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Portal Tab Section
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Portal Tab Section</td>
+            <td>Instrumentpanelsavsnitt</td>
+            <td>PRTBSC</td>
+            <td>Portal Tab Section</td>
+            <td>PORTALTABSPORTALSECTIONS_CURRENT<br>PORTALTABSPORTALSECTIONS_DAILY_HISTORY<br>PORTALTABSPORTALSECTIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CALENDARPORTALSECTIONID</td>
+             <td>-</td>
+             <td colspan="2">Kalenderportalavsnittet stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>EXTERNALSECTIONID</td>
+             <td>-</td>
+             <td colspan="2">Tabellen Externa avsnitt stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>INTERNALSECTIONID</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>PORTALSECTIONID</td>
+        </tr>
+        <tr>
+             <td>PORTALSECTIONOBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på PORTALSECTIONOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet PORTALSECTIONOBJCODE</td>
+        </tr>
+        <tr>
+             <td>PORTALTABID</td>
+             <td>FK</td>
+             <td>PORTALTABS_CURRENT</td>
+             <td>PORTALTABID</td>
+        </tr>
+        <tr>
+             <td>PORTALTABSECTIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Senaste visningsprogram för portalavsnitt
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>PortalSectionLastViewer</td>
+            <td>Rapportera senaste visningsprogram</td>
+            <td>PLSLSV</td>
+            <td>PortalSectionLastViewer</td>
+            <td>REPORTLASTVIEWERS_CURRENT<br>REPORTLASTVIEWERS_DAILY_HISTORY<br>REPORTLASTVIEWERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RAPPORTERA</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>RAPPORTERA</td>
+        </tr>
+        <tr>
+             <td>RAPPORTLASTVIEWERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>VIEWERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Portfolio
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Portfolio</td>
+            <td>Portfolio</td>
+            <td>PORT</td>
+            <td>Portfolio</td>
+            <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ALIGNMENTSCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">Styrkortstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Inställningar
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Inställningar</td>
+            <td>Visa, Filtrera, Gruppera, Rapportdefinition</td>
+            <td>PROSET</td>
+            <td>Inställningar</td>
+            <td>PREFERENCES_CURRENT<br>PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Program
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Program</td>
+            <td>Program</td>
+            <td>PRGM</td>
+            <td>Program</td>
+            <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Projekt
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Projekt</td>
+            <td>Projekt</td>
+            <td>PROJ</td>
+            <td>Projekt</td>
+            <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>AEMNATIVEFOLDERTREESREFID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>ALIGNMENTSCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">Styrkortstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>GODKÄNNANDEPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>GODKÄNNANDEPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKORIGINATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>LEVERABLESCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">Styrkortstabellen stöds inte för närvarande</td>
+        </tr>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>POPACCOUNTID</td>
+             <td>-</td>
+             <td colspan="2">Pop Account table not supported current</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">Ködefinitionstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>AVVISNINGSUMEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESURCEPOOLID</td>
+             <td>FK</td>
+             <td>RESOURCEPOOLS_CURRENT</td>
+             <td>RESURCEPOOLID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SPONSORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Projektteamanvändare
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Projektteamanvändare</td>
+            <td>Projektteamanvändare</td>
+            <td>PRTU</td>
+            <td>Projektanvändare</td>
+            <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTSUSERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TMPUSERID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Användarroll för projektteam
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Användarroll för projektteam</td>
+            <td>Användarroll för projektteam</td>
+            <td>PTEAM</td>
+            <td>ProjektAnvändarroll</td>
+            <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>PROJECTSUSERSROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Hastighetskort
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Hastighetskort</td>
+            <td>Hastighetskort</td>
+            <td>RTCRD</td>
+            <td>Hastighetskort</td>
+            <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>RATECARDID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SECURITYROOTID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på SECURITYOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet SECURITYOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SOURCEID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på SOURCEOBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet SOURCEOBJCODE</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+
+    &lt;/tbody>
+</table>
+
+### Rapportmapp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rapportmapp</td>
+            <td>Rapportmapp</td>
+            <td>RPTFDR</td>
+            <td>Rapportmapp</td>
+            <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RAPPORTFOLDERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Rapportvy - statistikantal
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rapportvy - statistikantal</td>
+            <td>Rapportvy - statistikantal</td>
+            <td>PLSVST</td>
+            <td>PortalSectionStatisticInfo</td>
+            <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RAPPORTERA</td>
+             <td>FK</td>
+             <td>PORTALSECTIONS_CURRENT</td>
+             <td>PORTALSECTIONID</td>
+        </tr>
+        <tr>
+             <td>RAPPORTVIEWSTATISTICCOUNTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Rapporteringsskyldiga budgeterade timmar
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Rapporteringsskyldiga budgeterade timmar</td>
+            <td>Rapporteringsskyldiga budgeterade timmar</td>
+            <td>RPBGHR</td>
+            <td>Budgeterad timme</td>
+            <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RAPPORTABLEBUDGETEDHOURID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Reserverad tid / PTO
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Reserverad tid</td>
+            <td>(Personligt) Tid av</td>
+            <td>RESVT</td>
+            <td>Tid av</td>
+            <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RESERVEDTIMEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Resurshanteraren
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Resurshanteraren</td>
+            <td>Resurshanteraren</td>
+            <td>RESMGR</td>
+            <td>Resurshanteraren</td>
+            <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RESOURCEMANAGERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Resurspool
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Resurspool</td>
+            <td>Resurspool</td>
+            <td>RSPL</td>
+            <td>Resurspool</td>
+            <td>RSRCPOOLS_CURRENT<br>RSRCPOOLS_DAILY_HISTORY<br>RSRCPOOLS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>RESURCEPOOLID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### RTF-anteckning
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>RTF-anteckning</td>
+            <td>RTF-anteckning</td>
+            <td>RHNOTE</td>
+            <td>RTF-anteckning</td>
+            <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RICHTEXTNOTEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Parametervärde för RTF
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Parametervärde för RTF</td>
+            <td>Parametervärde för RTF</td>
+            <td>RCHVAL</td>
+            <td>RichTextParameterValue</td>
+            <td>RICHTEXTPARAMETERVALUES_CURRENT<br>RICHTEXTPARAMETERVALUES_DAILY_HISTORY<br>RICHTEXTPARAMETERVALUES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PARAMETERVALUEID</td>
+             <td>-</td>
+             <td colspan="2">Parametervärdestabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>RICHTEXTPARAMETERVALUEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### risk
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>risk</td>
+            <td>risk</td>
+            <td>RISK</td>
+            <td>risk</td>
+            <td>RISKS_CURRENT<br>RISKS_DAILY_HISTORY<br>RISKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>RISKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>RISKTYPEID</td>
+             <td>FK</td>
+             <td>RISKTYPES_CURRENT</td>
+             <td>RISKTYPEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Risktyp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Risktyp</td>
+            <td>Risktyp</td>
+            <td>RSKTYP</td>
+            <td>Risktyp</td>
+            <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>RISKTYPEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Roll
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Roll</td>
+            <td>Jobbroll</td>
+            <td>ROLE</td>
+            <td>Jobbroll</td>
+            <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">Layoutmallstabellen stöds inte</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Schema
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Schema</td>
+            <td>Schema</td>
+            <td>SCHED</td>
+            <td>Schema</td>
+            <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Steggodkännare
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Steggodkännare</td>
+            <td>Steggodkännare</td>
+            <td>SPAPVR</td>
+            <td>Scengodkännare</td>
+            <td>STEPAPPROVERS_CURRENT<br>STEPAPPROVERS_DAILY_HISTORY<br>STEPAPPROVERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>STEPAPPROVERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Uppgift
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Uppgift</td>
+            <td>Uppgift</td>
+            <td>UPPGIFT</td>
+            <td>Uppgift</td>
+            <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNANDEPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>GODKÄNNANDEPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>BILLINGRECORDID</td>
+             <td>FK</td>
+             <td>BILLINGRECORDS_CURRENT</td>
+             <td>BILLINGRECORDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>CONVERTEDOPTASKORIGINATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CURRENTAPPROVALSTEPID</td>
+             <td>FK</td>
+             <td>APPROVALSTEPS_CURRENT</td>
+             <td>APPROVALSTEPID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>ITERATIONID</td>
+             <td>FK</td>
+             <td>ITERATIONS_CURRENT</td>
+             <td>ITERATIONID</td>
+        </tr>
+        <tr>
+             <td>KANBANBOARDID</td>
+             <td>-</td>
+             <td colspan="2">Kanban-tavlan stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>LASTCONDITIONNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEID</td>
+             <td>FK</td>
+             <td>MILESTONES_CURRENT</td>
+             <td>MILESTONEID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>ÅTERKOMMANDE</td>
+             <td>-</td>
+             <td colspan="2">Regeltabellen för upprepning stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>AVVISNINGSUMEID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>RESERVEDTIMEID</td>
+             <td>FK</td>
+             <td>RESERVEDTIMES_CURRENT</td>
+             <td>RESERVEDTIMEID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SUBMITTEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>SUBMITTEDBYID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Aktivitetsföregångare
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Aktivitetsföregångare</td>
+            <td>Föregående</td>
+            <td>PRED</td>
+            <td>Föregående</td>
+            <td>PREDECESSORS_CURRENT<br>PREDECESSORS_DAILY_HISTORY<br>PREDECESSORS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>FÖRBESTÄLL</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>SUCCESSORID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Team
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Team</td>
+            <td>Team</td>
+            <td>TEAMOB</td>
+            <td>Team</td>
+            <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">Layoutmallstabellen stöds inte</td>
+        </tr>
+        <tr>
+             <td>MYWORKVIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>UIVIEWID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>BEGÄRANDVIEWID</td>
+             <td>FK</td>
+             <td>UIVIEWS_CURRENT</td>
+             <td>UIVIEWID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Teammedlem
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Teammedlem</td>
+            <td>Andra team, teammedlem</td>
+            <td>TEAMMB</td>
+            <td>Teammedlem</td>
+            <td>TEAMMEMBERS_CURRENT<br>TEAMMEMBERS_DAILY_HISTORY<br>TEAMMEMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMMEMBERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Teammedlemsroll
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Teammedlemsroll</td>
+            <td>Teammedlemsroll</td>
+            <td>TEAMMR</td>
+            <td>Teammedlemsroll</td>
+            <td>TEAMMEMBERROLES_CURRENT<br>TEAMMEMBERROLES_DAILY_HISTORY<br>TEAMMEMBERROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMMEMBERROLEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Mall
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Mall</td>
+            <td>Mall, projektmall</td>
+            <td>TMPL</td>
+            <td>Mall</td>
+            <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNANDEPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>GODKÄNNANDEPROCESSID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>LEVERABLESCORECARDID</td>
+             <td>-</td>
+             <td colspan="2">Slutprodukt styrkortsregister stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEPATID</td>
+             <td>FK</td>
+             <td>MILESTONEPATHS_CURRENT</td>
+             <td>MILESTONEPATID</td>
+        </tr>
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>ANVÄNDAR-ID</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>QUEUEDEFID</td>
+             <td>-</td>
+             <td colspan="2">Ködefinitionstabellen stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Mallaktivitetstilldelning
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Mallaktivitetstilldelning</td>
+            <td>Malltilldelning</td>
+            <td>TASSGN</td>
+            <td>Malltilldelning</td>
+            <td>TEMPLATEASSIGNMENTS_CURRENT<br>TEMPLATEASSIGNMENTS_DAILY_HISTORY<br>TEMPLATEASSIGNMENTS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMTIMELINEABLEID</td>
+             <td>-</td>
+             <td colspan="2">Tidslinjerbar tabell för team stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEASSIGNMENTID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Malluppgift
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Malluppgift</td>
+            <td>Malluppgift</td>
+            <td>TTSK</td>
+            <td>Malluppgift</td>
+            <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNANDEPROCESSID</td>
+             <td>FK</td>
+             <td>APPROVALPROCESSES_CURRENT</td>
+             <td>GODKÄNNANDEPROCESSID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EXCHANGERATEID</td>
+             <td>FK</td>
+             <td>EXCHANGERATES_CURRENT</td>
+             <td>EXCHANGERATEID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>MILESTONEID</td>
+             <td>FK</td>
+             <td>MILESTONES_CURRENT</td>
+             <td>MILESTONEID</td>
+        </tr>
+        <tr>
+             <td>PARENTID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>ÅTERKOMMANDE</td>
+             <td>-</td>
+             <td colspan="2">Regeltabellen för upprepning stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>TEAMTIMELINEABLEID</td>
+             <td>-</td>
+             <td colspan="2">Tidslinjerbar tabell för team stöds inte för närvarande</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEID</td>
+             <td>FK</td>
+             <td>TEMPLATES_CURRENT</td>
+             <td>TEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATETASKID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Föregångare för mallaktivitet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Föregångare för mallaktivitet</td>
+            <td>Mallföregångare</td>
+            <td>TPRED</td>
+            <td>Föregående</td>
+            <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>FÖRBESTÄLL</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>SUCCESSORID</td>
+             <td>FK</td>
+             <td>TEMPLATETASKS_CURRENT</td>
+             <td>TEMPLATETASKID</td>
+        </tr>
+        <tr>
+             <td>TEMPLATEPREDECESSORID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tidsfördelad KPI-valuta
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tidsfördelad KPI-valuta</td>
+            <td>Tidsfasad KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TILLDELNING</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TILLDELNING</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>Ska läggas till inom kort</td>
+             <td>SCHEMAID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TIMEPHASEDCURRENCYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tidsfasad KPI-varaktighet
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tidsfasad KPI-varaktighet</td>
+            <td>Tidsfasad KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TILLDELNING</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TILLDELNING</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>Ska läggas till inom kort</td>
+             <td>SCHEMAID</td>
+        </tr>
+        <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>TIMEPHASEDDURATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tidrapport
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tidrapport</td>
+            <td>Tidrapport</td>
+            <td>TSTIPSE</td>
+            <td>Tidrapport</td>
+            <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNANDE</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TIDSPEL</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>FK</td>
+             <td>TIMESHEETPROFILES_CURRENT</td>
+             <td>TIMESHEETPROFILEID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tidrapportprofil
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tidrapportprofil</td>
+            <td>Tidrapportprofil</td>
+            <td>TSPRO</td>
+            <td>Tidrapportprofil</td>
+            <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GODKÄNNANDE</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TIMESHEETPROFILEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Gränssnittsfilter
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Gränssnittsfilter</td>
+            <td>Filter</td>
+            <td>UIFT</td>
+            <td>Filter</td>
+            <td>UIFILTERS_CURRENT<br>UIFILTERS_DAILY_HISTORY<br>UIFILTERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>UIFILTERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Gränssnittsgrupp efter
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Gränssnittsgrupp efter</td>
+            <td>Gruppering</td>
+            <td>UIGB</td>
+            <td>Gruppering</td>
+            <td>UIGROUPBYS_CURRENT<br>UIGROUPBYS_DAILY_HISTORY<br>UIGROUPBYS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>UIGROUPBYID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Användargränssnittsmall
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Användargränssnittsmall</td>
+            <td>Layoutmall</td>
+            <td>UITMPL</td>
+            <td>Layoutmall</td>
+            <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Gränssnittsvy
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Gränssnittsvy</td>
+            <td>Visa</td>
+            <td>UIVIEW</td>
+            <td>Visa</td>
+            <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>APPGLOBALID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>PREFERENCEID</td>
+             <td>FK</td>
+             <td>PREFERENCES_CURRENT</td>
+             <td>PREFERENCEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>UIVIEWID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Användare
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Användare</td>
+            <td>Användare</td>
+            <td>ANVÄNDARE</td>
+            <td>Användare</td>
+            <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ACCESSLEVELID</td>
+             <td>FK</td>
+             <td>ACCESSLEVELS_CURRENT</td>
+             <td>ACCESSLEVELID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>
+        <tr>
+             <td>DEFAULTHOURTYPEID</td>
+             <td>FK</td>
+             <td>HOURTYPES_CURRENT</td>
+             <td>HOURTYPEID</td>
+        </tr>
+        <tr>
+             <td>DELEGATIONTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>EAUTHUSERID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>ENTEREDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>HOMEGROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>HOMETEAMID</td>
+             <td>FK</td>
+             <td>TEAMS_CURRENT</td>
+             <td>TEAMID</td>
+        </tr>
+        <tr>
+             <td>LASTENTEREDNOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>LATESTUPDATENOTEID</td>
+             <td>FK</td>
+             <td>NOTES_CURRENT</td>
+             <td>NOTEID</td>
+        </tr>
+        <tr>
+             <td>LAYOUTTEMPLATEID</td>
+             <td>-</td>
+             <td colspan="2">Layoutmallstabellen stöds inte</td>
+        </tr>
+        <tr>
+             <td>MANAGERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>PORTALPROFILEID</td>
+             <td>-</td>
+             <td colspan="2">Portalprofiltabellen stöds inte</td>
+        </tr>
+        <tr>
+             <td>PREFUIID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>RESURCEPOOLID</td>
+             <td>FK</td>
+             <td>RESOURCEPOOLS_CURRENT</td>
+             <td>RESURCEPOOLID</td>
+        </tr>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TIDRAPPORTPROFILID</td>
+             <td>FK</td>
+             <td>TIMESHEETPROFILES_CURRENT</td>
+             <td>TIDRAPPORTPROFILID</td>
+        </tr>
+        <tr>
+             <td>UITEMPLATEID</td>
+             <td>FK</td>
+             <td>UITEMPLATES_CURRENT</td>
+             <td>UITEMPLATEID</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>UUMUSERID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Användardelegering
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Användardelegering</td>
+            <td>Användardelegering</td>
+            <td>USRDEL</td>
+            <td>Användardelegering</td>
+            <td>USERDELEGATIONS_CURRENT<br>USERDELEGATIONS_DAILY_HISTORY<br>USERDELEGATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>FROMUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>TOUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERDELEGATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Användargrupp
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Användargrupp</td>
+            <td>Andra grupper</td>
+            <td>USRGPS</td>
+            <td>Användargrupp</td>
+            <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERSGROUPID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Användarplats
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Användarplats</td>
+            <td>Användarplats</td>
+            <td>USRLOC</td>
+            <td>UserLocation</td>
+            <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>CLASSIFIERID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERLOCATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Användarroll
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Användarroll</td>
+            <td>Andra roller</td>
+            <td>USRROL</td>
+            <td>Användarroll</td>
+            <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERROLESETID</td>
+             <td>FK</td>
+             <td>USERROLESET_CURRENT</td>
+             <td>USERROLESETID</td>
+        </tr>
+        <tr>
+             <td>USERLOCATIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Värde för användarinställningar
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Värde för användarprefix</td>
+            <td>Användarinställningar</td>
+            <td>USERPF</td>
+            <td>Användarinställningar</td>
+            <td>USERPREFVALUES_CURRENT<br>USERPREFVALUES_DAILY_HISTORY<br>USERPREFVALUES_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERPREFVALUEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Uppsättning med användarroller
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UserRoleSet</td>
+            <td>Uppsättning med användarroller</td>
+            <td>URSET</td>
+            <td>UserRoleSet</td>
+            <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>PRIMARYROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>USERROLESETID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Användarbeslut
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>UsersDecision</td>
+            <td>Användarbeslut</td>
+            <td>USRDEC</td>
+            <td>Användarbeslut</td>
+            <td>USERSBESLUT_CURRENT<br>USERSBESLUT_DAILY_HISTORY<br>USERSBESLUT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>USERAVIONID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Arbetsobjekt
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>WorkItem</td>
+            <td>Arbetsobjekt</td>
+            <td>WRKITM</td>
+            <td>WorkItem</td>
+            <td>WORKITEMS_CURRENT<br>WORKITEMS_DAILY_HISTORY<br>WORKITEMS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TILLDELNING</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TILLDELNING</td>
+        </tr>
+        <tr>
+             <td>OBJID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+        <tr>
+             <td>SYSID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+        <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>WORKITEM-ID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
 </table>
