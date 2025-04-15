@@ -6,9 +6,9 @@ description: När du har länkat en resurs från Experience Manager Assets Essen
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ När du har länkat en resurs från Experience Manager Assets Essentials kan du 
 
 ## Åtkomstkrav
 
+<!-- Audited: 4/2025 -->
+
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
@@ -28,12 +30,15 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Arbeta eller högre</p>
+   <td role="rowheader">Adobe Workfront-licenser</td> 
+   <td> 
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Arbete eller högre</p>
    <p>Korrektur måste vara aktiverat för användaren.</p>
     </td> 
   </tr> 
@@ -42,7 +47,7 @@ Du måste ha följande:
    <td>Du måste ha Experience Manager as a Cloud Service eller Assets Essentials, och du måste läggas till i produkten som användare i Admin Console. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -52,15 +57,15 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Förutsättningar
 
-Innan du börjar,
+Innan du börjar:
 
-* Din Workfront-administratör måste konfigurera en integrering med Experience Manager. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera Experience Manager Assets Essentials-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Din Workfront-administratör måste konfigurera en Experience Manager-integrering. Mer information finns i [Konfigurera integreringen med Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen med Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Skapa ett korrektur
 
@@ -75,7 +80,7 @@ Skapa ett korrektur:
    >
    >Om du har **Generera korrektur automatiskt när dokument** överförs i din användarprofil skapas ett enkelt korrektur automatiskt.
 
-1. Välj något av följande:
+1. Välj något av följande i listrutan:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,11 +88,11 @@ Skapa ett korrektur:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Enkelt korrektur</strong></td> 
-      <td>Med det här alternativet skapas ett korrektur utan ett kopplat arbetsflöde och standardinställningarna för korrektur används. Du kan uppdatera standardinställningarna för korrektur eller lägga till ett arbetsflöde när du har skapat korrekturet. Mer information om korrekturinställningar finns i <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Redigera korrekturinställningar</a>.</td> 
+      <td>Med det här alternativet skapas ett korrektur utan ett kopplat arbetsflöde och standardinställningarna för korrektur används. Du kan uppdatera standardkorrekturinställningarna eller lägga till ett arbetsflöde när du har skapat korrekturet. Mer information om korrekturinställningar finns i <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Redigera korrekturinställningar</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Avancerat korrektur</strong></td> 
-      <td> <p>Med det här alternativet kan du konfigurera ett grundläggande eller avancerat arbetsflöde och ändra korrekturinställningarna för det korrektur du skapar. Mer information finns i </p> 
+      <td> <p>Med det här alternativet kan du konfigurera ett grundläggande eller avancerat arbetsflöde och ändra korrekturinställningarna för det korrektur du skapar. Mer information finns i: </p> 
        <ul> 
         <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Skapa ett avancerat korrektur med ett grundläggande arbetsflöde</a> </p> </li> 
         <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Skapa ett avancerat korrektur med ett automatiserat arbetsflöde</a> </p> </li> 
@@ -98,21 +103,21 @@ Skapa ett korrektur:
 
 ## Hantera ett befintligt korrektur
 
-När du har skapat ett bevis kan du göra saker som
+När du har skapat ett bevis kan du göra följande:
 
 * Visa aktuell scenaktivitet
 * Uppdatera granskare och deadlines
 * Redigera arbetsflödet
 
-Mer information om hur du hanterar ett befintligt korrektur finns i [Hantera korrektur i Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
+Mer information om hur du hanterar ett befintligt korrektur finns i [Hantera korrektur i Adobe Workfront: artikelindex](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
 
 ## Granska ett korrektur
 
-Tilldelade granskare kan göra saker som
+Tilldelade granskare kan göra följande:
 
 * Visa resursen och gör kommentarer
 * Lägga till åtgärder i kommentarer
 * Jämför versioner
 * Godkänn eller avvisa korrekturet
 
-Mer information om vad du kan göra med korrekturverktyget finns i [Granska korrektur i Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+Mer information om vad du kan göra med språkverktyget finns i [Granska korrektur i Adobe Workfront: artikelindex](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
