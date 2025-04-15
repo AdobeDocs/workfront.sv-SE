@@ -6,7 +6,7 @@ description: Översikt över de system som finns för granskning och godkännand
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
+source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Viktiga funktioner för godkännande av äldre dokument:
 * Granska och kommentera i korrekturläsaren
 * Fatta beslut i korrekturläsaren
 * Skapa godkännanderapporter med äldre rapporter
-* Få åtkomst till begäranden om godkännande i widgeten Mina godkännanden i hemområdet
+* Få åtkomst till godkännandebegäranden i widgeten Mina godkännanden i hemområdet
 
 Mer information finns i [Godkännande av äldre dokument](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
@@ -88,7 +88,7 @@ Funktioner för korrektur:
 
 * Använd grundläggande eller automatiserade arbetsflöden
 
-* Få åtkomst till begäranden om godkännande i widgeten Mina godkännanden i hemområdet
+* Få åtkomst till godkännandebegäranden i widgeten Mina godkännanden i hemområdet
 
 <!--
 ## Upcoming deprecations
