@@ -1,13 +1,13 @@
 ---
 title: Gränssnittsuppdateringar
 description: På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Workfront för att förbättra användarupplevelsen och göra den enhetlig med andra Adobe-program.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
+source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,12 @@ Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersl
 ## Dokument
 
 +++Expandera för att visa uppdateringar av dokumentgränssnittet
+
+### Gränssnittsuppdateringar när ett dokument begärs
+
+**Förhandsversion: 3 april 2025; Produktionsversion: Från 10 april 2025**
+
+Vi har uppdaterat den dialogruta som användes för att begära ett dokument från en annan användare med en modernare design som överensstämmer med andra delar av Workfront.
 
 ### Gränssnittsuppdateringar av delningssidan för externa dokument
 
