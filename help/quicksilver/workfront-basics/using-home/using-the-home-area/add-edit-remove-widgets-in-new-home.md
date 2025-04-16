@@ -6,15 +6,17 @@ description: Du kan välja bland ett antal widgetar för att anpassa innehållet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: be7f2b811bf963d31881879655edd4bc634294c5
+source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 
 # Lägga till, redigera eller ta bort widgetar i hemmet
+
+<!-- Audited: 4/2025 -->
 
 Du kan välja bland ett antal widgetar för att anpassa innehållet som visas på hemsidan. Dessa widgetar kan storleksändras och ordnas om.
 
@@ -35,15 +37,15 @@ Som standard fylls hemsidan i med specifika widgetar baserat på din licenstyp.
     </tr>
     <tr>
         <td>Ljus</td>
-        <td>Mitt arbete, väntar på mitt godkännande</td>
+        <td>Mitt arbete, Mina godkännanden</td>
     </tr>
     <tr>
         <td>Medarbetare</td>
-        <td>Mina förfrågningar, omnämnanden, väntar på mitt godkännande, anslagstavlor</td>
+        <td>Mina förfrågningar, omnämnanden, Mina godkännanden, anslagstavlor</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Väntar på mitt godkännande</td>
+        <td>Mina godkännanden</td>
     </tr>
 </table>
 
@@ -66,7 +68,7 @@ Som standard fylls hemsidan i med specifika widgetar baserat på din licenstyp.
     </tr>
     <tr>
         <td>Begäran</td>
-        <td>Mina projekt, väntar på mitt godkännande</td>
+        <td>Mina projekt, Mina godkännanden</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -74,7 +76,7 @@ Som standard fylls hemsidan i med specifika widgetar baserat på din licenstyp.
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Väntar på mitt godkännande</td>
+        <td>Mina godkännanden</td>
     </tr>
 </table>
 
@@ -88,20 +90,18 @@ Så här lägger du till en widget:
 
 1. Navigera till startsidan, antingen genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront-ikonen](assets/home-icon-30x29.png) högst upp på skärmen om Hem är inställt som startsida, eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](assets/main-menu-icon.png) och sedan på **Hem** .
 
-1. Klicka på **Anpassa** längst upp till höger på skärmen.
+1. Klicka på **Anpassa** i skärmens övre högra hörn.
 
    ![Knappen Anpassa](assets/customize-button.png)
 1. Bläddra till avsnittet **Widgets** och markera sedan de widgetar som du vill lägga till.
 
 +++ Expandera om du vill visa en detaljerad lista över tillgängliga widgetar
 
-       Nedan finns de 11 widgetar som du kan välja mellan, samt en sammanfattning av den information de visar:
-   
    * **Mitt arbete**\
-       Den här widgeten är en bra plats att börja på när du vill hantera en mängd olika typer av arbeten. Här visas alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Du kan klicka på knappen Arbeta på för att börja arbeta med ett objekt eller på knappen Klar för att markera det som färdigt. Du kan också uppdatera information (Status, Villkor, Procent färdigt) om uppgifter och problem, logga tid och lägga till uppdateringar från widgeten Mitt arbete.
+       Visar alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Du kan klicka på knappen Arbeta på för att börja arbeta med ett objekt eller på knappen Klar för att markera det som färdigt. Du kan också uppdatera information (Status, Villkor, Procent färdigt) om uppgifter och problem, logga tid och lägga till uppdateringar från widgeten Mitt arbete.
 
    * **Vandrar**\
-       Visar alla ritytor som du har skapat eller har bjudits in att använda. Du kan också skapa en ny styrelse baserat på följande mallar: Grundläggande styrelse, Kanban-tavla, Perspektivanslagstavla, Dynamisk board
+       Visar alla ritytor som du har skapat eller har bjudits in att använda. Du kan också skapa en ny styrelse baserat på följande mallar: Grundläggande styrelse, Kanban-tavla, Perspektivanslagstavla och Dynamisk styrelse.
 
    * **Mina projekt**\
        Visar projekt som du äger eller projekt som du finns i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa ett projekt direkt från widgeten.
@@ -118,7 +118,7 @@ Så här lägger du till en widget:
    * **Teamförfrågningar**\
        Visar alla väntande begäranden för team som du är i sorterad efter team, samt knappar som du kan använda för att tilldela en användare en förfrågan direkt eller för att arbeta med den själv.
 
-   * **Väntar på mitt godkännande**\
+   * **Mina godkännanden**\
        Visar alla väntande tilldelade eller delegerade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
 
    * **Alla godkännanden**\
@@ -132,7 +132,7 @@ Så här lägger du till en widget:
 
      >[!NOTE]
      >
-     >Du måste ha behörighet att skapa uppgifter för att kunna skapa uppgifter i Att göra-widgeten, och bara personliga uppgifter som anges av den aktuella användaren visas i widgeten.
+     >Du måste ha behörighet att skapa uppgifter för att kunna skapa uppgifter i Att göra-widgeten, och bara personliga uppgifter som anges av den aktuella användaren visas.
 
 +++
 
@@ -151,9 +151,9 @@ Så här lägger du till en widget:
 
 ## Ta bort en widget från startsidan
 
-1. Navigera till startsidan, antingen genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront-ikonen](assets/home-icon-30x29.png) högst upp på skärmen om Hem är inställt som startsida, eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](assets/main-menu-icon.png) och sedan på **Hem** .
+1. Navigera till startsidan, antingen genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront-ikonen](assets/home-icon-30x29.png) överst på skärmen om Hem är inställt som startsida, eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](assets/main-menu-icon.png) och sedan på **Hem** .
 
-1. Leta reda på den widget på startsidan som du vill ta bort och klicka sedan på ikonen ![Mer ikon](assets/more-icon.png) i det övre högra hörnet av widgeten.
+1. Leta reda på widgeten på hemsidan som du vill ta bort och klicka sedan på ikonen **Mer** ![Mer ikon](assets/more-icon.png) i det övre högra hörnet av widgeten.
 
 1. Klicka på **Ta bort**.
 
@@ -162,10 +162,8 @@ Så här lägger du till en widget:
 
 1. Navigera till startsidan, antingen genom att klicka på Adobe Workfront-ikonen ![Adobe Workfront-ikonen](assets/home-icon-30x29.png) högst upp på skärmen om Hem är inställt som startsida, eller genom att klicka på huvudmenyikonen ![Huvudmenyikon](assets/main-menu-icon.png) och sedan på **Hem** .
 
-1. Klicka på **Anpassa** längst upp till höger på skärmen.
+1. Klicka på **Anpassa** i skärmens övre högra hörn.
 
    ![Knappen Anpassa](assets/customize-button.png)
-
-   Panelen Anpassa öppnas.
 
 1. I avsnittet **Bakgrund** på panelen **Anpassa** klickar du på den färg du vill använda som bakgrund i hemmet. Du kan också klicka på **Ingen** om du vill ta bort bakgrunden.
