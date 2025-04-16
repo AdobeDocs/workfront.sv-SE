@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,7 @@ Tänk på följande när du lägger till en anslutningsvy på en postsida:
 
 * Du kan inte lägga till en sida i Anslutningsvyn i en posts förhandsvisningsområde.
 
-* På sidor i anslutningsvyn visas en kopplad postsida i tabellvyn. Tabellvyn är skrivskyddad. <!--more views might be added in the future-->
-
-* Du kan lägga till en sida i Anslutningsvyn för varje ansluten posttyp.  <!--edit this when we can remove fields from this page-->
+* På sidor i anslutningsvyn visas en kopplad posttypssida i tabellvyn.
 
 * När du har lagt till en sida i Anslutningsvyn på en postsida visas sidfliken från postens förhandsvisningsområde. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten. <!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ Så här lägger du till en sida i Anslutningsvyn:
 Tabellvyn för den posttyp du valde visas och de kopplade posterna visas i tabellvyn.
 Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik.
 
-   När du öppnar Workfront Planning från förhandsvisningsmiljön visas de första fem fälten från den anslutna posttabellen som standard. Inga sökfält visas som standard. 0
+   De första fem fälten från den anslutna posttabellen visas som standard. Inga sökfält visas som standard.
 
    Tabellvyn är skrivskyddad.
 
@@ -309,16 +307,11 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
    * Gruppering
    * Fält, för att visa, dölja eller ordna om fält
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
    >[!NOTE]
    >
-   >   Du kan inte göra något av följande i tabellvyn på fliken för en ansluten post:
-   >
-   >   * Dölj eller ordna om fält. Du kan dölja och ordna om fält i förhandsvisningsmiljön.
-   >   * Skapa, redigera eller ta bort fält
+   >   Du kan inte skapa, redigera eller ta bort fält i tabellvyn på fliken för en ansluten post.
    >
 
 1. Klicka på **Anslut** för att lägga till eller ta bort poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md)

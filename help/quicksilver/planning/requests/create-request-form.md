@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan skapa ett begärandeformulär och associera det med en posttyp i Adobe Workfront Planning. Du kan sedan dela en länk till den med andra interna eller externa användare.
-
-Användare med en länk till formuläret kan uppdatera fältvärdena på det och lägga till nya poster genom att skicka det.
+Du kan skapa ett begärandeformulär och associera det med en posttyp i Adobe Workfront Planning. Du kan sedan dela formuläret med andra och de kan skicka in begäranden för att skapa poster.
 
 I den här artikeln beskrivs hur en arbetsytehanterare kan skapa ett begärandeformulär som är associerat med en posttyp.
 
@@ -126,7 +124,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
       * Skapad av och senast ändrad av
       * Skapad den och senast ändrad den
-      * Formel. <!--Formula fields are supported in the Preview environment.-->
+      * Formel
       * Workfront-objektens sökfält
       * Sökfält för Workfront Planning-anslutna poster
 
@@ -257,12 +255,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    >     * Folk
    >
 
-1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >Det finns en indikation på att länken delas offentligt när så är fallet.
-   >![Publict delad länk till formulär på posttypsmenyn](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern.
 
    Användarna får ett felmeddelande när länken har upphört att gälla och du måste uppdatera länkdatumet och generera en ny länk som de kan dela innan de kan komma åt formuläret igen.
 
@@ -299,18 +292,10 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
-1. (Valfritt och villkorligt) Så här redigerar du ett befintligt formulär:
+1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
 
-   1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och klicka sedan på **Hantera förfrågningsformulär**. </span>
+   1. Klicka på **Uppdatera begärandeformuläret** för att göra ändringar i begärandeformuläret och klicka sedan på ett begärandeformulär för att öppna och redigera det.
+   1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.
 
-      Då öppnas tabellvyn Begär formulär.
+1. (Valfritt) Gå till området **Begäranden** i Workfront och leta reda på det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
-   1. Klicka på ett begärandeformulär för att öppna och redigera det.
-   1. (Valfritt) Gå till området **Begäranden** i Workfront och leta reda på det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->

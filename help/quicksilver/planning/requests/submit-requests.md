@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -152,10 +152,6 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 
 
 ## Skicka en begäran till Workfront Planning under Begäranden i Workfront
-
->[!NOTE]
->
->Efter de månatliga releaserna i Production är funktionerna som beskrivs i det här avsnittet även tillgängliga i produktionsmiljön för kunder som aktiverat snabba releaser.
 
 {{step1-to-requests}}
 
