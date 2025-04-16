@@ -7,9 +7,9 @@ description: Du kan dela och granska olika typer av filer med granskarna, även 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
+source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Workfront har följande begränsningar:
 * FLC - Flödesanimering
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Graphics Interchange Format (animerad GIF i nya Workfront Proof Viewer)
+* GIF - Graphics Interchange Format (animerad GIF endast i nya Workfront Proof Viewer)
 * GIF HDP - Windows HD Photo
 * ICO - Windows-ikon
 * IFF - filformat för utbyte
@@ -104,7 +104,7 @@ Workfront har följande begränsningar:
 * JPEG-XR - Windows Media Photo/HD Photo (HDP)
 * JPEG-LS - JPEG förlustfri
 * J2K - JPEG 2000
-* JP2 - JPEG 2000 komprimerad
+* JP2 - JPEG 2000 komprimerat
 * JPM - JPEG 2000 Part 6
 * JPX - JPEG 2000 Part 2
 * KDC - Kodak Digital Camera
@@ -154,7 +154,7 @@ Workfront har följande begränsningar:
 * TDB - Microsoft Windows-miniatyrcache
 * TFX - Internetfax
 * TGA - Truevision TARGA
-* TIFF - Taggat bildfilsformat
+* TIFF - filformat för taggad bild
 * TIFX - Xerox Internet Fax-fil
 * VFF - Sun TAAC-bitmapp
 * WBMP - trådlös bitmapp
@@ -208,7 +208,7 @@ Workfront har följande begränsningar:
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4
+* MP4 - gräns 8 192 x 4 320 pixlar
 * MPG
 * VOB (endast okrypterade VOB)
 * Flash
@@ -246,6 +246,6 @@ Du kan bara skicka in zip-filer om de innehåller ett helt interaktivt projekt o
 
 Mer information finns i [Översikt över korrektur för interaktivt innehåll](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-## InDesign- och Quark-filer
+## InDesign och Quark-filer
 
-Vi stöder inte InDesign- och Quark-filer eftersom de inte är självständiga filtyper och de refererar till många andra filer, som bilder och teckensnitt. Utdata från dessa filtyper varierar beroende på utdatainställningarna. Vi rekommenderar att man sparar InDesign och Quark-filer som PDF och överför PDF.
+Vi stöder inte InDesign- och Quark-filer eftersom de inte är självständiga filtyper och de refererar till många andra filer, t.ex. bilder och teckensnitt. Utdata från dessa filtyper varierar beroende på utdatainställningarna. Vi rekommenderar att man sparar InDesign- och Quark-filer som PDF och överför PDF.
