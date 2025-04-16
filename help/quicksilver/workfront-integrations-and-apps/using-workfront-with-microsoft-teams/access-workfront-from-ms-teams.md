@@ -6,9 +6,9 @@ description: Du kan komma åt [!DNL Adobe Workfront] från [!DNL Microsoft Teams
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
+<!--
+
 >[!NOTE]
 >
->Från och med den 1 juli 2025 tar Microsoft bort stödet för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 Du kan komma åt [!DNL Adobe Workfront] från [!DNL Microsoft Teams] och utföra flera åtgärder i [!DNL Workfront] genom att skriva kommandon i antingen [!DNL Workfront]-robotkanalen eller någon annan teamkanal.
 

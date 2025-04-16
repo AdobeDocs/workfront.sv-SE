@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,13 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+<!--
+
 >[!NOTE]
 >
->Från och med den 1 juli 2025 tar Microsoft bort stödet för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 Som teamägare i [!DNL Microsoft Teams] kan du installera appen [!DNL Adobe Workfront for Microsoft Teams] för ditt team.
 

@@ -6,9 +6,9 @@ description: Med appen  [!DNL Adobe Workfront for Microsoft Teams] kan du utför
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
+<!--
+
 >[!IMPORTANT]
 >
->Från och med den 1 juli 2025 tar Microsoft bort stödet för Classic Teams-datorprogrammet. Därför stöds inte Workfront-integreringen med Microsoft Teams när Classic Teams-datorprogrammet inte längre är tillgängligt.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 
 Med appen [!DNL Adobe Workfront for Microsoft Teams] kan du utföra grundläggande åtgärder i [!DNL Workfront] utan att lämna dina [!DNL Microsoft Teams] chattkanaler.
@@ -41,17 +45,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Någon</p> </td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td><p>Nytt: Standard</p>
-    <p>Nuvarande: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+    <p>Aktuell: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns [i Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +67,7 @@ Du måste vara teamägare i [!DNL Microsoft Teams] för att kunna installera [!D
 
 Som teamägare i [!DNL Microsoft Teams] kan du installera appen [!DNL Workfront for Microsoft Teams] för vart och ett av dina team antingen från [!DNL Microsoft] Store eller från en fil som tillhandahålls av [!DNL Workfront].
 
-### Installera [!DNL Workfront for Microsoft Teams] från [!DNL Microsoft] butiken
+### Installera [!DNL Workfront for Microsoft Teams] från [!DNL Microsoft] Store
 
 1. Logga in på [!DNL Microsoft Teams] som teamägare.
 1. Välj det team som du vill installera appen [!DNL Workfront for Microsoft Teams] för.
@@ -83,15 +87,15 @@ Som teamägare i [!DNL Microsoft Teams] kan du installera appen [!DNL Workfront 
 
    1. Klicka på ikonen **[!UICONTROL More]** under meddelandefältet i [!UICONTROL General]-kanalen.
 
-   1. Håll muspekaren [!DNL Workfront] över appen i listan och klicka sedan på **[!UICONTROL More]** ikonen till höger om den.
+   1. För musen över appen [!DNL Workfront] i listan och klicka sedan på ikonen **[!UICONTROL More]** till höger om den.
 
    1. Klicka på **[!UICONTROL Pin]**.
 
-      Detta lägger till en [!DNL Workfront] ikon under chattfältet. Härifrån [!UICONTROL Search] kan du snabbt komma åt området.
+      En [!DNL Workfront]-ikon läggs till under chattfältet. Du kommer snabbt åt området [!UICONTROL Search] härifrån.
 
       Mer information om hur du söker efter [!DNL Workfront] objekt finns i [Söka efter och dela [!DNL Adobe Workfront] objekt i [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
-1. Klicka **[!UICONTROL Log in to [!DNL Workfront]]** för att komma åt [!DNL Workfront from Microsoft Teams].
+1. Klicka på **[!UICONTROL Log in to [!DNL Workfront]]** för att komma åt [!DNL Workfront from Microsoft Teams].
 
    Mer information om hur du loggar in på [!DNL Workfront] finns i avsnittet [Logga in på Workfront från Microsoft Teams](#log-in-to-workfront-from-microsoft-teams) i den här artikeln.
 
@@ -99,7 +103,7 @@ Som teamägare i [!DNL Microsoft Teams] kan du installera appen [!DNL Workfront 
 
 Om din organisation begränsar åtkomsten till hämtning av appar från [!DNL Microsoft] Store måste du kontakta vårt supportteam och begära en privat fil av appen [!DNL Workfront for Microsoft Teams] för att installera appen.
 
-För information om hur du kontaktar vårt supportteam, se [Kontakta](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) kundsupport.
+Mer information om hur du kontaktar vårt supportteam finns i [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 Så här installerar du [!DNL Workfront for Microsoft Teams] från en privat fil:
 
@@ -111,14 +115,14 @@ Så här installerar du [!DNL Workfront for Microsoft Teams] från en privat fil
 1. Välj fliken **[!UICONTROL Apps]** och klicka sedan på **[!UICONTROL Upload a custom app]** i skärmens nedre högra hörn.
 
 1. Bläddra efter den privata filen som du har sparat på datorn och följ sedan installationsstegen för att installera [!DNL Workfront for Microsoft Teams].
-1. När installationen är klar visas ett meddelande om att installationen lyckades i kanalen Allmänt för det team som du har valt. Alla medlemmar i teamet kan se det här meddelandet.
-1. (Valfritt) **[!UICONTROL More]** Klicka på ikonen (tre punkter) under **[!UICONTROL Type your questions here]** fältet.
+1. När installationen är klar visas ett meddelande om att installationen lyckades i den allmänna kanalen för det team du valde. Alla medlemmar i teamet kan se det här meddelandet.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL More]** (tre punkter) under fältet **[!UICONTROL Type your questions here]**.
 
-1. (Valfritt) Håll muspekaren [!DNL Workfront] över appen i listan och klicka sedan på **[!UICONTROL More]** ikonen till höger om den.
+1. (Valfritt) För musen över appen [!DNL Workfront] i listan och klicka sedan på ikonen **[!UICONTROL More]** till höger om den.
 
 1. (Valfritt) Klicka på **[!UICONTROL Pin]**.
 
-   Detta lägger till en [!DNL Workfront] ikon under [!UICONTROL Type your questions here] fältet. Du kommer snabbt åt området [!UICONTROL Search] härifrån.\
+   Då läggs en [!DNL Workfront]-ikon till under fältet [!UICONTROL Type your questions here]. Du kommer snabbt åt området [!UICONTROL Search] härifrån.\
    Mer information om hur du söker efter Workfront-objekt finns i [Söka efter och dela [!DNL Adobe Workfront] objekt i [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 ## Logga in på [!DNL Workfront] från [!DNL Microsoft] team
@@ -127,7 +131,7 @@ Som [!DNL Microsoft Teams]-teamägare måste du installera [!DNL Workfront for M
 
 När du är inloggad på [!DNL Workfront] från [!DNL Microsoft Teams] kan du ta emot [!DNL Workfront] meddelanden i [!DNL Workfront]-robotkanalen eller så kan du utföra vissa åtgärder i [!DNL Workfront] från [!DNL Microsoft Teams].
 
-Information om hur du [!DNL Workfront] installerar appen finns i [avsnittet Installera [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) i den här artikeln.
+Mer information om hur du installerar appen [!DNL Workfront] finns i avsnittet [Installera [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) i den här artikeln.
 
 Mer information om hur du får åtkomst till [!DNL Workfront] från [!DNL Microsoft Teams] för att utföra vissa åtgärder finns i [Åtkomst [!DNL Adobe Workfront] från [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md).
 
@@ -150,9 +154,9 @@ Logga in på [!DNL Workfront] från [!DNL Microsoft Teams]:
    >[!NOTE]
    >
    >* När du uppmanas att ange domänen för ditt [!DNL Workfront]-konto skriver du den i det här formatet: *ditt företags sDomain.my.workfront.com*. Företagets domän är vanligtvis namnet på ditt företag.
-   >* Förbättrad autentisering är inte tillgänglig förrän en administratör aktiverar den för den här integreringen [!DNL Workfront] .
+   >* Förbättrad autentisering är inte tillgängligt förrän en [!DNL Workfront]-administratör har aktiverat den för den här integreringen.
 
 
 1. Stäng webbläsarfliken som du använde för att logga in och gå tillbaka till [!DNL Microsoft Teams].
 
-   Ett meddelande visas i robotens [!DNL Workfront] chattkanal för att bekräfta att du har loggat in [!DNL Workfront] på roboten.
+   Ett meddelande visas i chattkanalen [!DNL Workfront] som bekräftar att du har loggat in på [!DNL Workfront].
