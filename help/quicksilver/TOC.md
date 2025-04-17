@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 52d7964219dd0731364f0ab7fea9e5224d8ca9df
+source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
 workflow-type: tm+mt
-source-wordcount: '13142'
+source-wordcount: '13159'
 ht-degree: 0%
 
 ---
@@ -1920,6 +1920,7 @@ ht-degree: 0%
          * [Vanliga frågor: korrektur vid migrering från Adobe Workfront - USA till EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [Dokumentnamnet har ändrats efter överföringen och innehåller ett ogiltigt tecken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Korrektur för PowerPoint med inbäddad video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+         * [Det går inte att hämta eller förhandsgranska korrekturversioner när ett interaktivt korrektur läggs till som en ny version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Tips, tricks och felsökning för godkännanden {#ttt-approvals}
       * [Tips, tricks och felsökning för godkännanden: artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visa antalet korrektur- och dokumentbeslut för alla användare](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)

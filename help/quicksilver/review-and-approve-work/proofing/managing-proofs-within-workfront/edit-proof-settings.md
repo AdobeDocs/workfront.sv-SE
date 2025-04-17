@@ -6,7 +6,7 @@ description: Du kan redigera korrekturinställningar när som helst efter att du
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: a036a99c13d80a2ba2305ebcdc799ad6e5b62b39
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
@@ -73,12 +73,7 @@ Vissa inställningar kan vara låsta om Workfront-administratören har inaktiver
      </tr> 
      <tr> 
       <td role="rowheader">Kräv att beslut signeras elektroniskt</td> 
-      <td> <p>Du kan begära en elektronisk signatur från alla granskare som fattar beslut om korrekturet. När en granskare fattar ett beslut visas en uppmaning om att ange e-postadress och lösenord och bekräfta sitt beslut. <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information, see 
-          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
-         </MadCap:conditionalText>
-        --></p> </td> 
+      <td> <p>Du kan begära en elektronisk signatur från alla granskare som fattar beslut om korrekturet. När en granskare fattar ett beslut visas en uppmaning om att ange e-postadress och lösenord och bekräfta sitt beslut.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lås korrektur när alla nödvändiga beslut har fattats</td> 

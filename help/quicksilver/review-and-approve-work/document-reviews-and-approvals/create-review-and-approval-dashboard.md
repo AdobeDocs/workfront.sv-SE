@@ -6,9 +6,9 @@ description: Du kan granska godkännandevärden på arbetsytans kontrollpaneler.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -199,19 +199,19 @@ Du kan visa högnivåinformation om dokumentgodkännanden med nyckeltal och diag
     </tr>
     <tr>
     <td><strong>Deadline</strong></td>
-    <td>Dokument &gt; Godkännandefas &gt; Deadline</td>
+    <td>Dokumentgodkännande &gt; Godkännandefas &gt; Deadline</td>
     </tr>
     <tr>
     <td><strong>Begärd av</strong></td>
-    <td>Dokument &gt; Godkännandefas &gt; Deltagare i godkännandefas* &gt; Beställare &gt; skriv _Name_ i sökrutan.</td>
+    <td>Dokumentgodkännande &gt; Godkännandefas &gt; Deltagare i godkännandefas* &gt; Beställare &gt; typ _Name_ i sökrutan.</td>
     </tr>
      <tr>
     <td><strong>Begärt datum</strong></td>
-    <td>Dokument &gt; Godkännandefas &gt; Deltagare i godkännandefas* &gt; Skapat på</td>
+    <td>Dokumentgodkännande &gt; Godkännandefasen &gt; Deltagare i godkännandefasen* &gt; Skapat vid</td>
     </tr>
      <tr>
     <td><strong>Godkännare</strong></td>
-    <td>Dokument &gt; Godkännandesteg &gt; Deltagare i godkännandefasen* &gt; Deltagare &gt; skriv _Name_ i sökrutan.</td>
+    <td>Dokumentgodkännande &gt; Godkännandesteg &gt; Deltagare i godkännandefasen* &gt; Deltagare &gt; skriv _Name_ i sökrutan.</td>
     </tr>
     <table>
 
