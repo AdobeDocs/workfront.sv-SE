@@ -4,11 +4,10 @@ description: Förbättringar av projektet för tredje kvartalet 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
+source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,9 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 10 april 2025; Produktionsrelease för alla kunder: 17 april 2025
+>* Förhandsversion: 10 april 2025; Produktionsrelease för alla kunder: 17 april 2025
+>
+>* Den här funktionen är för närvarande inte tillgänglig för användare av Adobe Unified Experience.
 
 De nya beslutsknapparna för dokumentgodkännande visas nu i korrekturläsaren. När du skapar ett enkelt korrektur och sedan lägger till godkännare och granskare från dokumentsammanfattningen kan de nu fatta sitt beslut direkt i korrekturläsaren.
 
