@@ -4,15 +4,12 @@ description: Den här sidan innehåller information om funktioner som ingår i u
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över utgåvan för tredje kvartalet 2025
 
@@ -45,32 +42,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Förbättrad dokumenthantering](#document-management-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
-
-
-### Förbättrad dokumenthantering
+<!--
+    
+### Document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Funktion</strong>
+        <td><strong>Feature</strong>
         </td>
-        <td><strong>Förhandsgranska</strong></td>
-        <td><strong>Snabb release</strong></td>
-        <td><strong>kvartalsvis</strong></td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Knappar för godkännande av nytt dokument finns i korrekturläsaren</a><p>[!BADGE Off schema]{type=Neutral}</p>
-            <p>De nya beslutsknapparna för dokumentgodkännande visas nu i korrekturläsaren. När du skapar ett enkelt korrektur och sedan lägger till godkännare och granskare från dokumentsammanfattningen kan de nu fatta sitt beslut direkt i korrekturläsaren.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
-        <td>10 april 2025</td>
-        <td>17 april 2025</td>
-        <td>17 april 2025</td>
+        <td>April 10, 2025</td>
+        <td>April 17, 2025</td>
+        <td>April 17, 2025</td>
     </tr>     
   </tbody>
-</table>
+</table> 
 
-
+-->
 
 
 ### Andra förbättringar
