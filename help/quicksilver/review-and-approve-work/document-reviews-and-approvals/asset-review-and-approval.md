@@ -6,9 +6,9 @@ description: Översikt över de system som finns för granskning och godkännand
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Viktiga funktioner för godkännande av äldre dokument:
 
 * Lägg till användare som godkännare
 * Granska och kommentera i korrekturläsaren
-* Fatta beslut i korrekturläsaren
 * Skapa godkännanderapporter med äldre rapporter
 * Få åtkomst till godkännandebegäranden i widgeten Mina godkännanden i hemområdet
 
@@ -51,15 +50,13 @@ Viktiga funktioner för enhetliga godkännanden:
 
 * Skapa och använda mallar
 
-* Granska och kommentera i korrekturläsaren
+* Granska, kommentera och fatta beslut i korrekturläsaren
 Mer information om hur du använder korrekturläsaren finns i [Använda enhetliga godkännanden och korrektur tillsammans](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Visa flera viktiga resultatindikatorer för dina godkännanden i Workfront Home widgets
 
 * Använd Canvas Dashboards, som för närvarande är betaversioner, för att visa rapportinformation om enhetliga godkännanden
 Mer information om rapportering finns i [Skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-
-* Fatta beslut i korrekturläsaren [!BADGE Kommer snart]{type=Informative}
 
 * Skapa godkännanden för flera steg [!BADGE Kommer snart]{type=Informative}
 

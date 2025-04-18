@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
+source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >* Förhandsversion: 10 april 2025; Produktionsrelease för alla kunder: 17 april 2025
->
->* Den här funktionen är för närvarande inte tillgänglig för användare av Adobe Unified Experience.
 
 De nya beslutsknapparna för dokumentgodkännande visas nu i korrekturläsaren. När du skapar ett enkelt korrektur och sedan lägger till godkännare och granskare från dokumentsammanfattningen kan de nu fatta sitt beslut direkt i korrekturläsaren.
 

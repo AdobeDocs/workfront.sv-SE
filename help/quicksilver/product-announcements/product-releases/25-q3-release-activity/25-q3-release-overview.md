@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
+source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Knappar för godkännande av nytt dokument finns i korrekturläsaren</a><p>[!BADGE Off schema]{type=Neutral}</p>
-            <p>De nya beslutsknapparna för dokumentgodkännande visas nu i korrekturläsaren. När du skapar ett enkelt korrektur och sedan lägger till godkännare och granskare från dokumentsammanfattningen kan de nu fatta sitt beslut direkt i korrekturläsaren.</p><p><b>Obs!</b>Den här funktionen är för närvarande inte tillgänglig för användare på Adobe Unified Experience.</p>
+            <p>De nya beslutsknapparna för dokumentgodkännande visas nu i korrekturläsaren. När du skapar ett enkelt korrektur och sedan lägger till godkännare och granskare från dokumentsammanfattningen kan de nu fatta sitt beslut direkt i korrekturläsaren.</p>
         </td>
         <td>10 april 2025</td>
         <td>17 april 2025</td>

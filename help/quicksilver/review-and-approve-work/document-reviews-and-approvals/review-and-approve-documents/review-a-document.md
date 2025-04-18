@@ -6,9 +6,9 @@ description: Som granskare kan du förhandsgranska ett dokument som har skickats
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: da00226448e0969cec57bf9d525686129d53430e
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -76,15 +76,15 @@ Add once functionality is added
 1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **uppdateringsavsnitt**. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Om du vill registrera att du har slutfört granskningen klickar du på **Slutför granskning**.
 
-## Granska ett dokument från rutan Dokumentsammanfattning
+## Granska ett dokument från panelen Dokumentsammanfattning
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 
-1. Klicka på det dokument du behöver så öppnas rutan Dokumentsammanfattning.
+1. Klicka på det dokument du behöver så öppnas dokumentsammanfattningspanelen.
 
 1. Välj den version av dokumentet som du vill granska i listrutan. Den senaste versionen väljs som standard.
 
-1. Håll markören över förhandsgranskningen av dokumentet i avsnittet **Detaljer** högst upp i rutan Dokumentsammanfattning. Sedan antingen:
+1. Håll markören över förhandsgranskningen av dokumentet i avsnittet **Detaljer** högst upp på panelen Dokumentsammanfattning. Sedan antingen:
 
    Klicka på **Förhandsgranska** för att öppna en skrivskyddad version av dokumentet i ett nytt fönster.
 
@@ -94,5 +94,18 @@ Add once functionality is added
 
 1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **uppdateringsavsnitt**. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till avsnittet **Versioner** i rutan Dokumentsammanfattning och sedan klicka på ikonen Mer ![Mer](../assets/more-icon.png) bredvid den version du vill granska och välja **Hämta** eller **Förhandsgranska** .
+1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till avsnittet **Versioner** på panelen Dokumentsammanfattning och sedan klicka på ikonen Mer ![Mer](../assets/more-icon.png) bredvid den version du vill granska och välja **Hämta** eller **Förhandsgranska** .
 1. Om du vill registrera att du har slutfört granskningen klickar du på **Slutför granskning**.
+
+## Granska ett dokument från korrekturläsaren
+
+Så här granskar du ett dokument:
+
+1. Gå till e-postmeddelandet för din granskning och klicka på **Gå till granskning**.
+
+1. När du är i Workfront klickar du på **Gå till korrektur**.
+
+1. Granska innehållet och lägg in kommentarer och markeringar. Mer information om hur du använder korrekturläsaren finns i [Granska korrektur i Adobe Workfront: artikelindex](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Om du vill registrera att du har slutfört granskningen klickar du på **Slutför granskning**.
+

@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Enhetliga godkännanden är en helt ny utformning av den befintliga godkännande
 
 **Skillnader jämfört med korrektur**
 
-* Beslutsknappar för dokumentgodkännande är inte tillgängliga i korrekturläsaren. Beslut kan fattas i dokumentsammanfattningen, Workfront hemwidgetar eller på sidan Dokumentinformation.
 * Deltagare i dokumentgodkännande visas i dokumentsammanfattningen, inte på fliken för korrekturarbetsflöde.
 * Enhetliga godkännanden stöds inte i det aktuella rapportverktyget.
 

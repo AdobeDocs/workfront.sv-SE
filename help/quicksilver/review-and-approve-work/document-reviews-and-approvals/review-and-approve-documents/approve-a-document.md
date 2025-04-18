@@ -6,9 +6,9 @@ description: Om du tilldelas som godkännare för ett dokument finns det flera s
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -116,21 +116,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * **Behöver arbete** indikerar att dokumentversionen inte är godkänd och kräver betydande ändringar.
 
-## Godkänn ett dokument från rutan Dokumentsammanfattning
+## Godkänn ett dokument från panelen Dokumentsammanfattning
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 
-1. Klicka på det dokument som ska godkännas och rutan Dokumentsammanfattning öppnas.
+1. Klicka på dokumentet som ska godkännas och panelen Dokumentsammanfattning öppnas.
 
 1. Välj den version av dokumentet som du vill granska i listrutan. Den senaste versionen väljs som standard.
 
-   Om den aktuella versionen av dokumentet har ett väntande godkännande visas beslutsmenyknapparna i det övre högra hörnet av dokumentsammanfattningsrutan. Om andra versioner av dokumentet har väntande godkännanden för dig visar versionsmenyn en röd punkt.
-
-   <!--
+   Om den aktuella versionen av dokumentet har ett väntande godkännande visas beslutsmenyknapparna i det övre högra hörnet på panelen Dokumentsammanfattning. Om andra versioner av dokumentet har väntande godkännanden visas en röd punkt på den nedrullningsbara versionsmenyn.
+<!--
    ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
-   -->
-
-1. Klicka på ett av följande två godkännandealternativ i det övre högra hörnet av rutan Dokumentsammanfattning:
+ -->
+1. Klicka på något av följande två godkännandealternativ i det övre högra hörnet av panelen Dokumentsammanfattning:
 
    * Listrutan **Godkänn** innehåller två alternativ:
 
@@ -139,3 +137,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       * **Godkänn med ändringar** indikerar att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges om ändringarna görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som krävs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** för att skicka godkännandebeslutet utan ytterligare information.
 
    * **Behöver arbete** indikerar att dokumentversionen inte är godkänd och kräver betydande ändringar.
+
+
+## Godkänn ett dokument från korrekturläsaren
+
+Så här granskar och godkänner du ett dokument:
+
+1. Gå till e-postmeddelandet för din granskning och klicka på **Gå till granskning**.
+
+1. När du är i Workfront klickar du på **Gå till korrektur**.
+
+1. Granska innehållet och lägg in kommentarer och markeringar. Mer information om hur du använder korrekturläsaren finns i [Granska korrektur i Adobe Workfront: artikelindex](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Välj något av följande:
+
+   * **Godkänn**: Dokumentet behöver inte ändras och är klart att användas.
+   * **Godkänn med ändringar**: Dokumentet behöver ändras och är klart att användas när de har gjorts. Ytterligare godkännande krävs inte.
+   * **Behöver arbete**: Dokumentet behöver ändras och är inte klart att användas. När de angivna ändringarna har gjorts måste dokumentet överföras som en ny version och gå igenom en ny godkännandeomgång. Mer information om hur du överför en ny version finns i [Skapa en ny version efter behov](#create-a-new-version-as-needed) i den här artikeln.
+
+När du har fattat ett beslut meddelas dokumentägaren via e-post.
+
+

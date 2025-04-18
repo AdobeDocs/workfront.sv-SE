@@ -6,9 +6,9 @@ description: Du kan använda enhetliga godkännanden med korrektur.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 Enhetliga godkännanden i Workfront innehåller en ny uppsättning funktioner som hjälper dig att granska och godkänna dokument. Du kan använda ett arbetsflöde för enhetliga godkännanden med det befintliga korrekturläsaren för att lägga till kommentarer och markeringar i dokument som granskas.
 
 Det finns några viktiga skillnader i arbetsflödet när enhetliga godkännanden och korrektur används tillsammans:
-
-* Beslutsknappar visas inte i korrekturläsaren
 
 * Deltagare visas i dokumentsammanfattningen, inte i korrekturarbetsflödet
 
@@ -68,7 +66,7 @@ Så här tilldelar du deltagare:
 
 ## Skapa en ny version efter behov
 
-Om du behöver en ny granskningsrunda och ett godkännande kan du skapa en ny korrekturversion.  <!-- and add the previous participants, new participants, or a mix of both. --> Du kan visa information om tidigare versioner och deltagare i dokumentsammanfattningen.
+Om du behöver en ny granskning och godkännande kan du skapa en ny korrekturversion och lägga till föregående deltagare, nya deltagare eller en blandning av båda. Du kan visa information om tidigare versioner och deltagare i dokumentsammanfattningen.
 
 Lägga till en ny version:
 
@@ -85,9 +83,9 @@ Lägga till en ny version:
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
-1. Om du vill lägga till en godkännare klickar du på knappen Godkännare och börjar skriva in ett användar- eller teamnamn, <span class="preview"> eller väljer en godkännare från den tidigare versionen.</span>
+1. Om du vill lägga till en godkännare klickar du på knappen Godkännare och börjar skriva in ett användar- eller teamnamn, eller väljer en godkännare från den tidigare versionen.
 
-1. Om du vill lägga till en granskare klickar du på knappen Granskare och börjar skriva in ett användar- eller teamnamn, <span class="preview"> eller väljer en granskare från den tidigare versionen. </span>
+1. Om du vill lägga till en granskare klickar du på knappen Granskare och börjar skriva in ett användar- eller teamnamn. Välj sedan en granskare från den tidigare versionen.
 
    ![Lägg till godkännare](assets/add-approvers.png)
 
@@ -100,11 +98,7 @@ Lägga till en ny version:
 
 Dokumentet flyttas inte till en godkänd status förrän alla tilldelade godkännare väljer&quot;Godkänd&quot;.
 
-Om någon av godkännarna väljer&quot;behöver arbete&quot; ändras dokumentets status omedelbart till Behöver arbete. Dokumentet måste revideras och laddas upp som en ny version med ett nytt arbetsflöde för godkännande.
-
->[!IMPORTANT]
->
->Dokumentbeslutsknappar visas inte i korrekturläsaren. Du måste gå tillbaka till sidan Dokumentsammanfattning eller Dokumentinformation för att fatta ditt beslut eller markera din granskning som slutförd.
+Om någon av godkännarna väljer&quot;behöver arbete&quot; ändras dokumentets status omedelbart till Behöver arbete. Dokumentet måste ändras och överföras som en ny version med ett nytt arbetsflöde för godkännande.
 
 Så här granskar och godkänner du ett dokument:
 
@@ -114,10 +108,6 @@ Så här granskar och godkänner du ett dokument:
 
 1. Granska innehållet och lägg in kommentarer och markeringar. Mer information om hur du använder korrekturläsaren finns i [Granska korrektur i Adobe Workfront: artikelindex](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. När du är klar med granskningen stänger du korrekturläsaren.
-
-1. Om du är på sidan Dokumentinformation finns beslutsknapparna i skärmens övre högra hörn.
-
 1. Välj något av följande:
 
    * **Godkänn**: Dokumentet behöver inte ändras och är klart att användas.
@@ -125,3 +115,4 @@ Så här granskar och godkänner du ett dokument:
    * **Behöver arbete**: Dokumentet behöver ändras och är inte klart att användas. När de angivna ändringarna har gjorts måste dokumentet överföras som en ny version och gå igenom en ny godkännandeomgång. Mer information om hur du överför en ny version finns i [Skapa en ny version efter behov](#create-a-new-version-as-needed) i den här artikeln.
 
 När du har fattat ett beslut meddelas dokumentägaren via e-post.
+
