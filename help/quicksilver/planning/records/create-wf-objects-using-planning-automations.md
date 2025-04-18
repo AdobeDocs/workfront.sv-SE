@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller poster i Workfront Planning när de aktiveras från en Planning-post. De skapade objekten eller posterna ansluts automatiskt till de poster som du aktiverar automatiseringen från.
 
@@ -102,7 +102,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td> <p>Hantera behörigheter på arbetsytan för att skapa automatisering. </p>
-   <p>Contribute eller högre behörigheter till arbetsytan <!--<span class="preview">and to the record type</span>--> där du vill skapa objekt med hjälp av befintliga automatiseringar. </p>  
+   <p>Contribute eller högre behörigheter till arbetsytan <span class="preview"> och till posttypen </span> där du vill skapa objekt med hjälp av befintliga automatiseringar. </p>  
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (program eller projekt).</p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    </td> 
@@ -131,7 +131,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Nya objekt eller poster åsidosätter inte befintliga objekt i samma fält. Om samma automatisering aktiveras flera gånger för samma post läggs nya objekt eller poster i samma kopplade fält i den ursprungliga posten till, förutom de som skapades tidigare.
 
-<!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
+<!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 ## Konfigurera automatisering i Workfront Planning
 
@@ -309,7 +309,7 @@ Uppdatera följande information i området **Kartfält**:
 
      Om en kampanj med namnet `Summer breeze` genererade ett projekt från ett fältval av `EMEA` får projektet namnet `[ Summer breeze ] EMEA`.
 
-   * Den post som du utlöser automatiseringen från läggs till i det anslutna fältet för den nya posten.
+   * Den post som du utlöser automatiseringen från läggs till i det anslutna fältet för de nya posterna.
 
    >[!NOTE]
    >
