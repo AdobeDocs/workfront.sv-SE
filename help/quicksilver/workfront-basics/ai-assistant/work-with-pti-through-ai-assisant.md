@@ -5,18 +5,14 @@ description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen 
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
+source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
 # Använd AI-assistenten för att arbeta med projekt, uppgifter och ärenden
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är tillgängligt i förhandsgranskningsmiljön för alla kunder och i produktionsmiljön för kunder som har aktiverat månatliga releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 AI Assistant kan hjälpa dig att hitta projekt, uppgifter och problem i Workfront.
