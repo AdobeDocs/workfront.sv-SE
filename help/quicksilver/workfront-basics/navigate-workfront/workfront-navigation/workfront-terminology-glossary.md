@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 3a86ce4878304cee749fa298a39f03a46083a7b4
 workflow-type: tm+mt
-source-wordcount: '17424'
+source-wordcount: '17446'
 ht-degree: 0%
 
 ---
@@ -1099,6 +1099,10 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL ID]</td> 
    <td> <p>ID:t är en alfanumerisk indikator som är associerad med alla objekt i [!DNL Workfront]. Det identifierar varje objekt i databasen [!DNL Workfront] unikt. Du kan visa ID:t för alla objekt i en rapport eller en lista för varje objekt. </p> <p><b>TIPS</b></p>   <p>Du kan även visa ID:t i URL:en för objektets sida. Ett projekts-ID kan till exempel se ut ungefär som det nummer som anges på följande URL när du öppnar sidan [!UICONTROL Project Details]:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[!UICONTROL IMS]</td> 
+   <td>Identity Management System. Adobe IMS kräver att du loggar in på Workfront via Adobe i stället för att använda ditt användarnamn och lösenord för Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Individual Goals]</td> 
