@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -177,15 +177,17 @@ eller
       * Välj en färg som identifierar posttypen. Det här är färgen på ikonen för posttyp.
       * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
 
-1. (Villkorligt) Om du är systemadministratör klickar du på fliken **Avancerade inställningar** i rutan **Redigera posttyp** .
+1. (Villkorligt) Om du är systemadministratör klickar du på fliken **Avancerade inställningar** i rutan **Redigera posttyp** . <!--the info here is duplicated in the Create record types article-->
 
    ![Fliken Redigera posttypsruta för avancerade inställningar](assets/edit-record-type-box-advanced-settings-tab.png)
 
-1. (Villkorligt) Som systemadministratör uppdaterar du följande information på fliken **Avancerade inställningar**:
+1. (Villkorligt) Uppdatera följande information på fliken **Avancerade inställningar**:
 
-   * **Anslut från andra arbetsytor**: Välj det här alternativet om du vill tillåta användare att ansluta till den här posttypen från andra arbetsytor. Detta är som standard avmarkerat.
-   * **Systemomfattande**: Välj det här alternativet om du vill tillåta användare att ansluta till den här posten från alla arbetsytor i systemet.
-   * **Specifika arbetsytor**: Välj det här alternativet om du vill begränsa de arbetsytor som användare kan ansluta till den här posttypen från. Utöka sedan listrutan och välj de arbetsytor som du vill att användarna ska ansluta till den här posttypen från. Du kan börja skriva namnet på en arbetsyta och markera den när den visas i listan.
+   * Aktivera inställningen **Anslut från en annan arbetsyta**. När det här alternativet är aktiverat är posttypen tillgänglig och kan anslutas från andra arbetsytor.
+   * Välj från vilka arbetsytor som posttypen kan nås. Välj bland följande alternativ:
+
+      * **Systemomfattande**: Användare kan ansluta till den här posttypen från alla arbetsytor där de har behörighet att hantera.
+      * **Specifika arbetsytor**: Lägg till namnen på arbetsytorna där arbetsytehanterare kan ansluta till den här posttypen.
 
 1. Klicka på **Spara**.
 

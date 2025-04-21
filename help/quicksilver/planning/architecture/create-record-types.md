@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -146,20 +146,30 @@ Mer information om vilka posttyper som ingår i varje mall finns i [Lista över 
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
-1. Klicka på **Lägg till posttyp** och sedan på **Nytt**.
+1. Klicka på **Lägg till posttyp** och sedan **Lägg till manuellt**.
 
    Rutan Lägg till posttyp öppnas.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![Lägg till posttypsruta med utseendealternativ](assets/add-record-type-box-with-appearance-options.png)
 
-1. Uppdatera följande information:
+1. Uppdatera följande information på fliken **Utseende**:
 
    * Ersätt&quot;Namnlös posttyp&quot; med namnet på din framtida posttyp. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Beskrivning**: Lägg till mer information om posttypen.
    * Välj en färg och form för den ikon som är associerad med posttypen. Gör följande:
       * Välj en färg som identifierar den nya posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
       * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
+
+1. (Valfritt och villkorligt) Om du är systemadministratör klickar du på **Avancerade inställningar** och uppdaterar följande information i avsnittet **Anslutningsscope**: <!--the info here is duplicated in the Edit record types article-->
+
+   * Aktivera inställningen **Anslut från en annan arbetsyta**. När det här alternativet är aktiverat är posttypen tillgänglig och kan anslutas från andra arbetsytor.
+   * Välj från vilka arbetsytor som posttypen kan nås. Välj bland följande alternativ:
+
+      * **Systemomfattande**: Användare kan ansluta till den här posttypen från alla arbetsytor där de har behörighet att hantera.
+      * **Specifika arbetsytor**: Lägg till namnen på arbetsytorna där arbetsytehanterare kan ansluta till den här posttypen.
+
+   ![Skapa en ruta för posttyp på fliken Avancerade inställningar](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. Klicka på **Skapa**.
 
