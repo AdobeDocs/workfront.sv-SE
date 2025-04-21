@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
 
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!--remove the Prod and Preview references when we release to Prod-->
 
 # Översikt över delningsbehörigheter i Adobe Workfront Planning
 
@@ -69,14 +71,9 @@ Internt kan du dela en arbetsyta eller vy med följande Workfront-enheter:
 
 * Användare
 * Grupper
-
-<div class="preview">
-
 * Team
 * Företag
 * Jobbroller
-
-</div>
 
 <span class="preview"> När du delar arbetsytor och posttyper med andra ärvs behörighetsnivån från posttypen automatiskt till de poster och fält som är associerade med dem. </span>
 
@@ -131,7 +128,7 @@ Följande behörighetsnivåer gäller för arbetsytor:
 
 ### Posttypbehörigheter
 
-<!--In the Production environment,--> Posttypsbehörigheter ärvs <!--always--> när du ger behörighet till arbetsytan.
+I produktionsmiljön ärvs alltid posttypsbehörigheter när du ger behörighet till arbetsytan.
 
 Följande behörighetsnivåer gäller för posttyper:
 
@@ -143,29 +140,35 @@ Följande behörighetsnivåer gäller för posttyper:
 | Redigera | ✓ |            |       |
 | Visa | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
+I förhandsgranskningsmiljön kan du ta bort posttypens ärvda behörigheter som tagits emot från arbetsytan.
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+Du kan ge användarna lägre behörigheter för posttypen än de har på arbetsytan.
 
-The following scenarios exist: 
+Du kan dock inte göra följande:
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+* Bevilja högre behörigheter för posttypen än vad användarna har på arbetsytan.
+* Ge arbetsytehanterare lägre behörigheter för en posttyp.
+* Ta bort visningsbehörigheter till posttypen eller arbetsytan genom att ta bort användare från posttypsbehörigheterna.
+
+Följande scenarier finns:
+
+| Workspace-behörigheter | Automatiskt ärvda behörigheter för en posttyp | Möjliga behörigheter för posttyp när ärvda behörigheter är inaktiverade (beviljas manuellt) |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| Hantera | Hantera | Hantera, ta bort behörigheter* |
+| Contribute | Contribute | Contribute, Visa, Ta bort behörigheter* |
+| Visa | Visa | Visa, ta bort behörigheter* |
+
+>[!NOTE]
+>
+>*När du tar bort behörigheter från en posttyp behåller användarna fortfarande behörigheterna Visa på arbetsytan och alla posttyper, såvida du inte tar bort deras behörigheter från arbetsytan.
 
 </div>
 
--->
-
 ### Spela in behörigheter
 
-Postbehörigheter ärvs från <!--<span class="preview">the record type</span>, when you grant permissions to -->arbetsytan<!-- and <span class="preview">the record type</span>-->.
+Postbehörigheter ärvs från <span class="preview">posttypen</span> när du beviljar behörigheter till arbetsytan och <span class="preview">posttypen</span>.
 
 Följande behörighetsnivåer gäller för poster:
 
@@ -179,7 +182,7 @@ Följande behörighetsnivåer gäller för poster:
 
 ### Fältbehörigheter
 
-Fältbehörigheter ärvs från <!--<span class="preview">the record type</span>, when you grant permissions to -->arbetsytan <!--and <span class="preview">the record type</span>-->.
+Fältbehörigheter ärvs från <span class="preview">posttypen</span> när du beviljar behörigheter till arbetsytan och <span class="preview">posttypen</span>.
 
 Följande behörigheter refererar till själva fälten och inte till värdena som associeras med varje fält. Om du vill redigera fältvärden måste du ha behörighet att redigera poster.
 

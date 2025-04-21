@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -113,7 +113,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td> <p>Hantera behörigheter på arbetsytan <!--<span class="preview">and record type</span>--> där du vill lägga till poster. </p>  
+   <td> <p>Hantera behörigheter på arbetsytan <span class="preview"> och posttypen </span> där du vill lägga till poster. </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
    </td> 
@@ -145,11 +145,7 @@ Så här skapar du projekt när du kopplar dem från andra poster:
 
 1. (Villkor) Klicka på **Lägg till projekt**
 eller
-Börja skriva namnet på ett projekt och klicka sedan på **Lägg till projekt** om du inte hittar det.
-
-   Om du inte kan hitta ett projekt när du försöker lägga till det från det anslutna postfältet för en annan post lägger du till ett namn och klickar sedan på **Lägg till projekt**. Knappen Lägg till följs av det projektnamn du skrev in.
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
+Börja skriva namnet på ett projekt och klicka sedan på **Lägg till projekt** om du inte hittar det. Knappen Lägg till följs av det projektnamn du skrev in.
 
    ![Lägg till projekt när du ansluter det från ett anslutningsfält](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -170,13 +166,11 @@ Så här skapar du portföljer när du kopplar dem från Planning records:
 
 1. Gå till informationssidan för en post eller till posttypens tabell och börja ansluta Workfront Planning-poster med Workfront-portföljer, enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
-
 1. (Villkorligt) Klicka på **Lägg till portfölj**
 
    eller
 
-   Börja skriva namnet på en portfölj och klicka sedan på **Lägg till portfölj** om du inte hittar den.—> Om du inte kan hitta en portfölj när du försöker lägga till den från det anslutna postfältet för en annan post lägger du till ett namn och klickar sedan på **Lägg till portfölj**. Knappen Lägg till följs också av det portföljnamn du skrev in.
+   Börja skriva namnet på en portfölj och klicka sedan på **Lägg till portfölj** om du inte hittar den. Knappen Lägg till följs av det portföljnamn som du angav.
 
    ![Lägg till portfölj när du ansluter den från ett anslutningsfält](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -189,8 +183,6 @@ Så här skapar du portföljer när du kopplar dem från Planning records:
 Så här skapar du program när du kopplar dem från planeringsposter:
 
 1. Gå till informationssidan för en post eller till posttypens tabell och börja ansluta Workfront Planning-poster med Workfront-portföljer, enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
 1. Klicka på **Lägg till program**
 

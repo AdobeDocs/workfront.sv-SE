@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 
 # Adobe Workfront Planning - åtkomstinformation: artikelindex
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -24,16 +28,14 @@ Följande artiklar innehåller information om vilken åtkomst användarna behöv
 
 * [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md)
 * [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-
-<!--<div class="preview">
-
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>-->
-
-* [Visa](/help/quicksilver/planning/access/share-views.md)
-* [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
 * [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 * [Begära behörigheter till en vy eller arbetsyta](/help/quicksilver/planning/access/request-permissions.md)
+* [Visa](/help/quicksilver/planning/access/share-views.md)
+* [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
+<div class="preview">
+
+* [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
 
 

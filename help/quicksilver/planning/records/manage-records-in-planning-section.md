@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 # Hantera postanslutningar från Workfront-objekt
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
 Du kan visa Workfront Planning-poster i Workfront i följande områden av objekten som är kopplade till dem:
 
 * Avsnittet Planning för ett Workfront-objekt: Visar alla posttyper som är kopplade till ett objekt och deras respektive anslutna poster.
-* Ett anpassat fält för planeringsanslutning: Visar en posttyp, dess respektive anslutna poster, <span class="preview"> och upp till 7 sökfält för de anslutna posterna.</span>
+* Ett anpassat fält för planeringsanslutning: Visar en posttyp, dess respektive anslutna poster och upp till 7 sökfält för de anslutna posterna.
 
 ## Åtkomstkrav
 
@@ -94,9 +94,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <p>I Workfront: Visa eller högre behörigheter för ett projekt, en portfölj eller ett program </a> </p> 
    <p>I Workfront Planning:
    <ul><li>
-   Visa behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> för att visa alla anslutna poster </li>
+   Visa behörigheter till en arbetsyta <span class="preview">och posttyp</span> för att visa alla anslutna poster </li>
    eller
-   <li> Contribute eller högre behörighet till en arbetsyta <!--<span class="preview">and record type</span>--> för att ansluta till eller koppla från poster</a></li></ul> </p>  
+   <li> Contribute eller högre behörighet till en arbetsyta <span class="preview">och posttyp</span> för att ansluta till eller koppla från poster</a></li></ul> </p>  
    <p>Systemadministratörer har behörighet till alla Workfront Planning-arbetsytor, inklusive de som de inte skapade</p> 
   </td>
   </tr>
@@ -211,7 +211,7 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
 * Ett Planning-anslutningsfält visas på följande sätt i ett Workfront-objekts anpassade formulär, efter det att Planning-poster har anslutits till Workfront-objektet:
 
    * Om endast det primära fältet för den anslutna posten är markerat visas anslutningsfältet Planering som ett fält med flera värden, om anslutningen tillåter att flera poster länkas. Mer information finns i [Översikt över posttyper för anslutning](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">Om din Workfront- eller gruppadministratör har lagt till ytterligare sökfält från den anslutna posten i det anpassade formuläret visas fältet Planering-anslutning som en tabell. Upp till 7 fält kan väljas för anslutningsfältet Planning. Tabellvyn är skrivskyddad.  </span>
+   * Om din Workfront- eller gruppadministratör har lagt till ytterligare sökfält från den anslutna posten i det anpassade formuläret visas anslutningsfältet Planering som en tabell. Upp till 7 fält kan väljas för anslutningsfältet Planning. Tabellvyn är skrivskyddad.
 
 * Du kan bara associera en posttyp med ett Planning-anslutningsfält. Det finns ingen gräns för hur många planeringsanslutningsfält du har i ett formulär.
 * Du måste ha korrekt åtkomst och behörighet till objektet, posten och Workfront Planning för att kunna koppla ett anpassat formulär med ett anpassat fält för planeringsanslutning till ett Workfront-objekt.
@@ -261,11 +261,16 @@ Tänk på följande när du visar Workfront Planning-poster från ett Planning-a
    * Posterna är omedelbart kopplade till Workfront-objektet och visas i anslutningsfältet Planning samt planeringsavsnittet för Workfront-objektet.
    * Workfront-objektet läggs till i Workfront Planning-postens anslutna fält.
    * Värdena för Workfront sökfält som är kopplade till Planning-posten fylls i i Workfront Planning.
-   * <span class="preview">Om din Workfront- eller gruppadministratör lade till postsökningsfält när de skapade det anpassade formuläret fylls postens sökfält i automatiskt i i en tabellvy. Tabellvyn i planeringsanslutningsfältet är skrivskyddad</span>
+   * Om din Workfront- eller gruppadministratör lade till postsökningsfält när de skapade det anpassade formuläret fylls postens sökfält i automatiskt i i en tabellvy. Tabellvyn i planeringsanslutningsfältet är skrivskyddad.
 
      ![Planerar anslutningsfält med register i anpassat formulär för projektinformation](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
-1. (Valfritt) Klicka på namnet på en post <span class="preview"> eller hovra över namnet på posten i tabellen och klicka sedan på ikonen **Öppna post** ![Ikonen Öppna post i det anpassade formuläret Planning-anslutning ](assets/open-record-icon-on-planning-connection-custom-form.png)</span> i fältet Planning-anslutning för att öppna den i Workfront Planning.
+     >[!NOTE]
+     >
+     >Tabellvyn visas bara när sökfält har lagts till i fältet Planering-anslutningar i det anpassade formuläret.
+
+
+1. (Valfritt) Klicka på namnet på en post eller hovra över namnet på posten i tabellen och klicka sedan på ikonen **Öppna post** ![Ikonen Öppna post i det anpassade formuläret för planeringsanslutning](assets/open-record-icon-on-planning-connection-custom-form.png) i fältet för planeringsanslutning för att öppna det i Workfront Planning.
 Förhandsgranskningsrutan med information om Workfront Planning-posten öppnas.
 1. Granska eller redigera information om posten eller klicka på ikonen **Öppna på en ny flik** ![Öppna posten på en ny flik](assets/open-details-in-a-new-tab-icon.png) för att öppna sidan med postinformation.
 

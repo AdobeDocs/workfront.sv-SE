@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
 
 # Dela arbetsytor
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -109,14 +109,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna.
 * När du delar en arbetsyta delas inte vyerna. Du måste dela vyer separat.
 
-<!--
 <div class="preview">
- 
-* Workspace permissions display as Inherited permissions on record types. 
+
+* Workspace-behörigheter visas som ärvda behörigheter för posttyper.
 
 </div>
-
--->
 
 ## Dela behörigheter till en arbetsyta
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -89,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <ul>
-   <li><p>Hantera behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> </p></li>
+   <li><p>Hantera behörigheter till en arbetsyta <span class="preview">och posttyp</span> </p></li>
     <li><p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p></li>
     </ul>
    <p>Information om delningsbehörigheter för Workfront Planning-objekt finns i  
@@ -124,8 +124,17 @@ Så här ändrar du delningen av ett begärandeformulär:
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Uppdatera begärandeformuläret**.
-1. Klicka på **Dela** i skärmens övre högra hörn och uppdatera delningsalternativen. Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+
+   Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
+1. Håll muspekaren över namnet på ett begärandeformulär, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om namnet och klicka sedan på **Dela**.
+1. Uppdatera delningsalternativen genom att välja något av följande:
+
+   * Alla som visar eller har högre åtkomst till arbetsytan
+   * Alla som har Contribute eller senare åtkomst till arbetsytan
+   * Alla med länken
+
+   Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Valfritt) Klicka på **Kopiera länk** om du har ändrat delningen av begärandeformuläret och vill dela det med den nya gruppen med personer med en ny länk.
 
 ## Avpublicera ett begärandeformulär för en posttyp
@@ -142,18 +151,24 @@ När ett begärandeformulär blir irrelevant och du inte längre vill att någon
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Uppdatera begärandeformuläret**.
-1. Klicka på **Avpublicera** i det övre högra hörnet.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
-   ![Avpubliceringsknappen är markerad](assets/unpublish-button-highlighted.png)
+   Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
+1. Håll muspekaren över namnet på ett begärandeformulär, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om namnet och klicka sedan på **Avpublicera**
 
-   En bekräftelse visas längst ned på skärmen som meddelar att formuläret har avpublicerats.
+eller
 
-   Knappen **Avpublicera** ändras till **Publicera**.
+Klicka på namnet på begärandeformuläret för att öppna det och klicka sedan på **Avpublicera** i det övre högra hörnet av begärandeformuläret.
 
-1. Klicka på **Spara**.
+![Avpubliceringsknappen är markerad](assets/unpublish-button-highlighted.png)
 
-   Det går inte längre att komma åt formuläret från länken <!--or from the request queue in the Requests area of Workfront-->.
+En bekräftelse visas längst ned på skärmen som meddelar att formuläret har avpublicerats.
+
+Länken eller knappen **Avpublicera** ändras till **Publicera**.
+
+1. (Villkorligt) Klicka på **Spara** om du avpublicerade formuläret efter att du öppnat det.
+
+   Användare kan inte längre komma åt begärandeformuläret från en länk eller från begärandekön i området Begäranden i Workfront.
 
    Alla poster som tidigare lagts till med hjälp av frågeformuläret finns kvar på posttypssidan.
 

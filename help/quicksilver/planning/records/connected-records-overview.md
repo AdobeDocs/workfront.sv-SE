@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
 
 # Översikt över anslutna poster
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ Mer information om hur du kan ansluta poster till varandra eller till ett annat 
 
   Värdena för sökfälten fyller i den Workfront Planning-post som du länkar från automatiskt när de har uppdaterats på den ursprungliga posten eller objektet.
 
-* Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan <!--<span class="preview">and record type</span>--> kan se anslutningarna som du gör mellan poster eller mellan poster och andra programs objekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
-* Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan <!--<span class="preview">and record type</span>--> där de anslutna posterna finns.
+* Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan <span class="preview"> och en posttyp</span> kan se anslutningarna som du gör mellan poster eller mellan poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
+* Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan <span class="preview"> och posttypen </span> där de anslutna posterna finns.
 * Du kan ansluta en post till en eller flera objekt från ett annat program, beroende på vilken typ av anslutning du valde när du kopplade posttyperna. Mer information finns i avsnittet Anslutningstyper i artikeln [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Områden där du kan koppla poster

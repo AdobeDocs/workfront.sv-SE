@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Planning: artikelindex
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -46,7 +50,13 @@ Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som 
    * Workfront licenser och planeringsbehörigheter
    * Behörigheter för planeringsdelning
    * Visa
-   * Dela arbetsytor (posttyper, poster och fält)
+   * Dela arbetsytor (poster och fält)
+
+  <div class="preview">
+
+   * Dela posttyper
+
+  </div>
 
 * [Arkitektur: artikelindex](/help/quicksilver/planning/architecture/architecture-information.md) innehåller följande information:
 

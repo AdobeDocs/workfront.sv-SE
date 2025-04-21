@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
+<!--take out preview and production references at release-->
+
 # Dela poster
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
-<!--take out preview and production references at release-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -34,22 +34,17 @@ Du kan dela en Adobe Workfront Planning-post på följande sätt:
 
 * Kopiera en länk till postens sida när du visar poster i posttypens tabellvy.
 
-* Du kan dela alla poster på en arbetsyta med andra användare genom att dela arbetsytan <!--<span class="preview">and record type</span>-->. Mer information finns i [Dela en arbetsyta](/help/quicksilver/planning/access/share-workspaces.md).
+* Du kan dela alla poster på en arbetsyta med andra användare genom att dela arbetsytan <span class="preview"> och posttypen.</span>
 
-<!-- replace the last sentence above with this: 
+  Mer information finns i följande artiklar:
 
-For more information see the following articles:
+   * [Dela en arbetsyta](/help/quicksilver/planning/access/share-workspaces.md)
 
-* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+  <div class="preview">
 
+   * [Dela en posttyp](/help/quicksilver/planning/access/share-record-types.md)
 
-<div class="preview">
-
-* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>
-
--->
+  </div>
 
 I den här artikeln beskrivs hur du kan kopiera en länk till en posts sida från en posttyps tabellvy.
 
@@ -109,8 +104,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>  <p>Visa eller högre behörigheter på en arbetsyta för att dela <!--<span class="preview">and record type</span>--> en post med hjälp av en länk </p>
-   <p>Hantera behörigheter till en arbetsyta <!--<span class="preview">and record type</span>--> för att dela posterna på arbetsytan </p>
+   <td>  <p>Visa eller högre behörigheter till en arbetsyta <span class="preview">och posttyp</span> att dela   en post med en länk </p>
+   <p>Hantera behörigheter till en arbetsyta <span class="preview">och posttyp</span> för att dela posterna på arbetsytan </p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
   </tr> 
 <tr> 
@@ -220,26 +215,23 @@ Endast användare med behörigheten Hantera för en arbetsyta kan dela den med a
 Mer information finns i [Dela en arbetsyta](/help/quicksilver/planning/access/share-workspaces.md).
 
 
-<!--
 <div class="preview">
 
-## Share all records in a record type by sharing the record type
+## Dela alla poster i en posttyp genom att dela posttypen
 
-In the Production environment, records inherit permissions from the workspace. 
+I produktionsmiljön ärver poster behörigheter från arbetsytan.
 
-In the Preview environment, records inherit permissions from the record type. 
+I förhandsgranskningsmiljön ärver poster behörigheter från posttypen.
 
-By default, record types inherit permissions from the workspace. 
+Som standard ärver posttyper behörigheter från arbetsytan.
 
-However, you can do any of the following:
+Du kan dock göra något av följande:
 
-* Turn off inherited permissions from the workspace on a record type. This removes permissions from the records. 
-* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
+* Inaktivera ärvda behörigheter från arbetsytan för en posttyp. Detta tar bort högre behörigheter till posterna, men behåller behörigheterna Visa till arbetsytan, posttypen och posterna.
+* Bevilja manuellt behörigheter till användare för en posttyp, även om de inte har några behörigheter till arbetsytan. Detta ger dem automatiskt behörigheten Visa på arbetsytan. Detta ger användarna behörighet till posterna.
 
-Only users with Manage permissions to a workspace can share its record types and records with others. 
+Endast användare med behörigheten Hantera på en arbetsyta kan dela sina posttyper och poster med andra.
 
-For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md).
 
 </div>
-
--->
