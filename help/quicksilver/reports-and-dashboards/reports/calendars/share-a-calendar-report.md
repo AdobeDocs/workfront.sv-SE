@@ -6,7 +6,7 @@ description: Du kan dela en kalender med andra användare och göra den tillgän
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -78,11 +78,15 @@ Så här delar du en kalender i [!DNL Workfront]:
    * **[!UICONTROL View]:** Användare kan granska och dela kalendern.
 
      ![Dela kalender med Visa åtkomst](assets/calendar-share-view-permissions-350x249.png)
-     <!--![Share calendar with view access](assets/view-calendar.png)-->
+
+     <!--
+      ![Share calendar with view access](assets/view-calendar.png)
+      -->
 
    * **[!UICONTROL Manage]:** Användare har fullständig åtkomst till kalendern, minus administrativa behörigheter, som ges på åtkomstnivån, plus alla visningsbehörigheter.
 
      ![Dela kalendern med Hantera åtkomst](assets/calendar-share-manage-permissions-350x241.png)
+
      <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
