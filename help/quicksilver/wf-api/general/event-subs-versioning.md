@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
+source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,16 @@ Följande ändringar har gjorts för händelseprenumerationer version 2:
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Parametervärden</p> </td> 
-   <td> <p>För alla objekt som skapats från en mall som innehåller ett anpassat formulär, skickades en <code>CREATE</code>-händelse och sedan skickades en <code>UPDATE</code> med parametervärdena (inklusive beräknade fält och deras värden).    </p> </td> 
+   <td> <p>Beräknade parametervärden</p> </td> 
+   <td> <p>Alla objekt som skapas från en mall som innehåller ett anpassat formulär med beräknade parametervärden, en <code>CREATE</code>-händelse skickas och sedan skickas en <code>UPDATE</code> med parametervärdena (inklusive beräknade fält och deras värden). </p> </td> 
    <td> <p>När ett objekt skapas från en mall som innehåller ett anpassat formulär med beräknade parametervärden, skickas bara en <code>CREATE</code>-händelse och den kommer att innehålla parametervärden inklusive beräknade fält.</p> </td> 
-   <td> <p>Om du prenumererar på <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>Om du har en prenumeration på <code>UPDATE</code> händelser och väntar på att få en <code>UPDATE</code> -händelse efter att ett objekt har skapats med beräknade parametervärden, kommer du inte längre att få den <code>UPDATE</code> händelsen. Om du vill se beräknade parametervärden när du skapar objekt måste du skapa ytterligare en <code>CREATE</code>-prenumeration.</p> </td> 
   </tr> 
-   
-   <td> <p>Multi-Select type fields</p> </td> 
-   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
+  <tr> 
+   <td> <p>Flervalsfält</p> </td> 
+   <td> <p>För alla typer av händelser som innehåller en ändring i ett flervalsfält konverteras det till och skickas som en sträng om fältet bara innehåller ett värde. Annars skickas den som en array. </p><p>Exempel:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> konverteras och skickas som <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> skickas som <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Oavsett hur många värden som finns i arrayen skickas den som en array. </p><p>Exempel:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> skickas som <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> skickas som <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Om du har en prenumeration med ett filter i ett flervalsfält, och värdet som en sträng, måste du skapa en ny prenumeration med samma filter som har värdet som en array. </p> </td> 
   </tr> 
  </tbody> 
 </table>
