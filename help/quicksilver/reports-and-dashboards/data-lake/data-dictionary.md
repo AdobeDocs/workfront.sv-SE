@@ -7,9 +7,9 @@ description: Den här sidan innehåller information om datastrukturen och inneh�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 0%
 
 ---
@@ -475,10 +475,10 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>SYSYID</td>
              <td>-</td>
-             <td colspan="2">Inte ett förhållande; Används för interna applikationer</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
-             <td>TASKID TASKID</td>
+             <td>AKTIVITET</td>
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>AKTIVITET</td>
@@ -1669,7 +1669,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
             <th>Gränssnittsreferenser</th>
             <th>API-referens</th>
             <th>API-etikett</th>
-            <th>Utsikt över Data Lake</th>
+            <th>Datasjövyer</th>
         </tr>
       </thead>
       <tbody>
@@ -1890,6 +1890,235 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
              <td>SYSID</td>
              <td>-</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dokumentgodkännande (NYTT)
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Godkännande av dokument</td>
+            <td>Godkännande</td>
+            <td>Ej tillämpligt</td>
+            <td>Ej tillämpligt</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>Approval_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">GODKÄND</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>OBS! Detta är också ID:t för det DOCUMENTVERSION-objekt som godkännandet är kopplat till.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på ASSETTYPE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dokumentgodkännandefas (NYTT)
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dokumentgodkännandefas</td>
+            <td>Godkännandefas</td>
+            <td>Ej tillämpligt</td>
+            <td>Ej tillämpligt</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>Approval_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">GODKÄND</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>GODKÄND</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+    </tbody>
+</table>
+
+### Deltagare i dokumentgodkännandefasen (NYTT)
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Deltagare i dokumentgodkännandefasen</td>
+            <td>Godkännandebeslut</td>
+            <td>Ej tillämpligt</td>
+            <td>Ej tillämpligt</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">GODKÄND</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>GODKÄND</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på ASSETTYPE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i fältet ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">BESLUIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+        <tr>
+             <td class="key">DELTAGARANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">Variabel, baserad på PARTICIPANTTYPE</td>
+             <td>Primärnyckeln/ID för objektet som identifieras i fältet PARTICIPANTTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">BEGÄRAN</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
         </tr>
     </tbody>
 </table>
@@ -3649,19 +3878,19 @@ Själv</td>
              <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ANVÄNDAR-ID</td>
+             <td>USERID</td>
         </tr>
 
 
-    
+    &lt;/tbody>
 </table>
 
-### Integrering av objekt
+### Objektintegrering
 
 <table>
     <thead>
         <tr>
-            <th>Namn på Workfront-entitet</th>
+            <th>Workfront entitetsnamn</th>
             <th>Gränssnittsreferenser</th>
             <th>API-referens</th>
             <th>API-etikett</th>
@@ -6403,7 +6632,7 @@ Själv</td>
              <td>OWNERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ANVÄNDAR-ID</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>PRIVATERATECARDID</td>
@@ -7562,10 +7791,10 @@ Begränsad kundtillgänglighet
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
-             <td>TIDRAPPORTPROFILID</td>
+             <td>TIMESHEETPROFILEID</td>
              <td>FK</td>
              <td>TIMESHEETPROFILES_CURRENT</td>
-             <td>TIDRAPPORTPROFILID</td>
+             <td>TIMESHEETPROFILEID</td>
         </tr>
         <tr>
              <td>UITEMPLATEID</td>

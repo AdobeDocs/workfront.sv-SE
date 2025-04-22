@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
+source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1911'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 >I de flesta fall släpps varje uppdatering först till förhandsvisningsmiljön, och aktiveras sedan inkrementellt i produktionsmiljön för en växande del av kunderna med början på det angivna produktionsreleasedatumet.
 
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+## Workfront navigering och sökning
+
+### Gränssnittsuppdatering för avancerad sökning
+
+**Förhandsversion: 17 april; Produktionsrelease: Ska tillkännages**
+
+Vi har uppdaterat området Avancerad sökning med följande ändringar:
+
+* En ny flik för Fullständig sökning har lagts till. På den här fliken kan du söka efter typ, inmatningsdatum, kategori och senast uppdaterad av.
+* Filtret på fliken Avancerad sökning är något annorlunda. Nu är filtret inte förifyllt. Du måste aktivera det och skapa filtret från grunden. Filtret finns inte kvar om sidan uppdateras.
+
+Mer information finns i [Sök [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## Administration och installation
 
