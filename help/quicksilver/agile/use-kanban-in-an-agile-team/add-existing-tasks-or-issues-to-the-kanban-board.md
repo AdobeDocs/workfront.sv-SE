@@ -6,7 +6,7 @@ description: Du kan lägga till vilken uppgift eller utgåva som helst i en Kanb
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
+source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -65,6 +65,7 @@ Så här lägger du till en aktivitet eller ett problem på en [!UICONTROL Kanba
    >[!NOTE]
    >
    >Om flera team har tilldelats uppgiften eller utgåvan kan arbetsuppgiften bara visas på en teamets [!DNL kanban]-anslagstavla.
+
 1. Klicka på **Lägg till**.
 
 
@@ -82,6 +83,7 @@ Så här lägger du till en aktivitet eller ett problem i en [!UICONTROL Kanban]
    >[!NOTE]
    >
    >Om flera team har tilldelats uppgiften eller utgåvan kan arbetsuppgiften bara visas på en teamets [!DNL kanban]-anslagstavla.
+
 1. Klicka på **Lägg till**.
 
 

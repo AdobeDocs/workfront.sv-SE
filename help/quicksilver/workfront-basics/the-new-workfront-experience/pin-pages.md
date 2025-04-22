@@ -3,11 +3,11 @@ navigation-topic: the-new-workfront-experience
 title: Fäst sidor för att anpassa arbetsytan
 description: Du kan fästa ditt viktigaste arbete [!DNL Adobe Workfront] för ökad synlighet, bättre ordning och snabbare åtkomst. Fastnålade sidor är alltid tillgängliga från överkanten på alla sidor i Workfront.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: e8a3f47a33b862a29000436d7c08c1a0e9371907
+source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Du kan tilldelas till en layoutmall som redan har fästa sidor (vilket beskrivs 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -29,27 +31,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
+   <td> <p>Nytt: Medarbetare</p> 
+   <p>eller</p>
+     <p>Aktuell: Begäran</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Fäst en sida
 
-1. Gå till sidan som du vill fästa.
+1. Navigera till sidan som du vill fästa. Detta kan vara vilket arbetsobjekt som helst, t.ex. ett projekt, en uppgift, en begärandekö.
 
-   Detta kan vara vilket arbetsobjekt som helst, t.ex. ett projekt, en uppgift, en begärandekö.
-
-1. Klicka på **[!UICONTROL Pin current page]** överst på sidan.
-
-   Den fästa sidan är nu tillgänglig från överkanten på en sida i [!DNL Workfront].
+1. Klicka på **[!UICONTROL Pin current page]** i det övre vänstra hörnet på sidan. Den fästa sidan är nu tillgänglig från överkanten på en sida i [!DNL Workfront].
 
 ## Åtkomst till en fäst sida
 
@@ -61,31 +64,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Om du har många sidor fästa kan du behöva klicka på **[!UICONTROL More]-menyn** ![](assets/more-icon-spectrum.png) för att visa fler fästa sidor.
+   Om du har många sidor fästa klickar du på ikonen **[!UICONTROL More]** ![Klicka på ikonen Mer](assets/more-icon.png) om du vill visa fler fästa sidor.
+
+   ![Visa fler fästa sidor](assets/display-pinned-pages.png)
 
    Den fästa sidan visas.
 
-## Byt namn på fästa sidor
+## Byta namn på en fäst sida
 
-Du kan ändra namnet på en fäst sida så att det blir mer meningsfullt för dig.
-
-1. Hovra över den fästa sidan i den övre navigeringen eller **[!UICONTROL More menu]**.
-1. Klicka på ikonen Mer ![](assets/more-icon.png) bredvid stiftets namn och välj **[!UICONTROL Rename pin]**.
+1. Hovra över den fästa sidan i den övre navigeringen.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) som visas bredvid stiftets namn och välj **[!UICONTROL Rename pin]**.
 
    ![Byt namn på stiftet](assets/pin-menu.png)
 
-1. Skriv det nya stiftnamnet och klicka på **Spara**.
+1. Skriv det nya stiftnamnet och klicka sedan på **Spara**.
 
-   ![Klicka på bockmarkeringen för att byta namn på stiftet](assets/new-pin-name.png)
+   ![Klicka på bockmarkeringen för att byta namn på stiftet](assets/rename-pin-dialog-box.png)
 
 
 ## Ändra ordning på fästa sidor
 
 Du kan ändra ordningen som fästa sidor visas.
 
-1. Håll pekaren över den fästsida som du vill flytta och klicka sedan på ikonen **Mer** .
+1. Håll pekaren över den fästsida som du vill flytta och klicka sedan på ikonen **Mer** ![Mer](assets/more-icon.png) .
 1. Välj **Flytta åt vänster** eller **Flytta åt höger** om du vill flytta stiftet.
-1. (Valfritt) Välj **Flytta längst fram** om du vill flytta stiftet längst till höger i stiftet.
+1. (Valfritt) Välj **Flytta längst fram** om du vill flytta stiftet längst till vänster på stiftet.
 
    ![flytta punkter](assets/pin-menu.png)
 
@@ -93,9 +96,9 @@ Du kan ändra ordningen som fästa sidor visas.
 
 ## Ta bort en fäst sida
 
-1. Klicka på ikonen Mer ![](assets/more-icon.png) bredvid det häftstift du vill ta bort.
-1. Klicka på **Ta bort nål**.
+1. Klicka på ikonen **Mer** ![](assets/more-icon.png) bredvid det häftstift du vill ta bort.
+1. Klicka på **Ta bort nål**. Sidan är inte längre tillgänglig från överkanten av någon sida i [!DNL Workfront].
 
    ![Ta bort stift](assets/pin-menu.png)
 
-   Sidan är inte längre tillgänglig från överkanten av någon sida i [!DNL Workfront].
+
