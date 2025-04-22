@@ -7,9 +7,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,52 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för det här dokumentet:
 
    * **Visa**: Användaren kan granska och dela dokumentet.
-   * **Hantera**: Användaren har fullständig åtkomst till programmet utan administratörsbehörighet, som ges på åtkomstnivån (inklusive alla visningsbehörigheter).
+   * **Hantera**: Användaren har fullständig åtkomst till dokumentet utan administratörsbehörighet, som ges på åtkomstnivån (inklusive alla visningsbehörigheter).
 
-1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för programmet.
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter i dokumentet.
 
    ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-options-icon.png)
 
-1. (Valfritt) Om du vill inaktivera ärvda behörigheter för dokumentets underordnade objekt klickar du på **Inaktivera** i linje med **Ärvda behörigheter**.
+1. (Valfritt) Om du vill inaktivera ärvda behörigheter för dokumentets underordnade objekt klickar du på **Inaktivera** inline med **Ärvda behörigheter**.
 
 1. (Villkorligt) Om du vill kopiera den offentliga länken som gör att du kan dela dokumentet med externa användare klickar du på **Kopiera offentlig länk**.
 
    >[!CAUTION]
    >
    >Du bör vara försiktig när du delar dokument som innehåller konfidentiell information med externa användare. På så sätt kan de visa information utan att vara Workfront-användare eller del av organisationen.
+
+1. Klicka på **Spara**.
+
+## Dela flera dokument samtidigt
+
+{{step1-to-documents}}
+
+1. På fliken **Alla dokument** på sidan **Dokument** håller du ned **Kommando** (Mac) eller **Ctrl** (Windows) på tangentbordet och klickar sedan på de dokument du vill dela.
+
+1. Klicka på ikonen **Dela** ![Dela](assets/share-icon.png) överst på sidan. Delningen modal öppnas.
+
+   ![Ikonen Dela](assets/share-documents-in-bulk.png)
+
+1. I fältet **Bevilja dokumentåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela dokumenten med och klickar sedan på namnet när det visas i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela dokument med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj dokumentets åtkomstnivå:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till dokumenten har åtkomst till det (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa dokumenten utan en inbjudan.
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för dokumenten:
+
+   * **Visa**: Användaren kan granska och dela dokumenten.
+   * **Hantera**: Användaren har fullständig åtkomst till dokumenten utan administratörsbehörighet, som ges på åtkomstnivån (inklusive alla visningsbehörigheter).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för dokumenten.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-options-icon.png)
 
 1. Klicka på **Spara**.
 

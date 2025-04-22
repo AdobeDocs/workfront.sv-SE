@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa ell
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Du kan dela en uppgift på följande sätt:
 
    ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-permission-options.png)
 
-1. (Valfritt) Om du vill inaktivera ärvda behörigheter för aktivitetens underordnade objekt klickar du på **Inaktivera** i linje med **Ärvda behörigheter**.
+1. (Valfritt) Om du vill inaktivera ärvda behörigheter för aktivitetens underordnade objekt klickar du på **Inaktivera** inline med **Ärvda behörigheter**.
 
 1. (Valfritt) Om du snabbt vill dela uppgiften med hjälp av en länk klickar du på **Kopiera länk** och vidarebefordrar den till mottagaren.
 
