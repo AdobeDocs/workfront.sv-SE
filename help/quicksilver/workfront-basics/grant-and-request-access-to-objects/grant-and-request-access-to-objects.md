@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: Bevilja och begär behörigheter för objekt
+title: 'Bevilja och begär behörigheter för objekt: artikelindex'
 description: Läs de här artiklarna för att lära dig hur du ger och begär behörighet till objekt i Workfront.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# Bevilja och begär behörigheter för objekt
+# Bevilja och begär behörigheter för objekt: artikelindex
 
 Det här avsnittet innehåller följande artiklar om hur du kan bevilja och begära behörighet för objekt:
 
@@ -25,7 +25,7 @@ Det här avsnittet innehåller följande artiklar om hur du kan bevilja och beg�
 * [Begär åtkomst till objekt](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Dela ett projekt i Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [Dela ett projekt](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [Dela en aktivitet](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [Dela ett problem](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

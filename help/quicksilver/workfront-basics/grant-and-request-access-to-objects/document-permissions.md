@@ -4,12 +4,12 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: Din Adobe Workfront-administratör ger användarna åtkomst till att visa eller redigera dokument när de tilldelar åtkomstnivåer enligt Bevilja åtkomst till dokument.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,42 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
 Användaren som överför ett dokument till Workfront har som standard behörigheten Hantera.
 
 Mer information om hur du delar en hel dokumentmapp finns i [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande för att kunna dela objekt:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Alla </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard</p> 
+   eller
+   <p>Aktuell: Arbete eller högre</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till de objekt som du vill dela</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa behörigheter eller högre för de objekt som du vill dela</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på vid dokumentdelning
 
@@ -57,6 +93,52 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
   Du kan ta bort ärvda behörigheter i dokument manuellt. Mer information finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * Ett bifogat dokument ärver endast behörigheter från det objekt som det bifogades till. Om du skapar en mapp på objektet och flyttar dokumentet till mappen, ärver den mappens behörigheter. Men om du skapar en mapp i ett överordnat eller indirekt överordnat objekt och flyttar dokumentet till den mappen, ärver den inte mappens behörigheter.
+
+## Dela ett dokument
+
+{{step1-to-documents}}
+
+1. På sidan **Dokument** för du muspekaren över dokumentet som du vill dela och klickar på länken **Dokumentinformation** som visas. Sidan **Dokumentinformation** öppnas.
+
+   ![Länk för dokumentinformation](assets/document-details-link.png)
+
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
+
+   ![Dela ett dokument](assets/share-a-document-350x160.png)
+
+1. I fältet **Bevilja dokumentåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela dokumentet med och klickar sedan på namnet när det visas i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela ett dokument med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj dokumentets åtkomstnivå:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till dokumentet har åtkomst till det (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa dokumentet utan en inbjudan.
+
+1. (Valfritt) Om du vill göra dokumentet offentligt klickar du på kugghjulsikonen ![Välj kugghjulsikonen](assets/gear-icon.png) och klickar sedan på rutan i linje med **Gör den offentlig för externa användare**. Knappen **Kopiera offentlig länk** visas längst ned i dialogrutan.
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för det här dokumentet:
+
+   * **Visa**: Användaren kan granska och dela dokumentet.
+   * **Hantera**: Användaren har fullständig åtkomst till programmet utan administratörsbehörighet, som ges på åtkomstnivån (inklusive alla visningsbehörigheter).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för programmet.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-options-icon.png)
+
+1. (Valfritt) Om du vill inaktivera ärvda behörigheter för dokumentets underordnade objekt klickar du på **Inaktivera** i linje med **Ärvda behörigheter**.
+
+1. (Villkorligt) Om du vill kopiera den offentliga länken som gör att du kan dela dokumentet med externa användare klickar du på **Kopiera offentlig länk**.
+
+   >[!CAUTION]
+   >
+   >Du bör vara försiktig när du delar dokument som innehåller konfidentiell information med externa användare. På så sätt kan de visa information utan att vara Workfront-användare eller del av organisationen.
+
+1. Klicka på **Spara**.
+
 
 ## Dokumentbehörigheter
 

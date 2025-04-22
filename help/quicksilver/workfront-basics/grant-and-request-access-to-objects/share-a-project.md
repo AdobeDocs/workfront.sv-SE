@@ -1,19 +1,19 @@
 ---
-title: Dela ett projekt i Adobe Workfront
+title: Dela ett projekt
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redigera projekt när du tilldelar din åtkomstnivå. Mer information finns i Bevilja åtkomst till projekt.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
 
-# Dela ett projekt i Adobe Workfront
+# Dela ett projekt
 
 <!-- Audited: 1/2024 -->
 
@@ -22,6 +22,43 @@ Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redig
 Förutom den åtkomstnivå som användarna har beviljats kan du även ge dem behörighet att visa, Contribute eller hantera specifika projekt som du har tillgång till för delning.
 
 Behörigheterna är specifika för ett objekt i Workfront och definierar vilka åtgärder man kan vidta för det objektet.
+
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande för att kunna dela objekt:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Alla </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard</p> 
+   eller
+   <p>Aktuell: Arbete eller högre</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till de objekt som du vill dela</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa behörigheter eller högre för de objekt som du vill dela</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du delar projekt
 
@@ -46,6 +83,13 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * Du kan ta bort ärvda behörigheter från ett projekt så att de underordnade objekten inte ärver dem. Mer information om hur du tar bort ärvda behörigheter från objekt finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
+## Begränsningar för olika licenstyper
+
+* Användare med en Worker-licens har inte behörighet att hantera projekt. För arbetare är den högsta delningsbehörigheten Contribute.
+* Användare med en Request-licens kan visa projektinformation, men har begränsad projektåtkomst.
+* Ett undantag till att ändra status för ett projekt inträffar när en användare med behörigheterna Visa eller Contribute också inkluderas i en godkännandeprocess. De kan godkänna projektet, vilket ändrar projektets status, men statusen är fördefinierad för godkännande eller för avvisning.
+* För att kunna kopiera ett projekt måste användaren också ha tillgång till dem för att kunna skapa projekt på åtkomstnivå.
+
 ## Olika sätt att dela ett projekt {#ways-to-share-a-project}
 
 Du kan dela ett projekt på följande sätt:
@@ -53,25 +97,18 @@ Du kan dela ett projekt på följande sätt:
 * Manuellt genom att göra något av följande:
 
    * Lägga till användare i projektteamet. När du lägger till användare i projektteamet får de automatiskt behörigheten Visa i projektet.\
-     Mer information om hur du lägger till användare i ett projektteam finns i avsnittet&quot;Lägga till användare i ett projektteam&quot; i [Översikt över projektteamet](../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Mer information om hur du lägger till användare i ett projektteam finns i avsnittet Lägga till användare i ett projektteam i [Översikt över projektteamet](../../manage-work/projects/planning-a-project/project-team-overview.md).
    * Dela projekten enskilt eller gruppvis när du använder alternativet **Delning**.
 
-     Att dela ett projekt påminner om att dela alla andra objekt i Adobe Workfront.
-
-     Mer information om hur du delar objekt i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-
-* Gör något av följande automatiskt:
+* Automatiskt genom att göra något av följande:
 
    * Placera ett projekt i ett **Portfolio** eller **Program** som redan delas med andra. Användarna får samma behörigheter till projektet som de har för portföljen eller programmet.\
      Mer information om hur du lägger till ett projekt i en **Portfolio** finns i [Lägga till projekt i en portfölj](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
      Mer information om hur du lägger till ett projekt i ett **program** finns i [Lägga till ett projekt i ett program](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-
-     Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
    * Lägg till entiteter i projektdelning på en mall som används för att skapa projektet. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Definiera projektåtkomstmallen.
-
-     Mer information om hur du definierar projektåtkomstmallen finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
      >[!TIP]
      >
@@ -100,12 +137,87 @@ Du kan dela ett projekt på följande sätt:
 </ol>
 -->
 
-## Begränsningar för olika licenstyper
+## Dela ett projekt
 
-* Användare med en Worker-licens har inte behörighet att hantera projekt. För arbetare är den högsta delningsbehörigheten Contribute.
-* Användare med en Request-licens kan visa projektinformation, men har begränsad projektåtkomst.
-* Ett undantag till att ändra status för ett projekt inträffar när en användare med behörigheterna Visa eller Contribute också inkluderas i en godkännandeprocess. De kan godkänna projektet, vilket ändrar projektets status, men statusen är fördefinierad för godkännande eller för avvisning.
-* För att kunna kopiera ett projekt måste användaren också ha tillgång till dem för att kunna skapa projekt på åtkomstnivå.
+{{step1-to-projects}}
+
+1. På sidan **Projekt** väljer du det projekt du vill dela i listan. Projektsidan öppnas.
+
+1. Klicka på **Dela** till höger om projektnamnet. Dialogrutan **Dela [Projektnamn]** öppnas.
+
+   ![Knappen Dela projekt](assets/share-project.png)
+
+1. I fältet **Bevilja projektåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela projektet med och klickar sedan på namnet i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela ett projekt med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj projektets åtkomstnivå:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till projektet har åtkomst till det (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa projektet utan en inbjudan.
+
+1. (Valfritt) Om du automatiskt vill använda de projektåtkomstinställningar som du har valt för alla nya projekt klickar du på ikonen **Kugga** ![Markera kugghjulsikonen](assets/gear-icon.png) och markerar kryssrutan i linje med **Ange som mall för projektåtkomst**.
+
+   >[!NOTE]
+   >
+   >Projektets åtkomstmall åsidosätter delningsstandardinställningarna som du har fått av Workfront-administratören på din åtkomstnivå.\
+   >Mer information om hur du anger delningsstandardvärden för projekt på åtkomstnivå finns i [Bevilja åtkomst till projekt](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+
+   <!--
+   >this note also appears in Understanding Project Permissions-->
+
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för det här projektet:
+
+
+   * **Visa**: Användaren kan granska och dela projektet.
+   * **Contribute**: Användaren kan göra uppdateringar, logga information, göra mindre ändringar och dela projektet (inkluderar även alla visningsbehörigheter).
+   * **Hantera**: Användaren har fullständig åtkomst till projektet utan administratörsbehörighet, som ges på åtkomstnivån (inkluderar även behörigheterna Visa och Contribute).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter i projektet.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-permission-options.png)
+
+1. (Valfritt) Om du snabbt vill dela projektet med hjälp av en länk klickar du på **Kopiera länk** och vidarebefordrar den till mottagaren.
+
+1. Klicka på **Spara**.
+
+## Dela projekt i grupp
+
+{{step1-to-projects}}
+
+1. På sidan **Projekt** markerar du rutan till vänster om varje projekt som du vill dela och klickar sedan på ikonen **Dela** ![Dela](assets/share-icon.png) längst upp på sidan. Delningen modal öppnas.
+
+   ![Dela projekt gruppvis](assets/bulk-share-icon.png)
+
+1. I fältet **Bevilja projektåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela projekten med och klickar sedan på namnet när det visas i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela projekt med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj åtkomstnivå för projekten:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till projekten har åtkomst till dem (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa projekten utan en inbjudan.
+
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för projekten:
+
+   * **Visa**: Användaren kan granska och dela projekten.
+   * **Contribute**: Användaren kan göra uppdateringar, logga information, göra mindre ändringar och dela projekten (inklusive alla visningsbehörigheter).
+   * **Hantera**: Användaren har fullständig åtkomst till projekten utan administratörsbehörighet, som ges på åtkomstnivån (inkluderar även behörigheterna Visa och Contribute).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för projekten.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-permission-options.png)
+
+1. Klicka på **Spara**.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

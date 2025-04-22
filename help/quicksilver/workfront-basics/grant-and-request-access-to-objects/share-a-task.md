@@ -3,12 +3,12 @@ title: Dela en uppgift
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera uppgifter när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till uppgifter finns i Bevilja åtkomst till uppgifter.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,43 @@ Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera u
 Förutom den åtkomstnivå som användarna har beviljats kan du även ge dem behörighet att visa, Contribute eller hantera specifika uppgifter som du har åtkomst till att dela.
 
 Behörigheterna är specifika för ett objekt i Workfront och definierar vilka åtgärder man kan vidta för det objektet.
+
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande för att kunna dela objekt:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Alla </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard</p> 
+   eller
+   <p>Aktuell: Arbete eller högre</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till de objekt som du vill dela</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa behörigheter eller högre för de objekt som du vill dela</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du delar en uppgift
 
@@ -46,9 +83,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 Du kan dela en uppgift på följande sätt:
 
-* Manuellt, antingen individuellt eller gruppvis. Att dela uppgifter manuellt påminner om att dela andra objekt i Workfront.
-
-  Mer information om hur du delar objekt i Workfront finns i  [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manuellt, antingen individuellt eller gruppvis.
 
 * Automatiskt genom att göra följande:
 
@@ -59,7 +94,77 @@ Du kan dela en uppgift på följande sätt:
 
   >[!TIP]
   >
-  >Om du inte anger vilka aktivitetsbehörigheter du vill att användare ska ha när de tilldelas till aktiviteterna i projektet får de som standard samma behörigheter som de har i projektet.
+  >Om du inte anger vilka aktivitetsbehörigheter du vill att användarna ska ha när de tilldelas till aktiviteterna i projektet får de som standard samma behörigheter som de har i projektet.
+
+## Dela en uppgift
+
+1. Navigera till uppgiften som du vill dela.
+
+1. Klicka på **Dela** till höger om aktivitetsnamnet. Dialogrutan **Dela [aktivitetsnamn]** öppnas.
+
+   ![Knappen Dela aktivitet](assets/share-task-button.png)
+
+1. I fältet **Bevilja aktivitetsåtkomst till** börjar du med att skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela uppgiften med och klickar sedan på namnet i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela en uppgift med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj aktivitetens åtkomstnivå:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till aktiviteten har åtkomst till den (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa uppgiften utan en inbjudan.
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för den här uppgiften:
+
+   * **Visa**: Användaren kan granska och dela uppgiften.
+   * **Contribute**: Användaren kan göra uppdateringar, logga information, göra mindre ändringar och dela aktiviteten (inklusive alla visningsbehörigheter).
+   * **Hantera**: Användaren har fullständig åtkomst till uppgiften utan administratörsbehörighet, som ges på åtkomstnivån (inkluderar även behörigheterna Visa och Contribute).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för uppgiften.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-permission-options.png)
+
+1. (Valfritt) Om du vill inaktivera ärvda behörigheter för aktivitetens underordnade objekt klickar du på **Inaktivera** i linje med **Ärvda behörigheter**.
+
+1. (Valfritt) Om du snabbt vill dela uppgiften med hjälp av en länk klickar du på **Kopiera länk** och vidarebefordrar den till mottagaren.
+
+1. Klicka på **Spara**.
+
+
+## Dela aktiviteter satsvis
+
+1. Navigera till det projekt som innehåller de uppgifter du vill dela.
+
+1. På fliken **Uppgifter** på projektsidan markerar du rutan till vänster om varje uppgift som du vill dela och klickar sedan på ikonen **Dela** ![Dela](assets/share-icon.png) längst upp på sidan. Delningen modal öppnas.
+
+   ![Dela aktiviteter gruppvis](assets/bulk-share-tasks.png)
+
+1. I fältet **Bevilja aktivitetsåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela aktiviteterna med och klickar sedan på namnet när det visas i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela uppgifter med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj åtkomstnivå för aktiviteterna:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till uppgifterna har åtkomst till dem (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa uppgifter utan en inbjudan.
+
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för uppgifterna:
+
+   * **Visa**: Användaren kan granska och dela aktiviteterna.
+   * **Contribute**: Användaren kan göra uppdateringar, logga information, göra mindre ändringar och dela aktiviteterna (inklusive alla visningsbehörigheter).
+   * **Hantera**: Användaren har fullständig åtkomst till uppgifterna utan administratörsbehörighet, som ges på åtkomstnivån (inkluderar även behörigheterna Visa och Contribute).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för aktiviteterna.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-permission-options.png)
+
+1. Klicka på **Spara**.
 
 ## Uppgiftsbehörigheter
 

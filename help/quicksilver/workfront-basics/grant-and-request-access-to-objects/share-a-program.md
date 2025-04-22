@@ -4,12 +4,12 @@ product-area: projects
 keywords: dela,program,behörigheter
 navigation-topic: grant-and-request-access-to-objects
 description: Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redigera program när du tilldelar din åtkomstnivå. Du måste ha en planlicens för att kunna redigera ett program.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,43 @@ Din Adobe Workfront-administratör kan ge dig åtkomst till att visa eller redig
 Förutom den åtkomstnivå du har beviljats kan du även få behörighet att visa eller hantera specifika program från användare som kan dela dem med dig. Mer information om åtkomstnivåer och behörigheter finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Behörigheterna är specifika för varje objekt i Workfront och definierar vilka åtgärder som användare kan vidta för det objektet.
+
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande för att kunna dela objekt:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Alla </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard</p> 
+   eller
+   <p>Aktuell: Arbete eller högre</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till de objekt som du vill dela</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa behörigheter eller högre för de objekt som du vill dela</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du delar ett program
 
@@ -44,6 +81,76 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
   Mer information om objekthierarkin i Workfront finns i [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Du kan ta bort ärvda behörigheter från programmet. Mer information om hur du tar bort behörigheter från objekt finns i  [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+
+## Dela ett program
+
+{{step1-to-programs}}
+
+1. På sidan **Program** väljer du det program du vill dela. Programsidan öppnas.
+
+1. Klicka på **Dela** till höger om programnamnet. Dialogrutan **Dela [programnamn]** öppnas.
+
+   ![Knappen Dela program](assets/share-program-button.png)
+
+1. I fältet **Bevilja programåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela programmet med och klickar sedan på namnet när det visas i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela ett program med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj programmets åtkomstnivå:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till programmet har åtkomst till det (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa programmet utan en inbjudan.
+
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för det här programmet:
+
+   * **Visa**: Användaren kan granska och dela programmet.
+   * **Hantera**: Användaren har fullständig åtkomst till programmet utan administratörsbehörighet, som ges på åtkomstnivån (inklusive alla visningsbehörigheter).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för programmet.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-options-icon.png)
+
+1. (Valfritt) Om du vill inaktivera ärvda behörigheter för programmets underordnade objekt klickar du på **Inaktivera** i linje med **Ärvda behörigheter**.
+
+1. (Valfritt) Om du snabbt vill dela programmet via en länk klickar du på **Kopiera länk** och vidarebefordrar den till mottagaren.
+
+1. Klicka på **Spara**.
+
+## Dela program i grupp
+
+{{step1-to-programs}}
+
+1. På sidan **Program** markerar du rutan till vänster om varje program som du vill dela och klickar sedan på ikonen **Dela** ![Dela](assets/share-icon.png) längst upp på sidan. Delningen modal öppnas.
+
+   ![Dela program satsvis](assets/bulk-share-programs.png)
+
+1. I fältet **Bevilja programåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela programmen med och klickar sedan på namnet i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela program med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj åtkomstnivå för programmen:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till programmen har åtkomst till dem (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa programmen utan en inbjudan.
+
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för programmen:
+
+   * **Visa**: Användaren kan granska och dela programmen.
+   * **Hantera**: Användaren har fullständig åtkomst till programmen utan administratörsbehörighet, som ges på åtkomstnivån (inklusive alla visningsbehörigheter).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för programmen.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-options-icon.png)
+
+1. Klicka på **Spara**.
 
 ## Programbehörigheter
 

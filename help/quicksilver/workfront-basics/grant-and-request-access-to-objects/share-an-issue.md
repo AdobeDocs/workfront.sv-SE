@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Dela ett ärende
 description: Din Adobe Workfront-administratör ger användarna åtkomst att visa eller redigera problem när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till problem finns i Bevilja åtkomst till problem.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,43 @@ Din Adobe Workfront-administratör ger användarna åtkomst att visa eller redig
 Förutom den åtkomstnivå som användarna har beviljats kan du även ge dem behörighet att visa, Contribute eller hantera specifika problem som du har åtkomst till att dela. Mer information om åtkomstnivåer och behörigheter finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Behörigheterna är specifika för ett objekt i Workfront och definierar vilka åtgärder man kan vidta för det objektet.
+
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande för att kunna dela objekt:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Alla </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard</p> 
+   eller
+   <p>Aktuell: Arbete eller högre</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till de objekt som du vill dela</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td> <p>Visa behörigheter eller högre för de objekt som du vill dela</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när det gäller att dela problem
 
@@ -45,7 +82,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 ## Olika sätt att dela ett problem
 
-* Manuellt, vilket liknar delning av andra objekt i Workfront. Mer information om hur du delar objekt i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manuellt, vilket liknar delning av andra objekt i Workfront.
 * Gör något av följande automatiskt:
 
    * Ange behörigheter för något av de överordnade objekten i utgåvan: projekt, program eller portfölj. Problem ärver behörigheterna från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
@@ -124,6 +161,73 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 </ol>
 </div>
 -->
+
+## Dela ett ärende
+
+1. Navigera till den utgåva som du vill dela.
+
+1. Klicka på **Dela** till höger om problemnamnet. Dialogrutan **Dela [Ärendenamn]** öppnas.
+
+   ![Knappen Dela problem](assets/share-issue-button.png)
+
+1. I fältet **Bevilja utfärdandeåtkomst till** börjar du skriva namnet på den användare, det team, den roll, grupp eller det företag som du vill dela problemet med och klickar sedan på namnet i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela ett problem med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj åtkomstnivå för problemet:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till problemet har åtkomst till det (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa problemet utan en inbjudan.
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för det här problemet:
+
+   * **Visa**: Användaren kan granska och dela problemet.
+   * **Contribute**: Användaren kan göra uppdateringar, logga information, göra mindre ändringar och dela problemet (inklusive alla visningsbehörigheter).
+   * **Hantera**: Användaren har fullständig åtkomst till problemet utan administratörsbehörighet, som ges på åtkomstnivån (inkluderar även behörigheterna Visa och Contribute).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för problemet.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-permission-options.png)
+
+1. (Valfritt) Om du snabbt vill dela problemet med hjälp av en länk klickar du på **Kopiera länk** och vidarebefordrar den till mottagaren.
+
+1. Klicka på **Spara**.
+
+## Dela problem i grupp
+
+1. Navigera till det projekt som innehåller de problem du vill dela.
+
+1. På fliken **Problem** på projektsidan markerar du rutan till vänster om varje problem som du vill dela och klickar sedan på ikonen **Dela** ![Dela](assets/share-icon.png) högst upp på sidan. Delningen modal öppnas.
+
+   ![Problem med massdelning](assets/bulk-share-issues.png)
+
+1. I fältet **Bevilja utfärdandeåtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela problemen med och klickar sedan på namnet i listrutan.
+
+   >[!TIP]
+   >
+   >Du kan bara dela problem med aktiva användare, team, roller eller företag.
+
+
+1. (Valfritt) Välj listrutan **Vem har åtkomst** och välj åtkomstnivå för problemen:
+
+   * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till problemen har åtkomst till dem (Standard).
+   * **Alla i systemet kan visa**: Alla användare i systemet kan visa utgåvorna utan en inbjudan.
+
+
+1. Klicka på listrutan till höger om användarens namn och välj behörighetsnivå för problemen:
+
+   * **Visa**: Användaren kan granska och dela problemen.
+   * **Contribute**: Användaren kan göra uppdateringar, logga information, göra mindre ändringar och dela problemen (inklusive alla visningsbehörigheter).
+   * **Hantera**: Användaren har fullständig åtkomst till problemen utan administratörsbehörighet, som ges på åtkomstnivån (inkluderar även behörigheterna Visa och Contribute).
+
+1. (Valfritt) Klicka på ikonen för avancerade alternativ bredvid behörighetsnivån som du har tilldelat för att konfigurera specifika behörigheter för problemen.
+
+   ![Konfigurerade avancerade behörighetsalternativ](assets/advanced-permission-options.png)
+
+1. Klicka på **Spara**.
 
 ## Utfärda behörigheter
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
+source-git-commit: ef09ee2fce1619f7e44deb7a584738db955a8599
 workflow-type: tm+mt
-source-wordcount: '13163'
+source-wordcount: '13162'
 ht-degree: 0%
 
 ---
@@ -908,13 +908,13 @@ ht-degree: 0%
       * [Meddelanden: Övrig information](workfront-basics/using-notifications/notifications-misc-information.md)
       * [Meddelanden: Begäranden jag gjort](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
    * Bevilja och begär behörigheter för objekt {#grant-request-object-permissions}
-      * [Bevilja och begär behörigheter för objekt](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+      * [Bevilja och begär behörigheter för objekt: artikelindex](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [Översikt över delningsbehörigheter för objekt](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [Bevilja åtkomst till objekt i Hem-området](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
       * [Begär åtkomst till objekt](workfront-basics/grant-and-request-access-to-objects/request-access.md)
       * [Visa ärvda behörigheter för objekt](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
       * [Dela ett objekt](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-      * [Dela ett projekt i Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+      * [Dela ett projekt](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
       * [Dela en uppgift](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
       * [Dela ett ärende](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
       * [Dela en mall](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
