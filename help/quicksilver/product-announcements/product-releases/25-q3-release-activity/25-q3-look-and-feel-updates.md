@@ -4,7 +4,8 @@ description: Uppdateringar som både ser ut och känns under tredje kvartersutg�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
+source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 På den här sidan beskrivs mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för utgåvan tredje kvartalet 2025.
 
-En lista över alla ändringar som är tillgängliga i utgåva 3 kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i utgåva 3 kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Utforska och känna av uppdateringar av resurshanteringsområdet i installationsprogrammet
 
