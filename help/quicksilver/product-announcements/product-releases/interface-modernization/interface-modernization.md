@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
+source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ Vi har uppdaterat området Avancerad sökning med följande ändringar:
 * Filtret på fliken Avancerad sökning är något annorlunda. Nu är filtret inte förifyllt. Du måste aktivera det och skapa filtret från grunden. Filtret finns inte kvar om sidan uppdateras.
 
 Mer information finns i [Sök [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
+
+### Gränssnittsuppdatering för att ge support på ditt Workfront-konto
+
+**Förhandsversion: 24 april; Produktionsrelease: Ska tillkännages**
+
+Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-konto med en modernare design som är förenlig med andra delar av Workfront.
 
 ## Administration och installation
 
