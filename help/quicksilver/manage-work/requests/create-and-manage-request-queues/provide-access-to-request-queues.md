@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Ge åtkomst till köer för begäranden
 description: När du ger åtkomst till en begärandekö avgör du vem i organisationen som kan visa begärandekön i området Förfrågningar i Adobe Workfront.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Innan begärandekön är tillgänglig för användare i området Begäranden må
    >Endast projekt med statusen Aktuell visas i området Förfrågningar.
 
 1. Klicka på **Köinformation** i den vänstra panelen. Du kan behöva klicka på **Visa mer** och sedan på **Köinformation**.
-1. Välj **Publish som kö för hjälpbegäran** om du vill ange projektet som en frågekö.
+1. Välj **Publicera som hjälpbegärandekö** om du vill ange projektet som en begärandekö.
 1. Välj bland följande alternativ:
 
    * **Vem som helst**: Alla användare kan visa och lägga till begäranden i begärandekön.

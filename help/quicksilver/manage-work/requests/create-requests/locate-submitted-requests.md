@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Sök efter skickade begäranden
 description: Läs mer om de områden i Adobe Workfront där du kan hitta förfrågningar som du eller någon annan har skickat eller förfrågningar som du aldrig har skickat in och sparats som utkast.
-author: Lisa
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
