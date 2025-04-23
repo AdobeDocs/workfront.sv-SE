@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # Hantera tidslinjevyn
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## Hantera en tidslinjevy {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
    >
    >Poster som inte har några värden för start- eller slutdatum eller som har ett startdatum efter slutdatumet visas inte i tidslinjevyn.
 
-1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilka fält som ska visas i postfälten.
+1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilken information du vill visa i postfälten.
 
    Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard. <!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
    >
    >    Du måste först lägga till miniatyrbilder i tabellvyn innan du kan visa dem i tidslinjevyn. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Klicka på **Lägg till fält** för att lägga till upp till 4 fält i postfälten.
-1. Klicka i rutan **Sökfält** och klicka på det fält som du vill lägga till.
+1. Klicka på **Lägg till fält**, klicka i rutan **Sök fält** och klicka på det fält som du vill lägga till.
 
    >[!TIP]
    >
    >   * Du måste skapa fälten innan du kan lägga till dem i postfälten.
    > 
    >   * Du måste ha minst ett fält markerat. **Namn** är markerat som standard.
+   >
+   >   * Du kan lägga till upp till fem fält.
 
    En förhandsvisning av hur staplarna kommer att se ut på tidslinjen visas till höger.
 
    ![Spela in tidslinjeinställningar för informationspanelen med förhandsgranskning](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview"> (Valfritt och villkorligt) Om du visar tidslinjen i standardläge aktiverar du inställningen **Trunkera fältinformation** . När det här alternativet är aktiverat trunkeras informationen på postfälten och visas bara helt när du håller muspekaren över fälten. Den här inställningen är inaktiverad som standard och informationen visas helt i fälten. </span>
+
+   ![Trunkera inställning aktiverad i rutan för tidslinjeinställningar markerad](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview">Inställningen för detaljer i fältet för trunkering är inte tillgänglig när vyn Tidslinje visas i läget Kompakt och är inte tillgänglig i kalendervyn.</span>
+   >
+   >* <span class="preview">Om du bryter ned tidslinjevyn för att visa anslutna objekt på tidslinjen, gäller inställningen för detaljer i fältet för trunkering bara för huvudposttypen. Det gäller inte för de anslutna postfälten.</span>
+
 
 1. Klicka på **Färg** i den vänstra panelen om du vill anpassa färgerna för posterna och grupperingarna i tidslinjen.
 
