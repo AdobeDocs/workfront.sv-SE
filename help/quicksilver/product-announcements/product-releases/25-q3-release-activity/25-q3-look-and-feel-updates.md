@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
+source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,35 @@ ht-degree: 0%
 På den här sidan beskrivs mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för utgåvan tredje kvartalet 2025.
 
 En lista över alla ändringar som är tillgängliga i utgåva 3 kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Uppdateringar av senaste återställda objekt
+
+>[!NOTE]
+>
+>Förhandsversion: 23 april 2025; Produktionsrelease för alla kunder: 23 april 2025
+
+Vi har uppdaterat utseendet på de nyligen återställda objekten i inställningsområdet så att de matchar designen i andra delar av Workfront. Ingen funktionalitet har ändrats för nyligen återställda projekt, uppgifter, förfrågningar, dokument eller mallar.
+
+Om du vill visa den här ändringen går du till Inställningar > Papperskorgen > Senast återställt.
+
+Mer information finns i [Visa återställda objekt](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+## Uppdaterade rapporter med ny formatering
+
+>[!NOTE]
+>
+>Förhandsversion: 23 april 2025; Produktionsrelease för alla kunder: 23 april 2025
+
+Vi har uppdaterat utseendet och känslan i flera rapporter för att matcha designen i andra delar av Workfront. Ingen funktionalitet har ändrats.
+
+Uppdateringen innehåller visuella ändringar av listorna och verktygsfälten i rapporterna för följande objekttyper:
+
+* Malluppgifter
+* Ämnesgrupper
+* Styrkort
+* Scheman
+
+Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Utforska och känna av uppdateringar av resurshanteringsområdet i installationsprogrammet
 

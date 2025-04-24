@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,18 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Ny inställning för att korta av långa postnamn i vyn Standardtidslinje
+
+>[!NOTE]
+>
+>* Förhandsgranska: 23 april 2025
+>* Production fast release: 15 maj 2025
+>* Produktion för alla kunder: 17 juli 2025
+
+Du kan nu aktivera en inställning på fliken Stapelformat i rutan Inställningar i en tidslinjevy för att korta av längre postnamn när du visar dem i standardvyn. Inställningen är inaktiverad som standard och kan bara aktiveras när du visar tidslinjevyn i standardläge.
+
+Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Delningsbehörigheter för posttyper
 
