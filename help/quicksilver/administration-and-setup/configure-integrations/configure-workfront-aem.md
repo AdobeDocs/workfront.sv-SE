@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Innan du börjar måste du aktivera behörigheter för Workfront Service:
 1. Välj **[!UICONTROL Add ACE]** till höger på skärmen för att skapa nya poster.
 1. I fönstret &#x200B;**[!UICONTROL Add New Entry]** &#x200B; markerar du kryssruteikonen i &#x200B; **[!UICONTROL Path]** och väljer mappen: */conf*
 1. I fältet **Behörigheter** anger du: *jcr:read*
-1. Välj **[!UICONTROL Add]** &#x200B; i det övre högra hörnet.
+1. Välj **Lägg till** i det övre högra hörnet.
 1. (Valfritt) Upprepa stegen ovan om du vill skapa fler poster.
 
 ### Integrera AEM med [!DNL Workfront] {#integrate-aem-with-workfront}

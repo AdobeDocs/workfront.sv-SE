@@ -5,14 +5,16 @@ description: Du kan fästa ditt viktigaste arbete [!DNL Adobe Workfront] för ö
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
 
 # Fäst sidor för att anpassa arbetsytan
+
+<!-- Audited: 4/2025 -->
 
 Du kan fästa ditt viktigaste arbete i [!DNL Adobe Workfront] för ökad synlighet, bättre organisation och snabbare åtkomst. Fastnålade sidor är alltid tillgängliga från överkanten på alla sidor i Workfront.
 
@@ -53,6 +55,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Navigera till sidan som du vill fästa. Detta kan vara vilket arbetsobjekt som helst, t.ex. ett projekt, en uppgift, en begärandekö.
 
 1. Klicka på **[!UICONTROL Pin current page]** i det övre vänstra hörnet på sidan. Den fästa sidan är nu tillgänglig från överkanten på en sida i [!DNL Workfront].
+
+   ![Fäst den aktuella sidan](assets/pin-current-page-button.png)
 
 ## Åtkomst till en fäst sida
 

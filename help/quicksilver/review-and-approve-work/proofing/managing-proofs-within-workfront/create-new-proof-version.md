@@ -6,29 +6,31 @@ description: Det kan vara en stor utmaning att hantera feedback i flera versione
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
 
 # Skapa en ny version av ett korrektur
 
-Det kan vara en stor utmaning att hantera feedback i flera versioner eller revisioner av ett verk. Workfront förenklar den här processen genom att du kan skapa och jämföra flera versioner av ett korrektur.
+<!-- Audited: 4/2025 -->
+
+Det kan vara en utmaning att hantera feedback i flera versioner eller revisioner av ett verk. Adobe Workfront förenklar den här processen genom att du kan skapa och jämföra flera versioner av ett korrektur.
 
 Tänk på följande när du skapar en ny version av ett korrektur:
 
-* Du kan ge en användare behörighet att se en version men inte en annan. Om du däremot delar en senare version med en användare kan användaren inte se tidigare versioner om du inte går tillbaka och uttryckligen ger användaren åtkomst till de tidigare versionerna.
-* Om du vill skapa en ny version av ett korrektur måste du ha redigeringsbehörighet för korrekturet.
+* Du kan ge en användare behörighet att se en version men inte en annan. Omvänt gäller att om du delar en senare version med en användare kan användaren inte se tidigare versioner såvida du inte går tillbaka och ger användaren åtkomst till de tidigare versionerna.
+* Du måste ha redigeringsbehörighet för beviset för att kunna skapa en ny version.
 
-  Mer information om vem som har redigeringsbehörighet för ett korrektur finns i [Hantera korrekturroller i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) och [Behörighetsprofiler för korrektur i Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+  Mer information finns i [Hantera profilroller i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) och [Korrekturbehörighetsprofiler i Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
   Mer information om att dela korrekturversioner finns i  [Dela ett bevis i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
->Om ett korrektur skapas i Adobe Workfront måste alla nya versioner som skapas för det korrekturet också skapas i Workfront. Du kan inte skapa en ny version av ett korrektur i Workfront Proof om det beviset har skapats i Workfront.
+>Om ett korrektur skapas i Adobe Workfront måste alla nya versioner för det korrekturet också skapas i Workfront. Du kan inte skapa en ny version av ett bevis i Workfront Proof om det beviset har skapats i Workfront.
 
 ## Åtkomstkrav
 
@@ -41,60 +43,38 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Aktuell: Pro eller högre</p> <p>eller</p> <p>Äldre: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Aktuell: Standard</p> 
+   <p>eller</p>
+   <p>Äldre: Arbete eller plan (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till dokument</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Skapa en ny version av ett korrektur i Workfront
+## Skapa en ny korrekturversion i Workfront
 
 Det finns flera sätt att överföra en ny korrekturversion i Workfront. Standardinställningarna för korrektur kan eventuellt överföras från den tidigare versionen beroende på vilken metod du väljer:
 
-* **Generera korrektur automatiskt när dokument överförs**: Standardkorrekturinställningar överförs inte. Om den här inställningen är aktiverad i din användarprofil överförs inte standardkorrekturinställningarna när du drar och släpper en ny version.
-* **Skapa korrektur > Enkel**: Standardkorrekturinställningar överförs inte. Om du väljer Enkel när du skapar en ny korrekturversion överförs inte standardinställningarna för korrektur från den tidigare versionen.
-* **Lägg till ny > Version > Korrektur**: Standardkorrekturinställningar överförs från den tidigare versionen.
-* **Skapa korrektur > Avancerat**: Standardkorrekturinställningar överförs från den tidigare versionen.
-
-  <table>
-  <tbody>
-  <tr>
-  <td>Generera korrektur automatiskt när dokument överförs</td>
-  <td>Standardkorrekturinställningar överförs inte. Om den här inställningen är aktiverad i din användarprofil överförs inte standardkorrekturinställningarna när du drar och släpper en ny version.</td>
-  </tr>
-  <tr>
-  <td>Skapa korrektur &gt; Enkelt</td>
-  <td>Standardkorrekturinställningar överförs inte. Om du väljer Enkel när du skapar en ny korrekturversion överförs inte standardinställningarna för korrektur från den tidigare versionen.</td>
-  </tr>
-  <tr>
-  <td>Lägg till nytt &gt; Version &gt; Korrektur</td>
-  <td>Standardkorrekturinställningar överförs från den tidigare versionen.</td>
-  </tr>
-  <tr>
-  <td>Skapa korrektur &gt; Avancerat</td>
-  <td>Standardkorrekturinställningar överförs från den tidigare versionen.</td>
-  </tr>
-  </tbody>
-  </table>
-
-
-
+* **Generera automatiskt korrektur när dokument överförs**: Om den här inställningen är aktiverad i din användarprofil överförs inte standardkorrekturinställningarna när du drar och släpper en ny version.
+* **Skapa korrektur > Enkel**: Om du väljer det här alternativet överförs inte standardkorrekturinställningarna från den tidigare versionen.
+* **Lägg till ny > Version > Korrektur**: Om du väljer det här alternativet överförs standardinställningarna för korrektur från den tidigare versionen.
+* **Skapa korrektur > Avancerat**: Om du väljer det här alternativet överförs standardkorrekturinställningarna från den tidigare versionen.
 
 Så här skapar du en ny version av ett korrektur:
 
@@ -105,9 +85,9 @@ Så här skapar du en ny version av ett korrektur:
 
    Markera den rad där korrekturet visas, klicka på **Lägg till ny** > **Version** och klicka sedan på det alternativ du vill använda för att lägga till den nya versionen av korrekturet.
 
-   ![Lägg till ny version](assets/add-new-version-350x185.png)
+   ![Lägg till ny version](assets/add-new-proof-version.png)
 
-## Skapa en ny version av ett korrektur från korrekturläsaren (endast Workfront Proof)
+## Skapa en ny korrekturversion från korrekturläsaren (endast Workfront Proof)
 
 Om du använder den fristående Workfront Proof-versionen kan du skapa en ny version av ett korrektur som innehåller en enda fil eller webbfångst. 
 
@@ -118,63 +98,66 @@ Om du använder den fristående Workfront Proof-versionen kan du skapa en ny ver
 Så här skapar du en ny version av ett korrektur i Workfront Proof:
 
 1. Öppna beviset.
-1. Klicka på listrutan **Version** i det övre vänstra hörnet och klicka sedan på **+ Ny version** i rutan som visas.
+1. Klicka på listrutan **Version** i det övre vänstra hörnet och klicka sedan på **+ Ny version** i rutan som visas. Den nya korrekturversionen öppnas.
 
-   På sidan **Ny korrekturversion av** som visas kan du se alla granskare från den tidigare versionen, inklusive deras roller och e-postmeddelandeinställningar. Du kan enkelt redigera roller och meddelanden för befintliga granskare eller ta bort befintliga granskare från den nya versionen på den här sidan.
+   ![Lägg till ny version](assets/new-version-button.png)
 
-1. Under **Lägg till filer** överför du en fil som en ny version av korrekturet genom att dra och släppa från datorn eller genom att klicka på **bläddra** och välja önskad fil. Du kan skriva ett **korrekturnamn** för versionen eller lämna rutan tom om du vill använda samma filnamn med ett versionsnummer som läggs till i slutet.
+1. I avsnittet **Lägg till filer** överför du en fil som den nya korrekturversionen genom att dra och släppa den från datorn eller genom att klicka på **bläddra** och välja en fil.
 
    eller
 
-   Spara en webbsida som en ny version av korrekturet genom att skriva en URL.
+   Spara en webbsida som en ny version av korrekturet genom att ange en URL.
 
    >[!NOTE]
    >
    >Dra och släpp är bara tillgängligt i webbläsare som har fullt stöd för HTML5. Detta utesluter Internet Explorer 7 till 9 och Safari.
 
-1. Under **Arbetsflöde** gör du någon av följande ändringar för att ange granskarna för den här versionen av korrekturet.
+1. (Valfritt) Markera korrekturtiteln och ange ett nytt **korrekturnamn** för versionen.
 
-   Granskare från den tidigare versionen ersätts av de granskare du lägger till.
+1. Gör någon av följande ändringar i avsnittet **Arbetsflöde** för att lägga till granskare för den här korrekturversionen (detta ersätter granskarna i den tidigare versionen):
 
-   * Ändra **ägaren** för versionen till en annan användare i ditt konto.\
-     Mer information om ägarbehörigheter finns i [Korrekturbehörighetsprofiler i Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * (Valfritt) Ändra **ägaren** för versionen till en annan användare i ditt konto.
 
-   * Använd **Skriv kontaktnamnet eller e-postadressen för att lägga till en mottagarruta** och lägg till granskare i versionen. Du kan ange en **korrekturroll** och en **e-postaviseringstyp** för varje mottagare.
+     Mer information finns i [Korrekturbehörighetsprofiler i Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-     Mer information om hur du lägger till grupper i korrekturet finns i  [Lägg till grupper i ett korrektur](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Mer information om roller finns i [Hantera korrekturroller i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   * (Valfritt) Lägg till granskare i versionen med hjälp av **Skriv kontaktnamnet eller e-postadressen för att lägga till en mottagare**. Du kan sedan välja en typ av **korrekturroll** och **e-postaviseringar** för varje mottagare.
+
+     Mer information finns i [Lägg till grupper i ett korrektur](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) och [Hantera korrekturroller i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
      >[!NOTE]
      >
-     >Om den som skapat eller äger  korrekturet har [e-postmeddelandet ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) inaktiverat som standard (i sina personliga inställningar). De får inga e-postmeddelanden om korrektur eller nytt korrektur även om rutan Meddela personer via e-post är markerad på sidan Nytt korrektur. Mer information om e-postmeddelanden finns i [Konfigurera inställningar för e-postmeddelanden i Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Se även [Korrekturutskick via e-post](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) och [Nytt korrekturmeddelande](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >Om korrekturläsaren eller ägaren har inaktiverat e-postmeddelandet&quot;Korrektur&quot; som standard i sina personliga inställningar, kommer de inte att få något e-postmeddelande om korrektur gjort eller nytt korrektur, även om rutan **Meddela mottagare om det här korrekturet** är markerad på sidan Nytt korrektur. Mer information finns i [Konfigurera e-postaviseringsinställningar i Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md), [Korrekturmeddelanden via e-post](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) och [Nytt korrektur-e-postmeddelande](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-   * Ange en korrekturdeadline för versionen.
-   * Håll muspekaren över en granskares namn för att se alla beslut han eller hon har fattat om en tidigare version.
+   * (Valfritt) Ange en korrekturdeadline.
 
-1. Gör något av följande under **E-postmeddelande**:
+   * (Valfritt och villkorligt) Välj en ny primär beslutsfattare i listrutan **Överför primära beslutsrättigheter till**.
 
-   * Ange om du vill meddela granskarna om den nya versionen.\
-     Ditt val loggas i aktivitetsavsnittet på sidan Korrekturinformation. Mer information finns i [Hantera korrekturinformation i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * (Valfritt) Markera rutan **Kräv endast ett beslut för det här steget** om du vill ta bort alternativet att ange en användare som ny primär beslutsfattare.
 
-   * Lägg till ett eget ämne och meddelande.
+1. Välj någon av följande inställningar i avsnittet **E-postmeddelande**:
 
-1. Gör något av följande i avsnittet **Organisation**: 
+   * (Valfritt) **Meddela mottagarna om det här korrekturet**: Välj det här alternativet om du vill meddela granskarna om den nya versionen. Ditt val loggas i avsnittet **Aktivitet** på sidan **Korrekturinformation**. Mer information finns i [Hantera korrekturinformation i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-   * Använd en eller flera taggar på korrekturet. Mer information finns i [Skapa och hantera taggar i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
-     Observera att taggar också ärvs från den tidigare versionen av korrekturet. Om du lägger till en ny tagg i den nya versionen taggas även tidigare versioner.
+   * (Villkorligt och valfritt) **Lägg till anpassat ämne och meddelande**: Välj det här alternativet om du vill lägga till en anpassad ämnesrad och ett anpassat meddelande i e-postmeddelandet.
 
-   * Lägg till versionen i en mapp. Mer information finns i [Hantera mappar i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md). Mappen kopieras från den tidigare versionen av korrekturet. Om du väljer en annan mapp flyttas hela korrekturet (alla versioner).
+1. Välj någon av följande inställningar i avsnittet **Organisation**:
 
-   * Faktureringsadministratörer och administratörer kan göra mappfältet obligatoriskt för hela kontot på fliken Inställningar. Mer information finns i.
+   * Använd en eller flera taggar på korrekturet. Mer information finns i [Skapa och hantera taggar i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
 
-1. Gör någon av ändringarna nedan under Korrekturinställningar:
+   * Lägg till versionen i en mapp. Mappen kopieras från den tidigare versionen av korrekturet. Om du väljer en annan mapp flyttas hela korrekturet, som innehåller alla versioner. Mer information finns i [Hantera mappar i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-   * Kräv inloggning på korrekturet
-   * Kräv elektroniska signaturer på beviset (endast Enterprise-planen)
-   * Lås beviset när alla beslut fattas
-   * Tillåt eller blockera hämtning av originalfil
-   * Offentlig delning av beviset, inklusive inställningar för offentlig delning
-   * Prenumeration på beviset\
-     De val som görs i det här avsnittet visas på sidan Korrekturinformation (där vissa fält kan redigeras). Mer information finns i [Hantera korrekturinformation i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Faktureringsadministratörer och administratörer kan göra mappfältet obligatoriskt för hela kontot på fliken **Inställningar**.
+
+1. Välj någon av följande inställningar i avsnittet **Korrekturinställningar**:
+
+   * Kräv att en användare loggar in för att visa korrekturet.
+   * Kräv elektroniska signaturer på beviset (endast Enterprise-planen).
+   * Lås beviset när alla beslut fattas.
+   * Tillåt hämtning av originalfilen.
+   * Tillåt allmän delning av beviset.
+   * Tillåt prenumeration på korrekturet.
+
+     De val som görs i det här avsnittet visas på sidan **Korrekturinformation** (där vissa fält kan redigeras). Mer information finns i [Hantera korrekturinformation i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -234,12 +217,12 @@ Om det fanns ett eget ämne/meddelande i den tidigare versionen av korrekturet v
   >
   >Detta påverkas inte av något anpassat standardämne/standardmeddelande som sparats i dina personliga inställningar.
 
-Om du har ett standardämne och ett standardmeddelande sparat i dina personliga inställningar påverkar detta vilket meddelande som visas som standard på sidan Ny version:
+Om du har ett standardämne och ett standardmeddelande sparat i dina personliga inställningar, avgör detta vilket meddelande som visas som standard på sidan Ny version:
 
-* Om du väljer att meddela granskarna via e-post om den tidigare versionen av korrekturet med hjälp av standardmeddelandet (t.ex. inget anpassat ämne/meddelande), visas ditt standardämne/standardmeddelande (dina personliga inställningar) på sidan Ny version. Du kan sedan redigera det anpassade ämnet och meddelandet eller avmarkera rutan Meddela personer via e-post (vilket innebär att inget e-postmeddelande skickas till granskarna för att meddela dem att de har en ny version att granska).
-* Om du väljer att inte meddela granskarna via e-post om den tidigare versionen av korrekturet (t.ex. ingen standard eller anpassad e-postadress) kommer sidan Ny version inte att innehålla något meddelande som standard. Om du vill meddela granskarna om den nya versionen klickar du på länken Skicka ett meddelande, som visar ditt standardämne/standardmeddelande (enligt dina personliga inställningar). Du kan sedan redigera det anpassade ämnet och meddelandet om det behövs.
+* Om du har meddelat granskarna om den tidigare korrekturversionen med hjälp av standardmeddelandet (t.ex. inget anpassat ämne/meddelande) visas ditt standardämne/standardmeddelande (dina personliga inställningar) på sidan Ny version. Du kan sedan redigera det anpassade ämnet och meddelandet eller avmarkera rutan Meddela personer via e-post, vilket innebär att inga e-postmeddelanden skickas till granskarna för att meddela dem att de har en ny version att granska.
+* Om du inte har meddelat granskarna om den tidigare korrekturversionen (t.ex. ingen standard eller anpassad e-postadress) kommer sidan Ny version inte att innehålla något meddelande som standard. Om du vill meddela granskarna om den nya versionen klickar du på länken Skicka ett meddelande, som visar ditt standardämne/standardmeddelande (enligt dina personliga inställningar). Du kan sedan redigera det anpassade ämnet och meddelandet efter behov.
 
 Om du inte har något standardämne och ett standardmeddelande sparat i dina personliga inställningar visas följande på sidan Ny version:
 
-* Om du väljer att meddela granskarna via e-post om den tidigare versionen av korrekturet med hjälp av standardmeddelandet (t.ex. inget anpassat ämne/meddelande), väljs alternativet Meddela personer via e-post som standard på sidan Ny version. Klicka på länken om du vill lägga till ett anpassat meddelande.
-* Om du väljer att inte meddela granskarna via e-post om den tidigare versionen av korrekturet (t.ex. ingen standard eller anpassad e-postadress) kommer sidan Ny version inte att innehålla något meddelande som standard. Om du vill meddela granskarna om den nya versionen klickar du på länken Skicka ett meddelande. Du kan sedan lägga till ett eget ämne och meddelande genom att klicka på länken Lägg till anpassat meddelande.
+* Om du har meddelat granskarna om den tidigare korrekturversionen via standardmeddelandet (t.ex. inget anpassat ämne/meddelande), kommer alternativet Meddela personer via e-post att vara valt som standard på sidan Ny version. Klicka på länken om du vill lägga till ett eget meddelande.
+* Om du inte har meddelat granskarna via e-post om den tidigare korrekturversionen (t.ex. ingen standard eller anpassad e-postadress) kommer den nya versionssidan inte att innehålla något meddelande som standard. Om du vill meddela granskarna om den nya versionen klickar du på länken Skicka ett meddelande. Du kan sedan lägga till ett eget ämne och meddelande genom att klicka på länken Lägg till anpassat meddelande.

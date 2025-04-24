@@ -6,7 +6,7 @@ description: Din Adobe Workfront-administratör kan ge dig åtkomst till att vis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Mer information om hur du visar ärvda behörigheter för ett objekt finns i [Vi
    * **Endast inbjudna personer har åtkomst:** Endast användare som är inbjudna till projektet har åtkomst till det (Standard).
    * **Alla i systemet kan visa**: Alla användare i systemet kan visa projektet utan en inbjudan.
 
-1. (Valfritt) Om du automatiskt vill använda de projektåtkomstinställningar som du har valt för alla nya projekt klickar du på ikonen **Kugga** ![Markera kugghjulsikonen](assets/gear-icon.png) och markerar kryssrutan inline med **Ange som mall för projektåtkomst**.
+1. (Valfritt) Om du automatiskt vill använda de inställningar för projektåtkomst som du har valt för alla nya projekt klickar du på ikonen **Kugga** ![Markera kugghjulsikonen](assets/gear-icon.png) och markerar kryssrutan i linje med **Ange som mall för projektåtkomst**.
 
    >[!NOTE]
    >
