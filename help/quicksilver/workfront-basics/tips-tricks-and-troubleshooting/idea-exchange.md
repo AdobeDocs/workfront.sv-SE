@@ -5,9 +5,9 @@ title: Innovation Lab
 description: Med [!UICONTROL Innovation Lab] kan autentiserade användare skicka in, rösta på och diskutera idéer med andra kunder.
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ När det kritiska tröskelvärdet på 450 punkter har nåtts får idén en av f�
 * **[!UICONTROL Delivered]:** En lösning har skapats och levererats. Inga ytterligare uppdateringar kommer att göras och kommentarerna kommer att inaktiveras.
 * **[!UICONTROL Archived]**: Idéer som når 18-månadersgränsen (från inskickningsdatumet) och som har färre än 300 poäng arkiveras.
 
-Om du vill komma igång eller lära dig mer loggar du in på innovationslaben på [workfront.com/customer](https://www.workfront.com/customer).
+Logga in på [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) om du vill komma igång eller lära dig mer.
