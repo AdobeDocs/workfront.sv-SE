@@ -6,16 +6,14 @@ description: Du kan ta bort en kalender som du äger eller som andra delar med d
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
 
 # Ta bort en kalenderrapport
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Du kan ta bort en kalender som du äger eller som andra delar med dig. När kalendern har tagits bort blir den inte tillgänglig för användare som du har delat den med.
 
@@ -58,15 +56,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Ta bort en kalenderrapport i produktionen
 
-1. Gå till kalendern som du vill ta bort.
-1. Klicka på **[!UICONTROL Calendar Actions]** i verktygsfältet **[!UICONTROL Calendar]** och välj sedan **[!UICONTROL Delete]** i listrutan.
-1. Klicka på **[!UICONTROL Yes, Delete It]**.
-
-<div class="preview">
-
-## Ta bort en kalenderrapport i förhandsgranskningen
+## Ta bort en kalenderrapport
 
 1. Gå till kalendern som du vill ta bort.
 1. Klicka på menyn **Mer** bredvid listrutan Kalender.
@@ -74,5 +65,3 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Välj **[!UICONTROL Delete]** i listrutan.
 1. Klicka på **[!UICONTROL Delete]**.
-
-</div>

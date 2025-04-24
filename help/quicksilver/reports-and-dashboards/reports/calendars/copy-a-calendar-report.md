@@ -6,9 +6,9 @@ description: Om du har skapat en kalender kan du kopiera den och använda den so
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -58,23 +58,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 +++
 
-## Kopiera en kalenderrapport i produktion
 
-1. Gå till kalendern som du vill kopiera.
-1. Klicka på **[!UICONTROL Calendar Actions]** i verktygsfältet **[!UICONTROL Calendar]** och välj sedan **[!UICONTROL Copy]** i listrutan.
-En kopia av kalendern öppnas.
-
-   ![Kopiera kalenderrapporten](assets/copy-calendar-report.png)
-
-   Alla projekt och kalendergrupperingar i den ursprungliga kalendern visas i kopian av kalendern. Endast objekt som placerats av kalenderfilter exporteras till den nyligen kopierade kalendern. Alla händelser som läggs till manuellt i den ursprungliga kalendern måste läggas till manuellt i den kopierade kalendern.
-
-   Endast du har tillgång till den kopierade kalendern. Användare med åtkomst till den ursprungliga kalendern har inte tillgång till den kopierade kalendern. Du kan ge åtkomst till den nyligen skapade kalendern genom att dela den med andra användare. Mer information om att dela kalendrar finns i [[!UICONTROL Share a calendar]-rapporten](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
-
-1. (Valfritt) Byt namn på kalendern.
-
-<div class="preview">
-
-## Kopiera en kalenderrapport i förhandsgranskningen
+## Kopiera en kalenderrapport
 
 1. Gå till kalendern som du vill kopiera.
 1. Klicka på menyn **Mer** bredvid listrutan Kalender.
@@ -83,13 +68,10 @@ En kopia av kalendern öppnas.
 1. Välj **[!UICONTROL Copy]** i listrutan. Kalendern kopieras och du dirigeras till den nya kopian.
 
 
->[!NOTE]
->
->Alla projekt och kalendergrupperingar i den ursprungliga kalendern visas i kopian av kalendern. Endast objekt som placerats av kalenderfilter exporteras till den nyligen kopierade kalendern. Alla händelser som läggs till manuellt i den ursprungliga kalendern måste läggas till manuellt i den kopierade kalendern.
-> 
->
->Endast du har tillgång till den kopierade kalendern. Användare med åtkomst till den ursprungliga kalendern har inte tillgång till den kopierade kalendern. Du kan ge åtkomst till den nyligen skapade kalendern genom att dela den med andra användare. Mer information om att dela kalendrar finns i [[!UICONTROL Share a calendar]-rapporten](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   >[!NOTE]
+   >
+   >Alla projekt och kalendergrupperingar i den ursprungliga kalendern visas i kopian av kalendern. Endast objekt som placerats av kalenderfilter exporteras till den nyligen kopierade kalendern. Alla händelser som läggs till manuellt i den ursprungliga kalendern måste läggas till manuellt i den kopierade kalendern.
+   >
+   >Endast du har tillgång till den kopierade kalendern. Användare med åtkomst till den ursprungliga kalendern har inte tillgång till den kopierade kalendern. Du kan ge åtkomst till den nyligen skapade kalendern genom att dela den med andra användare. Mer information om att dela kalendrar finns i [[!UICONTROL Share a calendar]-rapporten](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
-1. (Valfritt) Klicka på menyn **Mer** och sedan på **Redigera** för att byta namn på kalendern.
-
-</div>
+1. (Valfritt) Om du vill ändra namnet på kalenderrapporten klickar du på **Byt namn** bredvid kalenderns listruta.
