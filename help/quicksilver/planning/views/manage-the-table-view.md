@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a1cae3cce2e4dbe76dadf960832937beb42edc68
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
 source-wordcount: '2872'
 ht-degree: 0%
@@ -94,6 +94,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## Redigera poster med tabellvyn
 

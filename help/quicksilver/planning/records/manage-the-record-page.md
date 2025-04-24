@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ Följande saker händer:
 
    Alla ändringar av layouten för postförhandsgranskningen eller sidan sparas automatiskt.
 
-## Lägga till en sida i Anslutningsvyn på en postsida
+## Lägga till en flik i Anslutningsvyn på en postsida
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för sidtypen Anslutningsvy till en post. Informationen från de anslutna posterna visas i en skrivskyddad tabellvy.
+
+&lt;!-ersätt den sista meningen ovan med den här:
+
+I produktionsmiljön visas informationen från de anslutna posterna eller objekten i en skrivskyddad tabellvy.
+
+<Span class="preview">I förhandsvisningsmiljön kan informationen från de anslutna posterna redigeras i tabellvyn. Informationen från objekten som är anslutna från ett annat program kan inte redigeras i tabellvyn.</span> —>
 
 Tänk på följande när du lägger till en anslutningsvy på en postsida:
 
-* Du kan lägga till en sida i Anslutningsvyn på en postsida.
+* Du kan lägga till en sida i Anslutningsvyn på postens sida efter att du har kopplat post- eller objekttyper till posttypen.
 
 * Du kan inte lägga till en sida i Anslutningsvyn i en posts förhandsvisningsområde.
 
-* På sidor i anslutningsvyn visas en kopplad posttypssida i tabellvyn.
+* På sidor i anslutningsvyn visas en ansluten posttypsida eller en kopplad objekttyp från ett annat program i en tabellvy.
 
 * När du har lagt till en sida i Anslutningsvyn på en postsida visas sidfliken från postens förhandsvisningsområde. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten. <!--this might have changed? check and take disclaimer out-->
 
 Så här lägger du till en sida i Anslutningsvyn:
 
 1. I en postsidvy klickar du på namnet på en post för att öppna den. Klicka sedan på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
-1. Klicka på **Lägg till sida** > **Anslutningsvy**.
+1. Klicka på **Lägg till sida**.
 
    ![Lägg till spärrad sida för anslutningsvy](assets/add-connection-view-page-modal.png)
 1. Lägg till **sidnamnet**, klicka på **Anslutningsvyn** och klicka sedan på **Skapa**.
 
    En ny flik läggs till på postens sida.
 1. Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
-Tabellvyn för den posttyp du valde visas och de kopplade posterna visas i tabellvyn.
+Tabellvyn för den posttyp du valde visas på den nya sidan och de kopplade posterna visas i tabellvyn.
 Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik.
 
    De första fem fälten från den anslutna posttabellen visas som standard. Inga sökfält visas som standard.
-
-   Tabellvyn är skrivskyddad.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Målgruppsansluten tabellvy under kampanjinformation](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Valfritt) Dubbelklicka på flikens namn
+1. (Valfritt) Gör något av följande i tabellvyn för de anslutna posterna:
+
+   * Klicka på namnet på en post. Posten öppnas på en ny flik. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * Klicka på **Anslut** för att ansluta fler poster och klicka sedan utanför anslutningsrutan för att stänga den. De nya posterna läggs automatiskt till i tabellen.
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. (Valfritt) Dubbelklicka på namnet på fliken Anslutningsvy
 
    eller
 
@@ -323,7 +355,7 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
    >
 
 1. Klicka på **Anslut** för att lägga till eller ta bort poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md)
-1. (Valfritt) Håll pekaren över namnet på fliken Anslutningsvy, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort från den nya fliken Ansluten vy.
+1. (Valfritt) Håll muspekaren över namnet på fliken Anslutningsvy, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.
 
 
 
