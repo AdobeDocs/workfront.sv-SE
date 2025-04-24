@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >* Production fast release: 15 maj 2025
 >* Produktion för alla kunder: 17 juli 2025
 
-Du kan nu aktivera en inställning på fliken Stapelformat i rutan Inställningar i en tidslinjevy för att korta av längre postnamn när du visar dem i standardvyn. Inställningen är inaktiverad som standard och kan bara aktiveras när du visar tidslinjevyn i standardläge.
+Du kan nu aktivera en inställning på fliken Stapelformat i rutan Inställningar i en tidslinjevy för att korta av längre postnamn när du visar dem i standardvyn. Inställningen är inaktiverad som standard och kan bara aktiveras när du visar tidslinjevyn i standardläge. Eftersom den här inställningen är inaktiverad visas information på postfälten som standard utökad. Före den här förbättringen trunkerades informationen på postfälten som standard.
 
 Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
