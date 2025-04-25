@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 51dfd1ff1ad0f5847db42cfc1d5f9b5f907f672d
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Med [!DNL Workfront for AEM Assets connector] kan din organisation göra följan
 
 Innan du kan installera [!DNL Workfront]-anslutningen för [!UICONTROL AEM Assets] måste du kontrollera att följande krav uppfylls:
 
-* [!UICONTROL AEM Assets] är installerat och konfigurerat, version 6.5 eller senare. Mer information om hur du installerar [!UICONTROL AEM Assets] finns i [[!DNL Adobe Experience Manager] dokumentationen](https://experienceleague.adobe.com/docs/experience-manager.html).
+* [!UICONTROL AEM Assets] är installerat och konfigurerat, version 6.5 eller senare. Mer information om hur du installerar [!UICONTROL AEM Assets] finns i [[!DNL Adobe Experience Manager] dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Villkorligt) Om brandväggsreglerna inte tillåter trafik som förväntat lägger du till klustrets IP-adress och/eller domän i tillåtelselista. Mer information finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Installera [!DNL Workfront for AEM Assets]-anslutningspaketet {#install-the-workfront-for-aem-assets-connector-package}
