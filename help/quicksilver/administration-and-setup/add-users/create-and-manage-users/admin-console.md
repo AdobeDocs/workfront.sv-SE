@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6e4135fc6f0431c8222ce48c18a0b5c4c6f0dbed
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Administratörsrättigheter för Adobe</td> 
-   <td> <p>Du måste vara produktkonfigurationsadministratör för Adobe-produkter för din organisation</p> </td> 
+   <td> <p>Du måste vara produktprofiladministratör för Adobe-produkter för din organisation</p> </td> 
   </tr> 
  </tbody> 
 </table>
