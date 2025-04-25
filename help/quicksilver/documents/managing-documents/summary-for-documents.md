@@ -7,9 +7,9 @@ description: Med Sammanfattning kan du interagera med viktig information direkt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,13 @@ ht-degree: 0%
 
 Du kan använda panelen Sammanfattning för att komma åt och uppdatera viktig information direkt från dokumentlistan.
 
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+
 ## Åtkomstkrav
 
-Du måste ha följande:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +39,7 @@ Du måste ha följande:
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
+   <td role="rowheader">Adobe Workfront-licenser</td> 
    <td> <p>Nytt: Medarbetare eller högre</p> 
    <p>Aktuell: Begäran eller senare</p>
    </td> 
@@ -51,43 +55,47 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Öppna sammanfattningsvyn
 
-1. Gå till området **Dokument** och markera ett objekt i listan.
-1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png).
+{{step1-to-documents}}
 
-   När du har öppnat sammanfattningen förblir den öppen när du klickar på andra dokument och är öppen tills du stänger den manuellt.
+1. Markera ett dokument i listan på sidan **Dokument**.
 
-   ![Sammanfattningsinformation](assets/summary-details-350x585.png)
+1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
+
+   ![Sammanfattningsinformation](assets/document-summary-panel.png)
+
+   När du har öppnat Sammanfattning är den fortfarande öppen på den här sidan (även om du klickar på andra dokument) tills du stänger den manuellt.
+
 
 ## Information
 
-Använd detaljavsnittet för att visa översiktsinformation på hög nivå och interagera med anpassade formulär. Klicka på **Information** överst i avsnittet för att gå till den fullständiga dokumentinformationssidan.
+Använd detaljavsnittet för att visa översiktsinformation på hög nivå och interagera med anpassade formulär. Klicka på Detaljer överst i avsnittet för att gå till den fullständiga dokumentinformationssidan.
 
 * [Översikt](#overview)
 * [Anpassad Forms](#custom-forms)
-
-![Dokumentsammanfattningsinformation](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Ökning {#overview}
 
 Expandera avsnittet Översikt om du vill visa eller ladda ned en miniatyrbild, öppna ett korrektur, uppdatera den grundläggande beskrivningen, checka ut dokumentet med mera.
 
-![Översikt över dokumentsammanfattning](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Översikt över dokumentsammanfattning](assets/details-section.png)
 
 ### Anpassad Forms {#custom-forms}
 
 Använd sektionen Anpassad Forms för att lägga till, redigera eller visa anpassade formulär som är kopplade till dokumentet. Börja skriva namnet på det anpassade formuläret för att lägga till det i dokumentet. Mer information finns i [Lägga till eller redigera ett anpassat formulär i ett dokument](../../documents/managing-documents/add-custom-form-documents.md).
 
-![Lägg till ett anpassat formulär i dokumentsammanfattning](assets/add-custom-form-doc-summary-350x265.png)
+![Lägg till ett anpassat formulär i dokumentsammanfattning](assets/custom-forms-section.png)
 
 ## Uppdateringar
 
-Använd uppdateringsavsnittet för att läsa en uppdatering som gjorts i dokumentet eller korrekturet. Sammanfattningen visar de två första kommentarerna som gjorts. Mer information om uppdateringar finns i [Kommentera på ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Använd uppdateringsavsnittet för att visa en uppdatering som gjorts i dokumentet eller korrekturet. Sammanfattningen visar de två första kommentarerna som gjorts. Mer information om uppdateringar finns i [Kommentera på ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-section-new-comments.png)
+![Uppdateringsavsnitt i sammanfattningspanelen](assets/updates-section.png)
 
 ## Godkännanden
 
@@ -98,16 +106,16 @@ Bevisgodkännanden måste läggas till i korrekturarbetsflödet. Mer information
 * [Godkänner arbete](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Begär dokumentgodkännanden](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![Godkännanden av dokumentsammanfattning](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Godkännanden av dokumentsammanfattning](assets/approvals-section.png)
 
 ## Versioner
 
-Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på menyn **Mer** för att
+Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) om du vill göra följande:
 
-* Öppna ett korrektur
-* Ladda ned ett korrektur eller dokument
-* Förhandsgranska ett dokument som stöds av webbläsaren
-* Gå till Dokumentinformation
-* Ta bort ett korrektur eller dokument
+* Öppna ett bevis.
+* Ladda ned ett korrektur eller dokument.
+* Förhandsgranska ett dokument som stöds av webbläsaren.
+* Gå till Dokumentinformation.
+* Ta bort ett korrektur eller dokument.
 
-![Dokumentsammanfattningsversioner](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Dokumentsammanfattningsversioner](assets/versions-section.png)

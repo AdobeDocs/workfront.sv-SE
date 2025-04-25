@@ -6,9 +6,9 @@ description: Det kan vara en stor utmaning att hantera feedback i flera versione
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -225,4 +225,4 @@ Om du har ett standardämne och ett standardmeddelande sparat i dina personliga 
 Om du inte har något standardämne och ett standardmeddelande sparat i dina personliga inställningar visas följande på sidan Ny version:
 
 * Om du har meddelat granskarna om den tidigare korrekturversionen via standardmeddelandet (t.ex. inget anpassat ämne/meddelande), kommer alternativet Meddela personer via e-post att vara valt som standard på sidan Ny version. Klicka på länken om du vill lägga till ett eget meddelande.
-* Om du inte har meddelat granskarna via e-post om den tidigare korrekturversionen (t.ex. ingen standard eller anpassad e-postadress) kommer den nya versionssidan inte att innehålla något meddelande som standard. Om du vill meddela granskarna om den nya versionen klickar du på länken Skicka ett meddelande. Du kan sedan lägga till ett eget ämne och meddelande genom att klicka på länken Lägg till anpassat meddelande.
+* Om du inte har meddelat granskarna om den tidigare korrekturversionen (t.ex. ingen standard eller anpassad e-postadress) kommer den nya versionssidan inte att innehålla något meddelande som standard. Om du vill meddela granskarna om den nya versionen klickar du på länken Skicka ett meddelande. Du kan sedan lägga till ett eget ämne och meddelande genom att klicka på länken Lägg till anpassat meddelande.
