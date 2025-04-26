@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2 Versionsöversikt
 
-Den här sidan innehåller information om de funktioner som finns i version 22.2. Alla funktioner i listan är tillgängliga i den nya Adobe Workfront-upplevelsen. Vissa funktioner är också tillgängliga i Adobe Workfront Classic, men [Workfront Classic kommer att upphöra i mars 2022](https://one.workfront.com/s/new-workfront-experience), som kommer att följas inom kort efter det datum då Workfront Classic slutar gälla i juli 2022.
+Den här sidan innehåller information om de funktioner som finns i version 22.2. Alla funktioner i listan är tillgängliga i den nya Adobe Workfront-upplevelsen. Vissa funktioner är också tillgängliga i Adobe Workfront Classic, men [Workfront Classic kommer att upphöra i mars 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home), som kommer att följas inom kort efter det datum då Workfront Classic slutar gälla i juli 2022.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -455,7 +455,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>Nu kan du skapa länkade mappar mellan Adobe Workfront och Adobe Experience Manager Assets as a Cloud Service även om det finns flera projektlänkade mappkonfigurationer.</p> </li> 
      <li> <p>Stöd för sidnumrering av händelseabonnemang har lagts till</p> </li> 
-     <li> <p>Utökat stöd för AEM 6.4.x</p> </li> 
+     <li> <p>Stöd för AEM 6.4.x har lagts till</p> </li> 
      <li> <p>Stöd för proxymiljöer har lagts till</p> </li> 
      <li> <p>Flera felkorrigeringar baseras på feedback från partner och kunder</p> </li> 
     </ul> </td> 
@@ -552,7 +552,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">Förbättringar av det övre navigeringsfältet</a> </p> <p>Vi har gjort flera förbättringar av navigeringsfältet längst upp i Adobe Workfront.</p> 
     <ul> 
      <li> <p>Favoriter och Senaste har nu separata ikoner i det övre navigeringsfältet. Alla innehåller fortfarande samma innehåll (sidor som du har markerat som favoriter och sidor som du nyligen har besökt), och du kan fortsätta lägga till och ta bort favoritsidor på samma sätt.</p> </li> 
-     <li> <p>Utseendet och känslan hos både stift och huvudmenyn har uppdaterats till designstandarderna för Adobe, inklusive färger och teckensnitt. Det sätt som du lägger till och tar bort punkter och de områden du har tillgång till på huvudmenyn har inte ändrats.</p> </li> 
+     <li> <p>Utseendet och känslan hos både punkter och huvudmenyn har uppdaterats till Adobe designstandarder, inklusive färger och teckensnitt. Det sätt som du lägger till och tar bort punkter och de områden du har tillgång till på huvudmenyn har inte ändrats.</p> </li> 
      <li> <p>Ikonerna till höger om det övre navigeringsfältet har ordnats om för att bli mer intuitiva. Ikonordningen är: hjälplänk, meddelanden, favoriter, senaste, sökning, huvudmeny.</p> </li> 
     </ul> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> 
@@ -620,7 +620,7 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ## Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjorts under version 2.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 2.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ## 22.2 Release Webinar
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://one.workfront.com/s/training-release-updates).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktionen stöds inte längre
 

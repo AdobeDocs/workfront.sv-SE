@@ -8,7 +8,7 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Mer information om kvartalsvisa och snabba versionsprocesser finns i [Aktivera e
 
 ### Underhållsuppdateringar
 
-Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Gå till sidan [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) för att se vad som har korrigerats nyligen.
+Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Gå till sidan [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) för att se vad som har korrigerats nyligen.
 
 ## Funktioner som har tagits bort från en schemalagd release
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -47,15 +47,15 @@ Workfront för Experience Manager förbättrade anslutningsprogram innehåller n
 
 * Nu kan du skapa länkade mappar mellan Adobe Workfront och Adobe Experience Manager Assets as a Cloud Service även om det finns flera projektlänkade mappkonfigurationer.
 * Stöd för sidnumrering av händelseabonnemang har lagts till
-* Utökat stöd för AEM 6.4.x
+* Stöd för AEM 6.4.x har lagts till
 * Stöd för proxymiljöer har lagts till
 * Flera felkorrigeringar baseras på feedback från partner och kunder
 
-Mer information finns i [Översikt över den förbättrade anslutningen för Workfront](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Mer information finns i [Översikt över den förbättrade anslutningen för Workfront för Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->Driftsättning och konfiguration av den här kopplingen kräver en certifierad partner. Mer information finns i [Installera Workfront för den utökade anslutningen för Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#).
+>Driftsättning och konfiguration av den här kopplingen kräver en certifierad partner. Mer information finns i [Installera Workfront for Experience Manager Enhanced Connector](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 
 ## Adobe Creative Cloud integreringar använder nu OAuth2
 

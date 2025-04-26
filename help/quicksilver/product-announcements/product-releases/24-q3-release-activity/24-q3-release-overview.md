@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 0%
@@ -225,7 +225,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av Workfront för Experience Manager Assets och Assets Essentials</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Vi har gjort följande förbättringar för integreringen av Workfront för Experience Manager Assets och Assets Essentials:</p>
+                        <p>Vi har gjort följande förbättringar för integreringarna Workfront for Experience Manager Assets och Assets Essentials:</p>
                         <ul>
                             <li><p>Integreringen har nu stöd för GCP som molntjänstleverantör. AWS och Azure stöddes tidigare.</p></li>
                             <li><p>Storleksgränsen för filer som skickas till Experience Manager via integreringen har ökat till 30 GB. Tidigare var gränsen 5 GB.</p></li>
@@ -425,7 +425,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience finns nu för fler Workfront-organisationer</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience har vi börjat göra den tillgänglig för befintliga Workfront-kunder. </p>
+                        <p>Vi har börjat göra Adobe Unified Experience tillgängligt för befintliga Workfront-kunder för att ge företag och organisationer tillgång till fördelarna med Unified Experience. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -436,7 +436,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktion för angivna kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;">Det enhetliga Adobe-skalet görs tillgängligt i en fasad utrullning. Ytterligare organisationer kommer att ingå i Adobe Unified Shell med versionerna 24.10 och 25.1. </p>
+                         <span style="color: #ff0000;">Det enhetliga Adobe Shell är tillgängligt i en fasad utrullning. Ytterligare organisationer kommer att ingå i Adobe Unified Shell med versionerna 24.10 och 25.1. </p>
                     </td>
                 </tr>
                 <tr>
@@ -523,8 +523,8 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under tredje kvartersversionen 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjordes under tredje kvartersversionen 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

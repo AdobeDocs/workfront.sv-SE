@@ -2,11 +2,11 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Få åtkomst till dina favoriter och senaste objekt från [!DNL Slack]
-description: När du har installerat och konfigurerat  [!DNL Adobe Workfront]  för Slack kan du visa dina Workfront-favoriter och Senaste objekt och få åtkomst till objekt från båda listorna från Slack.
+description: När du har installerat och konfigurerat [!DNL Adobe Workfront] för Slack kan du visa dina Workfront-favoriter och Senaste objekt och få tillgång till objekt från båda listorna från Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
   </tr> 
  </tbody> 

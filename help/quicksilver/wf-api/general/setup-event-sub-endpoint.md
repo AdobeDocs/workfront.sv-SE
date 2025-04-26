@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Händelseprenumerationsmeddelanden är meddelanden som kan konfigureras för att
 
 Slutpunkter för tjänsten som använder Adobe Workfront händelseteckningsmeddelanden måste uppfylla följande grundläggande krav för att meddelanden ska kunna skickas och tas emot korrekt:
 
-* Tjänstens slutpunkt måste acceptera begäranden om HTTP-POST. HTTP-POST är den förfrågningsmetod som används i alla leveranser av händelseprenumerationsmeddelanden, inklusive valideringsmeddelanden.
+* Tjänstens slutpunkt måste acceptera HTTP POST-begäranden. HTTP POST är den förfrågningsmetod som används i alla leveranser av händelseprenumerationsmeddelanden, inklusive valideringsmeddelanden.
 
 * För att leveranssystemet för händelseprenumerationer ska kunna bekräfta att meddelandet togs emot måste slutpunkten returnera en HTTP-status på 200 nivåer (till exempel 200 OK eller 202) för alla inkommande meddelanden.
 

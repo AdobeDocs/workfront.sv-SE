@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
     </ul>  </td>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrering till Unified Experience i Adobe</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrering till Adobe Unified Experience</a> </p>
                         <p>Om din organisation har anslutit sig till Adobe Admin Console migreras din Workfront-instans till Adobe Unified Experience med version 22.4.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -298,7 +298,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
 
 </p>
 <ol>
-<li>Lägg till en Adobe XD-fil för att göra ett anpassat formulär mer visuellt och informativt. När formuläret är kopplat till ett objekt kan användare som arbetar med objektet visa och interagera med den XD filen inifrån formuläret.
+<li>Lägg till en Adobe XD-fil för att göra ett anpassat formulär mer visuellt och informativt. När formuläret bifogas till ett objekt kan användare som arbetar med objektet visa och interagera med XD-filen inifrån formuläret.
 </li>
 <li>Använd snabbfiltret för att enkelt hitta objekt i den moderniserade listan med anpassade formulär och fält. Du får också ett bättre utseende och en bättre känsla när du hanterar formulär och fält.
 </li>
@@ -623,7 +623,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Synkronisera objektmetadata med den inbyggda Experience Manager Assets-integreringen</a> </p>
                         <p>Nu uppdateras Workfront portfölj, program, projekt, uppgift, utgåva och dokumentfält automatiskt när fältet ändras i Workfront.</p>
-                        <p>Om du vill tillåta att objektmetadata synkroniseras automatiskt måste du aktivera alternativet Synkronisera objektmetadata för dina integreringar i Inställningar &gt; Experience Manager.</p>
+                        <p>Om du vill tillåta att objektmetadata synkroniseras automatiskt måste du aktivera alternativet Synkronisera objektmetadata för dina integreringar i Inställningar &gt; Experience Manager-integreringar.</p>
                         <p>Tidigare uppdaterades bara projektfält automatiskt.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -734,7 +734,7 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### 22.4 Release Webinar
 
@@ -742,7 +742,7 @@ Webbseminariet 22.4 kommer att hållas torsdagen den 22 september 2022 kl. 9.00 
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://one.workfront.com/s/training-release-updates).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktioner som tas bort med version 22.4
 

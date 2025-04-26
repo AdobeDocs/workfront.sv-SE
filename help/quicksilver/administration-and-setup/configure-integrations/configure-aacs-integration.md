@@ -6,7 +6,7 @@ description: Du kan koppla ditt arbete till ditt innehåll i  [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1658'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Innan du börjar mappa metadatafält måste du konfigurera metadatafält i både
 
 Konfigurera metadatafält:
 
-1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt beskrivningen i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront]  och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt beskrivningen i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront]  och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Konfigurera anpassade formulärfält i Workfront. [!DNL Workfront] har många inbyggda anpassade fält som du kan använda. Du kan även skapa egna anpassade fält enligt beskrivningen i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +151,7 @@ Du kan mappa ett fält som stöds av Workfront till en tagg i Experience Manager
 
 När du har skapat taggarna i Experience Manager Assets visas de i listrutan Taggar i avsnittet Metadata. Om du vill länka ett fält till en tagg väljer du `xcm:keywords` i listrutan Experience Manager Assets i metadatamappningsområdet.
 
-Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Anpassade metadataschfält för Experience Manager Assets**
 
@@ -251,7 +251,7 @@ Arbetsflöden aktiveras och konfigureras för Adobe Experience Manager som helhe
 Följande arbetsflöden är tillgängliga i Adobe Experience Manager-integreringen:
 
 * [Skapa länkade Adobe Experience Manager-mappar](#create-adobe-experience-manager-linked-folders)
-* [Publish-material som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Publicera material som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Skapa länkade Adobe Experience Manager-mappar
 
@@ -282,7 +282,7 @@ Du kan skapa upp till 100 länkade mappar per mappträd.
    1. (Valfritt) Om du vill ta bort en mapp markerar du mappen och klickar på ikonen **Ta bort mapp** ![Ta bort mapp](assets/delete-folder.png) .
 1. (Villkorligt) Om du vill lägga till ytterligare ett mappträd klickar du på **+ Lägg till mappträd** och följer stegen i steg 5.
 
-1. Klicka på **[!UICONTROL Save]** eller gå vidare till avsnittet [Publish-resurser som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) i den här artikeln.
+1. Klicka på **[!UICONTROL Save]** eller gå vidare till avsnittet [Publicera resurser som skickas till Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) i den här artikeln.
 
 >[!NOTE]
 >
@@ -291,7 +291,7 @@ Du kan skapa upp till 100 länkade mappar per mappträd.
 >* Om inget mappträd anges blir rotmappen länkad.
 
 
-### Publish-material som skickas till Adobe Experience Manager Assets
+### Publicera material som skickas till Adobe Experience Manager Assets
 
 1. Växla på **[!UICONTROL Publish assets automatically]**.
 1. Markera rutan bredvid den plats där du vill publicera resurser som skickats till Adobe Experience Manager-resurser. Du kan aktivera ett eller båda alternativen.

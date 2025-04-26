@@ -2,13 +2,13 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Adobe Workfront plugin för Creative Cloud Apps
-description: Adobe Workfront plugin för Creative Cloud-program
+title: Adobe Workfront-plugin för Creative Cloud-program
+description: Adobe Workfront plugin for Creative Cloud Applications
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Mer information om hur du använder och installerar plugin-programmet finns i f�
 * [Installera  [!DNL Adobe Workfront] plugin-programmet för [!DNL Creative Cloud] program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [Hantera arbete med  [!DNL Adobe Workfront] plugin-programmet för [!DNL Creative Cloud] program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [Överför dokument och korrektur med  [!DNL Adobe Workfront] plugin-programmet för [!DNL Creative Cloud] program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [Videosjälvstudiekurs: Använd [!DNL Adobe Workfront] plugin-program för [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [Videosjälvstudiekurs: Använd [!DNL Adobe Workfront] plugin-program för [!DNL Creative Cloud]](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [Videosjälvstudie: Skapa och hantera paket, distribuera uppdateringar och felsöka installationsfel](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

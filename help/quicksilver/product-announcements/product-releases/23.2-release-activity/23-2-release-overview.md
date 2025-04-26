@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -25,7 +25,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
 
 [Effektiva upplevelser: Från att skapa innehåll till Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) den 21 mars 2023, för att lära dig nya sätt att skapa, hantera och personalisera innehåll och leverera slagkraftiga upplevelser effektivare. Den här sessionen kommer att strömmas live för virtuella målgrupper.
 
-[Framtiden för Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) den 23 mars 2023 för att se visionen för Workfront och dess plats i ekosystemet Adobe och få en smygtitt på den framtida färdplanen. Den här sessionen spelas in och blir tillgänglig senare som on-demand-innehåll.
+[Framtiden för Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) den 23 mars 2023 för att se visionen för Workfront och dess plats i Adobe ekosystem och få en smygtitt på den framtida färdplanen. Den här sessionen spelas in och blir tillgänglig senare som on-demand-innehåll.
 
 <span class="preview">Funktioner utanför cykeln (de som släpps till produktion före 23.2-releasedatum) är markerade i gult.</span>
 
@@ -554,7 +554,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Net nya kunder som ska ingå i Adobe Unified Experience</a></p>
-                        <p>Adobe enhetliga upplevelse omfattar:
+                        <p>Adobe Unified Experience innehåller följande:
                         <ul>
                         <li>En enda inloggning för alla Adobe-program via Adobe Experience Cloud</li>
                         <li>En"företagsväljare" för att växla mellan Workfront organisationer och miljöer</li>
@@ -592,7 +592,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportera ritytor som enkla PDF eller flera PDF i Adobe Workfront för XD</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportera ritytor som enstaka PDF-filer eller som flera PDF-filer i Adobe Workfront för XD</span></a>
                         <p>I plugin-programmet Adobe Workfront for XD kan du nu välja att exportera ritytorna som en enda PDF-fil eller som flera PDF-filer.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -653,11 +653,11 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjorts under version 23.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 23.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktioner som snart ska tas bort från Workfront
 

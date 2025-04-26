@@ -7,7 +7,7 @@ description: Om du har planen Select eller Premium kan du tillhandahålla enkel 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Single Sign-On är en Select- och Premium-funktion så enkel inloggning kan bara
 Här finns två konfigurationsmetoder (5):
 
 1. **Ärvd:** enkel inloggning med konfigurationen från ditt hubbkonto.
-Om en användare kommer åt [!DNL Workfront Proof] via **standardinloggningssidan** ([https://www.proofhq.com/login](https://www.proofhq.com/login)) kommer det att finnas **två behörighetsnivåer**: Först uppmanas en användare att logga in med [!DNL Workfront Proof] åtkomstdata (e-post och lösenord). Sedan överförs användaren via ett SSO-fönster till SSO-inloggningssidan.
+Om en användare kommer åt [!DNL Workfront Proof] via **standardinloggningssidan** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) kommer det att finnas **två behörighetsnivåer**: Först uppmanas en användare att logga in med [!DNL Workfront Proof] åtkomstdata (e-post och lösenord). Sedan överförs användaren via ett SSO-fönster till SSO-inloggningssidan.
 Om SSO-tjänsten är aktiverad rekommenderar vi att du loggar in via din egen [!DNL Workfront Proof]-underdomän/domän.
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Om manuell konfiguration för enkel inloggning har valts för ett satellitkonto 
 När enkel inloggning är aktiverad visar din subdomän-inloggnings-URL (t.ex. yourcompany.proofhq.com/login) en överföringsskärm (2) som tar dig direkt till inloggningssidan för enkel inloggning.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Om en användare öppnar [!DNL Workfront Proof] via **standardinloggningssidan** ([https://www.proofhq.com/login](https://www.proofhq.com/login)) finns det **två behörighetsnivåer**. Först ombeds en användare att logga in med [!DNL Workfront Proof] åtkomstdata (e-post och lösenord). Användaren överförs sedan via ett SSO-fönster (2) till inloggningssidan för enkel inloggning.\
+1. Om en användare öppnar [!DNL Workfront Proof] via **standardinloggningssidan** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) finns det **två behörighetsnivåer**. Först ombeds en användare att logga in med [!DNL Workfront Proof] åtkomstdata (e-post och lösenord). Användaren överförs sedan via ett SSO-fönster (2) till inloggningssidan för enkel inloggning.\
    Om SSO-tjänsten är aktiverad rekommenderar vi att du loggar in via din egen [!DNL Workfront Proof]-underdomän/domän.
 
 1. När enkel inloggning är aktiverad på ditt Workfront Proof-konto kan du för närvarande inte logga in på iPhone-appen med dessa autentiseringsuppgifter.

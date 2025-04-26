@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -27,7 +27,7 @@ I den nya Workfront-versionen visas alternativet Växla till klassisk på huvudm
 
 I Workfront Classic visas alternativet Växla till den nya upplevelsen på den meny som visas när du klickar på profilbilden i det övre högra hörnet av det globala navigeringsfältet.
 
-Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Förbättrad kryptering för Workfront Proof
 
@@ -62,7 +62,7 @@ Observera också att vår moderna formatering nu förbättrar upplevelsen av att
 
 Mer information om hur du konfigurerar e-postmeddelanden finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Den här funktionen finns nu med i utbildningssökvägen [E-post och i programmet ](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) på Workfront One.
+Den här funktionen finns nu med i utbildningssökvägen [E-post och i programmet ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Nya API-objekt som utlöser händelseprenumerationsuppdateringar
 

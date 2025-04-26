@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Följande förbättringar är nu tillgängliga med den här nya funktionen:
 
 Mer information om arbetsinsats finns i [Översikt över arbetsinsats](../../../manage-work/tasks/task-information/work-effort.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering, del 2-inlärningsväg](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering, del 2-inlärningsväg](https://experienceleague.adobe.com/en/docs/workfront/using/home) på Workfront One.
 
 ## Projektstatusbaserade färger för arbetsobjekt i Utjämning av arbetsbelastning
 

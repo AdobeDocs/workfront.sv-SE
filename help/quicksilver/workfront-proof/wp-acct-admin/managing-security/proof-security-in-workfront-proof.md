@@ -8,7 +8,7 @@ description: Datasäkerhet är överordnad  [!DNL Workfront Proof]. Vi investera
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Datasäkerhet är överordnad [!DNL Workfront Proof]. Vi investerar betydande re
 
 Därför erbjuder vi oöverträffade säkerhets- och sekretessnivåer för våra kunder.
 
-Mer information finns på sidan [Säkerhetsöversikt](https://www.workfront.com/workfront-security).
+Mer information finns på sidan [Säkerhetsöversikt](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html).
 
 ## Kräver elektroniska signaturer
 

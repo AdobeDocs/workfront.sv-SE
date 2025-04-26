@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Den här sidan innehåller information om de funktioner som finns i version 2018
 * [Stöd för Google Team Drives](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
 * [Ny exportgräns för Gantt-schemat](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
 * [Visa korsprojektsföreträdarrelationer i Gantt-schemat i en projektlista](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
-* [Använd budgeterad kostnad i Portfolio-optimering för att beräkna Portfolio-ekonomi](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
+* [Använd budgeterad kostnad i Portfolio Optimizer för att beräkna Portfolio-ekonomi](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [Ändra aktivitetsdatum i Gantt-schemat](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
 * [Gå till Project Gantt-schemat från fliken Uppdateringar](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
 * [Ny projektlisteupplevelse](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-project-list-expeirence)
@@ -146,7 +146,7 @@ Den här sidan innehåller information om de funktioner som finns i version 2018
 ## Meddelanden {#announcements}
 
 * [TLS-stödet upphör](#tls-support-is-ending)
-* [Borttagning av Flash-program](#flash-application-removal)
+* [Ta bort Flash-program](#flash-application-removal)
 * [Stöd för Microsoft Outlook-tillägg upphör](#microsoft-outlook-add-in-support-is-ending)
 * [Tar bort gamla API-versioner](#removing-old-api-versions)
 
@@ -156,9 +156,9 @@ För att garantera optimal säkerhet kräver Workfront att alla integreringar oc
 
 Mer information finns i [TLS 1.2 krävs i Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
-### Borttagning av Flash {#flash-application-removal}
+### Borttagning av Flash-program {#flash-application-removal}
 
-Alla funktioner som bygger på Flash kommer att tas bort från Workfront med version 2018.3 och ersättas med en ny lösning.
+Alla funktioner som bygger på Flash-teknik tas bort från Workfront med version 2018.3 och ersätts med en ny lösning.
 
 Den här funktionen omfattar:
 
@@ -166,9 +166,9 @@ Den här funktionen omfattar:
 
   Mer information finns i [Visa information i Gantt-schemat](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-* Portfolio Optimizer kommer att ersättas med nya Portfolio Optimizer
+* Portfolio Optimizer ersätts med nya Portfolio Optimizer
 
-  Mer information finns i [Översikt över Portfolio-optimering](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Mer information finns i [Portfolio Optimizer - översikt](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * Kapacitetsplaneraren kommer att ersättas med den nya resursplaneraren
 
@@ -215,7 +215,7 @@ När du installerar nya Workfront för Outlook i någon av dina miljöer kan dit
 
 Använd följande resurser för att lära dig mer om Workfront för Outlook och komma igång:
 
-* [Webbplats och video](https://www.workfront.com/integrations/outlook) 
+* [Webbplats och video](https://business.adobe.com/products/workfront/integrations.html) 
 * [Använda Workfront med Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (hjälpartikel)
 
 ### Tar bort gamla API-versioner {#removing-old-api-versions}

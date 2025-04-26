@@ -7,7 +7,7 @@ description: Du måste ha en Select- eller Premium-plan för att kunna använda 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Du måste ha en Select- eller Premium-plan för att kunna använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer](https://www.workfront.com/plans).
+Du måste ha en Select- eller Premium-plan för att kunna använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer](https://business.adobe.com/products/workfront/pricing.html).
 
 Du kan skapa grupper med användare som du kan lägga till som granskare på flera korrektur. Detta är användbart om du skickar innehåll till samma användare regelbundet.
 

@@ -7,7 +7,7 @@ description: Du kan använda villkorsoperatorer eller modifierare när du skapar
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 0%

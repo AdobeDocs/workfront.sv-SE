@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Tidigare var du tvungen att gå till arbetsflödet för dokumentinformation och 
 
 Mer information om korrekturbeslut finns i [Dokumentområdet](../../../documents/managing-documents/documents-area.md).
 
-Den här funktionen ingår nu i [Hantera korrektur och versioner i den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) på Workfront One.
+Den här funktionen ingår nu i [Hantera korrektur och versioner i den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Nya fält i rapporten Korrektur för godkännande
 
@@ -45,7 +45,7 @@ Vi har lagt till följande fält i rapporten för korrektur av godkännande för
 
 Dessa fält ingår inte i standardrapporten. Du måste lägga till dem om du vill se dem.
 
-Den här funktionen ingår nu i [Korrektursysteminställningarna, del 2: Arbetsflödeshantering](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Korrektursysteminställningarna, del 2: Arbetsflödeshantering](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) utbildningsväg på Workfront One.
 
 ## Överför det befintliga korrekturarbetsflödet när en ny version genereras
 

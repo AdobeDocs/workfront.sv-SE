@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -72,7 +72,7 @@ För att du bättre ska kunna visualisera och hantera ditt dagliga arbete med ka
 
 Tidigare kunde du bara hantera din kalender med projicerade, planerade när faktiska datum inte var tillgängliga.
 
-Mer information finns i [Använd anpassade datumfält i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (eller om du använder Workfront Classic, se [Använd anpassade datumfält i en kalenderrapport](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Mer information finns i [Använd anpassade datumfält i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (eller om du använder Workfront Classic, se [Använd anpassade datumfält i en kalenderrapport](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 ## E-poständringar
 
@@ -82,11 +82,11 @@ Tidigare kunde systemadministratörer lägga till en anpassad e-postadress i omr
 
 **Ändringar i POP-svar för inkommande e-post:** Systemadministratörer kan inte längre konfigurera en anpassad POP-e-postserver för inkommande e-postsvar till meddelanden.
 
-Mer information finns i [E-postförfalskning och POP-svar, e-poständringar](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Mer information finns i [E-postförfalskning och POP-svar, e-poständringar](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-## DKIM (DomainKeys Identified Mail) ingår nu i utgående e-postmeddelanden från Workfront
+## DomainKeys Identified Mail (DKIM) ingår nu i utgående Workfront-e-postmeddelanden
 
-En teknik för e-postautentisering (DKIM) kommer att inkluderas i alla utgående e-postmeddelanden. Denna DKIM-signatur är inte synlig för slutanvändaren men tillåter validering på servernivå och stärker vårt befintliga autentiseringsramverk.
+En teknik för e-postautentisering (DKIM) kommer att inkluderas i alla utgående e-postmeddelanden. Den här DKIM-signaturen är inte synlig för slutanvändaren, men tillåter validering på servernivå och stärker vårt befintliga autentiseringsramverk.
 
 ## Uppdateringar av registreringen i nya Workfront
 

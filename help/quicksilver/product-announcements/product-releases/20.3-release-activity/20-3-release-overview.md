@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
 >
 >Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 >
->* En Pro eller en senare [Adobe Workfront-plan](https://www.workfront.com/plans).
+>* En Pro eller en senare [Adobe Workfront-plan](https://business.adobe.com/products/workfront/pricing.html).
 >* En Adobe Workfront Goals-licens förutom en Workfront-licens.
 >
 >  Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
@@ -154,7 +154,7 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a>*</p> </td> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</p> </td> 
 &gt;   <td>Företag eller högre</td> 
 &gt;  </tr> 
 &gt;  <tr> 
@@ -284,7 +284,7 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
    <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview: 2 juli 2020</p> <p>Produktionsrelease: Med version 20.3</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic (finns för vissa listor, men stöds inte)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">Uppdaterat utseende och känsla för flera globala rubriker</a> </p> <p>De globala områdena Projekt, Portfolio, Program och Mallar har nu ett uppdaterat sidhuvud som bättre utnyttjar utrymmet på skärmen. Den här uppdateringen ger mer utrymme för den information du arbetar med och som du behöver fokusera på. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">Uppdaterat utseende och känsla för flera globala rubriker</a> </p> <p>De globala områdena för projekt, portföljer, program och mallar har nu ett uppdaterat sidhuvud som bättre utnyttjar utrymmet på skärmen. Den här uppdateringen ger mer utrymme för den information du arbetar med och som du behöver fokusera på. </p> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: 19 juni 2020</p> <p>Produktionsrelease: Med version 20.3</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -391,7 +391,7 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
    <td> <p><strong>Tillgängligt på följande datum:</strong> </p> <p>Beta Preview-version: 9 juli 2020</p> <p>Produktionsrelease: Från och med version 20.3 i en fasad lansering som är tillgänglig för alla kunder den 1 september 2020.</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">DKIM (DomainKeys Identified Mail) ingår nu i utgående e-postmeddelanden från Workfront</a> </p> <p>En teknik för e-postautentisering (DKIM) kommer att inkluderas i alla utgående e-postmeddelanden. Denna DKIM-signatur är inte synlig för slutanvändaren men tillåter validering på servernivå och stärker vårt befintliga autentiseringsramverk.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">DomainKeys Identified Mail (DKIM) ingår nu i utgående Workfront-e-post</a> </p> <p>En teknik för e-postautentisering (DKIM) kommer att inkluderas i alla utgående e-postmeddelanden. Den här DKIM-signaturen är inte synlig för slutanvändaren, men tillåter validering på servernivå och stärker vårt befintliga autentiseringsramverk.</p> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: 29 juli 2020</p> <p>Produktionsrelease: Från och med version 20.3 i en fasad lansering som är tillgänglig för alla kunder den 1 september 2020.</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -435,7 +435,7 @@ Mer information om underhållsuppdateringar som gjorts under version 20.3 finns 
 
 Från och med den 20 maj 2020 började Workfront att tillgängliggöra funktioner i förhandsvisningsmiljön varje vecka. Före den här ändringen släpptes funktionen vanligtvis till förhandsvisningsmiljön varannan vecka.
 
-Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Tillåtelselista av ytterligare domäner som krävs för åtkomst till Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -450,11 +450,11 @@ Mer information finns i [Konfigurera brandväggens tillåtelselista](../../../ad
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 
-Visa 20.3 produktversionswebbinariet [här](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY).
+Visa 20.3 produktversionswebbinariet [här](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

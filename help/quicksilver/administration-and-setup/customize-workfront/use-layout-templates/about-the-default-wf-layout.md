@@ -9,7 +9,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -76,7 +76,7 @@ I följande tabell visas standardalternativen för Huvudmeny och vad som visas i
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Portfolio</td>
+    <td class="tg-0lax">Portföljer</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
@@ -304,7 +304,7 @@ I följande tabell visas standardalternativen för Huvudmeny och vad som visas i
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Portfolio</td>
+    <td class="tg-0pky">Portföljer</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>

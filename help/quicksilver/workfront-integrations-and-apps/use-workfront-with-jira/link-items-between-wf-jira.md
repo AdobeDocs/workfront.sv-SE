@@ -6,7 +6,7 @@ description: Du kan länka [!DNL Jira] ärenden till [!DNL Adobe Workfront] uppg
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 0%
@@ -28,11 +28,11 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] licensöversikt</a>*</td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser för Adobe [!DNL Workfront]</a>*</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -144,7 +144,7 @@ Så här länkar du [!DNL Jira] ärenden manuellt till [!DNL Workfront] objekt:
 
    >[!IMPORTANT]
    >
-   >Om din organisation har anslutit sig till Adobe Unified Experience måste du använda **Reference Number** för att länka Workfront-objekt till Jira. (Alternativet URL är tillgängligt, men returnerar ett fel om du använder det.) Mer information om den enhetliga upplevelsen finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >Om din organisation har anslutit till Adobe Unified Experience måste du använda **referensnumret** för att länka Workfront-objekt till Jira. (Alternativet URL är tillgängligt, men returnerar ett fel om du använder det.) Mer information om enhetlig upplevelse finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
    >
    >För organisationer som inte använder Adobe Unified Experience bör du inte använda URL-alternativet eftersom URL:er kan ändras.
 

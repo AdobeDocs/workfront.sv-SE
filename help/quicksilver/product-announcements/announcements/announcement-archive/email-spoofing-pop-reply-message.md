@@ -6,7 +6,7 @@ description: Vi gör två ändringar av det sätt på vilket Adobe Workfront ski
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -31,4 +31,4 @@ I vissa e-postmeddelanden kan användare svara via e-post och få svaret kopiera
 
 E-post som kommer direkt från Workfront Proof ändras inte. Du kommer att fortsätta få dessa e-postmeddelanden som du har gjort tidigare.
 
-Om du har frågor eller funderingar kan du kontakta [Workfront Support Team](https://one.workfront.com/s/support?language=en_US).
+Om du har frågor eller funderingar kan du kontakta [Workfront Support Team](https://experienceleague.adobe.com/?support-tab=home#support).

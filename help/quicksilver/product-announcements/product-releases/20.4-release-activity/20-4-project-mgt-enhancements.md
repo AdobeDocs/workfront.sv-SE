@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 0%
@@ -138,5 +138,5 @@ Mer information om hur du använder fält i listor och rapporter finns i [Ordlis
 
 När du tar bort ett sparat utkast kan du nu klicka på Avbryt på bekräftelsemeddelandet som informerar dig om att utkastet kommer att tas bort. På så sätt förlorar du inte utkastet om du skulle ångra dig.
 
-Den här funktionen är bara tillgänglig i den nya Workfront-upplevelsen. Mer information finns i [Skapa och skicka Workfront-begäranden](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
+Den här funktionen är bara tillgänglig i den nya Workfront-upplevelsen. Mer information finns i [Skapa och skicka Workfront-begäranden](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 

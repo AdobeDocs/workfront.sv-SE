@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -29,10 +29,10 @@ I den här första versionen har godkännandeprocessen förenklats både för at
 * Fatta godkännandebeslut direkt från Mina uppdateringar och Startsidan
 * Skapa godkännanden för specifika dokumentversioner
 
-Mer information om hur du använder de nya dokumentgodkännandena finns i [Översikt över nya dokumentgodkännanden](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+Mer information om hur du använder de nya dokumentgodkännandena finns i [Översikt över nya dokumentgodkännanden](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Knappen Ny delning
 
 Alternativet Dela har tagits bort från menyn Mer för projekt, uppgifter och ärenden för att göra delningen mer intuitiv. Den nya knappen Dela visas nu bredvid ett objekts namn precis före menyn Mer. Att dela dokument, portfolior och program förblir oförändrat.
 
-Mer information om att dela objekt finns i [Dela ett objekt](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
+Mer information om att dela objekt finns i [Dela ett objekt](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

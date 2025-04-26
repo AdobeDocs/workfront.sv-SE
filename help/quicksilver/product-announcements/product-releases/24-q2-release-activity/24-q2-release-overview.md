@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 Den här sidan innehåller information om de funktioner som ingår i den andra utgåvan av kvartalet 2024. Dessa förbättringar gjordes tillgängliga i produktionsmiljön för alla kunder med 24.4-utgåvan den 10 och 11 april 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-I stället för ett webbseminarium om en release bjuder vi in dig till [registrering för Adobe Summit](https://summit.adobe.com/na/) för att se följande Workfront-sessioner:
+I stället för ett webbinarium om en release bjuder vi in dig till [registrera dig för Adobe Summit](https://summit.adobe.com/na/) för att se följande Workfront-sessioner:
 
 [Framtiden för Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) den 26 mars 2024 för att få en smygtitt på framtiden för strategisk planering och arbetsflöde. Läs om hur Workfront team avser att ta itu med affärsmöjligheterna under hela marknadsföringscykeln - allt med en AI-strategi som sätter fokus på att automatisera arbetet, förenkla användarupplevelser och öka produktiviteten.
 
@@ -662,9 +662,9 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 

@@ -6,7 +6,7 @@ description: Koppla samman materialet med innehållet i Experience Manager Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr>
    <td>Produkt
    </td>
-   <td>Du måste ha Experience Manager Assets Essentials, och du måste läggas till i produkten som användare i Admin Console.
+   <td>Du måste ha Experience Manager Assets Essentials och du måste läggas till som användare i Admin Console.
    </td>
   </tr>
   <tr>
@@ -72,8 +72,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Välj **Dokument** ![Dokument-ikon](assets/document-icon.png) i den vänstra panelen och välj sedan **Experience Manager-integrering**.
-1. Välj **Lägg till integrering med Experience Manager**.
+1. Välj ikonen **Dokument** ![dokument](assets/document-icon.png) i den vänstra panelen och välj sedan **Experience Manager-integrering**.
+1. Välj **Lägg till Experience Manager-integrering**.
 1. Ange följande:
 
    <table>
@@ -86,7 +86,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    <tr>
       <td><strong>Navigerings-URL</strong>
       </td>
-      <td>Navigerings-URL:en fylls i automatiskt. Den här URL:en används för att länka till din organisations Assets Essentials-instans från huvudmenyn för snabb åtkomst.
+      <td>Navigerings-URL:en fylls i automatiskt. Den här URL:en används för att länka till instansen Resurser Essentials från huvudmenyn för snabb åtkomst.
       </td>
    </tr>
    <tr>
@@ -94,7 +94,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <strong>Experience Manager Assets-databas</strong>
       </td>
       <td>
-      Systemet fyller automatiskt i den Experience Manager-databas som är kopplad till ditt organisations-ID.
+      Systemet fyller automatiskt i den Experience Manager-databas som är kopplad till ditt företags-ID.
       </td>
    </tr>
    </table>
@@ -111,12 +111,12 @@ Mappa Workfront-objektdata till mediefält i Experience Manager Assets. Metadata
 
 Innan du börjar måste du
 
-* Konfigurera ett metadataschema i Experience Manager Assets Essentials enligt beskrivningen i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* Konfigurera ett metadataschema i Experience Manager Assets Essentials enligt beskrivningen i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Valfritt) Konfigurera anpassade formulärfält i Workfront. Workfront har många anpassade fält som du kan använda. Du kan dock även skapa egna anpassade fält. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Workfront- och Experience Manager Assets-fält som stöds
 
-### AEM nyckelord
+### AEM-nyckelord
 
 Du kan mappa ett fält som stöds av Workfront till ett nyckelord i Experience Manager Assets Essentials.
 

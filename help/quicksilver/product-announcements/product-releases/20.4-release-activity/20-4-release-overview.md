@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%
@@ -245,7 +245,7 @@ Den här sidan innehåller information om funktionaliteten för både Adobe Work
    <td> <p><strong>Releasedatum och miljöer</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}">Tillagda funktioner i Microsoft Teams-meddelanden </a> </p> <p>För att göra det enklare för dig att använda Workfront via Microsoft Teams har vi lagt till nya funktioner i Microsoft Teams-meddelanden som skickas från Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}">Lagt till funktioner i Microsoft Teams-meddelanden </a> </p> <p>För att göra det enklare för dig att använda Workfront via Microsoft Teams har vi lagt till nya funktioner i Microsoft Teams-meddelanden som skickas från Workfront.</p> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> <p>Beta Preview-version: TBD</p> <p>Produktionsrelease: Med version 20.4 <strong> (uppskjuten till december 2020 eller början av 2021)</strong></p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Mer information om nyheter och uppdateringar finns i [Nyheter i API-version 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+Mer information om nyheter och uppdateringar finns i [Nyheter i API-version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -326,7 +326,7 @@ Mer information om underhållsuppdateringar som gjorts under version 20.3 finns 
 
 ## Meddelanden
 
-* [Borttagning av Flash](#flash-deprecation)
+* [Flash-borttagning](#flash-deprecation)
 * [20.4 Release Webinar](#20-4-release-webinar)
 * [Ändra i förhandsgranskningsversionsstatus](#change-in-preview-release-cadence)
 * [Tillåtelselista av ytterligare domäner som krävs för åtkomst till Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
@@ -334,11 +334,11 @@ Mer information om underhållsuppdateringar som gjorts under version 20.3 finns 
 
 ### Borttagning av Flash {#flash-deprecation}
 
-I slutet av 2020 slutförde Adobe och alla större webbläsare den ersatta tekniken för Adobe Flash, vilket innebär att dessa verktyg inte längre fungerar.
+I slutet av 2020 slutförde Adobe och alla större webbläsare borttagningen av Adobe Flash-teknik, vilket innebär att dessa verktyg inte längre fungerar.
 
-Workfront vill hjälpa er att gå över till den nyare tekniken genom att tillhandahålla en serie nya lösningar som inte är beroende av Flash. Läs mer om ersättningslösningar för varje specifikt Flash-baserat verktyg i följande artikel: [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Workfront hjälper er att gå över till den nyare tekniken genom att tillhandahålla en serie nya lösningar som inte bygger på Flash. Läs mer om ersättningslösningar för varje specifikt Flash-baserat verktyg i följande artikel: [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
-Alla verktyg som bygger på Flash kommer att tas bort från alla produkter den 19 november 2020. Vi rekommenderar att du börjar använda de nya verktygen och drar tillbaka Flashen innan dess, för att öka säkerheten för instansen. Om du vill att vi ska inaktivera Flashen före 19 november kan du kontakta kundsupport.
+Alla Flash-baserade verktyg tas bort från alla produkter den 19 november 2020. Vi rekommenderar att du börjar använda de nya verktygen och drar tillbaka Flash-verktygen innan dess för att öka säkerheten för instansen. Om du vill att vi ska inaktivera Flash-verktygen före 19 november kan du kontakta kundsupport.
 
 ### 20.4 Release Webinar {#20-4-release-webinar}
 
@@ -348,7 +348,7 @@ Workfront 20.4 Release Webinar presenteras onsdagen den 28 oktober 2020 kl. 11.0
 
 Från och med den 20 maj 2020 började Workfront att tillgängliggöra funktioner i förhandsvisningsmiljön varje vecka. Före den här ändringen släpptes funktionen vanligtvis till förhandsvisningsmiljön varannan vecka.
 
-Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Tillåtelselista av ytterligare domäner som krävs för åtkomst till Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -363,4 +363,4 @@ Mer information finns i [Konfigurera brandväggens tillåtelselista](../../../ad
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).

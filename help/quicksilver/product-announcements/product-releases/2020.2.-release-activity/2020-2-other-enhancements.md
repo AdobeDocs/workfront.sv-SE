@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Anpassade statusvärden kan nu användas både i enstaka och i systemomfattande 
 * Skapa en godkännandeprocess för ett objekt (projekt, uppgift eller utgåva) och basera den på statusvärden som är kopplade till gruppen som arbetar med objektet. Detta inkluderar alla anpassade statusvärden som är associerade med gruppen.
 * Skapa en global godkännandeprocess och gör den tillgänglig endast för gruppen eller för alla i systemet.
 
-För användare med administrativ åtkomst till godkännandeprocesser finns information om hur du konfigurerar godkännandeprocesser i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (eller om du använder Adobe Workfront Classic, se [Skapa godkännandeprocesser](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+För användare med administrativ åtkomst till godkännandeprocesser finns information om hur du konfigurerar godkännandeprocesser i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (eller om du använder Adobe Workfront Classic, se [Skapa godkännandeprocesser](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Information om hur du associerar godkännandeprocesser med arbetsobjekt finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (eller om du använder Adobe Workfront Classic, se [Associera en ny eller befintlig godkännandeprocess med arbete](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Information om hur du associerar godkännandeprocesser med arbetsobjekt finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (eller om du använder Adobe Workfront Classic, se [Associera en ny eller befintlig godkännandeprocess med arbete](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 

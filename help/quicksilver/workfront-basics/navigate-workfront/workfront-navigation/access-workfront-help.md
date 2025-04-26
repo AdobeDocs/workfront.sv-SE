@@ -4,7 +4,7 @@ title: Hjälp om Adobe Workfront
 description: Workfront har en mängd olika typer av material som hjälper dig att hitta svar på frågor du har om funktionaliteten i de olika produkter som Workfront erbjuder.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -40,11 +40,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Få åtkomst till dokumentationen för [!DNL Adobe Workfront] på Experience League
 
-1. Gå till [[!DNL Adobe Workfront] dokumentationssidan på [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
+1. Gå till [[!DNL Adobe Workfront] dokumentationssidan på [!DNL Experience League]](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Förutom att söka efter hjälpdokumentation kan du även komma åt följande [!DNL Workfront]-resurser från Experience League:
 
-* Workfront Tutorials: Mer information finns i [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
+* Workfront självstudiekurser: Mer information finns i [[!DNL Workfront] Självstudiekurser](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab]: Mer information finns i [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 * [!UICONTROL [!DNL Workfront] Community]: Mer information finns i [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

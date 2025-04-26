@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -363,7 +363,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Vi presenterar Illustrator i Adobe Workfront för design- och videoplugin</a><span style="color: #ff0000;"> Nytt i produktion!</span></p>
                         <p>Vi är glada över att kunna meddela att Adobe Workfront för InDesign-pluginen kommer att omfatta Adobe Illustrator.</p>
                         <p>Den uppdaterade pluginen, Adobe Workfront för design och video, har nu stöd för Illustrator, InDesign, Premiere Pro och After Effects.  </p>
-                        <p>Denna plugin ger dig tillgång till information om arbetsuppgifterna, möjlighet att samarbeta med kollegor i uppdateringsområdet och möjlighet att logga alla utan att lämna ditt favoritprogram i Creative Cloud.</p>
+                        <p>Med denna plugin får du tillgång till information om arbetsuppgifterna, kan samarbeta med kollegor i uppdateringsområdet och kan logga alla utan att lämna ditt Creative Cloud-program.</p>
                         <p>Administratörer kan också skapa ett paket med plugin-program från Admin Console och distribuera till användare på ett hanterat eller självhanterat sätt.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -423,7 +423,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Vi presenterar Adobe Workfront för design och video</a></p>
                         <p>Vi är glada över att kunna meddela att Adobe Workfront för InDesign-pluginen kommer att omfatta Adobe Premiere Pro och After Effects. Plugin-programmet byter namn till Adobe Workfront för design och video.</p>
                         <p>Den uppdaterade pluginen, Adobe Workfront för design och video, har nu stöd för InDesign, Premiere Pro och After Effects - med Illustrator som snart kommer.</p>
-                        <p>Denna plugin ger dig tillgång till information om arbetsuppgifterna, möjlighet att samarbeta med kollegor i uppdateringsområdet och möjlighet att logga alla utan att lämna ditt favoritprogram i Creative Cloud. </p>
+                        <p>Med denna plugin får du tillgång till information om arbetsuppgifterna, kan samarbeta med kollegor i uppdateringsområdet och kan logga alla utan att lämna ditt Creative Cloud-program. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -454,9 +454,9 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Så här kommer du åt Workfront-hjälpen för kunder i Adobe Unified Experience</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Så här kommer du åt Workfront-hjälpen för kunder med Adobe Unified Experience</a></p>
                         <p>Om din organisation har anslutit sig till Adobe Admin Console och Adobe Unified Experience för Workfront innehåller navigeringsfältet i Workfront inte längre någon länk för "Hjälp".</p>
-                        <p>Du kan få åtkomst till Workfront-hjälpen på Adobe Experience League antingen från huvudmenyn till vänster om Workfront navigeringsfält eller genom frågeteckenikonen i det övre navigeringsområdet.</p>
+                        <p>Du kan få åtkomst till Workfront-hjälp i Adobe Experience League från huvudmenyn till vänster om Workfront navigeringsfält eller genom frågeteckenikonen i det övre navigeringsfältet.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                      <p>
@@ -466,7 +466,7 @@ Webbseminariet 23.1 hölls tisdagen den 10 januari 2023. Du kan [registrera dig 
                                 <p>Förhandsversion: 27 oktober 2022<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsversion: 3 november 2022 <span style="color: #ff0000;"> Den här funktionen gäller endast kunder som är registrerade till Adobe Unified Experience for Workfront.</span></p>
+                                <p>Produktionsrelease: 3 november 2022 <span style="color: #ff0000;"> Den här funktionen gäller endast kunder som är registrerade till Adobe Unified Experience for Workfront.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -524,11 +524,11 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktioner som snart ska tas bort från Workfront
 
@@ -553,9 +553,9 @@ Viss listkontrollfunktion går till området Inställningar > Gränssnitt > Filt
 
 #### **Workfront-tillägg för Illustrator och InDesign**
 
-Vi ersätter [Workfront-tillägget för Illustrator och InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) med uppdaterade Creative Cloud-plugin-program. Från och med slutet av 2022 kommer det här tillägget inte längre att vara tillgängligt för installation i Adobe Exchange.
+Vi ersätter [Workfront-tillägget för Illustrator och InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) med uppdaterade Creative Cloud-plugin-program. Från slutet av 2022 är det här tillägget inte längre tillgängligt för installation i Adobe Exchange.
 
-Funktionerna i det här tillägget, tillsammans med flera förbättringar, är tillgängliga i de uppdaterade plugin-programmen för Adobe Workfront för Creative Cloud:
+Funktionerna i det här tillägget, tillsammans med flera förbättringar, finns i de uppdaterade plugin-programmen för Adobe Workfront för Creative Cloud:
 * [Adobe Workfront för Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront för XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront för design och video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

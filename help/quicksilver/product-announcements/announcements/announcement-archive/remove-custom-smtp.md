@@ -6,7 +6,7 @@ description: I version 20.3 (som ska lanseras i augusti 2020) går Adobe Workfro
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -25,4 +25,4 @@ Inställningen som är markerad på den här skärmbilden ändras automatiskt ti
 
 Om du har konfigurerat en anpassad SMTP-e-postserver rekommenderar vi **att du kontaktar IT-teamet** för att säkerställa att e-post från notifications@my.workfront.com inte blockeras för inkommande e-post till systemet. Du kan även referera till Konfigurera brandväggen för att få information om vilka IP-adresser som vår trafik och e-post kommer från.
 
-Kontakta [Workfront Support Team](https://one.workfront.com/s/support?language=en_US) om du har frågor eller funderingar.
+Kontakta [Workfront Support Team](https://experienceleague.adobe.com/?support-tab=home#support) om du har frågor eller funderingar.

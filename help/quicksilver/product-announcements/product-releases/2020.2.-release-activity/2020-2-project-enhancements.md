@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Under Konfigurera konfigurerar du en inställning som ser till att alla nya proj
 
 För att säkerställa att nya projekt alltid har en status, även om en administratör döljer eller låser upp statusen som konfigurerats för nya projekt, tilldelar systemet nu den första statusen i statuslistan till alla nya projekt tills du konfigurerar den nya statusen för nya projekt igen.
 
-Mer information om hur du anger inställningar för status för alla nya projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (eller om du använder Adobe Workfront Classic, se [Ange projektinställningar](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Mer information om hur du anger inställningar för status för alla nya projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (eller om du använder Adobe Workfront Classic, se [Ange projektinställningar](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 
@@ -42,7 +42,7 @@ Upplevelsen av att ange projektinställningar är nu mer intuitiv och lättanvä
 * Om du anger ett ogiltigt nummer för ett alternativ som&quot;Normalt antal timmar per arbetsdag&quot; visas ett varningsmeddelande omedelbart i stället för att visas när du klickar på Spara.
 * Alternativetiketter matchar motsvarande gränssnittstext någon annanstans i Workfront, t.ex. området Detaljer och rapporterna.
 
-Mer information om området Projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (eller om du använder Adobe Workfront Classic, se [Ange projektinställningar](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Mer information om området Projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (eller om du använder Adobe Workfront Classic, se [Ange projektinställningar](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 
@@ -68,11 +68,11 @@ Om du till exempel flyttar eller kopierar en uppgift med en must Start On-begrä
 
 Före den här ändringen ändras alltid aktivitetsbegränsningen till Så snart som möjligt.
 
-Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md) (eller om du använder Adobe Workfront Classic, se [Flytta uppgifter](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md) (eller om du använder Adobe Workfront Classic, se [Flytta uppgifter](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Information om hur du kopierar uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (eller om du använder Adobe Workfront Classic, se [Kopiera och duplicera uppgifter](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Information om hur du kopierar uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (eller om du använder Adobe Workfront Classic, se [Kopiera och duplicera uppgifter](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-En översikt över alla aktivitetsbegränsningar finns i [Översikt över aktivitetsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (eller om du använder Adobe Workfront Classic, se [Översikt över aktivitetsbegränsning](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+En översikt över alla aktivitetsbegränsningar finns i [Översikt över aktivitetsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (eller om du använder Adobe Workfront Classic, se [Översikt över aktivitetsbegränsning](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 

@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Du måste ha följande:
 Organisationer måste samarbeta med sina kontoansvariga för att köpa AppBuilder. Den exakta processen för detta är inte förstådd eftersom vi inte behövde göra detta för POC.
 
 Om du vill testa AppBuilder-integreringen kan du begära en kostnadsfri testversion för din IMS-organisation här:
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 Även om det är en kostnadsfri 30-dagars testversion kommer de inte att inaktivera testversionen efter den tiden.
 

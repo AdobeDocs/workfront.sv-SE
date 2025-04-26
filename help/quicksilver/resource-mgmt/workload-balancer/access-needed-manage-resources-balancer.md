@@ -6,7 +6,7 @@ description: Utan rätt åtkomst eller behörigheter kanske du inte kan visa ell
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Följande tabell visar kopplingen mellan den Workfront-plan ditt företag har oc
  </tbody> 
 </table>
 
-Mer information om Workfront-planer finns i [Våra planer](https://www.workfront.com/plans).
+Mer information om Workfront-planer finns i [Våra planer](https://business.adobe.com/products/workfront/pricing.html).
 
 Mer information om var du kan hitta arbetsbelastningsutjämnaren i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -104,7 +104,7 @@ Du måste ha följande åtkomst för att kunna hantera belastningsutjämnaren:
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p> Contribute eller högre behörigheter för det projekt vars uppdrag du vill hantera, som innehåller behörigheter för att utföra uppdrag. </p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p></td>
+   <td> <p> Contribute eller högre behörigheter för det projekt vars uppdrag du vill hantera, inklusive behörigheter för att utföra uppdrag. </p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p></td>
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: 'Förbättrad resurshantering i 2020.2: Utjämning av arbetsbelastning'
+title: '2020.2 Resurshanteringsförbättringar: Arbetsbelastningsutjämnaren'
 description: Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts med 2020.2-versionen till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 maj 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Mer information om filtrering i arbetsbelastningsutjämnaren finns i [Hantera fi
 
 För att du ska kunna fatta rätt beslut om tilldelning kan du nu med en ny inställning visa skillnaden mellan antalet timmar mellan de timmar som en användare är tillgänglig att arbeta enligt sitt schema och de timmar som han/hon redan har tilldelats till arbetet (återstående timmar). Den nya inställningen är nu tillgänglig i Utjämning av arbetsbelastning.
 
-Mer information om hur du visar information i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Mer information om hur du visar information i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 
@@ -76,7 +76,7 @@ För att du lättare ska förstå hur uppgifter påverkar arbetsbelastningen fö
 
 Före den här ändringen uppdaterades endast information i området Tilldelad arbetsyta i Utjämnaren.
 
-Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/home).)
 
 **Tillgängligt i dessa miljöer:**
 
@@ -90,7 +90,7 @@ För att effektivisera din upplevelse finns nu en inställningsruta som visar yt
 * Gruppera efter projekt
 * Visa antingen Allokerade timmar eller Återstående timmar för dina aktiviteter och projekt.
 
-Mer information om hur du visar information i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Mer information om hur du visar information i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/home).)
 
 **Tillgängligt i dessa miljöer:**
 
@@ -101,7 +101,7 @@ Mer information om hur du visar information i arbetsbelastningsutjämnaren finns
 
 Nu kan du dela personalens arbetsbörda med chefer så att de kan få en kontext om personalens behov. För detta kan du nu dela arbetsbelastningsutjämnaren genom att dela en unik URL till arbetsbelastningsutjämnaren med någon annan.
 
-Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 
@@ -114,7 +114,7 @@ För att ytterligare hjälpa dig att anpassa tidslinjens varaktighet för belast
 
 Före den här förbättringen visas alltid information om arbetsbelastningsutjämnaren med början i den aktuella veckan.
 
-Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 
@@ -129,11 +129,11 @@ Om du till exempel flyttar eller kopierar en uppgift med en must Start On-begrä
 
 Före den här ändringen ändras alltid aktivitetsbegränsningen till Så snart som möjligt.
 
-Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md) (eller om du använder Adobe Workfront Classic, se [Flytta uppgifter](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md) (eller om du använder Adobe Workfront Classic, se [Flytta uppgifter](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Information om hur du kopierar uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (eller om du använder Adobe Workfront Classic, se [Kopiera och duplicera uppgifter](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Information om hur du kopierar uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (eller om du använder Adobe Workfront Classic, se [Kopiera och duplicera uppgifter](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-En översikt över alla aktivitetsbegränsningar finns i [Översikt över aktivitetsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (eller om du använder Adobe Workfront Classic, se [Översikt över aktivitetsbegränsning](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+En översikt över alla aktivitetsbegränsningar finns i [Översikt över aktivitetsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (eller om du använder Adobe Workfront Classic, se [Översikt över aktivitetsbegränsning](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 
@@ -161,9 +161,9 @@ Anpassade statusvärden kan nu användas både i enstaka och i systemomfattande 
 * Skapa en godkännandeprocess för ett objekt (projekt, uppgift eller utgåva) och basera den på statusvärden som är kopplade till gruppen som arbetar med objektet. Detta inkluderar alla anpassade statusvärden som är associerade med gruppen.
 * Skapa en global godkännandeprocess och gör den tillgänglig endast för gruppen eller för alla i systemet.
 
-För användare med administrativ åtkomst till godkännandeprocesser finns information om hur du konfigurerar godkännandeprocesser i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (eller om du använder Adobe Workfront Classic, se [Skapa godkännandeprocesser](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+För användare med administrativ åtkomst till godkännandeprocesser finns information om hur du konfigurerar godkännandeprocesser i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (eller om du använder Adobe Workfront Classic, se [Skapa godkännandeprocesser](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Information om hur du associerar godkännandeprocesser med arbetsobjekt finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (eller om du använder Adobe Workfront Classic, se [Associera en ny eller befintlig godkännandeprocess med arbete](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Information om hur du associerar godkännandeprocesser med arbetsobjekt finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (eller om du använder Adobe Workfront Classic, se [Associera en ny eller befintlig godkännandeprocess med arbete](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Tillgängligt i dessa miljöer:**
 

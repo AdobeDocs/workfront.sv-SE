@@ -6,7 +6,7 @@ description: Följande process beskriver de bästa sätten att byta från Adobe 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Följande process beskriver de bästa sätten att byta från Adobe Experience Ma
 >Denna dokumentation gäller endast kunder som använder Adobe Experience Manager Assets On-Premise eller Managed Services.
 
 
-För kunder på Adobe Experience Manager Assets as a Cloud Service är migreringsvägen från den gamla kopplingen till den nya inbyggda integreringen i Workfront. Mer information om migreringsprocessen finns i [Migrera från den äldre eller förbättrade anslutningen till Workfront för Adobe Experience Manager as a Cloud Service-integrering](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md).
+För kunder som har Adobe Experience Manager Assets as a Cloud Service kommer migreringsvägen från den gamla kopplingen att vara till den nya inbyggda integreringen i Workfront. Mer information om migreringsprocessen finns i [Migrera från den äldre eller förbättrade anslutningen till Workfront för Adobe Experience Manager as a Cloud Service-integrering](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md).
 
 ## Implementera den utökade kopplingen
 
@@ -30,9 +30,9 @@ För kunder på Adobe Experience Manager Assets as a Cloud Service är migrering
 >
 >En certifierad partner eller Adobe Consulting Services krävs för implementering av den förbättrade anslutningen.
 >
-> Om du är partner som vill certifiera via den utökade anslutningen kan du läsa följande artikel: [Workfront for Experience Manager enhanced connector Expert Series](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=en).
+> Om du är partner som vill certifiera via den utökade anslutningen kan du läsa följande artikel: [Workfront for Experience Manager enhanced connector Expert Series](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Information om hur du implementerar den utökade anslutningen finns i [Konfigurera Workfront för den utökade anslutningen för Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=en).
+Information om hur du implementerar den utökade anslutningen finns i [Konfigurera Workfront för den utökade anslutningen för Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Flytta befintliga resurser

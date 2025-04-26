@@ -6,7 +6,7 @@ description: Med ett grundläggande arbetsflöde kan du skicka flera granskare t
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 0%

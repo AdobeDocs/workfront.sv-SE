@@ -5,9 +5,9 @@ title: Snabbguide till hur du hittar hjälp i  [!DNL Adobe Workfront]
 description: Snabbguide till hur du hittar hjälp i  [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 8789f7ad50f9180edc7549a8a6802d5df6c5b006
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -40,12 +40,12 @@ Om du vill veta mer om [!DNL Workfront] kan du:
  <tbody> 
   <tr> 
    <td><strong>Checka ut [!DNL Workfront] på [!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>Du kan använda sökfältet högst upp i <a href="https://experienceleague.adobe.com/docs/workfront.html">https://experienceleague.adobe.com/docs/workfront.html</a> för att hitta en viss artikel, en diskussion eller utbildning. Tänk på det som din sökmotor för alla saker [!DNL Workfront].</p> <p>Här kan du också hitta resurser som</p> 
+   <td> <p>Du kan använda sökfältet högst upp i <a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a> för att hitta en viss artikel, en diskussion eller utbildning. Tänk på det som din sökmotor för alla saker [!DNL Workfront].</p> <p>Här kan du också hitta resurser som</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">Dokumentation</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html">Tutorials</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">Produktreleaser</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">API-dokumentation</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Dokumentation</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home">Självstudiekurser</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Releaser</a> </p></li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API-dokumentation</a> </p> </li> 
      <li> <p>Och mycket mer!</p> </li> 
     </ul> </td> 
   </tr> 
@@ -63,11 +63,11 @@ Om du vill veta mer om [!DNL Workfront] kan du:
   </tr> 
   <tr> 
    <td><strong>Se vad som är nytt i någon av</strong>[!DNL Workfront]<strong>produkterna</strong></td> 
-   <td>Besök <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank">produktreleaser</a> för den senaste informationen om nyheter.</td> 
+   <td>Besök <a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">produktreleaser</a> för den senaste informationen om nyheter.</td> 
   </tr> 
   <tr> 
    <td><strong>Lär dig på begäran och dyka djupt med [!DNL Workfront] Utbildning</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> erbjuder rollbaserade utbildningsvägar för att få planerare, arbetare, medarbetare och systemadministratörer att komma igång med nyckelfunktioner i [!DNL Workfront].<br>Utöka din [!DNL Workfront] kunskap</a> genom att utforska utbildningsvägar, videosjälvstudiekurser och hämtningsbara guider för dina intresseområden.<br></td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a> erbjuder rollbaserade utbildningsvägar för att få planerare, arbetare, medarbetare och systemadministratörer att komma igång med nyckelfunktionerna i [!DNL Workfront].<br>Utöka din [!DNL Workfront] kunskap</a> genom att utforska utbildningsvägar, videosjälvstudiekurser och hämtningsbara guider för dina intresseområden.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ Följande resurser kan hjälpa dig att avgöra hur du kan använda [!DNL Workfro
    <td>Det här är startkällan för webbinarier, e-böcker, rapporter, videor och rapporter.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories?Products=Adobe%2520Workfront">Fallstudier</a> </td> 
+   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Fallstudier </a></td> 
    <td>Läs igenom en växande samling av över 60 fallstudier, som belyser kundernas utmaningar och [!DNL Workfront] lösningar och fördelar.</td> 
   </tr> 
   <tr> 
@@ -107,7 +107,7 @@ Följande tre steg kan hjälpa dig som [!DNL Workfront]-administratör att ligga
    <td><strong>Steg 1: Lär dig vad som kommer</strong> </td> 
    <td> <p>Med dessa resurser får du information om vilka uppdateringar som släpps till Workfront:</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">Produktmeddelanden</a>: Letar du efter uppdateringar av Workfront produktöversikt? På sidan Produktmeddelanden hittar du uppdateringar och presentationer av färdplaner.</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Produktmeddelanden</a>: Letar du efter uppdateringar av Workfront produktöversikt? På sidan Produktmeddelanden hittar du uppdateringar och presentationer av färdplaner.</p> </li> 
      <li> <p><strong>Announcement Center</strong>: Granska dina meddelanden och få viktiga uppdateringar från vårt [!DNL Workfront] Product team med information om alla kunder. Gå till avsnittet <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> i [!DNL Workfront], i den övre navigeringen.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -116,7 +116,7 @@ Följande tre steg kan hjälpa dig som [!DNL Workfront]-administratör att ligga
    <td> 
     <ul> 
      <li> <p>Testa de senaste uppdateringarna i din [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">sandlåda</a>.</p> </li> 
-     <li> <p>Bestäm hur uppdateringarna påverkar hur dina medarbetare arbetar. Vår <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">kunskapsbas</a> och <a href="https://experienceleague.adobe.com/events/?lang=en">events</a> kan hjälpa dig! Våra produktchefer berättar ofta om det direkta problem som slutanvändaren eller företaget har löst genom funktionen, vilket hjälper dig att minska ändringseffekten.</p> </li> 
+     <li> <p>Bestäm hur uppdateringarna påverkar hur dina medarbetare arbetar. Vår <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">kunskapsbas</a> och <a href="https://experienceleague.adobe.com/en/events"> Event</a> kan hjälpa dig! Våra produktchefer berättar ofta om det direkta problem som slutanvändaren eller företaget har löst genom funktionen, vilket hjälper dig att minska ändringseffekten.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ Följande resurser kan hjälpa dig att lära dig mer om API:t [!DNL Workfront] o
 
 | [[!DNL Adobe Workfront] integreringar](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Du kan integrera [!DNL Workfront] med tredjepartsprogram. Integreringar kan utöka verktyget för [!DNL Workfront] och anpassa det efter organisationens behov. I den här kunskapsbasartikeln beskrivs vilka integreringsalternativ du kan använda och du får en poäng i nästa riktning. |
 |---|---|
-| [[!DNL Workfront] inbyggda integreringar](https://www.workfront.com/integrations) | Workfront kostnadsfria inbyggda integreringar gör att du och ditt team smidigt kan gå över till Workfront-plattformen samtidigt som samma arbetsflöden och processer bibehålls. |
+| [[!DNL Workfront] inbyggda integreringar](https://business.adobe.com/products/workfront/integrations.html) | Workfront kostnadsfria inbyggda integreringar gör att du och ditt team smidigt kan gå över till Workfront-plattformen samtidigt som samma arbetsflöden och processer bibehålls. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Ansluter [!DNL Workfront] till över 100 program, vilket gör det enkelt att automatisera verksamhetskritiska processer utan kod. |
 
 {style="table-layout:auto"}
@@ -153,7 +153,7 @@ Prenumerera på [status.adobe.com](https://status.adobe.com/) för att få infor
 
 Mer information om statuswebbplatsen [!DNL Workfront] finns i [Statuswebbplatsen [!DNL Adobe Workfront] Status](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
-Mer information om vad som har korrigerats i en veckovis underhållsuppdatering finns i [Underhållsuppdateringar](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om vad som har korrigerats i en veckovis underhållsuppdatering finns i [Underhållsuppdateringar](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 

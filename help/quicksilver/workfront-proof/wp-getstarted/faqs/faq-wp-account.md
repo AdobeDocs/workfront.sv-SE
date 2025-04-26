@@ -8,7 +8,7 @@ description: Om du vill öppna ett nytt konto går du till sidan för testregist
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Hur öppnar jag ett nytt [!DNL Workfront Proof]-konto?
 
-Om du vill öppna ett nytt konto går du till [sidan för testregistrering](https://www.proofhq.com/html/free-trial.html) och öppnar ett provkonto. En medlem i vårt team kommer sedan att kontakta dig för att hjälpa dig komma igång med [!DNL Workfront Proof].
+Om du vill öppna ett nytt konto går du till [sidan för testregistrering](https://business.adobe.com/products/workfront/proofing-approvals.html) och öppnar ett provkonto. En medlem i vårt team kommer sedan att kontakta dig för att hjälpa dig komma igång med [!DNL Workfront Proof].
 
 Om du redan känner till systemet och vill registrera dig för en betald plan går du till *[!UICONTROL Settings]* *>* *[!UICONTROL Billing]* och uppgraderar ditt konto till en av våra betalda planer.
 

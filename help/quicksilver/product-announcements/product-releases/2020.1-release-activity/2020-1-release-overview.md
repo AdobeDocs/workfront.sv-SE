@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Den här sidan innehåller information om de funktioner som ingår i version 202
 
 Dessa förbättringar är för närvarande tillgängliga i förhandsvisningsmiljön och kommer att vara tillgängliga i produktionsmiljön den 30 mars 2020.
 
-Gå [hit](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2) om du vill hämta den här sidan i PDF-format.
+Gå [här](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2) om du vill hämta den här sidan i PDF-format.
 
 Vissa funktioner släpptes före version 2020.1. Om du vill se vad som släpptes före version 2020.1 ska du läsa [Andra Workfront Classic-funktioner som släpptes i Production före version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md).
 
@@ -183,7 +183,7 @@ Vissa funktioner släpptes före version 2020.1. Om du vill se vad som släpptes
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ta med och identifiera citerad text i en uppdateringskommentar eller svar</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Include and identify quoted text in an update comment or reply</a>
-     --> </p> <p>När du skriver en kommentar kan du markera en del av kommentaren som citerad text för att skilja den från din egen kommentar. Använd knappen Blockcitat i HTML-redigeraren.</p> </td> 
+     --> </p> <p>När du skriver en kommentar kan du markera en del av kommentaren som citerad text för att skilja den från din egen kommentar. Använd knappen Blockcitat i HTML Editor.</p> </td> 
    <td> <p>Beta Preview-version: 27 februari 2020</p> <p>Produktionsrelease: 26 mars 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -286,9 +286,9 @@ Vissa funktioner släpptes före version 2020.1. Om du vill se vad som släpptes
    <td> <p>Beta Preview-version: 10 mars 2020</p> <p>Produktionsrelease: Med version 2020.1 <span style="color: #ff0000;">(borttagen från version)</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Optimeraren för Flash Portfolio har tagits bort</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Flash Portfolio Optimizer har tagits bort</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>Vi har tagit bort möjligheten att växla mellan den nya och den gamla (baserad på Flash-baserad) Portfolio Optimizer från Workfront Classic-miljön för alla kunder. Äldre Portfolio Optimizer är en föråldrad funktion och de nya verktygen har samma funktionalitet idag.</p> </td> 
+     --> </p> <p>Vi har tagit bort möjligheten att växla mellan det nya och det gamla (baserat på FlashFlash-baserade) Portfolio Optimizer från Workfront Classic-miljön för alla kunder. Äldre Portfolio Optimizer är en föråldrad funktion och de nya verktygen har samma funktionalitet idag.</p> </td> 
    <td> <p>Beta Preview-version: 27 februari 2020</p> <p>Produktionsrelease: Med version 2020.1</p> </td> 
   </tr> 
   <tr> 
@@ -343,7 +343,7 @@ Mer information om underhållsuppdateringar som gjordes i version 2020.1 finns i
 * [Q1 Product Roadmap Webinar](#q1-product-roadmap-webinar)
 * [Olika alternativ för enkel inloggning som ska tas bort](#various-single-sign-on-options-to-be-removed)
 * [Stöd för TLS 1.0 och 1.1 upphör](#tls-1-0-and-1-1-support-is-ending)
-* [Borttagning av Flash](#flash-application-removal)
+* [Borttagning av Flash-program](#flash-application-removal)
 
 ### Lägga till ytterligare domäner till tillåtelselista som krävs för åtkomst till Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -358,7 +358,7 @@ Mer information finns i [Konfigurera brandväggens tillåtelselista](../../../ad
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 
@@ -435,11 +435,11 @@ För att ge optimal säkerhet kräver Workfront att alla integreringar och all w
 
 Mer information finns i [TLS 1.2 krävs i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
-### Borttagning av Flash {#flash-application-removal}
+### Borttagning av Flash-program {#flash-application-removal}
 
-Alla funktioner som bygger på Flash har tagits bort från Workfront sedan version 2018.3 och ersatts med en ny lösning.
+Alla funktioner som bygger på Flash-teknik har tagits bort från Workfront sedan version 2018.3 och ersatts med en ny lösning.
 
-Mer information om de äldre verktygen för Flash och deras ersättningar finns i [Ersättning av verktyg baserade på Flash i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Mer information om de äldre Flash-verktygen och deras ersättningar finns i [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 <!--
 <a href="https://experience.workfront.com/s/article/Replacement-of-Flash-Based-Tools-in-Workfront-194935493" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">

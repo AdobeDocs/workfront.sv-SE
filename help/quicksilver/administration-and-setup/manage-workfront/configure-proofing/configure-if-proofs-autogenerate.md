@@ -6,7 +6,7 @@ navigation-topic: configure-proofing-functionality
 title: Konfigurera om korrektur ska genereras automatiskt
 description: Du kan konfigurera om systemet automatiskt ska generera korrektur när användare du anger att de ska lägga till dokument i Workfront. Den här inställningen är inaktiverad som standard.
 author: Courtney
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront-plan</a> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 

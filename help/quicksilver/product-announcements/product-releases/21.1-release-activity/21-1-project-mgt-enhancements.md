@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Om du enklare vill dela status och förlopp för ett projekt kan du nu exportera
 
 Mer information finns i [Översikt över projektstatistik](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 3: Hantera en Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U)-utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 3: Hantera en Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
 
 ## Uppdatera utleveransprocent slutfört när projektet eller aktiviteten konverterades från utleveransuppdateringen
 
@@ -41,9 +41,9 @@ För att du ska kunna hantera dina skickade begäranden på ett enklare och mer 
 
 Mer information om hur du söker efter skickade begäranden finns i [Söka efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) i Workfront One.
+Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) i Workfront One.
 
-Den här funktionen ingår nu i [Förfrågningar i den nya inlärningsvägen för Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) på Workfront One.
+Den här funktionen ingår nu i [Förfrågningar i den nya inlärningsvägen för Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) på Workfront One.
 
 ## Fält som tagits bort från sidan Ny begäran
 

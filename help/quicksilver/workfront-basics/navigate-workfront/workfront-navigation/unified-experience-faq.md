@@ -1,12 +1,12 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe - frågor och svar om enhetliga upplevelser
+title: Vanliga frågor om Adobe Unified Experience
 description: Vissa funktioner skiljer sig åt mellan  [!DNL Workfront]  och Adobe Experience Cloud, och du kan ha frågor när din [!DNL Workfront] instans migreras till den enhetliga upplevelsen.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 0%
@@ -42,12 +42,12 @@ I tabellen beskrivs några funktioner som skiljer sig åt mellan de båda upplev
 
 ### Hur avgör jag om jag använder Adobe Unified Experience eller Adobe Workfront?
 
-Om du vill ta reda på om din organisation använder Adobe Unified Experience, kontrollerar du den URL som du använder för att få tillgång till Workfront.
+Om du vill ta reda på om din organisation använder Adobe Unified Experience kontrollerar du den URL som du använder för att få tillgång till Workfront.
 
 | URL | Adobe Experience |
 |------------|------------|
 | (CompanyName).my.workfront.com | Workfront |
-| experience.adobe.com | Adobe enhetliga upplevelse |
+| experience.adobe.com | Adobe Unified Experience |
 
 ### Hur kan jag lära mig mer om [!DNL Adobe Admin Console]?
 
@@ -61,15 +61,15 @@ Mer information om [!DNL Admin Console] finns i följande artiklar:
 
 Befintliga kunder kontaktas för att schemalägga migreringar. De supportteam som arbetar med migrering kommer att hjälpa kunderna genom processen, ge råd om konfigurationen av [!DNL Admin Console] och tillhandahålla länkar till dokumentation som behövs för att göra flytten så enkel och krångelfri som möjligt.
 
-* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/docs/customer-one/using/workfront/overview.html)
-* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/docs/customer-one/using/workfront/landing.html)
-* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/docs/customer-one/using/workfront/faq.html)
+* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Hur hanterar du [!DNL Adobe Admin Console] för företag som redan har detta aktiverat för Federated ID:n på ett annat sätt än [!DNL Workfront] enkel inloggning har konfigurerats?
 
 [!DNL Adobe Admin Console] kan inkludera [!DNL Workfront] och ersätta enkel inloggning med IMS. All användaretablering sker i [!DNL Admin Console], och användarna ser inloggningsskärmen [!DNL Adobe] för att komma till [!DNL Experience Cloud] där de ser [!DNL Workfront] som ett alternativ (om de beviljas åtkomst till den).
 
-### Hur påverkar detta kunder som redan har AEM administratörspanel för [!DNL Adobe Assets] - men enkel inloggning är inte konfigurerad på [!DNL Workfront?]
+### Hur påverkar detta kunder som redan har AEM administratörspanel för [!DNL Adobe Assets] - men enkel inloggning är konfigurerad på ett annat sätt än [!DNL Workfront?]
 
 När [!DNL Workfront] har lagts till som ett [!DNL Admin Console]-program behöver du inte göra något annat för [!DNL Workfront] för att utnyttja den befintliga SSO-konfigurationen som du har för [!DNL Adobe Assets].
 

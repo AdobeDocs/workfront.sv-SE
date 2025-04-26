@@ -6,7 +6,7 @@ description: Ta emot [!DNL Adobe Workfront] meddelanden i [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Du måste ha följande:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
   </tr> 
  </tbody> 
@@ -112,7 +112,7 @@ Så här hanterar du [!DNL Workfront]-meddelanden för [!DNL Slack]:
    * (Villkorligt och valfritt) Klicka på **[!UICONTROL Approve]**, **[!UICONTROL Changes]** eller **[!UICONTROL Reject]** om du vill godkänna, godkänna med ändringar eller avvisa ett dokument.
 
      Du kan också föra musen över dokumentets miniatyrbild och klicka på förstoringsglaset för att visa en större förhandsvisning av dokumentet innan du godkänner det.\
-      Endast de godkända [filtyperna](https://api.slack.com/types/file) i Slack kan förhandsgranskas.
+      Endast de godkända Slack [filtyperna](https://api.slack.com/types/file) kan förhandsgranskas.
 
    * (Villkorligt och valfritt) Klicka på **[!UICONTROL Grant]** eller **[!UICONTROL Ignore]** för att bevilja eller ignorera begäran om mer åtkomst från en annan användare.\
 

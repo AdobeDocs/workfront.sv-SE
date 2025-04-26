@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +29,4 @@ För att du ska kunna visa den information du vill se utan att använda restrikt
 
 Tidigare begränsades antalet projekt i området Förbättrad analys till 50.
 
-Den här funktionen ingår nu i [Förbättrad analys, del 1-inlärningsväg](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) på Workfront One.
+Den här funktionen ingår nu i [Förbättrad analys, del 1-inlärningsväg](https://experienceleague.adobe.com/en/docs/workfront/using/home) på Workfront One.

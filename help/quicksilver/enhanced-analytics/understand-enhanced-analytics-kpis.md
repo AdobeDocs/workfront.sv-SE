@@ -7,7 +7,7 @@ description: Högst upp på skärmen i området Förbättrad analys visas fyra n
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 
 Du måste ha en affärsplan eller en senare för att kunna använda den här funktionen.\
-Mer information om olika tillgängliga planer finns i [Adobe Workfront-planer](https://www.workfront.com/plans).
+Mer information om olika tillgängliga planer finns i [Adobe Workfront-planer](https://business.adobe.com/products/workfront/pricing.html).
 
 Högst upp på skärmen i området Förbättrad analys visas fyra nyckeltal (KPI). Med hjälp av dessa mätvärden kan du snabbt förstå hur lång tid det tar, hur stora projekten är och hur många projekt som slutförs inom en viss tidsram. Dessa siffror är inte begränsade till det maximala antalet 50 projekt som visas för visualiseringarna på den här sidan. I stället baseras dessa data på alla projekt som gäller för ett angivet filter, och dessa värden justeras om du ändrar det valda datumintervallet eller något av filtren.
 

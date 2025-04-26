@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -145,7 +145,7 @@ Vi hade tillfälligt inaktiverat export av data från resursplaneraren när de v
 
 Mer information om hur du exporterar resursplaneringsdata till Excel finns i avsnittet Exportalternativ i [Navigeringsöversikt för resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Om du vill delta i vårt aktuella betaprogram för resursplaneraren läser du [Resursplaneringsprestanda för Beta.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+Om du vill delta i vårt aktuella betaprogram för resursplaneraren läser du [Resursplaneringsprestanda för Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Systeminställning: Sessionsinformation på externa sidor {#system-setting-session-information-in-external-pages}
 

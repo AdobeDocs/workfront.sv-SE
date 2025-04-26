@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Adobe förändrar hur du hanterar dina Adobe Workfront-användare och ökar prod
 
 I den här artikeln beskrivs processen att flytta en organisation till Adobe Admin Console generellt, så att du som Workfront-administratör kan veta vad du ska förvänta dig.
 
-Mer information om hur du kan använda Adobe Admin Console för att hantera dina Adobe i hela organisationen finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Mer information om hur du kan använda Adobe Admin Console för att hantera dina Adobe-berättiganden i hela organisationen finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## Vad är Changing?
 
@@ -32,7 +32,7 @@ Som en del av migreringen kommer din användarhantering att flyttas från Workfr
 
 * **Produktprofiladministratörer (Workfront systemadministratörer)** hanterar vilka användare i organisationen som får tillgång till Workfront.
 
-* **Användare loggar in med Adobe-identitet.** När Adobe har migrerat befintliga användare till Adobe Admin Console loggar användare in på sina Workfront-instanser med sin nya Adobe-identitet, antingen ett Adobe ID- eller Adobe-Federated ID-objekt (SSO).
+* **Användare loggar in med Adobe Identity.** När Adobe har migrerat befintliga användare till Adobe Admin Console loggar användare in på sina Workfront-instanser med sin nya Adobe Identity - antingen en Adobe ID eller Adobe Federated ID (SSO).
 
 * **Det finns ingen förändring i hur du hanterar alla andra funktioner** i själva Workfront-programmet, inklusive hantering av funktioner, användarroller, arbetsytor, funktioner och beteende.
 
@@ -45,7 +45,7 @@ Adobe migrerar din Workfront-instans till Adobe Admin Console först och migrera
 Systemadministratörer får ett e-postmeddelande när Workfront migrering till Adobe Admin Console är klar. För närvarande kan systemadministratörer behöva slutföra några nödvändiga steg **innan användarmigreringen startar**, för att minimera påverkan för Workfront-användare.
 
 * **Om dina Workfront-användare loggar in med enkel inloggning** måste du konfigurera enkel inloggning på Adobe Admin Console så att dina användare kan fortsätta logga in med enkel inloggning. Om dina Workfront-användare för närvarande inte använder enkel inloggning, men du vill konfigurera den på Adobe Admin Console, kan du göra det nu under migreringsresan.
-* **Om du redan hanterar andra Adobe-produkter i din Adobe Admin Console** kan Adobe begära ditt samtycke för att automatiskt migrera användare till din befintliga konsol. Klicka på knappen **Kom igång** i e-postmeddelandet för att navigera till medgivandesidan.
+* **Om du redan hanterar andra Adobe-produkter i din Adobe Admin Console** kan Adobe begära ditt medgivande för att automatiskt migrera användare till din befintliga konsol. Klicka på knappen **Kom igång** i e-postmeddelandet för att navigera till medgivandesidan.
 * **Om du tidigare har tagit bort licenstypen** för begärande läggs den till i systemet. Inga användare tilldelas den här licenstypen, men det krävs för synkroniseringen mellan Workfront och Adobe Admin Console. Du behöver inte vidta någon åtgärd för den begärande licenstypen.
 
 Användarhanteringen förändras inte just nu. Workfront-administratörer fortsätter att hantera användare i Workfront, och användare fortsätter att logga in med sitt Workfront ID eller SSO tills användarmigreringen är klar.
@@ -71,13 +71,13 @@ Som administratör för Workfront produktprofil (Workfront-systemadministratör)
 
 * Förbered alla användare för den kommande migreringen till Adobe Identity genom att meddela dem följande:
 
-   * När användare migrerar får de ett e-postmeddelande från Adobe som meddelar dem om förändringen i det sätt de loggar in på Workfront. Användare kommer att uppmanas att acceptera en inbjudan att logga in med Adobe Identity för första gången, antingen genom att logga in med en befintlig Adobe ID eller genom att konfigurera en ny med samma e-postadress.
+   * När användare migrerar får de ett e-postmeddelande från Adobe som informerar dem om förändringen i hur de loggar in på Workfront. Användare kommer att uppmanas att acceptera en inbjudan att logga in med Adobe Identity för första gången, antingen genom att logga in med en befintlig Adobe ID eller genom att konfigurera en ny med samma e-postadress.
 
 ### Vad man kan förvänta sig på migreringsdagen
 
 * **Användarmigreringen startar vid midnatt när kundens Workfront Datacenter är värd.**
 
-* **Adobe migrerar automatiskt Workfront-administratörer först.** När Workfront-administratörer migreras till Adobe Identity tilldelas de rollen som Adobe-produktprofiladministratör (Workfront-systemadministratör). Befintliga roller som en användare kan ha innan migreringen påverkas inte.
+* **Adobe migrerar automatiskt Workfront-administratörer först.** När Workfront-administratörer migreras till Adobe Identity tilldelas de rollen Adobe Product Profile Administrator (Workfront-systemadministratör). Befintliga roller som en användare kan ha innan migreringen påverkas inte.
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Som administratör för Workfront produktprofil (Workfront-systemadministratör)
 
 ### Användarmigreringen är klar
 
-Adobe kommer att meddela alla systemadministratörer och produktprofiladministratörer (Workfront systemadministratörer) via e-post när alla administratörer och användare har migrerats. Nu loggar alla Workfront-användare in på Workfront med Adobe Identity. Workfront systemadministratörer och produktprofiladministratörer (Workfront systemadministratörer) kan hantera användaråtkomst inom Adobe Admin Console. Om kunderna inte använder någon form av katalogsynkronisering i administratörskonsolen kan de fortsätta att hantera åtkomst till Workfront i Workfront-programmet.
+Adobe meddelar alla systemadministratörer och produktprofiladministratörer (Workfront systemadministratörer) via e-post när alla administratörer och användare har migrerats. Alla Workfront-användare för den instansen loggar in på Workfront med Adobe Identity. Workfront systemadministratörer och produktprofiladministratörer (Workfront systemadministratörer) kan hantera användaråtkomst inom Adobe Admin Console. Om kunderna inte använder någon form av katalogsynkronisering i administratörskonsolen kan de fortsätta att hantera åtkomst till Workfront i Workfront-programmet.
 
 ## Få support
 

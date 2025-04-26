@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3221'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Versionsöversikt
 
-Den här sidan innehåller information om de funktioner som finns i version 22.3. Alla funktioner i listan är tillgängliga i den nya Adobe Workfront-upplevelsen. Vissa funktioner är också tillgängliga i Adobe Workfront Classic, men [Workfront Classic kommer att upphöra i mars 2022](https://one.workfront.com/s/new-workfront-experience), som kommer att följas inom kort efter det datum då Workfront Classic slutar gälla i juli 2022.
+Den här sidan innehåller information om de funktioner som finns i version 22.3. Alla funktioner i listan är tillgängliga i den nya Adobe Workfront-upplevelsen. Vissa funktioner är också tillgängliga i Adobe Workfront Classic, men [Workfront Classic kommer att upphöra i mars 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home), som kommer att följas inom kort efter det datum då Workfront Classic slutar gälla i juli 2022.
 
 Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 2022.
 
@@ -85,7 +85,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till en PDF-fil i ett anpassat formulär
-</a></p></p> <p>Vi fortsätter att hjälpa dig att göra anpassade formulär mer visuella och informativa med nya resurswidgetar som du kan lägga till, som bilder och videor. Nu kan du lägga till en länk till en PDF-fil i ett anpassat formulär. När formuläret är kopplat till ett objekt kan användare som arbetar med objektet visa och interagera med PDF i formuläret.</p>
+</a></p></p> <p>Vi fortsätter att hjälpa dig att göra anpassade formulär mer visuella och informativa med nya resurswidgetar som du kan lägga till, som bilder och videor. Nu kan du lägga till en länk till en PDF-fil i ett anpassat formulär. När formuläret bifogas till ett objekt kan användare som arbetar med objektet visa och interagera med PDF inifrån formuläret.</p>
    </td> 
     <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
@@ -240,7 +240,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic avbröts i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic avbröts i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic avbröts i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic avbröts i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -377,7 +377,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrering med Adobe Workfront för Experience Manager Assets</a> </p> <p>Vi är glada över att kunna meddela att Adobe Workfront Experience Manager Assets-integreringen nu är tillgänglig för Cloud Service.</p>
-   <p>Vi har också infört nya funktioner för både Cloud Service och Assets Essentials.</p> </td> 
+   <p>Vi har också introducerat nya funktioner för både Cloud Service och Assets Essentials.</p> </td> 
    <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
      <li> <p>Förhandsgranskningsversion: Ej tillämpligt<br></p> </li> 
@@ -388,7 +388,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Kombinera flera filer i ett enda korrektur i plugin-programmet för Creative Cloud</a> </p> <p>Du kan nu överföra filer utanför med det innehåll du har skapat i plugin-programmet Adobe Workfront för Creative Cloud för att skapa korrektur för flera filer i Workfront. Utanför filer visas som extra korrektursidor i Workfront. Med den här förbättringen har vi även uppdaterat utseendet och känslan av att skapa korrektur.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Kombinera flera filer i ett enda korrektur i Creative Cloud-plugin</a> </p> <p>Du kan nu överföra filer utanför med det innehåll du har skapat i plugin-programmet Adobe Workfront for Creative Cloud för att skapa korrektur för flera filer i Workfront. Utanför filer visas som extra korrektursidor i Workfront. Med den här förbättringen har vi även uppdaterat utseendet och känslan av att skapa korrektur.</p> </td> 
    <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
      <li> <p>Förhandsgranskningsversion: Ej tillämpligt<br></p> </li> 
@@ -534,7 +534,7 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ## Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ## 22.3 Release Webinar
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://one.workfront.com/s/training-release-updates).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktionen stöds inte längre
 

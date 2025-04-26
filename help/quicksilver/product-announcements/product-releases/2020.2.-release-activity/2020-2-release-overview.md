@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -267,7 +267,7 @@ Mer information om underhållsuppdateringar som gjordes i version 2020.1 finns i
 
 Från och med 20 maj 2020 kommer Workfront att göra funktionerna tillgängliga i förhandsvisningsmiljön varje vecka. Före den här ändringen släpptes funktionen vanligtvis till förhandsvisningsmiljön varannan vecka.
 
-Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Lägga till ytterligare domäner till tillåtelselista som krävs för åtkomst till Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -282,7 +282,7 @@ Mer information finns i avsnittet [Konfigurera brandväggens tillåtelselista](.
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 

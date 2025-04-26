@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3659'
 ht-degree: 0%
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Mer information om nyheter och uppdateringar finns i [Nyheter i API-version 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+Mer information om nyheter och uppdateringar finns i [Nyheter i API-version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -356,7 +356,7 @@ Mer information om underhållsuppdateringar som gjorts under version 21.1 finns 
 * [Nya IP-adresser för Workfront-e-post med version 21.1](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
 * [Tillåtelselista av ytterligare IP-adresser för händelseprenumerationer](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
 * [Tillåtelselista av ytterligare domäner som krävs för åtkomst till Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
-* [Borttagning av Flash](#flash-deprecation)
+* [Flash-borttagning](#flash-deprecation)
 * [21.1 Release Webinar](#21-1-release-webinar)
 * [Ändra i förhandsgranskningsversionsstatus](#change-in-preview-release-cadence)
 * [Workfront One](#workfront-one)
@@ -386,7 +386,7 @@ Mer information finns i [Konfigurera brandväggens tillåtelselista](../../../ad
 
 ### Borttagning av Flash {#flash-deprecation}
 
-Alla verktyg för Flash togs bort från alla produkter den 19 november 2020.
+Alla Flash-baserade verktyg togs bort från alla produkter den 19 november 2020.
 
 Läs mer om ersättningslösningar för varje specifikt Flash-baserat verktyg i följande artikel: [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
@@ -398,10 +398,10 @@ Workfront 21.1 Release Webinar presenteras den 3 februari kl. 11.00 EDT / kl. 17
 
 Från och med den 20 maj 2020 började Workfront att tillgängliggöra funktioner i förhandsvisningsmiljön varje vecka. Före den här ändringen släpptes funktionen vanligtvis till förhandsvisningsmiljön varannan vecka.
 
-Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Workfront One {#workfront-one}
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Som en del av omdesignen av rutorna Ny och Redigera uppgift har vi lagt till mö
 
 Mer information finns i [Skapa återkommande aktiviteter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 2: Planera en Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI)-utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 2: Planera en Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
 
 ## Nya knappar tillgängliga i projekthuvudet
 
@@ -39,7 +39,7 @@ Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfr
 
 För att du snabbt ska kunna filtrera listan över projekt på sidan Projekt finns det två nya knappar i huvudet som gör att du snabbt kan använda filtret Projekt jag är på eller Projekt jag äger.
 
-Den här funktionen finns nu med i [Grundläggande om planering för den nya Workfront-upplevelsen, del 1: Skapa en Project](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE)-utbildningsväg på Workfront One.
+Den här funktionen finns nu med i [Grundläggande om planering för den nya Workfront-upplevelsen, del 1: Skapa en Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
 
 ## Flytta eller ta bort en artikel eller ett problem från Urklipp
 
@@ -133,9 +133,9 @@ Användarna kan nu se textformatering som fet stil, punktlistor och hyperlänkar
 
 Tidigare i Workfront Classic var textformateringen bara synlig i listorna Projekt, Aktivitet och Timme.
 
-Mer information om hur du formaterar text i ett anpassat fält finns i [Skapa ett anpassat formulär](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Mer information om hur du formaterar text i ett anpassat fält finns i [Skapa ett anpassat formulär](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-Mer information om hur du visar information i listor finns i [Kom igång med listor](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+Mer information om hur du visar information i listor finns i [Kom igång med listor](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Ny åtgärdsruta för redigering
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 0%
@@ -155,7 +155,7 @@ Före den här förbättringen ändras storleken på den intilliggande kolumnen 
 
 Mer information om hur du ändrar ordning på kolumnerna i listor finns i [Ändra kolumnbredd och ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Om du vill delta i vårt betatestningsprogram och se de aktuella förbättringarna i listan kan du läsa [New Lists Study.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Inloggning krävs)
+Om du vill delta i vårt betatestningsprogram och se de aktuella förbättringarna i listan kan du läsa [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Inloggning krävs)
 
 ## Ikonstöd för nya projektlistor {#icon-support-for-the-new-project-lists}
 
@@ -238,7 +238,7 @@ Följande alternativ är nu tillgängliga på menyn Ny version för alla område
 
 * Korrektur
 * Endast dokument
-* Länkade alternativ (Från Dropbox, Från Google Drive och så vidare)
+* Länkade alternativ (från Dropbox, Från Google Drive och så vidare)
 * Klistra in från Urklipp (detta är ett nytt alternativ när du lägger till versioner)
 
 Mer information finns i [Lägga till dokument i Adobe Workfront från ditt filsystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) i artikeln [Lägga till dokument i Adobe Workfront från ditt filsystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
@@ -424,7 +424,7 @@ Mer information finns i  [Ordlista för Adobe Workfront-termer](../../../../wor
 
 Du kan nu skapa en ny version av ett korrektur direkt från det nya korrekturläsaren och korrekturläsaren för skrivbordet när du korrekturläser i Workfront Proof.
 
-Tidigare var det här alternativet bara tillgängligt i det äldre visningsprogrammet för Flashar.
+Tidigare var det här alternativet bara tillgängligt i den äldre Flash Viewer-versionen.
 
 Mer information finns i [Kopiera korrektur i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) i artikeln  [Kopiera korrektur i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 

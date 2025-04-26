@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -343,11 +343,11 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong>Releasedatum och miljöer</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Länka dokument från Dropbox Business</a> </p> <p>Vi har lagt till Dropbox Business som en tillgänglig dokumentintegrering. Nu kan du komma åt dokument som du har sparat i Dropbox Business direkt inifrån Workfront.</p> <p>Med Dropbox Business kan du länka delade dokument och överföra dokument till delade mappar. Dropbox (inte Dropbox Business) tillåter endast dokumentägaren att visa dokumentet i Workfront.</p> <p>Din Workfront-administratör kan aktivera integreringen för din organisation.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Länka dokument från Dropbox Business</a> </p> <p>Vi har lagt till Dropbox Business som en tillgänglig dokumentintegrering. Nu kan du få tillgång till dokument som du har sparat i Dropbox Business direkt inifrån Workfront.</p> <p>Med Dropbox Business kan du länka delade dokument och överföra dokument till delade mappar. Dropbox (inte Dropbox Business) tillåter endast dokumentägaren att visa dokumentet i Workfront.</p> <p>Din Workfront-administratör kan aktivera integreringen för din organisation.</p> </td> 
    <td> <p><b>Tillgängligt på följande datum:</b> </p> <p>Förhandsgranskningsversion: Ej tillämpligt<br></p> <p>Produktionsrelease: Med version 21.4</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Uppdateringar till Workfront för Slack</a> </p> <p>Följande uppdateringar visas nu i Workfront för integrering med Slack:</p> <p>Integreringen av Workfront för Slack har nu ett nytt utseende och en ny känsla. Nu får du också meddelanden från Workfront för Slack i realtid. </p> <p>Om du till exempel har tilldelats en uppgift får du det meddelandet så snart du har tilldelats. </p> <p>Tidigare kunde det dröja innan anmälan gjordes i Slack.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Uppdateringar av Workfront för Slack</a> </p> <p>Följande uppdateringar är nu synliga i Workfront för Slack-integrering:</p> <p>Integreringen av Workfront för Slack har nu ett nytt utseende och en ny känsla. Nu får du även meddelanden från Workfront för Slack i realtid. </p> <p>Om du till exempel har tilldelats en uppgift får du det meddelandet så snart du har tilldelats. </p> <p>Tidigare kunde det dröja innan meddelandet visades i Slack.</p> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> <p>Förhandsversion: 29 juli 2021<br></p> <p>Produktionsrelease: 29 juli 2021</p> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> <p>Nya Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -465,7 +465,7 @@ Workfront 21.4 Release Webinar presenterades den 23 september 2021. Du kan visa 
 
 ## Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://one.workfront.com/s/training-release-updates).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktionen stöds inte längre
 

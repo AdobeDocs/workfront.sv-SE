@@ -1,19 +1,19 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experience-manager-asset-essentials
-title: Bryt länken till eller ta bort resurser och mappar från Experience Manager Assets eller Assets Essentials
+title: Bryta länken till eller ta bort resurser och mappar från Experience Manager Assets eller Resurser Essentials
 description: Du kan bryta länken till eller ta bort objekt som är länkade till Workfront från Adobe Experience Manager Assets.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
-# Bryt länken till eller ta bort resurser och mappar från Experience Manager Assets eller Assets Essentials
+# Bryta länken till eller ta bort resurser och mappar från Experience Manager Assets eller Resurser Essentials
 
 Du kan bryta länken till eller ta bort objekt som är länkade till Workfront från Adobe Experience Manager Assets.
 
@@ -30,8 +30,8 @@ När du tar bort ett länkat dokument eller en länkad mapp i Workfront bryts l�
 
 När du tar bort ett länkat dokument eller en länkad mapp från det externa programmet förblir dokumentet eller mappen kvar i Workfront-systemet tills du också tar bort den från Workfront.
 
-* Information om hur du tar bort en resurs från Adobe Experience Manager as a Cloud Service finns i [Ta bort resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en#delete-assets) i Adobe Experience Manager as a Cloud Service-dokumentationen.
-* Information om hur du tar bort en resurs från Adobe Experience Manager Assets Essentials finns i [Ta bort resurser eller mappar](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=en#delete-assets) i Adobe Experience Manager Assets Essentials-dokumentationen.
+* Information om hur du tar bort en resurs från Adobe Experience Manager as a Cloud Service finns i [Ta bort resurser](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) i Adobe Experience Manager as a Cloud Service-dokumentationen.
+* Information om hur du tar bort en resurs från Adobe Experience Manager Assets Essentials finns i [Ta bort resurser eller mappar](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) i dokumentationen för Adobe Experience Manager Assets Essentials.
 
 
 

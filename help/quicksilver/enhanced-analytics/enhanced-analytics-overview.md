@@ -7,7 +7,7 @@ description: Förbättrad analys är ett kraftfullt verktyg i Adobe Workfront me
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Förbättrade analysfunktioner kan hjälpa er att identifiera:
 
 ![Analyser](assets/nwe-full-screen-analytics-350x222.png)
 
-Om du vill visa användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys kan du läsa [Förbättrade inlärningsvägar för analyser](https://one.workfront.com/s/enhanced-analytics-program).
+Om du vill visa användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys kan du läsa [Förbättrade inlärningsvägar för analyser](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Förutsättningar
 
@@ -42,11 +42,11 @@ För att få tillgång till det förbättrade analysområdet måste du:
 
 * Ha en Business- eller Enterprise-plan.
 
-  Mer information finns i [Workfront-planer](https://www.workfront.com/plans).
+  Mer information finns i [Workfront-planer](https://business.adobe.com/products/workfront/pricing.html).
 
 * Låt Workfront-administratören lägga till förbättrade analysfunktioner i layoutmallen.
 
-  Mer information finns i [Förbättrad analys: Lägga till analyser i layoutmallar](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Mer information finns i [Förbättrad analys: Lägga till analyser i layoutmallar](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Om du vill visa information för projekt och uppgifter måste du:
 

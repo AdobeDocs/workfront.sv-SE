@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ae95f1e-5241-465d-8cf1-2d4353077b6a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -25,7 +25,7 @@ En lista över alla ändringar som är tillgängliga i version 2020.1 finns i [2
 
 För att göra upplevelsen mer enhetlig när du använder Workfront i både mobilappen och på webben återspeglas automatiskt en anpassning av den vänstra panelens sekundära navigering i de nya eller befintliga layoutmallarna i mobilappen.
 
-Mer information om hur du anpassar den vänstra panelen finns i [Anpassa den vänstra panelen med en layoutmall i den nya Workfront-upplevelsen](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
+Mer information om hur du anpassar den vänstra panelen finns i [Anpassa den vänstra panelen med en layoutmall i den nya Workfront-upplevelsen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Gilla uppdateringar i mobilappen
 

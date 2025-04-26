@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -43,6 +43,6 @@ Verktygsfälten i följande listor och rapporter har nu ett modernt utseende och
 
 >[!NOTE]
 >
->Denna ändring uppdaterades i produktionen den 23 maj 2022. Se [Underhållsuppdateringen den 26 maj 2022 för mer information](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>Denna ändring uppdaterades i produktionen den 23 maj 2022. Se [Underhållsuppdateringen den 26 maj 2022 för mer information](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Vi har uppdaterat vägbeskrivningarna i alla områden där vägbeskrivningar finns tillgängliga. Objekten i vägbeskrivningarna avgränsas nu med rörledningar (|). Före den här uppdateringen separerades de med snedstreck (/).

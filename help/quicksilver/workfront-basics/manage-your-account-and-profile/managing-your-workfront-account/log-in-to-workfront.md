@@ -6,7 +6,7 @@ description: Läs den här artikeln för att lära dig hur du loggar in på Work
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 0%

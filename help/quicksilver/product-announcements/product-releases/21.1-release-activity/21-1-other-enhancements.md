@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Mer information finns i [Gör det möjligt för användare att skicka ett proble
 
 Mer information om varför vi gör den här ändringen finns i [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Den här funktionen ingår nu i [köhanteringen i den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) på Workfront One.
+Den här funktionen ingår nu i [köhanteringen i den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Begränsa timredigering för tidrapporter
 

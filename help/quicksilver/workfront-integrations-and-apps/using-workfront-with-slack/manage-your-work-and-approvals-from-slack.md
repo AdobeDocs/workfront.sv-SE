@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Hantera ditt arbete och dina godkännanden från Slack
-description: Du kan komma åt din hemarbetslista, granska och godkänna att arbeta med uppgifter och ärenden samt granska eller fatta beslut om godkännanden direkt från Slack.
+title: Hantera ditt material och godkännanden från Slack
+description: Du kan öppna din hemarbetslista, granska och godkänna att arbeta med uppgifter och ärenden samt granska eller fatta beslut om godkännanden direkt från Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront] plan</a>*</td> 
    <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
   </tr> 
  </tbody> 

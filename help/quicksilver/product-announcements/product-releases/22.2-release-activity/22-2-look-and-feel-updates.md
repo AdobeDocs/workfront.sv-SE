@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Verktygsfälten i följande listor och rapporter har nu ett modernt utseende och
 
 >[!NOTE]
 >
->Verktygsfältet för samma rapporter på kontrollpaneler uppdaterades också i Production med [underhållsuppdateringen](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) varje vecka den 3 mars 2022.
+>Verktygsfältet för samma rapporter på kontrollpaneler uppdaterades också i Production med [underhållsuppdateringen](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) varje vecka den 3 mars 2022.
 
 * Projektrapporter
 * Uppgiftsrapporter
@@ -63,7 +63,7 @@ Verktygsfälten i följande listor och rapporter har nu ett modernt utseende och
 * Timrapporter
 * Användarrapporter
 * Programrapporter
-* Portfolio rapporter
+* Portfolio-rapporter
 * Uppdragsrapporter
 * Anteckningsrapporter
 * Rapporter om dokumentgodkännande

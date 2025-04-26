@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Alternativet Markera alla är nu tillgängligt i layoutmallar</a></p>
                     [!BADGE In production ]{type=Informative}
-                    <p>För att du enklare ska kunna visa och dölja fält med layoutmallar har kryssrutan Markera alla lagts till under Översikt och Ekonomi i detaljvyn i en layoutmall. Det här alternativet är tillgängligt när du har valt Projekt, Aktivitet, Utgåva, Portfolio eller Program under Anpassa vad användare ser.</p>
+                    <p>För att du enklare ska kunna visa och dölja fält med layoutmallar har kryssrutan Markera alla lagts till under Översikt och Ekonomi i detaljvyn i en layoutmall. Det här alternativet är tillgängligt när du har valt Project, Task, Issue, Portfolio eller Program under"Customize what users see".</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
                     <ul>
@@ -516,7 +516,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <p>Vi har lagt till Adobe AI Assistant till Workfront så att du enklare kan utföra ditt arbete. AI Assistant kan hjälpa dig genom att:</p>
                     <ul>
                         <li>Sammanfatta arbetsobjekt och dokument så att du snabbt kan få en allmän förståelse för uppgifter, projekt och resurser.</li>
-                        <li>Tillhandahålla information från Experience League-dokumentation, föra in instruktioner och referensmaterial i Workfront och länka till mer ingående dokumentation.</li>
+                        <li>Tillhandahålla information från Experience League-dokumentation och skicka instruktioner och referensmaterial till Workfront, och länka till mer ingående dokumentation.</li>
                         <li>Skapa och förfina formler för beräknade anpassade formulärfält, generera formler från textmeddelanden eller hitta fel i befintliga formler.</li>
                         </ul>
                         <p>Din Workfront-administratör kan aktivera eller inaktivera AI Assistant för din organisation. AI-assistenten är tillgänglig för instanser med planerna Select, Prime och Ultimate.</p>
@@ -591,8 +591,8 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes i den fjärde utgåvan av kvartal 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjordes i den fjärde utgåvan av kvartal 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

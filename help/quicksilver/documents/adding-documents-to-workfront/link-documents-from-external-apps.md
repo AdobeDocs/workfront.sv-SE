@@ -6,7 +6,7 @@ description: Du kan länka dokument och mappar till Adobe Workfront från extern
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Du kan göra korrektur som ursprungligen skapades i Workfront Proof tillgängliga i Workfront. För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika tillgängliga planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</td> 
+   <td>Du kan göra korrektur som ursprungligen skapades i Workfront Proof tillgängliga i Workfront. För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika tillgängliga planer finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront-planer</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
   </tr> 
   <tr> 
    <td role="rowheader">Andra dokumentleverantörer (via anpassade dokumentintegreringar)</td> 
-   <td> <p class="workfront_plans">För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika tillgängliga planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</p> </td>
+   <td> <p class="workfront_plans">För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika tillgängliga planer finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront-planer</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>

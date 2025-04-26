@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Ny: [!UICONTROL Standard]</p>
+   <td><p>Nytt: [!UICONTROL Standard]</p>
        <p>eller</p>
        <p>Aktuell: [!UICONTROL Plan]</p></td>
   </tr> 
@@ -64,7 +64,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Du kan konfigurera följande integreringar för att hantera dokument:
+Du kan konfigurera följande integreringar för hantering av dokument:
 
 <!--
   Experience Manager Assets Essentials </p>
@@ -74,11 +74,11 @@ Du kan konfigurera följande integreringar för att hantera dokument:
 
 * [!DNL Workfront Proof]
 
-  Genom att länka korrektur från [!DNL Workfront Proof] kan du göra bevis som ursprungligen skapades tillgängliga [!DNL Workfront Proof] inom [!DNL Workfront]. För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront] plan eller högre för att använda den här funktionen. För de nya planerna är den här funktionen tillgänglig med alla planer. Mer information om de olika planer som är tillgängliga finns i [Workfront-planer](https://www.workfront.com/plans).
+  Genom att länka korrektur från [!DNL Workfront Proof] kan du göra korrektur som ursprungligen skapades i [!DNL Workfront Proof] tillgängliga i [!DNL Workfront]. För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
-  Mer information om hur du integrerar med [!DNL SharePoint]finns i [Konfigurera integreringen [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Mer information om integrering med [!DNL SharePoint] finns i [Konfigurera  [!DNL SharePoint] integreringen](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Tredjepartsleverantörer av molndokument:
 
@@ -97,7 +97,7 @@ Du kan konfigurera följande integreringar för att hantera dokument:
 
 * Andra dokumentleverantörer (via anpassade dokumentintegreringar).
 
-  För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://www.workfront.com/plans).
+  För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/products/workfront/pricing.html).
 
 Dessutom kan du förbättra dokumentupplevelsen av [!DNL Workfront] med en DAM-integrering från tredje part. Administratörer måste aktivera de här funktionerna för att användare ska kunna länka tjänsten till sitt [!DNL Workfront]-konto.
 
@@ -122,13 +122,13 @@ Om du konfigurerar integreringar med [!DNL Workfront DAM] kan du aktivera [!DNL 
 
 Med en anpassad dokumentintegrering kan [!DNL Workfront]-användare länka filer till [!DNL Workfront] från praktiskt taget vilket system som helst, förutsatt att systemet är gjort för att fungera med [!DNL Workfront].
 
-För att göra den anpassade integrationen tillgänglig för användare måste du först bygga integrationen. Mer information om hur du skapar integrationer som ska användas med [!DNL Workfront]finns i [API:t för](../../wf-api/doc-wbhks-api/docu-webhook-api.md) dokumentwebhooks.
+För att göra den anpassade integrationen tillgänglig för användarna måste du först skapa integreringen. Mer information om hur du skapar integreringar som ska användas med [!DNL Workfront] finns i [API:t för dokumentwebbhooks](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
 
 När den anpassade dokumentintegreringen har skapats kan du göra den tillgänglig för användare på din webbplats.
 
 {{step-1-to-setup}}
 
-1. I den vänstra panelen klickar du på **[!UICONTROL Documents]** > **[!UICONTROL Custom Integration]**.
+1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL Custom Integration]** i den vänstra panelen.
 
 1. Klicka på **[!UICONTROL Add Custom integration]**.
 1. Ange följande information för att konfigurera integreringen:
@@ -156,7 +156,7 @@ När den anpassade dokumentintegreringen har skapats kan du göra den tillgängl
     </tbody> 
    </table>
 
-1. (Villkorligt) Om du har valt **[!UICONTROL OAuth]** autentisering för **[!UICONTROL Authentication Type]** anger du följande information:
+1. (Villkorligt) Om du valde **[!UICONTROL OAuth]**-autentisering för **[!UICONTROL Authentication Type]** anger du följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -180,18 +180,18 @@ När den anpassade dokumentintegreringen har skapats kan du göra den tillgängl
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Parameters]</td> 
-      <td> <p>Ange valfria värden som ska läggas till i frågesträngen för varje API-anrop. Till exempel access_type=offline.</p> <p>Om du vill lägga till flera parametrar för begäran klickar du på <strong>+Lägg till parameter för begäran</strong>.</p> </td> 
+      <td> <p>Ange valfria värden som ska läggas till i frågesträngen för varje API-anrop. Till exempel access_type=offline.</p> <p>Om du vill lägga till flera begärandeparametrar klickar du på <strong>+Lägg till begärandeparameter</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >Omdirigerings-URI:n [!DNL Workfront] som visas längst ned på [!UICONTROL Custom Integration] sidan visar den URI som används för att registrera den här integreringen med den externa dokumentleverantören.
+   >Den omdirigerings-URI [!DNL Workfront] som visas längst ned på sidan [!UICONTROL Custom Integration] listar den URI som används för att registrera den här integreringen med den externa dokumentprovidern.
 
-1. (Villkorligt) Om du har valt **[!UICONTROL ApiKey]** autentisering för **[!UICONTROL Authentication Type]** anger du den API-nyckel som utfärdades av den anpassade dokumentleverantören.
+1. (Villkorligt) Om du valde **[!UICONTROL ApiKey]**-autentisering för **[!UICONTROL Authentication Type]** anger du API-nyckeln som utfärdades av den anpassade dokumentprovidern.
 
-   [!DNL Workfront] använder den här API-nyckeln för att göra auktoriserade API-anrop till dokumentleverantören.
+   [!DNL Workfront] använder den här API-nyckeln för att göra auktoriserade API-anrop till dokumentprovidern.
 
 1. Klicka på **[!UICONTROL Save]** för att skapa integreringen.
 
@@ -226,15 +226,15 @@ Så här konfigurerar du [!DNL Workfront] att skicka metadata till [!DNL Workfro
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]**.
 
 1. I fältet **[!UICONTROL Select Source Field for Mapping]** börjar du skriva namnet på det Workfront-fält som du vill mappa till [!DNL Workfront DAM] och markerar det sedan när du ser det i listan.
-1. I väljer **[!UICONTROL Select Target Field for Mapping]** du det fält som [!DNL Workfront DAM] du vill fylla i med informationen i det valda [!DNL Workfront] fältet.
+1. I **[!UICONTROL Select Target Field for Mapping]** markerar du det [!DNL Workfront DAM]-fält som du vill fylla i med informationen i det markerade [!DNL Workfront]-fältet.
 
    >[!NOTE]
    >
-   > Alla dokument som skickas till [!DNL Workfront DAM] av användare som har behörighet att göra det får sina metadata uppdaterade med de [!DNL Workfront] fält som mappas här när de laddas upp till [!DNL Workfront DAM].
+   > Alla dokument som skickas till [!DNL Workfront DAM] av användare som har behörighet att göra det har sina metadata uppdaterade med [!DNL Workfront]-fälten mappade här, när de överförs till [!DNL Workfront DAM].
 
 1. Klicka på **[!UICONTROL Add Mapping]**.
 
-1. Fortsätt att lägga till fler [!UICONTROL Workfront] fält och motsvarande [!DNL Workfront DAM] fält.
+1. Fortsätt lägga till fler [!UICONTROL Workfront] fält och motsvarande [!DNL Workfront DAM] fält.
 
 ### Ta bort mappade fält
 

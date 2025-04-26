@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Vi fortsätter att förbättra hur du använder Workfront-mål baserat på den f
 >
 >**Produktionstillgänglighet:** Med version 20.4
 
-Den här funktionen ingår nu i [Workfront Goals Learning Path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) på Workfront One.
+Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Åtkomstkontroller för Workfront-mål
 
@@ -61,7 +61,7 @@ Mer information om hur du beviljar åtkomst till Workfront-mål finns i [Bevilja
 >
 >**Produktionstillgänglighet:** Med version 20.4
 
-Den här funktionen ingår nu i [Workfront Goals Learning Path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) på Workfront One.
+Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Förbättringar av användbarheten för Workfront-mål
 
@@ -82,4 +82,4 @@ Mer information finns i följande artiklar:
 >
 >**Produktionstillgänglighet:** Med version 20.4
 
-Den här funktionen ingår nu i [Workfront Goals Learning Path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) på Workfront One.
+Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
