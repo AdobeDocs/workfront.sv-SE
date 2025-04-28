@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
+source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Workfront navigering och sökning
+## Navigering och sökning
 
 ### Gränssnittsuppdatering för avancerad sökning
 
@@ -325,3 +325,30 @@ Vi har lagt till en ny knapp för att redigera textläge och spärra/knip i föl
 * Grupperingar
 
 +++
+
+## Användare
+
+### Uppdaterad dokumentdelningssida för externa användare
+
+**Förhandsversion: 10 april 2024; Produktionsversion: Från och med 17 april 2024**
+
+Vi har uppdaterat dokumentdelningssidan för externa användare med en modernare design som är konsekvent med andra delar av Workfront.
+
+Externa användare har inte längre åtkomst till _Mina inställningar_ från den här sidan.
+
+<!--
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: To be announced**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
