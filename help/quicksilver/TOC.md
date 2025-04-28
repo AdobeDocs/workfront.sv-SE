@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 39dbf3c659dd94d51c224361dcae7d369b0cfce7
+source-git-commit: c3e71e5126f68878411764766eb053215d050145
 workflow-type: tm+mt
-source-wordcount: '13167'
+source-wordcount: '13172'
 ht-degree: 0%
 
 ---
@@ -868,6 +868,7 @@ ht-degree: 0%
       * [Ändra beräknade fältformler med AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [Använd AI-assistenten för att arbeta med projekt, uppgifter och ärenden](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
+      * [Fyll i en begäran automatiskt med hjälp av AI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
    * Uppdatera arbetsuppgifter och visa uppdateringar {#update-work-items-view-updates}
       * [Uppdatera arbetsposter och visa uppdateringar: artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Översikt över uppdateringsavsnittet](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
