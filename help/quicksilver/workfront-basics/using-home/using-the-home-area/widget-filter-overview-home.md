@@ -6,9 +6,9 @@ description: Du kan välja bland ett antal widgetar för att anpassa innehållet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -238,6 +238,44 @@ Du kan använda följande filter i widgeten Mina problem:
     <td>Visar alla problem som inte har tilldelats en primär användare men som har en tilldelad roll </td>
   </tr>
 </table>
+
+## Mina förfrågningar
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Alla</td> 
+      <td>Visar alla skickade begäranden, oavsett status eller vem som har skickat dem.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Öppna</td> 
+      <td> <p>Visar alla skickade begäranden 
+      <ul>
+      <li>De är för närvarande öppna, oavsett vem som skickade dem. Det är bara begäranden om att du har minst behörighet att visa här om du inte har skickat in dem själv.</li>
+      <li>Utan ett faktiskt slutförandedatum eller vars stängningsobjekt inte har något faktiskt slutförandedatum visas på underfliken Öppna.</li> 
+      </ul>
+      <p><b>OBS!</b> 
+      Begäranden som har en status som inte är lika med Stängt betraktas som öppna.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mina förfrågningar</td> 
+      <td>Visar begäranden som du har skickat, oavsett status. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mina öppna förfrågningar</td> 
+      <td> <p>Visar begäranden 
+      <ul>
+      <li>Att du skickade in och fortfarande är öppen. </li> 
+      <li>Utan ett faktiskt slutförandedatum eller vars matchande objekt inte har något faktiskt slutförandedatum visas på underfliken Mina öppna begäranden. </li> 
+      </ul>
+      <p><b>OBS!</b> 
+      Begäranden som inte har en status som motsvarar stängda betraktas som öppna.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Mitt arbete
 
