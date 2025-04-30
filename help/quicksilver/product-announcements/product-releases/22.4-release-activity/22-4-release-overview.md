@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
@@ -661,24 +661,23 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                         <p>Med Workfront Campaigns kan ni ordna projekt från olika portföljer och program i en ny arbetsbehållare.
 Kampanjer lanserades som betaversion i juli 2022 i version 22.3.</p>
 <p>Den nya behållaren kommer att utvecklas i framtida versioner för att koppla arbetsobjekt som för närvarande hanteras i separata vattentäta skott.</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>Tillgängligt på följande datum:&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>Förhandsgranskningsversion:&amp;#GenStudio for Performance Marketers&amp;Under tidsramen för version 2.4&lt;br />&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>Produktionsrelease:&amp;#GenStudio for Performance Marketers&amp;TBD&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{1 {para}&quot;>Utökad teambeskrivning&lt;/a>&lt;/p>
-    &lt;p>I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på beskrivningen för att visa den i ett popup-fönster. Alla URL:er i beskrivningen går att klicka på i popup-fönstret, och du kan klicka i beskrivningstexten för att redigera den (om du har tillgång till redigering av gruppinställningarna).&lt;/p>
-    &lt;p>Tidigare var bläddring genom beskrivningen i ett smalt område det enda sättet att se allt innehåll.&lt;/p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Under hela tidsramen för version 22.4<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Utökad teambeskrivning</a></p>
+                        <p>I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på beskrivningen för att visa den i ett popup-fönster. Alla URL:er i beskrivningen går att klicka på i popup-fönstret, och du kan klicka i beskrivningstexten för att redigera den (om du har tillgång till redigering av gruppinställningarna).</p>
+                        <p>Tidigare var det enda sättet att se allt innehåll att bläddra igenom beskrivningen på ett smalt område.</p>
 <p>Den här förbättringen av beskrivningen gäller både rörliga och icke-rörliga team.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
