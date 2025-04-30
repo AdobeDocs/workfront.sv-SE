@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ Om du vill visa den här sidan går du till Inställningar > E-post > Meddelande
 **Förhandsgranskningsversion: 16 januari 2025; börjar veckan den 30 januari 2025**
 
 Vi har uppdaterat dialogrutan Lägg till SharePoint i Inställningar > Dokument > Sharepoint-integrering med en modernare design som överensstämmer med andra delar av Workfront.
+
+Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
+
+### Gränssnittsuppdatering för dialogrutan Lägg till anpassad integration
+
+**Förhandsgranskningsversion: 16 januari 2025; börjar veckan den 30 januari 2025**
+
+Vi har uppdaterat dialogrutan Lägg till anpassad integration i Inställningar > Dokument > Anpassad integrering med en modernare design som är konsekvent med andra delar av Workfront.
 
 Den här uppdateringen innehåller visuella ändringar av området. Ingen funktionalitet har ändrats.
 
