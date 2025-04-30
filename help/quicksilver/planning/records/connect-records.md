@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3359'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn </p> </td> 
+   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller planeringsområdena.</p>
+<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer planeringsområdet aktiverat som standard.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Att tänka på vid anslutning av poster
 
@@ -165,7 +158,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 * De kopplade postfälten i tabellvyn.
 * Postens förhandsvisningsruta eller sida i de kopplade postfälten på fliken Information.
 * Postens förhandsvisningsruta eller sida på fliken Anslutningar.
-* Postens sida på fliken Anslutningsvy. <!--this needs title edit when they rename the "Connection view" page type-->
+* Postens sida på en <span class="preview">sida med kopplade poster</span>.
 
 ### Koppla ihop Workfront Planning-poster från tabellvyn eller detaljområdet för en post
 
@@ -463,9 +456,8 @@ Posterna och objekten läggs till omedelbart.
 
    Posten kopplas omedelbart bort från alla områden i Workfront Planning eller från andra program där den kan visas som ansluten. Alla värden för sökfält tas också bort.
 
-### Koppla poster från fliken Anslutningsvy på informationssidan för en post
+### Anslut poster från sidan <span class="preview">Anslutna poster</span> för en post
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. Gå till en vy av en posttyp som har kopplats till andra typer av Planning-poster eller objekttyper från andra program.
 1. Följ stegen som beskrivs i de föregående underavsnitten för att hitta en post i vyn som du vill koppla till andra poster eller objekt.
@@ -473,9 +465,11 @@ Posterna och objekten läggs till omedelbart.
 
    Förhandsgranskningssidan öppnas.
 1. Klicka på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
-1. Klicka på en befintlig flik i Anslutningsvyn på postens förhandsgranskning eller sida. Du måste först skapa en sida i Anslutningsvyn. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Klicka på en befintlig <span class="preview">flik för kopplade poster</span> på postens sida. Du måste först skapa sidan <span class="preview">Anslutna poster</span>. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    En sida med kopplad posttyp visas i tabellvyn.
+
+   Alla sammankopplade poster av en typ visas i tabellen.
 1. Klicka på **Anslut** för att lägga till eller ta bort poster.
 
    ![Knappen Anslut är markerad på fliken med information om den anslutna posten](assets/connect-button-highlighted-in-connected-record-details-tab.png)

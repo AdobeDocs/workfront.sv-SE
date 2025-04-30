@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -113,6 +113,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Allmän information om delning av objekt i Workfront Planning finns även i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Du kan dela arbetsytor med användare, team, roller, grupper eller företag i din organisation.
+* Förutom team, grupper, företag och jobbroller kan du bara dela med användare som har lagts till i Adobe Admin Console.
 * Du kan inte dela arbetsytor med användare utanför organisationen.
 * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna.
 * När du delar en arbetsyta delas inte vyerna. Du måste dela vyer separat.

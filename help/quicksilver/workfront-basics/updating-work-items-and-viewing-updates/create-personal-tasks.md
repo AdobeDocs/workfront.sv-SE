@@ -6,9 +6,9 @@ description: Personliga uppgifter är tillfälliga arbetsförfrågningar som du 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,16 @@ ht-degree: 0%
 
 Personliga uppgifter är tillfälliga arbetsförfrågningar som du skickar till en användare eller skickar till eller lägger till själv.
 
-Adobe Workfront sparar tillfälliga arbetsförfrågningar och gör objekt som personliga uppgifter.
+Adobe Workfront sparar tillfälliga arbetsförfrågningar och gör saker som personliga uppgifter i ett användarprojekt som Wprfront automatiskt skapar för varje användare.
 
-Som standard har alla användare i Workfront ett personligt projekt som heter &quot;&lt; Användarens fullständiga namn>&#39;s Tasks&quot;. Exempel: &quot;Svensson Svensson&#39;s Tasks&quot;.
+Följande är egenskaper för en användares personliga projekt:
 
-Det personliga projektet för varje användare visas inte i sökningar och är dolt. Alla personliga uppgifter lagras i det här projektet.
-
-Du kan flytta personliga uppgifter till ett projekt om det behövs.
+* Alla användare i Workfront har ett personligt projekt som heter &quot;&lt; Användarens fullständiga namn>&#39;s Tasks&quot;. Exempel: &quot;Svensson Svensson&#39;s Tasks&quot;.
+* Det personliga projektet för varje användare visas inte i sökningar och är dolt.
+* Ett personligt projekt kan inte tas bort, även om användare har inaktiverats.
+* Status för ett personligt projekt är alltid Aktuell. Personliga projekt kan inte slutföras eller avbrytas.
+* Alla personliga uppgifter lagras i en användares personliga projekt.
+* Du kan flytta personliga uppgifter till ett annat projekt om det behövs.
 
 Du kan skapa personliga uppgifter på följande sätt:
 

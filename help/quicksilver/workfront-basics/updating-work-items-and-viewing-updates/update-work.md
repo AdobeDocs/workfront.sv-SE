@@ -6,24 +6,21 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3104'
+source-wordcount: '3234'
 ht-degree: 0%
 
 ---
 
 # Uppdatera arbete
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 4/2025 -->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -88,8 +85,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
    <td> 
+   <p>Nytt: Medarbetare eller högre för problem och dokument: Ljus eller högre för alla andra objekt</p>
    <p>Aktuell: Begär eller högre för utgåvor och dokument; Granska eller högre för alla andra objekt</p>
-   <p>Nytt: Medarbetare eller högre för problem och dokument: Ljus eller högre för alla andra objekt</p> 
    </td> 
   </tr> 
   <tr> 
@@ -244,9 +241,11 @@ I den här artikeln beskrivs hur du kan uppdatera projekt, uppgifter eller probl
 1. Klicka på **Uppdateringar** i den vänstra panelen.
 Fliken **Kommentarer** är markerad som standard.
 
-1. Börja skriva en kommentar i rutan **Ny kommentar**.
+1. 
+   <div class="preview">Börja skriva en kommentar i rutan **Ny kommentar**.
 
    ![Ny kommentarruta](assets/comment-box-all-tabs.png)
+   </div>
 
    >[!TIP]
    >
@@ -256,7 +255,7 @@ Fliken **Kommentarer** är markerad som standard.
    * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
 
-1. (Valfritt) I området **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, och markerar sedan användaren när den visas i listan.
+1. <span class="preview">(Valfritt) I området **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, eller markerar den när den visas i listan. </span>
 1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i avsnittet [Använd RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 
    >[!TIP]
@@ -266,10 +265,10 @@ Fliken **Kommentarer** är markerad som standard.
    >Indikatorn visas först när kommentaren har skickats för objektet, inte när kommentaren fortfarande är sammansatt.
    >
    >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![Ny röd indikator i realtid](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. Klicka på **Skicka** för att lägga till uppdateringen till Workfront-objektet.
-1. (Valfritt) Om du vill redigera en kommentar klickar du på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och sedan på **Redigera**.
+1. (Valfritt) Om du vill redigera en kommentar klickar du på menyn **Mer** ![Mer](assets/more-menu.png) i kommentarens övre högra hörn och sedan på **Redigera**.
 
    >[!IMPORTANT]
    >
@@ -281,7 +280,7 @@ Fliken **Kommentarer** är markerad som standard.
    >
    >Kommentarer från det aktuella året visar inte året i datumstämpeln. Om du hovrar över en tidsstämpel visas hela datumet, inklusive året.
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![Redigerad indikator för kommentar](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -293,14 +292,14 @@ Fliken **Kommentarer** är markerad som standard.
 
 1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet medan du lade till dina kommentarer, klickar du på **Visa** i den blå **nya kommentarsbanderollen** längst ned på skärmen för att visa dessa kommentarer.
 
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![Blått nytt kommentarsbanderoll med knapp](assets/blue-new-comments-banner-with-view-button.png)
 
    Ytterligare kommentarer visas längst ned på skärmen.
 
-1. (Valfritt) Klicka på ikonen **Gilla**![](assets/like-icon.png) . Ikonen uppdateras med antalet gilla-markeringar.
+1. (Valfritt) Klicka på ikonen **Gilla**![Gilla](assets/like-icon.png) . Ikonen uppdateras med antalet gilla-markeringar.
 1. (Villkorligt och valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![Medlemsikoner utökade](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
@@ -328,16 +327,16 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
 1. Gå till området **Uppdateringar** för ett Workfront-objekt, öppna fliken **Kommentarer** och börja skriva en kommentar.
 1. (Valfritt) Om du vill lägga till RTF-formatering i kommentaren använder du alla attribut i verktygsfältet **RTF** när du skriver.
 
-   ![](assets/rich-text-toolbar.png)
+   ![RTF-verktygsfält](assets/rich-text-toolbar.png)
 
    | **Attribut** | **Verktygsfältsknapp** | **Mac kortkommandon** | **Windows-kortkommandon** |
    |---|---|---|---|
-   | Fet | ![](assets/mceclip10.png) | Jesse+b | Ctrl+B |
-   | Kursiv | ![mceclip9.png](assets/mceclip9.png) | Jesse+i | Ctrl+I |
-   | Understruken | ![mceclip8.png](assets/mceclip8.png) | Jesse+u | Ctrl+U |
-   | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Lägg till länkar:¥+K</br> <br>Så här klistrar du in en länk över den markerade texten: +V</br> | <br>Så här öppnar du rutan Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten: Ctrl+V</br> |
-   | Punktlista | ![mceclip6.png](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
-   | Numrerad lista | ![mceclip5.png](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
+   | Fet | ![Fet ikon](assets/mceclip10.png) | Jesse+b | Ctrl+B |
+   | Kursiv | ![Kursiv ikon](assets/mceclip9.png) | Jesse+i | Ctrl+I |
+   | Understruken | ![Understrykningsikon](assets/mceclip8.png) | Jesse+u | Ctrl+U |
+   | Hyperlänk | ![Hyperlänkikon](assets/mceclip7.png) | <br>Så här öppnar du rutan Lägg till länkar:¥+K</br> <br>Så här klistrar du in en länk över den markerade texten: +V</br> | <br>Så här öppnar du rutan Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten: Ctrl+V</br> |
+   | Punktlista | ![Ikon för punktlista](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
+   | Numrerad lista | ![Ikon för numrerad lista](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -361,7 +360,7 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. (Valfritt) Klicka på ikonen **emoji** ![](assets/emoji-icon.png) för att lägga till känslolägesikoner i uppdateringen.
+1. (Valfritt) Klicka på ikonen **emoji** ![Emoji](assets/emoji-icon.png) för att lägga till känslolägesikoner i uppdateringen.
 
    >[!NOTE]
    >
@@ -375,7 +374,7 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
 1. (Valfritt) Så här lägger du till en URL-länk till ytterligare informationskällor:
 
    1. Klicka i uppdateringen där du vill infoga en länk.
-   1. Klicka på ikonen **Hyperlänk** ![](assets/link-icon.png) i verktygsfältet **RTF** .
+   1. Klicka på ikonen **Hyperlänk** ![Hyperlänk](assets/link-icon.png) i verktygsfältet **RTF** .
 
    1. I rutan **Skapa länk**, under **URL**, skriver eller klistrar du in URL:en för den källa som du vill länka till.
 
@@ -397,7 +396,7 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
 
    * Spara bilden på datorn och dra och släpp den i området Ny kommentar.
    * Kopiera en skärmbild från datorn och klistra sedan in den i kommentaren.
-   * Klicka på ikonen **Lägg till bild** ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
+   * Klicka på ikonen **Lägg till bild** ![Lägg till bildberg med plustecken](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
 
 
    >[!IMPORTANT]
@@ -418,8 +417,8 @@ Du kan förbättra dina kommentarer genom att använda RTF eller lägga till oli
 
 1. (Valfritt) Gör något av följande om du vill visa en bild i den befintliga uppdateringen:
 
-   * Klicka på ikonen **Förhandsgranska** ![](assets/previewimageicon-31x31.png) på miniatyrbilden av bilden om du vill öppna bilden i full storlek på en ny flik i webbläsaren.
-   * Klicka på ikonen **Hämta** ![](assets/downloadimageicon.png) på miniatyrbilden för att hämta bilden.
+   * Klicka på ikonen **Förhandsvisa** ![Förhandsvisa](assets/previewimageicon-31x31.png) på miniatyrbilden för att öppna bilden i full storlek på en ny flik i webbläsaren.
+   * Klicka på ikonen **Hämta** ![Hämta ikon](assets/downloadimageicon.png) på miniatyrbilden av bilden för att hämta den.
 
 1. Klicka på **Skicka** för att lägga till din kommentar.
 
@@ -460,11 +459,26 @@ Du kan kopiera en länk till kommentaren eller kopiera innehållet i kommentaren
 
 Du kan kopiera information från en befintlig kommentar genom att göra något av följande:
 
+* [Offertsvar](#quote-reply)
 * [Kopiera länk](#copy-link)
 * [Kopiera brödtext](#copy-body-text)
-* [Offertsvar](#quote-reply)
 
-![](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+![Kopiera kommentar på olika sätt](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+#### Offertsvar
+
+Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar som en blockcitat.
+
+1. Gå till kommentaren eller svaret som du vill kopiera.
+1. Klicka på menyn **Mer** och klicka sedan på **Offertsvar**.
+
+   En ny kommentarsruta öppnas och det citerade svaret inkluderas i den nya kommentaren och markeras som ett blockcitat.
+
+   ![Blockcitat markerat mitt i kommentaren innan det skickas](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+
+1. Fortsätt lägga till uppdateringen och klicka på **Skicka** för att lägga till kommentaren.
 
 #### Kopiera länk till en kommentar
 
@@ -489,19 +503,7 @@ Alternativet Kopiera brödtext kopierar texten från en viss kommentar till Urkl
 1. Gå till kommentaren eller svaret som du vill kopiera.
 1. Klicka på menyn **Mer** och sedan på **Kopiera brödtext**.
 
-#### Offertsvar
 
-Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar som en blockcitat.
-
-1. Gå till kommentaren eller svaret som du vill kopiera.
-1. Klicka på menyn **Mer** och klicka sedan på **Offertsvar**.
-
-   En ny kommentarsruta öppnas och det citerade svaret inkluderas i den nya kommentaren och markeras som ett blockcitat.
-
-   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
-
-
-1. Fortsätt lägga till uppdateringen och klicka på **Skicka** för att lägga till kommentaren.
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -574,7 +576,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 1. Gå till kommentaren eller svaret som du vill ta bort.
 1. Klicka på menyn **Mer** bredvid kommentaren eller svaret som du vill ta bort och klicka sedan på **Ta bort**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Uppdatera fler-meny för flödeskommentar](assets/update-stream-comment-menu-marked-350x152.png)
 
 1. Klicka på **Ta bort** i det meddelande som visas.
 
@@ -584,7 +586,7 @@ Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort up
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
-   ![](assets/removed-comment-indicator-new-experience.png)
+   ![Kommentarsindikatorn ](assets/removed-comment-indicator-new-experience.png) har tagits bort
 
    Borttagna kommentarer tas bort direkt från Workfront. En användare som använder uppdateringsavsnittet ser en kommentar som tas bort av en annan användare i realtid.
 
@@ -595,11 +597,11 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
 
 * **Användaruppdateringar:** Användaruppdateringar är kommentarer som du och andra användare i ditt system anger. Användaruppdateringarna visas på flikarna Kommentarer och Alla i uppdateringsavsnittet.
 
-  ![](assets/user-update-cl-350x277.png)
+  ![Användaruppdateringar](assets/user-update-cl-350x277.png)
 
 * **Systemuppdateringar:** Systemet uppdaterar postborttagning av uppgifter eller problem, lägger till eller tar bort dokumentversioner, bifogar eller tar bort en godkännandebegäran samt redigeringar eller ändringar som gjorts i objektet. Systemuppdateringar visas på flikarna Systemaktivitet och Alla i uppdateringsavsnittet.
 
-  ![](assets/system-updates-cl-350x277.png)
+  ![Systemuppdateringar](assets/system-updates-cl-350x277.png)
 
   Workfront-administratörer kan avgöra vad som spåras i systemuppdateringar, vilket förklaras i [Systemspårade uppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Du kan även filtrera bort systemuppdateringar eller aktiviteter så att du bara ser användaruppdateringar för alla objekt.
 

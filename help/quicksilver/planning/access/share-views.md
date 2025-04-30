@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,12 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 1. (Valfritt) Välj bland följande alternativ i området **Vem har åtkomst**:
 
    * **Endast inbjudna personer har åtkomst till**: Du måste ange användare, grupper, team, företag eller jobbroll som du vill dela vyn med. Det här är standardalternativet.
+
+     >[!NOTE]
+     >
+     >   Förutom team, grupper, företag och jobbroller kan du bara dela med användare som har lagts till i Adobe Admin Console.
+
+
    * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytor kan komma åt vyn.
 
 1. I fältet **Bevilja åtkomst till den här vyn** börjar du skriva namnet på en användare, en grupp, ett team, företag eller en jobbroll och klickar sedan på den när den visas i listan.

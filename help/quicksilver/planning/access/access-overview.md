@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -116,12 +116,16 @@ Du måste ha följande åtkomst för att få åtkomst till Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller alternativet Planering i följande områden:</p>
+   <td> <div class="preview">
+<p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p>
+<p> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning-alternativet i följande områden:</p>
    <ul><li>Huvudmeny</li>
    <li>Vänster panel med projekt, portfolior och program</li>
-   <li>Landningssida</li>
-   <li>Stift</li></ul>
-   <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Skapa och hantera layoutmallar</a>.</p> 
+   </ul>
+   <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Skapa och hantera layoutmallar</a>.</p>
+   </div>
+   <p><b>ANMÄRKNING</b></p>
+   <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning-områdena.</p>
 </td>
   </tr>
  </tbody>
@@ -130,20 +134,9 @@ Du måste ha följande åtkomst för att få åtkomst till Workfront Planning:
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
--->
+
 
 ## Dela planeringsområdet med en layoutmall
 
@@ -156,7 +149,16 @@ När din organisation har köpt ytterligare en Workfront Planning-licens kan din
 * Panelen Vänster för projekt, portfolior och program
 * Stift
 
-Så här lägger du till Workfront Planning-områden i din Workfront-instans:
+<div class="preview">
+
+Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard i följande områden:
+
+* Huvudmeny
+* Vänster panel med projekt, portfolior eller program
+
+</div>
+
+Så här lägger du till <span class="preview"> eller tar bort </span> Workfront Planning-områden från användare av din Workfront-instans:
 
 1. Logga in på **Workfront** som Workfront-administratör.
 

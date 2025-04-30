@@ -6,7 +6,7 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Detta öppnar mållistan.
 1. Leta reda på målet som du vill lägga till kommentarer i och klicka sedan på namnet för att öppna målsidan.
 1. Klicka på **Uppdateringar** i den vänstra panelen.
 
-   Mer information om hur du hanterar kommentarer till Workfront-objekt finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Mer information om hur du hanterar kommentarer för Workfront-objekt finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

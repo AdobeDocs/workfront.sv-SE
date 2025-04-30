@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
 
 # Hantera tabellvyn
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -86,7 +86,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> </td> 
+   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller planeringsområdena.</p>
+<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer planeringsområdet aktiverat som standard.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Redigera poster med tabellvyn
 
@@ -117,9 +112,11 @@ När du skapar en tabellvy visas alla poster av den valda typen i en tabell. Var
 
 Så här hanterar du en tabellvy:
 
-1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![Exempel på tabellvy](assets/table-view-example.png)
+   <span class="preview">![Exempel på tabellvy](assets/table-view-example.png)
+
+   </span>
 
 1. (Valfritt) Klicka på **Radhöjd** och välj sedan bland följande alternativ för att ändra höjden på tabellraderna:
    * Kort
@@ -130,14 +127,17 @@ Så här hanterar du en tabellvy:
    * [Kolumner (eller fält)](#add-columns-or-fields)
    * [Rader (eller poster)](#add-rows-or-records)
    * [Filter](#add-filters)
-   * [Gruppering](#add-groupings)
    * [Sortera](#add-a-sort)
-   * [Aktivera indikator för närvaro i realtid](#enable-the-real-time-presence-indicator)
+   * [Gruppering](#add-groupings)
+   * <span class="preview">[Radfärger](#add-row-colors)</span>
+   * [Indikator för närvaro i realtid](#enable-the-real-time-presence-indicator)
 
 
 ### Lägg till kolumner (eller fält) {#add-columns}
 
-Kolumnrubrikerna i en tabellvy visar fält som är kopplade till posterna i vyn. Samma fält som visas i tabellvyn visas även i avsnittet Detaljer för en post. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+Kolumnrubrikerna i en tabellvy visar fält som är kopplade till posterna i vyn. Fält som visas i tabellvyn visas även i avsnittet Detaljer för en post.
+
+Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -362,55 +362,6 @@ Så här lägger du till ett filter i en tabellvy:
 1. (Valfritt) Klicka på ikonen **x** för att ta bort ett filtervillkor.
 1. (Valfritt) Klicka på **Filter** för att stänga filterrutan. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-### Lägg till grupperingar {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-Du kan gruppera poster efter liknande information när du tillämpar en gruppering på en vy.
-
-Att lägga till grupperingar i tabellvyn påminner om att lägga till grupperingar i tidslinjevyn.
-
-Tänk på följande:
-
-* Du kan använda grupperingar både i tabell- och tidslinjevyerna. Grupperingarna i tabellvyn är oberoende av grupperingarna i tidslinjevyn av samma posttyp.
-* Du kan använda tre nivåer av gruppering i en vy. Posterna grupperas i den ordning som du väljer grupperingar.
-&lt;!—* Du kan använda upp till fyra nivåer av gruppering när du använder API:t. —check on this for now—>
-* Grupperingarna är unika för den vy du väljer. Två tabellvyer av samma posttyp kan ha olika grupperingar. Två användare som tittar på samma tabellvy ser samma gruppering som används för närvarande.
-* Du kan inte namnge grupperingarna som du skapar för en tabellvy.
-* Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
-* Du kan redigera poster som listas under en gruppering.
-* Du kan gruppera efter anslutna postfält eller sökfält.
-* När du grupperar efter uppslagsfält med flera värden (som inte har summerats av en aggregator) grupperas posterna efter varje unik kombination av fältvärden.
-* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en gruppering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets status i den gruppering du skapar för aktivitetsposttypen.
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-Så här lägger du till en gruppering:
-
-1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på **Gruppering** i tabellvyns övre högra hörn.
-
-   ![Gruppera gränssnittstabellvy med länkade fält](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält**, sök efter ett annat fält och klicka sedan på det när det visas i listan.
-
-   Grupperingen tillämpas automatiskt på tabellen och posterna visas under grupperingsseparationslinjen.
-
-1. (Valfritt) Klicka på **Lägg till villkor** och upprepa stegen ovan för att lägga till upp till tre grupperingar.
-
-   Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
-
-   ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
-
-1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
-
-   eller
-
-   Klicka på **Rensa alla** om du vill ta bort alla fält.
-
-1. Klicka utanför rutan **Gruppera poster efter** för att stänga den.
-1. (Valfritt) Klicka på **+ Ny post** i slutet av en gruppering för att lägga till nya poster. Uppdatera sedan sidan för att lägga till den nya posten i lämplig gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### Lägg till en sortering {#sort-information}
 
 Genom att använda en sortering kan du ordna information i en viss ordning.
@@ -473,6 +424,56 @@ Så här sorterar du <!--ungrouped (add this when sorting for groupings will be 
 
    I de fält som är markerade för sorteringen visas en sorteringsikon följt av ett tal som anger i vilken ordning sorteringen används.
 
+### Lägg till grupperingar {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+Du kan gruppera poster efter liknande information när du tillämpar en gruppering på en vy.
+
+Att lägga till grupperingar i tabellvyn påminner om att lägga till grupperingar i tidslinjevyn.
+
+Tänk på följande:
+
+* Du kan använda grupperingar både i tabell- och tidslinjevyerna. Grupperingarna i tabellvyn är oberoende av grupperingarna i tidslinjevyn av samma posttyp.
+* Du kan använda tre nivåer av gruppering i en vy. Posterna grupperas i den ordning som du väljer grupperingar.
+&lt;!—* Du kan använda upp till fyra nivåer av gruppering när du använder API:t. —check on this for now—>
+* Grupperingarna är unika för den vy du väljer. Två tabellvyer av samma posttyp kan ha olika grupperingar. Två användare som tittar på samma tabellvy ser samma gruppering som används för närvarande.
+* Du kan inte namnge grupperingarna som du skapar för en tabellvy.
+* Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
+* Du kan redigera poster som listas under en gruppering.
+* Du kan gruppera efter anslutna postfält eller sökfält.
+* När du grupperar efter uppslagsfält med flera värden (som inte har summerats av en aggregator) grupperas posterna efter varje unik kombination av fältvärden.
+* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en gruppering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets status i den gruppering du skapar för aktivitetsposttypen.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+Så här lägger du till en gruppering:
+
+1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klicka på **Gruppering** i tabellvyns övre högra hörn.
+
+   ![Gruppera gränssnittstabellvy med länkade fält](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält**, sök efter ett annat fält och klicka sedan på det när det visas i listan.
+
+   Grupperingen tillämpas automatiskt på tabellen och posterna visas under grupperingsseparationslinjen.
+
+1. (Valfritt) Klicka på **Lägg till villkor** och upprepa stegen ovan för att lägga till upp till tre grupperingar.
+
+   Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
+
+   ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
+
+1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
+
+   eller
+
+   Klicka på **Rensa alla** om du vill ta bort alla fält.
+
+1. Klicka utanför rutan **Gruppera poster efter** för att stänga den.
+1. (Valfritt) Klicka på **+ Ny post** i slutet av en gruppering för att lägga till nya poster. Uppdatera sedan sidan för att lägga till den nya posten i lämplig gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### Lägga till radfärger
+
+1. (Valfritt) Klicka på **Radfärger** om du vill definiera villkor och välja att konfigurera olika färger för tabellrader.
+
+1. Klicka på **Lägg till färg** och sedan **Markera ett fält** vars värde du vill bestämma färgen för en rad.
+
+   Om du till exempel vill visa kampanjer med statusen Aktiv i grönt väljer du **Status** och sedan en modifierare och ett värde för fältet.
+
+   ![Ruta för radfärger med aktiv status markerad och standardfärgval](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. Klicka på den nedrullningsbara menyn för färgväljaren i det övre vänstra hörnet av det villkor du valde för att välja färg för villkoret och klicka sedan utanför färgväljarrutan för att stänga det.
+
+   ![Menyn för nedrullningsbar färgväljare i rutan Radfärger är markerad](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till fler fält och värden i den första villkorsuppsättningen
+
+   eller
+
+   Klicka på **Lägg till färg** om du vill lägga till en ny uppsättning villkor och identifiera en ny färg.
+
+   Du kan till exempel visa kampanjer med statusen Planering i gult genom att definiera en ny uppsättning villkor.
+
+   ![Rutan med aktiva färger och planeringsstatus har gemensamma färger](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (Valfritt) Aktivera inställningen **Använd på hela raden** i det övre högra hörnet av rutan Radfärger. Hela raden där villkoret uppfylls visas automatiskt i den valda färgen.
+
+   >[!TIP]
+   >
+   >Om inställningen Använd för hela raden är avaktiverad visas bara den vänstra sidan av fältet Primärt med en smal färgindikator med vald färg. Inställningen är inaktiverad som standard.
+
+1. Klicka utanför rutan **Radfärger** för att stänga den. Färgerna används automatiskt.
+
+</div>
 
 ### Aktivera indikator för närvaro i realtid
 

@@ -6,7 +6,7 @@ description: Du kan visa och lägga till uppdateringar för ett arbetsobjekt i o
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -132,7 +132,7 @@ Du kan tillhandahålla uppdateringar för alla arbetsobjekt i [!UICONTROL My Wor
 
 1. Klicka på **Svara**.
 
-   ![Svara för att kommentera](assets/reply-to-comment-in-mentions-widget.png)
+   ![Svara på kommentar](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Börja skriva din kommentar.
 1. (Valfritt) I rutan **Tagga personer** börjar du skriva namnet på en användare eller ett team som du vill ta med i kommentaren och markerar det sedan när det visas i listan.
