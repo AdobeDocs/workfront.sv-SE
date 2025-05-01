@@ -6,9 +6,9 @@ description: Referenssamlingar i en rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -306,6 +306,15 @@ Tänk på följande begränsningar när du skapar en samlingsvy:
 Du kan referera till en samling objekt i filtret för en rapport om du vill filtrera efter attributen för objekt som är kopplade till rapportens objekt.
 
 Du kan t.ex. filtrera efter uppgifter eller ärenden i en projektrapport genom att använda en referens till attributen för uppgifter eller ärenden i projektet i filtersatsen.
+
+>[!NOTE]
+>
+>När det används på fält som innehåller flera värden (t.ex. en samling anteckningar i ett projekt), avgör filtret inkludering enligt följande:
+>
+>* Om alla objekt i en samling innehåller det angivna värdet tas hela posten inte med i resultatet.
+>* Om minst ett objekt i samlingen inte innehåller det angivna värdet finns posten kvar i resultatet.
+
+
 
 Så här lägger du till en referens till en samling i ett rapportfilter:
 

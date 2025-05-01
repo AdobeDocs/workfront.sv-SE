@@ -6,9 +6,9 @@ description: Med filter- och villkorsmodifierarna kan du skapa filter och skapa 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,12 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
   <tr valign="top"> 
    <td> <p><strong>Innehåller inte</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>Det här är den <i>skiftlägeskänsliga</i>-versionen av <strong>not contains</strong>.</p><p>Den här modifieraren filtrerar efter objekt som saknar det angivna värdet.</p> <p><code>does not contain inf</code> hämtar till exempel allt utan <code>Inf</code> eller <code>inf</code> i namnet.</p> <p>Obs! <span>Om fältet som du filtrerar efter har flera alternativ filtreras resultaten som innehåller både det val du anger och det val du anger och eventuella ytterligare alternativ bort.</span> </p> </td> 
+   <td> <p>Det här är den <i>skiftlägeskänsliga</i>-versionen av <strong>not contains</strong>.</p><p>Den här modifieraren filtrerar efter objekt som saknar det angivna värdet.</p> <p><code>does not contain inf</code> hämtar till exempel allt utan <code>Inf</code> eller <code>inf</code> i namnet.</p> <p>Obs! När filtret används på fält som innehåller flera värden (t.ex. en samling anteckningar i ett projekt) bestäms undantaget enligt följande:
+<ul>
+    <li>Om alla objekt i en samling innehåller den angivna texten, utesluts hela posten från resultatet.</li>
+    <li>Om minst ett objekt i samlingen inte innehåller den angivna texten finns posten kvar i resultatet.</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
