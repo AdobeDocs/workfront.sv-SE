@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,33 @@ ht-degree: 0%
 På den här sidan beskrivs mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för utgåvan tredje kvartalet 2025.
 
 En lista över alla ändringar som är tillgängliga i utgåva 3 kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Leta upp och håll koll på alternativen på Fler-menyn för kommentarer
+
+>[!NOTE]
+>
+>Förhandsversion: 17 april 2025; Produktionsrelease för alla kunder: 17 april 2025
+
+Vi har uppdaterat utseendet och känslan för de alternativ som finns på menyn Mer i en kommentar i uppdateringsavsnittet för alla objekt.
+
+Uppdateringen innehåller följande ändringar:
+
+* Ordnade om åtgärderna så att liknande funktioner grupperas tillsammans.
+* Infogade delare som tydligt separerar varje grupp.
+* Markerade åtgärden Ta bort genom att visa den i rött.
+
+Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Utforska och känna av uppdateringar i en rapport om milstolpe-sökväg
+
+>[!NOTE]
+>
+>Förhandsversion: 30 april 2025; Produktionsrelease för alla kunder: 30 april 2025
+
+Vi har uppdaterat utseendet och känslan i Milstolpe Path-rapporten så att den matchar designen i andra delar av Workfront.
+
+Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Uppdateringar av senaste återställda objekt
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-förbättringar
 
 * [Förbättrad dokumenthantering](#document-management-enhancements)
+* [Förbättringar av uppdateringar och meddelanden]
 * [Andra förbättringar](#other-enhancements)
 
 ### Förbättrad dokumenthantering
@@ -62,6 +63,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>10 april 2025</td>
         <td>17 april 2025</td>
         <td>17 april 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Rapportförbättringar
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Jokertecken för användare returnerar inte längre resultat med ett null-värde vid filtrering av </a><p></p>
+            <p>Vi har uppdaterat användarens jokerteckenbeteende så att null-värde utesluts när en rapport filtreras. Den här ändringen gör att filtret ger mer korrekta resultat i stället för att returnera resultat som inte har en användare korrekt konfigurerad (ett null-resultat). </p>
+        </td>
+        <td>30 april 2025</td>
+        <td>15 maj 2025</td>
+        <td>17 juli 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Förbättringar av uppdateringar och meddelanden
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">Ändrad upplevelse när personer läggs till i kommentarer</a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>För att få bättre prestanda har vi introducerat en modifierad upplevelse när vi lägger till personer i kommentarer. Länken"Tagga personer eller team" finns kvar i rutan Kommentar när du har börjat lägga till användare eller team i kommentaren. </p>
+        </td>
+        <td>30 april 2025</td>
+        <td>(fasad utrullning): 8 maj - 15 maj 2025</td>
+        <td>(fasad utrullning): 8 maj - 15 maj 2025</td>
     </tr>     
   </tbody>
 </table>
