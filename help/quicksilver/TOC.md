@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
+source-git-commit: ab3e1a354ec897797a455d6e25c7bf292a337a9d
 workflow-type: tm+mt
-source-wordcount: '13178'
+source-wordcount: '13174'
 ht-degree: 0%
 
 ---
@@ -1226,7 +1226,7 @@ ht-degree: 0%
          * [Översikt över att bifoga en mall till ett projekt](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definiera ett affärsärende {#define-business-case}
          * [Definiera ett affärsärende: artikelindex](manage-work/projects/define-a-business-case/define-business-case.md)
-         * [Översikt över affärsområdet](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+         * [Översikt över ärendeområden](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Skapa ett affärsärende för ett projekt](manage-work/projects/define-a-business-case/create-business-case.md)
          * [Godkänn ett affärsärende](manage-work/projects/define-a-business-case/approve-business-case.md)
          * [Översikt över finansiella fält för ärenden](manage-work/projects/define-a-business-case/business-case-finances.md)

@@ -6,14 +6,16 @@ description: Du kan importera projekt från Microsoft Project till Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
 # Importera ett projekt från Microsoft Project
+
+<!-- Audited: 4/2025 -->
 
 Du kan importera projekt från Microsoft Project till Adobe Workfront och hantera alla projekt i ett och samma program. Varje gång du importerar ett projekt från Microsoft Project skapas ett nytt projekt i Workfront.
 
@@ -36,10 +38,10 @@ Du kan importera projekt från Microsoft Project till Adobe Workfront och hanter
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Ny licens: Standard </p> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard </p> 
    eller
-   <p>Aktuell licens: Planera </p>
+   <p>Aktuell: Planera </p>
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,7 @@ Du kan importera projekt från Microsoft Project till Adobe Workfront och hanter
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,9 +92,9 @@ You must have the following access to perform the steps in this article:
 
 ## Skapa ett projekt från ett MS-projekt
 
-Du kan skapa ett projekt från området Projekt på huvudmenyn eller från området Projekt i en portfölj eller ett program.
+Du kan skapa ett projekt från området **Projekt** i **Huvudmenyn** eller från området **Projekt** i en portfölj eller ett program.
 
-1. Gå till Microsoft Project och öppna ett projekt som du vill importera från i Workfront.
+1. Logga in på Microsoft Project och öppna ett projekt som du vill importera från i Workfront.
 1. Klicka på **Arkiv** och sedan på **Spara som** för att spara projektet som en XML-fil.
 
 1. Logga in på Workfront.
@@ -101,16 +103,14 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
    * Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Workfront, eller klicka på **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klicka på **Projekt** och expandera sedan **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
    * Gå till ett program och expandera sedan **Nytt projekt**.
-   * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Om du är gruppadministratör kan du skapa ett projekt i avsnittet **Projekt** i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Välj alternativet **Importera MS-projekt**.
+1. Klicka på **Importera MS-projekt**. Dialogrutan **Importera MS-fil** visas.
 
-   ![Listrutan Nytt projekt](assets/new-project-dropdown-nwe-350x358.png)
+   ![Listrutan Nytt projekt](assets/import-ms-project-option.png)
 
 1. Klicka på **Välj fil** och bläddra sedan efter XML-filen på datorn som du exporterade från Microsoft Project.
-1. Importera den markerade filen.
-
-   Workfront påbörjar importprocessen och skapar ett nytt projekt baserat på den fil som exporteras från Microsoft Project.
+1. Importera den markerade filen. Workfront påbörjar importprocessen och skapar ett nytt projekt baserat på den fil som exporteras från Microsoft Project.
 
    När importen är klar dirigeras du till den nya projektsidan som visar en bekräftelse på att importen har slutförts.
 
@@ -120,4 +120,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
 
 1. (Valfritt) Fortsätt redigera projektet i Workfront. Mer information om hur du redigerar projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   Statusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar eller av en gruppadministratör i området Gruppprojektinställningar. Mer information om hur du konfigurerar projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   >[!NOTE]
+   >
+   >Statusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området **Projektinställningar** eller av en gruppadministratör i området **Projektinställningar för**. Mer information om hur du konfigurerar projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).

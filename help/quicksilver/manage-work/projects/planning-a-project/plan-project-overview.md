@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Planera ett projekt: artikelindex"
+title: 'Planera ett projekt: artikelindex'
 description: Följande artiklar innehåller information om projekt, projektteamet och hur du planerar ett projekt.
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Planera ett projekt: artikelindex
+
+<!-- Audited: 4/2025 -->
 
 Mer information om projektinformation, projektteamet och hur du planerar ett projekt finns i följande artiklar:
 

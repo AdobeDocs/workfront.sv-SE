@@ -5,16 +5,18 @@ description: Som en del av att skapa ett affärsärende kan du skapa en uppsätt
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Skapa mål för affärsärenden
 
-Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål för att definiera målen för ett projekt. Mål för affärsärenden används för att kommunicera till Portfolio-chefen eller projektsponsorn i syfte att slutföra ett projekt.
+<!-- Audited: 4/2025 -->
+
+Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål för att definiera målen för ett projekt. Dessa mål används för att förmedla syftet med att slutföra ett projekt till Portfolio Manager eller projektsponsorn.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -27,17 +29,19 @@ Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål fö
 Tänk på följande när du skapar affärsmål för dina projekt:
 
 * Affärsmålen är projektspecifika. Du kan inte kopiera mål från ett projekt till ett annat eller sätta upp mål på systemnivå. De måste definieras för varje projekt.
-* Adobe Workfront-administratören eller gruppadministratören måste aktivera målavsnittet för dina projekt innan det visas i affärsärendet för dina projekt. Mer information om hur du aktiverar fält för affärsärenden för projekt finns i [Konfigurera projektinställningar för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Adobe Workfront-administratören eller gruppadministratören måste aktivera projektets målavsnitt innan det visas i affärsärendet. Mer information om hur du aktiverar fält för affärsärenden för projekt finns i [Konfigurera projektinställningar för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Mål är inte ett obligatoriskt avsnitt i ett projekts affärsfall.
+* Mål är inte ett obligatoriskt avsnitt i projektets affärsärende.
 
-  Ett projekt kan få poäng som ska prioriteras i Portfolio Optimizer, även om målavsnittet i affärsärendet inte är definierat.
+  Ett projekt kan få poäng som ska prioriteras i Portfolio Optimizer, även om målavsnittet inte är definierat.
 
   Mer information om poängen i Portfolio Optimizer finns i [Använda ett styrkort i ett projekt och generera ett justeringsresultat](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Du kan inte rapportera om mål för affärsärenden.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -48,15 +52,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Pro eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td>
+   <td> 
+   <p>Nytt: Standard</p> 
+   <p>eller</p>
+   <p>Aktuell: Planera </p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -66,21 +74,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägg till ett mål i ett projekts affärsfall
 
-1. Gå till ett projekt som du vill definiera mål för affärsärenden för.
-1. Klicka på **Affärsfall i den vänstra panelen.**
+{{step1-to-projects}}
 
-   Affärsärendet visas.
+1. I projektlistan väljer du det projekt som du vill definiera affärsärendesmål för.
+1. Klicka på **Affärsärende** i den vänstra panelen. Avsnittet **Affärsärende** visas.
 
    ![Information om affärsfall](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. Klicka på **Redigera mål** i avsnittet **Mål**.
 
-1. Ange era mål.
-Välj prioritetsnivå i listrutan **Prioritet**:
+1. Ange målbeskrivningen i det första fältet.
+
+1. Välj prioritetsnivå (eller prioritet) för det här målet i listrutan **Prioritet**:
 
    * Högsta
    * Hög
@@ -88,9 +99,12 @@ Välj prioritetsnivå i listrutan **Prioritet**:
    * Låg
    * Lägsta
 
-     Viktighet (assets/g1-350x76.png)
+     ![Prioritet](assets/g1-350x76.png)
 
-     Du kan inte anpassa prioritetsnivåerna för mål.
+     >[!NOTE]
+     >
+     >Du kan inte anpassa prioritetsnivåerna för mål.
 
-1. (Valfritt) Om du vill lägga till ett annat mål klickar du på **Lägg till ett annat mål** och upprepar steg 5 och steg 6.
+1. (Valfritt) Om du vill lägga till ett annat mål klickar du på **Lägg till ett annat mål** och upprepar steg 5-6.
+
 1. Klicka på **Spara**.
