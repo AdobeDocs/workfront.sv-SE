@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -103,3 +103,5 @@ Vi har infört följande uppdateringar:
 * Du kan inaktivera de ärvda behörigheterna för posttypen för att göra den skrivskyddad för alla personer på arbetsytan. Efter det kan du lägga till enskilda personer, team, grupper, företag eller roller och ge dem Contribute-behörighet för posttypen.
 
 Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md).
+
+
