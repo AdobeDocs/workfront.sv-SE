@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Mer information finns i följande artiklar:
 
 ## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav..
++++ Expandera om du vill visa åtkomstkraven.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -105,8 +105,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller planeringsområdena.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer planeringsområdet aktiverat som standard.</span></p>  
+   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
+<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p>  
 </td>
   </tr>
  </tbody>

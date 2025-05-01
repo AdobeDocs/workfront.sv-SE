@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ I den här artikeln beskrivs hur du kan kopiera en länk till en posts sida frå
 
 ## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav..
++++ Expandera om du vill visa åtkomstkraven.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -110,7 +110,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> </td> 
+   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning-områdena.</p>
+   <div class="preview">
+<p> I förhandsgranskningsmiljön måste användare med en ljus- eller Contributor-licens tilldelas en layoutmall som innehåller Planning.</p>
+
+<p>Standardanvändare och systemadministratörer har Planering aktiverat som standard.</p></div>
+
+<p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Skapa och hantera layoutmallar</a>.</p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -119,21 +125,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-
-<!--replace the layout template info in the table with this at release: 
-
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## Dela postlänkar från posttypstabellvyn
 

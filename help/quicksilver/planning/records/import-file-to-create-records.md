@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
 
 ## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav..
++++ Expandera om du vill visa åtkomstkraven.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -90,7 +90,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn </p> </td> 
+   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
+<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -99,13 +100,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Att tänka på när du importerar poster med hjälp av en Excel- eller CSV-fil
 

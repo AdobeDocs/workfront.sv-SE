@@ -6,7 +6,7 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 0%
@@ -241,11 +241,9 @@ I den här artikeln beskrivs hur du kan uppdatera projekt, uppgifter eller probl
 1. Klicka på **Uppdateringar** i den vänstra panelen.
 Fliken **Kommentarer** är markerad som standard.
 
-1. 
-   <div class="preview">Börja skriva en kommentar i rutan **Ny kommentar**.
+1. <span class="preview">Börja skriva en kommentar i rutan **Ny kommentar**.</span>
 
-   ![Ny kommentarruta](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![Ny kommentarruta](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >
