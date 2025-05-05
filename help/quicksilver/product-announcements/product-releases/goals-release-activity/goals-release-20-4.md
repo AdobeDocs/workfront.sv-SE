@@ -47,7 +47,7 @@ Vi fortsätter att förbättra hur du använder Workfront-mål baserat på den f
 >
 >**Produktionstillgänglighet:** Med version 20.4
 
-Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Åtkomstkontroller för Workfront-mål
 
@@ -61,7 +61,7 @@ Mer information om hur du beviljar åtkomst till Workfront-mål finns i [Bevilja
 >
 >**Produktionstillgänglighet:** Med version 20.4
 
-Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Förbättringar av användbarheten för Workfront-mål
 
@@ -82,4 +82,4 @@ Mer information finns i följande artiklar:
 >
 >**Produktionstillgänglighet:** Med version 20.4
 
-Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen ingår nu i [Workfront Goals Learning Path](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.

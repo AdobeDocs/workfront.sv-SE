@@ -44,7 +44,7 @@ Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort beskrivning a
    <td> <p>Stöds inte längre den 9 november 2020 (med version 20.4)</p> <p>—</p> <p>Borttagen från Workfront efter första halvåret 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Äldre Workfront Fusion</p> <p>Workfront Fusion ger en förbättrad upplevelse från äldre Workfront Fusion.</p> <p>Mer information om Workfront Fusion finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Äldre Workfront Fusion</p> <p>Workfront Fusion ger en förbättrad upplevelse från äldre Workfront Fusion.</p> <p>Mer information om Workfront Fusion finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Borttagen från Workfront-plattformen den 31 mars 2021</td> 
   </tr> 

@@ -97,4 +97,4 @@ Fördelar med [!DNL Workfront Fusion] kan omfatta följande:
 >
 >![Exempel: Lägga till en kommentar i Fusion](assets/fusion-example-comment-350x416.png)
 
-Mer information om [!DNL Workfront Fusion] finns i [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+Mer information om [!DNL Workfront Fusion] finns i [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/home).

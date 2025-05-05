@@ -31,4 +31,4 @@ I vissa e-postmeddelanden kan användare svara via e-post och få svaret kopiera
 
 E-post som kommer direkt från Workfront Proof ändras inte. Du kommer att fortsätta få dessa e-postmeddelanden som du har gjort tidigare.
 
-Om du har frågor eller funderingar kan du kontakta [Workfront Support Team](https://experienceleague.adobe.com/?support-tab=home#support).
+Om du har frågor eller funderingar kan du kontakta [Workfront Support Team](https://experienceleague.adobe.com/sv?support-tab=home#support).

@@ -43,6 +43,6 @@ Verktygsfälten i följande listor och rapporter har nu ett modernt utseende och
 
 >[!NOTE]
 >
->Denna ändring uppdaterades i produktionen den 23 maj 2022. Se [Underhållsuppdateringen den 26 maj 2022 för mer information](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+>Denna ändring uppdaterades i produktionen den 23 maj 2022. Se [Underhållsuppdateringen den 26 maj 2022 för mer information](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 
 Vi har uppdaterat vägbeskrivningarna i alla områden där vägbeskrivningar finns tillgängliga. Objekten i vägbeskrivningarna avgränsas nu med rörledningar (|). Före den här uppdateringen separerades de med snedstreck (/).

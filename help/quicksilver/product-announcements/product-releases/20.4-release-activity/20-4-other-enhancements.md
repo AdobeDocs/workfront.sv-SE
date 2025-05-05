@@ -27,7 +27,7 @@ I den nya Workfront-versionen visas alternativet Växla till klassisk på huvudm
 
 I Workfront Classic visas alternativet Växla till den nya upplevelsen på den meny som visas när du klickar på profilbilden i det övre högra hörnet av det globala navigeringsfältet.
 
-Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Förbättrad kryptering för Workfront Proof
 
@@ -62,7 +62,7 @@ Observera också att vår moderna formatering nu förbättrar upplevelsen av att
 
 Mer information om hur du konfigurerar e-postmeddelanden finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Den här funktionen finns nu med i utbildningssökvägen [E-post och i programmet ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen finns nu med i utbildningssökvägen [E-post och i programmet ](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Nya API-objekt som utlöser händelseprenumerationsuppdateringar
 

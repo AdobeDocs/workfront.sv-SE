@@ -40,7 +40,7 @@ Mer information om kvartalsvisa och snabba versionsprocesser finns i [Aktivera e
 
 ### Underhållsuppdateringar
 
-Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Gå till sidan [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) för att se vad som har korrigerats nyligen.
+Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Gå till sidan [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates) för att se vad som har korrigerats nyligen.
 
 ## Funktioner som har tagits bort från en schemalagd release
 

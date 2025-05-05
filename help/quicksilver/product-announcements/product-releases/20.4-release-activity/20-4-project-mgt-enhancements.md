@@ -138,5 +138,5 @@ Mer information om hur du använder fält i listor och rapporter finns i [Ordlis
 
 När du tar bort ett sparat utkast kan du nu klicka på Avbryt på bekräftelsemeddelandet som informerar dig om att utkastet kommer att tas bort. På så sätt förlorar du inte utkastet om du skulle ångra dig.
 
-Den här funktionen är bara tillgänglig i den nya Workfront-upplevelsen. Mer information finns i [Skapa och skicka Workfront-begäranden](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Den här funktionen är bara tillgänglig i den nya Workfront-upplevelsen. Mer information finns i [Skapa och skicka Workfront-begäranden](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 

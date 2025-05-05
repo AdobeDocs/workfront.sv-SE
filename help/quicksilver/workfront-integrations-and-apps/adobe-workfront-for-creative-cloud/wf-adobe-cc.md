@@ -41,7 +41,7 @@ Mer information om hur du använder och installerar plugin-programmet finns i f�
 * [Installera  [!DNL Adobe Workfront] plugin-programmet för [!DNL Creative Cloud] program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [Hantera arbete med  [!DNL Adobe Workfront] plugin-programmet för [!DNL Creative Cloud] program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [Överför dokument och korrektur med  [!DNL Adobe Workfront] plugin-programmet för [!DNL Creative Cloud] program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [Videosjälvstudiekurs: Använd [!DNL Adobe Workfront] plugin-program för [!DNL Creative Cloud]](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
+* [Videosjälvstudiekurs: Använd [!DNL Adobe Workfront] plugin-program för [!DNL Creative Cloud]](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [Videosjälvstudie: Skapa och hantera paket, distribuera uppdateringar och felsöka installationsfel](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

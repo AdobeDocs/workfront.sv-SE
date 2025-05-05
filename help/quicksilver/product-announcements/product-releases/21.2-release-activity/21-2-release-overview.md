@@ -442,7 +442,7 @@ Nya funktioner i Workfront Scenario Planner i version 21.2. Mer information om d
 
 ## Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 21.2. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 21.2. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API-version 13
 

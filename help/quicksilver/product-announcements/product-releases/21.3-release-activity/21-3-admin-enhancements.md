@@ -27,7 +27,7 @@ Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbe
 
 Mer information finns i [Översikt över utkast](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Den här funktionen ingår nu i [projektmallarna i den nya utbildningsvägen för Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen ingår nu i [projektmallarna i den nya utbildningsvägen för Workfront Experience](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Nytt för gruppadministratörer: Skapa och hantera status för en grupp på alla nivåer
 

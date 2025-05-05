@@ -35,7 +35,7 @@ När projektledare har planerat arbetet i projekt genom att skapa uppgifter och 
 
 I den här artikeln beskrivs det allmänna syftet med Utjämning av arbetsbelastning och några av de bästa sätten att konfigurera projekt och resurser så att de kan användas.
 
-Gå till sidan [Workfront-självstudiekurser](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) om du vill se videosjälvstudiekurser för belastningsutjämnaren. Välj **Hantera resurser** > **Utjämning av arbetsbelastning** på den vänstra menyn och välj en självstudiekurs.
+Gå till sidan [Workfront-självstudiekurser](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) om du vill se videosjälvstudiekurser för belastningsutjämnaren. Välj **Hantera resurser** > **Utjämning av arbetsbelastning** på den vänstra menyn och välj en självstudiekurs.
 
 ## Leta reda på arbetsbelastningsutjämnaren
 

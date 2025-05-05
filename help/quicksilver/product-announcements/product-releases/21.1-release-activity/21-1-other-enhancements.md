@@ -47,7 +47,7 @@ Mer information finns i [Gör det möjligt för användare att skicka ett proble
 
 Mer information om varför vi gör den här ändringen finns i [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Den här funktionen ingår nu i [köhanteringen i den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen ingår nu i [köhanteringen i den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Begränsa timredigering för tidrapporter
 

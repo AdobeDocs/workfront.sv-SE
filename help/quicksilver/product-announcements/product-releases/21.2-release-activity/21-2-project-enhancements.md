@@ -29,7 +29,7 @@ Som en del av omdesignen av rutorna Ny och Redigera uppgift har vi lagt till mö
 
 Mer information finns i [Skapa återkommande aktiviteter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 2: Planera en Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 2: Planera en Project](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
 
 ## Nya knappar tillgängliga i projekthuvudet
 
@@ -39,7 +39,7 @@ Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfr
 
 För att du snabbt ska kunna filtrera listan över projekt på sidan Projekt finns det två nya knappar i huvudet som gör att du snabbt kan använda filtret Projekt jag är på eller Projekt jag äger.
 
-Den här funktionen finns nu med i [Grundläggande om planering för den nya Workfront-upplevelsen, del 1: Skapa en Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
+Den här funktionen finns nu med i [Grundläggande om planering för den nya Workfront-upplevelsen, del 1: Skapa en Project](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
 
 ## Flytta eller ta bort en artikel eller ett problem från Urklipp
 
@@ -133,9 +133,9 @@ Användarna kan nu se textformatering som fet stil, punktlistor och hyperlänkar
 
 Tidigare i Workfront Classic var textformateringen bara synlig i listorna Projekt, Aktivitet och Timme.
 
-Mer information om hur du formaterar text i ett anpassat fält finns i [Skapa ett anpassat formulär](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Mer information om hur du formaterar text i ett anpassat fält finns i [Skapa ett anpassat formulär](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 
-Mer information om hur du visar information i listor finns i [Kom igång med listor](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Mer information om hur du visar information i listor finns i [Kom igång med listor](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 
 ## Ny åtgärdsruta för redigering
 

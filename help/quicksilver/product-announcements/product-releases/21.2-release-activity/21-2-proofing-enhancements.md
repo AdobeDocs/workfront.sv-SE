@@ -33,7 +33,7 @@ Tidigare var du tvungen att gå till arbetsflödet för dokumentinformation och 
 
 Mer information om korrekturbeslut finns i [Dokumentområdet](../../../documents/managing-documents/documents-area.md).
 
-Den här funktionen ingår nu i [Hantera korrektur och versioner i den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen ingår nu i [Hantera korrektur och versioner i den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Nya fält i rapporten Korrektur för godkännande
 
@@ -45,7 +45,7 @@ Vi har lagt till följande fält i rapporten för korrektur av godkännande för
 
 Dessa fält ingår inte i standardrapporten. Du måste lägga till dem om du vill se dem.
 
-Den här funktionen ingår nu i [Korrektursysteminställningarna, del 2: Arbetsflödeshantering](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Korrektursysteminställningarna, del 2: Arbetsflödeshantering](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) utbildningsväg på Workfront One.
 
 ## Överför det befintliga korrekturarbetsflödet när en ny version genereras
 

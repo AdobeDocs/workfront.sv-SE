@@ -36,7 +36,7 @@ Under Granskningsloggar kan du nu spåra och felsöka ändringar på fler områd
 
 Mer information finns i [Granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Den här funktionen ingår nu i [Admin Fundamentals för den nya Workfront-upplevelsen, del 2: Project Setup](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Learning path on Workfront One.
+Den här funktionen ingår nu i [Admin Fundamentals för den nya Workfront-upplevelsen, del 2: Project Setup](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) Learning path on Workfront One.
 
 ## För gruppadministratörer: Förbättrade kontroller för att flytta undergrupper och ett uppdaterat verktygsfält
 
@@ -137,7 +137,7 @@ Tidigare gick det inte att anpassa de här standardvärdena, så de har alltid a
 
 Mer information finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront Experience, del 3: Utbildningsväg för Kontroll- och gränssnittsupplevelse](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) i Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront Experience, del 3: Utbildningsväg för Kontroll- och gränssnittsupplevelse](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) i Workfront One.
 
 ## Nytt för administratörer: Visa enkelt de rapporter som för närvarande använder ett anpassat fält
 

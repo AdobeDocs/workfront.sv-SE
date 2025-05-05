@@ -30,8 +30,8 @@ När du tar bort ett länkat dokument eller en länkad mapp i Workfront bryts l�
 
 När du tar bort ett länkat dokument eller en länkad mapp från det externa programmet förblir dokumentet eller mappen kvar i Workfront-systemet tills du också tar bort den från Workfront.
 
-* Information om hur du tar bort en resurs från Adobe Experience Manager as a Cloud Service finns i [Ta bort resurser](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) i Adobe Experience Manager as a Cloud Service-dokumentationen.
-* Information om hur du tar bort en resurs från Adobe Experience Manager Assets Essentials finns i [Ta bort resurser eller mappar](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) i dokumentationen för Adobe Experience Manager Assets Essentials.
+* Information om hur du tar bort en resurs från Adobe Experience Manager as a Cloud Service finns i [Ta bort resurser](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) i Adobe Experience Manager as a Cloud Service-dokumentationen.
+* Information om hur du tar bort en resurs från Adobe Experience Manager Assets Essentials finns i [Ta bort resurser eller mappar](https://experienceleague.adobe.com/sv/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) i dokumentationen för Adobe Experience Manager Assets Essentials.
 
 
 

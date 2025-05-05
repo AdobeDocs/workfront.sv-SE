@@ -318,13 +318,13 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 >[!IMPORTANT]
 >
->Workfront Fusion-dokumentationen har flyttats till en ny plats. Mer information, instruktioner och releaser för Fusion finns i [Workfront Fusion-dokumentationen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+>Workfront Fusion-dokumentationen har flyttats till en ny plats. Mer information, instruktioner och releaser för Fusion finns i [Workfront Fusion-dokumentationen](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/home).
 >
 >Varje aktuell Fusion-dokumentationsartikel innehåller en länk till motsvarande artikel på den nya platsen. Uppdatera bokmärkena.
 >
 >Den aktuella Fusion-dokumentationsuppsättningen uppdateras inte längre och kommer att tas bort inom den närmaste framtiden.
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -352,8 +352,8 @@ Information om vilka API-versioner som stöds finns i [API-versionshantering och
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Mer information om underhållsuppdateringar som gjordes under andra kvartersversionen 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).

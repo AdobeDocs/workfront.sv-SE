@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2 Versionsöversikt
 
-Den här sidan innehåller information om de funktioner som finns i version 22.2. Alla funktioner i listan är tillgängliga i den nya Adobe Workfront-upplevelsen. Vissa funktioner är också tillgängliga i Adobe Workfront Classic, men [Workfront Classic kommer att upphöra i mars 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home), som kommer att följas inom kort efter det datum då Workfront Classic slutar gälla i juli 2022.
+Den här sidan innehåller information om de funktioner som finns i version 22.2. Alla funktioner i listan är tillgängliga i den nya Adobe Workfront-upplevelsen. Vissa funktioner är också tillgängliga i Adobe Workfront Classic, men [Workfront Classic kommer att upphöra i mars 2022](https://experienceleague.adobe.com/sv/docs/workfront/using/home), som kommer att följas inom kort efter det datum då Workfront Classic slutar gälla i juli 2022.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/sv/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/sv/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/sv/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/sv/docs/workfront/using/home" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.2-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.2-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Förbättringar av Workfront Scenario Planner
 
@@ -620,7 +620,7 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ## Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjorts under version 2.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Mer information om underhållsuppdateringar som gjorts under version 2.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates).
 
 ## 22.2 Release Webinar
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktionen stöds inte längre
 

@@ -435,7 +435,7 @@ Mer information om underhållsuppdateringar som gjorts under version 20.3 finns 
 
 Från och med den 20 maj 2020 började Workfront att tillgängliggöra funktioner i förhandsvisningsmiljön varje vecka. Före den här ändringen släpptes funktionen vanligtvis till förhandsvisningsmiljön varannan vecka.
 
-Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/sv/docs/workfront/using/home)
 
 ### Tillåtelselista av ytterligare domäner som krävs för åtkomst till Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -454,7 +454,7 @@ Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 
-Visa 20.3 produktversionswebbinariet [här](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Visa 20.3 produktversionswebbinariet [här](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

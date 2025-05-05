@@ -267,7 +267,7 @@ Mer information om underhållsuppdateringar som gjordes i version 2020.1 finns i
 
 Från och med 20 maj 2020 kommer Workfront att göra funktionerna tillgängliga i förhandsvisningsmiljön varje vecka. Före den här ändringen släpptes funktionen vanligtvis till förhandsvisningsmiljön varannan vecka.
 
-Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/sv/docs/workfront/using/home)
 
 ### Lägga till ytterligare domäner till tillåtelselista som krävs för åtkomst till Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 

@@ -26,7 +26,7 @@ Workfront har nyligen förvärvat teknik för en helt ny generation av Workfront
 
 Tidigare Workfront Fusion-kunder kan förvänta sig större kraft, snabbhet, användbarhet och förutsägbarhet i Workfront Fusion 2.0. Vi håller på att migrera nuvarande Workfront Fusion-kunder till Workfront Fusion 2.0. Kontakta din kontoansvarige om du vill ha mer information.
 
-Mer information finns i [Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+Mer information finns i [Adobe Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/home).
 
 ## Nu kommer Workfront för MobileIron
 

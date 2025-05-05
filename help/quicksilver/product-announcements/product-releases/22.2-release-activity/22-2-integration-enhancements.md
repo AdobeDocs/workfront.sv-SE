@@ -55,7 +55,7 @@ Mer information finns i [Översikt över den förbättrade anslutningen för Wor
 
 >[!NOTE]
 >
->Driftsättning och konfiguration av den här kopplingen kräver en certifierad partner. Mer information finns i [Installera Workfront for Experience Manager Enhanced Connector](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+>Driftsättning och konfiguration av den här kopplingen kräver en certifierad partner. Mer information finns i [Installera Workfront for Experience Manager Enhanced Connector](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 
 ## Adobe Creative Cloud integreringar använder nu OAuth2
 

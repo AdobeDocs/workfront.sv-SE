@@ -45,11 +45,11 @@ För att din organisation ska kunna migrera till Adobe Admin Console måste du u
    >
    >Var beredd att tala med Workfront Support och ditt IT-team om autentiseringsinställningar som enkel inloggning (SSO) eller icke-enkel inloggning (SSO).
 
-   Instruktioner finns i avsnittet Identity Management i [Distributionshandboken för Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Instruktioner finns i avsnittet Identity Management i [Distributionshandboken för Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/deployment-planning.html).
 
 1. (Villkorligt) Om du använder enkel inloggning ansluter du den nya Adobe Admin Console till din befintliga SSO-leverantör.
 
-   Mer information och instruktioner finns i [Konfigurera identitet](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+   Mer information och instruktioner finns i [Konfigurera identitet](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >

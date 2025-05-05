@@ -27,5 +27,5 @@ Detta kan bero på tillåtelselista i Adobe Cloud Manager. Om Adobe Cloud Manage
 
 Lägg till Workfront IP-adresser i Adobe Cloud Manager-tillåtelselista.
 
-* Instruktioner om hur du lägger till IP-adresser i din Adobe Cloud Manager finns i [Introduktion till IP Tillåtelselista](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) i Adobe Experience Manager-dokumentationen.
+* Instruktioner om hur du lägger till IP-adresser i din Adobe Cloud Manager finns i [Introduktion till IP Tillåtelselista](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) i Adobe Experience Manager-dokumentationen.
 * En lista över Workfront IP-adresser som ska läggas till i tillåtelselista finns i [Konfigurera brandväggen](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

@@ -514,7 +514,7 @@ Ett Timesheet-objekt representerar ett virtuellt tidkort som gör att användare
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Dessa åtgärder har stöd för möjligheten att dela filter, vyer och grupperingar i hela systemet.</p><p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Göra filter, vyer och grupperingar tillgängliga för alla användare</a>.</p>
+            <p>Dessa åtgärder har stöd för möjligheten att dela filter, vyer och grupperingar i hela systemet.</p><p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Göra filter, vyer och grupperingar tillgängliga för alla användare</a>.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Ett Timesheet-objekt representerar ett virtuellt tidkort som gör att användare
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Dessa åtgärder har stöd för möjligheten att dela filter, vyer och grupperingar i hela systemet.</p><p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Göra filter, vyer och grupperingar tillgängliga för alla användare</a>.</p>
+            <p>Dessa åtgärder har stöd för möjligheten att dela filter, vyer och grupperingar i hela systemet.</p><p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Göra filter, vyer och grupperingar tillgängliga för alla användare</a>.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Ett Timesheet-objekt representerar ett virtuellt tidkort som gör att användare
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Dessa åtgärder har stöd för möjligheten att dela filter, vyer och grupperingar i hela systemet.</p><p>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Göra filter, vyer och grupperingar tillgängliga för alla användare</a>.</p>
+            <p>Dessa åtgärder har stöd för möjligheten att dela filter, vyer och grupperingar i hela systemet.</p><p>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Göra filter, vyer och grupperingar tillgängliga för alla användare</a>.</p>
          </li>
         </ul>
       </td>

@@ -41,15 +41,15 @@ Workfront för Experience Manager förbättrade anslutningsverktyg gör att du n
 ## Förutsättningar och plattformar som stöds
 
 * Adobe Workfront
-* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [Adobe Experience Manager 6.5 Assets lokalt](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/se/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* [Adobe Experience Manager 6.5 Assets lokalt](https://helpx.adobe.com/se/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/se/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets lokalt
 * Adobe Experience Manager Assets as a Managed Service
 
 ## Kom igång
 
-1. **Installera och konfigurera anslutningen**. Med en certifierad partner eller Adobe Professional Services kan du installera och konfigurera Workfront for Experience Manager förbättrade anslutningsprogram för att organisera, standardisera processer, etablera styrning och effektivisera resursens livscykel från det att den skapas tills den levereras. [Installera i Adobe Experience Manager 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations) eller [installera i Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+1. **Installera och konfigurera anslutningen**. Med en certifierad partner eller Adobe Professional Services kan du installera och konfigurera Workfront for Experience Manager förbättrade anslutningsprogram för att organisera, standardisera processer, etablera styrning och effektivisera resursens livscykel från det att den skapas tills den levereras. [Installera i Adobe Experience Manager 6.5](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/integrations/workfront-integrations) eller [installera i Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 1. **Använd kopplingen**. Se hur den förbättrade kopplingen fungerar i praktiken med automatisk generering av projektlänkade mappar i Experience Manager Assets, Workfront-metadata mappade till Experience Manager Assets och mappar, dubbelriktad metadatasynkronisering och mycket annat. Mer information finns i [Förbättrad anslutning för Workfront för Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Mer som detta

@@ -30,9 +30,9 @@ För kunder som har Adobe Experience Manager Assets as a Cloud Service kommer mi
 >
 >En certifierad partner eller Adobe Consulting Services krävs för implementering av den förbättrade anslutningen.
 >
-> Om du är partner som vill certifiera via den utökade anslutningen kan du läsa följande artikel: [Workfront for Experience Manager enhanced connector Expert Series](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> Om du är partner som vill certifiera via den utökade anslutningen kan du läsa följande artikel: [Workfront for Experience Manager enhanced connector Expert Series](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Information om hur du implementerar den utökade anslutningen finns i [Konfigurera Workfront för den utökade anslutningen för Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Information om hur du implementerar den utökade anslutningen finns i [Konfigurera Workfront för den utökade anslutningen för Experience Manager](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Flytta befintliga resurser

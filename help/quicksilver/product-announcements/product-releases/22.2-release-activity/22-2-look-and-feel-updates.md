@@ -55,7 +55,7 @@ Verktygsfälten i följande listor och rapporter har nu ett modernt utseende och
 
 >[!NOTE]
 >
->Verktygsfältet för samma rapporter på kontrollpaneler uppdaterades också i Production med [underhållsuppdateringen](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) varje vecka den 3 mars 2022.
+>Verktygsfältet för samma rapporter på kontrollpaneler uppdaterades också i Production med [underhållsuppdateringen](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/releases/current-updates) varje vecka den 3 mars 2022.
 
 * Projektrapporter
 * Uppgiftsrapporter

@@ -27,7 +27,7 @@ Om du enklare vill dela status och förlopp för ett projekt kan du nu exportera
 
 Mer information finns i [Översikt över projektstatistik](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 3: Hantera en Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 3: Hantera en Project](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home)-utbildningsväg på Workfront One.
 
 ## Uppdatera utleveransprocent slutfört när projektet eller aktiviteten konverterades från utleveransuppdateringen
 
@@ -41,9 +41,9 @@ För att du ska kunna hantera dina skickade begäranden på ett enklare och mer 
 
 Mer information om hur du söker efter skickade begäranden finns i [Söka efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) i Workfront One.
+Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) i Workfront One.
 
-Den här funktionen ingår nu i [Förfrågningar i den nya inlärningsvägen för Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) på Workfront One.
+Den här funktionen ingår nu i [Förfrågningar i den nya inlärningsvägen för Workfront](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) på Workfront One.
 
 ## Fält som tagits bort från sidan Ny begäran
 

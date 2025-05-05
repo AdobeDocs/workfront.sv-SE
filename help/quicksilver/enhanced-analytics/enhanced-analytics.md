@@ -42,4 +42,4 @@ Det här avsnittet innehåller följande artiklar:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Mer information om förbättrade analysmöjligheter finns i [Förbättrade utbildningsvägar för analyser](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Mer information om förbättrade analysmöjligheter finns i [Förbättrade utbildningsvägar för analyser](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).

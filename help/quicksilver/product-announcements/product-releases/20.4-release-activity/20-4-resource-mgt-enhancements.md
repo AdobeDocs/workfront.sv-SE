@@ -32,7 +32,7 @@ Följande förbättringar är nu tillgängliga med den här nya funktionen:
 
 Mer information om arbetsinsats finns i [Översikt över arbetsinsats](../../../manage-work/tasks/task-information/work-effort.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering, del 2-inlärningsväg](https://experienceleague.adobe.com/en/docs/workfront/using/home) på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering, del 2-inlärningsväg](https://experienceleague.adobe.com/sv/docs/workfront/using/home) på Workfront One.
 
 ## Projektstatusbaserade färger för arbetsobjekt i Utjämning av arbetsbelastning
 

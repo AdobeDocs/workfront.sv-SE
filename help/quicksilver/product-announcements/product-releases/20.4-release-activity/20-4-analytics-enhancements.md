@@ -29,4 +29,4 @@ För att du ska kunna visa den information du vill se utan att använda restrikt
 
 Tidigare begränsades antalet projekt i området Förbättrad analys till 50.
 
-Den här funktionen ingår nu i [Förbättrad analys, del 1-inlärningsväg](https://experienceleague.adobe.com/en/docs/workfront/using/home) på Workfront One.
+Den här funktionen ingår nu i [Förbättrad analys, del 1-inlärningsväg](https://experienceleague.adobe.com/sv/docs/workfront/using/home) på Workfront One.

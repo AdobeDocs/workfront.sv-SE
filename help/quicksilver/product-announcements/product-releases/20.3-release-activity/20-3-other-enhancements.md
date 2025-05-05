@@ -72,7 +72,7 @@ För att du bättre ska kunna visualisera och hantera ditt dagliga arbete med ka
 
 Tidigare kunde du bara hantera din kalender med projicerade, planerade när faktiska datum inte var tillgängliga.
 
-Mer information finns i [Använd anpassade datumfält i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (eller om du använder Workfront Classic, se [Använd anpassade datumfält i en kalenderrapport](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Mer information finns i [Använd anpassade datumfält i en kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (eller om du använder Workfront Classic, se [Använd anpassade datumfält i en kalenderrapport](https://experienceleague.adobe.com/sv/docs/workfront/using/home)).
 
 ## E-poständringar
 
@@ -82,7 +82,7 @@ Tidigare kunde systemadministratörer lägga till en anpassad e-postadress i omr
 
 **Ändringar i POP-svar för inkommande e-post:** Systemadministratörer kan inte längre konfigurera en anpassad POP-e-postserver för inkommande e-postsvar till meddelanden.
 
-Mer information finns i [E-postförfalskning och POP-svar, e-poständringar](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Mer information finns i [E-postförfalskning och POP-svar, e-poständringar](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 
 ## DomainKeys Identified Mail (DKIM) ingår nu i utgående Workfront-e-postmeddelanden
 

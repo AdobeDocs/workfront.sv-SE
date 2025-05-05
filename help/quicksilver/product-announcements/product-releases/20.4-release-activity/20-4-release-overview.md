@@ -298,7 +298,7 @@ De flesta nya funktionerna som kommer till Workfront Goals-versionen i version 2
 
 ## Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 20.4. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 20.4. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API-förbättringar
 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Mer information om nyheter och uppdateringar finns i [Nyheter i API-version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Mer information om nyheter och uppdateringar finns i [Nyheter i API-version 12](https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -348,7 +348,7 @@ Workfront 20.4 Release Webinar presenteras onsdagen den 28 oktober 2020 kl. 11.0
 
 Från och med den 20 maj 2020 började Workfront att tillgängliggöra funktioner i förhandsvisningsmiljön varje vecka. Före den här ändringen släpptes funktionen vanligtvis till förhandsvisningsmiljön varannan vecka.
 
-Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Mer information finns i [Förändringar i Workfront förhandsgranskningsversion - frågor och svar](https://experienceleague.adobe.com/sv/docs/workfront/using/home)
 
 ### Tillåtelselista av ytterligare domäner som krävs för åtkomst till Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 

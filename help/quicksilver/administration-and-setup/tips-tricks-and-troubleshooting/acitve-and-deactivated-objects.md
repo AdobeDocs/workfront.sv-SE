@@ -104,7 +104,7 @@ Mer information om hur du inaktiverar användare finns i [Inaktivera eller åter
 >
 >Om din organisation har anslutit sig till [!DNL Adobe Business Platform] måste du inaktivera användare via [!UICONTROL Adobe Admin Console].
 >
->Instruktioner om hur du inaktiverar en användare i [!UICONTROL Adobe Admin Console] finns i avsnittet Ta bort användare i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
+>Instruktioner om hur du inaktiverar en användare i [!UICONTROL Adobe Admin Console] finns i avsnittet Ta bort användare i artikeln [Hantera användare individuellt](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Business Platform] finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

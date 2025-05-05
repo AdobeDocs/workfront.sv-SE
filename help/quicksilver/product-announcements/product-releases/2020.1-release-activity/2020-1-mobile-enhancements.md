@@ -25,7 +25,7 @@ En lista över alla ändringar som är tillgängliga i version 2020.1 finns i [2
 
 För att göra upplevelsen mer enhetlig när du använder Workfront i både mobilappen och på webben återspeglas automatiskt en anpassning av den vänstra panelens sekundära navigering i de nya eller befintliga layoutmallarna i mobilappen.
 
-Mer information om hur du anpassar den vänstra panelen finns i [Anpassa den vänstra panelen med en layoutmall i den nya Workfront-upplevelsen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Mer information om hur du anpassar den vänstra panelen finns i [Anpassa den vänstra panelen med en layoutmall i den nya Workfront-upplevelsen](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 
 ## Gilla uppdateringar i mobilappen
 

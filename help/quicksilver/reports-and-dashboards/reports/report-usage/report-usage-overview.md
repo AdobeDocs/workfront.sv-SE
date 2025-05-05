@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Grundläggande program för att skapa rapporter för den nya Workfront-upplevelsen](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [Grundläggande program för att skapa rapporter för den nya Workfront-upplevelsen](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home)
 * [Få åtkomst till och ordna rapporter](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [Skapa en rapport om rapporteringsaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
 * [Förstå hur du organiserar rapporter på en kontrollpanel](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
