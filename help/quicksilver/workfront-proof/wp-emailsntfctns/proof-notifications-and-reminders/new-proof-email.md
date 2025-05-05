@@ -56,7 +56,7 @@ E-postmeddelandet Nytt korrektur innehåller:
 
 ## Aktivitetsloggen
 
-Om du skickar ett [!UICONTROL New Proof]-e-postmeddelande till en granskare loggas det i [!UICONTROL Activity] -avsnittet på sidan [!UICONTROL Proof details]. Mer information finns i [Hantera[!UICONTROL  Proof Details] i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Du kan kontrollera om e-postmeddelandet [!UICONTROL New Proof] var aktiverat när ett korrektur skapades.
+Om du skickar ett [!UICONTROL New Proof]-e-postmeddelande till en granskare loggas det i [!UICONTROL Activity] -avsnittet på sidan [!UICONTROL Proof details]. Mer information finns i [Hantera[!UICONTROL &#x200B; Proof Details] i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Du kan kontrollera om e-postmeddelandet [!UICONTROL New Proof] var aktiverat när ett korrektur skapades.
 
 ![New_Version_email__acitivity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 

@@ -166,7 +166,7 @@ Om du är [!DNL Workfront Proof]-administratör kan du ange standardvärden för
 1. Klicka på **[!UICONTROL Account settings]** högst upp på skärmen.
 
 1. Öppna fliken **[!UICONTROL Users]**.
-1. Öppna **[!UICONTROL  More]**-menyn ![More_button_small.png](assets/more-button-small.png) till höger om användarens namn.
+1. Öppna **[!UICONTROL &#x200B; More]**-menyn ![More_button_small.png](assets/more-button-small.png) till höger om användarens namn.
 
 1. Klicka på **[!UICONTROL View users details]** i listrutan.
 1. Klicka på **[!UICONTROL Default email alert settings]** under **[!UICONTROL Settings]** för att expandera den.

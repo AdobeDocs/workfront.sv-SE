@@ -150,32 +150,32 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
 >Du måste ha följande:
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</p> </td> 
-&gt;   <td>Företag eller högre</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>Licenstyp*</p> </td> 
-&gt;   <td> <p>Granska eller högre. Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">Produkt</td> 
-&gt;   <td>Workfront Scenario Planner <p>Mer information om Workfront Scenarioplan finns i <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt över scenarioplanen</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong>Åtkomstnivå*</strong> </td> 
-&gt;   <td> <p>Visa åtkomst eller senare till scenarioplanen</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong>Objektbehörigheter</strong> </p> </td> 
-&gt;   <td> <p>Visa behörigheter eller högre för en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i scenarioplanen</a>.</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</p> </td> 
+>&gt;   <td>Företag eller högre</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>Licenstyp*</p> </td> 
+>&gt;   <td> <p>Granska eller högre. Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">Produkt</td> 
+>&gt;   <td>Workfront Scenario Planner <p>Mer information om Workfront Scenarioplan finns i <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt över scenarioplanen</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong>Åtkomstnivå*</strong> </td> 
+>&gt;   <td> <p>Visa åtkomst eller senare till scenarioplanen</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong>Objektbehörigheter</strong> </p> </td> 
+>&gt;   <td> <p>Visa behörigheter eller högre för en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i scenarioplanen</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
  
 

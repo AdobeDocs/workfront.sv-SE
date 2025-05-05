@@ -86,7 +86,7 @@ När du definierar standardinformation som ska kopplas till uppgifter som lagts 
 * När du kopierar uppgifter från ett projekt till ett annat och målprojektet har olika standardinställningar för uppgifter, behåller de kopierade uppgifterna standardinställningarna från det ursprungliga projektet, såvida de inte rensas i kopieringsprocessen.
 * När du duplicerar en uppgift i samma projekt överförs de anpassade formulären och godkännandeprocessen till den duplicerade uppgiften.
 
-  Mer information om att kopiera och duplicera uppgifter finns i [ [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Mer information om att kopiera och duplicera uppgifter finns i [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * När du flyttar aktiviteten till ett annat projekt sparas standardinställningarna för aktiviteten på aktiviteterna från det ursprungliga projektet, oavsett standardinställningarna för aktiviteten i det nya projektet.
 

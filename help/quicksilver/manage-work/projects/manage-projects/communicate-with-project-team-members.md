@@ -59,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Om du vill uppdatera vissa medlemmar i projektteamet väljer du en eller flera användare i listan och klickar sedan på **Skicka uppdatering till användare******.\
+   Om du vill uppdatera vissa medlemmar i projektteamet väljer du en eller flera användare i listan och klickar sedan på **Skicka uppdatering till användare**&#x200B;**&#x200B;**.\
    ![Kommentar_1.png](assets/commenting-1-350x352.png)
 
 1. Skriv din uppdatering i fältet **Publicera en uppdatering för projektet**.

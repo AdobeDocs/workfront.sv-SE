@@ -33,7 +33,7 @@ Det krävs två enkla steg:
 
 **Steg 1**: Om du inte har något sessions-ID kan du hämta ett med metoderna doLogin() eller getSessionID(). Använd den första för att&quot;logga in&quot; med en användares e-postadress och lösenord eller den senare metoden om du har användarens e-postadress och autentiseringstoken.
 
-**Steg 2:**Nu är det dags att skapa ett korrektur. Använd metoden createProof() och skicka minst de obligatoriska fälten (för närvarande finns det bara 5). Se till att du anger parametern Hash som &quot;web&quot; och parametern SourceName som URL för den webbsida som du vill hämta.
+**Steg 2:**&#x200B;Nu är det dags att skapa ett korrektur. Använd metoden createProof() och skicka minst de obligatoriska fälten (för närvarande finns det bara 5). Se till att du anger parametern Hash som &quot;web&quot; och parametern SourceName som URL för den webbsida som du vill hämta.
 
 Om du loggar in på ditt konto ser du korrekturet.
 

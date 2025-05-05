@@ -141,7 +141,7 @@ Om du vill veta mer kan du fortsätta att arbeta med exempelformuläret som du s
 
    *Medlemskap*
 
-1. Öppna fliken **Lägg till ett fält** och skapa ett **textfält med formateringen **fält med namnet *Vad är målet för webbplatsen?* och klicka sedan på **Använd**.
+1. Öppna fliken **Lägg till ett fält** och skapa ett **textfält med formateringen &#x200B;** fält med namnet *Vad är målet för webbplatsen?* och klicka sedan på **Använd**.
 
    I den här organisationen skapas en hjälpdokumentationswebbplats av det tekniska skrivteamet, inte av marknadsföringsavdelningen. Ingen ytterligare information behövs från en användare som väljer hjälpdokumentation i det andra fältet. Vi ska skapa en textrad (ett beskrivande textfält) som talar om för dem att de ska besöka Teknikskribenten istället. Och vi ska använda en logikregel som hoppar över användaren till den textraden.
 

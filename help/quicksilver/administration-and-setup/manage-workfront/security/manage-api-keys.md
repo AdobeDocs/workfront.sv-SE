@@ -107,13 +107,14 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
    1. Expandera **System** och klicka sedan på **Enkel inloggning (SSO)**.
    1. I fältet **Typ** väljer du den typ av enkel inloggning som din organisation använder.
    1. När typen är markerad rullar du nedåt och avmarkerar kryssrutan **Aktivera**.
+
       ![Aktivera enkel inloggning](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Klicka på **Spara**.
 
 
 1. Ange följande API-anrop i adressfältet i en webbläsare:
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**användarnamn**&amp;password=**password**&amp;method=PUT
+   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;användarnamn&#x200B;**&amp;password=**&#x200B;password**&amp;method=PUT
 
    Ersätt `<domain>` med ditt Workfront-domännamn och användarnamn och lösenord med användarens Workfront-autentiseringsuppgifter.
 

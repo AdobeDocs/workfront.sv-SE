@@ -66,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 {{step-1-to-setup}}
 
 1. Klicka på **Åtkomstnivåer** i den vänstra panelen.
-1. 
+1. &#x200B;
    * I produktionsmiljön:
 Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på **Kopiera**.
 

@@ -197,4 +197,4 @@ Om du har redigeringsbehörighet att göra det kan du flytta korrektur, filer oc
 1. Gör något av följande:
 
    * Om du vill flytta ett objekt klickar du och håller ned det, drar och släpper det i den mapp där du vill placera det.
-   * Om du vill flytta flera objekt samtidigt kan du markera kryssrutorna till vänster om objekten, klicka på **[!UICONTROL Move to]**ovanför listan och sedan markera den mapp där du vill placera dem eller skapa en ny mapp för dem.
+   * Om du vill flytta flera objekt samtidigt kan du markera kryssrutorna till vänster om objekten, klicka på **[!UICONTROL Move to]**&#x200B;ovanför listan och sedan markera den mapp där du vill placera dem eller skapa en ny mapp för dem.

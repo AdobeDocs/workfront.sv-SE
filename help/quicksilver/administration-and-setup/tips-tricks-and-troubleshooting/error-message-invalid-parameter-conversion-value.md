@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Felmeddelande: Ogiltig parameter: Konverteringsvärde"
-description: '"Du får följande felmeddelande när du försöker ändra formatet för ett anpassat fält i ett befintligt anpassat formulär: "Ogiltig parameter: konverteringsvärdet `&lt;..&gt;`"'
+description: '"Du får följande felmeddelande när du försöker ändra formatet för ett anpassat fält i ett befintligt anpassat formulär: "Ogiltig parameter: konverteringsvärdet &grave;&lt;..&gt;&grave;"'
 author: Lisa
 feature: System Setup and Administration
 role: Admin

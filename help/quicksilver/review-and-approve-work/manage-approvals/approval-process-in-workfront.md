@@ -78,9 +78,7 @@ Mer information om hur du skapar en godkännandeprocess på systemnivå eller en
      >     Om du till exempel har ett uppgiftsgodkännande som är associerat med statusen Pågår, ändrar aktiviteten automatiskt status till Pågår när godkännandet beviljas. Det kan inte automatiskt ändra sin status till Slutförd eller någon annan status som inte är associerad med godkännandet.
      >   
      >   
-     >
-
-   * Enheterna som är kopplade till en godkännandeprocess kan vara användare, jobbroller eller team. Användarna ansvarar själva för att godkänna eller avvisa godkännandet. Du kan tilldela godkännanden till användare som fyller i en viss roll i projektet. Du kan till exempel tilldela ett godkännande till en projektägare eller Sponsorn. Mer information finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >* Enheterna som är kopplade till en godkännandeprocess kan vara användare, jobbroller eller team. Användarna ansvarar själva för att godkänna eller avvisa godkännandet. Du kan tilldela godkännanden till användare som fyller i en viss roll i projektet. Du kan till exempel tilldela ett godkännande till en projektägare eller Sponsorn. Mer information finns i [Skapa en godkännandeprocess för arbetsobjekt](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Följande scenarier finns:
 

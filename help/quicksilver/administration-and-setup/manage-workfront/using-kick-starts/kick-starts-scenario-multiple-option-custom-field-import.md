@@ -223,7 +223,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
      >
      >Du kan bara ha ett standardalternativ för varje fält.
 
-   * **`setParameterID`** = de alternativ som motsvarar det anpassade fältet _Varumärke_ har **`setParameterID`** 1, och de alternativ som motsvarar _Media_ har **`setParameterID`**2. `PARAM` och `POPT` blad korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
+   * **`setParameterID`** = de alternativ som motsvarar det anpassade fältet _Varumärke_ har **`setParameterID`** 1, och de alternativ som motsvarar _Media_ har **`setParameterID`**&#x200B;2. `PARAM` och `POPT` blad korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
    * **`setDisplayOrder`**= Visningsordningskolumnen anger i vilken ordning alternativen visas i det anpassade fältet. Du kan börja med 1 och fortsätta i stigande ordning för alla alternativ, oavsett vilka fält de tillhör. Det viktiga här är att ha unika nummer för varje alternativ.
    * Kolumnerna **`setLabel`** och `**setValue`** innehåller vanligtvis samma information och de bör återspegla de namn som du vill ha i Workfront-gränssnittet. Värdet för ett alternativ är det namn som visas i rapporter, till exempel, medan etiketten visas i de anpassade formerna när den kopplas till ett objekt. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = ange `TRUE` om du vill att något av alternativen ska vara dolt.

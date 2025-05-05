@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna använda de funktioner som beskri
 
 1. Logga in på [!DNL Salesforce] som Workfront-administratör.
 1. Klicka på **[!UICONTROL Setup].**
-1. Expandera **[!UICONTROL Customize]i avsnittet **[!UICONTROL Build]**.**
+1. Expandera **[!UICONTROL Customize]i avsnittet &#x200B;** [!UICONTROL Build]&#x200B;**.**
 
 1. Expandera **[!UICONTROL Opportunities]** och klicka sedan på **[!UICONTROL Page Layouts]** för att lägga till avsnittet [!DNL Workfront] i ett säljprojekt.
 
@@ -80,7 +80,7 @@ Du måste ha följande åtkomst för att kunna använda de funktioner som beskri
    Vi rekommenderar att du väljer layouten **[!UICONTROL 1-Column]** för avsnittet [!DNL Workfront].
 
 1. Klicka på **[!UICONTROL OK]**.
-1. Klicka på **[!UICONTROL Visualforce Pages]i området **[!UICONTROL Layout]**.**
+1. Klicka på **[!UICONTROL Visualforce Pages]i området &#x200B;** [!UICONTROL Layout]&#x200B;**.**
 
 1. Dra och släpp komponenten **[!UICONTROL WorkfrontOpportunities]** till det nya avsnittet i layouten **[!UICONTROL Opportunities]**.
 

@@ -90,6 +90,7 @@ Dialogrutan **Anpassa vy** visas.
    * Justera den ordning som kolumnerna visas i genom att dra kolumnrubriken till en ny plats.
 
    * Klicka på **Sammanfatta den här kolumnen med** i området **Kolumninställningar** och välj hur du vill att data ska visas i kolumnen. Det här alternativet är tillgängligt för följande kolumntyper:
+
      <table style="table-layout:auto"> 
          <col> 
          <col> 

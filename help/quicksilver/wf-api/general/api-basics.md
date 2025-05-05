@@ -318,7 +318,7 @@ Som standard returneras bara den mest använda delmängden av fält när du häm
 
 Du kan använda fältparametern request för att ange att en kommaavgränsad lista med specifika fält returneras. Till exempel begäran
 <pre>/attask/api/v15.0/task/search?fields=planningStartDate,priority</pre>returnerar ett svar som liknar följande:
-<pre>{<br>}    "priority": 2,<br>    "name": "first task", <br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
+<pre>{<br>}    "priority": 2,<br>    "name": "first task", <br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>&rbrace;</pre>
 
 >[!NOTE]
 >
@@ -367,8 +367,8 @@ Du kan använda `count` för att returnera antalet resultat som matchar din frå
 
 Du kan utföra en rapportbegäran där bara sammanställningen av vissa fält är önskvärd med en eller flera grupperingar. Som visas i följande exempel är rapportsyntaxen densamma som syntaxen för SOAP API:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>som returnerar följande resultat
-<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    }, <br>     "Andra projektet": <br>        "sum_hours": 30 <br>    } <br></pre>Om du lägger till parametern $$ROLLUP=true inkluderas en summa på varje grupperingsnivå:
-<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    }, <br>    "Andra projektet": <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
+<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    &rbrace;, <br>     "Andra projektet": <br>        "sum_hours": 30 <br>    &rbrace; <br></pre>Om du lägger till parametern $$ROLLUP=true inkluderas en summa på varje grupperingsnivå:
+<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    &rbrace;, <br>    "Andra projektet": <br>        "sum_hours": 30 <br>    &rbrace;, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### Sortering av frågeresultat i API
 
@@ -475,8 +475,8 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 
 Du kan överföra dokument via följande API-URL:
 <pre>POST /attask/api/v15.0/upload</pre>API förväntar sig att innehållstypen ska vara multipart/form-data. Filens parameternamn måste vara uploadedFile. Servern returnerar följande JSON-data:
-<pre>{<br>}    "handle": "4c7c08fa000002ff924e298ee148df4" <br>}</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
-<pre>POST /attask/api/v15.0/document?updates={<br>}    name: aFileName, <br>    handle: abc...123, (handle from the file upload) <br>    docObjCode: PROJ, (eller TASK, OPTASK osv.) <br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>}</pre>
+<pre>{<br>}    "handle": "4c7c08fa000002ff924e298ee148df4" <br>&rbrace;</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
+<pre>POST /attask/api/v15.0/document?updates={<br>}    name: aFileName, <br>    handle: abc...123, (handle from the file upload) <br>    docObjCode: PROJ, (eller TASK, OPTASK osv.) <br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>&rbrace;</pre>
 
 ## PUT
 
@@ -497,7 +497,7 @@ Som visas i följande exempel kan du använda parametern för uppdateringsbegär
 ### Skapa kapslade uppdateringar
 
 Vissa objekt har privatägda samlingar som kan uppdateras. I följande exempel visas hur du skriver över befintliga tilldelningar för en viss uppgift:
-<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>}    tilldelningar: [ <br>        <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>}    tilldelningar: [ <br>        <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        &rbrace;,{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -515,7 +515,7 @@ Vissa objekt har stöd för ytterligare åtgärder som kan utföras utöver enkl
 
 I följande exempel visas syntaxen för att flytta en uppgift från ett projekt till ett annat:
 <pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8..</pre>Ett exempel för varje åtgärdstyp finns här: (??)
-<pre>PUT /attask/api/v15.0/project/1234/acceptableApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculate<br><br>2} PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/revgApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval{4 5}PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed<br><br></pre>Det är bara flyttåtgärden som kräver att du identifierar ytterligare attribut för att ange vilket projekt som arbetsposten ska flyttas till.
+<pre>PUT /attask/api/v15.0/project/1234/acceptableApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculate<br><br>2&rbrace; PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/revgApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval{4 5}PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed<br><br></pre>Det är bara flyttåtgärden som kräver att du identifierar ytterligare attribut för att ange vilket projekt som arbetsposten ska flyttas till.
 
 Följande är ett exempel på varje åtgärdstyp: 
 <pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
@@ -536,9 +536,9 @@ DELETE tar bort ett objekt. I samtliga fall kan URI:n innehålla parametern forc
 
 En satsvisa uppdateringssats uppdaterar flera objekt samtidigt i ett enda API-anrop. Ett API-anrop för att skapa satsvis byggs på liknande sätt som ett vanligt uppdateringsanrop, vilket visas i följande exempel:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Du kan också göra en gruppuppdatering som liknar följande:
+<pre>data: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Du kan också göra en gruppuppdatering som liknar följande:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [ {<br>}     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
+<pre>data: [ {<br>}     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
 
 >[!NOTE]
 >

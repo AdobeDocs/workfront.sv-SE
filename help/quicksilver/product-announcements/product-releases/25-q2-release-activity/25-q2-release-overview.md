@@ -53,7 +53,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Förbättringar av logiken i anpassade formulär</a></p><p>[!BADGE In production ]{type=Informative}</p>
+            Förbättringar av logiken i anpassade formulär</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
             <p>Logikverktyget för anpassade formulär har ett uppdaterat gränssnitt som ger dig mer utrymme för att skapa logikregler. Den nya designen kan enklare hantera ytterligare logiktyper som kan läggas till i framtiden.</p><p>Förutom de aktuella alternativen för visning och hopplogik finns även valideringslogik tillgänglig.</p>
         </td>
         <td>
@@ -68,7 +68,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Uttryck som lagts till i beräknade anpassade fält</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Följande uttryck är nu tillgängliga i Workfront beräknade anpassade fält: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT och ADDHOUR. Definitioner och exempel på varje uttryck finns i beräkningsredigeraren och i Experience League.</p>
         </td>
         <td>
@@ -105,7 +105,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Uppdatering för Desktop Proofing Viewer </a></p>[!BADGE In production ]{type=Informative}
+            Uppdatering för Desktop Proofing Viewer </a></p>[!BADGE In production &#x200B;]{type=Informative}
             <p>Desktop Proofing Viewer har uppdaterats till version 2.1.45. Med den här uppdateringen kan visningsprogrammet använda
             <ul><li>Elektronversion 35</li><li>Krom version 134</li><ul></p>
         </td>
@@ -120,7 +120,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Redigera flera dokument samtidigt i en dokumentrapport </a></p>[!BADGE In production ]{type=Informative}
+            Redigera flera dokument samtidigt i en dokumentrapport </a></p>[!BADGE In production &#x200B;]{type=Informative}
             <p>Nu kan du redigera flera dokument samtidigt i en dokumentrapport. Du kan redigera beskrivningarna och uppdatera anpassade formulär.</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Förbättringar av korrektur i mobilappen (endast iOS)</a><p>[!BADGE In production ]{type=Informative}</p></p>
+            Förbättringar av korrektur i mobilappen (endast iOS)</a><p>[!BADGE In production &#x200B;]{type=Informative}</p></p>
             <p>Det finns flera förbättringar för korrekturfunktioner i Adobe Workfront mobilapp:
             <ul>
             <li>Nu kan du öppna en korrekturfil från ditt mobila e-postprogram från en länk som delats med dig. Tidigare stöddes inte länkar från e-postmeddelanden och du var tvungen att hämta korrektur från Workfront mobilapp.</li>
@@ -175,7 +175,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Lägga till en kommentar i projekt när du redigerar dem i rutan Redigera projekt</a><p>[!BADGE In production ]{type=Informative}</p>
+            Lägga till en kommentar i projekt när du redigerar dem i rutan Redigera projekt</a><p>[!BADGE In production &#x200B;]{type=Informative}</p>
             <p>Nu kan du lägga till en kommentar i ett projekt när du redigerar det i rutan Redigera projekt. Du kan också lägga till en kommentar i flera projekt samtidigt när du redigerar dem i grupp. Före den här uppdateringen fanns inte den här funktionen när du redigerade projekt.</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Dokumentgodkännande och beslutsdata finns nu tillgängliga i Data Connect</a><p>[!BADGE In production ]{type=Informative}</p>
+            Dokumentgodkännande och beslutsdata finns nu tillgängliga i Data Connect</a><p>[!BADGE In production &#x200B;]{type=Informative}</p>
             <p>Du kan nu komma åt data för dokumentgodkännanden och -beslut i Data Connect. Den här datauppsättningen överbryggar dokumentgodkännanden från Workfront korrekturfunktioner och Frame.io-godkännanden som sker i Workfront-dokument. Du kan nu illustrera cykeltid, antal cykler och tidslinjepåverkan för sena godkännanden genom dina BI-visualiseringar.</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar i Workfront Calendar</a></p><p>[!BADGE In production ]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar i Workfront Calendar</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
             <p>Vi har uppdaterat utseendet och känslan i Workfront Calendar till en modern design som överensstämmer med andra delar av Workfront. Det finns små skillnader i funktionalitet jämfört med den aktuella Workfront-kalendern:
             <ul>
             <li>Så här lägger du till ad hoc-objekt i kalendern</li>
@@ -242,7 +242,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Uppgradera till den nya prenumerationsversionen med versionsuppgraderingsslutpunkter</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Workfront har nu versioner av eventprenumerationer. Den nya versionen är inte en ändring av Workfront API, utan snarare en ändring av prenumerationsfunktionen för evenemang. Du kan växla dina evenemangsprenumerationer till den nya versionen utan att skapa ett mellanrum i din eventprenumeration</p>
         </td>
         <td>
@@ -255,7 +255,7 @@ Månads- och kvartalsvisa releaser planeras bli tillgängliga torsdagen den andr
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Representera Adobe Admin Console användarändringar som"System" i Workfront uppdateringsfeed</a></p><p>[!BADGE In production ]{type=Informative}</p><p>När administratören för Adobe Admin Console nu gör en ändring i användarinformationen för en Workfront-användare, registrerar Workfront denna ändring på fliken Systemaktivitet i användarens uppdateringsområde som tillhör "System". Detta avser Adobe Admin Console-administratören.</p>
+            Representera Adobe Admin Console användarändringar som"System" i Workfront uppdateringsfeed</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>När administratören för Adobe Admin Console nu gör en ändring i användarinformationen för en Workfront-användare, registrerar Workfront denna ändring på fliken Systemaktivitet i användarens uppdateringsområde som tillhör "System". Detta avser Adobe Admin Console-administratören.</p>
         </td>
         <td>
             <p><b>Tillgängligt på följande datum:</b></p>

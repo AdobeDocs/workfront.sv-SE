@@ -88,7 +88,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
    * Ange behörigheter för något av de överordnade objekten i utgåvan: projekt, program eller portfölj. Problem ärver behörigheterna från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Lägg till entiteter i projektdelning på en mall som används för att skapa det projekt som utgåvan gäller. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >

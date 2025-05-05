@@ -50,7 +50,7 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 
 | Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
-| Projekt (PROJ) | Projekt<br>Aktivitet<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Grupp<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ej arbetsdag<br>Ködefinition<br>Köteamgrupp<br> 16}Köämne <br>Routningsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisning |
+| Projekt (PROJ) | Projekt<br>Aktivitet<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Grupp<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ej arbetsdag<br>Ködefinition<br>Köteamgrupp<br> 16&rbrace;Köämne <br>Routningsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisning |
 | Mall (TMPL) | Mall<br>Mallaktivitet<br>Mallaktivitetstilldelning<br>Malluppgiftsföregångare<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Grupp<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännande<br>Schema<br>Ej arbetsdag<br>Ködefinition<br>Kö Ämnesgrupp<br>Köämne<br>Routningsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametgrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 
 ### Rapporteringsobjekt

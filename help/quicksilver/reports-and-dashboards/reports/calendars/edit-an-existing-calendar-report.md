@@ -70,11 +70,13 @@ Om du har delat kalenderrapporten med andra användare eller team uppdateras det
    1. Klicka på **[!UICONTROL Add to Calendar].**
    1. Börja skriva namnet på ett projekt som du vill lägga till kalenderhändelser från och klicka sedan på namnet när det visas i listrutan.
    1. Klicka på **Lägg till**.
+
       ![lägg till ett projekt i en kalender](assets/add-a-calendar-project.png)
 
 
 1. (Valfritt) Så här lägger du till en kalendergrupp eller ändrar en befintlig kalendergrupp:
    1. Klicka på menyn **Mer** bredvid projektnamnet och klicka sedan på **Redigera**.
+
       ![redigera projekt i kalendern](assets/edit-project-in-calendar.png)
 
    1. Välj hur du vill gruppera dina objekt:

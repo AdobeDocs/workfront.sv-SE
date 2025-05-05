@@ -157,7 +157,7 @@ Till exempel *yourDomain.my.workfront.com*.
 1. Logga in på [!DNL Salesforce] som systemadministratör.
 1. Klicka på ikonen **[!UICONTROL Setup]** och sedan på **[!UICONTROL Setup]**.
 
-1. Expandera **[!UICONTROL Apps]i avsnittet **[!UICONTROL PLATFORM TOOLS]**.**
+1. Expandera **[!UICONTROL Apps]i avsnittet &#x200B;** [!UICONTROL PLATFORM TOOLS]&#x200B;**.**
 
 1. Klicka på **[!DNL AppExchange Marketplace]**.
 1. Skriv **[!DNL Workfront]** i rutan **[!UICONTROL Search [!DNL AppExchange] Apps]**.
@@ -180,7 +180,7 @@ Till exempel *yourDomain.my.workfront.com*.
    Appen [!DNL Workfront] visas under **[!UICONTROL Installed Packages]**.
 
 1. Navigera till **[!UICONTROL Setup].**
-1. Expandera **[!UICONTROL Security]i avsnittet **[!UICONTROL SETTINGS]**.**
+1. Expandera **[!UICONTROL Security]i avsnittet &#x200B;** [!UICONTROL SETTINGS]&#x200B;**.**
 
 1. Klicka på **[!UICONTROL Remote Site Settings]**.
 1. (Villkorligt) Om du inte ser din [!DNL Workfront]-URL i listan **[!UICONTROL All Remote Sites]** klickar du på **[!UICONTROL New Remote Site]**.

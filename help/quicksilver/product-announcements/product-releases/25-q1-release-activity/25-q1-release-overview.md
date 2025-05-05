@@ -62,7 +62,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            Affärsregler stöds nu för fler objekt</a></p>
-           [!BADGE In production ]{type=Informative}
+           [!BADGE In production &#x200B;]{type=Informative}
             <p>Nu kan du skapa affärsregler och tillämpa validering på ytterligare objekt: Företag, Iteration, Resurskategori som inte är arbetsplats, Jobbroll, Användare, Tilldelning, Resurspool, Tid av, Dokument och Timme.</p>
         </td>
         <td>
@@ -77,7 +77,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            Jämför objekt mellan miljöer för att förbättra miljön</a></p>
-           [!BADGE In production ]{type=Informative}
+           [!BADGE In production &#x200B;]{type=Informative}
             <p>För att det ska bli enklare att avgöra vilket objekt som ska ingå i ett miljöbefordringspaket har vi lagt till möjligheten att jämföra objekt i olika miljöer. Du kan sedan lägga till objekt i ett paket direkt från jämförelsen.</p>
         </td>
         <td>
@@ -92,7 +92,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Fler tillgängliga objekt för miljöbefordran</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Vi har lagt till fler objekt för att utöka funktionerna för miljöbefordran.</p>
         </td>
         <td>
@@ -107,7 +107,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Förhindra att uppgifter flyttas när det finns timmar loggade</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Eftersom flyttningar av uppgifter eller problem som har loggade timmar ibland kan orsaka problem med regelefterlevnad eller revision, har vi lagt till en inställning under Inställningar för Aktivitet och problem i installationsprogrammet som gör att du kan förhindra användare från att flytta uppgifter och problem om det finns timmar inloggade.</p>
         </td>
         <td>
@@ -122,7 +122,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Inställning för att använda projekt eller användarschema för uppgifter med enkel tilldelning</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Som system- eller gruppadministratör har du nu en ny inställning som anger om Workfront ska använda projektets eller användarens schema för att beräkna tidslinjen för projektet när du tilldelar en användare till en aktivitet och både projektet och användaren är associerade med ett schema.</p>
         </td>
         <td>
@@ -138,7 +138,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Affärsreglerna stöder nu hyperlänkar</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Nu kan du inkludera hyperlänkar i det anpassade felmeddelandet för en affärsregel, som vägleder användaren om hur de kan ändra sin åtgärd inom regelbegränsningen. Den statiska URL:en kan länka till dokumentation eller andra sidor som skulle vara till hjälp för användaren.</p>
         </td>
         <td>
@@ -154,7 +154,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Det finns nu möjlighet att filtrera på inbyggda typsnittsfält</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>När du lägger till en intern fältreferens i ett anpassat formulär och den refererar till ett typsnittsfält (som Portfolio, Company eller Owner), är nu ett filteralternativ tillgängligt. Med filtret kan du begränsa vilka objekt som användare kan välja när de använder fältet. Det här anpassade filtret fungerar på samma sätt som ett filter i ett anpassat typsnittsfält, där textläget används för att definiera filtret.</p>
         </td>
         <td>
@@ -170,7 +170,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ikonen "Flytta till" har lagts till i anpassade fält</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>När ett anpassat formulär innehåller flera avsnitt med många fält kan det vara svårt att flytta ett fält från ett avsnitt till ett annat genom att dra och släppa. En"flytta till"-ikon har lagts till i varje fält, så att du kan markera det avsnitt som fältet placeras i.</p>
         </td>
         <td>
@@ -203,7 +203,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ändra ägare till en styrelse</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Den som har skapat en styrelse är som standard ägare. Styrelseledamot är den enda person som kan ta bort eller uppdatera brädans filter på panelen Konfigurera.</p>
             <p>Funktioner har lagts till så att Workfront systemadministratörer kan ändra ägare till en styrelse. Den nuvarande ägaren av en styrelse kan också ändra ägaren till den specifika styrelsen. Den här funktionaliteten finns för enkla, retrospektiva och Kanban-tavlor, men inte dynamiska.</p>
         </td>
@@ -236,7 +236,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Redigera flera dokument samtidigt</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Nu kan du redigera flera dokument samtidigt. Du kan redigera beskrivningarna och uppdatera anpassade formulär.</p>
         </td>
         <td>
@@ -252,7 +252,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Ny återkallad status tillgänglig för godkännande av dokumentversioner</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>När en ny version läggs till i ett dokument med väntande godkännanden visas nu godkännandet för den tidigare versionen som "Återkallad", vilket anger att den tidigare godkännandeprocessen har stängts på grund av att den nya versionen har lagts till.</p>
         </td>
         <td>
@@ -286,7 +286,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Använd smarta filter för att hitta ditt material i prioriteter</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Använd naturligt språk för att snabbt filtrera arbetet i prioriteringslistan. Du kan skriva saker som </p>
             <ul>
                 <li>Visa mig sena uppgifter</li>
@@ -306,7 +306,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Fånga upp arbetet i prioriteringar</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Du kan använda Fånga upp mig för att minska tiden när du söker information om aktiva projekt.</p>
             <p>Med Workfront AI Assistant kan jag göra en sammanfattning av uppdateringar, överförda dokument och andra betydande ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar eller 7 dagar.</p>
         </td>
@@ -324,7 +324,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
             Visa ändringar direkt på detaljsidan i Prioriteter</a></p>
             <p>Du kan nu visa uppdateringar i realtid på informationssidan för en uppgift eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.</p>
         </td>
-        [!BADGE In production ]{type=Informative}
+        [!BADGE In production &#x200B;]{type=Informative}
         <td>
             <p><b>Tillgängligt på följande datum:</b></p>
             <ul>
@@ -337,7 +337,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Överför och visa dokument och korrektur i prioriteter</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Nu kan du interagera med dokument och korrektur för uppgifter och utgåvor i arbetslistan och kalendern. På fliken Nya dokument kan du</p>
             <ul>
                 <li>Överföra ett dokument</li>
@@ -358,7 +358,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Kalendervyn är nu tillgänglig i Prioriteringar</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Du kan spåra ditt arbete med en tydlig, visuell månadskalender. Med Prioritetskalendern kan du</p>
             <ul>
                 <li>Använd filter för att hitta ditt material</li>
@@ -379,7 +379,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Uppdateringar i prioriteringslistan</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Vi har uppdaterat prioriteringslistan för att förbättra funktionerna och anpassa dem till andra områden i programmet.</p>
         </td>
         <td>
@@ -394,7 +394,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Navigera till informationssidan för ett projekt från Prioriteringar</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Du kan nu navigera direkt till ett projekt i Workfront från listan Prioriteter.</p>
         </td>
         <td>
@@ -409,7 +409,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Uppdaterade alternativ i kolumnen Mitt fokus i Prioriteringar</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Vi har uppdaterat alternativen i kolumnen Mitt fokus så att du kan prioritera och sortera ditt arbete på ett mer intuitivt sätt. De nya etiketterna innehåller</p>
             <ul>
                 <li>Urgent</li>
@@ -430,7 +430,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Visa projektinformation i Prioriteringar</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Nu kan du visa projektinformation och kommentarer från arbetslistan i Prioriteringar.</p>
         </td>
         <td>
@@ -463,7 +463,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Mer relevanta tilldelningar har tagits bort från förhandsgranskning och produktion för snabbversionsmiljöer</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>En funktion som har funnits i förhandsvisningsmiljön sedan december 2023 och i den snabba produktionsmiljön sedan mars 2024 har nu tagits bort. Funktionerna lade till mer relevanta förslag på smarta uppdrag när uppgifter tilldelas.</p>
         </td>
         <td>
@@ -495,7 +495,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Uppgradering av Desktop Proofing Viewer</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Vi har uppdaterat Desktop Viewer med den senaste versionen av Electron 3.3.0 som använder Chromium 130.0.6723.152. </p>
             <p>Senaste version: 2.1.44 </p>
         </td>
@@ -519,7 +519,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nytt webbläsartillägg för interaktiv granskning finns i betaversion</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Vi introducerar ett nytt webbläsartillägg, Adobe Workfront granskningsverktyg, som ersätter det äldre webbläsartillägget för granskning av interaktivt ZIP-innehåll. Det nya granskningsverktyget i Adobe Workfront har stöd för granskning av ZIP-innehåll i alla vanliga webbläsare.</p>
             <p>Det äldre webbläsartillägget tas bort den 28 februari 2025.</p>
         </td>
@@ -552,7 +552,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Nya entiteter tillgängliga i Data Connect</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Vi har lagt till stöd för ett antal nya enheter i Data Connect, inklusive vissa byråspecifika enheter.</p>
         </td>
         <td>
@@ -567,7 +567,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Gräns för 25 rapporter, externa sidor eller kalendrar i kontrollpaneler</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>För att behålla kontrollpanelens prestanda har vi implementerat en gräns för det totala antalet rapporter, externa sidor eller kalendrar som kan placeras på en kontrollpanel. När du skapar en ny kontrollpanel kan högst 25 objekt läggas till.</p>
         </td>
         <td>
@@ -582,7 +582,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Knapp för att skapa konto för förstagångsläsare för dataanslutning</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Administratörer som använder Data Connect för första gången kan nu skapa ett nytt Snowflake Reader-konto genom att klicka på en enda knapp. Processen tar några minuter, men kräver ingen ytterligare åtgärd.</p>
         </td>
         <td>
@@ -637,7 +637,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Uppdatera hur flyttade eller borttagna resurser i länkade mappar hanteras</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>Vi har ändrat det sätt på vilket flyttade och borttagna resurser hanteras när vi använder Adobe Workfront-integreringen med Experience Manager Assets och Assets Essentials:</p>
             <ul>
                 <li>Borttagna resurser: När en resurs tas bort inuti en länkad mapp i Assets eller Resurser Essentials behålls den borttagna resursen i området Projektdokument.</li>
@@ -656,7 +656,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Avsnitt i ett anpassat formulär kan nu komprimeras och utökas</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>När ett anpassat formulär med flera avsnitt är kopplat till ett objekt kan du nu komprimera och expandera alla avsnitt utom standardavsnittet högst upp i formuläret. Administratören kan även se den här funktionen när formuläret förhandsgranskas i formulärdesignern.</p>
         </td>
         <td>
@@ -672,7 +672,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             AI Assistant kan nu arbeta med projekt, uppgifter och problem</a></p>
-            [!BADGE In production ]{type=Informative}
+            [!BADGE In production &#x200B;]{type=Informative}
             <p>För att göra det enklare att hantera dina arbetsuppgifter i Workfront har vi uppdaterat AI Assistant för att arbeta med projekt, uppgifter och problem. Nu kan AI Assistant hitta projekt, uppgifter och problem baserat på kriterier som du anger.</p>
         </td>
         <td>

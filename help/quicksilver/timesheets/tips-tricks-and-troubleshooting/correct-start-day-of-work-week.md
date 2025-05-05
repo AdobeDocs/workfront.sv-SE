@@ -33,7 +33,7 @@ Den här inställningen påverkar även veckostartdagen i popup-kalendrar i syst
 Här följer anvisningar om hur du ändrar språk- och språkinställningar för olika webbläsare som stöds av Workfront.
 
 * **Chrome:** Kopiera och klistra in följande länk i webbläsaren i Chrome: `chrome://settings/languages` och gå sedan till Språk.
-* **Firefox:**Kopiera och klistra in följande länk i din Firefox-webbläsare: `about:preferences#content` och gå sedan till Språk.
+* **Firefox:**&#x200B;Kopiera och klistra in följande länk i din Firefox-webbläsare: `about:preferences#content` och gå sedan till Språk.
 * **IE 11:** Tools -> Internet Options -> General -> Languages
 * **Safari:** Tyvärr tillåter inte Safari att webbläsarspråk ändras utan att hela operativsystemsspråket ändras. Det är antagligen enklare att installera en annan webbläsare, som Chrome eller Firefox.
 

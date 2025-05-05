@@ -323,6 +323,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
      ![Gruppering används i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)
 
    * **Kalendervy**: Visar poster som har minst två datumtypsfält i ett kalenderformat.
+
      ![Exempel på kalendervy](assets/calendar-view-example.png)
 
 

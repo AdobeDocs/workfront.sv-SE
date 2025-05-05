@@ -107,6 +107,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
 
 1. Välja och konfigurera mallar
    1. Bläddra bland alla tillgängliga mallar och välj mallen **@adobe/aem-cf-editor-ui-ext-tpl** för projektet.
+
       ![Sökmall](assets/search-template.png)
       ![Välj mall](assets/select-template.png)
 
@@ -115,6 +116,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
    1. Ge en beskrivande sammanfattning av tilläggets funktioner.
    1. Välj ett ursprungligt versionsnummer att börja med.
    1. Bekräfta slutförande genom att välja **Jag är klar**.
+
       ![Definiera tillägg](assets/define-extension.png)
 
 1. Navigera till din projektmapp

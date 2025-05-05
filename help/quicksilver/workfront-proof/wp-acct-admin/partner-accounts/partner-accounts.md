@@ -24,5 +24,5 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Hantera en partnerrelation mellan  [!DNL Workfront Proof ]konton](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [Hantera en partnerrelation mellan  [!DNL Workfront Proof &#x200B;]konton](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
 * [Dela objekt med en partner i  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

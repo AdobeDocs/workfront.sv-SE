@@ -55,4 +55,4 @@ Som standard kan granskarna hämta den ursprungliga filen som korrekturet skapad
 
 Inställningarna som sparas i dina personliga inställningar används för alla korrektur som du har skapat, men de kan åsidosättas när du skapar ett nytt korrektur eller när du ändrar ett korrektur, vilket beskrivs i [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Du kan inaktivera filnedladdningar genom att ändra dina personliga korrekturinställningar enligt beskrivningen i [Konfigurera korrekturinställningar i[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+Du kan inaktivera filnedladdningar genom att ändra dina personliga korrekturinställningar enligt beskrivningen i [Konfigurera korrekturinställningar i[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

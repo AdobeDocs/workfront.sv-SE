@@ -66,7 +66,7 @@ Se även [Händelsemeddelanden](../../workfront-basics/using-notifications/event
   </tr> 
   <tr> 
    <td> <p><strong>Min förfrågan är stängd (bekräftelse)</strong> </p> <p>Den primära kontakten får ett e-postmeddelande när begäran stängs.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har konfigurerats som [!UICONTROL Help Request Queue] (enligt beskrivningen i <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>).</p> <p>Ämnet för e-postmeddelandet är: <em>[!UICONTROL Your request has been closed]: </em> </p> <p>Ämnet för det dagliga sammandragsmeddelandet är:<em> [!UICONTROL Digest of your Requests] &lt;Datum för det dagliga sammandraget&gt;</em></p> </td> 
-   <td> Begäransnamn<br>Projektnamn<br>Referensnummer för begäran<br>Namn på den användare som stängde begäran<br>Utgivningsstatus<br>Datum och tid när begäran stängdes<br>Status för föregående begäran<br><strong>[!UICONTROL See More Details]</strong> knapp<br>*Projektreferensnummer<br>*Projektnamn<br>*Totalt antal stängda begäranden<br>*Namn på begäran<br>*Namn på den användare som stängde begäran<br> 2}*Datum för daglig sammandrag </td> 
+   <td> Begäransnamn<br>Projektnamn<br>Referensnummer för begäran<br>Namn på den användare som stängde begäran<br>Utgivningsstatus<br>Datum och tid när begäran stängdes<br>Status för föregående begäran<br><strong>[!UICONTROL See More Details]</strong> knapp<br>*Projektreferensnummer<br>*Projektnamn<br>*Totalt antal stängda begäranden<br>*Namn på begäran<br>*Namn på den användare som stängde begäran<br> 2&rbrace;*Datum för daglig sammandrag </td> 
    <td><strong>Direkt</strong> </td> 
   </tr> 
   <tr> 

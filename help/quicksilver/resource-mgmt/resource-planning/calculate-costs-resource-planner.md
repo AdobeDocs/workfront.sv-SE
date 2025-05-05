@@ -155,7 +155,7 @@ Om rollen inte har någon kostnad per timme är den tillgängliga rollkostnaden 
 
 Följande scenarier används vid beräkning av planerad kostnad för användare, roller och projektet:
 
-* När **kostnadstypen** är **Användare per timme **och det inte finns **någon tilldelning** för aktiviteten:
+* När **kostnadstypen** är **Användare per timme &#x200B;** och det inte finns **någon tilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 

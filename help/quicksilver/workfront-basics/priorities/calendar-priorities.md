@@ -131,7 +131,7 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
     </tbody>
     </table>
 
-+++
+   +++
 
 1. Klicka på arbetsobjektsfältet i kalendern för att öppna sidsammanfattningen. Med sidsammanfattningen kan du
 

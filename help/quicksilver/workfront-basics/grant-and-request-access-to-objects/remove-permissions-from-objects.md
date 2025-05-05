@@ -83,7 +83,7 @@ Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från d
 
       ![ta bort behörighet](assets/remove-permissions-on-portfolio.png)
 
-   1. I listrutan **för**[ användarnamnet]s åtkomst till Workfront tas bort. Välj om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
+   1. I listrutan **för**&#x200B;[ användarnamnet]s åtkomst till Workfront tas bort. Välj om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
 
 1. (Villkorligt) Gör följande för projekt, uppgifter och ärenden:
 

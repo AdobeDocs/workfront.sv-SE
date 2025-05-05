@@ -74,7 +74,7 @@ När någon delar en mapp med dig visas den i sidofältet för sitt [!DNL Workfr
 
 1. Klicka på länken i det e-postmeddelande du får.
 1. Logga in på [!DNL Workfront Proof].\
-     [!DNL  Workfront Proof] visar sidan Mappinformation. Mer information finns i [Hantera mappar och deras innehåll i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] visar sidan Mappinformation. Mer information finns i [Hantera mappar och deras innehåll i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Om delning av undermappar
 

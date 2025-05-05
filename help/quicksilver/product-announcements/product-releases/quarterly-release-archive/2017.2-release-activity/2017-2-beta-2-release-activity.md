@@ -59,7 +59,7 @@ Mer information om hur du avbryter prenumerationen på e-postmeddelanden finns i
 
 ## Konfigurera hur milstolpar visas i Gantt-schemat {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***KORRIGERING **: Den här funktionen finns inte i förhandsvisningssandlådemiljön. Den planeras släppas vid ett senare datum, under juni 2017.*
+***KORRIGERING &#x200B;**: Den här funktionen finns inte i förhandsvisningssandlådemiljön. Den planeras släppas vid ett senare datum, under juni 2017.*
 
 Det finns nu två alternativ för att visa information om milstolpar i ett Gantt-schema. Du kan konfigurera någon av eller båda följande milstolpeindikatorer:
 

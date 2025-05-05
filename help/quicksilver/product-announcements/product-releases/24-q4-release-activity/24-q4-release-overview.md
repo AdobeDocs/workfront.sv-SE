@@ -63,7 +63,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Åtkomstnivån är nu tillgänglig i miljökampanjen</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Vi har lagt till möjligheten att inkludera åtkomstnivåer för att utöka funktionerna för miljömarknadsföring. Nu kan du konfigurera en åtkomstnivå i en sandlådemiljö och sedan höja den åtkomstnivån till din produktionsmiljö.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -80,7 +80,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">En räknare i anpassade formulär visar antalet fält</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Anpassade formulär är begränsade till 500 fält. I lång form kan det vara svårt att veta hur många fält som finns i formuläret och om du närmar dig gränsen. En räknare har lagts till i anpassade formulär längst ned till vänster. Räknaren visar hur många fält som används i formuläret och den visas alltid när du rullar i formulärdesignern.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -97,7 +97,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Alternativet Markera alla är nu tillgängligt i layoutmallar</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>För att du enklare ska kunna visa och dölja fält med layoutmallar har kryssrutan Markera alla lagts till under Översikt och Ekonomi i detaljvyn i en layoutmall. Det här alternativet är tillgängligt när du har valt Project, Task, Issue, Portfolio eller Program under"Customize what users see".</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -114,7 +114,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Återställa kampanjer för miljöförbättringar</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>För att göra miljökampanjen mer flexibel och enklare att använda har vi aktiverat återställningsfunktionen. Nu kan du återställa paket inom 24 timmar, så att du enklare kan återställa tidigare konfigurationer som har påverkats av ett paket för miljöbefordran.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -193,7 +193,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Lägg snabbt till tidigare granskare och godkännare i nya dokumentversioner</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Nu kan du snabbt lägga till granskare och godkännare från tidigare dokumentversioner.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -229,7 +229,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Uppdateringar av widgeten Väntar på mitt godkännande i nytt hem</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Vi har gjort följande ändringar i widgeten Väntar på mitt godkännande:</p>
                         <ul>
                             <li>Widgetens nya namn: Widgetens namn är nu Mitt godkännande.</li>
@@ -251,7 +251,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Prioriteringar: en enklare, smidigare och intuitiv Workfront-upplevelse för uppgiftsägare</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Prioriteringarna ökar fokus och produktivitet och hjälper kunderna att uppnå mer på kortare tid.</p>
                     <p>Med Prioriteringar får du:</p>
                         <ul>
@@ -293,7 +293,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av inloggningsfunktionen för Outlook-integrering</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Inloggningen för Outlook-integrering har strömlinjeformats så att alla kunder ser samma knapp för att logga in på Workfront oavsett om de är IMS-aktiverade eller inte. De efterföljande inloggningsstegen skiljer sig åt för IMS- och icke-IMS-instanser, men den inledande sidan är densamma för alla användare.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -329,7 +329,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
-                    [!BADGE In production for Fast Release ]{type=Positive}
+                    [!BADGE In production for Fast Release &#x200B;]{type=Positive}
                     <p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Uppdrag i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -347,7 +347,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
-                    [!BADGE In production for Fast Release ]{type=Positive}
+                    [!BADGE In production for Fast Release &#x200B;]{type=Positive}
                     <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -384,7 +384,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Korrigera problem med kopiera/klistra in för Desktop Proofing Viewer</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Vi har åtgärdat ett problem där innehåll klistras in felaktigt i uppdateringsavsnittet i Desktop Proofing Viewer.</p>
                     <p>Ny version: 2.1.39</p>
                 </td>
@@ -402,7 +402,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Tom skärmkorrigering för Windows-användare med Desktop Proofing Viewer</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Ett problem med den nya versionen av 2.1.36 Desktop Proofing Viewer som gjorde att vissa Windows-användare såg en tom skärm när de öppnade visningsprogrammet har åtgärdats. </p>
                     <p>Ny version för Windows-användare: 2.1.37</p>
                 </td>
@@ -420,7 +420,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Kromiumuppdatering för Desktop Proofing Viewer</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Vi uppgraderar Desktop Proofing Viewer till stöd för Chromium 126.0.6478.127 som löser problem med gränssnittselement i interaktiva korrektur.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -456,7 +456,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect finns för nya planer</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Workfront Data Connect kommer att bli tillgängligt för företag som har en av de nya Workfront-planerna. Data Connect gör det möjligt för organisationer att få tillgång till sina data som en säker och skalbar datalinje, som kan analyseras och visualiseras med hjälp av verktyg för affärsintelligens eller lagras externt. Dessutom kan organisationer använda Data Connect för att visa dataanalyser som tidigare inte fanns tillgängliga, som tidsbaserad trendanalys, variabelmappning och analys av externa systemdata i kombination med Workfront-data.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -480,7 +480,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sammanfatta projekt eller uppdateringar med ett klick</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>För att det ska bli enklare att snabbt se högdagrar i ett projekt eller en uppdateringsström har vi lagt till knapparna Sammanfatta i dessa delar av Workfront. Nu kan du klicka på knappen för att generera en sammanfattning i AI-assistenten.</p><p>Tidigare användare kunde öppna AI Assistant och skriva in en uppmaning om att skapa en sammanfattning av projektet eller uppdateringsströmmen.</p>
                 </td>
                 <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -497,7 +497,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Allmän tillgänglighet för Adobe Workfront Planning</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Workfront Planning är tillgängligt för alla kunder som har köpt en Workfront Planning-licens, utöver Workfront-licensen. Kontakta din kontorepresentant om du vill ha mer information om Workfront Planning.</p>
                     <p>Information om den senaste utgåvan av Workfront Planning varje kvartal finns i avsnittet <a href="#workfront-planning-enhancements">Förbättringar av Workfront Planning</a> nedan.</p>
                 </td>
@@ -512,7 +512,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI Assistant finns i Workfront</a></p>
-                    [!BADGE In production ]{type=Informative}
+                    [!BADGE In production &#x200B;]{type=Informative}
                     <p>Vi har lagt till Adobe AI Assistant till Workfront så att du enklare kan utföra ditt arbete. AI Assistant kan hjälpa dig genom att:</p>
                     <ul>
                         <li>Sammanfatta arbetsobjekt och dokument så att du snabbt kan få en allmän förståelse för uppgifter, projekt och resurser.</li>

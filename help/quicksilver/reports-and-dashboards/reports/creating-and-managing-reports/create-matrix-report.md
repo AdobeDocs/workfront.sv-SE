@@ -134,9 +134,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter. Om du har skapat matrisrapporten för att visa Planerade timmar eller Faktiska timmar i kolumnen **Värde** ska du tänka på att timmar eller kostnadsinformation för eventuella överordnade objekt (till exempel överordnade uppgifter) inte visas i matrisrapporten. Om du vill visa timmar för överordnade objekt måste du visa fliken **Detaljer**.
      >   
      >   
-     >
+     >**Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
 
-   **Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
    När du har lagt till en regel kan du definiera fält- och textformat för hur fält som matchar den regeln visas. Klicka på **Lägg till regel** när du har definierat regeln och **Klar** för att spara regeln.
 
 1. Klicka på fliken **Filter** för att definiera vilken information som ska visas i rapporten.

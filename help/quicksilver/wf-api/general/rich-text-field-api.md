@@ -28,7 +28,7 @@ Ett anpassat fält med formatering av formaterad text kallas **Fält med formate
 **Exempel:** En grundläggande begäran om GET för att hämta värdet för det anpassade formulärfältet **Fält med RTF-text**:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **Exempel:** Denna begäran returnerar värdet för **Field med RTF-text** i JSON som lagras i **parameterValue** **DE:Field med RTF-text**
 
@@ -63,7 +63,7 @@ Eftersom varje blockelement också är ett JSON-objekt består varje block av el
 
 ![RTF-mappning](assets/copy-of-rich-text-mapping-2-350x136.png)
 
-Om flera typer av formatering har använts på en rad kopplas formaten till ytterligare element i arrayen** inlineStyleRanges**.
+Om flera typer av formatering har använts på en rad kopplas formaten till ytterligare element i arrayen **&#x200B; inlineStyleRanges**.
 
 **Exempel:** Så här ser ett block ut när du lagrar en textrad som innehåller den blandade formateringen: **Fet text och Kursiv**
 
@@ -118,4 +118,4 @@ Så här sparar du följande värden i ett RTF-fält med Workfront API:
 1. Använd metoden **stringify** på JSON-objektet ovan för att göra en **PUT**-begäran och skicka uppdateringar
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

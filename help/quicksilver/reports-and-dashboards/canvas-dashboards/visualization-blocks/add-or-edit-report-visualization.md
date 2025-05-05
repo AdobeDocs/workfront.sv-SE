@@ -41,15 +41,15 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 1. Till höger på skärmen, under **Lägg till ett block**, antingen:
 
-   Dra ikonen **Visualisering** **** till arbetsytan direkt till önskad plats.
+   Dra ikonen **Visualisering** **&#x200B;**&#x200B;till arbetsytan direkt till önskad plats.
 
    eller
 
-   Dubbelklicka på ikonen **Visualisering** **** för att lägga till en visualisering högst upp på arbetsytan.
+   Dubbelklicka på ikonen **Visualisering** **&#x200B;**&#x200B;för att lägga till en visualisering högst upp på arbetsytan.
 
    eller
 
-   Välj ikonen **Visa** **** längst upp i en befintlig tabell på arbetsytan.
+   Välj ikonen **Visa** **&#x200B;**&#x200B;längst upp i en befintlig tabell på arbetsytan.
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
    >[!NOTE]
    >
-   >Om du väljer **+ Lägg till ny tabell** skapas ett nytt tabellblock under visualiseringsblocket. Du måste fylla i tabellen med data innan du kan lägga till en visualisering för den. Mer information om hur du skapar och redigerar tabeller finns i [ [Lägga till eller redigera ett tabellblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Om du väljer **+ Lägg till ny tabell** skapas ett nytt tabellblock under visualiseringsblocket. Du måste fylla i tabellen med data innan du kan lägga till en visualisering för den. Mer information om hur du skapar och redigerar tabeller finns i [&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [Lägga till eller redigera ett tabellblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Välj den typ av visualisering som du vill lägga till.
 

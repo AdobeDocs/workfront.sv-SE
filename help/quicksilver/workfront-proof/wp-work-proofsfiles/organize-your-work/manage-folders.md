@@ -112,7 +112,7 @@ Du kan ta bort en mapp från följande platser:
 
 ### Tar bort en mapp från sidan [!UICONTROL Account Folders] {#deleting-a-folder-from-the-account-folders-page}
 
-1. Klicka på **(ditt kontonamn)[!UICONTROL folders]** i den vänstra navigeringssidlisten för att komma åt sidan [!UICONTROL Account folders].\
+1. Klicka på **(ditt kontonamn) [!UICONTROL folders]** i den vänstra navigeringssidlisten för att komma åt sidan [!UICONTROL Account folders].\
    Du kan också klicka på mappnamnet i listan **[!UICONTROL My folders]** i det vänstra sidofältet för att komma åt sidan **[!UICONTROL Folder details]**.
 
 1. Markera kryssrutan för en eller flera mappar.
