@@ -6,9 +6,9 @@ description: Du kan visa kalenderrapporter och händelseinformation som du har s
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -90,18 +90,18 @@ Du kan välja bland följande kalenderrapportvyer:
 
 1. (Valfritt) Om du visar kalendern i vyerna [!UICONTROL Month] eller [!UICONTROL Week] kan du ändra kalendervyn med följande alternativ:
 
-   * Så här inkluderar eller exkluderar du helger:
+<!--   * To include or exclude weekends:
 
-      1. Klicka på **[!UICONTROL Calendar Actions]** i verktygsfältet **[!UICONTROL Calendar]** och välj sedan **[!UICONTROL Show Weekend]** eller **[!UICONTROL Hide Weekend]** i listrutan.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * Så här ändrar du snabbt de visade datumen:
+* Så här ändrar du snabbt de visade datumen:
 
-      1. Klicka på vänsterpilen i datumindikatorn i verktygsfältet **[!UICONTROL Calendar]** för att gå tillbaka i kalendern eller högerpilen för att gå framåt.
+   1. Klicka på vänsterpilen i datumindikatorn i verktygsfältet **[!UICONTROL Calendar]** för att gå tillbaka i kalendern eller högerpilen för att gå framåt.
 
-         ![Klicka på pilen för att ändra datumet](assets/click-arrows-to-change-dates-calendar-report.png)\
-         De visade datumen justeras med ett intervall baserat på den aktuella kalendervyn. Om du till exempel visar kalendern i vyn [!UICONTROL Week] visas kalendern antingen en vecka framåt eller en vecka bakåt, beroende på vilken pil du väljer.
+      ![Klicka på pilen för att ändra datumet](assets/click-arrows-to-change-dates-calendar-report.png)\
+      De visade datumen justeras med ett intervall baserat på den aktuella kalendervyn. Om du till exempel visar kalendern i vyn [!UICONTROL Week] visas kalendern antingen en vecka framåt eller en vecka bakåt, beroende på vilken pil du väljer.
 
-      1. (Valfritt) Om du vill återgå till den aktuella dagen klickar du på [!UICONTROL **I dag**].
+   1. (Valfritt) Om du vill återgå till den aktuella dagen klickar du på [!UICONTROL **I dag**].
 
 
 1. (Valfritt) Om du vill visa en kalender i helskärmsläge klickar du på helskärmspilarna till höger i verktygsfältet **[!UICONTROL Calendar]**.
