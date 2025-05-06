@@ -2,22 +2,22 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Exportera data
-description: Du kan exportera Adobe Workfront-data från olika listor, rapporter, kontrollpaneler och sökningar.
+description: Du kan exportera Adobe Workfront-data från listor, rapporter, kontrollpaneler och sökningar.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
 
 # Exportera data
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
-Du kan exportera Adobe Workfront-data från olika listor, rapporter, kontrollpaneler och sökningar.
+Du kan exportera Adobe Workfront-data från listor, rapporter, kontrollpaneler och sökningar.
 
 Några av orsakerna till att data exporteras är:
 
@@ -97,8 +97,8 @@ Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](/
 
 Information kan exporteras i följande format:
 
-* PDF (Letter liggande eller stående, Legal, Ledger och A4)
-* Excel (.xls)
+* PDF (liggande eller stående)
+* Excel
 * Excel (.xlsx)
 * Tabbavgränsad
 
@@ -115,10 +115,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 Det finns flera begränsningar för hur rapporter visas i Workfront och hur de exporteras via manuell export, en levererad rapport eller via API:t.
 
 * **50 000 celler:** Det maximala antalet celler som tillåts i en rapportexport för Excel-filer.
-* **50 000 rader:** Antalet rader med data som tillåts i en rapportexport för pdf- och tabbavgränsade filer.
+* **50 000 rader:** Antalet rader med data som tillåts i en rapportexport för PDF- och tabbavgränsade filer.
 
-   * För Excel .xls-filer är gränsen **65 000 rader**.
-   * För Excel .xlsx-filer är den här gränsen **100 000 rader**.
+   * För Excel-filer är gränsen **65 000 rader**.
+   * För Excel(.xlsx)-filer är den här gränsen **100 000 rader**.
    * Dessa begränsningar utesluter kolumnrubriker samt rader för grupperingar i rapporten. Om du t.ex. har 6 grupperingar i en rapport och 50 000 rader data, kommer den exporterade filen att ha 50 000 rader.
 
   >[!IMPORTANT]
@@ -153,7 +153,7 @@ Det finns flera begränsningar för hur rapporter visas i Workfront och hur de e
      Mer information om hur du exporterar användningsinformation för ett projekt finns i [Översikt över resursanvändningsrapporten](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **10 MB filstorlek:** Filstorleksgräns för exporterade rapporter som schemalagts för leverans. Om en exporterad fil som bifogas till ett e-postmeddelande är större än 5 MB, skickas en länk dit filen kan hämtas via e-post i stället för den bifogade exporterade rapporten.
-* **65,530 hyperlänkar:** Det här är en gräns som Excel har angett för dokument som innehåller fler än 65 530 hyperlänkar. Dessa dokument kan inte öppnas när de exporteras manuellt eller skickas i en levererad rapport. Observera att ett Excel-dokument kanske bara innehåller 200 rader med data, men att dokumentet inte öppnas om det finns fler än 65 530 länkar i dokumentet. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds. 
+* **65,530 hyperlänkar:** Det här är en gräns som Excel har angett för dokument som innehåller fler än 65 530 hyperlänkar. Dessa dokument kan inte öppnas när de exporteras manuellt eller skickas i en levererad rapport. Observera att ett Excel-dokument kanske bara innehåller 200 rader med data, men att dokumentet inte öppnas om det finns fler än 65 530 länkar i dokumentet. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds.
 * **256 kolumner**: Det här är en gräns som Excel har angett för dokument som innehåller fler än 256 kolumner. Dessa dokument kan inte exporteras manuellt eller skickas i en levererad rapport. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds.
 
   >[!IMPORTANT]
@@ -175,7 +175,7 @@ Om du har frågor eller funderingar kring din begränsning kan du kontakta Workf
 ### Exportera data från en rapport eller lista {#export-data-from-a-report-or-list}
 
 1. Gå till den rapport eller lista som du vill exportera.
-1. Markera de objekt som du vill exportera. (Om du markerar enskilda objekt exporteras endast de objekt du markerar.)
+1. Markera de objekt som du vill exportera. Om du markerar enskilda objekt exporteras endast de objekt du markerar.
 
    I ett projekt väljer du t.ex. de uppgifter du vill exportera.
 
@@ -197,30 +197,24 @@ Om du har frågor eller funderingar kring din begränsning kan du kontakta Workf
 
    Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon-nwe.png) och välj sedan ett format.
 
-   Vilka alternativ som är tillgängliga för PDF-export beror på språkinställningarna i användarinställningarna för Workfront:
+   Vilka alternativ som är tillgängliga för PDF-export beror på inställningarna för Språkinställning för e-post i användarinställningarna för Workfront:
 
-   * Nordamerika - brev (standard), juridisk information, redovisning, A4
+   * Nordamerika - brev - liggande, brev - stående, andra storlekar
 
-     <!--   
-     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
-
-   * Alla platser utanför Nordamerika - A3, A4 (standard), Letter, Legal, Ledger
-
-     <!--   
-     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * Alla platser utanför Nordamerika - A4 - liggande, A4 - stående, andra storlekar
 
 1. (Villkorligt) Beroende på vilket operativsystem du använder kan du ha möjlighet att öppna eller spara filen. Öppna filen med det associerade programmet eller spara den på hårddisken.
-1. Fortsätt med [Använd det exporterade dokumentet](#use-the-exported-document).
+1. Om du vill veta hur information visas i den exporterade filen kan du fortsätta läsa avsnittet [Använd det exporterade dokumentet](#use-the-exported-document) i den här artikeln.
 
 ### Exportera data från en kontrollpanel {#export-data-from-a-dashboard}
 
-Du kan skriva ut informationen från en kontrollpanel eller exportera den som en pdf-fil.
+Du kan skriva ut informationen från en kontrollpanel eller exportera den som en PDF-fil.
 
 Mer information om hur du exporterar data från en kontrollpanel finns i [Exportera en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 ## Använda det exporterade dokumentet {#use-the-exported-document}
+
+I följande avsnitt beskrivs hur information visas i en exporterad fil:
 
 * [Filnamn](#file-names)
 * [Titlar](#titles)
@@ -308,7 +302,7 @@ Beroende på vilken typ av dokument du exporterar visas tidsstämplar på olika 
 
 ### Formatering {#formatting}
 
-När du exporterar ett projekt till .pdf visas alla underaktiviteter som indragna i de överordnade uppgifterna. Exporterade listor komprimerar inte några överordnade åtgärder.
+När du exporterar ett projekt till PDF visas alla underaktiviteter som indragna i sina överordnade uppgifter. Exporterade listor komprimerar inte några överordnade åtgärder.
 
 Du får alltid standardfliken för en rapport när en rapport skickas eller schemaläggs för en leverans, såvida inte rapporten har en särskild vy.
 
@@ -322,11 +316,11 @@ Mer information om hur du anpassar formatering i en rapport finns i [Använda vi
 
 ### Länkar {#links}
 
-Länkarna kan peka på alla objekt i Workfront som stöder länkning. När du exporterar en lista i Workfront till .pdf kommer alla länkar som stöds i det ursprungliga dokumentet att vara aktiva i det exporterade dokumentet.
+Länkarna kan peka på alla objekt i Workfront som stöder länkning. När du exporterar en lista i Workfront till PDF kommer alla länkar som stöds i det ursprungliga dokumentet att vara aktiva i det exporterade dokumentet.
 
 >[!TIP]
 >
->Om raden `valueformat=HTML` visas i textläge för en anpassad fältkolumn och länkvärdena inte visas i en exporterad PDF-fil, måste du ange ytterligare rader med kod i kolumnen i textläge.
+>Om raden `valueformat=HTML` visas i textläge för en anpassad fältkolumn och länkvärdena inte visas i en exporterad PDF-fil, måste du ange ytterligare kodrader för kolumnen i textläge.
 >
 >Om du t.ex. har ett anpassat fält med namnet Open Q1 Projects som innehåller länkar lägger du till följande kod:
 >

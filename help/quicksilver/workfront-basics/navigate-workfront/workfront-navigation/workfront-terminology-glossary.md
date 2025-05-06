@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 3a86ce4878304cee749fa298a39f03a46083a7b4
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '17446'
+source-wordcount: '17489'
 ht-degree: 0%
 
 ---
@@ -2058,7 +2058,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 
@@ -2266,7 +2266,13 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Task]</td> 
-   <td> <p>En aktivitet som måste utföras som ett steg mot att uppnå ett slutligt mål (att slutföra projektet).</p> <p>Mer information finns i <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Översikt över uppgifter</a>.</p> </td> 
+   <td> <p>En aktivitet som måste utföras som ett steg mot att uppnå ett slutligt mål (att slutföra projektet).</p>
+
+<p>Aktiviteter är mindre arbetsenheter som slutför ett projekt, vilket representerar en större arbetsenhet.</p>
+   <p>Aktiviteter kan aldrig finnas oberoende. De ingår alltid i ett projekt. </p>
+   <p>Mer information om uppgifter finns i <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Översikt över uppgifter</a>.</p> 
+   <p>Mer information om hur du skapar uppgifter finns i <a href="/help/quicksilver/manage-work/tasks/create-tasks/create-tasks-in-project.md">Skapa uppgifter i ett projekt</a>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Task Attribute]</td> 
