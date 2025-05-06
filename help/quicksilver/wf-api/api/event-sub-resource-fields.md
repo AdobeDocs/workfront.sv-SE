@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
+source-git-commit: 50878d9799025f35101cc267d26f2f6330750357
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,11 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>accessorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>actualWorkPerDayStartDate</td> 
   </tr> 
   <tr> 
@@ -67,12 +72,22 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td> categoryID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> classifierID </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> FinanceLastUpdateDate </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -92,9 +107,23 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td> lastUpdateDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> lastUpdatedByID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objectCategories </td> 
+  </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
