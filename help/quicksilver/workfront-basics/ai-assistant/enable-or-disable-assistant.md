@@ -5,9 +5,9 @@ description: Du kan styra vilka åtkomstnivåer i organisationen som har tillgå
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
+source-git-commit: 0dcf12ed00c04e9d7acddfd034dbba6357bb1385
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Som Workfront-administratör kan du styra vilka användare i organisationen som 
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande åtkomst för att aktivera eller inaktivera AI-assistenten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,17 +47,19 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Aktivera eller inaktivera AI-assistenten i Workfront
 
-AI-assistenten är aktiverad som standard.
+>[!NOTE]
+>
+>AI Assistant är inaktiverat som standard för icke-administratörer.
 
-Så här inaktiverar du AI Assistant för en given åtkomstnivå:
+Så här aktiverar du AI-assistenten för en given åtkomstnivå:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
 1. Välj **Åtkomstnivåer** i den vänstra navigeringen.
 1. Välj den åtkomstnivå som du vill aktivera AI-assistenten för.
 1. I fönstret Redigera åtkomstnivå bläddrar du nedåt i fönstret och klickar på **Ange ytterligare begränsningar..**.
-1. Aktivera alternativet **Inaktivera AI-funktioner** i området Ange ytterligare begränsningar.
+1. I området Ange ytterligare begränsningar inaktiverar du alternativet **Inaktivera AI-funktioner**.
 1. Klicka på **Spara**.
-1. Upprepa steg 3-6 för varje åtkomstnivå som du vill inaktivera AI-assistenten för.
+1. Upprepa steg 3-6 för varje åtkomstnivå som du vill aktivera AI-assistenten för.
 
 >[!NOTE]
 >
