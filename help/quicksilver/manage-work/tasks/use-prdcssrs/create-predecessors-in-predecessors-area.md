@@ -2,20 +2,22 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: Skapa en föregående relation med området Föregående
-description: Du kan använda föregående aktiviteter (eller bara föregående aktiviteter) för att länka aktiviteter som är beroende av andra uppgifter som ska startas eller slutföras. Du vill till exempel inte vara värd för en part (beroende uppgift) innan du skickar ut inbjudningarna (föregående uppgift).
+description: Du kan använda föregående aktiviteter (eller bara föregående aktiviteter) för att länka aktiviteter som är beroende av andra uppgifter som ska startas eller slutföras.
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Skapa en föregående relation med området Föregående
 
-Du kan använda föregående aktiviteter (eller bara föregående aktiviteter) för att länka aktiviteter som är beroende av andra uppgifter som ska startas eller slutföras. Du vill till exempel inte vara värd för en part (beroende uppgift) innan du skickar ut inbjudningarna (föregående uppgift).
+<!-- Audited: 5/2025 -->
+
+Du kan använda föregående aktiviteter (eller bara föregående aktiviteter) för att länka aktiviteter som är beroende av andra uppgifter som ska startas eller slutföras. Du vill till exempel inte vara värd för en grupp (beroende uppgift) innan du skickar ut inbjudningarna (föregående uppgift).
 
 I den här artikeln visas hur du kan ställa in föregångare med hjälp av fliken Föregående för en uppgift.
 
@@ -31,6 +33,8 @@ Mer information om föregående aktiviteter finns i [Översikt över föregåend
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -38,51 +42,57 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Nytt: Standard </p>
+   <p>eller </p>
+   <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för aktiviteterna och projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för aktiviteterna och projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa en föregångare för en uppgift
 
-1. Gå till en uppgift som du vill ange som beroende uppgift och klicka sedan på **Föregående** i den vänstra panelen.
+1. Navigera till uppgiften som du vill ange som en beroende uppgift.
 
-   Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
+1. Klicka på **Föregående** i den vänstra panelen.
 
-1. Klicka på **+Lägg till föregående**.
-1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du namnet på projektet i fältet **Överordnat projekt** med ett annat projekt och skriver sedan namnet på uppgiften eller aktiviteterna som du vill använda som Föregående.
+1. Klicka på **+Lägg till föregående** i avsnittet **Föregående**. Dialogrutan **Lägg till föregående** öppnas.
 
-   Mer information om hur du lägger till föregångare för flera projekt finns i [Skapa föregångare för flera projekt](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du namnet på projektet i fältet **Överordnat projekt** med ett annat projekt.
 
-1. Skriv namnet på den eller de uppgifter som du vill utse till föregående aktiviteter.
+   Mer information finns i [Skapa föregående projekt mellan projekt](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
-   ![](assets/add-predecessor-box-nwe-350x465.png)
+1. I fältet **Uppgifter** skriver du in namnet på den eller de uppgifter som du vill utse till föregående aktiviteter och markerar dem sedan när de visas i listrutan.
 
 1. Välj en **beroendetyp**.
 
-   Mer information om aktivitetsberoendetyper finns i [Översikt över aktivitetsberoendetyper](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Mer information finns i [Översikt över aktivitetsberoendetyper](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Ange ett **Lag**-belopp i dagar.
+1. Ange ett **Lag**-belopp.
 
-   Mer information om Lag Types finns i &#x200B; [Lag Types - översikt](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Mer information finns i &#x200B;[Översikt över fördröjda typer](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-1. Välj **Kräv** om du vill framtvinga den föregående relationen mellan de två aktiviteterna.
+   ![Dialogrutan Lägg till föregående](assets/add-predecessor-dialog-box.png)
 
-   Mer information om hur du framtvingar föregångare finns i [Tvinga föregångare](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+1. Markera kryssrutan **Kräv** om du vill framtvinga den föregående relationen mellan de två aktiviteterna.
+
+   Mer information finns i [Tvinga föregående](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Klicka på **Spara**.

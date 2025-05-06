@@ -7,14 +7,16 @@ description: Ett upplösningsbart objekt är ett problem vars upplösning är kn
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
 # Översikt över objekt som kan lösas och lösas
+
+<!-- Audited: 5/2025 -->
 
 Ett upplösningsbart objekt är ett problem vars upplösning är knuten till ett upplösningsbart objekt. Ett objekt som åtgärdar problemet är ett projekt, en uppgift eller ett annat problem.
 
@@ -22,7 +24,7 @@ När du konverterar ett problem till en aktivitet eller ett projekt blir problem
 
 Du kan också manuellt länka ett problem till ett löst objekt, som kan vara en uppgift, ett projekt eller ett problem. Mer information finns i [Koppla en problemlösning manuellt till andra problem, uppgifter eller projekt](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
 
-Det ursprungliga problemet blir det löstagbara objektet för aktiviteten, projektet eller problemet i det här scenariot.
+I det här scenariot blir det ursprungliga problemet det löstagbara objektet för aktiviteten, projektet eller problemet.
 
 ## Konfigurera Adobe Workfront för hantering av upplösta objekt {#set-up-adobe-workfront-to-handle-resolvable-objects}
 
@@ -78,10 +80,10 @@ Beroende på hur Workfront eller gruppadministratören har konfigurerat inställ
 
 Följande scenarier finns:
 
-* Om Workfront- eller gruppadministratören har **Behåll det ursprungliga problemet och koppla dess upplösning till aktiviteten** och **Behåll det ursprungliga problemet och koppla dess upplösning till det valda projektet** och **Tillåt att de här inställningarna ändras vid konvertering** avmarkerat, kommer du inte att kunna ändra de här inställningarna när du konverterar problem till aktiviteter eller projekt.\
+* Om Workfront- eller gruppadministratören har Behåll originalutgåvan och kopplar dess upplösning till aktiviteten och Behåll originalutgåvan och kopplar dess upplösning till det valda projektet och Tillåt att dessa inställningar ändras under konverteringen avmarkerat, kommer du inte att kunna ändra dessa inställningar när du konverterar utgåvor till aktiviteter eller projekt.\
   ![Området med problem med projektinställningar](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Om Workfront- eller gruppadministratören har **Behåll det ursprungliga problemet och koppla dess upplösning till aktiviteten** och **Behåll det ursprungliga problemet och koppla dess upplösning till projektet**, antingen markerat eller omarkerat, och **Tillåt att dessa inställningar ändras när konverteringen** väljs, kan du ändra de här inställningarna när du konverterar problem till aktiviteter eller projekt.\
+* Om Workfront- eller gruppadministratören har Behåll det ursprungliga problemet och kopplar dess upplösning till aktiviteten och Behåll det ursprungliga problemet och kopplar dess upplösning till antingen markerat eller omarkerat projekt och Tillåt att dessa inställningar ändras när du väljer konvertering, kan du ändra dessa inställningar när du konverterar problem till aktiviteter eller projekt.\
   ![Alternativ för att behålla utgåva](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Mer information om hur du konverterar problem till aktiviteter och projekt finns i [Översikt över hur du konverterar problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
@@ -133,9 +135,9 @@ När ett projekts anpassade status motsvarar en standardstatus som inte utlöser
 
 #### Synkronisera standardstatusen för det upplösta objektet med standardstatusen för det upplösta objektet {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
-Oavsett om du har markerat alternativet &quot;Uppdatera lösningsstatus automatiskt när statusen för det upplösta objektet ändras&quot; ändras statusen för det upplösta objektet varje gång standardstatusen ändras för de upplösta objekten (projekt eller uppgifter), ändras statusen för det (utlösta) objektet. Endast standardstatusvärden har redan mappats för att utlösa en sådan ändring.
+Oavsett om du har valt alternativet Lös objekt när status för alternativet Lös objekt ändras automatiskt eller inte, ändras statusen för det lösta objektet varje gång som standardstatusen ändras för Lösa objekt (projekt eller uppgifter), ändras statusen för det (utlösta) objektet. Endast standardstatusvärden har redan mappats för att utlösa en sådan ändring.
 
-Följande standardstatusvärden för uppgifter utlöser följande ändringar i standardstatusvärdena för problem när problemet ställs in som objekt för att lösa en uppgift:
+Följande standarduppgiftsstatus utlöser följande ändringar i standardutgivningsstatus när utleverans anges som aktivitetens matchande objekt:
 
 | **AKTIVITETSSTATUS** | **UTFÄRDSSTATUS** |
 |---|---|
@@ -143,7 +145,7 @@ Följande standardstatusvärden för uppgifter utlöser följande ändringar i s
 | Pågår | Pågår |
 | Complete | Stängd |
 
-Följande standardstatusvärden för projekt utlöser följande ändringar i standardstatusvärdena för problem när problemet ställs in som ett lösligt objekt i ett projekt. Vissa projektstatusar utlöser inga ändringar av status för problemen. Problemen är fortfarande kvar i den status de hade innan projektet omvandlades till en av följande statusar:
+Följande standardprojektstatus utlöser följande ändringar i standardutgivningsstatus när utleverans ställs in som ett lösligt objekt i ett projekt. Vissa projektstatusar utlöser inga ändringar av utgivningsstatusarna. Problemen är fortfarande kvar i den status de hade innan projektet omvandlades till en av följande statusar:
 
 | **PROJEKTSTATUS** | **UTFÄRDSSTATUS** |
 |---|---|
@@ -159,54 +161,59 @@ Följande standardstatusvärden för projekt utlöser följande ändringar i sta
 
 >[!NOTE]
 >
->När status för utgåvan har stängts (till följd av att aktiviteten eller projektet har stängts) förblir utgåvan stängd, oavsett vilken status aktiviteten eller projektet ändras till efter att de har stängts.
+>När utgivningsstatusen har stängts (till följd av att aktiviteten eller projektet har stängts), oavsett vad aktiviteten eller projektstatusen ändras till efter att de har stängts, förblir problemet stängt.
 
 #### Synkronisera det upplösta objektets anpassade status med det upplösta objektets anpassade status {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
 
-När du ändrar status för aktiviteten eller projektet till en anpassad status ändras statusen för utgåvan till en anpassad utgåvstatus endast om följande två villkor uppfylls:
+När du ändrar status för aktiviteten eller projektet till en anpassad status ändras utgivningsstatusen till en anpassad utgivningsstatus endast om följande två villkor uppfylls:
 
-* Alternativet&quot;Uppdatera automatiskt lösningsbart problem när statusen för det upplösta objektet ändras&quot; är markerat. Mer information om hur du aktiverar den här inställningen finns i [Konfigurera Adobe Workfront för hantering av upplösta objekt](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* Statusen Uppdatera automatiskt lösta problem när statusen för alternativet Lös objektändringar är markerat. Mer information finns i [Konfigurera Adobe Workfront för hantering av upplösta objekt](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * Den anpassade statusen för projektet eller aktiviteten har samma kod med tre bokstäver som den anpassade statusen för utgåvan.
 
-Du kan skapa anpassade statusvärden med samma nyckel för både utgåvor, projekt och uppgifter. När projektet eller aktiviteten (som ett löst objekt) ändras till anpassad status, återspeglar ändringen även problemets status. Statusnyckeln måste vara densamma för utleverans- och projekt- eller aktivitetsstatus.
+Du kan skapa anpassade statusvärden med samma nyckel för både utgåvor, projekt och uppgifter. När projektet eller aktiviteten (som ett löst objekt) ändras till anpassad status, återspeglas ändringen även i problemets status. Statusnyckeln måste vara densamma för utleverans- och projekt- eller aktivitetsstatus.
 
-Du kan till exempel skapa ett anpassat projekt med namnet&quot;Starta&quot; och koden&quot;LCD&quot; med tre bokstäver som är lika med&quot;Aktuell&quot;. Du kan även skapa ett eget ärende med namnet&quot;Project Launched&quot; och bokstaven code&quot;LCD&quot; som är lika med&quot;In Progress&quot;. När du markerar projektet som&quot;Starta&quot; ändras statusen automatiskt till&quot;Starta projekt&quot;. Om
-Uppdatera automatiskt status för Lösning av problem när statusen för inställningen Lös objektändringar inte är aktiverad, ändras statusen för problemet till Pågår i stället (standardstatusen).
+Tänk dig till exempel att du skapar en anpassad projektstatus som heter Launched med koden LCD som består av tre bokstäver, som motsvarar Current. Därefter skapar du en anpassad status för ett ärende som heter Project Launched, även med LCD-koden LCD, som motsvarar&quot;In Progress&quot;. När du markerar projektet som startat ändras statusen automatiskt till Projekt startat. Om statusen för Lösning av objekt inte är aktiverad uppdateras Lösning av problem automatiskt när statusen för inställningen Lös objekt inte är aktiverad, ändras statusen för problemet till Pågår i stället.
 
 Mer information om hur du skapar en anpassad status finns i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Synkronisera procentandelen färdigt för ett löst objekt med procentandelen för det lösta objektet
 
-Om ett problem har lösts av en aktivitet eller ett projekt uppdateras procentandelen slutfört av problemet när något av följande inträffar: 
+Om ett problem löses av en aktivitet eller ett projekt uppdateras det lösta problemet i procent när något av följande inträffar:
 
 * När någon sparar en ändring i aktiviteten eller projektet.
-* Projektets tidslinje räknas om.
+* När tidslinjen för projektet beräknas om.
 
-Om och problemet löses av en annan utgåva uppdateras procentandelen slutfört när någon av utgåvorna uppdateras.
+Om ett problem löses av ett annat problem uppdateras procentandelen slutfört när något av problemen uppdateras.
 
 ## Leta reda på det upplösta objektet för en aktivitet eller ett projekt
 
+>[!NOTE]
+>
+>För att kunna utföra stegen i det här avsnittet måste du ha minst behörigheten Visa åtkomst till uppgifter och projekt och behörigheten Visa för den uppgift eller det projekt som innehåller det objekt som du vill visa.
+
 Att hitta det matchande objektet är identiskt för uppgifter och projekt.
 
-1. Navigera till ett projekt eller en uppgift som du har skapat genom att konvertera ett ärende till projektet eller uppgiften.
-1. Klicka på ikonen **Projektinformation** eller **Aktivitetsinformation** och klicka för att expandera den.
-1. Klicka på **Översikt**.
-1. Längst ned på fliken går du till fältet **Den här lösningen**: Det problem som är det löstagbara objektet för projektet eller uppgiften listas i det här fältet.
+1. Navigera till ett projekt eller en uppgift som du har skapat genom att konvertera ett problem.
+1. Till vänster på sidan väljer du fliken **Aktivitetsinformation** eller **Projektinformation** .
+1. Längst ned i avsnittet **Översikt** letar du reda på fältet **Den här lösningen** där det löstagbara objektet för aktiviteten eller projektet visas.
+
+   ![Det här löser fältet](assets/this-resolves-field.png)
 
    >[!NOTE]
    >
-   >Problem kan inte konverteras till andra problem, men de kan manuellt kopplas till ett löst problem. Ett projekt, en uppgift eller ett problem kan ha flera problem som upplösbara objekt. När projektet, aktiviteten eller problemet är löst löses även problemet med det lösta objektet. Det lösta problemet är fortfarande stängt även om projektet, aktiviteten eller problemet som löste det öppnas igen.
+   >Problem kan inte konverteras till andra problem, men de kan kopplas manuellt till ett löst problem. Ett projekt, en uppgift eller ett problem kan ha flera problem som upplösbara objekt. När projektet, aktiviteten eller problemet är löst löses även problemet med det lösta objektet. Det lösta problemet är fortfarande stängt även om projektet, aktiviteten eller problemet som löste det öppnas igen.
 
 ## Identifiera ett problem med ett löst objekt i en lista
 
 I en lista med problem kan du identifiera problem som är märkta som att lösa objekt via statusikoner genom att leta upp den här ikonen i kolumnerna **Statusikoner** eller **Flaggor** :
 
-![Löser objekt](assets/ro1.png)
+![Löser objekt](assets/resolving-icon.png)
 
 ## Visa information om objekt som kan lösas och lösas i en rapport
 
-Du kan visa information om Resolvable eller Resolving Objects i vyn eller rapporten för projekt, uppgifter eller problem.\
+Du kan visa information om Resolvable eller Resolving Objects i vyn eller rapporten för projekt, uppgifter eller problem.
+
 Tabellen nedan visar vilka fält du kan visa och i vilka vyer du kan visa dem:
 
 <table style="table-layout:auto"> 
@@ -224,31 +231,31 @@ Tabellen nedan visar vilka fält du kan visa och i vilka vyer du kan visa dem:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Har upplösningar</strong>: Visar ett <strong>True</strong>-värde om projektet eller aktiviteten har associerade upplösta problem och ett <strong>Falskt</strong>-värde om de inte gör det.</td> 
+   <td><strong>Har upplösningar</strong>: Visar ett True-värde om projektet eller aktiviteten har associerade löstagbara problem och ett Falskt värde om så inte är fallet.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Ursprungligt utfärdningsnamn, ursprungligt utgivningsdatum, upphovsmannens namn</strong>: Visar namnet och startdatumet för det ursprungliga utgivningsnumret samt namnet på den användare som skapade utgivningen i en anpassad textvy.<br>Mer information om hur du skapar en anpassad textvy för ett projekt, en aktivitetsrapport eller en lista med information om det ursprungliga problemet finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visa: visa information om det ursprungliga problemet i uppgifts- eller projektlistor</a>.<br></td> 
+   <td><strong>Ursprungligt utfärdningsnamn, ursprungligt utgivningsdatum, upphovsmannens namn</strong>: Visar namnet och startdatumet för det ursprungliga utgivningsnumret samt namnet på den användare som skapade utgivningen i en anpassad textvy.<br>Mer information finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visa: visa information om ursprungligt problem i uppgifts- eller projektlistor</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Upplösbara:</strong> Visar en lista över alla upplösbara objekt i en anpassad textvy för ett projekt, en aktivitetsrapport eller en lista.</p> <p>Mer information om hur du skapar den här vyn finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Visa: Upplösta objekt i en aktivitet eller projektrapport</a></p> </td> 
+   <td> <p><strong>Upplösbara:</strong> Visar en lista över alla upplösbara objekt i en anpassad textvy för ett projekt, en aktivitetsrapport eller en lista.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Visa: Lösbara objekt i en uppgifts- eller projektrapport</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Den konverterade utfärdaren av utgåvan</strong>: Visar information om den användare som ursprungligen loggade problemet och som senare konverterades till aktiviteten. </td> 
+   <td><strong>Originator för konverterat problem</strong>: Visar information om den användare som ursprungligen loggade problemet och som senare konverterades till aktiviteten. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Lös projekt</strong>: Visar information om det upplösta projektet, som antingen har konverterats från det ursprungliga problemet, eller som har angetts manuellt som ett problemlösande objekt.</td> 
+   <td><strong>Lös projekt</strong>: Visar information om det matchande projektet som antingen konverterades från det ursprungliga problemet eller manuellt har angetts som ett problemlösande objekt.</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -260,7 +267,7 @@ Tabellen nedan visar vilka fält du kan visa och i vilka vyer du kan visa dem:
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Lös problem</strong>: Visar information om problemet som löstes manuellt och som har angetts som ett problemlösande objekt.</td> 
+   <td><strong>Lös problem</strong>: Visar information om problemet som har åtgärdats manuellt som ett problemlösande objekt.</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 

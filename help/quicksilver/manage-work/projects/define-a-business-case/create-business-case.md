@@ -5,7 +5,7 @@ description: Du kan använda affärsärendet för att begära ett projekt och de
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera eller högre behörigheter i projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera eller högre behörigheter i projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

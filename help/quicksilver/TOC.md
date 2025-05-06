@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
 workflow-type: tm+mt
-source-wordcount: '13185'
+source-wordcount: '13189'
 ht-degree: 0%
 
 ---
@@ -1276,7 +1276,7 @@ ht-degree: 0%
    * Uppgifter {#tasks}
       * [Uppgifter: artikelindex](manage-work/tasks/tasks-overview.md)
       * Uppgiftsinformation {#task-information}
-         * [Uppgiftsinformation](manage-work/tasks/task-information/task-information.md)
+         * [Uppgiftsinformation: artikelindex](manage-work/tasks/task-information/task-information.md)
          * [Översikt över uppgifter](manage-work/tasks/task-information/tasks-overview.md)
          * [Visa faktiska timmar](manage-work/tasks/task-information/actual-hours.md)
          * [Översikt över läget Uppgiftsspårning](manage-work/tasks/task-information/task-tracking-mode.md)
@@ -1439,7 +1439,7 @@ ht-degree: 0%
          * [Optimera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Beräkna risk till nettovärde i en portfölj](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * Begäranden {#requests}
-      * [Begäranden](manage-work/requests/requests-overview.md)
+      * [Begäranden: artikelindex](manage-work/requests/requests-overview.md)
       * Skapa och hantera frågeköer {#create-and-manage-request-queues}
          * [Skapa och hantera frågeköer](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [Skapa en begärandekö](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
