@@ -6,9 +6,9 @@ description: Du kan lägga till dokument i projekt, uppgifter eller problem i fl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Dokumentskanning är bara aktiverat för din organisation på begäran.
 
 Om dokumentskanning är aktiverat skannas filer under 25 MB när de överförs. Filer som är större än 25 MB genomsöks inte.
 
-Om Workfront upptäcker ett skadat dokument avbryter Workfront överföringsprocessen och ett meddelande visas som anger att filen är skadad. Du får också ett e-postmeddelande när Workfront upptäcker potentiellt skadligt innehåll och filen är separerad för borttagning.
+Om Workfront upptäcker ett skadat dokument visas ett meddelande om att filen är skadad. Du får också ett e-postmeddelande när Workfront upptäcker potentiellt skadligt innehåll och filen är separerad för borttagning.
 
 Skadade filer tas bort inom 24 timmar efter att de identifierats, såvida du inte tar bort dem manuellt. Om du tar bort en skadad fil spårar Workfront den här åtgärden som en uppdatering. Om du tillåter att Workfront tar bort den registreras inga uppdateringar.
 
