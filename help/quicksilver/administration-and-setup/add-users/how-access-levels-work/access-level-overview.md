@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
+source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Workfront har fem nya inbyggda åtkomstnivåer:
 * Systemadministratör
 * Standard
 * Ljus
-* Bidragsgivare
+* Medarbetare
 * Extern
 
 Beroende på åtkomstnivån är upp till tre behörigheter tillgängliga för de flesta Workfront-objekttyperna:
@@ -39,15 +39,15 @@ Beroende på åtkomstnivån är upp till tre behörigheter tillgängliga för de
 <table style="table-layout:auto">
     <tr>
         <td>Redigera</td>
-        <td>Användare kan skapa, redigera, ta bort och dela Workfront-objektet</td>
+        <td>Användare kan skapa, redigera, ta bort och dela Workfront-objekt</td>
     </tr>
     <tr>
-        <td>Utsikt</td>
-        <td>Användare kan granska och dela Workfront-objektet</td>
+        <td>Visa</td>
+        <td>Användare kan granska och dela Workfront-objekt</td>
     </tr>
     <tr>
         <td>Ingen åtkomst</td>
-        <td>Användare kan inte komma åt Workfront-objektet</td>
+        <td>Användare har inte åtkomst till Workfront-objektet</td>
     </tr>
 </table>
 
@@ -91,7 +91,7 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 |---|---|---|---|
 | Projekt |   |   | ✓ |
 | Uppgifter |   |   | ✓ |
-| Frågor |   |   | ✓ |
+| Problem |   |   | ✓ |
 | Portföljer |   |   | ✓ |
 | Program |   |   | ✓ |
 | Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   |   | ✓ |
@@ -115,8 +115,8 @@ Den här åtkomstnivån är kopplad till Light-licensen och är utformad för an
 * Visa alla artiklar och uppdateringar som är kopplade till arbetet
 * Godkänn projekt, uppgifter och ärenden
 * Visa instrumentpaneler och rapporter
-* Spåra tid och godkänn tidrapporter
-* Skapa och hantera ärenden
+* Spåra tid för uppgifter och ärenden och godkänn tidrapporter
+* Skapa och hantera problem
 
 Användare med åtkomstnivån Light:
 
@@ -251,9 +251,9 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 
 ### Åtkomstnivå för deltagare
 
-Den här åtkomstnivån är kopplad till deltagarlicensen och är utformad för användare som:
+Den här åtkomstnivån är kopplad till Contributor-licensen och är utformad för användare som:
 
-* Skicka in förfrågningar
+* Skicka begäranden
 * Spåra förfrågningar
 * Uppdatera och granska förfrågningar
 * Godkänn begäranden
@@ -286,7 +286,7 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Filter, vyer och grupperingar |   |   | ✓ |
 | Dokument |   |   | ✓ |
 | Användare |   | ✓ |   |
-| Lag |   | ✓ |   |
+| Team |   | ✓ |   |
 | Mall | ✓ |   |   |
 | Finansiella uppgifter | ✓ |   |   |
 | Resurshantering | ✓ |   |   |
@@ -320,9 +320,9 @@ Du kan inte ändra den här åtkomstnivån.
 
 >[!IMPORTANT]
 >
->Extern användare är endast tillgängligt om alternativet &quot;Samarbeta med personer utan Workfront-konton med hjälp av deras e-postadress&quot; är aktiverat i området Systeminställningar i installationsprogrammet. Mer information finns i [Konfigurera systemsäkerhetsinställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>Extern användare är bara tillgänglig om alternativet Samarbeta med personer utan Workfront-konton genom att använda deras e-postadress är aktiverat i området Systeminställningar i Inställningar. Mer information finns i [Konfigurera systemsäkerhetsinställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-#### **Uppgifter om åtkomst**
+#### **Åtkomstinformation**
 
 Följande är de högsta tillgängliga åtkomstinställningarna för objekt på åtkomstnivån Extern användare.
 
@@ -330,7 +330,7 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 |---|---|---|---|
 | Projekt | ✓ |   |   |
 | Uppgift | ✓ |   |   |
-| Utfärda | ✓ |   |   |
+| Problem | ✓ |   |   |
 | Portföljer | ✓ |   |   |
 | Program | ✓ |   |   |
 | Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   | ✓ (Endast för kalenderrapporter, ingen möjlighet att dela rapporter) |   |
@@ -347,9 +347,9 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Mål | ✓ |   |   |
 
 
-## Så här fungerar åtkomstnivåer och behörigheter tillsammans
+## Hur åtkomstnivåer och behörigheter fungerar tillsammans
 
-Åtkomstnivåer definierar vad användare kan se och göra med allmänna objekttyper och områden i systemet, till exempel projekt, uppgifter och ärenden. Behörigheter definierar vad du har tillgång till på specifika objekt som skapats av andra personer i systemet, till exempel ett projekt som skapats för att köra en marknadsföringskampanj.
+Åtkomstnivåer definierar vad användare kan se och göra med allmänna objekttyper och områden i systemet, t.ex. projekt, uppgifter och problem. Behörigheter definierar vad du har tillgång till på specifika objekt som skapats av andra personer i systemet, till exempel ett projekt som skapats för att köra en marknadsföringskampanj.
 
 I följande tabell jämförs en användares allmänna åtkomst till objekt (som definieras av användarens åtkomstnivå) med behörigheter för ett specifikt delat objekt:
 
