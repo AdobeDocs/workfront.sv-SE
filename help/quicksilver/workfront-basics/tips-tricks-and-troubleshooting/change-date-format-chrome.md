@@ -6,9 +6,9 @@ title: Ändra format för datum i  [!DNL Adobe Workfront]
 description: Om du vill ändra datumformatet för datumen i [!DNL Adobe Workfront] måste du ändra språkinställningarna i webbläsaren.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Informationen i den här artikeln gäller endast för organisationer som ännu inte har anslutit sig till Adobe Unified Experience.
+> Informationen i den här artikeln gäller endast organisationer som ännu inte har anslutit sig till Adobe Unified Experience.
 > Om din organisation har anslutit sig till Adobe Unified Experience styrs din datuminställning av din språkinställning i Adobe Unified Shell. Standardspråkinställningen, och därför standardinställningen för datum, är `en-US`.
+> Mer information finns i [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences).
 
 Du kan ändra datumformat i [!DNL Adobe Workfront], till exempel [!UICONTROL Planned Completion Date], [!UICONTROL Actual Completion Date] eller [!UICONTROL Projected Completion Date].
 

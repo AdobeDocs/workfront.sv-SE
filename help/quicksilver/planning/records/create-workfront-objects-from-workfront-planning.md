@@ -1,14 +1,14 @@
 ---
-title: Skapa Workfront-objekt från Workfront Planning
+title: Skapa Workfront-objekt från Workfront Planning när du kopplar dem till poster
 description: Du kan skapa Workfront-objekttyper när du kopplar dem från andra poster i Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---

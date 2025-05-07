@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3497'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
-   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna</p> </td> 
+   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna eller duplicera den <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 
@@ -509,9 +509,11 @@ To sort grouped records:
 
 1. (Valfritt) Aktivera inställningen **Använd på hela raden** i det övre högra hörnet av rutan Radfärger. Hela raden där villkoret uppfylls visas automatiskt i den valda färgen.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Om inställningen Använd för hela raden är avaktiverad visas bara den vänstra sidan av fältet Primärt med en smal färgindikator med vald färg. Inställningen är inaktiverad som standard.
+   >* Om inställningen Använd för hela raden är avaktiverad visas bara den vänstra sidan av fältet Primärt med en smal färgindikator med vald färg. Inställningen är inaktiverad som standard.
+   >
+   >* Du kan inte använda radfärger på en hel rad när du har markerat minst en gruppering i tabellvyn.
 
 1. Klicka utanför rutan **Radfärger** för att stänga den. Färgerna används automatiskt.
 
@@ -525,3 +527,49 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
 
 Mer information finns i avsnittet&quot;Aktivera indikator för närvaro i realtid&quot; i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
+<div class="preview">
+
+## Exportera tabellvyn
+
+Du kan exportera information i tabellvyn till en CSV- eller Excel-fil.
+
+Tänk på följande när du exporterar tabellvyn:
+
+* Den information som exporteras till en Excel-fil bevarar de filter, grupperingar och sorteringar som används i tabellvyn i Workfront Planning. Grupperingar visas inte i CSV-filen.
+
+* Miniatyrbilder och anpassade radfärger stöds inte i exporterade filer.
+
+* Endast fält som är synliga i Workfront-gränssnittet exporteras. Dolda fält exporteras inte.
+
+Så här exporterar du information från tabellvyn eller en posttyp:
+
+1. Gå till en posttypssida och klicka på en tabellvyflik.
+1. Håll pekaren över tabellvyflikens namn och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) .
+1. Klicka på **Exportera** och välj ett av följande format:
+
+   * Excel
+   * CSV
+
+   >[!IMPORTANT]
+   >
+   >Du kan inte exportera information från tabellvyn när du visar en annan vy på skärmen. Du måste visa den tabellvy som du vill exportera för att kunna komma åt alternativet Exportera på Mer-menyn.
+
+   Filen hämtas till datorn.
+
+1. (Valfritt) Gå till hämtningsmappen på datorn och leta reda på den hämtade filen.
+
+   Namnet på den exporterade filen har följande format:
+
+   `Name of the view - name of the record type`
+
+   En tabellvy för posttypen Campaigns genererar till exempel filen `Table view - Campaigns`.
+
+   Filen innehåller följande information:
+
+   * Kolumnrubrikerna markeras med svart i Excel-filen
+   * Alla fält som är synliga i Workfront-gränssnittet, sorterade och filtrerade efter samma villkor
+   * Grupperingar bevaras i Excel-filen
+
+   Du kan nu dela de exporterade filerna med andra eller bifoga dem till valfri kommunikation.
+
+</div>

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -44,19 +44,18 @@ Du kan dela följande objekt manuellt i Workfront Planning:
 
   Mer information finns i [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
-* Record types
+* Posttyper
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * Du kan dela posttyper med personer i din organisation.
+   * Nivån för behörigheter som beviljas för arbetsytan visas som ärvda behörigheter för posttypen.
+   * Du kan inte dela en posttyp med en högre behörighetsnivå än användaren har på arbetsytan.
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md).
 
 </div>
--->
+
 
 * Vyer
 
@@ -67,7 +66,7 @@ Du kan dela följande objekt manuellt i Workfront Planning:
 
   Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
-Internt kan du dela en arbetsyta eller vy med följande Workfront-enheter:
+Internt kan du dela en arbetsyta, en vy, <span class="preview"> eller en posttyp </span> med följande Workfront-enheter:
 
 * Användare
 * Grupper
@@ -76,6 +75,11 @@ Internt kan du dela en arbetsyta eller vy med följande Workfront-enheter:
 * Jobbroller
 
 <span class="preview"> När du delar arbetsytor och posttyper med andra ärvs behörighetsnivån från posttypen automatiskt till de poster och fält som är associerade med dem. </span>
+
+>[!IMPORTANT]
+>
+>Om din organisations instans av Workfront har registrerats för Adobe Unified Experience måste de användare som du vill dela Planning-objekt med läggas till i Adobe Admin Console. Du kan inte dela Planning-objekt med Workfront-användare som inte har lagts till i Adobe Admin Console.
+
 
 ## Att tänka på när du delar objekt i Adobe Workfront Planning
 

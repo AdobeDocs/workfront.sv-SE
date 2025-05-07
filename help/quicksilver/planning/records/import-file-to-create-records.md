@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Filen får inte vara större än 5 MB.
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
-   * Anslutningar och sökfält för anslutna poster <!--or connected Workfront objects-->
+
+   * <!--In the Production environment,--> Kopplingsfält till planeringsposter eller Workfront- och AEM Assets-objekt
+
+     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+   * Sök efter fält från anslutna Planning-poster eller Workfront- och AEM Assets-objekt
    * Formelfält
    * Skapad den, skapad av
    * Senast ändrat den
