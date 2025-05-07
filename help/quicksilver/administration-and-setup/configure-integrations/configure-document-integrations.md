@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -250,4 +250,12 @@ Så här konfigurerar du [!DNL Workfront] att skicka metadata till [!DNL Workfro
 
 ## Begränsningar
 
-* Integreringen av Google Drive-dokumentet har stöd för att lägga till mappar och bilder från My Drive-området på din Google Drive. Du kan inte lägga till mappar eller bilder från en delad enhet. Läs mer om [Google delade enheter](https://support.google.com/a/users/answer/7212025?hl=en).
+### Integrering med Google Drive
+
+* När en länkad mapp läggs till i Workfront läggs filerna i mappen inte längre till automatiskt.
+   * Du kan lägga till Google-mappen i Workfront utan filerna och sedan lägga till de enskilda filerna i Workfront. Filerna läggs automatiskt till i Google-mappen i Workfront.
+eller
+   * Du kan skapa en dokumentmapp i Workfront, sedan markera alla filer i Google-mappen och lägga till dem i Workfront-mappen.
+
+
+* Integreringen av Google Drive-dokumentet har stöd för att lägga till filer från My Drive-området på din Google Drive. Du kan inte lägga till mappar eller bilder från en delad enhet. Läs mer om [Google delade enheter](https://support.google.com/a/users/answer/7212025?hl=en).
