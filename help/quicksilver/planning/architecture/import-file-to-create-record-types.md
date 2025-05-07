@@ -109,7 +109,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
 
-   * <!--In the Production environment,--> Kopplingsfält till planeringsposter eller Workfront- och AEM Assets-objekt
+   * &#x200B;<!--In the Production environment,--> Kopplingsfält till planeringsposter eller Workfront- och AEM Assets-objekt
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
