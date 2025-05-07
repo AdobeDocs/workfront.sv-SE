@@ -4,9 +4,10 @@ description: Andra kvartalet 2025 - rapportförbättringar
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: afd73cab145c1f1b73c06ee093de92a28f10bea4
+exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Vi har uppdaterat utseendet och känslan i Workfront Calendar till en modern des
 * Så här skapar och byter du namn på kalendern
 * Kalenderåtgärderna har flyttats till en Mer-meny bredvid kalendernamnet
 * En ny sidopanel för att visa kalenderinformation
+* Du kan inte längre dölja helger
 * Och mer
 
 Mer information finns i artiklarna [Kalendrar](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
