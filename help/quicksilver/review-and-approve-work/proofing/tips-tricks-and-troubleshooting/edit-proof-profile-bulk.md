@@ -7,9 +7,9 @@ description: Lär dig hur du redigerar korrekturbehörighetsprofilen gruppvis.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 0e1bb767d2fdbfd4a1959eb1fa363cbc7c32d682
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör eller gruppadministratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Behörighetsprofil för bevis </td> 
