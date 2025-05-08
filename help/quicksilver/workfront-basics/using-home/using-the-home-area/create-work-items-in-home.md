@@ -6,9 +6,9 @@ description: Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Ho
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Work] eller högre</p> </td> 
+   <td>
+    <p>Nytt: [!UICONTROL Standard]</p> 
+    <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
