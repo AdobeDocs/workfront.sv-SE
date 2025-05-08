@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ### Gränssnittsuppdatering för avancerad sökning
 
-**Förhandsversion: 17 april; Produktionsrelease: Ska tillkännages**
+**Förhandsversion: 17 april; Produktionsversion: Från och med 24 april**
 
 Vi har uppdaterat området Avancerad sökning med följande ändringar:
 
@@ -344,19 +344,16 @@ Vi har uppdaterat dokumentdelningssidan för externa användare med en modernare
 
 Externa användare har inte längre åtkomst till _Mina inställningar_ från den här sidan.
 
-<!--
-
 ### Updated external user registration page
 
-**Preview release: April 24, 2024; Production release: To be announced**
+**Förhandsversion: 24 april 2024; Produktionsversion: Från 8 maj 2024**
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+Vi har uppdaterat den externa användarregistreringssidan med en modernare design som överensstämmer med andra delar av Workfront.
 
+## Licenser
 
-## Licenses
+### Uppdaterad licensavtalssida
 
-### Updated license agreement page
+**Förhandsversion: 24 april 2024; Produktionsversion: Från 8 maj 2024**
 
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+Vi har uppdaterat licensavtalssidan med en modernare design som överensstämmer med andra delar av Workfront.
