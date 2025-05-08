@@ -5,9 +5,9 @@ description: Du kan enkelt hitta objekt i [!DNL Adobe Workfront] genom att söka
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Du kan söka efter följande objekt i Workfront:
 
 De fält som är tillgängliga för sökning baseras på typen av sökning: Grundläggande eller [!UICONTROL Advanced Search].
 
-* **Grundläggande sökning**: Vid sökning efter objekt i en grundsökning söker [!DNL Workfront] efter text som kan innehålla dina nyckelord i följande fält:
+* **Grundläggande sökning**: När du söker efter objekt i en grundsökning söker [!DNL Workfront] efter text som kan innehålla dina nyckelord i följande fält:
 
    * Objektnamn
    * Beskrivning
@@ -89,13 +89,13 @@ De fält som är tillgängliga för sökning baseras på typen av sökning: Grun
 
   Mer information om grundläggande sökning i [!DNL Workfront] finns i [Grundläggande sökning](#basic-search) i den här artikeln.
 
-* **[!UICONTROL Advanced Search]**: I en [!UICONTROL Advanced Search] kan du konfigurera filter för sökfält som inte är tillgängliga i grundläggande sökning. Därför kan du i [!UICONTROL Advanced Search] söka efter alla fält i objektet.
+* **[!UICONTROL Advanced Search]**: I en [!UICONTROL Advanced Search] kan du konfigurera filter för att söka efter fält som inte är tillgängliga i den grundläggande sökningen. Därför kan du i [!UICONTROL Advanced Search] söka efter alla fält i objektet.
 
   Mer information om [!UICONTROL Advanced Search] finns i [Avancerad sökning](#advanced-search) i den här artikeln.
 
 >[!NOTE]
 >
->Om du vill utföra en [!UICONTROL Advanced Search] måste du markera alternativet [!UICONTROL Advanced Search] när sökningen börjar. Du kan inte förfina en grundläggande sökning i en [!UICONTROL Advanced Search].
+>Om du vill utföra en [!UICONTROL Advanced Search] måste du markera alternativet [!UICONTROL Advanced Search] när sökningen börjar. Du kan inte förfina en grundläggande sökning till en [!UICONTROL Advanced Search].
 
 ## Förstå begränsningar för [!DNL Workfront]-sökningar
 
@@ -158,20 +158,20 @@ Du kan dock göra följande i rutan [!UICONTROL Search] för att justera sökres
 
 ## Använd sökning i [!DNL Workfront]
 
-[!DNL Workfront] innehåller två typer av sökningar: Grundläggande och avancerad. Använd grundläggande sökning om du vill söka efter nyckelord i vanliga objektfält som namn eller beskrivning. Använd [!UICONTROL Advanced Search] om du vill använda filter för att söka efter andra objektfält.
+[!DNL Workfront] innehåller två typer av sökningar: Grundläggande och avancerad. Använd Grundläggande sökning om du vill söka efter nyckelord i vanliga objektfält som namn eller beskrivning. Använd [!UICONTROL Advanced Search] om du vill använda filter för att söka efter andra objektfält.
 
 * [Grundläggande sökning](#basic-search)
 * [Avancerad sökning](#advanced-search)
 
 ### Grundläggande sökning
 
-Med en enkel sökning kan du söka efter nyckelord i alla objekt i systemet eller i endast ett objekt i taget (till exempel projekt). [!DNL Workfront] söker sedan efter nyckelorden i några specifika fält. Du kan sedan förfina sökresultaten baserat på andra objektspecifika fält som markerats av [!DNL Workfront].
+Med en grundläggande sökning kan du söka efter nyckelord i alla objekt i systemet eller i endast ett objekt i taget (till exempel projekt). [!DNL Workfront] söker sedan efter nyckelorden i några specifika fält. Du kan sedan förfina sökresultaten baserat på andra objektspecifika fält som markerats av [!DNL Workfront].
 
-En lista med de specifika fält som har genomsökts i grundläggande sökning finns i [Fält som är tillgängliga för sökning](#fields-available-for-search) i den här artikeln.
+En lista över de specifika fält som har genomsökts i Grundläggande sökning finns i [Fält som är tillgängliga för sökning](#fields-available-for-search) i den här artikeln.
 
 >[!NOTE]
 >
->Om du vill utföra en [!UICONTROL Advanced Search] måste du markera alternativet [!UICONTROL Advanced Search] när sökningen börjar. Du kan inte förfina en grundläggande sökning i en [!UICONTROL Advanced Search].
+>Om du vill utföra en [!UICONTROL Advanced Search] måste du markera alternativet [!UICONTROL Advanced Search] när sökningen börjar. Du kan inte förfina en grundläggande sökning till en [!UICONTROL Advanced Search].
 
 * [Utför en grundläggande sökning](#perform-a-basic-search)
 * [Förfina en grundläggande sökning](#refine-a-basic-search)
@@ -191,9 +191,10 @@ Så här utför du en grundläggande sökning:
 
    ![Sök efter objekttyp](assets/search-objecttype.png)
 
-1. I rutan **[!UICONTROL Search]** börjar du skriva den information du söker efter.\
-   Mer information om vilka fält som söks igenom i [!DNL Workfront] finns i [Förstå sökning](#understand-search).\
-   ![Listrutan Sök](assets/qs-search-drop-down-highlighted-350x234.png)\
+1. I rutan **[!UICONTROL Search]** börjar du skriva den information du söker efter.
+Mer information om vilka fält som söks igenom i [!DNL Workfront] finns i [Förstå sökning](#understand-search).
+   ![Listrutan Sök](assets/qs-search-drop-down-highlighted-350x234.png)
+
    När du börjar skriva i sökfältet gör [!DNL Workfront] rekommendationer baserat på din visningshistorik och det nyckelord du söker efter markeras med blått.
 
 1. Om det objekt du söker efter visas på menyn [!UICONTROL typeahead] klickar du på det.
@@ -211,7 +212,7 @@ Så här utför du en grundläggande sökning:
    >Ibland kan varianter av ett ord visas i listan med hittade objekt.\
    >Om du till exempel söker efter&quot;marknadsföring&quot; visas objekt som innehåller antingen&quot;marknadsföring&quot; eller&quot;marknad&quot; i namnet.
 
-1. (Valfritt) Om sökningen genererade för många resultat kan du förfina sökningen enligt beskrivningen i [Förfina en enkel sökning](#refine-a-basic-search).
+1. (Valfritt) Om sökningen genererade för många resultat kan du förfina sökningen enligt beskrivningen i [Förfina en grundläggande sökning](#refine-a-basic-search).
 1. (Valfritt) Om du vill gå tillbaka till sidan som du var på innan sökningen klickar du på **[!UICONTROL Close]** i det övre högra hörnet.
 
 >[!NOTE]
@@ -220,19 +221,20 @@ Så här utför du en grundläggande sökning:
 
 #### Förfina en grundläggande sökning
 
-När du har gjort en grundläggande sökning, enligt beskrivningen i [[!UICONTROL Perform a basic search]](#perform-a-basic-search), kan du förfina sökningen.
+När du har utfört en grundläggande sökning, enligt beskrivningen i [[!UICONTROL Perform a Basic Search]](#perform-a-basic-search), kan du förfina sökningen.
 
 Använd verktygsfältet till vänster om sökresultaten för att begränsa den information du letar efter.
 
 Så här förfinar du en sökning:
 
 1. (Villkorligt) Om du utförde en allmän sökning markerar du det objekt du sökte efter i objektlistan längst upp till vänster i resultatet.
-1. Leta upp fälten som är tillgängliga för de objekt som visas i sökningen i verktygsfältet till vänster om resultatet.\
-   Värdena för varje fält visas, sorterade efter antal, upp till 10 värden för varje fält.
-1. Klicka i något av de tillgängliga fälten för att förkorta resultatlistan.\
-   De markeringar du gör markeras med blått och de fältvärden du inte markerar döljs.\
-   När du har valt varje nytt värde uppdateras resultatet till höger dynamiskt.\
-   ![Förfina sökning](assets/qs-refine-search-350x175.png)
+1. Leta upp fälten som är tillgängliga för de objekt som visas i sökningen i verktygsfältet till vänster om resultatet.
+Värdena för varje fält visas, sorterade efter antal, upp till 10 värden för varje fält.
+1. Klicka i något av de tillgängliga fälten för att förkorta resultatlistan.
+De markeringar du gör markeras med blått och de fältvärden du inte markerar döljs.
+När du har valt varje nytt värde uppdateras resultatet till höger dynamiskt.
+
+   ![Fliken Grundläggande sökning](assets/basic-search.png)
 
 1. (Valfritt) Klicka på de markerade värdena för att avmarkera dem och visa alla värden för varje fält igen.
 
@@ -242,7 +244,7 @@ Med [!UICONTROL Advanced Search] kan du söka med hjälp av fält och filter som
 
 >[!NOTE]
 >
->Om du vill utföra en [!UICONTROL Advanced Search] måste du markera alternativet [!UICONTROL Advanced Search] när sökningen börjar. Du kan inte förfina en grundläggande sökning i en [!UICONTROL Advanced Search].
+>Om du vill utföra en [!UICONTROL Advanced Search] måste du markera alternativet [!UICONTROL Advanced Search] när sökningen börjar. Du kan inte förfina en grundläggande sökning till en [!UICONTROL Advanced Search].
 
 * [Använd [!UICONTROL Advanced Search]](#use-advanced-search)
 
@@ -260,14 +262,12 @@ Så här utför du en avancerad sökning:
    Sidan [!UICONTROL Advanced Search] öppnas från höger och täcker det mesta av föregående sida.
 
 1. Välj den typ av objekt du söker efter.\
-   **[!UICONTROL Projects]** är markerat som standard.
+   **[!UICONTROL Tasks]** är markerat som standard.
 
-   ![Avancerade sökobjekt](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Avancerade sökobjekt](assets/advanced-search.png)
 
 1. (Valfritt) Skriv ett nyckelord i fältet högst upp i listan.
-1. (Valfritt) Klicka på **[!UICONTROL Filter your results]** om du vill filtrera sökresultaten baserat på specifika fälttyper och välj sedan ett fält i listan. Välj ett värde för fältet om det behövs.\
-   eller\
-   Lägg till ett nytt filter.
+1. (Valfritt) Aktivera **[!UICONTROL Filter your results]** om du vill skapa ett filter för att begränsa sökningen. Klicka på **Använd** när du är klar.
 
 1. Klicka på **[!UICONTROL Search]**.\
    En lista med objekt som matchar sökningen visas till höger om verktygsfältet [!UICONTROL Advanced Search].

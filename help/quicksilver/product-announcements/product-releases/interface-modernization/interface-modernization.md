@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-
 
 ### Gränssnittsuppdatering för meddelandecenter
 
-**Förhandsversion: 27 februari 2025; ska tillkännages**
+**Förhandsversion: 27 februari 2025; börjar veckan 6 mars 2025**
 
 Vi har uppdaterat vårt meddelandecenter med en modernare design som är i linje med andra delar av Workfront.
 
@@ -71,7 +71,7 @@ Om du vill visa inställningarna går du till Inställningar > Team.
 
 ### Gränssnittsuppdatering för inställningar för godkännandeprocess i installationsprogrammet
 
-**Förhandsversion: 6 februari 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 6 februari 2025; Produktionsversion: Från och med 13 februari 2025**
 
 Vi har uppdaterat dialogrutan Godkännandeinställningar med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -177,7 +177,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ### Gränssnittsuppdateringar för teamförfrågningar
 
-**Förhandsversion: 6 mars 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 6 mars 2025; Produktionsversion: 13 mars 2025**
 
 Vi har uppdaterat sidan Team Requests med en modernare design som är i linje med andra delar av Workfront.
 
