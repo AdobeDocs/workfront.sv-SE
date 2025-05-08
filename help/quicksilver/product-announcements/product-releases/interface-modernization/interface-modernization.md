@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
+source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,21 @@ Om du vill visa den här ändringen går du till Dokument > Klicka på menyn Mer
 
 ## Rapporter och kontrollpaneler
 
-+++Expandera för att visa uppdateringar av gränssnittet Rapporter och Kontrollpaneler
+### Uppdaterad åtkomstnivårapport med ny formatering
+
+**Förhandsversion: TBD; Produktionsrelease: Från 6 februari 2025**
+
+Vi har uppdaterat åtkomstnivårapporten med en modernare design som överensstämmer med andra delar av Workfront.
+
+Den här uppdateringen innehåller visuella ändringar av rapporten. Ingen funktionalitet har ändrats.
+
+Om du vill skapa en teamrapport går du till Rapporter > Ny rapport > Åtkomstnivå.
+
++++Expandera för att visa fler uppdateringar av gränssnittet Rapporter och Kontrollpaneler
 
 ### Uppdaterad teamrapport med ny formatering
 
-**Förhandsversion: 30 januari 2025; Från 6 februari 2025**
+**Förhandsversion: 30 januari 2025; Produktionsversion: Från 6 februari 2025**
 
 Vi har uppdaterat teamrapporten med en modernare design som är i linje med andra delar av Workfront.
 
