@@ -6,9 +6,9 @@ description: Du kan konfigurera ett projekt så att användare kan lägga till p
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Följande villkor krävs för att konfigurera ett projekt så att användare kan
 >Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
 
 1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
-1. Klicka på **Köinformation** i den vänstra panelen. Du kan behöva klicka på **Visa fler** först.
+1. Klicka på **Köinformation** i den vänstra panelen.
 1. I området **Kötyp** väljer du **Publicera som kö för hjälpbegäran**.
 
 1. Bläddra ned till området **Inställningar för e-postkö** och välj sedan **Aktivera inmatning av begäran via e-post**.

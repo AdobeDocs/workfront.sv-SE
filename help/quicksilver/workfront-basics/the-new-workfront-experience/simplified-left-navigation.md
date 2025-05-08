@@ -3,11 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Vänster navigering i  [!DNL Adobe Workfront]
 description: Den vänstra navigeringspanelen i  [!DNL Workfront] gör det enkelt att navigera i systemet.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -254,12 +255,6 @@ Mer information om vilka avsnitt som är tillgängliga för specifika områden f
    Du måste ha behörighet att redigera objektet innan du kan redigera informationen.
 
    ![Vänster panelavsnitt](assets/NWE-left-navigation-panel.png)
-
-1. (Valfritt) Klicka på **[!UICONTROL Show More]** längst ned på den vänstra panelen för att visa fler avsnitt.
-
-   >[!NOTE]
-   >
-   >Det här alternativet är inte tillgängligt om alla avsnitt visas i den vänstra panelen som standard.
 
 1. (Valfritt) Om du vill lägga till en snabblänk för kontrollpanelen klickar du på **[!UICONTROL Add Dashboard]** längst ned i den vänstra panelen och gör sedan följande:
 

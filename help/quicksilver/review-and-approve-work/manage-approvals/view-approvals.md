@@ -6,9 +6,9 @@ description: Godkännandeprocesser ger flexibilitet att skapa godkännanden i fl
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Du kan se var en uppgift eller ett problem som du arbetar med just nu befinner s
 Så här ser du det aktuella läget för var en uppgift eller en utgåva befinner sig i godkännandeprocessen:
 
 1. Gå till projektet, aktiviteten eller utgåvan som godkännandet är kopplat till.
-1. Klicka på **Godkännanden** i den vänstra panelen. Du kan behöva klicka först på **Visa mer**.
+1. Klicka på **Godkännanden** i den vänstra panelen.
 
    På fliken Godkännanden visas fullständig information om alla tidigare godkännandesökvägar och steg. Du kan se exakt vem som har fattat ett beslut om godkännandet eller om godkännandet har ställts in för ett team, en jobbroll eller en användare.
 

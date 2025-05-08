@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ Så här associerar du en befintlig global godkännandeprocess med en projekt-, 
 1. Gå till den arbetsuppgift där du vill associera en godkännandeprocess.
 1. Klicka på **Godkännanden** på den vänstra panelen.
 
-   Du kan behöva klicka på **Visa mer** och sedan på **Godkännanden**.
-
    ![Avsnittet Godkännanden för aktiviteten](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![Använd befintliga eller skapa godkännanden för enstaka användning](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ Så här skapar du en godkännandeprocess för en enstaka användning:
 1. Gå till projektet, uppgiften, utgåvan, mallen eller malluppgiften där du vill koppla en godkännandeprocess.
 1. Klicka på **Godkännanden** på den vänstra panelen.
 
-   Du kan behöva klicka på **Visa fler** > **Godkännanden**.
-
    ![Avsnittet Godkännanden för aktiviteten](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klicka på **Skapa för engångsbruk**.
@@ -231,8 +227,6 @@ Så här tar du bort eller tar bort en godkännandeprocess från en arbetsuppgif
 
 1. Gå till projektet, uppgiften, utgåvan, mallen eller malluppgiften där du vill ta bort en godkännandeprocess som du har lagt till tidigare.
 1. Klicka på **Godkännanden** på den vänstra panelen.
-
-   Du kan behöva klicka på **Visa fler** > **Godkännanden**.
 
    ![Avsnittet Godkännanden för aktiviteten](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
