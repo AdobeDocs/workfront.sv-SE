@@ -6,9 +6,9 @@ description: Föregångare är uppgifter som andra åtgärder är beroende av f�
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Tvinga en föregångare på aktivitetsnivå
 
 1. Gå till den efterföljande uppgift vars föregångare du vill framtvinga.
-1. Klicka på **Föregående** i den vänstra panelen och klicka sedan på **Lägg till föregående**. Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
+1. Klicka på **Föregående** i den vänstra panelen och klicka sedan på **Lägg till föregående**.
 1. (Villkorligt) Om du vill lägga till en föregångare för flera projekt tar du bort namnet på projektet i fältet **Överordnat projekt** och ersätter det med ett annat projekt.
 1. Ange namnet på föregående aktivitet eller aktiviteter i fältet **Uppgifter**.
 1. Ange **beroendetyp** mellan dessa två uppgifter.

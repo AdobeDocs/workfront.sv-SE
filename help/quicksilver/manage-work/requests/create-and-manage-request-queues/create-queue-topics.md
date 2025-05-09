@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Mer information om hur du skapar ämnesgrupper finns i [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Klicka på **Köa ämnen** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Köämnen**.
+1. Klicka på **Köa ämnen** i den vänstra panelen.
 1. Klicka på **Nytt köämne**.
 1. Ange följande i formuläret **Nytt köämne**:
 

@@ -1,21 +1,23 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Lägg till ett befintligt program i en portfölj
+title: Lägg till ett befintligt program i en Portfolio
 description: Du kan lägga till befintliga program i en portfölj. Eftersom program inte kan finnas i två olika portföljer flyttas det om du lägger till ett befintligt program permanent från en portfölj till en annan.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '239'
 ht-degree: 1%
 
 ---
 
 # Lägg till ett befintligt program i en portfölj
 
-Du kan lägga till befintliga program i en portfölj. Eftersom program inte kan finnas i två olika portföljer flyttas det om du lägger till ett befintligt program permanent från en portfölj till en annan. 
+<!--Audited: 5/2025-->
+
+Du kan lägga till befintliga program i en portfölj. Eftersom program inte kan finnas i två olika portföljer flyttas det om du lägger till ett befintligt program permanent från en portfölj till en annan.
 
 ## Åtkomstkrav
 
@@ -37,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till Portfolio och program </p> </td> 
+   <td> <p>[!UICONTROL Edit] tillgång till portföljer och program </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,11 +58,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **[!UICONTROL Add Program]**.
 1. Klicka på **[!UICONTROL Existing Program]**.
 
+   Rutan **Lägg till program** öppnas.
+
    >[!IMPORTANT]
    >
    >Om du lägger till ett befintligt program överförs alla projekt som är kopplade till det programmet till portföljen. Var försiktig så att du inte oavsiktligt flyttar projekt på det här sättet.
 
-1. I dialogrutan **[!UICONTROL Add Programs]** skriver du in och väljer namnet på ett program.
-1. (Valfritt) Om du vill lägga till fler program skriver du in och väljer namnet på ett program.
-1. Klicka på **[!UICONTROL Add Programs]**.\
+1. Skriv namnet på ett program i dialogrutan **[!UICONTROL Add Programs]** och markera det när det visas i listan.
+
+   Du kan lägga till fler än ett program.
+
+1. (Valfritt) Klicka på ikonen **X** till höger om programnamnet för att ta bort den från listan, om du inte vill lägga till den.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a program if you decide not to add it to the portfolio.-->
+
+1. Klicka på **[!UICONTROL Add Programs]**.
+
    Programmet visas på fliken **[!UICONTROL Programs]** i den valda portföljen.

@@ -7,9 +7,9 @@ description: Lag är den tid som måste förflyta efter slutförandet av en fram
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Du kan ange fördröjningstyper för uppgifter när du definierar deras föregå
 ### Ange typ av fördröjning i avsnittet Föregående aktiviteter i en uppgift {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Gå till en uppgift som du vill definiera föregångaren och taggtypen för.
-1. Klicka på **Föregående** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
+1. Klicka på **Föregående** i den vänstra panelen.
 1. Klicka på **Lägg till föregående**.
 1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du namnet **Överordnat projekt** med ett annat projekt.
 1. Börja skriva namnet på föregående aktivitet och markera den när den visas i listan.

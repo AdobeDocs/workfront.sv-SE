@@ -6,9 +6,9 @@ description: En föregångare för flera projekt är en uppgift som en annan akt
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en föregångare för flera projekt
 
 1. Gå till den uppgift som ska vara din efterföljare (beroende uppgift).
-1. Klicka på **Föregående** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
+1. Klicka på **Föregående** i den vänstra panelen.
 
    >[!TIP]
    >

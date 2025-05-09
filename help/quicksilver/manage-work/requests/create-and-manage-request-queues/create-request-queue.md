@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2845'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
 1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
-1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+1. Click **Queue Details** in the left panel. 
 
    This opens the Queue Details section.
 
@@ -339,7 +339,7 @@ Så här skapar du en begärandekö:
 
 1. Gå till det projekt som du vill konfigurera som en frågekö.
 1. (Valfritt) Klicka på **Projektinformation** i den vänstra panelen och lägg till en **beskrivning** i projektet i området **Översikt**. Den här informationen visas för alla nya begäranden.
-1. Klicka på **Köinformation** i den vänstra panelen. Du kan behöva klicka på **Visa mer** och sedan på **Köinformation**.
+1. Klicka på **Köinformation** i den vänstra panelen.
 
    Då öppnas avsnittet Köinformation.
 

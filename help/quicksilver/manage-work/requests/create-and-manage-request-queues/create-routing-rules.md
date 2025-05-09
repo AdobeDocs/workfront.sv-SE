@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ När du väl har skapat ett projekt kan du inte flytta routningsregler från ett
 ## Skapa en hanteringsregel
 
 1. Gå till det projekt där du vill lägga till routningsregler för dina begäranden.
-1. Klicka på **Routningsregler** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Routningsregler**.
+1. Klicka på **Routningsregler** i den vänstra panelen.
 1. Klicka på **Ny routningsregel** för att lägga till den nya regeln. Rutan **Ny routningsregel** öppnas.
 
    ![Ny ruta för routningsregel](assets/new-routing-rule-box.png)

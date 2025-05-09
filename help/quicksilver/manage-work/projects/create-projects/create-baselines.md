@@ -6,9 +6,9 @@ description: En baslinje är en ögonblicksbild av ett projekt som representerar
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -115,10 +115,6 @@ Så här skapar du en baslinje:
 
 1. Gå till ett projekt.
 1. Klicka på **Baslinjer** i den vänstra panelen.
-
-   eller
-
-   Klicka på **Visa fler** och sedan på **Baslinjer**.
 
    ![Avsnittet Baslinjer i projekt](assets/baselines-section-on-project-with-header.png)
 

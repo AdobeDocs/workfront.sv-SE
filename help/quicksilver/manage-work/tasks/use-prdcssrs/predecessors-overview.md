@@ -7,9 +7,9 @@ description: En föregångare är den uppgift som en annan aktivitet (kallas eft
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Gör något av följande för att hitta föregående aktiviteter för en uppgift
 * Gå till det projekt du arbetar med och gör följande:
 
    1. Leta reda på uppgiften som du vill hitta föregående aktiviteter för och klicka på uppgiften.
-   1. Klicka på **Föregående** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
+   1. Klicka på **Föregående** i den vänstra panelen.
    1. Namnet på det projekt som föregångaren är på visas i kolumnen **Projekt**.
 
       Talet i kolumnen **#** visar föregående aktivitetsnummer. &quot;6&quot; innebär till exempel den sjätte uppgiften i projektet.

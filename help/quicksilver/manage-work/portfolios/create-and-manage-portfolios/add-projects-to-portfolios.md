@@ -6,9 +6,9 @@ description: Vi rekommenderar att du lägger till projekt i portföljer när du 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,9 @@ Tänk på följande när du lägger till projekt i portföljer:
 
    >[!TIP]
    >
-   >Du kan inte lägga till projekt när du visar listan med projekt i vyn [!UICONTROL Milestone].
+   >Du kan inte lägga till ett projekt när du visar listan med projekt i vyn [!UICONTROL Milestone].
+
+   ![Lägg till befintligt projekt](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
    Välj bland följande alternativ:
 
@@ -100,9 +102,13 @@ Tänk på följande när du lägger till projekt i portföljer:
 
    ![Listrutan Nytt projekt](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Villkorligt) Om du valde att lägga till ett befintligt projekt börjar du skriva namnet på ett projekt i rutan **[!UICONTROL Add Projects]** och klickar sedan på dem när de visas i listan. Du kan lägga till flera projekt samtidigt.
+1. (Villkorligt) Om du valde att lägga till ett befintligt projekt börjar du skriva namnet på ett projekt i fältet **[!UICONTROL Add Projects to this Portfolio]** och klickar sedan på dem när de visas i listan.
 
-   ![Lägg till befintligt projekt](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   Du kan lägga till fler än ett projekt.
+
+1. (Valfritt) Klicka på ikonen **X** till höger om projektnamnet för att ta bort den från listan, om du bestämmer dig för att inte lägga till den i portföljen.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
 1. Klicka på **[!UICONTROL Add Projects]**.
 

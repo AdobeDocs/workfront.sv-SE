@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
 1. Gå till projektet som du vill lägga till användare i.
 
-1. Klicka på **Personer** i den vänstra panelen. Du kan behöva klicka på **Visa fler** först.
+1. Klicka på **Personer** i den vänstra panelen.
 
 1. Klicka på **Lägg till användare**.
 

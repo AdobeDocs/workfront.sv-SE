@@ -8,9 +8,9 @@ description: Projektstatistik ger en visualisering av vad som händer i ett proj
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Du kan välja att titta på uppgiftstilldelningar för ett projekt i följande k
 Du kan interagera med diagrammen i området Metrisk om du vill titta närmare på olika aspekter av ett diagram eller närmare titta på uppgifter och problem i ett diagram.
 
 1. Gå till det projekt du vill se mätvärden för.
-1. Klicka på **Visa mer** i den vänstra panelen för att visa fler avsnitt och klicka sedan på **Metrisk**.\
+1. Klicka på **Metrisk** i den vänstra panelen.\
    Diagrammen i området Metrisk visar information för uppgifter som standard.\
    ![](assets/metrics-section-350x298.png)
 

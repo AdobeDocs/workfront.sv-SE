@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p> 
-   <p>Redigera åtkomst i Workfront för de objekttyper som du vill skapa (projekt, program och portföljer) när du kopplar posterna till dem. </p>  
+   <p>Redigera åtkomst med Skapa objekt i Workfront för de objekttyper som du vill skapa (projekt, portfolior, program). </p>  
 </td> 
   </tr> 
 <tr> 

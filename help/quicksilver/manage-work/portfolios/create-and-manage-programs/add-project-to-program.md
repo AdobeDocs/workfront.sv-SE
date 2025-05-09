@@ -1,25 +1,27 @@
 ---
 product-area: programs;projects
 navigation-topic: create and manage programs
-title: Lägga till ett projekt i ett program
-description: Du kan ordna dina projekt genom att lägga till dem i program inom portföljer. Du kan ha flera projekt i ett program, men du kan bara associera ett program med ett projekt.
+title: Lägg till ett projekt i ett program
+description: Du kan ordna dina projekt genom att lägga till dem i program inom portföljer. Du kan ha flera projekt i ett program, men du kan bara associera ett program med ett projekt. Om du lägger till ett projekt i ett program läggs det automatiskt till i programmets portfölj samtidigt.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett projekt i ett program
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
 
 Du kan ordna dina projekt genom att lägga till dem i program inom portföljer. Du kan ha flera projekt i ett program, men du kan bara associera ett program med ett projekt.
 
 Du måste skapa en portfölj och ett program i den här portföljen innan du kan lägga till ett projekt i ett program.
+
+Om du lägger till ett projekt i ett program läggs det automatiskt till i programmets portfölj samtidigt.
 
 Mer information om hur du skapar portföljer finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -67,7 +69,7 @@ Mer information om hur du skapar program finns i [Skapa ett program](../../../ma
 
    >[!TIP]
    >
-   >Du kan inte lägga till projekt när du visar listan med projekt i vyn [!UICONTROL Milestone].
+   >Du kan inte lägga till ett projekt när du visar listan med projekt i vyn [!UICONTROL Milestone].
 
    Välj bland följande alternativ:
 
@@ -98,7 +100,19 @@ Mer information om hur du skapar program finns i [Skapa ett program](../../../ma
     </tbody> 
    </table>
 
-1. (Villkorligt) Om du har markerat **[!UICONTROL Existing Project]** gör du följande:
+1. (Villkorligt) Om du valde **[!UICONTROL Existing Project]** öppnas rutan **Lägg till projekt** .
 
-   1. I dialogrutan **[!UICONTROL Add Projects]** skriver du namnet på projektet i fältet som visas och markerar det när det visas i listan. Du kan lägga till flera projekt samtidigt.
-   1. Klicka på **[!UICONTROL Add Projects]**.**&#x200B;** &#x200B; Projektet visas på fliken **[!UICONTROL Projects]** i programmet och är nu associerat med programmet och portföljen.
+   <!--screen shot at unshim?-->
+
+1. Gör följande:
+
+   1. I rutan **[!UICONTROL Add Projects]** skriver du namnet på ett projekt i fältet **Lägg till projekt i det här programmet** och markerar det när det visas i listan. <!--check casing on links and buttons-->
+
+      Du kan lägga till fler än ett projekt.
+   1. (Valfritt) Klicka på ikonen **X** till höger om projektnamnet för att ta bort den från listan, om du inte vill lägga till den i programmet.
+
+      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
+
+   1. Klicka på **[!UICONTROL Add Projects]**.
+
+      Projektet visas på fliken **[!UICONTROL Projects]** i programmet och är nu associerat med programmet och programmets respektive portfölj.

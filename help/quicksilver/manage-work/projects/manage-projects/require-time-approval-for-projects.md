@@ -6,9 +6,9 @@ description: Kräv tid för godkännande av ett projekt
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Om du ställer in ett projekt för att kräva godkännande på de loggade timmar
 Så här godkänner eller avvisar du timmar i ett projekt:
 
 1. Gå till projektet.
-1. Klicka på området **Timmar** i den vänstra panelen. Detta kan finnas under området **Visa mer**.
+1. Klicka på området **Timmar** i den vänstra panelen.
 
 1. Timmar som loggats för problem, uppgifter och projektvisning och som ska ha statusen **Skickat**.\
    Klicka i rutan till vänster om timuppgifterna för att välja de timmar som du vill godkänna.

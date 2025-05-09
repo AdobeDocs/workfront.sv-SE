@@ -6,9 +6,9 @@ description: Du kan ta bort användare från ett projekt när de inte längre de
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Så här tar du bort användare från projektteamet:
 
 1. Gå till det projekt där du vill ta bort användarna.
 
-1. Klicka på **Personer** i den vänstra panelen och markera sedan de användare som du vill ta bort. Du kan behöva klicka på **Visa fler** och sedan på **Personer**.
+1. Klicka på **Personer** i den vänstra panelen och markera sedan de användare som du vill ta bort.
 
 1. Klicka på ikonen **Ta bort** ![Ta bort objekt](assets/remove-icon---x-in-circle.png) högst upp i listan över användare.
 
