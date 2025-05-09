@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Hantera e-postinbjudningar till nya användare
 description: Som Adobe Workfront-administratör kan du lägga till användare i Workfront och meddela dem att de har lagts till genom att använda e-postinbjudningar.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Som Adobe Workfront-administratör kan du lägga till användare i Workfront och meddela dem att de har lagts till genom att använda e-postinbjudningar.
 
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-## Generera e-postinbjudningar {#generate-email-invitations}
+## Skicka om e-postinbjudningar till befintliga oregistrerade användare
 
 E-postinbjudningar genereras i följande scenarier:
 
@@ -82,7 +82,7 @@ E-postinbjudningar genereras i följande scenarier:
   >
   >Om du avmarkerar rutan **Skicka en e-postinbjudan till den här personen** när du skapar användaren kan e-postinbjudan inte genereras manuellt. Det går bara att skicka om e-postinbjudningarna manuellt för användare som har skickats den ursprungliga e-postinbjudan när deras konto skapades. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-Generera e-postinbjudningar till befintliga oregistrerade användare manuellt:
+Så här skickar du om e-postinbjudningar till befintliga oregistrerade användare manuellt:
 
 {{step-1-to-users}}
 
@@ -98,9 +98,9 @@ Generera e-postinbjudningar till befintliga oregistrerade användare manuellt:
    >
    >Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan till nya användare.
    >
-   >Nya användare i Adobe läggs till i Admin Console, och Admin Console skickar ett e-postmeddelande som bjuder in dem att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-system.
+   >Nya Adobe-användare läggs till i Admin Console och Admin Console skickar ett e-postmeddelande med en inbjudan om att slutföra registreringsprocessen. Alla användare måste slutföra registreringsprocessen för att få tillgång till alla Adobe-system.
    >
-   >För användare som redan har Adobe kan användaren få ett e-postmeddelande om att Workfront är tillgängligt eller inte. Detta är en inställning som styrs av Adobe-administratören för produkten.
+   >För befintliga Adobe-användare kan det hända att användaren inte får något e-postmeddelande om att Workfront är tillgängligt. Detta är en inställning som styrs av Adobe-administratören för produkten.
 
 ## Konfigurera e-postinbjudningar {#configure-email-invitations}
 
