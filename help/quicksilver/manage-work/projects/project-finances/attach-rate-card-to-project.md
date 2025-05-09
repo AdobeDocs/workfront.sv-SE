@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Koppla ett tariffkort till ett projekt
 
 1. Gå till projektet.
-1. Klicka på **Faktureringstariffer** i den vänstra panelen. Du måste kanske först klicka på **Visa mer**.
+1. Klicka på **Faktureringstariffer** i den vänstra panelen.
 1. Klicka på **Lägg till faktureringstakt > Koppla ett tariffkort**.
 
    Sidan Bifoga ett tariffkort öppnas. Mer information finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).

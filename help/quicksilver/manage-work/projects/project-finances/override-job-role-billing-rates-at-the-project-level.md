@@ -6,9 +6,9 @@ description: Som projektledare kan du ange faktureringssatsen för en jobbroll i
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Du kan åsidosätta faktureringsfrekvensen för en jobbroll i ett projekt på f�
 Så här åsidosätter du en faktureringstaxa för ett projekt:
 
 1. Gå till det projekt som du vill åsidosätta faktureringstariffer för.
-1. Klicka på **Faktureringstariffer** i den vänstra panelen. Du måste kanske först klicka på **Visa mer**.
+1. Klicka på **Faktureringstariffer** i den vänstra panelen.
 1. Klicka på **Lägg till faktureringsränta** > **Ny faktureringsränta**.
 
    Rutan Ny faktureringsränta öppnas.

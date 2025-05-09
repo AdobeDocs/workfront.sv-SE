@@ -6,7 +6,7 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -58,14 +58,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Lägg till utgifter
 
 1. Gå till projektet där du vill ange utgifter.\
-   Om du vill lägga till utgifter för en uppgift navigerar du till en uppgift i stället. 
-1. Klicka på **Visa fler** och sedan på **Utgifter**.
-1. Klicka på **Lägg till en utgift** .
+   Om du vill lägga till utgifter för en uppgift navigerar du till en uppgift i stället.
+1. Klicka på **Utgifter** i den vänstra panelen.
+1. Klicka på **Lägg till en utgift**.
 Dialogrutan **Lägg till en utgift** visas.
 1. Uppdatera följande:
 
    * **Beskrivning:** Beskrivning av utgiften.
-
    * **Utgiftstyp:** (obligatoriskt) Välj den kategori som bäst beskriver utgiften.
    * **Aktivitet:** Börja skriva namnet på aktiviteten som utgiften är associerad med och klicka sedan på den när den visas i listrutan.
    * **Planerat belopp:** Det planerade budgeterade beloppet för utgiften.\
@@ -87,7 +86,6 @@ Dialogrutan **Lägg till en utgift** visas.
 ## Ta bort utgifter
 
 1. Gå till projektet där du vill ta bort utgifter.
-1. Klicka på **Visa fler** och sedan på **Utgifter**.
+1. Klicka på **Utgifter** i den vänstra panelen.
 1. Markera de utgifter du vill ta bort och klicka sedan på **Ta bort** ![Ta bort](assets/delete.png).
-
 1. Klicka på **Ja, ta bort** för att bekräfta borttagningen.

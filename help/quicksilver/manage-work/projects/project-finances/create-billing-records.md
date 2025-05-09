@@ -5,9 +5,9 @@ description: Förutom att ställa in intäkter och spåra utgifter kan du skapa 
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,6 @@ Tänk på följande när du planerar att använda faktureringsposter:
 
 1. Navigera till ett projekt.
 1. Klicka på **Faktureringsposter** i den vänstra panelen.
-
-   Det här avsnittet kan finnas under **Visa mer**.
-
 1. Välj **Information om faktureringspost** i den vänstra panelen och klicka på **Ny faktureringspost**.
 1. Ange följande information i rutan **Ny faktureringspost** som visas:
 
@@ -164,11 +161,7 @@ Så här lägger du till fakturerbara timmar i en faktureringspost:
 
 1. Gå till projektet med faktureringsposterna.
 1. Klicka på **Faktureringsposter** i den vänstra panelen.
-
-   Det här avsnittet kan finnas under **Visa mer**.
-
 1. Klicka på **Beskrivning** för en faktureringspost för att öppna fliken **Information om faktureringspost**.
-
 1. Klicka på **Fakturerbara timmar** i den vänstra panelen.
 1. Om det finns timmar som kan inkluderas i en faktureringspost klickar du på **Lägg till timmar**.\
    Rutan **Lägg till fakturerbara timmar** öppnas.
@@ -190,11 +183,7 @@ Så här lägger du till fakturerbara utgifter i en faktureringspost:
 
 1. Gå till projektet med faktureringsposterna.
 1. Klicka på **Faktureringsposter** i den vänstra panelen.
-
-   Du kan behöva klicka på **Visa fler** och sedan på **Faktureringsposter**.
-
 1. Klicka på **Beskrivning** för en faktureringspost för att öppna fliken **Information om faktureringspost**.
-
 1. Klicka på **Fakturerbara utgifter** i den vänstra panelen.
 1. (Villkorligt) Om du har lagt till utgifter för dina aktiviteter eller projektet och har markerat dem som fakturerbara klickar du på **Lägg till utgifter**.
 
@@ -215,11 +204,7 @@ Så här lägger du till fasta intäkter i en faktureringspost:
 
 1. Gå till projektet med faktureringsposterna.
 1. Klicka på **Faktureringsposter** i den vänstra panelen.
-
-   Du kan behöva klicka på **Visa fler** och sedan på **Faktureringsposter**.
-
 1. Klicka på **Beskrivning** för en faktureringspost för att öppna fliken **Information om faktureringspost**.
-
 1. Välj fliken **Fasta intäkter**.
 1. Om du har lagt till fasta intäkter i dina aktiviteter klickar du på **Lägg till fasta intäkter**.
 

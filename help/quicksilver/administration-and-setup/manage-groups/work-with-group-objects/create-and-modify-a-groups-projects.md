@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -29,32 +29,39 @@ Om det finns grupper ovanför gruppen kan deras administratörer även göra det
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td >Workfront-plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront-licens</a>*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licens</td>
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td>
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Du måste vara gruppadministratör för gruppen eller systemadministratör.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td>
    <td> 
     <ul> 
      <li> <p>Projektet måste vara associerat med gruppen eller någon av dess undergrupper. </p> <p>Mer information om hur du tilldelar en grupp till ett projekt finns i <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Hantera information i projektöversiktsområdet</a>.</p> </li> 
-     <li> <p>Du måste också ha behörighet att redigera projektet, antingen för att du skapade det eller för att det delades med dig.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </li> 
-    </ul> <p><b>Obs!</b> När du skapar ett projekt från en gruppsida tilldelas projektet till den gruppen. Detta skiljer sig från att skapa ett projekt i andra Workfront-områden, där systemet tilldelar projektet till hemgruppen för den användare som skapar det (projektägaren).</p> </td> 
+     <li> <p>Du måste också ha behörighet att redigera projektet, antingen för att du skapade det eller för att det delades med dig.</p></li> 
+    </ul>
+    <p><b>Obs!</b> När du skapar ett projekt från en gruppsida tilldelas projektet till den gruppen. Detta skiljer sig från att skapa ett projekt i andra Workfront-områden, där systemet tilldelar projektet till hemgruppen för den användare som skapar det (projektägaren).</p> </td>
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

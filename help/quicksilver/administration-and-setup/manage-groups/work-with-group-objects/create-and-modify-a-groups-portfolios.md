@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Skapa och ändra en grupps Portfolio
+title: Skapa och ändra en grupps portföljer
 description: Som gruppadministratör kan du visa och arbeta med gruppens portföljer när du visar en grupp som du hanterar i området Grupper.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -25,28 +25,34 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licens för Adobe-användare*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licens</td>
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td>
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Portföljen måste vara associerad med gruppen eller någon av dess undergrupper.</p> <p>Du måste också ha behörighet att visa portföljen, antingen för att du skapade den eller för att den delades med dig.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Du måste vara gruppadministratör för gruppen eller systemadministratör.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td>
+   <td> <p>Portföljen måste vara associerad med gruppen eller någon av dess undergrupper.</p> <p>Du måste också ha behörighet att visa portföljen, antingen för att du skapade den eller för att den delades med dig.</p></td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +63,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill skapa, visa eller arbeta med portföljer för.
-1. Klicka på **Portfolio** i den vänstra panelen för att visa de portföljer som är kopplade till gruppen (och eventuella undergrupper under den).
+1. Klicka på **Portföljer** i den vänstra panelen för att visa de portföljer som är kopplade till gruppen (och eventuella undergrupper under den).
 1. Gör något av följande:
 
    <table style="table-layout:auto"> 
@@ -70,9 +76,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
        <ol> 
         <li value="1"> <p>Klicka på <strong>Ny Portfolio</strong>.</p> </li> 
         <li value="2">Ersätt <strong>Namnlös Portfolio</strong> med det namn du vill ha för portföljen.</li>
-        <li value="3"><p>Klicka på <strong>Information om Portfolio</strong> i den vänstra panelen och uppdatera informationen i översiktsområdet efter behov.</p>
+        <li value="3"><p>Klicka på <strong>Portfolio Details</strong> i den vänstra panelen och uppdatera informationen i översiktsområdet efter behov.</p>
         <p>Mer information om konfigurationsalternativen finns i <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj</a>.</p></li>
-        <li value="4">Klicka på webbläsarens Bakåt-knapp för att gå tillbaka till gruppens Portfolio-lista.</li> 
+        <li value="4">Klicka på webbläsarens Bakåt-knapp för att gå tillbaka till gruppens portföljlista.</li> 
        </ol> </td>
      </tr> 
      <tr> 

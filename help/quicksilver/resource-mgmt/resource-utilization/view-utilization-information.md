@@ -6,9 +6,9 @@ description: Du kan visa hur dina resurser används i användningsrapporten.
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7285'
 ht-degree: 0%
 
 ---
@@ -453,7 +453,7 @@ Så här spårar du förloppet eller kostnaden för ett eller flera projekt med 
 
    * Så här visar du användningsinformation för ett enskilt projekt:
 
-      1. Gå till ett projekt som du vill visa användningsinformation för och klicka sedan på **Visa mer> Utnyttjande**.
+      1. Gå till ett projekt som du vill visa användningsinformation för och klicka sedan på **Utnyttjande** i den vänstra panelen.
       1. Användningsinformation visas automatiskt när du visar ett enskilt projekt och du behöver inte använda ett filter.\
          Om du vill filtrera användningsrapporten kan du använda ett filter och sedan klicka på **Kör**.\
          Mer information om hur du filtrerar användningsrapporten finns i [Filtrera användningsinformation](#filter-utilization-information) i den här artikeln.\
