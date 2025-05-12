@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ Den här sidan beskriver alla förbättringar av dokumenthanteringen som gjorts 
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
->[!IMPORTANT]
->
->Funktionerna på den här sidan är en del av en fasad version och är endast tillgängliga för specifika kunder.
+## Uppdatering för korrekturläsaren för skrivbordet
+
+Desktop Proofing Viewer har uppdaterats till version 2.1.48.
+
+Uppdateringen är en felkorrigering som gör att Desktop Viewer är kompatibel med Mac operativsystem. Electron nedgraderades till 34.4.0 och Chromium nedgraderades till 132.
+
+Uppdateringen gäller både Mac och Windows.
+
 
 ## Assets i en länkad Google-mapp måste läggas till separat för att kunna visas i Workfront
 
@@ -43,6 +48,10 @@ Viktiga funktioner som förblir oförändrade:
 
 
 ## Nya beslutsknappar för dokumentgodkännande finns i korrekturläsaren
+
+>[!IMPORTANT]
+>
+>Den här funktionen ingår i en fasad version och är endast tillgänglig för vissa kunder.
 
 >[!NOTE]
 >
