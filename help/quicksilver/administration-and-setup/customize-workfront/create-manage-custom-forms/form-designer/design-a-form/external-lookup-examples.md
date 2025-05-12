@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,38 @@ Ett fält för extern sökning i ett anpassat formulär anropar ett externt API 
 I den här artikeln finns exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API. Du kan också använda den externa sökningen för att kommunicera med ett externt system som Jira, Salesforce eller ServiceNow.
 
 Mer information om hur du lägger till ett externt sökfält i ett anpassat formulär och ytterligare definitioner för de externa sökningskomponenterna finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront </td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Administrativ åtkomst till anpassade formulär </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Konfigurera ett externt sökfält för samma instans av Workfront
 

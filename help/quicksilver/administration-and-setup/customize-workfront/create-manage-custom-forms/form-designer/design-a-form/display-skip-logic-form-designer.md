@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -237,6 +237,8 @@ IF({DE:Budget Field} < 0,
 Ett annat enkelt exempel är att ett telefonnummerfält måste innehålla ett visst antal siffror för att vara giltigt.
 
 Ett ytterligare exempel för validering baserad på andra fält är ett fält för mötesrumsstorlek (liten, mellanstor eller stor) och ett separat fält för antalet mötesdeltagare. Antalet personer för varje rumsstorlek skrivs i valideringsformeln. Om antalet deltagare som användaren anger är för många för det valda mötesrummet visas felmeddelandet.
+
+Fler exempel på valideringslogik finns i [Exempel på avancerad logik i anpassade formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md).
 
 ### Definiera valideringslogik
 
