@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/
 >[!NOTE]
 >
 >* Förhandsgranska: 17 april 2025
->* Production fast release: 15 maj 2025
+>* Production fast release: 12 juni 2025
 >* Produktion för alla kunder: 17 juli 2025
 
 För att få bättre kontroll över vilka som kan visa eller hantera poster i varje posttyp och säkerställa att endast behöriga personer kan hantera informationen för varje posttyp baserat på deras roller och ansvarsområden, har vi infört behörigheter på posttypsnivå.
