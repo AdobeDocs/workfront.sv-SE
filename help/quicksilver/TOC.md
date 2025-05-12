@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '13189'
+source-wordcount: '13194'
 ht-degree: 0%
 
 ---
@@ -409,7 +409,7 @@ ht-degree: 0%
    * Konfigurera Workfront {#set-up-wf}
       * [Konfigurera](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Konfigurera systemstandardinställningar {#configure-system-defaults}
-         * [Konfigurera standardinställningar](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+         * [Konfigurera systemstandard: artikelindex](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Konfigurera projektinställningar](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [Konfigurera inställningar för aktivitet och problem](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
          * [Lås projektinställningar för grupper](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -1462,7 +1462,7 @@ ht-degree: 0%
       * [Översikt över uppgifter och problem i delegering](manage-work/delegate-work/delegate-work-overview.md)
       * [Delegera uppgifter och ärenden](manage-work/delegate-work/how-to-delegate-work.md)
 * Team och grupper {#teams-groups}
-   * [Team och grupper](people-teams-and-groups/people-teams-and-groups.md)
+   * [Team och grupper: artikelindex](people-teams-and-groups/people-teams-and-groups.md)
    * Skapa och hantera team {#create-manage-teams}
       * [Skapa och hantera team](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [Översikt över team](people-teams-and-groups/create-and-manage-teams/teams-overview.md)

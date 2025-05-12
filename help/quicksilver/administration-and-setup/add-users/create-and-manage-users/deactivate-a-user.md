@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Inaktivera eller återaktivera en användare
 
-<!--Audited 2/2024-->
+<!--Audited 5/2025-->
 
 <!--
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 -->
 
-Om en användare lämnar organisationen kan du behöva ta bort dem från Adobe Workfront. De bör inte vara aktiva i systemet eftersom detta skulle skapa förvirring för andra användare när de lägger till dem i uppdateringar eller tilldelar dem arbete. När du inaktiverar en användare ser andra användare inte längre sitt namn när de söker efter personer i systemet.
+Om en användare lämnar organisationen bör du inaktivera dem i systemet för att undvika att andra användare blir förvirrade när de lägger till dem i uppdateringar eller tilldelar dem arbete. När du inaktiverar en användare ser andra användare inte längre sitt namn när de söker efter personer i systemet.
 
 Administratörer kan se inaktiva användare under Konfigurera.
 
@@ -41,11 +41,9 @@ Du kan återaktivera en användare när som helst.
 >
 >* Vi rekommenderar att du inaktiverar användare som har lämnat organisationen i stället för att ta bort dem. Om en användare tas bort går all historik i Workfront som är kopplad till den användaren förlorad. Detta inkluderar deras arbetsuppgifter, deras koppling till anteckningar, timmar, dokument och alla andra objekt som de en gång har skapat.
 >
->   När du inaktiverar en användare i Workfront tas användarens licenser bort både för Workfront och för digitalt korrektur. Dessutom kan användaren inte längre tilldelas arbete. När en användare inaktiveras blir användarens Workfront-licens och språklicens tillgängliga och kan användas av en annan användare. All annan information i den inaktiverade användarens profil ändras inte.
+>* När du inaktiverar en användare i Workfront tas användarens licenser bort både för Workfront och för digitalt korrektur. Dessutom kan användaren inte längre tilldelas arbete. När en användare inaktiveras blir användarens Workfront-licens och språklicens tillgängliga och kan användas av en annan användare. All annan information i den inaktiverade användarens profil ändras inte.
 >
->   Mer information om hur borttagning och inaktivering av användare påverkas finns i [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
->
->* När du inaktiverar en användare i Workfront tas användaren inte bort från Workfront produktprofil i Adobe Admin Console.
+>* När du inaktiverar en användare i Workfront tas användaren inte bort från Workfront produktprofil i Adobe Admin Console. Mer information finns i [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 
 ## Åtkomstkrav
@@ -71,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
      <li> <p>Åtkomstnivån Systemadministratör. </li> 
-     <li> <p><b>Användare</b> i din åtkomstnivå har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två <b>användaradministratörsalternativen</b> som har aktiverats under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om <b>Användaradministratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
+     <li> <p>Användare som är inställda på din åtkomstnivå har konfigurerats för att redigera åtkomst, med Skapa och minst ett av de två alternativen för användaradministratör aktiverat under Finjustera inställningarna <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om Användaradministratör (gruppanvändare) är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -101,9 +99,10 @@ Så här inaktiverar du en användare:
 
 {{step-1-to-users}}
 
-1. Markera en användare, klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Inaktivera**.
+1. Välj en användare i användarlistan.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Inaktivera**.
 
-1. Klicka på **Inaktivera** i rutan som visas.
+1. Klicka på **Inaktivera** i dialogrutan **Inaktivera användare**.
 
 ## Schemalägg användare för inaktivering
 
@@ -115,36 +114,37 @@ Så här schemalägger du en användare för inaktivering:
 
 {{step-1-to-users}}
 
-1. Välj användarens namn.
+1. Markera användaren i användarlistan.
 
    eller
 
    (Valfritt) Välj flera användare för att schemalägga att de ska inaktiveras gruppvis.
 
-1. Klicka på ikonen Redigera ![Ikonen Redigera](assets/edit-icon.png).
-1. I rutan Redigera användare som visas klickar du på **Resursplanering** för att gå till det området.
-1. Aktivera alternativet **Schemalägg inaktivering**.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
+1. Klicka på **Resursplanering** i den vänstra panelen i rutan **Redigera användare**.
+1. Markera kryssrutan **Schemalägg inaktivering**.
 
-1. I kalendern som visas anger du datum och tid för **schemalagt inaktiveringsdatum**.
+1. Välj datum och tid för **schemalagt inaktiveringsdatum**.
 
    >[!NOTE]
    >
    >* I tidsrutan kan du bara välja hela timsteg, inte minuter.
-   >* Om du väljer en tid för den aktuella dagen som har gått schemalägger Workfront avaktiveringen för följande dag kl. 12:00. Den valda tiden matchar datorns tidszon för användaren som schemalägger inaktiveringen.
+   >* Om du väljer en tid för den aktuella dagen som har gått schemalägger Workfront avaktiveringen för följande dag kl. 12:00.
+   >* Den valda tiden matchar datorns tidszon för användaren som schemalägger inaktiveringen.
 
 1. Klicka på **Spara ändringar**.
 
-   Användaren inaktiveras den valda dagen någon gång efter den valda tiden. Om du har valt att inaktivera flera användare samtidigt inaktiveras alla markerade användare den valda dagen någon gång efter den valda tiden.
+Användaren inaktiveras den valda dagen någon gång efter den valda tiden. Om du har valt att inaktivera flera användare samtidigt inaktiveras alla markerade användare den valda dagen någon gång efter den valda tiden.
 
-Vi rekommenderar att du skapar en rapport för användare som du har schemalagt för inaktivering, så att du håller dig informerad om vilka användare som kommer att inaktiveras. Det finns ingen bekräftelse på att inaktiveringen skedde efter att användarna inaktiverades.
+Vi rekommenderar att du skapar en rapport för användare som du har schemalagt för inaktivering, så att du håller dig informerad om vilka användare som kommer att inaktiveras. Det finns ingen bekräftelse på att inaktiveringen har skett efter att användarna har inaktiverats.
 
 ## Återaktivera en användare
 
 {{step-1-to-users}}
 
-1. Markera en användare, klicka på ikonen Mer ![Mer](assets/more-icon.png) och klicka sedan på **Aktivera**.
+1. Markera en användare, klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Aktivera**.
 
-1. Tilldela en ny **åtkomstnivå** i listrutan och klicka sedan på **Återaktivera**.
+1. I dialogrutan **Återaktivera användare** väljer du en ny **åtkomstnivå** i listrutan och klickar sedan på **Återaktivera**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -163,16 +163,16 @@ Innan du inaktiverar en Workfront-administratör eller en användare med en Plan
 
 Objekten och aktiviteterna kan omfatta följande:
 
-* Uppgifter eller ärenden som tilldelats användaren
-* Projekt som ägs av användaren
-* Rapporter som har konfigurerats för att köras med användarens åtkomsträttigheter
-* Mallar som ägs av användaren
-* Projekt och mallar som användaren har angetts för som resurshanterare
-* Begär köhanteringsregler som Workfront-administratören eller planlicensanvändaren är standardtilldelad för
-* Godkännandeprocesser som har ett stadium som inkluderar användaren (särskilt om de var den enda godkännaren på scenen)
-* Tidrapporter som listar användaren som godkännare
-* Tidrapportprofiler som listar användaren som godkännare
-* Korrektur på automatiserade arbetsflöden som innehåller användaren
+* Uppgifter eller ärenden som tilldelats användaren.
+* Projekt som ägs av användaren.
+* Rapporter som har konfigurerats för att köras med användarens åtkomstbehörighet.
+* Mallar som ägs av användaren.
+* Projekt och mallar som användaren har angetts för som resurshanterare.
+* Begär köroutningsregler som Workfront-administratören eller planlicensanvändaren har som standard för tilldelning.
+* Godkännandeprocesser som har en fas som innefattar användaren (särskilt om de var den enda godkännaren på scenen).
+* Tidrapporter där användaren listas som godkännare.
+* Tidrapportprofiler som listar användaren som godkännare.
+* Korrektur för automatiserade arbetsflöden som innehåller användaren.
 
 ## Resursplaneringseffekt när du schemalägger en användare för inaktivering
 

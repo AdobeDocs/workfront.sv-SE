@@ -3,21 +3,21 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
-title: Konfigurera systemstandardinställningar
+title: 'Konfigurera systemstandard: artikelindex'
 description: Som  [!DNL Adobe Workfront] administratör kan du konfigurera systemstandardinställningarna, till exempel inställningarna för alla projekt som användarna skapar.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Konfigurera systemstandardinställningar
+# Konfigurera systemstandard: artikelindex
 
 Det här avsnittet innehåller följande artiklar:
 
@@ -26,7 +26,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Låsa eller låsa upp projektinställningar för alla grupper i systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
 * [Konfigurera begärandetyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Anpassa standardproblemtyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
-* [Skapa, redigera och dela standardfilter, vyer och grupperingar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
+* [Skapa, redigera och dela systemomfattande filter, vyer och grupperingar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
 * [Konfigurera inställningar för [!UICONTROL Resource Management]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Redigera och skapa risktyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Skapa anpassade utgiftstyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)

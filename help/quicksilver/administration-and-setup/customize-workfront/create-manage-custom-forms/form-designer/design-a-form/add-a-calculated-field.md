@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
 
 # Lägga till beräknade fält i ett formulär
+
+<!-- Audited: 5/2025 -->
 
 Du kan lägga till ett beräknat anpassat fält som använder befintliga data för att generera nya data när det anpassade formuläret kopplas till ett objekt.
 
@@ -77,7 +79,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan använda samma beräknade anpassade fält i anpassade formulär som tillhör olika objekt. Du kan till exempel använda fältet Resultatberäkning som du skapade för det anpassade projektformuläret i ett anpassat aktivitetsformulär.
 
-När du använder ett befintligt beräknat anpassat fält överförs inte beräkningen till det nya formuläret. Du måste lägga till beräkningen igen, i samma fält, i det nya anpassade formuläret.
+När du använder ett befintligt beräknat anpassat fält överförs inte beräkningen till det nya formuläret. Du måste lägga till beräkningen igen i samma fält i det nya anpassade formuläret.
 
 Du kan också ha en annan beräkning för samma fält i det nya formuläret. Om du behåller samma namn för det beräknade anpassade fältet är namnkonventionen konsekvent och konsekvent.
 
@@ -93,15 +95,15 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
 
 {{step-1-to-setup}}
 
-1. Klicka på **Egen Forms** i den vänstra panelen.
+1. Klicka på **Anpassad Forms** och sedan på **Forms** i den vänstra panelen.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klicka på **Nytt anpassat formulär.**
-1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
+1. Klicka på **Nytt anpassat formulär**.
 
+1. I dialogrutan **Nytt anpassat formulär** väljer du vilka objekttyper du vill koppla det anpassade formuläret till och klickar sedan på **Fortsätt**.
 1. Klicka på **Fältbibliotek** på skärmens övre vänstra sida.
 
    ![Fältbibliotek](assets/field-library.png)
@@ -131,14 +133,15 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
 
 {{step-1-to-setup}}
 
-1. Klicka på **Egen Forms** i den vänstra panelen.
+1. Klicka på **Anpassad Forms** och sedan på **Forms** i den vänstra panelen.
+
+1. Klicka på **Nytt anpassat formulär**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klicka på **Nytt anpassat formulär.**
-1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
+1. I dialogrutan **Nytt anpassat formulär** väljer du vilka objekttyper du vill koppla det anpassade formuläret till och klickar sedan på **Fortsätt**.
 
 1. Leta upp **Beräknat** till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
@@ -166,9 +169,9 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Det format i vilket du vill att fältets resultat ska lagras och visas.</p> <p>Om fältet ska användas i matematiska beräkningar ska du alltid använda formatet <strong>Number</strong> eller <strong>Currency</strong>. När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</p> 
+      <td> <p>Det format i vilket du vill att fältets resultat ska lagras och visas.</p> <p>Om fältet ska användas i matematiska beräkningar ska du alltid använda formatet <strong>Number</strong> eller <strong>Currency</strong>. När du väljer <strong>Number</strong> eller <strong>Currency</strong> trunkeras nummer som börjar med 0 automatiskt.</p> 
       <p><b>VIKTIGT</b>: Innan du väljer ett format bör du överväga det nya fältets format. Det går inte att redigera formatfältet efter att det anpassade formuläret har sparats. Om du väljer fel format kan framtida beräkningar och aggregerade värden i rapport- och listgrupperingar påverkas.</p>
-      <p><strong>OBS!</strong> Beräknade fält med valutaformat får inte innehålla citattecken. (Använd till exempel 800.00 och inte "800.00.") Användning av citattecken kan få oväntade konsekvenser på grund av nyanser med språkformatering för valutatyper.</p></td>
+      <p><strong>Obs!</strong> Beräknade fält med formatet <strong>Valuta</strong> får inte innehålla citattecken. (Använd till exempel 800.00 och inte "800.00.") Användning av citattecken kan få oväntade konsekvenser på grund av nyanser med språkformatering för valutatyper.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -295,7 +298,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
       >
       >Du kan göra något av följande för att få hjälp med beräkningen:
       > 
-      >* Hovra över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en Lär dig mer-länk till mer information i artikeln [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Hovra över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en **Läs mer** -länk till mer information i artikeln [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![Hjälptext för uttryck](assets/hover-expression-help-text.jpg)
       >* Använd färgkodningen för att identifiera de komponenter du har lagt till. Uttryck visas i blått och fält visas i grönt.
       >  ![Färger för fältuttryck](assets/colors-fields-expressions.jpg)
