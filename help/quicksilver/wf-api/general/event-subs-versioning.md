@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Mer information om slutpunkterna som används för att uppgradera eller nedgrade
 >
 >* **25.2 utgåva** (10 april 2025): Alla nya prenumerationer som skapas efter version 25.2 skapas som version 2.
 >* **25.3 utgåva** (17 juli 2025): Prenumerationer kan inte längre nedgraderas till version 1 efter version 25.3.
->* **1 september 2025**: Alla återstående prenumerationer på version 1 migreras till version 2.
+>* **15 januari 2026**: Alla återstående prenumerationer på version 1 migreras till version 2.
 
 ## Ändringar mellan version 1 och version 2
 
@@ -256,4 +256,4 @@ Följande ändringar har gjorts för händelseprenumerationer version 2:
 
 Workfront Fusion använder händelseprenumerationer för att hålla utkik efter förändringar i Workfront för att utlösa scenarier. Du kan uppdatera den händelseprenumerationsversion som Fusion använder direkt i ett scenario med hjälp av modulen Workfront > Update Events Payload Version.
 
-Instruktioner om hur du använder den här modulen finns i [Workfront-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) i dokumentationen för Workfront Fusion.
+Instruktioner om hur du använder den här modulen finns i [Workfront-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) i dokumentationen för Workfront Fusion.

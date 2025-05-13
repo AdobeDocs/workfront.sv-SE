@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ Kontrollera att prenumerationens slutpunkt uppfyller leveransvillkoren för stan
 
 För att kunna ta emot händelseprenumerationsnyttolaster via din brandvägg måste du lägga till IP-adresserna i tillåtelselista efter global region. Mer information finns i [API för händelseprenumeration](../../wf-api/general/event-subs-api.md).
 
-## ha rätt åtkomstnivå och en API-nyckel
+## ha rätt åtkomstnivå och autentisering
 
 För att skapa, fråga efter eller ta bort en händelseprenumeration behöver din Workfront-användare:
 
 * Åtkomstnivån **Systemadministratör**
 Mer information finns i [Bevilja en användare fullständig administrativ åtkomst](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) eller [Bevilja användare administrativ åtkomst till vissa områden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) .
 
-* En API-nyckel
+* Ett `sessionID`-huvud krävs för att använda API:t för händelseprenumerationer
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  Mer information finns i [Autentisering](api-basics.md#authentication) i [API-grunder](api-basics.md).
