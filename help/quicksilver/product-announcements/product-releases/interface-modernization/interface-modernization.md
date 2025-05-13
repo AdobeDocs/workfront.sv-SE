@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
+source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,13 @@ Vi har uppdaterat området Avancerad sökning med följande ändringar:
 
 * En ny flik för Fullständig sökning har lagts till. På den här fliken kan du söka efter typ, inmatningsdatum, kategori och senast uppdaterad av.
 * Filtret på fliken Avancerad sökning är något annorlunda. Nu är filtret inte förifyllt. Du måste aktivera det och skapa filtret från grunden. Filtret finns inte kvar om sidan uppdateras.
+* Avancerad sökning är nu i helskärmsläge. Du måste navigera bort från sidan i stället för att stänga dialogrutan.
 
 Mer information finns i [Sök [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ### Gränssnittsuppdatering för att ge support på ditt Workfront-konto
 
-**Förhandsversion: 24 april; Produktionsrelease: Ska tillkännages**
+**Förhandsversion: 24 april; Produktionsversion: Från 1 maj 2024**
 
 Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-konto med en modernare design som är förenlig med andra delar av Workfront.
 
@@ -237,7 +238,13 @@ Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersl
 
 ## Dokument
 
-+++Expandera för att visa uppdateringar av dokumentgränssnittet
+### Dela ett dokument med en extern e-postadress
+
+**Förhandsversion: 15 maj 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat delningsdialogrutan så att användare kan dela dokument med externa användare via en e-postadress. Den här funktionen var inte tillgänglig för tillfället på grund av gränssnittets moderniseringsarbete.
+
++++Expandera för att visa fler uppdateringar av dokumentgränssnittet
 
 ### Gränssnittsuppdateringar när ett dokument begärs
 
@@ -345,6 +352,22 @@ Vi har lagt till en ny knapp för att redigera textläge och spärra/knip i föl
 +++
 
 ## Användare
+
+### Uppdaterad sökning efter inloggningssidan
+
+**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat inloggningssidan med en modernare design som överensstämmer med andra delar av Workfront.
+
+### Uppdaterad sökning efter sidan Återställ lösenord
+
+**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat skärmen för återställning av lösenord med en modernare design som är konsekvent med andra delar av Workfront. Uppdateringen innehåller uppdateringar av följande sidor:
+
+* Lösenordet har nästan gått ut
+* Lösenordet har upphört att gälla
+* Tillfälligt lösenord
 
 ### Uppdaterad dokumentdelningssida för externa användare
 
