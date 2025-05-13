@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2946'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Så här hanterar du en tidslinjevy:
 
 1. (Valfritt) Klicka på **Uppdelning** om du vill visa anslutna poster på tidslinjen.
 
-   Mer information finns i avsnittet [Använd fördelningsfunktionen för att visa anslutna poster i tidslinjevyn](#break-down-connected-records-in-the-timeline-view)
+   Mer information finns i avsnittet [Använd fördelningsfunktionen för att visa anslutna poster i tidslinjevyn](#break-down-connected-records-in-the-timeline-view) i den här artikeln.
 
 ### Lägg till filter
 
@@ -266,15 +266,22 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klicka på **Inställningar**.
-1. Klicka på **Datum och tid** på den vänstra panelen och välj sedan ett **Startdatum** och ett **slutdatum** som ska visas på tidslinjen. Du kan välja standarddatum för start och slut eller välja ett tillgängligt datumfält. De staplar som representerar posterna börjar på det datum som du anger som startdatum och slutar på det datum som motsvarar slutdatumet.
+1. Klicka på **Datum och tid** på den vänstra panelen och välj sedan ett **Startdatum** och ett **slutdatum** som ska visas på tidslinjen. Du kan välja standarddatum för start och slut eller välja ett tillgängligt datumfält.
+
+   De staplar som representerar posterna börjar på det datum som du anger som startdatum och slutar på det datum som motsvarar slutdatumet.
 
    >[!NOTE]
    >
-   >Poster som inte har några värden för start- eller slutdatum eller som har ett startdatum efter slutdatumet visas inte i tidslinjevyn.
+   >* Poster som inte har några värden för start- eller slutdatum eller som har ett startdatum efter slutdatumet visas inte i tidslinjevyn.
+   >
+   >* Om du visar ytterligare poster med alternativet Uppdelning är start- och slutdatumen huvudpostens. Du kan inte välja start- och slutdatum för de anslutna posterna i det här området.
 
 1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilken information du vill visa i postfälten.
 
-   Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard. <!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard.
+   <!--adjust this when the primary field is released??-->
 
 1. (Valfritt och villkorligt) Om du har lagt till miniatyrbilder i poster, markerar du alternativet Miniatyrbild för att visa den bild som är associerad med posterna i deras postfält.
 
@@ -306,10 +313,13 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
    >
    >* <span class="preview">Om du bryter ned tidslinjevyn för att visa anslutna objekt, gäller inställningen för detaljer i fältet Trunkera bara för huvudposttypen. Det gäller inte för de anslutna postfälten.</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Klicka på **Färg** i den vänstra panelen om du vill anpassa färgerna för posterna och grupperingarna i tidslinjen.
 
    ![Tidslinjevy på fliken Färg](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (Villkorlig och valfri) Om du har lagt till en gruppering i tidslinjevyn väljer du bland följande alternativ för att ange en färg för grupperingen i avsnittet **Ange grupperingsfärg**:
 
@@ -348,9 +358,13 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    Om du inte har något fält med färgkodade alternativ för den valda posttypen är det här alternativet nedtonat.
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. Klicka på **Spara**.
 
    Posterna visas i tidslinjevyn med de specifikationer som du har valt.
+
+
 
 ### Dela upp kopplade poster i tidslinjevyn
 
@@ -359,6 +373,7 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
 #### Att tänka på när du använder fördelningsfunktionen
 
 * Du kan visa anslutna poster eller objekt under posterna för den valda posttypen i tidslinjevyn.
+* Du kan bara visa anslutna poster i tidslinjevyn när du visar posterna i standardläge. Du kan inte använda alternativet Uppdelning i läget Kompakt i tidslinjevyn.
 * Du kan visa följande i tidslinjevyn med hjälp av funktionen Uppdelning:
    * Workfront Planning-poster kopplade till den valda posttypen.
    * Workfront-objekttyper eller Experience Manager-resurser som är kopplade till den valda posttypen.

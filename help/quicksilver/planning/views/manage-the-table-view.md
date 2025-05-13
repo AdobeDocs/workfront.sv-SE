@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3229'
 ht-degree: 0%
 
 ---
@@ -527,49 +527,51 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
 
 Mer information finns i avsnittet&quot;Aktivera indikator för närvaro i realtid&quot; i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
-<div class="preview">
+<!--<div class="preview">
 
-## Exportera tabellvyn
+## Export the table view
 
-Du kan exportera information i tabellvyn till en CSV- eller Excel-fil.
+You can export information in the table view to a CSV or an Excel file. 
 
-Tänk på följande när du exporterar tabellvyn:
+Consider the following when exporting the table view:
 
-* Den information som exporteras till en Excel-fil bevarar de filter, grupperingar och sorteringar som används i tabellvyn i Workfront Planning. Grupperingar visas inte i CSV-filen.
+* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
 
-* Miniatyrbilder och anpassade radfärger stöds inte i exporterade filer.
+* Thumbnails and custom row colors are not supported in exported files.  
 
-* Endast fält som är synliga i Workfront-gränssnittet exporteras. Dolda fält exporteras inte.
+* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
 
-Så här exporterar du information från tabellvyn eller en posttyp:
+To export information from the table view or a record type:
 
-1. Gå till en posttypssida och klicka på en tabellvyflik.
-1. Håll pekaren över tabellvyflikens namn och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) .
-1. Klicka på **Exportera** och välj ett av följande format:
+1. Go to a record type page and click a table view tab. 
+1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
+1. Click **Export**, then select one of the following formats:
 
-   * Excel
-   * CSV
+    * Excel
+    * CSV
 
-   >[!IMPORTANT]
-   >
-   >Du kan inte exportera information från tabellvyn när du visar en annan vy på skärmen. Du måste visa den tabellvy som du vill exportera för att kunna komma åt alternativet Exportera på Mer-menyn.
+    >[!IMPORTANT]
+    >
+    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
 
-   Filen hämtas till datorn.
+    The file is downloaded to your computer. 
 
-1. (Valfritt) Gå till hämtningsmappen på datorn och leta reda på den hämtade filen.
+1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
 
-   Namnet på den exporterade filen har följande format:
+    The name of the exported file follows the following format: 
 
-   `Name of the view - name of the record type`
+    `Name of the view - name of the record type`
 
-   En tabellvy för posttypen Campaigns genererar till exempel filen `Table view - Campaigns`.
+    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
 
-   Filen innehåller följande information:
+    The file displays the following information: 
+    
+    * The column headers are highlighted in black, in the Excel file
+    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
+    * Groupings are preserved in the Excel file
 
-   * Kolumnrubrikerna markeras med svart i Excel-filen
-   * Alla fält som är synliga i Workfront-gränssnittet, sorterade och filtrerade efter samma villkor
-   * Grupperingar bevaras i Excel-filen
+    You can now share the exported files with others, or attach them to any communication. 
+    
+ </div>   
 
-   Du kan nu dela de exporterade filerna med andra eller bifoga dem till valfri kommunikation.
-
-</div>
+ -->
