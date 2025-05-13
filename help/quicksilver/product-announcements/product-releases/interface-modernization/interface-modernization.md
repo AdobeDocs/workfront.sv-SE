@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
+source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2365'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-
 
 ## Administration och installation
 
-+++Expandera för att visa uppdateringar av gränssnittet Administration och Konfigurera
++++Expandera för att visa de uppdateringar av gränssnittet för administration och konfiguration som gjorts under andra kvartalet
 
 ### Gränssnittsuppdatering för meddelandecenter
 
@@ -174,7 +174,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ## Agile
 
-+++Expandera för att visa uppdateringar av gränssnittet i Agile
++++Expandera för att visa Agile-gränssnittsuppdateringar som gjorts under Q2
 
 ### Gränssnittsuppdateringar för teamförfrågningar
 
@@ -244,7 +244,7 @@ Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersl
 
 Vi har uppdaterat delningsdialogrutan så att användare kan dela dokument med externa användare via en e-postadress. Den här funktionen var inte tillgänglig för tillfället på grund av gränssnittets moderniseringsarbete.
 
-+++Expandera för att visa fler uppdateringar av dokumentgränssnittet
++++Expandera för att visa dokumentgränssnittsuppdateringar som gjorts under andra kvartalet
 
 ### Gränssnittsuppdateringar när ett dokument begärs
 
@@ -284,17 +284,17 @@ Om du vill visa den här ändringen går du till Dokument > Klicka på menyn Mer
 
 ## Rapporter och kontrollpaneler
 
++++Expandera för att visa uppdateringar av gränssnitt för rapporter och kontrollpaneler som gjorts under andra kvartalet
+
 ### Uppdaterad åtkomstnivårapport med ny formatering
 
-**Förhandsversion: TBD; Produktionsrelease: Från 6 februari 2025**
+**Förhandsversion: 30 januari 2024; Produktionsversion: Från 6 februari 2025**
 
 Vi har uppdaterat åtkomstnivårapporten med en modernare design som överensstämmer med andra delar av Workfront.
 
 Den här uppdateringen innehåller visuella ändringar av rapporten. Ingen funktionalitet har ändrats.
 
 Om du vill skapa en teamrapport går du till Rapporter > Ny rapport > Åtkomstnivå.
-
-+++Expandera för att visa fler uppdateringar av gränssnittet Rapporter och Kontrollpaneler
 
 ### Uppdaterad teamrapport med ny formatering
 
