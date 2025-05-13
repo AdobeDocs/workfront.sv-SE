@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Godkännaren behöver inte vara med i projektteamet (för godkännandeprocesser som inkluderar en roll)</td> 
-      <td> <p>Välj det här alternativet om en godkännare inte behöver vara med i projektteamet när en godkännandeprocess innehåller en roll. När du tilldelar ett godkännandebeslut till en jobbroll visas godkännandet endast för de användare som har en roll som är kopplad till dem i projektet. Om du aktiverar den här inställningen får alla användare med den jobbrollen godkännandebegäran oavsett om de är i projektteamet eller inte. Mer information om hur du redigerar en användares projektroll finns i <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Hantera projektteamet</a>. </p> 
+      <td> <p>Välj det här alternativet om en godkännare inte behöver vara med i projektteamet när en godkännandeprocess innehåller en roll. Alla användare med den jobbrollen får godkännandebegäran oavsett om de är i projektteamet eller inte, även om de inte automatiskt får åtkomst till projektet. Mer information om hur du redigerar en användares projektroll finns i <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Hantera projektteamet</a>. </p> 
       <p><b>TIPS</b>: När du tilldelar ett godkännande till en roll och alternativet <b>Godkännare måste inte finnas i projektteamet (för godkännandeprocesser som innehåller en roll)</b> inaktiveras, men det finns inga roller i projektteamet som matchar rollen vid godkännandet, tilldelas godkännandet om till projektägaren. </p> </td> 
      </tr> 
      <tr> 
