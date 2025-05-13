@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
+source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 På den här sidan beskrivs mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för utgåvan tredje kvartalet 2025.
 
 En lista över alla ändringar som är tillgängliga i utgåva 3 kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+
+
+## Modernisering av gränssnitt
+
+Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra användarupplevelsen och sammanföra det med andra Adobe-program. Dessa ändringar släpps utanför standardreleaseplanen. En lista över de här ändringarna finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ## Leta upp och håll koll på alternativen på Fler-menyn för kommentarer
 
