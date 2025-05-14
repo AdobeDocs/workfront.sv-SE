@@ -1,14 +1,14 @@
 ---
 title: Hantera postvyer
-description: Du kan visa poster i en tabell-, tidslinje- eller kalendervy när du använder Adobe Workfront Planning. I den här artikeln beskrivs hur du skapar en vy och redigerar eller tar bort en befintlig vy.
+description: Du kan visa poster i en tabell-, tidslinje- eller kalendervy när du använder Adobe Workfront Planning. I den här artikeln beskrivs hur du skapar en vy och redigerar en befintlig.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ När du har valt en posttyp i Adobe Workfront Planning kan du visa alla poster a
 I den här artikeln beskrivs följande information om postvyer:
 
 * [Skapa och redigera en vy](#create-or-edit-record-views)
-* [Ta bort en vy](#delete-views)
-* [Duplicera en vy](#duplicate-a-view)
 * [Aktivera visningsindikatorer i realtid i en vy](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+Mer information om hur du hanterar postvyer i Workfront Planning finns i följande artiklar:
+
+* [Ta bort postvyer](/help/quicksilver/planning/views/delete-record-views.md)
+* [Duplicera postvyer](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Visa](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Åtkomstkrav
@@ -123,21 +127,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Vyer som du skapar visas bara för dig och de användare som du delar vyerna med.
 * När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har behörighet till vyn.
 * Varje användare kan skapa högst 100 vyer. Du kan visa mer än 100 vyer för en posttyp, men en användare kan bara skapa 100 vyer.
-* Du kan dela vyer som du skapar med andra. Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
-* Följande element är unika för varje postvy:
+* Vissa vyelement kan användas på flera vyer för samma post, men de är unika för varje postvy:
 
    * Filter
-   * Gruppering
-   * Sortera
-   * Stolputseende (för tidslinjevyn)
+   * Gruppering (för tabellen och tidslinjevyerna)
+   * Stolputseende (för tidslinjen och kalendervyer)
 
-  <!-- some of these are not available in all of the views - edit above-->
+  När du till exempel skapar ett filter i en tabellvy visas filterresultaten bara i den markerade vyn (tabellvyn) och inte i alla vyer som är kopplade till posttypen.
 
-  När du till exempel skapar ett filter i en tabellvy visas filterresultaten bara i den markerade vyn och inte i alla vyer som är kopplade till posttypen.
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > Vissa vyelement kanske inte är tillgängliga för alla vyer.
+  >Vissa vyelement är inte tillgängliga för alla vyer.
 
 
 ## Likheter och skillnader mellan postvyer
@@ -160,7 +160,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Visa poster i en kalender |           |              | ✓ |
 | Gruppposter | ✓ | ✓ |
 | Sortera poster | ✓ |              |
-| Färgkodsposter |           | ✓ | ✓ |
+| <span class="preview">Färgkodsposter</span> | <span class="preview">✓</span> | ✓ | ✓ |
 | Färgkodsgrupperingar |           | ✓ |
 | Sök efter specifika poster | ✓ | ✓ |
 | Dela vyn med andra | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
    * [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## Ta bort vyer
-
-{{step1-to-planning}}
-
-1. Klicka på kortet för en arbetsyta.
-
-   Arbetsytan öppnas och posttyperna visas som kort.
-
-1. Klicka på ett posttypskort.
-
-   Posttypssidan öppnas.
-
-   Som standard visas alla poster av den valda typen i tabellvyn.
-
-1. Håll markören över ett av vynamnen på fliken Visa, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
-Först kan du behöva klicka på **Mer** till vänster om den sista fliken för att hitta vyn som du vill ta bort.
-
-1. Bekräfta genom att klicka på **Ta bort**. <!--ensure there is not another saving step here?!-->
-
-   Vyn tas bort för alla användare som har åtkomst till postområdet och kan inte återställas.
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## Duplicera en vy
-
-Om du vill behålla flera versioner av en vy och göra mindre ändringar mellan versionerna, kan du duplicera en vy.
-
-När du duplicerar en vy skapas identiska kopior av en befintlig vy.
-
-Delningsbehörigheterna för den ursprungliga vyn överförs inte till den duplicerade vyn.
-
-{{step1-to-planning}}
-
-1. Klicka på kortet för en arbetsyta.
-
-   Arbetsytan öppnas och posttyperna visas som kort.
-
-1. Klicka på ett posttypskort.
-
-   Posttypssidan öppnas.
-Som standard visas alla poster av den valda typen i tabellvyn.
-
-1. Håll pekaren över fliken för den vy du vill duplicera och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Duplicera**.
-
-   ![Visa mer meny med duplicerat alternativ](assets/view-more-menu-with-duplicate-option.png)
-
-
-   Vyn är duplicerad och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.
-
 ## Aktivera närvaroindikatorn i realtid i en vy
+
+Du kan se om andra användare redigerar poster samtidigt som du genom att följa visningsindikatorerna i realtid i vyn.
 
 Avatarerna för andra användare som redigerar postinformation samtidigt som du visar i det övre högra hörnet av alla postvyer, som standard.
 
 När du visar tabellvyn kan du även visa vilket fält en annan användare redigerar när du visar posten.
 
-1. Gå till en posttypssida och öppna en vy.
-1. (Villkorligt) Om andra användare redigerar poster av den markerade typen samtidigt visas deras avatarer i vyns övre högra hörn.
-1. Klicka på listrutan intill avatarerna och välj **Visa medarbetare**. Växlingsknappen är markerad som standard.
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-   ![Visa medarbetare växla mellan markerade](assets/show-collaborators-toggle-selected.png)
 
-1. (Villkorligt) Öppna en tabellvy och det fält som någon annan redigerar markeras i den färg som motsvarar konturen för avataren i tabellvyn.
 
-   Om avatarens högdagerfärg är grå redigerade användaren inte posten för mer än 30 sekunder sedan.
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![Tabellfält för realtidsindikator och avataranslutning](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >Du kan välja alternativet **Visa medarbetare** från vilken vy som helst. Det fält som redigeras av andra kontureras bara i tabellvyn.
+<!--not possible yet - August 30, 2023: -->

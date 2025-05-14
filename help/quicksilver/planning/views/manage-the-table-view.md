@@ -1,14 +1,14 @@
 ---
 title: Hantera tabellvyn
-description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront Planning. I den här artikeln beskrivs hur du skapar en tabellvy och redigerar eller tar bort en befintlig.
+description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront Planning. I den här artikeln beskrivs hur du skapar eller redigerar en tabellvyredigering och hur du aktiverar visningsindikatorer i realtid för vyn eller hur du exporterar den till en CSV- eller Excel-fil.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3395'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,12 @@ ht-degree: 0%
 Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront Planning.
 
 Mer information om postvyer och hur du hanterar dem finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+
+I den här artikeln beskrivs följande information:
+
+* [Skapa eller redigera kolumner och rader i en tabellvy](#manage-a-table-view)
+* [Aktivera visningsindikatorer i realtid för tabellvyn](#enable-the-real-time-presence-indicator)
+  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## Åtkomstkrav
 
@@ -525,7 +531,21 @@ Avatarerna för andra användare som redigerar postinformation samtidigt som du 
 
 När du visar tabellvyn kan du även visa vilket fält en annan användare redigerar när du visar posten.
 
-Mer information finns i avsnittet&quot;Aktivera indikator för närvaro i realtid&quot; i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. Gå till en posttypssida och öppna en vy.
+1. (Villkorligt) Om andra användare redigerar poster av den markerade typen samtidigt visas deras avatarer i vyns övre högra hörn.
+1. Klicka på listrutan intill avatarerna och välj **Visa medarbetare**. Växlingsknappen är markerad som standard.
+
+   ![Visa medarbetare växla mellan markerade](assets/show-collaborators-toggle-selected.png)
+
+1. (Villkorligt) Öppna en tabellvy och det fält som någon annan redigerar markeras i den färg som motsvarar konturen för avataren i tabellvyn.
+
+   Om avatarens högdagerfärg är grå redigerade användaren inte posten för mer än 30 sekunder sedan.
+
+   ![Tabellfält för realtidsindikator och avataranslutning](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Du kan välja alternativet **Visa medarbetare** från vilken vy som helst. Det fält som redigeras av andra kontureras bara i tabellvyn.
 
 <!--<div class="preview">
 
