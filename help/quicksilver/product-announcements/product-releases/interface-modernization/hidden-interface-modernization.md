@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 0%
 
 ---
@@ -556,6 +557,8 @@ Vi har lagt till en ny knapp för att redigera textläge och spärra/knip i föl
 
 ### Uppdateringar och kommentarer
 
++++Expandera för att visa uppdateringarna och kommentarsgränssnittsuppdateringarna i Q2
+
 ### Leta upp och håll koll på alternativen på Fler-menyn för kommentarer
 
 **Förhandsversion: 17 april 2024; Produktionsversion: Från och med 17 april 2024**
@@ -569,3 +572,5 @@ Uppdateringen innehåller följande ändringar:
 * Markerade åtgärden Ta bort genom att visa den i rött.
 
 Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
++++
