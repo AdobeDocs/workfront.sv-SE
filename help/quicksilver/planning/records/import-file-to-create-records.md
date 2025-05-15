@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
 
-   * &#x200B;<!--In the Production environment,--> Kopplingsfält till planeringsposter eller Workfront- och AEM Assets-objekt
+   * Anslutningsfält, beroende på vilken miljö du använder:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * I produktionsmiljön går det inte att mappa anslutningsfält till Planning-poster eller Workfront- och AEM Assets-objekt
+
+      * <span class="preview">I förhandsvisningsmiljön kan du mappa och importera anslutningsfält till planeringsposter. Du kan inte mappa fält till Workfront och AEM Assets.</span>
 
    * Sök efter fält från anslutna Planning-poster eller Workfront- och AEM Assets-objekt
    * Formelfält
@@ -148,6 +150,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Mappa planeringsfält till kolumner vid import av poster](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Varje rad representerar en ny post. Endast de första 10 posterna visas i rutan Förhandsgranska och redigera.
+
+   >[!TIP]
+   >
+   >Alla fälttyper stöds inte. Mer information finns i avsnittet [Att tänka på när du importerar poster med hjälp av en Excel- eller CSV-fil](#considerations-about-importing-records-using-an-excel-or-csv-file) i den här artikeln.
+
 
 1. (Valfritt och villkorligt) Om du har behörigheten Hantera på arbetsytan väljer du **Skapa saknade alternativ** i skärmens nedre vänstra hörn. När det här alternativet är aktiverat läggs de saknade alternativen för ett- och flervalsfält till.
 

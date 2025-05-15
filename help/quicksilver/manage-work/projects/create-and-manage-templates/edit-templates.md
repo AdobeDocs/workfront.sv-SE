@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '4877'
+source-wordcount: '4881'
 ht-degree: 0%
 
 ---
@@ -1100,7 +1100,7 @@ Att lägga till följande objekt i en mall är detsamma som att lägga till dem 
 
 * Faktureringstaxor
 
-  Mer information om att åsidosätta faktureringstariffer för ett projekt finns i [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Att lägga till faktureringstariffer för en mall liknar att lägga till faktureringstariffer i ett projekt. Mer information finns i [Åsidosätt faktureringshastigheter för jobbroller på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 * Utgifter
 

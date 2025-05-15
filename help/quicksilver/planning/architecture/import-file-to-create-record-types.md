@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -109,9 +109,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
 
-   * &#x200B;<!--In the Production environment,--> Kopplingsfält till planeringsposter eller Workfront- och AEM Assets-objekt
+   * Anslutningsfält, beroende på vilken miljö du använder:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * I produktionsmiljön går det inte att mappa anslutningsfält till Planning-poster eller Workfront- och AEM Assets-objekt
+
+      * <span class="preview">I förhandsvisningsmiljön kan du mappa och importera anslutningsfält till planeringsposter. Du kan inte mappa fält till Workfront och AEM Assets.</span>
 
    * Sök efter fält från anslutna Planning-poster eller Workfront- och AEM Assets-objekt
    * Formelfält
@@ -129,8 +131,8 @@ Så här importerar du posttyper med en Excel- eller CSV-fil:
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. Klicka på **Lägg till posttyp**.
-1. Klicka på **Från fil**.
-1. Dra och släpp en Excel- eller CSV-fil som tidigare sparats på datorn eller klicka på **Välj en CSV- eller Excel-fil** om du vill bläddra efter en.
+1. Klicka på **Överför från fil**.
+1. Dra och släpp en Excel- eller CSV-fil som du tidigare har sparat på datorn eller klicka på **Välj en CSV- eller Excel-fil** om du vill bläddra efter en fil och markera den.
 1. Klicka på **Förhandsgranska och redigera**.
 
    Rutan **Förhandsgranska och redigera** visas med följande information:
@@ -153,11 +155,21 @@ Så här importerar du posttyper med en Excel- eller CSV-fil:
 
    Blad som du avmarkerat visas med grå bakgrund.
 
-1. (Valfritt) Klicka på den nedåtriktade pilen till höger om kolumnrubriken om du vill göra något av följande:
+1. (Valfritt) Klicka på den nedåtriktade pilen till höger om en kolumnrubrik om du vill göra något av följande, <span class="preview">på fliken **Fält**</span>:
+
+   <span class="preview">![Fliken Fält i importrutan för posttypsmappning](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * Byt namn på ett av fälten
    * Ändra **fälttypen**
    * Uppdatera fältet **Beskrivning**
+
+1. <span class="preview">(Valfritt) Klicka på fliken **Anslutning** för att mappa informationen i kolumnen till ett anslutet fält från andra posttyper.</span>
+
+   <span class="preview">![Fliken Anslutning i importmappningsrutan för posttyp](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Du kan bara mappa till fält från Workfront Planning-anslutna poster. Du kan inte mappa till fält från Workfront- eller AEM Assets-anslutningar. Mer information finns i avsnittet [Att tänka på när du importerar posttyper med hjälp av en Excel- eller CSV-fil](#considerations-about-importing-record-types-using-an-excel-or-csv-file) i den här artikeln.</span>
 
 1. (Villkorligt) När du har uppdaterat informationen om fältet klickar du på **Spara**.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 +++
 
 ## Hantera en tidslinjevy {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 När du skapar en tidslinjevy visas alla poster av den valda posttypen på en kronologisk tidslinje.
 
@@ -278,7 +276,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
 1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilken information du vill visa i postfälten.
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Du kan definiera stapelformatet för huvudposten samt för de kopplade posterna när du använder alternativet Uppdelning i standardvyn. </span>
 
    Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard.
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    >[!TIP]
    >
-   >* <span class="preview">Inställningen för detaljer i fältet för trunkering är inte tillgänglig när vyn Tidslinje visas i läget Kompakt och är inte tillgänglig i kalendervyn.</span>
+   ><span class="preview">Inställningen för detaljer i fältet för trunkering är inte tillgänglig när vyn Tidslinje visas i läget Kompakt och är inte tillgänglig i kalendervyn.</span>
    >
-   >* <span class="preview">Om du bryter ned tidslinjevyn för att visa anslutna objekt, gäller inställningen för detaljer i fältet Trunkera bara för huvudposttypen. Det gäller inte för de anslutna postfälten.</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Klicka på **Färg** i den vänstra panelen om du vill anpassa färgerna för posterna och grupperingarna i tidslinjen.
 
    ![Tidslinjevy på fliken Färg](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Du kan definiera färgen på huvudposten samt för de kopplade posterna när du använder alternativet Uppdelning i standardvyn. </span>
 
 1. (Villkorlig och valfri) Om du har lagt till en gruppering i tidslinjevyn väljer du bland följande alternativ för att ange en färg för grupperingen i avsnittet **Ange grupperingsfärg**:
 
@@ -358,7 +353,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    Om du inte har något fält med färgkodade alternativ för den valda posttypen är det här alternativet nedtonat.
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">(Valfritt) Om du använder alternativet Uppdelning upprepar du stegen som börjar med steg 4 för varje ansluten post som visas på tidslinjen. </span>
 
 1. Klicka på **Spara**.
 
@@ -410,9 +405,18 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
    >    Start- och slutdatum måste vara sekventiella. Om slutdatumet är före startdatumet visas inga poster på tidslinjen.
 
    En högerpil visas på den markerade postens fält på tidslinjen, om de är kopplade till andra poster.
-1. Klicka på högerpilen om du vill expandera en posttyp och visa anslutningarna.
+1. Klicka på högerpilen för att expandera en posttyp och visa anslutningarna.
 
    ![Kampanjer uppdelade efter program i tidslinjevyn](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    När du visar flera sammankopplade poster i uppdelningen är de inte i hierarkisk ordning.
+   >
+   >Om du till exempel tittar på kampanjens tidslinje och lägger till Produkter och sedan Program i detaljerna behöver programmen inte vara kopplade till Produkterna först.
+   >
+   >Både Produkter och Program måste vara kopplade till kampanjerna för att kunna visas som alternativ för uppdelningsalternativet, och du kan lägga till dem i uppdelningen i valfri ordning.
+
 
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till fler anslutna poster.
 

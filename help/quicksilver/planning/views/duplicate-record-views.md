@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
 
 ---
-
 
 # Duplicera postvyer
 
@@ -114,9 +114,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Posttypssidan öppnas.
 Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Håll pekaren över fliken för den vy du vill duplicera och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Duplicera**.
+1. <span class="preview">Håll pekaren över fliken för den vy du vill duplicera och klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Duplicera**. </span>
 
-   ![Visa mer meny i en postvy](assets/view-more-menu-with-duplicate-option.png)
+   <span class="preview">![Visa mer meny i en postvy](assets/view-more-menu-with-duplicate-option.png)</span>
 
 
    Vyn är duplicerad och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.

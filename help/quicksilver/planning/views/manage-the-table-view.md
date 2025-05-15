@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3680'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I den här artikeln beskrivs följande information:
 
 * [Skapa eller redigera kolumner och rader i en tabellvy](#manage-a-table-view)
 * [Aktivera visningsindikatorer i realtid för tabellvyn](#enable-the-real-time-presence-indicator)
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* <span class="preview">[Exportera en tabellvy till en CSV- eller Excel-fil](#export-the-table-view)</span>
 
 ## Åtkomstkrav
 
@@ -88,7 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
-   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna eller duplicera den <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna, duplicera, <span class="preview">eller för att exportera den</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 
@@ -109,8 +109,6 @@ Du kan bara redigera postinformation i tabellvyn.
 Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
 ## Hantera en tabellvy {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 När du skapar en tabellvy visas alla poster av den valda typen i en tabell. Varje rad är en unik post och varje kolumn är ett postfält. Alla fält och alla poster visas som standard.
 
@@ -547,51 +545,52 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
    >
    >Du kan välja alternativet **Visa medarbetare** från vilken vy som helst. Det fält som redigeras av andra kontureras bara i tabellvyn.
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## Exportera tabellvyn
 
-You can export information in the table view to a CSV or an Excel file. 
+Du kan exportera information i tabellvyn till en CSV- eller Excel-fil.
 
-Consider the following when exporting the table view:
+Tänk på följande när du exporterar tabellvyn:
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* Den information som exporteras till en Excel-fil bevarar de filter, grupperingar och sorteringar som används i tabellvyn i Workfront Planning. Grupperingar visas inte i CSV-filen.
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* Miniatyrbilder och anpassade radfärger stöds inte i exporterade filer.
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* Endast fält som är synliga i Workfront-gränssnittet exporteras. Dolda fält exporteras inte.
 
-To export information from the table view or a record type:
+Så här exporterar du information från tabellvyn eller en posttyp:
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. Gå till en posttypssida och klicka på en tabellvyflik.
+1. Håll pekaren över tabellvyflikens namn och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) .
 
-    * Excel
-    * CSV
+   ![Mer meny i en vy](assets/view-more-menu-with-duplicate-option.png)
+1. Klicka på **Exportera** och välj ett av följande format:
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >Du kan inte exportera information från tabellvyn när du visar en annan vy på skärmen. Du måste visa den tabellvy som du vill exportera för att kunna komma åt alternativet Exportera på Mer-menyn.
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   Filen hämtas till datorn.
 
-    The name of the exported file follows the following format: 
+1. (Valfritt) Gå till hämtningsmappen på datorn och leta reda på den hämtade filen.
 
-    `Name of the view - name of the record type`
+   Namnet på den exporterade filen har följande format:
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   En tabellvy för posttypen Campaigns genererar till exempel filen `Table view - Campaigns`.
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   Filen innehåller följande information:
 
- -->
+   * Kolumnrubrikerna markeras med svart i Excel-filen
+   * Alla fält som är synliga i Workfront-gränssnittet, sorterade och filtrerade efter samma villkor
+   * Grupperingar bevaras i Excel-filen
+
+   Du kan nu dela de exporterade filerna med andra eller bifoga dem till valfri kommunikation.
+
+</div>
+

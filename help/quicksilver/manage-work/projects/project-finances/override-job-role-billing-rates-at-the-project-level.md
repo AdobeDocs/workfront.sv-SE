@@ -6,9 +6,9 @@ description: Som projektledare kan du ange faktureringssatsen för en jobbroll i
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Du kan åsidosätta faktureringsfrekvensen för en jobbroll i ett projekt på f�
 
 * Flera gånger genom att välja flera nya priser för specifika datumintervall.\
   Du kan använda olika hastigheter under varje angivet datumintervall.
+
+* Du kan lägga till nya faktureringstariffer i en projektmall och dessa blir projektfaktureringstariffer när du skapar projektet från den mallen. Mer information om hur du redigerar mallar finns i [Redigera projektmallar](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >

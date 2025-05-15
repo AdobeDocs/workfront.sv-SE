@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Ta bort postvyer
 
@@ -111,11 +111,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Håll markören över ett av vynamnen på fliken Visa, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
+1. <span class="preview">Hovra över ett av vynamnen på fliken Visa och klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) till vänster om vynamnet. Klicka sedan på **Ta bort**.</span>
 
-   Först kan du behöva klicka på **Mer** till vänster om den sista fliken för att hitta vyn som du vill ta bort.
+   <span class="preview">![Visa mer meny i en postvy](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![Visa mer meny i en postvy](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >Du kan behöva klicka på **Mer** till höger om den sista fliken för att hitta vyn som du vill ta bort.
+
 
 1. Bekräfta genom att klicka på **Ta bort**. <!--ensure there is not another saving step here?!-->
 
