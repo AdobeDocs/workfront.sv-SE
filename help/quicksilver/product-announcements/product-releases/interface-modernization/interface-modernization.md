@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
+source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '3539'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,46 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 >I de flesta fall släpps varje uppdatering först till förhandsvisningsmiljön, och aktiveras sedan inkrementellt i produktionsmiljön för en växande del av kunderna med början på det angivna produktionsreleasedatumet.
 
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+
+## Administratör och installation
+
+### Gränssnittsuppdateringar av en grupps nyligen återställda objekt
+
+**Förhandsversion: 15 maj 2025; Produktionsversion: 15 maj 2025**
+
+Vi har uppdaterat utseendet på de nyligen återställda objekten för grupper så att de matchar designen i andra delar av Workfront. Ingen funktionalitet har ändrats för nyligen återställda gruppprojekt, uppgifter, förfrågningar, dokument eller mallar.
+
+Om du vill visa den här ändringen går du till Inställningar > Grupper > Markera gruppnamnet > Senast återställt.
+
+Mer information finns i [Visa och hantera nyligen återställda objekt i en grupp](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+
+### Gränssnittsuppdateringar till diagnostiksidan i installationsprogrammet
+
+**Förhandsversion: 15 maj 2025; Produktionsversion: 15 maj 2025**
+
+Vi har uppdaterat diagnostiksidans utseende och känsla under Konfigurera, så att den matchar designen i andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Inställningar > System > Diagnostik.
+
+Mer information finns i [Använda diagnostik för att utlösa automatiserade processer](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+### Gränssnittsuppdateringar när en faktureringsavgift läggs till i en mall
+
+**Förhandsversion: 15 maj 2025; Produktionsversion: 15 maj 2025**
+
+Vi har uppdaterat gränssnittet när vi lägger till en faktureringsavgift i en mall för att matcha andra områden i programmet.
+
+Inga funktionsändringar har gjorts i den här uppdateringen.
+
+## Dokument
+
+### Dela ett dokument med en extern e-postadress
+
+**Förhandsversion: 15 maj 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat delningsdialogrutan så att användare kan dela dokument med externa användare via en e-postadress. Den här funktionen var inte tillgänglig för tillfället på grund av gränssnittets moderniseringsarbete.
 
 ## Navigering och sökning
 
@@ -42,9 +82,103 @@ Mer information finns i [Sök [!DNL Adobe Workfront]](/help/quicksilver/workfron
 
 Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-konto med en modernare design som är förenlig med andra delar av Workfront.
 
-## Administration och installation
+
+## Användare
+
+### Uppdaterad sökning efter inloggningssidan
+
+**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat inloggningssidan med en modernare design som överensstämmer med andra delar av Workfront.
+
+### Uppdaterad sökning efter sidan Återställ lösenord
+
+**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat skärmen för återställning av lösenord med en modernare design som är konsekvent med andra delar av Workfront. Uppdateringen innehåller uppdateringar av följande sidor:
+
+* Lösenordet har nästan gått ut
+* Lösenordet har upphört att gälla
+* Tillfälligt lösenord
+
+### Uppdaterad dokumentdelningssida för externa användare
+
+**Förhandsversion: 10 april 2024; Produktionsversion: Från och med 17 april 2024**
+
+Vi har uppdaterat dokumentdelningssidan för externa användare med en modernare design som är konsekvent med andra delar av Workfront.
+
+Externa användare har inte längre åtkomst till _Mina inställningar_ från den här sidan.
+
+### Updated external user registration page
+
+**Förhandsversion: 24 april 2024; Produktionsversion: Från 8 maj 2024**
+
+Vi har uppdaterat den externa användarregistreringssidan med en modernare design som överensstämmer med andra delar av Workfront.
+
+## Licenser
+
+### Uppdaterad licensavtalssida
+
+**Förhandsversion: 24 april 2024; Produktionsversion: Från 8 maj 2024**
+
+Vi har uppdaterat licensavtalssidan med en modernare design som överensstämmer med andra delar av Workfront.
+
+
+
+## Gränssnittsuppdateringar gjorda under andra kvartalet
+
+
+### Administration och installation
 
 +++Expandera för att visa de uppdateringar av gränssnittet för administration och konfiguration som gjorts under andra kvartalet
+
+### Gränssnittsuppdateringar i området Resurshantering i installationsprogrammet
+
+**Förhandsversion: 17 april 2025; börjar veckan 17 april 2025**
+
+Vi har uppdaterat utseendet och känslan i inställningarna för resurshantering i inställningsområdet så att det matchar designen i andra delar av Workfront.
+
+Mer information finns i [Konfigurera inställningar för resurshantering](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+## Gränssnittsuppdateringar i en lista över milstolpsökvägar i installationsprogrammet
+
+**Förhandsversion: 6 mars 2025; börjar veckan 10 april 2025**
+
+Vi har uppdaterat utseendet och känslan för listan Sökväg för milstolpe i Konfigurera-området så att den matchar designen för andra delar av Workfront.
+
+Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+## Gränssnittsuppdatering till rutan Redigera risktyp i installationen
+
+**Förhandsgranskningsversion: 27 mars 2025; börjar veckan 10 april 2025**
+
+Vi har uppdaterat utseendet och känslan i rutan Redigera risktyp när du uppdaterar en befintlig risktyp under Konfigurera i Workfront. Den nya designen matchar nu andra delar av Workfront.
+
+Mer information finns i [Redigera och skapa risktyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### Gränssnittsuppdatering till rutan Ny risktyp i installationen
+
+**Förhandsgranskningsversion: 27 mars 2025; börjar veckan 10 april 2025**
+
+Vi har uppdaterat utseendet på rutan Ny risktyp när du lägger till en ny risktyp under Konfigurera i Workfront. Den nya designen matchar nu andra delar av Workfront.
+
+Mer information finns i [Redigera och skapa risktyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### Gränssnittsuppdatering i dialogrutorna Utgiftstyper i Inställningar
+
+**Förhandsgranskningsversion: 27 mars 2025; börjar veckan 10 april 2025**
+
+Vi har uppdaterat utseendet på dialogrutorna för att lägga till och redigera utgiftstyper under Konfigurera, så att de matchar designen i andra delar av Workfront.
+
+Mer information finns i [Skapa anpassade utgiftstyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
+### Uppdaterad erfarenhet i området Åtkomstnivåer i installationsprogrammet
+
+**Förhandsgranskningsversion: 27 mars 2025; börjar veckan 10 april 2025**
+
+För att förbättra prestandan har vi gjort visuella uppdateringar i området Åtkomstnivåer i installationsprogrammet.
+
+En liten funktionalitetsändring har gjorts i listan Åtkomstnivåer. Om du vill kopiera, redigera eller ta bort en åtkomstnivå markerar du nivån och klickar på lämplig ikon.
 
 ### Gränssnittsuppdatering för meddelandecenter
 
@@ -172,7 +306,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 +++
 
-## Agile
+### Agile
 
 +++Expandera för att visa Agile-gränssnittsuppdateringar som gjorts under Q2
 
@@ -236,13 +370,7 @@ Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersl
 
 +++
 
-## Dokument
-
-### Dela ett dokument med en extern e-postadress
-
-**Förhandsversion: 15 maj 2025; Produktionsversion: ska tillkännages**
-
-Vi har uppdaterat delningsdialogrutan så att användare kan dela dokument med externa användare via en e-postadress. Den här funktionen var inte tillgänglig för tillfället på grund av gränssnittets moderniseringsarbete.
+### Dokument
 
 +++Expandera för att visa dokumentgränssnittsuppdateringar som gjorts under andra kvartalet
 
@@ -282,13 +410,118 @@ Om du vill visa den här ändringen går du till Dokument > Klicka på menyn Mer
 
 +++
 
-## Rapporter och kontrollpaneler
+### Projekt
+
++++Expandera för att visa projektgränssnittsuppdateringar som gjorts under andra kvartalet
+
+### Leta upp och känna av uppdateringar i området Köinformation i ett projekt
+
+**Förhandsgranskningsversion: 27 mars 2025; börjar veckan 10 april 2025**
+
+Vi har uppdaterat utseendet på området Köinformation i ett projekt så att det matchar designen i andra delar av Workfront.
+
+Med den här uppdateringen har utseendet på området Köinformation i en mall inte ändrats.
+
+Mer information finns i [Skapa en frågekö](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+### Uppdaterad vy över en projektmilstolpe i en projektvy
+
+**Förhandsgranskningsversion: 13 mars 2025; börjar veckan 10 april 2025**
+
+När du får åtkomst till milstolpen från en projektlista eller rapport har sidan med information om milstolpar nu ett nytt utseende och en ny känsla. Du måste lägga till fältet Sökväg för milstolpe i vyn för listan eller rapporten för att kunna komma åt informationssidan för milstolpens sökväg.
+
+I den här uppdateringen har vi även lagt till information om färger och färgkoder för varje milstolpe.
+
+Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
++++
+
+
+### Rapporter och kontrollpaneler
 
 +++Expandera för att visa uppdateringar av gränssnitt för rapporter och kontrollpaneler som gjorts under andra kvartalet
 
+### Utforska och känna av uppdateringar i en rapport om milstolpe-sökväg
+
+**Förhandsversion: 30 april 2025; Produktionsversion: 30 april 2025**
+
+Vi har uppdaterat utseendet och känslan i Milstolpe Path-rapporten så att den matchar designen i andra delar av Workfront.
+
+Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Uppdaterade rapporter med ny formatering
+
+**Förhandsversion: 23 april 2025; Produktionsversion: 23 april 2025**
+
+Vi har uppdaterat utseendet och känslan i flera rapporter för att matcha designen i andra delar av Workfront. Ingen funktionalitet har ändrats.
+
+Uppdateringen innehåller visuella ändringar av listorna och verktygsfälten i rapporterna för följande objekttyper:
+
+* Malluppgifter
+* Ämnesgrupper
+* Styrkort
+* Scheman
+
+Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Gränssnittsuppdateringar av nyligen återställda objekt
+
+**Förhandsversion: 23 april 2025; Produktionsversion: 23 april 2025**
+
+Vi har uppdaterat utseendet på de nyligen återställda objekten i inställningsområdet så att de matchar designen i andra delar av Workfront. Ingen funktionalitet har ändrats för nyligen återställda projekt, uppgifter, förfrågningar, dokument eller mallar.
+
+Om du vill visa den här ändringen går du till Inställningar > Papperskorgen > Senast återställt.
+
+Mer information finns i [Visa återställda objekt](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### Gränssnittsuppdateringar för rutan Ta bort företag i en företagsrapport
+
+**Förhandsversion: 17 april 2025; Produktionsversion: 17 april 2025**
+
+Vi har uppdaterat utseendet på företagsrutan Ta bort när du tar bort ett företag från en företagsrapport. Den nya designen matchar nu andra delar av Workfront.
+
+Med den här uppdateringen har inte utseendet på företagsrutan Ta bort på sidan Företag i inställningsområdet ändrats.
+
+### Uppdaterade rapporter med ny formatering
+
+**Förhandsversion: 17 april 2025; Produktionsversion: 17 april 2025**
+
+Vi har uppdaterat utseendet och känslan i flera rapporter för att matcha designen i andra delar av Workfront.
+
+Uppdateringen innehåller visuella ändringar av listorna och verktygsfälten i följande rapporter. Ingen funktionalitet har ändrats.
+
+* Företag
+* Utgiftstyp
+* Grupp
+* Timtyp
+* Journalpost
+* Resurs (inte arbets-) (endast tillgängligt för specifika kunder)
+* Resurskategori som inte är arbetsplats (endast tillgängligt för specifika kunder)
+* Köämne
+* Risktyp
+* Tidrapportprofil
+* Användardelegering
+
+Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Uppdaterade rapporter med ny formatering
+
+**Förhandsversion: 9 april 2025; Produktionsversion: 9 april 2025**
+
+Vi har uppdaterat utseendet och känslan i flera rapporter för att matcha designen i andra delar av Workfront.
+
+Uppdateringen innehåller visuella ändringar av listorna och verktygsfälten i följande rapporter. Ingen funktionalitet har ändrats.
+
+* Parameter
+* Parametergrupp
+* Anpassad Forms
+* Tid av
+
+Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 ### Uppdaterad åtkomstnivårapport med ny formatering
 
-**Förhandsversion: 30 januari 2024; Produktionsversion: Från 6 februari 2025**
+**Förhandsversion: 30 januari 2025; Produktionsversion: Från 6 februari 2025**
 
 Vi har uppdaterat åtkomstnivårapporten med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -351,42 +584,20 @@ Vi har lagt till en ny knapp för att redigera textläge och spärra/knip i föl
 
 +++
 
-## Användare
+### Uppdateringar och kommentarer
 
-### Uppdaterad sökning efter inloggningssidan
++++Expandera för att visa uppdateringarna och kommentarsgränssnittsuppdateringarna i Q2
 
-**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+### Gränssnittsuppdatering för alternativ på menyn Mer för kommentarer
 
-Vi har uppdaterat inloggningssidan med en modernare design som överensstämmer med andra delar av Workfront.
+**Förhandsversion: 17 april 2024; Produktionsversion: 17 april 2024**
 
-### Uppdaterad sökning efter sidan Återställ lösenord
+Vi har uppdaterat utseendet och känslan för de alternativ som finns på menyn Mer i en kommentar i uppdateringsavsnittet för alla objekt.
 
-**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+Uppdateringen innehåller följande ändringar:
 
-Vi har uppdaterat skärmen för återställning av lösenord med en modernare design som är konsekvent med andra delar av Workfront. Uppdateringen innehåller uppdateringar av följande sidor:
+* Ordnade om åtgärderna så att liknande funktioner grupperas tillsammans.
+* Infogade delare som tydligt separerar varje grupp.
+* Markerade åtgärden Ta bort genom att visa den i rött.
 
-* Lösenordet har nästan gått ut
-* Lösenordet har upphört att gälla
-* Tillfälligt lösenord
-
-### Uppdaterad dokumentdelningssida för externa användare
-
-**Förhandsversion: 10 april 2024; Produktionsversion: Från och med 17 april 2024**
-
-Vi har uppdaterat dokumentdelningssidan för externa användare med en modernare design som är konsekvent med andra delar av Workfront.
-
-Externa användare har inte längre åtkomst till _Mina inställningar_ från den här sidan.
-
-### Updated external user registration page
-
-**Förhandsversion: 24 april 2024; Produktionsversion: Från 8 maj 2024**
-
-Vi har uppdaterat den externa användarregistreringssidan med en modernare design som överensstämmer med andra delar av Workfront.
-
-## Licenser
-
-### Uppdaterad licensavtalssida
-
-**Förhandsversion: 24 april 2024; Produktionsversion: Från 8 maj 2024**
-
-Vi har uppdaterat licensavtalssidan med en modernare design som överensstämmer med andra delar av Workfront.
+Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

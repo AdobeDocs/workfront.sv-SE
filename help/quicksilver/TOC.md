@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 60658b59f757fd16988551a5e5e6dff247f3aa9a
+source-git-commit: f2ae543071fa77725037d9b4834651cd05b05b72
 workflow-type: tm+mt
-source-wordcount: '13211'
+source-wordcount: '13209'
 ht-degree: 0%
 
 ---
@@ -248,7 +248,6 @@ ht-degree: 0%
          * [Versionsaktivitet för Workfront Proof: 29 november 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * Modernisering av gränssnitt {#interface-modernization}
          * [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
-         * [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/hidden-interface-modernization.md)
       * Kvartalsvis publiceringsarkiv {#quarterly-release}
          * [Kvartalsvis publiceringsarkiv](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4-utgåvan {#release-20-4}
