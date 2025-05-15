@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,61 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Uppdatera inställningarna för tidslinjevyn för att definiera utseendet och känslan för de kopplade posternas fält när du använder alternativet Brytning
+
+>[!NOTE]
+>
+>* Förhandsgranska: 15 maj 2025
+>* Production fast release: 12 juni 2025
+>* Produktion för alla kunder: 17 juli 2025
+
+Nu kan du formatera postfältens utseende och känsla i tidslinjevyn för posterna i detaljerna. Du kan uppdatera följande inställningar för fälten i dessa poster:
+
+* Stapelformat
+* Färg
+
+Före den här förbättringen kunde du bara formatera staplarna för huvudposterna när de visas i tidslinjevyn, och du kunde inte formatera staplarna för de kopplade posterna.\
+ 
+Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).  
+
+## Exportera tabellvyn till en CSV- eller Excel-fil 
+
+>[!NOTE]
+>
+>* Förhandsgranska: 15 maj 2025
+>* Production fast release: 12 juni 2025
+>* Produktion för alla kunder: 17 juli 2025
+
+Vi har lagt till en ny funktion i Workfront Planning där du kan exportera information som visas i tabellvyn till en CSV- eller Excel-fil.  
+
+Tänk på följande när du exporterar information från tabellvyn:  
+
+* Den exporterade informationen tar hänsyn till de filter, grupperingar och sorteringar som tillämpas på tabellvyn i Workfront Planning.
+* Miniatyrbilder och anpassade radfärger stöds inte i den exporterade filen.  
+* Endast fält som är synliga i Workfront-gränssnittet exporteras. Dolda fält exporteras inte.  
+
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+## Workfront Planning-anslutna fält stöds nu när du importerar poster med en CSV- eller Excel-fil
+
+>[!NOTE]
+>
+>* Förhandsgranska: 15 maj 2025
+>* Production fast release: 12 juni 2025
+>* Produktion för alla kunder: 17 juli 2025
+
+Du kan nu fylla i värdena för anslutna fält när du lägger till poster till en posttyp med hjälp av en CSV- eller Excel-fil.  Endast anslutna planeringspostfält stöds. Fält som visar anslutningar till andra program stöds inte.
+
+Den här ändringen stöds när du importerar en CSV- och Excel-fil för att skapa både en posttyp och poster för en befintlig posttyp.
+
+Före den här förbättringen gick det inte att fylla i anslutningsfält när du importerade poster.
+
+Mer information finns i följande artiklar:
+
+* [Skapa poster genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/records/import-file-to-create-records.md).
+
+* [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
 ## Inline-redigering på sidan Anslutna poster i en post
 

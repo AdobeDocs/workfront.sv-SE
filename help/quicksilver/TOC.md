@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+source-git-commit: 60658b59f757fd16988551a5e5e6dff247f3aa9a
 workflow-type: tm+mt
-source-wordcount: '13209'
+source-wordcount: '13211'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 0%
       * 2025 Q3-versionen {#release-25-q3}
          * [2025 Q3 - översikt](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [Förbättrad dokumenthantering](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+         * [Hemförbättringar](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
          * [Rapportförbättringar](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
          * [Förbättringar av uppdateringar och meddelanden](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 2025 års Q3-utgåva](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
