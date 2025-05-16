@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 0%
@@ -202,9 +202,9 @@ Så här delar du en vy offentligt i Workfront Planning:
 
    Då öppnas posttypssidan.
 
-1. Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
+1. <span class="preview">Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**. </span>
 
-   ![Fler menyer för vyer utökade med delningsalternativ](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![Fler menyer för vyer utökade med delningsalternativ](assets/more-menu-for-views-expanded-with-share-option.png)</span>
 
 1. Klicka på **Offentlig delning**.
 
@@ -236,10 +236,8 @@ Användare som har åtkomst till en länk till en vy som de inte har behörighet
 1. (Villkorligt) Om du är vyhanterare kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
    * Ett meddelande i appen
-
      ![Meddelande i appen om åtkomstbegäran för vyn](assets/in-app-notification-for-access-request-for-view.png)
    * Ett e-postmeddelande
-
      ![Meddelande i appen om åtkomstbegäran för vyn](assets/in-app-notification-for-access-request-for-view.png)
 1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
 eller

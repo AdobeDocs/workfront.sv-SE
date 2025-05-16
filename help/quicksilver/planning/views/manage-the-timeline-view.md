@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 0%
@@ -276,7 +276,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
 1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilken information du vill visa i postfälten.
 
-   <span class="preview">Du kan definiera stapelformatet för huvudposten samt för de kopplade posterna när du använder alternativet Uppdelning i standardvyn. </span>
+   Du kan definiera stapelformatet för huvudposten <span class="preview"> och för de anslutna posterna</span> när du använder alternativet Uppdelning i standardvyn.
 
    Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard.
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    ![Tidslinjevy på fliken Färg](assets/color-tab-timeline-view.png)
 
-   <span class="preview">Du kan definiera färgen på huvudposten samt för de kopplade posterna när du använder alternativet Uppdelning i standardvyn. </span>
+   Du kan definiera färgen för huvudposten <span class="preview"> och för de anslutna posterna</span> när du använder alternativet Uppdelning i standardvyn.
 
 1. (Villkorlig och valfri) Om du har lagt till en gruppering i tidslinjevyn väljer du bland följande alternativ för att ange en färg för grupperingen i avsnittet **Ange grupperingsfärg**:
 
