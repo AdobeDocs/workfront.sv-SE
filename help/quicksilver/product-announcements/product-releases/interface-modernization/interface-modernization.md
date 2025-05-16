@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,28 @@ Mer information finns i [Sök [!DNL Adobe Workfront]](/help/quicksilver/workfron
 
 Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-konto med en modernare design som är förenlig med andra delar av Workfront.
 
+## Rapporter och kontrollpanel
+
+### URL:er med /tile eller /qstile stöds inte längre i Workfront Dashboards
+
+**Förhandsversion: 13 maj; Produktionsrelease: Ska tillkännages**
+
+Om du har en extern sida på en Dashboard med en Workfront-URL som innehåller `/tile` eller `/qstile` läses den sidan inte längre in.
+
+Genom att lägga till `/tile` eller `/qstile` i en Workfront-URL kunde webbläsaren läsa in klassiska upplevelsesidor som inte stöds och som togs bort i juli 2022.
+
+Vi rekommenderar att du byter URL-adress för att gå till en sida som stöds eller tar bort den externa sidan från Dashboard.
+
 
 ## Användare
+
+### Gränssnittsuppdatering till den nya användarregistreringssidan
+
+**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat den nya användarregistreringssidan med en modernare design som överensstämmer med andra delar av Workfront.
+
+Användarna har inte längre möjlighet att ladda upp ett foto på den här sidan. De kan dock överföra ett foto till sin användarprofil när de har loggat in på Workfront.
 
 ### Uppdaterad sökning efter inloggningssidan
 
@@ -122,7 +142,6 @@ Vi har uppdaterat den externa användarregistreringssidan med en modernare desig
 **Förhandsversion: 24 april 2024; Produktionsversion: Från 8 maj 2024**
 
 Vi har uppdaterat licensavtalssidan med en modernare design som överensstämmer med andra delar av Workfront.
-
 
 
 ## Gränssnittsuppdateringar gjorda under andra kvartalet
