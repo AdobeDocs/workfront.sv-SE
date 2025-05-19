@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2773'
+source-wordcount: '2782'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Så här exporterar du en snabbstartsmall:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Kontrollpanel</p> <p>Alla instrumentpaneler i systemet är tillgängliga för export. Du kan välja upp till 100 specifika kontrollpaneler i en enda export.</p> </td> 
+      <td scope="col"> <p>Kontrollpanel</p> <p>Alla offentligt delade instrumentpaneler i systemet är tillgängliga för export. Det går inte att exportera instrumentpaneler som inte delas över hela systemet. Du kan välja upp till 100 specifika kontrollpaneler i en enda export.</p> </td> 
       <td scope="col">Exporterar som ZIP-fil</td> 
       <td scope="col"> <p>Parameter</p> <p>Beskrivning</p><p>Parameteralternativ</p> <p>Parametergrupp</p> <p>Kategoriparameter</p> <p>Kategori</p> <p>Rapport</p> <p>Portal Tab Section</p> <p>Kontrollpanel</p> <p>Inställningar</p> </td> 
      </tr> 

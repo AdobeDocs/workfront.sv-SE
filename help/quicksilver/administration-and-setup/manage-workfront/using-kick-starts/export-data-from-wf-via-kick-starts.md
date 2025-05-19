@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,10 @@ Följande begränsningar gäller vid export av data via direktstart (data export
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >Om alternativet **Instrumentpanel** inte är tillgängligt betyder det att du inte har några instrumentpaneler i systemet som är delade i hela systemet. Du kan inte exportera privata instrumentpaneler.
+
 1. Klicka på **Fler alternativ** om du vill se en fullständig lista över objekt.
 
    Alla objekt som listas här kan även användas för att importera data till Workfront.
@@ -260,7 +264,7 @@ Följande begränsningar gäller vid export av data via direktstart (data export
      </tr> 
      <tr> 
       <td valign="top">Portfolio</td> 
-      <td valign="top"> Inställningar för Portfolio<br>  </td> 
+      <td valign="top"> Portfolio<br>Inställningar  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -330,7 +334,7 @@ Följande begränsningar gäller vid export av data via direktstart (data export
 
    Den exporterade startfilen hämtas till datorn antingen som en Excel-fil eller en . zip-fil som innehåller flera Excel- och egenskapsfiler. Varje Excel-fil är en samling blad, där varje blad representerar ett fält som är associerat med det markerade objektet. Det finns ett **egenskapsblad** som är associerat med varje export.
 
-   Med alternativen **Kontrollpanel** och **Rapport** kan du välja specifika instrumentpaneler och rapporter som ska inkluderas i hämtningen. Du kan bara exportera kontrollpaneler som är delade i hela systemet.
+   Med alternativen **Kontrollpanel** och **Rapport** kan du välja specifika instrumentpaneler och rapporter som ska inkluderas i hämtningen. För kontrollpaneler kan du bara exportera kontrollpaneler som är gemensamma för hela systemet.
 
    Du kan inte exportera matrisrapporter. Mer information om matrisrapporter finns i [Skapa en matrisrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 

@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Skicka försenade meddelanden</td> 
+      <td role="rowheader">Skicka förfallna meddelanden</td> 
       <td> <p>Skickar automatiskt påminnelsemeddelanden manuellt för förfallna uppgifter och problem. </p> <p>Mer information om hur du ställer in automatiska påminnelser finns i <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Konfigurera automatiska påminnelser</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -81,9 +81,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader">Kontrollera alla POP-konton</td> 
-      <td> <p>Kontrollerar om det finns nya e-postmeddelanden som har skickats till POP-konton som är länkade till Workfront. </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
-       --> </td> 
+      <td>Kontrollerar om det finns nya e-postmeddelanden som har skickats till POP-konton som är länkade till Workfront.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beräkna om tidslinjer</td> 

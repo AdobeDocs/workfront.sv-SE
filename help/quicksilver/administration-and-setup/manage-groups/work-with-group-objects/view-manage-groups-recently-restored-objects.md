@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Visa och hantera nyligen återställda objekt i en grupp
-description: När du visar en grupp som du hanterar i området Grupper kan du visa, dela, gruppera och återställa dess nyligen återställda arbetsobjekt, dokument och mallar.
+description: När du visar en grupp som du hanterar i området Grupper kan du visa, filtrera, gruppera och återställa dess nyligen återställda arbetsobjekt, dokument och mallar.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -79,19 +79,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    På varje flik visas objekt av motsvarande objekttyp som tillhör den aktuella gruppen eller dess undergrupper och som har återställts under de senaste 30 dagarna.
 
-1. Gör något av följande:
+1. (Valfritt) Om du vill exportera hela listan med objekt på fliken klickar du på ikonen **Exportera** . ![Ikon för export](assets/export-icon.png).
+1. (Valfritt) Ändra visningen av information i listan med ett filter, en vy eller en gruppering.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>Exportera hela listan med objekt på fliken</p> </td> 
-      <td> <p>Klicka på <strong>Exportera</strong>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Ändra visningen av information i listan</p> </td> 
-      <td> <p>Använd <strong>Filter</strong> i det övre högra hörnet ovanför listan för att definiera vad som ska visas baserat på villkor som du anger. Använd <strong>Visa</strong> för att definiera vilka fält som ska visas som kolumner. Använd <strong>Gruppering</strong> för att gruppera objekten i kategorier.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   Mer information finns i [Översikt över rapportelement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+

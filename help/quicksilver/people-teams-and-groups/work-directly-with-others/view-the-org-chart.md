@@ -6,7 +6,7 @@ description: Med funktionen Organisationsschema kan du visa organisationsschemat
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -49,5 +49,5 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step1-click-profile-pic}}
 
-1. Klicka på **[!UICONTROL Org Chart]** i den vänstra panelen.\
-   ![Organisationsschema](assets/org-chart.png)
+1. Klicka på **[!UICONTROL Org Chart]** i den vänstra panelen.
+   ![Organisationsschema](assets/org-chart-2025.png)
