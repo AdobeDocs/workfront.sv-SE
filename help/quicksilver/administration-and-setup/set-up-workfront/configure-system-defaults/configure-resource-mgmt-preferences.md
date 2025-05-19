@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
 
 # Konfigurera inställningar för [!UICONTROL Resource Management]
+
+<!-- Audited: 5/2025 -->
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
@@ -34,19 +36,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td><p>Nytt: [!UICONTROL Standard]</p>
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
    eller
-   <p>Aktuell: [!UICONTROL Plan]</p>
+   <p>Aktuell: Planera</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Systemadministratör</td>
   </tr> 
  </tbody> 
 </table>
@@ -59,11 +61,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Vid beräkning av en användares kapacitet tar Workfront hänsyn till följande information:
 
-* Antalet schemalagda timmar, enligt definition i antingen användarens schema eller Workfront-systemets [!UICONTROL Default Schedule]
-* [!UICONTROL Schedule] [!UICONTROL Exceptions] (beroende på vilken [!UICONTROL Schedule] som används, kan det vara undantagen i användarens schema eller de som är kopplade till [!DNL Workfront] [!UICONTROL Default Schedule])
-* Användarens lediga tid
+* Antalet schemalagda timmar, enligt definition i antingen användarens schema eller Workfront-systemets standardschema.
+* Schemalägg undantag (beroende på vilket schema som används kan det vara undantagen i användarens schema eller undantagen som är kopplade till Workfront standardschema).
+* Användaren är ledig.
 * Värdet för heltidsmotsvarigheten ([!UICONTROL FTE]) för användaren eller för systemet [!DNL Workfront]. [!UICONTROL FTE] är lika med 1 när användaren arbetar heltid, enligt schemats definition.
-* Värdet [!UICONTROL Work Time] för användaren som refererar till den tid som användaren spenderar på projektrelaterat arbete. Detta inkluderar inte overheadtid, som möten och utbildning. [!UICONTROL Work Time] är lika med 1 när användaren är tillgänglig för arbete under hela den tid som anges av [!UICONTROL FTE] eller schemat, vilket innebär att användaren inte spenderar någon tid på icke-projektrelaterade arbeten som möten eller utbildningar.
+* Värdet [!UICONTROL Work Time] för användaren, som refererar till den tid som användaren lägger på projektrelaterat arbete. Detta inkluderar inte overheadtid, som möten och utbildning. [!UICONTROL Work Time] är lika med 1 när användaren är tillgänglig för arbete under hela den tid som anges av [!UICONTROL FTE] eller schemat, vilket innebär att användaren inte spenderar någon tid på icke-projektrelaterade arbeten som möten eller utbildningar.
 
 
 Mer information om planering och planering av resurser i [!DNL Workfront] finns i [Kom igång med resurshantering](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
@@ -82,11 +84,9 @@ Mer information om planering och planering av resurser i [!DNL Workfront] finns 
 
    * **Standardschemat**: [!DNL Workfront] använder systemets standardschema och användarens enskilda FTE för att beräkna användarens tillgängliga timmar i resurshanteringsverktygen.
 
-     Mer information om scheman finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Mer information finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) och [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-     Mer information om hur du hittar värdet för användarens [!UICONTROL FTE] finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
-     Workfront beräknar tillgängliga timmar för en användare med följande formel när Workfront-administratören väljer [!UICONTROL Default Schedule]:
+     När det här alternativet är markerat beräknas användarens tillgängliga timmar enligt följande formel:
 
 
      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
@@ -94,7 +94,7 @@ Mer information om planering och planering av resurser i [!DNL Workfront] finns 
 
      >[!INFO]
      >
-     >Om till exempel standardschemat är 40 timmar per vecka, är FTE i användarens profil 0,5, användaren har en timmes tid på en dag och [!UICONTROL Work Time] i användarens profil är 0,5, är användaren tillgänglig för faktiskt projektarbete i 9,5 timmar per vecka.
+     >Om till exempel standardschemat är 40 timmar per vecka är FTE i användarens profil 0,5, användaren har en timmes tid på en dag och [!UICONTROL Work Time] i användarens profil är 0,5 och användaren är tillgänglig för faktiskt projektarbete i 9,5 timmar per vecka.
      >
      >Om användaren har en timmes tid på en dag beräknas deras tillgängliga timmar enligt följande:
      >
@@ -132,11 +132,9 @@ Mer information om planering och planering av resurser i [!DNL Workfront] finns 
       </div></li>      
       -->
 
-   * **Användarens schema**: [!DNL Workfront] använder användarens schema samt [!UICONTROL Default Schedule] i systemet för att beräkna det tillgängliga [!UICONTROL FTE]-värdet för användaren i verktygen för resurshantering.   Tillgängliga timmar beräknas endast enligt användarens schema. Värdet för användarens [!UICONTROL FTE] ignoreras. Det här är standardinställningen.
+   * **Användarens schema**: [!DNL Workfront] använder användarens schema samt [!UICONTROL Default Schedule] i systemet för att beräkna det tillgängliga [!UICONTROL FTE]-värdet för användaren i verktygen för resurshantering.   Tillgängliga timmar beräknas endast enligt användarens schema, och värdet för [!UICONTROL FTE] för användaren ignoreras. Det här är standardinställningen.
 
-     Mer information om scheman finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-     Mer information om en användares [!UICONTROL Schedule] finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     Mer information finns i [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) och [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
      >[!NOTE]
      >
@@ -156,7 +154,7 @@ Mer information om planering och planering av resurser i [!DNL Workfront] finns 
 
      >[!INFO]
      >
-     >Om till exempel [!UICONTROL Default Schedule] är 40 timmar i veckan är användarens schema 30 timmar i veckan och användarens [!UICONTROL Work Time] är 0,5, användarens [!UICONTROL FTE] är 0,35.
+     >Om till exempel [!UICONTROL Default Schedule] är 40 timmar i veckan är användarens schema 30 timmar i veckan, användarens [!UICONTROL Work Time] är 0,5 och användarens [!UICONTROL FTE] är 0,35.
      >
      >Om användaren har två timmars tid på en dag, beräknas deras [!UICONTROL FTE] som tillgängligt varje vecka enligt följande:
      >

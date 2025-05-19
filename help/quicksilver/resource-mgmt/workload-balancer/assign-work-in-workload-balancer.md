@@ -6,14 +6,16 @@ description: Som resurshanterare kan du använda Adobe Workfront Workload Balanc
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
 
 # Översikt över tilldelning av arbete i belastningsutjämnaren
+
+<!-- Audited: 5/2025 -->
 
 Som resurshanterare kan du använda Adobe Workfront Workload Balancer för att visa arbetsobjekt som ännu inte har tilldelats användare samt tilldela dem dessa objekt.
 
@@ -28,9 +30,9 @@ Mer information om hur du tilldelar arbetsobjekt i andra delar av Workfront finn
 
 ## Tillgänglighet för användare i Utjämning av arbetsbelastning
 
-Du kan tilldela arbete i belastningsutjämnaren så att det matchar användarens tillgängliga tid. För att vara säker på att du tilldelar rätt mängd arbete och inte överfördelar användaren måste summan av antalet planerade timmar för arbetsuppgifterna som tilldelats användaren matcha fördelningarna per dag eller vecka.
+Du kan tilldela arbete i belastningsutjämnaren så att det matchar användarens tillgängliga tid. För att vara säker på att du tilldelar rätt mängd arbete och inte överfördelar användaren måste summan för Planerade timmar för arbetsobjekten som tilldelats användaren matcha fördelningarna per dag eller vecka.
 
-Du måste förstå hur Workfront beräknar den tillgängliga tiden för en användare.
+Det är viktigt att förstå hur Workfront beräknar den tillgängliga tiden för en användare.
 
 Workfront använder följande information för att beräkna användarens kapacitet i belastningsutjämnaren:
 
@@ -43,7 +45,7 @@ Workfront använder följande information för att beräkna användarens kapacit
 
   Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Mer information om scheman finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Mer information om scheman finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Användaren är ledig. Detta anger vilka dagar som användaren planerar att starta.
 
@@ -80,8 +82,8 @@ Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resurso
 
 Det finns två områden i belastningsutjämnaren där du kan visa arbetsobjekt:
 
-* **Ej tilldelat arbete**: visar objekt som inte har tilldelats användare.
-* **Tilldelad arbetsuppgift**: visar objekt som har tilldelats användare.
+* **Ej tilldelat arbete**: Visar objekt som inte har tilldelats användare.
+* **Tilldelad arbetsuppgift**: Visar objekt som har tilldelats användare.
 
 I följande tabell beskrivs vilka objekt som visas i varje område baserat på deras uppdrag:
 

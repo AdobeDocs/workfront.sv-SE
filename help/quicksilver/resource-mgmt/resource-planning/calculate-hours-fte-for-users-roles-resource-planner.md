@@ -3,18 +3,20 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
 title: Översikt över beräkning av timmar och heltidsanställda för användare och roller i resursplaneraren
-description: Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren
+description: Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren.
 author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
 
 # Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina:KEEP THIS:***Linked to: Configuring My Settings, Editing User Accounts, Planning in the Resource Planner -- *** Some of this documentation is also duplicated in this article (Scheduling): https://support.workfront.com/hc/en-us/articles/360000557174)</p>
@@ -23,7 +25,7 @@ ht-degree: 0%
 Du kan visa allokeringen och tillgängligheten för dina resurser i resursplaneraren efter timmar, heltid eller kostnad.\
 Mer information om hur du beräknar kostnader i resursplaneraren finns i [Beräkna kostnader i resursplaneraren](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-&quot;FTE&quot; står för Full Time Equivalent. Det är ett tidsmått som representerar antalet timmar som är dedikerade till verkligt arbete under en dag eller vecka för en användare eller jobbroll.
+Heltidsekvivalent (FTE) är ett tidsmått som motsvarar det antal timmar som avsätts för verkligt arbete under en dag eller vecka för en användare eller jobbroll.
 
 Följande uppsättningar med resursinformation beräknas på olika sätt i resursplaneraren:
 
@@ -38,13 +40,9 @@ Det är viktigt att förstå vad FTE är för var och en av dina användare och 
 
 ## Beräkna tillgängliga timmar eller heltidsanställda för användare och jobbroller i resursplaneraren {#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner}
 
-* [Beräkna tillgängliga timmar och FTE för en användare i resursplaneraren](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
-* [Beräkna tillgängliga timmar och FTE för en jobbroll i resursplaneraren](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner)
-* [Beräkna tillgängliga timmar och heltidsanställda för en användare i resursplaneraren (exempel)](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
-
 ### Beräkna tillgängliga timmar och heltidsanställda för en användare i resursplaneraren {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
 
-Workfront-administratören avgör hur den tillgängliga tiden för en användare beräknas genom att välja att använda något av följande i området Resurshantering i installationsprogrammet:
+Workfront-administratören bestämmer hur den tillgängliga tiden för en användare beräknas genom att välja något av följande i området Resurshantering under Konfigurera:
 
 * Standardschemat för systemet och användarens FTE.
 * Användarens schema.
@@ -59,7 +57,7 @@ Baserat på hur den här inställningen är konfigurerad beräknas tillgängligh
 
 * **Standardschemat**: Standardschemat för systemet och användarens FTE används för att fastställa tillgängliga timmar och FTE-värde för användaren i resursplaneraren. Användarens schema ignoreras. I detta fall:
 
-   * **Tillgängliga timmar** i resursplaneraren beräknas med följande formel:
+   * Tillgängliga timmar i resursplaneraren beräknas med följande formel:
 
      `User Available Hours = Default Schedule Hours * User FTE value`
 
@@ -67,17 +65,17 @@ Baserat på hur den här inställningen är konfigurerad beräknas tillgängligh
 
      Mer information om scheman, inklusive standardschemat, finns i [Skapa ett schema](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   * **Tillgänglig FTE** för användaren i resursplaneraren är samma som användarens FTE som anges i användarinställningarna.
+   * Tillgänglig FTE för användaren i Resursplaneraren är samma som användarens FTE som anges i användarinställningarna.
 
      Om användaren till exempel har FTE 0,5 i användarinställningarna är användarens tillgängliga FTE 0,5 i Resursplaneraren. Mer information om värdet för användarens FTE så som det visas i användarinställningarna finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Användarens schema**: Användarens schema används för att fastställa användarens tillgänglighet i resursplaneraren. Värdet för användarens FTE ignoreras. I detta fall:
 
-   * **Tillgängliga timmar** i resursplaneraren är samma som timmarna i schemat för användaren.
+   * Tillgängliga timmar i resursplaneraren är samma som timmarna i användarens schema.
 
-     Om till exempel användarens schema har 40 timmar i veckan tillgängligt för arbete, kan användaren arbeta 40 timmar i veckan i Resursplaneraren.
+     Om användarens schema till exempel har 40 timmar i veckan tillgängligt för arbete, kan användaren arbeta 40 timmar i veckan i Resursplanering.
 
-   * **Tillgänglig FTE** i resursplaneraren beräknas enligt följande formel:
+   * Tillgängligt heltidsanställd i resursplaneraren beräknas enligt följande formel:
 
      `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
@@ -93,23 +91,24 @@ Baserat på hur den här inställningen är konfigurerad beräknas tillgängligh
 
 Först måste du beräkna användartillgängligheten och sedan kan du beräkna tillgängligheten för varje jobbroll.
 
-Tillgängligheten för jobbroller i resursplaneraren tar hänsyn till användarens totala tillgänglighet och till den **procentandel FTE-tillgänglighet** som är associerad med användarens roller.\
+Tillgängligheten för jobbroller i resursplaneraren tar hänsyn till användarens totala tillgänglighet och den procentandel FTE-tillgänglighet som är associerad med användarens roller.\
 ![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
 
-Mer information om hur du associerar ett **procentvärde för FTE-tillgänglighet** med en jobbroll för en användare finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Mer information om hur du associerar ett procentvärde för FTE-tillgänglighet med en jobbroll för en användare finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Om värdet för Tillgängliga timmar för en användare till exempel är 40 och de kan fylla en primär roll för 75 % av den tiden, och en annan roll för 25 % av den tiden, visar resursplaneraren att värdet **Tillgängliga timmar** för den primära rollen för en vecka är 30 timmar och att värdet **Tillgängliga timmar** för den andra rollen är 30 timmar är tio timmar. I det här fallet är heltidsanställda för den primära rollen 0,75 och heltidsanställda för den andra rollen 0,25.
+Om värdet för Tillgängliga timmar för en användare till exempel är 40 och de kan fylla en primär roll för 75 % av den tiden och en annan roll för 25 % av den tiden, visar resursplaneraren att värdet för Tillgängliga timmar för den primära rollen för en vecka är 30 timmar och att värdet för Tillgängliga timmar för den andra rollen är 10 timmar. I det här fallet är heltidsanställda för den primära rollen 0,75 och heltidsanställda för den andra rollen 0,25.
 
 >[!NOTE]
 >
 >Den totala tillgängliga tiden för användaren beräknas med en av de två metoder som beskrivs i avsnittet [Beräkna tillgängliga timmar och FTE för en användare i avsnittet Resursplanering](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) i den här artikeln.
 
-När du visar resursplaneraren i rollvyn är tillgängligheten för en jobbroll en total tillgänglighet för alla användare som kan slutföra den jobbrollen.\
+När du visar resursplaneraren i rollvyn är tillgängligheten för en jobbroll en total tillgänglighet för alla användare som kan slutföra den jobbrollen.
+
 Mer information om tillgängliga resurser i resursplaneraren finns i [Resursplaneringsöversikten](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Beräkna tillgängliga timmar och heltidsanställda för en användare i resursplaneraren (exempel) {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
 
-Följande tabell visar hur Tillgängliga timmar och Tillgängliga FTE beräknas för användaren i resursplaneraren, beroende på vilken metod som används av systemadministratören för FTE-beräkningen i Resurshanteringsinställningar.
+Följande tabell visar hur Tillgängliga timmar och Tillgängliga FTE beräknas för användaren i resursplaneraren beroende på vilken metod som används av systemadministratören för FTE-beräkningen i Resurshanteringsinställningar.
 
 I det här exemplet använder vi följande tal:
 
@@ -140,12 +139,12 @@ Förutom Tillgängliga timmar eller FTE visas även följande tidsinformation i 
 * Budgeterade timmar
 * Timavvikelse
 * Nettotimmar\
-  Mer information om de här värdena finns i [Översikt över timmar, FTE och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+  Mer information finns i [Översikt över timmar-, FTE- och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 * Timdifferens\
-  Mer information om vad det här värdet representerar finns i [Översikt över timmar, FTE och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+  Mer information finns i [Översikt över timmar-, FTE- och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-Du kan visa samma information i resursplaneraren som FTE eller som timmar.
+Du kan visa samma information i resursplaneraren som FTE eller timmar.
 
 Workfront använder följande formel för att visa alla andra värden som FTE i resursplaneraren:
 

@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: När APIModel INTERNAL inte har stöd för fältprojekttid (OpTask)Kategori
-description: När APIModel INTERNAL inte har stöd för fältprojekttid (OpTask)
+title: Kategori
+description: En tabell med tillgängliga fält för objektet Kategori, med beskrivningar och värdetyper.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 
 # Kategori
+
+<!-- Audited: 5/2025 -->
 
 FileClass: &quot;java.lang.IllegalArgumentException&quot;,\
 meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&quot;
@@ -90,7 +92,7 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">Externt referens-ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Sträng</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Redigerbart fält för användare avsett att användas som länk till ett externt objekt</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Redigerbart fält som är avsett att användas som länk till ett externt objekt</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">Redigerbar</span> </p> </td> 
   </tr> 
@@ -139,23 +141,23 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
 
 ## Referenser
 
-| Namn | Etikett | Typ | Typobjektkod | URL |
-|---|---|---|---|---|
-| Kund | kund | Kund | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Anges av | enteredBy | Användare | ANVÄNDARE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Grupp | grupp | Grupp | GRUPP | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Senast uppdaterad av | lastUpdatedBy | Användare | ANVÄNDARE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Namn | Etikett | Typ | Typobjektkod |
+|---|---|---|---|
+| Kund | kund | Kund | CUST |
+| Anges av | enteredBy | Användare | ANVÄNDARE |
+| Grupp | grupp | Grupp | GRUPP |
+| Senast uppdaterad av | lastUpdatedBy | Användare | ANVÄNDARE |
 
 
 ## Samlingar
 
-| Namn | Etikett | Typ | Typobjektkod | URL |
-|---|---|---|---|---|
-| Åtkomstregler | accessRules | Åtkomstregel | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Åtkomstregler för kategori | categoryAccessRules | Åtkomstregler för kategori | KATACR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Överlappande kategoriregler | categoryCascadeRules | Överlappande regler för kataloger | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Kategoriparametrar | categoryParameters | Kategoriparametrar | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Andra grupper | otherGroups | Grupp | GRUPP | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Namn | Etikett | Typ | Typobjektkod |
+|---|---|---|---|
+| Åtkomstregler | accessRules | Åtkomstregel | ACSRUL |
+| Åtkomstregler för kategori | categoryAccessRules | Åtkomstregler för kategori | KATACR |
+| Överlappande kategoriregler | categoryCascadeRules | Överlappande regler för kataloger | CTCSRL |
+| Kategoriparametrar | categoryParameters | Kategoriparametrar | CTGYPA |
+| Andra grupper | otherGroups | Grupp | GRUPP |
 
 
 ## Åtgärder
