@@ -36,16 +36,16 @@ Den här planen innehåller en mall som [!DNL Workfront] professionell tjänstor
 **[!UICONTROL Deactivate Terminated Employee IT Checklist]**
 Den här planen innehåller en mall som den [!DNL Workfront] professionella tjänstorganisationen har använt i åratal under implementeringskontakter med företagets IT-team för att hantera de olika aktiviteter som måste utföras när en anställd slutar sin anställning. Det är viktigt att inaktivera medarbetarnas åtkomst och göra andra systemändringar för att minska riskexponeringen och se till att andra medarbetare kan vara produktiva även när de inte är anställda.
 
-**[!UICONTROL Digital Asset Production](integrerad)**
+**[!UICONTROL Digital Asset Production] (integrerad)**
 [!UICONTROL Digital Asset Production] Planen för integrerade processer innehåller en mall som organiserar arbetet för en digital standardproduktionsprocess. Mallen är en enkel process för att skapa digitala resurser för ett team som använder sig av standardoperativa procedurer för att definiera hur arbetet ska utföras och som endast använder projektet för att prioritera arbetet och spåra förloppet.
 
-**[!UICONTROL Digital Asset Production](hanterad)**
+**[!UICONTROL Digital Asset Production] (hanterad)**
 Paketet [!UICONTROL Digital Asset Production] innehåller en mall som organiserar arbetet för en digital standardproduktionsprocess. Den är avsedd som en startpunkt för hantering av digitala resurser i Workfront. Använd det här paketet för att skapa en grund för att skapa digitalt innehåll och anpassa det sedan efter behoven i andra kreativa processer för digitalt material.
 
-**[!UICONTROL Digital Asset Revision](integrerad)**
+**[!UICONTROL Digital Asset Revision] (integrerad)**
 [!UICONTROL Digital Asset Revision] Planen för en integrerad process innehåller en enda mall för att organisera arbetsprocessen som är kopplad till redigering av en befintlig resurs. Mallen är en enkel process för ett team som förlitar sig på standardprocedurer för att definiera hur arbetet ska utföras och endast använder projektet för att prioritera arbetet och spåra förloppet.
 
-**[!UICONTROL Digital Asset Revision](hanterad)**
+**[!UICONTROL Digital Asset Revision] (hanterad)**
 Paketet [!UICONTROL Digital Asset Revision] innehåller en enda mall för att organisera arbetet som är kopplat till en revision av en befintlig resurs. Mallen ger en smidig process för en revidering av tillgångar och skapar samtidigt en enhetlig upplevelse jämfört med ett nytt resursproduktionsprojekt.
 
 **[!UICONTROL Edit Transferring Employee IT Checklist]**
@@ -93,10 +93,10 @@ Den här planen innehåller en enda kontrollpanel med 12 rapporter som ger chefe
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
 Den här planen innehåller en enda mall som organiserar det arbete som en [!DNL Workfront] -kund måste slutföra för att kunna hantera utökningen till nästa processer efter den första implementeringen.
 
-**[!UICONTROL Print Asset Production](integrerad)**
+**[!UICONTROL Print Asset Production] (integrerad)**
 Paketet [!UICONTROL Print Asset Production] innehåller en mall som organiserar arbetet för en standardtryckproduktionsprocess. Mallen är en enkel process för att skapa originalutskrifter för ett team som förlitar sig på standardprocedurer för att definiera hur arbetet ska utföras och som endast använder projektet för att prioritera arbetet och spåra förloppet.
 
-**[!UICONTROL Print Asset Production](hanterad)**
+**[!UICONTROL Print Asset Production] (hanterad)**
 Paketet [!UICONTROL Print Asset Production] innehåller en mall som organiserar arbetet för en standardtryckproduktionsprocess. Det här paketet är avsett som en startpunkt för hantering av framtagning av utskriftsresurser i Workfront. Använd det här paketet för att skapa en grund för framtagning av tryckt material och anpassa det sedan efter andra kreativa processer för tryckt material.
 
 **[!UICONTROL Print: Direct Mail Asset Production]**
@@ -120,10 +120,10 @@ Använd den här planen för att säkerställa att du har de inställningar och 
 **[!UICONTROL Risk Control Self Assessment: Quarterly Attestation]**
 [!UICONTROL Risk Control Self Assessment] (RSCA) definierar en process för att identifiera risker och mäta de kontroller din organisation har för att minska dessa risker. Den här mallen innehåller en struktur som hjälper dig att skapa ett första riskregister, upprätta en plan för att minska varje risk och tillhandahålla dokumentation som visar hur kontrollerna fungerar.
 
-**[!UICONTROL Social Asset Production](integrerad)**
+**[!UICONTROL Social Asset Production] (integrerad)**
 Paketet [!UICONTROL Social Asset Production] innehåller en mall som organiserar arbetet för att skapa en social artefakt. Mallen ger en smidig process för att skapa sociala resurser i ett team som använder sig av standardoperativa procedurer för att definiera hur arbetet ska utföras och använder projektet enbart för att prioritera arbetet och spåra förloppet.
 
-**[!UICONTROL Social Asset Production](hanterad)**
+**[!UICONTROL Social Asset Production] (hanterad)**
 Paketet [!UICONTROL Social Asset Production] innehåller en mall som organiserar arbetet för att skapa en social artefakt. Den är avsedd som en startpunkt för hantering av skapande av sociala resurser i Workfront. Använd det här paketet för att skapa en grund för alla processer för att skapa socialt innehåll genom att anpassa det efter behoven i andra kreativa processer för socialt innehåll.
 
 **[!UICONTROL Software Implementations/App Development]**
@@ -148,11 +148,11 @@ Den här planen innehåller en enda kontrollpanel med 7 rapporter som hjälper d
 
 Den här planen innehåller en enda kontrollpanel med 7 rapporter som hjälper dig att förverkliga Workfront. Dessa rapporter hjälper er att omsätta värdena för granskning och godkännande av arbeten till mätbara fördelar som ni kan följa över tiden för att få bättre resultat.
 
-**[!UICONTROL Video Asset Production](integrerad)**
+**[!UICONTROL Video Asset Production] (integrerad)**
 
 Paketet [!UICONTROL Video Asset Production] innehåller en mall som organiserar arbetsprocessen för en standardvideoproduktionsprocess. Mallen ger en smidig process för att skapa originalvideoresurser för ett team som använder standardprocedurer för att definiera hur arbetet ska utföras och som endast använder projektet för att prioritera arbetet och spåra förloppet.
 
-**[!UICONTROL Video Asset Production](hanterad)**
+**[!UICONTROL Video Asset Production] (hanterad)**
 Paketet [!UICONTROL Video Asset Production] innehåller en mall som organiserar arbetet för en standardvideoproduktionsprocess. Det här paketet är avsett som en startpunkt för hantering av skapande av videoresurser i Workfront. Använd det här paketet för att skapa en grund för att skapa videoinnehåll, och anpassa det sedan efter behoven i andra kreativa processer för specialiserade typer av videomaterial.
 
 **[!UICONTROL [!DNL Workfront] Communication and Launch Template]**
