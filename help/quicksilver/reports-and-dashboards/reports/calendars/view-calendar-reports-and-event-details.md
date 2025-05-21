@@ -6,9 +6,9 @@ description: Du kan visa kalenderrapporter och händelseinformation som du har s
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -82,31 +82,26 @@ Du kan välja bland följande kalenderrapportvyer:
    * **[!UICONTROL Week]**: Visar en vecka i kalendern
    * **[!UICONTROL Gantt]**: Visar en kontinuerlig vy av kalendern
 
-     Du kan se fler händelser i en [!UICONTROL Gantt]-vy genom att rulla nedåt eller åt sidan. En inläsningssymbol visas när data fylls i för vyn.
+     Du kan se fler händelser i en **Gantt** -vy genom att rulla nedåt eller åt sidan. En inläsningssymbol visas när data fylls i för vyn.
 
    >[!NOTE]
    >
-   >I vyerna [!UICONTROL Month] och [!UICONTROL Week] har händelser som är aktuella eller framtida (inklusive händelser som sträcker sig över flera dagar, så länge de innehåller idag eller en framtida dag) skuggning som motsvarar färgen i projekt- eller kalendergrupperingen. Tidigare händelser har ljusare skuggning för att ange att de inte längre är aktuella, men du kan ändå markera och visa dessa händelser.
+   >I vyerna **Månad** och **Vecka** har händelser som är aktuella eller framtida (inklusive händelser som sträcker sig över flera dagar, så länge de innehåller idag eller en kommande dag) skuggning som motsvarar färgen i projektet eller kalendergrupperingen. Tidigare händelser har ljusare skuggning för att ange att de inte längre är aktuella, men du kan ändå markera och visa dessa händelser.
 
-1. (Valfritt) Om du visar kalendern i vyerna [!UICONTROL Month] eller [!UICONTROL Week] kan du ändra kalendervyn med följande alternativ:
+1. (Valfritt) Om du visar kalendern i vyerna **Månad** eller **Vecka** kan du ändra kalendervyn med följande alternativ:
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* Så här ändrar du snabbt de visade datumen:
+   * Så här ändrar du snabbt de visade datumen:
 
-   1. Klicka på vänsterpilen i datumindikatorn i verktygsfältet **[!UICONTROL Calendar]** för att gå tillbaka i kalendern eller högerpilen för att gå framåt.
+      1. Klicka på vänsterpilen i datumindikatorn i verktygsfältet **[!UICONTROL Calendar]** för att gå tillbaka i kalendern eller högerpilen för att gå framåt.
 
-      ![Klicka på pilen för att ändra datumet](assets/click-arrows-to-change-dates-calendar-report.png)\
-      De visade datumen justeras med ett intervall baserat på den aktuella kalendervyn. Om du till exempel visar kalendern i vyn [!UICONTROL Week] visas kalendern antingen en vecka framåt eller en vecka bakåt, beroende på vilken pil du väljer.
+         ![Klicka på pilen för att ändra datumet](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. (Valfritt) Om du vill återgå till den aktuella dagen klickar du på [!UICONTROL **I dag**].
+         De visade datumen justeras med ett intervall baserat på den aktuella kalendervyn. Om du till exempel visar kalendern i vyn **Vecka** visas kalendern antingen en vecka framåt eller en vecka bakåt, beroende på vilken pil du väljer.
 
-
-1. (Valfritt) Om du vill visa en kalender i helskärmsläge klickar du på helskärmspilarna till höger i verktygsfältet **[!UICONTROL Calendar]**.
-   ![Klicka på pilen för att ändra datumet](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Tryck på Esc för att återgå till den normala vyn av kalendern.
+      1. (Valfritt) Om du vill återgå till den aktuella dagen klickar du på [!UICONTROL **I dag**].
 
 1. (Valfritt) Om du vill dölja händelserna för ett projekt eller en kalendergrupp som är länkad till kalendern, avmarkerar du projektet eller kalendergruppen i projektlistan.
    ![Dölj händelser](assets/hide-events-for-project-or-cal-grouping.png)

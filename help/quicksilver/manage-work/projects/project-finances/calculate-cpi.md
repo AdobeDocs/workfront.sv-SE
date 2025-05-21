@@ -7,14 +7,16 @@ description: Kostnadsprestandaindexet (CPI) beskriver förhållandet på projekt
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Beräkna index för kostnadsprestanda (CPI)
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -61,9 +63,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 +++
 
 ## Översikt över kostnadsprestandaindex (CPI)
-
-* [CPI-värdet](#the-cpi-value)
-* [Hur CPI beräknas](#how-cpi-is-calculated)
 
 ### CPI-värdet {#the-cpi-value}
 
@@ -184,7 +183,7 @@ Totalt budgeterat kostnadsarbete som utförts beräknas för följande:
 * **För ett projekt:**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
@@ -196,8 +195,6 @@ Du kan visa CPI för ett projekt eller en uppgift i ett projekt, en uppgiftslist
 1. Gå till det projekt eller den uppgift där du vill visa CPI:n.
 1. Expandera **Projektinformation** eller **Aktivitetsinformation** i den vänstra panelen, beroende på om du visar CPI för ett projekt eller en uppgift.
 
-1. Klicka på **Ekonomi**.
-
-   Processorn visas i fältet **CPI/SPI/CSI**.
+1. Klicka på **Ekonomi**. Processorn visas i fältet **CPI/SPI/CSI**.
 
    ![CPI i projekt](assets/cpi-on-project-nwe.png)

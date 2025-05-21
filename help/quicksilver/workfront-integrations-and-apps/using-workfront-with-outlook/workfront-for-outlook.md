@@ -2,20 +2,22 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Adobe Workfront för Outlook
+title: 'Adobe Workfront för Outlook: artikelindex'
 description: Adobe Workfront Fusion är integrerat med Outlook. I den här artikeln finns anvisningar om hur du installerar och konfigurerar integreringarna samt hur du använder dem i det dagliga arbetet.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront for Outlook]
+# [!DNL Adobe Workfront for Outlook: article index]
+
+<!-- Audited: 5/2025 -->
 
 Det här avsnittet innehåller följande artiklar:
 
