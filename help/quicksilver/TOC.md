@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f2ae543071fa77725037d9b4834651cd05b05b72
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '13209'
+source-wordcount: '13210'
 ht-degree: 0%
 
 ---
@@ -2503,7 +2503,7 @@ ht-degree: 0%
       * [Utgående meddelandeformat för händelseprenumerationer](wf-api/api/message-format-event-subs.md)
       * [Frågor och svar - Evenemangsprenumerationer](wf-api/general/event-subs-faq.md)
    * Document Webhooks API {#document-webhooks-api}
-      * [API-artiklar för webbhotell för dokument](wf-api/doc-wbhks-api/document-webhooks-api.md)
+      * [Document Webhooks API: artikelindex](wf-api/doc-wbhks-api/document-webhooks-api.md)
       * [Webbhooks - översikt](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [Registrera en webbkrosintegrering](wf-api/doc-wbhks-api/register-webhook-integration.md)
       * [Autentisering för dokumentwebbhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)

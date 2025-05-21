@@ -7,7 +7,7 @@ description: Genom att använda Adobe Workfront Resursplanering kan du enkelt f�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 0%
@@ -249,7 +249,6 @@ I projekt- och rollvyerna kan användare visas i listan under följande typer av
 
    * Om den sekundära jobbrollen har ett giltigt nummer för procentandelen FTE-tillgänglighet i sin användarprofil.
    * Om användaren är tilldelad aktiviteter i dessa roller.
-
 Mer information om procentandelen FTE-tillgänglighet för en jobbroll finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## Inga roller och inga användaravsnitt
