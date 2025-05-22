@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '3817'
+source-wordcount: '3816'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Mer information om vilken typ av timmar du kan logga in i Workfront finns i [Han
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkraven.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln och logga Project Specific hours:
 
@@ -41,7 +41,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Ljus eller högre för att logga timmar i ett projekt, en uppgift, ett ärende eller allmänna timmar på en tidrapport</p>
+   <td> <p>Nytt:</p>
+   <ul><li> Ljus eller högre för att logga timmar för en aktivitet, ett problem eller allmänna timmar på en tidrapport</li>
+   <li>Standard för att logga timmar i projekt</li></ul>
 
 <p>Aktuell: 
    <ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li>

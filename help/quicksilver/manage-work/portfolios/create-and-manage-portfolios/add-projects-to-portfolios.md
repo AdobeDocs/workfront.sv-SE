@@ -6,16 +6,20 @@ description: Vi rekommenderar att du lägger till projekt i portföljer när du 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Lägga till projekt i en portfölj
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
+
+<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 
 Vi rekommenderar att du lägger till projekt i portföljer när du initierar dem. Du kan dock lägga till dem i en portfölj när som helst under deras livstid.
 
@@ -40,7 +44,7 @@ Tänk på följande när du lägger till projekt i portföljer:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
    <td><p>Nytt: Standard</p> 
-   <p>Aktuell:[!UICONTROL Plan] </p> </td> 
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
@@ -68,8 +72,6 @@ Tänk på följande när du lägger till projekt i portföljer:
    >[!TIP]
    >
    >Du kan inte lägga till ett projekt när du visar listan med projekt i vyn [!UICONTROL Milestone].
-
-   ![Lägg till befintligt projekt](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
    Välj bland följande alternativ:
 
@@ -102,7 +104,11 @@ Tänk på följande när du lägger till projekt i portföljer:
 
    ![Listrutan Nytt projekt](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Villkorligt) Om du valde att lägga till ett befintligt projekt börjar du skriva namnet på ett projekt i fältet **[!UICONTROL Add Projects to this Portfolio]** och klickar sedan på dem när de visas i listan.
+1. (Villkorligt) Om du valde att lägga till ett befintligt projekt öppnas rutan <span class="preview">**Lägg till projekt** .</span> <!--check this after UI changes-->
+
+   <span class="preview">![Lägg till befintligt projekt](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+
+1. Börja skriva namnet på ett projekt i fältet **[!UICONTROL Add Projects to this Portfolio]** och klicka sedan på dem när de visas i listan.  <!--check this after UI changes-->
 
    Du kan lägga till fler än ett projekt.
 
@@ -110,6 +116,6 @@ Tänk på följande när du lägger till projekt i portföljer:
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Klicka på **[!UICONTROL Add Projects]**.
+1. Klicka på **[!UICONTROL Add Projects]**. <!--check this after UI changes-->
 
    Det eller de projekt du har valt är nu kopplade till portföljen.

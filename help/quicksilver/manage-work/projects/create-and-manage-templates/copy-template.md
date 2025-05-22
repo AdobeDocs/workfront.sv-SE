@@ -6,9 +6,9 @@ description: Förutom att skapa en projektmall från grunden kan du även kopier
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,6 @@ Följande objekt kopieras aldrig från en befintlig mall till en ny:
 
 ## Kopiera en mall
 
-
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Gå till mallen som du vill kopiera.
@@ -82,11 +81,11 @@ Följande objekt kopieras aldrig från en befintlig mall till en ny:
 
    Rutan **Kopiera mall** öppnas.
 
-   <!--![Copy template box](assets/copy-template-box.png)-->
+   ![Kopiera mallruta](assets/copy-template-box.png)
 
 1. Ange ett namn för mallen i fältet **Nytt mallnamn**.
 
-   Som standard är det nya namnet `Copy of Original template name`.
+   Som standard anger Workfront det nya namnet enligt följande format: `Copy of Original template name`.
 
 1. Välj alternativet **Behåll användartilldelningar för uppgifter och mall** om du vill överföra alla uppgifter och malltilldelningar från den ursprungliga mallen till den nya mallen. Uppgiftstilldelningar för mallar, mallägare och sponsor överförs till den kopierade mallen.
 1. Klicka på **Spara** för att skapa en kopia av mallen.

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Skapa och redigera risker i projekt
-description: Risker är tänkbara händelser eller faktorer som förhindrar att ett projekt slutförs i tid eller inom budgeten. Risker kan registreras som en del av skapandet av ett projekts affärsfall eller genom att använda fliken Risker. Risker skapas endast i ett projekt. Du kan inte associera risker med uppgifter eller ärenden.
+description: Risker är tänkbara händelser eller faktorer som förhindrar att ett projekt slutförs i tid eller inom budgeten. Du kan registrera projektrisker som en del av skapandet av ett projekts affärsfall eller genom att använda fliken Risker. Du kan lägga till risker i projekt och mallar. Du kan inte associera risker med uppgifter eller ärenden.
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,21 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-Risker är tänkbara händelser eller faktorer som förhindrar att ett projekt slutförs i tid eller inom budgeten. Risker kan registreras som en del av skapandet av ett projekts affärsfall eller genom att använda fliken Risker. Risker skapas endast i ett projekt. Du kan inte associera risker med uppgifter eller ärenden.
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
+
+<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
+Risker är tänkbara händelser eller faktorer som förhindrar att ett projekt slutförs i tid eller inom budgeten. Du kan registrera risker när du skapar ett affärsärende för ett projekt eller genom att använda fliken Risker.
+
+Du kan bara skapa risker i projekt eller mallar. Du kan inte associera risker med uppgifter eller ärenden.
 
 Risker kan kopplas till kostnad, men den faktiska riskkostnaden påverkar inte projektets faktiska kostnad.
 
 >[!NOTE]
 >
->I den här artikeln definieras riskerna som är kopplade till projektet när du definierar dem i projektets affärsmodell eller när du lägger till dem på fliken Risker i projektet. Information om fältet Risk som är tillgängligt när du redigerar ett projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+>I den här artikeln definieras riskerna som är kopplade till projektet när du definierar dem i projektets affärsmodell eller när du lägger till dem på fliken Risker i projektet.
+>
+>Information om fältet Risk som är tillgängligt när du redigerar ett projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Åtkomstkrav
 
@@ -94,8 +102,7 @@ Så här skapar eller redigerar du en risk i ett affärsärende:
 
 Förutom att skapa och redigera risker i affärsärendet kan du göra det i avsnittet **Risker** i ett projekt.
 
-* [Skapa risker i riskområdet](#create-risks-in-the-risks-area)
-* [Redigera risker i området Risker](#edit-risks-in-the-risks-area)
+Du kan skapa och redigera risker i avsnittet Risker i ett projekt eller en mall. Att skapa risker för mallar är detsamma som att skapa risker för projekt.
 
 ### Skapa risker i området Risker {#create-risks-in-the-risks-area}
 
@@ -104,33 +111,37 @@ Förutom att skapa och redigera risker i affärsärendet kan du göra det i avsn
 
    ![Risker i aktiviteten](assets/risks-section-on-project-2022.png)
 
-1. Klicka på **Börja lägga till risker** och skapa risker genom att redigera deras information.
+1. Klicka på **Börja lägga till risker** och skapa risker genom att redigera deras information. **Beskrivning** är ett obligatoriskt fält
 
    eller
 
-   Klicka på **Ny risk**. Dialogrutan **Ny risk** öppnas.
+   Klicka på **Ny risk**.
 
-1. Ange följande information:
+   <span class="preview">Rutan **Ny risk** öppnas.</span>
 
-   * **Beskrivning**: Beskriv risken.
-   * **Risktyp**: ange vilken kategori risken tillhör.\
+   <span class="preview">![Ny riskruta](assets/new-risk-box.png)</span>
+
+1. (Villkorligt) Om du lägger till en risk i rutan **Ny risk** anger du följande information:
+
+   * **Beskrivning**: Beskriv risken. Detta är ett obligatoriskt fält.
+   * **Risktyp**: Ange vilken kategori risken tillhör.\
      Din Workfront-administratör definierar de risktyper som är tillgängliga i din miljö. Mer information om hur du definierar risktyper finns i artikeln [Redigera och skapa risktyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-   * **Sannolikhet**: ange sannolikheten för att risken inträffar som ett procentvärde.
-   * **Potentiell kostnad**: ange den uppskattade kostnaden om risken ska inträffa.
-   * **Korrigeringskostnad**: ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
-   * **Faktisk kostnad**: ange den faktiska kostnaden för risken om risken inträffade.
+   * **Sannolikhet**: Ange sannolikheten för att risken inträffar som ett procentvärde.
+   * **Potentiell kostnad**: Ange den uppskattade kostnaden om risken ska inträffa.
+   * **Korrigeringskostnad**: Ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
+   * **Faktisk kostnad**: Ange den faktiska kostnaden för risken om risken inträffade.
    * **Åtgärdsplan**: Uppdatera beskrivningen av planen för att minska risken.
 
 1. (Villkorligt) Klicka på **Ange** om du skapar risken online.
 
    eller
 
-   Klicka på **Spara** om du redigerar informationen i dialogrutan **Ny risk** .
+   Klicka på **Spara** om du redigerar informationen i rutan **Ny risk** .
 
 1. (Valfritt) Välj en annan **status** för risken i listrutan **Status** när du använder vyn **Standard** för listan över risker.
 
-   Som standard är status för en risk **Identifierad**.
+   Som standard är **Status** för en risk **Identifierad**.
 
 ### Redigera risker i området Risker {#edit-risks-in-the-risks-area}
 
@@ -152,19 +163,19 @@ Så här redigerar du risker:
    >
    >Du använder samma information för alla valda risker när du redigerar flera risker samtidigt. Den information som är associerad med varje risk innan dina ändringar skrivs över i en gruppredigering.
 
-1. Om du har klickat på **Redigera** öppnas dialogrutan **Redigera risk** .
+1. Om du har klickat på **Redigera** öppnas rutan **Redigera risk** eller **Redigera risker** .
 
    Överväg att redigera följande fält:
 
-   * **Beskrivning**: redigera beskrivningen av risken.
+   * **Beskrivning**: Redigera beskrivningen av risken.
    * **Risktyp**: ange vilken kategori risken tillhör.
-   * **Sannolikhet**: ange sannolikheten för att risken inträffar som ett procentvärde.
-   * **Potentiell kostnad**: ange den uppskattade kostnaden om risken ska inträffa.
-   * **Korrigeringskostnad**: ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
-   * **Faktisk kostnad**: ange den faktiska kostnaden för risken om risken inträffade.
+   * **Sannolikhet**: Ange sannolikheten för att risken inträffar som ett procentvärde.
+   * **Potentiell kostnad**: Ange den uppskattade kostnaden om risken ska inträffa.
+   * **Korrigeringskostnad**: Ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
+   * **Faktisk kostnad**: Ange den faktiska kostnaden för risken om risken inträffade.
    * **Åtgärdsplan**: Uppdatera beskrivningen av planen för att minska risken.
 
-1. Klicka på **Spara ändringar**.
+1. <span class="preview">Klicka på **Spara**.</span>
 1. (Valfritt) Redigera **status** för en risk i listrutan **Status** när du använder vyn **Standard** för listan över risker.
 
    >[!NOTE]

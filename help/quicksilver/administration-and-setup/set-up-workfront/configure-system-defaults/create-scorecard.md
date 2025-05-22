@@ -4,28 +4,39 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Skapa ett styrkort
 description: Ett styrkort mäter hur väl ett projekt överensstämmer med de tidigare fastställda kriterierna för en portfölj. Ett styrkort återspeglar ofta organisationens uppdrag, värderingar och strategiska mål.Portfolio-chefer definierar vanligtvis styrkortsfrågor och svar för att säkerställa att de är meningsfulla och värdefulla vid projektprioritering och urval. En  [!DNL Adobe Workfront] administratör bygger styrkorten baserat på rekommendationer från portföljförvaltare.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
 
 # Skapa ett styrkort
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
+
+<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
 Ett styrkort mäter hur väl ett projekt överensstämmer med de tidigare fastställda kriterierna för en portfölj. Ett styrkort avspeglar ofta organisationens uppdrag, värderingar och strategiska mål.
 
-Portfolio chefer definierar vanligtvis styrkortsfrågor och svar för att säkerställa att de är meningsfulla och värdefulla vid projektprioritering och urval. En [!DNL Adobe Workfront]-administratör skapar styrkorten baserat på rekommendationer från portföljförvaltare.
+Som portföljförvaltare kan du definiera styrkortsfrågor och svar för att säkerställa att de är meningsfulla och värdefulla vid projektprioritering och urval.
+
+Som [!DNL Adobe Workfront]-administratör kan du skapa styrkort baserat på rekommendationer från portföljförvaltare.
 
 De frågor och svar som väljs ut för ett styrkort måste vara kvantifierbara för att det ska gå att jämföra olika projekt.
+
+Du kan skapa ett styrkort på följande sätt:
+
+* Från början
+* Genom att kopiera en befintlig
 
 ## Åtkomstkrav
 
@@ -56,17 +67,15 @@ Du måste ha följande åtkomst:
 
 +++
 
-## Skapa ett styrkort
-
-Du kan skapa ett styrkort från grunden eller kopiera ett befintligt.
-
-Så här skapar du ett styrkort från grunden:
+## Skapa ett styrkort från grunden
 
 {{step-1-to-setup}}
 
-1. Klicka på **[!UICONTROL Scorecards]** och sedan på **[!UICONTROL New Scorecard]**. Då öppnas rutan **Nytt styrkort**.
+1. Klicka på **[!UICONTROL Scorecards]** och sedan på **[!UICONTROL New Scorecard]**.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">Rutan **Nytt styrkort** öppnas.</span>
+
+   <span class="preview">![Ny styrkortsruta](assets/new-scorecard-350x173.png)</span>
 
 1. Ange **[!UICONTROL Scorecard Name]** och **[!UICONTROL Description]**.
 
@@ -104,7 +113,7 @@ Så här skapar du ett styrkort från grunden:
    >
    >Du kan ändra ordningen på frågorna i styrkortet genom att dra och släppa frågorna i rätt ordning.
 
-1. Klicka på **[!UICONTROL Save]** när du är klar med att ange all information.
+1. Klicka på **[!UICONTROL Save]**.
 
    Detta skapar styrkortet och projektledare kan nu bifoga det till projektärendet.
 
@@ -116,16 +125,20 @@ Du kan skapa ett styrkort genom att kopiera och redigera ett befintligt.
 
 1. Klicka på **[!UICONTROL Scorecards]** i den vänstra panelen.
 1. Markera ett styrkort i listan och klicka sedan på ikonen **Kopiera** ![Kopiera styrkort](assets/copy-scorecard-icon.png) högst upp i styrkortslistan.
-Rutan **Kopiera styrkort** öppnas.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">Rutan **Kopiera styrkort** öppnas.</span>
+
+   <span class="preview">![Kopiera styrkortsruta](assets/copy-scorecard-box.png)</span>
+
 1. Ange följande information:
 
-   * **Styrkort**: Ange namnet på styrkortet.  Som standard uppdateras namnet automatiskt enligt följande format:
+   * **Styrkort**: Uppdatera namnet på styrkortet.  Som standard uppdateras namnet automatiskt enligt följande format:
 
      `Original scorecard name (Copy)`
    * **Beskrivning**: Ange ytterligare information om styrkortet.
 1. Klicka på **Spara**.
+
+   Detta skapar ett nytt styrkort med samma information som det ursprungliga. Projektledare kan nu bifoga den till sina projekt.
 
 ## Tillämpa ett styrkort på ett projekt
 

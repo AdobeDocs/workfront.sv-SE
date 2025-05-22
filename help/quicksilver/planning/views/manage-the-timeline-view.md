@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3152'
 ht-degree: 0%
 
 ---
@@ -139,13 +139,8 @@ Så här hanterar du en tidslinjevy:
       * År
       * Kvartal
       * Månad
-1. Klicka på **Växla till standardvyn** om du vill visa poster på separata rader <!--check to see if they updated the name of the setting here-->
-
-   eller
-
-   Klicka på **Växla till komprimerad vy** för att visa de poster vars datum inte överlappar på samma rad. <!--check to see if they updated the name of the setting here-->
-
-   Poster visas som standard i den komprimerade vyn.
+1. (Valfritt) Klicka på **Växla till komprimerad vy** om du vill visa de poster vars datum inte överlappar på samma rad. <!--check to see if they updated the name of the setting here-->
+1. (Villkorligt) Om du har ändrat läge till **Kompakt** klickar du på **Växla till standardvyn** för att visa poster på separata rader. <span class="preview">Alternativet **Standard** är standard.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
@@ -353,7 +348,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    Om du inte har något fält med färgkodade alternativ för den valda posttypen är det här alternativet nedtonat.
 
-   1. <span class="preview">(Valfritt) Om du använder alternativet Uppdelning upprepar du stegen som börjar med steg 4 för varje ansluten post som visas på tidslinjen. </span>
+1. <span class="preview">(Valfritt) Om du använder alternativet Uppdelning upprepar du stegen som börjar med steg 4 för varje ansluten post som visas på tidslinjen. </span>
 
 1. Klicka på **Spara**.
 
@@ -389,7 +384,7 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
 #### Dela upp anslutna poster
 
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. (Villkorligt) Om du visar tidslinjevyn i standardläge klickar du på **Brytning**.
+1. Klicka på **Brytning**</span> i det övre högra hörnet av tidslinjevyn i lägena **Standard** eller <span class="preview">**Kompakt**.
 1. Expandera rutan **Markera en länkad posttyp** och välj en ansluten posttyp. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Brytningsväljaren och knappen i tidslinjevyn](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
    >
    >Både Produkter och Program måste vara kopplade till kampanjerna för att kunna visas som alternativ för uppdelningsalternativet, och du kan lägga till dem i uppdelningen i valfri ordning.
 
+1. <span class="preview">(Villkorligt) Om du visar tidslinjen i kompakt läge klickar du på **Växla vy**. Nedbrytningen visas inte i läget **Kompakt**.</span>
 
+   >[!TIP]
+   >
+   ><span class="preview">Välj **Visa inte det här igen** i **Växla till standardvyn?**-rutan innan du växlar vyn. </span>
+   >
+   ><span class="preview">Den här inställningen sparas bara för den aktuella webbläsaren. Om du ändrar webbläsare eller datorer måste du välja den här inställningen igen.</span>
+   >
+   >Du kan inte återgå till läget Kompakt när du har växlat vyn till Standard och när du visar kopplade poster i vyn.
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till fler anslutna poster.
 
 
