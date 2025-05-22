@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
+source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
 workflow-type: tm+mt
-source-wordcount: '3691'
+source-wordcount: '3938'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 
 ## Administratör och installation
+
+### Nytt utseende på rutorna Nytt och Kopiera styrkort
+
+**Förhandsversion: 22 maj 2025; Produktionsversion: 29 maj 2025**
+
+Vi har uppdaterat utseendet på rutorna Nytt och Kopiera styrkort så att de matchar designen i andra delar av programmet. Du kan visa den uppdaterade designen när du skapar eller kopierar ett styrkort under Konfigurera i Workfront.
+
+Mer information finns i [Skapa ett styrkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Gränssnittsuppdateringar av en grupps nyligen återställda objekt
 
@@ -82,7 +90,42 @@ Mer information finns i [Sök [!DNL Adobe Workfront]](/help/quicksilver/workfron
 
 Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-konto med en modernare design som är förenlig med andra delar av Workfront.
 
-## Rapporter och kontrollpanel
+## Projekt
+
+## Utforma och känna av uppdateringar av riskrutorna Nytt och Redigera för ett projekt eller en mall
+
+**Förhandsversion: 22 maj 2025; Produktionsversion: 29 maj 2025**
+
+Vi har uppdaterat utseendet på riskrutorna Ny risk och Redigera risker när vi lägger till risker eller redigerar dem i ett projekt eller en mall i avsnittet Risker. Utformningen av rutorna överensstämmer nu med andra delar av Workfront.
+
+Mer information finns i [Skapa och redigera risker i projekt](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects).
+
+### Utseendeändringar för rutan Kopiera mall
+
+**Förhandsversion: 22 maj 2025; Produktionsversion: 22 maj 2025**
+
+Vi har uppdaterat utseendet på rutan Kopiera mall så att den matchar designen i andra delar av Workfront.
+
+Mer information finns i [Kopiera en projektmall](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+
+### Hitta och känna av uppdateringar när du lägger till objekt i program och portfolior
+
+**Förhandsversion: 22 maj 2025; Produktionsversion: 29 maj 2025**
+
+Vi har uppdaterat gränssnittet för rutorna Lägg till när vi gör följande:
+
+* Lägga till projekt i program
+* Lägga till projekt i portföljer
+* Lägga till program i portföljer
+
+Mer information finns i följande artiklar:
+
+* [Lägg till ett befintligt program i en portfölj](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Lägga till projekt i en portfölj](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Lägg till ett projekt i ett program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+
+## Rapporter och kontrollpaneler
 
 ### URL:er med /tile eller /qstile stöds inte längre i Workfront Dashboards
 
@@ -151,7 +194,15 @@ Vi har uppdaterat licensavtalssidan med en modernare design som överensstämmer
 
 +++Expandera för att visa de uppdateringar av gränssnittet för administration och konfiguration som gjorts under andra kvartalet
 
-### Gränssnittsuppdateringar i området Resurshantering i installationsprogrammet
+### Gränssnittsuppdateringar av nyligen återställda objekt
+
+**Förhandsversion: 23 april 2025; Produktionsversion: 23 april 2025**
+
+Vi har uppdaterat utseendet på de nyligen återställda objekten i inställningsområdet så att de matchar designen i andra delar av Workfront. Ingen funktionalitet har ändrats för nyligen återställda projekt, uppgifter, förfrågningar, dokument eller mallar.
+
+Om du vill visa den här ändringen går du till Inställningar > Papperskorgen > Senast återställt.
+
+Mer information finns i [Visa återställda objekt](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Gränssnittsuppdateringar i resurshanteringsområdet under installationen
 
 **Förhandsversion: 17 april 2025; börjar veckan 17 april 2025**
 
@@ -159,7 +210,7 @@ Vi har uppdaterat utseendet och känslan i inställningarna för resurshantering
 
 Mer information finns i [Konfigurera inställningar för resurshantering](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Gränssnittsuppdateringar i en lista över milstolpsökvägar i installationsprogrammet
+### Gränssnittsuppdateringar i en lista över milstolpsökvägar i installationsprogrammet
 
 **Förhandsversion: 6 mars 2025; börjar veckan 10 april 2025**
 
@@ -167,7 +218,7 @@ Vi har uppdaterat utseendet och känslan för listan Sökväg för milstolpe i K
 
 Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-## Gränssnittsuppdatering till rutan Redigera risktyp i installationen
+### Gränssnittsuppdatering till rutan Redigera risktyp i installationen
 
 **Förhandsgranskningsversion: 27 mars 2025; börjar veckan 10 april 2025**
 
@@ -483,16 +534,6 @@ Uppdateringen innehåller visuella ändringar av listorna och verktygsfälten i 
 
 Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Gränssnittsuppdateringar av nyligen återställda objekt
-
-**Förhandsversion: 23 april 2025; Produktionsversion: 23 april 2025**
-
-Vi har uppdaterat utseendet på de nyligen återställda objekten i inställningsområdet så att de matchar designen i andra delar av Workfront. Ingen funktionalitet har ändrats för nyligen återställda projekt, uppgifter, förfrågningar, dokument eller mallar.
-
-Om du vill visa den här ändringen går du till Inställningar > Papperskorgen > Senast återställt.
-
-Mer information finns i [Visa återställda objekt](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
-
 ### Gränssnittsuppdateringar för rutan Ta bort företag i en företagsrapport
 
 **Förhandsversion: 17 april 2025; Produktionsversion: 17 april 2025**
@@ -620,3 +661,8 @@ Uppdateringen innehåller följande ändringar:
 * Markerade åtgärden Ta bort genom att visa den i rött.
 
 Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+
+
+

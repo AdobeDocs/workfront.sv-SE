@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Ny upplevelse när du delar upp poster i kompakt läge i tidslinjevyn
+
+>[!NOTE]
+>
+>* Förhandsgranska: 22 maj 2025
+>* Production fast release: 12 juni 2025
+>* Produktion för alla kunder: 17 juli 2025
+
+Vi har ändrat upplevelsen när du delar upp poster i tidslinjevyn och du har använt vyn Kompakt.
+Med den nya uppdateringen ombeds du, när du definierar dina brytningsobjekt medan du visar tidslinjen i kompakt läge, att växla till standardvyn när du har avslutat konfigurationen av brytningsvillkoren.
+
+Före den här förbättringen var det inte möjligt att definiera brytningsvillkoren när tidslinjevyn visas i kompakt läge.
+
+Med den här uppgraderingen är standardalternativet. Före detta var läget Kompakt som standard.
+
+Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Uppdatera inställningarna för tidslinjevyn för att definiera utseendet och känslan för de kopplade posternas fält när du använder alternativet Brytning
 
