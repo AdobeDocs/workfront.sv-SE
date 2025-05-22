@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront</strong></td> 
-   <td>Alla</td> 
+   <td><p>Alla</p>
+
+<p>Det går bara att lägga till anpassade program på huvudmenyn för organisationer som har licens för Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
@@ -80,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >
      >Som standard visas området Mina uppdateringar i hemikonen på huvudmenyn för dem som granskar licensen (i den aktuella licensplanen), såvida de inte har en layoutmall kopplad till sin profil som innehåller området Mina uppdateringar på huvudmenyn, utöver området Hem.
 
-   * Portfolio
+   * Portföljer
    * Program
    * Projekt
    * Rapporter
@@ -120,6 +122,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >[!NOTE]
      >
      >Planering kräver ytterligare licens. Mer information om Workfront Planning finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md)
+      * Anpassat program
+
+     >[!NOTE]
+     >
+     > Anpassade program måste skapas separat innan de blir tillgängliga som alternativ för huvudmeny. Mer information finns i [Skapa ett anpassat program för Workfront med Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
 
 1. Gör något av följande:
 
