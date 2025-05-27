@@ -126,9 +126,9 @@ Innan du lägger till en användare ska du samla in informationen om användaren
    >
    >* Om Workfront-administratören har aktiverat en SSO-integrering med Workfront är fältet Tillåt endast &lt;SSO-konfiguration>-autentisering dolt om du inaktiverar e-postinbjudan. Fältet Federations-ID eller &lt;SSO-konfiguration>-användarnamn är fortfarande synligt.
    >
-   * Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
+   >* Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
    >
-   För befintliga Adobe-användare kan det hända att användaren inte får något e-postmeddelande om att Workfront är tillgängligt. Detta är en inställning som styrs av Adobe-administratören för produkten.
+   >För befintliga Adobe-användare kan det hända att användaren inte får något e-postmeddelande om att Workfront är tillgängligt. Detta är en inställning som styrs av Adobe-administratören för produkten.
 
 1. Klicka på **Lägg till den här personen**.
 
@@ -138,15 +138,15 @@ Innan du lägger till en användare ska du samla in informationen om användaren
 
    >[!NOTE]
    >
-   * Om du är gruppadministratör och lägger till en användare i en organisation som har anslutit till Adobe Admin Console är alternativen för det här steget **Skicka användare för administratörsgodkännande** och **Skicka för godkännande och starta ett annat**. Användaren skapas i en inaktiverad och väntande godkännandestatus.
+   >* Om du är gruppadministratör och lägger till en användare i en organisation som har anslutit till Adobe Admin Console är alternativen för det här steget **Skicka användare för administratörsgodkännande** och **Skicka för godkännande och starta ett annat**. Användaren skapas i en inaktiverad och väntande godkännandestatus.
    > 
-   * Om användaren inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter och en skärmuppdatering inte tar bort märket Väntande godkännande, kan du godkänna användaren manuellt.
+   >* Om användaren inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter och en skärmuppdatering inte tar bort märket Väntande godkännande, kan du godkänna användaren manuellt.
    >
-   1. Gå till Inställningar > Användare.
-   1. Välj användare i listan Användare.
-   1. Klicka på menyn med tre punkter i listhuvudet.
-   1. Välj **Godkänn**.
-   1. Uppdatera sidan efter några minuter.
+   >1. Gå till Inställningar > Användare.
+   >1. Välj användare i listan Användare.
+   >1. Klicka på menyn med tre punkter i listhuvudet.
+   >1. Välj **Godkänn**.
+   >1. Uppdatera sidan efter några minuter.
 
 
 ## Kopiera en användare för att skapa en ny
@@ -155,11 +155,11 @@ Du kan skapa en användare genom att kopiera en befintlig användare.
 
 >[!NOTE]
 >
-När du skapar en användare på det här sättet kopieras all information från den ursprungliga användaren till den nyskapade användaren förutom följande:
+>När du skapar en användare på det här sättet kopieras all information från den ursprungliga användaren till den nyskapade användaren förutom följande:
 >
-* Informationen i avsnittet Personlig information.
-* Visa när jag loggar in: Standardstartfliken för åtkomstnivån är markerad i den här rutan.
-* Direktrapporter
+>* Informationen i avsnittet Personlig information.
+>* Visa när jag loggar in: Standardstartfliken för åtkomstnivån är markerad i den här rutan.
+>* Direktrapporter
 >
 
 Så här skapar du en ny användare genom att kopiera en befintlig:
@@ -183,6 +183,6 @@ Om du har valt att skicka en inbjudan till användaren bör användaren få ett 
 
 >[!NOTE]
 >
-Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
+>Om din organisation har anslutit sig till Admin Console och du lägger till en användare via Workfront har du inte möjlighet att skicka en e-postinbjudan.
 >
-För befintliga Adobe-användare kan det hända att användaren inte får något e-postmeddelande om att Workfront är tillgängligt. Detta är en inställning som styrs av Adobe-administratören för produkten.
+>För befintliga Adobe-användare kan det hända att användaren inte får något e-postmeddelande om att Workfront är tillgängligt. Detta är en inställning som styrs av Adobe-administratören för produkten.
