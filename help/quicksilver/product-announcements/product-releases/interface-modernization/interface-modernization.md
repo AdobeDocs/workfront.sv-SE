@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
+source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3990'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 
 ## Administratör och installation
+
+### Gränssnittsuppdatering för fliken Åtkomstlogg i installationsprogrammet
+
+**Förhandsversion: 21 maj 2025; Produktionsversion: 29 maj 2025**
+
+Vi har uppdaterat fliken Åtkomstlogg med en modernare design som är konsekvent med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Inställningar > Logga in som > Välj åtkomstlogg högst upp på skärmen.
 
 ### Nytt utseende på rutorna Nytt och Kopiera styrkort
 
@@ -66,7 +74,7 @@ Inga funktionsändringar har gjorts i den här uppdateringen.
 
 ### Dela ett dokument med en extern e-postadress
 
-**Förhandsversion: 15 maj 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 15 maj 2025; Produktionsversion: 21 maj 2025**
 
 Vi har uppdaterat delningsdialogrutan så att användare kan dela dokument med externa användare via en e-postadress. Den här funktionen var inte tillgänglig för tillfället på grund av gränssnittets moderniseringsarbete.
 
