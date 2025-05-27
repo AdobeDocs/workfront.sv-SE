@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1215'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ I följande tabell visas de företag, grupper och roller som ska importeras:
   <tr> 
    <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Ditt företag</em> </p> <p>XYZ, Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">Ekonomi</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marknadsföring </p> <p valign="top" rowspan="7">Försäljning</p> </td> 
-   <td valign="top"> <p valign="top">Affärsanalytiker</p> <p valign="top">Kreativ styrenhet</p> <p valign="top">Designer</p> <p valign="top">Resurshanteraren</p> <p valign="top">Scrum Master</p> <p valign="top">Teknikskribent</p> <p valign="top">Webbutvecklare</p> </td> 
+   <td valign="top"> <p valign="top">Affärsanalytiker</p> <p valign="top">Creative</p> <p valign="top">Designer</p> <p valign="top">Resurshanteraren</p> <p valign="top">Scrum Master</p> <p valign="top">Teknikskribent</p> <p valign="top">Webbutvecklare</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -309,3 +309,13 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 1. Importera Excel-filen.
 
    Följ anvisningarna i [Importera data till Adobe Workfront med en snabbstartmall](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+
+
+>[!NOTE]
+>
+>Användare som importeras till Workfront skapas med statusen Inaktiverad och Väntande godkännande.
+> 
+>Om din organisation har migrerats till Adobe Admin Console och en användare inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter, kan du lägga till gruppen med användare direkt till Adobe Admin Console.
+>
+>Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.
