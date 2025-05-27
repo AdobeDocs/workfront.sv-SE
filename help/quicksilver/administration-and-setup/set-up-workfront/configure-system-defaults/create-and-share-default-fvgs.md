@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
+source-git-commit: 4fbf88c544cd56887e6f6f36d7aabfa0668a2a05
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,18 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 Du kan göra filtret, visningen eller grupperingen tillgänglig för användare i systemet. Mer information om att dela filter, vyer och grupperingar med andra användare finns i avsnittet [Gör filter, vyer och grupperingar tillgängliga för användare](#make-filters-views-or-groupings-available-to-users) i den här artikeln.
 
 
-## Visa eller dölj filter, vyer eller grupperingar som är tillgängliga från layoutmallen
+## Göra filter, vyer och grupperingar tillgängliga för alla användare {#make-filters-views-or-groupings-available-to-users}
 
-Du kan välja att visa eller dölja filter, vyer eller grupperingar i layoutmallen. Synliga filter är tillgängliga för alla användare i hela systemet. Du kan använda en layoutmall för att dölja synliga filter för specifika användare eller grupper.
+Du kan välja att visa eller dölja filter, vyer eller grupperingar i systemet. Synliga filter är tillgängliga för alla användare i hela systemet. Den här inställningen fungerar som en på/av-switch för hela systemet, inklusive layoutmallen.
+
+Om du vill dölja filter, vyer eller grupperingar för specifika användare rekommenderar vi att du använder en layoutmall i stället för att inaktivera dem i hela systemet.
 
 >[!NOTE]
 >
->Om en användare aktivt använder ett filter, en vy eller en gruppering och sedan en administratör inaktiverar den, har användaren fortfarande åtkomst tills han eller hon väljer ett nytt filter, en ny vy eller en ny gruppering. När de har valt en ny kan de inte längre återgå till den dolda.
+>* Om en användare aktivt använder ett filter, en vy eller en gruppering och sedan en administratör inaktiverar den, har användaren fortfarande åtkomst tills han eller hon väljer ett nytt filter, en ny vy eller en ny gruppering. När de har valt en ny kan de inte längre återgå till den dolda.
+>* Om alla filter, vyer och grupperingar begränsas via layoutmallen eller inaktiveras i hela systemet, visas standardalternativen eftersom systemet måste visa något.
 
-Så här visar eller döljer du filter, vyer eller grupperingar som är tillgängliga från layoutmallen:
+Så här visar eller döljer du filter, vyer eller grupperingar:
 
 {{step-1-to-setup}}
 
@@ -110,23 +113,29 @@ Så här visar eller döljer du filter, vyer eller grupperingar som är tillgän
    >
    >Om du vill att filtret, vyn eller grupperingen ska vara tillgänglig för de flesta användare, men dölja den för andra, kan du använda layoutmallen. Mer information finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Villkorligt) Markera det filter, den vy eller den gruppering som du vill dölja för användarna och klicka sedan på **[!UICONTROL Disable system-wide]**. Filtret, vyn eller grupperingen är nu dold för layoutmallen och användarna i hela systemet.
+1. (Villkorligt) Markera det filter, den vy eller den gruppering som du vill dölja för användarna och klicka sedan på **[!UICONTROL Disable system-wide]**. Filtret, vyn eller grupperingen är nu dold både för layoutmallen och för användarna i systemet.
 
 
-## Göra filter, vyer och grupperingar tillgängliga för alla användare {#make-filters-views-or-groupings-available-to-users}
+## Dela egna filter, vyer och grupper med specifika användare
 
-I de här stegen beskrivs hur du gör filter, vyer och grupperingar tillgängliga i dialogrutan [!UICONTROL Share] i området [!UICONTROL Interface] i [!UICONTROL Setup]. Den här inställningen fungerar som en på/av-switch för hela systemet, inklusive layoutmallen.
+I de här stegen beskrivs hur du delar anpassade filter, vyer och grupperingar med specifika användare genom att använda delningsdialogrutan i området [!UICONTROL Interface] i [!UICONTROL Setup]. Du kan bevilja vy eller hantera åtkomst till filter, vyer och grupperingar som du eller andra skapar. Du kan inte dela systemstandardvärden med användare.
+
 
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Interface]** och sedan på något av följande: **[!UICONTROL Filters]**, **[!UICONTROL Views]** eller **[!UICONTROL Groupings]**.
 
-1. Markera det filter, den vy eller den gruppering som du vill göra tillgänglig för användarna och klicka sedan på ikonen **[!UICONTROL Share]** ![Dela](assets/share-icon.png) .
+1. Markera filtret, vyn eller grupperingen som du vill dela och klicka sedan på ikonen **[!UICONTROL Share]** ![Dela ](assets/share-icon.png) .
 1. Börja skriva namnet på specifika användare, team, roller, grupper eller företag som filtret, vyn eller grupperingen ska delas med och klicka sedan på namnet i listrutan.
 
    Mer information om delning finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Klicka på **[!UICONTROL Save]**. Användare som du har angett kan nu se filtret, vyn eller grupperingen när du visar den objekttyp som du har associerat den med.
+1. Välj **Visa** eller **Hantera** bredvid namnet på användaren, teamet, rollen, gruppen eller företaget. Om du vill finjustera behörigheter klickar du på skjutreglageikonen och justerar behörigheterna.
+
+   ![finjustera behörigheter](assets/fine-tune-permissions.png)
+
+1. Klicka på **[!UICONTROL Save]**. Användare som du har angett kan nu interagera med filtret, vyn eller grupperingen när du visar den objekttyp som du har associerat den med.
+
 
 ## Ta bort filter, vyer och grupperingar
 
