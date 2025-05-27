@@ -5,9 +5,9 @@ description: Du kan använda panelen Sammanfattning för att granska och uppdate
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## [!UICONTROL Percent Complete]
 
-Använd förloppsindikatorn högst upp i [!UICONTROL Summary] för att uppdatera procentandelen färdigt för den uppgift eller utgåva som du har valt. Ange ett tal eller dra fältet till rätt procentvärde.
+Använd den blå förloppsbubblan högst upp i [!UICONTROL Summary] för att uppdatera procentandelen färdigt för den aktivitet eller utgåva som du har valt. Ange ett tal eller dra bubblan till rätt procenttal.
+
+När du drar och släpper bubblan på panelen Sammanfattning uppdateras Procent färdigt i steg om en punkt. Du kan inte ange ett decimaltal.
 
 ![Procent färdigt på sammanfattningspanelen](assets/summary-overview-percent-complete.png)
 

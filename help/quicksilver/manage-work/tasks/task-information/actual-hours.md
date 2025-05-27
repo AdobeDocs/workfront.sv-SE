@@ -7,9 +7,9 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> 
    <p>Nytt: Standard<p>
    <p>eller</p>
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Visa eller ge senare åtkomst till uppgifter, projekt eller ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till uppgifter, projekt eller ärenden</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,13 +83,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## Hitta faktiska timmar
 
 Att hitta värdet för Faktiska timmar för ett objekt är identiskt för uppgifter, projekt och utgåvor.
-
-Information om faktiska timmar finns på följande platser:
-
-* [Faktiska timmar i detaljavsnittet](#actual-hours-in-the-details-section)
-* [Faktiska timmar i timavsnittet](#actual-hours-in-the-hours-section)
-* [Faktiska timmar i rapporter](#actual-hours-in-reports)
-* [Faktiska timmar i resurshanteringsverktyg](#actual-hours-in-resource-management-tools)
 
 ### Faktiska timmar i detaljavsnittet {#actual-hours-in-the-details-section}
 
@@ -139,6 +132,21 @@ Om du vill se hur arbetet med tilldelade uppgifter och ärenden fortskrider kan 
 * Resursplaneraren.
 
   Mer information finns i [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+
+
+### Faktiska timmar i Workfront-databasen, API:t och anpassade data
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+De flesta fält i Workfront som lagrar timmar sparas i Workfront-databasen på några minuter. Namnet på fältet Planerade timmar för en aktivitet är till exempel `workRequired` i Workfront-databasen och lagras i minuter.
+
+Du måste ta hänsyn till konverteringen från minuter till timmar när du får åtkomst till dessa fält i API-anrop eller i beräknade anpassade fält eller kolumner.
+
+Faktiska timmar lagras dock i Workfront-databasen i timmar.
+
+Du måste använda följande värdefältnamn för Faktiska timmar i API-anrop eller beräknade anpassade fält eller kolumner i Workfront: `actualWorkRequiredDouble`.
+
+Mer information om hur du använder Faktiska timmar i beräknade kolumner eller fält finns i [Rapportera vanliga frågor och svar](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Loggtid
 

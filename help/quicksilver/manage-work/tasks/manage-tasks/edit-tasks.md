@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 0%
 
 ---
@@ -622,12 +622,14 @@ Följande fält inkluderas som standard i uppgiftshuvudet:
 
 * Uppgiftsnamn
 * Procent färdigt
+
+  Mer information finns i [Visa och uppdatera Procent färdigt för uppgifter](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Uppdrag
 * Planerat slutförandedatum
 
   >[!CAUTION]
   >
-  >Vissa aktivitetsbegränsningar och andra beroenden kan hindra dig från att redigera det här fältet. Mer information om uppgiftsbegränsningar finns i [Översikt över uppgiftsbegränsningar](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Vissa aktivitetsbegränsningar och andra beroenden kan hindra dig från att redigera det planerade slutförandedatumet för en aktivitet. Mer information om uppgiftsbegränsningar finns i [Översikt över uppgiftsbegränsningar](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Fatta godkännandebeslut om du har angett som godkännare i en aktuell godkännandeprocess

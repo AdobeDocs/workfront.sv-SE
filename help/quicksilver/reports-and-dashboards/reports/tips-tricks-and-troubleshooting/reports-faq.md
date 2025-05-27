@@ -7,14 +7,16 @@ description: Vanliga frågor och svar om rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # Vanliga frågor och svar om rapporter
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 0%
 Här följer vanliga frågor om rapporter.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -33,39 +37,51 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, arbeta</p> </td> 
+   <td><p>Nytt: Standard</p> 
+   <p>Aktuell: Arbete eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter i en rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Varför visas inte det korrekta resultatet i en kolumn i min anpassade beräkning för en timskillnad?
 
-I en projektrapport har jag en beräkning som subtraherar faktiska timmar (2) från Planerade timmar (4). Resultatet jag får är 120 när det borde vara 2.\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+I en projektrapport har jag en beräkning som subtraherar faktiska timmar från planerade timmar. Resultatet jag får är felaktigt.
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 Min beräkning är:
-<pre>valueExpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### Svar
 
-Fält som använder timmar i Workfront lagras på några minuter. När du använder fältet i en beräkning blir resultatet i minuter. För att få fram resultatet i timmar måste du dividera resultatet av beräkningen med 60.
+De flesta fält som använder timmar i Workfront lagras på några minuter. När du använder dessa fält i en beräkning blir resultatet oftast i minuter. För att få fram resultatet i timmar måste du dividera resultatet av beräkningen eller fältet som du refererar till med 60.
+
+Planerade timmar sparas t.ex. i minuter, medan faktiska timmar lagras i timmar. Därför måste du konvertera planerade timmar från minuter till timmar.
 
 Den korrekta beräkningen är:
 
-<pre>valueExpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## Varför visas inte värdet för alla mina diagramelement i en rapport i diagrammet?
 
@@ -175,7 +191,7 @@ Om du har behörighet att visa eller hantera en rapport kan du också göra en k
 
 ### Svar
 
-Ibland är rapportens ägare också den användare som anges i **Kör den här rapporten med åtkomsträttigheten** i rapportfältet. Om **Kör den här rapporten med åtkomsträttigheterna för**-användaren inaktiveras visas inte längre rapporten för användare som har den delade rapporten. När det inträffar kan du göra rapporten tillgänglig igen genom att lämna **Kör den här rapporten med åtkomstbehörigheten** tom eller genom att ange en aktiv användare i fältet.
+Ibland är rapportens ägare också den användare som anges i **Kör den här rapporten med åtkomsträttigheten** i rapportfältet. Om **Kör den här rapporten med åtkomsträttigheterna för**-användaren inaktiveras visas inte längre rapporten för användare som har den delade rapporten. När det inträffar kan du göra rapporten tillgänglig igen genom att lämna **Kör den här rapporten med åtkomstbehörigheten** tom eller genom att ange en aktiv användare i fältet.
 
 Om du vill veta mer om fältet **Kör den här rapporten med åtkomsträttigheter för:** kan du läsa [Kör och leverera en rapport med åtkomsträttigheter för en annan användare](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Information om hur du identifierar alla rapporter som ägs av inaktiverade användare finns i [Skapa en rapport om rapporteringsaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
