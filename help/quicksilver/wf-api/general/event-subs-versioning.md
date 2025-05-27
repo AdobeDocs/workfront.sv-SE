@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
+source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -255,4 +255,6 @@ Följande ändringar har gjorts för händelseprenumerationer version 2:
 
 Workfront Fusion använder händelseprenumerationer för att hålla utkik efter förändringar i Workfront för att utlösa scenarier. Du kan uppdatera den händelseprenumerationsversion som Fusion använder direkt i ett scenario med hjälp av modulen Workfront > Update Events Payload Version.
 
-Instruktioner om hur du använder den här modulen finns i [Workfront-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) i dokumentationen för Workfront Fusion.
+Instruktioner om hur du använder den här modulen finns i [Workfront-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) i dokumentationen för Workfront Fusion.
+
+Mer information om hur du bevarar dina Workfront Fusion-scenarier under händelseprenumerationsuppgraderingen, inklusive en webbinariainspelning, finns i [Bevara dina Fusion-scenarier under händelseprenumerationsuppgraderingen v2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
