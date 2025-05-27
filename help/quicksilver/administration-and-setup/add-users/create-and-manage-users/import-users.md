@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -114,4 +114,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 > 
 >Om en användare inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter och en skärmuppdatering inte tar bort märket Väntande godkännande, kan du lägga till gruppen med användare direkt i Adobe Admin Console.
 >
->Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.
+>Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.
