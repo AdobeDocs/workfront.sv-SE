@@ -30,7 +30,7 @@ Ett anpassat fält med formatering av formaterad text kallas fält med formatera
 Exempel: En grundläggande GET-begäran om att hämta värdet för fältet med anpassat RTF-formulärfält:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 Exempel: Den här begäran returnerar värdet för Field med RTF i JSON som lagras i parameternValue DE:Field med RTF-text
 
@@ -120,4 +120,4 @@ Så här sparar du följande värden i ett RTF-fält med Workfront API:
 1. Använd metoden stringify på den JSON som beskrivs ovan för att göra en PUT-begäran och skicka uppdateringar.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
