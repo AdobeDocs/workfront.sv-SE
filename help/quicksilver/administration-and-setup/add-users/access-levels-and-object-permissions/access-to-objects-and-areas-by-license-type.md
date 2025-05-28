@@ -9,30 +9,36 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # Åtkomst till objekt och områden per licenstyp
 
+<!-- Audited: 5/2025 -->
+
 Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var och en av Adobe Workfront-licenserna tillåter för objekten och områdena i Workfront.
 
-* **Visa**: Användaren kan granska och dela objekt.
-* **Redigera**: Användaren kan skapa, redigera, ta bort och dela objekt.
+* Visa: Användaren kan granska och dela objekt.
+* Redigera: Användaren kan skapa, redigera, ta bort och dela objekt.
 
   >[!NOTE]
   >
-  >När en annan användare delar ett objekt kan användaren ange behörigheter som begränsar möjligheten att redigera det. Mer information finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >När en annan användare delar ett objekt kan användaren ange behörigheter som begränsar möjligheten att redigera det. Mer information om de nya licenstyperna finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+  >[!NOTE]
+  >
+  >Den här artikeln innehåller information om objektåtkomst för de äldre licenstyperna. Mer information om de nya licenstyperna finns i [Översikt över nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) och [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 |   | Plan | Arbete | Granska | Begäran | Extern |
 |---|---|---|---|---|---|
 | Projekt | Redigera | Redigera (utan behörighet att skapa) | Visa | Visa (endast detaljsidan) | Ingen åtkomst |
 | Uppgifter | Redigera | Redigera | Visa | Visa | Visa |
 | Problem | Redigera | Redigera | Redigera | Redigera | Ingen åtkomst |
-| Portfolio | Redigera | Visa | Visa | Ingen åtkomst | Ingen åtkomst |
+| Portföljer | Redigera | Visa | Visa | Ingen åtkomst | Ingen åtkomst |
 | Program | Redigera | Visa | Visa | Ingen åtkomst | Ingen åtkomst |
 | Rapporter, kontrollpaneler och kalendrar | Redigera | Visa | Visa | Visa&#42; | Visa (endast för kalendrar, inga delningsbehörigheter) |
 | Filter, vyer och grupperingar | Redigera | Redigera | Redigera | Redigera | Ingen åtkomst |
@@ -49,7 +55,7 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
 
 >[!NOTE]
 >
->Användare med en Review-licens eller en Request-licens har begränsade delningsmöjligheter. Mer information finns i [Översikt över Adobe Workfront-licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Användare med en Review-licens eller en Request-licens har begränsade delningsmöjligheter. Mer information finns i [Licensöversikt](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Externa användare kan inte söka efter objekt i Workfront. De kan visa dokument och kalendrar som delas med dem. De kan också se vilka användare som delar objekt med dem.
 

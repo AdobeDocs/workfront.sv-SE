@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # Logga in som en annan användare
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-Som Adobe Workfront-administratör kan du ibland behöva få åtkomst till Workfront för en annan användares räkning.
-
-Som gruppadministratör kan du behöva få åtkomst till Workfront för en användare som är medlem i en grupp som du hanterar.
+Som Adobe Workfront-administratör kan du ibland behöva få åtkomst till Workfront för en annan användares räkning. Som gruppadministratör kan du behöva få åtkomst till Workfront för en användare som är medlem i en grupp som du hanterar.
 
 Om en uppgift till exempel inte kan fortsätta förrän en användare på semester utför en viss åtgärd, kan du logga in som den användaren och utföra åtgärden i stället.
 
@@ -44,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Eftersom en dokumentintegrering kan ansluta till privata personliga filer, kan administratörer inte komma åt dokumentintegreringar när de är inloggade som en annan användare.
 >
->Mer information om dokumentintegreringar finns i [Konfigurera dokumentintegreringar](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>Mer information om dokumentintegreringar finns i [Konfigurera dokumentintegreringar](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Åtkomstkrav
 
@@ -68,8 +66,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Med åtkomstnivån Systemadministratör kan du logga in som vem som helst.</p> <p>Med en standard- eller planerings- åtkomstnivå kan du logga in som en användare med en lägre licensnivå om inställningen <b>Användare</b> i åtkomstnivån har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två alternativen <b>Användaradministratör</b> aktiverat under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>Obs!</b> Om <b>Användaradministratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p></td>
+   <td> <p>Med åtkomstnivån Systemadministratör kan du logga in som vem som helst.</p> <p>Med åtkomstnivån Standard eller Planner kan du logga in som en användare med en lägre licensnivå om inställningen Användare i åtkomstnivån är konfigurerad för att redigera åtkomst, med alternativet Skapa och minst ett av de två alternativen för användaradministration är aktiverat under Finjustera inställningarna <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p>Obs! Om användaradministratör (gruppanvändare) är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem av dessa två alternativ.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +78,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Logga in och utför åtgärder som en annan användare
 
-1. Logga in på Workfront som Workfront-administratör eller som gruppadministratör.
+1. Logga in på Workfront som Workfront-administratör eller gruppadministratör.
 
    >[!NOTE]
    >
@@ -96,15 +94,14 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **Logga in som** i den vänstra panelen.
 
-1. I rutan **Användare** på fliken **Logga in som** börjar du skriva namnet på användaren och klickar sedan på namnet när det visas i listrutan.
+1. I rutan **Börja skriva namn..** på fliken **Logga in som** börjar du skriva namnet på användaren och klickar sedan på namnet när det visas i listrutan.
 
-   Användaren måste ha en åtkomstnivå definierad i Workfront. Du kan inte logga in på Workfront som en användare som inte har behörighet att logga in.
 
    >[!NOTE]
-   >
-   >Gruppadministratörer kan bara logga in som användare som är medlemmar i de grupper som de hanterar. De kan inte logga in som Workfront-administratör.
+   >* Den användare du väljer måste ha en åtkomstnivå definierad i Workfront. Du kan inte logga in på Workfront som en användare som inte har behörighet att logga in.
+   >* Gruppadministratörer kan bara logga in som användare som är medlemmar i de grupper som de hanterar. De kan inte logga in som Workfront-administratör.
 
-1. Klicka på **Logga in.**
+1. Klicka på **Logga in**. Du är inloggad som en annan användare och ett meddelande visas högst upp på skärmen som anger detta.
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,9 +128,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    </div>
    -->
 
-   När du är inloggad som en annan användare visas ett meddelande högst upp på skärmen som anger detta.
 
-1. Klicka på **Logga ut när du har utfört de nödvändiga åtgärderna som användare.**
+
+1. När du har utfört de nödvändiga åtgärderna som användare klickar du på **Logga ut** längst upp på skärmen.
 
 ## Spårnings- och granskningsaktivitet medan en administratör är inloggad som en annan användare
 
@@ -153,14 +150,17 @@ Om du till exempel kommenterar ett objekt när du är inloggad som en annan anv�
 ### Visa granskningsinformation {#view-audit-information}
 
 1. Logga in på Workfront som Workfront-administratör eller gruppadministratör.
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ikonen **Konfigurera** ![Nätövertoningsinställningar](assets/gear-icon-settings.png) .
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. Klicka på **Logga in som** och klicka sedan på fliken **Åtkomstlogg**.
+1. Klicka på **Logga in som** i den vänstra panelen och klicka sedan på fliken **Åtkomstlogg** .
 
-   Varje gång en system- eller gruppadministratör loggar in på Workfront som en annan användare loggas händelsen i granskningsspåret. Dessutom loggas alla ändringsbara åtgärder som utförs när administratören är inloggad som en annan användare i granskningsspåret.
+   >[!NOTE]
+   >
+   >Varje gång en system- eller gruppadministratör loggar in på Workfront som en annan användare loggas händelsen i granskningsspåret. Dessutom loggas alla ändringsbara åtgärder som utförs när administratören är inloggad som en annan användare i granskningsspåret.
 
 1. (Valfritt) Du kan filtrera resultaten som visas i granskningsspåret på följande sätt:
 
    * Av den användare som har loggat in
    * Av den användare som har loggat in som
-   * Efter datum
+   * Efter datum och tid

@@ -6,14 +6,16 @@ description: Du kan länka [!DNL Jira] ärenden till [!DNL Adobe Workfront] uppg
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # Länka objekt mellan [!DNL Adobe Workfront] och [!DNL Jira]
+
+<!-- Audited: 5/2025 -->
 
 Du kan länka [!DNL Jira] utgåvor till [!DNL Adobe Workfront] uppgifter eller utgåvor antingen automatiskt eller manuellt.
 
@@ -23,17 +25,23 @@ Endast ett objekt i [!DNL Workfront] kan länkas till ett objekt i [!DNL Jira]. 
 
 Du måste ha följande:
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a></td> 
    <td> <p>[!UICONTROL Pro] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser för Adobe [!DNL Workfront]</a>*</td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser för Adobe [!DNL Workfront]</a></td> 
+   <td> 
+   <p>Nytt: Standard<p>
+   <p>eller</p>
+   <p>Aktuell: Planera </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Jira-åtkomst</td> 
@@ -42,7 +50,7 @@ Du måste ha följande:
 Vi rekommenderar att du skapar separata systemadministratörskonton i [!DNL Jira] och [!DNL Workfront] för att dedikera till den här integreringen, i stället för att använda befintliga konton som kan vara kopplade till användare.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste vara en [!DNL Workfront]-administratör. Mer information om [!DNL Workfront] administratörer finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> <p><b>ANMÄRKNING</b>
 
 Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
@@ -50,28 +58,31 @@ Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
-Innan du kan länka objekt mellan [!DNL Workfront] och [!DNL Jira] måste du
+Innan du kan länka objekt mellan [!DNL Workfront] och [!DNL Jira] måste du göra följande:
 
-* Installera [!DNL Workfront] för [!DNL Jira]
+* Installera [!DNL Workfront] för [!DNL Jira].
 
-  Instruktioner om hur du installerar Workfront för Jira finns i [Installera Adobe Workfront för Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+  Instruktioner finns i [Installera Adobe Workfront för Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-* Konfigurera [!DNL Workfront] för Jira
+* Konfigurera [!DNL Workfront] för Jira.
 
-  Instruktioner om hur du konfigurerar Workfront för Jira finns i [Konfigurera Adobe Workfront för Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+  Instruktioner finns i [Konfigurera Adobe Workfront för Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 ## Länka automatiskt [!DNL Workfront] objekt till [!DNL Jira] utgåvor
 
-Som [!DNL Workfront]-administratör kan du definiera utlösare som automatiskt kan skapa ett problem i [!DNL Jira] varje gång vissa villkor uppfylls för en aktivitet eller ett problem i [!DNL Workfront]. Workfront- och [!DNL Jira]-objekten länkas.
+Som [!DNL Workfront]-administratör kan du definiera utlösare som automatiskt skapar ett problem i [!DNL Jira] varje gång vissa villkor uppfylls för en aktivitet eller ett problem i [!DNL Workfront]. Workfront- och [!DNL Jira]-objekten länkas.
 
-När du har slutfört konfigurationen av [!DNL Workfront] för Jira skapas ett nytt objekt automatiskt i [!DNL Jira] när ett objekt skapas eller uppdateras i [!DNL Workfront] för att matcha dina utlösare.\
+När du har slutfört konfigurationen av [!DNL Workfront] för Jira skapas ett nytt objekt automatiskt i [!DNL Jira] när ett objekt skapas eller uppdateras i [!DNL Workfront] för att matcha dina utlösare.
+
 Workfront-användare som skapar och uppdaterar Workfront-objekt behöver ingen [!DNL Jira]-licens för att aktivera skapandet av objekt i [!DNL Jira].
 
-Mer information om hur du definierar utlösare för att automatiskt skapa Jira-problem finns i [Konfigurera [!DNL Adobe Workfront] för Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+Mer information finns i [Konfigurera [!DNL Adobe Workfront] Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 >[!NOTE]
 >
@@ -85,28 +96,23 @@ Så här länkar du automatiskt en [!DNL Workfront]-aktivitet till ett [!DNL Jir
 
    Mer information om åtkomst till aktiviteter finns i [Bevilja åtkomst till aktiviteter](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-1. Gå till ett projekt och välj **[!UICONTROL Tasks]** ![Aktivitetsikonen](assets/tasks-icon-in-left-panel-14x14.png) i den vänstra panelen.
+{{step1-to-projects}}
 
-1. Klicka på **[!UICONTROL New Task]**
+1. Välj ett projekt på sidan **Projekt**.
 
-   eller
+1. Välj **[!UICONTROL Tasks]** på den vänstra projektpanelen.
 
-   Markera en befintlig aktivitet och klicka sedan på **Redigera**.
+1. Klicka på **+ Ny aktivitet**.
+   >[!NOTE]
+   >
+   >Om du vill länka ett befintligt Workfront-objekt till ett Jira-problem väljer du **Redigera** på objektets **Mer** ![Mer-ikon](assets/more-icon.png) -meny.
 
 1. Ange eller uppdatera något av de fält som är tillgängliga för uppgiften.
-1. Klicka på **[!UICONTROL Assignments]** och tilldela uppgiften till en användare, roll eller team som har angetts som utlösare i integreringen av [!DNL Jira].
+1. I fältet **[!UICONTROL Assignments]** söker du efter och väljer den användare, roll eller det team som har angetts som utlösare i integreringen av [!DNL Jira].
 
-1. Klicka på **Spara ändringar**.
+1. Klicka på **Skapa uppgift**. Uppgiften skapas i Workfront och en ny kommentar visas på aktivitetens **uppdateringsflik** för att ange att ett nytt problem också har skapats i [!DNL Jira].
 
-   En ny uppgift skapas i Workfront.
-
-   I området **[!UICONTROL Updates]** för den nya aktiviteten finns det en kommentar som anger att ett nytt problem också har skapats i [!DNL Jira].
-
-1. (Valfritt) Klicka på länken till Jira-problemet för att öppna det i Jira.
-
-   eller
-
-   Klicka på länken **[!UICONTROL Go to Jira]** i området **[!UICONTROL Integrations]** i avsnittet **[!UICONTROL Details]** eller på uppgifts- eller ärendehuvudet för att öppna problemet [!DNL Jira].
+1. (Valfritt) Klicka på länken **[!UICONTROL Go to Jira]** i området **[!UICONTROL Integrations]** i avsnittet **[!UICONTROL Details]** i huvud för aktiviteten eller problemet för att öppna problemet i Jira.
 
    Systemet eller gruppadministratören måste lägga till fältet [!UICONTROL Integrations] i layoutmallen för att kunna visa det i huvud för aktiviteten eller utgåvan. Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
@@ -114,7 +120,7 @@ Så här länkar du automatiskt en [!DNL Workfront]-aktivitet till ett [!DNL Jir
 
    Endast de fält som du som [!DNL Workfront]-administratör konfigurerade under installationen av [!DNL Workfront]-tillägget uppdateras.
 
-   Mer information om att synkronisera fält mellan Workfront och Jira finns i avsnittet [Konfigurera Workfront för Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#configuring-the-add-on-for-jira) i [Konfigurera Adobe Workfront för Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+   Mer information om att synkronisera fält mellan Workfront och Jira finns i avsnittet Konfigurera Workfront för Jira i [Konfigurera Adobe Workfront för Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
    >[!NOTE]
    >
@@ -122,7 +128,8 @@ Så här länkar du automatiskt en [!DNL Workfront]-aktivitet till ett [!DNL Jir
 
 ## Länka [!DNL Jira]-utgåvor manuellt till [!DNL Workfront]-objekt
 
-När objekt har skapats i [!DNL Jira] och [!DNL Workfront], oberoende av varandra, kan du manuellt länka ett [!DNL Jira]-problem till en befintlig [!DNL Workfront]-uppgift eller ett befintligt -problem.\
+När objekt har skapats i [!DNL Jira] och [!DNL Workfront] oberoende av varandra kan du manuellt länka ett [!DNL Jira]-problem till en befintlig [!DNL Workfront]-uppgift eller ett befintligt -problem.
+
 Du kan inte länka ett [!DNL Workfront]-objekt manuellt från [!DNL Workfront] till ett befintligt [!DNL Jira]-objekt.
 
 >[!NOTE]
@@ -135,8 +142,8 @@ Mer information om hur du uppdaterar länkade objekt finns i [Uppdatera länkade
 
 Så här länkar du [!DNL Jira] ärenden manuellt till [!DNL Workfront] objekt:
 
-1. (Villkorligt) Logga in på [!DNL Workfront] och hitta ett problem eller en uppgift som du vill länka till [!DNL Jira] -problemet.
-1. (Villkorligt) Kopiera **[!UICONTROL Reference Number]** för objektet i Workfront från området [!UICONTROL Details].
+1. (Villkorligt) Logga in på [!DNL Workfront] och hitta ett problem eller en uppgift som du vill länka till ett [!DNL Jira]-problem.
+1. (Villkorligt) I avsnittet **Grundläggande information** på fliken **Aktivitetsinformation** eller **Ärendeinformation** kopierar du **[!UICONTROL Reference Number]** för objektet i Workfront.
 
    eller
 
@@ -153,39 +160,40 @@ Så här länkar du [!DNL Jira] ärenden manuellt till [!DNL Workfront] objekt:
    >Du måste ha en [!DNL Workfront]-licens för att kunna logga in på [!DNL Workfront]. Annars måste en [!DNL Workfront]-användare ange den här informationen till dig.
 
 1. I [!DNL Jira] navigerar du till ett problem som du vill länka manuellt till [!DNL Workfront]-objektet.
-1. Klistra in **[!UICONTROL Reference Number]** eller **URL** för det [!DNL Workfront]-objekt som du vill länka till i den högra panelen [!DNL Workfront].
+1. Klistra in **[!UICONTROL Reference Number]** eller **URL** för det [!DNL Workfront]-objekt som du vill länka det till i den högra panelen [!DNL Workfront].
 
-1. Klicka på **[!UICONTROL Link]**.
+1. Klicka på **[!UICONTROL Link]**. De två objekten länkas och den högra panelen [!DNL Workfront] fylls i med information från objektet [!DNL Workfront].
 
-   De två objekten länkas och den högra panelen [!DNL Workfront] fylls i med information från objektet [!DNL Workfront].
+   Som standard visas följande [!DNL Workfront]-fält i [!DNL Jira] på den högra panelen i [!DNL Workfront]:
 
-   Följande [!DNL Workfront]-fält visas som standard i [!DNL Jira] på den högra panelen i [!DNL Workfront]:
+   * Objektets **[!UICONTROL Name]**. Du kommer åt objektet [!DNL Workfront] genom att klicka på namnet på panelen.
+   * **[!UICONTROL Project Name]**.
+   * Objektets **[!UICONTROL Status]**.
+   * Objektets **[!UICONTROL Priority]**.
+   * Det datum då det skapades i [!DNL Workfront].
+   * Objektets **[!UICONTROL Planned Hours]**.
+   * **[!UICONTROL Reference Number]**. Du kommer åt objektet [!DNL Workfront] genom att klicka på **referensnumret** i panelen.
 
-   * Objektets **[!UICONTROL Name]**: Du kan komma åt [!DNL Workfront]-objektet genom att klicka på namnet på panelen.
-   * **[!UICONTROL Project Name]**
-   * Objektets **[!UICONTROL Status]**
-   * Objektets **[!UICONTROL Priority]**
-   * Det datum då den skapades i [!DNL Workfront]
-   * Objektets **[!UICONTROL Planned Hours]**
-   * **[!UICONTROL Reference Number]**: Du kommer åt [!DNL Workfront]-objektet genom att klicka på [!UICONTROL Reference Number] på panelen.
-
-Mer information om hur du aktiverar ytterligare fält som ska visas på den högra panelen finns i avsnittet [Konfigurera fältsynkronisering mellan [!DNL Jira] och [!DNL Workfront] objekt](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) i [Konfigurera [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). En kommentar från [!DNL Workfront]-administratören som är associerad med integreringen publiceras på fliken **[!DNL Workfront]** i utgåvan [!DNL Jira] för att bekräfta att ett nytt [!DNL Jira]-objekt har skapats. Kommentaren innehåller en länk till utgåvan [!DNL Jira].
+   Mer information om hur du aktiverar ytterligare fält som ska visas på den högra panelen finns i avsnittet Konfigurera fältsynkronisering mellan [!DNL Jira] och [!DNL Workfront] objekt i [Konfigurera [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). En kommentar från [!DNL Workfront]-administratören som är associerad med integreringen publiceras på fliken **[!DNL Workfront]** i utgåvan [!DNL Jira] för att bekräfta att ett nytt [!DNL Jira]-objekt har skapats. Kommentaren innehåller en länk till utgåvan [!DNL Jira].
 
 ## Bryt länk mellan [!DNL Jira] och [!DNL Workfront]
 
-Länkade objekt mellan [!DNL Jira] och [!DNL Workfront] kan brytas manuellt från [!DNL Jira].\
-Du kan inte ta bort länken för ett [!DNL Workfront]-objekt från deras [!DNL Jira]-motsvarighet i [!DNL Workfront].
+Länkade objekt mellan [!DNL Jira] och [!DNL Workfront] kan brytas manuellt i [!DNL Jira]. Du kan inte ta bort länken för ett [!DNL Workfront]-objekt från deras [!DNL Jira]-motsvarighet i [!DNL Workfront].
 
 Du behöver följande åtkomst för att bryta länken till manuellt länkade objekt:
 
-* Du är den användare som manuellt länkade objekten
-* Du är [!DNL Jira]-systemadministratör
+* Du är den användare som manuellt länkade objekten.
+* Du är [!DNL Jira]-systemadministratör.
 
-Endast en [!DNL Workfront]-administratör kan bryta länken till objekt som har länkats automatiskt.
+>[!NOTE]
+>
+>Endast en [!DNL Workfront]-administratör kan bryta länken till objekt som har länkats automatiskt.
 
 Så här bryter du länken för ett [!DNL Jira]-problem från ett [!DNL Workfront]-objekt:
 
-1. I [!DNL Jira] navigerar du till ett problem som är länkat till en [!DNL Workfront]-aktivitet eller ett -problem.
-1. Gå till den högra panelen [!DNL Workfront] och klicka på ikonen **[!UICONTROL Unlink]** och klicka sedan på **[!UICONTROL Unlink]**.
+1. Logga in på Jira.
+1. Navigera till problemet som är länkat till en [!DNL Workfront]-aktivitet eller ett -problem.
+1. Gå till den högra panelen i **Workfront**.
+1. Klicka på ikonen **[!UICONTROL Unlink]** och sedan på **[!UICONTROL Unlink]**. De tidigare länkade [!DNL Jira]- och [!DNL Workfront]-objekten bryter länken.
 
-   De tidigare länkade [!DNL Jira]- och [!DNL Workfront]-objekten är nu inte länkade. Eventuella fält, kommentarer eller dokument som kan uppdateras individuellt i framtiden uppdateras inte på den tidigare motsvarigheten i det andra programmet.
+   De fält, kommentarer eller dokument som uppdateras i framtiden uppdateras inte på sin tidigare motsvarighet i det andra programmet.
