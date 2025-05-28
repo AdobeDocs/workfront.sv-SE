@@ -34,7 +34,7 @@ Förbättrade analysfunktioner kan hjälpa er att identifiera:
 
 ![Analyser](assets/nwe-full-screen-analytics-350x222.png)
 
-Om du vill visa användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys kan du läsa [Förbättrade inlärningsvägar för analyser](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Om du vill visa användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys kan du läsa [Förbättrade inlärningsvägar för analyser](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
 
 ## Förutsättningar
 
@@ -46,7 +46,7 @@ För att få tillgång till det förbättrade analysområdet måste du:
 
 * Låt Workfront-administratören lägga till förbättrade analysfunktioner i layoutmallen.
 
-  Mer information finns i [Förbättrad analys: Lägga till analyser i layoutmallar](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+  Mer information finns i [Förbättrad analys: Lägga till analyser i layoutmallar](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
 
 Om du vill visa information för projekt och uppgifter måste du:
 
