@@ -7,9 +7,9 @@ description: Vanliga frågor och svar om rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -71,17 +71,27 @@ I en projektrapport har jag en beräkning som subtraherar faktiska timmar från 
 
 Min beräkning är:
 
-`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### Svar
 
 De flesta fält som använder timmar i Workfront lagras på några minuter. När du använder dessa fält i en beräkning blir resultatet oftast i minuter. För att få fram resultatet i timmar måste du dividera resultatet av beräkningen eller fältet som du refererar till med 60.
 
-Planerade timmar sparas t.ex. i minuter, medan faktiska timmar lagras i timmar. Därför måste du konvertera planerade timmar från minuter till timmar.
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 Den korrekta beräkningen är:
 
-`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>Om du refererar till Faktiska timmar i API-anrop använder du `actualWorkRequiredDouble` för värdefältet. Faktiska timmar i API:t lagras i timmar. Planerade timmar sparas i minuter.
+>
+>Den korrekta beräkningen i ett API-anrop är:
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## Varför visas inte värdet för alla mina diagramelement i en rapport i diagrammet?
 

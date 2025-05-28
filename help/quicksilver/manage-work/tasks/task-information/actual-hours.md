@@ -7,9 +7,9 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Om du vill se hur arbetet med tilldelade uppgifter och ärenden fortskrider kan 
   Mer information finns i [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Faktiska timmar i Workfront-databasen, API:t och anpassade data
+### Faktiska timmar i Workfront <!--database and the--> API <!--, and custom data-->
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,9 +142,14 @@ De flesta fält i Workfront som lagrar timmar sparas i Workfront-databasen på n
 
 Du måste ta hänsyn till konverteringen från minuter till timmar när du får åtkomst till dessa fält i API-anrop eller i beräknade anpassade fält eller kolumner.
 
-Faktiska timmar lagras dock i Workfront-databasen i timmar.
+Beroende på hur du öppnar Faktiska timmar kan de lagras i följande fält och enheter i databasen:
 
-Du måste använda följande värdefältnamn för Faktiska timmar i API-anrop eller beräknade anpassade fält eller kolumner i Workfront: `actualWorkRequiredDouble`.
+* I API: `valuefield` för faktiska timmar är `actualWorkRequiredDouble` som lagras i timmar.
+* I Workfront-gränssnittet (beräknat anpassat fält och kolumner): `valuefield` för faktiska timmar är `actualWorkRequired` som lagras i minuter.
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
 
 Mer information om hur du använder Faktiska timmar i beräknade kolumner eller fält finns i [Rapportera vanliga frågor och svar](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
