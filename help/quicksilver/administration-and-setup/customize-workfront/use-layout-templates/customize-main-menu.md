@@ -119,7 +119,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >[!NOTE]
      >
      >Planering kräver ytterligare licens. Mer information om Workfront Planning finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md)
-      * Anpassat program
+     > * Anpassat program
 
      >[!NOTE]
      >

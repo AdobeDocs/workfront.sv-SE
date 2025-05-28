@@ -223,7 +223,7 @@ Du kan använda filtermodifierare för att ange vilken typ av information du vil
 >[!INFO]
 >
 >**Exempel:**
->>Du kan filtrera efter projekt som har Procent färdigt på 100 %. I det här fallet kan du använda modifieraren &quot;equal&quot; i följande filtersats:
+>&#x200B;>Du kan filtrera efter projekt som har Procent färdigt på 100 %. I det här fallet kan du använda modifieraren &quot;equal&quot; i följande filtersats:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
