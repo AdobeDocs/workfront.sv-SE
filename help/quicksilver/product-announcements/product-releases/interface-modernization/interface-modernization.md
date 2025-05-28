@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
+source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '3995'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Vi rekommenderar att du byter URL-adress för att gå till en sida som stöds el
 
 ### Gränssnittsuppdatering till den nya användarregistreringssidan
 
-**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+**Förhandsversion: 12 maj 2024; Produktionsversion: 19 maj 2025**
 
 Vi har uppdaterat den nya användarregistreringssidan med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -158,13 +158,15 @@ Användarna har inte längre möjlighet att ladda upp ett foto på den här sida
 
 ### Uppdaterad sökning efter inloggningssidan
 
-**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+**Förhandsversion: 12 maj 2024; Produktionsversion: 19 maj 2025**
 
 Vi har uppdaterat inloggningssidan med en modernare design som överensstämmer med andra delar av Workfront.
 
+Med den här ändringen stöder inloggningssidan inte längre anpassad profilering.
+
 ### Uppdaterad sökning efter sidan Återställ lösenord
 
-**Förhandsversion: 15 maj 2024; Produktionsversion: ska tillkännages**
+**Förhandsversion: 12 maj 2024; Produktionsversion: 19 maj 2025**
 
 Vi har uppdaterat skärmen för återställning av lösenord med en modernare design som är konsekvent med andra delar av Workfront. Uppdateringen innehåller uppdateringar av följande sidor:
 
