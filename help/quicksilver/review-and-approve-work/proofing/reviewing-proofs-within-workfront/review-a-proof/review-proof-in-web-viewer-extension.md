@@ -6,16 +6,16 @@ description: Adobe Workfront granskningsverktyg är ett webbläsartillägg som g
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
+source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
 
 # Granska interaktivt material med Adobe Workfront granskningsverktyg
 
-<span class="preview">Adobe Workfront Review Tool will be available on November 7, 2024. Det här tillägget är för närvarande i betaversion.</span>
+<span class="preview">Adobe Workfront Review Tool was available on November 7, 2024. Det här tillägget är för närvarande i betaversion.</span>
 
 Adobe Workfront granskningsverktyg är ett webbaserat webbläsartillägg som gör att du kan kontrollera interaktivt innehåll i en ZIP-fil eller med en URL. Adobe Workfront granskningsverktyg finns i följande webbläsare:
 
@@ -24,10 +24,9 @@ Adobe Workfront granskningsverktyg är ett webbaserat webbläsartillägg som gö
 * Edge
 * Safari
 
-Vi rekommenderar att du använder Desktop Proofing Viewer om innehållet du behöver granska finns på en webbplats som
-
-* Kräver SSO-autentisering
-* Förhindrar att deras plats öppnas i iFrames, t.ex. Figma
+>[!IMPORTANT]
+>
+>Det här tillägget krävs för att granska innehåll i GenStudio for Performance Marketing och Creative Cloud Express. Assets öppnas automatiskt i Web Viewer. Du behöver inte uppdatera några kontoinställningar.
 
 
 ## Installera tillägget
@@ -37,12 +36,6 @@ Vi rekommenderar att du använder Desktop Proofing Viewer om innehållet du beh�
 * Du måste ta bort det äldre tillägget för Web Viewer för att kunna använda verktyget Adobe Workfront Review.
 
 ### Installera tillägget
-
-<!--This extension is required to review conent in GS and Ex.
-
-You must install the extension to reiew content in GenS and Express.
-
-To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
 
 Granskare och godkännare måste installera Adobe Workfront granskningsverktyg. i någon av följande webbläsare:
 
@@ -56,6 +49,15 @@ Granskare och godkännare måste installera Adobe Workfront granskningsverktyg. 
 För att interaktiva korrektur ska kunna öppnas automatiskt i Adobe Workfront granskningsverktyg måste en Workfront-administratör uppdatera korrekturinställningarna på arbetsytan enligt beskrivningen i avsnitten nedan.
 
 ## Uppdatera standardvärden för Workfront-korrektur
+
+Om du vill använda Workfront granskningsverktyg som standardvisningsprogram för interaktivt innehåll måste du uppdatera standardinställningarna för korrektur i Workfront.
+
+>[!NOTE]
+>
+>Vi rekommenderar att du använder Desktop Proofing Viewer om innehållet du behöver granska finns på en webbplats som
+>
+>* Kräver SSO-autentisering
+>* Förhindrar att deras plats öppnas i iFrames, t.ex. Figma
 
 ### Använd Adobe Workfront granskningsverktyg som standardvisningsprogram för URL- och ZIP-korrektur
 
@@ -84,6 +86,4 @@ Om du bara vill använda webbgranskningsverktyget för ZIP-korrektur måste en W
 >[!NOTE]
 >
 >Den här ändringen gäller för alla ZIP-korrektur i din Workfront-instans. Vi rekommenderar att du testar den nya upplevelsen i förhandsvisningsmiljön innan du aktiverar den i Production. Du kan enkelt växla tillbaka till Desktop Viewer genom att ändra kontoinställningen **Desktop Proofing Viewer for Interactive proofing** tillbaka till **Aktiverad för alla interaktiva korrektur**.
-
-
 
