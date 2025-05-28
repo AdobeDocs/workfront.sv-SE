@@ -7,9 +7,9 @@ description: Huvudmenyn ändras med den åtkomstnivå som du har tilldelats av d
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,6 @@ Följande områden ingår i standardlayouten för en [!UICONTROL Worker]:
 * **[!UICONTROL Documents]**: Du kan överföra dokument, eller granska dokument som delas med dig, här. Mer information finns i [Dokument](../../../documents/documents-overview.md).
 
 * **[!UICONTROL Resourcing]**: Du kan visa resursallokering i verktygen för resursplanering och visa resurspooler här. Mer information finns i [Hantera resurser](../../../resource-mgmt/manage-resources.md).
-
-* **[!UICONTROL Analytics]**: Titta på projektdata och identifiera trender med planering och slutförande. I det här området visas information om projekt som du har tillgång till för att visa. Mer information finns i [Översikt över förbättrade analyser](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 * **[!UICONTROL Boards]**: Arbeta flexibelt och i samarbete med teammedlemmarna genom att använda delade paneler som innehåller kolumner och kort som visar det arbete du vill få gjort. Mer information finns i [Kom igång med anslagstavlor: artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
 

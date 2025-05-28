@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,4 @@ Du kan fokusera på olika projekt eller begränsa antalet projekt genom att anv�
 
 Förutom de insikter du kan få kan du även slutföra åtgärder för uppgifter, som att uppdatera statusen, be om en uppdatering, tilldela uppgiften till någon, osv.- direkt från området Förbättrade analyser.
 
-Mer information finns i [Översikt över förbättrade analyser](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

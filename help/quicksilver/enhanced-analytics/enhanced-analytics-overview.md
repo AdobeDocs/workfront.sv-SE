@@ -7,9 +7,9 @@ description: Förbättrad analys är ett kraftfullt verktyg i Adobe Workfront me
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Förbättrad analys kommer att tas bort från Workfront den 26 maj. Workfront Data Connect är en ny alternativ lösning som kan användas för att replikera de utökade analyser du använder just nu. <br>Mer information finns i guiden [Borttagning av utökad analys](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+>Förbättrad analys togs bort från Workfront den 27 maj. Workfront Data Connect är en ny alternativ lösning som kan användas för att replikera de utökade analyser du använder just nu. <br>Mer information finns i guiden [Borttagning av utökad analys](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 
 Förbättrad analys är ett kraftfullt verktyg i Adobe Workfront med färdiga visualiseringar som gör att du kan titta på projektdata och identifiera trender med planering och slutförande. Denna insikt i era projekt hjälper er att hantera ert nuvarande arbete och gör det möjligt att planera mer korrekt för framtida arbete.
@@ -34,7 +34,7 @@ Förbättrade analysfunktioner kan hjälpa er att identifiera:
 
 ![Analyser](assets/nwe-full-screen-analytics-350x222.png)
 
-Om du vill visa användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys kan du läsa [Förbättrade inlärningsvägar för analyser](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home).
+Om du vill visa användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys kan du läsa [Förbättrade inlärningsvägar för analyser](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Förutsättningar
 
@@ -46,7 +46,7 @@ För att få tillgång till det förbättrade analysområdet måste du:
 
 * Låt Workfront-administratören lägga till förbättrade analysfunktioner i layoutmallen.
 
-  Mer information finns i [Förbättrad analys: Lägga till analyser i layoutmallar](https://experienceleague.adobe.com/sv/docs/workfront/using/home).
+  Mer information finns i [Förbättrad analys: Lägga till analyser i layoutmallar](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Om du vill visa information för projekt och uppgifter måste du:
 

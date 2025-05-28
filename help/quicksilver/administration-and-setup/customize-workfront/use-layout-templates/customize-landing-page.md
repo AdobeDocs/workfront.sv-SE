@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Som Workfront-administratör kan du använda en layoutmall för att ange det område som du vill att användarna ska se varje gång de loggar in på Workfront.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -73,14 +73,13 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    Välj bland följande områden eller lägg till en anpassad kontrollpanel:
 
-   * Analyser
    * Kalendrar
    * Kontrollpaneler
    * Dokument
    * Mål
    * Startsida
    * Mina uppdateringar
-   * Portfolio
+   * Portföljer
    * Program
    * Projekt
    * Rapporter

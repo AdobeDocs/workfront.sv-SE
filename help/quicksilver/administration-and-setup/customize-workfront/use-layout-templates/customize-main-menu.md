@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
+source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--Audited: 01/2024-->
 
 Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att konfigurera de alternativ som användare ser när de öppnar huvudmenyn i Workfront.
-
-![Huvudmenyalternativ](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -106,7 +104,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Tidrapporter
    * Dokument
    * Mallar
-   * Analyser
    * Korrektur
    * Mål
 
@@ -122,7 +119,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >[!NOTE]
      >
      >Planering kräver ytterligare licens. Mer information om Workfront Planning finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md)
-     > * Anpassat program
+      * Anpassat program
 
      >[!NOTE]
      >

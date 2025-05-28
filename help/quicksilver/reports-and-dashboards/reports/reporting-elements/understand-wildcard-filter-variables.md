@@ -7,9 +7,9 @@ description: Genom att använda jokertecken i filter kan du referera till en all
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1439'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,6 @@ Du kan välja mellan följande användarbaserade variabler:
      <ul> 
       <li> <p>Resursplanering</p> </li> 
       <li> <p>Utjämning av arbetsbelastning</p> </li> 
-      <li> <p>Analyser</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 

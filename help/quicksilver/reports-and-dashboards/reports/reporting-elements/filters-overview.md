@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Översikt över filter
 description: Du kan använda filter i Adobe Workfront för att minska mängden information som visas på skärmen i listor, rapporter eller andra områden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
@@ -90,10 +90,6 @@ Du kan antingen använda inbyggda filter eller skapa anpassade filter i följand
 * Utjämning av arbetsbelastning
 
   Mer information finns i [Filtrera information i Arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
-
-* Analysområde
-
-  Mer information finns i [Använda filter i Förbättrad analys](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Utskriftsområde
 
@@ -189,7 +185,7 @@ Ett filter innehåller följande element:
   </tr> 
   <tr> 
    <td><strong>Fält</strong></td> 
-   <td> <p>Attributet för det objekt som du filtrerar efter. </p> <p>Du kan till exempel filtrera efter Portfolio namn eller Projektägare. I det här fallet är Namn och ägare fält för objekten Portfolio och Projekt. </p> </td> 
+   <td> <p>Attributet för det objekt som du filtrerar efter. </p> <p>Du kan till exempel filtrera efter Portfolio-namn eller Projektägare. I det här fallet är Namn och ägare fält för Portfolio- och Project-objekten. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Värde</strong></td> 
@@ -227,7 +223,7 @@ Du kan använda filtermodifierare för att ange vilken typ av information du vil
 >[!INFO]
 >
 >**Exempel:**
->Du kan filtrera efter projekt som har Procent färdigt på 100 %. I det här fallet kan du använda modifieraren &quot;equal&quot; i följande filtersats:
+>>Du kan filtrera efter projekt som har Procent färdigt på 100 %. I det här fallet kan du använda modifieraren &quot;equal&quot; i följande filtersats:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

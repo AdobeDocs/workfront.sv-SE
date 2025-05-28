@@ -6,9 +6,9 @@ description: Huvudmenyn ändras med den åtkomstnivå som du har tilldelats av d
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Följande områden ingår i standardlayouten för en [!UICONTROL Reviewer]:
 
 * **[!UICONTROL Requests]**: Du kan skicka och granska förfrågningar som du eller andra användare från ditt företag har skickat in här.
 * **[!UICONTROL Documents]**: Du kan överföra dokument eller granska dokument som delas med dig här.
-* **[!UICONTROL Analytics]**: Titta på projektdata och identifiera trender med planering och slutförande. I det här området visas information om projekt som du har tillgång till för att visa. Mer information finns i [Översikt över förbättrade analyser](../../../enhanced-analytics/enhanced-analytics-overview.md).
-
 * **[!UICONTROL Blueprints]**: Granska befintliga utkast i systemet och begär att en ska installeras, om [!DNL Workfront] -administratören konfigurerade begärandekön för utkast. Mer information finns i [Översikt över utkast](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 

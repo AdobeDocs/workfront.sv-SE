@@ -1,19 +1,19 @@
 ---
-title: 20. 4 Förbättringar av analyser
-description: 20. 4 Förbättringar av analyser
+title: ​20. 4 Förbättringar av analyser
+description: ​20. 4 Förbättringar av analyser
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# 20. 4 Förbättringar av analyser
+# &#x200B;20. 4 Förbättringar av analyser
 
 Den här sidan beskriver alla analysförbättringar som gjorts i version 20.4 till förhandsvisningsmiljön. Dessa förbättringar kommer att bli tillgängliga i produktionsmiljön den 9 november 2020.
 
@@ -28,5 +28,3 @@ För att du ska kunna visa den information du vill se utan att använda restrikt
 * Varje diagram har nu en sorteringsmeny där du kan sortera i bokstavsordning, efter planerat startdatum eller efter planerat slutförandedatum.
 
 Tidigare begränsades antalet projekt i området Förbättrad analys till 50.
-
-Den här funktionen ingår nu i [Förbättrad analys, del 1-inlärningsväg](https://experienceleague.adobe.com/sv/docs/workfront/using/home) på Workfront One.

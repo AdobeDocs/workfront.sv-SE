@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -168,15 +168,6 @@ Du kan ställa in journalpostrapporten så att den visar:
 Om du vill se ett projekts hälsotillstånd kan du även konfigurera rapporten så att samma information visas med hjälp av projektfältet **Villkor**.
 
 Den här informationen kan användas för att hjälpa till med revision och för att illustrera hur väl du och din organisation planerar.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
--->
-
->[!TIP]
->
->Om du vill jämföra skillnaden i dagar mellan villkorsändringar kan du använda Förbättrad analys.\
->Mer information om förbättrade analyser finns i [Översikt över förbättrade analyser](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
 1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
