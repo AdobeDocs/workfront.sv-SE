@@ -4,9 +4,9 @@ description: Med Workfront UI Extensions, som bygger på Adobe App Builder, kan 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Du måste ha följande:
 
 * Ett IMS-aktiverat Workfront-konto
 * En dev-maskin med noden v18 och npm
+* App Builder License
 
 ## Öppna Adobe App Builder
 
@@ -69,8 +70,6 @@ Ytterligare instruktioner finns på [Adobe Developer-webbplatsen](https://develo
 ### Få tillgång till App Builder
 
 Organisationer måste samarbeta med sina kontoansvariga för att köpa App Builder.
-
-Om du vill testa AppBuilder-integreringen kan du begära en kostnadsfri testversion för din IMS-organisation här: https://developer.adobe.com/app-builder/trial/#
 
 Om AppBuilder är korrekt konfigurerat bör du se Skapa projekt från mall som en del av skapandet av ett nytt projekt.
 
@@ -132,7 +131,7 @@ Ytterligare instruktioner finns på GitHub och Adobe Developer webbplats:
 
 1. Bekräfta slutförandet genom att markera Jag är klar. Kodgenereringen från mallen pågår.
    ![generering pågår](assets/6-generation-in-process.png)
-1. Vänta tills du ser ett meddelande om att appinitieringen är klar. Sedan kan du öppna projektet i en IDE (VSCode rekommenderas) och komma åt mappen src.
+1. Vänta tills du ser ett meddelande om att appinitieringen är klar. Sedan kan du öppna projektet i en IDE (Visual Studio Code rekommenderas) och öppna mappen src.
 
    Mer information om mappar och filer i ditt projekt finns på [Adobe-utvecklarwebbplatsen](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
 
@@ -153,13 +152,13 @@ Så här tillåter du anpassade program på Workfront huvudmeny:
 I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapades för dig av mallen. Den här koden kan läggas till för att skapa ytterligare menyalternativ. Se till att ersätta ID:n och URL:er.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -169,13 +168,13 @@ I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapa
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-     12&rbrace;&rbrace;
+     12}}
     &quot;
 
 1. Lägg till följande kodfragment:
