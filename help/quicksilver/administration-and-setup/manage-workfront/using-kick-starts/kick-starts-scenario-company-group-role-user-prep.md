@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
+source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -56,25 +56,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 I följande tabell visas de företag, grupper och roller som ska importeras:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th><strong>Företag</strong> </th> 
-   <th><strong>Grupper</strong> </th> 
-   <th><strong>Roller</strong> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Ditt företag</em> </p> <p>XYZ, Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">Ekonomi</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marknadsföring </p> <p valign="top" rowspan="7">Försäljning</p> </td> 
-   <td valign="top"> <p valign="top">Affärsanalytiker</p> <p valign="top">Creative</p> <p valign="top">Designer</p> <p valign="top">Resurshanteraren</p> <p valign="top">Scrum Master</p> <p valign="top">Teknikskribent</p> <p valign="top">Webbutvecklare</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Företag | Grupper | Roller |
+|---|---|---|
+| Acme, Co <p>Workfront, Inc. <p>_Ditt företag_ <p>XYZ, Inc. | Ekonomi <p>IT <p>Marknadsföring <p>Försäljning | Affärsanalytiker <p>Creative <p>Designer <p>Resurshanteraren <p>Scrum Master <p>Teknikskribent <p>Webbutvecklare |
+
+{style="table-layout:auto"}
 
 Rollnamn måste vara unika. Befintliga jobbroller kan inte importeras.
 
@@ -82,8 +68,9 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 ### Användare 1
 
-| **Förnamn** | Chris |
+| Attribut | Värde |
 |---|---|
+| **Förnamn** | Chris |
 | **Efternamn** | Manning |
 | **Användarnamn/e-postadress** | mailto:cmanning@foo.com |
 | **Lösenord** | updateMe |
@@ -96,8 +83,9 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 ### Användare 2
 
-| **Förnamn** | Jennifer |
+| Attribut | Värde |
 |---|---|
+| **Förnamn** | Jennifer |
 | **Efternamn** | Campbell |
 | **Användarnamn/e-postadress** | jcampbell@foo.com |
 | **Lösenord** | updateMe |
@@ -110,8 +98,9 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 ### Användare 3
 
-| **Förnamn** | Jill |
+| Attribut | Värde |
 |---|---|
+| **Förnamn** | Jill |
 | **Efternamn** | Sullivan |
 | **Användarnamn/e-postadress** | jsullivan@foo.com |
 | **Lösenord** | updateMe |
@@ -124,8 +113,9 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 ### Användare 4
 
-| **Förnamn** | Marc |
+| Attribut | Värde |
 |---|---|
+| **Förnamn** | Marc |
 | **Efternamn** | Lewis |
 | **Användarnamn/e-postadress** | mlewis@foo.com |
 | **Lösenord** | updateMe |
@@ -138,8 +128,9 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 ### Användare 5
 
-| **Förnamn** | Pam |
+| Attribut | Värde |
 |---|---|
+| **Förnamn** | Pam |
 | **Efternamn** | Reynolds |
 | **Användarnamn/e-postadress** | preynolds@foo.com |
 | **Lösenord** | updateMe |
@@ -152,8 +143,9 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 ### Användare 6
 
-| **Förnamn** | Ray |
+| Attribut | Värde |
 |---|---|
+| **Förnamn** | Ray |
 | **Efternamn** | Andrews |
 | **Användarnamn/e-postadress** | randrews@foo.com |
 | **Lösenord** | updateMe |
@@ -184,9 +176,9 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 1. Gå till bladet **CMPY Company**.
 
-   Den ska vara tom om inte företagen redan finns i systemet. ![Företagsblad](assets/cmpysheet-350x16.png)
+   Den ska vara tom om inte företagen redan finns i systemet.
 
-   ![Företag-ID](assets/companyid--1--350x78.png)
+   ![Företagsblad](assets/cmpysheet-350x16.png) ![Företag-ID](assets/companyid--1--350x78.png)
 
 1. Ange **TRUE** i kolumnen **isNew**.
 
@@ -296,23 +288,18 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
    Upprepa det här steget för varje användare och grupptilldelning.
 
-   ![Företag-ID](assets/companyid--1--350x78.png)
-
-   ![Klistra in företags-ID](assets/pastecompanyid-350x84.png)
+   ![Företag-ID](assets/companyid--1--350x78.png) ![Klistra in företags-ID](assets/pastecompanyid-350x84.png)
 
 1. Ange information om användarens jobbroll.
 
    Enligt scenariot har Chris Manning rollen Business Analyst. På bladet **ROLE Role** letar du reda på ID:t för Business Analyst-rollen, kopierar det och klistrar in det på bladet **USER User** i kolumnen **setRoleID** på användarens rad. &#x200B;Upprepa det här steget för varje användare och grupptilldelning.
 
-   ![Kopiera roll-ID](assets/copyroleid-350x149.png)
-
-   ![Klistra in roll-ID](assets/pasteroleid-350x95.png)
+   ![Kopiera roll-ID](assets/copyroleid-350x149.png) ![Klistra in roll-ID](assets/pasteroleid-350x95.png)
 
 1. Fyll i annan användarinformation efter behov och spara sedan filen.
 1. Importera Excel-filen.
 
    Följ anvisningarna i [Importera data till Adobe Workfront med en snabbstartmall](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
-
 
 >[!NOTE]
 >
@@ -320,4 +307,4 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 > 
 >Om din organisation har migrerats till Adobe Admin Console och en användare inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter, kan du lägga till gruppen med användare direkt till Adobe Admin Console.
 >
->Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.
+>Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.
