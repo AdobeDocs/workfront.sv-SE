@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,30 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Filter, kolumner och ytterligare fält som lagts till på fliken Planering i området Begäranden
+
+>[!NOTE]
+>
+>* Förhandsgranska: 29 maj 2025
+>* Production fast release: 12 juni 2025
+>* Produktion för alla kunder: 17 juli 2025
+
+Vi har lagt till följande funktioner i en lista över begäranden på fliken Planering i området Begäranden:
+
+* Anges efter kolumn för att ange den person som lade till en begäran
+* Filter som begränsar antalet begäranden som du kan visa på fliken Planering. Du kan filtrera listan efter följande objekt:
+
+   * Workspace som förfrågningsformuläret kommer från
+   * posttypen som är associerad med begärandeformuläret
+   * Ange anmälningsdatum för begäran
+   * begärandeformulärets namn
+   * status för förfrågningarna
+   * namnet på den person som ingav begäran.
+
+* Kolumnkontroll om du vill visa eller dölja fält (eller kolumner) i listan Planeringsbegäranden.
+
+Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Ny upplevelse när du delar upp poster i kompakt läge i tidslinjevyn
 
@@ -126,7 +150,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 

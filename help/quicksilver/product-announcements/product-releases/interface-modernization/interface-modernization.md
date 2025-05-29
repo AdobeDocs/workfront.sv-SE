@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
+source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '4043'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,15 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 
 ## Administratör och installation
+
+<!--
+### Interface updates for the Import Data (Kick-Starts) page
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+
+For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
 
 ### Gränssnittsuppdatering för fliken Åtkomstlogg i installationsprogrammet
 
@@ -100,6 +109,14 @@ Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-
 
 ## Projekt
 
+### Utforska och känna av uppdateringar för rutan Ta bort problem
+
+**Förhandsversion: 29 maj 2025; Produktionsversion: 5 juni 2025**
+
+Vi har uppdaterat utseendet och känslan i rutan Ta bort problem när vi har tagit bort ett eller flera problem. Rutan Ta bort matchar nu andra delar av Workfront.
+
+Mer information finns i [Ta bort problem](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
+
 ## Utforma och känna av uppdateringar av riskrutorna Nytt och Redigera för ett projekt eller en mall
 
 **Förhandsversion: 22 maj 2025; Produktionsversion: 29 maj 2025**
@@ -147,6 +164,17 @@ Vi rekommenderar att du byter URL-adress för att gå till en sida som stöds el
 
 
 ## Användare
+
+<!--
+### Interface updates to the organizational chart
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+
+To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
 
 ### Gränssnittsuppdatering till den nya användarregistreringssidan
 

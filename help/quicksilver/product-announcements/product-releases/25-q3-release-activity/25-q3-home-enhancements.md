@@ -4,11 +4,10 @@ description: Förbättringar av Home Quarter 2025
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
+source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,12 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 ## Min widget för godkännanden sorterar nu automatiskt efter deadline
 
+>[!NOTE]
+>
+>* Förhandsgranska: 29 maj 2025
+>* Production fast release: 12 juni 2025
+>* Produktion för alla kunder: 17 juli 2025
+
 Vi har uppdaterat widgeten Mina godkännanden hemma för att sortera efter deadline (fallande) som standard. På så sätt kan de mest brådskande godkännandena visas högst upp i listan.
 
 Tidigare sorterades widgeten efter inmatningsdatum, vilket gjorde det svårt att avgöra prioritet.
-

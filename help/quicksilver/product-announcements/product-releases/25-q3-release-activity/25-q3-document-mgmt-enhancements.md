@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
+source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Uppdateringen gäller både Mac och Windows.
 
 >[!NOTE]
 >
->* Förhandsversion: 31 maj 2025; Produktionsrelease för alla kunder: 31 maj 2025
+>* Förhandsversion: 2 juni 2025; Produktionsrelease för alla kunder: 2 juni 2025
 
 Google [förbättrar säkerhetskontrollerna](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) för tredjepartsprogram som använder Google Drive, vilket kräver att program antar en modell för användargodkännande. Därför måste enskilda resurser länkas en i taget för att vara synliga i Workfront. Mer information finns i [Konfigurera dokumentintegreringar](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md).
 

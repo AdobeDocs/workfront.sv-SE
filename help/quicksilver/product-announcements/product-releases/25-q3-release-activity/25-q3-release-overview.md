@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
+source-git-commit: 655fc2407583ba65c1f3af7659274bca212eacca
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -89,32 +89,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--
-
-### Home enhancements
+### Hemförbättringar
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Funktion</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Min widget för godkännanden sorterar nu automatiskt efter deadline </a><p></p>
+            <p>Vi har uppdaterat widgeten Mina godkännanden hemma för att sortera efter deadline (fallande) som standard. På så sätt kan de mest brådskande godkännandena visas högst upp i listan. </p>
         </td>
-        <td>May 15, 2025</td>
-        <td>May 15, 2025</td>
-        <td>July 17, 2025</td>
+        <td>29 maj 2025</td>
+        <td>12 juni 2025</td>
+        <td>17 juli 2025</td>
     </tr>     
   </tbody>
-</table> 
-
--->
+</table>
 
 ### Projektförbättringar
 
@@ -127,6 +123,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Förändring i hur faktiska timmar lagras i databasen för API-anrop</a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Uppdateringen förändrar det sätt på vilket faktiska timmar för projekt, uppgifter och ärenden lagras i databasen. Från och med den här uppdateringen används ett värdefält på <code>actualWorkRequiredDouble</code> (med ett värde i timmar).</p>
+        </td>
+        <td>27 maj 2025</td>
+        <td>27 maj 2025</td>
+        <td>27 maj 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdatera i med reglaget Procent färdigt i en aktivitet eller i ett ärende </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Vi har uppdaterat hur procentreglaget fungerar för uppgifter och problem. När du drar den blå bubblan Procent färdigt i en uppgift eller i en utgåva uppdateras aktiviteten Procent färdigt i steg om fem punkter. Före den här uppdateringen uppdaterades aktiviteterna eller problemen i steg om en punkt genom att den blå bubblan Procent färdigt flyttades.</p>
+        </td>
+        <td>27 maj 2025</td>
+        <td>27 maj 2025</td>
+        <td>27 maj 2025</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer genomskinlighet när AI Assistant används för projekt, uppgifter och problem</a><p>[!BADGE Off schema]{type=Neutral}</p>
@@ -203,22 +217,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer genomskinlighet när AI Assistant används</a></p>
-                        <p>För att klargöra hur AI Assistant hittar svar på frågor om Workfront projekt, uppgifter och problem har vi lagt till den här informationen i svaret på frågan. Nu inkluderar AI Assistant sökinformationen i utdata. Du kan använda den här informationen som ett sätt att kontrollera att AI Assistant har identifierat den fråga du ställde och att förstå svarets sammanhang. </p>
-                    </td>
-                    <td><p><b>Tillgängligt på följande datum:</b></p>
-                        <ul>
-                            <li>
-                                <p>Förhandsgranskningsversion: Under den tredje kvartersreleasen 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Produktionsrelease: Minst två veckor efter lanseringen till Förhandsgranska (om inget annat anges)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Funktion</span>
@@ -262,7 +260,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -284,11 +282,11 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 
 
