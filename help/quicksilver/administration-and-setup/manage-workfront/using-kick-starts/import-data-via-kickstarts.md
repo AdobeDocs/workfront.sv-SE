@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2891'
 ht-degree: 0%
 
 ---
 
 # Importera data till Workfront med en snabbstartsmall
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -490,10 +492,17 @@ Så här importerar du mallkalkylbladsdata till Workfront:
 
 1. Klicka på **Välj fil** i avsnittet **Överför data med snabbstartskalkylblad** och bläddra sedan till och markera det ifyllda kalkylbladet.
 
-1. Klicka på **Överför.**
+   <div class="preview">
 
-   Om det tar längre tid än fem minuter att överföra Excel-filen till Workfront, tar det längre tid att överföra filen och Workfront kan inte överföra den.
+   I förhandsvisningsmiljön överförs filen automatiskt och ett meddelande om att importen lyckades visas.
 
-   Prova att importera data i mindre grupper av objekt.
+   Om det tar längre tid än fem minuter att överföra Excel-filen till Workfront, tar det längre tid att överföra filen och Workfront kan inte överföra den. Prova att importera data i mindre grupper av objekt.
 
-1. (Villkorligt) Om du använder Workfront Fusion kan du nu aktivera dina FLO:er eller scenarier.
+   </div>
+
+1. (Endast i produktionsmiljön) Klicka på **Överför**.
+
+   Om det tar längre tid än fem minuter att överföra Excel-filen till Workfront, tar det längre tid att överföra filen och Workfront kan inte överföra den. Prova att importera data i mindre grupper av objekt.
+
+1. (Villkorligt) Om importen inte lyckades får du ett felmeddelande som anger vad problemet är. Försök att identifiera fältet, bladet och radnumret som problemet påträffades i och korrigera informationen i Excel-filen. Försök sedan att importera filen en gång till.
+1. (Villkorligt) Om du använder Workfront Fusion kan du nu aktivera dina FLO:er eller scenarier när importen är klar.

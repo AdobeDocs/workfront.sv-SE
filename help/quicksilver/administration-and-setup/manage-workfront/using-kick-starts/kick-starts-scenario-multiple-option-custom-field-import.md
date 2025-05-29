@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2268'
 ht-degree: 0%
 
 ---
 
 # Scenario för att komma igång: Importera anpassade fält med flera alternativ till Workfront
+
+{{highlighted-preview}}
 
 Du kan importera anpassade fält med flera alternativ i Adobe Workfront med funktionen Snabbstart.
 
@@ -124,7 +126,7 @@ När du har läst in information om befintliga anpassade fält i systemet kan du
 
 1. Markera kryssrutan **Anpassade data** i området **Hämta ett tomt snabbstartkalkylblad** och klicka på **Hämta**.
 
-   ![Välj anpassade data](assets/kickstarts-select-existing-data.png)
+   ![Välj anpassade data](assets/kickstarts-blank-spreadsheet-options.png)
 
    En tom fil som startar snabbt laddas ned till datorn.
 
@@ -223,7 +225,7 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
      >
      >Du kan bara ha ett standardalternativ för varje fält.
 
-   * **`setParameterID`** = de alternativ som motsvarar det anpassade fältet _Varumärke_ har **`setParameterID`** 1, och de alternativ som motsvarar _Media_ har **`setParameterID`**&#x200B;2. `PARAM` och `POPT` blad korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
+   * **`setParameterID`** = de alternativ som motsvarar det anpassade fältet _Varumärke_ har **`setParameterID`** 1, och de alternativ som motsvarar _Media_ har **`setParameterID`**2. `PARAM` och `POPT` blad korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
    * **`setDisplayOrder`**= Visningsordningskolumnen anger i vilken ordning alternativen visas i det anpassade fältet. Du kan börja med 1 och fortsätta i stigande ordning för alla alternativ, oavsett vilka fält de tillhör. Det viktiga här är att ha unika nummer för varje alternativ.
    * Kolumnerna **`setLabel`** och `**setValue`** innehåller vanligtvis samma information och de bör återspegla de namn som du vill ha i Workfront-gränssnittet. Värdet för ett alternativ är det namn som visas i rapporter, till exempel, medan etiketten visas i de anpassade formerna när den kopplas till ett objekt. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = ange `TRUE` om du vill att något av alternativen ska vara dolt.
@@ -255,14 +257,13 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
      >[!NOTE]
      >
-     >För formulär med flera objekt anger du det första objektet som du skulle markera när du skapar ett formulär i användargränssnittet. Ange till exempel `setCatObjCode` till `TASK` om du vill välja Uppgift i Workfront-gränssnittet och sedan Problem, Portfolio, osv., men du inte vill att formuläret ska vara tillgängligt för Projekt.
+     >För formulär med flera objekt anger du det första objektet som du skulle markera när du skapar ett formulär i användargränssnittet. Ange till exempel `setCatObjCode` till `TASK` om du vill välja Uppgift i Workfront-gränssnittet och sedan Problem, Portfolio osv., men du inte vill att formuläret ska vara tillgängligt för Projekt.
 
    * **`setName`** = det här är namnet på det anpassade formuläret som du vill att det ska visas i Workfront-gränssnittet.
 
      ![Kategoriblad fyllt i](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Spara kalkylbladet som en .xls- eller .xlsx-fil på datorn. Excel-kalkylbladet är ifyllt och kan nu importeras till Workfront.
-
 
 ## Överför Excel-kalkylbladet till Workfront
 
@@ -272,16 +273,13 @@ När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du me
 
 1. Klicka på **System > Importera data (snabbstart)**.
 
-1. Klicka på **Välj Arkiv** under avsnittet **Överför data med snabbstartskalkylblad**.
+1. Klicka på **Välj fil** under avsnittet **Överför data med snabbstartskalkylblad**.
 
-1. Bläddra efter det Excel-kalkylblad du har förberett på datorn och markera det när du hittar det. När Workfront känner igen filen blir knappen Överför blå.
-1. Klicka på **Överför.**
+1. Bläddra efter det Excel-kalkylblad du har förberett på datorn och markera det när du hittar det.
 
-   ![Filen har markerats och knappen ](assets/kick-start-file-selected-and-upload-blue-button.png) har överförts
+   <div class="preview">
 
-1. Ett meddelande om att importen lyckades visas. Beroende på hur mycket information du importerar kan det här steget ta några sekunder till en minut.
-
-   ![Snabbstart lyckades](assets/kick-start-successful.png)
+   Filen överförs automatiskt och ett meddelande om att importen lyckades visas. Beroende på hur mycket information du importerar kan det här steget ta några sekunder till en minut.
 
    De nya anpassade fälten och formulären finns nu i Workfront. Du hittar dem under Anpassad Forms i Konfigurera.
 
@@ -289,12 +287,23 @@ När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du me
    >
    >De nya formulären och fälten som du importerade är ännu inte sammankopplade. Formuläret importeras utan anpassade fält. Du måste lägga till fälten manuellt i det nya anpassade formuläret eller i ett annat befintligt anpassat formulär.
 
+   Mer information om hur du lägger till fält i anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+   </div>
+
+1. (Endast i produktionsmiljön) Klicka på **Överför**.
+
+   Ett meddelande om att importen lyckades visas. Beroende på hur mycket information du importerar kan det här steget ta några sekunder till en minut.
+
+   De nya anpassade fälten och formulären finns nu i Workfront. Du hittar dem under Anpassad Forms i Konfigurera.
+
+   >[!NOTE]
+   >
+   >De nya formulären och fälten som du importerade är ännu inte sammankopplade. Formuläret importeras utan anpassade fält. Du måste lägga till fälten manuellt i det nya anpassade formuläret eller i ett annat befintligt anpassat formulär.
 
    Mer information om hur du lägger till fält i anpassade formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Villkorligt) Om importen inte lyckades får du ett felmeddelande om vad problemet är. Försök att identifiera fältet, bladet och radnumret som problemet påträffades i och korrigera informationen i Excel-filen. Försök sedan importera filen en gång till.
-
-   ![Snabbstartfel](assets/kick-start-error.png)
+1. (Villkorligt) Om importen inte lyckades får du ett felmeddelande som anger vad problemet är. Försök att identifiera fältet, bladet och radnumret som problemet påträffades i och korrigera informationen i Excel-filen. Försök sedan att importera filen en gång till.
 
 1. (Villkorligt) Beroende på vad problemet är kan viss information redan ha importerats, vilket anges i felmeddelandet. Du måste göra något av följande innan du kan importera bladet igen:
 
