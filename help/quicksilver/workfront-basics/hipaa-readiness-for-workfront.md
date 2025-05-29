@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # HIPAA-beredskap för Workfront
 
-En Workfront-kund som, enligt definitionen i HIPAA, är en **Business Associate** och/eller den **Enhet som omfattas** och som Business Associate tillhandahåller Adobe Workfront för, ska använda följande riktlinjer för att konfigurera Workfront för HIPAA-klar användning:
+En Workfront-kund som, enligt definitionen i HIPAA, är en Business Associate och/eller den enhet som omfattas för vars räkning Business Associate tillhandahåller Adobe Workfront, bör använda följande riktlinjer för att konfigurera Workfront för användning med HIPAA:
 
 
 ## Lösenordskrav
@@ -35,16 +35,16 @@ En Workfront-kund som, enligt definitionen i HIPAA, är en **Business Associate*
 | **Säkerhetsinställning** | **Vad är det?** | **Krav** |
 |----------------------|------------------|------------------|
 | Maximalt antal inloggningsfel | Hur många misslyckade inloggningsförsök gör att användaren låses? | Högst 5 försök inom 5 minuter; försök tillåts efter 30 minuter |
-| Maximalt antal SSO-verifieringsfel | Hur många misslyckade försök till SSO-verifiering orsakar utelåsning? | Högst 5 (gäller endast kunder som använder enkel inloggning) |
+| Maximalt antal SSO-verifieringsfel | Hur många misslyckade försök att utföra enkel inloggning orsakar en utelåsning? | Högst 5 (gäller endast kunder som använder enkel inloggning) |
 
 
 ## Sessionskrav
 
 | **Säkerhetsinställning** | **Vad är det?** | **Krav** |
 |----------------------|------------------|------------------|
-| Tidsgräns för session | Hur många minuters inaktivitet orsakar utloggning? | Högst 15 minuter |
+| Tidsgräns för session | Hur många minuters inaktivitet orsakar en utloggning? | Högst 15 minuter |
 
-## Kundens ansvar
+## Kundansvar
 
 Se till att alla anställda, representanter och/eller agenter är medvetna om och förstår villkoren i det eller de licensavtal och/eller serviceavtal som ingåtts mellan parterna, beroende på vad som är tillämpligt, för användningen av data med Workfront.
 
