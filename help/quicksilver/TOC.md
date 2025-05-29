@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ ht-degree: 0%
          * [21.2 Projektförbättringar](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2 Förbättrade begäranden](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [21.2 Förbättrad resurshantering](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2 Förbättrade rapporter](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2 Förbättrade rapporter](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2 Förbättringar av korrektur](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2 Integration enhancements](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 Andra förbättringar](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -254,7 +254,7 @@ ht-degree: 0%
          * 20.4-utgåvan {#release-20-4}
             * [20.4 versionsöversikt](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 Förbättrad projektledning](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4 Förbättringar av analyser](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 Förbättringar av analyser](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [20.4 Förbättrad resurshantering](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [20.4 Förbättrade korrektur](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4 Förbättringar av mobiler och integrering](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 0%
    * [Ordlista för Adobe Workfront-terminologi](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Krav för Adobe Workfront webbläsare](workfront-basics/workfront-browser-requirements.md)
    * [Språk som stöds i Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+   * [HIPAA-beredskap för Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * Navigera i Adobe Workfront {#navigate}
       * [Navigera i Adobe Workfront: artikelindex](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront Search {#search}
