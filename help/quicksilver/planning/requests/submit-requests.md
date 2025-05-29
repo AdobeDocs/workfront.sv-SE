@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2095'
 ht-degree: 0%
 
 ---
@@ -222,41 +222,46 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
 1. (Valfritt) Klicka på **Visa din begäran** i bekräftelsemeddelandet om du vill öppna begäran eller klicka på ikonen **X** om du vill stänga bekräftelsen.
 
-1. (Valfritt) Klicka på fliken **Planering** i området **Förfrågningar** för att visa din förfrågan och klicka sedan på namnet på förfrågan.
+1. (Valfritt) Klicka på fliken **Planering** i området **Förfrågningar** för att visa dina förfrågningar.
+Alla begäranden som du har tillgång till för att visa som har skickats till ett planeringsbegärandeformulär visas i en lista.
+1. (Valfritt) Gör något av följande:
+
+   <div class="preview">
+
+   * Klicka på **Filter** och börja lägga till villkor för vilka förfrågningar du vill visa på fliken Planering.
+
+     ![Redigeringsfilter på fliken Planeringsbegäranden](assets/filters-editing-box-in-requests-planning-tab.png)
+
+     Du kan filtrera efter följande fält:
+
+      * **Workspace**: Den arbetsyta som förfrågningsformuläret är associerat med.
+      * **Posttyp**: Posttyp som begärandeformuläret är associerat med.
+      * **Anmälningsdatum**: Datumet då begäran skickades.
+      * **Formulär för begäran**: Namnet på det begärandeformulär som användes för att skicka begäran.
+      * **Status**: Status för begäran.
+      * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till med någon utanför Workfront visas **Angivet av**-fältet `N/A`.
+
+        Du kan ha flera filter kopplade av antingen **And** eller **Or**.
+Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
+
+   * Klicka på **Kolumner** och dölj, visa eller ordna om kolumnerna i listan med förfrågningar.
+
+     >[!TIP]
+     >
+     >Du kan inte lägga till fler kolumner.
+     >
+     >Du kan inte visa fältet **Ämne**.
+
+     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+
+
+1. Klicka på namnet på en begäran i listan.
 
    Sidan med information om förfrågan öppnas.
 
    ![Sidan Begär information](assets/request-details-page.png)
 
-   <!--replace the step directly above with this when we release filters and columns: 
-      1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
-         All the requests you have access to view that were submitted to a Planning request form display in a list. 
-      1. (Optional) Do any of the following:
-         <div class="preview">
-         * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
-                     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
-            You can filter by any of the following fields:  
-            * **Workspace**: The workspace the request form is associated with.
-            * **Record type**: The record type the request form is associated with.
-            * **Entry date**: The date when the request was submitted.
-            * **Request form**: The name of the request form used to submit the request.
-            * **Status**: The status of the request.
-            * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
-            You can have multiple filters joined by either And or Or.  
-            The request list is filtered automatically, as you add the filter conditions. 
-         * Click **Columns** and hide, show, or rearrange the columns in the request list. 
-            >[!TIP]
-            >
-            >You cannot add any more columns. 
-            >
-            >You cannot display the **Subject** field.
-                     ![](assets/columns-editing-box-in-requests-planning-tab.png)
-
-      1. Click the name of a request in the list. 
-   The request details page opens. 
-   ![Request details page](assets/request-details-page.png)             
-      </div>
-      -->
+   </div>
 
 
 1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på postens namn i fältet **Post**.

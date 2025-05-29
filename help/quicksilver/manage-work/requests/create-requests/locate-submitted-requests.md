@@ -8,16 +8,18 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # Sök efter skickade begäranden
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Du kan hitta följande typer av förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har börjat skicka men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
@@ -166,7 +168,7 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
      </tr> 
      <tr> 
       <td role="rowheader">Mina öppna förfrågningar</td> 
-      <td> <p>Begäranden som du har skickat och som fortfarande är öppna. </p> <p>Förfrågningar utan faktiskt slutförandedatum eller vars matchande objekt inte har något faktiskt slutförandedatum visas på underfliken Mina öppna förfrågningar. </p> <p><b>TIPS</b>
+      <td> <p>Begäranden som du har skickat och som fortfarande är öppna. </p> <p>Förfrågningar utan faktiskt slutförandedatum eller vars matchande objekt inte har något faktiskt slutförandedatum visas på underfliken Mina öppna förfrågningar. </p> <p><b>TIPS</b>
 
    Begäranden som inte har en status som motsvarar stängda betraktas som öppna.</p> </td>
    </tr> 
@@ -176,13 +178,13 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
 1. (Valfritt) Klicka på ikonen **Filtersida** ![](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran efter namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:&nbsp; &nbsp;(NOTE:&nbsp;this step will stay drafted even after release. We can't see Completed at this time!) &nbsp;
+   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
-   <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria:&nbsp;
+   <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
    <li>All requests assigned to users are sorted first, in the order of the users' names.</li>
    <li>Requests assigned to job roles are sorted secondly, in the order of the job roles' names and are listed after all the requests assigned to users.</li>
@@ -191,10 +193,10 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
    </ul></li>
    <li><strong>Submitted On</strong>: Requests are sorted chronologically by the date when they were submitted.</li>
    <li><strong>Recently Updated</strong> (this is the default): Requests are sorted chronologically by the date of their last update.</li>
-   <li><strong>Name</strong>: Requests are sorted alphabetically by name.&nbsp;</li>
+   <li><strong>Name</strong>: Requests are sorted alphabetically by name. </li>
    <li><strong>Priority</strong>: Requests are sorted in the order of their priority.</li>
-   <li><strong>Queue</strong>: Requests are sorted alphabetically by the name of the requests queue where they were submitted.&nbsp;</li>
-   <li><strong>Status</strong>: Requests are sorted alphabetically by their status.&nbsp;</li>
+   <li><strong>Queue</strong>: Requests are sorted alphabetically by the name of the requests queue where they were submitted. </li>
+   <li><strong>Status</strong>: Requests are sorted alphabetically by their status. </li>
    </ul></li>
    -->
 
@@ -202,12 +204,10 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
 
 1. (Valfritt och villkorligt) Om din organisation har köpt ett Workfront Planning-paket klickar du på fliken **Planning** och sedan på **Skickat** i den vänstra panelen för att visa Workfront Planning-begäranden.
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   <span class="preview">Använd **Filter** och **Kolumner** för att uppdatera informationen i listan Planeringsbegäran. </span>
+
+   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
 
    Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
- 
 
- 
-
- 

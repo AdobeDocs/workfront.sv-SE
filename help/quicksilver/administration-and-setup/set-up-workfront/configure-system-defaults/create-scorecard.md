@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Ett styrkort mäter hur väl ett projekt överensstämmer med de tidigare fastställda kriterierna för en portfölj. Ett styrkort avspeglar ofta organisationens uppdrag, värderingar och strategiska mål.
 
@@ -73,9 +73,9 @@ Du måste ha följande åtkomst:
 
 1. Klicka på **[!UICONTROL Scorecards]** och sedan på **[!UICONTROL New Scorecard]**.
 
-   <span class="preview">Rutan **Nytt styrkort** öppnas.</span>
+   Rutan **Nytt styrkort** öppnas.
 
-   <span class="preview">![Ny styrkortsruta](assets/new-scorecard-350x173.png)</span>
+   ![Ny styrkortsruta](assets/new-scorecard-350x173.png)
 
 1. Ange **[!UICONTROL Scorecard Name]** och **[!UICONTROL Description]**.
 
@@ -126,9 +126,9 @@ Du kan skapa ett styrkort genom att kopiera och redigera ett befintligt.
 1. Klicka på **[!UICONTROL Scorecards]** i den vänstra panelen.
 1. Markera ett styrkort i listan och klicka sedan på ikonen **Kopiera** ![Kopiera styrkort](assets/copy-scorecard-icon.png) högst upp i styrkortslistan.
 
-   <span class="preview">Rutan **Kopiera styrkort** öppnas.</span>
+   Rutan **Kopiera styrkort** öppnas.
 
-   <span class="preview">![Kopiera styrkortsruta](assets/copy-scorecard-box.png)</span>
+   ![Kopiera styrkortsruta](assets/copy-scorecard-box.png)
 
 1. Ange följande information:
 

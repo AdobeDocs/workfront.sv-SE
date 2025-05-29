@@ -6,9 +6,9 @@ description: Ekonomer beräknas för ett projekt i takt med att förändringar s
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td>
    <p>Nytt: Standard</p>
    <p>eller</p>
@@ -55,7 +55,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Att tänka på när det gäller att beräkna ekonomi i Adobe Workfront
 
-Ekonomer beräknas i Förbättrad analys på följande sätt:
+Ekonomer beräknas för projekt på följande sätt:
 
 * Du kan manuellt beräkna om kostnader och intäkter för ett projekt genom att använda alternativet Beräkna om finansiering för ett projekt.
 * Dessutom utlöser vissa åtgärder en automatisk omberäkning.

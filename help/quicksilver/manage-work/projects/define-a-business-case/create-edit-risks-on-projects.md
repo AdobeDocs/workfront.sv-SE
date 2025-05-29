@@ -6,9 +6,9 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Risker är tänkbara händelser eller faktorer som förhindrar att ett projekt slutförs i tid eller inom budgeten. Du kan registrera risker när du skapar ett affärsärende för ett projekt eller genom att använda fliken Risker.
 
@@ -117,9 +117,9 @@ Du kan skapa och redigera risker i avsnittet Risker i ett projekt eller en mall.
 
    Klicka på **Ny risk**.
 
-   <span class="preview">Rutan **Ny risk** öppnas.</span>
+   Rutan **Ny risk** öppnas.
 
-   <span class="preview">![Ny riskruta](assets/new-risk-box.png)</span>
+   ![Ny riskruta](assets/new-risk-box.png)
 
 1. (Villkorligt) Om du lägger till en risk i rutan **Ny risk** anger du följande information:
 
@@ -175,7 +175,7 @@ Så här redigerar du risker:
    * **Faktisk kostnad**: Ange den faktiska kostnaden för risken om risken inträffade.
    * **Åtgärdsplan**: Uppdatera beskrivningen av planen för att minska risken.
 
-1. <span class="preview">Klicka på **Spara**.</span>
+1. Klicka på **Spara**.
 1. (Valfritt) Redigera **status** för en risk i listrutan **Status** när du använder vyn **Standard** för listan över risker.
 
    >[!NOTE]

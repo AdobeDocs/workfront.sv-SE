@@ -6,9 +6,9 @@ description: Vi rekommenderar att du lägger till projekt i portföljer när du 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Vi rekommenderar att du lägger till projekt i portföljer när du initierar dem. Du kan dock lägga till dem i en portfölj när som helst under deras livstid.
 
@@ -104,9 +104,9 @@ Tänk på följande när du lägger till projekt i portföljer:
 
    ![Listrutan Nytt projekt](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Villkorligt) Om du valde att lägga till ett befintligt projekt öppnas rutan <span class="preview">**Lägg till projekt** .</span> <!--check this after UI changes-->
+1. (Villkorligt) Om du valde att lägga till ett befintligt projekt öppnas rutan **Lägg till projekt** . <!--check this after UI changes-->
 
-   <span class="preview">![Lägg till befintligt projekt](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+   ![Lägg till befintligt projekt](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. Börja skriva namnet på ett projekt i fältet **[!UICONTROL Add Projects to this Portfolio]** och klicka sedan på dem när de visas i listan.  <!--check this after UI changes-->
 

@@ -6,9 +6,9 @@ description: Du kan ordna dina projekt genom att lägga till dem i program inom 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Du kan ordna dina projekt genom att lägga till dem i program inom portföljer. Du kan ha flera projekt i ett program, men du kan bara associera ett program med ett projekt.
 
@@ -104,16 +104,16 @@ Mer information om hur du skapar program finns i [Skapa ett program](../../../ma
     </tbody> 
    </table>
 
-1. (Villkorligt) Om du valde **[!UICONTROL Existing Project]** öppnas rutan <span class="preview">**Lägg till projekt**</span> . <!--check at unshimming-->
+1. (Villkorligt) Om du valde **[!UICONTROL Existing Project]** öppnas rutan **Lägg till projekt** . <!--check at unshimming-->
 
-   <span class="preview">![Lägg till befintliga projekt i programrutan](assets/add-projects-to-programs-box.png)</span><!--check at unshimming-->
+   ![Lägg till befintliga projekt i programrutan](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. Gör följande:
 
    1. I rutan **[!UICONTROL Add Projects]** skriver du namnet på ett projekt i fältet **Lägg till projekt i det här programmet** och markerar det när det visas i listan. <!--check casing on links and buttons-->
 
       Du kan lägga till fler än ett projekt.
-   1. (Valfritt) Klicka på ikonen <span class="preview">**Ta bort** ![Ta bort ](assets/delete-icon.png)</span> bredvid namnet på ett projekt om du bestämmer dig för att inte lägga till det i programmet.
+   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) bredvid namnet på ett projekt om du bestämmer dig för att inte lägga till det i programmet.
 
    1. Klicka på **[!UICONTROL Add Projects]**. <!--check at unshimming-->
 

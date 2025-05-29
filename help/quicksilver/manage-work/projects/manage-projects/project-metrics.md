@@ -1,16 +1,16 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: analys,mätvärden,projekt,förbättrad,uppgifter,tilldelad,fullständig,status,försenad,kommande
+keywords: analys,mätvärden,projekt,uppgifter,tilldelad,fullständig,status,försenad,kommande
 navigation-topic: manage-projects
 title: Översikt över projektstatistik
 description: Projektstatistik ger en visualisering av vad som händer i ett projekt, så att du snabbt kan bedöma projektets behov och status. Ta reda på hur du tolkar området Metrisk i den vänstra panelen i ett projekt.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,35 @@ Projektstatistik ger en allmän bild i diagramformat om hur ett projekt fungerar
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-plan*</td> 
+   <td role="rowheader">Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront-licens*</td> 
-   <td> <p>Granska eller högre </p> </td> 
+   <td> <p>Nytt: Ljus eller högre </p>
+   <p>Aktuell: Granska eller senare </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till projekt finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Bevilja åtkomst till projekt</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Visa åtkomst till projekt</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter för ett projekt</p> <p> Mer information om projektbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter för ett projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -72,10 +75,11 @@ Du kan även fördjupa dig i varje diagram för att närmare titta på uppgifter
 
 Om du vill veta mer om hur du tittar på de här uppgifterna eller problemen kan du läsa [Visa måttinformation](#view-metrics-details).
 
+<!--this was deprecated: 
 >[!TIP]
 >
->Om du vill visa mätvärden på en högre nivå för en grupp projekt inom ett program, en portfölj osv. navigerar du till området Förbättrad analys.\
->Mer information om förbättrade analyser finns i [Översikt över förbättrade analyser](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
 
 ## KPI:er för projekt
 

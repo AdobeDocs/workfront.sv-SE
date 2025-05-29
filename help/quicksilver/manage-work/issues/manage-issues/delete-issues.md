@@ -6,9 +6,9 @@ description: Du kan ta bort problem eller förfrågningar i Adobe Workfront om d
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>
 
 Du kan ta bort problem eller förfrågningar i Adobe Workfront om du har rätt behörighet att göra det.
 
@@ -116,7 +116,7 @@ Beroende på hur din Workfront- eller gruppadministratör konfigurerar inställn
    En lista över problem som är associerade med det valda projektet visas till höger.
 1. Markera en eller flera utgåvor i listan och klicka sedan på ikonen **Ta bort** ![Ta bort](assets/delete.png) överst i listan.
 
-1. Om borttagning är tillåten klickar du på **Ja, tar bort den**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Om borttagningen tillåts klickar du på **<span class="preview">Ta bort</span>**.
 
    Din Workfront-administratör kanske inte tillåter borttagning av problem där timmar är loggade.\
    Mer information om den åtkomst och de behörigheter som krävs för att ta bort ett problem finns i avsnittet [Att tänka på när du tar bort problem](#considerations-for-deleting-issues) i den här artikeln.
@@ -136,7 +136,7 @@ Beroende på hur din Workfront- eller gruppadministratör konfigurerar inställn
    ![Menyn Mer om problem](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klicka på **Ta bort problem**.
-1. Om borttagning är tillåten klickar du på **Ja, tar bort den**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Om borttagningen tillåts klickar du på **<span class="preview">Ta bort</span>**.
 
    Din Workfront-administratör kanske inte tillåter borttagning av problem där timmar är loggade.\
    Mer information om den åtkomst och de behörigheter som krävs för att ta bort ett problem finns i avsnittet [Att tänka på när du tar bort problem](#considerations-for-deleting-issues) i den här artikeln.
