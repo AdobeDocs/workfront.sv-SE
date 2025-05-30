@@ -5,7 +5,7 @@ description: Du kan använda AI för att fylla i begärandefält automatiskt.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: 977817157e016b7cbe591d8627031208d7bf3bb3
+source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -162,3 +162,4 @@ Du kan överföra ett dokument som ska användas på hela formuläret eller till
    eller
 
    Välj **Acceptera alla** eller **Ignorera alla** överst på sidan om du vill acceptera eller ignorera alla förslag.
+
