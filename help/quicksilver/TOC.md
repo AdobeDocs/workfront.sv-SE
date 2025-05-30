@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: 4189ea6b6c61a97eaf15c92724ef1dbfeb8b8b82
 workflow-type: tm+mt
-source-wordcount: '13220'
+source-wordcount: '13222'
 ht-degree: 0%
 
 ---
@@ -1013,7 +1013,7 @@ ht-degree: 0%
       * [Lägg till taggar](agile/get-started-with-boards/add-tags.md)
       * [E-postmeddelanden och inställningar för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Använd flexibla planeringsverktyg i ritytor {#agile-planning-boards}
-      * [Översikt över flexibla planeringsverktyg](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+      * [Översikt över Agile-planeringsverktyg: artikelindex](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Hantera PIA-gränsen (Work In Progress) direkt](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Lägga till en inloppskolumn på en anslagstavla](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Använda grupper på en anslagstavla](agile/use-boards-agile-planning-tools/group-cards-on-board.md)

@@ -6,14 +6,16 @@ description: Du kan hantera flera versioner av ett dokument i Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
 
 # Hantera dokumentversioner
+
+<!-- Audited: 5/2025 -->
 
 Du kan hantera flera versioner av ett dokument i Workfront.
 
@@ -28,15 +30,21 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenser</td> 
+   <td> 
+   <p>Nytt: Medarbetare eller högre<p>
+   <p>eller</p>
+   <p>Aktuell: Begäran eller senare </p>
+
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +54,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,27 +66,47 @@ Du måste ha följande:
 
 ## Visa en lista över alla versioner av ett dokument
 
-1. Bläddra i sammanfattningen till vyn **Alla versioner**. Här kan du se alla versioner av dokumentet.
+{{step1-to-documents}}
+
+1. Markera ett dokument i listan på sidan **Dokument**.
+
+1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
+
+1. Bläddra ned till avsnittet **Versioner** om du vill visa alla dokumentversioner.
 
 ## Visa och hantera information om en tidigare dokumentversion
 
-1. Långt upp på sidan Dokumentinformation klickar du på listrutan bredvid namnet och sedan på namnet på den version som du vill visa och hantera.
+{{step1-to-documents}}
 
-   ![Versionslistrutan i dokumentinformationen](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+1. Håll markören över dokumentet och klicka sedan på **Dokumentinformation**.
+
+1. Klicka på listrutan bredvid namnet längst upp på sidan **Dokumentinformation** och klicka sedan på namnet på den version som du vill visa och hantera.
+
+   ![Listrutan Version på sidan Dokumentinformation](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Förutom att visa information om versionen kan du göra ändringar i versionen, till exempel namn, metadata och korrekturinställningar (om det är ett dokumentkorrektur).
 
 ## Ladda ned en enda dokumentversion
 
-1. Klicka på menyn Mer ![Mer](assets/more-icon.png) till höger om versionen under **Versioner** i Sammanfattning och klicka sedan på **Hämta** i listrutan som visas.
+{{step1-to-documents}}
+
+1. Markera ett dokument i listan på sidan **Dokument**.
+
+1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
+
+1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) till höger om versionen i avsnittet **Versioner** och klicka sedan på **Hämta** i listrutan som visas.
 
    ![Hämta ett enstaka dokument](assets/more-versions-350x143.png)
 
 ## Hämta alla versioner av ett dokument
 
-1. Klicka på **Dokumentinformation** och välj sedan **Alla versioner** i den vänstra panelen.
+{{step1-to-documents}}
 
-1. Klicka på **Hämta alla** överst i listan.
+1. Markera ett dokument i listan på sidan **Dokument**.
+
+1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
+
+1. Bläddra ned till avsnittet **Versioner** och klicka sedan på **Hämta alla**.
 
 ## Ta bort en dokumentversion
 
@@ -90,7 +118,7 @@ Om du överför en version av ett dokument av misstag, eller om en version inte 
 
 Tänk på följande när du tar bort en dokumentversion:
 
-* Endast en version i taget kan tas bort. Om en version tas bort visas den här åtgärden i **uppdateringarna** i dokumentet.
+* Endast en version i taget kan tas bort. Om en version tas bort visas den här åtgärden i avsnittet Uppdateringar i dokumentet.
 * Om du överför en ny version efter att ha tagit bort en version får den nya versionen nästa sekvensnummer. Om det till exempel finns tre versioner av ett dokument och du tar bort version 3, kommer nästa överförda dokument att vara version 4.
 * Systemuppdateringar och kommentarer som görs i en version sparas i Workfront när versionen har tagits bort.
 
@@ -100,9 +128,18 @@ Tänk på följande när du tar bort en dokumentversion:
 
 Så här tar du bort en dokumentversion:
 
-1. Gå till det projekt, den uppgift eller det problem som innehåller dokumentet och välj sedan **Dokument**.Hitta det dokument du behöver.
-1. Klicka på versionen under **Version** i Sammanfattning och klicka sedan på **Ta bort** i listrutan som visas. Alternativet **Ta bort** visas bara om det finns minst två versioner.
+{{step1-to-documents}}
 
-   Om dokumentet är länkat till en extern källa tas länken bort och dokumentet är inte längre tillgängligt via Workfront.
+1. Välj dokumentet från listan på sidan **Dokument**.
 
-   ![ta bort dokumentversion](assets/more-versions-350x143.png)
+1. Klicka på ikonen **Öppna sammanfattning** ![Öppna sammanfattning](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet på sidan. Sidpanelen **Dokumentsammanfattning** öppnas.
+
+1. Bläddra ned till avsnittet **Versioner** om du vill visa alla dokumentversioner.
+1. Klicka på menyn **Mer** ![Mer](assets/more-icon.png) till höger om versionen i avsnittet **Versioner** och klicka sedan på **Ta bort** i listrutan som visas.
+
+   >[!NOTE]
+   >
+   >* Alternativet **Ta bort** visas bara om det finns minst två versioner.
+   >* Om dokumentet är länkat till en extern källa tas länken bort och dokumentet är inte längre tillgängligt via Workfront.
+
+   ![Ta bort dokumentversionen](assets/more-versions-350x143.png)

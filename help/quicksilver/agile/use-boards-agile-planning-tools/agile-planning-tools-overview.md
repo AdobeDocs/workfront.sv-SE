@@ -2,21 +2,23 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Översikt över Agile Planning Tools
-description: När du skapar en styrelse med ad hoc-kort och anslutna kort kanske du vill utnyttja de extra flexibla planeringsverktygen i ritytorna.
+title: 'Översikt över Agile-planeringsverktyg: artikelindex'
+description: När du skapar en anslagstavla med ad hoc-kort och anslutna kort kan du dra nytta av ytterligare flexibla planeringsverktyg på anslagstavlor.
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# Översikt över flexibla planeringsverktyg
+# Översikt över Agile-planeringsverktyg: artikelindex
 
-När du skapar en styrelse med ad hoc-kort och anslutna kort kanske du vill dra nytta av ytterligare flexibla planeringsverktyg.
+<!-- Audited: 5/2025 -->
+
+När du skapar en styrelse med ad hoc-kort och anslutna kort kan du dra nytta av ytterligare flexibla planeringsverktyg.
 
 Exempel på verktyg som är användbara för Kanban:
 

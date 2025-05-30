@@ -7,14 +7,16 @@ description: Den flexibla Scrum-artikelpanelen visas tillsammans med slutförand
 author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
 
 # Översikt över [!UICONTROL Scrum]
+
+<!-- Audited: 5/2025 -->
 
 Den [!UICONTROL Scrum] flexibla artikelpanelen visas tillsammans med slutförandestatus och nedladdningsschemat. De här flexibla komponenterna är tillgängliga i följande situationer i [!UICONTROL Adobe Workfront]:
 
@@ -29,31 +31,31 @@ Den [!UICONTROL Scrum] flexibla artikelpanelen visas tillsammans med slutförand
 
 Artikelpanelen består av följande element:
 
-* **[!UICONTROL Parent Story]Kolumn:** Till skillnad från andra kolumner på artikelpanelen är kolumnen [!UICONTROL Parent Story] inte en uppgiftsstatus, utan finns för att lagra artiklar som innehåller underaktiviteter i upprepningen eller projektet. Endast överordnade artiklar som har minst en underuppgift på artikelpanelen kan finnas i den här kolumnen. De överordnade artiklarna går inte från status till status över hela artikelpanelen.
+* **Överordnad artikelkolumn**: Till skillnad från de andra kolumnerna på artikelpanelen är kolumnen [!UICONTROL Parent Story] inte en aktivitetsstatus, utan finns för att placera artiklar som innehåller underaktiviteter i iteration eller projekt. Endast överordnade artiklar som har minst en underuppgift på artikelpanelen kan finnas i den här kolumnen. De överordnade artiklarna går inte från status till status över hela artikelpanelen.
 
   I en iteration visas den här kolumnen bara på artikelpanelen när en eller flera artiklar på artikelpanelen innehåller minst en underuppgift som uppfyller följande krav:
 
-   * Tilldelad till samma flexibla team som den överordnade aktiviteten
-   * Tillhör upprepningen
+   * Tilldelad till samma flexibla team som den överordnade aktiviteten.
+   * Tillhör iteration.
 
      I ett projekt visas den här kolumnen när som helst när en uppgift har minst en underaktivitet.
 
      ![Överordnad artikelkolumn](assets/agile-parentstory-swimlane.png)
 
-* **Aktivitetsstatus:** Ange hur en artikel fortskrider genom iteration eller projekt baserat på vilken statuskolumn artikeln finns i.
+* **Aktivitetsstatus**: Ange hur en artikel fortskrider genom iteration eller projekt baserat på vilken statuskolumn artikeln finns i.
 
-  Du kan anpassa aktivitetsstatusar för projektet genom att ändra den flexibla vyn, enligt beskrivningen i [Skapa eller anpassa en flexibel vy](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) i [Vyöversikt i [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Du kan anpassa uppgiftsstatusvärden för projektet genom att ändra den flexibla vyn.
 
-* **Svepningslinje:** När en överordnad artikel och dess underaktiviteter visas på artikelpanelen, skapas ett simfält specifikt för artikeln och dess underaktiviteter. Detta ger en visuell distinktion som bättre visar hur en artikels underuppgifter framskrider över hela artikelpanelen.
+* **Swim Lane**: När en överordnad artikel och dess underaktiviteter visas på artikelpanelen skapas ett simfält specifikt för artikeln och dess underaktiviteter. Detta ger en visuell distinktion som bättre visar hur en artikels underuppgifter framskrider över hela artikelpanelen.
 
   I en iteration visas simbanor bara på artikelpanelen när en artikel på artikelpanelen innehåller minst en underuppgift som uppfyller följande krav:
 
-   * Tilldelad till samma flexibla team som den överordnade aktiviteten
-   * Tillhör upprepningen
+   * Tilldelad till samma flexibla team som den överordnade aktiviteten.
+   * Tillhör iteration.
 
   I ett projekt visas simbanor när en uppgift har minst en underuppgift eller en överordnad uppgift.
 
-* **Enskilda artiklar:** Enskilda artiklar och problem visas under alla simbanor på artikelpanelen. Detta ger en visuell distinktion jämfört med de artiklar som är en del av ett simfält.
+* **Enskilda artiklar**: Enskilda artiklar och problem visas under alla simbanor på artikelpanelen. Detta ger en visuell distinktion jämfört med de artiklar som är en del av ett simfält.
 
 ## Relation mellan underaktiviteter och artiklar
 
@@ -64,10 +66,6 @@ Om en artikel t.ex. bara har en underuppgift som har ett värde på 4 punkter, h
 Samma logik gäller för underaktiviteter på andra nivån (underaktiviteter för underaktiviteter). Om en underaktivitet har en eller flera underaktiviteter på andra nivån beräknas underaktiviteten utifrån underaktiviteterna på andra nivån.
 
 ## Förhållandet mellan artikelstyrelsen och eftersläpningen
-
->[!NOTE]
->
->Informationen i det här avsnittet gäller bara för rörliga vyer av en iteration. För rörliga vyer av ett projekt används ingen eftersläpning. (Mer information om skillnaderna mellan flexibla vyer för en iteration och ett projekt finns i&quot;Skillnader vid användning av [!UICONTROL Agile]-vyn på en projektversion på en iteration&quot; i [Hantera ett projekt i Agilvy ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).)
 
 I upprepningens efterlogg visas endast artiklar eller underaktiviteter där du kan ange en uppskattning. Om en överordnad artikel har underaktiviteter som visas på artikelpanelen (eftersom de har tilldelats samma flexibla team och tillhör upprepningen) visas inte den överordnade uppgiften i efterloggen. I det här fallet visas bara underuppgifterna i efterloggen, medan underuppgifterna och den överordnade artikeln visas på artikelpanelen.
 

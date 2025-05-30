@@ -7,7 +7,7 @@ description: Med Sammanfattning kan du interagera med viktig information direkt 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -110,7 +110,7 @@ Bevisgodkännanden måste läggas till i korrekturarbetsflödet. Mer information
 
 ## Versioner
 
-Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) om du vill göra följande:
+Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på ikonen Mer ![Mer](assets/more-icon.png) om du vill göra följande:
 
 * Öppna ett bevis.
 * Ladda ned ett korrektur eller dokument.
