@@ -2,20 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Ladda upp korrektur från Adobe Photoshop
-description: Du kan ladda upp ritytorna som korrektur direkt till Adobe Workfront för granskning och godkännande.
+description: Du kan överföra förinställningar för fotodokument som korrektur direkt till  [!DNL Adobe Workfront] för en grundlig granskning och godkännande.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
 # Överför korrektur från [!DNL Photoshop]
 
-Du kan överföra dina ritytor som korrektur direkt till [!DNL Adobe Workfront] för en grundlig granskning och godkännande.
+Du kan överföra vissa förinställningstyper för Photoshop-dokument som korrektur direkt till [!DNL Adobe Workfront] för en grundlig granskning och godkännande.
+
+>[!IMPORTANT]
+>
+>Filen måste vara en fotodokumentförinställning enligt beskrivningen i [Mallar och förinställningar i Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+
+
 
 ## Åtkomstkrav
 
