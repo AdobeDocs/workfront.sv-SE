@@ -1,13 +1,13 @@
 ---
 title: Skapa anpassade program för Workfront med Adobe App Builder
-description: Med Workfront UI Extensions, som bygger på Adobe App Builder, kan kunder och partners skapa anpassade användarupplevelser.
+description: Med Workfront UI Extensions, som drivs av Adobe App Builder, kan kunder och partner skapa skräddarsydda användarupplevelser.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
 source-wordcount: '1693'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -152,13 +152,13 @@ Så här tillåter du anpassade program på Workfront huvudmeny:
 I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapades för dig av mallen. Den här koden kan läggas till för att skapa ytterligare menyalternativ. Se till att ersätta ID:n och URL:er.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +168,13 @@ I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapa
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-     12&rbrace;&rbrace;
+     12}}
     &quot;
 
 1. Lägg till följande kodfragment:
