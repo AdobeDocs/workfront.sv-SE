@@ -5,9 +5,9 @@ description: Som en del av att skapa ett affärsärende kan du skapa en uppsätt
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,6 @@ Tänk på följande när du skapar affärsmål för dina projekt:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Pro eller högre</p> </td> 
+   <td> <p>Aktuell: Prime eller senare</p>
+   <p>Äldre: Pro eller senare</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td>
    <td> 
-   <p>Nytt: Standard</p> 
-   <p>eller</p>
-   <p>Aktuell: Planera </p> 
+   <p>Aktuell: Standard</p> 
+   <p>Äldre: Planera </p> 
    </td> 
   </tr> 
   <tr> 

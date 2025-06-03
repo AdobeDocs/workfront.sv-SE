@@ -5,9 +5,9 @@ description: Du kan använda affärsärendet för att begära ett projekt och de
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,22 @@ Du kan använda affärsärendet för att begära ett projekt och definiera syfte
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla </p> </td> 
+   <td> 
+   <p>Aktuell: Prime eller senare</p> 
+   <p>Äldre: Pro eller senare</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Planera eller högre</p> </td> 
+   <td> 
+   <p>Aktuell: Standard </p> 
+   <p>Äldre: Planera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 

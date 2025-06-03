@@ -6,7 +6,7 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
@@ -45,10 +45,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Alla</p> </td> 
+   <td> 
+   <p>Alla</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Nytt: Standard </p>
    <p>Aktuell: Planera </p> </td> 
   </tr> 
@@ -63,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

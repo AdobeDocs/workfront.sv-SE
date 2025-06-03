@@ -5,9 +5,9 @@ description: När du har slutfört och skickat in affärsärendet för en projek
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,24 @@ Mer information om hur du fyller i och skickar ett affärsärende finns i artike
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> 
+   <p>Aktuell: Prime eller senare</p> 
+   <p>Äldre: Pro eller senare</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> 
+   <p>Aktuell: Standard </p> 
+   <p>Äldre: Planera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -45,7 +50,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Översikt över godkännande av affärsärende
 

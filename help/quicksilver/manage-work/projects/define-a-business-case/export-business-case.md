@@ -6,9 +6,9 @@ description: Du kan exportera affärsärendet till en PDF-fil om du behöver skr
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den el
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,11 +27,13 @@ Du måste ha följande:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla </p> </td> 
+   <td> <p>Aktuell: Prime eller senare </p> <p>Äldre: Pro eller senare </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td> 
+   <p>Aktuell: Ljus eller högre</p>
+   <p>Äldre: Granska eller senare</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -44,7 +46,9 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exportera affärsärendet
 

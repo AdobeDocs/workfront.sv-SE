@@ -5,9 +5,9 @@ description: Som en del av resursplaneringen kan du använda resursplaneraren p�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Du kan också budgetera resurser i ett affärsfall med hjälp av Adobe Workfront
 
 ## Åtkomstkrav
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
-
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
@@ -38,12 +36,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Prime eller senare</p> </td> 
+   <td> <p>Aktuell: Prime eller senare</p>
+   <p>Äldre: Pro eller senare</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Ljus eller högre</p>
-   <p>Aktuell: Granska eller senare</p>
+   <td> <p>Aktuell: Ljus eller högre</p>
+   <p>Äldre: Granska eller senare</p>
 
 <p><b>VIKTIGT!</b></p> 
    <p>Nytt: Du måste ha en standardlicens för att kunna ändra resursbudgeteringsinformationen. </p> 
@@ -66,7 +66,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

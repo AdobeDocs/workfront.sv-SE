@@ -5,9 +5,9 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ Mer information om styrkort och hur du kan skapa ett finns i [Skapa ett styrkort
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -33,20 +31,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
    <td>
-   <p>Nytt: Prime eller senare</p>
+   <p>Aktuell: Prime eller senare</p>
    <p>eller</p>
-   <p>Aktuell: Business eller högre</p> </td>
+   <p>Äldre: Business eller högre</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Nytt: Standard</p>
+   <p>Aktuell: Standard</p>
    <p>eller</p>
-   <p>Aktuell: Planera</p></td>  
+   <p>Äldre: Planera</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Visa eller ge senare åtkomst till Portfolio</p> </td> 
+   <td> <p>Redigera åtkomst till projekt</p> <p>Visa eller öka åtkomsten till portföljer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -68,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Vanligtvis slutför en projektledare styrkortsinformationen för att skapa ett justeringsvärde mellan 0 och 100 för projektet. Värdet som skapas används senare när portföljförvaltaren granskar projekten i portföljoptimeraren för att jämföra dem.
 
-Mer information om portföljoptimering finns i [Översikt över Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Mer information om portföljoptimering finns i [Översikt över Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Tillämpa ett styrkort på ett projekt
 
@@ -151,10 +149,10 @@ När poängen för projekten är klara använder Workfront dessa värden för at
 
 ## Visa justeringspoäng
 
-Du kan visa justeringspoängen för ett projekt på projektnivå eller i Portfolio-optimering.
+Du kan visa justeringspoängen för ett projekt på projektnivå eller i Portfolio Optimizer.
 
 * [Visa justeringsresultat för ett projekt](#view-the-alignment-score-on-a-project)
-* [Visa justeringspoängen för projektet och för portföljen i optimeringsverktyget för Portfolio](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
+* [Visa projektets justeringspoäng och portföljen i Portfolio Optimizer](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### Visa justeringspoäng i ett projekt
 
@@ -168,51 +166,51 @@ Du kan visa justeringspoängen för ett projekt på projektnivå om du har Contr
 
    ![Justeringspoäng i ett projekt](assets/alignment-score-on-a-project.png)
 
-### Visa justeringspoängen för projektet och för portföljen i optimeringsverktyget för Portfolio
+### Visa projektets justeringspoäng och portföljen i Portfolio Optimizer
 
-Du kan visa justeringspoängen för ett projekt eller för en portfölj i Optimera för Portfolio om du har Hantera-åtkomst till portföljen.
+Du kan visa justeringspoängen för ett projekt eller en portfölj i Portfolio Optimizer om du har behörigheten Hantera för portföljen.
 
-Mer information om vilken information som visas i Portfolio-optimering finns i [Översikt över Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Mer information om vilken information som visas i Portfolio Optimizer finns i [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* [Leta reda på projektets justeringspoäng i Optimering för Portfolio](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
-* [Leta reda på portföljens justeringspoäng i optimeraren för Portfolio](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
+* [Leta reda på projektets justeringspoäng i Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [Hitta portföljens justeringspoäng i Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Justeringspoäng i Portfolio-optimering](assets/alignment-score-in-portfolio-optimizer.png)
+  ![Justeringspoäng i Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
-#### Leta reda på projektets justeringspoäng i Optimering för Portfolio {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
+#### Hitta projektets justeringspoäng i Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Klicka på namnet på en portfölj.
-1. Klicka på **Optimering av Portfolio** på den vänstra panelen.
+1. Klicka på **Portfolio-optimering** i den vänstra panelen.
 
-   Optimeraren för Portfolio visas.
+   Portfolio Optimizer visas.
 
-   Justeringspoängen för ett projekt visas som ett procenttal i kolumnen **Justering** i optimeraren för Portfolio.
+   Justeringspoängen för ett projekt visas som en procentandel i kolumnen **Justering** i Portfolio Optimizer.
 
    Detta är projektets justeringspoäng baserat på det styrkort som är associerat med projektet.
 
-#### Leta reda på portföljens justeringspoäng i optimeraren för Portfolio  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
+#### Hitta portföljens justeringspoäng i Portfolio Optimizer  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Klicka på namnet på en portfölj.
-1. Klicka på **Optimering av Portfolio** på den vänstra panelen.
-1. Överst i optimeringsprogrammet för Portfolio hittar du värdet **Justerad** samt måttet **Justering** som anger portföljens justeringspoäng.
+1. Klicka på **Portfolio-optimering** i den vänstra panelen.
+1. Överst i Portfolio Optimizer finns värdet **Justerad** samt måttet **Justering** som anger portföljens justeringspoäng.
 
    Detta är portföljens justeringspoäng.
 
    Mer information om hur justeringspoängen för en portfölj genereras finns i [Skapa en justeringspoäng för en portfölj](#generate-an-alignment-score-for-a-portfolio).
 
-## Översikt över Portfolio Optimizer-poängen
+## Översikt över Portfolio Optimizer Score
 
 Det finns en skillnad mellan justeringspoängen och portföljoptimeringspoängen för ett projekt.
 
 Justeringspoängen för ett projekt beräknas utifrån de poäng som erhålls när styrkortet har fyllts i. Poängen används sedan för att fastställa poängen för portföljjusteringen. Justeringspoängen visas i procent.
 
-Justeringspoängen för ett projekt visas i kolumnen **Justering** i optimeraren för Portfolio.
+Justeringspoängen för ett projekt visas i kolumnen **Justering** i Portfolio Optimizer.
 
-Poängen för portföljoptimering är en rankning som automatiskt beräknas i optimeringsfunktionen för Portfolio som projekt kan prioriteras efter. Poängen för portföljoptimering visas som en indikatorikon tillsammans med ett tal och visas i kolumnen **Poäng** i optimeraren för Portfolio. Poängen Portfolio Optimizer genereras endast när alla avsnitt i affärsärendet är slutförda, utom för mål.
+Poängen för portföljoptimering är en rangordning som beräknas automatiskt i Portfolio Optimizer och som kan användas för att prioritera projekt. Poängen för portföljoptimering visas som en indikatorikon tillsammans med ett tal och visas i kolumnen **Poäng** i Portfolio Optimizer. En poäng i Portfolio Optimizer genereras endast när alla avsnitt i affärsärendet är slutförda, utom för mål.
 
 Mer information om hur du skapar ett affärsärende för ett projekt finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
