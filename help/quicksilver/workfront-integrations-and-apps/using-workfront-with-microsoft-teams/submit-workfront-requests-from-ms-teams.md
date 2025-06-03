@@ -6,22 +6,20 @@ description: När teamägaren har installerat Adobe Workfront för Microsoft Tea
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
 # Skicka [!DNL Adobe Workfront] förfrågningar från [!DNL Microsoft] team
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>När Microsoft går över till New Teams-klienten är Classic Teams-klienten inte längre tillgänglig efter 1 juli 2025. Vi håller på att utveckla en ny version av Microsoft Teams-integreringen som är helt kompatibel med nya Teams-klienten och som är tillgänglig före 1 juli för att säkerställa en smidig övergång.
+>
+>Instruktioner om hur du hämtar och installerar integreringen i New Teams-klienten visas här när integreringen är tillgänglig.
 
 När teamägaren har installerat [!DNL Adobe Workfront for Microsoft Teams] kan du skicka [!DNL Workfront] förfrågningar från ditt [!DNL Microsoft Teams]-konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om hur du installerar [!DNL Workfront for Microsoft Teams] finns i [Installera [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
