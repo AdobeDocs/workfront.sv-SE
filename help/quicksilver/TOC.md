@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 4189ea6b6c61a97eaf15c92724ef1dbfeb8b8b82
+source-git-commit: 8aee2f81f97bba6851537115e7f588694bd53692
 workflow-type: tm+mt
-source-wordcount: '13222'
+source-wordcount: '13225'
 ht-degree: 0%
 
 ---
@@ -1414,7 +1414,7 @@ ht-degree: 0%
    * Portfolio Management {#portfolio-management}
       * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
       * Portfolio - översikt i Adobe Workfront {#portfolio-overview-in-adobe-workfront}
-         * [Portföljer](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+         * [Portföljer: artikelindex](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navigera i en portfölj](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Portfolio Management - översikt](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
          * [Portfolio - översikt i Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
@@ -1427,8 +1427,8 @@ ht-degree: 0%
          * [Ta bort ett projekt från en portfölj](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [Granska begärda projekt](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * Skapa och hantera program {#create-and-manage-programs}
-         * [Programöversikt i  [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
-         * [Skapa och hantera program](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+         * [Programöversikt](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+         * [Skapa och hantera program: artikelindex](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [Skapa ett program](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [Redigera program](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
          * [Lägg till ett befintligt program i en portfölj](manage-work/portfolios/create-and-manage-programs/move-program.md)

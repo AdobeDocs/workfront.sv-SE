@@ -2,27 +2,31 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Duration Type overview: Simple'
-description: Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i Översikt över Varaktighet och Varaktighetstyp.
+title: 'Översikt över varaktighetstyp: Enkel'
+description: Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: 1efd7c0270fe1396345cfa6e5499e8f998297d61
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
 # Översikt över varaktighetstyp: Enkel
 
-Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+<!-- Audited: 5/2025 -->
+
+Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Mer information om varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Översikt över den enkla varaktighetstypen
 
-Workfront eller en gruppadministratör kan ange standardvaraktighetstypen för ditt system eller din grupp som Enkel. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Din Workfront- eller gruppadministratör kan ange standardvaraktighetstypen för ditt system eller din grupp som Enkel. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen.
 
-Följande saker händer när en aktivitet har varaktighetstypen Enkel:
+Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+Följande saker händer när en uppgift har en typ av enkel varaktighet:
 
 * Projektledare kan ändra både tidslängden och den planerade timmen för en uppgift när de ändrar hur timmarna ska fördelas mellan de tilldelade.
 
@@ -30,7 +34,7 @@ Följande saker händer när en aktivitet har varaktighetstypen Enkel:
 
   >[!IMPORTANT]
   >
-  >När du först skapar en uppgift och tilldelar den Simple Duration Type till den och inte anger Duration, beräknas aktivitetens varaktighet i Workfront utifrån den mängd Planerade timmar som du anger för uppgiften. Om du ändrar varaktigheten för en enkel varaktighetsåtgärd manuellt slutar Workfront att matcha de planerade timmarna med Varaktighet, eftersom det förutsätts att du vill definiera dem manuellt själv.
+  >När du först skapar en uppgift och tilldelar den typen Enkel varaktighet, men inte anger en varaktighet, beräknas aktivitetens varaktighet i Workfront utifrån den mängd Planerade timmar som du anger för uppgiften. Om du ändrar varaktigheten för en enkel varaktighetsåtgärd avbryter Workfront matchningen av de planerade timmarna med varaktigheten eftersom det förutsätts att du vill definiera dem manuellt.
   >
   >Workfront beräknar varaktigheten för uppgifter vars varaktighet inte har ändrats manuellt med hjälp av följande formel:
   >
@@ -38,7 +42,7 @@ Följande saker händer när en aktivitet har varaktighetstypen Enkel:
   >
   >Din Workfront-administratör definierar `Typical hours per work day` i området Projektinställningar i instansens installationsprogram.
 
-* Allokeringsprocenten är dold och allokeringstimmar är tillgängliga för redigering, i stället.
+* Allokeringsprocenten är dold, men allokeringstimmar är tillgängliga för redigering.
 * Alla nya kunder har varaktighetstypen på systemnivå inställd på Enkel.
 
 ## Ändra varaktighetstypen för en aktivitet till Enkel

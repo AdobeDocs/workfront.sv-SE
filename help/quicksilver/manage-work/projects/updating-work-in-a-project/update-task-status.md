@@ -6,9 +6,9 @@ description: Du kan uppdatera en uppgifts status för att informera andra om var
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Du kan uppdatera uppgiftsstatus manuellt eller låta Workfront uppdatera dem aut
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -38,7 +36,7 @@ Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Nytt: Standard</p> 
    eller
    <p>Aktuell: Arbete eller högre</p>
@@ -55,7 +53,7 @@ Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +68,7 @@ Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
 
 ## Uppdatera aktivitetsstatus manuellt
 
-Du kan uppdatera aktivitetsstatus i följande områden i Workfront:
+Du kan uppdatera aktivitetsstatus i följande områden:
 
 * Uppgiftshuvudet på uppgiftssidan.
 * Åtgärdsrutan Redigera när du redigerar en uppgift.
@@ -81,12 +79,12 @@ Du kan uppdatera aktivitetsstatus i följande områden i Workfront:
 Så här uppdaterar du aktivitetsstatus i uppgiftshuvudet manuellt:
 
 1. Gå till en uppgift som du vill uppdatera statusen för.
-1. Klicka på fältet **Status** i åtgärdshuvudet och välj en ny status.
-1. Om du vill ange en visuell indikation på att aktiviteten har slutförts drar eller dubbelklickar du på bubblan under **Procent färdigt** i uppgiftens huvud
+1. Klicka på fältet **Status** i uppgiftshuvudet och välj en ny status.
+1. Dra bubblan under **Procent färdigt** i uppgiftens huvud om du vill få en visuell indikation på att aktiviteten har slutförts.
 
    eller
 
-   Klicka i bubblan i uppgiftens huvud för att ange en procentsats.
+   Dubbelklicka inuti **Procent färdigt**-bubblan för att manuellt ange en ny procentsats.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,7 +92,7 @@ Så här uppdaterar du aktivitetsstatus i uppgiftshuvudet manuellt:
 
    * Om du vill lägga till en anteckning om uppdateringen går du till avsnittet **Uppdateringar** och klickar på **Ny kommentar**. Skriv sedan en anteckning.
 
-     ![](assets/add-update-to-task.png)
+     ![Lägger till en uppdatering för en aktivitet](assets/add-update-to-task.png)
 
    * Om du vill meddela vissa användare om uppdateringen skriver du deras namn i fältet **Tagga personer eller team** som visas när du skriver en kommentar. Mer information finns i [Tagga andra om uppdateringar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
    * Om du vill uppdatera aktivitetens implementeringsdatum klickar du på **Aktivitetsinformation** och redigerar sedan fältet **Verkställ datum**. Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -150,7 +148,7 @@ Workfront uppdaterar automatiskt den befintliga statusen för en aktivitet till 
   <tr data-mc-conditions=""> 
    <td><span>Klicka på knappen Starta uppgift för att acceptera att arbeta med en uppgift som du har tilldelats</span> </td> 
    <td><span>Nytt</span> </td> 
-   <td> <p>Status som är associerad med knappen Starta uppgift i inställningarna för Hemteam.</p> <p>Mer information om hur du ersätter knappen Arbeta på den med knappen Start Task (Start-aktivitet) finns i <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på den) med knappen Start (Start)</a></span>.</p> <p>Tips! <span>Om du klickar på </span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Ångra-knappen</span>när du har klickat på Starta aktivitet återställs statusen till Ny. </p> </td> 
+   <td> <p>Status som är associerad med knappen Starta uppgift i inställningarna för Hemteam.</p> <p>Mer information om hur du ersätter knappen Arbeta på den med knappen Start Task (Start-aktivitet) finns i <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på den) med knappen Start (Start)</a></span>.</p> <p>Tips! <span>Om du klickar på </span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Ångra-knappen</span> efter att du klickat på Starta aktivitet återställs statusen till Ny. </p> </td> 
   </tr> 
  </tbody> 
 </table>

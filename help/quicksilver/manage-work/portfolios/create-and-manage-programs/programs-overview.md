@@ -2,18 +2,19 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: create and manage programs
-title: Programöversikt i  [!DNL Adobe Workfront]
+title: Programöversikt
 description: Ett program är en samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Programmen är en undergrupp av portföljer. Du kan associera projekt med program innan de läggs till i en portfölj.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
-# Programöversikt i [!DNL Adobe Workfront]
+# Programöversikt
 
 <!-- Audited: 09/2024 -->
 
@@ -32,18 +33,18 @@ Du måste ha följande åtkomst för att skapa och hantera portföljer:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Nytt: Alla</p>
    <p>Aktuell: [!UICONTROL Business] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td> <p>Nytt: [!UICONTROL Standard]</p>
    <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till Portfolio och program</p>  </td> 
+   <td> <p>[!UICONTROL Edit] tillgång till portföljer och program</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,7 +57,7 @@ Du måste ha följande åtkomst för att skapa och hantera portföljer:
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Att tänka på när du arbetar med program
@@ -93,7 +94,4 @@ Du måste ha följande åtkomst för att skapa och hantera portföljer:
 
 * Du kan använda portföljoptimeraren för att analysera prestanda för alla projekt i en portfölj. Du kan inte jämföra prestanda för flera projekt i ett och samma program. Du måste analysera projektresultaten på portföljnivå.
 
-  Mer information finns i [Optimera projekt i Portfolio-optimering](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
-
-
-
+  Mer information finns i [Optimera projekt i Portfolio Optimizer](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).

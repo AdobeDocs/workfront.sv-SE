@@ -2,23 +2,24 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: Skapa och hantera program
-description: Program representerar en samling projekt som delar en gemensam strategi, mål eller mål som överskrider projektgränserna. Programmen är en underindelning av portföljer och får inte finnas utanför en portfölj.
+title: 'Skapa och hantera program: artikelindex'
+description: Program är en samling projekt som bidrar till en gemensam strategi, mål eller mål. Program är en underindelning av portföljer och kan inte finnas utanför en portfölj.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Skapa och hantera program
+# Skapa och hantera program: artikelindex
 
-Program representerar en samling projekt som delar en gemensam strategi, mål eller mål som överskrider projektgränserna.
-Programmen är en underindelning av portföljer och får inte finnas utanför en portfölj.
+Program är en samling projekt som bidrar till en gemensam strategi, mål eller mål.
+
+Program är en underindelning av portföljer och kan inte finnas utanför en portfölj.
 
 Det här avsnittet innehåller följande artiklar:
 

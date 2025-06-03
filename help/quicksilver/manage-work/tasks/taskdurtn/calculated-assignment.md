@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Varaktighetstyp, översikt: Beräknad tilldelning'
+title: 'Översikt över varaktighetstyp: Beräknat uppdrag'
 description: Beräknad tilldelning är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i Översikt över Varaktighet och Varaktighetstyp.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Översikt över varaktighetstyp: Beräknat uppdrag
+
+<!-- Audited: 5/2025 -->
 
 Beräknad tilldelning är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -31,7 +33,7 @@ Beräknad tilldelning är en varaktighetstyp som du kan ange för en uppgift i A
 
 Beräknad tilldelning är den önskade varaktighetstypen i följande situationer:
 
-* När tilldelningar har ett aktivitetsfönster men inte hela den tid som tilldelats för att slutföra sitt arbete. Du har till exempel tilldelats att leverera en rapport till den ansvarige i slutet av veckan. Du har en femdagarsperiod, men det tar bara tio timmar att göra ett utkast.
+* När uppdrag har ett aktivitetsfönster men inte hela den tid som tilldelats för att slutföra arbetet. Du har till exempel tilldelats att leverera en rapport till den ansvarige i slutet av veckan. Du har fem dagar på dig, men det tar bara 10 timmar att göra ett utkast.
 * När en enskild resurs tilldelas till en aktivitet eftersom projektledaren kan uppskatta planerad varaktighet och planerad ansträngningsmängd oberoende av varandra.
 
   Du kan använda den beräknade varaktighetstypen för arbete för samma resultat, men projektledaren måste ange en procentallokering för resursen för att det beräknade värdet för Planerade timmar ska påverkas. Detta gör projektplaneringen svårare och mer tidskrävande.

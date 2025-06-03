@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
 
 # Konfigurera systemuppdateringar
+
+<!-- Audited: 5/2025 -->
 
 [!DNL Adobe Workfront] genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates]-område för att registrera följande händelser:
 
@@ -37,8 +39,6 @@ Du kan till exempel låta [!DNL Workfront] spåra alla ändringar som användare
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +79,7 @@ Du kan bestämma vilken information [!DNL Workfront] spårar när användare än
 
 
 * [Lägg till fält som du vill att [!DNL Workfront] ska spåra](#add-fields-you-want-workfront-to-track)
-* [Ta bort fält som du inte vill spåra](#remove-fields-that-you-don-t-want-tracked)
+* [Ta bort fält som du inte vill spåra](#remove-fields-you-don-t-want-tracked)
 
 ### Lägg till fält som [!DNL Workfront] ska spåra {#add-fields-you-want-workfront-to-track}
 
@@ -87,37 +87,33 @@ Du kan lägga till fält som du vill att [!DNL Workfront] ska spåra för en vis
 
 >[!NOTE]
 >
->Du kan spåra upp till 300 inbyggda och anpassade fält i uppdateringsflödena. Om du spårar det maximala antalet fält och vill spåra fler fält som inte visas på underfliken [!UICONTROL All Fields] måste du först ta bort några av de spårade fälten för att kunna spåra nya fält. Mer information om hur du tar bort fält från uppdateringsfälten finns i [Ta bort fält som du inte vill spåra](#remove-fields-that-you-don-t-want-tracked).
+>Du kan spåra upp till 300 inbyggda och anpassade fält i uppdateringsflödena. Om du spårar det maximala antalet fält och vill spåra fler fält som inte visas på underfliken [!UICONTROL All Fields] måste du först ta bort några av de spårade fälten för att kunna spåra nya fält. Mer information om hur du tar bort fält från uppdateringsfälten finns i [Ta bort fält som du inte vill spåra](#remove-fields-you-don-t-want-tracked).
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
-1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** i panelen till vänster.
+1. Klicka på **[!UICONTROL Interface]** i panelen till vänster och sedan på **[!UICONTROL Update Feeds]**.
 
-1. &#x200B; klicka på **[!UICONTROL Add Fields]** och klicka sedan på det objekt som du vill spåra.
+1. &#x200B; klicka på **[!UICONTROL Add Fields]** och markera sedan det objekt som du vill ska spåras i listrutan.
 
-1. I rutan &#x200B; **[!UICONTROL Update Feeds]** som visas börjar du skriva ett inbyggt (standard) fält eller ett anpassat fält för objektet och klickar sedan för att markera det när det visas i listan.
+1. I rutan som visas börjar du skriva antingen ett inbyggt (standard) fält eller ett anpassat fält för objektet och markerar det sedan när det visas i listan.
 
-   Om [!DNL Workfront] redan spårar fältet kan du inte lägga till det en andra gång från listan.
+   >[!NOTE]
+   >
+   >Om [!DNL Workfront] redan spårar fältet kan du inte lägga till det en andra gång från listan.
 
-1. När du har lagt till alla fält som du vill att [!DNL Workfront] ska spåra klickar du på **[!UICONTROL Add Fields]**.
-
-   De inbyggda fälten som du har lagt till visas under underfliken **[!UICONTROL Built-in Fields]**.
-
-   De anpassade fält som du har lagt till visas under underfliken **[!UICONTROL Custom Fields]**.
+1. När du har lagt till alla fält som du vill att [!DNL Workfront] ska spåra klickar du på **[!UICONTROL Add Fields]**. De inbyggda fälten som du har lagt till visas under underfliken **[!UICONTROL Built-in Fields]** och de anpassade fälten visas under underfliken **[!UICONTROL Custom Fields]**.
 
    Underfliken **[!UICONTROL All Fields]** visar både inbyggda och anpassade fält som spåras.
 
-### Ta bort fält som du inte vill spåra {#remove-fields-that-you-don-t-want-tracked}
+### Ta bort fält som du inte vill spåra {#remove-fields-you-don-t-want-tracked}
 
 Du kan ta bort fält som du inte vill att systemet ska spåra för en viss typ av objekt genom [!DNL Workfront]-gränssnittet.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
-1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
+1. Klicka på **[!UICONTROL Interface]** och sedan på **[!UICONTROL Update Feeds]**.
 
-1. På fliken **[!UICONTROL Tracked Fields]** väljer du underfliken **[!UICONTROL All Fields]**.
-
-   Detta visar både inbyggda och anpassade fält som spåras.
+1. På fliken **[!UICONTROL Tracked Fields]** väljer du underfliken **[!UICONTROL All Fields]**. Både inbyggda och anpassade fält som spåras visas.
 
 1. Markera det fält som du vill stoppa spårningen för och klicka sedan på **[!UICONTROL Remove]**.
 
@@ -160,7 +156,7 @@ Du kan till exempel låta [!DNL Workfront] spela in en uppdatering varje gång e
   </tr> 
   <tr> 
    <td>Dokumentet har skapats eller tagits bort</td> 
-   <td>Projekt, uppgifter, problem, Portfolio, program</td> 
+   <td>Projekt, uppgifter, ärenden, portföljer, program</td> 
    <td> <p>Aktiverad</p> </td> 
   </tr> 
   <tr> 
@@ -185,7 +181,7 @@ Du kan till exempel låta [!DNL Workfront] spela in en uppdatering varje gång e
   </tr> 
   <tr> 
    <td>Någon har ändrat Åtkomst</td> 
-   <td>Projekt, uppgifter, ärenden, dokument, Portfolio, program</td> 
+   <td>Projekt, uppgifter, ärenden, dokument, portföljer, program</td> 
    <td> <p>Aktiverad</p> </td> 
   </tr> 
   <tr> 
@@ -198,13 +194,13 @@ Du kan till exempel låta [!DNL Workfront] spela in en uppdatering varje gång e
 
 Så här konfigurerar du vilka åtgärder du vill att [!DNL Workfront] ska spåra:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
-1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
+1. Klicka på **[!UICONTROL Interface]** och sedan på **[!UICONTROL Update Feeds]**.
 
 1. Klicka på fliken **[!UICONTROL Actions]**.
 
-1. Markera en åtgärd för att aktivera den eller avmarkera en åtgärd för att inaktivera den.
+1. Markera kryssrutan för en åtgärd om du vill aktivera den, eller avmarkera den om du vill inaktivera den.
 1. Klicka på **[!UICONTROL Save]**.
 
 När du inaktiverar en åtgärd behålls alla tidigare inspelade uppdateringar om den åtgärden i området [!UICONTROL Updates] där den spelades in.
