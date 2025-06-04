@@ -6,7 +6,7 @@ description: Du kan komma åt [!DNL Adobe Workfront] från [!DNL Microsoft Teams
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -21,7 +21,8 @@ ht-degree: 0%
 >
 >När Microsoft går över till New Teams-klienten är Classic Teams-klienten inte längre tillgänglig efter 1 juli 2025. Vi håller på att utveckla en ny version av Microsoft Teams-integreringen som är helt kompatibel med nya Teams-klienten och som är tillgänglig före 1 juli för att säkerställa en smidig övergång.
 >
->Instruktioner om hur du hämtar och installerar integreringen i New Teams-klienten visas här när integreringen är tillgänglig.
+>Instruktioner om hur du hämtar och installerar integreringen i New Teams-klienten blir tillgänglig när integreringen har släppts.
+
 
 Du kan komma åt [!DNL Adobe Workfront] från [!DNL Microsoft Teams] och utföra flera åtgärder i [!DNL Workfront] genom att skriva kommandon i antingen [!DNL Workfront]-robotkanalen eller någon annan teamkanal.
 
