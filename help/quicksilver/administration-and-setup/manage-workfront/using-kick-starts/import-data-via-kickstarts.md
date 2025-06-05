@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2891'
+source-wordcount: '2848'
 ht-degree: 0%
 
 ---
 
 # Importera data till Workfront med en snabbstartsmall
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -492,15 +490,7 @@ Så här importerar du mallkalkylbladsdata till Workfront:
 
 1. Klicka på **Välj fil** i avsnittet **Överför data med snabbstartskalkylblad** och bläddra sedan till och markera det ifyllda kalkylbladet.
 
-   <div class="preview">
-
-   I förhandsvisningsmiljön överförs filen automatiskt och ett meddelande om att importen lyckades visas.
-
-   Om det tar längre tid än fem minuter att överföra Excel-filen till Workfront, tar det längre tid att överföra filen och Workfront kan inte överföra den. Prova att importera data i mindre grupper av objekt.
-
-   </div>
-
-1. (Endast i produktionsmiljön) Klicka på **Överför**.
+   Filen överförs automatiskt och ett meddelande om att importen lyckades visas.
 
    Om det tar längre tid än fem minuter att överföra Excel-filen till Workfront, tar det längre tid att överföra filen och Workfront kan inte överföra den. Prova att importera data i mindre grupper av objekt.
 

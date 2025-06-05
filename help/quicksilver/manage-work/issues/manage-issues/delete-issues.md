@@ -6,9 +6,9 @@ description: Du kan ta bort problem eller förfrågningar i Adobe Workfront om d
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # Ta bort problem
 
 <!--Audited: 05/2025-->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen. </span>
-
-<span class="preview">Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>
 
 Du kan ta bort problem eller förfrågningar i Adobe Workfront om du har rätt behörighet att göra det.
 
@@ -116,7 +112,7 @@ Beroende på hur din Workfront- eller gruppadministratör konfigurerar inställn
    En lista över problem som är associerade med det valda projektet visas till höger.
 1. Markera en eller flera utgåvor i listan och klicka sedan på ikonen **Ta bort** ![Ta bort](assets/delete.png) överst i listan.
 
-1. Om borttagningen tillåts klickar du på **<span class="preview">Ta bort</span>**.
+1. Om borttagningen tillåts klickar du på **Ta bort**.
 
    Din Workfront-administratör kanske inte tillåter borttagning av problem där timmar är loggade.\
    Mer information om den åtkomst och de behörigheter som krävs för att ta bort ett problem finns i avsnittet [Att tänka på när du tar bort problem](#considerations-for-deleting-issues) i den här artikeln.
@@ -136,7 +132,7 @@ Beroende på hur din Workfront- eller gruppadministratör konfigurerar inställn
    ![Menyn Mer om problem](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klicka på **Ta bort problem**.
-1. Om borttagningen tillåts klickar du på **<span class="preview">Ta bort</span>**.
+1. Om borttagningen tillåts klickar du på **Ta bort**.
 
    Din Workfront-administratör kanske inte tillåter borttagning av problem där timmar är loggade.\
    Mer information om den åtkomst och de behörigheter som krävs för att ta bort ett problem finns i avsnittet [Att tänka på när du tar bort problem](#considerations-for-deleting-issues) i den här artikeln.
