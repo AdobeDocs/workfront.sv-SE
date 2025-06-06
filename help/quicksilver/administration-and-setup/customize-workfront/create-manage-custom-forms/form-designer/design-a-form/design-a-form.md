@@ -8,15 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '6555'
+source-wordcount: '6494'
 ht-degree: 0%
 
 ---
 
 # Skapa ett anpassat formulär
 
+<!-- Audited: 6/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -60,31 +61,31 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Klicka på **Egen Forms** i den vänstra panelen.
+1. Klicka på **Anpassad Forms** i den vänstra panelen och välj sedan **Forms**.
 
 1. Klicka på **Nytt anpassat formulär.**
 1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
 
    ![Välj objekttyp](assets/choose-object-type.jpg)
 
-1. Skriv den anpassade formulärtiteln i området **Titel krävs**.
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) efter **objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. Skriv den anpassade formulärtiteln i området **Lägg till ett formulärnamn**.
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
-   Du kan också klicka på X för en objekttyp för att ta bort den från formuläret.
+   När du har lagt till mer än ett objekt i formuläret kan du klicka på X för en objekttyp för att ta bort det från formuläret.
 
    >[!CAUTION]
    >
-   >Om du tar bort ett anpassat formulär tas även alla anpassade data bort från objekten som är kopplade till formuläret. Det går inte att återställa borttagna data. Överväg att inaktivera ett anpassat formulär i stället. När du inaktiverar ett anpassat formulär som du inte längre använder behåller du alla tillhörande historiska data.
+   >Om du tar bort ett anpassat formulär tas även alla anpassade data bort från objekten som är kopplade till formuläret. Det går inte att återställa borttagna data. Du kan även inaktivera ett anpassat formulär som du inte längre använder, vilket bevarar alla tillhörande historiska data.
    >
    >Mer information finns i [Lägga till eller ta bort objekttyper från ett befintligt anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) och [Inaktivera eller återaktivera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md).
 
 
-1. Sedan kan du börja lägga till fält i det anpassade formuläret. Se följande avsnitt:
+1. Sedan kan du börja lägga till fält i det anpassade formuläret. Mer information finns i följande avsnitt:
    * [Återanvända ett befintligt fält eller en befintlig widget som redan används i ett annat anpassat formulär](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Kommentarer till fältnamn och etiketter](#notes-on-field-names-and-labels)
    * [Lägg till textfält](#add-text-fields)
    * [Lägg till beräknade fält](#add-calculated-fields)
-   * [Lägga till alternativknappar, kryssrutegrupper och listrutor](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Lägg till alternativknappar, kryssrutegrupper och listrutor](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [Lägg till rubriker och datumfält](#add-typeahead-and-date-fields)
    * [Lägg till externa sökfält](#add-external-lookup-fields)
    * [Lägga till bilder, PDF-filer och videor](#add-images-pdfs-and-videos)
@@ -96,14 +97,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan använda nya eller befintliga fält när du utformar ditt anpassade formulär.
 
-Anpassade formulär är begränsade till 500 fält. En räknare längst ned till vänster visar hur många fält som används i formuläret, och den visas alltid när du rullar i formulärdesignern.
+Anpassade formulär är begränsade till 500 fält. En räknare längst ned till vänster visar hur många fält som används i formuläret och den visas alltid när du rullar i formulärdesignern.
 
 ### Återanvända ett befintligt fält eller en befintlig widget som redan används i ett annat anpassat formulär
 
-1. Klicka på **Fältbibliotek** på skärmens övre vänstra sida.
+1. Klicka på **Fältbibliotek** i skärmens övre vänstra hörn.
 
-1. Dra fältet eller widgeten hit du vill ha den i det anpassade formuläret.
-1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält eller widgetar.
+1. Dra och släpp önskat fält eller önskad widget på arbetsytan. Upprepa det här steget om du vill lägga till andra fält eller widgetar.
 
    >[!NOTE]
    >
@@ -120,20 +120,20 @@ Anpassade formulär är begränsade till 500 fält. En räknare längst ned till
 
 ### Kommentarer till fältnamn och etiketter {#notes-on-field-names-and-labels}
 
-**label** är tillgänglig för de flesta fält. Det är en beskrivande etikett som visas ovanför fältet eller widgeten i det anpassade formuläret. Du kan när som helst ändra etiketten.
+Etiketten är tillgänglig för de flesta fält. Det är en beskrivande etikett som visas ovanför fältet eller widgeten i det anpassade formuläret. Du kan när som helst ändra etiketten.
 
 >[!NOTE]
 >
->Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.
+>Undvik att använda specialtecken i den här etiketten eftersom de inte visas korrekt i rapporter.
 
-Ett **namn** krävs för varje fält. Det här namnet är det som identifierar det anpassade fältet när du lägger till det i olika områden i Workfront, till exempel rapporter, Hem och API-interaktioner. När du konfigurerar fältet eller widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.
+Ett namn krävs för varje fält. Det här namnet är det som identifierar det anpassade fältet när du lägger till det i olika områden i Workfront, till exempel rapporter, Hem och API-interaktioner. När du konfigurerar fältet eller widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Etikett- och namnfälten är inte synkroniserade. Detta ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.
 
 Varje anpassat fältnamn måste vara unikt i din organisations Workfront-instans. På så sätt kan du återanvända ett som redan har skapats för ett annat anpassat formulär.
 
 >[!NOTE]
 >
 >Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen det anpassade fältet där det nu kan refereras till i andra områden av Workfront.
->Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
+>>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
 >
 >Vi rekommenderar att du inte skriver in ett namn som redan används för inbyggda Workfront-fält.
 >
@@ -157,7 +157,7 @@ Följande specialtecken stöds inte i anpassade fältetiketter och namn.
 
 Du kan lägga till flera olika textfält i ett anpassat formulär.
 
-+++ **Utöka för att visa beskrivningar av tillgängliga textfält**
++++ Expandera om du vill visa beskrivningar av tillgängliga textfält.
 
 * **Textfält med en rad**: Tillåter användare att skriva en enda textrad i fältet.
 * **Styckefält**: Tillåter användare att skriva flera rader med text i fältet.
@@ -177,7 +177,7 @@ Du kan lägga till flera olika textfält i ett anpassat formulär.
 
 Lägga till ett textfält:
 
-1. Leta upp ett av följande textfält till vänster på skärmen och dra det till ett avsnitt på arbetsytan:
+1. På fliken **Nytt fält** till vänster på skärmen kan du hitta något av följande textfält och dra det till ett avsnitt på arbetsytan:
 
    * Enkelradig text
    * Stycke
@@ -196,7 +196,7 @@ Lägga till ett textfält:
     </tr>
     <tr>
     <td>Storlek</td>
-    <td><p>Ändra storleken på textfälten i formuläret.<p>
+    <td><p>(Valfritt) Ändra storleken på textfälten i formuläret.<p>
    </td>
     <td><ul>
     <li>Enkelradig text</li>
@@ -208,7 +208,7 @@ Lägga till ett textfält:
     <tr>
     <td>Etikett</td>
     <td><p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför fältet. Du kan när som helst ändra etiketten.<p>
-    <p>VIKTIGT: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p></td>
+    <p><b>Viktigt</b>: Undvik att använda specialtecken i den här etiketten eftersom de inte visas korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p></td>
     <td><ul>
     <li>Enkelradig text</li>
     <li>Stycke</li>
@@ -217,7 +217,7 @@ Lägga till ett textfält:
     </tr>
     <tr>
      <td>Namn</td>
-    <td><p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
+    <td><p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Etikett- och namnfälten är inte synkroniserade. Detta ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
     <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p>
     </td>
     <td><ul>
@@ -240,7 +240,7 @@ Lägga till ett textfält:
     </tr>
     <tr>
     <td>Format</td>
-    <td><p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>OBS</b>:   
+    <td><p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>Obs!</b>:   
     <ul> 
     <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.</li> 
     <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li>
@@ -267,6 +267,11 @@ Lägga till ett textfält:
     <tr> 
       <td role="rowheader">Gör ett obligatoriskt fält</td>
       <td><p>Välj det här alternativet om du vill att fältet ska vara obligatoriskt för att användaren ska kunna fylla i det anpassade formuläret.</p></td>
+    <td><ul>
+    <li>Enkelradig text</li>
+    <li>Stycke</li>
+    <li>Text med formatering</li>
+    </ul></td> 
     </tr> 
    </table>
 
@@ -290,26 +295,26 @@ I ett anpassat formulär kan du lägga till ett beräknat anpassat fält som anv
 
 Mer information om hur du lägger till ett beräknat fält finns i [Lägga till beräknade fält med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Lägga till alternativknappar, kryssrutegrupper och listrutor
+### Lägg till alternativknappar, kryssrutegrupper och listrutor
 
 Du kan lägga till alternativknappar, kryssrutegrupper, listrutor och flervalslistrutor i ett anpassat formulär.
 
-+++ **Utöka för att visa beskrivningar av tillgängliga fält**
++++ Expandera om du vill visa beskrivningar av tillgängliga fält.
 
 * **Alternativknappar**: Kräver att användare bara väljer ett alternativ.
 * **Kryssrutegrupp**: Tillåter användare att välja flera alternativ.
-* **Listruta för enstaka val**: Visar en lista med alternativ i listrutor.
-* **Flervalsmeny**: Tillåter användare att välja flera alternativ i en listruta.
+* **Listruta för enstaka val**: Visar en lista med alternativ i listrutan.
+* **Flervalsmeny**: Tillåter användare att välja flera alternativ i en nedrullningsbar lista.
 
 +++
 
 >[!NOTE]
 >
->Fält som tillåter flera val, som kryssrutegrupp och flervalslistruta, är svåra att schemalägga och gruppera i rapporter. Om du vill att det ska vara enklare att rita och gruppera i rapporter kan du skapa separata fält för varje val (till exempel ett textfält med en rad).
+>Fält som tillåter flera val, som kryssrutegrupp och flervalslistruta, är svåra att schemalägga och gruppera i rapporter. Om du vill att det ska vara enklare att rita och gruppera i rapporter kan du skapa separata fält för varje alternativ (t.ex. ett textfält med en rad).
 
 Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
 
-1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
+1. På fliken **Nytt fält** till vänster på skärmen kan du hitta något av följande fält och dra det till ett avsnitt på arbetsytan:
 
    * Alternativknappar
    * Kryssrutegrupp
@@ -329,7 +334,7 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     </tr>
     <tr> 
      <td role="rowheader">Etikett</td> 
-     <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: </p> <p>Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
+     <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>Viktigt</b>: Undvik att använda specialtecken i den här etiketten eftersom de inte visas korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
      <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
@@ -339,7 +344,7 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
      </tr> 
      <tr> 
     <td role="rowheader">Namn</td> 
-     <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> 
+     <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Etikett- och namnfälten är inte synkroniserade. Detta ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> 
     <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td>
      <td><ul>
     <li>Alternativknappar</li>
@@ -362,7 +367,7 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     </tr> 
     <tr> 
     <td role="rowheader">Format</td> 
-    <td> <p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>OBS</b>:   
+    <td> <p>Välj den typ av data som ska hämtas i det anpassade fältet.</p> <p><b>Obs!</b>:   
      <ul> 
     <li>Det går inte att redigera det här fältet efter att formuläret har sparats. Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.<br></li> 
     <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li>
@@ -377,7 +382,7 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     </tr> 
     <tr> 
      <td role="rowheader">Visningstyp</td> 
-    <td>Växla mellan alternativknappar, kryssrutegrupper, listrutor för enstaka val eller listrutor för flera val för fältet.</td> 
+    <td>Växla mellan alternativknappar, kryssrutegrupp, listruta för enstaka val eller listruta för flera val för fältet.</td> 
     <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
@@ -385,7 +390,30 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     <li>Listruta för flera val</li>
     </ul></td>
     </tr> 
-     <tr> 
+    <td role="rowheader">Val </td> 
+    <td> 
+    <p>Välj något av följande alternativ:</p> 
+    <ul> 
+    <li><strong>Visa värden</strong>: Visar värdena för varje alternativ i fältet. Etiketten för varje val visas som standard.</li>
+   <li><strong>Sorteringsalternativ A-Z</strong>: Sorterar de alternativ du lägger till i bokstavsordning i fältet.</li>
+    </ul>
+     <p>För varje val som du lägger till för användaren klickar du på kugghjulsikonen <img src="assets/gear-icon-settings.png"> och väljer sedan något av följande alternativ:</p> 
+    <ul> 
+    <li><strong>Välj som standard</strong>: Välj alternativet som standard i fältet.</li> 
+    <li> <p><strong>Dölj alternativ</strong>: Dölj alternativet i fältet. Dolda alternativ är fortfarande tillgängliga i rapporter.</p> </li> 
+    <li> <p><strong>Ta bort alternativ</strong>: Ta bort alternativet från fältet.</p> <p><b>Varning</b>: Om du har aktuella objekt som använder det här alternativet ska du inte ta bort det från fältet. Om du tar bort den går historikdata förlorade. Välj i stället alternativet att dölja det, vilket förhindrar att användarna väljer det i framtiden.</p> </li> 
+    </ul>   
+    <p><b>Obs!</b> Det finns ingen gräns för hur många alternativ du kan välja. </p>    
+    </td> 
+    <td><ul>
+    <li>Alternativknappar</li>
+    <li>Kryssrutegrupp</li>
+    <li>Listruta med ett val</li>
+    <li>Listruta för flera val</li>
+    </ul>
+    </td>
+     </tr> 
+          <tr> 
     <td role="rowheader">Gör ett obligatoriskt fält</td> 
     <td>Välj det här alternativet om du vill att fältet ska vara obligatoriskt för att användaren ska kunna fylla i det anpassade formuläret. </td> 
     <td><ul>
@@ -396,35 +424,6 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     </ul></td>
      </tr> 
     <tr> 
-    <td role="rowheader">Val </td> 
-    <td> 
-    <ol> 
-    <li> <p>Klicka på <b>Alternativ</b> och aktivera sedan något av följande:</p> 
-    <ul> 
-    <li><strong>Visa värden</strong>: Visar värdena för varje alternativ i fältet. Etiketten för varje val visas som standard.</li> 
-     <li><strong>Sorteringsalternativ A-Z</strong>: Sorterar de alternativ du lägger till i bokstavsordning i fältet.</li> 
-    </ul> 
-    </li> 
-    <li> <p>För varje val som du lägger till för användaren klickar du på kugghjulsikonen <img src="assets/gear-icon-settings.png"> och väljer sedan något av följande alternativ:</p> 
-    <ul> 
-    <li><strong>Välj som standard</strong>: Välj alternativet som standard i fältet.</li> 
-    <li> <p><strong>Dölj alternativ</strong>: Dölj alternativet i fältet. Dolda alternativ är fortfarande tillgängliga i rapporter.</p> </li> 
-    <li> <p><strong>Ta bort alternativ</strong>: Ta bort alternativet från fältet.</p> <p><b>VARNING</b>: Om du har aktuella objekt som använder det här alternativet ska du inte ta bort det från fältet. Om du tar bort den går historikdata förlorade. Välj i stället alternativet att dölja det, vilket förhindrar att användarna väljer det i framtiden.</p> </li> 
-    </ul> 
-     </li> 
-    </ol>
-
-   <p><b>OBS!</b></p>
-    <p>Det finns ingen gräns för hur många alternativ du kan välja. </p>    
-    </td> 
-    <td><ul>
-    <li>Alternativknappar</li>
-    <li>Kryssrutegrupp</li>
-    <li>Listruta med ett val</li>
-    <li>Listruta för flera val</li>
-    </ul>
-    </td>
-     </tr> 
     </tbody> 
     </table>
 
@@ -434,7 +433,7 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
 
    Om du vill kopiera ett fält håller du pekaren över ett fält och klickar på kopieikonen.
 
-   ![kopiera ikon](assets/copy-field.png)
+   ![Kopiera ikon](assets/copy-field.png)
 
 1. Om du vill spara ändringarna klickar du på **Använd** och går vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
@@ -446,7 +445,7 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
 
 Du kan lägga till huvud- och datumfält i ett anpassat formulär.
 
-+++ **Utöka för att visa beskrivningar av tillgängliga fält**
++++ Expandera om du vill visa beskrivningar av tillgängliga fält.
 
 * **Typhead**: Tillåter användare att skriva namnet på ett objekt som finns i Workfront. En lista med förslag visas när användaren börjar skriva. Den här fälttypen har stöd för följande objekt:
    * Användare
@@ -464,7 +463,7 @@ Du kan lägga till huvud- och datumfält i ett anpassat formulär.
 
 Så här lägger du till texthuvud- och datumfält:
 
-1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
+1. På fliken **Nytt fält** till vänster på skärmen kan du hitta något av följande fält och dra det till ett avsnitt på arbetsytan.
 
    * Typeahead
    * Datum
@@ -482,7 +481,7 @@ Så här lägger du till texthuvud- och datumfält:
     </tr>
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>Viktigt</b>: Undvik att använda specialtecken i den här etiketten eftersom de inte visas korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Datum</li>
@@ -490,7 +489,7 @@ Så här lägger du till texthuvud- och datumfält:
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
-      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> 
+      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Etikett- och namnfälten är inte synkroniserade. Detta ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> 
       <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
@@ -516,7 +515,7 @@ Så här lägger du till texthuvud- och datumfält:
      </tr> 
      <tr> 
       <td role="rowheader">Refererad objekttyp</td> 
-      <td> <p>Markera den objekttyp som du vill associera med fältet.</p> <p>När du har klickat på Använd eller Spara+Stäng kan du inte ändra fälttypen.</p> <p><b>OBS</b>:   
+      <td> <p>Markera den objekttyp som du vill associera med fältet.</p> <p>När du har klickat på <b>Använd</b> eller <b>Spara och stäng</b> kan du inte ändra objekttypen för fältet.</p> <p><b>Obs!</b>:   
         <ul> 
          <li>Om Workfront-administratören har anpassat namnet på portföljer, program eller projekt i Workfront användargränssnitt, visas Workfront-standardnamnet för objektet i den här listrutan, inte det anpassade namnet. Kontakta Workfront-administratören om du behöver hjälp med detta.<br></li> 
          <li>Följande objekttyper stöds i iOS och Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project och Template.</li> 
@@ -529,11 +528,11 @@ Så här lägger du till texthuvud- och datumfält:
       <td role="rowheader">Lägg till filter</td>
       <td><p>Lägg till ett filter för en objekttyp för att begränsa vilka objekt som användare kan välja när de använder fältet. </p> <p>Du kan till exempel begränsa ett fält så att användarnamn bara kan väljas om de uppfyller följande villkor:</p> 
        <ul> 
-        <li>De tillhör en grupp eller grupper som du anger</li> 
-        <li>De är kopplade till en roll eller jobbtitel som du anger</li> 
-        <li>De tillhör samma grupp som den person som använder fältet</li> 
+        <li>De tillhör en eller flera grupper som du anger.</li> 
+        <li>De är kopplade till en roll eller jobbtitel som du anger.</li> 
+        <li>De tillhör samma grupp som den person som använder fältet.</li> 
        </ul> <p>Du måste definiera filtret för den objekttyp som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Redigera ett filter i textläge</a>.</p>
-       <p><b>OBS</b>:
+       <p><b>Obs!</b>:
        <ul> 
         <li>Om du redigerar ett befintligt anpassat formulär och lägger till ett filter i ett texthuvudfält, tas inga objekt bort (utanför filteromfånget) som användare redan har lagt till med fältet.</li> 
         <li>Filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett Typeahead-fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
@@ -582,7 +581,7 @@ Exempel på hur du använder det externa sökfältet för att anropa samma insta
 
 Så här lägger du till en extern sökning:
 
-1. Leta upp **extern sökning** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
+1. På fliken **Nytt fält** till vänster på skärmen söker du efter **Extern sökning** och drar den till ett avsnitt på arbetsytan.
 1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
 
    <table style="table-layout:auto"> 
@@ -591,11 +590,11 @@ Så här lägger du till en extern sökning:
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>Viktigt</b>: Undvik att använda specialtecken i den här etiketten eftersom de inte visas korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
-      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
+      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
       <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instruktioner</td> 
@@ -604,7 +603,7 @@ Så här lägger du till en extern sökning:
      <tr> 
       <td role="rowheader">Format</td>
       <td><p>Välj den typ av data som ska hämtas i det anpassade fältet.</p>
-      <p><strong>OBS!</strong></p>
+      <p><strong>Obs!</strong></p>
       <ul><li>Du kan ändra formattyp när formuläret har sparats, med en begränsning: Alla befintliga värden på objekt måste kunna konverteras till den nya typen. (Om formattypen till exempel är Text och ett objekt lagrar värdet "abc", kan du inte konvertera fältet och får ett felmeddelande om att systemet inte kan konvertera "abc" till tal/valuta.) Om du tänker använda fältet i matematiska beräkningar måste du välja ett tal- eller valutaformat.</li>
       <li>När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</li>
       <li>Teckengränsen för nummerfält är 16. Du kan också använda ett textfält för att ange tal och undvika gränsen.</li>
@@ -612,16 +611,16 @@ Så här lägger du till en extern sökning:
      </tr> 
      <tr> 
       <td role="rowheader">Bas-API-URL</td> 
-      <td><p>Skriv eller klistra in URL:en för API:t.</p><p>API-URL:en måste returnera ett JSON-innehåll av de alternativ som du vill visa i listrutan. Du kan använda fältet JSON-sökväg för att välja specifika värden från den returnerade JSON-filen som ska vara listrutealternativ.</p><p>När du anger API-URL:en kan du välja att skicka följande värden i URL:en:</p>
+      <td><p>Skriv eller klistra in URL:en för API:t.</p><p>API-URL:en måste returnera ett JSON-innehåll av de alternativ som du vill visa i listrutan. Du kan använda JSON-sökvägsfältet för att välja specifika värden från den returnerade JSON-filen som listalternativ.</p><p>När du anger API-URL:en kan du välja att skicka följande värden i URL:en:</p>
       <ul>
-      <li>$$HOST - Detta representerar den aktuella Workfront-värden och kan användas för att göra /search API-anrop till Workfront API. När jokertecknet används hanteras autentiseringen och användarna behöver inte skicka autentiseringshuvuden. (Användare kan t.ex. söka efter uppgifter med bas-URL:en <code>$$HOST/attask/api/task/search</code> och kan söka efter uppgifter och välja värden från en returnerad lista med uppgifter.)</li>
+      <li>$$HOST - Detta representerar den aktuella Workfront-värden och kan användas för att göra/söka API-anrop till Workfront API. När jokertecknet används hanteras autentiseringen och användarna behöver inte skicka autentiseringshuvuden. (Användare kan t.ex. söka efter uppgifter med bas-URL:en <code>$$HOST/attask/api/task/search</code> och kan söka efter uppgifter och välja värden från en returnerad lista med uppgifter.)</li>
       <li><p>$$QUERY - Detta representerar den söktext som slutanvändaren skriver i fältet och gör att du kan implementera frågefiltrering för slutanvändarna. (Användaren söker efter värdet i listrutan.)</p>
       <p>Om API:t som du refererar till tillåter det kan du även inkludera modifierare i sökfrågan för att identifiera hur sökningen ska fungera. Du kan t.ex. använda följande som bas-API-URL för att tillåta användare att söka efter Workfront-projekt som innehåller viss text: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Läs mer om Workfront sökmodifierare i <a href="/help/quicksilver/wf-api/general/api-basics.md">API Basics</a>.</p>
-      <p><strong>OBS!</strong> Om du inte använder $$QUERY och användartyptexten i sökrutan begränsas de val du redan har. Om du däremot använder $$QUERY och användaren skriver något, utförs ett nytt nätverksanrop till ditt API. Om du har fler än 2 000 värden i API:t, och API:t stöder frågor, kan du använda $$QUERY för att inte bara söka efter befintliga 2 000-värden, utan även från det ursprungliga API:t med de begränsade alternativen.</p></li>
-      <li><p>{fieldName} - Där fieldName är ett anpassat eller inbyggt fält i Workfront. På så sätt kan du implementera filtren för överlappande listrutor när du skickar värdet för ett redan markerat fält till fältet för extern sökning för att filtrera ned alternativen. (Fältet Region finns till exempel redan i formuläret och du begränsar en lista med länder från API:t till de som finns i en viss region.)</p>
+      <p><strong>Obs!</strong> Om du inte använder $$QUERY och användaren skriver text i sökrutan begränsas de val du redan har. Om du däremot använder $$QUERY och användaren skriver något, utförs ett nytt nätverksanrop till ditt API. Om du har fler än 2 000 värden i API:t, och API:t stöder frågor, kan du använda $$QUERY för att inte bara söka efter befintliga 2 000-värden, utan även från det ursprungliga API:t med de begränsade alternativen.</p></li>
+      <li><p>{fieldName} - Där fieldName är ett anpassat eller inbyggt fält i Workfront. På det här sättet kan du implementera filtren för överlappande nedrullningsbara menyer när du skickar värdet för ett redan markerat fält till fältet Extern sökning för att filtrera alternativen. (Fältet Region finns till exempel redan i formuläret och du begränsar en lista med länder från API:t till de som finns i en viss region.)</p>
       <p>För ett externt uppslagsfält som är beroende av andra fält (med syntaxen {fieldName}) är alternativen som returneras från API begränsade till dem som matchar alla strängar eller värden som anges i de andra fälten. (Den här funktionen stöds inte i listor och rapporter.)</p></li>
       <li>{referenceObject}.{fieldName} - Där fältet ingår i ett objekt. Syntaxen liknar anpassade uttryck. (Till exempel portfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>OBS!</strong> Granska dokumentationen för API:t som du arbetar med för de specifika frågor som du kan definiera.</p></td>
+      <p><strong>Tips!</strong> Granska dokumentationen för API:t som du arbetar med för de specifika frågor som du kan definiera.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP-metod</td> 
@@ -629,24 +628,24 @@ Så här lägger du till en extern sökning:
      </tr>
      <tr> 
       <td role="rowheader">JSON-sökväg</td>
-      <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutealternativen.</p><p>Om din API-URL till exempel returnerar JSON i det här formatet:</br>
+      <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
-      <p>kan du använda "$.data[*].name" för att välja USA och Kanada som listrutealternativ.</p> <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Sidhuvuden</td>
-      <td><p>Klicka på <strong>Lägg till huvud</strong> och skriv eller klistra in det nyckel/värde-par som krävs för autentisering med API:t.</p><p><strong>Obs!</strong> Rubrikfälten är inte en säker plats där du kan lagra autentiseringsuppgifter, och du bör vara försiktig med vad du anger och sparar.</p></td>
+      <td><p>Klicka på <strong>Lägg till huvud</strong> och skriv eller klistra in det nyckel/värde-par som krävs för autentisering med API:t.</p><p><strong>Obs!</strong> Rubrikfälten är inte en säker plats att lagra autentiseringsuppgifter på och du bör vara försiktig med vad du anger och sparar.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Flervalsmeny</td>
+      <td role="rowheader">Listruta för flera val</td>
       <td><p>Välj det här alternativet om du vill tillåta användaren att välja mer än ett värde i listrutan.</p></td>
      </tr>
      </tr>
@@ -677,8 +676,8 @@ Så här lägger du till en extern sökning:
 
 Du kan lägga till bilder, PDF-filer och videoklipp i ett anpassat formulär. Användare som arbetar med det objekt som det anpassade formuläret är kopplat till kan endast se bilden, PDF eller videon i följande områden:
 
-* Objektets detaljområde (t.ex. området Projektinformation för ett projekt)
-* Rutan Redigera för objektet, om det har det nya Adobe Workfront-gränssnittet (t.ex. rutorna Redigera projekt och Redigera uppgift)
+* Objektets detaljområde (t.ex. området Projektinformation för ett projekt).
+* Rutan Redigera för objektet, om det har det nya Adobe Workfront-gränssnittet (till exempel i rutorna Redigera projekt och Redigera uppgift).
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
@@ -687,7 +686,7 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **Utöka för att visa beskrivningar av tillgängliga fält**
++++ Expandera om du vill visa beskrivningar av tillgängliga fält.
 
 * **Bild**: Tillåter användare att lägga till bildfiler.
 * **PDF**: Tillåter användare att lägga till PDF-filer
@@ -697,7 +696,7 @@ The Workfront Mobile app -->
 
 Så här lägger du till bilder, PDF-filer eller videofilmer:
 
-1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
+1. På fliken **Nytt fält** till vänster på skärmen kan du hitta något av följande fält och dra det till ett avsnitt på arbetsytan.
 
    * Bild
    * PDF
@@ -711,13 +710,17 @@ Så här lägger du till bilder, PDF-filer eller videofilmer:
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Storlek</td> 
+      <td>(Valfritt) Ändra visningsstorleken för widgeten efter behov.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>Viktigt</b>: Undvik att använda specialtecken i den här etiketten eftersom de inte visas korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
-      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar widgeten. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
+      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar widgeten. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Etikett- och namnfälten är inte synkroniserade. Detta ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p> <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -734,10 +737,6 @@ Så här lägger du till bilder, PDF-filer eller videofilmer:
      <tr> 
       <td role="rowheader">Instruktioner</td> 
       <td> <p>Skriv in ytterligare information om widgeten. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Storlek</td> 
-      <td>Ändra visningsstorleken för widgeten efter behov.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -776,7 +775,7 @@ Så här lägger du till bilder, PDF-filer eller videofilmer:
 
 Du kan lägga till inbyggda Workfront-fält i dina anpassade formulär. När det anpassade formuläret bifogas till ett objekt fylls fältet i från objektdata. Fältet Beskrivning i ett anpassat formulär som är kopplat till ett projekt hämtas till exempel i projektbeskrivningen. (Fältet kan visa &quot;Ej tillämpligt&quot; om inga data är tillgängliga.)
 
-+++ **Expandera om du vill visa en lista över inbyggda fält som stöds**
++++ Expandera om du vill visa en lista över inbyggda fält som stöds.
 
 I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workfront-objekt i ett anpassat formulär.
 
@@ -823,20 +822,24 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
 
 +++
 
-1. På skärmens vänstra sida letar du reda på **Ursprunglig fältreferens** och drar den till ett avsnitt på arbetsytan.
+1. Gå till fliken **Nytt fält** till vänster på skärmen, sök efter **Inbyggd fältreferens** och dra den till ett avsnitt på arbetsytan.
 1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Storlek</td> 
+      <td>(Valfritt) Ändra fältets visningsstorlek efter behov.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför fältet. Du kan när som helst ändra etiketten.</p> <p><b>Viktigt</b>: Undvik att använda specialtecken i den här etiketten eftersom de inte visas korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td>
-      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar fältet för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
+      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar fältet för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Etikett- och namnfälten är inte synkroniserade. Detta ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
       <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p></td> 
      </tr> 
      <tr> 
@@ -851,15 +854,15 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
       <td role="rowheader">Lägg till filter</td>
       <td><p>Lägg till ett filter för referensfältet för att begränsa listan med objekt som användare kan välja mellan när de använder fältet. </p> <p>Du kan till exempel begränsa ett fält så att användarnamn bara kan väljas om de uppfyller följande villkor:</p> 
        <ul>
-        <li>De tillhör en grupp eller grupper som du anger</li> 
-        <li>De är kopplade till en roll eller jobbtitel som du anger</li> 
-        <li>De tillhör samma grupp som den person som använder fältet</li> 
+        <li>De tillhör en eller flera grupper som du anger.</li> 
+        <li>De är kopplade till en roll eller jobbtitel som du anger.</li> 
+        <li>De tillhör samma grupp som den person som använder fältet.</li> 
        </ul>
-       <p>Du måste definiera filtret för det referensfält som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Redigera ett filter i textläge</a>.</p>
-       <p><b>OBS</b>:
+       <p>Du måste definiera filtret för det referensfält som du har valt med syntaxen för textläge. Mer information finns i <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Redigera ett filter i textläge</a>.</p>
+       <p><b>Obs!</b>:
        <ul> 
         <li>Filteralternativet är bara tillgängligt när du refererar till ett inbyggt typsnittsfält, som Portfolio, Company eller Owner.</li>
-        <li>Om du redigerar ett befintligt anpassat formulär tas inga objekt (utanför filteromfånget) som användare redan har lagt till med fältet bort när du lägger till ett filter i ett internt fält.</li> 
+        <li>Om du redigerar ett befintligt anpassat formulär och lägger till ett filter i ett internt fält, tas inga objekt bort (utanför filtrets omfång) som användare redan har lagt till med fältet.</li> 
         <li>Filtret är inte tillgängligt på mobila enheter. Om du använder filtret för ett internt fält visas fältet på användarens mobila enheter som inte påverkas av filtret.</li> 
         </ul></p></td> 
       <td>
@@ -867,10 +870,6 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
      <tr> 
       <td role="rowheader">Gör ett obligatoriskt fält</td>
       <td><p>Välj det här alternativet om du vill att fältet ska vara obligatoriskt för att användaren ska kunna fylla i det anpassade formuläret.</p></td>
-     </tr> 
-     <tr> 
-      <td role="rowheader">Storlek</td> 
-      <td>(Valfritt) Ändra fältets visningsstorlek efter behov.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -890,36 +889,36 @@ Du kan lägga till en Adobe XD-prototyp direkt i ett anpassat formulär. Använd
 
 Lägga till en Adobe XD-fil:
 
-1. Leta upp **Adobe XD** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
+1. Gå till fliken **Nytt fält** till vänster på skärmen, sök efter **Adobe XD** och dra den till ett avsnitt på arbetsytan.
 1. Ange eller redigera någon av följande egenskaper för widgeten:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Storlek</td> 
+      <td>(Valfritt) Ändra visningsstorleken för widgeten efter behov.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.</p> <p><b>Viktigt</b>: Undvik att använda specialtecken i den här etiketten eftersom de inte visas korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td> 
-      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar widgeten. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
+      <td> <p>(Obligatoriskt) Det här namnet är det som identifierar widgeten. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Etikett- och namnfälten är inte synkroniserade. Detta ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
     <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoriskt) Skriv eller klistra in en giltig XD-prototyplänk.</p> 
-      <p>Obs! Inställningen Länkåtkomst på fliken Dela i Adobe XD måste vara inställd på Vem som helst med länken. Annars kan användarna inte visa prototypen. 
+      <p><b>Obs!</b> Inställningen för länkåtkomst på fliken Dela i Adobe XD måste anges till Vem som helst med länken. Annars kan användarna inte visa prototypen. 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instruktioner</td> 
       <td> <p>Skriv in ytterligare information om widgeten. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Storlek</td> 
-      <td>(Valfritt) Ändra visningsstorleken för widgeten efter behov.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -964,26 +963,30 @@ Du kan lägga till anslutningsfältet Planning i alla objekts anpassade formulä
 
 Så här lägger du till ett planeringsanslutningsfält:
 
-1. Leta upp **Planeringsanslutningen** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
+1. Gå till fliken **Nytt fält** till vänster på skärmen, sök efter **Planeringsanslutning** och dra den till ett avsnitt på arbetsytan.
 1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+    <tr> 
+      <td role="rowheader">Storlek</td> 
+      <td>(Valfritt) Ändra visningsstorleken för widgeten efter behov.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>:</p> <p>Använd inte specialtecken i den här etiketten.</p> 
-      <p>Vi rekommenderar att du väljer en etikett som du lätt kan använda för att identifiera varifrån planeringsposten kommer. Lägg till information som namnet på arbetsytan eller namnet på posttypen. </p>   </td> 
+      <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför fältet. Du kan när som helst ändra etiketten.</p> <p><b>Viktigt</b>: Undvik att använda specialtecken i den här etiketten.</p> 
+      <p>Vi rekommenderar att du väljer en etikett som gör det enklare att identifiera varifrån planeringsposten kommer. Lägg till information som namnet på arbetsytan eller namnet på posttypen. </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Namn</td>
-      <td> <p>(Obligatoriskt) Namnet är så som systemet identifierar fältet. När du konfigurerar fältet för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p></td> 
+      <td> <p>(Obligatoriskt) Namnet är så som systemet identifierar fältet. När du konfigurerar fältet för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Etikett- och namnfälten är inte synkroniserade. Detta ger dig möjlighet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instruktioner</td> 
       <td> <p>(Rekommenderas) Ange eventuell ytterligare information om fältet. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.</p>
-      <p>Här kan du lägga till explicit information om posten och de objekt som du ansluter. </p>
+      <p>Här kan du lägga till detaljerad information om posten och de objekt som du ansluter. </p>
       </td> 
      </tr> 
      <tr> 
@@ -992,7 +995,7 @@ Så här lägger du till ett planeringsanslutningsfält:
       Du kan välja mellan följande objekttyper:
       <ul><li> Projekt</li>
       <li> Portfolio</li><li> Program</li><li> Företag</li><li> Grupp</li></ul>
-       <p>Endast Workfront objekttyper för formulärets objekttyper är tillgängliga.</p> <p> Om t.ex. listan Objekttyper längst upp i formulärdesignern visar Projekt, kan du bara välja Projekt i det här fältet och du kan inte välja Portföljer, även om portföljer också kan kopplas till posttyper.</p>
+       <p>Endast Workfront objekttyper för formulärets objekttyper är tillgängliga.</p> <p> Om t.ex. listan Objekttyper längst upp i formulärdesignern visar Projekt, kan du bara välja Projekt i det här fältet och inte Portföljer, även om portföljer också kan kopplas till posttyper.</p>
       </td>
      </tr>
      <tr> 
@@ -1005,7 +1008,7 @@ Så här lägger du till ett planeringsanslutningsfält:
      </tr>
      <tr> 
       <td role="rowheader">Anslutningsfält</td> 
-      <td><p>(Obligatoriskt) Markera anslutningsfältet mellan den markerade Planning-posttypen som du vill visa på Workfront-objekten och Workfront-objekttypen. </p> <p> <b>OBS!</b></p><p>Du kan ha flera anslutningsfält mellan samma objekt och posttyper, men du kan bara markera ett fält.</p>  </td> 
+      <td><p>(Obligatoriskt) Markera anslutningsfältet mellan den markerade Planning-posttypen som du vill visa på Workfront-objekten och Workfront-objekttypen. </p> <p> <b>Obs!</b>: Du kan ha flera anslutningsfält mellan samma objekt och posttyper, men du kan bara markera ett fält.</p>  </td> 
      </tr>
 
 <tr> 

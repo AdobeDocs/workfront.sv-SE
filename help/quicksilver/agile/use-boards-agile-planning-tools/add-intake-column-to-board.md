@@ -7,9 +7,9 @@ description: Du kan också lägga till en inloppskolumn på din anslagstavla som
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -84,16 +84,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Välj avsnittet **Kort**. Nya fält visas.
 1. Aktivera **Ta emot objekt dynamiskt för att ta med**. Den tomma inloppskolumnen visas på styrelsens vänstra sida.
 
-   ![Alternativ för enkla filter för inloppskolumner](assets/intake-column-simple-filters.png)
+   ![Alternativ för enkla filter för inloppskolumner](assets/board-section.png)
 
 1. (Valfritt) Sök efter och välj [!DNL Workfront] [!UICONTROL **Projekt**].
 1. (Valfritt) Sök efter och välj användare eller team [!UICONTROL **Uppdrag**].
-1. Välj [!UICONTROL **Inkludera slutfört arbete**] om du vill visa uppgifter och problem med statusen Fullständigt i inloppskolumnen.
-
-   >[!NOTE]
-   >
-   >Om det här alternativet inte är markerat visas inte korten i andra statusar när de markeras som fullständiga.
-
 1. Klicka på **Använd**. Objekten visas i brädans inloppskolumn som anslutna kort.
 
    ![Intagskolumn](assets/intake-column-added3.png)
