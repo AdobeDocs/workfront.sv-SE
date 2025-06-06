@@ -6,7 +6,7 @@ description: När du får ett  [!DNL Adobe Workfront] e-postmeddelande i din Out
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >Som en del av den här ändringen har Microsoft beslutat att ändra hur tokens återaktiveras. Efter den **30 juni 2025** kan administratörer inte längre återaktivera tokens själva. Det är bara Microsoft Support som kan bevilja undantag. **Den 1 oktober 2025 inaktiveras äldre token för alla innehavare. Undantag beviljas inte.**
 
 När du får ett [!DNL Adobe Workfront]-e-postmeddelande i din [!DNL Outlook]-inkorg kan du snabbt skicka en kommentar till [!DNL Workfront] genom att svara på meddelandet i Outlook.
-
 
 ## Åtkomstkrav
 
