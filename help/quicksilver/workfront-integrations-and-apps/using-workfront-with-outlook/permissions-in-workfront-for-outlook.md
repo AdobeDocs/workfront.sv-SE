@@ -6,14 +6,23 @@ description: Tillägget  [!DNL Workfront for Outlook] kräver åtkomst till läs
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: 177bf9271dca0310653b73b9100607a82290c326
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Behörighetsnivåer för [!DNL Workfront for Outlook]
+
+>[!IMPORTANT]
+>
+>[Microsoft håller på att inaktivera stöd för äldre Exchange-onlinetoken](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), som för närvarande används av Workfront Outlook-tillägget för autentisering. Denna förändring från Microsoft har redan börjat påverka kunderna och kommer att fortsätta att gälla i faser fram till oktober 2025.
+>
+>* **När Microsoft har inaktiverat alla dessa variabler fungerar inte längre integreringen med Workfront för Microsoft Outlook.**
+>
+>Som en del av den här ändringen har Microsoft beslutat att ändra hur tokens återaktiveras. Efter den **30 juni 2025** kan administratörer inte längre återaktivera tokens själva. Det är bara Microsoft Support som kan bevilja undantag. **Den 1 oktober 2025 inaktiveras äldre token för alla innehavare. Undantag beviljas inte.**
+
 
 [!DNL Workfront for Outlook] kräver den högsta av de fyra behörighetsnivåerna som tillåts i [!DNL Outlook] tillägg.
 
