@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -80,9 +80,14 @@ Så här öppnar du sidan Kundinformation:
 
      Mer information om hur du lägger till IP-adresserna till tillåtelselista för var dina användare kan få åtkomst till Workfront finns i [Konfigurera din brandväggs tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * **Licens**
+   * **E-post Tillåtelselista**
 
-     Mer information om licenser finns i [Hantera tillgängliga licenser i systemet](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Mer information om hur du lägger till e-postmeddelanden till tillåtelselista finns i [Konfigurera din e-post med tillåtelselista](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## Konfigurera grundläggande information {#configure-basic-info}
 
@@ -125,7 +130,7 @@ Så här konfigurerar du avsnittet Grundläggande information i området Kundinf
        </ul> <p>Användare kan ändra tidszonen för sin Workfront-instans under sin profil. När användare ändrar sin tidszon matchar datumet och tiden i sina e-postmeddelanden från Workfront deras profilinställningar. Mer information om hur du ändrar inställningar för användarprofiler finns i <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Konfigurera mina inställningar</a>. Den väljs som standardtidszon när du skapar ett nytt schema. Mer information om hur du skapar scheman finns i <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>.</p> <p>Mer information om hur du använder scheman för att hjälpa användare att samarbeta i Workfront över tidszoner finns i <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeta över tidszoner</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Språk</td> 
+      <td role="rowheader">Standardspråk för e-post</td> 
       <td>Styr vilket språk, datum och nummerformat som används i utgående e-postmeddelanden. Det språkområde som väljs här är standard när nya användare skapas. Användare kan ändra sina nationella inställningar i sin användarprofil. När användare ändrar sitt språkområde matchar formatet för språk, datum och nummer i sina e-postmeddelanden från Workfront deras profilinställningar. Mer information om hur du ändrar profilinställningarna finns i <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Konfigurera mina inställningar</a>.</td> 
      </tr> 
      <tr> 
@@ -135,11 +140,7 @@ Så här konfigurerar du avsnittet Grundläggande information i området Kundinf
         <li>Dokument som du länkar till Workfront från någon annan tredjepartstjänsteleverantör (SharePoint, Google Drive, Webdam, Box, Dropbox eller någon annan leverantör av Document Asset Management).</li> 
         <li>Dina Workfront-data (projekt, uppgifter, problem, användare och så vidare).</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Produktversion</td> 
-      <td>Detta är den typ av Workfront-instans som du har tilldelats. Produktversionen för de flesta Workfront-kunder är <strong>Enterprise</strong>.</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
