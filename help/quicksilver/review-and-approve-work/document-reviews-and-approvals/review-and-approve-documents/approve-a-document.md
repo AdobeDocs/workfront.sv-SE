@@ -6,9 +6,9 @@ description: Om du tilldelas som godkännare för ett dokument finns det flera s
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Godkännanden som tilldelats till jobbroller eller grupper visas inte i Hem. Godkännanden som tilldelats team visas i grupperingen Teambegäran i arbetslistan.
+   >* Godkännanden som tilldelats till jobbroller eller grupper visas inte i Hem.
+   >* Godkännanden som tilldelats team visas i varje enskild teammedlems widget för Mina godkännanden i Hem.
 
 1. Klicka på det dokumentgodkännande i listan som du vill godkänna. Information om godkännandet visas till höger på sidan.
 
