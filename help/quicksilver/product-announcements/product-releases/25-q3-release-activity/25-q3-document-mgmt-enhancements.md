@@ -1,22 +1,42 @@
 ---
-title: Förbättringar av dokumenthanteringen i det tredje kvartalet 2025
-description: Förbättringar av dokumenthanteringen i det tredje kvartalet 2025
+title: Förbättringar av korrektur- och dokumenthantering för tredje kvartalet 2025
+description: Förbättringar av korrektur- och dokumenthantering för tredje kvartalet 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# Förbättringar av dokumenthanteringen i det tredje kvartalet 2025
+# Förbättringar av korrektur- och dokumenthantering för tredje kvartalet 2025
 
 Den här sidan beskriver alla förbättringar av dokumenthanteringen som gjorts i tredje kvartersversionen 2025 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Ny korrektur- och GenStudio for Performance Marketing-integrering
+
+>[!NOTE]
+>
+>* Produktionsrelease för alla kunder: 12 juni 2025
+
+Vi är glada över att kunna introducera en ny integrering mellan Proofing och GenStudio for Performance Marketing. Med den här integreringen kan du
+
+* Använd Workfront godkännandemallar för att definiera godkännandearbetsflöden
+
+* Granska utkast i Workfront korrekturläsare
+
+* Se granskningsbeslut för slutligt godkännande och publicering i GenStudio for Performance Marketing
+
+### Integrationskrav
+
+Workfront och GenStudio for Performance Marketing måste distribueras till samma IMS-organisation.
+
+Mer information finns i [Kom igång med integreringen mellan GenStudio for Performance Marketing och Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md).
 
 ## Uppdatering för korrekturläsaren för skrivbordet
 

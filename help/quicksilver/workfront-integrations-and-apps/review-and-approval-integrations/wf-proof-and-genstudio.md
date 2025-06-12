@@ -2,30 +2,30 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Kom igång med korrektur och integrering med GenStudio for Performance Marketing
-description: Kom igång med korrektur och integrering med GenStudio for Performance Marketing
+title: Kom igång med integrationen mellan GenStudio for Performance Marketing och Workfront Proof
+description: Kom igång med integrationen mellan GenStudio for Performance Marketing och Workfront Proof
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# Kom igång med korrektur och integrering med GenStudio for Performance Marketing
+# Kom igång med integrationen mellan GenStudio for Performance Marketing och Workfront Proof
 
-Tack vare integrationen mellan Korrektur och GenStudio for Performance Marketing kan du
+Tack vare integrationen mellan GenStudio for Performance Marketing och Workfront Proof kan du
 
 * Använd Workfront korrekturmallar för att definiera arbetsflöden för granskning och godkännande
 
-* Granska och godkänn GenStudio-utkast i korrekturläsaren
+* Granska och godkänn GenStudio for Performance Marketing-utkast i Workfront korrekturläsare
 
-* Visa granskningsbeslut i GenStudio för slutligt godkännande och publicering
+* Visa granskningsbeslut i GenStudio for Performance Marketing för slutligt godkännande och publicering
+
+Mer information om granskning och godkännande i GenStudio for Performance Marketing finns i [Workfront Proof-integrering med GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Åtkomstkrav
@@ -78,37 +78,35 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Aktivera integreringen i Workfront
 
+Du måste vara systemadministratör för att kunna aktivera den här integreringen.
+
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
 1. Klicka på **Granska och godkänn** > **Adobe GenStudio** i den vänstra panelen.
 1. Aktivera **Använd korrekturgodkännanden**.
-   ![aktivera korrektur för GenStudio](assets/enable-proofing-gs.png)
+   ![aktivera korrektur för GenStudio-inställning](assets/enable-proofing-gs.png)
 
 ## Använd Workfront korrekturmallar för att definiera arbetsflöden för godkännande
 
 Om ditt företags granskningsprocess ofta upprepas eller granskas av samma personer, kan du använda korrekturmallar för att automatisera gransknings- och godkännandearbetsflödena.
 
+### Skapa en korrekturmall i Workfront
+
 Du kan skapa enkla mallar i ett steg för bara en eller två granskare, eller så kan du skapa automatiska mallar i flera steg för komplexa granskningar med många faser och beroenden.
 
-När en användare initierar en granskning i GenStudio väljer de bara den mall de behöver. Användarna kan enkelt ändra alla korrekturmallar, lägga till eller ta bort granskare och faser när som helst.
-
-Med korrekturmallar för arbetsflöden kan du
-
-* Lägg till specifika användare och tilldela varje avsedd korrekturroll
-* Ange en deadline
-* Välj när en scen ska aktiveras
-* Lås faser när de är klara
-* Kräv endast ett beslut
-* Ange en primär beslutsfattare
-* med mera
-
-Mer information om automatiserade arbetsflöden och mallar finns i
+Mer information om hur du skapar automatiska arbetsflöden och mallar i Workfront finns i
 
 * [Översikt över automatiserat arbetsflöde](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Skapa och hantera automatiserade arbetsflödesmallar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-## Granska och godkänn GenStudio-utkast i korrekturläsaren
+### Välja eller ändra mallen i GenStudio for Performance Marketing
 
-Du kan granska och godkänna GenStudio-utkast direkt i GenStudio i korrekturläsaren.
+När en användare initierar en granskning i GenStudio for Performance Marketing väljer de bara den mall de behöver. Användarna kan enkelt ändra alla korrekturmallar, lägga till eller ta bort granskare och faser när som helst.
+
+Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+
+## Granska och godkänn GenStudio for Performance Marketing-utkast i Workfront korrekturläsare
+
+Du kan granska och godkänna utkast direkt i GenStudio for Performance Marketing i Workfront korrekturläsare.
 
 Med korrekturläsaren kan du
 
@@ -116,10 +114,16 @@ Med korrekturläsaren kan du
 * Markera utkast för att visa vad som behöver ändras
 * Fatta ett beslut
 
-Mer information om granskning och godkännande i GenStudio finns i <!--[Workfront Proof integration with GenStudio for Performance Marketing]().-->
+Mer information finns i [Granska och redigera innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
-## Visa granskningsbeslut i GenStudio för slutligt godkännande och publicering
 
-När materialet har granskats och godkänts kan du se granskningsbeslutet och publicera det direkt från GenStudio.
+>[!IMPORTANT]
+>
+>Användare måste installera [Granska interaktivt innehåll med Adobe Workfront granskningsverktyg](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) innan de kan börja granska utkast i GenStudio for Performance Marketing.
 
-Mer information finns i <!--[link to GS docs]().-->
+
+## Visa granskningsbeslut i GenStudio for Performance Marketing för slutligt godkännande och publicering
+
+När materialet har granskats och godkänts kan du se granskningsbeslutet och publicera det direkt från GenStudio for Performance Marketing.
+
+Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5ed9ee77c14948d81ef132e1977b902f8927a620
+source-git-commit: 273db4b8e9b59930dc640a342dbeb276c22ccda3
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -84,21 +84,21 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
   </tr> 
  </thead> 
  <tbody> 
- <!--<tr> 
+ <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
     <ul> 
-     <li>Integrate the proofing experience with Genstudio for Performance Marketing. With this integration, you can 
+     <li>Integrera korrekturupplevelsen med Genstudio för Performance Marketing. Med den här integreringen kan du 
      <ul>
-     <li>Use Workfront approval templates to define approval workflows. </li>
-     <li>Review GenStudio draft content in the proofing viewer. </li>
-     <li>See review decisions in GenStudio for final approval and publishing. </li>
+     <li>Använd Workfront godkännandemallar för att definiera arbetsflöden för godkännande. </li>
+     <li>Granska GenStudio utkast i korrekturläsaren. </li>
+     <li>Läs granskningsbesluten i GenStudio för slutligt godkännande och publicering. </li>
      </ul>
    </ul>
-     <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>.</p> 
-     </td>  <td><ul><li>You must have licenses for both Workfront and GenStudio for Performance Marketing.</li><li>Your Workfront instance must be on the Adobe Unified Experience.</li><li>Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.</li></ul></td> 
-   <td>The integration can be toggled on in the Workfront Setup area once all the requirements are met. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>. </td> 
-  </tr> -->
+     <p>Mer information finns i <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Kom igång med korrektur och GenStudio for Performance Marketing-integrering</a>.</p> 
+     </td>  <td><ul><li>Du måste ha licenser för både Workfront och GenStudio for Performance Marketing.</li><li>Din Workfront-instans måste finnas på Adobe Unified Experience.</li><li>Workfront och GenStudio for Performance Marketing måste distribueras till samma IMS-organisation.</li></ul></td> 
+   <td>Integreringen kan aktiveras i Workfront Setup när alla krav är uppfyllda. Mer information finns i <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Kom igång med korrektur och GenStudio for Performance Marketing-integrering</a>. </td> 
+  </tr>
   <tr> 
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
@@ -113,7 +113,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <li>After Effects </li>
      </ul>
      <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
+     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -320,7 +320,7 @@ Med [!DNL Workfront] kan du utnyttja andra inbyggda integreringar och integrerad
 
   [!DNL Adobe Workfront Fusion] länkar åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar dina data automatiskt. Den har dedikerade anslutningar till många appar, men kan ansluta till alla program med ett offentligt API.
 
-  Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (kräver [!DNL Workfront Fusion])
@@ -333,7 +333,7 @@ Mer information finns i [Översikt över integreringar för Adobe Workfront för
 
 Workfront har många partnerintegreringar som berikar din Workfront-upplevelse. Exempel på befintliga partnererbjudanden är integreringar med Claravine, RWS Group med flera.
 
-Mer information om dessa och andra partnerintegreringar finns på [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
+Mer information om dessa och andra partnerintegreringar finns på [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
 
 ## API för [!DNL Workfront]
 
