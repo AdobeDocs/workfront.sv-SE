@@ -102,7 +102,7 @@ Mer information om hur du skapar automatiska arbetsflöden och mallar i Workfron
 
 När en användare initierar en granskning i GenStudio for Performance Marketing väljer de bara den mall de behöver. Användarna kan enkelt ändra alla korrekturmallar, lägga till eller ta bort granskare och faser när som helst.
 
-Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Granska och godkänn GenStudio for Performance Marketing-utkast i Workfront korrekturläsare
 
@@ -114,7 +114,7 @@ Med korrekturläsaren kan du
 * Markera utkast för att visa vad som behöver ändras
 * Fatta ett beslut
 
-Mer information finns i [Granska och redigera innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Mer information finns i [Granska och redigera innehåll](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Mer information finns i [Granska och redigera innehåll](https://experienceleagu
 
 När materialet har granskats och godkänts kan du se granskningsbeslutet och publicera det direkt från GenStudio for Performance Marketing.
 
-Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
