@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Tillgänglighet för anpassade kvartal för tidslinjen i Workfront Planning
+
+>[!NOTE]
+>
+>* Förhandsgranska: 12 juni 2025
+>* Production fast release: 17 juli 2025
+>* Produktion för alla kunder: 17 juli 2025
+
+När du konfigurerar anpassade kvartal i området Projektinställningar i installationsprogrammet är de anpassade kvartalen tillgängliga för tidslinjevyn i Workfront Planning.
+
+Före den här uppdateringen var de anpassade kvartalen endast tillgängliga för Workfront rapporteringsfunktioner.
+
+Med den här förbättringen kan kunder som köpt Workfront Planning se en uppdaterad upplevelse för att definiera anpassade kvartal. Uppdateringen innehåller följande förbättringar:
+
+Mellanrum och överlappningar mellan kvartalen godtas inte längre.
+
+Du kan ställa in upp till 100 anpassade kvartal. Före den här uppdateringen kunde du bara konfigurera 8 anpassade kvartal
+
+Kunder som inte har köpt Workfront Planning kan nu använda anpassade kvartalsupplevelser utan förändringar.
+
+Mer information finns i [Aktivera anpassade kvartal för projekt](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Beräkna alla beroende formler samtidigt
+
+>[!NOTE]
+>
+>* Förhandsgranska: 12 juni 2025
+>* Production fast release: 12 juni 2025
+>* Produktion för alla kunder: 12 juni 2025
+
+Vi har infört en förbättring som uppdaterar alla formelfält som är beroende av varandra samtidigt efter att ett refererat fält har uppdaterats manuellt. Formelfält som är 2, 3 eller 4 fält från fältet vars värde ändras manuellt och som refererar till varandra uppdateras nu automatiskt samtidigt.
+
+Före den här förbättringen uppdaterades endast direkt beroende formelfält när värdet för ett referensfält uppdaterades manuellt.
+
+Mer information finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Nya uttryck har lagts till i formelfält
+
+>[!NOTE]
+>
+>* Förhandsgranskning: 6 juni 2025
+>* Production fast release: 6 juni 2025
+>* Produktion för alla kunder: 6 juni 2025
+
+Vi har lagt till följande uttryck i formelfält:
+
+* ARRAYCONTAINS
+
+* SORTASCARRAY
+
+* SORTDESCARRAY
+
+Före den här förbättringen hade dessa uttryck bara stöd i anpassade fält som beräknats av Workfront.
+
+Mer information finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Filter, kolumner och ytterligare fält som lagts till på fliken Planering i området Begäranden
 
@@ -150,7 +206,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 
@@ -184,7 +240,7 @@ Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/
 >[!NOTE]
 >
 >* Förhandsgranska: 17 april 2025
->* Production fast release: 12 juni 2025
+>* Production fast release: 17 juli 2025
 >* Produktion för alla kunder: 17 juli 2025
 
 För att få bättre kontroll över vilka som kan visa eller hantera poster i varje posttyp och säkerställa att endast behöriga personer kan hantera informationen för varje posttyp baserat på deras roller och ansvarsområden, har vi infört behörigheter på posttypsnivå.

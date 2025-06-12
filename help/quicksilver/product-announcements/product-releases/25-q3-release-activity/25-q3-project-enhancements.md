@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->* Förhandsgranska: 27 maj 2025
->* Production fast release: 27 maj 2025
->* Produktion för alla kunder: 27 maj 2025
+>* Förhandsgranska: Med nästa API-version, som planeras släppas senare under 2025
+>* Snabb produktion: Med nästa API-version, som planeras släppas senare under 2025
+>* Produktion för alla kunder: Med nästa API-version, som planeras släppas senare under 2025
 
 Uppdateringen förändrar det sätt på vilket faktiska timmar för projekt, uppgifter och ärenden lagras i databasen. Från och med den här uppdateringen används ett värdefält på `actualWorkRequiredDouble` (med ett värde i timmar).
 

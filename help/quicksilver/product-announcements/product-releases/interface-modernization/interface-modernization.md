@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,17 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 
-## Administratör och installation
+## Administration och installation
+
+### Gränssnittsuppdateringar för kundinformationssidan
+
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni 2025**
+
+Vi har uppdaterat kundinformationssidan med en modernare design som överensstämmer med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Inställningar > System > Kundinformation.
+
+Mer information finns i [Konfigurera grundläggande information för systemet](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Gränssnittsuppdateringar för sidan Importera data (snabbstart)
 
@@ -108,6 +118,22 @@ Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-
 
 ## Projekt
 
+### Gränssnittsuppdateringar för avsnittet Associerade projekt i ett projekt (endast tillgängliga för specifika kunder)
+
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni 2025**
+
+Vi har uppdaterat projektavsnittet i ett projekt med en modernare design som är i linje med andra delar av Workfront.
+
+Specifika kunder kan se den här ändringen genom att gå till avsnittet Associerade projekt i det vänstra fönstret.
+
+### Nytt utseende och ny känsla för rutan Spara som mall
+
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni 2025**
+
+Vi har uppdaterat utseendet på rutan Spara som mall som visas när du sparar ett projekt som en mall. Den nya designen har ett smidigt gränssnitt där alla avsnitt visas i ett sammanhängande format som du kan navigera i med hjälp av länkar i den vänstra panelen. Den nya designen matchar andra områden och andra objekt i programmet.
+
+Mer information finns i [Spara ett projekt som en mall](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
 ### Utforska och känna av uppdateringar för rutan Ta bort problem
 
 **Förhandsversion: 29 maj 2025; Produktionsversion: 5 juni 2025**
@@ -150,6 +176,21 @@ Mer information finns i följande artiklar:
 
 
 ## Rapporter och kontrollpaneler
+
+### Uppdaterade rapporter med ny formatering
+
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni 2025**
+
+Vi har uppdaterat utseendet och känslan i flera rapporter för att matcha designen i andra delar av Workfront. Ingen funktionalitet har ändrats.
+
+Uppdateringen innehåller visuella ändringar av listorna och verktygsfälten i rapporterna för följande objekttyper:
+
+* Risker
+* Baslinjer
+* Kurser
+* Layoutmallar
+
+Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### URL:er med /tile eller /qstile stöds inte längre i Workfront Dashboards
 
