@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2759'
 ht-degree: 0%
 
 ---
@@ -238,14 +238,14 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt som 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Egna kvartal</strong> </p> </td> 
-   <td> <p>Konfigurera anpassade årliga kvartal för användare som ska arbeta med projekt. Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. Du kan lägga till flera anpassade kvartal. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal för projekt</a>.</p> <p><b>Obs!</b> Workfront-administratörer kan inte låsa upp anpassade kvartal.</p> </td> 
+   <td> <p>Konfigurera anpassade årliga kvartal för användare som ska arbeta med projekt. Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. Du kan lägga till flera anpassade kvartal. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal</a>.</p> <p><b>Obs!</b> Workfront-administratörer kan inte låsa upp anpassade kvartal.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Affärsärenden {#business-cases}
 
-Du kan skapa ett affärsärende för nyligen skapade projekt som är kopplade till gruppen för att skicka projektbegäranden. Du kan definiera inställningar för att avgöra vilka områden som visas i formuläret **Affärsärende**. Vi rekommenderar att du aktiverar de här alternativen så att andra verktyg, som Portfolio-optimering, uppdateras korrekt. Mer information om vad varje fält visar finns i [Definiera ett affärsfall: artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+Du kan skapa ett affärsärende för nyligen skapade projekt som är kopplade till gruppen för att skicka projektbegäranden. Du kan definiera inställningar för att avgöra vilka områden som visas i formuläret **Affärsärende**. Vi rekommenderar att du aktiverar dessa alternativ så att andra verktyg, som Portfolio Optimizer, uppdateras korrekt. Mer information om vad varje fält visar finns i [Definiera ett affärsfall: artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 När Workfront-administratören har aktiverat avsnitten i affärsärendet kan en projektägare sedan skapa ett affärsärende på projektnivå. Mer information om hur du skapar ett affärsärende finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

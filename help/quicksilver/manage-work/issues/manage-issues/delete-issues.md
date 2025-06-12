@@ -6,9 +6,9 @@ description: Du kan ta bort problem eller förfrågningar i Adobe Workfront om d
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -132,10 +132,12 @@ Beroende på hur din Workfront- eller gruppadministratör konfigurerar inställn
    ![Menyn Mer om problem](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klicka på **Ta bort problem**.
-1. Om borttagningen tillåts klickar du på **Ta bort**.
+1. Klicka på **Ta bort** om du vill.
 
-   Din Workfront-administratör kanske inte tillåter borttagning av problem där timmar är loggade.\
-   Mer information om den åtkomst och de behörigheter som krävs för att ta bort ett problem finns i avsnittet [Att tänka på när du tar bort problem](#considerations-for-deleting-issues) i den här artikeln.
+   >[!NOTE]
+   >
+   >  Din Workfront-administratör kanske inte tillåter borttagning av problem där timmar är loggade.\
+   >  Mer information om den åtkomst och de behörigheter som krävs för att ta bort ett problem finns i avsnittet [Att tänka på när du tar bort problem](#considerations-for-deleting-issues) i den här artikeln.
 
 ## Återställ borttagna problem
 

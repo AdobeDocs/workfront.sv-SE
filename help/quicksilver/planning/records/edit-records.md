@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -200,8 +200,8 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
    >Tänk på följande:
    >
    >* Använd följande kortkommandon för att kopiera och klistra in information:
-   >   * Copy: CTRL + C ( ⌘ + C för Mac)
-   >   * Klistra in: CTRL + V ( ⌘ + V för Mac)
+   >   * Copy: CTRL + C (⌘ + C för Mac)
+   >   * Klistra in: CTRL + V (⌘ + V för Mac)
    >
    >* Du kan inte kopiera och klistra in fältvärden på postsidan. Den här funktionen stöds bara i tabellvyn för en posttyp.
    >* Du kan inte kopiera och klistra in fältvärden för följande fälttyper:
@@ -211,8 +211,8 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
 1. (Valfritt) Använd följande kortkommandon för att ångra eller göra om redigering eller kopiering och inklistring av postinformation:
 
-   * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
-   * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
+   * CTRL + Z (⌘ + Z för Mac) för att ångra en ändring
+   * CTRL + Skift + Z (⌘ + Skift + Z för Mac) för att göra om en ändring
 
    >[!TIP]
    >

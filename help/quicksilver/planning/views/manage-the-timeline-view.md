@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3512'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -128,17 +128,51 @@ Så här hanterar du en tidslinjevy:
    >
    >    Sorteringen av posterna på tidslinjen är inte synlig i den komprimerade vyn.
 
+1. <span class="preview"> (Villkorligt) Om administratören har aktiverat anpassade kvartal och Workfront upptäcker problem med hur anpassade kvartal är konfigurerade, kan du få en varning när du öppnar tidslinjevyn. </span>
+
+   <div class="preview">
+
+   Följande scenarier finns:
+
+   * Om luckor eller överlappningar har upptäckts mellan datumen i kvartalen kan du få ett meddelande om att anpassade kvartal nu kan konfigureras och behöver redigeras.
+
+     ![Meddelande om anpassade kvartal saknas eller finns kvar mellan kvartal](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >Det här meddelandet ska visas endast omedelbart efter att din organisation har aktiverat Planning och anpassade kvartal före köpet. Överlappningar och luckor mellan kvartalen är inte tillåtna när du har aktiverat Workfront Planning för din organisation.
+
+   * Om kvartal delvis har ställts in och några månader under samma år saknas, kan du få ett meddelande när du rullar för att visa kvartal som saknas om att resten av året behöver ställas in med kvartal som saknas.
+
+   ![Ursprungligt meddelande för anpassade kvartal saknas i tidslinjevyn](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   Dessa varningsmeddelanden visas en gång per användare.
+
+   >[!NOTE]
+   >
+   >Om du inte har sparat det anpassade kvartalet korrekt visas de klassiska kvartalen i tidslinjevyn.
+   >När du har konfigurerat anpassade kvartal i inställningsområdet visas anpassade kvartal i tidslinjevyn i stället för klassiska kvartal.
+   >Mer information finns i [Aktivera anpassade kvartal](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   </div>
+
+1. <span class="preview">(Villkorligt) Om du är Workfront-administratör klickar du på **Gå till installationsprogrammet** för att konfigurera dina kvartal. Om inte klickar du på **OK** och ber Workfront-administratören att konfigurera anpassade kvartal.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Knappen Gå till konfiguration visas bara för Workfront-administratören.</span>
+
 1. (Valfritt och villkorligt) När postnamnet trunkeras håller du pekaren över ett postfält för att visa postens fullständiga namn och ytterligare information.
 
 1. Navigera genom tidslinjen på något av följande sätt:
 
    * Klicka på vänster- och högerikonerna eller använd den vågräta rullningen för att flytta bakåt och framåt i tidslinjen. När du uppdaterar sidan bevaras den markerade tidsramen.
    * Klicka på **Idag** för att centrera tidslinjen till dagens datum.
-   * Välj något av följande alternativ i listrutan Tidsram för att uppdatera tidsstegen:
+   * Välj något av följande alternativ i listrutan för tidsbildrutor för att uppdatera tidsstegen och uppdatera vyn:
 
-      * År
-      * Kvartal
-      * Månad
+      * **År**: Visar kvartal och månader med årsangivelse.
+      * **Kvartal**: Visar månader och veckor med kvartalsangivelse.
+      * **Månad**: Visar veckor och dagar.
 1. (Valfritt) Klicka på **Växla till komprimerad vy** om du vill visa de poster vars datum inte överlappar på samma rad. <!--check to see if they updated the name of the setting here-->
 1. (Villkorligt) Om du har ändrat läge till **Kompakt** klickar du på **Växla till standardvyn** för att visa poster på separata rader. <span class="preview">Alternativet **Standard** är standard.</span>  <!--check to see if they updated the name of the setting here-->
 
@@ -268,6 +302,16 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
    >* Poster som inte har några värden för start- eller slutdatum eller som har ett startdatum efter slutdatumet visas inte i tidslinjevyn.
    >
    >* Om du visar ytterligare poster med alternativet Uppdelning är start- och slutdatumen huvudpostens. Du kan inte välja start- och slutdatum för de anslutna posterna i det här området.
+
+1. <span class="preview">(Villkorligt och valfritt) Om du är Workfront-administratör klickar du på **Gå till installationsprogrammet** i rutan **Använd anpassade kvartal** för att gå till inställningsområdet och konfigurera anpassade kvartal. När du har konfigurerat anpassade kvartal kan du visa dem i tidslinjevyn i stället för i klassiska kvartal. Om du inte är Workfront-administratör kan du begära att anpassade kvartal aktiveras för din organisation av en administratör. </span>
+
+   Mer information finns i [Aktivera anpassade kvartal](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   ![Använd varningar för anpassade kvartal i tidslinjevisningsinställningarna](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">Knappen Gå till konfiguration visas bara för Workfront-administratören.</span>
 
 1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilken information du vill visa i postfälten.
 

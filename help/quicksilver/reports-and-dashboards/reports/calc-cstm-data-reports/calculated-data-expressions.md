@@ -7,9 +7,9 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,17 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr> 
+
+<tr> 
+   <td><strong>ARRAYCONTAINS</strong> </td> 
+   <td> <p>Söker efter ett specifikt värde i en lista eller array. Om värdet hittas returnerar funktionen True, annars returneras False. </p> 
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
+<tr> 
    <td><strong>ARRAYLENGTH</strong> </td> 
    <td> <p>Returnerar antalet element i arrayen och formateras enligt följande:</p>
    <p><code>ARRAYLENGTH(array)</code></p> 

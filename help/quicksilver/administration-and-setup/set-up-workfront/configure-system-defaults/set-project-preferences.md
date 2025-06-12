@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Avgör vilka data [!DNL Workfront] använder för att beräkna [!UICONTROL Estimate at Completion] (EAC) som representerar den planerade totala kostnaden för ett projekt.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC för den överordnade aktiviteten och projektet bestäms genom att [!UICONTROL Actual Hours] eller [!UICONTROL Actual Labor Cost] anges i EAC-formlerna. Den här beräkningen innehåller [!UICONTROL Actual Hours] eller [!UICONTROL Costs and Expenses] som lagts till direkt i den överordnade aktiviteten eller projektet.</li> 
@@ -241,7 +241,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <p>Konfigurera anpassade årliga kvartal för användare som ska arbeta med projekt. Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. Du kan lägga till flera anpassade kvartal. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal för projekt</a>.</p>  <p><b>OBS</b>: </p><p>[!DNL Workfront] administratörer kan inte låsa upp inställningarna för [!UICONTROL Custom Quarters].</p> </td> 
+   <td> <p>Konfigurera anpassade årliga kvartal för användare som ska arbeta med projekt. Kvartal är vanligtvis kvartal som inte motsvarar den traditionella fördelningen av kvartal under ett kalenderår. Du kan lägga till flera anpassade kvartal. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Aktivera anpassade kvartal</a>.</p>  <p><b>OBS</b>: </p><p>[!DNL Workfront] administratörer kan inte låsa upp inställningarna för [!UICONTROL Custom Quarters].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +252,7 @@ Du kan skapa ett affärsärende för nyskapade projekt i hela systemet för att 
 
 När administratören för [!DNL Workfront] har aktiverat avsnitten på [!UICONTROL Business Case] kan en projektägare sedan skapa ett affärsärende på projektnivå. Mer information om hur du skapar ett affärsärende finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-### [!UICONTROL Life After Death] {#life-after-death}
+### [!UICONTROL Life After Death]  {#life-after-death}
 
 Konfigurera någon av följande inställningar för nyligen skapade projekt i hela systemet:
 

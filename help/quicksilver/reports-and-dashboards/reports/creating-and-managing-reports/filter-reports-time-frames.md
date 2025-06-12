@@ -6,9 +6,9 @@ description: Du kan filtrera en rapport efter tidsramen för ett datum som finns
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Om du till exempel skapar en timrapport och vill visa timmar som angetts under e
   </tr> 
   <tr> 
    <td role="rowheader">Sista kvartalet</td> 
-   <td> <p>Visar timmar där anmälningsdatumet är ett datum under det kvartal som föregår det aktuella kvartalet, där kvartal definieras ovan.</p> <p>Obs! Om din Workfront-administratör har aktiverat och definierat anpassade kvartal för ditt system, ersätts de inbyggda filtren för kvartal med din anpassade kvartalsinformation. Mer information om att aktivera anpassade kvartal finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera anpassade kvartal för projekt</a>.</p> </td> 
+   <td> <p>Visar timmar där anmälningsdatumet är ett datum under det kvartal som föregår det aktuella kvartalet, där kvartal definieras ovan.</p> <p>Obs! Om din Workfront-administratör har aktiverat och definierat anpassade kvartal för ditt system, ersätts de inbyggda filtren för kvartal med din anpassade kvartalsinformation. Mer information om att aktivera anpassade kvartal finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera anpassade kvartal</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Detta år</td> 

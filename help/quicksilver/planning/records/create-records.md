@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -178,8 +178,8 @@ Poster av den valda typen visas i vyn.
 
 1. (Valfritt) I tabellvyn använder du följande kortkommandon för att ångra eller göra om tillägg av nya poster eller deras information när du lägger till dem i tabellvyn:
 
-   * CTRL + Z ( ⌘ + Z för Mac) för att ångra en ändring
-   * CTRL + Skift + Z ( ⌘ + Skift + Z för Mac) för att göra om en ändring
+   * CTRL + Z (⌘ + Z för Mac) för att ångra en ändring
+   * CTRL + Skift + Z (⌘ + Skift + Z för Mac) för att göra om en ändring
 
 ## Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst
 
