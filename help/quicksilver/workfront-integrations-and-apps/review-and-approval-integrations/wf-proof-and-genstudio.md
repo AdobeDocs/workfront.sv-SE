@@ -25,7 +25,7 @@ Tack vare integrationen mellan GenStudio for Performance Marketing och Workfront
 
 * Visa granskningsbeslut i GenStudio for Performance Marketing för slutligt godkännande och publicering
 
-Mer information om granskning och godkännande i GenStudio for Performance Marketing finns i [Workfront Proof-integrering med GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Mer information om granskning och godkännande i GenStudio for Performance Marketing finns i [Workfront Proof-integrering med GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Åtkomstkrav
