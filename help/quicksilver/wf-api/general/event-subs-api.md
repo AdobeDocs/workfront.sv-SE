@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2479'
 ht-degree: 0%
 
 ---
@@ -707,6 +707,33 @@ Med det här filtret kan meddelanden visas om ändringen som inträffade innehå
 }
 ```
 
+#### containsOnly
+
+Med det här filtret kan meddelanden bara visas när den fullständiga uppsättningen med valda värden exakt matchar fieldValue i filtret, oavsett ordning. Det får inte finnas några extra värden eller värden som saknas.
+
+Obs! Detta används för fält av arraytyp (multi-select). Med den här exempelprenumerationen nedan kan meddelanden bara visas när fältet `groups` innehåller exakt &quot;Alternativ 3&quot; och &quot;Alternativ 4&quot;, utan ytterligare eller saknade värden och oavsett ordning.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### change
 
 Det här filtret tillåter bara att meddelanden visas om det angivna fältet (`fieldName`) har ett annat värde i läget oldstate och newstate. Uppdatering av andra fält förutom det angivna (`fieldName`) returnerar inte den ändringen.
@@ -739,7 +766,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 >[!NOTE]
 >
 >Prenumerationen nedan med det angivna filtret returnerar bara meddelanden där aktivitetens namn innehåller `again` på `oldState`, vilket var innan en uppdatering gjordes för aktiviteten.
->Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
+>>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
 ```
 {
