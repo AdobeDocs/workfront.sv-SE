@@ -5,19 +5,17 @@ title: HIPAA-beredskap för Workfront
 description: En Workfront-kund som, enligt definitionen i HIPAA, är en Business Associate och/eller den enhet som omfattas för vars räkning Business Associate tillhandahåller Adobe Workfront, bör använda följande riktlinjer för att konfigurera Workfront för HIPAA-klar användning.
 feature: Get Started with Workfront
 author: Courtney
-hide: true
-hidefromtoc: true
-source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
+exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-
 # HIPAA-beredskap för Workfront
 
-En Workfront-kund som, enligt definitionen i HIPAA, är en Business Associate och/eller den enhet som omfattas för vars räkning Business Associate tillhandahåller Adobe Workfront, bör använda följande riktlinjer för att konfigurera Workfront för användning med HIPAA:
+En Workfront-kund som, enligt definitionen i HIPAA, är en Business Associate och/eller den enhet som omfattas för vars räkning Business Associate tillhandahåller Adobe Workfront, bör använda följande riktlinjer för att konfigurera Workfront för HIPAA-klar användning:
 
 
 ## Lösenordskrav
@@ -66,5 +64,5 @@ Bland annat bör följande ansvarsområden och skyldigheter ses över och meddel
 * Kontrollera att **Kryptering vid vila (EAR)** är aktiverat för alla Workfront-databaser där ePHI kan vara tillgänglig.
    * Kontakta din kontoansvarige (AE) för att kontrollera att EAR ingår i ditt köp av Workfront.
    * Konfigurera system/databaser som är tillgängliga via Workfront för att uppfylla efterlevnadskrav.
-* Säkerställ att ePHI inte överförs, länkas eller delas med andra Adobe-lösningar.
+* Säkerställ att ePHI inte överförs, länkas eller delas med andra icke-HIPAA-klara Adobe-lösningar.
 * Se till att patientfotografier som bearbetas via Workfront lagras säkert och inte är tillgängliga för allmänheten.
