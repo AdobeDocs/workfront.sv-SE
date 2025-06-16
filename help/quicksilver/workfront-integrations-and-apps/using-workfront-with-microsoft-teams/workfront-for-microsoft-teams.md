@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->När Microsoft går över till New Teams-klienten är Classic Teams-klienten inte längre tillgänglig efter 1 juli 2025. Vi håller på att utveckla en ny version av Microsoft Teams-integreringen som är helt kompatibel med nya Teams-klienten och som är tillgänglig före 1 juli för att säkerställa en smidig övergång.
+>När [Microsoft övergår till New Teams-klienten](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) är Classic Teams-klienten inte längre tillgänglig efter 1 juli 2025. För att kunna fortsätta använda Microsoft Teams och integrerade program som Workfront måste kunderna gå över till nya Teams-klienten före detta datum.
 >
->Instruktioner om hur du hämtar och installerar integreringen i New Teams-klienten blir tillgänglig när integreringen har släppts.
+>Den uppdaterade Workfront-integreringen är nu tillgänglig och helt kompatibel med New Teams. I de flesta fall visas Workfront automatiskt när användaren har gått över. Om så inte är fallet kan integreringen installeras manuellt från Microsoft Teams App Store. Information om hur du installerar eller verifierar Workfront-integreringen i klienten New Teams finns i [Installera [!DNL Adobe Workfront] för Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Som teamägare i [!DNL Microsoft Teams] kan du installera appen [!DNL Adobe Workfront for Microsoft Teams] för ditt team.
 

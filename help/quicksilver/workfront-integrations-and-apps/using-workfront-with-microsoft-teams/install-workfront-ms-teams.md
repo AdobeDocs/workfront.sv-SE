@@ -6,9 +6,9 @@ description: Med appen  [!DNL Adobe Workfront for Microsoft Teams] kan du utför
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->När Microsoft går över till New Teams-klienten är Classic Teams-klienten inte längre tillgänglig efter 1 juli 2025. Vi håller på att utveckla en ny version av Microsoft Teams-integreringen som är helt kompatibel med nya Teams-klienten och som är tillgänglig före 1 juli för att säkerställa en smidig övergång.
+>När [Microsoft övergår till New Teams-klienten](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) är Classic Teams-klienten inte längre tillgänglig efter 1 juli 2025. För att kunna fortsätta använda Microsoft Teams och integrerade program som Workfront måste kunderna gå över till nya Teams-klienten före detta datum.
 >
->Instruktioner om hur du hämtar och installerar integreringen i New Teams-klienten visas här när integreringen är tillgänglig.
+>Den uppdaterade Workfront-integreringen är nu tillgänglig och helt kompatibel med New Teams. I de flesta fall visas Workfront automatiskt när användaren har gått över. Om så inte är fallet kan integreringen installeras manuellt från Microsoft Teams App Store.
 
 
 Med appen [!DNL Adobe Workfront for Microsoft Teams] kan du utföra grundläggande åtgärder i [!DNL Workfront] utan att lämna dina [!DNL Microsoft Teams] chattkanaler.
