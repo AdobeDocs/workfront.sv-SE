@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Den här sidan beskriver alla förbättringar av dokumenthanteringen som gjorts i tredje kvartersversionen 2025 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Uppdatering för korrekturläsaren för skrivbordet
+
+Desktop Proofing Viewer har uppdaterats till version 2.1.50.
+
+Den här uppdateringen innehåller interna verktygsuppdateringar och påverkar inte slutanvändarnas funktioner.
+
+Uppdateringen gäller både Mac och Windows.
 
 ## Ny korrektur- och GenStudio for Performance Marketing-integrering
 
