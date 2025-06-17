@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
 workflow-type: tm+mt
-source-wordcount: '13256'
+source-wordcount: '13262'
 ht-degree: 0%
 
 ---
@@ -1730,9 +1730,9 @@ ht-degree: 0%
          * [Det går inte att upprätta en anslutning](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI-verktyget kan inte ansluta med det angivna lösenordet](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Hantera resurser {#manage-resources}
-   * [Hantera resurser](resource-mgmt/manage-resources.md)
+   * [Hantera resurser: artikelindex](resource-mgmt/manage-resources.md)
    * Resurshantering {#resource-management}
-      * [Resurshantering](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+      * [Resurshantering: artikelindex](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Kom igång med resurshantering](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Resursplanering i Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Resursplanering: artikelindex](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1762,7 +1762,7 @@ ht-degree: 0%
       * [Rapport om budgeterade timmar för resursplanering](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Resursplanering - visningsbegränsningar](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * Resursanvändning {#resource-utilization}
-      * [Resursanvändning](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [Resursanvändning: artikelindex](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Visa information om resursutnyttjande](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Utjämning av arbetsbelastning {#the-workload-balancer}
       * [Utjämning av arbetsbelastning: artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
