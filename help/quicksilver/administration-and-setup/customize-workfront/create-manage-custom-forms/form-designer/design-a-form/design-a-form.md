@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
 workflow-type: tm+mt
 source-wordcount: '6547'
 ht-degree: 0%
@@ -133,7 +133,7 @@ Varje anpassat fältnamn måste vara unikt i din organisations Workfront-instans
 >[!NOTE]
 >
 >Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen det anpassade fältet där det nu kan refereras till i andra områden av Workfront.
->&#x200B;>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
+>>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
 >
 >Vi rekommenderar att du inte skriver in ett namn som redan används för inbyggda Workfront-fält.
 >
@@ -533,7 +533,7 @@ Så här lägger du till texthuvud- och datumfält:
         <li>De tillhör samma grupp som den person som använder fältet.</li> 
        </ul>
        <p>Du måste definiera filtret för den objekttyp som du har valt med syntaxen för textläge. Mer information om hur du skapar ett filter i textläge finns i <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Redigera ett filter i textläge</a>.</p>
-       <p><b>Tips!</b>Du kan skapa en rapport som testar filtret innan du lägger till filtret direkt i typsnittsfältet. Detta hjälper dig att verifiera att filtret returnerar rätt objekt. Sedan kan du växla till textläge i rapporten, kopiera textlägessatsen och lägga till den i texthuvudfiltret.</p>
+       <p><b>Tips!</b> Du kan skapa en rapport som testar filtret innan du lägger till filtret direkt i typsnittsfältet. Detta hjälper dig att verifiera att filtret returnerar rätt objekt. Sedan kan du växla till textläge i rapporten, kopiera textlägessatsen och lägga till den i texthuvudfiltret.</p>
        <p><b>Obs!</b>:
        <ul> 
         <li>Om du redigerar ett befintligt anpassat formulär tas inga objekt (utanför filteromfånget) som användare redan har lagt till med fältet bort när du lägger till ett filter i ett typsnittsfält.</li> 
@@ -632,12 +632,12 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">JSON-sökväg</td>
       <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
