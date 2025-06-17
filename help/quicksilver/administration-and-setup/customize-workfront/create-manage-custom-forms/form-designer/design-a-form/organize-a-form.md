@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -173,4 +173,9 @@ Om du lägger till en av de andra objekttyperna i formuläret (Portfolio, Progra
 1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, vilket beskrivs i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicka på **Förhandsgranska** i det övre högra hörnet för att se hur formuläret kommer att se ut när det används och klicka sedan på **Avsluta förhandsgranskning** för att återgå till att redigera formuläret.
+
+   >[!NOTE]
+   >
+   >Avancerad logik stöds inte i förhandsgranskningsläget för formulärdesignern.
+
 
