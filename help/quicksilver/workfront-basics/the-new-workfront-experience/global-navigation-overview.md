@@ -5,9 +5,9 @@ description: Det övre navigeringsfältet - som visas högst upp på skärmen i 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,6 @@ Vilka alternativ som är tillgängliga i [!UICONTROL Main Menu] beror på:
 * **Layoutmallskonfigurationer**: Information om hur en [!DNL Workfront] -administratör kan ändra [!UICONTROL Main Menu] från en layoutmall finns i [Anpassa [!UICONTROL Main Menu] med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 * **Licenstyp**: Information om standardkonfigurationerna för olika licenstyper finns i [Förstå navigeringen för en granskningslicensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) eller [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
-
-![Huvudmenyalternativ](assets/main-menu-options-350x481.png)
 
 Varje ikon tar dig till olika delar av Workfront.
 
