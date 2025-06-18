@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '2061'
 ht-degree: 0%
 
 ---
@@ -277,12 +277,14 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
    * En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.
    * En posttyp och en Adobe Experience Manager-resurs eller mapp.
 
-     Du måste ha en Adobe Experience Manager-licens för att länka posttyper med Experience Manager-objekt.
+     Du måste ha en Adobe Experience Manager-licens för att kunna koppla posttyper till Experience Manager-objekt.
 
      ![Ny anslutningsflik med alternativ för Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster eller objekt av dessa typer till varandra. Anslutningen mellan posterna visas som ett anslutet postfält eller en anslutning.
+
+  Det är praktiskt att koppla posttyper när du har flera typer av arbetsobjekt som påverkar varandra. Du kan till exempel arbeta med kampanjer och varje kampanj kan tillgodose flera varumärken. För att indikera relationen kan ni koppla kampanjer till varumärken. Dessutom kan arbetet för varje kampanj planeras i flera projekt i Workfront. För att ange detta kan ni koppla kampanjerna till relevanta projekt. När du ansluter posttyper och sedan ansluter enskilda poster skapas den här relationen i Workfront Planning.
 
 * **Sök efter fält** (eller länkade fält): När du har upprättat anslutningen mellan två posttyper och kopplar ihop enskilda poster kan du referera till fälten från de anslutna posterna från den post du ansluter från.
 
@@ -299,7 +301,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
   >* Senast ändrad av
   >* Workfront typsnittsfält (inklusive fält som Projektägare eller Projektsponsor)
 
-  Mer information om hur du länkar posttyper, poster och skapar länkade fält finns i följande artiklar:
+  Mer information om hur du ansluter posttyper, poster och skapar länkade fält finns i följande artiklar:
 
    * [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Koppla poster](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
      ![Gruppering används i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)
 
    * **Kalendervy**: Visar poster som har minst två datumtypsfält i ett kalenderformat.
-
      ![Exempel på kalendervy](assets/calendar-view-example.png)
 
 
@@ -395,7 +396,7 @@ En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering 
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 
