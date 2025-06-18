@@ -397,7 +397,7 @@ En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering 
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 
