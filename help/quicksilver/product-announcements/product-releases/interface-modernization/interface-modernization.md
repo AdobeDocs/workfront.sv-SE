@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
+source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
 workflow-type: tm+mt
-source-wordcount: '4589'
+source-wordcount: '4583'
 ht-degree: 0%
 
 ---
@@ -260,14 +260,14 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### Uppdaterade rapporter med ny formatering
 
-**Förhandsversion: 12 juni 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni. 2025**
 
 Vi har uppdaterat utseendet och känslan i flera rapporter för att matcha designen i andra delar av Workfront. Ingen funktionalitet har ändrats.
 
 Uppdateringen innehåller visuella ändringar av listorna och verktygsfälten i rapporterna för följande objekttyper:
 
 * Risker
-* Baslinjer (frisläppt till produktion 19 juni. 2025)
+* Baslinjer
 * Kurser
 * Layoutmallar
 
