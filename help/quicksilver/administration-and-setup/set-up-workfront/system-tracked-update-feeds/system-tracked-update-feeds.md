@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Systemspårade uppdateringar
+title: Systemspårade uppdateringar - översikt
 description: Adobe Workfront fångar upp aktiviteten som äger rum på vissa objekt genom att logga statusinformation i objektets [!UICONTROL Updates]-område.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Systemspårade uppdateringar
+# Översikt över systemspårade uppdateringar
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -75,7 +75,7 @@ Systemspårade uppdateringar är inte tillgängliga för alla objekt som har upp
    * [!UICONTROL Iteration]
    * [!UICONTROL Goal]
 
-     Du måste ha ytterligare en licens för att ha tillgång till området [!UICONTROL Goals]. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Alla Workfront-paket innehåller inte Workfront-mål. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Card] på en bräda
 
      Mer information om uppdateringar av kort finns i [Använda anslutna kort på kort](../../../agile/get-started-with-boards/connected-cards.md).

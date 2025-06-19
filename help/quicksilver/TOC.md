@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '13262'
+source-wordcount: '13266'
 ht-degree: 0%
 
 ---
@@ -446,8 +446,8 @@ ht-degree: 0%
          * [Inaktivera jobbroller](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Åsidosätt faktureringstariffer för jobbroller](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
       * Systemspårade uppdateringsflöden {#system-tracked-updates}
-         * [Systemspårade uppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-         * [Systemspårade uppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+         * [Systemspårade uppdateringsflöden: artikelindex](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+         * [Översikt över systemspårade uppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [Konfigurera systemuppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [Konfigurera inställningar för användaruppdateringar](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
       * Adobe Workfront testmiljöer {#testing-environments}

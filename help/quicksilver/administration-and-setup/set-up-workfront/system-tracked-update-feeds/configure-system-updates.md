@@ -8,16 +8,24 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Konfigurera systemuppdateringar
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 6/2025 -->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 [!DNL Adobe Workfront] genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates]-område för att registrera följande händelser:
 
@@ -49,7 +57,7 @@ Du kan till exempel låta [!DNL Workfront] spåra alla ändringar som användare
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
    <td><p>Nytt: [!UICONTROL Standard]</p>
    eller
    <p>Aktuell: [!UICONTROL Plan]</p>
@@ -62,7 +70,7 @@ Du kan till exempel låta [!DNL Workfront] spåra alla ändringar som användare
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,10 +85,6 @@ Du kan bestämma vilken information [!DNL Workfront] spårar när användare än
 >
 
 
-
-* [Lägg till fält som du vill att [!DNL Workfront] ska spåra](#add-fields-you-want-workfront-to-track)
-* [Ta bort fält som du inte vill spåra](#remove-fields-you-don-t-want-tracked)
-
 ### Lägg till fält som [!DNL Workfront] ska spåra {#add-fields-you-want-workfront-to-track}
 
 Du kan lägga till fält som du vill att [!DNL Workfront] ska spåra för en viss typ av objekt i [!DNL Workfront]-gränssnittet. När användare ändrar information i det fältet registrerar [!DNL Workfront] information om ändringen som en systemuppdatering i [!UICONTROL Updates] -området för objektet.
@@ -92,18 +96,70 @@ Du kan lägga till fält som du vill att [!DNL Workfront] ska spåra för en vis
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Interface]** i panelen till vänster och sedan på **[!UICONTROL Update Feeds]**.
+1. (Valfritt) Klicka på någon av följande underflikar på fliken **Spårade fält**, beroende på vilka typer av fält du vill spåra i uppdateringsflödet:
 
-1. &#x200B; klicka på **[!UICONTROL Add Fields]** och markera sedan det objekt som du vill ska spåras i listrutan.
+   * **Inbyggda fält**: Visar en lista med inbyggda fält.
+   * **Anpassade fält**: Visar en lista med anpassade fält. Du måste skapa anpassade fält innan de är tillgängliga i listan.
+   * **Alla fält**: Visar en lista över både inbyggda och anpassade fält.
 
-1. I rutan som visas börjar du skriva antingen ett inbyggt (standard) fält eller ett anpassat fält för objektet och markerar det sedan när det visas i listan.
+1. Klicka på **[!UICONTROL Add Fields]** och markera sedan det objekt som du vill ska spåras i listrutan.
+
+   Det går inte att markera fält manuellt för alla objekt som har uppdateringsområdet.
+
+   Välj bland fält för följande objekt:
+
+   * Projekt
+   * Uppgift
+   * Problem
+   * Portfolio
+   * Program
+   * Användare
+
+   Rutan **Lägg till fält** öppnas för varje markerat objekt.
+1. I rutan **Lägg till fält** börjar du skriva ett inbyggt (standard) fält eller ett anpassat fält för objektet och markerar det när det visas i listan.
 
    >[!NOTE]
    >
    >Om [!DNL Workfront] redan spårar fältet kan du inte lägga till det en andra gång från listan.
 
-1. När du har lagt till alla fält som du vill att [!DNL Workfront] ska spåra klickar du på **[!UICONTROL Add Fields]**. De inbyggda fälten som du har lagt till visas under underfliken **[!UICONTROL Built-in Fields]** och de anpassade fälten visas under underfliken **[!UICONTROL Custom Fields]**.
+1. När du har lagt till alla fält som du vill att [!DNL Workfront] ska spåra klickar du på **[!UICONTROL Add Fields]**.
+De inbyggda fälten som du har lagt till visas under underfliken **[!UICONTROL Built-in Fields]** och de anpassade fälten visas under underfliken **[!UICONTROL Custom Fields]**.
+Underfliken **[!UICONTROL All Fields]** visar både inbyggda och anpassade fält som [!DNL Workfront] spårar.
 
-   Underfliken **[!UICONTROL All Fields]** visar både inbyggda och anpassade fält som spåras.
+<!-- replace the above when releasing to Preview: 
+
+1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
+1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
+
+   * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
+   * <span class="preview">**Custom fields**</span>: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
+   * <span class="preview">**All fields**</span>: Displays a list of both built-in and custom fields. 
+
+1. Click <span class="preview">**[!UICONTROL Add fields]**,</span> then select the object that you want to be tracked from the drop-down. 
+
+   Manually selecting fields is not available for all the objects that have an Updates area.
+
+   Select from fields for the following objects:
+
+      * Project
+      * Task
+      * Issue
+      * Portfolio
+      * Program
+      * User
+
+   The <span class="preview">**Add fields** </span> box opens, for each object selected.
+1. In the <span class="preview">**Add fields** </span> box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
+
+   >[!NOTE]
+   >
+   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
+
+1. After adding all the fields you want [!DNL Workfront] to track, <span class="preview"> click **[!UICONTROL Add]**.
+   The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
+   The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
+
+-->
 
 ### Ta bort fält som du inte vill spåra {#remove-fields-you-don-t-want-tracked}
 
@@ -113,19 +169,32 @@ Du kan ta bort fält som du inte vill att systemet ska spåra för en viss typ a
 
 1. Klicka på **[!UICONTROL Interface]** och sedan på **[!UICONTROL Update Feeds]**.
 
-1. På fliken **[!UICONTROL Tracked Fields]** väljer du underfliken **[!UICONTROL All Fields]**. Både inbyggda och anpassade fält som spåras visas.
+1. På fliken **[!UICONTROL Tracked Fields]** väljer du underfliken **[!UICONTROL All fields]**. Både inbyggda och anpassade fält som spåras visas.
 
-1. Markera det fält som du vill stoppa spårningen för och klicka sedan på **[!UICONTROL Remove]**.
+1. Markera fältet som du vill stoppa spårningen för och klicka sedan på **[!UICONTROL Remove]**.
+
+
+<!--replace above at Preview release with this:
+
+1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
+
+1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
+
+-->
 
 1. Bekräfta genom att klicka på **[!UICONTROL Yes, Remove It]** i rutan **[!UICONTROL Remove Field]** som visas.
 
-Uppdateringar om tidigare spårade fält bevaras i området [!UICONTROL Updates] där de spelades in.
+   Uppdateringar om tidigare spårade fält bevaras i området [!UICONTROL Updates] där de spelades in.
 
 ## Bestäm vilka åtgärder [!DNL Workfront] spårar för en objekttyp
 
-Du kan låta [!DNL Workfront] spåra följande åtgärder som användare kan utföra på objekt i gränssnittet för [!DNL Workfront].
+Du kan ha [!DNL Workfront] för att spåra åtgärder som användare utför på objekt i gränssnittet [!DNL Workfront].
 
-Du kan till exempel låta [!DNL Workfront] spela in en uppdatering varje gång en användare ändrar en tilldelning till en aktivitet eller ett problem. Ändringen visas sedan som en systemuppdatering i området [!UICONTROL Updates] för uppgiften eller problemet.
+Du kan till exempel låta [!DNL Workfront] spela in en uppdatering varje gång en användare ändrar en tilldelning till en aktivitet eller ett problem.
+
+Ändringen visas sedan som en systemuppdatering i området [!UICONTROL Updates] för uppgiften eller problemet.
+
+I följande tabell beskrivs de åtgärder som du kan spåra på objekt i [!DNL Workfront]:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -203,4 +272,4 @@ Så här konfigurerar du vilka åtgärder du vill att [!DNL Workfront] ska spår
 1. Markera kryssrutan för en åtgärd om du vill aktivera den, eller avmarkera den om du vill inaktivera den.
 1. Klicka på **[!UICONTROL Save]**.
 
-När du inaktiverar en åtgärd behålls alla tidigare inspelade uppdateringar om den åtgärden i området [!UICONTROL Updates] där den spelades in.
+   När du inaktiverar en åtgärd behålls alla tidigare inspelade uppdateringar om den åtgärden i området [!UICONTROL Updates] där den spelades in. [!DNL Workfront] stoppar inspelningen av nya uppdateringar för den inaktiverade åtgärden.

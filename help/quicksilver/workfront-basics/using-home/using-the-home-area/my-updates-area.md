@@ -6,9 +6,9 @@ description: Du kan använda området [!UICONTROL My Updates] för att snabbt gr
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,13 @@ Du måste ha följande innan du börjar:
 
 ## Åtkomst till området [!UICONTROL My Updates]
 
-1. Klicka på **[!UICONTROL My Updates]** i **[!UICONTROL Main Menu]**.
+{{step1-to-my-updates}}
 
-   ![Mina uppdateringar på huvudmenyn](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+Området [!UICONTROL My Updates] öppnas.
 
-   Området [!UICONTROL My Updates] öppnas.
+Godkännanden och åtkomstbegäranden som tilldelats dig visas på den första halvan av sidan under **Mina uppdateringar**.
 
-   Godkännanden och åtkomstbegäranden som tilldelats dig visas på den första halvan av sidan under **Mina uppdateringar**.
-
-   ![Mina uppdateringar omnämns för granskare](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![Mina uppdateringar omnämns för granskare](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Valfritt) Bläddra längst ned i området [!UICONTROL **Mina uppdateringar**] och klicka på högerpilen för att visa fler godkännanden som visas på ytterligare sidor.
 
