@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 19 december 2024; Produktionsrelease för alla kunder: Ska tillkännages
+>Förhandsversion: 19 december 2024; Produktionsrelease för alla hemanvändare: Ska tillkännages; Produktionsrelease för alla kunder för Mina uppdateringar: 19 juni 2025
 
 Vi uppdaterar kommentarsfunktionerna i widgeten Meningar i Hem och i avsnittet Meningar i området Mina uppdateringar. Nu finns samma upplevelse i uppdateringsområdet för de flesta Workfront-objekt även i widgeten Mentions och i avsnittet Mentions i Mina uppdateringar.
 
