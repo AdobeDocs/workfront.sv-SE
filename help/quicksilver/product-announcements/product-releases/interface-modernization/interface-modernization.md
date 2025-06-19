@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
+source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
 workflow-type: tm+mt
-source-wordcount: '4583'
+source-wordcount: '4622'
 ht-degree: 0%
 
 ---
@@ -248,15 +248,13 @@ Mer information finns i följande artiklar:
 
 ## Rapporter och kontrollpaneler
 
-<!--
-### Interface updates for the Expense report
+### Gränssnittsuppdateringar för utgiftsrapporten
 
-Preview release: June 19, 2025; Production release: June 26, 2025
+Förhandsversion: 19 juni 2025; Produktionsrelease: 26 juni 2025
 
-We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+Vi har uppdaterat utseendet och känslan i utgiftsrapporten så att den matchar designen i andra delar av Workfront.
 
-For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
--->
+Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Uppdaterade rapporter med ny formatering
 
