@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: business-case-and-scorecards
-title: Exportera affärsfallet för ett projekt
+title: Exportera affärsärendet för ett projekt
 description: Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den eller bifoga den till ett e-postmeddelande i ett mer komprimerat format.
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # Exportera affärsfallet för ett projekt
 
-Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den eller bifoga den till ett e-postmeddelande i ett mer komprimerat format. 
+Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den eller bifoga den till ett e-postmeddelande i ett mer komprimerat format.
 
 ## Åtkomstkrav
 
@@ -26,27 +26,27 @@ Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den el
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> <p>Aktuell: Prime eller senare </p> <p>Äldre: Pro eller senare </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td> 
    <p>Aktuell: Ljus eller högre</p>
    <p>Äldre: Granska eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt, finansiella data och resurshantering</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst till projekt, finansiella data och resurshantering</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter i projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter i projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,11 +54,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Gå till projektet som du vill exportera affärsärendet från.
 1. Klicka på **Affärsfall** i den vänstra panelen.
-1. Klicka på **Exportera** i det övre högra området **Affärsärendesammanfattning**.
+1. Klicka på **Exportera** i det övre högra området **Sammanfattning av affärsärenden**.
 
    ![Sammanfattning av affärsärenden](assets/bc-summary--350x587.png)\
-   En PDF  filen hämtas till datorn. Filen innehåller alla delar av affärsärendet i ett lättläst format.
+   En PDF   filen hämtas till datorn. Filen innehåller alla delar av affärsärendet i ett lättläst format.
 
    ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
 
-1. (Valfritt) Du kan bifoga PDF-filen i ett e-postmeddelande eller skriva ut den och dela den med andra. 
+1. (Valfritt) Bifoga PDF-filen i ett e-postmeddelande eller skriv ut den för att dela den med andra.

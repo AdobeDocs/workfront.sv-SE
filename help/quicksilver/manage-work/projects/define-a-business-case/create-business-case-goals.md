@@ -5,16 +5,16 @@ description: Som en del av att skapa ett affärsärende kan du skapa en uppsätt
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Skapa mål för affärsärenden
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 6/2025 -->
 
 Som en del av att skapa ett affärsärende kan du skapa en uppsättning mål för att definiera målen för ett projekt. Dessa mål används för att förmedla syftet med att slutföra ett projekt till Portfolio Manager eller projektsponsorn.
 
@@ -50,12 +50,12 @@ Tänk på följande när du skapar affärsmål för dina projekt:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> <p>Aktuell: Prime eller senare</p>
    <p>Äldre: Pro eller senare</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td> 
    <p>Aktuell: Standard</p> 
    <p>Äldre: Planera </p> 
@@ -63,16 +63,16 @@ Tänk på följande när du skapar affärsmål för dina projekt:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till projekt</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter eller högre till projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td> <p>Hantera behörigheter eller högre till projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

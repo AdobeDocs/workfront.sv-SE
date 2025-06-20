@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -118,16 +118,15 @@ Så här hanterar du en kalendervy:
 
    ![Exempel på kalendervy](assets/calendar-view-example.png)
 
-   Posterna som är associerade med den posttyp som du har valt visas som staplar i en kalender. Färgen på staplarna matchar färgen på postikonen.
+   Posterna som är associerade med den posttyp som du har valt visas som staplar i en kalender. Färgen på staplarna matchar färgen på postikonen som standard.
 
 1. Navigera i kalendern genom att göra något av följande:
 
-   * Klicka på vänster- och högerikonerna eller använd den vågräta rullningen för att flytta bakåt och framåt i kalendern.
-   * Klicka på **Idag** om du vill centrera kalendern till dagens datum.
+   * Klicka på ikonerna till vänster och höger i kalenderns övre vänstra hörn eller använd den vågräta rullningen för att flytta bakåt och framåt i kalendern.
+   * Klicka på **Idag** i det övre högra hörnet om du vill centrera kalendern till dagens datum.
    * Välj något av följande alternativ på den nedrullningsbara menyn för tidsram för att uppdatera tidsstegen:
 
       * **Månad**: Posterna visas i en månadskalender.
-
 
       * **Vecka**: Posterna visas i följande områden:
 
@@ -159,16 +158,168 @@ Tänk på följande när du arbetar med filter i kalendervyn:
 
 * När du tar bort filter tas de bort från alla som använder samma posttyp som du och som visar samma vy som du.
 
-* Att lägga till filter i kalendervyn är detsamma som att lägga till filter i tabellvyn.
-
-  Mer information finns i avsnittet&quot;Lägg till filter&quot; i artikeln [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * Du kan filtrera efter anslutna postfält eller uppslagsfält.
 
 * Du kan filtrera efter uppslagsfält som visar flera värden.
 
+Så här lägger du till ett filter i en kalendervy:
+
+1. Skapa en kalendervy för en posttypsida, enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. Markera en kalendervy och klicka sedan på **Filter** i tabellens övre högra hörn.
+1. Klicka på **Lägg till villkor** och lägg till följande information:
+
+   * **Markera ett fält** som du vill filtrera efter <!-- the tip below might change-->
+
+   * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla
+
+     Tabellen nedan visar tillgängliga modifierare för varje typ av fält.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Fälttyp</b></th>
+            <th><b>Modifierare</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Enkelrad, Stycke, Formel </td>
+            <td><p>Innehåller</p>
+            <p>Innehåller inte</p>
+            <p>Är</p>
+            <p>Är inte</p>
+            <p>Är tom</p>
+            <p>Är inte tom</p></td>
+        </tr>
+        <tr><td>Enkelval</td>
+            <td><p>Är</p>
+            <p>Är inte</p>
+            <p>Är något av</p>
+            <p>Är inget av</p>
+            <p>Är tom</p>
+            <p>Är inte tom</p></td>
+        </tr>
+        <tr>
+            <td>Flera val, personer</td>
+            <td><p>Har någon av</p>
+            <p>Har alla</p>
+            <p>Är exakt</p>
+            <p>Har ingen av</p>
+            <p>Är tom</p>
+            <p>Är inte tom</p></td>
+        </tr>
+        <tr>
+            <td>Antal, Procentandel, Valuta</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Är tom</p>
+            <p>Är inte tom</p></td>
+        </tr>
+        <tr>
+            <td>Datum</td>
+            <td><p>Är</p>
+            <p>Är inte</p>
+            <p>Är efter</p>
+            <p>Är före</p>
+            <p>Är mellan</p><p>Är inte mellan</p>
+            <p>Är tom</p><p>Är inte tom</p></td>
+        </tr>
+
+     <tr>
+            <td>Kryssruta</td>
+            <td><p>Är</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Välj ett värde för det markerade fältet.
+
+   ![Filtrera gränssnittstabellvy](assets/filter-ui-table-view.png)
+
+   Det finns ingen gräns för hur många filtreringsvillkor du kan lägga till.
+
+1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett filtreringsalternativ och upprepa stegen ovan. Antalet filter som används visas till vänster om filterikonen.
+1. Klicka på följande operatorer för att ange hur filtervillkoren ska kopplas och användas:
+
+   * **AND**: Alla angivna villkor måste uppfyllas.
+   * **OR**: Alla angivna villkor måste vara uppfyllda. Det här är standardalternativet.
+
+   1. (Valfritt) Lägg till ytterligare **AND**- eller **OR**-operatorer mellan flera villkorsgrupperingar.
+
+      ![Filter med flera nivåer i vyer](assets/multi-tiered-filters-in-views.png)
+
+   Postlistan filtreras automatiskt.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Valfritt) Klicka på ikonen **x** för att ta bort ett filtervillkor.
+1. (Valfritt) Klicka på **Filter** för att stänga filterrutan. <!--right now you cannot "clear all" for filters, but this might come later-->
+
 ### Redigera inställningar för kalendervyn
 
-Att redigera kalendervyinställningarna liknar att redigera inställningarna för en tidslinjevy.
+Uppdatera inställningarna för kalendervyn för att ange vad och hur information visas i vyn.
 
-Mer information finns i avsnittet Redigera tidslinjevisningsinställningar i artikeln [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+1. Skapa en kalendervy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klicka på **Inställningar**.
+1. Klicka på **Datum och tid** i den vänstra panelen och välj sedan ett **Startdatum** och ett **slutdatum** som ska visas i kalendern. Du kan välja standarddatum för start och slut eller välja ett tillgängligt datumfält.
+
+   De staplar som representerar posterna börjar på det datum som du anger som startdatum och slutar på det datum som motsvarar slutdatumet.
+
+   >[!NOTE]
+   >
+   >* Poster som inte har några värden för start- eller slutdatum eller som har ett startdatum efter slutdatumet visas inte i kalendervyn.
+   >
+   >* Om du visar ytterligare poster med alternativet Uppdelning är start- och slutdatumen huvudpostens. Du kan inte välja start- och slutdatum för de anslutna posterna i det här området.
+
+1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilken information du vill visa i postfälten.
+
+   Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard.
+   <!--adjust this when the primary field is released??-->
+
+1. (Valfritt och villkorligt) Om du har lagt till miniatyrbilder till poster markerar du alternativet **Miniatyrbild** för att visa den bild som är associerad med posterna i deras postfält.
+
+   >[!NOTE]
+   >
+   >    Du måste lägga till miniatyrbilder i tabellvyn innan du kan visa dem i kalendervyn. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+1. Klicka på **Lägg till fält**, klicka i rutan **Sök fält** och klicka på det fält som du vill lägga till.
+
+   >[!TIP]
+   >
+   >   * Du måste skapa fälten innan du kan lägga till dem i postfälten.
+   > 
+   >   * Du måste ha minst ett fält markerat. **Namn** är markerat som standard.
+   >
+   >   * Du kan lägga till upp till fem fält.
+
+   En förhandsvisning av hur fälten kommer att se ut i kalendern visas till höger.
+
+   ![Stolpstilsavsnittet i inställningarna för kalendervyn](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+
+1. Klicka på **Färg** i den vänstra panelen om du vill anpassa färgerna för posterna i kalendern.
+
+   ![Färgpanelen i inställningarna för kalendervyn](assets/color-panel-on-calendar-view-settings.png)
+
+1. I avsnittet **Ange postfärg till** väljer du bland följande alternativ för att ange en färg för posterna:
+
+   * **Posttyp**: Färgen på postfälten i kalendern matchar färgen på den posttyp du valde. Det här är standardalternativet.
+   * **Fältvärden**: Färgen på posterna matchar färgen i ett fält som du anger.
+   * **Ingen**: Posterna visas i ett vitt fält.
+
+1. (Villkorligt) Om du valde **Fältvärden** för postfärgerna väljer du ett fält i listrutan **Matcha postfärgen till**.
+
+   ![Listrutan Fältväljare för kalendervyn](assets/field-selector-drop-down-menu-calendar-view.png)
+
+   Endast fält med färgkodade alternativ visas i listrutan.
+
+   Flervalsfält eller envalsfält kan t.ex. ha färgkodade alternativ.
+
+   Om du inte har något fält med färgkodade alternativ för den valda posttypen är det här alternativet nedtonat.
+
+
+1. Klicka på **Spara**.
+
+   Posterna visas i kalendervyn med de specifikationer som du har valt.

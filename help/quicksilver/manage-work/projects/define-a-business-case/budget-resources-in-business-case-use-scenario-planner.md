@@ -5,14 +5,16 @@ description: Som en del av resursplaneringen kan du använda Adobe Workfront Sce
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # Budgetresurser i affärsärendet med scenarioplaneraren
+
+<!--Audited: 06/2025-->
 
 Som en del av resursplaneringen kan du använda Adobe Workfront Scenario Planner för att budgetera de jobbroller som krävs för att slutföra arbetet i ett projekt när du bygger affärsplanen.
 
@@ -33,7 +35,7 @@ Du kan också budgetera resurser i ett affärsärende med hjälp av Resursplaner
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,19 +44,22 @@ Du måste ha följande:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Företag eller högre</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td><p>Aktuell: Ultimate</p> 
+   <p>Äldre: Business eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td><p>Aktuell: Ljus eller högre 
+   <p>Äldre: Granska eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Du måste köpa ytterligare en licens för Adobe Workfront Scenario Planner för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar Workfront Scenarioplan finns i <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda scenarioplanen</a>. </p> </td> 
+   <td role="rowheader"><p>Produkt</p></td> 
+   <td><p>Scenarioplanen ingår i den aktuella Ultimate Workfront-planen.</p> 
+   <p>För äldre Workfront-planer måste du köpa en licens för Adobe Workfront Scenario Planner, förutom Workfront-licensen, för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar Workfront Scenarioplan finns i <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda scenarioplanen</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
    <td> <p>Redigera åtkomst till följande: </p> 
     <ul> 
      <li> <p>Projekt</p> </li> 
@@ -63,13 +68,15 @@ Du måste ha följande:
     </ul> <p>Mer information om den åtkomst som krävs för att budgetera resurser finns också i <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Åtkomst krävs för att budgetera resurser i Adobe Workfront</a>.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Adobe Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td> <p>Hantera behörigheter i projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

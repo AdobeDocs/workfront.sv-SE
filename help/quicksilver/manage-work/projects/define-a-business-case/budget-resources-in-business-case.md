@@ -5,7 +5,7 @@ description: Som en del av resursplaneringen kan du budgetera de jobbroller som 
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Du måste associera jobbroller med projektet innan du kan budgetera resurserna f
 
   Mer information finns i [Budgetresurser i affärsärendet med hjälp av resursplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Använd scenarioplanen för att skapa initiativ med obligatoriska jobbroller och länka dem till projektet. Mer information finns i [Budgetresurser i affärsärendet med scenarioplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Använd scenarioplanen för att skapa initiativ med obligatoriska jobbroller och länka dem till projektet. Mer information finns i [Budgetresurser i affärsärendet med scenarioplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
   >[!NOTE]
   >

@@ -6,16 +6,16 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera risker i projekt
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td> 
-   <p>Alla</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td> <p>Aktuella planer:</p>
+   <ul><li>Alla planer, för att lägga till risker i projektets riskområde</p></li>
+   <li><p>Prime eller senare, för att lägga till risker i projektets affärsärende</p></li></ul>
+   <p>Äldre planer: Alla planer</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard </p>
-   <p>Aktuell: Planera </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td> <p>Aktuell: Standard </p>
+   <p>Äldre: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
    <td> <p>Redigera åtkomst till projekt och finansiella data</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td> <p> Hantera behörigheter som innehåller Hantera finansiering för det projekt som du vill skapa eller redigera risker för </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

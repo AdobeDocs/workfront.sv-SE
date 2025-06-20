@@ -5,9 +5,9 @@ description: Anpassade Forms används för att samla in information som inte vis
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Mer information om hur du skapar anpassade Forms finns i artikeln [Skapa ett anp
 
 ## Åtkomstkrav
 
+<!--Audit: 06/2025-->
+
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
@@ -27,28 +29,28 @@ Mer information om hur du skapar anpassade Forms finns i artikeln [Skapa ett anp
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> <p>Aktuell: Prime eller senare</p>
    <p>Äldre: Pro eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td> 
    <p>Aktuell: Standard </p> 
    <p>Äldre: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter eller högre till projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td> <p>Hantera behörigheter eller högre till projektet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

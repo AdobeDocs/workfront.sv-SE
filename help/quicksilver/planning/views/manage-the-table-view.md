@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3633'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,6 @@ I den här artikeln beskrivs följande information:
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -260,8 +258,6 @@ Tänk på följande när du arbetar med filter i tabellvyn:
 
 * När du tar bort filter tas de bort från alla som använder samma posttyp som du och använder samma vy som du använder.
 
-* Att lägga till filter i tabellvyn är detsamma som att lägga till filter i tidslinjevyn.
-
 * Du kan filtrera efter anslutna postfält eller uppslagsfält.
 
 * Du kan filtrera efter uppslagsfält som visar flera värden.
@@ -432,8 +428,6 @@ Så här sorterar du <!--ungrouped (add this when sorting for groupings will be 
 
 Du kan gruppera poster efter liknande information när du tillämpar en gruppering på en vy.
 
-Att lägga till grupperingar i tabellvyn påminner om att lägga till grupperingar i tidslinjevyn.
-
 Tänk på följande:
 
 * Du kan använda grupperingar både i tabell- och tidslinjevyerna. Grupperingarna i tabellvyn är oberoende av grupperingarna i tidslinjevyn av samma posttyp.
@@ -464,6 +458,8 @@ Så här lägger du till en gruppering:
 
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
+   <!--replace screen shot for Expand all-->
+
    ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
 
 1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
@@ -475,6 +471,26 @@ Så här lägger du till en gruppering:
 1. Klicka utanför rutan **Gruppera poster efter** för att stänga den.
 1. (Valfritt) Klicka på **+ Ny post** i slutet av en gruppering för att lägga till nya poster. Uppdatera sedan sidan för att lägga till den nya posten i lämplig gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
+<!--
+
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+-->
 
 <!-- this is not available yet: 
 

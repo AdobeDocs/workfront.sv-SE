@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ Du kan skapa ett styrkort på följande sätt:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nytt: [!UICONTROL Prime] eller senare</p>
+   <td> <p>Nytt: Ultimate</p>
    <p>Aktuell: [!UICONTROL Business] eller högre</p> 
    </td> 
   </tr> 
@@ -60,10 +58,15 @@ Du måste ha följande åtkomst:
    <p>Aktuell: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Åtkomstnivå</p></td> 
+   <td><p>Systemadministratör</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

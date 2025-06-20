@@ -5,14 +5,16 @@ description: När du har slutfört och skickat in affärsärendet för en projek
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
 
 # Godkänn ett affärsärende
+
+<!--Audit: 6/2025-->
 
 När du har slutfört och skickat in affärsärendet för en projektförfrågan måste affärsärendet godkännas. Detta beror på arbetsflödet i organisationen. Ett projekt kan börja utan att Business Case behöver godkännas, men Adobe Workfront-administratören och projektägarna tycker kanske inte att det är idealiskt.
 
@@ -27,30 +29,31 @@ Mer information om hur du fyller i och skickar ett affärsärende finns i artike
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> 
-   <p>Aktuell: Prime eller senare</p> 
-   <p>Äldre: Pro eller senare</p> 
+   <p>Aktuell: Prime eller senare</p>
+   <p>eller</p>
+   <p>Äldre: Business eller högre</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> 
    <p>Aktuell: Standard </p> 
    <p>Äldre: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för ett projekt</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td> <p>Hantera behörigheter för ett projekt</p> <p>Visa eller högre behörigheter för en portfölj</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

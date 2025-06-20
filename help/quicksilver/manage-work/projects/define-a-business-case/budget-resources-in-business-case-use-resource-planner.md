@@ -5,7 +5,7 @@ description: Som en del av resursplaneringen kan du använda resursplaneraren p�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Budgetresurser i affärsärendet med resursplaneraren
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 Som en del av resursplaneringen kan du använda resursplaneraren på projektnivå för att budgetera de jobbroller som krävs för att slutföra arbetet i ett projekt när du skapar affärsplanen.
 
@@ -35,23 +35,23 @@ Du kan också budgetera resurser i ett affärsfall med hjälp av Adobe Workfront
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> <p>Aktuell: Prime eller senare</p>
    <p>Äldre: Pro eller senare</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td> <p>Aktuell: Ljus eller högre</p>
    <p>Äldre: Granska eller senare</p>
 
 <p><b>VIKTIGT!</b></p> 
-   <p>Nytt: Du måste ha en standardlicens för att kunna ändra resursbudgeteringsinformationen. </p> 
-   <p>Aktuell: Du måste ha en planlicens för att kunna ändra resursbudgeteringsinformationen. </p>
+   <p>Aktuell: Du måste ha en standardlicens för att kunna ändra resursbudgeteringsinformationen. </p> 
+   <p>Äldre: Du måste ha en planlicens för att kunna ändra resursbudgeteringsinformationen. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
    <td> <p>Redigera åtkomst till följande: </p> 
     <ul> 
      <li> <p>Projekt</p> </li> 
@@ -60,13 +60,13 @@ Du kan också budgetera resurser i ett affärsfall med hjälp av Adobe Workfront
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektbehörigheter</td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td> <p>Hantera behörigheter i projektet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

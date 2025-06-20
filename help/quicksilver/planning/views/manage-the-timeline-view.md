@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Mer information om postvyer finns i [Hantera postvyer](/help/quicksilver/plannin
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ Så här hanterar du en tidslinjevy:
 
    ![Ursprungligt meddelande för anpassade kvartal saknas i tidslinjevyn](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   Dessa varningsmeddelanden visas en gång per användare.
+   Varningsmeddelandena om anpassade kvartal visas en gång per användare.
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ Så här hanterar du en tidslinjevy:
    >
    ><span class="preview">Knappen Gå till konfiguration visas bara för Workfront-administratören.</span>
 
-1. (Valfritt och villkorligt) När postnamnet trunkeras håller du pekaren över ett postfält för att visa postens fullständiga namn och ytterligare information.
+1. (Valfritt och villkorligt) När postnamnet trunkeras håller du pekaren över ett postfält för att visa postens fullständiga namn och ytterligare information. Mer information om hur du ställer in postfältets trunkering på tidslinjen finns i avsnittet [Redigera inställningarna för tidslinjevyn](#edit-the-timeline-view-settings) i den här artikeln.
 
 1. Navigera genom tidslinjen på något av följande sätt:
 
-   * Klicka på vänster- och högerikonerna eller använd den vågräta rullningen för att flytta bakåt och framåt i tidslinjen. När du uppdaterar sidan bevaras den markerade tidsramen.
-   * Klicka på **Idag** för att centrera tidslinjen till dagens datum.
+   * Klicka på ikonerna till vänster och höger i det övre vänstra hörnet eller använd den vågräta rullningen för att flytta bakåt och framåt i tidslinjen. När du uppdaterar sidan bevaras den markerade tidsramen.
+   * Klicka på **Idag** i det övre högra hörnet för att centrera tidslinjen till dagens datum.
    * Välj något av följande alternativ i listrutan för tidsbildrutor för att uppdatera tidsstegen och uppdatera vyn:
 
       * **År**: Visar kvartal och månader med årsangivelse.
@@ -218,12 +216,105 @@ Tänk på följande när du arbetar med filter i tidslinjevyn:
 
 * När du tar bort filter tas de bort från alla som använder samma posttyp som du och som visar samma vy som du.
 
-* Att lägga till filter i tidslinjevyn är detsamma som att lägga till filter i tabellvyn.
-
-  Mer information finns i avsnittet&quot;Lägg till filter&quot; i artikeln [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * Du kan filtrera efter anslutna postfält eller uppslagsfält.
 * Du kan filtrera efter uppslagsfält som visar flera värden.
+
+Så här lägger du till ett filter i en tidslinjevy:
+
+1. Skapa en tidslinjevy för en posttypsida, enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. Markera en tidslinjevy och klicka sedan på **Filter** i tabellens övre högra hörn.
+1. Klicka på **Lägg till villkor** och lägg till följande information:
+
+   * **Markera ett fält** som du vill filtrera efter <!-- the tip below might change-->
+
+   * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla
+
+     Tabellen nedan visar tillgängliga modifierare för varje typ av fält.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Fälttyp</b></th>
+            <th><b>Modifierare</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Enkelrad, Stycke, Formel </td>
+            <td><p>Innehåller</p>
+            <p>Innehåller inte</p>
+            <p>Är</p>
+            <p>Är inte</p>
+            <p>Är tom</p>
+            <p>Är inte tom</p></td>
+        </tr>
+        <tr><td>Enkelval</td>
+            <td><p>Är</p>
+            <p>Är inte</p>
+            <p>Är något av</p>
+            <p>Är inget av</p>
+            <p>Är tom</p>
+            <p>Är inte tom</p></td>
+        </tr>
+        <tr>
+            <td>Flera val, personer</td>
+            <td><p>Har någon av</p>
+            <p>Har alla</p>
+            <p>Är exakt</p>
+            <p>Har ingen av</p>
+            <p>Är tom</p>
+            <p>Är inte tom</p></td>
+        </tr>
+        <tr>
+            <td>Antal, Procentandel, Valuta</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Är tom</p>
+            <p>Är inte tom</p></td>
+        </tr>
+        <tr>
+            <td>Datum</td>
+            <td><p>Är</p>
+            <p>Är inte</p>
+            <p>Är efter</p>
+            <p>Är före</p>
+            <p>Är mellan</p><p>Är inte mellan</p>
+            <p>Är tom</p><p>Är inte tom</p></td>
+        </tr>
+
+     <tr>
+            <td>Kryssruta</td>
+            <td><p>Är</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Välj ett värde för det markerade fältet.
+
+   ![Filtrera gränssnittstabellvy](assets/filter-ui-table-view.png)
+
+   Det finns ingen gräns för hur många filtreringsvillkor du kan lägga till.
+
+1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett filtreringsalternativ och upprepa stegen ovan. Antalet filter som används visas till vänster om ikonen **Filter** .
+1. Klicka på följande operatorer till vänster för att ange hur filtervillkoren ska kopplas ihop och tillämpas:
+
+   * **AND**: Alla angivna villkor måste uppfyllas.
+   * **OR**: Alla angivna villkor måste vara uppfyllda.
+Det här är standardalternativet.
+
+   1. (Valfritt) Lägg till ytterligare filtergrupperingar och förena dem med operatorerna **AND** eller **OR** .
+
+      ![Filter med flera nivåer i vyer](assets/multi-tiered-filters-in-views.png)
+
+   Postlistan filtreras automatiskt baserat på filtervillkoren.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Valfritt) Klicka på ikonen **x** för att ta bort ett filtervillkor.
+1. (Valfritt) Klicka på **Filter** eller någon annanstans på sidan för att stänga filterrutan. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### Lägg till gruppering
@@ -231,8 +322,6 @@ Tänk på följande när du arbetar med filter i tidslinjevyn:
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Du kan gruppera poster efter liknande information när du tillämpar en gruppering på en vy.
-
-Att lägga till grupperingar i tidslinjevyn påminner om att lägga till grupperingar i tabellvyn.
 
 Tänk på följande när du arbetar med grupperingar i tidslinjevyn:
 
@@ -320,7 +409,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
    Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard.
    <!--adjust this when the primary field is released??-->
 
-1. (Valfritt och villkorligt) Om du har lagt till miniatyrbilder i poster, markerar du alternativet Miniatyrbild för att visa den bild som är associerad med posterna i deras postfält.
+1. (Valfritt och villkorligt) Om du har lagt till miniatyrbilder till poster markerar du alternativet **Miniatyrbild** för att visa den bild som är associerad med posterna i deras postfält.
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    ![Spela in tidslinjeinställningar för informationspanelen med förhandsgranskning](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> (Valfritt och villkorligt) Om du visar tidslinjen i standardläge aktiverar du inställningen **Trunkera fältinformation** . När det här alternativet är aktiverat trunkeras informationen på postfälten och visas bara helt när du håller muspekaren över fälten. Den här inställningen är inaktiverad som standard och informationen visas helt i fälten. </span>
+1. <span class="preview"> (Valfritt och villkorligt) Om du visar tidslinjen i standardläge väljer du inställningen **Trunkera fältinformation** . När det här alternativet är markerat trunkeras informationen på postfälten och visas bara helt när du håller pekaren över fälten. Den här inställningen är som standard avmarkerad och postinformationen visas helt i fälten. </span>
 
    ![Trunkera inställning aktiverad i rutan för tidslinjeinställningar markerad](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">Inställningen för detaljer i fältet för trunkering är inte tillgänglig när vyn Tidslinje visas i läget Kompakt och är inte tillgänglig i kalendervyn.</span>
+   ><span class="preview">Inställningen för detaljer i fältet för trunkering är inte tillgänglig när vyn Tidslinje visas i läget Kompakt.</span>
    >
 
 1. Klicka på **Färg** i den vänstra panelen om du vill anpassa färgerna för posterna och grupperingarna i tidslinjen.
@@ -392,13 +481,11 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    Om du inte har något fält med färgkodade alternativ för den valda posttypen är det här alternativet nedtonat.
 
-1. <span class="preview">(Valfritt) Om du använder alternativet Uppdelning upprepar du stegen som börjar med steg 4 för varje ansluten post som visas på tidslinjen. </span>
+1. <span class="preview">(Valfritt) Om du använder alternativet **Brytning** upprepar du stegen som börjar med steg 4 för varje ansluten post som visas på tidslinjen. </span>
 
 1. Klicka på **Spara**.
 
    Posterna visas i tidslinjevyn med de specifikationer som du har valt.
-
-
 
 ### Dela upp kopplade poster i tidslinjevyn
 

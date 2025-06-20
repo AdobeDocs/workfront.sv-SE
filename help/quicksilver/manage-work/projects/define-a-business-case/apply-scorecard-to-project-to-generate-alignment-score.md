@@ -5,16 +5,16 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Tillämpa ett styrkort på ett projekt och generera ett justeringsresultat
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 Du kan använda ett styrkort för att mäta hur väl ett projekt anpassar sig till de villkor som tidigare fastställts för en portfölj. Ett styrkort avspeglar ofta en organisations uppdrag, värderingar och strategiska mål.
 
@@ -29,14 +29,14 @@ Mer information om styrkort och hur du kan skapa ett finns i [Skapa ett styrkort
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
    <td>
    <p>Aktuell: Prime eller senare</p>
    <p>eller</p>
    <p>Äldre: Business eller högre</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td>
    <p>Aktuell: Standard</p>
    <p>eller</p>
@@ -53,7 +53,7 @@ Mer information om styrkort och hur du kan skapa ett finns i [Skapa ett styrkort
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
