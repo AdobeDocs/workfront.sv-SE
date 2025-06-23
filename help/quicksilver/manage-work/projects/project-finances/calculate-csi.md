@@ -7,14 +7,16 @@ description: CSI (Cost Schedule Performance Index) är en automatisk beräkning 
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Beräkna prestanda för kostnadsschema (CSI)
+
+<!-- Audited: 6/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
@@ -22,19 +24,16 @@ ht-degree: 0%
 
 ## Översikt över CSI (Cost Schedule Performance Index)
 
-CSI (Cost Schedule Performance Index) är en automatisk beräkning som kombinerar kostnadsprestandaindexet (CPI) och SPI (Schedule Performance Index) till ett allmänt mått som balanserar kostnad och schema. Genom att multiplicera dessa värden tillsammans kan ett enda mätvärde ta hänsyn till ett långsamt schema till en lägre budget eller vice versa. Projektledare kan använda detta för att avgöra om allmänna projekt- eller uppgiftshälsoförhållanden förloras för att driva tidsplanen från mitten av projektet.
+CSI (Cost Schedule Performance Index) är en automatisk beräkning som kombinerar kostnadsprestandaindexet (CPI) och SPI (Schedule Performance Index) till ett allmänt mått som balanserar kostnad och schema. Genom att multiplicera dessa värden tillsammans kan ett enda mätvärde ta hänsyn till ett långsamt schema till en lägre budget eller vice versa. Projektledare kan använda detta för att fastställa den allmänna statusen för projekt eller uppgifter när kostnaden har offrats för att driva schemat efter projektet.
 
 >[!TIP]
 >
->Adobe Workfront beräknar CSI för både uppgifter och projekt. Workfront beräknar inte något CSI-värde för utgåvor.
+>Adobe Workfront beräknar CSI för både uppgifter och projekt, men inte för problem.
 
-Du kan bara få tillgång till informationen i det här måttet om följande finns i din organisation:
+Du kan bara dra nytta av informationen i det här måttet om följande scenarier finns i din organisation:
 
-* Dina användare loggar in på det arbete de utför.\
-  Detta beräknar CSI baserat på timmar.
-* Dina användare eller jobbroller har associerade kostnader per timme. 
-
-  Detta beräknar CSI baserat på kostnader.
+* Dina användare loggar in på det arbete de utför. Detta beräknar CSI baserat på timmar.
+* Dina användare eller jobbroller har associerade kostnader per timme. Detta beräknar CSI baserat på kostnader.
 
 ## Hur Workfront beräknar prestandaindex för kostnadsschema (CSI)
 
@@ -58,11 +57,11 @@ CSI har följande tre möjliga värden:
 
 >[!CAUTION]
 >
->Du måste ha tillgång till Visa ekonomiska data på din åtkomstnivå och behörigheter för att kunna visa projektet eller uppgiften för att kunna se CSI-värdet för ett projekt eller en uppgift.
+>Du måste ha tillgång till Visa ekonomiska data på din åtkomstnivå och behörigheter för att visa projektet eller uppgiften för att kunna se CSI-värdet för ett projekt eller en uppgift.
 
 Du hittar CSI i följande områden i Workfront:
 
 * Finansieringsområdet i avsnittet Projektinformation.
 * Ekonomi i avsnittet Uppgiftsinformation.
-* Ett projekt eller en uppgiftsvy
-* Ett projekt eller en uppgiftsrapport
+* Ett projekt eller en uppgiftsvy.
+* Ett projekt eller en uppgiftsrapport.

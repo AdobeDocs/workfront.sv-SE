@@ -6,24 +6,22 @@ description: Du kan ordna den typ av problem eller förfrågningar som är logga
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # Definiera frågetyper för ett projekt
 
-Du kan ordna den typ av problem eller förfrågningar som är loggade i Adobe Workfront med hjälp av frågetyper.
+<!-- Audited: 6/2025 -->
 
-Den här organisationen är användbar för att rapportera orsaker och för att hjälpa användare förstå vilken typ av oväntat arbete som kan inträffa under ett projekts livstid.
+Du kan ordna den typ av problem eller förfrågningar som är loggade i Adobe Workfront med hjälp av frågetyper. Detta är användbart för att rapportera orsaker och hjälpa användarna att förstå vilken typ av oväntat arbete som kan inträffa under ett projekts livstid.
 
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +35,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
     <p>Nytt: Standard</p>
-    <p>eller</p>
     <p>Aktuell: Planera</p></td>  
   </tr> 
   <tr> 
@@ -59,13 +56,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Innan du börjar måste du göra följande:
 
-* Ha eller skapa ett projekt
+* Ha eller skapa ett projekt.
 
   Mer information om hur du skapar projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Överväganden om frågetyper
 
-* Du kan ange vilken typ av ärenden eller förfrågningar som kan loggas i ett projekt när du konfigurerar området **Köinformation** för projektet.
+* Du kan ange vilken typ av ärenden eller förfrågningar som kan loggas i ett projekt när du konfigurerar området Köinformation för projektet.
 * Du behöver inte aktivera projektet som en frågekö för att kunna definiera frågetyper för ett projekt. Alla problem som loggas för ett projekt kan märkas med en annan frågetyp.
 * Om du lägger till köämnen i ditt projekt måste du definiera frågetyper för varje köämne för att kunna visa dem när du lägger till ett nytt problem eller en ny begäran. Mer information finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -73,25 +70,17 @@ Innan du börjar måste du göra följande:
 
 {{step1-to-projects}}
 
-1. Klicka på namnet på projektet för att öppna det.
+1. Välj ett projekt på sidan **Projekt**.
 1. Klicka på **Köinformation** i den vänstra panelen.
-1. I avsnittet **Köegenskaper** väljer du de **typer av begäranden** som du vill använda för projektet.
-
-   >[!NOTE]
-   >
-   >Du måste välja minst en begärandetyp. Du kan välja flera typer av förfrågningar.
-
-   Välj bland följande typer:
-
+1. I avsnittet **Köegenskaper** väljer du de **typer av begäranden** som du vill använda för projektet:
    * Felrapport
    * Ändra ordning
    * Problem
    * Begäran
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Din Workfront-administratör kan ha bytt namn på några av dessa alternativ. Mer information finns i [Konfigurera typer av förfrågningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >* Du måste välja minst en begärandetyp. Du kan välja flera typer.
+   >* Din Workfront-administratör kan ha bytt namn på några av dessa alternativ. Mer information finns i [Konfigurera typer av förfrågningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
-1. Klicka på **Spara**.
-
-   De begärandetyper du har angett kan väljas när du anger en ny utgåva för en uppgift eller ett projekt, eller när du skickar en ny begäran till projektet, om projektet är aktiverat som en begärandekö.
+1. Klicka på **Spara**. De begärda typerna som du har angett kan väljas när du anger en ny utgåva för en uppgift eller ett projekt, eller när du skickar en ny begäran till projektet (om projektet är aktiverat som en frågekö).

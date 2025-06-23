@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
 title: Betaversionsinformation för Canvas Dashboards
 description: Allmän information om betaversionen av arbetsytans kontrollpaneler
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,23 @@ Kontrollpaneler på arbetsytan är en funktion som för närvarande är under ut
 Grundläggande information om hur du använder Canvas-kontrollpaneler finns i [Kom igång med Canvas-kontrollpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 En lista över all dokumentation för kontrollpaneler på arbetsytan finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Beta-status**
-
-Kontrollpanelerna för arbetsytan är för närvarande i en sluten betatestningsfas och kan därför ändras ofta. Se nedan för instruktioner om hur du anmäler dig till betaversionen.
-
-## Delta i betaversionen
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Kontrollpanelerna för arbetsytan är för närvarande i en sluten betaversion och är därför endast tillgängliga för vissa organisationer. Vi fortsätter att bjuda in organisationer till betan direkt från en lista över dem som har uttryckt intresse. Du kan lägga till din organisation i väntelistan genom att skicka in [det här formuläret för Adobe-feedback](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta). Dessutom har företag som köpt Workfront Planning som en del av sitt paket fått betaåtkomst för att testa möjligheten till produktövergripande rapportering.
->
->Så småningom kommer vi att gå över till en öppen betaversion, där registreringsprocessen blir tillgänglig för alla organisationer.
+>Kontrollpanelerna för arbetsytan är för närvarande i en sluten betatestningsfas och kan därför ändras ofta.
 
-### Registrera
-
-Så här anmäler du dig till betaversionen:
+## Gå med i betaversionen
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
 
-1. Klicka på betaknappen **Anslut till betaknappen för arbetsytans kontrollpaneler** i det övre högra hörnet på sidan. Observera att den här knappen endast är tillgänglig om din organisation har bjudits in till den stängda betaversionen.
+1. Klicka på betaknappen **Gå med i betaknappen för arbetsytans kontrollpaneler** i det övre högra hörnet på sidan.
 
-1. Läs villkoren och klicka sedan på **Acceptera**. Du är nu registrerad i betaversionen. Observera dock att det tar några minuter innan dina Workfront-data blir helt tillgängliga i Canvas Dashboards.
+   >[!NOTE]
+   >
+   > **Knappen Gå med i betaknappen för arbetsytans instrumentpaneler** är bara tillgänglig om din organisation har bjudits in till den stängda betaversionen.
 
-### Ge feedback
+1. Granska villkoren i rutan **Beta-avtal** och klicka sedan på **Godkänn**. Du är nu registrerad i betaversionen. Observera att det kan ta några minuter för dina Workfront-data att bli helt tillgängliga i Canvas Dashboards.
+
+## Ge feedback
 
 Vi uppskattar att vi tar fram det här verktyget under betatestningen. Följ instruktionerna nedan för att dela din erfarenhet med oss.
 
@@ -51,7 +45,9 @@ Vi uppskattar att vi tar fram det här verktyget under betatestningen. Följ ins
 
 1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
 
-1. Klicka på knappen **Skicka feedback** längst ned till höger på sidan, ange din feedback i det formulär som visas och klicka sedan på **Skicka**.
+1. Klicka på knappen **Skicka feedback** längst ned till höger på sidan och ange sedan din feedback i det formulär som visas.
+
+1. Klicka på **Skicka**.
 
 ## Planerade funktioner
 
