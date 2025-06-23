@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Tänk på följande:
 
    * Registreringsdatum
    * Registrera systemgenererade fält: Skapat den, Senast ändrat den
-   * Sök efter datum från anslutna poster eller objekttyper.
+   * Sök efter datum från anslutna post- eller objekttyper (endast när du lade till en aggregator för dem när du kopplade posten eller objekttyperna)
 * Beroende på vilka datum som är associerade med posterna kanske vissa poster inte visas i tidslinjevyn i följande scenarier:
 
    * När start- och slutdatum inte har några värden

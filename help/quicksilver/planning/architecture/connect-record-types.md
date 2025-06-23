@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '2559'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Villkorligt) Om du har valt att ansluta till Experience Manager Assets eller till posttypen Workfront Planning väljer du något av följande alternativ i området **Postutseende**:
 
@@ -267,7 +267,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Posterna grupperas efter varje unik kombination av fältvärden
 
-   * Tidslinjevyn byggs utifrån det första datumvärdet
+   * Tidslinjevyn byggs utifrån det första datumvärdet för den anslutna posttypen, när den visas i vyn
 
    >[!IMPORTANT]
    >
