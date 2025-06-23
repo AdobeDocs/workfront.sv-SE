@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 0%
 
 ---
@@ -1699,17 +1699,6 @@ ht-degree: 0%
          * [Dela en kontrollpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Ta bort en extern sida från en kontrollpanel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Översikt över kontrollpaneler på arbetsytan](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * Förbättrad analys {#enhanced-analytics}
-      * [Förbättrad analys](enhanced-analytics/enhanced-analytics.md)
-      * [Förbättrad analys - översikt](enhanced-analytics/enhanced-analytics-overview.md)
-      * [Använda filter i Förbättrad analys](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [Förstå nyckeltal för förbättrade analyser](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [Visa flygplansvisualisering i Förbättrad analys](enhanced-analytics/flight-plan-overview.md)
-      * [Visa Burndown-visualisering i Förbättrad analys](enhanced-analytics/burndown-overview.md)
-      * [Visa uppgifter i flygvisualisering i Förbättrad analys](enhanced-analytics/tasks-in-flight-overview.md)
-      * [Visa projektaktivitetsvisualisering i Förbättrad analys](enhanced-analytics/project-activity-overview.md)
-      * [Visa projekttreemap-visualisering i Förbättrad analys](enhanced-analytics/project-treemap-overview.md)
-      * [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect - översikt](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Skapa ett läsarkonto eller en anslutning till Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
