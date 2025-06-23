@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdatering för korrekturläsare för skrivbordet</a><p>[!BADGE Off schema]{type=Neutral}</p>
-            <p>Desktop Proofing Viewer har uppdaterats till version 2.1.50.
-Den här uppdateringen innehåller interna verktygsuppdateringar och påverkar inte slutanvändarnas funktioner. </p>
+            <p>Desktop Proofing Viewer har uppdaterats till version 2.1.50. Den här uppdateringen innehåller interna verktygsuppdateringar och påverkar inte slutanvändarnas funktioner.</p>
         </td>
         <td>13 juni 2025</td>
         <td>13 juni 2025</td>
@@ -141,7 +140,7 @@ Den här uppdateringen innehåller interna verktygsuppdateringar och påverkar i
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Min widget för godkännanden sorterar nu automatiskt efter deadline </a><p></p>
-            <p>Vi har uppdaterat widgeten Mina godkännanden hemma för att sortera efter deadline (fallande) som standard. På så sätt kan de mest brådskande godkännandena visas högst upp i listan. </p>
+            <p>Vi har uppdaterat widgeten Mina godkännanden hemma för att sortera efter deadline (fallande) som standard. På så sätt kan de mest brådskande godkännandena visas högst upp i listan. </p><p><b>Obs!</b> För närvarande kan endast korrekturgodkännanden sorteras efter deadline i widgeten Mina godkännanden.</p>
         </td>
         <td>29 maj 2025</td>
         <td>12 juni 2025</td>
@@ -288,7 +287,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -326,11 +325,11 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 
 

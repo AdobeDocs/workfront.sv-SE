@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,7 @@ Mer information finns i [Använda området Mina uppdateringar](/help/quicksilver
 
 Vi har uppdaterat widgeten Mina godkännanden hemma för att sortera efter deadline (fallande) som standard. På så sätt kan de mest brådskande godkännandena visas högst upp i listan.
 
+För närvarande kan endast korrekturgodkännanden sorteras efter deadline i widgeten Mina godkännanden.
+
 Tidigare sorterades widgeten efter inmatningsdatum, vilket gjorde det svårt att avgöra prioritet.
+
