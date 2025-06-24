@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
+source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Några enkla affärsregelscenarier är:
   ```
   IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
   ```
+
+Systemet tillåter en affärsregel per objekt och utlösare. En redigeringsutlösarregel tillåts t.ex. för utgåvor. Du kan dock inkludera flera regler i en formel med kapslade IF-satser.
 
 Ett scenario med kapslade IF-satser är:
 
