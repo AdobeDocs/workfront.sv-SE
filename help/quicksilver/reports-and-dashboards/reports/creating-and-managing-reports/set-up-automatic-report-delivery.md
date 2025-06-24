@@ -6,9 +6,9 @@ description: Schemalägg automatisk rapportleverans
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Så här schemalägger du en rapport för automatisk leverans: &#x200B;
       <td role="rowheader"> <p>Skicka till</p> </td> 
       <td> <p>Börja skriva namnet på den användare, grupp, team eller roll som du vill skicka rapporten till och klicka sedan på namnet när det visas i listrutan.</p> <p>eller</p> <p>Ange e-postadressen till en person utanför Workfront som du vill ska ha åtkomst till rapporten.</p> <p>Upprepa den här processen om du vill skicka rapporten till flera användare, grupper, team eller roller.</p> <p>Obs!  <p>Tänk på följande när du lägger till rapportleveransmottagare:</p> 
         <ul> 
-         <li>Om din organisation begränsar Workfront-meddelanden till specifika e-postdomäner kanske du bara kan skicka rapporter till e-postadresser som listas i e-posttillåtelselista.<p>Information om hur en Workfront-administratör uppdaterar e-postmeddelandet tillåtelselista finns i avsnittet <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurera e-posttillåtelselista</a>.</p></li> 
+         <li><p>Om din organisation begränsar Workfront-meddelanden till specifika e-postdomäner kanske du bara kan skicka rapporter till e-postadresser som listas i e-posttillåtelselista.</p> <p>Om en användare till exempel är inställd som rapportmottagare och har en e-postadress som tidigare var tillåten och tillåtelselista uppdateras för att inte längre leverera e-post till den domänen, får användaren inte längre några levererade rapporter.</p><p>Information om hur en Workfront-administratör uppdaterar e-postmeddelandet tillåtelselista finns i avsnittet <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurera e-posttillåtelselista</a>.</p></li> 
          <li> <p>Om du lägger till ett stort antal användare som mottagare kan leveransen misslyckas. Om leveransfel uppstår kan du schemalägga flera rapportleveranser med mindre grupper av användare.</p> </li> 
         </ul> </td> 
      </tr> 
