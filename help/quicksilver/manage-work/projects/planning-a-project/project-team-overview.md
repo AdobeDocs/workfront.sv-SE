@@ -7,16 +7,18 @@ description: Användare som är associerade med ett projekt i viss kapacitet utg
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 1b2180fd33da153c7f8b698cd17df2eb10669ce9
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # Översikt över projektgruppen
 
-Användare som är associerade med ett projekt i viss kapacitet utgör projektteamet. Användare som visas under området Personer i ett projekt är de användare som utgör projektteamet. Till exempel är användare som är tilldelade att arbeta med projektet eller projektägaren en del av projektteamet.
+<!-- Audited: 6/2025 -->
+
+Ett projektteam består av användare som är kopplade till ett projekt i någon form. Användare som listas under området Personer i ett projekt utgör projektteamet. Till exempel är användare som är tilldelade att arbeta med projektet eller projektägaren en del av projektteamet.
 
 ## Projektteammedlemmar
 
@@ -45,9 +47,9 @@ Om du inte vill att användaren ska vara med i projektteamet för rollbaserade g
 
 ## Projekt som jag är på, filter
 
-Om en användare visas i området Personer i ett projekt visas det projektet när han/hon använder filtret Projekt jag är på i en lista med projekt eller en projektrapport.
+Om en användare visas i området Personer i ett projekt visas det projektet när han/hon använder filtret Projekt jag är på i en lista över projekt eller projektrapport.
 
-Du kan se om filtret Projekt jag arbetar med är markerat i rubriken Projekt. Du kan använda den från panelen Filter eller från sidhuvudet.
+Du kan se om filtret Projekt jag arbetar med är markerat i rubriken Projekt. Du kan använda den antingen från panelen Filter eller från sidhuvudet.
 
 ![](assets/nwe-project-list-buttons-350x187.png)
 

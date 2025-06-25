@@ -6,9 +6,9 @@ description: Genom att beräkna om tidslinjer kan cheferna se hur olika faktorer
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,10 @@ Automatisk omberäkning av tidslinjen sker utan särskild åtkomst för någon a
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Ny licens: Standard </p> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Standard </p> 
    eller
-   <p>Aktuell licens: Planera </p>
+   <p>Aktuell: Planera </p>
    </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Automatisk omberäkning av tidslinjen sker utan särskild åtkomst för någon a
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Som standard räknas projekttidslinjer om automatiskt varje dag när projektomf�
 
 >[!NOTE]
 >
->Om tidslinjen för ett projekt är längre än 15 år inaktiveras den automatiska omberäkningen för det projektet. Du kan bara välja en uppdateringstyp av handbok för ett projekt som är längre än 15 år. Om du ändrar datum för projektet till mindre än 15 år måste du beräkna om tidslinjen manuellt en gång innan den beräknas automatiskt.
+>Om tidslinjen för ett projekt är längre än 15 år inaktiveras den automatiska omberäkningen för det projektet och du kan bara välja en manuell uppdateringstyp. Om du ändrar datum för projektet till mindre än 15 år måste du beräkna om tidslinjen manuellt en gång innan den beräknas automatiskt.
 
 * [Automatisk omberäkning av projekttidslinjer](#automatic-recalculation-of-project-timelines)
 * [Åtgärder som utlöser en automatisk omberäkning av projekttidslinjer](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
@@ -73,19 +73,18 @@ Som standard räknas projekttidslinjer om automatiskt varje dag när projektomf�
 
 >[!IMPORTANT]
 >
->I sandlådemiljöerna Förhandsgranska och Anpassad uppdatering är nattomberäkningen inaktiverad och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för miljöerna Preview och Custom Refresh Sandbox.
+>I sandlådemiljöerna Förhandsgranska och Anpassad uppdatering inaktiveras nattomberäkningen och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för miljöerna Preview och Custom Refresh Sandbox.
 
 ### Automatisk omberäkning av projekttidslinjer {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfront beräknar om tidslinjer dagligen endast för projekt där alla följande villkor är uppfyllda:
+Workfront beräknar om tidslinjer dagligen endast för projekt där alla följande villkor är uppfyllda:
 
-* Har statusen Aktuell
-* Projektets uppdateringstyp är inställd på Automatisk eller Automatisk och Vid ändring
+* Har statusen Aktuell.
+* Projektuppdateringstypen är Automatisk eller Automatisk och Vid ändring.
 
-  Mer information om typen av projektuppdateringstyp finns i [Översikt över projektuppdateringstyp](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Mer information finns i [Översikt över projektuppdateringstyp](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* Har ett senaste uppdateringsdatum under de senaste tre månaderna\
-  Workfront-administratören kan ändra den här standardfunktionen enligt beskrivningen i [Konfigurera tidslinjeomberäkningar för projekt](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+* Ha ett senaste uppdateringsdatum under de senaste tre månaderna. En Workfront-administratör kan ändra den här standardfunktionen. Mer information finns i [Konfigurera tidslinjeomberäkningar för projekt](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 * Senaste beräkningsdatum för projekttidslinjen ligger inte inom den aktuella kalenderdagen. Det innebär att det sista beräkningsdatumet för projekttidslinjen är före 00:00 den aktuella dagen.
 
@@ -149,9 +148,7 @@ Som projektägare kan du manuellt beräkna om tidslinjerna för enskilda projekt
 
 Du kan beräkna om tidslinjen för ett projekt i Workfront från projektsidan eller från en projektlista eller rapport.
 
-1. Gå till projektet som du vill beräkna om tidslinjen för och klicka på ikonen **Mer** ![Mer meny](assets/qs-more-menu.png) till vänster om projektnamnet
-
-   ![Fler listrutor](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Gå till projektet som du vill beräkna om tidslinjen för och klicka på ikonen **Mer** ![Mer meny](assets/qs-more-menu.png) till vänster om projektnamnet.
 
    eller
 
@@ -163,9 +160,7 @@ Du kan beräkna om tidslinjen för ett projekt i Workfront från projektsidan el
    >
    >Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du omberäknar deras tidslinjer i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden eller tilldelningar, eller ett stort antal anpassade fält.
 
-1. Klicka på **Beräkna om tidslinje**.
-
-   När tidslinjen har beräknats om visas ett meddelande om att omberäkningen lyckades.
+1. Klicka på **Beräkna om tidslinje**. Tidslinjen beräknas om och ett meddelande om att åtgärden lyckades visas på skärmen.
 
    >[!TIP]
    >
@@ -177,7 +172,7 @@ Du kan manuellt beräkna om tidslinjerna i flera projekt genom att redigera dem 
 
 >[!TIP]
 >
->Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du redigerar dem i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
+>Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du redigerar dem i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden eller tilldelningar, eller ett stort antal anpassade fält.
 
 1. Gå till en lista med projekt.
 1. Markera flera projekt i listan och klicka sedan på **Redigera**.
