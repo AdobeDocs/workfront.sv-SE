@@ -61,9 +61,9 @@ Mer information om [!DNL Admin Console] finns i följande artiklar:
 
 Befintliga kunder kontaktas för att schemalägga migreringar. De supportteam som arbetar med migrering kommer att hjälpa kunderna genom processen, ge råd om konfigurationen av [!DNL Admin Console] och tillhandahålla länkar till dokumentation som behövs för att göra flytten så enkel och krångelfri som möjligt.
 
-* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/faq)
 
 ### Hur hanterar du [!DNL Adobe Admin Console] för företag som redan har detta aktiverat för Federated ID:n på ett annat sätt än [!DNL Workfront] enkel inloggning har konfigurerats?
 
