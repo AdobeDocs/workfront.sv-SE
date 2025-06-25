@@ -7,9 +7,9 @@ description: Korrekturroller gör att du kan bevilja behörigheter för enskilda
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,6 @@ Korrekturroller gör att du kan bevilja behörigheter för enskilda korrektur. K
 ## Korrekturroller
 
 Korrekturroller ges till användare för ett enskilt bevis när användaren bjuds in att granska beviset. Om du har en Workfront Pro+-plan kan du tilldela korrekturroller till användare med en Work- eller Plan-licens. Om du har en Workfront Premium Legacy-plan kan du tilldela korrekturroller till användare med en angiven korrekturlicens. Mer information finns i [Åtkomst till korrekturfunktioner i Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-
->[!NOTE]
->
->Användare med nya Workfront-planer kan tilldela författare eller moderatorroller till alla användare i systemet. Användare med äldre planer kan tilldela författare eller moderatorroller till alla användare som har en korrekturlicens i systemet.
 
 Korrekturrollen definierar vilka åtgärder en granskare kan vidta i förhållande till det specifika korrekturet.
 
@@ -131,7 +127,7 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Författare</strong> </p> </td> 
+   <td> <p><strong>Författare*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -147,10 +143,10 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Moderator</strong> </p> </td> 
+   <td> <p><strong>Moderator*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p><strong> ✓</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p> </p> </td> 
@@ -164,3 +160,7 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
   </tr> 
  </tbody> 
 </table>
+
+<p>* Användare med nya Workfront-planer kan tilldela författare- eller moderatorroller till alla användare i systemet, men endast användare med en standardlicens kan använda alla funktioner som är kopplade till dessa roller.
+
+Användare med äldre planer kan tilldela författare eller moderatorroller till alla användare som har en korrekturlicens i systemet.</p>
