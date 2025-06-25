@@ -6,9 +6,9 @@ description: Vissa funktioner skiljer sig åt mellan  [!DNL Workfront]  och Adob
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f59643eb3722c72fc8cbb5009223af143ac240d8
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ Mer information om [!DNL Admin Console] finns i följande artiklar:
 
 Befintliga kunder kontaktas för att schemalägga migreringar. De supportteam som arbetar med migrering kommer att hjälpa kunderna genom processen, ge råd om konfigurationen av [!DNL Admin Console] och tillhandahålla länkar till dokumentation som behövs för att göra flytten så enkel och krångelfri som möjligt.
 
-* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/sv/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Supportöversikt](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] information](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] och [!DNL Admin Console] Vanliga frågor](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Hur hanterar du [!DNL Adobe Admin Console] för företag som redan har detta aktiverat för Federated ID:n på ett annat sätt än [!DNL Workfront] enkel inloggning har konfigurerats?
 
-[!DNL Adobe Admin Console] kan inkludera [!DNL Workfront] och ersätta enkel inloggning med IMS. All användaretablering sker i [!DNL Admin Console], och användarna ser inloggningsskärmen [!DNL Adobe] för att komma till [!DNL Experience Cloud] där de ser [!DNL Workfront] som ett alternativ (om de beviljas åtkomst till den).
+[!DNL Adobe Admin Console] kan inkludera [!DNL Workfront] och ersätta enkel inloggning med Adobe Identity Management System (IMS). All användaretablering sker i [!DNL Admin Console], och användarna ser inloggningsskärmen [!DNL Adobe] för att komma till [!DNL Experience Cloud] där de ser [!DNL Workfront] som ett alternativ (om de beviljas åtkomst till den).
 
 ### Hur påverkar detta kunder som redan har AEM administratörspanel för [!DNL Adobe Assets] - men enkel inloggning är konfigurerad på ett annat sätt än [!DNL Workfront?]
 
@@ -77,7 +77,7 @@ När [!DNL Workfront] har lagts till som ett [!DNL Admin Console]-program behöv
 
 enkel inloggning har konfigurerats i [!DNL Admin Console] och ärvs av programmet [!DNL Workfront].
 
-### Kommer enkel inloggning med vår interna [!DNL Active Directory] fortfarande att vara ett alternativ med IMS?
+### Kommer enkel inloggning med vår interna [!DNL Active Directory] fortfarande att vara ett alternativ med Adobe Identity Management System (IMS)?
 
 IMS ersätter enkel inloggning och fungerar i huvudsak på samma sätt. Alla användarbehörigheter beviljas och etableras i [!DNL Adobe Admin Console], och användaren ser inloggningsskärmen [!DNL Adobe] där han/hon kan välja [!UICONTROL Personal Account] eller [!UICONTROL Company Account] för att logga in (om du har [!DNL Active Directory] loggar de flesta in med ett företagskonto).
 
@@ -103,7 +103,7 @@ Hela [!DNL Workfront]-kundkontot migreras. Det kan inte göras per användare.
 
 ### Måste alla [!DNL Workfront]-användare logga in via [!DNL Experience Cloud]? Eller bara administratörer?
 
-Ja, alla användare loggar in via [!DNL Experience Cloud]. IMS-inloggningen ersätter enkel inloggning. Det är en väldigt likartad upplevelse, bara en annan inloggningsskärm.
+Ja, alla användare loggar in via [!DNL Experience Cloud]. Inloggningen för Adobe Identity Management System (IMS) ersätter enkel inloggning. Det är en väldigt likartad upplevelse, bara en annan inloggningsskärm.
 
 ### Måste användare länka sina [!DNL Adobe]-konton till sina [!DNL Workfront]-konton om de redan har båda?
 
