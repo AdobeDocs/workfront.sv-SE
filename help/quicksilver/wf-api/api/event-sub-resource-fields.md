@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,10 @@ Resursfält för händelseprenumeration representerar utlösare för händelser 
 Observera att data kan filtreras med kapslad filtrering. Mer information finns i [Använda kapslade filter](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) i artikeln Event Subscription API.
 
 I följande tabell visas de fält som är tillgängliga för händelseprenumerationsresurser:
+
+>[!NOTE]
+>
+>Vissa objekt är bara tillgängliga i Event Subscriptions version 2. Objekten beskrivs i tabellen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>Godkännande<p>(Event Subs v2)</p></td> 
+   <td>godkännande</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Godkännandefas<p>(Event Subs v2)</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> name </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Deltagare i godkännandefasen<p>(Event Subs v2)</p></td> 
+   <td>approval_stage_Particip_</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> beslut </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> DecisionDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> DecisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipRole </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipType </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> requestID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
   <tr> 
    <td>Tilldelning</td> 
    <td>ASSGN</td> 
@@ -806,7 +1004,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>Fält</td> 
+   <td>Fält<p>(Event Subs v2)</p></td> 
    <td>FÄLT</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td><span>beställar-ID</span> </td> 
   </tr> 
   <tr> 
-   <td>Post</td> 
+   <td>Post<p><p>(Event Subs v2)</p></td> 
    <td>POST</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Posttyp </td> 
+   <td>Posttyp<p><p>(Event Subs v2)</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>färg</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Workspace</td> 
+   <td>Workspace<p><p>(Event Subs v2)</p></td> 
    <td>WORKSPACE</td> 
    <td>färg</td> 
   </tr> 

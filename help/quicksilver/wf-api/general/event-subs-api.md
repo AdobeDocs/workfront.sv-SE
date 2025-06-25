@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,9 @@ Följande avsnitt har stöd för Event Subscription API:
 
 Följande Workfront-objekt stöds av händelseprenumerationer.
 
+* Godkännande
+* Godkännandefas
+* Deltagare i godkännandefasen
 * Tilldelning
 * Företag
 * Kontrollpanel
@@ -105,6 +108,18 @@ Prenumerationsresursen innehåller följande fält.
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">Godkännande</td> 
+        <td scope="col"><p>godkännande</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Godkännandefas</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Deltagare i godkännandefasen</td> 
+        <td scope="col"><p>approval_stage_Particip_</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">Tilldelning</td> 
         <td scope="col"><p>ASSGN</p></td> 
@@ -793,7 +808,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 >[!NOTE]
 >
 >Prenumerationen nedan med det angivna filtret returnerar bara meddelanden där aktivitetens namn innehåller `again` på `oldState`, vilket var innan en uppdatering gjordes för aktiviteten.
->&#x200B;>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
+>>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
 ```
 {
