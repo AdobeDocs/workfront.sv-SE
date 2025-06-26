@@ -87,7 +87,7 @@ Den korrekta beräkningen är:
 >Om du använder Faktiska timmar i din beräkning använder du `actualWorkRequiredDouble` för värdefältet. Faktiska timmar lagras i timmar. Planerade timmar sparas i minuter.
 >
 >Den korrekta beräkningen för faktiska timmar är:
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## Varför visas inte värdet för alla mina diagramelement i en rapport i diagrammet?
