@@ -7,9 +7,9 @@ description: Du kan använda villkorsoperatorer eller modifierare när du skapar
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,15 @@ Du kan skapa IF-satser för följande Workfront-element:
 * Vyer
 * Grupperingar
 * Beräknade anpassade fält
+* Affärsregler
 
 Mer information om hur du skapar IF-satser finns i Översikt över [ IF-satser ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Exemplen i den här handboken visar hur du använder villkorsoperatorer i beräknade anpassade fält. Du kan även använda dem i beräknade anpassade kolumner eller grupperingar när du följer rätt syntax för beräknade anpassade fält i rapporter.
 
 Mer information om skillnaden i syntax mellan beräknade anpassade fält och beräknade anpassade data i rapporter finns i [Beräknade anpassade fält kontra beräknade kolumner](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+
+Mer information om affärsregler finns i [Skapa och redigera affärsregler](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 I API-utforskaren hittar du de fält som du vill referera till i dina beräknade anpassade uttryck. Mer information om API-utforskaren finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
 
