@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Expandera och komprimera alla grupperingar i tabellvyn
+
+>[!NOTE]
+>
+>* Förhandsgranska: 26 juni 2025
+>* Produktion för alla: 17 juli 2025
+
+Nu kan du komprimera och utöka grupperingarna i en tabellvy med följande områden:
+
+* Grupperingsrutan, som du kommer åt från tabellvyns verktygsfält
+
+* En grupperings sidhuvud genom att högerklicka på den
+
+Du kan komprimera eller expandera en eller alla grupperingar samtidigt.
+
+Före den här förbättringen kunde du bara komprimera eller expandera en gruppering åt gången från varje grupperingsrubrik.
+
+Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Ny sammanställningsfunktion för formelfält
+
+>[!NOTE]
+>
+>* Förhandsgranska: 26 juni 2025
+>* Produktion för alla: 26 juni 2025
+
+När du kopplar posttyper och infogar ett formelfält som en sökning kan du nu använda sammanställningsfunktionerna (SUM, AVERAGE, MIN, MAX osv.) beroende på formelfältets format. Om t.ex. formelfältet är numeriskt kan du använda funktioner som SUM eller AVG. Om formelfältet är formaterat som text används inte sammanställningsfunktioner som SUM.
+
+Tidigare kunde du bara tillämpa sammanställningsfunktioner på vanliga fält, men inte på formelfält, när du kopplar posttyper och hämtar in sökfält från de anslutna posterna.
+
+Mer information finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Tillgänglighet för anpassade kvartal för tidslinjen i Workfront Planning
 
@@ -206,7 +239,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 

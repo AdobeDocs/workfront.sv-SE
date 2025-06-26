@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
+source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
 workflow-type: tm+mt
-source-wordcount: '4622'
+source-wordcount: '4930'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,62 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
+## Administratör och installation
 
-## Administration och installation
+<!--### Look and feel updates for the Update Feeds section of Setup 
 
-<!--
-### Look and feel updates for the Update Feeds section of Setup 
-
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
 
 We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
--->
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
-<!--
-### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
 
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+### Nytt utseende på listorna i avsnittet Tidrapporter och timmar i inställningsområdet
+
+**Förhandsgranskning: 26 juni 2025; Produktion för alla: 10 juli 2025**
+
+Vi har uppdaterat utseendet på följande listor i avsnittet Tidrapporter och timmar i inställningsområdet:
+
+* Listan över tidrapportprofiler
+
+* Listan över timtyper
+
+De här listorna matchar nu andra områden i Workfront.
+
+Mer information finns i [Skapa, redigera och tilldela tidrapportprofiler](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+
+<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+
+**Preview release: June 26, 2025; Production release: July 10, 2025** 
 
 We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
 
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
--->
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
+
+
+### Gränssnittsuppdateringar för företagssidan
+
+**Förhandsversion: 26 juni 2025; Produktionsversion: 10 juli 2025**
+
+Vi har uppdaterat företagssidan med en modernare design som överensstämmer med andra delar av Workfront.
+
+Uppdateringen innehåller visuella ändringar av listan över företag. Ingen funktionalitet har ändrats.
+
+Om du vill se ändringen går du till Inställningar > Företag.
+
+Mer information finns i [Skapa och redigera företag](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+
+### Uppdatera till listan Åtkomstnivåer i installationsprogrammet
+
+**Förhandsversion: 19 juni 2025; Produktionsversion: 23 juni 2025**
+
+Vi har uppdaterat åtkomstnivålistan i Setup med en modernare design som är konsekvent med andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Inställningar > Åtkomstnivåer.
+
 
 ### Gränssnittsuppdateringar för att skapa, kopiera och redigera scheman
 
@@ -72,23 +106,10 @@ Knappen för att finjustera åtkomst har flyttats till höger om knappen Rediger
 
 Om du vill visa den här ändringen går du till Inställningar > Åtkomstnivåer > Ny åtkomstnivå.
 
-<!--
-### Interface updates for the Companies page
-
-**Preview release: June 19, 2025; Production release: June 26, 2025**
-
-We have updated the Companies page with a more modern design that is consistent with other areas of Workfront.
-
-This update includes visual changes to the list of companies. No functionality has changed.
-
-To view the change, go to Setup > Companies.
-
-For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
--->
 
 ### Gränssnittsuppdateringar för kundinformationssidan
 
-**Förhandsversion: 12 juni 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni 2025**
 
 Vi har uppdaterat kundinformationssidan med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -189,6 +210,14 @@ We have updated the look and feel of the Log time box when logging time for a pr
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 -->
 
+### Utseendeförändringar i rutan Ny ämnesgrupp i ett projekt
+
+**Förhandsversion: 26 juni 2025; Produktionsversion: 10 juli 2025**
+
+Vi har uppdaterat utseendet och känslan av upplevelsen när vi skapar eller redigerar ämnesgrupper för frågeköer, så att de matchar andra områden i Workfront.
+
+Den nya upplevelsen är tillgänglig när du skapar eller redigerar ämnesgrupper i projekt eller mallar.
+
 ### Gränssnittsuppdateringar för avsnittet Associerade projekt i ett projekt (endast tillgängliga för specifika kunder)
 
 **Förhandsversion: 12 juni 2025; Produktionsversion: ska tillkännages**
@@ -284,17 +313,17 @@ Vi rekommenderar att du byter URL-adress för att gå till en sida som stöds el
 
 ## Användare
 
-<!--
-### Interface updates to the organizational chart
 
-**Preview release: June 19, 2025; Production release for all customers: June 26, 2025**
+### Gränssnittsuppdateringar i organisationsschemat
 
-We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+**Förhandsversion: 26 juni 2025; Produktionsrelease för alla kunder: 10 juli 2025**
 
-To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+Vi har uppdaterat utseendet på organisationsschemat som är kopplat till en Workfront-användare så att det matchar designen i andra delar av Workfront.
 
-For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
--->
+Om du vill visa den här ändringen går du till en Workfront-användarprofil och klickar på **Organisationsschema** i den vänstra panelen. (Den här funktionen är tillgänglig via Workfront användarprofil, inte Adobe användarprofil.)
+
+Mer information finns i [Visa organisationsschemat](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+
 
 ### Gränssnittsuppdatering till den nya användarregistreringssidan
 

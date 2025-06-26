@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 Den här sidan beskriver projektförbättringar som gjorts i tredje kvartalet 2025-versionen till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Fältet Befintliga faktiska timmar har ersatts med fältet Äldre faktiska timmar och det nya fältet Faktiska timmar har skapats
+
+>[!NOTE]
+>
+> Förhandsgranskning och produktion: 24 juni 2025 
+
+Det befintliga fältet Faktiska timmar har bytt namn till Tidigare faktiska timmar. I det här fältet lagras den tid som har loggats för projekt, uppgifter och ärenden på några minuter. Fältet lagras i Workfront-databasen som actualWorkRequired.
+
+Vi har lagt till ett nytt fält för faktiska timmar som lagrar den tid som loggats för projekt, uppgifter och utgåvor i timmar, med decimalprecision. Fältet lagras i Workfront-databasen som actualWorkRequiredDouble.
+
+Fälten Faktiska timmar och Äldre faktiska timmar visas i projekt-, uppgifts- och problemvyer och rapporter.
+
+Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden representerar de befintliga faktiska timmarna.
+
+
+>[!IMPORTANT]
+>
+>Timmar som loggats före maj 2021 lagras i fältet Faktiska timmar för äldre versioner.  
+>>Värdet för fältet Faktiska timmar för projekt, uppgifter och utgåvor där timmarna loggades före maj 2021 är noll. 
+>>Timmar som loggas efter maj 2021 lagras både i fältet Faktiska timmar och i fältet Faktiska timmar för äldre.
+>> Du kan behöva uppdatera dina rapporter så att de återspeglar de nya fälten.
+
+Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
 
 ## Ändringar i hur faktiska timmar lagras i databasen för API-anrop
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -128,6 +128,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+       <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">All Approvals widget renamed to Document approval metrics</a><p></p>
+            <p>We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.</p>
+        </td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr> -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterad kommentarsfunktion i avsnittet Meningar i området Mina uppdateringar</a><p></p>
@@ -160,6 +169,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fältet Befintliga faktiska timmar har ersatts med fältet Äldre faktiska timmar och det nya fältet Faktiska timmar har skapats</a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Det befintliga fältet Faktiska timmar har bytt namn till Tidigare faktiska timmar. I det här fältet lagras den tid som har loggats för projekt, uppgifter och ärenden på några minuter. Fältet lagras i Workfront-databasen som actualWorkRequired. </p>
+            <p>Vi har lagt till ett nytt fält för faktiska timmar som lagrar den tid som loggats för projekt, uppgifter och utgåvor i timmar, med decimalprecision. Fältet lagras i Workfront-databasen som actualWorkRequiredDouble.</p>
+        </td>
+        <td>24 juni 2025</td>
+        <td>24 juni 2025</td>
+        <td>24 juni 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Förändring i hur faktiska timmar lagras i databasen för API-anrop</a><p>[!BADGE Off schema]{type=Neutral}</p>
@@ -203,6 +222,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrad rapportleveranssäkerhet </a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <p>Vi har förbättrat leverans av schemalagda rapporter för att säkerställa att Workfront-meddelanden bara skickas till e-postdomäner som godkänts i tillåtelselista.</p>
+            <p></p>
+        </td>
+        <td>26 juni 2025</td>
+        <td>(Utfasad utrullning): 26 juni-9 juli 2025</td>
+        <td>(Utfasad utrullning): 26 juni-9 juli 2025</td>
+    </tr>   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Jokertecken för användare returnerar inte längre resultat med ett null-värde vid filtrering av </a><p></p>
@@ -287,7 +316,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -325,11 +354,11 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 
 
