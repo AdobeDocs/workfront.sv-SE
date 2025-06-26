@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Så här skapar du en ämnesgrupp:
 1. Klicka på **Ämnesgrupper** i den vänstra panelen.
 1. Klicka på **Ny ämnesgrupp**.
 
-   ![](assets/new-topic-group-box-nwe-350x306.png)
+   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Ange följande information:
 
@@ -94,3 +94,4 @@ Så här skapar du en ämnesgrupp:
 1. Klicka på **Spara**.\
    Detta skapar en ny ämnesgrupp i din begärandekö. Nu kan du välja ytterligare kategorier från den första listrutan under en frågekö.\
    Mer information om hur du skickar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Om du vill redigera en befintlig ämnesgrupp väljer du ämnesgruppen i listan Ämnesgrupper och redigerar sedan informationen i det fönster som öppnas. Klicka på **Spara** för att spara ändringarna.
