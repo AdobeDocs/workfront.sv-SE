@@ -7,9 +7,9 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Beroende på vilket område av Workfront du kommer åt de faktiska timmarna frå
 
 * I området med information om projekt, aktiviteter eller ärenden:
 
-   * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De motsvarar de befintliga faktiska timmarna i rapporter och listor. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
+   * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem före maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
 
 ## Faktiska timmar för uppgifter och ärenden jämfört med faktiska timmar för projekt
 
@@ -157,11 +157,10 @@ Du måste ta hänsyn till konverteringen från minuter till timmar när du får 
 
 De faktiska timmarna som loggats för projekt, uppgifter eller utgåvor lagras för närvarande i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
 
-Följande version av Workfront API är planerad att släppas senare under 2025, beroende på hur du öppnar Faktiska timmar, och de kan lagras i följande fält och enheter i databasen:
+Med följande version av Workfront API som ska släppas senare under 2025 lagras Faktiska timmar i följande fält och enheter i databasen:
 
 * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
-
-* **Tidigare faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
+   * **Tidigare faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
 
 Mer information om hur du använder Faktiska timmar i beräknade kolumner eller fält finns i [Rapportera vanliga frågor och svar](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 

@@ -7,9 +7,9 @@ description: Vanliga frågor och svar om rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-I en projektrapport har jag en beräkning som subtraherar befintliga faktiska timmar från planerade timmar.
+I en projektrapport har jag en beräkning som subtraherar faktiska timmar från planerade timmar.
 
 Resultatet jag får är felaktigt.
 
@@ -78,17 +78,19 @@ Min beräkning är:
 
 De flesta fält som använder timmar i Workfront lagras på några minuter. När du använder dessa fält i en beräkning blir resultatet oftast i minuter. För att få fram resultatet i timmar måste du dividera resultatet av beräkningen eller fältet som du refererar till med 60.
 
-Den korrekta beräkningen är:
+Planerade timmar sparas i minuter.
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+Beroende på vilket fält för Faktiska timmar du vill använda för beräkningen är de korrekta formlerna:
 
->[!NOTE]
->
->Om du använder Faktiska timmar i din beräkning använder du `actualWorkRequiredDouble` för värdefältet. Faktiska timmar lagras i timmar. Planerade timmar sparas i minuter.
->
->Den korrekta beräkningen för faktiska timmar är:
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* För befintliga faktiska timmar som lagras i minuter:
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* För faktiska timmar som lagras i timmar:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Varför visas inte värdet för alla mina diagramelement i en rapport i diagrammet?
 
