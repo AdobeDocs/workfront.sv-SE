@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
+source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,19 @@ Vi har lagt till ett nytt fält för faktiska timmar som lagrar den tid som logg
 
 Fälten Faktiska timmar och Äldre faktiska timmar visas i projekt-, uppgifts- och problemvyer och rapporter.
 
-Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden representerar de befintliga faktiska timmarna.
+Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden representerar de nya Faktiska timmarna.
+
 
 
 >[!IMPORTANT]
 >
->Timmar som loggats före maj 2021 lagras i fältet Faktiska timmar för äldre versioner.  
->&#x200B;>Värdet för fältet Faktiska timmar för projekt, uppgifter och utgåvor där timmarna loggades före maj 2021 är noll. 
->&#x200B;>Timmar som loggas efter maj 2021 lagras både i fältet Faktiska timmar och i fältet Faktiska timmar för äldre.
->&#x200B;> Du kan behöva uppdatera dina rapporter så att de återspeglar de nya fälten.
+>Beroende på när timmarna loggades kan det finnas en diskrepans mellan faktiska timmar och faktiska timmar för äldre för ett projekt, en uppgift eller en utgåva.<br>
+>>Följande scenarier finns:
+>
+>* De faktiska timmarna som representerar timmar som har loggats för projekt, uppgifter och utgåvor sedan maj 2021 har flyttats från fältet Gammal faktisk timme till det nya fältet Faktisk timme.
+>* De faktiska timmarna som representerar timmar som loggats för projekt, uppgifter och utgåvor före maj 2021 räknas bara i fältet Gammal faktisk tid.
+>  ><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
+
 
 Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
