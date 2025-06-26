@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: b89715649473ba13e1b6b7a250dfed7a468bb4b4
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Så här lägger du till eller redigerar ett företag:
 
    eller
 
-   Om du redigerar ett befintligt företag markerar du företaget och klickar sedan på **[!UICONTROL Edit]** överst i företagslistan.
+   Om du redigerar ett befintligt företag markerar du företaget och klickar sedan på ikonen **[!UICONTROL Edit]** ![Redigera](assets/edit-icon.png) överst i företagslistan.
 
 1. Uppdatera följande information:
 
