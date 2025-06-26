@@ -38,9 +38,9 @@ Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden re
 >[!IMPORTANT]
 >
 >Timmar som loggats före maj 2021 lagras i fältet Faktiska timmar för äldre versioner.  
->>Värdet för fältet Faktiska timmar för projekt, uppgifter och utgåvor där timmarna loggades före maj 2021 är noll. 
->>Timmar som loggas efter maj 2021 lagras både i fältet Faktiska timmar och i fältet Faktiska timmar för äldre.
->> Du kan behöva uppdatera dina rapporter så att de återspeglar de nya fälten.
+>&#x200B;>Värdet för fältet Faktiska timmar för projekt, uppgifter och utgåvor där timmarna loggades före maj 2021 är noll. 
+>&#x200B;>Timmar som loggas efter maj 2021 lagras både i fältet Faktiska timmar och i fältet Faktiska timmar för äldre.
+>&#x200B;> Du kan behöva uppdatera dina rapporter så att de återspeglar de nya fälten.
 
 Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
