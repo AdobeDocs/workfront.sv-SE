@@ -6,9 +6,9 @@ description: En timtyp är en etikett som du kan använda för att kategorisera 
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En timtyp är en etikett som du kan använda för att kategorisera tidsangivelse
 Det finns två uppsättningar timtyper i Adobe Workfront:
 
 * **Allmänna timmar**: Timmar som inte är associerade med ett projekt, till exempel sjuktid eller administration. Du kan bara logga allmänna timmar på tidrapporten.
-* **Projektspecifika timmar**: Antal timmar som loggats in i projekt, uppgifter och ärenden. Du kan logga projektspecifika timmar från valfri plats där du kan logga tid.
+* **Projektspecifika timmar**: Timmar som är inloggade på projekt, uppgifter och problem. Du kan logga projektspecifika timmar från valfri plats där du kan logga tid.
 
 När du loggar in i Workfront beror de projektspecifika timtyperna som är tillgängliga på de konfigurationsalternativ som ställs in på system-, projekt- och användarnivå. (Följande standardtyper av projektspecifika timmar är alltid tillgängliga: Projekttid, Aktivitetstid och Utgivningstid.)
 
@@ -45,7 +45,7 @@ När rätt timtyper har konfigurerats kan du logga tid från flera platser i Wor
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> <p>Nytt: Standard</p> 
    <p>Aktuell: Planera</p>
    </td> 
@@ -61,7 +61,7 @@ När rätt timtyper har konfigurerats kan du logga tid från flera platser i Wor
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

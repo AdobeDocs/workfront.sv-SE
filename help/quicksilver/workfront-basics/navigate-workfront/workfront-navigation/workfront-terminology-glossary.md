@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '17495'
+source-wordcount: '17556'
 ht-degree: 0%
 
 ---
@@ -63,12 +63,13 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>I ett projekt, en aktivitet eller en utleveransrapport är [!UICONTROL Actual Hours] summan av alla timmar som är inloggade på projektet, aktiviteten eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om du klickar på Loggtid på fliken [!UICONTROL Updates] för Aktivitet 1 och anger 25 timmar, motsvarar Faktiskt antal timmar i Aktivitet 1 25 timmar. </p> <p>[!DNL Workfront] beräknar [!UICONTROL Actual Hours] för överordnade aktiviteter eller projekt med följande formler:</p> 
+   <td> <p>I ett projekt, en aktivitet eller en utleveransrapport är [!UICONTROL Actual Hours] summan av alla timmar som har loggats i projektet, aktiviteten eller utleveransen efter maj 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om du klickar på Loggtid på fliken [!UICONTROL Updates] för Aktivitet 1 och anger 25 timmar, motsvarar Faktiskt antal timmar i Aktivitet 1 25 timmar. </p> <p>[!DNL Workfront] beräknar [!UICONTROL Actual Hours] för överordnade aktiviteter eller projekt med följande formler:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
-     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
+     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-    <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Faktiska timmar</a>.</p>
+   <p>Se även <strong>Tidigare faktiska timmar</strong>.
+    <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visa faktiska timmar</a>.</p>
     </td> 
   </tr> 
   <tr> 
@@ -1276,9 +1277,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Legacy Actual Hours]</td> 
+   <td> <p>I ett projekt, en aktivitet eller en utgivningsrapport är [!UICONTROL Legacy Actual Hours] summan av alla timmar som är inloggade på projektet, aktiviteten eller utleveransen när som helst, inklusive före maj 2021.</p>  
+   <p>Äldre Faktiska timmar visas som faktiska timmar i ett projekt, en uppgift eller ett ärende. </p>
+   <p>Se även <strong>Faktiska timmar</strong>.
+    <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visa faktiska timmar</a>.</p>
+    </td> 
+  </tr>  <tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>Den typ av licens som tilldelats en [!UICONTROL Access Level]. Det är antingen [!UICONTROL Full User], [!UICONTROL Limited User] eller [!UICONTROL Requester].</td> 
   </tr> 
@@ -2060,7 +2067,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 

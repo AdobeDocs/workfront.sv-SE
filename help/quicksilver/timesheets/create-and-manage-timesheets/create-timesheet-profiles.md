@@ -6,14 +6,24 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
 
 # Skapa, redigera och tilldela tidrapportprofiler
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 Du kan skapa, redigera och tilldela tidrapportprofiler som genererar återkommande tidrapporter för dina användare utan att du behöver göra något mer. Detta sparar tid och säkerställer att följande är konsekventa för användarna:
 
@@ -38,20 +48,20 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td> <p>Alla</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> <p>Nytt: Standard </p>
  <p>eller</p> 
 <p>Aktuell: Planera </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +76,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 >[!IMPORTANT]
 >
->Om du vill aktivera ändringar av tidrapportprofilen i aktuella tidrapporter måste du ta bort de befintliga tidrapporterna och sedan generera nya. Instruktioner finns i [Ta bort tidrapporter i Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) och [Generera tidrapporter manuellt](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Om du vill aktivera ändringar av tidrapportprofilen i aktuella tidrapporter måste du ta bort de befintliga tidrapporterna innan du gör ändringarna i tidrapportprofilerna och sedan generera nya tidrapporter. Instruktioner finns i [Ta bort tidrapporter i Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) och [Generera tidrapporter manuellt](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
@@ -77,7 +87,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Om du skapar eller redigerar en tidrapportprofil för en grupp klickar du på **Grupper** och sedan på gruppens namn.
 
 1. Klicka på **Tidrapportprofiler**.
-1. Om du vill skapa en ny tidrapportprofil klickar du på **Ny profil**.
+1. Om du vill skapa en tidrapportprofil klickar du på **Ny profil**.
 
    eller
 
@@ -86,13 +96,26 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Den nya eller befintliga tidrapportprofilen visas.
 
 
-1. På fliken **Ange information** skriver du **Namn** och **Beskrivning** för tidrapportprofilen och anger följande information:
+1. Klicka på fliken **Ange detaljer** och uppdatera sedan följande information:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>Namn</strong> </td> 
+      <td> <p> Lägg till ett namn för tidrapportprofilen. Det kan vara namnet på ett team eller en grupp vars personer delar samma tidsram för sina tidrapporter. </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Beskrivning</strong> </td> 
+      <td> <p> Lägg till mer information om tidrapportprofilen.     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader"><strong>Gruppera med administrationsåtkomst</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td role="rowheader"><strong>Tillgängliga timtyper</strong> </td> 
       <td><p>Den här inställningen avser endast allmänna timtyper och inte projektspecifika timtyper. </p>
       <p>Som standard ser användare alla allmänna timmar på en tidrapport. Om din organisation bara vill att specifika allmänna timmar ska visas för en viss uppsättning användare, kan du välja de allmänna timmar som de behöver se i sina tidrapporter genom att markera dem i sin tidrapportprofil i det här fältet. Om du vill inaktivera alla allmänna timmar avmarkerar du alla timtyper för att generera tidrapporten utan ett avsnitt för allmänna timmar.</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Påminnelsemeddelanden</strong> </td> 
+      <td> <p> Lägg till ett påminnelsemeddelande. Workfront skickar påminnelser till användare som ombeds att fylla i eller godkänna sina tidrapporter. Du måste skapa påminnelsemeddelanden innan du kan koppla dem till en tidrapportprofil.  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Övertid</span> </td> 
       <td>Du kan dölja rutan Övertid i tidrapporter. Det här alternativet är inaktiverat som standard.</td> 
      </tr> 

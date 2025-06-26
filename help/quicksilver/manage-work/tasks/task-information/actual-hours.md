@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Visa faktiska timmar
-description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront räknas som faktiska timmar.
+description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront räknas som faktiska timmar. Faktiska timmar representerar den faktiska tid det tog för dig att slutföra en uppgift, ett ärende eller ett projekt.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Faktiska timmar kontra äldre faktiska timmar
+
+Beroende på vilket område av Workfront du kommer åt de faktiska timmarna från kan de hänvisa till någon av följande loggade timmar:
+
+* I projekt, uppgifter och utfärda rapporter och listor:
+
+   * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
+   * **Tidigare faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+
+* I området med information om projekt, aktiviteter eller ärenden:
+
+   * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De motsvarar de befintliga faktiska timmarna i rapporter och listor. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
 
 ## Faktiska timmar för uppgifter och ärenden jämfört med faktiska timmar för projekt
 
@@ -134,7 +147,7 @@ Om du vill se hur arbetet med tilldelade uppgifter och ärenden fortskrider kan 
   Mer information finns i [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Faktiska timmar i Workfront <!--database and the--> API <!--, and custom data-->
+### Faktiska timmar i Workfront API
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,14 +155,13 @@ De flesta fält i Workfront som lagrar timmar sparas i Workfront-databasen på n
 
 Du måste ta hänsyn till konverteringen från minuter till timmar när du får åtkomst till dessa fält i API-anrop eller i beräknade anpassade fält eller kolumner.
 
-Beroende på hur du öppnar Faktiska timmar kan de lagras i följande fält och enheter i databasen:
+De faktiska timmarna som loggats för projekt, uppgifter eller utgåvor lagras för närvarande i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
 
-* I API: med följande version av Workfront API som ska släppas senare under 2025 är `valuefield` för faktiska timmar `actualWorkRequiredDouble`, som lagras i timmar. Den aktuella versionen lagrade faktiska timmar som `actualWorkRequired`, som lagras i minuter.
-* I Workfront-gränssnittet (beräknat anpassat fält och kolumner): `valuefield` för faktiska timmar är `actualWorkRequired` som lagras i minuter.
+Följande version av Workfront API är planerad att släppas senare under 2025, beroende på hur du öppnar Faktiska timmar, och de kan lagras i följande fält och enheter i databasen:
 
-<!--Change the above with this when we fix this for the Workfront UI: 
+* **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+* **Tidigare faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem när som helst, inklusive före maj 2021. De lagras i Workfront-databasen som minuter och deras värdefält är `actualWorkRequired`.
 
 Mer information om hur du använder Faktiska timmar i beräknade kolumner eller fält finns i [Rapportera vanliga frågor och svar](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 

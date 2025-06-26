@@ -9,7 +9,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -19,13 +19,6 @@ ht-degree: 0%
 # Översikt över systemspårade uppdateringar
 
 <!-- Audited: 06/2025-->
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 [!DNL Adobe Workfront] fångar aktiviteten som äger rum på vissa objekt genom att logga statusinformation i objektets [!UICONTROL Updates] -avsnitt.
 

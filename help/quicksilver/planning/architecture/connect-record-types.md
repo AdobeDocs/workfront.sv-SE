@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -199,14 +199,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * **Välj uppslagsfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på posten som du länkar från. Detta är markerat som standard.
 
-     >[!TIP]
-     >
-     > Du kan inte lägga till följande fälttyper som sökfält:
-     >
-     >    * Folk
-     >    * Skapad av
-     >    * Senast ändrad av
-     >    * Workfront typsnittsfält (inklusive fält som Projektägare eller Projektsponsor)
+   >[!TIP]
+   >
+   >Du kan inte lägga till Workfront-typsnittsfält (inklusive fält som Projektägare eller Projektsponsor) som sökfält.
 
 1. (Villkorligt och valfritt) Om du har valt att ansluta ett Workfront-objekt väljer du ett **anpassat formulär** bland **Länka endast objekt som matchar villkoren**. Endast objekt som har de markerade anpassade formulären kopplade kan länkas till den valda posttypen. Du kan markera flera formulär.
 
@@ -218,7 +213,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Villkorligt) Om du har valt att ansluta till Experience Manager Assets eller till posttypen Workfront Planning väljer du något av följande alternativ i området **Postutseende**:
 
@@ -256,10 +251,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >    Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett behörighet eller åtkomstnivå i programmet för de länkade objekttyperna.
 
-
 1. (Valfritt) Klicka på **Hoppa över** om du inte vill lägga till fält från den länkade posten eller objekttypen. Namnet eller det primära fältet för den länkade posten är det enda synliga fältet i tabellvyn för den posttyp som du ansluter från.
 
-1. (Valfritt och villkorligt) Om du väljer att länka ett tal, en valuta, en procentandel eller ett datumtypsfält, ska du också välja ett aggregeringsvärde som ska sammanfatta flera värden. Värdena för de länkade fälten visas antingen avgränsade med kommatecken eller som ett summerat värde enligt den aggregator du väljer, när användare markerar mer än en länkad post i det länkade postfältet.
+1. Välj en aggregator för de uppslagsfält som du lägger till.
+
+   >[!NOTE]
+   >
+   >Du kan inte lägga till aggregerare för följande fälttyper:
+   >
+   >    * Stycke
+   >    * Kryssruta
+
+   Värdena för de länkade fälten visas antingen avgränsade med kommatecken eller som ett summerat värde enligt den aggregator du väljer, när användare markerar mer än en länkad post i det länkade postfältet.
 
    Om sökfältet innehåller flera värden som inte är summerade bör du tänka på följande när du använder fältet för att sortera eller gruppera i en vy:
 
@@ -271,7 +274,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!IMPORTANT]
    >
-   >    Du måste välja ett aggregeringsvärde när du lägger till sökdatumfält om du vill att fälten ska vara tillgängliga för att lägga till som start- och slutdatum för tidslinjen och kalendervyer. Du kan till exempel välja MAX eller MIN-aggregering för ett datumsökningsfält.
+   > Du måste välja ett aggregeringsvärde när du lägger till sökdatumfält om du vill att fälten ska vara tillgängliga för att lägga till som start- och slutdatum för tidslinjen och kalendervyer. Du kan till exempel välja MAX eller MIN-aggregering för ett datumsökningsfält.
 
    ![Listrutan Aggregator för det länkade nummerfältet](assets/aggregator-drop-down-for-number-linked-field.png)
 

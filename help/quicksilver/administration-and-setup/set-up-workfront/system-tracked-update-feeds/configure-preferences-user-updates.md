@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Konfigurera inställningar för användaruppdateringar
 description: Du kan konfigurera inställningar som ger åtkomst till vissa funktioner när användare lägger till kommentarer i ett objekts [!UICONTROL Updates]-område.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Konfigurera inställningar för användaruppdateringar
+
+<!--Audited: 06/2025-->
 
 Du kan konfigurera inställningar som ger användarna åtkomst till vissa funktioner när de lägger till kommentarer i ett objekts [!UICONTROL Updates]-område.
 
@@ -34,7 +36,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
    <td><p>Nytt: [!UICONTROL Standard]</p>
    eller
    <p>Aktuell: [!UICONTROL Plan]</p>
@@ -47,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

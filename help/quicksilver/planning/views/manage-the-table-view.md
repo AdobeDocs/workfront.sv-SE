@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '3633'
+source-wordcount: '3720'
 ht-degree: 0%
 
 ---
@@ -458,9 +458,7 @@ Så här lägger du till en gruppering:
 
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
-   <!--replace screen shot for Expand all-->
-
-   ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
+   <span class="preview">![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)</span>
 
 1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
@@ -471,26 +469,23 @@ Så här lägger du till en gruppering:
 1. Klicka utanför rutan **Gruppera poster efter** för att stänga den.
 1. (Valfritt) Klicka på **+ Ny post** i slutet av en gruppering för att lägga till nya poster. Uppdatera sedan sidan för att lägga till den nya posten i lämplig gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-<!--
+1. <span class="preview">Gör något av följande om du vill expandera eller komprimera grupperingar:</span>
 
-1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+   <div class="preview">
 
-    <div class="preview">
+   1. Klicka på ikonen **Gruppering** och sedan **Expandera alla** eller **Komprimera alla**. Detta utökar alla grupperingar och undergrupperingar i tabellvyn.
 
-    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+      ![Expandera och komprimera alla knappar i grupperingsrutans tabellvy](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   1. Högerklicka på någon av grupperingsrubrikerna i tabellvyn och klicka sedan på något av följande alternativ:
+      * **Expandera grupp**
+      * **Komprimera grupp**
+      * **Expandera alla**
+      * **Komprimera alla**
+      * **Expandera undergrupper**
+      * **Komprimera undergrupper**
 
-    1. Right-click any of the grouping headers in the table view, then click one of the following options:
-        * **Expand group**
-        * **Collapse group**
-        * **Expand all**
-        * **Collapse all**
-        * **Expand subgroups**
-        * **Collapse subgroups**
-
-        Depending on the number of groupings you apply to the view, some options might not be available.</div>
--->
+      Beroende på hur många grupperingar du använder i vyn kanske vissa alternativ inte är tillgängliga.</div>
 
 <!-- this is not available yet: 
 

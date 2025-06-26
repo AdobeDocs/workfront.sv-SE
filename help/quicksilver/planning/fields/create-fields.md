@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '4684'
+source-wordcount: '4717'
 ht-degree: 0%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -322,7 +322,7 @@ Nummerfälttyper samlar in information i talformat.
 >Nummerfält visas som en typ av enradigt textfält i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som siffror efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Number**.
@@ -352,7 +352,7 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 >Procentfält visas som en enkelradig textfälttyp i ett formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena för dessa fält visas som procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
@@ -392,7 +392,7 @@ Valutafälttyper samlar in information i ett talformat som föregås av en valut
 >Valutafält visas som en enkelradig textfälttyp i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som valuta efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Valuta**.
 
@@ -461,6 +461,9 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >[!NOTE]
    >
    >* Du kan inte lägga till flervalsfält i en formel.
+   >
+   >
+   >* Du måste stava namnet på fälten som du inkluderar i formlerna så som du ser dem i Workfront Planning. Workfront textlägessyntax och jokertecken stöds inte i Workfront Planning-formler.
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >

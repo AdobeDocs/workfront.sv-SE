@@ -2,26 +2,30 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Ta bort tidrapportprofiler
-description: Du kan ta bort en tidrapportprofil.
+description: Du kan ta bort en tidrapportprofil som kanske inte längre är relevant.
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
 # Ta bort tidrapportprofiler
 
-Du kan ta bort en tidrapportprofil.
+<!--Audited:6/2025-->
+
+När du skapar och tilldelar tidrapportprofiler till användare blir tidrapporterna enhetliga på det sätt som Adobe Workfront skapar.
+
+Du kan ta bort en tidrapportprofil som kanske inte längre är relevant.
 
 Mer information om tidrapportprofiler finns i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Åtkomstkrav
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,17 +36,21 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td> <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Bevilja användare administrativ åtkomst till vissa områden</a>.</p>  <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ta bort tidrapportprofiler
 
@@ -55,5 +63,10 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    Om du tar bort en tidrapportprofil för en grupp klickar du på **Grupper** och sedan på gruppens namn.
 
 1. Klicka på **Tidrapportprofiler**.
-1. Markera minst en tidrapportprofil som du vill ta bort och klicka sedan på **Mer > Ta bort**.
-1. Klicka på **Ja, Ta bort** t i meddelanderutan som visas.
+1. Markera minst en tidrapportprofil som du vill ta bort och klicka sedan på **Mer** > **Ta bort**.
+1. (Villkorligt) Om tidrapportprofilen redan är tilldelad användare visas rutan **Ersätt tidrapportprofil**. Gör följande:
+   1. Välj en annan tidrapportprofil i listrutan. Den tidrapportprofil som du tar bort ersätts av den tidrapportprofil som du ersätter den med för alla tilldelade användare. Tidrapporterna genereras enligt den nyligen tilldelade profilen i följande genereringscykel för tidrapporter.
+   1. Klicka på **Ta bort** för att bekräfta borttagningen.
+1. (Villkorligt) Om tidrapportprofilen inte har tilldelats användare visas rutan **Ta bort tidrapport** .
+
+   Klicka på **Ta bort** för att bekräfta borttagningen.

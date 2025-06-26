@@ -6,16 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
 
 # Översikt över formelfält
-
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -104,6 +102,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Formelfält refererar till fält som tillhör samma posttyp.
 * Du kan bara referera till fält från andra posttyper när du kopplar en annan posttyp till den som du skapar ett formelfält för.
+* &lt;span class-&quot;preview&quot;>Referens till anslutna posttyper eller deras sökfält i en formel beror på dina behörigheter till de anslutna posttyperna. Om du inte har behörighet att visa posttypen kan du inte referera till deras fält i en formel. </span>
 * Du kan inte ändra fälttypen för ett formelfält när du har sparat det.
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
 * Du måste lägga till de fält som du refererar till i formler när de visas i Workfront Planning-gränssnittet.

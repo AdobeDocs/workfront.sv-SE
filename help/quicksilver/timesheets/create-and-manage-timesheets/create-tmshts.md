@@ -6,18 +6,22 @@ description: Du kan skapa en tidrapport för engångsbruk manuellt om du vill ha
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # Skapa en tidrapport för engångsbruk
 
+<!--Audited: 6/2025-->
+
 Du kan skapa en tidrapport för engångsbruk manuellt om du vill ha en tidrapport som inte är återkommande. När slutdatumet för tidrapporten nås och du behöver fler tidrapporter måste du skapa nya.
 
 Mer information om hur du skapar en tidrapportprofil som genererar återkommande tidrapporter för dina användare utan att du behöver göra något (rekommenderas) finns i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+Mer information om hur du manuellt genererar tidrapporter för alla användare i systemet som är kopplade till en tidrapportprofil finns i [Generera tidrapporter manuellt](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 >[!NOTE]
 >
@@ -50,8 +54,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <p>Aktuell: Planera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +66,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Skapa en tidrapport för engångsbruk
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Klicka på **Tidrapporter**. Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du har tillgång till.
+Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du har tillgång till.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista över tidrapporter med en tidrapport vald](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Valfritt) Uppdatera filtret i listan över tidrapporter genom att göra något av följande:
 
@@ -78,9 +82,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
      Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Mina filterknappar för tidrapporter på listsidan för tidrapporter](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicka på Filterikonen ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Valfritt) Klicka på ikonen **Sök** ![](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
+1. (Valfritt) Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
 
-1. (Valfritt) Klicka på ikonerna **Visa** ![](assets/view-icon.png) eller **Gruppera** ![](assets/grouping.png) om du vill använda en annan vy eller gruppering eller skapa en ny.
+1. (Valfritt) Klicka på ikonerna **Visa** ![Visa](assets/view-icon.png) eller **Gruppera** ![Gruppera](assets/grouping.png) om du vill använda en annan vy eller gruppering eller skapa en ny.
 
    Mer information om hur du skapar filter, vyer och grupperingar finns i följande artiklar:
 
