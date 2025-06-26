@@ -39,11 +39,11 @@ Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden re
 >[!IMPORTANT]
 >
 >Beroende på när timmarna loggades kan det finnas en diskrepans mellan faktiska timmar och faktiska timmar för äldre för ett projekt, en uppgift eller en utgåva.<br>
->>Följande scenarier finns:
+>&#x200B;>Följande scenarier finns:
 >
 >* De faktiska timmarna som representerar timmar som har loggats för projekt, uppgifter och utgåvor sedan maj 2021 har flyttats från fältet Gammal faktisk timme till det nya fältet Faktisk timme.
 >* De faktiska timmarna som representerar timmar som loggats för projekt, uppgifter och utgåvor före maj 2021 räknas bara i fältet Gammal faktisk tid.
->  ><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
+>  &#x200B;><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
 
 
 Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
