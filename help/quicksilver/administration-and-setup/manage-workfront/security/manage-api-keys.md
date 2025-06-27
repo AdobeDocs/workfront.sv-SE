@@ -107,6 +107,7 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
    1. Expandera **System** och klicka sedan på **Enkel inloggning (SSO)**.
    1. I fältet **Typ** väljer du den typ av enkel inloggning som din organisation använder.
    1. När typen är markerad rullar du nedåt och avmarkerar kryssrutan **Aktivera**.
+
       ![Aktivera enkel inloggning](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Klicka på **Spara**.
 
