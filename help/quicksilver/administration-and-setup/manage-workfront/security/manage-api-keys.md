@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -107,14 +107,13 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
    1. Expandera **System** och klicka sedan på **Enkel inloggning (SSO)**.
    1. I fältet **Typ** väljer du den typ av enkel inloggning som din organisation använder.
    1. När typen är markerad rullar du nedåt och avmarkerar kryssrutan **Aktivera**.
-
       ![Aktivera enkel inloggning](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Klicka på **Spara**.
 
 
 1. Ange följande API-anrop i adressfältet i en webbläsare:
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;användarnamn&#x200B;**&amp;password=**&#x200B;password**&amp;method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
 
    Ersätt `<domain>` med ditt Workfront-domännamn och användarnamn och lösenord med användarens Workfront-autentiseringsuppgifter.
 
@@ -140,9 +139,9 @@ Du kan konfigurera API-nycklar så att de upphör att gälla för alla användar
 
    API-nycklar förfaller som standard varje månad.
 
-1. Om du vill konfigurera API-nycklar så att de förfaller när användarens lösenord förfaller väljer du **Ta bort API-nyckel när användarens lösenord förfaller**.
+1. Aktivera **Ta bort API-nyckel när en användares lösenord upphör att gälla** om du vill konfigurera API-nycklar så att de förfaller när användarens lösenord förfaller.
 
-   Som standard är det här alternativet inte markerat.
+   Som standard är det här alternativet inte aktiverat.
 
    Mer information om hur du konfigurerar användarlösenord så att de upphör att gälla finns i [Konfigurera systemsäkerhetsinställningar](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -166,15 +165,15 @@ Om du är orolig för en viss säkerhetsöverträdelse i ditt Workfront-system k
 
 >[!IMPORTANT]
 >
->Det förfarande som beskrivs i detta avsnitt gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Det går inte att logga in på Workfront via Workfront API om din organisation har anslutit sig till Adobe Business Platform.
+>Den procedur som beskrivs i detta avsnitt gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Det går inte att logga in på Workfront via Workfront API om din organisation har anslutit sig till Adobe Business Platform.
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
-Tredjepartsprogram kan kommunicera med Workfront via API:t. Om du vill öka säkerheten på din Workfront-webbplats kan du konfigurera Workfront att begränsa API-inloggningsbegäranden genom att överföra ett X.509-certifikat till Workfront. När den är aktiverad måste alla inloggningsbegäranden via API:t innehålla ett klientcertifikat förutom användarnamn och lösenord.
 
 >[!NOTE]
 >
 >Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
+
+Tredjepartsprogram kan kommunicera med Workfront via API:t. Om du vill öka säkerheten på din Workfront-webbplats kan du konfigurera Workfront att begränsa API-inloggningsbegäranden genom att överföra ett X.509-certifikat till Workfront. När den är aktiverad måste alla inloggningsbegäranden via API:t innehålla ett klientcertifikat förutom användarnamn och lösenord.
 
 * [Hämta X.509-certifikatet](#obtain-the-x-509-certificate)
 * [Överför certifikatet till Workfront](#upload-the-certificate-to-workfront)
@@ -182,7 +181,7 @@ Tredjepartsprogram kan kommunicera med Workfront via API:t. Om du vill öka säk
 
 ### Hämta X.509-certifikatet {#obtain-the-x-509-certificate}
 
-Hämta ett giltigt X.509-certifikat från en betrodd certifikatutfärdare (till exempel Verisign) och placera det på en tillfällig plats på din arbetsstation.
+Hämta ett giltigt X.509-certifikat från en betrodd certifikatutfärdare (till exempel Verisign) och spara det på en tillfällig plats på din arbetsstation.
 
 ### Överför certifikatet till Workfront {#upload-the-certificate-to-workfront}
 
@@ -192,7 +191,8 @@ När du har fått X.509-certifikatet från din certifikatutfärdare måste du ö
 
 1. Expandera **System** och klicka sedan på **Kundinformation**.
 
-1. I området **API-nyckelinställningar** väljer du **Aktivera X.509-certifikat**.
+1. I området **API-nyckelinställningar** väljer du **Kräv X.509-certifikat för API-inloggningar**.
+1. Klicka på **Ändra certifikat**.
 1. På din arbetsstation bläddrar du till och väljer det X.509-certifikat som du har hämtat tidigare.
 1. (Valfritt) Klicka på **Visa information** bredvid certifikatnamnet om du vill visa följande information om certifikatet:
 
