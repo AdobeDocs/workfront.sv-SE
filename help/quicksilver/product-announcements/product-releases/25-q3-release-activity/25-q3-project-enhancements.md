@@ -37,12 +37,12 @@ Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden re
 >[!IMPORTANT]
 >
 >Beroende på när timmarna loggades kan det finnas en diskrepans mellan faktiska timmar och faktiska timmar för äldre för ett projekt, en uppgift eller en utgåva.<br>
->>Följande scenarier finns:
+>&#x200B;>Följande scenarier finns:
 >
 >* Faktiska timmar representerar timmar som har loggats för projekt, uppgifter och utgåvor sedan maj 2021.
 >* Gamla faktiska timmar representerar timmar som loggats för projekt, uppgifter och utgåvor under projektets, uppgiftens eller problemets livstid. Detta inkluderar timmar som loggats före maj 2021 till aktuell tid.
->  ><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
->  ><br>Workfront använder äldre faktiska timmar för att beräkna de faktiska arbetskostnaderna.
+>  &#x200B;><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
+>  &#x200B;><br>Workfront använder äldre faktiska timmar för att beräkna de faktiska arbetskostnaderna.
 
 Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
