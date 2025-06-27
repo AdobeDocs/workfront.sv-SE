@@ -154,7 +154,7 @@ Timtaxan i formeln tar hänsyn till eventuella faktiska datumändringar av ränt
 >[!NOTE]
 >
 >Projektets faktiska utgiftskostnad beräknas enligt följande:
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Dessa kostnader dupliceras inte i den faktiska kostnadsberäkningen. Om till exempel en fast kostnad är en del av projektets faktiska utgiftskostnad, läggs den inte till separat i den faktiska kostnaden.
 
