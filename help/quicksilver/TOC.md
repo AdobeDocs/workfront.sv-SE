@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2c1102e3496d4d8bc7bc07e7c41d1d2455c8637e
+source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13211'
 ht-degree: 0%
 
 ---
@@ -1501,9 +1501,12 @@ ht-degree: 0%
          * [Kom igång med Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [Lägga till, ta bort eller ordna rapporter på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [Dela en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * Rapporttyper för kontrollpanelen Canvas {#report-types}
-         * [Översikt över rapporttyper i kontrollpanelen för arbetsyta](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-         * [Lägga till en befintlig rapport på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+      * Lägg till rapporter {#add-reports}
+         * [Översikt över rapporttyper i kontrollpanelen för arbetsyta](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
+         * [Skapa en KPI-rapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [Skapa en diagramrapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+         * [Skapa en tabellrapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+         * [Lägga till en befintlig rapport på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
    * Rapporter {#reports}
       * [Rapporter](reports-and-dashboards/reports/reports-overview.md)
       * Grundläggande om rapportering {#report-basics}
