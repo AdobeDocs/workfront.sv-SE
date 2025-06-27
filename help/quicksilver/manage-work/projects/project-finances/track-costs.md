@@ -7,9 +7,9 @@ description: Du kan spåra kostnader för projekt, uppgifter och problem i Adobe
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ Du kan spåra olika typer av kostnader för uppgifter och projekt i Workfront. D
     </tr> 
     <tr> 
      <td>Faktiska arbetskostnader</td> 
-     <td> <p>De beräknas med följande formel:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>De beräknas med följande formel:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>OBS!</strong>
+     <p>Workfront beräknar den faktiska arbetskostnaden med hjälp av de gamla faktiska timmarna. Mer information finns i <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visa faktiska timmar</a>. </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ Timtaxan i formeln tar hänsyn till eventuella faktiska datumändringar av ränt
 >[!NOTE]
 >
 >Projektets faktiska utgiftskostnad beräknas enligt följande:
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Dessa kostnader dupliceras inte i den faktiska kostnadsberäkningen. Om till exempel en fast kostnad är en del av projektets faktiska utgiftskostnad, läggs den inte till separat i den faktiska kostnaden.
 

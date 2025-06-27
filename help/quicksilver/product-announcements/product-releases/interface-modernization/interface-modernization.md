@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
+source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
 workflow-type: tm+mt
-source-wordcount: '4861'
+source-wordcount: '5088'
 ht-degree: 0%
 
 ---
@@ -24,38 +24,35 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ## Administratör och installation
 
-<!--### Look and feel updates for the Update Feeds section of Setup 
+### Utforma och känna av uppdateringar för avsnittet Uppdatera feeds i installationsprogrammet
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
+**Förhandsgranskning: 27 juni 2025; Produktion för alla: 10 juli 2025**
 
-We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+Vi har uppdaterat utseendet på alla flikar och underflikar i avsnittet Uppdatera feeds i installationsprogrammet. Avsnittet Uppdatera feeds visas under Gränssnitt i installationsprogrammet. Nu matchar alla flikar i avsnittet Uppdatera feeds andra områden i Workfront.
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
+Mer information finns i [Konfigurera systemuppdateringar](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
 
+### Utforma och känna av uppdateringar för rutan Lägg till fält i delen Uppdatera feeds i installationsprogrammet
 
-<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
+**Förhandsversion: 27 juni 2025; Produktionsversion: 10 juli 2025**
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
+Vi har uppdaterat utseendet och känslan för rutan Lägg till fält i avsnittet Uppdatera feeds i installationsprogrammet. Avsnittet Uppdatera feeds visas under Gränssnitt i installationsprogrammet. När du lägger till fält på en underflik på fliken Spårade fält har nu rutan Lägg till fält fått ett nytt utseende och en ny känsla, och några av gränssnittselementen har uppdaterats.
 
-We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
+Mer information finns i [Konfigurera systemuppdateringar](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-* The list of Timesheet Profiles 
+### Nytt utseende på listorna i avsnittet Tidrapporter och timmar i inställningsområdet
 
-* The list of Hour Types 
+**Förhandsgranskning: 26 juni 2025; Produktion för alla: 10 juli 2025**
 
-These lists now match other areas of Workfront.  
+Vi har uppdaterat utseendet på följande listor i avsnittet Tidrapporter och timmar i inställningsområdet:
 
- For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
+* Listan över tidrapportprofiler
 
+* Listan över timtyper
 
-<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+De här listorna matchar nu andra områden i Workfront.
 
-**Preview release: June 26, 2025; Production release: July 10, 2025** 
-
-We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
-
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
-
+Mer information finns i [Skapa, redigera och tilldela tidrapportprofiler](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Gränssnittsuppdateringar för företagssidan
 

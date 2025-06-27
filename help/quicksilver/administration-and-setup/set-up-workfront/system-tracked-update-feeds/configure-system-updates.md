@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 <!-- Audited: 6/2025 -->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 [!DNL Adobe Workfront] genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates]-område för att registrera följande händelser:
 
@@ -96,13 +96,13 @@ Du kan lägga till fält som du vill att [!DNL Workfront] ska spåra för en vis
 {{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Interface]** i panelen till vänster och sedan på **[!UICONTROL Update Feeds]**.
-1. (Valfritt) Klicka på någon av följande underflikar på fliken **Spårade fält**, beroende på vilka typer av fält du vill spåra i uppdateringsflödet:
+1. (Valfritt) Klicka på någon av följande underflikar på fliken <span class="preview">**Spårade fält**</span>, beroende på vilka typer av fält du vill spåra i uppdateringsflödet:
 
-   * **Inbyggda fält**: Visar en lista med inbyggda fält.
-   * **Anpassade fält**: Visar en lista med anpassade fält. Du måste skapa anpassade fält innan de är tillgängliga i listan.
-   * **Alla fält**: Visar en lista över både inbyggda och anpassade fält.
+   * <span class="preview">**Inbyggda fält**</span>: Visar en lista med inbyggda fält.
+   * <span class="preview">**Anpassade fält**</span>: Visar en lista med anpassade fält. Du måste skapa anpassade fält innan de är tillgängliga i listan.
+   * <span class="preview">**Alla fält**</span>: Visar en lista över både inbyggda och anpassade fält.
 
-1. Klicka på **[!UICONTROL Add Fields]** och markera sedan det objekt som du vill ska spåras i listrutan.
+1. Klicka på <span class="preview">**[!UICONTROL Add fields]**,</span> och markera sedan det objekt som du vill ska spåras i listrutan.
 
    Det går inte att markera fält manuellt för alla objekt som har uppdateringsområdet.
 
@@ -115,51 +115,16 @@ Du kan lägga till fält som du vill att [!DNL Workfront] ska spåra för en vis
    * Program
    * Användare
 
-   Rutan **Lägg till fält** öppnas för varje markerat objekt.
-1. I rutan **Lägg till fält** börjar du skriva ett inbyggt (standard) fält eller ett anpassat fält för objektet och markerar det när det visas i listan.
+   Rutan <span class="preview">**Lägg till fält** </span> öppnas för varje markerat objekt.
+1. I rutan <span class="preview">**Lägg till fält** </span> börjar du skriva ett inbyggt (standard) fält eller ett anpassat fält för objektet och markerar det sedan när det visas i listan.
 
    >[!NOTE]
    >
    >Om [!DNL Workfront] redan spårar fältet kan du inte lägga till det en andra gång från listan.
 
-1. När du har lagt till alla fält som du vill att [!DNL Workfront] ska spåra klickar du på **[!UICONTROL Add Fields]**.
-De inbyggda fälten som du har lagt till visas under underfliken **[!UICONTROL Built-in Fields]** och de anpassade fälten visas under underfliken **[!UICONTROL Custom Fields]**.
-Underfliken **[!UICONTROL All Fields]** visar både inbyggda och anpassade fält som [!DNL Workfront] spårar.
-
-<!-- replace the above when releasing to Preview: 
-
-1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
-1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
-
-   * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
-   * <span class="preview">**Custom fields**</span>: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
-   * <span class="preview">**All fields**</span>: Displays a list of both built-in and custom fields. 
-
-1. Click <span class="preview">**[!UICONTROL Add fields]**,</span> then select the object that you want to be tracked from the drop-down. 
-
-   Manually selecting fields is not available for all the objects that have an Updates area.
-
-   Select from fields for the following objects:
-
-      * Project
-      * Task
-      * Issue
-      * Portfolio
-      * Program
-      * User
-
-   The <span class="preview">**Add fields** </span> box opens, for each object selected.
-1. In the <span class="preview">**Add fields** </span> box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
-
-   >[!NOTE]
-   >
-   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
-
-1. After adding all the fields you want [!DNL Workfront] to track, <span class="preview"> click **[!UICONTROL Add]**.
-   The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
-   The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
-
--->
+1. När du har lagt till alla fält som du vill att [!DNL Workfront] ska spåra <span class="preview"> klickar du på **[!UICONTROL Add]**.
+De inbyggda fälten som du har lagt till visas under underfliken **[!UICONTROL Built-in fields]** och de anpassade fälten visas under underfliken **[!UICONTROL Custom fields]**.
+Underfliken **[!UICONTROL All fields]** visar både inbyggda och anpassade fält som [!DNL Workfront] spårar.</span>
 
 ### Ta bort fält som du inte vill spåra {#remove-fields-you-don-t-want-tracked}
 
