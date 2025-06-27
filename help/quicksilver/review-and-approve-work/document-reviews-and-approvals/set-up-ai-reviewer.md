@@ -57,8 +57,8 @@ Innan du börjar måste du ange riktlinjer för varumärket i GenStudio Foundati
 
 Mer information om riktlinjer för varumärken finns i
 
-* [GenStudio for Performance Marketing-varumärken](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Lägg till riktlinjer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing-varumärken](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Lägg till riktlinjer](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 ## Lägga till en AI-granskare
 
