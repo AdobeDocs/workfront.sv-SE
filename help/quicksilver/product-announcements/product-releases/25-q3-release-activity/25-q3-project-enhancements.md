@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >
 > Förhandsgranskning och produktion: 24 juni 2025 
 
-Det befintliga fältet Faktiska timmar har bytt namn till Tidigare faktiska timmar. I det här fältet lagras den tid som har loggats för projekt, uppgifter och ärenden på några minuter. Fältet lagras i Workfront-databasen som actualWorkRequired.
+Vi har lagt till ett nytt fält för faktiska timmar som lagrar den tid som loggats för projekt, uppgifter och utgåvor i timmar, med decimalprecision. Fältet lagras i Workfront-databasen som `actualWorkRequiredDouble`.
 
-Vi har lagt till ett nytt fält för faktiska timmar som lagrar den tid som loggats för projekt, uppgifter och utgåvor i timmar, med decimalprecision. Fältet lagras i Workfront-databasen som actualWorkRequiredDouble.
+Det befintliga fältet Faktiska timmar har bytt namn till Tidigare faktiska timmar. Fältet lagrar den tid som har loggats för projekt, uppgifter och utgåvor på några minuter och lagras i Workfront-databasen som `actualWorkRequired`.
 
 Fälten Faktiska timmar och Äldre faktiska timmar visas i projekt-, uppgifts- och problemvyer och rapporter.
 
 Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden representerar de nya Faktiska timmarna.
 
-
-
 >[!IMPORTANT]
 >
 >Beroende på när timmarna loggades kan det finnas en diskrepans mellan faktiska timmar och faktiska timmar för äldre för ett projekt, en uppgift eller en utgåva.<br>
->&#x200B;>Följande scenarier finns:
+>>Följande scenarier finns:
 >
->* De faktiska timmarna som representerar timmar som har loggats för projekt, uppgifter och utgåvor sedan maj 2021 har flyttats från fältet Gammal faktisk timme till det nya fältet Faktisk timme.
->* De faktiska timmarna som representerar timmar som loggats för projekt, uppgifter och utgåvor före maj 2021 räknas bara i fältet Gammal faktisk tid.
->  &#x200B;><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
-
+>* Faktiska timmar representerar timmar som har loggats för projekt, uppgifter och utgåvor sedan maj 2021.
+>* Gamla faktiska timmar representerar timmar som loggats för projekt, uppgifter och utgåvor under projektets, uppgiftens eller problemets livstid. Detta inkluderar timmar som loggats före maj 2021 till aktuell tid.
+>  ><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
+>  ><br>Workfront använder äldre faktiska timmar för att beräkna de faktiska arbetskostnaderna.
 
 Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
