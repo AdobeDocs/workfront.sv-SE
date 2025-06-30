@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Enhetliga godkännanden är en helt ny utformning av den befintliga godkännande
 * Deltagare i dokumentgodkännande visas i dokumentsammanfattningen, inte på fliken för korrekturarbetsflöde.
 * Enhetliga godkännanden stöds inte i det aktuella rapportverktyget.
 
-  Du kan gå med i den nya betaversionen av kontrollpaneler på arbetsytan för att [skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), eller så kan du använda widgeten Alla godkännanden som finns i den nya hempanelen på arbetsytan med följande information om enhetliga godkännanden:
+  Du kan gå med i den nya betaversionen av kontrollpaneler på arbetsytan för att [skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), eller så kan du använda widgeten för dokumentgodkännandemått som finns i nya instrumentpaneler på arbetsytan, som innehåller följande information om enhetliga godkännanden:
 
    * Godkännanden genom beslut
    * Genomsnittlig godkännandetid

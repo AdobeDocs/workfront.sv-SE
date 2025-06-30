@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
+source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Den här sidan beskriver alla förbättringar av Home som gjorts i tredje kvarte
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-<!--## All Approvals widget renamed to Document approval metrics
+## Widgeten Alla godkännanden har bytt namn till Mätvärden för dokumentgodkännande
 
-We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+Vi har bytt namn på widgeten Alla godkännanden till Dokumentgodkännandevärden för att bättre återspegla den information som visas. Widgeten för dokumentgodkännandemått ger insikter i dokumentgodkännanden för de projekt du äger.
 
-This widget does not contain any information about proof approvals. -->
+Den här widgeten innehåller ingen information om korrekturgodkännanden.
 
 ## Uppdaterad kommentarsfunktion i avsnittet Meningar i området Mina uppdateringar
 

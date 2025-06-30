@@ -6,9 +6,9 @@ description: Home hjälper dig att hantera ditt arbete. Du kan anpassa det här 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,8 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
 * **Mitt godkännande**\
     Visar alla dina väntande, tilldelade, delegerade och skickade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
 
-* **Alla godkännanden**\
-        Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden. <span style="color: #ff0000;">Den här funktionen är en del av en fasversion och är för närvarande endast tillgänglig för vissa kunder.</span>
+* **Mätvärden för dokumentgodkännande**\
+        Visar 2 diagram med information om genomsnittlig tid för godkännande av dokument och beslut samt en lista över väntande och försenade godkännanden. Du måste ha Enhetliga godkännanden aktiverat för att kunna använda denna widget.
 
 * **Meningar**\
     Visar senaste kommentarstrådar från hela Workfront, som liknar sidan Mina uppdateringar. Du kan använda svarsknappen för att skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
