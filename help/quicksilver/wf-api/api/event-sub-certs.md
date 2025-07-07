@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: c747d3697fd2a4e74dd4af5a8a418d0f52cf71ed
+source-git-commit: f409bc84360d92f1b952b594720d5e4aea1fc354
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,11 @@ Sandbox 2
 -->
 
 Med Klient-TLS kan du verifiera att det händelseteckningsmeddelande du får verkligen kommer från Adobe Workfront. Om du vill aktivera den här funktionen måste servern vara konfigurerad att begära och validera Workfront x509-certifikat.
+
+>[!NOTE]
+>
+>* Workfront stöder för närvarande TLS version 1.2 som standard.
+>* Organisationer kan begära att TLS version 1.3 aktiveras för deras Workfront-instans.
 
 
 ## Verifiera Workfront klientcertifikat
