@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
+source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
 workflow-type: tm+mt
-source-wordcount: '13224'
+source-wordcount: '13227'
 ht-degree: 0%
 
 ---
@@ -2457,7 +2457,7 @@ ht-degree: 0%
       * [Uppdatera integreringar som använder API-standardversionshantering](wf-api/api/update-default-api-versioning.md)
       * [Filtrera händelsens prenumerationsmeddelanden](wf-api/api/filter-event-sub-messages.md)
       * [Resursfält för händelseprenumeration](wf-api/api/event-sub-resource-fields.md)
-      * [Prenumerationscertifikat för evenemang](wf-api/api/event-sub-certs.md)
+      * [Konfigurera klient-TLS för händelseprenumeration](wf-api/api/event-sub-certs.md)
       * [Ange en API-version i integreringarna](wf-api/api/specify-api-version-integrations.md)
       * [Centrala API-ändringar: statussöksvar](wf-api/api/api-changes-search.md)
       * [API-versionshantering och supportschema](wf-api/api/api-version-support-schedule.md)
