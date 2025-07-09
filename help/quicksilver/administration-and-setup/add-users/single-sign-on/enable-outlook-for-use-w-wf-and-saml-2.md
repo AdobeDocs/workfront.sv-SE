@@ -8,14 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
 # Aktivera Outlook för Workfront och SAML 2.0
+
+>[!IMPORTANT]
+>
+>[Microsoft håller på att inaktivera stöd för äldre Exchange-onlinetoken](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), som för närvarande används av Workfront Outlook-tillägget för autentisering. Denna förändring från Microsoft har redan börjat påverka kunderna och kommer att fortsätta att gälla i faser fram till oktober 2025.
+>
+>* **När Microsoft har inaktiverat alla dessa variabler fungerar inte längre integreringen med Workfront för Microsoft Outlook.**
+>
+>Som en del av den här ändringen har Microsoft beslutat att ändra hur tokens återaktiveras. Efter den **30 juni 2025** kan administratörer inte längre återaktivera tokens själva. Det är bara Microsoft Support som kan bevilja undantag. **Den 1 oktober 2025 inaktiveras äldre token för alla innehavare. Undantag beviljas inte.**
 
 Om du aktiverar SAML 2.0-autentisering och du vill att dina användare ska kunna logga in på Workfront från Microsoft Outlook med sina SAML 2.0-inloggningsuppgifter, måste du aktivera SAML 2.0 för autentisering i Office-tillägg.
 
