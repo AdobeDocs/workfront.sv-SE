@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
+source-git-commit: 6f79c2973324d7de34736810dafcbd08714b4738
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,63 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Auto-populate fields based on applied groupings
+
+Preview: July 10, 2025 
+Production fast release: August 14, 2025 
+Production for everyone: October 16, 2025 
+
+Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+
+If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+
+Prior to this enhancement, you had to manually update the fields associated with groupings.  
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+
+## Gemensam delningsknapp för vyer och posttyper
+
+>[!NOTE]
+>
+>* Förhandsgranska: 9 juli 2025
+>* Produktion för alla: 17 juli 2025
+
+Nu kan du dela en vy samt en posttyp från samma knapp på posttypens sida. Före den här förbättringen kunde du bara dela posttypen från knappen Dela på posttypssidan och en vy från vyfliken.
+
+Mer information finns i följande artiklar:
+
+* [Dela vyer](/help/quicksilver/planning/access/share-views.md)
+
+* [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md)
+
+
+<!--## Add teams as approvers on Planning request forms
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025 
+>* Production for everyone: October 16, 20025 
+
+To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
+
+Previously, only individual users could be assigned as approvers. 
+
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+
+## Uppdaterad upplevelse vid delning av begärandeformulär
+
+>[!NOTE]
+>
+>* Förhandsgranska: 9 juli 2025
+>* Produktion för alla: 17 juli 2025
+
+För att göra upplevelsen av att dela ett begärandeformulär i Workfront Planning säkrare och enklare har vi gjort följande ändringar:
+
+* Vi har tagit bort ärvda behörigheter. Formuläret för begäran delas nu endast med de som du väljer.
+* Vi har tagit bort alternativen för att hantera och bidra för användare som du delar frågeformuläret med. Nu kan tillagda användare bara skicka formuläret.
+* Fliken för offentlig delning visar nu länken och utgångsdatumet först när alternativet Skapa offentlig länk har aktiverats.
+
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandera och komprimera alla grupperingar i tabellvyn
 
@@ -239,7 +296,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 

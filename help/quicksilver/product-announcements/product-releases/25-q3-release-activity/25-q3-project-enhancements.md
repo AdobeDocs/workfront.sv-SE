@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,23 @@ ht-degree: 0%
 Den här sidan beskriver projektförbättringar som gjorts i tredje kvartalet 2025-versionen till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Uppdateringar av upplevelsen när en förfrågan görs
+
+>[!NOTE]
+>
+>* Förhandsgranska: 9 juli 2025
+>* Production fast release: 17 juli 2025
+>* Produktion för alla kunder: 17 juli 2025
+
+Vi har uppdaterat upplevelsen när vi gör en förfrågan i den nya upplevelsen.
+
+* De tillgängliga frågeformulären och sökvägarna visas i en lista i stället för på kort. Den senaste visas i ett avsnitt nära överkanten.
+* Alla förfrågningsformulär, inklusive förfrågningsformulär från Workfront och Workfront Planning, visas i listan. Tidigare visades bara de första 50.
+* Sökvägar för förfrågningar och formulär för förfrågningar listas i separata avsnitt, både i området Senaste och i den större listan nedan.
+* När du söker efter en frågekö filtreras listan så att endast formulär och sökvägar som innehåller söktermen visas. Söktermen markeras i varje formulär eller sökväg som visas.
+
+Mer information om hur du gör en begäran finns i [Skapa och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Fältet Befintliga faktiska timmar har ersatts med fältet Äldre faktiska timmar och det nya fältet Faktiska timmar har skapats
 
@@ -37,12 +54,12 @@ Fältet Faktiska timmar som visas i avsnittet Projekt, uppgifter och ärenden re
 >[!IMPORTANT]
 >
 >Beroende på när timmarna loggades kan det finnas en diskrepans mellan faktiska timmar och faktiska timmar för äldre för ett projekt, en uppgift eller en utgåva.<br>
->&#x200B;>Följande scenarier finns:
+>>Följande scenarier finns:
 >
 >* Faktiska timmar representerar timmar som har loggats för projekt, uppgifter och utgåvor sedan maj 2021.
 >* Gamla faktiska timmar representerar timmar som loggats för projekt, uppgifter och utgåvor under projektets, uppgiftens eller problemets livstid. Detta inkluderar timmar som loggats före maj 2021 till aktuell tid.
->  &#x200B;><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
->  &#x200B;><br>Workfront använder äldre faktiska timmar för att beräkna de faktiska arbetskostnaderna.
+>  ><br>Du kan behöva uppdatera rapporterna så att de återspeglar det nya fältet och dess värden.
+>  ><br>Workfront använder äldre faktiska timmar för att beräkna de faktiska arbetskostnaderna.
 
 Mer information finns i [Visa faktiska timmar](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -96,3 +113,5 @@ För att klargöra hur AI Assistant hittar svar på frågor om Workfront projekt
 Tidigare var denna information inte tillgänglig i AI Assistants svar.
 
 Mer information om hur du använder AI Assistant för att få information om Workfront-objekt finns i [Använd AI Assistant för att arbeta med projekt, uppgifter och problem](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+

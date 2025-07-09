@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: 7ef39340d19f2eadf3c2c8f66c9981c28308795a
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -171,6 +171,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar till upplevelsen när en förfrågan görs</a>
+            <p>Den nya upplevelsen för begärande innehåller följande förbättringar:
+              <ul>
+                <li>De tillgängliga frågeformulären och sökvägarna visas i en lista i stället för på kort. Den senaste visas i ett avsnitt nära överkanten.</li>
+                <li>Alla förfrågningsformulär, inklusive förfrågningsformulär från Workfront och Workfront Planning, visas i listan. Tidigare visades bara de första 50.</li>
+                <li>Sökvägar för förfrågningar och formulär för förfrågningar listas i separata avsnitt, både i området Senaste och i den större listan nedan.</li>
+                <li>När du söker efter en frågekö filtreras listan så att endast formulär och sökvägar som innehåller söktermen visas. Söktermen markeras i varje formulär eller sökväg som visas.</li>
+              </ul>
+            </p>
+        </td>
+        <td>9 juli 2025</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fältet Befintliga faktiska timmar har ersatts med fältet Äldre faktiska timmar och det nya fältet Faktiska timmar har skapats</a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>Det befintliga fältet Faktiska timmar har bytt namn till Tidigare faktiska timmar. I det här fältet lagras den tid som har loggats för projekt, uppgifter och ärenden på några minuter. Fältet lagras i Workfront-databasen som <code>actualWorkRequired</code>. </p>
             <p>Vi har lagt till ett nytt fält för faktiska timmar som lagrar den tid som loggats för projekt, uppgifter och utgåvor i timmar, med decimalprecision. Fältet lagras i Workfront-databasen som <code>actualWorkRequiredDouble</code>.</p>
@@ -316,7 +332,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -354,11 +370,11 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 
 
