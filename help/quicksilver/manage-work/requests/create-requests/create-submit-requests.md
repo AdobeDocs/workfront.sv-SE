@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2680'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 </div>
 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Planerat arbete representeras i Adobe Workfront av projekt och uppgifter. Du kan dock arbeta i en miljö där oplanerat arbete, i form av förfrågningar, kan komma in när som helst. Workfront tillhandahåller ett arbetsflöde för den här typen av miljö genom att använda frågeköer.
 
@@ -142,7 +142,7 @@ Så här skapar du en begäran i Workfront webbprogram:
 
    Rutan **Ny begäran** öppnas.
 
-1. (Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning visas följande i rutan **Ny begäran**:</span>
+1. (Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning och finns i produktionsmiljön visas följande i rutan **Ny begäran**:</span>
 
    * De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste.
    * 50 ytterligare begärandeköer för Workfront och planeringsförfrågningsformulär visas i alfabetisk ordning i avsnittet **Alla förfrågningsformulär**. Du kan söka efter en begärandekö som inte visas som standard.
@@ -150,6 +150,13 @@ Så här skapar du en begäran i Workfront webbprogram:
    ![Ny begäranderuta med ett enhetligt arbetsflöde för planering av begäranden](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Klicka på ett av kökorten för Workfront-begäranden eller sök efter ett och klicka sedan på det när det visas i listan.
+1. <span class="preview">(Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning och finns i förhandsgranskningsmiljön visas följande i rutan **Ny begäran**:</span>
+
+   <ul><span class="preview"><li>De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste. </li></span>
+    <span class="preview"><li>Alla ytterligare förfrågningsformulär för Workfront och Planning <b>Alla förfrågningsformulär</b>. Du kan söka efter ett begärandeformulär som inte visas som standard. </li></span>
+    <span class="preview"><li>Alla ytterligare kösökvägar för Workfront- och planeringsförfrågningar visas i avsnittet <b>Alla sökvägar för förfrågningar</b>. Du kan söka efter en begärandekö som inte visas som standard.</li></span></ul>
+    <span class="preview">Klicka på en av sökvägarna eller formulären för Workfront-frågekö eller sök efter en, och klicka sedan på den när den visas i listan. </span>
+
 1. (Villkorligt) Om du växlade till den nya funktionen som omfattar Workfront Planning väljer du ämnesgrupper och ställer ämnen i kö och fortsätter att uppdatera formuläret.
 
    Annars klickar du i fältet **Typ av begäran** och gör något av följande:
@@ -221,7 +228,7 @@ Så här skapar du en begäran i Workfront webbprogram:
    >När du hovrar över en ämnesgrupp eller ett köämne visas fältet Beskrivning till höger. Detta innehåller ytterligare information om ämnesgruppen eller köämnet.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
+   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Du kan ha upp till 10 nivåer av ämnesgrupper inbyggda i din frågekö.\

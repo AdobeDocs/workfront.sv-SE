@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
    ![Delningsruta för begärandeformulär](assets/share-box-for-request-form.png)
 
-1. Välj bland följande alternativ för att ange vilka typer av användare som har åtkomst till det här formuläret:
+1. (Villkorligt) Välj bland följande alternativ i produktionsmiljön för att ange vilka typer av användare som har åtkomst till det här formuläret:
 
    * Alla som visar eller har högre åtkomst till arbetsytan
    * Alla som har Contribute eller senare åtkomst till arbetsytan
@@ -257,7 +257,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    >     * Folk
    >
 
-1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern.
+1. (Villkorligt) Om du i produktionsmiljön har markerat **Vem som helst med länken** i det föregående steget, väljer du **länkens förfallodatum** i den tillgängliga kalendern.
 
    Användarna får ett felmeddelande när länken har upphört att gälla och du måste uppdatera länkdatumet och generera en ny länk som de kan dela innan de kan komma åt formuläret igen.
 
@@ -267,13 +267,14 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    >
    >Efter att delningsdatumet har gått ut är förfrågningsformuläret inte längre tillgängligt i området Begäranden i Workfront och länkarna som delas med andra användare är inte längre tillgängliga.
 
-
-1. (Valfritt) Klicka på **Spara och kopiera länken** för att spara delningsinformationen för formuläret. Om formuläret har sparats tidigare klickar du på **Kopiera länk**.
+1. (Valfritt och villkorligt) Klicka på **Spara och kopiera länken** i produktionsmiljön om du vill spara delningsinformationen för formuläret. Om formuläret har sparats tidigare klickar du på **Kopiera länk**.
 
    Alternativen för formulärdelning sparas och länken kopieras till Urklipp. Nu kan du dela den med andra.
 
    Mer information om hur du skapar poster med hjälp av en länk till ett begärandeformulär finns i [Skicka Adobe Workfront Planning-begäranden](/help/quicksilver/planning/requests/submit-requests.md).
 
+1. <span class="preview">(Villkorligt) Om du vill dela med användare i förhandsvisningsmiljön väljer du fliken Intern delning, söker efter användarens namn och markerar det när det visas i listan.</span>
+1. <span class="preview">(Villkorligt) Om du vill skapa en offentlig länk i förhandsvisningsmiljön väljer du fliken Offentlig delning och aktiverar sedan alternativet Skapa offentlig länk. Du kan sedan kopiera länken här eller ange ett förfallodatum för länken.</span>
 1. Klicka på **Spara** i det nedre högra hörnet på fliken **Formulär** för att spara formuläret.
 
 1. Klicka på vänsterpilen till vänster om formulärets namn i rubriken för att stänga formuläret.
