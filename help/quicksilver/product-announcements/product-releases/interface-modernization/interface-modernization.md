@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Gränssnittsuppdateringar i undergruppsdialogrutor
+
+**Förhandsversion: 10 juli 2025; Produktionsversion: 17 juli 2025**
+
+Vi har uppdaterat dialogrutorna för att lägga till en undergrupp, redigera en undergrupp och kopiera en undergrupp, så att de matchar andra områden i programmet.
+
+Om du vill visa ändringarna går du till Inställningar > Grupper > Välj en grupp > Undergrupper. (Dialogrutorna för att lägga till, redigera och kopiera en undergrupp från huvudlistan har redan uppdaterats.)
+
+Mer information finns i [Skapa en undergrupp](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) och [Hantera en undergrupp](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 ### Utforma och känna av uppdateringar för avsnittet Uppdatera feeds i installationsprogrammet
 

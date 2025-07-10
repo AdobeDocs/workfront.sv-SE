@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
+source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -22,35 +22,34 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--## Auto-populate fields based on applied groupings
+## Fyll i fält automatiskt baserat på använda grupperingar
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+Förhandsgranska: 10 juli 2025
+Production fast release: 14 augusti 2025
+Produktion för alla: 16 oktober 2025
 
-Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.
 
-If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+Om du har använt flera grupperingar fylls fälten som är kopplade till alla grupperingar i automatiskt när du lägger till posten i slutet av listan i det sista grupperingsvillkoret.
 
-Prior to this enhancement, you had to manually update the fields associated with groupings.  
+Före den här förbättringen behövde du uppdatera fälten som var kopplade till grupperingar manuellt.
 
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
-<!--## Common sharing button for views and record types
+## Gemensam delningsknapp för vyer och posttyper
 
 >[!NOTE]
 >
->* Preview: July 9, 2025 
->* Production for everyone: July 17, 2025 
+>* Förhandsgranska: 9 juli 2025
+>* Produktion för alla: 17 juli 2025
 
-You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
+Nu kan du dela en vy samt en posttyp från samma knapp på posttypens sida. Före den här förbättringen kunde du bara dela posttypen från knappen Dela på posttypssidan och en vy från vyfliken.
 
-For more information, see the following articles: 
+Mer information finns i följande artiklar:
 
-* [Share views](/help/quicksilver/planning/access/share-views.md)  
+* [Dela vyer](/help/quicksilver/planning/access/share-views.md)
 
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
--->
+* [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md)
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +77,7 @@ För att göra upplevelsen av att dela ett begärandeformulär i Workfront Plann
 * Vi har tagit bort alternativen för att hantera och bidra för användare som du delar frågeformuläret med. Nu kan tillagda användare bara skicka formuläret.
 * Fliken för offentlig delning visar nu länken och utgångsdatumet först när alternativet Skapa offentlig länk har aktiverats.
 
-Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandera och komprimera alla grupperingar i tabellvyn
 
@@ -296,7 +295,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 

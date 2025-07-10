@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 6d87be19693f8838458f6bbcf9edf681f19d677f
+source-git-commit: 20e4c8619bd59ec8686da74582dbc2f25b9a79c7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ På den här sidan beskrivs mindre uppdateringar av utseendet och känslan i oli
 
 En lista över alla ändringar som är tillgängliga i utgåva 3 kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-<!--## New look-and-feel for Announcement Center messages
+## Nytt utseende och ny känsla för meddelanden från meddelandecentret
 
 >[!NOTE]
 >
->* Preview: July 10, 2025
->* Production fast release: July 17, 2025
->* Production for all customers:  July 17, 2025
+>* Förhandsgranska: 10 juli 2025
+>* Production fast release: 17 juli 2025
+>* Produktion för alla kunder: 17 juli 2025
 
-Announcement Center messages now match the style of Workfront email notifications.-->
+Meddelanden från meddelandecentret överensstämmer nu med formatet för Workfront e-postmeddelanden.
 
 ## Modernisering av gränssnitt
 
