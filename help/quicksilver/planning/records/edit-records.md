@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,10 @@ Du kan redigera en post i följande områden:
 När du redigerar poster från tabellvyn visas en indikation på vilket fält som redigeras av andra användare när du visar posten.
 
 Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+
+<span class="preview">När du lägger till en ny post efter den sista posten i en gruppering eller undergruppering, uppdaterar Workfront automatiskt de fält som ingår i grupperingarna för de nya posterna. Du kan redigera dessa fält manuellt om det behövs och posterna kan tas bort från grupperingen. </span>
+
+Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
 {{step1-to-planning}}
 

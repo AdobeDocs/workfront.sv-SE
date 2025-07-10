@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan dela en posttyp med andra för att säkerställa samarbete när du arbeta
 >[!IMPORTANT]
 >
 >Användare med åtkomst till en arbetsyta får automatiskt minst behörigheten Visa för alla posttyper på arbetsytan.
->&#x200B;>Delningsvyer ger inte användarna behörighet att spela in typer. Endast arbetsytor för delning kan ge användare behörighet att spela in typer.
+>>Delningsvyer ger inte användarna behörighet att spela in typer. Endast arbetsytor för delning kan ge användare behörighet att spela in typer.
 >
 >* Allmän information om delning av objekt i Workfront Planning finns även i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Mer information finns i avsnittet [Att tänka på när du delar posttyper](#considerations-when-sharing-record-types) i den här artikeln.
@@ -151,6 +151,7 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
    Då öppnas posttypssidan.
 
 1. Klicka på **Dela** i det övre högra hörnet av posttypen på fliken i valfri vy.
+1. <span class="preview">Klicka på **Dela posttypen**.</span>
 
    Rutan **Dela** öppnas.
 
@@ -206,6 +207,7 @@ Du kan ta bort användarnas behörigheter från en posttyp. De behåller dock å
 1. Öppna arbetsytan vars posttyper du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
 
 1. Klicka på **Dela** i det övre högra hörnet av posttypen på fliken i valfri vy.
+1. <span class="preview">Klicka på **Dela posttypen**.</span>
 
    Rutan **Dela** öppnas.
 1. Hitta den användare, grupp, team, företag eller jobbroll vars behörigheter du vill ta bort, utöka den nedrullningsbara menyn Behörigheter till höger om namnet och klicka sedan på **Ta bort**. <!--check the screen shot below - the UI text for View might not be accurate-->

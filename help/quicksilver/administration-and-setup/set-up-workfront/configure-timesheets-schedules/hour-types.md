@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,14 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 Timtyper är etiketter som du använder för att definiera timposterna. Du kan associera timtyper med timposterna.
 
@@ -165,11 +166,11 @@ Så här inaktiverar du en timtyp:
 1. Välj den timtyp som du vill inaktivera.
 
 
-1. <span class="preview">Klicka på **Mer** och sedan på **Inaktivera**.</span>
+1. Klicka på **Mer** och sedan på **Inaktivera**.
 
-   <span class="preview">![Aktivera och inaktivera timtyplänkar](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![Aktivera och inaktivera timtyplänkar](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview">Timtypen är inaktiverad och användare kan inte längre hitta den vid loggning av timmar.</span>
+   Timtypen är inaktiverad och användaren kan inte längre hitta den vid loggning av timmar.
 
-1. <span class="preview">(Valfritt) Om du vill återaktivera en timtyp markerar du den i listan **Timtyper** och klickar sedan på **Mer** > **Aktivera**. </span>
+1. (Valfritt) Om du vill återaktivera en timtyp markerar du den i listan **Timtyper** och klickar sedan på **Mer** > **Aktivera**.
 

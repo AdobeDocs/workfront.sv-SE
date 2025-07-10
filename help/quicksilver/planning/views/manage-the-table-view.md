@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 0%
 
 ---
@@ -573,13 +573,20 @@ Tänk på följande när du exporterar tabellvyn:
 Så här exporterar du information från tabellvyn eller en posttyp:
 
 1. Gå till en posttypssida och klicka på en tabellvyflik.
-1. Håll pekaren över tabellvyflikens namn och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) .
+1. Gör något av följande:
+
+   * Håll muspekaren över namnet på tabellvyfliken och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Exportera**.
 
    ![Mer meny i en vy](assets/view-more-menu-with-duplicate-option.png)
-1. Klicka på **Exportera** och välj ett av följande format:
 
-   * Excel
-   * CSV
+   * Klicka på **Dela** > **Exportera den aktuella vyn**. Det här alternativet är bara tillgängligt när du visar tabellvyn.
+
+   ![Dela-knappen med posttyp och visningsdelningsalternativ](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. Välj något av följande format:
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >

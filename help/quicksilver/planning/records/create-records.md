@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,11 @@ Poster av den valda typen visas i vyn.
 
 1. (Villkorligt) Gör något av följande i tabellvyn:
 
-   * Klicka på **Ny post** i den sista raden i tabellen
+   * Klicka på **Ny post** på den sista raden i tabellen eller efter den sista posten i en gruppering
+
+     >[!TIP]
+     >
+     ><span class="preview">När du lägger till en ny post efter den sista posten i en gruppering eller delgruppering fylls fälten som ingår i grupperingarna automatiskt i i Workfront. Du kan redigera dessa fält manuellt om det behövs och posterna kan tas bort från grupperingen. </span>
 
    * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Då läggs en tom rad till under den post du börjar från.
    * Håll markören över en posts primära fält, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.

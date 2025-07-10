@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,6 @@ Du kan dela en vy med andra för att säkerställa samarbete när du arbetar med
 >
 >* När du delar en vy ger du andra behörighet att komma åt alla element i vyn. Om du till exempel ger dem behörigheten Hantera för en vy kan de ändra grupperingen, filtret, sorteringen eller utseendet på fält.
 
-
-Du kan dela en vy med följande enheter:
-
-* Internt, med Workfront användare, grupper, team, företag och arbetsroller
-* Offentligt, med användare utanför Workfront
 
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
@@ -118,6 +113,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på vid vydelning
 
+* Du kan dela en vy på följande sätt:
+
+   * Internt, med Workfront användare, grupper, team, företag och arbetsroller
+   * Offentligt, med användare utanför Workfront
+   * Genom att kopiera och sedan dela en länk till en vy
+   * Genom att exportera den till en Excel- eller CSV-fil. Du kan bara exportera tabellvyn till en fil. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 * Allmän information om delning av objekt i Workfront Planning finns även i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Du kan ge interna Workfront-användare behörigheten Visa eller Hantera för en vy.
 
@@ -145,11 +147,17 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 
    Då öppnas posttypssidan.
 
-1. <span class="preview">Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**. </span>
+1. <span class="preview">Gör något av följande på fliken Visa:</span>
 
-   <span class="preview">![Mer meny för en vy](assets/more-menu-for-views-expanded-with-share-option.png) </span>
+   * Håll muspekaren över fliknamnet för den vy du vill dela och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
 
-   Fliken **Intern delning** bör vara markerad som standard.
+     ![Mer meny för en vy](assets/more-menu-for-views-expanded-with-share-option.png)
+
+   * <span class="preview">Klicka på **Dela** > **Dela den aktuella vyn**</span>
+
+     <span class="preview">![Dela-knappen med posttyp och visningsdelningsalternativ](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+
+   Rutan **Delningsvy** öppnas och fliken **Intern delning** bör vara markerad som standard.
 
 1. (Valfritt) Välj bland följande alternativ i området **Vem har åtkomst**:
 
@@ -174,7 +182,6 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 
      Systemadministratörer får alltid behörigheten Hantera för vyer som delas med dem.
 
-1. Klicka på **Kopiera länk** för att kopiera en länk till vyn till Urklipp.
 1. Klicka på **Spara**.
 
    Vyn uppdateras med en personikon ![Vyn som delas med andra ikoner](assets/view-shared-with-others-people-icon.png) för att ange att vyn nu delas med andra användare.
@@ -202,9 +209,14 @@ Så här delar du en vy offentligt i Workfront Planning:
 
    Då öppnas posttypssidan.
 
-1. <span class="preview">Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**. </span>
+1. Gör något av följande på fliken Visa:
 
-   <span class="preview">![Fler menyer för vyer utökade med delningsalternativ](assets/more-menu-for-views-expanded-with-share-option.png)</span>
+   * Håll muspekaren över fliknamnet för den vy du vill dela och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
+
+   ![Fler menyer för vyer utökade med delningsalternativ](assets/more-menu-for-views-expanded-with-share-option.png)
+   * <span class="preview">Klicka på **Dela** > **Dela den aktuella vyn**</span>
+
+   Rutan **Delningsvy** öppnas.
 
 1. Klicka på **Offentlig delning**.
 
@@ -229,6 +241,34 @@ Så här delar du en vy offentligt i Workfront Planning:
 
 1. (Valfritt) Klistra in länken som du kopierade till ett e-postmeddelande, chattmeddelande, dokument eller i en Workfront-kommentar för att dela den med andra.
 
+## Kopiera en länk till en vy
+
+Du kan kopiera en länk till en vy till Urklipp och inkludera den i ett annat program eller dela den med andra.
+
+Om du vill kopiera en länk till en offentligt delad vy läser du avsnittet [Dela behörigheter till en offentlig vy](#share-permissions-to-a-view-publicly) i den här artikeln.
+
+I det här avsnittet beskrivs hur du delar en vy internt.
+
+>[!IMPORTANT]
+>
+>Först måste du dela vyn med användarna innan du delar länken till vyn för att de ska kunna visa den.
+
+
+{{step1-to-planning}}
+
+1. Öppna arbetsytan vars vy du vill kopiera och dela länken till och klicka sedan på ett posttypskort.
+
+   Då öppnas posttypssidan.
+
+1. Gör något av följande på fliken i en vy:
+
+   * Håll markören över fliken för den vy du vill dela och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela** > **Kopiera länk** i rutan **Dela vy** .
+   * <span class="preview">Klicka på **Dela** > **Kopiera visningslänken**</span> > **Kopiera länk** i rutan **Dela vy**.
+
+   En länk till vyn kopieras till Urklipp och du får en bekräftelse längst ned på skärmen.
+
+   Nu kan du klistra in länken i ett annat program eller skicka den till andra.
+
 ## Bevilja behörigheter för en vy från en behörighetsbegäran
 
 Användare som har åtkomst till en länk till en vy som de inte har behörighet till kan begära behörighet till vyn. Alla användare med behörigheten Hantera för vyn får behörighetsbegäran och kan bevilja eller neka behörigheter.
@@ -236,10 +276,8 @@ Användare som har åtkomst till en länk till en vy som de inte har behörighet
 1. (Villkorligt) Om du är vyhanterare kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
    * Ett meddelande i appen
-
      ![Meddelande i appen om åtkomstbegäran för vyn](assets/in-app-notification-for-access-request-for-view.png)
    * Ett e-postmeddelande
-
      ![Meddelande i appen om åtkomstbegäran för vyn](assets/in-app-notification-for-access-request-for-view.png)
 1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
 eller
@@ -261,7 +299,13 @@ Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på me
 {{step1-to-planning}}
 
 1. Öppna arbetsytan vars vy du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
-1. Håll muspekaren över fliknamnet för den vy du vill ta bort delning från och klicka på menyn **Mer** ![Mer](assets/more-menu.png) och sedan på **Dela**.
+1. <span class="preview"> gör något av följande på fliken Visa:</span>
+
+   * Håll muspekaren över fliknamnet för den vy du vill dela och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
+
+   * <span class="preview">Klicka på **Dela** > **Dela den aktuella vyn**</span>
+
+   Rutan **Delningsvy** öppnas.
 1. Så här tar du bort den interna delningen av en vy:
 
    1. Kontrollera att fliken **Intern delning** är markerad.
