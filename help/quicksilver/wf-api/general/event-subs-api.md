@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
+source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2666'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 -->
 
 När en åtgärd inträffar för ett Adobe Workfront-objekt som stöds av händelseprenumerationer, kan du konfigurera Workfront att skicka ett svar till önskad slutpunkt. Detta innebär att tredjepartsprogram kan ta emot uppdateringar från Workfront-interaktioner via Workfront API så snart de har släppts. Normalt kan du förvänta dig att få webkrokmeddelanden på mindre än 5 sekunder från det att dataändringen loggas. I genomsnitt får kunderna webkrokmeddelanden på mindre än en sekund från den dataändring som loggas.
+
+Eftersom händelseprenumerationer skickar data till en annan tjänst hanteras de via kommandon i stället för via Workfront.
 
 För att kunna ta emot händelseprenumerationsnyttolaster via din brandvägg måste du lägga till följande IP-adresser i tillåtelselista:
 
@@ -808,7 +810,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 >[!NOTE]
 >
 >Prenumerationen nedan med det angivna filtret returnerar bara meddelanden där aktivitetens namn innehåller `again` på `oldState`, vilket var innan en uppdatering gjordes för aktiviteten.
->&#x200B;>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
+>>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
 ```
 {
