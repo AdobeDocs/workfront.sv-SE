@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,11 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >* Production fast release: 30 juni 2025
 >* Produktion för alla kunder: 30 juni 2025
 
-Vi har bytt namn på widgeten Alla godkännanden till Dokumentgodkännandevärden för att bättre återspegla den information som visas. Widgeten för dokumentgodkännandemått ger insikter i dokumentgodkännanden för de projekt du äger.
+Vi har bytt namn på widgeten Alla godkännanden till Dokumentgodkännandevärden för att bättre återspegla den information som visas. Widgeten för dokumentgodkännandemått ger insikter i dokumentgodkännanden för de projekt du äger. Du måste ha [Enhetliga godkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) aktiverat för att kunna använda den här widgeten.
 
 Den här widgeten innehåller ingen information om korrekturgodkännanden.
+
+Mer information finns i [Kom igång med Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Uppdaterad kommentarsfunktion i avsnittet Meningar i området Mina uppdateringar
 
