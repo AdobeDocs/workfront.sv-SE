@@ -6,9 +6,9 @@ description: Om du är Adobe Workfront-kund kan du kontakta Workfront kundsuppor
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 854b537e3a480d14a35bf7d17d1ed8ed1507660c
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,39 @@ Som [!DNL Adobe Workfront]-kund kan du kontakta [!DNL Workfront] kundsupport via
 >[!NOTE]
 >
 >Kontakta [!DNL Workfront] kundsupport per telefon om du har allvarliga problem.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Du måste vara systemadministratör.</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Telefon
 
@@ -52,7 +85,7 @@ Du kan skicka en supportanmälan från självbetjäningsportalen [!DNL Experienc
 >Endast behöriga supportkontakter (eller supportberättigade användare) kan skicka supportärenden online.
 
 
-1. Klicka på **[!UICONTROL Support]** överst på webbplatsen [[!DNL Experience League]](https://experienceleague.adobe.com/sv).
+1. Klicka på [[!DNL Experience League] överst på webbplatsen ](https://experienceleague.adobe.com)**[!UICONTROL Support]**.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
