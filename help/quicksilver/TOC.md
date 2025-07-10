@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
+source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
 workflow-type: tm+mt
-source-wordcount: '13227'
+source-wordcount: '13231'
 ht-degree: 0%
 
 ---
@@ -903,6 +903,7 @@ ht-degree: 0%
       * [Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådan](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
       * [Händelsemeddelanden](workfront-basics/using-notifications/event-notifications.md)
       * [Bifoga ett påminnelsemeddelande till ett objekt](workfront-basics/using-notifications/attach-reminder-notification-object.md)
+      * [Händelsemeddelande: artikelindex](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
       * [Meddelanden: Åtgärd krävs](workfront-basics/using-notifications/notifications-action-needed.md)
       * [Meddelanden: Godkännandeinformation](workfront-basics/using-notifications/notifications-approval-information.md)
       * [Meddelanden: Meddelande](workfront-basics/using-notifications/notifications-communication.md)
