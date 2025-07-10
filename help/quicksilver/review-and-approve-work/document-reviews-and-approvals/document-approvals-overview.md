@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Innehållet i den här artikeln hänvisar till den uppdaterade funktionen för dokumentgodkännande som bara är tillgänglig för specifika konton. Mer information om standardgodkännandeprocesser finns i artiklarna i [Arbetsgodkännanden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Enhetliga godkännanden är en helt ny utformning av den befintliga godkännandeprocessen som för närvarande är under utveckling för Adobe Workfront. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden. Dess genomtänkta design och målinriktade nya funktioner underlättar samarbete, tydlighet och versionskontroll i godkännandeprocessen, vilket förbättrar effektiviteten och ansvarsfördelningen.
+Enhetliga godkännanden, som tidigare kallats för godkännande av nya dokument, är en helt ny utformning av den befintliga godkännandeprocessen som för närvarande är under utveckling för Adobe Workfront. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden. Dess genomtänkta design och målinriktade nya funktioner underlättar samarbete, tydlighet och versionskontroll i godkännandeprocessen, vilket förbättrar effektiviteten och ansvarsfördelningen.
 
 ## Viktiga skillnader jämfört med korrektur och godkännande av äldre dokument
 
