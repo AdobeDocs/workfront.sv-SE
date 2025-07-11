@@ -1,14 +1,14 @@
 ---
 title: 'Adobe Workfront Planning Notifications: Artikelindex'
-description: Du kan få ett e-postmeddelande eller ett meddelande i appen när någon taggar dig i en postkommentar, eller begär eller beviljar dig behörighet till en vy eller arbetsyta. I följande artiklar beskrivs vilken typ av Workfront Planning-meddelanden du kan få och hur du hanterar dina meddelandeinställningar.
+description: Du kan få ett e-postmeddelande eller ett meddelande i appen när någon taggar dig eller ditt team i en postkommentar, eller begär eller ger dig behörighet till en vy eller arbetsyta. I följande artiklar beskrivs vilken typ av Workfront Planning-meddelanden du kan få och hur du hanterar dina meddelandeinställningar.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan få ett e-postmeddelande eller ett meddelande i appen när någon taggar dig i en postkommentar, eller begär eller beviljar dig behörighet till en vy eller arbetsyta.
+Du kan få ett e-postmeddelande eller ett meddelande i appen när någon taggar dig eller ditt team i en postkommentar, eller begär eller ger dig behörighet till en vy eller arbetsyta.
 
 I följande artiklar beskrivs vilken typ av Workfront Planning-meddelanden du kan få och hur du hanterar dina inställningar:
 

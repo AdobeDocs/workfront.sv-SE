@@ -1,14 +1,14 @@
 ---
 title: Hantera e-postmeddelanden om Adobe Workfront Planning
-description: När någon taggar dig i en postkommentar i Adobe Workfront Planning får du ett e-postmeddelande om taggen.
+description: När någon taggar dig eller ditt team i en postkommentar i Adobe Workfront Planning får du ett e-postmeddelande om taggen.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---

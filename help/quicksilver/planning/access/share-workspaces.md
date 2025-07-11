@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -147,6 +147,8 @@ Så här delar du en arbetsyta med andra:
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan.
 1. Klicka på **Spara**.
 
+   De användare som du delade arbetsytan med får både ett meddelande i programmet och ett e-postmeddelande om att de har behörighet till den.
+
 ## Bevilja behörigheter till en arbetsyta från en behörighetsbegäran
 
 Användare som har åtkomst till en länk till en arbetsyta som de inte har behörighet till kan begära behörigheter till arbetsytan. Alla användare med behörigheten Hantera på arbetsytan får behörigheten och kan bevilja eller neka behörigheter.
@@ -154,10 +156,8 @@ Användare som har åtkomst till en länk till en arbetsyta som de inte har beh�
 1. (Villkorligt) Om du är chef för en arbetsyta kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
    * Ett meddelande i appen
-
      ![Meddelande i programmet om åtkomstbegäran](assets/in-app-notification-for-access-request.png)
    * Ett e-postmeddelande
-
      ![E-postmeddelande om åtkomstbegäran](assets/email-notification-for-access-request.png)
 1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
 eller

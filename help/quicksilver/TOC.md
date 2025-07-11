@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
 source-wordcount: '13231'
 ht-degree: 0%
@@ -2106,7 +2106,7 @@ ht-degree: 0%
       * [Ta bort postvyer](planning/views/delete-record-views.md)
       * [Duplicera postvyer](planning/views/duplicate-record-views.md)
    * Adobe Workfront Planning-meddelanden {#adobe-workfront-planning-notifications}
-      * [Adobe Workfront Planning-meddelanden: Artikelindex](planning/notifications/notifications-information.md)
+      * [Adobe Workfront Planning-meddelanden: artikelindex](planning/notifications/notifications-information.md)
       * [Hantera aviseringsinställningar för Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
       * [Hantera e-postmeddelanden om Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
       * [Hantera meddelanden i appen för Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
