@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Du kan få e-postmeddelanden från Workfront Planning när följande scenarier finns:
 
-* Någon taggar dig i en postkommentar
+* Någon taggar dig eller ditt team i en registerkommentar
 
   Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
 * Någon ber om din behörighet att komma åt en vy eller arbetsyta
@@ -161,7 +161,7 @@ OLD:
 
 ## Hantera e-postmeddelanden när någon taggar dig i en kommentar
 
-1. (Villkorligt och valfritt) När någon taggar dig i en kommentar för en post går du till e-postmeddelandet som informerar dig om taggen och kommentaren. E-postmeddelandets avsändare är Adobe Experience Cloud.
+1. (Villkorligt och valfritt) När någon taggar dig eller ditt team i en kommentar för en post går du till e-postmeddelandet som informerar dig om taggen och kommentaren. E-postmeddelandets avsändare är Adobe Experience Cloud.
 
    ![Exempel på e-postmeddelanden](assets/email-notification-example.png)
 

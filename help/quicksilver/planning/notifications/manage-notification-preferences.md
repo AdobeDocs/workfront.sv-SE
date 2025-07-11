@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Avmarkera de meddelanden som du vill sluta ta emot.
    ![Adobe Experience Cloud-meddelandepanel för Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Följande meddelanden är tillgängliga för Workfront:
 
-   * **Meningar**: Du får ett meddelande när någon taggar dig i en kommentar i Workfront Planning
+   * **Meningar**: Du får ett meddelande när någon taggar dig eller ditt team i en kommentar i Workfront Planning
    * **Begäranden**: Du får ett meddelande när någon har gjort något av följande:
 
       * Begär eller ger dig behörighet till ett Workfront Planning-objekt
@@ -129,7 +129,7 @@ Avmarkera de meddelanden som du vill sluta ta emot.
       * Status för en Workfront Planning-begäran som du har skickat in ändringar för
       * Begär, beviljar eller avvisar ett godkännande av en Workfront Planning-begäran
 
-   Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
+   Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
@@ -139,7 +139,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Du kan få meddelanden i appen från Workfront Planning när följande scenarier finns:
 
-* Någon taggar dig i en postkommentar
+* Någon taggar dig eller ditt team i en registerkommentar
 
   Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
 * Någon ber om din behörighet att komma åt en vy eller arbetsyta
@@ -160,7 +160,7 @@ OLD:
 
 ## Hantera meddelanden i appen när någon taggar dig i en kommentar
 
-1. (Villkorligt) När någon taggar dig i en kommentar för en post går du till ikonen **Notifications** ![Experience cloud notifications ](assets/experience-cloud-notifications-icon.png) i Adobe Experience Cloud.
+1. (Villkorligt) När någon taggar dig eller ditt team i en kommentar för en post går du till ikonen **Notifications** ![Experience cloud notifications](assets/experience-cloud-notifications-icon.png) i Adobe Experience Cloud.
 
    ![Exempel på meddelanden i programmet](assets/in-app-notification-example.png)
 
