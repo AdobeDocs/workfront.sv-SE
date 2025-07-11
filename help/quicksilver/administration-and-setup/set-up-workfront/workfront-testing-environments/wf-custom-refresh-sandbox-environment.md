@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Så här kommer du åt din anpassade uppdateringssandlåda:
 
 1. Klicka på **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
-1. Klicka på **[!UICONTROL Sandbox 1]** eller **[!UICONTROL Sandbox 2]** i avsnittet **[!UICONTROL Test Environment]**.
+1. Klicka på **[!UICONTROL Test Environment]** eller **[!UICONTROL Sandbox 1]** i avsnittet **[!UICONTROL Sandbox 2]**.
 
    Supportpaketet anger om du har tillgång till en eller två anpassade uppdateringssandlådor.
 
@@ -210,9 +210,12 @@ Mer information finns i [Konfigurera tidslinjeomberäkningar för projekt](/help
 
 I sandlådemiljön för anpassad uppdatering är nattomberäkningen inaktiverad och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för sandlådemiljön för anpassad uppdatering. Mer information finns i [Beräkna om projekttidslinjer](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Avsedd användning och tillgänglighet
 
 * [!DNL Workfront] Anpassade sandlådemiljöer för uppdatering är inte avsedda för prestanda eller inläsningstestning. Använd i stället dessa miljöer för att validera funktionaliteten med organisationens befintliga arbetsflöden.
+
+* Arbetsflöden som innefattar dokument bör fokusera på processen och inte på inläsningstestning. Stora filer stöds inte i sandlådemiljöer.
 
 * [!DNL Workfront] Anpassade sandlådemiljöer för uppdatering är alltid tillgängliga. Alla avbrott i Workfront anpassade uppdateringssandlådemiljö under normal kontorstid är den första prioriteten omedelbart efter att eventuella produktionsproblem har åtgärdats. Alla avbrott i Workfront anpassade uppdateringssandlådemiljö på helger (lördagar och söndagar) åtgärdas så att miljön körs under kontorstid på måndag.
 

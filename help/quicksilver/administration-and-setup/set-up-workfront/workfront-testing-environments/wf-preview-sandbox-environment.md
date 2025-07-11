@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Det finns två testmiljöer för [!DNL Workfront] som är repliker av din [!DNL 
 
 * Sandlådan Anpassad uppdatering
 
-  Sandlådan för anpassad uppdatering är en separat testmiljö som uppdateras manuellt av dig. Det finns en extra kostnad för att hämta den anpassade uppdateringssandlådan. Mer information om den här miljön finns i [Anpassad sandlådemiljö för uppdatering](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md). [!DNL Adobe Workfront] 
+  Sandlådan för anpassad uppdatering är en separat testmiljö som uppdateras manuellt av dig. Det finns en extra kostnad för att hämta den anpassade uppdateringssandlådan. Mer information om den här miljön finns i [Anpassad sandlådemiljö för uppdatering [!DNL Adobe Workfront] .](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +92,7 @@ Så här kommer du åt förhandsvisningssandlådan:
 
 1. Klicka på **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
 
-1. Klicka på **[!UICONTROL Sandbox Preview]** i avsnittet **[!UICONTROL Test Environments]**.
+1. Klicka på **[!UICONTROL Test Environments]** i avsnittet **[!UICONTROL Sandbox Preview]**.
 
 1. Logga in med dina autentiseringsuppgifter för förhandsgranskning.
 
@@ -179,12 +179,15 @@ Mer information finns i [Konfigurera tidslinjeomberäkningar för projekt](/help
 
 I förhandsvisningsmiljön är nattomberäkningen inaktiverad och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för förhandsvisningsmiljön. Mer information finns i [Beräkna om projekttidslinjer](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Prestanda och tillgänglighet för förhandsvisningsmiljön
 
-[!DNL Workfront] Förhandsgranskningsmiljöer är inte avsedda för prestanda- eller inläsningstestning. Använd i stället dessa miljöer för att validera funktionaliteten med organisationens befintliga arbetsflöden.
+* [!DNL Workfront] Förhandsgranskningsmiljöer är inte avsedda för prestanda- eller inläsningstestning. Använd i stället dessa miljöer för att validera funktionaliteten med organisationens befintliga arbetsflöden.
 
-[!DNL Workfront] Förhandsvisningsmiljöer är alltid tillgängliga.
+* Arbetsflöden som innefattar dokument bör fokusera på processen och inte på inläsningstestning. Stora filer stöds inte i sandlådemiljöer.
 
-Alla avbrott i en [!DNL Workfront]-förhandsvisningsmiljö under normal kontorstid kommer att vara den första prioriteten omedelbart efter att eventuella produktionsproblem har lösts.
+* [!DNL Workfront] Förhandsvisningsmiljöer är alltid tillgängliga.
 
-Alla avbrott i en [!DNL Workfront]-förhandsvisningsmiljö på helger (lördagar och söndagar) adresseras så att miljön körs under kontorstid på måndag.
+* Alla avbrott i en [!DNL Workfront]-förhandsvisningsmiljö under normal kontorstid kommer att vara den första prioriteten omedelbart efter att eventuella produktionsproblem har lösts.
+
+* Alla avbrott i en [!DNL Workfront]-förhandsvisningsmiljö på helger (lördagar och söndagar) adresseras så att miljön körs under kontorstid på måndag.
