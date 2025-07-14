@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
 
 # Betaversionsinformation för Canvas Dashboards
 
-Kontrollpaneler på arbetsytan är en funktion som för närvarande är under utveckling. Med den kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta. Observera att även om vi är tacksamma för ditt deltagande under betatestningsfasen så kanske delar av funktionen inte är fullständiga eller fungerar som de ska. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](#provide-feedback) nedan.
-
-Grundläggande information om hur du använder Canvas-kontrollpaneler finns i [Kom igång med Canvas-kontrollpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-En lista över all dokumentation för kontrollpaneler på arbetsytan finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
-
 >[!NOTE]
 >
 >Kontrollpanelerna för arbetsytan är för närvarande i en sluten betatestningsfas och kan därför ändras ofta.
+
+Kontrollpaneler på arbetsytan är en funktion som för närvarande är under utveckling och som gör att du enkelt kan visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta.
+
+Observera att även om vi är tacksamma för ditt deltagande under betatestningsfasen så kanske delar av funktionen inte är fullständiga eller fungerar som de ska. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](#provide-feedback) nedan.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Alla </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td> 
+<p>Aktuell: Planera </p> 
+<p>Nytt: Standard</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
+   <td><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Gå med i betaversionen
 
@@ -49,29 +84,3 @@ Vi uppskattar att vi tar fram det här verktyget under betatestningen. Följ ins
 
 1. Klicka på **Skicka**.
 
-## Planerade funktioner
-
-Nedan finns en lista över de rapporttyper som för närvarande stöds i betaversionen samt en lista över andra funktioner som vi planerar att lägga till i Canvas Dashboards under betaversionen och senare.
-
-### Rapporttyper som stöds
-
-* Befintliga rapporter (rapporter skapade med det aktuella rapportverktyget)
-* Diagramrapporter
-* KPI-rapporter
-* Tabellrapporter
-* Rapporter om väntande godkännanden
-
-### Funktioner under utveckling
-
-* Datum- och användarbaserade jokertecken för filter
-* Workfront Planning - rapporter
-* Ytterligare Workfront-objekttyper
-* Styrelserapporter
-* Andra användbarhetsförbättringar
-* Kalkylblad
-* Inbäddat webbinnehåll
-
-### Framtida funktioner för färdplan
-
-* Tips på kontrollpanelnivå
-* Valutastöd

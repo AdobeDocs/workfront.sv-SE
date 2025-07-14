@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som 
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant för Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med kommandon och låta assistenten utföra arbetet åt dig.
 
@@ -109,5 +109,5 @@ Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som 
   >
   >    Workfront AI Assistant har tagits bort tillfälligt och är tillgänglig vid ett senare tillfälle.
 
-* **Rapporteringsfunktioner för Workfront Planning**: Nu kan du visa Workfront Planning-information i en rapport med hjälp av Workfront Canvas Dashboard. Mer information finns i [Kom igång med Canvas-instrumentpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Rapporteringsfunktioner för Workfront Planning**: Nu kan du visa Workfront Planning-information i en rapport med hjälp av Workfront Canvas Dashboard. Mer information finns i [Översikt över kontrollpaneler för arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

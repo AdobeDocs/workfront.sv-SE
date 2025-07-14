@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
 title: Översikt över kontrollpaneler på arbetsytan
 description: Lär dig mer om Canvas Dashboards
-author: Nolan
+author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: dd4879d758275e37c933ceee285e70acf1cdb5ab
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,62 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här sidan beskriver funktioner som är tillgängliga som en del av betaversionen av Canvas Dashboards. Se [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om du vill veta mer.
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Med arbetsytans kontrollpaneler kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta. Grundläggande anvisningar om hur du använder Canvas-kontrollpaneler finns i artikeln [Kom igång med Canvas-kontrollpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). I annat fall, se artikelindexet nedan för mer information om ett visst ämne.
+Med arbetsytans kontrollpaneler kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till rapporttyper på en arbetsyta som har många flexibla layoutalternativ, bland annat för att ändra storlek, dra och släppa.
 
-<!--## Canvas Dashboards: article index
+Med Canvas Dashboards kan du rapportera om nya Workfront-funktioner, inklusive beslut om godkännande av dokument och Workfront-planering.
 
-This section contains the following articles:
 
-* [Manage Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
-    * [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-    * [Add, remove, or arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-    * [Share a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md) 
-    * [Add an existing report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-  [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-    * [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-    * [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-    * [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
+## Förutsättningar
+
+* Din organisation måste vara en del av betaversionen av Canvas Dashboards. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+* Du måste ha en planlicens (aktuella licenser) eller standardlicens (nya licenser) för att kunna skapa en Canvas Dashboard. Mer information om Workfront licenstyper finns i [Licensöversikt](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) eller [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+* Din Workfront-administratör måste ge dig redigeringsåtkomst till instrumentpaneler på din åtkomstnivå för att skapa eller redigera en Canvas Dashboard. Information om hur du beviljar redigeringsåtkomst finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+
+## Aktuella och planerade funktioner
+
+Nedan finns en lista över de rapporttyper som för närvarande stöds i betaversionen samt en lista över andra funktioner som vi planerar att lägga till i Canvas Dashboards under betatestningen.
+
+### Rapporttyper som stöds
+
+* Befintliga rapporter
+* Diagramrapporter
+* KPI-rapporter
+* Tabellrapporter
+
+### Nyligen släppta funktioner
+
+* Mångsidig konfiguration av instrumentpanelslayout
+* Instrumentpanelsdelning
+* Väntande godkännanderapporter
+* Workfront Planning - rapporter
+* OCH/ELLER-filtrering
+* Villkorsstyrd formatering av tabellkolumner och -rader
+* Detaljerad konfiguration för KPI- och diagramrapporter
+* Gruppera tabellresultat
+* Filter på kontrollpanelnivå och användartillämpade övertäckningsfilter
+
+
+### Funktioner under utveckling
+
+* Ytterligare Workfront-objekttyper
+* Användbarhetsförbättringar
+* Inkludera Workfront Planning-vyer som rapportblock på en kontrollpanel
+* Använda en instrumentpanel som en planeringsvy i Workfront
+* Utökat stöd till Azure- och GCP-kunder
+* Prestandaoptimering
+
+### Framtida funktioner för färdplan
+
+* Inbäddade webbvyer
+* Kalendrar
+* Resurshanteringsrapporter
+* Ytterligare widgetar för hemskärmen
+* Skicka sammanfattningar av kontrollpanelen
+* Kopierar rapporter
+* Kopiera kontrollpaneler
+
 

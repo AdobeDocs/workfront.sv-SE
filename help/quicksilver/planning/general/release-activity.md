@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '7388'
+source-wordcount: '7386'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ Mer information om Workfront Planning AI Assistant finns i [Adobe Workfront Plan
 
 Förhandsgranska och produktion: 28 augusti 2024
 
-Nu kan du visa Workfront Planning-information i en rapport med Workfront Canvas Dashboard. Mer information finns i [Kom igång med Canvas-instrumentpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Nu kan du visa Workfront Planning-information i en rapport med Workfront Canvas Dashboard. Mer information finns i [Översikt över kontrollpaneler för arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Vecka 19 augusti 2024
 
@@ -800,7 +800,7 @@ Produktion: 8 maj 2024
 
 Förhandsgranska: För att bestämma
 
-Om du är Adobe Unified Experience-kund och någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen och ett e-postmeddelande om kommentaren. Du kan hantera dina meddelandeinställningar under Inställningar i din Adobe Experience Cloud-profil. Mer information finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
+Om du är Adobe Unified Experience-kund och någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen och ett e-postmeddelande om kommentaren. Du kan hantera dina meddelandeinställningar under Inställningar i din Adobe Experience Cloud-profil. Mer information finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Mer information om Workfront planeringsmeddelanden finns i [Adobe Workfront Planning-meddelanden: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 

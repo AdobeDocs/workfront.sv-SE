@@ -3,55 +3,76 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Lägga till en befintlig rapport på en arbetsytans kontrollpanel
 description: Rapporter som skapas med verktyget Adobe Workfront-rapporter kan läggas till på en arbetsytekontrollpanel.
-author: Nolan
+author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 026365a182b29c7ac073a4c8c28f0044bfe9c4cc
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # Lägga till en befintlig rapport på en arbetsytans kontrollpanel
 
->[!IMPORTANT]
->
->Den här sidan beskriver funktioner som är tillgängliga som en del av betaversionen av Canvas Dashboards. Se [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om du vill veta mer.
-
 Rapporter som skapas med verktyget Adobe Workfront-rapporter kan läggas till på en arbetsytekontrollpanel. Mer information om hur du skapar rapporter finns i [Kom igång med rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-Allmän information om hur du lägger till och ordnar rapporter på en Canvas-kontrollpanel finns i [Lägga till, ta bort eller ordna rapporter på en Canvas-kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
-
-## Åtkomstkrav
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Alla </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td> 
+<p>Aktuell: Planera </p> 
+<p>Nytt: Standard</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Nytt: Standard
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste ha behörighet att redigera för kontrollpaneler.</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
+   <td><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
 
 ## Lägga till en befintlig rapport på en arbetsytans kontrollpanel
 
+{{step1-to-dashboards}}
+
+1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
+
+1. I rutan **Skapa instrumentpanel** anger du instrumentpanelens **namn** och **beskrivning**.
+
+1. Klicka på **Skapa**.
+
+1. I rutan **Lägg till rapport** väljer du **Visa rapporter**.
+
+1. Välj något av följande alternativ till vänster i rutan **Använd befintlig rapport**:
+
+   * **Klassiska rapporter**: Lägg till en befintlig, klassisk rapport på instrumentpanelen.
+
+   * **Hemwidgetar**: Lägg till en Workfront-hemwidget på instrumentpanelen.
+
+     >[!NOTE]
+     >
+     > I det här läget i betaversionen är hemwidgeten **Alla godkännanden** den enda tillgängliga widgeten. Listan utökas allt eftersom betaversionen fortskrider.
+
+1. (Valfritt) Om du vill visa information om en rapport innan du lägger till den på kontrollpanelen klickar du på **Visa** i linje med önskad rapport.
+
+1. Klicka på **Lägg till** i linje med rapporten som du vill lägga till.
 
