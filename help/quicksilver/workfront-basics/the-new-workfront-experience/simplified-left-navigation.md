@@ -6,9 +6,9 @@ description: Den vänstra navigeringspanelen i  [!DNL Workfront] gör det enkelt
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -265,9 +265,7 @@ Mer information om vilka avsnitt som är tillgängliga för specifika områden f
       >
       >Du måste skapa kontrollpanelen innan den visas i listan.
 
-   1. Klicka på **[!UICONTROL Add]**.
-
-      Kontrollpanelens länk visas längst ned på den vänstra panelen.
+1. (Valfritt) Om du vill ta bort en snabblänk för kontrollpanelen håller du pekaren över kontrollpanelen i den vänstra navigeringen och klickar sedan på ikonen **Ta bort** ![Ta bort](assets/remove-dashboard-from-left.png) när den visas.
 
 1. (Valfritt) Om du vill ändra ordningen på ett avsnitt i den vänstra panelen klickar du på ikonen **[!UICONTROL Drag]** ![](assets/drag-icon.png) till höger om ett avsnitt och drar det uppåt eller nedåt.
 
