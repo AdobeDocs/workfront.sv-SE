@@ -1,14 +1,14 @@
 ---
 title: Hantera tabellvyn
-description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront Planning. I den här artikeln beskrivs hur du skapar eller redigerar en tabellvyredigering och hur du aktiverar visningsindikatorer i realtid för vyn eller hur du exporterar den till en CSV- eller Excel-fil.
+description: Du kan visa poster och deras fält i en tabellvy när du öppnar posttypssidan i Adobe Workfront Planning. I den här artikeln beskrivs hur du kan skapa eller redigera en tabellvyredigering och hur du aktiverar visningsindikatorer i realtid för vyn.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3446'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ I den här artikeln beskrivs följande information:
 
 * [Skapa eller redigera kolumner och rader i en tabellvy](#manage-a-table-view)
 * [Aktivera visningsindikatorer i realtid för tabellvyn](#enable-the-real-time-presence-indicator)
-* <span class="preview">[Exportera en tabellvy till en CSV- eller Excel-fil](#export-the-table-view)</span>
+
+Mer information om hur du exporterar tabellvyn till en Excel- eller CSV-fil finns i [Exportera poster från tabellvyn](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Åtkomstkrav
 
@@ -558,57 +559,5 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
 
 <div class="preview">
 
-## Exportera tabellvyn
 
-Du kan exportera information i tabellvyn till en CSV- eller Excel-fil.
-
-Tänk på följande när du exporterar tabellvyn:
-
-* Den information som exporteras till en Excel-fil bevarar de filter, grupperingar och sorteringar som används i tabellvyn i Workfront Planning. Grupperingar visas inte i CSV-filen.
-
-* Miniatyrbilder och anpassade radfärger stöds inte i exporterade filer.
-
-* Endast fält som är synliga i Workfront-gränssnittet exporteras. Dolda fält exporteras inte.
-
-Så här exporterar du information från tabellvyn eller en posttyp:
-
-1. Gå till en posttypssida och klicka på en tabellvyflik.
-1. Gör något av följande:
-
-   * Håll muspekaren över namnet på tabellvyfliken och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Exportera**.
-
-   ![Mer meny i en vy](assets/view-more-menu-with-duplicate-option.png)
-
-   * Klicka på **Dela** > **Exportera den aktuella vyn**. Det här alternativet är bara tillgängligt när du visar tabellvyn.
-
-   ![Dela-knappen med posttyp och visningsdelningsalternativ](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. Välj något av följande format:
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >Du kan inte exportera information från tabellvyn när du visar en annan vy på skärmen. Du måste visa den tabellvy som du vill exportera för att kunna komma åt alternativet Exportera på Mer-menyn.
-
-   Filen hämtas till datorn.
-
-1. (Valfritt) Gå till hämtningsmappen på datorn och leta reda på den hämtade filen.
-
-   Namnet på den exporterade filen har följande format:
-
-   `Name of the view - name of the record type`
-
-   En tabellvy för posttypen Campaigns genererar till exempel filen `Table view - Campaigns`.
-
-   Filen innehåller följande information:
-
-   * Kolumnrubrikerna markeras med svart i Excel-filen
-   * Alla fält som är synliga i Workfront-gränssnittet, sorterade och filtrerade efter samma villkor
-   * Grupperingar bevaras i Excel-filen
-
-   Du kan nu dela de exporterade filerna med andra eller bifoga dem till valfri kommunikation.
-
-</div>
 

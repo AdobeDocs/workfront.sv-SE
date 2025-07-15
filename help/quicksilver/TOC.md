@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 979d0919605564107e58032b80cfd259bd6edffa
+source-git-commit: b4e2f9b6cad03062b4edb2858f2a59847b47d622
 workflow-type: tm+mt
-source-wordcount: '13221'
+source-wordcount: '13233'
 ht-degree: 0%
 
 ---
@@ -2041,7 +2041,8 @@ ht-degree: 0%
       * [Översikt över posttyper](planning/architecture/overview-of-record-types.md)
       * [Skapa posttyper](planning/architecture/create-record-types.md)
       * [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](planning/architecture/import-file-to-create-record-types.md)
-      * [Skapa posttyper globalt](planning/architecture/create-record-types-globally.md)
+      * [Konfigurera funktioner för olika arbetsytor för posttyper](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [Lägga till posttyper för arbetsytor](planning/architecture/add-cross-workspace-record-types.md)
       * [Översikt över posttyper för anslutning](planning/architecture/connect-record-types-overview.md)
       * [Koppla posttyper](planning/architecture/connect-record-types.md)
       * [Redigera posttyper](planning/architecture/edit-record-types.md)
@@ -2086,6 +2087,7 @@ ht-degree: 0%
       * [Hantera postsidans layout](planning/records/manage-the-record-page.md)
       * [Hantera postanslutningar från Workfront-objekt](planning/records/manage-records-in-planning-section.md)
       * [Exportera information för en post](planning/records/export-the-record-page.md)
+      * [Exportera poster från tabellvyn](planning/records/export-records-from-the-table-view.md)
       * [Skapa Workfront-objekt från Workfront Planning när du kopplar dem till poster](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Konfigurera automatisering av Adobe Workfront Planning](planning/records/configure-automations-to-create-records.md)
       * [Skapa objekt med automatisering av Workfront Planning Record](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)

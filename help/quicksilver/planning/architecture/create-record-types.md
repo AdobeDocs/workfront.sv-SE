@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
       * När du importerar dem med en CSV- eller Excel-fil.
 
+        Mer information finns i [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+
      >[!TIP]
      >
      >När du importerar en posttyp från en CSV- eller Excel-fil kan du även importera poster och fält.
@@ -119,6 +121,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       * Från scratch.
 
         I den här artikeln beskrivs hur du skapar posttyper från grunden.
+
+     <!--
+        * <span class="preview">By importing then from another workspace or adding cross-workspace record types</span>
+            <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+
 
 * Du kan flytta posttyper inom ett avsnitt och från ett avsnitt på en arbetsyta till ett annat. Du kan inte flytta posttyper från en arbetsyta till en annan.
 
@@ -171,6 +178,18 @@ Mer information om vilka posttyper som ingår i varje mall finns i [Lista över 
       * **Specifika arbetsytor**: Lägg till namnen på arbetsytorna där arbetsytehanterare kan ansluta till den här posttypen.
 
    ![Skapa en ruta för posttyp på fliken Avancerade inställningar](assets/create-record-type-box-advanced-settings-tab.png)
+
+   <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
+    <div class="preview">
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+        * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+            You can designate specific users who can add this record type to other workspaces. 
+        * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+            You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+        For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+        ******** replace screen shot below **********
+        ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+    -->
 
 1. Klicka på **Skapa**.
 
@@ -228,4 +247,16 @@ Du kan importera följande när du importerar information från en CSV- eller Ex
 
 Mer information finns i [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
+<!--
 
+<div class="preview">
+
+## Create record types by importing them from another workspace 
+
+You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as cross-workspace record types. 
+
+For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+
+</div>
+
+-->
