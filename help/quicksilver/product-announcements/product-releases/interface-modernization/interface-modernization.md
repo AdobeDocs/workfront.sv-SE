@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3d24c7ac7c88aacd51c1c85c8ee20c69c627a014
+source-git-commit: e4f4c3502281ed46bb865faa401a0d2058a5e6cd
 workflow-type: tm+mt
-source-wordcount: '5168'
+source-wordcount: '5214'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Gränssnittsuppdateringar på fliken Portföljer i en grupp
+
+**Förhandsgranskning: 10 juli 2025; Produktion för alla: 17 juli 2025**
+
+Vi har uppdaterat Portfolio-sidan i den vänstra panelen i en grupp för att matcha andra delar av programmet.
+
+Om du vill visa ändringarna går du till Inställningar > Grupper > Välj en grupp > Portiolios.
 
 ### Gränssnittsuppdateringar i undergruppsdialogrutor
 
