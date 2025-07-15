@@ -96,7 +96,7 @@ För att göra upplevelsen av att dela ett begärandeformulär i Workfront Plann
 * Vi har tagit bort alternativen för att hantera och bidra för användare som du delar frågeformuläret med. Nu kan tillagda användare bara skicka formuläret.
 * Fliken för offentlig delning visar nu fältet för länk och förfallodatum när alternativet Skapa offentlig länk har aktiverats.
 
-Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandera och komprimera alla grupperingar i tabellvyn
 
