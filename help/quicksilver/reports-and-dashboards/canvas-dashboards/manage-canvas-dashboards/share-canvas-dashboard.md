@@ -6,9 +6,9 @@ description: Du kan dela en Canvas Dashboard med andra Adobe Workfront-användar
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -23,30 +23,39 @@ Du kan dela en Canvas Dashboard med andra Adobe Workfront-användare så att de 
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Alla </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td> 
+<p>Aktuell: Planera </p> 
+<p>Nytt: Standard</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Nytt: Standard
-   <p>eller</p>
-   <p>Aktuell: Planera</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste ha behörighet att redigera för kontrollpaneler.</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
+   <td><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Dela en arbetsytans kontrollpanel
 
@@ -56,7 +65,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på knappen **Dela** i det övre högra hörnet på sidan.
 
-1. I fältet **Ge åtkomst till:** i fönstret **Kontrollpanelsdelning** som visas börjar du skriva in namnen på specifika användare, team, roller, grupper eller företag i din Workfront-instans som du vill dela arbetsytans kontrollpanel med. När namnet du söker visas i listan över automatiskt ifyllda fält under fältet klickar du på det för att lägga till det i listan över avsedda mottagare.
+1. I fältet **Ge åtkomst till:** i rutan **Kontrollpanelsdelning** som visas börjar du skriva namnet på den specifika användare, det team, den roll, den grupp eller det företag som du vill dela arbetsytans kontrollpanel med och markerar det när den visas i listan nedan.
 
 1. (Valfritt) När du har lagt till en entitet i listan över avsedda mottagare kan du redigera vilken typ av åtkomst de får för den här Canvas-instrumentpanelen. Som standard får de bara åtkomst till **Visa**, men du kan ge dem behörigheten Hantera genom att klicka på **Visa >** bredvid entiteten och sedan välja **Hantera** i listrutan. Observera att åtkomstnivån för vissa entiteter inte kan ändras, till exempel administratörer.
 

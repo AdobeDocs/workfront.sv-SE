@@ -6,9 +6,9 @@ description: Rapporter som skapas med verktyget Adobe Workfront-rapporter kan l�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 {{step1-to-dashboards}}
 
 1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
+
+1. Klicka på **Ny instrumentpanel** i det övre högra hörnet.
 
 1. I rutan **Skapa instrumentpanel** anger du instrumentpanelens **namn** och **beskrivning**.
 

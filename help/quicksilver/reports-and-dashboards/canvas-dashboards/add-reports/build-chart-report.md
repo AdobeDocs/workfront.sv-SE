@@ -6,7 +6,7 @@ description: En diagramrapport som visualiserar dina data som stapel-, kolumn-, 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -139,7 +139,6 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
 ## Exempel på en diagramrapport
 
 I det här avsnittet går vi igenom stegen för att skapa ett kolumndiagram som visar försenade uppgifter per projektägare.
-
 
 {{step1-to-dashboards}}
 

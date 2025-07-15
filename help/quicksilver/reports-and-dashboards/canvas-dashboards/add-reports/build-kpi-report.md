@@ -6,7 +6,7 @@ description: En KPI-rapport som tydligt visar en enda aggregerad KPI kan läggas
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -86,8 +86,8 @@ Det finns många konfigurationsalternativ för att skapa en KPI-rapport. I det h
    1. Ange en rapport **Beskrivning**.
 
       >[!NOTE]
-      > 
-      > Beskrivningen används som en beskrivning under KPI-värdet. Om du inte anger någon beskrivning genereras en beskrivning baserat på den aggregator- och aggregeringstyp som du väljer i följande steg.
+      >
+      >Beskrivningen används som en beskrivning under KPI-värdet. Om du inte anger någon beskrivning genereras en beskrivning baserat på den aggregator- och aggregeringstyp som du väljer i följande steg.
 
 1. Följ stegen nedan för att konfigurera avsnittet **Build KPI**:
 
