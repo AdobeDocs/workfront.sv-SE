@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Skapa poster genom att importera information från en CSV- eller Excel-fil
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,8 +29,6 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,15 +81,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td> <p>Contribute eller högre behörigheter på arbetsytan <span class="preview">och posttypen </span> där du vill lägga till poster. </p>  
+   <td> <p>Contribute eller högre behörigheter på arbetsytan och den posttyp där du vill lägga till poster. </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,16 +106,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Tomma blad stöds inte.
 * Fält av följande typer stöds inte och kan inte mappas till fält på importbladet:
 
-   * Anslutningsfält, beroende på vilken miljö du använder:
-
-      * I produktionsmiljön går det inte att mappa anslutningsfält till Planning-poster eller Workfront- och AEM Assets-objekt
-
-      * <span class="preview">I förhandsvisningsmiljön kan du mappa och importera anslutningsfält till planeringsposter. Du kan inte mappa fält till Workfront och AEM Assets.</span>
-
+   * Anslutningsfält till objekttyperna Workfront och AEM Assets. Du kan bara mappa anslutningsfält till posttyperna Planering.
    * Sök efter fält från anslutna Planning-poster eller Workfront- och AEM Assets-objekt
    * Formelfält
    * Skapad den, skapad av
    * Senast ändrat den
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * Folk
    * Om ett fält med flera eller enstaka val importeras och det har fler alternativ än ett liknande fält i Planering, skapas de ytterligare alternativen under importen. Endast användare med behörigheten Hantera på arbetsytan kan importera nya alternativ.
 

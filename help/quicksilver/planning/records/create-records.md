@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Skapa poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,8 +43,6 @@ Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i f�
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -97,16 +95,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td> <p>Contribute eller högre behörigheter på arbetsytan <span class="preview">och posttypen </span> där du vill lägga till poster. </p>
-   <p>Visa eller högre behörigheter på arbetsytan <span class="preview">och posttypen</span> för att skapa poster med hjälp av knappen Begär post på postsidan</p>
+   <td> <p>Contribute eller högre behörigheter på arbetsytan och den posttyp där du vill lägga till poster. </p>
+   <p>Visa eller högre behörigheter på arbetsytan och posttypen för att skapa poster med hjälp av knappen Begär post på postsidan</p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn </p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -137,7 +132,7 @@ Poster av den valda typen visas i vyn.
 
      >[!TIP]
      >
-     ><span class="preview">När du lägger till en ny post efter den sista posten i en gruppering eller delgruppering fylls fälten som ingår i grupperingarna automatiskt i i Workfront. Du kan redigera dessa fält manuellt om det behövs och posterna kan tas bort från grupperingen. </span>
+     >När du lägger till en ny post efter den sista posten i en gruppering eller delgruppering, fyller Workfront automatiskt i de fält som ingår i grupperingarna. Du kan redigera dessa fält manuellt om det behövs och posterna kan tas bort från grupperingen.
 
    * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Då läggs en tom rad till under den post du börjar från.
    * Håll markören över en posts primära fält, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.
@@ -187,10 +182,10 @@ Poster av den valda typen visas i vyn.
 
 ## Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst
 
-Användare med behörigheten Visa på arbetsytan <!--<span class="preview">and record type</span>--> kan bara skapa poster med hjälp av knappen Begär post på posttypsidan.
+Användare med behörigheten Visa på arbetsytan och posttypen kan bara skapa poster med hjälp av knappen Begär post på posttypsidan.
 
-Användare med Contribute- och Manage-behörighet till arbetsytan <!--<span class="preview">and record type</span>--> kan skapa poster med knappen Ny post på posttypssidan.
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+Användare med behörigheterna Contribute och Hantera på arbetsytan och i posttypen kan skapa poster med knappen Ny post på posttypssidan.
+
 
 >[!IMPORTANT]
 >
@@ -207,13 +202,13 @@ Användare med Contribute- och Manage-behörighet till arbetsytan <!--<span clas
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 Alla poster av den valda typen visas i vyn.
 
-1. (Villkorligt) I valfri vy klickar du på följande i skärmens övre högra hörn, beroende på arbetsytans <!--<span class="preview">and record type</span>--> behörigheter:
+1. (Villkorligt) I valfri vy kan du klicka på följande i skärmens övre högra hörn, beroende på arbetsytan och behörigheter för posttyp:
 
-   * Klicka på **Ny post** om du har Contribute eller högre behörighet på arbetsytan <!--<span class="preview">and record type</span>-->
+   * Klicka på **Ny post** om du har Contribute eller högre behörighet på arbetsytan och posttypen
 
      eller
 
-   * Klicka på **Begär post** om du har behörigheten Visa på arbetsytan <!--<span class="preview">and record type</span>-->.
+   * Klicka på **Begär post** om du har behörigheten Visa på arbetsytan och posttypen.
 
 1. (Villkorligt) Gör följande om du klickade på **Ny post**:
 

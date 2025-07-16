@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 0%
@@ -204,9 +204,9 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
 
 1. (Valfritt och villkorligt) Om din organisation har köpt ett Workfront Planning-paket klickar du på fliken **Planning** och sedan på **Skickat** i den vänstra panelen för att visa Workfront Planning-begäranden.
 
-   <span class="preview">Använd **Filter** och **Kolumner** för att uppdatera informationen i listan Planeringsbegäran. </span>
+   Använd **Filter** och **Kolumner** för att uppdatera informationen i listan Planeringsbegäran.
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 

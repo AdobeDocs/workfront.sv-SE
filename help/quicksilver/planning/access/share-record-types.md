@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Dela posttyper
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Du kan dela en posttyp med andra för att säkerställa samarbete när du arbeta
 >[!IMPORTANT]
 >
 >Användare med åtkomst till en arbetsyta får automatiskt minst behörigheten Visa för alla posttyper på arbetsytan.
->&#x200B;>Delningsvyer ger inte användarna behörighet att spela in typer. Endast arbetsytor för delning kan ge användare behörighet att spela in typer.
+>>Delningsvyer ger inte användarna behörighet att spela in typer. Endast arbetsytor för delning kan ge användare behörighet att spela in typer.
 >
 >* Allmän information om delning av objekt i Workfront Planning finns även i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Mer information finns i avsnittet [Att tänka på när du delar posttyper](#considerations-when-sharing-record-types) i den här artikeln.
@@ -95,12 +95,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>  <p>Hantera behörigheter till en posttyp</p>  
    <p>Endast användare med behörigheten Hantera på en arbetsyta kan dela behörigheten Hantera till en posttyp</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller planeringsområdena.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer planeringsområdet aktiverat som standard.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -151,7 +147,7 @@ Du kan justera behörigheter till enskilda posttyper på en arbetsyta om du har 
    Då öppnas posttypssidan.
 
 1. Klicka på **Dela** i det övre högra hörnet av posttypen på fliken i valfri vy.
-1. <span class="preview">Klicka på **Dela posttypen**.</span>
+1. Klicka på **Dela posttypen**.
 
    Rutan **Dela** öppnas.
 
@@ -211,7 +207,7 @@ Du kan ta bort användarnas behörigheter från en posttyp. De behåller dock å
 1. Öppna arbetsytan vars posttyper du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
 
 1. Klicka på **Dela** i det övre högra hörnet av posttypen på fliken i valfri vy.
-1. <span class="preview">Klicka på **Dela posttypen**.</span>
+1. Klicka på **Dela posttypen**.
 
    Rutan **Dela** öppnas.
 1. Hitta den användare, grupp, team, företag eller jobbroll vars behörigheter du vill ta bort, utöka den nedrullningsbara menyn Behörigheter till höger om namnet och klicka sedan på **Ta bort**. <!--check the screen shot below - the UI text for View might not be accurate-->

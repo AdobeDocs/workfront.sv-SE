@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -124,8 +124,8 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
    * Du kan inte lägga till fält av följande typer i ett begärandeformulär:
 
-      * Skapad av och senast ändrad av
-      * Skapad den och senast ändrad den
+      * Skapad av och senast ändrad av <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
+      * Skapad den och senast ändrad den <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
       * Formel
       * Workfront-objektens sökfält
       * Sökfält för Workfront Planning-anslutna poster

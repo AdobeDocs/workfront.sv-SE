@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 0%
 
 ---
 
 # Hantera tidslinjevyn
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Mer information om postvyer finns i [Hantera postvyer](/help/quicksilver/plannin
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
    <p>Visa behörigheter till en vy om du tillfälligt vill ändra visningsinställningarna eller duplicera den</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ Så här hanterar du en tidslinjevy:
    >
    >    Sorteringen av posterna på tidslinjen är inte synlig i den komprimerade vyn.
 
-1. <span class="preview"> (Villkorligt) Om administratören har aktiverat anpassade kvartal och Workfront upptäcker problem med hur anpassade kvartal är konfigurerade, kan du få en varning när du öppnar tidslinjevyn. </span>
-
-   <div class="preview">
+1. (Villkorligt) Om administratören har aktiverat anpassade kvartal och Workfront upptäcker problem med hur anpassade kvartal är konfigurerade, kan du få en varning när du öppnar tidslinjevyn.
 
    Följande scenarier finns:
 
@@ -152,13 +145,11 @@ Så här hanterar du en tidslinjevy:
    >När du har konfigurerat anpassade kvartal i inställningsområdet visas anpassade kvartal i tidslinjevyn i stället för klassiska kvartal.
    >Mer information finns i [Aktivera anpassade kvartal](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-   </div>
-
-1. <span class="preview">(Villkorligt) Om du är Workfront-administratör klickar du på **Gå till installationsprogrammet** för att konfigurera dina kvartal. Om inte klickar du på **OK** och ber Workfront-administratören att konfigurera anpassade kvartal.</span>
+1. (Villkorligt) Om du är Workfront-administratör klickar du på **Gå till installationsprogrammet** för att konfigurera dina kvartal. Om inte klickar du på **OK** och ber Workfront-administratören att konfigurera anpassade kvartal.
 
    >[!TIP]
    >
-   ><span class="preview">Knappen Gå till konfiguration visas bara för Workfront-administratören.</span>
+   >Knappen Gå till konfiguration visas endast för Workfront-administratören.
 
 1. (Valfritt och villkorligt) När postnamnet trunkeras håller du pekaren över ett postfält för att visa postens fullständiga namn och ytterligare information. Mer information om hur du ställer in postfältets trunkering på tidslinjen finns i avsnittet [Redigera inställningarna för tidslinjevyn](#edit-the-timeline-view-settings) i den här artikeln.
 
@@ -172,7 +163,7 @@ Så här hanterar du en tidslinjevy:
       * **Kvartal**: Visar månader och veckor med kvartalsangivelse.
       * **Månad**: Visar veckor och dagar.
 1. (Valfritt) Klicka på **Växla till komprimerad vy** om du vill visa de poster vars datum inte överlappar på samma rad. <!--check to see if they updated the name of the setting here-->
-1. (Villkorligt) Om du har ändrat läge till **Kompakt** klickar du på **Växla till standardvyn** för att visa poster på separata rader. <span class="preview">Alternativet **Standard** är standard.</span>  <!--check to see if they updated the name of the setting here-->
+1. (Villkorligt) Om du har ändrat läge till **Kompakt** klickar du på **Växla till standardvyn** för att visa poster på separata rader. Alternativet **Standard** är standard.  <!--check to see if they updated the name of the setting here-->
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
@@ -392,7 +383,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
    >
    >* Om du visar ytterligare poster med alternativet Uppdelning är start- och slutdatumen huvudpostens. Du kan inte välja start- och slutdatum för de anslutna posterna i det här området.
 
-1. <span class="preview">(Villkorligt och valfritt) Om du är Workfront-administratör klickar du på **Gå till installationsprogrammet** i rutan **Använd anpassade kvartal** för att gå till inställningsområdet och konfigurera anpassade kvartal. När du har konfigurerat anpassade kvartal kan du visa dem i tidslinjevyn i stället för i klassiska kvartal. Om du inte är Workfront-administratör kan du begära att anpassade kvartal aktiveras för din organisation av en administratör. </span>
+1. (Villkorligt och valfritt) Om du är Workfront-administratör klickar du på **Gå till Inställningar** i rutan **Använd anpassade kvartal** för att gå till inställningsområdet och ställa in anpassade kvartal. När du har konfigurerat anpassade kvartal kan du visa dem i tidslinjevyn i stället för i klassiska kvartal. Om du inte är Workfront-administratör kan du begära att anpassade kvartal aktiveras för din organisation av en administratör.
 
    Mer information finns i [Aktivera anpassade kvartal](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
@@ -400,11 +391,11 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    >[!TIP]
    >
-   ><span class="preview">Knappen Gå till konfiguration visas bara för Workfront-administratören.</span>
+   >Knappen Gå till konfiguration visas endast för Workfront-administratören.
 
 1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilken information du vill visa i postfälten.
 
-   Du kan definiera stapelformatet för huvudposten <span class="preview"> och för de anslutna posterna</span> när du använder alternativet Uppdelning i standardvyn.
+   Du kan definiera stapelformatet för huvudposten samt för de kopplade posterna när du använder alternativet Uppdelning i standardvyn.
 
    Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard.
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    ![Spela in tidslinjeinställningar för informationspanelen med förhandsgranskning](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> (Valfritt och villkorligt) Om du visar tidslinjen i standardläge väljer du inställningen **Trunkera fältinformation** . När det här alternativet är markerat trunkeras informationen på postfälten och visas bara helt när du håller pekaren över fälten. Den här inställningen är som standard avmarkerad och postinformationen visas helt i fälten. </span>
+1. (Valfritt och villkorligt) Om du visar tidslinjen i standardläge väljer du inställningen **Trunkera fältdetaljer** . När det här alternativet är markerat trunkeras informationen på postfälten och visas bara helt när du håller pekaren över fälten. Den här inställningen är som standard avmarkerad och postinformationen visas helt i fälten.
 
    ![Trunkera inställning aktiverad i rutan för tidslinjeinställningar markerad](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">Inställningen för detaljer i fältet för trunkering är inte tillgänglig när vyn Tidslinje visas i läget Kompakt.</span>
+   >Inställningen för detaljer i trunkeringsfältet är inte tillgänglig när du visar tidslinjevyn i läget Kompakt.
    >
 
 1. Klicka på **Färg** i den vänstra panelen om du vill anpassa färgerna för posterna och grupperingarna i tidslinjen.
 
    ![Tidslinjevy på fliken Färg](assets/color-tab-timeline-view.png)
 
-   Du kan definiera färgen för huvudposten <span class="preview"> och för de anslutna posterna</span> när du använder alternativet Uppdelning i standardvyn.
+   Du kan definiera färgen på både huvudposten och de kopplade posterna när du använder alternativet Uppdelning i standardvyn.
 
 1. (Villkorlig och valfri) Om du har lagt till en gruppering i tidslinjevyn väljer du bland följande alternativ för att ange en färg för grupperingen i avsnittet **Ange grupperingsfärg**:
 
@@ -481,7 +472,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    Om du inte har något fält med färgkodade alternativ för den valda posttypen är det här alternativet nedtonat.
 
-1. <span class="preview">(Valfritt) Om du använder alternativet **Brytning** upprepar du stegen som börjar med steg 4 för varje ansluten post som visas på tidslinjen. </span>
+1. (Valfritt) Om du använder alternativet **Brytning** upprepar du stegen som börjar med steg 4 för varje ansluten post som visas på tidslinjen.
 
 1. Klicka på **Spara**.
 
@@ -515,7 +506,7 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
 #### Dela upp anslutna poster
 
 1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på **Brytning**</span> i det övre högra hörnet av tidslinjevyn i lägena **Standard** eller <span class="preview">**Kompakt**.
+1. Klicka på **Brytning** i det övre högra hörnet av tidslinjevyn i lägena **Standard** eller **Kompakt**.
 1. Expandera rutan **Markera en länkad posttyp** och välj en ansluten posttyp. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Brytningsväljaren och knappen i tidslinjevyn](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
    >
    >Både Produkter och Program måste vara kopplade till kampanjerna för att kunna visas som alternativ för uppdelningsalternativet, och du kan lägga till dem i uppdelningen i valfri ordning.
 
-1. <span class="preview">(Villkorligt) Om du visar tidslinjen i kompakt läge klickar du på **Växla vy**. Nedbrytningen visas inte i läget **Kompakt**.</span>
+1. (Villkorligt) Om du visar tidslinjen i kompakt läge klickar du på **Växla vy**. Nedbrytningen visas inte i läget **Kompakt**.
 
    >[!TIP]
    >
-   ><span class="preview">Välj **Visa inte det här igen** i **Växla till standardvyn?**-rutan innan du växlar vyn. </span>
+   >Välj **Visa inte det här igen** i **Växla till standardvyn?**-rutan innan du växlar vyn.
    >
-   ><span class="preview">Den här inställningen sparas bara för den aktuella webbläsaren. Om du ändrar webbläsare eller datorer måste du välja den här inställningen igen.</span>
+   >Den här inställningen sparas bara för den aktuella webbläsaren. Om du ändrar webbläsare eller datorer måste du välja den här inställningen igen.
    >
    >Du kan inte återgå till läget Kompakt när du har växlat vyn till Standard och när du visar kopplade poster i vyn.
 1. (Valfritt) Upprepa stegen ovan om du vill lägga till fler anslutna poster.

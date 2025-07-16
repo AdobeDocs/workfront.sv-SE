@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
 
 # Översikt över formelfält
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -30,8 +30,6 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,14 +81,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta <span class="preview">och posttyp</span> </a> </p>  
+   <td>   <p>Hantera behörigheter till en arbetsyta och posttyp </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -102,7 +96,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Formelfält refererar till fält som tillhör samma posttyp.
 * Du kan bara referera till fält från andra posttyper när du kopplar en annan posttyp till den som du skapar ett formelfält för.
-* &lt;span class-&quot;preview&quot;>Referens till anslutna posttyper eller deras sökfält i en formel beror på dina behörigheter till de anslutna posttyperna. Om du inte har behörighet att visa posttypen kan du inte referera till deras fält i en formel. </span>
+* Hur du refererar till anslutna posttyper eller deras sökfält i en formel beror på dina behörigheter till de anslutna posttyperna. Om du inte har behörighet att visa posttypen kan du inte referera till deras fält i en formel.
 * Du kan inte ändra fälttypen för ett formelfält när du har sparat det.
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
 * Du måste lägga till de fält som du refererar till i formler när de visas i Workfront Planning-gränssnittet.

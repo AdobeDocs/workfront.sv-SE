@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2091'
 ht-degree: 0%
@@ -239,7 +239,7 @@ Alla begäranden som du har tillgång till för att visa som har skickats till e
       * **Anmälningsdatum**: Datumet då begäran skickades.
       * **Formulär för begäran**: Namnet på det begärandeformulär som användes för att skicka begäran.
       * **Status**: Status för begäran.
-      * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till med någon utanför Workfront visas **Angivet av**-fältet `N/A`.
+      * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till av någon utanför Workfront visas **Angivet av**-fältet `N/A`.
 
         Du kan ha flera filter kopplade av antingen **And** eller **Or**.
 Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
@@ -312,6 +312,8 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
      >[!NOTE]
      >
      >Meddelanden via e-post och appar visas bara när din organisations instans av Workfront är kopplad till Adobe Unified Experience.
+
+   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (Valfritt) Klicka på **Visa din begäran** för att öppna begäran i Workfront.
 

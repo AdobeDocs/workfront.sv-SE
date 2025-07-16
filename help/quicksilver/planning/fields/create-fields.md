@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4607'
 ht-degree: 0%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 # Skapa fält
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -100,13 +100,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta <span class="preview">och posttyp</span> </a> </p>  
+   <td>   <p>Hantera behörigheter till en arbetsyta och posttyp </a> </p>  
    <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -191,7 +186,7 @@ Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till e
    ![Typ av textfält med en rad](assets/single-line-text-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumnrubrik i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
@@ -217,7 +212,7 @@ Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar 
 
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
@@ -234,7 +229,7 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Alternativ**: De alternativ som användare kan välja när fältet uppdateras. Du kan använda både siffror och bokstäver som namn på varje val.
 1. Klicka på **Lägg till alternativ** om du vill lägga till fler alternativ. Det finns ingen gräns för hur många alternativ du kan lägga till i ett flervalsfält.
@@ -263,7 +258,7 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postens detaljsida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Alternativ**: De alternativ som är tillgängliga att välja på den nedrullningsbara menyn när fältet har sparats. Du kan ha både siffror och bokstäver för namnet på varje val.
 
@@ -292,7 +287,7 @@ Du kan använda ett datumfält för att samla in ytterligare information i datum
 
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Den typ av datumformat som du vill visa i det här fältet. <!--update this casing - submitted bug for it-->
 
@@ -322,7 +317,7 @@ Nummerfälttyper samlar in information i talformat.
 >Nummerfält visas som en typ av enradigt textfält i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som siffror efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Number**.
@@ -330,7 +325,7 @@ Nummerfälttyper samlar in information i talformat.
    ![Nummerfältstyp](assets/number-field-type.png)
 1. Lägg till följande information på fliken **Nytt fält**:
 
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan.
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
    * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa tal i det här fältet. Det här alternativet är som standard avmarkerat.
@@ -352,7 +347,7 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 >Procentfält visas som en enkelradig textfälttyp i ett formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena för dessa fält visas som procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
@@ -360,7 +355,7 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
    ![Procentfälttyp](assets/percentage-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan.
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
    * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa procentvärden i det här fältet. Det här alternativet är som standard avmarkerat.
@@ -392,14 +387,14 @@ Valutafälttyper samlar in information i ett talformat som föregås av en valut
 >Valutafält visas som en enkelradig textfälttyp i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som valuta efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Valuta**.
 
    ![Valutafälttyp](assets/currency-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Valuta**: Den typ av valuta som du vill visa i det här fältet. Detta är en lista över valutor enligt ISO (International Organization of Standardization).
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
@@ -422,7 +417,7 @@ Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en p
    ![Fälttyp för kryssruta](assets/checkbox-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
@@ -513,7 +508,7 @@ Du kan använda fälttypen Personer för att lägga till en användare <!--, job
    ![Fälttyp för personer](assets/people-field-type.png)
 
 1. Lägg till följande information på fliken **Nytt fält**:
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan.
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan.
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Tillåt flera värden**: Välj det här alternativet om du vill tillåta användare att lägga till fler än en användare i det här fältet. Det här alternativet är som standard avmarkerat.
 
@@ -535,7 +530,7 @@ Du kan använda fälttypen Skapad av för att lägga till användaren som skapad
 
 1. Lägg till följande information på fliken **Nytt fält**:
 
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 
 1. Klicka på **Skapa**.
@@ -555,7 +550,7 @@ Du kan använda fälttypen Skapat för att lägga till datumet då posten skapad
 
 1. Lägg till följande information på fliken **Nytt fält**:
 
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Välj bland följande format:
 
@@ -586,7 +581,7 @@ Du kan använda fälttypen Senast ändrad av för att lägga till användaren so
 
 1. Lägg till följande information på fliken **Nytt fält**:
 
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 
 1. Klicka på **Skapa**.
@@ -606,7 +601,7 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
 
 1. Lägg till följande information på fliken **Nytt fält**:
 
-   * **Namn**: Namnet på fälttypen så som den kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Välj bland följande format:
 
@@ -626,6 +621,75 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
 1. Klicka på **Skapa**.
 
    Det nya fältet Senast ändrad datumtyp läggs till som en kolumn till posttypen och dess värden är förifyllda med datumet (eller datum och tid) när posten senast ändrades.
+
+<!--
+
+<div class="preview">
+
+### Approved date
+
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
+
+>[!TIP]
+>
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
+>
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
+ 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
+
+   1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
+
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
+
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
+
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+</div>
+-->
+
 
 <!--
 
@@ -664,7 +728,7 @@ Create an Object field:
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Name**: The name of the field, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
 
 1. Click **Create**.

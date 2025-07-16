@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
+source-wordcount: '3346'
 ht-degree: 0%
 
 ---
 
 # Hantera tabellvyn
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Mer information om hur du exporterar tabellvyn till en Excel- eller CSV-fil finn
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
-   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna, duplicera, <span class="preview">eller för att exportera den</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller planeringsområdena.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer planeringsområdet aktiverat som standard.</span></p></td> 
+   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna, duplicera eller för att exportera den</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ När du skapar en tabellvy visas alla poster av den valda typen i en tabell. Var
 
 Så här hanterar du en tabellvy:
 
-1. <span class="preview">Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Exempel på tabellvy](assets/table-view-example.png)
-
-   </span>
+   ![Exempel på tabellvy](assets/table-view-example.png)
 
 1. (Valfritt) Klicka på **Radhöjd** och välj sedan bland följande alternativ för att ändra höjden på tabellraderna:
    * Kort
@@ -130,7 +123,7 @@ Så här hanterar du en tabellvy:
    * [Filter](#add-filters)
    * [Sortera](#add-a-sort)
    * [Gruppering](#add-groupings)
-   * <span class="preview">[Radfärger](#add-row-colors)</span>
+   * [Radfärger](#add-row-colors)
    * [Indikator för närvaro i realtid](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ Så här lägger du till en gruppering:
 
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
-   <span class="preview">![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)</span>
+   ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
 
 1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
@@ -470,9 +463,7 @@ Så här lägger du till en gruppering:
 1. Klicka utanför rutan **Gruppera poster efter** för att stänga den.
 1. (Valfritt) Klicka på **+ Ny post** i slutet av en gruppering för att lägga till nya poster. Uppdatera sedan sidan för att lägga till den nya posten i lämplig gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">Gör något av följande om du vill expandera eller komprimera grupperingar:</span>
-
-   <div class="preview">
+1. Gör något av följande om du vill expandera eller komprimera grupperingar:
 
    1. Klicka på ikonen **Gruppering** och sedan **Expandera alla** eller **Komprimera alla**. Detta utökar alla grupperingar och undergrupperingar i tabellvyn.
 
@@ -486,7 +477,7 @@ Så här lägger du till en gruppering:
       * **Expandera undergrupper**
       * **Komprimera undergrupper**
 
-      Beroende på hur många grupperingar du använder i vyn kanske vissa alternativ inte är tillgängliga.</div>
+      Beroende på hur många grupperingar du använder i vyn kanske vissa alternativ inte är tillgängliga.
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Lägga till radfärger
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. Klicka utanför rutan **Radfärger** för att stänga den. Färgerna används automatiskt.
 
-</div>
-
 ### Aktivera indikator för närvaro i realtid
 
 Avatarerna för andra användare som redigerar postinformation samtidigt som du visar i det övre högra hörnet av alla postvyer, som standard.
@@ -557,7 +544,7 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
    >
    >Du kan välja alternativet **Visa medarbetare** från vilken vy som helst. Det fält som redigeras av andra kontureras bara i tabellvyn.
 
-<div class="preview">
+
 
 
 
