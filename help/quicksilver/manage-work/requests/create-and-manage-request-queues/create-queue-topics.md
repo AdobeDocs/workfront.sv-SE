@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -154,18 +154,16 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Begärantyper</strong> </td> 
-      <td> <p>Välj vilken typ av begäranden som lagras i det här köavsnittet. De synliga alternativen anges på fliken <strong>Köinformation</strong> i projektet. Detta är ett obligatoriskt fält. </p>
-
-   <p><b>OBS</b>:
-
-   Typer visas bara som ett urval i området Begäranden om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du konfigurerar området Köinformation för ett projekt finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en frågekö</a>. </p> <p>Välj bland följande typer:</p>
-   <ul>
-   <li>Felrapport</li>
-   <li>Ändra ordning</li>
-   <li>Problem</li>
-   <li>Begäran</li>
-   </ul> <p>Din Workfront-administratör kan ha bytt namn på några av dessa alternativ. </p> </td>
-   </tr> 
+      <td> <p>Välj vilken typ av begäranden som lagras i det här köavsnittet. De synliga alternativen anges på fliken <strong>Köinformation</strong> i projektet. Detta är ett obligatoriskt fält. </p> 
+       <p><b>OBS</b>:</p>
+      <p>Typer visas bara som ett urval i området Begäranden om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du konfigurerar området Köinformation för ett projekt finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en frågekö</a>. </p> <p>Välj bland följande typer:</p> 
+       <ul> 
+        <li>Felrapport</li> 
+        <li>Ändra ordning</li> 
+        <li>Problem</li> 
+        <li>Begäran</li> 
+       </ul> <p>Din Workfront-administratör kan ha bytt namn på några av dessa alternativ. </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
