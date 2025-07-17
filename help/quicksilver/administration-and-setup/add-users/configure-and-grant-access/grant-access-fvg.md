@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Filter och välj sedan de funktioner som du vill ge under **Finjustera inställningarna**.
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    Som standard har användare med en plan-, Work-, Reviewer- eller Request-licens fullständig visning och redigeringsfunktioner. Användare med en extern användarlicens har inte åtkomst till filter, vyer och grupperingar.
 

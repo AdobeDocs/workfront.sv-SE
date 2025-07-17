@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Problem och välj sedan de funktioner som du vill ge under **Finjustera inställningarna**.
+
+   ![finjustera utgivningsinställningar](assets/fine-tune-issues.png)
 
 1. (Valfritt) Om du vill begränsa ärvda behörigheter för utgåvor från högre rankningsobjekt klickar du på **Ange ytterligare begränsningar** och väljer sedan **Ärv aldrig dokumentåtkomst från projekt, aktiviteter, utgåvor osv.**.
 

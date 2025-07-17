@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aafa8886-82e2-41c4-8fcb-cbb9df2d55dd
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Aktiviteter och välj sedan de funktioner som du vill ge under **Finjustera dina inställningar**.
+
+   ![finjustera aktivitetsinställningarna](assets/fine-tune-tasks.png)
 
    >[!NOTE]
    >

@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
 
    1. Inaktivera **Visa kontaktinformation** och klicka sedan på X för att stänga rutan **Finjustera dina inställningar**.
 
+      ![finjustera användarinställningar](assets/fine-tune-users.png)
+
 1. Om du vill ändra möjligheten för användare med en planlicensåtkomst att redigera andra användare klickar du på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Redigera** till höger om **Användare** och väljer sedan de möjligheter du vill ge:
 
    <table style="table-layout:auto"> 
@@ -80,12 +82,9 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
      <tr> 
       <td role="rowheader"><strong>Skapa</strong> </td> 
       <td> <p>Tillåter användare att skapa användare.<br>Det här alternativet är aktiverat som standard.</p> 
-      &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Kontrollera att den här ändringen görs innan du raderar dessa två anteckningar. Den 29 mars 2019 säger req doc att detta beror på undersökningsresultaten.</p>
-
-       &lt;p>&lt;b>Obs!&lt;/b>: Detta är inte tillgängligt om din organisation har anslutit till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.&lt;/p>
-       —> &lt;/td>
-   </tr> 
+     <p><b>Obs!</b> Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Ta bort</strong> </td> 
       <td> <p> Tillåter användare att ta bort de användare som de själva har skapat.<br>Det här alternativet är aktiverat som standard.</p> <p><b>Obs!</b> Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.</p> </td> 

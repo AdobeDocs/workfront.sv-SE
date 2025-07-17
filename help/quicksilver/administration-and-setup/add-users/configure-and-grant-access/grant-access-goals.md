@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -59,7 +59,6 @@ Mer information om åtkomst till Workfront-mål finns i [Krav för att använda 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicka på alternativet till höger om **Mål** som du vill använda för den här åtkomstnivån.
 
-   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >
