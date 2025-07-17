@@ -27,7 +27,7 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->>Produktion för alla: 10 juli 2025
+>&#x200B;>Produktion för alla: 10 juli 2025
 
 
 Fliken Avancerade inställningar har uppdaterats när en posttyp skapas eller redigeras.
@@ -44,7 +44,7 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->>Produktion för alla: 10 juli 2025
+>&#x200B;>Produktion för alla: 10 juli 2025
 
 Nu när du lägger till ett team i en arkivkommentar i Workfront Planning får alla teammedlemmar både ett meddelande i appen och ett e-postmeddelande om kommentaren. Före den här förbättringen meddelades endast användare som lagts till i kommentarer individuellt.
 
@@ -55,8 +55,8 @@ Mer information finns i Hantera postkommentarer [Hantera postkommentarer](/help/
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->>Production fast release: 14 augusti 2025
->>Produktion för alla: 16 oktober 2025
+>&#x200B;>Production fast release: 14 augusti 2025
+>&#x200B;>Produktion för alla: 16 oktober 2025
 
 
 När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.
@@ -72,7 +72,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 >[!NOTE]
 >
 >Förhandsgranska: 9 juli 2025
->>Produktion för alla: 17 juli 2025
+>&#x200B;>Produktion för alla: 17 juli 2025
 
 Nu kan du dela en vy samt en posttyp från samma knapp på posttypens sida. Före den här förbättringen kunde du bara dela posttypen från knappen Dela på posttypssidan och en vy från vyfliken.
 
@@ -336,7 +336,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 
