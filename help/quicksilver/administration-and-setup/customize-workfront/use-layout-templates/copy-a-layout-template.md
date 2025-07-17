@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 2847adb34fc8f433392c82dbcab9bf48f0fc8aa0
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 1. Klicka på **Gränssnitt** > **Layoutmallar** i den vänstra panelen.
 
 1. Klicka på namnet på layoutmallen som du vill ändra.
-1. Klicka på **Kopiera**.
+1. Klicka på ikonen **Kopiera** ![Kopiera](assets/copy-icon.png).
 
    Alla inställningar förutom namn, beskrivning och användartilldelningar i den befintliga layoutmallen kopieras till den nya mallen.
 
