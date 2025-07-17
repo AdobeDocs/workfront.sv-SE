@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
+source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -17,6 +17,27 @@ ht-degree: 0%
 Den här sidan beskriver alla förbättringar av dokumenthanteringen som gjorts i tredje kvartersversionen 2025 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2025 finns i [Översikt över utgåvan tredje kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+<!--## Adobe Express and Workfront Proof integration
+
+We are excited to announce a new integration between Adobe Express and Workfront Proof.
+
+With this integration, you can 
+
+* Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight  
+
+* Conduct for deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer 
+
+* Meet enterprise compliance standards with electronic signatures and full audit logs 
+
+* Require approval on any remixed files from an Express branded template  
+
+* Map an Express template to a multi-stage review and approval workflow using advanced proof templates
+
+Note: The integration must be enabled for your accounts by the Adobe Product Team.
+
+For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+-->
 
 ## Uppdatering för korrekturläsaren för skrivbordet
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 282bcd517736cef2836842409e65a6ddce63d853
+source-git-commit: 3eaab5818e982914f807ce2c4e92dee1885ea8d9
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Den här artikeln innehåller en lista med artiklar om frisläppningsaktiviteter
 
 Information om den aktuella lanseringen av Workfront Planning finns i följande artikel:
 
-* [Tredje kvartersversionen 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+* [Versionsaktivitet fjärde kvartalet 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 
 >[!ENDSHADEBOX]
 
@@ -30,6 +30,8 @@ Information om den aktuella lanseringen av Workfront Planning finns i följande 
 
 Mer information om funktioner som släpptes före produktionsutgåvan den 10 april 2025 finns i följande artiklar:
 
+* [Versionsaktivitet fjärde kvartalet 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+* [Tredje kvartersversionen 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Andra utgåvan för kvartal 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Första utgåvan av kvartal 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Versionsaktivitet fjärde kvartalet 2024 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)

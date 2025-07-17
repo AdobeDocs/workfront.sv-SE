@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
+source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2273'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ I den här artikeln beskrivs de funktioner som lanseras för Workfront Planning 
 <!--keep the sentence below for all future quarterly release pages-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Uppdaterade avancerade inställningar när du skapar och redigerar posttyper
+
+Förhandsgranska och produktion: 10 juli 2025
+
+Fliken Avancerade inställningar har uppdaterats när en posttyp skapas eller redigeras.
+
+Följande ändringar infördes som en del av den här uppdateringen:
+
+* Området &quot;Anslutningsmöjligheter&quot; har bytt namn till &quot;Funktioner för flera arbetsytor&quot;
+* Inställningen &quot;Anslut från andra arbetsytor&quot; har bytt namn till &quot;Tillåt anslutning till den här posttypen i andra arbetsytor&quot;
+
+Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Lägg till meddelanden för teamanvändare när teamet läggs till i en postkommentar
 
@@ -96,7 +109,7 @@ För att göra upplevelsen av att dela ett begärandeformulär i Workfront Plann
 * Vi har tagit bort alternativen för att hantera och bidra för användare som du delar frågeformuläret med. Nu kan tillagda användare bara skicka formuläret.
 * Fliken för offentlig delning visar nu fältet för länk och förfallodatum när alternativet Skapa offentlig länk har aktiverats.
 
-Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandera och komprimera alla grupperingar i tabellvyn
 
@@ -314,7 +327,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 
