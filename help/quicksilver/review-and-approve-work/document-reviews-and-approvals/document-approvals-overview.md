@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Med enhetliga godkännanden kan man
 * Utse ett helt Workfront-team som granskare eller godkännare
 * Ange en tidsgräns för granskning eller godkännande
 * Skapa och återanvänd godkännandemallar
-* Använd nya versioner för
+* Använd nya versioner
 * Visa flera viktiga resultatindikatorer för dina godkännanden i Workfront Home widgets
 * Använd paneler på arbetsytan för att visa rapportinformation om enhetliga godkännanden
 

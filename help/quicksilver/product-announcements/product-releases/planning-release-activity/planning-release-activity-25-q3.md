@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
+source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
 workflow-type: tm+mt
-source-wordcount: '2273'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 
 ## Uppdaterade avancerade inställningar när du skapar och redigerar posttyper
 
-Förhandsgranska och produktion: 10 juli 2025
+>[!NOTE]
+>
+>Förhandsgranska: 10 juli 2025
+>>Produktion för alla: 10 juli 2025
+
 
 Fliken Avancerade inställningar har uppdaterats när en posttyp skapas eller redigeras.
 
@@ -37,8 +41,10 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 
 ## Lägg till meddelanden för teamanvändare när teamet läggs till i en postkommentar
 
-Förhandsgranska: 10 juli 2025
-Produktion för alla: 10 juli 2025
+>[!NOTE]
+>
+>Förhandsgranska: 10 juli 2025
+>>Produktion för alla: 10 juli 2025
 
 Nu när du lägger till ett team i en arkivkommentar i Workfront Planning får alla teammedlemmar både ett meddelande i appen och ett e-postmeddelande om kommentaren. Före den här förbättringen meddelades endast användare som lagts till i kommentarer individuellt.
 
@@ -46,9 +52,12 @@ Mer information finns i Hantera postkommentarer [Hantera postkommentarer](/help/
 
 ## Fyll i fält automatiskt baserat på använda grupperingar
 
-Förhandsgranska: 10 juli 2025
-Production fast release: 14 augusti 2025
-Produktion för alla: 16 oktober 2025
+>[!NOTE]
+>
+>Förhandsgranska: 10 juli 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla: 16 oktober 2025
+
 
 När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.
 
@@ -62,8 +71,8 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 >[!NOTE]
 >
->* Förhandsgranska: 9 juli 2025
->* Produktion för alla: 17 juli 2025
+>Förhandsgranska: 9 juli 2025
+>>Produktion för alla: 17 juli 2025
 
 Nu kan du dela en vy samt en posttyp från samma knapp på posttypens sida. Före den här förbättringen kunde du bara dela posttypen från knappen Dela på posttypssidan och en vy från vyfliken.
 
@@ -109,7 +118,7 @@ För att göra upplevelsen av att dela ett begärandeformulär i Workfront Plann
 * Vi har tagit bort alternativen för att hantera och bidra för användare som du delar frågeformuläret med. Nu kan tillagda användare bara skicka formuläret.
 * Fliken för offentlig delning visar nu fältet för länk och förfallodatum när alternativet Skapa offentlig länk har aktiverats.
 
-Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandera och komprimera alla grupperingar i tabellvyn
 
@@ -327,7 +336,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 

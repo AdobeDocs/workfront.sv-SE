@@ -6,7 +6,8 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c61d147d3f3a9851645f21ec1ee1d5ab9b445d8
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
+source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -23,9 +24,12 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 
 ## Nya fält för att visa information om postgodkännande
 
-Förhandsgranska: 17 juli 2025
-Production for fast release: 14 augusti 2025
-Produktion för alla: 16 oktober 2025
+>[!NOTE]
+>
+>Förhandsgranska: 17 juli 2025
+>>Production for fast release: 14 augusti 2025
+>>Produktion för alla: 16 oktober 2025
+
 
 Vi introducerar följande fält för att samla in godkännandeinformation för poster som skapats genom att skicka en begäran med ett godkännande:
 
@@ -37,9 +41,12 @@ Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-f
 
 ## Fyll i fält automatiskt baserat på använda grupperingar
 
-Förhandsgranska: 10 juli 2025
-Production fast release: 14 augusti 2025
-Produktion för alla: 16 oktober 2025
+>[!NOTE]
+>
+>Förhandsgranska: 10 juli 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla: 16 oktober 2025
+
 
 När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.
 
@@ -61,4 +68,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-
