@@ -23,14 +23,14 @@ ht-degree: 0%
 
 Du kan samarbeta om Adobe Workfront Planning-poster genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 
-Den högra panelen i en post visar följande avsnitt:
+I den högra panelen för en post visas följande avsnitt:
 
 * **Kommentarer**: Visar kommentarer och svar som användare lägger till i poster. Mer information om hur du hanterar kommentarer i Workfront Planning-poster finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
-* **Historik**: Visar systemregistrerade ändringar som användare gör i postfälten.
+* **Historik**: Visar ändringar som användarna gör i postfälten.
 
-## Krav för åtkomst
+## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav.
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,25 +44,25 @@ Den högra panelen i en post visar följande avsnitt:
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planering av Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> 
-<p>Någon av följande Workfront-planer:</p> 
-<ul><li>Utvald</li> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
 <p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planeringspaket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
    <td> 
-<p>Någon </p> 
-<p>Om du vill ha mer information om vad som ingår i varje Workfront Planning-plan kontaktar du din Workfront-kontoansvarige. </p> 
+<p>Alla </p> 
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plattform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
@@ -72,22 +72,22 @@ Den högra panelen i en post visar följande avsnitt:
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td> <p>Contributor eller högre licens</p>
-   <p>Workfront Planning är inte tillgängligt för äldre Workfront-licenser</p> 
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration av åtkomstnivå</p></td> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Behörigheter för objekt</p></td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Visa eller högre behörigheter till en arbetsyta och posttyp </a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, även de som de inte har skapat</p> </td> 
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
   </tr> 
 <tr>
-   <td role="rowheader"><p>Mall för layout</p></td>
-   <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planering.
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning.
    <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p></div></li></ul>
 
 </td>
@@ -95,11 +95,11 @@ Den högra panelen i en post visar följande avsnitt:
 </tbody> 
 </table>
 
-*Mer information om åtkomstkrav för Workfront finns [i Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Leta reda på avsnittet Historik för en post
+## Leta reda på historikavsnittet för en post
 
 {{step1-to-planning}}
 
@@ -107,10 +107,10 @@ Den högra panelen i en post visar följande avsnitt:
 
    Arbetsytan öppnas och posttyperna visas på kort.
 
-1. Klicka på ett kort för en posttyp.
-Sidan för posttyp öppnas och alla poster av den typen visas.
+1. Klicka på ett posttypskort.
+Posttypssidan öppnas och alla poster av den typen visas.
 
-1. Från vilken vy som helst klickar du på namnet på en post.
+1. Klicka i valfri vy på namnet på en post.
 
    Postens sida öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
 1. Klicka på ikonen **Visa historik** ![Visa historik](assets/show-history-icon.png). Alla ändringar som görs i postens fält visas på den högra panelen, med början från den senaste.
@@ -120,27 +120,27 @@ Sidan för posttyp öppnas och alla poster av den typen visas.
 
 Du kan granska ändringarna som gjorts för postfält i historikavsnittet på den högra panelen på en postsida.
 
-![Området Historik i Kommentarer](assets/history-area-in-comments.png)
+![Historikområde i kommentarer](assets/history-area-in-comments.png)
 
-* Workfront Planning registrerar följande information i avsnittet Historik:
+* Workfront Planning registrerar följande information i historikavsnittet:
 
-   * Eventuella fältändringar
+   * Alla fältändringar
 
-   * De gamla och de nya värdena för fält, när värdena ändras. De gamla värdena visas i genomstruket format.
+   * Det gamla och de nya värdena i fälten när värdena ändras. De gamla värdena visas i genomstrykningsformat.
 
-   * Det fullständiga namnet på den användare som gjorde ändringen
+   * Det fullständiga namnet på användaren som gjorde ändringen
 
    * En datum- och tidsstämpel som anger när ändringen inträffade.
 
 * Fält av följande typer visar alltid det gamla värdet (i genomstrykningsformat) och det nya värdet:
 
    * Text
-   * Paragraf
+   * Stycke
    * Valuta
    * Datum
    * Nummer
    * Procent
-   * Välj en gång
+   * Enkelval
 
 * Fält av följande typer visar det gamla värdet i genomstrykningsformat endast om minst ett av de flera värdena har tagits bort:
 
@@ -148,18 +148,18 @@ Du kan granska ändringarna som gjorts för postfält i historikavsnittet på de
    * Länkade postfält
    * Folk
 
-  Om ändringen bara lägger till värden i fältet visas inte det gamla värdet och endast det nya fältvärdet visas.
+  Om ändringen bara har lagt till värden i fältet visas inte det gamla värdet och bara det nya fältvärdet visas.
 
-* Fält av kryssrutetyp visar aldrig det gamla värdet i genomstruket format. Om fältet redigeras visas bara det aktuella tillståndet vid den tidpunkt då ändringen gjordes.
+* Fält av typen Kryssruta visar aldrig det gamla värdet i genomstrykningsformat. Om fältet redigeras visas bara det aktuella läget när ändringen gjordes.
 
   Mer information om Workfront Planning-fält finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
-* Ändringar av fält av följande typer visas inte i avsnittet Historik:
+* Ändringar i fält av följande typer visas inte i avsnittet Historik:
 
-   * Länkade fält (uppslagsfält)
+   * Länkade (sökning) fält
    * Formel
    * Skapad av
-   * Skapad den den
+   * Skapad den
    * Senast ändrad av
    * Senast ändrat den
 

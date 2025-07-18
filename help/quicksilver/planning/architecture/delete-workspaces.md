@@ -22,15 +22,15 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-I Adobe Workfront Planning är arbetsytor centrala platser där team kan planera arbetet. Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+I Adobe Workfront Planning är arbetsytorna centraliserade platser där team kan planera arbetet. Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 Du kan ta bort arbetsytor som inte längre är relevanta.
 
-Vi rekommenderar att du återskapar några eller alla posttyper, poster, fält och vyer som är associerade med arbetsytan och som du vill ta bort på en annan arbetsyta innan du tar bort den.
+Vi rekommenderar att du återskapar vissa eller alla posttyper, poster, fält och vyer som är kopplade till arbetsytan som du vill ta bort på en annan arbetsyta innan du tar bort den.
 
-## Krav för åtkomst
+## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav.
++++ Expandera om du vill visa åtkomstkraven.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -46,76 +46,76 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planering av Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> 
-<p>Någon av följande Workfront-planer:</p> 
-<ul><li>Utvald</li> 
-<li>Primtal</li> 
-<li>Sist</li></ul> 
-<p>Workfront Planning är inte tillgängligt för äldre Workfront-planer</p> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planeringspaket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
    <td> 
-<p>Någon </p> 
-<p>Om du vill ha mer information om vad som ingår i varje Workfront Planning-plan kontaktar du din Workfront-kontoansvarige. </p> 
+<p>Alla </p> 
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plattform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste vara registrerad i Adobe Unified Experience för att kunna komma åt Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience för Workfront</a>. </p> 
+<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licens för Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td><p> Standard </p>
-   <p>Workfront Planning är inte tillgängligt för äldre Workfront-licenser</p> 
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration av åtkomstnivå</p></td> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Behörigheter för objekt</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta</a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, även de som de inte har skapat</p> </td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Mer information om åtkomstkrav för Workfront finns [i Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Att tänka på när du tar bort arbetsytor
 
-* När du tar bort arbetsytor tas även alla posttyper, poster, deras fält och vyer bort.
+* När du tar bort arbetsytor tas även alla posttyper, poster, fält och vyer bort.
 * Borttagna arbetsytor och den information de innehåller kan inte återställas.
 
 ## Ta bort en arbetsyta
 
 {{step1-to-planning}}
 
-1. (Villkorligt) Om du är Workfront-administratör klickar du på **Arbetsytor som jag använder** för att komma åt arbetsytor som du har skapat, eller **Andra arbetsytor** för att komma åt arbetsytor som andra har delat med dig.
+1. (Villkorligt) Om du är Workfront-administratör klickar du på **Arbetsytor som jag är på** för att komma åt arbetsytor som du har skapat, eller **Andra arbetsytor** för att komma åt arbetsytor som andra delar med dig.
 
-1. (Valfritt) Klicka på **Visa alla** om du vill visa fler arbetsytor. Länken **Visa alla** visas bara när du har fler än två rader med arbetsytekort.
-1. (Valfritt) **Klicka på Visa mindre** för att begränsa antalet arbetsytor som visas på skärmen.
-1. Om du vill ta bort en arbetsyta gör du något av följande:
+1. (Valfritt) Klicka på **Visa alla** om du vill visa ytterligare arbetsytor. Länken **Visa alla** visas bara när du har fler än två rader med arbetsytekort.
+1. (Valfritt) Klicka på **Visa färre** om du vill begränsa antalet arbetsytor som visas på skärmen.
+1. Gör något av följande om du vill ta bort en arbetsyta:
 
-   * Håll muspekaren över arbetsytekortet och klicka sedan på **menyn** Mer![ ](assets/more-menu.png)i det övre högra hörnet av kortet
-Eller
-   * Klicka på ett arbetsytekort för att öppna arbetsytan och klicka sedan på **menyn Mer** ![](assets/more-menu.png) till höger om arbetsytans namn.
+   * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i kortets övre högra hörn
+eller
+   * Klicka på ett arbetsytekort för att öppna arbetsytan och klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) till höger om arbetsytans namn.
 1. Klicka på **Ta bort**.
 
-   ![Ta bort bekräftelse av arbetsytan permanent](assets/permanently-delete-workspace-confirmation.png)
+   ![Bekräftelse av borttagning av arbetsyta permanent](assets/permanently-delete-workspace-confirmation.png)
 
-1. Skriv &quot;**radera**&quot; i det avsedda utrymmet och klicka sedan på **Ta bort** permanent. Detta är inte skiftlägeskänsligt.
+1. Skriv **delete** i det angivna utrymmet och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
-   Arbetsytan tas bort och kan inte återställas. Alla posttyper, poster, fält och vyer som är kopplade till dem tas också bort. <!--ensure this is right at or before GA-->
+   Arbetsytan tas bort och kan inte återskapas. Alla posttyper, poster, fält och vyer som är kopplade till dem tas också bort. <!--ensure this is right at or before GA-->

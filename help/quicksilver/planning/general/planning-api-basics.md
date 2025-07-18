@@ -41,7 +41,7 @@ Mer information om externa sökfält finns i [Exempel på ett externt sökfält 
 
 Objekten ändras genom att en HTTP-begäran skickas till deras unika URI. Den åtgärd som ska utföras anges av HTTP-metoden.
 
-HTTP-standardmetoderna motsvarar följande åtgärder:
+Standardmetoderna för HTTP motsvarar följande åtgärder:
 
 * **GET** - Hämtar ett objekt efter ID, söker efter alla objekt efter en fråga
 * **POST** - Infogar ett nytt objekt
@@ -210,7 +210,7 @@ Nedan finns en lista över de fälttyper som stöds och vilka sökmodifierare so
 | skapad av | $is, $isNot, $isAnyOf, $isNoneOf |
 | created-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween |
 | uppdaterad | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
-| uppdaterad-kl | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
+| uppdaterad | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
 | referens | $hasAnyOf, $hasAllOf, $isExakt, $hasNoneOf, $isEmpty, $isNotEmpty |
 | sökning | Beroende på det länkade fältet |
 

@@ -1,6 +1,6 @@
 ---
 title: Godkänn en begäran i Adobe Workfront Planning
-description: När en användare skickar en begäran till ett formulär som är kopplat till ett godkännande i Adobe Workfront Planning får godkännarna ett meddelande och ett e-postmeddelande om det väntande godkännandet. De måste godkänna begäran innan Workfront Planning skapar ett objekt.
+description: När en användare skickar en begäran till ett begärandeformulär som är kopplat till ett godkännande i Adobe Workfront Planning får godkännarna ett meddelande och ett e-postmeddelande om det väntande godkännandet. De måste godkänna begäran innan Workfront Planning skapar ett objekt.
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Godkänn en förfrågan i Adobe Workfront Planning
+# Godkänn en begäran i Adobe Workfront Planning
 
 <!--take Preview and Production references at Production time-->
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är endast tillgänglig i förhandsversionsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -37,19 +37,19 @@ Vi rekommenderar att du också ser följande artiklar:
 
 ## Att tänka på när det gäller att godkänna begäranden
 
-* Inskickade förfrågningar visas på fliken Planering i avsnittet Skickade i området Förfrågningar i Workfront med någon av följande förfrågningsstatusar:
+* Skickade begäranden visas på fliken Planering i avsnittet Skickat i området Begäranden i Workfront med en av följande begärandestatusar:
 
-   * **Väntar på granskning**: Den här statusen visas när ingen av godkännarna har öppnat begärandeobjektet.
-   * **Under granskning**: Statusen **Väntar på granskning** ändras till **Under granskning** när minst en godkännare öppnar begärandeobjektet. Statusen för begäran förblir **Under granskning** tills alla godkännare har godkänt begäran.
-   * **Godkänd**: När en godkännare godkänner begärandeobjektet blir **deras individuella status Godkänd**, men den övergripande statusen för begärandeobjektet förblir **Granskad** tills alla godkännare har fattat sina beslut. När alla godkännare godkänner en begäran blir **begärans status Godkänd**.
+   * **Väntande granskning**: Den här statusen visas när ingen av godkännarna har öppnat begäranobjektet.
+   * **Under granskning**: Statusen **Väntande granskning** ändras till **Under granskning** när minst en godkännare öppnar begäranobjektet. Status för begäran förblir **Under granskning** tills alla godkännare har godkänt begäran.
+   * **Godkänd**: När en godkännare godkänner begäranobjektet blir deras individuella status **Godkänd**, men den övergripande statusen för begäranobjektet förblir **Under granskning** tills alla godkännare har fattat sina beslut. När alla godkännare godkänner en begäran blir förfrågansstatusen **Godkänd**.
    * **Slutförd**: Om alla godkännare godkänner begäranobjektet ändras dess status till **Slutförd** eller om begäran inte behövde något godkännande.
    * **Avvisad**: Om någon godkännare avvisar begärandeobjektet blir statusen **Avvisad**. Ingen post skapas och en ny begäran måste skickas för att posten ska kunna skapas.
 
 * <span class="preview">Du kan visa godkännandeinformation för en post som skapats genom att skicka ett begärandeformulär i fälten Godkänd av och Godkänd. Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).</span>
 
-## Krav för åtkomst
+## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav.
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto">
  <col>
@@ -79,12 +79,12 @@ Vi rekommenderar att du också ser följande artiklar:
    <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td>
    <td>
 <p>Alla </p>  
-<p>Om du vill ha mer information om vad som ingår i varje Workfront Planning-plan kontaktar du din Workfront-kontoansvarige. </td>
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront-plattform</p></td>
+   <td role="rowheader"><p>Adobe Workfront</p></td>
    <td>
-<p>Din organisations instans av Workfront måste vara registrerad i Adobe Unified Experience för att kunna komma åt Workfront Planning.</p>
+<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p>
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
   </tr>
@@ -102,13 +102,13 @@ Vi rekommenderar att du också ser följande artiklar:
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Behörigheter för objekt</p></td>
+   <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <ul>
-   <li><p>Hantera behörigheter till en arbetsyta och posttyp </p></li>
-    <li><p>Systemadministratörer kan hantera arbetsytor som de inte har skapat. </p></li>
+   <li><p>Hantera behörigheter till en arbetsyta och en posttyp </p></li>
+    <li><p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p></li>
     </ul>
-   <p>Mer information om hur du delar behörigheter för Workfront Planning-objekt finns i  
+   <p>Information om delningsbehörigheter för Workfront Planning-objekt finns i  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Översikt över delningsbehörigheter i Adobe Workfront Planning</a> 
   </td>
   </tr>
@@ -131,7 +131,7 @@ Godkännare får följande meddelanden om en begäran som väntar på deras godk
 
 >[!NOTE]
 >
->Din organisations instans av Workfront måste registreras i Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
+>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att användare ska kunna ta emot e-post och meddelanden i appen.
 
 Så här godkänner du en begäran:
 
@@ -146,11 +146,11 @@ Så här godkänner du en begäran:
    * Klicka på ikonen för området **Meddelanden** ![Meddelanden i det enhetliga gränssnittet](assets/notifications-area-icon-unified-shell.png) i skärmens övre högra hörn och klicka på meddelandet om en begäran som väntar på ditt godkännande för att öppna begäran.
    * Gå till e-postmeddelandet i ditt e-postmeddelande som meddelar dig om en begäran som väntar på ditt godkännande och klicka sedan på **Öppna begäran** för att öppna begäran. <!--add the name of the button here, from the email-->
 
-   Sidan för begäran öppnas i skrivskyddat läge.
+   Förfrågningssidan öppnas i skrivskyddat läge.
 
-   ![Skrivskyddad begärandesida i granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
+   ![Skrivskyddad begärandesida med granskningsstatus](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (Valfritt) **Klicka på ikonen** Godkännanden![](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
+1. (Valfritt) Klicka på ikonen **Godkännanden** ![Godkännanden](assets/approvals-icon.png) i det övre högra hörnet av begäran för att visa godkännarna.
 1. Klicka på **Granska och godkänn** och välj sedan något av följande:
 
    * **Godkänn**: Detta godkänner begäran. En post skapas omedelbart för den posttyp som är associerad med begärandeformuläret efter att alla godkännare har godkänt begäran.

@@ -135,7 +135,7 @@ Tänk på följande när du lägger till avsnitt på en postsida:
 * Du kan dra och släppa fält från ett avsnitt till ett annat. Mer information finns i avsnittet [Ordna om fält på sidan för postförhandsgranskning eller information](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
 * När du tar bort alla fält från ett avsnitt tas avsnittet automatiskt bort och kan inte återställas.
 
-Så här lägger du till ett avsnitt i en förhandsgranskning av en post eller på en sida:
+Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
 {{step1-to-planning}}
 
@@ -212,9 +212,9 @@ Alla avsnitt expanderas som standard.
 Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
    * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.
-   * Värdena för Workfront-uppslagsfält som är anslutna till planeringsposten tas också bort.
+   * Värdena för Workfront sökfält som är kopplade till Planning-posten tas också bort.
 
-## Ordna om fälten på fliken Detaljer för posten
+## Ordna om fält på postens flik Detaljer
 
 {{step1-to-planning}}
 
@@ -222,17 +222,17 @@ Följande saker händer:
 
    Arbetsytan öppnas och posttyperna visas som kort.
 
-1. Klicka på ett kort för en posttyp.
+1. Klicka på ett posttypskort.
 
-   Sidan för posttyp öppnas.
+   Posttypssidan öppnas.
 
-1. Från en vy av valfri typ klickar du på namnet på en post
+1. Klicka på en post i en vy av valfri typ
 
-   Eller
+   eller
 
-   Från tabelltabellvyn klickar du på **ikonen Öppna detaljer** Öppna detaljikonen i tabellnamnsfältet![ i den ](assets/open-details-icon-in-table-name-field.png)första kolumnen.
+   I tabelltabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
 
-   Förhandsgranskningen av posten öppnas i vyn.
+   Postens förhandsgranskning öppnas i vyn.
 
    ![Informationsruta](assets/details-box.png)
 
@@ -324,17 +324,17 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
       * Kopiera länk
       * Redigera miniatyrbild
       * Duplicera
-      * Ta bort. Ta bort är det enda alternativet som är tillgängligt när du väljer mer än en post.
+      * Ta bort. Ta bort är det enda tillgängliga alternativet när du markerar mer än en post.
 
      Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
-   * Infogad redigering av någon av posterna i tabellen på sidan Anslutna poster. Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
+   * Redigera alla poster i tabellen på sidan Anslutna poster. Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
 
-1. (Valfritt) Dubbelklicka på namnet på sidan Anslutna poster
+1. (Valfritt) Dubbelklicka på namnet på fliken Anslutna poster
 
-   Eller
+   eller
 
-   Håll muspekaren över namnet på fliken, klicka sedan på **menyn Mer**![ Mer](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
+   Håll muspekaren över flikens namn, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
 1. (Valfritt) Använd något av följande vyelement i verktygsfältet för att hantera tabellvyn:
 
    * Filter

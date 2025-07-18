@@ -20,11 +20,11 @@ ht-degree: 0%
 
 Till skillnad från Workfront där objekttyperna är fördefinierade kan du skapa egna objekttyper i Adobe Workfront Planning.
 
-I Workfront har till exempel objekttyperna Program, Portfolio, Project, Task eller Issue redan skapats.
+I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.
 
-Workfront Planning-objekttyper kallas &quot;posttyper&quot; och de finns bara när användare skapar dem.
+Workfront Planning-objekttyper kallas&quot;posttyper&quot; och finns bara när användare skapar dem.
 
-Posttyper är byggstenarna i en Workfront Planning-arbetsyta och du måste skapa alla för att kunna koppla dem till arbetsflöden och annan information.
+Posttyper är byggstenarna i en Workfront Planning-arbetsyta och du måste skapa alla för att kunna koppla dem till arbetsflöde och annan information.
 
 Posttyperna är ordnade i arbetsytor.
 
@@ -32,21 +32,21 @@ Mer information om arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/plann
 
 ## Översikt över posttyp
 
-I Workfront Planning kan du skapa anpassade posttyper som uppfyller organisationens behov.
+I Workfront Planning kan du skapa anpassade posttyper som passar din organisations behov.
 
 Mer information om hur du skapar posttyper finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
-* När du skapar en arbetsyta från en mall skapas posttyper i följande arbetsyteavsnitt:
+* När du skapar en arbetsyta från en mall skapas posttyper i följande avsnitt på arbetsytan:
 
-   * **Operativa posttyper**: Posttyper som representerar strategiska planer, initiativ eller planerat arbete. Till exempel är Kampanj, Aktivitet, Taktik, Affärsmöjlighet operativa posttyper.
-   * **Taxonomier**: Posttyper som samlar in attribut om en operativ posttyp. Till exempel är Region, Adress, Målgrupp taxonomier.
+   * **Driftsposttyper**: Posttyper som representerar strategiska planer, initiativ eller planerade arbeten. Exempel: Campaign, Activity, Tactic, Opportunity är operativa posttyper.
+   * **Taxonomier**: Posttyper som samlar in attribut om en operativ posttyp. Till exempel är Region, Adress och Audience taxonomier.
 
   Du kan byta namn på eller ta bort dessa avsnitt eller skapa fler.
 
-* När du skapar en posttyp i en arbetsyta som du har skapat från grunden kan du placera posttypen i valfritt avsnitt som du skapar i arbetsytan.
-* När du skapar en posttyp är det bara du och de som du ger behörighet att komma åt arbetsytan som kan se posttypen.
+* När du skapar en posttyp på en arbetsyta som du har skapat från grunden kan du placera posttypen i vilket avsnitt som helst som du skapar på arbetsytan.
+* När du skapar en posttyp kan bara du och de du ger behörighet att komma åt arbetsytan visa posttypen.
 * Du måste skapa en arbetsyta innan du kan skapa posttyper för arbetsytan.
-* Begränsningar för hur många posttyper du kan ha i en arbetsyta eller Workfront-instans finns [i Adobe Workfront Översikt över](/help/quicksilver/planning/general/limitations-overview.md) objektbegränsningar.
+* Information om begränsningar för hur många posttyper du kan ha på en arbetsyta eller i en Workfront-instans finns i [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md).
 
 
 <!--

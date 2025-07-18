@@ -1,6 +1,6 @@
 ---
 title: Hantera postkommentarer
-description: Du kan samarbeta med Adobe Workfront Planning-poster genom att lägga till kommentarer eller svar i den högra panelen i en post. Du kan också visa andra ändringar som har gjorts i posten och registrerats av systemet i det här området.
+description: Du kan samarbeta om Adobe Workfront Planning-poster genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan samarbeta med Adobe Workfront Planning-poster genom att lägga till kommentarer eller svar i den högra panelen i en post. Du kan också visa andra ändringar som har gjorts i posten och registrerats av systemet i det här området.
+Du kan samarbeta om Adobe Workfront Planning-poster genom att lägga till kommentarer eller svar på den högra panelen i en post. I det här området kan du även visa andra ändringar som har gjorts i posten och som har spelats in av systemet.
 
-Den högra panelen i en post visar följande avsnitt:
+I den högra panelen för en post visas följande avsnitt:
 
 * **Kommentarer**: Visar kommentarer och svar som användare lägger till i poster.
-* **Historik**: Visar systemregistrerade ändringar som användare gör i postfälten. Mer information finns i [Översikt](/help/quicksilver/planning/records/history-section-overview.md) över avsnittet Historik.
+* **Historik**: Visar ändringar som användarna gör i postfälten. Mer information finns i [Översikt över avsnittet Historik](/help/quicksilver/planning/records/history-section-overview.md).
 
-## Krav för åtkomst
+## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav.
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,50 +44,50 @@ Den högra panelen i en post visar följande avsnitt:
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planering av Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> 
-<p>Någon av följande Workfront-planer:</p> 
-<ul><li>Utvald</li> 
-<li>Primtal</li> 
-<li>Sist</li></ul> 
-<p>Workfront Planning är inte tillgängligt för äldre Workfront-planer</p> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planeringspaket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
    <td> 
-<p>Någon </p> 
-<p>Om du vill ha mer information om vad som ingår i varje Workfront Planning-plan kontaktar du din Workfront-kontoansvarige. </p> 
+<p>Alla </p> 
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plattform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste vara registrerad i Adobe Unified Experience för att kunna komma åt Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience för Workfront</a>. </p> 
+<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licens för Adobe Workfront*</p></td> 
-   <td><p> Licens för deltagare eller högre</p>
-   <p>Workfront Planning är inte tillgängligt för äldre Workfront-licenser</p> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td><p> Contributor eller högre licens</p>
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration av åtkomstnivå</p></td> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Behörigheter för objekt</p></td> 
-   <td>   <p>Visa eller högre behörigheter till en arbetsyta och posttyp</a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, även de som de inte har skapat</p> </td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Visa eller högre behörigheter till en arbetsyta och posttyp </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
   </tr> 
 <tr>
-   <td role="rowheader"><p>Mall för layout</p></td>
-   <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planering.
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning.
    <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p></div></li></ul>
 
 </td>
@@ -95,7 +95,7 @@ Den högra panelen i en post visar följande avsnitt:
 </tbody> 
 </table>
 
-*Mer information om åtkomstkrav för Workfront finns [i Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,28 +103,28 @@ Den högra panelen i en post visar följande avsnitt:
 
 ## Att tänka på när du kommenterar en post
 
-* Du kan lägga till kommentarer och svar på poster i Workfront Planning, i avsnittet Kommentarer för en post.
+* Du kan lägga till kommentarer och svar till poster i Workfront Planning, under Kommentarer i en post.
 
-* Kommentarer som läggs till i länkade poster visas inte i de poster som du länkar från. Om du till exempel kommenterar en Workfront Planning-produktpost som är länkad till en Campaign-post, visas kommentaren bara på produktposten i Workfront Planning och inte på den Campaign-post som du länkar från.
+* Kommentarer som läggs till i länkade poster visas inte i de poster som du länkar från. Om du till exempel kommenterar en produktpost för Workfront Planning som är länkad till en Campaign-post, visas kommentaren bara på produktposten i Workfront Planning och inte på Campaign-posten som du länkar från.
 
-* Du kan lägga till kommentarer i Workfront Planning-poster som skapats som ett resultat av en anslutning mellan en post och ett objekt från ett annat program.
+* Du kan lägga till kommentarer i Workfront Planning-poster som har skapats som ett resultat av en anslutning mellan en post och ett objekt från ett annat program.
 
-  Du kan till exempel kommentera Project Workfront Planning-posten när du har kopplat Workfront-projekt med Workfront Planning-poster. Mer information finns i [Ansluta poster](/help/quicksilver/planning/records/connect-records.md).
+  Du kan till exempel kommentera projektposten för Workfront Planning när du har kopplat Workfront-projekt till Workfront Planning-poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
-* Kommentarer som läggs till i länkade objekt i andra program visas inte i Workfront Planning och kommentarer som läggs till länkade objekt i Workfront Planning visas inte i andra program.
+* Kommentarer som läggs till i länkade objekt i andra program visas inte i Workfront Planning och kommentarer som läggs till i länkade objekt i Workfront Planning visas inte i andra program.
 
-  Kommentarer som läggs till i projekt i Workfront visas till exempel inte i samma projekt som är länkat till en kampanj i Workfront Planning, och kommentarer som läggs till i projektets Workfront Planning-post visas inte i Workfront.
+  Kommentarer som läggs till i projekt i Workfront visas t.ex. inte i samma projekt som är länkat till en kampanj i Workfront Planning, och kommentarer som läggs till i projektet Workfront Planning-posten visas inte i Workfront.
 
-* Du kan tagga användare eller team för att uppmärksamma dem på en uppdatering. Både individuellt taggade användare och användare från de taggade teamen får ett meddelande i appen och ett e-postmeddelande om din uppdatering.
+* Du kan tagga användare eller team så att de uppmärksammas på en uppdatering. Både individuellt taggade användare och användare från taggade team får ett meddelande i appen och ett e-postmeddelande om uppdateringen.
 
   >[!NOTE]
   >
-  >   Endast användare från kunder som har registrerat sig med Adobe Unified Experience får både ett meddelande i appen och ett e-postmeddelande. Information om hur du tar reda på om ditt företag använder Adobe Unified Experience finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Endast användare som har anslutit sig till Adobe Unified Experience får både ett meddelande i appen och ett e-postmeddelande. Information om hur du avgör om ditt företag använder Adobe Unified Experience finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-* Du kan lägga till en uppdatering av poster och granska ändringshistoriken från följande områden i Workfront Planning:
+* Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Workfront Planning:
 
    * Från sidan med postinformation.
-   * Från en vy, i rutan postinformation.
+   * Från en vy, i rutan med postinformation.
 
 ### Hantera kommentarer på poster
 
@@ -134,42 +134,42 @@ Den högra panelen i en post visar följande avsnitt:
 
    Arbetsytan öppnas och posttyperna visas på kort.
 
-1. Klicka på ett kort för en posttyp.
-Sidan för posttyp öppnas och alla poster av den typen visas.
+1. Klicka på ett posttypskort.
+Posttypssidan öppnas och alla poster av den typen visas.
 
-1. Välj en tabellvy i **listrutan Visa** .
+1. Välj en tabellvy i listrutan **Visa**.
 1. Klicka på namnet på en post i tabellvyn.
 
-   Sidan Detaljer **för** posten öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
+   Postens **informationssida** öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
 
-1. (Villkorligt) Om den högra panelen inte öppnas som standard klickar du på **ikonen** Visa kommentarer![ ](assets/show-comments-icon.png)Visa kommentarer i det övre högra hörnet för att öppna avsnittet Kommentarer.
+1. (Villkorligt) Om den högra panelen inte öppnas som standard klickar du på ikonen **Visa kommentarer** ![Visa kommentarer](assets/show-comments-icon.png) i det övre högra hörnet för att öppna kommentarsavsnittet.
 
-1. Börja skriva en kommentar i rutan Ny **kommentar** .
+1. Börja skriva en kommentar i rutan **Ny kommentar**.
 
-   ![Tom kommentarsfält på posten](assets/empty-comment-box-on-record.png)
+   ![Tom kommentarsruta på post](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
-   >Om du navigerar bort från kommentaravsnittet innan du har skrivit och skickat in en kommentar behålls kommentaren på sidan i utkastläge även efter att du har loggat ut och loggat in igen. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
+   >Om du navigerar bort från kommentarsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
-   * Ctrl + Z (⌘+z för Mac) för att ångra en ändring
-   * Ctrl + Y (⌘+y för Mac) för att göra om en ändring
-1. (Valfritt och villkorligt) Om din Workfront-instans är en del av Adobe Unified Experience lägger du till **@** följt av namnet på en användare eller ett team för att tagga dem i uppdateringen. Mer information finns i avsnittet [Att tänka på när du kommenterar en post](#considerations-about-commenting-on-a-record) i den här artikeln.
+   * CTRL + Z (⌘ + z för Mac) för att ångra en ändring
+   * CTRL + Y (⌘+y för Mac) för att göra om en ändring
+1. (Valfritt och villkorligt) Om din Workfront-instans ingår i Adobe Unified Experience lägger du till **@** följt av namnet på en användare eller ett team som taggar dem i uppdateringen. Mer information finns i avsnittet [Att tänka på när du kommenterar en post](#considerations-about-commenting-on-a-record) i den här artikeln.
 
-1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera din text, lägga till emojis eller länkar till din uppdatering för att förbättra ditt innehåll.
+1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner eller länkar till uppdateringen för att förbättra innehållet.
 
    >[!TIP]
    >
    >Du kan inte lägga till bilder i en postkommentar.
 
 
-1. Fortsätt att lägga till kommentarer i posten.
+1. Fortsätt lägga till kommentarer i posten.
 
    Mer information om hur du uppdaterar objekt, inklusive Workfront Planning-poster, finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på **&#x200B;**&#x200B;Mer-ikonen ![Mer-menyn](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Ta bort** för att ta bort kommentaren.
-1. (Valfritt) **Klicka på ikonen** Dölj kommentarer![ för att stänga den](assets/hide-comments-icon.png) högra panelen.
+1. (Valfritt) Klicka på ikonen **Mer** ![Mer meny](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Ta bort** för att ta bort kommentaren.
+1. (Valfritt) Klicka på ikonen **Dölj kommentarer** ![Dölj kommentarer](assets/hide-comments-icon.png) för att stänga den högra panelen.
 
 <!--
       >[!TIP]
@@ -206,6 +206,6 @@ Sidan för posttyp öppnas och alla poster av den typen visas.
 
 ## Översikt över avsnittet Historik
 
-Du kan granska de ändringar som gjorts i posten i avsnittet Historik i den högra panelen för en post.
+Du kan granska ändringarna som gjorts i posten i historikavsnittet på den högra panelen i en post.
 
-Mer information finns i [Översikt](/help/quicksilver/planning/records/history-section-overview.md) över avsnittet Historik.
+Mer information finns i [Översikt över avsnittet Historik](/help/quicksilver/planning/records/history-section-overview.md).

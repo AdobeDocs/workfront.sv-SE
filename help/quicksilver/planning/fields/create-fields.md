@@ -1,6 +1,6 @@
 ---
 title: Skapa fält
-description: I Adobe Workfront Planning kan du skapa anpassade fält för varje typ av posttyp. Du kan sedan koppla fältet till Workfront Planning-poster.
+description: I Adobe Workfront Planning kan du skapa anpassade fält för varje typ av posttyp. Du kan sedan associera fältet med Workfront Planning-poster.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,31 +22,31 @@ ht-degree: 0%
 
 # Skapa fält
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är endast tillgänglig i förhandsversionsmiljön för alla kunder. Efter de månatliga versionerna till produktion är samma funktioner också tillgängliga i produktionsmiljön för kunder som har aktiverat snabba versioner. </span>
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">Information om snabba versioner finns i [Aktivera eller inaktivera snabba versioner för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
 
-I Adobe Workfront Planning kan du skapa anpassade fält för posttyper. Du kan sedan koppla fälten till Workfront Planning-poster för att förbättra postinformationen.
+I Adobe Workfront Planning kan du skapa anpassade fält för posttyper. Du kan sedan associera fälten med Workfront Planning-poster för att förbättra postinformationen.
 
-Du måste skapa posttyper innan du kan skapa fält som ska associeras med dem. Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+Du måste skapa posttyper innan du kan skapa fält som ska kopplas till dem. Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
 Du kan skapa fält på följande sätt i Workfront Planning:
 
-* Från grunden
+* Från början
 * Genom att ansluta posttyper
 * Genom att skapa en posttyp
-* Genom att skapa en arbetsyta från en mall
-* Genom att importera posttyper med hjälp av en Excel- eller CSV-fil
+* Skapa en arbetsyta från en mall
+* Importera posttyper med en Excel- eller CSV-fil
 * Genom att importera kopior av befintliga Workfront-fält
 
 Mer information om Workfront Planning-fält finns i [Fältöversikt](/help/quicksilver/planning/fields/fields-overview.md).
 
-## Krav för åtkomst
+## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav.
++++ Expandera om du vill visa åtkomstkraven.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -62,51 +62,51 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planering av Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> 
-<p>Någon av följande Workfront-planer:</p> 
-<ul><li>Utvald</li> 
-<li>Primtal</li> 
-<li>Sist</li></ul> 
-<p>Workfront Planning är inte tillgängligt för äldre Workfront-planer</p> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planeringspaket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
    <td> 
-<p>Någon </p> 
-<p>Om du vill ha mer information om vad som ingår i varje Workfront Planning-plan kontaktar du din Workfront-kontoansvarige. </p> 
+<p>Alla </p> 
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plattform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste vara registrerad i Adobe Unified Experience för att kunna komma åt Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience för Workfront</a>. </p> 
+<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licens för Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td><p> Standard </p>
-   <p>Workfront Planning är inte tillgängligt för äldre Workfront-licenser</p> 
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration av åtkomstnivå</p></td> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Behörigheter för objekt</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta och posttyp</a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, även de som de inte har skapat.</p> </td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Hantera behörigheter till en arbetsyta och posttyp </a> </p>  
+   <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Mer information om åtkomstkrav för Workfront finns [i Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -118,86 +118,86 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-1. Klicka på den arbetsyta vars poster du vill skapa fält för.
+1. Klicka på arbetsytan vars poster du vill skapa fält för.
 
    Arbetsytan öppnas och posttyperna visas.
 
 1. Klicka på kortet för en posttyp.
 
-   Alla befintliga poster som är associerade med posttypen visas i raderna i tabellvyn.
+   Alla befintliga poster som är associerade med posttypen visas i tabellvyns rader.
 
    >[!TIP]
    >
-   >    Om inga poster visas kanske du inte har några poster ännu, eller så kanske du har ett filter som begränsar vad du ser på skärmen.
+   >    Om inga poster visas kanske du inte har några poster än, eller så kanske du har ett filter som begränsar det som visas på skärmen.
 
    Alla befintliga fält som är associerade med posttypen visas i kolumnerna i tabellvyn.
 
    >[!TIP]
    >
-   >    Vissa fält kan vara dolda. Klicka på Fält och aktivera växlingsknappen för de fält som du vill visa som kolumner i tabellvyn.
+   >    Vissa fält kan vara dolda. Klicka på Fält och aktivera växlingen mellan de fält som du vill visa som kolumner i tabellvyn.
 
-1. Klicka på **+** -ikonen i det övre högra hörnet av tabellvyn
+1. Klicka på ikonen **+** i tabellvyns övre högra hörn
 
    eller
 
-   Håll muspekaren över rubriken för en kolumn, klicka på den nedåtriktade pilen efter fältnamnet och klicka sedan på **Infoga vänster** eller **Infoga höger** för att lägga till det nya fältet.
-1. På fliken Nytt **fält** söker du efter en fälttyp i **rutan Fälttyp** eller väljer bland följande fälttyper:
+   Håll markören över en kolumnrubrik, klicka på den nedåtriktade pilen efter fältnamnet och klicka sedan på **Infoga vänster** eller **Infoga höger** för att lägga till det nya fältet.
+1. På fliken **Nytt fält** söker du efter en fälttyp i rutan **Fälttyp** eller väljer någon av följande fälttyper:
 
-   På fliken Nytt **fält** söker du efter en fälttyp i **rutan Fälttyp** med hjälp av ett relaterat nyckelord eller väljer bland fälttyperna som listas nedan.
+   På fliken **Nytt fält** kan du söka efter en fälttyp i rutan **Fälttyp** med hjälp av ett relaterat nyckelord, eller välja bland de fälttyper som listas nedan.
 
    >[!TIP]
    >
-   >    Du kan skriva &quot;Budget&quot; och fälttyperna Nummer och Valuta visas i en kort lista.
+   >    Du kan skriva &quot;Budget&quot; och fälttyperna &quot;Number&quot; och &quot;Currency&quot; i en kort lista.
 
 
 
-   * [Text med en rad](#single-line-text)
-   * [Paragraf](#paragraph)
-   * [Välj flera](#multi-select)
-   * [Välj en gång](#single-select)
+   * [Enkelradig text](#single-line-text)
+   * [Stycke](#paragraph)
+   * [Flera val](#multi-select)
+   * [Enkelval](#single-select)
    * [Datum](#date)
-   * [Nummer](#number)
+   * [Number](#number)
    * [Procent](#percentage)
    * [Valuta](#currency)
-   * [Kryssrutan](#checkbox)
+   * [Kryssruta](#checkbox)
    * [Formel](#formula)
    * [Folk](#people)
    * [Skapad av](#created-by)
-   * [Skapat den](#created-date)
+   * [Skapad den](#created-date)
    * [Senast ändrad av](#last-modified-by)
-   * [Datum för senaste ändring](#last-modified-date)
+   * [Senast ändrat den](#last-modified-date)
    * <span class="preview">[Godkänt datum](#approved-date)</span>
    * <span class="preview">[Godkänd av](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
-   >Du kan inte ändra fälttypen för fältet när du har sparat det.
+   >Du kan inte ändra fälttypen när du har sparat den.
 
    <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
     * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Fortsätt med att lägga till varje fält enligt beskrivningen i avsnitten nedan.
 
-### Text med en rad {#single-line-text}
+### Enkelradig text {#single-line-text}
 
-Enradiga textfält samlar in begränsad alfanumerisk information. Du kan till exempel samla in information om ägare, intressent, team eller organisationsenhet i ett textfält med en rad. Innehållet i ett enradigt textfält kan innehålla upp till 1 000 tecken. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
+Enkelradiga textfält fångar begränsad alfanumerisk information. Du kan till exempel samla information om ägare, intressenter, team eller organisationsenheter i ett textfält med en rad. Innehållet i ett textfält med en rad kan innehålla upp till 1 000 tecken. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan typen Enradig textfält** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Enkelradig text**.
 
    ![Typ av textfält med en rad](assets/single-line-text-field-type.png)
 
-1. Lägg till följande information på fliken Nytt **fält** :
-   * **Namn**: Namnet på fältet, så som det visas i en tabell eller på sidan Detaljer för posten. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumnrubrik i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+1. Lägg till följande information på fliken **Nytt fält**:
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumnrubrik i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
-   Det nya enradsfältet läggs till som en kolumn i posttypen och dess värden kan associeras med poster.
+   Det nya enradiga fältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 
-### Paragraf {#paragraph}
+### Stycke {#paragraph}
 
-Styckefält samlar in ytterligare alfanumerisk information om en post, ungefär som fältet Beskrivning.
+Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar fältet Beskrivning.
 
 >[!TIP]
 >
@@ -208,14 +208,14 @@ Styckefält samlar in ytterligare alfanumerisk information om en post, ungefär 
 >
 
 
-1. Börja skapa ett fält på det sätt som beskrivs i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Stycke** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Stycke**.
 
    ![Typ av styckefält](assets/paragraph-field-type.png)
 
 
-1. Lägg till följande information på fliken Nytt **fält** :
-   * **Namn**: Namnet på fältet, så som det visas i en tabell eller på sidan Detaljer för posten. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+1. Lägg till följande information på fliken **Nytt fält**:
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
    Det nya styckefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
@@ -233,73 +233,73 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
-   * **Alternativ**: De alternativ som användarna kan välja när de uppdaterar det här fältet. Du kan använda både siffror och bokstäver för namnet på varje val.
-1. Klicka på **Lägg till alternativ** för att lägga till fler alternativ. Det finns ingen gräns för hur många val du kan lägga till i ett flervalsfält.
-1. (Valfritt) Dra och släpp varje val manuellt i önskad ordning, eller välj
-   **Sortera val A-Ö** om du vill att valen automatiskt ska listas i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Valfritt) Om du vill ta bort ett val klickar du på **x-ikonen** till höger om det.
+   * **Alternativ**: De alternativ som användare kan välja när fältet uppdateras. Du kan använda både siffror och bokstäver som namn på varje val.
+1. Klicka på **Lägg till alternativ** om du vill lägga till fler alternativ. Det finns ingen gräns för hur många alternativ du kan lägga till i ett flervalsfält.
+1. (Valfritt) Dra och släpp varje alternativ manuellt i önskad ordning, eller välj
+   **Sorteringsalternativ A-Z** om du vill att valen automatiskt ska visas i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Valfritt) Om du vill ta bort ett alternativ klickar du på ikonen **x** till höger om den.
 1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
 
 1. Klicka på **Färgrutor** för att välja en fördefinierad färg
 
-   Eller
+   eller
 
-   Klicka på **Anpassad** för att välja en anpassad färg med hjälp av en färgväljare eller en hexadecimal kod.
+   Klicka på **Egen** om du vill välja en egen färg med hjälp av en färgväljare eller en hexadecimal kod.
 1. Klicka utanför färgrutan för att stänga den.
 1. Klicka på **Skapa**.
 
-   Det nya flervalsfältet läggs till som en kolumn i posttypen och dess värden kan associeras med poster.
+   Det nya flervalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
-### Välj en gång {#single-select}
+### Enkelval {#single-select}
 
-Enkelvalsfält samlar in ytterligare information i valfritt format genom att välja ett alternativ från en rullgardinsmeny.
+Med envalsfält hämtas ytterligare information i valfritt format genom att du väljer ett alternativ i en nedrullningsbar meny.
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Enkelval** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Enkelval**.
 
-   ![Fälttyp med ett val](assets/single-select-field-type.png)
+   ![Fälttyp för enval](assets/single-select-field-type.png)
 
 
-1. Lägg till följande information på fliken Nytt **fält** :
-   * **Namn**: Namnet på fältet, så som det visas i en tabell eller på sidan Detaljer för posten. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
-   * **Val**: De alternativ som är tillgängliga att välja från rullgardinsmenyn efter att fältet har sparats. Du kan ha både siffror och bokstäver för namnet på varje val.
+1. Lägg till följande information på fliken **Nytt fält**:
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+   * **Alternativ**: De alternativ som är tillgängliga att välja på den nedrullningsbara menyn när fältet har sparats. Du kan ha både siffror och bokstäver för namnet på varje val.
 
-1. Klicka på **Lägg till alternativ** för att lägga till fler alternativ. Det finns ingen gräns för hur många val du kan lägga till i ett enkelvalsfält.
-1. (Valfritt) Dra och släpp varje val manuellt i önskad ordning, eller välj **alternativet Sortera val A-Ö** om du vill att valen automatiskt ska listas i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Valfritt) Om du vill ta bort ett val klickar du på **x-ikonen** till höger om det.
-1. Klicka på färgrutan till vänster om ett alternativ för att expandera färgväljaren och anpassa färgen för varje alternativ.
+1. Klicka på **Lägg till alternativ** om du vill lägga till fler alternativ. Det finns ingen gräns för hur många alternativ du kan lägga till i ett envalsfält.
+1. (Valfritt) Dra och släpp varje alternativ manuellt i önskad ordning eller markera alternativet **Sorteringsalternativ A-Z** om du vill att valen automatiskt ska visas i alfabetisk ordning. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Valfritt) Om du vill ta bort ett alternativ klickar du på ikonen **x** till höger om den.
+1. Klicka på färgrutan till vänster om ett alternativ för att utöka färgväljaren och anpassa färgen för varje alternativ.
 1. Klicka på **Färgrutor** för att välja en fördefinierad färg
 
-   Eller
+   eller
 
-   Klicka på **Anpassad** för att välja en anpassad färg med hjälp av en färgväljare eller en hexadecimal kod.
+   Klicka på **Egen** om du vill välja en egen färg med hjälp av en färgväljare eller en hexadecimal kod.
 
 1. Klicka utanför färgrutan för att stänga den.
 1. Klicka på **Skapa**.
 
-   Det nya enkelvalsfältet läggs till som en kolumn i posttypen och dess värden kan associeras med poster.
+   Det nya envalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Datum {#date}
 
 Du kan använda ett datumfält för att samla in ytterligare information i datum- och tidsformat.
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Datum** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Datum**.
 
-   ![Typ av datumfält](assets/date-field-type.png)
+   ![Datumfältstyp](assets/date-field-type.png)
 
 
-1. Lägg till följande information på fliken Nytt **fält** :
-   * **Namn**: Namnet på fältet, så som det kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+1. Lägg till följande information på fliken **Nytt fält**:
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Den typ av datumformat som du vill visa i det här fältet. <!--update this casing - submitted bug for it-->
 
      Välj bland följande format:
-      * **Språk**: Matchar webbläsarens nationella inställningar.
-      * **Standard**: 2023-05-16
+      * **Språk**: Matchar språkområdet i webbläsaren.
+      * **Standard**: 05/16/2023
       * **Lång**: 16 maj 2023
-      * **Europeiska**: 16/05/2023
-      * **ISO:** 2023-05-16
-      * **Inkludera tid**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är avmarkerat som standard. Du kan inte inkludera en tid efter att du har säkrat fältet.
+      * **Europeisk**: 16/05/2023
+      * **ISO**: 2023-05-16
+      * **Inkludera tid**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. Du kan inte inkludera en tid efter att du har skyddat fältet.
 
      Välj bland följande alternativ:
 
@@ -319,86 +319,86 @@ Nummerfälttyper samlar in information i talformat.
 >Nummerfält visas som en typ av enradigt textfält i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som siffror efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Number**.
 
    ![Nummerfältstyp](assets/number-field-type.png)
-1. Lägg till följande information på fliken Nytt **fält** :
+1. Lägg till följande information på fliken **Nytt fält**:
 
-   * **Namn**: Namnet på fältet, så som det kommer att visas i en tabell eller på postsidan.
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan.
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
    * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa tal i det här fältet. Det här alternativet är som standard avmarkerat.
 
    >[!NOTE]
    >
-   >    Om du väljer Tillåt negativa tal, och negativa värden lagras i de poster som fältet är kopplat till, kan du inte längre avmarkera inställningen i framtiden.
+   >    Om du väljer Tillåt negativa tal och negativa värden lagras på posterna som fältet är kopplat till, kan du inte längre avmarkera inställningen i framtiden.
 
 1. Klicka på **Skapa**.
 
-   Det nya numeriska fältet läggs till som en kolumn i posttypen och dess värden kan associeras med poster.
+   Det nya nummerfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Procent {#percentage}
 
-Fälttyper för procent samlar in information i ett numeriskt format följt av ett procenttecken.
+Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 
 >[!TIP]
 >
->Procentfält visas som en textfältstyp med en rad i ett formulärverktyg för begäran.
+>Procentfält visas som en enkelradig textfälttyp i ett formulärbyggare för begäran.
 >
->Fältformatet bevaras dock och värdena i dessa fält visas i procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns [i Skapa och hantera ett förfrågningsformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Fältformatet bevaras dock och värdena för dessa fält visas som procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Procent** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
 
-   ![Typ av fält för procentsats](assets/percentage-field-type.png)
+   ![Procentfälttyp](assets/percentage-field-type.png)
 
-1. Lägg till följande information på fliken Nytt **fält** :
-   * **Namn**: Namnet på fältet, så som det kommer att visas i en tabell eller på postsidan.
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+1. Lägg till följande information på fliken **Nytt fält**:
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan.
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
-   * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa procentvärden i det här fältet. Det här alternativet är avmarkerat som standard.
+   * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa procentvärden i det här fältet. Det här alternativet är som standard avmarkerat.
 
      >[!NOTE]
      >
-     >Om du väljer Tillåt negativa tal, och negativa värden lagras i de poster som fältet är kopplat till, kan du inte längre avmarkera inställningen i framtiden.
+     >Om du väljer Tillåt negativa tal och negativa värden lagras på posterna som fältet är kopplat till, kan du inte längre avmarkera inställningen i framtiden.
 
-   * **Visa som**: I rullgardinsmenyn väljer du hur du vill att procentvärdena ska visas i tabellvyn. Välj bland följande alternativ:
-      * **Tal**: Procentvärdet visas som ett tal följt av procenttecknet.
-      * **Stapel**: Procentvärdet visas som en stapel bredvid procenttalet. Stapelns fyllningsfärg anger procentvärdet. Det här är standardvalet.
-      * **Cirkel**: Procentvärdet visas som konturen av en cirkel bredvid procenttalet. Fyllningsfärgen på cirkelns kontur anger procentvärdet.
+   * **Visa som**: Välj hur du vill att procentvärdena ska visas i tabellvyn i den nedrullningsbara menyn. Välj bland följande alternativ:
+      * **Number**: Procentvärdet visas som ett tal följt av procenttecknet.
+      * **Bar**: Procentvärdet visas som en stapel bredvid procenttalet. Fältets fyllningsfärg anger procentvärdet. Det här är standardvalet.
+      * **Cirkel**: Procentvärdet visas som konturen för en cirkel bredvid procenttalet. Fyllningsfärgen för cirkelns kontur anger procentvärdet.
 
    >[!NOTE]
    >
-   >* Det val du gör i fältet Visa som gäller endast för det procentvärde som visas i tabellvyn. Procentvärdet i fältet visas som ett tal följt av procenttecknet överallt annars i Workfront Planning. Detta gäller även för fältet av procenttyp när det visas som ett uppslagsfält i andra posters tabellvyer.
+   >* Den markering du gör i fältet Visa som gäller endast det procentvärde som är synligt i tabellvyn. Procentvärdet för fältet visas som ett tal följt av procenttecknet överallt i Workfront Planning. Detta gäller även för fältet av procenttyp när det visas som ett uppslagsfält i andra posters tabellvyer.
    >* Du kan ändra Visa som markering när du redigerar fältet senare.
 
 1. Klicka på **Skapa**.
 
-   Det nya procentfältet läggs till som en kolumn i posttypen och dess värden kan associeras med poster.
+   Det nya procentfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Valuta {#currency}
 
-Typer av valutafält samlar in information i ett numeriskt format som föregås av en valutasymbol.
+Valutafälttyper samlar in information i ett talformat som föregås av en valutasymbol.
 
 >[!TIP]
 >
->Valutafält visas som en textfältstyp med en rad i ett formulärverktyg för begäran.
+>Valutafält visas som en enkelradig textfälttyp i en formulärbyggare för begäran.
 >
->Fältformatet bevaras dock och värdena i dessa fält visas som valuta när begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns [i Skapa och hantera ett förfrågningsformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Fältformatet bevaras dock och värdena i dessa fält visas som valuta efter att begäran har skickats, på posttypen och på sidan med information om begäran.
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Valuta** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Valuta**.
 
-   ![Typ av fält Valuta](assets/currency-field-type.png)
+   ![Valutafälttyp](assets/currency-field-type.png)
 
-1. Lägg till följande information på fliken Nytt **fält** :
-   * **Namn**: Namnet på fältet, så som det kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
-   * **Valuta**: Den typ av valuta som du vill visa i det här fältet. Detta är en lista över valutor enligt International Organizaton of Standardization (ISO).
+1. Lägg till följande information på fliken **Nytt fält**:
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+   * **Valuta**: Den typ av valuta som du vill visa i det här fältet. Detta är en lista över valutor enligt ISO (International Organization of Standardization).
    * **Precision**: Antalet decimaler som du vill registrera för fältet. Du kan visa upp till 6 decimaler.
    * **Tillåt negativa tal**: Välj det här alternativet om du vill tillåta negativa valutavärden i det här fältet. Det här alternativet är som standard avmarkerat.
 
@@ -420,40 +420,40 @@ Du kan använda fälttypen Kryssruta för att lägga till en kryssruta till en p
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 1. Klicka på **Skapa**.
 
-   Det nya kryssrutefältet läggs till som en kolumn i posttypen och dess värden kan associeras med poster.
+   Det nya kryssrutefältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Formel
 
-Formelfält genererar ett nytt värde med hjälp av befintliga värden från andra fält i en posttyp och en funktion som anger hur de befintliga värdena ska beräknas.
+Formelfält genererar ett nytt värde med hjälp av befintliga värden från andra fält i en posttyp och en funktion som anger hur befintliga värden ska beräknas.
 
 Mer information finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Formel** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Formel**.
 
    ![Nytt formelfält med lista över uttryck](assets/new-formula-field-with-list-of-expressions.png)
 
-1. Lägg till följande information på fliken Nytt **fält** :
+1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Ange ett namn för det nya fältet.
-   * **Beskrivning**: Lägg till information om det nya fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
-   * **Formel**: Börja skriva minst ett tecken för att komma åt ett uttryck och välj det sedan när det visas i listan.
+   * **Beskrivning**: Lägg till information om det nya fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+   * **Formel**: Börja skriva minst ett tecken för att komma åt ett uttryck och markera det sedan när det visas i listan.
 
-1. Klicka på det markerade uttrycket för att visa definitionen och visa dess formatering.
+1. Klicka på det markerade uttrycket för att visa definitionen och dess formatering.
 
    ![Beskrivning av formeluttryck](assets/description-of-formula-expression.png)
 
-   Mer information om vilka uttryck som stöds finns i [Översikt](/help/quicksilver/planning/fields/formula-fields.md) över formelfält.
+   Mer information om vilka uttryck som stöds finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
 
 
    >[!TIP]
    >
-   >Du får ett varningsmeddelande när du redigerar eller skapar ett formelfält som kan orsaka en cirkelreferens till sig själv eller delade fält. Du kan inte spara ett formelfält som antingen refererar till sig självt eller till element som refereras till i beräkningen.
+   >Du får ett varningsmeddelande när du redigerar eller skapar ett formelfält som kan orsaka en cirkelreferens till sig själv eller delade fält. Du kan inte spara ett formelfält som antingen refererar till sig själv eller till artiklar som refereras i beräkningen.
 
 
-1. Lägg till fältnamn så som de visas i Workfront Planning för att referera till dem i en formel.
+1. Lägg till fältnamn som de visas i Workfront Planning för att referera till dem i en formel.
 
    >[!NOTE]
    >
@@ -477,42 +477,42 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 
      >[!TIP]
      >
-     >Vi rekommenderar taggar för fält som visar matriser. I det här fallet visas varje matrismedlem som en separat tagg.
+     >Vi rekommenderar taggar för fält som visar arrayer. I det här fallet visas varje arraymedlem som en separat tagg.
 
-     ![Lista över formelfältsformat med markerad tagg markerad](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![lista med formelfältformat med markerad tagg](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **Datum**: Resultatet av formelfältet visas som ett datum.
 
-     En förhandsgranskning av hur resultatet kommer att se ut visas under **fältet Format** .
+     En förhandsgranskning av hur resultatet kommer att se ut visas under fältet **Format**.
 
      >[!WARNING]
      >
-     >Om resultatet av formeln inte matchar det valda formatet kommer fältet att visa ett felmeddelande där det visas.
+     >Om formelresultatet inte matchar det valda formatet visas ett felmeddelande där det visas.
 
 1. Klicka på **Skapa**.
 
-   Det nya formelfältet läggs till som en kolumn i posttypen och dess värden kan associeras med poster.
+   Det nya formelfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
 ### Folk
 
-Du kan använda fälttypen Personer för att lägga till en användare <!--, job role, or team--> i en post. Det här är ett fält i förväg och du kan bara lägga till användare<!--, roles, or teams--> som redan finns i din Workfront-instans.
+Du kan använda fälttypen Personer för att lägga till en användare <!--, job role, or team--> i en post. Det här är ett type-ahead-fält och du kan bara lägga till användare <!--, roles, or teams--> som redan finns i din Workfront-instans.
 
 >[!TIP]
 >
->* När du lägger till namnet på en användare i ett personfält visas namnet på användaren och deras primära jobbroll i fältet.
+>* När du lägger till namnet på en användare i ett personfält visas namnet på användaren och den primära jobbrollen i fältet.
 >
->* Personfält visas som en referensfälttyp (eller anslutningsfälttyp) i en formulärkonstruktör för begäran.
+>* Personfält visas som en referens (eller anslutningstyp) i en formulärbyggare för begäran.
 >
->Mer information finns [i Skapa och hantera ett förfrågningsformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Personer** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Personer**.
 
-   ![Typ av fält Personer](assets/people-field-type.png)
+   ![Fälttyp för personer](assets/people-field-type.png)
 
-1. Lägg till följande information på fliken Nytt **fält** :
-   * **Namn**: Namnet på fältet, så som det kommer att visas i en tabell eller på postsidan.
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
-   * **Tillåt flera värden**: Välj det här alternativet om du vill tillåta användare att lägga till mer än en användare i det här fältet. Det här alternativet är avmarkerat som standard.
+1. Lägg till följande information på fliken **Nytt fält**:
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan.
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+   * **Tillåt flera värden**: Välj det här alternativet om du vill tillåta användare att lägga till fler än en användare i det här fältet. Det här alternativet är som standard avmarkerat.
 
    >[!NOTE]
    >
@@ -537,22 +537,22 @@ Du kan använda fälttypen Skapad av för att lägga till användaren som skapad
 
 1. Klicka på **Skapa**.
 
-   Det nya fältet Skapad av typ läggs till som en kolumn i posttypen och dess värden fylls i automatiskt med namnet på den användare som skapade varje post.
+   Det nya fältet Skapat efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som skapade varje post.
 
 
-### Skapat den
+### Skapad den
 
-Du kan använda fälttypen Skapat datum för att lägga till det datum då posten skapades i en post. Det här är ett skrivskyddat fält som automatiskt fylls i med datumet (och eventuellt med tiden) då posten skapades.
+Du kan använda fälttypen Skapat för att lägga till datumet då posten skapades i en post. Det här är ett skrivskyddat fält som automatiskt fylls i med datumet (och eventuellt med tiden) när posten skapades.
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Skapat datum** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Skapad**.
 
-   ![Fälttypen Skapat datum](assets/created-date-field-type.png)
+   ![Skapad datumfältstyp](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. Lägg till följande information på fliken Nytt **fält** :
+1. Lägg till följande information på fliken **Nytt fält**:
 
-   * **Namn**: Namnet på fältet, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Välj bland följande format:
 
@@ -584,40 +584,40 @@ Du kan använda fälttypen Senast ändrad av för att lägga till användaren so
 1. Lägg till följande information på fliken **Nytt fält**:
 
    * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
 
 1. Klicka på **Skapa**.
 
-   Det nya fältet Senast ändrad av typ läggs till som en kolumn i posttypen och dess värden fylls i automatiskt med namnet på den användare som senast ändrade varje post.
+   Det nya fältet Senast ändrad efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som senast ändrade varje post.
 
 
-### Datum för senaste ändring
+### Senast ändrat den
 
-Du kan använda fälttypen Datum för senaste ändring om du vill lägga till det datum då en post senast ändrades i en post. Det här är ett skrivskyddat fält som automatiskt fylls i med datumet (och eventuellt med tiden) när posten senast ändrades.
+Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet när en post senast ändrades till en post. Det här är ett skrivskyddat fält som automatiskt fylls i med datumet (och eventuellt med tiden) när posten senast ändrades.
 
-1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Skapat datum** .
+1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Skapad**.
 
-   ![Fälttyp för senast ändrad datum](assets/last-modified-date-field-type.png)
+   ![Fälttypen Senaste ändringsdatum](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. Lägg till följande information på fliken Nytt **fält** :
+1. Lägg till följande information på fliken **Nytt fält**:
 
-   * **Namn**: Namnet på fältet, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller muspekaren över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
+   * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postsidan. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Beskrivning**: Ytterligare information om fältet. Beskrivningen av ett fält visas när du håller markören över fältets kolumn i en tabell eller när du klickar på informationsikonen bredvid fältnamnet på postens informationssida.
    * **Datumformat**: Välj bland följande format:
 
-      * **Språk**: Matchar webbläsarens nationella inställningar.
-      * **Standard**: 2023-05-16
+      * **Språk**: Matchar språkområdet i webbläsaren.
+      * **Standard**: 05/16/2023
       * **Lång**: 16 maj 2023
-      * **Europeiska**: 16/05/2023
-      * **ISO:** 2023-05-16
+      * **Europeisk**: 16/05/2023
+      * **ISO**: 2023-05-16
 
-   * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är avmarkerat som standard. <!--submitted a UI text change for this - check the UI-->
+   * **Inkludera ett tidsfält**: Välj det här alternativet om du vill inkludera en tidsstämpel. Detta är som standard omarkerat. <!--submitted a UI text change for this - check the UI-->
 
      Välj bland följande alternativ:
 
-      * **24 timmar**: Till exempel: 18:00
+      * **24hr**: Till exempel: 18:00
       * **12hr**: Exempel: 6:00 PM
 
 1. Klicka på **Skapa**.
@@ -737,9 +737,9 @@ Create an Object field:
 
 ## Skapa fält genom att ansluta posttyper
 
-Du kan skapa länkade postfält när du lägger till en ny koppling mellan två posttyper, eller en posttyp och en objekttyp från andra program.
+Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två posttyper, eller en posttyp och en objekttyp från andra program.
 
-Mer information om hur du ansluter posttyper för Workfront Planning finns i [Ansluta posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+Mer information om hur du ansluter posttyper för Workfront Planning finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--## Create fields by importing record types using an Excel or CSV file
 
@@ -747,11 +747,11 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 ## Skapa fält genom att skapa en posttyp
 
-När du skapar en posttyp skapas också flera fält som är associerade med den nya posttypen som standard. Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+När du skapar en posttyp skapas även flera fält som är kopplade till den nya posttypen som standard. Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Skapa fält genom att skapa en arbetsyta från en mall
 
-Adobe Workfront Planning skapar fält för posttyper när du skapar en arbetsyta från en mall.
+I Adobe Workfront Planning skapas fält för posttyper när du skapar en arbetsyta från en mall.
 
 Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -767,9 +767,9 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 
 Du kan importera kopior av befintliga Workfront-fält.
 
-När du importerar fält från Workfront skapas en kopia av varje fält för en Workfront Planning-posttyp.
+När du importerar fält från Workfront skapas en kopia av varje fält för en posttyp av Workfront Planning.
 
-När du har kopierat fälten är de oberoende av varandra och de utbyter inte information.
+När du har kopierat fälten är fälten oberoende av varandra och de utbyter inte information.
 
 Mer information finns i [Importera fält från Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 

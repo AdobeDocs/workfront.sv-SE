@@ -48,17 +48,17 @@ Du kan skapa följande typer av Workfront-objekt från Workfront Planning när d
 >* Du kan inte skapa grupper eller företag när du kopplar dem från en post i Workfront Planning.
 >
 
-Du kan koppla ihop projekt, portföljer och program från ett anslutningsfält inom följande områden i Workfront Planning:
+Du kan koppla projekt, portfolior och program från ett anslutningsfält inom följande områden i Workfront Planning:
 
-* Tabellvyn för en posttyp
+* Registervyn för en posttyp
 * Sidan Detaljer eller förhandsvisningsrutan för en post
 * Fliken Anslutningar för en post
 
-Mer information om hur du ansluter planeringsposter till Workfront-objekt finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+Mer information om hur du ansluter Planning-poster med Workfront-objekt finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
 
-## Krav för åtkomst
+## Åtkomstkrav
 
-+++ Expandera för att visa åtkomstkrav.
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -87,30 +87,30 @@ Mer information om hur du ansluter planeringsposter till Workfront-objekt finns 
    <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
    <td> 
 <p>Alla </p> 
-<p>Om du vill ha mer information om vad som ingår i varje Workfront Planning-plan kontaktar du din Workfront-kontoansvarige. </p> 
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plattform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste vara registrerad i Adobe Unified Experience för att kunna komma åt Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience för Workfront</a>. </p> 
+<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licens för Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td> Standard
-   <p>Workfront Planning är inte tillgängligt för äldre Workfront-licenser</p> 
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration av åtkomstnivå</p></td> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p> 
-   <p>Redigeringsåtkomst med tillgång till Skapa objekt i Workfront för de objekttyper som du vill skapa (projekt, portföljer, program). </p>  
+   <p>Redigera åtkomst med Skapa objekt i Workfront för de objekttyper som du vill skapa (projekt, portfolior, program). </p>  
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Behörigheter för objekt</p></td> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td> <p>Hantera behörigheter på arbetsytan och den posttyp där du vill lägga till poster. </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
    <p>Hantera behörigheter för Workfront-objekt (portföljer) för att lägga till underordnade objekt (projekt).</p>
@@ -127,23 +127,23 @@ Mer information om hur du ansluter planeringsposter till Workfront-objekt finns 
 
 Du måste ha följande innan du kan lägga till nya projekt eller portföljer genom att koppla dem från befintliga poster:
 
-* Posttyper som är kopplade till Workfront-projekt, portföljer eller program. Mer information finns i [Ansluta posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Arkiv. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+* Registrera typer som är kopplade till Workfront projekt, portfolior eller program. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Poster. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 * Rätt åtkomst och behörigheter i Workfront Planning och Workfront, enligt beskrivningen i avsnittet [Åtkomstkrav](#access-requirements) i den här artikeln.
 
-## Skapa projekt genom att koppla dem till poster från Workfront Planning
+## Skapa projekt när du kopplar ihop dem med poster från Workfront Planning
 
-Så här skapar du projekt samtidigt som du kopplar ihop dem från andra poster:
+Så här skapar du projekt när du kopplar dem från andra poster:
 
-1. Gå till detaljsidan för en post eller till posttypens tabell och börja koppla Workfront Planning-poster till Workfront-projekt, enligt beskrivningen i artikeln [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+1. Gå till informationssidan för en post eller till posttypens tabell och börja ansluta Workfront Planning-poster med Workfront-projekt, enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
-1. (Villkorligt) Klicka på **Lägg till projekt**
-Eller
-Börja skriva namnet på ett projekt och klicka sedan på **Lägg till projekt** om du inte hittar det. Knappen Lägg till följs av det projektnamn som du skrev.
+1. (Villkor) Klicka på **Lägg till projekt**
+eller
+Börja skriva namnet på ett projekt och klicka sedan på **Lägg till projekt** om du inte hittar det. Knappen Lägg till följs av det projektnamn du skrev in.
 
    ![Lägg till projekt när du ansluter det från ett anslutningsfält](assets/add-project-when-connecting-it-from-connection-field.png)
 
-   Rutan Skapa **projekt** öppnas.
+   Rutan **Skapa projekt** öppnas.
 
 1. (Valfritt) Uppdatera **projektnamnet**. Som standard får projektet ett namn efter det du lade till som sökobjekt när du kopplar det från posten.
 1. (Valfritt) Välj en **projektmall**. Om du inte väljer någon mall skapas ett tomt projekt utan några uppgifter.
@@ -162,25 +162,25 @@ Så här skapar du portföljer när du kopplar dem från Planning records:
 
 1. (Villkorligt) Klicka på **Lägg till portfölj**
 
-   Eller
+   eller
 
-   Börja skriva namnet på en portfölj och klicka sedan på **Lägg till portfölj** om du inte hittar den. Knappen Lägg till följs av det portföljnamn som du skrev.
+   Börja skriva namnet på en portfölj och klicka sedan på **Lägg till portfölj** om du inte hittar den. Knappen Lägg till följs av det portföljnamn som du angav.
 
    ![Lägg till portfölj när du ansluter den från ett anslutningsfält](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
-   Portföljen skapas och läggs till i anslutningsfältet för den post som du har valt.
+   Portföljen skapas och läggs till i anslutningsfältet för den post du valde.
 
 1. (Valfritt) Klicka på namnet på den nya portföljen från Workfront Planning för att öppna portföljens sida i Workfront och göra ytterligare uppdateringar av portföljen.
 
-## Skapa program när du kopplar dem till poster från Workfront Planning
+## Skapa program när du kopplar ihop dem med poster från Workfront Planning
 
 Så här skapar du program när du kopplar dem från planeringsposter:
 
-1. Gå till detaljsidan för en post eller till posttypens tabell och börja koppla Workfront Planning-poster till Workfront-portföljer, enligt beskrivningen i artikeln [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+1. Gå till informationssidan för en post eller till posttypens tabell och börja ansluta Workfront Planning-poster med Workfront-portföljer, enligt beskrivningen i artikeln [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 1. Klicka på **Lägg till program**
 
-   Eller
+   eller
 
    Börja skriva namnet på ett program och klicka sedan på **Lägg till program** om du inte hittar det. Knappen Lägg till följs av det programnamn som du skrev in.
 

@@ -76,7 +76,7 @@ Produktion: 21 december 2023
 >
 >Man måste köpa Adobe Workfront Fusion för att kunna bygga anslutningar med Adobe Workfront Planning.
 >
->Mer information finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Mer information finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunktionerna. Med den nya Fusion-anslutningen kan du
 
@@ -92,7 +92,7 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunkti
 
 * Utlösa ett scenario när en ändring görs i planeringsfunktionerna
 
-Mer information finns i [Planeringsmoduler för Adobe Workfront](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Mer information finns i [Planeringsmoduler för Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Vecka 11 december 2023
 
@@ -132,15 +132,15 @@ Produktionsrelease: 21 december 2023
 
 >[!IMPORTANT]
 >
->Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att Adobe Workfront Planning capabilities-poster ska kunna anslutas till Adobe Experience Manager Assets.
+>Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Adobe Workfront Planning capabilities-poster till Adobe Experience Manager Assets.
 >
->Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Om du har frågor om introduktion till Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Nu kan du upprätta en anslutning mellan posttyperna för Adobe Workfront Planning-funktioner och Adobe Experience Manager Assets.
 
 När du har upprättat anslutningen är följande funktioner tillgängliga med den här uppdateringen:
 
-* Du kan länka resurser och mappar i Experience Manager till en planeringsfunktionspost från en viss databas i Experience Manager Assets som de har tillgång till. Du kan koppla resursfält till planeringsfunktionsfält i den här processen.
+* Du kan länka Experience Manager resurser och mappar till en post för planeringsfunktioner från en viss databas i Experience Manager Assets som de har tillgång till. Du kan koppla resursfält till planeringsfunktionsfält i den här processen.
 
 * Planeringsfunktionens användare kan visa namnet på de anslutna resurserna samt värdena för de anslutna fälten i planeringsfunktionerna.
 
@@ -363,7 +363,7 @@ Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/man
 
 Förhandsgranska och produktion: 24 augusti 2023
 
-Nu kan du koppla samman en post för planeringsfunktioner med Workfront program och portföljer. Du måste skapa en anslutning mellan posttypen för planeringsfunktioner och ett program eller en portfölj som skapar ett anslutet fält. Sedan kan du koppla alla planeringsfunktionsposter från alla andra posttyper inom samma arbetsyta till specifika program och portföljer som skapar en skrivskyddad posttyp för Workfront eller Workfront Portfolio i samma arbetsyta. Tänk på följande:
+Nu kan du koppla samman en post för planeringsfunktioner med Workfront program och portföljer. Du måste skapa en anslutning mellan posttypen för planeringsfunktioner och ett program eller en portfölj som skapar ett anslutet fält. Sedan kan du koppla alla planeringsfunktionsposter från alla andra posttyper inom samma arbetsyta till specifika program och portfolior som skapar en skrivskyddad posttyp för Workfront eller Workfront Portfolio i samma arbetsyta. Tänk på följande:
 
 * Posttyper för Workfront-anslutning är unika för varje arbetsyta.
 * Du kan koppla ihop flera poster för planeringsfunktioner till samma Workfront-program eller portfölj, samt flera program och portföljer till samma post för planeringsfunktioner.

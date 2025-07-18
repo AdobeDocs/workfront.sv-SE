@@ -46,22 +46,22 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planering av Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> 
-<p>Någon av följande Workfront-planer:</p> 
-<ul><li>Utvald</li> 
-<li>Primtal</li> 
-<li>Sist</li></ul> 
-<p>Workfront Planning är inte tillgängligt för äldre Workfront-planer</p> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planeringspaket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
    <td> 
-<p>Någon </p> 
-<p>Om du vill ha mer information om vad som ingår i varje Workfront Planning-plan kontaktar du din Workfront-kontoansvarige. </p> 
+<p>Alla </p> 
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
@@ -74,7 +74,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td><p> Standard</p>
-   <p>Workfront Planning är inte tillgängligt för äldre Workfront-licenser</p> 
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 </tbody> 
 </table>
 
-*Mer information om åtkomstkrav för Workfront finns [i Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,12 +100,12 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
 * Du kan bara ta bort posttyper från arbetsytor som du har behörigheten Hantera.
-* Om du tar bort posttyper tas följande information som är kopplad till dem bort:
+* När du tar bort posttyper tas följande information bort som är kopplad till dem:
 
    * Alla poster av den typen.
    * Alla fält som är associerade med posttypen.
-   * Alla vyer (inklusive filter, grupperingar och sorteringskriterier) av posttypen.
-* Posttypen tas bort från alla användare som har åtkomst till arbetsytan.
+   * Alla vyer (inklusive filter, grupperingar och sorteringsvillkor) av posttypen.
+* Posttypen tas bort från alla användare som använder arbetsytan.
 * Du kan inte återställa borttagna posttyper eller deras information.
 * Vi rekommenderar att du återskapar de fält och poster som är kopplade till den posttyp som du vill ta bort på en annan posttyp innan du tar bort dem.
 
@@ -122,11 +122,11 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
    Arbetsytan öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll muspekaren över kortet för posttyp, klicka på menyn Mer **&#x200B;**&#x200B;och sedan **på Ta bort**.
-   * Klicka på kortet för den posttyp som du vill ta bort och klicka på **menyn Mer** ![på menyn Mer](assets/more-menu.png) till höger om posttypens namn på sidan för posttyp och klicka sedan på **Ta bort**.
+   * Håll markören över posttypkortet, klicka på menyn **Mer** och sedan på **Ta bort**.
+   * Klicka på kortet för den posttyp som du vill ta bort och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn på posttypssidan och klicka sedan på **Ta bort**.
 
-   ![Ta bort bekräftelse av posttyp permanent](assets/permanently-delete-record-type-confirmation.png)
+   ![Ta bort posttypsbekräftelse permanent](assets/permanently-delete-record-type-confirmation.png)
 
-1. Skriv **radera** i bekräftelserutan och klicka sedan på **Ta bort** permanent. Detta är inte skiftlägeskänsligt.
+1. Skriv **delete** i bekräftelserutan och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
    Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort och kan inte återställas.

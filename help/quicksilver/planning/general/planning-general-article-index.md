@@ -1,5 +1,5 @@
 ---
-title: "Adobe Workfront Planning General Information: Article Index"
+title: 'Adobe Workfront Planning General Information: Article Index'
 description: Som marknadsledare kan ni använda Adobe Workfront Planning för att organisera arbetet under hela marknadsföringscykeln för alla era team. I artiklarna i det här avsnittet beskrivs allmänna begrepp om Workfront Planning, metodtips om hur du implementerar programmet och du får en översikt över några av de funktioner som är tillgängliga.
 author: Alina
 feature: Workfront Planning
