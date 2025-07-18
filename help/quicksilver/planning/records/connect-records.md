@@ -336,7 +336,7 @@ När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager 
 
 >[!NOTE]
 >
->Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integreringen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av resursmetadata mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integreringen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av resursmetadata mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Så här kopplar du poster till Experience Manager-resurser:
 
