@@ -296,7 +296,7 @@ Så här lägger du till ett filter i en tidslinjevy:
 
    Det finns ingen gräns för hur många filtreringsvillkor du kan lägga till.
 
-1. (Valfritt) Klicka på **Lägg till villkor** för att lägga till ytterligare ett filtreringsalternativ och upprepa stegen ovan. Antalet filter som används visas till vänster om filterikonen ****.
+1. (Valfritt) Klicka på **Lägg till villkor** för att lägga till ytterligare ett filtreringsalternativ och upprepa stegen ovan. Antalet filter som används visas till vänster om filterikonen **&#x200B;**.
 1. Klicka på följande operatorer till vänster för att ange hur filtervillkoren är kopplade och ska tillämpas:
 
    * **OCH:** Alla angivna villkor måste uppfyllas.
@@ -521,7 +521,7 @@ Du kan visa anslutna poster i en posts tidslinjevy med hjälp av funktionen Uppd
    >
    >    Om du inte har några kopplade poster, eller om de kopplade posterna inte har minst två datumfält, är rutan Välj **en länkad posttyp** inte tillgänglig.
 
-1. Välj fälten **Startdatum** och Slutdatum ****.
+1. Välj fälten **Startdatum** och Slutdatum **&#x200B;**.
 
    >[!TIP]
    >

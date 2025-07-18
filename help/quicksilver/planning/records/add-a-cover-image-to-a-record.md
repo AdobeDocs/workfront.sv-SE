@@ -155,7 +155,7 @@ Rutan **Postomslag** öppnas på fliken **Överför** .
 
 1. (Valfritt) Om du vill ta bort bilden innan den sparas klickar du på **ikonen**![ Ladda upp ny bild](assets/upload-new-image-icon.png) Ladda upp ny bild och laddar upp en ny bild.
 
-1. (Valfritt) Klicka på fliken Galleri **** och klicka sedan på en bild i bildgalleriet. Bildgalleriet kan inte ändras.
+1. (Valfritt) Klicka på fliken Galleri **&#x200B;**&#x200B;och klicka sedan på en bild i bildgalleriet. Bildgalleriet kan inte ändras.
 
    ![Spela in omslagsruta för galleriet](assets/record-cover-box-for-gallery.png)
 

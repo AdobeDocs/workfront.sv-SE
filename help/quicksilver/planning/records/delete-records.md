@@ -142,7 +142,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 1. Klicka på ett kort för en posttyp.
 
    Sidan för posttyp öppnas.
-1. (Villkorligt) **** I listrutan Visa i det övre vänstra hörnet av tabellen väljer du en tabellvy. Detta bör vara standardvyn, såvida du inte visade posttypen i tidslinjevyn när du öppnade den senast.
+1. (Villkorligt) **&#x200B;**&#x200B;I listrutan Visa i det övre vänstra hörnet av tabellen väljer du en tabellvy. Detta bör vara standardvyn, såvida du inte visade posttypen i tidslinjevyn när du öppnade den senast.
 
    De poster som är associerade med den valda posttypen visas i tabellvyn.
 1. Gör något av följande:
@@ -152,7 +152,7 @@ Mer information om hur du återställer borttagna poster finns i [Återställa b
 
      ![Kontextuell meny för postrad](assets/contextual-menu-for-record-row.png)
 
-   * **Klicka på ikonen**&#x200B;Öppna detaljer![ ikonen Öppna detaljer i fältet](assets/open-details-icon-in-table-name-field.png) för tabellnamn för att öppna rutan med detaljerad information om posten och klicka sedan på menyn Mer **** Mer![ till höger om postnamnet och sedan ](assets/more-menu.png)**på Ta bort**.
+   * **Klicka på ikonen**&#x200B;Öppna detaljer![ ikonen Öppna detaljer i fältet](assets/open-details-icon-in-table-name-field.png) för tabellnamn för att öppna rutan med detaljerad information om posten och klicka sedan på menyn Mer **&#x200B;**&#x200B;Mer![ till höger om postnamnet och sedan ](assets/more-menu.png)**på Ta bort**.
 
    Posten tas bort.
 

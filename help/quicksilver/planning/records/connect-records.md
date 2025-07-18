@@ -228,7 +228,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en planerin
 1. (Valfritt) Stäng sidan för posttyp och gå till den arbetsyta som du har valt.
 1. Klicka på kortet för den posttyp som du har länkat till.
 
-   Om du till exempel har kopplat **kampanjposten** till produktposten klickar du på produktkortet ****.
+   Om du till exempel har kopplat **kampanjposten** till produktposten klickar du på produktkortet **&#x200B;**.
 
    Kortet för posttyp ska öppnas i tabellvyn. Om inte, välj en tabellvy.
 
@@ -346,7 +346,7 @@ Så här kopplar du poster till Experience Manager-resurser:
 
    Arbetsytan öppnas och posttyperna visas.
 1. Klicka på kortet för en posttyp för att öppna sidan för posttypen.
-1. Välj en **tabellvy** i listrutan Visa **** i det övre högra hörnet på sidan för posttyp.
+1. Välj en **tabellvy** i listrutan Visa **&#x200B;**&#x200B;i det övre högra hörnet på sidan för posttyp.
 
 1. (Valfritt) Klicka på **Ny post** om du vill lägga till nya poster i den posttyp som du har valt. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 1. (Villkorligt) När du har kopplat den valda posttypen till Experience Manager Assets går du till det anslutna fältet på en post och klickar antingen på fältet eller klickar på **Connect** för att lägga till Experience Manager-resurser i posten och klickar sedan på +**-ikonen**.

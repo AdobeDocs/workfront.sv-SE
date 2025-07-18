@@ -319,7 +319,7 @@ Nummerfälttyper samlar in information i talformat.
 >Nummerfält visas som en typ av enradigt textfält i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som siffror efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Number**.
@@ -349,7 +349,7 @@ Fälttyper för procent samlar in information i ett numeriskt format följt av e
 >Procentfält visas som en textfältstyp med en rad i ett formulärverktyg för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas i procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->>Mer information finns [i Skapa och hantera ett förfrågningsformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>Mer information finns [i Skapa och hantera ett förfrågningsformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Procent** .
@@ -389,7 +389,7 @@ Typer av valutafält samlar in information i ett numeriskt format som föregås 
 >Valutafält visas som en textfältstyp med en rad i ett formulärverktyg för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som valuta när begäran har skickats, på posttypen och på sidan med information om begäran.
->>Mer information finns [i Skapa och hantera ett förfrågningsformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>Mer information finns [i Skapa och hantera ett förfrågningsformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj **sedan fälttypen Valuta** .
 

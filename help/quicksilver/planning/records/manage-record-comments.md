@@ -168,7 +168,7 @@ Sidan för posttyp öppnas och alla poster av den typen visas.
 
    Mer information om hur du uppdaterar objekt, inklusive Workfront Planning-poster, finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på **** Mer-ikonen ![Mer-menyn](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Ta bort** för att ta bort kommentaren.
+1. (Valfritt) Klicka på **&#x200B;**&#x200B;Mer-ikonen ![Mer-menyn](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Ta bort** för att ta bort kommentaren.
 1. (Valfritt) **Klicka på ikonen** Dölj kommentarer![ för att stänga den](assets/hide-comments-icon.png) högra panelen.
 
 <!--

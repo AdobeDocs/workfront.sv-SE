@@ -135,8 +135,10 @@ När någon delar en länk till en arbetsyta eller en vy där du inte har tillg�
 
    Alla användare med behörigheten Hantera för vyn eller arbetsytan får följande meddelanden om åtkomstbegäran:
    * Ett meddelande i appen
+
      ![Meddelande i programmet om åtkomstbegäran](assets/in-app-notification-for-access-request.png)
    * Ett e-postmeddelande
+
      ![E-postmeddelande om åtkomstbegäran](assets/email-notification-for-access-request.png)
 
 1. (Villkorligt) När arbetsytehanteraren ger dig behörighet till vyn eller arbetsytan får du ett e-postmeddelande och ett meddelande i appen med en bekräftelse på att behörighet har beviljats. <!--check this - I was not able to test this, but Isk confirmed.-->

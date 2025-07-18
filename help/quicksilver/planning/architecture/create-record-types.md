@@ -202,7 +202,7 @@ Beskrivningen av posttypen visas på kortet.
 
    <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
 
-1. (Valfritt) Håll muspekaren över kortet för posttyp, klicka på **** ikonen ![](assets/more-menu.png) Mer i det övre högra hörnet och klicka sedan på **Redigera** för att ändra informationen om posttypen.
+1. (Valfritt) Håll muspekaren över kortet för posttyp, klicka på **&#x200B;**&#x200B;ikonen ![](assets/more-menu.png) Mer i det övre högra hörnet och klicka sedan på **Redigera** för att ändra informationen om posttypen.
 1. (Valfritt) Klicka på kortet för posttyp för att öppna sidan för posttyp.
 
    ![Typ av driftpost tom](assets/operational-record-type-blank.png)

@@ -160,7 +160,7 @@ OLD:
 
 ## Hantera aviseringar i appen när någon taggar dig i en kommentar
 
-1. (Villkorligt) När någon har taggat dig eller dina team i en kommentar på en post går du till ikonen för meddelanden **** i appen ![Experience Cloud notifications](assets/experience-cloud-notifications-icon.png) i Adobe Experience Cloud.
+1. (Villkorligt) När någon har taggat dig eller dina team i en kommentar på en post går du till ikonen för meddelanden **&#x200B;**&#x200B;i appen ![Experience Cloud notifications](assets/experience-cloud-notifications-icon.png) i Adobe Experience Cloud.
 
    ![Exempel på aviseringar i appen](assets/in-app-notification-example.png)
 

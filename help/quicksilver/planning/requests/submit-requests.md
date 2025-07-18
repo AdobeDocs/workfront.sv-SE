@@ -225,7 +225,7 @@ Alla begäranden som du har tillgång till för att visa som har skickats till e
       * **Status**: Status för begäran.
       * **Anges av**: Namnet på den användare som lade till begäran. Om begäran har lagts till av någon utanför Workfront **visas** fältet Angett av`N/A`.
 
-        Du kan ha flera filter sammanfogade med antingen **And eller** Or ****.
+        Du kan ha flera filter sammanfogade med antingen **And eller** Or **&#x200B;**.
 Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
    * Klicka på **Kolumner** och dölj, visa eller ordna om kolumnerna i listan över begäranden.
@@ -319,7 +319,7 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
    >
    >* Om begärandeformuläret är associerat med ett godkännande måste godkännandet beviljas innan du kan komma åt posten från begärandesidan.
 
-1. (Valfritt) Klicka på namnet på posttypen ****.
+1. (Valfritt) Klicka på namnet på posttypen **&#x200B;**.
 
    Sidan för posttyp öppnas i Workfront Planning.
 

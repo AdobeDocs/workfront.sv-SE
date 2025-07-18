@@ -122,7 +122,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
    Arbetsytan öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll muspekaren över kortet för posttyp, klicka på menyn Mer **** och sedan **på Ta bort**.
+   * Håll muspekaren över kortet för posttyp, klicka på menyn Mer **&#x200B;**&#x200B;och sedan **på Ta bort**.
    * Klicka på kortet för den posttyp som du vill ta bort och klicka på **menyn Mer** ![på menyn Mer](assets/more-menu.png) till höger om posttypens namn på sidan för posttyp och klicka sedan på **Ta bort**.
 
    ![Ta bort bekräftelse av posttyp permanent](assets/permanently-delete-record-type-confirmation.png)
