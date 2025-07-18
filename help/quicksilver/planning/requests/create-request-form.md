@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 0%
 
 ---
@@ -269,6 +269,10 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    ![Delningsruta för begärandeformulär](assets/share-box-for-request-form.png)
 
 1. (Valfritt) Klicka på listrutan efter namnet på en entitet och klicka sedan på **Ta bort** för att ta bort dem från listan och sluta dela formuläret med dem.
+
+   >[!NOTE]
+   >
+   >Förutom team, grupper, företag och jobbroller kan du bara dela med användare som har lagts till i Adobe Admin Console. Du kan inte lägga till användare med endast Workfront. Mer information finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 1. I avsnittet **Vem kan skicka begäranden via det här formuläret** väljer du bland följande alternativ för att ange vilka typer av användare som kan få åtkomst till det här formuläret:
 
