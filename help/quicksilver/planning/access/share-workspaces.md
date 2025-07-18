@@ -152,8 +152,10 @@ Användare som har åtkomst till en länk till en arbetsyta som de inte har beh�
 1. (Villkorligt) Om du är chef för en arbetsyta kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
    * Ett meddelande i appen
+
      ![Meddelande i programmet om åtkomstbegäran](assets/in-app-notification-for-access-request.png)
    * Ett e-postmeddelande
+
      ![E-postmeddelande om åtkomstbegäran](assets/email-notification-for-access-request.png)
 1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
 eller
