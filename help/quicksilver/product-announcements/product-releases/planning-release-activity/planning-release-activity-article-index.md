@@ -2,14 +2,14 @@
 content-type: release-notes
 title: 'Adobe Workfront Planning Release Activity: Artikelindex'
 description: Detta är versionsaktiviteten för Adobe Workfront Planning-produkten.
-author: Alina
+author: Alina, Courtney
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 3eaab5818e982914f807ce2c4e92dee1885ea8d9
+source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Information om den aktuella lanseringen av Workfront Planning finns i följande 
 
 Mer information om funktioner som släpptes före produktionsutgåvan den 10 april 2025 finns i följande artiklar:
 
-* [Versionsaktivitet fjärde kvartalet 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Tredje kvartersversionen 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Andra utgåvan för kvartal 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Första utgåvan av kvartal 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
