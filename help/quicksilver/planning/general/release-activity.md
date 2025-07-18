@@ -800,7 +800,7 @@ Produktion: 8 maj 2024
 
 Förhandsgranska: För att bestämma
 
-Om du är Adobe Unified Experience-kund och någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen och ett e-postmeddelande om kommentaren. Du kan hantera dina meddelandeinställningar under Inställningar i din Adobe Experience Cloud-profil. Mer information finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Om du är Adobe Unified Experience-kund och någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen och ett e-postmeddelande om kommentaren. Du kan hantera dina meddelandeinställningar under Inställningar i din Adobe Experience Cloud-profil. Mer information finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
 
 Mer information om Workfront planeringsmeddelanden finns i [Adobe Workfront Planning-meddelanden: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 

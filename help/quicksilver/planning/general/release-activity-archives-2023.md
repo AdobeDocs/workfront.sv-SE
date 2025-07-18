@@ -76,7 +76,7 @@ Produktion: 21 december 2023
 >
 >Man måste köpa Adobe Workfront Fusion för att kunna bygga anslutningar med Adobe Workfront Planning.
 >
->Mer information finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Mer information finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunktionerna. Med den nya Fusion-anslutningen kan du
 
@@ -92,7 +92,7 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunkti
 
 * Utlösa ett scenario när en ändring görs i planeringsfunktionerna
 
-Mer information finns i [Planeringsmoduler för Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Mer information finns i [Planeringsmoduler för Adobe Workfront](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Vecka 11 december 2023
 
