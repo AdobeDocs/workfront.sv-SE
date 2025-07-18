@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 1%
+source-wordcount: '1006'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,13 @@ Du kan anropa planerings-API:t från ett externt sökfält i ett anpassat Workfr
 
 Mer information om externa sökfält finns i [Exempel på ett externt sökfält i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
+>[!NOTE]
+>
+>Användare måste läggas till i Adobe Admin Console för att vara tillgängliga i API-anrop. Det går inte att komma åt användare som bara har Workfront via Adobe Planning API.
+>
+>Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+
 ## URL för Workfront Planning API
 
 <!--For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
@@ -34,7 +41,7 @@ Mer information om externa sökfält finns i [Exempel på ett externt sökfält 
 
 Objekten ändras genom att en HTTP-begäran skickas till deras unika URI. Den åtgärd som ska utföras anges av HTTP-metoden.
 
-Standardmetoderna för HTTP motsvarar följande åtgärder:
+HTTP-standardmetoderna motsvarar följande åtgärder:
 
 * **GET** - Hämtar ett objekt efter ID, söker efter alla objekt efter en fråga
 * **POST** - Infogar ett nytt objekt
@@ -203,7 +210,7 @@ Nedan finns en lista över de fälttyper som stöds och vilka sökmodifierare so
 | skapad av | $is, $isNot, $isAnyOf, $isNoneOf |
 | created-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween |
 | uppdaterad | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
-| uppdaterad | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
+| uppdaterad-kl | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
 | referens | $hasAnyOf, $hasAllOf, $isExakt, $hasNoneOf, $isEmpty, $isNotEmpty |
 | sökning | Beroende på det länkade fältet |
 

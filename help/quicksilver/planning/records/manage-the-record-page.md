@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2115'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Mer information finns i följande artiklar:
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto">
  <col>
@@ -99,15 +97,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr>
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
-   <p>Contribute eller högre behörighet till en arbetsyta <span class="preview">och posttyp</span> </a> </p>  
+   <p>Contribute eller högre behörighet till en arbetsyta och posttyp </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -143,7 +135,7 @@ Tänk på följande när du lägger till avsnitt på en postsida:
 * Du kan dra och släppa fält från ett avsnitt till ett annat. Mer information finns i avsnittet [Ordna om fält på sidan för postförhandsgranskning eller information](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
 * När du tar bort alla fält från ett avsnitt tas avsnittet automatiskt bort och kan inte återställas.
 
-Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
+Så här lägger du till ett avsnitt i en förhandsgranskning av en post eller på en sida:
 
 {{step1-to-planning}}
 
@@ -220,9 +212,9 @@ Alla avsnitt expanderas som standard.
 Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
    * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.
-   * Värdena för Workfront sökfält som är kopplade till Planning-posten tas också bort.
+   * Värdena för Workfront-uppslagsfält som är anslutna till planeringsposten tas också bort.
 
-## Ordna om fält på postens flik Detaljer
+## Ordna om fälten på fliken Detaljer för posten
 
 {{step1-to-planning}}
 
@@ -230,17 +222,17 @@ Följande saker händer:
 
    Arbetsytan öppnas och posttyperna visas som kort.
 
-1. Klicka på ett posttypskort.
+1. Klicka på ett kort för en posttyp.
 
-   Posttypssidan öppnas.
+   Sidan för posttyp öppnas.
 
-1. Klicka på en post i en vy av valfri typ
+1. Från en vy av valfri typ klickar du på namnet på en post
 
-   eller
+   Eller
 
-   I tabelltabellvyn klickar du på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
+   Från tabelltabellvyn klickar du på **ikonen Öppna detaljer** Öppna detaljikonen i tabellnamnsfältet![ i den ](assets/open-details-icon-in-table-name-field.png)första kolumnen.
 
-   Postens förhandsgranskning öppnas i vyn.
+   Förhandsgranskningen av posten öppnas i vyn.
 
    ![Informationsruta](assets/details-box.png)
 
@@ -262,48 +254,43 @@ Följande saker händer:
 
    Alla ändringar av layouten för postförhandsgranskningen eller sidan sparas automatiskt.
 
-## Lägg till en <span class="preview">sida för anslutna poster</span> i en post
+## Lägga till en sida med kopplade poster i en post
 
-Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för en <span class="preview">sida med kopplade poster</span> till en post.
+Du kan visa information från anslutna poster eller objekt genom att lägga till en flik för en sida med kopplade poster till en post.
 
-I produktionsmiljön visas informationen från de anslutna posterna eller objekten i en skrivskyddad tabellvy.
+Informationen från de anslutna posterna kan redigeras i tabellvyn. Informationen från objekten som är anslutna från ett annat program kan inte redigeras i tabellvyn.
 
-<span class="preview">I förhandsvisningsmiljön kan informationen från de anslutna posterna redigeras i tabellvyn. Informationen från objekten som är anslutna från ett annat program kan inte redigeras i tabellvyn.</span>
+Tänk på följande när du lägger till en sida med kopplade poster till en post:
 
-Tänk på följande när du lägger till sidan <span class="preview">Anslutna poster</span> till en post:
+* Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från tabellvyn för en posttyp.
 
-* Du kan lägga till en <span class="preview">sida för kopplade poster</span> till en post efter att du har anslutit post- eller objekttyper till posttypen från tabellvyn för en posttyp.
+* Du kan inte lägga till en sida med kopplade poster i en posts förhandsvisningsområde.
 
-* Du kan inte lägga till en <span class="preview">sida för kopplade poster</span> i en posts förhandsgranskningsområde.
+* Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen i tabellvyn.
 
-* <span class="preview">Anslutna postsidor</span> visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen i tabellvyn.
+* När du har lagt till en sida med kopplade poster i en post, visas sidfliken från postens förhandsvisningsområde, men den är tom. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten. <!--this might have changed? check and take disclaimer out-->
 
-* När du har lagt till en <span class="preview">sida för kopplade poster</span> i en post visas sidfliken från postens förhandsvisningsområde, men den är tom. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten. <!--this might have changed? check and take disclaimer out-->
-
-* Du kan lägga till <span class="preview">Anslutna postsidor</span> för följande anslutna post- eller objekttyper:
+* Du kan lägga till sidor med kopplade poster för följande anslutna post- eller objekttyper:
 
    * Workfront Planning - posttyper
    * Workfront projekt, program, portfolior, grupper eller företag. Du kan visa de anslutna Workfront-objekten även när du inte har åtkomstbehörighet till dem i Workfront.
 
   >[!NOTE]
   >
-  >   Du kan inte lägga till en <span class="preview">sida för anslutna poster</span> för anslutna AEM Assets-poster.
+  >   Du kan inte lägga till en sida med kopplade poster för anslutna AEM Assets-poster.
 
 
-Så här lägger du till sidan <span class="preview">Anslutna poster</span>:
+Så här lägger du till en sida med anslutna poster:
 
 1. I en postsidvy klickar du på namnet på en post för att öppna den. Klicka sedan på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
 1. Klicka på **Lägg till sida**.
 
-   <div class="preview">
 
    Rutan **Skapa sida** öppnas.
 
    ![Sidan Lägg till kopplade poster modal](assets/add-connection-view-page-modal.png)
 
-   </div>
-
-1. Lägg till **sidnamnet**, klicka på sidan **<span class="preview">Anslutna poster</span>** och klicka sedan på **Skapa**.
+1. Lägg till **sidnamnet**, klicka på sidan **Anslutna poster** och klicka sedan på **Skapa**.
 
    En ny flik läggs till på postens sida.
 1. Sök efter eller klicka på namnet på en ansluten post eller objekttyp i listan.
@@ -320,12 +307,10 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
 
    * Klicka på namnet på en post. Posten öppnas på en ny flik.
 
-     <span class="preview">I förhandsvisningsmiljön öppnas postens förhandsgranskningssida. Klicka på ikonen **Öppna på en ny flik** ![Öppna på en ny flik](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet för att öppna den anslutna postens sida.</span>
+     Då öppnas postens förhandsgranskningssida. Klicka på ikonen **Öppna på en ny flik** ![Öppna på en ny flik](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet för att öppna den anslutna postens sida.
 
    * Klicka på **Anslut** för att ansluta fler poster och klicka sedan utanför anslutningsrutan för att stänga den. De nya posterna läggs automatiskt till i tabellen.
-   * <span class="preview">Redigera all information från de anslutna posterna i tabellvyn. </span>
-
-   <div class="preview">
+   * Redigera all information från de anslutna posterna i tabellvyn.
 
    * Håll muspekaren över namnet på en ansluten post, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på något av följande alternativ:
       * Visa
@@ -339,20 +324,17 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
       * Kopiera länk
       * Redigera miniatyrbild
       * Duplicera
-      * Ta bort. Ta bort är det enda tillgängliga alternativet när du markerar mer än en post.
+      * Ta bort. Ta bort är det enda alternativet som är tillgängligt när du väljer mer än en post.
 
      Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
-   * Redigera alla poster i tabellen på sidan Anslutna poster. Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
+   * Infogad redigering av någon av posterna i tabellen på sidan Anslutna poster. Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
 
-   </div>
+1. (Valfritt) Dubbelklicka på namnet på sidan Anslutna poster
 
+   Eller
 
-1. (Valfritt) Dubbelklicka på namnet på fliken <span class="preview">Anslutna poster</span>
-
-   eller
-
-   Håll muspekaren över flikens namn, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
+   Håll muspekaren över namnet på fliken, klicka sedan på **menyn Mer**![ Mer](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn till den nya fliken Ansluten vy.
 1. (Valfritt) Använd något av följande vyelement i verktygsfältet för att hantera tabellvyn:
 
    * Filter
@@ -368,7 +350,7 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
    >
 
 1. Klicka på **Anslut** för att lägga till eller ta bort poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md)
-1. (Valfritt) Håll pekaren över namnet på sidan <span class="preview">Anslutna poster</span>, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.
+1. (Valfritt) Håll pekaren över namnet på fliken Anslutna poster, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.
 
 
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Dela poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -34,25 +34,19 @@ Du kan dela en Adobe Workfront Planning-post på följande sätt:
 
 * Kopiera en länk till postens sida när du visar poster i posttypens tabellvy.
 
-* Du kan dela alla poster på en arbetsyta med andra användare genom att dela arbetsytan <span class="preview"> och posttypen.</span>
+* Du kan dela alla poster på en arbetsyta med andra användare genom att dela arbetsytan och posttypen.
 
   Mer information finns i följande artiklar:
 
    * [Dela en arbetsyta](/help/quicksilver/planning/access/share-workspaces.md)
 
-  <div class="preview">
-
    * [Dela en posttyp](/help/quicksilver/planning/access/share-record-types.md)
-
-  </div>
 
 I den här artikeln beskrivs hur du kan kopiera en länk till en posts sida från en posttyps tabellvy.
 
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -104,20 +98,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>  <p>Visa eller högre behörigheter till en arbetsyta <span class="preview">och posttyp</span> att dela   en post med en länk </p>
-   <p>Hantera behörigheter till en arbetsyta <span class="preview">och posttyp</span> för att dela posterna på arbetsytan </p>
+   <td>  <p>Visa eller ge högre behörighet till en arbetsyta och en posttyp att dela   en post med en länk </p>
+   <p>Hantera behörigheter till en arbetsyta och posttyp för att dela posterna på arbetsytan </p>
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning-områdena.</p>
-   <div class="preview">
-<p> I förhandsgranskningsmiljön måste användare med en ljus- eller Contributor-licens tilldelas en layoutmall som innehåller Planning.</p>
-
-<p>Standardanvändare och systemadministratörer har Planering aktiverat som standard.</p></div>
-
-<p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Skapa och hantera layoutmallar</a>.</p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning.
+   <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,18 +150,15 @@ Arbetsytan som du senast öppnade öppnas.
 
 Du kan dela alla poster på en arbetsyta när du delar arbetsytan med andra.
 
+Posttyper och poster ärver samma behörigheter från arbetsytan.
+
 Endast användare med behörigheten Hantera för en arbetsyta kan dela den med andra.
 
 Mer information finns i [Dela en arbetsyta](/help/quicksilver/planning/access/share-workspaces.md).
 
-
-<div class="preview">
-
 ## Dela alla poster i en posttyp genom att dela posttypen
 
-I produktionsmiljön ärver poster behörigheter från arbetsytan.
-
-I förhandsgranskningsmiljön ärver poster behörigheter från posttypen.
+Poster ärver behörigheter från posttypen.
 
 Som standard ärver posttyper behörigheter från arbetsytan.
 
@@ -184,4 +171,3 @@ Endast användare med behörigheten Hantera på en arbetsyta kan dela sina postt
 
 Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md).
 
-</div>

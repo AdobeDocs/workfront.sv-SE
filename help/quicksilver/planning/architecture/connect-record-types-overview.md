@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # Översikt över anslutna posttyper
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
 
 Du kan ange att enskilda posttyper relaterar till varandra eller till objekt från andra program genom att koppla dem.
 
@@ -58,11 +58,11 @@ Tänk på följande när det gäller att ansluta posttyper:
 
      >[!IMPORTANT]
      >
-     >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att kunna ansluta Workfront Planning-poster till Adobe Experience Manager Assets.
+     >Du måste ha en Adobe Experience Manager Assets-licens och din organisations instans av Workfront måste registreras på Adobe Business Platform eller Adobe Admin Console för att Workfront Planning-poster ska kunna anslutas till Adobe Experience Manager Assets.
      >
-     >Om du har frågor om introduktion till Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa Vanliga frågor och svar[ om ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)Adobe Unified Experience.
 
-* När du har skapat poster för de anslutna posttyperna kan du länka dem till varandra via det anslutna postfältet.  Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+* När du har skapat poster för de anslutna posttyperna kan du länka dem till varandra via det anslutna postfältet.  Mer information finns i [Ansluta poster](/help/quicksilver/planning/records/connect-records.md).
 
 * När du har kopplat en posttyp till en annan posttyp eller till en objekttyp från ett annat program finns följande scenarier:
 
@@ -72,11 +72,11 @@ Tänk på följande när det gäller att ansluta posttyper:
 
    * **När du ansluter en posttyp med en objekttyp från ett annat program**:
 
-      * Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i det andra programmets objekttyp.
+      * Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt för det andra programmets objekttyp.
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
       * Planeringsposter visas på Workfront-objektets planeringflik. Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-      * <span class="preview">Du kan skapa ett anpassat fält för planeringsanslutning och bifoga det till ett anpassat Workfront-objekts formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). </span>
-      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Du kan skapa ett anpassat fält för planeringsanslutning och koppla det till ett Workfront-objekts anpassade formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **När du lägger till uppslagsfält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från.
@@ -99,9 +99,9 @@ Tänk på följande när det gäller att ansluta posttyper:
 
      >[!TIP]
      >
-     >Information om datumfält i Workfront-objekt visas i 24-timmarsformat i Workfront Planning, oavsett hur den visas i Workfront.
+     >Workfront-objektens datumfältsinformation visas i 24-timmarsformat i Workfront Planning, oavsett hur den visas i Workfront.
      >
-     >Om till exempel ett projekts planerade startdatum visas som 3:00 PM i Workfront, visas det som 15:00 i Workfront Planning i ett importerat sökfält.
+     >Om till exempel ett projekts planerade startdatum visas som 3:00 PM i Workfront, visas det som 15:00 i Workfront Planning i ett importerat uppslagsfält.
 
 
 ## Anslutningstyper
@@ -153,11 +153,11 @@ När du väljer den här anslutningstypen kan du senare bara ändra den till en 
 ![Många till en anslutningsväljare](assets/many-to-one-connection-picker.png)
 
 
-När du skapar en många-till-en-anslutning mellan posttyper kan du sedan koppla varje post i den aktuella posttypen med endast en post från den anslutna posttypen. Det anslutna postfältet som skapas automatiskt för den andra posttypen ställs automatiskt in på en 1:N-relationstyp.
+När du skapar en många-till-en-anslutning mellan posttyper kan du sedan koppla varje post i den aktuella posttypen med endast en post från den anslutna posttypen. Det anslutna postfältet som skapas automatiskt på den andra posttypen ställs automatiskt in på en en-till-många-relationstyp.
 
-Om du till exempel kopplar ihop kampanjer med projekt och väljer den här typen av anslutning kan du bara lägga till ett projekt i en kampanj. Men ni kan lägga till flera kampanjer i ett projekt.
+Om du till exempel kopplar kampanjer till projekt och väljer den här typen av koppling kan du bara lägga till ett projekt i en kampanj. Men du kan lägga till flera kampanjer i ett projekt.
 
-Ett exempel på hur många filmer och skådespelare som finns i verkligheten är relationen mellan många filmer och en skådespelare: en skådespelare kan vara i många filmer, men varje film kan bara ha en viss skådespelare en gång i sin filmserie.
+Ett verkligt exempel på en många-till-en-relationstyp är förhållandet mellan många filmer och en skådespelare: en skådespelare kan vara med i många filmer, men varje film kan bara ha en specifik skådespelare en gång i rollistan.
 
 När du väljer den här anslutningstypen kan du senare bara ändra den till en många-till-många-anslutningstyp.
 
@@ -165,10 +165,10 @@ När du väljer den här anslutningstypen kan du senare bara ändra den till en 
 
 ![En till en anslutningsväljare](assets/one-to-one-connection-picker.png)
 
-När du skapar en en en-till-en-anslutning mellan posttyper kan du i båda posttyperna koppla varje post endast till en post från den andra posttypen.
+När du skapar en en-till-en-anslutning mellan posttyper kan du i båda posttyperna endast koppla varje post till en post från den andra posttypen.
 
-Om du till exempel kopplar ihop kampanjer med projekt och väljer den här typen av anslutning kan du koppla samman en kampanj med ett projekt. Ett projekt kan bara kopplas till en kampanj.
+Om du till exempel kopplar kampanjer till projekt och väljer den här typen av anslutning kan du koppla en kampanj till ett projekt. Ett projekt kan bara kopplas till en kampanj.
 
-Ett exempel på en personlig relation är den som finns mellan en person och det egna landets unika identifierare (som personnummer, pass-ID, lokalt ID): varje person har bara en unik identifierare för ett land och varje unik identifierare kan bara länkas till en person.
+Ett verkligt exempel på ett en-till-en-förhållande är det som finns mellan en person och deras lands unika identifierare (t.ex. ett personnummer, pass-ID, lokalt ID-nummer): varje person har bara en unik identifierare för ett land och varje unik identifierare kan endast kopplas till en person.
 
-När du väljer den här anslutningstypen kan du ändra den senare till en annan anslutningstyp.
+När du väljer den här anslutningstypen kan du senare ändra den till en annan anslutningstyp.

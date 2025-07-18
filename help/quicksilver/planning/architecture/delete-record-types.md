@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Ta bort posttyper
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -34,8 +34,6 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 
 +++ Expandera om du vill visa åtkomstkraven.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -48,22 +46,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Planering av Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+<p>Någon av följande Workfront-planer:</p> 
+<ul><li>Utvald</li> 
+<li>Primtal</li> 
+<li>Sist</li></ul> 
+<p>Workfront Planning är inte tillgängligt för äldre Workfront-planer</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planeringspaket*</p></td> 
    <td> 
-<p>Alla </p> 
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
+<p>Någon </p> 
+<p>Om du vill ha mer information om vad som ingår i varje Workfront Planning-plan kontaktar du din Workfront-kontoansvarige. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
@@ -76,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td><p> Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+   <p>Workfront Planning är inte tillgängligt för äldre Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
@@ -86,18 +84,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta <span class="preview">och posttyp</span></p>  
+   <td>   <p>Hantera behörigheter till en arbetsyta och en posttyp</p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om åtkomstkrav för Workfront finns [i Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -107,12 +100,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
 * Du kan bara ta bort posttyper från arbetsytor som du har behörigheten Hantera.
-* När du tar bort posttyper tas följande information bort som är kopplad till dem:
+* Om du tar bort posttyper tas följande information som är kopplad till dem bort:
 
    * Alla poster av den typen.
    * Alla fält som är associerade med posttypen.
-   * Alla vyer (inklusive filter, grupperingar och sorteringsvillkor) av posttypen.
-* Posttypen tas bort från alla användare som använder arbetsytan.
+   * Alla vyer (inklusive filter, grupperingar och sorteringskriterier) av posttypen.
+* Posttypen tas bort från alla användare som har åtkomst till arbetsytan.
 * Du kan inte återställa borttagna posttyper eller deras information.
 * Vi rekommenderar att du återskapar de fält och poster som är kopplade till den posttyp som du vill ta bort på en annan posttyp innan du tar bort dem.
 
@@ -129,11 +122,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Arbetsytan öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll markören över posttypkortet, klicka på menyn **Mer** och sedan på **Ta bort**.
-   * Klicka på kortet för den posttyp som du vill ta bort och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn på posttypssidan och klicka sedan på **Ta bort**.
+   * Håll muspekaren över kortet för posttyp, klicka på menyn Mer **** och sedan **på Ta bort**.
+   * Klicka på kortet för den posttyp som du vill ta bort och klicka på **menyn Mer** ![på menyn Mer](assets/more-menu.png) till höger om posttypens namn på sidan för posttyp och klicka sedan på **Ta bort**.
 
-   ![Ta bort posttypsbekräftelse permanent](assets/permanently-delete-record-type-confirmation.png)
+   ![Ta bort bekräftelse av posttyp permanent](assets/permanently-delete-record-type-confirmation.png)
 
-1. Skriv **delete** i bekräftelserutan och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
+1. Skriv **radera** i bekräftelserutan och klicka sedan på **Ta bort** permanent. Detta är inte skiftlägeskänsligt.
 
    Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort och kan inte återställas.

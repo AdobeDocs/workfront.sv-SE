@@ -1,14 +1,14 @@
 ---
 title: Översikt över delningsbehörigheter i Adobe Workfront Planning
-description: Alla användare i organisationen har inte samma åtkomst och behörigheter för att använda Adobe Workfront Planning. I den här artikeln beskrivs allmän information om hur du delar eller tar bort behörigheter till en arbetsyta eller vy i Adobe Workfront Planning.
+description: Alla användare i organisationen har inte samma åtkomst och behörighet att använda Adobe Workfront Planning. I den här artikeln beskrivs allmän information om hur du delar eller tar bort behörigheter till en arbetsyta eller vy i Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -20,215 +20,216 @@ ht-degree: 0%
 
 # Översikt över delningsbehörigheter i Adobe Workfront Planning
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 
 {{planning-important-intro}}
 
-Du kan dela eller ta bort behörigheter till en Adobe Workfront Planning-arbetsyta eller -vy.
+Du kan dela eller ta bort behörigheter till en arbetsyta, en posttyp eller en vy i Adobe Workfront Planning.
 
-I den här artikeln beskrivs behörighetsnivåerna för Workfront Planning-objekt.
+Du kan också dela formulär för planeringsbegäran. Mer information finns [i Skapa och hantera ett förfrågningsformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+I den här artikeln beskrivs behörighetsnivåerna för Workfront Planning-arbetsytor, posttyper, poster, fält och vyer.
 
 ## Objekt som du kan dela i Adobe Workfront Planning
+
+Du kan dela vissa Workfront Planning-objekt manuellt, medan andra objekt ärver dessa behörigheter från andra objekt.
 
 Du kan dela följande objekt manuellt i Workfront Planning:
 
 * Arbetsytor
 
    * Du kan dela arbetsytor med personer i din organisation.
-   * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna.
-   * När du delar en arbetsyta delas inte vyerna. Vyer delas separat.
+   * När du delar en arbetsyta delas även alla posttyper, poster och fält som är associerade med arbetsytorna.
+   * När du delar en arbetsyta delas inte vyer. Vyer delas separat.
 
   Mer information finns i [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
-
-* Posttyper
+* Typer av poster
 
    * Du kan dela posttyper med personer i din organisation.
-   * Nivån för behörigheter som beviljas för arbetsytan visas som ärvda behörigheter för posttypen.
-   * Du kan inte dela en posttyp med en högre behörighetsnivå än användaren har på arbetsytan.
+   * Den behörighetsnivå som beviljas för arbetsytan visas som Ärvda behörigheter för posttypen.
+   * Du kan inte dela en posttyp med en högre behörighetsnivå än vad användaren har på arbetsytan.
 
   Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share-record-types.md).
 
-</div>
 
-
-* Vyer
+* Visningar
 
    * Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor.
    * När du delar en vy delas alla vyelement, inklusive filter, gruppering, sortering och inställningar.
-   * När du delar en vy delas inte de poster som visas i vyn. Posterna måste delas med arbetsytor som delar dem.
-   * Du kan dela en vy offentligt med personer utanför organisationen när du genererar en offentlig länk för en vy.Personer som öppnar postsidan från en offentlig länk kan visa alla poster och deras fält, inklusive anslutna poster och fält.
+   * När du delar en vy delas inte de poster som visas i vyn. Arkivhandlingar måste delas genom att dela arbetsytor.
+   * Du kan dela en vy offentligt med personer utanför organisationen när du skapar en offentlig länk för en vy. Personer som kommer åt postsidan från en offentlig länk kan visa alla poster och deras fält, inklusive anslutna poster och fält.
 
   Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
-Internt kan du dela en arbetsyta, en vy, <span class="preview"> eller en posttyp </span> med följande Workfront-enheter:
+Internt kan du dela en arbetsyta, en vy eller en posttyp med följande Workfront-enheter:
 
 * Användare
 * Grupper
 * Team
 * Företag
-* Jobbroller
+* Yrkesroller
 
-<span class="preview"> När du delar arbetsytor och posttyper med andra ärvs behörighetsnivån från posttypen automatiskt till de poster och fält som är associerade med dem. </span>
+När du delar arbetsytor och posttyper med andra ärvs behörighetsnivån från posttypen automatiskt till de poster och fält som är kopplade till dem.
 
 >[!IMPORTANT]
 >
->Om din organisations instans av Workfront har registrerats för Adobe Unified Experience måste de användare som du vill dela Planning-objekt med läggas till i Adobe Admin Console. Du kan inte dela Planning-objekt med Workfront-användare som inte har lagts till i Adobe Admin Console.
+>Om din organisations instans av Workfront har registrerats i Adobe Unified Experience måste de användare som du vill dela planeringsobjekt med läggas till i Adobe Admin Console. Du kan inte dela planeringsobjekt med Workfront-användare som inte har lagts till i Adobe Admin Console.
 
 
 ## Att tänka på när du delar objekt i Adobe Workfront Planning
 
-* Din Adobe Workfront-licenstyp fungerar tillsammans med dina Workfront Planning-behörigheter så att du kan visa, bidra till eller hantera arbetsytor och deras objekt.
+* Din Adobe Workfront-licenstyp fungerar tillsammans med dina Workfront Planning-behörigheter för att ge dig tillgång till att visa, bidra eller hantera arbetsytor och deras objekt.
 
-  Mer information om hur licenstyperna påverkar behörighetsnivåer för Workfront Planning finns i [Översikt över licenstypen när du använder Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
-* Systemadministratörer kan hantera alla arbetsytor i systemet, inklusive de som de inte skapade.
-* Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan endast ges behörighet för att hantera en vy.
+  Mer information om hur licenstyper påverkar behörighetsnivåer för Workfront Planning finns i [Översikt över licenstyper när du använder Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+* Systemadministratörer kan hantera alla arbetsytor i systemet, även de som de inte har skapat.
+* Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan endast ges behörighet att hantera en vy.
 * Du kan dela en länk till en arbetsyta eller till en vy med andra.
 
   Följande scenarier finns:
    * Användare som får länken till en arbetsyta måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan.
    * Användare som får länken till en vy kan komma åt vyn på följande sätt:
 
-      * Måste vara aktiva användare och logga in på Workfront om länken till vyn delades internt.
-      * Kan vara externa användare till Workfront och få åtkomst till vyn via en offentlig delad länk, utan att logga in på Workfront.
+      * Måste vara aktiva användare och logga in på Workfront, om länken till vyn har delats internt.
+      * Kan vara externa användare till Workfront och komma åt vyn från en offentligt delad länk, utan att logga in på Workfront.
 
-## Delningsbehörigheter för Adobe Workfront Planning-objekt
+## Dela behörigheter för Adobe Workfront Planning-objekt
 
-Tabellerna i följande avsnitt visar vilken behörighetsnivå du kan välja när du delar en arbetsyta eller vy och vilka funktioner varje nivå tillåter.
+Tabellerna i följande avsnitt illustrerar den behörighetsnivå som du kan välja när du delar en arbetsyta eller en vy och vilka funktioner varje nivå tillåter.
 
 >[!IMPORTANT]
 >
->Alla användare kan inte ha de behörighetsnivåer som beskrivs nedan. Användarens individuella licens avgör vilken behörighetsnivå de kan få för Workfront Planning-objekt.
+>Alla användare kan inte ha de behörighetsnivåer som beskrivs nedan. Användarnas individuella licens avgör vilken behörighetsnivå de kan få för Workfront Planning-objekt.
 >
->Endast standardlicensanvändare (eller plananvändare) kan ha behörighet att hantera arbetsytor och behörigheter att hantera vyer i Contribute eller Hantera.
+>Endast användare med standardlicens (eller plan) kan ha behörigheten Delta eller Hantera till arbetsytor och Hantera behörigheter till vyer.
 > 
->Användare med alla andra licenstyper kan ha behörigheten Visa på arbetsytor och vyer.
+>Användare med alla andra licenstyper kan ha visningsbehörighet till arbetsytor och vyer.
 >
->Mer information finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+>Mer information finns i [Översikt över licenstyper när du använder Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Workspace-behörigheter
+### Behörigheter till arbetsytor
 
-Du måste ge användarna behörighet till arbetsytor för att de ska kunna få åtkomst till följande enheter:
+Du måste ge användare behörighet till arbetsytor för att de ska få åtkomst till följande entiteter:
 
 * Arbetsytor
-* Posttyper
-* Poster
+* Typer av poster
+* Arkiv
 * Fält
 
-Följande behörighetsnivåer gäller för arbetsytor:
+Följande är behörighetsnivåer för arbetsytor:
 
-|        | Hantera | Contribute | Visa |
+|        | Förvalta | Bidra | Utsikt |
 |--------|--------|------------|-------|
 | Redigera | ✓ |            |       |
-| Dela | ✓ |            |       |
+| Aktie | ✓ |            |       |
 | Ta bort | ✓ |            |       |
-| Visa | ✓ | ✓ | ✓ |
+| Utsikt | ✓ | ✓ | ✓ |
 
-### Posttypbehörigheter
+### Behörigheter till posttyper
 
-I produktionsmiljön ärvs alltid posttypsbehörigheter när du ger behörighet till arbetsytan.
+<!-- old access:
+In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
-Följande behörighetsnivåer gäller för posttyper:
+The following are the levels of permissions for record types: 
 
 
-|        | Hantera | Contribute | Visa |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Skapa | ✓ |            |       |
-| Ta bort | ✓ |            |       |
-| Redigera | ✓ |            |       |
-| Visa | ✓ | ✓ | ✓ |
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
 
-<div class="preview">
+-->
 
-I förhandsgranskningsmiljön kan du ta bort posttypens ärvda behörigheter som tagits emot från arbetsytan.
+Behörigheter för posttyp ärvs alltid när du beviljar behörigheter till arbetsytan.
 
-Du kan ge användarna lägre behörigheter för posttypen än de har på arbetsytan.
+Du kan ta bort posttypens ärvda behörigheter som du har fått från arbetsytan.
+
+Du kan ge användare lägre behörigheter för posttypen än de har på arbetsytan.
 
 Du kan dock inte göra följande:
 
 * Bevilja högre behörigheter för posttypen än vad användarna har på arbetsytan.
-* Ge arbetsytehanterare lägre behörigheter för en posttyp.
+* Ge arbetsrumsansvariga lägre behörigheter för en posttyp.
 * Ta bort visningsbehörigheter till posttypen eller arbetsytan genom att ta bort användare från posttypsbehörigheterna.
 
 Följande scenarier finns:
 
-| Workspace-behörigheter | Automatiskt ärvda behörigheter för en posttyp | Möjliga behörigheter för posttyp när ärvda behörigheter är inaktiverade (beviljas manuellt) |
+| Behörigheter för arbetsyta | Automatiskt ärvda behörigheter för en posttyp | Möjliga behörigheter för posttyp när ärvda behörigheter är avstängda (beviljas manuellt) |
 |--------|--------|-------------|
-| Hantera | Hantera | Hantera, ta bort behörigheter* |
-| Contribute | Contribute | Contribute, Visa, Ta bort behörigheter* |
-| Visa | Visa | Visa, ta bort behörigheter* |
+| Förvalta | Förvalta | Hantera, ta bort behörigheter* |
+| Contribute | Contribute | Behålla, visa, ta bort behörigheter* |
+| Utsikt | Utsikt | Visa, ta bort behörigheter* |
 
 >[!NOTE]
 >
 >*När du tar bort behörigheter från en posttyp behåller användarna fortfarande behörigheterna Visa på arbetsytan och alla posttyper, såvida du inte tar bort deras behörigheter från arbetsytan.
 
-</div>
+### Behörigheter till poster
 
-### Spela in behörigheter
-
-Postbehörigheter ärvs från <span class="preview">posttypen</span> när du beviljar behörigheter till arbetsytan och <span class="preview">posttypen</span>.
+Postbehörigheter ärvs från posttypen när du ger behörighet till arbetsytan och posttypen.
 
 Följande behörighetsnivåer gäller för poster:
 
 
-|        | Hantera | Contribute | Visa |
+|        | Förvalta | Bidra | Utsikt |
 |--------|--------|------------|-------|
 | Skapa | ✓ | ✓ |       |
 | Ta bort | ✓ | ✓ |       |
 | Redigera | ✓ | ✓ |       |
-| Visa | ✓ | ✓ | ✓ |
+| Utsikt | ✓ | ✓ | ✓ |
 
-### Fältbehörigheter
+### Behörigheter att registrera fält
 
-Fältbehörigheter ärvs från <span class="preview">posttypen</span> när du beviljar behörigheter till arbetsytan och <span class="preview">posttypen</span>.
+Fältbehörigheter ärvs från posttypen när du ger behörighet till arbetsytan och posttypen.
 
 Följande behörigheter refererar till själva fälten och inte till värdena som associeras med varje fält. Om du vill redigera fältvärden måste du ha behörighet att redigera poster.
 
-|        | Hantera | Contribute | Visa |
+|        | Förvalta | Contribute | Visa |
 |--------|--------|------------|-------|
 | Skapa | ✓ |            |       |
 | Ta bort | ✓ |            |       |
 | Redigera | ✓ |            |       |
-| Visa | ✓ | ✓ | ✓ |
+| Utsikt | ✓ | ✓ | ✓ |
 
 
-### Visa behörigheter
+### Behörigheter till vyer
 
-Du måste tilldela separata behörigheter för att spela in vyer. Om du ger behörighet till arbetsytan ges inte behörighet till postvyerna på arbetsytan.
+Du måste ge separata behörigheter för att spela in vyer. Att bevilja behörigheter till arbetsytan ger inte behörighet till postvyerna på arbetsytan.
 
-Du måste ge användarna behörighet att visa vyer för att de ska ha tillgång till följande vyelement:
+Du måste ge användarna behörighet till vyer för att de ska få åtkomst till följande vyelement:
 
 * Filter
-* Fältsynlighet
+* Synlighet i fält
 * Sortera
 * Gruppering
 * Radhöjd
 * Inställningar
 
-Du kan dela vyer internt eller offentligt.
+Du kan dela åsikter internt eller offentligt.
 
-Följande behörighetsnivåer gäller för vyer och visningselement:
+Följande är behörighetsnivåerna för vyer och vyelement:
 
-| Intern delning | Hantera (Endast inbjudna personer kan komma åt) | Visa (Endast inbjudna personer kan komma åt) | Alla på arbetsytan kan visa* |
+| Intern delning | Hantera (endast inbjudna personer har åtkomst) | Visa (endast inbjudna personer har åtkomst) | Alla på arbetsytan kan visa* |
 |--------|--------|-------|------------------------------|
 | Redigera | ✓ |       |                            |
 | Ta bort | ✓ |       |                            |
-| Dela | ✓ |       |                           |
-| Visa | ✓ | ✓ | ✓ |
-| Använd | ✓ | ✓ | ✓ |
+| Aktie | ✓ |       |                           |
+| Utsikt | ✓ | ✓ | ✓ |
+| Använda | ✓ | ✓ | ✓ |
 
-| Offentlig delning | Visa |
+| Offentlig delning | Utsikt |
 |--------|-------|
-| Visa | ✓ |
-| Använd | ✓ |
+| Utsikt | ✓ |
+| Använda | ✓ |
 
-*Användarna måste ha behörigheten Visa eller högre för en arbetsyta för att få åtkomst till vyn.
+*Användare måste ha visningsbehörighet eller högre behörighet till en arbetsyta för att få åtkomst till den här vyn.
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |

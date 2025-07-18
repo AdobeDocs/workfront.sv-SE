@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '1973'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 >[!IMPORTANT]
 >
@@ -166,14 +166,13 @@ The following features are currently available in Workfront Planning:
 
 När din organisation har köpt ett Workfront Planning-paket måste du som Workfront-administratör se till att följande finns innan användarna kan komma åt Workfront Planning:
 
-* Beroende på vilken miljö du använder tilldelar du följande användare en layoutmall som innehåller Planering på huvudmenyn:
+* Tilldela följande användare en layoutmall som innehåller Planering på huvudmenyn:
 
-   * I produktionsmiljön tilldelar du mallen till alla användare av alla licenstyper, inklusive systemadministratörer.
+   * Tilldela layoutmallen till Light- och Contribute-användare.
 
-   * <span class="preview">I förhandsvisningsmiljön tilldelar du mallen till Light- och Contribute-användare. Standardanvändare och systemadministratörer har Planering aktiverat som standard. </span>
+     Standardanvändare och systemadministratörer har Planering aktiverat som standard.
 
   Mer information finns i [Anpassa huvudmenyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) och [Tilldela användare till en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
-
 
 * Tilldela användare en Workfront-licens och Workfront Planning-behörigheter som gör att de kan visa eller skapa objekt i Workfront Planning. Mer information om hur du beviljar åtkomst till och aktiverar andra för att använda Workfront Planning finns i [Åtkomstöversikt för Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -325,7 +324,6 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
      ![Gruppering används i tidslinjevyn](assets/grouping-applied-in-timeline-view.png)
 
    * **Kalendervy**: Visar poster som har minst två datumtypsfält i ett kalenderformat.
-
      ![Exempel på kalendervy](assets/calendar-view-example.png)
 
 
@@ -397,7 +395,7 @@ En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering 
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 

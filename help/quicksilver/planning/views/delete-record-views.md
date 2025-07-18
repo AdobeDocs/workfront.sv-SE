@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
 
 # Ta bort postvyer
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -29,8 +29,6 @@ Vyn tas bort för alla användare som har behörighet att komma åt den. Det gå
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,11 +83,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>   <p>Hantera behörigheter till en vy</p>  
    <p>Visa behörigheter till en vy om du tillfälligt vill ändra visningsinställningarna eller duplicera den</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p></td> 
-  </tr> 
 </tbody> 
 </table>
 
@@ -111,9 +104,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. <span class="preview">Hovra över ett av vynamnen på fliken Visa och klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) till vänster om vynamnet. Klicka sedan på **Ta bort**.</span>
+1. Håll markören över ett av vynamnen på fliken Visa, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
 
-   <span class="preview">![Visa mer meny i en postvy](assets/view-more-menu-with-duplicate-option.png)</span>
+   ![Visa mer meny i en postvy](assets/view-more-menu-with-duplicate-option.png)
 
    >[!TIP]
    >

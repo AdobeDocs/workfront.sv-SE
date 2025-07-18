@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -104,8 +104,8 @@ Du måste ha följande åtkomst för att få åtkomst till Workfront Planning:
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <ul>
-   <li><p>Visa eller högre behörigheter för arbetsytor, <span class="preview">posttyper</span> och vyer som du inte har skapat för att komma åt dem och deras objekt.</p></li>
-   <li><p>Contribute eller högre behörigheter för arbetsytorna <span class="preview">och posttyperna</span> som du inte skapade för att redigera dem och skapa, redigera eller ta bort posttyper och poster.</p></li>
+   <li><p>Visa eller högre behörigheter för arbetsytor, posttyper och vyer som du inte har skapat för att komma åt dem och deras objekt.</p></li>
+   <li><p>Contribute eller högre behörigheter för arbetsytor och posttyper som du inte skapat för att redigera dem samt skapa, redigera eller ta bort posttyper och poster.</p></li>
    <li><p>Contribute eller högre behörigheter för vyer som du inte har skapat, för att redigera, ta bort och dela dem</p>
    </li>
     <li><p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p></li>
@@ -116,16 +116,14 @@ Du måste ha följande åtkomst för att få åtkomst till Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p>
 <p> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning-alternativet i följande områden:</p>
    <ul><li>Huvudmeny</li>
    <li>Vänster panel med projekt, portfolior och program</li>
    </ul>
    <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Skapa och hantera layoutmallar</a>.</p>
-   </div>
-   <p><b>ANMÄRKNING</b></p>
-   <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning-områdena.</p>
+
 </td>
   </tr>
  </tbody>
@@ -145,16 +143,12 @@ När din organisation har köpt ytterligare en Workfront Planning-licens kan din
 * Panelen Vänster för projekt, portfolior och program
 * Stift
 
-<div class="preview">
-
 Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard i följande områden:
 
 * Huvudmeny
 * Vänster panel med projekt, portfolior eller program
 
-</div>
-
-Så här lägger du till <span class="preview"> eller tar bort </span> Workfront Planning-områden från användare av din Workfront-instans:
+Så här lägger du till eller tar bort Workfront Planning-områden från användare av din Workfront-instans:
 
 1. Logga in på **Workfront** som Workfront-administratör.
 

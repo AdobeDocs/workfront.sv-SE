@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Mer information om Adobe Workfront Planning-vyer och hur du hanterar dem finns i
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td><p> Standard för att skapa och ta bort vyer</p>
+   <p>Medarbetare eller högre för att uppdatera vyelement</p>
    <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
@@ -81,6 +81,12 @@ Mer information om Adobe Workfront Planning-vyer och hur du hanterar dem finns i
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
    <p>Visa behörigheter till en vy om du tillfälligt vill ändra visningsinställningarna eller duplicera den</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning.
+   <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p></div></li></ul>
+</td>
   </tr>
 
 </tbody> 

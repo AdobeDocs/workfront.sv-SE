@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hantera postvyer
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -53,8 +53,6 @@ Mer information om hur du hanterar postvyer i Workfront Planning finns i följan
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,7 +93,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Standard för att skapa och ta bort vyer</p>
+   <p>Medarbetare eller högre för att uppdatera vyelement</p>
    <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
@@ -109,11 +108,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>   <p>Hantera behörigheter till en vy</p>  
    <p>Visa behörigheter till en vy om du tillfälligt vill ändra visningsinställningarna eller duplicera den</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning.
+   <p>Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,7 +160,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Visa poster i en kalender |           |              | ✓ |
 | Gruppposter | ✓ | ✓ |
 | Sortera poster | ✓ |              |
-| <span class="preview">Färgkodsposter</span> | <span class="preview">✓</span> | ✓ | ✓ |
+| Färgkodsposter | ✓ | ✓ | ✓ |
 | Färgkodsgrupperingar |           | ✓ |
 | Sök efter specifika poster | ✓ | ✓ |
 | Dela vyn med andra | ✓ | ✓ | ✓ |
@@ -168,7 +168,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Visa poster per år och kvartal |           | ✓ |    |
 | Visa poster per månad |           | ✓ | ✓ |
 | Visa poster per vecka |           |               | ✓ |
-| <span class="preview">Exportera information från en vy</span> | <span class="preview">✓</span> |               |    |
+| Exportera information från en vy | ✓ |               |    |
 
 
 ## Skapa eller redigera vyer {#create-or-edit-views}

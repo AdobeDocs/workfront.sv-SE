@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Lägga till en omslagsbild till en post
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -33,8 +33,6 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,11 +54,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <p>Något av följande Workfront-planer:</p> 
 <ul><li>Välj</li> 
 <li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+<li>Sist</li></ul> 
+<p>Workfront Planning är inte tillgängligt för äldre Workfront-planer</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planeringspaket*</p></td> 
    <td> 
 <p>Alla </p> 
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront. </p> 
@@ -69,14 +67,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience för Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td role="rowheader"><p>Licens för Adobe Workfront*</p></td> 
    <td><p> Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+   <p>Workfront Planning är inte tillgängligt för äldre Workfront-licenser</p> 
   </td> 
   </tr> 
   <tr> 
@@ -86,13 +84,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Contribute eller högre behörighet till en arbetsyta <span class="preview">och posttyp</span>  </p>  
+   <td>   <p>Contribute eller högre behörighet för en arbetsyta och en posttyp  </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layoutmall</p></td> 
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -110,7 +103,7 @@ Tänk på följande:
 * En omslagsbild är unik för en post och gäller inte för alla poster av samma typ.
 * Du kan bara lägga till bildfiler som omslagsbilder.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* Du kan lägga till en omslagsbild till enskilda poster från postförhandsvisningen i valfri vy eller från postsidan.
+* Du kan lägga till en omslagsbild till enskilda poster från förhandsgranskningen av posten i vilken vy som helst eller från postsidan.
 * Du kan inte lägga till omslagsbilder från en postvy.
 * Workfront laddar automatiskt upp en omslagsbild varje gång du skapar en post. Du kan ändra den här bilden senare.
 
@@ -122,13 +115,13 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
 
 1. Klicka på arbetsytan vars poster du vill anpassa,
 
-   eller
+   Eller
 
-   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
+   Från en arbetsyta expanderar du den nedåtpekande pilen till höger om ett befintligt arbetsytenamn, söker efter en arbetsyta och väljer den sedan när den visas i listan.
 
    Arbetsytan öppnas och posttyperna visas.
 
-1. Klicka på ett posttypskort.
+1. Klicka på ett kort för en posttyp.
 
    Posttypssidan öppnas.
 
@@ -143,15 +136,15 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
    ![Förhandsgranskningsruta för detaljer](assets/details-box.png)
 
 
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna på ny flik ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsvisningen för att öppna postens sida på en ny flik.
+1. (Valfritt) **Klicka på ikonen**&#x200B;Öppna i ny flik![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i den övre högra hörnet av förhandsgranskningen av posten för att öppna postens sida på en ny flik.
 
    Postsidan öppnas.
 
-   ![Informationssida](assets/details-page.png)
+   ![Sidan Detaljer](assets/details-page.png)
 
-1. Håll markören över utrymmet ovanför postens namn på sidan för förhandsgranskning eller information av poster och klicka sedan på **Lägg till omslag**.
+1. På förhandsgranskningen av posten eller på informationssidan håller du muspekaren över utrymmet ovanför postens namn och klickar sedan på **Lägg till omslag**.
 
-   eller
+   Eller
 
    Håll pekaren över en befintlig omslagsbild, klicka på menyn **Mer** ![Mer](assets/more-menu.png) och klicka sedan på **Överför**. <!--check the casing here; I logged a bug for this-->
 Rutan **Postomslag** öppnas på fliken **Överför** .
@@ -160,9 +153,9 @@ Rutan **Postomslag** öppnas på fliken **Överför** .
 
 1. Klicka på **Bläddra bland bilder** och bläddra efter en bild på datorn för att markera och lägga till den.
 
-1. (Valfritt) Om du vill ta bort bilden innan den sparas klickar du på ikonen **Överför ny bild** ![Överför ny bild](assets/upload-new-image-icon.png) och överför en ny bild.
+1. (Valfritt) Om du vill ta bort bilden innan den sparas klickar du på **ikonen**![ Ladda upp ny bild](assets/upload-new-image-icon.png) Ladda upp ny bild och laddar upp en ny bild.
 
-1. (Valfritt) Klicka på fliken **Galleri** och sedan på en bild i bildgalleriet. Det går inte att ändra bildgalleriet.
+1. (Valfritt) Klicka på fliken Galleri **** och klicka sedan på en bild i bildgalleriet. Bildgalleriet kan inte ändras.
 
    ![Spela in omslagsruta för galleriet](assets/record-cover-box-for-gallery.png)
 

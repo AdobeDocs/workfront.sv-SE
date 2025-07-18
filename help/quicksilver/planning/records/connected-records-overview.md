@@ -6,22 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # Översikt över anslutna poster
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>  -->
 
 {{planning-important-intro}}
 
-Du kan ansluta Adobe Workfront Planning-poster till varandra eller till objekt från andra program.
+Du kan koppla Adobe Workfront Planning-poster till varandra eller till objekt från andra program.
 
 I den här artikeln beskrivs överväganden som du måste ta hänsyn till när du ansluter poster i Adobe Workfront Planning.
 
@@ -39,10 +39,10 @@ Mer information om hur du kan ansluta poster till varandra eller till ett annat 
   Om du till exempel länkar posttypen för Produkt från posttypen för Campaign kan du visa produktfält för kampanjer samt kampanjfält för produkter.
 * Du kan inte uppdatera värdena för uppslagsfält manuellt på de poster som du länkar från.
 
-  Värdena för sökfälten fyller i den Workfront Planning-post som du länkar från automatiskt när de har uppdaterats på den ursprungliga posten eller objektet.
+  Värdena i uppslagsfälten fylls i Workfront Planning-posten som du länkar från automatiskt när de har uppdaterats på den ursprungliga posten eller det ursprungliga objektet.
 
-* Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan <span class="preview"> och en posttyp</span> kan se anslutningarna som du gör mellan poster eller mellan poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
-* Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan <span class="preview"> och posttypen </span> där de anslutna posterna finns.
+* Alla som har åtkomst till Workfront Planning and View eller högre behörighet till arbetsytan och en posttyp kan se de anslutningar som du gör mellan poster eller mellan poster och andra programobjekt. De kan visa kopplade poster och objekt oavsett deras behörigheter i de program du ansluter till.
+* Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan och posttypen där de anslutna posterna finns.
 * Du kan ansluta en post till en eller flera objekt från ett annat program, beroende på vilken typ av anslutning du valde när du kopplade posttyperna. Mer information finns i avsnittet Anslutningstyper i artikeln [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Områden där du kan koppla poster
@@ -54,9 +54,9 @@ Du kan koppla poster till andra poster eller till objekt från andra program i f
    * De kopplade postfälten i tabellvyn för en posttyp i Planning.
    * Postens förhandsgranskning eller sida i de anslutna postfälten på fliken Information.
    * Postens förhandsgranskning eller sida på fliken Anslutningar.
-   * Postens sida på sidan <span class="preview">Anslutna poster</span> på en ansluten post.
+   * Postens sida på fliken Anslutna poster i en ansluten post.
 
-* Du kan ansluta Workfront-objekt till Workfront Planning-poster i följande områden i Workfront:
+* Du kan koppla Workfront-objekt till Workfront Planning-poster i följande områden i Workfront:
 
    * Planeringsdelen av ett Workfront-objekt.
    * Ett Planning-anslutningsfält i ett Workfront-objekts anpassade formulär.

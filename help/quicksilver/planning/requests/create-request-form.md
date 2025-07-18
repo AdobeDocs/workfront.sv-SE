@@ -3,12 +3,12 @@ title: Skapa och hantera ett begärandeformulär i Adobe Workfront Planning
 description: När du har valt en posttyp i Adobe Workfront Planning kan du skapa ett begärandeformulär och associera det med den posttypen. Du kan sedan dela en länk till den med andra interna eller externa användare. Användare som har en länk till formuläret kan fylla i fältvärdena på det och genom att skicka det kan de lägga till en ny post för den posttyp som är associerad med det.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Mer information om hur du skickar en begäran till en posttyp för att skapa en 
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto">
  <col>
@@ -93,18 +91,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
    <ul>
-   <li><p>Hantera behörigheter till en arbetsyta <span class="preview">och posttyp</span> </p></li>
+   <li><p>Hantera behörigheter till en arbetsyta och en posttyp</p></li>
     <li><p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p></li>
     </ul>
    <p>Information om delningsbehörigheter för Workfront Planning-objekt finns i  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Översikt över delningsbehörigheter i Adobe Workfront Planning</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>I produktionsmiljön måste alla användare, inklusive systemadministratörer, tilldelas en layoutmall som innehåller Planning.</p>
-<p><span class="preview">I förhandsvisningsmiljön har standardanvändare och systemadministratörer Planering aktiverat som standard.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -124,8 +116,8 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
    * Du kan inte lägga till fält av följande typer i ett begärandeformulär:
 
-      * Skapad av och senast ändrad av <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
-      * Skapad den och senast ändrad den <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
+      * Skapad av, senast ändrad av, <span class="preview">Godkänd av</span>
+      * Skapad den, senast ändrat den, <span class="preview">Godkänt den</span>
       * Formel
       * Workfront-objektens sökfält
       * Sökfält för Workfront Planning-anslutna poster
@@ -229,6 +221,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
      Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
    Följande saker händer:
@@ -236,47 +229,11 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    * Knappen **Publicera** har tagits bort.
    * Knappen **Avpublicera** läggs till i formuläret. Om du klickar på den går det inte att komma åt formuläret.
    * En **Dela**-knapp läggs till i formuläret.
+   * Formuläret blir tillgängligt under Begäranden på huvudmenyn i Workfront.
 
 1. Klicka på **Dela** om du vill dela formuläret med andra.
 
-   ![Delningsruta för begärandeformulär](assets/share-box-for-request-form.png)
-
-1. (Villkorligt) Välj bland följande alternativ i produktionsmiljön för att ange vilka typer av användare som har åtkomst till det här formuläret:
-
-   * Alla som visar eller har högre åtkomst till arbetsytan
-   * Alla som har Contribute eller senare åtkomst till arbetsytan
-   * Alla med länken
-
-   >[!WARNING]
-   >
-   >* När du väljer **Vem som helst med länken** kan vem som helst få åtkomst till formuläret och skicka en ny post, även personer utanför organisationen som inte har något Workfront-konto.
-   >
-   >* Ett formulär som innehåller följande fälttyper kan inte delas offentligt:
-   >
-   >     * Workfront- eller AEM Assets-anslutningar
-   >     * Folk
-   >
-
-1. (Villkorligt) Om du i produktionsmiljön har markerat **Vem som helst med länken** i det föregående steget, väljer du **länkens förfallodatum** i den tillgängliga kalendern.
-
-   Användarna får ett felmeddelande när länken har upphört att gälla och du måste uppdatera länkdatumet och generera en ny länk som de kan dela innan de kan komma åt formuläret igen.
-
-   Du kan välja framtida datum inom 180 dagar från dagens datum.
-
-   >[!TIP]
-   >
-   >Efter att delningsdatumet har gått ut är förfrågningsformuläret inte längre tillgängligt i området Begäranden i Workfront och länkarna som delas med andra användare är inte längre tillgängliga.
-
-1. (Valfritt och villkorligt) Klicka på **Spara och kopiera länken** i produktionsmiljön om du vill spara delningsinformationen för formuläret. Om formuläret har sparats tidigare klickar du på **Kopiera länk**.
-
-   Alternativen för formulärdelning sparas och länken kopieras till Urklipp. Nu kan du dela den med andra.
-
-   Mer information om hur du skapar poster med hjälp av en länk till ett begärandeformulär finns i [Skicka Adobe Workfront Planning-begäranden](/help/quicksilver/planning/requests/submit-requests.md).
-
-1. <span class="preview">(Villkorligt) Om du vill dela med användare i förhandsvisningsmiljön väljer du fliken Intern delning, söker efter användarens namn och markerar det när det visas i listan.</span>
-1. <span class="preview">(Villkorligt) Om du vill skapa en offentlig länk i förhandsvisningsmiljön väljer du fliken Offentlig delning och aktiverar sedan alternativet Skapa offentlig länk. Du kan sedan kopiera länken här eller ange ett förfallodatum för länken.</span>
-1. Klicka på **Spara** i det nedre högra hörnet på fliken **Formulär** för att spara formuläret.
-
+   Mer information om hur du delar ett begärandeformulär finns i avsnittet [Dela ett begärandeformulär](#share-a-request-form) i den här artikeln
 1. Klicka på vänsterpilen till vänster om formulärets namn i rubriken för att stänga formuläret.
 
    Tabellvyn **Begär formulär** öppnas och formuläret läggs till i den.
@@ -291,7 +248,6 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
    ![Mer meny i begärandeformulär från listan över begärandeformulär](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
@@ -302,3 +258,54 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
 1. (Valfritt) Gå till området **Begäranden** i Workfront och leta reda på det delade formuläret för att skicka en begäran. Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
+## Dela ett begärandeformulär
+
+1. Skapa ett begärandeformulär enligt beskrivningen i avsnittet [Skapa ett begärandeformulär för en posttyp](#create-a-request-form-for-a-record-type) i den här artikeln.
+1. Klicka på **Mer**-menyn ![Mer-menyn](assets/more-menu.png) till höger om begärandeformulärets namn på posttypens sida.
+1. Klicka på **Dela** om du vill dela formuläret med andra.
+
+1. Om du vill dela formuläret internt väljer du fliken **Intern delning**, söker efter namnet på en användare, ett team, en jobbroll, en grupp eller ett företag i fältet **Bevilja åtkomst för att skicka det här formuläret** och markerar det när det visas i listan. Behörigheten **Skicka** är markerad som standard för varje entitet.
+
+   ![Delningsruta för begärandeformulär](assets/share-box-for-request-form.png)
+
+1. (Valfritt) Klicka på listrutan efter namnet på en entitet och klicka sedan på **Ta bort** för att ta bort dem från listan och sluta dela formuläret med dem.
+
+1. I avsnittet **Vem kan skicka begäranden via det här formuläret** väljer du bland följande alternativ för att ange vilka typer av användare som kan få åtkomst till det här formuläret:
+
+   * Endast inbjudna personer har åtkomst
+   * Alla som visar eller har högre åtkomst till arbetsytan
+   * Alla som har Contribute eller senare åtkomst till arbetsytan
+1. (Valfritt) Klicka på **Kopiera länk** om du vill dela länken till formuläret med personer som har behörighet att göra det. Länken kopieras till Urklipp.
+1. Om du vill dela formuläret offentligt väljer du fliken **Offentlig delning** och aktiverar sedan inställningen **Skapa offentlig länk** .
+
+   ![Offentlig delning för begärandeformulär](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* När du aktiverar inställningen **Skapa offentlig länk** kan vem som helst få åtkomst till formuläret och skicka en ny post, även personer utanför organisationen som inte har något Workfront-konto.
+   >
+   >* Ett formulär som innehåller följande fälttyper kan inte delas offentligt:
+   >
+   >     * Workfront- eller AEM Assets-anslutningar
+   >     * Folk
+   >
+
+1. Välj ett **länkförfallodatum**.
+
+   Du kan välja framtida datum inom 180 dagar från dagens datum.
+
+   >[!TIP]
+   >
+   >Efter att delningsdatumet har gått ut är förfrågningsformuläret inte längre tillgängligt i området Begäranden i Workfront och länkarna som delas med andra användare är inte längre tillgängliga.
+
+   Användarna får ett felmeddelande när länken har upphört att gälla och du måste uppdatera länkdatumet och generera en ny länk som de kan dela innan de kan komma åt formuläret igen.
+
+
+1. (Valfritt och villkorligt) Klicka på **Spara** för att spara delningsinformationen för formuläret.
+1. (Villkorligt) Om formuläret har sparats tidigare klickar du på **Kopiera länk**.
+
+   Alternativen för formulärdelning sparas och länken kopieras till Urklipp. Nu kan du dela den med andra.
+
+   Mer information om hur du skapar poster med hjälp av en länk till ett begärandeformulär finns i [Skicka Adobe Workfront Planning-begäranden](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Klicka på **Spara** i det nedre högra hörnet på fliken **Formulär** för att spara formuläret.
