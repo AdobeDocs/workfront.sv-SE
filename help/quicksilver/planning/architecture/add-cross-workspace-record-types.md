@@ -4,9 +4,9 @@ description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Work
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,6 @@ Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Poster
    * Postanslutningar
 
-## Skapa en posttyp från en befintlig global posttyp
+* Du kan bara redigera posttypen, inklusive dess fält, på den ursprungliga arbetsytan. Du kan inte redigera den från arbetsytorna där den lades till.
 
-1. Börja skapa en posttyp enligt beskrivningen i artikeln [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md) och klicka sedan på **Använd global posttyp**. <!--check this - the option might have been renamed in the UI-->
+## Skapa en posttyp från en befintlig posttyp
+
+1. Börja skapa en posttyp enligt beskrivningen i artikeln [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md) och klicka sedan på **Lägg till befintlig**. <!--check this - the option might have been renamed in the UI-->
+
+   ![Modal för att lägga till posttyp med möjlighet att importera från en annan arbetsyta](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. Klicka på **Fortsätt**.
+1. I rutan **Välj posttyp** klickar du på kortet för den posttyp som du vill lägga till från en befintlig arbetsyta och sedan på **Lägg till**.
+
+   Posttypen läggs till på arbetsytan som du valde och följande saker händer:
+
+   * Posttypen **för** arbetsytan  ikon ![Anslutningsikonen för arbetsytan](assets/global-icon.png) läggs till på kortet för den importerade posttypen.
+   * Det skrivskyddade fältet **Workspace** läggs till i den importerade posttypen. Fältet visar vilken arbetsyta varje post skapades i.
+
+     >[!NOTE]
+     >
+     >* Du kan inte redigera den importerade posttypen eller dess fält. Du kan redigera posttypen och dess fält från den ursprungliga arbetsytan.
+
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på den importerade posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
+1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
+
+   Detta tar bort den importerade posttypen från den markerade arbetsytan. Den ursprungliga posttypen och dess fält finns kvar på den ursprungliga arbetsytan.
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+

@@ -4,9 +4,9 @@ description: Du kan aktivera en posttyp som antingen ska läggas till på en ann
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Mer information finns i följande artiklar:
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -117,7 +115,7 @@ Så här konfigurerar du att lägga till en posttyp på en annan arbetsyta när 
 
 {{step1-to-planning}}
 
-1. Klicka på arbetsytan vars posttyper du vill redigera,
+1. Klicka på arbetsytan vars posttyper du vill redigera.
 
    Arbetsytans sida öppnas och posttyperna visas.
 1. Gör något av följande:
@@ -134,11 +132,11 @@ eller
 
    ![Redigera posttyp Avancerade inställningar med Lägg till i andra arbetsytor aktiverar](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. I fältet **Välj vem som kan lägga till den här posttypen i arbetsytor som de hanterar** lägger du till användare som du vill lägga till den här posttypen i arbetsytor som de hanterar.
+1. I fältet **Välj vem som kan lägga till den här posttypen i arbetsytor som de hanterar** lägger du till användare som du vill tillåta att den här posttypen läggs till i arbetsytor som de hanterar.
 
    Ditt namn läggs automatiskt till i fältet.
 
-   Du kan lägga till enskilda användare, eller grupper, team, jobbroller eller företag vars användare du vill lägga till den här posttypen i de arbetsytor som de hanterar.
+   Du kan lägga till enskilda användare, eller grupper, team, jobbroller eller företag vars användare du vill tillåta att den här posttypen läggs till på de arbetsytor som de hanterar.
 
    Du kan redigera det här fältet när du har sparat posttypen.
 1. (Valfritt) Ta bort ditt namn från fältet **Välj vem som kan lägga till den här posttypen i arbetsytor som de hanterar**.
@@ -148,6 +146,11 @@ eller
    Följande saker händer:
 
    * Posttypen och dess fält är nu tillgängliga och kan läggas till på en annan arbetsyta av de personer du har angett.
+
+   >[!NOTE]
+   >
+   >Du kan bara redigera posttypen och dess fält från den ursprungliga arbetsytan.
+
    * På posttypskortet visas en global ikon, ![Global posttypsikon](assets/global-icon.png), som anger att posttypen är tillgänglig för alla arbetsytor vars hanterare du har angett i konfigurationen.
    * Ett systemgenererat **Workspace**-fält läggs till i posttypen.
 
@@ -155,7 +158,7 @@ eller
 
      Det här fältet är skrivskyddat och kan inte tas bort.
 
-## Konfigurera anslutning till en posttyp i andra arbetsytor
+## Konfigurera anslutning till en posttyp från andra arbetsytor
 
 Du kan konfigurera en posttyp att ansluta till från andra arbetsytor när du skapar eller redigerar posttypen.
 
@@ -175,7 +178,7 @@ eller
    ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
 1. I rutan **Redigera posttyp** väljer du fliken **Avancerade inställningar** .
-1. Aktivera inställningen **Tillåt anslutning till den här posttypen från andra arbetsytor**. <!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. Aktivera inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Redigera posttyp Avancerade inställningsflikar med anslutning från andra arbetsytor aktiverat](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -191,6 +194,11 @@ eller
 
    * Posttypen och dess fält är nu tillgängliga för anslutning från de arbetsytor du har angett.
    * Posttypkortet visar en ikon för anslutning mellan arbetsytor ![Anslutning mellan arbetsytor](assets/connect-from-other-workspaces-icon.png) som anger att posttypen är tillgänglig för anslutning från en arbetsyta som du har angett i konfigurationen.
+
+   Posttypen blir tillgänglig för anslutning från de angivna arbetsytorna.
+
+
+
 
 
 
