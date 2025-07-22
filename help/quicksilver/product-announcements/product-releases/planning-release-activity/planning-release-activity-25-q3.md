@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
+source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ En lista över alla funktioner som släppts för Adobe Workfront Planning finns 
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Produktion för alla: 10 juli 2025
+>>Produktion för alla: 10 juli 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
 
 
 Fliken Avancerade inställningar har uppdaterats när en posttyp skapas eller redigeras.
@@ -44,7 +45,8 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Produktion för alla: 10 juli 2025
+>>Produktion för alla: 10 juli 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
 
 Nu när du lägger till ett team i en arkivkommentar i Workfront Planning får alla teammedlemmar både ett meddelande i appen och ett e-postmeddelande om kommentaren. Före den här förbättringen meddelades endast användare som lagts till i kommentarer individuellt.
 
@@ -55,8 +57,8 @@ Mer information finns i Hantera postkommentarer [Hantera postkommentarer](/help/
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla: 16 oktober 2025
 
 
 När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.
@@ -72,7 +74,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 >[!NOTE]
 >
 >Förhandsgranska: 9 juli 2025
->&#x200B;>Produktion för alla: 17 juli 2025
+>>Produktion för alla: 17 juli 2025
 
 Nu kan du dela en vy samt en posttyp från samma knapp på posttypens sida. Före den här förbättringen kunde du bara dela posttypen från knappen Dela på posttypssidan och en vy från vyfliken.
 
@@ -118,7 +120,7 @@ För att göra upplevelsen av att dela ett begärandeformulär i Workfront Plann
 * Vi har tagit bort alternativen för att hantera och bidra för användare som du delar frågeformuläret med. Nu kan tillagda användare bara skicka formuläret.
 * Fliken för offentlig delning visar nu fältet för länk och förfallodatum när alternativet Skapa offentlig länk har aktiverats.
 
-Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandera och komprimera alla grupperingar i tabellvyn
 
@@ -145,6 +147,7 @@ Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/man
 >
 >* Förhandsgranska: 26 juni 2025
 >* Produktion för alla: 26 juni 2025
+>  >[!BADGE Frånschemat ]{type=Neutral}
 
 När du kopplar posttyper och infogar ett formelfält som en sökning kan du nu använda sammanställningsfunktionerna (SUM, AVERAGE, MIN, MAX osv.) beroende på formelfältets format. Om t.ex. formelfältet är numeriskt kan du använda funktioner som SUM eller AVG. Om formelfältet är formaterat som text används inte sammanställningsfunktioner som SUM.
 
@@ -179,8 +182,8 @@ Mer information finns i [Aktivera anpassade kvartal för projekt](/help/quicksil
 >[!NOTE]
 >
 >* Förhandsgranska: 12 juni 2025
->* Production fast release: 12 juni 2025
->* Produktion för alla kunder: 12 juni 2025
+>* Produktion för alla: 12 juni 2025
+>  >[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har infört en förbättring som uppdaterar alla formelfält som är beroende av varandra samtidigt efter att ett refererat fält har uppdaterats manuellt. Formelfält som är 2, 3 eller 4 fält från fältet vars värde ändras manuellt och som refererar till varandra uppdateras nu automatiskt samtidigt.
 
@@ -193,8 +196,8 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 >[!NOTE]
 >
 >* Förhandsgranskning: 6 juni 2025
->* Production fast release: 6 juni 2025
 >* Produktion för alla kunder: 6 juni 2025
+>  >[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till följande uttryck i formelfält:
 
@@ -238,7 +241,7 @@ Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att sk
 >
 >* Förhandsgranska: 22 maj 2025
 >* Production fast release: 12 juni 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 Vi har ändrat upplevelsen när du delar upp poster i tidslinjevyn och du har använt vyn Kompakt.
 Med den nya uppdateringen ombeds du, när du definierar dina brytningsobjekt medan du visar tidslinjen i kompakt läge, att växla till standardvyn när du har avslutat konfigurationen av brytningsvillkoren.
@@ -255,7 +258,7 @@ Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/
 >
 >* Förhandsgranska: 15 maj 2025
 >* Production fast release: 12 juni 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 Nu kan du formatera postfältens utseende och känsla i tidslinjevyn för posterna i detaljerna. Du kan uppdatera följande inställningar för fälten i dessa poster:
 
@@ -272,7 +275,7 @@ Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/
 >
 >* Förhandsgranska: 15 maj 2025
 >* Production fast release: 12 juni 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 Vi har lagt till en ny funktion i Workfront Planning där du kan exportera information som visas i tabellvyn till en CSV- eller Excel-fil.  
 
@@ -290,7 +293,7 @@ Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/man
 >
 >* Förhandsgranska: 15 maj 2025
 >* Production fast release: 12 juni 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 Du kan nu fylla i värdena för anslutna fält när du lägger till poster till en posttyp med hjälp av en CSV- eller Excel-fil.  Endast anslutna planeringspostfält stöds. Fält som visar anslutningar till andra program stöds inte.
 
@@ -310,7 +313,7 @@ Mer information finns i följande artiklar:
 >
 >* Förhandsgranska: 30 april 2025
 >* Production fast release: 15 maj 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 Nu kan du redigera poster på sidan Anslutna poster i en post. Med den här uppdateringen har vi infört följande:
 
@@ -327,7 +330,7 @@ Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/r
 >
 >* Förhandsgranska: 30 april 2025
 >* Production fast release: 15 maj 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 Standard- och systemadministratörsanvändare kan nu som standard hitta planeringsområdet på huvudmenyn, utan att tilldelas en layoutmall som innehåller den. Alla andra användare måste ha en layoutmall som innehåller planeringsområdet som de har tilldelats för att kunna komma åt den.
 
@@ -336,7 +339,7 @@ Före den här förbättringen måste användare med alla licensnivåer tilldela
 >[!NOTE]
 >
 >Den här ändringen är synlig för alla nya och befintliga användare med en systemadministratör och en standardlicens.
->&#x200B;>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
+>>Befintliga användare som tilldelats en layoutmall kommer även fortsättningsvis att se allt enligt inställningarna som definierats i layoutmallen.
 
 Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/access/access-overview.md).
 
@@ -346,7 +349,7 @@ Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicks
 >
 >* Förhandsgranska: 30 april 2025
 >* Production fast release: 15 maj 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 För att synliggöra viktig information i dina poster har vi infört färgformatering på radnivå för tabellvyn. Nu kan du välja en färg för varje rad när du har definierat villkor för varje alternativ.  Detta är en ny funktion som inte fanns före den här uppdateringen.
 
@@ -358,7 +361,7 @@ Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/man
 >
 >* Förhandsgranska: 23 april 2025
 >* Production fast release: 15 maj 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 Du kan nu aktivera en inställning på fliken Stapelformat i rutan Inställningar i en tidslinjevy för att korta av längre postnamn när du visar dem i standardvyn. Inställningen är inaktiverad som standard och kan bara aktiveras när du visar tidslinjevyn i standardläge. Eftersom den här inställningen är inaktiverad visas information på postfälten som standard utökad. Före den här förbättringen trunkerades informationen på postfälten som standard.
 
@@ -366,12 +369,11 @@ Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/
 
 ## Delningsbehörigheter för posttyper
 
-
 >[!NOTE]
 >
 >* Förhandsgranska: 17 april 2025
 >* Production fast release: 17 juli 2025
->* Produktion för alla kunder: 17 juli 2025
+>* Produktion för alla: 17 juli 2025
 
 För att få bättre kontroll över vilka som kan visa eller hantera poster i varje posttyp och säkerställa att endast behöriga personer kan hantera informationen för varje posttyp baserat på deras roller och ansvarsområden, har vi infört behörigheter på posttypsnivå.
 

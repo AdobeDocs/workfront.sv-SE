@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
-
 
 ### Gränssnittsuppdateringar för sidan Layoutmallar
 
@@ -248,7 +247,7 @@ Den nya upplevelsen är tillgänglig när du skapar eller redigerar ämnesgruppe
 
 ### Gränssnittsuppdateringar för avsnittet Associerade projekt i ett projekt (endast tillgängliga för specifika kunder)
 
-**Förhandsversion: 12 juni 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni 2025**
 
 Vi har uppdaterat projektavsnittet i ett projekt med en modernare design som är i linje med andra delar av Workfront.
 
@@ -256,7 +255,7 @@ Specifika kunder kan se den här ändringen genom att gå till avsnittet Associe
 
 ### Nytt utseende och ny känsla för rutan Spara som mall
 
-**Förhandsversion: 12 juni 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni 2025**
 
 Vi har uppdaterat utseendet på rutan Spara som mall som visas när du sparar ett projekt som en mall. Den nya designen har ett smidigt gränssnitt där alla avsnitt visas i ett sammanhängande format som du kan navigera i med hjälp av länkar i den vänstra panelen. Den nya designen matchar andra områden och andra objekt i programmet.
 
