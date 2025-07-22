@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -123,11 +123,11 @@ Mer information om hur du skickar en begäran till en posttyp för att skapa en 
    Området **Konfiguration** visas.
 
    ![Fliken Konfiguration](assets/configuration-tab.png)
-1. Klicka på listruteikonen i fältet **Godkännare** och välj ett eller flera namn i listan
+1. Klicka på listruteikonen i fältet **Godkännare** och välj en eller flera användare <span class="preview">eller team</span> i listan
 
    eller
 
-   Börja skriva namnet på en godkännare och markera det sedan när det visas i listan.
+   Börja skriva namnet på en användare <span class="preview">eller ett team</span> som du vill ange som godkännare och markera det sedan när det visas i listan.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ Mer information om hur du skickar en begäran till en posttyp för att skapa en 
    >* Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte. Begäran finns kvar på fliken Planering i avsnittet Skickat i området Begäranden i Workfront.
    >
    >* Alla godkännare måste fatta ett beslut innan en begäran godkänns eller avslås.
+   >
+   >* <span class="preview">Om ett team har angetts som godkännare krävs endast ett beslut från teamet.</span>
 
 
 1. (Valfritt) Klicka på **Publicera** om du aldrig har delat begärandeformuläret tidigare

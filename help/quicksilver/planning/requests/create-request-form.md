@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
 1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa hur formuläret kommer att visas för andra användare när de kommer att använda det för att skicka en ny post.
 
-1. (Valfritt) Klicka på fliken **Konfiguration** och lägg sedan till minst en användare i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
+1. (Valfritt) Klicka på fliken **Konfiguration** och lägg sedan till minst en användare <span class="preview">eller team</span> i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
 
    ![Fliken Konfiguration](assets/configuration-tab.png)
 
@@ -217,6 +217,7 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    * Du kan lägga till en eller flera godkännare i ett begärandeformulär.
    * Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte.
    * Alla godkännare måste fatta ett beslut innan en begäran godkänns eller avslås.
+   * <span class="preview">Om ett team har angetts som godkännare krävs endast ett beslut från teamet.</span>
 
      Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
