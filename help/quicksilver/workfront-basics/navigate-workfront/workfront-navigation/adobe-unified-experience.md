@@ -125,7 +125,7 @@ Om din organisation använder ett separat program för att hantera lösenord än
 
 Om ditt lösenord hanteras av [!DNL Adobe] kan du ändra lösenordet i ditt Adobe-konto.
 
-[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/se/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Kontakta administratören om du vill ha mer information om hur du ändrar ditt lösenord.
 
