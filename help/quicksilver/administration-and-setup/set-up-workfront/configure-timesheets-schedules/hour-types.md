@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Hantera timtyper
-description: Du kan associera timtyper med timposterna. Timtyper är etiketter som du använder för att definiera timposterna.
+description: Du kan associera timtyper med timposterna. Timtyper är etiketter som du använder för att definiera timposterna. Timtyper kan vara för allmän tid eller för projektspecifik tid.
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Mer information om hur du loggar timmar och associerar dem med timtyper finns i 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ Skapa timtyper:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p>Välj om timtypen är en allmän eller projektspecifik timtyp i listrutan <strong>Omfång</strong>.</p> <p>Allmänna timtyper visas bara i tidrapporter och kan inte associeras med projekt, uppgifter eller problem.</p> <p><b>VIKTIGT</b>: Om du har en anpassad timtyp som är [!UICONTROL Project Specific] och du ändrar den till [!UICONTROL General], ställs alla befintliga aktivitets-, ärenden- och projekttimmar in på systemets standardtyper.</p> </td> 
+      <td> <p>Välj om timtypen är en allmän eller projektspecifik timtyp i listrutan <strong>Omfång</strong>.</p> <p>Allmänna timtyper visas bara i tidrapporter och kan inte associeras med projekt, uppgifter eller problem.</p> <p><b>VIKTIGT</b></p><p> Om du har en anpassad timtyp som är [!UICONTROL Project Specific] och du ändrar den till [!UICONTROL General], ställs alla befintliga aktivitets-, ärenden- och projekttimmar in på respektive systemstandardtyper.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -142,9 +142,65 @@ Skapa timtyper:
     </tbody> 
    </table>
 
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
 1. Klicka på **[!UICONTROL Create Hour Type].**
 
+   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+
    Timtypen läggs till i ditt Workfront-system och aktiveras som standard.
+
+
+## Redigera timtyper
+
+Som [!DNL Workfront]-administratör kan du redigera timtyper för din organisation på system- och projektnivå.
+
+>[!NOTE]
+>
+>* Du kan inte redigera inbyggda timtyper.
+>* Du kan inte redigera timtyper i bulk.
+
+{{step-1-to-setup}}
+
+1. Klicka på **Tidrapport och timmar** i den vänstra panelen och klicka sedan på **Timtyper**.
+
+1. Klicka på ett timtypsnamn eller välj timtyp och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) längst upp i listan.
+1. Ange följande information i dialogrutan **Redigera timtyper**:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td>Ange ett timtypnamn som är lätt att känna igen i systemet.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>Lägg till en beskrivning av timtypen.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Scope]</td> 
+      <td> <p>Välj om timtypen är en allmän eller projektspecifik timtyp i listrutan <strong>Omfång</strong>.</p> <p>Allmänna timtyper visas bara i tidrapporter och kan inte associeras med projekt, uppgifter eller problem.</p> <p><b>VIKTIGT</b></p> <p>Om du har en anpassad timtyp som är [!UICONTROL Project Specific] och du ändrar den till [!UICONTROL General], ställs alla befintliga aktivitets-, ärenden- och projekttimmar in på respektive systemstandardtyper.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td><p>Välj det här alternativet om du vill att timtransaktionen som är kopplad till den här timtypen ska påverka dina intäktsberäkningar.</p>
+      <p>Sjukdomstid och semestertid kan inte räknas som intäkt.</p>
+      <p><b>ANMÄRKNING</b></p>
+      <p>När allmänna timtyper räknas som intäkt, är kostnadssatsen som är associerad med profilen för användaren som loggar tiden associerad med timkostnaden.  
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
+1. Klicka på **[!UICONTROL Save Changes].**
+
+   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+
+   Ändringarna sparas och timtypen redigeras.
 
 ## Inaktivera timtyper
 
@@ -152,9 +208,11 @@ Du kan inaktivera timtyper om du inte längre vill att användarna ska associera
 
 >[!NOTE]
 >
->* Inbyggda timtyper kan inte inaktiveras.
+>* Du kan inte inaktivera inbyggda timtyper.
+>* Du kan inaktivera timtyper gruppvis.
 >* När du inaktiverar en projektspecifik timtyp används automatiskt en inbyggd projektspecifik timtyp för all tid som loggas för den typen. Den tid som loggas för ett projekt är till exempel som standard timtypen Projekttid. Den tid som loggas för en uppgift är som standard timtypen Aktivitetstid.
->
+>* När du inaktiverar en allmän timtyp finns den loggade tiden kvar på tidrapporten, men användare kan inte längre logga tid för den timtypen i framtiden.
+
 
 
 Så här inaktiverar du en timtyp:
@@ -163,8 +221,7 @@ Så här inaktiverar du en timtyp:
 
 1. Klicka på **[!UICONTROL Timesheet & Hours]** i den vänstra panelen och sedan på **[!UICONTROL Hour Types]**.
 
-1. Välj den timtyp som du vill inaktivera.
-
+1. Välj den timtyp som du vill inaktivera. Du kan välja flera timtyper.
 
 1. Klicka på **Mer** och sedan på **Inaktivera**.
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
@@ -26,8 +26,12 @@ I Adobe Workfront Planning är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
-* [Skapa poster genom att lägga till dem textbundet från registervyn för posttyp](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 * [Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Skapa poster genom att lägga till dem textbundet från registervyn för posttyp](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<!--
+* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+
 * [Kopiera och klistra in en lista med poster från en extern lista](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
@@ -108,77 +112,6 @@ Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i f�
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Skapa poster genom att lägga till dem textbundet från registervyn för posttyp
-
-Du kan skapa poster i tabellvyn för en posttypsida när du lägger till dem textbundet.
-
-Mer information om hur du redigerar postinformation finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
-
-{{step1-to-planning}}
-
-1. Klicka på arbetsytan där du vill lägga till poster.
-
-   Arbetsytan öppnas och posttyperna visas som kort.
-
-1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
-
-   Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
-Poster av den valda typen visas i vyn.
-
-1. (Villkorligt) Gör något av följande i tabellvyn:
-
-   * Klicka på **Ny post** på den sista raden i tabellen eller efter den sista posten i en gruppering
-
-     >[!TIP]
-     >
-     >När du lägger till en ny post efter den sista posten i en gruppering eller delgruppering, fyller Workfront automatiskt i de fält som ingår i grupperingarna. Du kan redigera dessa fält manuellt om det behövs och posterna kan tas bort från grupperingen.
-
-   * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Då läggs en tom rad till under den post du börjar från.
-   * Håll markören över en posts primära fält, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.
-
-   ![Lägger till en ny kampanj i tabellraden](assets/adding-a-new-campaign-in-table-row.png)
-
-   Workfront överför automatiskt en miniatyrbild till varje ny post. Du kan ändra dessa bilder senare. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
-
-   En ny post läggs till i tabellen.
-
-1. Klicka på den nya postens primära fält
-
-   eller
-
-   Klicka på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) till vänster om postnamnet.
-
-   Förhandsvisningsrutan öppnas i tabellen.
-
-1. Börja skriva information om den nya posten i de fält som visas i förhandsvisningsrutan.
-
-   >[!NOTE]
-   >
-   >  * Det finns inga obligatoriska fält för poster. Vi rekommenderar dock att du lägger till information för det primära fältet i en post, eftersom det är praktiskt att identifiera poster när du länkar poster till varandra. Mer information om primära fält finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md) och [Översikt över primära fält](/help/quicksilver/planning/fields/primary-field-overview.md).
-   >
-   >  * Fält som refererar till andra posttyper eller beräknade fält är skrivskyddade fält.
-
-1. (Villkorligt) När du lägger till poster i tabellen fortsätter du att lägga till information på varje rad innan du öppnar postens förhandsvisningsruta. Klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
-
-   eller
-
-   Klicka på den nya postens namn eller på ikonen **Öppna detaljer** ![Öppna informationsikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn för att öppna förhandsvisningsrutan och redigera postens information i informationsområdet.
-
-   >[!TIP]
-   >
-   >Du kan bara komma åt ikonen **Öppna detaljer** från postens namnfält när fältet Namn är ett primärt fält.
-
-1. (Valfritt) I postens förhandsvisningsruta klickar du på ikonen **Öppna på ny flik** ![Öppna detaljer i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
-
-   Workfront sparar automatiskt ändringarna.
-
-1. (Valfritt) Stäng förhandsvisningsrutan eller klicka på bakåtpilen till vänster om postens namn om du öppnade postens sida.
-
-1. (Valfritt) I tabellvyn använder du följande kortkommandon för att ångra eller göra om tillägg av nya poster eller deras information när du lägger till dem i tabellvyn:
-
-   * CTRL + Z (⌘ + Z för Mac) för att ångra en ändring
-   * CTRL + Skift + Z (⌘ + Skift + Z för Mac) för att göra om en ändring
 
 ## Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst
 
@@ -265,6 +198,136 @@ You can import records from other applications by linking them to existing recor
       For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
    
 -->
+
+## Skapa poster genom att lägga till dem textbundet från registervyn för posttyp
+
+Du kan skapa poster i tabellvyn för en posttypsida när du lägger till dem textbundet.
+
+Mer information om hur du redigerar postinformation finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+
+{{step1-to-planning}}
+
+1. Klicka på arbetsytan där du vill lägga till poster.
+
+   Arbetsytan öppnas och posttyperna visas som kort.
+
+1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
+Poster av den valda typen visas i vyn.
+
+1. (Villkorligt) Gör något av följande i tabellvyn:
+
+   * Klicka på **Ny post** på den sista raden i tabellen eller efter den sista posten i en gruppering
+
+     >[!TIP]
+     >
+     >När du lägger till en ny post efter den sista posten i en gruppering eller delgruppering, fyller Workfront automatiskt i de fält som ingår i grupperingarna. Du kan redigera dessa fält manuellt om det behövs och posterna kan tas bort från grupperingen.
+
+   * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Då läggs en tom rad till under den post du börjar från.
+   * Håll markören över en posts primära fält, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.
+
+   ![Lägger till en ny kampanj i tabellraden](assets/adding-a-new-campaign-in-table-row.png)
+
+   Workfront överför automatiskt en miniatyrbild till varje ny post. Du kan ändra dessa bilder senare. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+   En ny post läggs till i tabellen.
+
+1. Klicka på den nya postens primära fält
+
+   eller
+
+   Klicka på ikonen **Öppna detaljer** ![Öppna detaljikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) till vänster om postnamnet.
+
+   Förhandsvisningsrutan öppnas i tabellen.
+
+1. Börja skriva information om den nya posten i de fält som visas i förhandsvisningsrutan.
+
+   >[!NOTE]
+   >
+   >  * Det finns inga obligatoriska fält för poster. Vi rekommenderar dock att du lägger till information för det primära fältet i en post, eftersom det är praktiskt att identifiera poster när du länkar poster till varandra. Mer information om primära fält finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md) och [Översikt över primära fält](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >  * Fält som refererar till andra posttyper eller beräknade fält är skrivskyddade fält.
+
+1. (Villkorligt) När du lägger till poster i tabellen fortsätter du att lägga till information på varje rad innan du öppnar postens förhandsvisningsruta. Klicka sedan på **Retur** på tangentbordet för att spara ändringarna.
+
+   eller
+
+   Klicka på den nya postens namn eller på ikonen **Öppna detaljer** ![Öppna informationsikonen i tabellnamnsfältet](assets/open-details-icon-in-table-name-field.png) till vänster om postens namn för att öppna förhandsvisningsrutan och redigera postens information i informationsområdet.
+
+   >[!TIP]
+   >
+   >Du kan bara komma åt ikonen **Öppna detaljer** från postens namnfält när fältet Namn är ett primärt fält.
+
+1. (Valfritt) I postens förhandsvisningsruta klickar du på ikonen **Öppna på ny flik** ![Öppna detaljer i en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+
+   Workfront sparar automatiskt ändringarna.
+
+1. (Valfritt) Stäng förhandsvisningsrutan eller klicka på bakåtpilen till vänster om postens namn om du öppnade postens sida.
+
+1. (Valfritt) I tabellvyn använder du följande kortkommandon för att ångra eller göra om tillägg av nya poster eller deras information när du lägger till dem i tabellvyn:
+
+   * CTRL + Z (⌘ + Z för Mac) för att ångra en ändring
+   * CTRL + Skift + Z (⌘ + Skift + Z för Mac) för att göra om en ändring
+
+<!--<div class="preview">
+
+## Create records by adding them in the record type timeline view
+
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a timeline view, or create a timeline view, first. 
+
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
+
+    A new record box opens. 
+
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+
+</div>-->
 
 ## Skapa poster genom att kopiera och klistra in dem från en extern lista
 
