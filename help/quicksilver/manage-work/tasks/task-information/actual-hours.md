@@ -7,9 +7,9 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ Beroende på vilket område av Workfront du kommer åt de faktiska timmarna frå
 * I området med information om projekt, aktiviteter eller ärenden:
 
    * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
+   * **Faktiska timmar**: När du får åtkomst till dem med hjälp av ett anpassat fält för systemspecifik referens i ett projekt, en aktivitet eller ett anpassat utleveransformulär.
 
 ## Faktiska timmar för uppgifter och ärenden jämfört med faktiska timmar för projekt
 
@@ -111,34 +112,40 @@ Så här hittar du faktiska timmar i Uppgiftsinformation:
 1. Gå till en uppgift som du vill granska de faktiska timmarna för.
 1. Klicka på **Uppgiftsinformation** i den vänstra panelen. Avsnittet **Översikt** visas.
 1. Leta reda på värdet **Faktiska timmar** i avsnittet **Arbetstid**. Detta är det totala antalet timmar som loggats för den här aktiviteten.
+1. (Valfritt och villkorligt) Om den inbyggda fältreferensen för faktiska timmar har lagts till i ett anpassat formulär för ett projekt, en uppgift eller ett ärende går du till det anpassade formuläret och letar upp de faktiska timmarna i det anpassade fältet. Detta är det totala antalet loggade timmar för objektet.
 
 ### Faktiska timmar i timavsnittet {#actual-hours-in-the-hours-section}
 
 Att hitta faktiska timmar i avsnittet Timmar är identiskt för projekt, uppgifter och ärenden.
 
-Så här hittar du faktiska timmar i avsnittet Timmar:
+Så här hittar du faktiska timmar under Timmar för en uppgift:
 
 1. Gå till en uppgift som du vill granska de faktiska timmarna för.
 
 1. Klicka på **Timmar** i den vänstra panelen. En lista med timposter som är inloggade på aktiviteten visas, med kolumnen **Timmar** som visar det totala antalet faktiska timmar för aktiviteten.
 
 1. Se till att grupperingen **Standard** och **Project** används i den här listan.
+1. Aktivitetens faktiska timmar visas på grupperingsraden för kolumnen **Faktiska timmar**.
 
-### Faktiska timmar i rapporter {#actual-hours-in-reports}
+### Faktiska timmar och faktiska/gamla timmar i rapporter
 
-När du skapar aktiviteter, utgåvor eller projektrapporter kan du visa värdet för Faktiska timmar för varje uppgift, utgåva eller projekt i rapporten.
+När du skapar uppgifter, utgåvor eller projektrapporter kan du visa värdena för Faktiska timmar och Gammal faktisk timme för varje uppgift, utgåva eller projekt i rapporten.
 
-Så här visar du faktiska timmar i en uppgiftsrapport:
+Mer information om skillnaden mellan faktiska timmar och gamla faktiska timmar finns i avsnittet [Faktiska timmar kontra äldre faktiska timmar](#actual-hours-vs-legacy-actual-hours) i den här artikeln.
+
+Så här visar du faktiska timmar och faktiska/gamla timmar i en uppgiftsrapport:
 
 {{step1-to-reports}}
 
 1. Klicka på **Ny rapport** på sidan **Rapporter** och välj sedan **Aktivitet** som objekt.
 1. Klicka på **Lägg till kolumn** längst ned till höger på sidan.
-1. I listrutan **Visa i den här kolumnen** som visas börjar du skriva **Faktiska timmar** och markerar sedan fältet när det visas i listan.
+1. I listrutan **Visa i den här kolumnen** börjar du skriva **Faktiska timmar** och markerar sedan fältet när det visas i listan.
+1. Upprepa steget ovan om du vill lägga till fältet **Äldre faktiska timmar** i rapporten.
 
 1. Klicka på **Spara + stäng** längst ned till vänster på sidan för att spara rapporten.
 
 1. Ange ett nytt rapportnamn i dialogrutan **Namnge den här rapporten för att spara den** och klicka sedan på **Använd**.
+1. Upprepa samma steg för ett projekt eller en problemrapport.
 
 ### Faktiska timmar i resurshanteringsverktyg {#actual-hours-in-resource-management-tools}
 

@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Följande objekt har ett uppdateringsavsnitt där du kan lägga till kommentarer
 * Uppgifter
 * Problem
 * Program
-* Portfolio
+* Portföljer
 * Mallar
 * Malluppgifter
 * Användare
@@ -148,7 +148,7 @@ Det finns skillnader mellan hur kommentarer och uppdateringar visas för olika o
    * Uppgifter
    * Problem
    * Program
-   * Portfolio
+   * Portföljer
    * Användare
    * Tidrapporter
 
@@ -299,24 +299,33 @@ I följande tabell visas de objekt vars kommentarer också visas på de objekt s
 
 Det finns vissa begränsningar i uppdateringsavsnittet för ett team och när du anger uppdateringar för andra användares räkning.
 
-### Begränsningar för användare och team
+### Överväganden för användare och team
 
 Tänk på följande när du visar uppdateringar för användare och team:
 
 * Du kan inte lägga till nya kommentarer i uppdateringsavsnittet i ett team.
-
-* Uppdateringsavsnittet för team fylls i av uppdateringar som anges för följande objekt:
-
-   * Användare
-   * Artiklar
-   * Tidrapporter
-   * Iterationer
 
 * Du kan lägga till ett svar på en uppdatering som du visar i ett team. Svaret visas i teamets uppdateringsavsnitt samt i uppdateringsavsnittet för det objekt det tillhör.
 
 * I uppdateringsavsnittet för användare och team kan du visa de uppdateringar som har gjorts under de senaste 90 dagarna.
 
   Om du vill se alla uppdateringar som gjorts för en användare eller ett team, utöver 90-dagarsgränsen, kan du skapa en rapport för anteckningar. Rapporten ska inte ha något tidsfilter som visar alla uppdateringar som gjorts för användare eller team. Mer information finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+* Uppdateringsavsnittet för team fylls i med kommentarer som lagts till i följande objekt:
+
+   * Användare
+   * Artiklar
+   * Tidrapporter
+   * Iterationer
+
+* Fliken Systemuppdateringar i uppdateringsområdet för användare fylls i av uppdateringar till andra objekt. Nedan följer uppdateringar som visas på fliken Systemuppdateringar i användarens profil när fälten spåras i området Uppdateringsfeeds i installationsprogrammet:
+
+   * Lägga till, ta bort och andra dokumentuppdateringar
+   * Timtillägg, borttagning, tillägg för och andra timinguppdateringar
+   * Anteckningar, uppdateringar av anpassade fält
+   * Uppdateringar av användarprofilen (uppdateringar av användarens avatar, mobilnummer, prata med mig om fält, titel)
+   * Lägga till användare, ta bort, ändra åtkomstnivå, ändringar i inbyggda användarfält
+   * Ekonomisk information från uppgifter och projekt.
 
 ### Begränsningar när du skriver kommentarer för en annan användares räkning
 
