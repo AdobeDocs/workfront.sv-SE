@@ -6,9 +6,9 @@ description: Om du vill aktivera ändringar som du har gjort i tidrapportprofile
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Instruktioner om hur du tar bort tidrapporter finns i [Ta bort tidrapporter i Ad
 
 ## Åtkomstkrav
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +42,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Överväganden om manuellt genererade tidrapporter
 
 När du genererar tidrapporter manuellt:
 
-* De genereras enligt de tidrapportprofiler som är kopplade till dina användare. Användare som inte har associerade tidrapportprofiler får inga tidrapporter. 
+* De genereras enligt de tidrapportprofiler som är kopplade till dina användare. Användare som inte har associerade tidrapportprofiler får inga tidrapporter.
 * Endast den aktuella tidrapporten och den som följer genereras. Workfront genererar inte två tidrapporter för samma period. Om du redan har en tidrapport för den aktuella tidsramen, kommer en annan inte att genereras när du använder den manuella processen för att generera tidrapporter.
 
 ## Generera tidrapporter manuellt från tidrapporter och timmar
@@ -64,7 +66,7 @@ Du kan generera tidrapporter på systemnivå eller gruppnivå manuellt från omr
    Om du genererar tidrapporter som används av en viss grupp klickar du på **Grupper** och sedan på gruppens namn.
 
 1. Klicka på **Tidrapportprofiler**.
-1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) och sedan på **Generera tidrapporter**.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) för tidrapportprofiler på systemnivå eller **Mer** för grupptidrapportprofiler överst i listan över tidrapportprofiler och klicka sedan på **Generera tidrapporter**.
 
    Nya tidrapporter skapas för upp till två tidsperioder för användare som är kopplade till tidrapportprofiler.
 
@@ -76,5 +78,5 @@ Du kan generera tidrapporter på systemnivå manuellt från området Diagnostik 
 
 1. Expandera **System** och klicka sedan på **Diagnostik**.
 
-1. Klicka på **Kör diagnostik**. 
+1. Klicka på **Kör diagnostik**.
 1. Klicka på **Generera tidrapporter**.
