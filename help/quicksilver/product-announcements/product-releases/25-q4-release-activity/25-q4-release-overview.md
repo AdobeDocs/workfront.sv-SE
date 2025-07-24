@@ -4,7 +4,8 @@ description: Den här sidan innehåller information om funktioner som ingår i d
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b495399ff6375eae222b9a15538c52ae3c73f6bb
+exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
+source-git-commit: 83c9f6f36acad5182c63a74aa2f8e286ba1b839d
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -37,7 +38,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-förbättringar
 
+<!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [Andra förbättringar](#other-enhancements)
+
+
+
+<!--### Resource Management enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
+            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
+            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+        </td>
+        <td>July 24, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> -->
 
 ### Andra förbättringar
 
@@ -88,7 +109,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -126,8 +147,8 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 308d6e1dba361c5297c741dea71b11fe6100e871
+source-git-commit: b2ccda2b61b862c29f67b04d8598bb4204a33c99
 workflow-type: tm+mt
-source-wordcount: '13265'
+source-wordcount: '13271'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 0%
       * [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * 2025 Q4 {#release-25-q4}
          * [Fjärde kvartersversionen 2025 - översikt](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+         * [Förbättringar av resurshanteringen för fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
          * [Uppdateringar av utseende och känsla under 2025 års Q4-utgåva](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * 2025 Q3-versionen {#release-25-q3}
          * [2025 Q3 - översikt](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -207,7 +208,6 @@ ht-degree: 0%
          * [21.1 Andra förbättringar](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning - lanseringsaktivitet{#planning-release-activity}
          * [Aktivitet för lansering av Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Versionsaktivitet fjärde kvartalet 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Tredje kvartersversionen 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Andra utgåvan för kvartal 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
