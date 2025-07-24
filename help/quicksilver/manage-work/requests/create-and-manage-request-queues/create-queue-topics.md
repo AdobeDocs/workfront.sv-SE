@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
+
 Köämnen fungerar tillsammans med routningsregler för att automatiskt tilldela inkommande arbete till en användare, en jobbroll, ett team eller för att placera det i ett projekt. Köämnen definierar villkoren som måste finnas för att routningsregeln ska implementeras.
 
 Det finns ingen gräns för hur många köämnen som kan tilldelas till en ämnesgrupp eller ett projekt. Köämnen är objekttyper som kan rapporteras.
 
-När du har skapat ett projekt kan du inte flytta köämnen från ett projekt till ett annat.
+Du kan skapa köämnen för enskilda projekt eller för projektmallar.
+
+När du har skapat en mall kan du inte flytta köämnen från ett projekt eller en mall till ett annat.
 
 ## Åtkomstkrav
 
@@ -97,7 +101,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. Gå till det projekt som du valde att aktivera som en kö för hjälpbegäran och där du vill skapa ett nytt köämne.\
+1. Gå till det projekt eller den mall som du har valt att aktivera som en kö för hjälpbegäranden och till den plats där du vill skapa ett nytt köämne.\
    Mer information om hur du anger ett projekt som en kö för hjälpbegäranden finns i [Skapa en kö för begäranden](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Du kan ordna relaterade köämnen under en ämnesgrupp. Då får den som gjorde begäran en serie listrutor.
@@ -171,3 +175,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **Spara**.\
    Köämnet är nu tillgängligt att använda och visas i området Begäranden i Workfront när en frågekö och en ämnesgrupp har valts.
+
+## Redigera ett köämne
+
+Så här redigerar du ett befintligt köämne:
+
+1. Gå till det projekt eller den mall som innehåller det köämne som du vill redigera.
+1. Klicka på **Köa ämnen** i den vänstra panelen.
+1. I produktionsmiljön väljer du det köämne som du vill redigera. Klicka på **Redigera köämne** på detaljsidan som öppnas.
+1. <span class="preview">I förhandsvisningsmiljön väljer du det köämne som du vill redigera och klickar sedan på ikonen Redigera ![ikon](assets/edit-icon.png).</span>
+
