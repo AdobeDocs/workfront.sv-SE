@@ -6,9 +6,9 @@ description: Om du vill aktivera ändringar som du har gjort i tidrapportprofile
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 När du genererar tidrapporter manuellt:
 
 * De genereras enligt de tidrapportprofiler som är kopplade till dina användare. Användare som inte har associerade tidrapportprofiler får inga tidrapporter. 
-* Endast den aktuella tidrapporten och den som följer genereras. Workfront genererar inte två tidrapporter för samma period. Om du redan har en tidrapport för en viss tidsperiod, kommer en annan inte att genereras när du använder den manuella processen för att generera tidrapporter.
+* Endast den aktuella tidrapporten och den som följer genereras. Workfront genererar inte två tidrapporter för samma period. Om du redan har en tidrapport för den aktuella tidsramen, kommer en annan inte att genereras när du använder den manuella processen för att generera tidrapporter.
 
 ## Generera tidrapporter manuellt från tidrapporter och timmar
 
@@ -64,7 +64,7 @@ Du kan generera tidrapporter på systemnivå eller gruppnivå manuellt från omr
    Om du genererar tidrapporter som används av en viss grupp klickar du på **Grupper** och sedan på gruppens namn.
 
 1. Klicka på **Tidrapportprofiler**.
-1. Klicka på **Mer** och sedan på **Generera tidrapporter**.
+1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) och sedan på **Generera tidrapporter**.
 
    Nya tidrapporter skapas för upp till två tidsperioder för användare som är kopplade till tidrapportprofiler.
 

@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,13 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 </div>
--->
 
 Timtyper är etiketter som du använder för att definiera timposterna. Du kan associera timtyper med timposterna.
 
@@ -132,7 +131,7 @@ Skapa timtyper:
       <td> <p>Välj om timtypen är en allmän eller projektspecifik timtyp i listrutan <strong>Omfång</strong>.</p> <p>Allmänna timtyper visas bara i tidrapporter och kan inte associeras med projekt, uppgifter eller problem.</p> <p><b>VIKTIGT</b></p><p> Om du har en anpassad timtyp som är [!UICONTROL Project Specific] och du ändrar den till [!UICONTROL General], ställs alla befintliga aktivitets-, ärenden- och projekttimmar in på respektive systemstandardtyper.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader"><span class="preview">[!UICONTROL Count as Revenue]</span></td> 
       <td><p>Välj det här alternativet om du vill att timtransaktionen som är kopplad till den här timtypen ska påverka dina intäktsberäkningar.</p>
       <p>Sjukdomstid och semestertid kan inte räknas som intäkt.</p>
       <p><b>ANMÄRKNING</b></p>
@@ -142,14 +141,9 @@ Skapa timtyper:
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
-
-1. Klicka på **[!UICONTROL Create Hour Type].**
-
-   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+1. Klicka på **[!UICONTROL Create Hour Type]** <span class="preview"> eller **Spara**. </span>
 
    Timtypen läggs till i ditt Workfront-system och aktiveras som standard.
-
 
 ## Redigera timtyper
 
@@ -184,7 +178,7 @@ Som [!DNL Workfront]-administratör kan du redigera timtyper för din organisati
       <td> <p>Välj om timtypen är en allmän eller projektspecifik timtyp i listrutan <strong>Omfång</strong>.</p> <p>Allmänna timtyper visas bara i tidrapporter och kan inte associeras med projekt, uppgifter eller problem.</p> <p><b>VIKTIGT</b></p> <p>Om du har en anpassad timtyp som är [!UICONTROL Project Specific] och du ändrar den till [!UICONTROL General], ställs alla befintliga aktivitets-, ärenden- och projekttimmar in på respektive systemstandardtyper.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader"><span class="preview">[!UICONTROL Count as Revenue]</span></td> 
       <td><p>Välj det här alternativet om du vill att timtransaktionen som är kopplad till den här timtypen ska påverka dina intäktsberäkningar.</p>
       <p>Sjukdomstid och semestertid kan inte räknas som intäkt.</p>
       <p><b>ANMÄRKNING</b></p>
@@ -194,11 +188,8 @@ Som [!DNL Workfront]-administratör kan du redigera timtyper för din organisati
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
 
-1. Klicka på **[!UICONTROL Save Changes].**
-
-   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+1. Klicka på **[!UICONTROL Save Changes]** <span class="preview"> eller **Spara**. </span>
 
    Ändringarna sparas och timtypen redigeras.
 

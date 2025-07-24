@@ -6,9 +6,9 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,6 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    >* När du lägger till en grupp visas bara gruppnamnet på fliken Tilldela personer, inte på listan med gruppmedlemmar. Om du vill visa gruppmedlemmarna som listas här klickar du på Spara ändringar och sedan på namnet på den tidrapportprofil som du just skapade.
    >* När du är klar med de här stegen genererar tidrapportprofilen endast tidrapporter för de tilldelade användarna eller gruppmedlemmarna som inte har några befintliga tidrapporter för den aktuella perioden.
 
-1. Klicka på **Spara ändringar**.
+1. Klicka på **Spara**.
 
-   Första gången som tidrapportprofilen genererar tidrapporter skapas två tidrapporter för varje användare. Efter det skapas varje gång nya tidrapporter skapas, när tidrapporten skapas per användare.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) för tidrapportprofiler på systemnivå eller **Mer** för grupptidrapportprofiler överst i listan över tidrapportprofiler och klicka sedan på **Generera tidrapporter**.
+
+   En bekräftelse visas längst ned på skärmen om att tidrapporterna har skapats. Nya tidrapporter genereras baserat på de nya profiler du har skapat.
+
+   Mer information finns i [Generera tidrapporter manuellt](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+
+   Första gången som tidrapportprofilen genererar tidrapporter skapas två tidrapporter för varje användare, både för den tidsram som innehåller den aktuella tiden och för nästa tidsram.
+
+   Därefter skapas en tidrapport per användare varje gång nya tidrapporter skapas.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

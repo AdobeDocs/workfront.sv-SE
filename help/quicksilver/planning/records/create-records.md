@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Skapa poster
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ I Adobe Workfront Planning är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
-* [Skapa poster med knappen Ny post eller Begär post från vilken posttyp som helst](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [Skapa poster genom att lägga till dem textbundet från registervyn för posttyp](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [Använd knappen Ny post eller Begär post från valfri posttypsvy](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Lägg till dem textbundet från posttypstabellvyn](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [Lägg till dem i tidslinjevyn för posttypen](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [Kopiera och klistra in en lista med poster från en extern lista](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
-* [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
-* [Skapa poster genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Skapa poster genom att importera information från en CSV- eller Excel-fil](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [Skapa poster med hjälp av automatisering](#create-records-by-using-automations)
+* [Koppla dem från andra poster](#create-records-as-you-connect-them)
+* [Skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Importera information från en CSV- eller Excel-fil](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Använd automatisering](#create-records-by-using-automations)
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
 
@@ -270,64 +273,64 @@ Poster av den valda typen visas i vyn.
    * CTRL + Z (⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z (⌘ + Skift + Z för Mac) för att göra om en ändring
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## Skapa poster genom att lägga till dem i posttypens tidslinjevy
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+Du kan skapa poster i tidslinjevyn på en posttypsida genom att dubbelklicka på tidslinjen.
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Mer information om hur du skapar en tidslinjevy finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Klicka på arbetsytan där du vill lägga till poster.
 
-1. Click a record type card. 
+   Arbetsytan öppnas och posttyperna visas som kort.
 
-    The record type page opens in the view that you last accessed. 
+1. Klicka på ett posttypskort.
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   Posttypssidan öppnas i den vy som du senast använde.
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. Klicka för att öppna en tidslinjevy eller skapa en tidslinjevy först.
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >Du kan bara skapa en tidslinjevy om det finns minst två datumfält associerade med posttypen.
+1. Dubbelklicka var som helst i tidslinjen.
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   En ny postruta öppnas. <!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![Ny postruta på tidslinjen med namnlöst postfält](assets/new-record-small-box-on-timeline.png)
+1. Uppdatera följande information:
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **Namn**: Ange postens namn. Om du lämnar den tom namnges den som **Namnlös** som standard av Workfront. Namnet visas inte i postfältet om det inte finns något namn.
+   * **Registrera datumfält**: Uppdatera postens datum.
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     Namnen på datumfälten anpassas efter de fält som valts för start- och slutdatum när tidslinjevyn skapades.
 
-1. (Optional) Click one of the following icons: 
+     Som standard är datumvärden förinställda beroende på hur du visar tidslinjevyn. Följande scenarier finns:
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * Efter **År**: Postens start- och slutdatum sträcker sig över en månad.
+      * Efter **Kvartal**: Postens start- och slutdatum sträcker sig över en vecka.
+      * Efter **månad**: Postens start- och slutdatum sträcker sig över tre dagar.
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. (Valfritt) Klicka på en av följande ikoner:
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **Expandera** ![Expandera ikonen](assets/expand-icon.png) om du vill öppna postinformationen i förhandsvisningsfönstret.
+   * **Ta bort** ![Ta bort ikon](assets/delete-icon.png) om du vill ta bort posten.
+   * **Stäng** ![Stäng ikonen](assets/close-icon.png) för att stänga den nya postrutan.
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   Posten läggs till på tidslinjen samt i tabell- och kalendervyerna direkt, om du inte har klickat på ikonen **Ta bort** .
 
-</div>-->
+1. (Valfritt) Klicka på postfältet på tidslinjen för att öppna postens informationsfönster och uppdatera informationen, ta bort den eller lägga till kommentarer.
+
+   >[!TIP]
+   >
+   >Som standard associerar Workfront posten med en miniatyrbild och en omslagsbild.
+   >
+   >Miniatyrbilden visas bara i tidslinjevyn när den är aktiverad i vyinställningarna.
+
+</div>
 
 ## Skapa poster genom att kopiera och klistra in dem från en extern lista
 
