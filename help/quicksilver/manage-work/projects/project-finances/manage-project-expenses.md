@@ -6,7 +6,7 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: e1884aa7975018a737538d909954319e6feee318
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Gå till det projekt eller den uppgift som du vill ange utgifter för.
 1. Klicka på **Utgifter** i den vänstra panelen.
 1. Klicka på **Lägg till en utgift**. Dialogrutan **Lägg till en utgift** visas.
-1. Uppdatera följande:
+1. Ange följande information:
 
    * **Beskrivning:** Ange en beskrivning av utgiften.
    * **Utgiftstyp:** (obligatoriskt) Välj den kategori som bäst beskriver utgiften.
@@ -68,7 +68,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    * **Faktiskt belopp:** Ange det belopp som den faktiska kostnaden för utgiften uppgår till. Detta påverkar projektets faktiska kostnad.
 
-   * **Planerat datum:** Ange det förväntade datumet för utgiften. Du kan skriva datumet i fältet med formatet *mm/dd/åå* eller klicka på ikonen **Kalender** .  ![Kalenderikon](assets/calendar-icon.png) och välj datumet dynamiskt.
+   * **Planerat datum:** Ange det förväntade datumet för utgiften. Du kan skriva datumet i fältet med formatet *mm/dd/åå* eller klicka på ikonen **Kalender** ![Kalender](assets/calendar-icon.png) och välja datumet dynamiskt.
 
    * **Betalningsdatum:** Ange eller välj det datum då utgiften betalades.
    * **Fakturerbar:** Välj det här alternativet om du vill fakturera den här utgiften. Det är viktigt att kategorisera en utgift som fakturerbar när du skapar faktureringsposter.
@@ -80,7 +80,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Du måste skapa ett anpassat formulär innan du kan koppla det till en utgift. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i artikeln [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicka på **Spara ändringar**.
+1. Klicka på **Spara**.
 
 ## Ta bort utgifter
 
