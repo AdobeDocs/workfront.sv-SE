@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
 source-wordcount: '5853'
 ht-degree: 0%
@@ -357,7 +357,7 @@ Specifika kunder kan se den här ändringen genom att gå till avsnittet Associe
 
 ### Nytt utseende och ny känsla för rutan Spara som mall
 
-**Förhandsversion: 12 juni 2025; Produktionsrelease: 19 juni 2025
+**Förhandsversion: 12 juni 2025; Produktionsversion: 19 juni 2025**
 
 Vi har uppdaterat utseendet på rutan Spara som mall som visas när du sparar ett projekt som en mall. Den nya designen har ett smidigt gränssnitt där alla avsnitt visas i ett sammanhängande format som du kan navigera i med hjälp av länkar i den vänstra panelen. Den nya designen matchar andra områden och andra objekt i programmet.
 
@@ -515,7 +515,6 @@ Vi har uppdaterat licensavtalssidan med en modernare design som överensstämmer
 
 +++
 
-—>
 
 ## Gränssnittsuppdateringar gjorda under andra kvartalet
 
