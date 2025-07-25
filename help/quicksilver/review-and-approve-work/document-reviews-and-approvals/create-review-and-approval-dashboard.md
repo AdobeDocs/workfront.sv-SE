@@ -88,6 +88,7 @@ Mer information finns i [Skapa en KPI-rapport](/help/quicksilver/reports-and-das
 
    1. Klicka på det tomma villkorsfiltret, klicka på **Välj ett fält** och välj sedan **Status**.
    1. Låt operatorn vara **lika med** och skriv sedan _väntande granskning_ i textrutan.
+
       ![väntande kpi-filterexempel](assets/pending-kpi-filter.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -133,11 +134,13 @@ Mer information finns i [Skapa en KPI-rapport](/help/quicksilver/reports-and-das
    1. Välj **Godkännandefas** > **Deadline**.
    1. Ändra operatorn till **mindre än**.
    1. Växla **Ange det relativa datumet** till **ON** och skriv sedan _$$TODAY_ i textrutan.
+
       ![Exempel på försenat kpi-filter](assets/overdue-kpi-filter.png)
    1. Klicka på **Lägg till villkor**.
    1. Klicka på det tomma villkorsfiltret och klicka sedan på **Välj ett fält**.
    1. Välj **Status**.
    1. Ändra operatorn till **Innehåller inte** och skriv sedan _godkänt_ i textrutan.
+
       ![Exempel på försenat kpi-filter 2](assets/overdue-kpi-filter-2.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -184,12 +187,14 @@ Mer information finns i [Skapa en KPI-rapport](/help/quicksilver/reports-and-das
    1. Välj **Status**.
 
    1. Ändra operatorn till **Innehåller** och skriv _godkänt_ i textrutan.
+
       ![slutfört kpi-filterexempel](assets/completed-kpi-filter.png)
    1. Klicka på **Lägg till villkor**.
    1. Klicka på **And** om du vill ändra den till **Or**.
    1. Klicka på det tomma villkorsfiltret och klicka sedan på **Välj ett fält**.
    1. Välj **Status**.
    1. Ändra operatorn till **Lika med** och skriv sedan _Granskad_ i textrutan.
+
       ![slutfört kpi-filterexempel](assets/completed-kpi-filter-2.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -234,12 +239,14 @@ Mer information finns i [Skapa en KPI-rapport](/help/quicksilver/reports-and-das
    1. Välj **Status**.
 
    1. Ändra operatorn till **Innehåller inte** och skriv _godkänt_ i textrutan.
+
       ![övergivet kpi-filterexempel](assets/abandoned-kpi-filter.png)
    1. Klicka på **Lägg till villkor**.
    1. Klicka på det tomma villkorsfiltret och klicka sedan på **Välj ett fält**.
    1. Välj **Deadline**.
    1. Ändra operatorn till **mindre än** och växla sedan **Ange relativt datum** till **ON**.
    1. Skriv _$$TODAY-2w_ i textrutan.
+
       ![övergivet kpi-filterexempel](assets/abandoned-kpi-filter-2.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -277,6 +284,7 @@ Mer information finns i [Skapa en KPI-rapport](/help/quicksilver/reports-and-das
    1. Klicka på det tomma villkorsfiltret och klicka sedan på **Välj ett fält**.
    1. Välj **Dokumentversion** > **Version**.
    1. Ändra operatorn till **Är inte null**.
+
       ![filterexempel](assets/approvals-by-decision-chart-filter.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -315,12 +323,14 @@ Mer information finns i [Skapa en KPI-rapport](/help/quicksilver/reports-and-das
    1. Välj **Godkännandefas** > **Godkännandefasdeltagare** > **Beslutsdatum**.
 
    1. Ändra operatorn till **Är null**.
+
       ![Exempel på ändringsdiagramfilter](assets/revision-chart-filter.png)
    1. Klicka på **Lägg till villkor**.
    1. Klicka på det tomma villkorsfiltret och klicka sedan på **Välj ett fält**.
    1. Välj **Godkännandefas** > **Deadline**.
    1. Ändra operatorn till **mindre än eller lika med** och växla sedan **Ange relativt datum** till **ON**.
    1. Skriv _$$TODAYem_ i textrutan.
+
       ![Exempel på ändringsdiagramfilter](assets/revision-chart-filter-2.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -394,6 +404,7 @@ Mer information om hur du skapar en tabellrapport finns i [Skapa en tabellrappor
    1. Klicka på det tomma villkorsfiltret och klicka sedan på **Välj ett fält**.
    1. Välj **Status**.
    1. Ändra operatorn till **Lika med** och skriv sedan _väntande godkännande_ i textrutan.
+
       ![Exempel på väntande godkännandetabellfilter](assets/pending-approval-table-filter.png)
    1. (Valfritt) Lägg till ytterligare filter enligt beskrivningen i avsnittet **Valfria filter** nedan.
 1. Klicka på **Spara** i skärmens övre högra hörn.
@@ -411,6 +422,7 @@ Om du vill visa mer specifik information beroende på hur du använder exemplet 
    1. Klicka på det tomma villkorsfiltret och klicka sedan på **Välj ett fält**.
    1. Välj **Dokumentversion** > **Dokument** > **Projekt** > **Ägare** > skriv _Namn_ i sökrutan.
    1. Ändra operatorn till **Lika med** och välj sedan **Jag (inloggad användare)** för att visa projekt i Workfront där du är markerad som projektägare.
+
       ![Exempel på väntande godkännandetabellfilter](assets/pending-approvals-my-project-filter.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -420,6 +432,7 @@ Om du vill visa mer specifik information beroende på hur du använder exemplet 
    1. Klicka på det tomma villkorsfiltret och klicka på **Välj ett fält**.
    1. Välj **Godkännandefas** > **Deltagare i godkännandefas** > **Beställare** > skriv _Namn_ i sökrutan.
    1. Ändra operatorn till **Lika med** och välj sedan **Jag (inloggad användare)** för att visa projekt i Workfront där du är markerad som projektägare.
+
       ![Exempel på väntande godkännandetabellfilter](assets/pending-approvals-my-project-filter.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -489,6 +502,7 @@ Om du vill visa mer specifik information beroende på hur du använder exemplet 
    1. Välj **Godkännandefas** > **Deadline**.
    1. Ändra operatorn till **Mindre än** och växla sedan **Ange relativt datum** till **ON**.
    1. Skriv _$$TODAY_ i textfältet.
+
       ![Exempel på förfallet godkännandetabellfilter](assets/overdue-approval.png)
    1. (Valfritt) Lägg till ytterligare filter enligt beskrivningen i avsnittet **Valfria filter** nedan.
 1. Klicka på **Spara** i skärmens övre högra hörn.
@@ -507,6 +521,7 @@ Om du vill visa mer specifik information beroende på hur du använder exemplet 
    1. Klicka på det tomma villkorsfiltret och klicka på **Välj ett fält**.
    1. Välj **Dokumentversion** > **Dokument** > **Projekt** > **Ägare** > skriv _Namn_ i sökrutan.
    1. Ändra operatorn till **Lika med** och välj sedan **Jag (inloggad användare)** för att visa projekt i Workfront där du är markerad som projektägare.
+
       ![Exempel på väntande godkännandetabellfilter](assets/pending-approvals-my-project-filter.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -516,6 +531,7 @@ Om du vill visa mer specifik information beroende på hur du använder exemplet 
    1. Klicka på det tomma villkorsfiltret och klicka på **Välj ett fält**.
    1. Välj **Godkännandefas** > **Deltagare i godkännandefas** > **Beställare** > skriv _Namn_ i sökrutan.
    1. Ändra operatorn till **Lika med** och välj sedan **Jag (inloggad användare)** för att visa projekt i Workfront där du är markerad som projektägare.
+
       ![Exempel på väntande godkännandetabellfilter](assets/pending-approvals-my-project-filter.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 
@@ -525,6 +541,7 @@ Om du vill visa mer specifik information beroende på hur du använder exemplet 
    1. Klicka på det tomma villkorsfiltret och klicka på **Välj ett fält**.
    1. Välj **Godkännandefas** > **Deltagare i godkännandefas** > **Deltagargrupp** > skriv _Namn_ i sökrutan.
    1. Ändra operatorn till **Lika med** och välj sedan **Mina standardteam (inloggad användare)** eller **Mina andra team (inloggad användare)** för att visa projekt som tilldelats ditt standardteam eller andra team som du är på.
+
       ![Exempel på väntande godkännandetabellfilter](assets/approvals-ive-submitted-filter.png)
 1. Klicka på **Spara** i skärmens övre högra hörn.
 +++
