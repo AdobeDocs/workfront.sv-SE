@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Du kan exportera poster och deras information från tabellvyn till en Excel- ell
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Ljus eller högre </p>
    <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ Du kan exportera poster och deras information från tabellvyn till en Excel- ell
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en vy</p>  
-   <p>Visa behörigheter till en vy om du tillfälligt vill ändra visningsinställningarna, duplicera eller exportera den.</p> </td> 
+   <td>   <p>Visa eller högre behörigheter i en vy</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>

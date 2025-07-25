@@ -5,9 +5,9 @@ title: Arbeta över tidszoner
 description: Det kan vara praktiskt att förstå hur  [!DNL Adobe Workfront]  använder tidszoner för att beräkna tidsfält för objekt och tider i andra områden, som e-postmeddelanden.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -58,25 +58,36 @@ Tidszonen för din organisations [!DNL Workfront]-instans anges vanligtvis för 
 
 ### Din användarprofil {#your-user-profile}
 
-Tidszonen i din användarprofil bör konfigureras för den plats där du arbetar. Detta avgör följande:
+Fältet Tidszon i användarens profil styr den tid som visas i dina utgående e-postmeddelanden.
+
+Tidszonen påverkar även vad som visas i en PTO-kalenderrapport.
+
+Mer information om hur du konfigurerar tidszonen i din användarprofil finns i [Konfigurera mina inställningar](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+
+Mer information om hur en [!DNL Workfront]-administratör (eller någon med [!UICONTROL Edit]-åtkomst till användare) kan konfigurera tidszonen i en användarprofil finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+### Webbläsarens tidszon
+
+Tidszonen i webbläsaren bör konfigureras för den plats där du arbetar. Detta avgör följande:
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* Tider för ett objekt som du arbetar med, till exempel start- och sluttider
+* Tider för ett objekt som du arbetar med, t.ex. start- och sluttider.
 
-  Om användare i flera tidszoner tilldelas till ett objekt, konverterar [!DNL Workfront] objekttiderna för alla inblandade med hjälp av den tidszon som konfigurerats i varje användarprofil.
+  Om användare i flera tidszoner tilldelas till ett objekt, konverterar [!DNL Workfront] objekttiderna för alla inblandade med hjälp av den tidszon som är konfigurerad i varje användares webbläsare.
 
-  **Exempel:** I EST-zonen (Eastern Standard Time), där du arbetar, ställer du in en aktivitet att starta vid 17:00 och tilldelar den till användare som arbetar i PST-zonen (Pacific Standard Time). För dessa användare visas starttiden som 1:00 PM. Om det skulle visas som 17:00 skulle de börja jobba på det tre timmar sent.
+  **EXEMPEL**
+I EST-zonen (Eastern Standard Time), där du arbetar, ställer du in en uppgift att starta vid 16.00 och tilldela den till användare som arbetar i PST-zonen (Pacific Standard Time). :00 För dessa användare visas starttiden som :00 PM. Om det skulle visas som 4:00 PM skulle de börja jobba på det tre timmar sent.
 
-  Om objektskaparen inte kan se skillnaden mellan de tilldelade tidszonerna och göra nödvändiga justeringar när objekttiderna anges, eller om de tilldelade inte noterar skillnaden, kan det vara svårt att få rätt timing medan alla samarbetar med objektet.
+  Om objektskaparen inte känner till skillnaden mellan de tilldelade tidszonerna och inte gör de nödvändiga justeringarna när objekttiderna anges, eller om de tilldelade inte vet den skillnaden, kan det vara svårt att få rätt timing medan alla samarbetar med objektet.
 
-  **Exempel:** Du konfigurerar en endagsuppgift så att den startar klockan 9:00 EST, och glömmer att vissa användare i aktiviteten arbetar i PST-zonen. För dem är starttiden 06:00. Eftersom de inte kommer att börja arbeta på den förrän klockan nio (mitt på dagen) börjar uppgiften och avslutas tre timmar sen.
+  **EXEMPEL**
 
-Mer information om hur du konfigurerar tidszonen i din användarprofil finns i [Konfigurera mina inställningar](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+  Du konfigurerar en endagsuppgift så att den startar kl. 9:00 EST, och glömmer att vissa användare arbetar med uppgiften i PST-zonen. För dem, starttid 6:00 förmiddag. Eftersom de inte kommer att börja arbeta med den förrän klockan nio på dagen (mitt på dagen) börjar aktiviteten och avslutas tre timmar senare.:00
 
-Mer information om hur en [!DNL Workfront]-administratör (eller någon med [!UICONTROL Edit]-åtkomst till användare) kan konfigurera tidszonen i en användarprofil finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Tidszonskonfigurationen skiljer sig mellan olika webbläsare. Mer information finns i respektive webbläsares dokumentation eller hjälpinformation.
 
 ## Hur man gör det enklare för användare att arbeta över tidszoner
 
@@ -110,7 +121,7 @@ Du kan hjälpa användare att arbeta enklare i flera tidszoner på flera sätt:
 >[!BEGINSHADEBOX]
 
 **EXEMPEL:**
-En EST-användare tilldelas en endagsuppgift som schemaläggs att starta kl. 9.00 PST, vilket är kl. 19.00 EST. Eftersom EST-användaren endast har två återstående arbetstimmar för dagen, sträcker sig slutdatumet för uppgiften med cirka 6 timmar till nästa arbetsdag.
+En EST-användare tilldelas en endagsuppgift som ska starta kl. 9.00 PST, vilket är kl. 16.00 EST. :00 Eftersom EST-användaren endast har två återstående arbetstimmar för dagen, sträcker sig slutdatumet för uppgiften med cirka 6 timmar till nästa arbetsdag.
 
 
 >[!ENDSHADEBOX]
