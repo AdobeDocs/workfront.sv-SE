@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ## Gränssnittsuppdateringar för listan över tidrapportprofiler i en grupp
 
-**Förhandsversion: 24 juli 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 24 juli 2025; Produktionsversion: 28 juli 2025**
 
 Vi har uppdaterat utseendet på listan över tidrapportprofiler i den vänstra panelen i en grupp för att matcha andra delar av programmet.
 
@@ -50,15 +50,23 @@ Exportknappen har flyttats till höger på sidan.
 
 Om du vill visa den här ändringen går du till Inställningar > Ändringsspårning > Granskningsloggar.
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## Gränssnittsuppdateringar för sidan Uppdatera användare för enkel inloggning i installationsprogrammet
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**Förhandsversion: 22 juli 2025; Produktionsversion: 28 juli 2025**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+Vi har uppdaterat sidan Uppdatera användare för enkel inloggning med en modernare design som är konsekvent med andra delar av Workfront.
 
-To view this change, go to Setup > System > Update Users For SSO-->
+Om du vill visa ändringen går du till Inställningar > System > Uppdatera användare för enkel inloggning
 
 ## Projekt
+
+## Gränssnittsuppdateringar för rutan Importera MS-projektfil
+
+**Förhandsversion: 24 juli 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat utseendet på rutan Importera MS-projektfil när vi importerar ett projekt från MS Project så att det matchar designen i andra delar av Workfront.
+
+Om du vill visa den här ändringen går du till Projekt > Nytt projekt > Importera MS-projekt.
 
 ## Gränssnittsuppdatering för rutan Lägg till en utgift för ett projekt eller en mall
 
