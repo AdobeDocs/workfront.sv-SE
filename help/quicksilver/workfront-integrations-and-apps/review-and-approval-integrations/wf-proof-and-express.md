@@ -7,12 +7,10 @@ description: Kom igång med korrektur och Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Konfigurera arbetsflöden för godkännande i Workfront
 
-Innan användare kan lägga till ett arbetsflöde för godkännande i en Express-mall måste en korrekturadministratör skapa ett arbetsflöde för godkännande i Workfront.
+Innan användare kan lägga till ett arbetsflöde för godkännande i en Express-mall måste en korrekturadministratör med en standardlicens skapa ett arbetsflöde för godkännande i Workfront.
 
 Mer information finns i [Skapa och hantera automatiska arbetsflödesmallar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
 
@@ -90,7 +88,9 @@ När en mall för arbetsflöde för godkännande har skapats i Workfront kan des
 
 När en Express-mall blandas om krävs ett godkännande före publicering, vilket automatiskt aktiverar det förkonfigurerade arbetsflödet för godkännande.
 
-Läs mer om hur du lägger till arbetsflöden för granskning och godkännande i delningsbara mallar. <!--need link to help article-->
+Användare måste ha en Workfront-licens av standardtyp för att kunna begära godkännande från Adobe Express.
+
+Lär dig hur du [får godkännande av designer](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Mixa om Express-mallar och skicka för granskning och godkännande
@@ -104,8 +104,8 @@ Under hela innehållsproduktionen, granskningen och godkännandeprocessen kan ma
 * Läs kommentarer
 * med mera
 
-Lär dig hur du får ett godkännande av en design.\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## Granska och godkänn färdigblandade Express-filer
 
@@ -113,8 +113,4 @@ Intressenter kan ge feedback som är relevant för deras expertområde - som kop
 
 De ansvarar också för att fatta slutgiltiga beslut för att godkänna innehållet så att det kan publiceras.
 
-Läs mer om hur du granskar och godkänner design i Workfront.
-
-
-Workfront Collaborator-licens - försöker komma på hur man arbetar med detta i
-
+Användarna måste ha minst licens för Collaborator Workfront för att kunna granska och fatta ett beslut.

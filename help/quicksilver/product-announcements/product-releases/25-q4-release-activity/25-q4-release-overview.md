@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-förbättringar
 
-<!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [Förbättringar av dokument och korrektur](#document-and-proofing-enhancements)
+  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [Andra förbättringar](#other-enhancements)
+
+### Förbättringar av dokument och korrektur
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Ny korrekturintegrering för Adobe Express</a><p></p>
+            <p>Vi är glada över att kunna presentera en ny integrering mellan Adobe Express och Workfront Proof.</p>
+            <ul>
+            <li>Effektivisera samarbetet mellan kreatörer, jurister och grupper som arbetar med regelefterlevnad och minska tiden för publicering samtidigt som ni upprätthåller tillsyn</li>
+            <li>Genomför djupgående granskningar med ritmarkeringar, kommentarer och kommentarer i Workfront korrekturläsare</li>
+            <li>Följ standarderna med elektroniska signaturer och fullständiga granskningsloggar</li>
+            <li>Kräv godkännande av ommixade filer från en Express-mall</li>
+            <li>Mappa en Express-mall till ett arbetsflöde för granskning och godkännande i flera steg med avancerade korrekturmallar</li>
+            </ul>
+        </td>
+        <td>28 juli 2025</td>
+        <td>28 juli 2025</td>
+        <td>28 juli 2025</td>
+    </tr>     
+  </tbody>
+</table>
 
 
 
@@ -109,7 +133,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -146,11 +170,11 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API version 20
 
-Workfront API version 20 släpptes den 4 maj 2024. För API-version 20 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
+Workfront API version 20 släpptes den 4 maj 2025. För API-version 20 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
 Information om nyheter och uppdateringar finns i [Nyheter i API-version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
@@ -158,8 +182,8 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
