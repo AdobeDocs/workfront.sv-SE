@@ -9,18 +9,28 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Under den här övergångsprocessen kommer följande Workfront för Google Workspace-funktioner inte att vara tillgängliga efter **28 februari 2026**:
+>
+>* Åtkomst till Google Workspace-funktioner inifrån Workfront
+>
+>* Visa och hantera Workfront-uppgifter från Gmail eller Google Calendar-webbplatspanelen
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 [!DNL Adobe Workfront for Google Workspace] ansluter dig till ditt viktigaste arbete och gör att du kan samarbeta med andra medan du stannar inom [!DNL Gmail], [!DNL Google Calendar] och [!DNL Google Drive]. Utan att lämna dessa program kan du hämta e-postbegäranden eller arbetsuppdateringar och lägga till dem i [!DNL Workfront]. Du kan kontrollera vad som händer i [!DNL Workfront], inklusive förfallodatum, prioritet, dokument, uppdateringar och ytterligare kontext, utan att lämna din inkorg. Du kan fatta beslut om godkännande, besvara kommentarer eller godkänna nya arbetsförfrågningar. Och ni kan konvertera era e-postmeddelanden till antingen personliga projektuppgifter eller tilldela arbete och prioritet till andra.
 

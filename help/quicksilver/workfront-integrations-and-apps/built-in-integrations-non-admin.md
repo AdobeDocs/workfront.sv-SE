@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations
-keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
+keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront inbyggda integreringsöversikt
 description: Du kan integrera [!DNL Adobe Workfront] med tredjepartsprogram. Dessa integreringar kan utöka verktyget för  [!DNL Workfront]  och anpassa det efter organisationens behov. Om du till exempel arbetar kreativt i marknadsföringsbranschen kan du använda Adobe Creative Cloud-tillägget för att exportera mediefiler direkt från Photoshop till Workfront.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
      <li>After Effects </li>
      </ul>
      <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a>.</p> </td> 
+     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets och Assets Essentials </p>  </p> </td> 
@@ -72,27 +72,10 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Lägga till ett Google Workspace-e-postmeddelande till ett projekt eller en uppgift </li> 
-     <li>Visa och hantera [!DNL Workfront] meddelanden i Gmail</li> 
-     <li>Skicka begäranden via Gmail </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Google Drive</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>Länka dokument och mappar till [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Skapa nya biljetter i [!DNL Jira] baserat på uppgifter och problem i [!DNL Workfront]</li> 
-     <li>Synkronisera uppdateringar och status för länkade aktiviteter mellan [!DNL Workfront] och [!DNL Jira] </li> 
     </ul> </td> 
   </tr> 
   <!--<tr> 
@@ -128,21 +111,6 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
      <li>Sök efter [!DNL Workfront] projekt, uppgifter och ärenden </li> 
      <li>Skapa [!DNL Workfront] personliga uppgifter </li> 
      <li>Skicka [!DNL Workfront] förfrågningar </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Skapa nya [!DNL Workfront]-begäranden från [!DNL Salesforce] </li> 
-     <li>Skapa [!DNL Workfront] projekt från [!DNL Salesforce]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Länka dokument och mappar till [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -2,18 +2,28 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-salesforce
 title: Skapa [!DNL Adobe Workfront] projekt från [!DNL Salesforce] objekt
-description: När du har installerat [!DNL Adobe Workfront] för Salesforce kan du definiera utlösare som skapar  [!DNL Workfront] projekt när vissa villkor uppfylls för  [!DNL Salesforce] säljprojekt och konton.
+description: När du har installerat [!DNL Adobe Workfront] för Salesforce kan du definiera utlösare som skapar [!DNL Workfront] projekt när vissa villkor uppfylls för  [!DNL Salesforce] säljprojekt och konton.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
 
 # Skapa [!DNL Adobe Workfront] projekt från [!DNL Salesforce]-objekt
+
+>[!IMPORTANT]
+>
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Integreringen av Workfront för Salesforce kommer inte att vara tillgänglig efter den **28 februari 2026**.
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 När du har installerat [!DNL Adobe Workfront] för Salesforce kan du definiera utlösare som skapar [!DNL Workfront]-projekt när vissa villkor uppfylls för [!DNL Salesforce] [!UICONTROL Opportunities] och [!UICONTROL Accounts].
 
@@ -91,7 +101,7 @@ När du har konfigurerat utlösarna aktiveras processen för att skapa [!DNL Wor
 Konfigurera utlösare i [!UICONTROL Salesforce]:
 
 1. Logga in på [!DNL Salesforce] som systemadministratör.
-1. (Villkorligt) Klicka på **[!UICONTROL Setup]** i [!DNL Salesforce Classic] och expandera **[!UICONTROL Lightning Bolt]** under avsnittet **[!UICONTROL Build]**.
+1. (Villkorligt) Klicka på [!DNL Salesforce Classic] i **[!UICONTROL Setup]** och expandera **[!UICONTROL Build]** under avsnittet **[!UICONTROL Lightning Bolt]**.
 
    eller
 
@@ -110,7 +120,7 @@ Konfigurera utlösare i [!UICONTROL Salesforce]:
    ![salesforce_triggers_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
 
 1. Klicka på **[!UICONTROL New Trigger]**.
-1. Välj **[!UICONTROL Opportunity]** i listrutan **[!UICONTROL [!DNL Salesforce] Object]**.
+1. Välj **[!UICONTROL [!DNL Salesforce] Object]** i listrutan **[!UICONTROL Opportunity]**.
 
    Detta är ett obligatoriskt fält.
 
@@ -120,9 +130,9 @@ Konfigurera utlösare i [!UICONTROL Salesforce]:
 
       När en affärsmöjlighet når den [!UICONTROL Stage] som anges här skapas ett projekt i [!DNL Workfront]. Detta är ett obligatoriskt fält.
 
-   1. I fältet **[!UICONTROL Portfolio or Program]** börjar du skriva namnet på ett Portfolio eller program där du vill att projektet ska placeras i [!DNL Workfront] och sedan markera det när det visas i listan.\
+   1. I fältet **[!UICONTROL Portfolio or Program]** börjar du skriva namnet på en Portfolio eller ett program där du vill att projektet ska placeras i [!DNL Workfront] och markerar det sedan när det visas i listan.\
 
-      Om du inte anger ett Portfolio eller ett program skapas det nya projektet och läggs till i listan [!UICONTROL Projects I Own] för den användare som är inloggad på [!DNL Workfront] när utlösarna konfigureras. Användaren är också projektägare för det nya projektet.
+      Om du inte anger en Portfolio eller ett program skapas det nya projektet och läggs till i listan [!UICONTROL Projects I Own] för användaren som är inloggad på [!DNL Workfront] när utlösarna konfigureras. Användaren är också projektägare för det nya projektet.
 
    1. Börja skriva namnet på en mall som du vill associera med det nya [!DNL Workfront]-projektet och markera det sedan när det visas i listan.\
 
@@ -149,7 +159,7 @@ Konfigurera utlösare i [!UICONTROL Salesforce]:
       >Projektet skapas endast när scenen uppdateras på [!UICONTROL Opportunity]. Ett unikt projekt skapas för varje produkt som anges när scenfältet uppdateras, och inte när produkterna läggs till i [!UICONTROL Opportunities].
 
 1. (Valfritt) Klicka på **[!UICONTROL New Trigger]**.
-1. (Valfritt) Välj **Konto i listrutan &#x200B;** [!UICONTROL [!DNL Salesforce] Object]**
+1. (Valfritt) Välj **Konto i listrutan **[!UICONTROL [!DNL Salesforce] Object]**
 **.
 
    Detta är ett obligatoriskt fält.
@@ -158,13 +168,13 @@ Konfigurera utlösare i [!UICONTROL Salesforce]:
    1. Välj en **[!UICONTROL Type]** i listrutan **[!UICONTROL Type]**.
 
       Vid ett **konto
-**&#x200B; anges som &#x200B;** [!UICONTROL Type] **&#x200B; som anges här i [!DNL Salesforce], en &#x200B;** [!UICONTROL Project]** skapas i [!DNL Workfront].
+** anges som **[!UICONTROL Type]** som anges här i [!DNL Salesforce], en **[!UICONTROL Project]** skapas i [!DNL Workfront].
 
       Detta är ett obligatoriskt fält.
 
    1. (Valfritt) Börja skriva namnet på **[!UICONTROL Portfolio]** eller **[!UICONTROL Program]** där du vill att projektet ska placeras i [!DNL Workfront] i fältet **[!UICONTROL Portfolio or Program]** och markera det sedan när det visas i listan.
 
-      Om du inte anger ett Portfolio eller ett program skapas det nya projektet och läggs till i listan **[!UICONTROL Projects I Own]** för den användare som är inloggad på [!DNL Workfront] från [!DNL Salesforce]. Användaren är också projektägare för det nya projektet.
+      Om du inte anger en Portfolio eller ett program skapas det nya projektet och läggs till i listan **[!UICONTROL Projects I Own]** för användaren som är inloggad på [!DNL Workfront] från [!DNL Salesforce]. Användaren är också projektägare för det nya projektet.
 
    1. Börja skriva namnet på **[!UICONTROL Template]** som du vill associera med det nya [!DNL Workfront]-projektet och markera det sedan när det visas i listan.
 

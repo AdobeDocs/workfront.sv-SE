@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7c7697936da90d17599d90b69265f62221185569
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2765'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 0%
 # Skapa och skicka begäranden
 
 <!--Audited: 12/2023-->
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
-<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
-</div>
--->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -383,9 +375,6 @@ Du kan skicka in begäranden med alla program som har integrerats med Workfront:
 
 * Du kan skapa en anpassad integrering mellan Workfront och ett annat program som gör att du kan skicka begäranden till Workfront från det andra programmet.\
   Mer information om anpassade Workfront-integreringar finns i artikeln [Adobe Workfront-integreringar](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
-
-* Du kan skicka in förfrågningar från Salesforce om du har installerat Workfront-appen för Salesforce.\
-  Mer information om hur du skickar begäranden från Salesforce med vår Workfront-app för Salesforce finns i artikeln [Skicka Adobe Workfront-begäranden från Salesforce-objekt](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Skapa begäranden med hjälp av ett Workfront Planning-formulär
 

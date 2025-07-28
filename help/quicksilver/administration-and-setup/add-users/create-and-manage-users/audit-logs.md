@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Systemet genererar en loggpost på åtkomstnivå när en användare utför någo
 * Ändrar en åtkomstnivå:
 
    * Ändrar licenstypen
-   * Ändrar behörigheter till projekt, uppgifter, ärenden, Portfolio, program, rapporter, dokument, användare eller mallar
+   * Ändrar behörigheter till projekt, uppgifter, ärenden, portfolior, program, rapporter, dokument, användare eller mallar
 
      >[!NOTE]
      >
@@ -257,7 +257,7 @@ Mer information om hur du konfigurerar jobbroller finns i [Skapa och hantera job
 Systemet genererar en inloggningsförsöksloggpost när en användare utför någon av följande åtgärder:
 
 * Loggar in, loggar ut eller misslyckas med ett inloggningsförsök i Workfront (i en webbläsare och i mobilappen)
-* Loggar in, loggar ut eller misslyckas med inloggningsförsök i Workfront-integrering (som Workfront för Slack och Workfront för Salesforce)
+* Loggar in, loggar ut eller misslyckas med ett inloggningsförsök i någon Workfront-integrering (t.ex. Workfront för Slack)
 * Loggar in eller loggar ut från Workfront API
 
 Inloggningsförsöksloggar registreras inte när en Workfront-administratör använder funktionen Logga in som.

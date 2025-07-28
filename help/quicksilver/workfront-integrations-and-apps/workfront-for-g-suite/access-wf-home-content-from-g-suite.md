@@ -7,18 +7,28 @@ description: Du kan komma åt ditt [!DNL Adobe Workfront] Home-innehåll, inklus
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
 # Åtkomst till [!DNL Adobe Workfront] [!UICONTROL Home]-innehåll från [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Under den här övergångsprocessen kommer följande Workfront för Google Workspace-funktioner inte att vara tillgängliga efter **28 februari 2026**:
+>
+>* Åtkomst till Google Workspace-funktioner inifrån Workfront
+>
+>* Visa och hantera Workfront-uppgifter från Gmail eller Google Calendar-webbplatspanelen
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Du kan komma åt ditt [!DNL Adobe Workfront] [!UICONTROL Home]-innehåll, inklusive alla uppgifter, ärenden, godkännanden och åtkomstbegäranden som tilldelats dig, utan att lämna Google Workspace.
 
@@ -56,7 +66,7 @@ Innan du kan komma åt [!UICONTROL Home]-innehåll från [!DNL Google Workspace]
 1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Om du ser en vänsterpil högst upp i [!DNL Workfront] för [!DNL Google Workspace] klickar du på pilen för att gå till området [!UICONTROL Home].
 
-1. Klicka på den expanderade pilen ![Expandera pil](assets/dropdown-arrow.png) i området **[!UICONTROL Sort by]** och klicka sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du söker.
+1. Klicka på den expanderade pilen **[!UICONTROL Sort by]** Expandera pil![ i området ](assets/dropdown-arrow.png) och klicka sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du söker.
 
    När du sorterar efter **[!UICONTROL Commit date]** eller **[!UICONTROL Planned completion]** datum är de äldsta arbetsobjekten högst upp.
 

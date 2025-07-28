@@ -6,14 +6,24 @@ description: Efter installation av [!DNL Adobe Workfront] för [!DNL Salesforce]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
 # Skicka [!DNL Adobe Workfront] förfrågningar från [!DNL Salesforce] objekt
+
+>[!IMPORTANT]
+>
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Integreringen av Workfront för Salesforce kommer inte att vara tillgänglig efter den **28 februari 2026**.
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 När du har installerat [!DNL Adobe Workfront for Salesforce] kan du skicka [!DNL Workfront] förfrågningar från [!DNL Salesforce] säljprojekt och konton. Den här funktionaliteten finns i både [!DNL Classic]- och [!DNL Lightning Experience]-ramverket.
 

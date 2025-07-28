@@ -7,20 +7,30 @@ description: När du öppnar ett e-postmeddelande som har skickats från Adobe [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # Hantera meddelandeinformation för [!DNL Adobe Workfront] från [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Under den här övergångsprocessen kommer följande Workfront för Google Workspace-funktioner inte att vara tillgängliga efter **28 februari 2026**:
+>
+>* Åtkomst till Google Workspace-funktioner inifrån Workfront
+>
+>* Visa och hantera Workfront-uppgifter från Gmail eller Google Calendar-webbplatspanelen
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-När du öppnar ett e-postmeddelande som [!DNL Adobe Workfront] har skickat i [!DNL Google Workspace] kan du visa den associerade arbetsuppgiftens information och svara utan att lämna din [!UICONTROL Inbox]. Om det finns tillgängliga åtgärder, till exempel godkännande av en begäran, kan du utföra dessa åtgärder direkt från [!DNL Workfront for Google Workspace].
+När du öppnar ett e-postmeddelande som [!DNL Google Workspace] har skickat i [!DNL Adobe Workfront] kan du visa den associerade arbetsuppgiftens information och svara utan att lämna din [!UICONTROL Inbox]. Om det finns tillgängliga åtgärder, till exempel godkännande av en begäran, kan du utföra dessa åtgärder direkt från [!DNL Workfront for Google Workspace].
 
 >[!NOTE]
 >
@@ -57,7 +67,7 @@ Innan du kan hantera meddelandeinformation från [!DNL Google Workspace] måste 
 ## Hantera meddelandeinformation för [!DNL Adobe Workfront] från [!DNL Google Workspace]
 
 1. Om panelen [!DNL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
-1. Öppna ett [!DNL Workfront]-meddelande i [!DNL Google Workspace].
+1. Öppna ett [!DNL Google Workspace]-meddelande i [!DNL Workfront].
 1. Klicka på **[!UICONTROL View all updates]** om den visas nära panelens övre del.
 1. Klicka på **[!UICONTROL Details]**.
 1. Klicka på eventuella tillgängliga alternativ.

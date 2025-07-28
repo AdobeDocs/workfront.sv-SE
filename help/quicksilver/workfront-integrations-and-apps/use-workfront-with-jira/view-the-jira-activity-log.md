@@ -6,14 +6,26 @@ description: Som  [!DNL Jira] administratör kan du visa de undantag och fel som
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # Visa [!UICONTROL [!DNL Jira] Activity Log]
+
+>[!IMPORTANT]
+>
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Som en del av den här övergångsprocessen kommer integreringen av Workfront för Jira inte att vara tillgänglig efter **28 februari 2026**.
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Jira.
+>
+>Åtta färdiga mallar för automatisering och integrering av Workfront för Jira kommer att vara tillgängliga i augusti för att hjälpa till att replikera vanliga arbetsflöden och snabba upp implementeringen. Mallarna är helt anpassningsbara för att uppfylla specifika affärsbehov och kan utökas i takt med att behoven utvecklas.
+> 
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration Module för Jira finns i [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 Som [!DNL Jira]-administratör kan du visa de undantag och fel som inträffar under synkroniseringen eller skapandet av biljetterna mellan [!DNL Adobe Workfront] och [!DNL Jira] i en [!UICONTROL Activity Log].
 

@@ -6,14 +6,24 @@ description: När du har installerat [!DNL Adobe Workfront] för Salesforce som 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '714'
+ht-degree: 0%
 
 ---
 
 # Konfigurera avsnittet [!DNL Adobe Workfront] för [!DNL Salesforce]-användare
+
+>[!IMPORTANT]
+>
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Integreringen av Workfront för Salesforce kommer inte att vara tillgänglig efter den **28 februari 2026**.
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 En [!UICONTROL Pro] [!DNL Workfront]-plan krävs för att använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer.](https://business.adobe.com/products/workfront/pricing.html)
 
@@ -54,7 +64,7 @@ Du måste ha följande åtkomst för att kunna använda de funktioner som beskri
 
 1. Logga in på [!DNL Salesforce] som Workfront-administratör.
 1. Klicka på **[!UICONTROL Setup].**
-1. Expandera **[!UICONTROL Customize]i avsnittet &#x200B;** [!UICONTROL Build]&#x200B;**.**
+1. Expandera **[!UICONTROL Build]** i avsnittet **[!UICONTROL Customize].**
 
 1. Expandera **[!UICONTROL Opportunities]** och klicka sedan på **[!UICONTROL Page Layouts]** för att lägga till avsnittet [!DNL Workfront] i ett säljprojekt.
 
@@ -80,7 +90,7 @@ Du måste ha följande åtkomst för att kunna använda de funktioner som beskri
    Vi rekommenderar att du väljer layouten **[!UICONTROL 1-Column]** för avsnittet [!DNL Workfront].
 
 1. Klicka på **[!UICONTROL OK]**.
-1. Klicka på **[!UICONTROL Visualforce Pages]i området &#x200B;** [!UICONTROL Layout]&#x200B;**.**
+1. Klicka på **[!UICONTROL Layout]** i området **[!UICONTROL Visualforce Pages].**
 
 1. Dra och släpp komponenten **[!UICONTROL WorkfrontOpportunities]** till det nya avsnittet i layouten **[!UICONTROL Opportunities]**.
 

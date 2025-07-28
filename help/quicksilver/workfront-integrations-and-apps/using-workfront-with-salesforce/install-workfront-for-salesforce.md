@@ -2,14 +2,14 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Installera [!DNL Adobe Workfront] för [!DNL Salesforce]
-description: Om du vill installera appen innan den blir tillgänglig på  [!DNL Salesforce] AppExchangen läser du Installera [!DNL Workfront] för Salesforce innan den blir tillgänglig på AppExchange Marketplace.
+description: Information om hur du installerar appen innan den blir tillgänglig i  [!DNL Salesforce] AppExchange finns i Installera [!DNL Workfront] för Salesforce innan den blir tillgänglig på AppExchange Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 1%
+source-wordcount: '929'
+ht-degree: 0%
 
 ---
 
@@ -17,11 +17,17 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Information om hur du installerar appen innan den blir tillgänglig i [!DNL Salesforce AppExchange] finns i [Installera [!DNL Workfront for Salesforce] innan den blir tillgänglig på  [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Integreringen av Workfront för Salesforce kommer inte att vara tillgänglig efter den **28 februari 2026**.
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-Som [!DNL Salesforce]- och [!DNL Adobe Workfront]-administratör kan du installera [!DNL Workfront for Salesforce] så att dina [!DNL Salesforce]-användare kan skicka [!DNL Workfront] förfrågningar och automatiskt skapa projekt utan att någonsin behöva lämna Salesforce.
+Som [!DNL Salesforce]- och [!DNL Adobe Workfront]-administratör kan du installera [!DNL Workfront for Salesforce] så att dina [!DNL Salesforce]-användare kan skicka in [!DNL Workfront]-begäranden och automatiskt skapa projekt utan att någonsin behöva lämna Salesforce.
 
 En allmän förståelse för vad du kan förvänta dig genom att installera [!DNL Workfront for Salesforce] finns i [[!DNL Adobe Workfront for Salesforce] översikt](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md).
 
@@ -61,7 +67,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * Skapa [!DNL Workfront] förfrågningar från [!DNL Salesforce]
    * Visa [!DNL Workfront] förfrågningar eller projekt i Salesforce
 
-## Installerar [!DNL Workfront for Salesforce] {#installing-workfront-for-salesforce}
+## Installerar [!DNL Workfront for Salesforce]  {#installing-workfront-for-salesforce}
 
 Du måste vara [!DNL Salesforce] och [!DNL Workfront]-systemadministratör för att kunna installera och konfigurera [!DNL Workfront for Salesforce].
 
@@ -87,7 +93,7 @@ Så här installerar du appen innan den blir tillgänglig:
 
    >[!NOTE]
    >
-   >Du måste vara inloggad i Salesforce för att få tillgång till dessa sidor.
+   >Du måste vara inloggad på Salesforce för att få tillgång till dessa sidor.
 
 1. Markera rutan **[!UICONTROL Yes, grant access to these third-party web sites]**.
 
@@ -157,17 +163,17 @@ Till exempel *yourDomain.my.workfront.com*.
 1. Logga in på [!DNL Salesforce] som systemadministratör.
 1. Klicka på ikonen **[!UICONTROL Setup]** och sedan på **[!UICONTROL Setup]**.
 
-1. Expandera **[!UICONTROL Apps]i avsnittet &#x200B;** [!UICONTROL PLATFORM TOOLS]&#x200B;**.**
+1. Expandera **[!UICONTROL PLATFORM TOOLS]** i avsnittet **[!UICONTROL Apps].**
 
 1. Klicka på **[!DNL AppExchange Marketplace]**.
-1. Skriv **[!DNL Workfront]** i rutan **[!UICONTROL Search [!DNL AppExchange] Apps]**.
+1. Skriv **[!UICONTROL Search [!DNL AppExchange] Apps]** i rutan **[!DNL Workfront]**.
 
 1. Klicka på Workfront-appen när du hittar den och klicka sedan på **Hämta nu**.
 1. Klicka på **[!UICONTROL Open Login Screen]**.\
    Du måste logga in med ditt [!DNL Workfront]-administratörskonto för [!DNL Salesforce].
 
 1. Klicka på **[!UICONTROL Allow]**.
-1. Klicka på **[!UICONTROL Install Here]** i rutan **[!UICONTROL Install in This Org]** för att installera [!DNL Workfront] i din [!DNL Salesforce] produktionsmiljö. (rekommenderas)
+1. Klicka på **[!UICONTROL Install in This Org]** i rutan **[!UICONTROL Install Here]** för att installera [!DNL Workfront] i din [!DNL Salesforce] produktionsmiljö. (rekommenderas)
 
 1. Aktivera fältet **[!UICONTROL I have read and agree to the terms and conditions]** när du har läst och godkänt villkoren.
 1. Klicka på **[!UICONTROL Confirm and Install]**.
@@ -180,7 +186,7 @@ Till exempel *yourDomain.my.workfront.com*.
    Appen [!DNL Workfront] visas under **[!UICONTROL Installed Packages]**.
 
 1. Navigera till **[!UICONTROL Setup].**
-1. Expandera **[!UICONTROL Security]i avsnittet &#x200B;** [!UICONTROL SETTINGS]&#x200B;**.**
+1. Expandera **[!UICONTROL SETTINGS]** i avsnittet **[!UICONTROL Security].**
 
 1. Klicka på **[!UICONTROL Remote Site Settings]**.
 1. (Villkorligt) Om du inte ser din [!DNL Workfront]-URL i listan **[!UICONTROL All Remote Sites]** klickar du på **[!UICONTROL New Remote Site]**.
@@ -198,7 +204,7 @@ Till exempel *yourDomain.my.workfront.com*.
    [!UICONTROL Salesforce]-användare kan använda appen [!DNL Workfront] när du har lagt till avsnittet [!DNL Workfront] i sina [!UICONTROL Opportunity]- eller [!UICONTROL Account]-sidlayouter.\
    Mer information om hur du konfigurerar avsnittet [!DNL Workfront] för användare finns i [Konfigurera avsnittet  [!DNL Adobe Workfront] Konfigurera för [!DNL Salesforce] användare](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-## Konfigurera behörigheter för Workfront för Salesforce-integrering
+## Konfigurera behörigheter för integrering med Workfront för Salesforce
 
 ### Behörigheter för `workfront_business`
 

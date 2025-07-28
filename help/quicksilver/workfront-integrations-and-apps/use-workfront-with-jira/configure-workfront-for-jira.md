@@ -6,9 +6,9 @@ description: Du kan använda  [!DNL Adobe Workfront for Jira] för att integrera
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 # Konfigurera [!DNL Adobe Workfront for Jira]
 
 <!-- Audited: 12/2023 -->
+
+>[!IMPORTANT]
+>
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Som en del av den här övergångsprocessen kommer integreringen av Workfront för Jira inte att vara tillgänglig efter **28 februari 2026**.
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Jira.
+>
+>Åtta färdiga mallar för automatisering och integrering av Workfront för Jira kommer att vara tillgängliga i augusti för att hjälpa till att replikera vanliga arbetsflöden och snabba upp implementeringen. Mallarna är helt anpassningsbara för att uppfylla specifika affärsbehov och kan utökas i takt med att behoven utvecklas.
+> 
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration Module för Jira finns i [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 Du kan använda [!DNL Adobe Workfront for Jira] för att integrera dina [!DNL Jira]- och [!DNL Workfront]-system.
 
@@ -25,7 +37,7 @@ Alla användare i [!DNL Workfront] och [!DNL Jira] kan dra nytta av den här int
 
 Det här tillägget är tillgängligt för både [!UICONTROL Server]- och [!UICONTROL OnDemand]- (eller [!UICONTROL Cloud]) versionerna av programvaran [!DNL Jira].
 
-En lista över [!DNL Jira] versioner som [!DNL Workfront for Jira] har stöd för finns på [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) på [!DNL Atlassian Marketplace].
+En lista över [!DNL Jira] versioner som [!DNL Workfront for Jira] har stöd för finns på [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) på [!DNL Atlassian Marketplace].
 
 ## Åtkomstkrav
 
@@ -82,7 +94,7 @@ Genom att konfigurera [!DNL Workfront for Jira] kan du:
 
 >[!NOTE]
 >
->* När du har konfigurerat [!DNL Workfront for Jira] i [!DNL Jira]-miljön visas en [!DNL Workfront] högerpanel för alla [!DNL Jira]-objekt för alla [!DNL Jira]-användare. Panelen innehåller information om objekt som kan vara länkade från [!DNL Workfront] eller anger att inga [!DNL Workfront]-objekt är länkade till [!DNL Jira]-objekt.
+>* När du har konfigurerat [!DNL Workfront for Jira] i [!DNL Jira]-miljön visas en [!DNL Jira] högerpanel för alla [!DNL Workfront]-objekt för alla [!DNL Jira]-användare. Panelen innehåller information om objekt som kan vara länkade från [!DNL Workfront] eller anger att inga [!DNL Workfront]-objekt är länkade till [!DNL Jira]-objekt.
 >* När du använder installationen av [!DNL Jira Server] visas endast de problem som är kopplade till projekt som identifieras som utlösare för Workfront-integreringen på Workfront-panelen. Mer information om hur du ställer in utlösare för arbetsflödet [!DNL Workfront to Jira] finns i [Konfigurera utlösare för automatisk länkning av objekt mellan  [!DNL Jira]  och [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
 >
 
@@ -169,7 +181,7 @@ Så här konfigurerar du utlösare för att automatiskt skapa objekt i [!DNL Jir
 
 1. Klicka på **[!UICONTROL Save]**.
 
-   Med den här konfigurationen skapas ett nytt problem i [!DNL Jira] varje gång en [!DNL Workfront]-användare skapar ett objekt som matchar de angivna utlösarna.
+   Med den här konfigurationen skapas ett nytt problem i [!DNL Workfront] varje gång en [!DNL Jira]-användare skapar ett objekt som matchar de angivna utlösarna.
 
 ## Konfigurera fältsynkronisering mellan [!DNL Jira] och [!DNL Workfront] objekt
 

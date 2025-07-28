@@ -6,14 +6,24 @@ draft: Probably
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5089fd81-c094-487b-8ffa-e4d2ba2e4ae6
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront för [!DNL Salesforce]
+
+>[!IMPORTANT]
+>
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Integreringen av Workfront för Salesforce kommer inte att vara tillgänglig efter den **28 februari 2026**.
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Salesforce.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Du kan använda [!DNL Adobe Workfront] för [!DNL Salesforce] för att integrera dina [!DNL Salesforce]- och [!DNL Workfront]-system. I artiklarna i det här avsnittet beskrivs hur du installerar, konfigurerar och använder [!DNL Workfront] för Salesforce.
 

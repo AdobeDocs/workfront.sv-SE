@@ -7,18 +7,28 @@ description: Du kan uppdatera ett befintligt projekt, en uppgift eller ett probl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
 
 # Uppdatera ett [!DNL Adobe Workfront]-objekt från [!DNL Google Workspace] med e-postinnehåll
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
+>För att kunna leverera mer stabila och skalbara integreringar går vi över till en modern, flexibel integrationsstrategi med hjälp av Workfront Automation and Integration (Fusion). Under den här övergångsprocessen kommer följande Workfront för Google Workspace-funktioner inte att vara tillgängliga efter **28 februari 2026**:
+>
+>* Åtkomst till Google Workspace-funktioner inifrån Workfront
+>
+>* Visa och hantera Workfront-uppgifter från Gmail eller Google Calendar-webbplatspanelen
+>
+>Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
+>
+>En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Google Workspace finns i [Gmail-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) och [Google Calendar-moduler](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Du kan uppdatera ett befintligt projekt, en uppgift eller ett problem med information från ett e-postmeddelande som inte är [!DNL Adobe Workfront].
 

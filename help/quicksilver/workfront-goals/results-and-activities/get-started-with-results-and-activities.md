@@ -7,7 +7,7 @@ description: Du måste lägga till resultat, aktiviteter eller anpassade mål ti
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -67,10 +67,6 @@ Tänk på följande när du arbetar med resultat:
 
 * De svarar på frågan&quot;Hur vet jag när mitt mål är klart?&quot;
 * De är mätindikatorer. Du kan välja mellan följande alternativ för att ange förloppet för resultatet:
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * Valuta
    * Nummer
