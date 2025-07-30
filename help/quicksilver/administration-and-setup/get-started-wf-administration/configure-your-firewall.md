@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/se/enterprise/kb/network-endpoints.html).
+>Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe appar och tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -74,9 +74,7 @@ Mer information finns i avsnittet [Visa din organisations kluster och Workfront-
 >
 >Vissa Workfront-integreringar fungerar inte när tillåtelselista är aktiverat eftersom de inte kan konfigureras med en statisk IP-adress. Om du vill använda följande integreringar måste du inaktivera tillåtelselista.
 >
->* Workfront för Google Workspace
 >* Workfront för Outlook
->* Workfront för Salesforce
 
 * [IP-adresser som tillåter kluster 1, 2, 3, 5, 7, 8 och 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-adresser som tillåter kluster 4](#ip-addresses-to-allow-for-cluster-4)

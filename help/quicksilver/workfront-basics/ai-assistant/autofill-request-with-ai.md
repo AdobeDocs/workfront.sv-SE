@@ -5,9 +5,9 @@ description: Du kan använda AI för att fylla i begärandefält automatiskt.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Den här funktionen är för närvarande en del av en sluten betaversion. Kontakta sargism@adobe.com om du vill aktivera den här funktionen.
+>Den här funktionen är för närvarande en del av en sluten betaversion. Kontakta `sargism@adobe.com` om du vill aktivera den här funktionen.
 >
 >För att bli berättigad till en sluten betaversion måste din organisation uppfylla kraven för att få använda Workfront AI Assistant. Mer information finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
@@ -25,6 +25,8 @@ AI kan hjälpa dig att fylla i begärandefält automatiskt. Den kan föreslå f�
 Du kan godkänna eller avvisa dessa förslag innan du skickar in begäran.
 
 Autofyll skriver inte över fält som du redan har fyllt i.
+
+Användarna får inga förslag på data som de annars inte har tillgång till.
 
 ## Få förslag när du fyller i formulär
 
@@ -162,4 +164,12 @@ Du kan överföra ett dokument som ska användas på hela formuläret eller till
    eller
 
    Välj **Acceptera alla** eller **Ignorera alla** överst på sidan om du vill acceptera eller ignorera alla förslag.
+
+## Felsökning
+
+Om du inte får de förväntade förslagen kan det bero på något av följande:
+
+* Du måste ha minst en månads begärandedata i systemet innan det kan föreslå fältvärden från tidigare begäranden.
+* En datapost för begäran måste ha funnits i systemet i mer än 24 timmar innan den kan föreslås i en annan begäran.
+* Du kanske inte har följt upp dokumentets överföringsskyddsutkast när du överför ett dokument för att hämta förslag. Mer information finns i [Dokumentöverföringsskyddsutkast](#document-upload-guardrails) i den här artikeln.
 
