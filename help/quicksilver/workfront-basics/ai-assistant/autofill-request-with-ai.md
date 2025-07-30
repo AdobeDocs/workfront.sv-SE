@@ -5,9 +5,9 @@ description: Du kan använda AI för att fylla i begärandefält automatiskt.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,5 @@ Du kan överföra ett dokument som ska användas på hela formuläret eller till
 Om du inte får de förväntade förslagen kan det bero på något av följande:
 
 * Du måste ha minst en månads begärandedata i systemet innan det kan föreslå fältvärden från tidigare begäranden.
-* En datapost för begäran måste ha funnits i systemet i mer än 24 timmar innan den kan föreslås i en annan begäran.
 * Du kanske inte har följt upp dokumentets överföringsskyddsutkast när du överför ett dokument för att hämta förslag. Mer information finns i [Dokumentöverföringsskyddsutkast](#document-upload-guardrails) i den här artikeln.
 
