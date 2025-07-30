@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -322,7 +322,7 @@ Tänk på följande när du visar uppdateringar för användare och team:
 
    * Lägga till, ta bort och andra dokumentuppdateringar
    * Timtillägg, borttagning, tillägg för och andra timinguppdateringar
-   * Anteckningar, uppdateringar av anpassade fält
+   * Uppdateringar av anpassade fält
    * Uppdateringar av användarprofilen (uppdateringar av användarens avatar, mobilnummer, prata med mig om fält, titel)
    * Lägga till användare, ta bort, ändra åtkomstnivå, ändringar i inbyggda användarfält
    * Ekonomisk information från uppgifter och projekt.

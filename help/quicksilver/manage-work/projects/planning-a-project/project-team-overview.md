@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Översikt över projektgruppen
-description: Användare som är associerade med ett projekt i viss kapacitet utgör projektteamet. Användare som visas under området Personer i ett projekt är de användare som utgör projektteamet.
+description: Användare som är associerade med ett projekt i viss kapacitet utgör projektteamet. Användare som listas under området Personer i ett projekt eller en mall är de användare som utgör projektteamet.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 Ett projektteam består av användare som är kopplade till ett projekt i någon form. Användare som listas under området Personer i ett projekt utgör projektteamet. Till exempel är användare som är tilldelade att arbeta med projektet eller projektägaren en del av projektteamet.
 
+Användare som är kopplade till arbete i en projektmall eller är mallägare eller sponsor är en del av det framtida projektteamet när projektet har skapats med mallen.
+
 ## Projektteammedlemmar
 
 Du kan tilldela användare till ett projektteam antingen manuellt eller automatiskt. Mer information finns i avsnittet Lägg till användare i ett projektteam i artikeln [Hantera projektteamet](../../../manage-work/projects/planning-a-project/manage-project-team.md).
@@ -28,7 +30,13 @@ När du lägger till användare i projektgruppen manuellt får de behörighetern
 
 ## Meddelanden till projektgruppsmedlemmar
 
-Beroende på vilka e-postmeddelanden din Adobe Workfront-administratör aktiverar meddelas användare i ett projektteam om olika åtgärder i ett projekt. Mer information om hur du aktiverar e-postmeddelanden finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Beroende på vilka e-postmeddelanden din Adobe Workfront-administratör aktiverar meddelas användare i ett projektteam om olika åtgärder i ett projekt.
+
+Mer information finns i följande artiklar:
+
+* [Händelsemeddelandetyper](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >

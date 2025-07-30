@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2133'
 ht-degree: 0%
 
 ---
@@ -264,11 +264,11 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
 
 * Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från tabellvyn för en posttyp.
 
-* Du kan inte lägga till en sida med kopplade poster i en posts förhandsvisningsområde.
+* Du kan inte lägga till en sida med kopplade poster i en posts förhandsvisningsområde. <!--take this out when we release connected record pages to the record preview area-->
 
 * Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen i tabellvyn.
 
-* När du har lagt till en sida med kopplade poster i en post, visas sidfliken från postens förhandsvisningsområde, men den är tom. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten. <!--this might have changed? check and take disclaimer out-->
+* När du har lagt till en sida med kopplade poster i en post, visas sidfliken från postens förhandsvisningsområde, men den är tom. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten. &lt;!—this will change with the release connected pages to the preview area— check and take ansvarsfriskrivning out—>
 
 * Du kan lägga till sidor med kopplade poster för följande anslutna post- eller objekttyper:
 
@@ -279,12 +279,20 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
   >
   >   Du kan inte lägga till en sida med kopplade poster för anslutna AEM Assets-poster.
 
-
 Så här lägger du till en sida med anslutna poster:
+
+<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
+
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
+-->
 
 1. I en postsidvy klickar du på namnet på en post för att öppna den. Klicka sedan på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
 1. Klicka på **Lägg till sida**.
-
 
    Rutan **Skapa sida** öppnas.
 

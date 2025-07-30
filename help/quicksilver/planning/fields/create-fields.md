@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -35,12 +35,12 @@ Du måste skapa posttyper innan du kan skapa fält som ska kopplas till dem. Mer
 
 Du kan skapa fält på följande sätt i Workfront Planning:
 
-* Från början
-* Genom att ansluta posttyper
-* Genom att skapa en posttyp
-* Skapa en arbetsyta från en mall
-* Importera posttyper med en Excel- eller CSV-fil
-* Genom att importera kopior av befintliga Workfront-fält
+* [Från början](#create-fields-from-scratch)
+* [Genom att ansluta posttyper](#create-fields-from-scratch)
+* [Genom att skapa en posttyp](#create-fields-by-creating-a-record-type)
+* [Skapa en arbetsyta från en mall](#create-fields-by-creating-a-workspace-from-a-template)
+* [Importera posttyper med en Excel- eller CSV-fil](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
+* [Genom att importera kopior av befintliga Workfront-fält](#create-fields-by-importing-them-from-workfront)
 
 Mer information om Workfront Planning-fält finns i [Fältöversikt](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -109,6 +109,45 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Skapa fält genom att ansluta posttyper
+
+Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två posttyper, eller en posttyp och en objekttyp från andra program.
+
+Mer information om hur du ansluter posttyper för Workfront Planning finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<!--## Create fields by importing record types using an Excel or CSV file
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+
+## Skapa fält genom att skapa en posttyp
+
+När du skapar en posttyp skapas även flera fält som är kopplade till den nya posttypen som standard. Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Skapa fält genom att skapa en arbetsyta från en mall
+
+I Adobe Workfront Planning skapas fält för posttyper när du skapar en arbetsyta från en mall.
+
+Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+
+
+## Skapa fält när du importerar posttyper från en CSV- eller Excel-fil
+
+Du kan importera fält när du importerar posttyper med hjälp av en CSV- eller Excel-fil.
+
+Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Skapa fält genom att importera dem från Workfront
+
+Du kan importera kopior av befintliga Workfront-fält.
+
+När du importerar fält från Workfront skapas en kopia av varje fält för en posttyp av Workfront Planning.
+
+När du har kopierat fälten är fälten oberoende av varandra och de utbyter inte information.
+
+Mer information finns i [Importera fält från Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
 
 ## Skapa fält från grunden {#create-fields-from-scratch}
 
@@ -319,7 +358,7 @@ Nummerfälttyper samlar in information i talformat.
 >Nummerfält visas som en typ av enradigt textfält i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som siffror efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Number**.
@@ -349,7 +388,7 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 >Procentfält visas som en enkelradig textfälttyp i ett formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena för dessa fält visas som procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
@@ -389,7 +428,7 @@ Valutafälttyper samlar in information i ett talformat som föregås av en valut
 >Valutafält visas som en enkelradig textfälttyp i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som valuta efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Valuta**.
 
@@ -443,6 +482,8 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 
 1. Klicka på det markerade uttrycket för att visa definitionen och dess formatering.
 
+   <!--update screen shot for Maximize button-->
+
    ![Beskrivning av formeluttryck](assets/description-of-formula-expression.png)
 
    Mer information om vilka uttryck som stöds finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
@@ -466,6 +507,12 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
+
+   <!--
+    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
+           <span class="preview">The Formula box opens in a larger window. </span>
+    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
+    -->
 
 1. I fältet **Format** väljer du bland följande alternativ för att identifiera formatet på resultatet som visas i formeltypsfältet:
 
@@ -735,42 +782,6 @@ Create an Object field:
 
 -->
 
-## Skapa fält genom att ansluta posttyper
 
-Du kan skapa länkade postfält när du lägger till en ny anslutning mellan två posttyper, eller en posttyp och en objekttyp från andra program.
-
-Mer information om hur du ansluter posttyper för Workfront Planning finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<!--## Create fields by importing record types using an Excel or CSV file
-
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
-
-## Skapa fält genom att skapa en posttyp
-
-När du skapar en posttyp skapas även flera fält som är kopplade till den nya posttypen som standard. Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
-
-## Skapa fält genom att skapa en arbetsyta från en mall
-
-I Adobe Workfront Planning skapas fält för posttyper när du skapar en arbetsyta från en mall.
-
-Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
-
-
-
-## Skapa fält när du importerar posttyper från en CSV- eller Excel-fil
-
-Du kan importera fält när du importerar posttyper med hjälp av en CSV- eller Excel-fil.
-
-Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
-
-## Skapa fält genom att importera dem från Workfront
-
-Du kan importera kopior av befintliga Workfront-fält.
-
-När du importerar fält från Workfront skapas en kopia av varje fält för en posttyp av Workfront Planning.
-
-När du har kopierat fälten är fälten oberoende av varandra och de utbyter inte information.
-
-Mer information finns i [Importera fält från Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
