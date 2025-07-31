@@ -6,14 +6,16 @@ description: Utan rätt åtkomst eller behörigheter kanske du inte kan visa ell
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren
+
+{{preview-fast-release-general}}
 
 Utan rätt åtkomst eller behörigheter kanske du inte kan visa eller hantera dina arbetstilldelningar i Utjämning av arbetsbelastning.
 
@@ -81,6 +83,8 @@ Du måste ha följande åtkomst för att kunna visa arbetsbelastningsutjämnaren
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<span class="preview">Alla användare har tillgång till arbetsbelastningsutjämnaren för sina egna profiler. Detta begränsas inte av licens- eller åtkomstnivå. Observera att belastningsutjämnaren för arbetsbelastning i en användarprofil är skrivskyddad och att tilldelningar och allokeringar inte kan ändras.</span>
 
 ## Åtkomst krävs för att hantera tilldelningar i arbetsbelastningsutjämnaren
 

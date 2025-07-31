@@ -7,14 +7,16 @@ description: Med Adobe Workfront kan du snabbt och enkelt skicka meddelanden som
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 52d722932b6b445bc8ee08a706e4e53765776bf7
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
 
 # Skicka direktmeddelanden till andra användare
+
+{{highlighted-preview}}
 
 Med [!DNL Adobe Workfront] kan du snabbt och enkelt skicka meddelanden som inte är relaterade till något arbetsobjekt direkt till andra [!DNL Workfront]-användare. Meddelanden som skickas enligt beskrivningen i det här avsnittet visas på fliken [!UICONTROL Updates] på användarens profilsida och är synliga för alla användare. Mer information om uppdateringar finns i [Uppdatera arbetsobjekt och visa uppdateringar: artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -83,11 +85,16 @@ Det här alternativet är bara tillgängligt om du har en Standard-, Plan- eller
 {{step-1-to-users}}
 
 1. Markera den eller de användare som du vill skicka ett meddelande till och klicka på [!UICONTROL **Skicka uppdatering till användare**].
-1. Skriv meddelandet i fönstret [!UICONTROL Send update to user].
+1. Skriv meddelandet i fönstret [!UICONTROL Send update to user]. Använd textformateringsalternativen efter behov. Mer information finns i [Använd RTF i en Workfront-kommentar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) i artikeln [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Meddelandeanvändare i fönstret Skicka uppdatering till ](assets/send-update-to-user-072825.png)
+
+   Exempelbild i produktionsmiljön:
    ![Meddelandeanvändare i fönstret Skicka uppdatering till ](assets/send-message-to-user-dialog-from-user-list.png)
 
-1. (Valfritt) Sök efter ytterligare användare som du vill tagga i meddelandet. Du behöver inte tagga de användare som du redan har valt i användarlistan.
+1. <span class="preview">(Valfritt) Klicka på **Tagga personer** om du vill tagga ytterligare användare i meddelandet. Mer information finns i [Tagga andra om uppdateringar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+1. (Valfritt) I produktionsmiljön söker du efter ytterligare användare som du vill tagga i meddelandet. Du behöver inte tagga de användare som du redan har valt i användarlistan.
 1. (Valfritt) Välj **[!UICONTROL Private to my company]** om du bara vill att det här meddelandet ska vara synligt för andra användare i ditt företag.
 1. Klicka på [!UICONTROL **Skicka**].
-Meddelandet läggs upp högst upp i meddelandelistan på fliken **[!UICONTROL Updates]** på varje användares profilsida.
+Meddelandet läggs upp högst upp i meddelandelistan på fliken **[!UICONTROL Updates]** på varje taggad användares profilsida.

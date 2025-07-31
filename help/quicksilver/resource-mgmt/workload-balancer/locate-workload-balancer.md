@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: arbeta,team,personal,resurser
 navigation-topic: the-workload-balancer
 title: Leta reda på arbetsbelastningsutjämnaren
-description: Du kan använda belastningsutjämnaren för att schemalägga resurser för arbete eller granska deras tillgänglighet och aktuella allokeringar.
+description: Utjämning av arbetsbelastning är tillgängligt för flera projekt i resursområdet, för ett team, för ett projekt och för en användare.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
 
 # Leta reda på arbetsbelastningsutjämnaren
+
+{{preview-fast-release-general}}
 
 Du kan använda belastningsutjämnaren för att schemalägga resurser för arbete eller granska deras tillgänglighet och aktuella allokeringar.
 
@@ -55,7 +57,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td><p>Nytt: Standard</p>
        <p>eller</p>
        <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
-       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
+       <p><span class="preview">Obs! Alla användare har tillgång till arbetsbelastningsutjämnaren i sina egna användarprofiler, utan några licenskrav.</span></p></td>
   </tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller öka åtkomsten till följande:</p> 
@@ -137,6 +140,27 @@ Hemteamets sida visas.
      >
      >Du kan visa alla användare i systemet i stället för endast de som finns i projektet (i området Tilldelad arbetsyta) genom att aktivera alternativet Visa alla användare. Mer information finns i [Navigera i arbetsbelastningsutjämnaren](../workload-balancer/navigate-the-workload-balancer.md).
 
+<div class="preview">
+
+### Åtkomst till arbetsbelastningsutjämnaren för en användare
+
+Alla användare har tillgång till arbetsbelastningsutjämnaren för sina egna profiler. Utjämningsdata för arbetsbelastning för en användare är skrivskyddade. Du kan inte tilldela arbete, ta bort tilldelning av arbete eller justera allokeringar på användarnivå.
+
+Alla visningsinställningar är tillgängliga för en användares arbetsbelastningsutjämnare. Mer information finns i [Navigera i arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+{{step1-click-profile-pic}}
+
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
+
+   Arbetsbelastningsutjämnaren för användaren visas.
+
+   ![Utjämning av arbetsbelastning för en användare](assets/workload-balancer-user.png)
+
+   I arbetsbelastningsutjämnaren för en användare visas följande som standard:
+
+   * **Tilldelat arbete**: Aktiviteter och ärenden som tilldelats den specifika användaren.
+
+</div>
 
 ## Lägga till arbetsbelastningsutjämnaren i ett anpassat avsnitt
 

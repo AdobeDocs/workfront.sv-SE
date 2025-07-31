@@ -6,9 +6,9 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '4271'
+source-wordcount: '4371'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Använd Utjämning av arbetsbelastning i Adobe Workfront för att tilldela anvä
 
 Utjämning av arbetsbelastning är tillgängligt i flera områden av Adobe Workfront. Att navigera är detsamma i alla områden.
 
-Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Åtkomstkrav
 
@@ -109,8 +109,8 @@ Mer information om hur du visar information i Arbetsbelastningsutjämnaren finns
 
 Mer information om hur du hanterar resurser med hjälp av belastningsutjämnaren finns i följande artiklar:
 
-* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigera i Utjämning av arbetsbelastning för flera projekt i resursområdet
@@ -478,12 +478,37 @@ Sidan i ditt hemteam visas som standard.
 
    Mer information finns i [Översikt över att stämma av resursallokeringar mellan projekt och initiativ](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-
    >[!NOTE]
    >
    >Du kan inte visa information om befattningsroll för initiativ om din organisation inte har köpt någon licens för Workfront Scenario Planner. I det här fallet kan du bara visa planerade timmar som är associerade med jobbroller i projektet. Mer information finns i [Åtkomst krävs för att använda scenarioplanen](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. Fortsätt navigera i arbetsbelastningsutjämnaren för ett projekt enligt beskrivningen i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+
+<div class="preview">
+
+### Navigera i arbetsbelastningsutjämnaren för en användare
+
+Du kan komma åt arbetsbelastningsutjämnaren på din egen användarprofil.
+
+{{step1-click-profile-pic}}
+
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
+
+   Arbetsbelastningsutjämnaren för användaren visas.
+
+   ![Utjämning av arbetsbelastning för en användare](assets/workload-balancer-user.png)
+
+   I arbetsbelastningsutjämnaren för en användare visas följande som standard:
+
+   * **Tilldelat arbete**: Aktiviteter och ärenden som tilldelats den specifika användaren.
+
+   >[!NOTE]
+   >
+   >Arbetsbelastningsutjämnaren i en användarprofil är skrivskyddad och tilldelningar och allokeringar kan inte ändras.
+
+1. Fortsätt navigera i arbetsbelastningsutjämnaren för en användare enligt beskrivningen i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
