@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hantera postsidans layout
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen som är markerad på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -264,11 +264,16 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
 
 * Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från tabellvyn för en posttyp.
 
-* Du kan inte lägga till en sida med kopplade poster i en posts förhandsvisningsområde. <!--take this out when we release connected record pages to the record preview area-->
+* I produktionsmiljön kan du inte lägga till en sida med kopplade poster i postens förhandsvisningsområde.
+
+  <span class="preview">Du kan lägga till en sida med kopplade poster i en posts förhandsgranskningsområde i förhandsgranskningsmiljön.</span>
 
 * Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen i tabellvyn.
 
-* När du har lagt till en sida med kopplade poster i en post, visas sidfliken från postens förhandsvisningsområde, men den är tom. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten. &lt;!—this will change with the release connected pages to the preview area— check and take ansvarsfriskrivning out—>
+* Beroende på vilken miljö du använder kan du se följande:
+
+   * När du har lagt till en sida med kopplade poster till en post i produktionsmiljön visas sidfliken från postens förhandsvisningsområde, men den är tom. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten.
+   * <span class="preview">I förhandsgranskningsmiljön visas sidan för kopplade poster både från postens förhandsgranskningsområde och från den separata webbläsarfliken.</span>
 
 * Du kan lägga till sidor med kopplade poster för följande anslutna post- eller objekttyper:
 
@@ -281,18 +286,11 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
 
 Så här lägger du till en sida med anslutna poster:
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. Klicka på namnet på posten för att öppna den.
+1. Klicka på **Lägg till sida** i något av följande områden:
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. I en postsidvy klickar du på namnet på en post för att öppna den. Klicka sedan på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
-1. Klicka på **Lägg till sida**.
+   * <span class="preview">Postens förhandsgranskningsfönster</span>
+   * Postens informationssida när du har klickat på ikonen **Öppna på ny flik** ![Öppna information på en ny flikikon](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet på förhandsvisningssidan.
 
    Rutan **Skapa sida** öppnas.
 
@@ -306,8 +304,6 @@ Tabellvyn för den posttyp du valde visas på den nya sidan och de kopplade post
 Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik.
 
    De första fem fälten från den anslutna posttabellen visas som standard. Inga sökfält visas som standard.
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Målgruppsansluten tabellvy under kampanjinformation](assets/audience-connected-table-view-under-campaign-details-page.png)
 

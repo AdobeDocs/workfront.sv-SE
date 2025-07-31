@@ -7,25 +7,24 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
 
 # Hantera projektgruppen
 
-<!--
-<div class="preview"> 
+<!--take preview and production references out at production - August 7-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen.
 
-</div> 
+Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
--->
+</div>
 
 Projektgruppen består av användare som är kopplade till projektet. Mer information finns i [Översikt över projektgruppen](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -243,7 +242,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Markera en eller flera användare i listan och klicka sedan på **Uppdatera**.
 
-   <!--update screen shot for unshim-->
+   <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
    ![Skicka uppdatering till användarrutan i mallen](assets/send-update-to-user-on-template-box.png)
 
@@ -251,20 +250,23 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Gör följande:
 
-   * Lägg till en uppdatering för de valda användarna.
-   * Klicka på personikonen om du vill tagga till fler användare för att få samma uppdatering.
-   * Klicka på låsikonen för att göra uppdateringen privat för användarna i ditt företag.
-   * Klicka på **Skicka**.
+   * I produktionsmiljön:
 
-   <!--replace list above with:
+      * Lägg till en uppdatering för de valda användarna.
+      * Klicka på personikonen om du vill tagga till fler användare för att få samma uppdatering.
+      * Klicka på låsikonen för att göra uppdateringen privat för användarna i ditt företag.
+      * Klicka på **Skicka**.
+
+   * <span class="preview">I förhandsvisningsmiljön: </span>
+
    <div class="preview">
 
-   * Add an update for the selected users.
-   * Click **Tag people** to tag additional users to receive the same update. 
-   * Select the **Private to my company** option to to make the update private to the users in your company. 
-   * Click **Send**. 
+   * Lägg till en uppdatering för de valda användarna.
+   * Klicka på **Tagga personer** om du vill tagga fler användare för att få samma uppdatering.
+   * Välj alternativet **Privat till mitt företag** för att göra uppdateringen privat för användarna i ditt företag.
+   * Klicka på **Skicka**.
+
    </div>
-   -->
 
    Uppdateringen läggs till i avsnittet **Uppdateringar** i varje taggad användares profil.
 
