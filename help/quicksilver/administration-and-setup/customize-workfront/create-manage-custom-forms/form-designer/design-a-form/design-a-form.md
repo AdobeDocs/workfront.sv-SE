@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
+source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
 workflow-type: tm+mt
-source-wordcount: '6589'
+source-wordcount: '6606'
 ht-degree: 0%
 
 ---
 
 # Skapa ett anpassat formulär
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -133,7 +135,7 @@ Varje anpassat fältnamn måste vara unikt i din organisations Workfront-instans
 >[!NOTE]
 >
 >Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen det anpassade fältet där det nu kan refereras till i andra områden av Workfront.
->&#x200B;>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
+>>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
 >
 >Vi rekommenderar att du inte skriver in ett namn som redan används för inbyggda Workfront-fält.
 >
@@ -572,7 +574,7 @@ Så här lägger du till texthuvud- och datumfält:
 
 ### Lägg till externa sökfält
 
-Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan. Det externa sökfältet är också tillgängligt i listor och rapporter.
+Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan, beroende på om det externa sökfältet är ett enskilt eller flervalsfält. De externa sökfälten är också tillgängliga i listor och rapporter.
 
 Exempel på hur du använder det externa sökfältet för att anropa samma instans av Workfront eller ett offentligt API finns i [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -583,7 +585,7 @@ Exempel på hur du använder det externa sökfältet för att anropa samma insta
 
 Så här lägger du till en extern sökning:
 
-1. På fliken **Nytt fält** till vänster på skärmen söker du efter **Extern sökning** och drar den till ett avsnitt på arbetsytan.
+1. Gå till fliken **Nytt fält** till vänster på skärmen, sök efter **Extern sökning** eller <span class="preview">**Flerval extern sökning**</span> och dra den till ett avsnitt på arbetsytan.
 1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
 
    <table style="table-layout:auto"> 
@@ -632,12 +634,12 @@ Så här lägger du till en extern sökning:
       <td role="rowheader">JSON-sökväg</td>
       <td><p>Skriv eller klistra in JSON-sökvägen för API:t.</p> <p>Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutan.</p><p>Om din API-URL till exempel returnerar JSON i följande format kan du använda "$.data[*].name" för att välja USA och Kanada som nedrullningsbara alternativ:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Mer information om JSON-sökvägen och hur du ser till att du skriver rätt JSON-sökväg finns på <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -647,8 +649,8 @@ Så här lägger du till en extern sökning:
       <td><p>Klicka på <strong>Lägg till huvud</strong> och skriv eller klistra in det nyckel/värde-par som krävs för autentisering med API:t.</p><p><strong>Obs!</strong> Rubrikfälten är inte en säker plats att lagra autentiseringsuppgifter på och du bör vara försiktig med vad du anger och sparar.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Listruta för flera val</td>
-      <td><p>Välj det här alternativet om du vill tillåta användaren att välja mer än ett värde i listrutan.</p></td>
+      <td role="rowheader"><span class="preview">Listruta för flera val</span></td>
+      <td><p><span class="preview">Välj det här alternativet om du vill tillåta användaren att välja mer än ett värde i listrutan.</span></p></td>
      </tr>
      </tr>
      <tr> 
