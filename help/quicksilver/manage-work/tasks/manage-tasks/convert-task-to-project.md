@@ -6,9 +6,9 @@ description: När en uppgift i ett projekt kräver mer arbete än du ursprunglig
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Alla underaktiviteter, utgåvor och anteckningar samlas i det nya projektet.
 * Dokument, dokumentversioner och korrektur flyttas till det nya projektet.
 * Status och procent färdigt av alla underaktiviteter och utgåvor bevaras.
-* Delade användare av uppgiften blir delade användare i projektet.
+* Uppgiften tilldelar och användaren som konverterar uppgiften till projektet blir delade användare i projektet.
 * Startdatumet för projektet är inställt på startdatumet för aktiviteten.
 * I följande tabell visas projektinformation och om den överförs från mallen eller från uppgiften:
 
