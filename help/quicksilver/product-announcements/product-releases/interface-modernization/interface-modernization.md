@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,50 @@ Om du vill visa ändringen går du till Inställningar > System > Uppdatera anv�
 
 ## Projekt
 
+## Nytt utseende och känsla för avsnittet Köinformation i en mall
+
+**Förhandsversion: 31 juli 2025; Produktionsversion: 7 augusti 2025**
+
+Vi har uppdaterat utseendet på avsnittet Köinformation i en mall. Utseendet och känslan i avsnittet Köinformation matchar nu andra delar av Workfront.
+
+Mer information finns i [Skapa en frågekö](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## Gränssnittsuppdateringar för rutan Skicka uppdatering till användare för en mall
+
+**Förhandsversion: 31 juli 2025; Produktionsversion: 7 augusti 2025**
+
+Vi har uppdaterat utseendet och känslan av rutan Skicka uppdatering till användare när vi öppnar den från fliken Personer i en mall. Rutan Skicka uppdatering till användare matchar nu andra delar av Workfront när du skickar en uppdatering till en eller flera användare.
+
+Mer information finns i [Hantera projektteamet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## Gränssnittsuppdateringar för faktureringsposter
+
+**Förhandsversion: 31 juli 2025; Produktionsversion: 7 augusti 2025**
+
+Vi har uppdaterat utseendet på faktureringsposterna för faktureringstid, fakturerbara utgifter och fasta intäkter så att de matchar andra delar av programmet. Dialogrutorna för att lägga till nya fakturerbara timmar, fakturerbara kostnader och fasta intäkter har också uppdaterats.
+
+Om du vill visa de här ändringarna går du till ett projekt > Faktureringsposter > Välj en faktureringspost > Fakturerbara timmar, Fakturerbara utgifter eller Fasta intäkter > Lägg till nya fakturerbara timmar, fakturerbara utgifter eller fasta intäkter.
+
+Mer information finns i [Skapa faktureringsposter](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
 ## Gränssnittsuppdateringar för rutan Importera MS-projektfil
 
 **Förhandsversion: 24 juli 2025; Produktionsversion: ska tillkännages**
@@ -84,7 +128,7 @@ Mer information finns i [Hantera projektutgifter](/help/quicksilver/manage-work/
 
 Vi har uppdaterat utseendet på en hanteringsregel när vi redigerar den i en mall. Sidan Redigering av routningsregel matchar nu designen för andra områden i Workfront.
 
-En liten funktionalitetsändring har tillämpats på listan Routningsregler. Om du vill redigera routningsregeln väljer du hanteringsregeln i listan och klickar på redigeringsikonen.
+Om du vill redigera routningsregeln väljer du hanteringsregeln i listan och klickar på redigeringsikonen.
 
 Mer information finns i [Skapa routningsregler](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
@@ -98,7 +142,7 @@ Vi har uppdaterat utseendet och känslan i följande listor över mallar:
 * Ämnesgrupper
 * Routningsregler
 
-En liten funktionsändring har gjorts i listorna. Om du vill redigera eller ta bort ett objekt i någon av dessa listor markerar du objektet och klickar på lämplig ikon.
+Om du vill redigera eller ta bort ett objekt i någon av dessa listor markerar du objektet och klickar på lämplig ikon.
 
 Mer information finns i
 
@@ -398,6 +442,11 @@ Mer information finns i [Kopiera en projektmall](/help/quicksilver/manage-work/p
 ### Hitta och känna av uppdateringar när du lägger till objekt i program och portfolior
 
 **Förhandsversion: 22 maj 2025; Produktionsversion: 29 maj 2025**
+
+>[!NOTE]
+>
+>Tillfälligt borttagen från förhandsgranskning och produktion
+
 
 Vi har uppdaterat gränssnittet för rutorna Lägg till när vi gör följande:
 

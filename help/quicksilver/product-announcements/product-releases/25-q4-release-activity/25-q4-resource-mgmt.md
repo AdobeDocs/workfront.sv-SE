@@ -4,11 +4,10 @@ description: Förbättringar av resurshanteringen för fjärde kvartalet 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 610066cc1b5703d048e867767474fb5335a2b0d5
+exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
+source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -19,11 +18,25 @@ Den här sidan beskriver förbättringar av resurshanteringen som gjorts i den f
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Utjämning av arbetsbelastning är nu tillgängligt i din användarprofil
+
+>[!NOTE]
+>
+>* Förhandsgranska: 31 juli 2025
+>* Production fast release: 14 augusti 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+Alla användare kan nu visa sina egna data om efterfrågan och kapacitet i arbetsbelastningsutjämnaren från sin profil, oavsett åtkomstnivå. När du öppnar din Workfront-användarprofil visas belastningsutjämnaren i den vänstra navigeringspanelen.
+
+Utjämningsdata för arbetsbelastning för en användare är skrivskyddade. Du kan inte tilldela arbete, ta bort tilldelning av arbete eller justera allokeringar på användarnivå.
+
+Mer information finns i [Leta reda på arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md).
+
 ## Rolltilldelningar visas i Utjämning av arbetsbelastning
 
 >[!NOTE]
 >
->* Förhandsgranska: 24 juli 2025
+>* Förhandsgranska: 31 juli 2025
 >* Production fast release: 14 augusti 2025
 >* Produktion för alla kunder: 16 oktober 2025
 

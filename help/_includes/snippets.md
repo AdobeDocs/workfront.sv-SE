@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3744bb89d571a8cb8fa0600ba60ba2d2dce0da50
+source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
@@ -360,8 +360,8 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 ## Senaste DPV-version {#latest-version}
 
 **Senaste versionen**:
-* Mac: 2.1.50 per den 13 juni 2025
-* Windows: 2.1.50, 2025-06-13
+* Mac: 2.1.52 per den 31 juli 2025
+* Windows: 2.1.52, 7/31/2025
 
 <!-- Release -->
 
@@ -451,7 +451,7 @@ Så här associerar du användare med ett hemteam:
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
    ![](/help/_includes/assets/user-settings-nwe-350x291.png)
 
-1. Markera fältet **[!UICONTROL Home Team]** i avsnittet **[!UICONTROL Organization]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
+1. Markera fältet **[!UICONTROL Organization]** i avsnittet **[!UICONTROL Home Team]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 De användare du har valt är nu associerade med ett hemteam.
