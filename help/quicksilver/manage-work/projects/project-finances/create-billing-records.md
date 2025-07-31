@@ -5,7 +5,7 @@ description: Förutom att ställa in intäkter och spåra utgifter kan du skapa 
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Tänk på följande när du planerar att använda faktureringsposter:
 
 Du kan inkludera timmar som har loggats in på uppgifter, utleveranser eller projektet i dina faktureringsposter.
 
-Om den användare som loggar timmarna eller deras primära roll är associerad med en faktureringstid per timme, läggs intäkterna från dessa timmar till i faktureringsposten.
+Om användaren som loggar timmarna eller deras primära jobbroll är associerad med en faktureringstid per timhastighet, läggs intäkterna från dessa timmar till i faktureringsposten.
 
 * [Vilka timmar kan läggas till i en faktureringspost](#what-hours-can-be-added-to-a-billing-record)
 * [Lägg till timmar i en faktureringspost](#add-hours-to-a-billing-record)
@@ -135,19 +135,19 @@ Du kan lägga till timmar i en faktureringspost när följande villkor är uppfy
 
   Mer information finns i artikeln [Hantera timtyper](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-* Alla timmar som loggats för utleveranser eller projektet kan läggas till i en faktureringspost om användaren som loggar tiden har en faktureringstakt per timme som är associerad med dem eller deras primära roll.
+* Alla timmar som loggats för utleveranser eller projektet kan läggas till i en faktureringspost om användaren som loggar tiden har en faktureringstakt per timme som är associerad med dem eller deras primära jobbroll.
 * Om timmarna är inloggade på en uppgift måste uppgiften ha följande intäktstyp:
 
    * Det går inte att ange intäktstypen till Inte fakturerbar.
    * Om intäktstypen är inställd på Användare per timme måste användaren som loggar tiden ha en faktureringstakt per timme angiven i sin profil.
-   * Om intäktstypen är inställd på Roll-timme måste den primära rollen för användaren som loggar tiden ha en faktureringstid per timme.
+   * Om intäktstypen är inställd på Roll-timme måste den primära rollen för användaren som loggar tiden ha en faktureringstakt per timme.
 
      >[!NOTE]
      >
      >Du kan åsidosätta faktureringstariffer för jobbroller på projektnivå.\
-     >Mer information finns i avsnittet Åsidosätta faktureringstariffer för jobbroller på projektnivå i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Mer information finns i avsnittet Åsidosätta faktureringssatser för jobbroller på projektnivå i artikeln [Översikt över åsidosättande av faktureringssatser för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-* Om kryssrutan Kräv tid för godkännande för det här projektalternativet är markerad under Projektinställningar måste projektägaren godkänna de timmar som loggas.\
+* Om alternativet Kräv tid att godkänna för det här projektet har valts under Projektinställningar måste projektägaren godkänna de loggade timmarna.\
   Mer information finns i [Kräv tid för att godkännas för ett projekt](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
 #### Lägg till timmar i en faktureringspost {#add-hours-to-a-billing-record}
@@ -170,7 +170,7 @@ Du kan lägga till timmar i en faktureringspost när följande villkor är uppfy
 
 ### Inkludera fakturerbara utgifter i en faktureringspost {#include-billable-expenses-in-a-billing-record}
 
-Om du lägger till Fakturerbara utgifter i faktureringsposten kontrollerar du att utgifterna för aktiviteterna och projektet är markerade som Fakturerbara. Utgifter som inte är markerade som fakturerbara är inte tillgängliga att lägga till i en faktureringspost. Mer information om hur du lägger till utgifter finns i artikeln [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Om du lägger till fakturerbara utgifter i faktureringsposten kontrollerar du att utgifterna för aktiviteterna och projektet är markerade som fakturerbara. Utgifter som inte är markerade som fakturerbara är inte tillgängliga att lägga till i en faktureringspost. Mer information om hur du lägger till utgifter finns i artikeln [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 Så här lägger du till fakturerbara utgifter i en faktureringspost:
 
@@ -184,7 +184,7 @@ Så här lägger du till fakturerbara utgifter i en faktureringspost:
 
    >[!NOTE]
    >
-   >Om du har utgifter men de inte är markerade som fakturerbara visas inte knappen **Lägg till utgifter** . Endast fakturerbara utgifter med ett faktiskt belopp som är större än noll kan inkluderas i en faktureringspost.
+   >Om du har utgifter men de inte har markerats som fakturerbara visas inte knappen **Lägg till utgifter**. Endast fakturerbara utgifter med ett faktiskt belopp som är större än noll kan inkluderas i en faktureringspost.
 
 1. Välj de fakturerbara utgifter som är tillgängliga att läggas till i faktureringsposten och klicka sedan på **Lägg till utgifter**.  Det faktiska beloppet för utgifterna läggs till som beloppet **Fakturerbara utgifter** till totalt **Faktureringspost**.
 
@@ -192,7 +192,7 @@ Så här lägger du till fakturerbara utgifter i en faktureringspost:
 
 ### Inkludera fasta intäkter i en faktureringspost {#include-fixed-revenues-in-a-billing-record}
 
-Du kan lägga till fasta intäkter i dina faktureringsposter om du har uppgifter som har Fast intäkt tillgänglig. Det finns ingen annan typ av aktivitet eller projektintäkter att lägga till i en faktureringspost. Mer information om intäktstyper finns i avsnittet Översikt över fakturering och intäkt i artikeln [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Du kan lägga till fasta intäkter i dina faktureringsposter om du har uppgifter som har fasta intäkter tillgängliga. Det finns ingen annan typ av aktivitet eller projektintäkter att lägga till i en faktureringspost. Mer information om intäktstyper finns i avsnittet Översikt över fakturering och intäkt i artikeln [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 {{step1-to-projects}}
 
@@ -200,13 +200,13 @@ Du kan lägga till fasta intäkter i dina faktureringsposter om du har uppgifter
 1. Klicka på **Faktureringsposter** i den vänstra panelen.
 1. Klicka på faktureringspostens **beskrivning** för att öppna fliken **Information om faktureringsposten**.
 1. Välj fliken **Fasta intäkter**.
-1. Om du har lagt till fasta intäkter i dina aktiviteter klickar du på **Lägg till fasta intäkter**.
+1. Om du har lagt till fasta intäkter till dina aktiviteter klickar du på **Lägg till fasta intäkter**.
 
    >[!NOTE]
    >
-   >Om du har intäktsbelopp för aktiviteter, men de inte är markerade som fasta, visas inte knappen **Lägg till fast intäkt** .
+   >Om du har intäktsbelopp för aktiviteter, men de inte är markerade som fasta, visas inte knappen **Lägg till fasta intäkter** .
 
-1. Välj de uppgifter vars fasta inkomster du vill inkludera i faktureringsposten och klicka sedan på **Lägg till uppgifter**.  Beloppet **Fast intäkt** för aktiviteterna läggs till som beloppet **Fakturerbara intäkter** till totalt **Faktureringspost**.
+1. Välj de uppgifter vars fasta inkomster du vill inkludera i faktureringsposten och klicka sedan på **Lägg till aktiviteter**.  Beloppet **Fast intäkt** för aktiviteterna läggs till som beloppet **Fakturerbara intäkter** till totalt **Faktureringspost**.
 
 1. (Valfritt) Klicka på **Information om faktureringsposter** om du vill granska summorna för **fakturerbara intäkter** och **faktureringspost** och faktureringsposten totalt i faktureringsposthuvudet.
 
