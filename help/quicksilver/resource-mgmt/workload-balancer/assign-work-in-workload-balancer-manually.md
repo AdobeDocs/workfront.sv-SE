@@ -7,14 +7,16 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
 
 # Tilldela arbete manuellt med hjälp av Utjämning av arbetsbelastning
+
+{{preview-fast-release-general}}
 
 Du kan tilldela arbetsobjekt till användare manuellt med hjälp av Adobe Workfront Workload Balancer.
 
@@ -71,13 +73,17 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
    Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Valfritt) Gå till området **Ej tilldelat arbete** och använd ett filter för att visa uppgifter eller problem
+1. (Valfritt) Gå till området **Ej tilldelat arbete** och använd ett filter för att visa uppgifter, utgåvor, <span class="preview"> eller rolltilldelningar</span>.
 
    eller
 
    Gå till området **Tilldelad arbetsplats** och expandera namnet på en användare för att visa de arbetsobjekt som har tilldelats dem, om du vill tilldela om deras objekt.
 
-1. Klicka på **Mer-menyn** ![Mer-menyn](assets/qs-more-menu.png) till vänster om namnet på ett arbetsobjekt och klicka sedan på **Tilldela det här till**.
+   >[!NOTE]
+   >
+   ><span class="preview">Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i [Anpassa vyn](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) i [Navigera i arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+
+1. Klicka på **Mer-menyn** ![Mer-menyn](assets/qs-more-menu.png) till vänster om ett arbetsobjektnamn <span class="preview"> eller en rolltilldelning</span> och klicka sedan på **Tilldela det här till**.
 
    ![Tilldela detta till](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

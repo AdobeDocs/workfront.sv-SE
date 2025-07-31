@@ -6,14 +6,16 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
 
 # Navigera till arbetsbelastningsutjämnaren
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -21,7 +23,7 @@ Använd Utjämning av arbetsbelastning i Adobe Workfront för att tilldela anvä
 
 Utjämning av arbetsbelastning är tillgängligt i flera områden av Adobe Workfront. Att navigera är detsamma i alla områden.
 
-Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Åtkomstkrav
 
@@ -38,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td><p>Nytt: Standard</p>
        <p>eller</p>
        <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
@@ -62,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,8 +82,9 @@ Tänk på följande när du visar arbetsbelastningsutjämnaren:
   >* Arbetsobjekt som tilldelats en jobbroll eller ett team, och som även tilldelats en användare, visas både i området Ej tilldelat arbete och under den tilldelade användarens namn i området Tilldelat arbete.
   >* Arbetsobjekt som har tilldelats en användare och en jobbroll, där jobbrollen har valts som primär tilldelare för artikeln, visas i området Ej tilldelat arbete.
   >* Arbetsobjekt som tilldelats till mer än en användare visas under alla de tilldelade användarnas namn på området Tilldelat arbete.
+  >* <span class="preview">Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.</span>
 
-  Mer information finns i Uppdragsområden i Utjämning av arbetsbelastning i [Översikt över tilldelning av arbete i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Mer information finns i [Uppdragsområden i Arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) i [Översikt över tilldelning av arbete i belastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * När ett projekt inte har några uppgifter under en tidsperiod är fältet på projektnivån tomt för den tiden.
 
@@ -106,8 +109,8 @@ Mer information om hur du visar information i Arbetsbelastningsutjämnaren finns
 
 Mer information om hur du hanterar resurser med hjälp av belastningsutjämnaren finns i följande artiklar:
 
-* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigera i Utjämning av arbetsbelastning för flera projekt i resursområdet
@@ -138,6 +141,8 @@ Så här navigerar du i belastningsutjämnaren för flera projekt:
 Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använder filter för att visa relevant information för dig i det här området.
 
         Mer information om hur du använder filter finns i [Filterinformation i Arbetsbelastningsutjämnaren](../workload-balancer/filter-information-workload-balancer.md).
+
+      * <span class="preview">Rolltilldelningar under arbetsobjekt visas bara när du aktiverar inställningen Visa rolltilldelningar. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.</span>
 
       * Projekt visas bara när du aktiverar inställningen Grupp efter projekt. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
@@ -239,6 +244,10 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
    Panelen Inställningar visas till höger.
 
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Panelen Inställningar för belastningsutjämnare](assets/workload-balancer-settings.png)
+
+   Exempelbild i produktionsmiljön:
    ![Panelen Inställningar](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    Välj bland alternativen nedan för att uppdatera informationen som du visar i Utjämning av arbetsbelastning och klicka sedan på ikonen **X** i det övre högra hörnet av inställningsrutan för att stänga den.
@@ -260,6 +269,8 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
      En grön bockmarkeringsikon visas i det övre högra hörnet av en uppgift eller ett problemfält när de är klara. Samma ikon visas för ett projekt när aktiviteterna eller utgåvorna för den valda tidsramen i projektet har slutförts.
    * **Visa återstående tid**: När detta är aktiverat visar Workfront skillnaden mellan den dagliga tid som användaren är tillgänglig för arbete baserat på sina scheman och de timmar som användaren är tilldelad till i arbetsytan Tilldelad arbetstid för användarna. Detta är inaktiverat som standard och den tilldelade tiden visas som standard.
+   * <span class="preview">**Visa rolltilldelningar**: När detta är aktiverat visas rolltilldelningar i arbetsytan Ej tilldelat under deras tilldelade arbetsobjekt. Detta är aktiverat som standard.</span>
+
    * I avsnittet **Välj färgtema** väljer du den färg du vill använda för projekt- och aktivitetsfälten.
 
      >[!TIP]
@@ -304,17 +315,18 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
    >* Du måste aktivera inställningen Gruppera efter projekt för att visa dagliga planerade timmar för projekt.
    >* När du visar Utjämning av arbetsbelastning per vecka visas antalet timmar per vecka som planerats.
 
-
 1. (Valfritt) Hovra över den tilldelade tiden på användarraden för att förstå användarens kapacitet och allokering. Kapaciteten är användarens tillgänglighet enligt schema.
 
    ![Information om tilldelad tid](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Valfritt) Klicka på ikonen **Dölj tilldelningar** ![Visa tilldelningsikonen](assets/show-allocations-icon-small.png) för att visa namnet på aktiviteterna och utgåvorna i fälten för arbetsobjekten.
-1. Klicka på ikonen **Mer meny** ![Mer ikon](assets/more-icon.png) till höger om namnet på en aktivitet eller ett problem och klicka sedan på något av alternativen nedan.
+1. Klicka på ikonen **Mer meny** ![Mer ikon](assets/more-icon.png) till höger om namnet på en aktivitet, ett problem, ett <span class="preview">eller en roll</span> och klicka sedan på något av alternativen nedan.
 
    ![Mer-menyn](assets/more-menu-right-of-task-350x104.png)
 
    * **Tilldela det här till** och börja sedan skriva namnet på en användare, roll eller team som du vill tilldela arbetsobjektet till i fältet **Sök efter personer, roller eller team**.
+
+     Klicka på **Avancerat** för att komma åt skärmen Avancerade tilldelningar för arbetsobjektet. Mer information finns i [Skapa avancerade uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
      Du kan även använda följande kortkommandon för att tilldela uppgifter eller ärenden:
 
@@ -322,6 +334,10 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
       * I Mac: CMD-klicka på aktivitets- eller problemfältet.
 
      Mer information om hur du tilldelar arbetsobjekt till användare i belastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../workload-balancer/assign-work-in-workload-balancer.md).
+
+     >[!NOTE]
+     >
+     ><span class="preview">Rolltilldelningar visas bara under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln. Rolltilldelningar har bara alternativet **Tilldela detta till** på menyn **Mer**.</span>
 
      >[!TIP]
      >
@@ -397,7 +413,6 @@ Du kan visa mer information om aktiviteterna och problemen i Utjämning av arbet
 
 1. Klicka på ikonen **Avsluta helskärmsläge** ![Avsluta helskärmsikonen](assets/exit-full-screen.png) om du vill återgå till standardskärmen och visa Utjämning av arbetsbelastning på webbläsarfliken.
 
-
 ## Navigera i ett teams arbetsbelastningsfördelning
 
 Att navigera i ett teams belastningsutjämnare påminner om hur du navigerar i belastningsutjämnaren för flera projekt. Mer information finns i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
@@ -412,7 +427,7 @@ Sidan i ditt hemteam visas som standard.
 
    Arbetsbelastningsutjämnaren för ett team visar följande information som standard:
 
-   * I området **Ej tilldelat arbete**: Arbetsobjekt som tilldelats teamet eller team- och jobbrollerna och som inte är tilldelade användare.
+   * I området **Ej tilldelat arbete**: Arbetsobjekt som tilldelats teamet eller team- och jobbrollerna och som inte är tilldelade användare. <span class="preview">Rolltilldelningar visas under arbetsobjekt i arbetsytan Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad.</span>
    * I området **Tilldelat arbete**: Arbetsobjekt som tilldelats användare visas under användarnas namn.
 
 1. Fortsätt navigera i arbetsbelastningsutjämnaren för ett team enligt beskrivningen i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt i området Resurser](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
@@ -428,7 +443,7 @@ Sidan i ditt hemteam visas som standard.
 
    I arbetsbelastningsutjämnaren för projektet visas följande information som standard:
 
-   * I området **Ej tilldelat arbete**: Arbetsobjekt i projektet som har tilldelats roller eller team och som inte har tilldelats användare.
+   * I området **Ej tilldelat arbete**: Arbetsobjekt i projektet som har tilldelats roller eller team och som inte har tilldelats användare. <span class="preview">Rolltilldelningar visas under arbetsobjekt i arbetsytan Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad.</span>
    * I området **Tilldelat arbete**: Arbetsobjekt i projektet som har tilldelats minst en användare.
 
    Vi rekommenderar att du bara använder filter för att visa användare som är viktiga för dig.

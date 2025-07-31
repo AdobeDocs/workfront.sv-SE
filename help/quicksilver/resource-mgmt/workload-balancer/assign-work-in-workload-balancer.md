@@ -6,14 +6,16 @@ description: Som resurshanterare kan du använda Adobe Workfront Workload Balanc
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # Översikt över tilldelning av arbete i belastningsutjämnaren
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -144,11 +146,11 @@ I följande tabell beskrivs vilka objekt som visas i varje område baserat på d
  </tbody> 
 </table>
 
-&#42;När en arbetsuppgift tilldelas till en användare och en roll visas den endast i arbetsytan Ej tilldelad när rollen är primär tilldelad.
+&#42;När en arbetsuppgift tilldelas till en användare och en roll visas den endast i arbetsytan Ej tilldelad när rollen är primär tilldelad. <span class="preview">Rolltilldelningar visas under arbetsobjekt i arbetsytan Ej tilldelat arbete när inställningen **Visa rolltilldelningar** är aktiverad.</span>
 
 &#42;&#42;När en arbetsuppgift tilldelas till en användare och en annan enhet visas den endast i den tilldelade arbetsytan när användaren är primär tilldelad.
 
-Mer information om Ej tilldelade och tilldelade områden i Utjämning av arbetsbelastning finns i [Navigera i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Mer information om otilldelade och tilldelade arbetsytor i Utjämning av arbetsbelastning och inställningarna för Utjämning av arbetsbelastning finns i [Navigera i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Överväganden för flera tilldelningar till jobbroller, team och användare
 
