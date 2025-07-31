@@ -6,16 +6,20 @@ description: Rapporter som skapas med verktyget Adobe Workfront-rapporter kan l�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
 # Lägga till en befintlig rapport på en arbetsytans kontrollpanel
 
-Rapporter som skapas med verktyget Adobe Workfront-rapporter kan läggas till på en arbetsytekontrollpanel. Mer information om hur du skapar rapporter finns i [Kom igång med rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+>[!IMPORTANT]
+>
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+Rapporter som skapas med verktyget Adobe Workfront-rapporter kan läggas till på en Canvas-kontrollpanel. Mer information om hur du skapar rapporter finns i [Kom igång med rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 +++ Expandera om du vill visa åtkomstkraven.
 
