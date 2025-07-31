@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
+source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -183,5 +183,5 @@ Så här redigerar du ett befintligt köämne:
 1. Gå till det projekt eller den mall som innehåller det köämne som du vill redigera.
 1. Klicka på **Köa ämnen** i den vänstra panelen.
 1. I produktionsmiljön väljer du det köämne som du vill redigera. Klicka på **Redigera köämne** på detaljsidan som öppnas.
-1. <span class="preview">I förhandsvisningsmiljön väljer du det köämne som du vill redigera och klickar sedan på ikonen Redigera ![ikon](assets/edit-icon.png).</span>
+   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
