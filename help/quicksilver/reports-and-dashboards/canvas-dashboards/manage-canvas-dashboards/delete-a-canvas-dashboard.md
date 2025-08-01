@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Ta bort en instrumentpanel
+title: Ta bort en arbetsytans kontrollpanel
 description: Du kan ordna hur rapporter visas på en Canvas-kontrollpanel när de har lagts till i en.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-# Ta bort en instrumentpanel
+# Ta bort en arbetsytans kontrollpanel
 
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-När du inte längre behöver en Canvas-kontrollpanel kan du ta bort den från Adobe Workfront.
+När du inte längre behöver en Canvas Dashboard kan du ta bort den från Adobe Workfront.
 
 
 +++ Expandera om du vill visa åtkomstkraven.

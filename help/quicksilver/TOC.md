@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 9420a6a087e0f859c9b2e1a1de1b04a0652ffac2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '13342'
+source-wordcount: '13409'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,6 @@ ht-degree: 0%
          * [21.1 Andra förbättringar](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning - lanseringsaktivitet{#planning-release-activity}
          * [Aktivitet för lansering av Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Versionsaktivitet fjärde kvartalet 2025 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Tredje kvartersversionen 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Andra utgåvan för kvartal 2025 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -1506,17 +1505,28 @@ ht-degree: 0%
 * Rapportering {#reporting}
    * [Rapporter och kontrollpaneler: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Kontrollpaneler på arbetsytan {#canvas-dashboards}
-      * [Kontrollpaneler på arbetsytan](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * [Översikt över kontrollpaneler på arbetsytan](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Skapa instrumentpaneler {#create-dashboards}
+         * [Skapa Canvas-instrumentpaneler: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
+         * [Skapa en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
       * Lägg till rapporter {#add-reports}
          * [Lägga till rapporter: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
-         * [Översikt över rapporttyper i kontrollpanelen för arbetsyta](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
-         * [Skapa en KPI-rapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
-         * [Skapa en diagramrapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
-         * [Skapa en tabellrapport](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
          * [Lägga till en befintlig rapport på en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+         * [Skapa en KPI-rapport på en Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [Skapa en diagramrapport på en Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+         * [Skapa en tabellrapport på en Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
       * Hantera Canvas-instrumentpaneler {#manage-canvas-dashboards}
-         * [Hantera Canvas-instrumentpaneler](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Hantera arbetsytans kontrollpaneler: artikelindex](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Dela en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+         * [Ordna rapporter på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+         * [Ändra namnet eller beskrivningen för en Canvas-kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+         * [Ta bort en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+      * Hantera rapporter {#manage-reports}
+         * [Hantera rapporter: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
+         * [Redigera en rapport på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+         * [Redigera rapportfilter på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+         * [Ta bort en rapport på arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+
    * Rapporter {#reports}
       * [Rapporter](reports-and-dashboards/reports/reports-overview.md)
       * Grundläggande om rapportering {#report-basics}

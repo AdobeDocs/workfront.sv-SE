@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Skapa en diagramrapport
+title: Skapa en diagramrapport på en Canvas Dashboard
 description: En diagramrapport som visualiserar dina data som stapel-, kolumn-, linje- eller cirkeldiagram kan läggas till på en Canvas-kontrollpanel.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
-# Skapa en diagramrapport
+# Skapa en diagramrapport på en Canvas Dashboard
 
 >[!IMPORTANT]
 >

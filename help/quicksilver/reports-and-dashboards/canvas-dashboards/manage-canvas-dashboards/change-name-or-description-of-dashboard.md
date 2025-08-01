@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Ändra namnet eller beskrivningen för en instrumentpanel
+title: Ändra namnet eller beskrivningen för en Canvas-kontrollpanel
 description: Du kan redigera namnet eller beskrivningen på en arbetsytans kontrollpanel när den har skapats.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# Ändra namnet eller beskrivningen för en instrumentpanel
+# Ändra namnet eller beskrivningen för en Canvas-kontrollpanel
 
 >[!IMPORTANT]
 >

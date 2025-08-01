@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Redigera rapportfilter
-description: Du kan redigera rapportfilter när de har tillämpats på en Canvas-kontrollpanel.
+title: Redigera rapportfilter på en arbetsytans kontrollpanel
+description: Du kan redigera rapportfilter när de har tillämpats på en Canvas Dashboard.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
-# Redigera rapportfilter
+# Redigera rapportfilter på en arbetsytans kontrollpanel
 
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Du kan redigera rapportfilter när du har använt dem på en Canvas-kontrollpanel för att uppdatera de data som visas när ett projekt fortskrider.
+Du kan redigera rapportfilter när du har använt dem på en Canvas Dashboard för att uppdatera de data som visas när ett projekt fortskrider.
 
 +++ Expandera om du vill visa åtkomstkraven.
 

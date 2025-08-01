@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Ta bort en rapport
+title: Ta bort en rapport på arbetsytans kontrollpanel
 description: Du kan ta bort en rapport från en Canvas-kontrollpanel.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Ta bort en rapport
+# Ta bort en rapport på arbetsytans kontrollpanel
 
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-När en kontrollpanel har skapats och du har lagt till rapporter i den, kan du ta bort äldre rapporter som inte längre gäller för den specifika kontrollpanelen.
+När en Canvas Dashboard har skapats och du har lagt till rapporter i den kan du ta bort äldre rapporter som inte längre gäller för den specifika kontrollpanelen.
 
 Att ta bort en rapport är permanent. Om du behöver lägga till en rapport på nytt efter att den har tagits bort, måste du återskapa rapporten.
 

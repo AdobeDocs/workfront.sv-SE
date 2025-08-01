@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Redigera en rapport
+title: Redigera en rapport på en arbetsytans kontrollpanel
 description: Du kan redigera en kontrollpanelsrapport för arbetsytan när den har skapats.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# Redigera en rapport
+# Redigera en rapport på en arbetsytans kontrollpanel
 
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-När du har lagt till rapporter på en kontrollpanel kan du redigera rapportens information och ändra de data som visas på kontrollpanelen.
+När du har lagt till rapporter på en Canvas-kontrollpanel kan du redigera rapportens information och ändra de data som visas på kontrollpanelen.
 
 Alla ändringar som görs i en rapport påverkar alla användare som har åtkomst till den instrumentpanel som innehåller den.
 

@@ -5,9 +5,9 @@ description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen 
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ AI Assistant kan hjälpa dig att hitta projekt, uppgifter och problem i Workfron
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
    <td><p>Nytt: Alla</p>
-       <p>eller</p>
        <p>Aktuell: Inte tillgänglig</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td><p>Nytt: Standard</p>
-       <p>eller</p>
        <p>Aktuell: Inte tillgänglig</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Hitta arbetsobjekt
 
 1. Klicka på ikonen **AI-assistenten** ![AI-assistenten](assets/ai-assistant-icon.png) i skärmens övre högra hörn.
-1. Ange en fråga som
+1. Ange en uppmaning som:
 
-   * Hitta mina uppgifter som förfaller den här veckan
-   * Vilka problem har projektet&quot;Spring Campaign&quot;?
-   * Hitta projekt i aktuell status
+   * *Hitta mina aktiviteter den här veckan*
+   * *Vilka problem har projektet &quot;Spring Campaign&quot;?*
+   * *Sök efter projekt med aktuell status*
 
-   Det kan ta en stund innan AI Assistant hittar informationen, beroende på hur stor eller komplex frågan är och hur många poster den behöver söka i.
-1. Visa svaret på AI-assistentpanelen.
-1. (Valfritt) Om du vill gå till arbetsposten klickar du på länken på AI-assistentpanelen.
+   >[!NOTE]
+   >
+   > AI-assistenten kan ta en stund och leta reda på informationen beroende på hur stor eller komplex frågan är och hur många poster den behöver söka i.
+1. Visa svaret på panelen **AI-assistenten**.
+1. (Valfritt) Om du vill gå till arbetsposten klickar du på länken på panelen **AI-assistenten** .
+
 
 <!--
 

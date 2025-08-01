@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Ordna rapporter på en kontrollpanel
+title: Ordna rapporter på en arbetsytans kontrollpanel
 description: Du kan ordna hur rapporter visas på en Canvas-kontrollpanel när de har lagts till i en.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Ordna rapporter på en kontrollpanel
+# Ordna rapporter på en arbetsytans kontrollpanel
 
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-När en rapport har lagts till på en kontrollpanel visas den som en rapportwidget på kontrollpanelen så att du snabbt kan visa dess data i en översikt. När flera rapporter har lagts till rekommenderar vi att du ordnar om storleken och ordningen för varje widget så att instrumentpanelsdata visas mer effektivt.
+När en rapport har lagts till på en Canvas-kontrollpanel visas den som en rapportwidget på kontrollpanelen så att du snabbt kan visualisera dess data. När flera rapporter har lagts till rekommenderar vi att du ordnar om storleken och ordningen för varje widget så att instrumentpanelsdata visas mer effektivt.
 
 +++ Expandera om du vill visa åtkomstkraven.
 
