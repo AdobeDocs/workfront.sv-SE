@@ -6,9 +6,9 @@ description: Genom att beräkna om tidslinjer kan cheferna se hur olika faktorer
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Automatisk omberäkning av tidslinjen sker utan särskild åtkomst för någon a
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,8 @@ Automatisk omberäkning av tidslinjen sker utan särskild åtkomst för någon a
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard </p> 
-   eller
-   <p>Aktuell: Planera </p>
+   <td> <p>Standard </p> 
+    <p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,17 +62,21 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Som standard räknas projekttidslinjer om automatiskt varje dag när projektomfånget ändras eller varje natt. Workfront-administratören avgör om tidslinjer ska beräknas automatiskt varje natt eller om omfångsändringar ska göras genom att hantera tidslinjeinställningarna under Projektinställningar i installationsprogrammet. Mer information finns i [Konfigurera tidslinjeomberäkningar för projekt](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Om tidslinjen för ett projekt är längre än 15 år inaktiveras den automatiska omberäkningen för det projektet och du kan bara välja en manuell uppdateringstyp. Om du ändrar datum för projektet till mindre än 15 år måste du beräkna om tidslinjen manuellt en gång innan den beräknas automatiskt.
+>* Om tidslinjen för ett projekt är längre än 15 år inaktiveras den automatiska omberäkningen för det projektet och du kan bara välja en manuell uppdateringstyp. Om du ändrar datum för projektet till mindre än 15 år måste du beräkna om tidslinjen manuellt en gång innan den beräknas automatiskt.
+>* I sandlådemiljöerna Förhandsgranska och Anpassad uppdatering inaktiveras nattomberäkningen och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för miljöerna Preview och Custom Refresh Sandbox.
+>* Om ett projekt är komplext kanske den automatiska tidslinjeberäkningen inte utförs.
+>  > Ett exempel på ett komplext projekt kan vara ett projekt med flera beroenden, ett stort antal uppgifter, flera föregångare mellan projekt eller flera indrag för uppgifter.
+>  > Workfront skickar en varning till höger om projektnamnet på projektsidan som talar om för användarna att projekttidslinjen måste beräknas om manuellt. Endast användare med behörigheten Hantera för projektet kan beräkna om tidslinjen manuellt.
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [Automatisk omberäkning av projekttidslinjer](#automatic-recalculation-of-project-timelines)
 * [Åtgärder som utlöser en automatisk omberäkning av projekttidslinjer](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->I sandlådemiljöerna Förhandsgranska och Anpassad uppdatering inaktiveras nattomberäkningen och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för miljöerna Preview och Custom Refresh Sandbox.
 
 ### Automatisk omberäkning av projekttidslinjer {#automatic-recalculation-of-project-timelines}
 
@@ -86,7 +89,7 @@ Workfront beräknar om tidslinjer dagligen endast för projekt där alla följan
 
 * Ha ett senaste uppdateringsdatum under de senaste tre månaderna. En Workfront-administratör kan ändra den här standardfunktionen. Mer information finns i [Konfigurera tidslinjeomberäkningar för projekt](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* Senaste beräkningsdatum för projekttidslinjen ligger inte inom den aktuella kalenderdagen. Det innebär att det sista beräkningsdatumet för projekttidslinjen är före 00:00 den aktuella dagen.
+* Senaste beräkningsdatum för projekttidslinjen ligger inte inom den aktuella kalenderdagen. Det innebär att det sista beräkningsdatumet för projekttidslinjen är före 0:00 på den aktuella dagen.
 
 Du kan konfigurera hur ofta tidslinjen för ditt projekt uppdateras. När projekttidslinjen uppdateras beräknas den om baserat på ändringar som gjorts i projektet.
 
