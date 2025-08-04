@@ -5,9 +5,9 @@ description: Som en del av resursplaneringen kan du använda Adobe Workfront Sce
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Innan du börjar måste du göra följande:
 
    * Om du precis har publicerat information från scenarioplaneraren väljer du Scenarioplanering i fältet **Välj vilka timmar som ska användas för att beräkna projektets budgeterade arbetskostnad** i området Resursbudgetering och klickar sedan på **Välj**.
 
-     ![Affärsfall i resursplaneraren med knappen Välj](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * Om resursplaneraren tidigare har valts för budgeteringsresurser för projektet klickar du på **Ändra** > **Scenarioplanering** > **Välj**.
 

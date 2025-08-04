@@ -5,7 +5,7 @@ description: När du har slutfört och skickat in affärsärendet för en projek
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
 1. Klicka på **Affärsfall** i den vänstra panelen.
 1. Klicka på **Godkänn** eller **Avvisa** i området Sammanfattning av affärsärenden för att godkänna eller avvisa affärsärendet.
 
-   ![Affärsärende](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;!—![Affärsärende](assets/business-case-summary-with-rp-information--1-.png)—>
 
    Projektstatusen ändras till **Godkänd** om affärsärendet har godkänts.
 

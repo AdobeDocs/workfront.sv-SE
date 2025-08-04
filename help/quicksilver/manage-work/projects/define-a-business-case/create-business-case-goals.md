@@ -5,9 +5,9 @@ description: Som en del av att skapa ett affärsärende kan du skapa en uppsätt
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Tänk på följande när du skapar affärsmål för dina projekt:
 1. I projektlistan väljer du det projekt som du vill definiera affärsärendesmål för.
 1. Klicka på **Affärsärende** i den vänstra panelen. Avsnittet **Affärsärende** visas.
 
-   ![Information om affärsfall](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
 
 1. Klicka på **Redigera mål** i avsnittet **Mål**.
 
@@ -97,7 +97,7 @@ Tänk på följande när du skapar affärsmål för dina projekt:
    * Låg
    * Lägsta
 
-     ![Prioritet](assets/g1-350x76.png)
+     <!--![Importance](assets/g1-350x76.png)-->
 
      >[!NOTE]
      >

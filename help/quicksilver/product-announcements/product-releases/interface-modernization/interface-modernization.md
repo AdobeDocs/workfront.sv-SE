@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,16 @@ Vi har uppdaterat sidan Uppdatera användare för enkel inloggning med en modern
 Om du vill visa ändringen går du till Inställningar > System > Uppdatera användare för enkel inloggning
 
 ## Projekt
+
+## Gränssnittsuppdateringar för ett affärsärende i ett projekt
+
+**Förhandsversion: 4 augusti 2025; Produktionsversion: ska tillkännages**
+
+Vi har uppdaterat utseendet på projektets affärsärende så att det matchar andra delar av programmet.
+
+Om du vill visa den här ändringen går du till Projekt > Välj ett projekt > Affärsfall.
+
+Mer information finns i [Skapa ett affärsärende för ett projekt](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Nytt utseende och känsla för avsnittet Köinformation i en mall
 

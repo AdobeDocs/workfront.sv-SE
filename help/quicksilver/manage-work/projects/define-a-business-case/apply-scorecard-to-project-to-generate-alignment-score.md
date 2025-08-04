@@ -5,9 +5,9 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Så här använder du ett styrkort för ett projekt:
 
 1. Välj ett styrkort i listrutan.
 
-   ![Nytt styrkort](assets/new-scorecard.png)
+   <!--![New scorecard](assets/new-scorecard.png)-->
 
 1. Ange ett svar på alla frågor i styrkortet.
 
@@ -164,7 +164,7 @@ Du kan visa justeringspoängen för ett projekt på projektnivå om du har Contr
 
    Justeringspoängen finns i affärsärendesammanfattningen i värdet **Justerad**.
 
-   ![Justeringspoäng i ett projekt](assets/alignment-score-on-a-project.png)
+   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
 
 ### Visa projektets justeringspoäng och portföljen i Portfolio Optimizer
 
@@ -175,7 +175,7 @@ Mer information om vilken information som visas i Portfolio Optimizer finns i [P
 * [Leta reda på projektets justeringspoäng i Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Hitta portföljens justeringspoäng i Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Justeringspoäng i Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
+  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
 
 #### Hitta projektets justeringspoäng i Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
