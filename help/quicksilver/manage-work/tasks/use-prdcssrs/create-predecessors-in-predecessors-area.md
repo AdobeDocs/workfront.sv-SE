@@ -6,9 +6,9 @@ description: Du kan använda föregående aktiviteter (eller bara föregående a
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,7 @@ Mer information om föregående aktiviteter finns i [Översikt över föregåend
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +46,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
-   <p>Nytt: Standard </p>
-   <p>eller </p>
-   <p>Aktuell: Planera </p> </td> 
+   <p>Standard </p>
+    <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -69,15 +66,24 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Skapa en föregångare för en uppgift
 
+Att skapa en föregångare för en projektuppgift med området Föregående användare liknar att skapa föregångare för en malluppgift i en mall.
+
+Så här skapar du en föregående aktivitet för en projektuppgift:
+
 1. Navigera till uppgiften som du vill ange som en beroende uppgift.
 
 1. Klicka på **Föregående** i den vänstra panelen.
 
-1. Klicka på **+Lägg till föregående** i avsnittet **Föregående**. Dialogrutan **Lägg till föregående** öppnas.
+1. Klicka på **Lägg till föregångare** i avsnittet **Föregående**. Dialogrutan **Lägg till föregående** öppnas.
 
 1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du namnet på projektet i fältet **Överordnat projekt** med ett annat projekt.
 
    Mer information finns i [Skapa föregående projekt mellan projekt](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+
+   >[!TIP]
+   >
+   >Det går inte att skapa korsmallsföregångare för malluppgifter.
+
 
 1. I fältet **Uppgifter** skriver du in namnet på den eller de uppgifter som du vill utse till föregående aktiviteter och markerar dem sedan när de visas i listrutan.
 
@@ -96,3 +102,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Mer information finns i [Tvinga föregående](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Klicka på **Spara**.
+
+1. (Valfritt) Om du vill ta bort en föregångare markerar du den i listan med föregående användare och klickar sedan på ikonen **Ta bort** ![Ta bort](assets/remove-or-delete-icon.png) .
+
+   Föregångaren tas bort från listan. Föregående aktivitet tas inte bort från projektet.

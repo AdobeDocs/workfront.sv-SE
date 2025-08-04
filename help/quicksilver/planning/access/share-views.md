@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,7 @@ I det här avsnittet beskrivs hur du delar en vy internt.
 1. Gör något av följande på fliken i en vy:
 
    * Håll markören över fliken för den vy du vill dela och klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela** > **Kopiera länk** i rutan **Dela vy** .
-   * Klicka på **Dela** > **Kopiera visningslänken** > **Kopiera länk** i rutan **Dela vy**.
+   * Klicka på **Dela** > **Kopiera vylänken** från posttypssidan.
 
    En länk till vyn kopieras till Urklipp och du får en bekräftelse längst ned på skärmen.
 
@@ -272,10 +272,8 @@ Användare som har åtkomst till en länk till en vy som de inte har behörighet
 1. (Villkorligt) Om du är vyhanterare kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
    * Ett meddelande i appen
-
      ![Meddelande i appen om åtkomstbegäran för vyn](assets/in-app-notification-for-access-request-for-view.png)
    * Ett e-postmeddelande
-
      ![Meddelande i appen om åtkomstbegäran för vyn](assets/in-app-notification-for-access-request-for-view.png)
 1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
 eller

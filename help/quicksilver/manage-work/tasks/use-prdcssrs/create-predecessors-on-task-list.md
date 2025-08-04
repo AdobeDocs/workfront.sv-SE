@@ -6,9 +6,9 @@ description: Du kan använda föregående aktiviteter (eller bara föregående a
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Mer information finns i [Översikt över föregående aktiviteter](../../../mana
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Mer information finns i [Översikt över föregående aktiviteter](../../../mana
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: Standard </p><p>Aktuell: Planera </p> </td> 
+   <td> <p>Standard </p><p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -78,7 +78,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >1. Klicka på ikonen **Planeringsläge** och välj **Spara automatiskt**.
    >
-   >1. Skriv in referensnumret för föregående projekt följt av kolon och uppgiftens nummer. Om du t.ex. skriver *765021:12* anger det att referensnumret för predecessor-projektet är 765021 och predecessor är aktivitetsnummer 12 i projektet.
+   >1. Skriv in referensnumret för föregående projekt följt av kolon och uppgiftens nummer. Om du t.ex. skriver *765021:12* anger det att referensnumret för föregående projekts projekt är 765021 och föregångaren är aktivitetsnummer 12 i projektet.
    >
    >1. Lägg till beroendetypen för den här föregångaren. Mer information finns i [Skapa föregående projekt mellan projekt](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
    >

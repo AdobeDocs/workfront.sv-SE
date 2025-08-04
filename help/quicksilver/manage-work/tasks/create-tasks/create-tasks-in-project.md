@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Du kan också skapa uppgifter på följande sätt:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ Du kan också skapa uppgifter på följande sätt:
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-licens</p> </td> 
-   <td><p>Aktuell: Arbete eller högre</p> 
-   eller
-   <p>Nytt: Standard</p> </td> 
+   <td><p>Standard</p> 
+   <p>Arbeta eller högre</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
@@ -70,7 +70,7 @@ Du kan också skapa uppgifter på följande sätt:
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter till projektet med möjlighet att lägga till uppgifter eller högre</p> <p>När du skapar en uppgift får du automatiskt behörigheten Hantera för uppgiften</p> <p> Mer information om aktivitetsbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Dela en uppgift </a>. </p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter till projektet med möjlighet att lägga till uppgifter eller högre</p> <p>När du skapar en uppgift får du automatiskt behörigheten Hantera för uppgiften</p> <p> Mer information om aktivitetsbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Dela en uppgift </a>. </p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt. </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,6 +80,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 +++
 
 ## Skapa uppgifter i ett projekt
+
+Att skapa uppgifter i ett projekt påminner om att skapa uppgifter i en mall. Du kan följa stegen som beskrivs nedan när du lägger till malluppgifter i en mall.
+
+Så här skapar du uppgifter i ett projekt:
 
 1. Gå till det projekt där du vill skapa en uppgift.
 1. Klicka på **Åtgärder** i den vänstra panelen.
@@ -113,7 +117,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
          Detta gör den nya uppgiften till en underordnad uppgift eller underuppgift till den föregående uppgiften.
 
-         Mer information om underordnade uppgifter finns i [Skapa underaktiviteter](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Mer information om underordnade uppgifter finns i avsnittet Skapa underaktiviteter från aktivitetens underaktiviteter i artikeln [Skapa underaktiviteter](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Villkorligt) Om du inaktiverade alternativet **Spara automatiskt** efter att du tryckt på **Lägg till fler uppgifter** kan du göra följande:
 
          * Klicka på **Ångra** när du vill ångra den senaste ändringen eller **Avbryt** om du vill ångra alla ändringar du har gjort i uppgiftslistan.
          * Om du tidigare klickade på **Ångra** klickar du på **Gör om** för att tillämpa den senaste ändringen som du avbröt.
          * Klicka på **Spara** om du vill spara ändringarna i uppgiftslistan.
+   1. (Valfritt) I en uppgiftslista klickar du på avsnittet **Föregående** för att lägga till föregående aktiviteter för aktiviteten. Mer information finns i [Skapa en föregående relation med området Föregående användare](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+   1. (Valfritt) I en uppgiftslista klickar du på avsnittet **Underaktiviteter** för att lägga till underordnade uppgifter. Mer information finns i [Skapa underaktiviteter](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Skapa uppgifter genom att flytta en personlig uppgift till ett projekt
 

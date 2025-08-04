@@ -6,9 +6,9 @@ description: En föregångare för flera projekt är en uppgift som en annan akt
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Mer information om föregående relationer finns i [Översikt över föregående
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkraven.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -49,9 +49,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard </p> 
-   eller
-   <p>Aktuell: Planera </p>
+   <td> <p>Standard </p>
+
+<p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 +++
 
 ## Skapa en föregångare för flera projekt
+
+>[!TIP]
+>
+>Även om det liknar att skapa malluppgiftsföregångare när du skapar föregående aktiviteter för en projektuppgift, kan du inte skapa föregående aktiviteter mellan mallar för malluppgifter.
+
 
 1. Gå till den uppgift som ska vara din efterföljare (beroende uppgift).
 1. Klicka på **Föregående** i den vänstra panelen.
