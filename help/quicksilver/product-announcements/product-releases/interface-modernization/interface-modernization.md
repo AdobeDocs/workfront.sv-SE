@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Mer information finns i [Skapa ett affärsärende för ett projekt](/help/quicks
 
 ## Nytt utseende och känsla för avsnittet Köinformation i en mall
 
-**Förhandsversion: 31 juli 2025; Produktionsversion: 7 augusti 2025**
+**Förhandsversion: 31 juli 2025; Produktionsversion: 14 augusti 2025**
 
 Vi har uppdaterat utseendet på avsnittet Köinformation i en mall. Utseendet och känslan i avsnittet Köinformation matchar nu andra delar av Workfront.
 
