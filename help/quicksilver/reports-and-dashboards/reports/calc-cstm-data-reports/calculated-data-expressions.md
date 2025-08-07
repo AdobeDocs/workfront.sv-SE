@@ -7,7 +7,7 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -374,7 +374,7 @@ Du kan skapa ett beräknat anpassat fält som använder några av följande mate
 
 Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde med följande uttryck:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
    <td> <p>Ersätter matchningarna för det angivna mönstret med ersättningssträngen. </p> 
    <p>Uttrycket formateras på följande sätt:</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>REPLACEPATTERN("foo123bar", "\d+", "_") genererar till exempel strängen "foo_bar". 
+   <p>REPLACEPATTERN("foo123bar", "\d+", "_") genererar till exempel strängen "foo_bar".
    </td> 
   </tr> 
   <tr> 

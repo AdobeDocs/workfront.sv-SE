@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing arbetsyta är tillgänglig i Ad
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b366841f3994468624a0c9b07d9de6f2f274cbe0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,22 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
 * Visa arbetsytan i GenStudio i Workfront Planning.
 * Ändra era kampanjer i GenStudio och få samma information i realtid i Workfront Planning.
 * Ändra kampanjerna i Workfront Planning och få uppdateringar i realtid av samma information i GenStudio.
+
+## Integrationskrav
+
+* Workfront och GenStudio for Performance Marketing måste aktiveras för samma organisation.
+
+  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+
+* GenStudio kommer inte att vara tillgängligt i Workfront Planning när ditt företag har flera instanser av Workfront. <!--this will change-->
+
+* Instansen Workfront ingår i Adobe Unified Experience, inklusive användning av Identity Management System (IMS).
+
+  Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+* Användare som använder både Planning och GenStudio kan bara tillhöra en Workfront-instans inom IMS-organisationen.
+
+<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
 ## Åtkomstkrav
 
@@ -105,44 +121,34 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-## Integrationskrav
+## Översikt över integrationen mellan Workfront Planning och GenStudio
 
-* Workfront och GenStudio for Performance Marketing måste aktiveras för samma organisation.
-* GenStudio kommer inte att vara tillgängligt i Workfront Planning när ditt företag har flera instanser av Workfront. <!--this will change-->
+I följande avsnitt beskrivs följande:
 
-* Instansen Workfront ingår i Adobe Unified Experience, inklusive användning av Identity Management System (IMS).
+* Funktioner för att uppdatera Workfront Planning-information från GenStudio
+* Funktioner för att uppdatera GenStudio-information från Workfront Planning
+* Begränsningar för vad du kan och inte kan hantera på en GenStudio-arbetsyta från Workfront Planning.
 
-  Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-* Användare som använder både Planning och GenStudio kan bara tillhöra en Workfront-instans inom IMS-organisationen.
-
-<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
-
-
-## Att tänka på när du hanterar en GenStudio-arbetsyta i Workfront Planning
-
-* Din organisation måste köpa Adobe GenStudio for Performance Marketing innan du kan visa en GenStudio-arbetsyta i Workfront Planning.
-
-  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
-
-  Mer information om integrationen mellan GenStudio och Workfront Planning finns i [Kom igång med integreringen mellan Workfront Planning och GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-
-* Workfront-användare måste ha tillgång till GenStudio för att kunna se GenStudio arbetsyta i Workfront Planning.
-
-
-* I följande avsnitt beskrivs några begränsningar för vad du kan och inte kan hantera på en GenStudio-arbetsyta från Workfront Planning.
+<!--add here a link from the GenS articles about what you can/ cannot do from GenStudio that might in the end reflect in Planning - this should come from the GenS team-->
 
 ### GenStudio arbetsyta i Workfront Planning
 
-* Om din organisation har flera Workfront-instanser kan bara en instans av Workfront visa din GenStudio-arbetsyta.
-* På arbetsytan i GenStudio visas en visuell indikator som tydligt anger att den importeras från GenStudio.
+* Om din organisation har flera Workfront-instanser visas inte GenStudio-arbetsytan från någon av dina Workfront-instanser. <!-- this might change-->
+* På arbetsytan i GenStudio visas en visuell indikator som tydligt anger att den importeras från GenStudio. Mer information finns i [Hantera GenStudio-arbetsytan i Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+* Alla användare som har tillgång till både GenStudio och Workfront Planning kan även se arbetsytan GenStudio i Workfront Planning.
+* Workfront Planning-användare måste hanteras via Adobe Identity Management System (IMS) för att kunna visa och använda GenStudio arbetsyta från Workfront.
+
+  Användare som bara har Workfront kan inte se arbetsytan i GenStudio, även när den är tillgänglig i Workfront.
+
+  Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 
 ### Posttyper
 
-* Du kan inte redigera posttyper från GenStudio i Workfront Planning.
-* Du kan inte dela posttyper från GenStudio med andra användare. Workfront-administratörer kan visa arbetsytan i GenStudio i Planning-området.
+* Du kan redigera posttypsinformation (till exempel deras utseende) från GenStudio i Workfront Planning.
+* Du kan dela posttyper från GenStudio med andra i Planning.  <!--checking with Ani H.-->
+* Du kan skapa posttyper från Planering på arbetsytan i GenStudio. <!-- checking with Ani where these show up in GenS-->
 * Posttyper som synkroniseras med GenStudio visar en visuell indikator som visar att posttyperna importeras från GenStudio.
-* Användare som visar GenStudio arbetsyta i Planning kan dela sina posttyper med andra.
 
 ### Poster
 
@@ -150,20 +156,24 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
 Du kan lägga till eller ta bort poster i Workfront Planning och de blir synliga i (eller tas bort från) GenStudio.
 * Du kan lägga till poster från Workfront Planning på följande sätt:
 
-   * Manuellt, från början
+   * Manuellt, från scratch, från alla vyer med knappen Ny post
    * Importera dem med en CSV- eller Excel-fil
+   * Manuellt, textbundet, i tabellvyn
+   * Manuellt, direkt i tidslinjevyn
 
   Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 * Du kan inte skapa eller ta bort aktiveringsposter från Workfront Planning.
-* Du kan redigera postinformation för alla poster på arbetsytan i GenStudio i något av de synliga fälten i Workfront Planning.
+* Du kan redigera postinformation på alla poster i GenStudio arbetsyta i Planning i något av de synliga fälten i Workfront Planning.
 
   Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
+  <!--asking Ani if I delete a record in GS - will it move to Recovery box in Planning?-->
+
 ### Fält
 
-* Alla postfält importeras från GenStudio och fältinställningarna kan inte redigeras.
-* Du kan bara skapa fält för posttyper i GenStudio i Workfront Planning om du har systemadministratörsåtkomst i GenStudio.
-* Du kan skapa fält för GenStudio-posttyper i Planning. De här fälten visas i följande områden:
+* Postfält importeras från GenStudio. Du kan redigera fältinställningarna i Workfront Planning.
+* Du kan skapa fler fält för posttyper i GenStudio i Workfront Planning om du har åtkomst till Hantera i Gen Studio.
+* När du skapar fält för GenStudio-posttyper i Planning visas de i följande områden:
    * Planeringsvyer
    * Sidor med information om planeringsposter
    * GenStudio postinformationssidor
@@ -183,16 +193,17 @@ I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - onl
 
 ### Vyer
 
-* Du kan skapa vyer för posttyper i GenStudio. Du kan inte redigera vyer som importerats automatiskt från GenStudio, men du kan ändra vyelementen för GenStudio tabellvy. Du kan till exempel ändra filter, sortering, grupperingar, radfärger och radhöjd i tabellvyn.
+* Du kan skapa vyer för posttyper i GenStudio.
 
   Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
-* Du kan dela vyn av en posttyp i GenStudio på följande sätt:
-
-   * Kopiera vylänken
-   * Exportera vyn till en fil (endast tillgänglig för tabellvyn)
+* Du kan dela vyn av en posttyp i GenStudio när du delar en vy för posttypen Planning.
 
 ### Anslutningar
 
-* Du kan inte ansluta andra post- eller objekttyper från GenStudio-posttyper i Planning.
-* Du kan ansluta till posttyper från GenStudio från andra posttyper i Planning.
+* Du kan göra följande anslutningar mellan posttyperna i GenStudio och andra post- eller objekttyper i Workfront Planning:
+
+   * Två posttyper från GenStudio och
+   * En posttyp för GenStudio och en posttyp för Planning från samma arbetsyta
+   * En posttyp i GenStudio och en posttyp för planering från en annan arbetsyta, om posttyperna har konfigurerats för att ansluta från en annan arbetsyta.
+   * En posttyp i GenStudio och en objekttyp i Workfront (projekt, portföljer, program, företag, grupper)

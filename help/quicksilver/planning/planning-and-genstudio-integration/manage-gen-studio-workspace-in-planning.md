@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing arbetsyta är tillgänglig i Ad
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 GenStudio for Performance Marketing arbetsyta är tillgänglig i Adobe Workfront Planning när ditt företag har köpt båda produkterna och din instans av Workfront är integrerad med ditt företags instans av GenStudio. Du kan visa arbetsytan i GenStudio från Planning och uppdatera information i båda systemen.
 
-Mer information om hur du använder GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+Mer information om hur du använder GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 ## Åtkomstkrav
 
@@ -93,6 +93,17 @@ Mer information om hur du använder GenStudio for Performance Marketing finns i 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Att tänka på när du hanterar en GenStudio-arbetsyta i Workfront Planning
+
+* Din organisation måste köpa Adobe GenStudio for Performance Marketing innan du kan visa en GenStudio-arbetsyta i Workfront Planning.
+
+  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+
+  Mer information om integrationen mellan GenStudio och Workfront Planning finns i [Kom igång med integreringen mellan Workfront Planning och GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+
+* Workfront-användare måste ha tillgång till GenStudio för att kunna se GenStudio arbetsyta i Workfront Planning.
+
 
 ## Hantera GenStudio arbetsyta i Workfront Planning
 
