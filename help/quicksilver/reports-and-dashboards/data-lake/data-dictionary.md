@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect-dataordlista
 description: Den här sidan innehåller information om datastrukturen och innehållet i Workfront Data Connect.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ Objekt i Workfront (och därför i Data Connect-datavinen) definieras inte bara 
 
 Det finns ett antal datumobjekt som ger information om när specifika händelser inträffar.
 
-* `DL_LOAD_TIMESTAMP`: Det här datumet används för intern referens och reflekteras när data lästes in i tabellen Aktuell, Händelse eller Daglig historik. Detta datum ska inte användas för dataanalys och ska tas bort under betaversionen av Workfront Data Lake.
-* `CALENDAR_DATE`: Det här datumet finns bara i tabellen Daglig historik. Den här tabellen innehåller information om hur data ser ut vid 11:59 UTC för varje datum som anges i `CALENDAR_DATE`.
+* `DL_LOAD_TIMESTAMP`: Det här datumet uppdateras när en datauppdatering har slutförts och innehåller tidsstämpeln för när uppdateringsjobbet som skickade den senaste versionen av en post påbörjades.
+* `CALENDAR_DATE`: Det här datumet finns bara i tabellen Daglig historik. Den här tabellen innehåller information om hur data ser ut i :59`CALENDAR_DATE` UTC för varje datum som anges i .
 * `BEGIN_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i tabellerna Händelse och Dagshistorik, och det registreras exakt när en post ändrade värdet _till_ på den aktuella raden.
 * `END_EFFECTIVE_TIMESTAMP`: Det här datumet finns i tabellerna Händelse och Daglig historik, och det registreras exakt när en post ändrade värdet _från_ i den aktuella raden till ett värde i en annan rad. För att tillåta mellan frågor på `BEGIN_EFFECTIVE_TIMESTAMP` och `END_EFFECTIVE_TIMESTAMP` är det här värdet aldrig null, även om det inte finns något nytt värde. Om en post fortfarande är giltig (d.v.s. värdet inte har ändrats) har `END_EFFECTIVE_TIMESTAMP` värdet 2300-01-01.
 
