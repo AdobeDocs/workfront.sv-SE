@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Om du vill visa ändringen går du till Inställningar > System > Uppdatera anv�
 
 ## Projekt
 
-### Gränssnittsuppdateringar för loggningstid för ett projekt, en uppgift eller ett problem på fliken Timmar
+### Gränssnittsuppdateringar för loggningstid för ett projekt, en uppgift eller ett problem i avsnittet Timmar
 
 **Förhandsversion: 7 augusti 2025; Produktionsversion: 14 augusti 2025**
 
-Vi har uppdaterat loggtidsrutans utseende och känsla när vi loggar tid för ett projekt, en uppgift eller ett problem på fliken Timmar, så att det matchar designen i andra delar av Workfront.
+Vi har uppdaterat loggtidsrutans utseende och känsla när vi loggar tid för ett projekt, en uppgift eller ett problem under Timmar, så att det matchar designen i andra delar av Workfront.
 
 Mer information finns i [Loggtid](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -114,7 +114,7 @@ Vi har uppdaterat utseendet på användarrutan Skicka uppdatering till när vi �
 
 * Avsnittet Personer i en mall
 * Avsnittet Personer i ett projekt
-* En användarlista på ett företag
+* Avsnittet Företagsmedlemmar i ett företag
 * Användarlistan i området Användare
 
 Rutan Skicka uppdatering till användare matchar nu andra delar av Workfront när du skickar en uppdatering till en eller flera användare.
