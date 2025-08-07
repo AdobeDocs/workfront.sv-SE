@@ -6,9 +6,9 @@ description: Du kan använda smarta tilldelningar för att identifiera vem som �
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 0%
 # Gör smarta uppdrag
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">Den markerade informationen på den här sidan refererar till funktioner som bara är tillgängliga i förhandsvisningsmiljön.</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 Du kan använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet.
 
@@ -90,7 +82,7 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
    Smarta tilldelningar visas i följande avsnitt:<!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
-   * **Användare och team**, **Jobbroller** eller <span class="preview">**Betygsätt jobbroller**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
+   * **Användare och team** eller **Jobbroller** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
    ![Exempel på smarta tilldelningar i uppgiftslistan](assets/smart-assignments-task-list.png)
 

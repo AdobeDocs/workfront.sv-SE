@@ -7,24 +7,18 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '2012'
+source-wordcount: '1836'
 ht-degree: 0%
 
 ---
 
 # Tilldela uppgifter
 
+{{preview-fast-release-general}}
+
 <!--Audited: 07/2024-->
-
-<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Du kan tilldela uppgifter till användare, jobbroller eller team för att ange vem som ansvarar för att slutföra uppgifterna. Du kan tilldela en uppgift till mer än en resurs åt gången.
 
@@ -55,8 +49,6 @@ Utöver den här artikeln rekommenderar vi att du läser följande artiklar för
 * [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Åtkomstkrav
-
-<!-- Audited: 07/2024-->
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
@@ -152,23 +144,21 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Klicka på uppdragsnamnet om uppgiften redan är tilldelad.
 
-   ![Uppdrag](assets/assignments-box-in-task-header.png)
+   ![Uppdrag](assets/assignments-from-task-header-0825.png)
 
 1. Gör något av följande:
 
-   * Börja skriva namnet på en användare, roll eller team som du vill tilldela och klicka sedan på den när den visas i listan.
-
+   * Börja skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela och klicka sedan på det när det visas i listan.
 
      >[!TIP]
      >
      >När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
      >
      >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-     >
-     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj en roll i listan Jobbroller om du vill använda standardfaktureringsnivån för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
+     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
 
-   * (Villkorligt) Klicka på ett av namnen i listorna <span class="preview">**Föreslagna tilldelningar**</span>, **Användare och team**, **Jobbroller** eller <span class="preview">**Klassificera kortroller**</span> när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Villkorligt) Klicka på ett av namnen i listorna **Användare och team** eller **Jobbroller** när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Du kan börja skriva namnet på en användare, ett team eller en jobbroll som ska tilldelas uppgiften och sedan markera den när den visas i listan.
 
@@ -214,15 +204,11 @@ Så här tilldelar du uppgifter i en lista:
      >När du lägger till en användartilldelning bör du lägga märke till avataren, användarens primära roll eller användarens e-postadress för att skilja mellan användare med identiska namn. Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
      >
      >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-     >
-     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj en jobbroll om du vill använda standardfaktureringssatsen för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+
+     <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. (Villkorligt) När den visas i fältet **Tilldelningar** klickar du på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna rutan **Avancerade tilldelningar** och skapa avancerade tilldelningar.
-
-   <!--
-   there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
-   -->
+1. (Villkorligt) I fältet Uppdrag klickar du på ikonen <span class="preview">**Avancerat**</span> eller **Personer** ![Ikonen Personer](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan **Avancerade uppdrag** och skapa avancerade uppdrag.
 
    Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

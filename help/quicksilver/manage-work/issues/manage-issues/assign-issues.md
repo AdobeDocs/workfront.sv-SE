@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Tilldela ärenden
+
+{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,6 +172,10 @@ Så här tilldelar du utgåvor i en lista:
 
    * Klicka i fältet **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller aktivt team som du vill tilldela utgåvan. Klicka sedan på den när den visas i listan.
 
+     <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+     ![Uppdragsfält](assets/assignments-field-0825.png)
+
+     Exempelbild i produktionsmiljön:
      ![Uppdragsfält](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -180,8 +186,7 @@ Så här tilldelar du utgåvor i en lista:
    >
    >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-
-1. (Villkorligt) När den visas i fältet Uppdrag klickar du på ikonen **Personer** ![Personer](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Villkorligt) I fältet Uppdrag klickar du på ikonen <span class="preview">**Avancerat**</span> eller **Personer** ![Ikonen Personer](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >

@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Skapa avancerade uppdrag
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -84,7 +86,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    >[!TIP]
    >
-   >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan om två eller flera personer har tilldelats. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på ikonen **Personer** för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.\
+   >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på <span class="preview">**Avancerat**</span> eller **Ikonen Personer** för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
+   ><span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
+   >Exempelbild i produktionsmiljön:
    >![Klicka på ikonen Personer](assets/nwe-advanced-assignments-350x55.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
@@ -95,7 +100,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **Avancerat**.
 
-   ![Klicka på Avancerat](assets/assignments-box-in-task-header.png)
+   ![Klicka på Avancerat](assets/assignments-from-task-header-0825.png)
 
 1. I fältet **Sök efter personer, roller och team** börjar du skriva namnet på en användare, roll eller team och klickar sedan på namnet när det visas i listrutan.
 
