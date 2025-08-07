@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Översikt över beräknade datauttryck
 description: Du kan använda datauttryck för att definiera beräknade anpassade datafält i Adobe Workfront. Beräknade uttryck kopplar befintliga Workfront-fält i satser som genererar ett nytt fält.
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2551'
 ht-degree: 0%
 
 ---
@@ -414,23 +414,8 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong>SORTASCARRAY</strong> </td> 
-   <td> <p>Ordnar arrayelementen i stigande ordning och konverterar dem till det första elementets typ.</p>
-   <p>Uttrycket formateras på följande sätt:</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>Till exempel blir ["-12.6", -13.0] ["-12.6", "-13"].</p>
-   <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCARRAY</strong> </td> 
-   <td> <p>Ordnar arrayelementen i fallande ordning och konverterar dem till det första elementets typ.</p>
-   <p>Uttrycket formateras på följande sätt:</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>Till exempel blir ["-12.6", -13.0] ["-13", "-12.6"].</p>
-   <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong>ÄRENDE</strong> </td> 
    <td> <p>Används med andra uttryck för att välja ett värde från en lista baserat på ett indexvärde. </p>
    <p>Ett indexvärde är ett fält eller en funktion som returnerar ett numeriskt värde (vanligtvis i ett känt intervall).</p> 
@@ -543,10 +528,35 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong>PASCAL</strong> </td> 
+   <td> <p>Konverterar indatasträngen till PascalCase genom att ändra den första bokstaven i varje ord till versal och ta bort alla blanksteg. </p>
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>"hello world" blir till exempel "HelloWorld"</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>Tar bort diakritiska tecken från alla tecken med accent i indatasträngen. </p> 
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>Till exempel blir "Héllo wörld with Áccénts" "Hello world with accents". </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>ERSÄTT</strong> </td> 
    <td> <p>Ersätter alla förekomster av sträng2 med sträng3 i sträng1.</p> <p>Uttrycket formateras på följande sätt:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>Ersätter matchningarna för det angivna mönstret med ersättningssträngen. </p> 
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>REPLACEPATTERN("foo123bar", "\d+", "_") genererar till exempel strängen "foo_bar". 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>HÖGER</strong> </td> 
@@ -560,6 +570,22 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Ordnar arrayelementen i stigande ordning och konverterar dem till det första elementets typ.</p>
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Till exempel blir ["-12.6", -13.0] ["-12.6", "-13"].</p>
+   <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Ordnar arrayelementen i fallande ordning och konverterar dem till det första elementets typ.</p>
+   <p>Uttrycket formateras på följande sätt:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Till exempel blir ["-12.6", -13.0] ["-13", "-12.6"].</p>
+   <p>Obs! Det här uttrycket stöds inte i Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong>STRING</strong> </td> 
    <td> <p>Konverterar ett tal till en sträng och formateras enligt följande:</p>
@@ -603,3 +629,4 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
   </tr> 
  </tbody> 
 </table>
+

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 0%
 
 <!--take preview and production references out at production - August 7-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div>
+
+-->
 
 Projektgruppen består av användare som är kopplade till projektet. Mer information finns i [Översikt över projektgruppen](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -57,8 +59,8 @@ Du kan hantera användarna i projektet och mallens team genom att lägga till de
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard </p>
-    <p>Aktuell: Planera </p>
+   <td> <p>Standard </p>
+    <p>Plan </p>
     </td> 
   </tr> 
   <tr> 
@@ -197,7 +199,12 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Markera en eller flera användare i listan och klicka sedan på **Skicka uppdatering till användare**.
 
-   ![Skicka uppdatering till användare i ett projekt](assets/send-update-to-user-on-project-box.png)
+   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
+
+   ![Skicka uppdatering till användarrutan i projektet](assets/send-update-to-user-on-project-box-2025.png)
+
+   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
 
    Rutan **Skicka uppdatering till användare** öppnas.
 
@@ -250,23 +257,10 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Gör följande:
 
-   * I produktionsmiljön:
-
-      * Lägg till en uppdatering för de valda användarna.
-      * Klicka på personikonen om du vill tagga till fler användare för att få samma uppdatering.
-      * Klicka på låsikonen för att göra uppdateringen privat för användarna i ditt företag.
-      * Klicka på **Skicka**.
-
-   * <span class="preview">I förhandsvisningsmiljön: </span>
-
-   <div class="preview">
-
    * Lägg till en uppdatering för de valda användarna.
    * Klicka på **Tagga personer** om du vill tagga fler användare för att få samma uppdatering.
    * Välj alternativet **Privat till mitt företag** för att göra uppdateringen privat för användarna i ditt företag.
    * Klicka på **Skicka**.
-
-   </div>
 
    Uppdateringen läggs till i avsnittet **Uppdateringar** i varje taggad användares profil.
 

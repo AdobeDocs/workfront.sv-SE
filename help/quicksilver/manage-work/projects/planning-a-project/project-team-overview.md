@@ -7,9 +7,9 @@ description: Användare som är associerade med ett projekt i viss kapacitet utg
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 0%
 
 <!-- Audited: 6/2025 -->
 
-Ett projektteam består av användare som är kopplade till ett projekt i någon form. Användare som listas under området Personer i ett projekt utgör projektteamet. Till exempel är användare som är tilldelade att arbeta med projektet eller projektägaren en del av projektteamet.
+Ett projektteam består av användare som är kopplade till ett projekt i någon form. Användare som visas i avsnittet Personer i ett projekt utgör projektteamet. Till exempel är användare som är tilldelade att arbeta med projektet eller projektägaren en del av projektteamet.
 
-Användare som är kopplade till arbete i en projektmall eller är mallägare eller sponsor är en del av det framtida projektteamet när projektet har skapats med mallen.
+Följande användare i en projektmall ingår i det framtida projektteamet när projektet har skapats med mallen:
+
+* Användare som är tilldelade till arbete (uppgifter och ärenden) i mallen.
+* Mallens ägare eller sponsor.
+
+Användare som ingår i det framtida projektteamet i en mall visas i avsnittet Personer i mallen.
 
 ## Projektteammedlemmar
 
