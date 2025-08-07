@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,29 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## Nya uttryck har lagts till i formelfält i Planning
+
+>[!NOTE]
+>
+>Förhandsgranska: 7 augusti 2025
+>>Produktion för alla kunder :August, 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
+
+Vi har lagt till nya uttryck med följande användning i formelfält i Workfront Planning och i beräknade anpassade fält i Workfront:
+
+* **REMOVEACCENTS(string)**: Tar bort diakritiska tecken från alla tecken med accent i indatasträngen.
+* **REPLACEPATTERN (sträng, mönster, ersättningssträng)**: Ersätter matchningarna för det angivna mönstret med ersättningssträngen.
+* **PASCAL(string)**: Konverterar indatasträngen till PascalCase genom att ändra den första bokstaven i varje ord till versal och ta bort alla blanksteg.
+
+Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
 ## Lägga till Maximera och Minimera-knappar i fönstret där formelfält skapas
 
 >[!NOTE]
 >
 >Förhandsgranska: 31 juli 2025
->&#x200B;>Produktion för alla kunder: 31 juli 2025
->&#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>>Produktion för alla kunder: 31 juli 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till knappen Maximera för att förstora formelfältet när du skapar eller redigerar fältet i en posttabellvy. Dessutom har vi lagt till en Minimera-knapp i det nya förstorade fönstret för att återgå till rutan för att skapa fält.
 
@@ -78,8 +94,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Nu kan du skapa poster i tidslinjevyn för en posttyp genom att dubbelklicka någonstans på tidslinjen.
 
@@ -94,8 +110,8 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Du kan nu dela en posttyp på menyn Mer på posttypskortet på arbetsytesidan. Före den här förbättringen var alternativet Dela bara tillgängligt på posttypssidan.
 
@@ -106,8 +122,8 @@ Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Nu kan du visa alla Workfront Planning-vyer (tabell, tidslinje och kalender) i helskärmsläge. Visningsfunktionen bevaras och du kan även ändra vyn i helskärmsläge.
 
@@ -120,22 +136,8 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 >[!NOTE]
 >
 >Förhandsgranska: 22 juli 2025
->&#x200B;>Production for fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
-
-För att göra godkännandeprocessen mer flexibel har vi lagt till möjligheten att lägga till team som godkännare i planeringsförfrågningsformulär. Nu kan du ange och välja teamnamn när du ställer in godkännare. Alla teammedlemmar kan fatta ett beslut som räknas som ett godkännandebeslut för hela teamet.
-
-Tidigare kunde bara enskilda användare tilldelas godkännare.
-
-Mer information finns i [Lägga till ett godkännande i ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
-
-## Lägg till team som godkännare i planeringsförfrågningsformulär
-
->[!NOTE]
->
->Förhandsgranska: 22 juli 2025
->&#x200B;>Production for fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production for fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 För att göra godkännandeprocessen mer flexibel har vi lagt till möjligheten att lägga till team som godkännare i planeringsförfrågningsformulär. Nu kan du ange och välja teamnamn när du ställer in godkännare. Alla teammedlemmar kan fatta ett beslut som räknas som ett godkännandebeslut för hela teamet.
 
@@ -148,8 +150,8 @@ Mer information finns i [Lägga till ett godkännande i ett begärandeformulär 
 >[!NOTE]
 >
 >Förhandsgranska: 17 juli 2025
->&#x200B;>Production for fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production for fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Vi introducerar följande fält för att samla in godkännandeinformation för poster som skapats genom att skicka en begäran med ett godkännande:
 
@@ -163,8 +165,8 @@ Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-f
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 
 När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.

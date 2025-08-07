@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
 workflow-type: tm+mt
-source-wordcount: '6319'
+source-wordcount: '6584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,19 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ## Administratör och installation
 
-## Gränssnittsuppdateringar för listan över tidrapportprofiler i en grupp
+## Gränssnittsuppdateringar för villkorsområdet i installationsprogrammet
+
+**Förhandsversion: 7 augusti 2025; Produktionsversion: 18 augusti 2025**
+
+Vi har uppdaterat villkorssidan med en modernare design som överensstämmer med andra delar av Workfront.
+
+En synlig förbättring i gränssnittet är att en **Redigera**-knapp nu visas bredvid villkor som du kan redigera och att du inte längre behöver hovra över ett villkor för att hitta redigeringsikonen.
+
+Om du vill visa ändringarna går du till Inställningar > Projektinställningar > Villkor.
+
+Mer information finns i [Skapa eller redigera ett anpassat villkor](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+### Gränssnittsuppdateringar för listan över tidrapportprofiler i en grupp
 
 **Förhandsversion: 24 juli 2025; Produktionsversion: 28 juli 2025**
 
@@ -32,7 +44,7 @@ Vi har uppdaterat utseendet på listan över tidrapportprofiler i den vänstra p
 
 Om du vill visa ändringarna går du till Inställningar > Grupper > Välj en grupp > Tidrapportprofiler.
 
-## Gränssnittsändringar för rutorna Ny och Redigera timtyp
+### Gränssnittsändringar för rutorna Ny och Redigera timtyp
 
 **Förhandsversion: 24 juli 2025; Produktionsversion: 31 juli 2025**
 
@@ -40,7 +52,7 @@ Vi har uppdaterat utseendet på rutorna Ny och Redigera timtyp när vi lägger t
 
 Mer information finns i [Hantera timtyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-## Gränssnittsuppdateringar till sidan Granskningsloggar i installationsprogrammet
+### Gränssnittsuppdateringar till sidan Granskningsloggar i installationsprogrammet
 
 **Förhandsversion: 22 juli 2025; Produktionsversion: ska tillkännages**
 
@@ -50,7 +62,7 @@ Exportknappen har flyttats till höger på sidan.
 
 Om du vill visa den här ändringen går du till Inställningar > Ändringsspårning > Granskningsloggar.
 
-## Gränssnittsuppdateringar för sidan Uppdatera användare för enkel inloggning i installationsprogrammet
+### Gränssnittsuppdateringar för sidan Uppdatera användare för enkel inloggning i installationsprogrammet
 
 **Förhandsversion: 22 juli 2025; Produktionsversion: 28 juli 2025**
 
@@ -60,9 +72,17 @@ Om du vill visa ändringen går du till Inställningar > System > Uppdatera anv�
 
 ## Projekt
 
-## Gränssnittsuppdateringar för ett affärsärende i ett projekt
+### Gränssnittsuppdateringar för loggningstid för ett projekt, en uppgift eller ett problem på fliken Timmar
 
-**Förhandsversion: 4 augusti 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 7 augusti 2025; Produktionsversion: 14 augusti 2025**
+
+Vi har uppdaterat loggtidsrutans utseende och känsla när vi loggar tid för ett projekt, en uppgift eller ett problem på fliken Timmar, så att det matchar designen i andra delar av Workfront.
+
+Mer information finns i [Loggtid](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+### Gränssnittsuppdateringar för ett affärsärende i ett projekt
+
+**Förhandsversion: 4 augusti 2025; Produktionsversion: 18 augusti**
 
 Vi har uppdaterat utseendet på projektets affärsärende så att det matchar andra delar av programmet.
 
@@ -70,7 +90,7 @@ Om du vill visa den här ändringen går du till Projekt > Välj ett projekt > A
 
 Mer information finns i [Skapa ett affärsärende för ett projekt](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
-## Nytt utseende och känsla för avsnittet Köinformation i en mall
+### Nytt utseende och känsla för avsnittet Köinformation i en mall
 
 **Förhandsversion: 31 juli 2025; Produktionsversion: 14 augusti 2025**
 
@@ -78,7 +98,7 @@ Vi har uppdaterat utseendet på avsnittet Köinformation i en mall. Utseendet oc
 
 Mer information finns i [Skapa en frågekö](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -86,15 +106,15 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## Gränssnittsuppdateringar för rutan Skicka uppdatering till användare för en mall
+### Gränssnittsuppdateringar för rutan Skicka uppdatering till användare för en mall
 
-**Förhandsversion: 31 juli 2025; Produktionsversion: 7 augusti 2025**
+**Förhandsversion: 31 juli 2025; Produktionsversion: TBD, 2025**
 
 Vi har uppdaterat utseendet och känslan av rutan Skicka uppdatering till användare när vi öppnar den från fliken Personer i en mall. Rutan Skicka uppdatering till användare matchar nu andra delar av Workfront när du skickar en uppdatering till en eller flera användare.
 
 Mer information finns i [Hantera projektteamet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-## Uppdaterad upplevelse när du redigerar ett köämne i ett projekt eller en mall
+### Uppdaterad upplevelse när du redigerar ett köämne i ett projekt eller en mall
 
 **Förhandsversion: 31 juli 2025; Produktionsversion: 31 juli 2025**
 
@@ -104,7 +124,7 @@ En liten funktionalitetsändring har tillämpats på listan Routningsregler. Om 
 
 Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## Gränssnittsuppdateringar för faktureringsposter
+### Gränssnittsuppdateringar för faktureringsposter
 
 **Förhandsversion: 31 juli 2025; Produktionsversion: 7 augusti 2025**
 
@@ -114,7 +134,7 @@ Om du vill visa de här ändringarna går du till ett projekt > Faktureringspost
 
 Mer information finns i [Skapa faktureringsposter](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
-## Gränssnittsuppdateringar för rutan Importera MS-projektfil
+### Gränssnittsuppdateringar för rutan Importera MS-projektfil
 
 **Förhandsversion: 24 juli 2025; Produktionsversion: ska tillkännages**
 
@@ -122,7 +142,7 @@ Vi har uppdaterat utseendet på rutan Importera MS-projektfil när vi importerar
 
 Om du vill visa den här ändringen går du till Projekt > Nytt projekt > Importera MS-projekt.
 
-## Gränssnittsuppdatering för rutan Lägg till en utgift för ett projekt eller en mall
+### Gränssnittsuppdatering för rutan Lägg till en utgift för ett projekt eller en mall
 
 **Förhandsversion: 24 juli 2025; Produktionsversion: 31 juli 2025**
 
@@ -132,7 +152,15 @@ Mer information finns i [Hantera projektutgifter](/help/quicksilver/manage-work/
 
 ## Mallar
 
-## Gränssnittsändringar när en routningsregel redigeras för en mall
+### Gränssnittsuppdateringar för listan Föregående användare i en mall
+
+**Förhandsversion: 7 augusti 2025; Produktionsversion: 14 augusti 2025**
+
+Vi har uppdaterat utseendet och känslan i en mall för att matcha designen i andra delar av Workfront.
+
+Att lägga till föregångare för en malluppgift påminner om att lägga till föregångare till en projektuppgift. Mer information finns i [Skapa en föregående relation med området Föregående användare](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+
+### Gränssnittsändringar när en routningsregel redigeras för en mall
 
 **Förhandsversion: 24 juli 2025; Produktionsversion: 31 juli 2025**
 
@@ -142,7 +170,7 @@ Om du vill redigera routningsregeln väljer du hanteringsregeln i listan och kli
 
 Mer information finns i [Skapa routningsregler](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-## Gränssnittsändringar i hanteringsområden för begärandekö i en mall
+### Gränssnittsändringar i hanteringsområden för begärandekö i en mall
 
 **Förhandsversion: 24 juli 2025; Produktionsversion: 31 juli 2025**
 
@@ -160,6 +188,18 @@ Mer information finns i
 * [Skapa ämnesgrupper](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Skapa routningsregler](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+## Användare
+
+### Gränssnittsuppdateringar i dialogrutan Importera användare
+
+**Förhandsversion: 7 augusti 2025; Produktionsrelease för alla kunder: 14 augusti 2025**
+
+Dialogrutan för import av nya användare via en kalkylbladsfil har uppdaterats så att den matchar andra delar av programmet.
+
+Om du vill visa den här ändringen går du till Användare > Ny användare > Importera användare.
+
+Mer information finns i [Importera användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 ## Gränssnittsuppdateringar gjorda i tredje kvartalet
 
 ### Administratör och installation
@@ -168,7 +208,7 @@ Mer information finns i
 
 ### Gränssnittsuppdateringar för sidan Layoutmallar
 
-**Förhandsversion: 17 juli 2025; Produktionsversion: 24 juli 2025**
+**Förhandsversion: 17 juli 2025; Produktionsversion: TBD**
 
 Vi har uppdaterat sidan Layoutmallar med en modernare design som överensstämmer med andra delar av Workfront.
 
