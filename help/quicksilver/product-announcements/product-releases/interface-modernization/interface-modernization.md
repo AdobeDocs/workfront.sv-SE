@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 0%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### Gränssnittsuppdateringar för rutan Skicka uppdatering till användare för en mall
+### Gränssnittsuppdateringar för användarrutan Skicka uppdatering till på flera objekt
 
-**Förhandsversion: 31 juli 2025; Produktionsversion: TBD, 2025**
+**Förhandsversion: 31 juli 2025; Produktionsversion: 7 augusti 2025**
 
-Vi har uppdaterat utseendet och känslan av rutan Skicka uppdatering till användare när vi öppnar den från fliken Personer i en mall. Rutan Skicka uppdatering till användare matchar nu andra delar av Workfront när du skickar en uppdatering till en eller flera användare.
+Vi har uppdaterat utseendet på användarrutan Skicka uppdatering till när vi öppnar den från följande områden:
 
-Mer information finns i [Hantera projektteamet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+* Avsnittet Personer i en mall
+* Avsnittet Personer i ett projekt
+* En användarlista på ett företag
+* Användarlistan i området Användare
+
+Rutan Skicka uppdatering till användare matchar nu andra delar av Workfront när du skickar en uppdatering till en eller flera användare.
+
+Mer information finns i följande artiklar:
+
+* [Skicka direktmeddelanden till andra användare](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Hantera projektgruppen](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Hantera företagsmedlemskap](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Uppdaterad upplevelse när du redigerar ett köämne i ett projekt eller en mall
 
