@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: 705fc990f2d90ff2102233fc68947fdbe1eb6946
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -127,9 +127,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td> 
        <ol> 
         <li value="1"> <p>Markera minst en användare och klicka sedan på <b>Skicka uppdatering till användare</b> i verktygsfältet.</p> </li> 
-        <li value="2"> <p>Skriv den kommentar som du vill skicka till användarna och till [!UICONTROL Updates]-delen av deras användarprofiler.</p> </li> 
+        <li value="2"> <p>Skriv den kommentar som du vill skicka till användarna och till [!UICONTROL Updates]-delen av deras användarprofiler.</p>
+         <p>Mer information finns i <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Skicka direktmeddelanden till andra användare</a>.</p></li> 
        </ol>
-       <p>Mer information finns i <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Skicka direktmeddelanden till andra användare</a>.</p></td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportera listan över företagsmedlemmar</td> 
