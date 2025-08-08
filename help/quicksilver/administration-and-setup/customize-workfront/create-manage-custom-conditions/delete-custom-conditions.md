@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
 # Ta bort ett anpassat villkor
+
+{{highlighted-preview}}
 
 Du kan ta bort ett anpassat villkor om det inte längre behövs.
 
@@ -58,16 +60,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **Projektinställningar** > **Villkor**.
 
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
-   -->
-
 1. Välj fliken för objekttypen (**Projekt**, **Aktivitet** eller **Problem**) där villkoret som du vill ta bort finns.
 
-1. Håll pekaren över villkoret som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort](assets/delete.png) som visas längst till höger.
-1. Klicka på **Ta bort villkor** i bekräftelsemeddelandet som visas.
+1. Klicka på <span class="preview">**Ta bort** bredvid villkorsnamnet</span> som du vill ta bort, eller hovra över villkoret och klicka på ikonen **Ta bort** ![Ta bort](assets/delete.png) som visas längst till höger.
 
-1. I rutan **Ta bort villkor** som visas väljer du ett nytt villkor i listrutan för alla projekt som använder villkoret som du tar bort.
+1. I rutan **Ta bort villkor** som visas väljer du ett nytt villkor i listrutan för alla projekt, aktiviteter eller problem som använder det villkor som du håller på att ta bort.
 
    Anpassade villkor är bara tillgängliga i listrutan om de motsvarar samma inbyggda villkor som det du tar bort. Om du t.ex. tar bort ett villkor som är lika med Vid risk, kan du bara välja anpassade villkor som också är lika med Vid risk.
 
@@ -76,5 +73,5 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 >[!NOTE]
 >
 >Du kan inte ta bort de inbyggda villkoren, som är On Target, At Risk och In Trouble. Du kan dock ändra deras namn och färger.
-
-Mer information om anpassade villkor finns i [Anpassade villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+>
+>Mer information om hur du redigerar anpassade villkor finns i [Skapa eller redigera ett anpassat villkor](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).

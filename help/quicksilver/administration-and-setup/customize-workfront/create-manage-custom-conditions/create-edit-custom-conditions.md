@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -124,15 +124,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
      ![Ändra villkor vid redigering av projekt](assets/change-condition-edit-project-0825.png)
 
-<!-- 
+   <!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
--->
+   -->
 
-* När en användare ändrar villkoret för en uppgift eller ett problem i en listvy:
+   * När en användare ändrar villkoret för en uppgift eller ett problem i en listvy:
 
-  ![Ändra villkor i listan](assets/change-conditions-list-dropdown-only.png)
+     ![Ändra villkor i listan](assets/change-conditions-list-dropdown-only.png)
 
 1. Klicka på **Spara**.
 

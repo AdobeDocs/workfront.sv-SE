@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Du kan ändra den ordning i vilken villkoren visas i projekt, uppgifter och äre
 
 * När en användare redigerar ett projekt
 
-  ![Ändra villkor vid redigering av projekt](assets/change-condition-edit-project.png)
+  ![Ändra villkor vid redigering av projekt](assets/change-condition-edit-project-0825.png)
 
 * När en användare ändrar villkoret för en uppgift eller ett problem
 
@@ -66,7 +66,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **Projektinställningar** > **Villkor**.
 
-1. Välj fliken **Projekt**,**Åtgärder** eller **Problem**.
+1. Välj fliken **Projekt**, **Åtgärder** eller **Problem**.
 
 1. Dra ![Flytta ikon](assets/move-icon---dots.png) för att ändra ordningen.
 

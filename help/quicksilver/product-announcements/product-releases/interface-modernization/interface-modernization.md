@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '6622'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 Vi har uppdaterat villkorssidan med en modernare design som överensstämmer med andra delar av Workfront.
 
-En synlig förbättring i gränssnittet är att en **Redigera**-knapp nu visas bredvid villkor som du kan redigera och att du inte längre behöver hovra över ett villkor för att hitta redigeringsikonen.
+En synlig förbättring i gränssnittet är att knapparna **Redigera** och **Ta bort** nu visas bredvid villkor som du kan redigera, och du behöver inte längre hovra över ett villkor för att hitta ikonerna Redigera och Ta bort.
 
 Om du vill visa ändringarna går du till Inställningar > Projektinställningar > Villkor.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,5 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 >
 >* En användare som har tilldelats en uppgift eller ett problem, eller som har behörigheten Hantera, kan ändra dess villkor manuellt. Mer information finns i [Uppdatera villkor för aktiviteter och problem](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 >* De tre standardvillkoren för uppgifter och ärenden som ingår i Workfront är att fungera smidigt, vissa bekymmer och viktiga vägspärrar. Du kan inte dölja eller ta bort dessa villkor, men du kan ändra deras namn och färger. Du kan också skapa nya som du vill använda i stället, enligt beskrivningen i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
->
 
 Mer information om hur du konfigurerar ett anpassat villkor som standardvillkor för projekt finns i [Ange ett anpassat villkor som standard för projekt](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
-
-Mer information om anpassade villkor finns i [Anpassade villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
