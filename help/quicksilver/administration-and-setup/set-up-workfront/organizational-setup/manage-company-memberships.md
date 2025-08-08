@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: Hantera företagsmedlemskap
 description: Under [!UICONTROL Companies] i Inställningar kan du lägga till och ta bort ett företags medlemmar. Du kan även redigera deras användarprofiler och påminna dem om att registrera dem i  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] system.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <li> <p>Om du vill lägga till och ta bort användare från systemet [!DNL Workfront] måste du ha något av följande:</p> 
        <ul> 
         <li> <p>Åtkomstnivån [!UICONTROL System Administrator].</p> </li> 
-        <li> <p>I din åtkomstnivå måste [!UICONTROL Edit] väljas för inställningen [!UICONTROL Users]. Dessutom måste alternativet [!UICONTROL Create] och minst ett av de två alternativen [!UICONTROL User Admin] aktiveras för inställningen [!UICONTROL Users], under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Om du använder alternativet [!UICONTROL User Admin (Group Users)] måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
+        <li> <p>I din åtkomstnivå måste [!UICONTROL Edit] väljas för inställningen [!UICONTROL Users]. Dessutom måste alternativet [!UICONTROL Users] och minst ett av de två alternativen [!UICONTROL Fine-tune your settings] aktiveras för inställningen <img src="assets/gear-icon-in-access-levels.png">, under [!UICONTROL Create] [!UICONTROL User Admin]. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Om du använder alternativet [!UICONTROL User Admin (Group Users)] måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -73,7 +73,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **[!UICONTROL Companies]**.
 1. Klicka på företagets namn.
-1. Markera avsnittet **[!UICONTROL Company Members]** i den vänstra panelen och gör något av följande:
+1. Klicka på **[!UICONTROL Company Members]** i den vänstra panelen.
+1. Gör något av följande:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,9 +126,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td role="rowheader">Skicka en kommentar till användare och till deras [!UICONTROL Updates] områden</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Markera minst en användare och klicka sedan på ikonen [!UICONTROL Comment] <img src="assets/comment-icon.png"> i verktygsfältet.</p> </li> 
+        <li value="1"> <p>Markera minst en användare och klicka sedan på <b>Skicka uppdatering till användare</b> i verktygsfältet.</p> </li> 
         <li value="2"> <p>Skriv den kommentar som du vill skicka till användarna och till [!UICONTROL Updates]-delen av deras användarprofiler.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>Mer information finns i <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Skicka direktmeddelanden till andra användare</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportera listan över företagsmedlemmar</td> 

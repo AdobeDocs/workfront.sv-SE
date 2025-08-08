@@ -6,9 +6,9 @@ description: Den information du ser i  [!DNL Workfront] webbprogrammet visas oft
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ I följande tabell visas alla [!DNL Workfront] områden och objekt som innehåll
 | [!UICONTROL Issue] |  ✓ |  ✓ |
 | [!UICONTROL User] |  ✓ |  ✓ |
 | [!UICONTROL Document] |  ✓ |  ✓ |
+| [!UICONTROL Resourcing] område | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
    <td> <p>[!UICONTROL Review] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td>[!UICONTROL Reviewer] eller högre</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
+   <td role="rowheader">Objektbehörigheter</td> 
    <td>Visa åtkomst till objekttypen</td> 
   </tr> 
  </tbody> 
