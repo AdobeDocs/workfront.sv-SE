@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 7eb5b40c92ed743a665f6c38ce6d09db7d9a2ddb
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -38,3 +38,5 @@ Mer information om hur du skapar, skickar eller skickar e-postbegäranden till W
 * [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Dela en länk till en begärandekö](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Ta bort ett begärandeutkast](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [Fyll i en begäran automatiskt från tidigare data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Autofyll en begäran med uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
