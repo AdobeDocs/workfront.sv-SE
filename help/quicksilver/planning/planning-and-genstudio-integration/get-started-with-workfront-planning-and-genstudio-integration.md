@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing arbetsyta är tillgänglig i Ad
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: 9df59ea9b44baaf38c8db8f709f6b2fef1dc7c52
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
 
 * Workfront och GenStudio for Performance Marketing måste aktiveras för samma organisation.
 
-  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 * GenStudio kommer inte att vara tillgängligt i Workfront Planning när ditt företag har flera instanser av Workfront. <!--this will change-->
 
@@ -73,26 +73,24 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li>
-   <p><li> Adobe GenStudio for Performance Marketing<p></li>
+   <li><p> Adobe GenStudio for Performance Marketing</p></li>
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
-   </td> 
+<p>Alla Workfront Workflow-paket</p>  
+<p>Alla Workfront Planning-paket</p>
+   </td> </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket</p></td> 
+   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
    <td> 
-<p>Alla </p> 
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront. </p> 
-   </td> 
- <tr> 
+<p>??</p>
+
+</td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
@@ -106,19 +104,35 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
   </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe GenStudio-licens</p></td> 
+   <td><p> ??</p>
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
+   <p>Konfiguration för GenStudio: ???</p> 
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Contribute eller högre behörighet för en arbetsyta och en posttyp  </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
+   <td>  
+   <p>I Workfront Planning: </p>
+   <ul>
+   <li><p>Contribute eller högre behörighet för en arbetsyta och en posttyp  </p> </li> 
+   <li><p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p></li>
+   </ul>
+   <p>I Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Alla behörigheter i Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Skapa behörigheter i Adobe GenStudio for Performance Marketing för att skapa objekt</p></li></ul>
+   </td> 
   </tr> 
 </tbody> 
 </table>
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 
 ## Översikt över integrationen mellan Workfront Planning och GenStudio
@@ -146,14 +160,16 @@ I följande avsnitt beskrivs följande:
 ### Posttyper
 
 * Du kan redigera posttypsinformation (till exempel deras utseende) från GenStudio i Workfront Planning.
-* Du kan dela posttyper från GenStudio med andra i Planning.  <!--checking with Ani H.-->
-* Du kan skapa posttyper från Planering på arbetsytan i GenStudio. <!-- checking with Ani where these show up in GenS-->
-* Posttyper som synkroniseras med GenStudio visar en visuell indikator som visar att posttyperna importeras från GenStudio.
+* Du kan dela posttyper från GenStudio med andra i Planning.
+* Du kan skapa posttyper från Planering på arbetsytan i GenStudio. De här posttyperna finns bara kvar i Planning. De visas inte i GenStudio.
+* Posttyper som synkroniseras med GenStudio visar en visuell indikator i Workfront Planning som visar att posttyperna importeras från GenStudio.
 
 ### Poster
 
 * Du kan lägga till eller ta bort poster i GenStudio och de blir synliga i (eller tas bort från) Workfront Planning.
-Du kan lägga till eller ta bort poster i Workfront Planning och de blir synliga i (eller tas bort från) GenStudio.
+* Du kan lägga till eller ta bort poster i Workfront Planning och de blir synliga i (eller tas bort från) GenStudio.
+* När du tar bort poster från antingen Workfront Planning eller GenStudio placeras de i behållaren Senast borttagna i 30 dagar. GenStudio har ingen nyligen borttagen behållare.
+* När du återställer en post från den nyligen borttagna behållaren återställs den i Workfront Planning och GenStudio.
 * Du kan lägga till poster från Workfront Planning på följande sätt:
 
    * Manuellt, från scratch, från alla vyer med knappen Ny post
@@ -172,7 +188,7 @@ Du kan lägga till eller ta bort poster i Workfront Planning och de blir synliga
 ### Fält
 
 * Postfält importeras från GenStudio. Du kan redigera fältinställningarna i Workfront Planning.
-* Du kan skapa fler fält för posttyper i GenStudio i Workfront Planning om du har åtkomst till Hantera i Gen Studio.
+* Du kan skapa fält för posttyper i GenStudio i Workfront Planning om du har behörigheten Hantera i Gen Studio.
 * När du skapar fält för GenStudio-posttyper i Planning visas de i följande områden:
    * Planeringsvyer
    * Sidor med information om planeringsposter
@@ -182,14 +198,17 @@ Du kan lägga till eller ta bort poster i Workfront Planning och de blir synliga
   >
   >Fält som skapas i Workfront Planning visas inte i listvyn i GenStudio.
 
-* Du kan dölja fält i tabellvyn för en GenStudio-posttyp i Planning, men du kan inte ta bort fält från Workfront Planning.
+* Du kan dölja fält i tabellvyn för en GenStudio-posttyp i Planning.
+* Du kan inte ta bort fält som importerats från GenStudio från Workfront Planning.
+* Du kan ta bort fält som har skapats i Workfront Planning för GenStudio-posttyper från Workfront Planning.
 
 
-<!-- checking: 
-I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - only the newly added fiedsl can be changed or the reference fields. - from this: https://experience.adobe.com/?commentID=6848549f00000091e5f5a16636e381c0#/@adobeinternalworkfront/so:hub-Hub/workfront/project/67649bc00000545810daad1cd1fbb9cc/updates 
--->
+### Fälten Skapad av och Godkänd av
 
-<!--document who shows up in the Created by and Updated by fields - not clear, asking-->
+* Du kan lägga till fälten Skapad av och Godkänd av för posttyperna GenStudio i Workfront Planning från Workfront Planning.
+* Posterna som visas i posttyperna Kanal och Region visar &quot;System&quot; som Skapat av användaren. Posterna skapas automatiskt när arbetsytan i GenStudio skapas i Workfront Planning.
+* Poster som skapas i GenStudio efter att arbetsytan gjorts tillgänglig i Workfront Planning visar namnet på den IMS-användare som skapade posten i fältet Skapad av, även om användaren skapade posterna i GenStudio och inte är en Workfront-användare.
+* Fältet Godkänd av visar namnet på godkännaren när ett begärandeformulär skickas för att skapa en post.
 
 ### Vyer
 
@@ -198,12 +217,26 @@ I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - onl
   Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
 * Du kan dela vyn av en posttyp i GenStudio när du delar en vy för posttypen Planning.
+* Du kan inte skapa flera vyer i GenStudio.
 
 ### Anslutningar
 
 * Du kan göra följande anslutningar mellan posttyperna i GenStudio och andra post- eller objekttyper i Workfront Planning:
 
-   * Två posttyper från GenStudio och
+   * Två GenStudio-posttyper
    * En posttyp för GenStudio och en posttyp för Planning från samma arbetsyta
    * En posttyp i GenStudio och en posttyp för planering från en annan arbetsyta, om posttyperna har konfigurerats för att ansluta från en annan arbetsyta.
    * En posttyp i GenStudio och en objekttyp i Workfront (projekt, portföljer, program, företag, grupper)
+   * En posttyp för GenStudio och en objekttyp för AEM Assets.
+
+### Begär blanketter och automatisering
+
+* Du kan lägga till förfrågningsformulär och automatiseringar till en GenStudio-posttyp i Workfront Planning.
+
+### Förhandsvisningsmiljön
+
+* Den GenStudio-arbetsyta som du kommer åt från din produktionsmiljö visas också i förhandsvisningsmiljön.
+* Du kan utföra alla aktiviteter som beskrivs i den här artikeln på GenStudio-arbetsytan i Workfront Planning i förhandsvisningsmiljön, men dessa ändringar överförs inte till GenStudio.
+Endast ändringar du gör i objekt i produktionsmiljön synkroniseras mellan Workfront Planning och GenStudio.
+GenStudio har ingen förhandsvisningsmiljö.
+
