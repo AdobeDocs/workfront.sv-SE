@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
 title: Ställ in valutakurser
-description: Som Adobe Workfront-administratör kan du ställa in valutakurser i Workfront.
+description: Valutakurserna påverkar alla finansiella element i Workfront. Basvalutan är standardvalutan för alla projekt i hela systemet.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Som Adobe Workfront-administratör kan du ställa in valutakurser i Workfront. D
 * Uppdatera valutakurser i Workfront så att de matchar aktuella valutakurser
 * Konfigurera valutakurser för flera valutor (på så sätt kan användarna välja en standardvaluta för enskilda projekt)
 
-Valutakurserna påverkar alla finansiella element i Workfront. Basvaluta är standardvaluta för alla projekt i hela systemet, såvida den inte åsidosätts för ett visst projekt eller en viss jobbroll. Du kan också välja att visa ekonomisk information i valutor som är tillgängliga i systemet och som skiljer sig från basvalutan eller från den för projektet när du visar dem i en rapport eller lista. Mer information finns i [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+Valutakurserna påverkar alla finansiella element i Workfront. Basvalutan är standardvalutan för alla projekt i systemet, såvida den inte åsidosätts för ett visst projekt eller en viss jobbroll. Den aktuella bas- eller standardvalutan anges med ikonen ![Standardvaluta](assets/default-icon.png) i listan. Du kan också välja att visa ekonomisk information i valutor som är tillgängliga i systemet och som skiljer sig från basvalutan eller från den för projektet när du visar dem i en rapport eller lista. Mer information finns i [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 Mer information om hur du åsidosätter basvalutan i Workfront för projekt och jobbroller finns i följande artiklar:
 
@@ -77,23 +77,26 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Klicka på **Projektinställningar** > **Exchange-priser.**
+1. Klicka på **Projektinställningar** > **Exchange-priser**.
 
-1. Klicka på **Lägg till valuta.**
-1. Börja skriva namnet på valutan och klicka sedan på den när den visas i listrutan.
+1. Klicka på **Lägg till valuta**.
+1. I rutan **Lägg till valuta** börjar du skriva namnet på valutan och klickar sedan på den när den visas i listrutan.
+1. I fältet **Växelkurs** anger du kursen för den valda valutan, jämfört med valutan som är angiven som basvaluta i systemet.
+1. Klicka på **Lägg till** om du vill lägga till den nya valutan och valutakursen.
+1. (Valfritt) Gör något av följande om du vill ändra basvalutan (standardvalutan):
 
-1. I fältet Tillhandahålls anger du kursen för den valda valutan, beroende på vilken valuta som är angiven som basvaluta i systemet.
-1. (Valfritt) Ange valutan som basvaluta (standardvaluta) för Workfront.
+   * Markera kryssrutan bredvid valutanamnet och välj **Gör standard** i åtgärdsfältet längst ned på skärmen.
+   * Håll markören över valutanamnet och klicka på menyn **Mer** som visas. Välj sedan **Använd som standard**.
 
-   Det här är den valuta som används som standard för alla projekt och rapporter i hela systemet.
+     Den nya standardvalutan uppdateras med ikonen .
 
-1. Klicka på **Spara** för att spara ändringarna.
+1. (Valfritt) Om du vill ta bort en valuta markerar du kryssrutan bredvid valutanamnet och väljer **Ta bort** i åtgärdsfältet längst ned på skärmen. Du kan inte ta bort standardvalutan.
 
 ## Ge användarna möjlighet att ändra standardvalutan för ett projekt
 
 Användarna kan ändra standardvalutan för ett projekt när följande villkor är uppfyllda:
 
-* Användaren har en planlicens med administrativ åtkomst till Exchange-priser.
+* Användaren har en Standard- eller Plan-licens med administrativ åtkomst till Exchange Rates.
 
   Mer information finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -105,10 +108,13 @@ Mer information om hur användare kan ändra standardvalutan för ett visst proj
 
 Användarna kan ändra valutan för en jobbroll när följande villkor är uppfyllda:
 
-* Användaren har en planlicens med administrativ åtkomst till jobbroller.
+* Användaren har en Standard- eller Plan-licens med administrativ åtkomst till jobbroller.
 
   Mer information finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Mer än en valuta är aktiverad i Workfront.
 
 Mer information om hur användare kan ändra standardvalutan för en viss jobbroll finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+
+<!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->
