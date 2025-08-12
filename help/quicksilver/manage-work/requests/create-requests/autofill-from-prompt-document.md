@@ -4,9 +4,10 @@ content-type: reference
 description: Du kan använda AI för att autofylla begärandefält genom att ange en uppmaning eller genom att ange ett dokument.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -62,6 +63,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Förutsättningar
 
 Om du vill fylla i begäranden automatiskt med hjälp av en prompt eller ett dokument måste **alla** av följande gälla:
@@ -72,6 +75,9 @@ Om du vill fylla i begäranden automatiskt med hjälp av en prompt eller ett dok
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands
 
   Mer information om hur du signerar avtalet finns i [Signera Adobe Gen AI-avtalet](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) i artikelns AI Assistant-översikt.
+* AI Assistant måste aktiveras i organisationens systeminställningar. Detta hanteras av din Workfront-administratör.
+
+  Mer information om hur du aktiverar AI Assistant i systeminställningarna finns i [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Få förslag från en textfråga
 
@@ -252,4 +258,3 @@ Om du inte får de förväntade förslagen kan det bero på något av följande:
 
 * Du måste ha minst en månads begärandedata i systemet innan det kan föreslå fältvärden från tidigare begäranden.
 * Du kanske inte har följt upp dokumentets överföringsskyddsutkast när du överför ett dokument för att hämta förslag. Mer information finns i [Dokumentöverföringsskyddsutkast](#document-upload-guardrails) i den här artikeln.
-

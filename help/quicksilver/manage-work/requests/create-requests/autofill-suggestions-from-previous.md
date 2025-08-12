@@ -4,7 +4,8 @@ content-type: reference
 description: Du kan använda AI för att autofylla begärandefält med data från tidigare begäranden.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,6 +60,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Få förslag när du fyller i formulär
 
