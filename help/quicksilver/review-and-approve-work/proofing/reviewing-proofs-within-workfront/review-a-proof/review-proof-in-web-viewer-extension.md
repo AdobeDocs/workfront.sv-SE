@@ -6,28 +6,26 @@ description: Adobe Workfront granskningsverktyg är ett webbläsartillägg som g
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
+source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
 # Granska interaktivt material med Adobe Workfront granskningsverktyg
 
-<span class="preview">Adobe Workfront Review Tool was available on November 7, 2024. Det här tillägget är för närvarande i betaversion.</span>
 
-Adobe Workfront granskningsverktyg är ett webbaserat webbläsartillägg som gör att du kan kontrollera interaktivt innehåll i en ZIP-fil eller med en URL. Adobe Workfront granskningsverktyg finns i följande webbläsare:
+>[!IMPORTANT]
+>
+> Vi rekommenderar att du använder Desktop Proofing Viewer för interaktivt innehåll som finns på en webbplats som kräver SSO-autentisering eller som förhindrar att webbplatsen öppnas i iFrames, till exempel Figma.
+
+Adobe Workfront granskningsverktyg är ett webbaserat webbläsartillägg som gör att du kan markera interaktivt innehåll i en ZIP-fil eller med en URL. Adobe Workfront granskningsverktyg finns i följande webbläsare:
 
 * Firefox
 * Chrome
 * Edge
 * Safari
-
->[!IMPORTANT]
->
->Det här tillägget krävs för att granska innehåll i GenStudio for Performance Marketing och Creative Cloud Express. Assets öppnas automatiskt i Web Viewer. Du behöver inte uppdatera några kontoinställningar.
-
 
 ## Installera tillägget
 
@@ -48,11 +46,16 @@ Granskare och godkännare måste installera Adobe Workfront granskningsverktyg. 
 
 För att interaktiva korrektur ska kunna öppnas automatiskt i Adobe Workfront granskningsverktyg måste en Workfront-administratör uppdatera korrekturinställningarna på arbetsytan enligt beskrivningen i avsnitten nedan.
 
+## Använda Adobe Workfront granskningsverktyg i GenStudio for Performance Marketing och Creative Cloud Express
+
+Det här tillägget krävs för att granska innehåll i GenStudio for Performance Marketing och Creative Cloud Express. Assets öppnas automatiskt i Web Viewer. Du behöver inte uppdatera några kontoinställningar.
+
+
 ## Uppdatera standardvärden för Workfront-korrektur
 
 Om du vill använda Workfront granskningsverktyg som standardvisningsprogram för interaktivt innehåll måste du uppdatera standardinställningarna för korrektur i Workfront.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Vi rekommenderar att du använder Desktop Proofing Viewer om innehållet du behöver granska finns på en webbplats som
 >
