@@ -7,9 +7,9 @@ description: Adobe Workfront har gränser för hur många objekt som kan kopplas
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Några exempel på aktivitetssamband som kan påverka eller förhindra omberäkn
   <tr> 
    <td role="rowheader"><p>Beräkningar av tidslinje</p></td> 
    <td>Workfront utför inte automatiska tidslinjeberäkningar för projekt som inte har uppdaterats på sex månader och kommer inte att återupptas förrän en uppdatering har gjorts.<p>För projekt som inte har uppdaterats på 3 månader utför Workfront tidslinjeberäkningar varje vecka i stället för varje natt.</p><p>Mer information om hur du beräknar projekttidslinjen finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Beräkna om projekttidslinjer</a>. </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>Konvertera objekt </p></td> 
+   <td>Workfront har en 5-minuters bearbetningsgräns vid konvertering av objekt. Om objektet har ett stort antal bifogade dokument kan det hända att det inte kan konverteras inom 5 minuter. Du kan behöva ta bort vissa av dokumenten och försöka igen.</td> 
   </tr> 
  </tbody> 
 </table>

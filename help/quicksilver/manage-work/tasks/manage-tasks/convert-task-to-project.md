@@ -6,9 +6,9 @@ description: När en uppgift i ett projekt kräver mer arbete än du ursprunglig
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Den ursprungliga uppgiften tas bort.
 * Alla underaktiviteter, utgåvor och anteckningar samlas i det nya projektet.
 * Dokument, dokumentversioner och korrektur flyttas till det nya projektet.
+* Bearbetningsgränsen är fem minuter vid konvertering av en uppgift till ett projekt. Om uppgiften har ett stort antal bifogade dokument och inte kan konverteras, kan du behöva ta bort några av dokumenten och försöka igen.
 * Status och procent färdigt av alla underaktiviteter och utgåvor bevaras.
 * Uppgiften tilldelar och användaren som konverterar uppgiften till projektet blir delade användare i projektet.
 * Startdatumet för projektet är inställt på startdatumet för aktiviteten.

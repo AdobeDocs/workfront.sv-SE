@@ -6,9 +6,9 @@ description: Konvertera ett problem till ett projekt i Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Överväganden
+
+* Bearbetningsgränsen är fem minuter vid konvertering av ett problem till ett projekt. Om ett stort antal dokument har bifogats och inte kan konverteras kan du behöva ta bort några av dokumenten och försöka igen.
 
 ## Konvertera ett ärende till ett projekt
 

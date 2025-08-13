@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Mer information om hur du konverterar problem till projekt finns i [Konvertera e
    * Versioner
    * Korrektur inkluderas bara när alternativet **Behåll det ursprungliga problemet och koppla dess upplösning till den här aktiviteten** inte är markerat.
    * Dokumentgodkännanden inkluderas inte när du konverterar ett problem som har bifogade dokument och dokumentlänkar.
-
+* Bearbetningsgränsen är fem minuter vid konvertering av ett problem. Om ett stort antal dokument har bifogats och inte kan konverteras kan du behöva ta bort några av dokumenten och försöka igen.
 * Om du bestämmer dig för att behålla utgåvan vid konverteringen och har bifogade dokument, kopieras dokumentet och dess versioner till projektet eller uppgiften. Korrektur och dokumentgodkännanden kopieras inte till projektet eller uppgiften.
 * Om du bestämde dig för att inte behålla utgåvan vid konverteringen och den har bifogade dokument, överförs dokumentet, dess versioner och korrekturet till projektet eller uppgiften. Dokumentgodkännandena överförs inte till projektet eller uppgiften.
 * Om du har dokument och mappar länkade till originalutgåvan från tredjepartstjänster, som Google Drive, oavsett om du behåller utgåvan eller inte under konverteringen, kopieras dessa länkar till det nya objektet.
