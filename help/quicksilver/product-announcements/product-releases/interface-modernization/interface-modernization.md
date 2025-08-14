@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Gränssnittsuppdateringar av nyligen borttagna objekt
+
+**Förhandsversion: 14 augusti 2025; Produktionsversion: 21 augusti 2025**
+
+Vi har uppdaterat utseendet på de nyligen borttagna objekten i inställningsområdet så att de matchar designen i andra delar av Workfront. Ingen funktionalitet har ändrats för nyligen borttagna projekt, uppgifter, förfrågningar, dokument eller mallar.
+
+Om du vill visa den här ändringen går du till Inställningar > Papperskorgen > Senast borttagen.
+
+Mer information finns i [Återställ borttagna objekt](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ### Gränssnittsuppdateringar för villkorsområdet i installationsprogrammet
 
@@ -82,7 +92,7 @@ Mer information finns i [Loggtid](/help/quicksilver/timesheets/create-and-manage
 
 ### Gränssnittsuppdateringar för ett affärsärende i ett projekt
 
-**Förhandsversion: 4 augusti 2025; Produktionsversion: 18 augusti**
+**Förhandsversion: 4 augusti 2025; Produktionsversion: 13 augusti 2025**
 
 Vi har uppdaterat utseendet på projektets affärsärende så att det matchar andra delar av programmet.
 
@@ -125,15 +135,14 @@ Mer information finns i följande artiklar:
 * [Hantera projektgruppen](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Hantera företagsmedlemskap](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Uppdaterad upplevelse när du redigerar ett köämne i ett projekt eller en mall
+### Uppdaterad upplevelse vid redigering av en ämnesgrupp i ett projekt eller en mall
 
 **Förhandsversion: 31 juli 2025; Produktionsversion: 31 juli 2025**
 
-Vi har uppdaterat utseendet på ett köämne när vi redigerar det i en mall. Redigeringssidan för Köämne matchar nu designen för andra delar av Workfront.
+Vi har uppdaterat utseendet på en ämnesgrupp när vi redigerar den i en mall. Sidan för ämnesgruppsredigering matchar nu designen i andra delar av Workfront.
+En liten funktionalitetsändring har tillämpats på ämnesgruppen. Om du vill redigera en ämnesgrupp väljer du ämnesgruppen i listan och klickar på ikonen Redigera. Du dirigeras inte längre till informationssidan för ämnesgrupper innan du kan redigera.
 
-En liten funktionalitetsändring har tillämpats på listan Routningsregler. Om du vill redigera ett köämne markerar du alternativet Köämne i listan och klickar på ikonen Redigera. Du dirigeras inte längre till sidan Köinformation om ämne innan du kan redigera.
-
-Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Mer information finns i [Skapa ämnesgrupper](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Gränssnittsuppdateringar för faktureringsposter
 
@@ -215,11 +224,11 @@ Mer information finns i [Importera användare](/help/quicksilver/administration-
 
 ### Administratör och installation
 
-+++Expandera för att visa de uppdateringar av gränssnittet för administratörer och inställningar som gjorts i Q3
++++Expandera för att visa de uppdateringar av gränssnittet Admin och Setup som gjorts i Q3
 
 ### Gränssnittsuppdateringar för sidan Layoutmallar
 
-**Förhandsversion: 17 juli 2025; Produktionsversion: TBD**
+**Förhandsversion: 17 juli 2025; Produktionsversion: 14 augusti 2025**
 
 Vi har uppdaterat sidan Layoutmallar med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -404,7 +413,7 @@ Inga funktionsändringar har gjorts i den här uppdateringen.
 
 ### Dokument
 
-+++Expandera för att visa dokumentgränssnittsuppdateringar som gjorts i Q3
++++Utöka för att visa uppdateringarna i dokumentgränssnittet som gjorts i Q3
 
 ### Dela ett dokument med en extern e-postadress
 
@@ -440,7 +449,7 @@ Vi har uppdaterat den sida du använder för att ge support för ditt Workfront-
 
 ### Projekt
 
-+++Expandera för att visa projektgränssnittsuppdateringar som gjorts i tredje kvartalet
++++Expandera för att visa projektgränssnittsuppdateringar som gjorts i Q3
 
 <!--
 ### New look and feel for logging time on a project, task, or issue in the Hours tab   
@@ -526,7 +535,7 @@ Mer information finns i följande artiklar:
 
 ### Rapporter och kontrollpaneler
 
-+++Expandera för att visa uppdateringar av gränssnitt för rapporter och kontrollpaneler som gjorts i Q3
++++Expandera för att visa uppdateringar av gränssnitt för rapporter och kontrollpaneler som gjorts i tredje kvartalet
 
 ### Gränssnittsuppdateringar för utgiftsrapporten
 
@@ -566,7 +575,7 @@ Vi rekommenderar att du byter URL-adress för att gå till en sida som stöds el
 
 ## Användare
 
-+++Expandera för att visa användargränssnittsuppdateringar som gjorts i tredje kvartalet
++++Expandera för att visa uppdateringarna i användargränssnittet i Q3
 
 ### Gränssnittsuppdateringar i organisationsschemat
 
@@ -623,7 +632,7 @@ Vi har uppdaterat den externa användarregistreringssidan med en modernare desig
 
 ### Licenser
 
-+++Expandera för att visa användargränssnittsuppdateringar som gjorts i tredje kvartalet
++++Expandera för att visa uppdateringarna i användargränssnittet i Q3
 
 ### Uppdaterad licensavtalssida
 
@@ -639,7 +648,7 @@ Vi har uppdaterat licensavtalssidan med en modernare design som överensstämmer
 
 ### Administration och installation
 
-+++Expandera för att visa de uppdateringar av gränssnittet för administration och konfiguration som gjorts under andra kvartalet
++++Expandera för att visa uppdateringarna i gränssnittet Administration och Setup som gjordes under andra kvartalet
 
 ### Gränssnittsuppdateringar av nyligen återställda objekt
 
@@ -827,7 +836,7 @@ Den här uppdateringen innehåller visuella ändringar av området. Ingen funkti
 
 ### Agile
 
-+++Expandera för att visa Agile-gränssnittsuppdateringar som gjorts under Q2
++++Expandera för att visa Agile-gränssnittsuppdateringar som gjorts under andra kvartalet
 
 ### Gränssnittsuppdateringar för teamförfrågningar
 
@@ -891,7 +900,7 @@ Om du vill visa den här ändringen går du till Team > Välj ett team > Eftersl
 
 ### Dokument
 
-+++Expandera för att visa dokumentgränssnittsuppdateringar som gjorts under andra kvartalet
++++Utöka för att visa uppdateringarna i dokumentgränssnittet som gjorts under andra kvartalet
 
 ### Gränssnittsuppdateringar när ett dokument begärs
 
@@ -1095,7 +1104,7 @@ Vi har lagt till en ny knapp för att redigera textläge och spärra/knip i föl
 
 ### Uppdateringar och kommentarer
 
-+++Expandera för att visa uppdateringarna och kommentarsgränssnittsuppdateringarna i Q2
++++Expandera för att visa uppdateringarna och kommentargränssnittsuppdateringarna som gjorts i Q2
 
 ### Gränssnittsuppdatering för alternativ på menyn Mer för kommentarer
 
