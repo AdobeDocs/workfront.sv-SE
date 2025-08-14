@@ -6,17 +6,19 @@ description: Workfront AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # Kom igång med Workfront AI Reviewer
+
+>[!NOTE]
+>
+>Den här funktionen är för närvarande i betaversion.
 
 Med Workfront AI Reviewer kan ni öka innehållets hastighet och optimera varumärkesefterlevnaden i gransknings- och godkännandearbetsflödet. Du kan lägga till AI-granskare i godkännandemallar eller enskilda gransknings- och godkännandebegäranden i Workfront.
 
@@ -51,17 +53,12 @@ AI Reviewer kan granska följande filtyper:
 
 ## Ställ in varumärkesriktlinjer
 
-Workfront AI Reviewer använder de varumärkesriktlinjer som angetts i Genstudio Foundations när du granskar ditt innehåll.
-
-Mer information om riktlinjer för varumärken finns i
-
-* [GenStudio for Performance Marketing-varumärken](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Lägg till riktlinjer](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+Workfront AI Reviewer använder de varumärkesriktlinjer som fastställts i Genstudio för Performance Marketing när du granskar ditt innehåll. För närvarande kan du bara ange varumärkesriktlinjer för bilder. Mer information finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Skapa AI-granskare
 
-När minst ett varumärke har konfigurerats i GenStudio Foundations kan Workfront-administratörer börja skapa AI-granskare under Konfigurera. Dessa AI-granskare kan sedan tilldelas till godkännandemallar och individuella gransknings- och godkännandebegäranden.
+När minst ett varumärke har konfigurerats i GenStudio Foundations kan Workfront-administratörer börja skapa AI-granskare under Konfigurera. Dessa AI-granskare kan sedan tilldelas till godkännandemallar och individuella gransknings- och godkännandebegäranden. Just nu kan AI-granskare bara granska bildernas varumärkesriktlinjer.
 
 Mer information finns i [Skapa AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -77,7 +74,7 @@ Användare kan lägga till AI-granskare i godkännandemallar för att automatisk
 
 När du har skapat en mall för godkännande kan du använda den för resurser i området Dokument i ett projekt, en uppgift eller en utgåva.
 
-Mer information finns i [Skapa en godkännandemall för resurser och dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+Mer information finns i [Skapa en godkännandemall för resurser och dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![malllista med AI-granskare](assets/ai-review-templates.png)
 
@@ -85,7 +82,7 @@ Mer information finns i [Skapa en godkännandemall för resurser och dokument](/
 
 När användare skapar enskilda gransknings- och godkännandeförfrågningar kan de lägga till en AI Reviewer i med andra deltagare eller skapa en enda förfrågan med endast AI Reviewer för att kontrollera varumärkesefterlevnaden.
 
-Mer information finns i [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+Mer information finns i [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
 ![AI-granskare har lagts till i en enskild godkännandebegäran](assets/ad-ai-reviewer-to-request.png)
