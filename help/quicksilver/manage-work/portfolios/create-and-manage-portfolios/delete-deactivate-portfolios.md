@@ -6,9 +6,9 @@ description: Portföljer är samlingar av projekt eller program i Adobe Workfron
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,7 @@ Vi rekommenderar att du inaktiverar en portfölj som inte längre behöver koppl
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +35,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td> <p>Nytt: [!UICONTROL Standard] </p>
-   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -68,6 +66,7 @@ Tänk på följande när du bestämmer dig för att ta bort eller inaktivera por
 * När du tar bort en portfölj tas inte de projekt som är kopplade till den bort.
 * Du kan inte återställa borttagna portföljer.
 * Genom att inaktivera en portfölj säkerställs att namnet på portföljen och dess program inte längre kan tilldelas till projekt när du skapar ett projekt.
+* Om du inaktiverar en portfölj som redan är kopplad till ett projekt tas den inte bort från projektet. Om du tar bort en inaktiverad portfölj från ett projekt måste du återaktivera den innan du kan koppla den till projektet igen.
 
 ## Inaktivera en portfölj
 
@@ -82,11 +81,17 @@ När du inaktiverar en portfölj kan du fortfarande komma åt den från området
 1. Klicka på **[!UICONTROL Portfolios]** .
 1. Klicka på namnet på portföljen.
 1. Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
+Portföljen inaktiveras omedelbart.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Activate Portfolio]** för att återaktivera det.
 
 ## Ta bort en portfölj
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. Klicka på **[!UICONTROL Portfolios]** .
-1. Markera portföljen och klicka sedan på **[!UICONTROL Delete]** &#x200B; ikonen [!UICONTROL Delete] ![Ta bort ](assets/delete.png) .
+1. Gör något av följande:
+
+   * Markera portföljen i listan och klicka sedan på ikonen **[!UICONTROL Delete]** ![Ta bort](assets/delete.png) .
+   * Klicka på portföljen för att öppna den, klicka sedan på menyn **Mer** ![Mer](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **Ta bort Portfolio**.
 1. Bekräfta genom att klicka på **[!UICONTROL Yes, Delete It]**.
+
+   Portföljen tas bort och kan inte återställas.

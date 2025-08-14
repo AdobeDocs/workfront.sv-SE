@@ -4,14 +4,16 @@ description: GenStudio for Performance Marketing arbetsyta är tillgänglig i Ad
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9df59ea9b44baaf38c8db8f709f6b2fef1dc7c52
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
 
-# Kom igång med integreringen mellan Workfront Planning och GenStudio for Performance Marketing
+# Kom igång med integreringen mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing
+
+<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--Better metadata, at publishing:
 ---
@@ -47,7 +49,7 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
 
 * Workfront och GenStudio for Performance Marketing måste aktiveras för samma organisation.
 
-  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 * GenStudio kommer inte att vara tillgängligt i Workfront Planning när ditt företag har flera instanser av Workfront. <!--this will change-->
 
@@ -132,7 +134,7 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
 </table>
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-*Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+*Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 
 ## Översikt över integrationen mellan Workfront Planning och GenStudio

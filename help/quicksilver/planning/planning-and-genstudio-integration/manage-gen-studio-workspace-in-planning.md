@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing arbetsyta är tillgänglig i Ad
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,19 @@ recommendations: noDisplay, noCatalog
 ---
 -->
 
-GenStudio for Performance Marketing arbetsyta är tillgänglig i Adobe Workfront Planning när ditt företag har köpt båda produkterna och din instans av Workfront är integrerad med ditt företags instans av GenStudio. Du kan visa arbetsytan i GenStudio från Planning och uppdatera information i båda systemen.
+<!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
-Mer information om hur du använder GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+Adobe GenStudio for Performance Marketing arbetsyta är tillgänglig i Adobe Workfront Planning när ditt företag har köpt båda produkterna och din instans av Workfront är integrerad med ditt företags instans av GenStudio.
+
+Du kan visa arbetsytan i GenStudio från Planning och uppdatera information i båda systemen.
+
+Mer information om hur du använder GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+
+Allmän information om integrationen mellan GenStudio och Workfront Planning finns i [Kom igång med Adobe Workfront Planning och Adobe GenStudio for Performance Marketing-integrering](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,26 +50,24 @@ Mer information om hur du använder GenStudio for Performance Marketing finns i 
    <p> Produkter</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li>
-   <p><li> Adobe GenStudio for Performance Marketing<p></li>
+   <li><p> Adobe GenStudio for Performance Marketing</p></li>
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
-   </td> 
+<p>Alla arbetsflödespaket</p>  
+<p>Planeringspaket</p>
+   </td> </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket</p></td> 
+   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
    <td> 
-<p>Alla </p> 
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront. </p> 
-   </td> 
- <tr> 
+<p>??</p>
+
+</td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
@@ -72,35 +76,45 @@ Mer information om hur du använder GenStudio for Performance Marketing finns i 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p> Systemadministratör</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio-licens</p></td> 
+   <td><p> ??</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
+   <p>Konfiguration för GenStudio: ???</p> 
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Contribute eller högre behörighet för en arbetsyta och en posttyp  </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
+   <td>  
+   <p>I Workfront Planning: </p>
+   <ul>
+   <li><p>Contribute eller högre behörighet för en arbetsyta och en posttyp  </p> </li> 
+   <li><p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p></li>
+   </ul>
+   <p>I Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Alla behörigheter i Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Skapa behörigheter i Adobe GenStudio for Performance Marketing för att skapa objekt</p></li></ul>
+   </td> 
   </tr> 
 </tbody> 
 </table>
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+*Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
++++   
 
 ## Att tänka på när du hanterar en GenStudio-arbetsyta i Workfront Planning
 
 * Din organisation måste köpa Adobe GenStudio for Performance Marketing innan du kan visa en GenStudio-arbetsyta i Workfront Planning.
-
-  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
-
-  Mer information om integrationen mellan GenStudio och Workfront Planning finns i [Kom igång med integreringen mellan Workfront Planning och GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 
 * Workfront-användare måste ha tillgång till GenStudio för att kunna se GenStudio arbetsyta i Workfront Planning.
 
@@ -112,7 +126,7 @@ Mer information om hur du använder GenStudio for Performance Marketing finns i 
 >Läs artikeln [Kom igång med Workfront Planning och GenStudio for Performance Marketing-integrering](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) innan du hanterar arbetsytan i GenStudio.
 
 
-1. Logga in på Workfront som systemadministratör.
+1. Logga in på Workfront som användare som även har tillgång till GenStudio.
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Planning]**.
 
    Startsidan för Workfront Planning öppnas.

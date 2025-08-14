@@ -6,9 +6,9 @@ description: Om du är Adobe Workfront-kund kan du kontakta Workfront kundsuppor
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,7 @@ Som [!DNL Adobe Workfront]-kund kan du kontakta [!DNL Workfront] kundsupport via
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +42,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -85,13 +82,15 @@ Du kan skicka en supportanmälan från självbetjäningsportalen [!DNL Experienc
 >Endast behöriga supportkontakter (eller supportberättigade användare) kan skicka supportärenden online.
 
 
-1. Klicka på [[!DNL Experience League] överst på webbplatsen ](https://experienceleague.adobe.com/sv)**[!UICONTROL Support]**.
+1. Klicka på [[!DNL Experience League] överst på webbplatsen ](https://experienceleague.adobe.com)**[!UICONTROL Support]**.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    Sidan [!UICONTROL Support] öppnas.
 
    På startsidan för [!UICONTROL Support] kan du navigera till dina öppna supportärenden, logga ett nytt ärende, visa de [!UICONTROL Support] främsta artiklarna eller få tillgång till ytterligare utbildningsresurser.
+
+   Mer information om Workfront utbildning finns i [Help Center](https://learning.adobe.com/resources/help-center.html).
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 

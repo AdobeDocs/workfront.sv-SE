@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '4158'
+source-wordcount: '4073'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<div class="preview">
+<!--<div class="preview">
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div>-->
 
 Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många timmar du ska arbeta med dem. Du kan också logga tid som inte är relaterad till arbetet, som semester, sjuktid eller tid som du tillbringar i möten. Den tid du loggar visas i tidrapporten.
 
@@ -452,13 +452,9 @@ Så här loggar du tid i timavsnittet för ett projekt, en uppgift eller ett pro
 1. Klicka på **Timmar** i den vänstra panelen.
 1. Klicka på **Loggtid**.
 
-   <span class="preview">Rutan **Loggtid** visas.</span>
-
-   <div class="preview">
+   Rutan **Loggtid** visas.
 
    ![Loggtid i timavsnittet för en uppgift](assets/log-time-box-in-hours-section-on-task.png)
-
-   </div>
 
 1. Ange följande information:
 
@@ -472,7 +468,7 @@ Så här loggar du tid i timavsnittet för ett projekt, en uppgift eller ett pro
      Mer information om hur du konfigurerar timtyper finns i [Definiera timtyper och tillgänglighet](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Jobbroll**: (Villkorligt) Om din Workfront- eller gruppadministratör har aktiverat inställningen **Tilldela jobbroller till timposter manuellt** väljer du en **Jobbroll** i listrutan. Den roll som anges när du tilldelas till objektet visas som standard. Om du inte har tilldelats en roll för objektet visas din primära roll som standard. Mer information om den här inställningen finns i artikeln [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-   * **Timmar** eller <span class="preview">veckokalendern</span>: Ange antalet timmar för projektet, aktiviteten eller utgåvan. <span class="preview">Ange antalet timmar för projektet, aktiviteten eller utgåvan i veckokalendern.</span> Veckokalendern visas under **Timmar** i rutan **Loggtid** i produktionsmiljön.
+   * **Veckokalendern**: Ange antalet timmar för projektet, aktiviteten eller utgåvan.
    * **Obs!**: Lägg till en anteckning som förklarar vad timmarna är till för. Detta sparas som en **timanteckning** eller en **timbeskrivning**.
 
 1. Klicka på **Loggtid**.

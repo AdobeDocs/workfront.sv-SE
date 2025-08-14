@@ -4,9 +4,9 @@ description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Work
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 Som arbetsytehanterare kan du importera eller lägga till en befintlig posttyp till en annan arbetsyta.
 
-Du måste först definiera funktionerna för en posttyps arbetsyta innan arbetsytehanterare kan importera den till andra arbetsytor.
+Du måste ange en posttyp som centraliserad innan arbetsytehanterare kan importera den till andra arbetsytor.
 
-Du definierar arbetsytefunktionerna för en posttyp när du skapar eller redigerar en posttyp.
+Du kan ange en posttyp som centraliserad när du skapar eller redigerar den, medan du definierar dess inställningar för arbetsytan.
 
 Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
-## Att tänka på när du lägger till befintliga posttyper från en annan arbetsyta
+## Översikt över centraliserade posttyper
+
+Att tänka på när du lägger till befintliga posttyper från en annan arbetsyta
 
 * När det inte finns några konfigurerade posttyper som ska läggas till på en annan arbetsyta visas inte alternativet att importera dem från en annan arbetsyta när du skapar en posttyp. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * När du har lagt till posttypen från en annan arbetsyta läggs även följande information till från den befintliga posttypen:

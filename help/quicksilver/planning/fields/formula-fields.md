@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Överväganden om formelfält
 
@@ -112,6 +112,10 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 
   Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 * Du kan referera till formelfält i nya formler. När värdet uppdateras i ett fält som det refereras till i ett formelfält, uppdateras alla efterföljande fält som refererar till det fältet eller formelfälten som innehåller det fältet automatiskt.
+* Formelfält kan visas som `#ERROR!` i följande fall:
+   * När ett fält som används i en formel tas bort.
+   * När ett fält som används i ett aggregerat uppslagsfält visas som `#ERROR!`.
+Om du till exempel visar ett uppslagsfält som innehåller summerade uppslagsformelfält och ett av de refererade formelfälten visas som `#ERROR!`.
 
 ## Formler som stöds
 

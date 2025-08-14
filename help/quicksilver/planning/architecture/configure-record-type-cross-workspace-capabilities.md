@@ -4,9 +4,9 @@ description: Du kan aktivera en posttyp som antingen ska läggas till på en ann
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,37 @@ recommendations: noDisplay, noCatalog
 
 <!--*******************THIS TITLE MIGHT NEED TO CHANGE WHEN WE HAVE THE FINAL NAME FOR THE "GLOBAL" RECORD TYPE - NOT SURE IF WE ARE GOING TO USE "GLOBAL" OR "DYNAMIC", OR ???? ***************; also update TOC file, the miniTOC,  etc when this is finalized-->
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+
+
+<!--this article is linked to the UI - do not delete or change the URL-->
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+
+Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
+
+So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
+
+Once enabled, this record type can be added in other workspaces by designated people 
+
+Members of those workspaces can create and manage records in scope of their workspace 
+
+Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
+
+Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+
+-->
 
 # Konfigurera funktioner för olika arbetsytor för posttyper
+
+<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
 
 <span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Du kan ange att en posttyp ska läggas till på en annan arbetsyta eller anslutas från en annan arbetsyta i Adobe Workfront Planning.
+Följande är funktioner för olika arbetsytor för posttyper:
+
+* Du kan ange en posttyp som centraliserad. Användarna kan lägga till centraliserade posttyper i andra arbetsytor som de kan hantera.
+* Du kan ange en posttyp som en kopplingsbar typ. Användare kan ansluta till den här posttypen från andra arbetsytor.
 
 Du måste först definiera funktionerna för en posttyps arbetsyta innan arbetsytehanterare kan ansluta den från eller importera den till andra arbetsytor.
 
@@ -43,7 +65,7 @@ Mer information finns i följande artiklar:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -103,7 +125,7 @@ Mer information finns i följande artiklar:
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Konfigurera tillägg av en posttyp till andra arbetsytor
 
