@@ -82,7 +82,7 @@ Du kan skicka en supportanmälan från självbetjäningsportalen [!DNL Experienc
 >Endast behöriga supportkontakter (eller supportberättigade användare) kan skicka supportärenden online.
 
 
-1. Klicka på [[!DNL Experience League] överst på webbplatsen ](https://experienceleague.adobe.com)**[!UICONTROL Support]**.
+1. Klicka på [[!DNL Experience League] överst på webbplatsen ](https://experienceleague.adobe.com/sv)**[!UICONTROL Support]**.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
