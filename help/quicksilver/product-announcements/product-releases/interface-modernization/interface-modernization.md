@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Gränssnittsuppdateringar för rutan Skicka uppdatering till användare i grupper
+
+**Förhandsversion: 14 augusti 2025; Produktionsversion: 14 augusti 2025**
+
+Vi har uppdaterat utseendet och känslan av rutan Skicka uppdatering till användare när vi öppnar den från listan över gruppmedlemmar och listan över undergruppsmedlemmar.
+
+Rutan Skicka uppdatering till användare matchar nu andra delar av Workfront när du skickar en uppdatering till en eller flera användare.
+
+Mer information finns i [Visa och hantera en grupps medlemskap](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) och [Visa och hantera undergruppsmedlemmar](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Gränssnittsuppdateringar av nyligen borttagna objekt
 
@@ -85,6 +95,10 @@ Om du vill visa ändringen går du till Inställningar > System > Uppdatera anv�
 ### Gränssnittsuppdateringar för loggningstid för ett projekt, en uppgift eller ett problem i avsnittet Timmar
 
 **Förhandsversion: 7 augusti 2025; Produktionsversion: 14 augusti 2025**
+
+>[!NOTE]
+>
+>Tillfälligt borttagen från förhandsgranskning och produktion
 
 Vi har uppdaterat loggtidsrutans utseende och känsla när vi loggar tid för ett projekt, en uppgift eller ett problem under Timmar, så att det matchar designen i andra delar av Workfront.
 

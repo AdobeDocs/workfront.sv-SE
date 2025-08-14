@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
+source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ AI Reviewer kan granska följande filtyper:
 
 ## Ställ in varumärkesriktlinjer
 
-Workfront AI Reviewer använder de varumärkesriktlinjer som fastställts i Genstudio för Performance Marketing när du granskar ditt innehåll. För närvarande kan du bara ange varumärkesriktlinjer för bilder. Mer information finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Workfront AI Reviewer använder de varumärkesriktlinjer som fastställts i Genstudio för Performance Marketing när du granskar ditt innehåll. För närvarande kan du bara ange varumärkesriktlinjer för bilder. Mer information finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Skapa AI-granskare
@@ -103,3 +103,6 @@ Mer information om hur du visar bakgrundsmusik och feedback finns i [Visa bakgru
 ![AI-granskares feedback](assets/ai-reviewer-feedback.png)
 
 
+## Videogenomgång
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)
