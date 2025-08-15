@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Du kan inte se arbetsobjek
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,35 +55,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Anpassa kolumnerna i listan Prioriteter i produktionen
-
-### Aktivera eller inaktivera kolumner
-
-{{step1-to-priorities}}
-
-1. Klicka på **Kolumner** till höger på skärmen.
-   ![Kolumner](assets/columns.png)
-1. Använd reglagen för att aktivera eller inaktivera kolumner i arbetslistan.
-
-### Ändra ordning på kolumnerna
-
-{{step1-to-priorities}}
-
-1. Klicka på **Kolumner** till höger på skärmen.
-1. Klicka på ikonen **Dra** och flytta kolumnen till önskad plats. Flyttar automatiskt kolumnuppdateringar i arbetslistan.
-   ![Ändra ordning på kolumner](assets/reorder-columns.png)
-
-### Återställ kolumnbredder
-
-{{step1-to-priorities}}
-
-1. Klicka på **Kolumner** till höger på skärmen.
-1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och välj **Återställ kolumnbredder**.
-   ![Kolumner](assets/columns.png)
 
 ## Anpassa kolumnerna i listan Prioriteter
 

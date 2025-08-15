@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Prioriteringar: kommande releaser](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Kom igång med prioriteringar](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [Visa projekt- och arbetsuppgiftsinfo i Prioriteringar](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
 * [Filtrera och gruppera ditt arbete i prioriteter](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)

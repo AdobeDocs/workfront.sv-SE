@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Visa och lägga till kommentarer i projektet
    * Loggtid
    * Lägga till en fil
-   * <span class="preview">Gå direkt till projektet</span>
+   * Gå direkt till projektet
 
    ![projektinformation](assets/project-details-new.png)
 
@@ -101,7 +101,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Håll markören över arbetsnamnet i arbetslistan och klicka sedan på ikonen **Sammanfattning** ![öppna sammanfattningsikonen](assets/summary-icon.png).
 
-1. Utgåva är valt som standard. Här kan du
+1. Utgåva är valt som standard. Här kan du:
    * Visa och redigera projekt- och ärendeinformation och beskrivning
    * Visa och lägga till kommentarer i projektet
    * Visa och lägga till dokument
@@ -116,7 +116,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan visa uppdateringar i realtid på informationssidan för en uppgift eller ett problem. Du kan också se om andra tittar på sidan samtidigt som du med visningsindikatorer i realtid.
 
-## Visa information om arbetsuppgift
+### Visa information om arbetsuppgift
 
 {{step1-to-priorities}}
 

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
 
 {{step1-to-priorities}}
 
-1. Håll muspekaren över namnet och klicka sedan på **Överför**.
+1. Håll pekaren över namnet och klicka sedan på ikonen **Mer** ![Mer](assets/more-icon.png) .
+1. Klicka på **Överför**.
    ![Uppdatering, loggtid och överföring](assets/update-log-upload.png)
-1. (Valfritt) Välj en mapp.
+1. (Valfritt) Markera en mapp i rutan **Överför filer**.
 1. Dra och släpp filen eller Cmd/Ctrl + V för att klistra in från Urklipp
 eller
 Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera filer från en Document Cloud-leverantör.
@@ -68,16 +69,14 @@ Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera 
    >
    >Ytterligare filer överförs som separata dokument.
 1. Klicka på **Överför**.
-   ![Överför fil](assets/upload-file-module.png)
-
 
 ## Överföra en fil i en arbetsuppgift
 
 {{step1-to-priorities}}
 
-1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
-1. Klicka på **Överför** i avsnittet **Snabbåtgärder**.
-1. (Valfritt) Välj en mapp.
+1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
+1. Klicka på **Överför** i avsnittet **Snabbåtgärder** och välj sedan **Dokument**.
+1. (Valfritt) Markera en mapp i rutan **Överför filer**.
 1. Dra och släpp filen eller Cmd/Ctrl + V för att klistra in från Urklipp
 eller
 Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera filer från en Document Cloud-leverantör.
@@ -89,4 +88,3 @@ Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera 
    >
    >Ytterligare filer överförs som separata dokument.
 1. Klicka på **Överför**.
-   ![Överför fil](assets/upload-file-module.png)

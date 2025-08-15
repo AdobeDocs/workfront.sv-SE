@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-priorities}}
 
-1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
+1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. Klicka på **Lägg till länk** i avsnittet **Snabblänkar**.
 1. Klistra in URL:en i rutan **Lägg till länk**.
 1. Klicka på **Spara**.
@@ -71,16 +71,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-priorities}}
 
-1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
+1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. I avsnittet **Snabblänkar** hittar du länken som du vill kopiera.
-1. Klicka på ikonen Kopiera ![ikonen Kopiera](assets/copy-icon.png).
+1. Klicka på ikonen **Kopiera**![ Kopiera](assets/copy-icon.png) .
    ![Kopiera länk](assets/copy-link.png)
 
 ## Öppna en snabblänk
 
 {{step1-to-priorities}}
 
-1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
+1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. I avsnittet **Snabblänkar** hittar du länken som du vill öppna.
 1. Klicka på länken. Länken öppnas på en ny flik.
    ![Öppna länk](assets/open-link.png)
@@ -89,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-priorities}}
 
-1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
+1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. Klicka på **Redigera detaljer** i skärmens övre högra hörn.
    ![Redigera information](assets/edit-details.png)
-1. Leta reda på länken som du vill ta bort och klicka sedan på ikonen Ta bort ![ikonen Ta bort](assets/delete-icon.png).
+1. Leta reda på länken som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort](assets/delete-icon.png) .

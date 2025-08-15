@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -72,13 +72,18 @@ Du kan överföra ett dokument till en arbetsuppgift från sidan med arbetslista
 {{step1-to-priorities}}
 
 1. Håll markören över arbetsnamnet i arbetslistan och klicka sedan på ikonen **Sammanfattning** ![öppna sammanfattningsikonen](assets/summary-icon.png).
-1. Se till att du är på fliken Uppgift eller Problem i panelen.
-1. Klicka på ikonen Dokument i den högra listen.
-1. Klicka på ikonen Överför fil och välj filen.
-1. (Valfritt) Gör något av följande:
-   1. Välj en mapp.
-   1. Göra en kommentar
-   1. Lägg till ytterligare filer.
+1. Kontrollera att du är på fliken **Aktivitet** eller **Problem** på sammanfattningspanelen.
+1. Klicka på ikonen **Överför fil** ![Överför fil ](assets/upload-file-icon.png) .
+1. Dra och släpp filen eller Cmd/Ctrl + V för att klistra in från Urklipp
+eller
+Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera filer från en Document Cloud-leverantör.
+   ![Lägg till filer](assets/add-files.png)
+1. (Valfritt) Lägg till en kommentar.
+1. (Valfritt) Lägg till fler filer.
+
+   >[!NOTE]
+   >
+   >Ytterligare filer överförs som separata dokument.
 1. Klicka på **Överför**.
 
 ### Information om arbetsuppgift
@@ -86,12 +91,18 @@ Du kan överföra ett dokument till en arbetsuppgift från sidan med arbetslista
 {{step1-to-priorities}}
 
 1. Klicka på arbetsobjektets namn i arbetslistan.
-1. Klicka på fliken Dokument överst på skärmen.
-1. Klicka på **Överför dokument** > **Dokument**.
-1. (Valfritt) Gör något av följande:
-   1. Välj en mapp.
-   1. Göra en kommentar
-   1. Lägg till ytterligare filer.
+1. Klicka på fliken **Dokument** högst upp på skärmen.
+1. Klicka på **Överför dokument** i det övre högra hörnet och välj sedan **Dokument**.
+1. Dra och släpp filen eller Cmd/Ctrl + V för att klistra in från Urklipp
+eller
+Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera filer från en Document Cloud-leverantör.
+   ![Lägg till filer](assets/add-files.png)
+1. (Valfritt) Lägg till en kommentar.
+1. (Valfritt) Lägg till fler filer.
+
+   >[!NOTE]
+   >
+   >Ytterligare filer överförs som separata dokument.
 1. Klicka på **Överför**.
 
 
@@ -105,16 +116,17 @@ Du kan skapa ett korrektur av ett dokument från arbetslistan eller på sidan In
 {{step1-to-priorities}}
 
 1. Håll markören över arbetsnamnet i arbetslistan och klicka sedan på ikonen **Sammanfattning** ![öppna sammanfattningsikonen](assets/summary-icon.png).
-1. Se till att du är på fliken Uppgift eller Problem i panelen.
-1. Klicka på ikonen **Dokument** i den högra listen.
-1. Klicka på ikonen **Överför fil** och välj sedan filen.
+1. Kontrollera att du är på fliken **Aktivitet** eller **Problem** på sammanfattningspanelen.
+1. Klicka på ikonen **Dokument** ![Dokument](assets/show-document-icon.png) i den högra listen.
+1. Klicka på ikonen **Överför fil** ![Överför fil](assets/upload-file-icon.png) och välj sedan filen.
 
    >[!NOTE]
    >
    >Du måste överföra dokumentet innan du kan skapa korrekturet.
 
 
-1. När filen har överförts klickar du på **Skapa korrektur**.
+1. När filen har överförts markerar du den i avsnittet **Dokument**.
+1. Klicka på **Skapa korrektur** i det övre högra hörnet av rutan Filinformation.
 1. Välj något av följande:
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ Du kan skapa ett korrektur av ett dokument från arbetslistan eller på sidan In
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Enkelt korrektur</td> 
+      <td role="rowheader"><b>Enkelt korrektur</b></td> 
       <td>Med det här alternativet skapas ett korrektur utan ett kopplat arbetsflöde och standardinställningarna för korrektur används. Du kan uppdatera standardkorrekturinställningarna eller lägga till ett arbetsflöde när du har skapat korrekturet. Mer information om korrekturinställningar finns i <a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Redigera korrekturinställningar</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Avancerat korrektur</td> 
+      <td role="rowheader"><b>Avancerat korrektur</b></td> 
       <td> <p>Med det här alternativet kan du konfigurera ett grundläggande eller avancerat arbetsflöde och ändra korrekturinställningarna för det korrektur du skapar. Mer information finns i </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Skapa ett avancerat korrektur med ett grundläggande arbetsflöde</a> </p> </li> 
@@ -142,8 +154,8 @@ Du kan skapa ett korrektur av ett dokument från arbetslistan eller på sidan In
 {{step1-to-priorities}}
 
 1. Klicka på arbetsobjektets namn i arbetslistan.
-1. Klicka på fliken **Dokument** längst upp på skärmen.
-1. Klicka på **Överför dokument** > **Korrektur**.
+1. Klicka på fliken **Dokument** högst upp på skärmen.
+1. Klicka på **Överför dokument** i det övre högra hörnet och välj sedan **Korrektur**.
 1. Skapa ett korrektur enligt beskrivningen i
    [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

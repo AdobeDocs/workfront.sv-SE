@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ Håll ordning på ditt material med en tydlig, visuell kalender. Med Prioritetsk
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,28 +37,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront</strong></td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> 
    <p>Aktuell: Granskare eller senare</p>
    <p>Nytt: Ljus eller högre</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller redigera åtkomst för objektet som uppdateringen är aktiverad för</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
+   <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa åtkomst till objektet</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,11 +68,11 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
 
 {{step1-to-priorities}}
 
-1. Klicka på kalenderikonen högst upp i arbetslistan.
+1. Klicka på ikonen **Kalender** längst upp i arbetslistan.
    ![kalenderikon](assets/calendar-tab.png)
 1. Markera ett eller flera filter om du vill begränsa arbetsobjekten.
 
-   +++Expandera för att se detaljerad information om tillgängliga filter
+   +++Expandera om du vill se detaljerad information om tillgängliga filter
    <table>
     <tbody>
     <tr>
@@ -83,7 +81,7 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
     </tr>
         <tr>
         <td>Att arbeta med den</td>
-        <td>Visar objekt som du arbetar med</td>
+        <td>Visar objekt som du arbetar med.</td>
         </tr>
         <tr>
         <td>Klar att börja</td>
@@ -101,28 +99,28 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
         <ul>
         <li>Ofullständiga föregående aktiviteter eller aktivitetsbegränsningar som förhindrar att objektet bearbetas</li>
         <p>eller</p>
-        <li>Det planerade startdatumet är mer än två veckor i framtiden</li>
+        <li>Det planerade startdatumet är mer än två veckor framåt.</li>
         </ul>
         </td>
         </tr>
         <tr>
         <td>Begärd</td>
-        <td>Visar problem som du inte har börjat arbeta med</td>
+        <td>Visar problem som du inte har börjat arbeta med.</td>
         </tr>
         <td>Klar</td>
         <td>Visar det arbete som utförts de senaste två veckorna. Det här filteralternativet inkluderar inte godkännanden.</td>
         </tr>
         <tr>
         <td>Projekt</td>
-        <td>Visar projekt som innehåller uppgifter eller ärenden som du har tilldelats</td>
+        <td>Visar projekt som innehåller uppgifter eller ärenden som du har tilldelats.</td>
         </tr>
         <tr>
         <td>Förfallodatum</td>
-        <td>Visar arbete efter planerat slutförandedatum</td>
+        <td>Visar arbetet efter planerat slutförandedatum.</td>
         </tr>
         <tr>
         <td>Status</td>
-        <td>Visar uppgifter eller problem i nya, pågående och slutförda statusar</td>
+        <td>Visar uppgifter eller problem i nya, pågående och slutförda statusar.</td>
         </tr>
         <tr>
         <td>Mitt fokus</td>
@@ -135,14 +133,14 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
 
 1. Klicka på arbetsobjektsfältet i kalendern för att öppna sidsammanfattningen. Med sidsammanfattningen kan du
 
-* Visa och redigera information om projekt och arbetsuppgift
-* Göra och visa kommentarer
-* Visa och överföra dokument
-* Skapa ett korrektur
-* Navigera till projektsidan i Workfront
-* Navigera till sidan med information om arbetsobjekt i Prioriteringar
-* Loggtid
-* Lägga till snabblänkar
+   * Visa och redigera information om projekt och arbetsuppgift
+   * Göra och visa kommentarer
+   * Visa och överföra dokument
+   * Skapa ett korrektur
+   * Navigera till projektsidan i Workfront
+   * Navigera till sidan med information om arbetsobjekt i Prioriteringar
+   * Loggtid
+   * Lägga till snabblänkar
 
 1. (Valfritt) Klicka på **Skapa ny** om du vill lägga till en ny arbetsuppgift i kalendern. Mer information finns i [Skapa en ny uppgift eller ett nytt problem i Prioriteter](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md).
 
@@ -150,12 +148,12 @@ Prioriteter visar arbetsuppgifter som tilldelats dig. Det går inte att se arbet
 
 {{step1-to-priorities}}
 
-1. Klicka på kalenderikonen högst upp i arbetslistan.
+1. Klicka på ikonen **Kalender** längst upp i arbetslistan.
    ![kalenderikon](assets/calendar-tab.png)
 1. Klicka på ikonen **Inställningar** i kalenderns högra hörn.
 
 1. På fliken **Stapelstil** väljer du upp till 5 fält som ska visas i arbetsobjektsfältet i kalendern.
    ![exempelfält](assets/sample-task-for-field-config.png)
 
-1. På fliken **Färg** väljer du hur du vill att dina arbetsobjekt ska visas. Om du till exempel väljer Projekt visas dina arbetsobjekt i enlighet med den färg som tilldelats projektet i arbetslistan.
+1. På fliken **Färg** väljer du hur du vill att dina arbetsobjekt ska visas. Om du till exempel väljer **Projekt** visas dina arbetsobjekt i enlighet med den färg som tilldelats projektet i arbetslistan.
    ![exempelfärgprojekt](assets/sample-calendar-projects.png)

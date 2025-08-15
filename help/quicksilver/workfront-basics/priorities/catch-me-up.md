@@ -6,24 +6,24 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # Fånga upp arbetet i prioriteringar
 
-Med hjälp av Workfront AI Assistant kan jag nu sammanfatta uppdateringar, överförda dokument och andra viktiga ändringar i dina projekt inom följande tidsramar: dygnet runt, tre dagar, sju dagar, vilket minskar tiden för att söka efter information om aktiva projekt.
+Kom igång med Workfront AI Assistant. Här kan du sammanfatta uppdateringar, överförda dokument och andra viktiga ändringar av dina projekt inom följande tidsramar: 24 timmar, 3 dagar, 7 dagar. Detta minskar tiden för att leta efter information om aktiva projekt.
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig för kunder som använder AI Assistant på en enhetlig Adobe-upplevelse. Mer information om AI-assistenten finns i [Översikt över AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Den här funktionen är endast tillgänglig för kunder som har en enhetlig Adobe Experience med hjälp av AI Assistant. Mer information om AI-assistenten finns i [Översikt över AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 ## Åtkomstkrav
 
-+++Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,9 +55,12 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **Fånga mig** överst på sidan.
    ![fångar upp mig-knappen](assets/catch-me-up-button.png)
-1. Välj den tidsram som du vill sammanfatta:
-   1. 24 timmar
-   1. 3 dagar
-   1. 7 dagar
+1. Välj önskad tidsram:
+   * **Sammanfatta de senaste 24 timmarna**
+   * **Sammanfatta de senaste 3 dagarna**
+   * **Sammanfatta de senaste 7 dagarna**
 
-   Om du inte kan interagera med den här panelen har din organisation inget signerat Adobe Gen AI-avtal.
+   >[!NOTE]
+   >
+   > Om du inte kan interagera med den här panelen har din organisation inget signerat Adobe Gen AI-avtal.
+

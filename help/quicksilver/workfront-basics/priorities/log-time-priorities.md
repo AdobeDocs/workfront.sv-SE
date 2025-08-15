@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: </p>
-   <p>Ljus eller högre för att logga timmar på en aktivitet eller ett problem</p>
-   <p>Aktuell: 
-   <p>Arbeta eller senare för att logga timmar på en aktivitet eller ett problem</p> </td> 
+   <td> <p>Nytt: Ljus eller högre för att logga timmar på en aktivitet eller ett problem</p>
+   <p>Aktuell: Arbeta eller senare för att logga timmar på en aktivitet eller ett problem</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
@@ -61,7 +59,8 @@ Du kan logga tiden direkt från arbetslistan:
 
 {{step1-to-priorities}}
 
-1. Håll muspekaren över namnet och klicka sedan på **Loggtid**.
+1. Håll pekaren över namnet och klicka sedan på ikonen **Mer** ![Mer](assets/more-icon.png) .
+1. Välj **Loggtid**.
    ![Uppdatering, loggtid och överföring](assets/update-log-upload.png)
 1. Välj lämplig timtyp i listrutan **Timtyp**. Timtyper är tillgängliga beroende på vad som har definierats på system-, projekt- och användarnivå, vilket beskrivs i Definiera timtyper och tillgänglighet.
 
@@ -77,7 +76,7 @@ Du kan logga tid i en enskild arbetsuppgift:
 
 {{step1-to-priorities}}
 
-1. Klicka på ett arbetsobjektnamn för att öppna sidan Översikt.
+1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. Klicka på **Loggtid** i avsnittet **Snabbåtgärder**.
 1. Välj lämplig timtyp i listrutan **Timtyp**. Timtyper är tillgängliga beroende på vad som har definierats på system-, projekt- och användarnivå, vilket beskrivs i Definiera timtyper och tillgänglighet.
 1. (Villkorligt) Om din Workfront- eller gruppadministratör har aktiverat inställningen Tilldela jobbroller till timposter manuellt, väljer du en jobbroll i listrutan. Den roll som anges när du tilldelas arbetsuppgiften visas som standard. Om du inte har tilldelats någon roll för objektet visas din primära roll som standard. Om du inte har tilldelats någon primär roll visas ingen jobbroll.

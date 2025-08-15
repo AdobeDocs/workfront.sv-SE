@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -64,11 +64,10 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
 {{step1-to-priorities}}
 
 1. Klicka på **Filter** i det övre vänstra hörnet i arbetslistan.
-1. Klicka på **Standardfilter**.
-1. Markera ett eller flera filter om du vill begränsa arbetsobjekten.
+1. I avsnittet **Standardfilter** väljer du ett eller flera filter för att begränsa dina arbetsobjekt.
    ![Filter](assets/filter-new.png)
 
-+++Expandera för att se detaljerad information om tillgängliga filter
++++Expandera om du vill se detaljerad information om tillgängliga filter
 <table>
   <tbody>
    <tr>
@@ -116,12 +115,12 @@ Du kan filtrera uppgifter och ärenden som tilldelats dig.
     <td>Visar arbete efter planerat slutförandedatum</td>
     </tr>
     <tr>
-    <td>Status</td>
-    <td>Visar uppgifter eller problem i nya, pågående och slutförda statusar</td>
+    <td>Mitt fokus</td>
+    <td>Visar uppgifter eller problem som har tilldelats fokusnivåer. Fokusnivåer tilldelas och hanteras av den enskilda användaren.</td>
     </tr>
     <tr>
-    <td>Mitt fokus</td>
-    <td>Visar aktiviteter eller problem med tilldelade fokusnivåer. Fokusnivåer tilldelas och hanteras av den enskilda användaren.</td>
+    <td>Status</td>
+    <td>Visar uppgifter eller problem i nya, pågående och slutförda statusar.</td>
     </tr>
   </tbody>
 </table>
@@ -136,7 +135,7 @@ Använd naturligt språk för att snabbt filtrera arbetet.
 
 >[!NOTE]
 >
->Den här funktionen är endast tillgänglig för kunder som har en enhetlig Adobe Experience med hjälp av AI Assistant. Mer information om AI-assistenten finns i [Översikt över AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Den här funktionen är endast tillgänglig för kunder som har en enhetlig Adobe Experience med hjälp av AI Assistant. Mer information om AI Assistant finns i [Översikt över AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -146,28 +145,26 @@ Använd naturligt språk för att snabbt filtrera arbetet.
 
    Du kan skriva saker som:
 
-   * Visa mig sena uppgifter
-   * Visa mina topprioriteringar
-   * Visa arbete som förfaller idag
-
-</div>
+   * *Visa mig sena uppgifter*
+   * *Visa mina topprioriteringar*
+   * *Visa arbete som förfaller idag*
 
 ## Gruppera ditt arbete
 
 {{step1-to-priorities}}
 
 1. Klicka på **Grupper** längst upp till vänster i arbetslistan.
-1. Välj en grupp för att ordna din arbetslista
+1. Välj en grupp för att ordna din arbetslista.
    ![Grupper](assets/groups-new.png)
 
-+++Expandera för att se detaljerad information om tillgängliga grupper
++++Expandera om du vill visa detaljerad information om tillgängliga grupper
 
 | Grupp | Beskrivning |
 |-----------|-------------|
 | Projekt | Detta grupperar objekt efter projekt. |
+| Förfallodatum | Detta grupperar objekt baserat på när de förfaller. Förfallodatum avgörs av planerat slutförandedatum. |
 | Mitt fokus | Detta grupperar objekt baserat på den fokusnivå som du tilldelar. |
-| Vecka förfaller | Den här gruppen objekt baserat på vilken vecka de förfaller. Förfallodatum avgörs av planerat slutförandedatum. |
-| Status | Detta grupperar objekt efter följande statusar: Nytt, Pågår, Fullständigt. <br>Obs! Du kan inte använda anpassade statusvärden i prioriteter just nu. |
+| Status | Detta grupperar objekt efter följande statusar: Nytt, Pågår, Fullständigt. <br><b>Obs!</b>: Du kan inte använda anpassade statusvärden i prioriteter just nu. |
 
 +++
 
@@ -176,14 +173,14 @@ Använd naturligt språk för att snabbt filtrera arbetet.
 Du kan dra och släppa enskilda arbetsobjekt mellan kategorier när du grupperar efter Min prioritet eller Status.
 
 1. Gruppera ditt arbete efter **status** eller **Min prioritet**.
-2. Håll markören över arbetsobjektet för att hitta flyttningsikonen och dra den till önskad kategori.
+2. Håll markören över arbetsobjektet för att klicka på ikonen **Dra** och flytta det till önskad kategori.
    ![dra-ikon](assets/drag-and-drop.png)
 
 ## Sortera materialet
 
 ### Sortera i grupper
 
-Om du vill sortera ditt arbete i en grupp öppnar du **Grupp** och klickar på **Sortera stigande** eller **Sortera fallande**.
+Om du vill sortera ditt arbete i en grupp öppnar du **Grupp** och väljer om du vill sortera i stigande eller fallande ordning.
 
 ![Sortera i grupper](assets/sort-in-groups.png)
 

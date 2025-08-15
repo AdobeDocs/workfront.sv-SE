@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,9 @@ Du kan lägga till kommentarer och visa kommentarer och systemuppdateringar i en
 
 1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. Gå till området **Uppdateringar** längst ned till höger på skärmen.
-1. (Valfritt) Använd fliken **Kommentarer** om du vill uppdatera andra för arbetsposten.
+1. (Valfritt) Använd fliken **Kommentarer** för att visa uppdateringar som andra har gjort i arbetsposten.
 1. (Valfritt) Använd fliken **Systemaktivitet** för att visa systemaktiviteten som är relaterad till arbetsposten.
-1. (Valfritt) Om du vill lägga till en kommentar går du till fliken **Kommentar** och börjar skriva i rutan Ny kommentar. Klicka på **Skicka** när du är klar.
+1. (Valfritt) Om du vill lägga till en kommentar går du till fliken **Kommentar** och börjar skriva i rutan **Ny kommentar**. Klicka på **Skicka** när du är klar.
    ![Uppdateringsområde](assets/updates-area-in-overview.png)
 
 ## Svara på en kommentar
@@ -101,12 +101,12 @@ Du kan svara på en kommentar i en arbetsuppgift:
 1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. Gå till området **Uppdateringar** längst ned till höger på skärmen.
 1. På fliken **Kommentarer** letar du reda på kommentaren som du vill svara på och klickar sedan på **Svara**.
-1. (Villkorligt) Om du vill svara och hämta innehållet i ett meddelande till ditt svar klickar du på menyikonen **Mer** ![Mer meny](assets/more-icon.png) bredvid meddelandets brödtext och väljer **Citatsvar**.
+1. (Villkorligt) Om du vill hämta innehållet i ett meddelande till ditt svar klickar du på menyikonen **Mer** ![Mer meny](assets/more-icon.png) bredvid meddelandets brödtext och väljer **Citatsvar**.
 
 1. Skriv ditt svar och klicka sedan på **Skicka**.
 
    >[!IMPORTANT]
    >
-   >Du kan bara redigera kommentaren inom 15 minuter från det att du skickat in den. Om du vill redigera en kommentar klickar du på menyn Mer i det övre högra hörnet av kommentaren och sedan på Redigera.
+   >Du kan bara redigera kommentaren inom 15 minuter från det att du skickat in den. Om du vill redigera en kommentar klickar du på menyn **Mer** i det övre högra hörnet av kommentaren och sedan på **Redigera**.
 
    ![Svara på kommentar](assets/reply-to-comment.png)
