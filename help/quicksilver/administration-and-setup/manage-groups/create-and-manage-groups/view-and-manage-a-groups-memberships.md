@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
+source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
@@ -73,18 +73,18 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      <tr> 
       <td role="rowheader">Lägg till en användare i gruppen</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Klicka på <strong>Lägg till medlemmar</strong> <img src="assets/add-icon-plus-in-circle.png">, börja skriva användarens namn och markera det när det visas.</li> 
-        <li value="2"> <p>Upprepa detta för alla andra användare som du vill lägga till.</p> <p>Du kan klicka på krysset till höger om ett namn om du inte vill lägga till användaren.</p> </li> 
-        <li value="3">Klicka på <strong>Klar</strong> när du är klar.</li> 
+       <ol> 
+        <li>Klicka på <strong>Lägg till medlemmar</strong> <img src="assets/add-icon-plus-in-circle.png">, börja skriva användarens namn och markera det när det visas.</li>
+        <li> <p>Upprepa detta för alla andra användare som du vill lägga till.</p> <p>Du kan klicka på krysset till höger om ett namn om du inte vill lägga till användaren.</p> </li>
+        <li>Klicka på <strong>Klar</strong> när du är klar.</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ta bort en användare från gruppen</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Markera ett eller flera användarnamn och klicka sedan på <strong>Ta bort medlem</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Klicka på <strong>Ta bort</strong> i varningsmeddelandet som visas.</p> <p>Du kan hitta en användare som du vill ta bort från listan genom att klicka på <strong>Sök efter personer och grupper i listan</strong>, skriva deras namn i rutan och sedan klicka på namnet när det visas.</p> <p><b>OBS</b>:  
+       <ol> 
+        <li>Markera ett eller flera användarnamn och klicka sedan på <strong>Ta bort medlem</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
+        <li> <p>Klicka på <strong>Ta bort</strong> i varningsmeddelandet som visas.</p> <p>Du kan hitta en användare som du vill ta bort från listan genom att klicka på <strong>Sök efter personer och grupper i listan</strong>, skriva deras namn i rutan och sedan klicka på namnet när det visas.</p> <p><b>OBS</b>:  
           <ul> 
            <li>Om den här gruppen är hemgruppen för en användare som du vill ta bort måste du först tilldela en annan hemgrupp i användarens profil. Mer information finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Översikt över hemgrupper</a> och <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</li> 
            <li>Om gruppen bara har en gruppadministratör och du behöver ta bort honom eller henne från gruppen, måste du tilldela en annan gruppadministratör till gruppen först.</li> 
@@ -95,17 +95,17 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      <tr> 
       <td role="rowheader">Redigera en användares profilinformation</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Markera ett eller flera användarnamn och klicka sedan på <strong>Redigera</strong> <img src="assets/edit-icon.png">.</li> 
-        <li value="2"> <p>Ändra användarens profilinformation.</p> <p>Mer information om de ändringar du kan göra finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </li> 
+       <ol> 
+        <li>Markera ett eller flera användarnamn och klicka sedan på <strong>Redigera</strong> <img src="assets/edit-icon.png">.</li> 
+        <li> <p>Ändra användarens profilinformation.</p> <p>Mer information om de ändringar du kan göra finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportera data för användarmedlemskap</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Markera ett eller flera användarnamn och klicka sedan på <strong>Exportera</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Exportera data som en PDF-, Excel- eller tabbavgränsad fil.</p> <p>Mer information om att exportera data finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportera data</a>.</p> </li> 
+       <ol> 
+        <li>Markera ett eller flera användarnamn och klicka sedan på <strong>Exportera</strong> <img src="assets/export.png">.</li> 
+        <li> <p>Exportera data som en PDF-, Excel- eller tabbavgränsad fil.</p> <p>Mer information om att exportera data finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportera data</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -115,9 +115,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      <tr> 
       <td role="rowheader">Skicka en kommentar till gruppmedlemmar</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Markera minst en gruppmedlem och klicka sedan på <strong>Skicka uppdatering till användare</strong> i verktygsfältet.</li> 
-        <li value="2"><p>Skriv den kommentar du vill skicka till användarna och till uppdateringsområdet för deras användarprofiler.</p>
+       <ol> 
+        <li>Markera minst en gruppmedlem och klicka sedan på <strong>Skicka uppdatering till användare</strong> i verktygsfältet.</li> 
+        <li><p>Skriv den kommentar du vill skicka till användarna och till uppdateringsområdet för deras användarprofiler.</p>
         <p>Mer information finns i <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Skicka direktmeddelanden till andra användare</a>.</p></li> 
        </ol> </td> 
      </tr> 
