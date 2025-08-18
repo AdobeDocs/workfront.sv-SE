@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,11 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
      Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eller [Redigera användarprofiler gruppvis](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Markera ett valfritt antal medlemmar i listan och klicka sedan på ikonen Uppdatera ![kommentar](assets/comment-icon.png) för att lägga till en kommentar i användarprofilerna.
+   * Markera ett valfritt antal undergruppsmedlemmar i listan och klicka sedan på **Skicka uppdatering till användare** för att lägga till en kommentar i användarprofilerna.
 
      Användaren eller användarna får ett meddelande i appen samt ett e-postmeddelande med din kommentar. Kommentaren visas i området Uppdateringar i användarens profil.
+
+     Mer information finns i [Skicka direktmeddelanden till andra användare](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).
 
    * Markera ett valfritt antal medlemmar i listan och klicka sedan på Inaktivera ![användare](assets/deactivate-user.png) eller Aktivera ![användare](assets/activate-user.png).
 

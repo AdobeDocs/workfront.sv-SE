@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">Markera ett eller flera användarnamn och klicka sedan på <strong>Exportera</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Exportera data som en PDF, Excel eller tabbavgränsad fil.</p> <p>Mer information om att exportera data finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportera data</a>.</p> </li> 
+        <li value="2"> <p>Exportera data som en PDF-, Excel- eller tabbavgränsad fil.</p> <p>Mer information om att exportera data finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportera data</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -116,8 +116,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td role="rowheader">Skicka en kommentar till gruppmedlemmar</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Markera ett eller flera användarnamn och klicka sedan på <strong>Uppdatera</strong> <img src="assets/comment-icon.png">.</li> 
-        <li value="2">Skriv kommentaren.</li> 
+        <li value="1">Markera minst en gruppmedlem och klicka sedan på <strong>Skicka uppdatering till användare</strong> i verktygsfältet.</li> 
+        <li value="2"><p>Skriv den kommentar du vill skicka till användarna och till uppdateringsområdet för deras användarprofiler.</p>
+        <p>Mer information finns i <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Skicka direktmeddelanden till andra användare</a>.</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
