@@ -5,7 +5,7 @@ description: Förutom att ställa in intäkter och spåra utgifter kan du skapa 
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -95,12 +95,12 @@ Tänk på följande när du planerar att använda faktureringsposter:
       <td>Välj det datum då faktureringsposten fakturerades genom att klicka på kalenderikonen.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">IO-nummer</td> 
-      <td>Ange det inköpsordernummer som är associerat med den här faktureringsposten.</td> 
+      <td role="rowheader">PO-nummer</td> 
+      <td>Ange inköpsordernumret som är associerat med den här faktureringsposten.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Faktura-ID</td> 
-      <td>Ange fakturan som är associerad med den här faktureringsposten.</td> 
+      <td>Ange den faktura som är associerad med den här faktureringsposten.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ytterligare belopp</td> 

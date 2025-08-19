@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Gränssnittsuppdateringar för aviseringssidan för granskning och godkännande i installationsprogrammet
+
+**Förhandsversion: 18 augusti 2025; Produktionsversion: 18 augusti 2025**
+
+Vi har uppdaterat sidan för gransknings- och godkännandemeddelanden med en modernare design som är förenlig med andra delar av Workfront.
+
+Om du vill visa ändringarna går du till Inställningar > E-post > Granska och godkänn.
+
+### Gränssnittsuppdateringar för dialogrutorna Lägg till och redigera faktureringsposter
+
+**Förhandsversion: 14 augusti 2025; Produktionsversion: 18 augusti 2025**
+
+Vi har uppdaterat dialogrutorna för att lägga till och redigera faktureringsposter med en modernare design som överensstämmer med andra delar av Workfront.
+
+Om du vill visa ändringarna går du till Projekt > Välj ett projekt > Faktureringsposter > Lägg till en faktureringspost eller redigera en faktureringspost
+
+Mer information finns i [Skapa faktureringsposter](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
 ### Gränssnittsuppdateringar för rutan Skicka uppdatering till användare i grupper
 
@@ -43,6 +61,7 @@ Vi har uppdaterat utseendet på de nyligen borttagna objekten i inställningsomr
 Om du vill visa den här ändringen går du till Inställningar > Papperskorgen > Senast borttagen.
 
 Mer information finns i [Återställ borttagna objekt](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 
 ### Gränssnittsuppdateringar för villkorsområdet i installationsprogrammet
 
@@ -84,7 +103,7 @@ Om du vill visa den här ändringen går du till Inställningar > Ändringsspår
 
 ### Gränssnittsuppdateringar för sidan Uppdatera användare för enkel inloggning i installationsprogrammet
 
-**Förhandsversion: 22 juli 2025; Produktionsversion: 28 juli 2025**
+**Förhandsversion: 22 juli 2025; Produktionsversion: 18 augusti 2025**
 
 Vi har uppdaterat sidan Uppdatera användare för enkel inloggning med en modernare design som är konsekvent med andra delar av Workfront.
 

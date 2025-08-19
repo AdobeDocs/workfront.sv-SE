@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
 # Skapa eller redigera ett anpassat villkor
-
-{{highlighted-preview}}
 
 Som Adobe Workfront-administratör kan du skapa eller redigera anpassade villkor för projekt, uppgifter och ärenden som passar din organisations behov.
 
@@ -66,13 +64,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    eller
 
-   Om du vill redigera ett befintligt villkor klickar du på <span class="preview">**Redigera** bredvid villkorsnamnet</span> eller håller pekaren över villkoret som du vill redigera och klickar sedan på ikonen **Redigera** som visas längst till höger.
+   Om du vill redigera ett befintligt villkor klickar du på **Redigera** bredvid villkorsnamnet.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Redigera anpassat villkor](assets/custom-conditions-0825.png)
-
-   Exempelbild i produktionsmiljön:
-   ![Anpassat villkor](assets/custom-condition-edit-nwe.jpg)
 
 1. Konfigurera ditt anpassade tillstånd med följande alternativ:
 

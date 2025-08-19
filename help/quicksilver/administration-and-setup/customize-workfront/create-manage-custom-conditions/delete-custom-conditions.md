@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # Ta bort ett anpassat villkor
-
-{{highlighted-preview}}
 
 Du kan ta bort ett anpassat villkor om det inte längre behövs.
 
@@ -62,8 +60,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Välj fliken för objekttypen (**Projekt**, **Aktivitet** eller **Problem**) där villkoret som du vill ta bort finns.
 
-1. Klicka på <span class="preview">**Ta bort** bredvid villkorsnamnet</span> som du vill ta bort, eller hovra över villkoret och klicka på ikonen **Ta bort** ![Ta bort](assets/delete.png) som visas längst till höger.
-
+1. Klicka på **Ta bort** bredvid villkorsnamnet som du vill ta bort.
 1. I rutan **Ta bort villkor** som visas väljer du ett nytt villkor i listrutan för alla projekt, aktiviteter eller problem som använder det villkor som du håller på att ta bort.
 
    Anpassade villkor är bara tillgängliga i listrutan om de motsvarar samma inbyggda villkor som det du tar bort. Om du t.ex. tar bort ett villkor som är lika med Vid risk, kan du bara välja anpassade villkor som också är lika med Vid risk.
