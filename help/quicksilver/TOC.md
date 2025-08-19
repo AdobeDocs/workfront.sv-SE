@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 629e7943e7f14e555bf658d6b5c04c2b647b6f83
 workflow-type: tm+mt
-source-wordcount: '13424'
+source-wordcount: '13427'
 ht-degree: 0%
 
 ---
@@ -876,8 +876,8 @@ ht-degree: 0%
          * [Logga tid på ett arbetsobjekt från hemområdet](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Markera ett objekt som färdigt i hemområdet](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Använda området Mina uppdateringar](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * AI Assistant {#ai-assistant}
-      * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+   * AI-assistenten {#ai-assistant}
+      * [AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [Översikt över AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Sammanfatta med hjälp av AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Få hjälp av AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
@@ -885,6 +885,7 @@ ht-degree: 0%
       * [Använd AI-assistenten för att arbeta med projekt, uppgifter och ärenden](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Fyll i en begäran automatiskt med hjälp av AI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
+      * [Project Health - översikt](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
    * Uppdatera arbetsuppgifter och visa uppdateringar {#update-work-items-view-updates}
       * [Uppdatera arbetsposter och visa uppdateringar: artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Översikt över uppdateringsavsnittet](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2571,7 +2572,7 @@ ht-degree: 0%
    * [ProofHQ API](proofhq-api/proofhq-api.md)
    * Allmänt {#general}
       * [Allmänt](proofhq-api/general/general.md)
-      * [Ökning](proofhq-api/general/overview.md)
+      * [Översikt](proofhq-api/general/overview.md)
       * [Kodexempel](proofhq-api/general/code-samples.md)
       * [Vanliga frågor om SOAP API](proofhq-api/general/soap-api-faqs.md)
 * [Dolt testdokument](hidden-test.md)
