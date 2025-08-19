@@ -4,10 +4,10 @@ description: Det här är en intern artikel som vårt team kan använda för att
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '624'
+ht-degree: 0%
 
 ---
 
@@ -213,12 +213,9 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 <tr> 
    <td role="rowheader"><p>Adobe Workfront Packages</p></td> 
    <td> 
-<p>Alla Adobe Workfront-paket eller Adobe Workfront Workflow-paket</p> (***för mycket***)
-
-Och
-<p>Alla Adobe Workfront Planning-paket</p> 
+<p>Alla Adobe Workfront Workflow-paket och alla Adobe Workfront Planning-paket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-plattform (**&#x200B;**&#x200B;Vill vi ringa upp detta eller bara göra det till en del av artikeln som är länkad längst ned??**&#x200B;**)</p></td> 
+<td role="rowheader"><p>Adobe Workfront-plattform (****Vill vi ringa upp detta eller bara göra det till en del av artikeln som är länkad längst ned??****)</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
@@ -262,12 +259,7 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
  <col> 
  <tbody>
 
-<tr> 
-   <td> <p>Produkter</p> </td> 
-   <td> <p>Adobe Workfront</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Adobe Workfront] Paket</p> </td> 
+<td> <p>[!DNL Adobe Workfront] Paket</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 

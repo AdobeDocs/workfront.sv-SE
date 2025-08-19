@@ -7,9 +7,9 @@ description: När du har skapat en mall kan du redigera information om malluppgi
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2491'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Du kan redigera malluppgifter eller redigera malluppgifter samtidigt.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Du kan redigera malluppgifter eller redigera malluppgifter samtidigt.
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter </td> 
-   <td> <p>Hantera behörigheter för en mall. </p> <p>Contribute eller högre behörigheter för mallaktiviteten.</p> </td> 
+   <td> <p>Hantera behörigheter för en mall. </p> <p>Du kan inte dela en malluppgift. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 1. (Valfritt) Klicka på ikonen **Komprimera alla** ![Komprimera alla ](assets/collapse-all-icon.png) om du vill komprimera alla områden.
 1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
-   * Ökning
+   * Översikt
    * Anpassad Forms
 
      Namnen på tullformulär visas bara om det finns anpassade formulär kopplade till objektet.
@@ -108,14 +108,14 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
 1. Det kan vara bra att ange information i följande avsnitt:
 
-   * [Ökning](#overview)
+   * [Översikt](#overview)
    * [Ekonomi](#finance)
    * [Inställningar](#settings)
    * [Uppdrag](#assignments)
    * [Anpassad Forms](#custom-forms)
    * [Kommentar](#comment)
 
-### Ökning {#overview}
+### Översikt {#overview}
 
 1. Börja redigera en malluppgift enligt beskrivningen ovan.
 1. Klicka på **Översikt**.
