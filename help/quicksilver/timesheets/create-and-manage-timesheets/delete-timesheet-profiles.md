@@ -6,9 +6,9 @@ description: Du kan ta bort en tidrapportprofil som kanske inte längre är rele
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Mer information om tidrapportprofiler finns i [Skapa, redigera och tilldela tidr
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,9 +63,10 @@ Mer information om tidrapportprofiler finns i [Skapa, redigera och tilldela tidr
    Om du tar bort en tidrapportprofil för en grupp klickar du på **Grupper** > på gruppens namn och sedan på **Tidrapportprofiler**.
 1. Markera minst en tidrapportprofil som du vill ta bort och klicka sedan på ikonen **Mer** ![](assets/more-icon.png) > **Ta bort** för den systemomfattande tidrapportprofilen
 
-   eller
-
-   Klicka på **Mer** > **Ta bort** för tidrapportprofilen på gruppnivå.
+1. Klicka på **Tidrapportprofiler**.
+1. Markera minst en tidrapportprofil som du vill ta bort och klicka sedan på ikonen ![mer](assets/more-icon.png) > **Ta bort**.
+eller
+Klicka på **Mer** > **Ta bort** för tidrapportprofilen på gruppnivå.
 1. (Villkorligt) Om tidrapportprofilen redan är tilldelad användare visas rutan **Ersätt tidrapportprofil**. Gör följande:
    1. Välj en annan tidrapportprofil i listrutan. Den tidrapportprofil som du tar bort ersätts av den tidrapportprofil som du ersätter den med för alla tilldelade användare. Tidrapporterna genereras enligt den nyligen tilldelade profilen i följande genereringscykel för tidrapporter.
    1. Klicka på **Ta bort** för att bekräfta borttagningen.

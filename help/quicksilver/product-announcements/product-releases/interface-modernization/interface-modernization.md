@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
+source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
 workflow-type: tm+mt
-source-wordcount: '6894'
+source-wordcount: '6892'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Mer information finns i [Hantera timtyper](/help/quicksilver/administration-and-
 
 ### Gränssnittsuppdateringar till sidan Granskningsloggar i installationsprogrammet
 
-**Förhandsversion: 22 juli 2025; Produktionsversion: ska tillkännages**
+**Förhandsversion: 22 juli 2025; Produktionsversion: 28 juli 2025**
 
 Vi har uppdaterat sidan Granskningsloggar i installationsprogrammet så att den matchar andra delar av programmet.
 

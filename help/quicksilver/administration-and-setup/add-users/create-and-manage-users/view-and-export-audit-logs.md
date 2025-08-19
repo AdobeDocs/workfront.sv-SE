@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >
    >Alternativen i listrutan Åtgärdstyp varierar beroende på vilken granskningslogg som har valts.
 
-   ![Granskningsloggar](assets/audit-logs.jpg)
+   ![Granskningsloggar](assets/audit-logs.png)
 
 1. Klicka på **Använd**.
 1. (Valfritt) Klicka på **Rensa filter** om du vill återställa ändringar som gjorts i filtren.
@@ -86,7 +86,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step-1-to-setup}}
 
-1. Klicka på **System > Granskningsloggar** i den vänstra panelen.
+1. Klicka på **System > Ändringsspårning > Granskningsloggar** i den vänstra panelen.
 
 1. Välj en granskningslogg på den nedrullningsbara menyn **Loggtyp**.
 

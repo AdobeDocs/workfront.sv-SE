@@ -6,9 +6,9 @@ description: Om du vill aktivera ändringar som du har gjort i tidrapportprofile
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
+source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,8 @@ Du kan generera tidrapporter på systemnivå eller gruppnivå manuellt från omr
    Om du genererar tidrapporter som används av en viss grupp klickar du på **Grupper** och sedan på gruppens namn.
 
 1. Klicka på **Tidrapportprofiler**.
+1. Klicka på mer-ikonen ![mer-ikon](assets/more-icon.png) och sedan **Generera tidrapporter**.
+
 1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) för tidrapportprofiler på systemnivå eller **Mer** för grupptidrapportprofiler överst i listan över tidrapportprofiler och klicka sedan på **Generera tidrapporter**.
 
    Nya tidrapporter skapas för upp till två tidsperioder för användare som är kopplade till tidrapportprofiler.
