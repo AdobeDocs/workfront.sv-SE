@@ -5,7 +5,9 @@ description: Funktionen Project Health utnyttjar funktionerna i AI Assistant fö
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 2024f19709f7859ed6f19b830321d9e4c09e71f8
+hide: true
+hidefromtoc: true
+source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 0%
