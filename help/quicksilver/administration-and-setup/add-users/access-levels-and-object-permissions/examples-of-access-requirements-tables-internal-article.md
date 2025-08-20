@@ -4,10 +4,10 @@ description: Det här är en intern artikel som vårt team kan använda för att
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
+source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 0%
+source-wordcount: '651'
+ht-degree: 1%
 
 ---
 
@@ -17,13 +17,15 @@ ht-degree: 0%
 ## Checklista
 
 1. Ändra plan till paket.
-1. Ta bort aktuell och äldre från licensraden
-1. Ta bort alla asterisker
+1. Ta bort aktuell och äldre från licensraden. Se till att de är inkapslade <p> -taggar.
+1. Ta bort alla DNL- och gränssnittskontrolltaggar.
+1. Ta bort eventuell fet.
+1. Ta bort eventuella asterisker.
 1. Ta bort alla inledande meningar efter &quot;Expandera för att visa åtkomstkrav för funktionerna i den här artikeln&quot;.
 
 ## Åtkomstkrav (Detta är ett exempel när paketet inte ändras och vi uppdaterar licensraden)
 
-Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +37,7 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Ljus eller högre</p>
    <p>Arbeta eller högre</p></td> 
   </tr> 
@@ -50,11 +52,11 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Åtkomstkrav
 
-Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,9 +84,9 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Åtkomstkrav
+## Åtkomstkrav (endast tillgängligt för nya nettokunder)
 
-Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln
 
 <table style="table-layout:auto"> 
  <col> 
@@ -115,7 +117,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Åtkomstkrav (Detta är ett exempel där den nya funktionen bara finns i 2023/2025-paketen)
 
-Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln
 
 <table>
   <tr>
@@ -143,7 +145,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Åtkomstkrav (Detta är ett exempel där du måste ha andra produkter)
 
-Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln
 
 <table>
   <tr>
@@ -151,6 +153,12 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
    </td>
    <td> <p>Prime eller Ultimate</p>
     <p>Arbetsflöde Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront-licenser
+   </td>
+   <td>Standard
    </td>
   </tr>
   <tr>
@@ -189,9 +197,6 @@ Licenser: medverkande, lätt, standard
 Paket: planera urval, planera först och främst, planera det ultimata
 
 
-
-
-
 ## Åtkomstkrav för de flesta Workfront Planning
 
 Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
@@ -215,7 +220,7 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
    <td> 
 <p>Alla Adobe Workfront Workflow-paket och alla Adobe Workfront Planning-paket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-plattform (**&#x200B;**&#x200B;Vill vi ringa upp detta eller bara göra det till en del av artikeln som är länkad längst ned??**&#x200B;**)</p></td> 
+<td role="rowheader"><p>Adobe Workfront-plattform (****Vill vi ringa upp detta eller bara göra det till en del av artikeln som är länkad längst ned??****)</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
