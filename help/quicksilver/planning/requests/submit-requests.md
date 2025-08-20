@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Mer information om hur en arbetsytehanterare kan skapa ett begärandeformulär o
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto">
  <col>
@@ -162,7 +162,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
 1. Klicka på **Ny begäran**.
 
-   ![Ny begäranderuta med enhetliga Workfront- och planeringskort](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    Rutan **Ny begäran** öppnas med följande information:
 
@@ -171,7 +171,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
 
 1. Gör något av följande:
 
-   * Klicka på kortet för ett av planeringsförfrågningsformulären i avsnitten Senaste eller Alla förfrågningsformulär
+   * Markera planeringsförfrågningsformulären i avsnitten Senaste eller Alla förfrågningsformulär
    * Börja skriva namnet på ett planeringsbegärandeformulär i sökrutan och klicka sedan på kortet när det visas i listan.
 
    Formuläret för begäran öppnas.
