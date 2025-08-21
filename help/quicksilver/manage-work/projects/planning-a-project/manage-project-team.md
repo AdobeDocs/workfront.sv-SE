@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Du kan hantera användarna i projektet och mallens team genom att lägga till de
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -193,7 +193,7 @@ If users that don't fulfill any role on the project want to be notified about ce
    Användare tas bort och blir inte tilldelade från ofullständiga arbetsobjekt.
 
    Mer information finns i avsnittet [Att tänka på när du tar bort användare från ett projektteam](#considerations-for-removing-users-from-a-project-team) i den här artikeln.
-1. (Valfritt) Om du vill skicka en uppdatering för det här projektet till användarna klickar du på Uppdatera alla för att skicka uppdateringen till alla i teamet
+1. (Valfritt) Om du vill skicka en uppdatering för det här projektet till användare klickar du på **Uppdatera alla** för att skicka uppdateringen till alla i gruppen
 
    eller
 
@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Klicka på **Personer** i den vänstra panelen.
 
-1. Markera en eller flera användare i listan och klicka sedan på **Ta bort** för att ta bort dem från gruppen.
+1. Markera en eller flera användare i listan och klicka sedan på ikonen **Ta bort** för att ta bort dem från gruppen.
 
 1. Klicka på **Ja, ta bort markerade användare** för att bekräfta och ta bort användarna.
 
@@ -243,11 +243,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Mer information finns i avsnittet [Att tänka på när du tar bort användare från ett projektteam](#considerations-for-removing-users-from-a-project-team) i den här artikeln.
 
-1. (Valfritt) Om du vill skicka en uppdatering till användarna klickar du på Uppdatera alla för att skicka uppdateringen till alla användare i listan
+1. (Valfritt) Om du vill skicka en uppdatering till användare klickar du på **Uppdatera alla** för att skicka uppdateringen till alla användare i listan
 
    eller
 
-   Markera en eller flera användare i listan och klicka sedan på **Uppdatera**.
+   Markera en eller flera användare i listan och klicka sedan på **Skicka uppdatering till användare**.
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -266,11 +266,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Användarna kan få ett e-postmeddelande om de är aktiverade för dem och de får ett meddelande i appen om den nya uppdateringen.
 
-1. (Valfritt) Klicka på **Exportera** om du vill exportera listan med användare till en fil
+1. Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) om du vill exportera listan med användare till en fil
 
    eller
 
-   Markera användare och klicka sedan på **Exportera** om du bara vill exportera vissa användare.
+   Markera användare och klicka sedan på ikonen **Exportera** om du bara vill exportera vissa användare.
 
 ## Att tänka på när du tar bort användare från ett projektteam
 
