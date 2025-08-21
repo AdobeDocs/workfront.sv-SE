@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2868'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Om du vill konfigurera ett projekt eller en mall som en begärandekö måste du 
 I den här artikeln beskrivs hur du konfigurerar ett projekt som en begärandekö där användare kan skicka begäranden. Att ställa in köinformation för en mall påminner om att ställa in dem i projektet.
 
 Mer information om hur du skickar en ny begäran till en begärandekö finns i [Kopiera och skicka begäranden](../create-requests/copy-and-submit-requests.md).
+
+Mer information om hur du konfigurerar ett begärandeformulär i Workfront Planning finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Åtkomstkrav
 

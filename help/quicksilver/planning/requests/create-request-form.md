@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2564'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan skapa ett begärandeformulär och associera det med en posttyp i Adobe Workfront Planning. Du kan sedan dela formuläret med andra och de kan skicka in begäranden för att skapa poster.
+Du kan skapa ett begärandeformulär och associera det med en posttyp i Adobe Workfront Planning. Du kan sedan dela formuläret med andra och de kan skicka in begäranden för att skapa poster av den typen.
 
 I den här artikeln beskrivs hur en arbetsytehanterare kan skapa ett begärandeformulär som är associerat med en posttyp.
 
@@ -34,7 +34,7 @@ Mer information om hur du skickar en begäran till en posttyp för att skapa en 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto">
  <col>
@@ -135,7 +135,11 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
    * Formelfält som refererar till valutafält visar värden utan redovisning för valutakurser.
    * Värdena i styckefälten visar ett N/A-värde i begärandeformuläret och de visar html-taggar i stället för formaterad text på sidan med information om begäran.
 
-## Skapa ett begärandeformulär för en posttyp
+## Börja skapa ett begärandeformulär
+
+Du kan skapa ett begärandeformulär från den posttyp som är associerad med formuläret, <span class="preview">eller från området Begäranden i Workfront.</span>
+
+### Skapa ett begärandeformulär av en posttyp
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ Mer information om hur du skickar begäranden om Workfront Planning finns i [Ski
 
 1. Klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Skapa begärandeformulär** eller **Hantera begärandeformulär** om du redan har ett formulär och vill skapa ytterligare.
 1. (Villkorligt) Om du vill lägga till ett annat formulär klickar du på **Nytt begärandeformulär**.
-1. Uppdatera namnet på förfrågningsformuläret. Som standard är formulärets namn **Namnlöst formulär**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   Rutan Skapa begärandeformulär öppnas.
+
+1. Uppdatera namnet på begärandeformuläret i rutan Skapa begärandeformulär. Som standard är formulärets namn **Namnlöst formulär**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Valfritt) Lägg till en **beskrivning** för begärandeformuläret.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klicka på **Skapa**. Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
+1. Klicka på **Skapa**.
+
+   Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
+1. Fortsätt till [Konfigurera formuläret](#configure-the-form).
+
+<div class="preview">
+
+### Skapa ett begärandeformulär från området Begäranden i Workfront
+
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Begäranden**.
+1. Klicka på **Begär formulär** i skärmens övre högra hörn.
+1. (Villkorligt) Om du redigerar ett befintligt begärandeformulär markerar du det i listan och fortsätter sedan med [Konfigurera formuläret](#confgure-the-form).
+1. Om du skapar ett nytt begärandeformulär klickar du på **Nytt begärandeformulär** i skärmens övre högra hörn.
+
+   Rutan Skapa begärandeformulär öppnas
+
+1. Uppdatera namnet på begärandeformuläret i rutan Skapa begärandeformulär. Som standard är formulärets namn **Namnlöst formulär**.
+1. I fältet Objekttyper väljer du den posttyp som begärandeformuläret ska kopplas till. Posttyper grupperas i den arbetsyta som de finns på.
+1. (Valfritt) Lägg till en **beskrivning** för begärandeformuläret.
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Klicka på **Skapa**.
+
+   Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
+1. Fortsätt till [Konfigurera formuläret](#configure-the-form).
+
+</div>
+
+## Konfigurera formuläret
+
+1. Börja skapa eller redigera ett begärandeformulär, vilket beskrivs i något av följande avsnitt:
+
+   * [Skapa ett begärandeformulär av en posttyp](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Skapa ett begärandeformulär från området Förfrågningar i Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
 
    ![Formulärredigeringsläge för kampanjförfrågningar](assets/campaigns-request-form-edit-mode.png)
 
