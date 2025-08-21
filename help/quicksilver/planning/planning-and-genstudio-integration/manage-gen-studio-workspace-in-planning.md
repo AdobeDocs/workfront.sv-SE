@@ -35,7 +35,7 @@ Adobe GenStudio for Performance Marketing arbetsyta är tillgänglig i Adobe Wor
 
 Du kan visa arbetsytan i GenStudio från Planning och uppdatera information i båda systemen.
 
-Information om hur du använder och hanterar GenStudio-arbetsytan från GenStudio Performance Marketing finns i [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+Information om hur du använder och hanterar GenStudio-arbetsytan från GenStudio Performance Marketing finns i [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
 
 Allmän information om integrationen mellan GenStudio och Workfront Planning finns i [Kom igång med Adobe Workfront Planning och Adobe GenStudio for Performance Marketing-integrering](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
@@ -111,7 +111,7 @@ Allmän information om integrationen mellan GenStudio och Workfront Planning fin
 </table>
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-*Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+*Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
 
 +++   
 
