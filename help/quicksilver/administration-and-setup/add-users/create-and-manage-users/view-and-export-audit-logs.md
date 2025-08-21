@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Du kan visa alla granskningsloggar i systemet eller de som uppfyller vissa filtervillkor. Du kan också exportera granskningsloggar. Granskningsloggar visar användarändringar som har utlösts i systemet under de senaste 90 dagarna.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
-Du kan visa alla granskningsloggar i systemet eller de som uppfyller vissa filtervillkor. Du kan också exportera granskningsloggar.
+Du kan visa alla granskningsloggar i systemet eller de som uppfyller vissa filtervillkor. Du kan också exportera granskningsloggar till en CSV-fil.
 
 Granskningsloggar visar användarändringar som har utlösts i systemet under de senaste 90 dagarna.
 
@@ -38,20 +38,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Alla</p></td> 
   </tr> 
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Planera</p></td>
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td><p>Systemadministratör</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -65,28 +64,34 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 {{step-1-to-setup}}
 
 1. Klicka på **System > Granskningsloggar** i den vänstra panelen.
+1. I listrutan **Åtgärdstyp** väljer du vilken typ av granskning du vill visa.
+
+   >[!NOTE]
+   >
+   >Alternativen i listrutan Åtgärdstyp varierar beroende på vilken granskningslogg som har valts.
+
 1. I listrutan **Loggtyp** väljer du vilken typ av granskningslogg du vill visa.
 
    **Alla loggtyper** är markerade som standard.
 
    En lista över alla granskningsloggtyper som du kan visa och vilken information de innehåller finns i [Granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-1. (Valfritt) Ange något av de tillgängliga filtren.
+1. (Valfritt) Ange något av de tillgängliga filtren för följande fält:
 
-   >[!NOTE]
-   >
-   >Alternativen i listrutan Åtgärdstyp varierar beroende på vilken granskningslogg som har valts.
+   * **Användare**: Ange namnet på den användare som gjorde en ändring.
+   * **Från**: Startdatum för tidsramen när ändringen gjordes.
+   * **Till**: Slutdatum för tidsramen när ändringen gjordes.
 
    ![Granskningsloggar](assets/audit-logs.png)
 
 1. Klicka på **Använd**.
-1. (Valfritt) Klicka på **Rensa filter** om du vill återställa ändringar som gjorts i filtren.
+1. (Valfritt) Klicka på **Rensa** om du vill återställa ändringar som gjorts i filtren.
 
 ## Exportera granskningsloggar
 
 {{step-1-to-setup}}
 
-1. Klicka på **System > Ändringsspårning > Granskningsloggar** i den vänstra panelen.
+1. Klicka på **System** > **Granskningsloggar** i den vänstra panelen.
 
 1. Välj en granskningslogg på den nedrullningsbara menyn **Loggtyp**.
 
@@ -99,3 +104,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    >Du kan inte exportera mer än 50 000 loggar samtidigt. Workfront exporterar loggar baserat på de filter du anger, inte på antalet loggar som visas på sidan. Du kan visa det totala antalet filtrerade loggar längst ned till höger på sidan.
 
 1. Klicka på **Exportera**.
+
+   Rutan Spara fil öppnas och du kan spara den exporterade filen på datorn.
+
+   Du kan bara spara granskningsloggarna i CSV-format.
+
+   Spara den exporterade filen. Nu kan du hitta den på datorn och dela den med andra.

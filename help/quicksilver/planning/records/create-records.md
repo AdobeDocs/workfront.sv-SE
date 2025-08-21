@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2814'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,14 @@ Du kan skapa poster genom att göra något av följande:
 
 </div>
 
+<!--
+<div class="preview">
+
+* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
+
+</div>
+-->
+
 * [Kopiera och klistra in en lista med poster från en extern lista](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
 * [Koppla dem från andra poster](#create-records-as-you-connect-them)
@@ -49,7 +57,7 @@ Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i f�
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -273,6 +281,7 @@ Poster av den valda typen visas i vyn.
    * CTRL + Z (⌘ + Z för Mac) för att ångra en ändring
    * CTRL + Skift + Z (⌘ + Skift + Z för Mac) för att göra om en ändring
 
+
 <div class="preview">
 
 ## Skapa poster genom att lägga till dem i posttypens tidslinjevy
@@ -303,7 +312,12 @@ Mer information om hur du skapar en tidslinjevy finns i [Hantera tidslinjevyn](/
    ![Ny postruta på tidslinjen med namnlöst postfält](assets/new-record-small-box-on-timeline.png)
 1. Uppdatera följande information:
 
-   * **Namn**: Ange postens namn. Om du lämnar den tom namnges den som **Namnlös** som standard av Workfront. Namnet visas inte i postfältet om det inte finns något namn.
+   * **Namn**: Ange postens namn. Om du lämnar den tom namnges den som **Namnlös** som standard av Workfront.
+
+     >[!TIP]
+     >
+     >Om du visar namnet på posten i postfälten enligt tidslinjeinställningarna, visas inte namnet i postfältet om det inte finns något.
+
    * **Registrera datumfält**: Uppdatera postens datum.
 
      Namnen på datumfälten anpassas efter de fält som valts för start- och slutdatum när tidslinjevyn skapades.
@@ -331,6 +345,74 @@ Mer information om hur du skapar en tidslinjevy finns i [Hantera tidslinjevyn](/
    >Miniatyrbilden visas bara i tidslinjevyn när den är aktiverad i vyinställningarna.
 
 </div>
+
+<!--
+
+<div class="preview">
+
+## Create records by adding them in the record type calendar view
+
+You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+
+For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a calendar view, or create a calendar view.
+
+    >[!NOTE]
+    >
+    >You can create a calendar view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere on the calendar. 
+
+    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********)
+
+    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
+    
+        >[!TIP]
+        >
+        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Month**: The record start and end dates span one day.
+        * By **Week**: The record start and end dates span two days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+
+</div>
+
+-->
 
 ## Skapa poster genom att kopiera och klistra in dem från en extern lista
 

@@ -1,12 +1,12 @@
 ---
-title: Lägg till posttyper för arbetsytor
+title: Lägg till befintliga posttyper
 description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Workfront Planning kan du importera en befintlig posttyp från en annan arbetsyta.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Lägga till posttyper för arbetsytor
+# Lägg till befintliga posttyper
 
 <span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -35,7 +35,7 @@ Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.  
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -109,6 +109,7 @@ Att tänka på när du lägger till befintliga posttyper från en annan arbetsyt
    * Postanslutningar
 
 * Du kan bara redigera posttypen, inklusive dess fält, på den ursprungliga arbetsytan. Du kan inte redigera den från arbetsytorna där den lades till.
+* Poster som läggs till från alla arbetsytor visas för alla användare som kommer åt dem från alla arbetsytor, även om de skapas i en arbetsyta där de inte har någon behörighet.
 
 ## Skapa en posttyp från en befintlig posttyp
 

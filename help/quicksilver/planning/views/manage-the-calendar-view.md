@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Mer information om Adobe Workfront Planning-vyer och hur du hanterar dem finns i
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,7 +94,7 @@ Mer information om Adobe Workfront Planning-vyer och hur du hanterar dem finns i
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Hantera en kalendervy {#manage-a-calendar-view}
 
@@ -110,6 +110,14 @@ Tänk på följande:
    * När både start- och slutdatum saknar värden visas inte posterna i kalendern
    * När start- eller slutdatumet saknar värde visas posten som en endagshändelse
    * När startdatumet är efter slutdatumet visas inte posten i kalendern.
+
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
 
 Så här hanterar du en kalendervy:
 

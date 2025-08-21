@@ -4,9 +4,9 @@ description: Du kan aktivera en posttyp som antingen ska läggas till på en ann
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Konfigurera funktioner för olika arbetsytor för posttyper
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -127,7 +127,9 @@ Mer information finns i följande artiklar:
 
 +++   
 
-## Konfigurera tillägg av en posttyp till andra arbetsytor
+## Konfigurera centraliserade posttyper
+
+<!--this is a UI term; don't change the title of this section-->
 
 Som arbetsytehanterare kan du konfigurera en posttyp som ska läggas till i andra arbetsytor när du skapar eller redigerar en posttyp.
 
@@ -180,7 +182,9 @@ eller
 
      Det här fältet är skrivskyddat och kan inte tas bort.
 
-## Konfigurera anslutning till en posttyp från andra arbetsytor
+## Konfigurera posttyper som kan anslutas
+
+<!--this is a UI term; don't change the title of this section-->
 
 Du kan konfigurera en posttyp att ansluta till från andra arbetsytor när du skapar eller redigerar posttypen.
 

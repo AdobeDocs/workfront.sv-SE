@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: aa1c75263b23389b2a98cb6f10d7cd76515612d8
+source-git-commit: cc2787176a862b4d020955edad5ed5246cfef862
 workflow-type: tm+mt
 source-wordcount: '13445'
 ht-degree: 0%
@@ -2073,7 +2073,7 @@ AI-assistenten  {#ai-assistant}
       * [Skapa posttyper](planning/architecture/create-record-types.md)
       * [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](planning/architecture/import-file-to-create-record-types.md)
       * [Konfigurera funktioner för olika arbetsytor för posttyper](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-      * [Lägga till posttyper för arbetsytor](planning/architecture/add-cross-workspace-record-types.md)
+      * [Lägg till befintliga posttyper](planning/architecture/add-cross-workspace-record-types.md)
       * [Översikt över posttyper för anslutning](planning/architecture/connect-record-types-overview.md)
       * [Koppla posttyper](planning/architecture/connect-record-types.md)
       * [Redigera posttyper](planning/architecture/edit-record-types.md)

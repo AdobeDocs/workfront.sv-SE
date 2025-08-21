@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Allmän information om arbetsytor finns i [Översikt över arbetsytor](/help/qui
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -92,7 +92,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Skapa en arbetsyta
 
@@ -154,5 +154,15 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
    Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Mer information om hur du redigerar och tar bort posttyper på en arbetsyta finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+1. (Valfritt) Klicka på bakåtpilen till vänster om den nya arbetsytan för att öppna huvudsidan Planering. Ett nytt arbetsytekort skapas för den nya arbetsytan på fliken **Arbetsytor som jag arbetar med**.
+
+   Namnet på den användare som skapade arbetsytan sparas på arbetsytans kort som ägare.
+
+   >[!NOTE]
+   >
+   >För användare som för närvarande går över till Adobe Identity Management System (IMS) visas arbetsytor som skapats av användare med endast Workfront som inte är IMS-användare som skapats av **System**.
+   >
+   >Mer information om IMS finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 
