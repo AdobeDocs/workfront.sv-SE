@@ -6,7 +6,8 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
+source-git-commit: 4b708e10e54a0a7ef9d305bbcfd8cf80a82d0376
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,6 +19,23 @@ ht-degree: 0%
 Den här sidan beskriver projektförbättringar som gjorts i den fjärde utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+<!--
+## Create project intake forms in Workfront
+
+>[!NOTE]
+>
+>* Preview: August 21, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.
+
+Previously, requests were entered into Workfront as issues, which had to be converted to projects.
+
+For information and instructions about project intake forms, see [Create project intake forms](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-project-intake-form.md).
+
+-->
 
 ## Nya uttryck har lagts till i beräknade anpassade fält i Workfront
 
@@ -48,4 +66,3 @@ En **avancerad**-knapp är nu tillgänglig för tilldelningar i listor, vilket g
 Den här ändringen gäller för både uppgifts- och utgivningstilldelningar.
 
 Mer information finns i [Skapa avancerade uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-

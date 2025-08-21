@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,17 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### Gränssnittsuppdateringar för aviseringssidan för granskning och godkännande i installationsprogrammet
 
@@ -110,6 +121,54 @@ Vi har uppdaterat sidan Uppdatera användare för enkel inloggning med en modern
 Om du vill visa ändringen går du till Inställningar > System > Uppdatera användare för enkel inloggning
 
 ## Projekt
+
+### Gränssnittsuppdateringar när objekt läggs till i program och portföljer
+
+**Förhandsversion: 22 maj 2025; Produktionsversion: 29 maj 2025**
+
+>[!NOTE]
+>
+>Den togs tillfälligt bort från både förhandsgranskning och produktion och lades till den 21 augusti 2025.
+
+
+Vi har uppdaterat gränssnittet för rutorna Lägg till när vi gör följande:
+
+* Lägga till projekt i program
+* Lägga till projekt i portföljer
+* Lägga till program i portföljer
+
+Mer information finns i följande artiklar:
+
+* [Lägg till ett befintligt program i en portfölj](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Lägga till projekt i en portfölj](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Lägg till ett projekt i ett program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+### Gränssnittsuppdateringar i rutan Nytt köämne för projekt och mallar
+
+**Förhandsversion: 21 augusti 2025; Produktionsversion: 28 augusti 2025**
+
+Vi har uppdaterat utseendet och känslan i rutan Nytt köämne när du lägger till ett nytt köämne i ett projekt eller en mall, så att det matchar designen i andra områden i Workfront.
+
+Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+### Gränssnittsuppdateringar när du redigerar ett köämne i ett projekt eller en mall
+
+**Förhandsversion: 21 augusti 2025; Produktionsversion: 28 augusti 2025**
+
+Vi har uppdaterat upplevelsen när vi redigerar ett köämne i projekt och mallar så att det matchar andra delar av Workfront.
+
+En liten förändring av funktionaliteten infördes med den här uppdateringen. När du klickar på ett köämne kommer du nu direkt till redigeringssidan för köämnet i stället för till en sida för informationen om köämne.
+
+Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### Gränssnittsuppdateringar för loggningstid för ett projekt, en uppgift eller ett problem i avsnittet Timmar
 
@@ -204,6 +263,14 @@ Vi har uppdaterat dialogrutan för att lägga till en ny utgift i ett projekt, s
 Mer information finns i [Hantera projektutgifter](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 ## Mallar
+
+### Gränssnittsuppdateringar för personlistan i en mall
+
+**Förhandsversion: 21 augusti 2025; Produktionsversion: 28 augusti 2025**
+
+Vi har uppdaterat utseendet på personlistan i en mall så att den matchar designen i andra delar av Workfront.
+
+Att arbeta med personer i en mall påminner om att arbeta med personer i ett projekt. Mer information finns i [Hantera projektteamet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 ### Gränssnittsuppdateringar för listan Föregående användare i en mall
 
@@ -542,26 +609,6 @@ Vi har uppdaterat utseendet på rutan Kopiera mall så att den matchar designen 
 
 Mer information finns i [Kopiera en projektmall](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
-### Hitta och känna av uppdateringar när du lägger till objekt i program och portfolior
-
-**Förhandsversion: 22 maj 2025; Produktionsversion: 29 maj 2025**
-
->[!NOTE]
->
->Tillfälligt borttagen från förhandsgranskning och produktion
-
-
-Vi har uppdaterat gränssnittet för rutorna Lägg till när vi gör följande:
-
-* Lägga till projekt i program
-* Lägga till projekt i portföljer
-* Lägga till program i portföljer
-
-Mer information finns i följande artiklar:
-
-* [Lägg till ett befintligt program i en portfölj](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Lägga till projekt i en portfölj](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Lägg till ett projekt i ett program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 +++
 

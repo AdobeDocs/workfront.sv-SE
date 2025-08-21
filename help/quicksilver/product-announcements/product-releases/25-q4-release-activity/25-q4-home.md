@@ -3,12 +3,11 @@ title: Förbättringar av startsidan för fjärde kvartalet 2025
 description: Förbättringar av startsidan för fjärde kvartalet 2025
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b1085fe3221650bc1ba7c7223c2c2160e11f757
+exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -23,8 +22,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->* Förhandsgranska: 24 juli 2025
->* Production fast release: 14 augusti 2025
+>* Förhandsgranska: 21 augusti 2025
+>* Production fast release: 11 september 2025
 >* Produktion för alla kunder: 16 oktober 2025
 
 För att skapa en smidigare upplevelse mellan Workfront och Workfront Planning har vi gjort om widgeten Mina förfrågningar i Home. Den nya widgeten innehåller följande ändringar:
@@ -33,4 +32,4 @@ För att skapa en smidigare upplevelse mellan Workfront och Workfront Planning h
 * Filtret är nu mer anpassningsbart. Nu kan du filtrera efter specifika fältvärden med hjälp av reglerna And och Or.
 * Du kan dölja eller ordna om kolumner i widgeten.
 
-<!--For more information on the new My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).-->
+Mer information om den nya widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
