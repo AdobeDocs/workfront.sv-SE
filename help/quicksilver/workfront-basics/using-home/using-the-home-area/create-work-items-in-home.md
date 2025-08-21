@@ -6,9 +6,9 @@ description: Du kan skapa arbetsobjekt och projekt från området [!UICONTROL Ho
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Från Hem kan du
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,6 +51,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
    <td> <p>[!UICONTROL Edit] behörighet eller högre för uppgifter</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,11 +134,11 @@ Du kan lägga till ett problem i ett befintligt projekt direkt från Hem-område
 Du kan skapa en begäran direkt från Hem-området:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
-1. (Villkorligt) Lägg till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
+1. (Villkorligt) Om du vill lägga till widgeten **Mina förfrågningar** på hemskärmen. Klicka på **Anpassa** och sök efter **Mina förfrågningar**.
 1. Gå till widgeten **Mina förfrågningar** och klicka sedan på **Nytt**.
-   ![Skapa ny begäran](assets/create-new-request.png)
+   ![Skapa ny begäran](assets/create-new-request-new.png)
 
-1. I dialogrutan **Ny begäran** börjar du skriva namnet på begärandekön.
+1. I dialogrutan **Ny begäran** börjar du skriva namnet på Workfront-begärandekön eller formuläret Workfront Planning-begäran i sökfältet och markerar det när det visas.
 1. Fyll i relevanta fält.
 1. Klicka på **Skicka**.
 

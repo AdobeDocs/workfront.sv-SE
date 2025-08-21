@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
-
 
 # Gå från äldre startsida till ny startsida
 
@@ -163,6 +163,8 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
 * **Mina förfrågningar**\
     Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningspanelen för en begäran.
 
+  <span class="preview">I förhandsvisningsmiljön visar den här widgeten alla begäranden som du har skickat, ett filter som endast visar begäranden som uppfyller de villkor som du anger och en knapp som gör att du kan ordna om kolumnerna i widgeten.</span>
+
 * **Teamförfrågningar**\
     Visar alla väntande begäranden för team som du är i sorterad efter team, samt knappar som du kan använda för att tilldela en användare en förfrågan direkt eller för att arbeta med den själv.
 
@@ -270,7 +272,7 @@ Om du gör detta så snart som möjligt får användarna tid att anpassa sig til
 
 **Utbildning**
 
-* [Ta bort, lägga till och ordna om widgetar i självstudiekursen Hem](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Ta bort, lägga till och ordna om widgetar i självstudiekursen Hem](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Grundläggande om arbetare i Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

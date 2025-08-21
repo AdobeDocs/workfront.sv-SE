@@ -6,14 +6,18 @@ description: Du kan välja bland ett antal widgetar för att anpassa innehållet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
 
 # Översikt över filter för hemwidget
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Du kan använda filter på följande widgetar för att söka efter och ordna arbeten:
 
@@ -242,6 +246,8 @@ Du kan använda följande filter i widgeten Mina problem:
 
 ## Mina förfrågningar
 
+I produktionsmiljön:
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -277,6 +283,16 @@ Du kan använda följande filter i widgeten Mina problem:
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+I förhandsvisningsmiljön:
+
+Widgeten Mina förfrågningar har ett anpassningsbart filter som gör att du kan styra vilka förfrågningar som visas i widgeten. Du kan konfigurera det här filtret för olika fält och värden, och du kan stapla villkor med AND och OR.
+
+Instruktioner om hur du konfigurerar filtret i widgeten Mina förfrågningar finns i [Filterförfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) i artikeln Använda widgeten Mina förfrågningar.
+
+</div>
 
 ## Mitt arbete
 

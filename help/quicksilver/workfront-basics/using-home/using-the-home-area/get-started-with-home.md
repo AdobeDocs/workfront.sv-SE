@@ -6,9 +6,9 @@ description: Home hjälper dig att hantera ditt arbete. Du kan anpassa det här 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Innehållet i den här artikeln har ersatts med innehåll från artikeln Kom igång med nytt hem. Nytt hem kallas nu Hem.
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
 Den nya Home-upplevelsen i Adobe Workfront syftar till att förbättra den aktuella Home-upplevelsen samtidigt som du får ett flexiblare sätt att fokusera på rätt arbete.
 
@@ -54,6 +56,9 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
 
 * **Mina förfrågningar**\
     Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningspanelen för en begäran.
+
+  <span class="preview">I förhandsvisningsmiljön visar den här widgeten alla begäranden som du har skickat, ett filter som endast visar begäranden som uppfyller de villkor som du anger och en knapp som gör att du kan ordna om kolumnerna i widgeten.</span>
+
 
 * **Teamförfrågningar**\
     Visar alla väntande begäranden för team som du är i sorterad efter team, samt knappar som du kan använda för att tilldela en användare en förfrågan direkt eller för att arbeta med den själv.

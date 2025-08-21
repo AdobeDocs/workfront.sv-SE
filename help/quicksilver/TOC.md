@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
+source-git-commit: 6ad5c482e8c1638612d46d4287bda27466acef3f
 workflow-type: tm+mt
-source-wordcount: '13431'
+source-wordcount: '13436'
 ht-degree: 0%
 
 ---
@@ -876,7 +876,8 @@ ht-degree: 0%
          * [Logga tid på ett arbetsobjekt från hemområdet](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Markera ett objekt som färdigt i hemområdet](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Använda området Mina uppdateringar](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * AI-assistenten {#ai-assistant}
+         * [Använd widgeten Mina förfrågningar](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+AI-assistenten  {#ai-assistant}
       * [AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [Översikt över AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Sammanfatta med hjälp av AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)

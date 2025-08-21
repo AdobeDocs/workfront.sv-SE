@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f112e1f2778f28ec23cdd56c6b6dae3ac46f3eec
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 2%
 
 ---
 
@@ -29,5 +29,6 @@ Läs de här artiklarna för att lära dig hur du använder hemområdet i Adobe 
 * [Uppdatera eller redigera ett arbetsobjekt i [!UICONTROL Home]-området](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Skapa arbetsobjekt och projekt från området [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [Skapa och hantera personliga uppgifter](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
+* [Använda widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 * [Logga tid för ett arbetsobjekt från [!UICONTROL Home]-området](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Markera ett objekt som [!UICONTROL Done] i området [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
