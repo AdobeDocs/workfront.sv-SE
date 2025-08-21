@@ -5,13 +5,13 @@ title: Använda widgeten Mina förfrågningar
 description: Du kan skicka begäranden i widgeten Mina förfrågningar. Du kan också anpassa widgeten med filter och kolumner.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
-
 
 # Använda widgeten Mina förfrågningar
 
@@ -19,11 +19,16 @@ ht-degree: 0%
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
+>[!IMPORTANT]
+>
+>Den här artikeln beskriver den nya widgeten Mina förfrågningar. Du måste ha den nya upplevelsen som begär aktiverad för att kunna se den nya widgeten.
+>>Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
+
 Widgeten Mina förfrågningar visar förfrågningar som har skickats till din organisation. Du kan filtrera förfrågningar, söka efter specifika förfrågningar eller justera kolumnordningen och synligheten. Du kan också skapa en ny begäran från widgeten Mina förfrågningar.
 
 >[!NOTE]
 >
->När widgeten Mina förfrågningar läses in visas upp till 50 förfrågningar. Om du vill visa fler begäranden rullar du nedåt i listan.
+>* När widgeten Mina förfrågningar läses in visas upp till 50 förfrågningar. Om du vill visa fler begäranden rullar du nedåt i listan.
 
 ## Åtkomstkrav
 
@@ -137,8 +142,3 @@ Så här söker du efter specifika förfrågningar i widgeten Mina förfrågning
    Förfrågningar som innehåller termen markeras med orange.
 
 1. (Valfritt) Om du vill gå till de markerade förfrågningarna klickar du på upp- eller nedpilarna i sökfältet.
-
-
-
-
-

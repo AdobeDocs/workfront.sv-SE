@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -31,5 +31,7 @@ För att skapa en smidigare upplevelse mellan Workfront och Workfront Planning h
 * Både Workfront- och Workfront Planning-begäranden visas i widgeten.
 * Filtret är nu mer anpassningsbart. Nu kan du filtrera efter specifika fältvärden med hjälp av reglerna And och Or.
 * Du kan dölja eller ordna om kolumner i widgeten.
+
+Du måste ha den nya upplevelsen som begär aktiverad för att kunna se den nya widgeten. Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
 
 Mer information om den nya widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
