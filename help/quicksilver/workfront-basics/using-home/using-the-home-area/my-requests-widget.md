@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Den här artikeln beskriver den nya widgeten Mina förfrågningar. Du måste ha den nya upplevelsen som begär aktiverad för att kunna se den nya widgeten.
->>Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
+>&#x200B;>Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
 
 Widgeten Mina förfrågningar visar förfrågningar som har skickats till din organisation. Du kan filtrera förfrågningar, söka efter specifika förfrågningar eller justera kolumnordningen och synligheten. Du kan också skapa en ny begäran från widgeten Mina förfrågningar.
 
