@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6ad5c482e8c1638612d46d4287bda27466acef3f
+source-git-commit: aa1c75263b23389b2a98cb6f10d7cd76515612d8
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13445'
 ht-degree: 0%
 
 ---
@@ -1948,6 +1948,11 @@ AI-assistenten  {#ai-assistant}
          * [Dokumentnamnet har ändrats efter överföringen och innehåller ett ogiltigt tecken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Korrektur för PowerPoint med inbäddad video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Det går inte att hämta eller förhandsgranska korrekturversioner när ett interaktivt korrektur läggs till som en ny version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+   * Inbyggda integreringar {#native-integrations}
+   * [Granska och godkänn integreringar: artikelindex](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+   * [Kom igång med korrektur och integrering med GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+   * [Kom igång med korrektur och Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+   * [Kom igång med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * Tips, tricks och felsökning för godkännanden {#ttt-approvals}
       * [Tips, tricks och felsökning för godkännanden: artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visa antalet korrektur- och dokumentbeslut för alla användare](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2147,9 +2152,6 @@ AI-assistenten  {#ai-assistant}
    * [Adobe Workfront inbyggda integreringsöversikt](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Integreringsmetoder i Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * Granska och godkänna integreringar {#review-approval-integrations}
-      * [Granska och godkänna integreringar: artikelindex](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
-      * [Kom igång med korrektur och integrering med GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-      * [Kom igång med korrektur och Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
    * Adobe Workfront för Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront för Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Installera Adobe Workfront-plugin-programmet för Creative Cloud-program {#install-wf-cc}
