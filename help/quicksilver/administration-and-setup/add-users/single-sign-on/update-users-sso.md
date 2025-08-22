@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
@@ -21,130 +21,132 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-När enkel inloggning (SSO) är aktiverad i din Adobe Workfront-instans kan dina användare logga in i Workfront med sina SSO-inloggningsuppgifter.
+<!--REMOVE ME MARCH 2026-->
 
-Om du har ett befintligt system som redan är ifyllt med användare som är kopplade till SSO-inloggningsuppgifter, kan du importera användarens ID:n till Workfront genom att importera en kommaseparerad värdefil (CSV) till Workfront.
+<!--When single sign-on (SSO) is enabled in your Adobe Workfront instance, your users can log into Workfront with their SSO credentials.
 
-Mer information om hur du integrerar Workfront med ett SSO-system finns i [Översikt över enkel inloggning i Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+If you have an existing system that is already populated with users associated with SSO credentials, you can import the users' IDs into Workfront by importing a comma-separated values (CSV) file into Workfront.
+
+For more information about integrating Workfront with an SSO system, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 
-## Åtkomstkrav
+## Access requirements
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expand to view access requirements for the functionality in this article.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p><p>eller</p><p>Aktuell: Planera</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p>  </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## SSO-användarnamn
+## SSO usernames
 
-Beroende på vilken SSO-lösning du använder kan användarnamnet i SSO-miljön kallas något av följande:
+Depending on what SSO solution you use, the username in your SSO environment can be called any of the following:
 
-* SSO-användarnamn
-* Federations-ID
-* Federationsanvändarnamn
+* SSO Username
+* Federation ID 
+* Federation Username
 
-Oavsett vad användarnamnet kallas i SSO-miljön lagras fältets värde i SSO-användarnamnsfältet i User-objektet.
+Regardless of what the username is called in your SSO environment, the value of the field is stored in the SSO Username field, on the User object.
 
-För att dina användare ska kunna använda sina inloggningsuppgifter för enkel inloggning för att logga in på Workfront måste du uppdatera deras profil så att även användarnamnet för enkel inloggning ingår, förutom Workfront användarnamn.
+In order for your users to be able to use their SSO credentials to log in to Workfront, you must update their profile to include their SSO Username, in addition to their Workfront username.
 
-Som Workfront-administratör kan du uppdatera SSO-användarnamnsfältet för dina Workfront-användare genom att importera en lista med användarnamn till Workfront. Denna lista måste
+As a Workfront administrator, you can bulk update the SSO Username field for your Workfront users by importing a list of usernames into Workfront. This list must:
 
-* Innehåller Workfront användar-ID (GUID) och motsvarande SSO-användarnamn för varje användare
-* Spara som en CSV- eller TSV-fil.
+* Contain the Workfront User ID (GUID) as well as the corresponding SSO Username for each user
+* Be saved as a CSV or a TSV file. 
 
-Den här processen uppdaterar antingen befintliga SSO-användarnamn i Workfront eller lägger till ett nytt SSO-användarnamn, om ett sådant saknas för användarna.
+This process either updates existing SSO Usernames in Workfront, or adds a new SSO Username, if one is missing for users.
 
-## Förbered importfilen {#prepare-the-import-file}
+## Prepare the import file {#prepare-the-import-file}
 
-Du kan börja förbereda din importfil genom att skapa en rapport över alla användare i Workfront som måste ha sina fält för SSO-användarnamn uppdaterade.
+You can start preparing your import file by building a report of all users in Workfront that must have their SSO Username fields updated.
 
-1. Skapa en användarrapport i Workfront.
+1. Build a user report in Workfront.
 
-   Instruktioner om hur du skapar användarrapporter i Workfront finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   For instructions on building user reports in Workfront, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 
 
-1. Välj följande fält i rapporten:
+1. Select the following fields in your report:
 
-   | Fält | Förklaring |
+   |Field|Explanation|
    |---|---|
-   | Namn | Workfront-användarens fullständiga namn. |
-   | ID | ID:t är Workfront alfanumeriska GUID. |
-   | SSO-användarnamn | Genom att lägga till SSO-användarnamnsfältet försäkrar du dig om att inga användarnamn skrivs över med importen. Det här fältet ska vara tomt för alla användare, om dina användare ännu inte har uppdaterats för enkel inloggning. |
+   | Name |The full name of the Workfront user. |
+   | ID |The ID is the Workfront alphanumeric GUID. |
+   | SSO Username |Adding the SSO Username field to ensures that are no usernames you are overwriting with your import. This field should be blank for all users, if your users have not yet been updated for SSO. |
 
-   ![Användare med SSO-användarnamn men ingen åtkomst](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Users with SSO username but no access](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
-1. Spara rapporten.
-1. Klicka på **Exportera** överst i rapporten och exportera rapporten till Excel.
-1. Öppna den exporterade Excel-filen och lägg till SSO-användarnamn för varje användare i rapporten i kolumnen SSO-användarnamn.
+1. Save the report. 
+1. Click **Export** at the top of the report and export the report to Excel. 
+1. Open the exported Excel file, and add your SSO Usernames for each user in the report in the SSO Username column.
 
    >[!IMPORTANT]
    >
-   >SSO-användarnamn är skiftlägeskänsliga.
+   >SSO usernames are case-sensitive.
 
-1. Ta bort alla kolumner i Excel-filen, förutom kolumnerna **ID** och **SSO-användarnamn** .
+1. Delete all columns in the Excel file, except  the **ID** and the **SSO Username** columns. 
 
-1. Ta bort kolumnrubrikerna och kontrollera att det inte finns några tomma rader överst i rapporten.
+1. Delete the column headers and ensure there are no blank rows at the top of the report.
 
-   Filen som du använder för att uppdatera dina Workfront-användare med SSO-användarnamnen **måste** bara innehålla två kolumner, i följande ordning:
+   The file you are using for updating your Workfront users with the SSO usernames **must** contain just 2 columns, in this order:
 
-   * I den första kolumnen måste användar-ID:t (användar-GUID:t som i Workfront) visas.
-   * Den andra kolumnen måste innehålla SSO-användarnamnet, som det visas i SSO-systemet.
-   * Kolumnerna får inte ha några rubriker och det får inte finnas några tomma rader överst i namnlistan.
+   * The first column must display the Workfront user ID (the user GUID as found in Workfront).
+   * The second column must contain the SSO Username, as it displays in your SSO system.
+   * The columns must have no headers, and there must not be any empty rows at the top of the list of names.
 
-     ![Uppdatera CSV-fil för användare](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Update users CSV](assets/update-users-for-sso-csv-file-for-import.png)
 
-1. Spara rapporten som en CSV- eller TSV-fil på datorn.
+1. Save the report as a CSV or TSV file on your computer.
 
-## Uppdatera dina användare för enkel inloggning {#update-your-users-for-sso}
+## Update your users for SSO {#update-your-users-for-sso}
 
-Processen att uppdatera användare för enkel inloggning lägger antingen till SSO-användarnamnsfältet till dina Workfront-användare om det inte finns någon, eller uppdaterar värdet i det fältet om det redan finns ett värde kopplat till användarna.
+The process of updating users for SSO either adds the SSO Username field to your Workfront users if one is not present, or updates the value in that field if there is a value already associated with the users.
 
 {{step-1-to-setup}}
 
-1. Klicka på **System** och välj sedan **Uppdatera användare för enkel inloggning**.
+1. Click **System**, then select **Update Users For SSO**.
 
-1. Klicka på **Välj Arkiv** för att bläddra efter filen som du förberedde.
+1. Click **Choose File** to browse for the file you prepared.
 
-   Mer information om hur du förbereder den här filen finns i [Förbered importfilen](#prepare-the-import-file).
+   For more information about how to prepare this file, see [Prepare the import file](#prepare-the-import-file).
 
-1. Markera den fil som filen sparas från på datorn och klicka sedan på **Öppna**.
+1. Select the file from where it is saved on your computer, then click **Open**.
 
-   Detta infogar SSO-inloggningsuppgifterna till Workfront, så att alla användare kan logga in på Workfront med sina SSO-inloggningsuppgifter.
+   This inserts the SSO credentials to Workfront, enabling all users to log in to Workfront using their SSO credentials.
 
-   Inställningen **Tillåt endast `<SSO Configuration>` autentisering** är aktiverad för alla användare som ingår i CSV-filen. Detta garanterar att användarna måste logga in via enkel inloggning.
+   The **Only Allow `<SSO Configuration>` Authentication** setting is enabled for all users included in the CSV. This ensures that users must log in through SSO.
 
-## Verifiera enkel inloggning mot dina användares Workfront-användarnamn
+## Verify SSO against your users' Workfront usernames
 
-Instruktioner om hur du skapar en användarrapport som innehåller SSO-användarnamn finns i [Förbered importfilen](#prepare-the-import-file).
+For instructions on building a user report containing SSO Username information, see [Prepare the import file](#prepare-the-import-file).
 
-1. Kör en användarrapport som innehåller information om SSO-användarnamn.
+1. Run a user report containing SSO Username information.
 
-   Observera att SSO-användarnamnskolumnen fylls i för varje användare.
+   Notice that the SSO Username column is populated for each user.
 
-1. Kontrollera att värdena för kolumnen SSO-användarnamn matchar SSO-användarnamnet på SSO-servern.
-1. Om kolumnen SSO-användarnamn är tom uppdaterar du användarnas SSO-användarnamn.
+1. Ensure that the values for the SSO Username column match the SSO Username on your SSO server.
+1. If the SSO Username column is blank, update your users' SSO Usernames.
 
-   ![Användare med SSO-fält](assets/users-with-sso-field-updated.png)
+   ![Users with SSO field](assets/users-with-sso-field-updated.png)
 
-   Instruktioner om hur du uppdaterar användare för enkel inloggning finns i [Uppdatera dina användare för enkel inloggning](#update-your-users-for-sso).
+   For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).-->

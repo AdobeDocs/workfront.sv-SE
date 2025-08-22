@@ -6,9 +6,9 @@ description: Du kan koppla ditt arbete till ditt innehåll i  [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,12 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
->Den här funktionen är bara tillgänglig för organisationer som har anslutit sig till [!DNL Adobe Admin Console].
+>This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
+-->
 
 Du kan koppla ditt arbete till ditt innehåll i [!DNL Experience Manager Assets] &#x200B;:
 
@@ -121,12 +123,12 @@ Innan du börjar mappa metadatafält måste du konfigurera metadatafält i både
 
 Konfigurera metadatafält:
 
-1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt beskrivningen i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront]  och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Konfigurera ett metadataschema i [!DNL Experience Manager Assets] enligt beskrivningen i [Konfigurera metadatamappning för resurser mellan Adobe [!DNL Workfront]  och [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Konfigurera anpassade formulärfält i Workfront. [!DNL Workfront] har många inbyggda anpassade fält som du kan använda. Du kan även skapa egna anpassade fält enligt beskrivningen i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-+++ **Expandera om du vill visa mer information om Workfront- och Experience Manager Assets-fält som stöds**
++++ **Expandera om du vill visa mer information om Workfront- och Experience Manager Assets-fält som stöds** 
 
 **Experience Manager Assets-taggar**
 
@@ -151,7 +153,7 @@ Du kan mappa ett fält som stöds av Workfront till en tagg i Experience Manager
 
 När du har skapat taggarna i Experience Manager Assets visas de i listrutan Taggar i avsnittet Metadata. Om du vill länka ett fält till en tagg väljer du `xcm:keywords` i listrutan Experience Manager Assets i metadatamappningsområdet.
 
-Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/sv/docs/experience-manager-64/administering/contentmanagement/tags).
+Mer information om taggar i Experience Manager Assets, inklusive hur du skapar och hanterar taggar, finns i [Administrera taggar](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Anpassade metadataschfält för Experience Manager Assets**
 

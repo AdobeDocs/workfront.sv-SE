@@ -8,16 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)
 
-Som Adobe Workfront-administratör kan ditt ansvar och dina rutiner skilja sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform eller inte. I den här artikeln listas de procedurer som hanteras på olika sätt och länkar till instruktioner för både Workfront och Adobe Admin Console.
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Alla Workfront-organisationer har nu anslutit sig till Adobe Admin Console.
+>
+>Den här artikeln kommer att tas bort inom den närmaste framtiden.
+
+Som Adobe Workfront-administratör kan ditt administrationsansvar och dina administrationsprocedurer skilja sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform. I den här artikeln listas de procedurer som hanteras på olika sätt och länkar till instruktioner för både Workfront och Adobe Admin Console.
 
 Om din organisation har anslutit sig till Adobe Business Platform använder dina användare Adobe Business Platform för att få tillgång till Adobe Workfront. Detta innebär att
 
@@ -54,7 +62,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
      </ul> </td> 
     <td> 
      <ul> 
-      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -65,7 +73,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -77,7 +85,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -89,7 +97,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
     <td> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -100,7 +108,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -111,7 +119,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/se/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
      </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
@@ -123,7 +131,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -134,7 +142,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -145,7 +153,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -161,7 +169,7 @@ Mer information om hur du skapar systemadministratörer för Workfront finns i [
 
 ## Förnya SAML-certifikatet
 
-Instruktioner om hur du förnyar SAML-certifikatet på Adobe Admin Console finns i avsnittet&quot;Den digitala signaturen i SAML-svaret validerades inte..&quot; i Federated ID [Felsökning](https://helpx.adobe.com/se/enterprise/kb/tshoot-fed-id.html).
+Instruktioner om hur du förnyar SAML-certifikatet på Adobe Admin Console finns i avsnittet&quot;Den digitala signaturen i SAML-svaret validerades inte ...&quot; i [Felsökning av Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
@@ -172,7 +180,7 @@ Instruktioner om hur du förnyar SAML-certifikatet på Adobe Admin Console finns
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/se/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
+     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

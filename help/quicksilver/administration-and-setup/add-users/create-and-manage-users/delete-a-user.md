@@ -8,137 +8,141 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
 # Ta bort användare
 
->[!IMPORTANT]
->
->Den procedur som beskrivs på den här sidan gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Om du har anslutit dig till Adobe Business Platform måste du ta bort användare i Adobe Admin Console.
->
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
-När en användare lämnar organisationen kan du ta bort den användaren från Adobe Workfront.
+<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >
->Om du tar bort en användare från systemet tas även information som är kopplad till användaren bort. Vi rekommenderar att du inaktiverar användare i stället för att ta bort dem. Mer information finns i [Inaktivera eller återaktivera en användare](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+>Den procedur som beskrivs på den här sidan har tagits bort eftersom den endast gäller för organisationer som ännu inte har anslutit sig till Adobe Admin Console.
+>
+>Alla Workfront-organisationer har nu anslutit sig till Adobe Admin Console.
+>
+>  Instruktioner om hur du tar bort en användare i Adobe Admin Console finns i avsnittet&quot;Ta bort användare permanent&quot; i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta Adobe Admin Console-administratören.
+
+<!--When a user leaves your organization, you can remove that user from Adobe Workfront.
+
+>[!IMPORTANT]
+>
+>Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).-->
 <!--
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
-## Åtkomstkrav
+<!--## Access requirements
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expand to view access requirements for the functionality in this article.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p><p>eller</p><p>Aktuell: Planera</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste ha något av följande:</p> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must have one of the following:</p> 
     <ul> 
-     <li> <p>Åtkomstnivån Systemadministratör. </li> 
-     <li> <p><b>Användare</b> i din åtkomstnivå har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två <b>användaradministratörsalternativen</b> som har aktiverats under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om <b>Användaradministratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
+     <li> <p>The System Administrator access level. </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ta bort kontra inaktivera en användare
+## Deleting vs. deactivating a user
 
-När du inaktiverar en användare händer följande:
+Deactivating a user causes the following things to happen:
 
-* Tar bort användarens licenser till både Workfront och Workfront Proof om Workfront Proof-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront Proof: artikelindex](../../../workfront-proof/workfront-proof.md).
-* Användaren kan inte längre tilldelas arbete.
-* Användaren kan inte längre läggas till i uppdateringar.
-* Användaren kan inte längre läggas till i team eller grupper.
-* Objekt kan inte längre delas med användaren.
-* Deras koppling till följande objekt förblir intakt:
+* Removes the user's licenses to both Workfront and Workfront Proof if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
+* The user can no longer be assigned work.
+* The user can no longer be added to updates.
+* The user can no longer be added to teams or groups.
+* Objects can no longer be shared with the user.
+* Their association with the following objects remains intact:
 
-   * Uppgifter, ärenden, projekt, portfolior
-   * Kontrollpaneler
-
-     >[!NOTE]
-     >
-     >Om du inaktiverar en användare och inte längre kan visa rapporter eller instrumentpaneler som är kopplade till en användare, kan du behöva uppdatera **Kör den här rapporten med åtkomstbehörigheten**.\
-     >Mer information finns i [Varför kan jag inte komma åt en rapport som ägs av en inaktiverad användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) i artikeln [Rapporterar vanliga frågor och svar](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
-
-   * Dokument
-   * Uppdateringar
-   * Timmar
-
-* Om användaren har checkat ut dokument förblir dokumenten utcheckade när du inaktiverar dem. Endast en Workfront-administratör kan checka in dem igen. Mer information om utcheckning av dokument finns i [Checka ut dokument](../../../documents/managing-documents/check-out-documents.md).
-
-Om du tar bort en användare händer följande:
-
-* Tar bort användarens licenser till både Workfront och Workfront Proof, om Workfront Proof-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront Proof: artikelindex](../../../workfront-proof/workfront-proof.md).
-* Användaren kan inte längre tilldelas arbete.
-* Användaren kan inte längre läggas till i uppdateringar.
-* Användaren kan inte längre läggas till i team eller grupper.
-* Objekt kan inte längre delas med användaren.
-* Tar bort associationen mellan användaren och följande objekt:
-
-   * Uppgifter, ärenden, projekt, portfölj
-   * Kontrollpaneler
+   * Tasks, issues, projects, portfolios
+   * Dashboards
 
      >[!NOTE]
      >
-     >Du förlorar även åtkomsten till anpassade avsnitt som innehöll kontrollpaneler som är kopplade till den borttagna användaren.\
-     >Mer information finns i [Hur kommer jag åt en instrumentpanel som innehåller en rapport som ägs av en borttagen användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) i artikeln [Rapporterar vanliga frågor och svar](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+     >If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the **Run this report with the Access Rights of:** field.  
+     >To learn more, see the [Why can't I access a report owned by a deactivated user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-   * Uppdateringar
-   * Timmar
+   * Documents
+   * Updates
+   * Hours
+
+* If the user has checked-out documents, the documents remain checked out when you deactivate them. Only a Workfront administrator can check them back in. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
+
+Deleting a user causes the following things to happen:
+
+* Removes the user's licenses to both Workfront and Workfront Proof, if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
+* The user can no longer be assigned work.
+* The user can no longer be added to updates.
+* The user can no longer be added to teams or groups.
+* Objects can no longer be shared with the user.
+* Deletes the association of that user with the following objects:
+
+   * Tasks, issues, projects, portfolio
+   * Dashboards
 
      >[!NOTE]
      >
-     >Objekten finns kvar i Workfront men objektets ägare är nu tom.
+     >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-* Om användaren har överfört dokument under dokumentområdet i det globala navigeringsfältet, tas även dokumenten bort.
-* Om användaren har checkat ut dokument som han/hon äger och dokumenten har överförts till huvuddokumentområdet (som nås från huvudmenyn), tas dokumenten bort med användaren. Mer information om utcheckning av dokument finns i [Checka ut dokument](../../../documents/managing-documents/check-out-documents.md).
+   * Updates
+   * Hours
 
-Mer information om hur du inaktiverar användare finns i [Inaktivera eller återaktivera en användare](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+     >[!NOTE]
+     >
+     >These objects remain in Workfront but the owner of the object is now blank.
 
-Du kan ta bort användare en åt gången permanent eller ta bort flera användare permanent samtidigt. När du tar bort enskilda användare måste du vänta tills borttagningsprocessen har slutförts innan du går vidare till andra aktiviteter i Workfront. Processen att ta bort flera användare samtidigt körs som en bakgrundsprocess, så du kan fortsätta använda Workfront när användarna tas bort.
+* If the user uploaded any documents under the Documents area in the Global Navigation Bar, the documents are also deleted.
+* If the user has checked out documents that they own and the documents are uploaded in the main Documents area (accessed from the Main Menu), the documents are deleted with the user. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
-## Ta bort en eller flera användare
+For more information about deactivating users, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+
+You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to moving on to other activities in Workfront. The process of deleting multiple users simultaneously runs as a background process, so you can continue using Workfront as the users are deleted.
+
+## Delete one or more users
 
 {{step-1-to-users}}
 
-1. Markera minst en användare som du vill ta bort, klicka på Mer-menyn ![Mer-ikon](assets/more-icon.png) och klicka sedan på **Ta bort**.
-1. I rutan som visas klickar du på **Ta bort** för att bekräfta borttagningen.
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
-   Processen att ta bort användare körs som en bakgrundsprocess, så du kan fortsätta använda Workfront när användaren eller användarna tas bort.
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
-   Beroende på hur många användare du tar bort kan det ta flera minuter eller t.o.m. några timmar.
+   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   När du har fått en bekräftelse i Workfront om att användarna har tagits bort, kan du fortsätta att se dem i systemet tills borttagningen är klar i bakgrunden.
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   Om du upptäcker att en eller flera användare inte kunde tas bort vid ett senare tillfälle kan du försöka ta bort dem en åt gången.
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.-->

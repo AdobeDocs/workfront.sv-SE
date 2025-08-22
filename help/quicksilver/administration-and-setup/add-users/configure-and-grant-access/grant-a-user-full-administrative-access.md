@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -16,338 +16,88 @@ ht-degree: 0%
 
 <!--Audited: 12/2024-->
 
+<!--DELETE ME MARCH 2026-->
+
 >[!IMPORTANT]
 >
->Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
+>Den procedur som beskrivs på den här sidan har tagits bort eftersom den endast gäller för organisationer som ännu inte har anslutit sig till Adobe Admin Console.
+>
+>Alla Workfront-organisationer har nu anslutit sig till Adobe Admin Console.
 >
 >Instruktioner om hur du ger fullständig administratörsåtkomst i Adobe Admin Console finns i [Hantera användare i Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
->
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Som Adobe Workfront-administratör kan du skapa en annan Workfront-administratör genom att tilldela dem åtkomstnivån Systemadministratör. En användare med den här åtkomstnivån har fullständig administrativ åtkomst till allt i Workfront, inklusive objekt som de inte skapat själva.
+<!--As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
 >[!NOTE]
 >
->Detta skiljer sig från att använda en åtkomstnivå för att ge användarna administrativ åtkomst till vissa delar av systemet. Mer information finns i följande:
+>This is different from using an access level to grant users administrative access to certain areas of the system. For more information, see the following:
 >
->* [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Åtkomst för en Workfront-administratör jämfört med åtkomst för en avtalsanvändare med administratörsbehörighet](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) i den här artikeln
+>* [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
+>* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
 >
 
-## Åtkomstkrav
+## Access requirements
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expand to view access requirements for the functionality in this article.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard</p>
-   <p>Aktuell: Planera</p></td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör. </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator. </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 +++
 
-## Ge fullständig systemadministratörsåtkomst till en enskild användare
+## Grant full System Administrator access to a single user
 
-{{step-1-to-users}}
+{{step-1-to-users}} 
 
-1. Klicka på namnet på den användare som du vill ge administratörsbehörighet till.
-1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om användarnamnet och klicka sedan på **Redigera**.
+1. Click the name of the user to whom you want to grant administrator rights.
+1. Click the **More** menu ![](assets/more-icon.png) to the right of the user name, then click **Edit**.  
 
-   Rutan **Redigera person** visas.
-1. Klicka på **Åtkomst** i den vänstra panelen.
-1. Välj åtkomstnivån **Systemadministratör** i listrutan **Åtkomstnivå**.
+   The **Edit Person** box displays. 
+1. Click **Access** in the left panel.
+1. In the **Access level** drop-down list, select the **System Administrator** access level.
 
-   Beroende på ändringar som gjorts i systemet kan namnet på den här åtkomstnivån ha ändrats.
+   Depending on changes made in your system, the name of this access level might have changed.
 
-1. Klicka på **Spara ändringar.**
+1. Click **Save Changes.**
 
-   Användaren har nu fullständig behörighet som systemadministratör i systemet.
+   The user now has full System Administrator rights in the system.
 
-## Åtkomst för en Workfront-administratör jämfört med åtkomst för en Plan-användare med administratörsbehörighet  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Access of a Workfront administrator vs. access of a Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-De två tabellerna nedan visar skillnaden mellan en användares åtkomstbehörighet med Workfront-systemadministratörsbehörighet och en användares åtkomstnivå med en avtalslicens med vissa administrativa rättigheter.
+The two tables below show the difference between the access rights of a user with a Workfront System Administrator access level versus those of a user with a Plan license with some administrative rights.
 
-Workfront-administratörer kan visa alla objekt i systemet (oavsett vem som skapade dem), skapa nya och ändra eller ta bort befintliga. De har fullständig åtkomst till alla objekt i systemet.
+Workfront administrators can view all the objects in the system (regardless of who created them), create new ones, and modify or delete existing ones. They have full access to all objects in the system.
 
-Användare med en planlicens som kan redigera funktionalitet i ett område har full tillgång till funktionaliteten i det området.
+Users with a Plan license who can edit functionality in one area have full access to the functionality in that area.
 
 >[!NOTE]
 >
->Användare med en planlicens som är utsedd till gruppadministratörer kan utföra några av de åtgärder som är tillåtna för Workfront-administratörer. De får endast utföra dessa åtgärder för de grupper de administrerar, deras undergrupper och användarna i dessa grupper och undergrupper. Mer information finns i [Gruppadministratörer](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Users with a Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
-* [Åtkomst till inställningsområdet](#access-to-the-setup-area)
-* [Åtkomst till objekt](#access-to-objects)
+* [Access to the Setup area](#access-to-the-setup-area)
+* [Access to objects](#access-to-objects)
 
-### Åtkomst till inställningsområdet {#access-to-the-setup-area}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Område/objekt</th> 
-   <th>Workfront-administratör </th> 
-   <th>Användare med en planlicens och vissa administrativa rättigheter</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Projektinställningar: Projekt</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Projektinställningar: Aktiviteter och problem</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Projektinställningar: Status</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Projektinställningar: Prioriteringar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Projektinställningar: Allvarlighetsgrader</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Projektinställningar: växelkurser</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Fullständig åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Processer: Godkännanden</td> 
-   <td> <p>Fullständig åtkomst</p> </td> 
-   <td>Fullständig åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Processer: Milstolpebanor</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Fullständig åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Anpassad Forms</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Hantera egna formulär som de skapat eller anpassade formulär som de delar med sig.</p> <p>Bifoga anpassade formulär som de skapat eller anpassade formulär som de delat med sig till objekt som de har behörighet att hantera eller bidra till.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Papperskorgen: Nyligen borttaget</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Användare som är gruppadministratörer kan återställa projekt som tilldelats grupper som de hanterar samt uppgifter, ärenden och dokument som är kopplade till dessa projekt.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Papperskorgen: Nyligen återställt</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Användare som är gruppadministratörer kan se de objekt som de nyligen har återställt.</td> 
-  </tr> 
-  <tr> 
-   <td>Jobbroller</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ändra men inte ta bort befintliga jobbroller.</p> <p>Lägg till nya jobbroller.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Team</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att skapa team.</p> <p>Lägg till befintliga team till användare när du skapar eller redigerar användare.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Grupper</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att skapa grupper.</p> <p>Endast gruppadministratörer kan hantera gruppmedlemskap, undergrupper och gruppnivåstatus för de grupper som de hanterar. </p> </td> 
-  </tr> 
-  <tr> 
-   <td>Företag</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Fullständig åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Logga in som</td> 
-   <td>Fullständig åtkomst </td> 
-   <td> <p>Om gruppadministratörsåtkomsten är aktiverad på åtkomstnivån och de har utsetts till gruppadministratör kan de logga in som användare i gruppen de administrerar och deras undergrupper. De kan inte logga in som systemadministratör.<br>Mer information om hur du aktiverar gruppadministrativ åtkomst för användare finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Scheman</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att redigera scheman.</p> <p>Tillgång att lägga till befintliga scheman för andra användare på användarnivå. </p> </td> 
-  </tr> 
-  <tr> 
-   <td>Tidrapport och timmar: Tidrapportprofiler</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Tillgång till att tilldela befintliga tidrapportprofiler till användare på användarnivå.</p> <p>Användare som är gruppadministratörer kan skapa tidrapportprofiler för de grupper de administrerar och deras undergrupper. </p> </td> 
-  </tr> 
-  <tr> 
-   <td>Tidrapport och timmar: timtyper</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Tillgång till att tilldela timtyper till användare på användarnivå.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Tidrapport och timmar: Inställningar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>E-post: Meddelanden: Händelsemeddelanden</td> 
-   <td>Aktivera/inaktivera alla</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>E-post: Meddelanden: Påminnelsemeddelanden</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Fullständig åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>E-post: Meddelanden: E-postmallar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att redigera e-postmallar.</p> <p>Åtkomst att lägga till befintliga e-postmallar i påminnelsemeddelanden.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>E-post: Automatiska påminnelser</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>E-post: Inbjudningar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att redigera e-postinbjudningar.</p> <p>Åtkomst att skicka om e-postinbjudningar till oregistrerade användare endast från fliken Personer.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>E-post: Inställningar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Styrkort</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Fullständig åtkomst</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Utgiftstyper</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Risktyper</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Åtkomstnivåer</td> 
-   <td> <p>Fullständig åtkomst för att ändra alla åtkomstnivåer.</p> <p>Åtkomstnivåerna för systemadministratörer och externa användare kan inte ändras som standard.</p> </td> 
-   <td> <p>Ingen åtkomst att redigera åtkomstnivåer.</p> <p>Tilldela andra användare en åtkomstnivå som är lägre eller lika med deras på användarnivå.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Gränssnitt: Layoutmallar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Tillgång till att tilldela befintliga layoutmallar till andra användare på användarnivå. </p> <p>Användare som är utsedda som gruppadministratörer kan skapa layoutmallar för grupper och undergrupper som de hanterar.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Gränssnitt: Uppdatera feeds</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att ändra uppdateringsfeeds.</p> <p>Tillgång till att lägga till fält som ska spåras i Uppdatera feeds när du redigerar anpassad Forms.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Gränssnitt: Filter</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att skapa filter i området Inställningar.</p> <p>Åtkomst för att skapa nya filter i en lista med objekt.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Gränssnitt: Vyer</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Det finns ingen åtkomst att skapa vyer under Konfigurera.</p> <p>Åtkomst för att skapa nya vyer i en lista med objekt.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Gränssnitt: Grupperingar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att skapa grupperingar i området Inställningar.</p> <p>Åtkomst för att skapa nya grupperingar i en lista med objekt.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Gränssnitt: Listkontroller</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Dokument: Molnleverantörer</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst att konfigurera molnleverantörer.</p> <p>Åtkomst till att länka dokument till och från molnleverantörer från fliken Dokument när molnprovidern har integrerats med Workfront.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Dokument: Metadatamappning</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>Dokument: SharePoint Integration</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst för att konfigurera en SharePoint-integrering.</p> <p>Åtkomst till att länka dokument till och från SharePoint från fliken Dokument när SharePoint-integreringen med Workfront har konfigurerats.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Dokument: Anpassad integrering</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Ingen åtkomst för att konfigurera en anpassad integrering.</p> <p>Åtkomst till att länka dokument till och från tredjepartsleverantörer på fliken Dokument när tredjepartsleverantörerna har integrerats med Workfront.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>System: Varumärkning</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>System: Kundinformation</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>System: enkel inloggning (SSO)</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>System: Uppdatera användare för enkel inloggning</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>System: Quick-Starts</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>System: Diagnostik</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
-  <tr> 
-   <td>System: Inställningar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Ingen åtkomst</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Åtkomst till objekt {#access-to-objects}
+### Access to the Setup area {#access-to-the-setup-area}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -355,71 +105,324 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
  <col> 
  <thead> 
   <tr> 
-   <th>Område/objekt</th> 
-   <th>Workfront-administratör </th> 
-   <th>Användare med en planlicens och vissa administrativa rättigheter</th> 
+   <th>Area/object</th> 
+   <th>Workfront administrator </th> 
+   <th>User with a Plan license and some administrative rights</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Kalendrar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera kalendrar som de skapar och kalendrar som delas med dem.</td> 
+   <td>Project Preferences: Projects</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
   </tr> 
   <tr> 
-   <td>Kontrollpaneler</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera paneler som de skapar och instrumentpaneler som delas med dem.</td> 
+   <td>Project Preferences: Tasks &amp; Issues</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
   </tr> 
   <tr> 
-   <td>Dokument</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera dokument som de överför eller dokument som de delar med sig.</td> 
+   <td>Project Preferences: Statuses</td> 
+   <td>Full access</td> 
+   <td> <p>No access</p> </td> 
   </tr> 
   <tr> 
-   <td>Problem</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera problem som de skapar eller problem som delas med dem.</td> 
+   <td>Project Preferences: Priorities</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
   </tr> 
   <tr> 
-   <td>Portfolio</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera portfolior som de skapar eller portfolior som delas med dem. </td> 
+   <td>Project Preferences: Severities</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
   </tr> 
   <tr> 
-   <td>Program</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera program de skapar eller program som delas med dem.</td> 
+   <td>Project Preferences: Exchange Rates</td> 
+   <td>Full access</td> 
+   <td>Full access</td> 
   </tr> 
   <tr> 
-   <td>Projekt</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera projekt som de skapar eller projekt som delas med dem.</td> 
+   <td>Processes: Approvals</td> 
+   <td> <p>Full access</p> </td> 
+   <td>Full access</td> 
   </tr> 
   <tr> 
-   <td>Rapporter</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera rapporter som de skapar eller rapporter som delas med dem. Visa, kopiera och redigera systemrapporter.</td> 
+   <td>Processes: Milestone Paths</td> 
+   <td>Full access</td> 
+   <td>Full access</td> 
   </tr> 
   <tr> 
-   <td>Uppgifter</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera uppgifter de skapar eller uppgifter som delas med</td> 
+   <td>Custom Forms</td> 
+   <td>Full access</td> 
+   <td> <p>Manage custom forms they created or custom forms shared with them.</p> <p>Attach custom forms they created or custom forms shared with them to objects they have manage or contribute permissions to.</p> </td> 
   </tr> 
   <tr> 
-   <td>Mallar</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Hantera mallar som de skapar eller mallar som delas med dem</td> 
+   <td>Recycle Bin: Recently Deleted</td> 
+   <td>Full access</td> 
+   <td> <p>Users who are group administrators can restore projects assigned to Groups they manage, and tasks, issues, or documents associated with those projects.</p> </td> 
   </tr> 
   <tr> 
-   <td>Tidrapporter</td> 
-   <td>Fullständig åtkomst</td> 
-   <td>Fullständig åtkomst</td> 
+   <td>Recycle Bin: Recently Restored</td> 
+   <td>Full access</td> 
+   <td>Users who are group administrators can see the items they have recently restored.</td> 
   </tr> 
   <tr> 
-   <td>Användare</td> 
-   <td>Fullständig åtkomst</td> 
-   <td> <p>Begränsad åtkomst</p> <p>De kan inte tilldela grupper till användare som de inte är gruppadministratörer för eller grupper som inte är offentliga.</p> <p>De kan inte tilldela användare en åtkomstnivå som är högre än deras egen åtkomstnivå.</p> <p>Om gruppadministratörsåtkomsten är aktiverad på åtkomstnivån och de har utsetts till gruppadministratör för en grupp, kan de återställa lösenordet och logga in som användare i gruppen de administrerar och deras undergrupper. De kan inte återställa lösenordet eller logga in som systemadministratör.<br>Mer information om hur du aktiverar gruppadministrativ åtkomst för användare finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </td> 
+   <td>Job Roles</td> 
+   <td>Full access</td> 
+   <td> <p>Modify but not delete existing job roles.</p> <p>Add new job roles.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Teams</td> 
+   <td>Full access</td> 
+   <td> <p>No access to create Teams.</p> <p>Add existing teams to users when creating or editing users.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Groups</td> 
+   <td>Full access</td> 
+   <td> <p>No access to create Groups.</p> <p>Only group administrators can manage group membership, subgroups, and group-level statuses for the groups they manage. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Companies</td> 
+   <td>Full access</td> 
+   <td>Full access</td> 
+  </tr> 
+  <tr> 
+   <td>Log in As</td> 
+   <td>Full access </td> 
+   <td> <p>If their group administrative access is enabled on their access level and they are designated as a group administrator, they can log in as the users in the group they administer and their subgroups. They cannot log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Schedules</td> 
+   <td>Full access</td> 
+   <td> <p>No access to edit Schedules.</p> <p>Access to add existing schedules to other users, at the user level. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Timesheet &amp; Hours: Timesheet Profiles</td> 
+   <td>Full access</td> 
+   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are group administrators can create Timesheet Profiles for the groups they administer and their subgroups. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Timesheet &amp; Hours: Hour Types</td> 
+   <td>Full access</td> 
+   <td> <p>Access to assign Hour Types to users, at the user level.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Timesheet &amp; Hours: Preferences</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>Email: Notifications: Event Notifications</td> 
+   <td>Activate/ Deactivate all</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>Email: Notifications: Reminder Notifications</td> 
+   <td>Full access</td> 
+   <td>Full access</td> 
+  </tr> 
+  <tr> 
+   <td>Email: Notifications: Email Templates</td> 
+   <td>Full access</td> 
+   <td> <p>No access to edit Email Templates.</p> <p>Access to add existing Email Templates to Reminder Notifications.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Email: Automatic Reminders</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>Email: Invitations</td> 
+   <td>Full access</td> 
+   <td> <p>No access to edit Email Invitations.</p> <p>Access to resend email invitations to unregistered users only from the People tab.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Email: Setup</td> 
+   <td>Full access</td> 
+   <td> <p>No access</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Scorecards</td> 
+   <td>Full access</td> 
+   <td> <p>Full access</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Expense Types</td> 
+   <td>Full access</td> 
+   <td> <p>No access</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Risk Types</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>Access Levels</td> 
+   <td> <p>Full access to modify all access levels.</p> <p>The System Administrator and External User access levels cannot be modified, by default.</p> </td> 
+   <td> <p>No access to edit Access Levels.</p> <p>Assign an access level to other users which is lower or equal to theirs at the user level.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Interface: Layout Templates</td> 
+   <td>Full access</td> 
+   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as group administrators can create Layout Templates for groups and subgroups they manage.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Interface: Update Feeds</td> 
+   <td>Full access</td> 
+   <td> <p>No access to modify Update Feeds.</p> <p>Access to add fields to be tracked in the Update Feeds when editing Custom Forms.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Interface: Filters</td> 
+   <td>Full access</td> 
+   <td> <p>No access to create Filters in the Setup area.</p> <p>Access to create new filters in a list of objects.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Interface: Views</td> 
+   <td>Full access</td> 
+   <td> <p>No access to create Views in the Setup area.</p> <p>Access to create new views in a list of objects.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Interface: Groupings</td> 
+   <td>Full access</td> 
+   <td> <p>No access to create Groupings in the Setup area.</p> <p>Access to create new groupings in a list of objects.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Interface: List Controls</td> 
+   <td>Full access</td> 
+   <td> <p>No access</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Documents: Cloud Providers</td> 
+   <td>Full access</td> 
+   <td> <p>No access to configure Cloud Providers.</p> <p>Access to link documents to and from Cloud Providers from the Documents tab, after the Cloud Providers have been integrated with Workfront.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Documents: Metadata Mapping</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>Documents: SharePoint Integration</td> 
+   <td>Full access</td> 
+   <td> <p>No access to configure a SharePoint integration.</p> <p>Access to link documents to and from SharePoint from the Documents tab, after the SharePoint integration with Workfront has been configured.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Documents: Custom Integration</td> 
+   <td>Full access</td> 
+   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with Workfront.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>System: Branding</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>System: Customer Info</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>System: Single Sign-On (SSO)</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>System: Update Users for SSO</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>System: Kick-Starts</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>System: Diagnostics</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
+  </tr> 
+  <tr> 
+   <td>System: Preferences</td> 
+   <td>Full access</td> 
+   <td>No access</td> 
   </tr> 
  </tbody> 
 </table>
+
+### Access to objects {#access-to-objects}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Area/object</th> 
+   <th>Workfront administrator </th> 
+   <th>User with a Plan license and some administrative rights</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Calendars</td> 
+   <td>Full access</td> 
+   <td>Manage calendars they create and calendars shared with them.</td> 
+  </tr> 
+  <tr> 
+   <td>Dashboards</td> 
+   <td>Full access</td> 
+   <td>Manage dashboards they create and dashboards shared with them.</td> 
+  </tr> 
+  <tr> 
+   <td>Documents</td> 
+   <td>Full access</td> 
+   <td>Manage documents they upload or documents shared with them.</td> 
+  </tr> 
+  <tr> 
+   <td>Issues</td> 
+   <td>Full access</td> 
+   <td>Manage issues they create or issues shared with them.</td> 
+  </tr> 
+  <tr> 
+   <td>Portfolios</td> 
+   <td>Full access</td> 
+   <td>Manage portfolios they create or portfolios shared with them. </td> 
+  </tr> 
+  <tr> 
+   <td>Programs</td> 
+   <td>Full access</td> 
+   <td>Manage programs they create or programs shared with them.</td> 
+  </tr> 
+  <tr> 
+   <td>Project</td> 
+   <td>Full access</td> 
+   <td>Manage projects they create or projects shared with them.</td> 
+  </tr> 
+  <tr> 
+   <td>Reports</td> 
+   <td>Full access</td> 
+   <td>Manage reports they create or reports shared with them. View, copy and edit system reports.</td> 
+  </tr> 
+  <tr> 
+   <td>Tasks</td> 
+   <td>Full access</td> 
+   <td>Manage tasks they create or tasks shared with the</td> 
+  </tr> 
+  <tr> 
+   <td>Templates</td> 
+   <td>Full access</td> 
+   <td>Manage templates they create or templates shared with them</td> 
+  </tr> 
+  <tr> 
+   <td>Timesheets</td> 
+   <td>Full access</td> 
+   <td>Full access</td> 
+  </tr> 
+  <tr> 
+   <td>Users</td> 
+   <td>Full access</td> 
+   <td> <p>Limited access</p> <p>They cannot assign groups to users for which they are not a group administrator or groups that are not public.</p> <p>They cannot assign an access level to users which is higher then their own access level.</p> <p>If their group administrative access is enabled on their access level and they are designated as a group administrator on a group, they can reset the password of and log in as the users in the group they administer and their subgroups. They cannot reset the password of or log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->

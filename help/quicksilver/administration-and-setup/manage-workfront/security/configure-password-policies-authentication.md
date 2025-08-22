@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
@@ -19,105 +19,108 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Som Adobe Workfront-administratör kan du konfigurera lösenordsprinciper för att anpassa autentiseringsupplevelsen till ditt Workfront-system.
+<!--REMOVE ME MARCH 2026-->
 
-Vi rekommenderar att du konfigurerar autentiseringsinställningarna under Workfront-implementeringen och endast tillfälligt kan gå tillbaka till dem efteråt.
+<!--As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
 
-Förbättrade funktioner för lösenordshantering kommer snart eller finns redan tillgängliga för din organisation. Använd något av följande avsnitt, beroende på om din organisation har tillgång till den nya autentiseringsupplevelsen.
+We recommend that you configure authentication preferences during the Workfront implementation and only occasionally revisit them afterward.
 
-## Åtkomstkrav
+Improved password management capabilities are coming soon or might already be available for your organization. Use either of the following sections, depending on whether your organization has access to the new authentication experience.
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+## Access requirements
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Konfigurera autentisering (tillgänglig för alla kunder) {#configure-authentication-available-for-all-customers}
+## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
 
-Autentiseringsalternativ visas för alla kunder. Förbättrade funktioner för lösenordshantering kommer snart eller är kanske redan tillgängliga för din organisation, vilket beskrivs i avsnittet [Konfigurera förbättrad autentisering)](#configure-enhanced-authentication-coming-soon) i den här artikeln.
+Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication)](#configure-enhanced-authentication-coming-soon) in this article.
 
-Så här konfigurerar du autentiseringsinställningar:
+To configure authentication preferences:
 
 {{step-1-to-setup}}
 
-1. Klicka på **System** > **Autentisering**.
+1. Click **System** > **Authentication**.
 
-1. Välj något av följande fält för att ange autentiseringsinställningar för din organisation:
+1. Select any of the following fields to establish the authentication settings for your organization:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Tvinga användare att återställa sitt lösenord var <em>&lt;värde&gt;</em> dag</td> 
-      <td>Detta anger tidsramen för när användare ska återställa sitt Workfront-lösenord. Som standard är det här alternativet inaktiverat. När du aktiverar den kan du välja mellan 30, 60, 90, 120 och 180 dagar. Standardvärdet är 30 dagar.</td> 
+      <td role="rowheader">Force users to reset their password every <em>&lt;value&gt;</em> days</td> 
+      <td>This establishes the time frame for users to reset their Workfront password. By default, this option is disabled. When you enable it, you can choose between 30, 60, 90, 120, 180 days. The default is 30 days.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tillåt inte användare att ange samma lösenord som något av deras tidigare <em>&lt;värde&gt;</em>-lösenord</td> 
-      <td> <p>Det här fältet förhindrar att användare återanvänder lösenord för ett visst antal återställningar. Som standard är det här fältet inaktiverat. När du aktiverar det kan du ange värdet 5, 10 eller 15 för att återställa ett lösenord innan det kan återanvändas.</p> <p>När det här alternativet är markerat kan användare inte återställa sina lösenord mer än en gång på en given dag</p> </td> 
+      <td role="rowheader">Don't allow users to set the same password as any of their previous <em>&lt;value&gt;</em> passwords</td> 
+      <td> <p>This field prohibits users from reusing passwords for a set number of resets. By default, this field is disabled. When you enable it, you can set this value to 5, 10, or 15 resets before a password can be reused.</p> <p>When this option is selected, users cannot reset their passwords more than one time in a given day</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Om ett felaktigt lösenord anges fem gånger i följd låser du kontot i <em>&lt;värde&gt;</em> minuter: </td> 
-      <td> <p>Ange hur länge en användare ska låsas ut från Workfront efter att ett felaktigt lösenord har angetts fem gånger i rad. Som standard är det här alternativet aktiverat och väntetiden är 10 minuter. Du kan låsa konton i 10 minuter, 30 minuter, 1 timme, 8 timmar eller 24 timmar. </p> <p>Om du återställer lösenordet för användaren manuellt åsidosätts det här standardväntevärdet. <br>Användare kan återställa sina egna lösenord när de är utlåsta via inloggningsskärmen. Mer information om hur de kan återställa sitt lösenord, om de har glömt det, finns i <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Återställ ditt lösenord</a>.</p> </td> 
+      <td role="rowheader">If an incorrect password is entered five consecutive times, lock the account for <em>&lt;value&gt;</em> minutes: </td> 
+      <td> <p>Select how long a user will be locked out of Workfront after entering an incorrect password five consecutive times. By default, this option is enabled, and the amount of wait time is 10 minutes. You can lock accounts for 10 minutes, 30 minutes, 1 hour, 8 hours, or 24 hours. </p> <p>Manually resetting the password for the user overrides this default wait value. <br>Users can reset their own passwords when they are locked out via the login screen. For more information about how they can reset their password, if they forgot it, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Lösenord måste innehålla minst <em>&lt;värde&gt;</em> olika typer av tecken:</td> 
-      <td> <p>Anger hur starka användarlösenord som krävs genom att du kan välja antalet olika typer av tecken som krävs i dina lösenord.</p> <p>Ett identifierbart ordlisteord kan inte användas som lösenord.<br>Som standard kräver Workfront att minst två av följande finns i lösenord (du kan även kräva att 3 av dessa tecken finns för ett giltigt lösenord): </p> 
+      <td role="rowheader">Passwords must contain at least <em>&lt;value&gt;</em> different types of characters:</td> 
+      <td> <p>Determines how strong user passwords are required to be by allowing you to select the number of different types of characters required in your passwords.</p> <p>A recognizable dictionary word cannot be used as a password.<br>By default, Workfront requires that at least 2 of the following are present in passwords (you can also require 3 of these characters to be present for a valid password): </p> 
        <ul> 
-        <li>Versaler</li> 
-        <li>Gemener</li> 
-        <li>Nummer</li> 
-        <li>Symboler</li> 
+        <li>Uppercase characters</li> 
+        <li>Lowercase characters</li> 
+        <li>Numbers</li> 
+        <li>Symbols</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka på **Spara**.
+1. Click **Save**.
 
-## Konfigurera förbättrad autentisering{#configure-enhanced-authentication-coming-soon}
+## Configure enhanced authentication{#configure-enhanced-authentication-coming-soon}
 
-I det här avsnittet beskrivs den förbättrade autentiseringsupplevelsen, som kanske inte är tillgänglig för din organisation ännu. Om din organisation inte har migrerats till den nya autentiseringsupplevelsen måste du konfigurera autentiseringsinställningarna enligt beskrivningen i [Konfigurera autentisering (tillgänglig för alla kunder)](#configure-authentication-available-for-all-customers).
+This section describes the enhanced authentication experience, which might not yet be available for your organization. If your organization has not been migrated to the new authentication experience, you must configure the authentication settings, as described in [Configure authentication (available for all customers)](#configure-authentication-available-for-all-customers).
 
-Så här konfigurerar du utökade autentiseringsinställningar:
+To configure enhanced authentication preferences:
 
 {{step-1-to-setup}}
 
-1. Klicka på **System** > **Förbättrad autentisering**.
-1. Ange det minsta antalet tecken som krävs för ett giltigt lösenord i rutan **Lösenordslängd**.
+1. Click **System** > **Enhanced Authentication**.
+1. In the **Password Length** box, enter the minimum number of characters required for a valid password.
 
-   Workfront kräver minst 6 tecken.
+   Workfront requires at least 6 characters.
 
-1. (Valfritt) I avsnittet **Lösenordskrav** väljer du de typer av tecken som krävs i användarlösenord.
+1. (Optional) In the **Password Requirements** section, select the types of characters required in user passwords.
 
-   Du kan öka styrkan på användarlösenord genom att kräva någon eller alla typer av tecken i avsnittet Lösenordskrav. Följande alternativ är tillgängliga:
+   You can increase the strength of user passwords by requiring any or all the types of characters in the Password Requirement section. The following options are available:
 
-   | Gemener | Kräv minst en gemen bokstav |
+   | Lowercase Letters |Require at least one lowercase letter |
    |---|---|
-   | Versaler | Kräv minst en versal |
-   | Nummer | Kräv minst en siffra |
-   | Specialtecken | Kräv minst ett specialtecken |
+   | Uppercase Letters |Require at least one uppercase letter |
+   | Numbers |Require at least one number |
+   | Special Characters |Require at least one special character |
 
    {style="table-layout:auto"}
 
-1. Klicka på **Spara**.
+1. Click **Save**.
+-->

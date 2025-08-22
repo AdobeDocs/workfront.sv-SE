@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -305,6 +305,6 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 >
 >Användare som importeras till Workfront skapas med statusen Inaktiverad och Väntande godkännande.
 > 
->Om din organisation har migrerats till Adobe Admin Console och en användare inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter, kan du lägga till gruppen med användare direkt till Adobe Admin Console.
+>Om en användare inte går ut ur status Inaktiverat och Väntande godkännande inom några minuter kan du lägga till gruppen med användare direkt i Adobe Admin Console.
 >
->Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.
+>Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.

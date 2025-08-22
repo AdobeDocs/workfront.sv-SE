@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -92,9 +92,9 @@ Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla ma
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Adobe Admin Console.
+>Den procedur som beskrivs på den här sidan har tagits bort eftersom den endast gäller för organisationer som ännu inte har anslutit sig till Adobe Admin Console.
 >
->Om din organisation har anslutit sig till Adobe Admin Console kan du läsa [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Alla Workfront-organisationer har nu anslutit sig till Adobe Admin Console.
 
 ## Steg 1 - Gå till användare {#step-1-to-users}
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
@@ -19,41 +19,43 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-När du har inaktiverat enkel inloggning (SSO) i Adobe Workfront måste användarna logga in med sina Workfront-inloggningsuppgifter. Detta är de autentiseringsuppgifter som användaren ursprungligen konfigurerade. (Om du behöver ändra inloggningsuppgifterna läser du [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
+<!--REMOVE ME MARCH 2026-->
+
+<!--After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log in using their Workfront credentials. These are the credentials the user originally set up. (If you need to change user credentials, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
 
 
-## Åtkomstkrav
+## Access requirements
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expand to view access requirements for the functionality in this article.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td>Alla</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Inaktivera enkel inloggning
+## Deactivate SSO
 
 {{step-1-to-setup}}
 
-1. Klicka på **System** > **enkel inloggning (SSO)**.
+1. Click **System** > **Single Sign-On (SSO)**.
 
-1. Rulla längst ned på sidan och inaktivera alternativet **Aktivera**.
-1. Klicka på **Spara**.
+1. Scroll to the bottom of the page and disable the **Enable** option.
+1. Click **Save**.-->
