@@ -6,9 +6,9 @@ description: En KPI-rapport som tydligt visar en enda aggregerad KPI kan läggas
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan skapa och lägga till en KPI-rapport på en Canvas Dashboard som visuellt
 
 ![Exempel på KPI-rapport](assets/kpi-example-main.png)
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,5 +122,57 @@ Det finns många konfigurationsalternativ för att skapa en KPI-rapport. I det h
    1. Klicka på knappen **Lägg till gruppering** och markera sedan det fält som du vill skapa som en gruppering.
 
 1. Klicka på **Spara** för att skapa rapporten och lägga till den på kontrollpanelen.
+
+## Skapa ett KPI-rapportexempel
+
+I det här avsnittet går vi igenom stegen för att skapa en KPI-rapport som visar väntande dokumentgodkännanden.
+
+Mer information om KPI-rapportexempel finns i [Skapa en rapportinstrumentpanel för granskning och godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
+
+1. Klicka på **Ny instrumentpanel** i det övre högra hörnet.
+
+1. I rutan **Skapa instrumentpanel** anger du instrumentpanelens **namn** och **beskrivning**.
+
+1. Klicka på **Skapa**.
+
+1. Välj **Skapa rapport** i rutan **Lägg till rapport**.
+
+1. Välj **KPI** till vänster.
+
+1. Klicka på **Skapa rapport** i det övre högra hörnet.
+
+1. Följ stegen nedan för att konfigurera avsnittet **Information**:
+
+   1. Skriv *Väntande* i fältet **Namn**.
+   1. Skriv *Väntande godkännanden* i fältet **Beskrivning**. Detta visas som en bildtext under KPI-värdet.
+
+1. Följ stegen nedan för att konfigurera avsnittet **Build KPI**:
+
+   1. Klicka på ikonen **Skapa KPI** ![Skapa KPI](assets/build-kpi-icon.png) i den vänstra panelen.
+
+   1. Klicka på **Markera fält**.
+
+   1. Leta reda på och välj mappen **Dokumentgodkännande**.
+
+   1. Välj **Status**.
+
+   1. Välj **Antal** i listrutan **Aggregationstyp**.
+
+1. Följ stegen nedan för att konfigurera avsnittet **Filter**:
+
+   1. Klicka på ikonen **Filter** ![Filter](assets/filter-icon.png) i den vänstra panelen.
+
+   1. Välj **Redigera filter**.
+
+   1. Klicka på **Lägg till villkor**.
+
+   1. Klicka på det tomma villkorsfiltret, klicka på **Välj ett fält** och välj sedan **Status**.
+   1. Låt operatorn vara **lika med** och skriv sedan _väntande granskning_ i textrutan.
+      ![Exempel på väntande kpi-filter](assets/pending-kpi-filter.png)
+1. Klicka på **Spara** i skärmens övre högra hörn.
 
 
