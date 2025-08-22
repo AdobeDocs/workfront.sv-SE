@@ -98,7 +98,7 @@ En användare måste vara aktiv för att kunna visas i ett type-ahead-fält för
 
 Du måste inaktivera användare via [!UICONTROL Adobe Admin Console].
 
-Instruktioner om hur du inaktiverar en användare i [!UICONTROL Adobe Admin Console] finns i avsnittet Ta bort användare i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
+Instruktioner om hur du inaktiverar en användare i [!UICONTROL Adobe Admin Console] finns i avsnittet Ta bort användare i artikeln [Hantera användare individuellt](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
 
 ## Team
 
