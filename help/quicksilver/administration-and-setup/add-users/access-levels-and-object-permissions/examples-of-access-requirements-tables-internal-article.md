@@ -220,7 +220,7 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
    <td> 
 <p>Alla Adobe Workfront Workflow-paket och alla Adobe Workfront Planning-paket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-plattform (****Vill vi ringa upp detta eller bara göra det till en del av artikeln som är länkad längst ned??****)</p></td> 
+<td role="rowheader"><p>Adobe Workfront-plattform (**&#x200B;**&#x200B;Vill vi ringa upp detta eller bara göra det till en del av artikeln som är länkad längst ned??**&#x200B;**)</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
