@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Under Granskningsloggar kan du nu spåra och felsöka ändringar på fler områd
 * Ändrar en projektinställning eller skapar eller tar bort ett anpassat kvartal
 * Ändrar inställningar för aktivitet och problem
 
-Mer information finns i [Granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Mer information finns i [Översikt över granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Den här funktionen ingår nu i [Admin Fundamentals för den nya Workfront-upplevelsen, del 2: Project Setup](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) Learning path on Workfront One.
+Den här funktionen ingår nu i [Admin Fundamentals för den nya Workfront-upplevelsen, del 2: Project Setup](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Learning path on Workfront One.
 
 ## För gruppadministratörer: Förbättrade kontroller för att flytta undergrupper och ett uppdaterat verktygsfält
 
@@ -137,7 +137,7 @@ Tidigare gick det inte att anpassa de här standardvärdena, så de har alltid a
 
 Mer information finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront Experience, del 3: Utbildningsväg för Kontroll- och gränssnittsupplevelse](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) i Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront Experience, del 3: Utbildningsväg för Kontroll- och gränssnittsupplevelse](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) i Workfront One.
 
 ## Nytt för administratörer: Visa enkelt de rapporter som för närvarande använder ett anpassat fält
 

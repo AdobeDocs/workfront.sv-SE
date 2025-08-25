@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,11 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 * Formelfält kan visas som `#ERROR!` i följande fall:
    * När ett fält som används i en formel tas bort.
    * När ett fält som används i ett aggregerat uppslagsfält visas som `#ERROR!`.
-Om du till exempel visar ett uppslagsfält som innehåller summerade uppslagsformelfält och ett av de refererade formelfälten visas som `#ERROR!`.
+
+     Om du till exempel visar ett uppslagsfält som innehåller summerade uppslagsformelfält och ett av de refererade formelfälten visas som `#ERROR!`.
+   * När ett formelvärde inte kan visas i det valda formatet.
+
+     Om jag t.ex. väljer Nummer som format för ett formelfält, och de fält som används i formeln är textfält som bara visar icke-numeriska textvärden, visas formelresultatet som `#ERROR!`, eftersom det inte kan tolka texten till ett tal.
 
 ## Formler som stöds
 

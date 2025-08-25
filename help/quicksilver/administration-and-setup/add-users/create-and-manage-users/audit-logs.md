@@ -1,5 +1,5 @@
 ---
-title: Granskningsloggar
+title: Översikt över granskningsloggar
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
 
-# Granskningsloggar
+# Översikt över granskningsloggar
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ Följande fält registreras i alla poster i granskningsloggen:
 * [Anpassat avsnitt](#custom-section)
 * [Växelkurs](#exchange-rate)
 * [Grupp](#group)
-* [Jobbroller](#job-roles)
-* [Inloggningsförsök](#login-attempt)
+* [Jobbroll](#job-role)
 * [Prioritet](#priority)
 * [Projektinställningar](#project-preference)
 * [Allvarlighetsgrad](#severity)
 * [Status](#status)
 * [Inställningar för aktiviteter och ärenden](#tasks-issues-preferences)
 * [Användare](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Åtkomstnivå {#access-level}
 
@@ -236,7 +236,7 @@ Systemet genererar en loggpost för gruppgranskning när en användare utför n�
    * Lägger till eller tar bort användare
    * Lägger till eller tar bort undergrupper
 
-### Jobbroller {#job-roles}
+### s {#job-role}
 
 Systemet genererar en loggpost för jobbrollsgranskning när en användare utför någon av följande åtgärder:
 

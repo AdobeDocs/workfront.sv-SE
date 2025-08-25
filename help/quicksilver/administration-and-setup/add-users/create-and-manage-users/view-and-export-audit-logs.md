@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Du kan visa alla granskningsloggar i systemet eller de som uppfyller vissa filte
 
 Granskningsloggar visar användarändringar som har utlösts i systemet under de senaste 90 dagarna.
 
-Mer information om alla granskningsloggtyper och vad som genererar dem finns i [Granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Mer information om alla granskningsloggtyper och vad som genererar dem finns i [Översikt över granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Åtkomstkrav
 
@@ -74,7 +74,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    **Alla loggtyper** är markerade som standard.
 
-   En lista över alla granskningsloggtyper som du kan visa och vilken information de innehåller finns i [Granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   En lista över alla granskningsloggtyper som du kan visa och vilken information de innehåller finns i [Översikt över granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Valfritt) Ange något av de tillgängliga filtren för följande fält:
 

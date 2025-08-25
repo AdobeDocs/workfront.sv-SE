@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '13445'
+source-wordcount: '13449'
 ht-degree: 0%
 
 ---
@@ -489,7 +489,7 @@ ht-degree: 0%
          * [Mappa användarattribut](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [Inaktivera en användare](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [Ta bort användare](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [Granskningsloggar](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [Översikt över granskningsloggar](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [Visa och exportera granskningsloggar](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Visa inloggningsinformation för användare](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Hantera användare i Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -2069,6 +2069,7 @@ ht-degree: 0%
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
       * [Arbetsytor - översikt](planning/architecture/workspaces-overview.md)
       * [Skapa arbetsytor](planning/architecture/create-workspaces.md)
+      * [Skapa arbetsytehierarkier](planning/architecture/create-workspace-hierarchies.md)
       * [Översikt över posttyper](planning/architecture/overview-of-record-types.md)
       * [Skapa posttyper](planning/architecture/create-record-types.md)
       * [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](planning/architecture/import-file-to-create-record-types.md)

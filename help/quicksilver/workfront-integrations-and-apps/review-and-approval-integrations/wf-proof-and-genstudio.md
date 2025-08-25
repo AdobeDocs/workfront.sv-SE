@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Tack vare integrationen mellan GenStudio for Performance Marketing och Workfront
 
 * Visa granskningsbeslut i GenStudio for Performance Marketing för slutligt godkännande och publicering
 
-Mer information om granskning och godkännande i GenStudio for Performance Marketing finns i [Workfront Proof-integrering med GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Mer information om granskning och godkännande i GenStudio for Performance Marketing finns i [Workfront Proof-integrering med GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Åtkomstkrav
@@ -67,9 +67,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Integrationskrav
 
-* Workfront och GenStudio for Performance Marketing måste distribueras till samma IMS-organisation.
+* Workfront och GenStudio for Performance Marketing måste driftsättas i samma Identity Management-systemorganisation (IMS).
 
-* Användare kan bara tillhöra en Workfront-instans i IMS-organisationen.
+* Användare kan bara tillhöra en Workfront-instans inom IMS-organisationen.
 
 * Workfront-instansen måste vara aktiverad på Adobe Unified Experience.
 
@@ -102,7 +102,7 @@ Mer information om hur du skapar automatiska arbetsflöden och mallar i Workfron
 
 När en användare initierar en granskning i GenStudio for Performance Marketing väljer de bara den mall de behöver. Användarna kan enkelt ändra alla korrekturmallar, lägga till eller ta bort granskare och faser när som helst.
 
-Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Mer information finns i [Begär granskning och godkännande](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Granska och godkänn GenStudio for Performance Marketing-utkast i Workfront korrekturläsare
 
@@ -114,7 +114,7 @@ Med korrekturläsaren kan du
 * Markera utkast för att visa vad som behöver ändras
 * Fatta ett beslut
 
-Mer information finns i [Granska och redigera innehåll](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Mer information finns i [Granska och redigera innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Mer information finns i [Granska och redigera innehåll](https://experienceleagu
 
 När materialet har granskats och godkänts kan du se granskningsbeslutet och publicera det direkt från GenStudio for Performance Marketing.
 
-Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Mer information finns i [Publicera godkänt innehåll](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

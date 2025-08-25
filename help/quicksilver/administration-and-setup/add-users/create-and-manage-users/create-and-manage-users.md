@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Mappa användarattribut och etablera nya användare automatiskt](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [Inaktivera eller återaktivera en användare](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [Granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [Granskningsloggar - översikt](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [Visa och exportera granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Visa inloggningsinformation för användare](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Hantera användare i Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

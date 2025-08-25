@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '17556'
+source-wordcount: '17564'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,9 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>För uppgifter och ärenden är detta kostnaden associerat med de faktiska timmarna som loggats i relation till kostnaden per timme för den resurs som tilldelats uppgiften eller utgåvan. För projekt är detta det totala antalet [!UICONTROL Actual Costs] från aktiviteter och ärenden i projektet. Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
+   <td> <p>För uppgifter och ärenden är detta kostnaden associerat med de faktiska timmarna som loggats i relation till kostnaden per timme för den resurs som tilldelats uppgiften eller utgåvan. För projekt är detta det totala antalet [!UICONTROL Actual Costs] från aktiviteter och ärenden i projektet. Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p>
+
+<p>[!UICONTROL Actual Cost] beräkningar tar hänsyn till [!UICONTROL Legacy Actual Hours]. Mer information finns i [!UICONTROL Actual Hours] eller [!UICONTROL Legacy Actual Hours] i den här tabellen. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
@@ -68,7 +70,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-   <p>Se även <strong>Tidigare faktiska timmar</strong>.
+   <p>Se även <strong>[!UICONTROL Legacy Actual Hours]</strong>.
     <p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visa faktiska timmar</a>.</p>
     </td> 
   </tr> 
@@ -1330,7 +1332,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
  <tbody> 
   <tr> 
    <td>[!UICONTROL Manual Only]</td> 
-   <td> <p>En av [!UICONTROL Update Types] för [!UICONTROL Project]. Med den här inställningen kan [!UICONTROL Project Projected]- och [!UICONTROL Planned]-tidslinjer bara uppdateras när användaren klickar på [!UICONTROL Recalculated Timelines]. Projekt som har konfigurerats på det här sättet ignoreras under den nattliga omberäkningen och när projektet eller aktiviteterna i projektet uppdateras.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Markera projektet [!UICONTROL Update Type] </a>.</p> </td> 
+   <td> <p>En av [!UICONTROL Project] för [!UICONTROL Update Types]. Med den här inställningen kan [!UICONTROL Project Projected]- och [!UICONTROL Planned]-tidslinjer bara uppdateras när användaren klickar på [!UICONTROL Recalculated Timelines]. Projekt som har konfigurerats på det här sättet ignoreras under den nattliga omberäkningen och när projektet eller aktiviteterna i projektet uppdateras.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Markera projektet [!UICONTROL Update Type] </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Me]</td> 
@@ -1464,7 +1466,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Kort för organisationsschemat. Det här är ett diagram som visar hierarkin i en organisation. Det finns också på fliken på [!UICONTROL User]-detaljskärmen som visar och tillåter inställning av [!UICONTROL Company]- och [!UICONTROL Reporting]-relationer för [!UICONTROL User].</td> 
+   <td>Kort för organisationsschemat. Det här är ett diagram som visar hierarkin i en organisation. Det finns också på fliken på [!UICONTROL User]-detaljskärmen som visar och tillåter inställning av [!UICONTROL User]- och [!UICONTROL Company]-relationer för [!UICONTROL Reporting].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
@@ -2015,7 +2017,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td>[!UICONTROL Risk]</td> 
    <td> <p>Detta kan referera till följande koncept i [!DNL Workfront]:</p> 
     <ul> 
-     <li> <p>Ett fält i ett projekt som anger hur riskabelt ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån. Projekt kan ha följande risknivåer:</p> <p>- [!UICONTROL Very Low]</p> <p>- [!UICONTROL Low]</p> <p>- [!UICONTROL Medium]</p> <p>- [!UICONTROL High]</p> <p>- [!UICONTROL Very High]</p> <p>De risknivåer du anger för ett projekt kan inte anpassas. </p> <p> Mer information om hur du uppdaterar risken för ett projekt finns i avsnittet Projektinställningar i artikeln <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>. Du kan visa riskfältet för ett projekt i rapporter. </p> </li> 
+     <li> <p>Ett fält i ett projekt som anger hur riskabelt ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån. Projekt kan ha följande risknivåer:</p> <p>– [!UICONTROL Very Low]</p> <p>– [!UICONTROL Low]</p> <p>– [!UICONTROL Medium]</p> <p>– [!UICONTROL High]</p> <p>– [!UICONTROL Very High]</p> <p>De risknivåer du anger för ett projekt kan inte anpassas. </p> <p> Mer information om hur du uppdaterar risken för ett projekt finns i avsnittet Projektinställningar i artikeln <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>. Du kan visa riskfältet för ett projekt i rapporter. </p> </li> 
      <li> <p>En händelse som kan inträffa under ett projekts livslängd och som identifierar en potentiell inverkan på projektets kostnad, omfattning eller schema. Du definierar potentiella risker för ett projekt och associerar en sannolikhet för att de ska inträffa eller en kostnad när du skapar projektets affärsärende. Mer information om hur du lägger till risker i projektets affärsmodell finns i"Skapa och redigera risker i projekt". </p> <p>Du kan inte visa risker som definierats i [!UICONTROL Business Case] i rapporter. Du kan bara visa flera typer av riskkostnader i rapporter och listor. </p> </li> 
     </ul> </td>
 
@@ -2067,7 +2069,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 
