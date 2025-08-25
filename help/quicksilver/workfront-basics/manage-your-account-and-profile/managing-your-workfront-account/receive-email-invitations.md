@@ -6,9 +6,9 @@ description: När en  [!DNL Workfront] administratör skapar en ny användare ka
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan el
 
 När en [!DNL Workfront]-administratör skapar en ny användare kan den nya användaren få ett e-postmeddelande med en inbjudan baserat på flera faktorer:
 
+* Om användarens organisation har registrerats för [!DNL Adobe Admin Console]
 * Om användaren lades till i [!DNL Workfront] eller i [!DNL Admin Console]
 * Om användaren har åtkomst till andra [!DNL Adobe]-produkter eller är en ny [!DNL Adobe]-användare
 * Om administratören valde att skicka en e-postinbjudan till användaren (gäller endast organisationer som ännu inte är på [!DNL Admin Console])
