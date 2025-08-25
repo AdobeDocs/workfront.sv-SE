@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ Workfront-administratören aktiverar integreringen mellan Workfront och Frame.io
 
 ## Åtkomstkrav
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
 >[!IMPORTANT]
 >
->This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
+>Den här funktionen är bara tillgänglig för organisationer som har anslutit till [!DNL Adobe Admin Console].
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 

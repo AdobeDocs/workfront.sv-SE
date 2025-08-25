@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -96,9 +96,17 @@ Mer information finns i [Skapa och redigera företag](../../administration-and-s
 
 En användare måste vara aktiv för att kunna visas i ett type-ahead-fält för alla andra objekt när han eller hon gör uppdrag eller delar dem.
 
-Du måste inaktivera användare via [!UICONTROL Adobe Admin Console].
+Du kan inaktivera användare från användarsidan eller när du redigerar en användare.
 
-Instruktioner om hur du inaktiverar en användare i [!UICONTROL Adobe Admin Console] finns i avsnittet Ta bort användare i artikeln [Hantera användare individuellt](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
+Mer information om hur du inaktiverar användare finns i [Inaktivera eller återaktivera en användare](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+
+>[!IMPORTANT]
+>
+>Om din organisation har anslutit sig till [!DNL Adobe Business Platform] måste du inaktivera användare via [!UICONTROL Adobe Admin Console].
+>
+>Instruktioner om hur du inaktiverar en användare i [!UICONTROL Adobe Admin Console] finns i avsnittet Ta bort användare i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
+>
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Business Platform] finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Team
 

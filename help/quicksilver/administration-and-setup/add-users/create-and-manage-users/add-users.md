@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* **Du måste skapa systemadministratörer via Adobe Admin Console.**
+>* **Om din organisation har anslutit sig till Adobe Admin Console måste du skapa systemadministratörer via Adobe Admin Console.**
 >
 >   Instruktioner om hur du skapar systemadministratörer i Adobe Admin Console finns i [Hantera användare i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->   Gruppadministratörer kan använda den här proceduren för att skapa användare och skicka in användaren för administratörsgodkännande.
+>   Gruppadministratörer i organisationer som har anslutit sig till Adobe Admin Console kan använda den här proceduren för att skapa användare och skicka in användaren för administratörsgodkännande.
+>
+>   En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Om din organisation använder enkel inloggning (SSO)** rekommenderar vi att du skapar användare och tilldelar dem till Workfront i Adobe Admin Console. Det går att skapa dessa användare i Workfront, men det kan uppstå problem när informationen ska överföras till Adobe Admin Console, baserat på hur organisationens Admin Console är konfigurerad.
->  &#x200B;>   När du har skapat användaren i Adobe Admin Console kan du konfigurera användarens information i Workfront, till exempel tilldela roller, grupper, team och åtkomstnivåer.
+>  >   När du har skapat användaren i Adobe Admin Console kan du konfigurera användarens information i Workfront, till exempel tilldela roller, grupper, team och åtkomstnivåer.
 >* **Om din organisation inte använder enkel inloggning (SSO)** kan du lägga till användare som inte är systemadministratörer direkt i Workfront. Det går att lägga till användare i Adobe Admin Console, men om du lägger till dem i Workfront kan du ange åtkomstnivå när du skapar dem, vilket sparar tid.
 
 
@@ -36,7 +38,11 @@ ht-degree: 0%
 Du kan lägga till användare i Adobe Workfront genom att skapa enskilda användare från grunden eller genom att kopiera befintliga användare.
 
 Mer information om hur du importerar flera användare samtidigt finns i [Importera användare](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
-—>
+
+<!--
+Replace this intro with something like the following when we switch to Admin Console:
+As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
+-->
 
 ## Åtkomstkrav
 
@@ -132,7 +138,7 @@ Innan du lägger till en användare ska du samla in informationen om användaren
 
    >[!NOTE]
    >
-   >* Om du är gruppadministratör och lägger till en användare är alternativen för det här steget **Skicka användare för administratörsgodkännande** och **Skicka för godkännande och starta ett annat**. Användaren skapas i en inaktiverad och väntande godkännandestatus.
+   >* Om du är gruppadministratör och lägger till en användare i en organisation som har anslutit till Adobe Admin Console är alternativen för det här steget **Skicka användare för administratörsgodkännande** och **Skicka för godkännande och starta ett annat**. Användaren skapas i en inaktiverad och väntande godkännandestatus.
    > 
    >* Om användaren inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter och en skärmuppdatering inte tar bort märket Väntande godkännande, kan du godkänna användaren manuellt.
    >

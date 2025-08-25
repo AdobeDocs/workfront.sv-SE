@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
@@ -252,24 +252,19 @@ Systemet genererar en loggpost för jobbrollsgranskning när en användare utfö
 
 Mer information om hur du konfigurerar jobbroller finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-<!--DELETE THIS SECTION MARCH 2026-->
+### Inloggningsförsök {#login-attempt}
 
-<!--
-### Login Attempt {#login-attempt}
+Systemet genererar en inloggningsförsöksloggpost när en användare utför någon av följande åtgärder:
 
-The system generates a Login Attempt audit log entry when a user does one of the following actions:
+* Loggar in, loggar ut eller misslyckas med ett inloggningsförsök i Workfront (i en webbläsare och i mobilappen)
+* Loggar in, loggar ut eller misslyckas med ett inloggningsförsök i någon Workfront-integrering (t.ex. Workfront för Slack)
+* Loggar in eller loggar ut från Workfront API
 
-* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
-* Logs in or logs out of the Workfront API
-
-Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+Inloggningsförsöksloggar registreras inte när en Workfront-administratör använder funktionen Logga in som.
 
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
--->
+>Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
 ### Prioritet {#priority}
 
@@ -350,17 +345,21 @@ Mer information om inställningar för aktiviteter och problem finns i [Konfigur
 
 ### Användare {#user}
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
-The system generates a User audit log entry when a user does one of the following actions:
+Systemet genererar en loggpost för användargranskning när en användare utför någon av följande åtgärder:
 
-* Creates a user
+* Skapar en användare
+
+  <!--
+  DRAFTED IN FLARE:
+  Gevorg checking with Jonah on whether this note should be here:
+  
+  -->
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
-* Deletes a user
-* Changes a user's access level, company, team, or group
-* Activates a user
-* Deactivates a user-->
+* Tar bort en användare
+* Ändrar en användares åtkomstnivå, företag, team eller grupp
+* Aktivera en användare
+* Inaktiverar en användare
