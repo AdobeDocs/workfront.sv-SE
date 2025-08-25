@@ -5,9 +5,9 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Om du vill fylla i begäranden automatiskt med hjälp av en prompt eller ett dokument måste **alla** av följande gälla:
 
-* Din organisation måste använda Adobe IMS (Identity Management System)
+* Din organisation måste ha migrerat till Adobe IMS (Identity Management System)
 * Adobe Unified Experience måste aktiveras
 * Din organisation måste ha en Select-, Prime- eller Ultimate Workfront-plan
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -92,47 +92,39 @@ Du kan generera, återställa eller ta bort API-nyckeln för ditt administratör
 
    Så här tar du bort API-nyckeln: Klicka på **Ta bort** i avsnittet **API-nyckelinställningar** och sedan på **Ta bort**.
 
-## Generera en API-nyckel för icke-admin-användare—>
+## Generera en API-nyckel för icke-admin-användare
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
->[!IMPORTANT]
->
->Den procedur som beskrivs i det här avsnittet har tagits bort eftersom den endast gäller för organisationer som ännu inte har anslutit sig till Adobe Admin Console.
->
->Alla Workfront-organisationer har nu anslutit sig till Adobe Admin Console.
-
-<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
+Du kan generera och hantera API-nycklar för användare i andra roller än Workfront-administratören.
 
 >[!NOTE]
 >
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
-1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
-
-   {{step-1-to-setup}} 
-   
-   1. Expand **System**, then click **Single Sign-on (SSO)**. 
-   1. In the **Type** field, select the type of SSO your organization uses.
-   1. With the type selected, scroll down and clear the **Enable** checkbox. 
-      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
-   1. Click **Save**.
-
-
-1. In the address bar of a browser, enter the following API call:
-
-   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
-
-   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
-
-1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
+1. (Villkorligt) Om din organisation använder enkel inloggning (SSO), kan du tillfälligt inaktivera alternativet som kräver SSO-autentisering.
 
    {{step-1-to-setup}}
-   
-   1. Expand **System**, then click **Single Sign-on (SSO)**.
-   
-   1. Select your SSO method in the **Type** drop down menu.
-   1. Check the checkbox requiring SSO authentication.-->
+
+   1. Expandera **System** och klicka sedan på **Enkel inloggning (SSO)**.
+   1. I fältet **Typ** väljer du den typ av enkel inloggning som din organisation använder.
+   1. När typen är markerad rullar du nedåt och avmarkerar kryssrutan **Aktivera**.
+      ![Aktivera enkel inloggning](assets/sysadmin-security-sso-disable-31620-350x320.png)
+   1. Klicka på **Spara**.
+
+
+1. Ange följande API-anrop i adressfältet i en webbläsare:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
+
+   Ersätt `<domain>` med ditt Workfront-domännamn och användarnamn och lösenord med användarens Workfront-autentiseringsuppgifter.
+
+1. (Villkorligt) Aktivera alternativet som kräver SSO-autentisering om du inaktiverade det i steg 1.
+
+   {{step-1-to-setup}}
+
+   1. Expandera **System** och klicka sedan på **Enkel inloggning (SSO)**.
+
+   1. Välj din SSO-metod i listrutan **Typ**.
+   1. Markera kryssrutan som kräver SSO-autentisering.
 
 ## Konfigurera när API-nycklar upphör att gälla
 

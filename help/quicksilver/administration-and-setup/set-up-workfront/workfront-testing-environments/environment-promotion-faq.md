@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,13 @@ Följande frågor ställs ofta om miljökampanjer:
 
 ### Svar
 
-Marknadsföring över domäner stöds inte för närvarande. Du måste uppgradera mellan miljöer i samma domän.—>
+Marknadsföring över domäner stöds inte för närvarande. Du måste uppgradera mellan miljöer i samma domän.
 
-<!--DELETE THIS SECTION MARCH 2026-->
+## Är Adobe Business Platform/IMS en förutsättning för miljömarknadsföring?
 
-<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
+### Svar
 
-### Answer
-
-No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
+Nej. Miljökampanj är tillgänglig för både IMS-aktiverade och icke-IMS Workfront-instanser.
 
 ## Hur kan vi ta reda på om Workfront finns i en licens för Prime eller Ultimate?
 

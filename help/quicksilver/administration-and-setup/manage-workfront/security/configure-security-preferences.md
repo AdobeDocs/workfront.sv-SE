@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -110,32 +110,32 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      <tr> 
       <td role="rowheader">Kräv att externa användare registrerar sig med ett lösenord</td> 
       <td> <p>Kräver att externa användare registrerar sig innan de kan visa objekt i Workfront. Som standard är det här alternativet inaktiverat. När du aktiverar det här alternativet ombeds personer som saknar ett Workfront-konto och som är inkluderade i vissa uppdateringar via sin e-postadress att skapa ett konto innan de kan visa det objekt de är inkluderade i. Detta skapar ett externt användarkonto åt dem.</p> <p>Det här alternativet är inaktiverat som standard.</p> </td> 
-     </tr>
-<!-- DELETE THIS SECTION MARCH 2026   <tr> 
-      <td role="rowheader">Automatically log users out after</td> 
-      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Logga ut användare automatiskt efter</td> 
+      <td> Här kan du ange när en användare loggas ut från Workfront efter en viss inaktivitetsperiod. Som standard loggas användare ut efter 8 timmars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p> <p>Den här inställningen är inte tillgänglig för organisationer som har migrerats till Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Logga ut användare automatiskt efter </td> 
+      <td>Här kan du ange när en användare är utloggad från Workfront-programmet, efter en tids inaktivitet. Som standard loggas användare ut efter 7 dagars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p> <p>Den här inställningen är inte tillgänglig för organisationer som har migrerats till Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Anpassad hjälp-URL</td> 
+      <td>Här kan du definiera en intern anpassad hjälpwebbplats där hjälpikonen för huvudmeny kan visas. Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Konfigurera en anpassad hjälp-URL</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Automatically log mobile users out after </td> 
-      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr>  -->
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>Anpassad hjälp-URL&lt;/td>
-    &lt;td>Gör att du kan definiera en intern anpassad hjälpwebbplats som hjälpikonen för huvudmenyn ska gå till. Mer information finns i &lt;a href=&quot;/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md&quot;>Konfigurera en anpassad hjälp-URL&lt;/a>.&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>Användare i systemet ser som standard den nya hemupplevelsen &lt;/td>
-    &lt;td>Ange om användarna ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När alternativet är inaktiverat visas inte den banderoll som gör att användaren kan växla till Nytt hem, men användaren kan fortfarande navigera till sin nya hemsida genom att ange &lt;code>/home/workspaces&lt;/code> manuellt i slutet av sin instans-URL. Den här inställningen är aktiverad som standard.&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>Aktivera prioritetsarbetslistan &lt;/td>
-    &lt;td>Gör att du kan välja att aktivera eller inaktivera prioritetsarbetslistan för dina användare. Användarna kommer fortfarande att se Prioritetsikonerna i Workfront, men de kommer inte att ha tillgång till funktionerna. Mer information om prioriteringar finns i &lt;a href=&quot;/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md&quot;>Komma igång med prioriteringar&lt;/a>.&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>Testmiljöer&lt;/td>
-    &lt;td>Gör att du kan komma åt dina testmiljöer i Workfront. Mer information finns i &lt;a href=&quot;/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md&quot;>Adobe Workfront Preview Sandbox Environment&lt;/a>.&lt;/p>&lt;/td>
-    &lt;/tbody>
-</table>
+      <td role="rowheader">Användare i systemet ser som standard den nya hemupplevelsen </td> 
+      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När det här alternativet är inaktiverat visas inte den banderoll som gör att användaren kan växla till Nytt hem, men användaren kan fortfarande navigera till sin nya hemsida genom att ange <code>/home/workspaces</code> manuellt i slutet av sin instans-URL. Den här inställningen är aktiverad som standard.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Aktivera arbetslistan Prioriteter </td> 
+      <td>Gör att du kan välja att aktivera eller inaktivera arbetslistan Prioriteter för dina användare. Användarna kommer fortfarande att se Prioritetsikonerna i Workfront, men de kommer inte att ha tillgång till funktionerna. Mer information om prioriteringar finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Kom igång med prioriteringar</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Testmiljöer</td> 
+      <td>Här kan du komma åt Workfront testmiljöer. Mer information finns i <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Sandlådemiljön för Adobe Workfront Preview</a>.</p></td> 
+    </tbody> 
+   </table>
 
 1. Klicka på **Spara**.
 

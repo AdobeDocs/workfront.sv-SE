@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 619bc09a226c6023ff653557dc6e049b2d177722
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ Alla användare kan lägga till AI Reviewer i en gransknings- och godkännandebe
 
 ## Förutsättningar
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
+* Din organisation måste ha migrerat till Adobe IMS (Identity Management System).
 * Enhetliga godkännanden måste vara aktiverat för din Workfront-instans.
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands.
 Mer information om hur du signerar avtalet finns i [Signera Adobe Gen AI-avtalet](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
@@ -55,7 +53,7 @@ AI Reviewer kan granska följande filtyper:
 
 ## Ställ in varumärkesriktlinjer
 
-Workfront AI Reviewer använder de varumärkesriktlinjer som angetts i Genstudio Foundations när du granskar ditt innehåll. För närvarande kan du bara ange varumärkesriktlinjer för bilder. Mer information finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Workfront AI Reviewer använder de varumärkesriktlinjer som angetts i Genstudio Foundations när du granskar ditt innehåll. För närvarande kan du bara ange varumärkesriktlinjer för bilder. Mer information finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Skapa AI-granskare

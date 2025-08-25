@@ -5,9 +5,9 @@ description: Översikt över AI Assistant
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -49,10 +49,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Om du vill aktivera AI Assistant för din organisation måste **alla** av följande gälla:
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled-->
+* Din organisation måste ha migrerat till Adobe IMS (Identity Management System)
+* Adobe Unified Experience måste aktiveras
 * Din organisation måste ha en Select-, Prime- eller Ultimate Workfront-plan
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands
 
