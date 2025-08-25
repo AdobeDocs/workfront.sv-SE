@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om ni har anslutit er till Adobe Admin Console behöver ni inte vidta några åtgärder.
+>Den procedur som beskrivs på den här sidan har tagits bort eftersom den endast gäller för organisationer som ännu inte har anslutit sig till Adobe Admin Console. Denna procedur är inte nödvändig för företag i Adobe Admin Console.
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eftersom alla Workfront-organisationer nu har anslutit sig till Adobe Admin Console kommer den här artikeln att tas bort inom en nära framtid.
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om ni har anslutit er till Adobe Admin Console behöver ni inte vidta några åtgärder.
+>
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Adobe Workfront-servrarna använder SAML 2.0-protokollet för autentisering och auktorisering. När det nya certifikatet har uppdaterats är det giltigt i ett år. När det är dags för dig att förnya certifikatet på din identitetsleverantör får du en varning i Workfront om att den här ändringen måste utföras. Som Workfront-administratör kan du hantera den här ändringen på systemnivå.
 

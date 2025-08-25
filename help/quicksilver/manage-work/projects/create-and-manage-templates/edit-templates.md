@@ -6,7 +6,7 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
 source-wordcount: '5045'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen och går sedan till de områden som visas i den vänstra panelen för att redigera information för varje område.
 1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
-   * Ökning
+   * Översikt
    * Anpassad Forms
 
    Namnen på tullformulär visas bara om det finns anpassade formulär kopplade till objektet.
@@ -124,7 +124,7 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 
    Klicka på **Spara**.
 
-### Ökning {#overview-preview}
+### Översikt {#overview-preview}
 
 1. Börja redigera mallen enligt beskrivningen ovan.
 1. Klicka på **Översikt** i rutan **Redigera mall**.
@@ -468,7 +468,7 @@ Mer information om hur de här inställningarna påverkar skapandet av nya uppgi
    | Arbetsinsats | Procentvärde |
    |---|---|
    | Liten | 25 % |
-   | Medium | 50 % |
+   | Medium | 50 % |
    | Stor | 75 % |
 
    Mer information om hur du använder Arbetsinsats för att hantera insatsen i projekt finns i [Översikt över Arbetsinsats](../../../manage-work/tasks/task-information/work-effort.md).
@@ -577,7 +577,6 @@ Linked folder functionality automatically creates folders in Adobe Experience Ma
 
 This section appears only if all of the following apply:
 
-* Your organization has been migrated to the Adobe Admin Console
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template has enabled and configured linked folders.
 
@@ -621,7 +620,7 @@ Så här redigerar du flera mallar samtidigt:
 
 1. Uppdatera följande avsnitt i de valda mallarna:
 
-   * Ökning
+   * Översikt
    * Ekonomi
    * Portfolio
    * Inställningar

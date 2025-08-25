@@ -6,9 +6,9 @@ description: Om du får åtkomst till [!DNL Workfront] via Adobe Experience Clou
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Om din organisation använder Adobe Unified Experience börjar den URL som du an
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -52,11 +52,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++
 
-## Förutsättningar
+<!--DELETE THIS SECTION MARCH 2026-->
 
-Organisationens instans av [!DNL Workfront] måste vara registrerad för [!DNL Adobe Business Platform] eller [!DNL Adobe Admin Console].
+<!--## Prerequisites
 
-Om du har frågor om introduktion till [!DNL Adobe Admin Console] kan du läsa [[!DNL Adobe Unified Experience] Vanliga frågor](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
+
+If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).-->
 
 ## Adobe Identity Management System (IMS)
 
@@ -125,7 +127,7 @@ Om din organisation använder ett separat program för att hantera lösenord än
 
 Om ditt lösenord hanteras av [!DNL Adobe] kan du ändra lösenordet i ditt Adobe-konto.
 
-[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/se/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Läs den här artikeln om hur du ändrar ditt Adobe-lösenord.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Kontakta administratören om du vill ha mer information om hur du ändrar ditt lösenord.
 

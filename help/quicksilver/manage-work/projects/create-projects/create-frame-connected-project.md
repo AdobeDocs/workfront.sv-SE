@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,7 @@ När ett Workfront-projekt är anslutet till Frame.io kan du
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
->[!IMPORTANT]
->
->Den här funktionen är bara tillgänglig för organisationer som har anslutit sig till [!DNL Adobe Admin Console].
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 Du måste ha följande:
 
@@ -116,7 +112,7 @@ Fortsätt till nästa avsnitt.
 
 Workfront har robusta projekthanteringsfunktioner. Vi rekommenderar att du använder artikeln [Redigera projektmallar](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) för att konfigurera följande områden i mallen:
 
-* Ökning
+* Översikt
 * Ekonomi
 * Anpassad Forms
 * Projektinställningar
@@ -198,7 +194,7 @@ Fortsätt till nästa avsnitt.
 
 Workfront har robusta projekthanteringsfunktioner. Vi rekommenderar att du använder artikeln [Redigera projekt](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) för att konfigurera följande områden i projektet:
 
-* Ökning
+* Översikt
 * Ekonomi
 * Anpassad Forms
 * Projektinställningar

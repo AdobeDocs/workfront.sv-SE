@@ -2,20 +2,20 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Migrera från den gamla eller förbättrade anslutningen till Workfront för Adobe Experience Manager as a Cloud Service-integrering
-description: Informationen på den här sidan förklarar de bästa sätten att gå från Workfront för Experience Cloud förbättrade eller äldre anslutningar till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
+description: Informationen på den här sidan förklarar de effektivaste strategierna för att gå från Workfront for Experience Cloud förbättrade eller äldre anslutningar till den senaste inbyggda integrationen mellan Workfront och Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # Migrera från den gamla eller förbättrade anslutningen till Workfront för Adobe Experience Manager as a Cloud Service-integrering
 
-Informationen på den här sidan förklarar de bästa sätten att gå från Workfront för Experience Cloud förbättrade eller äldre anslutningar till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
+Informationen på den här sidan förklarar de effektivaste strategierna för att gå från Workfront for Experience Cloud förbättrade eller äldre anslutningar till den senaste inbyggda integrationen mellan Workfront och Adobe Experience Manager Assets as a Cloud Service.
 
 >[!IMPORTANT]
 >
@@ -23,18 +23,27 @@ Informationen på den här sidan förklarar de bästa sätten att gå från Work
 
 ## Flytta din Workfront-instans till Admin Console
 
-Kunder som tänker använda den nya inbyggda integreringen mellan Workfront och Adobe Experience Manager Assets as a Cloud Service måste se till att deras Workfront-miljö är knuten till en Adobe Admin Console. För befintliga Workfront-miljöer kommer detta sannolikt att kräva en migrering av miljön till en ansluten Adobe Admin Console. Mer information om den här migreringen och den associerade checklistan finns i [Förbered dig för att ta med din organisation till Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md).
+>[!IMPORTANT]
+>
+>Eftersom alla Workfront-organisationer har migrerats till Adobe Admin Console kommer detta avsnitt att tas bort inom den närmaste framtiden.
 
-Adobe måste hjälpa till att genomföra migreringen. Gör något av följande om du vill ha hjälp:
+<!--DELETE THIS SECTION MARCH 2026-->
 
-* Om du har Workfront Hub-åtkomst skickar du din begäran till [Workfront-migreringen till Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&amp;projectID=629674d500054a38133cf26e01d06a97&amp;path=).
-* Om du inte har Workfront Hub-åtkomst kan du skicka din begäran till [Workfront till kön för tidig migreringsbegäran för Adobe Admin Console ](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
+<!--
+Customers that intend to use the new native integration between Workfront and Adobe Experience Manager Assets as a Cloud Service must ensure their Workfront environment is tied to an Adobe Admin Console. For existing Workfront environments, this will likely require a migration of the environment to a connected Adobe Admin Console. For more details regarding this migration and the associated checklist, see [Prepare to onboard your organization to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md). 
 
-## Konfigurera din nya integrering av Workfront för Adobe Experience Manager-resurser - as a Cloud Service
+ Adobe must help carry out this migration. To request help, do one of the following:
 
-När Workfront-miljön har migrerats till en Adobe Admin Console kan Workfront-administratörer konfigurera den nya inbyggda integreringen. Konfigurationshjälp finns i [Konfigurera Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+* If you have Workfront Hub access, submit your request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
+* If you do not have Workfront Hub access, you can submit your request to the [Workfront to Adobe Admin Console Early Migration Request Queue](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
 
-## Flytta befintligt material till Workfront för Adobe Experience Manager-material - as a Cloud Service integration
+-->
+
+## Konfigurera ditt nya Workfront for Adobe Experience Manager-material as a Cloud Service-integrering
+
+När Workfront-miljön har migrerats till en Adobe Admin Console kan Workfront-administratörer konfigurera den nya inbyggda integreringen. Konfigurationshjälp finns i [Konfigurera Experience Manager Assets as a Cloud Service-integreringen](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+## Flytta befintligt material till Workfront för Adobe Experience Manager as a Cloud Service-integrering
 
 När du har konfigurerat din miljö kan du flytta befintliga länkade resurser och mappar till Adobe Experience Manager. Detta är ett valfritt steg men säkerställer att tidigare länkade mappar och resurser via den äldre eller förbättrade kopplingen fortfarande är tillgängliga när dessa anslutningar avinstalleras.
 

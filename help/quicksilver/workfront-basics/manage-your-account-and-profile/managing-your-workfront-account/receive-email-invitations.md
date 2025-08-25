@@ -6,9 +6,9 @@ description: När en  [!DNL Workfront] administratör skapar en ny användare ka
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,6 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan el
 
 När en [!DNL Workfront]-administratör skapar en ny användare kan den nya användaren få ett e-postmeddelande med en inbjudan baserat på flera faktorer:
 
-* Om användarens organisation har registrerats för [!DNL Adobe Admin Console]
 * Om användaren lades till i [!DNL Workfront] eller i [!DNL Admin Console]
 * Om användaren har åtkomst till andra [!DNL Adobe]-produkter eller är en ny [!DNL Adobe]-användare
 * Om administratören valde att skicka en e-postinbjudan till användaren (gäller endast organisationer som ännu inte är på [!DNL Admin Console])
@@ -57,7 +56,7 @@ När du har fått e-postinbjudan kan du som ny användare följa länken i e-pos
 
 >[!NOTE]
 >
->Länken i e-postmeddelandet är bara giltig det antal dagar som anges av administratören för [!DNL Workfront] i området [!UICONTROL general options] på sidan [!UICONTROL Invitations].
+>Länken i e-postmeddelandet är bara giltig det antal dagar som anges av administratören för [!UICONTROL general options] i området [!UICONTROL Invitations] på sidan [!DNL Workfront].
 
 Så här skapar du ett lösenord för [!DNL Workfront] med e-postinbjudan:
 

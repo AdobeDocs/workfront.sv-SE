@@ -5,14 +5,14 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Förbered er på att introducera er organisation för Adobe Admin Console
-description: Eftersom Adobe Workfront är en Adobe-produkt kan du komma åt den via Adobe Admin Console. På så sätt kan du hantera Workfront tillsammans med andra Adobe-konton och -produkter för dina användare centralt.
+description: Eftersom Adobe Workfront är en Adobe-produkt kan du få tillgång till den via Adobe Admin Console. På så sätt kan du hantera Workfront tillsammans med andra Adobe-konton och -produkter för dina användare centralt.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,17 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Eftersom Adobe Workfront är en Adobe-produkt kan du komma åt den via Adobe Admin Console. På så sätt kan du hantera Workfront tillsammans med andra Adobe-konton och -produkter för dina användare centralt.
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Eftersom alla organisationer nu har migrerats till Adobe Admin Console kommer den här artikeln att tas bort inom den närmaste framtiden.
+
+Eftersom Adobe Workfront är en Adobe-produkt kan du få tillgång till den via Adobe Admin Console. På så sätt kan du hantera Workfront tillsammans med andra Adobe-konton och -produkter för dina användare centralt.
 
 Alla Workfront-kunder kommer till slut att flyttas till Adobe Admin Console. När din organisation har gått över till Adobe Admin Console hanteras Workfront-autentisering av konsolen. Om ni förbereder och gör det här steget tidigare lägger ni grunden för effektiv arbetshantering och positionerar organisationen för snabbare innovation i framtiden
 
-En översikt över Adobe Admin Console finns i [Översikt över Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+En översikt över Adobe Admin Console finns i [Admin Console Overview](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
 ## Checklista för migrering
 
@@ -35,7 +41,7 @@ För att din organisation ska kunna migrera till Adobe Admin Console måste du u
 
    * Om din organisation inte har någon befintlig Adobe Admin Console, eller om du inte vill använda en befintlig Adobe Admin Console, kan Workfront Support hjälpa dig att skapa en ny.
 
-   * Om du har flera Adobe Admin Console och är osäker på vilken som är lämpligast att lägga till Workfront i kontaktar du Workfront Support.
+   * Om du har flera Adobe Admin Console och är osäker på vilken som är bäst att lägga till Workfront kontaktar du Workfront Support.
 
 1. Bekräfta med Workfront Support att du vill använda en befintlig Adobe Admin Console eller skapa en ny.
 
@@ -45,11 +51,11 @@ För att din organisation ska kunna migrera till Adobe Admin Console måste du u
    >
    >Var beredd att tala med Workfront Support och ditt IT-team om autentiseringsinställningar som enkel inloggning (SSO) eller icke-enkel inloggning (SSO).
 
-   Instruktioner finns i avsnittet Identity Management i [Distributionshandboken för Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/deployment-planning.html).
+   Instruktioner finns i avsnittet Identity Management i [Distributionshandboken för Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Villkorligt) Om du använder enkel inloggning ansluter du den nya Adobe Admin Console till din befintliga SSO-leverantör.
 
-   Mer information och instruktioner finns i [Konfigurera identitet](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html).
+   Mer information och instruktioner finns i [Konfigurera identitet](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
