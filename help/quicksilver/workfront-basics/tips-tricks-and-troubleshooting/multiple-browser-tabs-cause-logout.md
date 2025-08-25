@@ -4,18 +4,15 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Flera webbläsarflikar gör att Workfront loggar ut
 description: När en användare har flera webbläsarflikar öppna kan Workfront automatiskt logga ut.
 feature: Get Started with Workfront
-source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
+exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
 # Flera webbläsarflikar gör att Workfront loggar ut
-
->[!IMPORTANT]
->
->Problemet gäller endast organisationer som har anslutit sig till Adobe IMS.
 
 ## Problem
 

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -25,15 +25,16 @@ ht-degree: 0%
 >
 >Som en del av den här ändringen har Microsoft beslutat att ändra hur tokens återaktiveras. Efter den **30 juni 2025** kan administratörer inte längre återaktivera tokens själva. Det är bara Microsoft Support som kan bevilja undantag. **Den 1 oktober 2025 inaktiveras äldre token för alla innehavare. Undantag beviljas inte.**
 
+<!--DELETE ME MARCH 2026-->
+
 Om du aktiverar SAML 2.0-autentisering och du vill att dina användare ska kunna logga in på Workfront från Microsoft Outlook med sina SAML 2.0-inloggningsuppgifter, måste du aktivera SAML 2.0 för autentisering i Office-tillägg.
 
 >[!NOTE]
 >
->Detta är inte tillgängligt om din organisations Workfront-instans använder en anpassad SSO-portal.>
-><!--
->or is enabled with Adobe IMS>
->-->
->Kontakta nätverks- eller IT-administratören om du behöver mer information.
+>Detta är inte tillgängligt om din organisations Workfront-instans använder en anpassad SSO-portal.
+>>Kontakta nätverks- eller IT-administratören om du behöver mer information.
+<!--
+or is enabled with Adobe IMS-->
 
 ## Åtkomstkrav
 

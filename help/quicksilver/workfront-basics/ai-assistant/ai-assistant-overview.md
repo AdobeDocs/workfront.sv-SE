@@ -5,9 +5,9 @@ description: Översikt över AI Assistant
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Om du vill aktivera AI Assistant för din organisation måste **alla** av följande gälla:
 
-* Din organisation måste ha migrerat till Adobe IMS (Identity Management System)
-* Adobe Unified Experience måste aktiveras
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled-->
 * Din organisation måste ha en Select-, Prime- eller Ultimate Workfront-plan
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands
 
@@ -113,7 +115,7 @@ AI-assistenten kan fråga efter data som är kopplade till följande objekttyper
 * Workfront Planning - poster
 
 
-## Access AI Assistant
+## Få tillgång till AI-assistenten
 
 1. Klicka på AI Assistant-ikonen ![AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) överst på en Workfront-sida.
 1. Skriv din fråga eller fråga i panelen till höger på skärmen.
