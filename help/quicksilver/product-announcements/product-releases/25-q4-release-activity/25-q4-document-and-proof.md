@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 På den här sidan beskrivs förbättringarna av Dokument och Korrektur som gjorts i den fjärde utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Enhetliga godkännanden stegvis utrullning
+
+>[!NOTE]
+>
+>Produktionsrelease för kunder: fasad utrullning från 17 juli 2025
+
+
+Vi aktiverar enhetliga godkännanden, som tidigare kallades för godkännande av nya dokument, i en stegvis utrullning. Den här funktionaliteten aktiveras automatiskt i din Workfront-instans under de kommande sex månaderna.
+
+Enhetliga godkännanden ersätter godkännanden i äldre dokument och ger följande funktioner direkt i ett dokument:
+
+* Utse ett helt Workfront-team som granskare eller godkännare
+* Ange en tidsgräns för granskning eller godkännande
+* Skapa och återanvänd godkännandemallar
+* Använd nya versioner
+* Visa flera viktiga resultatindikatorer för dina godkännanden i Workfront Home widgets
+* Använd paneler på arbetsytan för att visa rapportinformation om enhetliga godkännanden
+
+Mer information finns i [Översikt över enhetliga godkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Ny Workfront AI Reviewer
 
