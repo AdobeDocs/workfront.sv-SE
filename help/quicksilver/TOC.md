@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
 workflow-type: tm+mt
 source-wordcount: '13461'
 ht-degree: 0%
@@ -1527,7 +1527,7 @@ ht-degree: 0%
          * [Filtrera en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
          * [Ändra namnet eller beskrivningen för en Canvas-kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
          * [Ta bort en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-         * [Lägga till en Canvas-kontrollpanel i en layoutmall](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template)
+         * [Lägga till en Canvas-kontrollpanel i en layoutmall](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
       * Hantera rapporter {#manage-reports}
          * [Hantera rapporter: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
          * [Redigera en rapport på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
