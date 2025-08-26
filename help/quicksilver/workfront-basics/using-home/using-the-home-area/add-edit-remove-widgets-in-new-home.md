@@ -6,9 +6,9 @@ description: Du kan välja bland ett antal widgetar för att anpassa innehållet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Så här lägger du till en widget:
    ![Knappen Anpassa](assets/customize-button.png)
 1. Bläddra till avsnittet **Widgets** och markera sedan de widgetar som du vill lägga till.
 
-+++ Expandera om du vill visa en detaljerad lista över tillgängliga widgetar
+   +++ Expandera om du vill visa en detaljerad lista över tillgängliga widgetar
 
    * **Mitt arbete**\
        Visar alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Du kan klicka på knappen Arbeta på för att börja arbeta med ett objekt eller på knappen Klar för att markera det som färdigt. Du kan också uppdatera information (Status, Villkor, Procent färdigt) om uppgifter och problem, logga tid och lägga till uppdateringar från widgeten Mitt arbete.
@@ -119,7 +119,10 @@ Så här lägger du till en widget:
        Visar alla väntande begäranden för team som du är i sorterad efter team, samt knappar som du kan använda för att tilldela en användare en förfrågan direkt eller för att arbeta med den själv.
 
    * **Mina godkännanden**\
-       Visar alla väntande tilldelade eller delegerade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
+       Visar alla väntande tilldelade eller delegerade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten. Godkännanden ordnas enligt följande:
+      * Försenade deadlines
+      * Kommande deadlines
+      * Artiklar utan deadline
 
    * **Mätvärden för dokumentgodkännande**\
            Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden. Du måste ha [Enhetliga godkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) aktiverat för att kunna använda den här widgeten.
@@ -134,7 +137,7 @@ Så här lägger du till en widget:
      >
      >Du måste ha behörighet att skapa uppgifter för att kunna skapa uppgifter i Att göra-widgeten, och bara personliga uppgifter som anges av den aktuella användaren visas.
 
-+++
+   +++
 
 1. Klicka på **Lägg till widget**.
 

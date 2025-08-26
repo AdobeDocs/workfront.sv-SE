@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Min widget för godkännanden sorterar nu automatiskt efter deadline </a><p></p>
-            <p>Vi har uppdaterat widgeten Mina godkännanden hemma för att sortera efter deadline (fallande) som standard. På så sätt kan de mest brådskande godkännandena visas högst upp i listan. </p><p><b>Obs!</b> För närvarande kan endast korrekturgodkännanden sorteras efter deadline i widgeten Mina godkännanden.</p>
+            <p>Vi har uppdaterat widgeten Mina godkännanden hemma för att sortera efter deadline (stigande) som standard. På så sätt kan de mest brådskande godkännandena visas högst upp i listan. Godkännanden ordnas enligt följande:</p>
+            <ul>
+                <li>Försenade deadlines</li>
+                <li>Kommande deadlines</li>
+                <li>Artiklar utan deadline</li>
+            </ul>
+            <p><b>Obs!</b> För närvarande kan endast korrekturgodkännanden sorteras efter deadline i widgeten Mina godkännanden.</p>
         </td>
         <td>29 maj 2025</td>
         <td>12 juni 2025</td>
@@ -343,7 +349,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -379,13 +385,13 @@ Information om nyheter och uppdateringar finns i [Nyheter i API-version 20](/hel
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Workfront Maintenance Updates
+### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 
 
