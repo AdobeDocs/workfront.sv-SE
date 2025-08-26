@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '13449'
+source-wordcount: '13461'
 ht-degree: 0%
 
 ---
@@ -1524,14 +1524,15 @@ ht-degree: 0%
          * [Hantera arbetsytans kontrollpaneler: artikelindex](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Dela en arbetsytans kontrollpanel](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
          * [Ordna rapporter på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+         * [Filtrera en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
          * [Ändra namnet eller beskrivningen för en Canvas-kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
          * [Ta bort en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+         * [Lägga till en Canvas-kontrollpanel i en layoutmall](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template)
       * Hantera rapporter {#manage-reports}
          * [Hantera rapporter: artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
          * [Redigera en rapport på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
          * [Redigera rapportfilter på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
          * [Ta bort en rapport på arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
-
    * Rapporter {#reports}
       * [Rapporter](reports-and-dashboards/reports/reports-overview.md)
       * Grundläggande om rapportering {#report-basics}

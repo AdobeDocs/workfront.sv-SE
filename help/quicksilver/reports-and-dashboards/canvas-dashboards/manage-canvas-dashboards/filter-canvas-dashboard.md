@@ -5,11 +5,9 @@ title: Filtrera en arbetsytans kontrollpanel
 description: Du kan använda ett filter på en Canvas-kontrollpanel när den har skapats.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -20,9 +18,9 @@ ht-degree: 0%
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Du kan använda ett filter på instrumentpanelen som innehåller uppmaningar __________
+Du kan använda ett filter på en Canvas Dashboard som innehåller uppmaningar. En prompt fungerar som en filtermodifierare som tillämpar ytterligare filtervillkor så att du kan begränsa resultaten ytterligare. Dessa uppmaningar kan ändras varje gång du tillämpar filtret, så att du kan justera det visade resultatet utan att behöva redigera huvudfiltervillkoren för kontrollpanelen eller varje enskild rapport.
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,6 +67,26 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 
 ## Filtrera en kontrollpanel
 
+Utför följande steg i den listade ordningen för att filtrera en kontrollpanel:
+
+* [Del 1: Skapa ett kontrollpanelsfilter](#part-1-create-a-dashboard-filter)
+* [Del 2: Skapa en kontrollpanel](#part-2-define-a-dashboard-prompt)
+* [Del 3: Använda en kontrollpanel](#step-3-apply-a-dashboard-prompt)
+
+>[!NOTE]
+>
+>Kontrollpanelsfiltret gäller för alla rapporter där kontrollpanelsfilter inte är inaktiverade.  Du kan utesluta enskilda rapporter från att ha filter på kontrollpanelsnivå genom att utöka åtgärdsmenyn för varje rapport och välja alternativet **Inaktivera filter**.
+
+
+### Del 1: Skapa ett kontrollpanelsfilter
+
+Med ett kontrollpanelsfilter kan du använda ett gemensamt filter för alla rapporter som är tillgängliga på en kontrollpanel utan att behöva ändra filtren för varje enskild rapport.
+
+>[!NOTE]
+>
+>Dessa filter kan bara konfigureras av en användare med behörigheten Hantera på instrumentpanelen.
+
+
 {{step1-to-dashboards}}
 
 1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
@@ -85,9 +103,22 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 
       ![Ikonen Redigera](assets/edit-icon.png)
 
-   1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
+   1. Klicka på **Lägg till villkor** och lägg sedan till följande information:
+      * Markera ett fält som du vill filtrera efter.
+      * Välj ett alternativ (eller filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla.
 
    1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.
+
+1. Fortsätt till [Del 2: Skapa en instrumentpanelsprompt](#part-2-define-a-dashboard-prompt).
+
+
+### Del 2: Ange en kontrollpanelsprompt
+
+På en kontrollpanel får användarna möjlighet att lägga till ytterligare anpassade filter för rapporter som är tillgängliga på kontrollpanelen.
+
+>[!NOTE]
+>
+>Alternativen i instrumentpanelsprompten kan bara konfigureras av en användare med behörigheten Hantera på instrumentpanelen.
 
 1. Följ stegen nedan för att lägga till en fråga:
 
@@ -95,7 +126,7 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 
    1. Ange en etikett i fältet **Anpassa etikett**.
 
-   1. Klicka på **Markera fält** och ange sedan det fält du vill _______.
+   1. Markera det fält som du vill att uppmaningen ska baseras på genom att skriva namnet på fältet och sedan markera det när det visas i listan. 
 
 1. Följ stegen nedan om du vill lägga till en anpassad fråga:
 
@@ -105,10 +136,34 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 
    1. Klicka på **Lägg till nytt alternativ**.
 
-   1. Ange _____ i fältet **Alternativvärde**.
+   1. Ange promptnamnet i fältet **Alternativvärde**.
 
    1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
+
+      >[!NOTE]
+      >
+      >Villkoret för en anpassad prompt kan bara redigeras i textläge. Detta gör att flera villkor kan användas i ett enda fält.
+
 
    1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.
 
 1. Klicka på **Spara** för att använda filtret på instrumentpanelen.
+
+1. Fortsätt till [Del 3: Ange en instrumentpanelsprompt](#step-3-apply-a-dashboard-prompt).
+
+### Steg 3: Ange en kontrollpanelsprompt
+
+Alla användare som har tillgång till en kontrollpanel kan lägga till en kontrollpanelsfråga på en kontrollpanel för arbetsytan när filtret och uppmaningarna har skapats.
+
+{{step1-to-dashboards}}
+
+1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
+
+1. På sidan **Kontrollpaneler** på arbetsytan väljer du den kontrollpanel som du vill använda uppmaningen på.
+
+1. Klicka på **Filter** i det övre vänstra hörnet på sidan med information om kontrollpanelen. Panelen Filtersida öppnas.
+
+1. I avsnittet **Visa poster där..** väljer du ett villkor för en eller alla uppmaningar som visas. Uppmaningen tillämpas och en **kontrollpanelsfilter**-tagg visas i hörnet av rapportwidgeten.
+   ![Välj villkor](assets/prompts-list.png)
+
+1. Klicka på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet om du vill dölja panelen.
