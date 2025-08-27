@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -46,6 +46,11 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Storlek på Excel-fil som du kan importera för att skapa posttyper | 5 MB |
 | Antal rader som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 25 000 |
 | Antal kolumner som du kan importera i en CSV- eller Excel-fil för att skapa posttyper | 500 |
+
+<!--
+| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
+| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
+-->
 
 *Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.
 

@@ -6,14 +6,23 @@ description: När en uppgift i ett projekt kräver mer arbete än du ursprunglig
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
 
 # Konvertera en uppgift till ett projekt
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
 
 När en uppgift i ett projekt kräver mer arbete än du ursprungligen planerade, kan du konvertera den till ett projekt.
 
@@ -166,7 +175,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på ikonen **Mer** ![](assets/more-icon.png) och sedan på **Konvertera till projekt**.
 1. Välj något av följande alternativ:
 
-   * **Nytt projekt**
+   * **Nytt projekt**, om du vill skapa ett projekt utan att använda en mall
    * En mall i avsnittet **Välj från mallar**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
@@ -174,15 +183,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på **Fortsätt** på meddelandet som visas.
 1. Ange följande i rutan **Konvertera till projekt**:
 
-   * **Namn**: Namnge projektet. Standardnamnet är namnet på aktiviteten.
-   * (Valfritt) **Beskrivning**: Beskriv syftet med det här projektet.
-   * (Valfritt och villkorligt) Om du har valt att skapa ett projekt från en mall ska du uppdatera de tillgängliga fälten i dialogrutan **Konvertera till projekt**.
+   * **Namn**: Namnge projektet. Standardnamnet är namnet på aktiviteten. Detta är ett obligatoriskt fält.
+   * **Beskrivning**: Beskriv syftet med det här projektet.
+   * (Villkorligt) Om du har valt att skapa ett projekt från en mall uppdaterar du de tillgängliga fälten i rutan **Konvertera till projekt**.
 
      Mer information om hur du redigerar fält i projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Om du vill uppdatera fälten i avsnittet Ekonomi i rutan Konvertera till projekt måste du ha Redigera åtkomst till finansiella data på åtkomstnivån. Om du har Visa åtkomst till finansiella data på din åtkomstnivå överförs all ekonomisk information från mallen till det nya projektet och du kan inte redigera den medan du konverterar problemet. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Om du vill uppdatera fälten i avsnittet Ekonomi i rutan Konvertera till projekt måste du ha Redigera åtkomst till finansiella data på åtkomstnivån. Om du har Visa åtkomst till finansiella data på din åtkomstnivå överförs all ekonomisk information från mallen till det nya projektet och du kan inte redigera den medan du konverterar problemet. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Valfritt) Lägg till **Anpassad Forms** i det nya projektet.
 
@@ -191,6 +200,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >Om ett anpassat formulär med flera objekt som är kopplat till uppgiften är konfigurerat för användning med både uppgifter och projekt, behålls all information som sparas i formuläret när du konverterar.
      >
      >
-     >Om du använder en mall för konverteringen och ett anpassat formulär som är kopplat till mallen innehåller ett anpassat fält som också finns i ett anpassat formulär som är kopplat till uppgiften, används fältvärdet från uppgiften för det nya projektet. Om det anpassade fältet är tomt för uppgiften används dock värdet från mallen.
+     >Om du använder en mall för konverteringen och ett anpassat formulär som är kopplat till mallen innehåller ett anpassat fält som också finns i ett anpassat formulär som är kopplat till uppgiften, används fältvärdet från uppgiften för det nya projektet. Om det anpassade fältet däremot är tomt för uppgiften används värdet från mallen.
 
-1. Klicka på **Spara ändringar**.
+1. Klicka på **Spara ändringar** <!--<span class="preview">or **Convert to Project**</span>-->.

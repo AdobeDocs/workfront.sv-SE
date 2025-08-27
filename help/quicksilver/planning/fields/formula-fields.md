@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -112,14 +112,32 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 
   Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 * Du kan referera till formelfält i nya formler. När värdet uppdateras i ett fält som det refereras till i ett formelfält, uppdateras alla efterföljande fält som refererar till det fältet eller formelfälten som innehåller det fältet automatiskt.
-* Formelfält kan visas som `#ERROR!` i följande fall:
-   * När ett fält som används i en formel tas bort.
-   * När ett fält som används i ett aggregerat uppslagsfält visas som `#ERROR!`.
 
-     Om du till exempel visar ett uppslagsfält som innehåller summerade uppslagsformelfält och ett av de refererade formelfälten visas som `#ERROR!`.
-   * När ett formelvärde inte kan visas i det valda formatet.
 
-     Om jag t.ex. väljer Nummer som format för ett formelfält, och de fält som används i formeln är textfält som bara visar icke-numeriska textvärden, visas formelresultatet som `#ERROR!`, eftersom det inte kan tolka texten till ett tal.
+<!--
+
+<div class="preview">
+
+## Limitations of formula fields
+
+* You can add a maximum of 20 formula fields for one record type. 
+
+   Formula lookup fields added from connected record types do not count against this limit. 
+
+* The formula expression cannot exceed 50,000 characters. 
+
+* Formula fields might display as `#ERROR!` in the following cases:
+   * When a field used in a formula is deleted.
+   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
+   
+      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
+   *  When a formula value cannot be displayed in the selected format. 
+   
+      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
+ 
+ </div>
+ 
+ -->
 
 ## Formler som stöds
 
