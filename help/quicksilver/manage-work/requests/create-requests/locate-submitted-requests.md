@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Objektbehörigheter</td> 
    <td><p>Visa behörigheter eller högre för begäranden</p></td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Produkt</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -108,7 +112,7 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
          <td> <p>Namnet på det matchande objektet som kan vara en uppgift eller ett projekt som begäran konverterades till. </p> <p>Klicka på namnet på uppgiften eller projektet för att öppna dem. </p> <p>Om begäran inte konverterades är det här fältet tomt. </p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader">Bana</td> 
+         <td role="rowheader">Sökväg</td> 
          <td>Namnet på begärandekön, ämnesgrupper och köämnen där begäran ursprungligen skickades. </td> 
       </tr> 
       <tr> 

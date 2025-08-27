@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,10 @@ Du kan skicka in en begäran om Workfront Planning från följande områden:
 
 * Under Begäranden i Workfront.
 * Från en direktlänk till det begärandeformulär som delats.
-
-  I den här artikeln beskrivs hur du kan skicka en begäran om att lägga till nya poster till en posttyp från området Begäranden i Workfront, eller från en delad länk.
 * Från posttypssidan när du lägger till eller begär en ny post. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+
+I den här artikeln beskrivs hur du kan skicka en begäran om att lägga till nya poster till en posttyp från området Begäranden i Workfront, eller från en delad länk.
+
 
 Workfront-användare och externa användare kan skicka förfrågningar till posttyperna Planning och skapa poster. <!--double check on the external users-->
 
@@ -160,7 +161,9 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
    >* Du kan visa minst en arbetsyta.
    >
 
-1. Klicka på **Ny begäran**.
+<!--Production-->
+
+1. Klicka på **Ny begäran** i produktionsmiljön.
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
    * De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste.
    * 50 ytterligare begärandeköer för Workfront och planeringsförfrågningsformulär visas i alfabetisk ordning i avsnittet **Alla förfrågningsformulär**. Du kan söka efter en begärandekö som inte visas som standard.
 
-1. Gör något av följande:
+1. Gör något av följande i produktionsmiljön:
 
    * Markera planeringsförfrågningsformulären i avsnitten Senaste eller Alla förfrågningsformulär
    * Börja skriva namnet på ett planeringsbegärandeformulär i sökrutan och klicka sedan på kortet när det visas i listan.
 
    Formuläret för begäran öppnas.
+
+<!-- Put preview section here-->
+1. <span class="preview">I förhandsgranskningsmiljön väljer du ett begärandeformulär eller en kö i området Senast använda begärandeformulär, eller börjar skriva in formulärets eller köns namn i listan och markerar det när det visas.
 
 1. Uppdatera fälten som är tillgängliga i begärandeformuläret. Fält med en röd asterisk är obligatoriska.
 1. Klicka på **Skicka**.

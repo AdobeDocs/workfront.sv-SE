@@ -6,9 +6,9 @@ description: Du kan konfigurera ett projekt så att användare kan lägga till p
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till problem</p>  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Produkt</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -75,7 +79,7 @@ Följande villkor krävs för att konfigurera ett projekt så att användare kan
 >* Workfront tillåter en unik e-postkö per begäran för alla kluster. Om du väljer att inaktivera din begärandekö behåller du den e-postadress du skapade så länge som den fortfarande finns i rutan Ange e-postadress. Om du väljer att inte längre använda e-postadressen måste du ta bort den från fältet Intag-e-post så att den kan användas senare.
 >
 >* Om det finns flera köämnen eller ämnesgrupper i kön i begärandekön väljer Workfront slumpmässigt det köämne som förfrågningarna ska gå till, vilket gör det svårt att hantera e-postförfrågningar.
->Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
+>  >Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
 
 1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
 1. Klicka på **Köinformation** i den vänstra panelen.

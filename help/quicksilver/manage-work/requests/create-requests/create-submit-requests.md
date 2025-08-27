@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,17 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Planerat arbete representeras i Adobe Workfront av projekt och uppgifter. Du kan dock arbeta i en miljö där oplanerat arbete, i form av förfrågningar, kan komma in när som helst. Workfront tillhandahåller ett arbetsflöde för den här typen av miljö genom att använda frågeköer.
 
@@ -50,6 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
@@ -64,6 +73,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till problem</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Produkt</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Du måste ha Adobe Workfront Planning för att kunna visa planeringsförfrågningar eller begära formulär</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Så här skapar du en begäran i Workfront webbprogram:
 
 1. (Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning och finns i produktionsmiljön visas följande i rutan **Ny begäran**:</span>
 
-   * De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste.
-   * 50 ytterligare begärandeköer för Workfront och planeringsförfrågningsformulär visas i alfabetisk ordning i avsnittet **Alla förfrågningsformulär**. Du kan söka efter en begärandekö som inte visas som standard.
-
-   ![Ny begäranderuta med ett enhetligt arbetsflöde för planering av begäranden](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   Klicka på ett av kökorten för Workfront-begäranden eller sök efter ett och klicka sedan på det när det visas i listan.
-1. (Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning och finns i förhandsgranskningsmiljön visas följande i rutan **Ny begäran**:
-
    <ul><li>De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste. </li>
     <li>Alla ytterligare förfrågningsformulär för Workfront och Planning <b>Alla förfrågningsformulär</b>. Du kan söka efter ett begärandeformulär som inte visas som standard. </li>
     <li>Alla ytterligare kösökvägar för Workfront- och planeringsförfrågningar visas i avsnittet <b>Alla sökvägar för förfrågningar</b>. Du kan söka efter en begärandekö som inte visas som standard.</li></ul>
    Klicka på någon av sökvägarna eller formulären för Workfront-frågekö, eller sök efter en, och klicka sedan på den när den visas i listan.
+1. <span class="preview"> (Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning väljer du en av sökvägarna eller formulären för Workfront begärandekö eller klickar på sökfältet. </span>
+
+   <span class="preview">När du klickar på sökfältet visas en listruta med de senast använda köerna och formulären först. Välj en från listan eller börja skriva och välj kön eller listan när den visas.</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Tänk på följande när det gäller den nya begärandeupplevelsen som för närvarande är tillgänglig i förhandsgranskningen:</span>
+   >* <span class="preview">Listan innehåller både Workfront begärandeköer och Workfront Planning-förfrågningsformulär.</span>
+   >* <span class="preview">Du kan filtrera listan efter objekttyp.</span>
+   >* <span class="preview">Om du bara vill visa Workfront Request-köer filtrerar du efter `Issue` objekttyper.</span>
 
 1. (Villkorligt) Om du växlade till den nya funktionen som omfattar Workfront Planning väljer du ämnesgrupper och ställer ämnen i kö och fortsätter att uppdatera formuläret.
 
