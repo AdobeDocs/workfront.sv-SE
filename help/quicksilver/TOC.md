@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+source-git-commit: 6f1b24548fe99b5833dce0e5456eaefa5591abd1
 workflow-type: tm+mt
-source-wordcount: '13461'
+source-wordcount: '13464'
 ht-degree: 0%
 
 ---
@@ -830,6 +830,7 @@ ht-degree: 0%
          * [Exportera en lista](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [Redigera objekt i en lista i Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [Ändra hur en lista visas](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+         * [Använd förbättrade listor](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)
       * [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
       * [Vanliga frågor om Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [Översikt över det övre navigeringsfältet](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
