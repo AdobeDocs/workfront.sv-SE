@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
+source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -132,16 +132,16 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td>Gör att du kan välja att aktivera eller inaktivera arbetslistan Prioriteter för dina användare. Användarna kommer fortfarande att se Prioritetsikonerna i Workfront, men de kommer inte att ha tillgång till funktionerna. Mer information om prioriteringar finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Kom igång med prioriteringar</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">Aktivera AI </td> 
-      <td>Gör att du kan välja att aktivera AI, inklusive AI-assistenten. <p><b>Obs!</b> Din organisation måste uppfylla specifika krav för att kunna aktivera AI. Mer information om AI, inklusive kraven, finns i <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Översikt över AI Assistant</a>.</p></td> 
+      <td role="rowheader"><span class="preview">Aktivera AI</span> </td> 
+      <td><span class="preview">Gör att du kan välja att aktivera AI, inklusive AI-assistenten. <p><b>Obs!</b> Din organisation måste uppfylla specifika krav för att kunna aktivera AI. Mer information om AI, inklusive kraven, finns i <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Översikt över AI Assistant</a>.</p></span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Fyll i formulär automatiskt </td> 
-      <td>Gör att du kan välja att aktivera möjligheten att fylla i begärandeformulär automatiskt baserat på tidigare begärandedata. Mer information om Komplettera automatiskt i formulär finns i <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Fyll i en begäran automatiskt från tidigare data</a>.</td> 
+      <td role="rowheader"><span class="preview">Fyll i formulär automatiskt </span></td> 
+      <td><span class="preview">Gör att du kan välja att aktivera möjligheten att fylla i begärandeformulär automatiskt baserat på tidigare begärandedata. Mer information om Komplettera automatiskt i formulär finns i <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Fyll i en begäran automatiskt från tidigare data</a>.</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Anmäl dig till AI Betas </td> 
-      <td>Här kan du välja att aktivera AI-funktioner som finns i Beta. Om du aktiverar det här alternativet kan du välja vilka AI Beta-funktioner som ska aktiveras. Mer information om alla AI Beta-funktioner får du om du klickar på informationsikonen bredvid den funktionen.</td> 
+      <td role="rowheader"><span class="preview">Anmäl dig till AI Betas </span></td> 
+      <td><span class="preview">Här kan du välja att aktivera AI-funktioner som finns i Beta. Om du aktiverar det här alternativet kan du välja vilka AI Beta-funktioner som ska aktiveras. Mer information om alla AI Beta-funktioner får du om du klickar på informationsikonen bredvid den funktionen.</span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Testmiljöer</td> 
