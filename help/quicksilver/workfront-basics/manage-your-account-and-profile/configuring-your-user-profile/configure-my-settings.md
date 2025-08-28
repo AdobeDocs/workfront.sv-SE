@@ -3,22 +3,24 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Konfigurera mina inställningar
 description: Din [!DNL Adobe Workfront] profil innehåller information om dig själv (till exempel ditt namn, e-postadress, adress, telefonnummer, titel). Den innehåller även information om din interaktion med [!DNL Workfront]  och andra användare i ditt företag.
-author: Courtney
+author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
 workflow-type: tm+mt
-source-wordcount: '2891'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
 
 # Konfigurera mina inställningar
 
+{{highlighted-preview}}
+
 <!-- Audited: 01/2024 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
+<p>Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
 -->
 
 Din [!DNL Adobe Workfront]-profil innehåller information om dig själv (till exempel ditt namn, e-postadress, adress, telefonnummer, titel). Den innehåller även information om din interaktion med [!DNL Workfront] och andra användare i ditt företag (t.ex. dina aviseringsinställningar, flikarna som du vill visa i [!DNL Workfront] eller din jobbroll, chef samt grupp- och teammedlemskap).
@@ -246,7 +248,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td> Uppdatera din e-postadress. Detta är ett obligatoriskt fält. Kom ihåg att din e-postadress även är ditt användarnamn för [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong> / <span class="preview"><strong>Ändra lösenord</strong></span></td> 
    <td>Återställ lösenordet i det här avsnittet. Mer information om hur du återställer lösenordet finns i <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Återställ lösenordet</a>.</td> 
   </tr> 
   <tr> 
@@ -254,7 +256,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td> Om din [!DNL Workfront]-administratör har aktiverat en SSO-integrering med [!DNL Workfront] visas ditt SSO-användarnamn i det här fältet. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Om administratören för [!DNL Workfront] aktiverade en SSO-integrering med [!DNL Workfront] och har uppdaterat användare för enkel inloggning, är det här fältet markerat som standard. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste du logga in på [!DNL Workfront] med dina SSO-autentiseringsuppgifter. Om du avmarkerar den kan du logga in på [!DNL Workfront] med dina [!DNL Workfront]-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar [!DNL Workfront] med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Enkel inloggning i [!DNL Workfront]: artikelindex</a>. Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -313,8 +315,8 @@ Du kan ändra något av följande i det här underavsnittet:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Profile Picture]</strong></td>
-        <td>Din profilbild blir din avatar och den visas i hela [!DNL Workfront]-systemet, oavsett var ditt namn visas.</td>
+        <td><strong>[!UICONTROL Profile photo]</strong></td>
+        <td>Ditt profilfoto blir din avatar och visas i hela [!DNL Workfront]-systemet, oavsett var ditt namn visas.</td>
     </tr>
 </table>
 
@@ -342,11 +344,6 @@ Du kan ändra något av följande i det här underavsnittet:
    <td><p>Ange önskat språk här. Detta styr vilket språk, datum och nummerformat som används i utgående e-postmeddelanden.</p>
    <p><strong>Obs!</strong> När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Mer information finns i <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändra Adobe Experience Cloud-språk</a> i artikeln <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Språk som stöds i Adobe Workfront</a>.</p></td> 
   </tr>
-
-<tr> 
-   <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>Det här fältet refererar till en inaktuell funktion som har tagits bort från [!DNL Workfront].</td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) Generera korrektur automatiskt när dokument överförs</strong></td> 
    <td>Markera det här fältet om du vill börja generera ett korrektur omedelbart efter att dokumentet har lästs in i [!DNL Workfront]. Det här fältet är inaktiverat som standard och kan bara uppdateras av en Workfront-administratör.<br>Det här fältet är bara tillgängligt om ditt företag har köpt Workfront Proof-komponenten för Workfront och om du har aktiverats som korrekturanvändare. Mer information om Workfront Proof finns i <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Hantera korrektur i Adobe Workfront</a>.
@@ -373,7 +370,7 @@ Du kan ändra något av följande i det här underavsnittet:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
-   <td>Det här fältet är bara synligt för en användare som också är [!DNL Workfront]-administratör och bör vara markerat som standard. Detta innebär att användaren är aktiv och kan logga in på [!DNL Workfront]</td> 
+   <td>Det här fältet är bara synligt för en användare som också är [!DNL Workfront]-administratör och bör aktiveras som standard. Detta innebär att användaren är aktiv och kan logga in på [!DNL Workfront]</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
@@ -459,8 +456,8 @@ Använd något av följande i det här avsnittet:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong></td> 
-   <td>Markera den här rutan om du vill schemalägga att ditt konto ska inaktiveras efter en viss tidsperiod. I <p><strong>[!UICONTROL Scheduled Deactivation Date]</strong> anger vilket datum ditt konto ska inaktiveras. Information om hur du inaktiverar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>. </p><p>Du kan redigera inaktiveringsfälten för ditt konto om du har en [!UICONTROL Standard]- eller [!UICONTROL Plan]-licens eller om du är [!DNL Workfront]-administratör. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong> / <span class="preview"><strong>Ange inaktiveringsdatum</strong></span></td> 
+   <td><p>Markera den här rutan / <span class="preview">klicka på den här knappen</span> om du vill schemalägga att ditt konto ska inaktiveras efter en viss tid. I <strong>[!UICONTROL Scheduled Deactivation Date]</strong> som visas anger du datumet efter vilket ditt konto inaktiveras. Information om hur du inaktiverar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>. </p><p>Du kan redigera inaktiveringsfälten för ditt konto om du har en [!UICONTROL Standard]- eller [!UICONTROL Plan]-licens eller om du är [!DNL Workfront]-administratör. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 

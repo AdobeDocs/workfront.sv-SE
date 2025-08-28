@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: b235945deb3254feaf671083fc992786851a3286
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >title="Inaktivera en användare"
 >abstract="När du inaktiverar en användare tas de bort från Workfront och Frame.io. Inaktiverade användare kan återaktiveras senare."
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -30,7 +32,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -88,7 +90,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Innan du inaktiverar en Workfront-administratör, Standard eller Plan-licens måste du koppla deras objekt och aktiviteter till en annan användare.
 
-Mer information finns i [Inaktivera Workfront-administratörer och Planera licensanvändare](#about-deactivating-workfront-administrators-and-plan-license-users) i den här artikeln.
+Mer information finns i [Inaktivera Workfront-administratörer och Standard- eller Plan-licensanvändare](#about-deactivating-workfront-administrators-and-plan-license-users) i den här artikeln.
 
 ## Inaktivera en användare
 
@@ -127,17 +129,17 @@ Så här schemalägger du en användare för inaktivering:
 
 1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
 1. Klicka på **Resursplanering** i den vänstra panelen i rutan **Redigera användare**.
-1. Markera kryssrutan **Schemalägg inaktivering**.
+1. Markera kryssrutan **Schemalägg inaktivering**, <span class="preview"> eller klicka på **Ange inaktiveringsdatum**</span>.
 
-1. Välj datum och tid för **schemalagt inaktiveringsdatum**.
+1. Välj datum och tid för **schemalagt inaktiveringsdatum** / <span class="preview">**inaktiveringsdatum**</span>.
 
    >[!NOTE]
    >
    >* I tidsrutan kan du bara välja hela timsteg, inte minuter.
-   >* Om du väljer en tid för den aktuella dagen som har gått schemalägger Workfront avaktiveringen för följande dag kl. 12:00.
+   >* Om du väljer en tid för den aktuella dagen som har gått schemaläggs inaktiveringen för följande dag kl. 12:00.:00
    >* Den valda tiden matchar datorns tidszon för användaren som schemalägger inaktiveringen.
 
-1. Klicka på **Spara ändringar**.
+1. Klicka på **Spara ändringar** <span class="preview"> eller **Spara**</span>.
 
 Användaren inaktiveras den valda dagen någon gång efter den valda tiden. Om du har valt att inaktivera flera användare samtidigt inaktiveras alla markerade användare den valda dagen någon gång efter den valda tiden.
 
