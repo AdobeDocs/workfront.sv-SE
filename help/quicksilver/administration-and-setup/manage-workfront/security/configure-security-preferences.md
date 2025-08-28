@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{important-admin-console-onboard}}
 
@@ -107,29 +111,37 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
         <li>Kalender</li>
        </ul><p>Det här alternativet är aktiverat som standard.</p> <p><b>Viktigt</b>: Åtkomstnivån Extern användare är inte tillgänglig i din Workfront-instans om det här alternativet är inaktiverat. Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Inbyggda åtkomstnivåer</a>.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Kräv att externa användare registrerar sig med ett lösenord</td> 
-      <td> <p>Kräver att externa användare registrerar sig innan de kan visa objekt i Workfront. Som standard är det här alternativet inaktiverat. När du aktiverar det här alternativet ombeds personer som saknar ett Workfront-konto och som är inkluderade i vissa uppdateringar via sin e-postadress att skapa ett konto innan de kan visa det objekt de är inkluderade i. Detta skapar ett externt användarkonto åt dem.</p> <p>Det här alternativet är inaktiverat som standard.</p> </td> 
+     <!--<tr> 
+      <td role="rowheader">Require external users to register with a password</td> 
+      <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Logga ut användare automatiskt efter</td> 
-      <td> Här kan du ange när en användare loggas ut från Workfront efter en viss inaktivitetsperiod. Som standard loggas användare ut efter 8 timmars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p> <p>Den här inställningen är inte tillgänglig för organisationer som har migrerats till Adobe IMS.</p></td> 
+      <td role="rowheader">Automatically log users out after</td> 
+      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Logga ut användare automatiskt efter </td> 
-      <td>Här kan du ange när en användare är utloggad från Workfront-programmet, efter en tids inaktivitet. Som standard loggas användare ut efter 7 dagars inaktivitet. <p>Det här alternativet påverkar även Workfront-kunder som använder en enda inloggningslösning.</p> <p>Den här inställningen är inte tillgänglig för organisationer som har migrerats till Adobe IMS.</p></td> 
-     </tr> 
+      <td role="rowheader">Automatically log mobile users out after </td> 
+      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> -->
      <tr> 
       <td role="rowheader">Anpassad hjälp-URL</td> 
       <td>Här kan du definiera en intern anpassad hjälpwebbplats där hjälpikonen för huvudmeny kan visas. Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Konfigurera en anpassad hjälp-URL</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Användare i systemet ser som standard den nya hemupplevelsen </td> 
-      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När det här alternativet är inaktiverat visas inte den banderoll som gör att användaren kan växla till Nytt hem, men användaren kan fortfarande navigera till sin nya hemsida genom att ange <code>/home/workspaces</code> manuellt i slutet av sin instans-URL. Den här inställningen är aktiverad som standard.</td> 
-     </tr>
-     <tr> 
       <td role="rowheader">Aktivera arbetslistan Prioriteter </td> 
       <td>Gör att du kan välja att aktivera eller inaktivera arbetslistan Prioriteter för dina användare. Användarna kommer fortfarande att se Prioritetsikonerna i Workfront, men de kommer inte att ha tillgång till funktionerna. Mer information om prioriteringar finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Kom igång med prioriteringar</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Aktivera AI </td> 
+      <td>Gör att du kan välja att aktivera AI, inklusive AI-assistenten. <p><b>Obs!</b> Din organisation måste uppfylla specifika krav för att kunna aktivera AI. Mer information om AI, inklusive kraven, finns i <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Översikt över AI Assistant</a>.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Fyll i formulär automatiskt </td> 
+      <td>Gör att du kan välja att aktivera möjligheten att fylla i begärandeformulär automatiskt baserat på tidigare begärandedata. Mer information om Komplettera automatiskt i formulär finns i <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Fyll i en begäran automatiskt från tidigare data</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Anmäl dig till AI Betas </td> 
+      <td>Här kan du välja att aktivera AI-funktioner som finns i Beta. Om du aktiverar det här alternativet kan du välja vilka AI Beta-funktioner som ska aktiveras. Mer information om alla AI Beta-funktioner får du om du klickar på informationsikonen bredvid den funktionen.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testmiljöer</td> 
