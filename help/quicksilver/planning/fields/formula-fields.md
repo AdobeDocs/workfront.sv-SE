@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
 
 # Översikt över formelfält
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -114,30 +114,26 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 * Du kan referera till formelfält i nya formler. När värdet uppdateras i ett fält som det refereras till i ett formelfält, uppdateras alla efterföljande fält som refererar till det fältet eller formelfälten som innehåller det fältet automatiskt.
 
 
-<!--
-
 <div class="preview">
 
-## Limitations of formula fields
+## Begränsningar för formelfält
 
-* You can add a maximum of 20 formula fields for one record type. 
+* Du kan lägga till högst 20 formelfält för en posttyp.
 
-   Formula lookup fields added from connected record types do not count against this limit. 
+  Formulärsökningsfält som lagts till från anslutna posttyper räknas inte mot den här gränsen.
 
-* The formula expression cannot exceed 50,000 characters. 
+* Formeluttrycket får inte överskrida 50 000 tecken.
 
-* Formula fields might display as `#ERROR!` in the following cases:
-   * When a field used in a formula is deleted.
-   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
-   
-      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
-   
-      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
- 
- -->
+* Formelfält kan visas som `#ERROR!` i följande fall:
+   * När ett fält som används i en formel tas bort.
+   * När ett fält som används i ett aggregerat uppslagsfält visas som `#ERROR!`.
+
+     Om du till exempel visar ett uppslagsfält som innehåller summerade uppslagsformelfält och ett av de refererade formelfälten visas som `#ERROR!`.
+   * När ett formelvärde inte kan visas i det valda formatet.
+
+     Om jag t.ex. väljer Nummer som format för ett formelfält, och de fält som används i formeln är textfält som bara visar icke-numeriska textvärden, visas formelresultatet som `#ERROR!`, eftersom det inte kan tolka texten till ett tal.
+
+</div>
 
 ## Formler som stöds
 

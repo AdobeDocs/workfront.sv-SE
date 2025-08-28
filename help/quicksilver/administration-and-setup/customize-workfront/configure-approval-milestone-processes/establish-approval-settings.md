@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Som Adobe Workfront-administratör kan du ange globala inställningar för godkännandeprocesser i Workfront. De här inställningarna påverkar alla godkännandeprocesser för arbetsobjekt i systemet.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
