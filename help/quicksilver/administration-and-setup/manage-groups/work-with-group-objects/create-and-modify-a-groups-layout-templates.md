@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -70,15 +70,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
      eller
 
-     Om du vill skapa en ny mall för gruppen som är baserad på en befintlig, markerar du den befintliga mallen och klickar sedan på **Kopiera**.
+     Om du vill skapa en ny mall för gruppen som är baserad på en befintlig, markerar du den befintliga mallen och klickar sedan på ikonen **Kopiera** ![Kopiera](assets/copy-icon.png) .
 
      Mer information om hur du skapar en layoutmall finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      Mer information om hur du kopierar en layoutmall för att skapa en ny finns i [Kopiera en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
-   * Om du vill redigera en befintlig grupplayoutmall markerar du den och klickar sedan på **Redigera**.
+   * Om du vill redigera en befintlig grupplayoutmall markerar du den och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
 
      Mer information om hur du redigerar en layoutmall finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-   * Om du vill ta bort en eller flera layoutmallar markerar du dem och klickar sedan på **Ta bort**.
-   * **Exportera** listan med layoutmallar.
+   * Om du vill ta bort en eller flera layoutmallar markerar du dem och klickar sedan på ikonen **Ta bort** ![Ta bort ](assets/delete.png) .
+   * Om du vill exportera listan med layoutmallar klickar du på ikonen **Exportera** ![Exportera ](assets/export-icon.png) .
