@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1871'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,20 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Snabb release</strong></td>
         <td><strong>kvartalsvis</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktivera AI Beta-funktioner för din organisation</a><p></p>
+            <p>För att göra det enklare för dig att se och påverka kommande AI-funktioner har vi gjort det möjligt för dig att aktivera betaversionen för dessa funktioner för din organisation. Nu kan du välja att aktivera en eller flera av de tillgängliga AI Beta-funktionerna i Systeminställningarna.</p>
+        </td>
+        <td>28 augusti 2025</td>
+        <td>11 september 2025</td>
+        <td>16 oktober 2025</td>
+    </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av Workfront användarprofil</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av Workfront användarprofil</a><p>[!BADGE Off schema]{type=Neutral}</p>
             <p>Vi har uppdaterat utseendet och känslan i Workfront användarprofil till en modern design som överensstämmer med andra delar av Workfront. Dessa uppdateringar gäller både för en administratör som redigerar en enskild profil, redigerar flera profiler gruppvis eller för en användare som redigerar sin egen profil.</p>
-            <p>Det finns små skillnader i funktionalitet jämfört med den aktuella användarprofilen, bland annat:</p>
+            <p>Det finns några små skillnader i funktionalitet jämfört med den aktuella användarprofilen, bland annat:</p>
             <ul>
                 <li>Vissa kryssrutor (som att markera användaren som aktiv) har ändrats till växlar eller knappar.</li>
                 <li>Alternativet "Skicka material som jag själv har tilldelat mig själv till fliken Arbeta på" under Inställningar har tagits bort eftersom det hänvisar till en inaktuell funktion.</li>
@@ -73,7 +82,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Lägg till flera värdealternativ från ett externt API till ett anpassat formulär</a><p>[!BADGE Off schema]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Lägg till flera värdealternativ från ett externt API till ett anpassat formulär</a><p></p>
             <p>En ny fälttyp, Flerval extern sökning, är nu tillgänglig för den anpassade formulärdesignern. När du har data lagrade på ett externt system kan du med den här fälttypen läsa in alternativ från ett externt API och filtrera baserat på andra fältvärden i det anpassade formuläret. Det här är samma som en extern sökning med ett enda val.</p>
             <p>När formuläret läggs till i ett objekt visas de värden som returneras från API:t i ett listrutefält och användaren kan välja flera värden.</p>
         </td>
@@ -331,7 +340,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -380,7 +389,7 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API version 20
 
@@ -392,8 +401,8 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

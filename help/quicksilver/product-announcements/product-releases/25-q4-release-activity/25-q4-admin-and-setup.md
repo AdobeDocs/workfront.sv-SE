@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 1b8a09028136d858fbf4de9f8b4b35165c6b6d25
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,22 @@ Den här sidan beskriver administratörsförbättringar som gjorts i den fjärde
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Aktivera AI Beta-funktioner för er organisation
+
+>[!NOTE]
+>
+>* Förhandsgranska: 28 augusti 2025
+>* Production fast release: 11 september 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+För att göra det enklare för dig att se och påverka kommande AI-funktioner har vi gjort det möjligt för dig att aktivera betaversionen för dessa funktioner för din organisation. Nu kan du välja att aktivera en eller flera av de tillgängliga AI Beta-funktionerna i Systeminställningarna.
+
+Tidigare kunde inte Beta-funktioner aktiveras av systemadministratörer.
+
+Mer information om hur du anger systeminställningar finns i [Konfigurera systeminställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+Information om krav för att aktivera AI-funktioner finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+
 ## Uppdateringar av Workfront användarprofil
 
 >[!NOTE]
@@ -27,7 +43,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Vi har uppdaterat utseendet och känslan i Workfront användarprofil till en modern design som överensstämmer med andra delar av Workfront. Dessa uppdateringar gäller både för en administratör som redigerar en enskild profil, redigerar flera profiler gruppvis eller för en användare som redigerar sin egen profil.
 
-Det finns små skillnader i funktionalitet jämfört med den aktuella användarprofilen, bland annat:
+Det finns några små skillnader i funktionalitet jämfört med den aktuella användarprofilen, bland annat:
 
 * Vissa kryssrutor (som att markera användaren som aktiv) har ändrats till växlar eller knappar.
 * Alternativet &quot;Skicka material som jag själv har tilldelat mig själv till fliken Arbeta på&quot; under Inställningar har tagits bort eftersom det hänvisar till en inaktuell funktion.
