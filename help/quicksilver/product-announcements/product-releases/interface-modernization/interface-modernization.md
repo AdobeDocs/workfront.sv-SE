@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,26 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ## Administratör och installation
 
-<!--
-### Interface updates when editing a Scorecard
+### Gränssnittsuppdateringar för layoutmallslistan i en grupp
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**Förhandsversion: 28 augusti 2025; Produktionsversion: 4 september 2025**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+Vi har uppdaterat layoutmallens utseende och känsla i den vänstra panelen i en grupp för att matcha andra delar av programmet.
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+Om du vill visa ändringarna går du till Inställningar > Grupper > Välj en grupp > Layoutmallar.
 
--->
+Mer information finns i [Skapa och ändra en grupps layoutmallar](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+
+### Gränssnittsuppdateringar när du redigerar ett styrkort
+
+**Förhandsversion: 28 augusti 2025; Produktionsversion: 28 augusti 2025**
+
+Vi har uppdaterat utseendet på och känslan i ett styrkort när vi redigerar det för att matcha designen i andra delar av programmet. Du kan visa den uppdaterade designen när du redigerar ett styrkort under Konfigurera i Workfront.
+
+En liten funktionsändring har gjorts i styrkortet. Om du vill redigera ett styrkort markerar du styrkortet i listan och klickar på ikonen Redigera. Du dirigeras inte längre till informationssidan för styrkortet innan du kan redigera.
+
+
 
 ### Gränssnittsuppdateringar för aviseringssidan för granskning och godkännande i installationsprogrammet
 
@@ -120,7 +130,30 @@ Vi har uppdaterat sidan Uppdatera användare för enkel inloggning med en modern
 
 Om du vill visa ändringen går du till Inställningar > System > Uppdatera användare för enkel inloggning
 
+## Portföljer
+
+### Gränssnittsuppdateringar för att redigera portföljer
+
+**Förhandsversion: 28 augusti 2025; Produktionsversion: 4 september 2025**
+
+Vi har introducerat gränssnittsuppdateringar när vi redigerar portföljer i rutan Redigera Portfolio. Nu finns det en nyare design i rutorna Redigera portfölj och Redigera portföljer som matchar andra områden i Workfront.
+
+>[!NOTE]
+>
+>Inställningen Beräkna om uttryck har tagits bort när portföljer gruppredigeras. Du kan fortfarande beräkna om anpassade uttryck gruppvis när du väljer flera portföljer i en lista och klickar på alternativet Beräkna om uttryck på Mer-menyn i verktygsfältet.
+
+
+Mer information finns i [Redigera portföljer](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
+
 ## Projekt
+
+### Gränssnittsändringar för Konvertera en uppgift till ett projekt utan mall
+
+**Förhandsversion: 28 augusti 2025; Produktionsversion: 4 september 2025**
+
+Vi har introducerat gränssnittsuppdateringar i rutan Konvertera till projekt när en uppgift konverteras till ett projekt utan mall. Nu matchar kartongen designen i andra delar av Workfront.
+
+Mer information finns i [Konvertera en aktivitet till ett projekt](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
 ### Gränssnittsuppdateringar när objekt läggs till i program och portföljer
 
@@ -161,14 +194,14 @@ En liten förändring av funktionaliteten infördes med den här uppdateringen. 
 
 Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-<!--### Interface update for the Edit Expense box of a project
+### Gränssnittsuppdatering för rutan Redigera utgift i ett projekt
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**Förhandsversion: 28 augusti 2025; Produktionsversion: 4 september 2025**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+Vi har uppdaterat dialogrutan för att redigera en projektutgift så att den matchar andra delar av programmet. Den uppdaterade dialogrutan är tillgänglig när du redigerar utgifter i projekt eller mallar.
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+Mer information finns i [Hantera projektutgifter](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
 
 ### Gränssnittsuppdateringar för loggningstid för ett projekt, en uppgift eller ett problem i avsnittet Timmar
 
