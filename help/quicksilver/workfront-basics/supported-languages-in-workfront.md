@@ -6,9 +6,9 @@ description: Du kan ändra vilket språk som används för att visa Adobe Workfr
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -72,9 +72,8 @@ Web Proofing Viewer i Workfront stöder de flesta språk som stöds i Workfront.
 
 Följande språk stöds inte i språkverktyget:
 
-* Kinesiska - förenklad (zh-CN)
 * Kinesiska - traditionell (zh-TW)
-* Portugisiska (pt-BR)
+* Koreanska (ko-KR)
 
 Ditt företag måste köpa en korrekturlicens för att du ska kunna använda Web Proofing Viewer.
 
@@ -93,7 +92,7 @@ För närvarande stöder Workfront Fusion endast engelska.
 * Workfront Fusion stöder inte användning av icke-engelska texttecken i fält som användaren anger.
 
 Företaget måste köpa en Workfront Fusion-licens för att få tillgång till Workfront Fusion.\
-Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Ändra språk
 

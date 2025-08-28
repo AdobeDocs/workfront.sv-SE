@@ -8,10 +8,10 @@ description: Som  [!DNL Workfront Proof] administratör kan du välja vilket spr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3a938714a948ca7681dfd7deaf924af6453dee58
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Som [!DNL Workfront Proof]-administratör kan du välja vilket språk som ska an
 [!DNL Workfront Proof] finns på följande språk:
 
 * Engelska (USA/Storbritannien)
-* Brasilianska (portugisiska)
+* Brasiliansk portugisiska
 * Kinesiska
 * Nederländska
 * Franska
@@ -46,7 +46,7 @@ Följ stegen nedan om du vill ändra standardspråket för ditt konto.
 
 1. I avsnittet **[!UICONTROL Account details]** klickar du på **[!UICONTROL Edit]** för **[!UICONTROL Default language]**-inställningarna.
 
-1. Välj standardspråk i listrutan.\
+1. Välj standardspråk i listrutan.
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
 1. Klicka på **[!UICONTROL Save].**
