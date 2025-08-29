@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2618'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Du kan redigera en enstaka utgåva eller redigera utgåvor i en lista. Mer infor
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -98,7 +98,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
    1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
-      * Ökning
+      * Översikt
       * Namnet på ett eller flera anpassade formulär
 
       PDF-filen hämtas till din dator.
@@ -126,7 +126,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Det kan vara bra att ange information i följande avsnitt:
 
    * [Ärendenamn](#issue-name)
-   * [Ökning](#overview)
+   * [Översikt](#overview)
    * [Uppdrag](#assignments)
    * [Anpassad Forms](#Custom%C2%A0F)
    * [Inställningar](#settings)
@@ -147,7 +147,7 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
 1. Uppdatera fältet **Utgivningsnamn**.
 1. Klicka på **Spara** eller fortsätt redigera följande avsnitt.
 
-### Ökning {#overview}
+### Översikt {#overview}
 
 1. Börja redigera ett problem enligt beskrivningen ovan.
 1. Klicka på **Översikt**.
@@ -163,11 +163,9 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
      <tr> 
       <td role="rowheader">Beskrivning</td> 
       <td> <p>Lägg till ytterligare information om problemet.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Avsnittet Grundinformation</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Status</td> 
       <td> <p>Välj status för utgåvan. Mer information om status för problem finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Åtkomst till listan över status för systemproblem</a>. </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ Du kan redigera ett problem under Redigera problem eller Ärendeinformation. I f
         <li> <p style="font-weight: bold;">Fel utan någon lösning</p> </li> 
         <li> <p style="font-weight: bold;">Allvarligt fel</p> </li> 
        </ul> <p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan namnet på svårigheterna vara olika för dig. Mer information om hur du redigerar allvarlighetsgrader finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Skapa eller anpassa utgåvans svårighetsgrad</a>.</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Utfärdandevillkor</td> 
+   <td> <p>Villkoret för ett problem är en flagga som anger hur det går.</p> 
+   <p>Du kan ställa in villkoret för en uppgift eller ett problem antingen automatiskt eller manuellt.</p>
+   <p>Du måste tilldelas utgåvan för att kunna ändra dess villkor.</p>
+   <p>Välj bland följande alternativ:</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">Går smidigt</p> </li> 
+   <li> <p style="font-weight: bold;">Vissa bekymmer</p> </li> 
+   <li> <p style="font-weight: bold;">Större vägspärrar</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Skriv en webblänk som relaterar till informationen om problemet.</p> </td> 
      </tr> 

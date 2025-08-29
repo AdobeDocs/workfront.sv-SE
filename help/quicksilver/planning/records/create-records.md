@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2814'
 ht-degree: 0%
@@ -335,7 +335,7 @@ Mer information om hur du skapar en tidslinjevy finns i [Hantera tidslinjevyn](/
    * **Stäng** ![Stäng ikonen](assets/close-icon.png) för att stänga den nya postrutan.
 
    Posten läggs till på tidslinjen samt i tabell- och kalendervyerna direkt, om du inte har klickat på ikonen **Ta bort** .
-
+   <!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record.-->
 1. (Valfritt) Klicka på postfältet på tidslinjen för att öppna postens informationsfönster och uppdatera informationen, ta bort den eller lägga till kommentarer.
 
    >[!TIP]
@@ -387,9 +387,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     * **Record date fields**: Update the dates of the record. 
         
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
 
         * By **Month**: The record start and end dates span one day.
         * By **Week**: The record start and end dates span two days.
