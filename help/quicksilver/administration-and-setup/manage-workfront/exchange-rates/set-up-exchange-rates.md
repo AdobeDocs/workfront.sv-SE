@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    * Håll markören över valutanamnet och klicka på menyn **Mer** som visas. Välj sedan **Använd som standard**.
 
      Den nya standardvalutan uppdateras med ikonen .
+
+     >[!NOTE]
+     >
+     >Standardvalutan visas alltid först i listan, oavsett hur listan sorteras.
 
 1. (Valfritt) Om du vill ta bort en valuta markerar du kryssrutan bredvid valutanamnet och väljer **Ta bort** i åtgärdsfältet längst ned på skärmen. Du kan inte ta bort standardvalutan.
 

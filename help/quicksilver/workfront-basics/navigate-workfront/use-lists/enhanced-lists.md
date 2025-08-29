@@ -4,9 +4,10 @@ title: Använd utökade listor
 description: De förbättrade listorna har ett tabellformat för att visa listobjekten, och de har ett annat utseende och en annan känsla än standardlistorna
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 8e88db186c574ea57dd609301b816d57636b125b
+exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 {{preview-fast-release-general}}
 
-Förbättrade listor finns i vissa delar av Adobe Workfront. De här listorna har ett tabellformat för att visa listobjekten, och de har ett annat utseende och en annan känsla än standardlistorna.
+Förbättrade listor finns i vissa delar av Adobe Workfront. De här listorna har ett tabellformat för att visa listobjekten, och de har ett annat utseende och en annan känsla än standardlistorna. Hanteringen av vyer har också förbättrats, bland annat filtrering, gruppering, hantering av kolumner och sökning.
 
 Mer information om standardlistorna finns i [Kom igång med listor i Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -67,7 +68,22 @@ Nedan visas några typer av Workfront-objektlistor som använder det förbättra
 Beroende på hur den förbättrade listan är konfigurerad kan det finnas två sätt att lägga till ett objekt i listan:
 
 * Klicka på en knapp ovanför listan. Med det här alternativet öppnas en dialogruta där du kan ange information och spara den.
-* Klicka på **Ny rad** längst ned i listan. Med det här alternativet läggs en ny rad till i tabellen och du anger information i varje cell. Om en cell är begränsad till en viss datauppsättning (t.ex. ett valutanamn) kan du uppmanas att välja i en lista eller söka efter namnet.
+* Klicka på **Ny rad** längst ned i listan. Med det här alternativet läggs en ny rad till i tabellen och du anger information i varje cell.
+
+  Förbättrade listor har stöd för följande fälttyper:
+
+   * Text
+   * Nummer
+   * Valuta
+   * Datum
+   * Datum och tid
+   * Enstaka/flera urvalslistrutor
+   * Typeahead
+   * Stycke
+   * Uppdragare (en eller flera)
+   * Färgväljaren
+
+  När du redigerar en cell har varje fälttyp sina egna redigeringsalternativ.
 
 Om du vill redigera ett objekt i listan dubbelklickar du i cellen som du vill redigera och skriver informationen. Vissa celler kan vara skrivskyddade.
 
@@ -77,13 +93,19 @@ Om du vill redigera ett objekt i listan dubbelklickar du i cellen som du vill re
 
 När du markerar kryssrutan bredvid ett objekt i den utökade listan visas åtgärdsfältet längst ned på skärmen och de åtgärder du kan utföra för objektet visas. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
 
-Klicka på en knapp i åtgärdsfältet om du vill utföra den åtgärden, till exempel visa listobjektet, ta bort objektet eller göra det till standardobjektet.
+>[!NOTE]
+>
+>Olika förbättrade listor kan göra det möjligt att markera ett enstaka objekt, gruppredigera (markera mer än ett objekt) eller inte markera något objekt.
+
+Klicka på en knapp i åtgärdsfältet för att utföra den åtgärden, till exempel visa listobjektet, ta bort objektet eller redigera objektet.
 
 Om det inte finns några tillgängliga åtgärder för det valda objektet anges &quot;Inga tillgängliga åtgärder&quot; i åtgärdsfältet.
 
 ![Exempel på åtgärdsfält](assets/glist-action-bar-exchange-rates.png)
 
-Menyn **Mer** är den trepunktsmeny som visas bredvid ett listobjekt när du hovrar över det. Klicka på menyn om du vill se ytterligare åtgärder för objektet. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
+Menyn **Mer** är den trepunktsmeny som visas intill ett primärt fält i ett listobjekt när du hovrar över det. (Det primära fältet är kolumnen längst till vänster i tabellen.)
+
+Klicka på menyn om du vill se ytterligare åtgärder för objektet. Vissa åtgärder kan vara specifika för den listan och visas inte i några andra listor.
 
 ![Exempel på fler menyer](assets/glist-more-menu-exchange-rates.png)
 
@@ -100,7 +122,9 @@ I vissa förbättrade listor kan du dölja och visa kolumner och ändra ordning 
 
    >[!NOTE]
    >
-   >Ett fält kan alltid visas eller korrigeras på den första positionen, och du kan inte ändra dess kolumn.
+   >Det primära fältet är kolumnen längst till vänster i tabellen. Den är fast på den första positionen och du kan inte ändra dess kolumn. Om antalet kolumner är stort, fryses det primära fältet till vänster och när du rullar vågrätt visas det alltid.
+   >
+   >Ikonen bredvid ett fältnamn visar fälttypen, till exempel text eller datumfält.
 
    <span class="preview">En indikator visas på knappen **Kolumner** när kolumnerna är dolda. Indikatorn visas inte när du sorterar om kolumner.</span>
 
@@ -150,7 +174,7 @@ Om du vill sortera enskilda kolumner går du till kolumnen och klickar på nedpi
 
 >[!NOTE]
 >
->Om listan har ett standardobjekt kommer det objektet alltid att vara först i listan, oavsett hur listan sorteras.
+>Vissa kolumner kanske inte kan sorteras.
 
 ![Sortera efter kolumn](assets/glist-sort-by-column.png)
 
