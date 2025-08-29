@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar av begäranden som gjorts i den fjärde utgåvan av kvartalet 2025 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Ny kombinerad statuskolumn i listan för enhetliga begäranden
+
+>[!NOTE]
+>
+>* Förhandsgranska: 28 augusti 2025
+>* Production fast release: 11 september 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+För att förenkla den enhetliga upplevelsen av begäranden visas nu både begärandestatus och godkännandestatus i statuskolumnen, beroende på vilket som gäller för en viss begäran.
+
+Mer information om hur du skapar begäranden finns i:
+
+* För Workfront: [Skapa och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* För Workfront Planning: [Skicka in Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## Uppdateringar för att begära erfarenhet
 

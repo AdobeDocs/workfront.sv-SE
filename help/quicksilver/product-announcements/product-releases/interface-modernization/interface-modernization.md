@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ Mer information finns i följande artiklar:
 
 **Förhandsversion: 21 augusti 2025; Produktionsversion: 28 augusti 2025**
 
+>[!NOTE]
+>
+>Den här funktionen har tillfälligt tagits bort från produktionsmiljön.
+
 Vi har uppdaterat utseendet och känslan i rutan Nytt köämne när du lägger till ett nytt köämne i ett projekt eller en mall, så att det matchar designen i andra områden i Workfront.
 
 Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -187,6 +191,10 @@ Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests
 ### Gränssnittsuppdateringar när du redigerar ett köämne i ett projekt eller en mall
 
 **Förhandsversion: 21 augusti 2025; Produktionsversion: 28 augusti 2025**
+
+>[!NOTE]
+>
+>Den här funktionen har tillfälligt tagits bort från produktionsmiljön.
 
 Vi har uppdaterat upplevelsen när vi redigerar ett köämne i projekt och mallar så att det matchar andra delar av Workfront.
 
