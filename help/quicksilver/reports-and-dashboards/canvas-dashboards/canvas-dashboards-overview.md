@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
