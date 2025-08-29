@@ -5,9 +5,10 @@ title: Ta bort en arbetsytans kontrollpanel
 description: Du kan ordna hur rapporter visas på en Canvas-kontrollpanel när de har lagts till i en.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -16,12 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 När du inte längre behöver en Canvas Dashboard kan du ta bort den från Adobe Workfront.
 
+## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +78,8 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 
 >[!WARNING]
 >
->När en kontrollpanel har tagits bort kan den inte återställas.
+> När en kontrollpanel har tagits bort går det inte att återställa kontrollpanelen och alla anpassade rapporter och/eller visualiseringar.<br>
+> > Om du tar bort en kontrollpanel som innehåller en klassisk rapport tas den klassiska rapporten inte bort.
 
 {{step1-to-dashboards}}
 

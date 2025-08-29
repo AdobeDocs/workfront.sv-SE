@@ -6,9 +6,9 @@ description: En diagramrapport som visualiserar dina data som stapel-, kolumn-, 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Du kan skapa och lägga till en diagramrapport på en Canvas Dashboard för att visa dina data som stapel-, kolumn-, linje- eller cirkeldiagram.
 
 ![Diagramrapport](assets/chart-report-main.png)
 
-+++ Expandera om du vill visa åtkomstkraven.
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +97,7 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
 
       >[!NOTE]
       >
-      >Det finns ett maximalt antal serier som kan visas i ett diagram. När den här rutan är markerad konsolideras alla serier över gränsen till en **annan**-gruppering i diagrammet.
+      >Det finns maximalt 60 serier som kan visas i ett diagram. När den här rutan är markerad konsolideras alla serier över gränsen till en **annan**-gruppering i diagrammet.
 
 1. Följ stegen nedan för att konfigurera avsnittet **Bygg diagram**:
 
@@ -204,6 +211,8 @@ I det här avsnittet går vi igenom stegen för att skapa ett kolumndiagram som 
 
    1. Ange *$$TODAY* i utvärderingsfältet.
 
+      Mer information om jokertecken finns i avsnittet Datumbaserade jokertecken i filtervariabler för [Redigera rapportfilter i en Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) -artikel.
+
       ![Utvärderarfält](assets/add-condition.png)
 
 1. Följ stegen nedan för att konfigurera avsnittet **Inställningar för nedåtriktad kolumn**:
@@ -227,3 +236,35 @@ I det här avsnittet går vi igenom stegen för att skapa ett kolumndiagram som 
    1. Klicka på knappen **Lägg till gruppering** och välj sedan fältet **Projekt** > **Namn**.
 
 1. Klicka på **Spara** för att skapa rapporten och lägga till den på kontrollpanelen.
+
+## Att tänka på när du skapar en diagramrapport
+
+### Använda fältväljaren
+
+Listrutan **Avsnitt** i avsnittet **Bygg diagram** är utformad för att begränsa valen i en fältväljare så att ett objekt blir lättare att hitta när en tabellrapport skapas. Börja med att välja ett basenhetsobjekt.
+
+* **Alla avsnitt**: Alla objekttyper i Workfront Workflow och Workfront Planning.
+* **Workfront-objekt**: Inbyggda Workfront Workflow-objekt.
+* **Planering av posttyper**: Anpassade posttyper har definierats i Workfront Planning.
+
+![Listrutan Avsnitt](assets/sections-dropdown.png)
+
+När basentitetsobjektet har valts uppdateras listrutan **Avsnitt** med tillämpliga fälttypsalternativ att välja bland.
+
+* **Alla avsnitt**: Inbyggda fält, anpassade fält och relaterade objekt.
+* **Alla fält**: Både interna och anpassade fält (exkluderar relationer).
+* **Anpassade fält**: Kunddefinierade fält antingen i ett anpassat formulär eller i en planeringspost.
+* **Workfront-fält**: Endast inbyggda fält.
+* **Relationer**: Anslutna poster.
+
+![Val av Rapporteringsbara objekt](assets/reportable-objects-selection.png)
+
+### Referera underordnade objekt
+
+Tillgängliga relationer för ytterligare kolumner, filteralternativ och grupperingsattribut är i allmänhet begränsade till objekt som är högre upp i Workfront objekthierarki eller har på annat sätt en markering på rapportens basenhetsobjekt. Det finns några undantag i detta, bland annat följande:
+
+* Projekt > Åtgärder
+* Dokumentgodkännande > Dokumentgodkännandesteg
+* Dokumentgodkännandesteg > Deltagare i dokumentgodkännandefasen
+
+När du använder någon av de överordnade-till-underordnade-relationer som anges ovan visas en rad i tabellen för varje underordnad post som är kopplad till det överordnade objektet.

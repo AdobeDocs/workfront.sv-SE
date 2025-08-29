@@ -5,9 +5,10 @@ title: Ändra namnet eller beskrivningen för en Canvas-kontrollpanel
 description: Du kan redigera namnet eller beskrivningen på en arbetsytans kontrollpanel när den har skapats.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -16,14 +17,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 Du kan redigera namnet eller beskrivningen på en arbetsytans kontrollpanel när den har skapats.
 
 Alla ändringar du gör på en kontrollpanel påverkar alla användare som har tillgång till den.
 
+## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,6 +78,10 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 
 ## Ändra namn och beskrivning för en instrumentpanel
 
+>[!NOTE]
+>
+>Användare som du har delat en Canvas Dashboard med kan se dess namn och beskrivning i inventeringslistan och instrumentpanelsdetaljavsnittet på arbetsytan.
+
 {{step1-to-dashboards}}
 
 1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
@@ -83,4 +95,6 @@ Mer information finns i [Skapa en arbetsytans kontrollpanel](/help/quicksilver/r
 1. Ange en ny **beskrivning**.
 
 1. Klicka på **Spara**.
+
+
 

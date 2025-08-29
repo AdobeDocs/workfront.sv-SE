@@ -6,9 +6,9 @@ description: Rapporter som skapas med verktyget Adobe Workfront-rapporter kan l�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Rapporter som skapas med verktyget Adobe Workfront-rapporter kan läggas till på en arbetsytekontrollpanel. Mer information om hur du skapar rapporter finns i [Kom igång med rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-+++ Expandera om du vill visa åtkomstkraven.
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,6 +63,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Lägga till en befintlig rapport på en arbetsytans kontrollpanel
 
+
 {{step1-to-dashboards}}
 
 1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
@@ -76,9 +84,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
      >[!NOTE]
      >
-     > I det här läget i betaversionen är hemwidgeten **Alla godkännanden** den enda tillgängliga widgeten. Listan utökas allt eftersom betaversionen fortskrider.
+     > I det här läget i betaversionen är hemwidgeten **Dokumentgodkännandemått** den enda tillgängliga widgeten. Listan utökas allt eftersom betaversionen fortskrider.
 
 1. (Valfritt) Om du vill visa information om en rapport innan du lägger till den på kontrollpanelen klickar du på **Visa** i linje med önskad rapport.
 
 1. Klicka på **Lägg till** i linje med rapporten som du vill lägga till.
+
+   >[!NOTE]
+   >
+   > Om du vill lägga till ytterligare en befintlig rapport till en instrumentpanel efter att den har skapats klickar du på knappen **Lägg till rapport** i det övre högra hörnet på sidan med information om instrumentpanelen och upprepar sedan steg 6-9.
+
+
 

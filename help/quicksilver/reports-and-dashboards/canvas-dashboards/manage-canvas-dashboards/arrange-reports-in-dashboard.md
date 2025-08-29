@@ -5,9 +5,10 @@ title: Ordna rapporter på en arbetsytans kontrollpanel
 description: Du kan ordna hur rapporter visas på en Canvas-kontrollpanel när de har lagts till i en.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -16,11 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
-När en rapport har lagts till på en Canvas-kontrollpanel visas den som en rapportwidget på kontrollpanelen så att du snabbt kan visualisera dess data. När flera rapporter har lagts till rekommenderar vi att du ordnar om storleken och ordningen för varje widget så att instrumentpanelsdata visas mer effektivt.
 
-+++ Expandera om du vill visa åtkomstkraven.
+När en rapport har lagts till på en Canvas-kontrollpanel visas den som en rapportwidget på kontrollpanelen så att du snabbt kan visualisera dess data. När flera rapporter har lagts till kan du ställa in storleken på varje widget så att den bäst passar rapportens innehåll på kontrollpanelen och sedan justera positionen för varje widget för att visa data mer effektivt.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 

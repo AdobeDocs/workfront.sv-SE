@@ -5,9 +5,10 @@ title: Filtrera en arbetsytans kontrollpanel
 description: Du kan använda ett filter på en Canvas-kontrollpanel när den har skapats.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 Du kan använda ett filter på en Canvas Dashboard som innehåller uppmaningar. En prompt fungerar som en filtermodifierare som tillämpar ytterligare filtervillkor så att du kan begränsa resultaten ytterligare. Dessa uppmaningar kan ändras varje gång du tillämpar filtret, så att du kan justera det visade resultatet utan att behöva redigera huvudfiltervillkoren för kontrollpanelen eller varje enskild rapport.
+
+## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven. 
 

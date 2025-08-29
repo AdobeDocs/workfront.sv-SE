@@ -5,9 +5,10 @@ title: Skapa en arbetsytans kontrollpanel
 description: Med Canvas Dashboards kan du skapa och lägga till rapporter på en anpassningsbar kontrollpanel för att snabbt visualisera dina kontodata.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -16,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Med Canvas Dashboards kan du skapa och lägga till rapporter på en anpassningsbar kontrollpanel för att snabbt visualisera dina kontodata.
 
-+++ Expandera om du vill visa åtkomstkraven.
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -52,6 +60,10 @@ Med Canvas Dashboards kan du skapa och lägga till rapporter på en anpassningsb
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
+
+## Förutsättningar
+
+Kontrollpaneler på arbetsytan måste vara aktiverade i layoutmallskonfigurationen för vänsternavigeringsobjekt på sidan Kontrollpaneler.
 
 ## Skapa en instrumentpanel
 

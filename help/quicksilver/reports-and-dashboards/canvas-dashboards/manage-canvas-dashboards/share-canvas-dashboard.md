@@ -6,9 +6,9 @@ description: Du kan dela en Canvas-kontrollpanel med andra Adobe Workfront-anvä
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Du kan dela en Canvas-kontrollpanel med andra Adobe Workfront-användare så att de kan visa eller redigera den.
 
-+++ Expandera om du vill visa åtkomstkraven.
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven. 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -44,13 +51,14 @@ Du kan dela en Canvas-kontrollpanel med andra Adobe Workfront-användare så att
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
-   <td><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p>
+   <td><p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p>
   </td> 
   </tr>  
     </tr>  
         <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td><p>Hantera behörigheter för kontrollpanelen</p>
+   <td><p>Visa behörigheter för instrumentpanelen för att dela kontrollpanelen</p>
+   <p>Hantera behörigheter för kontrollpanelen för att tilldela kontrollpanelsbehörigheter</p>
   </td> 
   </tr>
 </tbody> 
@@ -61,13 +69,17 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Att tänka på när det gäller att dela kontrollpaneler
 
-* Som standard har den som skapat en kontrollpanel behörigheten Hantera.
+* Kontrollpaneler kan delas med användare, team, grupper, jobbroller eller företagsresurser.
 
-* Du kan dela kontrollpaneler som du skapar med andra personer, team, grupper, jobbroller eller företag. Du kan också dela kontrollpaneler som andra har skapat och som tidigare delats med dig.
+* Som standard har den som skapat en kontrollpanel behörigheten Hantera för kontrollpanelen.
 
-* När du delar en kontrollpanel ärver användare som standard behörigheten Visa till alla rapportobjekt på kontrollpanelen, såvida inte behörigheten uppdateras innan den delas.
+* Systemadministratörer och användare med behörigheten Hantera kan ge åtkomst till en instrumentpanel via Visa eller Hantera.
 
-* Om du har behörigheten Visa på en kontrollpanel kan du fortfarande dela kontrollpanelen, men du kan inte tilldela mottagarna en högre behörighet än Visa.
+* Användare med behörigheten Visa på en kontrollpanel kan ge åtkomst till en kontrollpanel.
+
+* När du delar en kontrollpanel ärver resurserna som den delas med behörigheter till de rapporter som visas på kontrollpanelen.
+
+* När en kontrollpanel distribueras via en layoutmall tilldelas alla resurser som tilldelats layoutmallen automatiskt behörigheten Visa för kontrollpanelen (och dess rapporter).
 
 
 ## Dela en arbetsytans kontrollpanel
@@ -83,16 +95,18 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. I fältet **Ge åtkomst till** börjar du med att skriva namnet på en specifik användare, grupp, roll, grupp eller företag som du vill dela arbetsytans kontrollpanel med och markerar det sedan när det visas i listrutan.
 
-1. (Valfritt) Om du vill redigera en användares åtkomst till instrumentpanelen klickar du på **Visa** bredvid användarens namn och väljer sedan **Hantera** i listrutan som visas.
+1. (Valfritt) Om du vill redigera en resurs åtkomst till instrumentpanelen klickar du på **Visa** bredvid namnet och väljer sedan **Hantera** i listrutan som visas.
 
    >[!NOTE]
    >
-   >Vissa användare kan inte ändra sin åtkomstnivå (t.ex. administratörer).
+   > Om användare inte har behörigheten Redigera för en kontrollpanel tilldelad via åtkomstnivån, kan de inte tilldelas behörigheten Hantera till en kontrollpanel.
 
-1. Upprepa steg 5-6 för varje användare som du vill dela kontrollpanelen med.
+1. Upprepa steg 5-6 för varje resurs som du vill dela kontrollpanelen med.
 
 1. Klicka på knappen **Dela**. Mottagarna får ett e-postmeddelande som informerar dem om att instrumentpanelen har delats med dem, som de nu kan komma åt på **Kontrollpaneler** > **Kontrollpaneler på arbetsytan** > **Delade instrumentpaneler**.
 
    >[!NOTE]
    >
-   >Enskilda användarinställningar och undantag från systemet kan gälla för e-postmeddelanden.
+   > Enskilda användarinställningar och undantag från systemet kan gälla för e-postmeddelanden. <br>
+   > Meddelanden skickas bara när de delas direkt med en användare. Delning till grupper, roller, företag och team genererar inga e-postmeddelanden.<br>
+   > Behörigheter som ärvts från en layoutmall genererar inga e-postmeddelanden om åtkomst till instrumentpanelen.

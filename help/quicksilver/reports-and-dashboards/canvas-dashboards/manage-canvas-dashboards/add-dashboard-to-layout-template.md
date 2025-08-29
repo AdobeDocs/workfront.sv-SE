@@ -5,9 +5,10 @@ title: Lägga till en Canvas-kontrollpanel i en layoutmall
 description: Du kan lägga till en kontrollpanel för arbetsytan i en layoutmall så att den ersätter startsidan, visas i det vänstra objektets panel eller är fäst på det övre fältet.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -16,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Du kan lägga till en kontrollpanel för arbetsytan i en layoutmall så att den ersätter startsidan, visas i det vänstra objektets panel eller är fäst på det övre fältet i hela Adobe Workfront.
 
 ![Vänster panel](assets/left-panel.png)
+
+## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven. 
 

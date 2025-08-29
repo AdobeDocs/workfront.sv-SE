@@ -6,9 +6,9 @@ description: Du kan lägga till en tabellrapport på en Canvas-kontrollpanel fö
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>
+>* Använd din egen nyckel för Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Du kan lägga till en tabellrapport på en Canvas-kontrollpanel för att visa data i ett tabellformat.
 
 ![Exempel på tabellrapport](assets/table-example-main.png)
+
+## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven. 
 
@@ -60,6 +67,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du måste skapa en kontrollpanel innan du kan skapa en tabellrapport.
 
+
 ## Skapa en tabellrapport på en Canvas Dashboard
 
 Det finns många konfigurationsalternativ för att skapa en tabellrapport. I det här avsnittet går vi igenom den allmänna processen att skapa en.
@@ -91,6 +99,8 @@ Det finns många konfigurationsalternativ för att skapa en tabellrapport. I det
    1. Klicka på ikonen **Tabellkolumner** ![Skapa tabell](assets/drilldown-column.png) i den vänstra panelen.
 
    1. Klicka på **Lägg till kolumn** och markera sedan det fält som du vill visa som en kolumn i tabellen. Kolumnen visas i förhandsvisningsavsnittet till höger.
+
+
 
    1. Upprepa ovanstående steg för varje kolumn som du vill lägga till.
 
@@ -190,3 +200,35 @@ Mer information om exempel på tabellrapporter finns i [Skapa en rapportkontroll
       ![Exempel på väntande godkännandetabellfilter](assets/pending-approval-table-filter.png)
    1. (Valfritt) Lägg till ytterligare filter enligt beskrivningen i avsnittet **Valfria filter** nedan.
 1. Klicka på **Spara** i skärmens övre högra hörn.
+
+## Att tänka på när du skapar en tabellrapport
+
+### Använda fältväljaren
+
+Listrutan **Avsnitt** i avsnittet **Skapa tabell** är utformad för att begränsa valen i en fältväljare så att ett objekt blir lättare att hitta när en tabellrapport skapas. Börja med att välja ett basenhetsobjekt.
+
+* **Alla avsnitt**: Alla objekttyper i Workfront Workflow och Workfront Planning.
+* **Workfront-objekt**: Inbyggda Workfront Workflow-objekt.
+* **Planering av posttyper**: Anpassade posttyper har definierats i Workfront Planning.
+
+![Listrutan Avsnitt](assets/sections-dropdown.png)
+
+När basentitetsobjektet har valts uppdateras listrutan **Avsnitt** med tillämpliga fälttypsalternativ att välja bland.
+
+* **Alla avsnitt**: Inbyggda fält, anpassade fält och relaterade objekt.
+* **Alla fält**: Både interna och anpassade fält (exkluderar relationer).
+* **Anpassade fält**: Kunddefinierade fält antingen i ett anpassat formulär eller i en planeringspost.
+* **Workfront-fält**: Endast inbyggda fält.
+* **Relationer**: Anslutna poster.
+
+![Val av Rapporteringsbara objekt](assets/reportable-objects-selection.png)
+
+### Referera underordnade objekt
+
+Tillgängliga relationer för ytterligare kolumner, filteralternativ och grupperingsattribut är i allmänhet begränsade till objekt som är högre upp i Workfront objekthierarki eller har på annat sätt en markering på rapportens basenhetsobjekt. Det finns några undantag i detta, bland annat följande:
+
+* Projekt > Åtgärder
+* Dokumentgodkännande > Dokumentgodkännandesteg
+* Dokumentgodkännandesteg > Deltagare i dokumentgodkännandefasen
+
+När du använder någon av de överordnade-till-underordnade-relationer som anges ovan visas en rad i tabellen för varje underordnad post som är kopplad till det överordnade objektet.
