@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](#provide-feedback) nedan.<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -89,7 +89,7 @@ Vi uppskattar att vi tar fram det här verktyget under betatestningen. Följ ins
 
 1. På sidan **Kontrollpaneler på arbetsytan anger du ett** Feedback-ämne **och en** Feedback-beskrivning **på sidan Beta Feedback**.
 
-1. (Valfritt) I avsnittet **Annan information** väljer du den typ av aktivitet som är relaterad till din feebedack i listrutan **Rapporteringsaktivitet**.
+1. (Valfritt) I avsnittet **Annan information** väljer du den typ av aktivitet som är relaterad till din feedback i listrutan **Rapporteringsaktivitet**.
 
 1. (Valfritt) Markera den objekttyp som du lämnar feedback för i listrutan **Typ av rapportobjekt**.
 
