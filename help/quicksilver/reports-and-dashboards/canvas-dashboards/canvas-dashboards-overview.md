@@ -7,7 +7,7 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 5ce472f19cdf72d4aba07f34b11092fa16b7bd2f
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure

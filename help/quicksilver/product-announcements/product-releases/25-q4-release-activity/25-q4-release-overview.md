@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: e835f3721f8d732780ab199fd6da47f563004077
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1905'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Förbättringar av dokument och korrektur](#document-and-proofing-enhancements)
 * [Hemförbättringar](#home-enhancements)
 * [Projektförbättringar](#project-enhancements)
-* [Förbättrade begäranden](#requests-enhancements)
 * [Förbättrad resurshantering](#resource-management-enhancements)
+* [Förbättrade begäranden](#requests-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -175,36 +175,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Förbättrade begäranden
-
-<table style="table-layout:auto">
-  <tbody>
-   <tr>
-        <td><strong>Funktion</strong>
-        </td>
-        <td><strong>Förhandsgranska</strong></td>
-        <td><strong>Snabb release</strong></td>
-        <td><strong>kvartalsvis</strong></td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av begärande upplevelse</a><p></p>
-            <p>För att skapa en bättre användarupplevelse vid förfrågningar i Workfront och Workfront Planning har vi uppdaterat den begärande upplevelsen. Nu kan du:
-            <ul>
-                <li>Visa Workfront- och Workfront Planning-begäranden i en enda lista.</li>
-                <li>Filtrera skickade begäranden baserat på villkor som du anger.</li>
-                <li>Sök efter och välj Workfront begärandeköer och Workfront Planning-formulär i en samlad upplevelse.</li>
-                <li>Dölj och sortera om kolumner i listan över skickade begäranden.</li>
-            </ul>
-            </p>
-        </td>
-        <td>21 augusti 2025</td>
-        <td>11 september 2025</td>
-        <td>16 oktober 2025</td>
-    </tr>     
-  </tbody>
-</table>
-
 ### Projektförbättringar
 
 <table style="table-layout:auto">
@@ -285,6 +255,45 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Förbättrade begäranden
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Förhandsgranska</strong></td>
+        <td><strong>Snabb release</strong></td>
+        <td><strong>kvartalsvis</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Ny kombinerad statuskolumn i listan för enhetliga begäranden</a><p></p>
+            <p>För att förenkla den enhetliga upplevelsen av begäranden visas nu både begärandestatus och godkännandestatus i statuskolumnen, beroende på vilket som gäller för en viss begäran.</p>
+        </td>
+        <td>28 augusti 2025</td>
+        <td>11 september 2025</td>
+        <td>16 oktober 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av begärande upplevelse</a><p></p>
+            <p>För att skapa en bättre användarupplevelse vid förfrågningar i Workfront och Workfront Planning har vi uppdaterat den begärande upplevelsen. Nu kan du:
+            <ul>
+                <li>Visa Workfront- och Workfront Planning-begäranden i en enda lista.</li>
+                <li>Filtrera skickade begäranden baserat på villkor som du anger.</li>
+                <li>Sök efter och välj Workfront begärandeköer och Workfront Planning-formulär i en samlad upplevelse.</li>
+                <li>Dölj och sortera om kolumner i listan över skickade begäranden.</li>
+            </ul>
+            </p>
+        </td>
+        <td>21 augusti 2025</td>
+        <td>11 september 2025</td>
+        <td>16 oktober 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
 ### Andra förbättringar
 
 <table>
@@ -340,7 +349,7 @@ Vi uppdaterar gränssnittet i hela Adobe Workfront för att förbättra använda
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför standardreleaseprogrammet. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Förbättringar av Workfront Planning
 
@@ -389,7 +398,7 @@ För att kunna leverera mer stabila och skalbara integreringar går vi över til
 * Workfront för Salesforce.
 
 Vi rekommenderar att du använder Workfront Automation and Integration för din organisations integreringsbehov med Google Workspace.
-En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+En översikt över Workfront Automation and Integration finns i [Adobe Workfront Fusion - översikt](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API version 20
 
@@ -401,8 +410,8 @@ Mer information om API-versioner finns i [API-versionshantering och supportschem
 
 ### Underhållsuppdateringar för Workfront
 
-Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=sv-SE).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2025 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=sv-SE).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront-sidan ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

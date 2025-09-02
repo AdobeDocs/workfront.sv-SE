@@ -6,7 +6,7 @@ description: Du kan redigera rapportfilter när de har tillämpats på en Canvas
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 64a71767c88362b55470e5eeffc2f41bb7482734
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) i översiktsartikeln i Canvas Dashboards.<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
