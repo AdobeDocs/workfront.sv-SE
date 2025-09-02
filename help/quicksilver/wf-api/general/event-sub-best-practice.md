@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Kontrollera att alla obligatoriska fält för begärandeinnehåll har skickats t
 ## Undvik att ta med extra innehållsfält
 
 Inkludera inte extra innehållsfält i begäran eftersom detta leder till att API:t inte kan skapa en prenumeration.
+
+## Undvik att överbelasta händelseprenumerationer
+
+Evenemangsprenumerationstjänsten är utformad för att ge tillförlitlig leverans av händelser för alla användare. För att säkerställa detta har man infört skyddsåtgärder för att förhindra överdriven händelseproduktion från en enda användare som kan orsaka potentiella problem med tjänstkvaliteten för alla användare. En användare som producerar för många händelser med hög hastighet inom en kort tidsram kan därför drabbas av fördröjningar i sandlådan och händelsehanteringen.
 
 ## Fullständig testning inom respitperioden
 

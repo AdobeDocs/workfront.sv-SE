@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2739'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Följande Workfront-objekt stöds av händelseprenumerationer.
 * Fält
 * Timme
 * Problem
-* Anteckning
+* Obs
 * Portfolio
 * Program
 * Projekt
@@ -89,6 +89,10 @@ Om du vill skapa, fråga efter eller ta bort en händelseprenumeration behöver 
 * Ett `sessionID`-huvud krävs för att använda API:t för händelseprenumerationer
 
   Mer information finns i [Autentisering](api-basics.md#authentication) i [API-grunder](api-basics.md).
+
+## Undvik att överbelasta händelseprenumerationer
+
+Evenemangsprenumerationstjänsten är utformad för att ge tillförlitlig leverans av händelser för alla användare. För att säkerställa detta har man infört skyddsåtgärder för att förhindra överdriven händelseproduktion från en enda användare som kan orsaka potentiella problem med tjänstkvaliteten för alla användare. En användare som producerar för många händelser med hög hastighet inom en kort tidsram kan därför drabbas av fördröjningar i sandlådan och händelsehanteringen.
 
 ## Formge prenumerationsresursen
 
@@ -157,7 +161,7 @@ Prenumerationsresursen innehåller följande fält.
         <td scope="col"><p>OPTASK</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Anteckning</td> 
+        <td scope="col">Obs</td> 
         <td scope="col">ANMÄRKNING</td> 
        </tr> 
        <tr> 
@@ -812,7 +816,7 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 >[!NOTE]
 >
 >Prenumerationen nedan med det angivna filtret returnerar bara meddelanden där aktivitetens namn innehåller `again` på `oldState`, vilket var innan en uppdatering gjordes för aktiviteten.
->&#x200B;>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
+>>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
 ```
 {
