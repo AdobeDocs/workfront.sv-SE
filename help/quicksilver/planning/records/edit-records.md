@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 0%
@@ -107,8 +107,8 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
    * Postens informationssida
    * Textbunden i en tabellvy.
 <!--* You can edit a record's dates from the following areas:
-    * All areas listed above
-    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * All areas listed above
+        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * När en användare redigerar en post i en vy visas ändringarna omedelbart i alla vyer och postsidorna för alla andra användare.

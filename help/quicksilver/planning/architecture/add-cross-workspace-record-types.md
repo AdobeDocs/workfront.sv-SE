@@ -4,9 +4,9 @@ description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Work
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -44,48 +44,28 @@ Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Produkter</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-paket*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
-   <td> 
-<p>Alla </p> 
+<ul><li><p>Alla Workfront-paket</p></li>
+Och
+<li><p>Planering Plus-paket</p></li></ul>
+Eller:
+<ul><li><p>Alla arbetsflödespaket</p> </li>
+Och
+<li><p>Planera Prime- eller Ultimate-paket</p></li></ul>
 <p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
-   <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
@@ -105,8 +85,9 @@ Att tänka på när du lägger till befintliga posttyper från en annan arbetsyt
 * När du har lagt till posttypen från en annan arbetsyta läggs även följande information till från den befintliga posttypen:
 
    * Fält
-   * Poster
    * Postanslutningar
+
+* Du kan bara visa poster som lagts till från andra arbetsytor om du har behörighet till dessa arbetsytor.
 
 * Du kan bara redigera posttypen, inklusive dess fält, på den ursprungliga arbetsytan. Du kan inte redigera den från arbetsytorna där den lades till.
 * Poster som läggs till från alla arbetsytor visas för alla användare som kommer åt dem från alla arbetsytor, även om de skapas i en arbetsyta där de inte har någon behörighet.

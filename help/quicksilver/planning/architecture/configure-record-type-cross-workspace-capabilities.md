@@ -4,9 +4,9 @@ description: Du kan aktivera en posttyp som antingen ska läggas till på en ann
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Mer information finns i följande artiklar:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.  
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Mer information finns i följande artiklar:
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Produkter</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-paket*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
-   <td> 
-<p>Något av följande Workfront-planer:</p> 
-<ul><li>Välj</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td> 
-   <td> 
-<p>Alla </p> 
+<ul><li><p>Alla Workfront-paket</p></li>
+Och
+<li><p>Planering Plus-paket</p></li></ul>
+Eller:
+<ul><li><p>Alla arbetsflödespaket</p> </li>
+Och
+<li><p>Planera Prime- eller Ultimate-paket</p></li></ul>
 <p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront</p></td> 
-   <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Mer information finns i följande artiklar:
 ## Konfigurera centraliserade posttyper
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-Som arbetsytehanterare kan du konfigurera en posttyp som ska läggas till i andra arbetsytor när du skapar eller redigerar en posttyp.
+Som arbetsytehanterare kan du konfigurera en posttyp så att den blir en centraliserad posttyp. En centraliserad posttyp kan läggas till i andra arbetsytor.
 
-När du konfigurerar att lägga till en posttyp till andra arbetsytor kan en arbetsytehanterare importera posttypen och all information om den till någon av de arbetsytor som de hanterar.
+En arbetsytehanterare kan lägga till en centraliserad posttyp på en arbetsyta som de hanterar. Posttypens originalfält läggs också till.
 
-Så här konfigurerar du att lägga till en posttyp på en annan arbetsyta när du redigerar posttypen:
+Användare kan lägga till poster i en centraliserad posttyp från alla arbetsytor som de har tillgång till för att bidra där den posttypen läggs till, inklusive den primära arbetsytan. De kan bara visa poster från en arbetsyta som de har behörighet att visa.
+
+Så här konfigurerar du att lägga till en posttyp som en centraliserad posttyp:
 
 {{step1-to-planning}}
 
@@ -181,12 +164,15 @@ eller
      I fältet Workspace visas arbetsytan där varje post har skapats.
 
      Det här fältet är skrivskyddat och kan inte tas bort.
+1. (Valfritt) Gå till en annan arbetsyta och skapa en posttyp med en befintlig posttyp. Välj den posttyp som du aktiverade i stegen ovan.
+
+   Mer information finns i [Lägga till befintliga posttyper](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
 ## Konfigurera posttyper som kan anslutas
 
 <!--this is a UI term; don't change the title of this section-->
 
-Du kan konfigurera en posttyp att ansluta till från andra arbetsytor när du skapar eller redigerar posttypen.
+Du kan konfigurera en posttyp som ska anslutas till från andra arbetsytor när du skapar eller redigerar posttypen.
 
 Så här konfigurerar du en posttyp att ansluta till från andra arbetsytor när du redigerar posttypen:
 
@@ -222,6 +208,9 @@ eller
    * Posttypkortet visar en ikon för anslutning mellan arbetsytor ![Anslutning mellan arbetsytor](assets/connect-from-other-workspaces-icon.png) som anger att posttypen är tillgänglig för anslutning från en arbetsyta som du har angett i konfigurationen.
 
    Posttypen blir tillgänglig för anslutning från de angivna arbetsytorna.
+1. (Valfritt) Gå till en annan arbetsyta och lägg till en anslutning till den posttyp som du har aktiverat för anslutningsbarhet mellan arbetsytor i stegen ovan.
+
+   Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 

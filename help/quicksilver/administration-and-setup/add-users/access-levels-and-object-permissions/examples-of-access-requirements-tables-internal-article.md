@@ -4,10 +4,10 @@ description: Det här är en intern artikel som vårt team kan använda för att
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
+source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 1%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
@@ -208,36 +208,59 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 </col> 
 <tbody> 
 <tr> 
-<td> 
-   <p> Produkter</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-   <p> Adobe Workfront</p>
-   </td> 
-  </tr>
-
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Packages</p></td> 
-   <td> 
-<p>Alla Adobe Workfront Workflow-paket och alla Adobe Workfront Planning-paket</p> 
+<ul><li><p>Alla Workfront-paket</p></li>
+Och
+<li><p>Planeringspaket</p></li></ul>
+eller
+<ul><li><p>Alla arbetsflödespaket</p></li>
+Och
+<li><p>Planeringspaket</p></li></ul>
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-plattform (**&#x200B;**&#x200B;Vill vi ringa upp detta eller bara göra det till en del av artikeln som är länkad längst ned??**&#x200B;**)</p></td> 
-   <td> 
-<p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p> 
-<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
+
+</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
-   <td><p> Standard</p> 
+   <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Åtkomstkrav för centraliserade posttyper i Workfront Planning
+
+Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td>
+
+<ul><li><p>Alla Workfront- eller Workflow-paket</p></li>
+Och
+<li><p>Ett Prime- eller Ultimate Planning-paket</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
@@ -248,14 +271,11 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-
-
 ## Åtkomstkrav för de flesta scenarioplanerare
 
 >[!NOTE]
 >
 >Om ditt företag tidigare har köpt Adobe Scenario Planner så har den blivit inköpt. Scenarioplanen är inte längre tillgänglig att köpa.
-
 
 Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
@@ -264,24 +284,61 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
  <col> 
  <tbody>
 
-<td> <p>[!DNL Adobe Workfront] Paket</p> </td> 
+<td> <p>Adobe Workfront Package</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licens*</p> </td> 
+   <td> <p>Adobe Workfront-licens</p> </td> 
    <td> <p>Ljus eller högre</p> 
    eller
-   <p>[!UICONTROL Review] eller högre</p> </td> 
+   <p>Granska eller högre</p> </td> 
   </tr>
 
 <td><p>Konfigurationer på åtkomstnivå</p> </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst till [!DNL Scenario Planner]</p> </td> 
+   <td> <p>Redigera åtkomst till scenarioplanen</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektbehörigheter </p> </td> 
-   <td> <p>[!UICONTROL Manage] behörigheter till en plan</p>  </td> 
+   <td> <p>Hantera behörigheter till en plan</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Åtkomstkrav för de flesta Workfront-mål
+
+>[!NOTE]
+>
+>Om ditt företag har köpt Adobe Workfront-målen tidigare har det blivit ännu vanligare. Adobe Workfront-mål går inte att köpa längre.
+
+Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Adobe Workfront Package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront-licens</p> </td> 
+   <td> <p>Medarbetare eller högre</p> 
+   eller
+   <p>Begärande eller högre</p> </td> 
+  </tr>
+
+<td><p>Konfigurationer på åtkomstnivå</p> </td> 
+   <td> <p>Redigera åtkomst till mål</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Objektbehörigheter </p> </td> 
+   <td> <p>Hantera behörigheter till ett mål</p>  </td> 
   </tr> 
  </tbody> 
 </table>
