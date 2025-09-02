@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Du måste ha följande:
 Organisationer måste samarbeta med sina kontoansvariga för att köpa AppBuilder. Den exakta processen för detta är inte förstådd eftersom vi inte behövde göra detta för POC.
 
 Om du vill testa AppBuilder-integreringen kan du begära en kostnadsfri testversion för din IMS-organisation här:
-[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials)
 
 Även om det är en kostnadsfri 30-dagars testversion kommer de inte att inaktivera testversionen efter den tiden.
 
@@ -89,7 +89,7 @@ Om AppBuilder är korrekt konfigurerat bör du se&quot;Skapa projekt från mall&
 
 ## Adobe IO (aio) CLI
 
-Adobe tillhandahåller en CLI med öppen källkod som kan användas för att skapa App Builder-program. Dokumentation finns här: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) samt Adobe App Builder-instruktioner [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe tillhandahåller en CLI med öppen källkod som kan användas för att skapa App Builder-program. Dokumentation finns här: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) samt Adobe App Builder-instruktioner [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installation
    1. Om du vill installera verktyget kör du: `npm install -g @adobe/aio-cli ` (kontrollera att du är på nod v18 först).
@@ -107,7 +107,6 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
 
 1. Välja och konfigurera mallar
    1. Bläddra bland alla tillgängliga mallar och välj mallen **@adobe/aem-cf-editor-ui-ext-tpl** för projektet.
-
       ![Sökmall](assets/search-template.png)
       ![Välj mall](assets/select-template.png)
 
@@ -116,7 +115,6 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
    1. Ge en beskrivande sammanfattning av tilläggets funktioner.
    1. Välj ett ursprungligt versionsnummer att börja med.
    1. Bekräfta slutförande genom att välja **Jag är klar**.
-
       ![Definiera tillägg](assets/define-extension.png)
 
 1. Navigera till din projektmapp
@@ -354,7 +352,7 @@ Adobe har massor av dokumentation om hur du kommer igång med att skapa appar f�
 
 Här är några praktiska länkar:
 
-* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#bootstrap-the-new-app-using-the-cli)
 
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 

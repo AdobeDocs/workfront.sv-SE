@@ -4,7 +4,7 @@ description: Med Workfront UI Extensions, som drivs av Adobe App Builder, kan ku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 1%
@@ -133,7 +133,7 @@ Ytterligare instruktioner finns på GitHub och Adobe Developer webbplats:
    ![generering pågår](assets/6-generation-in-process.png)
 1. Vänta tills du ser ett meddelande om att appinitieringen är klar. Sedan kan du öppna projektet i en IDE (Visual Studio Code rekommenderas) och öppna mappen src.
 
-   Mer information om mappar och filer i ditt projekt finns på [Adobe-utvecklarwebbplatsen](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
+   Mer information om mappar och filer i ditt projekt finns på [Adobe-utvecklarwebbplatsen](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## Bygg tilläggen i VSCode
 
@@ -152,13 +152,13 @@ Så här tillåter du anpassade program på Workfront huvudmeny:
 I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapades för dig av mallen. Den här koden kan läggas till för att skapa ytterligare menyalternativ. Se till att ersätta ID:n och URL:er.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +168,13 @@ I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapa
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-     12&rbrace;&rbrace;
+     12}}
     &quot;
 
 1. Lägg till följande kodfragment:
@@ -237,7 +237,7 @@ Så här tillåter du anpassade program i navigeringen i den vänstra panelen i 
    ![kodexempel](assets/9-app-file-step-1-from-sam.png)
 1. Spara ditt arbete.
 
-Mer information om hur du utvecklar och kör programmet finns på [Adobe utvecklarwebbplats](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application).
+Mer information om hur du utvecklar och kör programmet finns på [Adobe utvecklarwebbplats](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
 ## Delad kontext
 
