@@ -4,9 +4,9 @@ description: Det här är en intern artikel som vårt team kan använda för att
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -349,7 +349,7 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Exempel på åtkomstkrav för resurshantering
+## Åtkomstkrav för resurshantering (exempel: flera möjliga licenser; alla RM-paket är nu valfria)
 
 Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
@@ -378,4 +378,45 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 </table>
 
 Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<p>Kopplingsbaserad (äldre): Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>
+   <p>Om ni har ett Select- eller Prime Workfront-paket som inte innehåller Workfront Automation and Integration måste ni köpa Adobe Workfront Fusion.</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+
+Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+## Avancerade Enterprise Controls
+
+I en artikel om gruppadministratörer omnämns det paket kunden måste ha för att gruppadministratörer ska kunna ha vissa funktioner i Workfront.
+
+[Länka till aktuell artikel](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### Uppdaterad text för den tredje fotnoten under tabellen
+
+&#42;&#42;&#42; De här paketen innehåller de avancerade funktionerna för Enterprise Controls som listas nedan:
+
+* Arbetsflöde Prime och senare
+* Workfront Prime och senare
+
+Mer information om paket finns på sidan [Prissättning och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+
+Avancerade företagskontroller:
+
+* Konfigurera projekt-, uppgifts- och utgivningsinställningar på gruppnivå
+* Konfigurera tidrapport och timinställningar på gruppnivå
+* Konfigurera e-postmeddelanden om händelser på gruppnivå
+* Skapa och hantera gruppspecifika godkännandeprocesser
+* Fördela licensbegränsningar och visa hur de används per hemgrupp
+* Tilldela gruppadministratörer till undergrupper
+* Tillåt gruppadministratörer att skapa undergrupper
 
