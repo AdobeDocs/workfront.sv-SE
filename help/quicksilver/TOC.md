@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 9b09452cbde87f0903283eca2021e9aef4b67e59
+source-git-commit: ae8ef9f24b8c641f4e4f456d4a05107a10dd7cb1
 workflow-type: tm+mt
 source-wordcount: '13469'
 ht-degree: 0%
@@ -689,7 +689,7 @@ ht-degree: 0%
       * Spark-Starts {#kick-starts}
          * [Spark-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
          * [Exportera Workfront-data via snabbstart](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
-         * [Importera data med hjälp av en Kickstart-mall](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
+         * [Importera data med en snabbstartsmall](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
          * [Spark-Startar dataimport](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
          * [Scenario med snabbstart: Företag och grupp](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
          * [Scenario för att komma igång: Importera anpassade fält med flera alternativ till Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
@@ -1354,7 +1354,7 @@ ht-degree: 0%
          * [Översikt över aktivitetsbegränsning: Måste avslutas](manage-work/tasks/task-constraints/must-finish-on.md)
          * [Översikt över uppgiftsbegränsning: Senaste tillgängliga tid](manage-work/tasks/task-constraints/latest-available-time.md)
          * [Översikt över uppgiftsbegränsning: Fasta datum](manage-work/tasks/task-constraints/fixed-dates.md)
-         * [Översikt över aktivitetsvillkor: Slutför senast](manage-work/tasks/task-constraints/finish-no-later-than.md)
+         * [Översikt över aktivitetsbegränsning: Slutför inte senare än](manage-work/tasks/task-constraints/finish-no-later-than.md)
          * [Översikt över aktivitetsbegränsning: Slutför inte tidigare än](manage-work/tasks/task-constraints/finish-no-earlier-than.md)
          * [Översikt över uppgiftsbegränsning: Tidigast tillgänglig tid](manage-work/tasks/task-constraints/earliest-available-time.md)
          * [Översikt över uppgiftsbegränsning: Så snart som möjligt](manage-work/tasks/task-constraints/as-soon-as-possible.md)
@@ -1592,12 +1592,12 @@ ht-degree: 0%
          * [Översikt över beräknade datauttryck](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
          * [Beräknade anpassade fält kontra beräknade kolumner](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
          * [Villkorsoperatorer i beräknade anpassade uttryck](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-         * [Översikt över &quot;IF&quot;-uttalanden](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
-         * [Exempel på beräknat anpassat fält: visa chefen för den som skapat ett problem i det anpassade formuläret för utfärdande](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
-         * [Exempel på beräknat anpassat fält: visa en statusstämpel i ett anpassat formulär](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
+         * [Översikt över IF-programsatser](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+         * [Exempel på beräknat anpassat fält: visa hanteraren för den som skapat ett ärende i det anpassade formuläret](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
+         * [Exempel på beräknat anpassat fält: visa en tidsstämpel för status i ett anpassat formulär](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [Exempel på beräknat anpassat fält: visa ett fälts redigeringshistorik](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * Exempel på anpassad vy, filter och gruppering {#custom-view-samples}
-         * [Exempel på anpassad vy, filter och gruppering: artikelindex](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [Anpassad vy, filter och gruppering av exempel: artikelindex](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Rapporter eller listor: visa användare som är kopplade till ett objekt](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filter: visa ofullständiga föregångare mellan projekt](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [Filter: personliga uppgifter](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
@@ -1952,10 +1952,10 @@ ht-degree: 0%
          * [Korrektur för PowerPoint med inbäddad video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Det går inte att hämta eller förhandsgranska korrekturversioner när ett interaktivt korrektur läggs till som en ny version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Inbyggda integreringar {#native-integrations}
-   * [Granska och godkänn integreringar: artikelindex](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-   * [Kom igång med korrektur och integrering med GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-   * [Kom igång med korrektur och Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
-   * [Kom igång med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+      * [Granska och godkänn integreringar: artikelindex](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Kom igång med korrektur och integrering med GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+      * [Kom igång med korrektur och Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+      * [Kom igång med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * Tips, tricks och felsökning för godkännanden {#ttt-approvals}
       * [Tips, tricks och felsökning för godkännanden: artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visa antalet korrektur- och dokumentbeslut för alla användare](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2010,17 +2010,17 @@ ht-degree: 0%
    * [Lös initialkonflikter i scenarioplanen](scenario-planner/resolve-conflicts-in-sp.md)
    * [Dela en plan i scenarioplanen](scenario-planner/share-a-plan.md)
    * [Visa rolltilldelning för projekt och initiativ i uppgiftslistan](scenario-planner/show-role-allocation-task-list-nwe.md)
-   * [Visa rollallokering för projekt och initiativ i Utjämning av arbetsbelastning](scenario-planner/show-role-allocation-workload-balancer.md)
-* Mål för Adobe Workfront {#adobe-workfront-goals}
+   * [Visa rolltilldelning för projekt och initiativ i Utjämning av arbetsbelastning](scenario-planner/show-role-allocation-workload-balancer.md)
+* Adobe Workfront-mål {#adobe-workfront-goals}
    * [Adobe Workfront-mål: artikelindex](workfront-goals/workfront-goals.md)
    * [Översikt över Adobe Workfront-mål](workfront-goals/goal-management/wf-goals-overview.md)
    * Målhantering i Adobe Workfront-mål {#goal-management}
       * [Målhantering i Adobe Workfront-mål: artikelindex](workfront-goals/goal-management/goal-management.md)
-      * [Kom igång med Adobe Workfront Goals](workfront-goals/goal-management/getting-started-with-wf-goals.md)
-      * [Få tillgång till och öppna mål i Adobe Workfront Goals](workfront-goals/goal-management/access-goals-in-wf-goals.md)
-      * [Krav för att använda Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
-      * [Aktivera mål i Adobe Workfront Goals](workfront-goals/goal-management/activate-goals.md)
-      * [Översikt över målförlopp och villkor i Adobe Workfront Goals](workfront-goals/goal-management/calculate-goal-progress.md)
+      * [Kom igång med Adobe Workfront-mål](workfront-goals/goal-management/getting-started-with-wf-goals.md)
+      * [Få åtkomst till och öppna mål i Adobe Workfront-mål](workfront-goals/goal-management/access-goals-in-wf-goals.md)
+      * [Krav för att använda Workfront-mål](workfront-goals/goal-management/access-needed-for-wf-goals.md)
+      * [Aktivera mål i Adobe Workfront-mål](workfront-goals/goal-management/activate-goals.md)
+      * [Översikt över målets förlopp och villkor i Adobe Workfront-mål](workfront-goals/goal-management/calculate-goal-progress.md)
       * [Stäng och öppna mål igen i Adobe Workfront-mål](workfront-goals/goal-management/close-and-reopen-goals.md)
       * [Kopiera mål i Adobe Workfront-mål](workfront-goals/goal-management/copy-goals.md)
       * [Skapa mål i Adobe Workfront-mål](workfront-goals/goal-management/create-goals.md)
@@ -2252,10 +2252,10 @@ ht-degree: 0%
       * [Skicka Adobe Workfront-projektuppdateringar till ett listobjekt i Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
       * [Skicka Adobe Workfront-utgifter till ett listobjekt i en Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
       * [Skicka uppdateringar av verkliga timmar för Adobe Workfront till ett listobjekt för en Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-      * [Skapa ett Anaplan-listobjekt från en Adobe Workfront-budgetbegäran](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-      * [Tillämpa en Anaplan-budgetallokering på ett Adobe Workfront-projekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
-      * [Skapa ett Anaplan-listobjekt från en Adobe Workfront-kampanjbegäran](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-      * [Tillämpa en Anaplan-budgetallokering på en Adobe Workfront-kampanjförfrågan eller ett kampanjprojekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+      * [Skapa ett listobjekt för en Anaplan från en Adobe Workfront-budgetförfrågan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+      * [Använda en Anaplan-budgettilldelning i ett Adobe Workfront-projekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+      * [Skapa ett listobjekt för en Anaplan från en Adobe Workfront-kampanjbegäran](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+      * [Använda en Anaplan-budgettilldelning på en Adobe Workfront-kampanjbegäran eller ett kampanjprojekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
    * [Workfront Proof: artikelindex](workfront-proof/workfront-proof.md)
    * Kom igång med Workfront Proof {#get-started-wf-proof}
