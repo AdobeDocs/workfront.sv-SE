@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2332'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,16 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
    * Textbunden i en tabellvy.
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * När en användare redigerar en post i en vy visas ändringarna omedelbart i alla vyer och postsidorna för alla andra användare.
 
@@ -127,10 +135,16 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
 
 Du kan redigera en post i följande områden:
 
-* [Registervyn för en posttyp](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Tabellvyn](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Tidslinjevyn](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [Kalendervyn](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [Postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view)
 * [Postens sida](#edit-a-record-from-the-records-page)
 * [Ett Workfront-objekt i Planning-avsnittet](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+Så här redigerar du posternas datum:
+
+* [Ändra storlek på posternas fält i tidslinjen och kalendervyn]
 
 ### Redigera en post textbundet i tabellvyn för en posttyp
 
@@ -221,6 +235,39 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
    >    Du kan använda kortkommandona flera gånger i rad för att ångra flera ändringar.
 
 1. (Valfritt) Lägg till en miniatyrbild till en post. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+
+### Redigera en post i tidslinjevyn för en posttyp
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Öppna posttypssidan i en tidslinjevy. Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
+
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+
+### Redigera en post i kalendervyn för en posttyp
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Öppna posttypssidan i en kalendervy. Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
+
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post från postens förhandsgranskning i en vy
 

@@ -4,9 +4,9 @@ description: Det här är en intern artikel som vårt team kan använda för att
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -249,9 +249,13 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td>
 
-<ul><li><p>Alla Workfront- eller Workflow-paket</p></li>
-Och
-<li><p>Ett Prime- eller Ultimate Planning-paket</p></li></ul>
+<ul><li><p>Alla Workfront-paket</p></li>
+  Och
+  <li><p>Planering Plus-paket</p></li></ul>
+  Eller:
+  <ul><li><p>Alla arbetsflödespaket</p> </li>
+  Och
+  <li><p>Planera Prime- eller Ultimate-paket</p></li></ul>
    </td> </tr>
 
 </tr> 
