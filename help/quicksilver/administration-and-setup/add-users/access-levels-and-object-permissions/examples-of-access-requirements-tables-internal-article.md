@@ -4,9 +4,9 @@ description: Det här är en intern artikel som vårt team kan använda för att
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
+source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -344,4 +344,34 @@ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 </table>
 
 Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Exempel på åtkomstkrav för resurshantering
+
+Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Alla</p></td>
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront-licens</td> 
+   <td><p>Ljus eller högre för ett projekt; Standard för flera projekt</p>
+       <p>Granska eller högre för ett projekt, Planera för flera projekt</p></td>
+  </tr> 
+  <tr> 
+   <td>Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till resurshantering</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Objektbehörigheter</td> 
+   <td> <p>Visa behörigheter för projekt och användare </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
