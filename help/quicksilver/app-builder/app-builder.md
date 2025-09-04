@@ -4,10 +4,10 @@ description: Med Workfront UI Extensions, som drivs av Adobe App Builder, kan ku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 1%
+source-wordcount: '2178'
+ht-degree: 0%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 1%
 
 Med Workfront UI Extensions, som bygger på Adobe App Builder, kan kunder och partners skapa anpassade användarupplevelser. Verktygen förbättrar effektiviteten, levererar smidiga, sammankopplade upplevelser och ger avsevärt nöjdare användare samt hjälper företag att förverkliga sin unika vision.
 
-Utan Workfront UI Extensions kan projektledaren behöva växla mellan Workfront och ett separat tidsspårningssystem för att kunna logga timmar. Med UI Extensions kan tidsspårning integreras direkt i Workfront-upplevelsen, vilket effektiviserar arbetsflödet och sparar tid. Dessutom kan du lägga till anpassade komponenter för att förbättra användbarheten, automatisera repetitiva uppgifter och förbättra innehållshanteringen med funktioner som taggning av metadata och förhandsgranskning av innehåll. Adobe App Builder erbjuder också skalbarhet och robust identitetshantering (IMS), vilket ger säker och effektiv anpassning i alla skalor.
+Utan Workfront UI Extensions kan projektledaren behöva växla mellan Workfront och ett separat tidsspårningssystem för att kunna logga timmar. Med UI Extensions kan man integrera tidsspårning direkt i Workfront, effektivisera arbetsflödet och spara tid. Dessutom kan du lägga till anpassade komponenter för att förbättra användbarheten, automatisera repetitiva uppgifter och förbättra innehållshanteringen med funktioner som taggning av metadata och förhandsgranskning av innehåll. Adobe App Builder erbjuder också skalbarhet och robust identitetshantering (IMS), vilket ger säker och effektiv anpassning i alla skalor.
 
 Workfront UI-tillägg har flera viktiga fördelar:
 
 * Exakt anpassning: Standardgränssnitt uppfyller ofta inte alla affärskrav. Med UI-tillägg kan utvecklare ändra och utöka standardanvändargränssnittet för att tillgodose specifika affärsbehov.
-* Systemintegrering: UI-tillägg underlättar integrering av andra system, vilket ger smidiga arbetsflöden och enhetlighet i data.
-* Skalbarhet: I takt med att företag växer kan man utveckla gränssnittstillägg för att lägga till nya funktioner utan att behöva göra en fullständig systemöversyn.
+* Systemintegrering: UI-tillägg underlättar integreringen av andra system och säkerställer smidiga arbetsflöden och enhetlighet i data.
+* Skalbarhet: I takt med att företag växer kan UI-tillägg utvecklas för att lägga till nya funktioner utan behov av en fullständig systemöversyn.
 * Minskad utvecklingstid: Fördefinierade tilläggspunkter och verktyg minskar avsevärt den tid och det arbete som krävs för att implementera anpassade funktioner.
 * Bättre användning: En optimerad användarupplevelse kan öka användningen av programvaran avsevärt. Anpassade gränssnittselement som är utformade för att passa användarpreferenser kan öka antalet användare och få nöjdare användare.
 * Med Workfront UI Extensions kan man skapa skräddarsydda användarupplevelser som ökar effektiviteten, integreringen och användarnöjdheten.
 
-När ett program har skapats i Adobe App Builder kan en Workfront-administratör lägga till det på Workfront huvudmeny och den vänstra navigeringspanelen med hjälp av layoutmallar. En användare med layoutmallen som klickar på programmet kommer att se programmet som är inbäddat i Workfront, i stället för att behöva öppna det separat.
+När ett program har skapats i Adobe App Builder kan en Workfront-administratör lägga till det på Workfront huvudmeny och den vänstra navigeringspanelen med hjälp av layoutmallar. En användare med layoutmallen som klickar på programmet ser programmet som inbäddat i Workfront, i stället för att behöva öppna det separat.
 
 I den här artikeln beskrivs hur du får åtkomst till App Builder och använder en mall för att skapa ett program.
 
@@ -93,13 +93,13 @@ Ytterligare instruktioner finns på [Adobe Developer-webbplatsen](https://develo
 
 1. Välj **App Builder**.
 
-1. Ange en **projekttitel** och **programnamn**. Båda har standardvärden, men det blir enklare att identifiera det projekt som du vill ha senare om du anpassar värdet.
+1. Ange en **projekttitel** och **programnamn**. Båda har standardvärden, men det är enklare att identifiera det projekt som du vill ha senare om du anpassar värdet.
 
 1. Låt **Inkludera körningsversion** vara markerat.
 
 1. Klicka på **Spara**.
 
-## Använd Adobe IO (aio) CLI
+## Använd Adobe Developer (aio) CLI
 
 Adobe tillhandahåller en CLI med öppen källkod som du kan använda för att skapa App Builder-programmet.
 
@@ -125,7 +125,7 @@ Ytterligare instruktioner finns på GitHub och Adobe Developer webbplats:
    * Namnge tillägget.
    * Ge en beskrivande sammanfattning av tilläggets funktioner.
    * Välj ett ursprungligt versionsnummer att börja med.
-   * Mallen skapar koden för en primär navigeringsknapp om du väljer&quot;Lägg till en anpassad knapp i huvudmenyobjektet&quot; när du uppmanas till&quot;Vad vill du göra härnäst?&quot;.
+   * I mallen skapas koden för en primär navigeringsknapp om du väljer&quot;Lägg till en anpassad knapp i huvudmenyobjektet&quot; när du uppmanas till&quot;Vad vill du göra härnäst?&quot;.
 
    ![välj klart](assets/5-select-done.png)
 
@@ -135,13 +135,15 @@ Ytterligare instruktioner finns på GitHub och Adobe Developer webbplats:
 
    Mer information om mappar och filer i ditt projekt finns på [Adobe-utvecklarwebbplatsen](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
+Mer information om mappar och filer i ditt projekt finns på [Adobe Developer-webbplatsen](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+
 ## Bygg tilläggen i VSCode
 
 App.js-filkonfigurationen krävs för att aktivera navigering via Workfront huvudmeny eller sekundär navigering (vänster panel).
 
 Filkonfigurationen ExtensionRegistration.js krävs för att visa tilläggen i Workfront layoutmallar.
 
-I följande exempel visas hur du lägger till anpassade program på huvudmenyn i Workfront och ett objekts vänstra panel med hjälp av UI-tilläggen.
+I följande exempel visas hur du lägger till anpassade program på huvudmenyn i Workfront och på det vänstra objektets panel med hjälp av gränssnittstilläggen.
 
 ### Konfigurera ExtensionRegistration.js
 
@@ -152,13 +154,13 @@ Så här tillåter du anpassade program på Workfront huvudmeny:
 I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapades för dig av mallen. Den här koden kan läggas till för att skapa ytterligare menyalternativ. Se till att ersätta ID:n och URL:er.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +170,13 @@ I funktionen ExtensionRegistration ska du se följande kod. Den här koden skapa
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-     12&rbrace;&rbrace;
+     12}}
     &quot;
 
 1. Lägg till följande kodfragment:
@@ -218,11 +220,170 @@ Så här tillåter du anpassade program i navigeringen i den vänstra panelen i 
 
 1. Spara ditt arbete.
 
+### Bädda in en app med ett anpassat Workfront-formulär
+
+Formulärwidgetens tilläggspunkt är en funktion för gränssnittstillägg i Adobe Workfront som gör att du kan skapa anpassade widgetar som kan bäddas in i Workfront anpassade formulär. Till skillnad från andra tilläggspunkter som lägger till navigeringsobjekt eller menyalternativ, är widgetar ett sätt att visa anpassat innehåll i dedikerade paneler i anpassade formulärfält.
+
+Widgetar är modulära gränssnittskomponenter som kan läggas till i anpassade Workfront-formulär som formulärfält. De ger ett sätt att visa anpassade funktioner, datavisualiseringar eller externt innehåll direkt i anpassade formulärgränssnitt, så att användarna kan interagera med anpassad logik samtidigt som de fyller i formulären.
+
+#### Konfigurera ett widgettillägg
+
+Precis som UI-tilläggspunkter för huvudmenyn och den sekundära navigeringen, är tilläggspunkten för widgetar konfigurerad i `ExtensionRegistration`-komponentens metodobjekt, vanligtvis i `ExtensionRegistration.js`-fältet. Det innebär att det bara krävs att du lägger till ett widgetobjekt i `extesionregistration` med ett giltigt flöde i din app.js för att använda formulärwidgeten:
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### Egenskaper för Widget-konfiguration
+
+**Obligatoriska egenskaper**
+
+* id (sträng): Unik identifierare för widgeten. Måste vara unikt för alla widgetar i tillägget.
+
+* url (sträng): URL-sökvägen till widgetens innehåll. Detta bör peka på en väg i tillägget som återger widgetkomponenten.
+
+* label (string): Visningsnamn för widgeten som visas i det anpassade gränssnittet för val av formulärfält.
+
+**Valfria egenskaper**
+
+* dimensioner (objekt): Anger widgetens visningsmått. Alla egenskaper är valfria, och dessa är de enda möjliga dimensionerna:
+
+* höjd (tal): widgetens höjd i pixlar
+
+* bredd (tal): widgetens bredd i pixlar
+
+* maxHeight (number): Maximal höjd för widgeten i pixlar
+
+* maxWidth (number): Maximal bredd för widgeten i pixlar
+
+**Dimension-egenskaper**
+
+Med dimensionsobjektet kan du styra storleken och layoutbegränsningarna för din widget:
+
+* höjd och bredd: Ange widgetens inledande/föredragna storlek
+
+* maxHeight och maxWidth: Ange övre gränser för att förhindra att widgeten blir för stor
+
+* Responsiv funktion: widgetar kan vara responsiva inom dessa begränsningar
+
+* Formulärintegrering: Dimensioner hjälper till att säkerställa att widgeten passar bra in i formulärfältslayouter
+
+#### Exempel på Dimension-konfigurationer
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### Kontextdata
+
+Widgetar har åtkomst till samma delade kontext som andra tilläggspunkter, inklusive:
+
+* auth: Autentiseringsinformation inklusive IMS-token
+
+* objCode: Objekttypskod (AKTIVITET, PROJEKT, UTGÅVA osv.)
+
+* objID: Objektidentifierare
+
+* värdnamn: Workfront instansvärdnamn
+
+* protokoll: Anslutningsprotokoll
+
+* användare: Aktuell användarinformation
+
+* isLoginAs: Anger om användaren är inloggad som en annan användare
+
+* isInBulkEditing: Om formuläret är i gruppredigeringsläge. I så fall innehåller kontexten flera värden för objekt-ID.
+
+#### Lägga till en widget i ett anpassat Workfront-formulär
+
+En app kan bäddas in i ett anpassat Workfront-formulär med fälttypen &quot;UI Extensions&quot;. När du har lagt till fältet väljer du en formulärwidget, baseras listan över widgetar på aktiva appar i din IMS-organisation eller lokalt aktiva program när `extensionoverride=TRUE`.
+
+![Fältet UI-tillägg i ett anpassat formulär](assets/ui-extensions-field.png)
+
 ### Konfigurera App.js
 
 1. Gå till App.js.
 
-1. Mallen kommer att vara en väg för ett alternativ på huvudmenyn. Ett flöde definierar mappningen mellan URL-sökvägar och de komponenter som återges för dessa sökvägar. Om du vill lägga till en väg använder du följande kodfragment för att vara säker på att du ersätter den exakta sökvägen och elementet med ditt.
+1. Mallen kommer att användas som huvudmenyalternativ. Ett flöde definierar mappningen mellan URL-sökvägar och de komponenter som återges för dessa sökvägar. Om du vill lägga till en väg använder du följande kodfragment för att vara säker på att du ersätter den exakta sökvägen och elementet med ditt.
 
    ```
        <Route 
@@ -238,6 +399,7 @@ Så här tillåter du anpassade program i navigeringen i den vänstra panelen i 
 1. Spara ditt arbete.
 
 Mer information om hur du utvecklar och kör programmet finns på [Adobe utvecklarwebbplats](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
+
 
 ## Delad kontext
 
@@ -264,12 +426,12 @@ När du utvecklar ditt App Builder-program för Workfront kan du behöva testa d
 
 I din App Builder-app kan du initiera `aio app run` för lokal utveckling. Detta ger dig en URL, vanligtvis något som `https://localhost:9080`. Du kan också köra `aio app deploy` för att erhålla en statisk Adobe-domän. Observera dessa URL:er för framtida bruk.
 
-Navigera sedan till den sida du vill utveckla mot i webbläsaren. Öppna utvecklarverktygen och gå till Lokal lagring för antingen workfront.com eller workfront.adobe.com. Här måste du lägga till en post. Använd `extensionOverride` som nyckel och den tidigare angivna URL:en för appbyggaren som värde.
+Navigera sedan till den sida du vill utveckla mot i webbläsaren. Öppna utvecklarverktygen och gå till Lokal lagring för antingen workfront.com eller workfront.adobe.com. Här måste du lägga till en post. Använd `extensionOverride` som nyckel och den tidigare angivna App Builder-URL:en som värde.
 
 Om konfigurationen slutfördes korrekt visas knapparna från ditt App Builder-program när du läser in layoutmallsidan i Workfront igen. Lägg till appknapparna på huvudmenyn och den vänstra panelen för ett objekt och kontrollera att de visas korrekt i de områdena.
 
-Ytterligare instruktioner finns på Adobe utvecklarwebbplats, med ett exempel från AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+Ytterligare instruktioner finns på Adobe Developer webbplats, med ett exempel från AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
 
 ## Publicera ansökningar och godkänn inlämningen
 
-Följ instruktionerna på [Adobe utvecklarwebbplats](https://developer.adobe.com/uix/docs/guides/publication/) för att publicera och godkänna programmet.
+Följ instruktionerna på [Adobe Developer-webbplatsen](https://developer.adobe.com/uix/docs/guides/publication/) för att publicera och godkänna programmet.
