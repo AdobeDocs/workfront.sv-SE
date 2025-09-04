@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -68,14 +68,18 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Om du vill använda Project Health måste AI Assistant vara aktiverat i organisationen.
 
-Om du vill aktivera AI Assistant för din organisation måste du göra något av följande:
+Om du vill aktivera AI Assistant och Projekthälsa för din organisation måste du göra något av följande:
 
 * Din organisation måste ha migrerat till Adobe IMS (Identity Management System).
+* Din organisation måste ha en Select-, Prime- eller Ultimate Workfront-plan
 * Adobe Unified Experience måste aktiveras.
 * Adobe måste ha ett signerat Adobe Gen AI-avtal till hands.
 * Workfront-administratören måste aktivera AI-assistenten för användare i din organisation. AI Assistant aktiveras via åtkomstnivåer.
+* Du måste markera alternativen Aktivera AI och Projekthälsa i AI-inställningarna under Inställningar > Inställningar.
 
-Mer information finns i [Översikt över AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  ![Avsnittet AI-inställningar](assets/ai-preferences.png)
+
+Mer information finns i [Översikt över AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) och [Konfigurera systeminställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## AI Assistant-frågelista
 

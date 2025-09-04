@@ -6,9 +6,9 @@ description: En ny anslagstavla innehåller som standard tre kolumner. Du kan l�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,6 @@ Principen för att uppdatera statusen fungerar automatiskt för både kortet och
 * När ett tillfälligt eller anslutet kort uppdateras på kortet för att matcha kolumnstatusen i profilen, eller när ett anslutet kort uppdateras någon annanstans i Workfront, flyttas kortet automatiskt till den kolumnen. Om en anpassad status på ett kort matchar systemstatusen som är tilldelad kolumnen flyttas kortet till den kolumnen.
 
 Ett kort finns kvar i en kolumn där det är placerat om kortstatusen inte matchar någon status som angetts i någon befintlig kolumnprofil.
-
->[!NOTE]
->
->Dynamiska kort placerar alltid kort i kolumnen som matchar deras status, oavsett om kolumnprinciper är aktiverade eller inaktiverade. Korten återgår till sina tilldelade kolumner när du uppdaterar ritytan.
-> 
->Om du flyttar ett kort från en kolumn till en annan med samma status för alla kort, återgår kortet till den ursprungliga kolumnen när du uppdaterar kortet.
 
 1. Gå till styrelsen.
 1. Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) i kolumnen och välj **[!UICONTROL Edit]**.
