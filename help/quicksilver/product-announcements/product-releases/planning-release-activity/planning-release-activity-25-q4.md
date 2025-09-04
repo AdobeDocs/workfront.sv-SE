@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,114 @@ I den här artikeln beskrivs funktionerna som lanseras för Workfront Planning i
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning finns i [Versionsaktivitet för Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Unified request form list now available
 
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: September 11, 2025
+>* Production all: October 16, 2025
+
+To make it easier to find the request form you're looking for in Workfront Planning, we've created a unified list for request forms. Now, all request forms that you have access to can be found in a single list, regardless of the object they were created for. Clicking on a form in this list brings you to the request form's page, where you can edit, preview, or publish and unpublish the form.
+
+Previously, request forms were located only on the object for which they were created.
+
+For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Ändra storlek på poster i kalenderns månadsvy
+
+>[!NOTE]
+>
+>* Förhandsgranska: 4 september 2025
+>* Production fast release: 15 oktober 2025
+>* Produktion: 16 oktober 2025
+
+I kalendervyn på en posttypsida kan du nu klicka, dra och släppa en posts vänstra eller högra marginal för att ändra dess varaktighet.
+
+När du flyttar en posts marginaler ändras också dess start- och slutdatum omedelbart.
+
+En disposition visas som vägleder dig till den nya platsen innan händelsens storlek ändras.
+
+Det går bara att ändra storlek på poster i kalendervyn om vyn visas per månad.
+
+Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+
+## Skapa poster i kalendervyn
+
+>[!NOTE]
+>
+>* Förhandsgranska: 4 september 2025
+>* Production fast release: 15 oktober 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+Nu kan du skapa poster i kalendervyn av en posttyp genom att dubbelklicka var som helst i kalendern.
+
+Du kan välja datumintervall för posten eller öppna postens sida för att redigera all information.
+
+Före den här förbättringen kunde du bara lägga till nya poster från kalendervyn med knappen Ny post.
+
+Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+
+## Ändra storlek på poster i tidslinjevyn
+
+>[!NOTE]
+>
+>* Förhandsgranska: 4 september 2025
+>* Production fast release: 15 oktober 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+I tidslinjevyn på en posttypsida kan du nu klicka, dra och släppa en posts vänster- eller högermarginal för att ändra dess varaktighet.
+
+När du flyttar en posts marginaler ändras också dess start- och slutdatum omedelbart.
+
+En disposition visas som vägleder dig till den nya platsen innan händelsens storlek ändras.
+
+>[!NOTE]
+>
+>Det går att ändra storlek på poster i tidslinjevyn när vyn visas varje år, varje kvartal eller varje månad.
+
+
+Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
+
+## Styr hur många poster som ska visas i kalendervyn
+
+>[!NOTE]
+>
+>* Förhandsgranska: 4 september 2025
+>* Production fast release: 15 oktober 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+Vi har lagt till inställningen Radhöjd i verktygsfältet i kalendervyn på en postsida. Du kan nu välja hur många poster som ska visas i en kalendercell genom att välja något av följande alternativ för vyns radhöjd:
+
+* Kort
+* Standard
+* Medium
+* Hög
+* Anpassa till innehåll
+
+Inställningen är bara tillgänglig när kalendervyn visas per månad. Inställningen är inte tillgänglig när kalendern visas per vecka.
+
+Mer information, inklusive begränsningar för varje alternativ, finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+
+## Lägg till ett nytt alternativ för urvalsfält i tabellvyn
+
+>[!NOTE]
+>
+>* Förhandsgranska: 4 september 2025
+>* Production fast release: 15 oktober 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+Du kan nu lägga till ett nytt alternativ i ett enskilt- eller flervalsfält när du uppdaterar fältvärdet i tabellvyn. Om du till exempel har tre alternativ för ett envalsfält för Status och vill ha ett fjärde alternativ, kan du lägga till det när du redigerar statusfältet för en post i tabellvyn.
+
+Före den här förbättringen kan du bara lägga till nya alternativ genom att redigera fältet.
+
+>[!NOTE]
+>
+>Den här funktionen är bara tillgänglig när du uppdaterar fältvärden i tabellvyn.
+
+
+Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
 ## Ny kombinerad statuskolumn i listan för enhetliga begäranden
 
@@ -77,8 +184,8 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 >[!NOTE]
 >
 >Förhandsgranska: 7 augusti 2025
->&#x200B;>Produktion för alla kunder :August, 2025
->&#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>>Produktion för alla kunder :August, 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till nya uttryck med följande användning i formelfält i Workfront Planning och i beräknade anpassade fält i Workfront:
 
@@ -93,8 +200,8 @@ Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilv
 >[!NOTE]
 >
 >Förhandsgranska: 31 juli 2025
->&#x200B;>Produktion för alla kunder: 31 juli 2025
->&#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>>Produktion för alla kunder: 31 juli 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till knappen Maximera för att förstora formelfältet när du skapar eller redigerar fältet i en posttabellvy. Dessutom har vi lagt till en Minimera-knapp i det nya förstorade fönstret för att återgå till rutan för att skapa fält.
 
@@ -143,8 +250,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Nu kan du skapa poster i tidslinjevyn för en posttyp genom att dubbelklicka någonstans på tidslinjen.
 
@@ -159,8 +266,8 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Du kan nu dela en posttyp på menyn Mer på posttypskortet på arbetsytesidan. Före den här förbättringen var alternativet Dela bara tillgängligt på posttypssidan.
 
@@ -171,8 +278,8 @@ Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Nu kan du visa alla Workfront Planning-vyer (tabell, tidslinje och kalender) i helskärmsläge. Visningsfunktionen bevaras och du kan även ändra vyn i helskärmsläge.
 
@@ -185,8 +292,8 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 >[!NOTE]
 >
 >Förhandsgranska: 22 juli 2025
->&#x200B;>Production for fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production for fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 För att göra godkännandeprocessen mer flexibel har vi lagt till möjligheten att lägga till team som godkännare i planeringsförfrågningsformulär. Nu kan du ange och välja teamnamn när du ställer in godkännare. Alla teammedlemmar kan fatta ett beslut som räknas som ett godkännandebeslut för hela teamet.
 
@@ -199,8 +306,8 @@ Mer information finns i [Lägga till ett godkännande i ett begärandeformulär 
 >[!NOTE]
 >
 >Förhandsgranska: 17 juli 2025
->&#x200B;>Production for fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production for fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Vi introducerar följande fält för att samla in godkännandeinformation för poster som skapats genom att skicka en begäran med ett godkännande:
 
@@ -214,8 +321,8 @@ Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-f
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 
 När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.

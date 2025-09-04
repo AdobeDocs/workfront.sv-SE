@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Gränssnittsuppdateringar för rutorna Nytt och Kopiera styrkort
+
+**Förhandsversion: 4 september 2025; Produktionsversion: 11 september 2025**
+
+Vi har uppdaterat utseendet på rutorna Nytt och Kopiera styrkort så att de matchar designen i andra delar av programmet. Du kan visa den uppdaterade designen när du skapar eller kopierar ett styrkort under Konfigurera i Workfront.\
+Mer information finns i [Skapa ett styrkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Gränssnittsuppdateringar för layoutmallslistan i en grupp
 
@@ -217,7 +224,7 @@ Mer information finns i [Hantera projektutgifter](/help/quicksilver/manage-work/
 
 >[!NOTE]
 >
->Tillfälligt borttagen från förhandsgranskning och produktion
+>Finns i Preview och kommer att finnas i Production i en fasad lansering som börjar den 4 september 2025.
 
 Vi har uppdaterat loggtidsrutans utseende och känsla när vi loggar tid för ett projekt, en uppgift eller ett problem under Timmar, så att det matchar designen i andra delar av Workfront.
 
