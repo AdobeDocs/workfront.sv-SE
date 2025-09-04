@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1860'
 ht-degree: 0%
 
 ---
@@ -111,19 +111,12 @@ Tänk på följande:
    * När start- eller slutdatumet saknar värde visas posten som en endagshändelse
    * När startdatumet är efter slutdatumet visas inte posten i kalendern.
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* Du kan skapa och redigera poster i kalendervyn. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+* Du kan ändra storlek på posternas fält i kalenderns månadsvy genom att klicka och sedan dra och släppa deras marginaler på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 Så här hanterar du en kalendervy:
 
@@ -151,7 +144,7 @@ Så här hanterar du en kalendervy:
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * <span class="preview">[Radhöjd](#modify-row-height)</span>
    * [Inställningar](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ Så här lägger du till ett filter i en kalendervy:
 1. (Valfritt) Klicka på ikonen **x** för att ta bort ett filtervillkor.
 1. (Valfritt) Klicka på **Filter** för att stänga filterrutan. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### Ändra radhöjd
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+Du kan ändra radhöjden i en kalendercell om du vill öka eller minska antalet postfält som visas i varje cell.
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+Antalet poster som visas i kalendern varierar beroende på hur många fält som visas på posternas fält.
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>Den här inställningen är bara tillgänglig när du visar kalendern per månad.
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. Skapa en kalendervy för en posttypsida, enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. (Villkorligt) Visa kalendervyn efter månad och klicka sedan på **Radhöjd** i kalenderns verktygsfält.
+1. Välj bland följande alternativ:
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>Radhöjd, alternativ</b></th>
+        <th><b>Högsta standardantal poster</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Kort</td>
+        <td><p>Innehåller:</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>2 poster med 1 fält</li>
+    <li>1 post som visar mer än 1 fält</li></ul>
+        </td>
+    </tr>
+    <tr><td>Standard</td>
+        <td><p>Innehåller:</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>4 poster med 1 fält</li>
+    <li>2 post som visar mer än 1 fält</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Medium</td>
+        <td><p>Innehåller:</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>8 poster med 1 fält</li>
+    <li>4 poster som visar mer än 1 fält</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Hög</td>
+        <td><p>Innehåller:</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>12 poster med 1 fält</li>
+    <li>6 poster som visar mer än 1 fält</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Anpassa till innehåll</td>
+        <td><p>Alla poster är synliga, upp till 500 poster</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. (Valfritt) Klicka på **mer** om det finns poster som inte visas i kalendern.
 
 </span>
-
--->
 
 ### Redigera inställningar för kalendervyn
 

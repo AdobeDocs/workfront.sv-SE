@@ -6,9 +6,9 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Projekt representerar en stor mängd arbete som behöver utföras i Adobe Workfront.
 
@@ -116,16 +116,11 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 
 * Publicera ett projekt från ett scenario i Adobe Workfront Scenario Planner.
 
-  Scenarioplaneraren kräver något av följande:
+  Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
-   * En ytterligare licens för den nuvarande Workfront-licensstrukturen.
-   * En Ultimate-licens för den nya Workfront License-strukturen.
+  Mer information om hur du skapar projekt från publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera projekt i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-  Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md). Mer information om hur du skapar projekt från publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera projekt i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
-
-* Lägg till projekt när du kopplar dem från en posttyp i Workfront Planning. I produktionsmiljön kan du bara skapa projekt utan mallar från Workfront Planning. <span class="preview">Du kan skapa projekt med hjälp av en mall i förhandsvisningsmiljön.</span>
-
-  Du måste ha en ny Workfront-licens och en extra Workfront Planning-licens för Workfront Planning.
+* Lägg till projekt när du kopplar dem från en posttyp i Workfront Planning.
 
   Mer information om åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 

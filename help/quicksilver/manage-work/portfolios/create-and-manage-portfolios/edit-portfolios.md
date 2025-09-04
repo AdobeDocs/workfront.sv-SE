@@ -6,22 +6,22 @@ description: Du kan redigera information om portföljer som du har skapat eller 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
 
 # Redigera portföljer
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Du kan redigera information om portföljer som du har skapat eller som andra användare har skapat om de har delat dem med dig.
 
@@ -109,9 +109,9 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   <span class="preview">Rutan **[!UICONTROL Edit Portfolio]** visas.</span>
+   Rutan **[!UICONTROL Edit Portfolio]** visas.
 
-   <span class="preview">![Redigera portföljruta](assets/edit-portfolio-box-classic-350x224.png)</span>
+   ![Redigera portföljruta](assets/edit-portfolio-box-classic-350x224.png)
 
    Alla portföljfält är tillgängliga i rutan [!UICONTROL Edit Portfolio] och grupperas efter de områden som visas i den vänstra panelen.
 
@@ -169,15 +169,12 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
     </tbody> 
    </table>
 
-1. Klicka på **[!UICONTROL Save Changes]** <span class="preview"> eller [!UICONTROL **Spara**]</span> och fortsätt redigera följande avsnitt.
+1. Klicka på [!UICONTROL **Spara**] och fortsätt redigera följande avsnitt.
 
 ### Anpassad Forms
 
 1. Börja redigera portföljen enligt beskrivningen ovan.
-1. Klicka på listrutan **[!UICONTROL Add Forms]** för att välja ett anpassat formulär och lägga till det i portföljen.
-
-   eller
-   <span class="preview">Börja skriva namnet på ett formulär i fältet [!UICONTROL **Lägg till anpassat formulär**].</span>
+1. Börja skriva namnet på ett formulär i fältet [!UICONTROL **Lägg till anpassat formulär**].
 
    Du måste skapa anpassade portföljformulär innan de kan läggas till.
 
@@ -185,16 +182,16 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
    >
    >Beroende på hur din [!DNL Workfront]-administratör anger behörigheter för avsnitten i ditt anpassade formulär kan inte alla visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har på själva portföljen. Mer information om att ange behörigheter för avsnitt i ett anpassat formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicka på **[!UICONTROL Save Changes]** <span class="preview"> eller [!UICONTROL **Spara**]</span> och fortsätt redigera följande avsnitt.
+1. Klicka på [!UICONTROL **Spara**] och fortsätt redigera följande avsnitt.
 
 ### Kommentar {#comment}
 
 1. Börja redigera en portfölj enligt beskrivningen ovan.
 1. Klicka på **[!UICONTROL Comment]**.
 
-   <span class="preview">![Redigera portföljkommentarsruta](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
+   ![Redigera portföljkommentarsruta](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. <span class="preview">Lägg till en kommentar i fältet **[!UICONTROL Add an update to the portfolio]**.</span>
+1. Lägg till en kommentar i fältet **[!UICONTROL Add an update to the portfolio]**.
 1. (Valfritt) Klicka på ikonen **[!UICONTROL People]** för att lägga till en användare eller ett team i kommentaren.
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Lock]** om du vill låsa kommentaren och göra den privat för endast användare i ditt företag.
-1. Klicka på **[!UICONTROL Save Changes]** <span class="preview">eller [!UICONTROL **Spara**]</span>.
+1. Klicka på [!UICONTROL **Spara**].

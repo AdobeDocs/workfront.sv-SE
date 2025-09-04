@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## Lägga till användare i ett projektteam
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+När du lägger till användare i projektteamet får de behörigheten Visa för projektet och projektets uppgifter, utgåvor och dokument. Mer information finns i artikeln [Översikt över projektgruppen](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>Användare i projektgruppen läggs inte automatiskt till i resurshanteringsverktygen för projektet.
 
-You can add users to the project team in the following ways:
+Du kan lägga till användare i projektteamet på följande sätt:
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [Lägg till användare automatiskt i ett projektteam](#automatically-add-users-to-a-project-team)
+* [Lägga till användare manuellt i ett projektteam](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### Lägg till användare automatiskt i ett projektteam {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+De användare som uppfyller följande roller i projektet läggs automatiskt till i projektteamet och visas i avsnittet Personer när projektet skapas:
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* Den som har skapat projektet
+* Projektägaren
+* Projektsponsorn
 
-Users are also automatically added to the project team when they are assigned to the following:
+Användare läggs också automatiskt till i projektteamet när de tilldelas följande:
 
-* Tasks
-* Issues
+* Uppgifter
+* Problem
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### Lägga till användare manuellt i ett projektteam {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+Om användare som inte har någon roll i projektet vill få meddelanden om vissa uppdateringar eller ändringar under projektets livslängd kan du lägga till dem manuellt i projektteamet.
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+Mer information om vilka meddelanden som kan aktiveras för användare i projektteamet finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ I den här artikeln beskrivs hur du kan redigera inställningarna för Workfront
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ I den här artikeln beskrivs hur du kan redigera inställningarna för Workfront
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Att tänka på när du redigerar fältinställningar
@@ -98,7 +98,7 @@ I den här artikeln beskrivs hur du kan redigera inställningarna för Workfront
 Du måste tänka på följande innan du gör ändringar i ett fälts konfiguration:
 
 * Du kan bara redigera fältinställningar från posttyptabellen.
-* Du kan inte redigera ett fält på postsidan eller i någon annan vy utanför tabellvyn.
+* Du kan inte redigera inställningarna för ett fält på postsidan eller i någon annan vy, utanför tabellvyn.
 * Du kan inte redigera fälttypen efter att fältet har sparats.
 * Du kan inte avmarkera inställningen Tillåt negativa tal som tidigare var markerad, för fältet Nummer, Procent eller Valuta om det redan finns negativa värden lagrade på posterna som den är kopplad till.
 * Du kan redigera konfigurationen för följande fältelement när du har sparat fältet:
@@ -116,6 +116,7 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
   >Det finns inget meddelande till andra användare om att fältkonfigurationen har ändrats.
 
 * Du kan redigera befintliga uppslagsfält från anslutna poster.
+* Förutom att redigera fältet enligt beskrivningen i avsnittet [Redigera fältinställningar](#edit-field-settings-1) i den här artikeln, kan <span class="preview">du redigera ett envalsfält eller flervalsfält när du redigerar en post i tabellvyn när du uppdaterar fältvärdena. Mer information finns i avsnittet [Lägg till nya alternativ i ett befintligt urvalsfält när du redigerar poster i tabellvyn](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) i den här artikeln.</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
 1. (Villkorligt) För anslutna postfält klickar du på **Redigera uppslagsfält** och lägger till eller tar bort något av uppslagsfälten från den anslutna posttypen.
 
    Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+<div class="preview">
+
+## Lägga till nya alternativ i ett befintligt markeringsfält när du redigerar poster i tabellvyn
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+Du kan lägga till nya alternativ i ett befintligt envalsfält eller flervalsfält när du redigerar poster i tabellvyn.
+
+>[!IMPORTANT]
+>
+>De funktioner som beskrivs i det här avsnittet är bara tillgängliga i tabellvyn. Den är inte tillgänglig i andra områden där ett eller flera fält visas.
+
+**EXEMPEL**
+
+Du kan ha ett envalsfält med namnet Status som har alternativen Nytt och Stängt, och du vill lägga till ett alternativ för statusen Pågående. Du kan lägga till valet genom att göra något av följande:
+
+* Redigerar fältet. Mer information finns i avsnittet [Redigera fältinställningar](#edit-field-settings-1) i den här artikeln.
+* Lägga till ett nytt alternativ när du redigerar posten i tabellvyn, enligt beskrivningen nedan.
+
+Så här lägger du till ett nytt val i ett befintligt markeringsfält när du redigerar en post:
+
+1. Gå till en posttypssida och öppna tabellvyn.
+1. Lägg till det envalsfält eller flervalsfält som du vill lägga till som en ny kolumn i tabellvyn. Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
+1. Börja redigera fältet textbundet genom att dubbelklicka på cellen för fältet.
+1. Skriv namnet på det alternativ som du vill lägga till och klicka sedan på **Lägg till alternativ**.
+
+   ![Lägg till val i envalsfält i tabellvy](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   Det nya alternativet läggs omedelbart till i fältet för en markering.
+
+</div>
