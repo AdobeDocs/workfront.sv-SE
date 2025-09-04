@@ -418,9 +418,9 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Avancerade Enterprise Controls
 
