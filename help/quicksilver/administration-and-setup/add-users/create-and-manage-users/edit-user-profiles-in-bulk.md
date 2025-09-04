@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 0%
 
 ---
 
 # Redigera användarprofiler gruppvis
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Markera flera användare och klicka sedan på ikonen **Redigera** ![Redigera](assets/edit-icon.png) .
 
-1. I rutan **Redigera användare** ändrar du informationen i något av avsnitten och klickar sedan på **Spara ändringar** <span class="preview"> eller **Spara**</span> när som helst.
+1. Ändra informationen i något av avsnitten i rutan **Redigera användare** och klicka på **Spara** när du vill.
 
 ### Inställningar
 
@@ -101,7 +99,7 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 
 ### Åtkomst
 
-* **Är aktiv** / <span class="preview">**Användaren är aktiv**</span>: Aktivera det här alternativet om du vill ange att användarna är aktiva. Aktiva användare använder en Workfront-licens. Om du inaktiverar fältet inaktiveras användarna och de hindras från att logga in på Workfront.
+* **Användaren är aktiv**: Aktivera det här alternativet om du vill ange att användarna är aktiva. Aktiva användare använder en Workfront-licens. Om du inaktiverar fältet inaktiveras användarna och de hindras från att logga in på Workfront.
 
 * **Åtkomstnivå**: Välj den åtkomstnivå som ska tilldelas dessa användare. Alla användare som du har valt får samma åtkomstnivå.
 
@@ -136,7 +134,7 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 * **Företag**: Användarnas företag. Användare kan bara associeras med ett företag. Du måste skapa ett företag innan du kan associera det med en användare. Endast aktiva företag visas i listan. Mer information om hur du skapar företag finns i [Skapa och redigera företag](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * **Hemteam**: Ange hemteamet för användarna. Användare kan bara ha ett hemteam.
 * **Andra team**: Användare kan tillhöra flera team.
-* **Hemgrupp** / <span class="preview">**Aktuell hemgrupp**</span>: Välj en lämplig grupp att tilldela användarna. Detta ger användarna möjlighet att komma åt objekt som delas med gruppen. Du kan också dela layoutmallar med en hemgrupp.
+* **Aktuell hemgrupp**: Välj en lämplig grupp att tilldela användarna. Detta ger användarna möjlighet att komma åt objekt som delas med gruppen. Du kan också dela layoutmallar med en hemgrupp.
 
   Detta är ett obligatoriskt fält. Alla användare måste vara kopplade till en hemgrupp. Om du inte väljer någon får din hemgrupp behörigheten Hemgrupp.
 
@@ -174,8 +172,8 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
   >
   >Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
 
-* **Schemalägg inaktivering** / <span class="preview">**Ange inaktiveringsdatum**</span>: Markera den här kryssrutan / <span class="preview">klicka på den här knappen</span> om du vill att de här användarna ska inaktiveras ett visst datum och vid en viss tidpunkt.
-* **Schemalagt inaktiveringsdatum** / <span class="preview">**Inaktiveringsdatum**</span>: Det datum och den tidpunkt då användarna inaktiverades. Mer information om schemaläggning av användare för inaktivering finns i [Schemalägg användare för inaktivering](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) i [Inaktivera eller återaktivera en användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Ange inaktiveringsdatum**: Klicka på den här knappen om du vill schemalägga att de här användarna ska inaktiveras ett visst datum och vid en viss tidpunkt.
+* **Inaktiveringsdatum**: Det datum och den tidpunkt då användarna inaktiverades. Mer information om schemaläggning av användare för inaktivering finns i [Schemalägg användare för inaktivering](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) i [Inaktivera eller återaktivera en användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primär roll**: Detta är den primära jobbrollen som användare kan utföra i Workfront. Alla uppgifter och utgåvor som användarna har tilldelats tilldelas också den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Du kan bara uppdatera det här fältet om du har en Standard- eller Plan-licens med administratörsbehörighet eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i [Bevilja åtkomst till användare](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Endast aktiva jobbroller visas i listan.

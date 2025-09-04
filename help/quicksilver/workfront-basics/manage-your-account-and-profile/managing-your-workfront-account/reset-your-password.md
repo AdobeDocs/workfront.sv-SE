@@ -6,9 +6,9 @@ description: Du kan återställa ditt [!DNL Adobe Workfront] lösenord. Som en v
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0df2a474fe1c29faca580088289d04ce9d1ef7f5
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Du kan återställa ditt [!DNL Adobe Workfront]-lösenord. Som en viktig säkerh
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 Du måste ha följande:
 
@@ -63,17 +63,17 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 ## Återställ ditt lösenord i [!DNL Adobe Workfront]
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ditt användarnamn bredvid din profilbild.
+{{step1-click-profile-pic}}
 
-   ![Öppna huvudmenyn och välj ditt användarnamn.](assets/main-menu-options-350x481.png)
+![Öppna huvudmenyn och välj ditt användarnamn.](assets/main-menu-options-350x481.png)
 
 1. Klicka på ikonen **[!UICONTROL More menu]** ![Mer](assets/more-icon.png) och sedan på **[!UICONTROL Edit]**.
 
-1. Klicka på **[!UICONTROL Reset Password]** i rutan **[!UICONTROL Edit Person]** som visas under **[!UICONTROL Personal Info]**.
+1. Klicka på **[!UICONTROL Edit Person]** i rutan **[!UICONTROL Personal Info]** som visas under **[!UICONTROL Change password]**.
 
-   ![Redigera person](assets/edit-person-box-350x196.jpg)
+   ![Klicka på Ändra lösenord](assets/edit-user-change-password.png)
 
-   Om din organisation har integrerat [!DNL Workfront] med en SSO-lösning kan du omdirigeras till om du vill återställa dina lösenord via SSO-systemet när du klickar på **[!UICONTROL Reset Password]**. Detta återställer ditt SSO-lösenord, vilket påverkar inloggningen till alla dina andra program i organisationen.
+   Om din organisation har integrerat [!DNL Workfront] med en SSO-lösning kan du omdirigeras till om du vill återställa dina lösenord via SSO-systemet när du klickar på **[!UICONTROL Change password]**. Detta återställer ditt SSO-lösenord, vilket påverkar inloggningen till alla dina andra program i organisationen.
 
 1. Skriv ditt gamla lösenord och skriv sedan det nya lösenordet två gånger.
 
@@ -86,4 +86,4 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    Lösenordsreglerna kan vara mer strikta än detta, beroende på konfigurationsinställningarna som angetts av [!DNL Workfront]-administratören.
 
-1. Klicka på **[!UICONTROL Save Changes]**.
+1. Klicka på **[!UICONTROL Save]**.

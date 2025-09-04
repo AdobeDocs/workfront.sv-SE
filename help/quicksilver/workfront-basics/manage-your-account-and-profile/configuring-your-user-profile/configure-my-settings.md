@@ -6,16 +6,14 @@ description: Din [!DNL Adobe Workfront] profil innehåller information om dig sj
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
 
 # Konfigurera mina inställningar
-
-{{highlighted-preview}}
 
 <!-- Audited: 01/2024 -->
 
@@ -248,7 +246,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td> Uppdatera din e-postadress. Detta är ett obligatoriskt fält. Kom ihåg att din e-postadress även är ditt användarnamn för [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong> / <span class="preview"><strong>Ändra lösenord</strong></span></td> 
+   <td role="rowheader"><strong>[!UICONTROL Change password]</strong></td> 
    <td>Återställ lösenordet i det här avsnittet. Mer information om hur du återställer lösenordet finns i <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Återställ lösenordet</a>.</td> 
   </tr> 
   <tr> 
@@ -256,7 +254,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td> Om din [!DNL Workfront]-administratör har aktiverat en SSO-integrering med [!DNL Workfront] visas ditt SSO-användarnamn i det här fältet. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Om administratören för [!DNL Workfront] aktiverade en SSO-integrering med [!DNL Workfront] och har uppdaterat användare för enkel inloggning, är det här fältet markerat som standard. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste du logga in på [!DNL Workfront] med dina SSO-autentiseringsuppgifter. Om du avmarkerar den kan du logga in på [!DNL Workfront] med dina [!DNL Workfront]-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar [!DNL Workfront] med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Enkel inloggning i [!DNL Workfront]: artikelindex</a>. Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -343,6 +341,9 @@ Du kan ändra något av följande i det här underavsnittet:
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Ange önskat språk här. Detta styr vilket språk, datum och nummerformat som används i utgående e-postmeddelanden.</p>
    <p><strong>Obs!</strong> När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Mer information finns i <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändra Adobe Experience Cloud-språk</a> i artikeln <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Språk som stöds i Adobe Workfront</a>.</p></td> 
+  </tr>
+  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
+  <td>Välj det här alternativet om du vill att statusen för det arbete du tilldelar dig själv automatiskt ska anges till Pågår i stället för Nytt.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) Generera korrektur automatiskt när dokument överförs</strong></td> 
@@ -456,8 +457,8 @@ Använd något av följande i det här avsnittet:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong> / <span class="preview"><strong>Ange inaktiveringsdatum</strong></span></td> 
-   <td><p>Markera den här rutan / <span class="preview">klicka på den här knappen</span> om du vill schemalägga att ditt konto ska inaktiveras efter en viss tid. I <strong>[!UICONTROL Scheduled Deactivation Date]</strong> som visas anger du datumet efter vilket ditt konto inaktiveras. Information om hur du inaktiverar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>. </p><p>Du kan redigera inaktiveringsfälten för ditt konto om du har en [!UICONTROL Standard]- eller [!UICONTROL Plan]-licens eller om du är [!DNL Workfront]-administratör. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Set deactivation date]</strong></td>
+   <td><p>Klicka på den här knappen om du vill schemalägga att ditt konto ska inaktiveras efter en viss tid. I <strong>[!UICONTROL Scheduled Deactivation Date]</strong> som visas anger du datumet efter vilket ditt konto inaktiveras. Information om hur du inaktiverar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Schemalägg användare för inaktivering</a> i <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>. </p><p>Du kan redigera inaktiveringsfälten för ditt konto om du har en [!UICONTROL Standard]- eller [!UICONTROL Plan]-licens eller om du är [!DNL Workfront]-administratör. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 

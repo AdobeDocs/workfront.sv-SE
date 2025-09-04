@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    Rutan Redigera användare visas.
 
-1. I rutan **Redigera användare** ändrar du informationen i något av avsnitten och klickar sedan på **Spara ändringar** <span class="preview"> eller **Spara**</span> när som helst.
+1. Ändra informationen i något av avsnitten i rutan **Redigera användare** och klicka på **Spara** när du vill.
 
 ### Personlig information
 
@@ -94,7 +94,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
   Om din organisation har migrerats till Adobe Admin Console kan du inte redigera en användares e-postadress i Workfront. Användarens e-postadress anges i Adobe Admin Console.
 
-* **Återställ lösenord** / <span class="preview">**Ändra lösenord**</span>: Klicka på den här länken om du vill återställa användarens lösenord. Du måste ange ditt eget lösenord innan du kan återställa en annan användares lösenord.
+* **Ändra lösenord**: Klicka på den här knappen om du vill återställa användarens lösenord. Du måste ange ditt eget lösenord innan du kan återställa en annan användares lösenord.
 
   Om du vill återställa en annan användares lösenord måste du vara Workfront-administratör eller gruppadministratör.
 
@@ -121,7 +121,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
   >
   >Om du är gruppadministratör och har behörigheten Användaradministratör (alla användare) aktiverad på din åtkomstnivå kan du redigera &lt;SSO-konfiguration>-fälten för alla användare.
 
-* **Profilfoto**: Klicka på **Överför foto** / <span class="preview">**Överför nytt**</span> för att läsa in användarens profilbild. Du kan överföra en JPG-, GIF- eller PNG-fil. Filstorleksgränsen är 4 MB.
+* **Profilfoto**: Klicka på **Överför nytt** för att läsa in användarens profilbild. Du kan överföra en JPG-, GIF- eller PNG-fil. Filstorleksgränsen är 4 MB.
 
   Profilbilden blir användarens avatar och visas i hela Workfront-systemet, oavsett var användarens namn visas.
 
@@ -148,7 +148,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
   >
   >Det här alternativet är bara tillgängligt i förhandsgransknings- och sandlådemiljöer. E-postmeddelanden är som standard aktiverade i produktionsmiljön.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Skicka material som jag själv har tilldelat till fliken Arbeta på**: När det här alternativet är markerat, bör du se till att användarens självtilldelning automatiskt ställs in på Pågår i stället för Nytt. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Generera automatiskt korrektur när dokument överförs**: Markera det här alternativet om du vill att de dokument som användaren överför ska generera ett korrektur omedelbart.
 
@@ -162,7 +162,7 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 
 ### Åtkomst
 
-* **Är aktiv** / <span class="preview">**Användaren är aktiv**</span>: Aktivera det här alternativet om du vill ange att användaren är aktiv. Aktiva användare använder en Workfront-licens. Om du inaktiverar fältet inaktiveras användaren och användaren hindras från att logga in på Workfront.
+* **Användaren är aktiv**: Aktivera det här alternativet för att ange att användaren är aktiv. Aktiva användare använder en Workfront-licens. Om du inaktiverar fältet inaktiveras användaren och användaren hindras från att logga in på Workfront.
 
 * **Åtkomstnivå**: Välj den åtkomstnivå som ska tilldelas den här användaren.
 
@@ -199,7 +199,7 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 * **Direktrapporter**: Om du har angett ett företag för användaren kan du även ange användares direktrapporter. En användare kan ha flera direktrapporter. Det här fältet visas inte om användaren inte är associerad med ett företag först.
 * **Hemteam**: Ange hemteamet för användaren. Användare kan bara ha ett hemteam. Hemteamet är viktigt när du tilldelar en layoutmall eller när du definierar knappen Arbeta med det för uppgifter och ärenden som tilldelats användaren.
 * **Andra team**: Användare kan tillhöra flera team. En användare kan visa arbetsobjekt som är tilldelade något av deras team i hemområdet.
-* **Hemgrupp** / <span class="preview">**Aktuell hemgrupp**</span>: Välj en lämplig grupp att tilldela användaren till. Detta ger användaren möjlighet att komma åt objekt som delas med gruppen. Du kan också dela layoutmallar med användarens hemgrupp.
+* **Aktuell hemgrupp**: Välj en lämplig grupp att tilldela användaren till. Detta ger användaren möjlighet att komma åt objekt som delas med gruppen. Du kan också dela layoutmallar med användarens hemgrupp.
 
   Detta är ett obligatoriskt fält. Alla användare måste vara kopplade till en hemgrupp. Om du inte väljer någon får din hemgrupp rollen som den nya användarens hemgrupp.
 
@@ -237,8 +237,8 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
   >
   >Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
 
-* **Schemalägg inaktivering** / <span class="preview">**Ange inaktiveringsdatum**</span>: Markera den här rutan / <span class="preview">klicka på den här knappen</span> om du vill att den här användaren ska inaktiveras ett visst datum och vid en viss tidpunkt.
-* **Schemalagt inaktiveringsdatum** / <span class="preview">**Inaktiveringsdatum**</span>: Det datum och den tidpunkt då användaren inaktiverades. Mer information om schemaläggning av användare för inaktivering finns i [Schemalägg användare för inaktivering](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) i [Inaktivera eller återaktivera en användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Ange inaktiveringsdatum**: Klicka på den här knappen om du vill schemalägga att den här användaren ska inaktiveras ett visst datum och vid en viss tidpunkt.
+* **Inaktiveringsdatum**: Det datum och den tidpunkt då användaren inaktiveras. Mer information om schemaläggning av användare för inaktivering finns i [Schemalägg användare för inaktivering](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) i [Inaktivera eller återaktivera en användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primär roll**: Det här är den primära jobbrollen som användaren kan utföra i Workfront. Alla uppgifter och utgåvor som användaren är tilldelad till tilldelas även den här jobbrollen. Jobbroller är viktiga i resurshanteringen. Du kan bara uppdatera det här fältet om du har en Standard- eller Plan-licens med administratörsbehörighet eller om du är Workfront-administratör. Mer information om hur du konfigurerar användare med administrativ användaråtkomst finns i [Bevilja åtkomst till användare](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Endast aktiva jobbroller visas i listan.
@@ -256,11 +256,7 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 
   Om andra roller har 0 % FTE-tillgänglighet visas de inte i resursplaneraren, såvida inte användarna har tilldelats till uppgifter i de här rollerna.
 
-  <span class="preview">I förhandsvisning:</span>
   ![Användarroller och FTE](assets/user-roles-fte-2025.png)
-
-  Produktion:
-  ![Användarroller och FTE](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   Summan av alla **procent FTE-tillgänglighet** för alla roller måste vara lika med 100 %. Varje procentandel av FTE-tillgänglighet beräknar tillgängliga timmar för varje roll per användare i resursplaneraren. Tillgängliga timmar för varje roll per användare beror på användarens tillgängliga tid.
 
@@ -328,11 +324,7 @@ Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](
 
   Vissa datum läggs till automatiskt. Om till exempel Faktureringstariff 1 inte har något slutdatum och du lägger till en andra med startdatumet 1 maj 2023, läggs ett slutdatum som är 30 april 2023 till Faktureringstariff 1 så att inga luckor uppstår.
 
-  <span class="preview">I förhandsvisning:</span>
   ![Användarkostnader och faktureringstaxor](assets/user-cost-billing-rates-2025.png)
-
-  Produktion:
-  ![Användarkostnader och faktureringstaxor](assets/edit-user-cost-billing-rate-2.png)
 
 ### Anpassad Forms
 
