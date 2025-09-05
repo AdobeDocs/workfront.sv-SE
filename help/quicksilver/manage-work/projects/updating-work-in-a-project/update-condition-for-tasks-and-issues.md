@@ -6,9 +6,9 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Villkorsvärdena som vi hänvisar till i den här artikeln är som standard till
 
 ## Åtkomstkrav {#access-requirements}
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ Villkorsvärdena som vi hänvisar till i den här artikeln är som standard till
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa eller öka behörigheter för aktiviteter och ärenden för att visa deras villkor</p>
-   <p>Contribute behörigheter för uppgifter och problem för att uppdatera villkoret</p>
+   <p>Contribute-behörigheter för uppgifter och ärenden för att uppdatera villkoret</p>
   </td> 
   </tr> 
  </tbody> 
@@ -134,8 +134,9 @@ Du kan uppdatera villkoret för uppgifter och problem manuellt i olika områden 
    * Vissa bekymmer
    * Större vägspärrar
 
-   ![](assets/condition-in-task-header.png)
-1. Klicka på Enter för att spara villkoret.
+   ![](assets/condition-in-task-header-0925.png)
+
+<!--1. Click Enter to save the Condition.-->
 
 ### Uppdatera villkoret för en aktivitet eller ett problem i avsnittet med information om aktiviteten eller problemet
 
@@ -151,14 +152,17 @@ Du kan uppdatera villkoret för uppgifter och problem manuellt i olika områden 
 
 1. Uppdatera **villkoret** för problemet eller aktiviteten genom att dubbelklicka på det befintliga villkoret och välja ett nytt värde i listrutan.
 
-   ![](assets/condition-drop-down-values-in-task-list.png)
+   ![](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >
    >Villkoren kan anpassas efter din miljö, så du kan hitta fler än tre alternativ för Villkor i din miljö. Namnen på villkoren kan skilja sig från namnen ovan. Mer information om hur du anpassar villkor i Workfront finns i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-
 1. Tryck på **Enter** på tangentbordet eller klicka utanför fältet Villkor för att spara den nya aktiviteten eller villkoret för problemet.
+
+   >[!NOTE]
+   >
+   >I standardvillkorsvyn är fältet **Villkor** en typ av fält som inte kan redigeras infogat. När du lägger till fältet **Villkor** separat i en vy går det att redigera det. Mer information om redigering finns i [Redigera objekt i en lista i Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -118,18 +118,23 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
      ![Ändra villkor vid redigering av projekt](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * När en användare ändrar villkoret för en uppgift eller ett problem i en listvy:
 
-     ![Ändra villkor i listan](assets/change-conditions-list-dropdown-only.png)
+     ![Ändra villkor i listan](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >I standardvillkorsvyn är fältet **Villkor** en typ av fält som inte kan redigeras infogat. När du lägger till fältet **Villkor** separat i en vy går det att redigera det. Mer information om redigering finns i [Redigera objekt i en lista i Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 1. Klicka på **Spara**.
 
 Du kan ange ditt anpassade villkor som standardvillkor för projekt eller för uppgifter och ärenden. Mer information finns i [Ange ett anpassat villkor som standard för projekt](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) och [Ange ett anpassat villkor som standard för uppgifter och ärenden](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 Mer information om anpassade villkor finns i [Anpassade villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+
+<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->

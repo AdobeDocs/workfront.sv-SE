@@ -6,7 +6,7 @@ description: Villkoret för ett projekt är en flagga som placeras på det för 
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -61,9 +61,9 @@ För aktuella licenser:
 
 ## Ange villkoret automatiskt
 
-Inställningen av villkor för ett projekt bestäms automatiskt av projektets villkorstyp. Villkorstypen måste anges till Förloppsstatus för Workfront för att automatiskt ställa in Projektets villkor.
+Inställningen av villkor för ett projekt bestäms automatiskt av projektets villkorstyp. Villkorstypen måste anges till Förloppsstatus för Workfront för att automatiskt ställa in Projektets villkor.
 
-Din Workfront- eller gruppadministratör bestämmer standardvärdet för fältet Villkorstyp för nya projekt i systemet när du anger projektinställningar under Konfigurera. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Din Workfront- eller gruppadministratör bestämmer standardvärdet för fältet Villkorstyp för nya projekt i systemet när du anger projektinställningar under Konfigurera. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 När du skapar ett projekt ställs villkoret för projektet automatiskt in så att det matchar projektets förloppsstatus vid den tidpunkten. Projektets förloppsstatus baseras på förloppet för aktiviteterna i projektet.
 
@@ -78,7 +78,7 @@ Om du ställer in projektets villkorstyp på Manuell i stället för Status kan 
 
 1. Kontrollera att fältet **Villkorstyp** är inställt på **Manuell**.
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. I fältet **Villkor** väljer du bland följande alternativ det som matchar din förståelse för om arbetet som är kopplat till det går smidigt eller om det finns några förseningar:
 
