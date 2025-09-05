@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
+source-git-commit: db9db8d03c8caeef95fb7cf873ee242f29b00efa
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 0%
+source-wordcount: '1313'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Lägga till uppgifter | ✓ |   |   |   |
 | Ge uppdateringar/kommentarer | ✓ | ✓ | ✓ |   |
 | Ändra status | ✓ |   |   |   |
-| Loggtimmar | ✓ | ✓ |   |   |
+| Loggtimmar | ✓ |   |   |   |
 | Redigera uppdrag | ✓ |   |   |   |
 | Hantera en baslinje | ✓ |   |   |   |
 | Hantera risker | ✓ |   |   |   |
@@ -128,7 +128,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen.
 
-## Portfolio
+## Portföljer
 
 Endast användare med en standardlicens kan ha fullständig åtkomst till portföljer.
 
@@ -144,7 +144,7 @@ Endast användare med en standardlicens kan ha fullständig åtkomst till portf�
 | Redigera anpassade fält | ✓ |   |   |   |
 | Lägga till och ta bort projekt | ✓ |   |   |   |
 | Godkänn projekt | ✓ |   |   |   |
-| Optimering för Portfolio | ✓ |   |   |   |
+| Portfolio-optimering | ✓ |   |   |   |
 | Lägga till dokument | ✓ | ✓ |   |   |
 | Lägga till uppdateringar och kommentarer | ✓ | ✓ |   |   |
 
@@ -168,7 +168,7 @@ Endast användare med en standardlicens har fullständig åtkomst till program.
 | Redigera anpassade fält | ✓ |   |   |   |
 | Lägga till och ta bort projekt | ✓ |   |   |   |
 | Godkänn projekt | ✓ |   |   |   |
-| Optimering för Portfolio | ✓ |   |   |   |
+| Portfolio Optimization | ✓ |   |   |   |
 | Lägga till dokument | ✓ | ✓ |   |   |
 | Lägg till uppdateringar och kommentarer | ✓ | ✓ |   |   |
 
@@ -343,7 +343,7 @@ Endast användare med en standardlicens har fullständig åtkomst till resurshan
 
 &#42;&#42;Kräver ytterligare åtkomst till finansiella data och behörigheter för projektekonomi. Om du ger en planeringsanvändare åtkomst till Resurshantering som inte har tillgång till ekonomiska data, kan användaren fortfarande se timallokeringarna i resursplaneraren, men inte växla till kostnadsvyn eller visa affärsärendet. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela ekonomiska behörigheter för ett objekt](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Kräver behörighet till Contribute för objektet, med Aktivera tilldelningar under Avancerade inställningar. Mer information finns i avsnittet [Förstå ärvda behörigheter och objekthierarkin](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) i artikeln [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Kräver behörighet att Contribute ska vara tillgängligt för objektet, med Aktivera tilldelningar under Avancerade inställningar. Mer information finns i avsnittet [Förstå ärvda behörigheter och objekthierarkin](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) i artikeln [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Område för scenarioplanering
 
