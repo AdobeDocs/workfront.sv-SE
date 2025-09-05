@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
 workflow-type: tm+mt
-source-wordcount: '13478'
+source-wordcount: '13489'
 ht-degree: 0%
 
 ---
@@ -2587,7 +2587,10 @@ ht-degree: 0%
       * [Vanliga frågor om SOAP API](proofhq-api/general/soap-api-faqs.md)
 * [Dolt testdokument](hidden-test.md)
 * App Builder {#app-builder}
+   * [App Builder: artikelindex](/help/quicksilver/app-builder/app-builder-toc.md)
+   * [Hämta och installera program från Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [Skapa anpassade program för Workfront med Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+
 
 
 <!--
