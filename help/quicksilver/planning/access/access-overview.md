@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Informationen i den här artikeln handlar om Adobe Workfront Planning, en extrafunktion från Adobe Workfront.
 >
->Ditt företag måste köpa ytterligare en licens för Workfront Planning för att få tillgång till dess funktioner.
+>Ditt företag måste köpa ytterligare ett paket för Workfront Planning för att få tillgång till dess funktioner.
 >
 >Mer information får du av din kontoansvarige
 >
@@ -51,44 +51,27 @@ Du måste ha följande åtkomst för att få åtkomst till Workfront Planning:
  </col>
  <tbody>
     <tr>
-<tr>
-<td>
-   <p> Produkter</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
  <tr>
-   <td role="rowheader"><p>Adobe Workfront-plan*</p></td>
+   <td role="rowheader"><p>Adobe Workfront package</p></td>
    <td>
-<p>Något av följande Workfront-planer:</p>
+<p>Något av följande Workfront-paket:</p>
 <ul><li>Välj</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
-<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning-paket*</p></td>
-   <td>
-<p>Något av följande Workfront Planning-planer:</p>
-<ul><li>Planering</li>
-<li>Planering Plus</li>
-</ul>
+<p>Workfront Planning är inte tillgängligt för äldre Workfront-paket</p>
+<ul><li><p>Planeringspaket</p></li></ul>
 <p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p>
    </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront</p></td>
    <td>
 <p>Din organisations instans av Workfront måste vara registrerad på Adobe Unified Experience för att få tillgång till Workfront Planning.</p>
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
    <td>
    <ul><li><p>Standard, Light eller Contributor för att visa Workfront Planning-information</p></li>
    <li><p>Standard, för att skapa arbetsytor och vyer</p></li></ul>
@@ -96,7 +79,7 @@ Du måste ha följande åtkomst för att få åtkomst till Workfront Planning:
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
    <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -121,32 +104,32 @@ Du måste ha följande åtkomst för att få åtkomst till Workfront Planning:
 <p> Användare med en Light- eller Contributor-licens måste tilldelas en layoutmall som innehåller Planning-alternativet i följande områden:</p>
    <ul><li>Huvudmeny</li>
    <li>Vänster panel med projekt, portfolior och program</li>
-   </ul>
-   <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Skapa och hantera layoutmallar</a>.</p>
-
+   </ul>   
 </td>
   </tr>
  </tbody>
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Dela planeringsområdet med en layoutmall
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-När din organisation har köpt ytterligare en Workfront Planning-licens kan din systemadministratör lägga till Planning-alternativet i följande områden genom att ändra och tilldela dig till en layoutmall:
+Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard i följande områden:
+
+* Huvudmeny
+* Vänster panel med projekt, portfolior eller program
+
+Systemadministratören måste lägga till planeringsområdena till dig om du har någon annan Workfront-licens och du behöver bidra till Workfront Planning-arbetet.
+
+Administratören kan lägga till planeringsalternativet i följande områden genom att ändra och tilldela dig till en layoutmall:
 
 * Huvudmeny
 * Landningssida
 * Panelen Vänster för projekt, portfolior och program
 * Stift
-
-Standardanvändare och systemadministratörer har planeringsområdena aktiverade som standard i följande områden:
-
-* Huvudmeny
-* Vänster panel med projekt, portfolior eller program
 
 Så här lägger du till eller tar bort Workfront Planning-områden från användare av din Workfront-instans:
 
@@ -174,7 +157,11 @@ Användare med alla typer av Workfront-licenser har tillgång till Workfront Pla
 
 ## Bevilja behörigheter
 
-Du måste ge användarna behörigheter till arbetsytorna och vyerna i Workfront Planning som du skapar så att de kan komma åt dem.
+Du kan bevilja behörigheter för följande enheter i Workfront Planning:
+
+* Arbetsytor
+* Posttyper
+* Vyer
 
 Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
