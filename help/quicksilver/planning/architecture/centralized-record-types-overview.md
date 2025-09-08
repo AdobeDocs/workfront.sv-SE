@@ -3,9 +3,9 @@ title: Översikt över centraliserade posttyper
 description: Centraliserade posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -20,120 +20,109 @@ recommendations: noDisplay, noCatalog
 
 # Översikt över centraliserade posttyper
 
-
 Centraliserade posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Adobe Workfront Planning.
 
 ## Översikt över centraliserade posttyper
 
 När du implementerar Workfront Planning för en organisation med flera team och gemensamma arbetsflöden kan du behöva definiera en sammanhängande struktur och metadata för nyckelposttyper (som kampanjer och slutprodukter) som kan läggas till i varje teames arbetsytor för att fånga och hantera deras arbete.
 
-Ni kan också behöva varje teames arbete för att komma upp på en central och mer global nivå.
+Ni kan också behöva varje teames arbete för att komma upp på en central nivå.
 
-I det här arbetsflödet kan du se till att teamen hämtar sitt arbete på ett enhetligt sätt samtidigt som de låser upp synligheten mellan team, utan att behöva lägga till alla i organisationen till en arbetsyta.
+I ett sådant arbetsflöde kan du se till att teamen hämtar sitt arbete på ett enhetligt sätt samtidigt som de låser upp synligheten mellan team, utan att behöva lägga till allt på en arbetsyta, eller så kan alla i organisationen göra det på varje arbetsyta. Du kan använda centraliserade posttyper för att uppnå detta.
 
 Så här använder du centraliserade posttyper:
 
-1. Konfigurera en posttyp som ska centraliseras.
+1. Konfigurera en posttyp som ska centraliseras på en viss arbetsyta.
 
-   Mer information finns i [Konfigurera funktioner för arbetsytan över flera arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Lägg till en befintlig posttyp från en centraliserad typ.
+   En arbetsytehanterare kan välja användare med en standardlicens, team, grupper, roller eller företag att lägga till en vald posttyp i de arbetsytor som de hanterar.
+
+   Den ursprungliga posttypen kommer att finnas på den ursprungliga arbetsytan, men kommer att synas från alla andra arbetsytor.
+
+   Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+1. Lägg till en befintlig posttyp från en befintlig som har konfigurerats som en centraliserad typ på ett teams arbetsyta.
+
+   Posttypen kommer att finnas på följande arbetsytor:
+
+   * Den ursprungliga arbetsytan där den angavs som en centraliserad posttyp.
+   * Teamets arbetsyta.
 
    Mer information finns i [Lägga till befintliga posttyper](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
+   I följande avsnitt beskrivs överväganden om centraliserade posttyper antingen på deras ursprungliga arbetsytor eller efter att de har lagts till på en grupps arbetsytor.
 
+## Att tänka på när det gäller de centraliserade posttyperna på deras ursprungliga arbetsyta
 
+Posttypen som konfigurerats för centralisering har följande egenskaper:
 
-・ En ny inställning,&quot;Tillåt att posttypen läggs till i andra arbetsytor&quot;, finns i Avancerade inställningar för posttyper.
+* All information kan bara redigeras på den ursprungliga arbetsytan.
 
-・ Om den är aktiverad kan arbetsytehanteraren välja användare med standardlicens, team, grupper, roller eller företag som kan lägga till posttypen i de arbetsytor de hanterar.
+* Du kan utföra följande åtgärder på den centraliserade posttypen från den ursprungliga arbetsytan för en centraliserad posttyp:
 
-・ Arbetsytehanteraren som redigerar inställningen läggs automatiskt till i listan över valda användare som standard
+   * Redigera den
 
-o Arbetsytehanteraren kan ta bort sitt eget namn efter att minst en annan entitet har lagts till
+     När du redigerar en centraliserad posttyp kan du redigera utseendet, arbetsytefunktionerna och alla fält som skapats på den ursprungliga arbetsytan.
+   * Skapa förfrågningsformulär
+   * Hantera förfrågningsformulär
 
-o Minst en användare/team/.. måste vara markerad för att inställningen ska kunna sparas
+* Du kan bara ta bort en centraliserad posttyp om den inte har lagts till på en Teams-arbetsyta. När den har lagts till på ett teams arbetsyta genereras ett fel om du försöker ta bort den från den ursprungliga arbetsytan.
 
-o När posttypen har lagts till på minst en annan arbetsyta kan alla markerade användare tas bort
+  Detta görs så att den centraliserade posttypen kan finnas kvar på arbetsytorna där den redan har lagts till.
+* Posterna som du lägger till i en centraliserad posttyp visas bara för användare som har behörigheten Visa på den ursprungliga arbetsytan.
+* Posterna som du lägger till från teamets arbetsyta läggs upp och visas på den ursprungliga arbetsytan. Alla medlemmar på den ursprungliga arbetsytan får behörigheten Visa.
 
-§ Detta görs så att det inte går att lägga till den globala posttypen i nya arbetsytor, men behålla den i arbetsytor som redan använder den.
+* De anslutna posttyperna av en centraliserad posttyp blir tillgängliga för anslutning från de arbetsytor där den här posttypen läggs till.
 
-・ I fas 1 delas alla poster från de anslutna posttyperna automatiskt med den arbetsyta där posttypen har lagts till.
+* Fält som skapats för en centraliserad posttyp från den ursprungliga arbetsytan visas från alla arbetsytor där posttypen läggs till.
 
-・ När posttypen är aktiverad som en arbetsyta som fungerar på olika sätt läggs ett systemgenererat&quot;Workspace&quot;-fält till i posttypen
+## Överväganden om centraliserade posttyper efter att de har lagts till på ett teams arbetsyta
 
-o Den visar arbetsytan där varje post har skapats.
+* Medverkande på arbetsytan får Contribute-behörighet till den centraliserade posttypen på arbetsytan. De kan lägga till och hantera poster i den.
 
-o Det här fältet är skrivskyddat och kan inte tas bort.
+* Teamarbetsytevisningsprogram får behörigheten Visa för den centraliserade posttypen på arbetsytan för team. De kan inte lägga till och hantera poster i.
 
-o Den kan döljas från visningsfält.
+* Teamarbetsytehanterare kan utföra följande åtgärder för den posttyp som läggs till från en centraliserad posttyp på en teamarbetsyta:
 
-o Arbetsytefältet kan användas för att filtrera, gruppera och sortera, liksom i andra visningsinställningar, precis som andra fält.
+   * Lägg till nya fält
 
+     Fält som läggs till i en central post från en arbetsyta i team visas bara från teamets arbetsyta.
+   * Dela
+   * Ta bort den.
 
-Posttyper för flera Workspace-platser i lokala arbetsytor
+     Om du tar bort posttypen från ett teams arbetsyta tas den bara bort från teamets arbetsyta. Posterna som läggs till i den från teamets arbetsyta tas också bort. Detta tar inte bort posttypen från den ursprungliga arbetsytan eller från andra arbetsytor där den har lagts till.
 
-・ När man försöker lägga till en ny posttyp på arbetsytan ser man ett alternativ att välja bland de globala posttyper som finns tillgängliga
+     Detta görs så att det är möjligt att behålla den redan tillagda centraliserade posttypen i arbetsytor som redan använder den.
 
-・ När de väljer en av de globala posttyperna läggs den till direkt på arbetsytan
+* Du kan inte utföra följande åtgärder för den posttyp som lagts till från en centraliserad posttyp på en teamarbetsyta:
 
-・ Det går att flytta den globala posttypen till valfritt avsnitt och var i den lokala arbetsytan
+   * Redigera den
 
+     Du kan inte redigera utseendet, funktionerna för arbetsytan i flera arbetsytor eller fälten som importerats från den ursprungliga arbetsytan.
+   * Skapa förfrågningsformulär
+   * Hantera förfrågningsformulär
 
-Behörigheter för den globala posttypen på lokala arbetsytor
+* Poster som läggs till i ett teams arbetsytor visas från följande arbetsytor, om du har behörigheten Visa eller högre för dessa arbetsytor:
 
-Inom lokala arbetsytor får medlemmarna åtkomst till den globala posttypen:
+   * Teamets arbetsyta där de läggs till.
+   * Den centraliserade posttypens ursprungliga arbetsyta.
+   * Alla andra arbetsytor där den centraliserade arbetsytan läggs till.
 
-・ I fas 1 får lokala arbetsytehanterare Contribute-behörighet. Detta innebär:
+* Följande scenarier finns för poster som skapats i arbetsytor för team:
 
-o Lokala arbetsytehanterare kan:
+   * Om du har behörigheten Hantera på den ursprungliga arbetsytan, och saknar behörigheter på arbetsytorna för team, kan du visa poster som lagts till från teamets arbetsytor i den ursprungliga arbetsytan, men du kan inte hantera dem från den ursprungliga arbetsytan.
+   * Om du har behörigheten Hantera på teamets arbetsyta kan du hantera posterna på den centraliserade posttypens ursprungliga arbetsyta eller från den arbetsyta där de lades till.
 
-§ Lägg till den globala posttypen
+     Du kan bara visa posterna på ytterligare arbetsytor där den centraliserade posttypen läggs till om du har behörigheten Visa på dessa arbetsytor.
 
-§ Lägg till/redigera/ta bort alla poster i den globala posttypen, oavsett vilken arbetsyta posten lades till från.
+## Åtkomst till anslutningar
 
-§ Ta bort den globala posttypen från den lokala arbetsytan
+Posttyper som är kopplade till den centraliserade posttypen på den ursprungliga arbetsytan blir synliga för arbetsytor där den centraliserade posttypen läggs till.
 
-o Lokala arbetsytehanterare kan inte:
+## API-beteende
 
-§ Lägg till, redigera, ta bort fält
+När du lägger till poster till en centraliserad posttyp från en arbetsyta i team med Workfront Planning API, kontrollerar systemet om användaren har tillgång till att skapa poster på den ursprungliga arbetsytan för den centraliserade posttypen.
 
-§ Uppdatera posttypens utseende och etikett
+Följande fall finns:
 
-§ Se avancerade inställningar för posttyp
+* Om användaren har åtkomst skapas posten på den centraliserade posttypens ursprungliga arbetsyta.
 
-§ Hantera automatisering
-
-§ Hantera förfrågningsformulär
-
-§ Justera posttypsdelningen för arbetsytans omfång
-
-§ Inaktivera den globala posttypsinställningen i avancerade inställningar.
-
-・ Medverkande på den lokala arbetsytan får Contribute-behörighet för den globala posttypen och kan lägga till och hantera poster i den
-
-・ Lokala visningsprogram får behörigheten Visa för den globala posttypen
-
-・ Så snart en post läggs till i den globala posttypen från någon av de lokala arbetsytorna visas namnet på arbetsytan i Workspace-fältet
-
-o För tillfället går det inte att redigera och ändra arbetsytefältet
-
-・ Poster som läggs till på lokala arbetsytor samlas ihop och visas på den primära arbetsytan, och alla medlemmar på den primära arbetsytan får åtkomst till den.
-
-・ Poster som läggs till på lokala arbetsytor visas inte på andra lokala arbetsytor som använder samma globala posttyp och deras medlemmar får inte åtkomst till posterna.
-
-
-
-Åtkomst till anslutningar:
-
-・ MVP-scope
-
-o Posttyperna som är kopplade till den globala posttypen blir synliga för lokala arbetsytor där den globala posttypen läggs till så att de kan använda anslutningsfälten för att tagga
-
-
-API-beteende
-
-Om användaren försöker skapa poster i en global posttyp via API utan att ange arbetsytans ID, kontrollerar systemet om användaren har åtkomst att skapa poster på den primära arbetsytan (där den globala posttypen skapas)
-
-・ Om ja, skapas posten i den primära arbetsytan
-
-・ Om nej, får användaren ett valideringsfel om att han/hon inte har åtkomst till den primära arbetsytan och måste ange det arbetsyte-ID där han/hon har behörighet att skapa.
+* Om användaren inte har åtkomst får användaren ett felmeddelande om att han/hon inte har åtkomst till den centraliserade posttypens ursprungliga arbetsyta och måste ange det arbetsyte-ID där han/hon har åtkomst för att skapa poster.

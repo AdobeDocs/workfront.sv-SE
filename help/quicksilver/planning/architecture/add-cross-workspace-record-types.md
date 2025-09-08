@@ -4,9 +4,9 @@ description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Work
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Du kan ange en posttyp som centraliserad när du skapar eller redigerar den, med
 
 Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+Läs artikeln [Översikt över centraliserade posttyper](/help/quicksilver/planning/architecture/centralized-record-types-overview.md) innan du lägger till poster på en arbetsyta från en centraliserad posttyp.
+
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln.
@@ -48,7 +50,7 @@ Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-paket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul><li><p>Alla Workfront-paket</p></li>
 Och
@@ -73,24 +75,9 @@ Och
 </tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
-## Översikt över centraliserade posttyper
-
-Att tänka på när du lägger till befintliga posttyper från en annan arbetsyta
-
-* När det inte finns några konfigurerade posttyper som ska läggas till på en annan arbetsyta visas inte alternativet att importera dem från en annan arbetsyta när du skapar en posttyp. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
-* När du har lagt till posttypen från en annan arbetsyta läggs även följande information till från den befintliga posttypen:
-
-   * Fält
-   * Postanslutningar
-
-* Du kan bara visa poster som lagts till från andra arbetsytor om du har behörighet till dessa arbetsytor.
-
-* Du kan bara redigera posttypen, inklusive dess fält, på den ursprungliga arbetsytan. Du kan inte redigera den från arbetsytorna där den lades till.
-* Poster som läggs till från alla arbetsytor visas för alla användare som kommer åt dem från alla arbetsytor, även om de skapas i en arbetsyta där de inte har någon behörighet.
 
 ## Skapa en posttyp från en befintlig posttyp
 
@@ -101,21 +88,41 @@ Att tänka på när du lägger till befintliga posttyper från en annan arbetsyt
 1. Klicka på **Fortsätt**.
 1. I rutan **Välj posttyp** klickar du på kortet för den posttyp som du vill lägga till från en befintlig arbetsyta och sedan på **Lägg till**.
 
-   Posttypen läggs till på arbetsytan som du valde och följande saker händer:
+   Posttypen läggs till på den arbetsyta som du har valt.
 
-   * Posttypen **för** arbetsytan  ikon ![Anslutningsikonen för arbetsytan](assets/global-icon.png) läggs till på kortet för den importerade posttypen.
-   * Det skrivskyddade fältet **Workspace** läggs till i den importerade posttypen. Fältet visar vilken arbetsyta varje post skapades i.
+   >[!TIP]
+   >
+   >När det inte finns några konfigurerade posttyper som ska läggas till på en annan arbetsyta visas inte alternativet att importera dem från en annan arbetsyta när du skapar en posttyp.
+
+   Följande saker händer:
+
+   * Följande information läggs också till från den befintliga centraliserade posttypen:
+
+      * Alla originalfält
+      * Alla postanslutningar
+   * Du kan bara visa poster som har lagts till från andra arbetsytor om du har minst behörigheten Visa på dessa arbetsytor.
+   * Ikonen **centraliserad posttyp** ![Centraliserad posttyp ](assets/global-icon.png) läggs till på kortet för den importerade posttypen.
+   * Det skrivskyddade fältet **Workspace** läggs till i den importerade posttypstabellvyn. Fältet visar vilken arbetsyta varje post skapades i.
 
      >[!NOTE]
      >
-     >* Du kan inte redigera den importerade posttypen eller dess fält. Du kan redigera posttypen och dess fält från den ursprungliga arbetsytan.
+     >* Du kan inte redigera den importerade posttypens utseende, avancerade inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
+
+1. (Valfritt) Klicka och dra och släpp den nya posttypen till valfritt avsnitt på arbetsytan.
+
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på den importerade posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Dela** för att dela den med andra användare på samma arbetsyta.
 
 1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på den importerade posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
-   Detta tar bort den importerade posttypen från den markerade arbetsytan. Den ursprungliga posttypen och dess fält finns kvar på den ursprungliga arbetsytan.
+   Följande saker händer:
 
-   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   * Posttypen som skapas från en centraliserad posttyp tas bort från den valda arbetsytan.
+   * Den ursprungliga posttypen och dess fält finns kvar på den ursprungliga arbetsytan.
+   * Alla andra posttyper som importeras från samma centrala post finns kvar på sina arbetsytor.
+   * Posterna som lagts till posttypen från den aktuella arbetsytan tas bort. Alla andra poster som lagts till från ytterligare arbetsytor där den centraliserade posttypen lades till bevaras.
+
+
 
 
 
