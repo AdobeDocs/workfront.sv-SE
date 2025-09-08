@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Delar av funktionen kanske inte är fullständiga eller fungerar som de ska i det här skedet. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](#provide-feedback) nedan.<br>
->&#x200B;>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
+>>Observera att betaversionen inte är tillgänglig för följande molnleverantörer:
 >
 >* Använd din egen nyckel för Amazon Web Services
 >* Azure
@@ -55,7 +55,7 @@ Mer information finns i [Översikt över kontrollpaneler för arbetsytan](/help/
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td> 
-   <td><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p>
+   <td><p>Systemadministratörsåtkomst för att aktivera Canvas-instrumentpaneler</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    >[!NOTE]
    >
-   > **Knappen Gå med i beta-vyn för Canvas-instrumentpaneler** är bara tillgänglig om din organisation har bjudits in till betaversionen.
+   > Betaknappen **Gå med i Canvas Dashboards** är bara tillgänglig för systemadministratörer. Alla andra användare ser den här knappen i inaktiverat läge.
 
 1. Granska villkoren i rutan **Beta-avtal** och klicka sedan på **Godkänn**. Du är nu registrerad i betaversionen. Observera att det kan ta några minuter för dina Workfront-data att bli helt tillgängliga i Canvas Dashboards.
+
+   >[!NOTE]
+   >
+   >När betavillkoren har godkänts aktiveras Canvas Dashboard-funktionerna för alla användare i Workfront-miljön. Alla användare med Visa och Hantera-åtkomst till kontrollpaneler kan visa och redigera kontrollpaneler på arbetsytan efter åtkomstnivå.<br>
+   >Observera att visningen av startsidan för Canvas Dashboards styrs av användarens tilldelade layoutmall. Mer information finns i [Skapa och hantera layoutmallar](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 ## Ge feedback
 
