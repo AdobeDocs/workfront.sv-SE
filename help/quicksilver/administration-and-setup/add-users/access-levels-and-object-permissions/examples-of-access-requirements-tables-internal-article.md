@@ -4,9 +4,9 @@ description: Det här är en intern artikel som vårt team kan använda för att
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -420,10 +420,10 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i dokumentationen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Mer information om Adobe Workfront Fusion-licenser finns i [Adobe Workfront Fusion-licenser](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Avancerade Enterprise Controls
 
@@ -450,3 +450,37 @@ Avancerade företagskontroller:
 * Tilldela gruppadministratörer till undergrupper
 * Tillåt gruppadministratörer att skapa undergrupper
 
+## Åtkomstkrav för korrektur
+
+## Åtkomstkrav
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Alla</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td>  <p>Standard</p>
+   <p>Arbete eller plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
+   <td>Chef eller högre</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Korrekturroll</td> 
+   <td>Granskare, granskare och godkännare, moderator, författare</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
