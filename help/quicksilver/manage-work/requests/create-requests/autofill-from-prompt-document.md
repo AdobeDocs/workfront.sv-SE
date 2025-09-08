@@ -5,9 +5,9 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -121,41 +121,54 @@ Så här använder du förslag som baseras på en inklistrad textfråga:
 
 I de här exemplen visas uppmaningar om olika sätt som AI kan referera till andra projekt.
 
-* Referera till en tidigare kundkampanj
+#### Referera till en tidigare kundkampanj
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* Bygger på ett befintligt projekt
+Skapa en liknande kampanjförfrågan som vi gjorde för lanseringen av (Client Company) Q2, men den här gången för deras Automotive-division. Använd samma slutprodukt och målgruppsprofil.
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* Återanvända ett format från en tidigare slutprodukt
+#### Bygger på ett befintligt projekt
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* Expandera för en äldre kampanjtyp
+Använd samma konfiguration som vi hade i projektet (Client Company) förra våren. Jag vill genomföra en digital annonskampanj som riktar sig till samma chefer, men med uppdaterade datum för det här kvartalet.
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* Upprepa en begäran för en annan produkt
+#### Återanvända ett format från en tidigare slutprodukt
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* Berättarröst med implicita referenser
+Förbered en förfrågan som liknar den (Client Company) sommarkampanj som vi körde förra året. Fokusera på resurser i sociala medier, håll spanska som primärt språk och justera budgeten till 75 000 dollar.
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### Expandera för en äldre kampanjtyp
+
+>[!BEGINSHADEBOX]
+
+Använd webbseminariekampanjen (Client Company) från Q1 som referens. Jag vill ha samma arbetsflöde och resurser för registrering, men den här gången är ämnet&quot;AI in Financial Planning&quot; och publiken är unga proffs.
+
+>[!ENDSHADEBOX]
+
+#### Upprepa en begäran för en annan produkt
+
+>[!BEGINSHADEBOX]
+
+Ställ in en kampanjförfrågan precis som det (Client Company) omprofileringsprojekt som vi hanterade, men ersätt med (New Client Company) som klient. Alla produkter anpassas efter företagets varumärke.
+
+>[!ENDSHADEBOX]
+
+#### Berättarröst med implicita referenser
+
+>[!BEGINSHADEBOX]
+
+Vi planerar en kampanj som liknar de sociala helgannonser vi fick förra året. Budgeten ska vara ca 50 kB, målet är leadgenerering och leveranserna ska inkludera Instagram och TikTok-resurser.
+
+>[!ENDSHADEBOX]
+
 
 ## Få förslag baserade på ett dokument som du överför
 
