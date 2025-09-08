@@ -5,9 +5,9 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 98bb646d7f96ebba57de44194df27d3f6632ab45
+source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,46 @@ Så här använder du förslag som baseras på en inklistrad textfråga:
    >[!NOTE]
    >
    >Alla ogranskade förslag godkänns automatiskt när du skickar in begäran.
+
+### Exempel på textprompter
+
+I de här exemplen visas uppmaningar om olika sätt som AI kan referera till andra projekt.
+
+* Referera till en tidigare kundkampanj
+
+  ```
+  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
+  ```
+
+* Bygger på ett befintligt projekt
+
+  ```
+  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
+  ```
+
+* Återanvända ett format från en tidigare slutprodukt
+
+  ```
+  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
+  ```
+
+* Expandera för en äldre kampanjtyp
+
+  ```
+  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
+  ```
+
+* Upprepa en begäran för en annan produkt
+
+  ```
+  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
+  ```
+
+* Berättarröst med implicita referenser
+
+  ```
+  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
+  ```
 
 ## Få förslag baserade på ett dokument som du överför
 
