@@ -5,9 +5,9 @@ description: När du har slutfört och skickat in affärsärendet för en projek
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -80,15 +80,15 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
 
 1. Välj fliken **Visa** i rapporten och klicka sedan på **Lägg till kolumn**.
 
-1. Börja skriva &quot;Status&quot; i fältet **Visa i den här kolumnen** och markera det här fältet när det visas i listan.
+1. Börja skriva *Status* i fältet **Visa i den här kolumnen** och markera det här fältet när det visas i listan.
 
    I den här kolumnen visas projektens status.
 
 1. Välj fliken **Filter** i rapporten och klicka sedan på **Lägg till en filterregel**.
 
-1. Börja skriva &quot;Status&quot; i **Visa bara projekt där fältet ...** finns och markera det när det visas i listan.
+1. Börja skriva *Status* i **Visa bara projekt i vilka fältet ...** finns och markera det när det visas i listan.
 1. Välj **Lika med** som filtermodifierare.
-1. Börja skriva &quot;Requested&quot; i det tillgängliga fältet.
+1. Börja skriva *Begärd* i det tillgängliga fältet.
 
    Detta garanterar att rapporten endast innehåller projekt som har statusen Begärd.
 
@@ -126,15 +126,15 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
 1. Klicka på **Affärsfall** i den vänstra panelen.
 1. Klicka på **Godkänn** eller **Avvisa** i området Sammanfattning av affärsärenden för att godkänna eller avvisa affärsärendet.
 
-   &lt;!—![Affärsärende](assets/business-case-summary-with-rp-information--1-.png)—>
+<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-   Projektstatusen ändras till **Godkänd** om affärsärendet har godkänts.
+Projektstatusen ändras till **Godkänd** om affärsärendet har godkänts.
 
-   Projektstatusen ändras till **Avvisad** om affärsärendet avvisas.
+Projektstatusen ändras till **Avvisad** om affärsärendet avvisas.
 
-   >[!NOTE]
-   >
-   >Det finns inga meddelanden som informerar användaren som skickade in godkännandet av affärsärendet om hans/hennes projektförfrågan godkändes eller avvisades.
+>[!NOTE]
+>
+>Det finns inga meddelanden som informerar användaren som skickade in godkännandet av affärsärendet om hans/hennes projektförfrågan godkändes eller avvisades.
 
 ## Godkänn affärsärendet genom att gå till begärda projekt i en portfölj
 

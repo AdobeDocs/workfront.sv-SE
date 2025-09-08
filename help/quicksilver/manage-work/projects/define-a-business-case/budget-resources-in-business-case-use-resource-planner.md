@@ -5,9 +5,9 @@ description: Som en del av resursplaneringen kan du använda resursplaneraren p�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Du kan också budgetera resurser i ett affärsfall med hjälp av Adobe Workfront
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ Så här använder du resurspooler och budgetprojektresurser i affärsärendet f
 
 1. (Valfritt och villkorligt) Gör något av följande om projektinformationen har publicerats från ett projekt i scenarioplaneraren:
 
-   * Välj Resursplanering i fältet **Välj vilka timmar som ska användas för att beräkna den budgeterade arbetskostnaden för projektet** och klicka sedan på **Välj > Redigera resursbudgetering**.
+   * Välj Resursplanering i fältet **Välj vilka timmar som ska användas för att beräkna den budgeterade arbetskostnaden för projektet** och klicka sedan på **Välj** > **Redigera resursbudgetering**.
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Om scenarioplanen har valts för budgeteringsresurser för projektet klickar du på **Ändra** > **Redigera resursbudgetering**.
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Detta använder projektets budgeterade timmar för att beräkna den budgeterade arbetskostnaden för projektet.
 
@@ -158,7 +158,7 @@ Så här använder du resurspooler och budgetprojektresurser i affärsärendet f
 
 1. Klicka på **Idag** för att återgå till dagens tidsram.
 1. (Valfritt) Klicka på **Vecka**, **Månad** eller **Kvartal** om du vill visa information för projektet i olika tidsramar.
-1. (Valfritt) Klicka på listrutan **Timmar** och välj **Timmar**,**FTE** eller **Kostnad** för att ändra hur informationen visas i resursplaneraren. Timmar visas som standard.
+1. (Valfritt) Klicka på listrutan **Timmar** och välj **Timmar**, **FTE** eller **Kostnad** för att ändra hur informationen visas i resursplaneraren. Timmar visas som standard.
 
 1. (Valfritt) Klicka på **Exportera** om du vill exportera resursplaneraren till en Excel-fil.
 
@@ -180,7 +180,7 @@ Så här använder du resurspooler och budgetprojektresurser i affärsärendet f
 
    >[!NOTE]
    >
-   >Du kan budgetera timmar, heltidsanställda och kostnader för dina resurser för alla tidsramar som visas i området Resursbudgetering, oberoende av tidslinjen i projektet. Om du till exempel vill ange att dina resurser kanske inte är tillgängliga under tidslinjen för projektet (där de är kopplade till Planerade timmar), men de kan vara tillgängliga under en annan tid, kan du göra det genom att budgetera dem för tidsramar där Planerade timmar är noll, om det är när de blir tillgängliga för arbete.
+   >Du kan budgetera timmar, heltidsanställda eller kostnader för dina resurser för alla tidsramar som visas i området Resursbudgetering, oberoende av tidslinjen för projektet. Om du till exempel vill ange att dina resurser kanske inte är tillgängliga under tidslinjen för projektet (där de är kopplade till Planerade timmar), men de kan vara tillgängliga under en annan tid, kan du göra det genom att budgetera dem för tidsramar där Planerade timmar är noll, om det är när de blir tillgängliga för arbete.
 
 1. (Valfritt) Om du vill veta om du kan flytta budgeterade timmar, FTE eller kostnader till en annan tidsram klickar du på ikonen **Alternativ** och sedan på **Justera budgeteringsdatum** .
 

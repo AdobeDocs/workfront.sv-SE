@@ -6,9 +6,9 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Risker kan kopplas till kostnad, men den faktiska riskkostnaden påverkar inte p
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,18 +86,18 @@ Så här skapar eller redigerar du en risk i ett affärsärende:
 1. I avsnittet **Risker** klickar du på **Redigera risker**.
 1. Ange eller redigera följande information:
 
-   * **Beskrivning:** beskriver risken.
+   * **Beskrivning:** Beskriv risken.
 
-   * **Potentiell kostnad**: ange den uppskattade kostnaden om risken ska inträffa.
+   * **Potentiell kostnad**: Ange den uppskattade kostnaden om risken ska inträffa.
 
-   * **Sannolikhet**: ange sannolikheten för att risken inträffar som ett procentvärde.
+   * **Sannolikhet**: Ange sannolikheten för att risken inträffar som ett procentvärde.
 
-   * **Typ:** anger vilken kategori risken tillhör.
+   * **Typ:** Välj vilken kategori risken tillhör.
    * **Åtgärdsplan**: Uppdatera beskrivningen av planen för att minska risken.
 
-   * **Korrigeringskostnad**: ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
+   * **Korrigeringskostnad**: Ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
 
-   <!--![Risks](assets/crp1-350x117.png)-->
+   ![Risker](assets/edit-risk.png)
 
 1. (Valfritt) Klicka på **Lägg till ytterligare risk** om du vill lägga till ytterligare risker.
 1. Klicka på **Spara**.
@@ -115,13 +115,11 @@ Du kan skapa och redigera risker i avsnittet Risker i ett projekt eller en mall.
 
    ![Risker i aktiviteten](assets/risks-section-on-project-2022.png)
 
-1. Klicka på **Börja lägga till risker** och skapa risker genom att redigera deras information. **Beskrivning** är ett obligatoriskt fält
+1. Klicka på **Börja lägga till risker** och skapa risker genom att redigera deras information.
 
    eller
 
-   Klicka på **Ny risk**.
-
-   Rutan **Ny risk** öppnas.
+   Klicka på **Ny risk** för att öppna rutan **Ny risk**.
 
    ![Ny riskruta](assets/new-risk-box.png)
 
@@ -149,7 +147,7 @@ Du kan skapa och redigera risker i avsnittet Risker i ett projekt eller en mall.
 
 ### Redigera risker i området Risker {#edit-risks-in-the-risks-area}
 
-Du kan redigera risker under ett projekts livslängd, t.ex. när ändringar sker i sannolikhet, potentiell kostnad eller status.
+Du kan redigera risker under ett projekts livslängd eller när ändringar sker (t.ex. en ändring av sannolikhet, potentiell kostnad eller status).
 
 Du kan redigera en risk i taget eller redigera flera risker samtidigt.
 
@@ -172,7 +170,7 @@ Så här redigerar du risker:
    Överväg att redigera följande fält:
 
    * **Beskrivning**: Redigera beskrivningen av risken.
-   * **Risktyp**: ange vilken kategori risken tillhör.
+   * **Risktyp**: Uppdatera vilken kategori risken tillhör.
    * **Sannolikhet**: Ange sannolikheten för att risken inträffar som ett procentvärde.
    * **Potentiell kostnad**: Ange den uppskattade kostnaden om risken ska inträffa.
    * **Korrigeringskostnad**: Ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.

@@ -5,9 +5,9 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Så här använder du ett styrkort för ett projekt:
 
 1. Välj ett styrkort i listrutan.
 
-   <!--![New scorecard](assets/new-scorecard.png)-->
+   ![Nytt styrkort](assets/scorecard-section.png)
 
 1. Ange ett svar på alla frågor i styrkortet.
 
@@ -160,31 +160,27 @@ Du kan visa justeringspoängen för ett projekt på projektnivå om du har Contr
 
 1. Gå till det projekt vars justeringspoäng du vill visa.
 1. Klicka på **Affärsfall** i den vänstra panelen.
-1. Gå till **Översikt över affärsärenden** till höger på skärmen.
+1. Gå till **Översikt över affärsärenden** till höger på skärmen. Justeringspoängen finns i affärsärendesammanfattningen i värdet **Justerad**.
 
-   Justeringspoängen finns i affärsärendesammanfattningen i värdet **Justerad**.
-
-   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
+   ![Justeringspoäng i ett projekt](assets/aligned-section.png)
 
 ### Visa projektets justeringspoäng och portföljen i Portfolio Optimizer
 
-Du kan visa justeringspoängen för ett projekt eller en portfölj i Portfolio Optimizer om du har behörigheten Hantera för portföljen.
+Du kan visa justeringspoängen för ett projekt eller en portfölj i Portfolio Optimizer om du har Hantera-åtkomst till portföljen.
 
 Mer information om vilken information som visas i Portfolio Optimizer finns i [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Leta reda på projektets justeringspoäng i Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Hitta portföljens justeringspoäng i Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
+  ![Justeringspoäng i Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Hitta projektets justeringspoäng i Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Klicka på namnet på en portfölj.
-1. Klicka på **Portfolio-optimering** i den vänstra panelen.
-
-   Portfolio Optimizer visas.
+1. Klicka på **Portfolio-optimering** i den vänstra panelen. Portfolio Optimizer visas.
 
    Justeringspoängen för ett projekt visas som en procentandel i kolumnen **Justering** i Portfolio Optimizer.
 

@@ -5,9 +5,9 @@ description: Anpassade Forms används för att samla in information som inte vis
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -70,19 +70,19 @@ Mer information om hur du bifogar anpassade formulär till objekt finns i [Lägg
 
 ## Bifoga anpassad Forms till affärsärendet
 
-Om du vill lägga till ett anpassat alternativ från ett affärsärende måste Workfront-administratören välja det här alternativet i installationsprogrammet. Mer information om hur du aktiverar anpassade formulär under Konfigurera finns i avsnittet [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) i artikeln [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Om du vill lägga till ett anpassat alternativ från ett affärsärende måste Workfront-administratören välja det här alternativet i installationsprogrammet. Mer information om hur du aktiverar anpassade formulär i installationsprogrammet finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Så här bifogar du ett anpassat formulär:
 
-1. Gå till projektet som du vill bifoga formuläret till och klicka sedan på **Affärsärende** i den vänstra panelen.
+1. Gå till projektet som du vill bifoga formuläret till och klicka sedan på **Affärsärende** i den vänstra panelen. Affärsärendet visas.
 
-   Affärsärendet visas.
+1. I avsnittet **Eget formulär** väljer du det anpassade formulär som du vill bifoga i listrutan. Det anpassade formuläret visas i avsnittet **Tillagda formulär** nedan.
 
-1. I avsnittet **Eget formulär** väljer du det anpassade formulär som du vill bifoga i listrutan.
+1. (Valfritt) Om du vill utöka den anpassade formulärinformationen klickar du på pilen till vänster om det anpassade formulärnamnet.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![Expandera formulärinformation](assets/expand-custom-form-details.png)
 
-1. (Valfritt) Välj **Redigera anpassat formulär**.\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Valfritt) Ange information i fälten i det anpassade formuläret och klicka sedan på **Spara** .
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->

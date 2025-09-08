@@ -6,9 +6,9 @@ description: Du kan exportera affärsärendet till en PDF-fil om du behöver skr
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,12 @@ Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den el
 
 ## Exportera affärsärendet
 
-1. Gå till projektet som du vill exportera affärsärendet från.
+{{step1-to-projects}}
+
+1. På sidan **Projekt** väljer du det projekt du vill exportera affärsärendet från.
 1. Klicka på **Affärsfall** i den vänstra panelen.
-1. Klicka på **Exportera** i det övre högra området **Sammanfattning av affärsärenden**.
+1. Klicka på **Exportera** i det övre högra hörnet av området **Sammanfattning av affärsfall**. En PDF-fil laddas ned till datorn.
 
-   &lt;!—![Sammanfattning av affärsärenden](assets/bc-summary--350x587.png)—>\
-   En PDF   filen hämtas till datorn. Filen innehåller alla delar av affärsärendet i ett lättläst format.
+   ![Sammanfattning av affärsärenden](assets/bc-summary.png)
 
-   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
-1. (Valfritt) Bifoga PDF-filen i ett e-postmeddelande eller skriv ut den för att dela den med andra.
