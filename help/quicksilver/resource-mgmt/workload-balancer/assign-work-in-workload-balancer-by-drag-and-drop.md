@@ -6,7 +6,7 @@ description: Du kan tilldela arbetsobjekt med Adobe Workfront Workload Balancer 
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Allmän information om hur du tilldelar arbete till användare med hjälp av arb
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -95,7 +95,7 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
    >* Alternativet Visa alla användare är bara tillgängligt i arbetsbelastningsutjämnaren för ett projekt.
    >* Använd filter om du bara vill visa de användare som är viktiga för dig. Använd till exempel ett filter om du bara vill visa användare från dina team eller grupper.
 
-1. Klicka på fältet för en arbetsuppgift <span class="preview"> eller rolltilldelning</span> som anger den planerade eller den planerade tidslinjen och dra den över namnet på en användare i området **Tilldelad**.
+1. Klicka på fältet för en arbetsuppgift <span class="preview"> eller rolltilldelning</span> som anger den planerade eller den planerade tidslinjen och dra den över timmarna för en användare i området **Tilldelad**.
 
    Användaren som du för pekaren över för att släppa arbetsobjektet markeras.
 
