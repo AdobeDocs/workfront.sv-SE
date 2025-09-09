@@ -5,7 +5,7 @@ description: Du kan använda AI för att autofylla begärandefält genom att ang
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
+source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -125,7 +125,7 @@ I de här exemplen visas uppmaningar om olika sätt som AI kan referera till and
 
 >[!BEGINSHADEBOX]
 
-Skapa en liknande kampanjförfrågan som vi gjorde för lanseringen av (Client Company) Q2, men den här gången för deras Automotive-division. Använd samma slutprodukt och målgruppsprofil.
+Skapa en liknande kampanjförfrågan som vi gjorde för lanseringen av Q2 (kundföretag), men den här gången för deras division Automotive. Använd samma slutprodukt och målgruppsprofil.
 
 >[!ENDSHADEBOX]
 
@@ -133,7 +133,7 @@ Skapa en liknande kampanjförfrågan som vi gjorde för lanseringen av (Client C
 
 >[!BEGINSHADEBOX]
 
-Använd samma konfiguration som vi hade i projektet (Client Company) förra våren. Jag vill genomföra en digital annonskampanj som riktar sig till samma chefer, men med uppdaterade datum för det här kvartalet.
+Använd samma inställning som vi hade i projektet (projektnamn) som sparades ut förra våren. Jag vill genomföra en digital annonskampanj som riktar sig till samma chefer, men med uppdaterade datum för det här kvartalet.
 
 >[!ENDSHADEBOX]
 
@@ -141,7 +141,7 @@ Använd samma konfiguration som vi hade i projektet (Client Company) förra vår
 
 >[!BEGINSHADEBOX]
 
-Förbered en förfrågan som liknar den (Client Company) sommarkampanj som vi körde förra året. Fokusera på resurser i sociala medier, håll spanska som primärt språk och justera budgeten till 75 000 dollar.
+Förbered en förfrågan som liknar den (kundföretag) sommarkampanj som vi körde förra året. Fokusera på resurser i sociala medier, håll spanska som primärt språk och justera budgeten till 75 000 dollar.
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +149,7 @@ Förbered en förfrågan som liknar den (Client Company) sommarkampanj som vi k�
 
 >[!BEGINSHADEBOX]
 
-Använd webbseminariekampanjen (Client Company) från Q1 som referens. Jag vill ha samma arbetsflöde och resurser för registrering, men den här gången är ämnet&quot;AI in Financial Planning&quot; och publiken är unga proffs.
+Använd webbseminariekampanjen (kampanjnamn) från Q1 som referens. Jag vill ha samma arbetsflöde och resurser för registrering, men den här gången är ämnet&quot;AI in Financial Planning&quot; och publiken är unga proffs.
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Använd webbseminariekampanjen (Client Company) från Q1 som referens. Jag vill 
 
 >[!BEGINSHADEBOX]
 
-Ställ in en kampanjförfrågan precis som det (Client Company) omprofileringsprojekt som vi hanterade, men ersätt med (New Client Company) som klient. Alla produkter anpassas efter företagets varumärke.
+Skapa en kampanjförfrågan precis som det (klientföretaget) omprofileringsprojekt som vi hanterade, men ersätt med (det nya klientföretaget) som kund. Alla produkter anpassas efter företagets varumärke.
 
 >[!ENDSHADEBOX]
 
