@@ -182,7 +182,7 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> Klicka på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> Klicka på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 
