@@ -5,9 +5,9 @@ description: Du kan styra vilka åtkomstnivåer i organisationen som har tillgå
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d5693657695b2c0e89a69afc8cf90b34d2036f3e
+source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,3 @@ Så här aktiverar du AI-assistenten för en given åtkomstnivå:
 1. Klicka på **Spara**.
 1. Upprepa steg 3-5 för varje åtkomstnivå som du vill aktivera AI Assistant för.
 
->[!NOTE]
->
->När AI-funktioner läggs till i Workfront kommer vissa AI-funktioner att bli grundläggande för hur Workfront fungerar. Möjligheten att inaktivera alla AI-funktioner kommer troligen att bli inaktuell inom den närmaste framtiden.
