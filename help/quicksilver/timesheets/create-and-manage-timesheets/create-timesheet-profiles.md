@@ -3,12 +3,12 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Skapa, redigera och tilldela tidrapportprofiler
 description: Du kan skapa, redigera och tilldela tidrapportprofiler som genererar återkommande tidrapporter för dina användare utan att du behöver göra något mer. Detta sparar tid och säkerställer enhetlighet mellan användarna.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Skapa, redigera och tilldela tidrapportprofiler
 
 <!--Audited: 06/2025-->
+
+<!--at the Prod release, remove the Production and Preview references from this article-->
 
 <!--<div class="preview">
 
@@ -91,10 +93,10 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
 
    Om du vill redigera en befintlig tidrapportprofil markerar du den tidrapportprofil som du vill redigera och klickar sedan på **Redigera**.
 
-   Den nya eller befintliga tidrapportprofilen visas.
+   Den nya eller befintliga profilsidan för tidrapport visas.
 
 
-1. Klicka på fliken **Ange detaljer** och uppdatera sedan följande information:
+1. Klicka på fliken **Ange detaljer** och uppdatera sedan följande information: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +104,7 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Namn</strong> </td> 
-      <td> <p> Lägg till ett namn för tidrapportprofilen. Det kan vara namnet på ett team eller en grupp vars personer delar samma tidsram för sina tidrapporter. </p> </td> 
+      <td> <p> Lägg till ett namn för tidrapportprofilen. Det kan vara namnet på ett team eller en grupp vars personer delar samma tidsram för sina tidrapporter. </p> <p>Detta är ett obligatoriskt fält.</p> </td> 
      </tr>
 
    <tr> 
@@ -111,10 +113,8 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
       </p> </td> 
      </tr>
 
-
-
    <tr> 
-      <td role="rowheader"><strong>Gruppera med administrationsåtkomst</strong> </td> 
+   <td role="rowheader"><strong>Gruppera med administrationsåtkomst</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>Om du skapar en tidrapportprofil på systemnivå lämnar du det här fältet tomt.</p> <p>Alla användare som kan redigera användarkonton kan bifoga en tidrapport på systemnivå till andra användare.</p> <p>Endast en Workfront-administratör kan redigera en tidrapportprofil på systemnivå.</p> </li> 
@@ -132,7 +132,7 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
 
 
    <p><b>Obs!</b> Workfront skapar alltid två tidrapporter i taget: den första tidrapporten innehåller alltid det aktuella datumet och den andra tidrapporten startar när tidsramen för den första är slut.</p> </p> </td> 
-    </tr> 
+   </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Godkännare</strong></p> </td> 
       <td> <p> <p>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Du kan identifiera upp till 7 användare som godkännare på en tidrapport. Det är praktiskt att identifiera flera användare för att se till att en godkännare är tillgänglig när någon inte är på kontoret. Alla godkännare meddelas när en användare skickar tidrapporten för godkännande. Endast en användare behöver godkänna tidrapporten för att den ska godkännas.</p> <p>Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administratörsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p>Använd listrutan för att välja godkännare för tidrapporten (om en godkännare krävs). Du kan välja mellan följande alternativ:</p> 
@@ -146,9 +146,9 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
       <td role="rowheader"><strong>Det går att redigera tid </strong> </td> 
       <td> <p> <p>Välj det här alternativet om godkännarna ska kunna redigera timmar på tidrapporten.
 
-   Det här alternativet fungerar tillsammans med inställningen **Begränsa redigering av tidrapporter till ägare och administratörer** i området Inställningar > Tidrapport och timmar > Inställningar. Mer information finns i <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Konfigurera tidrapport och timinställningar</a>.
+   <p>Det här alternativet fungerar tillsammans med inställningen **Begränsa redigering av tidrapporter till ägare och administratörer** under Inställningar &gt; Tidrapport och timmar &gt; Inställningar. Mer information finns i <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Konfigurera tidrapport och timinställningar</a>.</p>
 
-   Följande scenarier finns:
+   <p>Följande scenarier finns: </p>
 
    <ul>
       <li>När alternativet <b>Begränsa redigering av tidrapport till ägare och administratörer</b> är aktiverat:</li>
@@ -182,7 +182,11 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
     </tbody> 
     </table>
 
-1. Klicka på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. Börja skriva namnet på användaren, gruppen eller teamet och klicka sedan på det när det visas i listrutan.
+1. <!--In the Production environment, or when creating group-level timesheet profiles,--> Klicka på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--Keep the reference to the group upon release to Prod-->
+
+   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+
+   Börja skriva namnet på användaren, gruppen eller teamet och klicka sedan på det när det visas i listrutan.
 
    Om du är gruppadministratör kan du tilldela tidrapportprofilen till grupper som du administrerar, men inte till team. Mer information finns i [Begränsningar för en gruppadministratör som tilldelar en tidrapportprofil](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) i den här artikeln.
 
@@ -229,4 +233,4 @@ Du kan ha fler än en tidrapportprofil för din organisation om det finns:
 * Unika godkännare för olika användaruppsättningar
 * Unika allmänna timmeskrav för olika användaruppsättningar
 
-En användare kan inte associeras med mer än en tidrapportprofil åt gången. 
+En användare kan inte associeras med mer än en tidrapportprofil åt gången.

@@ -3,12 +3,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Använda vyn Milstolpe
 description: Du kan använda vyn Milstolpe på en projektlista eller rapport. Du kan använda vyn Milstolpe för att visa alla milstolpar som är kopplade till uppgifter i de projekt som du visar.
-author: Nolan
+author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 # Använda vyn Milstolpe
 
 <!-- Audited: 11/2024 -->
+
+<!--remove Preview and Production mentions from the article when this comes out live-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Du kan använda vyn Milstolpe på en projektlista eller rapport. Du kan använda vyn Milstolpe för att visa alla milstolpar som är kopplade till uppgifter i de projekt som du visar.
 
@@ -83,7 +95,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Översikt över milstolpe {#milestone-view-overview}
 
-Vyn Milstolpe är tillgänglig i projektlistor och projektrapporter. I den här vyn kan du snabbt visa alla milstolpar som är kopplade till uppgifter i projekt som du visar.
+Vyn Milstolpe är tillgänglig i projektlistor och projektrapporter. Du kan snabbt visa alla milstolpar som är kopplade till uppgifter i de projekt du visar.
 
 
 >[!NOTE]
@@ -92,8 +104,9 @@ Vyn Milstolpe är tillgänglig i projektlistor och projektrapporter. I den här 
 >
 >* Tidrapporter, i projektlistan när du lägger till ett projekt.
 
-
 Mer information om hur du växlar till vyn Milstolpe finns i avsnittet [Växla till vyn Milstolpe](#switch-to-the-milestone-view) i den här artikeln.
+
+<!--add new screen shot-->
 
 ![Projekt med milstolpe-vy](assets/project-with-milestone-view-with-complete.png)
 
@@ -116,18 +129,30 @@ När du använder vyn Milstolpe på en lista med projekt visas projekten i följ
 När du visar en projektlista eller en projektrapport i vyn Milstolpe är följande information tillgänglig:
 
 * **Planerade datum eller planerade datum:** Ange om du vill visa planerade datum eller planerade datum i milstolpsvyn.\
-  Datum visas för Start och Slutförande samt för varje milstolpe i milstolpen.\
-  Om du visar Planerade datum och även har Hantera-åtkomst till projektet kan du redigera följande datum direkt från vyn Milstolpe: (Om du visar Projicerade datum kan datumen inte redigeras eftersom Projicerade datum beräknas och inte kan ändras manuellt.)
+  Datum visas för start- och slutförandedatum för projektet, samt för slutförande av varje milstolpeuppgift i milstolpebanan.
 
-   * **Projektets startdatum:** Om ett projekt har schemalagts från startdatumet kan du ändra startdatumet för projektet manuellt och sedan beräkna slutförandedatumet.
-   * **Datum för projektslutförande:** Om ett projekt har schemalagts från slutförandedatumet kan du ändra projektets slutförandedatum manuellt och sedan beräkna startdatumet.
-   * **Datum för slutförande av aktivitet:** Du kan uppdatera slutförande manuellt för aktiviteter direkt från milstolpe-vyn.
+  Om du visar Projicerade datum kan datumen inte redigeras. Planerade datum beräknas av Workfront och kan inte ändras manuellt.
 
-* **Procent färdigt:** Visar slutförandeprocenten för varje aktivitet och projekt.\
-  Du kan inaktivera att procentandelen slutförande visas, vilket beskrivs i avsnittet [Konfigurera vilken information som ska visas i vyn Milstolpe](#configure-what-information-displays-in-the-milestone-view) i den här artikeln.\
+  Om du visar Planerade datum och även har Hantera-åtkomst till projektet kan du redigera följande datum direkt från milstolpevyn:
+
+   * **Projektets startdatum:** Om ett projekt har schemalagts från startdatumet kan du ändra projektets planerade startdatum manuellt, och sedan beräknas det planerade slutförandedatumet.
+   * **Datum för projektslutförande:** Om ett projekt har schemalagts från det planerade slutförandedatumet kan du ändra projektets planerade slutförandedatum manuellt, och det planerade startdatumet beräknas sedan.
+   * **Datum för slutförande av aktivitet:** Du kan uppdatera det planerade slutförandedatumet manuellt för aktiviteter direkt från milstolpe-vyn.
+
+* **Procent färdigt:** Visar slutförandeprocenten för varje aktivitet och projekt.
+
+  Du kan inaktivera att procentandelen slutförande visas, vilket beskrivs i avsnittet [Konfigurera vilken information som ska visas i vyn Milstolpe](#configure-what-information-displays-in-the-milestone-view) i den här artikeln.
+
   Du kan justera procentandelen för slutförande direkt från vyn Milstolpe, vilket beskrivs i avsnittet [Justera procent färdigt för aktiviteter i vyn Milstolpe](#adjust-percent-complete-for-tasks-in-the-milestone-view) i den här artikeln.
 
-* **Ikoner för aktivitetsstatus:** En statusikon visas bredvid varje projekt och uppgift i vyn Milstolpe.
+* **Statusikoner för uppgiftsförlopp:** En statusikon visas bredvid varje projekt och uppgift i vyn Milstolpe. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+
+  <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
+   * On Time - green
+   * Behind - yellow
+   * At Risk - blue
+   * Late - red-->
+
 
    * I tid\
      ![Ikon i tid](assets/gantt-ontime.png)
@@ -141,7 +166,8 @@ När du visar en projektlista eller en projektrapport i vyn Milstolpe är följa
    * Sena\
      ![Sena ikonen](assets/gantt-late.png)
 
-  Du kan inaktivera att dessa statusikoner visas, vilket beskrivs i avsnittet [Konfigurera vilken information som ska visas i vyn Milstolpe](#configure-what-information-displays-in-the-milestone-view) i den här artikeln.\
+  Du kan inaktivera att dessa statusikoner visas, vilket beskrivs i avsnittet [Konfigurera vilken information som ska visas i vyn Milstolpe](#configure-what-information-displays-in-the-milestone-view) i den här artikeln.
+
   Mer information om respektive statustyp finns i artikeln [Översikt över status för aktivitetsstatus](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * **Skuggning av aktivitetsstatus för slutförda aktiviteter**: När en aktivitet har markerats som Slutförd skuggas bakgrunden för aktiviteten i milstolpe-vyn för att ange om aktiviteten slutfördes i tid eller sent:
@@ -158,18 +184,43 @@ När du visar en projektlista eller en projektrapport i vyn Milstolpe är följa
 
       * **Grön skuggning för projektstartkolumn**: Bakgrunden i projektstartkolumnen är grön när projektets förloppsstatus är **Vid tid**.
 
+     >[!TIP]
+     >
+     >Du måste gå till sidan Projektinformation för att visa projektets faktiska startdatum.
+
    * **Kolumn för projektslutförande**: Bakgrunden i kolumnen Projektslutförande är röd eller grön endast när Faktiskt slutförandedatum har fyllts i:
 
       * **Röd skuggning för projektslutförandekolumn**: Bakgrunden i kolumnen Projektslutförande är röd när projektets förloppsstatus är **Sent**.
 
       * **Grön skuggning för kolumnen Projektslutförande**: Bakgrunden i kolumnen Projektslutförande är grön när projektets förloppsstatus är **Vid tid**.
 
+     >[!TIP]
+     >
+     >Du måste gå till sidan Projektinformation för att visa projektets faktiska slutförandedatum.
+
    * Ingen färgskuggning tilldelas till kolumnerna Start och Slutförd när aktiviteterna har statusvärdet Vid risk eller Efter.
+
+  <!--add new screen shot-->
 
   ![Vyn Milstolpe med skuggning](assets/milestone-view-with-shading.png)
 
 * **Projektnamn**: Projektnamnet visas med en länk till projektet.
-* **Ikon för projektvillkor**: En ikon visas bredvid projektnamnet som anger projektets villkor.
+* **Ikon för projektvillkor**: En ikon visas bredvid projektnamnet, vilket anger projektets villkor.
+
+  <!--
+   <div class="preview">
+   A condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
+   * On Target - green
+   * At Risk - yellow
+   * In Trouble - red
+   </div>
+   -->
+
+  Projektets villkor kan vara något av följande:
+
+   * På mål
+   * Risk
+   * I problem
 
 ## Konfigurera vilken information som ska visas i vyn Milstolpe {#configure-what-information-displays-in-the-milestone-view}
 
@@ -178,18 +229,23 @@ Du kan konfigurera om följande element ska visas i vyn Milstolpe:
 * Statusikoner för förlopp
 * Procent färdigt med projekt och uppgifter
 
-Som standard visas projektstatusikoner och procent färdigt projekt.
+Som standard visas förloppsikoner och procent färdigt projekt och uppgifter.
 
-De ändringar du gör i dessa alternativ gäller bara dig. Övriga användare påverkas inte. De ändringar du gör behålls nästa gång du loggar in på Adobe Workfront.
+De ändringar du gör i dessa alternativ gäller bara dig. Övriga användare påverkas inte. De ändringar du gör behålls nästa gång du loggar in på Workfront.
 
 Så här konfigurerar du om projektstatusikoner och procent slutförda projekt ska visas:
 
 {{step1-to-projects}}
 
-1. Klicka på listrutan **Visa** och sedan på **Milstolpe**.\
-   Om du visar en lista med projekt i en Portfolio eller ett program väljer du underfliken **Milstolpe**.
+1. Klicka på listrutan **Visa** och sedan på **Milstolpe**.
+   <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. Klicka på **Alternativ** i det övre högra hörnet i vyn Milstolpe.\
+1. <!--In the Production environment,--> Klicka på **Alternativ** i det övre högra hörnet i vyn Milstolpe.
+
+   <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
+
+   <!--at Prod release, replace this screen shot and adjust the Production/ Preview text above-->
+
    ![millestone_view_options.png](assets/milestone-view-options-350x141.png)
 
 1. Välj bland följande alternativ:
@@ -211,7 +267,7 @@ Så här konfigurerar du om projektstatusikoner och procent slutförda projekt s
 
 ## Justera procent färdigt för uppgifter i vyn Milstolpe {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
-Du kan justera Procent färdigt för uppgifter i vyn Milstolpe. Du kan inte justera Procent färdigt för en överordnad aktivitet (en aktivitet som innehåller underaktiviteter).
+Du kan justera Procent färdigt för uppgifter i vyn Milstolpe. Du kan inte justera Procent färdigt för en överordnad aktivitet (en aktivitet som innehåller underaktiviteter) eller för ett projekt.
 
 Så här justerar du procentandelen färdigt för en aktivitet i vyn Milstolpe:
 
@@ -219,6 +275,8 @@ Så här justerar du procentandelen färdigt för en aktivitet i vyn Milstolpe:
 
 1. Klicka på listrutan **Visa** och sedan på **Milstolpe**.
 
-1. (Villkorligt) Om procentsatser för slutförande inte visas i vyn Milstolpe klickar du på **Alternativ** i det övre högra hörnet i vyn Milstolpe och kontrollerar sedan att **Procent färdigt** är aktiverat.
+1. (Villkorligt) Om procentsatser för slutförande inte visas för närvarande i vyn Milstolpe aktiverar du visningen av uppgifter och projekt för Procent färdigt enligt beskrivningen i avsnittet [Konfigurera vilken information som ska visas i vyn Milstolpe](#configure-what-information-displays-in-the-milestone-view) i den här artikeln.
 
-1. Klicka på procentsatsen för slutförande under en uppgift, ange en ny procentsats och tryck sedan på Retur.
+1. <!--In the Production environment,--> Klicka på procentsatsen för slutförande under en uppgift, ange en ny procentsats och tryck sedan på Retur.
+
+   <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

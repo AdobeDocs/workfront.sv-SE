@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing arbetsyta är tillgänglig i Ad
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Din organisation måste uppfylla följande krav för att integreringen mellan Wo
 
 * Workfront och GenStudio for Performance Marketing måste aktiveras för samma organisation.
 
-  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
@@ -103,7 +103,7 @@ Din organisation måste uppfylla följande krav för att integreringen mellan Wo
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing användarroller</p></td> 
    <td><p><ul><li>Alla GenStudio användarroller för att få tillgång till kampanjer, produkter och uppgifter</li>
    <li>GenSudio System Manager för att komma åt aktiveringar och händelser</li></ul>
-   Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Användarroller och behörigheter</a>. 
+   Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Användarroller och behörigheter</a>. 
    </p>
   </td> 
   </tr>   
@@ -127,7 +127,7 @@ Din organisation måste uppfylla följande krav för att integreringen mellan Wo
 
 Mer information om åtkomst till Adobe Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
-Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 
 ## Översikt över integrationsfunktionerna i Workfront Planning och GenStudio for Performance Marketing
@@ -146,15 +146,18 @@ Beroende på hur många Workfront-instanser din organisation har, har du automat
     <td role="rowheader"><p>En instans av Workfront</p></td> 
    <td> 
 <p>Arbetsytan i GenStudio visas i din instans av Workfront Planning</p>
-<p>Workfront-administratörer har behörigheten Hantera för GenStudio arbetsyta i Planning</p>
-<p>Alla andra användare har Contribute-åtkomst till GenStudio arbetsyta i Planning</p>
+<p>Alla användare, inklusive Workfront-administratörer, har som standard Contribute-åtkomst till GenStudio arbetsyta i Planning</p>
+<p>Workfront-administratörer kan ändra och bevilja behörigheten Hantera på arbetsytan i GenStudio till vem som helst</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Flera instanser av Workfront</p> </td> 
    <td> 
    <p>Arbetsytan i GenStudio är synlig från alla Workfront-instanser</p>
-<p>Alla användare med tillgång till GenStudio for Performance Marketing och Workfront Planning har Contribute-behörigheter i GenStudio vid Planning</p> </td> 
+<p>Alla användare med åtkomst till GenStudio for Performance Marketing och Workfront Planning har Contribute-behörighet på GenStudio i Planning som standard</p> 
+<p>Workfront-administratörer kan inte ge behörighet att hantera GenStudio arbetsyta till någon</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ Avsnitten nedan beskriver följande:
    * Redigera information om posttyper i GenStudio (deras utseende, avancerade inställningar).
    * Dela GenStudio-posttyper med andra.
    * Skapa posttyper. Dessa posttyper finns bara kvar i Workfront Planning. De visas inte i GenStudio.
+   * Aktivera poster från GenStudio-arbetsytan för att ansluta från andra arbetsytor.
+   * Aktivera att poster från GenStudio-arbetsytan läggs till i andra arbetsytor.
 * När du har Contribute-behörighet till GenStudio arbetsyta i Planning går det inte att ändra posttyperna i GenStudio från Planning.
 
 ### Poster på arbetsytan i GenStudio
