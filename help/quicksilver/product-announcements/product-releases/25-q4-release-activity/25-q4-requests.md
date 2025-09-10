@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Uppdateringen innehåller även ändringar av sidans utseende och känsla.
 
 Tänk på följande när du använder den nya funktionen Begär:
 
-* Utkast finns nu i samma lista som skickade begäranden
+* Du kan för närvarande bara hitta utkast i den äldre begärande upplevelsen. I den nya versionen kan du bara se utkast i en arbetsflödeskö om du har ett utkast i samma sökväg.
 * Den nya upplevelsen visar för närvarande endast begäranden som skapats under de senaste 1,5 månaderna. Om du vill se äldre begäranden kan du tillfälligt inaktivera den nya funktionen och få åtkomst till de äldre förfrågningarna via den gamla versionen.
 
 Tidigare fanns Workfront- och Workfront Planning-begäranden på separata flikar, och filter var inte anpassningsbara.
