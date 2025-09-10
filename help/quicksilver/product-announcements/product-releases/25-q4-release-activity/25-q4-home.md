@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,8 @@ För att skapa en smidigare upplevelse mellan Workfront och Workfront Planning h
 
 Du måste ha den nya upplevelsen som begär aktiverad för att kunna se den nya widgeten. Du kan aktivera den nya begärandeupplevelsen i området Förfrågningar.
 
+Den nya widgeten Mina förfrågningar visar endast de förfrågningar som har skapats i den nya begärande upplevelsen.
+
 Mer information om den nya widgeten Mina förfrågningar finns i [Använd widgeten Mina förfrågningar](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+Versionsinformationen om den nya begärande upplevelsen finns i [Uppdateringar av en begärande upplevelse](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience).

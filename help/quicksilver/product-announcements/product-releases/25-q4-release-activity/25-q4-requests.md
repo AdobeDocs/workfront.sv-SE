@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ För att skapa en bättre användarupplevelse vid förfrågningar i Workfront oc
 * Dölj och sortera om kolumner i listan över skickade begäranden.
 
 Uppdateringen innehåller även ändringar av sidans utseende och känsla.
+
+Tänk på följande när du använder den nya funktionen Begär:
+
+* Utkast finns nu i samma lista som skickade begäranden
+* Den nya upplevelsen visar för närvarande endast begäranden som skapats under de senaste 1,5 månaderna. Om du vill se äldre begäranden kan du tillfälligt inaktivera den nya funktionen och få åtkomst till de äldre förfrågningarna via den gamla versionen.
 
 Tidigare fanns Workfront- och Workfront Planning-begäranden på separata flikar, och filter var inte anpassningsbara.
 
