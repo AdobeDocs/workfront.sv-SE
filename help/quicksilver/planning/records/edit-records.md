@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 0%
@@ -246,6 +246,8 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 1. <span class="preview">Håll markören över ändarna på en posts fält, klicka, dra och släpp marginalen till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.</span>
 
    <span class="preview">![Vänster fält i tidslinjevyn för att ändra storlek](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 

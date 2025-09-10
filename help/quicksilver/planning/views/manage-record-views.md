@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Mer information om hur du hanterar postvyer i Workfront Planning finns i följan
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +119,7 @@ Mer information om hur du hanterar postvyer i Workfront Planning finns i följan
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Att tänka på när du arbetar med postvyer
 
@@ -170,6 +170,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 | Visa poster per vecka |           |               | ✓ |
 | Exportera information från en vy | ✓ |               |    |
 | <span class="preview">Visa i helskärmsläge</span> | ✓ | ✓ | ✓ |
+| <span class="preview">Skapa poster i vyn</span> | ✓ | ✓ | ✓ |
 
 ## Skapa eller redigera vyer {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
 1. Klicka på **+ Visa** för att lägga till en ny vy.
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. Välj bland följande typer av vyer:
 
    * Tabell
@@ -206,6 +213,8 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 >
 >I annat fall är tidslinjen och kalenderalternativen nedtonade.
 >
+
+<!-- replace screen shot at production??-->
 
 ![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)
 

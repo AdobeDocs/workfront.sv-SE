@@ -1,12 +1,12 @@
 ---
 title: Lägg till befintliga posttyper
-description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Workfront Planning kan du importera en befintlig posttyp från en annan arbetsyta.
+description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Workfront Planning kan du lägga till en befintlig posttyp som har skapats på en annan arbetsyta.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Som arbetsytehanterare kan du importera eller lägga till en befintlig posttyp till en annan arbetsyta.
+Som arbetsytehanterare kan du lägga till en posttyp som finns i en arbetsyta i en arbetsyta som du hanterar i Adobe Workfront Planning.
 
-Du måste ange en posttyp som centraliserad innan arbetsytehanterare kan importera den till andra arbetsytor.
+Du måste ange en posttyp som centraliserad innan arbetsytans hanterare kan lägga till den i andra arbetsytor som en befintlig posttyp.
 
 Du kan ange en posttyp som centraliserad när du skapar eller redigerar den, medan du definierar dess inställningar för arbetsytan.
 
@@ -83,7 +83,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 1. Börja skapa en posttyp enligt beskrivningen i artikeln [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md) och klicka sedan på **Lägg till befintlig**. <!--check this - the option might have been renamed in the UI-->
 
-   ![Modal för att lägga till posttyp med möjlighet att importera från en annan arbetsyta](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![Modal för att lägga till posttyp med möjlighet att lägga till från en annan arbetsyta](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
 1. Klicka på **Fortsätt**.
 1. I rutan **Välj posttyp** klickar du på kortet för den posttyp som du vill lägga till från en befintlig arbetsyta och sedan på **Lägg till**.
@@ -92,7 +92,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    >[!TIP]
    >
-   >När det inte finns några konfigurerade posttyper som ska läggas till på en annan arbetsyta visas inte alternativet att importera dem från en annan arbetsyta när du skapar en posttyp.
+   >När det inte finns några konfigurerade posttyper som ska läggas till på en annan arbetsyta visas inte alternativet att lägga till dem från en annan arbetsyta när du skapar en posttyp.
 
    Följande saker händer:
 
@@ -101,25 +101,25 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
       * Alla originalfält
       * Alla postanslutningar
    * Du kan bara visa poster som har lagts till från andra arbetsytor om du har minst behörigheten Visa på dessa arbetsytor.
-   * Ikonen **centraliserad posttyp** ![Centraliserad posttyp ](assets/global-icon.png) läggs till på kortet för den importerade posttypen.
-   * Det skrivskyddade fältet **Workspace** läggs till i den importerade posttypstabellvyn. Fältet visar vilken arbetsyta varje post skapades i.
+   * Ikonen **centraliserad posttyp** ![Centraliserad posttyp ](assets/global-icon.png) läggs till på kortet för den nya posttypen.
+   * Det skrivskyddade fältet **Workspace** läggs till i den nya posttypstabellvyn. Fältet visar vilken arbetsyta varje post skapades i.
 
      >[!NOTE]
      >
-     >* Du kan inte redigera den importerade posttypens utseende, avancerade inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
+     >* Du kan inte redigera den nya posttypens utseende, avancerade inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
 
 1. (Valfritt) Klicka och dra och släpp den nya posttypen till valfritt avsnitt på arbetsytan.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på den importerade posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Dela** för att dela den med andra användare på samma arbetsyta.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på den nya posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Dela** för att dela den med andra användare på samma arbetsyta.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på den importerade posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på den nya posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    Följande saker händer:
 
    * Posttypen som skapas från en centraliserad posttyp tas bort från den valda arbetsytan.
    * Den ursprungliga posttypen och dess fält finns kvar på den ursprungliga arbetsytan.
-   * Alla andra posttyper som importeras från samma centrala post finns kvar på sina arbetsytor.
+   * Alla andra posttyper som läggs till från samma centraliserade posttyp finns kvar på sina arbetsytor.
    * Posterna som lagts till posttypen från den aktuella arbetsytan tas bort. Alla andra poster som lagts till från ytterligare arbetsytor där den centraliserade posttypen lades till bevaras.
 
 

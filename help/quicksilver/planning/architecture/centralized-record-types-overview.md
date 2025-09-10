@@ -3,7 +3,7 @@ title: Översikt över centraliserade posttyper
 description: Centraliserade posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Posttypen som konfigurerats för centralisering har följande egenskaper:
 
    * Redigera den
 
-     Du kan inte redigera utseendet, funktionerna för arbetsytan i flera arbetsytor eller fälten som importerats från den ursprungliga arbetsytan.
+     Du kan inte redigera utseendet, funktionerna för en arbetsyta eller fälten som lagts till från den ursprungliga arbetsytan.
    * Skapa förfrågningsformulär
    * Hantera förfrågningsformulär
 

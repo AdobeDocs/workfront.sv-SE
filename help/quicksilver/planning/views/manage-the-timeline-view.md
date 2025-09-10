@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -114,13 +114,6 @@ Tänk på följande:
    * När start- eller slutdatumet inte har något värde
    * När startdatumet infaller efter slutdatumet
 
-<div class="preview">
-
-* Du kan skapa och redigera poster i tidslinjevyn. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
-* Du kan ändra storlek på posternas fält i tidslinjevyn genom att klicka och sedan dra och släppa deras marginaler på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Så här hanterar du en tidslinjevy:
 
 1. Gå till den posttypssida som du vill visa tidslinjen för.
@@ -203,6 +196,20 @@ Så här hanterar du en tidslinjevy:
 1. (Valfritt) Klicka på **Uppdelning** om du vill visa anslutna poster på tidslinjen.
 
    Mer information finns i avsnittet [Använd fördelningsfunktionen för att visa anslutna poster i tidslinjevyn](#break-down-connected-records-in-the-timeline-view) i den här artikeln.
+1. <span class="preview">Gör något av följande om du vill skapa poster i tidslinjevyn eller redigera deras datum:</span>
+
+   * <span class="preview">Dubbelklicka var som helst på tidslinjen för att skapa en post. </span>
+
+     <span class="preview">Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Klicka på slutet av ett postfält och dra och släpp det på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. </span>
+
+     <span class="preview">Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### Lägg till filter
 

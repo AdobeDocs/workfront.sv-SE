@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing arbetsyta är tillgänglig i Ad
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1906'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-Organisationer som använder både Adobe Workfront Planning och Adobe GenStudio for Performance Marketing definierar ofta mer detaljerade marknadsföringskoncept som kampanjer, produkter och profiler än vad GenStudio stöder som standard.
+Organisationer som använder både Adobe Workfront Planning och Adobe GenStudio for Performance Marketing definierar ofta mer detaljerade marknadsföringskoncept som kampanjer, produkter, aktiveringar och personligheter än vad GenStudio stöder som standard.
 
 Det finns en inbyggd integrering mellan GenStudio for Performance Marketing och Workfront Planning. Tack vare den här integreringen kan användare i Workfront Planning hantera de kampanjer, produkter, profiler, aktiveringar, kanaler och regioner som används i GenStudio. De kan också konfigurera GenStudio att referera till befintliga posttyper från Workfront Planning, vilket skapar ett mer uppkopplat och enhetligt marknadsföringsarbetsflöde.
 
@@ -47,8 +47,8 @@ Tack vare integrationen mellan Workfront Planning och GenStudio for Performance 
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * Visa arbetsytan i GenStudio i Workfront Planning.
-* Ändra era kampanjer i GenStudio for Performance Marketing och få samma information i realtid i Workfront Planning.
-* Ändra kampanjerna i Workfront Planning och få uppdateringar i realtid av samma information i GenStudio for Performance Marketing.
+* Modifiera kampanjer, produkter, profiler och aktiveringar i GenStudio for Performance Marketing och få uppdateringar i realtid av samma information i Workfront Planning.
+* Modifiera kampanjer, produkter, profiler och aktiveringar i Workfront Planning och få uppdateringar i realtid av samma information i GenStudio for Performance Marketing.
 * Undvik dubblettinmatning.
 * Bibehåll enhetligheten i planeringen och aktiveringen.
 
@@ -58,7 +58,7 @@ Din organisation måste uppfylla följande krav för att integreringen mellan Wo
 
 * Workfront och GenStudio for Performance Marketing måste aktiveras för samma organisation.
 
-  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+  Mer information om GenStudio finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
@@ -102,8 +102,8 @@ Din organisation måste uppfylla följande krav för att integreringen mellan Wo
 <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing användarroller</p></td> 
    <td><p><ul><li>Alla GenStudio användarroller för att få tillgång till kampanjer, produkter och uppgifter</li>
-   <li>GenSudio System Manager för att komma åt aktiveringar och händelser</li></ul>
-   Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Användarroller och behörigheter</a>. 
+   <li>GenSudio System Manager för att komma åt aktiveringar <!--and Events--></li></ul>
+   Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Användarroller och behörigheter</a>. 
    </p>
   </td> 
   </tr>   
@@ -127,7 +127,7 @@ Din organisation måste uppfylla följande krav för att integreringen mellan Wo
 
 Mer information om åtkomst till Adobe Workfront Planning finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
-Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home).
+Mer information om Adobe GenStudio for Performance Marketing finns i [Adobe GenStudio for Performance Marketing användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 
 ## Översikt över integrationsfunktionerna i Workfront Planning och GenStudio for Performance Marketing

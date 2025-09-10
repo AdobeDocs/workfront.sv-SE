@@ -4,7 +4,7 @@ description: Du kan aktivera en posttyp som antingen ska läggas till på en ann
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
-<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
 
 Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
 
@@ -54,7 +54,7 @@ Följande är funktioner för olika arbetsytor för posttyper:
 * Du kan ange en posttyp som centraliserad. Användarna kan lägga till centraliserade posttyper i andra arbetsytor som de kan hantera.
 * Du kan ange en posttyp som en kopplingsbar typ. Användare kan ansluta till den här posttypen från andra arbetsytor.
 
-Du måste först definiera funktionerna för en posttyps arbetsyta innan arbetsytehanterare kan ansluta den från eller importera den till andra arbetsytor.
+Du måste först definiera funktionerna för en posttyps arbetsyta innan arbetsytehanterare kan ansluta den från eller lägga till den i andra arbetsytor.
 
 Du definierar arbetsytefunktionerna för en posttyp när du skapar eller redigerar en posttyp.
 
