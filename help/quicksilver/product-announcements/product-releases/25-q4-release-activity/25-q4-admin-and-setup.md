@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,11 @@ Mer information om hur du anger systeminställningar finns i [Konfigurera system
 Information om krav för att aktivera AI-funktioner finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 ## Uppdateringar av Workfront användarprofil
+
+>[!IMPORTANT]
+>
+>Uppdateringen har tillfälligt tagits bort från Förhandsgranska och produktion.
+
 
 >[!NOTE]
 >
