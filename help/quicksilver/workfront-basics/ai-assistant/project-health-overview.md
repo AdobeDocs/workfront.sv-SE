@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -121,18 +121,47 @@ Nedan beskrivs de tillgängliga villkoren för att AI Assistant ska tilldela dit
     <tr>
         <td><b>Projektvillkor</b></td>
         <td><b>Status för projektförlopp</b></td>
+        <td><b>Projektvillkorsfaktorer</b></td>
     </tr>
     <tr>
         <td>På mål</td>
-        <td>När projektets förloppsstatus är I tid är projektvillkoret På mål.</td>
+        <td>Denna analys tilldelas när den genomsnittliga risknivån för följande faktorer ligger inom det friska tröskelvärdet.
+        </td>
+        <td> 
+        <ul><li>Krypning av omfång</li>
+        <li>Saknade fält</li>
+        <li>Schemalägg ändringar</li>
+        <li>Underskattat arbete</li>
+        <li>Projektförlopp</li>
+        <li>Försenade uppgifter</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>Risk</td>
-        <td>När projektets förloppsstatus ligger bakom eller i risk är projektvillkoret i fara.</td>
+        <td>Denna analys tilldelas när den genomsnittliga risknivån för följande faktorer ligger precis under det friska tröskelvärdet.</td>
+        <td>
+        <ul><li>Krypning av omfång</li>
+        <li>Saknade fält</li>
+        <li>Schemalägg ändringar</li>
+        <li>Underskattat arbete</li>
+        <li>Projektförlopp</li>
+        <li>Försenade uppgifter</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>I problem</td>
-        <td>När projektets förloppsstatus är Sent är projektvillkoret Vid risk.</td>
+        <td>Denna analys tilldelas när den genomsnittliga risknivån för följande faktorer ligger under det friska tröskelvärdet.</td>
+        <td>
+        <ul><li>Krypning av omfång</li>
+        <li>Saknade fält</li>
+        <li>Schemalägg ändringar</li>
+        <li>Underskattat arbete</li>
+        <li>Projektförlopp</li>
+        <li>Försenade uppgifter</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -264,57 +293,60 @@ Ett projekt inkluderas bara i den kombinerade Project Health-bedömningen om pro
 
 1. När du har granskat projektens hälsoinformation klickar du på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av AI Assistant för att stänga den.
 
+<!--
 
-## Skapa en rapport för projekthälsotabellen på en arbetsytekontrollpanel
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->Funktionen Canvas Dashboards är för närvarande bara tillgänglig för användare som deltar i betatestet. Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-Du kan lägga till en tabellrapport på en Canvas-kontrollpanel för att enkelt kunna visa dina Project Health-data i ett tabellformat.
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### Förutsättningar
+### Prerequisites 
 
-Du måste skapa en kontrollpanel innan du kan skapa en tabellrapport.
+You must create a dashboard before you can build a table report. 
 
-Mer information finns i [Skapa en arbetsytekontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### Bygg en rapport för Project Health-register
+### Build a Project Health table report 
 
-Det finns många konfigurationsalternativ tillgängliga för att skapa en rapport för Project Health-tabellen. I det här avsnittet går vi igenom processen för att skapa en som visar följande kolumner:
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **Namn**: Innehåller projektnamnet.
-* **Projekthälsoanalys**: Innehåller en sammanfattning av Project Health-utvärderingen.
-* **Projekthälsa skapad**: Innehåller datum/tid då Project Health-utvärderingen senast genererades.
-* **Projekthälsoetikett**: Innehåller projektets etikett (t.ex. På Target, At Risk, or in Trouble).
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
-1. Klicka på **Ny instrumentpanel** i det övre högra hörnet.
-1. I rutan **Skapa instrumentpanel** anger du instrumentpanelens **namn** och **beskrivning**.
-1. Klicka på **Skapa**.
-1. Välj **Skapa rapport** i rutan **Lägg till rapport**.
-1. Välj **Tabell** till vänster.
-1. Klicka på **Skapa rapport** i det övre högra hörnet.
-1. (Valfritt) Följ stegen nedan för att konfigurera avsnittet **Detaljer** ![Detaljer](assets/details-icon.png) :
-   1. Ange en rapport **Namn**.
-   1. Ange en rapport **Beskrivning**.
-1. Följ stegen nedan för att konfigurera avsnittet **Skapa tabell** ![Skapa tabell-ikon](assets/drilldown-column.png) :
-   1. Klicka på ikonen **Tabellkolumner** i den vänstra panelen.
-   1. Klicka på **Lägg till kolumn** och välj sedan **Projekt** > **Namn**.
-   1. Klicka på **Lägg till kolumn** och välj sedan **Projekt** > **Projekthälsa** > **Hälsoanalys**.
-   1. Klicka på **Lägg till kolumn** och välj sedan **Projekt** > **Projekthälsa** > **Skapad**.
-   1. Klicka på **Lägg till kolumn** och välj sedan **Projekt** > **Projekthälsa** > **Hälsoetikett**.
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. Följ stegen nedan för att konfigurera avsnittet **Filter** ![Filterikon](assets/filter-icon.png) :
-   1. Klicka på ikonen **Filter** i den vänstra panelen.
-   1. Välj **Redigera filter**.
-   1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla. Kolumnen visas i förhandsvisningsavsnittet till höger.
-   1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. Följ stegen nedan om du vill konfigurera avsnittet **Inställningar för grupper med rullgardinsnivå** ![Gruppinställningar](assets/drilldown-group-icon.png):
-   1. Klicka på ikonen **Gruppinställningar** i den vänstra panelen.
-   1. Klicka på knappen **Lägg till gruppering** och markera sedan det fält som du vill skapa som en gruppering. Grupperingskolumnen visas i förhandsvisningsavsnittet till höger.
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. Klicka på **Spara** för att skapa rapporten.
+1. Click **Save** to create the report.
+
+-->
