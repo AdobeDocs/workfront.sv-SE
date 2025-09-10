@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2856'
 ht-degree: 0%
 
 ---
@@ -163,6 +163,7 @@ Så här skapar du en begäran i Workfront webbprogram:
    >* <span class="preview">Listan innehåller både Workfront begärandeköer och Workfront Planning-förfrågningsformulär.</span>
    >* <span class="preview">Du kan filtrera listan efter objekttyp.</span>
    >* <span class="preview">Om du bara vill visa Workfront Request-köer filtrerar du efter `Issue` objekttyper.</span>
+   >* <span class="preview">I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.</span>
 
 1. (Villkorligt) Om du växlade till den nya funktionen som omfattar Workfront Planning väljer du ämnesgrupper och ställer ämnen i kö och fortsätter att uppdatera formuläret.
 
