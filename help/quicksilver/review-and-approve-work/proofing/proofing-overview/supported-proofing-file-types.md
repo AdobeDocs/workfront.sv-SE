@@ -7,9 +7,9 @@ description: Du kan dela och granska olika typer av filer med granskarna, även 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Workfront har följande begränsningar:
 * MAC - MacPaint
 * MIF - MapInfo Interchange
 * MNG - Multipel nätverksgrafik
-* MO:DCA - blandat objekt: Dokumentinnehållsarkitektur
+* MO:DCA - Blandat objekt: Dokumentinnehållsarkitektur
 * MSP - Microsoft Paint
 * MRC - LEAD Mixed Raster Content
 * MRC - T.44 Blandat rasterinnehåll
@@ -133,6 +133,12 @@ Workfront har följande begränsningar:
 * PNM - Portable Bitmap Utilities
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint-presentation
+
+  >[!NOTE]
+  >
+  >Det finns ett känt fel med PowerPoint-presentationsfiler som inte kan överföras just nu. Om du råkar ut för det här problemet konverterar du filen till PDF och överför PDF istället. Mer information finns i [Korrektur: Det går inte att generera ett korrektur från en PowerPoint-fil](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+
+
 * PPTX - PowerPoint-presentation 2007 PS - PostScript-fil
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
