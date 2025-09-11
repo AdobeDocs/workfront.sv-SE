@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Den här sidan beskriver administratörsförbättringar som gjorts i den fjärde utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Administratörsvy för nya anslagstavlor
+
+>[!NOTE]
+>
+>* Förhandsgranska: 11 september 2025
+>* Production fast release: 15 oktober 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+I vyn för styrelsemedlemmar finns en lista över alla anslagstavlor på ditt konto som systemadministratörer kan använda för att få en snabb ögonblicksbild av den övergripande informationen för alla anslagstavlor, inklusive när de senast uppdaterades, hur många kort var och en av dem har, med mera.
+
+Mer information finns i [Hantera administratörsvyn för anslagstavlor](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## Aktivera AI Beta-funktioner för er organisation
 

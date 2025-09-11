@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: d0fbeb7b04d2bf632e04e1764a3ffff9abcfb231
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,45 @@ To make it easier to find the request form you're looking for in Workfront Plann
 Previously, request forms were located only on the object for which they were created.
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Ny informationsruta visas när du ändrar eller tar bort fält
+
+>[!NOTE]
+>
+>* Förhandsgranska: 11 september 2025
+>* Production fast release: 15 oktober 2025
+>* Produktion: 16 oktober 2025
+
+När du uppdaterar ett formelfält eller ett fält som kan påverka det visas ett varningsmeddelande om hur ändringen påverkar dig. Varningen visas i följande fall:
+
+* När du uppdaterar ett formelfält (exklusive ändringar av namn och beskrivning) när det fältet har beroende formelfält eller uppslagsfält. Aviseringen visar de beroende fälten och frågar om du vill fortsätta.
+
+* När du tar bort ett fält som används i ett formeluttryck eller som ett uppslagsfält. Varningen visar de beroende formeln och sökfälten och frågar om du vill fortsätta med borttagningen.
+
+Mer information finns i [Översikt över formelfält](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Integrering mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>Förhandsgranska: 11 september 2025
+>>Produktion för alla kunder: 11 september 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
+
+Om er organisation använder både Adobe Workfront Planning och Adobe GenStudio for Performance Marketing kanske ni vill definiera mer detaljerade marknadsföringskoncept som Campaigns, Products och Personas än vad GenStudio stöder som standard.
+
+Tack vare den nya integreringen mellan GenStudio for Performance Marketing och Workfront Planning kan ni nu hantera de kampanjer, produkter, personuppgifter, aktiveringar, kanaler och regioner som används i GenStudio for Performance Marketing i Workfront Planning. Tack vare integreringen kan du även konfigurera GenStudio for Performance Marketing så att det refererar till befintliga posttyper från Workfront Planning, vilket skapar ett mer uppkopplat och enhetligt arbetsflöde för marknadsföring.
+
+GenStudio for Performance Marketing arbetsyta är nu tillgänglig i Adobe Workfront Planning när ditt företag har köpt båda produkterna.
+Tack vare integrationen mellan Workfront Planning och GenStudio for Performance Marketing kan du
+
+* Visa arbetsytan i GenStudio i Workfront Planning.
+* Modifiera kampanjer, produkter, profiler och aktiveringar i GenStudio for Performance Marketing och få uppdateringar i realtid av samma information i Workfront Planning.
+* Ändra kampanjer, produkter, personligheter och aktiveringar i Workfront Planning och ha realtid
+* Undvik dubblettinmatning.
+* Bibehåll enhetligheten i planeringen och aktiveringen.
+
+Mer information finns i [Kom igång med integreringen mellan Adobe Workfront Planning och Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 ## Ändra storlek på poster i kalenderns månadsvy
 
@@ -184,8 +223,8 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 >[!NOTE]
 >
 >Förhandsgranska: 7 augusti 2025
->&#x200B;>Produktion för alla kunder :August, 2025
->&#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>>Produktion för alla kunder :August, 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till nya uttryck med följande användning i formelfält i Workfront Planning och i beräknade anpassade fält i Workfront:
 
@@ -200,8 +239,8 @@ Mer information finns i [Översikt över beräknade datauttryck](/help/quicksilv
 >[!NOTE]
 >
 >Förhandsgranska: 31 juli 2025
->&#x200B;>Produktion för alla kunder: 31 juli 2025
->&#x200B;>[!BADGE Frånschemat &#x200B;]{type=Neutral}
+>>Produktion för alla kunder: 31 juli 2025
+>>[!BADGE Frånschemat ]{type=Neutral}
 
 Vi har lagt till knappen Maximera för att förstora formelfältet när du skapar eller redigerar fältet i en posttabellvy. Dessutom har vi lagt till en Minimera-knapp i det nya förstorade fönstret för att återgå till rutan för att skapa fält.
 
@@ -250,8 +289,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Nu kan du skapa poster i tidslinjevyn för en posttyp genom att dubbelklicka någonstans på tidslinjen.
 
@@ -266,8 +305,8 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Du kan nu dela en posttyp på menyn Mer på posttypskortet på arbetsytesidan. Före den här förbättringen var alternativet Dela bara tillgängligt på posttypssidan.
 
@@ -278,8 +317,8 @@ Mer information finns i [Dela posttyper](/help/quicksilver/planning/access/share
 >[!NOTE]
 >
 >Förhandsgranska: 24 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Nu kan du visa alla Workfront Planning-vyer (tabell, tidslinje och kalender) i helskärmsläge. Visningsfunktionen bevaras och du kan även ändra vyn i helskärmsläge.
 
@@ -292,8 +331,8 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 >[!NOTE]
 >
 >Förhandsgranska: 22 juli 2025
->&#x200B;>Production for fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production for fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 För att göra godkännandeprocessen mer flexibel har vi lagt till möjligheten att lägga till team som godkännare i planeringsförfrågningsformulär. Nu kan du ange och välja teamnamn när du ställer in godkännare. Alla teammedlemmar kan fatta ett beslut som räknas som ett godkännandebeslut för hela teamet.
 
@@ -306,8 +345,8 @@ Mer information finns i [Lägga till ett godkännande i ett begärandeformulär 
 >[!NOTE]
 >
 >Förhandsgranska: 17 juli 2025
->&#x200B;>Production for fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production for fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 Vi introducerar följande fält för att samla in godkännandeinformation för poster som skapats genom att skicka en begäran med ett godkännande:
 
@@ -321,8 +360,8 @@ Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-f
 >[!NOTE]
 >
 >Förhandsgranska: 10 juli 2025
->&#x200B;>Production fast release: 14 augusti 2025
->&#x200B;>Produktion för alla kunder: 16 oktober 2025
+>>Production fast release: 14 augusti 2025
+>>Produktion för alla kunder: 16 oktober 2025
 
 
 När du har använt grupperingar i en tabellvy fylls de fält som är kopplade till de grupperingar du lägger till posten i automatiskt i när du lägger till en post i tabellen.

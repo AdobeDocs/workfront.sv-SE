@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Den här sidan beskriver projektförbättringar som gjorts i den fjärde utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Ny Project Health-betaversion
+
+>[!NOTE]
+>
+>* Förhandsgranska: 11 september 2025
+>* Produktion för alla kunder: 11 september 2025
+
+Den nya funktionen Project Health använder funktionerna i AI Assistant för att omedelbart ge dig en bild av hur dina projekt fungerar och vilka områden som behöver uppmärksammas.
+
+AI Assistant kan generera en Project Health-utvärdering för ett projekt, ett program och flera projekt.
+
+Mer information finns i [Project Health - översikt](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+Den här funktionen är för närvarande i betaversion.
 
 <!--
 ## Create project intake forms in Workfront
