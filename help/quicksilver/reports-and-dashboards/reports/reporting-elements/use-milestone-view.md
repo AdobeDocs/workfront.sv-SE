@@ -240,7 +240,7 @@ Så här konfigurerar du om projektstatusikoner och procent slutförda projekt s
 1. Klicka på listrutan **Visa** och sedan på **Milstolpe**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> Klicka på **Alternativ** i det övre högra hörnet i vyn Milstolpe.
+1. &#x200B;<!--In the Production environment,--> Klicka på **Alternativ** i det övre högra hörnet i vyn Milstolpe.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Så här justerar du procentandelen färdigt för en aktivitet i vyn Milstolpe:
 
 1. (Villkorligt) Om procentsatser för slutförande inte visas för närvarande i vyn Milstolpe aktiverar du visningen av uppgifter och projekt för Procent färdigt enligt beskrivningen i avsnittet [Konfigurera vilken information som ska visas i vyn Milstolpe](#configure-what-information-displays-in-the-milestone-view) i den här artikeln.
 
-1. <!--In the Production environment,--> Klicka på procentsatsen för slutförande under en uppgift, ange en ny procentsats och tryck sedan på Retur.
+1. &#x200B;<!--In the Production environment,--> Klicka på procentsatsen för slutförande under en uppgift, ange en ny procentsats och tryck sedan på Retur.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

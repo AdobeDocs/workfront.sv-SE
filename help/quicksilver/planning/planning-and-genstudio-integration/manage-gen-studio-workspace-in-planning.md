@@ -44,7 +44,7 @@ Allmän information om integrationen mellan GenStudio och Workfront Planning fin
 >[!IMPORTANT]
 >
 >Stegen som beskrivs i den här artikeln visar hur du kan uppdatera arbetsytan i GenStudio från Workfront Planning när du har behörigheten Hantera.
->> Alla funktioner är inte tillgängliga när du har Contribute-behörighet för GenStudio-arbetsytan.
+>&#x200B;> Alla funktioner är inte tillgängliga när du har Contribute-behörighet för GenStudio-arbetsytan.
 >
 >Om ditt företag har flera instanser av Workfront får alla användare Contribute-behörigheter på GenStudio-arbetsytan i Workfront Planning.
 
