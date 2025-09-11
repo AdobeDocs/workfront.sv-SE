@@ -8,16 +8,16 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: fec9f895113600ff6ccc795a94019a473793a226
+source-git-commit: 49a8f32b45aaf9de0274617714ad7cd45b4e7e74
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
 # Workfront Data Connect - översikt
 
-Workfront Data Connect ger oöverträffad åtkomst till Workfront-data med hjälp av Snowflake-teknik, vilket gör att du kan besvara affärskritiska frågor och mäta värdet av dina processer. Tack vare den här funktionen kan företagskunder förhöra sina data med datavisualiseringsverktyg direkt från Workfront datalager eller exportera Workfront-data till ett kundägt datalager.
+Workfront Data Connect ger tillgång till Workfront-data med hjälp av Snowflake-teknik, vilket gör att ni kan besvara affärskritiska frågor och mäta värdet av era processer. Tack vare den här funktionen kan företagskunder analysera sina data med datavisualiseringsverktyg direkt från Workfront datalager eller exportera Workfront-data till ett kundägt datalager.
 
 Prenumeranter kan koppla sitt valfria affärsinformationsverktyg (Tableau, Power BI, Domo, Looker, etc.) till Data Connect för att skapa datavisualiseringar med följande typer av data:
 
@@ -29,7 +29,7 @@ Prenumeranter kan koppla sitt valfria affärsinformationsverktyg (Tableau, Power
 
 Mer information om Data Connect finns i följande artiklar:
 
-* [Skapa ett läsarkonto eller en anslutning för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Skapa ett läsarkonto eller en anslutning till Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Upprätta en anslutning till Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect-dataordlista](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Exempel på Workfront Data Connect-frågor](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
