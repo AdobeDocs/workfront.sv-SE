@@ -6,9 +6,9 @@ description: Din [!DNL Adobe Workfront] profil innehåller information om dig sj
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -249,19 +249,16 @@ Du kan ändra något av följande i det här underavsnittet:
    <td role="rowheader"><strong>[!UICONTROL Change password]</strong></td> 
    <td>Återställ lösenordet i det här avsnittet. Mer information om hur du återställer lösenordet finns i <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Återställ lösenordet</a>.</td> 
   </tr> 
- </tbody> 
-</table>
-
-<!--
   <tr> 
-   <td role="rowheader"><strong>(Conditional) &lt;SSO Configuration> [!UICONTROL Username]</strong></td> 
-   <td> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront], your SSO Username displays in this field. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</td> 
+   <td role="rowheader"><strong>(Villkorlig) &lt;SSO-konfiguration&gt; [!UICONTROL Username]</strong></td> 
+   <td> Om din [!DNL Workfront]-administratör har aktiverat en SSO-integrering med [!DNL Workfront] visas ditt SSO-användarnamn i det här fältet. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Conditional) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
-   <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Workfront]: article index</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
+   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
+   <td> <p> Om administratören för [!DNL Workfront] aktiverade en SSO-integrering med [!DNL Workfront] och har uppdaterat användare för enkel inloggning, är det här fältet markerat som standard. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste du logga in på [!DNL Workfront] med dina SSO-autentiseringsuppgifter. Om du avmarkerar den kan du logga in på [!DNL Workfront] med dina [!DNL Workfront]-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar [!DNL Workfront] med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Enkel inloggning i [!DNL Workfront]: artikelindex</a>. Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> </td> 
   </tr>
--->
+ </tbody> 
+</table>
 
 #### [!UICONTROL Job info]
 
@@ -344,6 +341,9 @@ Du kan ändra något av följande i det här underavsnittet:
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Ange önskat språk här. Detta styr vilket språk, datum och nummerformat som används i utgående e-postmeddelanden.</p>
    <p><strong>Obs!</strong> När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Mer information finns i <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändra Adobe Experience Cloud-språk</a> i artikeln <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Språk som stöds i Adobe Workfront</a>.</p></td> 
+  </tr>
+  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
+  <td>Välj det här alternativet om du vill att statusen för det arbete du tilldelar dig själv automatiskt ska anges till Pågår i stället för Nytt.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Villkorligt) Generera korrektur automatiskt när dokument överförs</strong></td> 
