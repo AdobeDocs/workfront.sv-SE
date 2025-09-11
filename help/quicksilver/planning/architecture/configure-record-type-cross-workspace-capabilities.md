@@ -4,9 +4,9 @@ description: Du kan aktivera en posttyp som antingen ska läggas till på en ann
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ En arbetsytehanterare kan lägga till en centraliserad posttyp på en arbetsyta 
 
 Användarna kan lägga till poster i en centraliserad posttyp från vilken arbetsyta som helst som har Contribute-behörigheter och där den centraliserade posttypen läggs till, inklusive den ursprungliga arbetsytan. De kan visa poster från en arbetsyta som de bara har behörigheten Visa till.
 
-Mer information finns i [Översikt över centraliserade posttyper](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+Mer information finns i [Posttyper för arbetsytan - översikt](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Så här konfigurerar du att lägga till en posttyp som en centraliserad posttyp:
 
@@ -179,7 +179,7 @@ eller
      Det här fältet är skrivskyddat och kan inte tas bort.
 1. (Valfritt) Gå till en annan arbetsyta och skapa en posttyp med en befintlig posttyp. Välj den posttyp som du aktiverade i stegen ovan.
 
-   Mer information finns i [Lägga till befintliga posttyper](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+   Mer information finns i [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Konfigurera posttyper som kan anslutas
 

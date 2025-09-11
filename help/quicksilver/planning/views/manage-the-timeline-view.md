@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 0%
@@ -187,12 +187,6 @@ Så här hanterar du en tidslinjevy:
 
    1. <span class="preview">(Valfritt) Klicka på ikonen **Helskärm** ![Öppna helskärmsikonen](assets/open-full-screen-icon.png) om du vill öppna vyn i helskärmsläge och sedan på ikonen **Avsluta helskärm** ![Avsluta helskärmsikonen](assets/exit-full-screen-icon.png) eller Esc om du vill avsluta helskärmsläget.  </span>
 
-1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
-   * [Filter](#add-filters)
-   * [Gruppering](#add-grouping)
-   * [Inställningar](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
 1. (Valfritt) Klicka på **Uppdelning** om du vill visa anslutna poster på tidslinjen.
 
    Mer information finns i avsnittet [Använd fördelningsfunktionen för att visa anslutna poster i tidslinjevyn](#break-down-connected-records-in-the-timeline-view) i den här artikeln.
@@ -209,7 +203,11 @@ Så här hanterar du en tidslinjevy:
    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
-
+1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
+   * [Filter](#add-filters)
+   * [Gruppering](#add-grouping)
+   * [Inställningar](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Lägg till filter
 

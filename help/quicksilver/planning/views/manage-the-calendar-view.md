@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1874'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,6 @@ Tänk på följande:
    * När start- eller slutdatumet saknar värde visas posten som en endagshändelse
    * När startdatumet är efter slutdatumet visas inte posten i kalendern.
 
-<div class="preview">
-
-* Du kan skapa och redigera poster i kalendervyn. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
-* Du kan ändra storlek på posternas fält i kalenderns månadsvy genom att klicka och sedan dra och släppa deras marginaler på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Så här hanterar du en kalendervy:
 
 1. Gå till den posttypssida som du vill visa kalendern för.
@@ -141,6 +134,25 @@ Så här hanterar du en kalendervy:
          * Poster som varar en dag eller mindre visas i den nedre halvan av kalendervyn. Om du valde att visa timmen för Start- och slutdatum visas posten vid lämplig tidpunkt under dagen då den inträffar.
 
 1. <span class="preview">(Valfritt) Klicka på ikonen **Helskärm** ![Öppna helskärmsikonen](assets/open-full-screen-icon.png) om du vill öppna vyn i helskärmsläge och sedan på ikonen **Avsluta helskärm** ![Avsluta helskärmsikonen](assets/exit-full-screen-icon.png) eller Esc om du vill avsluta helskärmsläget.  </span>
+
+1. <span class="preview">Gör något av följande om du vill skapa poster i kalendervyn eller redigera deras datum:</span>
+
+   * <span class="preview">Dubbelklicka var som helst i kalendern för att skapa en post. </span>
+
+     <span class="preview">Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Klicka i kalenderns månadsvy på slutet av ett postfält och dra och släpp det sedan på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+
+     <span class="preview">Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
+    Scenario 1: drag and drop in the calendar weekly view: 
+    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 2: drag and drop in the calendar monthly view: 
+    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)

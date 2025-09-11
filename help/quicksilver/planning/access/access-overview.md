@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,9 @@ Du måste ha följande åtkomst för att få åtkomst till Workfront Planning:
 <li>Prime</li>
 <li>Ultimate</li></ul>
 <p>Workfront Planning är inte tillgängligt för äldre Workfront-paket</p>
-<ul><li><p>Planeringspaket</p></li></ul>
+<p>Något av följande Planning-paket:</p>
+<ul><li><p>Workfront Planning</p></li>
+<li><p>Workfront Planning Plus</p></li></ul>
 <p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p>
    </td>
 <tr>

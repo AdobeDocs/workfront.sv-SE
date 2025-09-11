@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '13494'
+source-wordcount: '13497'
 ht-degree: 0%
 
 ---
@@ -2078,9 +2078,9 @@ ht-degree: 0%
       * [Översikt över posttyper](planning/architecture/overview-of-record-types.md)
       * [Skapa posttyper](planning/architecture/create-record-types.md)
       * [Skapa posttyper genom att importera information från en CSV- eller Excel-fil](planning/architecture/import-file-to-create-record-types.md)
-      * [Översikt över centraliserade posttyper](planning/architecture/centralized-record-types-overview.md)
+      * [Posttyper för flera arbetsytor - översikt](planning/architecture/cross-workspace-record-types-overview.md)
       * [Konfigurera funktioner för olika arbetsytor för posttyper](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-      * [Lägg till befintliga posttyper](planning/architecture/add-cross-workspace-record-types.md)
+      * [Lägga till befintliga posttyper från en annan arbetsyta](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [Översikt över posttyper för anslutning](planning/architecture/connect-record-types-overview.md)
       * [Koppla posttyper](planning/architecture/connect-record-types.md)
       * [Redigera posttyper](planning/architecture/edit-record-types.md)
