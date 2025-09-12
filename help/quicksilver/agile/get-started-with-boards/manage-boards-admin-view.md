@@ -5,9 +5,9 @@ title: Hantera administratörsvyn för anslagstavlor
 description: I vyn för styrelsemedlemmar finns en lista över alla anslagstavlor på ditt konto som systemadministratörer kan använda för att få en snabb ögonblicksbild av den övergripande informationen om anslagstavlor.
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,13 @@ I det här området kan du utföra följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Medarbetare eller högre </p>
-        <p> Begäran eller senare </p></td> 
+   <td> <p>Standard</p>
+        <p> Plan </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Systemadministratör </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
