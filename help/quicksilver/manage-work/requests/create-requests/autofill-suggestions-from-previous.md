@@ -1,18 +1,18 @@
 ---
-title: Fyll i en begäran automatiskt från tidigare data
+title: Fyll i en begäran automatiskt med data från tidigare begäranden
 content-type: reference
-description: Du kan använda AI för att autofylla begärandefält med data från tidigare begäranden.
+description: Du kan använda AI för att fylla i begärandefält automatiskt med data från tidigare begäranden.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Fyll i en begäran automatiskt från tidigare data
+# Fyll i en begäran automatiskt med data från tidigare begäranden
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 AI kan hjälpa dig att fylla i begärandefält automatiskt baserat på tidigare begäranden. Du kan godkänna eller avvisa dessa förslag innan du skickar in begäran.
 
-Autofyll skriver inte över fält som du redan har fyllt i.
+Fyll i automatiskt skriver inte över fält som du redan har fyllt i.
 
 Användarna får inga förslag på data som de annars inte har tillgång till.
 
@@ -65,7 +65,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Få förslag när du fyller i formulär
 
-Autofyll kan föreslå fältvärden medan du fyller i formuläret. När du anger värden i begärandefälten jämför Workfront dessa värden med tidigare begäranden. Om det angivna värdet har en nära koppling till andra fältvärden i liknande sammanhang i tidigare begäranden föreslår Workfront dessa värden.
+Komplettera automatiskt kan föreslå fältvärden medan du fyller i formuläret. När du anger värden i begärandefälten jämför Workfront dessa värden med tidigare begäranden. Om det angivna värdet har en nära koppling till andra fältvärden i liknande sammanhang i tidigare begäranden föreslår Workfront dessa värden.
 
 Om t.ex. en klinik alltid använder samma faktureringskod föreslår Workfront att faktureringskoden anges i rätt fält när det kliniska namnet anges.
 

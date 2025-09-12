@@ -1,18 +1,18 @@
 ---
-title: Autofyll en begäran med uppmaningar eller dokument
+title: Använd AI-formulärfyllning för att fylla i en begäran med hjälp av uppmaningar eller dokument
 content-type: reference
 description: Du kan använda AI för att autofylla begärandefält genom att ange en uppmaning eller genom att ange ett dokument.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
+source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
 
-# Autofyll en begäran med uppmaningar eller dokument
+# Använd AI-formulärfyllning för att fylla i en begäran med hjälp av uppmaningar eller dokument
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >* Om du vill använda den här funktionen måste din organisation uppfylla kraven för att kunna använda Workfront AI Assistant. Mer information finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-AI kan hjälpa dig att fylla i begärandefält automatiskt baserat på en uppmaning du anger. Det kan även fylla i fält som är baserade på text som e-post är överförda dokument. Du kan godkänna eller avvisa dessa förslag innan du skickar in begäran.
+AI-formulärfyllning kan hjälpa dig att fylla i begärandefält automatiskt baserat på en uppmaning du anger. Det kan även fylla i fält som är baserade på text som e-post är överförda dokument. Du kan godkänna eller avvisa dessa förslag innan du skickar in begäran.
 
-Autofyll skriver inte över fält som du redan har fyllt i.
+AI-formulärfyllning skriver inte över fält som du redan har fyllt i.
 
 Användarna får inga förslag på data som de annars inte har tillgång till.
 
@@ -67,7 +67,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Förutsättningar
 
-Om du vill fylla i begäranden automatiskt med hjälp av en prompt eller ett dokument måste **alla** av följande gälla:
+Om du vill använda AI-formulärfyllning för att fylla i begäranden med hjälp av en prompt eller ett dokument måste **alla** av följande gälla:
 
 * Din organisation måste ha migrerat till Adobe IMS (Identity Management System)
 * Adobe Unified Experience måste aktiveras
@@ -81,11 +81,11 @@ Om du vill fylla i begäranden automatiskt med hjälp av en prompt eller ett dok
 
 ## Få förslag från en textfråga
 
-Autofyll kan föreslå fältvärden baserade på text som e-post. Du klistrar in i ett textblock och Workfront bearbetar texten för att föreslå fältvärden som baseras på texten.
+AI-formulärfyllning kan föreslå fältvärden baserade på text som e-post. Du klistrar in i ett textblock och Workfront bearbetar texten för att föreslå fältvärden som baseras på texten.
 
-Om e-postmeddelandet t.ex. innehåller&quot;Detta förfaller den 1 juni&quot; och formuläret innehåller ett fält för förfallodatum, föreslår Workfront 1 juni för det fältvärdet.
+Om e-postmeddelandet t.ex. innehåller&quot;Detta förfaller den 1 juni&quot; och formuläret innehåller ett fält för förfallodatum, föreslår AI-formulärfyllning 1 juni för det fältvärdet.
 
-Den här typen av förslag kontrollerar även tidigare begäranden om liknande sammanhang. Om uppmaningen t.ex. anger att begäran gäller en viss klient kan Workfront automatiskt hitta och ange faktureringsadressen för den klienten baserat på tidigare begäranden.
+När du fyller i ett formulär kontrollerar Workfront även tidigare begäranden om liknande sammanhang. Om uppmaningen t.ex. anger att begäran gäller en viss klient kan Workfront automatiskt hitta och ange faktureringsadressen för den klienten baserat på tidigare begäranden.
 
 Du kan klistra in text som ska användas i hela formuläret eller i ett enskilt avsnitt i formuläret.
 
@@ -263,11 +263,11 @@ Workfront-fälttyper påverkar om ett visst fält kan fyllas i automatiskt.
 
 #### Andra bästa metoder
 
-Tänk på följande när du överför ett dokument för automatisk ifyllning av begäran:
+Tänk på följande när du överför ett dokument till AI-formulärfyllning:
 
-* Autofyll är optimerat för det latinska alfabetet.
+* AI-formulärfyllning är optimerad för det latinska alfabetet.
 * Vi rekommenderar att du använder en textstorlek på 8 punkter eller större.
-* Autofyll kan ha problem med bilder i dokumentet, t.ex. roterade eller förvrängda bilder, diagram och räkning eller med spatiala orsaker på objekt i bilder.
+* AI-formulärfyllning kan ha problem med bilder i dokumentet, t.ex. roterade eller förvrängda bilder, diagram och räkning eller med spatiala orsaker på objekt i bilder.
 * Som alltid rekommenderar vi att du kontrollerar resultatet innan du skickar in begäran.
 
 ### Överföra ett dokument för att autofylla en begäran
