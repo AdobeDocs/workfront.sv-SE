@@ -3,9 +3,9 @@ title: Posttyper för flera arbetsytor - översikt
 description: Centraliserade posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ I Adobe Workfront Planning kan du aktivera funktioner för flera arbetsytor för
 Följande är funktioner för olika arbetsytor för posttyper:
 
 * Du kan ange en posttyp som centraliserad. Användarna kan lägga till centraliserade posttyper i andra arbetsytor som de kan hantera.
+
+  >[!IMPORTANT]
+  >
+  >Du måste ha ett Workfront Planning Plus-paket förutom ett Workfront-paket för att kunna använda centraliserade posttyper.
+  >
+  >Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront.
+
 * Du kan ange en posttyp som anslutningsbar. Användare kan ansluta till den här posttypen från andra arbetsytor.
 
 I den här artikeln finns en översikt över posttyper för arbetsytor. Mer information om hur du definierar en posttyps funktioner för arbetsytan mellan olika arbetsytor finns i [Konfigurera funktioner för arbetsytor mellan arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).

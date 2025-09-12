@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Vyn tas bort för alla användare som har behörighet att komma åt den. Det gå
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -88,7 +88,7 @@ Vyn tas bort för alla användare som har behörighet att komma åt den. Det gå
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Ta bort en postvy
 
@@ -112,6 +112,10 @@ Vyn tas bort för alla användare som har behörighet att komma åt den. Det gå
    >
    >Du kan behöva klicka på **Mer** till höger om den sista fliken för att hitta vyn som du vill ta bort.
 
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
+    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
 
 1. Bekräfta genom att klicka på **Ta bort**. <!--ensure there is not another saving step here?!-->
 

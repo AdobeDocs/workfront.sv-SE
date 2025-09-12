@@ -4,9 +4,9 @@ description: Du kan aktivera en posttyp som antingen ska läggas till på en ann
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -83,11 +83,11 @@ Mer information finns i följande artiklar:
 <ul><li><p>Alla Workfront-paket</p></li>
 Och
 <li><p>Planering Plus-paket</p></li></ul>
-Eller:
-<ul><li><p>Alla arbetsflödespaket</p> </li>
-Och
-<li><p>Planera Prime- eller Ultimate-paket</p></li></ul>
-<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront. </p> 
    </td>
 
 <tr> 

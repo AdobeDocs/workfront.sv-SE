@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 0%
@@ -193,7 +193,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
     1. Depending on which environment you use, do the following: 
     * In the Production environment, click the **+View** tab. 
     * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-
+   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
 1. Välj bland följande typer av vyer:
 
    * Tabell
