@@ -4,7 +4,7 @@ description: Du kan använda en mallfil för att skapa dina tariffkort i Excel o
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: b989a542602d6b7fd95b34f8b53d3f317e3f7644
+source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
