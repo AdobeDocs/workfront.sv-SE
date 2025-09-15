@@ -136,7 +136,7 @@ Workfront har följande begränsningar:
 
   >[!NOTE]
   >
-  >Det finns ett känt fel med PowerPoint-presentationsfiler som inte kan överföras just nu. Om du råkar ut för det här problemet konverterar du filen till PDF och överför PDF istället. Mer information finns i [Korrektur: Det går inte att generera ett korrektur från en PowerPoint-fil](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Det finns ett känt fel med PowerPoint-presentationsfiler som inte kan överföras just nu. Om du råkar ut för det här problemet konverterar du filen till PDF och överför PDF istället. Mer information finns i [Korrektur: Det går inte att generera ett korrektur från en PowerPoint-fil](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
 
 * PPTX - PowerPoint-presentation 2007 PS - PostScript-fil
