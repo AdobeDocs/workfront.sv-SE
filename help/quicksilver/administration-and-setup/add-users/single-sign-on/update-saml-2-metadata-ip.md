@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
 
 # Uppdatera SAML 2.0-metadata hos identitetsleverantören
 
-{{important-admin-console-onboard}}
+>[!IMPORTANT]
+>
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Adobe Admin Console.
+>
+>Mer information om hur du mappar användarattribut i organisationer som har anslutit till Adobe Admin Console finns i [Mappa användarattribut i den enhetliga Adobe-upplevelsen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) i artikeln Mappa användarattribut.
 
 I följande avsnitt beskrivs hur du uppdaterar SAML 2.0-metadata (Security Assertion Markup Language) när du använder Active Directory Federation Services (ADFS) som identitetsleverantör.
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,13 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Adobe Admin Console.
+>
+>Mer information om hur du mappar användarattribut i organisationer som har anslutit till Adobe Admin Console finns i [Mappa användarattribut i den enhetliga Adobe-upplevelsen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) i artikeln Mappa användarattribut.
 
 Som Adobe Workfront-administratör kan du konfigurera Workfront webb- och mobilprogram så att de integreras med en SAML 2.0-lösning för enkel inloggning (SSO).
 

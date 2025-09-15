@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,11 @@ Mer information om hur du skapar begäranden finns i:
 >* Production fast release: 11 september 2025
 >* Produktion för alla kunder: 16 oktober 2025
 
-För att skapa en bättre användarupplevelse vid förfrågningar i Workfront och Workfront Planning har vi uppdaterat den begärande upplevelsen. Nu kan du:
+För att skapa en bättre användarupplevelse vid förfrågningar i Workfront och Workfront Planning har vi uppdaterat den begärande upplevelsen.
+
+Om du vill använda den nya begärande upplevelsen aktiverar du alternativet Använd ny upplevelse i det övre högra hörnet av skärmen i området Förfrågningar.
+
+I den nya upplevelsen kan du:
 
 * Visa Workfront- och Workfront Planning-begäranden i en enda lista.
 * Filtrera skickade begäranden baserat på villkor som du anger.
