@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
+source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4396'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ En lista över objekt, giltiga ObjCodes-fält och objektfält finns på  [API E
 >
 >I Workfront API är ett anpassat formulär ett `Category`-objekt och ett anpassat fält är ett `Parameter`-objekt.
 
-### Operationer
+### Användning
 
 Objekten ändras genom att en HTTP-begäran skickas till deras unika URI. Den åtgärd som ska utföras anges av HTTP-metoden.
 
@@ -69,7 +69,7 @@ Standardmetoderna för HTTP motsvarar följande åtgärder:
 * **DELETE** - Tar bort ett objekt
 
 För att undvika klientbrister eller protokolllängdsbegränsningar kan parametern method användas för att åsidosätta HTTP-beteendet. En GET-åtgärd kan till exempel implementeras genom följande URI:
-<pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
+<pre>GET /attask/api/v15.0/project?id=4c78..54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
 ### Svar
 
@@ -86,10 +86,10 @@ returnerar ett JSON-svar som liknar följande:
 
 >[!NOTE]
 >
->När du kör en GET-begäran via webbläsarens adressfält behöver du inte inkludera sessions-ID som en del av begäran.
+>När du kör en GET-begäran via webbläsarens adressfält behöver du inte inkludera sessions-ID:t som en del av begäran.
 
 Särskild säkerhet har lagts till runt förfrågningar från PUT, POST och DELETE. Alla förfrågningar som resulterar i att data skrivs till eller tas bort från databasen kan bara köras om **sessionID=abc123** ingår i URI:n. I följande exempel visas hur detta skulle söka efter en DELETE-begäran:
-<pre>GET /attask/api/v15.0/project?id=4c78..54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78..54d0?method=delete&amp;sessionID=abc 123</pre>
+<pre>GET /attask/api/v15.0/project?id=4c78..54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78..54d0?method=delete&amp;sessionID=abc11 23</pre>
 
 ### Autentisering
 
@@ -110,7 +110,7 @@ SessionID: abc1234
 
 #### Cookie-baserad autentisering
 
-API:t använder samma cookie-baserade autentisering som används av webbgränssnittet i systemet. Om en klient loggar in på Workfront med webbgränssnittet används samma autentisering för alla AJAX anrop som görs i samma webbläsare.
+API:t använder samma cookie-baserade autentisering som används av webbgränssnittet i systemet. Om en kund loggar in på Workfront med webbgränssnittet används samma autentisering för alla AJAX-anrop som görs i samma webbläsare.
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ API:t använder samma cookie-baserade autentisering som används av webbgränssn
 
 >[!NOTE]
 >
->Det förfarande som beskrivs i detta avsnitt gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Det går inte att logga in på Workfront via Workfront API om din organisation har anslutit sig till Adobe Business Platform.
+>Den procedur som beskrivs i detta avsnitt gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Det går inte att logga in på Workfront via Workfront API om din organisation har anslutit sig till Adobe Business Platform.
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -201,14 +201,14 @@ Logga ut en användare:
 1. Ändra URL:en till /attask/api/v15.0/project/search.\
    Observera att sidan inte kan hittas.
 1. Ersätt ordet *search* med login?username=admin&amp;password=user och ersätt ditt användarnamn och lösenord för *admin* och *user\
-   *Den här sessionen lagras i webbläsaren som en cookie och behöver inte anges om i varje efterföljande begäran om GET.
+   *Den här sessionen lagras i webbläsaren som en cookie och behöver inte anges på nytt i varje efterföljande begäran från GET.
 
 1. Ändra URL:en tillbaka till **/attask/api/v15.0/project/search**.
 1. Lägg märke till det svar som lämnats.
 
-Du måste alltid inkludera det sessions-ID som anges efter inloggning när du gör PUT, POST och DELETE.
+Du måste alltid inkludera det sessions-ID som anges efter inloggning när du utför förfrågningar från PUT, POST och DELETE.
 
-## GET
+## GET Behavior
 
 Använd HTTP GET-metoden för att hämta ett eller flera objekt och för att köra rapporter.
 
@@ -295,7 +295,7 @@ Om du till exempel vill filtrera efter
 * Uppgifter som har en överordnad aktivitet med namnet &quot;Slutlig aktivitet&quot;
 
 Använd sedan följande API-anrop med dess flera OR-satser:
-<pre>GET /attask/api/v15.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:portfolio:name=FixedAssets<br>&amp;OR:1:portfolio:name_Mod=eq<br>&amp;OR:1:tilldeladTill:name=Steve<br>&amp;OR:1:tilldeladTill:name_Mod=cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_Mod=eq
+<pre>GET /attask/api/v15.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:portfolio:name=FixedAssets<br>&amp;OR:1:portfolio:name_Mod=eq<br>&amp;OR:1:tilldeladTill:name=Steve<br>&amp;OR:1:tilldeladTill:name_Mod=Make cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_Mod=eq
 </pre>
 
 #### Använda filterparametrar
@@ -318,7 +318,7 @@ Som standard returneras bara den mest använda delmängden av fält när du häm
 
 Du kan använda fältparametern request för att ange att en kommaavgränsad lista med specifika fält returneras. Till exempel begäran
 <pre>/attask/api/v15.0/task/search?fields=planningStartDate,priority</pre>returnerar ett svar som liknar följande:
-<pre>{<br>}    "priority": 2,<br>    "name": "first task", <br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>&rbrace;</pre>
+<pre>{<br>}    "priority": 2,<br>    "name": "first task", <br>    "ID": "4c7c08fa000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
 >
@@ -365,10 +365,10 @@ Du kan använda `count` för att returnera antalet resultat som matchar din frå
 
 ### Begär en rapport
 
-Du kan utföra en rapportbegäran där bara sammanställningen av vissa fält är önskvärd med en eller flera grupperingar. Som visas i följande exempel är rapportsyntaxen densamma som syntaxen för SOAP API:
+Du kan utföra en rapportbegäran där bara sammanställningen av vissa fält är önskvärd med en eller flera grupperingar. Som framgår av följande exempel är rapportsyntaxen densamma som syntaxen för SOAP API:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>som returnerar följande resultat
-<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    &rbrace;, <br>     "Andra projektet": <br>        "sum_hours": 30 <br>    &rbrace; <br></pre>Om du lägger till parametern $$ROLLUP=true inkluderas en summa på varje grupperingsnivå:
-<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    &rbrace;, <br>    "Andra projektet": <br>        "sum_hours": 30 <br>    &rbrace;, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
+<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    }, <br>     "Andra projektet": <br>        "sum_hours": 30 <br>    } <br></pre>Om du lägger till parametern $$ROLLUP=true inkluderas en summa på varje grupperingsnivå:
+<pre>{<br>}    "Första projektet": <br>        "sum_hours": 15 <br>    }, <br>    "Andra projektet": <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### Sortering av frågeresultat i API
 
@@ -454,7 +454,7 @@ Om du vill ställa in ett projekt så att det bara delas med en användare med I
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>Så här hämtar du befintliga åtkomstregler:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
-## POST
+## POST-beteende
 
 POST infogar ett nytt objekt. Syntaxen är identisk med PUT, men med några få undantag. Eftersom det nya objektet inte finns än har det inget ID. Därför innehåller URI:n inte ID:t.
 
@@ -475,14 +475,14 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 
 Du kan överföra dokument via följande API-URL:
 <pre>POST /attask/api/v15.0/upload</pre>API förväntar sig att innehållstypen ska vara multipart/form-data. Filens parameternamn måste vara uploadedFile. Servern returnerar följande JSON-data:
-<pre>{<br>}    "handle": "4c7c08fa000002ff924e298ee148df4" <br>&rbrace;</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
-<pre>POST /attask/api/v15.0/document?updates={<br>}    name: aFileName, <br>    handle: abc...123, (handle from the file upload) <br>    docObjCode: PROJ, (eller TASK, OPTASK osv.) <br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>&rbrace;</pre>
+<pre>{<br>}    "handle": "4c7c08fa000002ff924e298ee148df4" <br>}</pre>Du kan använda handtaget och skicka till följande URL när du skapar ett Workfront-dokument:
+<pre>POST /attask/api/v15.0/document?updates=<br>    name: aFileName, <br>    handle: abc...123, (handle from the file upload) <br>    docObjCode: PROJ, (eller TASK, OPTASK osv.) <br>    objID: abc...123,<br>    currentVersion:{version:v1.0,filnamn:aFilnamn}<br>}</pre>
 
-## PUT
+## PUT Behavior
 
 PUT används för att uppdatera ett befintligt objekt.
 
-Svaret för PUT är identiskt med ett GET. I båda fallen returnerar servern objektets nya läge efter uppdateringen. Alla regler som används för att ändra ett svar på en GET-begäran fungerar också med PUT, som att ange ytterligare fält som ska returneras, anpassade data och så vidare.
+Svaret för en PUT är identiskt med ett GET. I båda fallen returnerar servern objektets nya läge efter uppdateringen. Alla regler som används för att ändra ett svar på en GET-begäran fungerar också med PUT, som att ange ytterligare fält som ska returneras, anpassade data och så vidare.
 
 ### Redigera objekt
 
@@ -497,7 +497,7 @@ Som visas i följande exempel kan du använda parametern för uppdateringsbegär
 ### Skapa kapslade uppdateringar
 
 Vissa objekt har privatägda samlingar som kan uppdateras. I följande exempel visas hur du skriver över befintliga tilldelningar för en viss uppgift:
-<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>}    tilldelningar: [ <br>        <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        &rbrace;,{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br>}    tilldelningar: [ <br>        <br>            assignToID: "2222...54d0, <br>            assignPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -515,7 +515,7 @@ Vissa objekt har stöd för ytterligare åtgärder som kan utföras utöver enkl
 
 I följande exempel visas syntaxen för att flytta en uppgift från ett projekt till ett annat:
 <pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8..</pre>Ett exempel för varje åtgärdstyp finns här: (??)
-<pre>PUT /attask/api/v15.0/project/1234/acceptableApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculate<br><br>2&rbrace; PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/revgApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval{4 5}PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed<br><br></pre>Det är bara flyttåtgärden som kräver att du identifierar ytterligare attribut för att ange vilket projekt som arbetsposten ska flyttas till.
+<pre>PUT /attask/api/v15.0/project/1234/acceptableApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculate<br><br>PUT /att. ask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/revcApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Det är bara flyttåtgärden som kräver att du identifierar ytterligare attribut för att ange vilket projekt som arbetsposten ska flyttas till.
 
 Följande är ett exempel på varje åtgärdstyp: 
 <pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
@@ -523,8 +523,8 @@ Följande är ett exempel på varje åtgärdstyp: 
 ### Dela objekt
 
 I följande exempel visas syntaxen för att dela ett projekt med ett team:
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>När du redigerar ett objekt kan du ersätta alla åtkomstregler för ett objekt genom att göra ett PUT och skicka uppdateringar som liknar följande exempel:
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',core Åtgärd:'VIEW'}]}</pre>I följande exempel visas syntaxen för att flytta en uppgift från ett projekt till ett annat:
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>När du redigerar ett objekt kan du ersätta alla åtkomstregler för ett objekt genom att göra en PUT och skicka uppdateringar som liknar följande exempel:
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>I följande exempel visas syntaxen för att flytta en uppgift från ett projekt till ett annat:
 <pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8..</pre>
 
 ## DELETE
@@ -535,10 +535,10 @@ DELETE tar bort ett objekt. I samtliga fall kan URI:n innehålla parametern forc
 ## Massuppdateringar
 
 En satsvisa uppdateringssats uppdaterar flera objekt samtidigt i ett enda API-anrop. Ett API-anrop för att skapa satsvis byggs på liknande sätt som ett vanligt uppdateringsanrop, vilket visas i följande exempel:
-<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Du kan också göra en gruppuppdatering som liknar följande:
-<pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
-<pre>data: [ {<br>}     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>eller <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
+<pre>data: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    namn: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    namn: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Du kan också göra en gruppuppdatering som liknar följande:
+<pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx", "name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>vilket ger en avkastning som liknar följande:
+<pre>data: [ {<br>}     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     prioritet: 0,<br>     selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    namn: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    prioritet: 0,<br>    selectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Om du vill att alla åtgärder ska utföras i samma transaktion lägger du till"atomic=true" i ditt batch-API-anrop som en request-parameter. På så sätt återställs alla åtgärder om någon av åtgärderna misslyckas.
 
 >[!NOTE]
 >
