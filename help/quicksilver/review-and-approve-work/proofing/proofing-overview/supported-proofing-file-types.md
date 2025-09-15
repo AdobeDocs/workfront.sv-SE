@@ -7,9 +7,9 @@ description: Du kan dela och granska olika typer av filer med granskarna, även 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
+source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,13 @@ Workfront har följande begränsningar:
 * PNM - Portable Bitmap Utilities
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint-presentation
+* PPTX - PowerPoint Presentation 2007
 
   >[!NOTE]
   >
-  >Det finns ett känt fel med PowerPoint-presentationsfiler som inte kan överföras just nu. Om du råkar ut för det här problemet konverterar du filen till PDF och överför PDF istället. Mer information finns i [Korrektur: Det går inte att generera ett korrektur från en PowerPoint-fil](https://experienceleague.adobe.com/sv/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Det finns ett känt fel med PowerPoint-presentationsfiler som inte kan överföras just nu. Om du råkar ut för det här problemet konverterar du filen till PDF och överför PDF istället. Mer information finns i [Korrektur: Det går inte att generera ett korrektur från en PowerPoint-fil](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
-
-* PPTX - PowerPoint-presentation 2007 PS - PostScript-fil
+* PS - PostScript-fil
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
