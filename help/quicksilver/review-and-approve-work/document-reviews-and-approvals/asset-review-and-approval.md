@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Tillgänglig funktionalitet för granskning och godkännande av material och dokument
+title: Tillgänglig funktionalitet för enhetliga dokumentgodkännanden
 description: Översikt över de system som finns för granskning och godkännande i Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# Tillgänglig funktionalitet för granskning och godkännande av material och dokument
+# Tillgänglig funktionalitet för enhetliga dokumentgodkännanden
 
-Det finns för närvarande tre olika system i Workfront för granskning och godkännande av tillgångar och dokument:
+Det finns för närvarande tre olika system i Workfront för enhetliga dokumentgodkännanden:
 
 * [Godkännanden av äldre dokument](#legacy-document-approvals)
 
@@ -61,6 +61,8 @@ Mer information om rapportering finns i [Skapa en rapportinstrumentpanel för gr
 * Skapa godkännanden för flera steg [!BADGE Kommer snart]{type=Informative}
 
 * Få åtkomst till gransknings- och godkännandebegäranden i widgeten Mina godkännanden i hemområdet
+
+* Använd AI Reviewer för att automatisera varumärkesgranskningar. Mer information finns i [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 ## Bevis på godkännanden

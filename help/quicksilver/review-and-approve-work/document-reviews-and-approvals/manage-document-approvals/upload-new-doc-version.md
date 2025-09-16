@@ -6,9 +6,9 @@ description: Du kan överföra en ny dokumentversion och begära godkännande fr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,9 @@ När en ny version läggs till i ett dokument med enastående godkännanden visa
 
 Om den senaste dokumentversionen tas bort förblir de tidigare versionerna låsta. Om du behöver redigera en tidigare version måste du låsa upp den manuellt.
 
-
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +34,16 @@ Du måste ha följande:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>Aktuell: Begäran eller senare</p>
-   eller
-   <p>Nytt: Medarbetare eller högre</p> </td> 
+   <td> <p>Begäran eller senare</p>
+   <p>Medarbetare eller högre</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +53,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,26 +63,36 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
 >
 >Det går inte att dra och släppa i Internet Explorer.
 
-1. Gå till området Dokument där dokumentet överförs.
-1. Dra den nya versionen av dokumentet från skrivbordet eller en separat webbläsarflik över den befintliga versionen i Workfront.
 
-   När du drar den nya versionen kan du hålla muspekaren över en Workfront-dokumentmapp för att öppna den. Du kan sedan rulla uppåt och nedåt genom att dra filerna till skärmens övre eller nedre del.
+Om du behöver en ny granskningsrunda och ett godkännande av ett dokument kan du skapa en ny dokumentversion i Workfront.
 
-1. Släpp den nya versionen ovanpå den befintliga filen på fliken **Dokument**.
+Du kan lägga till föregående deltagare, nya deltagare eller en blandning av båda. Du kan visa information om tidigare versioner och deltagare på sidan Dokumentinformation.
 
-1. När dokumentet har överförts klickar du på det och öppnar dokumentsammanfattningspanelen.
+Lägga till en ny version:
 
-1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning och klicka sedan på **Lägg till**.
+1. Navigera till dokumentet i Workfront.
+1. Dra och släpp den nya filen ovanpå det föregående dokumentet. En ny version skapas automatiskt.
 
-![Lägg till godkännare i dokumentsammanfattning](assets/doc-summary-add-approvers.png)
+1. När dokumentet har överförts markerar du dokumentet och klickar sedan på **Dokumentinformation**.
+   ![Öppna dokumentinformationssidan](assets/open-doc-details.png)
+
+
+1. Klicka på **Godkännanden** i den vänstra panelen och klicka sedan på **Lägg till**.
+
+1. Om du vill lägga till alla tidigare deltagare klickar du på **Lägg till alla**. Du kan också lägga till nya deltagare eller ta bort tidigare deltagare efter behov.
+
+
+1. Om du vill lägga till en befintlig godkännandemall klickar du på knappen Mall och börjar skriva in ett mallnamn.
+
+   >[!TIP]
+   >
+   >   Användare med en standardlicens kan skapa återanvändbara godkännandemallar under Konfigurera. Mer information finns i [Skapa en godkännandemall för resurser och dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
-1. Om du snabbt vill lägga till granskare och godkännare från den tidigare versionen klickar du på knappen Lägg till bredvid namnen nedan.
-   <!--need screenshot when working-->
+1. När du har lagt till alla granskare och godkännare klickar du på **Skicka begäran**. Deltagare meddelas via e-post.
 
-1. (Valfritt) Ändra roll från godkännare/granskare.
+   ![skicka ny version för godkännande](assets/add-previous-participants.png)
 
-1. Om du vill lägga till nya godkännare och granskare klickar du på **Granskare** eller **Godkännare** och börjar skriva in användaren eller teamet.
 
-   ![Lägg till godkännare och deadline](assets/add-approver-and-deadline.png)

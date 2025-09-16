@@ -6,9 +6,9 @@ description: Dokumentets beslutsstatus listas och förklaras
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,7 @@ Följande statusar är tillgängliga:
                                 <p>Minst en godkännare har fattat ett beslut om"Godkänd med ändringar"</p>
                                 <p>Andra godkännare kan ha fattat beslut om"Godkänd"
                             </li>
+                            <p>Obs! Det här alternativet är inte tillgängligt om du använder Frame.io-integreringen för granskning och godkännande.</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ Följande statusar är tillgängliga:
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>Alla godkännanden och granskningar är slutförda</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>Alla godkännare kan ha fattat beslut om"Godkänd"
                             </li>

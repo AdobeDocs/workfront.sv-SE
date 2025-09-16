@@ -1,14 +1,14 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Översikt över enhetliga dokumentgodkännanden
+title: Översikt över enhetliga godkännanden
 description: Du kan lägga till ytterligare godkännare eller granskare i ett dokument som redan har väntande godkännanden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -49,30 +49,33 @@ Med enhetliga godkännanden kan man
 
 ## Använda enhetliga godkännanden
 
-För användare som vill skapa eller hantera dokumentgodkännanden, se artiklarna i [Konfigurera och hantera resurs- och dokumentgodkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+För användare som vill skapa eller hantera dokumentgodkännanden, se artiklarna i [Konfigurera och hantera enhetliga godkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
 För användare som vill granska eller godkänna dokument som de har tagit emot en begäran om, se artiklarna i [Godkänn och granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-## Nya funktioner och designmål
+<!--
 
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)
+## New features and design goals
 
-* **Deltagande av intressenter**\
-    Med enhetliga godkännanden kan både enskilda medarbetare och hela team inkluderas i godkännandeprocessen. Genom att underlätta detta bredare deltagande kan man säkerställa ett heltäckande engagemang från intressenternas sida och främja en mer välinformerad och samverkande beslutsmiljö.
+>[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
 
-* **Differentierade gransknings- och godkännanderoller**\
-     Enhetliga godkännanden är utformade för att känna igen och respektera de olika rollerna i godkännandeprocessen. Genom att ge möjlighet att identifiera och utse granskare - användare som får meddelande om att lämna feedback men som inte har befogenhet att fatta beslut - förbättras kvaliteten på feedback samtidigt som den slutliga godkännandemyndigheten förblir tydlig.
+* **Inclusive stakeholder participation**\
+    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
 
-* **Versionsspecifika godkännanden**\
-    Dokumentutvecklingens repetitiva natur leder ofta till flera versioner av samma dokument. Enhetliga godkännanden anpassar sig efter denna verklighet genom att tillhandahålla unika godkännandekedjor för varje version av ett dokument. På så sätt kan användare ladda upp en ny version och lägga till nya godkännare eller granskare efter behov, vilket säkerställer att feedback och godkännande är specifika för dokumentversionen och eliminerar eventuella förvirringar.
+* **Differentiated review and approval roles**\
+     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
 
-* **Granskningsspår**\
-    Med enhetliga godkännanden upprätthålls en verifieringskedja över alla godkännandeaktiviteter i aktivitetsströmmen, vilket ger en värdefull resurs för framtida referens och efterlevnad.
+* **Version-specific approvals**\
+    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
 
-## Versionsplan
+* **Audit trails**\
+    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
 
-Vi gör enhetliga godkännanden tillgängliga för användare i flera versioner. Förutom att lägga till nya funktioner kommer vi också att utöka antalet konton för vilka enhetliga godkännanden är tillgängliga i varje release.
+## Release plan
 
-Om ni vill ha enhetliga godkännanden aktiverade i er produktionsmiljö kontaktar ni er Customer Success eller Strategic Account Manager.
+We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
+
+If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
+-->

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3d5dc51c519c7880e7a159fd26420bbd5ec18b6b
+source-git-commit: 5b34ea50fbf4718512a604191202b4ae9521ba86
 workflow-type: tm+mt
-source-wordcount: '13503'
+source-wordcount: '13500'
 ht-degree: 0%
 
 ---
@@ -1804,7 +1804,6 @@ ht-degree: 0%
       * [Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Granska och godkänn arbetet {#review-and-approve-work}
    * [Granska och godkänn arbetet](review-and-approve-work/review-and-approve-work.md)
-   * [Alpha-program - dokumentgodkännanden](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Begränsat dokument och bevisbeslut för obetalda användare - översikt](review-and-approve-work/proof-doc-decision-limits.md)
    * Arbetsgodkännanden {#work-approvals}
       * [Arbetsgodkännanden](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1818,14 +1817,15 @@ ht-degree: 0%
       * [Delegera godkännandebegäran](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associera en ny eller befintlig godkännandeprocess med arbete](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Återkalla inskickade godkännanden](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Granskning och godkännande av material och dokument {#document-reviews-and-approvals}
-      * [Resurs- och dokumentgranskning och godkännande: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [Tillgänglig funktionalitet för granskning och godkännande av material och dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+   * Enhetliga godkännanden {#document-reviews-and-approvals}
+      * [Enhetliga dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * [Tillgänglig funktionalitet för enhetliga godkännanden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Översikt över enhetliga godkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Adobe Enterprise Storage Management - översikt](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * Ställ in och hantera godkännande av tillgångar och dokument {#manage-asset-review-and-approval}
-         * [Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [Ställa in och hantera enhetliga godkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Skapa AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [Skapa en begäran om dokumentgranskning eller godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Lägga till ytterligare granskare eller godkännare till en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1839,6 +1839,7 @@ ht-degree: 0%
          * [Visa AI Reviewer-poäng och feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+         * [Granska och godkänna ett dokument i Frame.io-visningsprogrammet](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
    * Korrektur {#proofing}
       * [Korrektur: artikelindex](review-and-approve-work/proofing/proofing.md)
       * Korrektur - översikt {#proofing-overview}

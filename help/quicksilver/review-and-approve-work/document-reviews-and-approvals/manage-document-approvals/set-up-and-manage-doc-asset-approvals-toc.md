@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 'Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex'
-description: Det här avsnittet innehåller artiklar om hur du hanterar godkännande av resurser och dokument i Workfront.
+title: 'Ställa in och hantera enhetliga godkännanden: artikelindex'
+description: Det här avsnittet innehåller artiklar om hantering av enhetliga godkännanden i Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex
+# Ställa in och hantera enhetliga godkännanden: artikelindex
 
 Det här avsnittet innehåller följande artiklar:
 

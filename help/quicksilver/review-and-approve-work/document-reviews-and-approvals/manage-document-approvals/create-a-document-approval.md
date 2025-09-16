@@ -6,7 +6,7 @@ description: Du kan begära godkännande från andra användare för ett dokumen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -59,7 +59,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Håll muspekaren över dokumentet och klicka sedan på Dokumentinformation.
    ![Dokumentinformation](assets/doc-details.png)
-
 
 1. I närheten av dokumentnamnet väljer du den version av dokumentet som du vill skapa ett godkännande för i listrutan. Den senaste versionen väljs som standard.
 

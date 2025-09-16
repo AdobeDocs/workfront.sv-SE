@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "Korrektur: artikelindex"
+title: 'Korrektur: artikelindex'
 description: Granska och kommentera i samma dokument som era kreativa team arbetar i. Med Workfront Proofing kan du begära feedback, se kommentarer och få meddelanden om väntande och slutförda godkännanden - samtidigt som du behåller en åtkomsthistorik över kommentarer och versioner.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: b8b01b0431390d5a8a53dd3e3b56bae980501955
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# Korrektur: artikelindex
+# Godkännanden av korrektur: artikelindex
 
 <!-- Audited: 12/2023 -->
 
