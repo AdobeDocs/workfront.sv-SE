@@ -6,9 +6,9 @@ description: Du kan använda enhetliga godkännanden med korrektur.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Lägga till en ny version:
 ## Granska bevisen och fatta ett beslut
 
 Dokumentet flyttas inte till en godkänd status förrän alla tilldelade godkännare väljer&quot;Godkänd&quot;.
-
-Om någon av godkännarna väljer&quot;behöver arbete&quot; ändras dokumentets status omedelbart till Behöver arbete. Dokumentet måste ändras och överföras som en ny version med ett nytt arbetsflöde för godkännande.
 
 Så här granskar och godkänner du ett dokument:
 

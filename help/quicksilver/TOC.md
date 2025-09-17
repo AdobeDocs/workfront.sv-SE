@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5b34ea50fbf4718512a604191202b4ae9521ba86
+source-git-commit: 190481ed57485a5c93a0086cda207a270d05ac23
 workflow-type: tm+mt
-source-wordcount: '13500'
+source-wordcount: '13502'
 ht-degree: 0%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 0%
       * [Översikt över enhetliga godkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-      * [Adobe Enterprise Storage Management - översikt](/help/quicksilver/review-and-approve-work/esm-overview.md)
+      * [Adobe Enterprise Storage - översikt](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * Ställ in och hantera godkännande av tillgångar och dokument {#manage-asset-review-and-approval}
          * [Ställa in och hantera enhetliga godkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Skapa AI-granskare](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
@@ -1957,6 +1957,7 @@ ht-degree: 0%
          * [Det går inte att hämta eller förhandsgranska korrekturversioner när ett interaktivt korrektur läggs till som en ny version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Inbyggda integreringar {#native-integrations}
       * [Granska och godkänn integreringar: artikelindex](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Bildruta.io - integreringsöversikt](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
       * [Kom igång med korrektur och integrering med GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Kom igång med korrektur och Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Kom igång med Frame.io-integrering](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)

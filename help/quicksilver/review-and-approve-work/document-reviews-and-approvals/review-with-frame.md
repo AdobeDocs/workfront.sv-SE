@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -81,8 +81,6 @@ Kommentarer och resursmarkeringar visas bara i Frame.io-visningsprogrammet. Mer 
 Som godkännare kan du lägga till kommentarer och kommentera resurser. Du måste fatta ett beslut om att flytta godkännandeprocessen framåt.
 
 Dokumentet flyttas inte till en godkänd status förrän alla tilldelade godkännare väljer&quot;Godkänd&quot;.
-
-Om någon av godkännarna väljer&quot;Behöver arbete&quot; ändras dokumentets status omedelbart till Behöver arbete. Dokumentet måste ändras och överföras som en ny version med ett nytt arbetsflöde för godkännande.
 
 Så här fattar du ett beslut om ett dokument:
 

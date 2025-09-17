@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 701f3fc2c885363b5f61fb9d77049c7d4c41963d
+source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 Tack vare integreringen mellan Workfront och Frame.io kan projektsamordnare hantera projekt och planera arbetet i Workfront, medan kreatörer, marknadsförare och intressenter kan granska och godkänna mediefiler i Frame.io.
 
-## Byggt på Adobe Enterprise Storage Management
+## Byggt på Adobe Enterprise-lagring
 
-Kärnan i denna integrering är Adobe Enterprise Storage Management (ESM) - en molnbaserad lagringslösning som fungerar som central lagringsplats för resurser i Adobe företagsprodukter, inklusive Workfront och Frame.io.
+Kärnan i denna integrering är Adobe Enterprise-lagring - en molnbaserad lagringslösning som fungerar som central lagringsplats för resurser i Adobe företagsprodukter, inklusive Workfront, Frame.io och Creative Cloud.
 
-Några av fördelarna med Adobe Enterprise Storage Management:
+Några av fördelarna med Adobe Enterprise-lagring:
 
 * Enhetligt lagringslager för kreativa resurser och resurser för arbetshantering
 * Centraliserade behörigheter via Adobe IMS för säker åtkomstkontroll
 * Synlighet från början till slut i Workfront-, Frame.io- och Creative Cloud-apparna <!--coming soon?-->
 * Skalbar lagring och kvothantering för företagsbehov
 
-Mer information finns i [Adobe Enterprise Storage Management - översikt](help/quicksilver/review-and-approve-work/esm-overview.md).
+Mer information finns i [Adobe Enterprise-lagringsöversikt](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Enhetlig granskning och godkännande
 
@@ -60,7 +60,11 @@ Mer information finns i [Kom igång med Frame.io-integreringen](/help/quicksilve
 
 #### Gränser för videogranskning
 
-<!--need to confirm these-->
+Det finns ett årligt tak för videokorrektur som sätts till 10 % av en organisations totala betalda Workfront-användarlicenser (Standard och Light). Denna övre gräns tillämpas på organisationsnivå.
+
+Workfront-administratörer får meddelanden när användningen når 80 % och 100 % av taket.
+
+Denna gräns gäller inte för Frame.io Enterprise-kunder.
 
 #### Filtyper som stöds i Frame.io-visningsprogrammet
 
@@ -70,7 +74,7 @@ Visningsprogrammet Frame.io har stöd för alla vanliga typer av video, bilder, 
 
 Visningsprogrammet Frame.io är tillgängligt för alla Workfront-användare med en betald licens. Ingen ytterligare Frame.io-licens krävs för att använda Frame.io-visningsprogrammet för granskningar och godkännanden med den här integreringen.
 
-Om din organisation vill dra nytta av den extra Frame.io-funktionen, som att överföra resurser direkt till projekt i Frame.io, kan du köpa en företagslicens för Frame.io. <!--link to Frame.io enterprise license info or who to contacT?-->
+Om din organisation vill dra nytta av den extra Frame.io-funktionen, som att överföra resurser direkt till projekt i Frame.io, kan du köpa en företagslicens för Frame.io. Kontakta din kontorepresentant på Adobe för att boka en demo och utforska fördelarna med Frame.io-lösningen.
 
 Workfront korrekturfunktioner är inte tillgängliga med den här integreringen.
 
@@ -78,7 +82,7 @@ Workfront korrekturfunktioner är inte tillgängliga med den här integreringen.
 
 Tack vare integreringen mellan Workfront och Frame.io kan projektsamordnarna utnyttja Workfront kraftfulla projekthanteringsfunktioner för att planera, spåra och hantera arbetet.
 
-Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikelindex](/help/quicksilver/manage-work/projects/projects-toc.md).
+Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikelindex](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Tvingad struktur och namnkonventioner
 
@@ -106,21 +110,21 @@ Eftersom den här integreringen byggs med ESM finns det vissa begränsningar i d
 
 Följande funktioner kommer inte att ingå i den här integreringen:
 
-* Externa dokumentleverantörer
+<!--* External document providers-->
 * Åtkomst till korrektur
 * Dokumentvisningsprogram i Workfront
-
-
-#### Tillfälliga begränsningar
-
-För närvarande finns inte följande funktioner:
-
 * Favoritdokument
 * Begär dokument
-* Skicka dokument till Adobe Experience Manager Assets
-* Godkännanden i flera steg
-* Ladda upp dokument till kommentarer eller uppdateringar i Workfront
-* Överföra dokument till uppgifter eller problem i Workfront
+
+
+<!--#### Temporary limitations
+
+For now, the following capabilities are not available:
+
+* Send documents to Adobe Experience Manager Assets
+* Multi-stage approvals
+* Upload documents to comments or updates in Workfront
+* Upload documents to tasks or issues in Workfront-->
 
 
 
