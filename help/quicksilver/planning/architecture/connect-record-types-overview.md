@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
 
 # Översikt över anslutna posttyper
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Du kan ange att enskilda posttyper relaterar till varandra eller till objekt från andra program genom att koppla dem.
 
@@ -75,12 +75,12 @@ Tänk på följande när det gäller att ansluta posttyper:
 
      Om du till exempel ansluter posttypen&quot;Campaign&quot; med posttypen&quot;Product&quot; skapas ett länkat postfält (anslutningsfält) som du kallar&quot;Linked Product&quot; i posttypen Campaign. En länkad posttyp som automatiskt heter&quot;Campaign&quot; skapas på produktposttypen.
 
-     <!--<div class="preview">
-        
-        For example, the following scenarios exist: 
-        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
-        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+     <div class="preview">
+
+     Följande scenarier finns till exempel:
+      * När du aktiverar fältet Skapa motsvarande för den länkade posttypsinställningen och kopplar posttypen &quot;Campaign&quot; med posttypen &quot;Product&quot;, skapas ett länkat postfält (anslutningsfält) som du namnger &quot;Linked Product&quot; för kampanjposttypen. En länkad posttyp som automatiskt heter&quot;Campaign&quot; skapas på produktposttypen.
+      * När du inaktiverar fältet Skapa motsvarande för den länkade posttypsinställningen och kopplar posttypen &quot;Campaign&quot; med posttypen &quot;Product&quot;, skapas ett länkat postfält (anslutningsfält) som du kallar &quot;Linked Product&quot; för kampanjposttypen. En länkad posttyp med namnet&quot;Campaign&quot; skapas inte i produktposttypen.
+     </div>
 
      Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -90,7 +90,7 @@ Tänk på följande när det gäller att ansluta posttyper:
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
       * Planeringsposter visas på Workfront-objektets planeringflik. Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Du kan skapa ett anpassat fält för planeringsanslutning och koppla det till ett Workfront-objekts anpassade formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **När du lägger till uppslagsfält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från.
@@ -132,66 +132,65 @@ När du har upprättat en anslutning mellan två posttyper eller mellan en post 
 
 Du kan välja om du vill koppla en post till flera poster åt gången eller en post åt gången till varandra.
 
-Beroende på hur många poster du kan lägga till i ett anslutet postfält <!--and the environment you use to create the connected fields--> kan du välja mellan följande anslutningstyper vid anslutning av posttyper:
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+Beroende på hur många poster du kan lägga till i ett anslutet postfält och vilken miljö du använder för att skapa de anslutna fälten, kan du välja mellan följande anslutningstyper vid anslutning av posttyper:
 
 <div class="preview">
 
-* In the Preview environment: 
+* I förhandsvisningsmiljön:
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+   * När inställningen Skapa motsvarande fält för länkad posttyp är inaktiverad kan du välja mellan:
 
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
+      * [Flera val](#multi-select-connection-type)
+      * [Enkelval](#single-select-connection-type)
 
 </div>
 
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* <span class="preview">När inställningen för att skapa motsvarande fält i den länkade posttypen är aktiverad </span> eller i produktionsmiljön kan du välja mellan följande i förhandsvisningsmiljön:
 
-    * [Many to many](#many-to-many-connection-type)
-    * [One to many](#one-to-many-connection-type)
-    * [Many to one](#many-to-one-connection-type)
-    * [One to one](#many-to-one-connection-type) 
+   * [Många till många](#many-to-many-connection-type)
+   * [En till många](#one-to-many-connection-type)
+   * [Många till ett](#many-to-one-connection-type)
+   * [En till en](#many-to-one-connection-type)
 
 <div class="preview">
 
-### Multi-select connection type
+### Anslutningstyp för flera val
 
-![Multi-select connection type](assets/multi-select-connection-picker.png)
+![Anslutningstyp för flerval](assets/multi-select-connection-picker.png)
 
-When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+När du skapar en flervalsanslutning mellan posttyper kan du sedan välja flera kopplade poster i anslutningsfältet från den ursprungliga posttypen.
 
-For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+Om du till exempel skapar en flervalsanslutning mellan kampanjer och projekt kan du välja flera projekt för en kampanj. Ingen Campaign-ansluten posttyp skapas för projektobjekttypen.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+När du har valt den här anslutningstypen kan du inte ändra anslutningstypen efter att du har sparat den till någon av följande typer:
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+    * Enkelval
+    * En till många
+    * Många till en
+    * En till en
 
-### Single-select connection type
+### Anslutningstyp för ett val
 
-![Single select connection type](assets/single-select-connection-picker.png)
+![Anslutningstyp för enkelval](assets/single-select-connection-picker.png)
 
-When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+När du skapar en anslutning mellan posttyperna med ett enda val kan du sedan välja en post i anslutningsfältet från den ursprungliga posttypen.
 
-For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+Om du t.ex. skapar en anslutning med ett enda val mellan kampanjer och företag kan du välja ett företag för en kampanj. Ingen Campaign-ansluten posttyp skapas för företagsobjekttypen.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following:
+När du har valt den här anslutningstypen kan du inte ändra anslutningstypen efter att du har sparat den till något av följande:
 
-    * One to many
-    * One to one
+* En till många
+* En till en
 
 </div>
 
+
+<!--
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 -->
-
-* [Många till många](#many-to-many-connection-type)
-* [En till många](#one-to-many-connection-type)
-* [Många till ett](#many-to-one-connection-type)
-* [En till en](#many-to-one-connection-type)
 
 ### Anslutningstyp för många-till-många
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Koppla posttyper
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -172,50 +172,45 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
    ![Ny anslutning som tillåter flera poster, ruta](assets/new-connection-allow-multiple-records-box.png)
 
-1. (Villkorligt) När du ansluter posttyper från samma arbetsyta, eller en Planning-posttyp med en Workfront-objekttyp, väljer du något av följande **Anslutningstyp** -alternativ för att ange hur många poster som användare kan ansluta till och från:
+1. (Villkorligt) När du ansluter posttyper från samma arbetsyta, eller en Planning-posttyp med en Workfront-objekttyp, gör du något av följande, beroende på vilken miljö du använder:
 
-   * Många till många
-   * En till många
-   * Många till ett
-   * En till en
+   * I produktionsmiljön väljer du ett av följande **anslutningstyp**-alternativ för att ange hur många poster som användare kan ansluta till och från:
 
-   ![Många till många anslutningsväljare](assets/many-to-many-connection-picker.png)
+      * Många till många
+      * En till många
+      * Många till ett
+      * En till en
 
-   Mer information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     ![Många till många anslutningsväljare](assets/many-to-many-connection-picker.png)
 
-   >[!NOTE]
-   >
-   > Om du väljer En till många eller En till en för anslutningstypen och senare vill ansluta en post eller ett objekt som redan är anslutet någon annanstans får du en varning om att anslutningen tar bort den från den ursprungliga anslutningen. Du kan tillåta borttagning eller välja en annan post.
+   <div class="preview">
 
+   * Gör följande i förhandsgranskningsmiljön:
+      1. Välj något av följande:
 
-   <!-- 
-        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
-    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
-        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
-            * Many to many
-            * One to many
-            * Many to one
-            * One to one      
-            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
-        <div class="preview">
-        * In the Preview environment, do the following: 
-            1. Select one of the following:
-                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
-                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
-            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
-                    >[!TIP]
-                    >
-                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
-            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
-                * Many to many
-                * One to many
-                * Many to one
-                * One to one  
-            </div>       
-             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-                >[!NOTE]
-                >
-                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+         * **Flerval**: Välj det här alternativet om du vill tillåta en post från den aktuella posttypen att ansluta till flera poster från anslutningsposttypen.
+         * **Ett-val**: Välj det här alternativet om du vill tillåta en post från den aktuella posttypen att ansluta till en post från anslutningsposttypen.
+
+      2. Aktivera **Skapa motsvarande fält för den länkade posttypen**. När det här alternativet är aktiverat skapas ett anslutningsfält för den posttyp som du är ansluten till, förutom anslutningsfältet som läggs till den aktuella posttypen. Detta är inaktiverat som standard.
+
+         >[!TIP]
+         >
+         >Det finns en gräns på 500 anslutningar för en posttyp. Vi rekommenderar att den här inställningen inte används, särskilt för taxonomiska posttyper, för att undvika att den här gränsen uppnås.
+
+      3. (Villkorligt) Om du har aktiverat **Skapa motsvarande fält för den länkade posttypen** kan du välja bland följande alternativ för att ange hur många poster som användare kan ansluta till och från:
+
+         * Många till många
+         * En till många
+         * Många till ett
+         * En till en
+
+     </div>
+
+     Mer information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+     >[!NOTE]
+     >
+     >Om du väljer En till många eller En till en för anslutningstypen och senare vill ansluta en post eller ett objekt som redan är anslutet någon annanstans får du en varning om att anslutningen tar bort den från den ursprungliga anslutningen. Du kan tillåta borttagning eller välja en annan post.
 
 1. (Villkorligt och valfritt) När du väljer att ansluta ett Workfront-objekt väljer du ett **anpassat formulär** bland **Länka endast objekt som matchar villkoren**. Endast objekt som har de markerade anpassade formulären kopplade kan länkas till den valda posttypen. Du kan markera flera formulär.
 
@@ -227,7 +222,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Villkorligt) När du väljer att ansluta till Experience Manager Assets eller till en posttyp för Workfront Planning väljer du något av följande alternativ i området **Postutseende**:
