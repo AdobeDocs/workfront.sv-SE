@@ -6,14 +6,16 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5161'
 ht-degree: 0%
 
 ---
 
 # Redigera projektmallar
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -112,7 +114,6 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
    * [Kommentar](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
-
 ### Mallnamn{#template-name}
 
 1. Börja redigera mallen enligt beskrivningen ovan.
@@ -134,33 +135,33 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 1. Uppdatera följande fält:
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Beskrivning</strong></td> 
-         <td>Lägg till ytterligare information om mallen.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Prioritet</strong></td> 
-         <td><p>Det här är bara en visuell flagga som gör att du kan prioritera dina framtida projekt. Välj bland följande alternativ:</p> 
-         <ul> 
-         <li><p><strong>Ingen</strong></p></li> 
-         <li><p><strong>Låg</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>Hög</strong></p></li> 
-         <li><p><strong>Urgent</strong></p></li> 
-         </ul><p><p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om redigeringsprioriteringar finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Skapa och anpassa prioriteringar</a>.</p></p></td> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td role="rowheader"><strong>Beskrivning</strong></td> 
+      <td>Lägg till ytterligare information om mallen.</td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Prioritet</strong></td> 
+      <td><p>Det här är bara en visuell flagga som gör att du kan prioritera dina framtida projekt. Välj bland följande alternativ:</p> 
+      <ul> 
+      <li><p><strong>Ingen</strong></p></li> 
+      <li><p><strong>Låg</strong></p></li> 
+      <li><p><strong>Normal</strong></p></li> 
+      <li><p><strong>Hög</strong></p></li> 
+      <li><p><strong>Urgent</strong></p></li> 
+      </ul><p><p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om redigeringsprioriteringar finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Skapa och anpassa prioriteringar</a>.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>Ange en webblänk som relaterar till information om den här mallen.</td> 
        </tr>
-<tr> 
+   <tr> 
       <td role="rowheader"><strong>Är aktiv</strong></td> 
       <td><p>Aktivera det här alternativet om du vill att mallen ska vara aktiv. Andra användare kan hitta den här mallen och bifoga den till projekt när de skapar projekt. Inaktivera alternativet om du vill inaktivera mallar som inte längre används. Inaktiverade mallar kan inte bifogas till projekt. Detta är aktiverat som standard. </p><p><b>TIPS</b></p>
 
-<p>Du kan inaktivera en mall från mallhuvudet enligt beskrivningen i avsnittet Aktivera eller inaktivera en mall i den här artikeln.</p></td> 
+   <p>Du kan inaktivera en mall från mallhuvudet enligt beskrivningen i avsnittet Aktivera eller inaktivera en mall i den här artikeln.</p></td> 
      </tr>
 
 <tr> 
@@ -251,33 +252,33 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
        <td><p>Ange en budget för de projekt som skapas från den här mallen.</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>Resultatindexmetod</strong></td> 
-         <td><p>Välj hur Workfront ska beräkna EV-värden för det framtida projektet. Välj bland följande:
-         <ul>
-         <li>Timbaserad</li>
-         <li>Kostnadsbaserad</li>
-         </ul>
+       <td role="rowheader"><strong>Resultatindexmetod</strong></td> 
+       <td><p>Välj hur Workfront ska beräkna EV-värden för det framtida projektet. Välj bland följande:
+       <ul>
+       <li>Timbaserad</li>
+       <li>Kostnadsbaserad</li>
+       </ul>
 
-   Mer information om prestandaindexmetoden finns i <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Ange prestandaindexmetod (PIM)</a>. </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Planerad förmån</strong></td> 
-         <td><p>Ange den planerade fördelen för de projekt som skapas från den här mallen. Den planerade förmånen används i projektens och Portfolio Optimizters affärsfall. </p><p>Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p><p>Mer information om hur du använder Portfolio Optimizer finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio Optimizer</a> </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Fast kostnad</strong></td> 
-         <td><p>Ange fast kostnad för projekt som skapas från den här mallen. Detta skiljer sig från arbetskostnaden som kommer från timmarna i projektet och kostnaden som kommer från kostnaderna för projektet. Den fasta kostnaden för ett projekt tas med i beräkningen av ett projekts nettovärde och ingår i den budgeterade kostnaden.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Fast intäkt</strong></td> 
-       <td><p>Ange fasta intäkter för projekt som skapas från den här mallen.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Kräv tid för godkännande av det här projektet</strong></td> 
-       <td><p>Välj det här alternativet om du vill att projektägaren för det framtida projektet som skapas från den här mallen ska godkänna den tid som är inloggad på projektet. Om du använder Faktureringsposter och väljer det här alternativet visas endast de godkända timmarna i projektet som tillgängliga fakturerbara timmar för Faktureringsposterna. Godkännandetiden för projektet är oberoende av godkännande av tidrapporter. Mer information om hur du behöver tid för att godkänna ett projekt finns i <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Kräv tid för att godkännas för ett projekt</a>.</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+       Mer information om prestandaindexmetoden finns i &lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>Ange PIM (Performance Index Method)&lt;/a>. &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Planerad förmån&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Ange den planerade fördelen för de projekt som skapas från den här mallen. Den planerade förmånen används i projektens och Portfolio Optimizters affärsfall. &lt;/p>&lt;p>Mer information om den planerade fördelen med ett projekt finns i &lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>Översikt över projektförmån&lt;/a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. &lt;/p>&lt;p>Mer information om hur du använder Portfolio Optimizer finns i &lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>Hantera projekt i Portfolio Optimizer&lt;/a> &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Fixed Cost&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Ange fast kostnad för de projekt som skapas från den här mallen. Detta skiljer sig från arbetskostnaden som kommer från timmarna i projektet och kostnaden som kommer från kostnaderna för projektet. Den fasta kostnaden för ett projekt tas med i beräkningen av ett projekts nettovärde och ingår i den budgeterade kostnaden.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Fixed Revenue&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Ange fasta intäkter för projekt som skapas från den här mallen.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Kräv tid för att godkännas för det här projektet&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Välj det här alternativet om du vill att projektägaren för det framtida projektet som skapas från den här mallen ska godkänna den tid som är inloggad på projektet. Om du använder Faktureringsposter och väljer det här alternativet visas endast de godkända timmarna i projektet som tillgängliga fakturerbara timmar för Faktureringsposterna. Godkännandetiden för projektet är oberoende av godkännande av tidrapporter. Mer information om hur du behöver tid för att godkänna ett projekt finns i &lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>Kräv tid för att godkännas för ett projekt&lt;/a>.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;/text>
+   </table>
 
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
@@ -330,12 +331,12 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
        <td> <p>Välj en milstolpe för mallen. Endast aktiva milstolpesökvägar visas i listan.<br>Mer information om milstolpbanor finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Skapa en milstolpsbana</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Slutförandeläge</strong> </td> 
-         <td> <p>Styr hur det framtida projektet markeras som fullständigt. <br>Välj bland följande alternativ:</p> 
-         <ul> 
-         <li> <p><strong>Automatiskt</strong>: Projektet markeras som slutfört när alla aktiviteter och utgåvor har slutförts.</p> </li> 
-         <li> <p><strong>Manuell</strong>: Du måste manuellt välja statusen Fullständig för projektet när alla aktiviteter och utgåvor har slutförts. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Slutförandeläge</strong> </td> 
+       <td> <p>Styr hur det framtida projektet markeras som fullständigt. <br>Välj bland följande alternativ:</p> 
+       <ul> 
+       <li> <p><strong>Automatiskt</strong>: Projektet markeras som slutfört när alla aktiviteter och utgåvor har slutförts.</p> </li> 
+       <li> <p><strong>Manuell</strong>: Du måste manuellt välja statusen Fullständig för projektet när alla aktiviteter och utgåvor har slutförts. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Läge för slutförande av sammanfattning</strong> </td> 
@@ -346,72 +347,72 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Uppdateringstyp</strong> </td> 
-         <td> <p>Styr när de ändringar du gör i tidslinjen för det framtida projektet sparas i projektet. </p> 
-         <b>EXEMPEL </b> 
-         <p>Följande ändringar av projektet utlöser en uppdatering av tidslinjen i projektet:</p> 
-         <ul> 
-         <li> <p>uppdatera datum för uppgifter</p> </li> 
-         <li> <p>ändra föregående relationer<br></p> </li> 
-         <li> <p>ändra överordnade-underordnade relationer</p> </li> 
-         <li> <p>lägga till eller ta bort tilldelningar förutom att ändra uppgiftens begränsning eller varaktighet.</p> </li> 
-         </ul> 
-         </div> <p>Välj bland följande alternativ:<br></p> 
-         <ul> 
-         <li> <p><strong>Automatisk och vid ändring</strong> (standardinställning): Den framtida projekttidslinjen uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av (vid ändring). Projektets tidslinje uppdateras också varje natt (automatiskt).<br>Det här är den rekommenderade inställningen för det här fältet eftersom det ser till att projekttidslinjen alltid är uppdaterad.<br>När du utför en åtgärd för en aktivitet eller ett projekt som utlöser en omberäkning av tidslinjen visas alla tillgängliga datum omedelbart, så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter visas datum som kräver längre omberäkningar som ett frågetecken (mellan 1 och 5 sekunder, eller upp till en minut för stora projekt). Detta anger att omberäkningen ännu inte är klar och att datumen kan ändras.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Ändra endast</strong>: Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Du kanske vill välja det här alternativet om ändringarna sällan inträffar i projektet eller i andra projekt som tidslinjen är beroende av.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Endast automatiskt</strong>: Projektets tidslinje uppdateras varje natt. Den uppdateras inte omedelbart efter att ändringar har gjorts.<br>Du kanske vill välja det här alternativet om många ändringar inträffar varje dag i projektet eller i andra projekt som tidslinjen är beroende av. Tänk dock på att du valde den här inställningen eftersom projektet inte uppdateras samtidigt som ändringarna görs.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Endast manuell</strong>: Projektets tidslinje uppdateras bara när du väljer alternativet att beräkna om tidslinjer, vilket beskrivs i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Beräkna om projekttidslinjer</a>.<br></p> </li> 
-         </ul> <p>Du kan välja det här alternativet om du gör många ändringar i projektet samtidigt och du vill att tidslinjen ska räknas om efter att alla ändringar har gjorts (i stället för efter varje enskild ändring).</p> </td> 
+       <td role="rowheader"><strong>Uppdateringstyp</strong> </td> 
+       <td> <p>Styr när de ändringar du gör i tidslinjen för det framtida projektet sparas i projektet. </p> 
+       <b>EXEMPEL </b> 
+       <p>Följande ändringar av projektet utlöser en uppdatering av tidslinjen i projektet:</p> 
+       <ul> 
+       <li> <p>uppdatera datum för uppgifter</p> </li> 
+       <li> <p>ändra föregående relationer<br></p> </li> 
+       <li> <p>ändra överordnade-underordnade relationer</p> </li> 
+       <li> <p>lägga till eller ta bort tilldelningar förutom att ändra uppgiftens begränsning eller varaktighet.</p> </li> 
+       </ul> 
+       </div> <p>Välj bland följande alternativ:<br></p> 
+       <ul> 
+       <li> <p><strong>Automatisk och vid ändring</strong> (standardinställning): Den framtida projekttidslinjen uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av (vid ändring). Projektets tidslinje uppdateras också varje natt (automatiskt).<br>Det här är den rekommenderade inställningen för det här fältet eftersom det ser till att projekttidslinjen alltid är uppdaterad.<br>När du utför en åtgärd för en aktivitet eller ett projekt som utlöser en omberäkning av tidslinjen visas alla tillgängliga datum omedelbart, så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter visas datum som kräver längre omberäkningar som ett frågetecken (mellan 1 och 5 sekunder, eller upp till en minut för stora projekt). Detta anger att omberäkningen ännu inte är klar och att datumen kan ändras.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Ändra endast</strong>: Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Du kanske vill välja det här alternativet om ändringarna sällan inträffar i projektet eller i andra projekt som tidslinjen är beroende av.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Endast automatiskt</strong>: Projektets tidslinje uppdateras varje natt. Den uppdateras inte omedelbart efter att ändringar har gjorts.<br>Du kanske vill välja det här alternativet om många ändringar inträffar varje dag i projektet eller i andra projekt som tidslinjen är beroende av. Tänk dock på att du valde den här inställningen eftersom projektet inte uppdateras samtidigt som ändringarna görs.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Endast manuell</strong>: Projektets tidslinje uppdateras bara när du väljer alternativet att beräkna om tidslinjer, vilket beskrivs i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Beräkna om projekttidslinjer</a>.<br></p> </li> 
+       </ul> <p>Du kan välja det här alternativet om du gör många ändringar i projektet samtidigt och du vill att tidslinjen ska räknas om efter att alla ändringar har gjorts (i stället för efter varje enskild ändring).</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Schema</strong> </td> 
-         <td> <p>Välj ett schema för mallen. Det här blir schemat för projektet som skapas från den här mallen. Det ska vara samma schema som tilldelats de flesta personer som arbetar med projektet. Du måste skapa ett schema innan du kan tilldela det till en mall.<br>Mer information om hur du skapar scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>. <br>Om du inte har skapat anpassade scheman i systemet väljs standardschemat. </p> </td> 
+       <td role="rowheader"><strong>Schema</strong> </td> 
+       <td> <p>Välj ett schema för mallen. Det här blir schemat för projektet som skapas från den här mallen. Det ska vara samma schema som tilldelats de flesta personer som arbetar med projektet. Du måste skapa ett schema innan du kan tilldela det till en mall.<br>Mer information om hur du skapar scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>. <br>Om du inte har skapat anpassade scheman i systemet väljs standardschemat. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Användartid av</strong> </td> 
-         <td> <p>Avgör om tidpunkten för den primära tilldelades för en uppgift justerar planerade aktivitetsdatum. När du kopplar mallen till ett befintligt projekt, och mallen har en annan inställning för det här fältet än projektet, ändras inte inställningen för projektet. Standardalternativet för den här inställningen för en ny mall är samma som projektinställningen på systemnivå. </p> <p>Mer information om projektinställningarna på systemnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p> <p>Mer information om hur den här inställningen påverkar aktivitetsdatum i ett projekt finns i <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>.<br>Välj bland följande alternativ:<br></p> 
-         <ul> 
-         <li> <p><strong>Överväg användarens tid i aktivitetsvaraktigheter</strong>: När du väljer det här alternativet justeras de planerade datumen för aktiviteterna i projektet som skapas från den här mallen enligt tiden för aktivitetens primära tilldelare, om tiden för aktiviteten infaller under aktivitetens varaktighet. </p> </li> 
-         <li> <p><strong>Ignorera användartid för aktivitetsvaraktigheter</strong>: När du väljer det här alternativet förblir de planerade datumen för aktiviteterna i projektet som skapas från den här mallen som de ursprungligen var planerade, även om aktivitetens primära tilldelare har en ledig tid under aktivitetens varaktighet. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Användartid av</strong> </td> 
+       <td> <p>Avgör om tidpunkten för den primära tilldelades för en uppgift justerar planerade aktivitetsdatum. När du kopplar mallen till ett befintligt projekt, och mallen har en annan inställning för det här fältet än projektet, ändras inte inställningen för projektet. Standardalternativet för den här inställningen för en ny mall är samma som projektinställningen på systemnivå. </p> <p>Mer information om projektinställningarna på systemnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p> <p>Mer information om hur den här inställningen påverkar aktivitetsdatum i ett projekt finns i <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>.<br>Välj bland följande alternativ:<br></p> 
+       <ul> 
+       <li> <p><strong>Överväg användarens tid i aktivitetsvaraktigheter</strong>: När du väljer det här alternativet justeras de planerade datumen för aktiviteterna i projektet som skapas från den här mallen enligt tiden för aktivitetens primära tilldelare, om tiden för aktiviteten infaller under aktivitetens varaktighet. </p> </li> 
+       <li> <p><strong>Ignorera användartid för aktivitetsvaraktigheter</strong>: När du väljer det här alternativet förblir de planerade datumen för aktiviteterna i projektet som skapas från den här mallen som de ursprungligen var planerade, även om aktivitetens primära tilldelare har en ledig tid under aktivitetens varaktighet. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Resursutjämningsläge</strong> </td> 
-         <td> <p>Välj bland följande alternativ:<br></p> 
-         <ul> 
-         <li> <p><strong>Manuell</strong>: du måste manuellt nivåindela dina resurser i det projekt som skapas från den här mallen (det här är standardinställningen)</p> </li> 
-         <li> <p><strong>Automatiskt:</strong> Workfront nivåindelar resurserna i det framtida projektet. <br>Mer information om resursnivåer finns i <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Nivåresurser i Gantt-schemat </a>. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Resursutjämningsläge</strong> </td> 
+       <td> <p>Välj bland följande alternativ:<br></p> 
+       <ul> 
+       <li> <p><strong>Manuell</strong>: du måste manuellt nivåindela dina resurser i det projekt som skapas från den här mallen (det här är standardinställningen)</p> </li> 
+       <li> <p><strong>Automatiskt:</strong> Workfront nivåindelar resurserna i det framtida projektet. <br>Mer information om resursnivåer finns i <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Nivåresurser i Gantt-schemat </a>. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Risk</strong> </td> 
-         <td> <p>Definiera risknivån för projekt som skapas med den här mallen. Risken är bara en indikator på hur riskfylld ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån.<br>Välj bland följande risknivåer:<br></p> 
-         <ul> 
-         <li> <p><strong>Mycket låg</strong> </p> </li> 
-         <li> <p><strong>Låg</strong> </p> </li> 
-         <li> <p><strong>Medium</strong> </p> </li> 
-         <li> <p><strong>Hög</strong> </p> </li> 
-         <li> <p><strong>Mycket hög</strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Risk</strong> </td> 
+       <td> <p>Definiera risknivån för projekt som skapas med den här mallen. Risken är bara en indikator på hur riskfylld ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån.<br>Välj bland följande risknivåer:<br></p> 
+       <ul> 
+       <li> <p><strong>Mycket låg</strong> </p> </li> 
+       <li> <p><strong>Låg</strong> </p> </li> 
+       <li> <p><strong>Medium</strong> </p> </li> 
+       <li> <p><strong>Hög</strong> </p> </li> 
+       <li> <p><strong>Mycket hög</strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Resurspooler</strong> </td> 
-         <td> <p>Ange de resurspooler som är associerade med mallen. Resurspooler är samlingar med användare som behövs samtidigt för att slutföra ett projekt. Mer information om resurspooler finns i <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Översikt över resurspooler </a>.</p> <p> <p><b>ANMÄRKNING</b>
+       <td role="rowheader"><strong>Resurspooler</strong> </td> 
+       <td> <p>Ange de resurspooler som är associerade med mallen. Resurspooler är samlingar med användare som behövs samtidigt för att slutföra ett projekt. Mer information om resurspooler finns i <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Översikt över resurspooler </a>.</p> <p> <p><b>ANMÄRKNING</b>
 
-   När du redigerar flera mallar samtidigt visas endast de resurspooler som är gemensamma för alla valda mallar i det här fältet. Om de valda mallarna inte har några delade resurspooler kommer det här fältet att vara tomt. Resurspoolerna som du anger här skriver över mallarnas enskilda resurspooler.</p> </p> </td>
-   </tr>
-
+       När du redigerar flera mallar samtidigt visas endast de resurspooler som är gemensamma för alla valda mallar i det här fältet. Om de valda mallarna inte har några delade resurspooler kommer det här fältet att vara tomt. Resurspoolerna som du anger här skriver över mallarnas enskilda resurspooler.&lt;/p> &lt;/p> &lt;/td>
+       &lt;/tr>
+   
    <tr> 
       <td role="rowheader"><strong>Kräv tid för godkännande av det här projektet</strong></td>
 
-<td><p>Välj det här alternativet om du vill att den framtida projektägaren för det projekt som skapas från den här mallen ska godkänna den tid som är inloggad på projektet.</p> 
+   <td><p>Välj det här alternativet om du vill att den framtida projektägaren för det projekt som skapas från den här mallen ska godkänna den tid som är inloggad på projektet.</p> 
    <p>Om du använder Faktureringsposter och väljer det här alternativet visas endast de godkända timmarna i projektet som tillgängliga fakturerbara timmar för Faktureringsposterna. </p>
    <p>Godkännandetiden för projektet är oberoende av godkännande av tidrapporter. Mer information om hur du behöver tid för att godkänna ett projekt finns i <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Kräv tid för att godkännas för ett projekt</a>.</p>
    </td> 
@@ -431,8 +432,8 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
    <li>Endast aktiva godkännandeprocesser visas i listan. </li> 
    <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. En godkännandeprocess som är kopplad till en annan grupp än den som mallen tillhör visas inte i listan.</p> <p><b>VIKTIGT</b>
 
-Om gruppen som är kopplad till mallen ändras blir den gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>. </p> </li>
-<li> <p>Om du har lagt till en godkännandeprocess för enstaka användning visas den som"Anpassad" i det här fältet. Mer information finns i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>. </p> 
+   Om gruppen som är kopplad till mallen ändras blir den gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>. </p> </li>
+   <li> <p>Om du har lagt till en godkännandeprocess för enstaka användning visas den som"Anpassad" i det här fältet. Mer information finns i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>. </p> 
       </li> 
       <li> <p>När mallar för gruppredigering används finns följande scenarier:</p> 
       <ul> 
@@ -613,6 +614,10 @@ Så här redigerar du flera mallar samtidigt:
 
    Dialogrutan **Redigera mallar** öppnas.
 
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Redigera mallar](assets/bulk-edit-templates-0925.png)
+
+   Exempelbild i produktionsmiljön:
    ![Redigera mallar](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Klicka på avsnitten till vänster om du vill redigera alla valda mallar.
@@ -631,7 +636,7 @@ Så här redigerar du flera mallar samtidigt:
    * Problem
    * Kommentar
 
-1. Klicka på **Spara ändringar**.
+1. Klicka på <span class="preview">**Spara**</span> eller **Spara ändringar**.
 
    Alla ändringar du har gjort visas nu för alla de valda mallarna.
 

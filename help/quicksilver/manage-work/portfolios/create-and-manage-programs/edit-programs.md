@@ -6,14 +6,16 @@ description: Du kan redigera information om program som du har skapat eller som 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
 
 # Redigera program
+
+{{highlighted-preview}}
 
 Du kan redigera information om program som du har skapat eller som andra användare har skapat om de har delat dem med dig.
 
@@ -104,6 +106,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Dialogrutan **[!UICONTROL Edit Program]** visas.
 
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Redigera programruta](assets/edit-program-0925.png)
+
+   Exempelbild i produktionsmiljön:
    ![Redigera programruta](assets/edit-program-box-nwe-350x236.png)
 
    Alla programfält är tillgängliga i rutan [!UICONTROL Edit Program] och grupperas efter de områden som visas i den vänstra panelen.
@@ -157,7 +163,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. Klicka på **[!UICONTROL Save Changes]** eller fortsätt redigera följande avsnitt.
+1. Klicka på <span class="preview">**Spara**</span> eller **[!UICONTROL Save Changes]**, eller fortsätt redigera följande avsnitt.
 
 ### [!UICONTROL Custom Forms]
 
@@ -170,17 +176,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Beroende på hur din [!DNL Workfront]-administratör anger behörigheter för avsnitten i ditt anpassade formulär kan inte alla visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har för själva programmet. Mer information om att ange behörigheter för avsnitt i ett anpassat formulär finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Uppdatera fält i anpassade formulär och klicka sedan på **[!UICONTROL Save Changes]** eller fortsätt med följande avsnitt.
+1. Uppdatera fälten i de anpassade formulären och klicka sedan på <span class="preview">**Spara**</span> eller **[!UICONTROL Save Changes]**, eller fortsätt med följande avsnitt.
 
 ### [!UICONTROL Comment] {#comment}
 
 1. Börja redigera ett program enligt beskrivningen ovan.
 1. Klicka på **[!UICONTROL Comment]**.
-
-   ![Rutan Kommentar i redigeringsprogramrutan](assets/comment-box-in-program-edit-box-classic-350x195.png)
-
-1. Lägg till en kommentar i fältet **[!UICONTROL Post an update to the program]**.
+1. Lägg till en kommentar i **[!UICONTROL Post an update to the program]** / <span class="preview">**Lägg till en uppdatering för varje programfält**</span>.
 1. (Valfritt) Klicka på ikonen **[!UICONTROL People]** för att lägga till en användare eller ett team i kommentaren.
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Lock]** om du vill låsa kommentaren och göra den privat för endast användare i ditt företag.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Lock]** <span class="preview">eller välj [!UICONTROL **Privat till mitt företag**]</span> om du vill låsa kommentaren och göra den privat för endast användare i ditt företag.
 
    När du har sparat ändringarna visas den kommentar du lägger till på programmets [!UICONTROL Updates]-flik och ett e-postmeddelande skickas till användarna som ingår i den.
+
+
+   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->
