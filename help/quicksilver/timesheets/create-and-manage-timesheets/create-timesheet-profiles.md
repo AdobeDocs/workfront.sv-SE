@@ -6,9 +6,9 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 0%
 # Skapa, redigera och tilldela tidrapportprofiler
 
 <!--Audited: 06/2025-->
-
-<!--at the Prod release, remove the Production and Preview references from this article-->
-
-<div class="preview">
-
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner kommer också att vara tillgängliga i produktionsmiljön för alla kunder efter en vecka från förhandsversionen.
-
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
-
-</div>
 
 Du kan skapa, redigera och tilldela tidrapportprofiler som genererar återkommande tidrapporter för dina användare utan att du behöver göra något mer. Detta sparar tid och säkerställer att följande är konsekventa för användarna:
 
@@ -182,9 +172,9 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
     </tbody> 
     </table>
 
-1. I produktionsmiljön, eller när du skapar tidrapportprofiler på gruppnivå, klickar du på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+1. När du skapar tidrapportprofiler på gruppnivå klickar du på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <span class="preview">I förhandsgranskningsmiljön när du skapar tidrapportprofiler för systemet bläddrar du mot nederkanten av sidan och söker efter avsnittet **Tilldela personer**.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   När du skapar tidrapportprofiler för systemet bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Börja skriva namnet på användaren, gruppen eller teamet och klicka sedan på det när det visas i listrutan.
 
