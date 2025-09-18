@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
+source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
 workflow-type: tm+mt
-source-wordcount: '7673'
+source-wordcount: '7834'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,25 @@ Vi har introducerat gränssnittsuppdateringar när vi redigerar portföljer i ru
 
 Mer information finns i [Redigera portföljer](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
+## Program
+
+### Gränssnittsuppdateringar i rutan Redigera program
+
+**Förhandsversion: 18 september 2025; Produktionsversion: 25 september 2025**
+
+Vi har uppdaterat utseendet och känslan i rutan Redigera program så att den matchar designen i andra delar av Workfront.
+
+Mer information finns i [Redigera program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
+
 ## Projekt
+
+### Gränssnittsuppdatering vid gruppredigering av mallar
+
+**Förhandsversion: 18 september 2025; Produktionsversion: 25 september 2025**
+
+Vi har uppdaterat utseendet och känslan i rutan Redigera mallar när vi redigerar flera mallar samtidigt från en lista med mallar. Organisationen av informationen i rutan Redigera mallar matchar nu redigeringsrutan för en mall.
+
+Mer information finns i [Redigera projektmallar](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ### Gränssnittsuppdateringar för en projektlista eller rapport när du använder vyn Milstolpe
 
@@ -376,17 +394,16 @@ Mer information finns i
 
 ## Användare
 
-<!--
-### Interface updates for the New User dialog
+### Gränssnittsuppdateringar för dialogrutan Ny användare
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**Förhandsversion: 18 september 2025; Produktionsversion: 18 september 2025**
 
-We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+Vi har uppdaterat utseendet och känslan i dialogrutan Ny användare så att den matchar designen i andra delar av programmet.
 
-To view this change, go to Users > New User > New User.
+Om du vill visa den här ändringen går du till Användare > Ny användare > Ny användare.
 
-For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+Mer information finns i [Lägga till användare](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) och [Uppdateringar i Workfront-användarprofilen](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) på sidan [Förbättringar i fjärde kvartalet 2025 av administratören](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+
 
 ### Gränssnittsuppdateringar i dialogrutan Importera användare
 

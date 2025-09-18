@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Den här sidan beskriver administratörsförbättringar som gjorts i den fjärde utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Uppdateringar av Workfront användarprofil
+
+>[!NOTE]
+>
+>* Förhandsgranska: 28 augusti 2025
+>* Produktion för alla kunder: Avveckling från 18 september 2025
+
+Vi har uppdaterat utseendet och känslan i Workfront användarprofil till en modern design som överensstämmer med andra delar av Workfront. Dessa uppdateringar gäller både för en administratör som redigerar en enskild profil, redigerar flera profiler gruppvis eller för en användare som redigerar sin egen profil.
+
+Det finns några små skillnader i funktionalitet jämfört med den aktuella användarprofilen, bland annat:
+
+* Vissa kryssrutor (som att markera användaren som aktiv) har ändrats till växlar eller knappar.
+* Alternativet &quot;Skicka material som jag själv har tilldelat mig själv till fliken Arbeta på&quot; under Inställningar har tagits bort eftersom det hänvisar till en inaktuell funktion.
+
+Mer information finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Administratörsvy för nya anslagstavlor
 
@@ -46,26 +62,7 @@ Mer information om hur du anger systeminställningar finns i [Konfigurera system
 
 Information om krav för att aktivera AI-funktioner finns i [Förutsättningar för AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-## Uppdateringar av Workfront användarprofil
 
->[!IMPORTANT]
->
->Uppdateringen har tillfälligt tagits bort från Förhandsgranska och produktion.
-
-
->[!NOTE]
->
->* Förhandsgranska: 28 augusti 2025
->* Produktion för alla kunder: 4 september 2025
-
-Vi har uppdaterat utseendet och känslan i Workfront användarprofil till en modern design som överensstämmer med andra delar av Workfront. Dessa uppdateringar gäller både för en administratör som redigerar en enskild profil, redigerar flera profiler gruppvis eller för en användare som redigerar sin egen profil.
-
-Det finns några små skillnader i funktionalitet jämfört med den aktuella användarprofilen, bland annat:
-
-* Vissa kryssrutor (som att markera användaren som aktiv) har ändrats till växlar eller knappar.
-* Alternativet &quot;Skicka material som jag själv har tilldelat mig själv till fliken Arbeta på&quot; under Inställningar har tagits bort eftersom det hänvisar till en inaktuell funktion.
-
-Mer information finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Lägga till flera värdealternativ från ett externt API till ett anpassat formulär
 
