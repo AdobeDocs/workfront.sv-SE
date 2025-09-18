@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
+source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >* Förhandsgranska: 28 augusti 2025
->* Produktion för alla kunder: Avveckling från 18 september 2025
+>* Produktion för alla kunder: Avveckling från 25 september 2025
 
 Vi har uppdaterat utseendet och känslan i Workfront användarprofil till en modern design som överensstämmer med andra delar av Workfront. Dessa uppdateringar gäller både för en administratör som redigerar en enskild profil, redigerar flera profiler gruppvis eller för en användare som redigerar sin egen profil.
 
