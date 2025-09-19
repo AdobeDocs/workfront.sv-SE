@@ -2,12 +2,12 @@
 product-area: documents
 navigation-topic: approvals
 title: Skapa AI-granskare
-description: När du har skapat minst ett varumärke i GenStudio Foundations kan du skapa flera AI-granskare, som du sedan kan tilldela till godkännandemallar och individuella gransknings- och godkännandeförfrågningar.
+description: När du har konfigurerat minst ett varumärke i GenStudio Foundation kan du skapa flera AI-granskare, som du sedan kan tilldela till godkännandemallar och individuella gransknings- och godkännandeförfrågningar.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Den här funktionen är för närvarande i betaversion.
 
-När du har skapat minst ett varumärke i GenStudio Foundations kan du skapa flera AI-granskare, som du sedan kan tilldela till godkännandemallar och individuella gransknings- och godkännandeförfrågningar.
+När du har konfigurerat minst ett varumärke i GenStudio Foundation kan du skapa flera AI-granskare, som du sedan kan tilldela till godkännandemallar och individuella gransknings- och godkännandeförfrågningar.
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Förutsättningar
 
-Innan du börjar måste du ange riktlinjer för bildvarumärken i GenStudio Foundations.
+Innan du börjar måste du ange riktlinjer för bildvarumärken i GenStudio Foundation.
 
-Mer information om riktlinjer för bildvarumärken finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Mer information om riktlinjer för bildvarumärken finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Lägga till en AI-granskare
 
