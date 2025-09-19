@@ -55,7 +55,7 @@ Om du överför en filtyp som inte stöds visas inte alternativet AI Reviewer n�
 
 ## Ställ in varumärkesriktlinjer
 
-Workfront AI Reviewer använder de varumärkesriktlinjer som angetts i Genstudio Foundation när du granskar ditt innehåll. För närvarande kan du bara ange varumärkesriktlinjer för bilder. Mer information finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Workfront AI Reviewer använder de varumärkesriktlinjer som angetts i Genstudio Foundation när du granskar ditt innehåll. För närvarande kan du bara ange varumärkesriktlinjer för bilder. Mer information finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Skapa AI-granskare

@@ -57,7 +57,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Innan du börjar måste du ange riktlinjer för bildvarumärken i GenStudio Foundation.
 
-Mer information om riktlinjer för bildvarumärken finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Mer information om riktlinjer för bildvarumärken finns i [Kom igång med Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Lägga till en AI-granskare
 
