@@ -6,7 +6,7 @@ description: Med Data Connect kan Workfront-administratörer få tillgång till 
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 I vyn Jobbhistorik kan Workfront-administratörer få tillgång till detaljerade poster för varje datauppdateringsjobb. Dessa poster ger värdefull insikt i de jobb som håller dina data uppdaterade och hjälper dig att skapa perfekta tidsramar för när processer ska köras och uppdatera dina affärsvisualiseringar.
 
-![Vyn Jobbhistorik](assets/job-history-tab.png)
+![Vyn Jobbhistorik](assets/job-history-overview.png)
 
 Kolumnerna i jobbhistorikvyn innehåller följande information:
 
