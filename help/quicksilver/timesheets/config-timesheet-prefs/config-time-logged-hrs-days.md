@@ -6,9 +6,9 @@ description: Som användare med en planlicens kan du konfigurera om du ska logga
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * **Systemadministratören konfigurerar tidsloggning för andra:** Börja redigera ett eller flera användarkonton, enligt beskrivningen i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. I den dialogruta som visas letar du reda på alternativet **Logga in** i avsnittet **Resursplanering**.
+1. I den dialogruta som visas letar du reda på alternativet **Loggtid in** i avsnittet **Resursplanering**.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![Logga in med alternativ](assets/user-profile-log-time-options.png)
 
 1. (Villkorligt) Om du är systemadministratör och redigerar flera användare samtidigt väljer du **Logga in**.
 1. Välj bland följande alternativ för loggningstid:
