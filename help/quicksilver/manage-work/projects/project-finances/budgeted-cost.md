@@ -3,11 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Beräkna budgeterad kostnad
-description: Beräkna förlopp för budgeterat kostnadsspårningsprojekt med en användningsrapport""
+description: Beräkna förlopp för budgeterat kostnadsspårningsprojekt med en användningsrapport
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%

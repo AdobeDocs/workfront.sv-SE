@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Spara ett projekt som en mall
-description: Spara ett projekt som en mallSpara som mall på projektnivå, så att användarna ser det i användargränssnittet. Det finns en annan artikel där den här länken är mer detaljerad (steg för steg). Den här funktionaliteten måste finnas kvar i både projekt OCH mallområden.)"
+description: Spara ett projekt som en mall på projektnivå så att användarna ser det i användargränssnittet. Det finns en annan artikel som den här länken länkar till som är mer detaljerad (steg för steg). Den här funktionaliteten måste finnas kvar i både projekt- OCH mallområdena.)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Om du bestämmer dig för att ett projekt ska inträffa igen någon gång i fram
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 

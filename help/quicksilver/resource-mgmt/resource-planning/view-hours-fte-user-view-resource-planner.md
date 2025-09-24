@@ -3,11 +3,11 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när användarvyn används
-description: Visa Tillgängliga, Planerade och Faktiska timmar eller Faktiska timmar i resursplaneraren när du använder användarvyn i Planering i den högra panelen, t.ex."Budgeteringsresurser i den högra panelen" eller"Hantera resurser i den högra panelen". eller behöver återanvändas från ett annat POV?!"
+description: Visa Tillgängliga, Planerade och Faktiska timmar eller Faktiska timmar i resursplaneraren när du använder användarvyn Planering i referenspunkten - t.ex."Budgeteringsresurser i den interna resursplaneraren" eller"Hantera resurser i den interna resursplaneringsplanen". eller behöver återanvändas från en annan POV?!
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 0%
@@ -58,13 +58,13 @@ Tänk på följande när du visar information om timmar eller FTE i resursplaner
 
 Se följande tabeller för att förstå informationen som visas i vyn Användare i Resursplaneraren. Informationen visas i timmar eller FTE-värden.
 
-* [AVL (tillgänglig) kolumn](#the-avl-available-column)
+* [AVL-kolumnen (tillgänglig)](#the-avl-available-column)
 * [PLN-kolumnen (planerad)](#the-pln-planned-column)
 * [ACT-kolumnen (faktisk)](#The%C2%A0ACT)
 * [DIF-kolumnen (Differens)](#the-dif-difference-column)
 * [Kolumnen % (procentandel för planerad timfördelning)](#the-planned-hours-allocation-percentage-column)
 
-### Kolumnen AVL (tillgänglig) {#the-avl-available-column}
+### AVL-kolumnen (tillgänglig) {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
