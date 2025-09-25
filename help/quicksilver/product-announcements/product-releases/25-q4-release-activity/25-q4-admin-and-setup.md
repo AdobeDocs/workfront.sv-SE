@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Den här sidan beskriver administratörsförbättringar som gjorts i den fjärde utgåvan av kvartal 2025 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Bekräftelse när ett anpassat formulär tas bort från ett objekt
+
+>[!NOTE]
+>
+>* Förhandsgranska: 25 september 2025
+>* Production fast release: 15 oktober 2025
+>* Produktion för alla kunder: 16 oktober 2025
+
+För att vara säker på att du fortfarande har tillgång till de data du behöver har vi lagt till en bekräftelsedialogruta när vi tar bort ett anpassat formulär från ett objekt. Om du tar bort ett anpassat formulär från ett objekt tas data i det formuläret bort permanent från objektet. I dialogrutan kan du nu bekräfta att du är införstådd med att dessa data kommer att tas bort, så att du inte tar bort de data du behöver.
+
+Tidigare var den enda varningen för borttagning av data text nära alternativet remove.
+
+Mer information om hur du tar bort ett anpassat formulär finns i [Ta bort ett anpassat formulär från ett objekt](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) i artikeln Hantera anpassade formulär som är kopplade till objekt.
 
 ## Uppdateringar av Workfront användarprofil
 

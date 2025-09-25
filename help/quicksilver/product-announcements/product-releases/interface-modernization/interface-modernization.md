@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '7834'
+source-wordcount: '8092'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,40 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### Gränssnittsuppdateringar för området Allvarlighetsgrader i installationsprogrammet
+
+**Förhandsversion: 25 september 2025; Produktionsversion: 2 oktober 2025**
+
+Vi har uppdaterat sidan Allvarlighetsgrader med en modernare design som är i linje med andra delar av Workfront.
+
+En synlig ändring i gränssnittet är att om du vill göra en allvarlighetsgrad till standard eller ta bort en allvarlighetsgrad, måste du markera kryssrutan bredvid allvarlighetsgraden och välja ett alternativ i åtgärdsfältet längst ned på skärmen.
+
+Om du vill visa de här ändringarna går du till Inställningar > Projektinställningar > Allvarlighetsgrader.
+
+Mer information finns i [Skapa eller anpassa utgåvans allvarlighetsgrad](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+
+### Gränssnittsuppdateringar för området Prioriteter i installationsprogrammet
+
+**Förhandsversion: 25 september 2025; Produktionsversion: 2 oktober 2025**
+
+Vi har uppdaterat sidan Prioriteter med en modernare design som överensstämmer med andra delar av Workfront.
+
+En synlig ändring i gränssnittet är att du måste markera kryssrutan intill prioritetsnamnet och välja ett alternativ i åtgärdsfältet längst ned på skärmen om du vill göra en prioritet till standard eller ta bort en prioritet.
+
+Om du vill visa ändringarna går du till Inställningar > Projektinställningar > Prioriteter.
+
+Mer information finns i [Skapa och anpassa prioriteringar](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Gränssnittsuppdateringar när du lägger till eller redigerar tidrapportprofil i inställningsområdet
 
@@ -392,7 +426,27 @@ Mer information finns i
 * [Skapa ämnesgrupper](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Skapa routningsregler](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
+
 ## Användare
+
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### Gränssnittsuppdateringar för ledig tid
+
+**Förhandsversion: 25 september 2025; Produktionsversion: 2 oktober 2025**
+
+Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklusive möjligheten att delegera godkännanden, så att den matchar andra delar av programmet.
+
+Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
+
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 
