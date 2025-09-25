@@ -7,9 +7,9 @@ description: Det finns flera sätt att använda prioriteringar för projekt och 
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Tänk på följande när du väljer en prioritet för dina projekt:
    * Hög
    * Urgent
 
-   ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
+   ![Prioritetslista i ett projekt](assets/project-priority-picker-list.png)
 
 1. Klicka på **Spara ändringar**.
 

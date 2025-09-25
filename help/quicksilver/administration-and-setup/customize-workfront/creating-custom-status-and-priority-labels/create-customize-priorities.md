@@ -5,14 +5,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
 # Skapa och anpassa prioriteringar
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -60,11 +62,11 @@ Som Workfront-administratör kan du göra följande ändringar av standardpriori
 * Byt namn på prioriteter.
 * Ändra ordningen på prioriteterna.
 
-  Mer information om hur du ändrar ordning på prioriteter finns i [Skapa en prioritet för en projektuppgift eller Problem](#create-a-priority-for-a-project-task-or-issue).
+  Mer information om hur du ändrar ordning på prioriteter finns i [Skapa en prioritet för ett projekt, en aktivitet eller ett problem](#create-a-priority-for-a-project-task-or-issue).
 
 * Ändra standardprioritet.
 
-  Mer information om hur du ändrar standardprioritet finns i [Skapa en prioritet för en projektuppgift eller ett problem](#create-a-priority-for-a-project-task-or-issue).
+  Mer information om hur du ändrar standardprioritet finns i [Skapa en prioritet för ett projekt, en uppgift eller ett problem](#create-a-priority-for-a-project-task-or-issue).
 
 * Redigera beskrivningen för prioriteterna.
 * Ange en färg för varje prioritet.
@@ -79,7 +81,7 @@ Som Workfront-administratör kan du göra följande ändringar av standardpriori
 
 * Dölj prioriteter.
 
-  Mer information om hur du döljer prioriteter finns i [Skapa en prioritet för en projektuppgift eller ett problem](#create-a-priority-for-a-project-task-or-issue).
+  Mer information om hur du döljer prioriteter finns i [Skapa en prioritet för ett projekt, en uppgift eller ett problem](#create-a-priority-for-a-project-task-or-issue).
 
   >[!NOTE]
   >
@@ -93,7 +95,7 @@ Prioriteringarna som anges som standard för varje objekttyp (projekt, uppgift o
 * Hög
 * Urgent
 
-## Skapa en prioritet för en projektuppgift eller ett ärende {#create-a-priority-for-a-project-task-or-issue}
+## Skapa en prioritet för ett projekt, en uppgift eller ett ärende {#create-a-priority-for-a-project-task-or-issue}
 
 Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteringar som speglar organisationens behov.
 
@@ -102,41 +104,49 @@ Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteri
 1. Klicka på **Projektinställningar** > **Prioriteter** i den vänstra panelen.
 
 1. Klicka på fliken för den objekttyp som du vill skapa en prioritet för (**Projekt**, **Aktivitet** eller **Problem**).
-1. Klicka på **Lägg till en ny prioritet**.
-1. Ange följande information för den nya prioriteten:
+1. Klicka på <span class="preview">**Ny rad** längst ned i tabellen</span> eller **Lägg till ny prioritet**.
+1. Konfigurera följande alternativ för prioriteten:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Prioritetsnamn</td> 
-      <td>Ange ett namn för prioriteten.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Prioritet</td> 
-      <td> <p>När du lägger till en ny prioritet tilldelas den som standard ett nummer. Redigera det här numret om det inte passar dina behov.</p> <p><strong>Importance</strong>-numret för varje prioritet måste vara unikt för det valda objektet.<br>Antalet prioriteter återspeglar vikten av projektet, aktiviteten eller utgåvan: det högsta antalet motsvarar den högsta prioriteten.</p> <p><b>Obs!</b> Du kan inte redigera prioritetsnumret när du har sparat prioriteten. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Färg</td> 
-      <td> <p>Välj en färg som du vill prioritera.</p> <p>Färgen på prioriteten används i diagramrapporter och Agile Team Settings. Mer information om diagramrapporter finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Lägga till ett diagram i en rapport</a>.</p> <p>Mer information om Agile Team-inställningar finns i .</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Standardprioritet</td> 
-      <td> <p>Bestäm om detta ska vara standardprioritet eller inte genom att markera alternativknappen.</p> <p>Om en prioritet har angetts som <strong>standardprioritet</strong> väljs den automatiskt för alla projekt, aktiviteter eller utgåvor i Workfront. <strong>Normal</strong> är standardprioritet för alla objekt i Workfront.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Beskrivning</td> 
-      <td>Lägg till en beskrivning av prioriteten för att förklara dess funktion.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Dölj</td> 
-      <td> <p>Markera den här rutan om du vill dölja prioriteten.</p><p>När du väljer alternativet <b>Dölj</b> visas inte prioriteten någonstans i Workfront och användarna kan inte välja den för sina projekt, uppgifter och ärenden.</p> 
-      <p><b>VIKTIGT</b>: Vi rekommenderar att du döljer de prioriteringar som du inte längre vill använda, i stället för att ta bort dem. Genom att dölja dem sparar du fortfarande alla historiska data om objekt som har slutförts med den här prioriteten, samtidigt som du förhindrar att andra väljer den här prioriteten i framtiden. </p>
-      <p>Om du vill kan du ändra ordningen på prioriteterna genom att dra och släppa dem i önskad ordning. Detta ändrar visningsordningen för projekt, uppgifter och ärenden. Detta ändrar inte <b>Importance</b>-numret. </p></td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Prioritetsnamn**: Ange ett namn för prioriteten.
+   * **Viktighet**: När du lägger till en ny prioritet tilldelas den ett nummer som standard. Redigera det här numret om det inte passar dina behov.
+
+     Importnumret för varje prioritet måste vara unikt. Antalet prioriteter återspeglar projektets, uppgiftens eller frågans betydelse: det högsta antalet motsvarar den högsta prioriteten.
+
+     Du kan inte redigera det här numret när du har sparat prioriteten.
+
+   * **Färg**: Välj en färg för prioriteten.
+
+     Färgen på prioriteten används i diagramrapporter och Agile Team Settings. Mer information om diagramrapporter finns i [Lägga till ett diagram i en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). Mer information om Agile Team-inställningar finns i [Skapa ett smidigt team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+
+   * **Standardprioritet**: Välj den prioritet du vill att Workfront ska tillämpa automatiskt på alla nyskapade projekt, aktiviteter eller utgåvor.
+
+     **Normal** är standardprioritet för alla objekt i Workfront.
+
+     Du kan inte göra en dold prioritet till standard.
+
+     <div class="preview">
+
+     Standardprioriteten anges med ikonen ![Standardprioritet](assets/default-icon.png). Gör något av följande om du vill välja en ny standard:
+
+      * Markera kryssrutan bredvid prioritetsnamnet och välj **Gör standard** i åtgärdsfältet längst ned på skärmen.
+      * Håll muspekaren över prioritetsnamnet och klicka på menyn **Mer** som visas. Välj sedan **Använd som standard**.
+
+        Den nya standardprioriteten anges med ikonen .
+
+     </div>
+
+   * **Beskrivning**: Ange en beskrivning av prioriteten för att förklara dess funktion.
+   * <span class="preview">**Dölj alternativ**</span> eller **Dölj**: <span class="preview">Välj **Ja**</span> eller markera kryssrutan om du vill dölja en prioritet som inte längre behövs.
+
+     En dold prioritet visas inte någonstans i Workfront, så användarna kan inte välja den för sina projekt, uppgifter eller ärenden.
+
+     >[!IMPORTANT]
+     >
+     >Istället för att ta bort prioriteringar som du inte längre vill använda föreslår vi att du döljer dem. På så sätt behåller du alla historiska data om objekt som redan har slutförts med prioritet samtidigt som du förhindrar att andra använder prioriteten i framtiden.
+
+1. (Valfritt) Ändra listordningen för dina prioriteringar genom att dra och släppa dem i önskad ordning.
+
+   Detta ändrar visningsordningen för projekt, uppgifter eller utgåvor. Det ändrar inte **Importance**-numret.
 
 1. Klicka på **Spara**.
 

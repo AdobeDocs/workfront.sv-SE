@@ -6,7 +6,7 @@ description: Du kan definiera en prioritet för ett problem för att ange hur vi
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Uppdatera prioritet för utgåva
 
-Du kan definiera en prioritet för ett problem  för att ange hur viktigt problemet är.
+Du kan definiera en prioritet för ett problem för att ange hur viktigt problemet är.
 
-Du måste ha behörigheten Hantera för problemet för att kunna ändra prioriteten för problemet.  [Uppdatera prioriteten för ett problem](#update-the-priority-of-an-issue).
+Du måste ha behörigheten Hantera för problemet för att kunna ändra prioriteten för problemet. [Uppdatera prioriteten för ett problem](#update-the-priority-of-an-issue).
 
 ## Åtkomstkrav
 
@@ -103,7 +103,7 @@ I följande tabell kan du se hur varje standardprioritetsetikett och dess motsva
 
 1. Klicka på fältet **Prioritet** i området **Grundläggande information**.
 
-   ![Ärendeprioritet](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Ärendeprioritet](assets/issue-priority-field.png)
 
 1. Välj ett värde för fältet **Prioritet**.
 
