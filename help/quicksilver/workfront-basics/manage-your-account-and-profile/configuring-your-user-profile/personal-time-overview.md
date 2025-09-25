@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Konfigurera ledig tid
 description: Det är viktigt att ange i Adobe Workfront när en godkänd tid är ledig, eftersom detta påverkar ditt schema och påverkar de planerade datumen för slutförande av de uppgifter du har tilldelats.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # Konfigurera ledig tid
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -74,10 +76,13 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 >
 >![arbetsprofil](assets/aue-profile.png)
 
-
 1. Klicka på **[!UICONTROL Time Off]** i den vänstra panelen.
 1. Välj önskat datum för din personliga ledig tid.
 
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Personlig tid för kalendern](assets/personal-time-off-calendar-0925.png)
+
+   Exempelbild i produktionsmiljön:
    ![Personlig tid för kalendern](assets/personal-time-off-calendar.png)
 
 1. Välj **[!UICONTROL All day]** om du vill ta en hel dag ledigt.

@@ -6,7 +6,7 @@ description: Genom att delegera godkännandebegäranden kan du tilldela en annan
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 0%
@@ -117,10 +117,10 @@ Så här delegerar du godkännanden till en annan användare:
 1. Ange följande information i avsnittet Delegera mina godkännanden:
 
    * **Namn**: Börja skriva namnet på den användare som du vill delegera godkännanden till och klicka sedan på namnet när det visas i listrutan.
-   * **Startdatum**: Välj det datum då godkännanden ska vidarebefordras. Vidarebefordran börjar kl. 12.00 på det datum du väljer.\
+   * **Startdatum**: Välj det datum då godkännanden ska vidarebefordras. Vidarebefordran börjar kl. 12.00 på det datum du väljer.:00\
      Startdatumet måste vara det aktuella datumet eller ett framtida datum.
    * **Slutdatum**: Gör något av följande:
-      * Välj det datum då godkännanden inte längre ska vidarebefordras. Vidarebefordran upphör kl. 23.59 på det datum du väljer.
+      * Välj det datum då godkännanden inte längre ska vidarebefordras. Vidarebefordran upphör kl. 11.00 på det datum du väljer.:59
       * Välj **Inget slutdatum** om du vill konfigurera Workfront att delegera godkännanden på obestämd tid.
 
 1. Klicka på **Spara**.
@@ -133,13 +133,14 @@ Så här delegerar du godkännanden till en annan användare:
    >[!NOTE]
    >
    >Workfront-administratörer kan inaktivera godkännandedelegeringar från inställningsområdet. Om godkännandedelegeringar är inaktiverade visas inte knappen Delegera godkännanden.
+
 1. Ange följande information i avsnittet Delegera mina godkännanden:
 
    * **Namn**: Börja skriva namnet på den användare som du vill delegera godkännanden till och klicka sedan på namnet när det visas i listrutan.
-   * **Startdatum**: Välj det datum då godkännanden ska vidarebefordras. Vidarebefordran börjar kl. 12.00 på det datum du väljer.\
+   * **Startdatum**: Välj det datum då godkännanden ska vidarebefordras. Vidarebefordran börjar kl. 12.00 på det datum du väljer.:00\
      Startdatumet måste vara det aktuella datumet eller ett framtida datum.
    * **Slutdatum**: Gör något av följande:
-      * Välj det datum då godkännanden inte längre ska vidarebefordras. Vidarebefordran upphör kl. 23.59 på det datum du väljer.
+      * Välj det datum då godkännanden inte längre ska vidarebefordras. Vidarebefordran upphör kl. 11.00 på det datum du väljer.:59
       * Välj **Inget slutdatum** om du vill konfigurera Workfront att delegera godkännanden på obestämd tid.
 
 ## Uppdatera eller stoppa en godkännandedelegering {#update-or-stop-an-approval-delegation}
