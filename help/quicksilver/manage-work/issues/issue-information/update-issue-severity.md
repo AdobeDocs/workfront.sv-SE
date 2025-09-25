@@ -6,7 +6,7 @@ description: Du kan koppla en allvarlighetsgrad till problem i Adobe Workfront. 
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Så här uppdaterar du allvarlighetsgraden för ett problem i området Utfärdan
 
 1. Klicka på fältet **Allvarlighetsgrad** i området **Grundläggande information**.
 
-   ![Ärendeallvarlighetsgrad](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![Ärendeallvarlighetsgrad](assets/issue-severity-field.png)
 
 1. Välj lämplig **allvarlighetsgrad** i listrutan.
 

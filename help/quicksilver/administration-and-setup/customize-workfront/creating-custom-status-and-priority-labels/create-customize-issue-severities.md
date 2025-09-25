@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 # Skapa eller anpassa utgåvans allvarlighetsgrad
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -72,7 +74,7 @@ Workfront har fem inbyggda problemallvarlighetsgrader:
 * Fel utan någon lösning
 * Allvarligt fel
 
-<p>Du kan redigera följande för dessa allvarlighetsgrader:</p>
+Du kan redigera följande för dessa allvarlighetsgrader:
 
 * Namn
 * Färg
@@ -82,10 +84,11 @@ Workfront har fem inbyggda problemallvarlighetsgrader:
 * Vilken allvarlighetsgrad som är standard
 
   Mer information om standardallvarlighetsgrader finns i [Skapa eller redigera en utgåva med allvarlighetsgrad](#create-or-edit-an-issue-severity) i den här artikeln.
+
 * Beskrivning
 * Om en allvarlighetsgrad är dold i Workfront
 
-  Mer information om att dölja en allvarlighetsgrad finns i [Skapa eller redigera en allvarlighetsgrad för ett problem](#create-or-edit-an-issue-severity")
+  Mer information om hur du döljer en allvarlighetsgrad finns i [Skapa eller redigera en allvarlighetsgrad för ett problem](#create-or-edit-an-issue-severity) i den här artikeln.
 
 * Ta bort en allvarlighetsgrad
 
@@ -99,44 +102,45 @@ Som Workfront-administratör kan du skapa och redigera utgåvor som passar dina 
 
 1. Klicka på **Projektinställningar** > **Allvarlighetsgrader** i den vänstra panelen.
 
-1. Om du skapar en ny allvarlighetsgrad klickar du på **Lägg till en ny allvarlighetsgrad**.
+1. Om du skapar en ny allvarlighetsgrad klickar du på <span class="preview">**Ny rad** längst ned i tabellen</span> eller **Lägg till en ny allvarlighetsgrad**.
 1. Konfigurera följande alternativ för den nya allvarlighetsgraden eller redigera dem för en befintlig:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Allvarlighetsgrad</td> 
-      <td>Ange ett namn för allvarlighetsgraden</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Prioritet</td> 
-      <td>Öka eller minska allvarlighetsgraden, som ursprungligen tilldelats av Workfront, efter allvarlighetsgraden.
-      <p>Importnumret för varje allvarlighetsgrad måste vara unikt. Den högsta siffran motsvarar den högsta allvarlighetsgraden.</p> <p>Du kan inte redigera det här talet när du har sparat allvarlighetsgraden.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Färg</td> 
-      <td> <p>Välj en färg för allvarlighetsgraden.</p> 
-      <p>Färgen på allvarlighetsgraden används i diagramrapporter när du grupperar dina resultat efter allvarlighetsgrad för problem. Mer information om diagramrapporter finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Lägga till ett diagram i en rapport</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Standardallvarlighetsgrad</td> 
-      <td>Välj den allvarlighetsgrad du vill att Workfront automatiskt ska välja alla nyskapade problem.</p>
-      <p>Cosmetic är standardallvarlighetsgraden för problem i Workfront.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Beskrivning</td> 
-      <td>Ange en beskrivning av allvarlighetsgraden för att förklara dess funktion.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Dölj</td> 
-      <td> Dölj en allvarlighetsgrad som inte längre behövs. 
-      <p>En dold allvarlighetsgrad visas inte någonstans i Workfront, så användarna kan inte välja den för sina utgåvor.</p> 
-      <p><b>VIKTIGT</b>: I stället för att ta bort de allvarlighetsgrader som du inte längre vill använda föreslår vi att du döljer dem. På så sätt kan du behålla alla dina historiska data om objekt som redan har slutförts med allvarlighetsgraden, samtidigt som du förhindrar att personer använder allvarlighetsgraden i framtiden.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Allvarlighetsgrad**: Ange ett namn för allvarlighetsgraden.
+   * **Viktighet**: Öka eller minska allvarlighetsgraden, som ursprungligen tilldelats av Workfront, för allvarlighetsgraden.
+
+     Importnumret för varje allvarlighetsgrad måste vara unikt. Den högsta siffran motsvarar den högsta allvarlighetsgraden.
+
+     Du kan inte redigera det här talet när du har sparat allvarlighetsgraden.
+
+   * **Färg**: Välj en färg för allvarlighetsgraden.
+
+     Färgen på allvarlighetsgraden används i diagramrapporter när du grupperar dina resultat efter allvarlighetsgrad för problem. Mer information om diagramrapporter finns i [Lägga till ett diagram i en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+
+   * **Standardallvarlighetsgrad**: Välj den allvarlighetsgrad du vill att Workfront ska tillämpa automatiskt på alla nyskapade problem.
+
+     **Kosmetisk** är standardallvarlighetsgrad för problem i Workfront.
+
+     Du kan inte göra en dold allvarlighetsgrad till standard.
+
+     <div class="preview">
+
+     Standardallvarlighetsgraden anges med ikonen ![Standardallvarlighetsgrad](assets/default-icon.png). Gör något av följande om du vill välja en ny standard:
+
+      * Markera kryssrutan bredvid allvarlighetsgraden och välj **Gör standard** i åtgärdsfältet längst ned på skärmen.
+      * Håll muspekaren över allvarlighetsgraden och klicka på menyn **Mer** som visas. Välj sedan **Använd som standard**.
+
+        Den nya standardallvarlighetsgraden anges med ikonen .
+
+     </div>
+
+   * **Beskrivning**: Ange en beskrivning av allvarlighetsgraden för att förklara dess funktion.
+   * <span class="preview">**Dölj alternativ**</span> eller **Dölj**: <span class="preview">Välj **Ja**</span> eller markera kryssrutan för att dölja en allvarlighetsgrad som inte längre behövs.
+
+     En dold allvarlighetsgrad visas inte någonstans i Workfront, så användarna kan inte välja den för sina utgåvor.
+
+     >[!IMPORTANT]
+     >
+     >I stället för att ta bort de allvarlighetsgrader som du inte längre vill använda föreslår vi att du döljer dem. På så sätt kan du behålla alla dina historiska data om objekt som redan har slutförts med allvarlighetsgraden, samtidigt som du förhindrar att personer använder allvarlighetsgraden i framtiden.
 
 1. (Valfritt) Ändra listordningen för dina allvarlighetsgrader genom att dra och släppa dem i önskad ordning.
 
