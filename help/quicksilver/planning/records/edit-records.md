@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -246,7 +246,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 <!--add another step about drag and drop here when that is available-->
 
 1. Öppna posttypssidan i en kalendervy. Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Villkorligt) Håll markören över ändarna av en posts fält i kalenderns månadsvy och klicka sedan på, dra och släpp marginalerna till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
+1. <span class="preview">(Villkorligt) Håll markören över ändarna på en posts fält i kalendervyn och klicka sedan på, dra och släpp marginalerna till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
 
    <span class="preview">![Vänster fält i kalendervyn för att ändra storlek](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 

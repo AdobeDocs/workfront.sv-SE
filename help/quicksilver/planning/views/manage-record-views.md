@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -187,13 +187,12 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Klicka på **+ Visa** för att lägga till en ny vy.
+1. Beroende på vilken miljö du använder gör du följande:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * Klicka på fliken **+Visa** i produktionsmiljön.
+   * <span class="preview">I förhandsvisningsmiljön klickar du på listruteikonen ![listruteikonen ](assets/drop-down-icon.png) bredvid det aktuella vynamnet och sedan på **+Ny vy**.</span>
+
+1. <span class="preview">Dra och släpp vyer i den ordning du vill.</span>
 1. Välj bland följande typer av vyer:
 
    * Tabell
