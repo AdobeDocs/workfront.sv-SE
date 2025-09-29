@@ -6,9 +6,9 @@ description: Du kan länka dokument och mappar till Adobe Workfront från extern
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
@@ -39,19 +39,16 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Du kan göra korrektur som ursprungligen skapades i Workfront Proof tillgängliga i Workfront. För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika tillgängliga planer finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront-planer</a>.</td> 
+   <td>Du kan göra korrektur som ursprungligen skapades i Workfront Proof tillgängliga i Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>Du kan länka dokument till Workfront från Experience Manager Assets Essentials. Mer information finns i <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">WORKFRONT DAM </td> 
-   <td>Detta kräver ett extra inköp. </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">Andra dokumentleverantörer (via anpassade dokumentintegreringar)</td> 
-   <td> <p class="workfront_plans">För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika tillgängliga planer finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront-planer</a>.</p> </td>
+   <td> <p class="workfront_plans">Dessa integreringar kan konfigureras under Konfigurera.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,6 +96,13 @@ Följande undantag gäller:
 
 * När de tillhandahålls av dokumenttjänsten kan miniatyrbilder och förhandsvisningsbilder lagras på Workfront-servrar.
 * När du använder korrektur i Workfront kopieras dokumentet och läggs till på korrekturservrarna.
+
+## Filstorleksbegränsningar
+
+Molnleverantörer från tredje part:
+
+* En fil: 5 GB eller mindre
+* Flera filer: 1 GB eller mindre (totalt för alla filer)
 
 ## Länka ett dokument från ett externt program till Workfront
 
