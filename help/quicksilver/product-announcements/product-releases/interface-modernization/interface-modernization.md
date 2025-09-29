@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,13 @@ Vi har uppdaterat utseendet och känslan i rutan Redigera mallar när vi rediger
 
 Mer information finns i [Redigera projektmallar](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-### Gränssnittsuppdateringar för en projektlista eller rapport när du använder vyn Milstolpe
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**Förhandsversion: 11 september 2025; Produktionsversion: 18 september 2025**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-Vi har uppdaterat utseendet på en projektlista eller rapport när du använder vyn Milstolpe på dem.
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-Projektlistan eller rapporten överensstämmer nu med designen för andra områden i Workfront. Mer information finns i [Använda vyn Milstolpe](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Gränssnittsändringar för Konvertera en uppgift till ett projekt utan mall
 
