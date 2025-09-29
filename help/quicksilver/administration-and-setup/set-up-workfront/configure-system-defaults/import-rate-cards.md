@@ -4,17 +4,19 @@ description: Du kan använda en mallfil för att skapa dina tariffkort i Excel o
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
+exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
+source-git-commit: e94cbfd9c503936539dbe011e787533222896202
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
-
 # Importera tariffkort från en mall
 
 Du kan använda en mallfil för att skapa dina tariffkort i Excel och importera dem till Adobe Workfront, i stället för att lägga till alla jobbroller och frekvenser manuellt.
+
+Om du vill se exempelkorten som beskrivs i den här artikeln hämtar du [exempelfilen](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip).
 
 ## Viktiga regler för att arbeta med mallfilen
 
@@ -179,6 +181,3 @@ Om du följer dessa steg förhindras onödiga problem och en smidig och korrekt 
 1. Om filen innehåller problem visas ett felmeddelande. Klicka på **Visa problem** om du vill visa problemen på en separat skärm.
 
    Du måste korrigera problemen i Excel-filen och importera den igen innan tariffkorten finns i Workfront.
-
-
-
