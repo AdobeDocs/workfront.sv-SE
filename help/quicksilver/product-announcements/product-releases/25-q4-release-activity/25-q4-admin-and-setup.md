@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->* Förhandsgranska: 25 september 2025
->* Production fast release: 15 oktober 2025
->* Produktion för alla kunder: 16 oktober 2025
+>* Förhandsgranska: 24 september 2025
+>* Produktion för alla kunder: 25 september 2025
 
 För att vara säker på att du fortfarande har tillgång till de data du behöver har vi lagt till en bekräftelsedialogruta när vi tar bort ett anpassat formulär från ett objekt. Om du tar bort ett anpassat formulär från ett objekt tas data i det formuläret bort permanent från objektet. I dialogrutan kan du nu bekräfta att du är införstådd med att dessa data kommer att tas bort, så att du inte tar bort de data du behöver.
 
