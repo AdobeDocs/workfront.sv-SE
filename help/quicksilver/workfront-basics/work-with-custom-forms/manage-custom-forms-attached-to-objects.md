@@ -6,16 +6,16 @@ description: Du kan uppdatera den ordning i vilken anpassade formulär som är k
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 # Hantera anpassade formulär som är kopplade till objekt
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är tillgänglig för alla kunder i förhandsgranskningsmiljön och för en viss grupp av kunder i produktionsmiljön.</span>
 
 Du kan uppdatera den ordning i vilken anpassade formulär som är kopplade till ett objekt visas, tas bort eller gruppredigera hur anpassade formulär visas på flera objekt.
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre till de objekt som du hanterar anpassade formulär för</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter eller högre till objekt som du hanterar anpassade formulär för</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 
    **Exempel:** Om du till exempel vill hantera de anpassade formulären för ett projekt går du till projektet, klickar på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera** .
 
-1. Klicka på ikonen ![](assets/move-icon---dots.png) bredvid namnet på ett anpassat formulär i avsnittet **Anpassad Forms** för projekt, uppgifter och utgåvor. För alla andra objekt klickar du på **Hantera Forms**. Det här alternativet visas bara om minst ett anpassat formulär är kopplat till objektet.
+1. Klicka på ikonen **bredvid namnet på ett anpassat formulär i avsnittet** Anpassad Forms![](assets/move-icon---dots.png) för projekt, uppgifter och utgåvor. För alla andra objekt klickar du på **Hantera Forms**. Det här alternativet visas bara om minst ett anpassat formulär är kopplat till objektet.
 1. Dra ett formulär ![](assets/move-icon---dots.png) till en ny plats i listan.
 1. Klicka på **Spara** för projekt, uppgifter och utgåvor av anpassade formulär.
 
@@ -81,6 +81,8 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 1. För projekt, uppgifter och utleveranser av anpassade formulär klickar du på ikonen **X** till höger om ett formulär för att ta bort det från objektet.
 
    För alla andra objekt klickar du på **Hantera Forms** och sedan på ikonen **X** till höger om ett formulär för att ta bort det från objektet.
+
+1. <span class="preview">Klicka på **Ta bort** i den dialogruta som öppnas.</span>
 
 1. Klicka på **Spara** .
 
