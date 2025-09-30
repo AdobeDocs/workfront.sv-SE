@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Vi har uppdaterat utseendet och känslan i Workfront användarprofil till en mod
 Det finns några små skillnader i funktionalitet jämfört med den aktuella användarprofilen, bland annat:
 
 * Vissa kryssrutor (som att markera användaren som aktiv) har ändrats till växlar eller knappar.
-* Alternativet &quot;Skicka material som jag själv har tilldelat mig själv till fliken Arbeta på&quot; under Inställningar har tagits bort eftersom det hänvisar till en inaktuell funktion.
+* Alternativet &quot;Skicka material som jag har tilldelat mig själv till fliken Arbeta med&quot; under Inställningar har ändrats till &quot;Ange aktivitetsstatus automatiskt till Pågår när uppgifter är självtilldelade&quot; för att återspegla dess syfte.
 
 Mer information finns i [Redigera en användares profil](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

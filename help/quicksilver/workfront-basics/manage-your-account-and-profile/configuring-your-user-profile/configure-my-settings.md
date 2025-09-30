@@ -6,7 +6,7 @@ description: Din [!DNL Adobe Workfront] profil innehåller information om dig sj
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 0%
@@ -254,7 +254,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td> Om din [!DNL Workfront]-administratör har aktiverat en SSO-integrering med [!DNL Workfront] visas ditt SSO-användarnamn i det här fältet. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Villkorligt) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Om administratören för [!DNL Workfront] aktiverade en SSO-integrering med [!DNL Workfront] och har uppdaterat användare för enkel inloggning, är det här fältet markerat som standard. Typen av SSO-konfiguration som är aktiverad för din [!DNL Workfront]-instans visas i det här fältet.</p> <p>När det här fältet är markerat måste du logga in på [!DNL Workfront] med dina SSO-autentiseringsuppgifter. Om du avmarkerar den kan du logga in på [!DNL Workfront] med dina [!DNL Workfront]-inloggningsuppgifter.</p> <p>Mer information om hur du konfigurerar [!DNL Workfront] med en SSO-lösning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Enkel inloggning i [!DNL Workfront]: artikelindex</a>. Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> </td> 
   </tr>
  </tbody> 
@@ -342,7 +342,7 @@ Du kan ändra något av följande i det här underavsnittet:
    <td><p>Ange önskat språk här. Detta styr vilket språk, datum och nummerformat som används i utgående e-postmeddelanden.</p>
    <p><strong>Obs!</strong> När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Mer information finns i <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändra Adobe Experience Cloud-språk</a> i artikeln <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Språk som stöds i Adobe Workfront</a>.</p></td> 
   </tr>
-  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
+  <tr><td><strong>[!UICONTROL Automatically set the task status to In Progress when tasks are self-assigned]</strong> </td>
   <td>Välj det här alternativet om du vill att statusen för det arbete du tilldelar dig själv automatiskt ska anges till Pågår i stället för Nytt.</td>
   </tr>
   <tr> 
@@ -352,14 +352,6 @@ Du kan ändra något av följande i det här underavsnittet:
   </tr> 
  </tbody> 
 </table>
-
-<!--
-  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
-  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
-
-  <strong>[!UICONTROLAutomatically set the task status to In Progress when tasks are self-assigned]</strong>: When this option is selected, work that you assign to yourself is automatically set to In Progress status instead of New.
-  </tr>
--->
 
 ### [!UICONTROL Notifications]
 
