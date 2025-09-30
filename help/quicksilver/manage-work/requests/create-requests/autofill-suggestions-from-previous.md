@@ -5,21 +5,14 @@ description: Du kan använda AI för att fylla i begärandefält automatiskt med
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Fyll i en begäran automatiskt med data från tidigare begäranden
-
->[!NOTE]
->
->* Den här funktionen kommer att vara tillgänglig som en öppen betaversion enligt följande schema:
->
->   * Månadsutgåva: 11 september 2025
->   * kvartalsvis version: 16 oktober 2025
 
 AI kan hjälpa dig att fylla i begärandefält automatiskt baserat på tidigare begäranden. Du kan godkänna eller avvisa dessa förslag innan du skickar in begäran.
 
