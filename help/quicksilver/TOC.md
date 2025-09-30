@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 74bdbaa0dd4df7b11a96105ad4258b06317b2510
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13520'
 ht-degree: 0%
 
 ---
@@ -1453,6 +1453,7 @@ ht-degree: 0%
          * [Lägg till ett befintligt program i en portfölj](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [Lägga till ett projekt i ett program](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [Ta bort ett projekt från ett program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+         * [Ta bort och inaktivera program](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * Hantera projekt i Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
          * [Hantera projekt i Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Portfolio Optimizer - översikt](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)

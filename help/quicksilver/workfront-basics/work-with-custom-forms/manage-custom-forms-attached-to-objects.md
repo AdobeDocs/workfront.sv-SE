@@ -6,9 +6,9 @@ description: Du kan uppdatera den ordning i vilken anpassade formulär som är k
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,25 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till de objekt som du hanterar anpassade formulär för</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till de objekt som du hanterar anpassade formulär för</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre till objekt som du hanterar anpassade formulär för</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter eller högre till objekt som du hanterar anpassade formulär för</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -73,18 +73,13 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 >
 >När du tar bort ett anpassat formulär från ett objekt, försvinner all information som hämtats i de anpassade fälten i formuläret och kan inte återställas.
 
-1. Gå till objektet där du vill ta bort det anpassade formuläret och börja redigera objektet.
+1. Gå till objektet där du vill ta bort det anpassade formuläret och klicka sedan på avsnittet **Detaljer** i den vänstra panelen för objektet.
 
-   Gå till exempel till ett projekt, klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera** .
+   Gå till exempel till ett projekt och klicka på avsnittet **Projektinformation**.
 
-1. Klicka på **Anpassad Forms**.
-1. För projekt, uppgifter och utleveranser av anpassade formulär klickar du på ikonen **X** till höger om ett formulär för att ta bort det från objektet.
-
-   För alla andra objekt klickar du på **Hantera Forms** och sedan på ikonen **X** till höger om ett formulär för att ta bort det från objektet.
-
-1. <span class="preview">Klicka på **Ta bort** i den dialogruta som öppnas.</span>
-
-1. Klicka på **Spara** .
+1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
+1. Klicka på ikonen **Ta bort** ![](assets/delete-icon.png) till höger om ett anpassat formulärnamn och klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller **Avbryt** för att förhindra att det tas bort.
+1. Klicka på **Spara ändringar** .
 
 ## Hantera flera anpassade formulär som innehåller samma anpassade fält
 

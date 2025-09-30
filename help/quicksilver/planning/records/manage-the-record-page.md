@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Mer information finns i följande artiklar:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto">
  <col>
@@ -264,16 +264,16 @@ Tänk på följande när du lägger till en sida med kopplade poster till en pos
 
 * Du kan lägga till en sida med kopplade poster till en post efter att du har kopplat post- eller objekttyper till posttypen från tabellvyn för en posttyp.
 
-* I produktionsmiljön kan du inte lägga till en sida med kopplade poster i postens förhandsvisningsområde.
+* I produktionsmiljön kan du inte lägga till en sida med kopplade poster från en posts förhandsgranskning.
 
-  <span class="preview">Du kan lägga till en sida med kopplade poster i en posts förhandsgranskningsområde i förhandsgranskningsmiljön.</span>
+  <span class="preview">Du kan lägga till en sida med kopplade poster från en posts förhandsgranskning i förhandsvisningsmiljön.</span>
 
 * Anslutna postsidor visar endast anslutna objekt eller poster från ett objekt eller en posttyp i en tabellvy. På sidan visas inte alla poster av den typen i tabellvyn.
 
 * Beroende på vilken miljö du använder kan du se följande:
 
    * När du har lagt till en sida med kopplade poster till en post i produktionsmiljön visas sidfliken från postens förhandsvisningsområde, men den är tom. Du måste gå till den fullständiga sidan för att se tabellvyn för den anslutna posten.
-   * <span class="preview">I förhandsgranskningsmiljön visas sidan för kopplade poster både från postens förhandsgranskningsområde och från den separata webbläsarfliken.</span>
+   * <span class="preview">I förhandsgranskningsmiljön visas sidan Anslutna poster både från postens förhandsgranskningsområde och från webbläsarfliken.</span>
 
 * Du kan lägga till sidor med kopplade poster för följande anslutna post- eller objekttyper:
 
@@ -332,7 +332,7 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
 
      Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
-   * Redigera alla poster i tabellen på sidan Anslutna poster. Workfront-objekt visas i en skrivskyddad tabellvy och du kan inte redigera dem.
+   * Redigera alla poster i tabellen på sidan Anslutna poster. I produktionsmiljön visas alla Workfront-objekt i en skrivskyddad tabellvy och du kan inte redigera dem. <span class="preview">Du kan infoga redigering av Workfront-projekt i förhandsgranskningsmiljön.</span>
 
 1. (Valfritt) Dubbelklicka på namnet på fliken Anslutna poster
 
@@ -353,7 +353,12 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
    >   Du kan inte skapa, redigera eller ta bort fält i tabellvyn på fliken för en ansluten post.
    >
 
-1. Klicka på **Anslut** för att lägga till eller ta bort poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md)
+1. (Villkorligt) Gör något av följande om du vill koppla fler poster eller objekt:
+
+   * Klicka på **Anslut** längst ned i tabellen om du vill lägga till eller ta bort poster eller Workfront-objekt <span class="preview">förutom projekt.</span>
+   * <span class="preview">Klicka på **Anslut poster** i det övre högra hörnet på sidan med anslutna poster eller på **Ny rad** längst ned i tabellen om du vill lägga till eller ta bort projekt.</span>
+
+   Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 1. (Valfritt) Håll pekaren över namnet på fliken Anslutna poster, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.
 
 

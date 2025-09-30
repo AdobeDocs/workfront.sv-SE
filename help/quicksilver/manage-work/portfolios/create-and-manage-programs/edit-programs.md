@@ -6,9 +6,9 @@ description: Du kan redigera information om program som du har skapat eller som 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -99,14 +99,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Om du vill redigera all information om ett eller flera program gör du något av följande:
 
-   * Klicka på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon.png) bredvid programnamnet och &#x200B;**[!UICONTROL Edit].**
+   * Klicka på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon.png) bredvid programnamnet och sedan **[!UICONTROL Edit].**
    * Gå till en lista över program och välj ett eller flera program som du vill redigera. Klicka sedan på ikonen **[!UICONTROL Edit]** ![Redigera](assets/edit-icon.png) högst upp i listan.
 
-   Dialogrutan **[!UICONTROL Edit Program]** visas.
+     Rutan **[!UICONTROL Edit Program]** visas.
 
-   ![Redigera programruta](assets/edit-program-0925.png)
+     ![Redigera programruta](assets/edit-program-0925.png)
 
-   Alla programfält är tillgängliga i rutan [!UICONTROL Edit Program] och grupperas efter de områden som visas i den vänstra panelen.
+     Alla programfält är tillgängliga i rutan [!UICONTROL Edit Program] och grupperas efter de områden som visas i den vänstra panelen.
 
 1. Det kan vara bra att ange information i följande avsnitt:
 
@@ -136,26 +136,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Uppdatera namnet på programmet. </p> <p>Tips! Detta är inte tillgängligt när du har valt mer än ett program. </p> </td> 
+      <td> <p>Uppdatera namnet på programmet. </p> <p><b>TIPS</b></p><p>Detta är inte tillgängligt när du har valt mer än ett program.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>Skriv en beskrivning av Portfolio för att ange vad som är unikt med det. </p> </td> 
+      <td> <p>Ange en beskrivning för portföljen för att ange vad som är unikt med den. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>Börja skriva namnet på en användare som du vill ange som programhanterare och markera den när den visas i listan. Detta är den person som kan övervaka arbetet som definieras i projekten i programmet. </p> <p>Viktigt: När du utser någon till Program Manager får de automatiskt [!UICONTROL Manage] behörigheter till programmet och projekten i programmet. </p> <p>Tips! Du kan snabbt uppdatera programhanteraren i programhuvudet. </p> </td> 
+      <td> <p>Börja skriva namnet på en användare som du vill ange som programhanterare och markera den när den visas i listan. Detta är den person som kan övervaka arbetet som definieras i projekten i programmet. </p> <p><b><p>VIKTIGT</b></p> <p>När du utser någon till Program Manager får de automatiskt [!UICONTROL Manage] behörigheter till programmet och projekten i programmet. </p> <p><b>TIPS</b></p> <p>Du kan snabbt uppdatera programhanteraren i programhuvudet. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Lägg till namnet på en enskild grupp om gruppen är associerad med programmet eller har ansvar för att slutföra det. </p> <p>Tips:  <p>Gör följande när du öppnar fältet [!UICONTROL Group] från sidan [!UICONTROL Program Details]: </p> <p>Du kan se till att du väljer rätt grupp genom att hålla markören över den och klicka på ikonen [!UICONTROL information] <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Det här alternativet är inte tillgängligt i rutan [!UICONTROL Edit Program]. </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Is Active]</td> 
-      <td> <p> Markera den här kryssrutan om du vill att programmet ska vara aktivt. Andra användare kan hitta aktiva program och bifoga dem till projekt eller lägga till dem i portföljer. Inaktiva program kan inte bifogas till projekt eller portföljer. Detta är aktiverat som standard.</p> </td> 
+      <td> <p>Lägg till namnet på en enskild grupp om gruppen är associerad med programmet eller har ansvar för att slutföra det. </p> <p><b>TIPS</b></p>  <p>Gör följande när du öppnar fältet [!UICONTROL Group] från sidan [!UICONTROL Program Details] för att kontrollera att du väljer rätt grupp: </p> <p>Håll pekaren över gruppnamnet och klicka på ikonen [!UICONTROL information] <img src="assets/info-icon.png"> bredvid det. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Det här alternativet är inte tillgängligt i rutan [!UICONTROL Edit Program]. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--this was removed from the unshimmed version - asking on the epic:
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+     </tr> -->
+
 
 1. Klicka på **[!UICONTROL Save]** eller fortsätt redigera följande avsnitt.
 
@@ -184,4 +187,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. (Valfritt) Välj [!UICONTROL **Privat till mitt företag**] om du vill låsa kommentaren och göra den privat endast för användare i ditt företag.
 
    När du har sparat ändringarna visas den kommentar du lägger till på programmets [!UICONTROL Updates]-flik och ett e-postmeddelande skickas till användarna som ingår i den.
+1. Klicka på **[!UICONTROL Save]**
 

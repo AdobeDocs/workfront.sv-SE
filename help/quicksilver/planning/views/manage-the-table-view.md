@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Mer information om hur du exporterar tabellvyn till en Excel- eller CSV-fil finn
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -100,7 +100,7 @@ Mer information om hur du exporterar tabellvyn till en Excel- eller CSV-fil finn
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Redigera poster med tabellvyn
 
@@ -114,9 +114,9 @@ När du skapar en tabellvy visas alla poster av den valda typen i en tabell. Var
 
 Så här hanterar du en tabellvy:
 
-1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).</span>
 
-   ![Exempel på tabellvy](assets/table-view-example.png)
+   <span class="preview">![Exempel på tabellvy](assets/table-view-example.png)</span>
 
 1. (Valfritt) Klicka på **Radhöjd** och välj sedan bland följande alternativ för att ändra höjden på tabellraderna:
    * Kort
@@ -159,7 +159,11 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    * Klicka på **Fält** i tabellens verktygsfält, dra och släpp fälten i önskad ordning och klicka sedan utanför rutan **Fältens synlighet och ordning** för att stänga den.
 
+     <div class="preview">
+
      ![Fältinställningstabellens verktygsfält utökat](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -203,9 +207,9 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
+   1. <span class="preview">I rutan **Sök** ![Sök-ikon](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen.</span> Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
 
-      ![Sökruta med resultatblå kontur i tabellvyn](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![Sökruta med resultatblå kontur i tabellvyn](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       Du kan använda vilket ord eller specialtecken som helst som visas på skärmen.
 
@@ -459,9 +463,13 @@ Så här lägger du till en gruppering:
 
 1. (Valfritt) Klicka på **Lägg till villkor** och upprepa stegen ovan för att lägga till upp till tre grupperingar.
 
+   <div class="preview">
+
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
    ![Gruppering använd i tabellvy](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 

@@ -6,7 +6,7 @@ description: Portföljer är samlingar av projekt eller program i Adobe Workfron
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -68,6 +68,18 @@ Tänk på följande när du bestämmer dig för att ta bort eller inaktivera por
 * Genom att inaktivera en portfölj säkerställs att namnet på portföljen och dess program inte längre kan tilldelas till projekt när du skapar ett projekt.
 * Om du inaktiverar en portfölj som redan är kopplad till ett projekt tas den inte bort från projektet. Om du tar bort en inaktiverad portfölj från ett projekt måste du återaktivera den innan du kan koppla den till projektet igen.
 
+## Ta bort en portfölj
+
+{{step1-to-portfolios}}
+
+1. Gör något av följande:
+
+   * Markera portföljen i listan och klicka sedan på ikonen **[!UICONTROL Delete]** ![Ta bort](assets/delete.png) .
+   * Klicka på portföljen för att öppna den, klicka sedan på menyn **Mer** ![Mer](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **Ta bort Portfolio**.
+1. Bekräfta genom att klicka på **[!UICONTROL Yes, Delete It]**.
+
+   Portföljen tas bort och kan inte återställas.
+
 ## Inaktivera en portfölj
 
 När du inaktiverar en portfölj kan du fortfarande komma åt den från området [!UICONTROL Portfolios], men den visas inte längre i listan över portföljer när användare försöker lägga till den i ett projekt.
@@ -84,14 +96,4 @@ När du inaktiverar en portfölj kan du fortfarande komma åt den från området
 Portföljen inaktiveras omedelbart.
 1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Activate Portfolio]** för att återaktivera det.
 
-## Ta bort en portfölj
 
-{{step1-to-portfolios}}
-
-1. Gör något av följande:
-
-   * Markera portföljen i listan och klicka sedan på ikonen **[!UICONTROL Delete]** ![Ta bort](assets/delete.png) .
-   * Klicka på portföljen för att öppna den, klicka sedan på menyn **Mer** ![Mer](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **Ta bort Portfolio**.
-1. Bekräfta genom att klicka på **[!UICONTROL Yes, Delete It]**.
-
-   Portföljen tas bort och kan inte återställas.

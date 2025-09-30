@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 
 # Hantera postvyer
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -192,30 +194,32 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
    * Klicka på fliken **+Visa** i produktionsmiljön.
    * <span class="preview">I förhandsvisningsmiljön klickar du på listruteikonen ![listruteikonen ](assets/drop-down-icon.png) bredvid det aktuella vynamnet och sedan på **+Ny vy**.</span>
 
-1. <span class="preview">Dra och släpp vyer i den ordning du vill.</span>
 1. Välj bland följande typer av vyer:
 
    * Tabell
    * Tidslinje
    * Kalender
 
-   En ny flik skapas med den valda vyn.
+   I produktionsmiljön skapas en ny flik med den valda vyn.
 
    Beroende på skärmens bredd kan ytterligare vyer visas på menyn **Mer** ![Mer](assets/more-menu.png).
 
+   >[!TIP]
+   >
+   >När du skapar en posttyp skapas även tabellvyn som standard.
+   >
+   >Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält.
+   >
+   >I annat fall är tidslinjen och kalenderalternativen nedtonade.
+   >
 
->[!TIP]
->
->När du skapar en posttyp skapas även tabellvyn som standard.
->
->Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält.
->
->I annat fall är tidslinjen och kalenderalternativen nedtonade.
->
+   <span class="preview">Välj en visningstyp i förhandsvisningsmiljön och klicka sedan på **Skapa**. En ny vy läggs till i listrutan. </span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![Skapa visningsruta](assets/create-view-box.png)</span>
 
-![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">Dra och släpp vyer i den ordning du vill.</span>
+
+   <span class="preview">![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Villkorligt) Klicka på **Nästa** när du skapar en tidslinje eller kalendervy.
 
