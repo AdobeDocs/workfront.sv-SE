@@ -6,14 +6,16 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
 
 # Skapa, redigera och tilldela tidrapportprofiler
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
 
    Den nya eller befintliga profilsidan för tidrapport visas.
 
-
-1. Klicka på fliken **Ange detaljer** och uppdatera sedan följande information: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. Uppdatera följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -155,6 +156,10 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
    <b>Obs!</b> När du har skickat in en tidrapport för godkännande kan du inte längre redigera timmarna. Om du vill returnera en inskickad tidrapport till ett redigerbart tillstånd måste du återkalla tidrapporten eller låta godkännaren avvisa tidrapporten. Mer information finns i <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Skicka en tidrapport för godkännande</a> och<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Godkänn en tidrapport</a>.</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>Övertid</strong> </td> 
+      <td>Du kan dölja rutan Övertid i tidrapporter. Det här alternativet är inaktiverat som standard.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Tillgängliga timtyper</strong> </td> 
       <td><p>Den här inställningen avser endast allmänna timtyper och inte projektspecifika timtyper. </p>
       <p>Som standard ser användare alla allmänna timmar på en tidrapport. Om din organisation bara vill att specifika allmänna timmar ska visas för en viss uppsättning användare, kan du välja de allmänna timmar som de behöver se i sina tidrapporter genom att markera dem i sin tidrapportprofil i det här fältet. Om du vill inaktivera alla allmänna timmar avmarkerar du alla timtyper för att generera tidrapporten utan ett avsnitt för allmänna timmar.</p></td> 
@@ -165,14 +170,9 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
       <td> <p> Lägg till ett påminnelsemeddelande. Workfront skickar påminnelser till användare som ombeds att fylla i eller godkänna sina tidrapporter. Du måste skapa påminnelsemeddelanden innan du kan koppla dem till en tidrapportprofil.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Övertid</span> </td> 
-      <td>Du kan dölja rutan Övertid i tidrapporter. Det här alternativet är inaktiverat som standard.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. När du skapar tidrapportprofiler på gruppnivå i produktion klickar du på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. När du skapar tidrapportprofiler på gruppnivå klickar du på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">När du skapar tidrapportprofiler på gruppnivå i förhandsgranskningen bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**.</span>
 
    När du skapar tidrapportprofiler för systemet bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,7 +188,7 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
 
 1. Klicka på **Spara**.
 
-1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) för tidrapportprofiler på systemnivå eller **Mer** för grupptidrapportprofiler överst i listan över tidrapportprofiler och klicka sedan på **Generera tidrapporter**.
+1. Klicka på ikonen **Mer** ![Mer](assets/more-icon.png) överst i listan över tidrapportprofiler och klicka sedan på **Generera tidrapporter**.
 
    En bekräftelse visas längst ned på skärmen om att tidrapporterna har skapats. Nya tidrapporter genereras baserat på de nya profiler du har skapat.
 
