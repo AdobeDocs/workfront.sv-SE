@@ -5,16 +5,14 @@ title: Adobe Enterprise Storage - översikt
 description: Adobe Enterprise Storage - översikt
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Enterprise Storage - översikt
 
@@ -40,4 +38,4 @@ Detta banar också väg för framtida integrering av resurshantering med andra A
 
 Integreringen av Workfront och Frame.io utnyttjar Adobe Enterprise-lagring för att ge en enhetlig gransknings- och godkännandeupplevelse. Tack vare den här integreringen kan projektsamordnare hantera projekt och planera arbetet i Workfront, medan kreatörer, marknadsförare och intressenter kan granska och godkänna resurser i Frame.io. Detta garanterar att alla intressenter har tillgång till de senaste versionerna av mediefilerna och att feedback samlas på ett och samma ställe.
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Mer information om integrationen mellan Workfront och Frame.io finns i [Integreringsöversikt för Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).

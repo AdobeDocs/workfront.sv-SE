@@ -5,16 +5,14 @@ title: Bildruta.io - integreringsöversikt
 description: Bildruta.io - integreringsöversikt
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
+exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
-
 
 # Bildruta.io - integreringsöversikt
 
@@ -22,13 +20,13 @@ Tack vare integreringen mellan Workfront och Frame.io kan projektsamordnare hant
 
 ## Byggt på Adobe Enterprise-lagring
 
-Kärnan i denna integrering är Adobe Enterprise-lagring - en molnbaserad lagringslösning som fungerar som central lagringsplats för resurser i Adobe företagsprodukter, inklusive Workfront, Frame.io och Creative Cloud.
+Kärnan i denna integrering är Adobe Enterprise-lagring - en molnbaserad lagringslösning som fungerar som central lagringsplats för resurser i Adobe företagsprodukter, inklusive Workfront och Frame.io. <!--, and Creative Cloud.-->
 
 Några av fördelarna med Adobe Enterprise-lagring:
 
 * Enhetligt lagringslager för kreativa resurser och resurser för arbetshantering
 * Centraliserade behörigheter via Adobe IMS för säker åtkomstkontroll
-* Synlighet från början till slut i Workfront-, Frame.io- och Creative Cloud-apparna <!--coming soon?-->
+* Synlighet från början till slut för resurser i Workfront och Frame.io <!--, and Creative Cloud apps -->
 * Skalbar lagring och kvothantering för företagsbehov
 
 Mer information finns i [Adobe Enterprise-lagringsöversikt](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -60,7 +58,7 @@ Mer information finns i [Kom igång med Frame.io-integreringen](/help/quicksilve
 
 #### Gränser för videogranskning
 
-Det finns ett årligt tak för videokorrektur som sätts till 10 % av en organisations totala betalda Workfront-användarlicenser (Standard och Light). Denna övre gräns tillämpas på organisationsnivå.
+Det finns ett årligt tak för videokorrektur som sätts till 10 % av en organisations totala betalda Workfront-användarlicenser - Standard och Light. Denna övre gräns tillämpas på organisationsnivå.
 
 Workfront-administratörer får meddelanden när användningen når 80 % och 100 % av taket.
 
@@ -72,11 +70,11 @@ Visningsprogrammet Frame.io har stöd för alla vanliga typer av video, bilder, 
 
 #### Åtkomst och licensiering för Frame.io-visningsprogrammet
 
-Visningsprogrammet Frame.io är tillgängligt för alla Workfront-användare med en betald licens. Ingen ytterligare Frame.io-licens krävs för att använda Frame.io-visningsprogrammet för granskningar och godkännanden med den här integreringen.
+Visningsprogrammet Frame.io är standardvisningsprogram för alla Workfront arbetsflöden för granskning och godkännande. Den ingår automatiskt för alla Workfront-användare med en betald licens. Ingen ytterligare Frame.io-licens krävs för att använda Frame.io-visningsprogrammet för granskningar och godkännanden.
 
-Om din organisation vill dra nytta av den extra Frame.io-funktionen, som att överföra resurser direkt till projekt i Frame.io, kan du köpa en företagslicens för Frame.io. Kontakta din kontorepresentant på Adobe för att boka en demo och utforska fördelarna med Frame.io-lösningen.
+Om din organisation vill dra nytta av den extra Frame.io-funktionaliteten som är tillgänglig med den här integreringen, till exempel att överföra resurser direkt till projekt i Frame.io, kan du köpa en Frame.io-företagslicens. Kontakta din kontorepresentant på Adobe för att boka en demo och utforska fördelarna med Frame.io-lösningen.
 
-Workfront korrekturfunktioner är inte tillgängliga med den här integreringen.
+Workfront språkfunktioner är inte tillgängliga med den här integreringen.
 
 ## Kraftfull projekthantering i Workfront
 
@@ -94,24 +92,49 @@ Eftersom integreringen byggs med ESM finns det vissa tvingande struktur- och nam
 
 Med dessa begränsningar i åtanke byter Workfront automatiskt namn på objekt och dokument efter behov för att förhindra konflikter.
 
+### Delning och behörigheter
+
+Som en del av integreringen styrs användarbehörigheterna i Workfront och går ned till Frame.io. Det innebär att du inte kan bjuda in en användare till ett projekt i Frame.io eller ändra användarbehörigheter i Frame.io. Dessa åtgärder måste utföras via Project Share modal i Workfront.
+
+Följande tabell visar hur Workfront-behörigheter mappas till Frame.io-behörigheter:
+
+<table>
+<tr>
+<th>Användarbehörighet för Workfront</th>
+<th>Frame.io-användarbehörighet</th>
+</tr>
+<tr>
+<td>Hantera</td>
+<td>Redigera och dela</td>
+</tr>
+<tr>
+<td>Contribute</td>
+<td>Redigera och dela</td>
+</tr>
+<tr>
+<td>Visa</td>
+<td>Endast kommentarer</td>
+</tr>
+</table>
+
+
+
 ### Dokumenthantering i Workfront
 
 Dokument hanteras på projektnivå med den här integreringen och kan för närvarande inte överföras till aktiviteter eller problem.
 
 Åtkomst till dokument hanteras också på projektnivå. Om en användare har åtkomst till ett projekt kan han/hon få åtkomst till alla dokument som är kopplade till det projektet.
 
-<!--Documents can't be dragged as full folders.-->
-
 ### Begränsningar i dokumentupplevelsen
 
-Eftersom den här integreringen byggs med ESM finns det vissa begränsningar i den ursprungliga dokumentupplevelsen i Workfront:
+Eftersom den här integreringen byggs med Adobe Enterprise-lagring finns det vissa begränsningar i den ursprungliga dokumentupplevelsen i Workfront:
 
 #### Begränsningar
 
 Följande funktioner kommer inte att ingå i den här integreringen:
 
 <!--* External document providers-->
-* Åtkomst till korrektur
+* Åtkomst till korrektur i Workfront
 * Dokumentvisningsprogram i Workfront
 * Favoritdokument
 * Begär dokument
@@ -125,6 +148,3 @@ For now, the following capabilities are not available:
 * Multi-stage approvals
 * Upload documents to comments or updates in Workfront
 * Upload documents to tasks or issues in Workfront-->
-
-
-

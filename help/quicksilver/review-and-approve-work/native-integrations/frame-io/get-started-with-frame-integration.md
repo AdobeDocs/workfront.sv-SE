@@ -6,12 +6,10 @@ description: Kom igång med Frame.io-integreringen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -42,7 +40,7 @@ När arbetsflödet för godkännande har skapats kan granskare och godkännare a
 Mer information om hur du konfigurerar projekt finns i
 
 * [Skapa ett projekt](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Bildruta.io - integreringsöversikt](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Starta formella granskningar och godkännanden i Workfront
 
@@ -72,7 +70,7 @@ Granskare och godkännare kan läggas till i ett arbetsflöde för engångsgodk�
 
 När arbetsflödet för granskning och godkännande har startats i Workfront kan granskare och godkännare öppna Frame.io-visningsprogrammet för att lägga till kommentarer, kommentera resursen och fatta ett beslut.
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+Mer information finns i [Granska och godkänn med Frame.io-visningsprogrammet](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
 #### Öppna Frame.io-visningsprogrammet
 
@@ -83,7 +81,7 @@ Användarna kan öppna Frame.io-visningsprogrammet på följande sätt:
 
 >[!NOTE]
 >
->Externa Workfront-användare meddelas via e-post och uppmanas att skapa en Frame.io-inloggning för att granska och godkänna mediefiler. <!--is this still accurate?-->
+>Externa Workfront-användare meddelas via e-post och uppmanas att skapa en Frame.io-inloggning för att granska och godkänna mediefiler.
 
 ![öppna bildrutevisningsprogrammet från startsidan](assets/open-fio-viewwer.png)
 
