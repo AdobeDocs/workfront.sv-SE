@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2840'
 ht-degree: 0%
 
 ---
@@ -147,13 +147,13 @@ Så här skapar du en begäran i Workfront webbprogram:
 
    Rutan **Ny begäran** öppnas.
 
-1. (Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning och finns i produktionsmiljön visas följande i rutan **Ny begäran**:</span>
+1. (Villkorligt) Om du växlade till den nya upplevelsen och befinner dig i produktionsmiljön visas följande i rutan **Ny begäran**:</span>
 
    <ul><li>De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste. </li>
     <li>Alla ytterligare förfrågningsformulär för Workfront och Planning <b>Alla förfrågningsformulär</b>. Du kan söka efter ett begärandeformulär som inte visas som standard. </li>
     <li>Alla ytterligare kösökvägar för Workfront- och planeringsförfrågningar visas i avsnittet <b>Alla sökvägar för förfrågningar</b>. Du kan söka efter en begärandekö som inte visas som standard.</li></ul>
    Klicka på någon av sökvägarna eller formulären för Workfront-frågekö, eller sök efter en, och klicka sedan på den när den visas i listan.
-1. <span class="preview"> (Villkorligt) Om du växlade till den nya upplevelsen som innehåller Workfront Planning väljer du en av sökvägarna eller formulären för Workfront begärandekö eller klickar på sökfältet. </span>
+1. <span class="preview"> (Villkorligt) Om du växlade till den nya funktionen väljer du en av sökvägarna eller formulären i Workfront-frågekö eller klickar på sökfältet. </span>
 
    <span class="preview">När du klickar på sökfältet visas en listruta med de senast använda köerna och formulären först. Välj en från listan eller börja skriva och välj kön eller listan när den visas.</span>
 
@@ -165,7 +165,7 @@ Så här skapar du en begäran i Workfront webbprogram:
    >* <span class="preview">Om du bara vill visa Workfront Request-köer filtrerar du efter `Issue` objekttyper.</span>
    >* <span class="preview">I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.</span>
 
-1. (Villkorligt) Om du växlade till den nya funktionen som omfattar Workfront Planning väljer du ämnesgrupper och ställer ämnen i kö och fortsätter att uppdatera formuläret.
+1. (Villkorligt) Om du växlade till den nya versionen väljer du ämnesgrupper och köämnen och fortsätter att uppdatera formuläret.
 
    Annars klickar du i fältet **Typ av begäran** och gör något av följande:
 
@@ -348,7 +348,7 @@ Så här skapar du en begäran i Workfront webbprogram:
 
    När du skickar begäran tas utkastet automatiskt bort och kan inte återställas.
 
-   Skickade begäranden visas i avsnittet **Skickade** i området Begäranden. Om du använder den nya upplevelsen som innehåller Workfront Planning visas de begäranden som Workfront har skickat på fliken **Workfront** i området Begäranden.
+   Skickade begäranden visas i avsnittet **Skickade** i området Begäranden. Om du använder den nya versionen visas de förfrågningar som Workfront har skickat på fliken **Workfront** i området Förfrågningar.
 
    Mer information om hur du hanterar inkommande begäranden finns i artikeln [Hantera arbets- och teamförfrågningar](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
