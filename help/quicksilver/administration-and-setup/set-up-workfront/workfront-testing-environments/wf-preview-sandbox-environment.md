@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -191,3 +191,5 @@ I förhandsvisningsmiljön är nattomberäkningen inaktiverad och projekttidslin
 * Alla avbrott i en [!DNL Workfront]-förhandsvisningsmiljö under normal kontorstid kommer att vara den första prioriteten omedelbart efter att eventuella produktionsproblem har lösts.
 
 * Alla avbrott i en [!DNL Workfront]-förhandsvisningsmiljö på helger (lördagar och söndagar) adresseras så att miljön körs under kontorstid på måndag.
+
+* Språkkontroll är inte tillgängligt i förhandsvisningsmiljöer.
