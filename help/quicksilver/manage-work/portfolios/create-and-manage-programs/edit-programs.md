@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Om du vill ha information om de fält som visas i avsnittet [!UICONTROL Program Details] kan du fortsätta redigera programmet i rutan [!UICONTROL Edit Program] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till programmet börjar du skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]**, markerar det när det visas i listan och klickar sedan på **[!UICONTROL Save Changes]**.
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![&#x200B; Exportera &#x200B;](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * [!UICONTROL Overview]

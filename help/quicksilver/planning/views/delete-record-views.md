@@ -109,13 +109,13 @@ Vyn tas bort för alla användare som har behörighet att komma åt den. Det gå
 
    * Beroende på vilken miljö du öppnar vyn från gör du följande:
 
-      * I produktionsmiljön håller du pekaren över fliknamnet för den vy du vill dela och klickar på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Ta bort**.
+      * I produktionsmiljön håller du pekaren över fliknamnet för den vy du vill dela och klickar på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Ta bort**.
 
      >[!TIP]
      >
      >Du kan behöva klicka på **Mer** till höger om den sista fliken för att hitta vyn som du vill ta bort.
 
-      * <span class="preview"> I förhandsvisningsmiljön klickar du på vyns flik, för pekaren över vyn i listrutan, klickar på menyn **Mer** ![Mer ](assets/more-menu.png) och klickar sedan på **Ta bort**.</span>
+      * <span class="preview"> I förhandsvisningsmiljön klickar du på vyns flik, för pekaren över vyn i listrutan, klickar på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) och klickar sedan på **Ta bort**.</span>
 
      ![Mer meny med alternativ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
