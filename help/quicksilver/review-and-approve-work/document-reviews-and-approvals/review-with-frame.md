@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,10 @@ Mer information om Frame.io-integrering med Workfront finns i [Integreringsöver
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ -->
+
+## Förutsättningar
+
+* Du måste ha Workfront- och Frame.io-integreringen konfigurerad i din Workfront-instans. Mer information finns i [Integreringsöversikt för Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
 
 ## Granska ett dokument
 
