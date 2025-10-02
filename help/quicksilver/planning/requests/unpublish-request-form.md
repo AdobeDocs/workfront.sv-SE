@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Du kan också ändra de enheter som du delar ett begärandeformulär med, om du 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -117,7 +117,7 @@ Så här ändrar du delningen av ett begärandeformulär:
 
 {{step1-to-planning}}
 
-1. Klicka på arbetsytan där du vill lägga till poster.
+1. Klicka på arbetsytan där du vill dela ett formulär.
 
    Arbetsytan öppnas och posttyperna visas som kort.
 
