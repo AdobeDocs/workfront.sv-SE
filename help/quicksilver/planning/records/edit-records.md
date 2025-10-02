@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    <span class="preview">![Vänster fält i tidslinjevyn för att ändra storlek](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview">Klicka på ett postfält och dra och släpp det på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för postuppdateringen automatiskt.</span>
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
@@ -246,17 +246,11 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 <!--add another step about drag and drop here when that is available-->
 
 1. Öppna posttypssidan i en kalendervy. Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Villkorligt) Håll markören över ändarna på en posts fält i kalendervyn och klicka sedan på, dra och släpp marginalerna till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
+1. <span class="preview">(Villkorligt) Håll markören över ändarna på en posts fält i kalendervyn och klicka sedan på, dra och släpp marginalerna till ett annat datum. Detta uppdaterar automatiskt postens start- eller slutdatum.</span>
 
    <span class="preview">![Vänster fält i kalendervyn för att ändra storlek](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-   <!--At preview release, add one of the following depending on which one is releasing: 
-    Scenario one: only drag and drop in the weekly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario two: only drag and drop in the monthly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
-    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview">Klicka på ett postfält och dra och släpp det på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för postuppdateringen automatiskt.</span>
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 

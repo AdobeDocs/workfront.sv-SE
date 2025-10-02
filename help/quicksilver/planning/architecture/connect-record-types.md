@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,12 @@ Det är praktiskt att koppla posttyper när du har flera typer av arbetsobjekt s
 
 I den här artikeln beskrivs hur du kan koppla två typer av Workfront Planning-poster, eller en Workfront Planning-posttyp, till ett objekt från ett annat program.
 
-När du har upprättat anslutningen mellan poster eller objekttyper kan du koppla enskilda poster till varandra och visa fält från den länkade posten eller objekttypen på en Workfront Planning-post.
+När du har upprättat anslutningen mellan poster eller objekttyper läggs ett anslutningsfält till i en Planning-posttyp. I anslutningsfältet kan du koppla enskilda poster till varandra och visa fält från den länkade posten eller objekttypen i en Workfront Planning-post.
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 Allmän information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -126,19 +131,18 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Klicka på ikonen **+** i tabellvyns övre högra hörn och klicka sedan på fliken **Ny anslutning** .
 
-   ![Ny anslutningsflik med alternativ för Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Ny anslutningsflik med alternativ för Workfront AEM](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. I fältet **Posttyp** söker du efter en posttyp eller väljer något av följande:
+1. Sök efter en posttyp eller välj något av följande:
 
-   * En annan posttyp från den aktuella arbetsytan
+   * <span class="preview">En posttyp från den aktuella arbetsytan</span>
 
-     ![Många till många anslutningsväljare](assets/many-to-many-connection-picker.png)
+     <span class="preview">![Flervalsanslutningsväljaren för posttypen samma arbetsyta](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >Om du inte har andra posttyper i den valda arbetsytan visas inte arbetsyteavsnittet.
-
 
    * En posttyp från en annan arbetsyta som konfigurerats för anslutning från andra arbetsytor.
 
@@ -149,13 +153,13 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
      Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![Ny anslutning som tillåter flera poster, ruta](assets/new-connection-allow-multiple-records-box.png)
+     ![Ny anslutning som tillåter flera poster, ruta](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-   * Ett **projekt, Portfolio, program, företag** eller **grupp** från avsnittet **Workfront-objekttyper**.
+   * <span class="preview">Ett **projekt, Portfolio, Program, Företag** eller **Grupp** från avsnittet **Workfront-objekttyper**.</span>
 
-     ![Val av projektanslutning för Workfront](assets/workfront-project-connection-selection.png)
+     <span class="preview">![Val av projektanslutning för Workfront](assets/multi-select-connection-picker-project.png)</span>
 
-   * **Experience Manager Assets** från avsnittet **Adobe-program**.
+   * **Experience Manager Assets** från avsnittet **Adobe-program**. <!--update screen shot??-->
 
      ![Val av AEM Assets-anslutning](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 1. Uppdatera fältet **Beskrivning** genom att lägga till information om det anslutna postfältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
 1. (Villkorligt) När du ansluter posttyper från två olika arbetsytor eller en post och ett Adobe Experience Manager-resursobjekt väljer du **Tillåt flera poster**. Genom att markera den anger du att du tillåter användare att lägga till flera poster när fältet för kopplad posttyp visas på de ursprungliga posterna. Detta är markerat som standard.
 
-   ![Ny anslutning som tillåter flera poster, ruta](assets/new-connection-allow-multiple-records-box.png)
+   ![Ny anslutning för posttyp från en annan arbetsyta](assets/new-connection-allow-multiple-records-box.png)
 
 1. (Villkorligt) När du ansluter posttyper från samma arbetsyta, eller en Planning-posttyp med en Workfront-objekttyp, gör du något av följande, beroende på vilken miljö du använder:
 
@@ -197,6 +201,8 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
          >
          >Det finns en gräns på 500 fält för en posttyp. Vi rekommenderar att den här inställningen inte används, särskilt för taxonomiska posttyper, för att undvika att den här gränsen uppnås.
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. (Villkorligt) Om du har aktiverat **Skapa motsvarande fält för den länkade posttypen** kan du välja bland följande alternativ för att ange hur många poster som användare kan ansluta till och från:
 
          * Många till många
@@ -222,7 +228,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Villkorligt) När du väljer att ansluta till Experience Manager Assets eller till en posttyp för Workfront Planning väljer du något av följande alternativ i området **Postutseende**:

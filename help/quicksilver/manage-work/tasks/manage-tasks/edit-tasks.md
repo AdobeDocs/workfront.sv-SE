@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3810'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,22 @@ ht-degree: 0%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ Du kan redigera information om åtgärder som du har skapat eller om du har beh�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Nytt: Standard</p>
-   <p>Aktuell: Arbete eller högre</p> </td> 
+   <td> <p>Standard</p>
+   <p>Arbeta eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
@@ -148,7 +158,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    1. (Valfritt) Klicka på ikonen **Exportera** ![](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
-      * Ökning
+      * Översikt
       * Namnet på ett eller flera anpassade formulär
 
       PDF-filen hämtas till din dator.
@@ -183,6 +193,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    * [Anpassad Forms](#Custom%C2%A0F)
    * [Ekonomi](#finance)
    * [Inställningar](#settings)
+   * [Kommentar](#comment)
 
    >[!NOTE]
    >
@@ -199,7 +210,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
 1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 
-### Ökning {#overview}
+### Översikt {#overview}
 
 1. Börja redigera din uppgift enligt beskrivningen ovan.
 1. Klicka på **Översikt** i den vänstra panelen.
@@ -605,9 +616,23 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
    </table>
     </li>
 
-1. Klicka på **Spara**.
+1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Kommentar
+
+1. Börja redigera din uppgift enligt beskrivningen i avsnittet [Redigera uppgifter](#Edit2) i den här artikeln.
+1. Klicka på **Kommentar** i den vänstra panelen.
+
+   ![Kommentarssektion för redigeringsaktivitetsruta](assets/comment-section-on-edit-task-box.png)
+
+1. Lägg till en uppdatering i det tillgängliga utrymmet.
+1. (Valfritt) Lägg till något av följande i uppdateringen:
+
+   * Lägg till användare eller team i uppdateringen i **Tagga personer** eller använd @ för att inkludera dem i uppdateringen.
+   * Markera kryssrutan **Privat till mitt företag** för att hålla uppdateringen privat för personer i ditt företag.
+1. Klicka på **Spara**.
 
 ## Redigera en uppgift i uppgiftshuvudet (begränsat)
 

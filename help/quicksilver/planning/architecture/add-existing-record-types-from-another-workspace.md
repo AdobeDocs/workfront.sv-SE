@@ -4,9 +4,9 @@ description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Work
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,18 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Som arbetsytehanterare kan du lägga till en posttyp som finns i en arbetsyta i en arbetsyta som du hanterar i Adobe Workfront Planning.
+Som arbetsytehanterare kan du lägga till en posttyp som finns i en annan arbetsyta i en arbetsyta som du hanterar i Adobe Workfront Planning.
 
-Du måste ange en posttyp som centraliserad innan arbetsytans hanterare kan lägga till den i andra arbetsytor som en befintlig posttyp.
+I den här artikeln beskrivs hur du kan lägga till en posttyp från en befintlig och hur du kan ta bort den, om den inte längre behövs.
 
-Du kan ange en posttyp som centraliserad när du skapar eller redigerar den, medan du definierar dess inställningar för arbetsytan.
+En arbetsytehanterare måste ange en posttyp som centraliserad innan du kan lägga till den i arbetsytor som du hanterar som en befintlig posttyp.
+
+Du kan ange en posttyp som centraliserad när du skapar eller redigerar den, medan du definierar de avancerade inställningarna.
 
 Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 Läs artikeln [Översikt över posttyper på arbetsytan](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) innan du lägger till poster på en arbetsyta från en centraliserad posttyp.
+
 
 ## Åtkomstkrav
 
@@ -53,8 +56,10 @@ Läs artikeln [Översikt över posttyper på arbetsytan](/help/quicksilver/plann
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul><li><p>Alla Workfront-paket</p></li>
-Och
-<li><p>Planering Plus-paket</p></li></ul>
+<p>Och</p>
+<li><p>Planeringspaket för att skapa kopplingsbara posttyper</p></li>
+<li><p>Planning Plus-paket för att skapa centraliserade posttyper</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -92,7 +97,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    >[!TIP]
    >
-   >När det inte finns några konfigurerade posttyper som ska läggas till på en annan arbetsyta visas inte alternativet att lägga till dem från en annan arbetsyta när du skapar en posttyp.
+   >Om det inte finns några konfigurerade posttyper som ska läggas till på en annan arbetsyta visas inte alternativet att lägga till dem från en annan arbetsyta.
 
    Följande saker händer:
 
@@ -100,19 +105,27 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
       * Alla originalfält
       * Alla postanslutningar
-   * Du kan bara visa poster som har lagts till från andra arbetsytor om du har minst behörigheten Visa på dessa arbetsytor.
+   * Du kan bara visa poster som lagts till från andra arbetsytor som använder samma centraliserade posttyp om du har minst behörigheten Visa på dessa arbetsytor.
    * Ikonen **centraliserad posttyp** ![Centraliserad posttyp ](assets/global-icon.png) läggs till på kortet för den nya posttypen.
    * Det skrivskyddade fältet **Workspace** läggs till i den nya posttypstabellvyn. Fältet visar vilken arbetsyta varje post skapades i.
 
      >[!NOTE]
      >
-     >* Du kan inte redigera den nya posttypens utseende, avancerade inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
+     >Du kan inte redigera den nya posttypens utseende, avancerade inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
 
 1. (Valfritt) Klicka och dra och släpp den nya posttypen till valfritt avsnitt på arbetsytan.
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på den nya posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
+## Ta bort en centraliserad posttyp från en sekundär arbetsyta
+
+Du kan ta bort en posttyp som du har lagt till från en annan arbetsyta om den inte längre behövs. Om du tar bort den tas den bara bort från den sekundära arbetsytan och de poster som läggs till på den arbetsytan tas bort. Den ursprungliga posttypen finns kvar på den ursprungliga arbetsytan och i andra arbetsytor där den har lagts till.
+
+Så här tar du bort en centraliserad posttyp från en sekundär arbetsyta:
+
+1. Gå till den centraliserade posttypen på den sekundära arbetsytan.
+
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    Följande saker händer:

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -141,18 +141,11 @@ Så här hanterar du en kalendervy:
 
      <span class="preview">Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
 
-   * <span class="preview">Klicka i kalenderns månadsvy på slutet av ett postfält och dra och släpp det sedan på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+   * <span class="preview">Klicka på den vänstra eller högra marginalen i ett postfält och dra och släpp det sedan på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. </span>
+
+   * <span class="preview">Dra och släpp postfälten för att uppdatera deras position och datum. Om du flyttar posternas fält uppdateras start- och slutdatum omedelbart.</span>
 
      <span class="preview">Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
-
-   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
-    Scenario 1: drag and drop in the calendar weekly view: 
-    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
-    Scenario 2: drag and drop in the calendar monthly view: 
-    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
-    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
-    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)

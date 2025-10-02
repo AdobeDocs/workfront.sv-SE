@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3935'
+source-wordcount: '3962'
 ht-degree: 0%
 
 ---
@@ -198,12 +198,10 @@ Så här hanterar du en tidslinjevy:
 
      <span class="preview">Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
 
-   * <span class="preview">Klicka på slutet av ett postfält och dra och släpp det på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. </span>
+   * <span class="preview">Klicka på den vänstra eller högra marginalen i ett postfält och dra och släpp det sedan på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. </span>
 
+   * <span class="preview">Dra och släpp poster för att uppdatera deras position och datum på tidslinjen. Om du flyttar posternas fält uppdateras start- och slutdatum omedelbart.</span>
      <span class="preview">Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
-
-   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)

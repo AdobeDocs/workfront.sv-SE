@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
@@ -332,7 +332,22 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
 
      Mer information om hur du redigerar poster i tabellvyn finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
-   * Redigera alla poster i tabellen på sidan Anslutna poster. I produktionsmiljön visas alla Workfront-objekt i en skrivskyddad tabellvy och du kan inte redigera dem. <span class="preview">Du kan infoga redigering av Workfront-projekt i förhandsgranskningsmiljön.</span>
+   * Redigera alla poster i tabellen på sidan Anslutna poster.
+
+     I produktionsmiljön visas alla Workfront-objekt i en skrivskyddad tabellvy och du kan inte redigera dem.
+
+     <span class="preview">I förhandsvisningsmiljön kan du infoga redigeringsprojekt på sidan för anslutna poster.</span>
+
+1. <span class="preview">(Villkorligt) Gör något av följande när du visar en lista över anslutna projekt:</span>
+
+   * <span class="preview">Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.</span>
+   * <span class="preview">Redigera projektinformation infogat i tabellen.</span>
+   * <span class="preview">Klicka på **Ny rad** om du vill skapa ett projekt utan mall.</span>
+
+     Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   * <span class="preview">Hovra över ett projekt och klicka på menyn **Mer** [Mer](assets/more-menu.png) och sedan på något av följande:</span>
+      * <span class="preview">**Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg. </span>
+      * <span class="preview">**Koppla från** om du vill koppla från projektet från posten. Kopplar från ett projekt </span>
 
 1. (Valfritt) Dubbelklicka på namnet på fliken Anslutna poster
 
@@ -356,7 +371,7 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
 1. (Villkorligt) Gör något av följande om du vill koppla fler poster eller objekt:
 
    * Klicka på **Anslut** längst ned i tabellen om du vill lägga till eller ta bort poster eller Workfront-objekt <span class="preview">förutom projekt.</span>
-   * <span class="preview">Klicka på **Anslut poster** i det övre högra hörnet på sidan med anslutna poster eller på **Ny rad** längst ned i tabellen om du vill lägga till eller ta bort projekt.</span>
+   * <span class="preview">Klicka på **Anslut poster** i det övre högra hörnet på sidan med anslutna poster om du vill ansluta befintliga projekt eller klicka på **Ny rad** längst ned i tabellen om du vill skapa projekt och ansluta dem automatiskt till den aktuella posten.</span>
 
    Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 1. (Valfritt) Håll pekaren över namnet på fliken Anslutna poster, klicka på **Mer** ![Mer-menyn](assets/more-menu.png) och klicka sedan på **Ta bort** för att ta bort fliken.
