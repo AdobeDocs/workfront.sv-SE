@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
-source-wordcount: '13520'
+source-wordcount: '13526'
 ht-degree: 0%
 
 ---
@@ -1483,6 +1483,7 @@ ht-degree: 0%
          * [Kopiera och skicka begäranden](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Fyll i en begäran automatiskt från tidigare data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
          * [Autofyll en begäran med uppmaningar eller dokument](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+         * [Skapa vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * Delegera arbete {#delegate-work}
       * [Delegera arbete](manage-work/delegate-work/delegate-work.md)
       * [Översikt över uppgifter och problem i delegering](manage-work/delegate-work/delegate-work-overview.md)

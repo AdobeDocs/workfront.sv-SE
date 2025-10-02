@@ -6,7 +6,7 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 0%
@@ -155,7 +155,7 @@ Så här skapar du en begäran i Workfront webbprogram:
    Klicka på någon av sökvägarna eller formulären för Workfront-frågekö, eller sök efter en, och klicka sedan på den när den visas i listan.
 1. <span class="preview"> (Villkorligt) Om du växlade till den nya funktionen väljer du en av sökvägarna eller formulären i Workfront-frågekö eller klickar på sökfältet. </span>
 
-   <span class="preview">När du klickar på sökfältet visas en listruta med de senast använda köerna och formulären först. Välj en från listan eller börja skriva och välj kön eller listan när den visas.</span>
+   <span class="preview">När du klickar på sökfältet visas en listruta med de senast använda köerna och formulären först. Välj en från listan eller börja skriva och välj kön eller formuläret när det visas.</span>
 
    >[!NOTE]
    >
