@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Skapa anpassade avsnitt
 description: Den information du ser i  [!DNL Workfront] webbprogrammet visas ofta som standard i avsnitten i den vänstra panelen. Varje avsnitt innehåller olika information om ett  [!DNL Workfront] område eller objekt.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Följande objekt filtreras efter det objekt som de visas under, om objektet är 
 * Uppgift
 * Problem
 * Godkännandeprocess
-* Anteckning
+* Obs
 * Dokument
 
 Mer information om objekts hierarki och inbördes beroende finns i avsnittet [Objektens inbördes beroende och hierarki](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

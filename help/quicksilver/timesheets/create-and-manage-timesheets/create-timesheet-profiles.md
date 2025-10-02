@@ -6,18 +6,18 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
+source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1668'
 ht-degree: 0%
 
 ---
 
 # Skapa, redigera och tilldela tidrapportprofiler
 
-{{highlighted-preview}}
-
 <!--Audited: 06/2025-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
 
 Du kan skapa, redigera och tilldela tidrapportprofiler som genererar återkommande tidrapporter för dina användare utan att du behöver göra något mer. Detta sparar tid och säkerställer att följande är konsekventa för användarna:
 
@@ -89,92 +89,73 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
 
 1. Uppdatera följande information:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Namn</strong> </td> 
-      <td> <p> Lägg till ett namn för tidrapportprofilen. Det kan vara namnet på ett team eller en grupp vars personer delar samma tidsram för sina tidrapporter. </p> <p>Detta är ett obligatoriskt fält.</p> </td> 
-     </tr>
+   * **Namn**: Lägg till ett namn för tidrapportprofilen. Det kan vara namnet på ett team eller en grupp vars personer delar samma tidsram för sina tidrapporter. Detta är ett obligatoriskt fält.
+   * **Beskrivning**: Lägg till mer information om tidrapportprofilen.
+   * **Grupp med administrationsåtkomst**: Om du skapar en tidrapportprofil på systemnivå lämnar du det här fältet tomt.
 
-   <tr> 
-      <td role="rowheader"><strong>Beskrivning</strong> </td> 
-      <td> <p> Lägg till mer information om tidrapportprofilen.     
-      </p> </td> 
-     </tr>
+     Alla användare som kan redigera användarkonton kan bifoga en tidrapport på systemnivå till andra användare.
 
-   <tr> 
-   <td role="rowheader"><strong>Gruppera med administrationsåtkomst</strong> </td> 
-      <td> <p> 
-      <ul> 
-      <li> <p>Om du skapar en tidrapportprofil på systemnivå lämnar du det här fältet tomt.</p> <p>Alla användare som kan redigera användarkonton kan bifoga en tidrapport på systemnivå till andra användare.</p> <p>Endast en Workfront-administratör kan redigera en tidrapportprofil på systemnivå.</p> </li> 
-      </ul> 
-     <ul> 
-      <li> <p>Identifiera gruppen här om du skapar en tidrapportprofil för en grupp som du administrerar.</p> <p>Detta tilldelar inte tidrapportprofilen till användarna i gruppen utan bara gruppens administratörer möjlighet att ändra tidrapportprofilen. Du tilldelar profilen till användare i steg 6.</p>
+     Endast en Workfront-administratör kan redigera en tidrapportprofil på systemnivå.
 
-   <p><b>Obs!</b> När användare utanför gruppen kopplar tidrapportprofiler till andra användare kan de inte se eller koppla den här tidrapportprofilen.</p> </li> 
-      </ul> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Skapa tidrapporter</strong> </td> 
-      <td> <p> <p>Ange när tidrapportprofilen ska generera tidrapporterna. En tidrapport kan ställas in så att den automatiskt genereras varje vecka, varannan vecka, halvår eller månad. Välj den veckodag då du vill att tidrapporten ska skapas.</p>
-      <p>En veckotidrapport börjar det datum då den skapas. Om du t.ex. skapar veckotidrapporter varje torsdag är den första dagen i veckan på tidrapporten torsdag.</p>
+     Identifiera gruppen här om du skapar en tidrapportprofil för en grupp som du administrerar.
 
+     Detta tilldelar inte tidrapportprofilen till användarna i gruppen utan bara gruppens administratörer möjlighet att ändra tidrapportprofilen. Du tilldelar profilen till användare i steg 6.
 
-   <p><b>Obs!</b> Workfront skapar alltid två tidrapporter i taget: den första tidrapporten innehåller alltid det aktuella datumet och den andra tidrapporten startar när tidsramen för den första är slut.</p> </p> </td> 
-   </tr> 
-     <tr> 
-      <td role="rowheader"><p><strong>Godkännare</strong></p> </td> 
-      <td> <p> <p>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Du kan identifiera upp till 7 användare som godkännare på en tidrapport. Det är praktiskt att identifiera flera användare för att se till att en godkännare är tillgänglig när någon inte är på kontoret. Alla godkännare meddelas när en användare skickar tidrapporten för godkännande. Endast en användare behöver godkänna tidrapporten för att den ska godkännas.</p> <p>Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administratörsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p>Använd listrutan för att välja godkännare för tidrapporten (om en godkännare krävs). Du kan välja mellan följande alternativ:</p> 
-      <ul> 
-      <li><strong>Ingen</strong>: Tidrapporten behöver inte godkännas.</li> 
-      <li><strong>Deras hanterare</strong>: Det här är standardgodkännaren som ställs in av systemet. I det här fallet godkänner den användare som är utsedd som sin chef tidrapporten när den skickas för godkännande.</li> 
-      <li><strong>Specifika personer:</strong> Du kan ange specifika användare efter namn som tidrapportgodkännare. Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som <strong>Stängd</strong> och försvinner från listan över tidrapportgodkännanden för alla återstående godkännare.</li> 
-       </ul> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Det går att redigera tid </strong> </td> 
-      <td> <p> <p>Välj det här alternativet om godkännarna ska kunna redigera timmar på tidrapporten.
+     >[!NOTE]
+     >
+     >När användare utanför gruppen kopplar tidrapportprofiler till andra användare kan de inte se eller bifoga den här tidrapportprofilen.
 
-   <p>Det här alternativet fungerar tillsammans med inställningen **Begränsa redigering av tidrapporter till ägare och administratörer** under Inställningar &gt; Tidrapport och timmar &gt; Inställningar. Mer information finns i <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Konfigurera tidrapport och timinställningar</a>.</p>
+   * **Skapa tidrapporter**: Ange när tidrapportprofilen ska generera tidrapporterna. En tidrapport kan ställas in så att den automatiskt genereras varje vecka, varannan vecka, halvår eller månad. Välj den veckodag då du vill att tidrapporten ska skapas.
 
-   <p>Följande scenarier finns: </p>
+     En veckotidrapport börjar det datum då den skapas. Om du t.ex. skapar veckotidrapporter varje torsdag är den första dagen i veckan på tidrapporten torsdag.
 
-   <ul>
-      <li>När alternativet <b>Begränsa redigering av tidrapport till ägare och administratörer</b> är aktiverat:</li>
-      <ul><li>Godkännare kan bara godkänna och avvisa tidrapport, oavsett om <b>Kan redigera tid</b> är aktiverat eller inte. </li>
-      <li>Tidrapportsägarnas chefer kan bara visa sina direkt rapporters tidrapporter.</li></ul>
-      <li>När alternativet <b>Begränsa redigering av tidrapport till ägare och administratörer</b> är inaktiverat:</li>
-    <ul><li>När <b>Kan redigera tid</b> är aktiverat kan godkännare skicka, öppna igen eller stänga tidrapporten och redigera tiden.</li>
-      <li>När <b>Kan redigera tid</b> är inaktiverat kan godkännarna inte skicka, öppna igen eller stänga tidrapporten och kan inte redigera tiden. Godkännare kan bara godkänna eller avvisa tidrapporten. </li>
-      <li>Tidrapportsägarnas chefer kan skicka, återkalla, öppna och redigera sina direkt underställda tidrapporter.</li></ul>
-      </ul>
+     >[!NOTE]
+     >
+     >Workfront skapar alltid två tidrapporter i taget: den första tidrapporten innehåller alltid det aktuella datumet och den andra tidrapporten startar när tidsramen för den första är slut.
 
-   <p>
+   * **Godkännare**: Godkännare är användare som godkänner tidrapporten för användarna som är kopplade till tidrapporten. Du kan identifiera upp till 7 användare som godkännare på en tidrapport. Det är praktiskt att identifiera flera användare för att se till att en godkännare är tillgänglig när någon inte är på kontoret. Alla godkännare meddelas när en användare skickar tidrapporten för godkännande. Endast en användare behöver godkänna tidrapporten för att den ska godkännas.
 
-   <b>Obs!</b> När du har skickat in en tidrapport för godkännande kan du inte längre redigera timmarna. Om du vill returnera en inskickad tidrapport till ett redigerbart tillstånd måste du återkalla tidrapporten eller låta godkännaren avvisa tidrapporten. Mer information finns i <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Skicka en tidrapport för godkännande</a> och<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Godkänn en tidrapport</a>.</p> </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Övertid</strong> </td> 
-      <td>Du kan dölja rutan Övertid i tidrapporter. Det här alternativet är inaktiverat som standard.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Tillgängliga timtyper</strong> </td> 
-      <td><p>Den här inställningen avser endast allmänna timtyper och inte projektspecifika timtyper. </p>
-      <p>Som standard ser användare alla allmänna timmar på en tidrapport. Om din organisation bara vill att specifika allmänna timmar ska visas för en viss uppsättning användare, kan du välja de allmänna timmar som de behöver se i sina tidrapporter genom att markera dem i sin tidrapportprofil i det här fältet. Om du vill inaktivera alla allmänna timmar avmarkerar du alla timtyper för att generera tidrapporten utan ett avsnitt för allmänna timmar.</p></td> 
-     </tr>
+     Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administratörsrättigheter för tidrapporter finns i [Bevilja användare administrativ åtkomst till vissa områden](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-   <tr> 
-      <td role="rowheader"><strong>Påminnelsemeddelanden</strong> </td> 
-      <td> <p> Lägg till ett påminnelsemeddelande. Workfront skickar påminnelser till användare som ombeds att fylla i eller godkänna sina tidrapporter. Du måste skapa påminnelsemeddelanden innan du kan koppla dem till en tidrapportprofil.  </p> </td> 
-     </tr>
+     Använd listrutan för att välja godkännare för tidrapporten (om en godkännare krävs). Du kan välja mellan följande alternativ:
 
-1. När du skapar tidrapportprofiler på gruppnivå i produktion klickar du på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+      * **Ingen**: Tidrapporten behöver inte godkännas.
+      * **Deras hanterare**: Det här är standardgodkännaren som ställs in av systemet. I det här fallet godkänner den användare som är utsedd som sin chef tidrapporten när den skickas för godkännande.
+      * **Specifika personer**: Du kan ange specifika användare efter namn som tidrapportgodkännare. Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som **Stängd** och försvinner från listan över tidrapportgodkännanden för alla återstående godkännare.
+
+   * **Kan redigera tid**: Välj det här alternativet om du vill tillåta godkännarna att redigera timmar på tidrapporten.
+
+     Det här alternativet fungerar tillsammans med inställningen **Begränsa redigering av tidrapporter till ägare och administratörer** i området Inställningar > Tidrapport och timmar > Inställningar. Mer information finns i [Konfigurera tidrapport och timinställningar](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+     Följande scenarier finns:
+
+     När alternativet **Begränsa redigering av tidrapport till ägare och administratörer** är aktiverat:
+
+      * Godkännare kan bara godkänna och avvisa tidrapport, oavsett om knappen Kan redigera tid är aktiverad eller inte.
+      * Tidrapportsägarnas chefer kan bara visa sina direkt rapporters tidrapporter.
+
+     När alternativet **Begränsa redigering av tidrapport till ägare och administratörer** är inaktiverat:
+
+      * När **Kan redigera tid** är aktiverat kan godkännare skicka, öppna igen eller stänga tidrapporten och redigera tiden.
+      * När **Kan redigera tid** är inaktiverat kan godkännarna inte skicka, öppna igen eller stänga tidrapporten och kan inte redigera tiden. Godkännare kan bara godkänna eller avvisa tidrapporten.
+      * Tidrapportsägarnas chefer kan skicka, återkalla, öppna och redigera sina direkt underställda tidrapporter.
+
+     >[!NOTE]
+     >
+     >När du har skickat in en tidrapport för godkännande kan du inte längre redigera timmarna. Om du vill returnera en inskickad tidrapport till ett redigerbart tillstånd måste du återkalla tidrapporten eller låta godkännaren avvisa tidrapporten. Mer information finns i [Skicka en tidrapport för godkännande](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) och [Godkänn en tidrapport](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md).
+
+   * **Övertid**: Du kan dölja rutan Övertid i tidrapporter. Det här alternativet är inaktiverat som standard.
+   * **Tillgängliga timtyper**: Den här inställningen avser endast allmänna timtyper och inte projektspecifika timtyper.
+
+     Som standard ser användare alla allmänna timmar på en tidrapport. Om din organisation bara vill att specifika allmänna timmar ska visas för en viss uppsättning användare, kan du välja de allmänna timmar som de behöver se i sina tidrapporter genom att markera dem i sin tidrapportprofil i det här fältet. Om du vill inaktivera alla allmänna timmar avmarkerar du alla timtyper för att generera tidrapporten utan ett avsnitt för allmänna timmar.
+
+   * **Påminnelsemeddelanden**: Lägg till ett påminnelsemeddelande. Workfront skickar påminnelser till användare som ombeds att fylla i eller godkänna sina tidrapporter. Du måste skapa påminnelsemeddelanden innan du kan koppla dem till en tidrapportprofil.
+
+1. När du skapar tidrapportprofiler på gruppnivå i produktion klickar du på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    <span class="preview">När du skapar tidrapportprofiler på gruppnivå i förhandsgranskningen bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**.</span>
 
-   När du skapar tidrapportprofiler för systemet bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   När du skapar tidrapportprofiler för systemet bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**.
 
    Börja skriva namnet på användaren, gruppen eller teamet och klicka sedan på det när det visas i listrutan.
 
@@ -224,3 +205,88 @@ Du kan ha fler än en tidrapportprofil för din organisation om det finns:
 * Unika allmänna timmeskrav för olika användaruppsättningar
 
 En användare kan inte associeras med mer än en tidrapportprofil åt gången.
+
+<!--
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Name</strong> </td> 
+      <td> <p> Add a name for the timesheet profile. It could be the name of a team or a group whose people share the same timeframe for their timesheets. </p> <p>This ia a required field.</p> </td> 
+     </tr> 
+
+   <tr> 
+      <td role="rowheader"><strong>Description</strong> </td> 
+      <td> <p> Add more information about the timesheet profile.     
+      </p> </td> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader"><strong>Group with Administration Access</strong> </td> 
+      <td> <p> 
+      <ul> 
+      <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a Workfront administrator can edit a system-level timesheet profile.</p> </li> 
+      </ul> 
+     <ul> 
+      <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p>
+
+   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other users, they won't be able to see or attach this timesheet profile.</p> </li> 
+      </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Create timesheets</strong> </td> 
+      <td> <p> <p>Specify when the timesheet profile should generate the timesheets. A timesheet can be set to automatically generate on a weekly, bi-weekly, semi-monthly, or monthly basis. Select the day of the week when you want the timesheet to be produced.</p>
+      <p>A weekly timesheet begins on the date it is generated. For example, if you create weekly timesheets every Thursday, the first day of the week on the timesheet is Thursday.</p>
+    
+      
+   <p><b>NOTE</b>: Workfront always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet starts when the time frame of the first one ends.</p> </p> </td> 
+   </tr> 
+     <tr> 
+      <td role="rowheader"><p><strong>Approvers</strong></p> </td> 
+      <td> <p> <p>Approvers are users who approve the timesheet for the users associated with the timesheet. You can identify up to 7 users as approvers on a timesheet. Identifying multiple users is useful to ensure an approver is available when someone is out of the office. All approvers are notified when a user submits the timesheet for approval. Only one user is required to approve the timesheet in order for it to be approved.</p> <p>Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Use the drop-down menu&nbsp;to select&nbsp;the approver&nbsp;for the timesheet (if an approver is required). You can select from the following options:</p> 
+      <ul> 
+      <li><strong>None</strong>: The timesheet does not need to&nbsp;be approved.</li> 
+      <li><strong>Their Manager</strong>: This is the default approver, set by the system. In this case, the user designated as their manager approves the timesheet when it is submitted for approval.</li> 
+      <li><strong>Specific People:</strong>&nbsp;You can designate specific users, by name, as timesheet approvers. You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</li> 
+       </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Can edit time </strong> </td> 
+      <td> <p> <p>Select this option to allow the approvers to edit hours on the timesheet. 
+
+   <p>This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.</p>
+
+   <p>The following scenarios exist: </p>
+
+   <ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is enabled:</li>
+      <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
+      <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is disabled:</li>
+    <ul><li>When the <b>Can edit time</b> is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li>
+      <li>When the <b>Can edit time</b> is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet. </li>
+      <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
+      </ul>
+
+   <p>
+
+   <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Overtime</strong> </td> 
+      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Available Hour Types</strong> </td> 
+      <td><p>This setting refers only to General Hour Types, and not to project-specific hour types. </p>
+      <p>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</p></td> 
+     </tr> 
+
+   <tr> 
+      <td role="rowheader"><strong>Reminder notifications</strong> </td> 
+      <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
+     </tr>
+    </tbody> 
+   </table>
+-->
