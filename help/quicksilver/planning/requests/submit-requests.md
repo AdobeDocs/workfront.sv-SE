@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,14 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
    ![Sidan Begär information](assets/request-details-page.png)
 
+   <div class="preview">
+      I förhandsgranskning:
 
+   ![Begär sida med kommentar](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Valfritt) Ange en kommentar i kommentarsområdet.
 1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på postens namn i fältet **Post**.
 
    Postens sida öppnas i Workfront Planning.
@@ -315,6 +322,14 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
    ![Sidan Begär information](assets/request-details-page.png)
 
+   <div class="preview">
+   I förhandsgranskning:
+
+   ![Begär sida med kommentar](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Valfritt) Ange en kommentar i kommentarsområdet.
 1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på postens namn i fältet **Post**.
 
    Postens sida öppnas i Workfront Planning.
