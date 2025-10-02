@@ -78,7 +78,7 @@ Användaren som överför ett dokument till Workfront har som standard behörigh
 
    ![Länk för dokumentinformation](assets/document-details-link.png)
 
-1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
+1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om dokumentnamnet och klicka sedan på **Dela**. Dialogrutan **Dela [dokumentnamn]** öppnas.
 
    ![Dela ett dokument](assets/share-a-document-350x160.png)
 
