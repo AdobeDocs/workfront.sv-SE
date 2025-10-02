@@ -489,7 +489,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 

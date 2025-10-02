@@ -23,8 +23,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >Förhandsgranska: 2 oktober 2025
->>Production fast release: 15 oktober 2025
->>Produktion för alla: 16 oktober 2025
+>&#x200B;>Production fast release: 15 oktober 2025
+>&#x200B;>Produktion för alla: 16 oktober 2025
 
 För att göra det enklare att se den information du behöver har vi lagt till möjligheten att skapa och spara vyer i området Förfrågningar. Nu kan du spara en vy, inklusive filter och kolumnkonfigurationer, och växla mellan vyer. En Workfront-administratör kan lägga till den nya vyn i layoutmallar.
 
