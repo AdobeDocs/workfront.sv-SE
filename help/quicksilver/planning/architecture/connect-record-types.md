@@ -332,7 +332,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 

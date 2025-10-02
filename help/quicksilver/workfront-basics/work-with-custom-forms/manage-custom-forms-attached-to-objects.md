@@ -77,7 +77,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 
    Gå till exempel till ett projekt och klicka på avsnittet **Projektinformation**.
 
-1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
+1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i det övre högra hörnet på objektets sida och klicka sedan på **Redigera alla**.
 1. Klicka på ikonen **Ta bort** ![](assets/delete-icon.png) till höger om ett anpassat formulärnamn och klicka sedan på **Ta bort** för att bekräfta och ta bort formuläret från objektet eller **Avbryt** för att förhindra att det tas bort.
 1. Klicka på **Spara ändringar** .
 

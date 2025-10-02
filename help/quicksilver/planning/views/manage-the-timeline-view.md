@@ -175,7 +175,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. <span class="preview">Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras. </span>
+   1. <span class="preview">Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras. </span>
 
       <span class="preview">![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)</span>
 

@@ -134,7 +134,7 @@ Så här konfigurerar du en posttyp som central:
 1. Gör något av följande:
 
    * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
 1. Klicka på **Redigera**.
 
    ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
