@@ -6,14 +6,16 @@ description: Som projektledare kan du ange faktureringssatsen för en jobbroll i
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # Åsidosätt faktureringshastigheter för jobbroller på projektnivå
+
+{{highlighted-preview}}
 
 Som projektledare kan du ange faktureringssatsen för en jobbroll i ett visst projekt. Den här faktureringsnivån på projektnivå åsidosätter faktureringsnivån på systemnivån för den här jobbrollen. Workfront använder faktureringssatsen på projektnivå för jobbrollen för att beräkna intäkten, i stället för att använda faktureringssatsen på systemnivå.
 
@@ -89,8 +91,6 @@ Så här åsidosätter du en faktureringstaxa för ett projekt:
 
 1. I fältet **Jobbroll** väljer du den jobbroll du vill ändra faktureringsfrekvensen för.
 
-   ![Åsidosätt faktureringstariff i projekt](assets/override-billing-rate-on-project-nwe-350x310.png)
-
    Fältet **Standardfaktureringsfrekvens** visar systemnivåfrekvensen för den här jobbrollen.
 
 1. I fältet **Faktureringstariffer 1** anger du åsidosättning av engångsavgift och klickar sedan på **Spara** för att åsidosätta faktureringstaxan en gång
@@ -105,7 +105,11 @@ Så här åsidosätter du en faktureringstaxa för ett projekt:
    * **Startdatum**: Detta är det datum då standardhastigheten slutar.
    * **Slutdatum**: det datum då den nya faktureringstariffen upphör.
 
-   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   ![Faktureringstariffer med åsidosättningsdatum](assets/billing-rates-093025.png)
+
+   Exempelbild i produktionsmiljön:
+   ![Faktureringstariffer med åsidosättningsdatum](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. Tidszonen för de datum du väljer visas längst ned i rutan Ny faktureringsfrekvens. Detta är den tidszon som är kopplad till din Workfront-instans, vilket visas i området Kundinformation i installationsprogrammet. Mer information finns i [Konfigurera grundläggande information för systemet](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 1. Workfront tillämpar rollfrekvensen för åsidosättningsjobb på de timmar som inträffar under de tidsramar som anges vid beräkning av projektets intäkter.
