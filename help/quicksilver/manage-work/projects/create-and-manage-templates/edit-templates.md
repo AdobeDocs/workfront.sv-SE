@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 0%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-Så här redigerar du flera mallar samtidigt:
-
 {{step1-to-templates}}
 
 1. Markera flera mallar i listan.
@@ -671,12 +669,11 @@ Så här redigerar du flera mallar samtidigt:
 
    * Översikt
    * Ekonomi
-   * Portfolio
-   * Inställningar
-   * Åtkomst
    * Anpassad Forms
-   * Uppgifter
-   * Problem
+   * Mallinställningar
+   * Uppgiftsinställningar
+   * Ärendeinställningar
+   * Åtkomst
    * Kommentar
 
 1. Klicka på **Spara**.

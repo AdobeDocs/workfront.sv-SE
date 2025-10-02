@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 0%
 
 ---
@@ -242,7 +242,7 @@ Följande saker händer:
 
    ![Informationssida](assets/details-page.png)
 
-1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i &#x200B;](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
+1. På fliken **Detaljer** klickar du på ikonen **Ta** ![Ta tag i ](assets/grab-icon.png) till vänster om fältnamnet och drar och släpper den på önskad plats.
 
    >[!TIP]
    >
@@ -342,12 +342,12 @@ Alla fält i den anslutna posten visas i tabellvyn på den anslutna postens flik
 
    * <span class="preview">Klicka på **Anslut poster** i det övre högra hörnet på den anslutna postsidan om du vill ansluta befintliga projekt.</span>
    * <span class="preview">Redigera projektinformation infogat i tabellen.</span>
-   * <span class="preview">Klicka på **Ny rad** om du vill skapa ett projekt utan mall.</span>
+   * <span class="preview">Klicka på **Ny rad** om du vill skapa ett projekt utan en mall. Det nya projektet är omedelbart anslutet till den aktuella posten.</span>
 
      Mer information finns i [Skapa Workfront-objekt från Workfront Planning när du ansluter dem till poster](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
    * <span class="preview">Hovra över ett projekt och klicka på menyn **Mer** [Mer](assets/more-menu.png) och sedan på något av följande:</span>
       * <span class="preview">**Ta bort** om du vill ta bort projektet. Om du tar bort ett projekt kopplas det från posten och flyttas till Workfront papperskorg. </span>
-      * <span class="preview">**Koppla från** om du vill koppla från projektet från posten. Kopplar från ett projekt </span>
+      * <span class="preview">**Koppla från** om du vill koppla från projektet från posten. När du kopplar från ett projekt tas det bort och alla värden i sökfälten tas bort från den aktuella posten. </span>
 
 1. (Valfritt) Dubbelklicka på namnet på fliken Anslutna poster
 

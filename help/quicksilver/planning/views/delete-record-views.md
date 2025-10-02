@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 # Ta bort postvyer
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -104,18 +104,20 @@ Vyn tas bort för alla användare som har behörighet att komma åt den. Det gå
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Håll markören över ett av vynamnen på fliken Visa, klicka sedan på **Mer** ![Mer-menyn](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
 
-   ![Visa mer meny i en postvy](assets/view-more-menu-with-duplicate-option.png)
+1. Gör något av följande på fliken i vyn:
 
-   >[!TIP]
-   >
-   >Du kan behöva klicka på **Mer** till höger om den sista fliken för att hitta vyn som du vill ta bort.
+   * Beroende på vilken miljö du öppnar vyn från gör du följande:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
+      * I produktionsmiljön håller du pekaren över fliknamnet för den vy du vill dela och klickar på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Ta bort**.
+
+     >[!TIP]
+     >
+     >Du kan behöva klicka på **Mer** till höger om den sista fliken för att hitta vyn som du vill ta bort.
+
+      * <span class="preview"> I förhandsvisningsmiljön klickar du på vyns flik, för pekaren över vyn i listrutan, klickar på menyn **Mer** ![Mer ](assets/more-menu.png) och klickar sedan på **Ta bort**.</span>
+
+     ![Mer meny med alternativ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. Bekräfta genom att klicka på **Ta bort**. <!--ensure there is not another saving step here?!-->
 

@@ -6,9 +6,9 @@ description: Du kan redigera information om program som du har skapat eller som 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan redigera information om program som du har skapat eller som andra användare har skapat om de har delat dem med dig.
 
-Du kan redigera ett program på programsidan eller redigera program i en lista.
+Du kan redigera ett program på programsidan eller redigera ett eller flera program samtidigt i en lista.
 
 ## Åtkomstkrav
 
@@ -36,7 +36,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>Nytt: [!UICONTROL Standard] </p><p>eller </p><p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
@@ -188,4 +189,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    När du har sparat ändringarna visas den kommentar du lägger till på programmets [!UICONTROL Updates]-flik och ett e-postmeddelande skickas till användarna som ingår i den.
 1. Klicka på **[!UICONTROL Save]**
+
+
+## Redigera flera program samtidigt
+
+När du redigerar flera program samtidigt gäller all information som du uppdaterar alla markerade program, och åsidosätter den ursprungliga informationen för varje program.
+
+1. Gå till en lista med program och välj flera program.
+1. Klicka på ikonen **Redigera** ![Redigera](assets/edit-icon.png) högst upp i listan.
+
+   Rutan **Redigera program** öppnas.
+1. Uppdatera information i följande avsnitt:
+
+   * Översikt
+   * Anpassad Forms
+   * Kommentar
+
+   Mer information finns i avsnittet [Redigera program](#edit-programs-1) i den här artikeln, med början i steg 4. <!--ensure this stays accurate-->
 

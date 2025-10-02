@@ -6,9 +6,9 @@ description: Risker är tänkbara händelser eller faktorer som förhindrar att 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Du kan skapa och redigera risker i avsnittet Risker i ett projekt eller en mall.
 
    ![Risker i aktiviteten](assets/risks-section-on-project-2022.png)
 
-1. Klicka på **Börja lägga till risker** och skapa risker genom att redigera deras information.
+1. Klicka på **Lägg till fler risker** och skapa risker genom att redigera informationen.
 
    eller
 
@@ -131,15 +131,11 @@ Du kan skapa och redigera risker i avsnittet Risker i ett projekt eller en mall.
 
    * **Sannolikhet**: Ange sannolikheten för att risken inträffar som ett procentvärde.
    * **Potentiell kostnad**: Ange den uppskattade kostnaden om risken ska inträffa.
-   * **Korrigeringskostnad**: Ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
    * **Faktisk kostnad**: Ange den faktiska kostnaden för risken om risken inträffade.
+   * **Korrigeringskostnad**: Ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
    * **Åtgärdsplan**: Uppdatera beskrivningen av planen för att minska risken.
 
-1. (Villkorligt) Klicka på **Ange** om du skapar risken online.
-
-   eller
-
-   Klicka på **Spara** om du redigerar informationen i rutan **Ny risk** .
+1. Klicka på **Spara**.
 
 1. (Valfritt) Välj en annan **status** för risken i listrutan **Status** när du använder vyn **Standard** för listan över risker.
 
@@ -167,14 +163,14 @@ Så här redigerar du risker:
 
 1. Om du har klickat på **Redigera** öppnas rutan **Redigera risk** eller **Redigera risker** .
 
-   Överväg att redigera följande fält:
+   Uppdatera följande fält:
 
    * **Beskrivning**: Redigera beskrivningen av risken.
    * **Risktyp**: Uppdatera vilken kategori risken tillhör.
    * **Sannolikhet**: Ange sannolikheten för att risken inträffar som ett procentvärde.
    * **Potentiell kostnad**: Ange den uppskattade kostnaden om risken ska inträffa.
-   * **Korrigeringskostnad**: Ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
    * **Faktisk kostnad**: Ange den faktiska kostnaden för risken om risken inträffade.
+   * **Korrigeringskostnad**: Ange kostnaden för den reduceringsplan som du måste installera för att förhindra att risken uppstår.
    * **Åtgärdsplan**: Uppdatera beskrivningen av planen för att minska risken.
 
 1. Klicka på **Spara**.

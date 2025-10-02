@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -235,11 +235,11 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    <span class="preview">![Vänster fält i tidslinjevyn för att ändra storlek](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-1. <span class="preview">Klicka på ett postfält och dra och släpp det på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för postuppdateringen automatiskt.</span>
+1. <span class="preview">Klicka och håll ned ett postfält och dra och släpp det sedan på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för postuppdateringen automatiskt.</span>
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post i kalendervyn för en posttyp
 
@@ -250,11 +250,11 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    <span class="preview">![Vänster fält i kalendervyn för att ändra storlek](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-1. <span class="preview">Klicka på ett postfält och dra och släpp det på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för postuppdateringen automatiskt.</span>
+1. <span class="preview">Klicka och håll ned ett postfält och dra och släpp det sedan på en annan plats för att uppdatera dess tidslinje och datum. Start- och slutdatum för postuppdateringen automatiskt.</span>
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post från postens förhandsgranskning i en vy
 
@@ -349,7 +349,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    eller
 
-   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -378,11 +378,11 @@ Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/
 
 <div class="preview">
 
-## Redigera information i enstaka eller flervalsfält
+## Redigera envals- eller flervalsfältsinställningar när deras värden uppdateras
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-När du redigerar information i ett envalsfält eller flervalsfält kan du lägga till nya alternativ i fältet, utan att behöva redigera fältet.
+När du uppdaterar information i ett envalsfält eller flervalsfält kan du lägga till nya alternativ i fältet, utan att behöva redigera fältet.
 
 >[!IMPORTANT]
 >
