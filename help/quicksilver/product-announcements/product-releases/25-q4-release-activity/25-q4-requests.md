@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,34 @@ Den här sidan beskriver förbättringar av begäranden som gjorts i den fjärde
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2025 finns i [Översikt över utgåvan fjärde kvartalet 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
-## Ny kombinerad statuskolumn i listan för enhetliga begäranden
+## Skapa och spara vyer i området Förfrågningar
 
 >[!NOTE]
 >
->* Förhandsgranska: 28 augusti 2025
->* Production fast release: 11 september 2025
->* Produktion för alla kunder: 16 oktober 2025
+>Förhandsgranska: 2 oktober 2025
+>>Production fast release: 15 oktober 2025
+>>Produktion för alla: 16 oktober 2025
 
-För att förenkla den enhetliga upplevelsen av begäranden visas nu både begärandestatus och godkännandestatus i statuskolumnen, beroende på vilket som gäller för en viss begäran.
+För att göra det enklare att se den information du behöver har vi lagt till möjligheten att skapa och spara vyer i området Förfrågningar. Nu kan du spara en vy, inklusive filter och kolumnkonfigurationer, och växla mellan vyer. En Workfront-administratör kan lägga till den nya vyn i layoutmallar.
 
-Mer information om hur du skapar begäranden finns i:
+Tidigare gick det inte att spara filter och kolumnkonfigurationer.
 
-* För Workfront: [Skapa och skicka begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* För Workfront Planning: [Skicka in Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md)
+Mer information och instruktioner finns i [Skapa vyer i området Förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+<!--## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## Uppdateringar för att begära erfarenhet
 

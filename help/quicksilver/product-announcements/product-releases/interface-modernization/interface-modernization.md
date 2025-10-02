@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,39 @@ Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksi
 
 ## Administratör och installation
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### Nytt gränssnitt och ny funktionalitet för rutorna Ny och Redigera milstolpe-sökväg
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Förhandsversion: 2 oktober 2025; Produktionsversion: Från 9 oktober 2025**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+Nu har rutorna Ny och Redigera milstolpe-sökväg ett nytt gränssnitt. Milstolpelistan har ett nytt utseende och en ny känsla och vissa funktioner i det här området kan ha ändrats.
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+Mer information finns i [Skapa en milstolpe-sökväg](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### Gränssnittsuppdateringar när du lägger till eller redigerar grupptidrapportprofiler
+
+**Förhandsversion: 30 september 2025; Produktionsversion: Från och med 2 oktober 2025**
+
+Vi har uppdaterat utseendet på sidan för tidrapportprofil när vi redigerar eller lägger till en gruppprofil för tidrapport.
+
+Om du vill visa ändringarna går du till Inställningar > Grupper > väljer ett gruppnamn > Tidrapportprofiler och lägger till en ny profil eller redigerar en befintlig.
+
+Mer information finns i [Skapa, redigera och tilldela tidrapportprofiler](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+
+### Gränssnittsuppdateringar för statuslistor
+
+**Förhandsversion: 2 oktober 2025; Produktionsversion: 9 oktober 2025**
+
+Vi har uppdaterat utseendet på statuslistor så att de matchar designen i andra områden av programmet.
+
+Uppdateringen påverkar:
+
+* Området Status under Konfigurera > Projektinställningar
+* Statusen visas när en grupp visas
 
 ### Gränssnittsuppdateringar för området Allvarlighetsgrader i installationsprogrammet
 
-**Förhandsversion: 25 september 2025; Produktionsversion: 2 oktober 2025**
+**Förhandsversion: 25 september 2025; Produktionsversion: 9 oktober 2025**
 
 Vi har uppdaterat sidan Allvarlighetsgrader med en modernare design som är i linje med andra delar av Workfront.
 
@@ -48,7 +68,7 @@ Mer information finns i [Skapa eller anpassa utgåvans allvarlighetsgrad](/help/
 
 ### Gränssnittsuppdateringar för området Prioriteter i installationsprogrammet
 
-**Förhandsversion: 25 september 2025; Produktionsversion: 2 oktober 2025**
+**Förhandsversion: 25 september 2025; Produktionsversion: 9 oktober 2025**
 
 Vi har uppdaterat sidan Prioriteter med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -208,6 +228,38 @@ Mer information finns i [Redigera program](/help/quicksilver/manage-work/portfol
 
 ## Projekt
 
+### Gränssnittsuppdateringar för faktureringspriser
+
+**Förhandsversion: 2 oktober 2025; Produktionsversion: Från 9 oktober 2025**
+
+Vi har uppdaterat utseendet på sidan Faktureringstaxor i ett projekt så att den matchar andra delar av programmet. Dialogrutorna för att lägga till och redigera faktureringstaxor har också uppdaterats.
+
+Om du vill visa den här ändringen går du till ett projekt > Faktureringstariffer.
+
+Mer information finns i [Åsidosätt faktureringshastigheter för jobbroller på projektnivå](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+### Gränssnittsuppdateringar för en projektlista eller rapport när du använder vyn Milstolpe
+
+**Förhandsversion: 2 oktober 2025; Produktionsversion: Från 9 oktober 2025**
+
+Vi har uppdaterat utseendet på en projektlista eller rapport när du använder vyn Milstolpe på dem.
+
+Projektlistan eller rapporten överensstämmer nu med designen för andra områden i Workfront. Mer information finns i [Använda vyn Milstolpe](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### Gränssnittsuppdatering vid gruppredigering av mallar
 
 **Förhandsversion: 18 september 2025; Produktionsversion: 25 september 2025**
@@ -215,14 +267,6 @@ Mer information finns i [Redigera program](/help/quicksilver/manage-work/portfol
 Vi har uppdaterat utseendet och känslan i rutan Redigera mallar när vi redigerar flera mallar samtidigt från en lista med mallar. Organisationen av informationen i rutan Redigera mallar matchar nu redigeringsrutan för en mall.
 
 Mer information finns i [Redigera projektmallar](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Gränssnittsändringar för Konvertera en uppgift till ett projekt utan mall
 
@@ -427,16 +471,15 @@ Mer information finns i
 * [Skapa routningsregler](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-
 ## Användare
 
-<!--### Interface updates for the User Details page
+### Gränssnittsuppdateringar för sidan Användarinformation
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Förhandsversion: 2 oktober 2025; Produktionsversion: 9 oktober 2025**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+Vi har uppdaterat utseendet på sidan Användarinformation så att den matchar andra delar av programmet.
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+Du kan visa den uppdaterade designen genom att gå till Användare, välja en användare och klicka på Detaljer i den vänstra panelen.
 
 ### Gränssnittsuppdateringar för ledig tid
 
@@ -791,7 +834,7 @@ Mer information finns i [Skapa en anpassad rapport](/help/quicksilver/reports-an
 
 ### URL:er med /tile eller /qstile stöds inte längre i Workfront Dashboards
 
-**Förhandsversion: 13 maj; Produktionsrelease: Ska tillkännages**
+**Förhandsversion: 13 maj; Produktionsversion: Från 20 maj 2025**
 
 Om du har en extern sida på en Dashboard med en Workfront-URL som innehåller `/tile` eller `/qstile` läses den sidan inte längre in.
 
