@@ -89,7 +89,7 @@ Det här alternativet är bara tillgängligt om du har en Standard-, Plan- eller
 1. Markera den eller de användare som du vill skicka ett meddelande till och klicka på [!UICONTROL **Skicka uppdatering till användare**].
 1. Skriv meddelandet i fönstret [!UICONTROL Send update to user]. Använd textformateringsalternativen efter behov. Mer information finns i [Använd RTF i en Workfront-kommentar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) i artikeln [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![Meddelandeanvändare i fönstret Skicka uppdatering till ](assets/send-update-to-user-072825.png)
+   ![Meddelandeanvändare i fönstret Skicka uppdatering till &#x200B;](assets/send-update-to-user-072825.png)
 
 1. (Valfritt) Klicka på **Tagga personer** om du vill tagga ytterligare användare i meddelandet. Mer information finns i [Tagga andra om uppdateringar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Valfritt) Välj **[!UICONTROL Private to my company]** om du bara vill att det här meddelandet ska vara synligt för andra användare i ditt företag.

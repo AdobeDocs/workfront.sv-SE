@@ -186,7 +186,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
    Mer information finns i avsnittet Rollbaserade godkännanden i artikeln [Översikt över projektteamet](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Markera en eller flera användare i listan och klicka sedan på ikonen **Ta bort** ![Ta bort ](assets/remove-icon.png) för att ta bort dem från gruppen.
+1. Markera en eller flera användare i listan och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](assets/remove-icon.png) för att ta bort dem från gruppen.
 
 1. Klicka på **Ja, ta bort markerade användare** för att bekräfta och ta bort användarna.
 
@@ -219,7 +219,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
    Användarna kan få ett e-postmeddelande om de är aktiverade för dem och de får ett meddelande i appen om den nya uppdateringen.
 
-1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) för att exportera listan med användare till en fil
+1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) för att exportera listan med användare till en fil
 
    eller
 
@@ -270,7 +270,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
    Användarna kan få ett e-postmeddelande om de är aktiverade för dem och de får ett meddelande i appen om den nya uppdateringen.
 
-1. Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) om du vill exportera listan med användare till en fil
+1. Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) om du vill exportera listan med användare till en fil
 
    eller
 
