@@ -7,9 +7,9 @@ description: Med Adobe Workfront kan du snabbt och enkelt skicka meddelanden som
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. (Valfritt) Välj **[!UICONTROL Private to my company]** om du bara vill att det här meddelandet ska vara synligt för andra användare i ditt företag.
 
+   >[!TIP]
+   >
+   >Inställningen [!UICONTROL **Privat till mitt företag**] är bara tillgänglig när din Workfront-profil är associerad med ett företag.
+
 1. Klicka på **[!UICONTROL Update].**
 Meddelandet läggs upp högst upp i meddelandelistan på fliken **[!UICONTROL Updates]** på användarens profilsida.
 
@@ -89,5 +93,9 @@ Det här alternativet är bara tillgängligt om du har en Standard-, Plan- eller
 
 1. (Valfritt) Klicka på **Tagga personer** om du vill tagga ytterligare användare i meddelandet. Mer information finns i [Tagga andra om uppdateringar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Valfritt) Välj **[!UICONTROL Private to my company]** om du bara vill att det här meddelandet ska vara synligt för andra användare i ditt företag.
+
+   >[!TIP]
+   >
+   >Inställningen [!UICONTROL **Privat till mitt företag**] är bara tillgänglig när din Workfront-profil är associerad med ett företag.
 1. Klicka på [!UICONTROL **Skicka**].
 Meddelandet läggs upp högst upp i meddelandelistan på fliken **[!UICONTROL Updates]** på varje taggad användares profilsida.

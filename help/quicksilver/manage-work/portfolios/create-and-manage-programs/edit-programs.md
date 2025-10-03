@@ -6,9 +6,9 @@ description: Du kan redigera information om program som du har skapat eller som 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerpilen** ![högerpilen](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Om du vill ha information om de fält som visas i avsnittet [!UICONTROL Program Details] kan du fortsätta redigera programmet i rutan [!UICONTROL Edit Program] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till programmet börjar du skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]**, markerar det när det visas i listan och klickar sedan på **[!UICONTROL Save Changes]**.
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![&#x200B; Exportera &#x200B;](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * [!UICONTROL Overview]
@@ -186,6 +186,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Lägg till en kommentar i fältet **[!UICONTROL Add an update to each program]**.
 1. (Valfritt) Klicka på ikonen **[!UICONTROL People]** för att lägga till en användare eller ett team i kommentaren.
 1. (Valfritt) Välj [!UICONTROL **Privat till mitt företag**] om du vill låsa kommentaren och göra den privat endast för användare i ditt företag.
+
+   >[!TIP]
+   >
+   >Inställningen **Privat till mitt företag** är bara tillgänglig när din Workfront-profil är associerad med ett företag.
+
 
    När du har sparat ändringarna visas den kommentar du lägger till på programmets [!UICONTROL Updates]-flik och ett e-postmeddelande skickas till användarna som ingår i den.
 1. Klicka på **[!UICONTROL Save]**

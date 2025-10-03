@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -261,6 +261,10 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
    * Klicka på **Tagga personer** om du vill tagga fler användare för att få samma uppdatering.
    * Välj alternativet **Privat till mitt företag** för att göra uppdateringen privat för användarna i ditt företag.
    * Klicka på **Skicka**.
+
+     >[!TIP]
+     >
+     >Inställningen **Privat till mitt företag** är bara tillgänglig när din Workfront-profil är associerad med ett företag.
 
    Uppdateringen läggs till i avsnittet **Uppdateringar** i varje taggad användares profil.
 

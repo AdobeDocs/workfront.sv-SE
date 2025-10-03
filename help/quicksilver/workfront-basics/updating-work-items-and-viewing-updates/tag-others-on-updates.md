@@ -6,9 +6,9 @@ description: När du ger uppdateringskommentarer för ett Adobe Workfront-objekt
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ I stället för att inkludera de användarna i objektet genom att tilldela dem e
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -122,8 +122,7 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    >[!NOTE]
    >
-   >* Det här alternativet visas bara när användaren är associerad med ett företag.
-   >* Taggade användare utanför företaget kan fortfarande få ett meddelande eller e-postmeddelande i appen, även om de inte ser de privata kommentarerna på fliken Uppdateringar. Vi rekommenderar att du inte taggar externa användare vid en uppdatering om du inte vill dela informationen med dem.
+   >Taggade användare utanför företaget kan fortfarande få ett meddelande eller e-postmeddelande i appen, även om de inte ser de privata kommentarerna på fliken Uppdateringar. Vi rekommenderar att du inte taggar externa användare vid en uppdatering om du inte vill dela informationen med dem.
 
 1. (Valfritt) Om du vill lägga till flera användare och team upprepar du steg 2. <!--insure this stays accurate-->
 

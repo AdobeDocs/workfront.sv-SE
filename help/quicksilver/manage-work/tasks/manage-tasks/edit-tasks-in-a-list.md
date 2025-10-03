@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Redigera uppgifter i en lista
-description: Du kan redigera uppgiftsinformation i en lista med uppgifter genom att redigera fälten som visas i listan.
+description: Du kan redigera uppgiftsinformation i en lista med uppgifter genom att redigera fälten som visas i listan. Du måste definiera planläget i en lista med uppgifter för att ange hur du vill att dina ändringar ska sparas i Workfront. Du kan spara ändringarna manuellt eller automatiskt.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2822'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du kan redigera uppgiftsinformation i en lista med uppgifter genom att redigera 
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Att tänka på när du redigerar uppgifter i en lista {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ Tänk på följande när du redigerar uppgifter i en lista:
      >
      >Som standard sparar Workfront automatiskt ändringar i uppgifter i underaktivitetsavsnittet eller i en uppgiftsrapport.
 
-* Du kan styra när Workfront ska spara de ändringar du gör i uppgifterna i en lista. Ändringarna kan sparas automatiskt eller så kan du spara dem manuellt.
+* Du kan styra när Workfront ska spara de ändringar du gör i uppgifterna i en lista genom att definiera planeringsläget innan du börjar redigera uppgifterna.
 
-  Mer information om hur du konfigurerar när Workfront sparar ändringar som du gör i uppgifter i en lista finns i avsnittet [Välj ett sparalternativ när du redigerar uppgifter i en lista](#select-a-save-option-when-editing-tasks-in-a-list) i den här artikeln.
+  Du kan välja mellan att Workfront sparar de ändringar du gör på följande sätt:
+
+      * Efter varje ändring automatiskt 
+     * Endast manuellt efter att du klickat på Spara.
+  
+  Mer information om hur du konfigurerar när Workfront sparar ändringar som du gör i uppgifter i en lista finns i avsnittet [Ändra planläge innan du redigerar uppgifter i en lista](#modify-plan-mode-before-editing-tasks-in-a-list) i den här artikeln.
 
 * Andra användare måste uppdatera sina sidor innan de kan visa de uppdateringar du gör för en uppgift.
 
-## Välj ett sparningsalternativ när du redigerar uppgifter i en lista {#select-a-save-option-when-editing-tasks-in-a-list}
+## Ändra planeringsläge innan du redigerar uppgifter i en lista
 
-Du kan bestämma om de ändringar du gör i en lista ska sparas automatiskt när de inträffar, eller om du vill spara ändringarna manuellt.
+Du kan bestämma om de ändringar du gör i en lista ska sparas automatiskt när de inträffar, eller om du vill spara ändringarna manuellt. För att göra detta måste du ändra planeringsläget i en lista med uppgifter innan du redigerar uppgifterna.
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ Du kan bestämma om de ändringar du gör i en lista ska sparas automatiskt när
 
 När du sparar ändringarna i en lista för ett projekt som har antingen Automatiskt eller Automatiskt och Vid ändring valt som uppdateringstyp, uppdaterar Workfront projekttidslinjen tillsammans med alla projektrelaterade och projektövergripande beroenden. Det kan ta lång tid att beräkna tidslinjen om projektet är stort eller om det finns många beroenden. Vissa metoder för att redigera en uppgiftslista kan vara snabbare än andra, beroende på vilken metod du väljer för att spara ändringarna.
 
-Du kan styra när Workfront ska spara de ändringar du gör i uppgifterna i en lista. Följande scenarier finns: 
+Du kan styra när Workfront ska spara de ändringar du gör i uppgifterna i en lista. Följande scenarier finns:
 
 * Du kan låta Workfront spara ändringarna automatiskt efter varje uppdatering.
 
-  Mer information finns i avsnittet [Redigera uppgifter i en lista och spara ändringar automatiskt](#edit-tasks-in-a-list-and-automatically-save-changes) i den här artikeln.
+  Mer information finns i avsnittet [Ange planeringsläge för att automatiskt spara ändringar](#set-the-plan-mode-to-automatically-save-changes) i den här artikeln.
 
 * Du kan ha kontroll över när du ska göra flera ändringar i taget manuellt med knappen Spara.
 
-  Mer information finns i avsnittet [Redigera uppgifter i en lista och spara ändringar manuellt](#edit-tasks-in-a-list-and-manually-save-changes) i den här artikeln.
+  Mer information finns i avsnittet [Ange planeringsläge för att manuellt spara ändringar](#set-the-plan-mode-to-manually-save-changes) i den här artikeln.
 
-### Redigera uppgifter i en lista och spara ändringar automatiskt {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Ställ in planeringsläget så att ändringar sparas automatiskt
 
 >[!TIP]
 >
@@ -192,7 +197,7 @@ Så här redigerar du uppgifter i en lista och sparar ändringar automatiskt:
     </tbody> 
    </table>
 
-### Redigera uppgifter i en lista och spara ändringar manuellt {#edit-tasks-in-a-list-and-manually-save-changes}
+### Ange planeringsläget för att spara ändringar manuellt {#edit-tasks-in-a-list-and-manually-save-changes}
 
 Du kan spara ändringar du gör i en lista manuellt. När du sparar ändringar på det här sättet kan du ändra tillbaka dem innan du sparar dem.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3829'
 ht-degree: 0%
 
 ---
@@ -632,6 +632,10 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 
    * Lägg till användare eller team i uppdateringen i **Tagga personer** eller använd @ för att inkludera dem i uppdateringen.
    * Markera kryssrutan **Privat till mitt företag** för att hålla uppdateringen privat för personer i ditt företag.
+
+     >[!TIP]
+     >
+     >Inställningen **Privat till mitt företag** är bara tillgänglig när din Workfront-profil är associerad med ett företag.
 1. Klicka på **Spara**.
 
 ## Redigera en uppgift i uppgiftshuvudet (begränsat)

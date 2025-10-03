@@ -6,9 +6,9 @@ description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrappor
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Du kan visa uppdateringar från en tidrapport eller från enskilda timposter i e
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -96,6 +96,10 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
 1. Börja lägga till nya kommentarer eller svara på befintliga kommentarer, enligt beskrivningen i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Lägg till personer eller team i fältet **Tagga personer eller team** för att inkludera andra i uppdateringen. Mer information finns i [Tagga andra om uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Valfritt) Välj alternativet **Privat till mitt företag** om du bara vill att personer från ditt företag ska kunna se uppdateringen.
+
+   >[!TIP]
+   >
+   >Inställningen **Privat till mitt företag** är bara tillgänglig när din Workfront-profil är associerad med ett företag.
 1. Skriv din kommentar och klicka sedan på **Skicka**.
 
    Din kommentar visas i avsnittet [!UICONTROL Updates] i tidrapporten på fliken Kommentarer.

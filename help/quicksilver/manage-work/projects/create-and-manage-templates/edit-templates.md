@@ -6,9 +6,9 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5674'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 
 1. Gå till mallen som du vill redigera.
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen och går sedan till de områden som visas i den vänstra panelen för att redigera information för varje område.
-1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
    * Översikt
    * Anpassad Forms
@@ -640,6 +640,10 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
    ![Redigera mallrutans kommentarsavsnitt](assets/edit-template-box-comment-section.png)
 1. Lägg till en kommentar om den uppdatering du gör, tagga till ytterligare användare eller markera rutan **Privat till mitt företag** om du vill hålla uppdateringen privat för användare i ditt företag och klicka sedan på **Spara**.
+
+   >[!TIP]
+   >
+   >Inställningen **Privat till mitt företag** är bara tillgänglig när din Workfront-profil är associerad med ett företag.
 
 ## Redigera flera mallar samtidigt
 
