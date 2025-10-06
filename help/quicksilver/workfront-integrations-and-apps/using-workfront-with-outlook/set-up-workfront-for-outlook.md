@@ -6,9 +6,9 @@ description: Med  [!DNL Adobe Workfront] [!DNL Outlook]-tillägget kan du utför
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft håller på att inaktivera stöd för äldre Exchange-onlinetoken](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), som för närvarande används av Workfront Outlook-tillägget för autentisering. Denna förändring från Microsoft har redan börjat påverka kunderna och kommer att fortsätta att gälla i faser fram till oktober 2025.
+>[Microsoft har inaktiverat stöd för äldre Exchange-onlinetoken](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) som användes av Workfront Outlook-tillägget för autentisering. Denna ändring av Microsoft har stegvis genomförts och är klar den 1 oktober 2025.
 >
->* **När Microsoft har inaktiverat alla dessa variabler fungerar inte längre integreringen med Workfront för Microsoft Outlook.**
->
->Som en del av den här ändringen har Microsoft beslutat att ändra hur tokens återaktiveras. Efter den **30 juni 2025** kan administratörer inte längre återaktivera tokens själva. Det är bara Microsoft Support som kan bevilja undantag. **Den 1 oktober 2025 inaktiveras äldre token för alla innehavare. Undantag beviljas inte.**
+>**Eftersom Microsoft har inaktiverat dessa token fungerar inte längre integreringen i Workfront för Microsoft Outlook.**
 
 Med tillägget [!DNL Adobe Workfront] [!DNL Outlook] kan du utföra följande viktiga [!DNL Workfront]-åtgärder direkt från Outlook:
 
@@ -122,7 +120,7 @@ Du kan hämta Workfront-tillägget för Outlook från [Microsoft Store](https://
 
 1. I [!DNL Outlook 365] klickar du på ikonen **[!UICONTROL Browse Add-ins]** ![Bläddra bland tillägg](assets/outlook-add-in-26x26.png) högst upp i Office 365-gränssnittet och sedan på **[!UICONTROL Manage add-ins]**.
 
-1. Sök efter **[!DNL Workfront]** i rutan **[!UICONTROL Search add-ins]** och tryck sedan på [!UICONTROL Enter].
+1. Sök efter **[!UICONTROL Search add-ins]** i rutan **[!DNL Workfront]** och tryck sedan på [!UICONTROL Enter].
 
 1. Klicka på **[!UICONTROL Add]**.
 
