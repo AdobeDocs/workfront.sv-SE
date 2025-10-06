@@ -66,7 +66,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
 >[!NOTE]
 >
 >Nya fält kan läggas till i objektvyerna utan föregående meddelande för att stödja datautvecklingen i Workfront-programmet. Vi varnar för att använda SELECT-frågor där den underordnade datamottagaren inte är beredd att hantera ytterligare kolumner när de läggs till.<br>
->>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
+>&#x200B;>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
 
 ### Åtkomstnivå
 
