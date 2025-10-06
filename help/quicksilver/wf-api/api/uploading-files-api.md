@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 2a30a58f4206d5a4455ed5939c9f3fb54cce6d29
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Information om hur du överför dokument finns i instruktionerna för **överfö
 
 **Följ de här riktlinjerna när du använder API-verktyg för att överföra filer:**
 
-* Använd API-verktygsalternativet för att överföra filen. Detta är ofta en **Välj fil**-knapp på begärandeskärmen.
+* Använd API-verktygsalternativet för att överföra filen. Det finns ofta en **Välj fil**-knapp på begärandeskärmen.
 
-* Använd POSTENS HTTP-metod för att göra en begäran om att överföra filen.
+* Använd metoden POST HTTP för att göra en begäran om att överföra filen.
 
 * Din begäran bör resultera i ett svar som innehåller ett värde för dess referens.
 
