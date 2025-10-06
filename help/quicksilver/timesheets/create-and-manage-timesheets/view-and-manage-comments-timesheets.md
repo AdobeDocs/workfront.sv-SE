@@ -6,7 +6,7 @@ description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrappor
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Kommentarerna visas under objektet där timinmatningen och kommentaren loggades.
 
 Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripande tidrapporten liknar kommentarer i andra objekt.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Rader på huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om den är tillgänglig.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Rader på huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om den är tillgänglig.
 
 1. Klicka på **Tidrapporter**.
 1. Gå till tidrapporten där du vill göra en kommentar.
@@ -100,6 +100,7 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
    >[!TIP]
    >
    >Inställningen **Privat till mitt företag** är bara tillgänglig när din Workfront-profil är associerad med ett företag.
+
 1. Skriv din kommentar och klicka sedan på **Skicka**.
 
    Din kommentar visas i avsnittet [!UICONTROL Updates] i tidrapporten på fliken Kommentarer.
@@ -134,7 +135,7 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
 
    * Skriv en ny kommentar och klicka på **Klar**.
    * Redigera en befintlig kommentar och klicka på **Klar** eller klicka på **Avbryt** för att ignorera ändringarna.
-   * Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort en sparad kommentar.
+   * Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort en sparad kommentar.
 
      En blå markör visas i det övre högra hörnet av timpostrutan för att ange att kommentarer har loggats med tidsangivelsen.
 

@@ -6,7 +6,7 @@ description: Du kan redigera projektmallar för att återspegla ändringar i pro
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
 
 1. Gå till mallen som du vill redigera.
 1. (Villkorligt) Om du vill redigera begränsad information om mallen klickar du på **Mallinformation** i den vänstra panelen och går sedan till de områden som visas i den vänstra panelen för att redigera information för varje område.
-1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) , väljer något av områdena nedan eller klickar på **Redigera alla** om du vill redigera information i alla områden:
 
    * Översikt
    * Anpassad Forms
@@ -162,65 +162,65 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
    <p>Du kan inaktivera en mall från mallhuvudet enligt beskrivningen i avsnittet Aktivera eller inaktivera en mall i den här artikeln.</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>Villkorstyp</strong></td> 
-   <td><p>Välj mellan följande villkorstyper:</p> 
-   <ul> 
-   <li><strong>Manuell:</strong> Projektägaren ställer in projektets villkor manuellt i projektet. <strong></strong></li> 
-   <li><strong>Förloppsstatus:</strong> Workfront ställer automatiskt in villkoret för det framtida projektet baserat på förloppsstatusen för aktiviteter på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Schemaläge</strong></td> 
-   <td><p>Ange om det projekt som använder den här mallen är schemalagt från <strong>Startdatum</strong> eller från <strong>Slutförandedatum</strong>. Det här valet bestämmer planerade datum för framtida aktiviteter i projektet med den här mallen. </p><p>Välj bland följande: </p> 
-   <ul> 
-   <li><p><strong>Schemalägg från startdatum</strong>: Mallens startdatum är i själva verket startdagen. När du schemalägger en mall från startdatum beräknas mallens avslutningsdag baserat på varaktigheten för alla malluppgifter i Adobe Workfront. Mallens startdag blir det planerade startdatumet för det framtida projektet.</p></li> 
-   <li><p><strong>Schema från slutförandedatum</strong>: Mallens slutförandedatum är faktiskt Slutförandedag. När du schemalägger en mall från Slutförandedatum beräknas mallens startdag i Workfront utifrån varaktigheten för alla malluppgifter. Mallens slutförandedag blir det planerade slutförandedatumet för det framtida projektet. </p></li> 
-   </ul><p>Mer information om Start- och slutförandedagar för malluppgifter finns i <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Översikt över Start- och slutförandedagar i en mall</a>. </p><p>Inställningen Schemalägg från för mallar liknar inställningen för projekt. Workfront-administratören väljer standardinställningen Schemalägg från för projekten i ditt system. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p></td> 
-   </tr>
+   <td role="rowheader"><strong>Villkorstyp</strong></td> 
+      <td><p>Välj mellan följande villkorstyper:</p> 
+      <ul> 
+      <li><strong>Manuell:</strong> Projektägaren ställer in projektets villkor manuellt i projektet. <strong></strong></li> 
+      <li><strong>Förloppsstatus:</strong> Workfront ställer automatiskt in villkoret för det framtida projektet baserat på förloppsstatusen för aktiviteter på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Schemaläge</strong></td> 
+      <td><p>Ange om det projekt som använder den här mallen är schemalagt från <strong>Startdatum</strong> eller från <strong>Slutförandedatum</strong>. Det här valet bestämmer planerade datum för framtida aktiviteter i projektet med den här mallen. </p><p>Välj bland följande: </p> 
+      <ul> 
+      <li><p><strong>Schemalägg från startdatum</strong>: Mallens startdatum är i själva verket startdagen. När du schemalägger en mall från startdatum beräknas mallens avslutningsdag baserat på varaktigheten för alla malluppgifter i Adobe Workfront. Mallens startdag blir det planerade startdatumet för det framtida projektet.</p></li> 
+      <li><p><strong>Schema från slutförandedatum</strong>: Mallens slutförandedatum är faktiskt Slutförandedag. När du schemalägger en mall från Slutförandedatum beräknas mallens startdag i Workfront utifrån varaktigheten för alla malluppgifter. Mallens slutförandedag blir det planerade slutförandedatumet för det framtida projektet. </p></li> 
+      </ul><p>Mer information om Start- och slutförandedagar för malluppgifter finns i <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Översikt över Start- och slutförandedagar i en mall</a>. </p><p>Inställningen Schemalägg från för mallar liknar inställningen för projekt. Workfront-administratören väljer standardinställningen Schemalägg från för projekten i ditt system. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>Portfolio</strong></td> 
-   <td><p>Ange en Portfolio för de projekt som skapas från den här mallen. Du måste skapa en Portfolio innan den visas i listrutan. </p><p>Endast aktiva portföljer visas i listan. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Program</strong></td> 
-   <td><p>Om du har valt en Portfolio för mallen anger du ett <strong>program</strong> för det framtida projektet. Vissa portföljer kanske inte har program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program visas i listan.</p><p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>Grupp</strong></td> 
-   <td><p>I listrutan väljer du den grupp som du vill ska associeras med projekt som skapats från mallen. Det kan vara en grupp på alla nivåer. </p><p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANTECKNINGAR</b>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td><p>Ange en Portfolio för de projekt som skapas från den här mallen. Du måste skapa en Portfolio innan den visas i listrutan. </p><p>Endast aktiva portföljer visas i listan. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Program</strong></td> 
+      <td><p>Om du har valt en Portfolio för mallen anger du ett <strong>program</strong> för det framtida projektet. Vissa portföljer kanske inte har program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program visas i listan.</p><p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>Grupp</strong></td> 
+      <td><p>I listrutan väljer du den grupp som du vill ska associeras med projekt som skapats från mallen. Det kan vara en grupp på alla nivåer. </p><p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANTECKNINGAR</b>
 
-<ul> 
-   <li><p>När någon skapar ett projekt med en mall som inte har en grupp markerad, kopplas den öppna gruppen till projektet i området Projekt på en grupps sida.</p><p>Detta skiljer sig från andra områden där systemet associerar en användares hemgrupp med projektet när användaren skapar projektet med en mall som inte har någon markerad grupp.</p></li> 
-   <li><p>Om en användare väljer en mall som har en grupp markerad när ett projekt skapas, eller när en uppgift eller ett problem konverteras till ett projekt, kan användaren välja en annan grupp för projektet.</p></li> 
-   <li>Det här fältet är endast tillgängligt i mallar i den nya Adobe Workfront-upplevelsen, men du kan se det i listor och rapporter både där och i Adobe Workfront Classic. </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Företag</strong></td> 
-   <td><p>Ange det företag som du vill associera med mallen. Endast aktiva företag visas i listan.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Mallägare</strong></td> 
-   <td><p>Användaren som anges som mallägare måste vara en Workfront-aktiv användare. </p><p>Tänk på följande när det gäller användaren som angetts som mallägare: </p> 
    <ul> 
-   <li>De får automatiskt behörigheten Hantera till mallen. </li> 
-   <li>De läggs till i projektteamet och får automatiskt behörigheten Hantera för det projekt som skapas från mallen. </li> 
-   <li>De blir projektägare när projektet skapas från den här mallen. </li> 
-   <li> Om den användare som är utsedd som mallägare har begränsad åtkomst till mallar eller projekt från åtkomstnivån, begränsas behörigheten Hantera för mallen och för projekten. Om de till exempel bara har behörigheten Visa för mallar eller projekt på åtkomstnivån får de automatiskt behörigheterna Visa för mallen och projektet när de har angetts som mallägare.</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Mallsponsor</strong></td> 
-   <td><p>Användaren som anges i det här fältet blir projektsponsorn när mallen läggs till i projektet. Den här användaren läggs till i projektteamet och får automatiskt visningsbehörighet för projektet. Användaren som är angiven som mallsponsor måste vara en Workfront-användare. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Resurshanteraren</strong></td> 
-   <td><p>De angivna användarna får automatiskt behörighet att hantera framtida projekt och kan tilldela resurser till uppgifter och ärenden i projekten. Du kan ange mer än en resurshanterare. </p></td> 
-   </tr> 
-</table>
+      <li><p>När någon skapar ett projekt med en mall som inte har en grupp markerad, kopplas den öppna gruppen till projektet i området Projekt på en grupps sida.</p><p>Detta skiljer sig från andra områden där systemet associerar en användares hemgrupp med projektet när användaren skapar projektet med en mall som inte har någon markerad grupp.</p></li> 
+      <li><p>Om en användare väljer en mall som har en grupp markerad när ett projekt skapas, eller när en uppgift eller ett problem konverteras till ett projekt, kan användaren välja en annan grupp för projektet.</p></li> 
+      <li>Det här fältet är endast tillgängligt i mallar i den nya Adobe Workfront-upplevelsen, men du kan se det i listor och rapporter både där och i Adobe Workfront Classic. </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Företag</strong></td> 
+      <td><p>Ange det företag som du vill associera med mallen. Endast aktiva företag visas i listan.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Mallägare</strong></td> 
+      <td><p>Användaren som anges som mallägare måste vara en Workfront-aktiv användare. </p><p>Tänk på följande när det gäller användaren som angetts som mallägare: </p> 
+      <ul> 
+      <li>De får automatiskt behörigheten Hantera till mallen. </li> 
+      <li>De läggs till i projektteamet och får automatiskt behörigheten Hantera för det projekt som skapas från mallen. </li> 
+      <li>De blir projektägare när projektet skapas från den här mallen. </li> 
+      <li> Om den användare som är utsedd som mallägare har begränsad åtkomst till mallar eller projekt från åtkomstnivån, begränsas behörigheten Hantera för mallen och för projekten. Om de till exempel bara har behörigheten Visa för mallar eller projekt på åtkomstnivån får de automatiskt behörigheterna Visa för mallen och projektet när de har angetts som mallägare.</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Mallsponsor</strong></td> 
+      <td><p>Användaren som anges i det här fältet blir projektsponsorn när mallen läggs till i projektet. Den här användaren läggs till i projektteamet och får automatiskt visningsbehörighet för projektet. Användaren som är angiven som mallsponsor måste vara en Workfront-användare. </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Resurshanteraren</strong></td> 
+      <td><p>De angivna användarna får automatiskt behörighet att hantera framtida projekt och kan tilldela resurser till uppgifter och ärenden i projekten. Du kan ange mer än en resurshanterare. </p></td> 
+      </tr> 
+      </table>
 
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
@@ -260,72 +260,72 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
        <td role="rowheader"><strong>URL</strong></td> 
          <td>Ange en webblänk som relaterar till information om den här mallen.</td> 
        </tr>
-   <tr> 
+      <tr> 
       <td role="rowheader"><strong>Är aktiv</strong></td> 
       <td><p>Aktivera det här alternativet om du vill att mallen ska vara aktiv. Andra användare kan hitta den här mallen och bifoga den till projekt när de skapar projekt. Inaktivera alternativet om du vill inaktivera mallar som inte längre används. Inaktiverade mallar kan inte bifogas till projekt. Detta är aktiverat som standard. </p><p><b>TIPS</b></p>
 
    <p>Du kan inaktivera en mall från mallhuvudet enligt beskrivningen i avsnittet Aktivera eller inaktivera en mall i den här artikeln.</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>Villkorstyp</strong></td> 
-   <td><p>Välj mellan följande villkorstyper:</p> 
-   <ul> 
-   <li><strong>Manuell:</strong> Projektägaren ställer in projektets villkor manuellt i projektet. <strong></strong></li> 
-   <li><strong>Förloppsstatus:</strong> Workfront ställer automatiskt in villkoret för det framtida projektet baserat på förloppsstatusen för aktiviteter på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Schemaläge</strong></td> 
-   <td><p>Ange om det projekt som använder den här mallen är schemalagt från <strong>Startdatum</strong> eller från <strong>Slutförandedatum</strong>. Det här valet bestämmer planerade datum för framtida aktiviteter i projektet med den här mallen. </p><p>Välj bland följande: </p> 
-   <ul> 
-   <li><p><strong>Schemalägg från startdatum</strong>: Mallens startdatum är i själva verket startdagen. När du schemalägger en mall från startdatum beräknas mallens avslutningsdag baserat på varaktigheten för alla malluppgifter i Adobe Workfront. Mallens startdag blir det planerade startdatumet för det framtida projektet.</p></li> 
-   <li><p><strong>Schema från slutförandedatum</strong>: Mallens slutförandedatum är faktiskt Slutförandedag. När du schemalägger en mall från Slutförandedatum beräknas mallens startdag i Workfront utifrån varaktigheten för alla malluppgifter. Mallens slutförandedag blir det planerade slutförandedatumet för det framtida projektet. </p></li> 
-   </ul><p>Mer information om Start- och slutförandedagar för malluppgifter finns i <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Översikt över Start- och slutförandedagar i en mall</a>. </p><p>Inställningen Schemalägg från för mallar liknar inställningen för projekt. Workfront-administratören väljer standardinställningen Schemalägg från för projekten i ditt system. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p></td> 
-   </tr>
+      <td role="rowheader"><strong>Villkorstyp</strong></td> 
+      <td><p>Välj mellan följande villkorstyper:</p> 
+      <ul> 
+      <li><strong>Manuell:</strong> Projektägaren ställer in projektets villkor manuellt i projektet. <strong></strong></li> 
+      <li><strong>Förloppsstatus:</strong> Workfront ställer automatiskt in villkoret för det framtida projektet baserat på förloppsstatusen för aktiviteter på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Schemaläge</strong></td> 
+      <td><p>Ange om det projekt som använder den här mallen är schemalagt från <strong>Startdatum</strong> eller från <strong>Slutförandedatum</strong>. Det här valet bestämmer planerade datum för framtida aktiviteter i projektet med den här mallen. </p><p>Välj bland följande: </p> 
+      <ul> 
+      <li><p><strong>Schemalägg från startdatum</strong>: Mallens startdatum är i själva verket startdagen. När du schemalägger en mall från startdatum beräknas mallens avslutningsdag baserat på varaktigheten för alla malluppgifter i Adobe Workfront. Mallens startdag blir det planerade startdatumet för det framtida projektet.</p></li> 
+      <li><p><strong>Schema från slutförandedatum</strong>: Mallens slutförandedatum är faktiskt Slutförandedag. När du schemalägger en mall från Slutförandedatum beräknas mallens startdag i Workfront utifrån varaktigheten för alla malluppgifter. Mallens slutförandedag blir det planerade slutförandedatumet för det framtida projektet. </p></li> 
+      </ul><p>Mer information om Start- och slutförandedagar för malluppgifter finns i <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Översikt över Start- och slutförandedagar i en mall</a>. </p><p>Inställningen Schemalägg från för mallar liknar inställningen för projekt. Workfront-administratören väljer standardinställningen Schemalägg från för projekten i ditt system. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>Portfolio</strong></td> 
-   <td><p>Ange en Portfolio för de projekt som skapas från den här mallen. Du måste skapa en Portfolio innan den visas i listrutan. </p><p>Endast aktiva portföljer visas i listan. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Program</strong></td> 
-   <td><p>Om du har valt en Portfolio för mallen anger du ett <strong>program</strong> för det framtida projektet. Vissa portföljer kanske inte har program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program visas i listan.</p><p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>Grupp</strong></td> 
-   <td><p>I listrutan väljer du den grupp som du vill ska associeras med projekt som skapats från mallen. Det kan vara en grupp på alla nivåer. </p><p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANTECKNINGAR</b>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td><p>Ange en Portfolio för de projekt som skapas från den här mallen. Du måste skapa en Portfolio innan den visas i listrutan. </p><p>Endast aktiva portföljer visas i listan. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Program</strong></td> 
+      <td><p>Om du har valt en Portfolio för mallen anger du ett <strong>program</strong> för det framtida projektet. Vissa portföljer kanske inte har program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program visas i listan.</p><p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>Grupp</strong></td> 
+      <td><p>I listrutan väljer du den grupp som du vill ska associeras med projekt som skapats från mallen. Det kan vara en grupp på alla nivåer. </p><p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p><b>ANTECKNINGAR</b>
 
-<ul> 
-   <li><p>När någon skapar ett projekt med en mall som inte har en grupp markerad, kopplas den öppna gruppen till projektet i området Projekt på en grupps sida.</p><p>Detta skiljer sig från andra områden där systemet associerar en användares hemgrupp med projektet när användaren skapar projektet med en mall som inte har någon markerad grupp.</p></li> 
-   <li><p>Om en användare väljer en mall som har en grupp markerad när ett projekt skapas, eller när en uppgift eller ett problem konverteras till ett projekt, kan användaren välja en annan grupp för projektet.</p></li> 
-   <li>Det här fältet är endast tillgängligt i mallar i den nya Adobe Workfront-upplevelsen, men du kan se det i listor och rapporter både där och i Adobe Workfront Classic. </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Företag</strong></td> 
-   <td><p>Ange det företag som du vill associera med mallen. Endast aktiva företag visas i listan.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Mallägare</strong></td> 
-   <td><p>Användaren som anges som mallägare måste vara en Workfront-aktiv användare. </p><p>Tänk på följande när det gäller användaren som angetts som mallägare: </p> 
    <ul> 
-   <li>De får automatiskt behörigheten Hantera till mallen. </li> 
-   <li>De läggs till i projektteamet och får automatiskt behörigheten Hantera för det projekt som skapas från mallen. </li> 
-   <li>De blir projektägare när projektet skapas från den här mallen. </li> 
-   <li> Om den användare som är utsedd som mallägare har begränsad åtkomst till mallar eller projekt från åtkomstnivån, begränsas behörigheten Hantera för mallen och för projekten. Om de till exempel bara har behörigheten Visa för mallar eller projekt på åtkomstnivån får de automatiskt behörigheterna Visa för mallen och projektet när de har angetts som mallägare.</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Mallsponsor</strong></td> 
-   <td><p>Användaren som anges i det här fältet blir projektsponsorn när mallen läggs till i projektet. Den här användaren läggs till i projektteamet och får automatiskt visningsbehörighet för projektet. Användaren som är angiven som mallsponsor måste vara en Workfront-användare. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Resurshanteraren</strong></td> 
-   <td><p>De angivna användarna får automatiskt behörighet att hantera framtida projekt och kan tilldela resurser till uppgifter och ärenden i projekten. Du kan ange mer än en resurshanterare. </p></td> 
-   </tr> 
-</table>
+      <li><p>När någon skapar ett projekt med en mall som inte har en grupp markerad, kopplas den öppna gruppen till projektet i området Projekt på en grupps sida.</p><p>Detta skiljer sig från andra områden där systemet associerar en användares hemgrupp med projektet när användaren skapar projektet med en mall som inte har någon markerad grupp.</p></li> 
+      <li><p>Om en användare väljer en mall som har en grupp markerad när ett projekt skapas, eller när en uppgift eller ett problem konverteras till ett projekt, kan användaren välja en annan grupp för projektet.</p></li> 
+      <li>Det här fältet är endast tillgängligt i mallar i den nya Adobe Workfront-upplevelsen, men du kan se det i listor och rapporter både där och i Adobe Workfront Classic. </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Företag</strong></td> 
+      <td><p>Ange det företag som du vill associera med mallen. Endast aktiva företag visas i listan.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Mallägare</strong></td> 
+      <td><p>Användaren som anges som mallägare måste vara en Workfront-aktiv användare. </p><p>Tänk på följande när det gäller användaren som angetts som mallägare: </p> 
+      <ul> 
+      <li>De får automatiskt behörigheten Hantera till mallen. </li> 
+      <li>De läggs till i projektteamet och får automatiskt behörigheten Hantera för det projekt som skapas från mallen. </li> 
+      <li>De blir projektägare när projektet skapas från den här mallen. </li> 
+      <li> Om den användare som är utsedd som mallägare har begränsad åtkomst till mallar eller projekt från åtkomstnivån, begränsas behörigheten Hantera för mallen och för projekten. Om de till exempel bara har behörigheten Visa för mallar eller projekt på åtkomstnivån får de automatiskt behörigheterna Visa för mallen och projektet när de har angetts som mallägare.</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Mallsponsor</strong></td> 
+      <td><p>Användaren som anges i det här fältet blir projektsponsorn när mallen läggs till i projektet. Den här användaren läggs till i projektteamet och får automatiskt visningsbehörighet för projektet. Användaren som är angiven som mallsponsor måste vara en Workfront-användare. </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Resurshanteraren</strong></td> 
+      <td><p>De angivna användarna får automatiskt behörighet att hantera framtida projekt och kan tilldela resurser till uppgifter och ärenden i projekten. Du kan ange mer än en resurshanterare. </p></td> 
+      </tr> 
+      </table>
 
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
@@ -460,24 +460,24 @@ Du kan redigera en mall i taget eller redigera flera mallar samtidigt.
       <td role="rowheader"><strong>Kräv tid för godkännande av det här projektet</strong></td>
 
    <td><p>Välj det här alternativet om du vill att den framtida projektägaren för det projekt som skapas från den här mallen ska godkänna den tid som är inloggad på projektet.</p> 
-   <p>Om du använder Faktureringsposter och väljer det här alternativet visas endast de godkända timmarna i projektet som tillgängliga fakturerbara timmar för Faktureringsposterna. </p>
-   <p>Godkännandetiden för projektet är oberoende av godkännande av tidrapporter. Mer information om hur du behöver tid för att godkänna ett projekt finns i <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Kräv tid för att godkännas för ett projekt</a>.</p>
-   </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Typ av filtertimmar</strong> </td> 
-   <td> <p>Tänk på följande:</p> <p>Välj <strong>Nej</strong> om du vill göra alla projektspecifika timtyper tillgängliga i det framtida projektet. (Det här är standardvalet)</p> <p>eller</p> <p>Välj <strong>Ja</strong> om du bara vill göra en delmängd av de projektspecifika timtyperna tillgängliga i det framtida projektet. Välj sedan de timtyper som du vill göra tillgängliga. (Håll ned Skift om du vill markera flera timtyper.)</p> <p>Om du väljer det här alternativet blir endast de timtyper som du väljer tillgängliga när du loggar timmar i projektet (eller om uppgifter och problem i projektet). Du måste välja minst en timtyp. Om du väljer det här alternativet och inte väljer någon timtyp, blir alla timtyper tillgängliga i projektet.</p> <p>Samma timtypval måste göras på den enskilda användarnivån för att användaren ska kunna se dessa timtypalternativ i projektet. </p> <p>Mer information om hur du definierar timtyper på användarnivå finns i avsnittet <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Loggtid</a> i <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Påminnelsemeddelande</strong> </td> 
-   <td>Välj det påminnelsemeddelande som ska associeras med det framtida projektet. Du måste konfigurera påminnelsemeddelanden för att projekt för det här fältet ska visas när du redigerar en mall. <br>Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Konfigurera påminnelsemeddelanden</a>.</td> 
-   </tr>
-   <tr> 
-   <td role="rowheader"><strong>Godkännandeprocess</strong> </td> 
-   <td> <p>Välj den godkännandeprocess som du vill koppla till mallen. Workfront-administratören eller en användare med administrativ åtkomst till godkännandeprocesser måste definiera godkännandeprocesser på system- eller gruppnivå innan du kan koppla dem till en mall. Mer information om hur du skapar godkännandeprocesser finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Skapa en godkännandeprocess för arbetsobjekt</a>.</p> <p>Tänk på följande när du lägger till godkännandeprocesser: </p> 
-   <ul> 
-   <li>Endast aktiva godkännandeprocesser visas i listan. </li> 
-   <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. En godkännandeprocess som är kopplad till en annan grupp än den som mallen tillhör visas inte i listan.</p> <p><b>VIKTIGT</b>
+      <p>Om du använder Faktureringsposter och väljer det här alternativet visas endast de godkända timmarna i projektet som tillgängliga fakturerbara timmar för Faktureringsposterna. </p>
+      <p>Godkännandetiden för projektet är oberoende av godkännande av tidrapporter. Mer information om hur du behöver tid för att godkänna ett projekt finns i <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Kräv tid för att godkännas för ett projekt</a>.</p>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Typ av filtertimmar</strong> </td> 
+      <td> <p>Tänk på följande:</p> <p>Välj <strong>Nej</strong> om du vill göra alla projektspecifika timtyper tillgängliga i det framtida projektet. (Det här är standardvalet)</p> <p>eller</p> <p>Välj <strong>Ja</strong> om du bara vill göra en delmängd av de projektspecifika timtyperna tillgängliga i det framtida projektet. Välj sedan de timtyper som du vill göra tillgängliga. (Håll ned Skift om du vill markera flera timtyper.)</p> <p>Om du väljer det här alternativet blir endast de timtyper som du väljer tillgängliga när du loggar timmar i projektet (eller om uppgifter och problem i projektet). Du måste välja minst en timtyp. Om du väljer det här alternativet och inte väljer någon timtyp, blir alla timtyper tillgängliga i projektet.</p> <p>Samma timtypval måste göras på den enskilda användarnivån för att användaren ska kunna se dessa timtypalternativ i projektet. </p> <p>Mer information om hur du definierar timtyper på användarnivå finns i avsnittet <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Loggtid</a> i <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>.</p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Påminnelsemeddelande</strong> </td> 
+      <td>Välj det påminnelsemeddelande som ska associeras med det framtida projektet. Du måste konfigurera påminnelsemeddelanden för att projekt för det här fältet ska visas när du redigerar en mall. <br>Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Konfigurera påminnelsemeddelanden</a>.</td> 
+      </tr>
+      <tr> 
+      <td role="rowheader"><strong>Godkännandeprocess</strong> </td> 
+      <td> <p>Välj den godkännandeprocess som du vill koppla till mallen. Workfront-administratören eller en användare med administrativ åtkomst till godkännandeprocesser måste definiera godkännandeprocesser på system- eller gruppnivå innan du kan koppla dem till en mall. Mer information om hur du skapar godkännandeprocesser finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Skapa en godkännandeprocess för arbetsobjekt</a>.</p> <p>Tänk på följande när du lägger till godkännandeprocesser: </p> 
+      <ul> 
+      <li>Endast aktiva godkännandeprocesser visas i listan. </li> 
+      <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. En godkännandeprocess som är kopplad till en annan grupp än den som mallen tillhör visas inte i listan.</p> <p><b>VIKTIGT</b>
 
    Om gruppen som är kopplad till mallen ändras blir den gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>. </p> </li>
    <li> <p>Om du har lagt till en godkännandeprocess för enstaka användning visas den som"Anpassad" i det här fältet. Mer information finns i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>. </p> 
