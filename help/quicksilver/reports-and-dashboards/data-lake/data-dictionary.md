@@ -7,10 +7,10 @@ description: Den här sidan innehåller information om datastrukturen och inneh�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 0%
+source-wordcount: '8733'
+ht-degree: 1%
 
 ---
 
@@ -22,23 +22,23 @@ Den här sidan innehåller information om datastrukturen och innehållet i Workf
 >
 >Data i Data Connect uppdateras var fjärde timme, så de senaste ändringarna kanske inte återspeglas direkt.
 
-## Tabelltyper
+## Vytyper
 
-Det finns ett antal tabelltyper som du kan använda i Data Connect för att visa dina Workfront-data på ett sätt som ger dig den mest insikt.
+Det finns ett antal visningstyper som du kan använda i Data Connect för att visa dina Workfront-data på ett sätt som ger dig den bästa insikten.
 
-* **Aktuell tabell**
+* **Aktuell vy**
 
-  I den aktuella tabellen visas data på ungefär samma sätt som i Workfront, alla objekt och det aktuella läget. Den kan navigeras med mycket lägre latens än inom Workfront.
+  I den aktuella vyn visas data på ungefär samma sätt som i Workfront, alla objekt och det aktuella läget. Den kan navigeras med mycket lägre latens än inom Workfront.
 
-* **Händelsetabell**
+* **Händelsevy**
 
-  Händelsetabellen spårar alla ändringsposter i Workfront: det vill säga varje gång ett objekt ändras skapas en post som visar när ändringen inträffade, vem som gjorde ändringen och vad som ändrades. Den här tabellen är därför användbar för jämförelser vid olika tidpunkter. Denna tabell innehåller endast poster från de senaste tre åren.
+  Händelseläget spårar alla ändringsposter i Workfront: varje gång ett objekt ändras skapas en post som visar när ändringen inträffade, vem som gjorde ändringen och vad som ändrades. Den här vyn är därför användbar för jämförelser vid olika tidpunkter. Den här vyn innehåller endast poster från de senaste tre åren.
 
-* **Daglig historiktabell**
+* **Vyn Daglig historik**
 
-  Tabellen Daglig historik innehåller en förkortad version av tabellen Event, eftersom den visar varje objekts tillstånd dagligen i stället för när varje enskild händelse inträffade. Den här tabellen är därför användbar för trendanalys.
+  Vyn Daglig historik innehåller en förkortad version av händelsevyn, eftersom den visar varje objekts tillstånd varje dag i stället för när varje enskild händelse inträffar. Den här vyn är därför användbar för trendanalys.
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## Enhetsrelationsdiagram
 
@@ -48,20 +48,25 @@ Objekt i Workfront (och därför i Data Connect-datavinen) definieras inte bara 
 
 >[!IMPORTANT]
 >
->Entitetsrelationsdiagrammet är ett pågående arbete - därför är det bara till för referens och kan ändras.
+>Entitetsrelationsdiagrammet är ett pågående arbete. Den är därför avsedd endast som referens och kan komma att ändras.
 
 ## Datumtyper
 
 Det finns ett antal datumobjekt som ger information om när specifika händelser inträffar.
 
 * `DL_LOAD_TIMESTAMP`: Det här datumet uppdateras när en datauppdatering har slutförts och innehåller tidsstämpeln för när uppdateringsjobbet som skickade den senaste versionen av en post påbörjades.
-* `CALENDAR_DATE`: Det här datumet finns bara i tabellen Daglig historik. Den här tabellen innehåller information om hur data ser ut i :59`CALENDAR_DATE` UTC för varje datum som anges i .
-* `BEGIN_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i tabellerna Händelse och Dagshistorik, och det registreras exakt när en post ändrade värdet _till_ på den aktuella raden.
-* `END_EFFECTIVE_TIMESTAMP`: Det här datumet finns i tabellerna Händelse och Daglig historik, och det registreras exakt när en post ändrade värdet _från_ i den aktuella raden till ett värde i en annan rad. För att tillåta mellan frågor på `BEGIN_EFFECTIVE_TIMESTAMP` och `END_EFFECTIVE_TIMESTAMP` är det här värdet aldrig null, även om det inte finns något nytt värde. Om en post fortfarande är giltig (d.v.s. värdet inte har ändrats) har `END_EFFECTIVE_TIMESTAMP` värdet 2300-01-01.
+* `CALENDAR_DATE`: Det här datumet finns bara i vyn Daglig historik. Vyn Daglig historik visar hur data ser ut vid :59 `CALENDAR_DATE` UTC för varje datum som anges i .
+* `BEGIN_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i vyn Händelse och Daglig historik och representerar den tid då en post blir det aktuella värdet i programmet.
+* `END_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i vyerna Händelse och Daglig historik, och det registreras exakt när en post har ändrat _från_ värdet i den aktuella raden till ett värde i en annan rad. För att tillåta mellan frågor på `BEGIN_EFFECTIVE_TIMESTAMP` och `END_EFFECTIVE_TIMESTAMP` är det här värdet aldrig null, även om det inte finns något nytt värde. Om en post fortfarande är giltig (d.v.s. värdet inte har ändrats) har `END_EFFECTIVE_TIMESTAMP` värdet 2300-01-01.
 
 ## Terminologisk tabell
 
-Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnittet och API:t) med deras motsvarande namn i Data Connect.
+Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnittet och API) med deras motsvarande namn i Data Connect, och innehåller referensfält för varje objekt till andra Workfront-objekt.
+
+>[!NOTE]
+>
+>Nya fält kan läggas till i objektvyerna utan föregående meddelande för att stödja datautvecklingen i Workfront-programmet. Vi varnar för att använda SELECT-frågor där den underordnade datamottagaren inte är beredd att hantera ytterligare kolumner när de läggs till.<br>
+>>Om du behöver byta namn på eller ta bort en kolumn visas ett meddelande om dessa ändringar.
 
 ### Åtkomstnivå
 
@@ -98,12 +103,12 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>ACCESSLEVELID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -114,7 +119,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>LEGACYACCESSLEVELID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -125,7 +130,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -172,8 +177,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>ACCESSRULEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ANCESTORID</td>
@@ -195,7 +200,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -236,8 +241,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>TYPGODKÄNNANDEPATID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>GODKÄNNANDEPROCESSID</td>
@@ -253,7 +258,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>GLOBALPATHID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -264,7 +269,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -305,8 +310,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>GODKÄNNANDEPROCESSID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -322,7 +327,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -369,12 +374,12 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>APPROVALSTEPID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -415,8 +420,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>GODKÄNNARSTATUSID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>APPROVABLEOBJID</td>
@@ -474,7 +479,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSYID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -539,8 +544,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>TILLDELNING</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>CATEGORYID</td>
@@ -553,6 +558,12 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
              <td>FK</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
+        </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -627,13 +638,13 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
     <tbody>
         <tr>
              <td>ÅTKOMSTBEGÄRAN</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Åtkomstbegärandetabellen stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>TYPGODKÄNNANDE</td>
              <td>FK</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -645,8 +656,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>AWAITINGAPPROVALID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>DOCUMENTID</td>
@@ -686,7 +697,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -751,8 +762,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>BASELINEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>EXCHANGERATEID</td>
@@ -768,7 +779,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -815,8 +826,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>BASELINETASKID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>EXCHANGERATEID</td>
@@ -832,7 +843,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -927,8 +938,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>RATEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ROLEID</td>
@@ -944,7 +955,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -997,8 +1008,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>BILLINGRECORDID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>CATEGORYID</td>
@@ -1014,7 +1025,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>INVOICEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Fakturatabellen stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -1031,7 +1042,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1072,8 +1083,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>BOOKINGID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1113,7 +1124,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -1184,8 +1195,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>BUSINESSPROFILEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1207,7 +1218,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1248,8 +1259,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>BUSINESSRULEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1265,7 +1276,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1306,8 +1317,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>CATEGORYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1329,7 +1340,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1370,8 +1381,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>KATEGORIESPARAMETERIER</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>CATEGORYID</td>
@@ -1393,7 +1404,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1434,8 +1445,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>CLASSIFIERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1457,7 +1468,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1504,8 +1515,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>COMPANYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1533,7 +1544,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1574,12 +1585,12 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>CUSTOMQUARTERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1620,8 +1631,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>ANPASSAD</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1643,7 +1654,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1707,12 +1718,12 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>DOCUMENTID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>DOCUMENTREQUESTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Dokumentbegärandetabellen stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -1783,12 +1794,12 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>RELEASEVERSIONID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Versionsversionstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -1865,8 +1876,8 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         <tr>
              <td>DOCAPPROVALID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>DOCUMENTID</td>
@@ -1888,7 +1899,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -1931,7 +1942,7 @@ Begränsad kundtillgänglighet
         <tr>
              <td class="key">GODKÄND</td>
              <td>PK</td>
-             <td>-</td>
+             <td>–</td>
              <td>OBS! Detta är också ID:t för det DOCUMENTVERSION-objekt som godkännandet är kopplat till.</td>
         </tr>
         <tr>
@@ -1948,12 +1959,12 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td class="key">EAUTHTENANTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td class="key">PRODUCTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2008,8 +2019,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td class="key">APPROVALSTAGEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td class="key">CREATORID</td>
@@ -2069,8 +2080,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td class="key">ASSETID</td>
@@ -2158,8 +2169,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>DOCFOLDERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -2211,7 +2222,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2276,12 +2287,12 @@ Begränsad kundtillgänglighet
         <tr>
              <td>DOCPROVIDERMETAID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -2328,8 +2339,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>DOCPROVIDERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OWNERID</td>
@@ -2339,7 +2350,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -2380,12 +2391,12 @@ Begränsad kundtillgänglighet
         <tr>
              <td>DOCPROVIDERCONFIGID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -2438,8 +2449,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>DOCUMENTVERSIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -2449,12 +2460,12 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>EXTERNALSTORAGEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Det externa ID:t i det externa lagringssystemet</td>
         </tr>
         <tr>
              <td>PROOFAPPROVALSTATUSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Registret för godkännandestatus stöds för närvarande inte</td>
         </tr>
         <tr>
@@ -2465,7 +2476,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>PROOFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Korrekturtabell stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -2477,12 +2488,12 @@ Begränsad kundtillgänglighet
         <tr>
              <td>PROOFSTAGEID</td>
              <td>FK</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Korrekturstegstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -2523,8 +2534,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>EXCHANGERATEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PROJECTID</td>
@@ -2534,7 +2545,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2605,8 +2616,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>UTGIFTSKOSTNAD</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>EXPENSETYPEID</td>
@@ -2634,7 +2645,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2698,14 +2709,14 @@ Begränsad kundtillgänglighet
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>EXPENSETYPEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -2715,7 +2726,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -2774,12 +2785,12 @@ Begränsad kundtillgänglighet
         <tr>
              <td>GROUPID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2796,7 +2807,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2866,7 +2877,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>DUPID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2877,15 +2888,15 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>EXTERNALTIMESHEETID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en Workfront-relation, används för integration med externa system
 Själv</td>
         </tr>
         <tr>
              <td>HOURID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>HOURTYPEID</td>
@@ -2919,7 +2930,7 @@ Själv</td>
         </tr>
         <tr>
              <td>PROJECTOVERHEADID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2930,7 +2941,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -2982,14 +2993,14 @@ Själv</td>
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>HOURTYPEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -2999,7 +3010,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -3052,8 +3063,8 @@ Själv</td>
         <tr>
              <td>ITERATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>LASTUPDATEDBYID</td>
@@ -3069,7 +3080,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -3127,7 +3138,7 @@ Själv</td>
         </tr>
         <tr>
              <td>AUDITRECORDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Registret för granskningsposter stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -3156,7 +3167,7 @@ Själv</td>
         </tr>
         <tr>
              <td>DOCUMENTSHAREID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Dokumentdelningstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -3179,14 +3190,14 @@ Själv</td>
         </tr>
         <tr>
              <td>INITIATIVEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Initiativtabellen stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>JOURNALENTRIESID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3226,12 +3237,12 @@ Själv</td>
         </tr>
         <tr>
              <td>SUBSCRIBEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -3307,7 +3318,7 @@ Själv</td>
         </tr>
         <tr>
              <td>EXTERNALSTORAGEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Det externa ID:t i det externa lagringssystemet</td>
         </tr>
         <tr>
@@ -3325,12 +3336,12 @@ Själv</td>
         <tr>
              <td>LINKEDFOLDERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -3377,8 +3388,8 @@ Själv</td>
         <tr>
              <td>MILESTONEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>MILESTONEPATID</td>
@@ -3388,7 +3399,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -3441,12 +3452,12 @@ Själv</td>
         <tr>
              <td>MILESTONEPATID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -3493,8 +3504,8 @@ Själv</td>
         <tr>
              <td>NONLABORRESOURCEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -3522,7 +3533,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -3581,8 +3592,8 @@ Själv</td>
         <tr>
              <td>NLBRCATEGORYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PRIVATERATECARDID</td>
@@ -3598,7 +3609,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -3639,8 +3650,8 @@ Själv</td>
         <tr>
              <td>NONWORKDAYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3656,7 +3667,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -3668,7 +3679,7 @@ Själv</td>
     </tbody>
 </table>
 
-### Anteckning
+### Obs
 
 <table>
     <thead>
@@ -3682,10 +3693,10 @@ Själv</td>
       </thead>
       <tbody>
         <tr>
-            <td>Anteckning</td>
-            <td>Anteckning</td>
+            <td>Obs</td>
+            <td>Obs</td>
             <td>ANMÄRKNING</td>
-            <td>Anteckning</td>
+            <td>Obs</td>
             <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
         </tr>
       </tbody>
@@ -3732,7 +3743,7 @@ Själv</td>
         </tr>
         <tr>
              <td>AUDITRECORDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Registret Granskningspost stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -3749,7 +3760,7 @@ Själv</td>
         </tr>
         <tr>
              <td>EXTERNALSERVICEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en Workfront-relation, används för integration med externa system</td>
         </tr>
         <tr>
@@ -3761,8 +3772,8 @@ Själv</td>
         <tr>
              <td>NOTEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3784,7 +3795,7 @@ Själv</td>
         </tr>
         <tr>
              <td>PARENTENDORSEMENTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Bekräftelsetabellen stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -3819,12 +3830,12 @@ Själv</td>
         </tr>
         <tr>
              <td>PROOFACTIONID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Korrekturåtgärdstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>PROOFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Korrekturtabell stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -3835,7 +3846,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -3882,7 +3893,6 @@ Själv</td>
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### Objektintegrering
@@ -3926,8 +3936,8 @@ Själv</td>
         <tr>
              <td>OBJECTINTEGRATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3937,11 +3947,10 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Objektkategori
@@ -3985,8 +3994,8 @@ Själv</td>
         <tr>
              <td>OBJECTSCATEGORYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3996,7 +4005,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -4078,7 +4087,7 @@ Själv</td>
         </tr>
         <tr>
              <td>KANBANBOARDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Kanban-tavlan stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -4102,8 +4111,8 @@ Själv</td>
         <tr>
              <td>OPTASKID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OWNERID</td>
@@ -4119,12 +4128,12 @@ Själv</td>
         </tr>
         <tr>
              <td>QUEUEDEFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Ködefinitionstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>QUEUETOPICID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabellen Köämne stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -4177,7 +4186,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -4229,18 +4238,18 @@ Själv</td>
         </tr>
         <tr>
              <td>PARAMETERFILTERID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Parameterfiltertabellen stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>PARAMETERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -4287,12 +4296,12 @@ Själv</td>
         <tr>
              <td>PARAMETERGROUPID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -4339,12 +4348,12 @@ Själv</td>
         <tr>
              <td>PARAMETEROPTIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -4384,7 +4393,7 @@ Själv</td>
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -4426,8 +4435,8 @@ Själv</td>
         <tr>
              <td>PORTALSECTIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PREFERENCEID</td>
@@ -4455,12 +4464,12 @@ Själv</td>
         </tr>
         <tr>
              <td>SCHEDULEDREPORTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Schemalagd rapporttabell stöds för närvarande inte</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -4506,7 +4515,7 @@ Själv</td>
     <tbody>
         <tr>
              <td>DOCID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -4517,18 +4526,18 @@ Själv</td>
         </tr>
         <tr>
              <td>PORTALPROFILEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>PORTALTABID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -4574,12 +4583,12 @@ Själv</td>
     <tbody>
         <tr>
              <td>CALENDARPORTALSECTIONID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Kalenderportalavsnittet stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>EXTERNALSECTIONID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabellen Externa avsnitt stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -4603,12 +4612,12 @@ Själv</td>
         <tr>
              <td>PORTALTABSECTIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -4655,12 +4664,12 @@ Själv</td>
         <tr>
              <td>RAPPORTLASTVIEWERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -4706,7 +4715,7 @@ Själv</td>
     <tbody>
         <tr>
              <td>ALIGNMENTSCORECARDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Styrkortstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -4742,12 +4751,12 @@ Själv</td>
         <tr>
              <td>PORTFOLIOID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -4787,18 +4796,18 @@ Själv</td>
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>PREFERENCEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -4875,12 +4884,12 @@ Själv</td>
         <tr>
              <td>PROGRAMID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -4920,12 +4929,12 @@ Själv</td>
     <tbody>
         <tr>
              <td>AEMNATIVEFOLDERTREESREFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>ALIGNMENTSCORECARDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Styrkortstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -4972,7 +4981,7 @@ Själv</td>
         </tr>
         <tr>
              <td>LEVERABLESCORECARDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Styrkortstabellen stöds inte för närvarande</td>
         </tr>
         </tr>
@@ -5020,7 +5029,7 @@ Själv</td>
         </tr>
         <tr>
              <td>POPACCOUNTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Pop Account table not supported current</td>
         </tr>
         <tr>
@@ -5044,12 +5053,12 @@ Själv</td>
         <tr>
              <td>PROJECTID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>QUEUEDEFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Ködefinitionstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -5084,7 +5093,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -5143,17 +5152,17 @@ Själv</td>
         <tr>
              <td>PROJECTSUSERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>TMPUSERID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -5206,8 +5215,8 @@ Själv</td>
         <tr>
              <td>PROJECTSUSERSROLEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ROLEID</td>
@@ -5217,7 +5226,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -5282,8 +5291,8 @@ Själv</td>
         <tr>
              <td>RATECARDID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SECURITYROOTID</td>
@@ -5299,11 +5308,10 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Rapportmapp
@@ -5341,12 +5349,12 @@ Själv</td>
         <tr>
              <td>RAPPORTFOLDERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -5393,12 +5401,12 @@ Själv</td>
         <tr>
              <td>RAPPORTVIEWSTATISTICCOUNTID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -5445,8 +5453,8 @@ Själv</td>
         <tr>
              <td>RAPPORTABLEBUDGETEDHOURID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ROLEID</td>
@@ -5456,7 +5464,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -5503,12 +5511,12 @@ Själv</td>
         <tr>
              <td>RESERVEDTIMEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -5561,8 +5569,8 @@ Själv</td>
         <tr>
              <td>ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PROJECTID</td>
@@ -5578,7 +5586,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -5637,12 +5645,12 @@ Själv</td>
         <tr>
              <td>RESURCEPOOLID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -5683,12 +5691,12 @@ Själv</td>
         <tr>
              <td>RICHTEXTNOTEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -5728,18 +5736,18 @@ Själv</td>
     <tbody>
         <tr>
              <td>PARAMETERVALUEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Parametervärdestabellen stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>RICHTEXTPARAMETERVALUEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -5804,8 +5812,8 @@ Själv</td>
         <tr>
              <td>RISKID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>RISKTYPEID</td>
@@ -5815,7 +5823,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -5862,12 +5870,12 @@ Själv</td>
         <tr>
              <td>RISKTYPEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -5913,7 +5921,7 @@ Själv</td>
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Layoutmallstabellen stöds inte</td>
         </tr>
         <tr>
@@ -5925,12 +5933,12 @@ Själv</td>
         <tr>
              <td>ROLEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -5995,14 +6003,186 @@ Själv</td>
         <tr>
              <td>SCHEDULEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
+    </tbody>
+</table>
+
+### Personalplan
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Personalplan</td>
+            <td>Personalplan</td>
+            <td>STAFFP</td>
+            <td>Personalplan</td>
+            <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT </td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>PK</td>
+             <td>–</td>
+             <td>–</td>
+        </tr>
+    </tbody>
+</table>
+
+### Resurs för personalplan
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Resurs för personalplan</td>
+            <td>Resurs för personalplan</td>
+            <td>PERSONAL</td>
+            <td>Resurs för personalplan</td>
+            <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>–</td>
+             <td>–</td>
+        </tr>        
     </tbody>
 </table>
 
@@ -6053,12 +6233,12 @@ Själv</td>
         <tr>
              <td>STEPAPPROVERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -6176,7 +6356,7 @@ Själv</td>
         </tr>
         <tr>
              <td>KANBANBOARDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Kanban-tavlan stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -6217,7 +6397,7 @@ Själv</td>
         </tr>
         <tr>
              <td>ÅTERKOMMANDE</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Regeltabellen för upprepning stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -6246,14 +6426,14 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>AKTIVITET</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>TEAMID</td>
@@ -6305,8 +6485,8 @@ Själv</td>
         <tr>
              <td>ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>FÖRBESTÄLL</td>
@@ -6322,7 +6502,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -6374,7 +6554,7 @@ Själv</td>
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Layoutmallstabellen stöds inte</td>
         </tr>
         <tr>
@@ -6404,12 +6584,12 @@ Själv</td>
         <tr>
              <td>TEAMID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -6455,7 +6635,7 @@ Själv</td>
     <tbody>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -6467,8 +6647,8 @@ Själv</td>
         <tr>
              <td>TEAMMEMBERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>USERID</td>
@@ -6519,7 +6699,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -6531,8 +6711,8 @@ Själv</td>
         <tr>
              <td>TEAMMEMBERROLEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>USERID</td>
@@ -6595,7 +6775,7 @@ Själv</td>
         </tr>
         <tr>
              <td>LEVERABLESCORECARDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Slutprodukt styrkortsregister stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -6648,7 +6828,7 @@ Själv</td>
         </tr>
         <tr>
              <td>QUEUEDEFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Ködefinitionstabellen stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -6659,7 +6839,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -6671,8 +6851,8 @@ Själv</td>
         <tr>
              <td>TEMPLATEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -6741,7 +6921,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -6752,14 +6932,14 @@ Själv</td>
         </tr>
         <tr>
              <td>TEAMTIMELINEABLEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tidslinjerbar tabell för team stöds inte för närvarande</td>
         </tr>
         <tr>
              <td>TEMPLATEASSIGNMENTID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>TEMPLATETASKID</td>
@@ -6858,7 +7038,7 @@ Själv</td>
         </tr>
         <tr>
              <td>ÅTERKOMMANDE</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Regeltabellen för upprepning stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -6869,7 +7049,7 @@ Själv</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -6880,7 +7060,7 @@ Själv</td>
         </tr>
         <tr>
              <td>TEAMTIMELINEABLEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tidslinjerbar tabell för team stöds inte för närvarande</td>
         </tr>
         <tr>
@@ -6892,8 +7072,8 @@ Själv</td>
         <tr>
              <td>TEMPLATETASKID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -6945,13 +7125,153 @@ Själv</td>
         <tr>
              <td>TEMPLATEPREDECESSORID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tidsfasad KPI kombinerad
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tidsfasad KPI kombinerad</td>
+            <td>Tidsfasad KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TILLDELNING</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TILLDELNING</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>Detta är en naturlig nyckel för den tidsfasade KPI-posten</td>
+             <td>–</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>METADATA-registret har inte angetts</td>
+             <td>–</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet
+</td>
+        </tr>
+                        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>SCHEMA-tabellen har inte angetts. Värdet från den här tabellen anges i SCHEMANAME-kolumnen. SCHEMANAME identifierar den KPI (t.ex. planningHours, stimours och actualHours) som posten är kopplad till.</td>
+             <td>–</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+                                <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
         </tr>
     </tbody>
 </table>
@@ -7008,6 +7328,12 @@ Begränsad kundtillgänglighet
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>METADATA-registret har inte angetts</td>
+             <td>–</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Begränsad kundtillgänglighet
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Ska läggas till inom kort</td>
+             <td>SCHEMA-tabellen har inte angetts. Värdet från den här tabellen anges i SCHEMANAME-kolumnen. SCHEMANAME identifierar den KPI (t.ex. planningRevenueRate, planningCostRate, actualRevenue, osv.) som posten är kopplad till.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7056,9 +7382,21 @@ Begränsad kundtillgänglighet
              <td>TASKS_CURRENT</td>
              <td>AKTIVITET</td>
         </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7070,8 +7408,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>TIMEPHASEDCURRENCYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>USERID</td>
@@ -7134,6 +7472,12 @@ Begränsad kundtillgänglighet
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>METADATA-registret har inte angetts</td>
+             <td>–</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Begränsad kundtillgänglighet
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Ska läggas till inom kort</td>
+             <td>SCHEMA-tabellen har inte angetts. Värdet från den här tabellen anges i SCHEMANAME-kolumnen. SCHEMANAME identifierar den KPI (t.ex. planningHours, stimours och actualHours) som posten är kopplad till.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7182,9 +7526,21 @@ Begränsad kundtillgänglighet
              <td>TASKS_CURRENT</td>
              <td>AKTIVITET</td>
         </tr>
+                <tr>
+             <td>STAFFINGPLANID </td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7196,10 +7552,155 @@ Begränsad kundtillgänglighet
         <tr>
              <td>TIMEPHASEDDURATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tidsfasade KPI-nummer
+
+Begränsad kundtillgänglighet
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront entitetsnamn</th>
+            <th>Gränssnittsreferenser</th>
+            <th>API-referens</th>
+            <th>API-etikett</th>
+            <th>Datasjövyer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tidsfasade KPI-nummer</td>
+            <td>Tidsfasad KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY<br>TIMEPHASED_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primär/extern nyckel</th>
+            <th>Typ</th>
+            <th>Relaterad tabell</th>
+            <th>Relaterat fält</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TILLDELNING</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TILLDELNING</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>Detta är en naturlig nyckel för den tidsfasade KPI-posten</td>
+             <td>–</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>METADATA-registret har inte angetts</td>
+             <td>–</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variabel, baserad på OBJCODE</td>
+             <td>Primärnyckeln / ID för objektet som identifieras i OBJCODE-fältet</td>
+        </tr>
+                <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>SCHEMA-tabellen har inte angetts. Värdet från den här tabellen anges i SCHEMANAME-kolumnen. SCHEMANAME identifierar den KPI (t.ex. planningHours, stimours och actualHours) som posten är kopplad till.</td>
+             <td>–</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>AKTIVITET</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AKTIVITET</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>–</td>
+             <td>–</td>
+        </tr>
+                <tr>
              <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
@@ -7260,14 +7761,14 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>TIDSPEL</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>TIMESHEETPROFILEID</td>
@@ -7336,14 +7837,14 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>TIMESHEETPROFILEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7382,7 +7883,7 @@ Begränsad kundtillgänglighet
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7411,14 +7912,14 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>UIFILTERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7457,7 +7958,7 @@ Begränsad kundtillgänglighet
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7486,14 +7987,14 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>UIGROUPBYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7550,14 +8051,14 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>UITEMPLATEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7596,7 +8097,7 @@ Begränsad kundtillgänglighet
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7625,14 +8126,14 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
              <td>UIVIEWID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7701,7 +8202,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>EAUTHUSERID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7742,7 +8243,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Layoutmallstabellen stöds inte</td>
         </tr>
         <tr>
@@ -7753,12 +8254,12 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>PORTALPROFILEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Portalprofiltabellen stöds inte</td>
         </tr>
         <tr>
              <td>PREFUIID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7787,7 +8288,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7805,12 +8306,12 @@ Begränsad kundtillgänglighet
         <tr>
              <td>USERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>UUMUSERID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
     </tbody>
@@ -7856,7 +8357,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7868,8 +8369,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>USERDELEGATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7914,7 +8415,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7926,8 +8427,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>USERSGROUPID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7972,7 +8473,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -7984,8 +8485,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>USERLOCATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -8030,7 +8531,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -8048,8 +8549,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>USERLOCATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -8088,7 +8589,7 @@ Begränsad kundtillgänglighet
     <tbody>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -8100,8 +8601,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>USERPREFVALUEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -8146,7 +8647,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -8158,8 +8659,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>USERROLESETID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -8199,12 +8700,12 @@ Begränsad kundtillgänglighet
         <tr>
              <td>USERAVIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -8274,7 +8775,7 @@ Begränsad kundtillgänglighet
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Inte en relation, används för interna programsyften</td>
         </tr>
         <tr>
@@ -8292,8 +8793,8 @@ Begränsad kundtillgänglighet
         <tr>
              <td>WORKITEM-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
