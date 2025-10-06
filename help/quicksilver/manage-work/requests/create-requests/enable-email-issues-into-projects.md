@@ -6,9 +6,9 @@ description: Du kan konfigurera ett projekt så att användare kan lägga till p
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Följande villkor krävs för att konfigurera ett projekt så att användare kan
 >* Workfront tillåter en unik e-postkö per begäran för alla kluster. Om du väljer att inaktivera din begärandekö behåller du den e-postadress du skapade så länge som den fortfarande finns i rutan Ange e-postadress. Om du väljer att inte längre använda e-postadressen måste du ta bort den från fältet Intag-e-post så att den kan användas senare.
 >
 >* Om det finns flera köämnen eller ämnesgrupper i kön i begärandekön väljer Workfront slumpmässigt det köämne som förfrågningarna ska gå till, vilket gör det svårt att hantera e-postförfrågningar.
->  &#x200B;>Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
+>  >Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
 
 1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
 1. Klicka på **Köinformation** i den vänstra panelen.
@@ -119,6 +119,11 @@ När en Workfront-användare skickar ett e-postmeddelande till Workfront händer
 * Ämnesraden i e-postmeddelandet blir Ärendenamn.
 * E-postmeddelandets brödtext blir en beskrivning av problemet.
 * Om det finns några dokument bifogade till e-postmeddelandet bifogas dessa dokument till utgåvan i Workfront.
+
+  >[!NOTE]
+  >
+  > MSG-filer stöds inte och kommer inte att bifogas i Workfront.
+
 * Användaren som skickar e-postmeddelandet blir den primära kontakten för den nya utgåvan i Workfront.
 * E-postmeddelandets brödtext får inte vara längre än 4 000 tecken.
 * E-postbilagor får inte överskrida totalt 7 MB.
