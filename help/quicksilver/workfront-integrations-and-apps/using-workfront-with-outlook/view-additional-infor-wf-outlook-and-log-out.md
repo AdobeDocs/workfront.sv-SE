@@ -6,9 +6,9 @@ description: Du kan visa information om vilken version av Adobe Workfront-tillä
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -21,44 +21,3 @@ ht-degree: 0%
 >
 >**Eftersom Microsoft har inaktiverat dessa token fungerar inte längre integreringen i Workfront för Microsoft Outlook.**
 
-Du kan visa information om versionen av [!DNL Adobe Workfront]-tillägget för [!DNL Outlook], navigera direkt till webbversionen, skicka feedback eller logga ut.
-
-## Åtkomstkrav
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alla</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
-
-## Förutsättningar
-
-[!DNL Workfront]-administratören måste aktivera [!DNL Outlook for Office] med [!DNL Workfront] innan du kan använda den här integreringen.
-
-## Visa ytterligare information om [!DNL Adobe Workfront for Outlook] och logga ut
-
-1. Välj ett e-postmeddelande i [!DNL Outlook].
-1. Klicka på ikonen **[!DNL Workfront]** för att visa Workfront-tillägget.
-1. Klicka på listrutepilen bredvid ditt användarnamn.
-
-1. Klicka på något av följande alternativ:
-
-   * **[!UICONTROL About]:** Visa information om Workfront-tillägget, inklusive aktuell version, nyheter och en länk till hjälpinformation på Workfront hjälpwebbplats.
-   * **[!UICONTROL Web Version]:** Starta hela Workfront-programmet i ett nytt webbläsarfönster.
-   * **Skicka feedback:** Skicka feedback till [!DNL Workfront] om Workfront-tillägget.
-   * **[!UICONTROL Logout]:** Logga ut från tillägget [!DNL Workfront].
-
-     Det här alternativet loggar inte ut dig från [!DNL Outlook].
