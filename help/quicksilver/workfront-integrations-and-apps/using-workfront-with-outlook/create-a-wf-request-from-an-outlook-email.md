@@ -64,7 +64,7 @@ Så här skapar du en [!DNL Workfront]-begäran från [!DNL Outlook]:
 1. Klicka på ikonen **[!DNL Workfront]** i det övre högra hörnet av e-postmeddelandet för att visa Workfront-tillägget.\
    Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt ikonen [!DNL Workfront].
 
-1. Klicka på ikonen **[!UICONTROL Menu]** ![ o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan med tillgängliga [!DNL Workfront]-alternativ.
+1. Klicka på ikonen **[!UICONTROL Menu]** ![&#x200B; o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan med tillgängliga [!DNL Workfront]-alternativ.
 
 1. Klicka på **[!UICONTROL Submit Request]**.
 1. I fältet **[!UICONTROL Select a Request Type]** väljer du den begärandekö där du vill skicka begäran.

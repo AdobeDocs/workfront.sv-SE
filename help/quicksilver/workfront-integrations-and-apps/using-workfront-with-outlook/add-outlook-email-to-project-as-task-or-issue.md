@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt ikonen [!DNL Workfront].
 
-1. Klicka på ikonen **[!UICONTROL Menu]** ![ o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan med tillgängliga [!DNL Workfront]-alternativ.
+1. Klicka på ikonen **[!UICONTROL Menu]** ![&#x200B; o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan med tillgängliga [!DNL Workfront]-alternativ.
 
 
 
