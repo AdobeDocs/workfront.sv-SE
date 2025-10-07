@@ -75,7 +75,7 @@ Den vänstra panelen är tillgänglig för följande objekt:
 >[!IMPORTANT]
 >
 >Om bara ett avsnitt visas som standard i den vänstra panelen, t.ex. **[!UICONTROL All Projects]** i **[!UICONTROL Projects]** -området, måste en [!DNL Workfront]-administratör lägga till minst en instrumentpanel i det här området när en layoutmall skapas och tilldela dig till den mallen innan den vänstra panelen visas i det området.
->>Mer information om hur en [!DNL Workfront]-administratör anpassar den vänstra panelen i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>&#x200B;>Mer information om hur en [!DNL Workfront]-administratör anpassar den vänstra panelen i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Den vänstra panelen är tillgänglig för följande områden:
 
@@ -84,7 +84,7 @@ Den vänstra panelen är tillgänglig för följande områden:
 * [Standardavsnitt i området [!UICONTROL Resourcing]](#default-sections-in-the-resourcing-area)
 * [Standardavsnitt i området [!UICONTROL Projects]](#default-sections-in-the-projects-area)
 * [Standardavsnitt i området [!UICONTROL Timesheets]](#default-sections-in-the-timesheets-area)
-* [Standardavsnitt i området  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Standardavsnitt i området  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Standardavsnitt i området [!UICONTROL Dashboards]
 
@@ -237,7 +237,7 @@ Mer information om hur du använder den vänstra panelen i området [!UICONTROL 
 
 Att söka efter och redigera information i den vänstra panelen liknar för dessa objekt. Vilka alternativ som är tillgängliga på den vänstra panelen varierar beroende på vilket objekt du öppnar.
 
-Mer information om vilka avsnitt som är tillgängliga för specifika områden finns i [[!UICONTROL Default sections] i den vänstra navigeringspanelen ](#default-sections-in-the-left-navigation-panel).
+Mer information om vilka avsnitt som är tillgängliga för specifika områden finns i [[!UICONTROL Default sections] i den vänstra navigeringspanelen &#x200B;](#default-sections-in-the-left-navigation-panel).
 
 {{step1-click-main-menu}}
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Informationen som du ser i webbprogrammet [!DNL Workfront] visas ofta som standard i de vänstra panelavsnitten. Varje avsnitt innehåller olika information om ett [!DNL Workfront]-område eller objekt.
 
-Mer information om standardområdena för [!DNL Workfront] finns i artikeln [Om standardlayouten [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Mer information om standardområdena för [!DNL Workfront] finns i artikeln [Om standardlayouten [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Förutom de avsnitt som medföljer [!DNL Workfront] som standard kan du lägga till en instrumentpanel där du kan visa information som är relevant för ditt arbetsflöde. Du kan inte lägga till en kontrollpanel till alla områden och objekt.
 
@@ -99,7 +99,7 @@ När du har skapat kontrollpanelen eller den externa sidan kan du lägga till de
 
 ## Visa instrumentpaneler på den vänstra panelen med objekt
 
-Mer information om hur du lägger till en kontrollpanel under ett objekt finns i avsnittet [[!UICONTROL Add a dashboard] på den vänstra panelen i ett Workfront-objekt eller -område ](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) i den här artikeln.
+Mer information om hur du lägger till en kontrollpanel under ett objekt finns i avsnittet [[!UICONTROL Add a dashboard] på den vänstra panelen i ett Workfront-objekt eller -område &#x200B;](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) i den här artikeln.
 
 När du lägger till en kontrollpanel i den vänstra panelen av ett objekt fungerar objektet som ett filter för kontrollpanelen. Om du till exempel lägger till en uppgiftsrapport på en kontrollpanel och lägger till kontrollpanelen i ett projekt, visas bara uppgifter från det projekt som du visar på kontrollpanelen.
 
