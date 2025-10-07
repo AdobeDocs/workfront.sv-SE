@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 0%
 
 ---
@@ -267,22 +267,22 @@ Detta är standardrollen som användare tilldelas till ett korrektur när korrek
 
 ## Förbättrade korrekturfunktioner i både Workfront Proof och Workfront {#proofing-enhancements-within-both-workfront-proof-and-workfront}
 
-* [Starta om och hoppa över i HTML5-visningsprogrammet för videokorrektur (kortkommandon)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
-* [Uppdateringar för korrekturläsaren för HTML 5](#html5-proofing-viewer-updates)
+* [Starta om och hoppa över i HTML5 Video Proofing Viewer (Keyboard Shortcuts)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
+* [HTML5 - uppdateringar för korrekturläsare](#html5-proofing-viewer-updates)
 
-### Starta om och hoppa över videokorrektur i HTML5 (kortkommandon) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
+### Starta om och hoppa över i HTML5 Video Proofing Viewer (kortkommandon) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
-Det finns nu kortkommandon i korrekturläsaren för HTML 5 som gör att du kan starta om videon från början och hoppa till slutet av videon.
+Det finns nu kortkommandon i HTML5 för att visa korrektur på video som gör att du kan starta om videon från början och gå till slutet av videon.
 
 Mer information om tillgängliga kortkommandon finns i [Kortkommandon i Workfront Proof korrekturläsare](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
 
-### Uppdateringar för korrekturläsaren för HTML 5 {#html5-proofing-viewer-updates}
+### HTML5 - uppdateringar för korrekturläsare {#html5-proofing-viewer-updates}
 
 HTML5-visningsprogrammet har nu stöd för statiska korrektur.
 
-Före den här ändringen hade visningsprogrammet för HTML5 bara stöd för videoklipp. 
+Före den här ändringen hade HTML5-visningsprogrammet bara stöd för videoklipp. 
 
-Visningsprogrammet för HTML innehåller följande nya funktioner för korrektur av statiskt innehåll:
+HTML Viewer innehåller följande nya funktioner för korrektur av statiskt innehåll:
 
 * Gör en enda kommentar med markeringar på flera sidor i en enda vy
 
@@ -297,7 +297,7 @@ Visningsprogrammet för HTML innehåller följande nya funktioner för korrektur
 * Ange egna värden i mätningsverktyget
 * När du kommenterar text i ett korrektur i korrekturläsaren i Workfront Proof, kan du inkludera alternativ som anger att texten ska vara fet, kursiv och understruken.
 
-HTML5-visningsprogrammet stöder ännu inte alla funktioner som finns i det befintliga visningsprogrammet för Flashar. Följande funktioner är inte tillgängliga för närvarande, men kommer att ingå i en framtida version:
+HTML5-visningsprogrammet stöder ännu inte alla funktioner som finns i det befintliga Flash-visningsprogrammet. Följande funktioner är inte tillgängliga för närvarande, men kommer att ingå i en framtida version:
 
 * Stöd för multimediefiler
 * Jämförelseläge (video och statisk)
@@ -309,7 +309,7 @@ HTML5-visningsprogrammet stöder ännu inte alla funktioner som finns i det befi
 
 Mer information om hur du korrekturläser statiska korrektur i HTML5-visningsprogrammet finns i .
 
-Som Workfront-administratör i Workfront Proof kan du avgöra om användare i din organisation har tillgång till den nya korrekturläsaren för HTML 5 för videokorrektur.
+Som Workfront-administratör i Workfront Proof kan du avgöra om användare i din organisation har tillgång till den nya HTML5-korrekturläsaren för videokorrektur.
 
 ## Ny Gantt-schemaomdesign {#new-gantt-chart-redesign}
 
@@ -427,13 +427,13 @@ Vi har lagt till möjligheten att komma åt dina projekt och hantera dem från W
 
 Du kan installera den här funktionen när du uppdaterar din Workfront-mobilapp. Uppdateringen kommer att finnas tillgänglig i både Apple och Android mobilbutiker i november 2017.
 
-## Workfront-integrering med Slack {#workfront-integration-with-slack}
+## Workfront Integration med Slack {#workfront-integration-with-slack}
 
 >[!NOTE]
 >
->Integreringen av Slack är för närvarande inte tillgänglig. Den kommer att vara tillgänglig i din produktionsmiljö i november 2017.
+>Slack-integreringen är inte tillgänglig för närvarande. Den kommer att vara tillgänglig i din produktionsmiljö i november 2017.
 
-Vi lanserar en ny integrering mellan Workfront och Slack. Om ni redan har använt Slack för ert material kan ni nu integrera det med Workfront och genomföra Workfront gemensamma åtgärder utan att lämna kommunikationskanalerna i Slack. Nu kan du utföra följande åtgärder från ditt Slack-konto:
+Vi lanserar en ny integrering mellan Workfront och Slack. Om ni redan har använt Slack för er kommunikation kan ni nu integrera det med Workfront och genomföra Workfront gemensamma åtgärder utan att lämna era kommunikationskanaler i Slack. Nu kan du utföra följande åtgärder från ditt Slack-konto:
 
 * Söka efter ett objekt i Workfront
 * Få tillgång till dina arbeten och godkännandelistor
@@ -452,8 +452,6 @@ Vi har förbättrat Workfront-tillägget för  Outlook 365:
 
 * Lägg till en uppgift eller ett problem i ett projekt i Workfront: Du kan nu konvertera ett e-postmeddelande till en uppgift eller ett problem i Workfront med hjälp av tillägget Outlook 365. I den här processen kan du ange ett projekt som du vill att uppgiften eller utgåvan ska läggas till i, samt en tilldelad och ett förfallodatum. Före den här förbättringen kunde du bara skicka en begäran till en begärandekö eller lägga till en personlig uppgift i listan Arbeta på från Outlook 365. 
 * Bevara en länk till Workfront-objekt i det ursprungliga e-postmeddelandet som konverterats till uppgifter, ärenden eller förfrågningar: När du konverterar ett e-postmeddelande från Outlook 365 till en uppgift, ett problem eller en förfrågan, bevaras en länk till uppgiften eller problemet som konverterades från det e-postmeddelandet i det ursprungliga e-postmeddelandet. Före den här ändringen fanns det ingen indikation i Outlook om ett e-postmeddelande har konverterats till en uppgift eller skickats som en begäran. 
-
-  Mer information om hur du konverterar ett e-postmeddelande till en uppgift eller ett problem från Outlook 365 finns i [Lägga till ett Outlook-e-postmeddelande i ett projekt som en uppgift eller ett problem](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
 ## API-ändringar {#api-changes}
 

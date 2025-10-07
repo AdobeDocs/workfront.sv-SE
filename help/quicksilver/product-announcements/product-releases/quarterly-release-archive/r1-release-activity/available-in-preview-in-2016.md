@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,6 @@ Mer information om hur du konfigurerar layoutmallen finns i [Skapa och hantera l
 
 Du kan använda Workfront från Outlook för Office 365 enligt beskrivningen i följande avsnitt:
 
-* [Konfigurera Adobe Workfront för Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * &quot;Uppdatera ett befintligt objekt från ett e-postmeddelande med Outlook 365&quot;
 
 ## Ändra ordning på kolumner i en lista med dra-och-släpp

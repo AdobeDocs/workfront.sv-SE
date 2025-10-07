@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2790'
 ht-degree: 0%
 
 ---
@@ -369,12 +369,6 @@ Brödtexten i e-postmeddelandet läggs till som begärandebeskrivning.
 >HTML-formatering tas bort när begäran kommer in i Workfront, men signaturer och befintligt svarstrådinnehåll tas inte bort och visas i begärandebeskrivningen.
 
 Mer information om hur du aktiverar en begärandekö för att ta emot begäranden via e-post finns i [Ge användare behörighet att skicka ett problem via e-post till ett begärandeköprojekt](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
-
-## Skapa begäranden med Outlook-klienten
-
-Du kan skicka begäranden med Outlook-klienten. Du kan skapa en ny begäran eller konvertera ett e-postmeddelande till en begäran.
-
-Mer information om hur du skickar begäranden med Outlook-klienten finns i artikeln [Skapa en Adobe Workfront-begäran från ett Outlook-e-postmeddelande](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Skapa förfrågningar med Workfront mobilapp
 
