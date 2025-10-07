@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: db9db8d03c8caeef95fb7cf873ee242f29b00efa
+source-git-commit: 82b184e18aa5520eb97aa9ac2f7ac84b251aca58
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Lägg till problem | ✓ | ✓ |   |   |
 | Redigera en uppgift (exklusive status) | ✓ |   |   |   |
 | Ändra aktivitetsstatus | ✓ |   |   |   |
-| Lägga till dokument | ✓ | ✓ |   |   |
+| Lägga till dokument | ✓ | ✓ | ✓ |   |
 | Kopiera en uppgift | ✓ |   |   |   |
 | Flytta en uppgift | ✓ |   |   |   |
 | Loggtimmar | ✓ | ✓ |   |   |
