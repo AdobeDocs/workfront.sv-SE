@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ När en användare lämnar organisationen kan du ta bort den användaren från A
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -109,10 +109,12 @@ Om du tar bort en användare händer följande:
    * Uppgifter, ärenden, projekt, portfölj
    * Kontrollpaneler
 
+  <!--
      >[!NOTE]
      >
-     >Du förlorar även åtkomsten till anpassade avsnitt som innehöll kontrollpaneler som är kopplade till den borttagna användaren.\
-     >Mer information finns i [Hur kommer jag åt en instrumentpanel som innehåller en rapport som ägs av en borttagen användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) i artikeln [Rapporterar vanliga frågor och svar](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+     >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     -->
 
    * Uppdateringar
    * Timmar

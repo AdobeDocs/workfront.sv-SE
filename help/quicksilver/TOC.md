@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f5b9f7eac2dd5bdc1f9634777b91737a8cc7fc53
+source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13446'
 ht-degree: 0%
 
 ---
@@ -842,7 +842,7 @@ ht-degree: 0%
       * [Översikt över vägbeskrivningar](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
       * [Översikt över objektrubriker](workfront-basics/the-new-workfront-experience/new-object-headers.md)
       * [Fäst sidor för att anpassa arbetsytan](workfront-basics/the-new-workfront-experience/pin-pages.md)
-      * [Skapa anpassade avsnitt](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [Lägga till en kontrollpanel i den vänstra panelen i ett Workfront-objekt eller -område](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Hjälp om Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
       * [Översikt över [!DNL Adobe Workfront] objekt](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Förstå navigeringen för en arbetslicensanvändare](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)

@@ -7,9 +7,9 @@ description: Vanliga frågor och svar om rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Här följer vanliga frågor om rapporter.
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -210,8 +210,7 @@ Om du vill veta mer om fältet **Kör den här rapporten med åtkomsträttighete
 
 När du tar bort en användare kan du fortfarande få åtkomst till alla rapporter som de har skapat, men alla instrumentpaneler som innehåller rapporten tas också bort. Det innebär att du inte längre kan komma åt följande:
 
-* En instrumentpanel som innehåller rapporten
-* Ett anpassat avsnitt som innehåller en kontrollpanel för rapporten
+* En kontrollpanel som innehåller rapporten, inklusive kontrollpaneler i den vänstra panelen av ett objekt
 
 Mer information om konsekvenserna av att ta bort en användare finns i [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 

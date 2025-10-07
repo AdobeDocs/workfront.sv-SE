@@ -7,9 +7,9 @@ description: Utjämning av arbetsbelastning är tillgängligt för flera projekt
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan använda belastningsutjämnaren för att schemalägga resurser för arbet
 Du kommer åt Utjämning av arbetsbelastning på följande sätt:
 
 * Från flera områden som fördefinierats av Adobe Workfront
-* Genom att lägga till den i ett anpassat avsnitt
+* Genom att lägga till den på den vänstra panelen som en kontrollpanel
 
 I den här artikeln beskrivs de områden där du kan komma åt belastningsutjämnaren.
 
@@ -162,11 +162,11 @@ Alla visningsinställningar är tillgängliga för en användares arbetsbelastni
 
 </div>
 
-## Lägga till arbetsbelastningsutjämnaren i ett anpassat avsnitt
+## Lägg till belastningsutjämnaren för arbetsbelastning på den vänstra panelen som en kontrollpanel
 
-Du kan lägga till arbetsbelastningsutjämnaren i valfritt anpassat avsnitt.
+Du kan lägga till belastningsutjämnaren som en kontrollpanel på den vänstra panelen med objekt som tillåter anpassning.
 
-De flesta anpassningar som du redan har tillämpat på Utjämning av arbetsbelastning bevaras när du lägger till dem i ett anpassat avsnitt.
+De flesta anpassningar som du redan har tillämpat på Utjämning av arbetsbelastning bevaras när du lägger till dem på den vänstra panelen.
 
 1. Gå till Utjämning av arbetsbelastning genom att gå till något av följande:
 
@@ -181,15 +181,15 @@ De flesta anpassningar som du redan har tillämpat på Utjämning av arbetsbelas
       (NOTE: ensure this stays correct)
       -->
 
-1. Skapa ett anpassat avsnitt enligt beskrivningen i [Skapa anpassade flikar eller avsnitt](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) för att placera kontrollpanelen på den anpassade fliken.
+1. Lägg till en kontrollpanel i den vänstra navigeringspanelen för ett objekt, så som beskrivs i [Lägg till en kontrollpanel i den vänstra panelen för ett Workfront-objekt eller -område](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) för att placera kontrollpanelen på den anpassade fliken.
 
-   När du öppnar arbetsbelastningsutjämnaren från det anpassade avsnittet kan du visa den som om du använde den direkt från ett av dess ursprungliga områden som listas i steg 1.
+   När du öppnar Utjämning av arbetsbelastning från kontrollpanelen kan du visa den som om du använde den direkt från ett av dess ursprungliga områden som listas i steg 1.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Valfritt) Dela den anpassade fliken i en layoutmall enligt beskrivningen i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (Valfritt) Dela instrumentpanelen i en layoutmall enligt beskrivningen i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
 
 
 <!--

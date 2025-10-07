@@ -7,9 +7,9 @@ description: Syftet med en kontrollpanel är att ge snabb åtkomst till informat
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Du kan dela en kontrollpanel med användarna på följande sätt:
 * Enskild delning.\
   Mer information om att dela instrumentpaneler finns i [Dela rapporter, instrumentpaneler och kalendrar](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) och [Dela en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Lägg till en kontrollpanel i ett område eller objekt i Workfront med ett anpassat avsnitt.\
-  Mer information om hur du skapar anpassade avsnitt finns i [Vänster navigering i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Lägg till en kontrollpanel i ett område eller objekt i Workfront på den vänstra panelen.\
+  Mer information om hur du lägger till kontrollpaneler på den vänstra panelen finns i [Vänster navigering i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Placera kontrollpanelerna på layoutmallar, som du kan dela med användarna.\
   Mer information om att dela instrumentpaneler via layoutmallar finns i [Anpassa den vänstra panelen med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
@@ -95,7 +95,7 @@ Du kan dela en kontrollpanel med användarna på följande sätt:
 * Skriv ut en papperskopia av dem som du vill dela med användarna.\
   Mer information om utskrift av kontrollpaneler finns i [Skriva ut en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Exportera dem som en PDF-fil så att du kan skicka dem till användare via e-post.\
+* Exportera dem som en PDF-fil så att du kan skicka dem via e-post till användarna.\
   Mer information om hur du exporterar en kontrollpanel till en PDF-fil finns i [Exportera en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 När du delar en kontrollpanel med användare delas även alla rapporter, kalendrar och externa sidor som finns på kontrollpanelen med samma användare som standard.
@@ -108,8 +108,8 @@ När du delar en kontrollpanel med användare delas även alla rapporter, kalend
 
 Du kan visa en kontrollpanel på följande sätt:
 
-* Gå till det anpassade avsnittet där kontrollpanelen är placerad.\
-  Mer information om att placera kontrollpaneler i anpassade avsnitt finns i [Vänster navigering i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Gå till kontrollpanelen via den vänstra panelen av ett objekt.
+Mer information om hur du placerar kontrollpaneler på den vänstra panelen finns i [Vänster navigering i Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Sök efter och få tillgång till kontrollpanelen manuellt.
 

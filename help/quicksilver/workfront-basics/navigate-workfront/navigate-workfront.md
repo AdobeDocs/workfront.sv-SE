@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "Navigera [!DNL Adobe Workfront]: artikelindex"
+title: 'Navigera [!DNL Adobe Workfront]: artikelindex'
 description: Läs de här artiklarna för att få en förståelse för hur du navigerar i Adobe Workfront och lär dig Workfront terminologi.
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Det här avsnittet innehåller följande underavsnitt och artiklar:
 * [Översikt över objektrubriker](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)
 * [Fäst sidor för att anpassa arbetsytan](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Listor i  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
-* [Skapa anpassade avsnitt](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+* [Lägga till en kontrollpanel i den vänstra panelen i ett Workfront-objekt eller -område](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Översikt över projekt-, uppgifts- och utfärdandedatum i  [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Förstå navigeringen för en [!UICONTROL Work]-licensanvändare](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)

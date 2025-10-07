@@ -3,12 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Vänster navigering i  [!DNL Adobe Workfront]
 description: Den vänstra navigeringspanelen i  [!DNL Workfront] gör det enkelt att navigera i systemet.
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,8 @@ Den vänstra panelen är tillgänglig för följande objekt:
 
 >[!IMPORTANT]
 >
->Om bara ett avsnitt visas som standard i den vänstra panelen, t.ex. **[!UICONTROL All Projects]** i **[!UICONTROL Projects]** -området, måste en [!DNL Workfront]-administratör lägga till minst ett anpassat avsnitt i det här området när du skapar en layoutmall och tilldela dig till den mallen innan den vänstra panelen visas i det området.\
->Mer information om hur en [!DNL Workfront]-administratör anpassar den vänstra panelen i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Om bara ett avsnitt visas som standard i den vänstra panelen, t.ex. **[!UICONTROL All Projects]** i **[!UICONTROL Projects]** -området, måste en [!DNL Workfront]-administratör lägga till minst en instrumentpanel i det här området när en layoutmall skapas och tilldela dig till den mallen innan den vänstra panelen visas i det området.
+>>Mer information om hur en [!DNL Workfront]-administratör anpassar den vänstra panelen i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Den vänstra panelen är tillgänglig för följande områden:
 
@@ -163,8 +163,8 @@ Följande avsnitt visas i den vänstra panelen för området **[!UICONTROL Proje
         <td>Visar alla projekt som du har tillgång till för att visa. Använd listrutan [!UICONTROL Filter] för att ändra vilka projekt du vill visa</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Custom sections]</strong></td>
-        <td>Du kan visa alla anpassade avsnitt som din [!DNL Workfront]-administratör har lagt till i den vänstra panelen för området [!UICONTROL Projects] i layoutmallen. Anpassade avsnitt har namn som har anpassats för din miljö.</td>
+        <td><strong>[!UICONTROL Dashboards]</strong></td>
+        <td>Du kan visa alla instrumentpaneler som din [!DNL Workfront]-administratör har lagt till i den vänstra panelen för området [!UICONTROL Projects] i layoutmallen. Dessa instrumentpaneler har namn som har anpassats för din miljö.</td>
     </tr>
 </table>
 
@@ -239,14 +239,16 @@ Att söka efter och redigera information i den vänstra panelen liknar för dess
 
 Mer information om vilka avsnitt som är tillgängliga för specifika områden finns i [[!UICONTROL Default sections] i den vänstra navigeringspanelen ](#default-sections-in-the-left-navigation-panel).
 
-1. Klicka på ikonen **[!UICONTROL Main menu]** ![](assets/main-menu-icon-16x12.png) och klicka sedan på namnet på ett objekt för att komma åt det.
+{{step1-click-main-menu}}
+
+1. Klicka på namnet på ett objekt för att komma åt det.
 
    Objektsidan visas.
 
 1. (Villkorligt) Om du har markerat ett område som innehåller en lista med objekt, till exempel **[!UICONTROL Projects]** eller **[!UICONTROL Portfolios]**, måste du göra följande för att komma åt den vänstra panelnavigeringen:
 
    1. Klicka på ett objekt i listan.
-   1. (Valfritt) I den vänstra panelnavigeringen kan du markera ett annat objekt, t.ex. **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]** i ett projekt, i den vänstra panelen för att komma åt en lista med objekt och sedan klicka på namnet på det specifika objektet.\
+   1. (Valfritt) I den vänstra panelnavigeringen kan du markera ett annat objekt, till exempel **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]** i ett projekt, i den vänstra panelen för att få tillgång till en lista med objekt och sedan klicka på namnet på det specifika objektet.
 
       Objektsidan visas.
 
@@ -254,12 +256,12 @@ Mer information om vilka avsnitt som är tillgängliga för specifika områden f
 
    Du måste ha behörighet att redigera objektet innan du kan redigera informationen.
 
-   ![Vänster panelavsnitt](assets/NWE-left-navigation-panel.png)
+   ![Vänster panelavsnitt](assets/left-navigation-panel.png)
 
-1. (Valfritt) Om du vill lägga till en snabblänk för kontrollpanelen klickar du på **[!UICONTROL Add Dashboard]** längst ned i den vänstra panelen och gör sedan följande:
+1. (Valfritt) Om du vill lägga till en snabblänk för kontrollpanelen klickar du på **[!UICONTROL Add a Dashboard]** längst ned i den vänstra panelen och gör sedan följande:
 
    1. Ange ett namn för instrumentpanelen i fältet **[!UICONTROL Quick link name]**.
-   1. Börja skriva namnet på en befintlig instrumentpanel i fältet **[!UICONTROL Choose a Dashboard]** och klicka sedan på instrumentpanelen när den visas i listan.
+   1. Börja skriva namnet på en befintlig instrumentpanel i fältet **[!UICONTROL Choose a dashboard]** och klicka sedan på instrumentpanelen när den visas i listan.
 
       >[!TIP]
       >
@@ -267,9 +269,9 @@ Mer information om vilka avsnitt som är tillgängliga för specifika områden f
 
 1. (Valfritt) Om du vill ta bort en snabblänk för kontrollpanelen håller du pekaren över kontrollpanelen i den vänstra navigeringen och klickar sedan på ikonen **Ta bort** ![Ta bort](assets/remove-dashboard-from-left.png) när den visas.
 
-1. (Valfritt) Om du vill ändra ordningen på ett avsnitt i den vänstra panelen klickar du på ikonen **[!UICONTROL Drag]** ![](assets/drag-icon.png) till höger om ett avsnitt och drar det uppåt eller nedåt.
+1. (Valfritt) Om du vill ändra ordningen på ett avsnitt i den vänstra panelen klickar du på ikonen **[!UICONTROL Drag]** ![](assets/drag-icon.png) bredvid ett avsnitt och drar det uppåt eller nedåt.
 
-   ![Dra ett avsnitt](assets/drag-section-right.png)
+   ![Dra ett avsnitt](assets/drag-section.png)
 
 1. (Valfritt) Om du vill stänga den vänstra panelen klickar du på ikonen **[!UICONTROL Collapse]** ![](assets/left-panel-collapse-icon.png).
 

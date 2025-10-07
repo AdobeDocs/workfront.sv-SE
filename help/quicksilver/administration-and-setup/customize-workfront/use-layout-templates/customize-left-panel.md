@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 I en layoutmall kan du anpassa vad användarna ser i det vänstra panelområdet genom [!DNL Adobe Workfront].
 
-Du kan till exempel ta reda på vilket av följande objekt som visas i den vänstra panelen när du visar en uppgift:
+Du kan till exempel ta reda på vilket av följande objekt som visas i den vänstra panelen när du visar ett projekt:
 
-![Panelen Vänster profilering](assets/left-panel-adobe-branding.png)
+![Vänster panel i ett projekt](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -147,7 +147,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>Namnet på en instrumentpanel</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>Obs!</b> Om du har skapat anpassade flikar för området [!UICONTROL Reports] med hjälp av en layoutmall i [!DNL Adobe Workfront Classic] visas de längst ned i listan. För användare visas de längst ned på den vänstra panelen i området [!UICONTROL Dashboards].</p> </td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
@@ -227,13 +227,15 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
    >* [Varumärket Adobe [!DNL Workfront] med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Valfritt) Om du vill lägga till ett vänsterpanelsobjekt som länkar till någon av organisationens kontrollpaneler klickar du på **[!UICONTROL Add custom section]**, skriver **[!UICONTROL Custom section title]** för objektet och lägger sedan till kontrollpanelen.
+1. (Valfritt) Om du vill lägga till ett vänsterpanelsobjekt som länkar till någon av organisationens kontrollpaneler klickar du på **[!UICONTROL Add dashboard]**, skriver **[!UICONTROL Quick link name]** för objektet och väljer sedan kontrollpanelen.
 
-   Instrumentpanelsobjekt visas längst ned på den vänstra panelen. Användarna ser den anpassade avsnittsrubrik som du skriver bredvid instrumentpanelsobjektet när de för markören över det på den vänstra panelen.
+   Du måste skapa kontrollpanelen innan den visas i listan.
+
+   Instrumentpanelsobjekt visas längst ned på den vänstra panelen.
 
    >[!NOTE]
    >
-   >Användarna kan lägga till anpassade kontrollpanelsobjekt på sin egen vänstra panel. När du lägger till anpassade kontrollpanelsobjekt i en layoutmall visas dina objekt förutom de objekt de lägger till, utan att de skrivs över eller återställs. Detta gäller även om du tilldelar användare till en ny layoutmall med anpassade instrumentpanelsobjekt. Mer information om hur användare kan anpassa den vänstra panelen finns i [Skapa anpassade flikar eller avsnitt](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Användarna kan lägga till anpassade kontrollpanelsobjekt på sin egen vänstra panel. När du lägger till anpassade kontrollpanelsobjekt i en layoutmall visas dina objekt förutom de objekt de lägger till, utan att de skrivs över eller återställs. Detta gäller även om du tilldelar användare till en ny layoutmall med anpassade instrumentpanelsobjekt. Mer information om hur användare kan anpassa den vänstra panelen finns i [Lägga till en kontrollpanel i den vänstra panelen av ett Workfront-objekt eller -område](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
    >Mer information om kontrollpaneler finns i [Kontrollpaneler](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 

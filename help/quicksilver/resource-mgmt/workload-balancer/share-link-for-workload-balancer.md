@@ -6,7 +6,7 @@ description: Du kan dela belastningsutjämnaren med andra användare som kanske 
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -130,10 +130,10 @@ Du behöver följande åtkomst för att visa information i arbetsbelastningsutj�
 1. Gör något av följande om du vill dela länken med andra:
 
    * Klistra in den i ett e-postmeddelande, chattmeddelande eller något annat program och dela den med andra användare.
-   * Lägg till den i ett anpassat avsnitt som en extern sida, lägg till det anpassade avsnittet i en användarprofil eller i en layoutmall och dela sedan layoutmallen med användare, team, jobbroller eller grupper.
+   * Lägg till den på en kontrollpanel som en extern sida, lägg till instrumentpanelen i en användares profil eller i en layoutmall och dela sedan layoutmallen med användare, team, jobbroller eller grupper.
 
-     Mer information om hur du skapar en extern sida finns i [Bädda in en extern webbsida i en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Mer information om hur du lägger till anpassade avsnitt i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Mer information om hur du skapar en extern sida finns i [Bädda in en extern webbsida i en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Mer information om hur du lägger till kontrollpaneler i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >När du lägger till belastningsutjämnaren för arbetsbelastning i ett objekts anpassade avsnitt filtreras inte informationen i belastningsutjämnaren av objektet. I Utjämning av arbetsbelastning visas den information som filtrerats av de filter som ursprungligen tillämpades.
+     >När du lägger till belastningsutjämnaren för arbetsbelastning som en kontrollpanel i den vänstra panelen av ett objekt, filtreras inte informationen i belastningsutjämnaren av objektet. I Utjämning av arbetsbelastning visas den information som filtrerats av de filter som ursprungligen tillämpades.
