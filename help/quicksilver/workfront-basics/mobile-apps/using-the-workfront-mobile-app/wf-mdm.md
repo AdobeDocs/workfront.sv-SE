@@ -7,9 +7,9 @@ description: Adobe [!DNL Workfront] har samarbetat med ett fåtal plattformar f�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0b76f99627b154b216fc4ed6fb36e6a07805126e
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,11 @@ Läs hjälpdokumentationen för [!DNL MobileIron] om hur du installerar mobilapp
 
 Information om hur du konfigurerar [!DNL Workfront] för [!DNL MobileIron] finns i [Konfigurera [!DNL Adobe Workfront] för [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
--->
+## Intune
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See Blackberry Dynamics' help documentation to install the Workfront mobile app from their platform:</p>
--->
+Workfront mobilapp är nu tillgänglig i appbutiken [!DNL Microsoft Intune]. Din Workfront-administratör kan tilldela appen till din enhet via Intune.
 
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li>iOS</li>
-<li>Android</li>
-</ul>
--->
+* iOS
+* Android
+
+Din Workfront-instans måste finnas i Adobe Identity Management System (IMS).
