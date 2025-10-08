@@ -6,9 +6,9 @@ description: Uppdateringarna är av ett objekt och innehåller en knapp som anv�
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
   Mer information finns i [Förutsättningar för AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) i artikeln Översikt över AI Assistant.
 * Din Workfront-administratör måste ha aktiverat AI Assistant för din åtkomstnivå.
 
-  Mer information finns i [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
+  Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Sammanfatta med knappen Sammanfatta innehåll
 
