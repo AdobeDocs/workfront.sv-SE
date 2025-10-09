@@ -6,16 +6,16 @@ description: Som projektledare kan du ange faktureringssatsen för en jobbroll i
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
+source-git-commit: 4b2bf1205951de13cb09d31f54f890a74bdf7d98
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
 
 # Åsidosätt faktureringshastigheter för jobbroller på projektnivå
 
-{{highlighted-preview}}
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
 
 Som projektledare kan du ange faktureringssatsen för en jobbroll i ett visst projekt. Den här faktureringsnivån på projektnivå åsidosätter faktureringsnivån på systemnivån för den här jobbrollen. Workfront använder faktureringssatsen på projektnivå för jobbrollen för att beräkna intäkten, i stället för att använda faktureringssatsen på systemnivå.
 
