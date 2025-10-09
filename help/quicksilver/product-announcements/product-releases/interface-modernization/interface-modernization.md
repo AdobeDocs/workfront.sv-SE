@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
+source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
 workflow-type: tm+mt
-source-wordcount: '8402'
+source-wordcount: '8483'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ På den här sidan listas de gränssnittsuppdateringar vi gör i hela Adobe Work
 Alla andra ändringar av Adobe Workfront finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administratör och installation
+
+### Gränssnittsuppdateringar i dialogrutan Importera användare på företag
+
+**Förhandsversion: 9 oktober 2025; Produktionsrelease för alla kunder: Från och med 16 oktober 2025**
+
+Vi har uppdaterat dialogrutan för att importera nya användare till ett företag via en kalkylbladsfil, så att den matchar andra delar av programmet.
+
+Om du vill visa den här ändringen går du till Inställningar > Företag > Välj ett företag > Företagsmedlemmar > Lägg till medlem > Importera användare.
 
 ### Nytt gränssnitt och ny funktionalitet för rutorna Ny och Redigera milstolpe-sökväg
 
@@ -56,7 +64,7 @@ Uppdateringen påverkar:
 
 ### Gränssnittsuppdateringar för området Allvarlighetsgrader i installationsprogrammet
 
-**Förhandsversion: 25 september 2025; Produktionsversion: 9 oktober 2025**
+**Förhandsversion: 25 september 2025; Produktionsversion: ska tillkännages**
 
 Vi har uppdaterat sidan Allvarlighetsgrader med en modernare design som är i linje med andra delar av Workfront.
 
@@ -68,7 +76,7 @@ Mer information finns i [Skapa eller anpassa utgåvans allvarlighetsgrad](/help/
 
 ### Gränssnittsuppdateringar för området Prioriteter i installationsprogrammet
 
-**Förhandsversion: 25 september 2025; Produktionsversion: 9 oktober 2025**
+**Förhandsversion: 25 september 2025; Produktionsversion: ska tillkännages**
 
 Vi har uppdaterat sidan Prioriteter med en modernare design som överensstämmer med andra delar av Workfront.
 
@@ -485,11 +493,16 @@ Du kan visa den uppdaterade designen genom att gå till Användare, välja en an
 
 **Förhandsversion: 25 september 2025; Produktionsversion: 2 oktober 2025**
 
+>[!NOTE]
+>
+>Den här funktionen har tillfälligt tagits bort från förhandsgransknings- och produktionsmiljöerna den 9 oktober 2025.
+
+
 Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklusive möjligheten att delegera godkännanden, så att den matchar andra delar av programmet.
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 
