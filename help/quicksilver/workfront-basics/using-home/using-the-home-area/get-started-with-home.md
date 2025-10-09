@@ -6,9 +6,9 @@ description: Home hjälper dig att hantera ditt arbete. Du kan anpassa det här 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
 * **Mina förfrågningar**\
     Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningspanelen för en begäran.
 
-  <span class="preview">I förhandsvisningsmiljön visar den här widgeten alla begäranden som du har skickat, ett filter som endast visar begäranden som uppfyller de villkor som du anger och en knapp som gör att du kan ordna om kolumnerna i widgeten.</span>
+  <span class="preview">I förhandsvisningsmiljön visar den här widgeten alla begäranden som du har skickat, ett filter som endast visar begäranden som uppfyller de villkor som du anger och en knapp som gör att du kan ordna om kolumnerna i widgeten. Om du har tillgång till Workfront Planning visas dina Planning-begäranden även här.</span>
 
 
 * **Teamförfrågningar**\
