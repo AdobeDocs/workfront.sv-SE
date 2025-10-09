@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: a3edfadc447a763c638cc926b386272890697f81
+source-git-commit: 79851c46848b7897056e9953dc5a5bc004170a02
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Mer information om Frame.io finns i [Komma igång med Frame.io](https://support.
 
 Du måste ha Workfront- och Frame.io-integreringen konfigurerad i din Workfront-instans. Mer information finns i [Integreringsöversikt för Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
 
-<!--## Integration requirements
+## Integrationskrav
 
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Workfront och Frame.io måste distribueras till samma Identity Management-systemorganisation (IMS).
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* Användare kan bara tillhöra en Workfront-instans inom IMS-organisationen.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* Workfront-instansen måste aktiveras för Adobe Unified Experience och Adobe Enterprise-lagring.
 
-* The integration is configured by Adobe Professional Services. -->
+* Integreringen måste konfigureras av Adobe Professional Services.
 
 ## Arbetsplanering i Workfront
 

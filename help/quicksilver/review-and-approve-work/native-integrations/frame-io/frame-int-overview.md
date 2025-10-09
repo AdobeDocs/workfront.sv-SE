@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
+source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,14 @@ Tack vare integreringen mellan Workfront och Frame.io kan projektsamordnare hant
 
 ## Integrationskrav
 
-Integreringen av Workfront och Frame.io måste vara aktiverad av Adobe Professional Services.
+* Workfront och Frame.io måste distribueras till samma Identity Management-systemorganisation (IMS).
 
-<!--
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Användare kan bara tillhöra en Workfront-instans inom IMS-organisationen.
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* Workfront-instansen måste aktiveras för Adobe Unified Experience och Adobe Enterprise-lagring.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* Integreringen måste konfigureras av Adobe Professional Services.
 
-* The integration is configured by Adobe Professional Services. 
--->
 
 ## Byggt på Adobe Enterprise-lagring
 
@@ -39,7 +36,7 @@ Kärnan i denna integrering är Adobe Enterprise-lagring - en molnbaserad lagrin
 Några av fördelarna med Adobe Enterprise-lagring:
 
 * Enhetligt lagringslager för kreativa resurser och resurser för arbetshantering
-* Centraliserade behörigheter via Adobe IMS för säker åtkomstkontroll
+* Centraliserad behörighet via Adobe Identity Management-system (IMS) för säker åtkomstkontroll
 * Synlighet från början till slut för resurser i Workfront och Frame.io <!--, and Creative Cloud apps -->
 * Skalbar lagring och kvothantering för företagsbehov
 
@@ -80,7 +77,7 @@ Denna gräns gäller inte för Frame.io Enterprise-kunder.
 
 #### Filtyper som stöds i Frame.io-visningsprogrammet
 
-Visningsprogrammet Frame.io har stöd för alla vanliga typer av video, bilder, ljud, PDF och MS® Office. En detaljerad lista över filer som stöds finns i [Typer i Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+Visningsprogrammet Frame.io har stöd för alla vanliga typer av video, bilder, ljud, PDF och MS® Office. En detaljerad lista över filer som stöds finns i [Filtyper som stöds i Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Åtkomst och licensiering för Frame.io-visningsprogrammet
 
@@ -98,11 +95,13 @@ Mer information om hur du hanterar projekt i Workfront finns i [Projekt: artikel
 
 ### Tvingad struktur och namnkonventioner
 
-Eftersom integreringen byggs med ESM finns det vissa tvingande struktur- och namnkonventioner som du bör känna till när du hanterar projekt och dokument.
+Eftersom den här integreringen byggs med Adobe Enterprise Storage finns det vissa tvingande struktur- och namnkonventioner som du bör känna till när du hanterar projekt och dokument.
 
 * Objektnamn måste vara unika och kan inte dupliceras
-* ESM kräver unika namn för peer-objekt med samma överordnade i hierarkiträdet
+* Adobe Enterprise Storage kräver unika namn för peer-objekt med samma överordnade objekt i hierarkiträdet
 * Dokument kan inte ha samma namn om de tillhör samma projekt
+* Dokumentnamn får inte innehålla något av följande specialtecken: \ / : * ? &quot; | &lt; >
+* Dokumentnamn får innehålla högst 255 tecken
 
 Med dessa begränsningar i åtanke byter Workfront automatiskt namn på objekt och dokument efter behov för att förhindra konflikter.
 
