@@ -1,25 +1,38 @@
 ---
 navigation-topic: betas
 title: Beta
-description: Läs mer om de aktuella betaversionerna i Adobe Workfront.
+description: Läs om nya Adobe Workfront-funktioner som är tillgängliga för alla eller ett begränsat antal kunder i en betaversion.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 # Beta
 
-I artiklarna som är länkade från den här sidan beskrivs de aktuella betaprogrammen som är tillgängliga i Adobe Workfront. Funktioner som finns i betaversionen kanske inte är tillgängliga för alla kunder.
+I artiklarna som är länkade från den här sidan beskrivs de aktuella betaprogrammen som är tillgängliga i Adobe Workfront.
 
-Följande artiklar innehåller information om funktioner som är i betaversion:
+Beta-program som körs i begränsad version och hanteras privat kanske inte visas på den här sidan.
 
-* [Betaversionsinformation för Canvas Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+Funktioner som finns i betaversionen kanske inte är tillgängliga för alla kunder.
+
+Följande funktioner är för närvarande tillgängliga i betaversionen:
+
+* Kontrollpanel för arbetsyta
+
+  Mer information finns i [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+* Projekthälsa
+
+  Mer information finns i [Projekthälsoöversikt](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+* Workfront AI Reviewer
+Mer information finns i [Kom igång med Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 <!--

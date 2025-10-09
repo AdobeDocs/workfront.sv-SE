@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -217,6 +217,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    <span class="preview">![Skapa visningsruta](assets/create-view-box.png)</span>
 
+1. <span class="preview">Om du vill redigera en befintlig vy skriver du namnet på en vy i fältet **Sök** och trycker på Retur på tangentbordet.</span>
 1. <span class="preview">Dra och släpp vyer i den ordning du vill.</span>
 
    <span class="preview">![Listrutan Visa typer från posttypslistan](assets/view-types-drop-down-from-record-type-list.png)</span>

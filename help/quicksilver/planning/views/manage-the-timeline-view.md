@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3985'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. <span class="preview">Klicka på ikonen **Sök** ![Sök &#x200B;](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras. </span>
+   1. <span class="preview">Klicka på ikonen **Sök** ![Sök ](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras. </span>
 
       <span class="preview">![Sökruta och tidslinjevy för resultat](assets/search-box-and-results-timeline-view.png)</span>
 
@@ -198,10 +198,19 @@ Så här hanterar du en tidslinjevy:
 
      <span class="preview">Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).</span>
 
+   <!--Andrea verifying>[!TIP]
+    >
+    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
+
    * <span class="preview">Klicka på den vänstra eller högra marginalen i ett postfält och dra och släpp det sedan på en ny plats. Om du ändrar storlek på posternas staplar uppdateras deras start- och slutdatum omedelbart. </span>
 
    * <span class="preview">Dra och släpp poster för att uppdatera deras position och datum på tidslinjen. Om du flyttar posternas fält uppdateras start- och slutdatum omedelbart.</span>
      <span class="preview">Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   >[!TIP]
+   >
+   ><span class="preview"> Det går inte att ändra storlek på, dra och släppa poster på tidslinjen för Workfront- och AEM Assets-objekttyper som visas i nedbrytningen.</span>
+
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)

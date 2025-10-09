@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Samma funktioner är också tillgängliga i produktionsmiljön för alla kunder från och med en vecka från förhandsversionen.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Mer information finns i [Modernisering av gränssnitt](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Som Adobe Workfront-administratör kan du skapa milstolpar som sedan kan användas i alla projekt i systemet. De ändringar du gör i milstolpbanorna i det här området påverkar hela Workfront-systemet.
 
@@ -85,13 +85,9 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
 1. Klicka på **Processer** > **Milstolpbanor**.
 1. Klicka på **Ny milstolpe-sökväg.**
 
-   <div class="preview">
-
    Dialogrutan Ny milstolpe-bana öppnas.
 
    ![Ny ruta för milstolpe-sökväg](assets/new-milestone-path-box.png)
-
-   </div>
 
 1. Klicka på **Grundläggande information** i den vänstra panelen.
 
@@ -118,8 +114,7 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
 
 1. Klicka på **Milstolpar** i den vänstra panelen.
 
-1. Klicka på **Lägg till milstolpe** i produktionsmiljön om du vill lägga till milstolpar i sökvägen.
-   <span class="preview">Klicka på **Ny rad** i förhandsvisningsmiljön om du vill lägga till milstolpar i sökvägen.</span>
+1. Klicka på **Ny rad** om du vill lägga till milstolpar i banan.
 1. Uppdatera följande information:
 
    <table style="table-layout:auto"> 
@@ -148,15 +143,15 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
 
    Mer information om hur du associerar milstolpar till projekt och milstolpar till aktiviteter finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-1. (Valfritt) Välj en milstolpe i listan Milstolpbanor och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att öppna milstolpbanan och redigera informationen.
-1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
+1. (Valfritt) Välj en milstolpe i listan Milstolpbanor och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att öppna milstolpbanan och redigera informationen.
+1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Tabbavgränsad
 
-1. (Valfritt) Markera en eller flera milstolpar i listan med milstolpar och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) för att ta bort den.
+1. (Valfritt) Markera en eller flera milstolpar i listan med milstolpar och klicka sedan på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) för att ta bort den.
 1. Klicka på **Ja, ta bort den**.
 
    Milstolpen tas bort och kan inte återställas. Milstolpbanan tas bort från alla projekt som tidigare associerats med den och alla milstolpar tas bort från de uppgifter som är associerade med dem.
