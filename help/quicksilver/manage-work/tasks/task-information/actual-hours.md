@@ -7,9 +7,9 @@ description: De timmar du loggar in på dina arbetsuppgifter i Adobe Workfront r
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,14 @@ Beroende på vilket område av Workfront du kommer åt de faktiska timmarna frå
      >
      >Projektets faktiska kostnad använder äldre faktiska timmar för beräkning.
 
+* I området med projekt-, uppgifts- eller utleveransinformation kan faktiska timmar visas i följande fält:
 
-* I området med information om projekt, aktiviteter eller ärenden:
+   * **Faktiska timmar**: På fliken Detaljer är detta timmar som loggats för projekt, uppgifter eller utgåvor efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
+   * **Faktiska timmar**: I ett projekt, en aktivitet eller ett utleverans i ett anpassat formulär, när de öppnas med hjälp av ett anpassat fält för intern fältreferens som refererar till fältet för faktiska timmar. Det här är timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
 
-   * **Faktiska timmar**: Timmar som loggats för projekt, uppgifter eller problem efter maj 2021. De lagras i Workfront-databasen i timmar och deras värdefält är `actualWorkRequiredDouble`.
-   * **Faktiska timmar**: När du får åtkomst till dem med hjälp av ett anpassat fält för systemspecifik referens i ett projekt, en aktivitet eller ett anpassat utleveransformulär.
+>[!NOTE]
+>
+>Vi rekommenderar att du använder fältet Faktiska timmar när det är möjligt, eftersom fältet Gammal faktisk tid kan visa felaktiga timmar på grund av det sätt som stegvisa ökningar avrundas.
 
 ## Faktiska timmar för uppgifter och ärenden jämfört med faktiska timmar för projekt
 
