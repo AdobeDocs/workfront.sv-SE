@@ -5,76 +5,82 @@ description: Du kan använda AI Assistant för att lösa fel i ogiltiga anpassad
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 46fdc768adade4872d636014c0e215c5f129d1de
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
 
 # Generera eller ändra beräknade fältformler med AI Assistant
 
-Du kan använda AI Assistant för att generera formler baserat på en uppmaning som du anger. Du kan också lösa fel i ogiltiga anpassade uttryck i beräkningsfält.
+>[!IMPORTANT]
+>
+>Funktionen för att generera formler med AI Assistant har tagits bort från Adobe Workfront.
 
-## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+<!-- You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
-   <td><p>Nytt: Prime eller Ultimate</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Prime or Ultimate</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td><p>Nytt: Standard</p>
-       <p>eller</p>
-       <p>Aktuell: Inte tillgänglig</p></td>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Förutsättningar
+## Prerequisites
 
-* Din Workfront-administratör måste ha aktiverat AI Assistant för din organisation.
+* Your Workfront administrator must have enabled AI Assistant for your organization.
 
-  Mer information finns i [Förutsättningar för AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) i artikeln Översikt över AI Assistant.
-* Din Workfront-administratör måste ha aktiverat AI Assistant för din åtkomstnivå.
+    For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
+* Your Workfront administrator must have enabled AI Assistant for your access level.
 
-  Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 <!--## Generate a calculated field expression-->
 
-## Ändra ett beräknat fältuttryck
+<!-- ## Revise a calculated field expression
 
-När du skapar beräkningsfältet i det anpassade formulärbyggaren visas ett felmeddelande under fältet om formeln är ogiltig.
+When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 
-![Ogiltigt uttrycksfel](assets/invalid-expression.png)
+![Invalid expression error](assets/invalid-expression.png)
 
-AI Assistant kan hjälpa dig att ändra formeln till ett giltigt beräknat fältuttryck.
+AI Assistant can help you revise your formula into a valid calculated field expression.
 
-Så här ändrar du ett ogiltigt beräknat fältuttryck:
+To revise an invalid calculated field expression:
 
-1. Klicka på ikonen **AI-assistenten** ![AI-assistenten](assets/ai-assistant-icon.png) i skärmens övre högra hörn.
-1. Ange ett meddelande i promptområdet längst ned på AI Assistant-panelen, till exempel:
-   `Rewrite this formula to remove the invalid expression error`
-1. Kopiera det ogiltiga uttrycket från det anpassade formulärverktyget och klistra in det i promptområdet.
-1. Tryck på **Retur**.
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. in the prompt area near the bottom of the AI Assistant panel, enter a prompt such as:
+`Rewrite this formula to remove the invalid expression error`
+1. Copy the invalid expression from the custom form builder, and paste it into the prompt area.
+1. Press **Enter**.
 
-   AI Assistant kan ta en stund att generera den reviderade formeln, beroende på hur stor eller komplex formeln är.
-1. Visa den reviderade formeln på AI-assistentpanelen.
-1. (Valfritt) Kopiera den reviderade formeln från AI-assistentpanelen och klistra in den i beräkningsfältet i det anpassade formulärbyggaren.
+   AI Assistant may take a few moments to generate the revised formula, depending on how large or complex the formula is.
+1. View the revised formula in the AI Assistant panel.
+1. (Optional) Copy the revised formula from the AI Assistant panel, and paste it into the calculated field in the custom form builder.
 
 >[!NOTE]
 >
->Vi rekommenderar att du testar beräkningsfältet för att se till att det hämtar det förväntade resultatet.
+>We recommend testing the calculated field to ensure that it retrieves the expected result.
 
-Mer information om beräkningsfält i Workfront finns i [Lägg till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
+-->
