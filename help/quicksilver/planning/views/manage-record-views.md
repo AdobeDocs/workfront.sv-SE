@@ -192,7 +192,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 1. Beroende på vilken miljö du använder gör du följande:
 
    * Klicka på fliken **+Visa** i produktionsmiljön.
-   * <span class="preview">I förhandsvisningsmiljön klickar du på listruteikonen ![listruteikonen ](assets/drop-down-icon.png) bredvid det aktuella vynamnet och sedan på **+Ny vy**.</span>
+   * <span class="preview">I förhandsvisningsmiljön klickar du på listruteikonen ![listruteikonen &#x200B;](assets/drop-down-icon.png) bredvid det aktuella vynamnet och sedan på **+Ny vy**.</span>
 
 1. Välj bland följande typer av vyer:
 
@@ -248,7 +248,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 1. (Valfritt) Klicka på **Mer**-menyn ![Fler vyer med nedåtriktade ikoner](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
 
    Ytterligare vyer visas på menyn **Mer** efter fliken för den senaste vyn. Siffran bredvid menyn **Mer** visar antalet ytterligare vyer.
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
 
    eller
 
