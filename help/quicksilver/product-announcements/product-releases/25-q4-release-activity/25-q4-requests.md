@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >Förhandsgranska: 2 oktober 2025
->&#x200B;>Production fast release: 15 oktober 2025
->&#x200B;>Produktion för alla: 16 oktober 2025
+>>Production fast release: 15 oktober 2025
+>>Produktion för alla: 16 oktober 2025
 
 För att göra det enklare att se den information du behöver har vi lagt till möjligheten att skapa och spara vyer i området Förfrågningar. Nu kan du spara en vy, inklusive filter och kolumnkonfigurationer, och växla mellan vyer. En Workfront-administratör kan lägga till den nya vyn i layoutmallar.
 
@@ -71,7 +71,7 @@ Uppdateringen innehåller även ändringar av sidans utseende och känsla.
 Tänk på följande när du använder den nya funktionen Begär:
 
 * Du kan för närvarande bara hitta utkast i den äldre begärande upplevelsen. I den nya versionen kan du bara se utkast i en arbetsflödeskö om du har ett utkast i samma sökväg.
-* Den nya upplevelsen visar för närvarande endast begäranden som skapats under de senaste 1,5 månaderna. Om du vill se äldre begäranden kan du tillfälligt inaktivera den nya funktionen och få åtkomst till de äldre förfrågningarna via den gamla versionen.
+* Den nya upplevelsen visar för närvarande endast begäranden som skapats efter juli 2025. Om du vill se äldre begäranden kan du tillfälligt inaktivera den nya funktionen och få åtkomst till de äldre förfrågningarna via den gamla versionen.
 
 Tidigare fanns Workfront- och Workfront Planning-begäranden på separata flikar, och filter var inte anpassningsbara.
 
