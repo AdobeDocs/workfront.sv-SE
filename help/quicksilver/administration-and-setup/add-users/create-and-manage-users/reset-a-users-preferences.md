@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Återställ en användares inställningar
 
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Som Adobe Workfront-administratör kan du återställa eller ta bort användarinställningarna för alla användare i Workfront-systemet.
 
@@ -103,6 +105,17 @@ När du återställer användarinställningarna återställs vissa inställninga
  </tbody> 
 </table>
 
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
+
 ## Återställ användarinställningar
 
 {{step-1-to-setup}}
@@ -110,7 +123,7 @@ När du återställer användarinställningarna återställs vissa inställninga
 1. Välj **Logga in som**.
 1. Börja skriva namnet på den användare vars inställningar du vill återställa och klicka sedan på namnet när det visas i listrutan.
 1. Välj **Logga in**.
-1. Om din organisation inte har anslutit sig till Adobe enhetliga upplevelse följer du följande steg:
+1. Om din organisation inte har anslutit sig till Adobe Unified Experience gör du så här:
 
    * Lägg till `/resetUser` efter `workfront.com` i URL-fältet högst upp i webbläsaren.
 
@@ -120,7 +133,7 @@ När du återställer användarinställningarna återställs vissa inställninga
      >
      >`https://company_domain.my.workfront.com/resetUser`
 
-1. Om din organisation har anslutit sig till Adobe enhetliga upplevelse följer du detta steg:
+1. Om din organisation har anslutit sig till Adobe Unified Experience gör du så här:
 
    * Lägg till `/resetUser` efter `workfront` i URL-fältet högst upp i webbläsaren.
 
@@ -133,6 +146,7 @@ När du återställer användarinställningarna återställs vissa inställninga
 1. Tryck på **Retur**.
 1. Om du vill återställa alla användarinställningar väljer du **Återställ**.
 
-   eller
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+eller
 
-   Om du bara vill återställa anpassade flikar väljer du **Återställ flikar**.
+Om du bara vill återställa anpassade flikar väljer du **Återställ flikar**.
