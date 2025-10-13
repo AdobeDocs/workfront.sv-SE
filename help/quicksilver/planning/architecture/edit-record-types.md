@@ -101,13 +101,13 @@ Posttyperna är objekttyperna för Adobe Workfront Planning. Du kan redigera uts
 
    * Håll muspekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Redigera**
 eller
-   * <span class="preview">Klicka på ett posttypskort för att öppna posttypssidan, klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Redigera**. </span>
+   * <span class="preview">Klicka på ett posttypskort för att öppna posttypssidan, klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Redigera**. </span>
 
    <span class="preview">![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)</span>
 
 1. I rutan **Redigera posttyp** öppnas fliken **Utseende** som standard.
 
-   ![Redigera flik för posttypsrutans utseende ](assets/edit-record-type-box-appearance-tab.png)
+   ![Redigera flik för posttypsrutans utseende &#x200B;](assets/edit-record-type-box-appearance-tab.png)
 
    Uppdatera följande information på fliken **Utseende**:
 

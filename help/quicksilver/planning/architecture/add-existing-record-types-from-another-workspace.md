@@ -106,7 +106,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
       * Alla originalfält
       * Alla postanslutningar
    * Du kan bara visa poster som lagts till från andra arbetsytor som använder samma globala posttyp om du har minst behörigheten Visa på dessa arbetsytor.
-   * Ikonen **Global posttyp** ![Global posttyp ](assets/global-icon.png) läggs till på kortet med den nya posttypen.
+   * Ikonen **Global posttyp** ![Global posttyp &#x200B;](assets/global-icon.png) läggs till på kortet med den nya posttypen.
    * Det skrivskyddade fältet **Workspace** läggs till i den nya posttypstabellvyn. Fältet visar vilken arbetsyta varje post skapades i.
 
      >[!NOTE]
@@ -125,7 +125,7 @@ Ta bort en global posttyp från en sekundär arbetsyta:
 
 1. Gå till den globala posttypen på den sekundära arbetsytan.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    Följande saker händer:
