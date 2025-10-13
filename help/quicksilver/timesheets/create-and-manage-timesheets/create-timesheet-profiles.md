@@ -6,9 +6,9 @@ description: Du kan skapa, redigera och tilldela tidrapportprofiler som generera
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1597'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # Skapa, redigera och tilldela tidrapportprofiler
 
 <!--Audited: 06/2025-->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
 
 Du kan skapa, redigera och tilldela tidrapportprofiler som genererar återkommande tidrapporter för dina användare utan att du behöver göra något mer. Detta sparar tid och säkerställer att följande är konsekventa för användarna:
 
@@ -151,13 +149,11 @@ Mer information om hur du skapar en tidrapport manuellt finns i [Skapa en tidrap
 
    * **Påminnelsemeddelanden**: Lägg till ett påminnelsemeddelande. Workfront skickar påminnelser till användare som ombeds att fylla i eller godkänna sina tidrapporter. Du måste skapa påminnelsemeddelanden innan du kan koppla dem till en tidrapportprofil.
 
-1. När du skapar tidrapportprofiler på gruppnivå i produktion klickar du på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview">När du skapar tidrapportprofiler på gruppnivå i förhandsgranskningen bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**.</span>
-
-   När du skapar tidrapportprofiler för systemet bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**.
+1. Om du vill associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team bläddrar du mot sidans nederkant och hittar avsnittet **Tilldela personer**.
 
    Börja skriva namnet på användaren, gruppen eller teamet och klicka sedan på det när det visas i listrutan.
+
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    Om du är gruppadministratör kan du tilldela tidrapportprofilen till grupper som du administrerar, men inte till team. Mer information finns i [Begränsningar för en gruppadministratör som tilldelar en tidrapportprofil](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) i den här artikeln.
 
