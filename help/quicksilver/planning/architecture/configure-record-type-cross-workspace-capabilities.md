@@ -1,12 +1,12 @@
 ---
-title: Konfigurera funktioner för arbetsytan mellan arbetsytor för posttyp
+title: Konfigurera funktioner för olika arbetsytor för posttyper
 description: Du kan aktivera en posttyp som antingen ska läggas till på en annan arbetsyta eller anslutas från en annan arbetsyta.
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,12 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-<!--*******************THIS TITLE MIGHT NEED TO CHANGE WHEN WE HAVE THE FINAL NAME FOR THE "GLOBAL" RECORD TYPE - NOT SURE IF WE ARE GOING TO USE "GLOBAL" OR "DYNAMIC", OR ???? ***************; also update TOC file, the miniTOC,  etc when this is finalized-->
-
+<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTILE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
-<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
+
+<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
 
 Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
 
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Konfigurera funktioner för olika arbetsytor för posttyper
 
-<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
+<!--this is linked to the UI in the info icon when you enable a record to be either global or connectable-->
 
 <span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -53,7 +53,7 @@ Du kan konfigurera posttyper så att de fungerar på flera arbetsytor.
 
 Följande är funktioner för olika arbetsytor för posttyper:
 
-* Du kan ange en posttyp som centraliserad. Användarna kan lägga till centraliserade posttyper i andra arbetsytor som de kan hantera.
+* Du kan ange en posttyp som global. Användare kan lägga till globala posttyper i andra arbetsytor som de kan hantera.
 * Du kan ange en posttyp som en kopplingsbar typ. Användare kan ansluta till den här posttypen från andra arbetsytor.
 
 Du måste först definiera funktionerna för en posttyps arbetsyta innan arbetsytehanterare kan ansluta den från eller lägga till den i andra arbetsytor.
@@ -85,7 +85,7 @@ Mer information finns i följande artiklar:
 <ul><li><p>Alla Workfront-paket</p></li>
 <p>Och</p>
 <li><p>Planeringspaket för att skapa kopplingsbara posttyper</p></li>
-<li><p>Planning Plus-paket för att skapa centraliserade posttyper</p></li>
+<li><p>Planning Plus-paket för att skapa globala posttyper</p></li>
 </ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
@@ -111,46 +111,48 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 +++   
 
-## Konfigurera centraliserade posttyper
+## Konfigurera globala posttyper
 
 <!--this is a UI term; don't change the title of this section-->
-<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-Som arbetsytehanterare kan du konfigurera en posttyp så att den blir en centraliserad posttyp. En centraliserad posttyp kan läggas till i andra arbetsytor.
+Som arbetsytehanterare kan du konfigurera en posttyp så att den blir en global posttyp. En global posttyp kan läggas till i andra arbetsytor.
 
-En arbetsytehanterare kan lägga till en centraliserad posttyp på en arbetsyta som de hanterar. Posttypens originalfält läggs också till.
+En arbetsytehanterare kan lägga till en global posttyp på en arbetsyta som de hanterar. Posttypens originalfält läggs också till.
 
-Användarna kan lägga till poster i en centraliserad posttyp från vilken arbetsyta som helst som har Contribute-behörigheter och där den centraliserade posttypen läggs till, inklusive den ursprungliga arbetsytan. De kan visa poster från en arbetsyta som de bara har behörigheten Visa till.
+Användare kan lägga till poster i en global posttyp från vilken arbetsyta de än har Contribute-behörigheter och var den globala posttypen läggs till, inklusive den ursprungliga arbetsytan. De kan visa poster från en arbetsyta som de bara har behörigheten Visa till.
 
 Mer information finns i [Posttyper för arbetsytan - översikt](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-Så här konfigurerar du en posttyp som central:
+Så här konfigurerar du en posttyp som global:
 
 {{step1-to-planning}}
 
-1. Klicka på arbetsytan vars posttyper du vill konfigurera som centraliserade.
+1. Klicka på arbetsytan vars posttyper du vill konfigurera som globala.
 
    Arbetsytans sida öppnas och posttyperna visas.
 1. Gör något av följande:
 
    * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet
-   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn.
-1. Klicka på **Redigera**.
 
-   ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
+     ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
+
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
+1. Klicka på **Redigera** eller **Inställningar**.
 
    >[!TIP]
    >
-   >Om en posttyp redan har angetts som en centraliserad posttyp och har lagts till på andra arbetsytor är alternativet Redigera nedtonat.
+   >När en posttyp läggs till på en annan arbetsyta visas den som en global posttyp på den arbetsytan. I det här fallet är alternativen för Redigera och Inställningar nedtonade.
 
-1. Klicka på fliken **Avancerade inställningar** i rutan **Redigera posttyp**.
+1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**
+
+   Eller om du klickade på **Inställningar** går du till avsnittet **Inställningar för arbetsytan mellan arbetsytor** i den vänstra panelen.
 1. Aktivera inställningen **Tillåt att den här posttypen läggs till i andra arbetsytor**.
 
-   ![Redigera posttyp Avancerade inställningar med Lägg till i andra arbetsytor aktiverar](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
+   ![Redigera posttyp Inställningar för arbetsytan mellan arbetsytor med Lägg till i andra arbetsytor aktiverat](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
    >[!TIP]
    >
-   >När du har lagt till en centraliserad posttyp på en annan arbetsyta kan den här inställningen inte längre inaktiveras.
+   >När du har lagt till en global posttyp på en annan arbetsyta kan den här inställningen inte längre inaktiveras.
 
 1. I fältet **Välj vem som kan lägga till den här posttypen i arbetsytor som de hanterar** lägger du till entiteter som du vill tillåta att den här posttypen läggs till i arbetsytor som de hanterar.
 
@@ -158,13 +160,16 @@ Så här konfigurerar du en posttyp som central:
 
    Du kan lägga till enskilda användare, eller grupper, team, jobbroller eller företag vars användare du vill tillåta att den här posttypen läggs till på de arbetsytor som de hanterar.
 
-   Du måste utse minst en enhet (användare, team, grupp, roll eller företag) för att kunna aktivera den här inställningen.
-
    Du kan redigera det här fältet när du har sparat posttypen.
 
 1. (Valfritt) Ta bort ditt namn från fältet **Välj vem som kan lägga till den här posttypen i arbetsytor som de hanterar**.
 
-1. Klicka på **Spara**.
+   >[!TIP]
+   >
+   >Du måste utse minst en enhet (användare, team, grupp, roll eller företag) för att kunna aktivera den här inställningen.
+
+
+1. (Villkorligt) Klicka på **Spara** i rutan **Redigera posttyp** eller klicka på bakåtpilen till vänster om **Inställningar** i sidhuvudet för att spara ändringarna.
 
    Följande saker händer:
 
@@ -174,7 +179,7 @@ Så här konfigurerar du en posttyp som central:
    >
    >Du kan bara redigera posttypens utseende och inställningar och dess ursprungliga fält från den ursprungliga arbetsytan.
 
-   * Posttypkortet visar en centraliserad ikon ![Centraliserad posttypsikon](assets/global-icon.png) som anger att posttypen är tillgänglig för tillägg till andra arbetsytor.
+   * På posttypskortet visas en global ikon, ![Global posttypsikon](assets/global-icon.png), som anger att posttypen är tillgänglig för tillägg till andra arbetsytor.
    * Ett systemgenererat **Workspace**-fält läggs till i registervyn för posttypen och dess posterdetaljer.
 
      I fältet Workspace visas arbetsytan där varje post skapas.
@@ -190,24 +195,29 @@ Så här konfigurerar du en posttyp som central:
 
 Du kan konfigurera en posttyp som ska anslutas till från andra arbetsytor när du skapar eller redigerar posttypen.
 
-Så här konfigurerar du en posttyp att ansluta till från andra arbetsytor när du redigerar posttypen:
+Så här konfigurerar du en posttyp som anslutningsbar:
 
 {{step1-to-planning}}
 
-1. Klicka på arbetsytan vars posttyper du vill redigera.
+1. Klicka på arbetsytan vars posttyper du vill konfigurera som anslutningsbara.
 
    Arbetsytans sida öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll muspekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Redigera**
-   * Klicka på ett posttypskort för att öppna posttypssidan, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Redigera**.
+   * Håll pekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet
 
-   ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
+     ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
 
-1. Klicka på fliken **Avancerade inställningar** i rutan **Redigera posttyp**.
+   * Klicka på ett posttypskort för att öppna posttypssidan och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn.
+1. Klicka på **Redigera** eller **Inställningar**.
+
+1. (Villkorligt) Om du klickade på **Redigera** klickar du på fliken **Inställningar för arbetsytan** i rutan **Redigera posttyp**
+
+   Eller om du klickade på **Inställningar** går du till avsnittet **Inställningar för arbetsytan mellan arbetsytor** i den vänstra panelen.
+
 1. Aktivera inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
-   ![Redigera posttyp Avancerade inställningsflikar med anslutning från andra arbetsytor aktiverat](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
+   ![Redigera posttyp Fliken Inställningar för arbetsytan mellan arbetsytor med anslutning från andra arbetsytor aktiverad](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
    När det här alternativet är aktiverat är posttypen tillgänglig och kan anslutas till från andra arbetsytor.
 
@@ -215,7 +225,7 @@ Så här konfigurerar du en posttyp att ansluta till från andra arbetsytor när
 
    * **Systemomfattande**: Användare kan ansluta till den här posttypen från alla arbetsytor där de har behörigheten Hantera.
    * **Specifika arbetsytor**: Lägg till namnen på arbetsytorna där arbetsytehanterare kan ansluta till den här posttypen.
-1. Klicka på **Spara**.
+1. (Villkorligt) Klicka på **Spara** i rutan **Redigera posttyp** eller klicka på bakåtpilen till vänster om **Inställningar** i sidhuvudet för att spara ändringarna.
 
    Följande saker händer:
 

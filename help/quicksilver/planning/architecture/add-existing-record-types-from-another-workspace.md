@@ -4,7 +4,7 @@ description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Work
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
@@ -29,13 +29,13 @@ Som arbetsytehanterare kan du lägga till en posttyp som finns i en annan arbets
 
 I den här artikeln beskrivs hur du kan lägga till en posttyp från en befintlig och hur du kan ta bort den, om den inte längre behövs.
 
-En arbetsytehanterare måste ange en posttyp som centraliserad innan du kan lägga till den i arbetsytor som du hanterar som en befintlig posttyp.
+En arbetsytehanterare måste ange en posttyp som global innan du kan lägga till den i arbetsytor som du hanterar som en befintlig posttyp.
 
-Du kan ange en posttyp som centraliserad när du skapar eller redigerar den, medan du definierar de avancerade inställningarna.
+Du kan ange en posttyp som global när du skapar eller redigerar den, medan du definierar inställningarna för den gemensamma arbetsytan.
 
 Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-Läs artikeln [Översikt över posttyper på arbetsytan](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) innan du lägger till poster på en arbetsyta från en centraliserad posttyp.
+Innan du lägger till poster på en arbetsyta från en global posttyp läser du [Översikt över posttyper på arbetsytan](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 ## Åtkomstkrav
@@ -58,7 +58,7 @@ Läs artikeln [Översikt över posttyper på arbetsytan](/help/quicksilver/plann
 <ul><li><p>Alla Workfront-paket</p></li>
 <p>Och</p>
 <li><p>Planeringspaket för att skapa kopplingsbara posttyper</p></li>
-<li><p>Planning Plus-paket för att skapa centraliserade posttyper</p></li>
+<li><p>Planning Plus-paket för att skapa globala posttyper</p></li>
 </ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
@@ -101,39 +101,39 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    Följande saker händer:
 
-   * Följande information läggs också till från den befintliga centraliserade posttypen:
+   * Följande information läggs också till från den befintliga globala posttypen:
 
       * Alla originalfält
       * Alla postanslutningar
-   * Du kan bara visa poster som lagts till från andra arbetsytor som använder samma centraliserade posttyp om du har minst behörigheten Visa på dessa arbetsytor.
-   * Ikonen **centraliserad posttyp** ![Centraliserad posttyp &#x200B;](assets/global-icon.png) läggs till på kortet för den nya posttypen.
+   * Du kan bara visa poster som lagts till från andra arbetsytor som använder samma globala posttyp om du har minst behörigheten Visa på dessa arbetsytor.
+   * Ikonen **Global posttyp** ![Global posttyp ](assets/global-icon.png) läggs till på kortet med den nya posttypen.
    * Det skrivskyddade fältet **Workspace** läggs till i den nya posttypstabellvyn. Fältet visar vilken arbetsyta varje post skapades i.
 
      >[!NOTE]
      >
-     >Du kan inte redigera den nya posttypens utseende, avancerade inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
+     >Du kan inte redigera den nya posttypens utseende, ytterligare inställningar eller originalfält. Du kan bara redigera posttypen och alla dess ursprungliga fält och inställningar från den ursprungliga arbetsytan.
 
 1. (Valfritt) Klicka och dra och släpp den nya posttypen till valfritt avsnitt på arbetsytan.
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-## Ta bort en centraliserad posttyp från en sekundär arbetsyta
+## Ta bort en global posttyp från en sekundär arbetsyta
 
 Du kan ta bort en posttyp som du har lagt till från en annan arbetsyta om den inte längre behövs. Om du tar bort den tas den bara bort från den sekundära arbetsytan och de poster som läggs till på den arbetsytan tas bort. Den ursprungliga posttypen finns kvar på den ursprungliga arbetsytan och i andra arbetsytor där den har lagts till.
 
-Så här tar du bort en centraliserad posttyp från en sekundär arbetsyta:
+Ta bort en global posttyp från en sekundär arbetsyta:
 
-1. Gå till den centraliserade posttypen på den sekundära arbetsytan.
+1. Gå till den globala posttypen på den sekundära arbetsytan.
 
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
 1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
    Följande saker händer:
 
-   * Posttypen som skapas från en centraliserad posttyp tas bort från den valda arbetsytan.
+   * Posttypen som skapas från en global posttyp tas bort från den valda arbetsytan.
    * Den ursprungliga posttypen och dess fält finns kvar på den ursprungliga arbetsytan.
    * Posttypen finns kvar på alla andra arbetsytor där den har lagts till.
-   * Posterna som lagts till posttypen från den aktuella arbetsytan tas bort. Alla andra poster som lagts till från ytterligare arbetsytor där den centraliserade posttypen lades till bevaras.
+   * Posterna som lagts till posttypen från den aktuella arbetsytan tas bort. Alla andra poster som lagts till från ytterligare arbetsytor där den globala posttypen lades till bevaras.
 
 
 

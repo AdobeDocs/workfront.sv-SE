@@ -6,28 +6,32 @@ description: När den primära kontakten för ett problem gör en uppdatering av
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Uppdatera automatiskt utskicksstatus från Väntar på feedback till Pågår
 
+<!--Audited: 109/2025-->
+
 När den primära kontakten för ett problem gör en uppdatering av problemet genom att antingen uppdatera ett fält (inklusive ett anpassat fält) eller lägga till en kommentar, uppdateras ärendets status automatiskt.
 
 Följande krävs för att denna automatiska statusändring ska kunna utföras:
 
-* Problemet måste anges via en begärandekö.
+* Problemet måste läggas till med en begärandekö.
 
-  Mer information om hur du skapar begärandeköer finns i avsnittet [Skapa och hantera begärandeköer](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md). Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Mer information om hur du skapar begärandeköer finns i avsnittet [Skapa och hantera begärandeköer](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md).
+
+  Mer information om hur du skickar begäranden till en frågekö finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * Köinformationen i begärandekön måste ha följande inställningar:
-   * **När någon gör en begäran tilldelas** automatiskt till **Contribute Access**
-   * **Ändra status** har valts under Avancerade inställningar
+   * **När någon gör en begäran tilldelas** automatiskt **Contribute Access**
+   * **Ändra status** har valts
 
-  ![Köinformation som ger Contribute åtkomst och Ändra status har valts.](assets/queuedetails-contributeaccess-changestatus.png)
+  ![Köinformation ger Contribute åtkomst och Ändra status är valt.](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >
