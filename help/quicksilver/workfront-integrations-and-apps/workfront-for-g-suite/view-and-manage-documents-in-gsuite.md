@@ -62,7 +62,7 @@ Innan du kan visa eller hantera [!DNL Workfront] dokument i [!DNL Google Workspa
 
 ## Visa och hantera [!DNL Workfront] dokument i [!DNL Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Gå till aktiviteten [!DNL Workfront] eller problemet i [!DNL Google Workspace], enligt beskrivningen i [Åtkomst [!DNL Adobe Workfront] [!UICONTROL Home] från  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 1. Klicka på **[!UICONTROL Documents]**.
 
@@ -78,11 +78,11 @@ Innan du kan visa eller hantera [!DNL Workfront] dokument i [!DNL Google Workspa
 
    Om du behöver information om att skicka uppdateringar eller svar läser du [Uppdatera ett [!DNL Adobe Workfront] objekt från [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** ![Hämta ](assets/download-icon.png) om du vill hämta ett dokument i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Download]** ![Hämta &#x200B;](assets/download-icon.png) om du vill hämta ett dokument i listan.
 
    eller
 
-   Om dokumentet har sparats på en molnenhet klickar du på ikonen **[!UICONTROL Open]** ![Öppna ](assets/open-icon.png) .
+   Om dokumentet har sparats på en molnenhet klickar du på ikonen **[!UICONTROL Open]** ![Öppna &#x200B;](assets/open-icon.png) .
 
 1. Klicka på **[!UICONTROL View in Workfront]** för att gå till dokumentinformationssidan för dokumentet i [!DNL Workfront].
 

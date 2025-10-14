@@ -21,7 +21,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Lägga till eller redigera ett webbinnehållsblock
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 1. Klicka på **Ny rapport**.
 
    eller
@@ -41,7 +41,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
    >Du kan ändra storleken på blocket efter att det har placerats genom att dra i hörnhandtagen.
 
 1. Klicka på **Namnlöst webbinnehåll** i blockhuvudet och skriv en rubrik för blocket.
-1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i blockhuvudet.
+1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i blockhuvudet.
 
    ![Ikonen Redigera i blockhuvudet](assets/web-content-block-header-350x76.png)
 

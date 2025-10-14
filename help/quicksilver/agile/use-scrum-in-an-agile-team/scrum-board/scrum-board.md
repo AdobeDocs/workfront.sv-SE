@@ -27,5 +27,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Filtrera efter användare på [!UICONTROL Scrum] board](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
 * [Lägg till artiklar och utgåvor från [!UICONTROL Scrum] board](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
 * [Hantera artiklar och ärenden på [!UICONTROL Scrum] board](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
-* [Uppdatera status för artiklar och underaktiviteter på [!UICONTROL Scrum] board ](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
+* [Uppdatera status för artiklar och underaktiviteter på [!UICONTROL Scrum] board &#x200B;](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
 * [Visa och redigera artikelinformation på [!UICONTROL Scrum]-tavlan](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)

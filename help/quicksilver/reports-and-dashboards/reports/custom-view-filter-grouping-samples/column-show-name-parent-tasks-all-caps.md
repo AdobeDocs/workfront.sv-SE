@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Så här skapar du den här kolumnen i en uppgiftsvy:
 
 1. Gå till en lista med uppgifter.
-1. Välj en vy i listrutan **Visa** och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+1. Välj en vy i listrutan **Visa** och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 eller\
    Välj **Ny vy** i listrutan **Visa**.
 

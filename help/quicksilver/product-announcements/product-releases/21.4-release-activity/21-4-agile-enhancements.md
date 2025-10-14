@@ -41,7 +41,7 @@ Mer information finns i [Konfigurera surrande](../../../agile/get-started-with-a
 >
 >Den här funktionen släpptes till förhandsvisningsmiljön den 16 september 2021.
 
-Som en del av version 21.3 har vi förbättrat det flexibla kortets sidhuvud och artikeltavlor (se [Uppdateringar av rubriker och anslagstavla ](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Uppdateringarna gäller både iterationer och den flexibla vyn i projekt.
+Som en del av version 21.3 har vi förbättrat det flexibla kortets sidhuvud och artikeltavlor (se [Uppdateringar av rubriker och anslagstavla &#x200B;](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Uppdateringarna gäller både iterationer och den flexibla vyn i projekt.
 
 I version 21.4 återställer vi dessa förbättringar för en flexibel projektvy. Det görs inga ändringar i rörliga iterationer.
 

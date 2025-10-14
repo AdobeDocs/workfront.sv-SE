@@ -136,7 +136,7 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
    ![Förhandsgranskningsruta för detaljer](assets/details-box.png)
 
 
-1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna på ny flik ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsvisningen för att öppna postens sida på en ny flik.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![Öppna på ny flik &#x200B;](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsvisningen för att öppna postens sida på en ny flik.
 
    Postsidan öppnas.
 
@@ -168,7 +168,7 @@ Rutan **Postomslag** öppnas på fliken **Överför** .
 1. (Valfritt) Hovra över bilden, klicka sedan på menyn **Mer** ![Mer](assets/more-menu.png) i det nedre högra hörnet av omslagsbilden och gör något av följande:
 
    * Klicka på **Överför** om du vill ersätta omslagsbilden och upprepa steg 6 för att överföra och spara en ny bild.
-   * Klicka på **Flytta** och använd verktyget **Flytta** ![Flytta ](assets/reposition-tool-icon.png) för att centrera omslagsbilden. Klicka sedan på **Spara** när du är klar.
+   * Klicka på **Flytta** och använd verktyget **Flytta** ![Flytta &#x200B;](assets/reposition-tool-icon.png) för att centrera omslagsbilden. Klicka sedan på **Spara** när du är klar.
    * Klicka på **Ta bort** för att ta bort omslagsbilden.
 
    Workfront sparar automatiskt ändringarna.

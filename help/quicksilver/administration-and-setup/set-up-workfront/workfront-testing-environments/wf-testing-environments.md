@@ -21,8 +21,8 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Sandlådemiljö för förhandsgranskning:  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-* [ [!DNL Adobe Workfront] Anpassad sandlådemiljö för uppdatering](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [Sandlådemiljö för förhandsgranskning:  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+* [&#x200B; [!DNL Adobe Workfront] Anpassad sandlådemiljö för uppdatering](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 * Miljö:
 
    * [Översikt över rörliga objekt mellan Workfront-miljöer (miljöfrämjande)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)

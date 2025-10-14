@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla ändringar som gjorts i Project-förbättringar i version 2019.3. Den gjordes tillgänglig i produktionsmiljön den 19 augusti 2019.
 
-En lista över alla ändringar som gjorts under 2019.3 finns i [Översikt över versionsaktiviteten för 2019.3 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.3 finns i [Översikt över versionsaktiviteten för 2019.3 &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Ändra visningstypen för ett fält i ett anpassat formulär
 
@@ -171,7 +171,7 @@ När du tilldelar en användare till en aktivitet eller ett problem kan du nu se
 
 Mer information om hur du tilldelar uppgifter finns i [Tilldela uppgifter](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Mer information om ledig tid finns i [Konfigurera personlig tid ](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Mer information om ledig tid finns i [Konfigurera personlig tid &#x200B;](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 >[!NOTE]
 >

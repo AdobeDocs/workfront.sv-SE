@@ -180,7 +180,7 @@ Du kan skapa filter med hjälp av standardgränssnittet i Builder på följande 
 Skapa ett filter med standardgränssnittet i Builder:
 
 1. Gå till en lista där du vill skapa ett filter eller som innehåller det filter som du vill anpassa.
-1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) för att öppna Builder-gränssnittet.
+1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) för att öppna Builder-gränssnittet.
 
    ![Standardfilterverktyg](assets/new-filters-all-filter-types.png)
 
@@ -212,7 +212,7 @@ Skapa ett filter med standardgränssnittet i Builder:
 1. Gör något av följande:
 
    * Klicka på **Nytt filter** om du vill skapa ett filter från grunden.
-   * Håll pekaren över ett befintligt filter som du har behörighet att hantera och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att redigera det.
+   * Håll pekaren över ett befintligt filter som du har behörighet att hantera och klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att redigera det.
 
      eller
 
@@ -262,7 +262,7 @@ Skapa ett filter med standardgränssnittet i Builder:
    >Beroende på vilken modifierare du har valt kan du välja flera värden.
 
 1. Klicka på **Lägg till filter** om du vill välja ett annat fält och lägga till ett filtervillkor i filterinstruktionen.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort befintliga filtersatser.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort befintliga filtersatser.
 
    eller
 
@@ -363,7 +363,7 @@ Du kan skapa äldre filter i listor och rapporter på följande sätt:
 Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär som när du skapar ett filter från början eller från ett befintligt filter.
 
 1. Gå till en lista eller rapport som innehåller filtret som du vill anpassa.
-1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png), klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Gå tillbaka till äldre filter**.
+1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png), klicka på ikonen **Mer** ![Mer](assets/more-icon.png) och klicka sedan på **Gå tillbaka till äldre filter**.
 
    >[!TIP]
    >
@@ -373,7 +373,7 @@ Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär
 
    eller
 
-   Håll pekaren över det filter som du vill ändra och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+   Håll pekaren över det filter som du vill ändra och klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 
    Verktyget för att anpassa filtret startas.
 

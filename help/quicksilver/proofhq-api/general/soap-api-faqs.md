@@ -59,7 +59,7 @@ Du behöver inte skaffa något nytt sessions-ID innan varje anrop till API:t. De
 
 **Team/Public**: Varje korrekturversion har en unik Team-URL (Public). Om det här alternativet är aktiverat öppnas korrekturet i skrivskyddat läge. Du kan hämta Team-URL:en med metoden [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html).
 
-**Personlig**: En personlig URL är unik för varje granskare och korrekturversion. Om en korrekturuppsättning innehåller tre versioner och en granskare finns i alla versioner har granskaren tre unika personliga URL:er. En personlig URL öppnar korrekturversionen med granskaren som redan är identifierad och som därför ska vara säker och inte delas. Personliga URL:er kan hämtas genom att metoden [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) anropas och sedan itereras över varje  [ SOAPRecepientObject ](https://api.proofhq.com/home/objects/soaprecipientobject.html) och hämtar parametern &quot;proof_url&quot;.
+**Personlig**: En personlig URL är unik för varje granskare och korrekturversion. Om en korrekturuppsättning innehåller tre versioner och en granskare finns i alla versioner har granskaren tre unika personliga URL:er. En personlig URL öppnar korrekturversionen med granskaren som redan är identifierad och som därför ska vara säker och inte delas. Personliga URL:er kan hämtas genom att metoden [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) anropas och sedan itereras över varje  [&#x200B; SOAPRecepientObject &#x200B;](https://api.proofhq.com/home/objects/soaprecipientobject.html) och hämtar parametern &quot;proof_url&quot;.
 
 ## >Hur du inkluderar anpassade parametrar när du öppnar minikorrekturet?
 

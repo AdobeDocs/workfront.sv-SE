@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Din Adobe [!DNL Workfront]-administratör konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Din Adobe [!DNL Workfront]-administratör konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 Gruppadministratören kan också konfigurera vilka meddelanden som är aktiverade för dig och användarna i [!UICONTROL Home Group]. Om [!UICONTROL Home Group] är en undergrupp får du meddelanden som är aktiverade för den översta gruppen ovanför gruppen.
 
@@ -67,7 +67,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 {{step1-click-profile-pic}}
 
-1. Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
+1. Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
 
 1. Gå till avsnittet **[!UICONTROL Notifications]** i rutan **[!UICONTROL Edit Person]** som visas.
 

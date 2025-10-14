@@ -893,7 +893,7 @@ GET /customAction
 
 En JSON-sträng som anger om åtgärden lyckades eller misslyckades, vilket anges i felhanteringsavsnittet nedan. Vid fel (d.v.s. status = &quot;error&quot;) visas det angivna felmeddelandet för användaren.
 
-**Exempel:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Exempel:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 svar
 

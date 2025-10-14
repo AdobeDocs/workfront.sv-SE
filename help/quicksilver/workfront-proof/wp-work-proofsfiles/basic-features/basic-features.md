@@ -26,4 +26,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Kontrollpanelen i  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
 * [Sidlayout på fliken Vyer i  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
 * [Söker [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-* [ [!DNL Workfront Proof] Aktivitetsgranskningsspår](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+* [&#x200B; [!DNL Workfront Proof] Aktivitetsgranskningsspår](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

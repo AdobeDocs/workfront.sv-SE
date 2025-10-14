@@ -46,19 +46,19 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Konfigurera filterregler för en tabell
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 
 1. Klicka på **Ny rapport**.
 
    eller
 
-   Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![Mer ](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
+   Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![Mer &#x200B;](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
 
 1. Om du vill gruppera rader i en ny tabell drar eller dubbelklickar du på ett tabellblock på arbetsytan.
 
    eller
 
-   Om du vill gruppera rader i en befintlig tabell klickar du på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) i tabellhuvudet.
+   Om du vill gruppera rader i en befintlig tabell klickar du på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) i tabellhuvudet.
 
 1. I den högra panelen letar du reda på det fält som du vill filtrera tabellen efter och drar det sedan till filteravsnittet.
 

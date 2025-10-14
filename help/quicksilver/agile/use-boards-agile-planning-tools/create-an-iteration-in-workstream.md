@@ -124,5 +124,5 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 ## Ta bort en iteration
 
 1. Klicka på fliken [!UICONTROL **Kortlista**] i arbetsflödet och öppna itereringsvyn.
-1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) intill iterationen.
+1. Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) intill iterationen.
 1. Klicka på [!UICONTROL **Ta bort upprepning**] i bekräftelsemeddelandet.

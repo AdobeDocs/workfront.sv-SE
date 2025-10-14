@@ -50,7 +50,7 @@ Nu kan du skapa flera projekt från samma Workfront Planning-post när du använ
 
 Före den här förbättringen kunde du bara skapa ett projekt varje gång du skulle utlösa en automatisering som konfigurerats för projekt.
 
-Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Ändra namn på sökfält
 
@@ -216,7 +216,7 @@ Som arbetsytehanterare kan du nu konfigurera anpassade automatiseringar för en 
 
 De skapade objekten eller posterna är omedelbart anslutna till den post där automatiseringen konfigureras och aktiveras.
 
-Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Mer information finns i [Skapa objekt med hjälp av postautomatisering för Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Granska och bekräfta åtgärder som vidtagits av AI Assistant
 

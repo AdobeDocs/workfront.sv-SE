@@ -28,7 +28,7 @@ Kunder som tänker använda den nya inbyggda integreringen mellan Workfront och 
 Adobe måste hjälpa till att genomföra migreringen. Gör något av följande om du vill ha hjälp:
 
 * Om du har Workfront Hub-åtkomst skickar du din begäran till [Workfront-migreringen till Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
-* Om du inte har Workfront Hub-åtkomst kan du skicka din begäran till [Workfront till kön för tidig migreringsbegäran för Adobe Admin Console ](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
+* Om du inte har Workfront Hub-åtkomst kan du skicka din begäran till [Workfront till kön för tidig migreringsbegäran för Adobe Admin Console &#x200B;](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
 
 ## Konfigurera ditt nya Workfront for Adobe Experience Manager-material as a Cloud Service-integrering
 

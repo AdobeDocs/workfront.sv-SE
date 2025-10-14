@@ -62,7 +62,7 @@ Innan du kan uppdatera ett [!DNL Workfront]-objekt med e-postinnehåll från [!D
 
 ## Uppdatera ett [!DNL Workfront]-objekt med e-postinnehåll från [!DNL Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på Workfront-ikonen ![ Workfront-ikonen ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på Workfront-ikonen ![&#x200B; Workfront-ikonen &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
 1. Öppna e-postmeddelandet i [!DNL Google Workspace] och klicka på **[!UICONTROL Post as a new update]** på panelen [!DNL Google Workspace].
 1. Klicka på listrutepilen under **[!UICONTROL Type]** och klicka sedan på den typ av objekt där du vill lägga till uppdateringen.
 1. Klicka på alternativet **[!UICONTROL Search for]**, börja skriva namnet på objektet där du vill lägga till uppdateringen och markera sedan objektet när det visas i listan nedan.

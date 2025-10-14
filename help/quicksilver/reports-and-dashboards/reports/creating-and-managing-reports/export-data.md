@@ -195,7 +195,7 @@ Om du har frågor eller funderingar kring din begränsning kan du kontakta Workf
 
    eller
 
-   Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon-nwe.png) och välj sedan ett format.
+   Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon-nwe.png) och välj sedan ett format.
 
    Vilka alternativ som är tillgängliga för PDF-export beror på inställningarna för Språkinställning för e-post i användarinställningarna för Workfront:
 

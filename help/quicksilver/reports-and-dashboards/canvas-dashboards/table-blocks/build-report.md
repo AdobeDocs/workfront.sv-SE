@@ -25,7 +25,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 >
 >Alla ändringar sparas automatiskt när du skapar och redigerar blocken i rapporten.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 1. Klicka på **Ny rapport**.
 1. Skriv ett namn på rapporten i det övre vänstra hörnet av arbetsytan.
 

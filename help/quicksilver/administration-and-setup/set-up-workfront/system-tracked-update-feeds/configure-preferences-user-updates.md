@@ -63,7 +63,7 @@ Som standard kan användare inte lägga till bilder i uppdateringar. När du akt
 >* Bilder är tillgängliga via fliken [!UICONTROL Updates] för ett objekt och är även tillgängliga i området [!UICONTROL Documents] under [!UICONTROL Main Menu].
 >
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform ](assets/gear-icon-settings.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på ikonen **[!UICONTROL Setup]** ![Nätform &#x200B;](assets/gear-icon-settings.png) .
 1. Välj **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** i den vänstra panelen.
 1. Välj fliken **[!UICONTROL Preferences]**.
 

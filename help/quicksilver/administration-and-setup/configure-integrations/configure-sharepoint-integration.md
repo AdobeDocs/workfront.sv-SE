@@ -194,7 +194,7 @@ Din [!DNL SharePoint]-klienthemlighet går ut en gång om året. För att säker
 1. Generera en ny klienthemlighet enligt beskrivningen i [Ersätt en utgående klienthemlighet i ett  [!DNL SharePoint] tillägg](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopiera den här klienthemligheten till en säker plats.
 1. Logga in på [!DNL Workfront] som administratör.
-1. I Workfront klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
+1. I Workfront klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klickar du på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera &#x200B;](/help/_includes/assets/gear-icon-setup.png) .
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]** i den vänstra panelen.
 1. Klicka på den [!DNL SharePoint]-integrering som du vill uppdatera och klicka sedan på **[!UICONTROL Edit]**.
 1. Leta reda på avsnittet **Anslutningsinformation** i redigeringsfönstret och ange sedan den nya klienthemligheten i fältet **[!UICONTROL SharePoint Client Secret]**.

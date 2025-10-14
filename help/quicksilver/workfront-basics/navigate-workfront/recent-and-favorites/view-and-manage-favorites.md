@@ -66,7 +66,7 @@ Du kan lägga till senaste objekt eller den aktuella sidan på menyn [!UICONTROL
 
 ### Lägg till senaste objekt som favorit
 
-1. Klicka på ikonen **[!UICONTROL Recents]** ![Senaste ](assets/recents-icon-40x43.png) i det övre högra hörnet på en sida i den nya [!DNL Adobe Workfront]-upplevelsen.
+1. Klicka på ikonen **[!UICONTROL Recents]** ![Senaste &#x200B;](assets/recents-icon-40x43.png) i det övre högra hörnet på en sida i den nya [!DNL Adobe Workfront]-upplevelsen.
 1. Klicka på stjärnan i linje med det objekt du vill spara som favorit. Det senaste objektet visas på menyn **Favoriter**.
 
    ![Favorit ett nyligen använt objekt](assets/recents-section.png)

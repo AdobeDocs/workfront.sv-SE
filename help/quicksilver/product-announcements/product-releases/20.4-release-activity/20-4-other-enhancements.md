@@ -62,7 +62,7 @@ Observera också att vår moderna formatering nu förbättrar upplevelsen av att
 
 Mer information om hur du konfigurerar e-postmeddelanden finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Den här funktionen finns nu med i utbildningssökvägen [E-post och i programmet ](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
+Den här funktionen finns nu med i utbildningssökvägen [E-post och i programmet &#x200B;](https://experienceleague.adobe.com/sv/docs/workfront-learn/tutorials-workfront/home) på Workfront One.
 
 ## Nya API-objekt som utlöser händelseprenumerationsuppdateringar
 

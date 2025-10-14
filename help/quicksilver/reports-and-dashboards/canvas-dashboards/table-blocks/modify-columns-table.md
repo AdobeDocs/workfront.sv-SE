@@ -28,8 +28,8 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Ändra kolumner i en tabell
 
-1. Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![Mer ](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
-1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) på tabellrubriken i rapporten.
+1. Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![Mer &#x200B;](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
+1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) på tabellrubriken i rapporten.
 
    ![Ikonen Redigera i tabellrubriken](assets/edit-icon-table-header-350x71.png)
 

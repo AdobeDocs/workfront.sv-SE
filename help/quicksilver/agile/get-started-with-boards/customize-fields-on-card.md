@@ -70,7 +70,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    De flesta fält och avsnitt är aktiverade som standard.
 
 1. Stäng av ett fält eller avsnitt för att inaktivera det i båda kortvyerna.
-1. Klicka på ikonen Dölj ![Dölj ](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
+1. Klicka på ikonen Dölj ![Dölj &#x200B;](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
 1. Om du vill visa alla fält och avsnitt i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
 1. Klicka på [!UICONTROL **Dölj konfigurera**] för att stänga konfigurationspanelen.
 

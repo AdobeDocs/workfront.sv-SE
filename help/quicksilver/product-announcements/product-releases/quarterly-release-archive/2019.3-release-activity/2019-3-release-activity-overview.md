@@ -467,4 +467,4 @@ Nedan visas borttagningstidslinjen för dessa SSO-alternativ:
 
 ### Q3 Product Roadmap Webinar {#q3-product-roadmap-webinar}
 
-Läs mer om vad som kommer att hända under [Q3 Roadmap-webbinariet](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) den 1 augusti kl. 9:00. MST.
+Läs mer om vad som kommer att hända under [Q3 Roadmap-webbinariet](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) den 1 augusti kl. 9:00. MST.

@@ -37,7 +37,7 @@ Du kan utföra följande åtgärder för både dokument och korrektur på sidan 
 * Redigera dokumentbeskrivningen
 * Checka in eller checka ut ett dokument
 
-Du kan dessutom använda ikonen Mer ![Mer ](assets/more-icon.png) bredvid dokumentnamnet för att utföra följande åtgärder:
+Du kan dessutom använda ikonen Mer ![Mer &#x200B;](assets/more-icon.png) bredvid dokumentnamnet för att utföra följande åtgärder:
 
 * Dela
 * Flytta

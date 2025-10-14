@@ -139,7 +139,7 @@ Den här sidan innehåller information om de funktioner som finns i version 2018
 * [Olika länkar återinfördes till dokument i dokumentlistan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
 * [Ta emot e-postmeddelanden om kommentarer om dokument](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents) Nytt!
 
-* [Systemspårade uppdateringar innehåller inte längre ikonen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon) Nyhet!
+* [Systemspårade uppdateringar innehåller inte längre ikonen &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon) Nyhet!
 
 * [Alternativet att konvertera en kommentar till en aktivitet har tagits bort](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#option-to-convert-a-comment-to-a-task-removed) Nytt!
 

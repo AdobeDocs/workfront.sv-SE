@@ -240,7 +240,7 @@ Förutom att kopiera uppgifter i en lista med uppgifter kan du även kopiera en 
 
    Uppgiften visas i listan.
 
-   ![Välj överordnad aktivitet när du flyttar en aktivitet med sökfunktioner ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Välj överordnad aktivitet när du flyttar en aktivitet med sökfunktioner &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Markera alternativknappen för den överordnade när du har hittat den.
 

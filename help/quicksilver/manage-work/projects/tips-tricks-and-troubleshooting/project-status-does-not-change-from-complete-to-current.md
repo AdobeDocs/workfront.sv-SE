@@ -33,7 +33,7 @@ Om ett projekts slutföringsläge är inställt på Manuellt kan projektstatus �
 Så här uppdaterar du ett projekts slutföringsläge till Manuellt:
 
 1. Gå till det projekt som du vill uppdatera.
-1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.
+1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.
 1. Klicka på **Projekt** **Inställningar**.
 
 1. Leta upp listrutan **Slutförandeläge** och välj **Manuell**.

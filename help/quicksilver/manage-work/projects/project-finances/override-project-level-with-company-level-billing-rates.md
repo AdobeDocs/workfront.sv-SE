@@ -64,7 +64,7 @@ När ett företag är associerat med ett projekt och det här alternativet är a
 När en användare manuellt beräknar om budgeten för projektet tillämpas eventuella ändringar av faktureringstarifferna på företagsnivå. Historiska intäktsberäkningar åsidosätts också såvida de inte markeras som fakturerade.
 
 1. Gå till ett projekt.
-1. Klicka på menyn **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) bredvid namnet på projektet i sidhuvudet och klicka sedan på **Redigera**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) bredvid namnet på projektet i sidhuvudet och klicka sedan på **Redigera**.
 1. I avsnittet **Ekonomi** aktiverar du alternativet **Tillåt faktureringstariffer på företagsnivå för att åsidosätta faktureringstariffer på projektnivå**.
 
    >[!CAUTION]

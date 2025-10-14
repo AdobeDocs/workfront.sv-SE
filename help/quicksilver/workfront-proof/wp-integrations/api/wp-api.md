@@ -24,4 +24,4 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [API:t  [!DNL Workfront Proof] ](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
+* [API:t  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)

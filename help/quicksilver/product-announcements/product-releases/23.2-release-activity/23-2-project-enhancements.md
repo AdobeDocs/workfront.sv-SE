@@ -45,7 +45,7 @@ Mer information finns i [Redigera projekt](/help/quicksilver/manage-work/project
 
 ## Förbättrad filterupplevelse som är allmänt tillgänglig i Adobe Workfront
 
-En uppgradering av filterupplevelsen släpptes till allmän betaversion av projekt-, uppgifts- och utfärdandelistor i augusti 2022. De flesta listorna innehåller nu de förbättrade filtren. (Om du vill granska alla dessa listor läser du versionsinformationen om [23.1-uppdateringar ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) Den förbättrade filterupplevelsen blir allmänt tillgänglig och blir standardfilterskapare i Preview den 2 mars 2023. En fasad lansering i produktionen börjar också den 2 mars med tillgänglighet för alla kunder i version 23.2.
+En uppgradering av filterupplevelsen släpptes till allmän betaversion av projekt-, uppgifts- och utfärdandelistor i augusti 2022. De flesta listorna innehåller nu de förbättrade filtren. (Om du vill granska alla dessa listor läser du versionsinformationen om [23.1-uppdateringar &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) Den förbättrade filterupplevelsen blir allmänt tillgänglig och blir standardfilterskapare i Preview den 2 mars 2023. En fasad lansering i produktionen börjar också den 2 mars med tillgänglighet för alla kunder i version 23.2.
 
 Du kan fortfarande komma åt de äldre filtren i listor genom att aktivera dem på filterpanelen. Äldre filter kommer i framtiden att tas bort från listor, men de kommer fortfarande att vara tillgängliga i rapporter eftersom standardfilterverktyget inte är tillgängligt i rapporter.
 

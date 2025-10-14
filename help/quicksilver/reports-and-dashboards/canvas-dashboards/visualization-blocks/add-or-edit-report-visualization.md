@@ -32,12 +32,12 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 >
 >Alla ändringar sparas automatiskt när du skapar och redigerar blocken i rapporten.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 1. Klicka på **Ny rapport** och skapa sedan en rapport med tabeller som innehåller data, enligt beskrivningen i [Skapa en rapport i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) och [Lägg till eller redigera ett tabellblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    eller
 
-   I en befintlig rapport med tabeller som innehåller data klickar du på ikonen **Mer meny** ![Mer ](assets/more-icon.png) i rapportrubriken och väljer sedan **Redigera**.
+   I en befintlig rapport med tabeller som innehåller data klickar du på ikonen **Mer meny** ![Mer &#x200B;](assets/more-icon.png) i rapportrubriken och väljer sedan **Redigera**.
 
 1. Till höger på skärmen, under **Lägg till ett block**, antingen:
 

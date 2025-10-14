@@ -113,7 +113,7 @@ Mer information om hur du skapar program finns i [Skapa ett program](../../../ma
    1. I rutan **[!UICONTROL Add Projects]** skriver du namnet på ett projekt i fältet **Lägg till projekt i det här programmet** och markerar det när det visas i listan. <!--check casing on links and buttons-->
 
       Du kan lägga till fler än ett projekt.
-   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) bredvid namnet på ett projekt om du bestämmer dig för att inte lägga till det i programmet.
+   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) bredvid namnet på ett projekt om du bestämmer dig för att inte lägga till det i programmet.
 
    1. Klicka på **[!UICONTROL Add Projects]**. <!--check at unshimming-->
 

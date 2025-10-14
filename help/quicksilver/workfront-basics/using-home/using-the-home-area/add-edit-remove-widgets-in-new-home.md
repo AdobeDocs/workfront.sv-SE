@@ -150,7 +150,7 @@ Så här lägger du till en widget:
 
 1. Flytta widgeten genom att hålla markören över den övre kanten av widgeten tills den blir en hand. Klicka och dra sedan tills widgeten är på önskad plats. Andra widgetar flyttas runt den när du flyttar widgeten.
 
-1. Ändra storlek på widgeten genom att klicka och dra på storleksikonen ![Ändra storlek ](assets/resize-icon.png) i det nedre högra hörnet av widgeten.
+1. Ändra storlek på widgeten genom att klicka och dra på storleksikonen ![Ändra storlek &#x200B;](assets/resize-icon.png) i det nedre högra hörnet av widgeten.
 
 ## Ta bort en widget från startsidan
 

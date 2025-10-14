@@ -73,7 +73,7 @@ Du kan överföra ett dokument till en arbetsuppgift från sidan med arbetslista
 
 1. Håll markören över arbetsnamnet i arbetslistan och klicka sedan på ikonen **Sammanfattning** ![öppna sammanfattningsikonen](assets/summary-icon.png).
 1. Kontrollera att du är på fliken **Aktivitet** eller **Problem** på sammanfattningspanelen.
-1. Klicka på ikonen **Överför fil** ![Överför fil ](assets/upload-file-icon.png) .
+1. Klicka på ikonen **Överför fil** ![Överför fil &#x200B;](assets/upload-file-icon.png) .
 1. Dra och släpp filen eller Cmd/Ctrl + V för att klistra in från Urklipp
 eller
 Klicka på **Lägg till filer** om du vill bläddra bland filer eller importera filer från en Document Cloud-leverantör.

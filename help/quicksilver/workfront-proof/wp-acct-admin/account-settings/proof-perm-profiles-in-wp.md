@@ -160,7 +160,7 @@ Tillsynsmannen har följande behörigheter:
 
 ![Rött X](assets/no2.png)Det går inte att ta bort privata mappar för andra användare. Mer information finns i [Mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
 ![Röd X](assets/no2.png)Det går inte att lägga till, redigera eller ta bort användare.
 
@@ -186,7 +186,7 @@ Chefer har följande behörigheter:
 
 ![Rött X](assets/no2.png)Det går inte att ta bort gemensamma mappar för andra användare. Mer information finns i [Hantera mappar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
 ![Rött X](assets/no2.png)kan inte anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -214,7 +214,7 @@ Observatörer har följande behörigheter:
 
 ![Rött X](assets/no2.png)Det går inte att ta bort objekt som har skapats i organisationen.
 
-![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
 ![Rött X](assets/no2.png)kan inte anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -252,7 +252,7 @@ Besökarna har följande behörigheter:
 
 ![Rött X](assets/no2.png)Det går inte att ta bort objekt som har skapats i organisationen.
 
-![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rött X](assets/no2.png)Kan inte komma åt faktureringssidan eller kontoinställningarna. Mer information finns i [Faktureringssidan [!DNL Workfront Proof] och &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) [Kontoinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
 ![Rött X](assets/no2.png)kan inte anges som Dropzone-ägare. Mer information finns i [Konfigurera dropzone i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 

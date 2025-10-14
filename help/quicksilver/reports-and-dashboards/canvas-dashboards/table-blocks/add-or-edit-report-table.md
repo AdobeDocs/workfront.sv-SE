@@ -21,7 +21,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Lägga till eller redigera ett tabellblock
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 1. Klicka på **Ny rapport**.
 
    eller

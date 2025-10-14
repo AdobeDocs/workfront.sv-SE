@@ -68,7 +68,7 @@ Instruktioner finns i [Installera [!DNL Adobe Workfront for XD]](/help/quicksilv
    ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till den arbetsuppgift där du vill överföra ett dokument.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Markera den rityta som du vill överföra.
@@ -116,7 +116,7 @@ Instruktioner finns i [Installera [!DNL Adobe Workfront for XD]](/help/quicksilv
    ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till den arbetsuppgift där du vill överföra ett dokument.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på dokumentet som du vill lägga till en ny version i.
 1. Klicka på **[!UICONTROL New version]** längst ned i plugin-programmet.

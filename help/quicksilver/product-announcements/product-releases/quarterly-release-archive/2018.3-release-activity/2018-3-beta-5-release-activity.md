@@ -131,7 +131,7 @@ Budgeterade timmar i utnyttjanderapporten fylls nu i från information som är t
 
 Före den här ändringen användes information från det tidigare området Resursberäkning.
 
-Mer information finns i  [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i artikeln  [Översikt över resursanvändningsrapporten ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
+Mer information finns i  [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i artikeln  [Översikt över resursanvändningsrapporten &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
 
 ## Användningsrapport: Visa budgeterade timmar per användare i ett projekt {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,7 +143,7 @@ Användningsrapporten för ett projekt visar nu Budgeterade timmar per användar
 
 Före den här ändringen visade användningsrapporten endast budgeterade timmar per jobbroll. 
 
-Mer information finns i  [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i artikeln  [Översikt över resursanvändningsrapporten ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
+Mer information finns i  [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i artikeln  [Översikt över resursanvändningsrapporten &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
 
 ## SWF-filer stöds inte längre i korrekturläsaren {#swf-files-no-longer-supported-in-the-proofing-viewer}
 

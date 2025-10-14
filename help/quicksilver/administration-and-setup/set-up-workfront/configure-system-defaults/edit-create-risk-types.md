@@ -107,9 +107,9 @@ Du kan göra följande för att öka antalet risktyper i din Workfront-instans:
 
 1. Klicka på **[!UICONTROL Save Changes].**
 
-1. (Valfritt) Om du vill ta bort en risktyp markerar du den i listan, klickar på ikonen [!UICONTROL **Ta bort**] ![Ta bort ](assets/delete.png) och sedan på [!UICONTROL **Ja, ta bort den**] . Risktypen tas bort och kan inte återfås.
+1. (Valfritt) Om du vill ta bort en risktyp markerar du den i listan, klickar på ikonen [!UICONTROL **Ta bort**] ![Ta bort &#x200B;](assets/delete.png) och sedan på [!UICONTROL **Ja, ta bort den**] . Risktypen tas bort och kan inte återfås.
 
-1. (Valfritt) Om du vill exportera en lista med risktyper klickar du på ikonen [!UICONTROL **Exportera**] ![Exportera ](assets/export-icon.png) . Du kan exportera till följande filtyper:
+1. (Valfritt) Om du vill exportera en lista med risktyper klickar du på ikonen [!UICONTROL **Exportera**] ![Exportera &#x200B;](assets/export-icon.png) . Du kan exportera till följande filtyper:
 
    * PDF
    * Excel
@@ -150,7 +150,7 @@ Du kan skapa risktyper, förutom de som är standard.
 
    >[!TIP]
    >
-   >Om du vill redigera en anpassad risktyp läser du avsnittet [[!UICONTROL Edit existing] risktyper ](#edit-existing-risk-types) i den här artikeln.
+   >Om du vill redigera en anpassad risktyp läser du avsnittet [[!UICONTROL Edit existing] risktyper &#x200B;](#edit-existing-risk-types) i den här artikeln.
 
 ## Bifoga risker med risktyper i projekt
 

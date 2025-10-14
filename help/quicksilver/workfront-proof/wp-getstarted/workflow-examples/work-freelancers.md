@@ -37,7 +37,7 @@ Mer information om hur du lägger till en frilansare i ditt team finns i [Skapa 
 
 >[!NOTE]
 >
->Frilansare som har lagts till i ditt konto som användare kommer att ha synlighet i ditt konto och kan även se klientinformation (beroende på deras användarprofil). Det här kanske inte är vad du vill, så det kanske är bättre att konfigurera ett satellitkonto för dina frilansare. Se [Konfigurera ett satellitkonto för dina frilansare](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) nedan.
+>Frilansare som har lagts till i ditt konto som användare kommer att ha synlighet i ditt konto och kan även se klientinformation (beroende på deras användarprofil). Det här kanske inte är vad du vill, så det kanske är bättre att konfigurera ett satellitkonto för dina frilansare. Se [Konfigurera ett satellitkonto för dina frilansare](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) nedan.
 
 ## Konfigurera ett satellitkonto för dina frilansare
 

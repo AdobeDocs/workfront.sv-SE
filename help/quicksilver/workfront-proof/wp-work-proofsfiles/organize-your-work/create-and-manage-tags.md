@@ -76,7 +76,7 @@ Mer information om de här profilerna och behörigheterna finns i [Proof Permiss
 1. Markera det eller de objekt du vill skapa eller hantera taggar för i en listvy eller på kontrollpanelen.
 1. Klicka på **[!UICONTROL Tags]** > **[!UICONTROL Manage Tags]** precis ovanför listan.
 
-1. På fliken [!UICONTROL Tags] som visas hanterar du taggarna enligt beskrivningen ovan i [Skapa, redigera eller ta bort en flik.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. På fliken [!UICONTROL Tags] som visas hanterar du taggarna enligt beskrivningen ovan i [Skapa, redigera eller ta bort en flik.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    En tagg används för alla markerade objekt när kryssrutan bredvid taggen är mörkgrå. Om det är ljusgrått taggas endast vissa av objekten i en markerad grupp med den. Om du vill ta bort en tagg från alla markerade objekt kontrollerar du att kryssrutan bredvid taggen är tom.\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

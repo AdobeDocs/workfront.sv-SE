@@ -109,7 +109,7 @@ Mer information om hur du skapar och använder filter i Arbetsbelastningsutjämn
 
    * Få sin&quot;Time Off&quot;-kalender uppdaterad i sin profil.
 
-     Mer information om hur du uppdaterar en användares Tid utanför kalendern finns i [Konfigurera personlig tid för ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Mer information om hur du uppdaterar en användares Tid utanför kalendern finns i [Konfigurera personlig tid för &#x200B;](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   

@@ -127,7 +127,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
      </td>  <td> </td> 
    <td> </td> 

@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Ett [!UICONTROL Proof Made]-e-postmeddelande skickas endast till den som skapade korrekturet när han eller hon har skapat ett bevis. Om en person har skapat ett bevis och gjort en annan person till ägare, får endast den nya ägaren e-postmeddelandet [!UICONTROL Proof made]. Skaparen och/eller ägaren får ingen; de får bara e-postmeddelandet [!UICONTROL Proof Made]. Mer information om e-postmeddelandet [!UICONTROL New Proof] finns i [[!UICONTROL New proof] email ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+Ett [!UICONTROL Proof Made]-e-postmeddelande skickas endast till den som skapade korrekturet när han eller hon har skapat ett bevis. Om en person har skapat ett bevis och gjort en annan person till ägare, får endast den nya ägaren e-postmeddelandet [!UICONTROL Proof made]. Skaparen och/eller ägaren får ingen; de får bara e-postmeddelandet [!UICONTROL Proof Made]. Mer information om e-postmeddelandet [!UICONTROL New Proof] finns i [[!UICONTROL New proof] email &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 Användare kan inaktivera [!UICONTROL Proof Made]-e-post i sina profilinställningar enligt nedan.
 

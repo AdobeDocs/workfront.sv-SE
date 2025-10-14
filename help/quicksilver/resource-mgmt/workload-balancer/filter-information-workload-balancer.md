@@ -209,7 +209,7 @@ Du kan skapa ett filter från grunden eller redigera något av de fördefinierad
       >
       >![Filtersats för projektstatus](assets/project-status-filter.png)
 
-   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort ett filtervillkor.
+   1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort ett filtervillkor.
 
 1. (Valfritt) Klicka på **Lägg till filter** för att lägga till ytterligare filtervillkor och upprepa sedan åtgärderna från steg 4.
 
@@ -282,7 +282,7 @@ Du kan redigera ett sparat filter i Utjämning av arbetsbelastning.
 
    Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat** eller **Tilldelat arbete** . Filterverktyget visas till höger.
+1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) i det övre högra hörnet av områdena **Ej tilldelat** eller **Tilldelat arbete** . Filterverktyget visas till höger.
 
 1. För musen över det filter som du vill redigera och klicka sedan på ikonen **Redigera** ![Redigera filterikon](assets/wb-edit-filter-icon.png) .
 
@@ -290,7 +290,7 @@ Du kan redigera ett sparat filter i Utjämning av arbetsbelastning.
 
    * Ändra någon av filtersatserna.
    * Klicka på **Lägg till filter** för att lägga till nya filtersatser.
-   * Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort befintliga filtersatser.
+   * Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort befintliga filtersatser.
 
 1. (Valfritt) Klicka på **Använd**. Resultaten uppdateras i Utjämning av arbetsbelastning till vänster för att illustrera de ändringar du har gjort i filtret.
 

@@ -137,7 +137,7 @@ Mer information om hur den tidszon som har konfigurerats i schemat påverkar dis
 
 Du kan använda en serie beräknade anpassade fält i ett anpassat formulär för att visa den aktuella tiden för användare i organisationen, som en rad med flygplatsklockor som visar tiden i flera städer. Du kan skapa ett fält för var och en av de tidszoner där dina användare arbetar, där varje fält beräknar tiden för tidszonen.
 
-Mer information finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md), samt i avsnittet [Anpassade fält för datum och tid ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) i artikeln [Översikt över beräknade datamängder](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Mer information finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md), samt i avsnittet [Anpassade fält för datum och tid &#x200B;](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) i artikeln [Översikt över beräknade datamängder](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Använd textfält i stället för datumfält i ett anpassat formulär {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

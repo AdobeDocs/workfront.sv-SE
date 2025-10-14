@@ -53,7 +53,7 @@ För att införliva en del av den feedback vi fått från dig har vi förbättra
 
 Mer information om hur du lägger till och redigerar resultat finns i följande artiklar:
 
-* [Lägg till resultat i mål i Adobe Workfront ](../../../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../../../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Redigera resultat och aktiviteter i Adobe Workfront-mål](../../../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 ## Omdesignat avsnitt för måljustering

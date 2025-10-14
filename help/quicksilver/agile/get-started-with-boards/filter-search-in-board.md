@@ -28,7 +28,7 @@ När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går int
 
 Genom att söka kan du även hitta ett visst kort på kortet.
 
-När filter används visas en indikator på ![ritytan ](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
+När filter används visas en indikator på ![ritytan &#x200B;](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
 
 ![Panelen Filter](assets/boards-all-filters-collapsed-0823.png)
 

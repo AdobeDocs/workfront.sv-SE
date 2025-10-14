@@ -40,7 +40,7 @@ Tänk på följande när du arbetar med ekonomi i [!UICONTROL Portfolio Optimize
 
 * Alla projekt får ett poängvärde när deras [!UICONTROL Business Cases] slutförs enligt vilka kriterier de matchar i [!UICONTROL Portfolio Optimizer]. Låga eller höga justeringsprojekt får till exempel högre poäng.
 
-  Mer information om hur du beräknar portföljoptimeringspoängen för ett projekt finns i [Översikt över [!UICONTROL Portfolio Optimizer] bakgrundsmusiken ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+  Mer information om hur du beräknar portföljoptimeringspoängen för ett projekt finns i [Översikt över [!UICONTROL Portfolio Optimizer] bakgrundsmusiken &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
 * De ekonomiska beräkningarna för [!UICONTROL Portfolio Optimizer] använder [!UICONTROL Budgeted Cost] i [!UICONTROL Business Case] för projektet.
 * Du kan prioritera dina projekt i [!UICONTROL Portfolio Optimizer] manuellt, med hänsyn tagen till all information om dem. Detta inkluderar till exempel ekonomiska data, anpassning till deras styrkort och avkastning.

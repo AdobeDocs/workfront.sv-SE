@@ -41,7 +41,7 @@ Det här avsnittet innehåller följande artiklar:
 
 * [Kom igång med resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
 * [Lägg till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Lägg till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Lägg till projekt i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
 * [Redigera resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 * [Ta bort resultat, aktiviteter och projekt från mål i Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

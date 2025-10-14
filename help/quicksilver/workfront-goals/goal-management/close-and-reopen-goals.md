@@ -146,7 +146,7 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    Mållistan öppnas.
 
@@ -212,7 +212,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png)> **Mål** i det övre högra hörnet.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png)> **Mål** i det övre högra hörnet.
 
    Mållistan öppnas.
 

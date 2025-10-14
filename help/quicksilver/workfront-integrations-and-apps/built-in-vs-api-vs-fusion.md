@@ -76,7 +76,7 @@ Fördelar med att använda API:t [!DNL Workfront] kan vara följande:
 >https://`<your domain>`.workfront.com/attask/api-internal/note?noteText=<text of comment>&noteObjCode=TASK&objID=<task ID>&apiKey=<your API key>
 >```
 
-Mer information om API:t [!DNL Workfront] finns i [Grunderna i API ](../wf-api/general/api-basics.md).
+Mer information om API:t [!DNL Workfront] finns i [Grunderna i API &#x200B;](../wf-api/general/api-basics.md).
 
 Mer information om händelseprenumerationer finns i [API för händelseprenumeration](../wf-api/general/event-subs-api.md).
 

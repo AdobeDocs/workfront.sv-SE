@@ -83,7 +83,7 @@ Information om hur du installerar [!DNL Workfront for Microsoft Teams] och logga
 
    Den nya personliga aktiviteten skapas i [!DNL Workfront]. Ett [!UICONTROL Reference Number] har tilldelats det och är synligt på kortet [!UICONTROL new task].
 
-   Mer information om referensnummer finns i avsnittet [[!UICONTROL Reference Numbers] av objekt ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) i artikeln [Förstå objekt i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Mer information om referensnummer finns i avsnittet [[!UICONTROL Reference Numbers] av objekt &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) i artikeln [Förstå objekt i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Valfritt) Klicka på **[!UICONTROL Edit]** om du vill redigera aktivitetsinformationen ytterligare.
 1. (Valfritt) Klicka på **[!UICONTROL View in [!DNL Workfront]]** om du vill öppna uppgiften på en ny flik i [!DNL Workfront] och redigera aktiviteten ytterligare, flytta den till ett projekt eller tilldela den till någon annan.

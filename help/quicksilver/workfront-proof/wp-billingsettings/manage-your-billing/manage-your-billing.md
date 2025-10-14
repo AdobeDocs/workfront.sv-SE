@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Faktureringssidan för [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+* [Faktureringssidan för [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
 * [Välja betalningsmetod i  [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
 * [Hämtar din  [!DNL Workfront Proof] faktura](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)

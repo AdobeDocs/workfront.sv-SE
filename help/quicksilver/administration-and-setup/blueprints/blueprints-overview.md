@@ -82,7 +82,7 @@ Varje plan innehåller en informationssida. Från den här sidan kan du:
 * Se beskrivningar av roller, team, företag och grupper
 * Se ett visuellt exempel på en viss plan, t.ex. en projektmall (du kan förhandsvisa hela bilden i webbläsaren eller hämta den)
 
-![[!UICONTROL Blueprint Details] sida ](assets/blueprint-details-page-2022.png)
+![[!UICONTROL Blueprint Details] sida &#x200B;](assets/blueprint-details-page-2022.png)
 
 ## Installera en plan
 

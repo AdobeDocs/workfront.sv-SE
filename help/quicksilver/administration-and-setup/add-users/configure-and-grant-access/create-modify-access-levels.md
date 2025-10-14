@@ -76,11 +76,11 @@ Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på **K
 
    * <span class="preview">I förhandsvisningsmiljön:</span>
 
-     <span class="preview">Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på ikonen **Kopiera** ![Kopiera ](assets/copy-icon.png) . </span>
+     <span class="preview">Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på ikonen **Kopiera** ![Kopiera &#x200B;](assets/copy-icon.png) . </span>
 
      <span class="preview">eller </span>
 
-     <span class="preview">Om du redigerar en befintlig åtkomstnivå väljer du åtkomstnivå genom att klicka i rutan till vänster om åtkomstnivån och klickar sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) . </span>
+     <span class="preview">Om du redigerar en befintlig åtkomstnivå väljer du åtkomstnivå genom att klicka i rutan till vänster om åtkomstnivån och klickar sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) . </span>
 
 1. I rutan som visas gör du något av följande för att börja konfigurera den anpassade åtkomstnivån:
 

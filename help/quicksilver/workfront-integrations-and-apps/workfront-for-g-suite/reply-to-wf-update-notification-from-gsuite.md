@@ -62,7 +62,7 @@ Innan du kan skapa en [!DNL Workfront]-uppgift i [!DNL Google Workspace] måste 
 
 ## Svara på ett uppdateringsmeddelande från [!DNL Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Öppna e-postmeddelandet [!DNL Workfront] som innehåller uppdateringen.
 1. Långt ned på panelen [!UICONTROL Workfront for Google Workspace] klickar du på **[!UICONTROL Post a comment]** och skriver in ditt svar.
 1. (Valfritt) Om du vill meddela vissa användare om ditt svar klickar du på **[!DNL Notify people and teams]**, börjar skriva ett namn och klickar sedan på namnet när det visas i listrutan.

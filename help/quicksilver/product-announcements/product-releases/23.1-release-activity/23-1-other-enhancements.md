@@ -33,7 +33,7 @@ Administratörer kan även [skapa ett paket med plugin-program](https://helpx.ad
 
 ## Förbättrad filterupplevelse som är allmänt tillgänglig i Adobe Workfront
 
-En uppgradering av filterupplevelsen släpptes till allmän betaversion av projekt-, uppgifts- och utfärdandelistor i augusti 2022. De flesta listorna innehåller nu de förbättrade filtren. (Om du vill granska alla dessa listor läser du versionsinformationen om [23.1-uppdateringar ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+En uppgradering av filterupplevelsen släpptes till allmän betaversion av projekt-, uppgifts- och utfärdandelistor i augusti 2022. De flesta listorna innehåller nu de förbättrade filtren. (Om du vill granska alla dessa listor läser du versionsinformationen om [23.1-uppdateringar &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
 
 Som en&quot;snabb uppföljning&quot; av version 23.1 kommer den förbättrade filterupplevelsen att vara allmänt tillgänglig och bli standardfilterskapare i tidsperioden februari/mars 2023.
 

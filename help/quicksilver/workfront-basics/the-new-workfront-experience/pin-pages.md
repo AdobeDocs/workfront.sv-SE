@@ -77,7 +77,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 ## Byta namn på en fäst sida
 
 1. Hovra över den fästa sidan i den övre navigeringen.
-1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) som visas bredvid stiftets namn och välj **[!UICONTROL Rename pin]**.
+1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) som visas bredvid stiftets namn och välj **[!UICONTROL Rename pin]**.
 
    ![Byt namn på stiftet](assets/pin-menu.png)
 

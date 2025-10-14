@@ -21,7 +21,7 @@ Läs följande artiklar om hur du felsöker tips och svar på vanliga frågor:
 * [Snabbguide till hur du hittar hjälp i  [!DNL Adobe Workfront]](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
 * [The [!DNL Adobe Workfront] Community](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-* [Statuswebbplatsen  [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+* [Statuswebbplatsen  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 * [[!UICONTROL Innovation Lab]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [Arbeta över tidszoner](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [[!DNL Workfront] [!UICONTROL Proof Manager] behörigheter felsökning](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)

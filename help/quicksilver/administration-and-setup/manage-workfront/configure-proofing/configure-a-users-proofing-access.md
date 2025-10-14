@@ -131,7 +131,7 @@ Du kan ge alla användare åtkomst till Workfront Proof-knappen på Workfront hu
 
 ## Konfigurera användaråtkomst till Desktop Proofing Viewer
 
-Om användarna i din organisation föredrar att använda Desktop Proofing Viewer istället för Web Proofing Viewer för att granska interaktivt innehåll, kan du konfigurera Desktop Proofing Viewer så att den startas automatiskt när användare öppnar interaktiva innehållskorrektur. Information om detta i Desktop Proofing Viewer och om hur det skiljer sig från Web Proofing Viewer finns i [Förstå Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) och [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer ](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Om användarna i din organisation föredrar att använda Desktop Proofing Viewer istället för Web Proofing Viewer för att granska interaktivt innehåll, kan du konfigurera Desktop Proofing Viewer så att den startas automatiskt när användare öppnar interaktiva innehållskorrektur. Information om detta i Desktop Proofing Viewer och om hur det skiljer sig från Web Proofing Viewer finns i [Förstå Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) och [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 1. I Workfront klickar du på Workfront Proof-ikonen i det globala navigeringsfältet för att komma åt Workfront Proof.
 

@@ -19,5 +19,5 @@ ht-degree: 0%
 * [Aktivitetsöversikt för version 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
 * [2019.1 Projektförbättringar](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
 * [2019.1 Resurshanteringsförbättringar](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-* [Förbättringar av korrektur 2019.1 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
+* [Förbättringar av korrektur 2019.1 &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
 * [2019.1 Förbättringar av mobiler och integrering](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)

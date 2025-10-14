@@ -73,7 +73,7 @@ Om du är [!DNL Adobe Admin Console]-administratör kan du inkludera plugin-prog
 
 Du kan installera plugin-programmet [!DNL Adobe Workfront for Photoshop] själv från [!DNL Adobe Exchange].
 
-1. Gå till installationssidan för [Adobe Workfront för Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) på Adobe Exchange.
+1. Gå till installationssidan för [Adobe Workfront för Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) på Adobe Exchange.
 1. Klicka på **Öppna [!DNL Adobe Creative Cloud] skrivbordsapp** i den dialogruta som visas.
 1. När plugin-hanteraren för [!DNL Adobe Photoshop] öppnas klickar du på **[!UICONTROL Install]**.
 1. Läs informationen i dialogrutan och klicka sedan på **[!UICONTROL OK]**.

@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till den arbetsuppgift där du vill överföra ett dokument.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. (Valfritt) Skriv en kommentar i området **[!UICONTROL Updates]**.

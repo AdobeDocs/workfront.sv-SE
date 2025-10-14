@@ -205,7 +205,7 @@ Beskrivning av posttypen visas på kortet.
 1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer meny](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** för att ändra information om posttypen.
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
-   ![Posttypen för operativt ](assets/operational-record-type-blank.png) är tom
+   ![Posttypen för operativt &#x200B;](assets/operational-record-type-blank.png) är tom
 
    Posttypssidan visas som standard i tabellvyn. Kolumnerna i tabellen är fält som är kopplade till den nya posttypen. Varje rad är en unik post som du måste lägga till.
 

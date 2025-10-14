@@ -33,7 +33,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Översikt över aktiviteten Planerat slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Aktivitetens leveransdatum - översikt](../../../manage-work/tasks/task-information/handoff-task-date.md)
 * [Aktivitet, Slack - översikt](../../../manage-work/tasks/task-information/task-slack-date.md)
-* Översikt över [ Kan starta för aktiviteter ](../../../manage-work/tasks/task-information/can-start-task-overview.md)
+* Översikt över [&#x200B; Kan starta för aktiviteter &#x200B;](../../../manage-work/tasks/task-information/can-start-task-overview.md)
 * [Ange spårningsläge för aktiviteter](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Uppdatera nivåfördröjning för aktivitet](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [Uppdatera uppgiftskostnadstyp](../../../manage-work/tasks/task-information/update-task-cost-type.md)

@@ -71,7 +71,7 @@ Den ordning i vilken tidsplanerna används av systemet när det finns fler än e
    * Schemat för den användare som är tilldelad uppgiften
    * Det schema som är associerat med projektet.
 
-     Mer information om personlig tid finns i [Konfigurera personlig tid ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Mer information om personlig tid finns i [Konfigurera personlig tid &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * När flera användare har tilldelats en uppgift och användarna har olika scheman under aktivitetens tidsram, använder [!DNL Workfront] någon av följande scheman, enligt definitionen i [!UICONTROL Project Preferences]-området i [!UICONTROL Setup]:
 

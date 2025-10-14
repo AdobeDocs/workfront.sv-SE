@@ -95,7 +95,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Document]** ![ Dokument ](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett dokument för att visa:
+1. Klicka på ikonen **[!UICONTROL Document]** ![&#x200B; Dokument &#x200B;](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett dokument för att visa:
 
    * [!UICONTROL Description]
    * [!UICONTROL File Type]
@@ -116,7 +116,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Document]** ![ Dokument ](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
+1. Klicka på ikonen **[!UICONTROL Document]** ![&#x200B; Dokument &#x200B;](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
 
 1. Klicka på pilikonen i det övre högra hörnet av miniatyrbilden för att öppna korrekturinformationen i [!DNL Workfront].
 
@@ -134,7 +134,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Document]** ![ Dokument ](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
+1. Klicka på ikonen **[!UICONTROL Document]** ![&#x200B; Dokument &#x200B;](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
 
 1. Rulla längst ned för att visa korrekturets aktuella status. Mer information om skickade, öppnade, kommentarer, beslut (SOCD) finns i [Översikt över dokumentinformation](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
@@ -152,7 +152,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på ikonen **[!UICONTROL Issue]** ![Problem ](assets/issues.png) eller **Underaktivitet** ![Underaktivitet](assets/subtasks.png).
+1. Klicka på ikonen **[!UICONTROL Issue]** ![Problem &#x200B;](assets/issues.png) eller **Underaktivitet** ![Underaktivitet](assets/subtasks.png).
 
 1. Markera uppgiften eller problemet och klicka sedan på ikonen **[!UICONTROL Details]** ![Detaljer](assets/details.png) i navigeringsfältet för att visa:
 

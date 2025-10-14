@@ -190,7 +190,7 @@ Du kan göra en undergrupp till en grupp på den översta nivån genom att ta bo
 {{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![Grupper](assets/groups-icon.png) i den vänstra panelen.
-1. Markera den överordnade gruppen för den undergrupp som du vill skapa en grupp på den översta nivån och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+1. Markera den överordnade gruppen för den undergrupp som du vill skapa en grupp på den översta nivån och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 1. I rutan **Redigera grupp** som visas börjar du skriva namnet på den undergrupp som du vill skapa en grupp på den översta nivån i fältet **Sök** (under **Gruppmedlemmar och gruppadministratörer**) och klickar sedan på krysset till höger om namnet när det visas.
 1. Klicka på **Spara**.
 

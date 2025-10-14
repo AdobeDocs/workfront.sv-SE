@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Ladda ned en provversion
 
 1. Klicka på korrekturet i dokumentlistan.
-1. Klicka på menyn Mer ![Mer ](assets/more-icon.png) till höger om versionen under **Versioner** i Sammanfattning och klicka sedan på **Hämta** i listrutan som visas.
+1. Klicka på menyn Mer ![Mer &#x200B;](assets/more-icon.png) till höger om versionen under **Versioner** i Sammanfattning och klicka sedan på **Hämta** i listrutan som visas.
 
    ![Hämta en version](assets/more-versions-350x143.png)
 

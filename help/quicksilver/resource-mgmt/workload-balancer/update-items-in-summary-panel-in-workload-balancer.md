@@ -97,4 +97,4 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Mer information om hur du uppdaterar information med Sammanfattning finns i [Sammanfattningsöversikt](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Villkorligt) Om du öppnade något av avsnitten i arbetsobjektet klickar du på webbläsarens **Tillbaka** för att återgå till arbetsbelastningsutjämnaren.
-1. Klicka på ikonen **Stäng** ![Stäng ](assets/close-icon.png) i det övre högra hörnet av sammanfattningen för att stänga den.
+1. Klicka på ikonen **Stäng** ![Stäng &#x200B;](assets/close-icon.png) i det övre högra hörnet av sammanfattningen för att stänga den.

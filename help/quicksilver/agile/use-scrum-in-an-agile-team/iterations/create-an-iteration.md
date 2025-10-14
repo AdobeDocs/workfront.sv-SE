@@ -155,7 +155,7 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
 
    >[!NOTE]
    >
-   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+   >  När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration &#x200B;](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
 
 ## Förstå hur startdatum för aktiviteter beräknas när de läggs till i en iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}

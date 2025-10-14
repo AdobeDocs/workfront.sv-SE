@@ -307,4 +307,4 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 > 
 >Om din organisation har migrerats till Adobe Admin Console och en användare inte går ut ur statusen Inaktiverat och Väntande godkännande inom några minuter, kan du lägga till gruppen med användare direkt till Adobe Admin Console.
 >
->Instruktioner finns i [Hantera flera användare | Massöverföring av CSV ](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.
+>Instruktioner finns i [Hantera flera användare | Massöverföring av CSV &#x200B;](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) i Adobe-dokumentationen.

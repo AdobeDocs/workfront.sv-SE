@@ -117,7 +117,7 @@ Så här filtrerar du ditt arbete:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Filter** ![Filtrera ](assets/filter-nwepng.png) i det övre högra hörnet av widgetens arbetslista.
+1. Klicka på ikonen **Filter** ![Filtrera &#x200B;](assets/filter-nwepng.png) i det övre högra hörnet av widgetens arbetslista.
 1. Välj ett **föreslaget**-filter eller ett filter som du har skapat.
 Mer information om föreslagna filter finns i [Översikt över filter för hemwidget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Valfritt) Aktivera **Staplingsfilter** om du vill välja flera filteralternativ.
@@ -144,7 +144,7 @@ Så här grupperar du din arbetslista:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Grupp** ![Gruppera ](assets/group-icon.png) i det övre högra hörnet av widgetens arbetslista.
+1. Klicka på ikonen **Grupp** ![Gruppera &#x200B;](assets/group-icon.png) i det övre högra hörnet av widgetens arbetslista.
 1. Välj en **föreslagen** gruppering eller en gruppering som du har skapat.
    ![Gruppering utökad](assets/grouping-expanded.png)
 
@@ -166,9 +166,9 @@ Du kan välja vilka kolumner som ska visas i widgetens arbetslista:
    | Mina förfrågningar | Visar alla begäranden som du har skickat in |
    | Mina godkännanden | Visar alla väntande, tilldelade, delegerade och inskickade godkännanden |
 
-1. Klicka på ikonen **Kolumn** ![Kolumn ](assets/column-icon.png) i det övre högra hörnet i widgetens arbetslista.
+1. Klicka på ikonen **Kolumn** ![Kolumn &#x200B;](assets/column-icon.png) i det övre högra hörnet i widgetens arbetslista.
 1. Aktivera och inaktivera kolumnerna beroende på dina inställningar.
-1. (Valfritt) Klicka på ikonen **Dra** ![Dra ikonen ](assets/drag-icon.png) för att ändra ordning på kolumnerna.
+1. (Valfritt) Klicka på ikonen **Dra** ![Dra ikonen &#x200B;](assets/drag-icon.png) för att ändra ordning på kolumnerna.
    ![Kolumner utökade](assets/columns-expanded.png)
 
 

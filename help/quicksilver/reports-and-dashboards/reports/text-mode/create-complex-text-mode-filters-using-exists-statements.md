@@ -84,7 +84,7 @@ Tänk på följande regler när du använder EXISTS-programsatser i ett filter:
 
 * När ett länkat objekt saknas på grund av att det ursprungliga objektet och målobjektet är direktanslutna kan du använda objektkoden för målobjektet i stället för det länkade objektet.
 * Du kan referera till flera fält (målfält) på samma objekt (målobjekt), och då måste du koppla ihop de rader som refererar till fälten med AND.\
-  Ett exempel på filtrering av mer än ett fält som tillhör målobjektet finns i avsnittet [Exempel 4: Filtrera efter flera fält: uppgifter efter Portfolio ägarnamn och Portfolio justeringsstyrkortets ID ](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) i den här artikeln.
+  Ett exempel på filtrering av mer än ett fält som tillhör målobjektet finns i avsnittet [Exempel 4: Filtrera efter flera fält: uppgifter efter Portfolio ägarnamn och Portfolio justeringsstyrkortets ID &#x200B;](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) i den här artikeln.
 
 * Den enda modifierare som stöds för en EXISTS-sats är NOTEXISTS.
 

@@ -18,5 +18,5 @@ ht-degree: 0%
 * [Visa information om arbetsobjekt med  [!DNL Adobe Workfront] plugin-programmet](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
 * [Uppdatera ditt arbete med  [!DNL Adobe Workfront] plugin-programmet](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
 * [Markera arbetsobjekt som slutförda med  [!DNL Adobe Workfront] plugin-programmet](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-* [Loggtid med plugin-programmet  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+* [Loggtid med plugin-programmet  [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
 * [Visa och hantera [!DNL Adobe Workfront] meddelanden från [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)

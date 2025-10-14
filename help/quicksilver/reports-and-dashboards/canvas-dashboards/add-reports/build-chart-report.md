@@ -123,7 +123,7 @@ Det finns många konfigurationsalternativ för att skapa en diagramrapport. I de
 
 1. Följ stegen nedan för att konfigurera avsnittet **Filter**:
 
-   1. Klicka på ikonen **Filter**![ Filter](assets/filter-icon.png) i den vänstra panelen.
+   1. Klicka på ikonen **Filter**![&#x200B; Filter](assets/filter-icon.png) i den vänstra panelen.
    1. Välj **Redigera filter**.
    1. Klicka på **Lägg till villkor** och ange sedan fältet som du vill filtrera efter och modifieraren som definierar vilken typ av villkor som fältet måste uppfylla.
    1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är AND. Klicka på operatorn för att ändra den till ELLER.

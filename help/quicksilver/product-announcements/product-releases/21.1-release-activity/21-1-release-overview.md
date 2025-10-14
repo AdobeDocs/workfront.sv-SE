@@ -392,7 +392,7 @@ Läs mer om ersättningslösningar för varje specifikt Flash-baserat verktyg i 
 
 ### 21.1 Release Webinar {#21-1-release-webinar}
 
-Workfront 21.1 Release Webinar presenteras den 3 februari kl. 11.00 EDT / kl. 17.00 BST. Registrera dig för webbinariet [här](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register).
+Workfront 21.1 Release Webinar presenteras den 3 februari kl. 11.00 EDT / kl. 17.00 BST. Registrera dig för webbinariet [här](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Ändringar i förhandsgranskningsversionsstatus {#change-in-preview-release-cadence}
 

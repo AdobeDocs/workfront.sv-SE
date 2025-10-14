@@ -68,7 +68,7 @@ Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra v
 ## Redigera en smart mapp 
 
 1. Gå till området **Dokument** som innehåller den smarta mappen som du vill redigera.
-1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![Mer ](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
+1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
 1. Klicka på **Redigera**.
 
 1. Gör ändringarna och klicka sedan på **Spara mapp**.

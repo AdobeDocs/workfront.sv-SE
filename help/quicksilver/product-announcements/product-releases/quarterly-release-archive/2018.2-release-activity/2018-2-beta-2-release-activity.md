@@ -43,7 +43,7 @@ När du nu markerar ett objekt i området Hem kan du redigera fält som är kopp
 
 Före den här ändringen gick det bara att visa information i hemområdet, inte redigerad.
 
-Mer information finns i [Uppdatera eller redigera ett arbetsobjekt i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) i artikeln  [Uppdatera eller redigera ett arbetsobjekt i hemområdet ](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+Mer information finns i [Uppdatera eller redigera ett arbetsobjekt i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) i artikeln  [Uppdatera eller redigera ett arbetsobjekt i hemområdet &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 
 ## Loggtid i dagar {#log-time-in-days}
 
@@ -90,7 +90,7 @@ Budgeterade timmar i utnyttjanderapporten fylls nu i från information som är t
 
 Före den här ändringen användes information från det tidigare området Resursberäkning.
 
-Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i artikeln  [Översikt över resursanvändningsrapporten ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
+Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i artikeln  [Översikt över resursanvändningsrapporten &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
 
 ## Användningsrapport: Visa budgeterade timmar per användare i ett projekt {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 

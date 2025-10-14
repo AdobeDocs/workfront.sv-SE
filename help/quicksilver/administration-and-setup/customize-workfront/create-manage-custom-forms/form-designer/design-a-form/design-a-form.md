@@ -71,7 +71,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    ![Välj objekttyp](assets/choose-object-type.jpg)
 
 1. Skriv den anpassade formulärtiteln i området **Lägg till ett formulärnamn**.
-1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt ](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
+1. (Valfritt) Om du vill lägga till fler objekttyper i formuläret så att det kan kopplas till fler objekt klickar du på ikonen **Lägg till** ![Lägg till objekt &#x200B;](assets/add-objects-icon.png) bredvid **Objekttyper** och väljer sedan önskad typ på menyn som visas. Du kan upprepa detta om du vill lägga till så många objekttyper som du vill.
 
    När du har lagt till mer än ett objekt i formuläret kan du klicka på X för en objekttyp för att ta bort det från formuläret.
 

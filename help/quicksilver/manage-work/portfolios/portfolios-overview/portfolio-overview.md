@@ -104,4 +104,4 @@ Vi rekommenderar att du följer dessa steg för att få en effektiv organisation
 
    Portfolio Managers kan spåra ekonomiska resultat i portföljen med hjälp av kontrollpanelen Portfolio. Kontrollpanelen visas i Portfolio sidhuvud.
 
-   Mer information om ett Portfolio finansfält finns i avsnittet [Förstå finansfält i optimeringsdelen för Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) i [Portfolio-optimeringsöversikten](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+   Mer information om ett Portfolio finansfält finns i avsnittet [Förstå finansfält i optimeringsdelen för Portfolio &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) i [Portfolio-optimeringsöversikten](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).

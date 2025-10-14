@@ -20,7 +20,7 @@ Dessa webbinarier fokuserade på funktionaliteten i R1-versionen. 
 
 R1-versionen är för närvarande tillgänglig för test i Preview, R1-versioner i produktionsmiljön den 26 april 2017.
 
-Mer detaljerad information om vilka funktioner som beskrivs i webbinarierna finns på sidan [Översikt över aktiviteten för version ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) av R1.
+Mer detaljerad information om vilka funktioner som beskrivs i webbinarierna finns på sidan [Översikt över aktiviteten för version &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) av R1.
 
 Följande webbinära inspelningar är tillgängliga:
 

@@ -75,7 +75,7 @@ Om du är [!DNL Adobe Admin Console]-administratör kan du inkludera plugin-prog
 
 Du kan installera plugin-programmet [!DNL Adobe Workfront for XD] själv från [!DNL Adobe Exchange].
 
-1. Gå till installationssidan för [Adobe Workfront för XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) på Adobe Exchange.
+1. Gå till installationssidan för [Adobe Workfront för XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share) på Adobe Exchange.
 1. Klicka på **Öppna [!DNL Adobe Creative Cloud] skrivbordsapp** i den dialogruta som visas.
 1. När plugin-hanteraren för [!DNL Adobe XD] öppnas klickar du på **[!UICONTROL Install]**.
 1. Läs informationen i dialogrutan och klicka sedan på **[!UICONTROL OK]**.

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla ändringar av Hem-förbättringar som gjorts i version 2019.3. Den gjordes tillgänglig i produktionsmiljön den 19 augusti 2019.
 
-En lista över alla ändringar som gjorts under 2019.3 finns i [Översikt över versionsaktiviteten för 2019.3 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.3 finns i [Översikt över versionsaktiviteten för 2019.3 &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Uppdateringar av utseendet och känslan i Home
 

@@ -61,7 +61,7 @@ Före den här ändringen kunde du inte se om en rapport är listad på en kontr
 
 Nu kan du filtrera innehållet som visas i en användningsrapport för ett projekt.
 
-Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i  [Översikt över resursanvändningsrapporten ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
+Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i  [Översikt över resursanvändningsrapporten &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
 
 ## Visa kostnadsinformation i användningsrapporten för ett projekt {#view-cost-information-in-the-utilization-report-on-a-project}
 
@@ -69,7 +69,7 @@ Nu kan du visa kostnadsinformation i användningsrapporten, förutom timinformat
 
 Före den här ändringen fanns endast timinformation tillgänglig i användningsrapporten.
 
-Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i  [Översikt över resursanvändningsrapporten ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
+Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i  [Översikt över resursanvändningsrapporten &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
 
 ## Prenumerera och avsluta abonnemang på objekt {#subscribing-and-unsubscribing-users-to-items}
 

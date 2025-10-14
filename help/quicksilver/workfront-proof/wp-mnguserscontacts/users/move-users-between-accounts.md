@@ -33,7 +33,7 @@ Om du är en [!DNL Workfront]-korrekturadministratör och har ett eller flera sa
 1. Välj ett målkonto i listan med anslutna konton (2).
 1. Tilldela profilbehörigheten (3) som den här användaren ska ha på det nya kontot.
 1. Välj en användare (4) som ska överta ägarskapet för de objekt som inte ska flyttas.
-Detta inkluderar de objekt som du kommer att lämna på det gamla kontot och de objekt som inte kan flyttas (se [Objekt som inte kan flyttas](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) nedan).
+Detta inkluderar de objekt som du kommer att lämna på det gamla kontot och de objekt som inte kan flyttas (se [Objekt som inte kan flyttas](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) nedan).
 
 1. Markera kryssrutorna om du vill flytta korrektur (5) och filer (6) tillsammans med användaren.
 1. Skapa ett namn för mappen (7) där alla flyttade objekt placeras på det nya kontot.

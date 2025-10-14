@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till arbetsuppgiften där du vill överföra ett statiskt korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Markera de ritytor som du vill överföra.
@@ -152,7 +152,7 @@ Du kan skapa ett interaktivt korrektur för ritytorna med plugin-programmet [!DN
    ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till arbetsuppgiften där du vill ladda upp ett interaktivt korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Aktivera **[!UICONTROL Create a Proof]**.
@@ -206,7 +206,7 @@ Du kan överföra en ny version av ett korrektur. Plugin-programmet kommer ihåg
    ![Menyikon](assets/menu-350x440.png)
 
 1. Gå till den arbetsuppgift som du behöver överföra ett dokument till.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New Version]** längst ned i plugin-programmet.
 1. Aktivera **[!UICONTROL Create a Proof]**.

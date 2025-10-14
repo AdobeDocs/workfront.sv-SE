@@ -90,7 +90,7 @@ Du kan installera ditt paket i följande miljöer:
 1. (Valfritt) Klicka på **[!UICONTROL Details]** om du vill veta hur ritningen fungerar.
 1. Klicka på **[!UICONTROL Install]**.
 1. Välj om du vill installera i din produktionsmiljö eller i en sandlådemiljö.\
-   Mer information finns i [Var ska jag installera en plan?avsnittet ](#where-should-i-install-a-blueprint) i den här artikeln.
+   Mer information finns i [Var ska jag installera en plan?avsnittet &#x200B;](#where-should-i-install-a-blueprint) i den här artikeln.
 1. På sidan **Konfigurera** kan du göra något av följande:
 
    * Installera ritningen som den är. För ritningstyper som inte kräver någon konfiguration är detta det enda alternativet. För ritningstyper som behöver konfigureras kan du välja att installera ritningen nu och konfigurera den senare. Klicka på **[!UICONTROL Install as is]**.

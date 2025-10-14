@@ -25,6 +25,6 @@ Det här avsnittet innehåller följande artiklar:
 * [Exportera data från Adobe Workfront via Quick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
 * [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
 * [Startar dataimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
-* [Kickstartscenario: Förberedelser för företag, grupp, roll och användare startas ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
-* [Snabb start-scenario: enkel import av projekt och uppgifter ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
+* [Kickstartscenario: Förberedelser för företag, grupp, roll och användare startas &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+* [Snabb start-scenario: enkel import av projekt och uppgifter &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
 * [Frågor och svar om snabbstart](../../../administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)

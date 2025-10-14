@@ -54,7 +54,7 @@ Mer detaljerad information om de ändringar vi gör i vår versionsprocess finns
 
 ## Förbättringar av resursplanering {#resource-scheduling-enhancements}
 
-* [Hantera användarallokeringar på tidslinjen ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#manage-user-allocations-on-the-scheduling-timeline)
+* [Hantera användarallokeringar på tidslinjen &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#manage-user-allocations-on-the-scheduling-timeline)
 * [Förbättringar av resursplanering](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#resource-scheduling-enhancements)
 * [Användarallokeringar är inaktiverade som standard](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#user-allocations-are-disabled-by-default)
 

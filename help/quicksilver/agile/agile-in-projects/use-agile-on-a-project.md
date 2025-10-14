@@ -16,4 +16,4 @@ ht-degree: 0%
 
 # Använd flexibel i ett projekt
 
-Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet, skapa iterationer och så vidare). Mer information finns i [Hantera ett projekt i [!UICONTROL Agile] vyn ](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Du kan använda smidiga funktioner i ditt projekt utan de administrativa utmaningar som vanligtvis följer med flexibla rutiner (som att hantera en eftersläpning i teamet, skapa iterationer och så vidare). Mer information finns i [Hantera ett projekt i [!UICONTROL Agile] vyn &#x200B;](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

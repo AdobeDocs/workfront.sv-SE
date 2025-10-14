@@ -86,7 +86,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 1. Gör något av följande:
 
    1. Gå till rapporten och klicka sedan på **Rapportåtgärder** > **Redigera** > **Kolumner (vy)** för att få åtkomst till vyn från en rapport.
-   1. Om du vill få åtkomst till vyn från en lista går du till listan och från listrutan **Visa** håller du musen över den vy du vill ändra och klickar på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) .
+   1. Om du vill få åtkomst till vyn från en lista går du till listan och från listrutan **Visa** håller du musen över den vy du vill ändra och klickar på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) .
 
       Vyverktyget öppnas.
 

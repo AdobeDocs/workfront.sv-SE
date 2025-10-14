@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-I videon [Prioritetsförbättringar ](#priorities-enhancements-demo-video) nedan visas de funktioner som ingår i den här översikten.
+I videon [Prioritetsförbättringar &#x200B;](#priorities-enhancements-demo-video) nedan visas de funktioner som ingår i den här översikten.
 
 ## Använd smarta filter för att hitta ditt material i prioriteter
 

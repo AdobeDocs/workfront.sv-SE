@@ -34,6 +34,6 @@ Mer information om hur du använder en anslagstavla i ett projekt finns i [Hante
 
 Du kan även komma åt paneler i mobilappen. Mer information finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] för mobil](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Videogenomgångar av brädfunktioner finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstrationer ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Videogenomgångar av brädfunktioner finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstrationer &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Mer information om ytterligare flexibla verktyg i [!DNL Workfront] finns i [Agile overview](../agile/agile-overview.md).

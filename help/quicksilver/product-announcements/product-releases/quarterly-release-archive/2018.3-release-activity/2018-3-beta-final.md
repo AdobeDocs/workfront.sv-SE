@@ -84,7 +84,7 @@ Integreringen är kostnadsfri för alla kunder som har en Workfront Professional
 
 >[!NOTE]
 >
-> Vissa delar av integreringen som beskrivs i följande video har ändrats. Den senaste informationen om Workfront för Microsoft Teams finns i avsnittet [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
+> Vissa delar av integreringen som beskrivs i följande video har ändrats. Den senaste informationen om Workfront för Microsoft Teams finns i avsnittet [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex &#x200B;](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
 
 ## Uppdaterat Workfront för Adobe Creative Cloud Integration {#updated-workfront-for-adobe-creative-cloud-integration}
 

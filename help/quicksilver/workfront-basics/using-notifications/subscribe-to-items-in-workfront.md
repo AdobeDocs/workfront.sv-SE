@@ -102,7 +102,7 @@ Så här säger du upp prenumerationen på ett ärende:
    >
    >Om du vill avbryta prenumerationen på projekt kan du göra något av följande:
    >
-   >* Gå till det projekt du vill avbryta prenumerationen på och klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/qs-more-menu.png) till höger om projektnamnet. Klicka sedan på **[!UICONTROL Unsubscribe]**.
+   >* Gå till det projekt du vill avbryta prenumerationen på och klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/qs-more-menu.png) till höger om projektnamnet. Klicka sedan på **[!UICONTROL Unsubscribe]**.
    >* Gå till en projektlista eller rapport och välj ett projekt, klicka på ikonen **[!UICONTROL More]** ![Mer](assets/qs-more-menu.png) högst upp i listan och klicka sedan på **[!UICONTROL Unsubscribe]**. Det här är bara tillgängligt i en lista med projekt.
 
 1. Klicka på **[!UICONTROL More]** ![Mer ikon](assets/more-icon.png) och sedan på **[!UICONTROL Unsubscribe]**.

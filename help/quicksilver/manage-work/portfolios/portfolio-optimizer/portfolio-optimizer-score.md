@@ -42,7 +42,7 @@ Mer information om hur du genererar justeringspoäng för ett projekt finns i ar
 
 >[!NOTE]
 >
->Ett projekt kan bara poängsättas i [!UICONTROL Portfolio Optimizer] om dess affärsärende har slutförts. Mer information om hur du slutför ett affärsärende finns i artikeln [[!UICONTROL Create a Business Case] för ett projekt ](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+>Ett projekt kan bara poängsättas i [!UICONTROL Portfolio Optimizer] om dess affärsärende har slutförts. Mer information om hur du slutför ett affärsärende finns i artikeln [[!UICONTROL Create a Business Case] för ett projekt &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ![Projektpoäng](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 

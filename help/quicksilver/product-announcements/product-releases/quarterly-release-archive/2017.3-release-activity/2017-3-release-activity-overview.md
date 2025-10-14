@@ -70,7 +70,7 @@ I följande avsnitt beskrivs förbättringar som är tillgängliga för slutanv�
 * [Automatisera tilldelningar vid schemaläggning av resurser](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#automate-assignments-when-scheduling-resources)
 * [Visa schemaläggningsområde i helskärmsläge](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-scheduling-area-in-full-screen-mode)
 * [Fler datumintervallalternativ för visning av resursplaneringsområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#more-date-range-options-for-viewing-the-resource-scheduling-area)
-* [Visa beräknade datum på tidslinjen ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-projected-dates-on-the-scheduling-timeline)
+* [Visa beräknade datum på tidslinjen &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-projected-dates-on-the-scheduling-timeline)
 * [Ändra tilldelningar för flera aktiviteter vid schemaläggning av resurser](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#modify-assignments-for-specific-tasks-within-a-project)
 
 ### Rapportförbättringar

@@ -233,7 +233,7 @@ Så här tar du bort eller tar bort en godkännandeprocess från en arbetsuppgif
 1. Klicka på en av följande ikoner i det övre högra hörnet av avsnittet Godkännanden, beroende på vilken typ av godkännande som är associerat med objektet:
 
    * **Ikonen** Ta bort ![ikon](assets/remove-icon---x-in-circle.png) för globala godkännanden eller godkännanden på gruppnivå.
-   * **Ikonen** Ta bort ![ikonen ](assets/delete.png) för engångsgodkännanden.
+   * **Ikonen** Ta bort ![ikonen &#x200B;](assets/delete.png) för engångsgodkännanden.
 
 1. Bekräfta genom att klicka på **Ta bort** eller **Ta bort**.
 

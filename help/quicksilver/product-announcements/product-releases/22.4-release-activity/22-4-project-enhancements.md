@@ -112,7 +112,7 @@ Textläget är fortfarande tillgängligt för avancerad filterredigering, och sy
 
 ### Vi vill ha din feedback!
 
-Med den här publika versionen av Beta får användare möjlighet att skicka feedback direkt till teamet som arbetar med filterupplevelsen genom att klicka på feedbackknappen. Vi ser fram emot att få höra av dig och dina användare om den nya filterupplevelsen i betaversionen. Om ditt team vill träffas direkt för att ge mer feedback kan du planera ett möte här: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Med den här publika versionen av Beta får användare möjlighet att skicka feedback direkt till teamet som arbetar med filterupplevelsen genom att klicka på feedbackknappen. Vi ser fram emot att få höra av dig och dina användare om den nya filterupplevelsen i betaversionen. Om ditt team vill träffas direkt för att ge mer feedback kan du planera ett möte här: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
 
 ### Vad kommer härnäst?
 

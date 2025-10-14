@@ -117,7 +117,7 @@ Så här schemalägger du ett projekt från Slutförandedatum:
 
 1. Välj **Projektinformation** i den vänstra panelen.
 
-1. Klicka på ikonen **Redigera projekt** ![Redigera ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
+1. Klicka på ikonen **Redigera projekt** ![Redigera &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
 
 1. Klicka på fältet **Schemaläge** i avsnittet **Projektdatum** och välj sedan **Slutförandedatum**.
 
@@ -140,7 +140,7 @@ Så här schemalägger du ett projekt från startdatum:
 
 1. Välj **Projektinformation** i den vänstra panelen.
 
-1. Klicka på ikonen **Redigera projekt** ![Redigera ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
+1. Klicka på ikonen **Redigera projekt** ![Redigera &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) i det övre högra hörnet och välj sedan **Översikt** i listrutan som visas.
 
 1. Klicka på fältet **Schemaläge** i avsnittet **Projektdatum** och välj sedan **Startdatum**.
 

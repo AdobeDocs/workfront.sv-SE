@@ -350,7 +350,7 @@ Om ni använder automatiserade arbetsflödesmallar kan ni generera ett korrektur
 
 1. I Adobe-programmet klickar du på **Fönster** > **Tillägg** > **Workfront**.
 
-1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) i panelens övre högra hörn.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) i panelens övre högra hörn.
 
 1. (Valfritt) Klicka på **Feedback** för att öppna en kort enkät och skicka dina synpunkter om Workfront för Adobe Creative Cloud till Workfront.
 1. Klicka på **Logga ut**.\

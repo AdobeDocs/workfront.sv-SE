@@ -113,7 +113,7 @@ När du arkiverar en styrelse eller ett arbetsflöde skickas det till arkivet oc
 
    Arkiverade objekt är dolda på panelens kontrollpanel såvida du inte använder ett filter för att visa dem. Mer information finns i avsnittet [[!UICONTROL Filter boards]](#filter-boards) i den här artikeln.
 
-1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]**-menyikonen ![Mer ](assets/more-icon-spectrum.png) på anslagstavlan eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
+1. Om du vill återställa ett arkiverat bord eller arbetsflöde klickar du på **[!UICONTROL More]**-menyikonen ![Mer &#x200B;](assets/more-icon-spectrum.png) på anslagstavlan eller i arbetsflödet och väljer **[!UICONTROL Restore]**.
 
 ## Ta bort en anslagstavla eller ett arbetsflöde
 

@@ -136,7 +136,7 @@ Du kan använda följande filter på en uppgiftsrapport om du vill visa friståe
 1. I **Börja skriva fältnamn ...** rad börja skriva **Överordnat ID** och välj sedan **Aktivitet >> Överordnat ID** i listan.
 1. Välj **Är tom** som modifierare.
 
-   ![Överordnat ID är tomt och inga underordnade ](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![Överordnat ID är tomt och inga underordnade &#x200B;](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    eller
 

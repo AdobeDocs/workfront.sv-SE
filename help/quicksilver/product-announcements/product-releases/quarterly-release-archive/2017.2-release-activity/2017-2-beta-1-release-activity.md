@@ -78,8 +78,8 @@ Följande förbättringar är tillgängliga vid planering av resurser:
 
 * [Visa fler objekt på tidslinjen för resursplanering i en enda vy](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
 * [Konfigurera projektnamnet som ska visas i aktiviteter och ärenden på tidslinjen för schemaläggning](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
-* [Konfigurera om överordnade aktiviteter ska visas på tidslinjen ](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
-* [Utöka eller komprimera enkelt alla aktiviteter och ärenden på tidslinjen ](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
+* [Konfigurera om överordnade aktiviteter ska visas på tidslinjen &#x200B;](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
+* [Utöka eller komprimera enkelt alla aktiviteter och ärenden på tidslinjen &#x200B;](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
 * [Roll- och användarinformation finns kvar högst upp i tidslinjen för schemaläggning vid rullning](#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)
 
 ### Visa fler objekt på tidslinjen för resursplanering i en enda vy {#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view}

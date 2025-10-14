@@ -82,7 +82,7 @@ Om du är [!DNL Adobe Admin Console]-administratör kan du inkludera [!DNL Adobe
 
 Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL Adobe Exchange].
 
-1. Gå till installationssidan för [Adobe Workfront för design och video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) på Adobe Exchange.
+1. Gå till installationssidan för [Adobe Workfront för design och video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share) på Adobe Exchange.
 1. Klicka på **Öppna [!DNL Adobe Creative Cloud] skrivbordsapp** i den dialogruta som visas.
 1. När plugin-hanteraren för [!DNL Adobe Creative Cloud] öppnas klickar du på **[!UICONTROL Install]**.
 1. Läs informationen i dialogrutan och klicka sedan på **[!UICONTROL OK]**.

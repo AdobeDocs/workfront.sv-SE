@@ -181,7 +181,7 @@ Du kan manuellt beräkna om ekonomin för flera projekt genom att redigera dem i
 Så här beräknar du om ekonomin för flera projekt manuellt:
 
 1. Gå till en lista med projekt.
-1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) överst i listan.
+1. Markera flera projekt i listan och klicka sedan på ikonen **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) överst i listan.
 
    ![Beräkna om uttryck](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 

@@ -22,7 +22,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 ## Skapa ett formelfält
 
 1. Skapa eller navigera till ett tabellblock enligt beskrivningen i [Lägg till eller redigera ett tabellblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) på tabellrubriken i rapporten.
+1. Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) på tabellrubriken i rapporten.
 
    ![Ikonen Redigera i tabellrubriken](assets/edit-icon-table-header-350x71.png)
 

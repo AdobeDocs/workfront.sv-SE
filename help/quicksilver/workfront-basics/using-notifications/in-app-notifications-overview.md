@@ -29,7 +29,7 @@ Kommentarer finns på ett av två sätt:
 * [!DNL Workfront] skickar ett meddelande till sidan [!UICONTROL Announcement] för organisationens [!DNL Workfront] administratörer
 * En [!DNL Workfront]-administratör skickar ett meddelande till användare från sidan [!UICONTROL Announcement]
 
-I båda fallen visas ämnesraden med en megafonikon ![Meddelandeikon ](assets/announcement.png) och ordet [!UICONTROL Announcement] när administratören eller användaren klickar på den numrerade ikonen ![Notifications](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna sin meddelandelista.
+I båda fallen visas ämnesraden med en megafonikon ![Meddelandeikon &#x200B;](assets/announcement.png) och ordet [!UICONTROL Announcement] när administratören eller användaren klickar på den numrerade ikonen ![Notifications](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av [!DNL Workfront] för att öppna sin meddelandelista.
 
 ![[!UICONTROL Announcement] meddelande](assets/notification-list-announcement-350x271.png)
 

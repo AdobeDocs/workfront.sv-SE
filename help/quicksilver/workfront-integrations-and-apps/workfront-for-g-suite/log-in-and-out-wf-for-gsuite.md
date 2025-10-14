@@ -60,7 +60,7 @@ Innan du kan logga in eller ut från [!DNL Workfront for Google Workspace] måst
 
 ## Logga in på [!DNL Adobe Workfront for Google Workspace]
 
-1. Klicka på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger om [!DNL Gmail], [!DNL Google Calendar] eller [!DNL Google Drive].
+1. Klicka på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger om [!DNL Gmail], [!DNL Google Calendar] eller [!DNL Google Drive].
 
    Om du precis har installerat tillägget [!DNL Workfront for Google Workspace] och du inte kan se den här ikonen kan du försöka med att uppdatera webbläsarsidan.
 
@@ -76,7 +76,7 @@ Innan du kan logga in eller ut från [!DNL Workfront for Google Workspace] måst
 
 ## Logga ut från [!DNL Workfront for Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Klicka på ikonen **[!UICONTROL More actions]** längst upp på panelen [!DNL Workfront for Google Workspace].
 
 1. Klicka på **[!UICONTROL Logout]** på menyn som visas.

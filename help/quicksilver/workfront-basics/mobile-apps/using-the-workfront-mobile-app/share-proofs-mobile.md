@@ -42,7 +42,7 @@ Det här alternativet skickar ett e-postmeddelande med en unik korrekturlänk ti
 
 1. Upprepa steg 3-5 om du vill lägga till en annan mottagare.
 1. Välj **[!UICONTROL Set deadline for new contacts]** om du vill välja ett förfallodatum för alla mottagare som ska granska korrekturet. Välj sedan ett datum i kalendern.
-1. Välj ikonen **[!UICONTROL Send]** ![Skicka ](assets/mobile-send-icon-25x26.png) för att skicka e-postmeddelandet till mottagarna.
+1. Välj ikonen **[!UICONTROL Send]** ![Skicka &#x200B;](assets/mobile-send-icon-25x26.png) för att skicka e-postmeddelandet till mottagarna.
 
 ## Skicka en länk till korrekturet
 
@@ -73,7 +73,7 @@ Det här alternativet skickar ett e-postmeddelande med en offentlig korrekturlä
 
    ![[!UICONTROL Share with Public URL screen]](assets/mobile-sharepublicurl-proof-350x296.png)
 
-1. Välj ikonen **[!UICONTROL Send]** ![Skicka ](assets/mobile-send-icon-25x26.png) för att skicka e-postmeddelandet till mottagarna.
+1. Välj ikonen **[!UICONTROL Send]** ![Skicka &#x200B;](assets/mobile-send-icon-25x26.png) för att skicka e-postmeddelandet till mottagarna.
 
 ## Ladda ned beviset
 

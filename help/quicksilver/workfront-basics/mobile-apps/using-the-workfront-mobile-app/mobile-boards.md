@@ -113,7 +113,7 @@ Objektet är markerat som slutfört och räknaren på kortet uppdateras för att
 
 Du kan filtrera en anslagstavla för att visa kort som tilldelats vissa personer, eller söka efter ett visst kort på anslagstavlan.
 
-När filter används visas en indikator på ![ritytan ](assets/active-filter-mobile-boards.png). Markera filterikonen och välj [!UICONTROL **Rensa alla**] för att ta bort alla filter från ritytan.
+När filter används visas en indikator på ![ritytan &#x200B;](assets/active-filter-mobile-boards.png). Markera filterikonen och välj [!UICONTROL **Rensa alla**] för att ta bort alla filter från ritytan.
 
 ### Filtrera en anslagstavla efter tilldelningar
 

@@ -66,7 +66,7 @@ Innan du kan hantera meddelandeinformation från [!DNL Google Workspace] måste 
 
 ## Hantera meddelandeinformation för [!DNL Adobe Workfront] från [!DNL Google Workspace]
 
-1. Om panelen [!DNL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!DNL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Öppna ett [!DNL Google Workspace]-meddelande i [!DNL Workfront].
 1. Klicka på **[!UICONTROL View all updates]** om den visas nära panelens övre del.
 1. Klicka på **[!UICONTROL Details]**.

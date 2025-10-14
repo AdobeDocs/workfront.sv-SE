@@ -65,7 +65,7 @@ Lås ett korrektur:
 
    Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klicka på ikonen **Lås** ![Lås ](assets/unlock-proof-icon.png) i den vänstra panelen.
+1. Klicka på ikonen **Lås** ![Lås &#x200B;](assets/unlock-proof-icon.png) i den vänstra panelen.
 
    ![Lås korrektur](assets/lock-proof-350x277.png)
 

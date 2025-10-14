@@ -179,7 +179,7 @@ Innan du börjar:
 
    ![Initiativfilter](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![ Sök ](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![&#x200B; Sök &#x200B;](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
 1. Välj en eller flera initiativ att publicera och skapa eller uppdatera projekt från dem och klicka sedan på **[!UICONTROL Publish initiatives]**.
 
    Detta skapar ett nytt projekt från varje vald initiativ eller uppdaterar befintliga kopplade projekt, om de publicerade initiativen redan var kopplade till ett projekt.
@@ -249,7 +249,7 @@ Innan du börjar:
      >   
      >   
      >   * Mer information om hur du lägger till eller tar bort områden i avsnittet [!UICONTROL Details] med hjälp av en layoutmall finns i [Anpassa vyn [!UICONTROL Details] med hjälp av en layoutmall](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
-     >   * Mer information om hur du visar information i området [!UICONTROL Overview] i [!UICONTROL Project Details] finns i [[!UICONTROL Manage] -information i projektområdet [!UICONTROL Overview] ](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   * Mer information om hur du visar information i området [!UICONTROL Overview] i [!UICONTROL Project Details] finns i [[!UICONTROL Manage] -information i projektområdet [!UICONTROL Overview] &#x200B;](../manage-work/projects/manage-projects/understand-project-overview-area.md).
      >   
      >
 

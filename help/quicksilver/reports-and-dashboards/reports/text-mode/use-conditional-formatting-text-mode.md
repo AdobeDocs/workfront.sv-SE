@@ -90,7 +90,7 @@ Så här lägger du till villkorsstyrd formatering i en vy i textlägesgränssni
 1. Klicka på den kolumn i vyn som du vill använda villkorsstyrd formatering på.
 1. Klicka på **Växla till textläge**.
 1. Klicka på **Klicka för att redigera text** i området **Visa i den här kolumnen:**.
-1. Lägg till kodexemplen som finns i [Formatera vyer med textläget ](#format-views-using-text-mode) längst ned i texten i den markerade kolumnen.
+1. Lägg till kodexemplen som finns i [Formatera vyer med textläget &#x200B;](#format-views-using-text-mode) längst ned i texten i den markerade kolumnen.
 1. Klicka på **Spara** och sedan på **Spara vy**.
 
 ## Formatera vyer med textläge {#format-views-using-text-mode}
