@@ -7,9 +7,9 @@ description: Det är viktigt att ange i Adobe Workfront när en godkänd tid är
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
+source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningens sandlådemiljö och släpps i en fasad utrullning till produktion.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] är inte utformat för att replikera eller ersätta dina befintliga system för hantering, upplupning och spårning av ledig tid.
 
@@ -79,10 +79,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Klicka på **[!UICONTROL Time Off]** i den vänstra panelen.
 1. Välj önskat datum för din personliga ledig tid.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-   ![Personlig tid för kalendern](assets/personal-time-off-calendar-0925.png)
+   <!--<span class="preview">Sample image in the Preview environment:</span>
+   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
 
-   Exempelbild i produktionsmiljön:
+   <!--Sample image in the Production environment:-->
    ![Personlig tid för kalendern](assets/personal-time-off-calendar.png)
 
 1. Välj **[!UICONTROL All day]** om du vill ta en hel dag ledigt.
