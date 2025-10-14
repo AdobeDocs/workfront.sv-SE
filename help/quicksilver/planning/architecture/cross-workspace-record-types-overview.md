@@ -1,12 +1,12 @@
 ---
-title: Posttyper för flera arbetsytor - översikt
-description: Centraliserade posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Adobe Workfront Planning.
+title: Posttypöversikt för arbetsytan över
+description: Globala posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -19,99 +19,99 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Posttyper för flera arbetsytor - översikt
+# Posttypöversikt för arbetsytan över flera arbetsytor
 
-I Adobe Workfront Planning kan du aktivera funktioner för flera arbetsytor för en posttyp som gör att du kan referera till en posttyp på mer än en arbetsyta.
+{{planning-important-intro}}
+
+Du kan aktivera funktioner för olika arbetsytor för en posttyp i Adobe Workfront Planning. En posttyp för arbetsytan kan refereras till eller nås från mer än en arbetsyta.
+
+>[!IMPORTANT]
+>
+>Det finns utökade krav för Workfront-paket för att kunna aktivera funktioner för arbetsytan över flera arbetsytor för posttyper i ditt system. Mer information finns i [Åtkomstöversikt för Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+
 
 Följande är funktioner för olika arbetsytor för posttyper:
 
-* Du kan ange en posttyp som centraliserad. Användarna kan lägga till centraliserade posttyper i andra arbetsytor som de hanterar.
+* **Globala posttyper**: Användare kan lägga till globala posttyper i andra arbetsytor som de hanterar.
 
-  >[!IMPORTANT]
-  >
-  >Du måste ha ett Workfront Planning Plus-paket förutom ett Workfront-paket för att kunna använda centraliserade posttyper.
-  >
-  >Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront.
-
-* Du kan ange en posttyp som anslutningsbar. Användare kan ansluta till den här posttypen från andra arbetsytor.
+* **Anslutningsbara posttyper**: Användare kan ansluta till den här posttypen från andra arbetsytor.
 
 I den här artikeln finns en översikt över posttyper för arbetsytor. Mer information om hur du definierar en posttyps funktioner för arbetsytan mellan olika arbetsytor finns i [Konfigurera funktioner för arbetsytor mellan arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+## Översikt över globala posttyper
 
-## Översikt över centraliserade posttyper
-
-Centraliserade posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Workfront Planning.
+Globala posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Workfront Planning.
 
 När du implementerar Workfront Planning för en organisation med flera team och gemensamma arbetsflöden kan du behöva definiera en sammanhängande struktur och metadata för nyckelposttyper (som kampanjer och slutprodukter) som kan läggas till i varje teames arbetsytor för att fånga och hantera deras arbete.
 
 Ni kan också behöva varje teames arbete för att komma upp på en central nivå.
 
-I ett sådant arbetsflöde kan du se till att teamen hämtar sitt arbete på ett enhetligt sätt samtidigt som de låser upp synligheten mellan team, utan att behöva lägga till allt på en arbetsyta, eller så kan alla i organisationen göra det på varje arbetsyta. Du kan använda centraliserade posttyper för att uppnå detta.
+I ett sådant arbetsflöde kan du se till att teamen hämtar sitt arbete på ett enhetligt sätt samtidigt som de låser upp synligheten mellan team, utan att behöva lägga till allt på en arbetsyta, eller så kan alla i organisationen göra det på varje arbetsyta. Du kan använda globala posttyper för att uppnå detta.
 
-Så här använder du centraliserade posttyper:
+Så här använder du globala posttyper:
 
-1. Konfigurera en posttyp som ska centraliseras på en viss arbetsyta.
+1. Konfigurera en posttyp som global på en arbetsyta som du hanterar.
 
    En arbetsytehanterare kan ge behörigheter till användare med en standardlicens, eller till team, grupper, roller och företag för att lägga till en vald posttyp i de arbetsytor som de hanterar.
 
    Den ursprungliga posttypen kommer att finnas på den ursprungliga arbetsytan, men kommer att synas på andra arbetsytor.
 
    Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Lägg till en posttyp på en sekundär arbetsyta från en befintlig som har konfigurerats som en centraliserad posttyp.
+1. Lägg till en posttyp på en sekundär arbetsyta från en befintlig som har konfigurerats som en global posttyp.
 
    Posttypen kommer att finnas på följande arbetsytor:
 
-   * Den ursprungliga arbetsytan där den angavs som en centraliserad posttyp.
+   * Dess ursprungliga arbetsyta där den angavs som global posttyp.
    * En sekundär arbetsyta.
 
    Mer information finns i [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   I följande avsnitt beskrivs överväganden om centraliserade posttyper och hur de fungerar på antingen den ursprungliga eller den sekundära arbetsytan.
+   I följande avsnitt beskrivs överväganden om globala posttyper och hur de fungerar på antingen den ursprungliga eller den sekundära arbetsytan.
 
-### Att tänka på när det gäller de centraliserade posttyperna på deras ursprungliga arbetsyta
+### Att tänka på när det gäller globala posttyper på deras ursprungliga arbetsyta
 
-Posttypen som konfigurerats för centralisering har följande egenskaper:
+Posttypen som konfigurerats som global har följande egenskaper:
 
 * All information (utseende, originalfält) kan bara redigeras på den ursprungliga arbetsytan.
 
-* Du kan utföra följande åtgärder på den centraliserade posttypen från den ursprungliga arbetsytan för en centraliserad posttyp:
+* Du kan utföra följande åtgärder på den globala posttypen från den ursprungliga arbetsytan:
 
    * Redigera den
 
-     När du redigerar en centraliserad posttyp kan du redigera utseendet, arbetsytefunktionerna och alla fält som skapats på den ursprungliga arbetsytan.
+     När du redigerar en global posttyp kan du redigera dess utseende, funktioner för flera arbetsytor och alla fält som har skapats på den ursprungliga arbetsytan.
    * Skapa förfrågningsformulär
    * Hantera förfrågningsformulär
 
-* Du kan bara ta bort en centraliserad posttyp om den inte har lagts till på en sekundär arbetsyta. När den har lagts till i en annan arbetsyta genereras ett fel om du försöker ta bort den från den ursprungliga arbetsytan.
-
-  Detta görs så att den centraliserade posttypen kan finnas kvar på arbetsytorna där den redan har lagts till.
-* Posterna som du lägger till i en centraliserad posttyp visas bara för användare som har behörigheten Visa på arbetsytan där de lades till.
+* Du kan bara ta bort en global posttyp om den inte har lagts till på en sekundär arbetsyta. Du måste först ta bort den (genom att ta bort den) från de sekundära arbetsytorna innan du kan ta bort den från den ursprungliga arbetsytan.
+* Posterna som du lägger till i en global posttyp visas bara för användare som har behörigheten Visa på arbetsytan där de lades till.
 * Posterna som du lägger till från en sekundär arbetsyta läggs upp och visas på den ursprungliga arbetsytan. Alla medlemmar på den ursprungliga arbetsytan får behörigheten Visa till dem.
+* Om den ursprungliga globala posttypen läggs till i flera sekundära arbetsytor kan du bara visa poster som lagts till i andra arbetsytor från den ursprungliga arbetsytan eller från arbetsytor där du har minst behörighet att visa.
+* De anslutna posttyperna av en global posttyp blir tillgängliga för anslutning från de arbetsytor där den här posttypen läggs till.
 
-* De anslutna posttyperna av en centraliserad posttyp blir tillgängliga för anslutning från de arbetsytor där den här posttypen läggs till.
+  Om du till exempel har en global posttyp för Campaign som har en anslutning till posttypen Region, och du lägger till posttypen Campaign på en sekundär arbetsyta, kan regioner bli en kopplingsbar arbetsyta mellan olika arbetsytor från den sekundära arbetsytan. Medlemmar i den sekundära arbetsytan kan nu skapa kampanjer och länka dem till regioner.
 
-  Om du till exempel har en Campaign-posttyp som har en anslutning till posttypen Region, och du lägger till posttypen Campaign på en sekundär arbetsyta, kommer regioner att bli anslutningsbara mellan arbetsytor för den sekundära arbetsytan. Medlemmar i den sekundära arbetsytan kan nu skapa kampanjer och länka dem till regioner.
+* Fält som skapats för en global posttyp från den ursprungliga arbetsytan visas från alla arbetsytor där posttypen läggs till. Fältinställningarna från en ursprunglig arbetsyta är skrivskyddade i de sekundära arbetsytorna.
 
-* Fält som skapats för en centraliserad posttyp från den ursprungliga arbetsytan visas från alla arbetsytor där posttypen läggs till. Fältinställningarna från en ursprunglig arbetsyta är skrivskyddade i de sekundära arbetsytorna.
+### Överväganden om globala posttyper i en sekundär arbetsyta
 
-### Att tänka på när centraliserade posttyper läggs till på en sekundär arbetsyta
+* Deltagare på den sekundära arbetsytan får Contribute-behörighet till den globala posttypen på deras arbetsyta. De kan lägga till och hantera poster i den från den sekundära arbetsytan.
 
-* Deltagare på den sekundära arbetsytan får Contribute-behörighet till den centraliserade posttypen på deras arbetsyta. De kan lägga till och hantera poster i den från den sekundära arbetsytan.
+* De sekundära arbetsytevisningsprogrammen får behörigheten Visa för den globala posttypen på deras arbetsyta. De kan inte lägga till och hantera poster i den.
 
-* De sekundära arbetsytevisningsprogrammen får behörigheten Visa för den centraliserade posttypen på deras arbetsyta. De kan inte lägga till och hantera poster i den.
-
-* Sekundära arbetsytehanterare kan utföra följande åtgärder för den posttyp som lagts till från en centraliserad posttyp på en sekundär arbetsyta:
+* Sekundära arbetsytehanterare kan utföra följande åtgärder på posttypen som lagts till från en global posttyp på en sekundär arbetsyta:
 
    * Ta bort den.
 
-     Om du tar bort posttypen från en sekundär arbetsyta tas den bara bort från den sekundära arbetsytan. Posterna som läggs till på den sekundära arbetsytan tas också bort. Detta tar inte bort posttypen från den ursprungliga arbetsytan eller från andra sekundära arbetsytor där den har lagts till.
+     Om du tar bort posttypen från en sekundär arbetsyta tas den bara bort från den sekundära arbetsytan. Posterna och fälten som läggs till i den sekundära arbetsytan tas också bort. Detta tar inte bort posttypen från den ursprungliga arbetsytan eller från andra sekundära arbetsytor där den har lagts till.
 
-  <!--These two capabilities will come later:
+  <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
-        Fields added to a centralized record from a secondary workspace are visible only from the secondary workspace. 
-    * Share it-->
+        Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
+    * Share it
+    * Add request forms to it
+    * Add automations to it-->
 
-* Ingen användare kan utföra följande åtgärder för den posttyp som lagts till från en centraliserad posttyp på en sekundär arbetsyta:
+* Ingen användare kan utföra följande åtgärder på posttypen som lagts till från en global posttyp på en sekundär arbetsyta:
 
    * Redigera den
 
@@ -119,31 +119,31 @@ Posttypen som konfigurerats för centralisering har följande egenskaper:
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
-* Poster som läggs till i en sekundär arbetsyta visas bara från följande arbetsytor om du har behörigheten Visa eller högre för dessa arbetsytor:
+* Poster som läggs till i en sekundär arbetsyta visas bara från följande arbetsytor om du har behörighet att visa eller högre på dessa arbetsytor:
 
    * Den sekundära arbetsytan där de läggs till.
-   * Den centraliserade posttypens ursprungliga arbetsyta.
-   * Alla andra arbetsytor där den centraliserade arbetsytan läggs till.
+   * Den globala posttypens ursprungliga arbetsyta.
+   * Alla andra arbetsytor där den globala arbetsytan läggs till.
 
 * Följande scenarier finns för poster som skapats i sekundära arbetsytor:
 
    * Om du har behörigheten Hantera på den ursprungliga arbetsytan, och inga behörigheter på en sekundär arbetsyta, kan du visa poster som lagts till från den sekundära arbetsytan i den ursprungliga arbetsytan, men du kan inte hantera dem från den ursprungliga arbetsytan.
-   * Om du har behörigheten Hantera på den sekundära arbetsytan kan du hantera posterna på den centraliserade posttypens ursprungliga arbetsyta eller från den arbetsyta där de lades till.
-   * Du kan bara visa posterna på ytterligare sekundära arbetsytor där den centraliserade posttypen läggs till om du har behörigheten Visa på dessa arbetsytor.
+   * Om du har behörigheten Hantera på den sekundära arbetsytan kan du hantera posterna på den globala posttypens ursprungliga arbetsyta eller från den arbetsyta där de lades till.
+   * Du kan bara visa posterna på ytterligare sekundära arbetsytor där den globala posttypen läggs till om du har behörigheten Visa på dessa arbetsytor.
 
-### Åtkomst till anslutningar av en centraliserad posttyp
+### Åtkomst till anslutningar av global posttyp
 
-Posttyper som är kopplade till den centraliserade posttypen på den ursprungliga arbetsytan blir synliga från andra arbetsytor där den centraliserade posttypen läggs till.
+Posttyper som är kopplade till den globala posttypen på den ursprungliga arbetsytan blir synliga från andra arbetsytor där den globala posttypen läggs till och de är tillgängliga för anslutningar från de sekundära arbetsytorna där den globala posttypen läggs till.
 
-### API-åtkomst för en centraliserad posttyp
+### API-åtkomst för en global posttyp
 
-När du lägger till poster till en centraliserad posttyp från en sekundär arbetsyta med hjälp av Workfront Planning API, kontrollerar systemet om användaren har tillgång till att skapa poster på den ursprungliga arbetsytan för den centraliserade posttypen.
+När du lägger till poster till en global posttyp från en sekundär arbetsyta med hjälp av Workfront Planning API, kontrollerar systemet om användaren har åtkomst att skapa poster på den ursprungliga arbetsytan för den globala posttypen.
 
 Följande fall finns:
 
-* Om användaren har åtkomst skapas posten på den centraliserade posttypens ursprungliga arbetsyta.
+* Om användaren har åtkomst skapas posten på den globala posttypens ursprungliga arbetsyta.
 
-* Om användaren inte har åtkomst får användaren ett felmeddelande om att han/hon inte har åtkomst till den centraliserade posttypens ursprungliga arbetsyta och måste ange det arbetsyte-ID där han/hon har åtkomst för att skapa poster.
+* Om användaren inte har åtkomst får användaren ett felmeddelande om att han/hon inte har åtkomst till den globala posttypens ursprungliga arbetsyta och måste ange det arbetsyte-ID där han/hon har åtkomst för att skapa poster.
 
 ## Översikt över kopplingsbara posttyper
 
@@ -155,9 +155,9 @@ Så här använder du kopplingsbara posttyper:
 
 1. Konfigurera en posttyp som ska kunna anslutas på en viss arbetsyta.
 
-   En arbetsytehanterare kan välja vilka arbetsytor en angiven posttyp kan ansluta till från andra arbetsytor.
+   En arbetsytehanterare kan välja vilka arbetsytor en angiven posttyp kan ansluta till.
 
-   Den ursprungliga posttypen finns på den ursprungliga arbetsytan och kommer att läggas till som en kopplad posttyp på en annan arbetsyta.
+   Den ursprungliga posttypen kommer att finnas på den ursprungliga arbetsytan och det går att ansluta till den från en annan arbetsyta.
 
    Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Anslut till en posttyp som är angiven som anslutningsbar från en annan arbetsyta som du hanterar.

@@ -6,15 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
 
 
 <!--this is linked to the UI in an empty workspace screen-->
+
+<!--keep the yellow for cross-workspace functionality till Jan 2026-->
 
 # Skapa posttyper
 
@@ -116,7 +118,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
         I den här artikeln beskrivs hur du skapar posttyper från grunden.
 
      <!--
-        * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
+        * <span class="preview">By adding them from another workspace</span>
             <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
 
 
@@ -126,16 +128,16 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 
 Du kan skapa posttyper automatiskt när du skapar en arbetsyta med en Workfront Planning-mall. Varje mall innehåller exempelposttyper.
 
+Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+Mer information om vilka posttyper som ingår i varje mall finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
+
 När du skapar en arbetsyta från en mall grupperas posttyperna i följande avsnitt:
 
 * Operativa posttyper
 * Taxonomier
 
-Du kan lägga till posttyper manuellt i avsnitten Driftposttyper och Taxonomier.
-
-Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
-
-Mer information om vilka posttyper som ingår i varje mall finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
+Du kan lägga till posttyper manuellt i avsnitten Driftposttyper och Taxonomier. Mer information finns i avsnittet [Skapa en post från grunden](#create-a-record-type-from-scratch) i den här artikeln.
 
 ## Skapa en posttyp från grunden
 
@@ -149,8 +151,7 @@ Mer information om vilka posttyper som ingår i varje mall finns i [Lista över 
 1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
 1. Klicka på **Lägg till posttyp** och sedan **Lägg till manuellt**.
 
-   Rutan Lägg till posttyp öppnas.
-   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
+   Rutan Lägg till posttyp öppnas. <!--update screen shot for preview-->
 
    ![Lägg till posttypsruta med utseendealternativ](assets/add-record-type-box-with-appearance-options.png)
 
@@ -162,15 +163,6 @@ Mer information om vilka posttyper som ingår i varje mall finns i [Lista över 
       * Välj en färg som identifierar den nya posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
       * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
 
-
-   <!--old setting:
-    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: 
-        * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-        * Choose from which workspaces the record type can be accessed. Choose from the following options:
-            * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-            * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
-    -->
-
 1. (Valfritt och villkorligt) Om du är systemadministratör klickar du på **Avancerade inställningar** och uppdaterar följande information i avsnittet **Arbetsytans funktioner**: <!--the info here is duplicated in the Edit record types article-->
    * Aktivera inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor**: Detta gör att arbetsytehanterare kan ansluta till den här posttypen från andra arbetsytor.\
      Du kan ange vilka arbetsytor som den här posttypen kan anslutas från. Du kan göra den tillgänglig för alla arbetsytor eller ange specifika arbetsytor där du kan importera den.
@@ -179,17 +171,11 @@ Mer information finns i [Konfigurera funktioner för arbetsytan över flera arbe
 
    ![Skapa en ruta för posttyp på fliken Avancerade inställningar](assets/create-record-type-box-advanced-settings-tab.png)
 
-   <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
-        <div class="preview">
-        1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-            * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-                You can designate specific users who can add this record type to other workspaces. 
-            * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-                You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-            For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
-            ******** replace screen shot below **********
-            ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-        -->
+   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
 1. Klicka på **Spara**.
 
@@ -200,12 +186,20 @@ Beskrivning av posttypen visas på kortet.
 
    Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Anslut från andra arbetsytor** ![Anslut från andra arbetsytor](assets/connect-from-other-workspaces-icon.png) på postkortet.
 
-   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
+   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer meny](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** för att ändra information om posttypen.
+
+   <!--replace the last point with this at the preview release of global record types:
+    <span class="preview">(Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or **Settings** to modify information about the record type. </span>
+    >[!TIP]
+    >
+    ><span class="preview">You can access the **Edit** and **Settings** options from the **More** menu of a record type in the record type page.</span>
+    -->
+
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
-   ![Posttypen för operativt &#x200B;](assets/operational-record-type-blank.png) är tom
+   ![Posttypen för operativt ](assets/operational-record-type-blank.png) är tom
 
    Posttypssidan visas som standard i tabellvyn. Kolumnerna i tabellen är fält som är kopplade till den nya posttypen. Varje rad är en unik post som du måste lägga till.
 
@@ -255,9 +249,9 @@ Mer information finns i [Skapa posttyper genom att importera information från e
 
 <div class="preview">
 
-## Create record types by importing them from another workspace 
+## Create record types by adding existing ones from another workspace 
 
-You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
+You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
 
 For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 

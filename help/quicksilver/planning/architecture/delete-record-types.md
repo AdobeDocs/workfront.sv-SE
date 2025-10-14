@@ -6,13 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
+
+<!--keep the global record type reference in yellow till January 2026-->
 
 # Ta bort posttyper
 
@@ -32,7 +34,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven.
++++ Expandera om du vill visa åtkomstkraven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -92,7 +94,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Att tänka på när du tar bort posttyper
@@ -108,6 +110,21 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 * Posttypen tas bort från alla användare som använder arbetsytan.
 * Du kan inte återställa borttagna posttyper eller deras information.
 * Vi rekommenderar att du återskapar de fält och poster som är kopplade till den posttyp som du vill ta bort på en annan posttyp innan du tar bort dem.
+
+<!--
+
+<div class="preview">
+
+* You cannot delete a global record type that has been added to other workspaces. 
+   
+   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
+
+   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+
+   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+
+</div>
+-->
 
 ## Ta bort posttyper
 
@@ -127,6 +144,13 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 
    ![Ta bort posttypsbekräftelse permanent](assets/permanently-delete-record-type-confirmation.png)
 
+   <!--[!TIP]
+   >
+   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
+
+
 1. Skriv **delete** i bekräftelserutan och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
    Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort och kan inte återställas.
+
+

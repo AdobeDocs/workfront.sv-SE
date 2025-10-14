@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 
 # Redigera poster
+
+<!--keep the choice values information in yellow till Jan 2026-->
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -239,7 +241,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post i kalendervyn för en posttyp
 
@@ -254,7 +256,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post från postens förhandsgranskning i en vy
 
@@ -349,7 +351,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    eller
 
-   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -405,5 +407,7 @@ Så här lägger du till ett nytt val i ett befintligt markeringsfält när du r
    ![Lägg till val i envalsfält i tabellvy](assets/add-choice-in-table-view-for-single-select-field.png)
 
    Det nya alternativet läggs omedelbart till i fältet för en markering.
+
+   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
 </div>

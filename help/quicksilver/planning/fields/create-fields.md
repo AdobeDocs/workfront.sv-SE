@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '5332'
 ht-degree: 0%
@@ -14,13 +14,15 @@ ht-degree: 0%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # Skapa fält
+
+<!--information about choice values must stay in yellow till Jan 2026-->
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
@@ -294,6 +296,24 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 
    Det nya flervalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
+<!--
+1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
+1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+
+    >[!NOTE]
+    >
+    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >
+    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >
+    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >
+    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+
+1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
+
+-->
+
 ### Enkelval {#single-select}
 
 Med envalsfält hämtas ytterligare information i valfritt format genom att du väljer ett alternativ i en nedrullningsbar meny.
@@ -302,7 +322,6 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 >
 ><span class="preview">Förutom de funktioner som beskrivs i det här avsnittet kan du lägga till nya alternativ när du redigerar en posts envalsfältvärde infogat i tabellvyn. Mer information finns i avsnittet Redigera information om envalsfält eller flervalsfält i artikeln [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
 >
-
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Enkelval**.
 
@@ -328,6 +347,25 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 1. Klicka på **Skapa**.
 
    Det nya envalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
+
+<!--
+
+1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
+1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+
+    >[!NOTE]
+    >
+    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >
+    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >
+    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >
+    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+
+1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
+
+-->
 
 ### Datum {#date}
 
@@ -369,7 +407,7 @@ Nummerfälttyper samlar in information i talformat.
 >Nummerfält visas som en typ av enradigt textfält i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som siffror efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Number**.
@@ -399,7 +437,7 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 >Procentfält visas som en enkelradig textfälttyp i ett formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena för dessa fält visas som procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
@@ -439,7 +477,7 @@ Valutafälttyper samlar in information i ett talformat som föregås av en valut
 >Valutafält visas som en enkelradig textfälttyp i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som valuta efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Valuta**.
 
@@ -514,7 +552,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >
-   >![Formelexempel för projektbudget fyra fält har tagits bort &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Valfritt) Klicka på **Maximera** för att öppna formelrutan i ett större område.

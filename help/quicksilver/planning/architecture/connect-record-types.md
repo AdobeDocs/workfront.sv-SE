@@ -6,13 +6,15 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2817'
 ht-degree: 0%
 
 ---
 
+
+<!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # Koppla posttyper
 
@@ -28,16 +30,20 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 Du kan ansluta posttyper till varandra eller koppla posttyper med objekttyper från andra program.
 
-Det är praktiskt att koppla posttyper när du har flera typer av arbetsobjekt som påverkar varandra. Du kan till exempel arbeta med kampanjer och varje kampanj kan tillgodose flera varumärken. För att indikera relationen kan ni koppla kampanjer till varumärken. Dessutom kan arbetet för varje kampanj planeras i flera projekt i Workfront. För att ange detta kan ni koppla kampanjerna till relevanta projekt. När du ansluter posttyper och sedan ansluter enskilda poster skapas den här relationen i Workfront Planning.
+Det är praktiskt att koppla posttyper när du har flera typer av arbetsobjekt som påverkar varandra. Du kan till exempel arbeta med kampanjer och varje kampanj kan tillgodose flera varumärken. För att indikera relationen kan ni koppla kampanjer till varumärken. Detta skapar ett anslutningsfält för Varumärken på Campaign-posten.
+
+Dessutom kan arbetet för varje kampanj planeras i flera projekt i Workfront. För att ange detta kan ni koppla kampanjerna till relevanta projekt. Detta skapar ett anslutningsfält för projekt på Campaign-posten.
+
+När anslutningsfälten har skapats kan du koppla enskilda poster mellan de två posterna eller objekttyperna.
+
+<!--
+>[!NOTE]
+>
+><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
 
 I den här artikeln beskrivs hur du kan koppla två typer av Workfront Planning-poster, eller en Workfront Planning-posttyp, till ett objekt från ett annat program.
 
 När du har upprättat anslutningen mellan poster eller objekttyper läggs ett anslutningsfält till i en Planning-posttyp. I anslutningsfältet kan du koppla enskilda poster till varandra och visa fält från den länkade posten eller objekttypen i en Workfront Planning-post.
-
-<!--
->[!CAUTION]
->
-><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 Allmän information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -46,6 +52,7 @@ Mer information om hur du ansluter poster eller poster med objekt från andra pr
 Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att ansluta posttyper och poster](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
+
 
 ## Åtkomstkrav
 
@@ -146,6 +153,13 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
    * En posttyp från en annan arbetsyta som konfigurerats för anslutning från andra arbetsytor.
 
+     <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
+        >[!TIP]
+        >
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
+        >
+        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
+
      >[!TIP]
      >
      >Inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor** måste aktiveras för en posttyp på fliken **Avancerade inställningar** i rutan **Redigera posttyp** för att en posttyp ska kunna nås från andra arbetsytor. Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
@@ -228,7 +242,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Villkorligt) När du väljer att ansluta till Experience Manager Assets eller till en posttyp för Workfront Planning väljer du något av följande alternativ i området **Postutseende**:
@@ -332,7 +346,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 
@@ -346,13 +360,13 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
      Om du t.ex. har länkat en kampanjposttyp med en programposttyp och namngett det programlänkade postfältet&quot;Programinformation&quot;, markerat för att även visa programmets budgetfält i kampanjens tabellvy, får det länkade fältet automatiskt namnet `Budget (from Program information)` i kampanjens tabellvy.
 
-   * När du länkar posttyper till varandra läggs ett länkat postfält också till på den posttyp som du länkar till, <!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>--> Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
+   * När du länkar posttyper till varandra läggs ett länkat postfält också till på den posttyp som du länkar till, <span class="preview">endast när du aktiverar Skapa motsvarande fält för den länkade posttypsinställningen.</span> Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
 
      Om du t.ex. länkar posttypen &quot;Produkt&quot; från posttypen &quot;Kampanj&quot; och namnger det anslutna fältet i Campaign &quot;Länkad produkt&quot;, skapas ett &quot;Kampanjlänkat&quot; postfält för posttypen Produkt.
 
      >[!TIP]
      >
-     > Ett länkat postfält skapas inte för objekt från ett annat program till den posttyp som du länkar från i Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>-->
+     > Ett länkat postfält skapas inte för objekt från ett annat program i respektive program. <span class="preview">Vi rekommenderar att du inte skapar länkar för taxonomiska posttyper eftersom det finns en gräns på 500 fält <!--<span class="preview">and a limit of 30 connected fields</span>--> för varje posttyp.</span>
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 
