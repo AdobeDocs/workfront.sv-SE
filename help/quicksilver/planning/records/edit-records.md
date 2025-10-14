@@ -241,7 +241,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post i kalendervyn för en posttyp
 
@@ -256,7 +256,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
 1. Klicka på fältet för en post för att öppna dess informationsområde och redigera alla fält.
 
-   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn ](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
+   Mer information finns i avsnittet [Redigera en post från postens förhandsgranskning i vyn &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln.
 
 ### Redigera en post från postens förhandsgranskning i en vy
 
@@ -351,7 +351,7 @@ Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create
 
    eller
 
-   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer ](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
