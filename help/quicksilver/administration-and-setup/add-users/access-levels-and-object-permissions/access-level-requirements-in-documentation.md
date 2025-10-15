@@ -46,7 +46,7 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
   <p>Din organisation kan ha köpt ett Workfront-paket inom ett eller flera av dessa områden.</p>
   <p>Tidigare erbjöd Workfront paket med Workfront Select, Workfront Prime och Workfront Ultimate, utan att göra skillnad mellan arbetsflöde, planering och automatisering och integrering. Din organisation kanske finns i något av dessa äldre paket. 
    <ul><li>Om du vill ta reda på vilket Adobe Workfront-paket din organisation använder, inklusive om din organisation är under den aktuella eller gamla paketeringsmodellen, kontaktar du Workfront-administratören.</li>
-   <li>Instruktioner om hur en Workfront-administratör kan hitta din organisations Workfront-paket finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Visa din organisations kluster och Workfront-paket</a>.</li><li>Mer information om Workfront-paket finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>.</li></ul> </td> 
+   <li>Instruktioner om hur en Workfront-administratör kan hitta din organisations Workfront-paket finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Visa din organisations kluster och Workfront-paket</a>.</li><li>Mer information om Workfront-paket finns i <a href="https://business.adobe.com/se/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -97,7 +97,7 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <ul><li>Den aktuella licensmodellen baseras på antalet utförda åtgärder och har inga begränsningar för vilka åtgärder en organisation kan utföra. </li>
    <li>Äldre licenser baseras på om det går att ansluta till program från tredje part eller om scenarierna bara används för Workfront-automatisering. </li>
    </ul>
-   Mer information om Fusion-licensiering finns i <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-licenser</a>.
+   Mer information om Fusion-licensiering finns i <a href="https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-licenser</a>.
    </td> 
   </tr> 
  </tbody> 
