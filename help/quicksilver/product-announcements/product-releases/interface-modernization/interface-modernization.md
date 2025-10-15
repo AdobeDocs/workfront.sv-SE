@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
+source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
 workflow-type: tm+mt
-source-wordcount: '8483'
+source-wordcount: '8497'
 ht-degree: 0%
 
 ---
@@ -335,6 +335,10 @@ Mer information finns i [Skapa köämnen](/help/quicksilver/manage-work/requests
 
 **Förhandsversion: 28 augusti 2025; Produktionsversion: 4 september 2025**
 
+>[!NOTE]
+>
+>Den här funktionen har tillfälligt tagits bort från förhandsgransknings- och produktionsmiljöerna den 15 oktober 2025.
+
 Vi har uppdaterat dialogrutan för att redigera en projektutgift så att den matchar andra delar av programmet. Den uppdaterade dialogrutan är tillgänglig när du redigerar utgifter i projekt eller mallar.
 
 Mer information finns i [Hantera projektutgifter](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
@@ -502,7 +506,7 @@ Vi har uppdaterat utseendet och känslan av den personliga kalendertiden, inklus
 
 Om du vill visa de här ändringarna går du till din användarprofil och klickar på **Tid av** i den vänstra panelen.
 
-Mer information finns i [Konfigurera personlig tid för &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information finns i [Konfigurera personlig tid för ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) och [Delegera godkännandebegäran](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Gränssnittsuppdateringar för dialogrutan Ny användare
 
