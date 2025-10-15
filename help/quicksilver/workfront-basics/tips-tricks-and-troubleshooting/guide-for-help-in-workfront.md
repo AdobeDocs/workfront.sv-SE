@@ -81,11 +81,11 @@ Följande resurser kan hjälpa dig att avgöra hur du kan använda [!DNL Workfro
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] resurser som belyser kunder</a> </td> 
+   <td><a href="https://business.adobe.com/se/resources/main.html?Products=Workfront">[!DNL Workfront] resurser som belyser kunder</a> </td> 
    <td>Det här är startkällan för webbinarier, e-böcker, rapporter, videor och rapporter.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Fallstudier </a></td> 
+   <td><a href="https://business.adobe.com/se/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Fallstudier </a></td> 
    <td>Läs igenom en växande samling av över 60 fallstudier, som belyser kundernas utmaningar och [!DNL Workfront] lösningar och fördelar.</td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ Följande resurser kan hjälpa dig att lära dig mer om API:t [!DNL Workfront] o
 
 | [[!DNL Adobe Workfront] integreringar](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Du kan integrera [!DNL Workfront] med tredjepartsprogram. Integreringar kan utöka verktyget för [!DNL Workfront] och anpassa det efter organisationens behov. I den här kunskapsbasartikeln beskrivs vilka integreringsalternativ du kan använda och du får en poäng i nästa riktning. |
 |---|---|
-| [[!DNL Workfront] inbyggda integreringar](https://business.adobe.com/products/workfront/integrations.html) | Workfront kostnadsfria inbyggda integreringar gör att du och ditt team smidigt kan gå över till Workfront-plattformen samtidigt som samma arbetsflöden och processer bibehålls. |
+| [[!DNL Workfront] inbyggda integreringar](https://business.adobe.com/se/products/workfront/integrations.html) | Workfront kostnadsfria inbyggda integreringar gör att du och ditt team smidigt kan gå över till Workfront-plattformen samtidigt som samma arbetsflöden och processer bibehålls. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/home) | Ansluter [!DNL Workfront] till över 100 program, vilket gör det enkelt att automatisera verksamhetskritiska processer utan kod. |
 
 {style="table-layout:auto"}

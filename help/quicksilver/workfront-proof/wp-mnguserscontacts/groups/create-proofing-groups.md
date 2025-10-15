@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Du måste ha en Select- eller Premium-plan för att kunna använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer](https://business.adobe.com/products/workfront/pricing.html).
+Du måste ha en Select- eller Premium-plan för att kunna använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer](https://business.adobe.com/se/products/workfront/pricing.html).
 
 Du kan skapa grupper med användare som du kan lägga till som granskare på flera korrektur. Detta är användbart om du skickar innehåll till samma användare regelbundet.
 

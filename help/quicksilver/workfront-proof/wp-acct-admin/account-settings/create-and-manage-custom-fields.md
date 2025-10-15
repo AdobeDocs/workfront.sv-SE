@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-En Select- eller Premium [!DNL Workfront]-plan krävs för den här funktionen. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/products/workfront/pricing.html).
+En Select- eller Premium [!DNL Workfront]-plan krävs för den här funktionen. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/se/products/workfront/pricing.html).
 
 Med anpassade fält kan du samla in ytterligare data när du skapar ett nytt korrektur, en ny användare eller en ny gäst. Användare som skapar ett nytt korrektur kan till exempel vilja inkludera ytterligare ett avsnitt där de kan hämta ett jobbnummer, en avdelningskod eller en leverantörsreferens.
 

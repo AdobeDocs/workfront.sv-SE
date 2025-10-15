@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-En [!UICONTROL Enterprise] [!DNL Workfront]-plan krävs för att använda den här funktionen. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/products/workfront/pricing.html).
+En [!UICONTROL Enterprise] [!DNL Workfront]-plan krävs för att använda den här funktionen. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/se/products/workfront/pricing.html).
 
 Med enkel inloggning (SSO) kan dina användare logga in på [!DNL Workfront Proof] med organisationens befintliga användarnamn och lösenord.
 

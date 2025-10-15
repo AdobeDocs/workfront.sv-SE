@@ -27,7 +27,7 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront-plan</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/se/products/workfront/pricing.html" target="_blank">Adobe Workfront-plan</a> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 

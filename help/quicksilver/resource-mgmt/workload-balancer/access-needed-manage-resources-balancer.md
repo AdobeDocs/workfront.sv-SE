@@ -52,7 +52,7 @@ Följande tabell visar kopplingen mellan den Workfront-plan ditt företag har oc
  </tbody> 
 </table>
 
-Mer information om Workfront-planer finns i [Våra planer](https://business.adobe.com/products/workfront/pricing.html).
+Mer information om Workfront-planer finns i [Våra planer](https://business.adobe.com/se/products/workfront/pricing.html).
 
 Mer information om var du kan hitta arbetsbelastningsutjämnaren i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

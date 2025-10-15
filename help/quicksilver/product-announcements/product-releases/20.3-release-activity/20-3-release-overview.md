@@ -118,7 +118,7 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
 >
 >Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
 >
->* En Pro eller en senare [Adobe Workfront-plan](https://business.adobe.com/products/workfront/pricing.html).
+>* En Pro eller en senare [Adobe Workfront-plan](https://business.adobe.com/se/products/workfront/pricing.html).
 >* En Adobe Workfront Goals-licens förutom en Workfront-licens.
 >
 >  Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
@@ -154,7 +154,7 @@ Version 2020.3 innehåller följande förbättringar för alla användare:
 >&gt; <col> 
 >&gt; <tbody> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</p> </td> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/se/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</p> </td> 
 >&gt;   <td>Företag eller högre</td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -450,7 +450,7 @@ Mer information finns i [Konfigurera brandväggens tillåtelselista](../../../ad
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).
+[Läs mer om Workfront One](https://business.adobe.com/se/products/workfront.html).
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Hur öppnar jag ett nytt [!DNL Workfront Proof]-konto?
 
-Om du vill öppna ett nytt konto går du till [sidan för testregistrering](https://business.adobe.com/products/workfront/proofing-approvals.html) och öppnar ett provkonto. En medlem i vårt team kommer sedan att kontakta dig för att hjälpa dig komma igång med [!DNL Workfront Proof].
+Om du vill öppna ett nytt konto går du till [sidan för testregistrering](https://business.adobe.com/se/products/workfront/proofing-approvals.html) och öppnar ett provkonto. En medlem i vårt team kommer sedan att kontakta dig för att hjälpa dig komma igång med [!DNL Workfront Proof].
 
 Om du redan känner till systemet och vill registrera dig för en betald plan går du till *[!UICONTROL Settings]* *>* *[!UICONTROL Billing]* och uppgraderar ditt konto till en av våra betalda planer.
 

@@ -112,7 +112,7 @@ Så här redigerar du projektplaneringsprioriteten:
 >
 >Företaget måste ha en Business-plan eller en senare Workfront-plan för att kunna prioritera projekt i Portfolio Optimizer.
 >
->Mer information om Workfront-planer finns i [Våra planer](https://business.adobe.com/products/workfront/pricing.html).
+>Mer information om Workfront-planer finns i [Våra planer](https://business.adobe.com/se/products/workfront/pricing.html).
 >
 >Mer information om hur du prioriterar projekt i Portfolio Optimizer finns i [Prioritera projekt i Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

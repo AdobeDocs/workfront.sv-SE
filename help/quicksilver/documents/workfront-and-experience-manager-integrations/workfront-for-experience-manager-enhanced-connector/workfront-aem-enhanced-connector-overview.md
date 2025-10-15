@@ -54,5 +54,5 @@ Workfront för Experience Manager förbättrade anslutningsverktyg gör att du n
 
 ## Mer som detta
 
-* Översikt över [Workfront för Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html)
+* Översikt över [Workfront för Adobe Experience Manager](https://business.adobe.com/se/products/workfront/aem-integration.html)
 * [Adobe Workfront for Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

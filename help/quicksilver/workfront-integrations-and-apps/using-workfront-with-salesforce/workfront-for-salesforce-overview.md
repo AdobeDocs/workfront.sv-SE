@@ -38,7 +38,7 @@ Mer information om hur du konfigurerar avsnittet [!DNL Workfront] i [!DNL Salesf
 
 >[!NOTE]
 >
->En [!UICONTROL Pro] [!DNL Workfront]-plan krävs för att använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer.](https://business.adobe.com/products/workfront/pricing.html)
+>En [!UICONTROL Pro] [!DNL Workfront]-plan krävs för att använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer.](https://business.adobe.com/se/products/workfront/pricing.html)
 
 ## Åtkomstkrav
 

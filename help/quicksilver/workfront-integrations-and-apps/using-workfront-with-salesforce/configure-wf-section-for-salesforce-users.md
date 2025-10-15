@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Mer information om de specifika funktionerna i Workfront Automation and Integration-modulerna för Salesforce finns i [Salesforce-moduler](https://experienceleague.adobe.com/sv/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-En [!UICONTROL Pro] [!DNL Workfront]-plan krävs för att använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer.](https://business.adobe.com/products/workfront/pricing.html)
+En [!UICONTROL Pro] [!DNL Workfront]-plan krävs för att använda den här funktionen. Mer information om olika tillgängliga planer finns i [[!DNL Workfront] Planer.](https://business.adobe.com/se/products/workfront/pricing.html)
 
 När du har installerat [!DNL Adobe Workfront] för [!DNL Salesforce] som [!DNL Workfront]-administratör kan du göra den tillgänglig för dina användare genom att lägga till den i ett nytt avsnitt i deras [!UICONTROL Opportunity] och [!UICONTROL Account]
 sidlayouter i [!UICONTROL Salesforce] .

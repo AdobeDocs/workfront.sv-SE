@@ -404,4 +404,4 @@ Mer information finns i [Förändringar i Workfront förhandsgranskningsversion 
 
 Med Workfront One hittar du det viktigaste innehållet, resurserna och nyheterna från Workfront - allt på ett och samma ställe, med en enda inloggning. Vi har samlat webbplatserna för upplevelser, community och utbildning, vilket gör det enklare att hitta det du söker.
 
-[Läs mer om Workfront One](https://business.adobe.com/products/workfront.html).
+[Läs mer om Workfront One](https://business.adobe.com/se/products/workfront.html).

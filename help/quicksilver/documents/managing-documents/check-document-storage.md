@@ -28,7 +28,7 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/se/products/workfront/pricing.html" target="_blank">Workfront-plan</a>*</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 

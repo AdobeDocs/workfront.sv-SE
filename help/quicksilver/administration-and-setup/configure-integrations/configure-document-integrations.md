@@ -74,7 +74,7 @@ Du kan konfigurera följande integreringar för hantering av dokument:
 
 * [!DNL Workfront Proof]
 
-  Genom att länka korrektur från [!DNL Workfront Proof] kan du göra korrektur som ursprungligen skapades i [!DNL Workfront Proof] tillgängliga i [!DNL Workfront]. För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/products/workfront/pricing.html).
+  Genom att länka korrektur från [!DNL Workfront Proof] kan du göra korrektur som ursprungligen skapades i [!DNL Workfront Proof] tillgängliga i [!DNL Workfront]. För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/se/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ Du kan konfigurera följande integreringar för hantering av dokument:
 
 * Andra dokumentleverantörer (via anpassade dokumentintegreringar).
 
-  För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/products/workfront/pricing.html).
+  För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://business.adobe.com/se/products/workfront/pricing.html).
 
 Dessutom kan du förbättra dokumentupplevelsen av [!DNL Workfront] med en DAM-integrering från tredje part. Administratörer måste aktivera de här funktionerna för att användare ska kunna länka tjänsten till sitt [!DNL Workfront]-konto.
 

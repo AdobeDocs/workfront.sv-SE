@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna slutföra stegen i den här artik
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront-plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/se/products/workfront/pricing.html" target="_blank">Adobe Workfront-plan</a>*</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 

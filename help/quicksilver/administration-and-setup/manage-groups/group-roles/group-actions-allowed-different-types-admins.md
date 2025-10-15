@@ -230,7 +230,7 @@ I denna tabell listas de administrationsaktiviteter som är tillgängliga för:
 
 &#42;&#42; I gruppadministratörens åtkomstnivå måste åtkomsten till den här åtgärden vara aktiverad. Mer information finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Följande aktiviteter ingår i Avancerade företagskontroller och är inte tillgängliga för Select-planen. Det är bara organisationer som har köpt Prime- eller Ultimate-planer som har tillgång till dessa funktioner.  Mer information om prenumerationer finns på sidan [Priser och paketering för Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html). (För organisationer som använder äldre planer visas aktiviteterna för grupp- och undergruppsadministratörer i tabellen ovan.)
+&#42;&#42;&#42; Följande aktiviteter ingår i Avancerade företagskontroller och är inte tillgängliga för Select-planen. Det är bara organisationer som har köpt Prime- eller Ultimate-planer som har tillgång till dessa funktioner.  Mer information om prenumerationer finns på sidan [Priser och paketering för Adobe Workfront](https://business.adobe.com/se/products/workfront/pricing.html). (För organisationer som använder äldre planer visas aktiviteterna för grupp- och undergruppsadministratörer i tabellen ovan.)
 
 * Konfigurera projekt-, uppgifts- och utgivningsinställningar på gruppnivå
 * Konfigurera tidrapport och timinställningar på gruppnivå
