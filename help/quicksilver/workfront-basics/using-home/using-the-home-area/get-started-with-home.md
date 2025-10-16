@@ -139,7 +139,7 @@ Du kan lägga till lite personlig överstrålning på hemsidan genom att välja 
 
 1. Gå till hemsidan genom att göra något av följande:
 
-   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront ](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
+   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront &#x200B;](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
    * Klicka på ikonen **Huvudmeny** i det övre högra hörnet av skärmen eller på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Hem** .
 
 1. Klicka på **Anpassa** längst upp till höger på skärmen.
