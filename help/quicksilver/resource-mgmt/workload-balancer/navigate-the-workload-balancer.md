@@ -6,16 +6,14 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4334'
 ht-degree: 0%
 
 ---
 
 # Navigera till arbetsbelastningsutjämnaren
-
-{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -23,7 +21,7 @@ Använd Utjämning av arbetsbelastning i Adobe Workfront för att tilldela anvä
 
 Utjämning av arbetsbelastning är tillgängligt i flera områden av Adobe Workfront. Att navigera är detsamma i alla områden.
 
-Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Åtkomstkrav
 
@@ -78,7 +76,7 @@ Tänk på följande när du visar arbetsbelastningsutjämnaren:
   >* Arbetsobjekt som tilldelats en jobbroll eller ett team, och som även tilldelats en användare, visas både i området Ej tilldelat arbete och under den tilldelade användarens namn i området Tilldelat arbete.
   >* Arbetsobjekt som har tilldelats en användare och en jobbroll, där jobbrollen har valts som primär tilldelare för artikeln, visas i området Ej tilldelat arbete.
   >* Arbetsobjekt som tilldelats till mer än en användare visas under alla de tilldelade användarnas namn på området Tilldelat arbete.
-  >* <span class="preview">Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.</span>
+  >* Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
   Mer information finns i [Uppdragsområden i Arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) i [Översikt över tilldelning av arbete i belastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -105,9 +103,8 @@ Mer information om hur du visar information i Arbetsbelastningsutjämnaren finns
 
 Mer information om hur du hanterar resurser med hjälp av belastningsutjämnaren finns i följande artiklar:
 
-* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
-
+* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navigera i Utjämning av arbetsbelastning för flera projekt i resursområdet
 
@@ -138,7 +135,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
         Mer information om hur du använder filter finns i [Filterinformation i Arbetsbelastningsutjämnaren](../workload-balancer/filter-information-workload-balancer.md).
 
-      * <span class="preview">Rolltilldelningar under arbetsobjekt visas bara när du aktiverar inställningen Visa rolltilldelningar. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.</span>
+      * Rolltilldelningar under arbetsobjekt visas bara när du aktiverar inställningen Visa rolltilldelningar. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
       * Projekt visas bara när du aktiverar inställningen Grupp efter projekt. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
@@ -162,7 +159,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
             > 
             >Mer information om hur du anpassar inställningar finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
-1. (Valfritt) Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) i området **Tilldelat arbete** och välj sedan **Standardfilter** i området **Förslag** i filterrutan.
+1. (Valfritt) Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) i området **Tilldelat arbete** och välj sedan **Standardfilter** i området **Förslag** i filterrutan.
 
    När du använder standardfiltret visas användare som tillhör något av dina team och deras arbetsobjekt. Du kan redigera en kopia av det här filtret.
 
@@ -240,11 +237,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
    Panelen Inställningar visas till höger.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Panelen Inställningar för belastningsutjämnare](assets/workload-balancer-settings.png)
-
-   Exempelbild i produktionsmiljön:
-   ![Panelen Inställningar](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    Välj bland alternativen nedan för att uppdatera informationen som du visar i Utjämning av arbetsbelastning och klicka sedan på ikonen **X** i det övre högra hörnet av inställningsrutan för att stänga den.
 
@@ -265,7 +258,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
      En grön bockmarkeringsikon visas i det övre högra hörnet av en uppgift eller ett problemfält när de är klara. Samma ikon visas för ett projekt när aktiviteterna eller utgåvorna för den valda tidsramen i projektet har slutförts.
    * **Visa återstående tid**: När detta är aktiverat visar Workfront skillnaden mellan den dagliga tid som användaren är tillgänglig för arbete baserat på sina scheman och de timmar som användaren är tilldelad till i arbetsytan Tilldelad arbetstid för användarna. Detta är inaktiverat som standard och den tilldelade tiden visas som standard.
-   * <span class="preview">**Visa rolltilldelningar**: När detta är aktiverat visas rolltilldelningar i arbetsytan Ej tilldelat under deras tilldelade arbetsobjekt. Detta är aktiverat som standard.</span>
+   * **Visa rolltilldelningar**: När detta är aktiverat visas rolltilldelningar i arbetsytan Ej tilldelat under deras tilldelade arbetsobjekt. Detta är aktiverat som standard.
 
    * I avsnittet **Välj färgtema** väljer du den färg du vill använda för projekt- och aktivitetsfälten.
 
@@ -316,7 +309,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
    ![Information om tilldelad tid](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Valfritt) Klicka på ikonen **Dölj tilldelningar** ![Visa tilldelningsikonen](assets/show-allocations-icon-small.png) för att visa namnet på aktiviteterna och utgåvorna i fälten för arbetsobjekten.
-1. Klicka på ikonen **Mer meny** ![Mer ikon](assets/more-icon.png) till höger om namnet på en aktivitet, ett problem, ett <span class="preview">eller en roll</span> och klicka sedan på något av alternativen nedan.
+1. Klicka på ikonen **Mer meny** ![Mer ikon](assets/more-icon.png) till höger om en uppgift, ett problem eller ett rollnamn och klicka sedan på något av alternativen nedan.
 
    ![Mer-menyn](assets/more-menu-right-of-task-350x104.png)
 
@@ -333,7 +326,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
      >[!NOTE]
      >
-     ><span class="preview">Rolltilldelningar visas bara under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln. Rolltilldelningar har bara alternativet **Tilldela detta till** på menyn **Mer**.</span>
+     >Rolltilldelningar visas endast under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln. Rolltilldelningar har bara alternativet **Tilldela detta till** på menyn **Mer**.
 
      >[!TIP]
      >
@@ -423,7 +416,7 @@ Sidan i ditt hemteam visas som standard.
 
    Arbetsbelastningsutjämnaren för ett team visar följande information som standard:
 
-   * I området **Ej tilldelat arbete**: Arbetsobjekt som tilldelats teamet eller team- och jobbrollerna och som inte är tilldelade användare. <span class="preview">Rolltilldelningar visas under arbetsobjekt i arbetsytan Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad.</span>
+   * I området **Ej tilldelat arbete**: Arbetsobjekt som tilldelats teamet eller team- och jobbrollerna och som inte är tilldelade användare. Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad.
    * I området **Tilldelat arbete**: Arbetsobjekt som tilldelats användare visas under användarnas namn.
 
 1. Fortsätt navigera i arbetsbelastningsutjämnaren för ett team enligt beskrivningen i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt i området Resurser](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
@@ -439,20 +432,20 @@ Sidan i ditt hemteam visas som standard.
 
    I arbetsbelastningsutjämnaren för projektet visas följande information som standard:
 
-   * I området **Ej tilldelat arbete**: Arbetsobjekt i projektet som har tilldelats roller eller team och som inte har tilldelats användare. <span class="preview">Rolltilldelningar visas under arbetsobjekt i arbetsytan Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad.</span>
+   * I området **Ej tilldelat arbete**: Arbetsobjekt i projektet som har tilldelats roller eller team och som inte har tilldelats användare. Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad.
    * I området **Tilldelat arbete**: Arbetsobjekt i projektet som har tilldelats minst en användare.
 
    Vi rekommenderar att du bara använder filter för att visa användare som är viktiga för dig.
 
    Du kan till exempel överväga att endast visa användare som tillhör dina team eller grupper. Mer information finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Valfritt) Klicka på ikonen **Filter** ![Filtrera &#x200B;](assets/filter-icon.png) i området Tilldelad arbetsyta och välj alternativet **Det här projektets arbetsobjekt** i området **Förslag** i filterpanelen. Det här filtret är som standard avmarkerat.
+1. (Valfritt) Klicka på ikonen **Filter** ![Filtrera ](assets/filter-icon.png) i området Tilldelad arbetsyta och välj alternativet **Det här projektets arbetsobjekt** i området **Förslag** i filterpanelen. Det här filtret är som standard avmarkerat.
 
    När det här alternativet är markerat visas endast de objekt som tilldelats användare i det valda projektet.
 
    När alternativet inte är markerat visas alla objekt som tilldelats användarna i projektet, oavsett vilka projekt som objekten tillhör.
 
-1. (Valfritt och rekommenderas) Använd ett filter på arbetsytan Tilldelad arbetsyta för att visa användare som är viktiga för dig men som kanske inte är tilldelade till objekt i projektet. Klicka sedan på ikonen **Visa alla användare** ![Visa alla användare &#x200B;](assets/show-all-users-icon-project-workload-balancer.png) .
+1. (Valfritt och rekommenderas) Använd ett filter på arbetsytan Tilldelad arbetsyta för att visa användare som är viktiga för dig men som kanske inte är tilldelade till objekt i projektet. Klicka sedan på ikonen **Visa alla användare** ![Visa alla användare ](assets/show-all-users-icon-project-workload-balancer.png) .
 
    Genom att visa alla användare kan du visa alla användare i Workfront som ännu inte är tilldelade till arbete eller andra roller i projektet.
 
@@ -480,8 +473,6 @@ Sidan i ditt hemteam visas som standard.
 
 1. Fortsätt navigera i arbetsbelastningsutjämnaren för ett projekt enligt beskrivningen i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
-<div class="preview">
-
 ### Navigera i arbetsbelastningsutjämnaren för en användare
 
 Du kan komma åt arbetsbelastningsutjämnaren på din egen användarprofil.
@@ -504,7 +495,6 @@ Du kan komma åt arbetsbelastningsutjämnaren på din egen användarprofil.
 
 1. Fortsätt navigera i arbetsbelastningsutjämnaren för en användare enligt beskrivningen i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
-</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

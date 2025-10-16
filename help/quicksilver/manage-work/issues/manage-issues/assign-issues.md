@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
 
 # Tilldela ärenden
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,11 +168,7 @@ Så här tilldelar du utgåvor i en lista:
 
    * Klicka i fältet **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller aktivt team som du vill tilldela utgåvan. Klicka sedan på den när den visas i listan.
 
-     <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
      ![Uppdragsfält](assets/assignments-field-0825.png)
-
-     Exempelbild i produktionsmiljön:
-     ![Uppdragsfält](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
@@ -184,7 +178,7 @@ Så här tilldelar du utgåvor i en lista:
    >
    >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (Villkorligt) I fältet Uppdrag klickar du på ikonen <span class="preview">**Avancerat**</span> eller **Personer** ![Ikonen Personer](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Villkorligt) I fältet Uppdrag klickar du på **Avancerat** längst ned i listan eller på ikonen **Personer** ![Ikonen Personer](assets/teams.png) i det övre högra hörnet av uppdragsrutan, öppnar rutan Avancerade uppdrag och skapar avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >

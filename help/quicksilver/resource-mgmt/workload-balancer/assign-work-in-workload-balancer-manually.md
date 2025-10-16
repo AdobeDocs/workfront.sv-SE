@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Tilldela arbete manuellt med hjälp av Utjämning av arbetsbelastning
-
-{{preview-fast-release-general}}
 
 Du kan tilldela arbetsobjekt till användare manuellt med hjälp av Adobe Workfront Workload Balancer.
 
@@ -69,7 +67,7 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
    Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Valfritt) Gå till området **Ej tilldelat arbete** och använd ett filter för att visa uppgifter, utgåvor, <span class="preview"> eller rolltilldelningar</span>.
+1. (Valfritt) Gå till området **Ej tilldelat arbete** och använd ett filter för att visa uppgifter, utgåvor eller rolltilldelningar.
 
    eller
 
@@ -77,9 +75,9 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
    >[!NOTE]
    >
-   ><span class="preview">Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i [Anpassa vyn](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) i [Navigera i arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i [Anpassa vyn](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) i [Navigera i belastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicka på **Mer-menyn** ![Mer-menyn](assets/qs-more-menu.png) till vänster om ett arbetsobjektnamn <span class="preview"> eller en rolltilldelning</span> och klicka sedan på **Tilldela det här till**.
+1. Klicka på **Mer-menyn** ![Mer-menyn](assets/qs-more-menu.png) till vänster om ett arbetsobjektnamn eller en rolltilldelning och klicka sedan på **Tilldela det här till**.
 
    ![Tilldela detta till](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

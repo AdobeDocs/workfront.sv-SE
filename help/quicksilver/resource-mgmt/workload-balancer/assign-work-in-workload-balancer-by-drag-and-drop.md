@@ -6,16 +6,14 @@ description: Du kan tilldela arbetsobjekt med Adobe Workfront Workload Balancer 
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2a52b1e401eae79c55076afd352cc83e1829140a
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # Tilldela arbete i belastningsutjämnaren genom att dra och släppa
-
-{{preview-fast-release-general}}
 
 Du kan tilldela arbetsobjekt med Adobe Workfront Workload Balancer genom att dra och släppa arbetsobjekt till rätt användare.
 
@@ -68,7 +66,7 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
 
    Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Valfritt) Gå till området **Ej tilldelat arbete** och tillämpa ett filter för att visa aktiviteter, utgåvor, <span class="preview"> och rolltilldelningar</span> som inte har tilldelats användare
+1. (Valfritt) Gå till området **Ej tilldelat arbete** och använd ett filter för att visa uppgifter, utgåvor och rolltilldelningar som inte är tilldelade användare
 
    eller
 
@@ -76,7 +74,7 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
 
    >[!NOTE]
    >
-   ><span class="preview">Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i [Anpassa vyn](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) i [Navigera i arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen Visa rolltilldelningar är aktiverad. Mer information finns i [Anpassa vyn](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) i [Navigera i belastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Villkorligt) Klicka på ikonen **Visa alla användare** ![Visa alla användare](assets/show-all-users-icon-project-workload-balancer.png) i Utjämning av arbetsbelastning för ett projekt om du vill visa alla Workfront-användare.
 
@@ -91,25 +89,21 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
    >* Alternativet Visa alla användare är bara tillgängligt i arbetsbelastningsutjämnaren för ett projekt.
    >* Använd filter om du bara vill visa de användare som är viktiga för dig. Använd till exempel ett filter om du bara vill visa användare från dina team eller grupper.
 
-1. Klicka på fältet för en arbetsuppgift <span class="preview"> eller rolltilldelning</span> som anger den planerade eller den planerade tidslinjen och dra den över timmarna för en användare i området **Tilldelad**.
+1. Klicka på fältet för en arbetsuppgift eller rolltilldelning som anger den planerade eller den planerade tidslinjen och dra den över timmarna för en användare i området **Tilldelad**.
 
    Användaren som du för pekaren över för att släppa arbetsobjektet markeras.
 
-   <span class="preview">När du drar och släpper rolltilldelningar markeras användaren i orange om deras aktuella roll inte matchar rolltilldelningen. Du kan fortfarande tilldela användaren arbetet när rollerna inte matchar.</span>
+   När du drar och släpper rolltilldelningar markeras användaren i orange om deras aktuella roll inte matchar rolltilldelningen. Du kan fortfarande tilldela arbetet till användaren när rollerna inte matchar.
 
    >[!TIP]
    >
    >De planerade timmarna för den användare som du hovrar över uppdateras i realtid med antalet planerade timmar per dag från arbetsuppgiften, för att visa vilken effekt det kan ha om ett nytt objekt läggs till i den totala allokeringen.
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Släpp objekt som ska tilldelas en användare](assets/wb-drag-drop-role-or-task-to-user.png)
 
-   Exempelbild i produktionsmiljön:
-   ![Släpp objekt som ska tilldelas en användare](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+1. När du är klar släpper du den valda arbetsuppgiften eller rolltilldelningen på samma rad som användarens namn i det tilldelade området. Artikeln tilldelas och de tilldelade planerade timmarna uppdateras för användaren med de nya timmarna från arbetsuppgiften.
 
-1. När du är klar släpper du den valda arbetsposten <span class="preview"> eller rolltilldelningen</span> på samma rad som användarens namn i det tilldelade området. Artikeln tilldelas och de tilldelade planerade timmarna uppdateras för användaren med de nya timmarna från arbetsuppgiften.
-
-   <span class="preview">Om inställningen Visa rolltilldelningar inte är aktiverad</span>, och arbetsuppgiften har tilldelats en jobbroll som användaren inte kan fylla, visas objektet under användarens namn i området Tilldelad arbetsyta. Den finns även kvar i området Ej tilldelat arbete för att ange att den jobbroll som är associerad med den ännu inte har ersatts av en användare.
+   Om inställningen Visa rolltilldelningar inte är aktiverad, och arbetsuppgiften har tilldelats en jobbroll som användaren inte kan fylla, visas objektet under användarens namn i området Tilldelad arbetsyta. Den finns även kvar i området Ej tilldelat arbete för att ange att den jobbroll som är associerad med den ännu inte har ersatts av en användare.
 
    >[!TIP]
    >

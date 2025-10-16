@@ -6,7 +6,7 @@ description: Som resurshanterare kan du använda Adobe Workfront Workload Balanc
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Översikt över tilldelning av arbete i belastningsutjämnaren
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -51,7 +49,7 @@ Workfront använder följande information för att beräkna användarens kapacit
 
 * Användaren är ledig. Detta anger vilka dagar som användaren planerar att starta.
 
-  Mer information finns i [Konfigurera personlig tid för &#x200B;](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Mer information finns i [Konfigurera personlig tid för ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Användarens arbetstid. Detta anger hur många procent av heltidstiden som användaren är tillgänglig för att utföra faktiskt projektrelaterat arbete, exklusive extrakostnader. Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
 
@@ -146,7 +144,7 @@ I följande tabell beskrivs vilka objekt som visas i varje område baserat på d
  </tbody> 
 </table>
 
-&#42;När en arbetsuppgift tilldelas till en användare och en roll visas den endast i arbetsytan Ej tilldelad när rollen är primär tilldelad. <span class="preview">Rolltilldelningar visas under arbetsobjekt i arbetsytan Ej tilldelat arbete när inställningen **Visa rolltilldelningar** är aktiverad.</span>
+&#42;När en arbetsuppgift tilldelas till en användare och en roll visas den endast i arbetsytan Ej tilldelad när rollen är primär tilldelad. Rolltilldelningar visas under arbetsobjekt i området Ej tilldelat arbete när inställningen **Visa rolltilldelningar** är aktiverad.
 
 &#42;&#42;När en arbetsuppgift tilldelas till en användare och en annan enhet visas den endast i den tilldelade arbetsytan när användaren är primär tilldelad.
 

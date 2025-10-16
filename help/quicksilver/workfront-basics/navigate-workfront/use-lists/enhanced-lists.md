@@ -5,7 +5,7 @@ description: De förbättrade listorna har ett tabellformat för att visa listob
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Använd förbättrade listor
-
-{{preview-fast-release-general}}
 
 Förbättrade listor finns i vissa delar av Adobe Workfront. De här listorna har ett tabellformat för att visa listobjekten, och de har ett annat utseende och en annan känsla än standardlistorna. Hanteringen av vyer har också förbättrats, bland annat filtrering, gruppering, hantering av kolumner och sökning.
 
@@ -126,7 +124,7 @@ I vissa förbättrade listor kan du dölja och visa kolumner och ändra ordning 
    >
    >Ikonen bredvid ett fältnamn visar fälttypen, till exempel text eller datumfält.
 
-   <span class="preview">En indikator visas på knappen **Kolumner** när kolumnerna är dolda. Indikatorn visas inte när du sorterar om kolumner.</span>
+   En indikator visas på knappen **Kolumner** när kolumnerna är dolda. Indikatorn visas inte när du ändrar ordning på kolumnerna.
 
    ![Indikator för dolda kolumner](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ Med filter kan du minska mängden information som visas i listan. Grupperingar s
 1. Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett villkor i filtret som en OR-programsats.
 1. När filtret används kan du öppna alternativen för **Filter** igen och ändra filteralternativen eller ta bort alla filter.
 
-   <span class="preview">En indikator visas på knappen **Filter** när ett filter används i listan.</span>
+   En indikator visas på knappen **Filter** när ett filter används i listan.
 
    ![Filtrera tillämpad indikator](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ Med filter kan du minska mängden information som visas i listan. Grupperingar s
 
    ![Gruppering i utökade listor](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">En indikator visas på knappen **Grupp** när en gruppering används i listan.</span>
+   En indikator visas på knappen **Grupp** när en gruppering används i listan.
 
    ![Gruppering av tillämpad indikator](assets/glist-grouping-applied-indicator.png)
 

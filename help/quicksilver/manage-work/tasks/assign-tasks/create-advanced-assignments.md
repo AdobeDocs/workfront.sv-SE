@@ -2,21 +2,19 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Skapa avancerade uppdrag
-description: Du kan hantera uppgifter eller ärenden med hjälp av Avancerade uppdrag.
+description: Du kan hantera uppgifter och ärenden med hjälp av avancerade uppdrag.
 author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
 
 # Skapa avancerade uppdrag
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -85,11 +83,8 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    >[!TIP]
    >
-   >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på <span class="preview">**Avancerat**</span> eller **Ikonen Personer** för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
-   ><span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
-   >Exempelbild i produktionsmiljön:
-   >![Klicka på ikonen Personer](assets/nwe-advanced-assignments-350x55.png)
+   >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på **Avancerat** längst ned i listan eller på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
+   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
 
 1. Klicka på **Tilldela till** i fältet **Tilldelningar** i huvudet på uppgiften eller problemet
 

@@ -7,7 +7,7 @@ description: Utjämning av arbetsbelastning är tillgängligt för flera projekt
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Leta reda på arbetsbelastningsutjämnaren
-
-{{preview-fast-release-general}}
 
 Du kan använda belastningsutjämnaren för att schemalägga resurser för arbete eller granska deras tillgänglighet och aktuella allokeringar.
 
@@ -136,8 +134,6 @@ Hemteamets sida visas.
      >
      >Du kan visa alla användare i systemet i stället för endast de som finns i projektet (i området Tilldelad arbetsyta) genom att aktivera alternativet Visa alla användare. Mer information finns i [Navigera i arbetsbelastningsutjämnaren](../workload-balancer/navigate-the-workload-balancer.md).
 
-<div class="preview">
-
 ### Åtkomst till arbetsbelastningsutjämnaren för en användare
 
 Alla användare har tillgång till arbetsbelastningsutjämnaren för sina egna profiler. Utjämningsdata för arbetsbelastning för en användare är skrivskyddade. Du kan inte tilldela arbete, ta bort tilldelning av arbete eller justera allokeringar på användarnivå.
@@ -155,8 +151,6 @@ Alla visningsinställningar är tillgängliga för en användares arbetsbelastni
    I arbetsbelastningsutjämnaren för en användare visas följande som standard:
 
    * **Tilldelat arbete**: Aktiviteter och ärenden som tilldelats den specifika användaren.
-
-</div>
 
 ## Lägg till belastningsutjämnaren för arbetsbelastning på den vänstra panelen som en kontrollpanel
 
