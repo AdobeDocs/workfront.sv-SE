@@ -224,17 +224,17 @@ Beskrivning av posttypen visas på kortet.
 
    ![Posttypkort med beskrivning](assets/record-type-card-with-description.png)
 
-   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser ](assets/connect-from-other-workspaces-icon.png) på postkortet.
+   Om du valde att ansluta den här posten från andra arbetsytor visas ikonen **Kopplingsbar post** ![Anslut från andra platser &#x200B;](assets/connect-from-other-workspaces-icon.png) på postkortet.
 
-   <span class="preview">Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Typ av global post ](assets/global-icon.png) på postkortet. </span>
+   <span class="preview">Om du har valt att tillåta att den här posten läggs till på andra arbetsytor visas ikonen **Global post** ![Typ av global post &#x200B;](assets/global-icon.png) på postkortet. </span>
 
-1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer ](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** eller <span class="preview">**Inställningar**</span> för att ändra information om posttypen.
+1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** eller <span class="preview">**Inställningar**</span> för att ändra information om posttypen.
 
    Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
-   ![Posttypen för operativt ](assets/operational-record-type-blank.png) är tom
+   ![Posttypen för operativt &#x200B;](assets/operational-record-type-blank.png) är tom
 
    Posttypssidan visas som standard i tabellvyn. Kolumnerna i tabellen är fält som är kopplade till den nya posttypen. Varje rad är en unik post som du måste lägga till.
 
