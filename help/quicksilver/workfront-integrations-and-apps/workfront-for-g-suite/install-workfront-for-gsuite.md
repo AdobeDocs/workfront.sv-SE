@@ -64,6 +64,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    Klicka på plustecknet i sidofältet för [!DNL Google Workspace] tillägg längst till höger i en [!DNL Google Workspace]-app ([!DNL Gmail], [!DNL Google Calendar] eller [!DNL Google Drive]). Sök efter *[!DNL Workfront for Google Workspace]* och klicka sedan på appobjektet [!DNL Workfront for Google Workspace] som visas.
 
 1. Klicka på **[!UICONTROL Install]** och följ sedan anvisningarna som visas.
-1. (Villkorligt) Uppdatera sidan om du inte ser ikonen [!DNL Google Workspace] [!DNL Workfront]Workfront ![ i sidofältet för tillägg ](assets/wf-lion-icon.png) längst till höger på sidan, i appen [!DNL Google Workspace].
+1. (Villkorligt) Uppdatera sidan om du inte ser ikonen [!DNL Google Workspace] [!DNL Workfront]Workfront ![&#x200B; i sidofältet för tillägg &#x200B;](assets/wf-lion-icon.png) längst till höger på sidan, i appen [!DNL Google Workspace].
 
 Mer information om inloggning finns i [Logga in och ut från  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

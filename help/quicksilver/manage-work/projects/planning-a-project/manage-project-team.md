@@ -219,7 +219,7 @@ Rutan **Skicka uppdatering till användare** öppnas.
 
    Användarna kan få ett e-postmeddelande om de är aktiverade för dem och de får ett meddelande i appen om den nya uppdateringen.
 
-1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) för att exportera listan med användare till en fil
+1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) för att exportera listan med användare till en fil
 
    eller
 
@@ -270,7 +270,7 @@ Rutan **Skicka uppdatering till användare** öppnas.
 
    Användarna kan få ett e-postmeddelande om de är aktiverade för dem och de får ett meddelande i appen om den nya uppdateringen.
 
-1. Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) om du vill exportera listan med användare till en fil
+1. Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) om du vill exportera listan med användare till en fil
 
    eller
 

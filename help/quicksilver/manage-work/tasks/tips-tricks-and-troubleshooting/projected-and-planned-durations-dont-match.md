@@ -34,6 +34,6 @@ Här är de bästa sätten att i de fallen kontrollera med länkar till tillhör
 
 * Planerat slutförandedatum: [Översikt över planerat slutförandedatum för projekt, aktiviteter och utgåvor](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
 * Aktivitetsbegränsning: [Översikt över aktivitetsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
-* Varaktighetstyp: [Översikt över aktivitetsvaraktighet och varaktighet ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* Varaktighetstyp: [Översikt över aktivitetsvaraktighet och varaktighet &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 
 Om den planerade typen av slutförandedatum, aktivitetsbegränsning eller Varaktighet fungerar som väntat kontaktar du supporten för mer ingående felsökning.

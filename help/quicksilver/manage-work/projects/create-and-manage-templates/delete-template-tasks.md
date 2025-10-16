@@ -90,7 +90,7 @@ Du kan ta bort en eller flera malluppgifter gruppvis.
 1. Klicka på namnet på en mall för att öppna den.
 1. Klicka på **Malluppgifter** i den vänstra panelen.
 1. Gör något av följande:
-   * Klicka på namnet på en malluppgift i listan för att öppna malluppgiften > klicka på menyn **Mer** ![Mer ](assets/more-icon.png) > **Ta bort malluppgift**.
+   * Klicka på namnet på en malluppgift i listan för att öppna malluppgiften > klicka på menyn **Mer** ![Mer &#x200B;](assets/more-icon.png) > **Ta bort malluppgift**.
    * Välj en eller flera mallåtgärder i listan > **Ta bort** ikon ![Ta bort ikon](assets/delete.png) .
 
    Rutan **Ta bort mallaktivitet** öppnas.

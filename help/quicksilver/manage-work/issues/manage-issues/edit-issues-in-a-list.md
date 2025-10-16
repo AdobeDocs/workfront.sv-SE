@@ -112,7 +112,7 @@ Så här infogar du redigering av en utgåva:
 1. Gå till en lista med problem i ett projekt eller en uppgift.
 1. Gör något av följande
 
-   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera ](assets/qs-edit-icon.png) i verktygsfältet.
+   * Markera problemet i listan och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/qs-edit-icon.png) i verktygsfältet.
    * Klicka på namnet på problemet och klicka sedan på **Redigera**.
 
      Alla dessa åtgärder öppnar rutan **Redigera problem**.

@@ -61,14 +61,14 @@ Arbetsobjekt som har tilldelats dig visas i widgeten Mitt arbete i [!UICONTROL H
 
 Du kan välja filter som visar objekt som du kan arbeta med, eller objekt som du redan arbetar med.
 
-I den här artikeln beskrivs hur du använder filtren i området [!UICONTROL Home] för att visa objekt som du för närvarande arbetar med eller kan överväga att börja arbeta med. Mer information om hur du använder filter i området [!UICONTROL Home] finns i [Visa objekt i [!UICONTROL worklist] i området [!UICONTROL Home] ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+I den här artikeln beskrivs hur du använder filtren i området [!UICONTROL Home] för att visa objekt som du för närvarande arbetar med eller kan överväga att börja arbeta med. Mer information om hur du använder filter i området [!UICONTROL Home] finns i [Visa objekt i [!UICONTROL worklist] i området [!UICONTROL Home] &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 Så här visar du ett arbetsobjekt i widgeten Mitt arbete:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Home]**.
 1. (Villkorligt) Klicka på **Anpassa** för att lägga till widgeten **Mitt arbete**.
 
-1. Klicka på ikonen **Filter** ![Filtrera ](assets/filter-nwepng.png) i det övre vänstra hörnet i widgetens arbetslista.
+1. Klicka på ikonen **Filter** ![Filtrera &#x200B;](assets/filter-nwepng.png) i det övre vänstra hörnet i widgetens arbetslista.
 
 1. Klicka på något eller båda av följande alternativ för uppgifter:
 

@@ -79,7 +79,7 @@ Så här kör du en rapport med åtkomsträttigheter för en annan användare:
 1. Klicka på **Rapportinställningar**.
 
 1. I fältet **Kör den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som och markerar den när du ser den i listan.\
-   ![Kör med åtkomsträttigheterna ](assets/unshimmed-access-rights-of.png)
+   ![Kör med åtkomsträttigheterna &#x200B;](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
 1. Klicka på **Skicka rapport**.
 
 1. I fältet **Leverera den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som när den levereras i ett e-postmeddelande och markerar den när du ser den i listan. Standardvärdet är namnet på den användare som skapar rapporten.\
-   ![En rapport har skickats med åtkomsträttigheterna ](assets/unshimmed-send-report-access-rights-of.png)
+   ![En rapport har skickats med åtkomsträttigheterna &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

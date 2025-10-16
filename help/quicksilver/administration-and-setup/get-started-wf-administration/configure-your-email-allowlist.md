@@ -31,7 +31,7 @@ Detta är användbart om organisationens säkerhetspolicy begränsar användare 
 >Alla e-postmeddelanden från Workfront skickas från den adressen för att öka e-postleveransen och för att eliminera förfalskning av e-postmeddelanden. Detta innefattar både automatiska varningar och kommunikation mellan användare.
 >
 >Från-raden i ett Workfront-e-postmeddelande som du får från en användare som heter Joan Harris skulle till exempel se ut så här:
->>`Joan Harris <notifications@my.workfront.com>`
+>&#x200B;>`Joan Harris <notifications@my.workfront.com>`
 
 Information om hur du konfigurerar brandväggen för din organisation för att öppna kommunikationen mellan din miljö och Adobe Workfront-servrarna finns i [Konfigurera tillåtelselista för din brandvägg](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

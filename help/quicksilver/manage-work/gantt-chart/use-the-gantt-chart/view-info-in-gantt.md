@@ -108,7 +108,7 @@ Så här visar du uppgifter i ett projekt från en lista med projekt:
 
    En lista med projekt visas.
 
-1. Klicka på ikonen **[!UICONTROL Gantt chart]** ![Gantt ](assets/gantt-icon-nwe.png) i skärmens övre högra hörn.
+1. Klicka på ikonen **[!UICONTROL Gantt chart]** ![Gantt &#x200B;](assets/gantt-icon-nwe.png) i skärmens övre högra hörn.
 
 1. Klicka på ikonen **[!UICONTROL Show Task List]** ![Visa aktivitetslista](assets/show-task-list-icon.png) .
 
@@ -181,7 +181,7 @@ Filter och grupperingar som du tillämpar på listan återspeglas både i projek
    Grupperingar som du tillämpar på listan återspeglas på [!UICONTROL Gantt Chart].\
    Mer information om hur du använder en gruppering finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Vyer visas inte på [!UICONTROL Gantt Chart]. När du exporterar [!UICONTROL Gantt Chart] (enligt beskrivningen i [ Exportera [!UICONTROL Gantt Chart] till PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) exporteras uppgiftslistan förutom [!UICONTROL Gantt chart], med den aktuella vyn tillämpad på listan.
+Vyer visas inte på [!UICONTROL Gantt Chart]. När du exporterar [!UICONTROL Gantt Chart] (enligt beskrivningen i [&#x200B; Exportera [!UICONTROL Gantt Chart] till PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) exporteras uppgiftslistan förutom [!UICONTROL Gantt chart], med den aktuella vyn tillämpad på listan.
 
 ## Konfigurera visningsalternativ
 

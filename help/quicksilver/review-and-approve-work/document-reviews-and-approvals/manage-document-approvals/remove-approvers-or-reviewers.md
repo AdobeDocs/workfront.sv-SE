@@ -63,7 +63,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Välj **Godkännanden** i den vänstra rutan.
 
-1. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort ](../assets/delete.png) som visas efter namnet.
+1. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](../assets/delete.png) som visas efter namnet.
 
    Godkännandet eller granskningsbegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
 
@@ -79,7 +79,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 1. Välj den version av dokumentet som du vill ta bort en godkännare eller granskare för i listrutan för version. Den senaste versionen väljs som standard.
 
-1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort ](../assets/delete.png) som visas efter namnet.
+1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](../assets/delete.png) som visas efter namnet.
 
    Godkännandet eller granskningsbegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
 

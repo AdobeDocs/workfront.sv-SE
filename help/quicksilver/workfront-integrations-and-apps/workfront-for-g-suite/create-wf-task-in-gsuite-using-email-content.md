@@ -68,7 +68,7 @@ Innan du kan skapa en [!DNL Workfront]-uppgift i [!DNL Google Workspace] måste 
 
 ## Skapa en [!DNL Adobe Workfront]-uppgift i [!DNL Google Workspace] med e-postinnehåll
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Öppna e-postmeddelandet i [!DNL Google Workspace] och klicka på ett alternativ i [!DNL Workfront for Google Workspace] för att konvertera e-postmeddelandet till en ny [!DNL Workfront]-åtgärd.
 
 1. Välj ett **[!UICONTROL Create new]**-alternativ för att ange om aktiviteten ska vara en del av ett projekt eller en personlig uppgift som är oberoende av ett projekt.

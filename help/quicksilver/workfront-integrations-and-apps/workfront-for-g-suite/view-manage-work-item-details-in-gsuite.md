@@ -64,7 +64,7 @@ Innan du kan visa och hantera information om arbetsobjekt i [!DNL Google Workspa
 
 ## Visa och hantera information om arbetsobjekt i [!DNL Google Workspace]
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Gå till aktiviteten [!DNL Workfront] eller problemet i [!DNL Google Workspace], enligt beskrivningen i [Åtkomst [!DNL Adobe Workfront] [!UICONTROL Home] från  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
    När du väljer en uppgift eller ett problem öppnas fliken **[!UICONTROL Details]**. I området ovanför fliken **[!UICONTROL Details]** visas namnet på det överordnade objektet, namnet på uppgiften eller utgåvan och [!UICONTROL Due date] (om det är en uppgift) eller [!UICONTROL Priority date] (om det är ett problem).

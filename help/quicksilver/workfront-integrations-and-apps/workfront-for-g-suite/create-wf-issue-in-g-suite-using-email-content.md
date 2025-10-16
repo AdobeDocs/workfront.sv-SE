@@ -68,7 +68,7 @@ Innan du kan skapa ett problem från [!DNL Google Workspace] måste du
 
 ## Skapa ett [!DNL Adobe Workfront]-problem i [!DNL Google Workspace] med e-postinnehåll
 
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Öppna e-postmeddelandet i [!DNL Google Workspace] och klicka på ett alternativ i [!DNL Workfront for Google Workspace] för att konvertera e-postmeddelandet till ett nytt [!DNL Workfront]-problem.
 
    ![Konvertera e-post](assets/convert-email-task-issue-update.png)

@@ -68,7 +68,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
    eller
 
-   Om du redigerar ett befintligt filter, en befintlig vy eller en befintlig gruppering markerar du det och klickar sedan på ikonen **[!UICONTROL Edit]** ![Redigera ](assets/edit-icon.png) .
+   Om du redigerar ett befintligt filter, en befintlig vy eller en befintlig gruppering markerar du det och klickar sedan på ikonen **[!UICONTROL Edit]** ![Redigera &#x200B;](assets/edit-icon.png) .
 
 1. Konfigurera filter, vy eller gruppering.
 
@@ -120,7 +120,7 @@ I de här stegen beskrivs hur du delar anpassade filter, vyer och grupperingar m
 
 1. Klicka på **[!UICONTROL Interface]** och sedan på något av följande: **[!UICONTROL Filters]**, **[!UICONTROL Views]** eller **[!UICONTROL Groupings]**.
 
-1. Markera filtret, vyn eller grupperingen som du vill dela och klicka sedan på ikonen **[!UICONTROL Share]** ![Dela ](assets/share-icon.png) .
+1. Markera filtret, vyn eller grupperingen som du vill dela och klicka sedan på ikonen **[!UICONTROL Share]** ![Dela &#x200B;](assets/share-icon.png) .
 1. Börja skriva namnet på specifika användare, team, roller, grupper eller företag som filtret, vyn eller grupperingen ska delas med och klicka sedan på namnet i listrutan.
 
    Mer information om delning finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).

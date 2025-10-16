@@ -87,7 +87,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    >
    >Du kan göra avancerade uppdrag direkt i uppgifts- eller utleveranslistan. Klicka i fältet **Uppdrag** på samma rad som uppgiften eller utgåvan och klicka sedan på <span class="preview">**Avancerat**</span> eller **Ikonen Personer** för att öppna fönstret Avancerade uppdrag. Gå till steg 5 om du vill fortsätta skapa avancerade uppdrag.
    ><span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-   >![Klicka på Avancerat eller på ikonen Personer ](assets/access-aa-from-lists.png)
+   >![Klicka på Avancerat eller på ikonen Personer &#x200B;](assets/access-aa-from-lists.png)
    >Exempelbild i produktionsmiljön:
    >![Klicka på ikonen Personer](assets/nwe-advanced-assignments-350x55.png)
 

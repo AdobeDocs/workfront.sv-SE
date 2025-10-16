@@ -65,7 +65,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till arbetsuppgiften där du vill överföra ett korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.
 1. (Valfritt) Skriv ett namn på korrekturet i textrutan **[!UICONTROL Proof Name]**.
@@ -91,7 +91,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till arbetsuppgiften där du vill överföra ett korrektur.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.
@@ -124,7 +124,7 @@ Du kan överföra en ny version av ett korrektur. Plugin-programmet kommer ihåg
    ![Återgå till arbetslistan](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till den arbetsuppgift som du behöver överföra ett dokument till.
-1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument ](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![Dokument &#x200B;](assets/documents.png) i navigeringsfältet.
 
 1. Klicka på **[!UICONTROL New Version]** längst ned i plugin-programmet.
 1. Aktivera växlingsknappen **[!UICONTROL Create a proof]**.

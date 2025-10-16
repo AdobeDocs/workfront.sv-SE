@@ -125,7 +125,7 @@ Or
 
 ## Navigera i avsnittet Måljustering
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](../goal-alignment/assets/dots-main-menu-icon.png) i skärmens övre högra hörn och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](../goal-alignment/assets/dots-main-menu-icon.png) i skärmens övre högra hörn och klicka sedan på **Mål**.
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Klicka på **Måljustering** i den vänstra panelen.

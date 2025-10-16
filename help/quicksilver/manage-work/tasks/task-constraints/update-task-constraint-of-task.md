@@ -87,15 +87,15 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
    | Fasta datum | Mer information finns i [Översikt över aktivitetsbegränsning: Fasta datum](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
    |---|---|
    | Måste börja på | Mer information finns i [Översikt över aktivitetsbegränsning: Måste starta den](../../../manage-work/tasks/task-constraints/must-start-on.md). |
-   | Måste avslutas | Mer information finns i [Översikt över uppgiftsbegränsning: Måste avslutas den ](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
+   | Måste avslutas | Mer information finns i [Översikt över uppgiftsbegränsning: Måste avslutas den &#x200B;](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
    | Så snart som möjligt | Mer information finns i [Översikt över aktivitetsbegränsning: Så snart som möjligt](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
    | Så sent som möjligt | Mer information finns i [Översikt över aktivitetsbegränsning: Så sent som möjligt](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
    | Tidigaste tillgängliga tid | Mer information finns i [Översikt över uppgiftsbegränsning: Tidigast tillgänglig tid](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
    | Senaste tillgängliga tid | Mer information finns i [Översikt över uppgiftsbegränsning: Senaste tillgängliga tid](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
-   | Starta senast | Mer information finns i [Översikt över aktivitetsbegränsning: Starta inte senare än ](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
-   | Starta tidigast | Mer information finns i [Översikt över aktivitetsbegränsning: Starta tidigast ](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
-   | Avsluta senast | Mer information finns i [Översikt över aktivitetsbegränsning: Slutför inte senare än ](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Avsluta tidigast | Mer information finns i [Översikt över aktivitetsbegränsning: Slutför inte tidigare än ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Starta senast | Mer information finns i [Översikt över aktivitetsbegränsning: Starta inte senare än &#x200B;](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
+   | Starta tidigast | Mer information finns i [Översikt över aktivitetsbegränsning: Starta tidigast &#x200B;](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
+   | Avsluta senast | Mer information finns i [Översikt över aktivitetsbegränsning: Slutför inte senare än &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
+   | Avsluta tidigast | Mer information finns i [Översikt över aktivitetsbegränsning: Slutför inte tidigare än &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 

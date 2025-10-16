@@ -71,7 +71,7 @@ Du kan skapa en ny standardvy eller anpassa en befintlig standardvy som du skapa
 
 1. Klicka på knappen **+ Ny vy** för att skapa en ny vy.
 eller
-Klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
+Klicka på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) som visas i muspekaren till höger om en befintlig vy som du vill redigera.
 Dialogrutan **Anpassa vy** visas.
 
 1. Gör något av följande i avsnittet **Förhandsvisa kolumn**:

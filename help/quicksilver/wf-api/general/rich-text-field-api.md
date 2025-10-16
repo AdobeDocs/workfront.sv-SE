@@ -123,4 +123,4 @@ Så här sparar du följande värden i ett RTF-fält med Workfront API:
 1. Använd metoden stringify på den JSON som beskrivs ovan för att göra en PUT-begäran och skicka uppdateringar.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

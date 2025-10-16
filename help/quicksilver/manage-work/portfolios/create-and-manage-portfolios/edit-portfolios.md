@@ -109,17 +109,17 @@ Du kan redigera en portfölj på portföljsidan eller redigera portföljer i en 
 
       Så här redigerar du information i avsnittet [!UICONTROL **Detaljer**]:
 
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse all]** ![Komprimera alla ](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på ikonen **Expandera** ![Expandera ](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse all]** ![Komprimera alla &#x200B;](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på ikonen **Expandera** ![Expandera &#x200B;](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
 
       >[!TIP]
       >
-      >Du kan klicka på ikonen **Expandera alla** ![Expandera ](assets/right-pointing-arrow.png) i det övre högra hörnet av detaljavsnittet när alla områden är komprimerade.
+      >Du kan klicka på ikonen **Expandera alla** ![Expandera &#x200B;](assets/right-pointing-arrow.png) i det övre högra hörnet av detaljavsnittet när alla områden är komprimerade.
 
       Om du vill ha information om de fält som visas i avsnittet [!UICONTROL **Portfolio Details**] kan du fortsätta redigera portföljen i rutan [!UICONTROL **Redigera Portfolio**] enligt beskrivningen nedan.
    1. (Valfritt) Om det inte finns några anpassade formulär kopplade till portföljen börjar du med att skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]** i det övre högra hörnet på sidan **Information** och markerar det sedan när det visas i listan.
    1. Lägg till information i fälten i områdena [!UICONTROL **Översikt**] och [!UICONTROL **Anpassad Forms**] och klicka sedan på [!UICONTROL **Spara ändringar**].
-   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![ Exportera ](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![&#x200B; Exportera &#x200B;](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)

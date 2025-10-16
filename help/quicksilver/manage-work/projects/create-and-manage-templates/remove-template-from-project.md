@@ -112,4 +112,4 @@ Om du vill ta bort mallinformation som har lagts till i projektet kan du göra n
 
      Mer information om hur du skapar en vy finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Markera alla uppgifter som identifieras i steg 2 som de har skapats från en mall och klicka sedan på **ikonen Ta bort****> Ja, Ta bort den**. Mer information finns i [Ta bort uppgifter](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Markera alla uppgifter som identifieras i steg 2 som de har skapats från en mall och klicka sedan på **ikonen Ta bort**&#x200B;**> Ja, Ta bort den**. Mer information finns i [Ta bort uppgifter](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

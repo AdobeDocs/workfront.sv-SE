@@ -170,15 +170,15 @@ Mer information om hur du kan associera en milstolpe med ett projekt och en mils
 
    Mer information om hur du associerar milstolpar till projekt och milstolpar till aktiviteter finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-1. (Valfritt) Välj en milstolpe i listan Milstolpbanor och klicka sedan på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att öppna milstolpbanan och redigera informationen.
-1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera ](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
+1. (Valfritt) Välj en milstolpe i listan Milstolpbanor och klicka sedan på ikonen **Redigera** ![Redigera &#x200B;](assets/edit-icon.png) för att öppna milstolpbanan och redigera informationen.
+1. (Valfritt) Klicka på ikonen **Exportera** ![Exportera &#x200B;](assets/export-icon.png) och välj sedan bland följande format för att exportera listan över milstolpbanor till en fil:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Tabbavgränsad
 
-1. (Valfritt) Markera en eller flera milstolpar i listan med milstolpar och klicka sedan på ikonen **Ta bort** ![Ta bort ](assets/delete-icon.png) för att ta bort den.
+1. (Valfritt) Markera en eller flera milstolpar i listan med milstolpar och klicka sedan på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete-icon.png) för att ta bort den.
 1. Klicka på **Ja, ta bort den**.
 
    Milstolpen tas bort och kan inte återställas. Milstolpbanan tas bort från alla projekt som tidigare associerats med den och alla milstolpar tas bort från de uppgifter som är associerade med dem.

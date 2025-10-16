@@ -213,7 +213,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav för Workfront-d
 
    * Klicka på varningsikonen bredvid initieringens namn.
    * Klicka på ett initiativ.
-   * Klicka på ikonen **[!UICONTROL More]** ![Mer ](assets/more-icon.png) till höger om initieringens namn och klicka sedan på **[!UICONTROL Edit]**.
+   * Klicka på ikonen **[!UICONTROL More]** ![Mer &#x200B;](assets/more-icon.png) till höger om initieringens namn och klicka sedan på **[!UICONTROL Edit]**.
 
      Panelen Initiativinformation visas till höger.
 

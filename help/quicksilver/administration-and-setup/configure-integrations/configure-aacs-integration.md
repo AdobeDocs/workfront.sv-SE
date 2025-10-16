@@ -278,8 +278,8 @@ Du kan skapa upp till 100 länkade mappar per mappträd.
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
    1. Om du vill lägga till en kapslad mapp i mappträdet klickar du på menyn med tre punkter bredvid mappen som du vill skapa en kapslad mapp i och väljer **Lägg till mapp**. Fyll i fälten enligt beskrivningen i Stega föregående steg.
-   1. Om du vill länka en mapp till Workfront markerar du mappen och klickar på **Skapa länkad mapp**   ikon ![Länk ](assets/link-folder.png) .
-   1. (Valfritt) Om du vill redigera en mapp markerar du mappen och klickar på ikonen **Redigera mapp** ![Redigera ](assets/edit-icon.png) .
+   1. Om du vill länka en mapp till Workfront markerar du mappen och klickar på **Skapa länkad mapp**   ikon ![Länk &#x200B;](assets/link-folder.png) .
+   1. (Valfritt) Om du vill redigera en mapp markerar du mappen och klickar på ikonen **Redigera mapp** ![Redigera &#x200B;](assets/edit-icon.png) .
    1. (Valfritt) Om du vill ta bort en mapp markerar du mappen och klickar på ikonen **Ta bort mapp** ![Ta bort mapp](assets/delete-folder.png) .
 1. (Villkorligt) Om du vill lägga till ytterligare ett mappträd klickar du på **+ Lägg till mappträd** och följer stegen i steg 5.
 

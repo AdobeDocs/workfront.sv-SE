@@ -29,7 +29,7 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 >
 >
 >* Instrumentpanelssidor stöds inte längre som inbäddade externa sidor i Dashboards. Befintliga kontrollpaneler ändras inte automatiskt för att ta bort dessa externa sidor, men ändringar av en kontrollpanel som innehåller en sådan referens kan inte sparas förrän referensen tas bort eller ändras.
->  > Följande Workfront.com-underdomäner stöds inte längre:
+>  &#x200B;> Följande Workfront.com-underdomäner stöds inte längre:
 >
 >     * /dashboards &#x200B;
 >     * /dashboard/:ID &#x200B;
@@ -166,7 +166,7 @@ Så här uppdaterar du informationen för en extern sida som används i en kontr
    ![Redigera extern sida infogat](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Uppdatera fälten som du vill ändra i rutan **Redigera extern sida** och klicka sedan på **Spara**.
-1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Klicka på **Spara + Stäng**.
 
 ## Visa externa sidor i en rapport

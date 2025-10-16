@@ -115,7 +115,7 @@ Du kan bifoga en mall till ett projekt från projektsidan eller från en projekt
 
 1. På sidan **Projekt** väljer du det projekt som du vill koppla en mall till.
 
-1. Klicka på ikonen **Mer** ![Mer ](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet.
+1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/qs-more-icon-on-an-object.png) till höger om projektnamnet.
 
    ![Fler listrutor](assets/more-dropdown.png)
 

@@ -86,7 +86,7 @@ Kommentarerna visas under objektet där timinmatningen och kommentaren loggades.
 
 Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripande tidrapporten liknar kommentarer i andra objekt.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Rader på huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om den är tillgänglig.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Rader på huvudmenyn](assets/lines-main-menu.png) i det övre vänstra hörnet eller Workfront, om den är tillgänglig.
 
 1. Klicka på **Tidrapporter**.
 1. Gå till tidrapporten där du vill göra en kommentar.
@@ -133,7 +133,7 @@ Du kan göra allmänna kommentarer om tidrapporten. Kommentarer i den övergripa
 
    * Skriv en ny kommentar och klicka på **Klar**.
    * Redigera en befintlig kommentar och klicka på **Klar** eller klicka på **Avbryt** för att ignorera ändringarna.
-   * Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort en sparad kommentar.
+   * Klicka på ikonen **Ta bort** ![Ta bort &#x200B;](assets/delete.png) om du vill ta bort en sparad kommentar.
 
      En blå markör visas i det övre högra hörnet av timpostrutan för att ange att kommentarer har loggats med tidsangivelsen.
 

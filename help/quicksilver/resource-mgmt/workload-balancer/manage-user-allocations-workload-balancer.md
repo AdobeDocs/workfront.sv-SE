@@ -208,7 +208,7 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
       >
       >Workfront-administratören bestämmer vilket schema som ska användas i hela systemet för att beräkna användarens kapacitet i området Resurshantering i installationsprogrammet. Mer information finns i [Konfigurera inställningar för resurshantering](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Klicka på menyn **Mer** ![Mer ](assets/qs-more-menu.png) för ett arbetsobjekt och klicka sedan på **Redigera allokeringar**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-menu.png) för ett arbetsobjekt och klicka sedan på **Redigera allokeringar**.
 
    ![Mer meny för arbetsobjekt](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,7 +222,7 @@ Som en del av tilldelningen av arbete till användare kan du ändra användarall
 
    >[!TIP]
    >
-   >Klicka på ikonen **Avbryt** ![Avbryt ](assets/cancel-allocations-wb.png) om du vill ta bort de allokeringar du har justerat.
+   >Klicka på ikonen **Avbryt** ![Avbryt &#x200B;](assets/cancel-allocations-wb.png) om du vill ta bort de allokeringar du har justerat.
 
    ![Spara eller avbryt justerade allokeringar](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

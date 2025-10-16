@@ -80,7 +80,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
 
 Du måste vara systemadministratör för att kunna aktivera den här integreringen.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera ](/help/_includes/assets/gear-icon-setup.png) .
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på ikonen **[!UICONTROL Setup]** ![Konfigurera &#x200B;](/help/_includes/assets/gear-icon-setup.png) .
 1. Klicka på **Granska och godkänn** > **Adobe GenStudio** i den vänstra panelen.
 1. Aktivera **Använd korrekturgodkännanden**.
    ![aktivera korrektur för GenStudio-inställning](assets/enable-proofing-gs.png)

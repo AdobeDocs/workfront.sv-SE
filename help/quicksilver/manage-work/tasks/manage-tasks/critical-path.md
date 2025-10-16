@@ -131,7 +131,7 @@ Så här visar du uppgifter på den kritiska sökvägen i Gantt-schemat:
 
    ![gantt_chart_icon__1_.png](assets/gantt-icon.png)
 
-1. Klicka på ikonen **Alternativ** ![Alternativ ](assets/options-icon.png) i det övre högra hörnet av Gantt-diagramavsnittet och välj sedan alternativet **Kritisk bana** i listrutan som visas. De uppgifter som finns på den kritiska banan har nu en röd linje ovanför tidslinjen.
+1. Klicka på ikonen **Alternativ** ![Alternativ &#x200B;](assets/options-icon.png) i det övre högra hörnet av Gantt-diagramavsnittet och välj sedan alternativet **Kritisk bana** i listrutan som visas. De uppgifter som finns på den kritiska banan har nu en röd linje ovanför tidslinjen.
 
    ![crtitical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
@@ -145,11 +145,11 @@ Så här visar du vilka uppgifter som finns på den kritiska sökvägen i en lis
 
 1. Klicka på **Åtgärder** i den vänstra panelen. Fliken **Uppgifter** öppnas.
 
-1. Klicka på ikonen **Visa** ![Visa ](assets/view-icon.png) och välj sedan **Status** . De åtgärder som finns på den kritiska sökvägen visar en **Kritisk sökväg** -flagga i kolumnen **Flaggor** i listan.
+1. Klicka på ikonen **Visa** ![Visa &#x200B;](assets/view-icon.png) och välj sedan **Status** . De åtgärder som finns på den kritiska sökvägen visar en **Kritisk sökväg** -flagga i kolumnen **Flaggor** i listan.
 
    eller
 
-   Klicka på ikonen **Filter** ![Filter ](assets/filters-icon.png) och välj sedan **+ Nytt filter**.
+   Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filters-icon.png) och välj sedan **+ Nytt filter**.
 1. I det första fältet skriver du *Är kritisk* och markerar den när den visas under avsnittet **Åtgärder** i listan.
 
    ![Aktiviteten är ett kritiskt filter](assets/task-is-critical.png)

@@ -120,7 +120,7 @@ Så här skapar eller redigerar du en plan:
 
 En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scenario Planner].
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![Filter ](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![Filter &#x200B;](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
 
    | Filter | Beskrivning |
    |---|---|
@@ -130,7 +130,7 @@ En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scena
 
    ![Listrutealternativ för planfilter](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![ Sök ](assets/search-icon.png) om du vill skriva ett nyckelord och snabbt hitta en plan i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![&#x200B; Sök &#x200B;](assets/search-icon.png) om du vill skriva ett nyckelord och snabbt hitta en plan i listan.
 
 1. Klicka på namnet på en befintlig plan för att redigera den och fortsätt med steg 7.
 

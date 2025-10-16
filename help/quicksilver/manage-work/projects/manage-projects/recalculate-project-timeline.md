@@ -93,8 +93,8 @@ Som standard räknas projekttidslinjer om automatiskt varje dag när projektomf�
 >* Om tidslinjen för ett projekt är längre än 15 år inaktiveras den automatiska omberäkningen för det projektet och du kan bara välja en manuell uppdateringstyp. Om du ändrar datum för projektet till mindre än 15 år måste du beräkna om tidslinjen manuellt en gång innan den beräknas automatiskt.
 >* I sandlådemiljöerna Förhandsgranska och Anpassad uppdatering inaktiveras nattomberäkningen och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för miljöerna Preview och Custom Refresh Sandbox.
 >* Om ett projekt är komplext kanske den automatiska tidslinjeberäkningen inte utförs.
->  > Ett exempel på ett komplext projekt kan vara ett projekt med flera beroenden, ett stort antal uppgifter, flera föregångare mellan projekt eller flera indrag för uppgifter.
->  > Workfront skickar en varning till höger om projektnamnet på projektsidan som talar om för användarna att projekttidslinjen måste beräknas om manuellt. Endast användare med behörigheten Hantera för projektet kan beräkna om tidslinjen manuellt.
+>  &#x200B;> Ett exempel på ett komplext projekt kan vara ett projekt med flera beroenden, ett stort antal uppgifter, flera föregångare mellan projekt eller flera indrag för uppgifter.
+>  &#x200B;> Workfront skickar en varning till höger om projektnamnet på projektsidan som talar om för användarna att projekttidslinjen måste beräknas om manuellt. Endast användare med behörigheten Hantera för projektet kan beräkna om tidslinjen manuellt.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >

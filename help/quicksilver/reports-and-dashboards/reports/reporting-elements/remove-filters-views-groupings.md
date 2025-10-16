@@ -74,14 +74,14 @@ Följande scenarier gäller när du tar bort eller tar bort ett filter med stand
 ### Ta bort ett filter med standardverktyget
 
 1. Gå till en lista med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper.
-1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
 1. Hovra över ett filter under **Delat med mig**, klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon-spectrum.png) och klicka sedan på **Ta bort**.
 1. Välj **Ta bort** i bekräftelsemeddelandet om du vill ta bort filtret permanent.
 
 ### Ta bort ett filter med standardverktyget
 
 1. Gå till en lista med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper.
-1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
+1. Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-nwepng.png) .
 1. Håll pekaren över ett filter som du har behörighet att ta bort, klicka på ikonen **Mer** ![Mer](assets/more-icon-spectrum.png) och klicka sedan på **Ta bort**.
 
    ![Ta bort filter](assets/new-filters-more-menu-options-with-delete.png)

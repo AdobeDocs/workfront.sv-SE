@@ -138,7 +138,7 @@ Du kan lägga till kommentarer till alla mål som du kan visa i Adobe Workfront-
 
 Du kan lägga till kommentarer till mål i uppdateringsavsnittet på målsidan.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det finns några, och klicka sedan på **Mål** .
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny &#x200B;](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![Huvudmenyrader](assets/lines-main-menu.png) i det övre vänstra hörnet, om det finns några, och klicka sedan på **Mål** .
 Detta öppnar mållistan.
 1. Leta reda på målet som du vill lägga till kommentarer i och klicka sedan på namnet för att öppna målsidan.
 1. Klicka på **Uppdateringar** i den vänstra panelen.

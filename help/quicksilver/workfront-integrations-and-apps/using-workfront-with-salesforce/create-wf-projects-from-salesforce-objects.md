@@ -162,7 +162,7 @@ Konfigurera utlösare i [!UICONTROL Salesforce]:
       >Projektet skapas endast när scenen uppdateras på [!UICONTROL Opportunity]. Ett unikt projekt skapas för varje produkt som anges när scenfältet uppdateras, och inte när produkterna läggs till i [!UICONTROL Opportunities].
 
 1. (Valfritt) Klicka på **[!UICONTROL New Trigger]**.
-1. (Valfritt) Välj **Konto i listrutan **[!UICONTROL [!DNL Salesforce] Object]**
+1. (Valfritt) Välj **Konto i listrutan &#x200B;** [!UICONTROL [!DNL Salesforce] Object]**
 **.
 
    Detta är ett obligatoriskt fält.
@@ -171,7 +171,7 @@ Konfigurera utlösare i [!UICONTROL Salesforce]:
    1. Välj en **[!UICONTROL Type]** i listrutan **[!UICONTROL Type]**.
 
       Vid ett **konto
-** anges som **[!UICONTROL Type]** som anges här i [!DNL Salesforce], en **[!UICONTROL Project]** skapas i [!DNL Workfront].
+**&#x200B; anges som &#x200B;** [!UICONTROL Type] **&#x200B; som anges här i [!DNL Salesforce], en &#x200B;** [!UICONTROL Project]** skapas i [!DNL Workfront].
 
       Detta är ett obligatoriskt fält.
 

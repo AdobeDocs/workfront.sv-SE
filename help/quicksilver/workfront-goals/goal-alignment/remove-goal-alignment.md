@@ -167,7 +167,7 @@ Removing goal alignment differs depending on which environment you use.
 
    ![Flytta om måljustering](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. I gruppen **Typ: Mål** väljer du ett mål och klickar sedan på ikonen **Koppla från** ![Koppla från ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) överst i listan.
+1. I gruppen **Typ: Mål** väljer du ett mål och klickar sedan på ikonen **Koppla från** ![Koppla från &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) överst i listan.
 
    Frånkopplingsrutan visas.
 

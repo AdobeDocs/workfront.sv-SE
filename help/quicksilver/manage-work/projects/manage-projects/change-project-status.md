@@ -101,6 +101,6 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
    eller
 
-   Klicka på menyn **Mer** ![Mer ](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
+   Klicka på menyn **Mer** ![Mer &#x200B;](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
 
    Projektstatusen uppdateras till den valda statusen.

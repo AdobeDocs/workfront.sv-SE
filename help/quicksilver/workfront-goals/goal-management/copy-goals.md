@@ -258,7 +258,7 @@ To copy goals in the Production environment:
    >
    >Om du inte har kopierat resultaten från det ursprungliga målet måste du först koppla det nya målet till en förloppsindikator innan du kan aktivera det och börja arbeta mot att uppnå det.
    >Mer information om hur du associerar mål med förloppsindikatorer finns i följande artiklar:
-   >* [Lägg till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md)
+   >* [Lägg till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md)
    >* [Lägg till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md)
    >* [Justera mål genom att ansluta dem i Adobe Workfront-mål](../goal-alignment/align-goals-by-connecting-them.md)
    >

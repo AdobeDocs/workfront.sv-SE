@@ -201,7 +201,7 @@ I följande tabell visas likheter och skillnader mellan resultat, aktiviteter oc
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>De erbjuder ett intervall av värden mellan start- och slutvärdena som visar hur nära du uppnår dem. Närheten till slutvärdet beräknar ett förloppsvärde för ditt mål. </td> 
    <td>✔</td> 
    <td>✔</td> 

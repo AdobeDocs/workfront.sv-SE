@@ -101,7 +101,7 @@ I den här artikeln beskrivs hur du får åtkomst till och använder panelen [!U
 
 Mer information om hur du får åtkomst till [!UICONTROL Summary] i [!UICONTROL Workload Balancer] finns i [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt ](../../documents/managing-documents/summary-for-documents.md).
+Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt &#x200B;](../../documents/managing-documents/summary-for-documents.md).
 
 
 ## Visa panelen [!UICONTROL Summary] i en lista över uppgifter eller problem

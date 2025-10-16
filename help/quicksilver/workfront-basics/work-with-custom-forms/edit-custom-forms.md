@@ -174,7 +174,7 @@ Du kan manuellt beräkna om anpassade fält för flera objekt genom att redigera
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront beräknar alla anpassade fält för alla markerade projekt.
->>Alla listor med objekt har inte den här funktionen.
+>&#x200B;>Alla listor med objekt har inte den här funktionen.
 >
 >Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du beräknar om beräknade anpassade fält i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden, tilldelningar eller ett stort antal anpassade fält.
 

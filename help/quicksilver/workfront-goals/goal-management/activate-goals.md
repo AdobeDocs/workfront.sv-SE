@@ -135,11 +135,11 @@ Gör minst något av följande för att kunna aktivera ett mål:
 
 * Lägg till ett resultat till målet
 
-  Mer information finns i [Lägga till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Mer information finns i [Lägga till resultat i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Lägg till en aktivitet i målet
 
-  Mer information finns i [Lägga till aktiviteter i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Mer information finns i [Lägga till aktiviteter i mål i Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Koppla ett projekt till målet
 

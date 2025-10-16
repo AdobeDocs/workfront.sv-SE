@@ -162,7 +162,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
             > 
             >Mer information om hur du anpassar inställningar finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
-1. (Valfritt) Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) i området **Tilldelat arbete** och välj sedan **Standardfilter** i området **Förslag** i filterrutan.
+1. (Valfritt) Klicka på ikonen **Filter** ![Filter &#x200B;](assets/filter-icon.png) i området **Tilldelat arbete** och välj sedan **Standardfilter** i området **Förslag** i filterrutan.
 
    När du använder standardfiltret visas användare som tillhör något av dina team och deras arbetsobjekt. Du kan redigera en kopia av det här filtret.
 
@@ -446,13 +446,13 @@ Sidan i ditt hemteam visas som standard.
 
    Du kan till exempel överväga att endast visa användare som tillhör dina team eller grupper. Mer information finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Valfritt) Klicka på ikonen **Filter** ![Filtrera ](assets/filter-icon.png) i området Tilldelad arbetsyta och välj alternativet **Det här projektets arbetsobjekt** i området **Förslag** i filterpanelen. Det här filtret är som standard avmarkerat.
+1. (Valfritt) Klicka på ikonen **Filter** ![Filtrera &#x200B;](assets/filter-icon.png) i området Tilldelad arbetsyta och välj alternativet **Det här projektets arbetsobjekt** i området **Förslag** i filterpanelen. Det här filtret är som standard avmarkerat.
 
    När det här alternativet är markerat visas endast de objekt som tilldelats användare i det valda projektet.
 
    När alternativet inte är markerat visas alla objekt som tilldelats användarna i projektet, oavsett vilka projekt som objekten tillhör.
 
-1. (Valfritt och rekommenderas) Använd ett filter på arbetsytan Tilldelad arbetsyta för att visa användare som är viktiga för dig men som kanske inte är tilldelade till objekt i projektet. Klicka sedan på ikonen **Visa alla användare** ![Visa alla användare ](assets/show-all-users-icon-project-workload-balancer.png) .
+1. (Valfritt och rekommenderas) Använd ett filter på arbetsytan Tilldelad arbetsyta för att visa användare som är viktiga för dig men som kanske inte är tilldelade till objekt i projektet. Klicka sedan på ikonen **Visa alla användare** ![Visa alla användare &#x200B;](assets/show-all-users-icon-project-workload-balancer.png) .
 
    Genom att visa alla användare kan du visa alla användare i Workfront som ännu inte är tilldelade till arbete eller andra roller i projektet.
 

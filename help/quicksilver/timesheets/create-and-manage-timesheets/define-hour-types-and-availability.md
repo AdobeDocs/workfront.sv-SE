@@ -74,7 +74,7 @@ Projektägaren avgör om alla timtyper som definieras på systemnivå är tillg�
 {{step1-to-projects}}
 
 1. På sidan **Projekt** väljer du det projekt som du vill fastställa tillgängligheten för timtyper för.
-1. Klicka på ikonen **Mer** ![Mer ](assets/more-icon.png) bredvid projektnamnet i sidhuvudet och klicka sedan på **Redigera**. Panelen **Redigera projekt** öppnas.
+1. Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon.png) bredvid projektnamnet i sidhuvudet och klicka sedan på **Redigera**. Panelen **Redigera projekt** öppnas.
 
 1. Gå till inställningen **Filtertimtyper** i avsnittet **Projektinställningar**.
 

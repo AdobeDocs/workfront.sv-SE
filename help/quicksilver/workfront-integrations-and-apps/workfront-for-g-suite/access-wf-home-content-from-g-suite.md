@@ -65,10 +65,10 @@ Innan du kan komma åt [!UICONTROL Home]-innehåll från [!DNL Google Workspace]
 ## Åtkomst till [!DNL Workfront] [!UICONTROL Home] från [!DNL Google Workspace]
 
 1. Kontrollera att du är inloggad på [!DNL Workfront].
-1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront ](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![Workfront &#x200B;](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
 1. Om du ser en vänsterpil högst upp i [!DNL Workfront] för [!DNL Google Workspace] klickar du på pilen för att gå till området [!UICONTROL Home].
 
-1. Klicka på den expanderade pilen **[!UICONTROL Sort by]** Expandera pil![ i området ](assets/dropdown-arrow.png) och klicka sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du söker.
+1. Klicka på den expanderade pilen **[!UICONTROL Sort by]** Expandera pil![&#x200B; i området &#x200B;](assets/dropdown-arrow.png) och klicka sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du söker.
 
    När du sorterar efter **[!UICONTROL Commit date]** eller **[!UICONTROL Planned completion]** datum är de äldsta arbetsobjekten högst upp.
 

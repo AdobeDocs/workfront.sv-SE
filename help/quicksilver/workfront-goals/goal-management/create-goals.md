@@ -254,7 +254,7 @@ Creating goals differs depending on what environment you use.
    Gör minst något av följande för att förbereda ett mål som ska aktiveras:
    * Lägg till ett resultat
 
-     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md).
+     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md).
    * Lägg till en aktivitet
 
      Mer information om hur du lägger till aktiviteter finns i [Lägga till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md).

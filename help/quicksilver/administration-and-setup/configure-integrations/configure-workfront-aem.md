@@ -241,7 +241,7 @@ Innan du börjar måste du aktivera behörigheter för Workfront Service:
 
 ## Konfigurera [!DNL Workfront] för integrering med [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-När du har installerat [!UICONTROL Workfront for AEM Assets] Connector (enligt beskrivningen i [ Installera [!UICONTROL Workfront for AEM Assets]-anslutningspaketet](#install-the-workfront-for-aem-assets-connector-package)) och konfigurerat [!UICONTROL AEM Assets] (enligt beskrivningen i [Konfigurera[!UICONTROL  AEM Assets] för integrering med  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)) måste du konfigurera [!DNL Workfront] för att länka dokument mellan [!DNL Workfront] och [!DNL AEM Assets].
+När du har installerat [!UICONTROL Workfront for AEM Assets] Connector (enligt beskrivningen i [&#x200B; Installera [!UICONTROL Workfront for AEM Assets]-anslutningspaketet](#install-the-workfront-for-aem-assets-connector-package)) och konfigurerat [!UICONTROL AEM Assets] (enligt beskrivningen i [Konfigurera[!UICONTROL &#x200B; AEM Assets] för integrering med  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)) måste du konfigurera [!DNL Workfront] för att länka dokument mellan [!DNL Workfront] och [!DNL AEM Assets].
 
 1. Logga in på Workfront som administratör.
 

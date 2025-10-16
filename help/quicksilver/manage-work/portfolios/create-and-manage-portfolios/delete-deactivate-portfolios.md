@@ -121,8 +121,8 @@ När du inaktiverar en portfölj kan du fortfarande komma åt den från området
 
 1. Klicka på **[!UICONTROL Portfolios]** .
 1. Klicka på namnet på portföljen.
-1. Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
+1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
 Portföljen inaktiveras omedelbart.
-1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Activate Portfolio]** för att återaktivera det.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Activate Portfolio]** för att återaktivera det.
 
 

@@ -71,7 +71,7 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilv
 
 1. Klicka på ett arbetsobjektnamn för att öppna sidan **Översikt**.
 1. I avsnittet **Snabblänkar** hittar du länken som du vill kopiera.
-1. Klicka på ikonen **Kopiera**![ Kopiera](assets/copy-icon.png) .
+1. Klicka på ikonen **Kopiera**![&#x200B; Kopiera](assets/copy-icon.png) .
    ![Kopiera länk](assets/copy-link.png)
 
 ## Öppna en snabblänk

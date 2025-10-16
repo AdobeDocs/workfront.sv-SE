@@ -51,7 +51,7 @@ Mer information om de effektivaste strategierna när du justerar mål finns i [K
 
 ## Överväganden för att justera mål
 
-* Ett mål kan inte bidra till mer än ett annat mål samtidigt. Även om du kan ha flera underordnade mål justerade mot samma överordnade mål, kan ett underordnat mål bara ha en överordnad. Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade ](#understand-parent-and-children-goals) i den här artikeln.
+* Ett mål kan inte bidra till mer än ett annat mål samtidigt. Även om du kan ha flera underordnade mål justerade mot samma överordnade mål, kan ett underordnat mål bara ha en överordnad. Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade &#x200B;](#understand-parent-and-children-goals) i den här artikeln.
 * Ett mål kan ha flera justerade (eller underordnade) mål samt flera aktiviteter och resultat. Dessutom kan varje underordnat mål ha andra aktiviteter och resultat som påverkar dess förlopp samt förloppet för det överordnade målet.
 
   >[!TIP]
@@ -71,7 +71,7 @@ Det finns två sätt att anpassa mål:
 
 * **En justering uppifrån och ned**: Du kan konvertera ett resultat eller en aktivitet för ett mål till ett annat mål. Det nya målet blir det underordnade målet för det ursprungliga målet som blir överordnat. Mer information om justering uppifrån och ned finns i [Justera mål genom att konvertera resultat och aktiviteter till mål](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade ](#understand-parent-and-children-goals) i den här artikeln.
+Mer information om mål för överordnade och underordnade finns i avsnittet [Förstå mål för överordnade och underordnade &#x200B;](#understand-parent-and-children-goals) i den här artikeln.
 
 ## Förstå mål för överordnade och underordnade {#understand-parent-and-children-goals}
 

@@ -71,7 +71,7 @@ Så här tar du bort tilldelning av arbetsobjekt från användare:
 1. Gör något av följande:
 
    * Hitta det objekt som du vill ta bort tilldelning för i en användares område, klicka på det och dra och släpp det i området Ej tilldelat eller i en annan användares område.
-   * Klicka på ikonen **Mer** ![Mer ](assets/more-icon-task-list.png) till höger om namnet på ett arbetsobjekt, klicka på **Tilldela det här till**, ta bort namnet på enheterna som tilldelats arbetsobjektet eller ange ett annat namn och klicka sedan på **Spara**.
+   * Klicka på ikonen **Mer** ![Mer &#x200B;](assets/more-icon-task-list.png) till höger om namnet på ett arbetsobjekt, klicka på **Tilldela det här till**, ta bort namnet på enheterna som tilldelats arbetsobjektet eller ange ett annat namn och klicka sedan på **Spara**.
 
      ![Tilldela detta till](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
