@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -40,14 +40,14 @@ I artiklarna i följande avsnitt beskrivs hur du kan konfigurera arbetsytorna i 
 * [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md)
 
-<!--*[Configure the Settings area of a record type](/help/quicksilver/planning/architecture/configure-record-type-settings.md)-->
+<div class="preview">
 
-<!--* <span class="preview">[Configure cross-workspace capabilities for record types](help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)</span>
+* [Posttyper för flera arbetsytor - översikt](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [Konfigurera funktioner för olika arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [Lägga till befintliga posttyper från en annan arbetsyta](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+* [Konfigurera inställningsområdet för en posttyp](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 
-* <span class="preview">[Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)</span>
--->
-
-<!--* <span class="preview">[Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)</span>-->
+</div>
 
 <!--* [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)-->
 

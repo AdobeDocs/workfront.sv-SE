@@ -1,26 +1,17 @@
 ---
 title: Konfigurera inställningsområdet för en posttyp
-description: Du kan redigera posttyper efter att de har sparats på sidan Inställningar.
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+description: Förutom att redigera en posttyp i rutan Redigera posttyp kan du även redigera posttyper på sidan Inställningar.
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog 
-
--->
 
 # Konfigurera inställningsområdet för en posttyp
 
@@ -32,7 +23,7 @@ recommendations: noDisplay, noCatalog
 
 Du kan konfigurera ytterligare inställningar för en posttyp efter att de har sparats i Adobe Workfront Planning.
 
-Beroende på vilka funktioner du vill definiera för en posttyp kan du konfigurera ytterligare inställningar för den genom att göra något av följande:
+Beroende på vilka funktioner du vill definiera för en posttyp kan du konfigurera ytterligare inställningar genom att göra något av följande:
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
@@ -46,7 +37,7 @@ Beroende på vilka funktioner du vill definiera för en posttyp kan du konfigure
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkraven för funktionerna i den här artikeln. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,30 +46,36 @@ Beroende på vilka funktioner du vill definiera för en posttyp kan du konfigure
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul><li><p>Alla Workfront-paket</p></li>
-<p>Och</p>
-<li><p>Planeringspaket för att skapa kopplingsbara posttyper</p></li>
-<li><p>Planning Plus-paket för att skapa centraliserade posttyper</p></li>
-</ul>
-<p>Eller:</p>
-<ul><li><p>Ett Workflow and Planning Prime- eller Ultimate-paket</p> </li></ul>
-<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av din kontoansvarige på Workfront. </p> 
-   </td>
+<p>Alla Workfront- och Planning-paket</p>
+<p>Alla Workfront- och Planning-paket</p>
+<p><b>ANMÄRKNING</b></p>
+<p>Så här konfigurerar du kopplingsbara posttyper: </p>
+<ul> 
+<li><p>Alla Workfront-paket och alla Planning-paket</p></li>
+<p>eller</p>
+<li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 
-<tr> 
+<p>Så här konfigurerar du globala posttyper:</p>
+
+<ul> 
+<li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
+<p>eller</p>
+<li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
+<p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
+   <td>   <p>Hantera behörigheter till en arbetsyta</p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
   </tr>  
 </tbody> 
@@ -86,7 +83,7 @@ Beroende på vilka funktioner du vill definiera för en posttyp kan du konfigure
 
 Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++    
 
 <!--Old:
 
@@ -164,12 +161,16 @@ Du kan definiera funktioner för olika arbetsytor för en posttyp genom att konf
 1. Gör något av följande:
 
    * Håll muspekaren över kortet för en posttyp och klicka på menyn **Mer** ![Mer](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Inställningar**
-eller
+
+     ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
+     eller
+
    * Klicka på ett posttypskort för att öppna posttypssidan, klicka på menyn **Mer** ![Mer](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Inställningar**.
 
-   <!--update screen shot at release-->
+   <!--update screen shot at prod??-->
 
-   ![Fler menyalternativ från posttypskort](assets/more-menu-options-from-record-type-card.png)
+   ![Inställningar för arbetsytan mellan arbetsytor på sidan Inställningar](assets/settings-page-cross-workspace-settings.png)
 
 1. Avsnittet **Inställningar för arbetsytan mellan arbetsytor** är markerat som standard.
 1. Aktivera eller inaktivera någon av följande inställningar:

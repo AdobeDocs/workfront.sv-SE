@@ -1,23 +1,18 @@
 ---
 title: Lägg till befintliga posttyper från en annan Workspace
 description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Workfront Planning kan du lägga till en befintlig posttyp som har skapats på en annan arbetsyta.
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
+
+---
+
 
 # Lägga till befintliga posttyper från en annan arbetsyta
 
@@ -56,7 +51,7 @@ Innan du lägger till poster på en arbetsyta från en global posttyp, ska du ä
    <td> 
 <ul><li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
 <p>eller</p>
-<li><p>Workflow and Planning Prime- och Ultimate-paket</p></p></li></ul>
+<li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></p></li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >Se till att det finns minst en posttyp som är global på minst en annan arbetsyta.
+>
+>Mer information finns i [Konfigurera funktioner för arbetsytan över arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 1. Börja skapa en posttyp enligt beskrivningen i artikeln [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md) och klicka sedan på **Lägg till befintlig**. <!--check this - the option might have been renamed in the UI-->
 

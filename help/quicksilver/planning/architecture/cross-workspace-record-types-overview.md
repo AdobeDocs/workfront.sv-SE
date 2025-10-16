@@ -1,25 +1,24 @@
 ---
 title: Posttypöversikt för arbetsytan över
-description: Globala posttyper kan läggas till på flera arbetsytor från en central eller primär arbetsyta i Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: Du kan aktivera posttyper som ska vara globala eller anslutningsbara. Globala posttyper kan läggas till i flera arbetsytor från en central eller primär arbetsyta i Adobe Workfront Planning, medan kopplingsbara posttyper kan anslutas till från andra arbetsytor än sina egna.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 0%
+
+---
+
 
 # Posttypöversikt för arbetsytan över flera arbetsytor
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ Du kan aktivera funktioner för olika arbetsytor för en posttyp i Adobe Workfro
 
 Följande är funktioner för olika arbetsytor för posttyper:
 
-* **Globala posttyper**: Användare kan lägga till globala posttyper i andra arbetsytor som de hanterar.
+* <span class="preview">**Globala posttyper**: Användare kan lägga till globala posttyper i andra arbetsytor som de hanterar.</span>
 
 * **Anslutningsbara posttyper**: Användare kan ansluta till den här posttypen från andra arbetsytor.
 
 I den här artikeln finns en översikt över posttyper för arbetsytor. Mer information om hur du definierar en posttyps funktioner för arbetsytan mellan olika arbetsytor finns i [Konfigurera funktioner för arbetsytor mellan arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
+<div class="preview">
 
 ## Översikt över globala posttyper
 
@@ -118,11 +119,12 @@ Posttypen som konfigurerats som global har följande egenskaper:
     * Add request forms to it
     * Add automations to it-->
 
-* Ingen användare kan utföra följande åtgärder på posttypen som lagts till från en global posttyp på en sekundär arbetsyta:
+* Ingen användare kan utföra följande åtgärder på en global posttyp på en sekundär arbetsyta:
 
    * Redigera den
 
      Du kan inte redigera utseendet, funktionerna för en arbetsyta eller fälten som lagts till från den ursprungliga arbetsytan.
+   * Dela
    * Skapa och hantera förfrågningsformulär
    * Skapa och hantera automatisering
 
@@ -151,6 +153,8 @@ Följande fall finns:
 * Om användaren har åtkomst skapas posten på den globala posttypens ursprungliga arbetsyta.
 
 * Om användaren inte har åtkomst får användaren ett felmeddelande om att han/hon inte har åtkomst till den globala posttypens ursprungliga arbetsyta och måste ange det arbetsyte-ID där han/hon har åtkomst för att skapa poster.
+
+</div>
 
 ## Översikt över kopplingsbara posttyper
 

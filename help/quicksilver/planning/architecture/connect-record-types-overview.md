@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1973'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Det finns två anslutningssteg i Workfront Planning:
 
 Tänk på följande när det gäller att ansluta posttyper:
 
-<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
+* <span class="preview">Du kan ha upp till 30 anslutna fält för en posttyp i Workfront Planning.</span>
 
 * Du kan ansluta följande enheter i Adobe Workfront Planning:
 
@@ -76,16 +76,14 @@ Tänk på följande när det gäller att ansluta posttyper:
 
 * När du har kopplat en posttyp till en annan posttyp eller till en objekttyp från ett annat program finns följande scenarier:
 
-   * **När du ansluter två typer av planeringspost** skapas ett länkat postfält för den posttyp som du ansluter från. Ett liknande länkat postfält skapas för den posttyp som du ansluter till <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->.
+   * **När du ansluter två typer av planeringspost** skapas ett länkat postfält för den posttyp som du ansluter från. Ett liknande länkat postfält skapas bara för den posttyp du ansluter till när du aktiverar inställningen Skapa motsvarande fält för länkad posttyp på fliken Ny anslutning.
 
      Om du till exempel ansluter posttypen&quot;Campaign&quot; med posttypen&quot;Product&quot; skapas ett länkat postfält (anslutningsfält) som du kallar&quot;Linked Product&quot; i posttypen Campaign. En länkad posttyp som automatiskt heter&quot;Campaign&quot; skapas på produktposttypen.
 
-     <div class="preview">
-
      Följande scenarier finns till exempel:
+
       * När du aktiverar fältet Skapa motsvarande för den länkade posttypsinställningen och kopplar posttypen &quot;Campaign&quot; med posttypen &quot;Product&quot;, skapas ett länkat postfält (anslutningsfält) som du namnger &quot;Linked Product&quot; för kampanjposttypen. En länkad posttyp som automatiskt heter&quot;Campaign&quot; skapas på produktposttypen.
       * När du inaktiverar fältet Skapa motsvarande för den länkade posttypsinställningen och kopplar posttypen &quot;Campaign&quot; med posttypen &quot;Product&quot;, skapas ett länkat postfält (anslutningsfält) som du kallar &quot;Linked Product&quot; för kampanjposttypen. En länkad posttyp med namnet&quot;Campaign&quot; skapas inte i produktposttypen.
-     </div>
 
      Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -95,7 +93,7 @@ Tänk på följande när det gäller att ansluta posttyper:
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
       * Planeringsposter visas på Workfront-objektets planeringflik. Mer information finns i [Hantera postanslutningar från Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Du kan skapa ett anpassat fält för planeringsanslutning och koppla det till ett Workfront-objekts anpassade formulär. Mer information finns i [Skapa ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **När du lägger till uppslagsfält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från.
@@ -137,27 +135,19 @@ När du har upprättat en anslutning mellan två posttyper eller mellan en post 
 
 Du kan välja om du vill koppla en post till flera poster åt gången eller en post åt gången till varandra.
 
-Beroende på hur många poster du kan lägga till i ett anslutet postfält och vilken miljö du använder för att skapa de anslutna fälten, kan du välja mellan följande anslutningstyper vid anslutning av posttyper:
+Följande anslutningstyper kan du välja mellan när du ansluter posttyper:
 
-<div class="preview">
+* När inställningen **Skapa motsvarande fält för den länkade posttypen** är inaktiverad kan du välja mellan:
 
-* I förhandsvisningsmiljön:
+   * [Flera val](#multi-select-connection-type)
+   * [Enkelval](#single-select-connection-type)
 
-   * När inställningen Skapa motsvarande fält för länkad posttyp är inaktiverad kan du välja mellan:
-
-      * [Flera val](#multi-select-connection-type)
-      * [Enkelval](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">När inställningen för att skapa motsvarande fält i den länkade posttypen är aktiverad </span> eller i produktionsmiljön kan du välja mellan följande i förhandsvisningsmiljön:
+* När inställningen **Skapa motsvarande fält för den länkade posttypen** är aktiverad kan du välja mellan:
 
    * [Många till många](#many-to-many-connection-type)
    * [En till många](#one-to-many-connection-type)
    * [Många till ett](#many-to-one-connection-type)
    * [En till en](#many-to-one-connection-type)
-
-<div class="preview">
 
 ### Anslutningstyp för flera val
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,9 @@ Dessutom kan arbetet för varje kampanj planeras i flera projekt i Workfront. F�
 
 När anslutningsfälten har skapats kan du koppla enskilda poster mellan de två posterna eller objekttyperna.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
+><span class="preview">Du kan ha upp till 30 anslutningsfält för en posttyp.</span>
 
 I den här artikeln beskrivs hur du kan koppla två typer av Workfront Planning-poster, eller en Workfront Planning-posttyp, till ett objekt från ett annat program.
 
@@ -74,14 +73,14 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 <ul> 
 <li><p>Alla Workfront- och Planning-paket</p></li>
 <p>eller</p>
-<li><p>Alla arbetsflödes- och planeringspaket</li></ul>
+<li><p>Alla arbetsflöden och alla planeringsdokument</li></ul>
 
 <p>Så här ansluter du posttyper från olika arbetsytor:</p>
 
 <ul> 
 <li><p>Alla Workfront- och Planning-paket</p></li>
 <p>eller</p>
-<li><p>Workflow and Planning Prime- och Ultimate-paket</p></li></ul>
+<li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
 <tr> 
@@ -191,9 +190,9 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
 1. Sök efter en posttyp eller välj något av följande:
 
-   * <span class="preview">En posttyp från den aktuella arbetsytan</span>
+   * En posttyp från den aktuella arbetsytan
 
-     <span class="preview">![Flervalsanslutningsväljaren för posttypen samma arbetsyta](assets/multi-select-connection-picker-record-type.png)</span>
+     ![Flervalsanslutningsväljaren för posttypen samma arbetsyta](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -202,27 +201,27 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    * En posttyp från en annan arbetsyta som konfigurerats för anslutning från andra arbetsytor.
 
-     <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
-        >[!TIP]
-        >
-        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
-        >
-        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
-
      >[!TIP]
      >
-     >Inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor** måste aktiveras för en posttyp på fliken **Avancerade inställningar** i rutan **Redigera posttyp** för att en posttyp ska kunna nås från andra arbetsytor. Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
-     > ![Fliken Redigera posttypsruta för avancerade inställningar](assets/edit-record-type-box-advanced-settings-tab.png)
+     >Inställningen **Tillåt anslutning till den här posttypen i andra arbetsytor** måste aktiveras för en posttyp i **Avancerade inställningar** <span class="preview"> eller fliken **Inställningar för arbetsyta**</span> i rutan **Redigera posttyp** för att en posttyp ska kunna nås från andra arbetsytor. Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
+     >
+     >Mer information finns i [Konfigurera funktioner för arbetsytan mellan arbetsytor för posttyper](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
+     >
+     >![Fliken Redigera posttypsruta för avancerade inställningar](assets/edit-record-type-box-advanced-settings-tab.png)
 
-     Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
+     <!--Old:
+        [!TIP]
+        The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+        -->
 
-     ![Ny anslutning som tillåter flera poster, ruta](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-   * <span class="preview">Ett **projekt, Portfolio, Program, Företag** eller **Grupp** från avsnittet **Workfront-objekttyper**.</span>
+   * Ett **projekt, Portfolio, program, företag** eller **grupp** från avsnittet **Workfront-objekttyper**.
 
-     <span class="preview">![Val av projektanslutning för Workfront](assets/multi-select-connection-picker-project.png)</span>
+     ![Val av projektanslutning för Workfront](assets/multi-select-connection-picker-project.png)
 
-   * **Experience Manager Assets** från avsnittet **Adobe-program**. <!--update screen shot??-->
+   * **Experience Manager Assets** från avsnittet **Adobe-program**.
 
      ![Val av AEM Assets-anslutning](assets/aem-assets-connection-selection.png)
 
@@ -239,47 +238,30 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    ![Ny anslutning för posttyp från en annan arbetsyta](assets/new-connection-allow-multiple-records-box.png)
 
-1. (Villkorligt) När du ansluter posttyper från samma arbetsyta, eller en Planning-posttyp med en Workfront-objekttyp, gör du något av följande, beroende på vilken miljö du använder:
+1. (Villkorligt) När du ansluter posttyper från samma arbetsyta, eller en Planning-posttyp med en Workfront-objekttyp, väljer du något av följande:
 
-   * I produktionsmiljön väljer du ett av följande **anslutningstyp**-alternativ för att ange hur många poster som användare kan ansluta till och från:
+   * **Flerval**: Välj det här alternativet om du vill tillåta en post från den aktuella posttypen att ansluta till flera poster från anslutningsposttypen.
+   * **Ett-val**: Välj det här alternativet om du vill tillåta en post från den aktuella posttypen att ansluta till en post från anslutningsposttypen.
 
-      * Många till många
-      * En till många
-      * Många till ett
-      * En till en
+1. Markera **Skapa motsvarande fält för den länkade posttypen**. När du väljer det här alternativet skapas ett anslutningsfält för den posttyp som du är ansluten till, förutom det anslutningsfält som läggs till den aktuella posttypen. Detta är inaktiverat som standard.
 
-     ![Många till många anslutningsväljare](assets/many-to-many-connection-picker.png)
+   >[!TIP]
+   >
+   >Förutom <span class="preview">gränsen på 30 anslutningsfält för en posttyp</span> finns det en gräns på 500 fält för en posttyp. Vi rekommenderar att den här inställningen inte används, särskilt för taxonomiska posttyper, för att undvika att den här gränsen uppnås.
+   >
 
-   <div class="preview">
+1. (Villkorligt) Om du har aktiverat **Skapa motsvarande fält för den länkade posttypen** kan du välja bland följande alternativ för att ange hur många poster som användare kan ansluta till och från:
 
-   * Gör följande i förhandsgranskningsmiljön:
-      1. Välj något av följande:
+   * Många till många
+   * En till många
+   * Många till ett
+   * En till en
 
-         * **Flerval**: Välj det här alternativet om du vill tillåta en post från den aktuella posttypen att ansluta till flera poster från anslutningsposttypen.
-         * **Ett-val**: Välj det här alternativet om du vill tillåta en post från den aktuella posttypen att ansluta till en post från anslutningsposttypen.
+   Mer information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-      2. Aktivera **Skapa motsvarande fält för den länkade posttypen**. När det här alternativet är aktiverat skapas ett anslutningsfält för den posttyp som du är ansluten till, förutom anslutningsfältet som läggs till den aktuella posttypen. Detta är inaktiverat som standard.
-
-         >[!TIP]
-         >
-         >Det finns en gräns på 500 fält för en posttyp. Vi rekommenderar att den här inställningen inte används, särskilt för taxonomiska posttyper, för att undvika att den här gränsen uppnås.
-
-         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
-
-      3. (Villkorligt) Om du har aktiverat **Skapa motsvarande fält för den länkade posttypen** kan du välja bland följande alternativ för att ange hur många poster som användare kan ansluta till och från:
-
-         * Många till många
-         * En till många
-         * Många till ett
-         * En till en
-
-     </div>
-
-     Mer information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-
-     >[!NOTE]
-     >
-     >Om du väljer En till många eller En till en för anslutningstypen och senare vill ansluta en post eller ett objekt som redan är anslutet någon annanstans får du en varning om att anslutningen tar bort den från den ursprungliga anslutningen. Du kan tillåta borttagning eller välja en annan post.
+   >[!NOTE]
+   >
+   >Om du väljer En till många eller En till en för anslutningstypen och senare vill ansluta en post eller ett objekt som redan är anslutet någon annanstans får du en varning om att anslutningen tar bort den från den ursprungliga anslutningen. Du kan tillåta borttagning eller välja en annan post.
 
 1. (Villkorligt och valfritt) När du väljer att ansluta ett Workfront-objekt väljer du ett **anpassat formulär** bland **Länka endast objekt som matchar villkoren**. Endast objekt som har de markerade anpassade formulären kopplade kan länkas till den valda posttypen. Du kan markera flera formulär.
 
@@ -291,7 +273,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
    >[!NOTE]
    >
-   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Villkorligt) När du väljer att ansluta till Experience Manager Assets eller till en posttyp för Workfront Planning väljer du något av följande alternativ i området **Postutseende**:
@@ -395,7 +377,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >* **UNIQUE**: $100 000
    >
 
-1. (Valfritt) Använd ikonen **sök** ![Sök &#x200B;](assets/search-icon.png) för att söka efter ett fält.
+1. (Valfritt) Använd ikonen **sök** ![Sök ](assets/search-icon.png) för att söka efter ett fält.
 
 1. Klicka på **Lägg till fält** för att spara ändringarna.
 
@@ -409,13 +391,14 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
 
      Om du t.ex. har länkat en kampanjposttyp med en programposttyp och namngett det programlänkade postfältet&quot;Programinformation&quot;, markerat för att även visa programmets budgetfält i kampanjens tabellvy, får det länkade fältet automatiskt namnet `Budget (from Program information)` i kampanjens tabellvy.
 
-   * När du länkar posttyper till varandra läggs ett länkat postfält också till på den posttyp som du länkar till, <span class="preview">endast när du aktiverar Skapa motsvarande fält för den länkade posttypsinställningen.</span> Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
+   * När du länkar posttyper till varandra läggs ett länkat postfält också till på den posttyp som du länkar till, bara när du aktiverar inställningen **Skapa motsvarande fält för den länkade posttypen**. Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
 
      Om du t.ex. länkar posttypen &quot;Produkt&quot; från posttypen &quot;Kampanj&quot; och namnger det anslutna fältet i Campaign &quot;Länkad produkt&quot;, skapas ett &quot;Kampanjlänkat&quot; postfält för posttypen Produkt.
 
      >[!TIP]
      >
-     > Ett länkat postfält skapas inte för objekt från ett annat program i respektive program. <span class="preview">Vi rekommenderar att du inte skapar länkar för taxonomiska posttyper eftersom det finns en gräns på 500 fält <!--<span class="preview">and a limit of 30 connected fields</span>--> för varje posttyp.</span>
+     > Ett länkat postfält skapas inte för objekt från ett annat program i respektive program.
+     >Vi rekommenderar att du inte skapar länkar till taxonomiska posttyper eftersom det finns en gräns på 500 fält, <span class="preview">, utöver gränsen på 30 anslutna fält </span> för varje posttyp.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

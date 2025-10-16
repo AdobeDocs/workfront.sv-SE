@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '5253'
+source-wordcount: '5463'
 ht-degree: 0%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=sv-SE ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -238,8 +238,8 @@ Mer information finns i [Importera fält från Workfront](/help/quicksilver/plan
    * [Skapad den](#created-date)
    * [Senast ändrad av](#last-modified-by)
    * [Senast ändrat den](#last-modified-date)
-   * <span class="preview">[Godkänt datum](#approved-date)</span>
-   * <span class="preview">[Godkänd av](#approved-by)</span>
+   * [Godkänt den](#approved-date)
+   * [Godkänd av](#approved-by)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -299,7 +299,7 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 
 >[!NOTE]
 >
-><span class="preview">Förutom de funktioner som beskrivs i det här avsnittet kan du lägga till nya alternativ när du redigerar en posts flervalsfältvärde infogat i tabellvyn. Mer information finns i avsnittet Redigera information om envalsfält eller flervalsfält i artikeln [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
+>Förutom de funktioner som beskrivs i det här avsnittet kan du lägga till nya alternativ när du redigerar en posts flervalsfältvärde infogat i tabellvyn. Mer information finns i avsnittet&quot;Redigera information om envalsfält eller flervalsfält&quot; i artikeln [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Flera val**.
@@ -327,23 +327,20 @@ Du kan använda ett flervalsfält för att hämta ytterligare information i valf
 
    Det nya flervalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
-<!--
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. <span class="preview">(Valfritt) Håll markören över fältnamnet i tabellvyn, klicka på listrutan till höger om fältnamnet och klicka sedan på **Redigera fält**.</span>
+1. <span class="preview">Aktivera inställningen **Visa värden** om du vill visa värdena för varje val. Värdena är namnen på de olika alternativen, så som de visas i Workfront-databasen. </span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront tilldelar unika värden för varje val. </span>
+   >
+   >* <span class="preview">Värdena matchar urvalsnamnet i gemener. Flera ord avgränsas med ett understreck. </span>
+   >
+   >* <span class="preview">Värden kan upprepas mellan flera fält, men de måste vara unika för ett fält.</span>
+   >
+   ><span class="preview"> ![Visa värdeväxlingsknapp](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
-
--->
+1. <span class="preview">(Valfritt) Använd valvärden i dina API-anrop och andra integreringar. </span>
 
 ### Enkelval {#single-select}
 
@@ -351,13 +348,12 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 
 >[!NOTE]
 >
-><span class="preview">Förutom de funktioner som beskrivs i det här avsnittet kan du lägga till nya alternativ när du redigerar en posts envalsfältvärde infogat i tabellvyn. Mer information finns i avsnittet Redigera information om envalsfält eller flervalsfält i artikeln [Redigera poster](/help/quicksilver/planning/records/edit-records.md).</span>
+>Förutom de funktioner som beskrivs i det här avsnittet kan du lägga till nya alternativ när du redigerar en posts envalsfältvärde infogat i tabellvyn. Mer information finns i avsnittet&quot;Redigera information om envalsfält eller flervalsfält&quot; i artikeln [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Enkelval**.
 
    ![Fälttyp för enval](assets/single-select-field-type.png)
-
 
 1. Lägg till följande information på fliken **Nytt fält**:
    * **Namn**: Fältets namn, så som det kommer att visas i en tabell eller på postens informationssida. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -379,24 +375,20 @@ Med envalsfält hämtas ytterligare information i valfritt format genom att du v
 
    Det nya envalsfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
 
-<!--
+1. <span class="preview">(Valfritt) Håll markören över fältnamnet i tabellvyn, klicka på listrutan till höger om fältnamnet och klicka sedan på **Redigera fält**.</span>
+1. <span class="preview">Aktivera inställningen **Visa värden** om du vill visa värdena för varje val. Värdena är namnen på de olika alternativen, så som de visas i Workfront-databasen. </span>
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront tilldelar unika värden för varje val. </span>
+   >
+   >* <span class="preview">Värdena matchar urvalsnamnet i gemener. Flera ord avgränsas med ett understreck. </span>
+   >
+   >* <span class="preview">Värden kan upprepas mellan flera fält, men de måste vara unika för ett fält.</span>
+   >
+   ><span class="preview"> ![Visa värdeväxlingsknapp](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
-
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
-
--->
+1. <span class="preview">(Valfritt) Använd valvärden i dina API-anrop och andra integreringar. </span>
 
 ### Datum {#date}
 
@@ -438,7 +430,7 @@ Nummerfälttyper samlar in information i talformat.
 >Nummerfält visas som en typ av enradigt textfält i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som siffror efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Number**.
@@ -468,7 +460,7 @@ Procentfälttyper samlar in information i talformat följt av ett procenttecken.
 >Procentfält visas som en enkelradig textfälttyp i ett formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena för dessa fält visas som procenttal efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Procent**.
@@ -508,7 +500,7 @@ Valutafälttyper samlar in information i ett talformat som föregås av en valut
 >Valutafält visas som en enkelradig textfälttyp i en formulärbyggare för begäran.
 >
 >Fältformatet bevaras dock och värdena i dessa fält visas som valuta efter att begäran har skickats, på posttypen och på sidan med information om begäran.
->&#x200B;>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Valuta**.
 
@@ -583,7 +575,7 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som är upp till fyra fält (och objekt) utanför den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp (1) och aktiviteten är kopplad till kampanjposttypen (2) som är kopplad till ett Workfront-projekt (3), kan du referera till projektets budgetfält (4) i formeln som du skapar för aktivitetsposttypen.
    >
-   >![Formelexempel för projektbudget fyra fält har tagits bort &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formelexempel för projektbudget fyra fält har tagits bort ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Valfritt) Klicka på **Maximera** för att öppna formelrutan i ett större område.
@@ -696,7 +688,6 @@ Du kan använda fälttypen Skapat för att lägga till datumet då posten skapad
 
    Det nya fältet Skapad av-datum läggs till som en kolumn till posttypen och dess värden är förifyllda med datumet (eller datum och tid) när posten skapades.
 
-
 ### Senast ändrad av
 
 Du kan använda fälttypen Senast ändrad av för att lägga till användaren som senast ändrade posten till en post. Det här är ett skrivskyddat fält och fyller automatiskt i med namnet på den användare som var inloggad när posten senast uppdaterades.
@@ -713,7 +704,6 @@ Du kan använda fälttypen Senast ändrad av för att lägga till användaren so
 1. Klicka på **Skapa**.
 
    Det nya fältet Senast ändrad efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som senast ändrade varje post.
-
 
 ### Senast ändrat den
 
@@ -748,8 +738,6 @@ Du kan använda fälttypen Senaste ändringsdatum för att lägga till datumet n
 
    Det nya fältet Senast ändrad datumtyp läggs till som en kolumn till posttypen och dess värden är förifyllda med datumet (eller datum och tid) när posten senast ändrades.
 
-<div class="preview">
-
 ### Godkänt den
 
 Du kan använda fälttypen Godkänt datum för att lägga till datumet när en begäran godkändes och det resulterade i att posten skapades. Det här är ett skrivskyddat fält och fyller automatiskt i med datumet (och eventuellt med tiden) när begäran godkändes av den senaste godkännaren. I det här fallet bör godkännandedatumet sammanfalla med datumet då posten skapades.
@@ -759,7 +747,6 @@ Du kan använda fälttypen Godkänt datum för att lägga till datumet när en b
 >Fältet Godkänt datum fylls endast i med information för poster som har skapats genom att skicka ett begärandeformulär som är associerat med godkännare.
 >
 >Om formuläret är kopplat till mer än en godkännare registreras endast datumet för det senaste godkännandebeslutet i fältet Godkänt datum.
-
 
 1. Börja skapa ett fält enligt beskrivningen i avsnittet [Skapa fält från grunden](#create-fields-from-scratch) i den här artikeln och välj sedan fälttypen **Skapad**.
 
@@ -810,8 +797,6 @@ Du kan använda fälttypen Godkänd av för att lägga till den användare som s
 1. Klicka på **Skapa**.
 
    Det nya fältet Godkänd efter typ läggs till som en kolumn till posttypen och dess värden är förifyllda med namnet på den användare som senast ändrade varje post.
-
-</div>
 
 <!--
 

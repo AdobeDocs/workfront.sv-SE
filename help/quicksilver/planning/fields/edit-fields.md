@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -200,8 +200,6 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
    Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
-<div class="preview">
-
 ## Lägga till nya alternativ i ett befintligt markeringsfält när du redigerar poster i tabellvyn
 
 <!--some of this information is also available in Edit records article - update both when necessary-->
@@ -230,6 +228,5 @@ Så här lägger du till ett nytt val i ett befintligt markeringsfält när du r
 
    Det nya alternativet läggs omedelbart till i fältet för en markering.
 
-   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
+   <span class="preview">Ett nytt värde läggs också till för varje alternativ. Du kan använda valvärden i API-anrop eller andra integreringar. Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).</span>
 
-</div>

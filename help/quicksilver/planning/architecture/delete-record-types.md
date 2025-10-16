@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Ta bort posttyper
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -52,10 +52,12 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 <li><p>Alla Workfront- och Planning-paket</p></li>
 <p>eller</p>
 <li><p>Alla arbetsflöden och alla planeringsdokument</p></li></ul>
-<!--<p>To delete global record types:</p>
-<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
+<div class="preview">
+<p>Så här tar du bort globala posttyper:</p>
+<ul><li><p>Alla Workfront-paket och ett Planning Plus-paket</p></li>
+<p>eller</p>
+<li><p>Alla arbetsflöden och ett Planning Prime- eller Ultimate-paket</p></li></ul>
+</div>
 <p>Mer information om vad som ingår i respektive Workfront Planning-paket får du av Workfront. </p> 
    </td> 
   <tr> 
@@ -71,7 +73,7 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 </tbody> 
 </table>
 
-*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -148,14 +150,13 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 * Du kan inte återställa borttagna posttyper eller deras information.
 * Vi rekommenderar att du återskapar de fält och poster som är kopplade till den posttyp som du vill ta bort på en annan posttyp innan du tar bort dem.
 
-<!--
 <div class="preview">
 
-* You cannot delete a global record type that has been added to other workspaces. 
+* Du kan inte ta bort en global posttyp som har lagts till i andra arbetsytor.
 
-   For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
+  Mer information finns i avsnittet [Ta bort globala posttyper](#delete-global-record-types) i den här artikeln.
 
-</div>-->
+</div>
 
 ## Ta bort posttyper
 
@@ -180,71 +181,68 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 
    Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort och kan inte återställas.
 
-<!--
-
 <div class="preview">
 
-## Delete global record types
+## Ta bort globala posttyper
 
-The following scenarios exist when deleting global record types:
+Följande scenarier gäller när globala posttyper tas bort:
 
-* If a record type configured as global has not yet been added to another workspace, you can delete it from its original workspace. 
+* Om en posttyp som konfigurerats som global ännu inte har lagts till på en annan arbetsyta kan du ta bort den från den ursprungliga arbetsytan.
 
-* If a record type configured as a global record type has been added to at least one other workspace, you cannot delete it from its original workspace. You must first remove (by deleting) global record types from the secondary workspaces where they were added and then you can permanently delete the global record type from its original workspace. 
+* Om en posttyp som konfigurerats som en global posttyp har lagts till i minst en annan arbetsyta, kan du inte ta bort den från den ursprungliga arbetsytan. Du måste först ta bort (genom att ta bort) globala posttyper från de sekundära arbetsytorna där de lades till och sedan ta bort den globala posttypen permanent från den ursprungliga arbetsytan.
 
-### Delete a global record type from the original workspace
+### Ta bort en global posttyp från den ursprungliga arbetsytan
 
-You can delete a record type from its original workspace if it's no longer relevant. 
+Du kan ta bort en posttyp från den ursprungliga arbetsytan om den inte längre är relevant.
 
-1. Go to the global record type in its original workspace. 
+1. Gå till den globala posttypen på den ursprungliga arbetsytan.
 
-1. (Conditional) Do one of the following, depending on whether the global record type has been added to secondary workspaces: 
+1. (Villkorligt) Gör något av följande, beroende på om den globala posttypen har lagts till i sekundära arbetsytor:
 
-   * If the record type was not added to a secondary workspace, click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**. 
-   * If the record type was added to at least one other secondary workspace, first, go to the secondary workspace and delete the global record from that space. 
+   * Om posttypen inte har lagts till på en sekundär arbetsyta klickar du på menyn **Mer** ![Mer](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klickar sedan på **Ta bort**.
+   * Om posttypen lades till i minst en annan sekundär arbetsyta går du först till den sekundära arbetsytan och tar bort den globala posten från den arbetsytan.
 
-      For information, see the section [Delete a global record type from a secondary workspace](#delete-a-global-record-type-from-a-secondary-workspace) in this article. 
-   
-1. (Conditional) Continue deleting the record type, as described in the section [Delete record types](#delete-record-types-1) in this article.
+     Mer information finns i avsnittet [Ta bort en global posttyp från en sekundär arbetsyta](#delete-a-global-record-type-from-a-secondary-workspace) i den här artikeln.
 
-   The following things occur: 
+1. (Villkorligt) Fortsätt ta bort posttypen enligt beskrivningen i avsnittet [Ta bort posttyper](#delete-record-types-1) i den här artikeln.
 
-   * The global record type is removed from the original workspace and the record type, its records and fields cannot be recovered.
-   * All global record types from the secondary workspaces and their records are also removed.
+   Följande saker händer:
 
-### Delete a global record type from a secondary workspace
+   * Den globala posttypen tas bort från den ursprungliga arbetsytan och posttypen, dess poster och fält kan inte återställas.
+   * Alla globala posttyper från de sekundära arbetsytorna och deras poster tas också bort.
 
-You can delete a record type you added from another workspace if no longer needed. 
+### Ta bort en global posttyp från en sekundär arbetsyta
 
-Consider the following:
+Du kan ta bort en posttyp som du har lagt till från en annan arbetsyta om den inte längre behövs.
 
-* Deleting a global record type from a secondary workspace will only remove it from the secondary workspace. The record type remains in the original workspace. 
+Tänk på följande:
 
-* When you delete a global record type from a secondary workspace, the following are also deleted:
+* Om du tar bort en global posttyp från en sekundär arbetsyta tas den bara bort från den sekundära arbetsytan. Posttypen finns kvar på den ursprungliga arbetsytan.
 
-   * The records added from the secondary workspace.
+* När du tar bort en global posttyp från en sekundär arbetsyta tas även följande bort:
 
-   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+   * Posterna som lagts till från den sekundära arbetsytan.
 
-* Global record types deleted from their secondary workspaces cannot be recovered. 
+  <!--Coming later: * The fields added from the secondary workspace.-->
 
-* The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+* Det går inte att återställa globala posttyper som har tagits bort från deras sekundära arbetsytor.
 
-To delete a global record type from a secondary workspace: 
+* Den ursprungliga posttypen finns kvar på den ursprungliga arbetsytan och på andra arbetsytor där den har lagts till.
 
-1. Go to the global record type in its secondary workspace. 
+Ta bort en global posttyp från en sekundär arbetsyta:
 
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
-1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+1. Gå till den globala posttypen på den sekundära arbetsytan.
 
-   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) på posttypens kort, eller till höger om posttypens namn på sidan, och klicka sedan på **Ta bort**.
+1. (Villkorligt) Skriv **delete** i det angivna fältet och klicka sedan på **Ta bort permanent**.
 
-   The following things occur: 
+   ![Ta bort bekräftelseruta för den sekundära globala posttypen](assets/delete-secondary-global-record-type.png)
 
-   * The record type created from a global record type is removed from the selected workspace. 
-   * The original record type with its fields remain in their original workspace. 
-   * The record type remains in all other workspaces where it's been added.
-   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
-   
-</div>   
-   -->
+   Följande saker händer:
+
+   * Posttypen som skapas från en global posttyp tas bort från den valda arbetsytan.
+   * Den ursprungliga posttypen med dess fält finns kvar på den ursprungliga arbetsytan.
+   * Posttypen finns kvar på alla andra arbetsytor där den har lagts till.
+   * Posterna <!--and fields--> som lagts till i posttypen från den aktuella arbetsytan tas bort. Alla andra poster som läggs till från ytterligare arbetsytor där den globala posttypen lades till bevaras på deras respektive arbetsytor och på den ursprungliga arbetsytan. &lt;!—Fält bevaras i de arbetsytor där de lades till.
+
+</div>
