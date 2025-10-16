@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{important-admin-console-onboard}}
 
@@ -128,16 +124,16 @@ Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksi
       <td>Gör att du kan välja att aktivera eller inaktivera arbetslistan Prioriteter för dina användare. Användarna kommer fortfarande att se Prioritetsikonerna i Workfront, men de kommer inte att ha tillgång till funktionerna. Mer information om prioriteringar finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Kom igång med prioriteringar</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Aktivera AI</span> </td> 
-      <td><span class="preview">Gör att du kan välja att aktivera AI, inklusive AI-assistenten. <p><b>Obs!</b> Din organisation måste uppfylla specifika krav för att kunna aktivera AI. Mer information om AI, inklusive kraven, finns i <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Översikt över AI Assistant</a>.</p></span></td> 
+      <td role="rowheader">Aktivera AI </td> 
+      <td>Gör att du kan välja att aktivera AI, inklusive AI-assistenten. <p><b>Obs!</b> Din organisation måste uppfylla specifika krav för att kunna aktivera AI. Mer information om AI, inklusive kraven, finns i <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Översikt över AI Assistant</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Fyll i formulär automatiskt </span></td> 
-      <td><span class="preview">Gör att du kan välja att aktivera möjligheten att fylla i begärandeformulär automatiskt baserat på tidigare begärandedata. Mer information om Komplettera automatiskt i formulär finns i <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Fyll i en begäran automatiskt från tidigare data</a>.</span></td> 
+      <td role="rowheader">Fyll i formulär automatiskt </td> 
+      <td>Gör att du kan välja att aktivera möjligheten att fylla i begärandeformulär automatiskt baserat på tidigare begärandedata. Mer information om Komplettera automatiskt i formulär finns i <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Fyll i en begäran automatiskt från tidigare data</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Anmäl dig till AI Betas </span></td> 
-      <td><span class="preview">Här kan du välja att aktivera AI-funktioner som finns i Beta. Om du aktiverar det här alternativet kan du välja vilka AI Beta-funktioner som ska aktiveras. Mer information om alla AI Beta-funktioner får du om du klickar på informationsikonen bredvid den funktionen.</span></td> 
+      <td role="rowheader">Anmäl dig till AI Betas </td> 
+      <td>&gt;Här kan du välja att aktivera AI-funktioner som finns i Beta. Om du aktiverar det här alternativet kan du välja vilka AI Beta-funktioner som ska aktiveras. Mer information om alla AI Beta-funktioner får du om du klickar på informationsikonen bredvid den funktionen.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testmiljöer</td> 

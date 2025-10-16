@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '3042'
+source-wordcount: '2686'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Om du vill skapa ett begärandeformulär måste du börja skapa formuläret, st�
 
 ### Börja skapa ett begärandeformulär
 
-Du kan skapa ett begärandeformulär från den posttyp som är associerad med formuläret, <span class="preview">eller från området Begäranden i Workfront.</span>
+Du kan skapa ett begärandeformulär från den posttyp som är associerad med formuläret <!--span class="preview">, or from the Requests area of Workfront.</span>-->.
 
 #### Skapa ett begärandeformulär av en posttyp
 
@@ -136,37 +136,41 @@ Du kan skapa ett begärandeformulär från den posttyp som är associerad med fo
    Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
 1. Fortsätt till [Konfigurera formuläret](#configure-the-form).
 
+<!--
+
 <div class="preview">
 
-#### Skapa ett begärandeformulär från området Begäranden i Workfront
+#### Create a request form from the Requests area of Workfront
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Begäranden**.
-1. Klicka på **Begär formulär** i skärmens övre högra hörn.
-1. (Villkorligt) Om du redigerar ett befintligt begärandeformulär markerar du det i listan och fortsätter sedan med [Konfigurera formuläret](#confgure-the-form).
-1. Om du skapar ett nytt begärandeformulär klickar du på **Nytt begärandeformulär** i skärmens övre högra hörn.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
+1. In the upper-right corner of the screen, click **Request forms**.
+1. (Conditional) If you are editing an existing request form, select it from the list, then continue to [Configure the form](#confgure-the-form).
+1. If you are creating a new request form, in the upper-right corner of the screen, click **New request form**.
 
-   Rutan Skapa begärandeformulär öppnas
+   The Create request form box opens
 
-1. Uppdatera namnet på begärandeformuläret i rutan Skapa begärandeformulär. Som standard är formulärets namn **Namnlöst formulär**.
-1. I fältet Objekttyper väljer du den posttyp som begärandeformuläret ska kopplas till. Posttyper grupperas i den arbetsyta som de finns på.
-1. (Valfritt) Lägg till en **beskrivning** för begärandeformuläret.
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. 
+1. In the Object types field, select the record type that the request form will be associated with. Record types are grouped into the workspace that they exist within.
+1. (Optional) Add a **Description** for the request form. 
 
-   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+1. Click **Create**. 
 
-1. Klicka på **Skapa**.
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
-   Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
-1. Fortsätt till [Konfigurera information för begärandeformuläret](#set-up-details-for-the-request-form).
+
 
 </div>
+
+-->
 
 ### Ställ in information för begärandeformuläret
 
 Formulärinformationen är uppdelad i flikar.
 
 * På fliken **Formulär** kan du lägga till fält och innehållselement i formuläret
-* På fliken **Konfiguration** kan du ange en godkännandeprocess för formuläret, <span class="preview"> och ange alternativ för slutförande av begäran</span>.
-* <span class="preview">På fliken **Automatisering** kan du automatisera vad som kommer att hända baserat på funktioner i den begäran som har gjorts i formuläret.</span>
+* På fliken **Konfiguration** kan du ange en godkännandeprocess för formuläret och ange alternativ för slutförande av begäran&lt;.
+  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Ställ in formulärinformation
 
@@ -227,14 +231,14 @@ Formulärinformationen är uppdelad i flikar.
 
 #### Ställ in konfigurationsinformation
 
-På fliken Konfiguration kan du ange godkännandeprocessen <span class="preview"> och konfigurera när en begäran som skapats från det här formuläret ska markeras som Slutförd</span>.
+På fliken Konfiguration kan du ange godkännandeprocessen och konfigurera när en begäran som skapats från det här formuläret ska markeras som Slutförd.
 
 1. Börja skapa eller redigera ett begärandeformulär, enligt beskrivningen i avsnittet [Börja skapa ett begärandeformulär](#begin-creating-a-request-form).
 
    Formuläret för begäran om den valda posttypen öppnas på fliken Formulär.
 1. (Valfritt) Konfigurera formulärinformation enligt beskrivningen i [Konfigurera formulärinformation](#set-up-form-details).
 
-1. (Valfritt) Klicka på fliken **Konfiguration** och lägg sedan till minst en användare <span class="preview">eller team</span> i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
+1. (Valfritt) Klicka på fliken **Konfiguration** och lägg sedan till minst en användare eller grupp i fältet **Godkännare** för att godkänna nya begäranden för det här postformuläret.
 
    ![Fliken Konfiguration](assets/configuration-tab.png)
 
@@ -244,44 +248,49 @@ På fliken Konfiguration kan du ange godkännandeprocessen <span class="preview"
    * Du kan lägga till en eller flera godkännare i ett begärandeformulär.
    * Om minst en godkännare avvisar begäran, avvisas begäran och posten skapas inte.
    * Alla godkännare måste fatta ett beslut innan en begäran godkänns eller avslås.
-   * <span class="preview">Om ett team har angetts som godkännare krävs endast ett beslut från teamet.</span>
+   * Om ett team utses till godkännare krävs endast ett beslut från teamet.
 
      Mer information om hur du lägger till godkännanden i begärandeformulär finns i [Lägga till godkännande i ett begärandeformulär](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. <span class="preview">(Villkorligt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**.</span>
+1. (Villkorligt) Om du vill att posten ska skapas efter att någon av godkännarna har godkänt den, markerar du kryssrutan **Endast ett beslut krävs**.
 
-1. <span class="preview">Välj om du vill att en begäran som skapats från det här formuläret ska markeras som slutförd när det begärda objektet skapas, eller när det begärda objektet slutförs.</span>
-1. <span class="preview">(Villkorligt) Om du har valt att begäran ska markeras som slutförd när det begärda objektet slutförs, markerar du det fält och det värde som anger när objektet är klart. Du kan t.ex. välja fältstatus och värdet Fullständig för att slutföra begäran när det skapade objektets status är Fullständig.</span>
-1. Fortsätt till [Konfigurera information om automatisering](#set-up-configuration-details) om du vill konfigurera mer information för formuläret, eller gå till [Skapa formulär för fullständig begäran](#complete-request-form-creation).
+1. Välj om du vill att en begäran som skapats från det här formuläret ska markeras som fullständig när det begärda objektet skapas, eller när det begärda objektet slutförs.
+1. (Villkorligt) Om du har valt att begäran ska markeras som slutförd när det begärda objektet slutförs, markerar du det fält och det värde som anger när objektet är klart. Du kan till exempel välja fältstatus och värdet Fullständig för att slutföra begäran när det skapade objektets status är Fullständig.
+1. Fortsätt till <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Slutför formulärskapandet för begäran](#complete-request-form-creation).
 
+<!--
+ 
 <div class="preview">
 
-#### Konfigurera automatisering
+#### Set up Automations
 
-Du kan konfigurera automatisering i Adobe Workfront Planning som, när den aktiveras, skapar objekt i Workfront eller poster i Workfront Planning när de aktiveras från en Planning-post.
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
-Information om hur du skapar automatiseringar i andra områden av Workfront Planning finns i [Konfigurera Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-1. Uppdatera följande fält i avsnittet **Utlösare** på informationssidan för automatiseringen:
+1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **Utlösare**: Välj den åtgärd som ska utlösa automatiseringen. För närvarande är den enda tillgängliga utlösaren för automatisering av begärandeformulär `When request object status equals pending creation`.
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
 
-1. Uppdatera följande fält i avsnittet **Åtgärder**: <!--submitted bugs for these fields - see if they need changing here-->
-   * **Åtgärder**: Välj den åtgärd som du vill att Workfront ska utföra när automatiseringen aktiveras. Detta är ett obligatoriskt fält.
-För närvarande är den enda tillgängliga åtgärden för automatisering av begärandeformulär `Create record`.
+1. Update the following fields in the **Actions** section: 
+
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
 
      >[!TIP]
      >
-     >När du har sparat automatiseringen kan du inte längre ändra åtgärden som är vald i det här fältet.
-1. Fortsätt till [Slutför formulärskapandet för begäran](#complete-request-form-creation).
+     >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
 
 
 </div>
 
+-->
+
 ### Skapa formulär för fullständig begäran
 
 1. Skapa och konfigurera formuläret enligt beskrivningen i [Börja skapa ett begärandeformulär](#begin-creating-a-request-form) och [Konfigurera information för begärandeformuläret](#set-up-details-for-the-request-form).
-1. (Valfritt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
+1. (Valfritt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om formulärets namn i rubriken och klicka sedan på **Redigera** för att uppdatera formulärets namn.
 
 1. Klicka på **Publicera** för att publicera formuläret och få en unik länk för det.
 
@@ -310,7 +319,7 @@ För närvarande är den enda tillgängliga åtgärden för automatisering av be
 
    Posttypssidan öppnas i den vy som du senast använde. Som standard öppnas en posttypssida i tabellvyn.
 
-1. Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
+1. Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i sidhuvudet och klicka sedan på **Hantera begärandeformulär**.
 
    Alla förfrågningsformulär som är associerade med posttypen visas i en tabellvy.
 
@@ -327,7 +336,7 @@ För närvarande är den enda tillgängliga åtgärden för automatisering av be
 1. Klicka på vänsterpilen till vänster om **Begär formulär** i sidhuvudet för att stänga tabellen med förfrågningsformulär.
 
    Posttypssidan öppnas.
-1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer &#x200B;](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+1. (Valfritt och villkorligt) Klicka på menyn **Mer** ![Mer ](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
 
    1. Klicka på **Uppdatera begärandeformuläret** för att göra ändringar i begärandeformuläret och klicka sedan på ett begärandeformulär för att öppna och redigera det.
    1. Klicka på **Kopiera länk för att begära formulär** om du vill dela länken till formuläret med andra.

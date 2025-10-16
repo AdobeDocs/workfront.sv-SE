@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -144,15 +144,7 @@ Om du aktiverar den här inställningen blir Workfront Planning-förfrågningsfo
    * De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste.
    * 50 ytterligare begärandeköer för Workfront och planeringsförfrågningsformulär visas i alfabetisk ordning i avsnittet **Alla förfrågningsformulär**. Du kan söka efter en begärandekö som inte visas som standard.
 
-1. Gör något av följande i produktionsmiljön:
-
-   * Markera planeringsförfrågningsformulären i avsnitten Senaste eller Alla förfrågningsformulär
-   * Börja skriva namnet på ett planeringsbegärandeformulär i sökrutan och klicka sedan på kortet när det visas i listan.
-
-   Formuläret för begäran öppnas.
-
-<!-- Put preview section here-->
-1. <span class="preview">I förhandsgranskningsmiljön väljer du ett begärandeformulär eller en kö i området Senast använda begärandeformulär, eller börjar skriva in formulärets eller köns namn i listan och markerar det när det visas.
+1. Välj ett begärandeformulär eller en kö i området Senast använda begärandeformulär, eller börja skriva in formulärets eller köns namn i listan och markera det när det visas.
 
 1. Uppdatera fälten som är tillgängliga i begärandeformuläret. Fält med en röd asterisk är obligatoriska.
 1. Klicka på **Skicka**.
@@ -221,16 +213,9 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
    Sidan med information om förfrågan öppnas.
 
-   ![Sidan Begär information](assets/request-details-page.png)
-
-   <div class="preview">
-      I förhandsgranskning:
-
    ![Begär sida med kommentar](assets/new-request-page-with-comment.png)
 
-   </div>
-
-1. <span class="preview">(Valfritt) Ange en kommentar i kommentarsområdet.
+1. (Valfritt) Ange en kommentar i kommentarområdet.
 1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på postens namn i fältet **Post**.
 
    Postens sida öppnas i Workfront Planning.
@@ -292,16 +277,11 @@ Begärandelistan filtreras automatiskt när du lägger till filtervillkoren.
 
    Sidan med information om förfrågan öppnas.
 
-   ![Sidan Begär information](assets/request-details-page.png)
-
-   <div class="preview">
-   I förhandsgranskning:
-
    ![Begär sida med kommentar](assets/new-request-page-with-comment.png)
 
-   </div>
 
-1. <span class="preview">(Valfritt) Ange en kommentar i kommentarsområdet.
+
+1. (Valfritt) Ange en kommentar i kommentarområdet.
 1. (Villkorligt) Om begärandeformuläret inte är kopplat till ett godkännande, eller om begäran har godkänts, klickar du på namnet på begäran och sedan på postens namn i fältet **Post**.
 
    Postens sida öppnas i Workfront Planning.

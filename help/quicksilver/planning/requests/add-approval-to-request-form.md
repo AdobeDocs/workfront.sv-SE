@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -90,11 +90,11 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    Området **Konfiguration** visas.
 
    ![Fliken Konfiguration](assets/configuration-tab.png)
-1. Klicka på listruteikonen i fältet **Godkännare** och välj en eller flera användare <span class="preview">eller team</span> i listan
+1. Klicka på listruteikonen i fältet **Godkännare** och välj en eller flera användare eller team i listan
 
    eller
 
-   Börja skriva namnet på en användare <span class="preview">eller ett team</span> som du vill ange som godkännare och markera det sedan när det visas i listan.
+   Börja skriva namnet på en användare eller ett team som du vill ange som godkännare och markera det sedan när det visas i listan.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -109,7 +109,7 @@ Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-doku
    >
    >* Alla godkännare måste fatta ett beslut innan en begäran godkänns eller avslås.
    >
-   >* <span class="preview">Om ett team har angetts som godkännare krävs endast ett beslut från teamet.</span>
+   >* Om ett team utses till godkännare krävs endast ett beslut från teamet.
 
 
 1. (Valfritt) Klicka på **Publicera** om du aldrig har delat begärandeformuläret tidigare

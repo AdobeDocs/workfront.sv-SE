@@ -7,9 +7,9 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 # Skapa köämnen
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Köämnen fungerar tillsammans med routningsregler för att automatiskt tilldela inkommande arbete till en användare, en jobbroll, ett team eller för att placera det i ett projekt. Köämnen definierar villkoren som måste finnas för att routningsregeln ska implementeras.
 
@@ -179,8 +177,7 @@ Så här redigerar du ett befintligt köämne:
 
 1. Gå till det projekt eller den mall som innehåller det köämne som du vill redigera.
 1. Klicka på **Köa ämnen** i den vänstra panelen.
-1. I produktionsmiljön väljer du det köämne som du vill redigera. Klicka på **Redigera köämne** på detaljsidan som öppnas.
-1. <span class="preview">Klicka på det köämne som du vill redigera i förhandsvisningsmiljön.
+1. Klicka på det köämne som du vill redigera.
 
 Mer information om tillgängliga redigeringsalternativ finns i [Skapa ett köämne](#create-a-queue-topic) i den här artikeln.
 

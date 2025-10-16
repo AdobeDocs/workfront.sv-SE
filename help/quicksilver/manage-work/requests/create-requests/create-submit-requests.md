@@ -6,9 +6,9 @@ description: Planerat arbete representeras i Adobe Workfront av projekt och uppg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2580'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,6 @@ ht-degree: 0%
 </div>
 -->
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
-
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Planerat arbete representeras i Adobe Workfront av projekt och uppgifter. Du kan dock arbeta i en miljö där oplanerat arbete, i form av förfrågningar, kan komma in när som helst. Workfront tillhandahåller ett arbetsflöde för den här typen av miljö genom att använda frågeköer.
 
@@ -144,23 +141,16 @@ Så här skapar du en begäran i Workfront webbprogram:
 
    Rutan **Ny begäran** öppnas.
 
-1. (Villkorligt) Om du växlade till den nya upplevelsen och befinner dig i produktionsmiljön visas följande i rutan **Ny begäran**:</span>
+1. (Villkorligt) Om du växlade till det nya gränssnittet väljer du en av sökvägarna eller formulären för Workfront-frågekö eller klickar på sökfältet.
 
-   <ul><li>De sex senast öppnade begärandeköerna för Workfront och planeringsförfrågningsformulären visas i avsnittet Senaste. </li>
-    <li>Alla ytterligare förfrågningsformulär för Workfront och Planning <b>Alla förfrågningsformulär</b>. Du kan söka efter ett begärandeformulär som inte visas som standard. </li>
-    <li>Alla ytterligare kösökvägar för Workfront- och planeringsförfrågningar visas i avsnittet <b>Alla sökvägar för förfrågningar</b>. Du kan söka efter en begärandekö som inte visas som standard.</li></ul>
-   Klicka på någon av sökvägarna eller formulären för Workfront-frågekö, eller sök efter en, och klicka sedan på den när den visas i listan.
-1. <span class="preview"> (Villkorligt) Om du växlade till den nya funktionen väljer du en av sökvägarna eller formulären i Workfront-frågekö eller klickar på sökfältet. </span>
-
-   <span class="preview">När du klickar på sökfältet visas en listruta med de senast använda köerna och formulären först. Välj en från listan eller börja skriva och välj kön eller formuläret när det visas.</span>
+   När du klickar på sökfältet visas en listruta med de senast använda köerna och formulären först. Välj en från listan eller börja skriva och välj kön eller formuläret när det visas.
 
    >[!NOTE]
    >
-   ><span class="preview">Tänk på följande när det gäller den nya begärandeupplevelsen som för närvarande är tillgänglig i förhandsgranskningen:</span>
-   >* <span class="preview">Listan innehåller både Workfront begärandeköer och Workfront Planning-förfrågningsformulär.</span>
-   >* <span class="preview">Du kan filtrera listan efter objekttyp.</span>
-   >* <span class="preview">Om du bara vill visa Workfront Request-köer filtrerar du efter `Issue` objekttyper.</span>
-   >* <span class="preview">I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.</span>
+   >Tänk på följande när det gäller den nya upplevelsen som begär:
+   >* Listan innehåller både Workfront begärandeköer och Workfront Planning-förfrågningsformulär.
+   >* Du kan filtrera listan efter objekttyp.
+   >* I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.
 
 1. (Villkorligt) Om du växlade till den nya versionen väljer du ämnesgrupper och köämnen och fortsätter att uppdatera formuläret.
 

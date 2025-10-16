@@ -6,16 +6,14 @@ description: Förutom att använda tillgängliga utkast som Workfront föreslår
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
 # Skapa begäranden från utkast
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
 Förutom att använda tillgängliga utkast som Workfront föreslår när du anger en ny begäran, kan du även få åtkomst till ett utkast från sektionen Utkast och slutföra den därifrån.
 
@@ -107,6 +105,6 @@ Du måste göra följande innan du kan skapa en begäran från ett utkast: 
 
    >[!NOTE]
    >
-   >* <span class="preview">I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.</span>
-   ><span class="preview">Mer information om hur du skapar begäranden i den nya upplevelsen finns i [Skapa begäranden och generera utkast i Workfront webbapp](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) i artikeln Skapa och skicka-begäranden.</span>
+   >I den nya begärandeupplevelsen finns utkast i samma lista som skickade begäranden.
+   >Mer information om hur du skapar begäranden i den nya upplevelsen finns i [Skapa begäranden och generera utkast i Workfront webbprogram](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) i artikeln Skapa och skicka-begäranden.
 

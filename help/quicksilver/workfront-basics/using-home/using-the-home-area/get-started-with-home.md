@@ -6,9 +6,9 @@ description: Home hjälper dig att hantera ditt arbete. Du kan anpassa det här 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Innehållet i den här artikeln har ersatts med innehåll från artikeln Kom igång med nytt hem. Nytt hem kallas nu Hem.
-
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder. Efter de månatliga releaserna i Production finns samma funktioner även i produktionsmiljön för kunder som aktiverat snabba releaser. </span>
 
 Den nya Home-upplevelsen i Adobe Workfront syftar till att förbättra den aktuella Home-upplevelsen samtidigt som du får ett flexiblare sätt att fokusera på rätt arbete.
 
@@ -55,9 +53,7 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
     Visar problem som du har tilldelats i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa ett problem direkt från widgeten. Den här widgeten innehåller endast problem vars associerade projekt är inställda på Aktuell och inte slutförda projekt. Du kan även delegera dina ärenden medan du inte är på kontoret.
 
 * **Mina förfrågningar**\
-    Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningspanelen för en begäran.
-
-  <span class="preview">I förhandsvisningsmiljön visar den här widgeten alla begäranden som du har skickat, ett filter som endast visar begäranden som uppfyller de villkor som du anger och en knapp som gör att du kan ordna om kolumnerna i widgeten. Om du har tillgång till Workfront Planning visas dina Planning-begäranden även här.</span>
+    Visar alla begäranden som du har skickat, ett filter som endast visar begäranden som uppfyller de villkor som du anger, och en knapp som gör att du kan ordna om kolumnerna i widgeten. Om du har tillgång till Workfront Planning visas dina Planning-begäranden här.
 
 
 * **Teamförfrågningar**\
@@ -143,7 +139,7 @@ Du kan lägga till lite personlig överstrålning på hemsidan genom att välja 
 
 1. Gå till hemsidan genom att göra något av följande:
 
-   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront &#x200B;](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
+   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront ](assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
    * Klicka på ikonen **Huvudmeny** i det övre högra hörnet av skärmen eller på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Hem** .
 
 1. Klicka på **Anpassa** längst upp till höger på skärmen.
